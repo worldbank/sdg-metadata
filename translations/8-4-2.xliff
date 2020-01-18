@@ -1,0 +1,165 @@
+<xliff xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd" xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file original="8.4.2 (12.2.2)" datatype="plaintext" source-language="en" target-language="en">
+    <body>
+      <trans-unit id="META_LAST_UPDATE" xml:space="preserve">
+        <source>43143</source>
+        <target>43143</target>
+        <note>SDG_INDICATOR_INFO</note>
+      </trans-unit>
+      <trans-unit id="SDG_INDICATOR" xml:space="preserve">
+        <source>Indicator 8.4.2: Domestic material consumption, domestic material consumption per capita, and domestic material consumption per GDP</source>
+        <target>Indicator 8.4.2: Domestic material consumption, domestic material consumption per capita, and domestic material consumption per GDP</target>
+        <note>SDG_INDICATOR_INFO</note>
+      </trans-unit>
+      <trans-unit id="SDG_CUSTODIAN_AGENCIES" xml:space="preserve">
+        <source>Institutional information
+
+Organization(s): United Nations Environment Programme (UNEP)</source>
+        <target>Institutional information
+
+Organization(s): United Nations Environment Programme (UNEP)</target>
+        <note>SDG_INDICATOR_INFO</note>
+      </trans-unit>
+      <trans-unit id="STAT_CONC_DEF" xml:space="preserve">
+        <source>Concepts and defintions
+
+Defintion: Domestic Material Consumption (DMC) is a standard material flow accounting (MFA) indicator and reports the apparent consumption of materials in a national economy.</source>
+        <target>Concepts and defintions
+
+Defintion: Domestic Material Consumption (DMC) is a standard material flow accounting (MFA) indicator and reports the apparent consumption of materials in a national economy.</target>
+        <note>IND_DEF_CON_CLASS</note>
+      </trans-unit>
+      <trans-unit id="RATIONALE" xml:space="preserve">
+        <source>Rationale
+DMC reports the amount of materials that are used in a national economy. DMC is a territorial (production side) indicator. DMC also presents the amount of material that needs to be handled within an economy, which is either added to material stocks of buildings and transport infrastructure or used to fuel the economy as material throughput. DMC describes the physical dimension of economic processes and interactions. It can also be interpreted as long-term waste equivalent. Per-capita DMC describes the average level of material use in an economy – an environmental pressure indicator – and is also referred to as metabolic profile.</source>
+        <target>Rationale
+DMC reports the amount of materials that are used in a national economy. DMC is a territorial (production side) indicator. DMC also presents the amount of material that needs to be handled within an economy, which is either added to material stocks of buildings and transport infrastructure or used to fuel the economy as material throughput. DMC describes the physical dimension of economic processes and interactions. It can also be interpreted as long-term waste equivalent. Per-capita DMC describes the average level of material use in an economy – an environmental pressure indicator – and is also referred to as metabolic profile.</target>
+        <note>OTHER_METHOD</note>
+      </trans-unit>
+      <trans-unit id="CLASS_SYSTEM" xml:space="preserve">
+        <source>Concepts
+Domestic Material Consumption (DMC) and MF need to be looked at in combination as they cover the two aspects of the economy, production and consumption. The DMC reports the actual amount of material in an economy, MF the virtual amount required across the whole supply chain to service final demand. A country can, for instance have a very high DMC because it has a large primary production sector for export or a very low DMC because it has outsourced most of the material intensive industrial process to other countries. The material footprint corrects for both phenomena.</source>
+        <target>Concepts
+Domestic Material Consumption (DMC) and MF need to be looked at in combination as they cover the two aspects of the economy, production and consumption. The DMC reports the actual amount of material in an economy, MF the virtual amount required across the whole supply chain to service final demand. A country can, for instance have a very high DMC because it has a large primary production sector for export or a very low DMC because it has outsourced most of the material intensive industrial process to other countries. The material footprint corrects for both phenomena.</target>
+        <note>IND_DEF_CON_CLASS</note>
+      </trans-unit>
+      <trans-unit id="REC_USE_LIM" xml:space="preserve">
+        <source>Comments and limitations
+DMC cannot be disaggregated to economic sectors which limits its potential to become a satellite account to the System of National Accounts (SNA).</source>
+        <target>Comments and limitations
+DMC cannot be disaggregated to economic sectors which limits its potential to become a satellite account to the System of National Accounts (SNA).</target>
+        <note>OTHER_METHOD</note>
+      </trans-unit>
+      <trans-unit id="DATA_COMP" xml:space="preserve">
+        <source>Methodology
+
+Computation Method
+It is calculated as direct imports (IM) of material plus domestic extraction (DE) of materials minus direct exports (EX) of materials measured in metric tonnes. DMC measure the amount of materials that are used in economic processes. It does not include materials that are mobilized the process of domestic extraction but do not enter the economic process. DMC is based on official economic statistics and it requires some modelling to adapt the source data to the methodological requirements of the MFA. The accounting standard and accounting methods are set out in the EUROSTAT guidebooks for MFA accounts in the latest edition of 2013. MFA accounting is also part of the central framework of the System  of integrated Environmental-Economic Accounts (SEEA).</source>
+        <target>Methodology
+
+Computation Method
+It is calculated as direct imports (IM) of material plus domestic extraction (DE) of materials minus direct exports (EX) of materials measured in metric tonnes. DMC measure the amount of materials that are used in economic processes. It does not include materials that are mobilized the process of domestic extraction but do not enter the economic process. DMC is based on official economic statistics and it requires some modelling to adapt the source data to the methodological requirements of the MFA. The accounting standard and accounting methods are set out in the EUROSTAT guidebooks for MFA accounts in the latest edition of 2013. MFA accounting is also part of the central framework of the System  of integrated Environmental-Economic Accounts (SEEA).</target>
+        <note>OTHER_METHOD</note>
+      </trans-unit>
+      <trans-unit id="DISAGGREGATION" xml:space="preserve">
+        <source>Disaggregation
+The DMC indicator can be disaggregated into imports, domestic extraction and exports by a large number of material follow categories. At the highest level of aggregation biomass, fossil fuels, metal ores and non-metallic minerals are distinguished. DMC is usually reported for 11 material categories, DE for 44 material categories.</source>
+        <target>Disaggregation
+The DMC indicator can be disaggregated into imports, domestic extraction and exports by a large number of material follow categories. At the highest level of aggregation biomass, fossil fuels, metal ores and non-metallic minerals are distinguished. DMC is usually reported for 11 material categories, DE for 44 material categories.</target>
+        <note>COVERAGE</note>
+      </trans-unit>
+      <trans-unit id="IMPUTATION" xml:space="preserve">
+        <source>Treatment of missing values
+* At a country level: 
+A zero is imputed when no positive real value was officially recorded, in the base data sets used, for any of the underlying components which make up this aggregated total. Thus “0.0” can represent either NA, or a genuine 0.0, or (crucially) a combination of both, which is a common situation. This allows for values to be easily aggregated into further aggregations; however, it should be thus noted that due to imputing missing values as ‘0.0’, the aggregations may represent a lower value than actual situation. 
+* At regional and global levels: 
+Similarly, missing values are imputed as zero in the regional and global aggregations. However, in the case where no data is available at all for a particular country then the per capita and per GDP estimates are weighted averages of the available data.</source>
+        <target>Treatment of missing values
+* At a country level: 
+A zero is imputed when no positive real value was officially recorded, in the base data sets used, for any of the underlying components which make up this aggregated total. Thus “0.0” can represent either NA, or a genuine 0.0, or (crucially) a combination of both, which is a common situation. This allows for values to be easily aggregated into further aggregations; however, it should be thus noted that due to imputing missing values as ‘0.0’, the aggregations may represent a lower value than actual situation. 
+* At regional and global levels: 
+Similarly, missing values are imputed as zero in the regional and global aggregations. However, in the case where no data is available at all for a particular country then the per capita and per GDP estimates are weighted averages of the available data.</target>
+        <note>OTHER_METHOD</note>
+      </trans-unit>
+      <trans-unit id="REG_AGG" xml:space="preserve">
+        <source>Regional aggregates
+See: http://uneplive.unep.org/media/docs/graphs/aggregation_methods.pdf</source>
+        <target>Regional aggregates
+See: http://uneplive.unep.org/media/docs/graphs/aggregation_methods.pdf</target>
+        <note>OTHER_METHOD</note>
+      </trans-unit>
+      <trans-unit id="ADJUSTMENT" xml:space="preserve">
+        <source>Sources of discrepancies</source>
+        <target>Sources of discrepancies</target>
+        <note>OTHER_METHOD</note>
+      </trans-unit>
+      <trans-unit id="DOC_METHOD" xml:space="preserve">
+        <source>Data availability
+
+Description: The data covers more than 170 countries.</source>
+        <target>Data availability
+
+Description: The data covers more than 170 countries.</target>
+        <note>OTHER_METHOD</note>
+      </trans-unit>
+      <trans-unit id="COLL_METHOD" xml:space="preserve">
+        <source>Collection process
+The IRP Global Material Flows and Resource Productivity working group compiles the data from countries and from other sources.</source>
+        <target>Collection process
+The IRP Global Material Flows and Resource Productivity working group compiles the data from countries and from other sources.</target>
+        <note>SRC_TYPE_COLL_METHOD</note>
+      </trans-unit>
+      <trans-unit id="SDG_SERIES_DESCR" xml:space="preserve">
+        <source>Time series
+The data set covers each nation individually, over a time period of 47 years (1970-2017).</source>
+        <target>Time series
+The data set covers each nation individually, over a time period of 47 years (1970-2017).</target>
+        <note>SDG_INDICATOR_INFO</note>
+      </trans-unit>
+      <trans-unit id="FREQ_COLL" xml:space="preserve">
+        <source>Data collection
+Under discussion</source>
+        <target>Data collection
+Under discussion</target>
+        <note>SRC_TYPE_COLL_METHOD</note>
+      </trans-unit>
+      <trans-unit id="REL_CAL_POLICY" xml:space="preserve">
+        <source>Data release
+September 11, 2017</source>
+        <target>Data release
+September 11, 2017</target>
+        <note>SRC_TYPE_COLL_METHOD</note>
+      </trans-unit>
+      <trans-unit id="DATA_SOURCE" xml:space="preserve">
+        <source>Data providers
+National Statistical Offices</source>
+        <target>Data providers
+National Statistical Offices</target>
+        <note>SRC_TYPE_COLL_METHOD</note>
+      </trans-unit>
+      <trans-unit id="COMPILING_ORG" xml:space="preserve">
+        <source>Data compilers
+UNEP, OECD and EUROSTAT</source>
+        <target>Data compilers
+UNEP, OECD and EUROSTAT</target>
+        <note>SRC_TYPE_COLL_METHOD</note>
+      </trans-unit>
+      <trans-unit id="CONTACT_ORGANISATION" xml:space="preserve">
+        <source>References 
+
+URL</source>
+        <target>References 
+
+URL</target>
+        <note>CONTACT</note>
+      </trans-unit>
+      <trans-unit id="SDG_RELATED_INDICATORS" xml:space="preserve">
+        <source>Related indicators
+Indicator 12.2.2</source>
+        <target>Related indicators
+Indicator 12.2.2</target>
+        <note>SDG_INDICATOR_INFO</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
