@@ -4,8 +4,11 @@ const fs = require('fs')
 const path = require('path')
 const excelFile = 'source.xlsx'
 
+const sourceLanguage = 'en'
+const targetLanguage = 'ru'
+
 // Create the folder
-const dir = './translations';
+const dir = ['.', 'translations', targetLanguage].join(path.sep);
 if (!fs.existsSync(dir)){
     fs.mkdirSync(dir);
 }
@@ -49,7 +52,7 @@ function getUnit(source, target, note=null) {
     return unit
 }
 // Helper function to an XLIFF file.
-function writeXliff(filename, sourceLanguage, targetLanguage, namespace, units) {
+function writeXliff(filename, namespace, units) {
     const js = {
         resources: {},
         sourceLanguage: sourceLanguage,
@@ -95,15 +98,15 @@ async function main() {
                 goals[goalFromSheet(sheetName)] = getUnit(value, value)
                 continue
             }
-            fields[id] = getUnit(value, value, parent)
+            fields[id] = getUnit(value, '', parent)
         }
         // Write the output for this indicator.
-        writeXliff(fileFromSheet(sheetName), 'en', 'en', sheetName, fields)
+        writeXliff(fileFromSheet(sheetName), sheetName, fields)
     }
 
     // Write the output for targets and goals.
-    writeXliff('targets.xliff', 'en', 'en', 'targets', targets)
-    writeXliff('goals.xliff', 'en', 'en', 'goals', goals)
+    writeXliff('targets.xliff', 'targets', targets)
+    writeXliff('goals.xliff', 'goals', goals)
 
 }
 
