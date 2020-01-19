@@ -1,6 +1,6 @@
 {% assign page_path = page.path | replace: '/index.md', '' %}
 {% assign parts = page_path | split: '/' %}
-{% assign href = site.url %}
+{% assign href = site.url | append: site.baseurl %}
 <ul class="breadcrumbs">
   <li><a href="{{ href }}">home</a></li>
   {% for part in parts %}
