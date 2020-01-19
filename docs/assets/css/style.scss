@@ -11,4 +11,20 @@
   font-weight: 700;
   box-shadow: 0 0 10px rgba(0,0,0,.5);
   border-radius: 2px;
+  margin-bottom: 10px;
+}
+
+.breadcrumbs {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  li {
+    display: inline;
+    text-transform: capitalize;
+    &:not(:last-child) {
+      &:after {
+        content: ' → ';
+      }
+    }
+  }
 }

@@ -1,0 +1,25 @@
+---
+title: "Indicator: 17-1-1"
+layout: indicator
+language: ru
+fields:
+  - META_PAGE
+  - META_LAST_UPDATE
+  - LANGUAGE
+  - TRANS_SOURCE
+  - SDG_INDICATOR
+  - SDG_CUSTODIAN_AGENCIES
+  - STAT_CONC_DEF
+  - RATIONALE
+  - DATA_COMP
+  - DISAGGREGATION
+  - IMPUTATION
+  - ADJUSTMENT
+  - REG_AGG
+  - SOURCE_TYPE
+  - REC_USE_LIM
+  - DATA_AVAILABILITY
+  - FREQ_COLL
+  - COMPILING_ORG
+slug: 17-1-1
+---

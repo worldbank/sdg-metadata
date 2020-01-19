@@ -1,0 +1,12 @@
+---
+layout: default
+---
+{% include breadcrumbs.html %}
+<h2>Choose a language</h2>
+<ul>
+  {% for language in page.languages %}
+  <li>
+    <a class="call-to-action" href="{{ language }}">{{ language }}</a>
+  </li>
+  {% endfor %}
+</ul>

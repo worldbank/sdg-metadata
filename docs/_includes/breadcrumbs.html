@@ -1,0 +1,14 @@
+{% assign page_path = page.path | replace: '/index.md', '' %}
+{% assign parts = page_path | split: '/' %}
+{% assign href = site.url %}
+<ul class="breadcrumbs">
+  <li><a href="{{ href }}">home</a></li>
+  {% for part in parts %}
+    {% if forloop.last %}
+      <li>{{ page.slug }}</li>
+    {% else %}
+      {% assign href = href | append: '/' | append: part %}
+      <li><a href="{{ href }}">{{ part }}</a></li>
+    {% endif %}
+  {% endfor %}
+</ul>

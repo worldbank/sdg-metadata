@@ -1,0 +1,12 @@
+---
+layout: default
+---
+{% include breadcrumbs.html %}
+<h2>{{ page.title }}</h2>
+<ul>
+{% for field in page.fields %}
+  <li>
+    <a href="{{ field }}">{{ field }}</a>
+  </li>
+{% endfor %}
+</ul>

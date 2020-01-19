@@ -1,0 +1,15 @@
+---
+layout: default
+---
+{% include breadcrumbs.html %}
+<h2>{{ page.title }}</h2>
+{% assign pages = site.pages | where: 'language', page.language %}
+{% assign pages = pages | where: 'layout', 'indicator' %}
+{% assign pages = pages | sort: 'title' %}
+<ul>
+{% for page in pages %}
+  <li>
+    <a href="{{ page.slug }}">{{ page.title }}</a>
+  </li>
+{% endfor %}
+</ul>
