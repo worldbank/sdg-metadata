@@ -6,5 +6,6 @@ language: en
 indicator: 4-1-1a
 slug: COLL_METHOD
 ---
-Collection process
+## Collection process
+
 Information not available.

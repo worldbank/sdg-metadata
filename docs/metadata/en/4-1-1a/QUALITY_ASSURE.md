@@ -6,5 +6,6 @@ language: en
 indicator: 4-1-1a
 slug: QUALITY_ASSURE
 ---
-Quality assurance
+## Quality assurance
+
 * Information not available.

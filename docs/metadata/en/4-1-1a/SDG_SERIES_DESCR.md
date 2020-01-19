@@ -6,5 +6,6 @@ language: en
 indicator: 4-1-1a
 slug: SDG_SERIES_DESCR
 ---
-Time series
+## Time series
+
 Data available since 2000. The indicator will be reported annually.
