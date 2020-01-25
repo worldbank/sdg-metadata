@@ -6,15 +6,16 @@ language: en
 indicator: 11-1-1
 slug: DISAGGREGATION
 ---
-Disaggregation [^13]
-Potential disaggregation
+## Disaggregation [^13]
+
+### Potential disaggregation
 * Disaggregation by location (intra-urban)
 * Disaggregation by income group
 * Disaggregation by sex, race, ethnicity, religion, migration status (head of household)
 * Disaggregation by age (household members)
 * Disaggregation by disability (household members)
 
-Quantifiable Derivatives:
+### Quantifiable Derivatives:
 * Proportion of households with durable housing
 * Proportion of households with improved water
 * Proportion of households with improved sanitation

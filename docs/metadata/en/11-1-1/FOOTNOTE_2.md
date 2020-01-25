@@ -6,4 +6,4 @@ language: en
 indicator: 11-1-1
 slug: FOOTNOTE_2
 ---
-[^2}: Ibid.
+[^2]: Ibid.
