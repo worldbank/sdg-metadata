@@ -6,10 +6,11 @@ language: en
 indicator: 4-1-1bc
 slug: DATA_COMP
 ---
-Methodology
+# Methodology
 
-Computation method
-The indicator is calculated as the percentage of children and/or young people at the relevant stage of education achieving or exceeding a pre-defined proficiency level in a given subject. 
+## Computation method
+
+The indicator is calculated as the percentage of children and/or young people at the relevant stage of education achieving or exceeding a pre-defined proficiency level in a given subject.
 
 Performance above the minimum level, PL tn,s,above minimum = p
 

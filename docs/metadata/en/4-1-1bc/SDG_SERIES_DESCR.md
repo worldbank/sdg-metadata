@@ -6,5 +6,6 @@ language: en
 indicator: 4-1-1bc
 slug: SDG_SERIES_DESCR
 ---
-Time series
+## Time series
+
 Latest year available in the period 2010-2015.

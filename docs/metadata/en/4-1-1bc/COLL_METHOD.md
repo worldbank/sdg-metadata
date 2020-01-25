@@ -6,5 +6,6 @@ language: en
 indicator: 4-1-1bc
 slug: COLL_METHOD
 ---
-Collection process
+## Collection process
+
 For cross-national learning assessments, data were provided by the respective organizations responsible for each assessment.
