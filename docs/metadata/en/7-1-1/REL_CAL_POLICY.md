@@ -6,7 +6,8 @@ language: en
 indicator: 7-1-1
 slug: REL_CAL_POLICY
 ---
-Calendar
+# Calendar
 
-Data release
+## Data release
+
 Ongoing

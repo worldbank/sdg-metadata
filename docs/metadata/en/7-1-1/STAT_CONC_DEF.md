@@ -6,7 +6,8 @@ language: en
 indicator: 7-1-1
 slug: STAT_CONC_DEF
 ---
-Concepts and definitions
+# Concepts and definitions
 
-Definition
+## Definition
+
 Proportion of population with access to electricity is the percentage of population with access to electricity.

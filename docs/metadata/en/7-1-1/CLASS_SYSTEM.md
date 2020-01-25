@@ -6,5 +6,6 @@ language: en
 indicator: 7-1-1
 slug: CLASS_SYSTEM
 ---
-Concepts
+## Concepts
+
 Please see method of computation for more details.
