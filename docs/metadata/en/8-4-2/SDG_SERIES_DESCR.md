@@ -6,5 +6,6 @@ language: en
 indicator: 8-4-2
 slug: SDG_SERIES_DESCR
 ---
-Time series
+## Time series
+
 The data set covers each nation individually, over a time period of 47 years (1970-2017).
