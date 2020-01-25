@@ -6,7 +6,8 @@ language: en
 indicator: 5-3-1
 slug: STAT_CONC_DEF
 ---
-Concepts and defintions
+# Concepts and definitions
 
-Definition
+## Definition
+
 Proportion of women aged 20-24 years who were married or in a union before age 15 and before age 18

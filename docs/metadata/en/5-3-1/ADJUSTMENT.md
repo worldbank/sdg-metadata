@@ -6,5 +6,6 @@ language: en
 indicator: 5-3-1
 slug: ADJUSTMENT
 ---
-Sources of discrepancies
+## Sources of discrepancies
+
 The estimates compiled and presented at global level come directly from nationally produced data and are not adjusted or recalculated.
