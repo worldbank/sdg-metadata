@@ -119,7 +119,7 @@ async function doLanguage(language) {
     for (const goal of Object.keys(goals)) {
         writeMarkdownFile(goalFolder, goal, goals[goal], {
             title: 'Goal: ' + goal,
-            layout: 'field',
+            layout: 'goal',
             language: language,
             parent: 'SDG_INDICATOR_INFO',
             slug: goal,
@@ -131,7 +131,7 @@ async function doLanguage(language) {
     for (const target of Object.keys(targets)) {
         writeMarkdownFile(targetFolder, target, targets[target], {
             title: 'Target: ' + target,
-            layout: 'field',
+            layout: 'target',
             language: language,
             parent: 'SDG_INDICATOR_INFO',
             slug: target,
