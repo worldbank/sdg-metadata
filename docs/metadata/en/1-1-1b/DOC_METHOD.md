@@ -6,4 +6,4 @@ language: en
 indicator: 1-1-1b
 slug: DOC_METHOD
 ---
-Methods and guidance available to countries for the compilation of the data at the national level
+## Methods and guidance available to countries for the compilation of the data at the national level
