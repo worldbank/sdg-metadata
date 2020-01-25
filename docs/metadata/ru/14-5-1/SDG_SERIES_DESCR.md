@@ -6,5 +6,6 @@ language: ru
 indicator: 14-5-1
 slug: SDG_SERIES_DESCR
 ---
-Time series
- ~150 years
+## Time series
+
+~150 years

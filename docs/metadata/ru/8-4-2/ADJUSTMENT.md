@@ -6,4 +6,4 @@ language: ru
 indicator: 8-4-2
 slug: ADJUSTMENT
 ---
-Sources of discrepancies
+## Sources of discrepancies

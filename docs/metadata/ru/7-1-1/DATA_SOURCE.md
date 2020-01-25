@@ -6,5 +6,6 @@ language: ru
 indicator: 7-1-1
 slug: DATA_SOURCE
 ---
-Data providers
+# Data providers
+
 NA

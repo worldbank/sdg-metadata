@@ -4,7 +4,11 @@
 <ul class="breadcrumbs">
   <li><a href="{{ href }}">home</a></li>
   {% for part in parts %}
-    {% if forloop.last %}
+    {% if part == 'goals' %}
+      {% continue %}
+    {% elsif part == 'targets' %}
+      {% continue %}
+    {% elsif forloop.last %}
       <li>{{ page.slug }}</li>
     {% else %}
       {% assign href = href | append: '/' | append: part %}

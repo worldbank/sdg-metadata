@@ -6,5 +6,6 @@ language: ru
 indicator: 1-1-1a
 slug: COMPILING_ORG
 ---
-Data compilers
+# Data compilers
+
 World Bank

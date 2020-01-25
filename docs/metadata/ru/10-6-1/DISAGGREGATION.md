@@ -6,5 +6,6 @@ language: ru
 indicator: 10-6-1
 slug: DISAGGREGATION
 ---
-Disaggregation
+## Disaggregation
+
 Data is calculated and presented separately for each international organization.

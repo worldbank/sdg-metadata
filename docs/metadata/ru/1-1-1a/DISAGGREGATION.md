@@ -6,5 +6,6 @@ language: ru
 indicator: 1-1-1a
 slug: DISAGGREGATION
 ---
-Disaggregation
+## Disaggregation
+
 Work is underway at the World Bank for disaggregated poverty estimates.

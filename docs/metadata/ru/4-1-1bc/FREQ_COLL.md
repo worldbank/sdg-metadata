@@ -6,7 +6,8 @@ language: ru
 indicator: 4-1-1bc
 slug: FREQ_COLL
 ---
-Calendar
+# Calendar
 
-Data collection
+## Data collection
+
 Various. Each learning assessment has its own data collection cycle.

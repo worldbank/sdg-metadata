@@ -6,5 +6,6 @@ language: ru
 indicator: 8-4-2
 slug: COLL_METHOD
 ---
-Collection process
+## Collection process
+
 The IRP Global Material Flows and Resource Productivity working group compiles the data from countries and from other sources.

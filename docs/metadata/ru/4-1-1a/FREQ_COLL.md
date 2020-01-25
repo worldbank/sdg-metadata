@@ -6,7 +6,8 @@ language: ru
 indicator: 4-1-1a
 slug: FREQ_COLL
 ---
-Calendar
+# Calendar
 
-Data collection
+## Data collection
+
 Ongoing.

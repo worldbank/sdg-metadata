@@ -1,0 +1,24 @@
+---
+title: "Indicator: 17-3-2"
+layout: indicator
+language: ru
+fields:
+  - META_PAGE
+  - LANGUAGE
+  - TRANS_SOURCE
+  - SDG_INDICATOR
+  - SDG_CUSTODIAN_AGENCIES
+  - STAT_CONC_DEF
+  - CLASS_SYSTEM
+  - DATA_COMP
+  - DISAGGREGATION
+  - IMPUTATION
+  - REG_AGG
+  - SOURCE_TYPE
+  - DATA_AVAILABILITY
+  - FREQ_COLL
+  - DATA_SOURCE
+  - COMPILING_ORG
+  - CONTACT_ORGANISATION
+slug: 17-3-2
+---

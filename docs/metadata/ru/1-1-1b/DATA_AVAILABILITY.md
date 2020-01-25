@@ -6,6 +6,6 @@ language: ru
 indicator: 1-1-1b
 slug: DATA_AVAILABILITY
 ---
-Data availability
+# Data availability
 
-Description
+## Description

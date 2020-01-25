@@ -6,5 +6,6 @@ language: ru
 indicator: 5-3-1
 slug: DATA_AVAILABILITY
 ---
-Data availability
+# Data availability
+
 Comparable data on this indicator are currently available for 126 countries

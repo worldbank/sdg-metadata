@@ -6,5 +6,6 @@ language: ru
 indicator: 7-1-1
 slug: DISAGGREGATION
 ---
-Disaggregation
+## Disaggregation
+
 Disaggregation of access to electricity by rural or urban place of residence is possible for all countries.

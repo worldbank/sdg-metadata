@@ -1,6 +1,6 @@
 ---
-title: "Language: ru"
+title: "language: ru"
 layout: language
 language: ru
-slug: ru
+slug: en
 ---

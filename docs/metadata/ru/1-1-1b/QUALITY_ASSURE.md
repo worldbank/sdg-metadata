@@ -6,4 +6,4 @@ language: ru
 indicator: 1-1-1b
 slug: QUALITY_ASSURE
 ---
-Quality assurance
+## Quality assurance

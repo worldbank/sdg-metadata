@@ -6,5 +6,6 @@ language: ru
 indicator: 8-4-2
 slug: REL_CAL_POLICY
 ---
-Data release
+## Data release
+
 September 11, 2017

@@ -6,5 +6,6 @@ language: ru
 indicator: 4-1-1a
 slug: REG_AGG
 ---
-Regional aggregates
+## Regional aggregates
+
 Not yet applicable. Data are reported at the national level only.

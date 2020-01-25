@@ -6,5 +6,6 @@ language: ru
 indicator: 8-4-2
 slug: FREQ_COLL
 ---
-Data collection
+## Data collection
+
 Under discussion

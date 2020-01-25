@@ -6,9 +6,10 @@ language: ru
 indicator: 11-1-1
 slug: SOURCE_TYPE
 ---
-Data sources
+# Data sources
 
-Sources and data collection
+## Sources and data collection
+
 Data for the slum/informal settlements components of the indicator can be computed from Census and national household surveys, including DHS and MICS. Data for the inadequate housing component can be computed through income and household surveys that capture housing expenditures.
 
 As per all the agreed Agenda 2030’s goals and targets, to measure the achievement of this indicator will require the mobilisation of means required to efficiently monitor them, calling for revitalised partnerships with the participation of all countries, all stakeholders and all communities concerned.

@@ -10,3 +10,26 @@ layout: default
   </li>
 {% endfor %}
 </ul>
+
+<h3>Full output</h3>
+
+{% assign all_content = '' %}
+{% assign indicator_parts = page.slug | split: '-' %}
+{% assign target_id = indicator_parts[0] | append: '-' | append: indicator_parts[1] %}
+{% assign goal_id = indicator_parts[0] %}
+{% assign pages = site.pages | where: 'language', page.language %}
+{% assign goals = pages | where: 'layout', 'goal' %}
+{% assign targets = pages | where: 'layout', 'target' %}
+{% assign fields = pages | where: 'layout', 'field' | where: 'indicator', page.slug %}
+{% assign target = targets | where: 'slug', target_id | first %}
+{% assign goal = goals | where: 'slug', goal_id | first %}
+
+{% assign all_content = all_content | append: goal.content %}
+{% assign all_content = all_content | append: target.content %}
+
+{% for field_id in page.fields %}
+  {% assign field = fields | where: 'slug', field_id | first %}
+  {% assign all_content = all_content | append: field.content %}
+{% endfor %}
+
+{{ all_content }}

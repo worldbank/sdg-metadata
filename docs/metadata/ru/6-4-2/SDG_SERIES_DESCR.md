@@ -6,5 +6,6 @@ language: ru
 indicator: 6-4-2
 slug: SDG_SERIES_DESCR
 ---
-Time series
+## Time series
+
 1961-2015 (Discontinuous, depending on country)

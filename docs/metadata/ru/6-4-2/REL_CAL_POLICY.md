@@ -6,5 +6,6 @@ language: ru
 indicator: 6-4-2
 slug: REL_CAL_POLICY
 ---
-Data release
+## Data release
+
 New data for the indicator are planned to be produced for most countries between 2017 and 2018.
