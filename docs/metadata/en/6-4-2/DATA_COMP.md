@@ -6,9 +6,10 @@ language: en
 indicator: 6-4-2
 slug: DATA_COMP
 ---
-Methodology
+# Methodology
 
-Method of computation
+## Method of computation
+
 The indicator is computed as the total freshwater withdrawn (TWW) divided by the difference between the total renewable freshwater resources (TRWR) and the environmental water requirements (Env.), multiplied by 100. All variables are expressed in km3/year (109 m3/year).
 
 Stress (%) = TWW / (TRWR - Env.) * 100

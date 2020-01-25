@@ -6,7 +6,8 @@ language: en
 indicator: 6-4-2
 slug: SDG_RELATED_INDICATORS
 ---
-Related indicators
+# Related indicators
+
 6.4.1 Change in water-use efficiency over time
 
 6.1.1 Proportion of population using safely managed drinking water services
