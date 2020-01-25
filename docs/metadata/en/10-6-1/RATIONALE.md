@@ -6,5 +6,6 @@ language: en
 indicator: 10-6-1
 slug: RATIONALE
 ---
-Rationale
+## Rationale
+
 The United Nations is based on a principle of sovereign equality of all its Member States (Article 2, UN Charter). This indicator aims to measure the degree to which States enjoy equal representation in different international organizations.

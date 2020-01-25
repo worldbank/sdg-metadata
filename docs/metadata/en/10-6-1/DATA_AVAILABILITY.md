@@ -6,5 +6,6 @@ language: en
 indicator: 10-6-1
 slug: DATA_AVAILABILITY
 ---
-Data availability
+# Data availability
+
 Available for all countries.
