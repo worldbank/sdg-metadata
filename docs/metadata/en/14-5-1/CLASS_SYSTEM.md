@@ -6,8 +6,10 @@ language: en
 indicator: 14-5-1
 slug: CLASS_SYSTEM
 ---
-Concepts
+## Concepts
+
 Protected areas, as defined by the International Union for Conservation of Nature (IUCN; Dudley 2008), are clearly defined geographical spaces, recognized, dedicated and managed, through legal or other effective means, to achieve the long-term conservation of nature with associated ecosystem services and cultural values. Importantly, a variety of specific management objectives are recognised within this definition, spanning conservation, restoration, and sustainable use:
+
 * Category Ia: Strict nature reserve
 * Category Ib: Wilderness area
 * Category II: National park

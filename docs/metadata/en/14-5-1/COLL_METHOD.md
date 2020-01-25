@@ -6,5 +6,6 @@ language: en
 indicator: 14-5-1
 slug: COLL_METHOD
 ---
-Collection process
+## Collection process
+
 See information under other sections.

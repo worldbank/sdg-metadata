@@ -6,7 +6,8 @@ language: en
 indicator: 14-5-1
 slug: DISAGGREGATION
 ---
-Disaggregation
+## Disaggregation
+
 Given that data for the global indicator are compiled at national levels, it is straightforward to disaggregate to national and regional levels (e.g., Han et al. 2014), or conversely to aggregate to the global level. Key Biodiversity Areas span all ecosystem types through the marine environment (Edgar et al. 2008) and beyond. The indicator can therefore be reported in combination across marine systems along with terrestrial or freshwater systems, or disaggregated among them. However, individual Key Biodiversity Areas can encompass marine, terrestrial, and freshwater systems simultaneously, and so determining the results is not simply additive. Finally, the indicator can be disaggregated according to different protected area management categories (categories I–VI) to reflect differing specific management objectives of protected areas.
 
 In addition to the aggregation of the coverage of protected areas across important sites for marine biodiversity as an indicator towards SDG 14.5, other disaggregations of coverage of protected areas of particular relevance as indicators towards SDG targets (Brooks et al. 2016) include:
