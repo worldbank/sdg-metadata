@@ -89,6 +89,8 @@ function doLanguage(language) {
 // Figure out the target languages from the folders.
 const targetLanguages = getJekyllFiles(fs.readdirSync(baseFolder))
 for (const targetLanguage of targetLanguages) {
-    // Process each language.
-    doLanguage(targetLanguage);
+    // Process each language except English.
+    if (targetLanguage !== 'en') {
+        doLanguage(targetLanguage);
+    }
 }
