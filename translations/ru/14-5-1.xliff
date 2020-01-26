@@ -8,7 +8,6 @@ National processes provide the great bulk of the data that are subsequently aggr
 
 Note that because countries do not submit comprehensive data on degazetted protected areas to the WDPA, earlier values of the indictor may marginally underestimate coverage.</source>
         <target></target>
-        <note>OTHER_METHOD</note>
       </trans-unit>
       <trans-unit id="CLASS_SYSTEM" xml:space="preserve">
         <source>## Concepts
@@ -27,14 +26,12 @@ The status "designated" is attributed to a protected area when the corresponding
 
 Sites contributing significantly to the global persistence of biodiversity are identified following globally standard criteria for the identification of Key Biodiversity Areas (IUCN 2016) applied at national levels. Two variants of these standard criteria have been applied in all countries to date. The first is for the identification of Important Bird &amp; Biodiversity Areas, that is, sites contributing significantly to the global persistence of biodiversity, identified using data on birds, of which &gt;12,000 sites in total have been identified from all of the world’s countries (BirdLife International 2014). The second is for the identification of Alliance for Zero Extinction sites (Ricketts et al. 2005), that is, sites holding effectively the entire population of at least one species assessed as Critically Endangered or Endangered on the IUCN Red List of Threatened Species. In total, 587 Alliance for Zero Extinction sites have been identified for 920 species of mammals, birds, amphibians, reptiles, conifers, and reef-building corals. A global standard for the identification of Key Biodiversity Areas unifying these approaches along with other mechanisms for identification of important sites for other species and ecosystems was approved by IUCN (2016).</source>
         <target></target>
-        <note>IND_DEF_CON_CLASS</note>
       </trans-unit>
       <trans-unit id="COLL_METHOD" xml:space="preserve">
         <source>## Collection process
 
 See information under other sections.</source>
         <target></target>
-        <note>SRC_TYPE_COLL_METHOD</note>
       </trans-unit>
       <trans-unit id="COMPILING_ORG" xml:space="preserve">
         <source># Data compilers
@@ -47,7 +44,6 @@ UNEP-WCMC and IUCN
 
 Protected area data are aggregated globally into the World Database on Protected Areas by the UN Environment World Conservation Monitoring Centre, according to the mandate for production of the United Nations List of Protected Areas (Deguignet et al. 2014). They are disseminated through [Protected Planet](http://www.protectedplanet.net/), which is jointly managed by UNEP-WCMC and IUCN and its World Commission on Protected Areas (UNEP-WCMC 2016). Key Biodiversity Areas data are aggregated into the [World Database on Key Biodiversity Areas](http://www.keybiodiversityareas.org/), managed by BirdLife International (2017). Specifically, data on Important Bird and Biodiversity Areas are available online at [BirdLife International (2016)](http://www.birdlife.org/datazone/site/search) and data on Alliance for Zero Extinction sites are available online at [AZE (2010)](http://www.zeroextinction.org/). Both datasets, along with the World Database on Protected Areas, are also disseminated through the [Integrated Biodiversity Assessment Tool for Research and Conservation Planning](https://www.ibat-alliance.org/ibat-conservation/login).</source>
         <target></target>
-        <note>SRC_TYPE_COLL_METHOD</note>
       </trans-unit>
       <trans-unit id="CONTACT_ORGANISATION" xml:space="preserve">
         <source># References
@@ -56,7 +52,6 @@ Protected area data are aggregated globally into the World Database on Protected
 
 http://www.unep-wcmc.org/; http://www.birdlife.org/; http://www.iucn.org/</source>
         <target></target>
-        <note>CONTACT</note>
       </trans-unit>
       <trans-unit id="DATA_AVAILABILITY" xml:space="preserve">
         <source># Data availability
@@ -65,7 +60,6 @@ http://www.unep-wcmc.org/; http://www.birdlife.org/; http://www.iucn.org/</sourc
 
 This indicator has been classified by the IAEG-SDGs as Tier 1. Current data are available for all countries in the world, and these are updated on an ongoing basis.</source>
         <target></target>
-        <note>COVERAGE</note>
       </trans-unit>
       <trans-unit id="DATA_COMP" xml:space="preserve">
         <source># Methodology
@@ -78,14 +72,12 @@ Year of protected area establishment is unknown for 12% of protected areas in th
 
 Previously the indicator was presented as the percentage of Key Biodiversity Areas completely covered by protected areas. However, it is now presented as the mean % of each Key Biodiversity Area that is covered by protected areas in order to better reflect trends in protected area coverage for countries or regions with few or no Key Biodiversity Areas that are completely covered.</source>
         <target></target>
-        <note>OTHER_METHOD</note>
       </trans-unit>
       <trans-unit id="DATA_SOURCE" xml:space="preserve">
         <source># Data providers
 
 Protected area data are compiled by ministries of environment and other ministries responsible for the designation and maintenance of protected areas. Key Biodiversity Areas are identified at national scales through multi-stakeholder processes, following standard criteria and thresholds.</source>
         <target></target>
-        <note>SRC_TYPE_COLL_METHOD</note>
       </trans-unit>
       <trans-unit id="DISAGGREGATION" xml:space="preserve">
         <source>## Disaggregation
@@ -99,7 +91,6 @@ SDG 15.4.1 Coverage by protected areas of important sites for mountain biodivers
 
 Protected area coverage data can be combined with other data sources to yield further, complementary, indicators. For example, protected area overlay with eco-regional maps can be used to provide information on protected area coverage of different broad biogeographical regions. Protected area coverage of the distributions of different groups of species (e.g., mammals, birds) can similarly provide indicators of trends in coverage of biodiversity at the species level. Protected area coverage can be combined with the Red List Index to generate indicators of the impacts of protected areas in reducing biodiversity loss (Butchart et al. 2012). Finally, indicators derived from protected area overlay can also inform sustainable urban development; for example, the overlay of protected areas onto urban maps could provide an indicator of public space as a proportion of overall city space.</source>
         <target></target>
-        <note>COVERAGE</note>
       </trans-unit>
       <trans-unit id="DOC_METHOD" xml:space="preserve">
         <source>## Methods and guidance available to countries for the compilation of the data at the national level
@@ -115,7 +106,6 @@ iv) a Site Nomination phase comprising the submission of all the relevant docume
 
 Once a Key Biodiversity Area is identified, monitoring of its qualifying features and its conservation status is important. Proposers, reviewers and those undertaking monitoring can join the Key Biodiversity Areas Community to exchange their experiences, case studies and best practice examples.</source>
         <target></target>
-        <note>OTHER_METHOD</note>
       </trans-unit>
       <trans-unit id="FREQ_COLL" xml:space="preserve">
         <source># Calendar
@@ -124,7 +114,6 @@ Once a Key Biodiversity Area is identified, monitoring of its qualifying feature
 
 UNEP-WCMC produces the UN List of Protected Areas every 5–10 years, based on information provided by national ministries/agencies. In the intervening period between compilations of UN Lists, UNEP-WCMC works closely with national ministries/agencies and NGOs responsible for the designation and maintenance of protected areas, continually updating the WDPA as new data become available. The World Database of Key Biodiversity Areas is also updated on an ongoing basis, as new national data are submitted.</source>
         <target></target>
-        <note>SRC_TYPE_COLL_METHOD</note>
       </trans-unit>
       <trans-unit id="IMPUTATION" xml:space="preserve">
         <source>## Treatment of missing values
@@ -135,12 +124,10 @@ UNEP-WCMC produces the UN List of Protected Areas every 5–10 years, based on i
 
     Global indicators of protected area coverage of important sites for biodiversity are calculated as the mean percentage of each Key Biodiversity Area that is covered by protected areas. The data are generated from all countries, and so while there is uncertainty around the data, there are no missing values as such and so no need for imputation or estimation.</source>
         <target></target>
-        <note>OTHER_METHOD</note>
       </trans-unit>
       <trans-unit id="META_LAST_UPDATE" xml:space="preserve">
         <source>Tue Jul 11 2017 08:00:00 GMT-0400 (Eastern Daylight Time)</source>
         <target></target>
-        <note>SDG_INDICATOR_INFO</note>
       </trans-unit>
       <trans-unit id="QUALITY_ASSURE" xml:space="preserve">
         <source>## Quality assurance
@@ -149,7 +136,6 @@ The process on how the data is collected, standardised and published is availabl
 
 In addition to dissemination via the Protected Planet website (&lt;https://www.protectedplanet.net/&gt;), the UN List process described in 3.1 the fact that protected areas data is collected from national agencies acknowledged in the WDPA metadata, and Key Biodiversity Areas website (&lt;http://www.keybiodiversityareas.org/home&gt;), Protected Planet and Key Biodiversity Areas data are disseminated through the Integrated Biodiversity Assessment Tool, available for research and conservation online (&lt;https://www.ibat-alliance.org/ibat-conservation/&gt;). This incorporates Country Profile documents for all of the world’s countries, which includes documentation of the indicator of protected area coverage of Key Biodiversity Areas for the current year, starting from 2016. The first edition of each of these Country Profiles was sent for consultation to National Focal Points of the Convention on Biological Diversity (&lt;https://www.cbd.int/information/nfp.shtml&gt;), at the 13th meeting of the Conference of the Parties of the Convention on Biological Diversity; and this process will be repeated annually.</source>
         <target></target>
-        <note>QUALITY_MGMNT</note>
       </trans-unit>
       <trans-unit id="RATIONALE" xml:space="preserve">
         <source>## Rationale
@@ -163,7 +149,6 @@ This indicator adds meaningful information to, complements and builds from tradi
 
 The indicator is used to track progress towards the 2011–2020 Strategic Plan for Biodiversity (CBD 2014, Tittensor et al. 2014), and was used as an indicator towards the Convention on Biological Diversity’s 2010 Target (Butchart et al. 2010).</source>
         <target></target>
-        <note>OTHER_METHOD</note>
       </trans-unit>
       <trans-unit id="REC_USE_LIM" xml:space="preserve">
         <source>## Comments and limitations
@@ -182,7 +167,6 @@ Key Biodiversity Area identification has been validated for a number of countrie
 
 Future developments of the indicator will include: a) expansion of the taxonomic coverage of marine Key Biodiversity Areas through application of the Key Biodiversity Areas standard (IUCN 2016) to a wide variety of marine vertebrates, invertebrates, plants and ecosystem type; b) improvements in the data on protected areas by continuing to increase the proportion of sites with documented dates of designation and with digitised boundary polygons (rather than coordinates); and c) exploring other methods for assessing and presenting temporal trends in protected area coverage.</source>
         <target></target>
-        <note>OTHER_METHOD</note>
       </trans-unit>
       <trans-unit id="REG_AGG" xml:space="preserve">
         <source>## Regional aggregates
@@ -195,14 +179,12 @@ Alliance for Zero Extinction sites meet three criteria: endangerment (supporting
 
 The Important Bird and Biodiversity Area and Alliance for Zero Extinction site networks are, by definition, areas of particular importance for biodiversity as referred to in Aichi Biodiversity Target 11, and represent the only networks of such sites that have been identified systematically worldwide. Hence, they represent important areas to consider designating as formal protected areas.</source>
         <target></target>
-        <note>OTHER_METHOD</note>
       </trans-unit>
       <trans-unit id="REL_CAL_POLICY" xml:space="preserve">
         <source>## Data release
 
 The indicator of protected area coverage of important sites for biodiversity is anticipated to be released annually.</source>
         <target></target>
-        <note>SRC_TYPE_COLL_METHOD</note>
       </trans-unit>
       <trans-unit id="SDG_CUSTODIAN_AGENCIES" xml:space="preserve">
         <source># Institutional information
@@ -213,19 +195,16 @@ UN Environment World Conservation Monitoring Centre (UNEP-WCMC)&lt;br&gt;
 BirdLife International (BLI)&lt;br&gt;
 International Union for Conservation of Nature (IUCN)</source>
         <target></target>
-        <note>SDG_INDICATOR_INFO</note>
       </trans-unit>
       <trans-unit id="SDG_INDICATOR" xml:space="preserve">
         <source>Indicator 14.5.1: Coverage of protected areas in relation to marine areas</source>
         <target></target>
-        <note>SDG_INDICATOR_INFO</note>
       </trans-unit>
       <trans-unit id="SDG_SERIES_DESCR" xml:space="preserve">
         <source>## Time series
 
 ~150 years</source>
         <target></target>
-        <note>SDG_INDICATOR_INFO</note>
       </trans-unit>
       <trans-unit id="SOURCE_TYPE" xml:space="preserve">
         <source># Data sources
@@ -236,7 +215,6 @@ Protected area data are compiled by ministries of environment and other ministri
 
 Key Biodiversity Areas are identified at national scales through multi-stakeholder processes, following standard criteria and thresholds. Key Biodiversity Areas data are aggregated into the [World Database on Key Biodiversity Areas](http://www.keybiodiversityareas.org/), managed by BirdLife International. Specifically, data on Important Bird and Biodiversity Areas are available online at [BirdLife International (2016)](http://www.birdlife.org/datazone/site/search) and data on Alliance for Zero Extinction sites are available online at [AZE (2010)](http://www.zeroextinction.org/). Both datasets, along with Key Biodiversity Areas identified through other processes, are available through the [World Database on Key Biodiversity Areas](http://www.keybiodiversityareas.org/), and along with the World Database on Protected Areas, are also disseminated through the [Integrated Biodiversity Assessment Tool for Research and Conservation Planning](https://www.ibat-alliance.org/ibat-conservation/login).</source>
         <target></target>
-        <note>SRC_TYPE_COLL_METHOD</note>
       </trans-unit>
       <trans-unit id="STAT_CONC_DEF" xml:space="preserve">
         <source># Concepts and definitions
@@ -245,7 +223,6 @@ Key Biodiversity Areas are identified at national scales through multi-stakehold
 
 The indicator Coverage of protected areas in relation to marine areas shows temporal trends in the mean percentage of each important site for marine biodiversity (i.e., those that contribute significantly to the global persistence of biodiversity) that is covered by designated protected areas.</source>
         <target></target>
-        <note>IND_DEF_CON_CLASS</note>
       </trans-unit>
     </body>
   </file>

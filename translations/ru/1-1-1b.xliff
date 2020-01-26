@@ -4,7 +4,6 @@
       <trans-unit id="ADJUSTMENT" xml:space="preserve">
         <source>## Sources of discrepancies</source>
         <target></target>
-        <note>OTHER_METHOD</note>
       </trans-unit>
       <trans-unit id="CLASS_SYSTEM" xml:space="preserve">
         <source>## Concepts
@@ -17,26 +16,22 @@ Household in poverty: Households are defined as poor if their income or consumpt
 
 Working poor: Employed persons living in households that are classified as poor, that is, that have income or consumption levels below the poverty line used for measurement.</source>
         <target></target>
-        <note>IND_DEF_CON_CLASS</note>
       </trans-unit>
       <trans-unit id="COLL_METHOD" xml:space="preserve">
         <source>## Collection process</source>
         <target></target>
-        <note>SRC_TYPE_COLL_METHOD</note>
       </trans-unit>
       <trans-unit id="COMPILING_ORG" xml:space="preserve">
         <source># Data compilers
 
 ILO</source>
         <target></target>
-        <note>SRC_TYPE_COLL_METHOD</note>
       </trans-unit>
       <trans-unit id="DATA_AVAILABILITY" xml:space="preserve">
         <source># Data availability
 
 ## Description</source>
         <target></target>
-        <note>COVERAGE</note>
       </trans-unit>
       <trans-unit id="DATA_COMP" xml:space="preserve">
         <source># Methodology
@@ -54,33 +49,28 @@ ILO</source>
   &lt;mn&gt;100&lt;/mn&gt;
 &lt;/math&gt;</source>
         <target></target>
-        <note>OTHER_METHOD</note>
       </trans-unit>
       <trans-unit id="DATA_SOURCE" xml:space="preserve">
         <source># Data providers
 
 Mainly National Statistical Offices.</source>
         <target></target>
-        <note>SRC_TYPE_COLL_METHOD</note>
       </trans-unit>
       <trans-unit id="DISAGGREGATION" xml:space="preserve">
         <source>## Disaggregation
 
 The working poverty rate (proportion of employed persons living in poverty) is disaggregated by sex and age.</source>
         <target></target>
-        <note>COVERAGE</note>
       </trans-unit>
       <trans-unit id="DOC_METHOD" xml:space="preserve">
         <source>## Methods and guidance available to countries for the compilation of the data at the national level</source>
         <target></target>
-        <note>OTHER_METHOD</note>
       </trans-unit>
       <trans-unit id="FREQ_COLL" xml:space="preserve">
         <source># Calendar
 
 ## Data collection</source>
         <target></target>
-        <note>SRC_TYPE_COLL_METHOD</note>
       </trans-unit>
       <trans-unit id="IMPUTATION" xml:space="preserve">
         <source>## Treatment of missing values
@@ -88,24 +78,20 @@ The working poverty rate (proportion of employed persons living in poverty) is d
 * **At country level**
 * **At the regional and global levels**</source>
         <target></target>
-        <note>OTHER_METHOD</note>
       </trans-unit>
       <trans-unit id="META_LAST_UPDATE" xml:space="preserve">
         <source>March 2019</source>
         <target></target>
-        <note>SDG_INDICATOR_INFO</note>
       </trans-unit>
       <trans-unit id="QUALITY_ASSURE" xml:space="preserve">
         <source>## Quality assurance</source>
         <target></target>
-        <note>QUALITY_MGMNT</note>
       </trans-unit>
       <trans-unit id="RATIONALE" xml:space="preserve">
         <source>## Rationale
 
 The concept of working poverty is captured by combining poverty status with employment status, which aims to measure how many workers, despite being in employment, live in poverty. The proportion of working poor in total employment (that is, the working poverty rate) combines data on household income or consumption with labour force framework variables measured at the individual level and sheds light on the relationship between household poverty and employment.</source>
         <target></target>
-        <note>OTHER_METHOD</note>
       </trans-unit>
       <trans-unit id="REC_USE_LIM" xml:space="preserve">
         <source>## Comments and limitations
@@ -114,19 +100,16 @@ At the country level, comparisons over time may be affected by such factors as c
 
 Poverty in the context of this indicator is a concept that is applied to households, and not to individuals. Based on the assumption that households pool their income, the question asked is whether a household’s total income is sufficient to ensure that it isn’t classified as being in poverty. The poverty status of a household is therefore a function of the wage and other employment-related income secured by those household members who work (plus any non-employment-related income such as transfer payments) and the number of household members. Whether a worker is counted as working poor therefore depends on his or her own income, the income of other household members and the number of household members – for example, children – who need to be supported. It is thus often valuable to study household structure in relation to working poverty. For example, it may be relevant for some countries to assess the differences in working poverty rates between persons living in households whose members are unrelated individuals from those whose members are related.</source>
         <target></target>
-        <note>OTHER_METHOD</note>
       </trans-unit>
       <trans-unit id="REG_AGG" xml:space="preserve">
         <source>## Regional aggregates
 
 The ILO produces global and regional estimates of employment by economic class (and thus, of working poverty rates) using the ILO’s Employment by Class (EbyC) model. These estimates are part of the ILO Estimates and Projections series, analysed in the ILO's World Employment and Social Outlook reports. For more information, on the model used to derive these estimates, refer to the ILO paper “Employment and economic class in the developing world” (Kapsos and Bourmpoula, 2013), available at &lt;http://www.ilo.org/wcmsp5/groups/public/</source>
         <target></target>
-        <note>OTHER_METHOD</note>
       </trans-unit>
       <trans-unit id="REL_CAL_POLICY" xml:space="preserve">
         <source>## Data release</source>
         <target></target>
-        <note>SRC_TYPE_COLL_METHOD</note>
       </trans-unit>
       <trans-unit id="SDG_CUSTODIAN_AGENCIES" xml:space="preserve">
         <source># Institutional Information
@@ -135,22 +118,18 @@ The ILO produces global and regional estimates of employment by economic class (
 
 ILO</source>
         <target></target>
-        <note>SDG_INDICATOR_INFO</note>
       </trans-unit>
       <trans-unit id="SDG_INDICATOR" xml:space="preserve">
         <source>Indicator 1.1.1: Proportion of population below the international poverty line, by sex, age, employment status and geographical location (urban/rural)</source>
         <target></target>
-        <note>SDG_INDICATOR_INFO</note>
       </trans-unit>
       <trans-unit id="SDG_RELATED_INDICATORS" xml:space="preserve">
         <source># Related indicators</source>
         <target></target>
-        <note>SDG_INDICATOR_INFO</note>
       </trans-unit>
       <trans-unit id="SDG_SERIES_DESCR" xml:space="preserve">
         <source>## Time series</source>
         <target></target>
-        <note>SDG_INDICATOR_INFO</note>
       </trans-unit>
       <trans-unit id="SOURCE_TYPE" xml:space="preserve">
         <source># Data sources
@@ -161,7 +140,6 @@ The preferred data source is a household survey with variables that can identify
 
 Employment estimates derived from a household survey other than a labour force survey may however, not be the most robust due to questionnaire design and sampling issues. Similarly, a labour force survey may not be the best instrument for collecting household income or consumption expenditure data given that its survey design typically targets the unemployment rate as the headline indicator, although an attached income module can be designed to achieve statistically reliable results, including ensuring an overlap in the observation period between household income (or consumption expenditure) and employment status. Another possibility is to combine data from a household income and expenditure survey and from a separate labour force survey when the respondent households can be matched and consistency in the long observation period between the surveys can be obtained.</source>
         <target></target>
-        <note>SRC_TYPE_COLL_METHOD</note>
       </trans-unit>
       <trans-unit id="STAT_CONC_DEF" xml:space="preserve">
         <source># Concepts and definitions
@@ -170,7 +148,6 @@ Employment estimates derived from a household survey other than a labour force s
 
 The proportion of the employed population below the international poverty line of US$1.90 per day, also referred to as the working poverty rate, is defined as the share of employed persons living in households with per-capita consumption or income that is below the international poverty line of US$1.90.</source>
         <target></target>
-        <note>IND_DEF_CON_CLASS</note>
       </trans-unit>
     </body>
   </file>

@@ -6,14 +6,12 @@
 
 The estimates compiled and presented at global level come directly from nationally produced data and are not adjusted or recalculated.</source>
         <target></target>
-        <note>OTHER_METHOD</note>
       </trans-unit>
       <trans-unit id="CLASS_SYSTEM" xml:space="preserve">
         <source>## Concepts
 
 Both formal (i.e., marriages) and informal unions are covered under this indicator. Informal unions are generally defined as those in which a couple lives together for some time, intends to have a lasting relationship, but for which there has been no formal civil or religious ceremony (i.e., cohabitation).</source>
         <target></target>
-        <note>IND_DEF_CON_CLASS</note>
       </trans-unit>
       <trans-unit id="COLL_METHOD" xml:space="preserve">
         <source>## Collection process
@@ -22,14 +20,12 @@ UNICEF undertakes a wide consultative process of compiling and assessing data fr
 
  As of 2018, UNICEF launched a new country consultation process with national authorities on selected child-related global SDG indicators it is custodian or co-custodian to meet emerging standards and guidelines on data flows for global reporting of SDG indicators, which place strong emphasis on technical rigour, country ownership and use of official data and statistics. The consultation process solicited feedback directly from National Statistical Offices, as well as other government agencies responsible for official statistics, on the compilation of the indicators, including the data sources used, and the application of internationally agreed definitions, classification and methodologies to the data from that source. Once reviewed, feedback is made available to countries on whether or not specific data points are accepted, and if not, the reasons why. More details on the consultation process can be found in the [guidance note](https://data.unicef.org/resources/resource-type/guidance/).</source>
         <target></target>
-        <note>SRC_TYPE_COLL_METHOD</note>
       </trans-unit>
       <trans-unit id="COMPILING_ORG" xml:space="preserve">
         <source># Data compilers
 
 UNICEF</source>
         <target></target>
-        <note>SRC_TYPE_COLL_METHOD</note>
       </trans-unit>
       <trans-unit id="CONTACT_ORGANISATION" xml:space="preserve">
         <source># References
@@ -38,14 +34,12 @@ UNICEF</source>
 
 data.unicef.org</source>
         <target></target>
-        <note>CONTACT</note>
       </trans-unit>
       <trans-unit id="DATA_AVAILABILITY" xml:space="preserve">
         <source># Data availability
 
 Comparable data on this indicator are currently available for 126 countries</source>
         <target></target>
-        <note>COVERAGE</note>
       </trans-unit>
       <trans-unit id="DATA_COMP" xml:space="preserve">
         <source># Methodology
@@ -54,28 +48,24 @@ Comparable data on this indicator are currently available for 126 countries</sou
 
 Number of women aged 20-24 who were first married or in union before age 15 (or before age 18) divided by the total number of women aged 20-24 in the population multiplied by 100</source>
         <target></target>
-        <note>OTHER_METHOD</note>
       </trans-unit>
       <trans-unit id="DATA_SOURCE" xml:space="preserve">
         <source># Data providers
 
 National Statistical Offices (in most cases)</source>
         <target></target>
-        <note>SRC_TYPE_COLL_METHOD</note>
       </trans-unit>
       <trans-unit id="DISAGGREGATION" xml:space="preserve">
         <source>## Disaggregation
 
 Age, income, place of residence, geographic location, education, ethnicity (for some countries)</source>
         <target></target>
-        <note>COVERAGE</note>
       </trans-unit>
       <trans-unit id="DOC_METHOD" xml:space="preserve">
         <source>## Methods and guidance available to countries for the compilation of the data at the national level
 
 Countries gather data on child marriage through household surveys such as UNICEF-supported MICS or Demographic and Health Surveys. In some countries, such data are also collected through other national household surveys.</source>
         <target></target>
-        <note>OTHER_METHOD</note>
       </trans-unit>
       <trans-unit id="FREQ_COLL" xml:space="preserve">
         <source># Calendar
@@ -84,7 +74,6 @@ Countries gather data on child marriage through household surveys such as UNICEF
 
 UNICEF will undertake an annual country consultation likely between December and January every year to allow for review and processing of the feedback received in order to meet global SDG reporting deadlines.</source>
         <target></target>
-        <note>SRC_TYPE_COLL_METHOD</note>
       </trans-unit>
       <trans-unit id="IMPUTATION" xml:space="preserve">
         <source>## Treatment of missing values
@@ -95,12 +84,10 @@ UNICEF will undertake an annual country consultation likely between December and
 
     The regional average is applied to those countries within the region with missing values for the purposes of calculating regional aggregates only but are not published as country-level estimates.</source>
         <target></target>
-        <note>OTHER_METHOD</note>
       </trans-unit>
       <trans-unit id="META_LAST_UPDATE" xml:space="preserve">
         <source>March 19, 2019</source>
         <target></target>
-        <note>SDG_INDICATOR_INFO</note>
       </trans-unit>
       <trans-unit id="QUALITY_ASSURE" xml:space="preserve">
         <source>## Quality assurance
@@ -109,7 +96,6 @@ UNICEF maintains the global database on child marriage that is used for SDG and 
 
 As of 2018, UNICEF undertakes an annual consultation with government authorities on 10 of the child-related SDG indicators in its role of sole or joint custodian, and in line with its global monitoring mandate and normative commitments to advancing the 2030 Agenda for children. This includes indicator 5.3.1. More details on the process for the country consultation are outlined below.</source>
         <target></target>
-        <note>QUALITY_MGMNT</note>
       </trans-unit>
       <trans-unit id="RATIONALE" xml:space="preserve">
         <source>## Rationale
@@ -120,28 +106,24 @@ The practice of early/child marriage is a direct manifestation of gender inequal
 
 The issue of child marriage is addressed in a number of international conventions and agreements. Although marriage is not mentioned directly in the Convention on the Rights of the Child, child marriage is linked to other rights – such as the right to freedom of expression, the right to protection from all forms of abuse, and the right to be protected from harmful traditional practices.</source>
         <target></target>
-        <note>OTHER_METHOD</note>
       </trans-unit>
       <trans-unit id="REC_USE_LIM" xml:space="preserve">
         <source>## Comments and limitations
 
 There are existing tools and mechanisms for data collection that countries have implemented to monitor the situation with regards to this indicator. The modules used to collect information on marital status among women and men of reproductive age (15-49 years) in the DHS and MICS have been fully harmonized.</source>
         <target></target>
-        <note>OTHER_METHOD</note>
       </trans-unit>
       <trans-unit id="REG_AGG" xml:space="preserve">
         <source>## Regional aggregates
 
 Global aggregates are weighted averages of all the sub-regions that make up the world. Regional aggregates are weighted averages of all the countries within the region.</source>
         <target></target>
-        <note>OTHER_METHOD</note>
       </trans-unit>
       <trans-unit id="REL_CAL_POLICY" xml:space="preserve">
         <source>## Data release
 
 March 2019.</source>
         <target></target>
-        <note>SRC_TYPE_COLL_METHOD</note>
       </trans-unit>
       <trans-unit id="SDG_CUSTODIAN_AGENCIES" xml:space="preserve">
         <source># Institutional information
@@ -150,12 +132,10 @@ March 2019.</source>
 
 United Nations Children's Fund (UNICEF)</source>
         <target></target>
-        <note>SDG_INDICATOR_INFO</note>
       </trans-unit>
       <trans-unit id="SDG_INDICATOR" xml:space="preserve">
         <source>Indicator 5.3.1: Proportion of women aged 20-24 years who were married or in a union before age 15 and before age 18</source>
         <target></target>
-        <note>SDG_INDICATOR_INFO</note>
       </trans-unit>
       <trans-unit id="SOURCE_TYPE" xml:space="preserve">
         <source># Data sources
@@ -164,7 +144,6 @@ United Nations Children's Fund (UNICEF)</source>
 
 Household surveys such as UNICEF-supported MICS and DHS have been collecting data on this indicator in low- and middle-income countries since around the late 1980s. In some countries, such data are also collected through national censuses or other national household surveys.</source>
         <target></target>
-        <note>SRC_TYPE_COLL_METHOD</note>
       </trans-unit>
       <trans-unit id="STAT_CONC_DEF" xml:space="preserve">
         <source># Concepts and definitions
@@ -173,7 +152,6 @@ Household surveys such as UNICEF-supported MICS and DHS have been collecting dat
 
 Proportion of women aged 20-24 years who were married or in a union before age 15 and before age 18</source>
         <target></target>
-        <note>IND_DEF_CON_CLASS</note>
       </trans-unit>
     </body>
   </file>

@@ -27,7 +27,6 @@ A **loan** is a financial instrument that is created when a creditor lends funds
 
 **Lines of credit** and loan commitments provide a guarantee that undrawn funds will be available in the future, but no financial liability/asset exists until such funds are actually provided. Undrawn lines of credit and undisbursed loan commitments are contingent liabilities of the issuing institutions— generally, banks (IMF, 2011). A loan or line of credit refers to regulated financial institutions only.</source>
         <target></target>
-        <note>IND_DEF_CON_CLASS</note>
       </trans-unit>
       <trans-unit id="COLL_METHOD" xml:space="preserve">
         <source>## Collection process
@@ -43,14 +42,12 @@ Enterprises are classified as small, medium or large based on the number of empl
 
 Size of enterprise |Number of employees</source>
         <target></target>
-        <note>SRC_TYPE_COLL_METHOD</note>
       </trans-unit>
       <trans-unit id="COMPILING_ORG" xml:space="preserve">
         <source># Data compilers
 
 United Nations Industrial Development Organization (UNIDO)</source>
         <target></target>
-        <note>SRC_TYPE_COLL_METHOD</note>
       </trans-unit>
       <trans-unit id="DATA_AVAILABILITY" xml:space="preserve">
         <source># Data Availability
@@ -59,7 +56,6 @@ United Nations Industrial Development Organization (UNIDO)</source>
 
 Data for around 130 economies were collected.</source>
         <target></target>
-        <note>COVERAGE</note>
       </trans-unit>
       <trans-unit id="DATA_COMP" xml:space="preserve">
         <source># Methodology
@@ -70,14 +66,12 @@ The proportion of “small-scale industries” with a loan or line of credit is 
 
 (*(the number of "small-scale industries" with loan or line of credit)*/*(Total number of "small-scale industries")*)*100</source>
         <target></target>
-        <note>OTHER_METHOD</note>
       </trans-unit>
       <trans-unit id="DATA_SOURCE" xml:space="preserve">
         <source># Data providers
 
 World Bank Enterprise Surveys</source>
         <target></target>
-        <note>SRC_TYPE_COLL_METHOD</note>
       </trans-unit>
       <trans-unit id="DISAGGREGATION" xml:space="preserve">
         <source># Data Sources
@@ -86,22 +80,18 @@ World Bank Enterprise Surveys</source>
 
 Data were collected from the World Bank Enterprise Surveys as a pilot study on this indicator, however the preferable source of data are national statistical offices.</source>
         <target></target>
-        <note>COVERAGE</note>
       </trans-unit>
       <trans-unit id="FOOTNOTE_1" xml:space="preserve">
         <source>[^1]:  Some of the text on concepts and definition may be identical to Metadata submitted for Indicators 9.3.1.</source>
         <target></target>
-        <note>SDG_INDICATOR_INFO</note>
       </trans-unit>
       <trans-unit id="FREQ_COLL" xml:space="preserve">
         <source>Data frequency for each country is around 4 years.</source>
         <target></target>
-        <note>SRC_TYPE_COLL_METHOD</note>
       </trans-unit>
       <trans-unit id="META_LAST_UPDATE" xml:space="preserve">
         <source>April 2, 2018</source>
         <target></target>
-        <note>SDG_INDICATOR_INFO</note>
       </trans-unit>
       <trans-unit id="RATIONALE" xml:space="preserve">
         <source>## Rationale
@@ -110,7 +100,6 @@ Industrial enterprises are classified to small compared to large or medium for t
 
 Thus “small-scale industries” play an important role in the economy. However, it has quite limited access to financial services, especially in developing countries. In order to improve the skill of workers and technology for production, small-scale industrial enterprises require financial support in the form of preferential loan, credit etc. This indicator shows how widely financial institutions are serving the “small-scale industries”. Together with the indicator SDG 9.3.1, this indicator reflects the main message of the target 9.3 which promotes to increase the access of “small-scale industries” to financial services.</source>
         <target></target>
-        <note>OTHER_METHOD</note>
       </trans-unit>
       <trans-unit id="REC_USE_LIM" xml:space="preserve">
         <source>## Comments and limitations
@@ -119,7 +108,6 @@ The main limitation of existing national data is varying size classes by country
 
 The definition of size class in many countries is tied up with the legal and policy framework of the country. It has implications on registration procedure, taxation and different waivers aimed to promote “small-scale industries”. Therefore, countries may agree on a common size class for compilation purposes. In this context, UNIDO proposes that all countries compile the data by a size class of “small-scale industries” as with less than 20 persons employed. From such data, an internationally comparable data on the share of “small-scale industries” in total could be derived.</source>
         <target></target>
-        <note>OTHER_METHOD</note>
       </trans-unit>
       <trans-unit id="SDG_CUSTODIAN_AGENCIES" xml:space="preserve">
         <source># Institutional information
@@ -128,19 +116,16 @@ The definition of size class in many countries is tied up with the legal and pol
 
 United Nations Industrial Development Organization (UNIDO)</source>
         <target></target>
-        <note>SDG_INDICATOR_INFO</note>
       </trans-unit>
       <trans-unit id="SDG_INDICATOR" xml:space="preserve">
         <source>Indicator 9.3.2: Proportion of small-scale industries with a loan or line of credit</source>
         <target></target>
-        <note>SDG_INDICATOR_INFO</note>
       </trans-unit>
       <trans-unit id="SDG_SERIES_DESCR" xml:space="preserve">
         <source>## Time series
 
 Surveys are implemented every year in around 20 countries.</source>
         <target></target>
-        <note>SDG_INDICATOR_INFO</note>
       </trans-unit>
       <trans-unit id="STAT_CONC_DEF" xml:space="preserve">
         <source># Concepts and definitions  [^1]
@@ -151,7 +136,6 @@ Small-scale industrial enterprises, in the SDG framework also called “small-sc
 
 This indicator shows the number of “small-scale industries” with an active line of credit or a loan from a financial institution in the reference year in percentage to the total number of such enterprises.</source>
         <target></target>
-        <note>IND_DEF_CON_CLASS</note>
       </trans-unit>
     </body>
   </file>

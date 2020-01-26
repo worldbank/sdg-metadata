@@ -8,7 +8,6 @@ Minimum proficiency level is the benchmark of basic knowledge in a domain (mathe
         <target>## Concepts
 
 Minimum proficiency level is the benchmark of basic knowledge in a domain (mathematics or reading) measured through learning assessments. For example, the Programme for International Student Assessment (PISA) reading test has six proficiency levels, of which Level 2 is described as the minimum proficiency level. In Trends in International Mathematics and Science Study (TIMSS) and Progress in International Reading Literacy Study (PIRLS), there are four proficiency levels: Low, Intermediate, High and Advanced. Students reaching the Intermediate benchmark are able to apply basic knowledge in a variety of situations, similar to the idea of minimum proficiency. Currently, there are no common standards validated by the international community or countries. The indicator shows data published by each of the agencies and organizations specialised in cross-national learning assessments.</target>
-        <note>IND_DEF_CON_CLASS</note>
       </trans-unit>
       <trans-unit id="COLL_METHOD" xml:space="preserve">
         <source>## Collection process
@@ -17,7 +16,6 @@ For cross-national learning assessments, data were provided by the respective or
         <target>## Collection process
 
 For cross-national learning assessments, data were provided by the respective organizations responsible for each assessment.</target>
-        <note>SRC_TYPE_COLL_METHOD</note>
       </trans-unit>
       <trans-unit id="COMPILING_ORG" xml:space="preserve">
         <source># Data compilers
@@ -26,7 +24,6 @@ UNESCO Institute for Statistics</source>
         <target># Data compilers
 
 UNESCO Institute for Statistics</target>
-        <note>SRC_TYPE_COLL_METHOD</note>
       </trans-unit>
       <trans-unit id="CONTACT_ORGANISATION" xml:space="preserve">
         <source># References
@@ -39,7 +36,6 @@ http://www.uis.unesco.org/Pages/default.aspx</source>
 ## URL
 
 http://www.uis.unesco.org/Pages/default.aspx</target>
-        <note>CONTACT</note>
       </trans-unit>
       <trans-unit id="DATA_AVAILABILITY" xml:space="preserve">
         <source># Data availability
@@ -52,7 +48,6 @@ http://www.uis.unesco.org/Pages/default.aspx</target>
 ## Description
 
 79 countries.</target>
-        <note>COVERAGE</note>
       </trans-unit>
       <trans-unit id="DATA_COMP" xml:space="preserve">
         <source># Methodology
@@ -73,7 +68,6 @@ The indicator is calculated as the percentage of children and/or young people at
 Performance above the minimum level, PL tn,s,above minimum = p
 
 where p is the percentage of students in a learning assessment at stage of education n, in subject s in any year (t-i) where 0 ? i ? 5, who has achieved the level of proficiency that is greater than a pre-defined minimum standard, Smin. The minimum standard is defined by the global education community taking into consideration regional differences.</target>
-        <note>OTHER_METHOD</note>
       </trans-unit>
       <trans-unit id="DATA_SOURCE" xml:space="preserve">
         <source># Data providers
@@ -86,7 +80,6 @@ Bodies responsible for conducting learning assessments (including Ministries of 
 ## Name
 
 Bodies responsible for conducting learning assessments (including Ministries of Education, National Statistical Offices and other data providers). For cross-national assessments, the data providers are the International Association for the Evaluation of Educational Achievement (IEA), Laboratorio Latinoamericano de Evaluación de la Calidad de la Educación (LLECE), the Organisation for Economic Co-operation and Development (OECD), Programme d'Analyse des Systèmes Educatifs de la CONFEMEN (PASEC) and Southern and Eastern Africa Consortium for Monitoring Educational Quality (SACMEQ).</target>
-        <note>SRC_TYPE_COLL_METHOD</note>
       </trans-unit>
       <trans-unit id="DISAGGREGATION" xml:space="preserve">
         <source>## Disaggegation
@@ -95,7 +88,6 @@ By age or age-group of students, sex, location, socio-economic status, migrant s
         <target>## Disaggegation
 
 By age or age-group of students, sex, location, socio-economic status, migrant status and ethnicity. Disability status is not currently available in most national and cross-national learning assessments but could be considered for future assessments.</target>
-        <note>COVERAGE</note>
       </trans-unit>
       <trans-unit id="FREQ_COLL" xml:space="preserve">
         <source># Calendar
@@ -108,7 +100,6 @@ Various. Each learning assessment has its own data collection cycle.</source>
 ## Data collection
 
 Various. Each learning assessment has its own data collection cycle.</target>
-        <note>SRC_TYPE_COLL_METHOD</note>
       </trans-unit>
       <trans-unit id="IMPUTATION" xml:space="preserve">
         <source>## Treatment of missing values
@@ -127,12 +118,10 @@ Various. Each learning assessment has its own data collection cycle.</target>
 * **At regional and global levels**
 
     None by data compiler.</target>
-        <note>OTHER_METHOD</note>
       </trans-unit>
       <trans-unit id="META_LAST_UPDATE" xml:space="preserve">
         <source>July 2016</source>
         <target>July 2016</target>
-        <note>SDG_INDICATOR_INFO</note>
       </trans-unit>
       <trans-unit id="RATIONALE" xml:space="preserve">
         <source>## Rationale
@@ -149,7 +138,6 @@ The indicator is a direct measure of the learning outcomes achieved in the two s
     (a) Below minimum is the proportion or percentage of students who do not achieve a minimum standard as set up by countries according to the globally-defined minimum competencies.
 
     (b) Above minimum is the proportion or percentage of students who have achieved the minimum standards. Due to heterogeneity of performance levels set by national and cross-national assessments, these performance levels will have to be mapped to the globally-defined minimum performance levels. Once the performance levels are mapped, the global education community will be able to identify for each country the proportion or percentage of children who achieved minimum standards.</target>
-        <note>OTHER_METHOD</note>
       </trans-unit>
       <trans-unit id="REC_USE_LIM" xml:space="preserve">
         <source>## Comments and limitations
@@ -158,7 +146,6 @@ While data from many national assessments are available now, every country sets 
         <target>## Comments and limitations
 
 While data from many national assessments are available now, every country sets its own standards so the performance levels might not be comparable. One option is to link existing regional assessments based on a common framework. Furthermore, assessments are typically administered within school systems, the current indicators cover only those in school and the proportion of in-school target populations might vary from country to country due to varied out-of-school children populations. Assessing competencies of children and young people who are out of school would require household-based surveys. Assessing children in households is under consideration but may be very costly and difficult to administer and unlikely to be available on the scale needed within the next 3-5 years. Finally, the calculation of this indicator requires specific information on the ages of children participating in assessments to create globally-comparable data. The ages of children reported by the head of the household might not be consistent and reliable so the calculation of the indicator may be even more challenging. Due to the complication in assessing out-of-school children and the main focus on improving education system, the UIS is taking a stepping stone approach. It will concentrate on assessing children in school in the medium term, where much data are available, then develop more coherent implementation plan to assess out-of-school children in the longer term.</target>
-        <note>OTHER_METHOD</note>
       </trans-unit>
       <trans-unit id="REG_AGG" xml:space="preserve">
         <source>## Regional aggregates
@@ -167,7 +154,6 @@ Regional and global aggregates are not currently available for this indicator.</
         <target>## Regional aggregates
 
 Regional and global aggregates are not currently available for this indicator.</target>
-        <note>OTHER_METHOD</note>
       </trans-unit>
       <trans-unit id="REL_CAL_POLICY" xml:space="preserve">
         <source>## Data release
@@ -176,7 +162,6 @@ July 2016</source>
         <target>## Data release
 
 July 2016</target>
-        <note>SRC_TYPE_COLL_METHOD</note>
       </trans-unit>
       <trans-unit id="SDG_CUSTODIAN_AGENCIES" xml:space="preserve">
         <source># Institutional information
@@ -189,12 +174,10 @@ UNESCO Institute for Statistics (UNESCO-UIS)</source>
 ## Organization(s)
 
 UNESCO Institute for Statistics (UNESCO-UIS)</target>
-        <note>SDG_INDICATOR_INFO</note>
       </trans-unit>
       <trans-unit id="SDG_INDICATOR" xml:space="preserve">
         <source>Indicator 4.1.1: Proportion of children and young people: (a) in grades 2/3; (b) at the end of primary; and (c) at the end of lower secondary achieving at least a minimum proficiency level in (i) reading and (ii) mathematics, by sex)</source>
         <target>Indicator 4.1.1: Proportion of children and young people: (a) in grades 2/3; (b) at the end of primary; and (c) at the end of lower secondary achieving at least a minimum proficiency level in (i) reading and (ii) mathematics, by sex)</target>
-        <note>SDG_INDICATOR_INFO</note>
       </trans-unit>
       <trans-unit id="SDG_RELATED_INDICATORS" xml:space="preserve">
         <source># Related indicators
@@ -203,7 +186,6 @@ UNESCO Institute for Statistics (UNESCO-UIS)</target>
         <target># Related indicators
 
 1.2, 1.4, 1.5, 2.1, 2.2, 2.3, 3.1, 3.3, 3.4, 3.7, 3.c, 4.5, 5.3, 5.4, 5.5, 5.b, 7.a, 8.6, 8.7, 8.b, 10.2, 10.6, 12.8, 13.3, 13.b, 16.a</target>
-        <note>SDG_INDICATOR_INFO</note>
       </trans-unit>
       <trans-unit id="SDG_SERIES_DESCR" xml:space="preserve">
         <source>## Time series
@@ -212,7 +194,6 @@ Latest year available in the period 2010-2015.</source>
         <target>## Time series
 
 Latest year available in the period 2010-2015.</target>
-        <note>SDG_INDICATOR_INFO</note>
       </trans-unit>
       <trans-unit id="SOURCE_TYPE" xml:space="preserve">
         <source># Data sources
@@ -225,7 +206,6 @@ Various cross-national learning assessments including: Programme d'analyse des s
 ## Description
 
 Various cross-national learning assessments including: Programme d'analyse des systèmes éducatifs de la CONFEMEN (PASEC), Progress in International Reading Literacy Study (PIRLS), Programme for International Student Assessment (PISA), Southern and Eastern Africa Consortium for Monitoring Educational Quality (SACMEQ), Tercer Estudio Regional Comparativo y Explicativo (TERCE) and Trends in International Mathematics and Science Study (TIMSS). (a) Short-term strategy: Use national large-scale representative assessment data from cross-national assessments even though the performance levels may not be directly comparable. (b) Medium-term strategy: Use a global reporting scale based on either a new test or the statistical linking of national, regional and cross-national assessments.</target>
-        <note>SRC_TYPE_COLL_METHOD</note>
       </trans-unit>
       <trans-unit id="STAT_CONC_DEF" xml:space="preserve">
         <source>## Definition
@@ -234,7 +214,6 @@ Percentage of children and young people in Grade 2 or 3 of primary education, at
         <target>## Definition
 
 Percentage of children and young people in Grade 2 or 3 of primary education, at the end of primary education and the end of lower secondary education achieving at least a minimum proficiency level in (a) reading and (b) mathematics. The minimum proficiency level will be measured relative to new common reading and mathematics scales currently in development.</target>
-        <note>IND_DEF_CON_CLASS</note>
       </trans-unit>
     </body>
   </file>

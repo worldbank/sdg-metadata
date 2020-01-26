@@ -6,7 +6,6 @@
 
 Not yet applicable. Data are reported at the national level only.</source>
         <target></target>
-        <note>OTHER_METHOD</note>
       </trans-unit>
       <trans-unit id="CLASS_SYSTEM" xml:space="preserve">
         <source>## Concepts
@@ -21,21 +20,18 @@ The table below shows the minimum proficiency levels for each learning assessmen
 
 Name | Target grade/age | Domain | Minimum Proficiency Level (MPL)</source>
         <target></target>
-        <note>IND_DEF_CON_CLASS</note>
       </trans-unit>
       <trans-unit id="COLL_METHOD" xml:space="preserve">
         <source>## Collection process
 
 Information not available.</source>
         <target></target>
-        <note>SRC_TYPE_COLL_METHOD</note>
       </trans-unit>
       <trans-unit id="COMPILING_ORG" xml:space="preserve">
         <source># Data compilers
 
 UNESCO Institute of Statistics (UIS)</source>
         <target></target>
-        <note>SRC_TYPE_COLL_METHOD</note>
       </trans-unit>
       <trans-unit id="DATA_AVAILABILITY" xml:space="preserve">
         <source># Data availability
@@ -52,7 +48,6 @@ UNESCO Institute of Statistics (UIS)</source>
 
 Regions | Number of countries with available data</source>
         <target></target>
-        <note>COVERAGE</note>
       </trans-unit>
       <trans-unit id="DATA_COMP" xml:space="preserve">
         <source># Methodology
@@ -73,7 +68,6 @@ n = the stage of education that was assessed
 
 s = the subject that was assessed (reading or mathematics).</source>
         <target></target>
-        <note>OTHER_METHOD</note>
       </trans-unit>
       <trans-unit id="DATA_SOURCE" xml:space="preserve">
         <source># Data providers
@@ -88,21 +82,18 @@ s = the subject that was assessed (reading or mathematics).</source>
 * MICS6: reported to the UIS by UNICEF
 * Pal network: reported to the UIS by Pal network</source>
         <target></target>
-        <note>SRC_TYPE_COLL_METHOD</note>
       </trans-unit>
       <trans-unit id="DISAGGREGATION" xml:space="preserve">
         <source>## Disaggregation
 
 Indicator 4.1.1.a must be disaggregated by domain (reading and mathematics) and sex.</source>
         <target></target>
-        <note>COVERAGE</note>
       </trans-unit>
       <trans-unit id="DOC_METHOD" xml:space="preserve">
         <source>## Methods and guidance available to countries for the compilation of the data at the national level
 
 * Information not available.</source>
         <target></target>
-        <note>OTHER_METHOD</note>
       </trans-unit>
       <trans-unit id="FREQ_COLL" xml:space="preserve">
         <source># Calendar
@@ -111,7 +102,6 @@ Indicator 4.1.1.a must be disaggregated by domain (reading and mathematics) and 
 
 Ongoing.</source>
         <target></target>
-        <note>SRC_TYPE_COLL_METHOD</note>
       </trans-unit>
       <trans-unit id="IMPUTATION" xml:space="preserve">
         <source>## Treatment of missing values
@@ -119,26 +109,22 @@ Ongoing.</source>
 * **At the country level**: Missing values are not imputed.
 * **At the regional and global levels**: Missing values are not imputed.</source>
         <target></target>
-        <note>OTHER_METHOD</note>
       </trans-unit>
       <trans-unit id="META_LAST_UPDATE" xml:space="preserve">
         <source>October 2018</source>
         <target></target>
-        <note>SDG_INDICATOR_INFO</note>
       </trans-unit>
       <trans-unit id="QUALITY_ASSURE" xml:space="preserve">
         <source>## Quality assurance
 
 * Information not available.</source>
         <target></target>
-        <note>QUALITY_MGMNT</note>
       </trans-unit>
       <trans-unit id="RATIONALE" xml:space="preserve">
         <source>## Rationale
 
 The higher the figure the higher the proportion of children and/or young people reaching at least minimum proficiency in the respective domain (reading or mathematic) with the limitations indicated under the “Comments and limitations” section.</source>
         <target></target>
-        <note>OTHER_METHOD</note>
       </trans-unit>
       <trans-unit id="REC_USE_LIM" xml:space="preserve">
         <source>## Comments and limitations
@@ -147,21 +133,18 @@ Learning outcomes from national school- or household-based learning assessments 
 
 Comparability over time is possible if the assessment is designed with an adequate linking process between waves of administration.  This is described in the note “4.1.1. UIS request for reclassification 20181001.docx.”</source>
         <target></target>
-        <note>OTHER_METHOD</note>
       </trans-unit>
       <trans-unit id="REG_AGG" xml:space="preserve">
         <source>## Regional aggregates
 
 Not yet applicable. Data are reported at the national level only.</source>
         <target></target>
-        <note>OTHER_METHOD</note>
       </trans-unit>
       <trans-unit id="REL_CAL_POLICY" xml:space="preserve">
         <source>## Data release
 
 September 2018; February 2019</source>
         <target></target>
-        <note>SRC_TYPE_COLL_METHOD</note>
       </trans-unit>
       <trans-unit id="SDG_CUSTODIAN_AGENCIES" xml:space="preserve">
         <source># Institutional information
@@ -170,24 +153,20 @@ September 2018; February 2019</source>
 
 UNESCO Institute of Statistics (UIS)</source>
         <target></target>
-        <note>SDG_INDICATOR_INFO</note>
       </trans-unit>
       <trans-unit id="SDG_INDICATOR" xml:space="preserve">
         <source>Indicator 4.1.1: Proportion of children and young people: (a) in grades 2/3; (b) at the end of primary; and (c) at the end of lower secondary achieving at least a minimum proficiency level in (i) reading and (ii) mathematics, by sex</source>
         <target></target>
-        <note>SDG_INDICATOR_INFO</note>
       </trans-unit>
       <trans-unit id="SDG_RELATED_INDICATORS" xml:space="preserve">
         <source>The parity indices for this indicator are reported in SDG indicator 4.5.1.</source>
         <target></target>
-        <note>SDG_INDICATOR_INFO</note>
       </trans-unit>
       <trans-unit id="SDG_SERIES_DESCR" xml:space="preserve">
         <source>## Time series
 
 Data available since 2000. The indicator will be reported annually.</source>
         <target></target>
-        <note>SDG_INDICATOR_INFO</note>
       </trans-unit>
       <trans-unit id="SOURCE_TYPE" xml:space="preserve">
         <source># Data sources
@@ -200,7 +179,6 @@ Type of data sources: In school and population-based learning assessments.
 
 ... | In-school based || Household Based Surveys | Grade</source>
         <target></target>
-        <note>SRC_TYPE_COLL_METHOD</note>
       </trans-unit>
       <trans-unit id="STAT_CONC_DEF" xml:space="preserve">
         <source># Concepts and definitons
@@ -209,7 +187,6 @@ Type of data sources: In school and population-based learning assessments.
 
 Proportion of children and young people in grades 2/3 achieving at least a minimum proficiency level in (i) reading and (ii) mathematics, by sex.</source>
         <target></target>
-        <note>IND_DEF_CON_CLASS</note>
       </trans-unit>
     </body>
   </file>

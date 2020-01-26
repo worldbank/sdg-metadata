@@ -8,7 +8,6 @@ Country level estimates are all based on nationally representative surveys with 
 
 In some cases the raw data is accessible to produce country level estimates. In some countries in addition to the raw data a standardized version of it is available and in other countries only the standardized version is. When multiple versions of the same survey are available the best performing in terms of a series of quality assurance tests is retained (see collection process). When a standardized version of a nationally designed survey instruments is chosen there are differences between expenditure variables generated using the raw data, and the expenditure variables generated using the harmonization procedures which might result in different estimated incidence of the population with large household expenditure on health as a share of household total expenditure or income.</source>
         <target></target>
-        <note>OTHER_METHOD</note>
       </trans-unit>
       <trans-unit id="CLASS_SYSTEM" xml:space="preserve">
         <source>## Concepts
@@ -35,7 +34,6 @@ Income is more difficult to measure accurately due to its greater variability ov
 
 It is recommended to use two thresholds for global reporting to identify large household expenditure on health as share of total household consumption or income: **a lower threshold of 10% (3.8.2_10) and a higher threshold of 25% (3.8.2_25)**. With these two thresholds the indicator measures financial hardship (see section on comments and limitations).</source>
         <target></target>
-        <note>IND_DEF_CON_CLASS</note>
       </trans-unit>
       <trans-unit id="COLL_METHOD" xml:space="preserve">
         <source>## Collection process
@@ -60,14 +58,12 @@ At the end of the quality assurance process, WHO and the World Bank assemble non
 
 In addition to such consultation, the World Health Organization and the World Bank regularly undertake training events on the measurement of lack of financial protection coverage, which involves participants from the Ministry of Health as well as from the National Statistical Office. WHO has several regional and national collaborations ongoing to support the production of indicator 3.8.2 as it has been recently adopted it is not yet routinely produced by National Statistical Office despite the data being available and the methodology simple.  Results of such collaborations are not yet included in the database assembled by WHO and the World Bank but estimates produced by a country will be subject to the same quality assurance process just described.</source>
         <target></target>
-        <note>SRC_TYPE_COLL_METHOD</note>
       </trans-unit>
       <trans-unit id="COMPILING_ORG" xml:space="preserve">
         <source># Data compilers
 
 The World Health Organization and the World Bank.</source>
         <target></target>
-        <note>SRC_TYPE_COLL_METHOD</note>
       </trans-unit>
       <trans-unit id="CONTACT_ORGANISATION" xml:space="preserve">
         <source># References
@@ -76,7 +72,6 @@ The World Health Organization and the World Bank.</source>
 
 &lt;http://apps.who.int/gho/cabinet/uhc.jsp&gt;;  &lt;http://datatopics.worldbank.org/universal-health-coverage/&gt;</source>
         <target></target>
-        <note>CONTACT</note>
       </trans-unit>
       <trans-unit id="DATA_AVAILABILITY" xml:space="preserve">
         <source># Data Availability
@@ -202,7 +197,6 @@ Data availability measured in terms of the number of countries that WHO and the 
 
 Overall data availability covers at least 50% of all WHO member States in all M49 regions except for those in Oceania (7.1%).  For more information, please consult WHO and World Bank 2017 report on tracking universal health ; Wagstaff  et al 2018.</source>
         <target></target>
-        <note>COVERAGE</note>
       </trans-unit>
       <trans-unit id="DATA_COMP" xml:space="preserve">
         <source># Methodology
@@ -257,14 +251,12 @@ where *𝑖* denotes a household, *1()* is the indicator function that takes on 
 
 Household health expenditure and household expenditure or income are defined as explained in the “concept” section. For more information about the methodology please refer to Wagstaff et al (2018) and chapter 2 in the WHO and World Bank 2017 report on tracking universal health coverage.</source>
         <target></target>
-        <note>OTHER_METHOD</note>
       </trans-unit>
       <trans-unit id="DATA_SOURCE" xml:space="preserve">
         <source># Data providers
 
 National Statistical Offices in collaboration with Ministries of health. See data sources for further details.</source>
         <target></target>
-        <note>SRC_TYPE_COLL_METHOD</note>
       </trans-unit>
       <trans-unit id="DISAGGREGATION" xml:space="preserve">
         <source>## Disaggregation
@@ -274,87 +266,70 @@ The following disaggregation is possible in so far as the survey has been design
 * Geographic location (rural/urban)
 * Quintiles of the household welfare measures (total household expenditure or income). See comments and limitations for the sensitivity of the disaggregation to the choice of the welfare measure.</source>
         <target></target>
-        <note>COVERAGE</note>
       </trans-unit>
       <trans-unit id="FOOTNOTE_1" xml:space="preserve">
         <source>[^1]: http://www.oecd-ilibrary.org/social-issues-migration-health/a-system-of-health-accounts/classification-of-health-care-financing-schemes-icha-hf_9789264116016-9-en</source>
         <target></target>
-        <note>SDG_INDICATOR_INFO</note>
       </trans-unit>
       <trans-unit id="FOOTNOTE_10" xml:space="preserve">
         <source>[^10] http://www.lisdatacenter.org/</source>
         <target></target>
-        <note>SDG_INDICATOR_INFO</note>
       </trans-unit>
       <trans-unit id="FOOTNOTE_11" xml:space="preserve">
         <source>[^11] http://unstats.un.org/sdgs/metadata/files/Metadata-01-01-01a.pdf</source>
         <target></target>
-        <note>SDG_INDICATOR_INFO</note>
       </trans-unit>
       <trans-unit id="FOOTNOTE_12" xml:space="preserve">
         <source>[^12] One example is the WHO engagement in the ongoing revision of COICOP by UNSD  https://unstats.un.org/unsd/class/revisions/coicop_revision.asp . Another example is a BMGF project WHO is supporting  to improve the measurement of household health expenditures  http://www.indepth-network.org/projects/ihope</source>
         <target></target>
-        <note>SDG_INDICATOR_INFO</note>
       </trans-unit>
       <trans-unit id="FOOTNOTE_13" xml:space="preserve">
         <source>[^13] http://iresearch.worldbank.org/PovcalNet/povOnDemand.aspx</source>
         <target></target>
-        <note>SDG_INDICATOR_INFO</note>
       </trans-unit>
       <trans-unit id="FOOTNOTE_14" xml:space="preserve">
         <source>[^14] https://datacatalog.worldbank.org/dataset/world-development-indicators</source>
         <target></target>
-        <note>SDG_INDICATOR_INFO</note>
       </trans-unit>
       <trans-unit id="FOOTNOTE_15" xml:space="preserve">
         <source>[^15] http://www.who.int/health-accounts/ghed/en/</source>
         <target></target>
-        <note>SDG_INDICATOR_INFO</note>
       </trans-unit>
       <trans-unit id="FOOTNOTE_16" xml:space="preserve">
         <source>[^16] https://datacatalog.worldbank.org/dataset/world-development-indicators</source>
         <target></target>
-        <note>SDG_INDICATOR_INFO</note>
       </trans-unit>
       <trans-unit id="FOOTNOTE_2" xml:space="preserve">
         <source>[^2]: Agenda item 3(l) available at https://unstats.un.org/unsd/statcom/49th-session/documents/; http://unstats.un.org/unsd/cr/registry/regcs.asp?Cl=5&amp;Lg=1&amp;Co=06.1</source>
         <target></target>
-        <note>SDG_INDICATOR_INFO</note>
       </trans-unit>
       <trans-unit id="FOOTNOTE_3" xml:space="preserve">
         <source>[^3]: http://www.ilo.org/public/english/bureau/stat/download/17thicls/r2hies.pdf</source>
         <target></target>
-        <note>SDG_INDICATOR_INFO</note>
       </trans-unit>
       <trans-unit id="FOOTNOTE_4" xml:space="preserve">
         <source>[^4]: http://unstats.un.org/sdgs/metadata/files/Metadata-01-01-01a.pdf</source>
         <target></target>
-        <note>SDG_INDICATOR_INFO</note>
       </trans-unit>
       <trans-unit id="FOOTNOTE_5" xml:space="preserve">
         <source>[^5]: Chapter 2 in “Tracking universal health coverage: 2017 global monitoring report”, World Health Organization and International Bank for Reconstruction and Development/  The World Bank; 2017; http://www.who.int/healthinfo/indicators/2015/en/ ;</source>
         <target></target>
-        <note>SDG_INDICATOR_INFO</note>
       </trans-unit>
       <trans-unit id="FOOTNOTE_6" xml:space="preserve">
         <source>[^6]: Xu, K., Evans, D. B., Carrin, G., Aguilar-Rivera, A. M., Musgrove, P., and Evans, T. (2007), “Protecting Households From Catastrophic Health Spending,” Health Affairs, 26, 972–983. Xu, L., Evans, D., Kawabata, K., Zeramdini, R., Klavus, J., and Murray, C. (2003), “Households Catastrophic Health Expenditure: A Multi-Country Analysis,” The Lancet, 326, 111–117.</source>
         <target></target>
-        <note>SDG_INDICATOR_INFO</note>
       </trans-unit>
       <trans-unit id="FOOTNOTE_7" xml:space="preserve">
         <source>[^7]: http://www.euro.who.int/en/health-topics/Health-systems/health-systems-financing/publications/clusters/universal-health-coverage-financial-protection;http://applications.emro.who.int/dsaf/EMROPUB_2016_EN_19169.pdf?ua=1 ; http://apps.searo.who.int/uhchttp://www.paho.org/hq/index.php?option=com_content&amp;view=article&amp;id=11065%3A2015-universal-health-coverage-latin-america-caribbean&amp;catid=3316%3Apublications&amp;Itemid=3562&amp;lang=en</source>
         <target></target>
-        <note>SDG_INDICATOR_INFO</note>
       </trans-unit>
       <trans-unit id="FOOTNOTE_8" xml:space="preserve">
         <source>[^8] http://econ.worldbank.org/WBSITE/EXTERNAL/EXTDEC/EXTRESEARCH/EXTLSMS/0,,contentMDK:21610833~pagePK:64168427~piPK:64168435~theSitePK:3358997,00.html</source>
         <target></target>
-        <note>SDG_INDICATOR_INFO</note>
       </trans-unit>
       <trans-unit id="FOOTNOTE_9" xml:space="preserve">
         <source>[^9] A detailed documentation describing the harmonization procedures is available from the accompanying pdf documents.</source>
         <target></target>
-        <note>SDG_INDICATOR_INFO</note>
       </trans-unit>
       <trans-unit id="FREQ_COLL" xml:space="preserve">
         <source># Calendar
@@ -363,19 +338,16 @@ The following disaggregation is possible in so far as the survey has been design
 
 Data collection follows a country’s plan to conduct household consumption expenditure surveys, household budget surveys and household income and expenditure survey.</source>
         <target></target>
-        <note>SRC_TYPE_COLL_METHOD</note>
       </trans-unit>
       <trans-unit id="IMPUTATION" xml:space="preserve">
         <source>## Treatment of missing values
 
 At the country level no imputation is attempted to produce estimates. The proportion of the population with large household expenditure on health as a share of total household expenditure or income is estimated for all years for which a nationally representative survey on household budget, household income and expenditure, socio-economic conditions or living standards is available with information on both total household expenditure or income and total household expenditure on health. When there are multiple surveys over time for the same country a preference is given to estimates produced based on the same survey. A series of tests is performed to retain the best performing series (see collection process).</source>
         <target></target>
-        <note>OTHER_METHOD</note>
       </trans-unit>
       <trans-unit id="META_LAST_UPDATE" xml:space="preserve">
         <source>March 2019</source>
         <target></target>
-        <note>SDG_INDICATOR_INFO</note>
       </trans-unit>
       <trans-unit id="RATIONALE" xml:space="preserve">
         <source>## Rationale
@@ -386,7 +358,6 @@ Indicator 3.8.2 derives from methodologies dating back to the 1990s developed in
 
 This is clearly against the spirit of the target, which calls for granting access based on health needs not a household’s capacity to pull together all its financial resources to meet the health needs of its members. Some direct payments might be needed but indicator 3.8.2 is underpinned by the conviction that no one, at whatever income level, should have to choose between spending on health and spending on other basic goods and services such as education tuitions, food necessities, housing and utilities. One way of assessing the extent to which health systems lead to financial hardship is to calculate the proportion of the population with large household expenditures on health as a share of household total consumption or income.  For detailed information on the definition chosen to monitor the financial protection dimension of universal health coverage within the SDG monitoring framework (indicator 3.8.2) please consult   Wagstaff et al. (2018) and chapter 2 in the WHO and World Bank report on “Tracking universal health coverage: 2017 global monitoring report”.</source>
         <target></target>
-        <note>OTHER_METHOD</note>
       </trans-unit>
       <trans-unit id="REC_USE_LIM" xml:space="preserve">
         <source>## Comments and limitations
@@ -406,7 +377,6 @@ Fourth, indicator 3.8.2. is based on measures of ex-post spending on health care
 
 There are other indicators used to measure financial hardship. WHO uses  a framework  which includes , __in addition to indicator 3.8.2,__ a definition of large health expenditure in relation to non-subsistence spending [^5} [^6} [^7}</source>
         <target></target>
-        <note>OTHER_METHOD</note>
       </trans-unit>
       <trans-unit id="REG_AGG" xml:space="preserve">
         <source>## Regional aggregates
@@ -415,7 +385,6 @@ To construct regional and global level estimates, when survey-based estimates ar
 
 The World Bank and the World Health Organization use their own regional grouping, in addition to the regional breakdown proposed for the SDG by UNSD.</source>
         <target></target>
-        <note>OTHER_METHOD</note>
       </trans-unit>
       <trans-unit id="REL_CAL_POLICY" xml:space="preserve">
         <source>## Data release
@@ -423,7 +392,6 @@ The World Bank and the World Health Organization use their own regional grouping
 Estimates on the proportion of the population with large household expenditure on health as a share of total household expenditure or income was released on December 2017. Going forward, new data will be added as more information is received from nominated focal points (see collection process). Updates
 of regional and global estimates are planned every two years.</source>
         <target></target>
-        <note>SRC_TYPE_COLL_METHOD</note>
       </trans-unit>
       <trans-unit id="SDG_CUSTODIAN_AGENCIES" xml:space="preserve">
         <source># Institutional information
@@ -432,26 +400,22 @@ of regional and global estimates are planned every two years.</source>
 
 World Health Organization (WHO)</source>
         <target></target>
-        <note>SDG_INDICATOR_INFO</note>
       </trans-unit>
       <trans-unit id="SDG_INDICATOR" xml:space="preserve">
         <source>Indicator 3.8.2: Proportion of population with large household expenditure on health as a share of total household expenditure or income</source>
         <target></target>
-        <note>SDG_INDICATOR_INFO</note>
       </trans-unit>
       <trans-unit id="SDG_RELATED_INDICATORS" xml:space="preserve">
         <source># Related indicators
 
 SDG indicators: 3.8.1; 1.1.1 and 1.2.1</source>
         <target></target>
-        <note>SDG_INDICATOR_INFO</note>
       </trans-unit>
       <trans-unit id="SDG_SERIES_DESCR" xml:space="preserve">
         <source>## Time series
 
 The frequency of such data is similar to the frequency of the data used to produced SDG indicator 1.1.1. It varies across countries but on average, this ranges from an annual 1 year basis to 3 to 5 years.</source>
         <target></target>
-        <note>SDG_INDICATOR_INFO</note>
       </trans-unit>
       <trans-unit id="SOURCE_TYPE" xml:space="preserve">
         <source># Data Sources
@@ -462,7 +426,6 @@ The recommended data sources for the monitoring of the “Proportion of the popu
 
 When socio-economic or living standards surveys are used to measure SDG indicator 3.8.2, any challenge for cross-country comparability of SDG Indicator 1.1.1 also applies to the monitoring of SDG indicator 3.8.2.  For any type of household survey, given the focus on household health expenditure there is a need to improve the current survey instruments for cross-country comparability. The World Health Organization is collaborating with different UN agencies and other important stakeholder to ensure this happens. [^12]</source>
         <target></target>
-        <note>SRC_TYPE_COLL_METHOD</note>
       </trans-unit>
       <trans-unit id="STAT_CONC_DEF" xml:space="preserve">
         <source># Concepts and definitions
@@ -473,7 +436,6 @@ Proportion of the population with large household expenditure on health as a sha
 
 Two thresholds are used to define “large household expenditure on health”: greater than 10% and greater than 25% of total household expenditure or income.</source>
         <target></target>
-        <note>IND_DEF_CON_CLASS</note>
       </trans-unit>
     </body>
   </file>

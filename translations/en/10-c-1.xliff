@@ -8,7 +8,6 @@ There are no country-produced alternatives for this data, except for countries t
         <target>## Sources of discrepancies
 
 There are no country-produced alternatives for this data, except for countries that have established a remittance price database in line with World Bank minimum requirements. It has been observed that data are broadly in line and no significant discrepancies exist.</target>
-        <note>OTHER_METHOD</note>
       </trans-unit>
       <trans-unit id="CLASS_SYSTEM" xml:space="preserve">
         <source>## Concepts
@@ -33,7 +32,6 @@ There are no country-produced alternatives for this data, except for countries t
 **Money transfer operator (MTO).** A non-deposit taking payment service provider where the service involves payment per transfer (or possibly payment for a set or series of transfers) by the sender to the payment service provider (for example, by cash or bank transfer) – i.e. as opposed to a situation where the payment service provider debits an account held by the sender at the payment service provider. MTOs may include both traditional players focusing on delivering funds in cash and innovative players which may adopt a variety of different business models for the delivery of the transactions.
 
 **Price.** The total cost to the end users of sending a remittance transfer (including the fees charged to the sender and the margin by which the exchange rate charged to the end users is above the current interbank exchange rate).</target>
-        <note>IND_DEF_CON_CLASS</note>
       </trans-unit>
       <trans-unit id="COLL_METHOD" xml:space="preserve">
         <source>## Collection process
@@ -42,7 +40,6 @@ Mystery shopping conducted quarterly.</source>
         <target>## Collection process
 
 Mystery shopping conducted quarterly.</target>
-        <note>SRC_TYPE_COLL_METHOD</note>
       </trans-unit>
       <trans-unit id="COMPILING_ORG" xml:space="preserve">
         <source># Data compilers
@@ -51,7 +48,6 @@ World Bank</source>
         <target># Data compilers
 
 World Bank</target>
-        <note>SRC_TYPE_COLL_METHOD</note>
       </trans-unit>
       <trans-unit id="CONTACT_ORGANISATION" xml:space="preserve">
         <source># References
@@ -64,7 +60,6 @@ World Bank</target>
 ## URL:
 
 **http://remittances.worldbank.org**</target>
-        <note>CONTACT</note>
       </trans-unit>
       <trans-unit id="DATA_AVAILABILITY" xml:space="preserve">
         <source># Data Availability
@@ -73,7 +68,6 @@ The data are available for 365 corridors, which include 48 sending countries and
         <target># Data Availability
 
 The data are available for 365 corridors, which include 48 sending countries and 105 receiving countries. The data are collected quarterly.</target>
-        <note>COVERAGE</note>
       </trans-unit>
       <trans-unit id="DATA_COMP" xml:space="preserve">
         <source># Methodology
@@ -102,7 +96,6 @@ For additional information on the methodology of SmaRT, please see: **https://re
 Target 10.c.1 includes two components, which require two separate calculations:
 1. Global average of remittance costs to be reduced to less than 3 percent: this is calculated as the simple average of the total cost for all services included in the RPW database
 2. Enabling remittance senders in all corridors to send money to their receivers at a cost of 5 percent or less: this is calculated as the average cost of the three cheapest available services in each corridor which meet a defined set of minimum requirements, as described in the World Bank SmaRT methodology. The target is that the SmaRT average for all corridors should be 5 percent or lower.</target>
-        <note>OTHER_METHOD</note>
       </trans-unit>
       <trans-unit id="DATA_SOURCE" xml:space="preserve">
         <source># Data providers
@@ -111,7 +104,6 @@ Data are collected by mystery shopping from remittance service providers.</sourc
         <target># Data providers
 
 Data are collected by mystery shopping from remittance service providers.</target>
-        <note>SRC_TYPE_COLL_METHOD</note>
       </trans-unit>
       <trans-unit id="DISAGGREGATION" xml:space="preserve">
         <source>## Disaggregation
@@ -120,7 +112,6 @@ RPW tracks the cost of remittances by the type of remittance service providers: 
         <target>## Disaggregation
 
 RPW tracks the cost of remittances by the type of remittance service providers: commercial banks, money transfer operators, post offices, mobile money providers (more provider types may be added as market evolves). In addition, disaggregation is also possible by the instrument used to fund the transaction: including but not limited to cash, bank account, debit/credit card, mobile money etc.; and by the instrument used to disburse the funds: including but not limited to cash, bank account, mobile wallet etc.</target>
-        <note>COVERAGE</note>
       </trans-unit>
       <trans-unit id="DOC_METHOD" xml:space="preserve">
         <source>## Methods and guidance available to countries for the compilation of the data at the national level
@@ -159,7 +150,6 @@ RPW tracks the cost of remittances by the type of remittance service providers: 
 
     More information is available in the policy paper on _Remittance Price Comparison Databases: Minimum Requirements and Overall Policy Strategy – Guide and Special-Purpose Note_, available at: &lt;https://remittanceprices.worldbank.org/sites/default/files/StandardsNationalDatabases.pdf&gt;
 * Web site for Remittance Prices Worldwide database and related resources: &lt;http://remittanceprices.worldbank.org&gt;</target>
-        <note>OTHER_METHOD</note>
       </trans-unit>
       <trans-unit id="FREQ_COLL" xml:space="preserve">
         <source># Calendar
@@ -172,7 +162,6 @@ Quarterly</source>
 ## Data collection
 
 Quarterly</target>
-        <note>SRC_TYPE_COLL_METHOD</note>
       </trans-unit>
       <trans-unit id="IMPUTATION" xml:space="preserve">
         <source>## Treatment of missing values
@@ -193,12 +182,10 @@ Quarterly</target>
 * **At regional and global levels**
 
     Regional aggregates are computed by calculating simple averages of individual services remitting to the recipient countries in the region for which there is data. Countries with no data are not included, however, as a representative sample is built, it is assumed that missing data fall in the same cost range as collected data.</target>
-        <note>OTHER_METHOD</note>
       </trans-unit>
       <trans-unit id="META_LAST_UPDATE" xml:space="preserve">
         <source>February 2, 2018</source>
         <target>February 2, 2018</target>
-        <note>SDG_INDICATOR_INFO</note>
       </trans-unit>
       <trans-unit id="QUALITY_ASSURE" xml:space="preserve">
         <source>## Quality assurance
@@ -207,7 +194,6 @@ Data are collected by researchers through mystery shopping, and subsequently com
         <target>## Quality assurance
 
 Data are collected by researchers through mystery shopping, and subsequently compiled, cleaned, and reviewed. The World Bank uses vendor services for data collection and compilation. The data is then reviewed in detail by the World Bank RPW team, who also undertakes the analysis.</target>
-        <note>QUALITY_MGMNT</note>
       </trans-unit>
       <trans-unit id="RATIONALE" xml:space="preserve">
         <source>## Rationale
@@ -216,7 +202,6 @@ Data for these indicators have been collected by the World Bank through the Remi
         <target>## Rationale
 
 Data for these indicators have been collected by the World Bank through the Remittance Prices Worldwide (RPW) database since 2008 for the purpose of monitoring the G8 / G20 target on reducing remittance prices. Also known as the “5x5 objective”, this goal was adopted by the G8 in 2009, and it refers to reduction of the global average total cost of migrant remittances by 5 percentage points in 5 years. To achieve this objective, the governments in both sending and receiving countries should consider implementing reforms based upon the General Principles for International Remittances Services by the World Bank/Committee on Payment and Settlement Systems (January 2007). This internationally agreed framework has proven effective in helping reduce the cost of remittances and guiding actions to enhance the efficiency of international remittances. The World Bank’s RPW database is the only global database that monitors remittance prices across all regions of the world. RPW was launched by the World Bank in September 2008, and is a key tool in monitoring the evolution of costs to the remitters and the beneficiaries from sending and receiving money in major country corridors.</target>
-        <note>OTHER_METHOD</note>
       </trans-unit>
       <trans-unit id="REC_USE_LIM" xml:space="preserve">
         <source>## Comments and limitations
@@ -225,7 +210,6 @@ NA</source>
         <target>## Comments and limitations
 
 NA</target>
-        <note>OTHER_METHOD</note>
       </trans-unit>
       <trans-unit id="REG_AGG" xml:space="preserve">
         <source>## Regional aggregates
@@ -234,7 +218,6 @@ Regional aggregates are computed by calculating simple averages of individual se
         <target>## Regional aggregates
 
 Regional aggregates are computed by calculating simple averages of individual services remitting to the recipient countries in the region for which there is data.</target>
-        <note>OTHER_METHOD</note>
       </trans-unit>
       <trans-unit id="REL_CAL_POLICY" xml:space="preserve">
         <source>## Data release
@@ -243,7 +226,6 @@ March, June, September, December</source>
         <target>## Data release
 
 March, June, September, December</target>
-        <note>SRC_TYPE_COLL_METHOD</note>
       </trans-unit>
       <trans-unit id="SDG_CUSTODIAN_AGENCIES" xml:space="preserve">
         <source># Institutional information
@@ -256,12 +238,10 @@ World Bank</source>
 ## Organization(s) 
 
 World Bank</target>
-        <note>SDG_INDICATOR_INFO</note>
       </trans-unit>
       <trans-unit id="SDG_INDICATOR" xml:space="preserve">
         <source>Indicator 10.c.1: Remittance costs as a proportion of the amount remitted</source>
         <target>Indicator 10.c.1: Remittance costs as a proportion of the amount remitted</target>
-        <note>SDG_INDICATOR_INFO</note>
       </trans-unit>
       <trans-unit id="SDG_RELATED_INDICATORS" xml:space="preserve">
         <source># Related indicators
@@ -270,7 +250,6 @@ G20 5x5 target – Remittance cost reduction for development. In 2009, the G8 se
         <target># Related indicators
 
 G20 5x5 target – Remittance cost reduction for development. In 2009, the G8 set a target, later adopted by the G20, to reduce the cost of international remittances from 10 percent to 5 percent within five years. The target was dubbed the “5x5 Objective.”</target>
-        <note>SDG_INDICATOR_INFO</note>
       </trans-unit>
       <trans-unit id="SDG_SERIES_DESCR" xml:space="preserve">
         <source>## Time series
@@ -279,7 +258,6 @@ Data availability: since 2008 (all data available online; data available online 
         <target>## Time series
 
 Data availability: since 2008 (all data available online; data available online in Excel format starting from Q1 2011).</target>
-        <note>SDG_INDICATOR_INFO</note>
       </trans-unit>
       <trans-unit id="SOURCE_TYPE" xml:space="preserve">
         <source># Data Sources
@@ -288,7 +266,6 @@ Data sources are the remittance service providers (RSPs) themselves. Data are co
         <target># Data Sources
 
 Data sources are the remittance service providers (RSPs) themselves. Data are collected quarterly through a mystery shopping exercise, which takes one week. Every year, in each corridor, a market analysis is conducted to compile a sample of RSPs covering at least 80% of the market.</target>
-        <note>SRC_TYPE_COLL_METHOD</note>
       </trans-unit>
       <trans-unit id="STAT_CONC_DEF" xml:space="preserve">
         <source># Concepts and definitions
@@ -301,7 +278,6 @@ The target includes two components. The first component is that transaction cost
 ## Definition
 
 The target includes two components. The first component is that transaction costs for migrant remittances should be 3% or less by 2030. This transaction cost should be intended as **“Global average total cost of sending $200 (or equivalent in local sending currency) and expressed as % of amount sent”**. This indicator is readily available and published on a quarterly basis by the World Bank in the Remittance Prices Worldwide database, which covers 365 country corridors, from 48 sending to 105 receiving countries. The second component is to eliminate corridor where cost is 5% or higher. This should be intended in the sense that it should be possible for remittance senders to send money to the beneficiary for an average cost of 5% or less of the amount sent. For this purpose, it should suffice that in each corridor there are at least 3 services, meeting a defined set of service requirements (including service quality, reach etc.), for which the average is 5% or less.</target>
-        <note>IND_DEF_CON_CLASS</note>
       </trans-unit>
     </body>
   </file>

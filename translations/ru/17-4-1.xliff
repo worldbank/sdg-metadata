@@ -8,21 +8,18 @@ Concepts of public and publicly guaranteed external debt data are in accordance 
 
 “Exports of goods and services” data concepts are in accordance with the sixth edition of the Balance of Payments and International Investment Position Manual (BPM6).</source>
         <target></target>
-        <note>IND_DEF_CON_CLASS</note>
       </trans-unit>
       <trans-unit id="COLL_METHOD" xml:space="preserve">
         <source>## Collection process
 
 Public and publicly guaranteed debt is reported on a quarterly basis through form 1 and form 2. Specifically, the new loan commitments are reported on Form 1 and when appropriate, Form 1a (Schedule of Drawings and Principal and Interest Payments); the loan transactions are reported once a year on Form 2 (Current Status and Transactions). Form 3 is used to report corrections to data originally reported in Forms 1 and 2. Forms 1 and 1A are submitted quarterly, within 30 days of the close of the quarter. Form 2 is submitted annually, by March 31 of the year following that for which the report is made.</source>
         <target></target>
-        <note>SRC_TYPE_COLL_METHOD</note>
       </trans-unit>
       <trans-unit id="COMPILING_ORG" xml:space="preserve">
         <source># Data compilers
 
 World Bank</source>
         <target></target>
-        <note>SRC_TYPE_COLL_METHOD</note>
       </trans-unit>
       <trans-unit id="CONTACT_ORGANISATION" xml:space="preserve">
         <source># References
@@ -31,14 +28,12 @@ World Bank</source>
 
 www.worldbank.org</source>
         <target></target>
-        <note>CONTACT</note>
       </trans-unit>
       <trans-unit id="DATA_AVAILABILITY" xml:space="preserve">
         <source># Data Availability
 
 Data for 122 countries are already currently available on a regular basis for this indicator.</source>
         <target></target>
-        <note>COVERAGE</note>
       </trans-unit>
       <trans-unit id="DATA_COMP" xml:space="preserve">
         <source># Methodology
@@ -51,21 +46,18 @@ Public and publicly guaranteed external debt data are compiled by the World Bank
 
 Both components are used to express the indicator in percentage terms.</source>
         <target></target>
-        <note>OTHER_METHOD</note>
       </trans-unit>
       <trans-unit id="DATA_SOURCE" xml:space="preserve">
         <source># Data providers
 
 The agency in charge of producing the debt statistics at the national level is the World Bank with the data sourced by government agencies on a loan by loan basis. The national data provider of “Exports of Goods, and Services” is the institution in charge of the collection and compilation of the Balance of Payments statistics. This responsibility varies and is country specific (i.e. Central Bank). World Bank staff estimates for “Exports of Goods and Services” data are used for gap filling purposes. “Exports of Goods and Services” data are not reported directly to the World Bank from the national data provider. They are reported to the International Monetary Fund (IMF), which is the institution in charge of overseeing balance of payment stability as part of its institutional mandate.</source>
         <target></target>
-        <note>SRC_TYPE_COLL_METHOD</note>
       </trans-unit>
       <trans-unit id="DISAGGREGATION" xml:space="preserve">
         <source>## Disaggregation
 
 None</source>
         <target></target>
-        <note>COVERAGE</note>
       </trans-unit>
       <trans-unit id="FREQ_COLL" xml:space="preserve">
         <source># Calendar
@@ -74,26 +66,22 @@ None</source>
 
 Loan transactions are reported once a year on Form 2 (Current Status and Transactions). Forms 1 and 1A are submitted quarterly, within 30 days of the close of the quarter. Form 2 is submitted annually, by March 31 of the year following that for which the report is made.</source>
         <target></target>
-        <note>SRC_TYPE_COLL_METHOD</note>
       </trans-unit>
       <trans-unit id="META_LAST_UPDATE" xml:space="preserve">
         <source>July 19, 2016</source>
         <target></target>
-        <note>SDG_INDICATOR_INFO</note>
       </trans-unit>
       <trans-unit id="REG_AGG" xml:space="preserve">
         <source>## Regional aggregates
 
 Aggregate (global, regional and income group) figures are composed of Debtor Reporting System (DRS) member countries only.</source>
         <target></target>
-        <note>OTHER_METHOD</note>
       </trans-unit>
       <trans-unit id="REL_CAL_POLICY" xml:space="preserve">
         <source>## Data release
 
 The annual publication of new data for this indicator is planned for mid-December through the World Bank annual publication - International Debt Statistics (IDS) book and available online (see link: http://data.worldbank.org/products/ids)</source>
         <target></target>
-        <note>SRC_TYPE_COLL_METHOD</note>
       </trans-unit>
       <trans-unit id="SDG_CUSTODIAN_AGENCIES" xml:space="preserve">
         <source># Institutional information
@@ -102,12 +90,10 @@ The annual publication of new data for this indicator is planned for mid-Decembe
 
 World Bank (WB)</source>
         <target></target>
-        <note>SDG_INDICATOR_INFO</note>
       </trans-unit>
       <trans-unit id="SDG_INDICATOR" xml:space="preserve">
         <source>Indicator 17.4.1: Debt service as a proportion of exports of goods and services</source>
         <target></target>
-        <note>SDG_INDICATOR_INFO</note>
       </trans-unit>
       <trans-unit id="SOURCE_TYPE" xml:space="preserve">
         <source># Data Sources
@@ -118,7 +104,6 @@ In accordance with the World Bank’s Operational Policy 14.10 (which includes I
 
 External borrowing of reporting countries is performed through the Debtor Reporting System (DRS), which was established in 1951 and captures detailed information at loan level by using standardized set of forms.</source>
         <target></target>
-        <note>SRC_TYPE_COLL_METHOD</note>
       </trans-unit>
       <trans-unit id="STAT_CONC_DEF" xml:space="preserve">
         <source># Concepts and definitions
@@ -127,7 +112,6 @@ External borrowing of reporting countries is performed through the Debtor Report
 
 Debt service as proportion of exports of goods and services is the percentage of debt services (principle and interest payments) to the exports of goods and services. Debt services covered in this indicator refer only to public and publicly guaranteed debt..</source>
         <target></target>
-        <note>IND_DEF_CON_CLASS</note>
       </trans-unit>
     </body>
   </file>

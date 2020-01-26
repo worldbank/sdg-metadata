@@ -8,7 +8,6 @@ Differences might occur due to the following, amongst others: For national estim
         <target>## Sources of discrepancies
 
 Differences might occur due to the following, amongst others: For national estimates incoming water is counted as being part of the country’s available water resources, while global estimates can only be done by adding up the internal renewable water resources (water generated within the country) of all countries in order to avoid double counting.</target>
-        <note>OTHER_METHOD</note>
       </trans-unit>
       <trans-unit id="CLASS_SYSTEM" xml:space="preserve">
         <source>## Concepts
@@ -37,7 +36,6 @@ External renewable water resources refer to the flows of water entering the coun
 Total freshwater withdrawal (TWW) is the volume of freshwater extracted from its source (rivers, lakes, aquifers) for agriculture, industries and municipalities. It is estimated at the country level for the following three main sectors: agriculture, municipalities (including domestic water withdrawal) and industries. Freshwater withdrawal includes primary freshwater (not withdrawn before), secondary freshwater (previously withdrawn and returned to rivers and groundwater, such as discharged wastewater and agricultural drainage water) and fossil groundwater. It does not include non-conventional water, i.e. direct use of treated wastewater, direct use of agricultural drainage water and desalinated water. TWW is in general calculated as being the sum of total water withdrawal by sector minus direct use of wastewater, direct use of agricultural drainage water and use of desalinated water.
 
 Environmental water requirements (Env.) are the quantities of water required to sustain freshwater and estuarine ecosystems. Water quality and also the resulting ecosystem services are excluded from this formulation which is confined to water volumes. This does not imply that quality and the support to societies which are dependent on environmental flows are not important and should not be taken care of. Methods of computation of Env. are extremely variable and range from global estimates to comprehensive assessments for river reaches. For the purpose of the SDG indicator, water volumes can be expressed in the same units as the TWW, and then as percentages of the available water resources.</target>
-        <note>IND_DEF_CON_CLASS</note>
       </trans-unit>
       <trans-unit id="COLL_METHOD" xml:space="preserve">
         <source>## Collection process
@@ -54,7 +52,6 @@ i. Official counterparts at country level are the line ministry for water resour
 ii. Countries are expected to put in place a process of Quality Control (QC), Quality Assurance (QA) and data verification. The process should be carried out internally for the QC part, ensuring that all the planned steps are properly carried out at each round of data collection. The QA should be carried out by independent experts, either national or international, to assess the consistence and robustness of the data produced. Finally, where possible the resulting data should be verified by comparison with similar data from other sources.
 
 iii. As the data will be collected through different questionnaires, harmonization will be needed among the eventual differences in definitions and aggregations.</target>
-        <note>SRC_TYPE_COLL_METHOD</note>
       </trans-unit>
       <trans-unit id="COMPILING_ORG" xml:space="preserve">
         <source># Data compilers
@@ -63,7 +60,6 @@ Food and Agriculture Organization of the United Nations (FAO) through AQUASTAT, 
         <target># Data compilers
 
 Food and Agriculture Organization of the United Nations (FAO) through AQUASTAT, its global water information system (http://www.fao.org/nr/aquastat).</target>
-        <note>SRC_TYPE_COLL_METHOD</note>
       </trans-unit>
       <trans-unit id="CONTACT_ORGANISATION" xml:space="preserve">
         <source># References
@@ -76,7 +72,6 @@ www.fao.org/nr/aquastat</source>
 ## URL
 
 www.fao.org/nr/aquastat</target>
-        <note>CONTACT</note>
       </trans-unit>
       <trans-unit id="DATA_AVAILABILITY" xml:space="preserve">
         <source># Data Availability
@@ -113,7 +108,6 @@ Asia and Pacific 42&lt;br&gt;
 Africa 49&lt;br&gt;
 Latin America and the Caribbean 27&lt;br&gt;
 Europe, North America, Australia, New Zealand and Japan 47&lt;br&gt;</target>
-        <note>COVERAGE</note>
       </trans-unit>
       <trans-unit id="DATA_COMP" xml:space="preserve">
         <source># Methodology
@@ -134,7 +128,6 @@ The indicator is computed as the total freshwater withdrawn (TWW) divided by the
 Stress (%) = TWW / (TRWR - Env.) * 100
 
 It is proposed to classify the level of water stress in three main categories (levels): low, high and very high. The thresholds for the indicator could be country specific, to reflect differences in climate and national water management objectives. Alternatively, uniform thresholds could be proposed using existing literature and taking into account environmental water requirements.</target>
-        <note>OTHER_METHOD</note>
       </trans-unit>
       <trans-unit id="DATA_SOURCE" xml:space="preserve">
         <source># Data providers
@@ -147,7 +140,6 @@ National Statistical Offices Line ministry National consultants The institutions
 ## Description
 
 National Statistical Offices Line ministry National consultants The institutions responsible for data collection at national level vary according to countries. However, in general data for this indicator are provided by the Ministry of Agriculture, Ministry of Water and Ministry of Environment, and sometimes channelled through the National statistical Office.</target>
-        <note>SRC_TYPE_COLL_METHOD</note>
       </trans-unit>
       <trans-unit id="DISAGGREGATION" xml:space="preserve">
         <source>## Disaggregation
@@ -160,7 +152,6 @@ At national level, water resources and withdrawal are estimated or measured at t
 To compute this indicator sectoral data are needed. The indicator can be disaggregated to show the respective contribution of different sectors to the country’s water stress, and therefore the relative importance of actions needed to contain water demand in the different sectors (agriculture, municipalities and industry).
 
 At national level, water resources and withdrawal are estimated or measured at the level of appropriate hydrological units (river basins, aquifers). It is therefore possible to obtain a geographical distribution of water stress by hydrological unit, thus allowing for more targeted response in terms of water demand management.</target>
-        <note>COVERAGE</note>
       </trans-unit>
       <trans-unit id="DOC_METHOD" xml:space="preserve">
         <source>## Methods and guidance available to countries for the compilation of the data at the national level
@@ -323,7 +314,6 @@ The International Recommendations for Water Statistics (IRWS) were developed to 
 ### UNSD ‘National Accounts Main Aggregates Database’
 
 &lt;http://unstats.un.org/unsd/snaama/selbasicFast.asp&gt;</target>
-        <note>OTHER_METHOD</note>
       </trans-unit>
       <trans-unit id="FREQ_COLL" xml:space="preserve">
         <source># Calendar
@@ -336,7 +326,6 @@ The International Recommendations for Water Statistics (IRWS) were developed to 
 ## Data collection
 
 2016-2018</target>
-        <note>SRC_TYPE_COLL_METHOD</note>
       </trans-unit>
       <trans-unit id="IMPUTATION" xml:space="preserve">
         <source>## Treatment of missing values
@@ -355,12 +344,10 @@ The International Recommendations for Water Statistics (IRWS) were developed to 
 * **At regional and global levels**
 
     For the MDGs, latest values were used to obtain regional or global aggregates, even if not available for the same year. It is expected that through the baseline that will be produced for the SDG monitoring, data for more or less the same range of years become available.</target>
-        <note>OTHER_METHOD</note>
       </trans-unit>
       <trans-unit id="META_LAST_UPDATE" xml:space="preserve">
         <source>July 11, 2017</source>
         <target>July 11, 2017</target>
-        <note>SDG_INDICATOR_INFO</note>
       </trans-unit>
       <trans-unit id="QUALITY_ASSURE" xml:space="preserve">
         <source>## Quality assurance
@@ -403,7 +390,6 @@ For the data deriving from FAOSTAT and AQUASTAT, data are collected in countries
 However, for the SDG process a specific mechanism will be put in place, consisting in the identification in each country, by the national government, of a national focal point and a technical team, in charge of the collection and computation of the indicator, in close consultation with FAO. This system has been successfully tested during the initial phase of the GEMI project, carried out by FAO and other seven UN agencies, coordinated by UN-Water.
 
 For those countries that could initially have difficulties in compiling and computing the indicator, FAO will provide support and ultimately will be able to produce the indicator starting from internationally available data. However, no data will be made public without the prior approval by the relevant national authorities.</target>
-        <note>QUALITY_MGMNT</note>
       </trans-unit>
       <trans-unit id="RATIONALE" xml:space="preserve">
         <source>## Rationale
@@ -416,7 +402,6 @@ The indicator shows to what extent water resources are already used, and signals
 The purpose of this indicator is to show the degree to which water resources are being exploited to meet the country's water demand. It measures a country's pressure on its water resources and therefore the challenge on the sustainability of its water use. It tracks progress in regard to “withdrawals and supply of freshwater to address water scarcity”, i.e. the environmental component of target 6.4.
 
 The indicator shows to what extent water resources are already used, and signals the importance of effective supply and demand management policies. It indicates the likelihood of increasing competition and conflict between different water uses and users in a situation of increasing water scarcity. Increased water stress, shown by an increase in the value of the indicator, has potentially negative effects on the sustainability of the natural resources and on economic development. On the other hand, low values of the indicator indicate that water does not represent a particular challenge for economic development and sustainability.</target>
-        <note>OTHER_METHOD</note>
       </trans-unit>
       <trans-unit id="REC_USE_LIM" xml:space="preserve">
         <source>## Comments and limitations
@@ -465,7 +450,6 @@ Other limitations that affect the interpretation of the water stress indicator i
 * the indicator can be higher than 100 per cent when water withdrawal includes secondary freshwater (water withdrawn previously and returned to the system), non-renewable water (fossil groundwater), when annual groundwater withdrawal is higher than annual replenishment (over-abstraction) or when water withdrawal includes part or all of the water set aside for environmental water requirements.
 
 Some of these issues can be solved through disaggregation of the index at the level of hydrological units and by distinguishing between different use sectors. However, due to the complexity of water flows, both within a country and between countries, care should be taken not to double-count.</target>
-        <note>OTHER_METHOD</note>
       </trans-unit>
       <trans-unit id="REG_AGG" xml:space="preserve">
         <source>## Regional aggregates
@@ -474,7 +458,6 @@ Regional and global estimates will be done by summing up the national figures on
         <target>## Regional aggregates
 
 Regional and global estimates will be done by summing up the national figures on renewable freshwater resources and total freshwater withdrawal, considering only the internal renewable water resources of each country in order to avoid double counting.</target>
-        <note>OTHER_METHOD</note>
       </trans-unit>
       <trans-unit id="REL_CAL_POLICY" xml:space="preserve">
         <source>## Data release
@@ -483,7 +466,6 @@ New data for the indicator are planned to be produced for most countries between
         <target>## Data release
 
 New data for the indicator are planned to be produced for most countries between 2017 and 2018.</target>
-        <note>SRC_TYPE_COLL_METHOD</note>
       </trans-unit>
       <trans-unit id="SDG_CUSTODIAN_AGENCIES" xml:space="preserve">
         <source># Institutional information
@@ -496,12 +478,10 @@ Food and Agriculture Organization of the United Nations (FAO)</source>
 ## Organization(s)
 
 Food and Agriculture Organization of the United Nations (FAO)</target>
-        <note>SDG_INDICATOR_INFO</note>
       </trans-unit>
       <trans-unit id="SDG_INDICATOR" xml:space="preserve">
         <source>Indicator 6.4.2: Level of water stress: freshwater withdrawal as a proportion of available freshwater resources</source>
         <target>Indicator 6.4.2: Level of water stress: freshwater withdrawal as a proportion of available freshwater resources</target>
-        <note>SDG_INDICATOR_INFO</note>
       </trans-unit>
       <trans-unit id="SDG_RELATED_INDICATORS" xml:space="preserve">
         <source># Related indicators
@@ -542,7 +522,6 @@ Food and Agriculture Organization of the United Nations (FAO)</target>
 1.5.1 Number of deaths, missing persons and persons affected by disaster per 100,000 people [a]
 
 11.5.1 Number of deaths, missing persons and persons affected by disaster per 100,000 people [a]</target>
-        <note>SDG_INDICATOR_INFO</note>
       </trans-unit>
       <trans-unit id="SDG_SERIES_DESCR" xml:space="preserve">
         <source>## Time series
@@ -551,7 +530,6 @@ Food and Agriculture Organization of the United Nations (FAO)</target>
         <target>## Time series
 
 1961-2015 (Discontinuous, depending on country)</target>
-        <note>SDG_INDICATOR_INFO</note>
       </trans-unit>
       <trans-unit id="SOURCE_TYPE" xml:space="preserve">
         <source># Data sources
@@ -586,7 +564,6 @@ http://unstats.un.org/unsd/environment/Questionnaires/q2013Water_English.xls
 
 OECD/Eurostat&lt;br&gt;
 http://ec.europa.eu/eurostat/ramon/coded_files/OECD_ESTAT_JQ_Manual_version_2_21.pdf</target>
-        <note>SRC_TYPE_COLL_METHOD</note>
       </trans-unit>
       <trans-unit id="STAT_CONC_DEF" xml:space="preserve">
         <source># Concepts and definitions
@@ -599,7 +576,6 @@ The level of water stress: freshwater withdrawal as a proportion of available fr
 ## Definition
 
 The level of water stress: freshwater withdrawal as a proportion of available freshwater resources is the ratio between total freshwater withdrawn by all major sectors and total renewable freshwater resources, after taking into account environmental water requirements. Main sectors, as defined by ISIC standards, include agriculture; forestry and fishing; manufacturing; electricity industry; and services. This indicator is also known as water withdrawal intensity.</target>
-        <note>IND_DEF_CON_CLASS</note>
       </trans-unit>
     </body>
   </file>

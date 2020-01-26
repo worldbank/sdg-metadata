@@ -78,7 +78,7 @@ function doLanguage(language) {
             // This sequence parses the Jekyll-style front-matter and content.
             const [frontMatter, content] = fileContents.split('---').map(x => x.trim()).filter(x => x)
             const info = YAML.parse(frontMatter)
-            units[id] = getUnit(content, language === 'en' ? content : '', info.parent)
+            units[id] = getUnit(content, language === 'en' ? content : '')
         }
 
         // Write the output for this indicator.
