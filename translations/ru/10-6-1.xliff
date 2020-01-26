@@ -1,8 +1,140 @@
 <xliff xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd" xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
-  <file original="10.6.1 (16.8.1)" datatype="plaintext" source-language="en" target-language="ru">
+  <file original="10-6-1" datatype="plaintext" source-language="en" target-language="ru">
     <body>
+      <trans-unit id="CLASS_SYSTEM" xml:space="preserve">
+        <source>## Concepts
+
+The indicator is calculated independently for eleven different international institutions: The United Nations General Assembly, the United Nations Security Council, the United Nations Economic and Social Council, the International Monetary Fund, the International Bank for Reconstruction and Development, the International Finance Corporation, the African Development Bank, the Asian Development Bank, the Inter-American Development Bank, the World Trade Organisation, and the Financial Stability Board.
+
+There is no established convention for the designation of "developed" and "developing" countries or areas in the United Nations system. In common practice, Japan in Asia, Canada and the United States in northern America, Australia and New Zealand in Oceania, and Europe are considered "developed" regions or areas. The aggregation across all institutions is currently done according to the United Nations M.49 statistical standard which includes designation of “developed regions” and “developing regions”, while an ongoing review seeks to reach agreement on how to define these terms for the purposes of SDG monitoring. The designations "developed" and developing" are intended for statistical convenience and do not necessarily express a judgement about the stage reached by a particular country or area in the development process.</source>
+        <target></target>
+        <note>IND_DEF_CON_CLASS</note>
+      </trans-unit>
+      <trans-unit id="COMPILING_ORG" xml:space="preserve">
+        <source># Data compilers
+
+## Name
+
+FFD/UN-DESA
+
+## Description
+
+The data is compiled and the proportions calculated by the Financing for Development Office, United Nations Department of Economic and Social Affairs.</source>
+        <target></target>
+        <note>SRC_TYPE_COLL_METHOD</note>
+      </trans-unit>
+      <trans-unit id="CONTACT_ORGANISATION" xml:space="preserve">
+        <source># References
+
+## URL
+
+&lt;https://www.un.org/development/desa/en/&gt;</source>
+        <target></target>
+        <note>CONTACT</note>
+      </trans-unit>
+      <trans-unit id="DATA_AVAILABILITY" xml:space="preserve">
+        <source># Data availability
+
+Available for all countries.</source>
+        <target></target>
+        <note>COVERAGE</note>
+      </trans-unit>
+      <trans-unit id="DATA_COMP" xml:space="preserve">
+        <source># Methodology
+
+## Computation method
+
+The computation uses each institutions’ own published membership and voting rights data from their respective annual reports. The proportion of voting rights is computed as the number of voting rights allocated to developing countries, divided by the total number of voting rights. The proportion of membership is calculated by taking the number of developing country members, divided by the total number of members.</source>
+        <target></target>
+        <note>OTHER_METHOD</note>
+      </trans-unit>
+      <trans-unit id="DATA_SOURCE" xml:space="preserve">
+        <source># Data providers
+
+## Name
+
+UNGA, UNSC, ECOSOC, IMF, IBRD, IFC, AfDB, ADB, IADB, WTO, FSB
+
+## Description
+
+The United Nations General Assembly, the United Nations Security Council, the United Nations Economic and Social Council, the International Monetary Fund, the International Bank for Reconstruction and Development, the International Finance Corporation, the African Development Bank, the Asian Development Bank, the Inter-American Development Bank, the World Trade Organisation, and the Financial Stability Board.</source>
+        <target></target>
+        <note>SRC_TYPE_COLL_METHOD</note>
+      </trans-unit>
+      <trans-unit id="DISAGGREGATION" xml:space="preserve">
+        <source>## Disaggregation
+
+Data is calculated and presented separately for each international organization.</source>
+        <target></target>
+        <note>COVERAGE</note>
+      </trans-unit>
       <trans-unit id="META_LAST_UPDATE" xml:space="preserve">
         <source>July 19, 2016</source>
+        <target></target>
+        <note>SDG_INDICATOR_INFO</note>
+      </trans-unit>
+      <trans-unit id="RATIONALE" xml:space="preserve">
+        <source>## Rationale
+
+The United Nations is based on a principle of sovereign equality of all its Member States (Article 2, UN Charter). This indicator aims to measure the degree to which States enjoy equal representation in different international organizations.</source>
+        <target></target>
+        <note>OTHER_METHOD</note>
+      </trans-unit>
+      <trans-unit id="REC_USE_LIM" xml:space="preserve">
+        <source>## Comments and limitations
+
+Cross institutional comparisons needs to pay attention to the different membership of the institutions. Voting rights and membership in their institutions are agreed by the Member States themselves. As a structural indicator, there will be only small changes over time to reflect agreement on new States joining as Members, suspension of voting rights, membership withdrawal and negotiated voting rights changes.</source>
+        <target></target>
+        <note>OTHER_METHOD</note>
+      </trans-unit>
+      <trans-unit id="REL_CAL_POLICY" xml:space="preserve">
+        <source># Calendar
+
+## Data release
+
+United Nations General Assembly:&lt;br&gt;
+continuous
+
+United Nations Security Council:&lt;br&gt;
+annually in September
+
+United Nations Economic and Social Council:&lt;br&gt;
+annually in October
+
+International Monetary Fund:&lt;br&gt;
+annually in October
+
+International Bank for Reconstruction and Development:&lt;br&gt;
+annually in September
+
+International Finance Corporation:&lt;br&gt;
+annually in September
+
+African Development Bank:&lt;br&gt;
+annually in May
+
+Asian Development Bank:&lt;br&gt;
+annually in April
+
+Inter-American Development Bank:&lt;br&gt;
+annually in April
+
+World Trade Organisation:&lt;br&gt;
+annually in May
+
+Financial Stability Board:&lt;br&gt;
+annually in January
+
+(UNGA: continuous UNSC: September 2016 ECOSOC: October 2016 IMF: October 2016 IBRD: September 2016 IFC: September 2016 AfDB: May 2017 ADB: April 2017 IADB: April 2017 WTO: May 2017 FSB: January 2017)</source>
+        <target></target>
+        <note>SRC_TYPE_COLL_METHOD</note>
+      </trans-unit>
+      <trans-unit id="SDG_CUSTODIAN_AGENCIES" xml:space="preserve">
+        <source># Institutional information
+
+## Organization(s)
+
+Financing for Development Office, DESA (FFDO)</source>
         <target></target>
         <note>SDG_INDICATOR_INFO</note>
       </trans-unit>
@@ -11,189 +143,72 @@
         <target></target>
         <note>SDG_INDICATOR_INFO</note>
       </trans-unit>
-      <trans-unit id="SDG_CUSTODIAN_AGENCIES" xml:space="preserve">
-        <source>Institutional information
-
-Organization(s)
-Financing for Development Office, DESA (FFDO)</source>
-        <target></target>
-        <note>SDG_INDICATOR_INFO</note>
-      </trans-unit>
-      <trans-unit id="STAT_CONC_DEF" xml:space="preserve">
-        <source>Concepts and definitions
-
-Defintion
-The proportion of members and voting rights of developing countries in international organizations has two components, the developing country proportion of voting rights and the developing country proportion of membership in international organisations. In some institutions these two components are identical.</source>
-        <target></target>
-        <note>IND_DEF_CON_CLASS</note>
-      </trans-unit>
-      <trans-unit id="RATIONALE" xml:space="preserve">
-        <source>Rationale
-The United Nations is based on a principle of sovereign equality of all its Member States (Article 2, UN Charter). This indicator aims to measure the degree to which States enjoy equal representation in different international organizations.</source>
-        <target></target>
-        <note>OTHER_METHOD</note>
-      </trans-unit>
-      <trans-unit id="CLASS_SYSTEM" xml:space="preserve">
-        <source>Concepts
-The indicator is calculated independently for eleven different international institutions: The United Nations General Assembly, the United Nations Security Council, the United Nations Economic and Social Council, the International Monetary Fund, the International Bank for Reconstruction and Development, the International Finance Corporation, the African Development Bank, the Asian Development Bank, the Inter-American Development Bank, the World Trade Organisation, and the Financial Stability Board.
-
-There is no established convention for the designation of "developed" and "developing" countries or areas in the United Nations system. In common practice, Japan in Asia, Canada and the United States in northern America, Australia and New Zealand in Oceania, and Europe are considered "developed" regions or areas. The aggregation across all institutions is currently done according to the United Nations M.49 statistical standard which includes designation of “developed regions” and “developing regions”, while an ongoing review seeks to reach agreement on how to define these terms for the purposes of SDG monitoring. The designations "developed" and developing" are intended for statistical convenience and do not necessarily express a judgement about the stage reached by a particular country or area in the development process.</source>
-        <target></target>
-        <note>IND_DEF_CON_CLASS</note>
-      </trans-unit>
-      <trans-unit id="REC_USE_LIM" xml:space="preserve">
-        <source>Comments and limitations
-Cross institutional comparisons needs to pay attention to the different membership of the institutions. Voting rights and membership in their institutions are agreed by the Member States themselves. As a structural indicator, there will be only small changes over time to reflect agreement on new States joining as Members, suspension of voting rights, membership withdrawal and negotiated voting rights changes.</source>
-        <target></target>
-        <note>OTHER_METHOD</note>
-      </trans-unit>
-      <trans-unit id="DATA_COMP" xml:space="preserve">
-        <source>Methodology
-
-Computation method
-The computation uses each institutions’ own published membership and voting rights data from their respective annual reports. The proportion of voting rights is computed as the number of voting rights allocated to developing countries, divided by the total number of voting rights. The proportion of membership is calculated by taking the number of developing country members, divided by the total number of members.</source>
-        <target></target>
-        <note>OTHER_METHOD</note>
-      </trans-unit>
-      <trans-unit id="DISAGGREGATION" xml:space="preserve">
-        <source>Disaggregation
-Data is calculated and presented separately for each international organization.</source>
-        <target></target>
-        <note>COVERAGE</note>
-      </trans-unit>
       <trans-unit id="SOURCE_TYPE" xml:space="preserve">
-        <source>Data sources
+        <source># Data sources
 
-Description
-Annual reports, as presented on the website of the institution in question, are used as sources of data. 
+## Description
+
+Annual reports, as presented on the website of the institution in question, are used as sources of data.
 
 Sources of information by institution:
 
-United Nations General Assembly: 
+United Nations General Assembly:&lt;br&gt;
 website of the General Assembly
 
-United Nations Security Council: 
+United Nations Security Council:&lt;br&gt;
 Report of the Security Council for the respective year
 
-United Nations Economic and Social Council: 
+United Nations Economic and Social Council:&lt;br&gt;
 Report of the Economic and Social Council for the respective year
 
-International Monetary Fund: 
+International Monetary Fund:&lt;br&gt;
 Annual Report for the respective year
 
-International Bank for Reconstruction and Development: 
+International Bank for Reconstruction and Development:&lt;br&gt;
 Management’s Discussion &amp; Analysis and Financial Statements for the respective year
 
-International Finance Corporation: 
+International Finance Corporation:&lt;br&gt;
 Annual Report (volume 2) for the respective year
 
-African Development Bank: 
-Annual Report for the respective year 
-
-Asian Development Bank: 
+African Development Bank:&lt;br&gt;
 Annual Report for the respective year
 
-Inter-American Development Bank: 
+Asian Development Bank:&lt;br&gt;
 Annual Report for the respective year
 
-World Trade Organisation: 
+Inter-American Development Bank:&lt;br&gt;
+Annual Report for the respective year
+
+World Trade Organisation:&lt;br&gt;
 WTO Annual Report 2015
 
-Financial Stability Board: 
+Financial Stability Board:&lt;br&gt;
 Charters of the Financial Stability Board
 
 List:
 
-General Assembly website; 
-Report of the Security Council; 
-Report of the Economic and Social Council, 
-Report of the International Monetary Fund; 
-IBRD's Management’s Discussion &amp; Analysis and Financial Statements; 
-IFC Annual Report (volume 2); 
-AfDB Annual Report; 
-ADB Annual Report; 
-IADB Annual Report; 
-WTO Annual Report; 
+General Assembly website;&lt;br&gt;
+Report of the Security Council;&lt;br&gt;
+Report of the Economic and Social Council,&lt;br&gt;
+Report of the International Monetary Fund;&lt;br&gt;
+IBRD's Management’s Discussion &amp; Analysis and Financial Statements;&lt;br&gt;
+IFC Annual Report (volume 2);&lt;br&gt;
+AfDB Annual Report;&lt;br&gt;
+ADB Annual Report;&lt;br&gt;
+IADB Annual Report;&lt;br&gt;
+WTO Annual Report;&lt;br&gt;
 Charters of the Financial Stability Board</source>
         <target></target>
         <note>SRC_TYPE_COLL_METHOD</note>
       </trans-unit>
-      <trans-unit id="DATA_AVAILABILITY" xml:space="preserve">
-        <source>Data availability
-Available for all countries.</source>
+      <trans-unit id="STAT_CONC_DEF" xml:space="preserve">
+        <source># Concepts and definitions
+
+## Definition
+
+The proportion of members and voting rights of developing countries in international organizations has two components, the developing country proportion of voting rights and the developing country proportion of membership in international organisations. In some institutions these two components are identical.</source>
         <target></target>
-        <note>COVERAGE</note>
-      </trans-unit>
-      <trans-unit id="REL_CAL_POLICY" xml:space="preserve">
-        <source>Calendar
-
-Data release
-United Nations General Assembly:
-continuous
-
-United Nations Security Council:
-annually in September 
-
-United Nations Economic and Social Council: 
-annually in October
-
-International Monetary Fund: 
-annually in October 
-
-International Bank for Reconstruction and Development: 
-annually in September 
-
-International Finance Corporation: 
-annually in September
-
-African Development Bank: 
-annually in May 
-
-Asian Development Bank: 
-annually in April 
-
-Inter-American Development Bank: 
-annually in April 
-
-World Trade Organisation: 
-annually in May 
-
-Financial Stability Board: 
-annually in January 
-
-(UNGA: continuous UNSC: September 2016 ECOSOC: October 2016 IMF: October 2016 IBRD: September 2016 IFC: September 2016 AfDB: May 2017 ADB: April 2017 IADB: April 2017 WTO: May 2017 FSB: January 2017)</source>
-        <target></target>
-        <note>SRC_TYPE_COLL_METHOD</note>
-      </trans-unit>
-      <trans-unit id="DATA_SOURCE" xml:space="preserve">
-        <source>Data providers
-
-Name
-UNGA, UNSC, ECOSOC, IMF, IBRD, IFC, AfDB, ADB, IADB, WTO, FSB
-
-Description
-The United Nations General Assembly, the United Nations Security Council, the United Nations Economic and Social Council, the International Monetary Fund, the International Bank for Reconstruction and Development, the International Finance Corporation, the African Development Bank, the Asian Development Bank, the Inter-American Development Bank, the World Trade Organisation, and the Financial Stability Board.</source>
-        <target></target>
-        <note>SRC_TYPE_COLL_METHOD</note>
-      </trans-unit>
-      <trans-unit id="COMPILING_ORG" xml:space="preserve">
-        <source>Data compilers
-
-Name
-FFD/UN-DESA
-
-Description
-The data is compiled and the proportions calculated by the Financing for Development Office, United Nations Department of Economic and Social Affairs.</source>
-        <target></target>
-        <note>SRC_TYPE_COLL_METHOD</note>
-      </trans-unit>
-      <trans-unit id="CONTACT_ORGANISATION" xml:space="preserve">
-        <source>Reference
-
-URL
-https://www.un.org/development/desa/en/</source>
-        <target></target>
-        <note>CONTACT</note>
+        <note>IND_DEF_CON_CLASS</note>
       </trans-unit>
     </body>
   </file>
