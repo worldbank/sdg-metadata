@@ -17,17 +17,6 @@ function createFolder(folderPath) {
     }
 }
 
-// Figure out what target a sheet refers to.
-function targetFromSheet(sheetName) {
-    // Use dashes instead of dots in these keys.
-    return sheetName.split('.').slice(0, 2).join('-')
-}
-
-// Figure out what goal a sheet refers to.
-function goalFromSheet(sheetName) {
-    return sheetName.split('.')[0]
-}
-
 // Figure out what indicator a sheet refers to (with dashes, not dots).
 function indicatorFromSheet(sheetName) {
     return sheetName.split(".").slice(0, 3).join("-").split(' ')[0]
@@ -66,8 +55,6 @@ async function doLanguage(language) {
     for (const sheet of sheets) {
         const sheetName = sheet.name
         const indicator = indicatorFromSheet(sheetName)
-        const target = targetFromSheet(sheetName)
-        const goal = goalFromSheet(sheetName)
         const indicatorFolder = baseFolder + '/' + indicator
         const fields = []
 
@@ -78,16 +65,6 @@ async function doLanguage(language) {
             const [parent, id, value] = row
             // Skip any that are missing a column.
             if (!id || !value || !parent) {
-                continue
-            }
-            // Special case, grab the target.
-            else if (id === 'SDG_TARGET') {
-                targets[target] = value
-                continue
-            }
-            // Special case, grab the goal.
-            else if (id === 'SDG_GOAL') {
-                goals[goal] = value
                 continue
             }
 
@@ -111,30 +88,6 @@ async function doLanguage(language) {
             language: language,
             fields: fields,
             slug: indicator,
-        })
-    }
-
-    // Create a page for each goal.
-    const goalFolder = baseFolder + '/' + 'goals'
-    for (const goal of Object.keys(goals)) {
-        writeMarkdownFile(goalFolder, goal, goals[goal], {
-            title: 'Goal: ' + goal,
-            layout: 'goal',
-            language: language,
-            parent: 'SDG_INDICATOR_INFO',
-            slug: goal,
-        })
-    }
-
-    // Create a page for each target.
-    const targetFolder = baseFolder + '/' + 'targets'
-    for (const target of Object.keys(targets)) {
-        writeMarkdownFile(targetFolder, target, targets[target], {
-            title: 'Target: ' + target,
-            layout: 'target',
-            language: language,
-            parent: 'SDG_INDICATOR_INFO',
-            slug: target,
         })
     }
 
