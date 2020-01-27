@@ -5,7 +5,7 @@ const path = require('path')
 const excelFile = 'source.xlsx'
 
 const sourceLanguage = 'en'
-const targetLanguages = ['en', 'ru']
+const targetLanguages = ['ru']
 
 for (const targetLanguage of targetLanguages) {
 
