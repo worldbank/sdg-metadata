@@ -5,32 +5,12 @@ layout: default
 <h2>{{ page.title }}</h2>
 {% assign pages = site.pages | where: 'language', page.language %}
 {% assign indicators = pages | where: 'layout', 'indicator' | sort: 'title' %}
-{% assign goals = pages | where: 'layout', 'goal' | sort: 'title' %}
-{% assign targets = pages | where: 'layout', 'target' | sort: 'title' %}
 
 <h3>Indicators</h3>
 <ul>
 {% for indicator in indicators %}
   <li>
     <a href="{{ indicator.slug }}">{{ indicator.title }}</a>
-  </li>
-{% endfor %}
-</ul>
-
-<h3>Goals</h3>
-<ul>
-{% for goal in goals %}
-  <li>
-    <a href="goals/{{ goal.slug }}">{{ goal.title }}</a>
-  </li>
-{% endfor %}
-</ul>
-
-<h3>Targets</h3>
-<ul>
-{% for target in targets %}
-  <li>
-    <a href="targets/{{ target.slug }}">{{ target.title }}</a>
   </li>
 {% endfor %}
 </ul>
