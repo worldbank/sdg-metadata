@@ -4,5 +4,4 @@ layout: metadata
 slug: metadata
 languages:
   - en
-  - ru
 ---
