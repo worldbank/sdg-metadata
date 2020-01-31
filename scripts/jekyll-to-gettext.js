@@ -6,13 +6,6 @@ const os = require('os')
 
 const baseFolder = path.join('docs', 'metadata')
 
-// These fields should be ignored in the spreadsheet.
-const doNotTranslate = [
-    'META_PAGE',
-    'LANGUAGE',
-    'TRANS_SOURCE',
-]
-
 // Given the contents of a folder, return the relevant Jekyll files/folders.
 function getJekyllFiles(filenames) {
     const thingsToOmit = ['index.md', 'images', 'translations.json']
@@ -75,11 +68,7 @@ function doLanguage(language) {
         const fileFolder = path.join(languageFolder, folder)
         const files = getJekyllFiles(fs.readdirSync(fileFolder))
         for (const file of files) {
-            // See if we should skip this one.
             const id = file.replace('.md', '')
-            if (doNotTranslate.includes(id)) {
-                continue
-            }
             const filePath = path.join(fileFolder, file)
             const fileContents = fs.readFileSync(filePath, { encoding: 'utf8' })
             // This sequence parses the Jekyll-style front-matter and content.
