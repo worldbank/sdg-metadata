@@ -23,5 +23,6 @@ fields:
   - DATA_AVAILABILITY
   - FREQ_COLL
   - COMPILING_ORG
+  - REFERENCES
 slug: 17-1-1
 ---

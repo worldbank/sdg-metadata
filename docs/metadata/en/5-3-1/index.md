@@ -30,5 +30,6 @@ fields:
   - DATA_SOURCE
   - COMPILING_ORG
   - CONTACT_ORGANISATION
+  - REFERENCES
 slug: 5-3-1
 ---

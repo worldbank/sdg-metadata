@@ -1,0 +1,11 @@
+---
+title: "Field: REFERENCES"
+layout: field
+parent: OTHER_DOC
+language: ru
+indicator: 17-1-1
+slug: REFERENCES
+---
+References
+
+The GFSM 2014 is available at http://www.imf.org/external/np/sta/gfsm/. A series of videos that discuss the GFS analytical framework are available at: IMF Statistics E-Learning Videos - YouTube. Although not foreseen under the reporting of 17.1.1, analysts can also use the detailed IMF GFS Revenue database to supplement this indicator with measures of direct, indirect and capital taxes (see GFSM 2014, Annex to Chapter 4).

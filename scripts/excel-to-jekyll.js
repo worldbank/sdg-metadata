@@ -62,9 +62,19 @@ async function doLanguage(language) {
         const rows = await readXlsxFile(excelFile, { sheet: sheetName })
         rows.shift() // Remove the header.
         for (const row of rows) {
-            const [parent, id, value] = row
-            // Skip any that are missing a column.
-            if (!id || !value || !parent) {
+            let [parent, id, value] = row
+
+            if (parent && !id && value) {
+                id = parent
+                if (parent === 'SDG_INDICATOR_INFO') {
+                    id = 'SIBLING_METADATA_FILE'
+                }
+                if (parent === 'OTHER_DOC') {
+                    id = 'REFERENCES'
+                }
+            }
+
+	        if (!id || !value) {
                 continue
             }
 
