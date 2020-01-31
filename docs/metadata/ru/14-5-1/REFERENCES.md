@@ -6,11 +6,12 @@ language: ru
 indicator: 14-5-1
 slug: REFERENCES
 ---
-References
+## References
+
 These metadata are based on http://mdgs.un.org/unsd/mi/wiki/7-6-Proportion-
 of-terrestrial-and-marine-areas-protected.ashx, supplemented by http://www.bipindicators.net/paoverlays and the references listed below.
 
-AZE (2010). AZE Database. Alliance for Zero Extinction, Washington DC, 
+AZE (2010). AZE Database. Alliance for Zero Extinction, Washington DC,
 USA. Available at: http://www.zeroextinction.org/search.cfm.
 
 BIRDLIFE INTERNATIONAL (2014). Important Bird and Biodiversity Areas: a global network for conserving nature and benefiting people. Cambridge, UK: BirdLife International. Available at http://www.birdlife.org/datazone/sowb/sowbpubs#IBA.
@@ -19,7 +20,7 @@ BIRDLIFE INTERNATIONAL (2016). DataZone. BirdLife International, Cambridge, UK. 
 
 BIRDLIFE INTERNATIONAL (2017). World Database of Key Biodiversity Areas. Developed by the KBA Partnership. Available from: http://www.keybiodiversityareas.org.
 
-BROOKS, T. et al. (2001). Conservation priorities for birds and biodiversity: do East African Important Bird Areas represent species diversity in other terrestrial vertebrate groups? Ostrich suppl. 15: 3–12. Available 
+BROOKS, T. et al. (2001). Conservation priorities for birds and biodiversity: do East African Important Bird Areas represent species diversity in other terrestrial vertebrate groups? Ostrich suppl. 15: 3–12. Available
 from: http://www.tandfonline.com/doi/abs/10.2989/00306520109485329#.VafbVJPVq75.
 
 BROOKS, T.M. et al. (2016) Goal 15: Life on land. Sustainable manage forests, combat desertification, halt and reverse land degradation, halt biodiversity loss. Pp. 497–522 in Durán y Lalaguna, P., Díaz Barrado, C.M. & Fernández Liesa, C.R. (eds.) International Society and Sustainable Development Goals. Editorial Aranzadi, Cizur Menor, Spain. Available from: https://www.thomsonreuters.es/es/tienda/pdp/duo.html?pid=10008456
@@ -44,12 +45,12 @@ EDGAR, G.J. et al. (2008). Key Biodiversity Areas as globally significant target
 
 EKEN, G. et al. (2004). Key biodiversity areas as site conservation targets. BioScience 54: 1110–1118. Available from http://bioscience.oxfordjournals.org/content/54/12/1110.short.
 
-FOSTER, M.N. et al. (2012) The identification of sites of biodiversity conservation significance: progress with the application of a global standard. Journal of Threatened Taxa 4: 2733–2744. Available from 
+FOSTER, M.N. et al. (2012) The identification of sites of biodiversity conservation significance: progress with the application of a global standard. Journal of Threatened Taxa 4: 2733–2744. Available from
 http://www.threatenedtaxa.in/index.php/JoTT/article/view/779.
 
 HAN, X. et al. (2014). A Biodiversity indicators dashboard: addressing challenges to monitoring progress towards the Aichi Biodiversity Targets using disaggregated global data. PLoS ONE 9(11): e112046. Available from http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0112046.
 
-HOLLAND, R.A. et al. (2012). Conservation priorities for freshwater biodiversity: the key biodiversity area approach refined and tested for continental Africa. Biological Conservation 148: 167–179. Available from 
+HOLLAND, R.A. et al. (2012). Conservation priorities for freshwater biodiversity: the key biodiversity area approach refined and tested for continental Africa. Biological Conservation 148: 167–179. Available from
 http://www.sciencedirect.com/science/article/pii/S0006320712000298.
 
 IUCN (2016). A Global Standard for the Identification of Key Biodiversity Areas. International Union for Conservation of Nature, Gland, Switzerland. Available from https://portals.iucn.org/library/node/46259.
@@ -58,7 +59,7 @@ IUCN & UNEP-WCMC (2017). The World Database on Protected Areas (WDPA). UNEP-WCMC
 
 JONAS, H.D. et al. (2014) New steps of change: looking beyond protected areas to consider other effective area-based conservation measures. Parks 20: 111–128. Available from http://parksjournal.com/wp-content/uploads/2014/10/PARKS-20.2-Jonas-et-al-10.2305IUCN.CH_.2014.PARKS-20-2.HDJ_.en_.pdf.
 
-KNIGHT, A. T. et al. (2007). Improving the Key Biodiversity Areas approach for effective conservation planning. BioScience 57: 256–261. Available from 
+KNIGHT, A. T. et al. (2007). Improving the Key Biodiversity Areas approach for effective conservation planning. BioScience 57: 256–261. Available from
 http://bioscience.oxfordjournals.org/content/57/3/256.short.
 
 LANGHAMMER, P. F. et al. (2007). Identification and Gap Analysis of Key Biodiversity Areas: Targets for Comprehensive Protected Area Systems. IUCN World Commission on Protected Areas Best Practice Protected Area Guidelines Series No. 15. IUCN, Gland, Switzerland. Available from https://portals.iucn.org/library/node/9055.
@@ -76,7 +77,7 @@ RICKETTS, T. H. et al. (2005). Pinpointing and preventing imminent extinctions. 
 
 RODRIGUES, A. S. L. et al. (2004). Effectiveness of the global protected area network in representing species diversity. Nature 428: 640–643. Available from http://www.nature.com/nature/journal/v428/n6983/abs/nature02422.html.
 
-RODRÍGUEZ-RODRÍGUEZ, D., et al. (2011). Progress towards international targets for protected area coverage in mountains: a multi-scale assessment. Biological Conservation 144: 2978–2983. Available from 
+RODRÍGUEZ-RODRÍGUEZ, D., et al. (2011). Progress towards international targets for protected area coverage in mountains: a multi-scale assessment. Biological Conservation 144: 2978–2983. Available from
 http://www.sciencedirect.com/science/article/pii/S0006320711003454.
 
 TITTENSOR, D. et al. (2014). A mid-term analysis of progress towards international biodiversity targets. Science 346: 241–244. Available from http://www.sciencemag.org/content/346/6206/241.short.

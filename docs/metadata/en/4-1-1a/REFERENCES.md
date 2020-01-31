@@ -6,7 +6,8 @@ language: en
 indicator: 4-1-1a
 slug: REFERENCES
 ---
-References
+## References
+
 UIS (2018). Quick Guide to Education Indicators for SDG 4.
 http://uis.unesco.org/sites/default/files/documents/quick-guide-education-indicators-sdg4-2018-en.pdf
 

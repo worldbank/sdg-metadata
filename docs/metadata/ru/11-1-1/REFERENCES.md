@@ -6,7 +6,7 @@ language: ru
 indicator: 11-1-1
 slug: REFERENCES
 ---
-References
+## References
 
 Bibliographic References
 * United Nations (2007). Indicators of Sustainable Development: Guidelines and Methodologies. Third Edition, United Nations, New York
