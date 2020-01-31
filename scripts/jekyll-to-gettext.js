@@ -15,7 +15,7 @@ const doNotTranslate = [
 
 // Given the contents of a folder, return the relevant Jekyll files/folders.
 function getJekyllFiles(filenames) {
-    const thingsToOmit = ['index.md', 'images']
+    const thingsToOmit = ['index.md', 'images', 'translations.json']
     return filenames.filter(val => !thingsToOmit.includes(val))
 }
 
