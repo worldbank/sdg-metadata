@@ -1,9 +1,0 @@
----
-title: "Field: SDG_TARGET"
-layout: field
-parent: SDG_INDICATOR_INFO
-language: en
-indicator: 17-4-1
-slug: SDG_TARGET
----
-Target 17.4: Assist developing countries in attaining long-term debt sustainability through coordinated policies aimed at fostering debt financing, debt relief and debt restructuring, as appropriate, and address the external debt of highly indebted poor countries to reduce debt distress

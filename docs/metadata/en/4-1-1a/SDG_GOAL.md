@@ -1,9 +1,0 @@
----
-title: "Field: SDG_GOAL"
-layout: field
-parent: SDG_INDICATOR_INFO
-language: en
-indicator: 4-1-1a
-slug: SDG_GOAL
----
-Goal 4: Ensure inclusive and equitable quality education and promote lifelong learning opportunities for all
