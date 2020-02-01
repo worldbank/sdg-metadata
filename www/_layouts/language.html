@@ -1,0 +1,14 @@
+---
+layout: default
+---
+{% include breadcrumbs.html %}
+<h2>{{ page.title }}</h2>
+
+<h3>Indicators</h3>
+<ul>
+{% for indicator in page.indicators %}
+  <li>
+    <a href="{{ indicator }}">{{ indicator }}</a>
+  </li>
+{% endfor %}
+</ul>
