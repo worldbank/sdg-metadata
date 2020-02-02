@@ -21,12 +21,9 @@ jobs:
       with:
         node-version: '10.x'
     - name: Install dependencies
-      run: |
-        npm install
-        cd www && bundle install
+      run: make install
     - name: Build the site
-      run: |
-        npm run build
+      run: make build
     - name: Deploy to GitHub Pages
       uses: JamesIves/github-pages-deploy-action@releases/v3
       with:
