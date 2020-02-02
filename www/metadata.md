@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Metadata
+permalink: /metadata/
 ---
 {% include breadcrumbs.html %}
 <h2>{{ page.title }}</h2>

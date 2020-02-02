@@ -1,6 +1,7 @@
 ---
 layout: default
 title: JSON Endpoints
+permalink: /api/
 ---
 {% include breadcrumbs.html %}
 
