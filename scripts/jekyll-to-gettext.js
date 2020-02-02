@@ -71,9 +71,8 @@ function doLanguage(language) {
             const id = file.replace('.md', '')
             const filePath = path.join(fileFolder, file)
             const fileContents = fs.readFileSync(filePath, { encoding: 'utf8' })
-            // This sequence parses the Jekyll-style front-matter and content.
-            const [frontMatter, content] = fileContents.split('---').map(x => x.trim()).filter(x => x)
-            const info = YAML.parse(frontMatter)
+            // Remove the "front matter" and get just the content.
+            const content = fileContents.split('---').slice(2).join('---').trim()
             units[id] = getUnit(content, null, id)
         }
 
