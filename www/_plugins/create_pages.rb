@@ -13,9 +13,9 @@ module SdgMetadataPlugins
         indicators.each do |indicator, indicator_fields|
           dir = File.join('metadata', language, indicator) + '/'
           layout = 'indicator'
-          title = indicator + ' - ' + language
+          title = 'Indicator: ' + indicator
           content = indicator_fields['full']
-          data = {}
+          data = {'slug' => indicator}
           site.pages << SdgMetadataPage.new(site, base, dir, layout, title, content, language, data)
         end
       end
@@ -24,7 +24,7 @@ module SdgMetadataPlugins
       site.data['all'].each do |language, indicators|
         dir = File.join('metadata', language) + '/'
         layout = 'language'
-        title = language
+        title = 'Language: ' + site.config['languages'][language]
         content = ''
         language = language
         data = {'indicators' => indicators.keys}

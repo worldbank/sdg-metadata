@@ -1,14 +1,17 @@
-{% assign page_path = page.path | replace: '/index.md', '' %}
-{% assign parts = page_path | split: '/' %}
 {% assign href = site.url | append: site.baseurl %}
 <ul class="breadcrumbs">
   <li><a href="{{ href }}">home</a></li>
-  {% for part in parts %}
-    {% if forloop.last %}
-      <li>{{ page.slug }}</li>
-    {% else %}
-      {% assign href = href | append: '/' | append: part %}
-      <li><a href="{{ href }}">{{ part }}</a></li>
-    {% endif %}
-  {% endfor %}
+  {% if page.layout == 'language' or page.layout == 'indicator' %}
+  <li><a href="{{ href }}/metadata/">metadata</a></li>
+  {% endif %}
+  {% if page.layout == 'indicator' %}
+  <li><a href="{{ href }}/metadata/{{ page.language }}/">{{ site.languages[page.language] }}</a></li>
+  <li>{{ page.slug }}</li>
+  {% endif %}
+  {% if page.layout == 'language' %}
+  <li>{{ site.languages[page.language] }}</li>
+  {% endif %}
+  {% if page.layout == 'default' %}
+  <li>{{ page.title }}</li>
+  {% endif %}
 </ul>
