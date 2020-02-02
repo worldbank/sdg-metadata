@@ -157,18 +157,56 @@ msgid ""
 "* Red = grade 2/3\n"
 "* Blue = grade 4\n"
 "\n"
-"Regions | Number of countries with available data\n"
-"--- |---\n"
-"Africa (Northern) | 4\n"
-"Africa (Sub-Saharan) |19\n"
-"Asia (Central and Southern) | 3\n"
-"Asia (Eastern and South-eastern) | 12\n"
-"Asia (Western) | 11\n"
-"Europe | 21\n"
-"Latin America and the Caribbean | 25\n"
-"Northern America | 2\n"
-"Oceania | 3\n"
-"World | 100\n"
+<table>
+  <thead>
+    <tr>
+      <th>Regions</th>
+      <th>Number of countries with available data</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Africa (Northern)</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <td>Africa (Sub-Saharan)</td>
+      <td>19</td>
+    </tr>
+    <tr>
+      <td>Asia (Central and Southern)</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>Asia (Eastern and South-eastern)</td>
+      <td>12</td>
+    </tr>
+    <tr>
+      <td>Asia (Western)</td>
+      <td>11</td>
+    </tr>
+    <tr>
+      <td>Europe</td>
+      <td>21</td>
+    </tr>
+    <tr>
+      <td>Latin America and the Caribbean</td>
+      <td>25</td>
+    </tr>
+    <tr>
+      <td>Northern America</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>Oceania</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>World</td>
+      <td>100</td>
+    </tr>
+  </tbody>
+</table>
 "\n"
 "### Figure 2. Population coverage in countries where data for the indicator "
 "are available\n"
