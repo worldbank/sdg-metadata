@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "prepare": "node scripts/prepare-build.js",
-    "build": "cd www && bundle exec jekyll build"
+    "build": "node scripts/prepare-build.js && cd www && bundle exec jekyll build",
+    "serve": "node scripts/prepare-build.js && cd www && bundle exec jekyll serve"
   },
   "author": "",
   "license": "ISC",
