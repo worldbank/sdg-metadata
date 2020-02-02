@@ -3756,22 +3756,93 @@ The table below shows the minimum proficiency levels for each learning assessmen
 
 ### Table 1. Minimum proficiency levels defined by each learning assessment
 
-Name | Target grade/age | Domain | Minimum Proficiency Level (MPL)
---- | --- | --- | ---
-LLECE | Grade 3 | Reading | Level 2
-^^ | ^^ | Math | Level 2
-PASEC | Grade 2 | Reading | Level 3
-^^ | ^^ | Math | Level 2
-TIMSS | Grade 4 | Math | Low International Benchmark
-PIRLS | Grade 4 | Reading | Low International Benchmark
-MICS6 | Grade 2/3 | Reading | Foundational reading skills
-^^ | ^^ | Math | Foundational numeracy skills
-EGRA | Grade 2/3 | Reading | Number of correct words per minute (cwpm) above a given threshold (typically 45 cwpm) defined by each country
-EGMA | Grade 2/3 | Math | Percentage of correct answers for addition and subtraction above a given threshold (typically 80% of correct answers) defined by each country
-PAL Network | Grade 3 | Reading | Can read one or more texts as defined by each country
-^^ | ^^ | Math | Can do one or more arithmetic problems as defined by each country
-National assessment | Grade 2/3, end of primary or end of secondary | Reading | As defined by each national assessment
-^^ | ^^ | Math | As defined by each national assessment</translation>
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Name&lt;/th&gt;
+      &lt;th&gt;Target grade/age&lt;/th&gt;
+      &lt;th&gt;Domain&lt;/th&gt;
+      &lt;th&gt;Minimum Proficiency Level (MPL)&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td rowspan="2"&gt;LLECE&lt;/td&gt;
+      &lt;td rowspan="2"&gt;Grade 3&lt;/td&gt;
+      &lt;td&gt;Reading&lt;/td&gt;
+      &lt;td&gt;Level 2&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Math&lt;/td&gt;
+      &lt;td&gt;Level 2&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td rowspan="2"&gt;PASEC&lt;/td&gt;
+      &lt;td rowspan="2"&gt;Grade 2&lt;/td&gt;
+      &lt;td&gt;Reading&lt;/td&gt;
+      &lt;td&gt;Level 3&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Math&lt;/td&gt;
+      &lt;td&gt;Level 2&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;TIMSS&lt;/td&gt;
+      &lt;td&gt;Grade 4&lt;/td&gt;
+      &lt;td&gt;Math&lt;/td&gt;
+      &lt;td&gt;Low International Benchmark&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;PIRLS&lt;/td&gt;
+      &lt;td&gt;Grade 4&lt;/td&gt;
+      &lt;td&gt;Reading&lt;/td&gt;
+      &lt;td&gt;Low International Benchmark&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td rowspan="2"&gt;MICS6&lt;/td&gt;
+      &lt;td rowspan="2"&gt;Grade 2/3&lt;/td&gt;
+      &lt;td&gt;Reading&lt;/td&gt;
+      &lt;td&gt;Foundational reading skills&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Math&lt;/td&gt;
+      &lt;td&gt;Foundational numeracy skills&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;EGRA&lt;/td&gt;
+      &lt;td&gt;Grade 2/3&lt;/td&gt;
+      &lt;td&gt;Reading&lt;/td&gt;
+      &lt;td&gt;Number of correct words per minute (cwpm) above a given threshold (typically 45 cwpm) defined by each country&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;EGMA&lt;/td&gt;
+      &lt;td&gt;Grade 2/3&lt;/td&gt;
+      &lt;td&gt;Math&lt;/td&gt;
+      &lt;td&gt;Percentage of correct answers for addition and subtraction above a given threshold (typically 80% of correct answers) defined by each country&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td rowspan="2"&gt;PAL Network&lt;/td&gt;
+      &lt;td rowspan="2"&gt;Grade 3&lt;/td&gt;
+      &lt;td&gt;Reading&lt;/td&gt;
+      &lt;td&gt;Can read one or more texts as defined by each country&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Math&lt;/td&gt;
+      &lt;td&gt;Can do one or more arithmetic problems as defined by each country&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td rowspan="2"&gt;National assessment&lt;/td&gt;
+      &lt;td rowspan="2"&gt;Grade 2/3, end of primary or end of secondary&lt;/td&gt;
+      &lt;td&gt;Reading&lt;/td&gt;
+      &lt;td&gt;As defined by each national assessment&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Math&lt;/td&gt;
+      &lt;td&gt;As defined by each national assessment&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+</translation>
           <translation lang="ru"/>
         </translations>
       </field>
