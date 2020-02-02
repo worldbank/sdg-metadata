@@ -4,7 +4,7 @@ const path = require('path')
 const os = require('os')
 const YAML = require('yaml')
 
-const fieldOrder = YAML.parse(fs.readFileSync('field-order.yml', { encoding: 'utf-8' }))
+const fieldOrder = YAML.parse(fs.readFileSync(path.join('scripts', 'field-order.yml'), { encoding: 'utf-8' }))
 
 // Create folders from a Unix path (eg, "foo/bar").
 function createFolder(folderPath) {

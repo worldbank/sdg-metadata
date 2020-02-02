@@ -57,7 +57,7 @@ for (const language of languages) {
 }
 
 const indicatorIds = Object.keys(translations[languages[0]])
-const fieldOrder = YAML.parse(fs.readFileSync('field-order.yml', { encoding: 'utf-8' }))
+const fieldOrder = YAML.parse(fs.readFileSync(path.join('scripts', 'field-order.yml'), { encoding: 'utf-8' }))
 
 // Also compile the individual fields into a big "full" field.
 for (const language of languages) {
