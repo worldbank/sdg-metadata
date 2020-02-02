@@ -6,7 +6,7 @@ const os = require('os')
 const builder = require('xmlbuilder')
 
 const baseFolder = 'translations'
-const destinationFolder = '_build'
+const destinationFolder = 'www'
 
 // Create folders from an array of parts. Returns the path of the folder.
 function createFolder(folderParts) {
@@ -137,6 +137,8 @@ for (const indicatorId of indicatorIds) {
 // All translations of all fields in all indicators.
 message = 'All translations of all fields in all indicators'
 writeJson('all', translations, [], message)
+// We also need to put this file in www/_data for Jekyll to use.
+fs.writeFileSync(path.join(destinationFolder, '_data', 'all.json'), JSON.stringify(translations), 'utf8')
 
 // Start generating the XML document.
 const indicators = builder.create('indicators')
@@ -168,4 +170,4 @@ if (!fs.existsSync(destinationFolder)) {
     fs.mkdirSync(destinationFolder);
 }
 
-fs.writeFileSync(path.join(destinationFolder, 'metadata.xml'), xml, 'utf8')
+fs.writeFileSync(path.join(destinationFolder, 'api', 'all.xml'), xml, 'utf8')

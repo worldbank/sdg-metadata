@@ -9,7 +9,7 @@ module SdgMetadataPlugins
       base = site.source
 
       # Generate all the indicator pages.
-      site.data['all']['data'].each do |language, indicators|
+      site.data['all'].each do |language, indicators|
         indicators.each do |indicator, indicator_fields|
           dir = File.join('metadata', language, indicator) + '/'
           layout = 'indicator'
@@ -21,7 +21,7 @@ module SdgMetadataPlugins
       end
 
       # Generate all the language pages.
-      site.data['all']['data'].each do |language, indicators|
+      site.data['all'].each do |language, indicators|
         dir = File.join('metadata', language) + '/'
         layout = 'language'
         title = 'Language: ' + site.config['languages'][language]
