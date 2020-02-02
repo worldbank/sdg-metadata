@@ -3,8 +3,8 @@ const fs = require('fs')
 const path = require('path')
 
 const args = process.argv.slice(2)
-if (args.length < 2) {
-  console.log('Please indicate a source file and a field ID. Example: node txt-to-gettext.js source.txt COLL_METHOD')
+if (args.length < 1) {
+  console.log('Please indicate a source file. Example: node txt-to-gettext.js source.txt')
   return
 }
 
@@ -50,5 +50,5 @@ function writePo(folder, component, units, targetLanguage=null) {
 const sourceFile = args[0]
 const id = args[1]
 const source = fs.readFileSync(sourceFile, { encoding: 'utf8' })
-const unit = getUnit(source, null, id)
+const unit = getUnit(source, null, 'foo')
 writePo('.', 'txt-to-gettxt', [unit], 'en')
