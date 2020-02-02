@@ -158,56 +158,60 @@ msgid ""
 "* Red = grade 2/3\n"
 "* Blue = grade 4\n"
 "\n"
-<table>
-  <thead>
-    <tr>
-      <th>Regions</th>
-      <th>Number of countries with available data</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Africa (Northern)</td>
-      <td>4</td>
-    </tr>
-    <tr>
-      <td>Africa (Sub-Saharan)</td>
-      <td>19</td>
-    </tr>
-    <tr>
-      <td>Asia (Central and Southern)</td>
-      <td>3</td>
-    </tr>
-    <tr>
-      <td>Asia (Eastern and South-eastern)</td>
-      <td>12</td>
-    </tr>
-    <tr>
-      <td>Asia (Western)</td>
-      <td>11</td>
-    </tr>
-    <tr>
-      <td>Europe</td>
-      <td>21</td>
-    </tr>
-    <tr>
-      <td>Latin America and the Caribbean</td>
-      <td>25</td>
-    </tr>
-    <tr>
-      <td>Northern America</td>
-      <td>2</td>
-    </tr>
-    <tr>
-      <td>Oceania</td>
-      <td>3</td>
-    </tr>
-    <tr>
-      <td>World</td>
-      <td>100</td>
-    </tr>
-  </tbody>
-</table>
+"<table>\n"
+"  <thead>\n"
+"    <tr>\n"
+"      <th rowspan=\"2\"></th>\n"
+"      <th colspan=\"2\">In-school based</th>\n"
+"      <th rowspan=\"2\">Household Based Surveys</th>\n"
+"      <th rowspan=\"2\">Grade</th>\n"
+"    </tr>\n"
+"    <tr>\n"
+"      <td>Cross-national</td>\n"
+"      <td>National</td>\n"
+"    </tr>\n"
+"  </thead>\n"
+"  <tbody>\n"
+"    <tr>\n"
+"      <td rowspan=\"5\">2/3 Grade</td>\n"
+"      <td>LLECE</td>\n"
+"      <td rowspan=\"5\">Yes</td>\n"
+"      <td>MICS6</td>\n"
+"      <td rowspan=\"5\">2/3 plus one year when primary lasts more than 4 "
+"years according to ISCED level of the country</td>\n"
+"    </tr>\n"
+"    <tr>\n"
+"      <td>PASEC</td>\n"
+"      <td>&nbsp;</td>\n"
+"    </tr>\n"
+"    <tr>\n"
+"      <td>TIMSS</td>\n"
+"      <td>PAL network</td>\n"
+"    </tr>\n"
+"    <tr>\n"
+"      <td>PIRLS</td>\n"
+"      <td>&nbsp;</td>\n"
+"    </tr>\n"
+"    <tr>\n"
+"      <td>EGRA/EGMA</td>\n"
+"      <td>&nbsp;</td>\n"
+"    </tr>\n"
+"    <tr>\n"
+"      <td>Definition of minimum level until 2018 release</td>\n"
+"      <td colspan=\"4\">The ones defined by each assessment by point of "
+"measurement and domain</td>\n"
+"    </tr>\n"
+"    <tr>\n"
+"      <td>Definition of minimum level from 2019</td>\n"
+"      <td colspan=\"4\">According to alignment as adopted by GAML and TCG "
+"in September of 2018</td>\n"
+"    </tr>\n"
+"    <tr>\n"
+"      <td>Validation</td>\n"
+"      <td colspan=\"4\">Sent from UIS for countries’ approval</td>\n"
+"    </tr>\n"
+"  </tbody>\n"
+"</table>"
 "\n"
 "### Figure 2. Population coverage in countries where data for the indicator "
 "are available\n"
