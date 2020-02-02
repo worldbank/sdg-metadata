@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "prepare": "mkdir _build && cp -r www/* _build && cp _build/api/all.json _build/_data && node scripts/prepare-build.js",
+    "prepare": "node scripts/prepare-build.js && cp -r www/* _build && cp _build/api/all.json _build/_data",
     "build": "cd _build && bundle exec jekyll build",
     "serve": "cd _build && bundle exec jekyll serve"
   },
