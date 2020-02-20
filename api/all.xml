@@ -67,7 +67,7 @@ World Bank (WB)</translation>
 The indicator Proportion of population below the international poverty line is defined as the percentage of the population living on less than $1.90 a day at 2011 international prices. The 'international poverty line' is currently set at $1.90 a day at 2011 international prices.</translation>
           <translation lang="ru"># Понятия и определения
 
-Определение ## 
+## Определение
 
 Индикатор Доля населения, живущего за международной чертой бедности определяется как процент населения, живущего менее чем на $1.90 США в день в международных ценах 2011 года. Международная черта бедности в настоящее время установлена в размере $1.90 США в день в международных ценах 2011 года.</translation>
         </translations>
@@ -133,8 +133,11 @@ The current extreme poverty line is set at $1.90 a day in 2011 PPP terms, which 
 
 When measuring international poverty of a country, the international poverty line at PPP is converted to local currencies in 2011 price and is then converted to the prices prevailing at the time of the relevant household survey using the best available Consumer Price Index (CPI). (Equivalently, the survey data on household consumption or income for the survey year are expressed in the prices of the ICP base year, and then converted to PPP $’s.) Then the poverty rate is calculated from that survey. All inter-temporal comparisons are real, as assessed using the country-specific CPI. Interpolation/extrapolation methods are used to line up the survey-based estimates with these reference years.</translation>
           <translation lang="ru">В целях последовательного определения масштабов нищеты в различных странах Всемирный банк в своей международной деятельности руководствуется общим стандартом, основанным на понятии « нищета» в беднейших странах мира. Первоначальный уровень в размере 1 долл. США в день был рассчитан на основе национальных данных только для 22 развивающихся стран, главным образом на основе научных исследований 80 - х годов (Ravallion et al., 1991). Несмотря на то, что в то время это было наилучшим вариантом, даже в 80 - е годы его можно было с трудом применить к развивающимся странам. С тех пор национальные уровни бедности были установлены для многим других стран. Основываясь на новой методике расчета национальных уровней для 75 развивающихся стран, Равальон, Чень и Санграула (RCS) (2009г.) предложили новый международный уровень нищеты в 1,25 долл.Это средний уровень нищеты в 15 беднейших странах, по имеющимся у них данным.
+
 По паритету покупательной способности (ППС) 2011 года в настоящее время уровень крайней нищеты составляет 1,90 долл. , что представляет собой среднее значение национальной черты бедности, установленной в тех же 15 беднейших странах, ранжированных по уровню потребления на душу населения. Новая черта бедности сохраняет тот же уровень крайней нищеты, что и в случае беднейших стран мира, но обновляется с учетом последних данных о стоимости жизни в развивающихся странах.
+
 Нынешняя черта крайней бедности установлена на уровне 1,90 долл. США в день по ППС в 2011 году, что представляет собой среднее значение национальной черты бедности, установленной в тех же 15 беднейших странах, ранжированных по уровню потребления на душу населения. Новая черта бедности поддерживает тот же уровень крайней бедности - черту бедности, которая характерна для беднейших стран мира, - но обновляет ее, используя самую последнюю информацию о стоимости жизни в развивающихся странах. 
+
 При измерении международной бедности страны, международная черта бедности по ППС конвертируется в местные валюты по ценам 2011 года, а затем конвертируется в цены, преобладающие на момент проведения соответствующего обследования домашних хозяйств, с использованием наилучшего доступного Индекса потребительских цен (ИПЦ). (Таким же образом, данные обследования о потреблении домохозяйств или их доходах за год обследования выражаются в ценах базового года ИПЦ, а затем конвертируются в доллары по ППС). Затем по итогам этого обследования вычисляется уровень бедности. Все сравнения, проведенные внутри этого периода времени, являются реальными, так как они оцениваются с использованием ИПЦ для конкретной страны. Методы интерполяции/экстраполяции используются для выравнивания оценок, основанных на обследовании, с этими базисными годами.</translation>
         </translations>
       </field>
@@ -168,10 +171,10 @@ Work is underway at the World Bank for disaggregated poverty estimates.</transla
     The aggregate headcount ratio for a region is the population-weighted mean of the headcount indices across the countries in that region. The number of poor in each region is the product of the region’s headcount index and total regional population. This assumes that the poverty rate for a country without a household survey is the regional average.</translation>
           <translation lang="ru">## Обработка отсутствующих значений
 
-* ** На уровне страны **
+* **На уровне страны**
 
     Не существует «вменения» в традиционном смысле для отсутствующих данных по стране. Однако для составления региональных и глобальных агрегированных показателей за отчетные годы данные на уровне страны вменяются в те годы, когда обследования не проводились. Эти вмененные данные должны использоваться для агрегирования, но не для замены фактических данных обследования. В следующем разделе, посвященном обработке отсутствующих значений на региональном и глобальном уровнях, содержится более подробная информация о методе вменения.
-* ** На региональном и глобальном уровнях **
+* **На региональном и глобальном уровнях**
 
     Чтобы сравнить уровни бедности по странам и рассчитать региональные агрегированные показатели, страновые оценки должны быть сначала «выровнены» по общему отчетному году, интерполируясь для стран, в которых данные обследования отсутствуют в отчетном году, но доступны либо до, после или и то и другое. Чем больше данных обследования (то есть, чем больше данных за разные годы), тем точнее интерполяция.
 
@@ -313,7 +316,7 @@ The World Bank typically receives data from National Statistical Offices (NSOs) 
           <translation lang="en"># Data compilers
 
 World Bank</translation>
-          <translation lang="ru">Составители данных # 
+          <translation lang="ru"># Составители данных
 
 Всемирный Банк</translation>
         </translations>
@@ -395,9 +398,9 @@ For more information and methodology, please see PovcalNet (http://iresearch.wor
 ## Organization{s)
 
 ILO</translation>
-          <translation lang="ru">Институциональная информация
+          <translation lang="ru"># Институциональная информация
 
-Организация (и)
+## Организация (и)
 
 МОТ</translation>
         </translations>
@@ -409,9 +412,9 @@ ILO</translation>
 ## Definition
 
 The proportion of the employed population below the international poverty line of US$1.90 per day, also referred to as the working poverty rate, is defined as the share of employed persons living in households with per-capita consumption or income that is below the international poverty line of US$1.90.</translation>
-          <translation lang="ru">Концепции и определения
+          <translation lang="ru"># Концепции и определения
 
-Определение
+## Определение
 
 Доля занятого населения, находящихся ниже международного уровня бедности в размере 1,90 доллара США в день, также именуемого уровнем бедности среди работающих, определяется как доля занятых лиц, проживающих в домашних хозяйствах с потреблением или доходом на душу населения, которая ниже международного уровня бедности в размере 1,90 доллара США.</translation>
         </translations>
@@ -456,9 +459,10 @@ At the country level, comparisons over time may be affected by such factors as c
 
 Poverty in the context of this indicator is a concept that is applied to households, and not to individuals. Based on the assumption that households pool their income, the question asked is whether a household’s total income is sufficient to ensure that it isn’t classified as being in poverty. The poverty status of a household is therefore a function of the wage and other employment-related income secured by those household members who work (plus any non-employment-related income such as transfer payments) and the number of household members. Whether a worker is counted as working poor therefore depends on his or her own income, the income of other household members and the number of household members – for example, children – who need to be supported. It is thus often valuable to study household structure in relation to working poverty. For example, it may be relevant for some countries to assess the differences in working poverty rates between persons living in households whose members are unrelated individuals from those whose members are related.</translation>
           <translation lang="ru">## Комментарии и ограничения
+
 На страновом уровне на сопоставления, проводимые в течение какого-либо времени, могут влиять такие факторы, как изменения в типах обследований или методах сбора данных. Использование ППС вместо рыночных валютных курсов обеспечивает учет различий в уровнях цен в разных странах. Однако нельзя категорически утверждать, что два человека из двух разных стран, живущие ниже 1,90 доллара США в день по ППС, сталкиваются с такой же степенью лишений или испытывают такую же степень нужды.
 
-Бедность в контексте данного показателя - это понятие, которое применяется к домашним хозяйствам, а не к отдельным лицам. Исходя из предположения о том, что в домашних хозяйствах объединяются доходы, поставленный вопрос заключается в том, является ли общий доход домашнего хозяйства достаточным для того, чтобы оно не классифицировалось как находящееся в бедности. Таким образом, статус бедности домохозяйства зависит от размера заработной платы и других связанных с занятостью доходов, которые обеспечивают работающие члены домохозяйства (плюс любые не связанные с занятостью доходы, такие как трансфертные платежи), а также от количества членов домохозяйства. Таким образом, считается ли работник бедняком среди работающих, зависит от его или ее собственного дохода, дохода других членов домохозяйства и количества членов домохозяйства - например, детей, - нуждающихся в поддержке. Таким образом, часто бывает полезно изучить структуру домохозяйств в связи с бедностью среди работающих. Например, для некоторых стран может быть актуальной оценка различий в показателях бедности среди работающих  между лицами, живущими в домашних хозяйствах, члены которых не являются родственниками, и теми, кто является их родственниками.</translation>
+Бедность в контексте данного показателя - это понятие, которое применяется к домашним хозяйствам, а не к отдельным лицам. Исходя из предположения о том, что в домашних хозяйствах объединяются доходы, поставленный вопрос заключается в том, является ли общий доход домашнего хозяйства достаточным для того, чтобы оно не классифицировалось как находящееся в бедности. Таким образом, статус бедности домохозяйства зависит от размера заработной платы и других связанных с занятостью доходов, которые обеспечивают работающие члены домохозяйства (плюс любые не связанные с занятостью доходы, такие как трансфертные платежи), а также от количества членов домохозяйства. Таким образом, считается ли работник бедняком среди работающих, зависит от его или ее собственного дохода, дохода других членов домохозяйства и количества членов домохозяйства - например, детей, - нуждающихся в поддержке. Таким образом, часто бывает полезно изучить структуру домохозяйств в связи с бедностью среди работающих. Например, для некоторых стран может быть актуальной оценка различий в показателях бедности среди работающих между лицами, живущими в домашних хозяйствах, члены которых не являются родственниками, и теми, кто является их родственниками.</translation>
         </translations>
       </field>
       <field id="DATA_COMP">
@@ -477,9 +481,9 @@ Poverty in the context of this indicator is a concept that is applied to househo
   &lt;mo&gt;&amp;times;&lt;/mo&gt;
   &lt;mn&gt;100&lt;/mn&gt;
 &lt;/math&gt;</translation>
-          <translation lang="ru">Методология
+          <translation lang="ru"># Методология
 
-Метод вычислений
+## Метод вычислений
 
 &lt;math&gt;
   &lt;mi&gt;Уровень бедности среди работающих&amp;times;&lt;/mi&gt;
@@ -520,7 +524,7 @@ The working poverty rate (proportion of employed persons living in poverty) is d
           <translation lang="en">## Regional aggregates
 
 The ILO produces global and regional estimates of employment by economic class (and thus, of working poverty rates) using the ILO’s Employment by Class (EbyC) model. These estimates are part of the ILO Estimates and Projections series, analysed in the ILO's World Employment and Social Outlook reports. For more information, on the model used to derive these estimates, refer to the ILO paper “Employment and economic class in the developing world” (Kapsos and Bourmpoula, 2013), available at &lt;http://www.ilo.org/wcmsp5/groups/public/---dgreports/---inst/documents/publication/wcms_216451.pdf&gt;.</translation>
-          <translation lang="ru">Региональные агрегаты
+          <translation lang="ru">## Региональные агрегаты
 
 МОТ проводит глобальные и региональные оценки занятости по экономическим классам (и, следовательно, показателям бедности в условиях нищеты среди работающих) с использованием модели Занятости По классам (EbyC) МОТ. Эти оценки являются частью серии оценок и прогнозов МОТ, проанализированных в докладах МОТ о мировом уровне занятости и социальных перспективах. Для получения дополнительной информации о модели, используемой для получения этих оценок, обратитесь к документу МОТ "Занятость и экономический класс в развивающихся странах" (Kapsos and Bourmpoula, 2013), который имеется в материале «http://www.ilo.org/wcmsp5/groups/public/---dgreports/---inst/documents/publication/wcms_216451.pdf».</translation>
         </translations>
@@ -540,7 +544,7 @@ The ILO produces global and regional estimates of employment by economic class (
       <field id="QUALITY_ASSURE">
         <translations>
           <translation lang="en">## Quality assurance</translation>
-          <translation lang="ru">Гарантия качества</translation>
+          <translation lang="ru">## Гарантия качества</translation>
         </translations>
       </field>
       <field id="SOURCE_TYPE">
@@ -596,7 +600,7 @@ Employment estimates derived from a household survey other than a labour force s
       <field id="REL_CAL_POLICY">
         <translations>
           <translation lang="en">## Data release</translation>
-          <translation lang="ru">Выпуск данных</translation>
+          <translation lang="ru">## Выпуск данных</translation>
         </translations>
       </field>
       <field id="DATA_SOURCE">
@@ -614,7 +618,7 @@ Mainly National Statistical Offices.</translation>
           <translation lang="en"># Data compilers
 
 ILO</translation>
-          <translation lang="ru">Составители данных # 
+          <translation lang="ru"># Составители данных
 
 МОТ</translation>
         </translations>
@@ -636,7 +640,7 @@ ILO</translation>
       <field id="SDG_RELATED_INDICATORS">
         <translations>
           <translation lang="en"># Related indicators</translation>
-          <translation lang="ru">Связанные показатели</translation>
+          <translation lang="ru"># Связанные показатели</translation>
         </translations>
       </field>
     </fields>
@@ -707,6 +711,7 @@ The national poverty rate is the percentage of the total population living below
           <translation lang="ru"># Понятия и определения
 
 ## Определение
+
 Национальный уровень бедности - это доля всего населения, живущего за национальной чертой бедности, выраженная в процентах. Уровень бедности сельского населения - это процент сельского населения, живущего за национальной чертой бедности (или, в случае использования отдельной, сельской черты бедности, уровень бедности сельского населения). Уровень бедности городского населения - это процент городского населения, живущего за национальной чертой бедности (или, в случае использования отдельной городской черты бедности, уровень бедности городского населения).</translation>
         </translations>
       </field>
@@ -827,14 +832,53 @@ Where *I*(.) is an indicator function that takes on a value of 1 if the brackete
 Consumption or income data are gathered from nationally representative household surveys, which contain detailed responses to questions regarding spending habits and sources of income. Consumption, including consumption from own production, or income is calculated for the entire household. In some cases, an “effective” household size is calculated from the actual household size to reflect assumed efficiencies in consumption; adjustments may also be made to reflect the number of children in a household. The number of people in those households is aggregated to estimate the number of poor persons.
 
 National poverty rates use a country specific poverty line, reflecting the country’s economic and social circumstances. In some case, the national poverty line is adjusted for different areas (such as urban and rural) within the country, to account for differences in prices or the availability of goods and services. Typically the urban poverty line is set higher than the rural poverty line; reflecting the relatively higher costs of living in urban areas.</translation>
-          <translation lang="ru">Методология # 
+          <translation lang="ru"># Методология
 
-# Метод Вычисления# 
+## Метод Вычисления
 
 Формула для расчета удельный вес от общего, городского и сельского населения, живущего ниже национальной черты бедности, или индекс численности персонала, выглядит следующим образом:
 
-
-&lt;&lt;math&gt; &lt;munder&gt; &lt;mrow&gt; &lt;msub&gt; &lt;mi&gt;P&lt;/mi&gt; &lt;mn&gt;0&lt;/mn&gt; &lt;/msub&gt; &lt;mo&gt;=&lt;/mo&gt; &lt;mfrac&gt; &lt;mn&gt;1&lt;/mn&gt; &lt;mi&gt;N&lt;/mi&gt; &lt;/mfrac&gt; &lt;munderover&gt; &lt;mo&gt;∑&lt;/mo&gt; &lt;mi&gt;i&lt;/mi&gt; &lt;mi&gt;N&lt;/mi&gt; &lt;/munderover&gt; &lt;mi&gt;I&lt;/mi&gt; &lt;mo&gt;(&lt;/mo&gt; &lt;msub&gt; &lt;mi&gt;y&lt;/mi&gt; &lt;mi&gt;i&lt;/mi&gt; &lt;/msub&gt; &lt;mo&gt;&amp;lt;&lt;/mo&gt; &lt;mi&gt;z&lt;/mi&gt; &lt;mo&gt;)&lt;/mo&gt; &lt;mo&gt;=&lt;/mo&gt; &lt;mfrac&gt; &lt;msub&gt; &lt;mi&gt;N&lt;/mi&gt; &lt;mi&gt;p&lt;/mi&gt; &lt;/msub&gt; &lt;mi&gt;N&lt;/mi&gt; &lt;/mfrac&gt; &lt;/mrow&gt; &lt;mrow&gt; &lt;mo&gt;=&lt;/mo&gt; &lt;mn&gt;1&lt;/mn&gt; &lt;/mrow&gt; &lt;/munder&gt; &lt;/math&gt;
+&lt;math&gt;
+  &lt;munder&gt;
+    &lt;mrow&gt;
+      &lt;msub&gt;
+        &lt;mi&gt;P&lt;/mi&gt;
+        &lt;mn&gt;0&lt;/mn&gt;
+      &lt;/msub&gt;
+      &lt;mo&gt;=&lt;/mo&gt;
+      &lt;mfrac&gt;
+        &lt;mn&gt;1&lt;/mn&gt;
+        &lt;mi&gt;N&lt;/mi&gt;
+      &lt;/mfrac&gt;
+      &lt;munderover&gt;
+        &lt;mo&gt;∑&lt;/mo&gt;
+        &lt;mi&gt;i&lt;/mi&gt;
+        &lt;mi&gt;N&lt;/mi&gt;
+      &lt;/munderover&gt;
+      &lt;mi&gt;I&lt;/mi&gt;
+      &lt;mo&gt;(&lt;/mo&gt;
+      &lt;msub&gt;
+        &lt;mi&gt;y&lt;/mi&gt;
+        &lt;mi&gt;i&lt;/mi&gt;
+      &lt;/msub&gt;
+      &lt;mo&gt;&amp;lt;&lt;/mo&gt;
+      &lt;mi&gt;z&lt;/mi&gt;
+      &lt;mo&gt;)&lt;/mo&gt;
+      &lt;mo&gt;=&lt;/mo&gt;
+      &lt;mfrac&gt;
+        &lt;msub&gt;
+          &lt;mi&gt;N&lt;/mi&gt;
+          &lt;mi&gt;p&lt;/mi&gt;
+        &lt;/msub&gt;
+        &lt;mi&gt;N&lt;/mi&gt;
+      &lt;/mfrac&gt;
+    &lt;/mrow&gt;
+    &lt;mrow&gt;
+      &lt;mo&gt;=&lt;/mo&gt;
+      &lt;mn&gt;1&lt;/mn&gt;
+    &lt;/mrow&gt;
+  &lt;/munder&gt;
+&lt;/math&gt;
 
 Где *I*(.) - функция показателя, который принимает значение 1, если выражение в скобках верно, и 0 в противном случае. Если индивидуальное потребление или доход *y*&lt;sub&gt;i&lt;/sub&gt; меньше, чем национальный уровень бедности *z* (например, в абсолютном выражении уровнем может быть цена потребления пачке или в относительном выражении процент распределения доходов), то *i*(.) равна 1 и индивид считается бедным. *N*&lt;sub&gt;Р&lt;/sub&gt; является общим, городским и сельским количеством бедных. *N* - общее, городское или сельское население.
 
@@ -918,7 +962,7 @@ Another source is World Bank’s Poverty Assessments. The World Bank periodicall
           <translation lang="en">## Collection process:
 
 Source collection is ongoing by the Global Poverty Working Group of the World Bank. The data in World Development Indicators (WDI) are updated quarterly following the WDI database [^2] updating schedule.</translation>
-          <translation lang="ru">Процесс сбора:
+          <translation lang="ru">## Процесс сбора:
 
 Сбор исходных данных осуществляется Глобальной рабочей группой Всемирного банка по вопросам нищеты. Данные по показателям мирового развития (WDI) обновляются ежеквартально после обновления базы данных WDI.</translation>
         </translations>
@@ -966,7 +1010,7 @@ The schedule of source collection is determined by the country governments. Some
           <translation lang="en">## Data release
 
 End of March 2017.</translation>
-          <translation lang="ru">Выпуск данных
+          <translation lang="ru">## Выпуск данных
 
 Конец марта 2017 года.</translation>
         </translations>
@@ -975,7 +1019,7 @@ End of March 2017.</translation>
         <translations>
           <translation lang="en"># Data providers
 National Statistic Offices.</translation>
-          <translation lang="ru">Поставщики данных
+          <translation lang="ru"># Поставщики данных
 Национальные статистические управления.</translation>
         </translations>
       </field>
@@ -984,7 +1028,7 @@ National Statistic Offices.</translation>
           <translation lang="en"># Data compilers
 
 World Bank – Global Poverty Working Group</translation>
-          <translation lang="ru">Составители данных # 
+          <translation lang="ru"># Составители данных
 
 Всемирный Банк – Глобальная Рабочая Группа по бедности</translation>
         </translations>
@@ -1018,7 +1062,7 @@ Indicator 1.1.1: Proportion of population below the international poverty line, 
       <field id="FOOTNOTE_1">
         <translations>
           <translation lang="en">[^1]: For a discussion on reasons consumption is preferred, check: Deaton, Angus (2003). “Household Surveys, Consumption, and the Measurement of Poverty”. Economic Systems Research, Vol. 15, No. 2, June 2003</translation>
-          <translation lang="ru">Для обсуждения причин, по которым потребление является предпочтительным, обратитесь к: Дитон, Ангус (2003г.). "Обследования домашних хозяйств, потребление и измерение бедности". Исследования экономических систем, том. 15, No 2, июнь 2003 г.</translation>
+          <translation lang="ru">[^1]: Для обсуждения причин, по которым потребление является предпочтительным, обратитесь к: Дитон, Ангус (2003г.). "Обследования домашних хозяйств, потребление и измерение бедности". Исследования экономических систем, том. 15, No 2, июнь 2003 г.</translation>
         </translations>
       </field>
       <field id="FOOTNOTE_2">
@@ -1126,15 +1170,15 @@ Data for these indicators have been collected by the World Bank through the Remi
 **Price.** The total cost to the end users of sending a remittance transfer (including the fees charged to the sender and the margin by which the exchange rate charged to the end users is above the current interbank exchange rate).</translation>
           <translation lang="ru">## Концепции
 
-** Международный перевод денежных средств. ** Трансграничный платеж между людьми по относительно низкой стоимости. Переводы, как правило, являются периодическими платежами трудящихся-мигрантов (которые ежемесячно отправляют деньги своим семьям на родину). В отчете термин «перевод денежных средств» используется для простоты (то есть предполагается, что перевод является международным).
+**Международный перевод денежных средств.** Трансграничный платеж между людьми по относительно низкой стоимости. Переводы, как правило, являются периодическими платежами трудящихся-мигрантов (которые ежемесячно отправляют деньги своим семьям на родину). В отчете термин «перевод денежных средств» используется для простоты (то есть предполагается, что перевод является международным).
 
-** Услуга по осуществлению денежных переводов. ** Услуга, который позволяет конечным пользователям отправлять и / или получать переводы денежных переводов.
+**Услуга по осуществлению денежных переводов.** Услуга, который позволяет конечным пользователям отправлять и / или получать переводы денежных переводов.
 
-** Поставщик услуг по осуществлению денежных переводов (ПУДП). ** Организация, действующая как коммерческое предприятие, которая предоставляет услуги по осуществлению денежных переводов за плату конечным пользователям, напрямую или через агентов. К ним относятся как банки, так и операторы денежных переводов, как определено ниже.
+**Поставщик услуг по осуществлению денежных переводов (ПУДП).** Организация, действующая как коммерческое предприятие, которая предоставляет услуги по осуществлению денежных переводов за плату конечным пользователям, напрямую или через агентов. К ним относятся как банки, так и операторы денежных переводов, как определено ниже.
 
-** Оператор денежных переводов (ОДП). ** Поставщик платежных услуг, не использующий депозит, где услуга включает в себя оплату за перевод (или, возможно, оплату за набор или серию переводов) отправителем поставщику платежных услуг (например, наличными или банковским переводом) - то есть в отличие от ситуации, когда поставщик платежных услуг дебетует счет, открытый отправителем у поставщика платежных услуг. Поставщиками услуг по осуществлению денежных переводов могут быть как традиционные игроки, специализирующиеся на предоставлении денежных средств, так и инновационные игроки, которые могут использовать различные бизнес-модели для осуществления транзакций.
+**Оператор денежных переводов (ОДП).** Поставщик платежных услуг, не использующий депозит, где услуга включает в себя оплату за перевод (или, возможно, оплату за набор или серию переводов) отправителем поставщику платежных услуг (например, наличными или банковским переводом) - то есть в отличие от ситуации, когда поставщик платежных услуг дебетует счет, открытый отправителем у поставщика платежных услуг. Поставщиками услуг по осуществлению денежных переводов могут быть как традиционные игроки, специализирующиеся на предоставлении денежных средств, так и инновационные игроки, которые могут использовать различные бизнес-модели для осуществления транзакций.
 
-** Цена. ** Общая стоимость отправки перевода для конечных пользователей (в том числе комиссионные, взимаемые с отправителя, и маржа, на которую обменный курс, взимаемый с конечных пользователей, превышает текущий межбанковский обменный курс).</translation>
+**Цена.** Общая стоимость отправки перевода для конечных пользователей (в том числе комиссионные, взимаемые с отправителя, и маржа, на которую обменный курс, взимаемый с конечных пользователей, превышает текущий межбанковский обменный курс).</translation>
         </translations>
       </field>
       <field id="REC_USE_LIM">
@@ -1170,7 +1214,7 @@ Target 10.c.1 includes two components, which require two separate calculations:
 
 В 2016 году была введена "Задача умного поставщика" (SmarRT), позволяющая отслеживать операции с денежными переводами на более детальном уровне. Она призвана отразить затраты, которые подкованный потребитель, имеющий доступ к достаточно полной информации, будет платить за перевод денежных средств в каждом коридоре. SmaRT рассчитывается как простое среднее арифметическое трех самых дешевых услуг по отправке суммы в эквиваленте $200 в каждом коридоре и выражается в процентах от общей отправленной суммы. Помимо прозрачности, услуги должны соответствовать дополнительным критериям, которые должны быть включены в SmaRT, включая скорость транзакций (5 или менее дней) и доступность (определяется географической близостью филиалов для услуг, требующих физического присутствия, или доступа к любой технологии или устройству, необходимым для использования услуги, например, банковскому счету, мобильному телефону или Интернету.
 
-Для получения дополнительной информации о методологии SmaRT, пожалуйста, см: **https://remittanceprices.worldbank.org/sites/default/files/smart_methodology.pdf **
+Для получения дополнительной информации о методологии SmaRT, пожалуйста, см: **https://remittanceprices.worldbank.org/sites/default/files/smart_methodology.pdf**
 
 Цель 10.c.1 включает в себя два компонента, которые требуют проведения двух отдельных расчетов:
 1. Средняя глобальная стоимость денежных переводов должна быть снижена до менее чем 3 процентов: она рассчитывается как простое среднее значение общей стоимости всех услуг, включенных в базу данных мировых тарифов на денежные переводы (RPW).
@@ -1200,11 +1244,11 @@ RPW tracks the cost of remittances by the type of remittance service providers: 
     Regional aggregates are computed by calculating simple averages of individual services remitting to the recipient countries in the region for which there is data. Countries with no data are not included, however, as a representative sample is built, it is assumed that missing data fall in the same cost range as collected data.</translation>
           <translation lang="ru">## Обработка пропущенных значений
 
-* ** На уровне страны **
+* **На уровне страны**
 
     Выборка коридоров отбирается для каждой отправляющей и принимающей страны. Предполагается, что стоимость других коридоров из / в каждую страну попадает в аналогичный ценовой диапазон.
 
-* ** На региональном и глобальном уровнях **
+* **На региональном и глобальном уровнях**
 
     Региональные агрегаты рассчитываются путем расчета простых средних значений отдельных услуг, перечисляемых странам-получателям в регионе, для которого имеются данные. Страны, по которым данные отсутствуют, не включаются, однако, поскольку создается репрезентативная выборка, предполагается, что отсутствующие данные попадают в тот же ценовой диапазон, что и собранные данные.</translation>
         </translations>
@@ -1224,7 +1268,7 @@ Regional aggregates are computed by calculating simple averages of individual se
           <translation lang="en">## Sources of discrepancies
 
 There are no country-produced alternatives for this data, except for countries that have established a remittance price database in line with World Bank minimum requirements. It has been observed that data are broadly in line and no significant discrepancies exist.</translation>
-          <translation lang="ru">Источники расхождений
+          <translation lang="ru">## Источники расхождений
 
 Для этих данных не существует страновых альтернатив, за исключением стран, которые создали базу данных о ценах денежных переводов в соответствии с минимальными требованиями Всемирного банка. Было отмечено, что данные в целом находятся в соответствии с ними и существенных расхождений не существует.</translation>
         </translations>
@@ -1328,7 +1372,7 @@ Data availability: since 2008 (all data available online; data available online 
 Quarterly</translation>
           <translation lang="ru"># Календарь
 
-Сбор данных ## 
+## Сбор данных
 
 Ежеквартально</translation>
         </translations>
@@ -1338,7 +1382,7 @@ Quarterly</translation>
           <translation lang="en">## Data release
 
 March, June, September, December</translation>
-          <translation lang="ru">Выпуск данных
+          <translation lang="ru">## Выпуск данных
 
 Март, июнь, сентябрь, декабрь</translation>
         </translations>
@@ -1358,7 +1402,7 @@ Data are collected by mystery shopping from remittance service providers.</trans
           <translation lang="en"># Data compilers
 
 World Bank</translation>
-          <translation lang="ru">Составители данных # 
+          <translation lang="ru"># Составители данных
 
 Всемирный Банк</translation>
         </translations>
@@ -1487,7 +1531,9 @@ The respondents to the Enterprise Survey are firms- either manufacturing or serv
 
 A gift or an informal payment is considered a ‘bribe’.</translation>
           <translation lang="ru">## Понятия
-Респондентами Обследования предприятий являются фирмы - либо производственные предприятия, либо предприятия сферы услуг. Это зарегистрированные (официально) фирмы с более чем 5 сотрудниками. Фирмы полностью или частично являются частными ( фирмы, на  100% являющиеся государственными, не имеют права на участие в Обследовании предприятий). Дополнительную информацию о методологии обследования можно найти на странице "Методология" веб-сайта: www.enterprisesurveys.org/methodology.
+
+Респондентами Обследования предприятий являются фирмы - либо производственные предприятия, либо предприятия сферы услуг. Это зарегистрированные (официально) фирмы с более чем 5 сотрудниками. Фирмы полностью или частично являются частными ( фирмы, на 100% являющиеся государственными, не имеют права на участие в Обследовании предприятий). Дополнительную информацию о методологии обследования можно найти на странице "Методология" веб-сайта: www.enterprisesurveys.org/methodology
+
 Подарок или неофициальный платеж считаются "взяткой".</translation>
         </translations>
       </field>
@@ -1546,11 +1592,11 @@ The Enterprise Survey captures several descriptive characteristics of the respon
     Regional and global aggregates of the indicator are derived from completed surveys. A single point estimate is created for each country and a global/regional aggregate takes a simple average of every country’s point estimate (when there is available data for that country). For example the East Asia Pacific average (point estimate) for the indicator does not include Japan since there is no Enterprise Survey for Japan.</translation>
           <translation lang="ru">## Обработка отсутствующих значений
 
-* ** На уровне страны **
+* **На уровне страны**
 
     Значение показателя не вменяется странам, в которых не проводятся обследования предприятий.
 
-* ** На региональном и глобальном уровнях **
+* **На региональном и глобальном уровнях**
 
     Региональные и глобальные агрегированные значения этого показателя получены из завершенных обследований. Для каждой страны создается единая балльная оценка, а глобальный / региональный показатель принимает среднее арифметическое значение балльной оценки для каждой страны (когда имеются данные для этой страны). Например, в среднем значении по Восточной Азии и Тихоокеанскому региону (балльная оценка) по данному показателю не учитывается Япония, поскольку в Японии не проводится обследование предприятий.</translation>
         </translations>
@@ -1561,7 +1607,8 @@ The Enterprise Survey captures several descriptive characteristics of the respon
 
 Regional and global aggregates are computed by taking the simple average of the indicator value for all relevant countries. When producing regional and global aggregates as presented on the Enterprise Surveys website, note that only surveys posted during years 2010 onwards are used.</translation>
           <translation lang="ru">## Региональные агрегаты
-Агрегированные показатели по регионам и миру в целом рассчитываются как среднее арифметическое значение показателя по всем соответствующим странам. При подготовке региональных и глобальных сводных показателей, представленных на веб-сайте "Enterprise Surveys", следует иметь в виду, что используются только результаты обследований, опубликованные в 2010 году и в  последующие годы.</translation>
+
+Агрегированные показатели по регионам и миру в целом рассчитываются как среднее арифметическое значение показателя по всем соответствующим странам. При подготовке региональных и глобальных сводных показателей, представленных на веб-сайте "Enterprise Surveys", следует иметь в виду, что используются только результаты обследований, опубликованные в 2010 году и в последующие годы.</translation>
         </translations>
       </field>
       <field id="ADJUSTMENT">
@@ -1671,7 +1718,7 @@ The indicators on the Enterprise Surveys website are updated whenever a new surv
           <translation lang="en"># Data providers
 
 The indicator is derived from Enterprise Surveys which are conducted by the World Bank. The World Bank usually hires a private contractor (typically a market research company) to conduct the survey fieldwork.</translation>
-          <translation lang="ru">Поставщики данных
+          <translation lang="ru"># Поставщики данных
 
 Этот показатель основан на обследованиях предприятий, которые проводятся Всемирным банком. Всемирный банк обычно нанимает частного подрядчика (как правило, компанию по исследованию рынка) для проведения полевых работ.</translation>
         </translations>
@@ -1683,7 +1730,7 @@ The indicator is derived from Enterprise Surveys which are conducted by the Worl
 ## Name
 
 World Bank</translation>
-          <translation lang="ru">Составители данных # 
+          <translation lang="ru"># Составители данных
 
 ## Название
 
@@ -1765,9 +1812,9 @@ World Bank (WB)</translation>
 ## Definition
 
 Personal remittances received as proportion of GDP is the inflow of personal remittances expressed as a percentage of Gross Domestic Product (GDP).</translation>
-          <translation lang="ru">Концепции и определения
+          <translation lang="ru"># Концепции и определения
 
-Определение
+## Определение
 
 Полученные личные денежные переводы в процентах от ВВП, - это поступающий поток личных денежных переводов, выраженный в процентах от валового внутреннего продукта (ВВП).</translation>
         </translations>
@@ -1823,11 +1870,11 @@ None</translation>
     NA</translation>
           <translation lang="ru">## Обработка отсутствующих значений
 
-* ** На уровне страны **
+* **На уровне страны**
 
     Оценки персонала Всемирного банка данных о личных денежных переводах основаны на данных из базы данных статистики платежного баланса МВФ и данных, распространяемых центральными банками, национальными статистическими агентствами и  отделениями Всемирного банка в странах-членах.
 
-* ** На региональном и глобальном уровнях **
+* **На региональном и глобальном уровнях**
 
     Не применимо</translation>
         </translations>
@@ -1837,7 +1884,7 @@ None</translation>
           <translation lang="en">## Regional aggregates
 
 Regional and global estimates are calculated as the GDP weighted average.</translation>
-          <translation lang="ru">Региональные агрегаты
+          <translation lang="ru">## Региональные агрегаты
 
 Региональные и глобальные оценки рассчитываются на основе средневзвешенных показателей ВВП.</translation>
         </translations>
@@ -1861,7 +1908,7 @@ GDP data, sourced from the World Bank’s World Development Indicators (WDI) dat
           <translation lang="en"># Data Availability
 
 Data for 207 countries are already currently available on a regular basis for this indicator.</translation>
-          <translation lang="ru">Доступность данных
+          <translation lang="ru"># Доступность данных
 
 Данные по 207 странам уже имеются на регулярной основе по этому показателю.</translation>
         </translations>
@@ -2017,7 +2064,7 @@ Both components are used to express the indicator in percentage terms.</translat
 
 ## Метод вычисления
 
-Данные о государственном и гарантированном государством внешнем долге составляются Всемирным банком на основе Руководства  Всемирного банка по системе отчетности о долгам, выпущенного в январе 2000 года, в котором изложены процедуры отчетности, подлежащие использованию странами. Данные приводятся по странам в разбивке по кредитам.
+Данные о государственном и гарантированном государством внешнем долге составляются Всемирным банком на основе Руководства Всемирного банка по системе отчетности о долгам, выпущенного в январе 2000 года, в котором изложены процедуры отчетности, подлежащие использованию странами. Данные приводятся по странам в разбивке по кредитам.
 
 Данные по экспорту товаров и услуг берутся из базы статистических данных МВФ по платежному балансу, а затем пробелы заполняются с использованием оценок, подготовленных персоналом Всемирного банка в соответствии с шестым изданием "Руководства по платежному балансу и международной инвестиционной позиции" (РПБ6).
 
@@ -2121,7 +2168,7 @@ The agency in charge of producing the debt statistics at the national level is t
           <translation lang="en"># Data compilers
 
 World Bank</translation>
-          <translation lang="ru">Составители данных # 
+          <translation lang="ru"># Составители данных
 
 Всемирный Банк</translation>
         </translations>
@@ -2583,115 +2630,115 @@ Overall data availability covers at least 50% of all WHO member States in all M4
     &lt;td colspan="2"&gt;&lt;/td&gt;
     &lt;td colspan="6"&gt;
       Использовано ВОЗ и Всемирным банком для оценки «доли населения с большими расходами домохозяйств на здравоохранение как доли от общих расходов или доходов домохозяйств»
-    &lt;/ td&gt;
-  &lt;/ tr&gt;
+    &lt;/td&gt;
+  &lt;/tr&gt;
   &lt;tr&gt;
-    &lt;td&gt; Региональная разбивка по ЦУР &lt;/ td&gt;
-    &lt;td&gt; Количество государств-членов ВОЗ &lt;/ td&gt;
-    &lt;td colspan = "2"&gt; 2005 или более ранняя версия &lt;/ td&gt;
-    &lt;td colspan = "2"&gt; 2006-2015 &lt;/ td&gt;
-    &lt;td colspan = "2"&gt; Всего по региону ЦУР &lt;/ td&gt;
-  &lt;/ tr&gt;
+    &lt;td&gt; Региональная разбивка по ЦУР &lt;/td&gt;
+    &lt;td&gt; Количество государств-членов ВОЗ &lt;/td&gt;
+    &lt;td colspan = "2"&gt; 2005 или более ранняя версия &lt;/td&gt;
+    &lt;td colspan = "2"&gt; 2006-2015 &lt;/td&gt;
+    &lt;td colspan = "2"&gt; Всего по региону ЦУР &lt;/td&gt;
+  &lt;/tr&gt;
   &lt;tr&gt;
-    &lt;td colspan = "2"&gt; &lt;/ td&gt;
-    &lt;td&gt; (примечание MS) &lt;/ td&gt;
-    &lt;td&gt; (% по регионам) &lt;/ td&gt;
-    &lt;td&gt; (примечание MS) &lt;/ td&gt;
-    &lt;td&gt; (% по регионам) &lt;/ td&gt;
-    &lt;td&gt; (примечание MS) &lt;/ td&gt;
-    &lt;td&gt; (% по регионам) &lt;/ td&gt;
-  &lt;/ tr&gt;
+    &lt;td colspan = "2"&gt; &lt;/td&gt;
+    &lt;td&gt; (примечание MS) &lt;/td&gt;
+    &lt;td&gt; (% по регионам) &lt;/td&gt;
+    &lt;td&gt; (примечание MS) &lt;/td&gt;
+    &lt;td&gt; (% по регионам) &lt;/td&gt;
+    &lt;td&gt; (примечание MS) &lt;/td&gt;
+    &lt;td&gt; (% по регионам) &lt;/td&gt;
+  &lt;/tr&gt;
   &lt;tr&gt;
-    &lt;td&gt; Северная Америка (M49) и Европа (M49) &lt;/ td&gt;
-    &lt;td&gt; 44 &lt;/ td&gt;
-    &lt;td&gt; 6 &lt;/ td&gt;
-    &lt;td&gt; 13,60% &lt;/ td&gt;
-    &lt;td&gt; 33 &lt;/ td&gt;
-    &lt;td&gt; &lt;strong&gt; 75,00% &lt;/ strong&gt; &lt;/ td&gt;
-    &lt;td&gt; 39 &lt;/ td&gt;
-    &lt;td&gt; &lt;strong&gt; 88,60% &lt;/ strong&gt; &lt;/ t6d&gt;
-  &lt;/ tr&gt;
+    &lt;td&gt; Северная Америка (M49) и Европа (M49) &lt;/td&gt;
+    &lt;td&gt; 44 &lt;/td&gt;
+    &lt;td&gt; 6 &lt;/td&gt;
+    &lt;td&gt; 13,60% &lt;/td&gt;
+    &lt;td&gt; 33 &lt;/td&gt;
+    &lt;td&gt; &lt;strong&gt; 75,00% &lt;/strong&gt; &lt;/td&gt;
+    &lt;td&gt; 39 &lt;/td&gt;
+    &lt;td&gt; &lt;strong&gt; 88,60% &lt;/strong&gt; &lt;/td&gt;
+  &lt;/tr&gt;
   &lt;tr&gt;
-    &lt;td&gt; Латинская Америка и Карибский бассейн (ЦРТ = M49) &lt;/ td&gt;
-    &lt;td&gt; 33 &lt;/ td&gt;
-    &lt;td&gt; 7 &lt;/ td&gt;
-    &lt;td&gt; 21,20% &lt;/ td&gt;
-    &lt;td&gt; 10 &lt;/ td&gt;
-    &lt;td&gt; 30,30% &lt;/ td&gt;
-    &lt;td&gt; 17 &lt;/ td&gt;
-    &lt;td&gt; &lt;strong&gt; 51,50% &lt;/ strong&gt; &lt;/ td&gt;
-  &lt;/ tr&gt;
+    &lt;td&gt; Латинская Америка и Карибский бассейн (ЦРТ = M49) &lt;/td&gt;
+    &lt;td&gt; 33 &lt;/td&gt;
+    &lt;td&gt; 7 &lt;/td&gt;
+    &lt;td&gt; 21,20% &lt;/td&gt;
+    &lt;td&gt; 10 &lt;/td&gt;
+    &lt;td&gt; 30,30% &lt;/td&gt;
+    &lt;td&gt; 17 &lt;/td&gt;
+    &lt;td&gt; &lt;strong&gt; 51,50% &lt;/strong&gt; &lt;/td&gt;
+  &lt;/tr&gt;
   &lt;tr&gt;
-    &lt;td&gt; Центральная Азия (M49) и Южная Азия (MDG = M49) &lt;/ td&gt;
-    &lt;td&gt; 14 &lt;/ td&gt;
-    &lt;td&gt; 0 &lt;/ td&gt;
-    &lt;td&gt; 0,00% &lt;/ td&gt;
-    &lt;td&gt; 11 &lt;/ td&gt;
-    &lt;td&gt; &lt;strong&gt; 78,60% &lt;/ strong&gt; &lt;/ td&gt;
-    &lt;td&gt; 11 &lt;/ td&gt;
-    &lt;td &lt;strong&gt; 78,60% &lt;/ strong&gt; &lt;/ td&gt;
-  &lt;/ tr&gt;
+    &lt;td&gt; Центральная Азия (M49) и Южная Азия (MDG = M49) &lt;/td&gt;
+    &lt;td&gt; 14 &lt;/td&gt;
+    &lt;td&gt; 0 &lt;/td&gt;
+    &lt;td&gt; 0,00% &lt;/td&gt;
+    &lt;td&gt; 11 &lt;/td&gt;
+    &lt;td&gt; &lt;strong&gt; 78,60% &lt;/strong&gt; &lt;/td&gt;
+    &lt;td&gt; 11 &lt;/td&gt;
+    &lt;td &lt;strong&gt; 78,60% &lt;/strong&gt; &lt;/td&gt;
+  &lt;/tr&gt;
   &lt;tr&gt;
-    &lt;td&gt; Восточная Азия (M49) и Юго-Восточная Азия (ЦРТ = M49) &lt;/ td&gt;
-    &lt;tr&gt; 16 &lt;/ tr&gt;
-    &lt;td&gt; 2 &lt;/ td&gt;
-    &lt;td&gt; 12,50% &lt;/ td&gt;
-    &lt;td&gt; 10 &lt;/ td&gt;
-    &lt;td&gt; &lt;strong&gt; 62,50% &lt;/ strong&gt; &lt;/ td&gt;
-    &lt;td&gt; 12 &lt;/ td&gt;
-    &lt;td&gt; &lt;strong&gt; 75,00% &lt;/ strong&gt; &lt;/ td&gt;
-  &lt;/ tr&gt;
+    &lt;td&gt; Восточная Азия (M49) и Юго-Восточная Азия (ЦРТ = M49) &lt;/td&gt;
+    &lt;tr&gt; 16 &lt;/tr&gt;
+    &lt;td&gt; 2 &lt;/td&gt;
+    &lt;td&gt; 12,50% &lt;/td&gt;
+    &lt;td&gt; 10 &lt;/td&gt;
+    &lt;td&gt; &lt;strong&gt; 62,50% &lt;/strong&gt; &lt;/td&gt;
+    &lt;td&gt; 12 &lt;/td&gt;
+    &lt;td&gt; &lt;strong&gt; 75,00% &lt;/strong&gt; &lt;/td&gt;
+  &lt;/tr&gt;
   &lt;tr&gt;
-    &lt;td&gt; Западная Азия (M49) и Северная Африка (M49) &lt;/ td&gt;
-    &lt;td&gt; 23 &lt;/ td&gt;
-    &lt;td&gt; 4 &lt;/ td&gt;
-    &lt;td&gt; 17,40% &lt;/ td&gt;
-    &lt;td&gt; 9 &lt;/ td&gt;
-    &lt;td&gt; 39,10% &lt;/ td&gt;
-    &lt;td&gt; 13 &lt;/ td&gt;
-    &lt;td&gt; &lt;strong&gt; 56,50% &lt;/ strong&gt; &lt;/ td&gt;
-  &lt;/ tr&gt;
+    &lt;td&gt; Западная Азия (M49) и Северная Африка (M49) &lt;/td&gt;
+    &lt;td&gt; 23 &lt;/td&gt;
+    &lt;td&gt; 4 &lt;/td&gt;
+    &lt;td&gt; 17,40% &lt;/td&gt;
+    &lt;td&gt; 9 &lt;/td&gt;
+    &lt;td&gt; 39,10% &lt;/td&gt;
+    &lt;td&gt; 13 &lt;/td&gt;
+    &lt;td&gt; &lt;strong&gt; 56,50% &lt;/strong&gt; &lt;/td&gt;
+  &lt;/tr&gt;
   &lt;tr&gt;
-    &lt;td&gt; Африка к югу от Сахары (M49) &lt;/ td&gt;
-    &lt;td&gt; 48 &lt;/ td&gt;
-    &lt;td&gt; 16 &lt;/ td&gt;
-    &lt;td&gt; 33,30% &lt;/ td&gt;
-    &lt;td&gt; 21 &lt;/ td&gt;
-    &lt;td&gt; 43,80% &lt;/ td&gt;
-    &lt;td&gt; 37 &lt;/ td&gt;
-    &lt;td&gt; &lt;strong&gt; 77,10% &lt;/ strong&gt; &lt;/ td&gt;
-  &lt;/ tr&gt;
+    &lt;td&gt; Африка к югу от Сахары (M49) &lt;/td&gt;
+    &lt;td&gt; 48 &lt;/td&gt;
+    &lt;td&gt; 16 &lt;/td&gt;
+    &lt;td&gt; 33,30% &lt;/td&gt;
+    &lt;td&gt; 21 &lt;/td&gt;
+    &lt;td&gt; 43,80% &lt;/td&gt;
+    &lt;td&gt; 37 &lt;/td&gt;
+    &lt;td&gt; &lt;strong&gt; 77,10% &lt;/strong&gt; &lt;/td&gt;
+  &lt;/tr&gt;
   &lt;tr&gt;
-    &lt;td&gt; Австралия и Новая Зеландия (M49) &lt;/ td&gt;
-    &lt;td&gt; 2 &lt;/ td&gt;
-    &lt;td&gt; 0 &lt;/ td&gt;
-    &lt;td&gt; 0,00% &lt;/ td&gt;
-    &lt;td&gt; 1 &lt;/ td&gt;
-    &lt;td&gt; &lt;strong&gt; 50,00% &lt;/ strong&gt; &lt;/ td&gt;
-    &lt;td&gt; 1 &lt;/ td&gt;
-    &lt;td&gt; &lt;strong&gt; 50,00% &lt;/ strong&gt; &lt;/ td&gt;
-  &lt;/ tr&gt;
+    &lt;td&gt; Австралия и Новая Зеландия (M49) &lt;/td&gt;
+    &lt;td&gt; 2 &lt;/td&gt;
+    &lt;td&gt; 0 &lt;/td&gt;
+    &lt;td&gt; 0,00% &lt;/td&gt;
+    &lt;td&gt; 1 &lt;/td&gt;
+    &lt;td&gt; &lt;strong&gt; 50,00% &lt;/strong&gt; &lt;/td&gt;
+    &lt;td&gt; 1 &lt;/td&gt;
+    &lt;td&gt; &lt;strong&gt; 50,00% &lt;/strong&gt; &lt;/td&gt;
+  &lt;/tr&gt;
   &lt;tr&gt;
-    &lt;td&gt; Океания (M49), исключая Австралию и Новую Зеландию (M49) &lt;/ td&gt;
-    &lt;td&gt; 14 &lt;/ td&gt;
-    &lt;td&gt; 1 &lt;/ td&gt;
-    &lt;td&gt; 7,10% &lt;/ td&gt;
-    &lt;td&gt; 0 &lt;/ td&gt;
-    &lt;td&gt; 0,00% &lt;/ td&gt;
-    &lt;td&gt; 1 &lt;/ td&gt;
-    &lt;td&gt; 7,10% &lt;/ td&gt;
-  &lt;/ tr&gt;
+    &lt;td&gt; Океания (M49), исключая Австралию и Новую Зеландию (M49) &lt;/td&gt;
+    &lt;td&gt; 14 &lt;/td&gt;
+    &lt;td&gt; 1 &lt;/td&gt;
+    &lt;td&gt; 7,10% &lt;/td&gt;
+    &lt;td&gt; 0 &lt;/td&gt;
+    &lt;td&gt; 0,00% &lt;/td&gt;
+    &lt;td&gt; 1 &lt;/td&gt;
+    &lt;td&gt; 7,10% &lt;/td&gt;
+  &lt;/tr&gt;
   &lt;tr&gt;
-    &lt;td&gt; &lt;/ td&gt;
-    &lt;td&gt; 194 &lt;/ td&gt;
-    &lt;td&gt; 36 &lt;/ td&gt;
-    &lt;td&gt; 18,60% &lt;/ td&gt;
-    &lt;td&gt; 95 &lt;/ td&gt;
-    &lt;td&gt; 49,00% &lt;/ td&gt;
-    &lt;td&gt; 131 &lt;/ td&gt;
-    &lt;td&gt; &lt;strong&gt; 67,50% &lt;/ strong&gt; &lt;/ td&gt;
-  &lt;/ tr&gt;
-&lt;/ table&gt;
+    &lt;td&gt; &lt;/td&gt;
+    &lt;td&gt; 194 &lt;/td&gt;
+    &lt;td&gt; 36 &lt;/td&gt;
+    &lt;td&gt; 18,60% &lt;/td&gt;
+    &lt;td&gt; 95 &lt;/td&gt;
+    &lt;td&gt; 49,00% &lt;/td&gt;
+    &lt;td&gt; 131 &lt;/td&gt;
+    &lt;td&gt; &lt;strong&gt; 67,50% &lt;/strong&gt; &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;
 
 Общая доступность данных охватывает не менее 50% всех государств-членов ВОЗ во всех регионах M49, за исключением тех, которые находятся в Океании (7,1%). Для получения дополнительной информации, пожалуйста, обратитесь к отчету ВОЗ и Всемирного банка за 2017 год по отслеживанию всеобщего здоровья; Wagstaff et al 2018.</translation>
         </translations>
@@ -2736,7 +2783,7 @@ National Statistical Offices in collaboration with Ministries of health. See dat
           <translation lang="en"># Data compilers
 
 The World Health Organization and the World Bank.</translation>
-          <translation lang="ru">Составители данных # 
+          <translation lang="ru"># Составители данных
 
 Всемирная организация здравоохранения и Всемирный банк.</translation>
         </translations>
@@ -2970,7 +3017,7 @@ Methodological challenges associated with the measurement of energy access are m
 
 Хотя существующая глобальная база фактических данных обследования домашних хозяйств обеспечивает хорошую отправную точку для отслеживания доступа домашних хозяйств к энергии, она также вносит ряд ограничений, которые необходимо будет со временем устранить. Во многих частях мира наличие подключения к электричеству в домашнем хозяйстве не обязательно гарантирует, что поставляемая энергия является адекватной по качеству и надежности или доступной по стоимости, и было бы желательно иметь более полную информацию об этих критических характеристиках услуги, которые были освещены в ЦУР-7.
 
-Уже достигнут существенный прогресс в разработке и апробации новой методологии, известной как многоуровневая структура для измерения доступа к энергии (Всемирный банк), которая способна охватить эти более широкие параметры качества обслуживания и позволит выйти за рамки простого ответа да / нет в оценке доступа к энергии при более усовершенствованном подходе, который учитывает различные уровни доступа к энергии, а также принимает во внимание осуществимость и надежность доступа к энергии, прямо выраженную в ЦУР-7. Методология многоуровневой системы измерения доступа к энергии, разработанная на основе широких консультаций, уже была опубликована  и представляет собой согласованную точку зрения, отражающую мнение многочисленных международных организаций, работающих в этой области. Первое Глобальное обследование доступа к энергии с использованием этой методологии уже было проведено и теперь ожидается получение результатов к началу 2017 года. Также ведутся дискуссии с Технической рабочей группой по обследованию домашних хозяйств Всемирного банка относительно включения этой методологии в стандартизированную структуру вопросника для домашних хозяйств, которая будет применяться каждые три года во всех странах с низким уровнем дохода в период с 2015 по 2030 годы в рамках более широкого мониторинга ЦУР.
+Уже достигнут существенный прогресс в разработке и апробации новой методологии, известной как многоуровневая структура для измерения доступа к энергии (Всемирный банк), которая способна охватить эти более широкие параметры качества обслуживания и позволит выйти за рамки простого ответа да / нет в оценке доступа к энергии при более усовершенствованном подходе, который учитывает различные уровни доступа к энергии, а также принимает во внимание осуществимость и надежность доступа к энергии, прямо выраженную в ЦУР-7. Методология многоуровневой системы измерения доступа к энергии, разработанная на основе широких консультаций, уже была опубликована и представляет собой согласованную точку зрения, отражающую мнение многочисленных международных организаций, работающих в этой области. Первое Глобальное обследование доступа к энергии с использованием этой методологии уже было проведено и теперь ожидается получение результатов к началу 2017 года. Также ведутся дискуссии с Технической рабочей группой по обследованию домашних хозяйств Всемирного банка относительно включения этой методологии в стандартизированную структуру вопросника для домашних хозяйств, которая будет применяться каждые три года во всех странах с низким уровнем дохода в период с 2015 по 2030 годы в рамках более широкого мониторинга ЦУР.
 
 Принятие этой методологии позволит - со временем - проводить более точные измерения доступа к энергии, что позволит получать более дезагрегированную информацию о типе электроснабжения (сетевое или автономное), мощности поставляемой электроэнергии (в ваттах) ), продолжительность поставки  (дневные и вечерние часы), надежность поставки (с точки зрения количества и продолжительности незапланированных отключений), качество обслуживания (с точки зрения колебаний напряжения), а также доступность и соответствие требованиям закона.
 
@@ -3015,10 +3062,10 @@ Disaggregation of access to electricity by rural or urban place of residence is 
     NA</translation>
           <translation lang="ru">## Обработка пропущенных значений
 
-* ** На уровне страны **
+* **На уровне страны**
 
     Учитывая низкую частоту проведения и региональное распределение некоторых обследований, в ряде стран имеются пробелы в имеющихся данных. Чтобы проследить историю развития и определить время начала роста темпов электрификации, был принят простой метод моделирования для заполнения недостающих данных - в районе 1990, 2000 и 2010 годов. Следовательно, страна может иметь от нуля до трех значений показателя. Существует 42 страны, у которых нет данных, а средневзвешенное значение по региону использовалось в качестве оценки электрификации в каждом из периодов данных. 170 стран имеют от одного до трех значений данных, а недостающие данные оцениваются с использованием модели с региональными, страновыми и временными переменными. Модель придерживается исходного наблюдения, если доступны данные за любой период времени. Этот метод моделирования позволил оценить показатели уровня электрификации для 212 стран за эти три периода времени (обозначено как «Оценка»).
-* ** На региональном и глобальном уровнях **
+* **На региональном и глобальном уровнях**
 
     Не Доступно</translation>
         </translations>
@@ -3094,7 +3141,7 @@ NA</translation>
           <translation lang="en"># Data compilers
 
 World Bank</translation>
-          <translation lang="ru">Составители данных # 
+          <translation lang="ru"># Составители данных
 
 Всемирный Банк</translation>
         </translations>
@@ -3250,9 +3297,9 @@ Account at a financial institution includes respondents who report having an acc
           <translation lang="en">## Comments and limitations
 
 World Bank’s Global Findex database is based on individual level surveys worldwide, conducted every three years. The first round of the survey was done in 2011, and the second in 2014. The third round will be done in 2017. The database covers about 140 countries.</translation>
-          <translation lang="ru">Комментарии и ограничения
+          <translation lang="ru">## Комментарии и ограничения
 
-База данных Всемирного банка Глобальный финансовый показатель основана на обследованиях, проводимых на уровне физических лиц  по всему миру каждые три года. Первый раунд обследования был проведен в 2011 году, второй – в 2014 году. Третий тур будет проведен в 2017 году. База данных охватывает около 140 стран.</translation>
+База данных Всемирного банка Глобальный финансовый показатель основана на обследованиях, проводимых на уровне физических лиц по всему миру каждые три года. Первый раунд обследования был проведен в 2011 году, второй – в 2014 году. Третий тур будет проведен в 2017 году. База данных охватывает около 140 стран.</translation>
         </translations>
       </field>
       <field id="DATA_COMP">
@@ -3262,11 +3309,11 @@ World Bank’s Global Findex database is based on individual level surveys world
 ## Computation Method
 
 The indicator is based on data collected through individual level surveys in each country with representative samples. Appropriate sampling weights are used in calculating country-level aggregates.</translation>
-          <translation lang="ru"># Методология 
+          <translation lang="ru"># Методология
 
 ## Метод вычисления
 
-Показатель основан на данных, собранных в ходе обследований, проводимых в каждой стране на уровне физических лиц  с репрезентативной выборкой. При расчете агрегированных показателей по странам используются соответствующие веса выборки.</translation>
+Показатель основан на данных, собранных в ходе обследований, проводимых в каждой стране на уровне физических лиц с репрезентативной выборкой. При расчете агрегированных показателей по странам используются соответствующие веса выборки.</translation>
         </translations>
       </field>
       <field id="DISAGGREGATION">
@@ -3330,9 +3377,9 @@ Global Findex is an individual level survey, measuring individual’s ownership 
 The indicators in the 2014 Global Financial Inclusion (Global Findex) database are drawn from survey data covering almost 150,000 people in more than 140 economies—representing more than 97 percent of the world’s population. The survey was carried out over the 2014 calendar year by Gallup, Inc. as part of its Gallup World Poll, which since 2005 has continually conducted surveys of approximately 1,000 people in each of more than 160 economies and in over 140 languages, using randomly selected, nationally representative samples. The target population is the entire civilian, noninstitutionalized population age 15 and above. 
 
 Methodology, including interview procedures, data preparation, margin of error and notes by country are all available at http://www.worldbank.org/content/dam/Worldbank/Research/GlobalFindex/PDF/Methodology.pdf</translation>
-          <translation lang="ru">Источники данных
+          <translation lang="ru"># Источники данных
 
-Описание
+## Описание
 
 Показатели базы данных «Глобальный финансовый показатель» (Global Findex) за 2014 год взяты из данных обследования, охватывающих почти 150 000 человек в более чем 140 странах, в которых проживают более 97 процентов населения мира. Обследование проводилось в течение 2014 календарного года Институтом Геллапа в рамках мирового обследования, который с 2005 года постоянно проводил обследования примерно 1000 человек в каждой из более чем 160 экономик и на более чем 140 языках, используя случайные выборки, репрезентативные на национальном уровне. Целевой группой является все гражданское, неинституционализированное население в возрасте 15 лет и старше.
 
@@ -3344,7 +3391,7 @@ Methodology, including interview procedures, data preparation, margin of error a
           <translation lang="en">## Collection process
 
 Data are comparable across countries by design.</translation>
-          <translation lang="ru">Процесс сбора
+          <translation lang="ru">## Процесс сбора
 
 Данные сопоставимы между странами по структуре.</translation>
         </translations>
@@ -3412,7 +3459,7 @@ Next collection round: 2017. Data are collected every three years.</translation>
           <translation lang="en"># Data providers
 
 n/a</translation>
-          <translation lang="ru">Поставщики данных
+          <translation lang="ru"># Поставщики данных
 
 Не определено</translation>
         </translations>
@@ -3422,7 +3469,7 @@ n/a</translation>
           <translation lang="en"># Data compilers
 
 World Bank</translation>
-          <translation lang="ru">Составители данных # 
+          <translation lang="ru"># Составители данных
 
 Всемирный Банк</translation>
         </translations>
@@ -3458,13 +3505,13 @@ www.worldbank.org</translation>
       <field id="META_PAGE">
         <translations>
           <translation lang="en">9.3.2</translation>
-          <translation lang="ru"/>
+          <translation lang="ru">9.3.2</translation>
         </translations>
       </field>
       <field id="META_LAST_UPDATE">
         <translations>
           <translation lang="en">April 2, 2018</translation>
-          <translation lang="ru"/>
+          <translation lang="ru">2 апреля 2018 года</translation>
         </translations>
       </field>
       <field id="LANGUAGE">
@@ -3482,19 +3529,19 @@ www.worldbank.org</translation>
       <field id="SDG_GOAL">
         <translations>
           <translation lang="en">Goal 9: Build resilient infrastructure, promote inclusive and sustainable industrialization and foster innovation</translation>
-          <translation lang="ru"/>
+          <translation lang="ru">Цель 9: Создание стойкой инфраструктуры, содействие всеохватной и устойчивой индустриализации и инновациям</translation>
         </translations>
       </field>
       <field id="SDG_TARGET">
         <translations>
           <translation lang="en">Target 9.3: Increase the access of small-scale industrial and other enterprises, in particular in developing countries, to financial services, including affordable credit, and their integration into value chains and markets</translation>
-          <translation lang="ru"/>
+          <translation lang="ru">Задача 9.3: расширить доступ малых промышленных и других предприятий, в частности в развивающихся странах, к финансовым услугам, включая доступное кредитование, и их интеграцию в производственно-сбытовые цепочки и рынки</translation>
         </translations>
       </field>
       <field id="SDG_INDICATOR">
         <translations>
           <translation lang="en">Indicator 9.3.2: Proportion of small-scale industries with a loan or line of credit</translation>
-          <translation lang="ru"/>
+          <translation lang="ru">Индикатор 9.3.2: Доля малых предприятий, имеющих ссуду или кредитную линию</translation>
         </translations>
       </field>
       <field id="SDG_CUSTODIAN_AGENCIES">
@@ -3504,7 +3551,11 @@ www.worldbank.org</translation>
 ## Organization(s)
 
 United Nations Industrial Development Organization (UNIDO)</translation>
-          <translation lang="ru"/>
+          <translation lang="ru"># Институциональная информация
+
+## Организация(и)
+
+Организация Объединенных Наций по промышленному развитию (ЮНИДО)</translation>
         </translations>
       </field>
       <field id="STAT_CONC_DEF">
@@ -3516,7 +3567,13 @@ United Nations Industrial Development Organization (UNIDO)</translation>
 Small-scale industrial enterprises, in the SDG framework also called “small-scale industries”, defined here for the purpose of statistical data collection and compilation refer to statistical units, generally enterprises, engaged in production of goods and services for market below a designated size class.
 
 This indicator shows the number of “small-scale industries” with an active line of credit or a loan from a financial institution in the reference year in percentage to the total number of such enterprises.</translation>
-          <translation lang="ru"/>
+          <translation lang="ru"># Концепции и определения [^1]
+
+## Определение
+
+Малые промышленные предприятия, в рамках ЦУР также называемой «малые отрасли», определяемые здесь для целей сбора и составления статистических данных, относятся к статистическим единицам, как правило, предприятиям, занимающимся производством рыночных товаров и услуг, и определяются в соответствии с ниже приведенным размером класса.
+
+Этот индикатор показывает количество «малых предприятий», имеющих активную кредитную линию или ссуду, полученную от финансового учреждения в отчетном году в процентах к общему числу таких предприятий.</translation>
         </translations>
       </field>
       <field id="RATIONALE">
@@ -3526,7 +3583,11 @@ This indicator shows the number of “small-scale industries” with an active l
 Industrial enterprises are classified to small compared to large or medium for their distinct nature of economic organization, production capability, scale of investment and other economic characteristics. “Small-scale industries” can be run with a small amount of capital, relatively unskilled labor and using local materials. Despite their small contribution to total industrial output, their role in job creation, especially in developing countries is recognized to be significant where the scope of absorbing surplus labor force from traditional sectors such as agriculture or fishery is very high. “Small-scale industries” are capable of meeting domestic demand of basic consumer goods such as food, clothes, furniture, etc. 
 
 Thus “small-scale industries” play an important role in the economy. However, it has quite limited access to financial services, especially in developing countries. In order to improve the skill of workers and technology for production, small-scale industrial enterprises require financial support in the form of preferential loan, credit etc. This indicator shows how widely financial institutions are serving the “small-scale industries”. Together with the indicator SDG 9.3.1, this indicator reflects the main message of the target 9.3 which promotes to increase the access of “small-scale industries” to financial services.</translation>
-          <translation lang="ru"/>
+          <translation lang="ru">## Обоснование
+
+Промышленные предприятия классифицируются как малые по сравнению с крупными или средними по характеру экономической организации, производственным мощностям, масштабам инвестиций и другим экономическим характеристикам. "Малые предприятия" могут работать с небольшим капиталом, относительно неквалифицированной рабочей силой и с использованием местных материалов. Несмотря на их небольшой вклад в общий объем промышленного производства, их роль в создании рабочих мест, особенно в развивающихся странах, признается значительной там, где масштабы поглощения избыточной рабочей силы из таких традиционных секторов, как сельское хозяйство или рыболовство, весьма высоки. "Малые предприятия" способны удовлетворить внутренний спрос на основные потребительские товары, такие как продукты питания, одежда, мебель и т.д.
+
+Таким образом, "малые производства" играют важную роль в экономике. Однако они имеют весьма ограниченный доступ к финансовым услугам, особенно в развивающихся странах. В целях повышения квалификации работников и технологического уровня производства малые промышленные предприятия нуждаются в финансовой поддержке в виде льготных кредитов, займов и т.д. Этот показатель показывает, насколько широко финансовые учреждения обслуживают "малые предприятия". Вместе с показателем ЦУР 9.3.1 данный показатель отражает основную идею целевой задачи 9.3, способствующей расширению доступа "малых производств" к финансовым услугам.</translation>
         </translations>
       </field>
       <field id="CLASS_SYSTEM">
@@ -3555,7 +3616,30 @@ The size of a statistical unit based on employment should be defined primarily i
 A **loan** is a financial instrument that is created when a creditor lends funds directly to a debtor and receives a nonnegotiable document as evidence of the asset. This category includes overdrafts, mortgage loans, loans to finance trade credit and advances, repurchase agreements, financial assets and liabilities created by financial leases, and claims on or liabilities to the International Monetary Fund (IMF) in the form of loans. Trade credit and advances and similar accounts payable/receivable are not loans. Loans that have become marketable in secondary markets should be reclassified under debt securities. However, if only traded occasionally, the loan is not reclassified under debt securities (IMF, 2011).
 
 **Lines of credit** and loan commitments provide a guarantee that undrawn funds will be available in the future, but no financial liability/asset exists until such funds are actually provided. Undrawn lines of credit and undisbursed loan commitments are contingent liabilities of the issuing institutions— generally, banks (IMF, 2011). A loan or line of credit refers to regulated financial institutions only.</translation>
-          <translation lang="ru"/>
+          <translation lang="ru">## Понятия
+
+В Международных рекомендациях по промышленной статистике 2008 года (IRIS 2008) (Организация Объединенных Наций, 2011 г.) **предприятие** определяется как наименьшая юридическая единица, представляющая собой организационную единицу, производящую товары или услуги. Предприятие является базовой статистической единицей, в которой ведется вся информация, относящаяся к его производственной деятельности и операциям, в том числе финансовая и балансовая отчетность. Понятие "предприятие" также используется в классификации институционального сектора в Системе национальных счетов 2008 года.
+
+**Заведение** определяется как предприятие или часть предприятия, которое расположено в одном месте и в котором осуществляется только один вид производственной деятельности или в котором на основную производственную деятельность приходится большая часть добавленной стоимости. В идеале заведение может быть определено как экономическая единица, которая осуществляет, при условии наличия единственного владельца собственности или руководителя, т.е. принадлежащего одному юридическому лицу, один или преимущественно один вид экономической деятельности в одном физическом месте. Примерами являются шахты, фабрики и мастерские. Эта идеальная концепция заведения применима ко многим ситуациям, возникающим при исследованиях в промышленности, в частности, в обрабатывающих производствах.
+
+Хотя определение заведения допускает возможность того, что в нем может осуществляться один или несколько второстепенных видов деятельности, их масштабы должны быть небольшими по сравнению с масштабом основного вида деятельности. Если второстепенная деятельность в рамках заведения так же важна или почти так же важна, как и основная деятельность, то подразделение больше похоже на местную единицу. Она должна быть отделена таким образом, чтобы второстепенная  деятельность рассматривалась как осуществляемая в рамках заведения, отделенного от заведения, в котором осуществляется основная деятельность.
+
+При рассмотрении большинства **малых предприятий**, предприятие и заведение будут идентичны. Некоторые предприятия являются крупными и сложными с различными видами экономической деятельности, осуществляемыми в различных местах. Такие предприятия должны быть разбиты на одно или несколько заведений, при условии, что можно выделить более мелкие и более однородные производственные единицы, по которым могут быть достоверно собраны данные о производственной деятельности.
+
+Как было определено в IRIS 2008 (Организация Объединенных Наций, 2011 г.), под **экономической деятельностью** понимается процесс, т.е. совокупность действий, осуществляемых определенным субъектом, который использует труд, капитал, товары и услуги для производства конкретных продуктов (товаров и услуг). В целом, промышленная статистика отражает характеристики и виды экономической деятельности единиц, занимающихся какими-либо разделами промышленной деятельности, которые определены в соответствии с Международной стандартной промышленной классификацией всех видов экономической деятельности, Пересмотр 4 (ISIC Rev.4) (Организация Объединенных Наций, 2008 г.) или Международной стандартной промышленной классификацией всех видов экономической деятельности, Пересмотр 3.1 (ISIC Rev.3) (Организация Объединенных Наций, 2002 г.).
+
+**Общее количество занятых лиц** определяется как общее количество лиц, работающих в статистической единице или на нее, независимо от того, заняты они полный или неполный рабочий день, в том числе:
+
+* Работающие в собственных предприятиях владельцы
+* Активные деловые партнеры
+* Неоплачиваемые семейные работники
+* Оплачиваемые работники (более подробную информацию см. в Организации Объединенных Наций, 2011 г.).
+
+Размер статистической единицы, устанавливаемый на основании занятости, должен определяться, главным образом, исходя из среднего количества лиц, занятых в этой единице в течение отчетного периода. В случае, если отсутствует  информация о среднем числе занятых, в качестве критерия размера можно использовать общее число занятых за какой-либо единичный период. Классификация размеров должна состоять из следующих показателей средней численности занятого населения: 1-9, 10-19, 20-49, 50-249, 250 и более. Такую разбивку следует рассматривать как минимальное разделение общего диапазона; при необходимости в рамках этой структуры следует разработать более подробные классификации.
+
+**Ссуда** - это финансовый инструмент, который создается, когда кредитор ссужает средства непосредственно заемщику и получает непереводимый документ в качестве доказательства актива. Данная категория включает овердрафты, ипотечные ссуды, ссуды для финансирования торгового кредита и авансов, соглашения о продаже с обратной покупкой, финансовые активы и обязательства, созданные финансовой арендой, а также требования или обязательства перед Международным валютным фондом (МВФ) в форме ссуд. Торговый кредит и авансы и аналогичная кредиторская/дебиторская задолженность не являются ссудами. Ссуды, ставшие ликвидными на вторичном рынке, должны быть переклассифицированы в категорию долговых ценных бумаг. Однако, если ссуда торгуется лишь изредка, он она не переклассифицируется в категорию долговых ценных бумаг (IMF, 2011).
+
+**Кредитные линии** и обязательства по предоставлению ссуд обеспечивают гарантию того, что неиспользованные средства будут доступны в будущем, однако до тех пор, пока такие средства не будут фактически предоставлены, финансовых обязательств/активов не существует. Неиспользованные кредитные линии и обязательства по неиспользованным ссудам являются условными обязательствами организаций-эмитентов - как правило, банков (МВФ, 2011 г.). Ссуда или кредитная линия относится только к регулируемым финансовым учреждениям.</translation>
         </translations>
       </field>
       <field id="REC_USE_LIM">
@@ -3565,7 +3649,11 @@ A **loan** is a financial instrument that is created when a creditor lends funds
 The main limitation of existing national data is varying size classes by country indicating that data are obtained from different target populations. Data of one country are not comparable to another. 
 
 The definition of size class in many countries is tied up with the legal and policy framework of the country. It has implications on registration procedure, taxation and different waivers aimed to promote “small-scale industries”. Therefore, countries may agree on a common size class for compilation purposes. In this context, UNIDO proposes that all countries compile the data by a size class of “small-scale industries” as with less than 20 persons employed. From such data, an internationally comparable data on the share of “small-scale industries” in total could be derived.</translation>
-          <translation lang="ru"/>
+          <translation lang="ru">## Комментарии и ограничения
+
+Основным ограничением существующих национальных данных являются различия в размерах классов по странам, что указывает на то, что данные получены из разных целевых групп. Данные одной страны несопоставимы с данными другой страны.
+
+Определение размера класса во многих странах связано с правовой и политической структурой страны. Это отражается в процедуре регистрации, налогообложении и различных отступлениях от правил, направленных на развитие «малых предприятий». В свою очередь страны могут договориться об общих размерах классов для целей составления данных. В этом контексте ЮНИДО предлагает, чтобы все страны собирали данные по классу «малых предприятий», в котором занято менее 20 человек. На основе таких данных можно получить сопоставимые на международном уровне данные о доле «малых предприятий» в общем объеме предприятий.</translation>
         </translations>
       </field>
       <field id="DATA_COMP">
@@ -3577,7 +3665,13 @@ The definition of size class in many countries is tied up with the legal and pol
 The proportion of “small-scale industries” with a loan or line of credit is calculated as the number of “small-scale industries” with an active line of credit or a loan from a financial institution in the reference year in percentage to the total number of such enterprises:
 
 (*(the number of "small-scale industries" with loan or line of credit)*/*(Total number of "small-scale industries")*)*100</translation>
-          <translation lang="ru"/>
+          <translation lang="ru"># Методология
+
+## Метод вычисления
+
+Доля "малых предприятий", имеющих ссуду или кредитную линию, рассчитывается как количество "малых предприятий", имеющих действующую кредитную линию или ссуду финансовой организации в отчетном году в процентах к общему количеству таких предприятий:
+
+(*(количество "малых предприятий", имеющих ссуду или кредитную линию)*/*(Общее количество "малых предприятий")*)*100</translation>
         </translations>
       </field>
       <field id="DISAGGREGATION">
@@ -3587,7 +3681,11 @@ The proportion of “small-scale industries” with a loan or line of credit is 
 ## Description
 
 Data were collected from the World Bank Enterprise Surveys as a pilot study on this indicator, however the preferable source of data are national statistical offices.</translation>
-          <translation lang="ru"/>
+          <translation lang="ru"># Источники данных
+
+## Описание
+
+Данные были собраны на основе "Обследований предприятий" Всемирного банка в качестве пилотного обследования по этому показателю, однако предпочтительным источником данных являются национальные статистические ведомства.</translation>
         </translations>
       </field>
       <field id="COLL_METHOD">
@@ -3610,7 +3708,24 @@ Medium | 20 to 99
 Large | more than 99
 
 The survey also defines an enterprise with female ownership as an enterprise having at least one female owner, and female-managed is measured by whether the top manager is a woman.</translation>
-          <translation lang="ru"/>
+          <translation lang="ru">## Процесс сбора
+
+Одним из основных источников данных по этому показателю в настоящее время является Обследование предприятий, проводимое Всемирным банком, которое охватывает формальный сектор и содержит данные только по малым и средним предприятиям (с численностью 5 и более работников).  В некоторых странах проводятся и имеются результаты на страновом уровне дополнительных обследований, включая неофициальные обследования незарегистрированных предприятий и/или микрообследования зарегистрированных фирм с числом работников менее пяти человек.
+
+Обследование предприятий проводится на основе репрезентативной выборки предприятий частного сектора. Обследования охватывают широкий спектр тем, связанных с деловой средой, включая доступ к финансам, коррупцией, инфраструктурой, преступностью, конкуренцией и показателями эффективности. С 2002 года Всемирный банк собирает эти данные в ходе личных бесед с топ-менеджерами и владельцами предприятий в более чем 130 000 компаний в 135 странах мира.
+
+Обследования проводятся с 2002 года различными подразделениями Всемирного банка. Начиная с 2005-06 годов, большая часть усилий по сбору данных была централизована в рамках Отдела корпоративного анализа. Данные за 2006 год и и последующие годы сопоставимы по странам. Наборы исходных данных по отдельным странам, агрегированные наборы данных (по странам и годам), наборы панельных данных и вся соответствующая документация по обследованиям находятся в открытом доступе на веб-сайте Обследования предприятий.
+
+Индикатор использует простую формулу процентного взвешивания, где весами являются веса выборки. Стратами для обследования предприятий являются размер фирмы, сектор производственной деятельности и географический регион страны. Обследования предприятий позволяют получить показатели, охватывающие обрабатывающую промышленность и сферу услуг. Доля "малых предприятий", имеющих ссуду или кредитную линию только на цели обрабатывающей промышленности, может быть определена на основании микроданных.
+Предприятия классифицируются как малые, средние или крупные в зависимости от количества занятых следующим образом:
+
+Размер предприятия |Количество занятых
+---|---
+Малое | 5-19
+Среднее | 20 - 99
+Большое | более 99
+
+Обследование также определяет предприятие, находящееся в собственности женщин как предприятие, на котором имеется по крайней мере одна женщина-владелец, а предприятием, управляемым женщиной, считается предприятие, в котором женщина является топ-менеджером.</translation>
         </translations>
       </field>
       <field id="DATA_AVAILABILITY">
@@ -3620,7 +3735,11 @@ The survey also defines an enterprise with female ownership as an enterprise hav
 ## Description
 
 Data for around 130 economies were collected.</translation>
-          <translation lang="ru"/>
+          <translation lang="ru"># Наличие данных
+
+## Описание
+
+Были собраны данные примерно по 130 странам.</translation>
         </translations>
       </field>
       <field id="SDG_SERIES_DESCR">
@@ -3628,13 +3747,15 @@ Data for around 130 economies were collected.</translation>
           <translation lang="en">## Time series
 
 Surveys are implemented every year in around 20 countries.</translation>
-          <translation lang="ru"/>
+          <translation lang="ru">## Временные ряды
+
+Обследования проводятся ежегодно примерно в 20 странах.</translation>
         </translations>
       </field>
       <field id="FREQ_COLL">
         <translations>
           <translation lang="en">Data frequency for each country is around 4 years.</translation>
-          <translation lang="ru"/>
+          <translation lang="ru">Периодичность данных для каждой страны составляет около 4 лет.</translation>
         </translations>
       </field>
       <field id="DATA_SOURCE">
@@ -3642,7 +3763,9 @@ Surveys are implemented every year in around 20 countries.</translation>
           <translation lang="en"># Data providers
 
 World Bank Enterprise Surveys</translation>
-          <translation lang="ru"/>
+          <translation lang="ru"># Поставщики данных
+
+Обследования предприятий Всемирного банка</translation>
         </translations>
       </field>
       <field id="COMPILING_ORG">
@@ -3650,13 +3773,15 @@ World Bank Enterprise Surveys</translation>
           <translation lang="en"># Data compilers
 
 United Nations Industrial Development Organization (UNIDO)</translation>
-          <translation lang="ru"/>
+          <translation lang="ru"># Составители данных
+
+Организация Объединенных Наций по промышленному развитию (ЮНИДО)</translation>
         </translations>
       </field>
       <field id="FOOTNOTE_1">
         <translations>
           <translation lang="en">[^1]:  Some of the text on concepts and definition may be identical to Metadata submitted for Indicators 9.3.1.</translation>
-          <translation lang="ru"/>
+          <translation lang="ru">[^1]:  Частично описание  понятий и определений может совпадать с метаданными, представленными по показателям 9.3.1.</translation>
         </translations>
       </field>
     </fields>
