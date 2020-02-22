@@ -1,6 +1,7 @@
 ---
 layout: single
 title: Developers
+permalink: /developers/
 ---
 This page contains technical information relevant to developers looking to use the metadata contained in this project.
 
