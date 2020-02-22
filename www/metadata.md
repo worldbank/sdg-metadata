@@ -8,7 +8,7 @@ The SDG metadata is currently available in the following languages:
   {% for language in site.data.all %}
   {% assign langcode = language[0] %}
   <li>
-    <a class="btn btn--info" href="{{ langcode }}">{{ site.languages[langcode] }}</a>
+    <a class="btn btn--info" href="{{ site.baseurl }}/metadata/{{ langcode }}">{{ site.languages[langcode] }}</a>
   </li>
   {% endfor %}
 </ul>
