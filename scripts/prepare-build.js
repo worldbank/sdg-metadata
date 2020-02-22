@@ -137,8 +137,9 @@ for (const indicatorId of indicatorIds) {
 // All translations of all fields in all indicators.
 message = 'All translations of all fields in all indicators'
 writeJson('all', translations, [], message)
-// We also need to put this file in www/_data for Jekyll to use.
+// We also need to put some files in www/_data for Jekyll to use.
 fs.writeFileSync(path.join(destinationFolder, '_data', 'all.json'), JSON.stringify(translations), 'utf8')
+fs.writeFileSync(path.join(destinationFolder, '_data', 'fields.json'), JSON.stringify(fieldOrder), 'utf8')
 
 // Start generating the XML document.
 const indicators = builder.create('indicators')
