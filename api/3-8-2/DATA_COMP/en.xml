@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<status>success</status>
+	<message>The DATA_COMP field for indicator 3-8-2, translated into en</message>
+	<data># Methodology
+
+## Computation Method
+
+Population weighted average number of people with large household expenditure on health as a share of total household expenditure or income
+
+&lt;math&gt;
+  &lt;mfrac&gt;
+    &lt;mrow&gt;
+      &lt;msub&gt;
+        &lt;mi&gt;∑&lt;/mi&gt;
+        &lt;mi&gt;&lt;/mi&gt;
+      &lt;/msub&gt;
+      &lt;msub&gt;
+        &lt;mi&gt;&lt;/mi&gt;
+        &lt;mi&gt;&lt;/mi&gt;
+      &lt;/msub&gt;
+      &lt;msub&gt;
+        &lt;mi&gt;&lt;/mi&gt;
+        &lt;mi&gt;&lt;/mi&gt;
+      &lt;/msub&gt;
+      &lt;mn&gt;1&lt;/mn&gt;
+      &lt;mo&gt;(&lt;/mo&gt;
+      &lt;mfrac&gt;
+        &lt;mtext&gt;health expenditure of the household i&lt;/mtext&gt;
+        &lt;mtext&gt;total expenditure of the househould i&lt;/mtext&gt;
+      &lt;/mfrac&gt;
+      &lt;mo&gt;&amp;gt;&lt;/mo&gt;
+      &lt;mi&gt;&lt;/mi&gt;
+      &lt;mo&gt;)&lt;/mo&gt;
+    &lt;/mrow&gt;
+    &lt;mrow&gt;
+      &lt;msub&gt;
+        &lt;mi&gt;∑&lt;/mi&gt;
+        &lt;mi&gt;&lt;/mi&gt;
+      &lt;/msub&gt;
+      &lt;msub&gt;
+        &lt;mi&gt;&lt;/mi&gt;
+        &lt;mi&gt;&lt;/mi&gt;
+      &lt;/msub&gt;
+      &lt;msub&gt;
+        &lt;mi&gt;&lt;/mi&gt;
+        &lt;mi&gt;&lt;/mi&gt;
+      &lt;/msub&gt;
+    &lt;/mrow&gt;
+  &lt;/mfrac&gt;
+&lt;/math&gt;
+
+where ** denotes a household, *1()* is the indicator function that takes on the value 1 if the bracketed expression is true, and 0 otherwise, m&lt;sub&gt;&lt;/sub&gt; corresponds to the number of household members of **, ω&lt;sub&gt;&lt;/sub&gt; corresponds to the sampling weight of household **, τ is a threshold identifying large household expenditure on health as a share of total household consumption or income (i.e. 10% and 25%).
+
+Household health expenditure and household expenditure or income are defined as explained in the “concept” section. For more information about the methodology please refer to Wagstaff et al (2018) and chapter 2 in the WHO and World Bank 2017 report on tracking universal health coverage.</data>
+</root>

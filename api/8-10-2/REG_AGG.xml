@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<status>success</status>
+	<message>The REG_AGG field for indicator 8-10-2, translated into all languages</message>
+	<data>
+		<languages>
+			<language lang="en">## Regional aggregates
+
+Country level; the percentage of adults owning accounts is multiplied by the number of adults in the country. Then for regional values, sum across all countries in the region is taken and divided by the total adults living in the region. Similarly, for global figures, the same calculation is repeated for all countries.
+			</language>
+			<language lang="ru">## Региональные агрегаты
+
+Уровень страны; процент взрослых, владеющих счетами, умножается на количество взрослых в стране. Затем для региональных значений берется сумма по всем странам региона и делится на общее количество взрослых, проживающих в регионе. Аналогичным образом, для глобальных данных один и тот же расчет повторяется для всех стран.
+			</language>
+</languages>
+</data>
+</root>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<status>success</status>
+	<message>The DATA_COMP field for indicator 1-2-1, translated into all languages</message>
+	<data>
+		<languages>
+			<language lang="en"># Methodology
+
+## Computation Method
+
+The formula for calculating the proportion of the total, urban and rural population living below the national poverty line, or headcount index, is as follows:
+
+&lt;math&gt;
+  &lt;munder&gt;
+    &lt;mrow&gt;
+      &lt;msub&gt;
+        &lt;mi&gt;P&lt;/mi&gt;
+        &lt;mn&gt;0&lt;/mn&gt;
+      &lt;/msub&gt;
+      &lt;mo&gt;=&lt;/mo&gt;
+      &lt;mfrac&gt;
+        &lt;mn&gt;1&lt;/mn&gt;
+        &lt;mi&gt;N&lt;/mi&gt;
+      &lt;/mfrac&gt;
+      &lt;munderover&gt;
+        &lt;mo&gt;∑&lt;/mo&gt;
+        &lt;mi&gt;i&lt;/mi&gt;
+        &lt;mi&gt;N&lt;/mi&gt;
+      &lt;/munderover&gt;
+      &lt;mi&gt;I&lt;/mi&gt;
+      &lt;mo&gt;(&lt;/mo&gt;
+      &lt;msub&gt;
+        &lt;mi&gt;y&lt;/mi&gt;
+        &lt;mi&gt;i&lt;/mi&gt;
+      &lt;/msub&gt;
+      &lt;mo&gt;&amp;lt;&lt;/mo&gt;
+      &lt;mi&gt;z&lt;/mi&gt;
+      &lt;mo&gt;)&lt;/mo&gt;
+      &lt;mo&gt;=&lt;/mo&gt;
+      &lt;mfrac&gt;
+        &lt;msub&gt;
+          &lt;mi&gt;N&lt;/mi&gt;
+          &lt;mi&gt;p&lt;/mi&gt;
+        &lt;/msub&gt;
+        &lt;mi&gt;N&lt;/mi&gt;
+      &lt;/mfrac&gt;
+    &lt;/mrow&gt;
+    &lt;mrow&gt;
+      &lt;mo&gt;=&lt;/mo&gt;
+      &lt;mn&gt;1&lt;/mn&gt;
+    &lt;/mrow&gt;
+  &lt;/munder&gt;
+&lt;/math&gt;
+
+Where *I*(.) is an indicator function that takes on a value of 1 if the bracketed expression is true, and 0 otherwise. If individual consumption or income *y*&lt;sub&gt;i&lt;/sub&gt; is less than the national poverty line *z* (for example, in absolute terms the line could be the price of a consumption bundle or in relative terms a percentage of the income distribution), then *I*(.) is equal to 1 and the individual is counted as poor. *N*&lt;sub&gt;p&lt;/sub&gt; is the total, urban or rural number of poor. *N* is the total, urban or rural population.
+
+Consumption or income data are gathered from nationally representative household surveys, which contain detailed responses to questions regarding spending habits and sources of income. Consumption, including consumption from own production, or income is calculated for the entire household. In some cases, an “effective” household size is calculated from the actual household size to reflect assumed efficiencies in consumption; adjustments may also be made to reflect the number of children in a household. The number of people in those households is aggregated to estimate the number of poor persons.
+
+National poverty rates use a country specific poverty line, reflecting the country’s economic and social circumstances. In some case, the national poverty line is adjusted for different areas (such as urban and rural) within the country, to account for differences in prices or the availability of goods and services. Typically the urban poverty line is set higher than the rural poverty line; reflecting the relatively higher costs of living in urban areas.
+			</language>
+			<language lang="ru"># Методология
+
+## Метод Вычисления
+
+Формула для расчета удельный вес от общего, городского и сельского населения, живущего ниже национальной черты бедности, или индекс численности персонала, выглядит следующим образом:
+
+&lt;math&gt;
+  &lt;munder&gt;
+    &lt;mrow&gt;
+      &lt;msub&gt;
+        &lt;mi&gt;P&lt;/mi&gt;
+        &lt;mn&gt;0&lt;/mn&gt;
+      &lt;/msub&gt;
+      &lt;mo&gt;=&lt;/mo&gt;
+      &lt;mfrac&gt;
+        &lt;mn&gt;1&lt;/mn&gt;
+        &lt;mi&gt;N&lt;/mi&gt;
+      &lt;/mfrac&gt;
+      &lt;munderover&gt;
+        &lt;mo&gt;∑&lt;/mo&gt;
+        &lt;mi&gt;i&lt;/mi&gt;
+        &lt;mi&gt;N&lt;/mi&gt;
+      &lt;/munderover&gt;
+      &lt;mi&gt;I&lt;/mi&gt;
+      &lt;mo&gt;(&lt;/mo&gt;
+      &lt;msub&gt;
+        &lt;mi&gt;y&lt;/mi&gt;
+        &lt;mi&gt;i&lt;/mi&gt;
+      &lt;/msub&gt;
+      &lt;mo&gt;&amp;lt;&lt;/mo&gt;
+      &lt;mi&gt;z&lt;/mi&gt;
+      &lt;mo&gt;)&lt;/mo&gt;
+      &lt;mo&gt;=&lt;/mo&gt;
+      &lt;mfrac&gt;
+        &lt;msub&gt;
+          &lt;mi&gt;N&lt;/mi&gt;
+          &lt;mi&gt;p&lt;/mi&gt;
+        &lt;/msub&gt;
+        &lt;mi&gt;N&lt;/mi&gt;
+      &lt;/mfrac&gt;
+    &lt;/mrow&gt;
+    &lt;mrow&gt;
+      &lt;mo&gt;=&lt;/mo&gt;
+      &lt;mn&gt;1&lt;/mn&gt;
+    &lt;/mrow&gt;
+  &lt;/munder&gt;
+&lt;/math&gt;
+
+Где *I*(.) - функция показателя, который принимает значение 1, если выражение в скобках верно, и 0 в противном случае. Если индивидуальное потребление или доход *y*&lt;sub&gt;i&lt;/sub&gt; меньше, чем национальный уровень бедности *z* (например, в абсолютном выражении уровнем может быть цена потребления пачке или в относительном выражении процент распределения доходов), то *i*(.) равна 1 и индивид считается бедным. *N*&lt;sub&gt;Р&lt;/sub&gt; является общим, городским и сельским количеством бедных. *N* - общее, городское или сельское население.
+
+Данные о потреблении или доходе получаются из репрезентативных обследований домашних хозяйств, которые содержат подробные ответы на вопросы, касающиеся привычных расходов и источников доходов. Потребление, включая потребление продукции собственного производства, или доход рассчитывается для всего домохозяйства. В некоторых случаях, “эффективный” размер домохозяйства рассчитывается исходя из фактического размера домохозяйства, чтобы отразить предполагаемую эффективность в потреблении; корректировки могут быть сделаны с учетом количества детей в домохозяйстве. Количество людей в этих домохозяйствах агрегируется, чтобы оценить количество бедных людей.
+
+Национальные уровни бедности используют конкретные страновые уровни бедности, отражающие экономическую и социальную ситуации в стране. В некоторых случаях, национальный уровень бедности корректируется для различных областей страны ( как городских, так и сельских), с учетом разницы в ценах и доступности товаров и услуг. Обычно уровень бедности находится выше черты бедности в сельской местности; отражая сравнительно высокую стоимостью жизни в городских районах.
+			</language>
+</languages>
+</data>
+</root>

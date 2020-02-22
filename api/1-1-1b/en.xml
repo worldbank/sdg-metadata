@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<status>success</status>
+	<message>All metadata fields for the indicator 1-1-1b, translated into en</message>
+	<data>1.1.1B
+
+March 2019
+
+ENG
+
+NA
+
+Goal 1: End poverty in all its forms everywhere
+
+Target 1.1: By 2030, eradicate extreme poverty for all people everywhere, currently measured as people living on less than $1.25 a day
+
+Indicator 1.1.1: Proportion of population below the international poverty line, by sex, age, employment status and geographical location (urban/rural)
+
+# Institutional Information
+
+## Organization{s)
+
+ILO
+
+# Concepts and definitions
+
+## Definition
+
+The proportion of the employed population below the international poverty line of US$1.90 per day, also referred to as the working poverty rate, is defined as the share of employed persons living in households with per-capita consumption or income that is below the international poverty line of US$1.90.
+
+## Rationale
+
+The concept of working poverty is captured by combining poverty status with employment status, which aims to measure how many workers, despite being in employment, live in poverty. The proportion of working poor in total employment (that is, the working poverty rate) combines data on household income or consumption with labour force framework variables measured at the individual level and sheds light on the relationship between household poverty and employment.
+
+## Concepts
+
+Employed persons: All persons of working age who, during a short reference period such as a day or a week, performed work for others in exchange for pay or profit.
+
+Poverty Line: Threshold below which individuals in the reference population are considered poor and above which they are considered non-poor. The threshold is generally defined as the per-capita monetary requirements an individual needs to afford the purchase of a basic bundle of goods and services. For the purposes of this indicator, an absolute international poverty line of US$1.90 per day is used.
+
+Household in poverty: Households are defined as poor if their income or consumption expenditure is below the poverty line taking into account the number of household members and composition (e.g., number of adults and children).
+
+Working poor: Employed persons living in households that are classified as poor, that is, that have income or consumption levels below the poverty line used for measurement.
+
+## Comments and limitations
+
+At the country level, comparisons over time may be affected by such factors as changes in survey types or data collection methods. The use of PPPs rather than market exchange rates ensures that differences in price levels across countries are taken into account. However, it cannot be categorically asserted that two people in two different countries, living below US$1.90 a day at PPP, face the same degree of deprivation or have the same degree of need.
+
+Poverty in the context of this indicator is a concept that is applied to households, and not to individuals. Based on the assumption that households pool their income, the question asked is whether a household’s total income is sufficient to ensure that it isn’t classified as being in poverty. The poverty status of a household is therefore a function of the wage and other employment-related income secured by those household members who work (plus any non-employment-related income such as transfer payments) and the number of household members. Whether a worker is counted as working poor therefore depends on his or her own income, the income of other household members and the number of household members – for example, children – who need to be supported. It is thus often valuable to study household structure in relation to working poverty. For example, it may be relevant for some countries to assess the differences in working poverty rates between persons living in households whose members are unrelated individuals from those whose members are related.
+
+# Methodology
+
+## Computation method
+
+&lt;math&gt;
+  &lt;mi&gt;Working poverty rate&lt;/mi&gt;
+  &lt;mo&gt;=&lt;/mo&gt;
+  &lt;mfrac&gt;
+    &lt;mi&gt;Employed persons living on less than US$1.90 a day&lt;/mi&gt;
+    &lt;mi&gt;Total employment&lt;/mi&gt;
+  &lt;/mfrac&gt;
+  &lt;mo&gt;&amp;times;&lt;/mo&gt;
+  &lt;mn&gt;100&lt;/mn&gt;
+&lt;/math&gt;
+
+## Disaggregation
+
+The working poverty rate (proportion of employed persons living in poverty) is disaggregated by sex and age.
+
+## Treatment of missing values
+
+* **At country level**
+* **At the regional and global levels**
+
+## Regional aggregates
+
+The ILO produces global and regional estimates of employment by economic class (and thus, of working poverty rates) using the ILO’s Employment by Class (EbyC) model. These estimates are part of the ILO Estimates and Projections series, analysed in the ILO&apos;s World Employment and Social Outlook reports. For more information, on the model used to derive these estimates, refer to the ILO paper “Employment and economic class in the developing world” (Kapsos and Bourmpoula, 2013), available at &lt;http://www.ilo.org/wcmsp5/groups/public/---dgreports/---inst/documents/publication/wcms_216451.pdf&gt;.
+
+## Sources of discrepancies
+
+## Methods and guidance available to countries for the compilation of the data at the national level
+
+## Quality assurance
+
+# Data sources
+
+## Description
+
+The preferred data source is a household survey with variables that can identify both the poverty status of households and give information on the economic activity of the household’s members. Examples include household income and expenditure surveys (HIES), living standards measurement surveys (LSMS) with employment modules, or labour force surveys (LFS) that collect information on household income. Such surveys offer the benefit of allowing the employment status and income (or consumption expenditure) variables to be derived from the same sampled households ideally for the same observation period.
+
+Employment estimates derived from a household survey other than a labour force survey may however, not be the most robust due to questionnaire design and sampling issues. Similarly, a labour force survey may not be the best instrument for collecting household income or consumption expenditure data given that its survey design typically targets the unemployment rate as the headline indicator, although an attached income module can be designed to achieve statistically reliable results, including ensuring an overlap in the observation period between household income (or consumption expenditure) and employment status. Another possibility is to combine data from a household income and expenditure survey and from a separate labour force survey when the respondent households can be matched and consistency in the long observation period between the surveys can be obtained.
+
+## Collection process
+
+# Data availability
+
+## Description
+
+## Time series
+
+# Calendar
+
+## Data collection
+
+## Data release
+
+# Data providers
+
+Mainly National Statistical Offices.
+
+# Data compilers
+
+ILO
+
+## References
+
+* Decent Work and the Sustainable Development Goals: A Guidebook on SDG Labour Market Indicators (ILO) https://www.ilo.org/stat/Publications/WCMS_647109/lang--en/index.htm.
+* ILOSTAT (www.ilo.org/ilostat).Employment and economic class in the developing world (Kapsos and Bourmpoula, 2013) http://www.ilo.org/wcmsp5/groups/public/---dgreports/---inst/documents/publication/wcms_216451.pdf.
+* Decent Work Indicators Manual http://www.ilo.org/wcmsp5/groups/public/---dgreports/---integration/documents/publication/wcms_229374.pdf (second version, page 70).
+
+# Related indicators
+
+</data>
+</root>

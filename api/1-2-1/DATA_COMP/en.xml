@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<status>success</status>
+	<message>The DATA_COMP field for indicator 1-2-1, translated into en</message>
+	<data># Methodology
+
+## Computation Method
+
+The formula for calculating the proportion of the total, urban and rural population living below the national poverty line, or headcount index, is as follows:
+
+&lt;math&gt;
+  &lt;munder&gt;
+    &lt;mrow&gt;
+      &lt;msub&gt;
+        &lt;mi&gt;P&lt;/mi&gt;
+        &lt;mn&gt;0&lt;/mn&gt;
+      &lt;/msub&gt;
+      &lt;mo&gt;=&lt;/mo&gt;
+      &lt;mfrac&gt;
+        &lt;mn&gt;1&lt;/mn&gt;
+        &lt;mi&gt;N&lt;/mi&gt;
+      &lt;/mfrac&gt;
+      &lt;munderover&gt;
+        &lt;mo&gt;∑&lt;/mo&gt;
+        &lt;mi&gt;i&lt;/mi&gt;
+        &lt;mi&gt;N&lt;/mi&gt;
+      &lt;/munderover&gt;
+      &lt;mi&gt;I&lt;/mi&gt;
+      &lt;mo&gt;(&lt;/mo&gt;
+      &lt;msub&gt;
+        &lt;mi&gt;y&lt;/mi&gt;
+        &lt;mi&gt;i&lt;/mi&gt;
+      &lt;/msub&gt;
+      &lt;mo&gt;&amp;lt;&lt;/mo&gt;
+      &lt;mi&gt;z&lt;/mi&gt;
+      &lt;mo&gt;)&lt;/mo&gt;
+      &lt;mo&gt;=&lt;/mo&gt;
+      &lt;mfrac&gt;
+        &lt;msub&gt;
+          &lt;mi&gt;N&lt;/mi&gt;
+          &lt;mi&gt;p&lt;/mi&gt;
+        &lt;/msub&gt;
+        &lt;mi&gt;N&lt;/mi&gt;
+      &lt;/mfrac&gt;
+    &lt;/mrow&gt;
+    &lt;mrow&gt;
+      &lt;mo&gt;=&lt;/mo&gt;
+      &lt;mn&gt;1&lt;/mn&gt;
+    &lt;/mrow&gt;
+  &lt;/munder&gt;
+&lt;/math&gt;
+
+Where *I*(.) is an indicator function that takes on a value of 1 if the bracketed expression is true, and 0 otherwise. If individual consumption or income *y*&lt;sub&gt;i&lt;/sub&gt; is less than the national poverty line *z* (for example, in absolute terms the line could be the price of a consumption bundle or in relative terms a percentage of the income distribution), then *I*(.) is equal to 1 and the individual is counted as poor. *N*&lt;sub&gt;p&lt;/sub&gt; is the total, urban or rural number of poor. *N* is the total, urban or rural population.
+
+Consumption or income data are gathered from nationally representative household surveys, which contain detailed responses to questions regarding spending habits and sources of income. Consumption, including consumption from own production, or income is calculated for the entire household. In some cases, an “effective” household size is calculated from the actual household size to reflect assumed efficiencies in consumption; adjustments may also be made to reflect the number of children in a household. The number of people in those households is aggregated to estimate the number of poor persons.
+
+National poverty rates use a country specific poverty line, reflecting the country’s economic and social circumstances. In some case, the national poverty line is adjusted for different areas (such as urban and rural) within the country, to account for differences in prices or the availability of goods and services. Typically the urban poverty line is set higher than the rural poverty line; reflecting the relatively higher costs of living in urban areas.</data>
+</root>
