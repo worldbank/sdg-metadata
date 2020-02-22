@@ -5,6 +5,14 @@ module SdgMetadataPlugins
     safe true
     priority :normal
 
+    def get_field_content(content, field_name)
+      if content != ''
+        return "\n\n" + content
+      else
+        return "\n\n**" + field_name + " is not yet translated.**"
+      end
+    end
+
     def generate(site)
       base = site.source
 
@@ -19,7 +27,7 @@ module SdgMetadataPlugins
           toc = site.data['fields'][indicator].map {|k| '<a href="#' + k + '">' + k + '</a>'}
           toc = toc.join('<br>')
 
-          content = site.data['fields'][indicator].map {|k| '<a name="' + k + '"></a>' + "\n" + indicator_fields[k] }
+          content = site.data['fields'][indicator].map {|k| '<a name="' + k + '"></a>' + get_field_content(indicator_fields[k], k) }
           content = content.join("\n\n")
 
           # This provides some data for the benefit of the Minimal Mistakes theme.
