@@ -1,6 +1,7 @@
 ---
 layout: single
 title: Metadata
+permalink: /metadata
 ---
 The SDG metadata is currently available in the following languages:
 
