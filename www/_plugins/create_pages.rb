@@ -14,8 +14,22 @@ module SdgMetadataPlugins
           dir = File.join('metadata', language, indicator) + '/'
           layout = 'indicator'
           title = 'Indicator: ' + indicator
-          content = indicator_fields['full']
           data = {'slug' => indicator}
+
+          toc = site.data['fields'][indicator].map {|k| '<a href="#' + k + '">' + k + '</a>'}
+          toc = toc.join('<br>')
+
+          content = site.data['fields'][indicator].map {|k| '<a name="' + k + '"></a>' + "\n" + indicator_fields[k] }
+          content = content.join("\n\n")
+
+          # This provides some data for the benefit of the Minimal Mistakes theme.
+          data['sidebar'] = [
+            {
+              'title' => 'Fields',
+              'text' => toc
+            }
+          ]
+
           site.pages << SdgMetadataPage.new(site, base, dir, layout, title, content, language, data)
         end
       end
