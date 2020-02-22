@@ -4,6 +4,7 @@ const path = require('path')
 const YAML = require('yaml')
 const os = require('os')
 const builder = require('xmlbuilder')
+const jsontoxml = require('jsontoxml')
 
 const baseFolder = 'translations'
 const destinationFolder = 'www'
@@ -21,7 +22,7 @@ function createFolder(folderParts) {
 }
 
 // Write data to a json file.
-function writeJson(fileName, data, folderParts=[], message) {
+function writeJson(fileName, data, folderParts, message) {
     const payload = {
         status: 'success',
         message: message,
@@ -32,6 +33,26 @@ function writeJson(fileName, data, folderParts=[], message) {
     const folderPath = createFolder(folderParts)
     const filePath = path.join(folderPath, fileName + '.json')
     fs.writeFileSync(filePath, JSON.stringify(payload), 'utf8')
+}
+
+// Write data to an XML file.
+function writeXml(fileName, data, folderParts, message) {
+    const payload = {
+        root: {
+            status: 'success',
+            message: message,
+            data: data,
+        }
+    }
+    folderParts.unshift('api')
+    folderParts.unshift(destinationFolder)
+    const folderPath = createFolder(folderParts)
+    const filePath = path.join(folderPath, fileName + '.xml')
+    fs.writeFileSync(filePath, jsontoxml(payload, {
+        escape: true,
+        xmlHeader: true,
+        prettyPrint: true,
+    }), 'utf8')
 }
 
 const languages = ['en', 'ru']
@@ -76,17 +97,38 @@ for (const language of languages) {
     }
 }
 
+let fileName, message
+
 // Path: /api/indicators.json
 // An array of indicator ids.
+fileName = 'indicators'
+jsonData = indicatorIds
 message = 'An array of indicator ids'
-writeJson('indicators', indicatorIds, [], message)
+writeJson(fileName, indicatorIds, [], message)
+const indicatorIdsXml = {
+    indicators: indicatorIds.map(o => Object.assign({
+        name: 'indicator',
+        attrs: {id: o},
+        children: o,
+    }))
+}
+writeXml(fileName, indicatorIdsXml, [], message)
 
 // Path: /api/[indicator id]/fields.json
 // An array of field names for that indicator.
 for (const indicatorId of indicatorIds) {
-    const fields = fieldOrder[indicatorId]
+    fileName = 'fields'
     message = 'An array of field names for indicator ' + indicatorId
-    writeJson('fields', fields, [indicatorId], message)
+    writeJson(fileName, fieldOrder[indicatorId], [indicatorId], message)
+    const fieldsXml = {
+        fields: fieldOrder[indicatorId].map(o => Object.assign({
+            name: 'field',
+            attrs: {id: o},
+            children: o,
+
+        }))
+    }
+    writeXml(fileName, fieldsXml, [indicatorId], message)
 }
 
 // Path: /api/[indicator id].json
@@ -96,16 +138,27 @@ for (const indicatorId of indicatorIds) {
     for (const language of languages) {
         fullIndicatorInAllLanguages[language] = translations[language][indicatorId]['full']
     }
+    fileName = indicatorId
     message = 'All metadata fields for indicator ' + indicatorId + ', translated into all languages'
-    writeJson(indicatorId, fullIndicatorInAllLanguages, [], message)
+    writeJson(fileName, fullIndicatorInAllLanguages, [], message)
+    const fullIndicatorInAllLanguagesXml = {
+        languages: Object.entries(fullIndicatorInAllLanguages).map(o => Object.assign({
+            name: 'language',
+            attrs: {lang: o[0]},
+            children: o[1],
+        }))
+    }
+    writeXml(fileName, fullIndicatorInAllLanguagesXml, [], message)
 }
 
 // Path: /api/[indicator id]/[language].json
 // Concatenation of all fields translated in that language
 for (const indicatorId of indicatorIds) {
     for (const language of languages) {
+        fileName = language
         message = 'All metadata fields for the indicator ' + indicatorId + ', translated into ' + language
-        writeJson(language, translations[language][indicatorId]['full'], [indicatorId], message)
+        writeJson(fileName, translations[language][indicatorId]['full'], [indicatorId], message)
+        writeXml(fileName, translations[language][indicatorId]['full'], [indicatorId], message)
     }
 }
 
@@ -117,8 +170,17 @@ for (const indicatorId of indicatorIds) {
         for (const language of languages) {
             translationsForField[language] = translations[language][indicatorId][field]
         }
+        fileName = field
         message = 'The ' + field + ' field for indicator ' + indicatorId + ', translated into all languages'
-        writeJson(field, translationsForField, [indicatorId], message)
+        writeJson(fileName, translationsForField, [indicatorId], message)
+        const translationsForFieldXml = {
+            languages: Object.entries(translationsForField).map(o => Object.assign({
+                name: 'language',
+                attrs: {lang: o[0]},
+                children: o[1],
+            }))
+        }
+        writeXml(fileName, translationsForFieldXml, [indicatorId], message)
     }
 }
 
@@ -127,20 +189,45 @@ for (const indicatorId of indicatorIds) {
 for (const indicatorId of indicatorIds) {
     for (const field of fieldOrder[indicatorId]) {
         for (const language of languages) {
+            fileName = language
             message = 'The ' + field + ' field for indicator ' + indicatorId + ', translated into ' + language
-            writeJson(language, translations[language][indicatorId][field], [indicatorId, field], message)
+            writeJson(fileName, translations[language][indicatorId][field], [indicatorId, field], message)
+            writeXml(fileName, translations[language][indicatorId][field], [indicatorId, field], message)
         }
     }
 }
 
 // Path: /api/all.json
 // All translations of all fields in all indicators.
+fileName = 'all'
 message = 'All translations of all fields in all indicators'
-writeJson('all', translations, [], message)
-// We also need to put this file in www/_data for Jekyll to use.
-fs.writeFileSync(path.join(destinationFolder, '_data', 'all.json'), JSON.stringify(translations), 'utf8')
+writeJson(fileName, translations, [], message)
+const translationsXml = {
+    languages: Object.entries(translations).map(oLang => Object.assign({
+        name: 'language',
+        attrs: {lang: oLang[0]},
+        children: {
+            indicators: Object.entries(oLang[1]).map(oIndicator => Object.assign({
+                name: 'indicator',
+                attrs: {id: oIndicator[0]},
+                children: {
+                    fields: Object.entries(oIndicator[1]).map(oField => Object.assign({
+                        name: 'field',
+                        attrs: {id: oField[0]},
+                        children: oField[1],
+                    })),
+                },
+            })),
+        },
+    })),
+}
+writeXml(fileName, translationsXml, [], message)
 
-// Start generating the XML document.
+// We also need to put some files in www/_data for Jekyll to use.
+fs.writeFileSync(path.join(destinationFolder, '_data', 'all.json'), JSON.stringify(translations), 'utf8')
+fs.writeFileSync(path.join(destinationFolder, '_data', 'fields.json'), JSON.stringify(fieldOrder), 'utf8')
+
+// Generate an alternate XML structure for feedback.
 const indicators = builder.create('indicators')
 
 for (const indicatorId of indicatorIds) {
@@ -170,4 +257,4 @@ if (!fs.existsSync(destinationFolder)) {
     fs.mkdirSync(destinationFolder);
 }
 
-fs.writeFileSync(path.join(destinationFolder, 'api', 'all.xml'), xml, 'utf8')
+fs.writeFileSync(path.join(destinationFolder, 'api', 'all-alternate.xml'), xml, 'utf8')

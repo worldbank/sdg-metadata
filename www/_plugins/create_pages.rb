@@ -5,6 +5,14 @@ module SdgMetadataPlugins
     safe true
     priority :normal
 
+    def get_field_content(content, field_name)
+      if content != ''
+        return "\n\n" + content
+      else
+        return "\n\n**" + field_name + " is not yet translated.**"
+      end
+    end
+
     def generate(site)
       base = site.source
 
@@ -14,8 +22,22 @@ module SdgMetadataPlugins
           dir = File.join('metadata', language, indicator) + '/'
           layout = 'indicator'
           title = 'Indicator: ' + indicator
-          content = indicator_fields['full']
           data = {'slug' => indicator}
+
+          toc = site.data['fields'][indicator].map {|k| '<a href="#' + k + '">' + k + '</a>'}
+          toc = toc.join('<br>')
+
+          content = site.data['fields'][indicator].map {|k| '<a name="' + k + '"></a>' + get_field_content(indicator_fields[k], k) }
+          content = content.join("\n\n")
+
+          # This provides some data for the benefit of the Minimal Mistakes theme.
+          data['sidebar'] = [
+            {
+              'title' => 'Fields',
+              'text' => toc
+            }
+          ]
+
           site.pages << SdgMetadataPage.new(site, base, dir, layout, title, content, language, data)
         end
       end

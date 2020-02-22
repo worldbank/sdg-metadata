@@ -1,15 +1,14 @@
 ---
-layout: default
+layout: single
 title: Metadata
-permalink: /metadata/
 ---
-{% include breadcrumbs.html %}
-<h2>{{ page.title }}</h2>
+The SDG metadata is currently available in the following languages:
+
 <ul>
   {% for language in site.data.all %}
   {% assign langcode = language[0] %}
   <li>
-    <a class="call-to-action" href="{{ langcode }}">{{ site.languages[langcode] }}</a>
+    <a class="btn btn--info" href="{{ langcode }}">{{ site.languages[langcode] }}</a>
   </li>
   {% endfor %}
 </ul>

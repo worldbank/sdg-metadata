@@ -1,8 +1,6 @@
 ---
-layout: default
+layout: single
 ---
 ## Overview
 
-<a class="call-to-action" href="metadata/">Browse metadata</a>
-<a class="call-to-action" href="api/all.xml">XML format</a>
-<a class="call-to-action" href="api/">JSON endpoints</a>
+<a class="btn btn--info" href="metadata/">Browse metadata</a>
