@@ -13,6 +13,22 @@ module SdgMetadataPlugins
       end
     end
 
+    # Make any goal/target/indicator number suitable for use in sorting.
+    def get_sort_order(number)
+      if number.is_a? Numeric
+        number = number.to_s
+      end
+      sort_order = ''
+      parts = number.split('-')
+      parts.each do |part|
+        if part.length == 1
+          part = '0' + part
+        end
+        sort_order += part
+      end
+      sort_order
+    end
+
     def generate(site)
       base = site.source
 
@@ -21,7 +37,7 @@ module SdgMetadataPlugins
         indicators.each do |indicator, indicator_fields|
           dir = File.join('metadata', language, indicator) + '/'
           layout = 'indicator'
-          title = 'Indicator: ' + indicator
+          title = 'Indicator: ' + indicator.gsub('-', '.')
           data = {'slug' => indicator}
 
           toc = site.data['fields'][indicator].map {|k| '<a href="#' + k + '">' + k + '</a>'}
@@ -49,7 +65,7 @@ module SdgMetadataPlugins
         title = 'Language: ' + site.config['languages'][language]
         content = ''
         language = language
-        data = {'indicators' => indicators.keys}
+        data = {'indicators' => indicators.keys.sort_by { |k| get_sort_order(k) }}
         site.pages << SdgMetadataPage.new(site, base, dir, layout, title, content, language, data)
       end
     end

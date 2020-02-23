@@ -1,12 +1,12 @@
 ---
 layout: single
 ---
-Browse the metadata in {{ site.languages[page.language] }} by indicator below:
+{{ site.data.languages[page.language].blurb | markdownify }}
 
 <ul>
 {% for indicator in page.indicators %}
   <li>
-    <a class="btn btn--info" href="{{ indicator }}">{{ indicator }}</a>
+    <a class="btn btn--info" href="{{ indicator }}">{{ indicator | replace: '-', '.' }}</a>
   </li>
 {% endfor %}
 </ul>
