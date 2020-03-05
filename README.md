@@ -25,5 +25,5 @@ Convert an Excel file of English metadata into templates for translation:
 node scripts/excel-to-gettext.js my-excel-file.xlsx
 ```
 
-* The Excel file must contain one sheet per indicator (named with the indicator ID).
+* The Excel file must contain one sheet per indicator (named with the indicator ID, such as "1.1.1").
 * Each sheet must contain an `ID` column and a `VALUE` column.
