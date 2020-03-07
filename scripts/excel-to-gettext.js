@@ -2,6 +2,7 @@ const readXlsxFile = require('read-excel-file/node')
 const gettextParser = require('gettext-parser')
 const fs = require('fs')
 const path = require('path')
+const YAML = require('yaml')
 const os = require('os')
 
 const args = process.argv.slice(2)
@@ -33,8 +34,8 @@ function getHeaders() {
 
 // Generate translatable units.
 function getUnit(source, context) {
-    if (source == null) {
-        source = ''
+    if (typeof string !== 'string') {
+        source = String(source)
     }
     return {
         msgctxt: context,
@@ -65,6 +66,20 @@ function isIndicatorId(sheetName) {
     return true
 }
 
+function cleanIndicatorId(indicatorId) {
+    indicatorId = indicatorId.trim()
+    const parts = indicatorId.split(' ')
+    return parts[0]
+}
+
+function updateFieldOrder(indicatorId, fieldNames) {
+    const filePath = path.join('scripts', 'field-order.yml')
+    const fieldOrder = YAML.parse(fs.readFileSync(filePath, { encoding: 'utf-8' }))
+    fieldOrder[indicatorId] = fieldNames
+    const yamlStr = YAML.stringify(fieldOrder)
+    fs.writeFileSync(filePath, yamlStr, 'utf8');
+}
+
 async function main() {
 
     const sheets = await readXlsxFile(excelFile, { getSheets: true })
@@ -74,6 +89,8 @@ async function main() {
             console.log('Warning, skipped sheet "' + sheetName + '" because it is not an indicator id.')
             continue
         }
+        const indicatorId = cleanIndicatorId(sheetName)
+        const fieldNames = []
 
         // Loop through the rows of the Excel file to get the fields.
         const rows = await readXlsxFile(excelFile, { sheet: sheetName })
@@ -85,11 +102,11 @@ async function main() {
                 field[header] = row[index]
             }
             let fieldComplete = true
-            if (!('ID' in field)) {
+            if (!('ID' in field) || !field['ID']) {
                 fieldComplete = false
                 console.log('The ID column is missing from the row:')
             }
-            if (!('VALUE' in field)) {
+            if (!('VALUE' in field) || !field['VALUE']) {
                 fieldComplete = false
                 console.log('The VALUE column is missing from the row:')
             }
@@ -98,8 +115,10 @@ async function main() {
                 continue
             }
             units[field['ID']] = getUnit(field['VALUE'], field['ID'])
+            fieldNames.push(field['ID'])
         }
-        writePo(sheetName, units)
+        writePo(indicatorId, units)
+        updateFieldOrder(indicatorId, fieldNames)
     }
 }
 
