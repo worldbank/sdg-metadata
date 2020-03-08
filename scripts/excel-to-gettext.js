@@ -53,7 +53,8 @@ function writePo(indicatorId, units) {
         }
     }
     const fileData = gettextParser.po.compile(data)
-    const filePath = path.join('translations', 'templates', indicatorId.replace(/\./g, '-') + '.pot')
+    indicatorId = dotsToDashes(indicatorId)
+    const filePath = path.join('translations', 'templates', indicatorId + '.pot')
     fs.writeFileSync(filePath, fileData)
 }
 
@@ -75,9 +76,14 @@ function cleanIndicatorId(indicatorId) {
 function updateFieldOrder(indicatorId, fieldNames) {
     const filePath = path.join('scripts', 'field-order.yml')
     const fieldOrder = YAML.parse(fs.readFileSync(filePath, { encoding: 'utf-8' }))
+    indicatorId = dotsToDashes(indicatorId)
     fieldOrder[indicatorId] = fieldNames
     const yamlStr = YAML.stringify(fieldOrder)
     fs.writeFileSync(filePath, yamlStr, 'utf8');
+}
+
+function dotsToDashes(indicatorId) {
+    return indicatorId.replace(/\./g, '-')
 }
 
 async function main() {
