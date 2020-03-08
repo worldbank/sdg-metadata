@@ -55,13 +55,21 @@ function writeXml(fileName, data, folderParts, message) {
     }), 'utf8')
 }
 
-const languages = ['en', 'ru']
+// Figure out what languages we've translated.
+const sourceLanguage = 'en'
+const languages = [sourceLanguage]
+for (const languageFolder of fs.readdirSync('translations')) {
+    if (languageFolder != 'templates') {
+        languages.push(languageFolder)
+    }
+}
+
 const translations = {}
 
 // Construct an object with all the individual translations of fields.
 for (const language of languages) {
 
-    const sourceFolder = path.join(baseFolder, language === 'en' ? 'templates' : language)
+    const sourceFolder = path.join(baseFolder, language === sourceLanguage ? 'templates' : language)
     translations[language] = {}
 
     const files = fs.readdirSync(sourceFolder)
@@ -79,6 +87,24 @@ for (const language of languages) {
           const source = Object.keys(parsed.translations[id])[0]
           const target = language === 'en' ? source : parsed.translations[id][source]['msgstr'][0]
           translations[language][group][id] = target
+        }
+    }
+}
+
+// Make sure that missing translations at least have empty strings.
+const sourceStrings = translations[sourceLanguage]
+for (const language of languages) {
+    if (language == sourceLanguage) {
+        continue
+    }
+    for (const group of Object.keys(sourceStrings)) {
+        if (!(group in translations[language])) {
+            translations[language][group] = {}
+        }
+        for (const id of Object.keys(sourceStrings[group])) {
+            if (!(id in translations[language][group])) {
+                translations[language][group][id] = ''
+            }
         }
     }
 }
