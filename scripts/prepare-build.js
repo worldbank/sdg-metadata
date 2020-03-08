@@ -5,6 +5,10 @@ const YAML = require('yaml')
 const os = require('os')
 const builder = require('xmlbuilder')
 const jsontoxml = require('jsontoxml')
+const convertHTMLToPDF = require("pdf-puppeteer")
+const pdfTemplate = require('./pdf-template')
+const md = require('markdown-it')()
+    .use(require('markdown-it-footnote'))
 
 const baseFolder = 'translations'
 const destinationFolder = 'www'
@@ -64,6 +68,13 @@ for (const languageFolder of fs.readdirSync('translations')) {
     }
 }
 
+const omitFromFull = [
+    'META_PAGE',
+    'META_LAST_UPDATE',
+    'LANGUAGE',
+    'TRANS_SOURCE',
+]
+
 const translations = {}
 
 // Construct an object with all the individual translations of fields.
@@ -117,6 +128,9 @@ for (const language of languages) {
     for (const indicatorId of indicatorIds) {
         translations[language][indicatorId]['full'] = ''
         for (const field of fieldOrder[indicatorId]) {
+            if (omitFromFull.includes(field)) {
+                continue
+            }
             translations[language][indicatorId]['full'] += translations[language][indicatorId][field]
             translations[language][indicatorId]['full'] += os.EOL + os.EOL
         }
@@ -252,6 +266,93 @@ writeXml(fileName, translationsXml, [], message)
 // We also need to put some files in www/_data for Jekyll to use.
 fs.writeFileSync(path.join(destinationFolder, '_data', 'all.json'), JSON.stringify(translations), 'utf8')
 fs.writeFileSync(path.join(destinationFolder, '_data', 'fields.json'), JSON.stringify(fieldOrder), 'utf8')
+
+// Convert an indicator to fully-rendered HTML.
+function getHtml(indicatorContent) {
+    if (indicatorContent.trim()) {
+        return md.render(indicatorContent)
+    }
+    else {
+        return '<p>This indicator has not been translated yet.</p>'
+    }
+}
+
+// Generate the PDFs.
+function getPuppeteerPdfOptions(lastUpdated) {
+    return {
+        // See https://github.com/puppeteer/puppeteer/blob/master/docs/api.md#pagepdfoptions
+        displayHeaderFooter: true,
+        // Because of Puppeteer (or Chromium?) issues, we have to pass styles
+        // in with the footer markup.
+        footerTemplate: `
+            <style>
+                #footer { padding: 0 !important; }
+                * { box-sizing: border-box; }
+                div.footer {
+                    text-align: right;
+                    font-size: 10px;
+                    height: 30px;
+                    width: 100%;
+                    margin: 0 50px;
+                }
+            </style>
+            <div class='footer'>
+                Page: <span class='pageNumber'></span> of <span class='totalPages'></span>
+            </div>
+        `,
+        // Because of Puppeteer (or Chromium?) issues, we have to pass styles
+        // in with the header markup.
+        headerTemplate: `
+            <style>
+                #header { padding: 0 !important; }
+                * { box-sizing: border-box; }
+                div.header {
+                    text-align: right;
+                    font-size: 10px;
+                    height: 50px;
+                    width: 100%;
+                    margin: 20px 50px 0 50px;
+                }
+            </style>
+            <div class='header'>
+                Last update: ${ lastUpdated }
+            </div>
+        `,
+        format: 'A4',
+        margin: {
+            // These numbers tweaked to look OK despite the header/footer issues
+            // linked above.
+            top: '66px',
+            right: '60px',
+            bottom: '45px',
+            left: '60px',
+        },
+    }
+}
+const pdfs = []
+for (const indicatorId of indicatorIds) {
+    for (const language of languages) {
+        createFolder([destinationFolder, 'pdf', language])
+        const html = getHtml(translations[language][indicatorId]['full'])
+        const lastUpdated = translations[language][indicatorId]['META_LAST_UPDATE']
+        pdfs.push([language, indicatorId, html, lastUpdated])
+    }
+}
+processPdf(0)
+
+// Write a PDF file.
+function processPdf(pdfIndex) {
+    if (pdfIndex < pdfs.length) {
+        const [language, indicatorId, html, lastUpdated] = pdfs[pdfIndex]
+        const fileName = 'Metadata-' + indicatorId + '.pdf'
+        const filePath = path.join(destinationFolder, 'pdf', language, fileName)
+        const htmlDoc = pdfTemplate(indicatorId, html)
+        convertHTMLToPDF(htmlDoc, pdf => {
+            fs.writeFileSync(filePath, pdf)
+            processPdf(pdfIndex + 1)
+        }, getPuppeteerPdfOptions(lastUpdated))
+    }
+}
 
 // Generate an alternate XML structure for feedback.
 const indicators = builder.create('indicators')
