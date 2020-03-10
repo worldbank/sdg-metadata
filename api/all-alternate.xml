@@ -5716,74 +5716,75 @@ The parity indices for this indicator are reported in SDG indicator 4.5.1.</tran
       </field>
       <field id="SIBLING_METADATA_FILE">
         <translations>
-          <translation lang="en">This metadata covers part (b) and (c) of indicator 4.1.1: proportion of children and young people (b) at the end of primary; and (c) at the end of lower secondary achieving at least a minimum proficiency level in (i) reading and (ii) mathematics, by sex.</translation>
+          <translation lang="en">This metadata covers part (b) and (c) of indicator 4.1.1: proportion of children and young people (b) **at the end of primary; and (c) at the end of lower secondary** achieving at least a minimum proficiency level in (i) reading and (ii) mathematics, by sex.</translation>
           <translation lang="ru"/>
         </translations>
       </field>
       <field id="SDG_CUSTODIAN_AGENCIES">
         <translations>
-          <translation lang="en">Institutional information
+          <translation lang="en"># Institutional information
 
-Organization(s)
+## Organization(s)
 UNESCO Institute for Statistics (UNESCO-UIS)</translation>
           <translation lang="ru"/>
         </translations>
       </field>
       <field id="STAT_CONC_DEF">
         <translations>
-          <translation lang="en">Defintion
+          <translation lang="en"># Concepts and definitions
+## Defintion
 Percentage of children and young people in Grade 2 or 3 of primary education, at the end of primary education and the end of lower secondary education achieving at least a minimum proficiency level in (a) reading and (b) mathematics. The minimum proficiency level will be measured relative to new common reading and mathematics scales currently in development.</translation>
           <translation lang="ru"/>
         </translations>
       </field>
       <field id="RATIONALE">
         <translations>
-          <translation lang="en">Rationale
+          <translation lang="en">## Rationale
 The indicator is a direct measure of the learning outcomes achieved in the two subject areas at the end of the relevant stages of education. The three measurement points will have their own established minimum standard. There is only one threshold that divides students into above and below minimum:  
 
-(a) Below minimum is the proportion or percentage of students who do not achieve a minimum standard as set up by countries according to the globally-defined minimum competencies.
+    (a) Below minimum is the proportion or percentage of students who do not achieve a minimum standard as set up by countries according to the globally-defined minimum competencies.
 
-(b) Above minimum is the proportion or percentage of students who have achieved the minimum standards. Due to heterogeneity of performance levels set by national and cross-national assessments, these performance levels will have to be mapped to the globally-defined minimum performance levels. Once the performance levels are mapped, the global education community will be able to identify for each country the proportion or percentage of children who achieved minimum standards.</translation>
+    (b) Above minimum is the proportion or percentage of students who have achieved the minimum standards. Due to heterogeneity of performance levels set by national and cross-national assessments, these performance levels will have to be mapped to the globally-defined minimum performance levels. Once the performance levels are mapped, the global education community will be able to identify for each country the proportion or percentage of children who achieved minimum standards.</translation>
           <translation lang="ru"/>
         </translations>
       </field>
       <field id="CLASS_SYSTEM">
         <translations>
-          <translation lang="en">Concepts
+          <translation lang="en">## Concepts
 Minimum proficiency level is the benchmark of basic knowledge in a domain (mathematics or reading) measured through learning assessments. For example, the Programme for International Student Assessment (PISA) reading test has six proficiency levels, of which Level 2 is described as the minimum proficiency level. In Trends in International Mathematics and Science Study (TIMSS) and Progress in International Reading Literacy Study (PIRLS), there are four proficiency levels: Low, Intermediate, High and Advanced. Students reaching the Intermediate benchmark are able to apply basic knowledge in a variety of situations, similar to the idea of minimum proficiency. Currently, there are no common standards validated by the international community or countries. The indicator shows data published by each of the agencies and organizations specialised in cross-national learning assessments.</translation>
           <translation lang="ru"/>
         </translations>
       </field>
       <field id="REC_USE_LIM">
         <translations>
-          <translation lang="en">Comments and limitations
+          <translation lang="en">## Comments and limitations
 While data from many national assessments are available now, every country sets its own standards so the performance levels might not be comparable. One option is to link existing regional assessments based on a common framework. Furthermore, assessments are typically administered within school systems, the current indicators cover only those in school and the proportion of in-school target populations might vary from country to country due to varied out-of-school children populations. Assessing competencies of children and young people who are out of school would require household-based surveys. Assessing children in households is under consideration but may be very costly and difficult to administer and unlikely to be available on the scale needed within the next 3-5 years. Finally, the calculation of this indicator requires specific information on the ages of children participating in assessments to create globally-comparable data. The ages of children reported by the head of the household might not be consistent and reliable so the calculation of the indicator may be even more challenging. Due to the complication in assessing out-of-school children and the main focus on improving education system, the UIS is taking a stepping stone approach. It will concentrate on assessing children in school in the medium term, where much data are available, then develop more coherent implementation plan to assess out-of-school children in the longer term.</translation>
           <translation lang="ru"/>
         </translations>
       </field>
       <field id="DATA_COMP">
         <translations>
-          <translation lang="en">Methodology
+          <translation lang="en"># Methodology
 
-Computation method
+## Computation method
 The indicator is calculated as the percentage of children and/or young people at the relevant stage of education achieving or exceeding a pre-defined proficiency level in a given subject. 
 
-Performance above the minimum level, PL tn,s,above minimum = p
+Performance above the minimum level, $PL_{tn,s}$ above minimum = $p$
 
-where p is the percentage of students in a learning assessment at stage of education n, in subject s in any year (t-i) where 0 ? i ? 5, who has achieved the level of proficiency that is greater than a pre-defined minimum standard, Smin. The minimum standard is defined by the global education community taking into consideration regional differences.</translation>
+where $p$ is the percentage of students in a learning assessment at stage of education $n$, in subject $s$ in any year ($t-i$) where $0 ? i ? 5$, who has achieved the level of proficiency that is greater than a pre-defined minimum standard, $Smin$. The minimum standard is defined by the global education community taking into consideration regional differences.</translation>
           <translation lang="ru"/>
         </translations>
       </field>
       <field id="DISAGGREGATION">
         <translations>
-          <translation lang="en">Disaggegation
+          <translation lang="en">## Disaggegation
 By age or age-group of students, sex, location, socio-economic status, migrant status and ethnicity. Disability status is not currently available in most national and cross-national learning assessments but could be considered for future assessments.</translation>
           <translation lang="ru"/>
         </translations>
       </field>
       <field id="IMPUTATION">
         <translations>
-          <translation lang="en">Treatment of missing values 
+          <translation lang="en">## Treatment of missing values 
 * At country level: None by data compiler.
 * At regional and global levels: None by data compiler.</translation>
           <translation lang="ru"/>
@@ -5791,85 +5792,82 @@ By age or age-group of students, sex, location, socio-economic status, migrant s
       </field>
       <field id="REG_AGG">
         <translations>
-          <translation lang="en">Regional aggregates
+          <translation lang="en">## Regional aggregates
 Regional and global aggregates are not currently available for this indicator.</translation>
           <translation lang="ru"/>
         </translations>
       </field>
       <field id="SOURCE_TYPE">
         <translations>
-          <translation lang="en">Data sources
-Description
+          <translation lang="en"># Data sources
+## Description
 Various cross-national learning assessments including: Programme d'analyse des systèmes éducatifs de la CONFEMEN (PASEC), Progress in International Reading Literacy Study (PIRLS), Programme for International Student Assessment (PISA), Southern and Eastern Africa Consortium for Monitoring Educational Quality (SACMEQ), Tercer Estudio Regional Comparativo y Explicativo (TERCE) and Trends in International Mathematics and Science Study (TIMSS). (a) Short-term strategy: Use national large-scale representative assessment data from cross-national assessments even though the performance levels may not be directly comparable. (b) Medium-term strategy: Use a global reporting scale based on either a new test or the statistical linking of national, regional and cross-national assessments.</translation>
           <translation lang="ru"/>
         </translations>
       </field>
       <field id="COLL_METHOD">
         <translations>
-          <translation lang="en">Collection process
+          <translation lang="en">## Collection process
 For cross-national learning assessments, data were provided by the respective organizations responsible for each assessment.</translation>
           <translation lang="ru"/>
         </translations>
       </field>
       <field id="DATA_AVAILABILITY">
         <translations>
-          <translation lang="en">Data availability
-
-Description
+          <translation lang="en"># Data availability
+## Description
 79 countries.</translation>
           <translation lang="ru"/>
         </translations>
       </field>
       <field id="SDG_SERIES_DESCR">
         <translations>
-          <translation lang="en">Time series
+          <translation lang="en">## Time series
 Latest year available in the period 2010-2015.</translation>
           <translation lang="ru"/>
         </translations>
       </field>
       <field id="FREQ_COLL">
         <translations>
-          <translation lang="en">Calendar
-
-Data collection
+          <translation lang="en"># Calendar
+## Data collection
 Various. Each learning assessment has its own data collection cycle.</translation>
           <translation lang="ru"/>
         </translations>
       </field>
       <field id="REL_CAL_POLICY">
         <translations>
-          <translation lang="en">Data release
+          <translation lang="en">## Data release
 July 2016</translation>
           <translation lang="ru"/>
         </translations>
       </field>
       <field id="DATA_SOURCE">
         <translations>
-          <translation lang="en">Data providers
-
-Name
+          <translation lang="en"># Data providers
+## Name
 Bodies responsible for conducting learning assessments (including Ministries of Education, National Statistical Offices and other data providers). For cross-national assessments, the data providers are the International Association for the Evaluation of Educational Achievement (IEA), Laboratorio Latinoamericano de Evaluación de la Calidad de la Educación (LLECE), the Organisation for Economic Co-operation and Development (OECD), Programme d'Analyse des Systèmes Educatifs de la CONFEMEN (PASEC) and Southern and Eastern Africa Consortium for Monitoring Educational Quality (SACMEQ).</translation>
           <translation lang="ru"/>
         </translations>
       </field>
       <field id="COMPILING_ORG">
         <translations>
-          <translation lang="en">Data compilers
+          <translation lang="en"># Data compilers
 UNESCO Institute for Statistics</translation>
           <translation lang="ru"/>
         </translations>
       </field>
       <field id="CONTACT_ORGANISATION">
         <translations>
-          <translation lang="en">References
-URL
+          <translation lang="en"># References
+## URL
 http://www.uis.unesco.org/Pages/default.aspx</translation>
           <translation lang="ru"/>
         </translations>
       </field>
       <field id="REFERENCES">
         <translations>
-          <translation lang="en">References
+          <translation lang="en">## References
 Programme d’analyse des systems éducatifs de la CONFEMEN (PASEC): 
 
 http://www.pasec.confemen.org/
@@ -5890,7 +5888,7 @@ Trends in International Mathematics and Science Study (TIMSS): http://www.iea.nl
       </field>
       <field id="SDG_RELATED_INDICATORS">
         <translations>
-          <translation lang="en">Related indicators
+          <translation lang="en"># Related indicators
 1.2, 1.4, 1.5, 2.1, 2.2, 2.3, 3.1, 3.3, 3.4, 3.7, 3.c, 4.5, 5.3, 5.4, 5.5, 5.b, 7.a, 8.6, 8.7, 8.b, 10.2, 10.6, 12.8, 13.3, 13.b, 16.a</translation>
           <translation lang="ru"/>
         </translations>
