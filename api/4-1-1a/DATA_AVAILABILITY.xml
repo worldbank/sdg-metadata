@@ -4,44 +4,120 @@
 	<message>The DATA_AVAILABILITY field for indicator 4-1-1a, translated into all languages</message>
 	<data>
 		<languages>
-			<language lang="en">Data availability
+			<language lang="en"># Data availability
 
-Description
-Figure 1. Availability of data for indicator 4.1.1 (a), by grade
+## Description
+### Figure 1. Availability of data for indicator 4.1.1 (a), by grade
 
-![alt text] {C:\Users\o_fahmy\Downloads\Dashboard 1 (35).png)
+![Figure 1. Availability of data for indicator 4.1.1 (a), by grade](images/DATA_AVAILABILITY1.png)
 
-Orange = grade 2,3, and 4
-Red = grade 2/3
+Orange = grade 2,3, and 4 
+Red = grade 2/3 
 Blue = grade 4
 
-Regions | Number of countries with available data
---- |---
-Africa (Northern) | 4
---- |---
-Africa (Sub-Saharan) |19 
---- |---
-Asia (Central and Southern) | 3
---- |---
-Asia (Eastern and South-eastern) | 12
---- |---
-Asia (Western) | 11
---- |---
-Europe | 21
---- |---
-Latin America and the Caribbean | 25
---- |---
-Northern America | 2
---- |---
-Oceania | 3
---- |---
-World | 100
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td rowspan=&quot;2&quot;&gt;
+        &lt;strong&gt;Regions&lt;/strong&gt;
+      &lt;/td&gt;
+      &lt;td&gt;
+        &lt;strong&gt;Number of countries&lt;/strong&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;
+        &lt;strong&gt;with available data&lt;/strong&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;
+        Africa (Northern)
+      &lt;/td&gt;
+      &lt;td&gt;
+        4
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;
+        Africa (Sub-Saharan)
+      &lt;/td&gt;
+      &lt;td&gt;
+        19
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;
+        Asia (Central and Southern)
+      &lt;/td&gt;
+      &lt;td&gt;
+        3
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;
+        Asia (Eastern and South-eastern)
+      &lt;/td&gt;
+      &lt;td&gt;
+        12
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;
+        Asia (Western)
+      &lt;/td&gt;
+      &lt;td&gt;
+        11
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;
+        Europe
+      &lt;/td&gt;
+      &lt;td&gt;
+        21
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;
+        Latin America and the Caribbean
+      &lt;/td&gt;
+      &lt;td&gt;
+        25
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;
+        Northern America
+      &lt;/td&gt;
+      &lt;td&gt;
+        2
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;
+        Oceania
+      &lt;/td&gt;
+      &lt;td&gt;
+        3
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;
+        &lt;strong&gt;World&lt;/strong&gt;
+      &lt;/td&gt;
+      &lt;td&gt;
+        &lt;strong&gt;100&lt;/strong&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
 
-Figure 2. Population coverage in countries where data for the indicator are available
+### Figure 2. Population coverage in countries where data for the indicator are available
 
-![alt text] (C:\Users\o_fahmy\Downloads\Dashboard 1 (36).png)
+![Figure 2. Population coverage in countries where data for the indicator are available](images/DATA_AVAILABILITY2.png)
 
-Key: Population
+Key: Population 
 0 – 127M
 
 Note: In terms of population, countries for which results for the SDG 4.1.1 (a) are available for grades 2, 3, or 4 represent the 76% of the school age population at primary education. If only learning assessments for grades 2 and 3 are considered, that coverage is 39%.

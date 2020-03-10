@@ -8,182 +8,510 @@ Target 4.1: By 2030, ensure that all girls and boys complete free, equitable and
 
 Indicator 4.1.1: Proportion of children and young people: (a) in grades 2/3; (b) at the end of primary; and (c) at the end of lower secondary achieving at least a minimum proficiency level in (i) reading and (ii) mathematics, by sex
 
-This metadata covers part (a) of indicator 4.1.1: proportion of children and young people in grades 2/3 achieving at least a minimum proficiency level in (i) reading and (ii) mathematics, by sex.
+This metadata covers part (a) of indicator 4.1.1: proportion of children and young people **in grades 2/3** achieving at least a minimum proficiency level in (i) reading and (ii) mathematics, by sex.
 
-Institutional information
+# Institutional information
 
-Organization(s)
+## Organization(s)
 UNESCO Institute of Statistics (UIS)
 
-Concepts and definitons
+# Concepts and definitons
 
-Definition
+## Definition
 Proportion of children and young people in grades 2/3 achieving at least a minimum proficiency level in (i) reading and (ii) mathematics, by sex.
 
-Rationale
+## Rationale
 The higher the figure the higher the proportion of children and/or young people reaching at least minimum proficiency in the respective domain (reading or mathematic) with the limitations indicated under the “Comments and limitations” section.
 
-Concepts
-Minimum proficiency level is the benchmark of basic knowledge in a domain (mathematics, reading, etc.) measured through learning assessments. Until August 2018, there was no globally agreed definition on minimum proficiency level. As an interim reporting strategy, the UIS has been reporting according to the minimum proficiency level defined by each assessment.
+## Concepts
+*Minimum proficiency level* is the benchmark of basic knowledge in a domain (mathematics, reading, etc.) measured through learning assessments. Until August 2018, there was no globally agreed definition on minimum proficiency level. As an interim reporting strategy, the UIS has been reporting according to the minimum proficiency level defined by each assessment.
 
-Minimum proficiency levels defined by each learning assessment
+*Minimum proficiency levels defined by each learning assessment* 
 The table below shows the minimum proficiency levels for each learning assessment by target grade/age and domain. Due to heterogeneity of performance levels set by national and cross-national assessments, these performance levels will be mapped to the globally-defined minimum performance levels and policy descriptors, agreed upon in September 2018 (see 4.1.1. UIS request for reclassification 2018.09.28.docx) that will allow pedagogical linking. Once the performance levels are mapped, the global education community will be able to identify for each country the proportion or percentage of children who achieved at least minimum proficiency levels.
 
-Table 1. Minimum proficiency levels defined by each learning assessment 
+### Table 1. Minimum proficiency levels defined by each learning assessment 
 
-Name | Target grade/age | Domain | Minimum Proficiency Level (MPL)
---- | --- | --- | ---
-LLECE | Grade 3 | Reading | Level 2
---- | --- | --- | ---
-| | Math | Level 2
---- | --- | --- | ---
-PASEC | Grade 2 | Reading | Level 3
- | | Math | Level 2
---- | --- | --- | ---
-TIMSS | Grade 4 | Math | Low International Benchmark
---- | --- | --- | ---
-PIRLS | Grade 4 | Reading | Low International Benchmark
---- | --- | --- | ---
-MICS6 | Grade 2/3 | Reading | Foundational reading skills
---- | --- | --- | ---
- | | Math | Foundational numeracy skills
---- | --- | --- | ---
-EGRA | Grade 2/3 | Reading | Number of correct words per minute (cwpm) above a given threshold (typically 45 cwpm) defined by each country
---- | --- | --- | ---
-EGMA | Grade 2/3 | Math | Percentage of correct answers for addition and subtraction above a given threshold (typically 80% of correct answers) defined by each country
---- | --- | --- | ---
-PAL Network | Grade 3 | Reading | Can read one or more texts as defined by each country
---- | --- | --- | ---
- | | Math | Can do one or more arithmetic problems as defined by each country
---- | --- | --- | ---
-National assessment | Grade 2/3, end of primary or end of secondary | Reading | As defined by each national assessment
---- | --- | --- | ---
- | | Math | As defined by each national assessment
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;
+        &lt;strong&gt;Name&lt;/strong&gt;
+      &lt;/td&gt;
+      &lt;td&gt;
+        &lt;strong&gt;Target grade/age&lt;/strong&gt;
+      &lt;/td&gt;
+      &lt;td&gt;
+        &lt;strong&gt;Domain&lt;/strong&gt;
+      &lt;/td&gt;
+      &lt;td&gt;
+        &lt;strong&gt;Minimum Proficiency Level (MPL)&lt;/strong&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td rowspan=&quot;2&quot;&gt;
+        &lt;strong&gt;LLECE&lt;/strong&gt;
+      &lt;/td&gt;
+      &lt;td rowspan=&quot;2&quot;&gt;
+        Grade 3
+      &lt;/td&gt;
+      &lt;td&gt;
+        Reading
+      &lt;/td&gt;
+      &lt;td&gt;
+        Level 2
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;
+        Math
+      &lt;/td&gt;
+      &lt;td&gt;
+        Level 2
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td rowspan=&quot;2&quot;&gt;
+        &lt;strong&gt;PASEC&lt;/strong&gt;
+      &lt;/td&gt;
+      &lt;td rowspan=&quot;2&quot;&gt;
+        Grade 2
+      &lt;/td&gt;
+      &lt;td&gt;
+        Reading
+      &lt;/td&gt;
+      &lt;td&gt;
+        Level 3
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;
+        Math
+      &lt;/td&gt;
+      &lt;td&gt;
+        Level 2
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;
+        &lt;strong&gt;TIMSS&lt;/strong&gt;
+      &lt;/td&gt;
+      &lt;td&gt;
+        Grade 4
+      &lt;/td&gt;
+      &lt;td&gt;
+        Math
+      &lt;/td&gt;
+      &lt;td&gt;
+        Low International Benchmark
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;
+        &lt;strong&gt;PIRLS&lt;/strong&gt;
+      &lt;/td&gt;
+      &lt;td&gt;
+        Grade 4
+      &lt;/td&gt;
+      &lt;td&gt;
+        Reading
+      &lt;/td&gt;
+      &lt;td&gt;
+        Low International Benchmark
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td rowspan=&quot;2&quot;&gt;
+        &lt;strong&gt;MICS6&lt;/strong&gt;
+      &lt;/td&gt;
+      &lt;td rowspan=&quot;2&quot;&gt;
+        Grade 2/3
+      &lt;/td&gt;
+      &lt;td&gt;
+        Reading
+      &lt;/td&gt;
+      &lt;td&gt;
+        Foundational reading skills
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;
+        Math
+      &lt;/td&gt;
+      &lt;td&gt;
+        Foundational numeracy skills
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;
+        &lt;strong&gt;EGRA&lt;/strong&gt;
+      &lt;/td&gt;
+      &lt;td&gt;
+        Grade 2/3
+      &lt;/td&gt;
+      &lt;td&gt;
+        Reading
+      &lt;/td&gt;
+      &lt;td&gt;
+        Number of correct words per minute (cwpm) above a given threshold (typically 45 cwpm) defined by each country
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;
+        &lt;strong&gt;EGMA&lt;/strong&gt;
+      &lt;/td&gt;
+      &lt;td&gt;
+        Grade 2/3
+      &lt;/td&gt;
+      &lt;td&gt;
+        Math
+      &lt;/td&gt;
+      &lt;td&gt;
+        Percentage of correct answers for addition and subtraction above a given threshold (typically 80% of correct answers) defined by each country
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td rowspan=&quot;2&quot;&gt;
+        &lt;strong&gt;PAL Network&lt;/strong&gt;
+      &lt;/td&gt;
+      &lt;td rowspan=&quot;2&quot;&gt;
+        Grade 3
+      &lt;/td&gt;
+      &lt;td&gt;
+        Reading
+      &lt;/td&gt;
+      &lt;td&gt;
+        Can read one or more texts as defined by each country
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;
+        Math
+      &lt;/td&gt;
+      &lt;td&gt;
+        Can do one or more arithmetic problems as defined by each country
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td rowspan=&quot;2&quot;&gt;
+        &lt;strong&gt;National assessment&lt;/strong&gt;
+      &lt;/td&gt;
+      &lt;td rowspan=&quot;2&quot;&gt;
+        Grade 2/3, end of primary or end of secondary
+      &lt;/td&gt;
+      &lt;td&gt;
+        Reading
+      &lt;/td&gt;
+      &lt;td&gt;
+        As defined by each national assessment
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;
+        Math
+      &lt;/td&gt;
+      &lt;td&gt;
+        As defined by each national assessment
+      &lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
 
-Comments and limitations
+
+## Comments and limitations
 Learning outcomes from national school- or household-based learning assessments are not automatically comparable across countries unless they are linked by design. Learning outcomes from cross-national learning assessment are automatically comparable for countries which participated in the same cross-national learning assessments, but they are not comparable across different cross-national learning assessments without further analytical effort.  
 
 Comparability over time is possible if the assessment is designed with an adequate linking process between waves of administration.  This is described in the note “4.1.1. UIS request for reclassification 20181001.docx.”
 
-Methodology
+# Methodology
 
-Computation method
+## Computation method
 The number of children and/or young people at the relevant stage of education n in year t achieving at least the pre-defined proficiency level in subject s expressed as a percentage of the number of children and/or young people at stage of education n, in year t, in any proficiency level in subject s.
 
-MPL t,n,s,  = MP t,n,s / P t,n
-where: 
-MP t,n,s    = the number of children and young people at stage of education n, in year t, who have achieved at least the minimum proficiency level in subject s. 
-P t,n = the number of children and young people at stage of education n, in year t, in any proficiency level in subject s.
-n = the stage of education that was assessed
-s = the subject that was assessed (reading or mathematics).
+$$MPL_{t,n,s} = {MP_{t,n,s} / P_{t,n}}$$
 
-Disaggregation
+where: 
+
+$MPL_{t,n,s}$ = the number of children and young people at stage of education n, in year t, who have achieved at least the minimum proficiency level in subject s.
+
+$P_{t,n}$ = the number of children and young people at stage of education n, in year t, in any proficiency level in subject s.
+
+$n$ = the stage of education that was assessed
+
+$s$ = the subject that was assessed (reading or mathematics).
+
+
+## Disaggregation
 Indicator 4.1.1.a must be disaggregated by domain (reading and mathematics) and sex.
 
-Treatment of missing values
+## Treatment of missing values
 * At the country level: Missing values are not imputed.
 * At the regional and global levels: Missing values are not imputed.
 
-Regional aggregates
+## Regional aggregates
 Not yet applicable. Data are reported at the national level only.
 
-Sources of discrepancies
+## Sources of discrepancies
 Not yet applicable. Data are reported at the national level only.
 
-Methods and guidance available to countries for the compilation of the data at the national level
+## Methods and guidance available to countries for the compilation of the data at the national level
 * Information not available.
 
-Quality assurance
+## Quality assurance
 * Information not available.
 
-Data sources
+# Data sources
 
-Description
+## Description
 Type of data sources: In school and population-based learning assessments.
 
-Table 2. How interim reporting is structured?
+### Table 2. How interim reporting is structured?
 
-  |In-school based | |Household Based Surveys |Grade
----| --- |--- |--- |---
- |Cross-national |National | |    
----| --- |--- |--- |---
-2/3 Grade |LLECE, PASEC, TIMSS, PIRLS, EGRA/EGMA | Yes | MICS6, PAL network |2/3 plus one year when primary lasts more than 4 years according to ISCED level of the country
----| --- |--- |--- |---
-Definition of minimum level until 2018 release |The ones defined by each assessment by point of measurement and domain 
----| --- |--- |--- |---
-Definition of minimum level from 2019 |According to alignment as adopted by GAML and TCG in September of 2018
----| --- |--- |--- |---
-Validation | Sent from UIS for countries’ approval
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td rowspan=&quot;2&quot;&gt;
+        &amp;nbsp;
+      &lt;/td&gt;
+      &lt;td colspan=&quot;2&quot;&gt;
+        &lt;strong&gt;In-school based&lt;/strong&gt;
+      &lt;/td&gt;
+      &lt;td rowspan=&quot;2&quot;&gt;
+        &lt;strong&gt;Household Based Surveys&lt;/strong&gt;
+      &lt;/td&gt;
+      &lt;td rowspan=&quot;2&quot;&gt;
+        &lt;strong&gt;Grade&lt;/strong&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;
+        &lt;strong&gt;Cross-national&lt;/strong&gt;
+      &lt;/td&gt;
+      &lt;td&gt;
+        &lt;strong&gt;National&amp;nbsp;&lt;/strong&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td rowspan=&quot;5&quot;&gt;
+        &lt;strong&gt;2/3 Grade&lt;/strong&gt;
+      &lt;/td&gt;
+      &lt;td&gt;
+        LLECE
+      &lt;/td&gt;
+      &lt;td rowspan=&quot;5&quot;&gt;
+        Yes
+      &lt;/td&gt;
+      &lt;td&gt;
+        MICS6
+      &lt;/td&gt;
+      &lt;td rowspan=&quot;5&quot;&gt;
+        2/3 plus one year when primary lasts more than 4 years according to ISCED level of the country
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;
+        PASEC
+      &lt;/td&gt;
+      &lt;td&gt;
+        &amp;nbsp;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;
+        TIMSS&amp;nbsp;
+      &lt;/td&gt;
+      &lt;td&gt;
+        PAL network
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;
+        PIRLS&amp;nbsp;
+      &lt;/td&gt;
+      &lt;td&gt;
+        &amp;nbsp;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;
+        EGRA/EGMA
+      &lt;/td&gt;
+      &lt;td&gt;
+        &amp;nbsp;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;
+        &lt;strong&gt;Definition of minimum level until 2018 release&lt;/strong&gt;
+      &lt;/td&gt;
+      &lt;td colspan=&quot;4&quot;&gt;
+        The ones defined by each assessment by point of measurement and domain
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;
+        &lt;strong&gt;Definition of minimum level from 2019&amp;nbsp;&lt;/strong&gt;
+      &lt;/td&gt;
+      &lt;td colspan=&quot;4&quot;&gt;
+        According to alignment as adopted by GAML and TCG in September of 2018
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;
+        &lt;strong&gt;Validation&amp;nbsp;&lt;/strong&gt;
+      &lt;/td&gt;
+      &lt;td colspan=&quot;4&quot;&gt;
+        Sent from UIS for countries&apos; approval
+      &lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
 
-Collection process
+
+## Collection process
 Information not available.
 
-Data availability
+# Data availability
 
-Description
-Figure 1. Availability of data for indicator 4.1.1 (a), by grade
+## Description
+### Figure 1. Availability of data for indicator 4.1.1 (a), by grade
 
-![alt text] {C:\Users\o_fahmy\Downloads\Dashboard 1 (35).png)
+![Figure 1. Availability of data for indicator 4.1.1 (a), by grade](images/DATA_AVAILABILITY1.png)
 
-Orange = grade 2,3, and 4
-Red = grade 2/3
+Orange = grade 2,3, and 4 
+Red = grade 2/3 
 Blue = grade 4
 
-Regions | Number of countries with available data
---- |---
-Africa (Northern) | 4
---- |---
-Africa (Sub-Saharan) |19 
---- |---
-Asia (Central and Southern) | 3
---- |---
-Asia (Eastern and South-eastern) | 12
---- |---
-Asia (Western) | 11
---- |---
-Europe | 21
---- |---
-Latin America and the Caribbean | 25
---- |---
-Northern America | 2
---- |---
-Oceania | 3
---- |---
-World | 100
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td rowspan=&quot;2&quot;&gt;
+        &lt;strong&gt;Regions&lt;/strong&gt;
+      &lt;/td&gt;
+      &lt;td&gt;
+        &lt;strong&gt;Number of countries&lt;/strong&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;
+        &lt;strong&gt;with available data&lt;/strong&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;
+        Africa (Northern)
+      &lt;/td&gt;
+      &lt;td&gt;
+        4
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;
+        Africa (Sub-Saharan)
+      &lt;/td&gt;
+      &lt;td&gt;
+        19
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;
+        Asia (Central and Southern)
+      &lt;/td&gt;
+      &lt;td&gt;
+        3
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;
+        Asia (Eastern and South-eastern)
+      &lt;/td&gt;
+      &lt;td&gt;
+        12
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;
+        Asia (Western)
+      &lt;/td&gt;
+      &lt;td&gt;
+        11
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;
+        Europe
+      &lt;/td&gt;
+      &lt;td&gt;
+        21
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;
+        Latin America and the Caribbean
+      &lt;/td&gt;
+      &lt;td&gt;
+        25
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;
+        Northern America
+      &lt;/td&gt;
+      &lt;td&gt;
+        2
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;
+        Oceania
+      &lt;/td&gt;
+      &lt;td&gt;
+        3
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;
+        &lt;strong&gt;World&lt;/strong&gt;
+      &lt;/td&gt;
+      &lt;td&gt;
+        &lt;strong&gt;100&lt;/strong&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
 
-Figure 2. Population coverage in countries where data for the indicator are available
+### Figure 2. Population coverage in countries where data for the indicator are available
 
-![alt text] (C:\Users\o_fahmy\Downloads\Dashboard 1 (36).png)
+![Figure 2. Population coverage in countries where data for the indicator are available](images/DATA_AVAILABILITY2.png)
 
-Key: Population
+Key: Population 
 0 – 127M
 
 Note: In terms of population, countries for which results for the SDG 4.1.1 (a) are available for grades 2, 3, or 4 represent the 76% of the school age population at primary education. If only learning assessments for grades 2 and 3 are considered, that coverage is 39%.
 
-Time series
+## Time series
 Data available since 2000. The indicator will be reported annually.
 
-Calendar
+# Calendar
 
-Data collection
+## Data collection
 Ongoing.
 
-Data release
+## Data release
 September 2018; February 2019
 
-Data providers
-School Based
-* International Large Scale Assessments are reported to the UIS by cross-national organisations (LLECE, PASEC, TIMSS, and PIRLS). Typically, Cross National Large Scale Assessment, either regional or international, define various performance levels, and report as well the mean and standard deviation. They choose as well one level as the cut-off point that defines what children/youth are below or above level.
-* National Large-Scale Assessments either sample- or census- based. Countries should report the proportion of students by level of competency for each domain indicating as well the minimum proficiency level, when it is defined by the national assessment. EGRA and EGMA as reported by USAID or individual countries. 
+# Data providers
+## School Based
+* *International Large Scale Assessments* are reported to the UIS by cross-national organisations (LLECE, PASEC, TIMSS, and PIRLS). Typically, Cross National Large Scale Assessment, either regional or international, define various performance levels, and report as well the mean and standard deviation. They choose as well one level as the cut-off point that defines what children/youth are below or above level.
+* *National Large-Scale Assessments* either sample- or census- based. Countries should report the proportion of students by level of competency for each domain indicating as well the minimum proficiency level, when it is defined by the national assessment. EGRA and EGMA as reported by USAID or individual countries. 
 
-Household Survey- Based
+## Household Survey- Based
 * MICS6: reported to the UIS by UNICEF
 * Pal network: reported to the UIS by Pal network
 
-Data compilers
+# Data compilers
 UNESCO Institute of Statistics (UIS)
 
-References
+# References
 UIS (2018). Quick Guide to Education Indicators for SDG 4.
 http://uis.unesco.org/sites/default/files/documents/quick-guide-education-indicators-sdg4-2018-en.pdf
 
@@ -192,6 +520,7 @@ http://uis.unesco.org/sites/default/files/documents/gaml4-sdg4-reporting-proposa
 
 UIS (2018). Request for reclassification of SDG indicator 4.1.1.a.
 
+# Related indicators
 The parity indices for this indicator are reported in SDG indicator 4.5.1.
 
 </data>

@@ -87,9 +87,21 @@
 
 
 
-    <link rel="shortcut icon" type="image/ico" href="/sdg-metadata/assets/img/favicons/favicon.ico">
+    <!-- Favicons -->
+<link rel="shortcut icon" type="image/ico" href="/sdg-metadata/assets/img/favicons/favicon.ico">
 <link rel="icon" type="image/png" href="/sdg-metadata/assets/img/favicons/favicon.png">
-
+<!-- Mathjax -->
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<script>
+// Lock down the MathJax delimiters to $ and $$.
+MathJax = {
+  tex: {
+    inlineMath: [['$', '$']],
+    displayMath: [['$$', '$$']],
+  },
+};
+</script>
   </head>
 
   <body class="layout--single">

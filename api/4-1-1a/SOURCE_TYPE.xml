@@ -4,24 +4,113 @@
 	<message>The SOURCE_TYPE field for indicator 4-1-1a, translated into all languages</message>
 	<data>
 		<languages>
-			<language lang="en">Data sources
+			<language lang="en"># Data sources
 
-Description
+## Description
 Type of data sources: In school and population-based learning assessments.
 
-Table 2. How interim reporting is structured?
+### Table 2. How interim reporting is structured?
 
-  |In-school based | |Household Based Surveys |Grade
----| --- |--- |--- |---
- |Cross-national |National | |    
----| --- |--- |--- |---
-2/3 Grade |LLECE, PASEC, TIMSS, PIRLS, EGRA/EGMA | Yes | MICS6, PAL network |2/3 plus one year when primary lasts more than 4 years according to ISCED level of the country
----| --- |--- |--- |---
-Definition of minimum level until 2018 release |The ones defined by each assessment by point of measurement and domain 
----| --- |--- |--- |---
-Definition of minimum level from 2019 |According to alignment as adopted by GAML and TCG in September of 2018
----| --- |--- |--- |---
-Validation | Sent from UIS for countries’ approval
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td rowspan=&quot;2&quot;&gt;
+        &amp;nbsp;
+      &lt;/td&gt;
+      &lt;td colspan=&quot;2&quot;&gt;
+        &lt;strong&gt;In-school based&lt;/strong&gt;
+      &lt;/td&gt;
+      &lt;td rowspan=&quot;2&quot;&gt;
+        &lt;strong&gt;Household Based Surveys&lt;/strong&gt;
+      &lt;/td&gt;
+      &lt;td rowspan=&quot;2&quot;&gt;
+        &lt;strong&gt;Grade&lt;/strong&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;
+        &lt;strong&gt;Cross-national&lt;/strong&gt;
+      &lt;/td&gt;
+      &lt;td&gt;
+        &lt;strong&gt;National&amp;nbsp;&lt;/strong&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td rowspan=&quot;5&quot;&gt;
+        &lt;strong&gt;2/3 Grade&lt;/strong&gt;
+      &lt;/td&gt;
+      &lt;td&gt;
+        LLECE
+      &lt;/td&gt;
+      &lt;td rowspan=&quot;5&quot;&gt;
+        Yes
+      &lt;/td&gt;
+      &lt;td&gt;
+        MICS6
+      &lt;/td&gt;
+      &lt;td rowspan=&quot;5&quot;&gt;
+        2/3 plus one year when primary lasts more than 4 years according to ISCED level of the country
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;
+        PASEC
+      &lt;/td&gt;
+      &lt;td&gt;
+        &amp;nbsp;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;
+        TIMSS&amp;nbsp;
+      &lt;/td&gt;
+      &lt;td&gt;
+        PAL network
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;
+        PIRLS&amp;nbsp;
+      &lt;/td&gt;
+      &lt;td&gt;
+        &amp;nbsp;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;
+        EGRA/EGMA
+      &lt;/td&gt;
+      &lt;td&gt;
+        &amp;nbsp;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;
+        &lt;strong&gt;Definition of minimum level until 2018 release&lt;/strong&gt;
+      &lt;/td&gt;
+      &lt;td colspan=&quot;4&quot;&gt;
+        The ones defined by each assessment by point of measurement and domain
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;
+        &lt;strong&gt;Definition of minimum level from 2019&amp;nbsp;&lt;/strong&gt;
+      &lt;/td&gt;
+      &lt;td colspan=&quot;4&quot;&gt;
+        According to alignment as adopted by GAML and TCG in September of 2018
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;
+        &lt;strong&gt;Validation&amp;nbsp;&lt;/strong&gt;
+      &lt;/td&gt;
+      &lt;td colspan=&quot;4&quot;&gt;
+        Sent from UIS for countries&apos; approval
+      &lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
 			</language>
 			<language lang="ru"/>
 </languages>
