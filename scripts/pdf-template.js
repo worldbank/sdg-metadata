@@ -19,7 +19,21 @@ module.exports = (indicatorId, content) => `
                 padding: 10px;
                 text-align: left;
             }
+            img {
+                max-width: 100%;
+            }
         </style>
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+        <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+        <script>
+        // Lock down the MathJax delimiters to $ and $$.
+        MathJax = {
+            tex: {
+                inlineMath: [['$', '$']],
+                displayMath: [['$$', '$$']],
+            },
+        };
+        </script>
     </head>
     <body>
         ${ content }
