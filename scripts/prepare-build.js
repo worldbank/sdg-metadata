@@ -7,9 +7,11 @@ const builder = require('xmlbuilder')
 const jsontoxml = require('jsontoxml')
 const convertHTMLToPDF = require("pdf-puppeteer")
 const pdfTemplate = require('./pdf-template')
-const md = require('markdown-it')()
-    .use(require('markdown-it-footnote'))
+const md = require('markdown-it')({
+    html: true
+}).use(require('markdown-it-footnote'))
 
+const absoluteUrl = 'https://opendataenterprise.github.io/sdg-metadata'
 const baseFolder = 'translations'
 const destinationFolder = 'www'
 
@@ -23,6 +25,12 @@ function createFolder(folderParts) {
         }
     }
     return folderParts.join(path.sep)
+}
+
+// Get the absolute URL for an image.
+function getImageFolder(language, indicatorId) {
+    const path = `/metadata/${language}/${indicatorId}/images`
+    return absoluteUrl + path
 }
 
 // Write data to a json file.
@@ -268,13 +276,16 @@ fs.writeFileSync(path.join(destinationFolder, '_data', 'all.json'), JSON.stringi
 fs.writeFileSync(path.join(destinationFolder, '_data', 'fields.json'), JSON.stringify(fieldOrder), 'utf8')
 
 // Convert an indicator to fully-rendered HTML.
-function getHtml(indicatorContent) {
+function getHtml(indicatorContent, language, indicatorId) {
+    let html = '<p>This indicator has not been translated yet.</p>'
     if (indicatorContent.trim()) {
-        return md.render(indicatorContent)
+        html = md.render(indicatorContent)
     }
-    else {
-        return '<p>This indicator has not been translated yet.</p>'
-    }
+    // Images need to absolute instead of relative.
+    const prefix = 'src="'
+    const srcSearch = new RegExp(prefix + 'images', 'g')
+    const srcReplace = prefix + getImageFolder(language, indicatorId)
+    return html.replace(srcSearch, srcReplace)
 }
 
 // Generate the PDFs.
@@ -333,7 +344,7 @@ const pdfs = []
 for (const indicatorId of indicatorIds) {
     for (const language of languages) {
         createFolder([destinationFolder, 'pdf', language])
-        const html = getHtml(translations[language][indicatorId]['full'])
+        const html = getHtml(translations[language][indicatorId]['full'], language, indicatorId)
         const lastUpdated = translations[language][indicatorId]['META_LAST_UPDATE']
         pdfs.push([language, indicatorId, html, lastUpdated])
     }
