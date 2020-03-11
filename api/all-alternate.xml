@@ -7110,60 +7110,59 @@ www.worldbank.org</translation>
       </field>
       <field id="SDG_CUSTODIAN_AGENCIES">
         <translations>
-          <translation lang="en">Institutional information
-
-Organization(s): United Nations Environment Programme (UNEP)</translation>
+          <translation lang="en"># Institutional information
+## Organization(s)
+United Nations Environment Programme (UNEP)</translation>
           <translation lang="ru"/>
         </translations>
       </field>
       <field id="STAT_CONC_DEF">
         <translations>
-          <translation lang="en">Concepts and definitions
-
-Definition: Domestic Material Consumption (DMC) is a standard material flow accounting (MFA) indicator and reports the apparent consumption of materials in a national economy.</translation>
+          <translation lang="en"># Concepts and definitions
+## Definition
+Domestic Material Consumption (DMC) is a standard material flow accounting (MFA) indicator and reports the apparent consumption of materials in a national economy.</translation>
           <translation lang="ru"/>
         </translations>
       </field>
       <field id="RATIONALE">
         <translations>
-          <translation lang="en">Rationale
+          <translation lang="en">## Rationale
 DMC reports the amount of materials that are used in a national economy. DMC is a territorial (production side) indicator. DMC also presents the amount of material that needs to be handled within an economy, which is either added to material stocks of buildings and transport infrastructure or used to fuel the economy as material throughput. DMC describes the physical dimension of economic processes and interactions. It can also be interpreted as long-term waste equivalent. Per-capita DMC describes the average level of material use in an economy – an environmental pressure indicator – and is also referred to as metabolic profile.</translation>
           <translation lang="ru"/>
         </translations>
       </field>
       <field id="CLASS_SYSTEM">
         <translations>
-          <translation lang="en">Concepts
+          <translation lang="en">## Concepts
 Domestic Material Consumption (DMC) and MF need to be looked at in combination as they cover the two aspects of the economy, production and consumption. The DMC reports the actual amount of material in an economy, MF the virtual amount required across the whole supply chain to service final demand. A country can, for instance have a very high DMC because it has a large primary production sector for export or a very low DMC because it has outsourced most of the material intensive industrial process to other countries. The material footprint corrects for both phenomena.</translation>
           <translation lang="ru"/>
         </translations>
       </field>
       <field id="REC_USE_LIM">
         <translations>
-          <translation lang="en">Comments and limitations
+          <translation lang="en">## Comments and limitations
 DMC cannot be disaggregated to economic sectors which limits its potential to become a satellite account to the System of National Accounts (SNA).</translation>
           <translation lang="ru"/>
         </translations>
       </field>
       <field id="DATA_COMP">
         <translations>
-          <translation lang="en">Methodology
-
-Computation Method
+          <translation lang="en"># Methodology
+## Computation Method
 It is calculated as direct imports (IM) of material plus domestic extraction (DE) of materials minus direct exports (EX) of materials measured in metric tonnes. DMC measure the amount of materials that are used in economic processes. It does not include materials that are mobilized the process of domestic extraction but do not enter the economic process. DMC is based on official economic statistics and it requires some modelling to adapt the source data to the methodological requirements of the MFA. The accounting standard and accounting methods are set out in the EUROSTAT guidebooks for MFA accounts in the latest edition of 2013. MFA accounting is also part of the central framework of the System  of integrated Environmental-Economic Accounts (SEEA).</translation>
           <translation lang="ru"/>
         </translations>
       </field>
       <field id="DISAGGREGATION">
         <translations>
-          <translation lang="en">Disaggregation
+          <translation lang="en">## Disaggregation
 The DMC indicator can be disaggregated into imports, domestic extraction and exports by a large number of material follow categories. At the highest level of aggregation biomass, fossil fuels, metal ores and non-metallic minerals are distinguished. DMC is usually reported for 11 material categories, DE for 44 material categories.</translation>
           <translation lang="ru"/>
         </translations>
       </field>
       <field id="IMPUTATION">
         <translations>
-          <translation lang="en">Treatment of missing values
+          <translation lang="en">## Treatment of missing values
 * At a country level: 
 A zero is imputed when no positive real value was officially recorded, in the base data sets used, for any of the underlying components which make up this aggregated total. Thus “0.0” can represent either NA, or a genuine 0.0, or (crucially) a combination of both, which is a common situation. This allows for values to be easily aggregated into further aggregations; however, it should be thus noted that due to imputing missing values as ‘0.0’, the aggregations may represent a lower value than actual situation. 
 * At regional and global levels: 
@@ -7173,86 +7172,86 @@ Similarly, missing values are imputed as zero in the regional and global aggrega
       </field>
       <field id="REG_AGG">
         <translations>
-          <translation lang="en">Regional aggregates
+          <translation lang="en">## Regional aggregates
 See: http://uneplive.unep.org/media/docs/graphs/aggregation_methods.pdf</translation>
           <translation lang="ru"/>
         </translations>
       </field>
       <field id="ADJUSTMENT">
         <translations>
-          <translation lang="en">Sources of discrepancies</translation>
+          <translation lang="en">## Sources of discrepancies</translation>
           <translation lang="ru"/>
         </translations>
       </field>
       <field id="DOC_METHOD">
         <translations>
-          <translation lang="en">Data availability
-
-Description: The data covers more than 170 countries.</translation>
+          <translation lang="en"># Data availability
+## Description
+The data covers more than 170 countries.</translation>
           <translation lang="ru"/>
         </translations>
       </field>
       <field id="COLL_METHOD">
         <translations>
-          <translation lang="en">Collection process
+          <translation lang="en">## Collection process
 The IRP Global Material Flows and Resource Productivity working group compiles the data from countries and from other sources.</translation>
           <translation lang="ru"/>
         </translations>
       </field>
       <field id="DOC_METHOD">
         <translations>
-          <translation lang="en">Data availability
-
-Description: The data covers more than 170 countries.</translation>
+          <translation lang="en"># Data availability
+## Description
+The data covers more than 170 countries.</translation>
           <translation lang="ru"/>
         </translations>
       </field>
       <field id="SDG_SERIES_DESCR">
         <translations>
-          <translation lang="en">Time series
+          <translation lang="en">## Time series
 The data set covers each nation individually, over a time period of 47 years (1970-2017).</translation>
           <translation lang="ru"/>
         </translations>
       </field>
       <field id="FREQ_COLL">
         <translations>
-          <translation lang="en">Data collection
+          <translation lang="en">## Data collection
 Under discussion</translation>
           <translation lang="ru"/>
         </translations>
       </field>
       <field id="REL_CAL_POLICY">
         <translations>
-          <translation lang="en">Data release
+          <translation lang="en">## Data release
 September 11, 2017</translation>
           <translation lang="ru"/>
         </translations>
       </field>
       <field id="DATA_SOURCE">
         <translations>
-          <translation lang="en">Data providers
+          <translation lang="en"># Data providers
 National Statistical Offices</translation>
           <translation lang="ru"/>
         </translations>
       </field>
       <field id="COMPILING_ORG">
         <translations>
-          <translation lang="en">Data compilers
+          <translation lang="en"># Data compilers
 UNEP, OECD and EUROSTAT</translation>
           <translation lang="ru"/>
         </translations>
       </field>
       <field id="CONTACT_ORGANISATION">
         <translations>
-          <translation lang="en">References 
+          <translation lang="en"># References 
 
-URL</translation>
+## URL</translation>
           <translation lang="ru"/>
         </translations>
       </field>
       <field id="REFERENCES">
         <translations>
-          <translation lang="en">References
+          <translation lang="en">## References
 EUROSTAT (2013). Economy-wide material flow accounts. Compilation guide 2013.
 Wiedmann, T., H. Schandl, M. Lenzen, D. Moran, S. Suh, J. West, K. Kanemoto, (2013) The Material Footprint of Nations, Proc. Nat. Acad. Sci. Online before print.
 Lenzen, M., Moran, D., Kanemoto, K., Geschke, A. (2013) Building Eora: A global Multi-regional Input-Output Database at High Country and Secotr Resolution, Economic Systems Research, 25:1, 20-49.</translation>
@@ -7261,7 +7260,7 @@ Lenzen, M., Moran, D., Kanemoto, K., Geschke, A. (2013) Building Eora: A global 
       </field>
       <field id="SDG_RELATED_INDICATORS">
         <translations>
-          <translation lang="en">Related indicators
+          <translation lang="en"># Related indicators
 Indicator 12.2.2</translation>
           <translation lang="ru"/>
         </translations>
