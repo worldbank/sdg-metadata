@@ -1,6 +1,6 @@
 <!doctype html>
 <!--
-  Minimal Mistakes Jekyll Theme 4.19.0 by Michael Rose
+  Minimal Mistakes Jekyll Theme 4.19.1 by Michael Rose
   Copyright 2013-2019 Michael Rose - mademistakes.com | @mmistakes
   Free for personal and commercial use under the MIT license
   https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
@@ -93,15 +93,7 @@
 <!-- Mathjax -->
 <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
 <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-<script>
-// Lock down the MathJax delimiters to $ and $$.
-MathJax = {
-  tex: {
-    inlineMath: [['$', '$']],
-    displayMath: [['$$', '$$']],
-  },
-};
-</script>
+
   </head>
 
   <body class="layout--indicator">
@@ -280,11 +272,9 @@ Some of these issues can be solved through disaggregation of the index at the le
 
 <h1 id="methodology">Methodology</h1>
 <h2 id="method-of-computation">Method of computation</h2>
-<p>The indicator is computed as the total freshwater withdrawn ($TWW$) divided by the difference between the total renewable freshwater resources ($TRWR$) and the environmental water requirements ($Env.$), multiplied by 100. All variables are expressed in km3/year (109 m3/year).</p>
+<p>The indicator is computed as the total freshwater withdrawn (\(TWW\)) divided by the difference between the total renewable freshwater resources (\(TRWR\)) and the environmental water requirements (\(Env.\)), multiplied by 100. All variables are expressed in km3/year (109 m3/year).</p>
 
-<div class="kdmath">$$
-Stress (\%) = TWW \div (TRWR - Env.) \times 100
-$$</div>
+<p>\[Stress (\%) = TWW \div (TRWR - Env.) \times 100\]</p>
 
 <p>It is proposed to classify the level of water stress in three main categories (levels): low, high and very high. The thresholds for the indicator could be country specific, to reflect differences in climate and national water management objectives. Alternatively, uniform thresholds could be proposed using existing literature and taking into account environmental water requirements.</p>
 
@@ -320,14 +310,12 @@ $$</div>
 The indicator is computed based on three components:</p>
 
 <ul>
-  <li>Total renewable freshwater resources ($TRWR$)</li>
-  <li>Total freshwater withdrawal ($TWW$)</li>
-  <li>Environmental flow requirements ($EFR$)</li>
+  <li>Total renewable freshwater resources (\(TRWR\)</li>
+  <li>Total freshwater withdrawal (\TWW\)</li>
+  <li>Environmental flow requirements (\EFR\)</li>
 </ul>
 
-<div class="kdmath">$$
-Water\:Stress (\%) = {TWW \over {TRWR-EFR.}} \times 100
-$$</div>
+<p>\[Water:Stress (\%) = {TWW \over {TRWR-EFR.}} \times 100\]</p>
 
 <p>Several documents exist that can be used to support countries in the computation of this indicator. Among them:</p>
 

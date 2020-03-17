@@ -1,6 +1,6 @@
 <!doctype html>
 <!--
-  Minimal Mistakes Jekyll Theme 4.19.0 by Michael Rose
+  Minimal Mistakes Jekyll Theme 4.19.1 by Michael Rose
   Copyright 2013-2019 Michael Rose - mademistakes.com | @mmistakes
   Free for personal and commercial use under the MIT license
   https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
@@ -93,15 +93,7 @@
 <!-- Mathjax -->
 <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
 <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-<script>
-// Lock down the MathJax delimiters to $ and $$.
-MathJax = {
-  tex: {
-    inlineMath: [['$', '$']],
-    displayMath: [['$$', '$$']],
-  },
-};
-</script>
+
   </head>
 
   <body class="layout--indicator">
@@ -446,21 +438,19 @@ The table below shows the minimum proficiency levels for each learning assessmen
 <h1 id="methodology">Methodology</h1>
 
 <h2 id="computation-method">Computation method</h2>
-<p>The number of children and/or young people at the relevant stage of education $n$ in year $t$ achieving at least the pre-defined proficiency level in subject $s$ expressed as a percentage of the number of children and/or young people at stage of education $n$, in year $t$, in any proficiency level in subject $s$.</p>
+<p>The number of children and/or young people at the relevant stage of education \(n\) in year \(t\) achieving at least the pre-defined proficiency level in subject \(s\) expressed as a percentage of the number of children and/or young people at stage of education \(n\), in year \(t\), in any proficiency level in subject \(s\).</p>
 
-<div class="kdmath">$$
-MPL_{t,n,s} = {MP_{t,n,s} / P_{t,n}}
-$$</div>
+<p>\[MPL_{t,n,s} = {MP_{t,n,s} / P_{t,n}}\]</p>
 
 <p>where:</p>
 
-<p>$MPL_{t,n,s}$ = the number of children and young people at stage of education n, in year t, who have achieved at least the minimum proficiency level in subject s.</p>
+<p>\(MPL_{t,n,s}\) = the number of children and young people at stage of education n, in year t, who have achieved at least the minimum proficiency level in subject s.</p>
 
-<p>$P_{t,n}$ = the number of children and young people at stage of education n, in year t, in any proficiency level in subject s.</p>
+<p>\(P_{t,n}\) = the number of children and young people at stage of education n, in year t, in any proficiency level in subject s.</p>
 
-<p>$n$ = the stage of education that was assessed</p>
+<p>\(n\) = the stage of education that was assessed</p>
 
-<p>$s$ = the subject that was assessed (reading or mathematics).</p>
+<p>\(s\) = the subject that was assessed (reading or mathematics).</p>
 
 <p><a name="DISAGGREGATION"></a></p>
 

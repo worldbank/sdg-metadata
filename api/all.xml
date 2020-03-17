@@ -1810,10 +1810,10 @@ As with all indicators, there are a number of potential challenges and limitatio
 The indicator considers two components to be computed as follows:
 
 a) Slum/Informal Settlements households (SISH):  
-$$100 \times [{\text{Number of people living} \in \text{SISH households} \over \text{City population}}]$$
+\\[100 \times [{\text{Number of people living} \in \text{SISH households} \over \text{City population}}]\\]
 
  b) Inadequate housing households (IHH):  
-$$100 \times [{\text{Number of people living} \in \text{IHH} \over \text{City population}}]$$
+\\[100 \times [{\text{Number of people living} \in \text{IHH} \over \text{City population}}]\\]
 
 The unit of measurements for all these indicators will be %. Currently, the data for this indicator is already being reported in nearly all developing countries on what refers to slums and informal settlements, and in some countries for what refers to expenditure on housing. The SDG indicator 11.1.1 will therefore contribute to report on a broader spectrum of inadequate housing conditions affecting households in all countries.
 									</field>
@@ -2231,10 +2231,10 @@ As with all indicators, there are a number of potential challenges and limitatio
 The indicator considers two components to be computed as follows:
 
 a) Slum/Informal Settlements households (SISH):  
-$$100 \times [{\text{Number of people living} \in \text{SISH households} \over \text{City population}}]$$
+\\[100 \times [{\text{Number of people living} \in \text{SISH households} \over \text{City population}}]\\]
 
  b) Inadequate housing households (IHH):  
-$$100 \times [{\text{Number of people living} \in \text{IHH} \over \text{City population}}]$$
+\\[100 \times [{\text{Number of people living} \in \text{IHH} \over \text{City population}}]\\]
 
 The unit of measurements for all these indicators will be %. Currently, the data for this indicator is already being reported in nearly all developing countries on what refers to slums and informal settlements, and in some countries for what refers to expenditure on housing. The SDG indicator 11.1.1 will therefore contribute to report on a broader spectrum of inadequate housing conditions affecting households in all countries.
 
@@ -6341,19 +6341,19 @@ Comparability over time is possible if the assessment is designed with an adequa
 									<field id="DATA_COMP"># Methodology
 
 ## Computation method
-The number of children and/or young people at the relevant stage of education $n$ in year $t$ achieving at least the pre-defined proficiency level in subject $s$ expressed as a percentage of the number of children and/or young people at stage of education $n$, in year $t$, in any proficiency level in subject $s$.
+The number of children and/or young people at the relevant stage of education \\(n\\) in year \\(t\\) achieving at least the pre-defined proficiency level in subject \\(s\\) expressed as a percentage of the number of children and/or young people at stage of education \\(n\\), in year \\(t\\), in any proficiency level in subject \\(s\\).
 
-$$MPL_{t,n,s} = {MP_{t,n,s} / P_{t,n}}$$
+\\[MPL_{t,n,s} = {MP_{t,n,s} / P_{t,n}}\\]
 
 where: 
 
-$MPL_{t,n,s}$ = the number of children and young people at stage of education n, in year t, who have achieved at least the minimum proficiency level in subject s.
+\\(MPL_{t,n,s}\\) = the number of children and young people at stage of education n, in year t, who have achieved at least the minimum proficiency level in subject s.
 
-$P_{t,n}$ = the number of children and young people at stage of education n, in year t, in any proficiency level in subject s.
+\\(P_{t,n}\\) = the number of children and young people at stage of education n, in year t, in any proficiency level in subject s.
 
-$n$ = the stage of education that was assessed
+\\(n\\) = the stage of education that was assessed
 
-$s$ = the subject that was assessed (reading or mathematics).
+\\(s\\) = the subject that was assessed (reading or mathematics).
 
 									</field>
 									<field id="DISAGGREGATION">## Disaggregation
@@ -6862,19 +6862,19 @@ Comparability over time is possible if the assessment is designed with an adequa
 # Methodology
 
 ## Computation method
-The number of children and/or young people at the relevant stage of education $n$ in year $t$ achieving at least the pre-defined proficiency level in subject $s$ expressed as a percentage of the number of children and/or young people at stage of education $n$, in year $t$, in any proficiency level in subject $s$.
+The number of children and/or young people at the relevant stage of education \\(n\\) in year \\(t\\) achieving at least the pre-defined proficiency level in subject \\(s\\) expressed as a percentage of the number of children and/or young people at stage of education \\(n\\), in year \\(t\\), in any proficiency level in subject \\(s\\).
 
-$$MPL_{t,n,s} = {MP_{t,n,s} / P_{t,n}}$$
+\\[MPL_{t,n,s} = {MP_{t,n,s} / P_{t,n}}\\]
 
 where: 
 
-$MPL_{t,n,s}$ = the number of children and young people at stage of education n, in year t, who have achieved at least the minimum proficiency level in subject s.
+\\(MPL_{t,n,s}\\) = the number of children and young people at stage of education n, in year t, who have achieved at least the minimum proficiency level in subject s.
 
-$P_{t,n}$ = the number of children and young people at stage of education n, in year t, in any proficiency level in subject s.
+\\(P_{t,n}\\) = the number of children and young people at stage of education n, in year t, in any proficiency level in subject s.
 
-$n$ = the stage of education that was assessed
+\\(n\\) = the stage of education that was assessed
 
-$s$ = the subject that was assessed (reading or mathematics).
+\\(s\\) = the subject that was assessed (reading or mathematics).
 
 
 ## Disaggregation
@@ -7209,9 +7209,9 @@ While data from many national assessments are available now, every country sets 
 ## Computation method
 The indicator is calculated as the percentage of children and/or young people at the relevant stage of education achieving or exceeding a pre-defined proficiency level in a given subject. 
 
-Performance above the minimum level, $PL_{tn,s}$ above minimum = $p$
+Performance above the minimum level, \\(PL_{tn,s}\\) above minimum = \\(p\\)
 
-where $p$ is the percentage of students in a learning assessment at stage of education $n$, in subject $s$ in any year ($t-i$) where $0 ? i ? 5$, who has achieved the level of proficiency that is greater than a pre-defined minimum standard, $Smin$. The minimum standard is defined by the global education community taking into consideration regional differences.
+where \\(p\\) is the percentage of students in a learning assessment at stage of education \\(n\\), in subject \\(s\\) in any year (\\(t-i\\)) where \\(0 ? i ? 5\\), who has achieved the level of proficiency that is greater than a pre-defined minimum standard, \\(Smin\\). The minimum standard is defined by the global education community taking into consideration regional differences.
 									</field>
 									<field id="DISAGGREGATION">## Disaggegation
 By age or age-group of students, sex, location, socio-economic status, migrant status and ethnicity. Disability status is not currently available in most national and cross-national learning assessments but could be considered for future assessments.
@@ -7309,9 +7309,9 @@ While data from many national assessments are available now, every country sets 
 ## Computation method
 The indicator is calculated as the percentage of children and/or young people at the relevant stage of education achieving or exceeding a pre-defined proficiency level in a given subject. 
 
-Performance above the minimum level, $PL_{tn,s}$ above minimum = $p$
+Performance above the minimum level, \\(PL_{tn,s}\\) above minimum = \\(p\\)
 
-where $p$ is the percentage of students in a learning assessment at stage of education $n$, in subject $s$ in any year ($t-i$) where $0 ? i ? 5$, who has achieved the level of proficiency that is greater than a pre-defined minimum standard, $Smin$. The minimum standard is defined by the global education community taking into consideration regional differences.
+where \\(p\\) is the percentage of students in a learning assessment at stage of education \\(n\\), in subject \\(s\\) in any year (\\(t-i\\)) where \\(0 ? i ? 5\\), who has achieved the level of proficiency that is greater than a pre-defined minimum standard, \\(Smin\\). The minimum standard is defined by the global education community taking into consideration regional differences.
 
 ## Disaggegation
 By age or age-group of students, sex, location, socio-economic status, migrant status and ethnicity. Disability status is not currently available in most national and cross-national learning assessments but could be considered for future assessments.
@@ -7629,9 +7629,9 @@ Some of these issues can be solved through disaggregation of the index at the le
 									</field>
 									<field id="DATA_COMP"># Methodology
 ## Method of computation
-The indicator is computed as the total freshwater withdrawn ($TWW$) divided by the difference between the total renewable freshwater resources ($TRWR$) and the environmental water requirements ($Env.$), multiplied by 100. All variables are expressed in km3/year (109 m3/year).
+The indicator is computed as the total freshwater withdrawn (\\(TWW\\)) divided by the difference between the total renewable freshwater resources (\\(TRWR\\)) and the environmental water requirements (\\(Env.\\)), multiplied by 100. All variables are expressed in km3/year (109 m3/year).
 
-$$Stress (\%) = TWW \div (TRWR - Env.) \times 100$$
+\\[Stress (\%) = TWW \div (TRWR - Env.) \times 100\\]
 
 It is proposed to classify the level of water stress in three main categories (levels): low, high and very high. The thresholds for the indicator could be country specific, to reflect differences in climate and national water management objectives. Alternatively, uniform thresholds could be proposed using existing literature and taking into account environmental water requirements.
 									</field>
@@ -7654,11 +7654,11 @@ Differences might occur due to the following, amongst others: For national estim
 This indicator provides an estimate of pressure by all sectors on the country’s renewable freshwater resources. A low level of water stress indicates a situation where the combined withdrawal by all sectors is marginal in relation to the resources, and has therefore little potential impact on the sustainability of the resources or on the potential competition between users. A high level of water stress indicates a situation where the combined withdrawal by all sectors represents a substantial share of the total renewable freshwater resources, with potentially larger impacts on the sustainability of the resources and potential situations of conflicts and competition between users.
 The indicator is computed based on three components:
 
-* Total renewable freshwater resources ($TRWR$)
-* Total freshwater withdrawal ($TWW$)
-* Environmental flow requirements ($EFR$)
+* Total renewable freshwater resources (\\(TRWR\\)
+* Total freshwater withdrawal (\\TWW\\)
+* Environmental flow requirements (\\EFR\\)
 
-$$Water\:Stress (\%) = {TWW \over {TRWR-EFR.}} \times 100$$
+\\[Water\:Stress (\%) = {TWW \over {TRWR-EFR.}} \times 100\\]
 
 Several documents exist that can be used to support countries in the computation of this indicator. Among them:
 
@@ -7867,9 +7867,9 @@ Some of these issues can be solved through disaggregation of the index at the le
 
 # Methodology
 ## Method of computation
-The indicator is computed as the total freshwater withdrawn ($TWW$) divided by the difference between the total renewable freshwater resources ($TRWR$) and the environmental water requirements ($Env.$), multiplied by 100. All variables are expressed in km3/year (109 m3/year).
+The indicator is computed as the total freshwater withdrawn (\\(TWW\\)) divided by the difference between the total renewable freshwater resources (\\(TRWR\\)) and the environmental water requirements (\\(Env.\\)), multiplied by 100. All variables are expressed in km3/year (109 m3/year).
 
-$$Stress (\%) = TWW \div (TRWR - Env.) \times 100$$
+\\[Stress (\%) = TWW \div (TRWR - Env.) \times 100\\]
 
 It is proposed to classify the level of water stress in three main categories (levels): low, high and very high. The thresholds for the indicator could be country specific, to reflect differences in climate and national water management objectives. Alternatively, uniform thresholds could be proposed using existing literature and taking into account environmental water requirements.
 
@@ -7892,11 +7892,11 @@ Differences might occur due to the following, amongst others: For national estim
 This indicator provides an estimate of pressure by all sectors on the country’s renewable freshwater resources. A low level of water stress indicates a situation where the combined withdrawal by all sectors is marginal in relation to the resources, and has therefore little potential impact on the sustainability of the resources or on the potential competition between users. A high level of water stress indicates a situation where the combined withdrawal by all sectors represents a substantial share of the total renewable freshwater resources, with potentially larger impacts on the sustainability of the resources and potential situations of conflicts and competition between users.
 The indicator is computed based on three components:
 
-* Total renewable freshwater resources ($TRWR$)
-* Total freshwater withdrawal ($TWW$)
-* Environmental flow requirements ($EFR$)
+* Total renewable freshwater resources (\\(TRWR\\)
+* Total freshwater withdrawal (\\TWW\\)
+* Environmental flow requirements (\\EFR\\)
 
-$$Water\:Stress (\%) = {TWW \over {TRWR-EFR.}} \times 100$$
+\\[Water\:Stress (\%) = {TWW \over {TRWR-EFR.}} \times 100\\]
 
 Several documents exist that can be used to support countries in the computation of this indicator. Among them:
 

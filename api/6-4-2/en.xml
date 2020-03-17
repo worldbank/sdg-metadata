@@ -58,9 +58,9 @@ Some of these issues can be solved through disaggregation of the index at the le
 
 # Methodology
 ## Method of computation
-The indicator is computed as the total freshwater withdrawn ($TWW$) divided by the difference between the total renewable freshwater resources ($TRWR$) and the environmental water requirements ($Env.$), multiplied by 100. All variables are expressed in km3/year (109 m3/year).
+The indicator is computed as the total freshwater withdrawn (\\(TWW\\)) divided by the difference between the total renewable freshwater resources (\\(TRWR\\)) and the environmental water requirements (\\(Env.\\)), multiplied by 100. All variables are expressed in km3/year (109 m3/year).
 
-$$Stress (\%) = TWW \div (TRWR - Env.) \times 100$$
+\\[Stress (\%) = TWW \div (TRWR - Env.) \times 100\\]
 
 It is proposed to classify the level of water stress in three main categories (levels): low, high and very high. The thresholds for the indicator could be country specific, to reflect differences in climate and national water management objectives. Alternatively, uniform thresholds could be proposed using existing literature and taking into account environmental water requirements.
 
@@ -83,11 +83,11 @@ Differences might occur due to the following, amongst others: For national estim
 This indicator provides an estimate of pressure by all sectors on the country’s renewable freshwater resources. A low level of water stress indicates a situation where the combined withdrawal by all sectors is marginal in relation to the resources, and has therefore little potential impact on the sustainability of the resources or on the potential competition between users. A high level of water stress indicates a situation where the combined withdrawal by all sectors represents a substantial share of the total renewable freshwater resources, with potentially larger impacts on the sustainability of the resources and potential situations of conflicts and competition between users.
 The indicator is computed based on three components:
 
-* Total renewable freshwater resources ($TRWR$)
-* Total freshwater withdrawal ($TWW$)
-* Environmental flow requirements ($EFR$)
+* Total renewable freshwater resources (\\(TRWR\\)
+* Total freshwater withdrawal (\\TWW\\)
+* Environmental flow requirements (\\EFR\\)
 
-$$Water\:Stress (\%) = {TWW \over {TRWR-EFR.}} \times 100$$
+\\[Water\:Stress (\%) = {TWW \over {TRWR-EFR.}} \times 100\\]
 
 Several documents exist that can be used to support countries in the computation of this indicator. Among them:
 
