@@ -3,7 +3,7 @@ layout: single
 title: Documentation
 permalink: /documentation/
 ---
-This pilot produced a series of papers describing in detail the protocol used. The protocol is intended to enable others to replicate the pilot for their own translation needs. The papers describing the protocol are updated on a flow basis to incorporate lessons learned. User and developer feedback is welcomed at [tbd].
+This pilot produced a series of papers describing in detail the protocol used. The protocol is intended to enable others to replicate the pilot for their own translation needs. The papers describing the protocol are updated on a flow basis to incorporate lessons learned. User and developer feedback is welcomed at contact@odenterprise.org.
 
 1. [Project Overview](https://docs.google.com/document/d/11zCfKi93KjMZSlEg4uvjMjz1cYkwLbx7ouxqpBZDhW4)
 2. [Selection of Indicators](https://docs.google.com/document/d/1WiabxX2BrsLaU2bF_l5YzNpZvKYn7rn-2qLKB98XTpo)
