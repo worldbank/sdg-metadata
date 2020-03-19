@@ -13,4 +13,4 @@ Launched in January 2020, the pilot is the result of a collaboration by the Worl
 * [Metadata]({{ site.baseurl }}/metadata/)
 * [Notes for Developers]({{ site.baseurl }}/developers/)
 
-For more information about the project, please contact [TBD].
+For more information about the project, please email contact@odenterprise.org.
