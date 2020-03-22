@@ -1,3 +1,5 @@
+.PHONY: test
+
 install:
 	npm install
 	cd www && bundle install
