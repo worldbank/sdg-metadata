@@ -4,129 +4,6 @@
 	<message>The DATA_AVAILABILITY field for indicator 3-8-2, translated into all languages</message>
 	<data>
 		<languages>
-			<language lang="en"># Data Availability
-
-This indicator relies primarily on the same data sources that are used to monitor SDG indicator 1.1.1 with the additional requirement of the availability of information regarding health expenditures. Taking this into account, the World Bank and WHO have identified 1566 potentially suitable household survey datasets from 155 countries. Some of these surveys were excluded because they were either inaccessible, lacked key variables required for the estimation of the proportion of the population with large household expenditures on health as a share of total household expenditure or income, they did not pass the quality assurance process or were not part of a consistent time series.  As of December 2017 a total of 553 datapoints from 132 countries or territories spanning the period 1984-2015 have been used to produce SDG indicator 3.8.2.
-
-Data availability measured in terms of the number of countries that WHO and the World Bank have currently reviewed and retained for the estimation of the “proportion of the population with large household expenditures on health as a share of total household expenditure or income” is as follows for the most recent year:
-
-&lt;table&gt;
-  &lt;tr&gt;
-    &lt;td colspan=&quot;2&quot;&gt;&lt;/td&gt;
-    &lt;td colspan=&quot;6&quot;&gt;
-      Retained by WHO and the World Bank for the estimation of the &quot;proportion of the population with large household expenditure on health as a share of total household expenditure or income&quot;
-    &lt;/td&gt;
-  &lt;/tr&gt;
-  &lt;tr&gt;
-    &lt;td&gt;SDG regional breakdown&lt;/td&gt;
-    &lt;td&gt;Number of WHO Member States&lt;/td&gt;
-    &lt;td colspan=&quot;2&quot;&gt;2005 or earlier&lt;/td&gt;
-    &lt;td colspan=&quot;2&quot;&gt;2006-2015&lt;/td&gt;
-    &lt;td colspan=&quot;2&quot;&gt;Total per SDG region&lt;/td&gt;
-  &lt;/tr&gt;
-  &lt;tr&gt;
-    &lt;td colspan=&quot;2&quot;&gt;&lt;/td&gt;
-    &lt;td&gt;(nb of MS)&lt;/td&gt;
-    &lt;td&gt;(% by region)&lt;/td&gt;
-    &lt;td&gt;(nb of MS)&lt;/td&gt;
-    &lt;td&gt;(% by region)&lt;/td&gt;
-    &lt;td&gt;(nb of MS)&lt;/td&gt;
-    &lt;td&gt;(% by region)&lt;/td&gt;
-  &lt;/tr&gt;
-  &lt;tr&gt;
-    &lt;td&gt;Northern America (M49) and Europe (M49)&lt;/td&gt;
-    &lt;td&gt;44&lt;/td&gt;
-    &lt;td&gt;6&lt;/td&gt;
-    &lt;td&gt;13.60%&lt;/td&gt;
-    &lt;td&gt;33&lt;/td&gt;
-    &lt;td&gt;&lt;strong&gt;75.00%&lt;/strong&gt;&lt;/td&gt;
-    &lt;td&gt;39&lt;/td&gt;
-    &lt;td&gt;&lt;strong&gt;88.60%&lt;/strong&gt;&lt;/td&gt;
-  &lt;/tr&gt;
-  &lt;tr&gt;
-    &lt;td&gt;Latin America and the Caribbean (MDG=M49)&lt;/td&gt;
-    &lt;td&gt;33&lt;/td&gt;
-    &lt;td&gt;7&lt;/td&gt;
-    &lt;td&gt;21.20%&lt;/td&gt;
-    &lt;td&gt;10&lt;/td&gt;
-    &lt;td&gt;30.30%&lt;/td&gt;
-    &lt;td&gt;17&lt;/td&gt;
-    &lt;td&gt;&lt;strong&gt;51.50%&lt;/strong&gt;&lt;/td&gt;
-  &lt;/tr&gt;
-  &lt;tr&gt;
-    &lt;td&gt;Central Asia (M49) and Southern Asia (MDG=M49)&lt;/td&gt;
-    &lt;td&gt;14&lt;/td&gt;
-    &lt;td&gt;0&lt;/td&gt;
-    &lt;td&gt;0.00%&lt;/td&gt;
-    &lt;td&gt;11&lt;/td&gt;
-    &lt;td&gt;&lt;strong&gt;78.60%&lt;/strong&gt;&lt;/td&gt;
-    &lt;td&gt;11&lt;/td&gt;
-    &lt;td&gt;&lt;strong&gt;78.60%&lt;/strong&gt;&lt;/td&gt;
-  &lt;/tr&gt;
-  &lt;tr&gt;
-    &lt;td&gt;Eastern Asia (M49) and South-eastern Asia (MDG=M49)&lt;/td&gt;
-    &lt;td&gt;16&lt;/td&gt;
-    &lt;td&gt;2&lt;/td&gt;
-    &lt;td&gt;12.50%&lt;/td&gt;
-    &lt;td&gt;10&lt;/td&gt;
-    &lt;td&gt;&lt;strong&gt;62.50%&lt;/strong&gt;&lt;/td&gt;
-    &lt;td&gt;12&lt;/td&gt;
-    &lt;td&gt;&lt;strong&gt;75.00%&lt;/strong&gt;&lt;/td&gt;
-  &lt;/tr&gt;
-  &lt;tr&gt;
-    &lt;td&gt;Western Asia (M49) and Northern Africa (M49)&lt;/td&gt;
-    &lt;td&gt;23&lt;/td&gt;
-    &lt;td&gt;4&lt;/td&gt;
-    &lt;td&gt;17.40%&lt;/td&gt;
-    &lt;td&gt;9&lt;/td&gt;
-    &lt;td&gt;39.10%&lt;/td&gt;
-    &lt;td&gt;13&lt;/td&gt;
-    &lt;td&gt;&lt;strong&gt;56.50%&lt;/strong&gt;&lt;/td&gt;
-  &lt;/tr&gt;
-  &lt;tr&gt;
-    &lt;td&gt;Sub-Saharan Africa (M49)&lt;/td&gt;
-    &lt;td&gt;48&lt;/td&gt;
-    &lt;td&gt;16&lt;/td&gt;
-    &lt;td&gt;33.30%&lt;/td&gt;
-    &lt;td&gt;21&lt;/td&gt;
-    &lt;td&gt;43.80%&lt;/td&gt;
-    &lt;td&gt;37&lt;/td&gt;
-    &lt;td&gt;&lt;strong&gt;77.10%&lt;/strong&gt;&lt;/td&gt;
-  &lt;/tr&gt;
-  &lt;tr&gt;
-    &lt;td&gt;Australia and New Zealand (M49)&lt;/td&gt;
-    &lt;td&gt;2&lt;/td&gt;
-    &lt;td&gt;0&lt;/td&gt;
-    &lt;td&gt;0.00%&lt;/td&gt;
-    &lt;td&gt;1&lt;/td&gt;
-    &lt;td&gt;&lt;strong&gt;50.00%&lt;/strong&gt;&lt;/td&gt;
-    &lt;td&gt;1&lt;/td&gt;
-    &lt;td&gt;&lt;strong&gt;50.00%&lt;/strong&gt;&lt;/td&gt;
-  &lt;/tr&gt;
-  &lt;tr&gt;
-    &lt;td&gt;Oceania (M49) excluding Australia and New Zealand (M49)&lt;/td&gt;
-    &lt;td&gt;14&lt;/td&gt;
-    &lt;td&gt;1&lt;/td&gt;
-    &lt;td&gt;7.10%&lt;/td&gt;
-    &lt;td&gt;0&lt;/td&gt;
-    &lt;td&gt;0.00%&lt;/td&gt;
-    &lt;td&gt;1&lt;/td&gt;
-    &lt;td&gt;7.10%&lt;/td&gt;
-  &lt;/tr&gt;
-  &lt;tr&gt;
-    &lt;td&gt;&lt;/td&gt;
-    &lt;td&gt;194&lt;/td&gt;
-    &lt;td&gt;36&lt;/td&gt;
-    &lt;td&gt;18.60%&lt;/td&gt;
-    &lt;td&gt;95&lt;/td&gt;
-    &lt;td&gt;49.00%&lt;/td&gt;
-    &lt;td&gt;131&lt;/td&gt;
-    &lt;td&gt;&lt;strong&gt;67.50%&lt;/strong&gt;&lt;/td&gt;
-  &lt;/tr&gt;
-&lt;/table&gt;
-
-Overall data availability covers at least 50% of all WHO member States in all M49 regions except for those in Oceania (7.1%).  For more information, please consult WHO and World Bank 2017 report on tracking universal health ; Wagstaff  et al 2018.
-			</language>
 			<language lang="ru"># Доступность данных
 
 Этот показатель основывается главным образом на тех же источниках данных, которые используются для мониторинга показателя 1.1.1 ЦУР с дополнительным требованием доступности информации о расходах на здравоохранение. Принимая это во внимание, Всемирный банк и ВОЗ определили 1566 потенциально подходящих наборов данных обследования домашних хозяйств из 155 стран. Некоторые из этих обследований были исключены, поскольку они либо были недоступны, либо отсутствовали ключевые переменные, необходимые для оценки доли населения с большими расходами домохозяйств на здравоохранение, как доли от общих расходов или доходов домохозяйств, они не проходили процесс обеспечения качества или не были частью сопоставимого временного ряда. По состоянию на декабрь 2017 года для получения показателя ЦУР 3.8.2 было использовано в общей сложности 553 точки ввода данных из 132 стран или территорий за период 1984-2015 гг.
@@ -249,6 +126,129 @@ Overall data availability covers at least 50% of all WHO member States in all M4
 &lt;/table&gt;
 
 Общая доступность данных охватывает не менее 50% всех государств-членов ВОЗ во всех регионах M49, за исключением тех, которые находятся в Океании (7,1%). Для получения дополнительной информации, пожалуйста, обратитесь к отчету ВОЗ и Всемирного банка за 2017 год по отслеживанию всеобщего здоровья; Wagstaff et al 2018.
+			</language>
+			<language lang="en"># Data Availability
+
+This indicator relies primarily on the same data sources that are used to monitor SDG indicator 1.1.1 with the additional requirement of the availability of information regarding health expenditures. Taking this into account, the World Bank and WHO have identified 1566 potentially suitable household survey datasets from 155 countries. Some of these surveys were excluded because they were either inaccessible, lacked key variables required for the estimation of the proportion of the population with large household expenditures on health as a share of total household expenditure or income, they did not pass the quality assurance process or were not part of a consistent time series.  As of December 2017 a total of 553 datapoints from 132 countries or territories spanning the period 1984-2015 have been used to produce SDG indicator 3.8.2.
+
+Data availability measured in terms of the number of countries that WHO and the World Bank have currently reviewed and retained for the estimation of the “proportion of the population with large household expenditures on health as a share of total household expenditure or income” is as follows for the most recent year:
+
+&lt;table&gt;
+  &lt;tr&gt;
+    &lt;td colspan=&quot;2&quot;&gt;&lt;/td&gt;
+    &lt;td colspan=&quot;6&quot;&gt;
+      Retained by WHO and the World Bank for the estimation of the &quot;proportion of the population with large household expenditure on health as a share of total household expenditure or income&quot;
+    &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;SDG regional breakdown&lt;/td&gt;
+    &lt;td&gt;Number of WHO Member States&lt;/td&gt;
+    &lt;td colspan=&quot;2&quot;&gt;2005 or earlier&lt;/td&gt;
+    &lt;td colspan=&quot;2&quot;&gt;2006-2015&lt;/td&gt;
+    &lt;td colspan=&quot;2&quot;&gt;Total per SDG region&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td colspan=&quot;2&quot;&gt;&lt;/td&gt;
+    &lt;td&gt;(nb of MS)&lt;/td&gt;
+    &lt;td&gt;(% by region)&lt;/td&gt;
+    &lt;td&gt;(nb of MS)&lt;/td&gt;
+    &lt;td&gt;(% by region)&lt;/td&gt;
+    &lt;td&gt;(nb of MS)&lt;/td&gt;
+    &lt;td&gt;(% by region)&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;Northern America (M49) and Europe (M49)&lt;/td&gt;
+    &lt;td&gt;44&lt;/td&gt;
+    &lt;td&gt;6&lt;/td&gt;
+    &lt;td&gt;13.60%&lt;/td&gt;
+    &lt;td&gt;33&lt;/td&gt;
+    &lt;td&gt;&lt;strong&gt;75.00%&lt;/strong&gt;&lt;/td&gt;
+    &lt;td&gt;39&lt;/td&gt;
+    &lt;td&gt;&lt;strong&gt;88.60%&lt;/strong&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;Latin America and the Caribbean (MDG=M49)&lt;/td&gt;
+    &lt;td&gt;33&lt;/td&gt;
+    &lt;td&gt;7&lt;/td&gt;
+    &lt;td&gt;21.20%&lt;/td&gt;
+    &lt;td&gt;10&lt;/td&gt;
+    &lt;td&gt;30.30%&lt;/td&gt;
+    &lt;td&gt;17&lt;/td&gt;
+    &lt;td&gt;&lt;strong&gt;51.50%&lt;/strong&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;Central Asia (M49) and Southern Asia (MDG=M49)&lt;/td&gt;
+    &lt;td&gt;14&lt;/td&gt;
+    &lt;td&gt;0&lt;/td&gt;
+    &lt;td&gt;0.00%&lt;/td&gt;
+    &lt;td&gt;11&lt;/td&gt;
+    &lt;td&gt;&lt;strong&gt;78.60%&lt;/strong&gt;&lt;/td&gt;
+    &lt;td&gt;11&lt;/td&gt;
+    &lt;td&gt;&lt;strong&gt;78.60%&lt;/strong&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;Eastern Asia (M49) and South-eastern Asia (MDG=M49)&lt;/td&gt;
+    &lt;td&gt;16&lt;/td&gt;
+    &lt;td&gt;2&lt;/td&gt;
+    &lt;td&gt;12.50%&lt;/td&gt;
+    &lt;td&gt;10&lt;/td&gt;
+    &lt;td&gt;&lt;strong&gt;62.50%&lt;/strong&gt;&lt;/td&gt;
+    &lt;td&gt;12&lt;/td&gt;
+    &lt;td&gt;&lt;strong&gt;75.00%&lt;/strong&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;Western Asia (M49) and Northern Africa (M49)&lt;/td&gt;
+    &lt;td&gt;23&lt;/td&gt;
+    &lt;td&gt;4&lt;/td&gt;
+    &lt;td&gt;17.40%&lt;/td&gt;
+    &lt;td&gt;9&lt;/td&gt;
+    &lt;td&gt;39.10%&lt;/td&gt;
+    &lt;td&gt;13&lt;/td&gt;
+    &lt;td&gt;&lt;strong&gt;56.50%&lt;/strong&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;Sub-Saharan Africa (M49)&lt;/td&gt;
+    &lt;td&gt;48&lt;/td&gt;
+    &lt;td&gt;16&lt;/td&gt;
+    &lt;td&gt;33.30%&lt;/td&gt;
+    &lt;td&gt;21&lt;/td&gt;
+    &lt;td&gt;43.80%&lt;/td&gt;
+    &lt;td&gt;37&lt;/td&gt;
+    &lt;td&gt;&lt;strong&gt;77.10%&lt;/strong&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;Australia and New Zealand (M49)&lt;/td&gt;
+    &lt;td&gt;2&lt;/td&gt;
+    &lt;td&gt;0&lt;/td&gt;
+    &lt;td&gt;0.00%&lt;/td&gt;
+    &lt;td&gt;1&lt;/td&gt;
+    &lt;td&gt;&lt;strong&gt;50.00%&lt;/strong&gt;&lt;/td&gt;
+    &lt;td&gt;1&lt;/td&gt;
+    &lt;td&gt;&lt;strong&gt;50.00%&lt;/strong&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;Oceania (M49) excluding Australia and New Zealand (M49)&lt;/td&gt;
+    &lt;td&gt;14&lt;/td&gt;
+    &lt;td&gt;1&lt;/td&gt;
+    &lt;td&gt;7.10%&lt;/td&gt;
+    &lt;td&gt;0&lt;/td&gt;
+    &lt;td&gt;0.00%&lt;/td&gt;
+    &lt;td&gt;1&lt;/td&gt;
+    &lt;td&gt;7.10%&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td&gt;194&lt;/td&gt;
+    &lt;td&gt;36&lt;/td&gt;
+    &lt;td&gt;18.60%&lt;/td&gt;
+    &lt;td&gt;95&lt;/td&gt;
+    &lt;td&gt;49.00%&lt;/td&gt;
+    &lt;td&gt;131&lt;/td&gt;
+    &lt;td&gt;&lt;strong&gt;67.50%&lt;/strong&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;
+
+Overall data availability covers at least 50% of all WHO member States in all M49 regions except for those in Oceania (7.1%).  For more information, please consult WHO and World Bank 2017 report on tracking universal health ; Wagstaff  et al 2018.
 			</language>
 </languages>
 </data>

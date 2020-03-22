@@ -4,6 +4,7 @@
 	<message>The QUALITY_ASSURE field for indicator 6-4-2, translated into all languages</message>
 	<data>
 		<languages>
+			<language lang="ru"/>
 			<language lang="en">## Quality assurance
 Every data in AQUASTAT goes through a thorough validation process:
 Before uploading, data is compared to other variables to ensure it is logically correct (in other words: 1+2=3) and whether the reference used is not leading back to AQUASTAT itself. In other words, AQUASTAT frequently finds data for 2014, which is really AQUASTAT data for 2000 with the year changed (most probably when the data was harvested).
@@ -21,7 +22,6 @@ However, for the SDG process a specific mechanism will be put in place, consisti
 
 For those countries that could initially have difficulties in compiling and computing the indicator, FAO will provide support and ultimately will be able to produce the indicator starting from internationally available data. However, no data will be made public without the prior approval by the relevant national authorities.
 			</language>
-			<language lang="ru"/>
 </languages>
 </data>
 </root>

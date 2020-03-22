@@ -4,21 +4,6 @@
 	<message>The DATA_COMP field for indicator 1-1-1b, translated into all languages</message>
 	<data>
 		<languages>
-			<language lang="en"># Methodology
-
-## Computation method
-
-&lt;math&gt;
-  &lt;mi&gt;Working poverty rate&lt;/mi&gt;
-  &lt;mo&gt;=&lt;/mo&gt;
-  &lt;mfrac&gt;
-    &lt;mi&gt;Employed persons living on less than US$1.90 a day&lt;/mi&gt;
-    &lt;mi&gt;Total employment&lt;/mi&gt;
-  &lt;/mfrac&gt;
-  &lt;mo&gt;&amp;times;&lt;/mo&gt;
-  &lt;mn&gt;100&lt;/mn&gt;
-&lt;/math&gt;
-			</language>
 			<language lang="ru"># Методология
 
 ## Метод вычислений
@@ -31,6 +16,21 @@
     &lt;mi&gt;Общая занятость&lt;/mi&gt;
   &lt;/mfrac&gt;
   &lt;mo&gt; &amp;times; &lt;/mo&gt;
+  &lt;mn&gt;100&lt;/mn&gt;
+&lt;/math&gt;
+			</language>
+			<language lang="en"># Methodology
+
+## Computation method
+
+&lt;math&gt;
+  &lt;mi&gt;Working poverty rate&lt;/mi&gt;
+  &lt;mo&gt;=&lt;/mo&gt;
+  &lt;mfrac&gt;
+    &lt;mi&gt;Employed persons living on less than US$1.90 a day&lt;/mi&gt;
+    &lt;mi&gt;Total employment&lt;/mi&gt;
+  &lt;/mfrac&gt;
+  &lt;mo&gt;&amp;times;&lt;/mo&gt;
   &lt;mn&gt;100&lt;/mn&gt;
 &lt;/math&gt;
 			</language>

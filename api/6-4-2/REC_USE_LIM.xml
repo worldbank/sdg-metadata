@@ -4,6 +4,7 @@
 	<message>The REC_USE_LIM field for indicator 6-4-2, translated into all languages</message>
 	<data>
 		<languages>
+			<language lang="ru"/>
 			<language lang="en">## Comments and limitations
 Water withdrawal as a percentage of water resources is a good indicator of pressure on limited water resources, one of the most important natural resources. However, it only partially addresses the issues related to sustainable water management. 
 
@@ -26,7 +27,6 @@ Other limitations that affect the interpretation of the water stress indicator i
 * the indicator can be higher than 100 per cent when water withdrawal includes secondary freshwater (water withdrawn previously and returned to the system), non-renewable water (fossil groundwater), when annual groundwater withdrawal is higher than annual replenishment (over-abstraction) or when water withdrawal includes part or all of the water set aside for environmental water requirements. 
 Some of these issues can be solved through disaggregation of the index at the level of hydrological units and by distinguishing between different use sectors. However, due to the complexity of water flows, both within a country and between countries, care should be taken not to double-count.
 			</language>
-			<language lang="ru"/>
 </languages>
 </data>
 </root>

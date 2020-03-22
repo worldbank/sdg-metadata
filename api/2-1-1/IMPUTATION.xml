@@ -4,6 +4,7 @@
 	<message>The IMPUTATION field for indicator 2-1-1, translated into all languages</message>
 	<data>
 		<languages>
+			<language lang="ru"/>
 			<language lang="en">## Treatment of missing values
 
 * At country level 
@@ -16,7 +17,6 @@ See the section on method of computation for details.
 
 Missing values for individual countries are implicitly imputed to be equal to the population weighted average of the estimated values of the countries present in the same region.
 			</language>
-			<language lang="ru"/>
 </languages>
 </data>
 </root>
