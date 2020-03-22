@@ -4,11 +4,16 @@
   "description": "",
   "author": "",
   "license": "ISC",
+  "scripts": {
+    "test": "mocha"
+  },
   "dependencies": {
+    "chai": "4.2.0",
     "gettext-parser": "4.0.2",
     "jsontoxml": "1.0.1",
     "markdown-it": "10.0.0",
     "markdown-it-footnote": "3.0.2",
+    "mocha": "7.1.1",
     "pdf-puppeteer": "1.1.10",
     "read-excel-file": "4.0.5",
     "xliff": "4.4.0",
