@@ -33,17 +33,17 @@ module SdgMetadataPlugins
       base = site.source
 
       # Generate all the indicator pages.
-      site.data['all'].each do |language, indicators|
+      site.data['store']['metadata'].each do |language, indicators|
         indicators.each do |indicator, indicator_fields|
           dir = File.join('metadata', language, indicator) + '/'
           layout = 'indicator'
           title = 'Indicator: ' + indicator.gsub('-', '.')
           data = {'slug' => indicator}
 
-          toc = site.data['fields'][indicator].map {|k| '<a href="#' + k + '">' + k + '</a>'}
+          toc = site.data['store']['fields'][indicator].map {|k| '<a href="#' + k + '">' + k + '</a>'}
           toc = toc.join('<br>')
 
-          content = site.data['fields'][indicator].map {|k| '<a name="' + k + '"></a>' + get_field_content(indicator_fields[k], k) }
+          content = site.data['store']['fields'][indicator].map {|k| '<a name="' + k + '"></a>' + get_field_content(indicator_fields[k], k) }
           content = content.join("\n\n")
 
           # This provides some data for the benefit of the Minimal Mistakes theme.
@@ -59,7 +59,7 @@ module SdgMetadataPlugins
       end
 
       # Generate all the language pages.
-      site.data['all'].each do |language, indicators|
+      site.data['store']['metadata'].each do |language, indicators|
         dir = File.join('metadata', language) + '/'
         layout = 'language'
         title = 'Language: ' + site.config['languages'][language]

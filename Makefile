@@ -5,21 +5,25 @@ install:
 	cd www && bundle install
 
 build.documents:
-	node scripts/build-documents.js
+	node scripts/prepare-build.js documents
 
 build.api:
-	node scripts/build-api.js
+	node scripts/prepare-build.js api
 
 build.site:
-	node scripts/build-jekyll-data.js
+	node scripts/prepare-build.js site
 	cd www && bundle exec jekyll build
 
 build: build.documents build.api build.site
 
-serve: build
+# Full (slow) local server, including website, API, and documents.
+serve.full: build
+	node scripts/watch-translations.js full &
 	cd www && bundle exec jekyll serve --skip-initial-build
 
-serve.site: build.site
+# Quick local server, only including the website.
+serve: build.site
+	node scripts/watch-translations.js &
 	cd www && bundle exec jekyll serve --skip-initial-build
 
 test:

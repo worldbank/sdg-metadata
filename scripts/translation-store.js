@@ -8,8 +8,8 @@ const baseFolder = 'translations'
 const sourceLanguage = 'en'
 const sourceLanguageFolder = 'templates'
 
-const translationStore = buildTranslationStore()
-const fieldOrders = buildFieldOrders()
+let translationStore = buildTranslationStore()
+let fieldOrders = buildFieldOrders()
 
 /**
  * Make sure an indicator ID is dash-delimited.
@@ -188,6 +188,14 @@ function buildTranslationStore() {
     return translations
 }
 
+/**
+ * Refresh the data.
+ */
+function refresh() {
+    translationStore = buildTranslationStore()
+    fieldOrders = buildFieldOrders()
+}
+
 module.exports = {
     normalizeIndicatorId,
     getLanguages,
@@ -197,4 +205,5 @@ module.exports = {
     getTranslationStore,
     translateField,
     translateAllFields,
+    refresh,
 }
