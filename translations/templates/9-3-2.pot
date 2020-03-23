@@ -167,8 +167,10 @@ msgid ""
 "credit or a loan from a financial institution in the reference year in "
 "percentage to the total number of such enterprises:\n"
 "\n"
-"(*(the number of \"small-scale industries\" with loan or line of "
-"credit)*/*(Total number of \"small-scale industries\")*)*100"
+"\\\\[ { {\\text{ the number of small-scale industries with loan } "
+"\\vee \\text{ line of credit } } \\over {\\text{Total number of small-scale "
+"industries} } } \\times 100\\\\]"
+
 msgstr ""
 
 msgctxt "DATA_SOURCE"
@@ -204,7 +206,7 @@ msgid "ENG"
 msgstr ""
 
 msgctxt "META_LAST_UPDATE"
-msgid "April 2, 2018"
+msgid "Last updated: 02 April 2018"
 msgstr ""
 
 msgctxt "META_PAGE"
