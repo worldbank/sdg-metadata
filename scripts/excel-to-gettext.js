@@ -9,7 +9,7 @@ const args = process.argv.slice(2)
 if (args.length < 1) {
     console.log('Please indicate an Excel file.')
     console.log('Example: node excel-to-gettext.js my-excel-file.xlsx')
-    return
+    process.exit(1)
 }
 
 const excelFile = args[0]
