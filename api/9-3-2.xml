@@ -114,6 +114,8 @@
 
 Организация Объединенных Наций по промышленному развитию (ЮНИДО)
 
+
+
 [^1]:  Частично описание  понятий и определений может совпадать с метаданными, представленными по показателям 9.3.1.
 
 
@@ -181,7 +183,7 @@ The definition of size class in many countries is tied up with the legal and pol
 
 The proportion of “small-scale industries” with a loan or line of credit is calculated as the number of “small-scale industries” with an active line of credit or a loan from a financial institution in the reference year in percentage to the total number of such enterprises:
 
-(*(the number of &quot;small-scale industries&quot; with loan or line of credit)*/*(Total number of &quot;small-scale industries&quot;)*)*100
+\\[ { {\text{ the number of small-scale industries with loan } \vee \text{ line of credit } } \over {\text{Total number of small-scale industries} } } \times 100\\]
 
 # Data Sources
 
@@ -227,6 +229,18 @@ World Bank Enterprise Surveys
 # Data compilers
 
 United Nations Industrial Development Organization (UNIDO)
+
+# References
+
+International Monetary Fund. (2011). Public Sector Debt Statistics: Guide for Compilers and Users. Washington, DC: International Monetary Fund. &lt;http://www.tffs.org/pdf/method/2013/psds2013.pdf&gt;
+
+United Nations. (2002). International Standard Industrial Classification of All Economic Activities (ISIC Revision 4). New York : United Nations. &lt;https://unstats.un.org/unsd/publication/seriesm/seriesm_4rev4e.pdf&gt;
+
+United Nations. (2008). International Standard Industrial Classification of All Economic Activities (ISIC Revision 3.1). New York : United Nations. &lt;https://unstats.un.org/unsd/publication/SeriesM/seriesm_4rev3_1e.pdf&gt;
+
+United Nations. (2011). International Recommendations for Industrial Statistics 2008 (IRIS 2008), New York: United Nations. &lt;http://dx.doi.org/10.18356/677c08dd-en&gt;
+
+World Bank Enterprise Surveys. 2017. Methodology. &lt;http://www.enterprisesurveys.org/methodology&gt;
 
 [^1]:  Some of the text on concepts and definition may be identical to Metadata submitted for Indicators 9.3.1.
 

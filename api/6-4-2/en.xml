@@ -54,11 +54,12 @@ Other limitations that affect the interpretation of the water stress indicator i
 * lack of consideration to the distribution among water uses; 
 * lack of consideration of water quality and its suitability for use; and
 * the indicator can be higher than 100 per cent when water withdrawal includes secondary freshwater (water withdrawn previously and returned to the system), non-renewable water (fossil groundwater), when annual groundwater withdrawal is higher than annual replenishment (over-abstraction) or when water withdrawal includes part or all of the water set aside for environmental water requirements. 
+
 Some of these issues can be solved through disaggregation of the index at the level of hydrological units and by distinguishing between different use sectors. However, due to the complexity of water flows, both within a country and between countries, care should be taken not to double-count.
 
 # Methodology
-## Method of computation
-The indicator is computed as the total freshwater withdrawn (\\(TWW\\)) divided by the difference between the total renewable freshwater resources (\\(TRWR\\)) and the environmental water requirements (\\(Env.\\)), multiplied by 100. All variables are expressed in km3/year (109 m3/year).
+## Computation method
+Method of computation: The indicator is computed as the total freshwater withdrawn (\\(TWW\\)) divided by the difference between the total renewable freshwater resources (\\(TRWR\\)) and the environmental water requirements (\\(Env.\\)), multiplied by 100. All variables are expressed in km&lt;sup&gt;3&lt;/sup&gt;/year (109 m&lt;sup&gt;3&lt;/sup&gt;/year).
 
 \\[Stress (\%) = TWW \div (TRWR - Env.) \times 100\\]
 
@@ -83,9 +84,9 @@ Differences might occur due to the following, amongst others: For national estim
 This indicator provides an estimate of pressure by all sectors on the country’s renewable freshwater resources. A low level of water stress indicates a situation where the combined withdrawal by all sectors is marginal in relation to the resources, and has therefore little potential impact on the sustainability of the resources or on the potential competition between users. A high level of water stress indicates a situation where the combined withdrawal by all sectors represents a substantial share of the total renewable freshwater resources, with potentially larger impacts on the sustainability of the resources and potential situations of conflicts and competition between users.
 The indicator is computed based on three components:
 
-* Total renewable freshwater resources (\\(TRWR\\)
-* Total freshwater withdrawal (\\TWW\\)
-* Environmental flow requirements (\\EFR\\)
+* Total renewable freshwater resources (\\(TRWR\\))
+* Total freshwater withdrawal (\\(TWW\\))
+* Environmental flow requirements (\\(EFR\\))
 
 \\[Water\:Stress (\%) = {TWW \over {TRWR-EFR.}} \times 100\\]
 
@@ -114,8 +115,7 @@ This document describes the efforts to generate models that estimate the municip
 The nomenclature surrounding water information is often confusing and gives rise to different interpretations and thus confusion. When discussing the way in which renewable water resources are utilized, the terms water use, usage, withdrawal, consumption, abstraction, extraction, utilization, supply and demand are often used without clearly stating what is meant. 
 &lt;http://www.fao.org/3/a-bc816e.pdf&gt;
 
-## Country survey on water use for agriculture and rural development
-Questionnaire for water survey
+## Country survey on water use for agriculture and rural development &lt;br&gt;Questionnaire for water survey
 These Guidelines and Questionnaire have been prepared for the updating of the data and country profiles in AQUASTAT.
 &lt;http://www.fao.org/nr/water/aquastat/sets/aq-5yr-quest_eng.xls&gt;
 &lt;http://www.fao.org/nr/water/aquastat/sets/aq-5yr-guide_eng.pdf&gt;
@@ -155,7 +155,7 @@ Data for this indicator are usually collected by national ministries and institu
 The data for the indicator are collected through questionnaires to be answered by the relevant institutions in each country. Examples of the questionnaires that can be used can be found at:
 
 AQUASTAT
-&lt;www.fao.org/nr/water/aquastat/sets/aq-5yr-quest_eng.xls&gt;
+&lt;https://www.fao.org/nr/water/aquastat/sets/aq-5yr-quest_eng.xls&gt;
 
 UNSD/UNEP
 &lt;http://unstats.un.org/unsd/environment/Questionnaires/q2013Water_English.xls&gt;
@@ -164,22 +164,23 @@ OECD/Eurostat
 &lt;http://ec.europa.eu/eurostat/ramon/coded_files/OECD_ESTAT_JQ_Manual_version_2_21.pdf&gt;
 
 ## Collection process
-i. Official counterparts at country level are the line ministry for water resources and the national statistics office
-ii. Countries are expected to put in place a process of Quality Control (QC), Quality Assurance (QA) and data verification. The process should be carried out internally for the QC part, ensuring that all the planned steps are properly carried out at each round of data collection. The QA should be carried out by independent experts, either national or international, to assess the consistence and robustness of the data produced. Finally, where possible the resulting data should be verified by comparison with similar data from other sources.
-iii. As the data will be collected through different questionnaires, harmonization will be needed among the eventual differences in definitions and aggregations.
+1. Official counterparts at country level are the line ministry for water resources and the national statistics office
+2. Countries are expected to put in place a process of Quality Control (QC), Quality Assurance (QA) and data verification. The process should be carried out internally for the QC part, ensuring that all the planned steps are properly carried out at each round of data collection. The QA should be carried out by independent experts, either national or international, to assess the consistence and robustness of the data produced. Finally, where possible the resulting data should be verified by comparison with similar data from other sources.
+3. As the data will be collected through different questionnaires, harmonization will be needed among the eventual differences in definitions and aggregations.
+{:type=&apos;i&apos;}
 
 # Data Availability
 ## Description
-Countries (2010 to present):
-Asia and Pacific 2
-Africa 6
-Latin America and the Caribbean 16
-Europe, North America, Australia, New Zealand and Japan 24
+Countries (2010 to present):  
+Asia and Pacific 2  
+Africa 6  
+Latin America and the Caribbean 16  
+Europe, North America, Australia, New Zealand and Japan 24  
 
-Countries (2000-2009):
-Asia and Pacific 42
-Africa 49
-Latin America and the Caribbean 27
+Countries (2000-2009):  
+Asia and Pacific 42  
+Africa 49  
+Latin America and the Caribbean 27  
 Europe, North America, Australia, New Zealand and Japan 47
 
 ## Time series
@@ -211,12 +212,13 @@ The following resources of specific interest to this indicator are available on 
 * AQUASTAT Main country database (http://www.fao.org/nr/water/aquastat/data/query/index.html?lang=en) 
 * AQUASTAT Water use (http://www.fao.org/nr/water/aquastat/water_use/index.stm). 
 * AQUASTAT Water resources (http://www.fao.org/nr/water/aquastat/water_res/index.stm). 
-* AQUASTAT publications dealing with concepts, methodologies, definitions, terminologies, metadata, etc. (http://www.fao.org/nr/water/aquastat/catalogues/index.stm)
+* AQUASTAT publications dealing with concepts, methodologies, definitions, terminologies, metadata, etc. (http://www.fao.org/nr/water/aquastat/catalogues/index.stm)  
 For surface water, environmental water requirement databases include:
 *  http://waterdata.iwmi.org/apps/flow_management_classes/
 *  http://www.iwmi.cgiar.org/resources/models-and-software/environmental-flow-calculators/
 *  http://waterdata.iwmi.org/Applications/Global_Assessment_Environmental_Water_Requirements_Scarcity/
-UNSD/UNEP Questionnaire on Environment Statistics – Water Sectionhttp://unstats.un.org/unsd/environment/qindicators.htm 
+UNSD/UNEP Questionnaire on Environment Statistics – Water Section  
+http://unstats.un.org/unsd/environment/qindicators.htm 
 * Framework for the Development of Environment Statistics (FDES 2013) (Chapter 3) http://unstats.un.org/unsd/environment/FDES/FDES-2015-supporting-tools/FDES.pdf
 * OECD/Eurostat Questionnaire on Environment Statistics – Water Section
 * International Recommendations for Water Statistics (IRWS) (2012) http://unstats.un.org/unsd/envaccounting/irws/

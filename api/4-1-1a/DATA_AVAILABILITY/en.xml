@@ -9,25 +9,28 @@
 
 ![Figure 1. Availability of data for indicator 4.1.1 (a), by grade](images/DATA_AVAILABILITY1.png)
 
-Orange = grade 2,3, and 4 
-Red = grade 2/3 
-Blue = grade 4
+Key:
+* Orange = grade 2,3, and 4 
+* Red = grade 2/3 
+* Blue = grade 4
 
 &lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th rowspan=&quot;2&quot;&gt;
+        Regions
+      &lt;/th&gt;
+      &lt;th&gt;
+        Number of countries
+      &lt;/th&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;
+        with available data
+      &lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
   &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td rowspan=&quot;2&quot;&gt;
-        &lt;strong&gt;Regions&lt;/strong&gt;
-      &lt;/td&gt;
-      &lt;td&gt;
-        &lt;strong&gt;Number of countries&lt;/strong&gt;
-      &lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;
-        &lt;strong&gt;with available data&lt;/strong&gt;
-      &lt;/td&gt;
-    &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td&gt;
         Africa (Northern)

@@ -4,7 +4,7 @@
 	<message>The DATA_COMP field for indicator 2-1-1, translated into en</message>
 	<data># Methodology 
 
-## Computation Method
+## Computation method
 
 The indicator is computed at the population level. To this aim, the population is represented by an “average” individual for which a probability distribution of the habitual daily dietary energy intake levels is modelled through a parametric probability density function (pdf). 
 
@@ -20,14 +20,14 @@ A custom R function is available from the Statistics Division at FAO to compute 
 
 Different data sources can be used to estimate the different parameters of the model. 
 
-DEC 
+DEC  
 The mean of the distribution of dietary energy consumption levels for the average individual in a population (DEC) corresponds, by definition, to the average, daily per capita food consumption level in the population. 
 
 DEC can be estimated from data on food consumption obtained through surveys that are representative of the population of interest. Depending on the survey design, they can be used to estimate DEC at national and at sub national levels, either by geographic areas or by socio-economic population groups. Unfortunately, though the situation is rapidly improving, representative surveys that collect food consumption data are still not available for every country and every year. 
 
 For the national population only, DEC can be estimated also from accounts of the total supply and utilization of all food commodities in a country, where the contribution of each commodity to the availability of food for human consumption is expressed in their dietary energy content, and their total is divided by the size of the population. The major source of data on national food balances are the Food Balance Sheets (FBS) maintained by FAO for most countries in the world (see http://www.fao.org/economic/ess/fbs/en/), informed by official data reported by member countries, and disseminated through FAOSTAT (http://faostat3.fao.org/download/FB/*/E) 
 
-CV 
+CV  
 Surveys that contain information on food consumption at individual or household level are the only available source to directly estimate the CV of habitual food consumption for the representative individual in the population. Unfortunately, survey data on food consumption are fraught by many problems that complicate the reliable estimation of CV. 
 
 In principle, repeated observations of daily consumption for each individual in a sample would be needed to estimate levels of habitual consumption and to control for measurement errors. Moreover, data should be collected in different periods of the year on the same individuals or households to account for possible seasonal variation in levels of dietary energy consumption. Due to their cost, nationally representative individual dietary intake surveys with such characteristics are very rare, and virtually inexistent for most developing countries. As a consequence, the most common sources of data to estimate CV are multipurpose household surveys, such as Living Standard Measurement Surveys, Household Incomes and Expenditure Surveys (or Household Budgets Survey), that collect also information on food consumption. When using data collected at household level however, careful attention should be taken in distinguishing levels of food purchases or acquisitions from levels of actual utilization (consumption and wastage) during the identified reference period and in properly recording the number of individuals who participate in consumption; moreover, household level data will mask the variability due to intra-household allocation of food. 
@@ -44,10 +44,10 @@ CV^_IND=ß_0+ß_1 GDP+ ß_2 GINI+ ß_3 FPI+ß_4 REG.
 
 Coefficients of the regression are estimated from the set of data and years for which data on CV, GDP, GINI and FPI are available. 
 
-Skew 
+Skew  
 As skewness is not strongly affected by the presence of spurious variability, Skew is estimated directly from household level data on the average daily dietary consumption, with the only exception of eliminating rare extremely high or extremely low values. If the empirically estimated skewness exceeds the value that would correspond to the skewness of Log-normal distribution with given mean and coefficient of variation, the parameter is neglected and a two parameter lognormal distribution is used for f(x). (See http://www.fao.org/3/a-i4046e.pdf for additional details). 
 
-MDER 
+MDER  
 Human energy requirements are computed by multiplying normative requirements for basic metabolic rate (BMR, expressed per kg of body mass) by the ideal weight of a healthy person of given height, and then multiplied by a coefficient of physical activity level (PAL). Ranges of normal energy requirements are thus computed for each sex and age group of the population, observing that there exist a whole range of Body Mass Index (BMI) values – from 18.5 to 25 – that are compatible with health. This implies that any given attained height might correspond to a whole range of healthy body weights, and therefore to a range of values for energy requirement for BMR. 
 
 Given information on the median height and the consideration that the group might contain individuals engaged in different levels of physical activity, the minimum, average and maximum dietary energy requirement can be computed for every sex and age class by taking into consideration special allowances for growth in individuals aged 0-21 and for pregnancy and lactation. 
@@ -55,5 +55,5 @@ Given information on the median height and the consideration that the group migh
 
 The MDER for a given population group, including for the national population, is obtained as the weighted average of the minimums of the energy requirements ranges of each sex and age class, using the population size in each class as weights. 
 
-In computing the prevalence of dietary energy inadequacy in a population there has often been confusion between the concept of MDER and that of the Recommended Dietary Energy Intake, and regarding the appropriate threshold to be used to compute the probability of inadequacy. The reason why the probability of dietary energy inadequacy should be computed with reference to the MDER, and not the ADER (which, instead, can be used as an estimate of the average recommended dietary intake level for the whole population) is simply to recognize the fact that in any population there exists a certain range of normal variability in requirements; using the ADER as a threshold would greatly overestimate undernourishment as it would count also the proportion of the healthy population that consumes less than average, simply because of having less than average requirements. When needed, the ADER, or the average Recommended Dietary Energy Intake level in a population must be used instead to compute the dietary energy gap.&quot;</data>
+In computing the prevalence of dietary energy inadequacy in a population there has often been confusion between the concept of MDER and that of the Recommended Dietary Energy Intake, and regarding the appropriate threshold to be used to compute the probability of inadequacy. The reason why the probability of dietary energy inadequacy should be computed with reference to the MDER, and not the ADER (which, instead, can be used as an estimate of the average recommended dietary intake level for the whole population) is simply to recognize the fact that in any population there exists a certain range of normal variability in requirements; using the ADER as a threshold would greatly overestimate undernourishment as it would count also the proportion of the healthy population that consumes less than average, simply because of having less than average requirements. When needed, the ADER, or the average Recommended Dietary Energy Intake level in a population must be used instead to compute the dietary energy gap.</data>
 </root>
