@@ -265,7 +265,7 @@
 
     <p>DEC could be estimated either from survey data or from food balances. Neither source is devoid of problems. When comparing estimates of national DEC from FBS and from surveys, differences are frequently noted.</p>
 
-    <p>DEC estimates from survey data can be affected by systematic measurement errors due to under-reporting of food consumption, or to incomplete recording of all food consumption sources. Recent research shows that a negative bias of up to more than 850 kcal can be induced on the estimated daily per capita caloric consumption can be induced by the type of food consumption module chosen to capture the data at the household level. (See De Weerdt et al., 2015, Table 2, https://feb.kuleuven.be/drc/licos/publications/dp/DP%20365%20Complete.pdf ). A detailed analysis of a recent Household Budget Survey in Brazil revealed how food provided for free through the school meals program and consumed by children while at school, had not been accounted among the sources of household food consumption, accounting for a downward bias of the average per capita daily dietary energy consumption of 674 kcal. (See Borlizzi, Cafiero &amp; Del Grossi, forthcoming.)</p>
+    <p>DEC estimates from survey data can be affected by systematic measurement errors due to under-reporting of food consumption, or to incomplete recording of all food consumption sources. Recent research shows that a negative bias of up to more than 850 kcal can be induced on the estimated daily per capita caloric consumption can be induced by the type of food consumption module chosen to capture the data at the household level. (See De Weerdt et al., 2015, Table 2, <a href="https://feb.kuleuven.be/drc/licos/publications/dp/DP%20365%20Complete.pdf">https://feb.kuleuven.be/drc/licos/publications/dp/DP%20365%20Complete.pdf</a> ). A detailed analysis of a recent Household Budget Survey in Brazil revealed how food provided for free through the school meals program and consumed by children while at school, had not been accounted among the sources of household food consumption, accounting for a downward bias of the average per capita daily dietary energy consumption of 674 kcal. (See Borlizzi, Cafiero &amp; Del Grossi, forthcoming.)</p>
 
     <p>DEC estimates from Food Balance Sheets can also be affected by errors, though it is difficult to establish the direction of induced bias. As average food availability is a residual in the FBS method, any errors in reported production, trade, and stocks might affect the estimates of national food availability. Moreover, errors might be induced by the difficulty in properly accounting for all forms of food commodity utilization. To the extent that all these errors are uncorrelated, though, the impact on the estimated average food consumption will be lower than each of the errors, considered separately, might imply. Nevertheless, considering how problematic it is to precisely account for variations in national reserves of food commodities, for which official data may be unreliable, it is recognized that the estimated annual stock variation is prone to considerable uncertainty that would be transferred to the estimated DEC in each given year.</p>
 
@@ -308,7 +308,7 @@
 
 <p>where DEC, CV and Skew are the mean, coefficient of variation and skewness that characterize the distribution of habitual dietary energy consumption levels in the population.</p>
 
-<p>Until 2012, the probability distribution f(x) was modelled as a Log-normal pdf, informed by only two parameters: mean and coefficient of variation. In its most recent formulation, it is modelled as a three-parameter pdf, able to represent different degrees of skewness, ranging from that of a symmetric Normal distribution to that of the positively skewed Log-normal distribution. The flexibility in capturing different degrees of skewness is needed to take into account the fact that human energy consumption levels are naturally bounded by physiological limits. It is thus conceivable that, as mean consumption levels increases, the skewness of the distribution decreases, gradually moving from (positively skewed) Log-normal distributions, typical of populations where average food consumption is relatively low, towards (symmetric) Normal distributions. The skew-normal and skew-lognormal families of distribution allow for the characterization of all possible intermediate degrees of positive skewness. (See http://www.fao.org/3/a-i4046e.pdf for a detailed description)</p>
+<p>Until 2012, the probability distribution f(x) was modelled as a Log-normal pdf, informed by only two parameters: mean and coefficient of variation. In its most recent formulation, it is modelled as a three-parameter pdf, able to represent different degrees of skewness, ranging from that of a symmetric Normal distribution to that of the positively skewed Log-normal distribution. The flexibility in capturing different degrees of skewness is needed to take into account the fact that human energy consumption levels are naturally bounded by physiological limits. It is thus conceivable that, as mean consumption levels increases, the skewness of the distribution decreases, gradually moving from (positively skewed) Log-normal distributions, typical of populations where average food consumption is relatively low, towards (symmetric) Normal distributions. The skew-normal and skew-lognormal families of distribution allow for the characterization of all possible intermediate degrees of positive skewness. (See <a href="http://www.fao.org/3/a-i4046e.pdf">http://www.fao.org/3/a-i4046e.pdf</a> for a detailed description)</p>
 
 <p>A custom R function is available from the Statistics Division at FAO to compute the PoU, given the four parameters DEC, CV, Skew and MDER.</p>
 
@@ -319,7 +319,7 @@ The mean of the distribution of dietary energy consumption levels for the averag
 
 <p>DEC can be estimated from data on food consumption obtained through surveys that are representative of the population of interest. Depending on the survey design, they can be used to estimate DEC at national and at sub national levels, either by geographic areas or by socio-economic population groups. Unfortunately, though the situation is rapidly improving, representative surveys that collect food consumption data are still not available for every country and every year.</p>
 
-<p>For the national population only, DEC can be estimated also from accounts of the total supply and utilization of all food commodities in a country, where the contribution of each commodity to the availability of food for human consumption is expressed in their dietary energy content, and their total is divided by the size of the population. The major source of data on national food balances are the Food Balance Sheets (FBS) maintained by FAO for most countries in the world (see http://www.fao.org/economic/ess/fbs/en/), informed by official data reported by member countries, and disseminated through FAOSTAT (http://faostat3.fao.org/download/FB/*/E)</p>
+<p>For the national population only, DEC can be estimated also from accounts of the total supply and utilization of all food commodities in a country, where the contribution of each commodity to the availability of food for human consumption is expressed in their dietary energy content, and their total is divided by the size of the population. The major source of data on national food balances are the Food Balance Sheets (FBS) maintained by FAO for most countries in the world (see <a href="http://www.fao.org/economic/ess/fbs/en/">http://www.fao.org/economic/ess/fbs/en/</a>), informed by official data reported by member countries, and disseminated through FAOSTAT (<a href="http://faostat3.fao.org/download/FB/*/E">http://faostat3.fao.org/download/FB/*/E</a>)</p>
 
 <p>CV<br />
 Surveys that contain information on food consumption at individual or household level are the only available source to directly estimate the CV of habitual food consumption for the representative individual in the population. Unfortunately, survey data on food consumption are fraught by many problems that complicate the reliable estimation of CV.</p>
@@ -339,7 +339,7 @@ Surveys that contain information on food consumption at individual or household 
 <p>Coefficients of the regression are estimated from the set of data and years for which data on CV, GDP, GINI and FPI are available.</p>
 
 <p>Skew<br />
-As skewness is not strongly affected by the presence of spurious variability, Skew is estimated directly from household level data on the average daily dietary consumption, with the only exception of eliminating rare extremely high or extremely low values. If the empirically estimated skewness exceeds the value that would correspond to the skewness of Log-normal distribution with given mean and coefficient of variation, the parameter is neglected and a two parameter lognormal distribution is used for f(x). (See http://www.fao.org/3/a-i4046e.pdf for additional details).</p>
+As skewness is not strongly affected by the presence of spurious variability, Skew is estimated directly from household level data on the average daily dietary consumption, with the only exception of eliminating rare extremely high or extremely low values. If the empirically estimated skewness exceeds the value that would correspond to the skewness of Log-normal distribution with given mean and coefficient of variation, the parameter is neglected and a two parameter lognormal distribution is used for f(x). (See <a href="http://www.fao.org/3/a-i4046e.pdf">http://www.fao.org/3/a-i4046e.pdf</a> for additional details).</p>
 
 <p>MDER<br />
 Human energy requirements are computed by multiplying normative requirements for basic metabolic rate (BMR, expressed per kg of body mass) by the ideal weight of a healthy person of given height, and then multiplied by a coefficient of physical activity level (PAL). Ranges of normal energy requirements are thus computed for each sex and age group of the population, observing that there exist a whole range of Body Mass Index (BMI) values – from 18.5 to 25 – that are compatible with health. This implies that any given attained height might correspond to a whole range of healthy body weights, and therefore to a range of values for energy requirement for BMR.</p>
@@ -385,7 +385,7 @@ Human energy requirements are computed by multiplying normative requirements for
 
 <p>Regional and global aggregates of the PoU are computed as:</p>
 
-<p>PoU_REG = (_i PoU_i × N_i) / (_i N_i)</p>
+<p>\[PoU_{REG} = (_i PoU_i × N_i) / (_i N_i)\]</p>
 
 <p>where PoU_i are the values of PoU estimated for all countries in the regions for which available data allow to compute a reliable estimate, and N_i the corresponding population size.</p>
 
@@ -425,10 +425,10 @@ Human energy requirements are computed by multiplying normative requirements for
 
 <p>The new FBS Guidelines for national compilation (completed recently in collaboration with the Global Strategy) and new compilation tool (R-based ‘shiny’ application).</p>
 
-<p>Detail on FBS methodology: http://www.fao.org/economic/ess/fbs/ess-fbs02/en/. 
+<p>Detail on FBS methodology: <a href="http://www.fao.org/economic/ess/fbs/ess-fbs02/en/">http://www.fao.org/economic/ess/fbs/ess-fbs02/en/</a>. 
 The FBS Handbook shown here should not be confused with the recently completed FBS Guidelines. The Handbook is of a more technical nature and explains the methodology followed by FAO in compiling country FBS. The Guidelines on the other hand, while based on the Handbook, provide countries with a more revised and practical guidance and recommendations for compilation at the national level.</p>
 
-<p>Some FBS background text also available on FAOSTAT: http://www.fao.org/faostat/en/#data/FBS.</p>
+<p>Some FBS background text also available on FAOSTAT: <a href="http://www.fao.org/faostat/en/#data/FBS">http://www.fao.org/faostat/en/#data/FBS</a>.</p>
 
 <h2 id="quality-assurance">Quality assurance</h2>
 
@@ -470,8 +470,8 @@ d) Alternative data on the total amounts of food available for human consumption
 <p>Correcting for bias in the estimated average daily dietary energy consumption might need to be based on alternative sources on food consumption, such as aggregate food supply and utilization accounts and food balance sheets.</p>
 
 <p>To inform its estimate of PoU at national, regional and global level, in addition to all household surveys for which it is possible to obtain micro data on food consumption, FAO relies on: 
-a) UN Population Division’s World Population Prospects (https://esa.un.org/unpd/wpp/Download/Standard/Population/), which provide updated estimates of the structures of the national population by sex and age every two years for most countries in the world; 
-b) FAO Food Balance Sheets (http://faostat3.fao.org/download/FB/*/E), which provides updated estimates of the national availability of food every year for most countries in the world.</p>
+a) UN Population Division’s World Population Prospects (<a href="https://esa.un.org/unpd/wpp/Download/Standard/Population/">https://esa.un.org/unpd/wpp/Download/Standard/Population/</a>), which provide updated estimates of the structures of the national population by sex and age every two years for most countries in the world; 
+b) FAO Food Balance Sheets (<a href="http://faostat3.fao.org/download/FB/*/E">http://faostat3.fao.org/download/FB/*/E</a>), which provides updated estimates of the national availability of food every year for most countries in the world.</p>
 
 <p>Micro data from household surveys that collect food consumption data are sourced by FAO directly through the National Statistical Agencies’ websites, or through specific bilateral agreements.</p>
 
@@ -592,16 +592,16 @@ b) FAO Food Balance Sheets (http://faostat3.fao.org/download/FB/*/E), which prov
 
 <h2 id="url">URL:</h2>
 
-<p>http://www.fao.org/economic/ess/ess-fs/en/</p>
+<p><a href="http://www.fao.org/economic/ess/ess-fs/en/">http://www.fao.org/economic/ess/ess-fs/en/</a></p>
 
 <p><a name="REFERENCES"></a></p>
 
 <h2 id="references-1">References</h2>
 
-<p>http://www.fao.org/docrep/012/w0931e/w0931e16.pdf 
-http://www.fao.org/docrep/005/Y4249E/y4249e06.htm#bm06 
-http://www.fao.org/3/a-i4060e.pdf 
-http://www.fao.org/3/a-i4046e.pdf</p>
+<p><a href="http://www.fao.org/docrep/012/w0931e/w0931e16.pdf">http://www.fao.org/docrep/012/w0931e/w0931e16.pdf</a><br />
+<a href="http://www.fao.org/docrep/005/Y4249E/y4249e06.htm#bm06">http://www.fao.org/docrep/005/Y4249E/y4249e06.htm#bm06</a><br />
+<a href="http://www.fao.org/3/a-i4060e.pdf">http://www.fao.org/3/a-i4060e.pdf</a><br />
+<a href="http://www.fao.org/3/a-i4046e.pdf">http://www.fao.org/3/a-i4046e.pdf</a></p>
 
 <p><a name="SDG_RELATED_INDICATORS"></a></p>
 

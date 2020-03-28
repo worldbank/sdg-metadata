@@ -665,7 +665,7 @@ ILO</translation>
       <field id="META_LAST_UPDATE">
         <translations>
           <translation lang="ru">24 января 2017 года</translation>
-          <translation lang="en">January 24, 2017</translation>
+          <translation lang="en">Last updated: 24 January 2017</translation>
         </translations>
       </field>
       <field id="LANGUAGE">
@@ -847,49 +847,9 @@ Lastly, these income/consumption based poverty indicators do not fully reflect t
 
 The formula for calculating the proportion of the total, urban and rural population living below the national poverty line, or headcount index, is as follows:
 
-&lt;math&gt;
-  &lt;munder&gt;
-    &lt;mrow&gt;
-      &lt;msub&gt;
-        &lt;mi&gt;P&lt;/mi&gt;
-        &lt;mn&gt;0&lt;/mn&gt;
-      &lt;/msub&gt;
-      &lt;mo&gt;=&lt;/mo&gt;
-      &lt;mfrac&gt;
-        &lt;mn&gt;1&lt;/mn&gt;
-        &lt;mi&gt;N&lt;/mi&gt;
-      &lt;/mfrac&gt;
-      &lt;munderover&gt;
-        &lt;mo&gt;∑&lt;/mo&gt;
-        &lt;mi&gt;i&lt;/mi&gt;
-        &lt;mi&gt;N&lt;/mi&gt;
-      &lt;/munderover&gt;
-      &lt;mi&gt;I&lt;/mi&gt;
-      &lt;mo&gt;(&lt;/mo&gt;
-      &lt;msub&gt;
-        &lt;mi&gt;y&lt;/mi&gt;
-        &lt;mi&gt;i&lt;/mi&gt;
-      &lt;/msub&gt;
-      &lt;mo&gt;&amp;lt;&lt;/mo&gt;
-      &lt;mi&gt;z&lt;/mi&gt;
-      &lt;mo&gt;)&lt;/mo&gt;
-      &lt;mo&gt;=&lt;/mo&gt;
-      &lt;mfrac&gt;
-        &lt;msub&gt;
-          &lt;mi&gt;N&lt;/mi&gt;
-          &lt;mi&gt;p&lt;/mi&gt;
-        &lt;/msub&gt;
-        &lt;mi&gt;N&lt;/mi&gt;
-      &lt;/mfrac&gt;
-    &lt;/mrow&gt;
-    &lt;mrow&gt;
-      &lt;mo&gt;=&lt;/mo&gt;
-      &lt;mn&gt;1&lt;/mn&gt;
-    &lt;/mrow&gt;
-  &lt;/munder&gt;
-&lt;/math&gt;
+\\[ P_0 = {1 \over N} \underset{&gt;=1}{\underset{i}{\overset{N}{\Sigma}}} I ( y_i &lt; z ) = {N_p \over N} \\]
 
-Where *I*(.) is an indicator function that takes on a value of 1 if the bracketed expression is true, and 0 otherwise. If individual consumption or income *y*&lt;sub&gt;i&lt;/sub&gt; is less than the national poverty line *z* (for example, in absolute terms the line could be the price of a consumption bundle or in relative terms a percentage of the income distribution), then *I*(.) is equal to 1 and the individual is counted as poor. *N*&lt;sub&gt;p&lt;/sub&gt; is the total, urban or rural number of poor. *N* is the total, urban or rural population.
+Where \\(I(.)\\) is an indicator function that takes on a value of 1 if the bracketed expression is true, and 0 otherwise. If individual consumption or income \\(y_i\\) is less than the national poverty line \\(z\\) (for example, in absolute terms the line could be the price of a consumption bundle or in relative terms a percentage of the income distribution), then \\(I(.)\\) is equal to 1 and the individual is counted as poor. \\(N_p\\) is the total, urban or rural number of poor. \\(N\\) is the total, urban or rural population.
 
 Consumption or income data are gathered from nationally representative household surveys, which contain detailed responses to questions regarding spending habits and sources of income. Consumption, including consumption from own production, or income is calculated for the entire household. In some cases, an “effective” household size is calculated from the actual household size to reflect assumed efficiencies in consumption; adjustments may also be made to reflect the number of children in a household. The number of people in those households is aggregated to estimate the number of poor persons.
 
@@ -971,7 +931,7 @@ Another source is World Bank’s Poverty Assessments. The World Bank periodicall
           <translation lang="ru">## Процесс сбора:
 
 Сбор исходных данных осуществляется Глобальной рабочей группой Всемирного банка по вопросам нищеты. Данные в разделе "Показатели мирового развития" (WDI) обновляются ежеквартально в соответствии с графиком обновления базы данных WDI [^2].</translation>
-          <translation lang="en">## Collection process:
+          <translation lang="en">## Collection process
 
 Source collection is ongoing by the Global Poverty Working Group of the World Bank. The data in World Development Indicators (WDI) are updated quarterly following the WDI database [^2] updating schedule.</translation>
         </translations>
@@ -1055,7 +1015,17 @@ http://povertydata.worldbank.org/poverty/home/</translation>
 ## URL
 
 Poverty and Equity Data Portal
-http://povertydata.worldbank.org/poverty/home/</translation>
+&lt;http://povertydata.worldbank.org/poverty/home/&gt;</translation>
+        </translations>
+      </field>
+      <field id="REFERENCES">
+        <translations>
+          <translation lang="ru"/>
+          <translation lang="en">## References
+
+Deaton, Angus. 2003. “Household Surveys, Consumption, and the Measurement of Poverty”. Economic Systems Research, Vol. 15, No. 2, June 2003  
+Deaton, Angus; Zaidi, Salman. 2002. Guidelines for Constructing Consumption Aggregates for Welfare Analysis. LSMS Working Paper; No. 135. World Bank.  
+World Bank 2008. *Poverty data: A supplement to World Development Indicators 2008*. Washington, DC.</translation>
         </translations>
       </field>
       <field id="SDG_RELATED_INDICATORS">
@@ -1946,7 +1916,7 @@ The underlying principle is that household financial costs associated with housi
 
 Thus, Indicator 11.1.1 is expected to be a **composite one**, with the main components of slum/informal settlements’ and the added component of affordability defining inadequate housing. Table 1 details the proposed definition of Slum/Informal Settlements and Inadequate Housing as well as the respective measurements. 
 
-## Table 1 – Definition and measurement criteria for slums, informal settlements and inadequate housing [^12]
+### Table 1 – Definition and measurement criteria for slums, informal settlements and inadequate housing [^12]
 &lt;table&gt;
   &lt;tbody&gt;
     &lt;tr&gt;
@@ -2160,13 +2130,13 @@ For primary reporting, National data provider especially the Statistical agencie
 * UN-Habitat (2016). World Cities Report 2016
 
 ## URL references
-(1): http://www.un.org/esa/sustdev/natlinfo/indicators/methodology_sheets.pdf  
-(2): http://unhabitat.org/urban-indicators-guidelines/  
-(3): http://mdgs.un.org/unsd/mdg/Metadata.aspx?IndicatorId=0&amp;SeriesId=710  
-(4): http://unhabitat.org/urban-initiatives/initiatives-programmes/participatory-slum-upgrading/  
-(5): http://unhabitat.org/slum-almanac-2015-2016/  
-(6): http://wcr.unhabitat.org/  
-(7): http://www.unhabitat.org/programmes/guo/documents/EGM final report 4 Dec 02.pdf</translation>
+1. &lt;http://www.un.org/esa/sustdev/natlinfo/indicators/methodology_sheets.pdf&gt;  
+2. &lt;http://unhabitat.org/urban-indicators-guidelines/&gt;  
+3. &lt;http://mdgs.un.org/unsd/mdg/Metadata.aspx?IndicatorId=0&amp;SeriesId=710&gt;  
+4. &lt;http://unhabitat.org/urban-initiatives/initiatives-programmes/participatory-slum-upgrading/&gt;  
+5. &lt;http://unhabitat.org/slum-almanac-2015-2016/&gt;  
+6. &lt;http://wcr.unhabitat.org/&gt;  
+7. &lt;http://www.unhabitat.org/programmes/guo/documents/EGM final report 4 Dec 02.pdf&gt;</translation>
         </translations>
       </field>
       <field id="SDG_RELATED_INDICATORS">
@@ -2623,7 +2593,7 @@ UNEP-WCMC (2016). World Database on Protected Areas User Manual 1.4. UNEP-WCMC, 
       <field id="META_LAST_UPDATE">
         <translations>
           <translation lang="ru"/>
-          <translation lang="en">February 2018</translation>
+          <translation lang="en">Last updated: February 2018</translation>
         </translations>
       </field>
       <field id="LANGUAGE">
@@ -2746,7 +2716,7 @@ No further disaggregation of this indicator</translation>
       <field id="IMPUTATION">
         <translations>
           <translation lang="ru"/>
-          <translation lang="en">## Treatment of missing values:
+          <translation lang="en">## Treatment of missing values
 
 * At country level
 
@@ -2780,7 +2750,7 @@ The national figures in the database are reported by the countries themselves fo
 
 All data are provided to FAO by countries in the form of a country report following a standard format, which includes the original data and reference sources and descriptions of how these have been used to estimate the forest area for different points in time.
 
-Detailed methodology and guidance on how to prepare the country reports and to convert national data according to national categories and definitions to FAO’s global categories and definitions is found in the document “Guide for country reporting for FRA 2015”, http://www.fao.org/3/a-au190e.pdf.</translation>
+Detailed methodology and guidance on how to prepare the country reports and to convert national data according to national categories and definitions to FAO’s global categories and definitions is found in the document “Guide for country reporting for FRA 2015”, &lt;http://www.fao.org/3/a-au190e.pdf&gt;.</translation>
         </translations>
       </field>
       <field id="QUALITY_ASSURE">
@@ -2913,7 +2883,7 @@ Progress towards sustainable forest management</translation>
       <field id="META_LAST_UPDATE">
         <translations>
           <translation lang="ru">11 июля 2017 года</translation>
-          <translation lang="en">July 11, 2017</translation>
+          <translation lang="en">Last updated: 11 July 2017</translation>
         </translations>
       </field>
       <field id="LANGUAGE">
@@ -2977,7 +2947,7 @@ World Bank (WB)</translation>
 
 Proportion of firms asked for a gift or informal payment when meeting with tax officials.
 
-In every Enterprise Survey (www.enterprisesurveys.org), there is a standard question which asks the survey respondent if they were inspected by or required to meet with tax officials. If the respondent indicates ‘yes’, then there is a follow-up question which asks if the respondent was expected to provide a gift or an informal payment during these inspections/meetings. The response options include “yes”, “no”, “don’t know”, and “refuse”.
+In every Enterprise Survey (&lt;https://www.enterprisesurveys.org&gt;), there is a standard question which asks the survey respondent if they were inspected by or required to meet with tax officials. If the respondent indicates ‘yes’, then there is a follow-up question which asks if the respondent was expected to provide a gift or an informal payment during these inspections/meetings. The response options include “yes”, “no”, “don’t know”, and “refuse”.
 
 Enterprise Surveys are firm-level surveys conducted in World Bank client countries. The survey focuses on various aspects of the business environment as well as firm’s outcome measures such as annual sales, productivity, etc. The surveys are conducted via face-to-face interviews with the top manager or business owner. For each country, the survey is conducted approximately every 4-5 years.</translation>
         </translations>
@@ -3001,7 +2971,7 @@ The rationale for this indicator is to ascertain whether firms are solicited for
 Подарок или неофициальный платеж считаются "взяткой".</translation>
           <translation lang="en">## Concepts
 
-The respondents to the Enterprise Survey are firms- either manufacturing or services establishments. These are registered (formal) firms with 5+ employees. The firms are either fully or partially private (100% state-owned firms are ineligible for the Enterprise Survey). More information on the survey methodology can be found on the Methodology page of the website: www.enterprisesurveys.org/methodology
+The respondents to the Enterprise Survey are firms- either manufacturing or services establishments. These are registered (formal) firms with 5+ employees. The firms are either fully or partially private (100% state-owned firms are ineligible for the Enterprise Survey). More information on the survey methodology can be found on the Methodology page of the website: &lt;https://www.enterprisesurveys.org/methodology&gt;
 
 A gift or an informal payment is considered a ‘bribe’.</translation>
         </translations>
@@ -3097,7 +3067,7 @@ We are unaware of any country-produced data on this indicator</translation>
 Мы рекомендуем пользователям обратиться к веб-сайту Enterprise Surveys, чтобы ознакомиться с общей методологией обследования и узнать, какие страны доступны для целей сравнительного анализа. &lt;Http://www.enterprisesurveys.org/methodology&gt;</translation>
           <translation lang="en">## Methods and guidance available to countries for the compilation of the data at the national level
 
-We recommend users consult the Enterprise Surveys website to learn about the overall survey methodology and learn which countries are available for benchmarking purposes.  &lt;http://www.enterprisesurveys.org/methodology&gt;</translation>
+We recommend users consult the Enterprise Surveys website to learn about the overall survey methodology and learn which countries are available for benchmarking purposes.  &lt;https://www.enterprisesurveys.org/methodology&gt;</translation>
         </translations>
       </field>
       <field id="QUALITY_ASSURE">
@@ -3123,11 +3093,11 @@ The World Bank collects this survey data for the public good of information.  Fo
 На веб-сайте Обследования предприятий (www.enterprisesurveys.org) представлены все метаданные, включая вопросники, используемые для обследований, и отчеты о проведении всех обследований предприятий. В отчетах о проведении указывается размер выборки, используемый инструментарий выборки, даты / продолжительность полевых работ, уровни ответов и т. д.
 
 Регистрация на веб-сайте Обследования предприятий  бесплатная, а веб-портал данных позволяет пользователям получать доступ к исходным данным и документации для каждого обследования.</translation>
-          <translation lang="en"># Data Sources
+          <translation lang="en"># Data sources
 
 ## Description
 
-The website for Enterprise Surveys (www.enterprisesurveys.org) provides all metadata, including survey questionnaires and implementation reports for all Enterprise Surveys. The implementation reports indicate the sample size, sample frame used, dates/duration of fieldwork, the response rates, etc.
+The website for Enterprise Surveys (&lt;https://www.enterprisesurveys.org&gt;) provides all metadata, including survey questionnaires and implementation reports for all Enterprise Surveys. The implementation reports indicate the sample size, sample frame used, dates/duration of fieldwork, the response rates, etc.
 
 Registration to the Enterprise Survey’s website is free and the website’s data portal allows users to access the raw data and survey documentation for each survey.</translation>
         </translations>
@@ -3150,7 +3120,7 @@ The World Bank conducts the Enterprise Surveys in client countries. The surveys 
 
 Наличие данных с 2010 года по настоящее время (если говорить о странах, имеющих по крайней мере один набор данных после 2010 года по этому показателю):
 Азия и Тихий океан: 28; Африка: 25; Латинская Америка и Карибский бассейн: 30; Европа, Северная Америка, Австралия, Новая Зеландия и Япония: 22.</translation>
-          <translation lang="en"># Data Availability
+          <translation lang="en"># Data availability
 
 ## Description
 
@@ -3169,7 +3139,7 @@ Asia and Pacific: 28; Africa: 25; Latin America and Caribbean: 30; Europe, North
 
 ## Data collection
 
-The Surveys are ongoing. Information on current projects can be found at: http://www.enterprisesurveys.org/Methodology/Current-projects</translation>
+The Surveys are ongoing. Information on current projects can be found at: &lt;https://www.enterprisesurveys.org/Methodology/Current-projects&gt;</translation>
         </translations>
       </field>
       <field id="REL_CAL_POLICY">
@@ -3220,6 +3190,16 @@ www.worldbank.org</translation>
 www.worldbank.org</translation>
         </translations>
       </field>
+      <field id="REFERENCES">
+        <translations>
+          <translation lang="ru"/>
+          <translation lang="en">## References
+
+* &lt;https://www.enterprisesurveys.org&gt;
+* &lt;https://www.enterprisesurveys.org/methodology&gt;
+* &lt;https://www.enterprisesurveys.org/data/exploretopics/corruption&gt;</translation>
+        </translations>
+      </field>
     </fields>
   </indicator>
   <indicator id="17-1-1">
@@ -3233,7 +3213,7 @@ www.worldbank.org</translation>
       <field id="META_LAST_UPDATE">
         <translations>
           <translation lang="ru"/>
-          <translation lang="en">November 2017</translation>
+          <translation lang="en">Last updated: November 2017</translation>
         </translations>
       </field>
       <field id="LANGUAGE">
@@ -3279,17 +3259,17 @@ IMF Statistics Department (Government Finance Division)</translation>
           <translation lang="ru"/>
           <translation lang="en"># Concepts and definitions
 ## Definition
-Revenue is defined in Chapter 4 (paragraph 4.23) of GFSM 2014 an increase in net worth resulting from a transaction. It is a fiscal indicator for assessing the sustainability of fiscal activities. General government units have four types of revenue. The major types of revenue are taxes (GFS code 11), social contributions (GFS code 12), grants (GFS code 13), and other revenue (GFS code 14). Of these, compulsory levies and transfers are the main sources of revenue for most general government units. In particular, taxes are compulsory, unrequited amounts receivable by government units from institutional units. Social contributions are actual or imputed revenue receivable by social insurance schemes to make provision for social insurance benefits payable. Grants are transfers receivable by government units from other resident or nonresident government units or international organizations, and that do not meet the definition of a tax, subsidy, or social contribution. Other revenue is all revenue receivable excluding taxes, social contributions, and grants. Other revenue comprises: (i) property income; (ii) sales of goods and services; (iii) fines, penalties, and forfeits; (iv) transfers not elsewhere classified; and (v) premiums, fees, and claims related to nonlife insurance and standardized guarantee schemes.
+Revenue is defined in Chapter 4 (paragraph 4.23) of *GFSM 2014* an increase in net worth resulting from a transaction. It is a fiscal indicator for assessing the sustainability of fiscal activities. General government units have four types of revenue. The major types of revenue are taxes (GFS code 11), social contributions (GFS code 12), grants (GFS code 13), and other revenue (GFS code 14). Of these, compulsory levies and transfers are the main sources of revenue for most general government units. In particular, taxes are compulsory, unrequited amounts receivable by government units from institutional units. Social contributions are actual or imputed revenue receivable by social insurance schemes to make provision for social insurance benefits payable. Grants are transfers receivable by government units from other resident or nonresident government units or international organizations, and that do not meet the definition of a tax, subsidy, or social contribution. Other revenue is all revenue receivable excluding taxes, social contributions, and grants. Other revenue comprises: (i) property income; (ii) sales of goods and services; (iii) fines, penalties, and forfeits; (iv) transfers not elsewhere classified; and (v) premiums, fees, and claims related to nonlife insurance and standardized guarantee schemes.
 
 ## Concepts
-The transactions and the associated classifications are detailed in Chapter 5 of GFSM 2014 and are structured to demonstrate how general government (and public sector) units raise revenue. Only those taxes and social insurance contributions that are evidenced by tax assessments and declarations, customs declarations, and similar documents are considered to create revenue for government units. Thus, the difference between assessments and expected collections represents a claim that has no real value and should not be recorded as revenue (see GFSM 2014 paragraph 5.20). The analytic framework of GFSM 2014 (like that of the GFSM 2001) builds on the GFSM 1986 framework, and extends it by incorporating additional elements that are useful in assessing fiscal policy. An important example is the treatment of nonfinancial assets, where the sale of such assets is no longer included in revenue. The disposal of a nonfinancial asset by sale or barter is not revenue because it has no effect on net worth. Rather, it changes the composition of the balance sheet by exchanging one asset (the nonfinancial asset) for another (the proceeds of the sale). Similarly, amounts receivable from loan repayments and loan disbursements are not revenue. In general, transactions that increase net worth result from current operations. Capital transfers are an exception. In GFSM 2014, capital transfers receivable are classified as revenue because they increase the recipient’s net worth and they are often indistinguishable from current transfers in their effect on government operations. In recording cash-based accounting revenue transactions, data representing the tax payments received by government, net of refunds paid out during the period covered should be reported. These data will include taxes paid after the original assessment, taxes paid or refunds deducted from taxes after subsequent assessments, and taxes paid or refunds deducted after any subsequent reopening of the accounts. Therefore, total tax revenue could be presented on a gross basis as the total amount of all taxes accrued, or on a net basis as the gross amount minus tax refunds. Revenue categories are presented gross of expense categories for the same or related category. In particular, interest revenue is presented gross rather than as net interest expense or net interest revenue. Similarly, social benefits and social contributions, grant revenue and expense, and rent revenue and expense are presented gross. Also, sales of goods and services are presented gross of the expenses incurred in their production. In cases of erroneous or unauthorized transactions, revenue categories are presented net of refunds of the relevant revenue, and expense categories are presented net of inflows from the recovery of the expense. For example, refunds of income taxes may be paid when the amount of taxes withheld or otherwise paid in advance of the final determination exceeds the actual tax due. Such refunds are recorded as a reduction in tax revenue. For this reason, tax revenue is presented net of non-payable tax credits (see GFSM 2014 paragraphs 5.29–5.32).</translation>
+The transactions and the associated classifications are detailed in Chapter 5 of *GFSM 2014* and are structured to demonstrate how general government (and public sector) units raise revenue. Only those taxes and social insurance contributions that are evidenced by tax assessments and declarations, customs declarations, and similar documents are considered to create revenue for government units. Thus, the difference between assessments and expected collections represents a claim that has no real value and should not be recorded as revenue (see *GFSM 2014* paragraph 5.20). The analytic framework of *GFSM 2014* (like that of the *GFSM 2001*) builds on the *GFSM 1986* framework, and extends it by incorporating additional elements that are useful in assessing fiscal policy. An important example is the treatment of nonfinancial assets, where the sale of such assets is no longer included in revenue. The disposal of a nonfinancial asset by sale or barter is not revenue because it has no effect on net worth. Rather, it changes the composition of the balance sheet by exchanging one asset (the nonfinancial asset) for another (the proceeds of the sale). Similarly, amounts receivable from loan repayments and loan disbursements are not revenue. In general, transactions that increase net worth result from current operations. Capital transfers are an exception. In *GFSM 2014*, capital transfers receivable are classified as revenue because they increase the recipient’s net worth and they are often indistinguishable from current transfers in their effect on government operations. In recording cash-based accounting revenue transactions, data representing the tax payments received by government, net of refunds paid out during the period covered should be reported. These data will include taxes paid after the original assessment, taxes paid or refunds deducted from taxes after subsequent assessments, and taxes paid or refunds deducted after any subsequent reopening of the accounts. Therefore, total tax revenue could be presented on a gross basis as the total amount of all taxes accrued, or on a net basis as the gross amount minus tax refunds. Revenue categories are presented gross of expense categories for the same or related category. In particular, interest revenue is presented gross rather than as net interest expense or net interest revenue. Similarly, social benefits and social contributions, grant revenue and expense, and rent revenue and expense are presented gross. Also, sales of goods and services are presented gross of the expenses incurred in their production. In cases of erroneous or unauthorized transactions, revenue categories are presented net of refunds of the relevant revenue, and expense categories are presented net of inflows from the recovery of the expense. For example, refunds of income taxes may be paid when the amount of taxes withheld or otherwise paid in advance of the final determination exceeds the actual tax due. Such refunds are recorded as a reduction in tax revenue. For this reason, tax revenue is presented net of non-payable tax credits (see *GFSM 2014* paragraphs 5.29–5.32).</translation>
         </translations>
       </field>
       <field id="RATIONALE">
         <translations>
           <translation lang="ru"/>
           <translation lang="en">## Rationale and interpretation
-Fiscal policy is the use of the level and composition of the general government and public sectors’ spending and revenue—and the related accumulation of government assets and liabilities—to achieve such goals as the stabilization of the economy, the reallocation of resources, and the redistribution of income. In addition to revenue mobilization, government units may also finance a portion of their activities in a specific period by borrowing or by acquiring funds from sources other than compulsory transfers—for example, interest revenue, incidental sales of goods and services, or the rent of subsoil assets. Indicator 17.1.1 Total government revenue as a proportion of GDP, by source supports understanding countries’ domestic revenue mobilization in the form of tax and nontax sources. The indicator will provide analysts with a cross-country comparable dataset that highlights the relationship between the four main types of revenue as well as the relative "tax burden" (revenue in the form of taxes) and “fiscal burden” (revenue in the form of taxes plus social contributions).</translation>
+Fiscal policy is the use of the level and composition of the general government and public sectors’ spending and revenue—and the related accumulation of government assets and liabilities—to achieve such goals as the stabilization of the economy, the reallocation of resources, and the redistribution of income. In addition to revenue mobilization, government units may also finance a portion of their activities in a specific period by borrowing or by acquiring funds from sources other than compulsory transfers—for example, interest revenue, incidental sales of goods and services, or the rent of subsoil assets. Indicator 17.1.1 *Total government revenue as a proportion of GDP, by source* supports understanding countries’ domestic revenue mobilization in the form of tax and nontax sources. The indicator will provide analysts with a cross-country comparable dataset that highlights the relationship between the four main types of revenue as well as the relative "tax burden" (revenue in the form of taxes) and “fiscal burden” (revenue in the form of taxes plus social contributions).</translation>
         </translations>
       </field>
       <field id="DATA_COMP">
@@ -3297,7 +3277,7 @@ Fiscal policy is the use of the level and composition of the general government 
           <translation lang="ru"/>
           <translation lang="en"># Methodology
 ## Computation method
-Indicator 17.1.1 will be derived using series that are basic to the GFS reporting framework. GFS revenue series maintained by the IMF Statistics Department are collected in Table 1 of the standard annual data questionnaire. Each revenue transaction is classified according to whether it is a tax or another type of revenue. GFS revenue aggregates are summations of individual entries and elements in this particular class of flows and allow for these data to be arranged in a manageable and analytically useful way. For example, tax revenue is the sum of all flows that are classified as taxes. Conceptually, the value for each main revenue aggregate is the sum of the values for all items in the relevant category. The annual GFS series for monitoring Indicator 17.1.1will be derived from the data reported by the national authorities (in national currency) expressed as a percent of Gross Domestic Product (GDP), where GDP is derived from the IMF World Economic Outlook database (no adjustments and/or weighting techniques will be applied). Mixed sources are not being used nor will the calculation change over time (i.e., there are no discontinuities in the underlying series as these are key aggregates/ components in all country reported GFS series). The presentation will closely align with that currently contained in World Table 4 from the hard-copy GFS Yearbook: 
+Indicator 17.1.1 will be derived using series that are basic to the GFS reporting framework. GFS revenue series maintained by the IMF Statistics Department are collected in Table 1 of the standard annual data questionnaire. Each revenue transaction is classified according to whether it is a tax or another type of revenue. GFS revenue aggregates are summations of individual entries and elements in this particular class of flows and allow for these data to be arranged in a manageable and analytically useful way. For example, tax revenue is the sum of all flows that are classified as taxes. Conceptually, the value for each main revenue aggregate is the sum of the values for all items in the relevant category. The annual GFS series for monitoring Indicator 17.1.1 will be derived from the data reported by the national authorities (in national currency) expressed as a percent of Gross Domestic Product (GDP), where GDP is derived from the IMF *World Economic Outlook* database (no adjustments and/or weighting techniques will be applied). Mixed sources are not being used nor will the calculation change over time (i.e., there are no discontinuities in the underlying series as these are key aggregates/ components in all country reported GFS series). The presentation will closely align with that currently contained in World Table 4 from the hard-copy *GFS Yearbook*: 
 
 &lt;table&gt;
   &lt;tr&gt;
@@ -3318,7 +3298,7 @@ Indicator 17.1.1 will be derived using series that are basic to the GFS reportin
   &lt;/tr&gt;
 &lt;/table&gt;
 
-Historic series have been aligned with GFSM 2014 classifications. This enhances the comparability of data across countries and ensures establishing robust analytical findings to support SDG monitoring using fiscal data.</translation>
+Historic series have been aligned with *GFSM 2014* classifications. This enhances the comparability of data across countries and ensures establishing robust analytical findings to support SDG monitoring using fiscal data.</translation>
         </translations>
       </field>
       <field id="DISAGGREGATION">
@@ -3341,131 +3321,131 @@ The detailed GFS revenue classification structure in the annual questionnaire th
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td&gt;&lt;strong&gt;111&lt;/strong&gt;&lt;/td&gt;
-      &lt;td&gt;&lt;strong&gt;Taxes on income, profits, and capital gains&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;&amp;emsp;&lt;strong&gt;Taxes on income, profits, and capital gains&lt;/strong&gt;&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td&gt;1111&lt;/td&gt;
-      &lt;td&gt;Payable by individuals&lt;/td&gt;
+      &lt;td&gt;&amp;emsp;&amp;emsp;Payable by individuals&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td&gt;1112&lt;/td&gt;
-      &lt;td&gt;Payable by corporations and other enterprises&lt;/td&gt;
+      &lt;td&gt;&amp;emsp;&amp;emsp;Payable by corporations and other enterprises&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td&gt;1113&lt;/td&gt;
-      &lt;td&gt;Other&lt;/td&gt;
+      &lt;td&gt;&amp;emsp;&amp;emsp;Other&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td&gt;&lt;strong&gt;112&lt;/strong&gt;&lt;/td&gt;
-      &lt;td&gt;&lt;strong&gt;Taxes on payroll and workforce&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;&amp;emsp;&lt;strong&gt;Taxes on payroll and workforce&lt;/strong&gt;&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td&gt;&lt;strong&gt;113&lt;/strong&gt;&lt;/td&gt;
-      &lt;td&gt;&lt;strong&gt;Taxes on property&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;&amp;emsp;&lt;strong&gt;Taxes on property&lt;/strong&gt;&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td&gt;1131&lt;/td&gt;
-      &lt;td&gt;Recurrent taxes on immoveable property&lt;/td&gt;
+      &lt;td&gt;&amp;emsp;&amp;emsp;Recurrent taxes on immoveable property&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td&gt;1132&lt;/td&gt;
-      &lt;td&gt;Recurrent taxes on net wealth&lt;/td&gt;
+      &lt;td&gt;&amp;emsp;&amp;emsp;Recurrent taxes on net wealth&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td&gt;1133&lt;/td&gt;
-      &lt;td&gt;Estate, inheritance, and gift taxes&lt;/td&gt;
+      &lt;td&gt;&amp;emsp;&amp;emsp;Estate, inheritance, and gift taxes&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td&gt;1135&lt;/td&gt;
-      &lt;td&gt;Capital levies&lt;/td&gt;
+      &lt;td&gt;&amp;emsp;&amp;emsp;Capital levies&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td&gt;1136&lt;/td&gt;
-      &lt;td&gt;Other recurrent taxes on property&lt;/td&gt;
+      &lt;td&gt;&amp;emsp;&amp;emsp;Other recurrent taxes on property&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td&gt;&lt;strong&gt;114&lt;/strong&gt;&lt;/td&gt;
-      &lt;td&gt;&lt;strong&gt;Taxes on goods and services&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;&amp;emsp;&lt;strong&gt;Taxes on goods and services&lt;/strong&gt;&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td&gt;1141&lt;/td&gt;
-      &lt;td&gt;General taxes on goods and services&lt;/td&gt;
+      &lt;td&gt;&amp;emsp;&amp;emsp;General taxes on goods and services&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td&gt;11411&lt;/td&gt;
-      &lt;td&gt;Value-added taxes&lt;/td&gt;
+      &lt;td&gt;&amp;emsp;&amp;emsp;&amp;emsp;Value-added taxes&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td&gt;11412&lt;/td&gt;
-      &lt;td&gt;Sales taxes&lt;/td&gt;
+      &lt;td&gt;&amp;emsp;&amp;emsp;&amp;emsp;Sales taxes&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td&gt;11413&lt;/td&gt;
-      &lt;td&gt;Turnover and other general taxes on G &amp;amp; S&lt;/td&gt;
+      &lt;td&gt;&amp;emsp;&amp;emsp;&amp;emsp;Turnover and other general taxes on G &amp;amp; S&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td&gt;11414&lt;/td&gt;
-      &lt;td&gt;Taxes on financial and capital transactions&lt;/td&gt;
+      &lt;td&gt;&amp;emsp;&amp;emsp;&amp;emsp;Taxes on financial and capital transactions&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td&gt;1142&lt;/td&gt;
-      &lt;td&gt;Excises&lt;/td&gt;
+      &lt;td&gt;&amp;emsp;&amp;emsp;Excises&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td&gt;1143&lt;/td&gt;
-      &lt;td&gt;Profits of fiscal monopolies&lt;/td&gt;
+      &lt;td&gt;&amp;emsp;&amp;emsp;Profits of fiscal monopolies&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td&gt;1144&lt;/td&gt;
-      &lt;td&gt;Taxes on specific services&lt;/td&gt;
+      &lt;td&gt;&amp;emsp;&amp;emsp;Taxes on specific services&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td&gt;1145&lt;/td&gt;
-      &lt;td&gt;Taxes on use of goods and permission to use goods or perform activities&lt;/td&gt;
+      &lt;td&gt;&amp;emsp;&amp;emsp;Taxes on use of goods and permission to use goods or perform activities&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td&gt;11451&lt;/td&gt;
-      &lt;td&gt;Motor vehicle taxes&lt;/td&gt;
+      &lt;td&gt;&amp;emsp;&amp;emsp;&amp;emsp;Motor vehicle taxes&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td&gt;11452&lt;/td&gt;
-      &lt;td&gt;Other&lt;/td&gt;
+      &lt;td&gt;&amp;emsp;&amp;emsp;&amp;emsp;Other&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td&gt;1146&lt;/td&gt;
-      &lt;td&gt;Other taxes on goods and services&lt;/td&gt;
+      &lt;td&gt;&amp;emsp;&amp;emsp;Other taxes on goods and services&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td&gt;&lt;strong&gt;115&lt;/strong&gt;&lt;/td&gt;
-      &lt;td&gt;&lt;strong&gt;Taxes on international trade and transactions&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;&amp;emsp;&lt;strong&gt;Taxes on international trade and transactions&lt;/strong&gt;&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td&gt;1151&lt;/td&gt;
-      &lt;td&gt;Customs and other import duties&lt;/td&gt;
+      &lt;td&gt;&amp;emsp;&amp;emsp;Customs and other import duties&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td&gt;1152&lt;/td&gt;
-      &lt;td&gt;Taxes on exports&lt;/td&gt;
+      &lt;td&gt;&amp;emsp;&amp;emsp;Taxes on exports&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td&gt;1153&lt;/td&gt;
-      &lt;td&gt;Profits of exports or import monopolies&lt;/td&gt;
+      &lt;td&gt;&amp;emsp;&amp;emsp;Profits of exports or import monopolies&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td&gt;1154&lt;/td&gt;
-      &lt;td&gt;Exchange profits&lt;/td&gt;
+      &lt;td&gt;&amp;emsp;&amp;emsp;Exchange profits&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td&gt;1155&lt;/td&gt;
-      &lt;td&gt;Exchange taxes&lt;/td&gt;
+      &lt;td&gt;&amp;emsp;&amp;emsp;Exchange taxes&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td&gt;1156&lt;/td&gt;
-      &lt;td&gt;Other taxes on international trade and transactions&lt;/td&gt;
+      &lt;td&gt;&amp;emsp;&amp;emsp;Other taxes on international trade and transactions&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td&gt;&lt;strong&gt;116&lt;/strong&gt;&lt;/td&gt;
-      &lt;td&gt;&lt;strong&gt;Other taxes&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;&amp;emsp;&lt;strong&gt;Other taxes&lt;/strong&gt;&lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
@@ -3481,39 +3461,39 @@ Social contributions differentiate between social security and other social cont
   &lt;tbody&gt;
     &lt;tr&gt;
       &lt;td&gt;&lt;strong&gt;121&lt;/strong&gt;&lt;/td&gt;
-      &lt;td&gt;&lt;strong&gt;Social security contributions&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;&amp;emsp;&lt;strong&gt;Social security contributions&lt;/strong&gt;&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td&gt;1211&lt;/td&gt;
-      &lt;td&gt;Employee contributions&lt;/td&gt;
+      &lt;td&gt;&amp;emsp;&amp;emsp;Employee contributions&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td&gt;1212&lt;/td&gt;
-      &lt;td&gt;Employer contributions&lt;/td&gt;
+      &lt;td&gt;&amp;emsp;&amp;emsp;Employer contributions&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td&gt;1213&lt;/td&gt;
-      &lt;td&gt;Self-employed or nonemployed contributions&lt;/td&gt;
+      &lt;td&gt;&amp;emsp;&amp;emsp;Self-employed or nonemployed contributions&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td&gt;1214&lt;/td&gt;
-      &lt;td&gt;Unallocable contributions&lt;/td&gt;
+      &lt;td&gt;&amp;emsp;&amp;emsp;Unallocable contributions&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td&gt;&lt;strong&gt;122&lt;/strong&gt;&lt;/td&gt;
-      &lt;td&gt;&lt;strong&gt;Other social contributions&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;&amp;emsp;&lt;strong&gt;Other social contributions&lt;/strong&gt;&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td&gt;1221&lt;/td&gt;
-      &lt;td&gt;Employee contributions&lt;/td&gt;
+      &lt;td&gt;&amp;emsp;&amp;emsp;Employee contributions&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td&gt;1222&lt;/td&gt;
-      &lt;td&gt;Employer contributions&lt;/td&gt;
+      &lt;td&gt;&amp;emsp;&amp;emsp;Employer contributions&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td&gt;1223&lt;/td&gt;
-      &lt;td&gt;Imputed contributions&lt;/td&gt;
+      &lt;td&gt;&amp;emsp;&amp;emsp;Imputed contributions&lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
@@ -3529,39 +3509,39 @@ Grants can be disaggregated by source as follows:
   &lt;tbody&gt;
     &lt;tr&gt;
       &lt;td&gt;&lt;strong&gt;131&lt;/strong&gt;&lt;/td&gt;
-      &lt;td&gt;&lt;strong&gt;From foreign governments&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;&amp;emsp;&lt;strong&gt;From foreign governments&lt;/strong&gt;&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td&gt;1311&lt;/td&gt;
-      &lt;td&gt;Current&lt;/td&gt;
+      &lt;td&gt;&amp;emsp;&amp;emsp;Current&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td&gt;1312&lt;/td&gt;
-      &lt;td&gt;Capital&lt;/td&gt;
+      &lt;td&gt;&amp;emsp;&amp;emsp;Capital&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td&gt;&lt;strong&gt;132&lt;/strong&gt;&lt;/td&gt;
-      &lt;td&gt;&lt;strong&gt;From international organizations&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;&amp;emsp;&lt;strong&gt;From international organizations&lt;/strong&gt;&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td&gt;1321&lt;/td&gt;
-      &lt;td&gt;Current&lt;/td&gt;
+      &lt;td&gt;&amp;emsp;&amp;emsp;Current&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td&gt;1322&lt;/td&gt;
-      &lt;td&gt;Capital&lt;/td&gt;
+      &lt;td&gt;&amp;emsp;&amp;emsp;Capital&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td&gt;&lt;strong&gt;133&lt;/strong&gt;&lt;/td&gt;
-      &lt;td&gt;&lt;strong&gt;From other general government units&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;&amp;emsp;&lt;strong&gt;From other general government units&lt;/strong&gt;&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td&gt;1331&lt;/td&gt;
-      &lt;td&gt;Current&lt;/td&gt;
+      &lt;td&gt;&amp;emsp;&amp;emsp;Current&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td&gt;1332&lt;/td&gt;
-      &lt;td&gt;Capital&lt;/td&gt;
+      &lt;td&gt;&amp;emsp;&amp;emsp;Capital&lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
@@ -3577,111 +3557,111 @@ And Other revenue is disaggregated into five main types, with additional compone
   &lt;tbody&gt;
     &lt;tr&gt;
       &lt;td&gt;&lt;strong&gt;141&lt;/strong&gt;&lt;/td&gt;
-      &lt;td&gt;&lt;strong&gt;Property income&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;&amp;emsp;&lt;strong&gt;Property income&lt;/strong&gt;&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td&gt;1411&lt;/td&gt;
-      &lt;td&gt;Interest&lt;/td&gt;
+      &lt;td&gt;&amp;emsp;&amp;emsp;Interest&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td&gt;14111&lt;/td&gt;
-      &lt;td&gt;From residents&lt;/td&gt;
+      &lt;td&gt;&amp;emsp;&amp;emsp;&amp;emsp;From residents&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td&gt;14112&lt;/td&gt;
-      &lt;td&gt;From residents other than general government&lt;/td&gt;
+      &lt;td&gt;&amp;emsp;&amp;emsp;&amp;emsp;From residents other than general government&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td&gt;14113&lt;/td&gt;
-      &lt;td&gt;From other general government units&lt;/td&gt;
+      &lt;td&gt;&amp;emsp;&amp;emsp;&amp;emsp;From other general government units&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td&gt;1412&lt;/td&gt;
-      &lt;td&gt;Dividends&lt;/td&gt;
+      &lt;td&gt;&amp;emsp;&amp;emsp;Dividends&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td&gt;1413&lt;/td&gt;
-      &lt;td&gt;Withdrawals of income from quasi-corporations&lt;/td&gt;
+      &lt;td&gt;&amp;emsp;&amp;emsp;Withdrawals of income from quasi-corporations&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td&gt;1414&lt;/td&gt;
-      &lt;td&gt;Property income from investment income disbursements&lt;/td&gt;
+      &lt;td&gt;&amp;emsp;&amp;emsp;Property income from investment income disbursements&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td&gt;1415&lt;/td&gt;
-      &lt;td&gt;Rent&lt;/td&gt;
+      &lt;td&gt;&amp;emsp;&amp;emsp;Rent&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td&gt;1416&lt;/td&gt;
-      &lt;td&gt;Reinvested earnings on foreign direct investment&lt;/td&gt;
+      &lt;td&gt;&amp;emsp;&amp;emsp;Reinvested earnings on foreign direct investment&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td&gt;&lt;strong&gt;142&lt;/strong&gt;&lt;/td&gt;
-      &lt;td&gt;&lt;strong&gt;Sales of goods and services&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;&amp;emsp;&lt;strong&gt;Sales of goods and services&lt;/strong&gt;&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td&gt;1421&lt;/td&gt;
-      &lt;td&gt;Sales of market establishments&lt;/td&gt;
+      &lt;td&gt;&amp;emsp;&amp;emsp;Sales of market establishments&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td&gt;1422&lt;/td&gt;
-      &lt;td&gt;Administrative fees&lt;/td&gt;
+      &lt;td&gt;&amp;emsp;&amp;emsp;Administrative fees&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td&gt;1423&lt;/td&gt;
-      &lt;td&gt;Incidental sales by nonmarket establishements&lt;/td&gt;
+      &lt;td&gt;&amp;emsp;&amp;emsp;Incidental sales by nonmarket establishements&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td&gt;1424&lt;/td&gt;
-      &lt;td&gt;Imputed sales of goods and services&lt;/td&gt;
+      &lt;td&gt;&amp;emsp;&amp;emsp;Imputed sales of goods and services&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td&gt;&lt;strong&gt;143&lt;/strong&gt;&lt;/td&gt;
-      &lt;td&gt;&lt;strong&gt;Fines, penalties, and forfeits&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;&amp;emsp;&lt;strong&gt;Fines, penalties, and forfeits&lt;/strong&gt;&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td&gt;&lt;strong&gt;144&lt;/strong&gt;&lt;/td&gt;
-      &lt;td&gt;&lt;strong&gt;Transfers not elsewhere classified&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;&amp;emsp;&lt;strong&gt;Transfers not elsewhere classified&lt;/strong&gt;&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td&gt;1441&lt;/td&gt;
-      &lt;td&gt;Current&lt;/td&gt;
+      &lt;td&gt;&amp;emsp;&amp;emsp;Current&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td&gt;14411&lt;/td&gt;
-      &lt;td&gt;Subsidies&lt;/td&gt;
+      &lt;td&gt;&amp;emsp;&amp;emsp;&amp;emsp;Subsidies&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td&gt;14412&lt;/td&gt;
-      &lt;td&gt;Other&lt;/td&gt;
+      &lt;td&gt;&amp;emsp;&amp;emsp;&amp;emsp;Other&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td&gt;1442&lt;/td&gt;
-      &lt;td&gt;Capital&lt;/td&gt;
+      &lt;td&gt;&amp;emsp;&amp;emsp;Capital&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td&gt;&lt;strong&gt;145&lt;/strong&gt;&lt;/td&gt;
-      &lt;td&gt;&lt;strong&gt;Premiums, fees, and claims related to nonlife insurance and standardized guarantee schemes&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;&amp;emsp;&lt;strong&gt;Premiums, fees, and claims related to nonlife insurance and standardized guarantee schemes&lt;/strong&gt;&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td&gt;1451&lt;/td&gt;
-      &lt;td&gt;Premiums, fees, and current claims&lt;/td&gt;
+      &lt;td&gt;&amp;emsp;&amp;emsp;Premiums, fees, and current claims&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td&gt;14511&lt;/td&gt;
-      &lt;td&gt;Premiums&lt;/td&gt;
+      &lt;td&gt;&amp;emsp;&amp;emsp;&amp;emsp;Premiums&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td&gt;14512&lt;/td&gt;
-      &lt;td&gt;Fees for standardized guarantee claims&lt;/td&gt;
+      &lt;td&gt;&amp;emsp;&amp;emsp;&amp;emsp;Fees for standardized guarantee claims&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td&gt;14513&lt;/td&gt;
-      &lt;td&gt;Current claims&lt;/td&gt;
+      &lt;td&gt;&amp;emsp;&amp;emsp;&amp;emsp;Current claims&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td&gt;1452&lt;/td&gt;
-      &lt;td&gt;Capital claims&lt;/td&gt;
+      &lt;td&gt;&amp;emsp;&amp;emsp;Capital claims&lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;</translation>
@@ -3691,7 +3671,7 @@ And Other revenue is disaggregated into five main types, with additional compone
         <translations>
           <translation lang="ru"/>
           <translation lang="en">## Treatment of missing values
-The IMF plans to rely exclusively on officially reported data provided by the national authorities using the standard GFS questionnaire based on GFSM 2014 methodology. No country data estimates for missing values will be calculated by the IMF Statistics Department. Where country data are not available due to a lack of reporting to the IMF Statistics Department, we plan to engage in outreach to the national authorities, in consultation with the respective IMF Area Departments and Offices of the Executive Director, as needed, to ensure that the key GFS series are reported.</translation>
+The IMF plans to rely exclusively on officially reported data provided by the national authorities using the standard GFS questionnaire based on *GFSM 2014* methodology. No country data estimates for missing values will be calculated by the IMF Statistics Department. Where country data are not available due to a lack of reporting to the IMF Statistics Department, we plan to engage in outreach to the national authorities, in consultation with the respective IMF Area Departments and Offices of the Executive Director, as needed, to ensure that the key GFS series are reported.</translation>
         </translations>
       </field>
       <field id="ADJUSTMENT">
@@ -3721,7 +3701,7 @@ The actual and recommended sources of data for deriving this indicator are the f
         <translations>
           <translation lang="ru"/>
           <translation lang="en">## Comments and limitations
-In principle, GFS should cover all entities that materially affect fiscal policies. Cross-country comparisons are ideally made with reference to the consolidated general government sector. However, for most developing and many emerging market economies, compiling data for the consolidated general government and its subsectors is problematic owing to limitations in the availability and/or timeliness of source data. For example, a country may have one central government; several state, provincial, or regional governments; and many local governments. Countries may also have social security funds. The GFSM 2014 recommends that statistics should be compiled for all such general government units. This reporting structure is illustrated below:
+In principle, GFS should cover all entities that materially affect fiscal policies. Cross-country comparisons are ideally made with reference to the consolidated general government sector. However, for most developing and many emerging market economies, compiling data for the consolidated general government and its subsectors is problematic owing to limitations in the availability and/or timeliness of source data. For example, a country may have one central government; several state, provincial, or regional governments; and many local governments. Countries may also have social security funds. The *GFSM 2014* recommends that statistics should be compiled for all such general government units. This reporting structure is illustrated below:
 
 &lt;table&gt;
   &lt;tr&gt;
@@ -3758,7 +3738,7 @@ In principle, GFS should cover all entities that materially affect fiscal polici
 
 Some countries report data for the consolidated general government with one or more sub-sectors not separately reported. Similarly, there are some countries that report “consolidated central government” without necessarily providing the budgetary central government subsector separately. Conceptually, a World Aggregate could be calculated by computing a weighted average from available sources using GDP expressed in United States dollars. However, at this time the IMF Statistics Department recommends no regional and global aggregates be established. While we see no issues in terms of the feasibility and suitability of 17.1.1 for cross-country comparisons, we question the relevance of one single global indicator that combines data for advanced economies with those of emerging market and low-income countries. To address this, the country data are presented, where reported, for the budgetary central government, the consolidated central government (with and without social security funds), and for consolidated general government. 
 
-For many emerging market and low-income countries with limited statistical capacity, budgetary central government is considered the most appropriate level of institutional coverage for comparison purposes. Budgetary central government, as described in GFSM 2014 (paragraph 2.81), is an institutional unit of the general government sector particularly important in terms of size and power, particularly the power to exercise control over many other units and entities. This component of general government is usually covered by the main (or general) budget. The budgetary central government’s revenue (and expense) are normally regulated and controlled by a ministry of finance, or its functional equivalent, by means of a budget approved by the legislature.</translation>
+For many emerging market and low-income countries with limited statistical capacity, budgetary central government is considered the most appropriate level of institutional coverage for comparison purposes. Budgetary central government, as described in *GFSM 2014* (paragraph 2.81), is an institutional unit of the general government sector particularly important in terms of size and power, particularly the power to exercise control over many other units and entities. This component of general government is usually covered by the main (or general) budget. The budgetary central government’s revenue (and expense) are normally regulated and controlled by a ministry of finance, or its functional equivalent, by means of a budget approved by the legislature.</translation>
         </translations>
       </field>
       <field id="DATA_AVAILABILITY">
@@ -3766,7 +3746,7 @@ For many emerging market and low-income countries with limited statistical capac
           <translation lang="ru"/>
           <translation lang="en"># Data Availability
 ## Current data availability / indicator tier
-Classification of the indicator into one of the three tiers: We recommend that 17.1.1 (like 17.1.2) remain classified as Tier 1: The indicator is conceptually clear and internationally agreed standards for compiling components and aggregates are available. The underlying data are regularly produced by countries, and there is current data available. From the IAEG-SDGs Tier Classification description at https://unstats.un.org/sdgs/iaeg-sdgs/tier-classification/, a key criteria is that “data are regularly produced by countries for at least 50 per cent of countries”. The IMF GFS database, with 120+ regular annual reporting countries using the same reporting format meets this key criteria. Apart from conflict countries, all IMF member countries produce revenue (and expenditure) data for surveillance purposes. In the 2017 round of soliciting annual GFS series from countries, we have specifically encouraged those countries that were non-reporters over the past few years to (at a minimum) provide the key revenue and expenditure series needed to monitor 17.1.</translation>
+Classification of the indicator into one of the three tiers: We recommend that 17.1.1 (like 17.1.2) remain classified as Tier 1: The indicator is conceptually clear and internationally agreed standards for compiling components and aggregates are available. The underlying data are regularly produced by countries, and there is current data available. From the IAEG-SDGs Tier Classification description at &lt;https://unstats.un.org/sdgs/iaeg-sdgs/tier-classification/&gt;, a key criteria is that “data are regularly produced by countries for at least 50 per cent of countries”. The IMF GFS database, with 120+ regular annual reporting countries using the same reporting format meets this key criteria. Apart from conflict countries, all IMF member countries produce revenue (and expenditure) data for surveillance purposes. In the 2017 round of soliciting annual GFS series from countries, we have specifically encouraged those countries that were non-reporters over the past few years to (at a minimum) provide the key revenue and expenditure series needed to monitor 17.1.</translation>
         </translations>
       </field>
       <field id="FREQ_COLL">
@@ -3783,14 +3763,14 @@ Country data are disseminated as they are processed and summary World Tables and
         <translations>
           <translation lang="ru"/>
           <translation lang="en"># Data compilers
-The IMF Statistics Department (Government Finance Division; email: STAGODATA@imf.org) is the organization responsible for the compilation and reporting on this indicator at the global level.</translation>
+The IMF Statistics Department (Government Finance Division; email: &lt;STAGODATA@imf.org&gt;) is the organization responsible for the compilation and reporting on this indicator at the global level.</translation>
         </translations>
       </field>
       <field id="REFERENCES">
         <translations>
           <translation lang="ru"/>
           <translation lang="en"># References
-The GFSM 2014 is available at http://www.imf.org/external/np/sta/gfsm/. A series of videos that discuss the GFS analytical framework are available at: IMF Statistics E-Learning Videos - YouTube. Although not foreseen under the reporting of 17.1.1, analysts can also use the detailed IMF GFS Revenue database to supplement this indicator with measures of direct, indirect and capital taxes (see GFSM 2014, Annex to Chapter 4).</translation>
+The *GFSM 2014* is available at &lt;http://www.imf.org/external/np/sta/gfsm/&gt;. A series of videos that discuss the GFS analytical framework are available at: IMF Statistics E-Learning Videos - YouTube. Although not foreseen under the reporting of 17.1.1, analysts can also use the detailed IMF GFS Revenue database to supplement this indicator with measures of direct, indirect and capital taxes (see *GFSM 2014*, Annex to Chapter 4).</translation>
         </translations>
       </field>
     </fields>
@@ -3801,6 +3781,12 @@ The GFSM 2014 is available at http://www.imf.org/external/np/sta/gfsm/. A series
         <translations>
           <translation lang="ru">17.3.2</translation>
           <translation lang="en">17.3.2</translation>
+        </translations>
+      </field>
+      <field id="META_LAST_UPDATE">
+        <translations>
+          <translation lang="ru"/>
+          <translation lang="en">Last updated: 19 July 2016</translation>
         </translations>
       </field>
       <field id="LANGUAGE">
@@ -3938,7 +3924,7 @@ Regional and global estimates are calculated as the GDP weighted average.</trans
 Данные об объеме личных денежных переводов поступают из базы данных МВФ по статистике платежного баланса, а затем заполняются оценками персонала Всемирного банка.
 
 В качестве общей основы используются данные о ВВП, взятые из базы данных Всемирного банка "Показатели мирового развития" (ПМР). Сбор данных о ВВП осуществляется из национальных и международных источников посредством ежегодного опроса экономистов в сети отделений Банка  в странах-членах,  являющегося основным механизмом Всемирного банка по сбору количественной макроэкономической информации о странах-участницах.</translation>
-          <translation lang="en">## Data Sources
+          <translation lang="en">## Data sources
 
 Volume of personal remittances data are sourced from IMF’s Balance of Payments Statistics database and then gap-filled with World Bank staff estimates. 
 
@@ -3950,7 +3936,7 @@ GDP data, sourced from the World Bank’s World Development Indicators (WDI) dat
           <translation lang="ru"># Доступность данных
 
 Данные по 207 странам уже имеются на регулярной основе по этому показателю.</translation>
-          <translation lang="en"># Data Availability
+          <translation lang="en"># Data availability
 
 Data for 207 countries are already currently available on a regular basis for this indicator.</translation>
         </translations>
@@ -3976,7 +3962,7 @@ This is done on an annual basis.</translation>
 
 The national data provider of personal remittances is the institution in charge of the collection and compilation of the Balance of Payments statistics. This responsibility varies and is country specific (i.e. Central Bank). World Bank staff estimates for personal remittances data are used for gap-filling purposes. Personal remittances data are not reported directly to the World Bank from the national data provider. They are reported to the International Monetary Fund (IMF), which is the institution in charge of overseeing balance of payment stability as part of its institutional mandate. 
 
-GDP data are sourced from the World Bank’s World Development Indicators (WDI) database and are compiled in accordance to the System of National Accounts, 2008 (2008 SNA) methodology. GDP data collection is conducted through the Unified Survey process, the World Bank’s principal mechanism for gathering quantitative macroeconomic information on its member countries.</translation>
+GDP data are sourced from the World Bank’s World Development Indicators (WDI) database and are compiled in accordance to the *System of National Accounts, 2008* (*2008 SNA*) methodology. GDP data collection is conducted through the Unified Survey process, the World Bank’s principal mechanism for gathering quantitative macroeconomic information on its member countries.</translation>
         </translations>
       </field>
       <field id="COMPILING_ORG">
@@ -3996,11 +3982,27 @@ The government agency in charge of the collection and compilation of the Balance
 # URL-адрес
 
 www.worldbank.org</translation>
-          <translation lang="en">## References
+          <translation lang="en"># References
 
-# URL
+## URL
 
 www.worldbank.org</translation>
+        </translations>
+      </field>
+      <field id="REFERENCES">
+        <translations>
+          <translation lang="ru"/>
+          <translation lang="en"># References
+
+Data are compiled in accordance with the sixth edition of the *Balance of Payments and International Investment Position Manual* (*BPM6*). The manual is available at: &lt;https://www.imf.org/external/pubs/ft/bop/2007/bopman6.htm&gt;
+
+GDP data are compiled in accordance to the *System of National Accounts, 
+2008* (*2008 SNA*) methodology. The manual is available at: 
+&lt;http://unstats.un.org/unsd/nationalaccount/docs/SNA2008.pdf&gt;. 
+
+Metadata also available at:
+
+&lt;http://databank.worldbank.org/data/reports.aspx?source=2&amp;type=metadata&amp;series=BX.TRF.PWKR.DT.GD.ZS&gt;</translation>
         </translations>
       </field>
     </fields>
@@ -4016,7 +4018,7 @@ www.worldbank.org</translation>
       <field id="META_LAST_UPDATE">
         <translations>
           <translation lang="ru">19 июля 2016 года</translation>
-          <translation lang="en">July 19, 2016</translation>
+          <translation lang="en">Last updated: 19 July 2016</translation>
         </translations>
       </field>
       <field id="LANGUAGE">
@@ -4074,7 +4076,7 @@ World Bank (WB)</translation>
 
 ## Definition
 
-Debt service as proportion of exports of goods and services is the percentage of debt services (principle and interest payments) to the exports of goods and services. Debt services covered in this indicator refer only to public and publicly guaranteed debt..</translation>
+Debt service as proportion of exports of goods and services is the percentage of debt services (principle and interest payments) to the exports of goods and services. Debt services covered in this indicator refer only to public and publicly guaranteed debt.</translation>
         </translations>
       </field>
       <field id="CLASS_SYSTEM">
@@ -4086,9 +4088,9 @@ Debt service as proportion of exports of goods and services is the percentage of
 Концепции данных "Экспорт товаров и услуг" соответствуют шестому изданию "Руководства по платежному балансу и международной инвестиционной позиции" (BPM6).</translation>
           <translation lang="en">## Concepts
 
-Concepts of public and publicly guaranteed external debt data are in accordance with the sixth edition of the Balance of Payments and International Investment Position Manual (BPM6) methodology.
+Concepts of public and publicly guaranteed external debt data are in accordance with the sixth edition of the *Balance of Payments and International Investment Position Manual* (*BPM6*) methodology.
 
-“Exports of goods and services” data concepts are in accordance with the sixth edition of the Balance of Payments and International Investment Position Manual (BPM6).</translation>
+“Exports of goods and services” data concepts are in accordance with the sixth edition of the *Balance of Payments and International Investment Position Manual* (*BPM6*).</translation>
         </translations>
       </field>
       <field id="DATA_COMP">
@@ -4104,11 +4106,11 @@ Concepts of public and publicly guaranteed external debt data are in accordance 
 Обе составляющие используются для отражения показателя в процентах.</translation>
           <translation lang="en"># Methodology
 
-## Computation Method
+## Computation method
 
 Public and publicly guaranteed external debt data are compiled by the World Bank based on the World Bank Debtor Reporting System Manual, dated January 2000 which sets out the reporting procedures to be used by countries. The data are provided by the countries on a loan by loan basis. 
 
-“Exports of goods and services” data are sourced from IMF’s Balance of Payments Statistics database and then gap-filled with World Bank staff estimates in accordance with the sixth edition of the Balance of Payments and International Investment Position Manual (BPM6) 
+“Exports of goods and services” data are sourced from IMF’s Balance of Payments Statistics database and then gap-filled with World Bank staff estimates in accordance with the sixth edition of the *Balance of Payments and International Investment Position Manual* (*BPM6*) 
 
 Both components are used to express the indicator in percentage terms.</translation>
         </translations>
@@ -4166,7 +4168,7 @@ Public and publicly guaranteed debt is reported on a quarterly basis through for
           <translation lang="ru"># Наличие данных
 
 В настоящее время уже имеются данные по 122 странам на регулярной основе по этому показателю.</translation>
-          <translation lang="en"># Data Availability
+          <translation lang="en"># Data availability
 
 Data for 122 countries are already currently available on a regular basis for this indicator.</translation>
         </translations>
@@ -4192,7 +4194,7 @@ Loan transactions are reported once a year on Form 2 (Current Status and Transac
  Ежегодная публикация новых данных по этому показателю запланирована на середину декабря в ежегодном издании Всемирного банка "Международная статистика по задолженности" и доступно в режиме онлайн (см. ссылку: http://data.worldbank.org/products/ids)</translation>
           <translation lang="en">## Data release
 
-The annual publication of new data for this indicator is planned for mid-December through the World Bank annual publication - International Debt Statistics (IDS) book and available online (see link: http://data.worldbank.org/products/ids)</translation>
+The annual publication of new data for this indicator is planned for mid-December through the World Bank annual publication - International Debt Statistics (IDS) book and available online (see link: &lt;http://data.worldbank.org/products/ids&gt;)</translation>
         </translations>
       </field>
       <field id="DATA_SOURCE">
@@ -4227,6 +4229,14 @@ www.worldbank.org</translation>
 ## URL
 
 www.worldbank.org</translation>
+        </translations>
+      </field>
+      <field id="REFERENCES">
+        <translations>
+          <translation lang="ru"/>
+          <translation lang="en">## References
+
+&lt;http://databank.worldbank.org/data/reports.aspx?source=2&amp;type=metadata&amp;series=DT.TDS.DPPF.XP.ZS&gt;</translation>
         </translations>
       </field>
     </fields>
@@ -4338,7 +4348,7 @@ Further specific consideration
 
     DEC could be estimated either from survey data or from food balances. Neither source is devoid of problems. When comparing estimates of national DEC from FBS and from surveys, differences are frequently noted. 
 
-    DEC estimates from survey data can be affected by systematic measurement errors due to under-reporting of food consumption, or to incomplete recording of all food consumption sources. Recent research shows that a negative bias of up to more than 850 kcal can be induced on the estimated daily per capita caloric consumption can be induced by the type of food consumption module chosen to capture the data at the household level. (See De Weerdt et al., 2015, Table 2, https://feb.kuleuven.be/drc/licos/publications/dp/DP%20365%20Complete.pdf ). A detailed analysis of a recent Household Budget Survey in Brazil revealed how food provided for free through the school meals program and consumed by children while at school, had not been accounted among the sources of household food consumption, accounting for a downward bias of the average per capita daily dietary energy consumption of 674 kcal. (See Borlizzi, Cafiero &amp; Del Grossi, forthcoming.) 
+    DEC estimates from survey data can be affected by systematic measurement errors due to under-reporting of food consumption, or to incomplete recording of all food consumption sources. Recent research shows that a negative bias of up to more than 850 kcal can be induced on the estimated daily per capita caloric consumption can be induced by the type of food consumption module chosen to capture the data at the household level. (See De Weerdt et al., 2015, Table 2, &lt;https://feb.kuleuven.be/drc/licos/publications/dp/DP%20365%20Complete.pdf&gt; ). A detailed analysis of a recent Household Budget Survey in Brazil revealed how food provided for free through the school meals program and consumed by children while at school, had not been accounted among the sources of household food consumption, accounting for a downward bias of the average per capita daily dietary energy consumption of 674 kcal. (See Borlizzi, Cafiero &amp; Del Grossi, forthcoming.) 
 
     DEC estimates from Food Balance Sheets can also be affected by errors, though it is difficult to establish the direction of induced bias. As average food availability is a residual in the FBS method, any errors in reported production, trade, and stocks might affect the estimates of national food availability. Moreover, errors might be induced by the difficulty in properly accounting for all forms of food commodity utilization. To the extent that all these errors are uncorrelated, though, the impact on the estimated average food consumption will be lower than each of the errors, considered separately, might imply. Nevertheless, considering how problematic it is to precisely account for variations in national reserves of food commodities, for which official data may be unreliable, it is recognized that the estimated annual stock variation is prone to considerable uncertainty that would be transferred to the estimated DEC in each given year. 
 
@@ -4372,7 +4382,7 @@ PoU= ∫_(x&lt;MDER) f(x | DEC; CV; Skew) dx
 
 where DEC, CV and Skew are the mean, coefficient of variation and skewness that characterize the distribution of habitual dietary energy consumption levels in the population. 
 
-Until 2012, the probability distribution f(x) was modelled as a Log-normal pdf, informed by only two parameters: mean and coefficient of variation. In its most recent formulation, it is modelled as a three-parameter pdf, able to represent different degrees of skewness, ranging from that of a symmetric Normal distribution to that of the positively skewed Log-normal distribution. The flexibility in capturing different degrees of skewness is needed to take into account the fact that human energy consumption levels are naturally bounded by physiological limits. It is thus conceivable that, as mean consumption levels increases, the skewness of the distribution decreases, gradually moving from (positively skewed) Log-normal distributions, typical of populations where average food consumption is relatively low, towards (symmetric) Normal distributions. The skew-normal and skew-lognormal families of distribution allow for the characterization of all possible intermediate degrees of positive skewness. (See http://www.fao.org/3/a-i4046e.pdf for a detailed description) 
+Until 2012, the probability distribution f(x) was modelled as a Log-normal pdf, informed by only two parameters: mean and coefficient of variation. In its most recent formulation, it is modelled as a three-parameter pdf, able to represent different degrees of skewness, ranging from that of a symmetric Normal distribution to that of the positively skewed Log-normal distribution. The flexibility in capturing different degrees of skewness is needed to take into account the fact that human energy consumption levels are naturally bounded by physiological limits. It is thus conceivable that, as mean consumption levels increases, the skewness of the distribution decreases, gradually moving from (positively skewed) Log-normal distributions, typical of populations where average food consumption is relatively low, towards (symmetric) Normal distributions. The skew-normal and skew-lognormal families of distribution allow for the characterization of all possible intermediate degrees of positive skewness. (See &lt;http://www.fao.org/3/a-i4046e.pdf&gt; for a detailed description) 
 
 A custom R function is available from the Statistics Division at FAO to compute the PoU, given the four parameters DEC, CV, Skew and MDER. 
 
@@ -4383,7 +4393,7 @@ The mean of the distribution of dietary energy consumption levels for the averag
 
 DEC can be estimated from data on food consumption obtained through surveys that are representative of the population of interest. Depending on the survey design, they can be used to estimate DEC at national and at sub national levels, either by geographic areas or by socio-economic population groups. Unfortunately, though the situation is rapidly improving, representative surveys that collect food consumption data are still not available for every country and every year. 
 
-For the national population only, DEC can be estimated also from accounts of the total supply and utilization of all food commodities in a country, where the contribution of each commodity to the availability of food for human consumption is expressed in their dietary energy content, and their total is divided by the size of the population. The major source of data on national food balances are the Food Balance Sheets (FBS) maintained by FAO for most countries in the world (see http://www.fao.org/economic/ess/fbs/en/), informed by official data reported by member countries, and disseminated through FAOSTAT (http://faostat3.fao.org/download/FB/*/E) 
+For the national population only, DEC can be estimated also from accounts of the total supply and utilization of all food commodities in a country, where the contribution of each commodity to the availability of food for human consumption is expressed in their dietary energy content, and their total is divided by the size of the population. The major source of data on national food balances are the Food Balance Sheets (FBS) maintained by FAO for most countries in the world (see &lt;http://www.fao.org/economic/ess/fbs/en/&gt;), informed by official data reported by member countries, and disseminated through FAOSTAT (&lt;http://faostat3.fao.org/download/FB/*/E&gt;) 
 
 CV  
 Surveys that contain information on food consumption at individual or household level are the only available source to directly estimate the CV of habitual food consumption for the representative individual in the population. Unfortunately, survey data on food consumption are fraught by many problems that complicate the reliable estimation of CV. 
@@ -4403,7 +4413,7 @@ CV^_IND=ß_0+ß_1 GDP+ ß_2 GINI+ ß_3 FPI+ß_4 REG.
 Coefficients of the regression are estimated from the set of data and years for which data on CV, GDP, GINI and FPI are available. 
 
 Skew  
-As skewness is not strongly affected by the presence of spurious variability, Skew is estimated directly from household level data on the average daily dietary consumption, with the only exception of eliminating rare extremely high or extremely low values. If the empirically estimated skewness exceeds the value that would correspond to the skewness of Log-normal distribution with given mean and coefficient of variation, the parameter is neglected and a two parameter lognormal distribution is used for f(x). (See http://www.fao.org/3/a-i4046e.pdf for additional details). 
+As skewness is not strongly affected by the presence of spurious variability, Skew is estimated directly from household level data on the average daily dietary consumption, with the only exception of eliminating rare extremely high or extremely low values. If the empirically estimated skewness exceeds the value that would correspond to the skewness of Log-normal distribution with given mean and coefficient of variation, the parameter is neglected and a two parameter lognormal distribution is used for f(x). (See &lt;http://www.fao.org/3/a-i4046e.pdf&gt; for additional details). 
 
 MDER  
 Human energy requirements are computed by multiplying normative requirements for basic metabolic rate (BMR, expressed per kg of body mass) by the ideal weight of a healthy person of given height, and then multiplied by a coefficient of physical activity level (PAL). Ranges of normal energy requirements are thus computed for each sex and age group of the population, observing that there exist a whole range of Body Mass Index (BMI) values – from 18.5 to 25 – that are compatible with health. This implies that any given attained height might correspond to a whole range of healthy body weights, and therefore to a range of values for energy requirement for BMR. 
@@ -4451,7 +4461,7 @@ Missing values for individual countries are implicitly imputed to be equal to th
 
 Regional and global aggregates of the PoU are computed as: 
 
-PoU_REG = (_i PoU_i × N_i) / (_i N_i) 
+\\[PoU_{REG} = (_i PoU_i × N_i) / (_i N_i)\\]
 
 where PoU_i are the values of PoU estimated for all countries in the regions for which available data allow to compute a reliable estimate, and N_i the corresponding population size.</translation>
         </translations>
@@ -4494,10 +4504,10 @@ FAO obtains crop/livestock primary/processed production data, and principal util
 
 The new FBS Guidelines for national compilation (completed recently in collaboration with the Global Strategy) and new compilation tool (R-based ‘shiny’ application). 
 
-Detail on FBS methodology: http://www.fao.org/economic/ess/fbs/ess-fbs02/en/. 
+Detail on FBS methodology: &lt;http://www.fao.org/economic/ess/fbs/ess-fbs02/en/&gt;. 
 The FBS Handbook shown here should not be confused with the recently completed FBS Guidelines. The Handbook is of a more technical nature and explains the methodology followed by FAO in compiling country FBS. The Guidelines on the other hand, while based on the Handbook, provide countries with a more revised and practical guidance and recommendations for compilation at the national level. 
 
-Some FBS background text also available on FAOSTAT: http://www.fao.org/faostat/en/#data/FBS. 
+Some FBS background text also available on FAOSTAT: &lt;http://www.fao.org/faostat/en/#data/FBS&gt;. 
 
 ## Quality assurance 
 
@@ -4536,8 +4546,8 @@ Data for a), b) and c) could be available through the same multipurpose survey t
 Correcting for bias in the estimated average daily dietary energy consumption might need to be based on alternative sources on food consumption, such as aggregate food supply and utilization accounts and food balance sheets. 
 
 To inform its estimate of PoU at national, regional and global level, in addition to all household surveys for which it is possible to obtain micro data on food consumption, FAO relies on: 
-a) UN Population Division’s World Population Prospects (https://esa.un.org/unpd/wpp/Download/Standard/Population/), which provide updated estimates of the structures of the national population by sex and age every two years for most countries in the world; 
-b) FAO Food Balance Sheets (http://faostat3.fao.org/download/FB/*/E), which provides updated estimates of the national availability of food every year for most countries in the world.
+a) UN Population Division’s World Population Prospects (&lt;https://esa.un.org/unpd/wpp/Download/Standard/Population/&gt;), which provide updated estimates of the structures of the national population by sex and age every two years for most countries in the world; 
+b) FAO Food Balance Sheets (&lt;http://faostat3.fao.org/download/FB/*/E&gt;), which provides updated estimates of the national availability of food every year for most countries in the world.
 
 Micro data from household surveys that collect food consumption data are sourced by FAO directly through the National Statistical Agencies’ websites, or through specific bilateral agreements.</translation>
         </translations>
@@ -4645,7 +4655,7 @@ Food and Agriculture Organization of the United Nations, Statistics Division, Fo
 
 ## URL: 
 
-http://www.fao.org/economic/ess/ess-fs/en/</translation>
+&lt;http://www.fao.org/economic/ess/ess-fs/en/&gt;</translation>
         </translations>
       </field>
       <field id="REFERENCES">
@@ -4653,10 +4663,10 @@ http://www.fao.org/economic/ess/ess-fs/en/</translation>
           <translation lang="ru"/>
           <translation lang="en">## References
 
-http://www.fao.org/docrep/012/w0931e/w0931e16.pdf 
-http://www.fao.org/docrep/005/Y4249E/y4249e06.htm#bm06 
-http://www.fao.org/3/a-i4060e.pdf 
-http://www.fao.org/3/a-i4046e.pdf</translation>
+&lt;http://www.fao.org/docrep/012/w0931e/w0931e16.pdf&gt;  
+&lt;http://www.fao.org/docrep/005/Y4249E/y4249e06.htm#bm06&gt;  
+&lt;http://www.fao.org/3/a-i4060e.pdf&gt;  
+&lt;http://www.fao.org/3/a-i4046e.pdf&gt;</translation>
         </translations>
       </field>
       <field id="SDG_RELATED_INDICATORS">
@@ -4684,7 +4694,7 @@ Links with Target 2.2, to the extent that hunger is the extreme form of malnutri
       <field id="META_LAST_UPDATE">
         <translations>
           <translation lang="ru">Март 2019 г.</translation>
-          <translation lang="en">March 2019</translation>
+          <translation lang="en">Last updated: March 2019</translation>
         </translations>
       </field>
       <field id="LANGUAGE">
@@ -4806,10 +4816,10 @@ It is recommended to use two thresholds for global reporting to identify large h
           <translation lang="ru"/>
           <translation lang="en">## Comments and limitations
 
-It is feasible to monitor indicator 3.8.2 on a regular basis using the same household survey data that is used to monitor SDG target 1.1 and 1.2 on poverty. [^4} These surveys are also regularly conducted for other purposes such as calculating weights for the Consumer Price Index. These surveys are conducted typically by NSOs. Thus, monitoring the proportion of the population with large household expenditures on health as a share of total household consumption or income does not add any additional data collection burden so long as the health expenditure component of the household non-food consumption data can be identified. While this is an advantage, indicator 3.8.2 suffers from the same challenges of timeliness, frequency, data quality and comparability of surveys than SDG indicator 1.1.1.  However, indicator 3.8.2 has its own conceptual and empirical limitations.
+It is feasible to monitor indicator 3.8.2 on a regular basis using the same household survey data that is used to monitor SDG target 1.1 and 1.2 on poverty. [^4] These surveys are also regularly conducted for other purposes such as calculating weights for the Consumer Price Index. These surveys are conducted typically by NSOs. Thus, monitoring the proportion of the population with large household expenditures on health as a share of total household consumption or income does not add any additional data collection burden so long as the health expenditure component of the household non-food consumption data can be identified. While this is an advantage, indicator 3.8.2 suffers from the same challenges of timeliness, frequency, data quality and comparability of surveys than SDG indicator 1.1.1.  However, indicator 3.8.2 has its own conceptual and empirical limitations.
 
 First, indicator 3.8.2 attempts to identify financial hardship that individuals face when using their income, savings or taking loans to pay for health care. However, most household surveys fail to identify the source of funding used by a household who is reporting health expenditure. In countries where there is no retrospective reimbursement of household spending on health this is not a problem. If a household does report any expenditure on health, it would be because it is not going to be reimbursed by any third-party payer. It is therefore consistent with the definition given for direct health care payments (the numerator). 
-For those countries on the other hand where there is retrospective reimbursement – for example, via a contributory health insurance scheme - the amount reported by a household on health expenditures might be totally or partially reimbursed at some later point, perhaps outside the recall period of the household survey. 
+For those countries on the other hand where there is retrospective reimbursement – for example, via a contributory health insurance scheme – the amount reported by a household on health expenditures might be totally or partially reimbursed at some later point, perhaps outside the recall period of the household survey. 
 
 Clearly, more work is needed to ensure that survey instruments gather information on the sources of funding used by the household to pay for health care, or the household survey instrument always specifies that health expenditures should be net of any reimbursement. 
 
@@ -4819,7 +4829,7 @@ Third, indicator 3.8.2. relies on a single cut-off point to identify what consti
 
 Fourth, indicator 3.8.2. is based on measures of ex-post spending on health care. Low levels of spending could be driven by measurement errors due to both non-sampling errors such as a very short recall period that does not allow the collection of information on health care requiring an overnight stay; or sampling errors such as over-sample of areas with a particularly low burden of disease. No spending could also be due to people not being able to spend anything on health which, at least for the services that are included in 3.8.1, should result in low levels of coverage. 
 
-There are other indicators used to measure financial hardship. WHO uses  a framework  which includes , __in addition to indicator 3.8.2,__ a definition of large health expenditure in relation to non-subsistence spending [^5} [^6} [^7}</translation>
+There are other indicators used to measure financial hardship. WHO uses  a framework  which includes , __in addition to indicator 3.8.2,__ a definition of large health expenditure in relation to non-subsistence spending [^5] [^6] [^7]</translation>
         </translations>
       </field>
       <field id="DATA_COMP">
@@ -4827,51 +4837,11 @@ There are other indicators used to measure financial hardship. WHO uses  a frame
           <translation lang="ru"/>
           <translation lang="en"># Methodology
 
-## Computation Method
+## Computation method
 
 Population weighted average number of people with large household expenditure on health as a share of total household expenditure or income
 
-&lt;math&gt;
-  &lt;mfrac&gt;
-    &lt;mrow&gt;
-      &lt;msub&gt;
-        &lt;mi&gt;∑&lt;/mi&gt;
-        &lt;mi&gt;𝑖&lt;/mi&gt;
-      &lt;/msub&gt;
-      &lt;msub&gt;
-        &lt;mi&gt;𝑚&lt;/mi&gt;
-        &lt;mi&gt;𝑖&lt;/mi&gt;
-      &lt;/msub&gt;
-      &lt;msub&gt;
-        &lt;mi&gt;𝜔&lt;/mi&gt;
-        &lt;mi&gt;𝑖&lt;/mi&gt;
-      &lt;/msub&gt;
-      &lt;mn&gt;1&lt;/mn&gt;
-      &lt;mo&gt;(&lt;/mo&gt;
-      &lt;mfrac&gt;
-        &lt;mtext&gt;health expenditure of the household i&lt;/mtext&gt;
-        &lt;mtext&gt;total expenditure of the househould i&lt;/mtext&gt;
-      &lt;/mfrac&gt;
-      &lt;mo&gt;&amp;gt;&lt;/mo&gt;
-      &lt;mi&gt;𝜏&lt;/mi&gt;
-      &lt;mo&gt;)&lt;/mo&gt;
-    &lt;/mrow&gt;
-    &lt;mrow&gt;
-      &lt;msub&gt;
-        &lt;mi&gt;∑&lt;/mi&gt;
-        &lt;mi&gt;𝑖&lt;/mi&gt;
-      &lt;/msub&gt;
-      &lt;msub&gt;
-        &lt;mi&gt;𝑚&lt;/mi&gt;
-        &lt;mi&gt;𝑖&lt;/mi&gt;
-      &lt;/msub&gt;
-      &lt;msub&gt;
-        &lt;mi&gt;𝜔&lt;/mi&gt;
-        &lt;mi&gt;𝑖&lt;/mi&gt;
-      &lt;/msub&gt;
-    &lt;/mrow&gt;
-  &lt;/mfrac&gt;
-&lt;/math&gt;
+\\[ { { \underset{i} \Sigma m_i \omega_i 1 } ( { { \text{health expenditure of the household } i } \over { \text{total expenditure of the household } i } } &gt;  \gamma ) } \over { \underset{i} \Sigma m_i \omega_i}\\]
 
 where *𝑖* denotes a household, *1()* is the indicator function that takes on the value 1 if the bracketed expression is true, and 0 otherwise, m&lt;sub&gt;𝑖&lt;/sub&gt; corresponds to the number of household members of *𝑖*, ω&lt;sub&gt;𝑖&lt;/sub&gt; corresponds to the sampling weight of household *𝑖*, τ is a threshold identifying large household expenditure on health as a share of total household consumption or income (i.e. 10% and 25%).
 
@@ -5292,6 +5262,30 @@ The World Health Organization and the World Bank.</translation>
 &lt;http://apps.who.int/gho/cabinet/uhc.jsp&gt;;  &lt;http://datatopics.worldbank.org/universal-health-coverage/&gt;</translation>
         </translations>
       </field>
+      <field id="REFERENCES">
+        <translations>
+          <translation lang="ru"/>
+          <translation lang="en">## References
+
+* Chapter 2 on Financial protection in “Tracking universal health coverage: 2017 global monitoring report”, World Health Organization and International Bank for Reconstruction and Development/  The World Bank; 2017;  
+    &lt;http://www.who.int/healthinfo/universal_health_coverage/report/2017/en/&gt;;  
+    &lt;http://www.worldbank.org/en/topic/universalhealthcoverage/publication/tracking-universal-health-coverage-2017-global-monitoring-report&gt;;  
+    &lt;http://www.who.int/health_financing/topics/financial-protection/en/&gt;
+* Wagstaff, A., Flores, G., Hsu J., Smitz, M-F., Chepynoga, K., Buisman, L.R., van Wilgenburg, K.  and Eozenou, P.,  (2018), “Progress on catastrophic health spending in 133 countries: a retrospective observational study”, the Lancet Global Health, volume 6, issue 2, e169-e179.  &lt;http://dx.doi.org/10.1016/S2214-109X(17)30429-1&gt;
+
+*On underlying approaches behind the current definition of large health expenditures as a share of total household consumption or income:*
+
+* Chapter 18 of “Analysing health equity using household survey data”. Washington, DC: World Bank Group; 2008, &lt;http://www.worldbank.org/en/topic/health/publication/analyzing-health-equity-using-household-survey-data&gt;
+
+*For the definition of health expenditures*
+
+* &lt;http://www.oecd-ilibrary.org/social-issues-migration-health/a-system-of-health-accounts/classification-of-health-care-financing-schemes-icha-hf_9789264116016-9-en&gt;
+
+*For the components of health expenditures*
+
+* division 06 of the UN Classification of Individual Consumption According to Purpose (COICOP) &lt;https://unstats.un.org/unsd/class/revisions/coicop_revision.asp&gt;; &lt;http://unstats.un.org/unsd/cr/registry/regcs.asp?Cl=5&amp;Lg=1&amp;Co=06.1&gt;</translation>
+        </translations>
+      </field>
       <field id="SDG_RELATED_INDICATORS">
         <translations>
           <translation lang="ru"/>
@@ -5345,55 +5339,55 @@ SDG indicators: 3.8.1; 1.1.1 and 1.2.1</translation>
       <field id="FOOTNOTE_8">
         <translations>
           <translation lang="ru"/>
-          <translation lang="en">[^8] http://econ.worldbank.org/WBSITE/EXTERNAL/EXTDEC/EXTRESEARCH/EXTLSMS/0,,contentMDK:21610833~pagePK:64168427~piPK:64168435~theSitePK:3358997,00.html</translation>
+          <translation lang="en">[^8]: http://econ.worldbank.org/WBSITE/EXTERNAL/EXTDEC/EXTRESEARCH/EXTLSMS/0,,contentMDK:21610833~pagePK:64168427~piPK:64168435~theSitePK:3358997,00.html</translation>
         </translations>
       </field>
       <field id="FOOTNOTE_9">
         <translations>
           <translation lang="ru"/>
-          <translation lang="en">[^9] A detailed documentation describing the harmonization procedures is available from the accompanying pdf documents.</translation>
+          <translation lang="en">[^9]: A detailed documentation describing the harmonization procedures is available from the accompanying pdf documents.</translation>
         </translations>
       </field>
       <field id="FOOTNOTE_10">
         <translations>
           <translation lang="ru"/>
-          <translation lang="en">[^10] http://www.lisdatacenter.org/</translation>
+          <translation lang="en">[^10]: http://www.lisdatacenter.org/</translation>
         </translations>
       </field>
       <field id="FOOTNOTE_11">
         <translations>
           <translation lang="ru"/>
-          <translation lang="en">[^11] http://unstats.un.org/sdgs/metadata/files/Metadata-01-01-01a.pdf</translation>
+          <translation lang="en">[^11]: http://unstats.un.org/sdgs/metadata/files/Metadata-01-01-01a.pdf</translation>
         </translations>
       </field>
       <field id="FOOTNOTE_12">
         <translations>
           <translation lang="ru"/>
-          <translation lang="en">[^12] One example is the WHO engagement in the ongoing revision of COICOP by UNSD  https://unstats.un.org/unsd/class/revisions/coicop_revision.asp . Another example is a BMGF project WHO is supporting  to improve the measurement of household health expenditures  http://www.indepth-network.org/projects/ihope</translation>
+          <translation lang="en">[^12]: One example is the WHO engagement in the ongoing revision of COICOP by UNSD  https://unstats.un.org/unsd/class/revisions/coicop_revision.asp . Another example is a BMGF project WHO is supporting  to improve the measurement of household health expenditures  http://www.indepth-network.org/projects/ihope</translation>
         </translations>
       </field>
       <field id="FOOTNOTE_13">
         <translations>
           <translation lang="ru"/>
-          <translation lang="en">[^13] http://iresearch.worldbank.org/PovcalNet/povOnDemand.aspx</translation>
+          <translation lang="en">[^13]: http://iresearch.worldbank.org/PovcalNet/povOnDemand.aspx</translation>
         </translations>
       </field>
       <field id="FOOTNOTE_14">
         <translations>
           <translation lang="ru"/>
-          <translation lang="en">[^14] https://datacatalog.worldbank.org/dataset/world-development-indicators</translation>
+          <translation lang="en">[^14]: https://datacatalog.worldbank.org/dataset/world-development-indicators</translation>
         </translations>
       </field>
       <field id="FOOTNOTE_15">
         <translations>
           <translation lang="ru"/>
-          <translation lang="en">[^15] http://www.who.int/health-accounts/ghed/en/</translation>
+          <translation lang="en">[^15]: http://www.who.int/health-accounts/ghed/en/</translation>
         </translations>
       </field>
       <field id="FOOTNOTE_16">
         <translations>
           <translation lang="ru"/>
-          <translation lang="en">[^16] https://datacatalog.worldbank.org/dataset/world-development-indicators</translation>
+          <translation lang="en">[^16]: https://datacatalog.worldbank.org/dataset/world-development-indicators</translation>
         </translations>
       </field>
     </fields>
@@ -6437,7 +6431,7 @@ Household surveys such as UNICEF-supported MICS and DHS have been collecting dat
           <translation lang="en">## Collection process
 UNICEF undertakes a wide consultative process of compiling and assessing data from national sources for the purposes of updating its global databases on the situation of children. Up until 2017, the mechanism UNICEF used to collaborate with national authorities on ensuring data quality and international comparability on key indicators of relevance to children was known as Country Data Reporting on the Indicators for the Goals (CRING).
  
- As of 2018, UNICEF launched a new country consultation process with national authorities on selected child-related global SDG indicators it is custodian or co-custodian to meet emerging standards and guidelines on data flows for global reporting of SDG indicators, which place strong emphasis on technical rigour, country ownership and use of official data and statistics. The consultation process solicited feedback directly from National Statistical Offices, as well as other government agencies responsible for official statistics, on the compilation of the indicators, including the data sources used, and the application of internationally agreed definitions, classification and methodologies to the data from that source. Once reviewed, feedback is made available to countries on whether or not specific data points are accepted, and if not, the reasons why. More details on the consultation process can be found in the [guidance](https://data.unicef.org/resources/resource-type/guidance/).</translation>
+ As of 2018, UNICEF launched a new country consultation process with national authorities on selected child-related global SDG indicators it is custodian or co-custodian to meet emerging standards and guidelines on data flows for global reporting of SDG indicators, which place strong emphasis on technical rigour, country ownership and use of official data and statistics. The consultation process solicited feedback directly from National Statistical Offices, as well as other government agencies responsible for official statistics, on the compilation of the indicators, including the data sources used, and the application of internationally agreed definitions, classification and methodologies to the data from that source. Once reviewed, feedback is made available to countries on whether or not specific data points are accepted, and if not, the reasons why. More details on the consultation process can be found in the [guidance note](https://data.unicef.org/resources/resource-type/guidance/).</translation>
         </translations>
       </field>
       <field id="DATA_AVAILABILITY">
@@ -6488,7 +6482,7 @@ data.unicef.org</translation>
         <translations>
           <translation lang="ru"/>
           <translation lang="en">## References
-https://data.unicef.org/topic/child-protection/child-marriage/</translation>
+&lt;https://data.unicef.org/topic/child-protection/child-marriage/&gt;</translation>
         </translations>
       </field>
     </fields>
@@ -7843,7 +7837,7 @@ The definition of size class in many countries is tied up with the legal and pol
 
 The proportion of “small-scale industries” with a loan or line of credit is calculated as the number of “small-scale industries” with an active line of credit or a loan from a financial institution in the reference year in percentage to the total number of such enterprises:
 
-\\[ { {\text{ the number of small-scale industries with loan } \vee \text{ line of credit } } \over {\text{Total number of small-scale industries} } } \times 100\\]</translation>
+\\[ { {\text{ the number of small-scale industries with loan or line of credit } } \over {\text{Total number of small-scale industries} } } \times 100\\]</translation>
         </translations>
       </field>
       <field id="DISAGGREGATION">

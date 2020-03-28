@@ -153,7 +153,7 @@
     
       
       <h3>Fields</h3>
-      <p><a href="#META_PAGE">META_PAGE</a><br /><a href="#META_LAST_UPDATE">META_LAST_UPDATE</a><br /><a href="#LANGUAGE">LANGUAGE</a><br /><a href="#TRANS_SOURCE">TRANS_SOURCE</a><br /><a href="#SDG_GOAL">SDG_GOAL</a><br /><a href="#SDG_TARGET">SDG_TARGET</a><br /><a href="#SDG_INDICATOR">SDG_INDICATOR</a><br /><a href="#SDG_CUSTODIAN_AGENCIES">SDG_CUSTODIAN_AGENCIES</a><br /><a href="#STAT_CONC_DEF">STAT_CONC_DEF</a><br /><a href="#RATIONALE">RATIONALE</a><br /><a href="#CLASS_SYSTEM">CLASS_SYSTEM</a><br /><a href="#REC_USE_LIM">REC_USE_LIM</a><br /><a href="#DATA_COMP">DATA_COMP</a><br /><a href="#DISAGGREGATION">DISAGGREGATION</a><br /><a href="#IMPUTATION">IMPUTATION</a><br /><a href="#REG_AGG">REG_AGG</a><br /><a href="#ADJUSTMENT">ADJUSTMENT</a><br /><a href="#SOURCE_TYPE">SOURCE_TYPE</a><br /><a href="#COLL_METHOD">COLL_METHOD</a><br /><a href="#DATA_AVAILABILITY">DATA_AVAILABILITY</a><br /><a href="#SDG_SERIES_DESCR">SDG_SERIES_DESCR</a><br /><a href="#FREQ_COLL">FREQ_COLL</a><br /><a href="#REL_CAL_POLICY">REL_CAL_POLICY</a><br /><a href="#DATA_SOURCE">DATA_SOURCE</a><br /><a href="#COMPILING_ORG">COMPILING_ORG</a><br /><a href="#CONTACT_ORGANISATION">CONTACT_ORGANISATION</a><br /><a href="#SDG_RELATED_INDICATORS">SDG_RELATED_INDICATORS</a><br /><a href="#FOOTNOTE_1">FOOTNOTE_1</a><br /><a href="#FOOTNOTE_2">FOOTNOTE_2</a></p>
+      <p><a href="#META_PAGE">META_PAGE</a><br /><a href="#META_LAST_UPDATE">META_LAST_UPDATE</a><br /><a href="#LANGUAGE">LANGUAGE</a><br /><a href="#TRANS_SOURCE">TRANS_SOURCE</a><br /><a href="#SDG_GOAL">SDG_GOAL</a><br /><a href="#SDG_TARGET">SDG_TARGET</a><br /><a href="#SDG_INDICATOR">SDG_INDICATOR</a><br /><a href="#SDG_CUSTODIAN_AGENCIES">SDG_CUSTODIAN_AGENCIES</a><br /><a href="#STAT_CONC_DEF">STAT_CONC_DEF</a><br /><a href="#RATIONALE">RATIONALE</a><br /><a href="#CLASS_SYSTEM">CLASS_SYSTEM</a><br /><a href="#REC_USE_LIM">REC_USE_LIM</a><br /><a href="#DATA_COMP">DATA_COMP</a><br /><a href="#DISAGGREGATION">DISAGGREGATION</a><br /><a href="#IMPUTATION">IMPUTATION</a><br /><a href="#REG_AGG">REG_AGG</a><br /><a href="#ADJUSTMENT">ADJUSTMENT</a><br /><a href="#SOURCE_TYPE">SOURCE_TYPE</a><br /><a href="#COLL_METHOD">COLL_METHOD</a><br /><a href="#DATA_AVAILABILITY">DATA_AVAILABILITY</a><br /><a href="#SDG_SERIES_DESCR">SDG_SERIES_DESCR</a><br /><a href="#FREQ_COLL">FREQ_COLL</a><br /><a href="#REL_CAL_POLICY">REL_CAL_POLICY</a><br /><a href="#DATA_SOURCE">DATA_SOURCE</a><br /><a href="#COMPILING_ORG">COMPILING_ORG</a><br /><a href="#CONTACT_ORGANISATION">CONTACT_ORGANISATION</a><br /><a href="#REFERENCES">REFERENCES</a><br /><a href="#SDG_RELATED_INDICATORS">SDG_RELATED_INDICATORS</a><br /><a href="#FOOTNOTE_1">FOOTNOTE_1</a><br /><a href="#FOOTNOTE_2">FOOTNOTE_2</a></p>
 
       
     
@@ -186,7 +186,7 @@
 
 <p><a name="META_LAST_UPDATE"></a></p>
 
-<p>January 24, 2017</p>
+<p>Last updated: 24 January 2017</p>
 
 <p><a name="LANGUAGE"></a></p>
 
@@ -265,49 +265,9 @@
 
 <p>The formula for calculating the proportion of the total, urban and rural population living below the national poverty line, or headcount index, is as follows:</p>
 
-<math>
-  <munder>
-    <mrow>
-      <msub>
-        <mi>P</mi>
-        <mn>0</mn>
-      </msub>
-      <mo>=</mo>
-      <mfrac>
-        <mn>1</mn>
-        <mi>N</mi>
-      </mfrac>
-      <munderover>
-        <mo>∑</mo>
-        <mi>i</mi>
-        <mi>N</mi>
-      </munderover>
-      <mi>I</mi>
-      <mo>(</mo>
-      <msub>
-        <mi>y</mi>
-        <mi>i</mi>
-      </msub>
-      <mo>&lt;</mo>
-      <mi>z</mi>
-      <mo>)</mo>
-      <mo>=</mo>
-      <mfrac>
-        <msub>
-          <mi>N</mi>
-          <mi>p</mi>
-        </msub>
-        <mi>N</mi>
-      </mfrac>
-    </mrow>
-    <mrow>
-      <mo>=</mo>
-      <mn>1</mn>
-    </mrow>
-  </munder>
-</math>
+<p>\[ P_0 = {1 \over N} \underset{&gt;=1}{\underset{i}{\overset{N}{\Sigma}}} I ( y_i &lt; z ) = {N_p \over N} \]</p>
 
-<p>Where <em>I</em>(.) is an indicator function that takes on a value of 1 if the bracketed expression is true, and 0 otherwise. If individual consumption or income <em>y</em><sub>i</sub> is less than the national poverty line <em>z</em> (for example, in absolute terms the line could be the price of a consumption bundle or in relative terms a percentage of the income distribution), then <em>I</em>(.) is equal to 1 and the individual is counted as poor. <em>N</em><sub>p</sub> is the total, urban or rural number of poor. <em>N</em> is the total, urban or rural population.</p>
+<p>Where \(I(.)\) is an indicator function that takes on a value of 1 if the bracketed expression is true, and 0 otherwise. If individual consumption or income \(y_i\) is less than the national poverty line \(z\) (for example, in absolute terms the line could be the price of a consumption bundle or in relative terms a percentage of the income distribution), then \(I(.)\) is equal to 1 and the individual is counted as poor. \(N_p\) is the total, urban or rural number of poor. \(N\) is the total, urban or rural population.</p>
 
 <p>Consumption or income data are gathered from nationally representative household surveys, which contain detailed responses to questions regarding spending habits and sources of income. Consumption, including consumption from own production, or income is calculated for the entire household. In some cases, an “effective” household size is calculated from the actual household size to reflect assumed efficiencies in consumption; adjustments may also be made to reflect the number of children in a household. The number of people in those households is aggregated to estimate the number of poor persons.</p>
 
@@ -360,7 +320,7 @@
 
 <p><a name="COLL_METHOD"></a></p>
 
-<h2 id="collection-process">Collection process:</h2>
+<h2 id="collection-process">Collection process</h2>
 
 <p>Source collection is ongoing by the Global Poverty Working Group of the World Bank. The data in World Development Indicators (WDI) are updated quarterly following the WDI database <sup id="fnref:2"><a href="#fn:2" class="footnote">2</a></sup> updating schedule.</p>
 
@@ -410,7 +370,15 @@
 <h2 id="url">URL</h2>
 
 <p>Poverty and Equity Data Portal
-http://povertydata.worldbank.org/poverty/home/</p>
+<a href="http://povertydata.worldbank.org/poverty/home/">http://povertydata.worldbank.org/poverty/home/</a></p>
+
+<p><a name="REFERENCES"></a></p>
+
+<h2 id="references-1">References</h2>
+
+<p>Deaton, Angus. 2003. “Household Surveys, Consumption, and the Measurement of Poverty”. Economic Systems Research, Vol. 15, No. 2, June 2003<br />
+Deaton, Angus; Zaidi, Salman. 2002. Guidelines for Constructing Consumption Aggregates for Welfare Analysis. LSMS Working Paper; No. 135. World Bank.<br />
+World Bank 2008. <em>Poverty data: A supplement to World Development Indicators 2008</em>. Washington, DC.</p>
 
 <p><a name="SDG_RELATED_INDICATORS"></a></p>
 

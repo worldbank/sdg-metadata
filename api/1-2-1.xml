@@ -171,6 +171,8 @@
 Портал данных о бедности и равенстве
 http://povertydata.worldbank.org/poverty/home/
 
+
+
 # Связанные индикаторы
 
 Индикатор 1.1.1: Доля населения, живущего за международной чертой бедности, в разбивке по полу, возрасту, статусу занятости и месту проживания (городские/сельские районы)
@@ -232,49 +234,9 @@ Lastly, these income/consumption based poverty indicators do not fully reflect t
 
 The formula for calculating the proportion of the total, urban and rural population living below the national poverty line, or headcount index, is as follows:
 
-&lt;math&gt;
-  &lt;munder&gt;
-    &lt;mrow&gt;
-      &lt;msub&gt;
-        &lt;mi&gt;P&lt;/mi&gt;
-        &lt;mn&gt;0&lt;/mn&gt;
-      &lt;/msub&gt;
-      &lt;mo&gt;=&lt;/mo&gt;
-      &lt;mfrac&gt;
-        &lt;mn&gt;1&lt;/mn&gt;
-        &lt;mi&gt;N&lt;/mi&gt;
-      &lt;/mfrac&gt;
-      &lt;munderover&gt;
-        &lt;mo&gt;∑&lt;/mo&gt;
-        &lt;mi&gt;i&lt;/mi&gt;
-        &lt;mi&gt;N&lt;/mi&gt;
-      &lt;/munderover&gt;
-      &lt;mi&gt;I&lt;/mi&gt;
-      &lt;mo&gt;(&lt;/mo&gt;
-      &lt;msub&gt;
-        &lt;mi&gt;y&lt;/mi&gt;
-        &lt;mi&gt;i&lt;/mi&gt;
-      &lt;/msub&gt;
-      &lt;mo&gt;&amp;lt;&lt;/mo&gt;
-      &lt;mi&gt;z&lt;/mi&gt;
-      &lt;mo&gt;)&lt;/mo&gt;
-      &lt;mo&gt;=&lt;/mo&gt;
-      &lt;mfrac&gt;
-        &lt;msub&gt;
-          &lt;mi&gt;N&lt;/mi&gt;
-          &lt;mi&gt;p&lt;/mi&gt;
-        &lt;/msub&gt;
-        &lt;mi&gt;N&lt;/mi&gt;
-      &lt;/mfrac&gt;
-    &lt;/mrow&gt;
-    &lt;mrow&gt;
-      &lt;mo&gt;=&lt;/mo&gt;
-      &lt;mn&gt;1&lt;/mn&gt;
-    &lt;/mrow&gt;
-  &lt;/munder&gt;
-&lt;/math&gt;
+\\[ P_0 = {1 \over N} \underset{&gt;=1}{\underset{i}{\overset{N}{\Sigma}}} I ( y_i &lt; z ) = {N_p \over N} \\]
 
-Where *I*(.) is an indicator function that takes on a value of 1 if the bracketed expression is true, and 0 otherwise. If individual consumption or income *y*&lt;sub&gt;i&lt;/sub&gt; is less than the national poverty line *z* (for example, in absolute terms the line could be the price of a consumption bundle or in relative terms a percentage of the income distribution), then *I*(.) is equal to 1 and the individual is counted as poor. *N*&lt;sub&gt;p&lt;/sub&gt; is the total, urban or rural number of poor. *N* is the total, urban or rural population.
+Where \\(I(.)\\) is an indicator function that takes on a value of 1 if the bracketed expression is true, and 0 otherwise. If individual consumption or income \\(y_i\\) is less than the national poverty line \\(z\\) (for example, in absolute terms the line could be the price of a consumption bundle or in relative terms a percentage of the income distribution), then \\(I(.)\\) is equal to 1 and the individual is counted as poor. \\(N_p\\) is the total, urban or rural number of poor. \\(N\\) is the total, urban or rural population.
 
 Consumption or income data are gathered from nationally representative household surveys, which contain detailed responses to questions regarding spending habits and sources of income. Consumption, including consumption from own production, or income is calculated for the entire household. In some cases, an “effective” household size is calculated from the actual household size to reflect assumed efficiencies in consumption; adjustments may also be made to reflect the number of children in a household. The number of people in those households is aggregated to estimate the number of poor persons.
 
@@ -310,7 +272,7 @@ National poverty estimates are typically produced and owned by country governmen
 
 Another source is World Bank’s Poverty Assessments. The World Bank periodically prepares poverty assessments of countries in which it has an active program, in close collaboration with national institutions, other development agencies, and civil society groups, including poor people’s organizations. Poverty assessments report the extent and causes of poverty and propose strategies to reduce it. The poverty assessments are the best available source of information on poverty estimates using national poverty lines. They often include separate assessments of urban and rural poverty.
 
-## Collection process:
+## Collection process
 
 Source collection is ongoing by the Global Poverty Working Group of the World Bank. The data in World Development Indicators (WDI) are updated quarterly following the WDI database [^2] updating schedule.
 
@@ -346,7 +308,13 @@ World Bank – Global Poverty Working Group
 ## URL
 
 Poverty and Equity Data Portal
-http://povertydata.worldbank.org/poverty/home/
+&lt;http://povertydata.worldbank.org/poverty/home/&gt;
+
+## References
+
+Deaton, Angus. 2003. “Household Surveys, Consumption, and the Measurement of Poverty”. Economic Systems Research, Vol. 15, No. 2, June 2003  
+Deaton, Angus; Zaidi, Salman. 2002. Guidelines for Constructing Consumption Aggregates for Welfare Analysis. LSMS Working Paper; No. 135. World Bank.  
+World Bank 2008. *Poverty data: A supplement to World Development Indicators 2008*. Washington, DC.
 
 # Related indicators
 

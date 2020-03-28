@@ -7,51 +7,11 @@
 			<language lang="ru"/>
 			<language lang="en"># Methodology
 
-## Computation Method
+## Computation method
 
 Population weighted average number of people with large household expenditure on health as a share of total household expenditure or income
 
-&lt;math&gt;
-  &lt;mfrac&gt;
-    &lt;mrow&gt;
-      &lt;msub&gt;
-        &lt;mi&gt;∑&lt;/mi&gt;
-        &lt;mi&gt;&lt;/mi&gt;
-      &lt;/msub&gt;
-      &lt;msub&gt;
-        &lt;mi&gt;&lt;/mi&gt;
-        &lt;mi&gt;&lt;/mi&gt;
-      &lt;/msub&gt;
-      &lt;msub&gt;
-        &lt;mi&gt;&lt;/mi&gt;
-        &lt;mi&gt;&lt;/mi&gt;
-      &lt;/msub&gt;
-      &lt;mn&gt;1&lt;/mn&gt;
-      &lt;mo&gt;(&lt;/mo&gt;
-      &lt;mfrac&gt;
-        &lt;mtext&gt;health expenditure of the household i&lt;/mtext&gt;
-        &lt;mtext&gt;total expenditure of the househould i&lt;/mtext&gt;
-      &lt;/mfrac&gt;
-      &lt;mo&gt;&amp;gt;&lt;/mo&gt;
-      &lt;mi&gt;&lt;/mi&gt;
-      &lt;mo&gt;)&lt;/mo&gt;
-    &lt;/mrow&gt;
-    &lt;mrow&gt;
-      &lt;msub&gt;
-        &lt;mi&gt;∑&lt;/mi&gt;
-        &lt;mi&gt;&lt;/mi&gt;
-      &lt;/msub&gt;
-      &lt;msub&gt;
-        &lt;mi&gt;&lt;/mi&gt;
-        &lt;mi&gt;&lt;/mi&gt;
-      &lt;/msub&gt;
-      &lt;msub&gt;
-        &lt;mi&gt;&lt;/mi&gt;
-        &lt;mi&gt;&lt;/mi&gt;
-      &lt;/msub&gt;
-    &lt;/mrow&gt;
-  &lt;/mfrac&gt;
-&lt;/math&gt;
+\\[ { { \underset{i} \Sigma m_i \omega_i 1 } ( { { \text{health expenditure of the household } i } \over { \text{total expenditure of the household } i } } &gt;  \gamma ) } \over { \underset{i} \Sigma m_i \omega_i}\\]
 
 where ** denotes a household, *1()* is the indicator function that takes on the value 1 if the bracketed expression is true, and 0 otherwise, m&lt;sub&gt;&lt;/sub&gt; corresponds to the number of household members of **, ω&lt;sub&gt;&lt;/sub&gt; corresponds to the sampling weight of household **, τ is a threshold identifying large household expenditure on health as a share of total household consumption or income (i.e. 10% and 25%).
 

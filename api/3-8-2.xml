@@ -256,6 +256,8 @@
 
 
 
+
+
 			</language>
 			<language lang="en">Goal 3:  Ensure healthy lives and promote well-being for all at all ages
 
@@ -311,10 +313,10 @@ It is recommended to use two thresholds for global reporting to identify large h
 
 ## Comments and limitations
 
-It is feasible to monitor indicator 3.8.2 on a regular basis using the same household survey data that is used to monitor SDG target 1.1 and 1.2 on poverty. [^4} These surveys are also regularly conducted for other purposes such as calculating weights for the Consumer Price Index. These surveys are conducted typically by NSOs. Thus, monitoring the proportion of the population with large household expenditures on health as a share of total household consumption or income does not add any additional data collection burden so long as the health expenditure component of the household non-food consumption data can be identified. While this is an advantage, indicator 3.8.2 suffers from the same challenges of timeliness, frequency, data quality and comparability of surveys than SDG indicator 1.1.1.  However, indicator 3.8.2 has its own conceptual and empirical limitations.
+It is feasible to monitor indicator 3.8.2 on a regular basis using the same household survey data that is used to monitor SDG target 1.1 and 1.2 on poverty. [^4] These surveys are also regularly conducted for other purposes such as calculating weights for the Consumer Price Index. These surveys are conducted typically by NSOs. Thus, monitoring the proportion of the population with large household expenditures on health as a share of total household consumption or income does not add any additional data collection burden so long as the health expenditure component of the household non-food consumption data can be identified. While this is an advantage, indicator 3.8.2 suffers from the same challenges of timeliness, frequency, data quality and comparability of surveys than SDG indicator 1.1.1.  However, indicator 3.8.2 has its own conceptual and empirical limitations.
 
 First, indicator 3.8.2 attempts to identify financial hardship that individuals face when using their income, savings or taking loans to pay for health care. However, most household surveys fail to identify the source of funding used by a household who is reporting health expenditure. In countries where there is no retrospective reimbursement of household spending on health this is not a problem. If a household does report any expenditure on health, it would be because it is not going to be reimbursed by any third-party payer. It is therefore consistent with the definition given for direct health care payments (the numerator). 
-For those countries on the other hand where there is retrospective reimbursement – for example, via a contributory health insurance scheme - the amount reported by a household on health expenditures might be totally or partially reimbursed at some later point, perhaps outside the recall period of the household survey. 
+For those countries on the other hand where there is retrospective reimbursement – for example, via a contributory health insurance scheme – the amount reported by a household on health expenditures might be totally or partially reimbursed at some later point, perhaps outside the recall period of the household survey. 
 
 Clearly, more work is needed to ensure that survey instruments gather information on the sources of funding used by the household to pay for health care, or the household survey instrument always specifies that health expenditures should be net of any reimbursement. 
 
@@ -324,55 +326,15 @@ Third, indicator 3.8.2. relies on a single cut-off point to identify what consti
 
 Fourth, indicator 3.8.2. is based on measures of ex-post spending on health care. Low levels of spending could be driven by measurement errors due to both non-sampling errors such as a very short recall period that does not allow the collection of information on health care requiring an overnight stay; or sampling errors such as over-sample of areas with a particularly low burden of disease. No spending could also be due to people not being able to spend anything on health which, at least for the services that are included in 3.8.1, should result in low levels of coverage. 
 
-There are other indicators used to measure financial hardship. WHO uses  a framework  which includes , __in addition to indicator 3.8.2,__ a definition of large health expenditure in relation to non-subsistence spending [^5} [^6} [^7}
+There are other indicators used to measure financial hardship. WHO uses  a framework  which includes , __in addition to indicator 3.8.2,__ a definition of large health expenditure in relation to non-subsistence spending [^5] [^6] [^7]
 
 # Methodology
 
-## Computation Method
+## Computation method
 
 Population weighted average number of people with large household expenditure on health as a share of total household expenditure or income
 
-&lt;math&gt;
-  &lt;mfrac&gt;
-    &lt;mrow&gt;
-      &lt;msub&gt;
-        &lt;mi&gt;∑&lt;/mi&gt;
-        &lt;mi&gt;&lt;/mi&gt;
-      &lt;/msub&gt;
-      &lt;msub&gt;
-        &lt;mi&gt;&lt;/mi&gt;
-        &lt;mi&gt;&lt;/mi&gt;
-      &lt;/msub&gt;
-      &lt;msub&gt;
-        &lt;mi&gt;&lt;/mi&gt;
-        &lt;mi&gt;&lt;/mi&gt;
-      &lt;/msub&gt;
-      &lt;mn&gt;1&lt;/mn&gt;
-      &lt;mo&gt;(&lt;/mo&gt;
-      &lt;mfrac&gt;
-        &lt;mtext&gt;health expenditure of the household i&lt;/mtext&gt;
-        &lt;mtext&gt;total expenditure of the househould i&lt;/mtext&gt;
-      &lt;/mfrac&gt;
-      &lt;mo&gt;&amp;gt;&lt;/mo&gt;
-      &lt;mi&gt;&lt;/mi&gt;
-      &lt;mo&gt;)&lt;/mo&gt;
-    &lt;/mrow&gt;
-    &lt;mrow&gt;
-      &lt;msub&gt;
-        &lt;mi&gt;∑&lt;/mi&gt;
-        &lt;mi&gt;&lt;/mi&gt;
-      &lt;/msub&gt;
-      &lt;msub&gt;
-        &lt;mi&gt;&lt;/mi&gt;
-        &lt;mi&gt;&lt;/mi&gt;
-      &lt;/msub&gt;
-      &lt;msub&gt;
-        &lt;mi&gt;&lt;/mi&gt;
-        &lt;mi&gt;&lt;/mi&gt;
-      &lt;/msub&gt;
-    &lt;/mrow&gt;
-  &lt;/mfrac&gt;
-&lt;/math&gt;
+\\[ { { \underset{i} \Sigma m_i \omega_i 1 } ( { { \text{health expenditure of the household } i } \over { \text{total expenditure of the household } i } } &gt;  \gamma ) } \over { \underset{i} \Sigma m_i \omega_i}\\]
 
 where ** denotes a household, *1()* is the indicator function that takes on the value 1 if the bracketed expression is true, and 0 otherwise, m&lt;sub&gt;&lt;/sub&gt; corresponds to the number of household members of **, ω&lt;sub&gt;&lt;/sub&gt; corresponds to the sampling weight of household **, τ is a threshold identifying large household expenditure on health as a share of total household consumption or income (i.e. 10% and 25%).
 
@@ -589,6 +551,26 @@ The World Health Organization and the World Bank.
 
 &lt;http://apps.who.int/gho/cabinet/uhc.jsp&gt;;  &lt;http://datatopics.worldbank.org/universal-health-coverage/&gt;
 
+## References
+
+* Chapter 2 on Financial protection in “Tracking universal health coverage: 2017 global monitoring report”, World Health Organization and International Bank for Reconstruction and Development/  The World Bank; 2017;  
+    &lt;http://www.who.int/healthinfo/universal_health_coverage/report/2017/en/&gt;;  
+    &lt;http://www.worldbank.org/en/topic/universalhealthcoverage/publication/tracking-universal-health-coverage-2017-global-monitoring-report&gt;;  
+    &lt;http://www.who.int/health_financing/topics/financial-protection/en/&gt;
+* Wagstaff, A., Flores, G., Hsu J., Smitz, M-F., Chepynoga, K., Buisman, L.R., van Wilgenburg, K.  and Eozenou, P.,  (2018), “Progress on catastrophic health spending in 133 countries: a retrospective observational study”, the Lancet Global Health, volume 6, issue 2, e169-e179.  &lt;http://dx.doi.org/10.1016/S2214-109X(17)30429-1&gt;
+
+*On underlying approaches behind the current definition of large health expenditures as a share of total household consumption or income:*
+
+* Chapter 18 of “Analysing health equity using household survey data”. Washington, DC: World Bank Group; 2008, &lt;http://www.worldbank.org/en/topic/health/publication/analyzing-health-equity-using-household-survey-data&gt;
+
+*For the definition of health expenditures*
+
+* &lt;http://www.oecd-ilibrary.org/social-issues-migration-health/a-system-of-health-accounts/classification-of-health-care-financing-schemes-icha-hf_9789264116016-9-en&gt;
+
+*For the components of health expenditures*
+
+* division 06 of the UN Classification of Individual Consumption According to Purpose (COICOP) &lt;https://unstats.un.org/unsd/class/revisions/coicop_revision.asp&gt;; &lt;http://unstats.un.org/unsd/cr/registry/regcs.asp?Cl=5&amp;Lg=1&amp;Co=06.1&gt;
+
 # Related indicators
 
 SDG indicators: 3.8.1; 1.1.1 and 1.2.1
@@ -607,23 +589,23 @@ SDG indicators: 3.8.1; 1.1.1 and 1.2.1
 
 [^7]: http://www.euro.who.int/en/health-topics/Health-systems/health-systems-financing/publications/clusters/universal-health-coverage-financial-protection;http://applications.emro.who.int/dsaf/EMROPUB_2016_EN_19169.pdf?ua=1 ; http://apps.searo.who.int/uhchttp://www.paho.org/hq/index.php?option=com_content&amp;view=article&amp;id=11065%3A2015-universal-health-coverage-latin-america-caribbean&amp;catid=3316%3Apublications&amp;Itemid=3562&amp;lang=en
 
-[^8] http://econ.worldbank.org/WBSITE/EXTERNAL/EXTDEC/EXTRESEARCH/EXTLSMS/0,,contentMDK:21610833~pagePK:64168427~piPK:64168435~theSitePK:3358997,00.html
+[^8]: http://econ.worldbank.org/WBSITE/EXTERNAL/EXTDEC/EXTRESEARCH/EXTLSMS/0,,contentMDK:21610833~pagePK:64168427~piPK:64168435~theSitePK:3358997,00.html
 
-[^9] A detailed documentation describing the harmonization procedures is available from the accompanying pdf documents.
+[^9]: A detailed documentation describing the harmonization procedures is available from the accompanying pdf documents.
 
-[^10] http://www.lisdatacenter.org/
+[^10]: http://www.lisdatacenter.org/
 
-[^11] http://unstats.un.org/sdgs/metadata/files/Metadata-01-01-01a.pdf
+[^11]: http://unstats.un.org/sdgs/metadata/files/Metadata-01-01-01a.pdf
 
-[^12] One example is the WHO engagement in the ongoing revision of COICOP by UNSD  https://unstats.un.org/unsd/class/revisions/coicop_revision.asp . Another example is a BMGF project WHO is supporting  to improve the measurement of household health expenditures  http://www.indepth-network.org/projects/ihope
+[^12]: One example is the WHO engagement in the ongoing revision of COICOP by UNSD  https://unstats.un.org/unsd/class/revisions/coicop_revision.asp . Another example is a BMGF project WHO is supporting  to improve the measurement of household health expenditures  http://www.indepth-network.org/projects/ihope
 
-[^13] http://iresearch.worldbank.org/PovcalNet/povOnDemand.aspx
+[^13]: http://iresearch.worldbank.org/PovcalNet/povOnDemand.aspx
 
-[^14] https://datacatalog.worldbank.org/dataset/world-development-indicators
+[^14]: https://datacatalog.worldbank.org/dataset/world-development-indicators
 
-[^15] http://www.who.int/health-accounts/ghed/en/
+[^15]: http://www.who.int/health-accounts/ghed/en/
 
-[^16] https://datacatalog.worldbank.org/dataset/world-development-indicators
+[^16]: https://datacatalog.worldbank.org/dataset/world-development-indicators
 
 
 			</language>
