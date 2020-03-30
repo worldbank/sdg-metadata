@@ -8,6 +8,7 @@ The purpose of this pilot is to translate metadata for Sustainable Development G
 
 Launched in January 2020, the pilot is the result of a collaboration by the World Bank Group under the ECASTAT Trust Fund in coordination with UNECE and ROSSTAT. In addition to providing translations within the initial scope of work, this project provides a detailed protocol that could be replicated in other languages for other translation needs.
 
+* [Introduction to the SDG Metadata Translation Project](https://docs.google.com/presentation/d/1v3tKfPeldopX8uD3d97RC7HyK0RSJF3QQdHQLTKjUjo)
 * [Project documentation]({{ site.baseurl }}/documentation/)
 * Quick-start guide (to come)
 * [Metadata]({{ site.baseurl }}/metadata/)
