@@ -1,9 +1,6 @@
 name: Test PRs
 
-on:
-  pull_request:
-    branches-ignore:
-      - 'import-indicators'
+on: [pull_request]
 
 jobs:
   test:
