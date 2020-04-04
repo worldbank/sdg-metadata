@@ -1,0 +1,389 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.19.1 by Michael Rose
+  Copyright 2013-2019 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>Architecture Diagram - SDG Metadata Translation Pilot</title>
+<meta name="description" content="Evaluating Machine Translation of Indicator Metadata for the Sustainable Development Goals ">
+
+
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="SDG Metadata Translation Pilot">
+<meta property="og:title" content="Architecture Diagram">
+<meta property="og:url" content="/sdg-metadata/documentation/architecture/">
+
+
+  <meta property="og:description" content="Evaluating Machine Translation of Indicator Metadata for the Sustainable Development Goals ">
+
+
+
+
+
+
+
+
+
+
+
+
+<link rel="canonical" href="/sdg-metadata/documentation/architecture/">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": null,
+      "url": "/sdg-metadata/"
+    
+  }
+</script>
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+<link href="/sdg-metadata/feed.xml" type="application/atom+xml" rel="alternate" title="SDG Metadata Translation Pilot Feed">
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/sdg-metadata/assets/css/main.css">
+
+<!--[if IE]>
+  <style>
+    /* old IE unsupported flexbox fixes */
+    .greedy-nav .site-title {
+      padding-right: 3em;
+    }
+    .greedy-nav button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+    }
+  </style>
+<![endif]-->
+
+
+
+    <!-- Favicons -->
+<link rel="shortcut icon" type="image/ico" href="/sdg-metadata/assets/img/favicons/favicon.ico">
+<link rel="icon" type="image/png" href="/sdg-metadata/assets/img/favicons/favicon.png">
+<!-- Mathjax -->
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  </head>
+
+  <body class="layout--single">
+    <nav class="skip-links">
+  <h2 class="screen-reader-text">Skip links</h2>
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+        <a class="site-title" href="/sdg-metadata/">
+          SDG Metadata Translation Pilot
+          <span class="site-subtitle">Evaluating Machine Translation of Indicator Metadata for the Sustainable Development Goals</span>
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/sdg-metadata/documentation">Documentation</a>
+            </li><li class="masthead__menu-item">
+              <a href="/sdg-metadata/metadata">Metadata</a>
+            </li><li class="masthead__menu-item">
+              <a href="/sdg-metadata/developers">Developers</a>
+            </li></ul>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+<div id="main" role="main">
+  
+
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Architecture Diagram">
+    
+    
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title" class="page__title" itemprop="headline">Architecture Diagram
+</h1>
+          
+        </header>
+      
+
+      <section class="page__content" itemprop="text">
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jsPlumb/2.8.6/js/jsplumb.js"></script>
+
+<script src="https://unpkg.com/popper.js"></script>
+
+<script src="https://unpkg.com/tooltip.js"></script>
+
+<div id="architecture-diagram">
+  <div class="container">
+    <div class="node local" id="authoring-tool">
+      Authoring tool
+      <span class="icon-container"><i tabindex="0" class="fa fa-info-circle"></i></span>
+      <span class="info">
+        Custodian agencies enter metadata (in English) into an authoring tool
+        using Microsoft Word.
+      </span>
+    </div>
+    <div class="node repo" id="translation-source">
+      GitHub: source language
+      <span class="icon-container"><i tabindex="0" class="fa fa-info-circle"></i></span>
+      <span class="info">
+        Metadata from the uploaded authoring tool is converted into English
+        source files for translation, and stored in the GitHub repository.
+      </span>
+    </div>
+    <div class="node cat" id="translation-platform">
+      Weblate
+      <span class="icon-container"><i tabindex="0" class="fa fa-info-circle"></i></span>
+      <span class="info">
+        Translators log on to Weblate to perform translations, with the help of
+        machine-translation services.
+      </span>
+    </div>
+    <div class="node repo" id="translation-targets">
+      GitHub: all languages
+      <span class="icon-container"><i tabindex="0" class="fa fa-info-circle"></i></span>
+      <span class="info">
+        Completed translations for the target languages are stored in the
+        GitHub repository.
+      </span>
+    </div>
+    <div class="node host" id="hosting-provider">
+      GitHub Pages
+      <span class="icon-container"><i tabindex="0" class="fa fa-info-circle"></i></span>
+      <span class="info">
+        GitHub Pages (a free hosting provider) stores the automatically-generated
+        output and serves it to the general public, in several different forms.
+      </span>
+    </div>
+    <div class="node host" id="output">
+      JSON, XML, PDF, DOC, and website
+      <span class="icon-container"><i tabindex="0" class="fa fa-info-circle"></i></span>
+      <span class="info">
+        All metadata is served in a variety of machine-readable and
+        human-friendly formats.
+      </span>
+    </div>
+  </div>
+</div>
+
+<script>
+jsPlumb.ready(function () {
+
+  // Helper function to get overlay labels as tooltips.
+  function connectorTip(text, location) {
+    if (!location) {
+      location = 0.5;
+    }
+    var label = '' +
+      '<div class="node connector-tooltip">' +
+        '<span class="icon-container"><i tabindex="0" class="fa fa-info-circle"></i></span>' +
+        '<span class="info">' + text + '</span>' +
+      '</div>';
+    return [['Custom', {create: function() { return $(label); }, location: location}]]
+  }
+
+  // Helper function to get overlay arrows.
+  function connectorArrow(location) {
+    if (!location) {
+      location = 0.5;
+    }
+    return [["Arrow" , { width: 12, length: 12, location: location }]];
+  }
+
+  // Draw the connections using the jsPlumb library.
+  jsPlumb.importDefaults({
+    ConnectionsDetachable: false,
+    Connector: 'Straight',
+    Endpoint: [ 'Dot', { radius: 4 } ],
+    Anchors: ['Bottom', 'Top'],
+  });
+  jsPlumb.connect({
+    source: 'authoring-tool',
+    target: 'translation-source',
+    overlays: connectorTip('The Word documents are uploaded to the GitHub repository, to be reviewed/approved.'),
+  });
+  jsPlumb.connect({
+    source: 'translation-source',
+    target: 'translation-platform',
+    overlays: connectorTip('Administrators pull the source files from GitHub to Weblate for translation.'),
+  });
+  jsPlumb.connect({
+    source: 'translation-platform',
+    target: 'translation-targets',
+    overlays: connectorTip('Administrators push the completed translations back to GitHub to be reviewed/approved.'),
+  });
+  jsPlumb.connect({
+    source: 'translation-targets',
+    target: 'hosting-provider',
+    overlays: connectorTip('Completed translation files are automtically processed for deployment to GitHub Pages.'),
+  });
+  jsPlumb.connect({
+    source: 'hosting-provider',
+    target: 'output',
+    overlays: connectorArrow(),
+  });
+  window.addEventListener('resize', function() {
+    jsPlumb.repaintEverything();
+  });
+
+  // Add the tooltips with Popper.js.
+  var repos = document.getElementsByClassName('node');
+  for (var i = 0; i < repos.length; i++) {
+    var button = repos[i].getElementsByClassName('icon-container');
+    var text = repos[i].getElementsByClassName('info');
+    if (text.length && button.length) {
+      var instance = new Tooltip(button[0], {
+        title: text[0].innerHTML,
+        placements: ['bottom', 'top'],
+        trigger: 'hover focus',
+        delay: {
+          show: 50,
+          hide: 150,
+        },
+        html: true,
+        closeOnClickOutside: true,
+        // Hijack the template to workaround a bug by adding an "inner" div.
+        // @see https://github.com/FezVrasta/popper.js/issues/669
+        template: '<div class="tooltip" role="tooltip">' +
+                    '<div class="inner">' +
+                      '<div class="tooltip-arrow"></div>' +
+                      '<div class="tooltip-inner"></div>' +
+                    '</div>' +
+                  '</div>',
+      });
+    }
+  }
+});
+
+</script>
+
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+        
+      </footer>
+
+      
+
+      
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+    </div>
+
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Follow:</strong></li>
+    
+
+    
+      
+        
+          <li><a href="https://github.com/OpenDataEnterprise/sdg-metadata" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+        
+      
+    
+
+    <li><a href="/sdg-metadata/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2020 SDG Metadata Translation Pilot. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/sdg-metadata/assets/js/main.min.js"></script>
+  <script src="https://kit.fontawesome.com/4eee35f757.js"></script>
+
+
+
+
+
+
+
+
+
+
+  </body>
+</html>
