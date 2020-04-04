@@ -3,7 +3,7 @@ name: Test PRs
 on:
   pull_request:
     branches-ignore:
-      import-indicators
+      - 'import-indicators'
 
 jobs:
   test:
