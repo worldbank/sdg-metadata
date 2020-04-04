@@ -5,6 +5,7 @@
   "author": "",
   "license": "ISC",
   "scripts": {
+    "import": "node scripts/import-indicators.js",
     "test": "mocha"
   },
   "dependencies": {
