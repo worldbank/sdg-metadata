@@ -22,7 +22,7 @@ for (const file of files) {
             const html = result.value
             const units = {}
             const $ = cheerio.load(html)
-            $('body > table').each((index, table) => {
+            $('body > table').each((idx, table) => {
                 const section = $(table).find('> tbody > tr > td > h1').first().text()
                 if (section) {
                     const concepts = getConcepts(table, $)
@@ -31,6 +31,9 @@ for (const file of files) {
                         units[conceptId] = getUnit(conceptValue, conceptId)
                     }
                 }
+
+                const footnotes = getFootnotes(table, $)
+                // TODO: What do we do with them?
             })
 
             // For now we assume that the Word file name is the indicator id. This
@@ -50,7 +53,7 @@ for (const file of files) {
 
 function getConcepts(table, $) {
     const concepts = {}
-    $(table).find('> tbody > tr').slice(2).each((index, conceptRow) => {
+    $(table).find('> tbody > tr').slice(2).each((idx, conceptRow) => {
         const conceptNameCell = $(conceptRow).find('> td:first-child')
         const conceptName = $(conceptNameCell)
             // Remove the footnotes that the names have.
@@ -66,6 +69,24 @@ function getConcepts(table, $) {
         }
     })
     return concepts
+}
+
+function getFootnotes(table, $) {
+    // Look for links in the concept values.
+    const selector = '> tbody > tr > td:nth-child(2) a'
+    // Limit to actual footnotes.
+    const anchors = $(table).find(selector).filter((idx, a) => isFootnote(a, $))
+    // Find the corresponding footnotes.
+    const footnotes = $(anchors).map((idx, a) => $($(a).attr('href')))
+    // Return the HTML of the list item. (Or do we still want the Cheerio obj?)
+    return $(footnotes).map((idx, footnote) => $.html(footnote)).get()
+}
+
+function isFootnote(link, $) {
+    const href = $(link).attr('href')
+    const startsWithHash = href && href.startsWith('#')
+    const parentIsSup = link.parent && link.parent.tagName === 'sup'
+    return startsWithHash && parentIsSup
 }
 
 // Get a header for a PO file.
