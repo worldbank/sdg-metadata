@@ -29,7 +29,7 @@ function getMetadataStructure() {
             },
         },
         {
-            title: '2. Definition, concepts and classifications',
+            title: '2. Definition, concepts, and classifications',
             main: 'IND_DEF_CON_CLASS',
             concepts: {
                 'IND_DEF_CON_CLASS': '2. Definition, concepts and classifications',
@@ -79,14 +79,14 @@ function getMetadataStructure() {
             },
         },
         {
-            title: '6. Comparability / Deviation from international standards',
+            title: '6. Comparability/deviation from international standards',
             main: 'COMPARABILITY',
             concepts: {
                 'COMPARABILITY': '6. Comparability / Deviation from international standards',
             },
         },
         {
-            title: '7. References and Documentation',
+            title: '7. References and documentation',
             main: 'OTHER_DOC',
             concepts: {
                 'OTHER_DOC': '7. References and Documentation',
