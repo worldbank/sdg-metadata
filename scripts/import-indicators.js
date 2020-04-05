@@ -24,10 +24,12 @@ for (const file of files) {
             const $ = cheerio.load(html)
             $('body > table').each((index, table) => {
                 const section = $(table).find('> tbody > tr > td > h1').first().text()
-                const concepts = getConcepts(table, $)
-                for (const [conceptName, conceptValue] of Object.entries(concepts)) {
-                    const conceptId = schema.getConceptIdByName(section, conceptName)
-                    units[conceptId] = getUnit(conceptValue, conceptId)
+                if (section) {
+                    const concepts = getConcepts(table, $)
+                    for (const [conceptName, conceptValue] of Object.entries(concepts)) {
+                        const conceptId = schema.getConceptIdByName(section, conceptName)
+                        units[conceptId] = getUnit(conceptValue, conceptId)
+                    }
                 }
             })
 
@@ -49,9 +51,19 @@ for (const file of files) {
 function getConcepts(table, $) {
     const concepts = {}
     $(table).find('> tbody > tr').slice(2).each((index, conceptRow) => {
-        const conceptName = $(conceptRow).find('> td:first-child').text().trim()
-        const conceptValue = prepareOutput($(conceptRow).find('> td:nth-child(2)').html())
-        concepts[conceptName] = conceptValue
+        const conceptNameCell = $(conceptRow).find('> td:first-child')
+        const conceptName = $(conceptNameCell)
+            // Remove the footnotes that the names have.
+            .clone().find('sup').remove().end()
+            // And get the plain text that is left.
+            .text().trim()
+        const conceptValueCell = $(conceptRow).find('> td:nth-child(2)')
+
+        // Confirm that this is actual content.
+        if (isConceptValueValid(conceptValueCell, $)) {
+            const conceptValue = prepareOutput(conceptValueCell, $)
+            concepts[conceptName] = conceptValue
+        }
     })
     return concepts
 }
@@ -96,13 +108,15 @@ function dotsToDashes(indicatorId) {
     return indicatorId.replace(/\./g, '-')
 }
 
-function printError(section, message) {
-    console.log(`ERROR in section "${section}"`)
-    console.log(message)
-    console.log('')
+function isConceptValueValid(input, $) {
+    // Microsoft Word can put in some weird stuff. This is a sanity check that
+    // we actually have real content.
+    const text = $(input).text().replace(/[^\w]/gi, '').trim()
+    return text.length > 0
 }
 
-function prepareOutput(input) {
-    return HTML.prettyPrint(input.trim())
+function prepareOutput(input, $) {
+    const html = $(input).html()
+    return HTML.prettyPrint(html.trim())
     //return turndownService.turndown(HTML.prettyPrint(input.trim()))
 }
