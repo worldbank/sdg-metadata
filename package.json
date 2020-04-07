@@ -9,19 +9,14 @@
     "test": "mocha"
   },
   "dependencies": {
-    "chai": "4.2.0",
-    "cheerio": "1.0.0-rc.3",
-    "gettext-parser": "4.0.2",
-    "html": "1.0.0",
     "jsontoxml": "1.0.1",
-    "mammoth": "1.4.9",
     "markdown-it": "10.0.0",
     "markdown-it-footnote": "3.0.2",
     "mocha": "7.1.1",
     "node-watch": "0.6.3",
     "pdf-puppeteer": "1.1.10",
     "read-excel-file": "4.0.5",
-    "turndown": "6.0.0",
+    "sdg-metadata-convert": "github:brockfanning/sdg-metadata-convert#master",
     "xliff": "4.4.0",
     "xmlbuilder": "13.0.2",
     "yaml": "1.7.2"
