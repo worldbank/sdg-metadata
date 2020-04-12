@@ -4,6 +4,9 @@ install:
 	npm install
 	cd www && bundle install
 
+build.snapshots:
+	node scripts/snapshots.js
+
 build.documents:
 	node scripts/prepare-build.js documents
 
@@ -14,10 +17,9 @@ build.site:
 	node scripts/prepare-build.js site
 	cd www && bundle exec jekyll build
 
-build: build.documents build.api build.site
+build: build.api build.site
 
-snapshots:
-	node scripts/snapshots.js
+publish: build.snapshots build.api build.site
 
 # Full (slow) local server, including website, API, and documents.
 serve.full: build
