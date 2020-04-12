@@ -16,6 +16,9 @@ build.site:
 
 build: build.documents build.api build.site
 
+snapshots:
+	node scripts/snapshots.js
+
 # Full (slow) local server, including website, API, and documents.
 serve.full: build
 	node scripts/watch-translations.js full &
