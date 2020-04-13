@@ -16,13 +16,10 @@ git.branch((err, branchSummary) => {
         throw err
     }
     const prefix = 'snapshot-'
-    console.log(branchSummary.all)
     const remoteBranches = branchSummary.all.filter(br => isRemoteSnapshot(br, prefix))
-    console.log(remoteBranches)
     for (const remoteBranch of remoteBranches) {
         // We have to take some extra steps to make sure the branch is local.
         const branch = getLocalBranch(remoteBranch)
-        console.log('About to fetch ' + branch)
         git.fetch('origin', branch + ':' + branch, err => {
             git.clone('.', branch, ['--single-branch', '--branch=' + branch], err => {
                 if (err) {
