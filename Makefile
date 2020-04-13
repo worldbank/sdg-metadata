@@ -4,7 +4,7 @@ install:
 	npm install
 	cd www && bundle install
 
-build.snapshots:
+snapshots:
 	node scripts/snapshots.js
 
 build.documents:
@@ -19,7 +19,7 @@ build.site:
 
 build: build.api build.site
 
-publish: build.snapshots build.api build.site
+publish: snapshots build
 
 # Full (slow) local server, including website, API, and documents.
 serve.full: build
