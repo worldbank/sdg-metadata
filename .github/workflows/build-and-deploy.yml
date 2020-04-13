@@ -23,7 +23,7 @@ jobs:
     - name: Install dependencies
       run: make install
     - name: Build the site
-      run: make build
+      run: make publish
     - name: Deploy to GitHub Pages
       uses: JamesIves/github-pages-deploy-action@releases/v3
       with:
