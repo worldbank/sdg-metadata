@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<status>success</status>
+	<message>The DATA_COMP field for indicator 9-3-2, translated into all languages</message>
+	<data>
+		<languages>
+			<language lang="ru"># Методология
+
+## Метод вычисления
+
+Доля &quot;малых предприятий&quot;, имеющих ссуду или кредитную линию, рассчитывается как количество &quot;малых предприятий&quot;, имеющих действующую кредитную линию или ссуду финансовой организации в отчетном году в процентах к общему количеству таких предприятий:
+
+(*(количество &quot;малых предприятий&quot;, имеющих ссуду или кредитную линию)*/*(Общее количество &quot;малых предприятий&quot;)*)*100
+			</language>
+			<language lang="en"># Methodology
+
+## Computation Method
+
+The proportion of “small-scale industries” with a loan or line of credit is calculated as the number of “small-scale industries” with an active line of credit or a loan from a financial institution in the reference year in percentage to the total number of such enterprises:
+
+\\[ { {\text{ the number of small-scale industries with loan or line of credit } } \over {\text{Total number of small-scale industries} } } \times 100\\]
+			</language>
+</languages>
+</data>
+</root>

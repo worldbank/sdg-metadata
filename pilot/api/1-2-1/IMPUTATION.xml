@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<status>success</status>
+	<message>The IMPUTATION field for indicator 1-2-1, translated into all languages</message>
+	<data>
+		<languages>
+			<language lang="ru">## Обработка отсутствующих значений
+
+* **На страновом уровне**
+
+Отсутствующие значения в потреблении конкретных товаров, принимаются равными нулю. Это стандартная практика при обработке данных обследования. Если отсутствует информация по потреблению, то оно принимает нулевое значение, а соответственно и потребительские расходы равны нулю.
+
+* **На региональном и глобальном уровнях**
+
+Вследствие того, что национальные уровни бедности конкретны для каждой страны, агрегации на региональном или глобальном уровне отсутствует.
+			</language>
+			<language lang="en">## Treatment of missing values
+
+* **At country level**
+
+    Missing values in consumption of particular items are counted as zero. This is a standard practice in processing survey data. If the consumption is not reported, it is taken as zero consumption, and thus the consumption expenditure is zero.
+
+* **At regional and global levels**
+
+    Because national poverty lines are country-specific. There is no aggregation at the regional or global level.
+			</language>
+</languages>
+</data>
+</root>

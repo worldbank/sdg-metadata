@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<status>success</status>
+	<message>The SOURCE_TYPE field for indicator 2-1-1, translated into all languages</message>
+	<data>
+		<languages>
+			<language lang="ru"/>
+			<language lang="en"># Data Sources 
+
+## Description
+
+The ideal source of data to estimate the PoU would be a carefully designed and skillfully conducted individual dietary intake survey, in which actual daily food consumption, together with heights and weights for each surveyed individual, are repeatedly measured on a sample that is representative of the target population. Due to their cost, however, such surveys are rare.
+
+In principle, a well-designed household survey that collects information on food acquisitions might be sufficient to inform a reliable estimate of the Prevalence of Undernourishment in a population, at a reasonable cost and with the necessary periodicity to inform the SDG monitoring process, provided that: 
+
+1. All sources of food consumption for all members of the households are properly accounted for, including, in particular, food that is consumed away from home; 
+
+2. Sufficient information is available to convert the data on food consumption or on food expenditures into their contribution to dietary energy intake; 
+
+3. The proper methods to compute the PoU are used, to control for excess variability in the estimated levels of habitual food consumption across households, allowing for the presence on normal variability in the distribution of food consumption across individuals, induced by the differences in energy requirements of the members of the population. 
+{:type=&apos;a&apos;}
+Examples of surveys that could be considered for this purpose include surveys conducted to compute economic statistics and conduct poverty assessments, such as Household Income and Expenditure Surveys, Household Budget Surveys and Living Standard Measurement Surveys. 
+
+In practice, however, it is often impossible, and not advisable, to rely only on data collected through a household survey, as the information needed to estimate the four parameters of the PoU model is either missing or imprecise. 
+
+Household Survey food consumption data often must be integrated by 
+a) Data on the demographic structure of the population of interest by sex and age; 
+b) Data or information on the median height of individuals in each sex and age class; 
+c) Data on the distribution of physical activity levels in the population; 
+d) Alternative data on the total amounts of food available for human consumption, to correct for biases in the estimate of the national average daily dietary energy consumption in the population. 
+
+Data for a), b) and c) could be available through the same multipurpose survey that provides food consumption data, but are more likely available from other sources, such as National Demographic and Health Surveys (for a) and b) ) and Time Use Surveys (for c) ). 
+
+Correcting for bias in the estimated average daily dietary energy consumption might need to be based on alternative sources on food consumption, such as aggregate food supply and utilization accounts and food balance sheets. 
+
+To inform its estimate of PoU at national, regional and global level, in addition to all household surveys for which it is possible to obtain micro data on food consumption, FAO relies on: 
+a) UN Population Division’s World Population Prospects (&lt;https://esa.un.org/unpd/wpp/Download/Standard/Population/&gt;), which provide updated estimates of the structures of the national population by sex and age every two years for most countries in the world; 
+b) FAO Food Balance Sheets (&lt;http://faostat3.fao.org/download/FB/*/E&gt;), which provides updated estimates of the national availability of food every year for most countries in the world.
+
+Micro data from household surveys that collect food consumption data are sourced by FAO directly through the National Statistical Agencies’ websites, or through specific bilateral agreements.
+			</language>
+</languages>
+</data>
+</root>

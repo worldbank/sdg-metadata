@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<status>success</status>
+	<message>The REG_AGG field for indicator 2-1-1, translated into all languages</message>
+	<data>
+		<languages>
+			<language lang="ru"/>
+			<language lang="en">## Regional aggregates 
+
+Regional and global aggregates of the PoU are computed as: 
+
+\\[PoU_{REG} = (_i PoU_i × N_i) / (_i N_i)\\]
+
+where PoU_i are the values of PoU estimated for all countries in the regions for which available data allow to compute a reliable estimate, and N_i the corresponding population size.
+			</language>
+</languages>
+</data>
+</root>
