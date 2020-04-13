@@ -11,36 +11,51 @@ const { exec } = require('child_process');
 const fs = require('fs');
 const path = require('path')
 
-console.log('Building snapshots.')
 git.branch((err, branchSummary) => {
     if (err) {
         throw err
     }
     const prefix = 'snapshot-'
-    const branches = branchSummary.all.filter(branch => branch.startsWith(prefix))
     console.log(branchSummary.all)
-    for (const branch of branches) {
-        git.clone('.', branch, ['--single-branch', '--branch=' + branch], err => {
-            if (err) {
-                throw err
-            }
-            console.log('Building branch "' + branch + '".')
-            exec('cd ' + branch + ' && make build', (err, stdout, stderr) => {
+    const remoteBranches = branchSummary.all.filter(br => isRemoteSnapshot(br, prefix))
+    console.log(remoteBranches)
+    for (const remoteBranch of remoteBranches) {
+        // We have to take some extra steps to make sure the branch is local.
+        const branch = getLocalBranch(remoteBranch)
+        console.log('About to fetch ' + branch)
+        git.fetch('origin', branch + ':' + branch, err => {
+            git.clone('.', branch, ['--single-branch', '--branch=' + branch], err => {
                 if (err) {
-                    console.error(err)
+                    throw err
                 }
-                else {
-                    const subfolder = branch.replace(prefix, '')
-                    const source = path.join(branch, 'www', '_site')
-                    const destination = path.join('www', subfolder)
-                    fs.rename(source, destination, function (err) {
-                        if (err) {
-                            throw err
-                        }
-                        console.log('Built branch "' + branch + '" and moved to subfolder "' + subfolder + '".')
-                    })
-                }
-            });
+
+                exec('cd ' + branch + ' && make build', (err, stdout, stderr) => {
+                    if (err) {
+                        console.error(err)
+                    }
+                    else {
+                        const subfolder = branch.replace(prefix, '')
+                        const source = path.join(branch, 'www', '_site')
+                        const destination = path.join('www', subfolder)
+                        fs.rename(source, destination, function (err) {
+                            if (err) {
+                                throw err
+                            }
+                            console.log('Built branch "' + branch + '" and moved to subfolder "' + subfolder + '".')
+                        })
+                    }
+                });
+            })
         })
     }
 })
+
+function isRemoteSnapshot(branch, prefix) {
+    return getLocalBranch(branch).startsWith(prefix)
+}
+
+function getLocalBranch(remoteBranch) {
+    // Just make sure it's whatever is after the last "/".
+    const parts = remoteBranch.split('/')
+    return parts[parts.length - 1]
+}
