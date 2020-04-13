@@ -11,18 +11,20 @@ const { exec } = require('child_process');
 const fs = require('fs');
 const path = require('path')
 
+console.log('Building snapshots.')
 git.branch((err, branchSummary) => {
     if (err) {
         throw err
     }
     const prefix = 'snapshot-'
     const branches = branchSummary.all.filter(branch => branch.startsWith(prefix))
+    console.log(branchSummary.all)
     for (const branch of branches) {
         git.clone('.', branch, ['--single-branch', '--branch=' + branch], err => {
             if (err) {
                 throw err
             }
-
+            console.log('Building branch "' + branch + '".')
             exec('cd ' + branch + ' && make build', (err, stdout, stderr) => {
                 if (err) {
                     console.error(err)
