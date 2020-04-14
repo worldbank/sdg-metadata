@@ -83,6 +83,10 @@ module.exports = function(refresh=false) {
     // An array of field names for that indicator.
     for (const indicatorId of indicatorIds) {
         const fields = store.getFields(indicatorId)
+        if (!fields) {
+            continue
+        }
+
         fileName = 'fields'
         message = 'An array of field names for indicator ' + indicatorId
         writeJson(fileName, fields, [indicatorId], message)

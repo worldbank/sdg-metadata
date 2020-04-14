@@ -51,7 +51,7 @@ function getIndicatorIds() {
  */
 function getFields(indicatorId) {
     indicatorId = normalizeIndicatorId(indicatorId)
-    return fieldOrders[indicatorId]
+    return fieldOrders[indicatorId] || []
 }
 
 /**
