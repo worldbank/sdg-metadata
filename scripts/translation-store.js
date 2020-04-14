@@ -154,6 +154,9 @@ function buildTranslationStore() {
             const po = fs.readFileSync(filePath, { encoding: 'utf-8' })
             const parsed = gettextParser.po.parse(po)
             const group = normalizeIndicatorId(file.split('.')[0])
+            if (!group) {
+                continue
+            }
             translations[language][group] = {}
 
             // Remove headers.
