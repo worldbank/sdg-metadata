@@ -1,15 +1,14 @@
 const fs = require('fs')
 const os = require('os')
 const path = require('path')
-const YAML = require('yaml')
 const gettextParser = require('gettext-parser')
+const { conceptStore } = require('sdg-metadata-convert')
 
 const baseFolder = 'translations'
 const sourceLanguage = 'en'
 const sourceLanguageFolder = 'templates'
 
 let translationStore = buildTranslationStore()
-let fieldOrders = buildFieldOrders()
 
 /**
  * Make sure an indicator ID is dash-delimited.
@@ -41,17 +40,6 @@ function getLanguages() {
  */
 function getIndicatorIds() {
     return Object.keys(translationStore[sourceLanguage])
-}
-
-/**
- * Get an array of all the fields in an indicator.
- *
- * @param {String} indicatorId
- *   the indicator ID, such as '1-1-1' or '1.1.1' (dashes or dots is fine)
- */
-function getFields(indicatorId) {
-    indicatorId = normalizeIndicatorId(indicatorId)
-    return fieldOrders[indicatorId] || []
 }
 
 /**
@@ -90,7 +78,7 @@ function translateAllFields(indicatorId, language) {
         'TRANS_SOURCE',
     ]
     let output = ''
-    for (const field of getFields(indicatorId)) {
+    for (const field of conceptStore.getConceptIds()) {
         if (omitFromFull.includes(field)) {
             continue
         }
@@ -108,28 +96,6 @@ function translateAllFields(indicatorId, language) {
  */
 function getTranslationStore() {
     return translationStore
-}
-
-/**
- * Return the hardcoded orders of fields per indicator.
- *
- * @returns {Object}
- *   An object with indicator IDs keyed to lists of fields
- */
-function getFieldOrders() {
-    return fieldOrders
-}
-
-/**
- * Build our hardcoded orders of fields per indicator. Internal only.
- *
- * @returns {Object}
- *   An object with indicator IDs keyed to lists of fields
- */
-function buildFieldOrders() {
-    return YAML.parse(fs.readFileSync(path.join('scripts', 'field-order.yml'), {
-        encoding: 'utf-8'
-    }))
 }
 
 /**
@@ -196,15 +162,12 @@ function buildTranslationStore() {
  */
 function refresh() {
     translationStore = buildTranslationStore()
-    fieldOrders = buildFieldOrders()
 }
 
 module.exports = {
     normalizeIndicatorId,
     getLanguages,
     getIndicatorIds,
-    getFields,
-    getFieldOrders,
     getTranslationStore,
     translateField,
     translateAllFields,
