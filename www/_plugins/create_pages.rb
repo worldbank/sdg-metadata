@@ -40,21 +40,23 @@ module SdgMetadataPlugins
           title = 'Indicator: ' + indicator.gsub('-', '.')
           data = {'slug' => indicator}
 
-          toc = site.data['store']['fields'][indicator].map {|k| '<a href="#' + k + '">' + k + '</a>'}
-          toc = toc.join('<br>')
+          if site.data['store']['fields'][indicator]
+            toc = site.data['store']['fields'][indicator].map {|k| '<a href="#' + k + '">' + k + '</a>'}
+            toc = toc.join('<br>')
 
-          content = site.data['store']['fields'][indicator].map {|k| '<a name="' + k + '"></a>' + get_field_content(indicator_fields[k], k) }
-          content = content.join("\n\n")
+            content = site.data['store']['fields'][indicator].map {|k| '<a name="' + k + '"></a>' + get_field_content(indicator_fields[k], k) }
+            content = content.join("\n\n")
 
-          # This provides some data for the benefit of the Minimal Mistakes theme.
-          data['sidebar'] = [
-            {
-              'title' => 'Fields',
-              'text' => toc
-            }
-          ]
+            # This provides some data for the benefit of the Minimal Mistakes theme.
+            data['sidebar'] = [
+              {
+                'title' => 'Fields',
+                'text' => toc
+              }
+            ]
 
-          site.pages << SdgMetadataPage.new(site, base, dir, layout, title, content, language, data)
+            site.pages << SdgMetadataPage.new(site, base, dir, layout, title, content, language, data)
+          end
         end
       end
 
