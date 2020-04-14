@@ -12,7 +12,7 @@ title_separator          : "-"
 subtitle                 : Evaluating Machine Translation of Indicator Metadata for the Sustainable Development Goals
 description              : Evaluating Machine Translation of Indicator Metadata for the Sustainable Development Goals
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : /sdg-metadata
+baseurl                  : /sdg-metadata/preview
 repository               : OpenDataEnterprise/sdg-metadata
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
@@ -76,3 +76,5 @@ compress_html:
   clippings: all
   ignore:
     envs: development
+
+test_banner: true
