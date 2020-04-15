@@ -42,7 +42,8 @@ module SdgMetadataPlugins
           title = 'Indicator: ' + indicator.gsub('-', '.')
           data = {'slug' => indicator}
 
-          translated_fields = site.data['store']['fields'].select {|c| field_content.key?(c['id']) }
+          # For now let's only display translated fields.
+          translated_fields = site.data['store']['fields'].select {|c| field_content[c['id']] != '' }
 
           toc = translated_fields.map {|c| '<li><a href="#' + c['id'] + '">' + c['name'] + '</a></li>'}
           toc = '<ul class="indicator-fields">' + toc.join('') + '</ul>'
