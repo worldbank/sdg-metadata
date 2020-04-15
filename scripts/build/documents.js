@@ -1,130 +1,37 @@
 module.exports = function(refresh=false) {
 
-    const fs = require('fs')
+    const {
+        GettextInput,
+        PdfOutput
+    } = require('sdg-metadata-convert')
     const path = require('path')
-    const convertHTMLToPDF = require("pdf-puppeteer")
-    const documentTemplate = require('./document-template')
-    const md = require('markdown-it')({
-        html: true
-    }).use(require('markdown-it-footnote'))
+    const fs = require('fs')
+    const utils = require('./utils')
     const store = require('../translation-store')
 
     if (refresh) {
         store.refresh()
     }
 
-    const destinationFolder = 'www'
-    const absoluteUrl = 'https://opendataenterprise.github.io/sdg-metadata'
-
-    // Create folders from an array of parts. Returns the path of the folder.
-    function createFolder(folderParts) {
-        let folder = '.'
-        for (const part of folderParts) {
-            folder = folder + path.sep + part
-            if (!fs.existsSync(folder)) {
-                fs.mkdirSync(folder);
+    for (const language of store.getLanguages()) {
+        const sourceLangFolder = (language === 'en') ? 'templates' : language
+        const sourceExtension = (language === 'en') ? '.pot' : '.po'
+        const sourceFolder = path.join('translations', sourceLangFolder)
+        const files = fs.readdirSync(sourceFolder).filter(file => {
+            return path.extname(file).toLowerCase() === sourceExtension
+        })
+        for (const sourceFile of files) {
+            const sourcePath = path.join(sourceFolder, sourceFile)
+            const targetFolder = utils.createFolder(['www', 'documents', language])
+            const pdfFile = sourceFile.replace(sourceExtension, '.pdf')
+            const pdfPath = path.join(targetFolder, pdfFile)
+            const docOptions = {
+                layout: 'iaeg-sdg.njk',
+                layoutFolder: path.join(__dirname, 'layouts'),
             }
-        }
-        return folderParts.join(path.sep)
-    }
-
-    // Get the absolute URL for an image.
-    function getImageFolder(language, indicatorId) {
-        const path = `/metadata/${language}/${indicatorId}/images`
-        return absoluteUrl + path
-    }
-
-    // Convert an indicator to fully-rendered HTML.
-    function getHtml(indicatorContent, language, indicatorId) {
-        let html = '<p>This indicator has not been translated yet.</p>'
-        if (indicatorContent.trim()) {
-            html = md.render(indicatorContent)
-        }
-        // Images need to absolute instead of relative.
-        const prefix = 'src="'
-        const srcSearch = new RegExp(prefix + 'images', 'g')
-        const srcReplace = prefix + getImageFolder(language, indicatorId)
-        return html.replace(srcSearch, srcReplace)
-    }
-
-    // Generate the PDFs.
-    function getPuppeteerPdfOptions(lastUpdated) {
-        return {
-            // See https://github.com/puppeteer/puppeteer/blob/master/docs/api.md#pagepdfoptions
-            displayHeaderFooter: true,
-            // Because of Puppeteer (or Chromium?) issues, we have to pass styles
-            // in with the footer markup.
-            footerTemplate: `
-                <style>
-                    #footer { padding: 0 !important; }
-                    * { box-sizing: border-box; }
-                    div.footer {
-                        text-align: right;
-                        font-size: 10px;
-                        height: 30px;
-                        width: 100%;
-                        margin: 0 50px;
-                    }
-                </style>
-                <div class='footer'>
-                    Page: <span class='pageNumber'></span> of <span class='totalPages'></span>
-                </div>
-            `,
-            // Because of Puppeteer (or Chromium?) issues, we have to pass styles
-            // in with the header markup.
-            headerTemplate: `
-                <style>
-                    #header { padding: 0 !important; }
-                    * { box-sizing: border-box; }
-                    div.header {
-                        text-align: right;
-                        font-size: 10px;
-                        height: 50px;
-                        width: 100%;
-                        margin: 20px 50px 0 50px;
-                    }
-                </style>
-                <div class='header'>
-                    Last update: ${ lastUpdated }
-                </div>
-            `,
-            format: 'A4',
-            margin: {
-                // These numbers tweaked to look OK despite the header/footer issues
-                // linked above.
-                top: '66px',
-                right: '60px',
-                bottom: '45px',
-                left: '60px',
-            },
-        }
-    }
-
-    // Generate the PDFs.
-    const indicatorIds = store.getIndicatorIds()
-    const languages = store.getLanguages()
-    const pdfs = []
-    for (const indicatorId of indicatorIds) {
-        for (const language of languages) {
-            createFolder([destinationFolder, 'pdf', language])
-            const html = getHtml(store.translateAllFields(indicatorId, language), language, indicatorId)
-            const lastUpdated = store.translateField(indicatorId, 'META_LAST_UPDATE', language)
-            pdfs.push([language, indicatorId, html, lastUpdated])
-        }
-    }
-    processPdf(0)
-
-    // Write a PDF file.
-    function processPdf(pdfIndex) {
-        if (pdfIndex < pdfs.length) {
-            const [language, indicatorId, html, lastUpdated] = pdfs[pdfIndex]
-            const fileName = 'Metadata-' + indicatorId + '.pdf'
-            const filePath = path.join(destinationFolder, 'pdf', language, fileName)
-            const htmlDoc = documentTemplate(indicatorId, html)
-            convertHTMLToPDF(htmlDoc, pdf => {
-                fs.writeFileSync(filePath, pdf)
-                processPdf(pdfIndex + 1)
-            }, getPuppeteerPdfOptions(lastUpdated))
+            // @TODO: This will run out of memory if there are a lot of indicators.
+            // Need to learn about Promises and use them here.
+            new GettextInput(sourcePath).convertTo(new PdfOutput(pdfPath, docOptions))
         }
     }
 }

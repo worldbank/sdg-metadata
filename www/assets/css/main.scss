@@ -161,3 +161,54 @@
   background-color: yellow;
   padding: 5px;
 }
+
+.layout--indicator .indicator-fields {
+  list-style-type: none;
+  padding: 0;
+}
+
+.layout--indicator .page__content h1 {
+  border-bottom: 2px solid #BBB;
+  padding-bottom: 10px;
+  margin-top: 20px;
+}
+.layout--indicator .page__content h2 {
+  margin-top: 20px;
+}
+.layout--indicator .page__content table {
+  border-collapse: collapse;
+}
+.layout--indicator .page__content table,
+.layout--indicator .page__content th,
+.layout--indicator .page__content td {
+  border: 1px solid black;
+}
+.layout--indicator .page__content th,
+.layout--indicator .page__content td {
+  padding: 10px;
+  text-align: left;
+}
+.layout--indicator .page__content img {
+  max-width: 100%;
+}
+.layout--indicator .page__content .footnotes {
+  border-top: 1px solid #BBB;
+  border-bottom: 1px solid #BBB;
+  margin: 25px 0;
+  padding: 25px 15px 20px 25px;
+  font-size: 14px;
+  list-style-type: none;
+  color: #444;
+}
+.layout--indicator .page__content .footnotes div:last-child p {
+  margin-bottom: 0;
+}
+.layout--indicator .page__content .footnotes li p:first-of-type {
+  margin-top: 0;
+  padding-top: 0;
+}
+.layout--indicator .page__content .footnotes sup {
+  float: left;
+  margin-right: 5px;
+  margin-left: -11px;
+}

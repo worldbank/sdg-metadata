@@ -5,12 +5,14 @@ module SdgMetadataPlugins
     safe true
     priority :normal
 
-    def get_field_content(content, field_name)
-      if content != ''
-        return "\n\n" + content
-      else
-        return "\n\n**" + field_name + " is not yet translated.**"
+    def get_field_content(content, field_id, field_name)
+      prefix = '<div id="' + field_id + '">'
+      inner = content
+      if content == '' || content == nil
+        inner = '<p>' + field_name + ' (' + field_id + ') is not yet translated.</p>'
       end
+      suffix = '</div>'
+      return prefix + inner + suffix
     end
 
     # Make any goal/target/indicator number suitable for use in sorting.
@@ -34,29 +36,28 @@ module SdgMetadataPlugins
 
       # Generate all the indicator pages.
       site.data['store']['metadata'].each do |language, indicators|
-        indicators.each do |indicator, indicator_fields|
+        indicators.each do |indicator, field_content|
           dir = File.join('metadata', language, indicator) + '/'
           layout = 'indicator'
           title = 'Indicator: ' + indicator.gsub('-', '.')
           data = {'slug' => indicator}
 
-          if site.data['store']['fields'][indicator]
-            toc = site.data['store']['fields'][indicator].map {|k| '<a href="#' + k + '">' + k + '</a>'}
-            toc = toc.join('<br>')
+          translated_fields = site.data['store']['fields'].select {|c| field_content.key?(c['id']) }
 
-            content = site.data['store']['fields'][indicator].map {|k| '<a name="' + k + '"></a>' + get_field_content(indicator_fields[k], k) }
-            content = content.join("\n\n")
+          toc = translated_fields.map {|c| '<li><a href="#' + c['id'] + '">' + c['name'] + '</a></li>'}
+          toc = '<ul class="indicator-fields">' + toc.join('') + '</ul>'
+          content = translated_fields.map {|c| '<a name="' + c['id'] + '"></a>' + get_field_content(field_content[c['id']], c['id'], c['name']) }
+          content = content.join("")
 
-            # This provides some data for the benefit of the Minimal Mistakes theme.
-            data['sidebar'] = [
-              {
-                'title' => 'Fields',
-                'text' => toc
-              }
-            ]
+          # This provides some data for the benefit of the Minimal Mistakes theme.
+          data['sidebar'] = [
+            {
+              'title' => 'Fields',
+              'text' => toc
+            }
+          ]
 
-            site.pages << SdgMetadataPage.new(site, base, dir, layout, title, content, language, data)
-          end
+          site.pages << SdgMetadataPage.new(site, base, dir, layout, title, content, language, data)
         end
       end
 

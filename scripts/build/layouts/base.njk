@@ -1,9 +1,8 @@
-module.exports = (indicatorId, content) => `
 <!DOCTYPE html>
 <html>
     <head>
         <meta charset="utf-8" />
-        <title>${ indicatorId }</title>
+        <title>{{ SDG_INDICATOR.value | striptags }}</title>
         <style>
             h1 {
                 border-bottom: 2px solid #BBB;
@@ -22,12 +21,28 @@ module.exports = (indicatorId, content) => `
             img {
                 max-width: 100%;
             }
+            .footnotes {
+                border-top: 1px solid #BBB;
+                border-bottom: 1px solid #BBB;
+                margin: 25px 0 0 0;
+                padding: 15px 15px 10px 25px;
+                font-size: 13px;
+                list-style-type: none;
+            }
+            .footnotes li p:first-of-type {
+                margin-top: 0;
+                padding-top: 0;
+            }
+            .footnote-number {
+                float: left;
+                margin-right: 5px;
+                margin-left: -11px;
+            }
         </style>
         <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
         <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
     </head>
     <body>
-        ${ content }
+        {% block content %}{% endblock %}
     </body>
 </html>
-`
