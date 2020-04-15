@@ -25,7 +25,10 @@ module.exports = function(refresh=false) {
             const targetFolder = utils.createFolder(['www', 'documents', language])
             const pdfFile = sourceFile.replace(sourceExtension, '.pdf')
             const pdfPath = path.join(targetFolder, pdfFile)
-            const docOptions = { layout: 'iaeg-sdg.njk' }
+            const docOptions = {
+                layout: 'iaeg-sdg.njk',
+                layoutFolder: path.join(__dirname, 'layouts'),
+            }
             // @TODO: This will run out of memory if there are a lot of indicators.
             // Need to learn about Promises and use them here.
             new GettextInput(sourcePath).convertTo(new PdfOutput(pdfPath, docOptions))

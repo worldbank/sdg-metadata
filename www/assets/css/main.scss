@@ -161,3 +161,56 @@
   background-color: yellow;
   padding: 5px;
 }
+
+#SDG_INDICATOR {
+  color: #1c75bc;
+}
+#SDG_INDICATOR p, #SDG_GOAL p, #SDG_TARGET p {
+  background: #EEE;
+  margin: 0;
+  padding: 10px 0;
+}
+
+.layout--indicator .indicator-fields {
+  list-style-type: none;
+  padding: 0;
+}
+
+.layout--indicator .page__content h1 {
+  border-bottom: 2px solid #BBB;
+  padding-bottom: 10px;
+}
+.layout--indicator .page__content table {
+  border-collapse: collapse;
+}
+.layout--indicator .page__content table,
+.layout--indicator .page__content th,
+.layout--indicator .page__content td {
+  border: 1px solid black;
+}
+.layout--indicator .page__content th,
+.layout--indicator .page__content td {
+  padding: 10px;
+  text-align: left;
+}
+.layout--indicator .page__content img {
+  max-width: 100%;
+}
+.layout--indicator .page__content .footnotes {
+  border-top: 1px solid #BBB;
+  border-bottom: 1px solid #BBB;
+  margin: 25px 0 0 0;
+  padding: 15px 15px 10px 25px;
+  font-size: 14px;
+  list-style-type: none;
+  color: #444;
+}
+.layout--indicator .page__content .footnotes li p:first-of-type {
+  margin-top: 0;
+  padding-top: 0;
+}
+.layout--indicator .page__content .footnote-number {
+  float: left;
+  margin-right: 5px;
+  margin-left: -11px;
+}

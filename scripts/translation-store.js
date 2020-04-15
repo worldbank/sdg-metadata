@@ -1,14 +1,76 @@
 const fs = require('fs')
 const os = require('os')
 const path = require('path')
-const gettextParser = require('gettext-parser')
-const { conceptStore } = require('sdg-metadata-convert')
+const { conceptStore, GettextInput } = require('sdg-metadata-convert')
 
 const baseFolder = 'translations'
 const sourceLanguage = 'en'
 const sourceLanguageFolder = 'templates'
 
 let translationStore = buildTranslationStore()
+
+/**
+ * Get an array of the fields in the order of the pre-2020 IAEG metadata.
+ */
+function getIaegFields() {
+    return [
+        'SDG_INDICATOR_INFO',
+        'SDG_GOAL',
+        'SDG_TARGET',
+        'SDG_INDICATOR',
+        'SDG_SERIES_DESCR',
+        'SDG_CUSTODIAN_AGENCIES',
+        'CONTACT',
+        'CONTACT_ORGANISATION',
+        'CONTACT_NAME',
+        'ORGANISATION_UNIT',
+        'CONTACT_FUNCT',
+        'CONTACT_PHONE',
+        'CONTACT_MAIL',
+        'CONTACT_EMAIL',
+        'IND_DEF_CON_CLASS',
+        'STAT_CONC_DEF',
+        'UNIT_MEASURE',
+        'CLASS_SYSTEM',
+        'OTHER_METHOD',
+        'RATIONALE',
+        'REC_USE_LIM',
+        'DATA_COMP',
+        'DATA_VALIDATION',
+        'ADJUSTMENT',
+        'IMPUTATION',
+        'REG_AGG',
+        'COMPARABILITY',
+        'DOC_METHOD',
+        'QUALITY_MGMNT',
+        'QUALITY_ASSURE',
+        'QUALITY_ASSMNT',
+        'SDG_QA_CONSULT',
+        'SRC_TYPE_COLL_METHOD',
+        'SOURCE_TYPE',
+        'COLL_METHOD',
+        'COVERAGE',
+        'FREQ_COLL',
+        'REL_CAL_POLICY',
+        'DATA_SOURCE',
+        'COMPILING_ORG',
+        'INST_MANDATE',
+        'OTHER_DOC',
+        'SDG_RELATED_INDICATORS',
+    ]
+}
+
+/**
+ * Get an array of fields in particular order.
+ *
+ * @param {String} order
+ *   Description of the particular order to use. Possible values are:
+ *     - default: The post-2020 UNSD order
+ *     - iaeg: The pre-2020 IAEG order
+ */
+function getFields(order='default') {
+    return (order === 'iaeg') ? getIaegFields() : conceptStore.getConceptIds()
+}
 
 /**
  * Make sure an indicator ID is dash-delimited.
@@ -66,22 +128,15 @@ function translateField(indicatorId, field, language) {
  *   the indicator ID, such as '1-1-1' or '1.1.1' (dashes or dots is fine)
  * @param {String} language
  *   the language code, such as 'ru'
+ * @param {String} order
+ *   parameter passed on to getFields()
  * @returns {String}
  *   the translation of all the metadata for the specified indicator
  */
-function translateAllFields(indicatorId, language) {
+function translateAllFields(indicatorId, language, order='default') {
     indicatorId = normalizeIndicatorId(indicatorId)
-    const omitFromFull = [
-        'META_PAGE',
-        'META_LAST_UPDATE',
-        'LANGUAGE',
-        'TRANS_SOURCE',
-    ]
     let output = ''
-    for (const field of conceptStore.getConceptIds()) {
-        if (omitFromFull.includes(field)) {
-            continue
-        }
+    for (const field of getFields(order)) {
         output += translateField(indicatorId, field, language)
         output += os.EOL + os.EOL
     }
@@ -116,23 +171,9 @@ function buildTranslationStore() {
 
         const files = fs.readdirSync(sourceFolder)
         for (const file of files) {
+            const indicatorId = normalizeIndicatorId(file.split('.')[0])
             const filePath = path.join(sourceFolder, file)
-            const po = fs.readFileSync(filePath, { encoding: 'utf-8' })
-            const parsed = gettextParser.po.parse(po)
-            const group = normalizeIndicatorId(file.split('.')[0])
-            if (!group) {
-                continue
-            }
-            translations[language][group] = {}
-
-            // Remove headers.
-            delete parsed.translations['']
-
-            for (const id of Object.keys(parsed.translations)) {
-                const source = Object.keys(parsed.translations[id])[0]
-                const target = language === 'en' ? source : parsed.translations[id][source]['msgstr'][0]
-                translations[language][group][id] = target
-            }
+            translations[language][indicatorId] = new GettextInput(filePath).getMetadata()
         }
     }
 
@@ -167,6 +208,8 @@ function refresh() {
 module.exports = {
     normalizeIndicatorId,
     getLanguages,
+    getFields,
+    getIaegFields,
     getIndicatorIds,
     getTranslationStore,
     translateField,
