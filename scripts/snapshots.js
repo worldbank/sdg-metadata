@@ -26,7 +26,7 @@ git.branch((err, branchSummary) => {
                     throw err
                 }
 
-                exec('cd ' + branch + ' && make build', (err, stdout, stderr) => {
+                exec('cd ' + branch + ' && make install && make build', (err, stdout, stderr) => {
                     if (err) {
                         console.error(err)
                     }
