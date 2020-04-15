@@ -17,7 +17,7 @@ build.site:
 	node scripts/prepare-build.js site
 	cd www && bundle exec jekyll build
 
-build: build.api build.site
+build: build.documents build.api build.site
 
 publish: snapshots build
 
