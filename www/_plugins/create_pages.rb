@@ -53,7 +53,7 @@ module SdgMetadataPlugins
           # This provides some data for the benefit of the Minimal Mistakes theme.
           data['sidebar'] = [
             {
-              'title' => 'Fields',
+              'title' => 'SDMX Metadata Concepts',
               'text' => toc
             }
           ]
