@@ -18,7 +18,7 @@ module.exports = function(refresh=false) {
         const sourceExtension = (language === 'en') ? '.pot' : '.po'
         const sourceFolder = path.join('translations', sourceLangFolder)
         const files = fs.readdirSync(sourceFolder).filter(file => {
-            return path.extname(file).toLowerCase() === sourceExtension;
+            return path.extname(file).toLowerCase() === sourceExtension
         })
         for (const sourceFile of files) {
             const sourcePath = path.join(sourceFolder, sourceFile)
