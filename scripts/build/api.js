@@ -5,24 +5,13 @@ module.exports = function(refresh=false) {
     const builder = require('xmlbuilder')
     const jsontoxml = require('jsontoxml')
     const store = require('../translation-store')
+    const utils = require('./utils')
 
     if (refresh) {
         store.refresh()
     }
 
     const destinationFolder = 'www'
-
-    // Create folders from an array of parts. Returns the path of the folder.
-    function createFolder(folderParts) {
-        let folder = '.'
-        for (const part of folderParts) {
-            folder = folder + path.sep + part
-            if (!fs.existsSync(folder)) {
-                fs.mkdirSync(folder);
-            }
-        }
-        return folderParts.join(path.sep)
-    }
 
     // Write data to a json file.
     function writeJson(fileName, data, folderParts, message) {
@@ -33,7 +22,7 @@ module.exports = function(refresh=false) {
         }
         folderParts.unshift('api')
         folderParts.unshift(destinationFolder)
-        const folderPath = createFolder(folderParts)
+        const folderPath = utils.createFolder(folderParts)
         const filePath = path.join(folderPath, fileName + '.json')
         fs.writeFileSync(filePath, JSON.stringify(payload), 'utf8')
     }
@@ -49,7 +38,7 @@ module.exports = function(refresh=false) {
         }
         folderParts.unshift('api')
         folderParts.unshift(destinationFolder)
-        const folderPath = createFolder(folderParts)
+        const folderPath = utils.createFolder(folderParts)
         const filePath = path.join(folderPath, fileName + '.xml')
         fs.writeFileSync(filePath, jsontoxml(payload, {
             escape: true,
@@ -82,7 +71,7 @@ module.exports = function(refresh=false) {
     // Path: /api/[indicator id]/fields.json
     // An array of field names for that indicator.
     for (const indicatorId of indicatorIds) {
-        const fields = store.getFields(indicatorId)
+        const fields = store.getFields()
         if (!fields) {
             continue
         }
@@ -136,7 +125,7 @@ module.exports = function(refresh=false) {
     // Path: /api/[indicator id]/[field].json
     // A json object, translations for each language
     for (const indicatorId of indicatorIds) {
-        for (const field of store.getFields(indicatorId)) {
+        for (const field of store.getFields()) {
             const translationsForField = {}
             for (const language of languages) {
                 translationsForField[language] = store.translateField(indicatorId, field, language)
@@ -158,7 +147,7 @@ module.exports = function(refresh=false) {
     // Path: /api/[indicator id]/[field]/[language].json
     // Translation of field in that language
     for (const indicatorId of indicatorIds) {
-        for (const field of store.getFields(indicatorId)) {
+        for (const field of store.getFields()) {
             for (const language of languages) {
                 const translation = store.translateField(indicatorId, field, language)
                 fileName = language
@@ -204,7 +193,7 @@ module.exports = function(refresh=false) {
         const indicator = indicators.ele('indicator', { id: indicatorId })
         const fields = indicator.ele('fields')
 
-        for (const fieldName of store.getFields(indicatorId)) {
+        for (const fieldName of store.getFields()) {
 
             const field = fields.ele('field', { id: fieldName })
             const translationsEle = field.ele('translations')
