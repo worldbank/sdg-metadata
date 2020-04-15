@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<status>success</status>
+	<message>The DATA_COMP field for indicator 4-1-1a, translated into all languages</message>
+	<data>
+		<languages>
+			<language lang="ru"/>
+			<language lang="en">&lt;p&gt;Methodology&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Computation method:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;The number of children and/or young people at the relevant stage of education n in year t achieving at least the pre-defined proficiency level in subject s expressed as a percentage of the number of children and/or young people at stage of education n, in year t, in any proficiency level in subject s.&lt;/p&gt;
+&lt;p&gt;MPL&lt;sub&gt;t,n,s,&lt;/sub&gt; = MP&lt;sub&gt;t,n,s&lt;/sub&gt; / P&lt;sub&gt;t,n&lt;/sub&gt;&lt;/p&gt;
+&lt;p&gt;where: &lt;/p&gt;
+&lt;p&gt;MP&lt;sub&gt;t,n,s&lt;/sub&gt; = the number of children and young people at stage of education n, in year t, who have achieved at least the minimum proficiency level in subject s. &lt;/p&gt;
+&lt;p&gt;P&lt;sub&gt;t,n &lt;/sub&gt;= the number of children and young people at stage of education n, in year t, in any proficiency level in subject s.&lt;/p&gt;
+&lt;p&gt;n = the stage of education that was assessed&lt;/p&gt;
+&lt;p&gt;s = the subject that was assessed (reading or mathematics).&lt;/p&gt;
+			</language>
+</languages>
+</data>
+</root>
