@@ -135,12 +135,7 @@ function translateField(indicatorId, field, language) {
  */
 function translateAllFields(indicatorId, language, order='default') {
     indicatorId = normalizeIndicatorId(indicatorId)
-    let output = ''
-    for (const field of getFields(order)) {
-        output += translateField(indicatorId, field, language)
-        output += os.EOL + os.EOL
-    }
-    return output
+    return getFields(order).map(field => translateField(indicatorId, field, language)).join('')
 }
 
 /**
@@ -167,9 +162,12 @@ function buildTranslationStore() {
 
         const sourceFolder = path.join(baseFolder, languageFolder)
         const language = (languageFolder === sourceLanguageFolder) ? sourceLanguage : languageFolder
+        const extension = (languageFolder === sourceLanguageFolder) ? '.pot' : 'po'
         translations[language] = {}
 
-        const files = fs.readdirSync(sourceFolder)
+        const files = fs.readdirSync(sourceFolder).filter(file => {
+            return path.extname(file).toLowerCase() === extension
+        })
         for (const file of files) {
             const indicatorId = normalizeIndicatorId(file.split('.')[0])
             const filePath = path.join(sourceFolder, file)
@@ -180,14 +178,11 @@ function buildTranslationStore() {
     // Make sure that missing translations at least have empty strings.
     const sourceStrings = translations[sourceLanguage]
     for (const language of Object.keys(translations)) {
-        if (language == sourceLanguage) {
-            continue
-        }
         for (const group of Object.keys(sourceStrings)) {
             if (!(group in translations[language])) {
                 translations[language][group] = {}
             }
-            for (const id of Object.keys(sourceStrings[group])) {
+            for (const id of getFields()) {
                 if (!(id in translations[language][group])) {
                     translations[language][group][id] = ''
                 }

@@ -6,11 +6,13 @@ module SdgMetadataPlugins
     priority :normal
 
     def get_field_content(content, field_id, field_name)
-      if content != '' && content != nil
-        return "<div id='" + field_id + "'>" + content + "</div>"
-      else
-        return "\n\n**" + field_name + " (" + field_id + ") is not yet translated.**"
+      prefix = '<div id="' + field_id + '">'
+      inner = content
+      if content == '' || content == nil
+        inner = '<p>' + field_name + ' (' + field_id + ') is not yet translated.</p>'
       end
+      suffix = '</div>'
+      return prefix + inner + suffix
     end
 
     # Make any goal/target/indicator number suitable for use in sorting.
