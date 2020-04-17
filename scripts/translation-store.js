@@ -45,7 +45,6 @@ function getIaegFields() {
         'QUALITY_MGMNT',
         'QUALITY_ASSURE',
         'QUALITY_ASSMNT',
-        'SDG_QA_CONSULT',
         'SRC_TYPE_COLL_METHOD',
         'SOURCE_TYPE',
         'COLL_METHOD',
