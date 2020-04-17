@@ -26,12 +26,20 @@ git.branch((err, branchSummary) => {
                     throw err
                 }
 
+                // Manually turn on the testing banner and override the baseurl.
+                const subfolder = branch.replace(prefix, '')
+                const baseUrl = '/sdg-metadata/' + subfolder
+                const configPath = path.join(branch, 'www', '_config.yml')
+                let config = fs.readFileSync(configPath, 'utf8')
+                config = config + '\n\nbaseurl: ' + baseUrl
+                config = config + '\n\ntest_banner: true\n'
+                fs.writeFileSync(configPath, config, 'utf8')
+
                 exec('cd ' + branch + ' && make install && make build', (err, stdout, stderr) => {
                     if (err) {
                         console.error(err)
                     }
                     else {
-                        const subfolder = branch.replace(prefix, '')
                         const source = path.join(branch, 'www', '_site')
                         const destination = path.join('www', subfolder)
                         fs.rename(source, destination, function (err) {

@@ -1,4 +1,12 @@
 <div class="test-banner">
-  This is an archived snapshot of this project. For current progress see the
-  <a href="/sdg-metadata/">latest version</a>.
+  {% if site.baseurl == '/sdg-metadata/pilot' %}
+    This is an archive of the pilot study. For current project materials, see the
+    <a href="/sdg-metadata/">latest version</a>.
+  {% elsif site.baseurl == '/sdg-metadata/preview' %}
+    This is a preview of study updates. For current project materials, see the
+    <a href="/sdg-metadata/">latest version</a>.
+  {% else %}
+    This is a snapshot for testing purposes. For current project materials, see the
+    <a href="/sdg-metadata/">latest version</a>.
+  {% endif %}
 </div>
