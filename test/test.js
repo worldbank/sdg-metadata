@@ -26,14 +26,14 @@ describe('getFields("1-2-1")', function() {
     })
 })
 
-describe('translateField("1-2-1", "META_LAST_UPDATE", "ru")', function() {
+describe('translateField("1-2-1", "META_LAST_UPDATE", "en")', function() {
     it('should return more than 5 characters', function() {
-        expect(store.translateField('1-2-1', 'META_LAST_UPDATE', 'ru').length).to.be.above(5)
+        expect(store.translateField('1-2-1', 'META_LAST_UPDATE', 'en').length).to.be.above(5)
     })
 })
 
-describe('translateAllFields("1-2-1", "ru")', function() {
+describe('translateAllFields("1-2-1", "en")', function() {
     it('should return more than 1000 characters', function() {
-        expect(store.translateAllFields('1-2-1', 'ru').length).to.be.above(1000)
+        expect(store.translateAllFields('1-2-1', 'en').length).to.be.above(1000)
     })
 })
