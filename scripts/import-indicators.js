@@ -2,7 +2,7 @@ const path = require('path')
 const fs = require('fs')
 
 const sdgMetadataConvert = require('sdg-metadata-convert')
-const wordTemplateInput = new sdgMetadataConvert.WordTemplateInput()
+const wordTemplateInput = new sdgMetadataConvert.WordTemplateInput({debug:true})
 const gettextOutput = new sdgMetadataConvert.GettextOutput()
 
 const sourceFolder = 'indicators'
