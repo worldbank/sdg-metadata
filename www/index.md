@@ -8,14 +8,16 @@ The purpose of this project is to translate metadata for Sustainable Development
 
 In January-March 2020, a [pilot](/sdg-metadata/pilot/) was conducted as the result of a collaboration by the World Bank Group under the ECASTAT Trust Fund in coordination with UNECE and ROSSTAT. The pilot produced Russian translations of selected SDG metadata with an estimated reduction of translation time of 35%. The pilot also provided a detailed protocol that could be replicated in other languages for other translation needs.
 
-The current project reflects updated SDG SDMX metadata concepts as approved by the SDG SDMX Working Group of the IAEG-SDG. It also applies simplified code to recently updated SDG metadata files for greater ease of use.
+The initial pilot materials were updated to reflect SDG SDMX metadata concepts as approved by the SDG SDMX Working Group of the IAEG-SDG. They also reflect simplified code to recently updated SDG metadata files for greater ease of use.  
+
+The main study has not yet launched pending necessary approvals.
 
 * [Introduction to the SDG Metadata Translation Project](https://docs.google.com/presentation/d/1v3tKfPeldopX8uD3d97RC7HyK0RSJF3QQdHQLTKjUjo)
 * Project documentation
-* [Main Study Instructions for Human Translator](https://docs.google.com/document/d/1Msu8aOVTItkdFIhN6O0snmKRX1wrD7iaW818ssZncXA)
-* Quick-start guide (to come)
+* [Instructions for Human Translator](https://docs.google.com/document/d/1Msu8aOVTItkdFIhN6O0snmKRX1wrD7iaW818ssZncXA)
+* Quick-start guide
 * [Metadata]({{ site.baseurl }}/metadata/)
-* Notes for Developers
+* Notes for developers
 * Preview of planned updates
 
 For more information about the project, please email contact@odenterprise.org.
