@@ -1,15 +1,75 @@
 const fs = require('fs')
 const os = require('os')
 const path = require('path')
-const YAML = require('yaml')
-const gettextParser = require('gettext-parser')
+const { conceptStore, GettextInput } = require('sdg-metadata-convert')
 
 const baseFolder = 'translations'
 const sourceLanguage = 'en'
 const sourceLanguageFolder = 'templates'
 
 let translationStore = buildTranslationStore()
-let fieldOrders = buildFieldOrders()
+
+/**
+ * Get an array of the fields in the order of the pre-2020 IAEG metadata.
+ */
+function getIaegFields() {
+    return [
+        'SDG_INDICATOR_INFO',
+        'SDG_GOAL',
+        'SDG_TARGET',
+        'SDG_INDICATOR',
+        'SDG_SERIES_DESCR',
+        'SDG_CUSTODIAN_AGENCIES',
+        'CONTACT',
+        'CONTACT_ORGANISATION',
+        'CONTACT_NAME',
+        'ORGANISATION_UNIT',
+        'CONTACT_FUNCT',
+        'CONTACT_PHONE',
+        'CONTACT_MAIL',
+        'CONTACT_EMAIL',
+        'IND_DEF_CON_CLASS',
+        'STAT_CONC_DEF',
+        'UNIT_MEASURE',
+        'CLASS_SYSTEM',
+        'OTHER_METHOD',
+        'RATIONALE',
+        'REC_USE_LIM',
+        'DATA_COMP',
+        'DATA_VALIDATION',
+        'ADJUSTMENT',
+        'IMPUTATION',
+        'REG_AGG',
+        'COMPARABILITY',
+        'DOC_METHOD',
+        'QUALITY_MGMNT',
+        'QUALITY_ASSURE',
+        'QUALITY_ASSMNT',
+        'SRC_TYPE_COLL_METHOD',
+        'SOURCE_TYPE',
+        'COLL_METHOD',
+        'COVERAGE',
+        'FREQ_COLL',
+        'REL_CAL_POLICY',
+        'DATA_SOURCE',
+        'COMPILING_ORG',
+        'INST_MANDATE',
+        'OTHER_DOC',
+        'SDG_RELATED_INDICATORS',
+    ]
+}
+
+/**
+ * Get an array of fields in particular order.
+ *
+ * @param {String} order
+ *   Description of the particular order to use. Possible values are:
+ *     - default: The post-2020 UNSD order
+ *     - iaeg: The pre-2020 IAEG order
+ */
+function getFields(order='default') {
+    return (order === 'iaeg') ? getIaegFields() : conceptStore.getConceptIds()
+}
 
 /**
  * Make sure an indicator ID is dash-delimited.
@@ -44,17 +104,6 @@ function getIndicatorIds() {
 }
 
 /**
- * Get an array of all the fields in an indicator.
- *
- * @param {String} indicatorId
- *   the indicator ID, such as '1-1-1' or '1.1.1' (dashes or dots is fine)
- */
-function getFields(indicatorId) {
-    indicatorId = normalizeIndicatorId(indicatorId)
-    return fieldOrders[indicatorId]
-}
-
-/**
  * Get a translation of a particular metadata field.
  *
  * @param {String} indicatorId
@@ -78,26 +127,14 @@ function translateField(indicatorId, field, language) {
  *   the indicator ID, such as '1-1-1' or '1.1.1' (dashes or dots is fine)
  * @param {String} language
  *   the language code, such as 'ru'
+ * @param {String} order
+ *   parameter passed on to getFields()
  * @returns {String}
  *   the translation of all the metadata for the specified indicator
  */
-function translateAllFields(indicatorId, language) {
+function translateAllFields(indicatorId, language, order='default') {
     indicatorId = normalizeIndicatorId(indicatorId)
-    const omitFromFull = [
-        'META_PAGE',
-        'META_LAST_UPDATE',
-        'LANGUAGE',
-        'TRANS_SOURCE',
-    ]
-    let output = ''
-    for (const field of getFields(indicatorId)) {
-        if (omitFromFull.includes(field)) {
-            continue
-        }
-        output += translateField(indicatorId, field, language)
-        output += os.EOL + os.EOL
-    }
-    return output
+    return getFields(order).map(field => translateField(indicatorId, field, language)).join('')
 }
 
 /**
@@ -111,28 +148,6 @@ function getTranslationStore() {
 }
 
 /**
- * Return the hardcoded orders of fields per indicator.
- *
- * @returns {Object}
- *   An object with indicator IDs keyed to lists of fields
- */
-function getFieldOrders() {
-    return fieldOrders
-}
-
-/**
- * Build our hardcoded orders of fields per indicator. Internal only.
- *
- * @returns {Object}
- *   An object with indicator IDs keyed to lists of fields
- */
-function buildFieldOrders() {
-    return YAML.parse(fs.readFileSync(path.join('scripts', 'field-order.yml'), {
-        encoding: 'utf-8'
-    }))
-}
-
-/**
  * Parse the translation files and construct the data structure. Internal only.
  *
  * @returns {Object}
@@ -140,44 +155,34 @@ function buildFieldOrders() {
  */
 function buildTranslationStore() {
     const translations = {}
+    const gettextInput = new GettextInput()
 
     // Construct an object with all the individual translations of fields.
     for (const languageFolder of fs.readdirSync(baseFolder)) {
 
         const sourceFolder = path.join(baseFolder, languageFolder)
         const language = (languageFolder === sourceLanguageFolder) ? sourceLanguage : languageFolder
+        const extension = (languageFolder === sourceLanguageFolder) ? '.pot' : 'po'
         translations[language] = {}
 
-        const files = fs.readdirSync(sourceFolder)
+        const files = fs.readdirSync(sourceFolder).filter(file => {
+            return path.extname(file).toLowerCase() === extension
+        })
         for (const file of files) {
+            const indicatorId = normalizeIndicatorId(file.split('.')[0])
             const filePath = path.join(sourceFolder, file)
-            const po = fs.readFileSync(filePath, { encoding: 'utf-8' })
-            const parsed = gettextParser.po.parse(po)
-            const group = normalizeIndicatorId(file.split('.')[0])
-            translations[language][group] = {}
-
-            // Remove headers.
-            delete parsed.translations['']
-
-            for (const id of Object.keys(parsed.translations)) {
-                const source = Object.keys(parsed.translations[id])[0]
-                const target = language === 'en' ? source : parsed.translations[id][source]['msgstr'][0]
-                translations[language][group][id] = target
-            }
+            translations[language][indicatorId] = gettextInput.readSync(filePath)
         }
     }
 
     // Make sure that missing translations at least have empty strings.
     const sourceStrings = translations[sourceLanguage]
     for (const language of Object.keys(translations)) {
-        if (language == sourceLanguage) {
-            continue
-        }
         for (const group of Object.keys(sourceStrings)) {
             if (!(group in translations[language])) {
                 translations[language][group] = {}
             }
-            for (const id of Object.keys(sourceStrings[group])) {
+            for (const id of getFields()) {
                 if (!(id in translations[language][group])) {
                     translations[language][group][id] = ''
                 }
@@ -193,15 +198,14 @@ function buildTranslationStore() {
  */
 function refresh() {
     translationStore = buildTranslationStore()
-    fieldOrders = buildFieldOrders()
 }
 
 module.exports = {
     normalizeIndicatorId,
     getLanguages,
-    getIndicatorIds,
     getFields,
-    getFieldOrders,
+    getIaegFields,
+    getIndicatorIds,
     getTranslationStore,
     translateField,
     translateAllFields,
