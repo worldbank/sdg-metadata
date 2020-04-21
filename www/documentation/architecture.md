@@ -116,6 +116,13 @@ jsPlumb.ready(function () {
     target: 'output',
     overlays: connectorArrow(),
   });
+  jsPlumb.connect({
+    source: 'output',
+    target: 'authoring-tool',
+    anchors: ['Right', 'Right'],
+    connector: 'Flowchart',
+    overlays: connectorTip('If changes are needed, authors can make edits in the authoring tool to start the process again with a new version.'),
+  });
   window.addEventListener('resize', function() {
     jsPlumb.repaintEverything();
   });
