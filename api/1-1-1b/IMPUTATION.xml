@@ -4,15 +4,12 @@
 	<message>The IMPUTATION field for indicator 1-1-1b, translated into all languages</message>
 	<data>
 		<languages>
-			<language lang="ru">## Обработка отсутствующих значений
-
-* **На страновом уровне**
-* **На региональном и глобальном уровнях**
-			</language>
-			<language lang="en">## Treatment of missing values
-
-* **At country level**
-* **At the regional and global levels**
+			<language lang="ru"/>
+			<language lang="en">&lt;h2&gt;Treatment of missing values:&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;At country level&lt;/li&gt;
+  &lt;li&gt;At regional and global levels&lt;/li&gt;
+&lt;/ul&gt;
 			</language>
 </languages>
 </data>

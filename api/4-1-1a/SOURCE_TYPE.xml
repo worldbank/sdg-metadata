@@ -5,116 +5,110 @@
 	<data>
 		<languages>
 			<language lang="ru"/>
-			<language lang="en"># Data sources
-
-## Description
-Type of data sources: In school and population-based learning assessments.
-
-### Table 2. How interim reporting is structured?
-
+			<language lang="en">&lt;h1&gt;Data sources&lt;/h1&gt;
+&lt;h2&gt;Description:&lt;/h2&gt;
+&lt;p&gt;Type of data sources: In school and population-based learning assessments.&lt;/p&gt;
+&lt;h2&gt;Table 2. How interim reporting is structured?&lt;/h2&gt;
 &lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th rowspan=&quot;2&quot;&gt;
-        &amp;nbsp;
-      &lt;/th&gt;
-      &lt;th colspan=&quot;2&quot;&gt;
-        In-school based
-      &lt;/th&gt;
-      &lt;th rowspan=&quot;2&quot;&gt;
-        Household Based Surveys
-      &lt;/th&gt;
-      &lt;th rowspan=&quot;2&quot;&gt;
-        Grade
-      &lt;/th&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;th&gt;
-        Cross-national
-      &lt;/th&gt;
-      &lt;th&gt;
-        National
-      &lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
   &lt;tbody&gt;
     &lt;tr&gt;
+      &lt;td rowspan=&quot;2&quot;&gt;
+        &lt;p&gt;&amp;#xA0;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td colspan=&quot;2&quot;&gt;
+        &lt;p&gt;&lt;strong&gt;In-school based&lt;/strong&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td rowspan=&quot;2&quot;&gt;
+        &lt;p&gt;&lt;strong&gt;Household Based Surveys&lt;/strong&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td rowspan=&quot;2&quot;&gt;
+        &lt;p&gt;&lt;strong&gt;Grade&lt;/strong&gt;&lt;/p&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;
+        &lt;p&gt;&lt;strong&gt;Cross-national&lt;/strong&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td&gt;
+        &lt;p&gt;&lt;strong&gt;National &lt;/strong&gt;&lt;/p&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
       &lt;td rowspan=&quot;5&quot;&gt;
-        &lt;strong&gt;2/3 Grade&lt;/strong&gt;
+        &lt;p&gt;&lt;strong&gt;2/3 Grade&lt;/strong&gt;&lt;/p&gt;
       &lt;/td&gt;
       &lt;td&gt;
-        LLECE
+        &lt;p&gt;LLECE&lt;/p&gt;
       &lt;/td&gt;
       &lt;td rowspan=&quot;5&quot;&gt;
-        Yes
+        &lt;p&gt;Yes&lt;/p&gt;
       &lt;/td&gt;
       &lt;td&gt;
-        MICS6
+        &lt;p&gt;MICS6&lt;/p&gt;
       &lt;/td&gt;
       &lt;td rowspan=&quot;5&quot;&gt;
-        2/3 plus one year when primary lasts more than 4 years according to ISCED level of the country
+        &lt;p&gt;2/3 plus one year when primary lasts more than 4 years according to ISCED level of the country&lt;/p&gt;
       &lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td&gt;
-        PASEC
+        &lt;p&gt;PASEC&lt;/p&gt;
       &lt;/td&gt;
       &lt;td&gt;
-        &amp;nbsp;
-      &lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;
-        TIMSS&amp;nbsp;
-      &lt;/td&gt;
-      &lt;td&gt;
-        PAL network
+        &lt;p&gt;&amp;#xA0;&lt;/p&gt;
       &lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td&gt;
-        PIRLS&amp;nbsp;
+        &lt;p&gt;TIMSS &lt;/p&gt;
       &lt;/td&gt;
       &lt;td&gt;
-        &amp;nbsp;
-      &lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;
-        EGRA/EGMA
-      &lt;/td&gt;
-      &lt;td&gt;
-        &amp;nbsp;
+        &lt;p&gt;PAL network&lt;/p&gt;
       &lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td&gt;
-        &lt;strong&gt;Definition of minimum level until 2018 release&lt;/strong&gt;
+        &lt;p&gt;PIRLS &lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td&gt;
+        &lt;p&gt;&amp;#xA0;&lt;/p&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;
+        &lt;p&gt;EGRA/EGMA&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td&gt;
+        &lt;p&gt;&amp;#xA0;&lt;/p&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;
+        &lt;p&gt;&lt;strong&gt;Definition of minimum level until 2018 release&lt;/strong&gt;&lt;/p&gt;
       &lt;/td&gt;
       &lt;td colspan=&quot;4&quot;&gt;
-        The ones defined by each assessment by point of measurement and domain
+        &lt;p&gt;The ones defined by each assessment by point of measurement and domain &lt;/p&gt;
       &lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td&gt;
-        &lt;strong&gt;Definition of minimum level from 2019&amp;nbsp;&lt;/strong&gt;
+        &lt;p&gt;&lt;strong&gt;Definition of minimum level from 2019 &lt;/strong&gt;&lt;/p&gt;
       &lt;/td&gt;
       &lt;td colspan=&quot;4&quot;&gt;
-        According to alignment as adopted by GAML and TCG in September of 2018
+        &lt;p&gt;According to alignment as adopted by GAML and TCG in September of 2018&lt;/p&gt;
       &lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td&gt;
-        &lt;strong&gt;Validation&amp;nbsp;&lt;/strong&gt;
+        &lt;p&gt;&lt;strong&gt;Validation &lt;/strong&gt;&lt;/p&gt;
       &lt;/td&gt;
       &lt;td colspan=&quot;4&quot;&gt;
-        Sent from UIS for countries&apos; approval
+        &lt;p&gt;Sent from UIS for countries&amp;#x2019; approval&lt;/p&gt;
       &lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
-
-Notes: TIMSS/PIRLS Grade 4: these results are allocated to the end of primary when, according to the ISCED levels in a given country, there are 4 grades in primary. When primary has more than 4 grades, they are allocated to grade 2/3. (Source: UIS)
+&lt;p&gt;Notes: TIMSS/PIRLS Grade 4: these results are allocated to the end of primary when, according to the ISCED levels in a given country, there are 4 grades in primary. When primary has more than 4 grades, they are allocated to grade 2/3. (Source: UIS)&lt;/p&gt;
 			</language>
 </languages>
 </data>
