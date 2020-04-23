@@ -13,7 +13,7 @@ subtitle                 : Machine Translation of Indicator Metadata for the Sus
 description              : Machine Translation of Indicator Metadata for the Sustainable Development Goals
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : /sdg-metadata
-repository               : OpenDataEnterprise/sdg-metadata
+repository               : worldbank/sdg-metadata
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 
@@ -29,7 +29,7 @@ footer:
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: https://github.com/OpenDataEnterprise/sdg-metadata
+      url: https://github.com/worldbank/sdg-metadata
 
 encoding: "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
