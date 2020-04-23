@@ -6990,6 +6990,708 @@
       </field>
     </fields>
   </indicator>
+  <indicator id="6-4-1">
+    <fields>
+      <field id="SDG_INDICATOR_INFO">
+        <translations>
+          <translation lang="ru"/>
+          <translation lang="en"/>
+        </translations>
+      </field>
+      <field id="SDG_GOAL">
+        <translations>
+          <translation lang="ru"/>
+          <translation lang="en">&lt;p&gt;Goal 6: Ensure availability and sustainable management of water and sanitation for all&lt;/p&gt;</translation>
+        </translations>
+      </field>
+      <field id="SDG_TARGET">
+        <translations>
+          <translation lang="ru"/>
+          <translation lang="en">&lt;p&gt;Target 6.4: By 2030, substantially increase water-use efficiency across all sectors and ensure sustainable withdrawals and supply of freshwater to address water scarcity and substantially reduce the number of people suffering from water scarcity&lt;/p&gt;</translation>
+        </translations>
+      </field>
+      <field id="SDG_INDICATOR">
+        <translations>
+          <translation lang="ru"/>
+          <translation lang="en">&lt;p&gt;Indicator 6.4.1: Change in water-use efficiency over time&lt;/p&gt;</translation>
+        </translations>
+      </field>
+      <field id="SDG_SERIES_DESCR">
+        <translations>
+          <translation lang="ru"/>
+          <translation lang="en"/>
+        </translations>
+      </field>
+      <field id="META_LAST_UPDATE">
+        <translations>
+          <translation lang="ru"/>
+          <translation lang="en">&lt;p&gt;Last updated: 13 March 2019&lt;/p&gt;</translation>
+        </translations>
+      </field>
+      <field id="SDG_RELATED_INDICATORS">
+        <translations>
+          <translation lang="ru"/>
+          <translation lang="en">&lt;h1&gt;Related indicators&lt;/h1&gt;
+&lt;p&gt;This indicator needs to be combined with the water stress indicator 6.4.2 to provide adequate follow-up of the target 6.4.&lt;/p&gt;
+&lt;p&gt;Other indicators, specifically those for Targets 1.1, 1.2, 2.1, 2.2, 5.4, 5.a, 6.1, 6.2, 6.3, 6.5 will complement the information provided by this indicator.&lt;/p&gt;</translation>
+        </translations>
+      </field>
+      <field id="SDG_CUSTODIAN_AGENCIES">
+        <translations>
+          <translation lang="ru"/>
+          <translation lang="en">&lt;h1&gt;Institutional information&lt;/h1&gt;
+&lt;h2&gt;Organization(s):&lt;/h2&gt;
+&lt;p&gt;Food and Agriculture Organization of the United Nations (FAO)&lt;/p&gt;</translation>
+        </translations>
+      </field>
+      <field id="CONTACT">
+        <translations>
+          <translation lang="ru"/>
+          <translation lang="en"/>
+        </translations>
+      </field>
+      <field id="CONTACT_ORGANISATION">
+        <translations>
+          <translation lang="ru"/>
+          <translation lang="en"/>
+        </translations>
+      </field>
+      <field id="CONTACT_NAME">
+        <translations>
+          <translation lang="ru"/>
+          <translation lang="en"/>
+        </translations>
+      </field>
+      <field id="ORGANISATION_UNIT">
+        <translations>
+          <translation lang="ru"/>
+          <translation lang="en"/>
+        </translations>
+      </field>
+      <field id="CONTACT_FUNCT">
+        <translations>
+          <translation lang="ru"/>
+          <translation lang="en"/>
+        </translations>
+      </field>
+      <field id="CONTACT_PHONE">
+        <translations>
+          <translation lang="ru"/>
+          <translation lang="en"/>
+        </translations>
+      </field>
+      <field id="CONTACT_MAIL">
+        <translations>
+          <translation lang="ru"/>
+          <translation lang="en"/>
+        </translations>
+      </field>
+      <field id="CONTACT_EMAIL">
+        <translations>
+          <translation lang="ru"/>
+          <translation lang="en"/>
+        </translations>
+      </field>
+      <field id="IND_DEF_CON_CLASS">
+        <translations>
+          <translation lang="ru"/>
+          <translation lang="en"/>
+        </translations>
+      </field>
+      <field id="STAT_CONC_DEF">
+        <translations>
+          <translation lang="ru"/>
+          <translation lang="en">&lt;h1&gt;Concepts and definitions&lt;/h1&gt;
+&lt;h2&gt;Definition:&lt;/h2&gt;
+&lt;p&gt;The change in water use efficiency over time (CWUE). The change in the ratio of the value added to the volume of water use, over time.&lt;/p&gt;
+&lt;p&gt;Water Use Efficiency (WUE) is defined as the value added of a given major sector&lt;sup&gt;&lt;a href="#footnote-1" id="footnote-ref-1"&gt;[1]&lt;/a&gt;&lt;/sup&gt; divided by the volume of water used. Following ISIC 4 coding, sectors are defined as:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;agriculture; forestry; fishing (ISIC A), hereinafter &amp;#x201C;agriculture&amp;#x201D;;&lt;/li&gt;
+  &lt;li&gt;mining and quarrying; manufacturing; electricity, gas, steam and air conditioning supply; constructions (ISIC B, C, D and F), hereinafter &amp;#x201C;MIMEC&amp;#x201D;;&lt;/li&gt;
+  &lt;li&gt;all the service sectors (ISIC E and ISIC G-T), hereinafter &amp;#x201C;services&amp;#x201D;.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;The unit of the indicator is expressed in Value/Volume, commonly USD/m&lt;sup&gt;3&lt;/sup&gt;.&lt;/p&gt;
+&lt;h2&gt;Concepts:&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;Water use: water that is received by an industry or households from another industry or is directly abstracted. [SEEA-Water (ST/ESA/STAT/SER.F/100), par. 2.21]&lt;/li&gt;
+  &lt;li&gt;Water abstraction: water removed from the environment by the economy. [SEEA-Water (ST/ESA/STAT/SER.F/100), par. 2.9]&lt;/li&gt;
+  &lt;li&gt;Water use for irrigation (km&amp;#xB3;/year): Annual quantity of water used for irrigation purposes. It includes water from renewable freshwater resources, as well as water from over-abstraction of renewable groundwater or abstraction of fossil groundwater, direct use of agricultural drainage water, (treated) wastewater, and desalinated water. [AQUASTAT Glossary]&lt;/li&gt;
+  &lt;li&gt;Water use for livestock (watering and cleaning) (km&amp;#xB3;/year): Annual quantity of water used for livestock purposes. It includes water from renewable freshwater resources, as well as water from over-abstraction of renewable groundwater or abstraction of fossil groundwater, direct use of agricultural drainage water, (treated) wastewater, and desalinated water. It includes livestock watering, sanitation, cleaning of stables, etc. If connected to the public water supply network, water used for livestock is included in the services water use. [AQUASTAT Glossary]&lt;/li&gt;
+  &lt;li&gt;Water use for aquaculture (km&amp;#xB3;/year): Annual quantity of water used for aquaculture. It includes water from renewable freshwater resources, as well as water from over-abstraction of renewable groundwater or abstraction of fossil groundwater, direct use of agricultural drainage water, (treated) wastewater, and desalinated water. Aquaculture is the farming of aquatic organisms in inland and coastal areas, involving intervention in the rearing process to enhance production and the individual or corporate ownership of the stock being cultivated. [AQUASTAT Glossary]&lt;/li&gt;
+  &lt;li&gt;Water use for the MIMEC sectors (km&amp;#xB3;/year): Annual quantity of water used for the MIMEC sector. It includes water from renewable freshwater resources, as well as over-abstraction of renewable groundwater or abstraction of fossil groundwater and use of desalinated water or direct use of (treated) wastewater. This sector refers to self-supplied industries not connected to the public distribution network. [AQUASTAT Glossary. To be noted that in AQUASTAT, the sectors included in the MIMEC group are referred to as &amp;#x201C;industry&amp;#x201D;]&lt;sup&gt;&lt;a href="#footnote-2" id="footnote-ref-2"&gt;[2]&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+  &lt;li&gt;Water use for the services sectors (km&amp;#xB3;/year): Annual quantity of water used primarily for the direct use by the population. It includes water from renewable freshwater resources, as well as over-abstraction of renewable groundwater or abstraction of fossil groundwater and the use of desalinated water or direct use of treated wastewater. It is usually computed as the total water used by the public distribution network. It can include that part of the industries, which is connected to the municipal network. [AQUASTAT Glossary. To be noted that in AQUASTAT, the sectors included in &amp;#x201C;services&amp;#x201D; are referred to as &amp;#x201C;municipal&amp;#x201D;]&lt;/li&gt;
+  &lt;li&gt;Value added (gross): Value added is the net output of a sector after adding up all outputs and subtracting intermediate inputs. It is calculated without making deductions for depreciation of fabricated assets or depletion and degradation of natural resources. The industrial origin of value added is determined by the International Standard Industrial Classification (ISIC), revision 4. [WB Databank, metadata glossary, modified]&lt;/li&gt;
+  &lt;li&gt;Arable land: Arable land is the land under temporary agricultural crops (multiple-cropped areas are counted only once), temporary meadows for mowing or pasture, land under market and kitchen gardens and land temporarily fallow (less than five years). The abandoned land resulting from shifting cultivation is not included in this category. Data for &amp;#x201C;Arable land&amp;#x201D; are not meant to indicate the amount of land that is potentially cultivable. [FAOSTAT]&lt;/li&gt;
+  &lt;li&gt;Permanent crops: Permanent crops are the land cultivated with long-term crops which do not have to be replanted for several years (such as cocoa and coffee); land under trees and shrubs producing flowers, such as roses and jasmine; and nurseries (except those for forest trees, which should be classified under &amp;quot;forest&amp;quot;). Permanent meadows and pastures are excluded from land under permanent crops. [FAOSTAT]&lt;/li&gt;
+  &lt;li&gt;Proportion of irrigated land on the total cultivated land: Part of cultivated land that is equipped for irrigation, expressed in percentage&lt;/li&gt;
+&lt;/ul&gt;&lt;div class="footnotes"&gt;&lt;div&gt;&lt;sup&gt;1&lt;/sup&gt;&lt;p&gt; In order to maintain consistency with the terminology used in SEEA-Water, the terms water use and water abstraction are utilized in this text. In particular, &amp;#x201C;water abstraction&amp;#x201D; must be considered synonym of &amp;#x201C;water withdrawal, as expressed in both AQUASTAT and the statement of the SDG target 6.4. &lt;a href="#footnote-ref-1"&gt;&amp;#x2191;&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;div&gt;&lt;sup&gt;2&lt;/sup&gt;&lt;p&gt; In AQUASTAT, as well as in the World Bank databank and in other national and international datasets, the MIMEC sector is referred to as &amp;#x201C;Industry&amp;#x201D;. Also, SEEA-Water uses the term &amp;#x201C;industrial use&amp;#x201D; of water. &lt;a href="#footnote-ref-2"&gt;&amp;#x2191;&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;</translation>
+        </translations>
+      </field>
+      <field id="UNIT_MEASURE">
+        <translations>
+          <translation lang="ru"/>
+          <translation lang="en"/>
+        </translations>
+      </field>
+      <field id="CLASS_SYSTEM">
+        <translations>
+          <translation lang="ru"/>
+          <translation lang="en"/>
+        </translations>
+      </field>
+      <field id="SRC_TYPE_COLL_METHOD">
+        <translations>
+          <translation lang="ru"/>
+          <translation lang="en"/>
+        </translations>
+      </field>
+      <field id="SOURCE_TYPE">
+        <translations>
+          <translation lang="ru"/>
+          <translation lang="en">&lt;h1&gt;Data sources&lt;/h1&gt;
+&lt;p&gt;The data needed for the compilation of the indicator are administrative data collected at country level by the relevant institutions, either technical (for water and irrigation) or economic (for value added).&lt;/p&gt;
+&lt;p&gt;Those data are then compiled by FAO, World Bank, UNSD and other international institutions, harmonized and published in sectoral databases such FAO&amp;#x2019;s AQUASTAT, WB&amp;#x2019;s Databank and UNSD&amp;#x2019;s UNdata.&lt;/p&gt;
+&lt;p&gt;Examples of the questionnaires that can be used include:&lt;/p&gt;
+&lt;p&gt;AQUASTAT:&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://www.fao.org/nr/water/aquastat/sets/index.stm#main"&gt;http://www.fao.org/nr/water/aquastat/sets/index.stm#main&lt;/a&gt; &lt;/p&gt;
+&lt;p&gt;&lt;a href="http://www.fao.org/nr/water/aquastat/sets/aq-5yr-guide_eng.pdf"&gt;http://www.fao.org/nr/water/aquastat/sets/aq-5yr-guide_eng.pdf&lt;/a&gt; &lt;/p&gt;
+&lt;p&gt;SEEA-Water: &lt;a href="https://seea.un.org/sites/seea.un.org/files/seeawaterwebversion_final_en.pdf"&gt;https://seea.un.org/sites/seea.un.org/files/seeawaterwebversion_final_en.pdf&lt;/a&gt; &lt;/p&gt;
+&lt;p&gt;SEEA Central Framework: &lt;a href="https://seea.un.org/sites/seea.un.org/files/seea_cf_final_en.pdf"&gt;https://seea.un.org/sites/seea.un.org/files/seea_cf_final_en.pdf&lt;/a&gt; &lt;/p&gt;
+&lt;p&gt;SEEA Technical Note on water (draft):&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://seea.un.org/sites/seea.un.org/files/technical_note_water_26_05_2016.pdf"&gt;https://seea.un.org/sites/seea.un.org/files/technical_note_water_26_05_2016.pdf&lt;/a&gt; &lt;/p&gt;
+&lt;p&gt;IRWS:&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://seea.un.org/sites/seea.un.org/files/irws_en.pdf"&gt;https://seea.un.org/sites/seea.un.org/files/irws_en.pdf&lt;/a&gt; &lt;/p&gt;
+&lt;p&gt;UNSD/UNEP Questionnaire on Environment Statistics &amp;#x2013; Water Section:&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://unstats.un.org/unsd/environment/questionnaire.htm"&gt;http://unstats.un.org/unsd/environment/questionnaire.htm&lt;/a&gt; &lt;/p&gt;
+&lt;p&gt;&lt;a href="http://unstats.un.org/unsd/environment/qindicators.htm"&gt;http://unstats.un.org/unsd/environment/qindicators.htm&lt;/a&gt; &lt;/p&gt;
+&lt;p&gt;OECD and Eurostat Joint Questionnaire on Inland Waters:&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://ec.europa.eu/eurostat/web/environment/water"&gt;http://ec.europa.eu/eurostat/web/environment/water&lt;/a&gt; &lt;/p&gt;
+&lt;p&gt;Source for GDP:&lt;/p&gt;
+&lt;p&gt;UNSD: &lt;a href="http://unstats.un.org/unsd/snaama/selbasicFast.asp"&gt;http://unstats.un.org/unsd/snaama/selbasicFast.asp&lt;/a&gt;&lt;/p&gt;</translation>
+        </translations>
+      </field>
+      <field id="COLL_METHOD">
+        <translations>
+          <translation lang="ru"/>
+          <translation lang="en"/>
+        </translations>
+      </field>
+      <field id="FREQ_COLL">
+        <translations>
+          <translation lang="ru"/>
+          <translation lang="en">&lt;h1&gt;Calendar&lt;/h1&gt;
+&lt;h2&gt;Data collection:&lt;/h2&gt;
+&lt;p&gt;The source collection is on-going in the context of the Integrated Monitoring Initiative (GEMI)&lt;/p&gt;</translation>
+        </translations>
+      </field>
+      <field id="REL_CAL_POLICY">
+        <translations>
+          <translation lang="ru"/>
+          <translation lang="en">&lt;h2&gt;Data release:&lt;/h2&gt;
+&lt;p&gt;November 2018&lt;/p&gt;</translation>
+        </translations>
+      </field>
+      <field id="DATA_SOURCE">
+        <translations>
+          <translation lang="ru"/>
+          <translation lang="en">&lt;h1&gt;Data providers&lt;/h1&gt;
+&lt;p&gt;Data collection is done with different modalities in different countries. Technical and economic institutions provide their relevant data, sometimes through the National Statistical Office (NSO), particularly for the economic data.&lt;/p&gt;
+&lt;p&gt;Although data collection and its modality remains ultimately a responsibility of each country, FAO is working to promote a more regular involvement of NSOs, in order to ensure strongest consistency and robustness of the data provided.&lt;/p&gt;
+&lt;p&gt;The list of National Focal Points for those countries involved through the GEMI project is in annex. &lt;/p&gt;</translation>
+        </translations>
+      </field>
+      <field id="COMPILING_ORG">
+        <translations>
+          <translation lang="ru"/>
+          <translation lang="en">&lt;h1&gt;Data compilers&lt;/h1&gt;
+&lt;p&gt;FAO (through AQUASTAT), on behalf of UN-Water. The monitoring of this indicator will be integrated into the GEMI initiative, which together with JMP and GLAAS, under the UN-Water umbrella, will provide a coherent framework for global monitoring of SDG 6.&lt;/p&gt;</translation>
+        </translations>
+      </field>
+      <field id="INST_MANDATE">
+        <translations>
+          <translation lang="ru"/>
+          <translation lang="en"/>
+        </translations>
+      </field>
+      <field id="OTHER_METHOD">
+        <translations>
+          <translation lang="ru"/>
+          <translation lang="en"/>
+        </translations>
+      </field>
+      <field id="RATIONALE">
+        <translations>
+          <translation lang="ru"/>
+          <translation lang="en">&lt;h2&gt;Rationale:&lt;/h2&gt;
+&lt;p&gt;The rationale behind this indicator consists in providing information on the efficiency of the economic and social usage of water resources, i.e. value added generated by the use of water in the main sectors of the economy, and distribution network losses.&lt;/p&gt;
+&lt;p&gt;The distribution efficiency of water systems is implicit within the calculations and could be made explicit if needed and where data are available.&lt;/p&gt;
+&lt;p&gt;This indicator addresses specifically the target component &amp;#x201C;substantially increase water-use efficiency across all sectors&amp;#x201D;, by measuring the output per unit of water from productive uses of water as well as losses in municipal water use. It does not aim at giving an exhaustive picture of the water utilization in a country. Other indicators, specifically those for Targets 1.1, 1.2, 2.1, 2.2, 5.4, 5.a, 6.1, 6.2, 6.3, 6.5 will complement the information provided by this indicator. In particular, the indicator needs to be combined with the water stress indicator 6.4.2 to provide adequate follow-up of the target 6.4.&lt;/p&gt;
+&lt;p&gt;Together, the three sectoral efficiencies provide a measure of overall water efficiency in a country. The indicator provides incentives to improve water use efficiency through all sectors, highlighting those sectors where water use efficiency is lagging behind.&lt;/p&gt;
+&lt;p&gt;The interpretation of the indicator would be enhanced by the utilization of supplementary indicators to be used at country level. Particularly important in this sense would be the indicator on efficiency of water for energy and the indicator on the efficiency of the municipality distribution networks.&lt;/p&gt;</translation>
+        </translations>
+      </field>
+      <field id="REC_USE_LIM">
+        <translations>
+          <translation lang="ru"/>
+          <translation lang="en">&lt;h2&gt;Comments and limitations:&lt;/h2&gt;
+&lt;p&gt;The corrective coefficient Cr for the agricultural sector is needed in order to focus the indicator on the irrigated production. This is done for two main reasons:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;To ensure that only runoff water and groundwater (so-called blue water) are considered in computing the indicator;&lt;/li&gt;
+  &lt;li&gt;To eliminate a potential bias of the indicators, which otherwise would tend to decrease if rainfed cropland is converted to irrigated.&lt;/li&gt;
+&lt;/ul&gt;</translation>
+        </translations>
+      </field>
+      <field id="DATA_COMP">
+        <translations>
+          <translation lang="ru"/>
+          <translation lang="en">&lt;h1&gt;Methodology&lt;/h1&gt;
+&lt;h2&gt;Computation method:&lt;/h2&gt;
+&lt;p&gt;Water use efficiency is computed as the sum of the three sectors listed above, weighted according to the proportion of water used by each sector over the total use. In formula:&lt;/p&gt;
+&lt;p&gt;&lt;img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAlYAAAA8CAMAAACTiwQ4AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAJDUExURf///1JSUkJCQkBAQE9PT6ampoSEhN7e3kFBQb+/v7m5uU5OTkZGRllZWdzc3GVlZUNDQ3Nzc+Xl5dvb219fX9HR0VFRUYKCgnZ2drGxsfDw8P7+/vb29pKSkklJSUpKSsvLy/r6+oaGhpmZmWtra46OjuPj4/n5+fv7++rq6qOjo3FxcU1NTWNjY4+Pj8nJyaKiolVVVXl5ebKysv39/dXV1WZmZsbGxtra2khISNjY2GxsbGRkZPz8/Ly8vJaWlvLy8u3t7W5ubn5+fuHh4VBQUHd3d5WVlUVFRV5eXvX19XR0dMDAwEtLS4CAgJSUlIWFhebm5ri4uKmpqc7OzvPz80dHR7u7u+vr62lpaXh4eKqqqvf398/Pz11dXVtbW+Li4oiIiERERJCQkMTExNnZ2YeHh1dXV/T09H9/f9/f31NTU+Tk5GFhYaurq+/v7+7u7lhYWNPT02pqasfHx3Jycuzs7IGBgZycnK2trcXFxfj4+IODg319fWBgYExMTL29vaCgoKGhod3d3YmJiWdnZ6WlpZGRkefn53x8fFxcXLOzs7a2ttLS0np6etfX15eXl5iYmHt7e5ubm9TU1MrKylRUVJ6ensjIyKenp/Hx8cLCwnBwcLS0tFZWVrW1tZqamtDQ0K6urrq6uuDg4K+vr9bW1m1tbenp6Z+fn3V1dYyMjLCwsGhoaKioqGJiYoqKilpaWm9vb8PDw6ysrJOTk83NzYuLi6SkpI2Njejo6L6+vszMzLe3t8HBwZ2dnQAAAN2K1UYAAADBdFJOU////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////wCINFSNAAAACXBIWXMAACHVAAAh1QEEnLSdAAAMHElEQVR4Xu2b3bGsuA6FdxWh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"&gt;&lt;/p&gt;
+&lt;p&gt;Where:&lt;/p&gt;
+&lt;p&gt;WUE = Water use efficiency&lt;/p&gt;
+&lt;p&gt;A&lt;sub&gt;we&lt;/sub&gt; = Irrigated agriculture water use efficiency [USD/m&lt;sup&gt;3&lt;/sup&gt;]&lt;/p&gt;
+&lt;p&gt;M&lt;sub&gt;we&lt;/sub&gt; = MIMEC water use efficiency [USD/m&lt;sup&gt;3&lt;/sup&gt;]&lt;/p&gt;
+&lt;p&gt;S&lt;sub&gt;we&lt;/sub&gt; = Services water use efficiency [USD/m&lt;sup&gt;3&lt;/sup&gt;]&lt;/p&gt;
+&lt;p&gt;P&lt;sub&gt;A&lt;/sub&gt; = Proportion of water used by the agricultural sector over the total use&lt;/p&gt;
+&lt;p&gt;P&lt;sub&gt;M&lt;/sub&gt; = Proportion of water used by the MIMEC sector over the total use&lt;/p&gt;
+&lt;p&gt;P&lt;sub&gt;S&lt;/sub&gt; = Proportion of water used by the service sector over the total use&lt;/p&gt;
+&lt;p&gt;The computing of each sector is described below.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Water use efficiency in irrigated agriculture&lt;/em&gt; is calculated as the agricultural value added per agricultural water use, expressed in USD/m&lt;sup&gt;3&lt;/sup&gt;. &lt;/p&gt;
+&lt;p&gt;In formula:&lt;/p&gt;
+&lt;p&gt;&lt;img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAYgAAABeCAMAAAAOjXOSAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAIiUExURf///+bm5r+/v9zc3P7+/ry8vOPj4/Pz86ioqGZmZlhYWKenp/v7+7q6ulZWVmRkZKKiourq6uvr67KysnV1dVFRUUpKSlRUVHR0dJGRkcvLy1paWktLS1JSUqCgoMDAwFdXV1tbW4uLi9bW1uzs7Hp6ek1NTWJiYszMzPX19bOzs/Ly8rm5uXt7e1lZWXJycpWVldDQ0ODg4Hh4eG1tbampqWhoaISEhJKSkoKCglxcXOnp6dXV1V1dXcLCwm5ubtHR0f39/cPDw9nZ2WpqalNTU5iYmO/v7/Dw8KysrExMTGVlZYGBgYCAgGBgYMnJyYeHh09PT5ubm93d3dLS0l9fX29vb/z8/KWlpXx8fO7u7vHx8d/f33BwcJOTk/T09M3Nzfj4+I6OjtfX14WFhbGxsdPT04+Pj5ycnKurq7S0tFBQUH9/f66urr6+vnl5eff395SUlGFhYYyMjFVVVXNzc6ampoODg+3t7fr6+paWlsXFxa2trba2tmtra8rKytvb23d3d9TU1Li4uImJiaSkpE5OTtjY2OLi4ru7u6qqqsbGxmdnZ4iIiJCQkMHBwfn5+X19fZ+fn8/Pz87Ozl5eXuHh4Zqamre3t9ra2oqKisTExGlpad7e3peXl3FxceTk5H5+fqOjo6GhocfHx5mZmb29vZ2dneXl5bCwsJ6enq+vr2NjY/b29nZ2doaGhufn5+jo6I2NjbW1tWxsbAAAAAOQzrYAAAC2dFJOU/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////8Aiua9cAAAAAlwSFlzAAAh1QAAIdUBBJy0nQAACAdJREFUeF7tnVl2rCAQhvPKBlgD++GNdbABHuEclsE+718MDmhuq7Gjduo7OQltdytUUQOD5othGIZhGIZh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"&gt;&lt;/p&gt;
+&lt;p&gt;Where:&lt;/p&gt;
+&lt;p&gt;A&lt;sub&gt;we&lt;/sub&gt; = Irrigated agriculture water use efficiency [USD/m&lt;sup&gt;3&lt;/sup&gt;]&lt;/p&gt;
+&lt;p&gt;GVA&lt;sub&gt;a &lt;/sub&gt;= Gross value added by agriculture (excluding river and marine fisheries and forestry) [USD]&lt;/p&gt;
+&lt;p&gt;C&lt;sub&gt;r&lt;/sub&gt; = Proportion of agricultural GVA produced by rainfed agriculture &lt;/p&gt;
+&lt;p&gt;V&lt;sub&gt;a&lt;/sub&gt; = Volume of water used by the agricultural sector (including irrigation, livestock and aquaculture) [m&lt;sup&gt;3&lt;/sup&gt;]&lt;/p&gt;
+&lt;p&gt;The volume of water used by the agricultural sectors (V) is collected at country level through national records and reported in questionnaires, in units of m&lt;sup&gt;3&lt;/sup&gt;/year (see example in AQUASTAT &lt;a href="http://www.fao.org/nr/water/aquastat/sets/aq-5yr-quest_eng.xls"&gt;http://www.fao.org/nr/water/aquastat/sets/aq-5yr-quest_eng.xls)&lt;/a&gt;. Agricultural value added in national currency is obtained from national statistics, converted to USD and deflated to the baseline year.&lt;/p&gt;
+&lt;p&gt;C&lt;sub&gt;r&lt;/sub&gt; can be calculated from the proportion of irrigated land on the total Arable land and Permanent crops (hereinafter &amp;#x201C;cultivated land&amp;#x201D;, as follows:&lt;/p&gt;
+&lt;p&gt;&lt;img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAXoAAACDCAMAAAC0lCDHAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAJDUExURf///9zc3G5ubr6+vv39/Y2NjUBAQLe3t+Li4qOjo1tbW0FBQfb29qurq2BgYEZGRm9vb09PT6mpqUlJSXl5eeDg4JCQkObm5ry8vJiYmJGRka2trWdnZ3Nzc+np6fT09KysrGhoaEVFRXBwcIuLi6enp5ubm3t7e5WVlfr6+urq6tTU1NPT09ra2uvr6/v7+5ycnFJSUkJCQk1NTV5eXnFxcba2trq6ulRUVENDQ05OTs3Nzd/f35aWlpeXl2xsbNnZ2aKior29vcLCwmVlZdvb29XV1VhYWOXl5e/v71paWtLS0mlpaVZWVo6OjtfX10dHR11dXZKSkvn5+X9/f/Pz8+fn52tra0xMTMHBwf7+/rW1tVlZWe7u7lNTU8nJyXV1dYeHh/Ly8np6ep2dnc7Oznd3d2RkZNDQ0J+fn+Tk5MPDw/Hx8V9fX3h4eMzMzPDw8H19fURERNjY2LCwsNHR0b+/v6+vr4+Pj56envX19aqqqvj4+EhISM/Pz0pKSuPj43R0dImJifz8/NbW1mFhYYqKivf391VVVWpqaq6urqampmNjY4WFhcfHx2ZmZujo6O3t7bm5ucjIyMDAwN3d3bS0tLi4uFBQUOHh4crKypmZmYCAgKioqJSUlOzs7IKCgm1tbXZ2doiIiFdXV35+fnJycktLS1FRUcTExGJiYt7e3qGhoYyMjIaGhoODg5OTk7Ozs4GBgYSEhKCgoMvLy6WlpaSkpLGxsbKyssXFxXx8fMbGxlxcXJqamru7uwAAAKmTQVgAAADBdFJOU////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////wCINFSNAAAACXBIWXMAACHVAAAh1QEEnLSdAAAIjUlEQVR4Xu2dO5brIAyGU7FL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"&gt;&lt;/p&gt;
+&lt;p&gt;Where:&lt;/p&gt;
+&lt;p&gt;A&lt;sub&gt;i&lt;/sub&gt; = proportion of irrigated land on the total cultivated land, in decimals&lt;/p&gt;
+&lt;p&gt;0.375 = generic default ratio between rainfed and irrigated yields&lt;/p&gt;
+&lt;p&gt;More detailed estimations are however possible and encouraged at country level.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Water efficiency of the MIMEC sectors (including power production): &lt;/em&gt;MIMEC value added per unit of water used for the MIMEC sector, expressed in USD/m&lt;sup&gt;3&lt;/sup&gt;.&lt;/p&gt;
+&lt;p&gt;In formula:&lt;/p&gt;
+&lt;p&gt;&lt;img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAPgAAABwCAMAAAAE7E2MAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAJAUExURf///+bm5q+vr39/f2tra2lpaWxsbIODg5ubm8LCwvPz87S0tGpqan5+fuDg4JiYmPz8/ICAgImJiezs7KCgoElJSUNDQ0tLS1FRUUpKSkFBQUBAQJeXl/r6+lhYWNra2u3t7Xd3d0JCQnl5eevr6/39/dfX13FxcVVVVZmZmdbW1vn5+c3NzUdHR729vbe3t7+/v0xMTHh4eOrq6mBgYNnZ2V9fX1lZWcrKysvLy1paWmJiYsTExEZGRl5eXkVFRf7+/unp6W9vb01NTcDAwPDw8IGBgfHx8X19fZGRkcXFxU5OTpaWlqKiovf394qKisnJyVxcXPT09HZ2dk9PT9zc3PX19eXl5ejo6I2NjaWlpaOjo/Ly8mVlZeLi4tDQ0OPj476+vvb29oiIiKysrLW1tXt7e/j4+IuLi8fHx2dnZ+/v76amprKyss7OztjY2FZWVnx8fNPT09XV1d3d3bCwsLu7u0RERJKSkqmpqdvb211dXc/Pz1BQUKioqHNzc8HBwZOTk1NTU2ZmZufn50hISFtbW1RUVJCQkN/f33R0dK6urtHR0cPDw2hoaIKCgp2dnbi4uGFhYXBwcJ+fn8bGxlJSUuHh4fv7+3JycmNjY4SEhLm5ubq6ut7e3pqamsjIyLOzs+7u7szMzHp6eo6OjoWFhaqqqoeHh5WVlW1tbZycnJSUlKGhoY+Pj9LS0ry8vK2traurq4yMjLa2ttTU1IaGhrGxsW5ubuTk5HV1dWRkZKenp1dXV56engAAAOgxRmMAAADAdFJOU///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////AB5m9HMAAAAJcEhZcwAAIdUAACHVAQSctJ0AAAXkSURBVHhe7ZxLciQpDIbrHqzYwbm4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"&gt;&lt;/p&gt;
+&lt;p&gt;Where:&lt;/p&gt;
+&lt;p&gt;M&lt;sub&gt;we&lt;/sub&gt; = Industrial water use efficiency [USD/m&lt;sup&gt;3&lt;/sup&gt;]&lt;/p&gt;
+&lt;p&gt;GVA&lt;sub&gt;m&lt;/sub&gt; = Gross value added by MIMEC (including energy) [USD]&lt;/p&gt;
+&lt;p&gt;V&lt;sub&gt;m&lt;/sub&gt; = Volume of water used by MIMEC (including energy) [m&lt;sup&gt;3&lt;/sup&gt;]&lt;/p&gt;
+&lt;p&gt;MIMEC water use (V&lt;sub&gt;m&lt;/sub&gt;) is collected at country level through national records and reported in questionnaires, in units of m&lt;sup&gt;3&lt;/sup&gt;/year (see example in AQUASTAT &lt;a href="http://www.fao.org/nr/water/aquastat/sets/aq-5yr-quest_eng.xls"&gt;http://www.fao.org/nr/water/aquastat/sets/aq-5yr-quest_eng.xls&lt;/a&gt;). MIMEC value added is obtained from national statistics, deflated to the baseline year.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Services water supply efficiency &lt;/em&gt;is calculated as the service sector value added (ISIC 36-39 and ISIC 45-98) divided by water used for distribution by the water collection, treatment and supply industry (ISIC 36), expressed in USD/m&lt;sup&gt;3&lt;/sup&gt;.&lt;/p&gt;
+&lt;p&gt;In formula:&lt;/p&gt;
+&lt;p&gt;&lt;img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMcAAABwCAMAAACdFJQ5AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAI0UExURf////X19b29vXh4eFNTU0VFRVFRUXZ2dpaWltjY2Ojo6GFhYUZGRpmZmb+/v97e3o2NjfPz87e3t2ZmZkNDQ1ZWVmxsbHV1dWtra1BQUEBAQFhYWPz8/MvLy1lZWUxMTLy8vLq6ukFBQWRkZM3NzcjIyOnp6Y+Pj0dHR4qKitHR0fHx8e/v77m5uZKSknd3d+zs7HJyclRUVMzMzG1tberq6pOTk0JCQoyMjKurq35+fuPj419fX56env39/a2trURERMfHx3t7e/T09Li4uMbGxmNjY+Tk5GVlZVdXV9bW1sXFxd3d3VtbW+Xl5c7Ozpubm6+vr4eHh0hISHl5efDw8J+fn9DQ0E1NTefn59LS0kpKSvf393R0dMPDw5ycnKCgoJGRkfj4+Pn5+YGBgY6Oju3t7WJiYtXV1V5eXt/f31paWlVVVdvb211dXampqaWlpevr62pqarGxsWdnZ8TExICAgPb29ubm5mhoaIiIiJWVlf7+/k5OTpCQkKioqHp6eoaGhmBgYOHh4XNzc3x8fPLy8s/Pz7CwsG9vb5iYmLa2tsDAwLS0tPr6+oWFhVxcXKqqqtra2qenp6ysrNfX1+Dg4O7u7pqamktLS+Li4tnZ2cnJyVJSUrKystzc3Lu7u/v7+76+vsHBwaSkpLW1tXBwcH19fUlJSYSEhKKiooODg5SUlG5ubk9PT4uLi2lpaZ2dnYKCgnFxccLCwomJibOzs39/f9PT06amppeXlwAAAK6htB0AAAC8dFJOU/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////8AAi4JawAAAAlwSFlzAAAh1QAAIdUBBJy0nQAABOtJREFUeF7tm8tx7CoQhicBVr0jCRYkQACEQgTKglVvCfX83SBphE/5WLZ8hW7x2eXBzFSZVtNP8GsymUwmk8lkMplMJpPJZDKZ/O8oLoWQnImvF2MEjE7rMGB2ZwmhjUaDC4VEjoK1CUv2Ikipb5VkA/k6rvhgB5WD8YSXyLpokgljrdN38B4kPIjBZK3FZwfEBGvqyharuynbsMtRpzZygCAHyUYh70+/1C3k95kcUhtVmFK0tm26oYgpiFG84zd9YFsdn70JhceUw1mb23Bl14exSx00YnAMfRy32hBEuNvebHnVR+yM/OXgx6CPAeUwLVIcaPqAI+uMXNQDfRyVNALs7Boq3rDV/8Z0VBWcl8TJsHmBcYhJQ18HJuWFOhFNEEtCvB9PDkRnqs+8ZKHKhOCHn75bLyf9KLdoORQIHm2z54SEo8VDkpXiuR+NvKkHcoyXmCy71zXwUs0cnOij97nIGZGSCAMmii5sciy7xUM6iY+9kbsKssg2Nw5viye7BQuRoxr1DhKrNoIgH13DzSC1bcvF828WL47Jcu+UNvUgVxlPjrLZeUFYWOXArETud5ZdLuiwKa44cikth/13D5Il6jLwlPd0A16sN/J9/+2hM8vWi9Ub300OUu+xet1NA9DH0edG2iekkqoSkz6CZYgshQ2qWCyb8Lo91z4V9FLytvI2wsU1kcmWEVTRiBLJsUb/ZhDm6KvwCYMP6djrUMfQ5TKcxX8DRrKcjhI/lAgf/KbGL8G+iEqLdDbGwZ1NfqODS5HcZgh/DYr6qRLOuStx9JnVWwzh5yQywsZRMh4c9D9BSVBdQ/pLHXoHcNhksqFzdr7H06Ur/W+Dowcn9/iIOeZ32HOzZ7MMY94/w0sG+g1/i/qi594mAUqb7iDiS3yUo2s8/+eIIBJBzhGRAHTfZ/OIq0HBtjVmHg0jlp/Oyj7Ftb32Y87lWFJRnszKPmdpy/gxJ31ptLXxehUcL+Lsbk/2w2HF5/zF797nr3xrH2u22EZfZKj4sfWSOIh9eCJSwZw0nApRy4T9QuS6LIy9RzoX37/uy9PS2qLMNcvKQc5TRCqZNFYbHahMMpf1FGBE5AivMIwS66+5SdIT01IP5It6C3aaz3cnSEMhDftAjlDTt3hOqiCqB8BOt1U9wo93Zx2f4rODDIG2YK6L9pa0xxxERxAA0sQq4BVA//j6OL4UOWJh53RHaZmMn6mYhdxF4d5rT6PmpfX8ZuthX0lBIuBTlAM8X/sVFJZS/HUtIcbaV5chN3x+J6+LCGZk8AcI1qEz122oxltfBsq5NBvagTVkhJAIh9zK9moqSNOvem7w5qsc2Fi/VFOzNLOw6voiODlMiua6Hh2ceusvIc3+rU4Tkx7W4WU1P8QY4bo/uB9U+d/z5Ww0MeFlj94RzkpuF17Fpo8PV5eeBa/6yJvOn0kr8mCDT1YH5Kjn5eZkP3002m0YP3Li+SWS6mO5trFxAypHHLme+RpSQj/c5yrOWvG57bfnAjmgjgsj6z2w3DBb7wKxL6gKnrnFjLXrDRiUbLmgUtNfngb0sfpc7TsxaVx8HHJ9v6mjpibtfsnTKNuJJMx9kKsH34K3tSOHH+Ww+2cUWjuAD0duKD3TPHr6fz14HkWjSDne9HsgSN1ZboU+PUXJLhGR/mPeZDKZTCaTyWRyBa/XH+1FrB3On79uAAAAAElFTkSuQmCC"&gt;&lt;/p&gt;
+&lt;p&gt;Where:&lt;/p&gt;
+&lt;p&gt;S&lt;sub&gt;we&lt;/sub&gt; = &lt;em&gt;Services water use efficiency [USD/m&lt;sup&gt;3&lt;/sup&gt;]&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;GVA&lt;sub&gt;s&lt;/sub&gt; = Gross value added by services [USD]&lt;/p&gt;
+&lt;p&gt;V&lt;sub&gt;s&lt;/sub&gt; = Volume of water used by the service sector [m&lt;sup&gt;3&lt;/sup&gt;]&lt;/p&gt;
+&lt;p&gt;Data on volumes of used and distributed water are collected at country level from the municipal supply utilities records and reported in questionnaires, in units of km&lt;sup&gt;3&lt;/sup&gt;/year or million m&lt;sup&gt;3&lt;/sup&gt;/year (see example in AQUASTAT &lt;a href="http://www.fao.org/nr/water/aquastat/sets/aq-5yr-quest_eng.xls"&gt;http://www.fao.org/nr/water/aquastat/sets/aq-5yr-quest_eng.xls)&lt;/a&gt;. Services value added is obtained from national statistics, deflated to the baseline year.&lt;/p&gt;
+&lt;p&gt;Change in water use efficiency (CWUE) is computed as the ratio of water use efficiency (WUE) in time t minus water use efficiency in time t-1, divided by water use efficiency in time t-1 and multiplied by 100:&lt;/p&gt;
+&lt;p&gt;&lt;img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAdgAAABuCAMAAACz4/J3AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAIlUExURf///+Li4s/Pz/r6+tLS0uTk5ODg4NfX1/Dw8Pz8/Nzc3NHR0e3t7dra2ufn59XV1fX19fPz89PT09TU1Pb29vj4+NjY2Orq6unp6ePj497e3vv7+8zMzGhoaEpKSl9fX6CgoMPDw05OTpubm8LCwm5ubq+vr5SUlFdXV1JSUpCQkL6+vmxsbIyMjLW1tWFhYa6urs3NzWdnZ6SkpO/v77y8vEtLS1hYWKenp/T09LCwsFpaWnp6eoCAgHh4eNDQ0MnJyXV1dXJycvn5+f7+/sbGxllZWU9PT7e3t2RkZFNTU4aGhvHx8f39/bm5uZaWlnd3d1RUVKWlpX5+flFRUcjIyKqqql1dXdnZ2ZycnE1NTWlpabKyst/f35qamvLy8oKCgr+/v8HBwZmZmampqcrKyuHh4V5eXkxMTI2Njebm5mJiYuvr629vb7Ozs9bW1qioqFVVVYmJiVZWVnt7e21tbd3d3YSEhJ6ennx8fO7u7oiIiGZmZtvb22BgYIGBga2trZGRkY+Pj3Z2dvf396GhocTExFBQUJKSknBwcLS0tMXFxX9/f3l5eWtra4ODg8vLy7GxsX19fVtbW87OzmVlZYqKisfHx2pqaqysrHR0dHNzc4WFhYeHh6Ojo5eXl5WVlbq6up+fn5iYmJ2dnZOTk7a2touLi6KiouXl5VxcXLi4uI6Ojr29vXFxccDAwLu7u6urq6ampuzs7Ojo6GNjYwAAAHHTSngAAAC3dFJOU///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////ABGphX4AAAAJcEhZcwAAIdUAACHVAQSctJ0AAA0LSURBVHhe7Z1beqO6EoUzED6PiScmwAj0wgMwKIZ41ipVlYqLnTi7O3Ef15/e3bIwyNFSXSSE90eSJEmSJEmSJEmSJEmSJEmSJEmSJEmSJEmSJEmSJEmS/LPMXddNXaevummSf2utlOVwPY4C/syhbP/VuqcITQC7RKitl5Zq1HojONra9fOTI916u93KqC9ut1rapHZgcSwoLdKBUrvU/t1Q3ZB3Poc0fBv9arVh/TisHdhCXzXuWayjq2PZWaUuuaBD/21aRlElnsqt1I6cF4gpJfQ/uleLHyPKM2FPf8dwJuiiA2LGJWxsecMfAySuurN2tTZ43iQt4yPoWcmZafWehG5BWOuz/lZMeLzBihRWZelapz8FhpGeB0/hDTexIKwV8SFtcPEdaqfzetNPnpxB76guKHlXbrdVjQVusJhug5vQx8fi42GG6dbSc6A5LfXNVQxtlARPAOV9RGF06Xth6N9q+E1w4bbbslqfrd6RsF0PZH0rcjyYuUzf614IVwvdDcrWhqGVfgJatA8jiOm2CVdh5dmETy6AWtI/6FN3wEMzQoQ37+rmG6n39+y0geBdr1AKEqV65eYp6HLN/SLON1eB0KGl5CHoNLHODimqKoeQ5gaCSGc5L7ra09+o9zeB6UnDW1k8K+5bw83lstqTNoyuVk4eAFcsnbmWyYQdQ9+FSIcQe9J7qBOS7wCL5eXgKTobJvAU/Ecw3cFc2ogyvbveo25yiWZBAxyfChsNlpFOS3inJzacBHUfmHGUpvWz4BLUpiu92f8cRg709hfInbweIwoNc5abAfYxo3TgvOJvFXaoNiGgyiMdorFFOsmghe/7RZ089cjdVNjRlj8ARpe3BuPVkniQih9NrqlZJgKdqIj+hcbNGGAg5vLQ1U1w5E4beBRp+2U5/tkZmdgesjA0XIXdeQpU+ZgJIRZeeR22rQsT2+QasVimxCbs0gKaGIhZBhziKdKNQYojalmR3ZvrmKGnUGGjp2AL3po2RvBOserNx1tyBxG2o91UYafdQhIMxIStFlZBfJQ3bQ88cX9mJ6y44k50EmHhKYJ3DbmT+mzB9O6W+yMqESTX7UVMCLvtDRZW6mEPWZaWLieT47hztJ+D2VPHlBhFCDtAytAwDrirwNDzSwe9jeGRU56Gtx0AsIEOdsMihZ1KlAwH3QuuIdKdk6a9oX8FCsuUGEDYDRcIBovszD9HTNrCAqexPrjFg+T5bV32diubBLoq7FKLink+AB1ODhHMuqAY575fI7TW3cqw7CRAkmTXY9JmwjJX1uKs947j3HfPjN/rbOBvA4RdSl0eRFcP1YQMKGgdg1mslnYOsaZP3YAeH5/zxqE1pkRlP39p/oEuRYtcyTTHK6nWPCExX4frhod+oCvQV28H+q1oz6GrDwsOOKgdGXNiOEdziF11kzQNsD/5E+ACrDX0f1CPcKJchYaRtrGGBE4/xVSjM7I4YTcoFJq0/WpvCBSznoOwYYlAQKijr50xcWyL/nSI2us6+9jPQb8GvK1dk8IeUiA4hYENz2G9S2Zf9QWXvqTwcQ66kXab6u2AsGZoFPYgD7p8XYZhKaUpPsNu1nEA3DdTLQhRUv59AgqrvQ5/epSH94HZMAZU+0gcAGx3GKFwHY3bw6QNhv+2wsIjmquDsKepwzRy9XBdwoa1Bd3r6KB4Pndip1tYhWAHT8Hhw4Yhbjsg26CcOqJaw0u/+o97lzeOsX+G/rc6sPfQv5aG53kp7H+kxFWjHwSx/aFyb+yK/whTmAv9KN3jEYU4fkgafoy5xrAeoQTRrsUOrrFIgVkr4Oerub3EFMxDrMgEMvB0EvMnuL9K8JfBLFxL1zxpsZ3vyBQ25Gjrbo7MwL+a83/ANN4KQj215e0NJAeWHUI5NQLW1syPO2ltiQ8TDUs4mKXe6io7LnRKf34CpDAzsh199YNw4+S83d3G8VRWzC3SUdgJM60RaXmbnXPSx5pPV08RIcqANzG35xWhi40GjpVaou3qpWG93nlhlbxVQ+6nRuifggsZy/oLTWOi1C/1mYULJnyuL+/dmSTbb78D+p3nhv23GCa0pe1TZSGDSgaPwrfC16qEdLXqZKC+fXCYphkkGnHvhzfbUn3/S0kMOuX7u5/+A3Bi5V7DU5HpUbEnWB6DqXoPPZqwcAbyos0H7f4WF0+kcAeunugb5rpS6sLOyN3NCreWH4Q1WqQFfvFQPZ7mg8mXGPnEEPrfhYXB1mk2TKiqgi6vZgUP+XDvLf2EHR/kgn4ve7gtvjt79VEUb1rh4j5QQ3XyTSZ2PMzfhYU7dUOtNgR16lGumT0SFocPeuBUuQQURJyuwoaEk2s1dgY+g5Z21clX6O545+D6QnxDSSzVF6pZ8vedocFq0YCwcrENQVqFjVsyufKmRVzbT/bqC3WnM+mrETavhbXN86QFUgglTrk9cwIbfhC3zXUHTNi+THS7LMYtmW0Q0Rv4pXWvIKZOHnUdTqQOPPhI7wAfpp7YU/64dyNaLKxSu5M3QqABcjGLeHifW9gJzlGOxgPleLENna8WG2+HcRpr7eJsr0f1uvYr77BpTSOFPTD3ZYFGHbKlc3dFi22JlOZKnMOoYOjx+71Iz30UFpfgCT3aVWG5Qd9pTh6Xdg/N5JoL35D3whcnByYoupVhdzvQ+MRi3XIeWqzlWhEIizpEWMglwk5xSybcb82nQNjgBaOW6t0Y+BrTsH39585f+kf//Rs/n/51+GN/KfIymhClvV0++hMttgnL3TdVWOvzR8Iyhp6uLRbLlLge5xWC+Dhql4Psbu6Wl2/ngfIZiOlvQvBlc8clpj7cYHaixTbDe85iuZp48pwTL1Y3b+N4j9dulyA0i7ZcRQ3M3+EdhZXl27JduuKDxWr5uRgLm2vzGIcnLCI4LHZBQ1EyjCEt0TvEoXUaIU7Xbcef+29+C/oyzjO6foiPKCnRYpt46GyaGhSzjo7vO3JpsRTWNm/D2Xb7LZk4Q0tcIfWTW/UFmRUfmWFOMt3RfcmRaLFMbr0k9gUbVlNEKQqzgx7BLHb0r3PAJZgSAwjb7/dQQyTLnai6FnmOLVVMa6tVUtgr7i1QREvUyArgEkWSZsMtjTrD5Ejl1L25BFMWXT+GdqsE24akUwLGkA+3EGLH+w4iiXT9dVYSLRYCVK9IJaSGabEU6uTlHhCkPrnAZz1NWN5nqnJD+GMQ9vGEwdRGnI0nXPG3Nh7939AyYcBlQPZn52rjsJSW9o05V0C5ccJUEmK6TPCc6lcRg4/+AvPYwh00Y9ysyUp5MaP6uPacPAVMLN6Pg8lCZhqgVtCIoeij1InMuj+3hMcqcGUtB1ftdPVJirL6Q0rcvhFo9cmzjLJBCayLWi0EKmWN9+mnusX1060i3TaOw7CF+y3baOfMw3D24/M24Iy4jNKNqKnceTTp7zEP+PSjPYC66eflB0c9P0onJanWWvnkUz1P/4QN4b8Jfxn2IX9cN/4Cu+nh3OH4bhnr/xHZRHer34zaQkJd9ZBa2Xynfgd5AWKVvINBo3Ex6Ut+GwhnCT3ktCKig6bzCEoejizzAIxVtQy5My94QZBYqC6U0HJyJI1aooJa5GTNimFxZjlmiMkr0G5LDJiAq5xTmwxOMGMtIi883bYAOfV+SaCQCruuY4uxPmUIiyd4q9um3MRKXhgXdruN5oBR50aIuGpTtq20RZ3PJoLJbwMRxdXOpXDtW4Qdw7dYIJZqCXbcpuWP1tCTV8CE5Rd96J4OaOyize3+RMioqLecNa2ZEb8oSG8pEZLfybLeMdx3iqtxvv8dZ0HvruMXzWSkfVFU2IG3oarFTiXsqEMsNfcbc6e2byPXJl4UmCqF7RlJq8Xu5qVtuspEOITYwv+/CmZIWpG8GtViOxFTLHa35wNW6hMfGK8f0NvU8+F2c/I6SOSc+VXSVdh5v6sy3F4MIZarGlK9uQ0nL4YIy+cWALd+zO3rWgBmOC5zfCLlvP9g64MDPzKPmTz/NCKsfsNmD2H3m7TCQ4kxxIZq4+qpI4XfCfdgs17yV6Cwmy5IQFh5hKERHkMJs1ic4ynVVu/jIVTf8cpz168lhf1xYKJFvnQeQNj2iLaAaY3qFSc7TLhU5E6Sq2nob7e1768c7tSP/P4VfZX8FLA+v78TigqErR52tw2aKVUt4Wwe33jbHWZ5JewM4RGq9VXyY2AWY5JB2MMmLS448gkZPgTVYijkrtYLU1SLjqtVZ1LYXwDamCbr+V4cbLH0Czx02P0lOwHlf9bCvWPVJ9evHr5HCvsLhPzI7u5E5GvnCr91zsBcJ6De161+d9SGSQr7r1JzKCnV75ermJWPbW0j+adYHobYtNh/lk++7zCnO/8os+yl4cTmmrTYfxTMioaP7f7/DjaF/VdZb2XlNxleMm84/CKPgSTPMfXrPXudl7JiGowfX7lKkiRJkiRJkiRJkiRJkiRJktfk4+N/jezOqgY5CRoAAAAASUVORK5CYII="&gt;&lt;/p&gt;
+&lt;p&gt;It must be noted that computing the indicator in an aggregated manner, i.e. total GDP over total water use, would lead to an overestimation of the indicator. That is due to the fact that, for the agricultural sector, only the value produced under irrigation has to be counted in calculating the indicator. Hence, the sum of the value added of the various sectors used in these formulas is not equivalent to the total GDP of the country.&lt;/p&gt;</translation>
+        </translations>
+      </field>
+      <field id="DATA_VALIDATION">
+        <translations>
+          <translation lang="ru"/>
+          <translation lang="en"/>
+        </translations>
+      </field>
+      <field id="ADJUSTMENT">
+        <translations>
+          <translation lang="ru"/>
+          <translation lang="en"/>
+        </translations>
+      </field>
+      <field id="IMPUTATION">
+        <translations>
+          <translation lang="ru"/>
+          <translation lang="en">&lt;h2&gt;Treatment of missing values:&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;At country level:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;If scattered data (over time) are available, a methodology will be developed with regards to inter- and extrapolation.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;At regional and global levels:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;If country data are missing, the value of the indicator will be considered in the average of the others in the same region.&lt;/p&gt;</translation>
+        </translations>
+      </field>
+      <field id="REG_AGG">
+        <translations>
+          <translation lang="ru"/>
+          <translation lang="en">&lt;h2&gt;Regional aggregates:&lt;/h2&gt;
+&lt;p&gt;The aggregation for global and regional estimations is done by summing up the values of the various parameters constituting the elements of the formula, i.e. value added by sector and water use by sector. The aggregated indicator is then calculated by applying the formula with those aggregated data, as if it were a single country.&lt;/p&gt;
+&lt;p&gt;An Excel sheet with the calculations is being prepared, and will be shared with the IAEG if required.&lt;/p&gt;</translation>
+        </translations>
+      </field>
+      <field id="DOC_METHOD">
+        <translations>
+          <translation lang="ru"/>
+          <translation lang="en">&lt;h2&gt;Methods and guidance available to countries for the compilation of the data at the national level:&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;NA&lt;/li&gt;
+&lt;/ul&gt;</translation>
+        </translations>
+      </field>
+      <field id="QUALITY_MGMNT">
+        <translations>
+          <translation lang="ru"/>
+          <translation lang="en"/>
+        </translations>
+      </field>
+      <field id="QUALITY_ASSURE">
+        <translations>
+          <translation lang="ru"/>
+          <translation lang="en">&lt;h2&gt;Quality assurance:&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;NA&lt;/li&gt;
+&lt;/ul&gt;</translation>
+        </translations>
+      </field>
+      <field id="QUALITY_ASSMNT">
+        <translations>
+          <translation lang="ru"/>
+          <translation lang="en"/>
+        </translations>
+      </field>
+      <field id="COVERAGE">
+        <translations>
+          <translation lang="ru"/>
+          <translation lang="en">&lt;h1&gt;Data availability&lt;/h1&gt;
+&lt;p&gt;Presently, the data needed for the indicator are collected by AQASTAT and the other databases for 168 countries worldwide.&lt;/p&gt;
+&lt;p&gt;Breakdown of the number of countries covered by region is as follows:&lt;/p&gt;
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;
+        &lt;p&gt;World&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td&gt;
+        &lt;p&gt;168&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;
+        &lt;p&gt;Africa&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td&gt;
+        &lt;p&gt;51&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;
+        &lt;p&gt;Northern Africa&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td&gt;
+        &lt;p&gt;6&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;
+        &lt;p&gt;Sub-Saharan Africa&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td&gt;
+        &lt;p&gt;45&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;
+        &lt;p&gt;Eastern Africa&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td&gt;
+        &lt;p&gt;16&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;
+        &lt;p&gt;Middle Africa&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td&gt;
+        &lt;p&gt;8&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;
+        &lt;p&gt;Southern Africa&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td&gt;
+        &lt;p&gt;5&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;
+        &lt;p&gt;Western Africa&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td&gt;
+        &lt;p&gt;16&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;
+        &lt;p&gt;Americas&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td&gt;
+        &lt;p&gt;30&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;
+        &lt;p&gt;Latin America and the Caribbean&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td&gt;
+        &lt;p&gt;28&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;
+        &lt;p&gt;Caribbean&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td&gt;
+        &lt;p&gt;8&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;
+        &lt;p&gt;Latin America&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td&gt;
+        &lt;p&gt;20&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;
+        &lt;p&gt;Northern America&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td&gt;
+        &lt;p&gt;2&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;
+        &lt;p&gt;Asia&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td&gt;
+        &lt;p&gt;46&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;
+        &lt;p&gt;Central Asia&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td&gt;
+        &lt;p&gt;5&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;
+        &lt;p&gt;Eastern Asia&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td&gt;
+        &lt;p&gt;5&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;
+        &lt;p&gt;Southern Asia&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td&gt;
+        &lt;p&gt;8&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;
+        &lt;p&gt;South-Eastern Asia&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td&gt;
+        &lt;p&gt;10&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;
+        &lt;p&gt;Western Asia&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td&gt;
+        &lt;p&gt;18&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;
+        &lt;p&gt;Europe&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td&gt;
+        &lt;p&gt;37&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;
+        &lt;p&gt;Eastern Europe&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td&gt;
+        &lt;p&gt;10&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;
+        &lt;p&gt;Northern Europe&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td&gt;
+        &lt;p&gt;10&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;
+        &lt;p&gt;Southern Europe&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td&gt;
+        &lt;p&gt;10&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;
+        &lt;p&gt;Western Europe&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td&gt;
+        &lt;p&gt;7&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;
+        &lt;p&gt;Oceania&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td&gt;
+        &lt;p&gt;4&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;
+        &lt;p&gt;Australia and New Zealand&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td&gt;
+        &lt;p&gt;2&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;
+        &lt;p&gt;Melanesia&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td&gt;
+        &lt;p&gt;2&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;
+        &lt;p&gt;Micronesia&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td&gt;
+        &lt;p&gt;0&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;
+        &lt;p&gt;Polynesia&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td&gt;
+        &lt;p&gt;0&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2&gt;Disaggregation:&lt;/h2&gt;
+&lt;p&gt;The indicator covers all the economic sectors according to the ISIC classification, providing the means for more detailed analysis of the water use efficiency for national planning and decision-making. &lt;/p&gt;
+&lt;p&gt;Although the subdivision into three major aggregated economic sectors as defined in chapter 3 is sufficient for the purpose of compiling the indicator, wherever possible it is advisable to further disaggregate the indicator, according to the following criteria:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;Economically, a more refined subdivision of the economic sector can be done using ISIC Rev.4 by the following groups:&lt;ol&gt;
+      &lt;li&gt;Agriculture, Forestry and Fisheries (ISIC A); &lt;/li&gt;
+      &lt;li&gt;Mining and Quarrying (ISIC B); &lt;/li&gt;
+      &lt;li&gt;Manufacturing (ISIC C);&lt;/li&gt;
+      &lt;li&gt;Electricity, Gas, Steam and Air Conditioning Supply (ISIC D); &lt;/li&gt;
+      &lt;li&gt;Water Supply, Sewerage, Waste Management and Remediation Activities (ISIC E), by&lt;/li&gt;
+      &lt;li&gt;Water Collection, Treatment and Supply (ISIC 36) &lt;ol&gt;
+          &lt;li&gt;Sewerage (ISIC 37)&lt;/li&gt;
+          &lt;li&gt;Construction (ISIC F)&lt;/li&gt;
+        &lt;/ol&gt;
+      &lt;/li&gt;
+      &lt;li&gt;Other industries (sum of remaining industries)&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Geographically, computing the indicator by river basin, watershed or administrative units within a country.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;These levels of disaggregation, or a combination of those, will give further insight on the dynamics of water use efficiency, providing information for remedial policies and actions.&lt;/p&gt;</translation>
+        </translations>
+      </field>
+      <field id="COMPARABILITY">
+        <translations>
+          <translation lang="ru"/>
+          <translation lang="en">&lt;h2&gt;Sources of discrepancies:&lt;/h2&gt;
+&lt;p&gt;Regional differences, in particular in relation to irrigated agriculture and different climatic conditions (including variability), are to be considered in the interpretation of this indicator, especially in countries with large amounts of available water resources. Also for this reason, coupling this indicator with water stress (6.4.2) is important for the interpretation of the data.&lt;/p&gt;
+&lt;h2&gt;Obtaining internationally comparable data for global monitoring:&lt;/h2&gt;
+&lt;p&gt;Data for this indicator are collected through a questionnaire/calculation sheet that allows countries to identify the needed parameters, and provide some preliminary control checks.&lt;/p&gt;
+&lt;p&gt;The data so collected are then reviewed by FAO experts, also through the GEMI team if needed. The finding of the review is then shared with the country, in order to ensure consistency and harmonization of methods, definitions and results.&lt;/p&gt;
+&lt;p&gt;FAO has prepared a Step-by-step methodological paper, in order to provide a technical guide for the country teams. Moreover, an e-learning tool, in the form of a course on-line, is being prepared and will be ready early in 2018. Finally, an overall manual is being drafted.&lt;/p&gt;</translation>
+        </translations>
+      </field>
+      <field id="OTHER_DOC">
+        <translations>
+          <translation lang="ru"/>
+          <translation lang="en">&lt;h1&gt;References&lt;/h1&gt;
+&lt;ul&gt;
+  &lt;li&gt;AQUASTAT main page: &lt;a href="http://www.fao.org/nr/water/aquastat/main/index.stm"&gt;http://www.fao.org/nr/water/aquastat/main/index.stm&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;AQUASTAT glossary: &lt;a href="http://www.fao.org/nr/water/aquastat/data/glossary/search.html"&gt;http://www.fao.org/nr/water/aquastat/data/glossary/search.html&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;AQUASTAT Main country database: &lt;a href="http://www.fao.org/nr/water/aquastat/data/query/index.html?lang=en"&gt;http://www.fao.org/nr/water/aquastat/data/query/index.html?lang=en&lt;/a&gt; &lt;/li&gt;
+  &lt;li&gt;AQUASTAT Water use: &lt;a href="http://www.fao.org/nr/water/aquastat/water_use/index.stm"&gt;http://www.fao.org/nr/water/aquastat/water_use/index.stm&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;AQUASTAT Water resources: &lt;a href="http://www.fao.org/nr/water/aquastat/water_res/index.stm"&gt;http://www.fao.org/nr/water/aquastat/water_res/index.stm&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;AQUASTAT publications dealing with concepts, methodologies, definitions, terminologies, metadata, etc.: &lt;a href="http://www.fao.org/nr/water/aquastat/catalogues/index.stm"&gt;http://www.fao.org/nr/water/aquastat/catalogues/index.stm&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;AQUASTAT Quality Control: &lt;a href="http://www.fao.org/nr/water/aquastat/sets/index.stm&amp;quot; \l &amp;quot;main"&gt;http://www.fao.org/nr/water/aquastat/sets/index.stm#main&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;AQUASTAT Guidelines: &lt;a href="http://www.fao.org/nr/water/aquastat/sets/aq-5yr-guide_eng.pdf"&gt;http://www.fao.org/nr/water/aquastat/sets/aq-5yr-guide_eng.pdf&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;FAOSTAT production database: &lt;a href="http://faostat3.fao.org/download/Q/*/E"&gt;http://faostat3.fao.org/download/Q/*/E&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;UNSD/UNEP Questionnaire on Environment Statistics &amp;#x2013; Water Section: &lt;a href="http://unstats.un.org/unsd/environment/questionnaire.htm"&gt;http://unstats.un.org/unsd/environment/questionnaire.htm&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="http://unstats.un.org/unsd/environment/qindicators.htm"&gt;http://unstats.un.org/unsd/environment/qindicators.htm&lt;/a&gt; &lt;/li&gt;
+  &lt;li&gt;Framework for the Development of Environment Statistics (FDES 2013) (Chapter 3): &lt;a href="http://unstats.un.org/unsd/environment/FDES/FDES-2015-supporting-tools/FDES.pdf"&gt;http://unstats.un.org/unsd/environment/FDES/FDES-2015-supporting-tools/FDES.pdf&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;International Recommendations for Water Statistics (IRWS) (2012): &lt;a href="http://unstats.un.org/unsd/envaccounting/irws/"&gt;http://unstats.un.org/unsd/envaccounting/irws/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;OECD/Eurostat Questionnaire on Environment Statistics &amp;#x2013; Water Section: &lt;a href="http://ec.europa.eu/eurostat/web/environment/water"&gt;http://ec.europa.eu/eurostat/web/environment/water&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;OECD National Accounts data files: &lt;a href="http://www.oecd-ilibrary.org/economics/data/oecd-national-accounts-statistics_na-data-en"&gt;http://www.oecd-ilibrary.org/economics/data/oecd-national-accounts-statistics_na-data-en&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;SEEA-Water: &lt;a href="https://seea.un.org/sites/seea.un.org/files/seeawaterwebversion_final_en.pdf"&gt;https://seea.un.org/sites/seea.un.org/files/seeawaterwebversion_final_en.pdf&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;SEEA Central Framework: &lt;a href="https://seea.un.org/sites/seea.un.org/files/seea_cf_final_en.pdf"&gt;https://seea.un.org/sites/seea.un.org/files/seea_cf_final_en.pdf&lt;/a&gt; &lt;/li&gt;
+  &lt;li&gt;UNSD National Accounts Main Aggregates Database: &lt;a href="http://unstats.un.org/unsd/snaama/selbasicFast.asp"&gt;http://unstats.un.org/unsd/snaama/selbasicFast.asp&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;World Bank Databank (World Economic Indicators) &lt;a href="http://databank.worldbank.org/data/home.aspx"&gt;http://databank.worldbank.org/data/home.aspx&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;ISIC rev. 4: &lt;a href="https://unstats.un.org/unsd/cr/registry/regcst.asp?Cl=27"&gt;https://unstats.un.org/unsd/cr/registry/regcst.asp?Cl=27&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</translation>
+        </translations>
+      </field>
+    </fields>
+  </indicator>
   <indicator id="6-4-2">
     <fields>
       <field id="SDG_INDICATOR_INFO">
