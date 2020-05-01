@@ -155,14 +155,15 @@ function getTranslationStore() {
  */
 function buildTranslationStore() {
     const translations = {}
-    const gettextInput = new GettextInput()
 
     // Construct an object with all the individual translations of fields.
     for (const languageFolder of fs.readdirSync(baseFolder)) {
 
         const sourceFolder = path.join(baseFolder, languageFolder)
-        const language = (languageFolder === sourceLanguageFolder) ? sourceLanguage : languageFolder
-        const extension = (languageFolder === sourceLanguageFolder) ? '.pot' : 'po'
+        const isSourceLanguage = (languageFolder === sourceLanguageFolder)
+        const language = (isSourceLanguage) ? sourceLanguage : languageFolder
+        const gettextInput = new GettextInput({ sourceStrings: isSourceLanguage })
+        const extension = (languageFolder === sourceLanguageFolder) ? '.pot' : '.po'
         translations[language] = {}
 
         const files = fs.readdirSync(sourceFolder).filter(file => {
