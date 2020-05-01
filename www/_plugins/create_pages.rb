@@ -66,7 +66,10 @@ module SdgMetadataPlugins
       site.data['store']['metadata'].each do |language, indicators|
         dir = File.join('metadata', language) + '/'
         layout = 'language'
-        title = 'Language: ' + site.config['languages'][language]
+        title = 'Language: ' + language
+        if site.data['languages'].key?(language)
+          title = 'Language: ' + site.data['languages'][language]['name']
+        end
         content = ''
         language = language
         data = {'indicators' => indicators.keys.sort_by { |k| get_sort_order(k) }}
