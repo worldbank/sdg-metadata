@@ -6,6 +6,54 @@
 		<languages>
 			<language lang="fr">
 					<indicators>
+						<indicator id="1-1-1a">
+								<fields>
+									<field id="SDG_GOAL"/>
+									<field id="SDG_TARGET"/>
+									<field id="SDG_INDICATOR"/>
+									<field id="META_LAST_UPDATE"/>
+									<field id="SDG_CUSTODIAN_AGENCIES"/>
+									<field id="STAT_CONC_DEF"/>
+									<field id="SOURCE_TYPE"/>
+									<field id="COLL_METHOD"/>
+									<field id="FREQ_COLL"/>
+									<field id="REL_CAL_POLICY"/>
+									<field id="DATA_SOURCE"/>
+									<field id="COMPILING_ORG"/>
+									<field id="RATIONALE"/>
+									<field id="REC_USE_LIM"/>
+									<field id="DATA_COMP"/>
+									<field id="IMPUTATION"/>
+									<field id="REG_AGG"/>
+									<field id="COVERAGE"/>
+									<field id="COMPARABILITY"/>
+									<field id="OTHER_DOC"/>
+									<field id="SDG_INDICATOR_INFO"/>
+									<field id="SDG_SERIES_DESCR"/>
+									<field id="SDG_RELATED_INDICATORS"/>
+									<field id="CONTACT"/>
+									<field id="CONTACT_ORGANISATION"/>
+									<field id="CONTACT_NAME"/>
+									<field id="ORGANISATION_UNIT"/>
+									<field id="CONTACT_FUNCT"/>
+									<field id="CONTACT_PHONE"/>
+									<field id="CONTACT_MAIL"/>
+									<field id="CONTACT_EMAIL"/>
+									<field id="IND_DEF_CON_CLASS"/>
+									<field id="UNIT_MEASURE"/>
+									<field id="CLASS_SYSTEM"/>
+									<field id="SRC_TYPE_COLL_METHOD"/>
+									<field id="INST_MANDATE"/>
+									<field id="OTHER_METHOD"/>
+									<field id="DATA_VALIDATION"/>
+									<field id="ADJUSTMENT"/>
+									<field id="DOC_METHOD"/>
+									<field id="QUALITY_MGMNT"/>
+									<field id="QUALITY_ASSURE"/>
+									<field id="QUALITY_ASSMNT"/>
+</fields>
+
+						</indicator>
 						<indicator id="10-6-1">
 								<fields>
 									<field id="SDG_GOAL"/>
@@ -51,54 +99,6 @@
 									<field id="QUALITY_ASSURE"/>
 									<field id="QUALITY_ASSMNT"/>
 									<field id="COMPARABILITY"/>
-</fields>
-
-						</indicator>
-						<indicator id="1-1-1a">
-								<fields>
-									<field id="SDG_INDICATOR_INFO"/>
-									<field id="SDG_GOAL"/>
-									<field id="SDG_TARGET"/>
-									<field id="SDG_INDICATOR"/>
-									<field id="SDG_SERIES_DESCR"/>
-									<field id="META_LAST_UPDATE"/>
-									<field id="SDG_RELATED_INDICATORS"/>
-									<field id="SDG_CUSTODIAN_AGENCIES"/>
-									<field id="CONTACT"/>
-									<field id="CONTACT_ORGANISATION"/>
-									<field id="CONTACT_NAME"/>
-									<field id="ORGANISATION_UNIT"/>
-									<field id="CONTACT_FUNCT"/>
-									<field id="CONTACT_PHONE"/>
-									<field id="CONTACT_MAIL"/>
-									<field id="CONTACT_EMAIL"/>
-									<field id="IND_DEF_CON_CLASS"/>
-									<field id="STAT_CONC_DEF"/>
-									<field id="UNIT_MEASURE"/>
-									<field id="CLASS_SYSTEM"/>
-									<field id="SRC_TYPE_COLL_METHOD"/>
-									<field id="SOURCE_TYPE"/>
-									<field id="COLL_METHOD"/>
-									<field id="FREQ_COLL"/>
-									<field id="REL_CAL_POLICY"/>
-									<field id="DATA_SOURCE"/>
-									<field id="COMPILING_ORG"/>
-									<field id="INST_MANDATE"/>
-									<field id="OTHER_METHOD"/>
-									<field id="RATIONALE"/>
-									<field id="REC_USE_LIM"/>
-									<field id="DATA_COMP"/>
-									<field id="DATA_VALIDATION"/>
-									<field id="ADJUSTMENT"/>
-									<field id="IMPUTATION"/>
-									<field id="REG_AGG"/>
-									<field id="DOC_METHOD"/>
-									<field id="QUALITY_MGMNT"/>
-									<field id="QUALITY_ASSURE"/>
-									<field id="QUALITY_ASSMNT"/>
-									<field id="COVERAGE"/>
-									<field id="COMPARABILITY"/>
-									<field id="OTHER_DOC"/>
 </fields>
 
 						</indicator>
@@ -1174,7 +1174,16 @@
 &lt;p&gt;Мониторинг бедности имеет важное значение для глобальной повестке дня в области развития, также как и для национальной повестке дня в области развития во многих странах. Всемирный банк подготовил свои первые глобальные оценки нищеты в развивающихся странах для Доклада о мировом развитии за 1990 год: Бедность (Всемирный Банк, 1990 г.), используя данные обследования домашних хозяйств по 22 странам (Равальон, Датт и ван де Валле, 1991 г.). С тех пор число стран, в которых проводятся обследования доходов и расходов домашних хозяйств, значительно возросло. Группа Всемирного банка по исследованиям в области развития ведет базу данных, которая ежегодно обновляется по мере поступления новых данных обследований (и, таким образом, может включать более свежие или пересмотренные данные), и каждый год проводит серьезную переоценку прогресса в деле борьбы с нищетой. PovcalNet представляет собой интерактивный вычислительный инструмент, который позволяет пользователям моделировать эти международно-сопоставимые оценки нищеты для уровней в 1,90 долл. США и 3,10 долл. США в день в глобальном, региональном и страновом разрезах, а также производить оценку нищеты для индивидуально отобранных групп стран и для различных уровней бедности. &lt;/p&gt;
 &lt;p&gt;Портал данных по бедности и равенству предоставляет доступ к базе данных и удобным для пользователя информационным панелям с графиками и интерактивными картами, которые визуализируют тенденции по ключевым показателям бедности и неравенства для различных регионов и стран. На страновых информационных панелях отображаются тенденции в оценках бедности, основанные на национальных уровнях бедности, наряду с международно-сопоставимыми оценками, составленными на основе данных и совместимых с данными из PovcalNet.&lt;/p&gt;.
 									</field>
-									<field id="REC_USE_LIM"/>
+									<field id="REC_USE_LIM">## Комментарии и ограничения
+
+Пять стран - Бангладеш, Кабо-Верде, Камбоджа, Иордания и Лаос - используют коэффициенты пересчета ППС 2005 года и соответствующие уровни бедности в 1,25 долл. США в день и 2 долл. США в день. Это связано с большими отклонениями в темпах изменения коэффициентов ППС по сравнению с темпами изменения внутренних индексов потребительских цен. См. вставку 1.1 в Докладе по вопросам глобального мониторинга за 2015/2016 годы. (Http://www.worldbank.org/en/publication/global-monitoring-report) для подробного объяснения.
+
+Несмотря на прогресс, достигнутый за последнее десятилетие, проблемы измерения бедности остаются. Своевременность, частота, качество и сопоставимость обследований домашних хозяйств должны быть существенно повышены, особенно в самых бедных странах. Доступность и качество данных мониторинга бедности остается низким в небольших государствах, странах с нестабильным положением, странах с низким уровнем дохода и даже в некоторых странах со средним уровнем дохода. Низкая частота и недостаточная сопоставимость данных, имеющихся в некоторых странах, создают неопределенность в отношении масштабов сокращения бедности.
+
+Помимо частоты и своевременности данных обследований, при измерении уровня жизни домохозяйств возникают и другие проблемы качества данных. При проведении обследования задаются подробные вопросы об источниках доходов и о том, как они были потрачены, которые должны быть тщательно зарегистрированы обученным персоналом. Доход, как правило, сложнее точно оценить, а потребление более близко к понятию уровня жизни. К тому же доход может меняться со временем, а уровень жизни остается прежним. Но данные о потреблении не всегда доступны: последние оценки, представленные здесь, используют данные по потреблению примерно для двух третей стран.
+
+Тем не менее, даже подобные обследования не могут быть строго сопоставимыми из-за различий в сроках или в качестве, а также уровне подготовки переписчиков. Сравнения стран на разных уровнях развития также представляют потенциальную проблему из-за различий в относительной важности потребления нерыночных товаров. Величина всего объема потребления в натуральной форме, выраженная в ценах местного рынка (включая собственное производство, что особенно важно в слаборазвитых сельских экономических структурах) должна быть включена в общие расходы на потребление, но может и не  входить в учет. Большинство данных обследования в настоящее время включают оценки потребления или дохода от собственного производства, но методы оценки различаются.
+									</field>
 									<field id="DATA_COMP"/>
 									<field id="IMPUTATION"/>
 									<field id="REG_AGG"/>
