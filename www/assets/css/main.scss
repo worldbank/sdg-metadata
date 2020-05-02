@@ -7,6 +7,15 @@
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}";
 @import "minimal-mistakes";
 
+.worldbank-logo {
+  max-width: 50%;
+  margin-top: 10px;
+}
+
+.greedy-nav .visible-links {
+  margin-bottom: auto;
+}
+
 #architecture-diagram {
   padding: 50px 20px 20px 20px;
   width: 100%;
