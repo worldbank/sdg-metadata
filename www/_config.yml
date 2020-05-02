@@ -23,13 +23,13 @@ analytics:
 # Site Footer
 footer:
   links:
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: https://github.com/worldbank/sdg-metadata
     - label: "World Bank"
       url: https://www.worldbank.org/
     - label: ECASTAT
       url: https://www.worldbank.org/en/data/statistical-capacity-building/ecastat
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: https://github.com/worldbank/sdg-metadata
 
 encoding: "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
