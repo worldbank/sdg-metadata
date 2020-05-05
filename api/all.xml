@@ -51,10 +51,36 @@
 									<field id="COMPILING_ORG">&lt;h1&gt;Compilateurs de données&lt;/h1&gt;
 &lt;p&gt;Banque mondiale&lt;/p&gt;
 									</field>
-									<field id="RATIONALE"/>
-									<field id="REC_USE_LIM"/>
-									<field id="DATA_COMP"/>
-									<field id="IMPUTATION"/>
+									<field id="RATIONALE">&lt;h2&gt;Raisonnement :&lt;/h2&gt;
+&lt;p&gt;Le suivi de la pauvreté est important dans le programme de développement mondial ainsi que dans le programme de développement national de nombreux pays. La Banque mondiale a produit ses premières estimations de la pauvreté dans les pays en développement pour le Rapport sur le développement dans le monde 1990 : Pauvreté (Banque mondiale 1990) en utilisant des données d&apos;enquêtes sur les ménages pour 22 pays (Ravallion, Datt, et van de Walle 1991). Depuis lors, le nombre de pays qui réalisent des enquêtes sur les revenus et les dépenses des ménages a considérablement augmenté. Le Groupe de recherche sur le développement de la Banque mondiale maintient une base de données qui est mise à jour chaque année à mesure que de nouvelles données d&apos;enquête sont disponibles (et peut donc contenir des données plus récentes ou des révisions) et procède chaque année à une réévaluation majeure des progrès réalisés dans la lutte contre la pauvreté. PovcalNet est un outil de calcul interactif qui permet aux utilisateurs de reproduire ces estimations de la pauvreté au niveau mondial, régional et national, comparables au niveau international de 1,90 $ et 3,10 $ par jour, et de calculer des mesures de la pauvreté pour des groupes de pays personnalisés et pour différents seuils de pauvreté. &lt;/p&gt;
+&lt;p&gt;Le portail des Données sur la pauvreté et l&apos;équité donne accès à la base de données et à des tableaux de bord conviviaux avec des graphiques et des cartes interactives qui permet de visualiser les tendances des principaux indicateurs de pauvreté et d&apos;inégalité pour différentes régions et différents pays. Les tableaux de bord des pays affichent les tendances des mesures de la pauvreté basées sur les seuils de pauvreté nationaux ainsi que les estimations comparables au niveau international, produites à partir de PovcalNet et en accord avec celui-ci.&lt;/p&gt;
+									</field>
+									<field id="REC_USE_LIM">&lt;h2&gt;Commentaires et limites :&lt;/h2&gt;
+&lt;p&gt;Cinq pays &amp;#x2013 ; Bangladesh, Cap-Vert, Cambodge, Jordanie et Laos &amp;#x2013 ; utilisent les facteurs de conversion de PPA de 2005 et les seuils de pauvreté correspondants de 1,25 $ par jour et 2 $ par jour. Cela est dû aux écarts importants entre le taux de variation des facteurs de la PPA et le taux de variation des indices des prix à la consommation intérieur. Voir l&apos;encadré 1.1 du Rapport de suivi mondial 2015/2016 (&lt;a href=&quot;http://www.worldbank.org/en/publication/global-monitoring-report&quot;&gt;http://www.worldbank.org/en/publication/global-monitoring-report&lt;/a&gt;) pour une explication détaillée.&lt;/p&gt;
+&lt;p&gt;Malgré les progrès réalisés au cours de la dernière décennie, la mesure de la pauvreté reste un défi. L&apos;actualité, la fréquence, la qualité et la comparabilité des enquêtes sur les ménages doivent augmenter considérablement, en particulier dans les pays les plus pauvres. La disponibilité et la qualité des données de suivi de la pauvreté restent faibles dans les petits États, les pays en situation de fragilité, les pays à faible revenu et même certains pays à revenu intermédiaire. La faible fréquence et le manque de comparabilité des données disponibles dans certains pays créent une incertitude quant à l&apos;ampleur de la réduction de la pauvreté.&lt;/p&gt;
+&lt;p&gt;En plus de la fréquence et de l&apos;actualité des données d&apos;enquête, d&apos;autres problèmes relié à la qualité des données se posent lors de la mesure du niveau de vie des ménages. Les enquêtes posent des questions détaillées sur les sources de revenus et la manière dont ils ont été dépensés, qui doivent être soigneusement enregistrées par un personnel qualifié. Les revenus sont généralement plus difficiles à mesurer avec précision, et la consommation se rapproche de la notion de niveau de vie. De plus, les revenus peuvent varier dans le temps, même si le niveau de vie ne varie pas. Mais les données sur la consommation ne sont pas toujours disponibles : les dernières estimations présentées ici utilisent des données sur la consommation pour environ deux tiers des pays.&lt;/p&gt;
+&lt;p&gt; Cependant, même des enquêtes similaires peuvent ne pas être strictement comparables en raison de différences dans le calendrier ou dans la qualité et la formation des recenseurs. Les comparaisons entre des pays ayant des niveaux de développement différents posent également un problème potentiel en raison des différences dans l&apos;importance relative de la consommation de biens non marchands. La valeur marchande locale de toute consommation en nature (y compris la production propre, particulièrement importante dans les économies rurales sous-développées) doit être incluse dans les dépenses totales de consommation, mais ne l&apos;est pas forcément. La plupart des données d&apos;enquête comprennent maintenant des évaluations pour la consommation ou le revenu de la production propre, mais les méthodes d&apos;évaluation varient.&lt;/p&gt;
+									</field>
+									<field id="DATA_COMP">&lt;h1&gt;Méthodologie&lt;/h1&gt;
+&lt;h2&gt;Méthode de calcul :&lt;/h2&gt;
+&lt;p&gt;Pour mesurer la pauvreté de manière cohérente dans les différents pays, les mesures internationales de la Banque mondiale appliquent une norme commune, ancrée sur ce que &amp;#x201C;pauvreté&amp;#x201D; signifie dans les pays les plus pauvres du monde. La ligne originale de &amp;#x201C;1$ par jour&amp;#x201D ; était basée sur une compilation de lignes nationales pour seulement 22 pays en développement, provenant principalement d&amp;#8217études académique des années 1980 (Ravallion, et al., 1991). Bien qu&apos;il s&apos;agisse de la meilleure méthode possible à l&apos;époque, l&apos;échantillon n&apos;était guère représentatif des pays en développement, même dans les années 80. Depuis lors, des seuils de pauvreté nationaux ont été établis pour de nombreux autres pays. Sur la base d&apos;une nouvelle compilation des seuils nationaux pour 75 pays en développement, Ravallion, Chen et Sangraula (RCS) (2009) ont proposé un nouveau seuil de pauvreté international de 1,25 dollar par jour. Il s&apos;agit du seuil de pauvreté moyen pour les 15 pays les plus pauvres de leur ensemble de données. &lt;/p&gt;
+&lt;p&gt;Le seuil de pauvreté extrême actuel est fixé à 1,90 dollar par jour en PPA de 2011, ce qui représente la moyenne des seuils de pauvreté nationaux des 15 pays les plus pauvres classés selon la consommation par habitant. Le nouveau seuil de pauvreté maintient la même norme pour l&apos;extrême pauvreté - le seuil de pauvreté typique des pays les plus pauvres du monde - mais le met à jour en utilisant les  informations les plus récentes sur le coût de la vie dans les pays en développement. &lt;/p&gt;
+&lt;p&gt;Lors de la mesure de la pauvreté internationale d&apos;un pays, le seuil de pauvreté international en PPA est converti en monnaie locale au prix de 2011 et est ensuite converti aux prix en vigueur au moment de l&apos;enquête auprès des ménages concernée en utilisant le meilleur indice des prix à la consommation (IPC) disponible. (De même, les données de l&apos;enquête sur la consommation ou le revenu des ménages pour l&apos;année d&apos;enquête sont exprimées aux prix de l&apos;année de base du PCI, puis converties en $ de PPA&amp;#x2019;s.) ) Le taux de pauvreté est ensuite calculé à partir de cette enquête. Toutes les comparaisons intertemporelles sont en termes réels, car elles sont évaluées à l&apos;aide de l&apos;IPC spécifique au pays. Des méthodes d&apos;interpolation/extrapolation sont utilisées pour aligner les estimations basées sur l&apos;enquête sur ces années de référence.&lt;/p&gt;
+									</field>
+									<field id="IMPUTATION">&lt;h2&gt;Traitement des valeurs manquantes :&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt; Au niveau des pays :&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Il n&apos;y a pas d&apos; &amp;#x201C;imputation&amp;#x201D ; au sens traditionnel du terme pour les données nationales manquantes. Toutefois, pour générer des agrégats régionaux et mondiaux pour les années de référence, les données nationales sont imputées pour les années où aucune enquête n&apos;est menée. Ces données imputées sont utilisées pour l&apos;agrégation, mais pas pour remplacer les données d&apos;enquête réelles. La section suivante sur le traitement des valeurs manquantes aux niveaux régional et mondial fournit plus de détails sur la méthode d&apos;imputation.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt; Aux niveaux régional et mondial :&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Pour comparer les taux de pauvreté entre pays et calculer des agrégats régionaux, les estimations des pays doivent être &amp;#x201C;alignées&amp;#x201D ; d&apos;abord sur une année de référence commune, en interpolant pour les pays pour lesquels les données d&apos;enquête ne sont pas disponibles pour l&apos;année de référence mais sont disponibles soit avant, soit après, soit les deux. Plus il y a de données d&apos;enquête disponibles (c&apos;est-à-dire plus il y a de données pour différentes années), plus l&apos;interpolation est précise.&lt;/p&gt;
+&lt;p&gt;Le processus nécessite d&apos;ajuster la moyenne des revenus ou des dépenses observés au cours de l&apos;année d&apos;enquête par un facteur de croissance pour en déduire le niveau non observé au cours de l&apos;année de référence. Ainsi, deux hypothèses sont nécessaires pour mettre en œuvre ce processus : une croissance neutre sur le plan de la distribution et un taux de croissance réel entre l&apos;année d&apos;enquête et l&apos;année de référence.&lt;/p&gt;
+&lt;p&gt;La croissance neutre sur le plan de la distribution implique que les niveaux de revenus ou de dépenses sont ajustés en fonction de la croissance en supposant que la distribution relative sous-jacente des revenus ou des dépenses observée au cours des années d&apos;enquête reste inchangée. Sous cette hypothèse, il est facile d&apos;interpoler l&apos;estimation de la pauvreté pour une année de référence donnée selon un taux de croissance donné des revenus ou des dépenses. Les taux de variation de la consommation réelle par habitant doivent être basés sur la variation de la consommation réelle mesurée en comparant les données d&apos;enquête des pays sur différentes années. Dans la pratique, cependant, les données d&apos;enquête de la plupart des pays ne sont pas disponibles sur une base annuelle. Par conséquent, on utilise à la place la variation de la consommation privée par habitant telle que mesurée à partir des comptes nationaux. Bien qu&apos;il ne soit pas possible de garantir que la mesure du revenu ou de la consommation basée sur l&apos;enquête évolue exactement au même rythme que la consommation privée dans les comptes nationaux, il semble que ce soit la meilleure option disponible.&lt;/p&gt;
+&lt;p&gt;Lorsque l&apos;année de référence se situe entre deux années d&apos;enquête, une estimation de la consommation moyenne pour l&apos;année de référence est construite en extrapolant les moyennes obtenues à partir des enquêtes précédant et suivant l&apos;année de référence. La deuxième étape consiste à calculer le taux de pauvreté par habitant à l&apos;année de référence après avoir normalisé les distributions observées au cours des deux années d&apos;enquête par la moyenne de l&apos;année de référence. On obtient ainsi deux estimations des taux de pauvreté par habitant au cours de l&apos;année de référence. Le taux de pauvreté par habitant final déclaré pour les années de référence est l&apos;interpolation linéaire des deux. Lorsque les données d&apos;une seule année d&apos;enquête sont disponibles, la moyenne de l&apos;année de référence est basée sur la moyenne de l&apos;enquête en appliquant le taux de croissance de la consommation privée par habitant provenant des comptes nationaux. L&apos;estimation de la pauvreté pour l&apos;année de référence est alors basée sur cette moyenne et sur la distribution observée au cours de la seule année d&apos;enquête. Plus la couverture des données est bonne en termes de nombre et de fréquence des enquêtes disponibles, plus ce processus d&apos;alignement est précis et plus les estimations régionales seront fiables.&lt;/p&gt;
+&lt;p&gt;Le ratio agrégé par habitant pour une région est la moyenne pondérée par la population des indices de pauvreté dans les pays de cette région. Le nombre de pauvres dans chaque région est le produit de l&amp;#8217indice de pauvreté de la région et de la population régionale totale. Cela suppose que le taux de pauvreté d&apos;un pays sans enquête sur les ménages est la moyenne régionale.&lt;/p&gt;
+									</field>
 									<field id="REG_AGG">&lt;h2&gt;Agrégats régionaux:&lt;/h2&gt;
 &lt;p&gt;Étant donné que les enquêtes ne sont pas menées chaque année dans la plupart des pays, les estimations de la pauvreté doivent être établies pour les années de référence par interpolation ou extrapolation en utilisant les données des comptes nationaux. Ces estimations pour les années de référence sont ensuite agrégées aux niveaux régionaux et mondiaux. Les agrégats régionaux et mondiaux sont des moyennes pondérées en fonction de la population.&lt;/p&gt;
 									</field>
@@ -96,6 +122,54 @@
 									<field id="DOC_METHOD"/>
 									<field id="QUALITY_MGMNT"/>
 									<field id="QUALITY_ASSURE"/>
+									<field id="QUALITY_ASSMNT"/>
+</fields>
+
+						</indicator>
+						<indicator id="1-1-1b">
+								<fields>
+									<field id="SDG_GOAL"/>
+									<field id="SDG_TARGET"/>
+									<field id="SDG_INDICATOR"/>
+									<field id="META_LAST_UPDATE"/>
+									<field id="SDG_RELATED_INDICATORS"/>
+									<field id="SDG_CUSTODIAN_AGENCIES"/>
+									<field id="STAT_CONC_DEF"/>
+									<field id="SOURCE_TYPE"/>
+									<field id="COLL_METHOD"/>
+									<field id="FREQ_COLL"/>
+									<field id="REL_CAL_POLICY"/>
+									<field id="DATA_SOURCE"/>
+									<field id="COMPILING_ORG"/>
+									<field id="RATIONALE"/>
+									<field id="REC_USE_LIM"/>
+									<field id="DATA_COMP"/>
+									<field id="IMPUTATION"/>
+									<field id="REG_AGG"/>
+									<field id="DOC_METHOD"/>
+									<field id="QUALITY_ASSURE"/>
+									<field id="COVERAGE"/>
+									<field id="COMPARABILITY"/>
+									<field id="OTHER_DOC"/>
+									<field id="SDG_INDICATOR_INFO"/>
+									<field id="SDG_SERIES_DESCR"/>
+									<field id="CONTACT"/>
+									<field id="CONTACT_ORGANISATION"/>
+									<field id="CONTACT_NAME"/>
+									<field id="ORGANISATION_UNIT"/>
+									<field id="CONTACT_FUNCT"/>
+									<field id="CONTACT_PHONE"/>
+									<field id="CONTACT_MAIL"/>
+									<field id="CONTACT_EMAIL"/>
+									<field id="IND_DEF_CON_CLASS"/>
+									<field id="UNIT_MEASURE"/>
+									<field id="CLASS_SYSTEM"/>
+									<field id="SRC_TYPE_COLL_METHOD"/>
+									<field id="INST_MANDATE"/>
+									<field id="OTHER_METHOD"/>
+									<field id="DATA_VALIDATION"/>
+									<field id="ADJUSTMENT"/>
+									<field id="QUALITY_MGMNT"/>
 									<field id="QUALITY_ASSMNT"/>
 </fields>
 
@@ -146,54 +220,6 @@
 									<field id="QUALITY_ASSURE"/>
 									<field id="QUALITY_ASSMNT"/>
 									<field id="COMPARABILITY"/>
-</fields>
-
-						</indicator>
-						<indicator id="1-1-1b">
-								<fields>
-									<field id="SDG_INDICATOR_INFO"/>
-									<field id="SDG_GOAL"/>
-									<field id="SDG_TARGET"/>
-									<field id="SDG_INDICATOR"/>
-									<field id="SDG_SERIES_DESCR"/>
-									<field id="META_LAST_UPDATE"/>
-									<field id="SDG_RELATED_INDICATORS"/>
-									<field id="SDG_CUSTODIAN_AGENCIES"/>
-									<field id="CONTACT"/>
-									<field id="CONTACT_ORGANISATION"/>
-									<field id="CONTACT_NAME"/>
-									<field id="ORGANISATION_UNIT"/>
-									<field id="CONTACT_FUNCT"/>
-									<field id="CONTACT_PHONE"/>
-									<field id="CONTACT_MAIL"/>
-									<field id="CONTACT_EMAIL"/>
-									<field id="IND_DEF_CON_CLASS"/>
-									<field id="STAT_CONC_DEF"/>
-									<field id="UNIT_MEASURE"/>
-									<field id="CLASS_SYSTEM"/>
-									<field id="SRC_TYPE_COLL_METHOD"/>
-									<field id="SOURCE_TYPE"/>
-									<field id="COLL_METHOD"/>
-									<field id="FREQ_COLL"/>
-									<field id="REL_CAL_POLICY"/>
-									<field id="DATA_SOURCE"/>
-									<field id="COMPILING_ORG"/>
-									<field id="INST_MANDATE"/>
-									<field id="OTHER_METHOD"/>
-									<field id="RATIONALE"/>
-									<field id="REC_USE_LIM"/>
-									<field id="DATA_COMP"/>
-									<field id="DATA_VALIDATION"/>
-									<field id="ADJUSTMENT"/>
-									<field id="IMPUTATION"/>
-									<field id="REG_AGG"/>
-									<field id="DOC_METHOD"/>
-									<field id="QUALITY_MGMNT"/>
-									<field id="QUALITY_ASSURE"/>
-									<field id="QUALITY_ASSMNT"/>
-									<field id="COVERAGE"/>
-									<field id="COMPARABILITY"/>
-									<field id="OTHER_DOC"/>
 </fields>
 
 						</indicator>
@@ -1932,7 +1958,33 @@
 &lt;p&gt; Несмотря на строгую взаимосвязь, недоедание,  как здесь определено, отличается от физических условий плохого питания и недостаточного питания, поскольку недоедание относится к состоянию недостаточного потребления пищи, а не к результату с точки зрения состояния питания. На французском, испанском и итальянском языках различие отмечается использованием в названии индикатора терминов alimentation, alimentacin или alimentazione вместо nutrition, nutricin или nutrizione. Более подходящим выражением на английском языке, которое бы отображало точное значение показателя, могло бы быть  распространенность недостаточного кормление, но к настоящему времени термин недоедание давно ассоциируется с этим показателем. &lt;/ Р&gt;
 &lt;p&gt; Принимая во внимание, что условие недоедания применяется к отдельным лицам вследствие концептуальных и связанных с данными соображений, показатель может относиться только к населению или группе лиц. Таким образом, распространенность недоедания является оценкой доли лиц в группе, которые находятся в этом состоянии, но не позволяет определить, какие именно люди в группе фактически недоедают. &lt;/ Р&gt;
 									</field>
-									<field id="SOURCE_TYPE"/>
+									<field id="SOURCE_TYPE">&lt;h1&gt;Источники данных &lt;/h1&gt;
+&lt;h2&gt;Описание: &lt;/h2&gt;
+&lt;p&gt;Идеальным источником данных для оценки распространенности недоедания (PoU) было бы тщательно разработанное и умело проводимое обследование индивидуального рациона питания, при котором фактическое ежедневное потребление пищи вместе с ростом и весом каждого обследуемого лица многократно оценивалось бы с помощью выборки, репрезентативной для обследуемой совокупности. Однако в связи с их стоимостью такие обследования проводятся редко.&lt;/p&gt;.
+&lt;p&gt;В принципе, хорошо спланированное обследование домашних хозяйств, в ходе которого собирается информация о приобретении продуктов питания, может оказаться достаточным для получения достоверной оценки распространенности недоедания среди населения при разумных затратах и с необходимой периодичностью для информационной поддержки процессе мониторинга ЦРТ, при условии, что: &lt;/p&gt;
+&lt;оол&gt;
+  &lt;li&gt; Должным образом учитывается потребления пищи всеми членами домохозяйств из всех источников, включая, в частности, продукты, которые потребляются вне дома; &lt;/li&gt;
+  &lt;li&gt;Имеется достаточно информации для пересчета данных о потреблении пищи или о расходах на продукты питания в оценку их влияния на калорийность пищи; &lt;/li&gt;
+  &lt;li&gt;Используются корректные методы расчета распространенности недоедания (PoU) для контроля избыточной вариативности в оцениваемых уровнях привычного потребления пищи по домохозяйствам, допуская наличие нормальной вариативности в распределении потребления пищи отдельными лицами, вызванной различиями в потребностях в энергии у людей. &lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Примеры обследований, которые можно принять во внимание для этой цели, включают обследования, проводимые для расчета показателей экономической статистики и проведения оценок бедности, такие как обследования доходов и расходов домашних хозяйств, обследования бюджетов домашних хозяйств и обследования уровня жизни.&lt;/p&gt;
+&lt;p&gt;Однако на практике зачастую невозможно и не рекомендуется полагаться только на данные, собранные в ходе обследования домохозяйств, поскольку информация, необходимая для оценки четырех параметров модели распространенности недоедания (PoU), либо отсутствует, либо неточна. &lt;/p&gt;
+&lt;p&gt;Данные о потреблении пищи в рамках обследования домашних хозяйств зачастую должны быть интегрированы с &lt;/p&gt;.
+&lt;оол&gt;
+  &lt;li&gt;Данными о демографической структуре исследуемого населения по полу и возрасту; &lt;/li&gt;.
+  &lt;li&gt;Данными или информацией о среднем росте индивидуумов в каждой половой и возрастной группе; &lt;/li&gt;.
+  &lt;li&gt;Данными о распределении уровней физической активности населения; &lt;/li&gt;.
+  &lt;li&gt;Альтернативными данными об общих количествах продуктов питания, доступных для потребления человеком, необходимыми для корректировки смещений в оценке среднесуточного потребления энергии в рационе питания населения страны. &lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Данные для пунктов a), b) и c) могут быть получены с помощью того же многоцелевого обследования, которое предоставляет данные о потреблении продуктов питания, но более вероятно, что они доступны из других источников, таких как национальные демографические и медицинские обследования (для a) и b)) и обследования использования времени (для c)). &lt;/p&gt;
+&lt;p&gt;Корректировка смещения в оценочном среднесуточном потреблении энергии в рационе, возможно, должна основываться на альтернативных источниках потребления пищи, таких как совокупные счета поставок и потребления продуктов питания и продовольственные балансы.&lt;/p&gt;
+&lt;p&gt;Для формирования оценки  распространенности недоедания (PoU) на национальном, региональном и глобальном уровнях, в дополнение ко всем обследованиям домашних хозяйств, для которых можно получить микроданные по потреблению продуктов питания, ФАО полагается на: &lt;/p&gt;
+&lt;оол&gt;
+  &lt;li&gt;Перспективы мирового населения Отдела ООН по народонаселению(&lt;a href=&quot;https://esa.un.org/unpd/wpp/Download/Standard/Population/&quot;&gt;https://esa.un.org/unpd/wpp/Download/Standard/Population/&lt;/a&gt;), в которых каждые два года представляются по большинству стран мира обновленные оценки структуры населения страны по полу и возрасту; &lt;/li&gt;.
+  &lt;li&gt;Продовольственные балансы ФАО (&lt;a href=&quot;http://faostat3.fao.org/download/FB/*/E&quot;&gt;http://faostat3.fao.org/download/FB/*/E&lt;/a&gt;), которые  ежегодно предоставляют по большинству стран мира обновленные оценки наличия продовольствия в стране.&lt;/li&gt;.
+&lt;/ol&gt;
+&lt;p&gt;Микроданные обследований домашних хозяйств, содержащие данные о потреблении продуктов питания, которые ФАО скачивает непосредственно через веб-сайты национальных статистических управлений или использует для их получения  соответствующие двусторонние соглашения.&lt;/p&gt;.
+									</field>
 									<field id="COLL_METHOD"/>
 									<field id="FREQ_COLL"/>
 									<field id="REL_CAL_POLICY"/>
