@@ -15,5 +15,5 @@ The documents below provide a general **introduction** and **step-by-step instru
 * Step-by-Step Instructions
   * Step 1: Preparing Metadata Files for Conversion into Machine Readable Format
   * Step 2: Converting Word Files into Machine-Readable Format
-  * Step 3: Instructions for the Human Translator
+  * Step 3: [Instructions for the Human Translator](https://docs.google.com/document/d/1Msu8aOVTItkdFIhN6O0snmKRX1wrD7iaW818ssZncXA/edit#heading=h.gjdgxs)
 
