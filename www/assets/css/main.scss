@@ -7,15 +7,36 @@
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}";
 @import "minimal-mistakes";
 
-.worldbank-logo {
-  max-width: 50%;
-  min-width: 140px;
-  margin-bottom: 5px;
-  display: block;
+.masthead {
+  border-bottom: none;
+  &, #site-nav {
+    background: #0071bc;
+  }
+  #site-nav {
+    a {
+      color: white;
+    }
+    a:before {
+      background: white;
+    }
+    .navicon, .navicon:before, .navicon:after {
+      background: white;
+    }
+  }
+  .masthead__menu-item:last-child a {
+    margin-right: 0;
+  }
 }
 
-.greedy-nav .visible-links {
-  margin-bottom: auto;
+.worldbank-logo {
+  padding: 0.5em 1em;
+  max-width: 1280px;
+  width: 100%;
+  text-align: right;
+  margin: 0 auto;
+  img {
+    max-width: 240px;
+  }
 }
 
 #architecture-diagram {
