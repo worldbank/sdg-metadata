@@ -12,13 +12,10 @@ The documents below provide a general **introduction** and **step-by-step instru
 
 * [Introduction to the SDG Metadata Translation Project](https://docs.google.com/presentation/d/16W8f9ryGaTU8rfMls2eszonv3u1O173rpGHnPhmxT4E/edit)
 * Quick Start
-* Step-by-Step Instructions
-
-  *Adding metadata files for translation? Start with steps 1 and 2.*
+* Step-by-Step Instructions:
   * Step 1: Prepare machine readable (and SDMX compliant) metadata files from Word documents
-  * Step 2: Generate and manage machine readable files in Github for translation in Weblate
-
-  *Translating metadata files? Start wtih step 3.*
+  * Step 2: Generate and manage machine readable files in Github for translation in Weblate  
   * Step 3: [Use Weblate to translate machine-readable files and access the output](https://docs.google.com/document/d/1Msu8aOVTItkdFIhN6O0snmKRX1wrD7iaW818ssZncXA/edit#heading=h.gjdgxs)
-
+  
+ *HINT: Adding metadata files for translation? Start with step 1. Translating metadata files? Start wtih step 3.*
 
