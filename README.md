@@ -2,7 +2,7 @@
 
 Evaluating machine translation of indicator metadata for the Sustainable Development Goals.
 
-[Find more information on this project](https://opendataenterprise.github.io/sdg-metadata/).
+[Find more information on this project](https://worldbank.github.io/sdg-metadata/).
 
 ## Requirements
 
