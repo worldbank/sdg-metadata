@@ -30,12 +30,12 @@
 
 .worldbank-logo {
   padding: 0.5em 1em;
-  max-width: 1280px;
-  width: 100%;
-  text-align: right;
-  margin: 0 auto;
   img {
     max-width: 240px;
+  }
+  display: none;
+  @include breakpoint($small) {
+    display: block;
   }
 }
 
