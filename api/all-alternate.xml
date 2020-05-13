@@ -1028,7 +1028,7 @@
       </field>
       <field id="SDG_GOAL">
         <translations>
-          <translation lang="fr"/>
+          <translation lang="fr">&lt;p&gt; Objectif 1 : Éliminer la pauvreté sous toutes ses formes et partout dans le monde &lt;/p&gt;</translation>
           <translation lang="ru">&lt;p&gt;Цель 1: Повсеместная ликвидация нищеты во всех ее формах&lt;/p&gt;</translation>
           <translation lang="ru_UA"/>
           <translation lang="en">&lt;p&gt;Goal 1: End poverty in all its forms everywhere&lt;/p&gt;</translation>
@@ -1036,7 +1036,7 @@
       </field>
       <field id="SDG_TARGET">
         <translations>
-          <translation lang="fr"/>
+          <translation lang="fr">&lt;p&gt; Objectif 1.2 : D'ici à 2030, réduire de moitié au moins la proportion d'hommes, de femmes et d'enfants de tous âges souffrant d’une forme ou l’autre de pauvreté, telle que définie par chaque pays&lt;/p&gt;</translation>
           <translation lang="ru">Целевой показатель: 1.2 К 2030 году сократить долю мужчин, женщин и детей всех возрастов, живущих в нищете во всех ее проявлениях, согласно национальным определениям, по крайней мере наполовину</translation>
           <translation lang="ru_UA"/>
           <translation lang="en">&lt;p&gt;Target: 1.2 By 2030, reduce at least by half the proportion of men, women and children of all ages living in poverty in all its dimensions according to national definitions&lt;/p&gt;</translation>
@@ -1044,7 +1044,7 @@
       </field>
       <field id="SDG_INDICATOR">
         <translations>
-          <translation lang="fr"/>
+          <translation lang="fr">&lt;p&gt;Indicateur 1.2.1 : Proportion de la population vivant sous le seuil de pauvreté national, par sexe et par âge&lt;/p&gt;</translation>
           <translation lang="ru">Индикатор 1.2.1: Доля населения страны, живущего за официальной чертой бедности, в разбивке по полу и возрасту</translation>
           <translation lang="ru_UA"/>
           <translation lang="en">&lt;p&gt;Indicator 1.2.1: Proportion of population living below the national poverty line, by sex and age&lt;/p&gt;</translation>
@@ -1060,7 +1060,7 @@
       </field>
       <field id="META_LAST_UPDATE">
         <translations>
-          <translation lang="fr"/>
+          <translation lang="fr">&lt;p&gt;Dernière mise à jour : 24 janvier 2017&lt;/p&gt;</translation>
           <translation lang="ru">&lt;p&gt;Последнее обновление: 24 января 2017 года &lt;/p&gt;</translation>
           <translation lang="ru_UA"/>
           <translation lang="en">&lt;p&gt;Last updated: 24 January 2017&lt;/p&gt;</translation>
@@ -1076,7 +1076,9 @@
       </field>
       <field id="SDG_CUSTODIAN_AGENCIES">
         <translations>
-          <translation lang="fr"/>
+          <translation lang="fr">&lt;h1&gt;Information institutionnelle&lt;/h1&gt;
+&lt;h2&gt;Organisation(s) :&lt;/h2&gt;
+&lt;p&gt;Banque mondiale (BM)&lt;/p&gt;</translation>
           <translation lang="ru">&lt;h1&gt;Институциональная информация&lt;/h1&gt;
 &lt;h2&gt;Организация(ы):&lt;/h2&gt;
 &lt;p&gt;Всемирный банк&lt;/p&gt;</translation>
@@ -1160,7 +1162,11 @@
       </field>
       <field id="STAT_CONC_DEF">
         <translations>
-          <translation lang="fr"/>
+          <translation lang="fr">&lt;h1&gt;Concepts et définitions&lt;/h1&gt;
+&lt;h2&gt;Définition :&lt;/h2&gt;
+&lt;p&gt;Le taux de pauvreté national est le pourcentage de la population totale vivant sous le seuil de pauvreté national. Le taux de pauvreté rurale est le pourcentage de la population rurale vivant sous le seuil de pauvreté national (ou, dans les cas où un seuil de pauvreté rurale distinct est utilisé, le seuil de pauvreté rurale). Le taux de pauvreté urbaine est le pourcentage de la population urbaine vivant sous le seuil de pauvreté national (ou, dans les cas où un seuil de pauvreté urbain distinct est utilisé, le seuil de pauvreté urbain). &lt;/p&gt;
+&lt;h2&gt;Concepts :&lt;/h2&gt;
+&lt;p&gt;En évaluant la pauvreté dans un pays donné, et la meilleure façon de réduire la pauvreté selon les définitions nationales, on se concentre naturellement sur un seuil de pauvreté considéré comme approprié pour ce pays. Les seuils de pauvreté varient selon les pays en fonction de leur pouvoir d'achat, et ils présentent un fort gradient économique, de sorte que les pays les plus riches ont tendance à adopter des niveaux de vie plus élevés pour définir la pauvreté. À l'intérieur d'un pays, le coût de la vie est généralement plus élevé dans les zones urbaines que dans les zones rurales. Certains pays peuvent avoir des seuils de pauvreté urbains et ruraux distincts pour représenter des pouvoirs d'achat différents.&lt;/p&gt;</translation>
           <translation lang="ru">&lt;h1&gt;Понятия и определения&lt;/h1&gt;
 &lt;h2&gt;Дефиниция:&lt;/h2&gt;
 &lt;p&gt;Национальный уровень бедности – это доля общей численности населения, живущего ниже национальной черты бедности. Уровень бедности в сельских районах – это доля сельского населения, живущего ниже национальной черты бедности (или в тех случаях, когда используется отдельная черта бедности для сельской местности, черта бедности в сельской местности). Уровень бедности в городах – это доля городского населения, живущего ниже национальной черты бедности (или в тех случаях, когда используется отдельная черта бедности для городов, черта бедности в городах). &lt;/p&gt;
@@ -1200,7 +1206,10 @@
       </field>
       <field id="SOURCE_TYPE">
         <translations>
-          <translation lang="fr"/>
+          <translation lang="fr">&lt;h1&gt;Sources de données&lt;/h1&gt;
+&lt;h2&gt;Description :&lt;/h2&gt;
+&lt;p&gt;Les estimations nationales de la pauvreté sont généralement produites et détenues par les gouvernements des pays (par exemple, les Instituts nationals de statistiques), et parfois avec l'assistance technique de la Banque mondiale et du PNUD. Lorsque le gouvernement publie les estimations nationales de la pauvreté, le Groupe de travail sur la pauvreté dans le monde de la Banque mondiale évalue la méthodologie utilisée par le gouvernement, valide les estimations avec des données brutes lorsque cela est possible et consulte les économistes du pays pour la diffusion. Les estimations acceptées, ainsi que les métadonnées, seront diffusées dans la base de données des IDM ainsi que dans la base de données sur la pauvreté et l'équité de la Banque mondiale. &lt;/p&gt;
+&lt;p&gt;Une autre source est l&amp;#8217évaluation de la pauvreté de la Banque mondiale. La Banque mondiale prépare périodiquement des évaluations de la pauvreté dans les pays où elle a un programme actif, en étroite collaboration avec les institutions nationales, les autres agences de développement et les groupes de la société civile, y compris les organisations de personnes pauvres. Les évaluations de la pauvreté rendent compte de l&amp;#8217étendue et des causes de la pauvreté et proposent des stratégies pour la réduire. Les évaluations de la pauvreté sont la meilleure source d&amp;#8217information disponible sur les estimations de la pauvreté qui utilisent les seuils de pauvreté nationaux. Elles comprennent souvent des évaluations distinctes de la pauvreté urbaine et rurale. &lt;/p&gt;</translation>
           <translation lang="ru"># Источники данных
 
 ## Описание
@@ -1216,7 +1225,8 @@
       </field>
       <field id="COLL_METHOD">
         <translations>
-          <translation lang="fr"/>
+          <translation lang="fr">&lt;h2&gt;Processus de collecte :&lt;/h2&gt;
+&lt;p&gt;La collecte à la source est en cours par le Groupe de travail sur la pauvreté dans le monde de la Banque mondiale. Les données des Indicateurs du développement dans le monde (IDM) sont mises à jour trimestriellement selon le calendrier de mise à jour de la base de données des IDM&lt;sup&gt;&lt;a href="#footnote-1" id="footnote-ref-1"&gt;[1]&lt;/a&gt;&lt;/sup&gt;. &lt;/p&gt;&lt;div class="footnotes"&gt;&lt;div&gt;&lt;sup&gt;1&lt;/sup&gt;&lt;p&gt; &lt;a href="http://data.worldbank.org/products/wdi"&gt;http://data.worldbank.org/products/wdi&lt;/a&gt; &lt;a href="#footnote-ref-1"&gt;&amp;#x2191;&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;</translation>
           <translation lang="ru">&lt;h2&gt;Процесс сбора:&lt;/h2&gt;
 &lt;p&gt;Сбор исходных материалов осуществляется Рабочей группой Всемирного банка по глобальной бедности. Данные в показателях мирового развития (WDI) обновляются ежеквартально в соответствии с графиком обновления базы данных WDI. &lt;sup&gt;&lt;a href="#footnote-1" id="footnote-ref-1"&gt;[1]&lt;/a&gt;&lt;/sup&gt;. &lt;/p&gt;&lt;div class="сноски"&gt;&lt;div&gt;&lt;sup&gt;1&lt;/sup&gt;&lt;p&gt; &lt;a href="http://data.worldbank.org/products/wdi"&gt;http://data.worldbank.org/products/wdi&lt;/a&gt; &lt;a href="#footnote-ref-1"&gt;&amp;#x2191;&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;.</translation>
           <translation lang="ru_UA"/>
@@ -1226,7 +1236,9 @@
       </field>
       <field id="FREQ_COLL">
         <translations>
-          <translation lang="fr"/>
+          <translation lang="fr">&lt;h1&gt;Calendrier&lt;/h1&gt;
+&lt;h2&gt;Collecte de données :&lt;/h2&gt;
+&lt;p&gt;Le calendrier de collecte à la source est déterminé par les gouvernements des pays. Certains sont annuels, et la plupart des autres sont moins fréquents. &lt;/p&gt;</translation>
           <translation lang="ru">&lt;h1&gt;Календарь&lt;/h1&gt;
 &lt;h2&gt;Сбор данных:&lt;/h2&gt;
 &lt;p&gt;График сбора исходных данных определяется правительственными органами стран. В некоторых странах они собираются ежегодно, а в большинстве других - менее часто. &lt;/p&gt;</translation>
@@ -1238,7 +1250,8 @@
       </field>
       <field id="REL_CAL_POLICY">
         <translations>
-          <translation lang="fr"/>
+          <translation lang="fr">&lt;h2&gt;Diffusion des données :&lt;/h2&gt;
+&lt;p&gt;Fin mars 2017. &lt;/p&gt;</translation>
           <translation lang="ru">&lt;h2&gt; Выпуск данных: &lt;/ h2&gt;
 &lt;p&gt; Конец марта 2017 года. &lt;/ p&gt;</translation>
           <translation lang="ru_UA"/>
@@ -1248,7 +1261,8 @@
       </field>
       <field id="DATA_SOURCE">
         <translations>
-          <translation lang="fr"/>
+          <translation lang="fr">&lt;h1&gt;Fournisseurs de données&lt;/h1&gt;
+&lt;p&gt;Institut national de statistiques.&lt;/p&gt;</translation>
           <translation lang="ru">&lt;h1&gt; Поставщики данных &lt;/ h1&gt;
 &lt;p&gt; Национальные статистические управления. &lt;/ p&gt;</translation>
           <translation lang="ru_UA"/>
@@ -1258,7 +1272,8 @@
       </field>
       <field id="COMPILING_ORG">
         <translations>
-          <translation lang="fr"/>
+          <translation lang="fr">&lt;h1&gt;Compilateurs de données&lt;/h1&gt;
+&lt;p&gt;Banque mondiale &amp;#x2013 ; Groupe de travail sur la pauvreté dans le monde&lt;/p&gt;</translation>
           <translation lang="ru">&lt;h1&gt;Составители данных&lt;/h1&gt;
 &lt;p&gt;Рабочая группа Всемирного банка по глобальной бедности&lt;/p&gt;.</translation>
           <translation lang="ru_UA"/>
@@ -1284,7 +1299,8 @@
       </field>
       <field id="RATIONALE">
         <translations>
-          <translation lang="fr"/>
+          <translation lang="fr">&lt;h2&gt;Justification :&lt;/h2&gt;
+&lt;p&gt;Le suivi de la pauvreté nationale est important pour les programmes de développement spécifiques à chaque pays. Les seuils de pauvreté nationaux sont utilisés pour faire des estimations plus précises de la pauvreté en fonction des circonstances économiques et sociales spécifiques du pays, et ne sont pas destinés à des comparaisons internationales des taux de pauvreté. &lt;/p&gt;</translation>
           <translation lang="ru">## Обоснование
 
 Мониторинг национального уровня бедности имеет важное значение для программ развития конкретных стран. Национальные уровни бедности используются для получения более точных оценок бедности в соответствии с конкретными экономическими и социальными условиями страны и не предназначены для международных сопоставлений уровней бедности.</translation>
@@ -5447,11 +5463,11 @@
       <field id="STAT_CONC_DEF">
         <translations>
           <translation lang="fr">&lt;h1&gt;Concepts et définitions &lt;/h1&gt;
-&lt;h2&gt;Définition : &lt;/h2&gt;
-&lt;p&gt;La prévalence de la sous-alimentation (PoU) (français : pourcentage de sous-alimentation ; espagnol : porcentaje de sub-alimentaci&amp;#xF3;n ; italien : prevalenza di sotto-alimentazione) est une estimation de la proportion de la population dont la consommation alimentaire habituelle est insuffisante pour fournir les niveaux d'énergie alimentaire nécessaires au maintien d'une vie normale, active et saine. Elle est exprimée en pourcentage. &lt;/p&gt;
-&lt;h2&gt;Concepts : &lt;/h2&gt;
+&lt;h2&gt;Définition  : &lt;/h2&gt;
+&lt;p&gt;La prévalence de la sous-alimentation (anglais : prevalence of undernourishment (PoU) ; espagnol : porcentaje de sub-alimentaci&amp;#xF3 ;n ; italien : prevalenza di sotto-alimentazione) est une estimation de la proportion de la population dont la consommation alimentaire habituelle est insuffisante pour fournir les niveaux d'énergie nécessaires au maintien d'une vie normale, active et saine. Elle est exprimée en pourcentage. &lt;/p&gt;
+&lt;h2&gt;Concepts : &lt;/h2&gt; 
 &lt;p&gt;La sous-alimentation est définie comme la condition dans laquelle une personne a accès, de façon régulière, à des quantités de nourriture qui sont insuffisantes pour lui fournir l'énergie nécessaire à la conduite d'une vie normale, saine et active, compte tenu de ses propres besoins énergétiques alimentaires. &lt;/p&gt;
-&lt;p&gt;Bien que strictement lié, &amp;#x201C;sous-alimentation&amp;#x201D ; tel que défini ici est différent des conditions physiques de &amp;#x201C;malnutrition&amp;#x201D ; et &amp;#x201C;sous-alimentation&amp;#x201D ; car il se réfère à la condition d'apport alimentaire insuffisant, plutôt qu'au résultat en termes de statut nutritionnel. En français, espagnol et italien, la différence est marquée par l'utilisation des termes alimentation, alimentaci&amp;#xF3;n, ou alimentazione, au lieu de nutrition, nutrici&amp;#xF3;n ou nutrizione, dans le nom de l'indicateur. Une expression plus appropriée en anglais qui rendrait le sens précis de l'indicateur aurait pu être &amp;#x201C;prévalence de la sous-alimentation&amp;#x201D ; mais à présent, le terme &amp;#x201C;sous-alimentation&amp;#x201D ; est associé depuis longtemps à l'indicateur. &lt;/p&gt;
+&lt;p&gt;Bien que strictement lié, &amp;#x201C ;sous-alimentation&amp;#x201D ; tel que défini ici est différente des conditions physiques de &amp;#x201C ;malnutrition&amp;#x201D ; et &amp;#x201C ;sous-alimentation&amp;#x201D ; car elle se réfère à la condition d'apport alimentaire insuffisant, plutôt qu'au résultat en termes de statut nutritionnel. En français, espagnol et italien, la différence est marquée par l'utilisation des termes alimentation, alimentaci&amp;#xF3 ;n, ou alimentazione, au lieu de nutrition, nutrici&amp;#xF3 ;n ou nutrizione, dans le nom de l'indicateur. Une expression plus appropriée en anglais qui rendrait le sens précis de l'indicateur aurait pu être &amp;#x201C ;prévalence de la sous-alimentation&amp;#x201D ; mais à présent, le terme &amp;#x201C ;sous-nourrissement&amp;#x201D ; est associé depuis longtemps à l'indicateur. &lt;/p&gt;
 &lt;p&gt;Alors que la condition de sous-alimentation s'applique à des individus, pour des raisons conceptuelles et liées aux données, l'indicateur ne peut se référer qu'à une population, ou à un groupe d'individus. La prévalence de la sous-alimentation est donc une estimation du pourcentage d'individus d'un groupe qui sont dans cette situation, mais elle ne permet pas de déterminer quels individus du groupe sont effectivement sous-alimentés. &lt;/p&gt;</translation>
           <translation lang="ru">&lt;h1&gt; Понятия и определения &lt;/ h1&gt;
 &lt;h2&gt; Определение: &lt;/ h2&gt;
@@ -6466,7 +6482,7 @@ p&gt; Африка к югу от Сахары 40 &lt;/ p&gt;
       <field id="SDG_TARGET">
         <translations>
           <translation lang="fr"/>
-          <translation lang="ru"/>
+          <translation lang="ru">&lt;Цель 3.8:Обеспечить всеобщий охват услугами здравоохранения, в том числе защиту от финансовых рисков, доступ к качественным основным медико-санитарным услугам и доступ к безопасным, эффективным, качественным и недорогим основным лекарственным средствам и вакцинам для всех &lt;/p&gt;</translation>
           <translation lang="ru_UA"/>
           <translation lang="en">&lt;p&gt;Target 3.8: Achieve universal health coverage, including financial risk protection, access to quality essential health-care services and access to safe, effective, quality and affordable essential medicines and vaccines for all&lt;/p&gt;</translation>
         </translations>
@@ -6474,7 +6490,7 @@ p&gt; Африка к югу от Сахары 40 &lt;/ p&gt;
       <field id="SDG_INDICATOR">
         <translations>
           <translation lang="fr"/>
-          <translation lang="ru"/>
+          <translation lang="ru">&lt;p&gt;Индикатор 3.8.2: Доля населения с большим удельным весом семейных расходов на медицинскую помощь в общем объеме расходов или доходов домохозяйств&lt;/p&gt;</translation>
           <translation lang="ru_UA"/>
           <translation lang="en">&lt;p&gt;Indicator 3.8.2: Proportion of population with large household expenditure on health as a share of total household expenditure or income&lt;/p&gt;</translation>
         </translations>
@@ -6490,7 +6506,7 @@ p&gt; Африка к югу от Сахары 40 &lt;/ p&gt;
       <field id="META_LAST_UPDATE">
         <translations>
           <translation lang="fr"/>
-          <translation lang="ru"/>
+          <translation lang="ru">&lt;p&gt; Последнее обновление: март 2019 г. &lt;/ p&gt;</translation>
           <translation lang="ru_UA"/>
           <translation lang="en">&lt;p&gt;Last updated: March 2019&lt;/p&gt;</translation>
         </translations>
@@ -6498,7 +6514,8 @@ p&gt; Африка к югу от Сахары 40 &lt;/ p&gt;
       <field id="SDG_RELATED_INDICATORS">
         <translations>
           <translation lang="fr"/>
-          <translation lang="ru"/>
+          <translation lang="ru">&lt;h1&gt; Связанные показатели по состоянию на февраль 2020 года &lt;/ h1&gt;
+&lt;p&gt; Показатели ЦУР: 3.8.1; 1.1.1 и 1.2.1 &lt;/ p&gt;</translation>
           <translation lang="ru_UA"/>
           <translation lang="en">&lt;h1&gt;Related indicators as of February 2020&lt;/h1&gt;
 &lt;p&gt;SDG indicators: 3.8.1; 1.1.1 and 1.2.1&lt;/p&gt;</translation>
@@ -6507,7 +6524,9 @@ p&gt; Африка к югу от Сахары 40 &lt;/ p&gt;
       <field id="SDG_CUSTODIAN_AGENCIES">
         <translations>
           <translation lang="fr"/>
-          <translation lang="ru"/>
+          <translation lang="ru">&lt;h1&gt;Институциональная информация&lt;/h1&gt;
+&lt;h2&gt;Организация:&lt;/h2&gt;
+&lt;p&gt;Всемирная организация здравоохранения (ВОЗ)&lt;/p&gt;</translation>
           <translation lang="ru_UA"/>
           <translation lang="en">&lt;h1&gt;Institutional information&lt;/h1&gt;
 &lt;h2&gt;Organization:&lt;/h2&gt;
@@ -6589,7 +6608,23 @@ p&gt; Африка к югу от Сахары 40 &lt;/ p&gt;
       <field id="STAT_CONC_DEF">
         <translations>
           <translation lang="fr"/>
-          <translation lang="ru"/>
+          <translation lang="ru">&lt;h1&gt;Понятия и определения&lt;/h1&gt;
+&lt;h2&gt;Определение:&lt;/h2&gt;
+&lt;p&gt;Доля населения с большим удельным весом семейных расходов на медицинскую помощь в общем объеме расходов или доходов домохозяйств. &lt;/p&gt;
+&lt;p&gt;Для определения большого удельного веса семейных расходов на медицинскую помощь используются два порога: более 10% и более 25% от общих расходов или доходов домохозяйства.&lt;/p&gt;
+&lt;h2&gt;Понятия:&lt;/h2&gt;
+&lt;p&gt;Показатель 3.8.2 определяется как Доля населения с большим удельным весом семейных расходов на медицинскую помощь в общем объеме расходов или доходов домохозяйств. Фактически он представляет собой коэффициент, величина которого превышает пороговое значение. Два основных понятия, входящие в это соотношение, - это расходы домохозяйств на здравоохранение (числитель) и общие расходы домохозяйств на потребление или, если эти данные отсутствуют, доход (знаменатель). &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Числитель&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Расходы домохозяйства на здравоохранение определяются как любые расходы, понесенные во время использования услуги, для получения любого вида ухода (стимулирующего, профилактического, лечебного, реабилитационного, паллиативного или долгосрочного ухода), включая все лекарства, вакцины и другие фармацевтические препараты, а также все товары для здоровья от любого поставщика и для всех членов семьи. Эти расходы на здравоохранение характеризуются прямыми платежами, которые финансируются за счет дохода домохозяйства (включая денежные переводы), сбережений или займов, но не включают возмещение сторонним плательщикам. Таким образом эти расходы предоставляют доступ к медицинским услугам и продуктам здравоохранения, за которые могут платить только люди как частные лица, без какой-либо взаимовыручки между здоровыми и больными, находящимися вне домохозяйства и исключительно на основе готовности и способности домохозяйства оплачивать эти расходы. Прямые платежи за здравоохранение называются «наличными» платежами  (Out-Of-Pocket - OOP) в схемах классификации  финансирования здравоохранения (HF) Международной классификации счетов здравоохранения (ICHA). Расходы на здравоохранение, оплачиваемые наличными деньгами, являются источником наиболее неадекватного финансирования системы здравоохранения. &lt;/p&gt;
+&lt;p&gt;Определенные таким образом компоненты расходов на здравоохранение в домашних хозяйствах должны соответствовать разделу 06 "Здравоохранение" Классификации индивидуального потребления ООН по целям (КИПЦ-COICOP), который в настоящее время включает расходы на медикаменты, лечебное оборудование и аппаратуру (06.1), амбулаторные услуги  (06.2 ) и услуги больниц (06.3), но продолжает расширяться.&lt;/p&gt;.
+&lt;p&gt;Дополнительная информация об определениях и классификациях (например, по поставщикам, по характеристикам бенефициаров) расходов на здравоохранение должна соответствовать Международной классификации счетов здравоохранения (ICHA) и ее семейству классификаций. ICHA является результатом сотрудничества между ОЭСР, Евростатом и Всемирной организацией здравоохранения. &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Знаменатель&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Расходы на потребление домохозяйства и доход домохозяйства являются мерами благосостояния, выраженными в денежной форме. Потребление домохозяйств - это функция постоянного дохода, которая является мерой долгосрочных экономических ресурсов домохозяйства, определяющих уровень жизни. Потребление обычно определяется как сумма стоимостей всех элементов (товаров и услуг), потребленных домохозяйством на внутреннем рынке в течение отчетного периода. Потребление включает вмененную стоимость товаров и услуг, которые не были приобретены, но получены иным образом для потребления. Информация о потреблении домашних хозяйств обычно собирается при проведении обследований домашних хозяйств, в которых могут использоваться различные подходы для оценки потребления в зависимости от того, относятся ли товары к товарам длительного или недлительного пользования и / или производятся ли они непосредственно домашними хозяйствами.&lt;/p&gt;.
+&lt;p&gt;Наиболее показательной оценкой дохода является располагаемый доход, поскольку он близок к максимальному ресурсу, которым располагает домашнее хозяйство для оплаты расходов на потребление в течение отчетного периода. Располагаемый доход определяется как общий доход за вычетом прямых налогов (за вычетом возвратных денежных средств), обязательных платежей и штрафов. Общий доход обычно состоит из дохода от работы по найму, дохода от собственности, дохода от производства услуг домохозяйствами для собственного потребления, трансфертов, полученных в денежной форме и в виде товаров, трансфертов, полученных в виде услуг. &lt;/p&gt;
+&lt;p&gt;Доход более сложно оценить точно из-за его большей изменчивости с течением времени. Потребление менее изменчиво во времени и его легче оценить. Поэтому рекомендуется, чтобы в случае наличия информации о потреблении домашних хозяйств и о доходах,  то следует использовать информацию о потреблении (см. Раздел «Комментарии и ограничения», чтобы узнать больше о чувствительности показателя 3.8.2 к выбору информации о доходах / расходах для использования в знаменателе). Статистические данные по показателю 3.8.2, которые в настоящее время производятся ВОЗ и Всемирным банком, преимущественно основываются на информации о потреблении (см. Раздел об источниках данных). &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Пороговые значения&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Рекомендуется использовать два пороговых значения для глобальной отчетности, чтобы установить большой удельный вес семейных расходов на медицинскую помощь в общем объеме расходов или доходов домохозяйств: нижний порог в 10% (3.8.2_10) и более высокий порог в 25% (3.8.2_25). При помощи этих двух пороговых значений показатель дает оценку финансовых затруднений  &lt;/p&gt;.
+&lt;p&gt; ((см. Раздел «Комментарии и ограничения»). &lt;/p&gt;&lt;div class="сноски"&gt;&lt;div&gt;&lt;sup&gt;1&lt;/sup&gt;&lt;p&gt; &lt;a href="http://www.oecd-ilibrary.org/social-issues-migration-health/a-system-of-health-accounts/classification-of-health-care-financing-schemes-icha-hf_9789264116016-9-en"&gt;http://www.oecd-ilibrary.org/social-issues-migration-health/a-system-of-health-accounts/classification-of-health-care-financing-schemes-icha-hf_9789264116016-9-en&lt;/a&gt; &lt;a href="#footnote-ref-1"&gt;&amp;#x2191;&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;div&gt;&lt;sup&gt;2&lt;/sup&gt;&lt;p&gt; Пункт 3(l) повестки дня доступен по адресу &lt;a href="https://unstats.un.org/unsd/statcom/49-я сессия/документы/"&gt;https://unstats.un.org/unsd/statcom/49th-session/documents/&lt;/a&gt;; &lt;a href="http://unstats.un.org/unsd/cr/registry/regcs.asp?Cl=5&amp;amp;Lg=1&amp;amp;Co=06.1"&gt;http://unstats.un.org/unsd/cr/registry/regcs.asp?Cl=5&amp;amp;Lg=1&amp;amp;Co=06.1&lt;/a&gt; &lt;a href="#footnote-ref-2"&gt;&amp;#x2191;&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;div&gt;&lt;sup&gt;3&lt;/sup&gt;&lt;p&gt; &lt;a href="http://www.ilo.org/public/english/bureau/stat/download/17thicls/r2hies.pdf"&gt;http://www.ilo.org/public/english/bureau/stat/download/17thicls/r2hies.pdf&lt;/a&gt; &lt;a href="#footnote-ref-3"&gt;&amp;#x2191;&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;;&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;/a&gt;.</translation>
           <translation lang="ru_UA"/>
           <translation lang="en">&lt;h1&gt;Concepts and definitions&lt;/h1&gt;
 &lt;h2&gt;Definition:&lt;/h2&gt;
@@ -6637,7 +6672,10 @@ p&gt; Африка к югу от Сахары 40 &lt;/ p&gt;
       <field id="SOURCE_TYPE">
         <translations>
           <translation lang="fr"/>
-          <translation lang="ru"/>
+          <translation lang="ru">&lt;h1&gt;Источники данных&lt;/h1&gt;
+&lt;h2&gt;Описание:&lt;/h2&gt;
+&lt;p&gt;Рекомендованными источниками данных для мониторинга доли населения с большими расходами домохозяйств на здравоохранение как доли от общих расходов или доходов домохозяйств являются обследования домохозяйств, проводимых национальными статистическими управлениям на регулярной основе и включающих информацию как о расходах домохозяйств на здравоохранение, так и общих расходах домохозяйств. Обследования бюджетов домашних хозяйств (HBS) и обследования доходов и расходов домашних хозяйств (HIES) обычно собирают такую информацию, поскольку они в основном проводятся с целью получения исходных данных для расчета индексов потребительских цен или составления национальных счетов. Другим потенциальным источником информации являются социально-экономические исследования или обследования уровня жизни; однако в рамках некоторых из этих обследований может не собираться информация об общих расходах домохозяйств на потребление, например, когда в стране оценивается бедность с использованием дохода в качестве меры благосостояния. Наиболее важным критерием выбора источника данных для оценки показателя 3.8.2 ЦУР является наличие информации как о потребительских расходах домашних хозяйств на здравоохранение, так и общих потребительских расходах домашних хозяйств.&lt;/p&gt;
+&lt;p&gt;Когда для оценки показателя 3.8.2 ЦУР используются данные социально-экономических исследований или обследования уровня жизни, все проблемы обеспечения сопоставимости показателя 1.1.1 ЦУР по разным странам также присущи процессам проведении мониторинга показателя 3.8.2 ЦУР. Для любого типа обследования домашних хозяйств, фокусирующего внимание на расходах домашних хозяйств на здравоохранение, необходимо улучшить существующие инструментарии обследования для обеспечения сопоставимости между странами. Всемирная организация здравоохранения сотрудничает с различными учреждениями ООН и другими важными заинтересованными сторонами для обеспечения того, чтобы это произошло. Одним из примеров является участие ВОЗ в постоянном пересмотре КИПЦ-COICOP, проводимом Статистическим отделом ООН. Другим примером является проект Фонда Билла и Мелинды Гейтс (BMGF), который ВОЗ поддерживает для улучшения оценки расходов домашних хозяйств на здравоохранение.</translation>
           <translation lang="ru_UA"/>
           <translation lang="en">&lt;h1&gt;Data sources&lt;/h1&gt;
 &lt;h2&gt;Description:&lt;/h2&gt;
