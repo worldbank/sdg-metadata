@@ -12,12 +12,9 @@ The initial pilot materials were updated to reflect SDG SDMX metadata concepts a
 
 The main study has not yet launched pending necessary approvals.
 
-* [Introduction to the SDG Metadata Translation Project](https://docs.google.com/presentation/d/1v3tKfPeldopX8uD3d97RC7HyK0RSJF3QQdHQLTKjUjo)
-* Project documentation
-* [Instructions for Human Translator](https://docs.google.com/document/d/1Msu8aOVTItkdFIhN6O0snmKRX1wrD7iaW818ssZncXA)
-* Quick-start guide
+* [Introduction to the SDG Metadata Translation Project](https://docs.google.com/presentation/d/16W8f9ryGaTU8rfMls2eszonv3u1O173rpGHnPhmxT4E/edit?usp=sharing)
+* [Documentation]({{ site.baseurl }}/documentation/)
 * [Metadata]({{ site.baseurl }}/metadata/)
-* Notes for developers
-* Preview of planned updates
+
 
 For more information about the project, please email <sdgmetadatatranslation@worldbank.org>.
