@@ -4,9 +4,25 @@
 	<message>The SOURCE_TYPE field for indicator 1-1-1b, translated into all languages</message>
 	<data>
 		<languages>
-			<language lang="fr"/>
-			<language lang="ru"/>
-			<language lang="en"/>
+			<language lang="fr">&lt;h1&gt;Sources de données&lt;/h1&gt;
+&lt;h2&gt;Description :&lt;/h2&gt;
+&lt;p&gt;La source de données privilégiée est une enquête sur les ménages contenant des variables qui peuvent identifier de manière fiable à la fois le statut de pauvreté des ménages et l&amp;#8217activité économique des membres du ménage. Les exemples comprennent les enquêtes sur les revenus et les dépenses des ménages (ERDM), les enquêtes de mesure du niveau de vie (EMNV) avec des modules sur l&apos;emploi, ou les enquêtes sur la population active (EPA) qui collectent des informations sur le revenu des ménages. Ces enquêtes présentent l&apos;avantage de permettre que les variables relatives à la situation d&apos;emploi et au revenu (ou aux dépenses de consommation) soient dérivées des mêmes ménages échantillonnés, idéalement pour la même période d&apos;observation.&lt;/p&gt;
+&lt;p&gt;Les estimations de l&apos;emploi dérivées d&apos;une enquête auprès des ménages autre qu&apos;une enquête sur la population active peuvent toutefois ne pas être les plus robustes en raison de la conception du questionnaire. De même, une enquête sur la population active peut ne pas être le meilleur instrument de collecte pour des données sur les revenus ou les dépenses de consommation des ménages, bien qu&apos;un module de revenu joint puisse être conçu pour obtenir des résultats statistiquement fiables, notamment en assurant un chevauchement de la période d&apos;observation entre les revenus (ou les dépenses de consommation) des ménages et la situation de l&apos;emploi. &lt;/p&gt;
+&lt;p&gt; Une autre possibilité consiste à combiner les données d&apos;une enquête sur les revenus et les dépenses des ménages et d&apos;une enquête distincte sur la population active lorsque les ménages répondants peuvent être appariés et que la cohérence de la longue période d&apos;observation entre les enquêtes peut être obtenue.&lt;/p&gt;
+			</language>
+			<language lang="ru"># Источники данных
+## Описание
+Предпочтительным источником данных является обследование домохозяйств, содержащее переменные, которые могут надежно определять как статус бедности домохозяйств, так и экономическую активность членов домохозяйства. Примерами могут служить обследования доходов и расходов домохозяйств (HIES), обследования оценки уровня жизни (LSMS), включающие в себя модули занятости или обследования рабочей силы (LFS), при проведении которых собирается информация о доходах домохозяйства. Такие обследования обладают тем преимуществом, что позволяют получать переменные о статусе занятости и доходах (или расходах на потребление) из одних и тех же отобранных домохозяйств, в идеале в течение одного и того же периода наблюдения.
+Оценки занятости, полученные из какого-либо обследования домохозяйства, но не из обследования рабочей силы, могут, однако, быть не самыми надежными из-за проблем с дизайном вопросника. Точно так же обследование рабочей силы может быть не лучшим инструментом для сбора данных о доходах или расходах на потребление домохозяйств, хотя прилагаемый модуль дохода может быть спроектирован для достижения статистически достоверных результатов, включая в период наблюдения обеспечение   перекрытия между доходом домохозяйства (или расходами на потребление) и статусом занятости. 
+Другой возможностью является объединение данных из обследования доходов и расходов домохозяйств и из отдельного обследования рабочей силы, когда можно сопоставить домохозяйства респондентов и добиться согласованности между обследованиями в течение длительного периода наблюдения.
+			</language>
+			<language lang="ru_UA"/>
+			<language lang="en">&lt;h1&gt;Data sources&lt;/h1&gt;
+&lt;h2&gt;Description:&lt;/h2&gt;
+&lt;p&gt;The preferred data source is a household survey with variables that can reliably identify both the poverty status of households and the economic activity of the household&amp;#x2019;s members. Examples include household income and expenditure surveys (HIES), living standards measurement surveys (LSMS) with employment modules, or labour force surveys (LFS) that collect information on household income. Such surveys offer the benefit of allowing the employment status and income (or consumption expenditure) variables to be derived from the same sampled households ideally for the same observation period.&lt;/p&gt;
+&lt;p&gt;Employment estimates derived from a household survey other than a labour force survey may, however, not be the most robust due to questionnaire design. Similarly, a labour force survey may not be the best instrument for collecting household income or consumption expenditure data, although an attached income module can be designed to achieve statistically reliable results, including ensuring an overlap in the observation period between household income (or consumption expenditure) and employment status. &lt;/p&gt;
+&lt;p&gt;Another possibility is to combine data from a household income and expenditure survey and from a separate labour force survey when the respondent households can be matched and consistency in the long observation period between the surveys can be obtained.&lt;/p&gt;
+			</language>
 </languages>
 </data>
 </root>
