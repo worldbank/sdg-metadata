@@ -14,7 +14,16 @@
  &lt;/ul&gt; 
 &lt;p&gt;Les valeurs manquantes ne sont pas imputées.&lt;/p&gt;
 			</language>
-			<language lang="ru"/>
+			<language lang="ru">&lt;h2&gt;Обработка отсутствующих значений:&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;На уровне страны:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Пропущенные значения не вменяются.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;На региональном и глобальном уровнях:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Пропущенные значения не вменяются.&lt;/p&gt;
+			</language>
 			<language lang="ru_UA"/>
 			<language lang="en">&lt;h2&gt;Treatment of missing values:&lt;/h2&gt;
 &lt;ul&gt;
