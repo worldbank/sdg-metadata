@@ -1164,6 +1164,54 @@ http://www.pasec.confemen.org/&lt;/a&gt;&lt;/p&gt;
 </fields>
 
 						</indicator>
+						<indicator id="6-4-2">
+								<fields>
+									<field id="SDG_GOAL"/>
+									<field id="SDG_TARGET"/>
+									<field id="SDG_INDICATOR"/>
+									<field id="META_LAST_UPDATE"/>
+									<field id="SDG_RELATED_INDICATORS"/>
+									<field id="SDG_CUSTODIAN_AGENCIES"/>
+									<field id="STAT_CONC_DEF"/>
+									<field id="SOURCE_TYPE"/>
+									<field id="COLL_METHOD"/>
+									<field id="FREQ_COLL"/>
+									<field id="REL_CAL_POLICY"/>
+									<field id="DATA_SOURCE"/>
+									<field id="COMPILING_ORG"/>
+									<field id="RATIONALE"/>
+									<field id="REC_USE_LIM"/>
+									<field id="DATA_COMP"/>
+									<field id="IMPUTATION"/>
+									<field id="REG_AGG"/>
+									<field id="DOC_METHOD"/>
+									<field id="QUALITY_ASSURE"/>
+									<field id="COVERAGE"/>
+									<field id="COMPARABILITY"/>
+									<field id="OTHER_DOC"/>
+									<field id="SDG_INDICATOR_INFO"/>
+									<field id="SDG_SERIES_DESCR"/>
+									<field id="CONTACT"/>
+									<field id="CONTACT_ORGANISATION"/>
+									<field id="CONTACT_NAME"/>
+									<field id="ORGANISATION_UNIT"/>
+									<field id="CONTACT_FUNCT"/>
+									<field id="CONTACT_PHONE"/>
+									<field id="CONTACT_MAIL"/>
+									<field id="CONTACT_EMAIL"/>
+									<field id="IND_DEF_CON_CLASS"/>
+									<field id="UNIT_MEASURE"/>
+									<field id="CLASS_SYSTEM"/>
+									<field id="SRC_TYPE_COLL_METHOD"/>
+									<field id="INST_MANDATE"/>
+									<field id="OTHER_METHOD"/>
+									<field id="DATA_VALIDATION"/>
+									<field id="ADJUSTMENT"/>
+									<field id="QUALITY_MGMNT"/>
+									<field id="QUALITY_ASSMNT"/>
+</fields>
+
+						</indicator>
 						<indicator id="10-c-1">
 								<fields>
 									<field id="SDG_INDICATOR_INFO"/>
@@ -1741,54 +1789,6 @@ http://www.pasec.confemen.org/&lt;/a&gt;&lt;/p&gt;
 
 						</indicator>
 						<indicator id="6-4-1">
-								<fields>
-									<field id="SDG_INDICATOR_INFO"/>
-									<field id="SDG_GOAL"/>
-									<field id="SDG_TARGET"/>
-									<field id="SDG_INDICATOR"/>
-									<field id="SDG_SERIES_DESCR"/>
-									<field id="META_LAST_UPDATE"/>
-									<field id="SDG_RELATED_INDICATORS"/>
-									<field id="SDG_CUSTODIAN_AGENCIES"/>
-									<field id="CONTACT"/>
-									<field id="CONTACT_ORGANISATION"/>
-									<field id="CONTACT_NAME"/>
-									<field id="ORGANISATION_UNIT"/>
-									<field id="CONTACT_FUNCT"/>
-									<field id="CONTACT_PHONE"/>
-									<field id="CONTACT_MAIL"/>
-									<field id="CONTACT_EMAIL"/>
-									<field id="IND_DEF_CON_CLASS"/>
-									<field id="STAT_CONC_DEF"/>
-									<field id="UNIT_MEASURE"/>
-									<field id="CLASS_SYSTEM"/>
-									<field id="SRC_TYPE_COLL_METHOD"/>
-									<field id="SOURCE_TYPE"/>
-									<field id="COLL_METHOD"/>
-									<field id="FREQ_COLL"/>
-									<field id="REL_CAL_POLICY"/>
-									<field id="DATA_SOURCE"/>
-									<field id="COMPILING_ORG"/>
-									<field id="INST_MANDATE"/>
-									<field id="OTHER_METHOD"/>
-									<field id="RATIONALE"/>
-									<field id="REC_USE_LIM"/>
-									<field id="DATA_COMP"/>
-									<field id="DATA_VALIDATION"/>
-									<field id="ADJUSTMENT"/>
-									<field id="IMPUTATION"/>
-									<field id="REG_AGG"/>
-									<field id="DOC_METHOD"/>
-									<field id="QUALITY_MGMNT"/>
-									<field id="QUALITY_ASSURE"/>
-									<field id="QUALITY_ASSMNT"/>
-									<field id="COVERAGE"/>
-									<field id="COMPARABILITY"/>
-									<field id="OTHER_DOC"/>
-</fields>
-
-						</indicator>
-						<indicator id="6-4-2">
 								<fields>
 									<field id="SDG_INDICATOR_INFO"/>
 									<field id="SDG_GOAL"/>
@@ -4027,13 +4027,32 @@ p&gt; Африка к югу от Сахары 40 &lt;/ p&gt;
 &lt;h2&gt;&lt;strong&gt;&lt;strong&gt;Описание:&lt;/strong&gt;&lt;/strong&gt;&lt;/h2&gt;
 &lt;p&gt;Различные межнациональные оценки успеваемости включают следующие инициативы: Программа анализа образовательных систем CONFEMEN (PASEC), Международное исследование качества чтения и понимания текста (PIRLS), Международная программа по оценке образовательных достижений учащихся (PISA), Консорциум стран Южной и Восточной Африки по мониторингу качества образования (SACMEQ), Третье региональное сравнительно-пояснительное исследование (TERCE) и  Международное исследование качества математического и естественнонаучного образования  (TIMSS). (a) Краткосрочная стратегия: Использовать национальные широкомасштабные репрезентативные данные оценки, полученные в результате межнациональных оценок, даже если уровни успеваемости могут быть не сопоставимы напрямую. (b) Среднесрочная стратегия: Использовать глобальную шкалу отчетности, основанную либо на новом тесте, либо на статистической увязке национальных, региональных и межнациональных оценок.&lt;/p&gt;
 									</field>
-									<field id="COLL_METHOD"/>
-									<field id="FREQ_COLL"/>
-									<field id="REL_CAL_POLICY"/>
-									<field id="DATA_SOURCE"/>
-									<field id="COMPILING_ORG"/>
-									<field id="RATIONALE"/>
-									<field id="REC_USE_LIM"/>
+									<field id="COLL_METHOD">&lt;h2&gt;&lt;strong&gt;&lt;strong&gt;Процесс сбора:&lt;/strong&gt;&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Для проведения межнациональных оценок успеваемости данные предоставлялись соответствующими организациями, ответственными за проведение каждой оценки.&lt;/p&gt;
+									</field>
+									<field id="FREQ_COLL">&lt;h1&gt;Календарь&lt;/h1&gt;
+&lt;h2&gt;&lt;strong&gt;&lt;strong&gt;Сбор данных:&lt;/strong&gt;&lt;/strong&gt;&lt;/h2&gt;
+&lt;Различные календарные сроки. Каждая оценка успеваемости имеет свой собственный цикл сбора данных. &lt;/p&gt;
+									</field>
+									<field id="REL_CAL_POLICY">&lt;h2&gt; &lt;strong&gt; &lt;strong&gt; Выпуск данных: &lt;/ strong&gt; &lt;/ strong&gt; &lt;/ h2&gt;
+&lt;p&gt; Июль 2016 года&lt;/ p&gt;
+									</field>
+									<field id="DATA_SOURCE">&lt;h1&gt;Поставщики данных&lt;/h1&gt;
+&lt;h2&gt;&lt;strong&gt;&lt;strong&gt;Name:&lt;/strong&gt;&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Органы, ответственные за проведение оценок успеваемости (включая министерства образования, национальные статистические управления и других поставщиков данных). Для проведения межнациональных оценок поставщиками данных являются Международная ассоциация по оценке школьной успеваемости (IEA), Латиноамериканская лаборатория оценки качества образования (LLECE), Организация экономического сотрудничества и развития (ОЭСР), Программа анализа образовательных систем CONFEMEN (PASEC) и Консорциум стран Южной и Восточной Африки по мониторингу качества образования (SACMEQ).&lt;/p&gt;
+									</field>
+									<field id="COMPILING_ORG">&lt;h1&gt;Составители данных&lt;/h1&gt;
+&lt;p&gt;Институт статистики ЮНЕСКО (ИСЮ)&lt;/p&gt;
+									</field>
+									<field id="RATIONALE">&lt;h2&gt;&lt;strong&gt;&lt;strong&gt;Обоснование:&lt;/strong&gt;&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Индикатор является прямой оценкой результатов обучения, достигнутых в двух предметных областях по окончании соответствующих этапов обучения. Три точки оценки будут иметь свои собственные установленные минимальные стандарты. Существует только один порог, который делит студентов на достигших результатов выше и ниже минимума: &lt;/p&gt;
+&lt;оол&gt;
+  &lt;li&gt;Выше минимального уровня - это доля или процент студентов, которые достигли минимальных стандартов. Так как уровни владения навыками, установленные национальными и межнациональными оценками успеваемости, неоднородны, то эти уровни владения навыками будут сопоставляться с минимальными уровнями владения навыками, установленными на глобальном уровне. Как только уровни владения навыками удастся сопоставить, мировое образовательное сообщество сможет определить для каждой страны долю или процент детей, достигших минимального уровня владения навыками.&lt;/li&gt;
+&lt;/ol&gt;
+									</field>
+									<field id="REC_USE_LIM">&lt;h2&gt;&lt;strong&gt;&lt;strong&gt;Комментарии и ограничения:&lt;/strong&gt;&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Хотя в настоящее время доступны данные многих национальных оценок, каждая страна устанавливает свои собственные стандарты, поэтому уровни успеваемости могут быть несопоставимыми. Один из вариантов решения проблемы - связать существующие региональные оценки на общей структурной основе. Кроме того, так как оценки, как правило, проводятся в рамках школьных систем, то текущие показатели охватывают только тех из них, кто посещает школу и доля целевых групп населения, охваченного школьным образованием, может варьироваться в зависимости от страны из-за различий в численности детей, не охваченных школьным образованием. Оценка компетенций детей и молодежи, не посещающих школу, потребует проведения обследований на уровне домохозяйств. Вопрос об оценке детей в домохозяйствах находится в стадии рассмотрения, однако такое обследование может быть очень дорогостоящим и трудным делом и вряд ли будет осуществлено в необходимом масштабе в течение следующих 3-5 лет. Наконец, для расчета этого показателя требуется конкретная информация о возрасте детей, участвующих в оценках, с тем чтобы получить данные, сопоставимые на глобальном уровне. Возраст детей, сообщаемый главой домашнего хозяйства, может быть недостоверным и ненадежным, поэтому расчет показателя может оказаться еще более сложным. В связи с осложнениями в оценке детей, не посещающих школу, и тем, что основное внимание уделяется совершенствованию системы образования, ИСЮ применяет поэтапный подход. ИСЮ сосредоточит внимание на оценке детей, посещающих школу, в среднесрочной перспективе, где имеется большой объем данных, а затем, в более долгосрочной перспективе, перейдет к разработке более последовательного плана осуществления оценки детей, не посещающих школу.&lt;/p&gt;
+									</field>
 									<field id="DATA_COMP"/>
 									<field id="IMPUTATION"/>
 									<field id="REG_AGG"/>
