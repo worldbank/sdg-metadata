@@ -1166,23 +1166,79 @@ http://www.pasec.confemen.org/&lt;/a&gt;&lt;/p&gt;
 						</indicator>
 						<indicator id="6-4-2">
 								<fields>
-									<field id="SDG_GOAL"/>
-									<field id="SDG_TARGET"/>
-									<field id="SDG_INDICATOR"/>
-									<field id="META_LAST_UPDATE"/>
-									<field id="SDG_RELATED_INDICATORS"/>
-									<field id="SDG_CUSTODIAN_AGENCIES"/>
+									<field id="SDG_GOAL">&lt;p&gt;Objectif 6 : Garantir l&apos;accès de tous à des services d&apos;alimentation en eau et d&apos;assainissement gérés de façon durable&lt;/p&gt;
+									</field>
+									<field id="SDG_TARGET">&lt;p&gt;Cible 6.4 : D&apos;ici à 2030, faire en sorte que les ressources en eau soient utilisées beaucoup plus efficacement dans tous les secteurs et garantir la viabilité des prélèvements et de l&apos;approvisionnement en eau douce afin de remédier à la pénurie d&apos;eau et de réduire nettement le nombre de personnes qui manquent d&apos;eau&lt;/p&gt;
+									</field>
+									<field id="SDG_INDICATOR">&lt;p&gt;Indicateur 6.4.2 : Niveau de stress hydrique : prélèvements d&apos;eau douce en proportion des ressources en eau douce disponibles &lt;/p&gt;
+									</field>
+									<field id="META_LAST_UPDATE">&lt;p&gt;Dernière mise à jour : 11 juillet 2017&lt;/p&gt;
+									</field>
+									<field id="SDG_RELATED_INDICATORS">&lt;h1&gt;Indicateurs connexes&lt;/h1&gt;
+&lt;p&gt;6.4.1 : Variation de l&apos;efficacité de l&apos;utilisation des ressources en eau&lt;/p&gt;
+&lt;p&gt;6.1.1 : Proportion de la population utilisant des services d&apos;alimentation en eau potable gérés en toute sécurité&lt;/p&gt;
+&lt;p&gt;6.3.1 : Proportion des eaux usées traitées sans danger&lt;/p&gt;
+&lt;p&gt;6.6.1 : Variation de l&apos;étendue des écosystèmes tributaires de l&apos;eau&lt;/p&gt;
+&lt;p&gt;6.5.1 : Degré de mise en œuvre de la gestion intégrée des ressources en eau (0-100)&lt;/p&gt;
+&lt;p&gt;2.4.1 : Proportion des zones agricoles exploitées de manière productive et durable&lt;/p&gt;
+&lt;p&gt;15.3.1 : Surface des terres dégradées, en proportion de la surface terrestre&lt;/p&gt;
+&lt;p&gt;11.5.1 : Nombre de personnes décédées, disparues ou directement touchées lors de catastrophes, pour 100 000 personnes [a]&lt;/p&gt;
+									</field>
+									<field id="SDG_CUSTODIAN_AGENCIES">&lt;h1&gt; Information institutionnelle &lt;/h1&gt;
+&lt;h2&gt; Organisation(s) : &lt;/h2&gt;
+&lt;p&gt; Organisation des Nations Unies pour l&apos;alimentation et l&apos;agriculture (FAO)&lt;/p&gt;
+									</field>
 									<field id="STAT_CONC_DEF"/>
-									<field id="SOURCE_TYPE"/>
-									<field id="COLL_METHOD"/>
-									<field id="FREQ_COLL"/>
-									<field id="REL_CAL_POLICY"/>
+									<field id="SOURCE_TYPE">&lt;h1&gt;Sources de données&lt;/h1&gt;
+&lt;h2&gt;Description :&lt;/h2&gt;
+&lt;p&gt;Les données pour cet indicateur sont généralement collectées par les ministères et institutions nationales dont le mandat couvre les questions liées à l&apos;eau, comme les ministères des ressources en eau, de l&apos;agriculture ou de l&apos;environnement. Les données sont principalement publiées dans les plans directeurs nationaux pour les ressources en eau et l&apos;irrigation, les annuaires statistiques nationaux et d&apos;autres rapports (tels que ceux des projets, des enquêtes internationales ou des résultats et publications des centres de recherche nationaux et internationaux).&lt;/p&gt;
+&lt;p&gt;Les données pour cet indicateur sont collectées par le biais de questionnaires auxquels doivent répondre les institutions concernées dans chaque pays. Des exemples de questionnaires qui peuvent être utilisés se trouvent à l&apos;adresse suivante :&lt;/p&gt;
+&lt;p&gt;AQUASTAT&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.fao.org/nr/water/aquastat/sets/aq-5yr-quest_eng.xls&quot;&gt;www.fao.org/nr/water/aquastat/sets/aq-5yr-quest_eng.xls&lt;/a&gt;&lt;&lt;/p&gt;
+&lt;p&gt;UNSD/UNEP&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://unstats.un.org/unsd/environment/Questionnaires/q2013Water_English.xls&quot;&gt;http://unstats.un.org/unsd/environment/Questionnaires/q2013Water_English.xls&lt;/a&gt;&lt;&lt;/p&gt;
+&lt;p&gt;OCDE/Eurostat&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://ec.europa.eu/eurostat/ramon/coded_files/OECD_ESTAT_JQ_Manual_version_2_21.pdf&quot;&gt;http://ec.europa.eu/eurostat/ramon/coded_files/OECD_ESTAT_JQ_Manual_version_2_21.pdf&lt;/a&gt;&lt;&lt;/p&gt;
+									</field>
+									<field id="COLL_METHOD">&lt;h2&gt;Processus de collecte :&lt;/h2&gt;
+&lt;ol&gt;
+  &lt;li&gt;Les homologues officiels au niveau national sont le ministère responsable des ressources en eau et l&apos;institut national de statistique&lt;/li&gt;
+  &lt;li&gt;Les pays sont censés mettre en place un processus de contrôle de la qualité (CQ), d&apos;assurance de la qualité (AQ) et de vérification des données. Le processus doit être mené en interne pour la partie CQ, en s&apos;assurant que toutes les étapes prévues sont correctement exécutées à chaque cycle de collecte de données. L&apos;AQ devrait être effectuée par des experts indépendants, nationaux ou internationaux, afin d&apos;évaluer la cohérence et la robustesse des données produites. Enfin, dans la mesure du possible, les données résultantes doivent être vérifiées par comparaison avec des données similaires provenant d&apos;autres sources.&lt;/li&gt;
+  &lt;li&gt;Comme les données seront collectées au moyen de différents questionnaires, il faudra harmoniser les éventuelles différences de définitions et d&apos;agrégations.&lt;/li&gt;
+&lt;/ol&gt;
+									</field>
+									<field id="FREQ_COLL">&lt;h1&gt;Calendrier&lt;/h1&gt;
+&lt;h2&gt;Collecte de données :&lt;/h2&gt;
+&lt;p&gt;2016-2018&lt;/p&gt;
+									</field>
+									<field id="REL_CAL_POLICY">&lt;h2&gt;Diffusion des données :&lt;/h2&gt;
+&lt;p&gt;De nouvelles données pour l&apos;indicateur devraient être produites pour la plupart des pays entre 2017 et 2018.&lt;/p&gt;
+									</field>
 									<field id="DATA_SOURCE"/>
-									<field id="COMPILING_ORG"/>
-									<field id="RATIONALE"/>
+									<field id="COMPILING_ORG">&lt;h1&gt;Compilateurs de données&lt;/h1&gt;
+&lt;p&gt;Organisation des Nations unies pour l&apos;alimentation et l&apos;agriculture (FAO) par le biais d&apos;AQUASTAT, son système mondial d&apos;information sur l&apos;eau (&lt;a href=&quot;http://www.fao.org/nr/aquastat&quot;&gt;http://www.fao.org/nr/aquastat&lt;/a&gt;).&lt;/p&gt;
+									</field>
+									<field id="RATIONALE">&lt;h2&gt;Justification :&lt;/h2&gt;
+&lt;p&gt;Le but de cet indicateur est de montrer dans quelle mesure les ressources en eau sont exploitées pour répondre à la demande en eau du pays. Il mesure la pression exercée par un pays sur ses ressources en eau et donc le défi que représente la durabilité de son utilisation de l&apos;eau. Il suit les progrès réalisés en ce qui concerne &amp;#x201C;les prélèvements et l&apos;approvisionnement en eau douce afin de remédier à la pénurie d&apos;eau&amp;#x201D;, c&apos;est-à-dire la composante environnementale de l&apos;objectif 6.4.&lt;/p&gt;
+&lt;p&gt;L&apos;indicateur montre dans quelle mesure les ressources en eau sont déjà utilisées, et signale l&apos;importance de politiques efficaces de gestion de l&apos;offre et de la demande. Il indique la probabilité d&apos;une concurrence et d&apos;un conflit croissants entre les différents usages et utilisateurs de l&apos;eau dans une situation de pénurie d&apos;eau croissante. Un stress hydrique accru, mis en évidence par une augmentation de la valeur de l&apos;indicateur, a des effets potentiellement négatifs sur la durabilité des ressources naturelles et sur le développement économique. D&apos;autre part, des faibles valeurs de l&apos;indicateur indiquent que l&apos;eau ne représente pas un défi particulier pour le développement économique et la durabilité.&lt;/p&gt;
+									</field>
 									<field id="REC_USE_LIM"/>
-									<field id="DATA_COMP"/>
-									<field id="IMPUTATION"/>
+									<field id="DATA_COMP">&lt;h1&gt;Méthodologie&lt;/h1&gt;
+&lt;h2&gt;Méthode de calcul :&lt;/h2&gt;
+&lt;p&gt;Méthode de calcul : L&apos;indicateur est calculé comme étant le total des retraits d&apos;eau douce (TWW) divisé par la différence entre le total des ressources renouvelables en eau douce (TRWR) et les besoins environnementaux en eau (Env.), multiplié par 100. Toutes les variables sont exprimées en km&lt;sup&gt;3&lt;/sup&gt;/an (10&lt;sup&gt;9&lt;/sup&gt; m&lt;sup&gt;3&lt;/sup&gt;/an).&lt;/p&gt;
+&lt;p&gt;Stress (%) = TWW / (TRWR - Env.) * 100&lt;/p&gt;
+&lt;p&gt;Il est suggéré de classer le niveau de stress hydrique en trois grandes catégories (niveaux) : faible, élevé et très élevé. Les seuils de l&apos;indicateur pourraient être spécifiques à chaque pays, afin de refléter les différences de climat et les objectifs nationaux de gestion de l&apos;eau. Alternativement, des seuils uniformes pourraient être proposés en utilisant la littérature existante et en tenant compte des exigences environnementales en matière d&apos;eau.&lt;/p&gt;
+									</field>
+									<field id="IMPUTATION">&lt;h2&gt;Traitement des valeurs manquantes :&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;forte&gt;Au niveau national :&lt;/forte&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Si des données partielles sont disponibles, une méthodologie sera développée en ce qui concerne l&apos;inter et l&apos;extrapolation&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;forte&gt; Aux niveaux régional et mondial :&lt;/forte&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Pour les OMD, les valeurs les plus récentes ont été utilisées pour obtenir des agrégats régionaux ou mondiaux, même si elles n&apos;étaient pas disponibles pour la même année. Il est prévu que grâce à la base de référence qui sera produite pour le suivi des SDG, des données pour plus ou moins la même gamme d&apos;années deviennent disponibles.&lt;/p&gt;
+									</field>
 									<field id="REG_AGG"/>
 									<field id="DOC_METHOD"/>
 									<field id="QUALITY_ASSURE"/>
@@ -3612,7 +3668,7 @@ p&gt; Африка к югу от Сахары 40 &lt;/ p&gt;
 &lt;h2&gt;Понятия:&lt;/h2&gt;
 &lt;p&gt;&lt;em&gt;Минимальный уровень владения навыками является эталоном базовых знаний в какой-либо области (математика, чтение и т. д.), оцениваемого посредством оценок успеваемости. До августа 2018 года не было согласованного на глобальном уровне определения минимального уровня владения навыками. В качестве промежуточной стратегии разработки отчетности ИСЮ установил отчетность в соответствии с минимальным уровнем владения навыками, определяемым каждой оценкой успеваемости&lt;/em&gt;&lt;/p&gt;.
 Минимальные уровни владения навыками, установленные по каждой оценке успеваемости
-&lt;p&gt;В приведенной ниже таблице указаны минимальные уровни владения навыками для каждой оценки успеваемости по целевому классу / возрасту и области. Так как уровни владения навыками, установленные национальными и межнациональными оценками успеваемости, неоднородны, то эти уровни владения навыками будут сопоставляться с минимальными уровнями владения навыками, установленными на глобальном уровне, и дескрипторами владения навыками, согласованными в сентябре 2018 года (см. 4.1.1. Запрос ИСЮ о перегруппировке 2018.09. 28.docx), что позволит провести сцепление в педагогическом аспекте. Как только уровни владения навыками удастся сопоставить, мировое образовательное сообщество сможет определить для каждой страны долю или процент детей, достигших хотя бы минимального уровня владения навыками &lt;/p&gt;
+&lt;p&gt;В приведенной ниже таблице указаны минимальные уровни владения навыками для каждой оценки успеваемости по целевому классу / возрасту и области. Так как уровни владения навыками, установленные национальными и межнациональными оценками успеваемости, неоднородны, то эти уровни владения навыками будут сопоставляться с минимальными уровнями владения навыками, установленными на глобальном уровне, и дескрипторами владения навыками, согласованными в сентябре 2018 года (см. 4.1.1. Запрос ИСЮ о перегруппировке 2018.09. 28.docx), что позволит провести связку с педагогической точке зрения. Как только уровни владения навыками удастся сопоставить, мировое образовательное сообщество сможет определить для каждой страны долю или процент детей, достигших хотя бы минимального уровня владения навыками &lt;/p&gt;
 &lt;p&gt;Таблица 1. Минимальные уровни владения навыками, установленные по каждой оценке успеваемости&lt;/p&gt;
 &lt;table&gt;
   &lt;tbody
@@ -4053,11 +4109,33 @@ p&gt; Африка к югу от Сахары 40 &lt;/ p&gt;
 									<field id="REC_USE_LIM">&lt;h2&gt;&lt;strong&gt;&lt;strong&gt;Комментарии и ограничения:&lt;/strong&gt;&lt;/strong&gt;&lt;/h2&gt;
 &lt;p&gt;Хотя в настоящее время доступны данные многих национальных оценок, каждая страна устанавливает свои собственные стандарты, поэтому уровни успеваемости могут быть несопоставимыми. Один из вариантов решения проблемы - связать существующие региональные оценки на общей структурной основе. Кроме того, так как оценки, как правило, проводятся в рамках школьных систем, то текущие показатели охватывают только тех из них, кто посещает школу и доля целевых групп населения, охваченного школьным образованием, может варьироваться в зависимости от страны из-за различий в численности детей, не охваченных школьным образованием. Оценка компетенций детей и молодежи, не посещающих школу, потребует проведения обследований на уровне домохозяйств. Вопрос об оценке детей в домохозяйствах находится в стадии рассмотрения, однако такое обследование может быть очень дорогостоящим и трудным делом и вряд ли будет осуществлено в необходимом масштабе в течение следующих 3-5 лет. Наконец, для расчета этого показателя требуется конкретная информация о возрасте детей, участвующих в оценках, с тем чтобы получить данные, сопоставимые на глобальном уровне. Возраст детей, сообщаемый главой домашнего хозяйства, может быть недостоверным и ненадежным, поэтому расчет показателя может оказаться еще более сложным. В связи с осложнениями в оценке детей, не посещающих школу, и тем, что основное внимание уделяется совершенствованию системы образования, ИСЮ применяет поэтапный подход. ИСЮ сосредоточит внимание на оценке детей, посещающих школу, в среднесрочной перспективе, где имеется большой объем данных, а затем, в более долгосрочной перспективе, перейдет к разработке более последовательного плана осуществления оценки детей, не посещающих школу.&lt;/p&gt;
 									</field>
-									<field id="DATA_COMP"/>
-									<field id="IMPUTATION"/>
-									<field id="REG_AGG"/>
+									<field id="DATA_COMP">&lt;h1&gt;Методология&lt;/h1&gt;
+&lt;h2&gt;&lt;strong&gt;&lt;strong&gt;Метод расчета:&lt;/strong&gt;&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Показатель рассчитывается как количество детей и / или молодежи, выраженное в процентах, на соответствующей ступени образования, достигших или превысивших предварительно установленный уровень владения навыками по данному предмету. &lt;/p&gt;
+&lt;p&gt;Успеваемость выше минимального уровня, обозначаемая как PLtn, s, выше минимального = p&lt;/p&gt;.
+&lt;p&gt;где p - процент студентов, проходящих оценку успеваемости на этапе обучения n, по предмету s на любом году обучения (t-i), где 0&lt; i ⩾5, который достиг уровня успеваемости, превышающего ранее установленный минимальный стандарт Smin. Минимальный стандарт определяется мировым образовательным сообществом с учетом региональных различий.&lt;/p&gt;
+									</field>
+									<field id="IMPUTATION">&lt;h2&gt;&lt;strong&gt;&lt;strong&gt;Обработка отсутствующих значений:&lt;/strong&gt;&lt;/strong&gt;&lt;/h2&gt;
+&lt;h5&gt;&lt;strong&gt;На уровне страны:&lt;/strong&gt;&lt;/h5&gt;
+&lt;p&gt;Данные не компилируются.&lt;/p&gt;
+&lt;h5&gt;&lt;прочный&gt;На региональном и глобальном уровнях:&lt;/прочный&gt;&lt;/h5&gt;
+&lt;p&gt;Данные не компилируются. &lt;/p&gt;
+									</field>
+									<field id="REG_AGG">&lt;h2&gt;&lt;strong&gt;&lt;strong&gt;Региональные агрегаты:&lt;/strong&gt;&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Региональные и глобальные агрегаты в настоящее время недоступны для данного индикатора.&lt;/p&gt;
+									</field>
 									<field id="COVERAGE"/>
-									<field id="OTHER_DOC"/>
+									<field id="OTHER_DOC">&lt;h1&gt;Ссылки&lt;/h1&gt;
+&lt;h2&gt;&lt;strong&gt;&lt;strong&gt;URL:&lt;/strong&gt;&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.uis.unesco.org/Pages/default.aspx&quot;&gt;http://www.uis.unesco.org/Pages/default.aspx&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;&lt;strong&gt;&lt;strong&gt;Ссылки:&lt;/strong&gt;&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;h1&gt;Программа анализа образовательных систем CONFEMEN (PASEC): &lt;/p&gt;: &lt;a href=&quot;http://www.pasec.confemen.org/&quot;&gt;http://www.pasec.confemen.org/&lt;/a&gt;&lt;/p&gt;.
+&lt;p&gt;Международное исследование качества чтения и понимания текста (PIRLS): &lt;a href=&quot;http://www.iea.nl/pirls_2016.html%20&quot;&gt;http://www.iea.nl/pirls_2016.html&lt;/a&gt; &lt;/p&gt;
+&lt;p&gt;Международная программа по оценке образовательных достижений учащихся (PISA): &lt;a href=&quot;https://www.oecd.org/pisa/aboutpisa/%20&quot;&gt;https://www.oecd.org/pisa/aboutpisa/&lt;/a&gt; &lt;/p&gt;
+&lt;p&gt;Консорциум стран Южной и Восточной Африки по мониторингу качества образования (SACMEQ): &lt;a href=&quot;http://www.sacmeq.org/?q=sacmeq-projects/sacmeq-iv%20&quot;&gt;http://www.sacmeq.org/?q=sacmeq-projects/sacmeq-iv&lt;/a&gt; &lt;/p&gt;
+&lt;p&gt;Третье региональное сравнительно-пояснительное исследование (TERCE): &lt;a href=&quot;http://www.unesco.org/new/es/santiago/education/education-assessment-llece/third-regional-comparative-and-explanatory-study-terce/&quot;&gt;http://www.unesco.org/new/es/santiago/education/education-assessment-llece/third-regional-comparative-and-explanatory-study-terce/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Международное исследование качества математического и естественнонаучного образования (TIMSS): &lt;a href=&quot;http://www.iea.nl/timss_2015.html&quot;&gt;http://www.iea.nl/timss_2015.html&lt;/a&gt;&lt;/p&gt;
+									</field>
 									<field id="SDG_INDICATOR_INFO"/>
 									<field id="SDG_SERIES_DESCR"/>
 									<field id="CONTACT"/>
