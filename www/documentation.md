@@ -14,7 +14,7 @@ The documents below provide a general **introduction** and **step-by-step instru
 * Step-by-Step Instructions:
   * Step 1: [Prepare machine readable (and SDMX compliant) metadata files from Word documents](https://docs.google.com/document/d/1A8VJ5mRfXJ2rrJd9-2z6vnRhRHFxDxAHWVpJ7fyyxIM/edit?usp=sharing)
    * [Use SDG metadata authoring template](https://docs.google.com/document/d/10IXjvoM6nxLPnk6VCR7leVZ2AYGLzuLCtrcf3kUxEz4/edit?usp=sharing)
-   * [Check SDG metadata definitions and mapping to IAEG-SDG format] (https://docs.google.com/document/d/1nxpm9vpaJz5XUdwXUXx1SQUIAYktVtnU_0dOwm0eWUs/edit?usp=sharing)
+   * [Check SDG metadata definitions and mapping to IAEG-SDG format](https://docs.google.com/document/d/1nxpm9vpaJz5XUdwXUXx1SQUIAYktVtnU_0dOwm0eWUs/edit?usp=sharing)
   * Step 2: Generate and manage machine readable files in Github for translation in Weblate  
   * Step 3: [Use Weblate to translate machine-readable files and access the output](https://docs.google.com/document/d/1Msu8aOVTItkdFIhN6O0snmKRX1wrD7iaW818ssZncXA/edit#heading=h.gjdgxs)
   
