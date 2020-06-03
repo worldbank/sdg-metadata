@@ -20,7 +20,7 @@
       </field>
       <field id="SDG_TARGET">
         <translations>
-          <translation lang="es"/>
+          <translation lang="es">&lt;p&gt; Meta 1.1: Para 2030, erradicar la pobreza extrema para todas las personas en todas partes, actualmente medidas como personas que viven con menos de 1,25 dólares al día&lt;/p&gt;</translation>
           <translation lang="fr">&lt;p&gt;Objectif 1.1 : D'ici à 2030, éliminer complètement l'extrême pauvreté dans le monde entier (s’entend actuellement du fait de vivre avec moins de 1,90 dollar américain par jour).&lt;/p&gt;</translation>
           <translation lang="ru">&lt;p&gt;&lt;/p&gt;Задача 1.1.К 2030 году ликвидировать крайнюю нищету для всех людей во всем мире (в настоящее время крайняя нищета определяется как проживание на сумму менее чем 1,25 долл. США в день)&lt;/p&gt;</translation>
           <translation lang="en">&lt;p&gt;Target 1.1: By 2030, eradicate extreme poverty for all people everywhere, currently measured as people living on less than $1.25 a day&lt;/p&gt;</translation>
@@ -219,7 +219,8 @@
       </field>
       <field id="COLL_METHOD">
         <translations>
-          <translation lang="es"/>
+          <translation lang="es">&lt;h2&gt; Proceso de cobro:&lt;/h2&gt;
+&lt;p&gt; El Banco Mundial comparte y hace públicas de forma transparente las metodologías para todo tipo de ajustes a los datos originales (por ejemplo, a través de su sitio web de PovcalNet y sus diversos documentos analíticos). Las estimaciones de pobreza son elaboradas por economistas, que trabajan en estrecha colaboración con las contrapartes del gobierno nacional en relación con cada actualización de datos sobre la pobreza. &lt;/p&gt;</translation>
           <translation lang="fr">&lt;h2&gt;Procédure de collecte :&lt;/h2&gt;
 &lt;p&gt;La Banque mondiale partage et rend publiques de manière transparente les méthodologies pour toutes sortes d'ajustements aux données originales (par exemple, par le biais de son site web PovcalNet et de ses divers documents analytiques). Les estimations de la pauvreté sont élaborées par des économistes, qui travaillent en étroite collaboration avec leurs homologues des gouvernements nationaux pour chaque mise à jour des données sur la pauvreté. &lt;/p&gt;</translation>
           <translation lang="ru">&lt;h2&gt; Процесс сбора&lt;/h2&gt;
@@ -1880,7 +1881,8 @@ http://www.ilo.org/wcmsp5/groups/public/---dgreports/---inst/documents/publicati
       <field id="REC_USE_LIM">
         <translations>
           <translation lang="es"/>
-          <translation lang="fr"/>
+          <translation lang="fr">&lt;h2&gt;Commentaires et limites :&lt;/h2&gt;
+&lt;p&gt;Lorsque l'on compare les institutions entre elles, il est important de prêter attention aux différents types d'adhésion offerts par les institutions. Les droits de vote et d'adhésion sont convenus par les États membres eux-mêmes. Pour cet indicateur, il ne devrait y avoir que de faibles changements au fil du temps, reflétant de nouvelles adhésions et des retraits, la suspension du droit de vote de certains États et des changements au niveau des droits de vote.&lt;/p&gt;</translation>
           <translation lang="ru">&lt;h2&gt; Комментарии и ограничения:&lt;/h2&gt;
 &lt;p&gt;При проведении межучрежденческих сопоставлений необходимо обращать внимание на различный членский состав учреждений. Право голоса и членство в учреждениях согласовываются самими государствами-членами. Что касается структурного показателя, то со временем в нем будут происходить лишь небольшие изменения, отражающие согласие на вступление новых государств в качестве членов, приостановление права голоса, выход из состава членов и согласованные изменения права голоса&lt;/p&gt;</translation>
           <translation lang="en">&lt;h2&gt;Comments and limitations:&lt;/h2&gt;
@@ -1890,7 +1892,9 @@ http://www.ilo.org/wcmsp5/groups/public/---dgreports/---inst/documents/publicati
       <field id="DATA_COMP">
         <translations>
           <translation lang="es"/>
-          <translation lang="fr"/>
+          <translation lang="fr">&lt;h1&gt;Méthodologie&lt;/h1&gt;
+&lt;h2&gt;Méthode de calcul :&lt;/h2&gt;
+&lt;p&gt;Le calcul utilise les données &amp;#x2019; de chaque institution publiées de leurs rapports annuels respectifs. La proportion des droits de vote est calculée en divisant le nombre de droits de vote attribués aux pays en développement par le nombre total de droits de vote. La proportion des membres est calculée en divisant le nombre de pays en développement membres par le nombre total de membres.&lt;/p&gt;</translation>
           <translation lang="ru">&lt;h1&gt; Методология &lt;/h1&gt;
 &lt;h2&gt; Метод расчета: &lt;/h2&gt;
 &lt;p&gt;В расчетах используются данные о членстве и обладании правом голоса, публикуемые каждым учреждением в их соответствующих годовых отчетах. Удельный вес голосов рассчитывается как количество голосов, предоставленных развивающимся странам, деленное на общее количество голосов. Доля в членском составе рассчитывается как количество членов от развивающихся стран, деленное на общее количество членов учреждения
@@ -1967,7 +1971,10 @@ http://www.ilo.org/wcmsp5/groups/public/---dgreports/---inst/documents/publicati
       <field id="COVERAGE">
         <translations>
           <translation lang="es"/>
-          <translation lang="fr"/>
+          <translation lang="fr">&lt;h1&gt;Disponibilité des données&lt;/h1&gt;
+&lt;p&gt;Disponibles pour tous les pays.&lt;/p&gt;
+&lt;h2&gt;Désagrégation :&lt;/h2&gt;
+&lt;p&gt;Les données sont calculées et présentées séparément pour chaque organisation internationale.&lt;/p&gt;</translation>
           <translation lang="ru">&lt;h1&gt; Наличие данных &lt;/h1&gt;
 &lt;p&gt; Данные имеются по всем странам. &lt;/p&gt;
 &lt;h2&gt; Дезагрегация: &lt;/h2&gt;
@@ -1989,7 +1996,9 @@ http://www.ilo.org/wcmsp5/groups/public/---dgreports/---inst/documents/publicati
       <field id="OTHER_DOC">
         <translations>
           <translation lang="es"/>
-          <translation lang="fr"/>
+          <translation lang="fr">&lt;h1&gt;Références&lt;/h1&gt;
+&lt;h2&gt;URL :&lt;/h2&gt;
+&lt;p&gt;&lt;a href="https://www.un.org/development/desa/fr/"&gt;https://www.un.org/development/desa/fr/&lt;/a&gt;&lt;/p&gt;</translation>
           <translation lang="ru">&lt;h1&gt; Ссылки &lt;/h1&gt;
 &lt;h2&gt; URL: &lt;/h2&gt;
 &lt;p&gt;&lt;a href="https://www.un.org/development/desa/en/"&gt; https://www.un.org/development/desa/en/&lt;/a&gt;&lt;/p&gt;</translation>
@@ -5317,7 +5326,7 @@ gIhwho9/DDz+sBChcPvW5bf608x4Ed9R74403NF+SBO4saOPY+G46glu++0kUN9LgNudcY8W44Ygir9w
         <translations>
           <translation lang="es"/>
           <translation lang="fr"/>
-          <translation lang="ru">Показатель 17.3.2: Объем переводов (в долларах США) в процентном отношении к ВВП</translation>
+          <translation lang="ru">&lt;p&gt;Показатель 17.3.2: Объем переводов (в долларах США) в процентном отношении к ВВП&lt;/p&gt;</translation>
           <translation lang="en">&lt;p&gt;Indicator 17.3.2: Volume of remittances (in United States dollars) as a proportion of total GDP&lt;/p&gt;</translation>
         </translations>
       </field>
@@ -5475,8 +5484,7 @@ gIhwho9/DDz+sBChcPvW5bf608x4Ed9R74403NF+SBO4saOPY+G46glu++0kUN9LgNudcY8W44Ygir9w
         <translations>
           <translation lang="es"/>
           <translation lang="fr"/>
-          <translation lang="ru">## Источники данных
-
+          <translation lang="ru">&lt;h1&gt;Источники данных&lt;/h1&gt;
 &lt;p&gt;Данные об объеме частных денежных переводов поступают из базы данных МВФ по статистике платежного баланса, а затем пробелы заполняются оценками сотрудников Всемирного банка.&lt;/p&gt;
 &lt;p&gt;В качестве знаменателя используются данные по ВВП, полученные из базы данных Всемирного банка по показателям мирового развития (WDI). Сбор данных по ВВП проводится из национальных и международных источников посредством ежегодного опроса экономистов, работающих в сети отделений Банка в странах-членах. Опрос является основным механизмом сбора количественной макроэкономической информации о странах-членах Всемирного банка.&lt;/p&gt;</translation>
           <translation lang="en">&lt;h1&gt;Data sources&lt;/h1&gt;
@@ -5496,8 +5504,8 @@ gIhwho9/DDz+sBChcPvW5bf608x4Ed9R74403NF+SBO4saOPY+G46glu++0kUN9LgNudcY8W44Ygir9w
         <translations>
           <translation lang="es"/>
           <translation lang="fr"/>
-          <translation lang="ru">&lt;h1&gt; Календарь
-&lt;p&gt; Составляется на ежегодной основе. &lt;/p&gt;</translation>
+          <translation lang="ru">&lt;h1&gt; Календарь&lt;/h1&gt;
+&lt;p&gt; Составляется на ежегодной основе.&lt;/p&gt;</translation>
           <translation lang="en">&lt;h1&gt;Calendar&lt;/h1&gt;
 &lt;p&gt;This is done on an annual basis.&lt;/p&gt;</translation>
         </translations>
@@ -5514,8 +5522,8 @@ gIhwho9/DDz+sBChcPvW5bf608x4Ed9R74403NF+SBO4saOPY+G46glu++0kUN9LgNudcY8W44Ygir9w
         <translations>
           <translation lang="es"/>
           <translation lang="fr"/>
-          <translation lang="ru">&lt;h1&gt; Поставщики данных
-&lt;p&gt; Поставщиком национальным данных по частным денежным переводам является учреждение, отвечающее за сбор и составление статистики платежного баланса. Эта обязанность в различных странах возлагается на разные учреждения (например, на Центральный банк). Оценки сотрудников Всемирного банка данных по частным денежным переводам используются для заполнения пробелов. Данные по частным денежным переводам не направляются напрямую во Всемирный банк поставщиком национальных данных. Они представляются в Международный валютный фонд (МВФ), который является учреждением, отвечающим за контроль стабильности платежного баланса в рамках своего институционального мандата. &lt;/p&gt;
+          <translation lang="ru">&lt;h1&gt; Поставщики данных&lt;/h1&gt;
+&lt;p&gt; Поставщиком национальным данных по частным денежным переводам является учреждение, отвечающее за сбор и составление статистики платежного баланса. Эта обязанность в различных странах возлагается на разные учреждения (например, на Центральный банк). Оценки сотрудников Всемирного банка данных по частным денежным переводам используются для заполнения пробелов. Данные по частным денежным переводам не направляются напрямую во Всемирный банк поставщиком национальных данных. Они представляются в Международный валютный фонд (МВФ), который является учреждением, отвечающим за контроль стабильности платежного баланса в рамках своего институционального мандата.&lt;/p&gt;
 &lt;p&gt; Данные по ВВП представляются из базы данных Всемирного банка по показателям мирового развития (WDI) и составляются в соответствии с методологией Системы национальных счетов 2008 года (СНС-2008). Сбор данных по ВВП проводится в рамках Единого обследования, основного механизма, используемого Всемирным банком для сбора количественной макроэкономической информации о странах-членах.&lt;/p&gt;</translation>
           <translation lang="en">&lt;h1&gt;Data providers&lt;/h1&gt;
 &lt;p&gt;The national data provider of personal remittances is the institution in charge of the collection and compilation of the Balance of Payments statistics. This responsibility varies and is country specific (i.e. Central Bank). World Bank staff estimates for personal remittances data are used for gap-filling purposes. Personal remittances data are not reported directly to the World Bank from the national data provider. They are reported to the International Monetary Fund (IMF), which is the institution in charge of overseeing balance of payment stability as part of its institutional mandate. &lt;/p&gt;
@@ -5570,8 +5578,7 @@ gIhwho9/DDz+sBChcPvW5bf608x4Ed9R74403NF+SBO4saOPY+G46glu++0kUN9LgNudcY8W44Ygir9w
           <translation lang="fr"/>
           <translation lang="ru">&lt;h1&gt;Методология&lt;/h1&gt;
 &lt;h2&gt;&lt;strong&gt;&lt;strong&gt; Метод расчета&lt;/strong&gt;&lt;/strong&gt;&lt;/h2&gt;
-&lt;p&gt;Частные денежные переводы представляют собой сумму двух элементов, определенных в шестом издании Руководства по платежному балансу и международной инвестиционной позиции (РПБ6) МВФ: частные переводы и оплата труда работников. Оценки сотрудников Всемирного банка данных по объему частных денежных переводов используются для заполнения пробелов. Данные по ВВП, полученные из базы данных Всемирного банка по показателям мирового развития (WDI), затем используются для отображения этого показателя в процентном отношении к ВВП.&lt;/p&gt;
-.</translation>
+&lt;p&gt;Частные денежные переводы представляют собой сумму двух элементов, определенных в шестом издании Руководства по платежному балансу и международной инвестиционной позиции (РПБ6) МВФ: частные переводы и оплата труда работников. Оценки сотрудников Всемирного банка данных по объему частных денежных переводов используются для заполнения пробелов. Данные по ВВП, полученные из базы данных Всемирного банка по показателям мирового развития (WDI), затем используются для отображения этого показателя в процентном отношении к ВВП.&lt;/p&gt;</translation>
           <translation lang="en">&lt;h1&gt;Methodology&lt;/h1&gt;
 &lt;h2&gt;&lt;strong&gt;&lt;strong&gt;Computation method:&lt;/strong&gt;&lt;/strong&gt;&lt;/h2&gt;
 &lt;p&gt;Personal remittances are the sum of two items defined in the sixth edition of the IMF&amp;apos;s &lt;em&gt;Balance of Payments Manual&lt;/em&gt;: personal transfers and compensation of employees. World Bank staff estimates on the volume of personal remittances data are used for gap-filling purposes. GDP data, sourced from the World Bank&amp;#x2019;s World Development Indicators (WDI) database, are then used to express the indicator as a percentage of GDP.&lt;/p&gt;</translation>
@@ -5613,8 +5620,8 @@ gIhwho9/DDz+sBChcPvW5bf608x4Ed9R74403NF+SBO4saOPY+G46glu++0kUN9LgNudcY8W44Ygir9w
         <translations>
           <translation lang="es"/>
           <translation lang="fr"/>
-          <translation lang="ru">&lt;h2&gt; &lt;strong&gt; &lt;strong&gt; Региональные агрегаты: &lt;/strong&gt; &lt;/strong&gt; &lt;/h2&gt;
-&lt;p&gt; Региональные и глобальные оценки рассчитываются как средневзвешенное значение ВВП. &lt;/p&gt;</translation>
+          <translation lang="ru">&lt;h2&gt; &lt;strong&gt; &lt;strong&gt; Региональные агрегаты: &lt;/strong&gt; &lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt; Региональные и глобальные оценки рассчитываются как средневзвешенное значение ВВП.&lt;/p&gt;</translation>
           <translation lang="en">&lt;h2&gt;&lt;strong&gt;&lt;strong&gt;Regional aggregates:&lt;/strong&gt;&lt;/strong&gt;&lt;/h2&gt;
 &lt;p&gt;Regional and global estimates are calculated as the GDP weighted average.&lt;/p&gt;</translation>
         </translations>
@@ -5655,7 +5662,7 @@ gIhwho9/DDz+sBChcPvW5bf608x4Ed9R74403NF+SBO4saOPY+G46glu++0kUN9LgNudcY8W44Ygir9w
         <translations>
           <translation lang="es"/>
           <translation lang="fr"/>
-          <translation lang="ru">&lt;h1&gt; Наличие данных &lt;/h1&gt;
+          <translation lang="ru">&lt;h1&gt;Наличие данных&lt;/h1&gt;
 &lt;p&gt; Данные по 207 странам уже имеются в наличии на постоянной основе для этого показателя. &lt;/p&gt;
 &lt;h2&gt; &lt;strong&gt; &lt;strong&gt; Дезагрегация: &lt;/strong&gt; &lt;/strong&gt; &lt;/h2&gt;
 &lt;p&gt; Не осуществляется &lt;/p&gt;</translation>
@@ -5679,13 +5686,15 @@ gIhwho9/DDz+sBChcPvW5bf608x4Ed9R74403NF+SBO4saOPY+G46glu++0kUN9LgNudcY8W44Ygir9w
           <translation lang="fr"/>
           <translation lang="ru">&lt;h1&gt; Ссылки&lt;/h1&gt;
 &lt;h2&gt; &lt;strong&gt; &lt;strong&gt; URL:&lt;/strong&gt;&lt;/strong&gt;&lt;/h2&gt;
-&lt;p&gt; www.worldbank.org
+&lt;p&gt; 
+&lt;a href="https://d.docs.live.net/c8f087e0e47b6917/Desktop/Employment/WB/WB%20Metadata%20Project/Authoring%20Tool/www.worldbank.org"&gt;www.worldbank.org&lt;/a&gt;&lt;/p&gt;
 &lt;h2&gt; &lt;strong&gt; &lt;strong&gt; Ссылки: &lt;/strong&gt;&lt;/strong&gt;&lt;/h2&gt;
-&lt;p&gt; Данные составляются в соответствии с шестым изданием Руководства по платежному балансу и международной инвестиционной позиции (РПБ6). Руководство доступно по адресу: &lt;a href="https://www.imf.org/external/pubs/ft/bop/2007/bopman6.htm"&gt;'https:///www.imf.org/external/pubs/ft/bop/2007/bopman6.htm
-&lt;p&gt; Данные по ВВП составляются в соответствии с методологией Системы национальных счетов 2008 года (СНС–2008). Руководство доступно по адресу: &lt;a href="http://unstats.un.org/unsd/nationalaccount/docs/SNA2008.pdf"&gt;http://unstats.un.org/unsd/nationalaccount/docs/SNA2008.pdf. &lt;/p&gt;
-&lt;p&gt; Метаданные также доступны по адресу:
-&lt;/p&gt;
-&lt;p&gt;&lt;a href="http://databank.worldbank.org/data/reports.aspx?source=2&amp;amp;type=metadata&amp;amp;series=BX.TRF.PWKR.DT.GD.ZS"&gt;http://databank.worldbank.org/data/reports.aspx?source=2&amp;amp;type=metadata&amp;amp;series=BX.TRF.PWKR.DT.GD.ZS&lt;/a&gt;&lt;/p&gt;</translation>
+&lt;p&gt; Данные составляются в соответствии с шестым изданием Руководства по платежному балансу и международной инвестиционной позиции (РПБ6). Руководство доступно по адресу: &lt;a href="https://www.imf.org/external/pubs/ft/bop/2007/bopman6.htm"&gt;'https:///www.imf.org/external/pubs/ft/bop/2007/bopman6.htm&lt;/a&gt;. &lt;/p&gt;
+&lt;p&gt; Данные по ВВП составляются в соответствии с методологией Системы национальных счетов 2008 года (СНС–2008). Руководство доступно по адресу: &lt;a href="http://unstats.un.org/unsd/nationalaccount/docs/SNA2008.pdf"&gt;http://unstats.un.org/unsd/nationalaccount/docs/SNA2008.pdf. &lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt; Метаданные также доступны по адресу:&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://databank.worldbank.org/data/reports.aspx?&lt;a href="http://databank.worldbank.org/data/reports.aspx?
+source=2&amp;amp;type=metadata&amp;amp;series=BX.TRF.PWKR.DT.GD.ZS"&gt;
+http://databank.worldbank.org/data/reports.aspx?source=2&amp;amp;type=metadata&amp;amp;series=BX.TRF.PWKR.DT.GD.ZS&lt;/a&gt;&lt;/p&gt;</translation>
           <translation lang="en">&lt;h1&gt; References&lt;/h1&gt;
 &lt;h2&gt;&lt;strong&gt;&lt;strong&gt;URL:&lt;/strong&gt;&lt;/strong&gt;&lt;/h2&gt;
 &lt;p&gt;&lt;a href="https://d.docs.live.net/c8f087e0e47b6917/Desktop/Employment/WB/WB%20Metadata%20Project/Authoring%20Tool/www.worldbank.org"&gt;www.worldbank.org&lt;/a&gt;&lt;/p&gt;
