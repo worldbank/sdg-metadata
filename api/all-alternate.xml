@@ -20,7 +20,7 @@
       </field>
       <field id="SDG_TARGET">
         <translations>
-          <translation lang="es">&lt;p&gt; Meta 1.1: Para 2030, erradicar la pobreza extrema para todas las personas en todas partes, actualmente medidas como personas que viven con menos de 1,25 dólares al día&lt;/p&gt;</translation>
+          <translation lang="es">&lt;p&gt; Meta 1.1: Para 2030, erradicar la pobreza extrema para todas las personas en todas partes, actualmente medida como personas que viven con menos de $1.25 por día &lt;/p&gt;</translation>
           <translation lang="fr">&lt;p&gt;Objectif 1.1 : D'ici à 2030, éliminer complètement l'extrême pauvreté dans le monde entier (s’entend actuellement du fait de vivre avec moins de 1,90 dollar américain par jour).&lt;/p&gt;</translation>
           <translation lang="ru">&lt;p&gt;&lt;/p&gt;Задача 1.1.К 2030 году ликвидировать крайнюю нищету для всех людей во всем мире (в настоящее время крайняя нищета определяется как проживание на сумму менее чем 1,25 долл. США в день)&lt;/p&gt;</translation>
           <translation lang="en">&lt;p&gt;Target 1.1: By 2030, eradicate extreme poverty for all people everywhere, currently measured as people living on less than $1.25 a day&lt;/p&gt;</translation>
@@ -28,7 +28,7 @@
       </field>
       <field id="SDG_INDICATOR">
         <translations>
-          <translation lang="es"/>
+          <translation lang="es">&lt;p&gt;Indicador 1.1.1: Proporción de la población que vive por debajo de la línea internacional de la pobreza por sexo, edad, situación laboral y ubicación geográfica (urbano/rural)&lt;/p&gt;</translation>
           <translation lang="fr">&lt;p&gt;Indicateur 1.1.1 : Proportion de la population vivant sous le seuil de pauvreté international, par sexe, âge, statut d’emploi et localisation géographique (urbaine/rurale)&lt;/p&gt;</translation>
           <translation lang="ru">&lt;p&gt;Показатель 1.1.1: Доля населения, живущего за международной чертой бедности, в разбивке по полу, возрасту, статусу занятости и месту проживания (городское/сельское)&lt;/p&gt;</translation>
           <translation lang="en">&lt;p&gt;Indicator 1.1.1: Proportion of the population living below the international poverty line by sex, age, employment status and geographic location (urban/rural)&lt;/p&gt;</translation>
@@ -44,7 +44,7 @@
       </field>
       <field id="META_LAST_UPDATE">
         <translations>
-          <translation lang="es"/>
+          <translation lang="es">&lt;p&gt; Última actualización: 19 de julio de 2016 &lt;/p&gt;</translation>
           <translation lang="fr">&lt;p&gt;Dernière mise à jour : 19 juillet 2016&lt;/p&gt;</translation>
           <translation lang="ru">&lt;p&gt;Последнее обновление: 19 июля 2016 года&lt;/p&gt;</translation>
           <translation lang="en">&lt;p&gt;Last updated: 19 July 2016&lt;/p&gt;</translation>
@@ -60,7 +60,9 @@
       </field>
       <field id="SDG_CUSTODIAN_AGENCIES">
         <translations>
-          <translation lang="es"/>
+          <translation lang="es">&lt;h1&gt; Información institucional &lt;/h1&gt;
+&lt;h2&gt; Organización (es): &lt;/h2&gt;
+&lt;p&gt; Banco Mundial (BM) &lt;/p&gt;</translation>
           <translation lang="fr">&lt;h1&gt;Information institutionnelle&lt;/h1&gt;
 &lt;h2&gt;Organisation(s) :&lt;/h2&gt;
 &lt;p&gt;Banque mondiale (BM)&lt;/p&gt;</translation>
@@ -148,10 +150,10 @@
         <translations>
           <translation lang="es"/>
           <translation lang="fr">&lt;h1&gt;Concepts et définitions&lt;/h1&gt;
-&lt;h2&gt;Définition:&lt;/h2&gt;
-&lt;p&gt;L'indicateur &amp;#x201C;proportion de la population sous le seuil de pauvreté international&amp;#x201D ; est défini comme le pourcentage de la population vivant avec moins de 1,90 $ par jour aux prix internationaux de 2011. L'indicateur &amp;#x201C;seuil de pauvreté international &amp;#x201D ; est actuellement fixé à 1,90 $ par jour aux prix internationaux de 2011.&lt;/p&gt;
-&lt;h2&gt;Concepts:&lt;/h2&gt;
-&lt;p&gt;Pour évaluer la pauvreté dans un pays donné, et identifier la meilleure façon de la réduire, on se concentre naturellement sur un seuil de pauvreté jugé approprié pour ce pays. Mais comment parler de manière significative de &amp;#x201C;la pauvreté dans le monde ? &amp;#x201D ; Les seuils de pauvreté varient d'un pays à l'autre en fonction de leur pouvoir d'achat, et ils présentent un fort gradient économique, de sorte que les pays les plus riches ont tendance à adopter des niveaux de vie plus élevés pour définir la pauvreté. Mais pour mesurer de manière cohérente la pauvreté absolue mondiale en termes de consommation, nous devons traiter de la même manière deux personnes ayant le même pouvoir d'achat sur les produits de base&amp;#x2014;les deux sont soit pauvres soit non pauvres&amp;#x2014;même si elles vivent dans des pays différents.&lt;/p&gt;
+&lt;h2&gt;Définition :&lt;/h2&gt;
+&lt;p&gt;L'indicateur &amp;#x201C;proportion de la population sous le seuil de pauvreté international&amp;#x201D; est défini comme le pourcentage de la population vivant avec moins de 1,90 $ par jour aux prix internationaux de 2011. L'indicateur &amp;#x201C;seuil de pauvreté international&amp;#x201D; est actuellement fixé à 1,90 $ par jour aux prix internationaux de 2011.&lt;/p&gt;
+&lt;h2&gt;Concepts :&lt;/h2&gt;
+&lt;p&gt;Pour évaluer la pauvreté dans un pays donné, et identifier la meilleure façon de la réduire, on se concentre naturellement sur un seuil de pauvreté jugé approprié pour ce pays. Mais comment parler de manière significative de &amp;#x201C;la pauvreté dans le monde ?&amp;#x201D; Les seuils de pauvreté varient d'un pays à l'autre en fonction de leur pouvoir d'achat, et ils présentent un fort gradient économique, de sorte que les pays les plus riches ont tendance à adopter des niveaux de vie plus élevés pour définir la pauvreté. Mais pour mesurer de manière cohérente la pauvreté absolue mondiale en termes de consommation, nous devons traiter de la même manière deux personnes ayant le même pouvoir d'achat sur les produits de base&amp;#x2014;soit les deux sont pauvres, soit elles ne le sont pas&amp;#x2014;même si elles vivent dans des pays différents.&lt;/p&gt;
 &lt;p&gt;Depuis le Rapport sur le développement dans le monde 1990, la Banque mondiale s'efforce d'appliquer une norme commune pour mesurer l'extrême pauvreté, en se basant sur ce que signifie la pauvreté dans les pays les plus pauvres du monde. Le bien-être des personnes vivant dans différents pays peut être mesuré sur une échelle commune en ajustant les différences de pouvoir d'achat des monnaies. La norme communément utilisée d'un dollar par jour, mesurée aux prix internationaux de 1985 et ajustée à la monnaie locale à l'aide de la PPA, a été choisie pour le Rapport sur le développement dans le monde 1990 parce qu'elle était typique des seuils de pauvreté dans les pays à faible revenu de l'époque. Comme les différences de coût de la vie dans le monde évoluent, le seuil de pauvreté international doit être périodiquement mis à jour à l'aide de nouvelles données sur les prix de la PPA pour refléter ces changements. La dernière modification remonte à octobre 2015, lorsque la Banque mondiale a adopté le seuil de pauvreté international de 1,90 $ en utilisant la PPA de 2011. Avant cela, la mise à jour de 2008 avait fixé le seuil de pauvreté international à 1,25 $ en utilisant la PPA de 2005. Les mesures de la pauvreté basées sur les seuils de pauvreté internationaux tentent de maintenir constante la valeur réelle du seuil de pauvreté entre les pays, comme cela est fait lors de comparaisons dans le temps. Les premières éditions des Indicateurs du développement dans le monde (IDM) de la Banque mondiale utilisaient les PPA des Penn World Tables pour convertir les valeurs en monnaie locale en pouvoir d&amp;#8217achat équivalent mesuré en dollars américains. Les éditions ultérieures ont utilisé les estimations des PPA de consommation de 1993, 2005 et 2011 produites par le Programme de comparaison internationale (PCI) de la Banque mondiale.&lt;/p&gt;</translation>
           <translation lang="ru">&lt;h1&gt;Понятия и определения&lt;/h1&gt;
 &lt;h2&gt;Определение:&lt;/h2&gt;
@@ -195,12 +197,12 @@
         <translations>
           <translation lang="es"/>
           <translation lang="fr">&lt;h1&gt;Sources de données&lt;/h1&gt;
-&lt;h2&gt;Description:&lt;/h2&gt;
-&lt;p&gt;La Banque mondiale reçoit généralement les données directement des Instituts nationaux de statistiques (INS). Dans d'autres cas, elle utilise les données des INS reçues indirectement. Par exemple, elle reçoit des données d'Eurostat et du LIS (Luxemburg Income Study), qui lui fournissent les données des INS qu'ils ont reçues / harmonisées. L'Universidad Nacional de La Plata, l'Argentine et la Banque mondiale gèrent conjointement la base de données BDSEALC (Base de données socio-économique de l'Amérique latine et des Caraïbes) qui comprend des statistiques harmonisées sur la pauvreté et autres variables distributionnelles et sociales de 24 pays d'Amérique latine et des Caraïbes, basées sur des microdonnées provenant d'enquêtes sur les ménages menées par les INS.&lt;/p&gt;
+&lt;h2&gt;Description :&lt;/h2&gt;
+&lt;p&gt;La Banque mondiale reçoit généralement les données directement des Instituts nationaux de statistiques (INS). Dans d'autres cas, elle utilise les données des INS reçues indirectement. Par exemple, elle reçoit des données d'Eurostat et du LIS (Étude sur le revenu du Luxembourg), qui lui fournissent les données des INS qu'ils ont reçues / harmonisées. L'Universidad Nacional de La Plata, l'Argentine et la Banque mondiale gèrent conjointement la base de données BDSEALC (Base de données socio-économique de l'Amérique latine et des Caraïbes) qui comprend des statistiques harmonisées sur la pauvreté et autres variables distributionnelles et sociales de 24 pays d'Amérique latine et des Caraïbes, basées sur des microdonnées provenant d'enquêtes sur les ménages menées par les INS.&lt;/p&gt;
 &lt;p&gt;Les données sont obtenues par le biais de programmes spécifiques à chaque pays, notamment des programmes d'assistance technique et des activités conjointes d'analyse et de renforcement des capacités. La Banque mondiale entretient des relations avec les INS sur des programmes de travail impliquant des systèmes statistiques et de l'analyse de données. Les économistes de la Banque mondiale travaillent généralement avec les INS sur la mesure et l'analyse de la pauvreté dans le cadre des activités d'assistance technique.&lt;/p&gt;
-&lt;p&gt;Au sein de la Banque mondiale, le Groupe de travail sur la pauvreté mondiale (GTPM) est responsable de la collecte, de la validation et de la compilation des estimations de la pauvreté. Le GTPM archive les bases de données obtenus des INS et les harmonise ensuite en appliquant des méthodologies communes. L'objectif du GTPM est de s'assurer que les données sur la pauvreté et les inégalités générées, conservées et diffusées par la Banque mondiale sont à jour, répondent à des normes de haute qualité, sont bien documentées et sont cohérentes d'un canal de diffusion à l'autre. Les membres du GTPM produisent et mettent à jour les estimations de la proportion de la population vivant sous le seuil de pauvreté international en utilisant les données brutes généralement fournies par les gouvernements des pays. Les données brutes sont obtenues par les économistes de la pauvreté par l'intermédiaire de leurs contacts dans les INS, et leur qualité est vérifiée avant d'être soumise à une analyse plus approfondie. Les données brutes peuvent être des données unitaires d'enquêtes ou des données groupées, selon les accords conclus avec les gouvernements des pays. Dans la plupart des cas, l'agrégat de bien-être, élément essentiel pour l'estimation de la pauvreté, est généré par les gouvernements des pays. Parfois, la Banque mondiale doit construire l'agrégat du bien-être ou ajuster l'agrégat fourni par le pays.&lt;/p&gt;
-&lt;h2&gt;Liste:&lt;/h2&gt;
-&lt;p&gt;Directement des Instituts nationaux de statistiques (INS) ou indirectement d'autres sources &amp;#x2013 ; voir la section sur les sources de données.&lt;/p&gt;</translation>
+&lt;p&gt;Au sein de la Banque mondiale, le Groupe de travail sur la pauvreté mondiale (GTPM) est responsable de la collecte, de la validation et de la compilation des estimations de la pauvreté. Le GTPM archive les ensembles de données obtenus des INS et les harmonise ensuite en appliquant des méthodologies communes. L'objectif du GTPM est de s'assurer que les données sur la pauvreté et les inégalités générées, conservées et diffusées par la Banque mondiale sont à jour, répondent à des normes de haute qualité, sont bien documentées et sont cohérentes d'un canal de diffusion à l'autre. Les membres du GTPM produisent et mettent à jour les estimations de la proportion de la population vivant sous le seuil de pauvreté international en utilisant les données brutes généralement fournies par les gouvernements des pays. Les données brutes sont obtenues par les économistes de la pauvreté par l'intermédiaire de leurs contacts dans les INS, et leur qualité est vérifiée avant d'être soumise à une analyse plus approfondie. Les données brutes peuvent être des données unitaires d'enquêtes ou des données groupées, selon les accords conclus avec les gouvernements des pays. Dans la plupart des cas, l'agrégat de bien-être, élément essentiel pour l'estimation de la pauvreté, est généré par les gouvernements des pays. Parfois, la Banque mondiale doit construire l'agrégat du bien-être ou ajuster l'agrégat fourni par le pays.&lt;/p&gt;
+&lt;h2&gt;Liste :&lt;/h2&gt;
+&lt;p&gt;Directement des Instituts nationaux de statistiques (INS) ou indirectement d'autres sources &amp;#x2013; voir la section sur les sources de données.&lt;/p&gt;</translation>
           <translation lang="ru">&lt;h1&gt; Источники данных &lt;/h1&gt;
 &lt;h2&gt;Описание&lt;/h2&gt;
 &lt;p&gt;Всемирный банк (ВБ) обычно получает данные от национальных статистических управлений (НСУ) напрямую. В некоторых случаях ВБ использует данные НСУ, полученные косвенным путем. Например, ВБ получает данные из Евростата и LIS (Luxemburg Income Study - Люксембургское исследование доходов), предоставляющих Всемирному банку данные НСУ, которые они получают / гармонизируют. Национальный университет штата Ла-Плата, Аргентина и Всемирный банк совместно ведут базу данных SEDLAC (Социально-экономическая база данных для стран Латинской Америки и Карибского бассейна), которая включает в себя гармонизированные статистические данные по бедности и другие обобщенные и социальные переменные по 24 странам Латинской Америки и Карибского бассейна, основанные на микроданных, получаемых в ходе обследований домашних хозяйств, проводимых НСУ.&lt;/p&gt;
@@ -234,7 +236,7 @@
           <translation lang="es"/>
           <translation lang="fr">&lt;h1&gt;Calendrier&lt;/h1&gt;
 &lt;h2&gt;Collecte de données :&lt;/h2&gt;
-&lt;p&gt;La collecte des données sources est en cours par le Groupe de travail sur la pauvreté mondiale de la Banque mondiale. Le calcul des nouvelles estimation de la pauvreté à l'aide de données sources mises à jour a normalement lieu chaque année de mai à septembre.&lt;/p&gt;</translation>
+&lt;p&gt;La collecte des données de base est en cours par le Groupe de travail sur la pauvreté mondiale de la Banque mondiale. Le calcul des nouvelles estimation de la pauvreté à l'aide de données de base mises à jour a normalement lieu chaque année de mai à septembre.&lt;/p&gt;</translation>
           <translation lang="ru">&lt;h1&gt;Календарь&lt;/h1&gt;
 &lt;h2&gt;Сбор данных&lt;/h2&gt;
 &lt;p&gt;Сбор исходных материалов осуществляется Рабочей группой по борьбе с глобальной бедностью, созданной Всемирным банком. Расчет новых данных по показателям бедности с использованием обновленных исходных данных обычно проводится с мая по сентябрь ежегодно.&lt;/p&gt;</translation>
@@ -268,7 +270,7 @@
       <field id="COMPILING_ORG">
         <translations>
           <translation lang="es"/>
-          <translation lang="fr">&lt;h1&gt;Compilateurs de données&lt;/h1&gt;
+          <translation lang="fr">&lt;h1&gt;Compilateurs des données&lt;/h1&gt;
 &lt;p&gt;Banque mondiale&lt;/p&gt;</translation>
           <translation lang="ru">&lt;h1&gt;Составители данных&lt;/h1&gt;
 &lt;p&gt;Всемирный банк&lt;/p&gt;</translation>
@@ -310,10 +312,10 @@
         <translations>
           <translation lang="es"/>
           <translation lang="fr">&lt;h2&gt;Commentaires et limites :&lt;/h2&gt;
-&lt;p&gt;Cinq pays &amp;#x2013 ; Bangladesh, Cap-Vert, Cambodge, Jordanie et Laos &amp;#x2013 ; utilisent les facteurs de conversion de PPA de 2005 et les seuils de pauvreté correspondants de 1,25 $ par jour et 2 $ par jour. Cela est dû aux écarts importants entre le taux de variation des facteurs de la PPA et le taux de variation des indices des prix à la consommation intérieur. Voir l'encadré 1.1 du Rapport de suivi mondial 2015/2016 (&lt;a href="http://www.worldbank.org/en/publication/global-monitoring-report"&gt;http://www.worldbank.org/en/publication/global-monitoring-report&lt;/a&gt;) pour une explication détaillée.&lt;/p&gt;
-&lt;p&gt;Malgré les progrès réalisés au cours de la dernière décennie, la mesure de la pauvreté reste un défi. L'actualité, la fréquence, la qualité et la comparabilité des enquêtes sur les ménages doivent augmenter considérablement, en particulier dans les pays les plus pauvres. La disponibilité et la qualité des données de suivi de la pauvreté restent faibles dans les petits États, les pays en situation de fragilité, les pays à faible revenu et même certains pays à revenu intermédiaire. La faible fréquence et le manque de comparabilité des données disponibles dans certains pays créent une incertitude quant à l'ampleur de la réduction de la pauvreté.&lt;/p&gt;
-&lt;p&gt;En plus de la fréquence et de l'actualité des données d'enquête, d'autres problèmes relié à la qualité des données se posent lors de la mesure du niveau de vie des ménages. Les enquêtes posent des questions détaillées sur les sources de revenus et la manière dont ils ont été dépensés, qui doivent être soigneusement enregistrées par un personnel qualifié. Les revenus sont généralement plus difficiles à mesurer avec précision, et la consommation se rapproche de la notion de niveau de vie. De plus, les revenus peuvent varier dans le temps, même si le niveau de vie ne varie pas. Mais les données sur la consommation ne sont pas toujours disponibles : les dernières estimations présentées ici utilisent des données sur la consommation pour environ deux tiers des pays.&lt;/p&gt;
-&lt;p&gt; Cependant, même des enquêtes similaires peuvent ne pas être strictement comparables en raison de différences dans le calendrier ou dans la qualité et la formation des recenseurs. Les comparaisons entre des pays ayant des niveaux de développement différents posent également un problème potentiel en raison des différences dans l'importance relative de la consommation de biens non marchands. La valeur marchande locale de toute consommation en nature (y compris la production propre, particulièrement importante dans les économies rurales sous-développées) doit être incluse dans les dépenses totales de consommation, mais ne l'est pas forcément. La plupart des données d'enquête comprennent maintenant des évaluations pour la consommation ou le revenu de la production propre, mais les méthodes d'évaluation varient.&lt;/p&gt;</translation>
+&lt;p&gt;Cinq pays &amp;#x2013; Bangladesh, Cap-Vert, Cambodge, Jordanie et Laos &amp;#x2013; utilisent les facteurs de conversion de PPA de 2005 et les seuils de pauvreté correspondants de 1,25 $ par jour et 2 $ par jour. Cela est dû aux écarts importants entre le taux de variation des facteurs de la PPA et le taux de variation des indices des prix à la consommation intérieur. Voir l'encadré 1.1 du Rapport de suivi mondial 2015/2016 (&lt;a href="http://www.worldbank.org/en/publication/global-monitoring-report"&gt;http://www.worldbank.org/en/publication/global-monitoring-report&lt;/a&gt;) pour une explication détaillée.&lt;/p&gt;
+&lt;p&gt;Malgré les progrès réalisés au cours de la dernière décennie, la mesure de la pauvreté reste un défi. L'actualité, la fréquence, la qualité et la comparabilité des enquêtes sur les ménages doivent augmenter considérablement, en particulier dans les pays les plus pauvres. La disponibilité et la qualité des données pour le suivi de la pauvreté restent faibles dans les petits États, les pays en situation précaire, les pays à faible revenu et même certains pays à revenu intermédiaire. La faible fréquence et le manque de comparabilité des données disponibles dans certains pays créent une incertitude quant à l'ampleur de la réduction de la pauvreté.&lt;/p&gt;
+&lt;p&gt;En plus de la fréquence et de l'actualité des données d'enquête, d'autres problèmes lié à la qualité des données se posent lors de la mesure du niveau de vie des ménages. Les enquêtes posent des questions détaillées sur les sources de revenus et la manière dont ils ont été dépensés, qui doivent être soigneusement enregistrées par un personnel qualifié. Les revenus sont généralement plus difficiles à mesurer avec précision, et la consommation se rapproche de la notion de niveau de vie. De plus, les revenus peuvent varier dans le temps, même si le niveau de vie ne varie pas. Par contre, les données sur la consommation ne sont pas toujours disponibles : les dernières estimations présentées ici utilisent des données sur la consommation pour environ deux tiers des pays.&lt;/p&gt;
+&lt;p&gt; Finalement, même des enquêtes similaires peuvent ne pas être strictement comparables en raison de différences dans le calendrier ou dans la qualité et la formation des recenseurs. Les comparaisons entre des pays ayant des niveaux de développement différents posent également un problème potentiel en raison des différences dans l'importance relative de la consommation de biens non marchands. La valeur marchande locale de toute consommation en nature (y compris la production propre, particulièrement importante dans les économies rurales sous-développées) doit être incluse dans les dépenses totales de consommation, mais ne l'est pas forcément. La plupart des données d'enquête comprennent maintenant des évaluations pour la consommation ou le revenu de la production propre, mais les méthodes d'évaluation varient.&lt;/p&gt;</translation>
           <translation lang="ru">&lt;h2&gt;Комментарии и ограничения&lt;/h2&gt;
 &lt;p&gt;Пять стран - Бангладеш, Кабо-Верде, Камбоджа, Иордания и Лаос - используют коэффициенты пересчета ППС 2005 года и соответствующие уровни бедности в 1,25 долл. США в день и 2 долл. США в день. Это связано с большими отклонениями в темпах изменения коэффициентов ППС по сравнению с темпами изменения внутренних страновых индексов потребительских цен. См. вставку 1.1 в Докладе по вопросам глобального мониторинга за 2015/2016 годы (Http://www.worldbank.org/en/publication/global-monitoring-report) для более подробного объяснения.&lt;/p&gt;
 &lt;p&gt;Несмотря на прогресс, достигнутый за последнее десятилетие, проблемы измерения бедности остаются. Своевременность, частота, качество и сопоставимость обследований домашних хозяйств должны быть существенно повышены, особенно в самых бедных странах. Наличие и качество данных мониторинга бедности остается низким в небольших государствах, странах с нестабильным положением, странах с низким уровнем дохода и даже в некоторых странах со средним уровнем дохода. Низкая периодичность и недостаточная сопоставимость данных, имеющихся в некоторых странах, создают неопределенность в отношении масштабов сокращения бедности.&lt;/p&gt;
@@ -2022,7 +2024,7 @@ http://www.ilo.org/wcmsp5/groups/public/---dgreports/---inst/documents/publicati
       <field id="SDG_GOAL">
         <translations>
           <translation lang="es"/>
-          <translation lang="fr"/>
+          <translation lang="fr">&lt;p&gt;Objectif 10 : Réduire les inégalités dans les pays et d'un pays à l'autre&lt;/p&gt;</translation>
           <translation lang="ru">&lt;p&gt;Цель 10: Сокращение неравенства внутри стран и между ними&lt;/p&gt;</translation>
           <translation lang="en">&lt;p&gt;Goal 10: Reduce inequality within and among countries&lt;/p&gt;</translation>
         </translations>
@@ -2030,7 +2032,7 @@ http://www.ilo.org/wcmsp5/groups/public/---dgreports/---inst/documents/publicati
       <field id="SDG_TARGET">
         <translations>
           <translation lang="es"/>
-          <translation lang="fr"/>
+          <translation lang="fr">&lt;p&gt;Cible 10.c : D'ici à 2030, faire baisser au-dessous de 3 % les coûts de transaction des envois de fonds effectués par les migrants et éliminer les circuits d'envois de fonds dont les coûts sont supérieurs à 5 %&lt;/p&gt;</translation>
           <translation lang="ru">&lt;p&gt;Задача: 10.c: К 2030 году сократить операционные затраты, связанные с переводом мигрантами денежных средств, до менее 3 процентов от суммы перевода и ликвидировать каналы денежных переводов, у которых эти затраты превышают 5 процентов&lt;/p&gt;</translation>
           <translation lang="en">&lt;p&gt;Target: 10.c: By 2030, reduce to less than 3 per cent the transaction costs of migrant remittances and eliminate remittance corridors with costs higher than 5 per cent&lt;/p&gt;</translation>
         </translations>
@@ -2038,7 +2040,7 @@ http://www.ilo.org/wcmsp5/groups/public/---dgreports/---inst/documents/publicati
       <field id="SDG_INDICATOR">
         <translations>
           <translation lang="es"/>
-          <translation lang="fr"/>
+          <translation lang="fr">&lt;p&gt;Indicateur 10.c.1 : Coûts des envois de fonds en proportion du montant transféré&lt;/p&gt;</translation>
           <translation lang="ru">&lt;p&gt;Показатель 10.c.1: Стоимость перевода в процентном отношении к переводимой сумме&lt;/p&gt;</translation>
           <translation lang="en">&lt;p&gt;Indicator 10.c.1: Remittance costs as a proportion of the amount remitted&lt;/p&gt;</translation>
         </translations>
@@ -2054,7 +2056,7 @@ http://www.ilo.org/wcmsp5/groups/public/---dgreports/---inst/documents/publicati
       <field id="META_LAST_UPDATE">
         <translations>
           <translation lang="es"/>
-          <translation lang="fr"/>
+          <translation lang="fr">&lt;p&gt;Dernière mise à jour : 02 février 2018&lt;/p&gt;</translation>
           <translation lang="ru">&lt;p&gt;Последнее обновление: 02 февраля 2018 года&lt;/p&gt;</translation>
           <translation lang="en">&lt;p&gt;Last updated: 02 February 2018&lt;/p&gt;</translation>
         </translations>
@@ -2062,7 +2064,8 @@ http://www.ilo.org/wcmsp5/groups/public/---dgreports/---inst/documents/publicati
       <field id="SDG_RELATED_INDICATORS">
         <translations>
           <translation lang="es"/>
-          <translation lang="fr"/>
+          <translation lang="fr">&lt;h1&gt;Indicateurs connexes&lt;/h1&gt;
+&lt;p&gt;Objectif 5x5 du G20 &amp;#x2013; Coût de transfert d'argent pour les migrants. En 2009, le G8 s'est fixé l'objectif, plus tard adopté par le G20, de faire passer le coût des transferts de fonds internationaux de 10 % à 5 % d'ici cinq ans. La cible a été surnommée l' &amp;#x201C;Objectif 5x5.&amp;#x201D;&lt;/p&gt;</translation>
           <translation lang="ru">&lt;h1&gt; Связанные показатели &lt;/h1&gt;
 &lt;p&gt;Задача G20 5x5 Сокращение затрат на денежные переводы в целях развития. В 2009 году "Большая восьмерка" установила задачу, которая позднее была принята "Группой двадцати", снизить затраты на международные денежные переводы с 10% до 5% в течение пяти лет. Эта задача была названа Задачей 5х5. &lt;/p&gt;</translation>
           <translation lang="en">&lt;h1&gt;Related indicators&lt;/h1&gt;
@@ -2072,7 +2075,9 @@ http://www.ilo.org/wcmsp5/groups/public/---dgreports/---inst/documents/publicati
       <field id="SDG_CUSTODIAN_AGENCIES">
         <translations>
           <translation lang="es"/>
-          <translation lang="fr"/>
+          <translation lang="fr">&lt;h1&gt;Information institutionnelle&lt;/h1&gt;
+&lt;h2&gt;Organisation(s) :&lt;/h2&gt;
+&lt;p&gt;Banque mondiale&lt;/p&gt;</translation>
           <translation lang="ru">&lt;h1&gt; Институциональная информация &lt;/h1&gt;
 &lt;h2&gt; Организация(и): &lt;/h2&gt;
 &lt;p&gt; Всемирный банк &lt;/p&gt;</translation>
@@ -2156,7 +2161,15 @@ http://www.ilo.org/wcmsp5/groups/public/---dgreports/---inst/documents/publicati
       <field id="STAT_CONC_DEF">
         <translations>
           <translation lang="es"/>
-          <translation lang="fr"/>
+          <translation lang="fr">&lt;h1&gt;Concepts et définitions&lt;/h1&gt;
+&lt;h2&gt;Définition :&lt;/h2&gt; 
+&lt;p&gt; La cible comprend deux composantes. D'une part, les coûts de transaction pour les envois de fonds des migrants devraient être de 3 % ou moins d'ici 2030. Ce coût correspond au &lt;strong&gt;&amp;#x201C;&lt;/strong&gt;&lt;strong&gt; Coût total moyen d'envoi de 200 $ (ou l'équivalent en devise locale) et exprimé en % du montant envoyé &amp;#x201D;.&lt;/strong&gt; Cet indicateur est disponible et publié sur une base trimestrielle par la Banque mondiale dans la base de données Remittance Prices Worldwide, qui couvre 365 circuits d'envoi, de 48 pays d'envoi à 105 pays de réception. La deuxième composante consiste à éliminer les circuits d'envoi où le coût est de 5 % ou plus. Il devrait ainsi être possible pour les expéditeurs de fonds d'envoyer des fonds à des bénéficiaires pour un coût moyen de 5 % ou moins du montant envoyé. Pour ce, il devrait suffire que, pour chaque circuits d'envoi, il existe au moins 3 services, répondant à un ensemble défini d'exigences (incluant la qualité du service, la portée, etc.), pour lesquels le coût moyen est de 5 % ou moins.&lt;/p&gt;
+&lt;h2&gt; Concepts :&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Transfert international de fonds. &lt;/em&gt;&lt;/strong&gt;&lt;em&gt; &lt;/em&gt;Paiement transfrontalier de personne à personne de valeur relativement faible. Les transferts sont généralement des paiements récurrents effectués par des travailleurs migrants (qui envoient de l'argent à leur famille dans leur pays d'origine chaque mois). Dans le rapport, le terme &amp;#x201C;transfert de fonds&amp;#x201D; est utilisé à des fins de simplification (c'est-à-dire qu'il est supposé que le transfert est international).&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Service d'envoi de fonds.&lt;/em&gt;&lt;/strong&gt;Désigne un service permettant aux utilisateurs d'envoyer et / ou de recevoir des fonds.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Fournisseur de services de transfert de fonds (FSTF).&lt;/em&gt;&lt;/strong&gt;Désigne une entité, opérant en tant qu'entreprise et fournissant un service payant d'envoi de fonds aux utilisateurs, soit directement, soit par l'intermédiaire d'agents. Il s'agit à la fois de banques et d'opérateurs de transfert d'argent, tels que définis ci-dessous.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Opérateur de transfert d'argent (OTA).&lt;/em&gt;&lt;/strong&gt;Désigne un service d'envoi de fonds sans dépôt où l'expéditeur transfère des fonds pour un envoi (ou une série d'envois) au prestataire de services (par exemple, en espèces ou par virement bancaire) &amp;#x2013; contrairement à une situation où le prestataire de services débite un compte détenu par l'expéditeur. Les OTA incluent les acteurs traditionnels axés sur la remise de fonds en espèces et des acteurs innovants qui peuvent adopter une variété de modèles pour la complétion des transferts.&lt;/p&gt;
+&lt;p&gt; &lt;strong&gt;Prix.&lt;/strong&gt;Coût total pour les utilisateurs de l'envoi d'un virement (y compris les frais facturés à l'expéditeur et la différence entre le taux de change facturé et le taux de change interbancaire courant).&lt;/p&gt;</translation>
           <translation lang="ru">&lt;h1&gt; Понятия и определения &lt;/h1&gt;
 &lt;h2&gt; Определение: &lt;/h2&gt;
 &lt;p&gt; Задача состоит из двух компонентов. Первый компонент заключается в том, что операционные затраты, связанные с переводом мигрантами денежных средств, должны составить 3% или менее к 2030 году. Эти операционные затраты должны рассматриваться как Глобальные средние общие затраты на перевод 200 долларов (или эквивалентной суммы в местной валюте отправки) и выражаться в % от отправленной суммы. Этот показатель легко доступен и публикуется Всемирным банком на ежеквартальной основе в базе данных Remittance Prices Worldwide (Мировые цены на денежные переводы), которая охватывает 365 страновых коридоров из 48 стран-отправителей в 105 стран-получателей. Вторым компонентом является процесс ликвидации коридора, где стоимость составляет 5% или выше. Это следует понимать в том смысле, что отправители денежных переводов должны иметь возможность отправлять деньги получателю по средней стоимости 5% или менее от отправленной суммы. Для этого должно быть достаточно того, чтобы в каждом коридоре было как минимум 3 услуги, отвечающие определенному набору требований к услугам (включая качество обслуживания, охват и т. д.), для которых средняя стоимость составляет 5% или менее.&lt;/p&gt;
@@ -2204,7 +2217,8 @@ http://www.ilo.org/wcmsp5/groups/public/---dgreports/---inst/documents/publicati
       <field id="SOURCE_TYPE">
         <translations>
           <translation lang="es"/>
-          <translation lang="fr"/>
+          <translation lang="fr">&lt;h1&gt;Sources des données&lt;/h1&gt;
+&lt;p&gt;Les données proviennent directement des fournisseurs de services de transfert de fonds (FSTF). Elles sont recueillies tous les trimestres dans le cadre d’un exercice de magasinage mystère, qui dure une semaine. Chaque année, une analyse du marché est effectuée pour chaque circuit d'envoi afin de compiler un échantillon de FSTF couvrant au moins 80 % du marché.&lt;/p&gt;</translation>
           <translation lang="ru">&lt;h1&gt; Источники данных &lt;/h1&gt;
 &lt;p&gt;Источниками даннх являются сами поставщики услуг денежных переводов. Сбор данных осуществляется ежеквартально с помощью процедуры "тайных закупок", которые проводятся в течение одной недели. Ежегодно в каждом коридоре проводится анализ рынка для составления выборки поставщиков услуг денежных переводов, охватывающей не менее 80% рынка услуг. &lt;/p&gt;</translation>
           <translation lang="en">&lt;h1&gt;Data sources&lt;/h1&gt;
@@ -2214,7 +2228,8 @@ http://www.ilo.org/wcmsp5/groups/public/---dgreports/---inst/documents/publicati
       <field id="COLL_METHOD">
         <translations>
           <translation lang="es"/>
-          <translation lang="fr"/>
+          <translation lang="fr">&lt;h2&gt;Processus de collecte :&lt;/h2&gt;
+&lt;p&gt;Achats mystères effectués tous les trimestres.&lt;/p&gt;</translation>
           <translation lang="ru">&lt;h2&gt; Процесс сбора: &lt;/h2&gt;
 &lt;p&gt; Тайные закупки проводятся ежеквартально. &lt;/p&gt;</translation>
           <translation lang="en">&lt;h2&gt;Collection process:&lt;/h2&gt;
@@ -2224,7 +2239,9 @@ http://www.ilo.org/wcmsp5/groups/public/---dgreports/---inst/documents/publicati
       <field id="FREQ_COLL">
         <translations>
           <translation lang="es"/>
-          <translation lang="fr"/>
+          <translation lang="fr">&lt;h1&gt;Calendrier&lt;/h1&gt;
+&lt;h2&gt;Collecte des données :&lt;/h2&gt;
+&lt;p&gt;Trimestrielle&lt;/p&gt;</translation>
           <translation lang="ru">&lt;h1&gt; Календарь &lt;/h1&gt;
 &lt;h2&gt; Сбор данных: &lt;/h2&gt;
 &lt;p&gt; Ежеквартально &lt;/p&gt;</translation>
@@ -2236,7 +2253,8 @@ http://www.ilo.org/wcmsp5/groups/public/---dgreports/---inst/documents/publicati
       <field id="REL_CAL_POLICY">
         <translations>
           <translation lang="es"/>
-          <translation lang="fr"/>
+          <translation lang="fr">&lt;h2&gt;Diffusion des données :&lt;/h2&gt;
+&lt;p&gt;Mars, juin, septembre et décembre&lt;/p&gt;</translation>
           <translation lang="ru">&lt;h2&gt; Выпуск данных:&lt;/h2&gt;
 &lt;p&gt; Март, июнь, сентябрь, декабрь&lt;/p&gt;</translation>
           <translation lang="en">&lt;h2&gt;Data release:&lt;/h2&gt;
@@ -2246,7 +2264,8 @@ http://www.ilo.org/wcmsp5/groups/public/---dgreports/---inst/documents/publicati
       <field id="DATA_SOURCE">
         <translations>
           <translation lang="es"/>
-          <translation lang="fr"/>
+          <translation lang="fr">&lt;h1&gt;Fournisseurs des données&lt;/h1&gt;
+&lt;p&gt;Les données sont recueillies par l'entremise de magasinage mystère auprès des fournisseurs de services.&lt;/p&gt;</translation>
           <translation lang="ru">&lt;h1&gt;Поставщики данных&lt;/h1&gt;
 &lt;p&gt;Данные собираются путем осуществления тайных закупок у поставщиков услуг денежных переводов.&lt;/p&gt;</translation>
           <translation lang="en">&lt;h1&gt;Data providers&lt;/h1&gt;
@@ -2256,7 +2275,8 @@ http://www.ilo.org/wcmsp5/groups/public/---dgreports/---inst/documents/publicati
       <field id="COMPILING_ORG">
         <translations>
           <translation lang="es"/>
-          <translation lang="fr"/>
+          <translation lang="fr">&lt;h1&gt;Compilateurs des données&lt;/h1&gt;
+&lt;p&gt;Banque mondiale&lt;/p&gt;</translation>
           <translation lang="ru">&lt;h1&gt;Составители данных&lt;/h1&gt;
 &lt;p&gt;Всемирный банк&lt;/p&gt;</translation>
           <translation lang="en">&lt;h1&gt;Data compilers&lt;/h1&gt;
@@ -2282,7 +2302,8 @@ http://www.ilo.org/wcmsp5/groups/public/---dgreports/---inst/documents/publicati
       <field id="RATIONALE">
         <translations>
           <translation lang="es"/>
-          <translation lang="fr"/>
+          <translation lang="fr">&lt;h2&gt;Justification :&lt;/h2&gt;
+ &lt;p&gt;Les données sont compilées par la Banque Mondiale au sein de la base de données Remittance Prices Worldwide (RPW) et ce depuis 2008. Le tout, afin de suivre les progrès réalisés par rapport à la cible du G8 / G20 concernant la réduction des coûts des envois de fonds. Aussi connu sous le nom d'&amp;#x201C;Objectif 5x5&amp;#x201D;, cet objectif a été adopté par le G8 en 2009. Il vise à réduire le coût total moyen total des envois de fonds des migrants de cinq points de pourcentage en cinq ans. Pour atteindre cet objectif, les gouvernements des pays d'où les fonds sont envoyés et ceux des pays où les fonds sont envoyés doivent considérer mettre en œuvre des réformes reposant sur les Principes généraux applicables aux transferts de fonds internationaux de la Banque mondiale et du Comité sur les systèmes de paiement et de règlement de la Banque des règlements internationaux (janvier 2007). Ce cadre internationalement convenu s'est avéré efficace pour aider à réduire le coût des envois de fonds et coordonner les mesures visant à améliorer l'efficacité des transferts de fonds internationaux. La base de données RPW de la Banque Mondiale est la seule à suivre les coûts des envois dans toutes les régions du monde. Elle a été lancée par la Banque Mondiale en septembre 2008, et est un outil essentiel dans le suivi de l'évolution des coûts pour les expéditeurs de fonds et les bénéficiaires dans les principaux circuits d'envoi des pays.&lt;/p&gt;</translation>
           <translation lang="ru">&lt;h2&gt; Обоснование: &lt;/h2&gt;
 &lt;p&gt;Данные по этим показателям собираются Всемирным банком посредством базы данных Remittance Prices Worldwide (Мировые цены на денежные переводы) с 2008 года с целью мониторинга задачи G8 / G20 по снижению затрат на денежные переводы. Эта цель, известная также как Задача 5x5, была принята "Группой восьми" в 2009 году и касается снижения глобальных средних общих затрат на денежный перевод мигрантов на 5 процентных пунктов за 5 лет. Для достижения этой цели правительствам как отправляющих, так и принимающих стран следует рассмотреть вопрос о проведении реформ, основанных на Общих принципах обслуживания международных денежных переводов Всемирного банка / Комитета по платежным и расчетным системам (январь 2007 года). Эта согласованная на международном уровне система доказала свою эффективность в содействии снижению стоимости денежных переводов и в руководстве действиями, направленными на повышение эффективности международных денежных переводов. База данных Remittance Prices Worldwide (Мировые цены на денежные переводы) Всемирного банка является единственной глобальной базой данных, которая отслеживает затраты на денежные переводы во всех регионах мира. База данных Remittance Prices Worldwide (Мировые цены на денежные переводы) была запущена в эксплуатацию Всемирным банком в сентябре 2008 года и является ключевым инструментом для отслеживания эволюции затрат на отправку и получение денег для отправителей и получателей в основных страновых коридорах.&lt;/p&gt;</translation>
           <translation lang="en">&lt;h2&gt;Rationale:&lt;/h2&gt;
@@ -2292,7 +2313,8 @@ http://www.ilo.org/wcmsp5/groups/public/---dgreports/---inst/documents/publicati
       <field id="REC_USE_LIM">
         <translations>
           <translation lang="es"/>
-          <translation lang="fr"/>
+          <translation lang="fr">&lt;h2&gt;Commentaires and limites :&lt;/h2&gt;
+&lt;p&gt;Aucun&lt;/p&gt;</translation>
           <translation lang="ru">&lt;h2&gt; Комментарии и ограничения: &lt;/h2&gt;
 &lt;p&gt; Явление отсутствует&lt;/p&gt;</translation>
           <translation lang="en">&lt;h2&gt;Comments and limitations:&lt;/h2&gt;
@@ -2302,7 +2324,18 @@ http://www.ilo.org/wcmsp5/groups/public/---dgreports/---inst/documents/publicati
       <field id="DATA_COMP">
         <translations>
           <translation lang="es"/>
-          <translation lang="fr"/>
+          <translation lang="fr">&lt;h1&gt;Méthodologie&lt;/h1&gt;
+&lt;h2&gt;Méthode de calcul :&lt;/h2&gt;
+&lt;p&gt;Les données sont recueillies par l'entremise de magasinage mystère auprès des fournisseurs de services. Pour chaque circuit d'envois, un échantillon incluant des fournisseurs de service représentant au moins 80 % des parts de marché est sélectionné. Le coût moyen correspond à la moyenne de l'ensemble des coûts (y compris les frais et les marge de taux de change) de chaque fournisseur sélectionné dans un circuit donné.&lt;/p&gt;
+&lt;p&gt;En 2016, la Banque mondiale a lancé la Smart Remitter Target (SmarRT) pour suivre le coût des envois de fonds à un niveau plus désagrégé. L'indicateur vise à estimer le coût qu'un consommateur averti ayant accès à l'informations suffisante aurait à payer pour le transfert de fonds dans chaque circuit d'envois. Il correspond à la moyenne des trois services les moins chers pour l'envoi de l'équivalent de 200 $ dans chaque circuit et est exprimé en pourcentage du total du montant envoyé. En plus d'être transparants, les fournisseurs de services doivent répondre à d'autres critères pour être inclus, tels que la vitesse des transactions (cinq jours ou moins) et l'accessibilité (déterminé par la proximité géographique des branches pour ceux qui exigent une présence physique, ou l'accès à toute technologie ou tout dispositif nécessaire pour utiliser un service, comme un compte bancaire, un téléphone mobile ou Internet). &lt;/p&gt;
+&lt;p&gt;Pour plus d'informations sur la méthodologie de la SmaRT, veuillez consulter :
+&lt;a href="https://remittanceprices.worldbank.org/sites/default/files/smart_methodology.pdf"&gt;
+https://remittanceprices.worldbank.org/sites/default/files/smart_methodology.pdf&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;L'indicateur 10.c.1 comprend deux composantes, qui exigent deux calculs séparés :&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Réduire à moins de 3 % le coût global moyen des frais d'envois : calcalué selon la moyenne du coût total pour l'ensemble des services inclus dans la base de données RPW&lt;/li&gt;
+&lt;li&gt;Permettre aux expéditeurs de tous les circuits d'envois d'acheminer des fonds à un coût total de 5 % ou moins : calculé selon la moyenne des trois services les moins chers disponibles dans chaque circuit d'envois, qui répondent à un ensemble défini d'exigences minimales, tel que décrit dans la méthodologie de la SmaRT de la Banque mondiale. L'objectif est que le SmaRT moyenne pour l'ensemble des circuits d'envois soit de 5 % ou moins.&lt;/li&gt;
+&lt;/ol&gt;</translation>
           <translation lang="ru">&lt;h1&gt; Методология &lt;/h1&gt;
 &lt;h2&gt; Метод расчета: &lt;/h2&gt;
 &lt;p&gt; Сбор данных осуществляется в рамках процесса "тайных покупок" у поставщиков услуг денежных переводов. Выборка поставщиков услуг денежных переводов, составляющая, по меньшей мере, 80% доли рынка в каждом коридоре, включается в процесс "тайных покупок". Средние затраты рассчитываются как простое среднее значение суммарных затрат (включая как комиссию, так и маржу, связанную с  обменным курсом), устанавливаемых каждым поставщиком услуг денежных переводов, действующем в коридоре&lt;/p&gt;
@@ -2344,7 +2377,15 @@ http://www.ilo.org/wcmsp5/groups/public/---dgreports/---inst/documents/publicati
       <field id="IMPUTATION">
         <translations>
           <translation lang="es"/>
-          <translation lang="fr"/>
+          <translation lang="fr">&lt;h2&gt;Traitement des valeurs manquantes :&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Au niveau des pays : &lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Un échantillons de circuits d'envoi est sélectionné pour chaque pays d'où et où sont envoyés les fonds. Il est supposé que le coût des autres circuits d'envois d'un même pays soient dans les mêmes gammes de prix.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Aux niveaux régional et mondial : &lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Les agrégats régionaux sont calculés en utilisant la moyenne des services pour lesquels des données sont disponibles dans une région donnée. Les pays n'ayant pas de données ne sont pas inclus. Il est supposé que les données manquantes sont dans la même gamme de prix que les données recueillies.&lt;/p&gt;</translation>
           <translation lang="ru">&lt;h2&gt;обработка отсутствующих значений:&lt;/h2&gt;
 &lt;ul&gt;
  &lt;li&gt;&lt;strong&gt;на уровне страны:&lt;/strong&gt;&lt;/li&gt;
@@ -2368,7 +2409,8 @@ http://www.ilo.org/wcmsp5/groups/public/---dgreports/---inst/documents/publicati
       <field id="REG_AGG">
         <translations>
           <translation lang="es"/>
-          <translation lang="fr"/>
+          <translation lang="fr">&lt;h2&gt;Agrégats régionaux :&lt;/h2&gt;
+&lt;p&gt;Les agrégats régionaux sont calculés en utilisant la moyenne des services pour lesquels des données sont disponibles dans une région donnée.&lt;/p&gt;</translation>
           <translation lang="ru">&lt;h2&gt;Региональные агрегаты&lt;/h2&gt;
 &lt;p&gt;Региональные агрегаты вычисляются путем подсчета средних арифметических значений индивидуальных услуг по пересылке денежных средств странам-получателям в регионе, по которому имеются данные&lt;/p&gt;</translation>
           <translation lang="en">&lt;h2&gt;Regional aggregates:&lt;/h2&gt;
@@ -5289,7 +5331,11 @@ gIhwho9/DDz+sBChcPvW5bf608x4Ed9R74403NF+SBO4saOPY+G46glu++0kUN9LgNudcY8W44Ygir9w
           <translation lang="es"/>
           <translation lang="fr"/>
           <translation lang="ru">&lt;h1&gt; Ссылки &lt;/h1&gt;
-&lt;p&gt;Руководство по статистике государственных финансов (РСГФ) 2014 года доступно по адресу &lt;a href="http://www.imf.org/external/np/sta/gfsm/"&gt; http://www.imf.org/external/np/sta/gfsm/ &lt;/a&gt;. Видеоролики, в которых обсуждаются аналитические рамки статистики государственных финансов, доступны по адресу: &lt;a href="http://www.youtube.com/playlist?list=PLmYAE4wV1YQzimXjDWMQ-4GwConTsP7-a"&gt; Учебные видеоролики по статистике МВФ - YouTube&lt;/а&gt;. Хотя это и не предусмотрено процедурой отчетности по показателю 17.1.1, аналитики могут также использовать подробную базу данных статистики государственных финансов МВФ о доходах с тем, чтобы дополнить этот показатель оценками прямых, косвенных налогов и налогов на капитал (см. РСГФ 2014 года, приложение к главе 4).&lt;/p&gt;</translation>
+&lt;p&gt;Руководство по статистике государственных финансов (РСГФ) 2014 года доступно по адресу &lt;a href="http://www.imf.org/external/np/sta/gfsm/"&gt; http://www.imf.org/external/np/sta/gfsm/ &lt;/a&gt;. 
+
+Видеоролики, в которых обсуждаются аналитические рамки статистики государственных финансов, доступны по адресу: &lt;a href="http://www.youtube.com/playlist?list=PLmYAE4wV1YQzimXjDWMQ-4GwConTsP7-a"&gt;Учебные видеоролики по статистике МВФ - YouTube&lt;/a&gt;. 
+
+Хотя это и не предусмотрено процедурой отчетности по показателю 17.1.1, аналитики могут также использовать подробную базу данных статистики государственных финансов МВФ о доходах с тем, чтобы дополнить этот показатель оценками прямых, косвенных налогов и налогов на капитал (см. РСГФ 2014 года, приложение к главе 4).&lt;/p&gt;</translation>
           <translation lang="en">&lt;h1&gt;References&lt;/h1&gt;
 &lt;p&gt;The &lt;em&gt;GFSM 2014&lt;/em&gt; is available at &lt;a href="http://www.imf.org/external/np/sta/gfsm/"&gt;http://www.imf.org/external/np/sta/gfsm/&lt;/a&gt;. A series of videos that discuss the GFS analytical framework are available at: &lt;a href="http://www.youtube.com/playlist?list=PLmYAE4wV1YQzimXjDWMQ-4GwConTsP7-a"&gt;IMF Statistics E-Learning Videos - YouTube&lt;/a&gt;. Although not foreseen under the reporting of 17.1.1, analysts can also use the detailed IMF GFS Revenue database to supplement this indicator with measures of direct, indirect and capital taxes (see &lt;em&gt;GFSM 2014&lt;/em&gt;, Annex to Chapter 4).&lt;/p&gt;</translation>
         </translations>
@@ -5729,7 +5775,7 @@ http://databank.worldbank.org/data/reports.aspx?source=2&amp;amp;type=metadata&a
         <translations>
           <translation lang="es"/>
           <translation lang="fr"/>
-          <translation lang="ru"/>
+          <translation lang="ru">Задача 17.4: Оказывать развивающимся странам помощь в целях обеспечения долгосрочной приемлемости уровня их задолженности благодаря проведению скоординированной политики, направленной на поощрение, в зависимости от обстоятельств, финансирования за счет заемных средств, облегчения долгового бремени и реструктуризации задолженности, и решить проблему внешней задолженности бедных стран с крупной задолженностью, с тем чтобы облегчить их долговое бремя</translation>
           <translation lang="en">&lt;p&gt;Target 17.4: Assist developing countries in attaining long-term debt sustainability through coordinated policies aimed at fostering debt financing, debt relief and debt restructuring, as appropriate, and address the external debt of highly indebted poor countries to reduce debt distress&lt;/p&gt;</translation>
         </translations>
       </field>
@@ -5737,7 +5783,7 @@ http://databank.worldbank.org/data/reports.aspx?source=2&amp;amp;type=metadata&a
         <translations>
           <translation lang="es"/>
           <translation lang="fr"/>
-          <translation lang="ru"/>
+          <translation lang="ru">&lt;p&gt;Показатель 17.4.1: Расходы на обслуживание долга в процентном отношении к экспорту товаров и услуг&lt;/p&gt;</translation>
           <translation lang="en">&lt;p&gt;Indicator 17.4.1: Debt service as a proportion of exports of goods and services&lt;/p&gt;</translation>
         </translations>
       </field>
@@ -5853,7 +5899,13 @@ http://databank.worldbank.org/data/reports.aspx?source=2&amp;amp;type=metadata&a
         <translations>
           <translation lang="es"/>
           <translation lang="fr"/>
-          <translation lang="ru"/>
+          <translation lang="ru">&lt;h1&gt;Понятия и определения&lt;/h1&gt;
+&lt;h2&gt;&lt;strong&gt;&lt;strong&gt;Определение:&lt;/strong&gt;&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Расходы на обслуживание долга в процентном отношении к экспорту товаров и услуг представляют собой процентное отношение расходов на обслуживание долга (выплата основной суммы и процентов) к экспорту товаров и услуг. Обслуживание долга, охватываемое этим показателем, относится только к государственному или гарантированному государством долгу.
+.&lt;/p&gt;
+&lt;h2&gt;&lt;strong&gt;&lt;strong&gt;Понятия:&lt;/strong&gt;&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Понятия о данных по внешнему государственному или гарантированному государством долге соответствуют методологии, изложенной в шестой редакции Руководства по платежному балансу и международной инвестиционной позиции (PПБ6).&lt;/p&gt;
+&lt;p&gt;Понятия о данных по экспорту товаров и услуг соответствуют шестому изданию Руководства по платежному балансу и международной инвестиционной позиции (РПБ6).&lt;/p&gt;</translation>
           <translation lang="en">&lt;h1&gt;Concepts and definitions&lt;/h1&gt;
 &lt;h2&gt;&lt;strong&gt;&lt;strong&gt;Definition:&lt;/strong&gt;&lt;/strong&gt;&lt;/h2&gt;
 &lt;p&gt;Debt service as proportion of exports of goods and services is the percentage of debt services (principle and interest payments) to the exports of goods and services. Debt services covered in this indicator refer only to public and publicly guaranteed debt.&lt;/p&gt;
@@ -5890,7 +5942,10 @@ http://databank.worldbank.org/data/reports.aspx?source=2&amp;amp;type=metadata&a
         <translations>
           <translation lang="es"/>
           <translation lang="fr"/>
-          <translation lang="ru"/>
+          <translation lang="ru">&lt;h1&gt; Источники данных &lt;/h1&gt;
+&lt;h2&gt; &lt;strong&gt; &lt;strong&gt; Описание: &lt;/strong&gt; &lt;/strong&gt; &lt;/h2&gt;
+&lt;p&gt; В соответствии с Руководством по эксплуатации 14.10 Всемирного банка (включающее Общие положения Международного банка реконструкции и развития - МБРР и Международной ассоциации развития - МАР) отчетность по внешнему долгу требуется для удовлетворения потребностей Всемирного банка в надежной и своевременной информации о внешнем долге, чтобы (а) оценивать ситуацию с внешним долгом страны-заемщика, кредитоспособность и управление экономикой; и (b) оценивать способность проводить экономическую работу в своей стране и оценивать региональную и глобальную задолженности и проблемы обслуживания долга. &lt;/p&gt;
+&lt;p&gt; Внешнее заимствование отчитывающихся стран осуществляется с помощью Системы отчетности должников (DRS), которая была создана в 1951 году и собирает подробную информацию на уровне займов с использованием стандартизированного набора форм.&lt;/p&gt;</translation>
           <translation lang="en">&lt;h1&gt;Data sources&lt;/h1&gt;
 &lt;h2&gt;&lt;strong&gt;&lt;strong&gt;Description:&lt;/strong&gt;&lt;/strong&gt;&lt;/h2&gt;
 &lt;p&gt;In accordance with the World Bank&amp;#x2019;s Operational Policy 14.10 (which includes IBRD and IDA General Conditions) external debt reporting is required to fulfil the World Bank&amp;#x2019;s needs for reliable and timely external debt information to (a) assess a borrowing country&amp;apos;s foreign debt situation, creditworthiness, and economic management; and (b) conduct its country economic work and assess regional and global indebtedness and debt servicing problems. &lt;/p&gt;
@@ -5901,7 +5956,8 @@ http://databank.worldbank.org/data/reports.aspx?source=2&amp;amp;type=metadata&a
         <translations>
           <translation lang="es"/>
           <translation lang="fr"/>
-          <translation lang="ru"/>
+          <translation lang="ru">&lt;h2&gt;&lt;strong&gt;&lt;strong&gt;Процесс сбора&lt;/strong&gt;&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Отчетность по государственному и гарантированному государством долгу представляется ежеквартально по форме 1 и форме 2. В частности, новые обязательства по предоставлению займов отражаются в Форме 1 и, при необходимости, в Форме 1a (График заимствований и платежи по основному долгу и процентам); операции по займам отражаются один раз в год в Форме 2 (Текущее состояние и операции). Форма 3 используется для представления корректировок данных, первоначально приведенных в формах 1 и 2. Формы 1 и 1А представляются ежеквартально, в течение 30 дней после окончания квартала. Форма 2 представляется ежегодно к 31 марта года, следующего за отчетным годом.&lt;/p&gt;</translation>
           <translation lang="en">&lt;h2&gt;&lt;strong&gt;&lt;strong&gt;Collection process:&lt;/strong&gt;&lt;/strong&gt;&lt;/h2&gt;
 &lt;p&gt;Public and publicly guaranteed debt is reported on a quarterly basis through form 1 and form 2. Specifically, the new loan commitments are reported on Form 1 and when appropriate, Form 1a (Schedule of Drawings and Principal and Interest Payments); the loan transactions are reported once a year on Form 2 (Current Status and Transactions). Form 3 is used to report corrections to data originally reported in Forms 1 and 2. Forms 1 and 1A are submitted quarterly, within 30 days of the close of the quarter. Form 2 is submitted annually, by March 31 of the year following that for which the report is made.&lt;/p&gt;</translation>
         </translations>
@@ -5910,7 +5966,9 @@ http://databank.worldbank.org/data/reports.aspx?source=2&amp;amp;type=metadata&a
         <translations>
           <translation lang="es"/>
           <translation lang="fr"/>
-          <translation lang="ru"/>
+          <translation lang="ru">&lt;h1&gt; Календарь&lt;/h1&gt;
+&lt;h2&gt;&lt;strong&gt;&lt;strong&gt; Сбор данных&lt;/strong&gt;&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Информация по кредитным операциям предоставляется один раз в год по Форме 2 (Текущее состояние и операции). Формы 1 и 1А представляются ежеквартально, в течение 30 дней после окончания квартала. Форма 2 представляется ежегодно к 31 марта года, следующего за отчетным годом.&lt;/p&gt;</translation>
           <translation lang="en">&lt;h1&gt;Calendar&lt;/h1&gt;
 &lt;h2&gt;&lt;strong&gt;&lt;strong&gt;Data collection:&lt;/strong&gt;&lt;/strong&gt;&lt;/h2&gt;
 &lt;p&gt;Loan transactions are reported once a year on Form 2 (Current Status and Transactions). Forms 1 and 1A are submitted quarterly, within 30 days of the close of the quarter. Form 2 is submitted annually, by March 31 of the year following that for which the report is made. &lt;/p&gt;</translation>
@@ -5920,7 +5978,8 @@ http://databank.worldbank.org/data/reports.aspx?source=2&amp;amp;type=metadata&a
         <translations>
           <translation lang="es"/>
           <translation lang="fr"/>
-          <translation lang="ru"/>
+          <translation lang="ru">&lt;h2&gt; &lt;strong&gt; &lt;strong&gt; Выпуск данных: &lt;/strong&gt; &lt;/strong&gt; &lt;/h2&gt;
+&lt;p&gt; Ежегодное опубликование новых данных по этому показателю запланировано на середину декабря посредством выпуска ежегодной публикации Всемирного банка - сборника «Международная статистика задолженности» (IDS) и доступна в Интернете (см. Ссылку: &lt;a href="http://data.worldbank.org/products/ids"&gt; http: //data.worldbank. org / products / id &lt;/a&gt;) &lt;/p&gt;</translation>
           <translation lang="en">&lt;h2&gt;&lt;strong&gt;&lt;strong&gt;Data release:&lt;/strong&gt;&lt;/strong&gt;&lt;/h2&gt;
 &lt;p&gt;The annual publication of new data for this indicator is planned for mid-December through the World Bank annual publication - International Debt Statistics (IDS) book and available online (see link: &lt;a href="http://data.worldbank.org/products/ids"&gt;http://data.worldbank.org/products/ids&lt;/a&gt;) &lt;/p&gt;</translation>
         </translations>
@@ -11776,7 +11835,7 @@ http://www.pasec.confemen.org/&lt;/a&gt;&lt;/p&gt;
         <translations>
           <translation lang="es"/>
           <translation lang="fr"/>
-          <translation lang="ru">&lt;p&gt;Цель 5:Обеспечение гендерного равенства и расширение прав и возможностей всех женщин и девочек &lt;/p&gt;</translation>
+          <translation lang="ru">&lt;p&gt;Цель 5: Обеспечение гендерного равенства и расширение прав и возможностей всех женщин и девочек &lt;/p&gt;</translation>
           <translation lang="en">&lt;p&gt;Goal 5: Achieve gender equality and empower all women and girls&lt;/p&gt;</translation>
         </translations>
       </field>
@@ -11963,7 +12022,7 @@ http://www.pasec.confemen.org/&lt;/a&gt;&lt;/p&gt;
           <translation lang="fr"/>
           <translation lang="ru">&lt;h2&gt; Процесс сбора: &lt;/h2&gt;
 &lt;p&gt;ЮНИСЕФ проводит консультации с широким кругом специалистов по сбору и оценке данных из национальных источников в целях обновления своих глобальных баз данных о положении детей. Вплоть до 2017 года механизм ЮНИСЕФ, использовавшийся для сотрудничества с национальными органами власти по обеспечению качества данных и международной сопоставимости ключевых показателей, имеющих отношение к детям, был известен как "Представление данных по странам по показателям достижения целей" (CRING)&lt;/p&gt;
-&lt;p&gt;С 2018 года ЮНИСЕФ начал новый процесс консультаций с национальными органами власти различных стран по отдельным глобальным показателям ЦУР, связанным с детьми, ответственным учреждением или со-учреждением по которым он является, в целях соблюдения формирующихся стандартов и руководящих принципов в отношении потоков данных для глобальной отчетности по показателям ЦУР, в которых особое внимание уделяется технической строгости, вовлечённости стран в их разработку и использованию официальных данных и официальной статистической информации. В процессе консультаций запрашивались отзывы непосредственно от национальных статистических управлений, а также других государственных учреждений, ответственных за официальную статистическую информацию, по вопросам составления показателей, включая используемые источники данных, и применения согласованных на международном уровне определений, классификаций и методологий к данным из этого источника. После рассмотрения отзывов странам сообщается ответная реакция, которая информирует о принятии конкретных данных, а в случае отклонения, то по каким причинам это произошло. Более подробная информация о процессе консультаций содержится в &lt;a href="https://data.unicef.org/resources/resource-type/guidance/"&gt;guidance note&lt;/a&gt;. &lt;/p&gt;</translation>
+&lt;p&gt;С 2018 года ЮНИСЕФ начал новый процесс консультаций с национальными органами власти различных стран по отдельным глобальным показателям ЦУР, связанным с детьми, ответственным учреждением или со-учреждением по которым он является, в целях соблюдения формирующихся стандартов и руководящих принципов в отношении потоков данных для глобальной отчетности по показателям ЦУР, в которых особое внимание уделяется технической строгости, вовлечённости стран в их разработку и использованию официальных данных и официальной статистической информации. В процессе консультаций запрашивались отзывы непосредственно от национальных статистических управлений, а также других государственных учреждений, ответственных за официальную статистическую информацию, по вопросам составления показателей, включая используемые источники данных, и применения согласованных на международном уровне определений, классификаций и методологий к данным из этого источника. После рассмотрения отзывов странам направляется ответ, в котором сообщается о принятии конкретных данных, а в случае отклонения, то по каким причинам это произошло. Более подробная информация о процессе консультаций содержится в &lt;a href="https://data.unicef.org/resources/resource-type/guidance/"&gt;guidance note&lt;/a&gt;. &lt;/p&gt;</translation>
           <translation lang="en">&lt;h2&gt;Collection process:&lt;/h2&gt;
 &lt;p&gt;UNICEF undertakes a wide consultative process of compiling and assessing data from national sources for the purposes of updating its global databases on the situation of children. Up until 2017, the mechanism UNICEF used to collaborate with national authorities on ensuring data quality and international comparability on key indicators of relevance to children was known as Country Data Reporting on the Indicators for the Goals (CRING).&lt;/p&gt;
 &lt;p&gt;As of 2018, UNICEF launched a new country consultation process with national authorities on selected child-related global SDG indicators it is custodian or co-custodian to meet emerging standards and guidelines on data flows for global reporting of SDG indicators, which place strong emphasis on technical rigour, country ownership and use of official data and statistics. The consultation process solicited feedback directly from National Statistical Offices, as well as other government agencies responsible for official statistics, on the compilation of the indicators, including the data sources used, and the application of internationally agreed definitions, classification and methodologies to the data from that source. Once reviewed, feedback is made available to countries on whether or not specific data points are accepted, and if not, the reasons why. More details on the consultation process can be found in the &lt;a href="https://data.unicef.org/resources/resource-type/guidance/"&gt;guidance note&lt;/a&gt;. &lt;/p&gt;</translation>
@@ -12057,7 +12116,7 @@ http://www.pasec.confemen.org/&lt;/a&gt;&lt;/p&gt;
           <translation lang="fr"/>
           <translation lang="ru">&lt;h1&gt; Методология &lt;/h1&gt;
 &lt;h2&gt; Метод расчета: &lt;/h2&gt;
-&lt;p&gt; Число женщин в возрасте 20–24 лет, которые впервые вступили в брак или в союз до 15 лет (или до 18 лет), поделенное на общее число женщин в возрасте 20–24 лет в численности населения, умноженное на 100. &lt;/p&gt;</translation>
+&lt;p&gt; Число женщин в возрасте 20–24 лет, которые впервые вступили в брак или в союз до 15 лет (или до 18 лет), поделенное на общее число женщин в возрасте 20–24 лет в общей численности населения, умноженное на 100. &lt;/p&gt;</translation>
           <translation lang="en">&lt;h1&gt;Methodology&lt;/h1&gt;
 &lt;h2&gt;Computation method:&lt;/h2&gt;
 &lt;p&gt;Number of women aged 20-24 who were first married or in union before age 15 (or before age 18) divided by the total number of women aged 20-24 in the population multiplied by 100.&lt;/p&gt;</translation>
@@ -12083,13 +12142,13 @@ http://www.pasec.confemen.org/&lt;/a&gt;&lt;/p&gt;
         <translations>
           <translation lang="es"/>
           <translation lang="fr"/>
-          <translation lang="ru">&lt;h2&gt;обработка отсутствующих значений:&lt;/h2&gt;
+          <translation lang="ru">&lt;h2&gt;Обработка отсутствующих значений:&lt;/h2&gt;
 &lt;ul&gt;
- &lt;li&gt;на уровне страны:&lt;/li&gt;
+ &lt;li&gt;На уровне страны:&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;В случае, если данные по какой-либо стране полностью отсутствуют, ЮНИСЕФ не публикует никаких оценок на уровне страны.&lt;/p&gt;
+&lt;p&gt;В случае, если данные по какой-либо стране полностью отсутствуют, то ЮНИСЕФ не публикует никаких оценок на уровне страны.&lt;/p&gt;
 &lt;ul&gt;
- &lt;li&gt;на региональном и глобальном уровнях:&lt;/li&gt;
+ &lt;li&gt;На региональном и глобальном уровнях:&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Среднее значение по региону применяется к тем странам в регионе, у которых отсутствуют значения, только для целей расчета региональных агрегатов, но эти средние значения не публикуются в качестве оценок на уровне страны.&lt;/p&gt;</translation>
           <translation lang="en">&lt;h2&gt;Treatment of missing values:&lt;/h2&gt;
@@ -12136,8 +12195,8 @@ http://www.pasec.confemen.org/&lt;/a&gt;&lt;/p&gt;
           <translation lang="es"/>
           <translation lang="fr"/>
           <translation lang="ru">&lt;h2&gt; Гарантия качества: &lt;/h2&gt;
-&lt;p&gt;ЮНИСЕФ ведет глобальную базу данных о детских браках, которая используется для ЦУР и других официальных отчетов. Перед включением какого-либо элемента данных в базу данных он проверяется техническими координаторами в штаб-квартире ЮНИСЕФ на предмет связности и общего качества данных. Эта проверка основана на наборе объективных критериев, обеспечивающих включение в базы данных только самой последней и достоверной информации. Эти критерии включают следующее: источники данных должны содержать надлежащую документацию; значения данных должны быть репрезентативными на национальном уровне; данные собираются с использованием соответствующей методологии (например, выборки); значения данных основаны на достаточно большой выборке; данные, насколько это возможно, соответствуют стандартному определению показателя, включая возрастную группу и понятия; данные адекватны тенденциям и согласуются с ранее опубликованными/представленными оценками по этому показателю. &lt;/p&gt;
-Начиная с 2018 года ЮНИСЕФ проводит ежегодные консультации с правительственными органами по 10 показателям ЦУР, связанным с детьми, в рамках реализации его роли в качестве единственного или коллективного общественного учреждения и в соответствии с его глобальным мандатом на проведение мониторинга и нормативными обязательствами по продвижению Повестки дня на период до 2030 года для детей. Этот документ  включает в себя показатель 5.3.1. Более подробная информация о процессе консультаций со странами изложена ниже.&lt;/p&gt;</translation>
+&lt;p&gt;ЮНИСЕФ ведет глобальную базу данных по детским бракам, которая используется для ЦУР и других официальных отчетов. Перед включением какого-либо элемента данных в базу данных он проверяется техническими координаторами в штаб-квартире ЮНИСЕФ на предмет связности и общего качества данных. Эта проверка основана на наборе объективных критериев, обеспечивающих включение в базы данных только самой последней и достоверной информации. Эти критерии включают следующее: источники данных должны содержать надлежащую документацию; значения данных должны быть репрезентативными на национальном уровне; данные собираются с использованием соответствующей методологии (например, метода выборки); значения данных основаны на достаточно большой выборке; данные, насколько это возможно, соответствуют стандартному определению показателя, включая возрастную группу и понятия; данные адекватны тенденциям и согласуются с ранее опубликованными/представленными оценками по этому показателю. &lt;/p&gt;
+Начиная с 2018 года ЮНИСЕФ проводит ежегодные консультации с правительственными органами по 10 показателям ЦУР, связанным с детьми, в рамках реализации его роли в качестве единственного или коллективного учреждения и в соответствии с его глобальным мандатом на проведение мониторинга и нормативными обязательствами по продвижению Повестки дня на период до 2030 года для детей. Этот документ  включает в себя показатель 5.3.1. Более подробная информация о процессе консультаций со странами изложена ниже.&lt;/p&gt;</translation>
           <translation lang="en">&lt;h2&gt;Quality assurance:&lt;/h2&gt;
 &lt;p&gt;UNICEF maintains the global database on child marriage that is used for SDG and other official reporting. Before the inclusion of any data point in the database, it is reviewed by technical focal points at UNICEF headquarters to check for consistency and overall data quality. This review is based on a set of objective criteria to ensure that only the most recent and reliable information are included in the databases. These criteria include the following: data sources must include proper documentation; data values must be representative at the national population level; data are collected using an appropriate methodology (e.g., sampling); data values are based on a sufficiently large sample; data conform to the standard indicator definition including age group and concepts, to the extent possible; data are plausible based on trends and consistency with previously published/reported estimates for the indicator. &lt;/p&gt;
 &lt;p&gt;As of 2018, UNICEF undertakes an annual consultation with government authorities on 10 of the child-related SDG indicators in its role of sole or joint custodian, and in line with its global monitoring mandate and normative commitments to advancing the 2030 Agenda for children. This includes indicator 5.3.1. More details on the process for the country consultation are outlined below. &lt;/p&gt;</translation>
@@ -12170,7 +12229,7 @@ http://www.pasec.confemen.org/&lt;/a&gt;&lt;/p&gt;
           <translation lang="es"/>
           <translation lang="fr"/>
           <translation lang="ru">&lt;h2&gt; Источники расхождений: &lt;/h2&gt;
-&lt;p&gt; Оценки, составленные и представленные на глобальном уровне, основаны на данных, полученных на национальном уровне, и не корректируются и не пересчитываются.&lt;/p&gt;</translation>
+&lt;p&gt; Оценки, составленные и представленные на глобальном уровне, напрямую получены из данных, разработанных на национальном уровне, и которые не корректируются и не пересчитываются.&lt;/p&gt;</translation>
           <translation lang="en">&lt;h2&gt;Sources of discrepancies:&lt;/h2&gt;
 &lt;p&gt;The estimates compiled and presented at global level come directly from nationally produced data and are not adjusted or recalculated.&lt;/p&gt;</translation>
         </translations>
