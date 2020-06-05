@@ -1277,9 +1277,9 @@
 									</field>
 									<field id="DATA_COMP">&lt;h1&gt;Méthodologie&lt;/h1&gt;
 &lt;h2&gt;Méthode de calcul :&lt;/h2&gt;
-&lt;p&gt;Pour mesurer la pauvreté de manière cohérente dans les différents pays, les mesures internationales de la Banque mondiale appliquent une norme commune, ancrée sur ce que &amp;#x201C;pauvreté&amp;#x201D; signifie dans les pays les plus pauvres du monde. La ligne originale de &amp;#x201C;1$ par jour&amp;#x201D ; était basée sur une compilation de lignes nationales pour seulement 22 pays en développement, provenant principalement d&amp;#8217études académique des années 1980 (Ravallion, et al., 1991). Bien qu&apos;il s&apos;agisse de la meilleure méthode possible à l&apos;époque, l&apos;échantillon n&apos;était guère représentatif des pays en développement, même dans les années 80. Depuis lors, des seuils de pauvreté nationaux ont été établis pour de nombreux autres pays. Sur la base d&apos;une nouvelle compilation des seuils nationaux pour 75 pays en développement, Ravallion, Chen et Sangraula (RCS) (2009) ont proposé un nouveau seuil de pauvreté international de 1,25 dollar par jour. Il s&apos;agit du seuil de pauvreté moyen pour les 15 pays les plus pauvres de leur ensemble de données. &lt;/p&gt;
-&lt;p&gt;Le seuil de pauvreté extrême actuel est fixé à 1,90 dollar par jour en PPA de 2011, ce qui représente la moyenne des seuils de pauvreté nationaux des 15 pays les plus pauvres classés selon la consommation par habitant. Le nouveau seuil de pauvreté maintient la même norme pour l&apos;extrême pauvreté - le seuil de pauvreté typique des pays les plus pauvres du monde - mais le met à jour en utilisant les  informations les plus récentes sur le coût de la vie dans les pays en développement. &lt;/p&gt;
-&lt;p&gt;Lors de la mesure de la pauvreté internationale d&apos;un pays, le seuil de pauvreté international en PPA est converti en monnaie locale au prix de 2011 et est ensuite converti aux prix en vigueur au moment de l&apos;enquête auprès des ménages concernée en utilisant le meilleur indice des prix à la consommation (IPC) disponible. (De même, les données de l&apos;enquête sur la consommation ou le revenu des ménages pour l&apos;année d&apos;enquête sont exprimées aux prix de l&apos;année de base du PCI, puis converties en $ de PPA&amp;#x2019;s.) ) Le taux de pauvreté est ensuite calculé à partir de cette enquête. Toutes les comparaisons intertemporelles sont en termes réels, car elles sont évaluées à l&apos;aide de l&apos;IPC spécifique au pays. Des méthodes d&apos;interpolation/extrapolation sont utilisées pour aligner les estimations basées sur l&apos;enquête sur ces années de référence.&lt;/p&gt;
+&lt;p&gt;Pour mesurer la pauvreté de manière cohérente dans les différents pays, les mesures internationales de la Banque mondiale appliquent une norme commune, ancrée sur ce que &amp;#x201C;pauvreté&amp;#x201D; signifie dans les pays les plus pauvres du monde. Le seuil original de &amp;#x201C;1$ par jour&amp;#x201D; était basée sur une compilation de seuils nationaux pour seulement 22 pays en développement, provenant principalement d&amp;#8217études académique des années 1980 (Ravallion, et al., 1991). Bien qu&apos;il s&apos;agisse de la meilleure méthode possible à l&apos;époque, l&apos;échantillon n&apos;était guère représentatif des pays en développement, même dans les années 80. Depuis lors, des seuils de pauvreté nationaux ont été établis pour de nombreux autres pays. Sur la base d&apos;une nouvelle compilation des seuils nationaux pour 75 pays en développement, Ravallion, Chen et Sangraula (RCS) (2009) ont proposé un nouveau seuil de pauvreté international de 1,25 dollar par jour. Il s&apos;agit du seuil de pauvreté moyen pour les 15 pays les plus pauvres de leur ensemble de données. &lt;/p&gt;
+&lt;p&gt;Le seuil de pauvreté extrême actuel est fixé à 1,90 dollar par jour en PPA de 2011, ce qui représente la moyenne des seuils de pauvreté nationaux des 15 pays les plus pauvres classés selon la consommation par habitant. Le nouveau seuil de pauvreté maintient la même norme pour l&apos;extrême pauvreté - le seuil de pauvreté typique des pays les plus pauvres du monde - mais le met à jour en utilisant les informations les plus récentes sur le coût de la vie dans les pays en développement. &lt;/p&gt;
+&lt;p&gt;Lors de la mesure de la pauvreté internationale d&apos;un pays, le seuil de pauvreté international en PPA est converti en monnaie locale au prix de 2011 et est ensuite converti aux prix en vigueur au moment de l&apos;enquête auprès des ménages concernée en utilisant le meilleur indice des prix à la consommation (IPC) disponible. (De même, les données de l&apos;enquête sur la consommation ou le revenu des ménages pour l&apos;année d&apos;enquête sont exprimées aux prix de l&apos;année de base du PCI, puis converties en $ de PPA.) Le taux de pauvreté est ensuite calculé à partir de cette enquête. Toutes les comparaisons intertemporelles sont en termes réels, car elles sont évaluées à l&apos;aide de l&apos;IPC spécifique au pays. Des méthodes d&apos;interpolation/extrapolation sont utilisées pour aligner les estimations basées sur l&apos;enquête de ces années de référence.&lt;/p&gt;
 									</field>
 									<field id="IMPUTATION">&lt;h2&gt;Traitement des valeurs manquantes :&lt;/h2&gt;
 &lt;ul&gt;
@@ -1900,6 +1900,54 @@ https://remittanceprices.worldbank.org/sites/default/files/smart_methodology.pdf
 									<field id="UNIT_MEASURE"/>
 									<field id="CLASS_SYSTEM"/>
 									<field id="SRC_TYPE_COLL_METHOD"/>
+									<field id="INST_MANDATE"/>
+									<field id="OTHER_METHOD"/>
+									<field id="DATA_VALIDATION"/>
+									<field id="ADJUSTMENT"/>
+									<field id="DOC_METHOD"/>
+									<field id="QUALITY_MGMNT"/>
+									<field id="QUALITY_ASSURE"/>
+									<field id="QUALITY_ASSMNT"/>
+</fields>
+
+						</indicator>
+						<indicator id="17-1-1">
+								<fields>
+									<field id="SDG_GOAL"/>
+									<field id="SDG_TARGET"/>
+									<field id="SDG_INDICATOR"/>
+									<field id="META_LAST_UPDATE"/>
+									<field id="SDG_CUSTODIAN_AGENCIES"/>
+									<field id="STAT_CONC_DEF"/>
+									<field id="SOURCE_TYPE"/>
+									<field id="FREQ_COLL"/>
+									<field id="COMPILING_ORG"/>
+									<field id="RATIONALE"/>
+									<field id="REC_USE_LIM"/>
+									<field id="DATA_COMP"/>
+									<field id="IMPUTATION"/>
+									<field id="REG_AGG"/>
+									<field id="COVERAGE"/>
+									<field id="COMPARABILITY"/>
+									<field id="OTHER_DOC"/>
+									<field id="SDG_INDICATOR_INFO"/>
+									<field id="SDG_SERIES_DESCR"/>
+									<field id="SDG_RELATED_INDICATORS"/>
+									<field id="CONTACT"/>
+									<field id="CONTACT_ORGANISATION"/>
+									<field id="CONTACT_NAME"/>
+									<field id="ORGANISATION_UNIT"/>
+									<field id="CONTACT_FUNCT"/>
+									<field id="CONTACT_PHONE"/>
+									<field id="CONTACT_MAIL"/>
+									<field id="CONTACT_EMAIL"/>
+									<field id="IND_DEF_CON_CLASS"/>
+									<field id="UNIT_MEASURE"/>
+									<field id="CLASS_SYSTEM"/>
+									<field id="SRC_TYPE_COLL_METHOD"/>
+									<field id="COLL_METHOD"/>
+									<field id="REL_CAL_POLICY"/>
+									<field id="DATA_SOURCE"/>
 									<field id="INST_MANDATE"/>
 									<field id="OTHER_METHOD"/>
 									<field id="DATA_VALIDATION"/>
@@ -3167,54 +3215,6 @@ Cet indicateur fournit une estimation de la pression exercée par tous les secte
 
 						</indicator>
 						<indicator id="16-8-1">
-								<fields>
-									<field id="SDG_INDICATOR_INFO"/>
-									<field id="SDG_GOAL"/>
-									<field id="SDG_TARGET"/>
-									<field id="SDG_INDICATOR"/>
-									<field id="SDG_SERIES_DESCR"/>
-									<field id="META_LAST_UPDATE"/>
-									<field id="SDG_RELATED_INDICATORS"/>
-									<field id="SDG_CUSTODIAN_AGENCIES"/>
-									<field id="CONTACT"/>
-									<field id="CONTACT_ORGANISATION"/>
-									<field id="CONTACT_NAME"/>
-									<field id="ORGANISATION_UNIT"/>
-									<field id="CONTACT_FUNCT"/>
-									<field id="CONTACT_PHONE"/>
-									<field id="CONTACT_MAIL"/>
-									<field id="CONTACT_EMAIL"/>
-									<field id="IND_DEF_CON_CLASS"/>
-									<field id="STAT_CONC_DEF"/>
-									<field id="UNIT_MEASURE"/>
-									<field id="CLASS_SYSTEM"/>
-									<field id="SRC_TYPE_COLL_METHOD"/>
-									<field id="SOURCE_TYPE"/>
-									<field id="COLL_METHOD"/>
-									<field id="FREQ_COLL"/>
-									<field id="REL_CAL_POLICY"/>
-									<field id="DATA_SOURCE"/>
-									<field id="COMPILING_ORG"/>
-									<field id="INST_MANDATE"/>
-									<field id="OTHER_METHOD"/>
-									<field id="RATIONALE"/>
-									<field id="REC_USE_LIM"/>
-									<field id="DATA_COMP"/>
-									<field id="DATA_VALIDATION"/>
-									<field id="ADJUSTMENT"/>
-									<field id="IMPUTATION"/>
-									<field id="REG_AGG"/>
-									<field id="DOC_METHOD"/>
-									<field id="QUALITY_MGMNT"/>
-									<field id="QUALITY_ASSURE"/>
-									<field id="QUALITY_ASSMNT"/>
-									<field id="COVERAGE"/>
-									<field id="COMPARABILITY"/>
-									<field id="OTHER_DOC"/>
-</fields>
-
-						</indicator>
-						<indicator id="17-1-1">
 								<fields>
 									<field id="SDG_INDICATOR_INFO"/>
 									<field id="SDG_GOAL"/>
@@ -5244,7 +5244,7 @@ gIhwho9/DDz+sBChcPvW5bf608x4Ed9R74403NF+SBO4saOPY+G46glu++0kUN9LgNudcY8W44Ygir9w
 &lt;p&gt; 
 &lt;a href=&quot;https://d.docs.live.net/c8f087e0e47b6917/Desktop/Employment/WB/WB%20Metadata%20Project/Authoring%20Tool/www.worldbank.org&quot;&gt;www.worldbank.org&lt;/a&gt;&lt;/p&gt;
 &lt;h2&gt; &lt;strong&gt; &lt;strong&gt; Ссылки: &lt;/strong&gt;&lt;/strong&gt;&lt;/h2&gt;
-&lt;p&gt; Данные составляются в соответствии с шестым изданием Руководства по платежному балансу и международной инвестиционной позиции (РПБ6). Руководство доступно по адресу: &lt;a href=&quot;https://www.imf.org/external/pubs/ft/bop/2007/bopman6.htm&quot;&gt;&apos;https:///www.imf.org/external/pubs/ft/bop/2007/bopman6.htm&lt;/a&gt;. &lt;/p&gt;
+&lt;p&gt; Данные составляются в соответствии с шестым изданием Руководства по платежному балансу и международной инвестиционной позиции (РПБ6). Руководство доступно по адресу: &lt;a href=&quot;https://www.imf.org/external/pubs/ft/bop/2007/bopman6.htm&quot;&gt;&apos;https:///www.imf.org/external/pubs/ft/bop/2007/bopman6.htm&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt; Данные по ВВП составляются в соответствии с методологией Системы национальных счетов 2008 года (СНС–2008). Руководство доступно по адресу: &lt;a href=&quot;http://unstats.un.org/unsd/nationalaccount/docs/SNA2008.pdf&quot;&gt;http://unstats.un.org/unsd/nationalaccount/docs/SNA2008.pdf. &lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt; Метаданные также доступны по адресу:&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;http://databank.worldbank.org/data/reports.aspx?&lt;a href=&quot;http://databank.worldbank.org/data/reports.aspx?
@@ -5286,7 +5286,7 @@ http://databank.worldbank.org/data/reports.aspx?source=2&amp;amp;type=metadata&a
 								<fields>
 									<field id="SDG_GOAL">&lt;p&gt;Цель 17: Укрепление средств осуществления и активизация работы в рамках Глобального партнерства в интересах устойчивого развития&lt;/p&gt;
 									</field>
-									<field id="SDG_TARGET">Задача 17.4: Оказывать развивающимся странам помощь в целях обеспечения долгосрочной приемлемости уровня их задолженности благодаря проведению скоординированной политики, направленной на поощрение, в зависимости от обстоятельств, финансирования за счет заемных средств, облегчения долгового бремени и реструктуризации задолженности, и решить проблему внешней задолженности бедных стран с крупной задолженностью, с тем чтобы облегчить их долговое бремя
+									<field id="SDG_TARGET">&lt;p&gt;Задача 17.4: Оказывать развивающимся странам помощь в целях обеспечения долгосрочной приемлемости уровня их задолженности благодаря проведению скоординированной политики, направленной на поощрение, в зависимости от обстоятельств, финансирования за счет заемных средств, облегчения долгового бремени и реструктуризации задолженности, и решить проблему внешней задолженности бедных стран с крупной задолженностью, с тем чтобы облегчить их долговое бремя&lt;/p&gt;
 									</field>
 									<field id="SDG_INDICATOR">&lt;p&gt;Показатель 17.4.1: Расходы на обслуживание долга в процентном отношении к экспорту товаров и услуг&lt;/p&gt;
 									</field>
@@ -5298,8 +5298,7 @@ http://databank.worldbank.org/data/reports.aspx?source=2&amp;amp;type=metadata&a
 									</field>
 									<field id="STAT_CONC_DEF">&lt;h1&gt;Понятия и определения&lt;/h1&gt;
 &lt;h2&gt;&lt;strong&gt;&lt;strong&gt;Определение:&lt;/strong&gt;&lt;/strong&gt;&lt;/h2&gt;
-&lt;p&gt;Расходы на обслуживание долга в процентном отношении к экспорту товаров и услуг представляют собой процентное отношение расходов на обслуживание долга (выплата основной суммы и процентов) к экспорту товаров и услуг. Обслуживание долга, охватываемое этим показателем, относится только к государственному или гарантированному государством долгу.
-.&lt;/p&gt;
+&lt;p&gt;Расходы на обслуживание долга в процентном отношении к экспорту товаров и услуг представляют собой процентное отношение расходов на обслуживание долга (выплата основной суммы и процентов) к экспорту товаров и услуг. Обслуживание долга, охватываемое этим показателем, относится только к государственному или гарантированному государством долгу.&lt;/p&gt;
 &lt;h2&gt;&lt;strong&gt;&lt;strong&gt;Понятия:&lt;/strong&gt;&lt;/strong&gt;&lt;/h2&gt;
 &lt;p&gt;Понятия о данных по внешнему государственному или гарантированному государством долге соответствуют методологии, изложенной в шестой редакции Руководства по платежному балансу и международной инвестиционной позиции (PПБ6).&lt;/p&gt;
 &lt;p&gt;Понятия о данных по экспорту товаров и услуг соответствуют шестому изданию Руководства по платежному балансу и международной инвестиционной позиции (РПБ6).&lt;/p&gt;
@@ -5319,14 +5318,32 @@ http://databank.worldbank.org/data/reports.aspx?source=2&amp;amp;type=metadata&a
 									<field id="REL_CAL_POLICY">&lt;h2&gt; &lt;strong&gt; &lt;strong&gt; Выпуск данных: &lt;/strong&gt; &lt;/strong&gt; &lt;/h2&gt;
 &lt;p&gt; Ежегодное опубликование новых данных по этому показателю запланировано на середину декабря посредством выпуска ежегодной публикации Всемирного банка - сборника «Международная статистика задолженности» (IDS) и доступна в Интернете (см. Ссылку: &lt;a href=&quot;http://data.worldbank.org/products/ids&quot;&gt; http: //data.worldbank. org / products / id &lt;/a&gt;) &lt;/p&gt;
 									</field>
-									<field id="DATA_SOURCE"/>
+									<field id="DATA_SOURCE">&lt;h1&gt; Поставщики данных&lt;/h1&gt;
+&lt;p&gt;Агентством, отвечающим за подготовку статистики задолженности на национальном уровне, является Всемирный банк, который получает данные от государственных учреждений на основе данных о ссудах по займам. Поставщиком национальных данных по показателю &quot;Экспорт товаров и услуг&quot; является учреждение, ответственное за сбор и составление статистики платежного баланса. Эта обязанность в разных странах возлагается на различные учреждения (например, Центральный банк). Оценки сотрудников Всемирного банка данных по экспорту товаров и услуг используются для заполнения пробелов. Данные об экспорте товаров и услуг не направляются непосредственно Всемирному банку поставщиком национальных данных. Они представляются Международному валютному фонду (МВФ), который является учреждением, отвечающим за надзор за стабильностью платежного баланса в рамках своего институционального мандата.&lt;/p&gt;
+									</field>
 									<field id="COMPILING_ORG">&lt;h1&gt;Составители данных&lt;/h1&gt;
 &lt;p&gt;Всемирный банк&lt;/p&gt;
 									</field>
-									<field id="DATA_COMP"/>
-									<field id="REG_AGG"/>
-									<field id="COVERAGE"/>
-									<field id="OTHER_DOC"/>
+									<field id="DATA_COMP">&lt;h1&gt; Методология&lt;/h1&gt;
+&lt;h2&gt;&lt;strong&gt;&lt;strong&gt; Метод расчета&lt;/strong&gt;&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Данные о государственном и гарантированном государством внешнем долге составляются Всемирным банком на основе Руководства Всемирного банка по системе отчетности по долгам, выпущенного в январе 2000 года, в котором изложены процедуры отчетности, подлежащие использованию странами. Данные приводятся по странам в разбивке по кредитам.&lt;/p&gt;
+&lt;p&gt;Данные по экспорту товаров и услуг берутся из базы данных МВФ по статистике платежного баланса, а затем пробелы заполняются с использованием оценок, подготовленных сотрудниками Всемирного банка в соответствии с шестым изданием &quot;Руководства по платежному балансу и международной инвестиционной позиции&quot; (РПБ6).&lt;/p&gt;
+&lt;p&gt;Оба компонента используются для отражения показателя в процентах.&lt;/p&gt;
+									</field>
+									<field id="REG_AGG">&lt;h2&gt; &lt;strong&gt; &lt;strong&gt; Региональные агрегаты: &lt;/strong&gt; &lt;/strong&gt; &lt;/h2&gt;
+&lt;p&gt; Агрегированные данные (глобальные, региональные и по группам доходов) включают только данные стран-членов Системы отчетности должников (DRS). &lt;/p&gt;
+									</field>
+									<field id="COVERAGE">&lt;h1&gt;Наличие данных&lt;/h1&gt;
+&lt;p&gt; Данные по 122 странам уже имеются в наличии на постоянной основе для этого показателя. &lt;/p&gt;
+&lt;h2&gt; &lt;strong&gt; &lt;strong&gt; Дезагрегация: &lt;/strong&gt; &lt;/strong&gt; &lt;/h2&gt;
+&lt;p&gt; Не осуществляется &lt;/p&gt;
+									</field>
+									<field id="OTHER_DOC">&lt;h1&gt; Ссылки
+&lt;h2&gt; &lt;strong&gt; &lt;strong&gt; URL:&lt;/strong&gt;&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt; www.worldbank.org
+&lt;h2&gt; &lt;strong&gt; &lt;strong&gt; Ссылки: &lt;/strong&gt;&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt; No183&apos;http://databank.worldbank.org/data/reports.aspx?source Tds. DPPF. Xp. (S 404)
+									</field>
 									<field id="SDG_INDICATOR_INFO"/>
 									<field id="SDG_SERIES_DESCR"/>
 									<field id="SDG_RELATED_INDICATORS"/>
