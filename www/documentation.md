@@ -11,7 +11,7 @@ At the conclusion of the pilot, the protocol was refined to accommodate finaliza
 The documents below provide a general **introduction** and **step-by-step instructions** to replicate the refined protocol. User and developer feedback is welcomed at <sdgmetadatatranslation@worldbank.org>.
 
 * [Introduction to the SDG Metadata Translation Project](https://docs.google.com/presentation/d/16W8f9ryGaTU8rfMls2eszonv3u1O173rpGHnPhmxT4E/edit)
-* Step-by-Step Instructions:
+* *Step-by-Step Instructions:*
 
   **Step 1:** [Prepare machine readable (and SDMX compliant) metadata files from Word documents](https://docs.google.com/document/d/1A8VJ5mRfXJ2rrJd9-2z6vnRhRHFxDxAHWVpJ7fyyxIM/edit?usp=sharing)
   * *[SDG metadata authoring template](https://docs.google.com/document/d/10IXjvoM6nxLPnk6VCR7leVZ2AYGLzuLCtrcf3kUxEz4/edit?usp=sharing)*
