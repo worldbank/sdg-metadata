@@ -17,8 +17,8 @@ The documents below provide a general **introduction** and **step-by-step instru
   * *[SDG metadata authoring template](https://docs.google.com/document/d/10IXjvoM6nxLPnk6VCR7leVZ2AYGLzuLCtrcf3kUxEz4/edit?usp=sharing)*
   * *[SDG metadata definitions and mapping to IAEG-SDG format](https://docs.google.com/document/d/1nxpm9vpaJz5XUdwXUXx1SQUIAYktVtnU_0dOwm0eWUs/edit?usp=sharing)*
 
-  **Step 2:** [Generate and manage machine readable files in Github for translation in Weblate](https://docs.google.com/document/d/15r3D29CslaFKDkIA7_rwyEjLw2Btg2OXWuTn9h6KDdU/edit#heading=h.v7k2m7oi6dyp)  
-
+  **Step 2:** [Generate and manage machine readable files in Github for translation in Weblate](https://docs.google.com/document/d/15r3D29CslaFKDkIA7_rwyEjLw2Btg2OXWuTn9h6KDdU/edit?usp=sharing)
+  
   **Step 3:** [Use Weblate to translate machine-readable files and access the output](https://docs.google.com/document/d/1Msu8aOVTItkdFIhN6O0snmKRX1wrD7iaW818ssZncXA/edit#heading=h.gjdgxs)
   
  *HINT: Adding metadata files for translation? Start with step 1. Translating metadata files? Start wtih step 3.
