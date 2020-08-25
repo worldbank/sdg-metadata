@@ -1,8 +1,8 @@
-# Indicators T2
+# Indicators (Phase 3)
 
-This folder is used to store the Microsoft Word authoring template for each indicator. When any Word file is uploaded or updated here, a pull-request will be generated to convert the change into source translation (*.pot) files.
+This folder would be used to store the Microsoft Word authoring template for each indicator. When any Word file is uploaded or updated here, a pull-request will be generated to convert the change into source translation (*.pot) files.
 
-**This folder contains only tier 2 SDG indicators.** Tier 1 indicators (excluding pilot indicators) can be found under sdg-metadata/indicators/...
+**This folder would contain only tier 2 SDG indicators.**
 
 All files must be named according to the indicator id, using dashes. For example:
 
