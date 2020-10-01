@@ -27,7 +27,7 @@ jobs:
     - name: Build the site
       run: make publish
     - name: Deploy to GitHub Pages
-      uses: JamesIves/github-pages-deploy-action@releases/v3
+      uses: JamesIves/github-pages-deploy-action@3.6.2
       with:
         ACCESS_TOKEN: ${{ secrets.token }}
         BRANCH: gh-pages
