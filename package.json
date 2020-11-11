@@ -9,6 +9,7 @@
     "test": "mocha"
   },
   "dependencies": {
+    "bent": "^7.3.12",
     "chai": "4.2.0",
     "gettext-parser": "4.0.2",
     "jsontoxml": "1.0.1",
