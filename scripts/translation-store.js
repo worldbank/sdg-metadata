@@ -172,7 +172,7 @@ function buildTranslationStore() {
         for (const file of files) {
             const indicatorId = normalizeIndicatorId(file.split('.')[0])
             const filePath = path.join(sourceFolder, file)
-            translations[language][indicatorId] = gettextInput.readSync(filePath)
+            translations[language][indicatorId] = gettextInput.readSync(filePath).getConcepts()
         }
     }
 
