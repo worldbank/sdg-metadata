@@ -15,17 +15,22 @@ async function main() {
     const lastCommit = await repo.revparse('HEAD')
     //await repo.clone('https://github.com/brockfanning/sdg-metadata', tempRepoPath)
     const tempRepo = simpleGit(tempRepoPath)
-    await tempRepo.checkout(lastCommit)
 
-    for (const file of fs.readdirSync('indicators')) {
+    const files = fs.readdirSync('indicators').filter(file => {
+        const extension = path.extname(file).toLowerCase()
+        return ['.docx', '.docm'].includes(extension)
+    })
+    for (const file of files) {
+
+        await tempRepo.checkout(lastCommit)
         const filePath = path.join('indicators', file)
         const logs = await repo.log({ file: filePath })
         const commits = logs.all.map(l => l.hash).reverse()
-        if (commits.length < 2) {
+        const versions = await metadataFromCommits(commits, filePath, tempRepo)
+        if (versions.length < 2) {
             console.log(filePath + ' had only one version. At least two are needed for history.')
             continue
         }
-        const versions = await metadataFromCommits(commits, filePath, tempRepo)
         let oldMeta = null
         let newMeta = null
         for (const version of versions) {
@@ -54,11 +59,17 @@ async function metadataFromCommits(commits, filePath, tempRepo) {
         const version = await metadataFromCommit(commit, filePath, tempRepo)
         versions.push(version)
     }
-    return versions
+    return versions.filter(version => version != false)
 }
 
 async function metadataFromCommit(commit, filePath, tempRepo) {
     await tempRepo.checkout(commit)
-    const metadata = await wordTemplateInput.read(path.join(tempRepoPath, filePath))
+    const tempFilePath = path.join(tempRepoPath, filePath)
+    if (!fs.existsSync(tempFilePath)) {
+        console.log('Error - file ' + filePath + ' not found in commit ' + commit)
+        return false
+    }
+    console.log('About to try and open ' + tempFilePath)
+    const metadata = await wordTemplateInput.read(tempFilePath)
     return metadata
 }
