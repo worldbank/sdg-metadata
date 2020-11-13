@@ -177,11 +177,11 @@
 &lt;p&gt;When applied to the country total population, the prevalence of food insecurity in the total population provides the number of individuals who live in food insecure households (or in households where at least one adult is food insecure) in a country, at different levels of severity (N&lt;sub&gt;mod+sev&lt;/sub&gt; and N&lt;sub&gt;sev&lt;/sub&gt;).&lt;/p&gt;
 &lt;p&gt;In the database, the number of food insecure people are expressed in thousands. &lt;/p&gt;&lt;p&gt;&lt;strong&gt;Treatment of missing values:&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;At country level:&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;em&gt;At country level:&lt;/em&gt;&lt;/strong&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;The indicator is not computed if no country data are available.&lt;/p&gt;
 &lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;At regional and global levels:&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;em&gt;At regional and global levels:&lt;/em&gt;&lt;/strong&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Missing values for individual countries are implicitly imputed to be equal to the population weighted average of the estimated values of the countries present in the same region.&lt;/p&gt;&lt;h2&gt;Regional aggregates:&lt;/h2&gt;
 &lt;p&gt;Regional and global aggregates of &lt;em&gt;FI&lt;sub&gt;mod+sev&lt;/sub&gt;&lt;/em&gt;&lt;sub&gt; &lt;/sub&gt;and &lt;em&gt;FI&lt;sub&gt;sev&lt;/sub&gt;&lt;/em&gt; are computed as:&lt;/p&gt;
@@ -453,7 +453,7 @@
 &lt;p&gt;If applied at household level, disaggregation is thus possible based on household characteristics such as location, household income, composition (including for example presence and number of small children, members with disabilities, elderly members, etc.), sex, age and education of the household head, etc. If applied at the individual level, proper disaggregation of the prevalence of food insecurity by sex is possible as the prevalence of food insecurity among male and among female members of the same population group can be measured independently.&lt;/p&gt;
 &lt;p&gt;When producing disaggregated statistics, attention must be devoted to verifying the validity of the application by estimating the Rasch model with the data from each specific subpopulation group and, if necessary, perform the appropriate equating of the measure before comparing results.&lt;/p&gt;
 &lt;p&gt;It is good practice to associate a measure of variability (margins of error or upper and lower bound) when disaggregated data are produced.&lt;/p&gt;&lt;h2&gt;Sources of discrepancies:&lt;/h2&gt;
-&lt;p&gt;In the few cases where indicators of food insecurity based on experience-based food security scales have been reported by countries (U.S., Canada, Mexico, Guatemala and Brazil), these have been based on nationally set thresholds that do not correspond to the international thresholds proposed by the FIES. See Annex I and Table A3 in http://www.fao.org/3/i4830e.pdf for a description of the differences. In the future, it is desirable that country would start reporting prevalence estimates using also the internationally set thresholds for moderate or severe and severe levels, in addition to those based on national thresholds.&lt;/p&gt;
+&lt;p&gt;In the few cases where indicators of food insecurity based on experience-based food security scales have been reported by countries (U.S., Canada, Mexico, Guatemala and Brazil), these have been based on nationally set thresholds that do not correspond to the international thresholds proposed by the FIES. See Annex I and Table A3 in &lt;a href=&quot;http://www.fao.org/3/i4830e.pdf%20&quot;&gt;http://www.fao.org/3/i4830e.pdf&lt;/a&gt; for a description of the differences. In the future, it is desirable that country would start reporting prevalence estimates using also the internationally set thresholds for moderate or severe and severe levels, in addition to those based on national thresholds.&lt;/p&gt;
 &lt;p&gt;FAO is ready to provide assistance on the analytic methods needed to estimate prevalence based on the FIES global reference thresholds.&lt;/p&gt;&lt;h1&gt;References&lt;/h1&gt;
 &lt;h2&gt;URL:&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&quot;http://www.fao.org/in-action/Voices-of-the-Hungry/&quot;&gt;http://www.fao.org/in-action/Voices-of-the-Hungry/&lt;/a&gt; &lt;/p&gt;
