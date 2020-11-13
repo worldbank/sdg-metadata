@@ -13,7 +13,7 @@ The documents below provide a general **introduction** and **step-by-step instru
 * [Introduction to the SDG Metadata Translation Project](https://docs.google.com/presentation/d/16W8f9ryGaTU8rfMls2eszonv3u1O173rpGHnPhmxT4E/edit)
 * *Step-by-Step Instructions:*
 
-  **Step 1:** [Prepare machine readable (and SDMX compliant) metadata files from Word documents](https://docs.google.com/document/d/1A8VJ5mRfXJ2rrJd9-2z6vnRhRHFxDxAHWVpJ7fyyxIM/edit?usp=sharing)
+  **Step 1:** [Prepare machine readable (and SDMX compliant) metadata files from Word documents](https://drive.google.com/file/d/1U-xnT4xI2HNy4BWN9o3CRQyaBuMDYkQt/view?usp=sharing)
   * *[SDG metadata authoring template](https://github.com/sdmx-sdgs/metadata/raw/master/SDG_Metadata_Template.docm)*
 
   **Step 2:** [Generate and manage machine readable files in Github for translation in Weblate](https://docs.google.com/document/d/1274fk3Clwil0a7zhUMAv1gx9Z4y0_mkNnmw3taKjC5Q/edit?usp=sharing)
