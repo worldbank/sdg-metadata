@@ -21,6 +21,9 @@ if (buildType === 'api') {
 if (buildType === 'documents') {
     builder = require('./build/documents')
 }
+if (buildType === 'history') {
+    builder = require('./build/history')
+}
 
 if (builder) {
     builder()
