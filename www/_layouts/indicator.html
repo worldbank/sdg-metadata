@@ -3,5 +3,8 @@ layout: single
 ---
 <div class="download-buttons">
   <a class="btn btn--info" href="{{ site.baseurl }}/documents/{{ page.language }}/{{ page.slug }}.pdf">Download PDF</a>
+  {% if site.data.history[page.slug] %}
+  <a class="btn btn--info" href="{{ site.baseurl }}/history/{{ page.slug }}/">Source history</a>
+  {% endif %}
 </div>
 {{ content }}

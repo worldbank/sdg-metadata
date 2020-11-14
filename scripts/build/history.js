@@ -19,7 +19,7 @@ module.exports = function() {
             await repo.clone('https://github.com/worldbank/sdg-metadata', tempRepoPath)
         }
         const tempRepo = simpleGit(tempRepoPath)
-        const history = []
+        const history = {}
         const targetFolder = utils.createFolder(['www', 'history'])
 
         const files = fs.readdirSync('indicators').filter(file => {
@@ -42,6 +42,8 @@ module.exports = function() {
                 console.log(filePath + ' had only one version. At least two are needed for history.')
                 continue
             }
+            const slug = file.split('.')[0]
+            history[slug] = []
             let oldMeta = null
             let newMeta = null
             for (const version of versions) {
@@ -57,13 +59,14 @@ module.exports = function() {
                 }
                 if (oldMeta != null && newMeta != null) {
                     const diff = await new Diff(oldMeta, newMeta)
-                    const fileName = file.split('.')[0] + '-' + version.log.hash + '.html'
+                    const fileName = slug + '-' + version.log.hash + '.html'
                     const renderedDiff = 'rendered-' + fileName
                     const sourceDiff = 'source-' + fileName
                     diff.writeRenderedHtml(path.join(targetFolder, renderedDiff))
                     diff.writeSourceHtml(path.join(targetFolder, sourceDiff))
-                    history.push({
+                    history[slug].push({
                         file: file,
+                        slug: slug,
                         commit: version.log.hash,
                         date: version.log.date,
                         renderedDiff: renderedDiff,

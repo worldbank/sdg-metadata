@@ -1,0 +1,13 @@
+---
+layout: single
+---
+<ul>
+    {% for version in page.history %}
+    <li>
+        {{ version.date }}<br>
+        <a class="btn btn--info" href="{{ site.baseurl }}/history/{{ version.renderedDiff }}">Comparison</a>
+        <a class="btn btn--info" href="{{ site.baseurl }}/history/{{ version.sourceDiff }}">Raw changes</a>
+        <a class="btn btn--info" href="https://github.com/worldbank/sdg-metadata/commit/{{ version.commit }}">Github</a>
+    </li>
+    {% endfor %}
+</ul>
