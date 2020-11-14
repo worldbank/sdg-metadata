@@ -66,7 +66,7 @@ module SdgMetadataPlugins
       site.data['history'].each do |indicator, history|
         dir = File.join('history', indicator) + '/'
         layout = 'history'
-        title = 'History for indicator: ' + indicator.gsub('-', '.')
+        title = 'Changes to indicator ' + indicator.gsub('-', '.')
         content = ''
         language = 'en'
         data = {
