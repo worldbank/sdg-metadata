@@ -14,7 +14,7 @@ In October 2020, the main study was launched. All SDG indicator metadata files d
 
 Through a letter of agreement, the World Bank partnered with Statistics Canada to produce French translations of these metadata files. We welcome partners to generate translations into other languages.
 
-* [Introduction to the SDG Metadata Translation Project](https://docs.google.com/presentation/d/16W8f9ryGaTU8rfMls2eszonv3u1O173rpGHnPhmxT4E/edit?usp=sharing)
+* [Introduction to the SDG Metadata Translation Project](https://drive.google.com/file/d/1lA6cvlX9UHhGL5DrWgep8J0bH8KNOee1/view?usp=sharing)
 * [Documentation]({{ site.baseurl }}/documentation/)
 * [Metadata]({{ site.baseurl }}/metadata/)
 
