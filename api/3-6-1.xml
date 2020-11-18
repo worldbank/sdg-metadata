@@ -40,13 +40,13 @@
 &lt;p&gt;Finally, the countries from group 3 which have a population less than 150,000 and did not have eligible death registration data, regression estimates were not used. Only the reported death were directly without adjustment.&lt;/p&gt;
 &lt;p&gt;More details about this estimation process in &lt;em&gt;Global Status Report on Road Safety 2015&lt;/em&gt;.&lt;/p&gt;&lt;h2&gt;Treatment of missing values:&lt;/h2&gt;
 &lt;ul&gt;
-  &lt;li&gt;At country level&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;em&gt;At country level:&lt;/em&gt;&lt;/strong&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Treatment of missing data was carried out as follows:&lt;/p&gt;
 &lt;p&gt;1) Identified missing values (or years) in vital registration (VR) data and looked for other sources in our case data from the questionnaire/survey (reported ) for these years. We then calculated the factor VR/Reported for the latest 3 years where VR and Reported data were available and used this factor to adjust Reported data to replace the missing value of VR data.&lt;/p&gt;
 &lt;p&gt;2) In the case where there is missing data in VR and Reported data, the missing values were imputed with a negative binomial regression of rate for each country if the regression converged or was significant. Otherwise we used the average rate of years with data.&lt;/p&gt;
 &lt;ul&gt;
-  &lt;li&gt;At regional and global levels&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;em&gt;At regional and global levels:&lt;/em&gt;&lt;/strong&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Same as the procedure described for 11.2 above&lt;/p&gt;&lt;h2&gt;Regional aggregates:&lt;/h2&gt;
 &lt;p&gt;We used the WHO&amp;apos;s regional grouping and the average to calculate the rate for each region. This means sum of road traffic deaths for region (i) multiplied by 100,000 and divided by the population in region (i).&lt;/p&gt;&lt;h1&gt;Data availability&lt;/h1&gt;
@@ -58,7 +58,7 @@
 &lt;p&gt;We disaggregated the data by types of road users, age, sex, income groups and WHO regions&lt;/p&gt;&lt;h2&gt;Sources of discrepancies:&lt;/h2&gt;
 &lt;p&gt;WHO&amp;apos;s estimation of road traffic rates are, in many countries, different to the official estimates for the reasons described above that relate to our methodology.&lt;/p&gt;
 &lt;p&gt;There are also differences in the data used for population between the national data and the estimates produced by the United Nations department of population.&lt;/p&gt;&lt;h1&gt;References&lt;/h1&gt;
-&lt;p&gt;&lt;strong&gt;URL:&lt;/strong&gt;&lt;/p&gt;
+&lt;h2&gt;URL:&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&quot;http://www.who.int/violence_injury_prevention&quot;&gt;http://www.who.int/violence_injury_prevention&lt;/a&gt;&lt;/p&gt;
 &lt;h2&gt;References:&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&quot;http://www.who.int/violence_injury_prevention/road_safety_status/2015/en/&quot;&gt;http://www.who.int/violence_injury_prevention/road_safety_status/2015/en/&lt;/a&gt;&lt;/p&gt;

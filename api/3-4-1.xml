@@ -24,7 +24,7 @@
 &lt;p&gt;WHO sends an e-mail two times per year requesting tabulated death registration data (including all causes of death) from Member States. Countries submit annual cause-of-death statistics to WHO on an ongoing basis. &lt;/p&gt;&lt;h2&gt;Data release:&lt;/h2&gt;
 &lt;p&gt;End of 2016. &lt;/p&gt;&lt;h2&gt;Rationale:&lt;/h2&gt;
 &lt;p&gt;Disease burden from non-communicable diseases (NCDs) among adults is rapidly increasing in developing countries due to ageing. Cardiovascular diseases, cancer, diabetes and chronic respiratory diseases are the four main causes of NCD burden. Measuring the risk of dying from these four major causes is important to assess the extent of burden from premature mortality due NCDs in a population.&lt;/p&gt;&lt;h2&gt;Comments and limitations:&lt;/h2&gt;
-&lt;p&gt;Cause of death estimates have large uncertainty ranges for some causes and some regions. Data gaps and limitations in high-mortality regions reinforce the need for caution when interpreting global comparative cause of death assessments, as well as the need for increased investment in population health measurement systems. The use of verbal autopsy methods in sample registration systems, demographic surveillance systems and household surveys provides some information on causes of death in populations without well-functioning death registration systems, but there remain considerable challenges in the validation and interpretation of such data, and in the assessment of uncertainty associated with diagnoses of underlying cause of death.&lt;/p&gt;&lt;p&gt;Methodology&lt;/p&gt;
+&lt;p&gt;Cause of death estimates have large uncertainty ranges for some causes and some regions. Data gaps and limitations in high-mortality regions reinforce the need for caution when interpreting global comparative cause of death assessments, as well as the need for increased investment in population health measurement systems. The use of verbal autopsy methods in sample registration systems, demographic surveillance systems and household surveys provides some information on causes of death in populations without well-functioning death registration systems, but there remain considerable challenges in the validation and interpretation of such data, and in the assessment of uncertainty associated with diagnoses of underlying cause of death.&lt;/p&gt;&lt;h1&gt;Methodology&lt;/h1&gt;
 &lt;h2&gt;Computation method:&lt;/h2&gt;
 &lt;p&gt;There are 4 steps involved in the calculation of this indicator:&lt;/p&gt;
 &lt;p&gt;1. Estimation of WHO life tables, based on the UN World Population Prospects 2012 revision. &lt;/p&gt;
@@ -38,12 +38,12 @@
 &lt;p&gt;Formulas to (1) calculate age-specific mortality rate for each five-year age group between 30 and 70, (2) translate the 5-year death rate into the probability of death in each 5-year age range, and (3) calculate the probability of death from age 30 to age 70, independent of other causes of death, can be found on page 6 of this document:&lt;/p&gt;
 &lt;p&gt;NCD Global Monitoring Framework: Indicator Definitions and Specifications. Geneva: World Health Organization, 2014 (&lt;a href=&quot;http://www.who.int/nmh/ncd-tools/indicators/GMF_Indicator_Definitions_FinalNOV2014.pdf?ua=1&quot;&gt;http://www.who.int/nmh/ncd-tools/indicators/GMF_Indicator_Definitions_FinalNOV2014.pdf?ua=1&lt;/a&gt;)&lt;/p&gt;&lt;h2&gt;Treatment of missing values:&lt;/h2&gt;
 &lt;ul&gt;
-  &lt;li&gt;At country level&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;em&gt;At country level:&lt;/em&gt;&lt;/strong&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;For countries with high-quality cause-of-death statistics, interpolation/extrapolation was done for missing country-years; for countries with only low-quality or no data on causes of death, modelling was used. Complete methodology may be found here: &lt;/p&gt;
 &lt;p&gt;WHO methods and data sources for global causes of death, 2000&amp;#x2013;2015 (&lt;a href=&quot;http://www.who.int/healthinfo/global_burden_disease/GlobalCOD_method_2000_2015.pdf&quot;&gt;http://www.who.int/healthinfo/global_burden_disease/GlobalCOD_method_2000_2015.pdf&lt;/a&gt;)&lt;/p&gt;
 &lt;ul&gt;
-  &lt;li&gt;At regional and global levels&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;em&gt;At regional and global levels:&lt;/em&gt;&lt;/strong&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;NA&lt;/p&gt;&lt;h2&gt;Regional aggregates:&lt;/h2&gt;
 &lt;p&gt;Aggregation of estimates of deaths by cause, age and sex by country.&lt;/p&gt;&lt;h1&gt;Data availability&lt;/h1&gt;
@@ -57,7 +57,7 @@
 &lt;p&gt;NCD Global Monitoring Framework: Indicator Definitions and Specifications. Geneva: World Health Organization, 2014 (&lt;a href=&quot;http://www.who.int/nmh/ncd-tools/indicators/GMF_Indicator_Definitions_FinalNOV2014.pdf?ua=1&quot;&gt;http://www.who.int/nmh/ncd-tools/indicators/GMF_Indicator_Definitions_FinalNOV2014.pdf?ua=1&lt;/a&gt;)&lt;/p&gt;
 &lt;p&gt;WHO indicator definition (&lt;a href=&quot;http://apps.who.int/gho/indicatorregistry/App_Main/view_indicator.aspx?iid=3354&quot;&gt;http://apps.who.int/gho/indicatorregistry/App_Main/view_indicator.aspx?iid=3354&lt;/a&gt;)&lt;/p&gt;
 &lt;p&gt;WHO methods and data sources for global causes of death, 2000&amp;#x2013;2015 &lt;/p&gt;
-&lt;p&gt;(&lt;a href=&quot;http://www.who.int/healthinfo/global_burden_disease/GlobalCOD_method_2000_2015.pdf&quot;&gt;http://www.who.int/healthinfo/global_burden_disease/GlobalCOD_method_2000_2015.pdf&lt;/a&gt; )&lt;/p&gt;
+&lt;p&gt;(&lt;a href=&quot;http://www.who.int/healthinfo/global_burden_disease/GlobalCOD_method_2000_2015.pdf&quot;&gt;http://www.who.int/healthinfo/global_burden_disease/GlobalCOD_method_2000_2015.pdf&lt;/a&gt;)&lt;/p&gt;
 &lt;p&gt;World Health Assembly Resolution, WHA66.10 (2014): Follow-up to the Political Declaration of the High-level Meeting of the General Assembly on the Prevention and Control of Non-communicable Diseases. Including Appendix 2: Comprehensive global monitoring framework, including 25 indicators, and a set of nine voluntary global targets for the prevention and control of noncommunicable diseases. (&lt;a href=&quot;http://apps.who.int/gb/ebwha/pdf_files/WHA66/A66_R10-en.pdf?ua=1&quot;&gt;http://apps.who.int/gb/ebwha/pdf_files/WHA66/A66_R10-en.pdf?ua=1&lt;/a&gt;) &lt;/p&gt;
 &lt;p&gt;WHO Global Action Plan for the Prevention and Control of Noncommunicable Diseases 2013-2020 (&lt;a href=&quot;http://apps.who.int/iris/bitstream/10665/94384/1/9789241506236_eng.pdf?ua=1&quot;&gt;http://apps.who.int/iris/bitstream/10665/94384/1/9789241506236_eng.pdf?ua=1&lt;/a&gt;)&lt;/p&gt;
 			</language>

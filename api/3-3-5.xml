@@ -19,7 +19,7 @@
   &lt;li&gt;Average annual number of people requiring mass treatment known as preventive chemotherapy (PC) for at least one PC-NTD; and&lt;/li&gt;
   &lt;li&gt;Number of new cases requiring individual treatment and care for other NTDs.&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;Other key interventions against NTDs (e.g. vector management, veterinary public health, water, sanitation and hygiene) are to be addressed in the context of other targets and indicators, namely Universal Health Coverage (UHC) and universal access to water and sanitation.&lt;/p&gt;&lt;p&gt;Data sources&lt;/p&gt;
+&lt;p&gt;Other key interventions against NTDs (e.g. vector management, veterinary public health, water, sanitation and hygiene) are to be addressed in the context of other targets and indicators, namely Universal Health Coverage (UHC) and universal access to water and sanitation.&lt;/p&gt;&lt;h1&gt;Data sources&lt;/h1&gt;
 &lt;h2&gt;Description:&lt;/h2&gt;
 &lt;p&gt;The number of people requiring treatment and care for NTDs is measured by existing country systems, and reported through joint request and reporting forms for donated medicines, the integrated NTD database, and other reports to WHO.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;http://www.who.int/neglected_diseases/preventive_chemotherapy/reporting/en/&quot;&gt;http://www.who.int/neglected_diseases/preventive_chemotherapy/reporting/en/&lt;/a&gt;&lt;/p&gt;
@@ -52,12 +52,12 @@
 &lt;p&gt;2) Number of new cases requiring individual treatment and care for other NTDs: The number of new cases is based on country reports, whenever available, of new and known cases of Buruli ulcer, dengue, dracunculiasis, echinococcosis, human African trypanosomiasis (HAT), leprosy, the leishmaniases, rabies and yaws. Where the number of people requiring and requesting surgery for PC-NTDs (e.g. trichiasis or hydrocele surgery) is reported, it can be added here. Similarly, new cases requiring and requesting rehabilitation (e.g. leprosy or lymphoedema) can be added whenever available.&lt;/p&gt;
 &lt;p&gt;Populations referred to under 1) and 2) may overlap; the sum would overestimate the total number of people requiring treatment and care. The maximum of 1) or 2) is therefore retained at the lowest common implementation unit and summed to get conservative country, regional and global aggregates. By 2030, improved co-endemicity data and models will validate the trends obtained using this simplified approach.&lt;/p&gt;&lt;h2&gt;Treatment of missing values:&lt;/h2&gt;
 &lt;ul&gt;
-  &lt;li&gt;At country level&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;em&gt;At country level:&lt;/em&gt;&lt;/strong&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;We do not impute missing values for countries that have never reported data for any NTD. For countries that have reported data in the past, we impute missing values only for those NTDs that have been reported in the past but that have not been reported in the current year.&lt;/p&gt;
 &lt;p&gt;For reproducibility, we employ multiple imputation techniques using the freely available Amelia package in R. We impute 100 complete datasets using all available cross-sectional data (countries and years), applying a square root transformation to exclude negative values of incidence, as well as categorical variables denoting regions and income groups, and allowing for country-specific linear time effects. We aggregate across diseases and extract the mean and 2.5th and 97.5th centile values to report best estimates and uncertainty intervals for each country.&lt;/p&gt;
 &lt;ul&gt;
-  &lt;li&gt;At regional and global levels&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;em&gt;At regional and global levels:&lt;/em&gt;&lt;/strong&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Using the 100 imputed datasets, we aggregate across diseases and regions, extract the mean and 2.5th and 97.5th centile values to report best estimates and uncertainty intervals at the regional and global levels.&lt;/p&gt;&lt;h2&gt;Regional aggregates:&lt;/h2&gt;
 &lt;p&gt;Global and regional estimates are simple aggregates of the country values, with no particular weighting. There is no further adjustment for global and regional estimates.&lt;/p&gt;&lt;h2&gt;Methods and guidance available to countries for the compilation of the data at the national level:&lt;/h2&gt;
