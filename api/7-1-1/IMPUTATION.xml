@@ -10,7 +10,7 @@
 			<language lang="ru"/>
 			<language lang="en">&lt;h2&gt;Treatment of missing values:&lt;/h2&gt;
 &lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;At country level:&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;em&gt;At country level:&lt;/em&gt;&lt;/strong&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Given the low frequency and regional distribution of some surveys, many countries have gaps in data availability. A simple modelling approach was adopted to fill in the missing data points, in order to develop the historical evolution and starting point of the electrification rates. The estimation is conducted using a model with region, country and time variables. The model keeps the original observation if data is available. The statistical model is used to fill in data only for years where they are missing and to help conduct global and regional analyses. In the absence of survey data for a given year, information from regional trends was borrowed. The estimated values are clearly identified (&amp;#x201C;Estimate&amp;#x201D;) in the database.&amp;#xA0;&amp;#xA0;&lt;/p&gt;
 &lt;ul&gt;

@@ -2,7 +2,7 @@
 <root>
 	<status>success</status>
 	<message>All metadata fields for the indicator 7-1-1, translated into en</message>
-	<data>&lt;p&gt;Goal 7: Ensure access to affordable, reliable, sustainable and modern energy for all&lt;/p&gt;&lt;p&gt;Target 7.1: By 2030, ensure universal access to affordable, reliable and modern energy services&lt;/p&gt;&lt;p&gt;Indicator 7.1.1: Proportion of population with access to electricity&lt;/p&gt;&lt;p&gt;Last updated: 22 October 2020&lt;/p&gt;&lt;h1&gt;Related indicators as of February 2020&lt;/h1&gt;
+	<data>&lt;p&gt;Goal 7: Ensure access to affordable, reliable, sustainable and modern energy for all&lt;/p&gt;&lt;p&gt;Target 7.1: By 2030, ensure universal access to affordable, reliable and modern energy services&lt;/p&gt;&lt;p&gt;Indicator 7.1.1: Proportion of population with access to electricity&lt;/p&gt;&lt;p&gt;Last updated: 19 November 2020&lt;/p&gt;&lt;h1&gt;Related indicators as of February 2020&lt;/h1&gt;
 &lt;p&gt;SDG7&lt;/p&gt;&lt;h1&gt;Institutional information&lt;/h1&gt;
 &lt;h2&gt;Organization(s):&lt;/h2&gt;
 &lt;p&gt;World Bank Group&lt;/p&gt;&lt;h1&gt;Concepts and definitions&lt;/h1&gt;
@@ -43,7 +43,7 @@
 &lt;/ul&gt;
 &lt;p&gt;Given the low frequency and the regional distribution of some surveys, several countries have gaps in available data. To develop the historical evolution and starting point of electrification rates, a simple modelling approach was adopted to fill in the missing data points. This modelling approach allowed the estimation of electrification rates for 212 countries over these time periods. The SE4ALL Global Tracking Framework Report (2013) referenced below provides more details on the suggested methodology for tracking access to energy (Chapter 2, Section 1, page 82-87).&lt;/p&gt;&lt;h2&gt;Treatment of missing values:&lt;/h2&gt;
 &lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;At country level:&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;em&gt;At country level:&lt;/em&gt;&lt;/strong&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Given the low frequency and regional distribution of some surveys, many countries have gaps in data availability. A simple modelling approach was adopted to fill in the missing data points, in order to develop the historical evolution and starting point of the electrification rates. The estimation is conducted using a model with region, country and time variables. The model keeps the original observation if data is available. The statistical model is used to fill in data only for years where they are missing and to help conduct global and regional analyses. In the absence of survey data for a given year, information from regional trends was borrowed. The estimated values are clearly identified (&amp;#x201C;Estimate&amp;#x201D;) in the database.&amp;#xA0;&amp;#xA0;&lt;/p&gt;
 &lt;ul&gt;
@@ -51,15 +51,14 @@
 &lt;/ul&gt;
 &lt;p&gt;Values for regional and global levels are calculated by incorporating all survey data along with model-estimated values substituting missing values. Regional and global classifications are based on the UN M49 series for statistical use.&lt;/p&gt;&lt;h2&gt;Regional aggregates:&lt;/h2&gt;
 &lt;p&gt;Global coverage is available through the World Bank Global Electrification Database 2019.&lt;/p&gt;&lt;h2&gt;Methods and guidance available to countries for the compilation of the data at the national level:&lt;/h2&gt;
-&lt;p&gt;Countries generally use internationally accepted methods of conducting censuses and national surveys. There is some level of disparity between countries and regional methodologies, but the efforts to harmonize data is improving. &lt;/p&gt;
-&lt;p&gt;(same answer from previous question?)&lt;/p&gt;&lt;h2&gt;Quality assurance:&lt;/h2&gt;
+&lt;p&gt;Countries generally use internationally accepted methods of conducting censuses and national surveys. There is some level of disparity between countries and regional methodologies, but the efforts to harmonize data is improving. &lt;/p&gt;&lt;h2&gt;Quality assurance:&lt;/h2&gt;
 &lt;p&gt;A multi-level review process in collaboration with industry experts, national statistical offices, country and regional experts as well as partnering international agencies and UN bodies is conducted before finalizing the data.&lt;/p&gt;
 &lt;p&gt;Before finalizing electricity access data, the World Bank team contacts the relevant national statistical offices as well as the UN regional commissions asking for reviews and suggestions for the prepared figures. The data also goes through multiple rounds of vetting process internally through departments. The relevant links are provided below under References.&lt;/p&gt;&lt;h1&gt;Data availability&lt;/h1&gt;
 &lt;h2&gt;Description:&lt;/h2&gt;
 &lt;p&gt;Data is currently collected for 140 countries from 1990 to 2018, excluding &amp;#x201C;High Income&amp;#x201D; or &amp;#x201C;Developed&amp;#x201D; countries as classified by the United Nations. &lt;/p&gt;
 &lt;h2&gt;Time series:&lt;/h2&gt;
 &lt;p&gt;Data for countries have been compiled for the 1990-2018 period, though there are gaps in accurate data availability.&lt;/p&gt;
-&lt;p&gt;Disaggregation:&lt;/p&gt;
+&lt;h2&gt;&lt;strong&gt;Disaggregation&lt;/strong&gt;:&lt;/h2&gt;
 &lt;p&gt;Electricity access rates are disaggregated by geographic location into total, urban and rural rates. Countries that are classified as &amp;#x201C;Developed&amp;#x201D; or &amp;#x201C;High Income&amp;#x201D; are assumed to have 100 percent from the first year it was added to the category. Disaggregation of access to electricity by rural or urban place of residence is possible for all countries.&lt;/p&gt;&lt;h2&gt;Sources of discrepancies:&lt;/h2&gt;
 &lt;p&gt;The World Bank database compiles electricity usage data, while many international agencies and national ministries report electricity production data. This is the main cause for data discrepancies.&lt;/p&gt;
 &lt;p&gt;The quality and accuracy of population data can also lead to differences in assessing electrification. &lt;/p&gt;&lt;h1&gt;References&lt;/h1&gt;
