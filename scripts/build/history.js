@@ -17,13 +17,13 @@ module.exports = function() {
             <a href="https://unstats.un.org/sdgs/metadata/">UNSD SDG Metadata Repository</a>.
         </p>
     `
-    const sourceHeader = `
+    const renderedHeader = `
         <p>
             This comparison shows additions and deletions to metadata files in simple,
             human-readable format. This view may be helpful to general users.
         </p>
     `
-    const renderedHeader = `
+    const sourceHeader = `
         <p>
             This comparison shows additions and deletions to metadata files in detailed
             format. This view may be helpful when precisely updating translations.
@@ -36,7 +36,7 @@ module.exports = function() {
 
         const lastCommit = await repo.revparse('HEAD')
         if (!fs.existsSync(tempRepoPath)) {
-            await repo.clone('https://github.com/worldbank/sdg-metadata', tempRepoPath)
+            await repo.clone('https://github.com/brockfanning/sdg-metadata', tempRepoPath)
         }
         const tempRepo = simpleGit(tempRepoPath)
         const history = {}

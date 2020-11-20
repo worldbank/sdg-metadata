@@ -175,6 +175,29 @@ module SdgMetadataPlugins
         data = {
           'slug' => indicator,
           'history' => history,
+          'sidebar' => [{
+            'title' => '',
+            'text' => <<~HEREDOC
+              <dl class="history-button-help">
+                <dd>Comparison</dd>
+                <dt>
+                  "Comparison" shows additions and deletions to metadata files in simple,
+                  human-readable format. This view may be helpful to general users.
+                </dt>
+                <dd>Raw changes</dd>
+                <dt>
+                  "Raw changes" shows additions and deletions to metadata files in detailed
+                  format. This view may be helpful when precisely updating translations.
+                </dt>
+                <dd>Github</dd>
+                <dt>
+                  "Github" points to the record of the change on Github.com in which the
+                  metadata file was updated. This view is helpful for project managers to
+                  identity the reason and author of the change.
+                </dt>
+              </dl>
+            HEREDOC
+          }]
         }
         site.pages << SdgMetadataPage.new(site, base, dir, layout, title, content, language, data)
       end

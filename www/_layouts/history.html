@@ -5,6 +5,11 @@ layout: single
 by the World Bank Translation Project Team. Each date listed refers to an update
 made by the team to the English metadata file.</p>
 <ul>
+    <li><strong>Only updates made by the World Bank Translation Project Team are shown.</strong></li>
+    <li><strong>The original source file for all English metadata files is the
+        <a href="https://unstats.un.org/sdgs/metadata/">UNSD SDG Metadata Repository</a>.</strong></li>
+</ul>
+<ul>
     {% for version in page.history %}
     <li>
         {{ version.date | date: '%B %d, %Y' }}<br>
@@ -14,8 +19,3 @@ made by the team to the English metadata file.</p>
     </li>
     {% endfor %}
 </ul>
-<p>
-    Note: "Github" points to the record of the change on Github.com in which the
-    metadata file was updated. This view is helpful for project managers to
-    identity the reason and author of the change.
-</p>
