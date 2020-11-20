@@ -169,7 +169,7 @@ module SdgMetadataPlugins
       site.data['history'].each do |indicator, history|
         dir = File.join('history', indicator) + '/'
         layout = 'history'
-        title = 'Changes to indicator ' + indicator.gsub('-', '.')
+        title = 'Revision history for ' + indicator.gsub('-', '.') + ' indicator metadata file'
         content = ''
         language = 'en'
         data = {
