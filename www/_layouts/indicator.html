@@ -2,6 +2,6 @@
 layout: single
 ---
 <div class="download-buttons">
-  <a class="btn btn--info" href="{{ site.baseurl }}/documents/{{ page.language }}/{{ page.slug }}.pdf">Download PDF</a>
+  <a class="btn btn--info" href="{{ site.baseurl }}/documents/{{ page.language }}/{{ page.slug }}.pdf">{{ site.data.store.t[page.language].site.DOWNLOAD_PDF | default: 'Download PDF' }}</a>
 </div>
 {{ content }}
