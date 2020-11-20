@@ -10,6 +10,26 @@ module.exports = function() {
     const wordTemplateInput = new WordTemplateInput()
     const tempRepoPath = 'temp'
 
+    const headerDisclaimer = `
+        <p>
+            Only updates made by the World Bank Translation Project Team are shown.
+            The original source file for all English metadata files is the
+            <a href="https://unstats.un.org/sdgs/metadata/">UNSD SDG Metadata Repository</a>.
+        </p>
+    `
+    const sourceHeader = `
+        <p>
+            This comparison shows additions and deletions to metadata files in simple,
+            human-readable format. This view may be helpful to general users.
+        </p>
+    `
+    const renderedHeader = `
+        <p>
+            This comparison shows additions and deletions to metadata files in detailed
+            format. This view may be helpful when precisely updating translations.
+        </p>
+    `
+
     main()
 
     async function main() {
@@ -62,8 +82,12 @@ module.exports = function() {
                     const fileName = slug + '-' + version.log.hash + '.html'
                     const renderedDiff = 'rendered-' + fileName
                     const sourceDiff = 'source-' + fileName
-                    diff.writeRenderedHtml(path.join(targetFolder, renderedDiff))
-                    diff.writeSourceHtml(path.join(targetFolder, sourceDiff))
+                    diff.writeRenderedHtml(path.join(targetFolder, renderedDiff), {
+                        header: renderedHeader + headerDisclaimer,
+                    })
+                    diff.writeSourceHtml(path.join(targetFolder, sourceDiff), {
+                        header: sourceHeader + headerDisclaimer,
+                    })
                     history[slug].push({
                         file: file,
                         slug: slug,
