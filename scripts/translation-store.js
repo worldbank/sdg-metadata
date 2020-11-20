@@ -1,6 +1,7 @@
 const fs = require('fs')
 const os = require('os')
 const path = require('path')
+const gettextParser = require('gettext-parser')
 const { conceptStore, GettextInput } = require('sdg-metadata-convert')
 
 const baseFolder = 'translations'
@@ -8,6 +9,7 @@ const sourceLanguage = 'en'
 const sourceLanguageFolder = 'templates'
 
 let translationStore = buildTranslationStore()
+let miscellaneousTranslationStore = buildMiscellaneousTranslationStore()
 
 /**
  * Get an array of the fields in the order of the pre-2020 IAEG metadata.
@@ -195,6 +197,56 @@ function buildTranslationStore() {
 }
 
 /**
+ * Return the full miscellaneous translation store nested object.
+ *
+ * @returns {Object}
+ *   A nested object - language code -> key -> value
+ */
+function getMiscellaneousTranslationStore() {
+    return miscellaneousTranslationStore
+}
+
+/**
+ * Parse the misc. translation files and construct the data structure. Internal only.
+ *
+ * @returns {Object}
+ *   A nested object - language code -> key -> value
+ */
+function buildMiscellaneousTranslationStore() {
+    const translations = {}
+    const miscFolder = 'translations-misc'
+
+    for (const languageFolder of fs.readdirSync(miscFolder)) {
+
+        const sourceFolder = path.join(miscFolder, languageFolder)
+        const isSourceLanguage = (languageFolder === sourceLanguageFolder)
+        const language = (isSourceLanguage) ? sourceLanguage : languageFolder
+        const extension = (languageFolder === sourceLanguageFolder) ? '.pot' : '.po'
+        translations[language] = {}
+
+        const files = fs.readdirSync(sourceFolder).filter(file => {
+            return path.extname(file).toLowerCase() === extension
+        })
+        for (const file of files) {
+            const key = file.split('.')[0]
+            const filePath = path.join(sourceFolder, file)
+            const data = fs.readFileSync(filePath, { encoding: 'utf-8' })
+            const parsed = gettextParser.po.parse(data)
+            delete parsed.translations['']
+            translations[language][key] = {}
+            for (const id of Object.keys(parsed.translations)) {
+                const source = Object.keys(parsed.translations[id])[0]
+                const item = parsed.translations[id][source]
+                const value = (isSourceLanguage) ? item.msgid : item.msgstr[0]
+                translations[language][key][id] = value
+            }
+        }
+    }
+
+    return translations
+}
+
+/**
  * Refresh the data.
  */
 function refresh() {
@@ -208,6 +260,7 @@ module.exports = {
     getIaegFields,
     getIndicatorIds,
     getTranslationStore,
+    getMiscellaneousTranslationStore,
     translateField,
     translateAllFields,
     refresh,

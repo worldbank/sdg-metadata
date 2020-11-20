@@ -31,6 +31,20 @@ module SdgMetadataPlugins
       sort_order
     end
 
+    # Get a miscellaneous translation.
+    def translate_site_text(site, key, language)
+      if site.data['store']['t'][language].key?('site')
+        if site.data['store']['t'][language]['site'].key?(key)
+          if site.data['store']['t'][language]['site'][key] != ''
+            return site.data['store']['t'][language]['site'][key]
+          else
+            return site.data['store']['t']['en']['site'][key]
+          end
+        end
+      end
+      return key
+    end
+
     def generate(site)
       base = site.source
 
@@ -39,21 +53,32 @@ module SdgMetadataPlugins
         indicators.each do |indicator, field_content|
           dir = File.join('metadata', language, indicator) + '/'
           layout = 'indicator'
-          title = 'Indicator: ' + indicator.gsub('-', '.')
+          indicator_number = indicator.gsub('-', '.')
+          title = translate_site_text(site, 'INDICATOR_NUMBER', language)
+          title = title.gsub('%number', indicator_number)
           data = {'slug' => indicator}
 
           # For now let's only display translated fields.
           translated_fields = site.data['store']['fields'].select {|c| field_content[c['id']] != '' }
 
-          toc = translated_fields.map {|c| '<li><a href="#' + c['id'] + '">' + c['name'] + '</a></li>'}
+          toc = translated_fields.map do |c|
+            # Look for a translated name.
+            translated_name = site.data['store']['t'][language]['concepts'][c['id']]
+            if translated_name == ''
+              # But fall back to English.
+              translated_name = c['name']
+            end
+            '<li><a href="#' + c['id'] + '">' + translated_name + '</a></li>'
+          end
           toc = '<ul class="indicator-fields">' + toc.join('') + '</ul>'
+
           content = translated_fields.map {|c| '<a name="' + c['id'] + '"></a>' + get_field_content(field_content[c['id']], c['id'], c['name']) }
           content = content.join("")
 
           # This provides some data for the benefit of the Minimal Mistakes theme.
           data['sidebar'] = [
             {
-              'title' => 'SDMX Metadata Concepts',
+              'title' => translate_site_text(site, 'SMDX_METADATA_CONCEPTS', language),
               'text' => toc
             }
           ]
