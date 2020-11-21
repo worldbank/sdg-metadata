@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<status>success</status>
+	<message>The DATA_COMP field for indicator 7-1-2, translated into all languages</message>
+	<data>
+		<languages>
+			<language lang="es"/>
+			<language lang="fr"/>
+			<language lang="fr_CA"/>
+			<language lang="ru"/>
+			<language lang="en">&lt;h1&gt;Methodology&lt;/h1&gt;
+&lt;h2&gt;Computation method:&lt;/h2&gt;
+&lt;p&gt;The indicator is modelled with household survey data compiled by WHO. The information on cooking fuel use and cooking practices comes from about 800 nationally representative survey and censuses. Survey sources include Demographic and Health Surveys (DHS) and Living Standards Measurement Surveys (LSMS), Multi-Indicator Cluster Surveys (MICS), the World Health Survey (WHS), and other nationally developed and implemented surveys.&lt;/p&gt;
+&lt;p&gt;Estimates of primary cooking energy for the total, urban and rural population for a given year are obtained separately using a multilevel model. The model only accounts for regions, countries and time as a spline function, and estimates are restricted to values ranging from zero to one. More details on the model are published elsewhere (Bonjour et al, 2013).&lt;/p&gt;
+&lt;p&gt;Estimates for countries with no available surveys were obtained as follows:&lt;/p&gt;
+&lt;p&gt;When survey data is available for a country, the regional population- weighted mean is used to derive aggregate estimates at a regional or global level, however no country point estimate is given for that country is reported.&lt;/p&gt;
+&lt;p&gt;Countries classified as high-income with a Gross National Income (GNI) of more than US$ 12,746.- per capita are assumed to have made a complete transition to using clean fuels and technologies as the primary domestic energy source for cooking and the primary reliance on polluting (unclean) fuels and technologies use is reported to be less than 5% and assumed as zero for regional and global estimates.&lt;/p&gt;
+&lt;p&gt;For estimating the fraction of the population relying on clean fuels and technologies for heating and lighting, the same methodology using survey data to derive country estimates for a particular year will be used using the same above mentioned assumptions.&lt;/p&gt;
+			</language>
+</languages>
+</data>
+</root>
