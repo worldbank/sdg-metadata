@@ -7,13 +7,14 @@ const gettextOutput = new sdgMetadataConvert.GettextOutput()
 
 const sourceFolder = 'indicators'
 const targetFolder = path.join('translations', 'templates')
+const extensions = ['.docx', '.docm']
 const files = fs.readdirSync(sourceFolder).filter(file => {
-    return path.extname(file).toLowerCase() === '.docx';
+    return extensions.includes(path.extname(file).toLowerCase());
 })
 const conversions = files.map(sourceFile => {
     const sourcePath = path.join(sourceFolder, sourceFile)
-    const targetFile = sourceFile.replace('.docx', '.pot')
-    const blankTranslationFile = sourceFile.replace('.docx', '.po')
+    const targetFile = sourceFile.split('.')[0] + '.pot'
+    const blankTranslationFile = sourceFile.split('.')[0] + '.po'
     const targetPath = path.join(targetFolder, targetFile)
     return [sourcePath, targetPath, blankTranslationFile]
 })
