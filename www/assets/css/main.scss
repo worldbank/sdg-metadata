@@ -262,5 +262,9 @@
   .version-buttons {
     list-style: none;
     padding: 0;
+    i {
+      margin-left: 10px;
+      cursor: pointer;
+    }
   }
 }
