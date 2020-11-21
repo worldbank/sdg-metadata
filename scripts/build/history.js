@@ -29,6 +29,13 @@ module.exports = function() {
             format. This view may be helpful when precisely updating translations.
         </p>
     `
+    const diffStyle = `
+        .instructions {
+            border: 1px solid black;
+            background: lightyellow;
+            padding: 20px;
+        }
+    `
 
     main()
 
@@ -83,10 +90,12 @@ module.exports = function() {
                     const renderedDiff = 'rendered-' + fileName
                     const sourceDiff = 'source-' + fileName
                     diff.writeRenderedHtml(path.join(targetFolder, renderedDiff), {
-                        header: renderedHeader + headerDisclaimer,
+                        header: '<div class="instructions">' + renderedHeader + headerDisclaimer + '</div>',
+                        style: diffStyle,
                     })
                     diff.writeSourceHtml(path.join(targetFolder, sourceDiff), {
-                        header: sourceHeader + headerDisclaimer,
+                        header: '<div class="instructions">' + sourceHeader + headerDisclaimer + '</div>',
+                        style: diffStyle,
                     })
                     history[slug].push({
                         file: file,
