@@ -109,11 +109,11 @@ La CMN correspond à la quantité de matériaux utilisés dans une économie nat
 &lt;h2&gt;Computation method:&lt;/h2&gt;
 &lt;p&gt;It is calculated as direct imports (IM) of material plus domestic extraction (DE) of materials minus direct exports (EX) of materials measured in metric tonnes. DMC measure the amount of materials that are used in economic processes. It does not include materials that are mobilized the process of domestic extraction but do not enter the economic process. DMC is based on official economic statistics and it requires some modelling to adapt the source data to the methodological requirements of the MFA. The accounting standard and accounting methods are set out in the EUROSTAT guidebooks for MFA accounts in the latest edition of 2013. MFA accounting is also part of the central framework of the System of integrated Environmental-Economic Accounts (SEEA). &lt;/p&gt;&lt;h2&gt;Treatment of missing values:&lt;/h2&gt;
 &lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;At country level:&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;em&gt;At country level:&lt;/em&gt;&lt;/strong&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;A zero is imputed when no positive real value was officially recorded, in the base data sets used, for any of the underlying components which make up this aggregated total. Thus &amp;#x201C;0.0&amp;#x201D; can represent either NA, or a genuine 0.0, or (crucially) a combination of both, which is a common situation. This allows for values to be easily aggregated into further aggregations; however, it should be thus noted that due to imputing missing values as &amp;#x2018;0.0&amp;#x2019;, the aggregations may represent a lower value than actual situation. &lt;/p&gt;
 &lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;At regional and global levels:&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;em&gt;At regional and global levels:&lt;/em&gt;&lt;/strong&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Similarly, missing values are imputed as zero in the regional and global aggregations. However, in the case where no data is available at all for a particular country then the per capita and per GDP estimates are weighted averages of the available data. &lt;/p&gt;&lt;h2&gt;Regional aggregates:&lt;/h2&gt;
 &lt;p&gt;See: &lt;a href=&quot;http://uneplive.unep.org/media/docs/graphs/aggregation_methods.pdf&quot;&gt;http://uneplive.unep.org/media/docs/graphs/aggregation_methods.pdf&lt;/a&gt;&lt;/p&gt;&lt;h1&gt;Data availability&lt;/h1&gt;
