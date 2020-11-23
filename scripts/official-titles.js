@@ -6,6 +6,17 @@ const downloadFile = require('download-file')
 
 const spreadsheets = ['ru', 'es', 'fr']
 
+const splitIndicators = {
+    '1-1-1': ['1-1-1a', '1-1-1b'],
+    '2-2-2': ['2-2-2a', '2-2-2b'],
+    '4-1-1': ['4-1-1a', '4-1-1bc'],
+    '5-5-1': ['5-5-1a', '5-5-1b'],
+    '6-6-1': ['6-6-1a', '6-6-1b'],
+    '17-3-1': ['17-3-1a', '17-3-1b'],
+    '1-3-1': ['1-3-1a', '1-3-1b'],
+    '12-3-1': ['12-3-1a', '12-3-1b'],
+}
+
 for (const language of spreadsheets) {
     importSpreadsheet(language)
 }
@@ -33,8 +44,11 @@ async function importSpreadsheet(language) {
             }
         }
         if (indicator) {
-            if (typeof indicators[indicator.id] === 'undefined') {
-                indicators[indicator.id] = getIndicatorPrefix(language) + ' ' + indicator.dots + ': ' + indicator.title
+            const indicatorIds = splitIndicators[indicator.id] ? splitIndicators[indicator.id] : [indicator.id]
+            for (const indicatorId of indicatorIds) {
+                if (typeof indicators[indicatorId] === 'undefined') {
+                    indicators[indicatorId] = getIndicatorPrefix(language) + ' ' + indicator.dots + ': ' + indicator.title
+                }
             }
         }
     }
