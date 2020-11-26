@@ -3,13 +3,8 @@ layout: single
 ---
 {{ site.data.languages[page.language].blurb | markdownify }}
 
-<ul>
-{% for indicator in page.indicators %}
-  <li>
-    <a class="btn btn--info" href="{{ indicator }}">{{ indicator | replace: '-', '.' }}</a>
-    <a href="https://hosted.weblate.org/projects/sdg-metadata/{{ indicator }}/{{ page.language }}/">
-      <img src="https://hosted.weblate.org/widgets/sdg-metadata/{{ page.language }}/{{ indicator }}/svg-badge.svg" alt="Translation status" />
-    </a>
-  </li>
+{% for goal in page.goals %}
+<a class="goal-link" href="{{ goal }}">
+  <img src="https://open-sdg.org/sdg-translations/assets/img/goals/{{ page.language }}/{{ goal }}.png" alt="Goal {{ goal }}" />
+</a>
 {% endfor %}
-</ul>

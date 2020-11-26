@@ -48,6 +48,24 @@ module SdgMetadataPlugins
     def generate(site)
       base = site.source
 
+      # Compile all the goals and targets.
+      goals_by_language = {}
+      targets_by_language = {}
+      site.data['store']['metadata'].each do |language, indicators|
+        goals_by_language[language] = {}
+        targets_by_language[language] = {}
+        indicators.each do |indicator, field_content|
+          parts = indicator.split('-')
+          goals_by_language[language][parts[0]] = true
+          targets_by_language[language][parts[0] + '-' + parts[1]] = true
+        end
+      end
+
+      # Generate all the goal pages.
+      #goals_by_language.each do |language, goals|
+
+      #end
+
       # Generate all the indicator pages.
       site.data['store']['metadata'].each do |language, indicators|
         indicators.each do |indicator, field_content|
@@ -97,7 +115,10 @@ module SdgMetadataPlugins
         end
         content = ''
         language = language
-        data = {'indicators' => indicators.keys.sort_by { |k| get_sort_order(k) }}
+        data = {
+          'indicators' => indicators.keys.sort_by { |k| get_sort_order(k) },
+          'goals' => goals_by_language[language].keys.uniq.sort_by { |k| get_sort_order(k) }
+        }
         site.pages << SdgMetadataPage.new(site, base, dir, layout, title, content, language, data)
       end
     end
