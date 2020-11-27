@@ -1,0 +1,10 @@
+---
+layout: single
+---
+<ul>
+{% for indicator in page.indicators %}
+  <li>
+    <a class="btn btn--info" href="{{ site.baseurl }}/metadata/{{ page.language }}/{{ indicator }}">{{ indicator | replace: '-', '.' }}</a>
+  </li>
+{% endfor %}
+</ul>

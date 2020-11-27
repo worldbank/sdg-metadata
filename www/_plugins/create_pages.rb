@@ -61,11 +61,14 @@ module SdgMetadataPlugins
           if !goals_by_language[language].has_key?(goal)
             goals_by_language[language][goal] = []
           end
-          if !targets_by_language[language].has_key?(target)
-            targets_by_language[language][target] = []
+          if !targets_by_language[language].has_key?(goal)
+            targets_by_language[language][goal] = {}
+          end
+          if !targets_by_language[language][goal].has_key?(target)
+            targets_by_language[language][goal][target] = []
           end
           goals_by_language[language][goal].append(indicator)
-          targets_by_language[language][target].append(indicator)
+          targets_by_language[language][goal][target].append(indicator)
         end
       end
 
@@ -82,11 +85,35 @@ module SdgMetadataPlugins
           title = title.gsub('%number', goal) + ' - ' + language_name
           data = {
             'slug' => goal,
-            'indicators' => indicators.sort_by { |k| get_sort_order(k) },
+            'indicators' => indicators.uniq.sort_by { |k| get_sort_order(k) },
+            'targets' => targets_by_language[language][goal].keys.uniq.sort_by { |k| get_sort_order(k) },
           }
           content = ''
 
           site.pages << SdgMetadataPage.new(site, base, dir, layout, title, content, language, data)
+        end
+      end
+
+      # Generate all the target pages.
+      targets_by_language.each do |language, goals|
+        goals.each do |goal, targets|
+          targets.each do |target, indicators|
+            dir = File.join('metadata', language, target) + '/'
+            layout = 'target'
+            title = translate_site_text(site, 'Target %number', language)
+            language_name = language
+            if site.data['languages'].key?(language)
+              language_name = site.data['languages'][language]['name']
+            end
+            title = title.gsub('%number', target.gsub('-', '.')) + ' - ' + language_name
+            data = {
+              'slug' => goal,
+              'indicators' => indicators.uniq.sort_by { |k| get_sort_order(k) },
+            }
+            content = ''
+
+            site.pages << SdgMetadataPage.new(site, base, dir, layout, title, content, language, data)
+          end
         end
       end
 

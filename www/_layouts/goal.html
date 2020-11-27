@@ -2,9 +2,9 @@
 layout: single
 ---
 <ul>
-{% for indicator in page.indicators %}
+{% for target in page.targets %}
   <li>
-    <a class="btn btn--info" href="{{ site.baseurl }}/metadata/{{ page.language }}/{{ indicator }}">{{ indicator | replace: '-', '.' }}</a>
+    <a class="btn btn--info" href="{{ site.baseurl }}/metadata/{{ page.language }}/{{ target }}">{{ target | replace: '-', '.' }}</a>
   </li>
 {% endfor %}
 </ul>
