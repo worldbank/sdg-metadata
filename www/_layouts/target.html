@@ -5,7 +5,7 @@ layout: single
 <ul>
 {% for indicator in page.indicators %}
   <li>
-    <a class="btn btn--info" href="{{ indicator }}">{{ indicator | replace: '-', '.' }}</a>
+    <a class="btn btn--info" href="{{ site.baseurl }}/metadata/{{ page.language }}/{{ indicator }}">{{ indicator | replace: '-', '.' }}</a>
     <a href="https://hosted.weblate.org/projects/sdg-metadata/{{ indicator }}/{{ page.language }}/">
       <img src="https://hosted.weblate.org/widgets/sdg-metadata/{{ page.language }}/{{ indicator }}/svg-badge.svg" alt="Translation status" />
     </a>
