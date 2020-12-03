@@ -15,20 +15,29 @@ module SdgMetadataPlugins
       return prefix + inner + suffix
     end
 
+    def is_single_letter(character)
+      return character.length == 1 && !/\A\d+\z/.match(character)
+    end
+
     # Make any goal/target/indicator number suitable for use in sorting.
     def get_sort_order(number)
       if number.is_a? Numeric
         number = number.to_s
       end
-      sort_order = ''
+
+      # We'll mainly rely on Gem::Version.new(), but we want to make
+      # sure that single-letter parts (like the "b" in 2.b) appear
+      # after all the numeric parts. Ie, 2.b should be after 2.7.
       parts = number.split('-')
-      parts.each do |part|
-        if part.length == 1
-          part = '0' + part
+      if parts.size > 1
+        if is_single_letter(parts[parts.size - 1])
+          parts[parts.size - 1] = '9999' + parts[parts.size - 1]
         end
-        sort_order += part
       end
-      sort_order
+
+      # Now we can rely on Gem::Version.new().
+      number = parts.join('.')
+      Gem::Version.new(number)
     end
 
     # Get a miscellaneous translation.
@@ -47,6 +56,75 @@ module SdgMetadataPlugins
 
     def generate(site)
       base = site.source
+
+      # Compile all the goals and targets.
+      goals_by_language = {}
+      targets_by_language = {}
+      site.data['store']['metadata'].each do |language, indicators|
+        goals_by_language[language] = {}
+        targets_by_language[language] = {}
+        indicators.each do |indicator, field_content|
+          parts = indicator.split('-')
+          goal = parts[0]
+          target = parts[0] + '-' + parts[1]
+          if !goals_by_language[language].has_key?(goal)
+            goals_by_language[language][goal] = []
+          end
+          if !targets_by_language[language].has_key?(goal)
+            targets_by_language[language][goal] = {}
+          end
+          if !targets_by_language[language][goal].has_key?(target)
+            targets_by_language[language][goal][target] = []
+          end
+          goals_by_language[language][goal].append(indicator)
+          targets_by_language[language][goal][target].append(indicator)
+        end
+      end
+
+      # Generate all the goal pages.
+      goals_by_language.each do |language, goals|
+        goals.each do |goal, indicators|
+          dir = File.join('metadata', language, goal) + '/'
+          layout = 'goal'
+          title = translate_site_text(site, 'Goal %number', language)
+          language_name = language
+          if site.data['languages'].key?(language)
+            language_name = site.data['languages'][language]['name']
+          end
+          title = title.gsub('%number', goal) + ' - ' + language_name
+          data = {
+            'slug' => goal,
+            'indicators' => indicators.uniq.sort_by { |k| get_sort_order(k) },
+            'targets' => targets_by_language[language][goal].keys.uniq.sort_by { |k| get_sort_order(k) },
+          }
+          content = ''
+
+          site.pages << SdgMetadataPage.new(site, base, dir, layout, title, content, language, data)
+        end
+      end
+
+      # Generate all the target pages.
+      targets_by_language.each do |language, goals|
+        goals.each do |goal, targets|
+          targets.each do |target, indicators|
+            dir = File.join('metadata', language, target) + '/'
+            layout = 'target'
+            title = translate_site_text(site, 'Target %number', language)
+            language_name = language
+            if site.data['languages'].key?(language)
+              language_name = site.data['languages'][language]['name']
+            end
+            title = title.gsub('%number', target.gsub('-', '.')) + ' - ' + language_name
+            data = {
+              'slug' => goal,
+              'indicators' => indicators.uniq.sort_by { |k| get_sort_order(k) },
+            }
+            content = ''
+
+            site.pages << SdgMetadataPage.new(site, base, dir, layout, title, content, language, data)
+          end
+        end
+      end
 
       # Generate all the indicator pages.
       site.data['store']['metadata'].each do |language, indicators|
@@ -97,7 +175,9 @@ module SdgMetadataPlugins
         end
         content = ''
         language = language
-        data = {'indicators' => indicators.keys.sort_by { |k| get_sort_order(k) }}
+        data = {
+          'goals' => goals_by_language[language].keys.uniq.sort_by { |k| get_sort_order(k) }
+        }
         site.pages << SdgMetadataPage.new(site, base, dir, layout, title, content, language, data)
       end
     end

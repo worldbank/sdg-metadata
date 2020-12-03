@@ -1,0 +1,11 @@
+---
+layout: single
+---
+<p>Choose a target below:</p>
+<ul>
+{% for target in page.targets %}
+  <li>
+    <a class="btn btn--info" href="{{ site.baseurl }}/metadata/{{ page.language }}/{{ target }}">{{ target | replace: '-', '.' }}</a>
+  </li>
+{% endfor %}
+</ul>
