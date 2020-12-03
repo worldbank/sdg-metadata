@@ -15,20 +15,29 @@ module SdgMetadataPlugins
       return prefix + inner + suffix
     end
 
+    def is_single_letter(character)
+      return character.length == 1 && !/\A\d+\z/.match(character)
+    end
+
     # Make any goal/target/indicator number suitable for use in sorting.
     def get_sort_order(number)
       if number.is_a? Numeric
         number = number.to_s
       end
-      sort_order = ''
+
+      # We'll mainly rely on Gem::Version.new(), but we want to make
+      # sure that single-letter parts (like the "b" in 2.b) appear
+      # after all the numeric parts. Ie, 2.b should be after 2.7.
       parts = number.split('-')
-      parts.each do |part|
-        if part.length == 1
-          part = '0' + part
+      if parts.size > 1
+        if is_single_letter(parts[parts.size - 1])
+          parts[parts.size - 1] = '9999' + parts[parts.size - 1]
         end
-        sort_order += part
       end
-      sort_order
+
+      # Now we can rely on Gem::Version.new().
+      number = parts.join('.')
+      Gem::Version.new(number)
     end
 
     # Get a miscellaneous translation.
