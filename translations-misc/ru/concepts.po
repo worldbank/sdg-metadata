@@ -1,178 +1,221 @@
 msgid ""
 msgstr ""
+"PO-Revision-Date: 2020-12-07 16:54+0000\n"
+"Last-Translator: Alexander Goncharov <malahovka79@yandex.ru>\n"
+"Language-Team: Russian <https://hosted.weblate.org/projects/sdg-metadata/"
+"concepts/ru/>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 4.4-dev\n"
 
 msgctxt "SDG_INDICATOR_INFO"
 msgid "0. Indicator information"
-msgstr ""
+msgstr "0. Информация о показателе"
 
+#, fuzzy
 msgctxt "SDG_GOAL"
 msgid "0.a. Goal"
-msgstr ""
+msgstr "0.a. Цель"
 
 msgctxt "SDG_TARGET"
 msgid "0.b. Target"
-msgstr ""
+msgstr "0.b. Задача"
 
+#, fuzzy
 msgctxt "SDG_INDICATOR"
 msgid "0.c. Indicator"
-msgstr ""
+msgstr "0.c. Показатель"
 
 msgctxt "SDG_SERIES_DESCR"
 msgid "0.d. Series"
-msgstr ""
+msgstr "0.d. Ряды"
 
+#, fuzzy
 msgctxt "META_LAST_UPDATE"
 msgid "0.e. Metadata update"
-msgstr ""
+msgstr "0.e. Обновление метаданных"
 
+#, fuzzy
 msgctxt "SDG_RELATED_INDICATORS"
 msgid "0.f. Related indicators"
-msgstr ""
+msgstr "# Связанные показатели"
 
+#, fuzzy
 msgctxt "SDG_CUSTODIAN_AGENCIES"
 msgid "0.g. International organisations(s) responsible for global monitoring"
-msgstr ""
+msgstr "0.g. Международные организации, ответственные за глобальный мониторинг"
 
 msgctxt "CONTACT"
 msgid "1. Data reporter"
-msgstr ""
+msgstr "Лицо, направляющее отчет"
 
+#, fuzzy
 msgctxt "CONTACT_ORGANISATION"
 msgid "1.a. Organisation"
-msgstr ""
+msgstr "1.a. Организация"
 
+#, fuzzy
 msgctxt "CONTACT_NAME"
 msgid "1.b. Contact person(s)"
-msgstr ""
+msgstr "1.b. контактное лицо (лица)"
 
+#, fuzzy
 msgctxt "ORGANISATION_UNIT"
 msgid "1.c. Contact organisation unit"
-msgstr ""
+msgstr "1.c. Подразделение контактной организации"
 
+#, fuzzy
 msgctxt "CONTACT_FUNCT"
 msgid "1.d. Contact person function"
-msgstr ""
+msgstr "1.д. Функция контактного лица"
 
+#, fuzzy
 msgctxt "CONTACT_PHONE"
 msgid "1.e. Contact phone"
-msgstr ""
+msgstr "1.e. Контактный телефон"
 
+#, fuzzy
 msgctxt "CONTACT_MAIL"
 msgid "1.f. Contact mail"
-msgstr ""
+msgstr "1.f. Контактная почта"
 
+#, fuzzy
 msgctxt "CONTACT_EMAIL"
 msgid "1.g. Contact email"
-msgstr ""
+msgstr "1.g. Контактная электронная почта"
 
 msgctxt "IND_DEF_CON_CLASS"
 msgid "2. Definition, concepts, and classifications"
-msgstr ""
+msgstr "2. Определение, понятия и классификации"
 
+#, fuzzy
 msgctxt "STAT_CONC_DEF"
 msgid "2.a. Definition and concepts"
-msgstr ""
+msgstr "2.a. Определение и понятия"
 
+#, fuzzy
 msgctxt "UNIT_MEASURE"
 msgid "2.b. Unit of measure"
-msgstr ""
+msgstr "2.b. Единица измерения"
 
+#, fuzzy
 msgctxt "CLASS_SYSTEM"
 msgid "2.c. Classifications"
-msgstr ""
+msgstr "2.c. Классификации"
 
+#, fuzzy
 msgctxt "SRC_TYPE_COLL_METHOD"
 msgid "3. Data source type and collection method"
-msgstr ""
+msgstr "3. Тип источника данных и метод сбора"
 
+#, fuzzy
 msgctxt "SOURCE_TYPE"
 msgid "3.a. Data sources"
-msgstr ""
+msgstr "3.a. Источники данных"
 
+#, fuzzy
 msgctxt "COLL_METHOD"
 msgid "3.b. Data collection method"
-msgstr ""
+msgstr "3.b. Метод сбора данных"
 
+#, fuzzy
 msgctxt "FREQ_COLL"
 msgid "3.c. Data collection calendar"
-msgstr ""
+msgstr "3.c. Календарь сбора данных"
 
+#, fuzzy
 msgctxt "REL_CAL_POLICY"
 msgid "3.d. Data release calendar"
-msgstr ""
+msgstr "3.d. Календарь выпуска данных"
 
+#, fuzzy
 msgctxt "DATA_SOURCE"
 msgid "3.e. Data providers"
-msgstr ""
+msgstr "3.e. Поставщики данных"
 
+#, fuzzy
 msgctxt "COMPILING_ORG"
 msgid "3.f. Data compilers"
-msgstr ""
+msgstr "3.f. Составители данных"
 
+#, fuzzy
 msgctxt "INST_MANDATE"
 msgid "3.g. Institutional mandate"
-msgstr ""
+msgstr "3.g. Институциональный мандат"
 
 msgctxt "OTHER_METHOD"
 msgid "4. Other methodological considerations"
-msgstr ""
+msgstr "4. Другие методологические факторы, подлежащие учету"
 
+#, fuzzy
 msgctxt "RATIONALE"
 msgid "4.a. Rationale"
-msgstr ""
+msgstr "4.a. Обоснование"
 
 msgctxt "REC_USE_LIM"
 msgid "4.b. Comment and limitations"
-msgstr ""
+msgstr "4.b. Комментарии и ограничения"
 
+#, fuzzy
 msgctxt "DATA_COMP"
 msgid "4.c. Method of computation"
-msgstr ""
+msgstr "4.c. Метод расчета"
 
 msgctxt "DATA_VALIDATION"
 msgid "4.d. Validation"
-msgstr ""
+msgstr "4.d. Валидация"
 
+#, fuzzy
 msgctxt "ADJUSTMENT"
 msgid "4.e. Adjustments"
-msgstr ""
+msgstr "4.e. Корректировки"
 
 msgctxt "IMPUTATION"
 msgid "4.f. Treatment of missing values (i) at country level and (ii) at regional level"
 msgstr ""
+"4.f. Обработка отсутствующих значений (i) на уровне страны и (ii) на "
+"региональном уровне"
 
+#, fuzzy
 msgctxt "REG_AGG"
 msgid "4.g. Regional aggregations"
-msgstr ""
+msgstr "4.g. Региональные агрегаты"
 
 msgctxt "DOC_METHOD"
 msgid "4.h. Methods and guidance available to countries for the compilation of the data at the national level"
 msgstr ""
+"4.h. Доступные странам методы и руководства для составления данных на "
+"национальном уровне"
 
+#, fuzzy
 msgctxt "QUALITY_MGMNT"
 msgid "4.i. Quality management"
-msgstr ""
+msgstr "4.i. Управление качеством"
 
 msgctxt "QUALITY_ASSURE"
 msgid "4.j. Quality assurance"
-msgstr ""
+msgstr "4.j. Обеспечение качества"
 
+#, fuzzy
 msgctxt "QUALITY_ASSMNT"
 msgid "4.k. Quality assessment"
-msgstr ""
+msgstr "4.k. Оценка качества"
 
+#, fuzzy
 msgctxt "COVERAGE"
 msgid "5. Data availability and disaggregation"
-msgstr ""
+msgstr "5. Доступность и дезагрегирование данных"
 
+#, fuzzy
 msgctxt "COMPARABILITY"
 msgid "6. Comparability/deviation from international standards"
-msgstr ""
+msgstr "6. Сопоставимость/отступление от международных стандартов"
 
+#, fuzzy
 msgctxt "OTHER_DOC"
 msgid "7. References and Documentation"
-msgstr ""
+msgstr "7. Ссылки и документация"
