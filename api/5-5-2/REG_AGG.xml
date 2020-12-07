@@ -6,7 +6,6 @@
 		<languages>
 			<language lang="es"/>
 			<language lang="fr"/>
-			<language lang="fr_CA"/>
 			<language lang="ru"/>
 			<language lang="en">&lt;h2&gt;Regional aggregates:&lt;/h2&gt;
 &lt;p&gt;The aggregates are derived from the Trends Econometric Models (TEM) that are used to produce global and regional estimates of, amongst others, employment by occupation and gender. These models use multivariate regression and cross-validation techniques to impute missing values at the country level, which are then aggregated to produce regional and global estimates. The regional and global proportions of women in managerial positions are obtained by first adding up, across countries, the numerator and denominator of the formula that defines the proportion of women in managerial positions - outlined above. Once both magnitudes are produced at the desired level of aggregation, the ratio between the two is used to compute the rate for each regional grouping and the global level. Notice that this direct aggregation method can be used due to the imputation of missing observations. For further information on the TEM, please refer to the technical background papers available at: &lt;a href=&quot;http://www.ilo.org/empelm/projects/WCMS_114246/lang--en/index.htm&quot;&gt;http://www.ilo.org/empelm/projects/WCMS_114246/lang--en/index.htm&lt;/a&gt;.&lt;/p&gt;
