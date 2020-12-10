@@ -4,8 +4,18 @@
 	<message>The DATA_COMP field for indicator 3-1-1, translated into all languages</message>
 	<data>
 		<languages>
+			<language lang="ar"/>
+			<language lang="ars"/>
 			<language lang="es"/>
-			<language lang="fr"/>
+			<language lang="fr">&lt;h1&gt;Méthodologie&lt;/h1&gt;
+&lt;h2&gt;Méthode de calcul :&lt;/h2&gt;
+&lt;p&gt;Le taux de mortalité maternelle peut être calculé en divisant les décès maternels enregistrés (ou estimés) par le total des naissances vivantes enregistrées (ou estimées) au cours de la même période et en multipliant par 100 000. La mesure exige de l’information sur l’état de la grossesse, le moment du décès (pendant la grossesse, l’accouchement ou dans les 42 jours suivant l’interruption de grossesse) et la cause du décès.&lt;/p&gt;
+&lt;p&gt; le taux de mortalité maternelle peut être calculé directement à partir des données recueillies au moyen de systèmes d’enregistrement vitaux, d’enquêtes auprès des ménages ou d’autres sources. Il y a souvent des problèmes de qualité des données, en particulier liés à la sous-déclaration et à la classification erronée des décès maternels. Par conséquent, les données sont souvent ajustées afin de tenir compte de ces problèmes de qualité des données. Certains pays entreprennent ces ajustements ou corrections dans le cadre d’enquêtes spécialisées/confidentielles ou d’efforts administratifs intégrés aux programmes de surveillance de la mortalité &lt;/p&gt; maternelle.
+&lt;p&gt;&lt;strong&gt; modèle d’estimation de la mortalité maternelle bayésienne (le modèle BMat) : &lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt; Estimation et projection des indicateurs de mortalité maternelle sont entreprises à l’aide du modèle BMat. Ce modèle vise à s’assurer que l’approche d’estimation du RMM est uniforme dans tous les pays, mais qu’elle demeure souple en ce qu’elle est fondée sur des tendances axées sur la covariation afin d’éclairer les estimations dans les pays ou les pays dont l’information est limitée ; capture les tendances observées dans les pays où les séries d’observations sont plus longues ; et tient compte des différences dans les erreurs stochastiques et d’échantillonnage entre &lt;/p&gt; les observations.
+&lt;p&gt;Le modèle est résumé comme suit : &lt;/p&gt;
+&lt;p&gt;&lt;img
+			</language>
 			<language lang="ru"/>
 			<language lang="en">&lt;h1&gt;Methodology&lt;/h1&gt;
 &lt;h2&gt;Computation method:&lt;/h2&gt;
