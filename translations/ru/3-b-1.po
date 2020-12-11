@@ -1,9 +1,16 @@
 msgid ""
 msgstr ""
+"PO-Revision-Date: 2020-12-11 07:29+0000\n"
+"Last-Translator: Alexander Goncharov <malahovka79@yandex.ru>\n"
+"Language-Team: Russian <https://hosted.weblate.org/projects/sdg-metadata/3-"
+"b-1/ru/>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 4.4-dev\n"
 
 msgctxt "SDG_GOAL"
 msgid ""
@@ -44,9 +51,10 @@ msgstr ""
 "<p>Показатель 3.b.1: Доля целевой группы населения, охваченная иммунизацией "
 "всеми вакцинами, включенными в национальные программы</p>"
 
+#, fuzzy
 msgctxt "META_LAST_UPDATE"
 msgid "<p>Last updated: March 2020</p>"
-msgstr ""
+msgstr "<p>Последнее обновление: март 2020 года </p>"
 
 msgctxt "SDG_RELATED_INDICATORS"
 msgid ""
