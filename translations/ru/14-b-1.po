@@ -1,9 +1,9 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2020-12-18 17:29+0000\n"
+"PO-Revision-Date: 2020-12-22 15:29+0000\n"
 "Last-Translator: Alexander Goncharov <malahovka79@yandex.ru>\n"
-"Language-Team: Russian <https://hosted.weblate.org/projects/sdg-metadata/14-"
-"b-1/ru/>\n"
+"Language-Team: Russian <https://hosted.weblate.org/projects/sdg-metadata/"
+"14-b-1/ru/>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -38,9 +38,10 @@ msgstr ""
 "институциональных рамок, обеспечивающих признание и защиту прав доступа "
 "мелких рыбопромысловых предприятий</p>"
 
+#, fuzzy
 msgctxt "META_LAST_UPDATE"
 msgid "<p>Last updated: 29 May 2018</p>"
-msgstr ""
+msgstr "<p> Последнее обновление: 29 мая 2018 г. </p>"
 
 msgctxt "SDG_RELATED_INDICATORS"
 msgid ""
@@ -112,12 +113,16 @@ msgid ""
 "<p>The data will be processed and released by July 2018.</p>"
 msgstr ""
 
+#, fuzzy
 msgctxt "DATA_SOURCE"
 msgid ""
 "<h1>Data providers</h1>\n"
 "<p>Data is typically provided by the National Fishery Ministries/departments."
 "</p>"
 msgstr ""
+"<h1> Поставщики данных </h1>\n"
+"<p> Данные обычно предоставляются национальными министерствами / ведомствами "
+"рыболовства. </p>"
 
 #, fuzzy
 msgctxt "COMPILING_ORG"
