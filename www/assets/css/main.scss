@@ -252,7 +252,9 @@
 }
 
 .language-ar {
-  .page__inner-wrap, .sidebar {
-    direction: rtl;
+  &.layout--indicator {
+    .page, .sidebar {
+      direction: rtl;
+    }
   }
 }
