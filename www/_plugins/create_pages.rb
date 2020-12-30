@@ -196,6 +196,7 @@ module SdgMetadataPlugins
       self.data['layout'] = layout
       self.data['title'] = title
       self.data['language'] = language
+      self.data['classes'] = 'language-' + language
       self.data.merge!(data)
       self.content = content
     end
