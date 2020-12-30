@@ -4,12 +4,13 @@
 	<message>The REG_AGG field for indicator 9-b-1, translated into all languages</message>
 	<data>
 		<languages>
+			<language lang="ar"/>
+			<language lang="ars"/>
 			<language lang="es"/>
 			<language lang="fr"/>
-			<language lang="fr_CA"/>
 			<language lang="ru"/>
 			<language lang="en">&lt;h2&gt;Regional aggregates:&lt;/h2&gt;
-&lt;p&gt;Regional, global aggregation of direct summation of country values within the country groups.&lt;/p&gt;
+&lt;p&gt;Regional and global aggregates are calculated as a weighted average of countries&amp;#x2019; MHT shares in a group. Weights are taken based on the MVA share in a group (UNIDO MVA Database).&lt;/p&gt;
 			</language>
 </languages>
 </data>
