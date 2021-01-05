@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<status>success</status>
+	<message>The IMPUTATION field for indicator 2-2-1, translated into all languages</message>
+	<data>
+		<languages>
+			<language lang="ar"/>
+			<language lang="ars"/>
+			<language lang="es"/>
+			<language lang="fr">&lt;h2&gt;Traitement des valeurs manquantes : &lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;em&gt;Au niveau national : &lt;/em&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Aucune méthode d&apos;imputation n&apos;est appliquée pour obtenir des estimations pour les pays ou les années où aucune donnée n&apos;est disponible.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;em&gt;Au niveau régional et mondial : &lt;/em&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Les pays et les années sont traités comme manquants de manière aléatoire selon une approche de modélisation à plusieurs niveaux (&lt;em&gt;International Journal of Epidemiology &lt;/em&gt; 2004;33:1260-70). &lt;/p&gt;
+			</language>
+			<language lang="ru"/>
+			<language lang="en">&lt;h2&gt;Treatment of missing values:&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;em&gt;At country level:&lt;/em&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;No imputation methodology is applied to derive estimates for countries or years where no data is avaialble.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;em&gt;At regional and global levels:&lt;/em&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Countries and years are treated as missing randomly following a multilevel modeling approach (International Journal of Epidemiology 2004;33:1260-70).&lt;/p&gt;
+			</language>
+</languages>
+</data>
+</root>
