@@ -43,7 +43,7 @@ module.exports = function() {
 
         const lastCommit = await repo.revparse('HEAD')
         if (!fs.existsSync(tempRepoPath)) {
-            await repo.clone('https://github.com/brockfanning/sdg-metadata', tempRepoPath)
+            await repo.clone('https://github.com/worldbank/sdg-metadata', tempRepoPath)
         }
         const tempRepo = simpleGit(tempRepoPath)
         const history = {}
