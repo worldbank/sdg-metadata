@@ -1,0 +1,869 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.21.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>Indicator: 4.1.1a - SDG Metadata Translation Pilot</title>
+<meta name="description" content="Evaluating Machine Translation of Indicator Metadata for the Sustainable Development Goals">
+
+
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="SDG Metadata Translation Pilot">
+<meta property="og:title" content="Indicator: 4.1.1a">
+<meta property="og:url" content="/sdg-metadata/pilot/metadata/en/4-1-1a/">
+
+
+  <meta property="og:description" content="Evaluating Machine Translation of Indicator Metadata for the Sustainable Development Goals">
+
+
+
+
+
+
+
+
+
+
+
+
+<link rel="canonical" href="/sdg-metadata/pilot/metadata/en/4-1-1a/">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": null,
+      "url": "/sdg-metadata/pilot/"
+    
+  }
+</script>
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+<link href="/sdg-metadata/pilot/feed.xml" type="application/atom+xml" rel="alternate" title="SDG Metadata Translation Pilot Feed">
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/sdg-metadata/pilot/assets/css/main.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css">
+
+<!--[if IE]>
+  <style>
+    /* old IE unsupported flexbox fixes */
+    .greedy-nav .site-title {
+      padding-right: 3em;
+    }
+    .greedy-nav button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+    }
+  </style>
+<![endif]-->
+
+
+
+    <!-- Favicons -->
+<link rel="shortcut icon" type="image/ico" href="/sdg-metadata/pilot/assets/img/favicons/favicon.ico">
+<link rel="icon" type="image/png" href="/sdg-metadata/pilot/assets/img/favicons/favicon.png">
+<!-- Mathjax -->
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  </head>
+
+  <body class="layout--indicator">
+    <nav class="skip-links">
+  <h2 class="screen-reader-text">Skip links</h2>
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+
+  <div class="test-banner">
+  This is an archive of the pilot study. For current project materials, see the
+  <a href="/sdg-metadata/">latest version</a>.
+</div>
+
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+        <a class="site-title" href="/sdg-metadata/pilot/">
+          SDG Metadata Translation Pilot
+          <span class="site-subtitle">Evaluating Machine Translation of Indicator Metadata for the Sustainable Development Goals</span>
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/sdg-metadata/pilot/documentation">Documentation</a>
+            </li><li class="masthead__menu-item">
+              <a href="/sdg-metadata/pilot/metadata">Metadata</a>
+            </li><li class="masthead__menu-item">
+              <a href="/sdg-metadata/pilot/developers">Developers</a>
+            </li></ul>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+  
+    
+      
+      <h3>Fields</h3>
+      <p><a href="#META_PAGE">META_PAGE</a><br /><a href="#META_LAST_UPDATE">META_LAST_UPDATE</a><br /><a href="#LANGUAGE">LANGUAGE</a><br /><a href="#TRANS_SOURCE">TRANS_SOURCE</a><br /><a href="#SDG_GOAL">SDG_GOAL</a><br /><a href="#SDG_TARGET">SDG_TARGET</a><br /><a href="#SDG_INDICATOR">SDG_INDICATOR</a><br /><a href="#SIBLING_METADATA_FILE">SIBLING_METADATA_FILE</a><br /><a href="#SDG_CUSTODIAN_AGENCIES">SDG_CUSTODIAN_AGENCIES</a><br /><a href="#STAT_CONC_DEF">STAT_CONC_DEF</a><br /><a href="#RATIONALE">RATIONALE</a><br /><a href="#CLASS_SYSTEM">CLASS_SYSTEM</a><br /><a href="#REC_USE_LIM">REC_USE_LIM</a><br /><a href="#DATA_COMP">DATA_COMP</a><br /><a href="#DISAGGREGATION">DISAGGREGATION</a><br /><a href="#IMPUTATION">IMPUTATION</a><br /><a href="#REG_AGG">REG_AGG</a><br /><a href="#ADJUSTMENT">ADJUSTMENT</a><br /><a href="#DOC_METHOD">DOC_METHOD</a><br /><a href="#QUALITY_ASSURE">QUALITY_ASSURE</a><br /><a href="#SOURCE_TYPE">SOURCE_TYPE</a><br /><a href="#COLL_METHOD">COLL_METHOD</a><br /><a href="#DATA_AVAILABILITY">DATA_AVAILABILITY</a><br /><a href="#SDG_SERIES_DESCR">SDG_SERIES_DESCR</a><br /><a href="#FREQ_COLL">FREQ_COLL</a><br /><a href="#REL_CAL_POLICY">REL_CAL_POLICY</a><br /><a href="#DATA_SOURCE">DATA_SOURCE</a><br /><a href="#COMPILING_ORG">COMPILING_ORG</a><br /><a href="#REFERENCES">REFERENCES</a><br /><a href="#SDG_RELATED_INDICATORS">SDG_RELATED_INDICATORS</a></p>
+
+      
+    
+    
+  
+  </div>
+
+
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Indicator: 4.1.1a">
+    
+    
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title" class="page__title" itemprop="headline">Indicator: 4.1.1a
+</h1>
+          
+
+
+        </header>
+      
+
+      <section class="page__content" itemprop="text">
+        
+        <p><a name="META_PAGE"></a></p>
+
+<p>4.1.1A</p>
+
+<p><a name="META_LAST_UPDATE"></a></p>
+
+<p>Last updated: October 2018</p>
+
+<p><a name="LANGUAGE"></a></p>
+
+<p>ENG</p>
+
+<p><a name="TRANS_SOURCE"></a></p>
+
+<p>NA</p>
+
+<p><a name="SDG_GOAL"></a></p>
+
+<p>Goal 4: Ensure inclusive and equitable quality education and promote lifelong learning opportunities for all</p>
+
+<p><a name="SDG_TARGET"></a></p>
+
+<p>Target 4.1: By 2030, ensure that all girls and boys complete free, equitable and quality primary and secondary education leading to relevant and effective learning outcomes</p>
+
+<p><a name="SDG_INDICATOR"></a></p>
+
+<p>Indicator 4.1.1: Proportion of children and young people: (a) in grades 2/3; (b) at the end of primary; and (c) at the end of lower secondary achieving at least a minimum proficiency level in (i) reading and (ii) mathematics, by sex</p>
+
+<p><a name="SIBLING_METADATA_FILE"></a></p>
+
+<p>This metadata covers part (a) of indicator 4.1.1: proportion of children and young people <strong>in grades 2/3</strong> achieving at least a minimum proficiency level in (i) reading and (ii) mathematics, by sex.</p>
+
+<p><a name="SDG_CUSTODIAN_AGENCIES"></a></p>
+
+<h1 id="institutional-information">Institutional information</h1>
+
+<h2 id="organizations">Organization(s)</h2>
+<p>UNESCO Institute of Statistics (UIS)</p>
+
+<p><a name="STAT_CONC_DEF"></a></p>
+
+<h1 id="concepts-and-definitons">Concepts and definitons</h1>
+
+<h2 id="definition">Definition</h2>
+<p>Proportion of children and young people in grades 2/3 achieving at least a minimum proficiency level in (i) reading and (ii) mathematics, by sex.</p>
+
+<p><a name="RATIONALE"></a></p>
+
+<h2 id="rationale">Rationale</h2>
+<p>The higher the figure the higher the proportion of children and/or young people reaching at least minimum proficiency in the respective domain (reading or mathematic) with the limitations indicated under the “Comments and limitations” section.</p>
+
+<p><a name="CLASS_SYSTEM"></a></p>
+
+<h2 id="concepts">Concepts</h2>
+<p><em>Minimum proficiency level</em> is the benchmark of basic knowledge in a domain (mathematics, reading, etc.) measured through learning assessments. Until August 2018, there was no globally agreed definition on minimum proficiency level. As an interim reporting strategy, the UIS has been reporting according to the minimum proficiency level defined by each assessment.</p>
+
+<p><em>Minimum proficiency levels defined by each learning assessment</em> 
+The table below shows the minimum proficiency levels for each learning assessment by target grade/age and domain. Due to heterogeneity of performance levels set by national and cross-national assessments, these performance levels will be mapped to the globally-defined minimum performance levels and policy descriptors, agreed upon in September 2018 (see 4.1.1. UIS request for reclassification 2018.09.28.docx) that will allow pedagogical linking. Once the performance levels are mapped, the global education community will be able to identify for each country the proportion or percentage of children who achieved at least minimum proficiency levels.</p>
+
+<h3 id="table-1-minimum-proficiency-levels-defined-by-each-learning-assessment">Table 1. Minimum proficiency levels defined by each learning assessment</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>
+        Name
+      </th>
+      <th>
+        Target grade/age
+      </th>
+      <th>
+        Domain
+      </th>
+      <th>
+        Minimum Proficiency Level (MPL)
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td rowspan="2">
+        <strong>LLECE</strong>
+      </td>
+      <td rowspan="2">
+        Grade 3
+      </td>
+      <td>
+        Reading
+      </td>
+      <td>
+        Level 2
+      </td>
+    </tr>
+    <tr>
+      <td>
+        Math
+      </td>
+      <td>
+        Level 2
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2">
+        <strong>PASEC</strong>
+      </td>
+      <td rowspan="2">
+        Grade 2
+      </td>
+      <td>
+        Reading
+      </td>
+      <td>
+        Level 3
+      </td>
+    </tr>
+    <tr>
+      <td>
+        Math
+      </td>
+      <td>
+        Level 2
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <strong>TIMSS</strong>
+      </td>
+      <td>
+        Grade 4
+      </td>
+      <td>
+        Math
+      </td>
+      <td>
+        Low International Benchmark
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <strong>PIRLS</strong>
+      </td>
+      <td>
+        Grade 4
+      </td>
+      <td>
+        Reading
+      </td>
+      <td>
+        Low International Benchmark
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2">
+        <strong>MICS6</strong>
+      </td>
+      <td rowspan="2">
+        Grade 2/3
+      </td>
+      <td>
+        Reading
+      </td>
+      <td>
+        Foundational reading skills
+      </td>
+    </tr>
+    <tr>
+      <td>
+        Math
+      </td>
+      <td>
+        Foundational numeracy skills
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <strong>EGRA</strong>
+      </td>
+      <td>
+        Grade 2/3
+      </td>
+      <td>
+        Reading
+      </td>
+      <td>
+        Number of correct words per minute (cwpm) above a given threshold (typically 45 cwpm) defined by each country
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <strong>EGMA</strong>
+      </td>
+      <td>
+        Grade 2/3
+      </td>
+      <td>
+        Math
+      </td>
+      <td>
+        Percentage of correct answers for addition and subtraction above a given threshold (typically 80% of correct answers) defined by each country
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2">
+        <strong>PAL Network</strong>
+      </td>
+      <td rowspan="2">
+        Grade 3
+      </td>
+      <td>
+        Reading
+      </td>
+      <td>
+        Can read one or more texts as defined by each country
+      </td>
+    </tr>
+    <tr>
+      <td>
+        Math
+      </td>
+      <td>
+        Can do one or more arithmetic problems as defined by each country
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2">
+        <strong>National assessment</strong>
+      </td>
+      <td rowspan="2">
+        Grade 2/3, end of primary or end of secondary
+      </td>
+      <td>
+        Reading
+      </td>
+      <td>
+        As defined by each national assessment
+      </td>
+    </tr>
+    <tr>
+      <td>
+        Math
+      </td>
+      <td>
+        As defined by each national assessment
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<p><a name="REC_USE_LIM"></a></p>
+
+<h2 id="comments-and-limitations">Comments and limitations</h2>
+<p>Learning outcomes from national school- or household-based learning assessments are not automatically comparable across countries unless they are linked by design. Learning outcomes from cross-national learning assessment are automatically comparable for countries which participated in the same cross-national learning assessments, but they are not comparable across different cross-national learning assessments without further analytical effort.</p>
+
+<p>Comparability over time is possible if the assessment is designed with an adequate linking process between waves of administration.  This is described in the note “4.1.1. UIS request for reclassification 20181001.docx.”</p>
+
+<p><a name="DATA_COMP"></a></p>
+
+<h1 id="methodology">Methodology</h1>
+
+<h2 id="computation-method">Computation method</h2>
+<p>The number of children and/or young people at the relevant stage of education \(n\) in year \(t\) achieving at least the pre-defined proficiency level in subject \(s\) expressed as a percentage of the number of children and/or young people at stage of education \(n\), in year \(t\), in any proficiency level in subject \(s\).</p>
+
+<p>\[MPL_{t,n,s} = {MP_{t,n,s} / P_{t,n}}\]</p>
+
+<p>where:</p>
+
+<p>\(MPL_{t,n,s}\) = the number of children and young people at stage of education \(n\), in year \(t\), who have achieved at least the minimum proficiency level in subject \(s\).</p>
+
+<p>\(P_{t,n}\) = the number of children and young people at stage of education \(n\), in year \(t\), in any proficiency level in subject \(s\).</p>
+
+<p>\(n\) = the stage of education that was assessed</p>
+
+<p>\(s\) = the subject that was assessed (reading or mathematics).</p>
+
+<p><a name="DISAGGREGATION"></a></p>
+
+<h2 id="disaggregation">Disaggregation</h2>
+<p>Indicator 4.1.1.a must be disaggregated by domain (reading and mathematics) and sex.</p>
+
+<p><a name="IMPUTATION"></a></p>
+
+<h2 id="treatment-of-missing-values">Treatment of missing values</h2>
+<ul>
+  <li>At the country level: Missing values are not imputed.</li>
+  <li>At the regional and global levels: Missing values are not imputed.</li>
+</ul>
+
+<p><a name="REG_AGG"></a></p>
+
+<h2 id="regional-aggregates">Regional aggregates</h2>
+<p>Not yet applicable. Data are reported at the national level only.</p>
+
+<p><a name="ADJUSTMENT"></a></p>
+
+<h2 id="sources-of-discrepancies">Sources of discrepancies</h2>
+<p>Not yet applicable. Data are reported at the national level only.</p>
+
+<p><a name="DOC_METHOD"></a></p>
+
+<h2 id="methods-and-guidance-available-to-countries-for-the-compilation-of-the-data-at-the-national-level">Methods and guidance available to countries for the compilation of the data at the national level</h2>
+<ul>
+  <li>Information not available.</li>
+</ul>
+
+<p><a name="QUALITY_ASSURE"></a></p>
+
+<h2 id="quality-assurance">Quality assurance</h2>
+<ul>
+  <li>Information not available.</li>
+</ul>
+
+<p><a name="SOURCE_TYPE"></a></p>
+
+<h1 id="data-sources">Data sources</h1>
+
+<h2 id="description">Description</h2>
+<p>Type of data sources: In school and population-based learning assessments.</p>
+
+<h3 id="table-2-how-interim-reporting-is-structured">Table 2. How interim reporting is structured?</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th rowspan="2">
+        &nbsp;
+      </th>
+      <th colspan="2">
+        In-school based
+      </th>
+      <th rowspan="2">
+        Household Based Surveys
+      </th>
+      <th rowspan="2">
+        Grade
+      </th>
+    </tr>
+    <tr>
+      <th>
+        Cross-national
+      </th>
+      <th>
+        National
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td rowspan="5">
+        <strong>2/3 Grade</strong>
+      </td>
+      <td>
+        LLECE
+      </td>
+      <td rowspan="5">
+        Yes
+      </td>
+      <td>
+        MICS6
+      </td>
+      <td rowspan="5">
+        2/3 plus one year when primary lasts more than 4 years according to ISCED level of the country
+      </td>
+    </tr>
+    <tr>
+      <td>
+        PASEC
+      </td>
+      <td>
+        &nbsp;
+      </td>
+    </tr>
+    <tr>
+      <td>
+        TIMSS&nbsp;
+      </td>
+      <td>
+        PAL network
+      </td>
+    </tr>
+    <tr>
+      <td>
+        PIRLS&nbsp;
+      </td>
+      <td>
+        &nbsp;
+      </td>
+    </tr>
+    <tr>
+      <td>
+        EGRA/EGMA
+      </td>
+      <td>
+        &nbsp;
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <strong>Definition of minimum level until 2018 release</strong>
+      </td>
+      <td colspan="4">
+        The ones defined by each assessment by point of measurement and domain
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <strong>Definition of minimum level from 2019&nbsp;</strong>
+      </td>
+      <td colspan="4">
+        According to alignment as adopted by GAML and TCG in September of 2018
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <strong>Validation&nbsp;</strong>
+      </td>
+      <td colspan="4">
+        Sent from UIS for countries' approval
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Notes: TIMSS/PIRLS Grade 4: these results are allocated to the end of primary when, according to the ISCED levels in a given country, there are 4 grades in primary. When primary has more than 4 grades, they are allocated to grade 2/3. (Source: UIS)</p>
+
+<p><a name="COLL_METHOD"></a></p>
+
+<h2 id="collection-process">Collection process</h2>
+<p>Information not available.</p>
+
+<p><a name="DATA_AVAILABILITY"></a></p>
+
+<h1 id="data-availability">Data availability</h1>
+
+<h2 id="description-1">Description</h2>
+<h3 id="figure-1-availability-of-data-for-indicator-411-a-by-grade">Figure 1. Availability of data for indicator 4.1.1 (a), by grade</h3>
+
+<p><img src="images/DATA_AVAILABILITY1.png" alt="Figure 1. Availability of data for indicator 4.1.1 (a), by grade" /></p>
+
+<p>Key:</p>
+<ul>
+  <li>Orange = grade 2,3, and 4</li>
+  <li>Red = grade 2/3</li>
+  <li>Blue = grade 4</li>
+</ul>
+
+<table>
+  <thead>
+    <tr>
+      <th rowspan="2">
+        Regions
+      </th>
+      <th>
+        Number of countries
+      </th>
+    </tr>
+    <tr>
+      <th>
+        with available data
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        Africa (Northern)
+      </td>
+      <td>
+        4
+      </td>
+    </tr>
+    <tr>
+      <td>
+        Africa (Sub-Saharan)
+      </td>
+      <td>
+        19
+      </td>
+    </tr>
+    <tr>
+      <td>
+        Asia (Central and Southern)
+      </td>
+      <td>
+        3
+      </td>
+    </tr>
+    <tr>
+      <td>
+        Asia (Eastern and South-eastern)
+      </td>
+      <td>
+        12
+      </td>
+    </tr>
+    <tr>
+      <td>
+        Asia (Western)
+      </td>
+      <td>
+        11
+      </td>
+    </tr>
+    <tr>
+      <td>
+        Europe
+      </td>
+      <td>
+        21
+      </td>
+    </tr>
+    <tr>
+      <td>
+        Latin America and the Caribbean
+      </td>
+      <td>
+        25
+      </td>
+    </tr>
+    <tr>
+      <td>
+        Northern America
+      </td>
+      <td>
+        2
+      </td>
+    </tr>
+    <tr>
+      <td>
+        Oceania
+      </td>
+      <td>
+        3
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <strong>World</strong>
+      </td>
+      <td>
+        <strong>100</strong>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="figure-2-population-coverage-in-countries-where-data-for-the-indicator-are-available">Figure 2. Population coverage in countries where data for the indicator are available</h3>
+
+<p><img src="images/DATA_AVAILABILITY2.png" alt="Figure 2. Population coverage in countries where data for the indicator are available" /></p>
+
+<p>Key: Population 
+0 – 127M</p>
+
+<p>Note: In terms of population, countries for which results for the SDG 4.1.1 (a) are available for grades 2, 3, or 4 represent the 76% of the school age population at primary education. If only learning assessments for grades 2 and 3 are considered, that coverage is 39%.</p>
+
+<p><a name="SDG_SERIES_DESCR"></a></p>
+
+<h2 id="time-series">Time series</h2>
+<p>Data available since 2000. The indicator will be reported annually.</p>
+
+<p><a name="FREQ_COLL"></a></p>
+
+<h1 id="calendar">Calendar</h1>
+
+<h2 id="data-collection">Data collection</h2>
+<p>Data collection is ongoing.</p>
+
+<p><a name="REL_CAL_POLICY"></a></p>
+
+<h2 id="data-release">Data release</h2>
+<p>September 2018; February 2019</p>
+
+<p><a name="DATA_SOURCE"></a></p>
+
+<h1 id="data-providers">Data providers</h1>
+<h2 id="school-based">School Based</h2>
+<ul>
+  <li><em>International Large Scale Assessments</em> are reported to the UIS by cross-national organisations (LLECE, PASEC, TIMSS, and PIRLS). Typically, Cross National Large Scale Assessment, either regional or international, define various performance levels, and report as well the mean and standard deviation. They choose as well one level as the cut-off point that defines what children/youth are below or above level.</li>
+  <li><em>National Large-Scale Assessments</em> either sample- or census- based. Countries should report the proportion of students by level of competency for each domain indicating as well the minimum proficiency level, when it is defined by the national assessment. EGRA and EGMA as reported by USAID or individual countries.</li>
+</ul>
+
+<h2 id="household-survey--based">Household Survey- Based</h2>
+<ul>
+  <li>MICS6: reported to the UIS by UNICEF</li>
+  <li>Pal network: reported to the UIS by Pal network</li>
+</ul>
+
+<p><a name="COMPILING_ORG"></a></p>
+
+<h1 id="data-compilers">Data compilers</h1>
+<p>UNESCO Institute of Statistics (UIS)</p>
+
+<p><a name="REFERENCES"></a></p>
+
+<h1 id="references">References</h1>
+<p>UIS (2018). Quick Guide to Education Indicators for SDG 4.
+http://uis.unesco.org/sites/default/files/documents/quick-guide-education-indicators-sdg4-2018-en.pdf</p>
+
+<p>UIS (2017). Proposal of a Protocol for reporting Indicator 4.1.1.
+http://uis.unesco.org/sites/default/files/documents/gaml4-sdg4-reporting-proposal-protocol-reporting-indicator4.1.1.pdf</p>
+
+<p>UIS (2018). Request for reclassification of SDG indicator 4.1.1.a.</p>
+
+<p><a name="SDG_RELATED_INDICATORS"></a></p>
+
+<h1 id="related-indicators">Related indicators</h1>
+<p>The parity indices for this indicator are reported in SDG indicator 4.5.1.</p>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+        
+
+      </footer>
+
+      
+
+      
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+    </div>
+
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Follow:</strong></li>
+    
+
+    
+      
+        
+          <li><a href="https://github.com/OpenDataEnterprise/sdg-metadata" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+        
+      
+    
+
+    <li><a href="/sdg-metadata/pilot/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2021 SDG Metadata Translation Pilot. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/sdg-metadata/pilot/assets/js/main.min.js"></script>
+
+
+
+
+
+
+
+
+
+
+  </body>
+</html>

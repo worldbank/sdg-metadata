@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<status>success</status>
+	<message>The DATA_COMP field for indicator 16-5-2, translated into all languages</message>
+	<data>
+		<languages>
+			<language lang="ru"># Методология
+
+## Метод расчета
+
+Показатель рассчитывается для каждой страны с учетом доли фирм, ответивших «да» на вопрос обследования. Для всех проектов обследования предприятий, проводимых с 2006 года, полученный набор данных имеет вес выборки. Следовательно, значение индикатора, которое рассчитывается с использованием Stata, включает в себя как вес выборки, так и страты выборки.
+			</language>
+			<language lang="en"># Methodology
+
+## Computation Method
+
+The indicator is calculated for each country, by looking at the proportion of firms which answered ‘yes’ to the survey question. For all Enterprise Survey projects conducted since 2006, the resulting dataset has sampling weights. Hence the indicator value, which is computed using Stata, incorporates these sampling weights as well as the design strata.
+			</language>
+</languages>
+</data>
+</root>

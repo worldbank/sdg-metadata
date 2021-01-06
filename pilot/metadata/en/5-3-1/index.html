@@ -1,0 +1,412 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.21.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>Indicator: 5.3.1 - SDG Metadata Translation Pilot</title>
+<meta name="description" content="Evaluating Machine Translation of Indicator Metadata for the Sustainable Development Goals">
+
+
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="SDG Metadata Translation Pilot">
+<meta property="og:title" content="Indicator: 5.3.1">
+<meta property="og:url" content="/sdg-metadata/pilot/metadata/en/5-3-1/">
+
+
+  <meta property="og:description" content="Evaluating Machine Translation of Indicator Metadata for the Sustainable Development Goals">
+
+
+
+
+
+
+
+
+
+
+
+
+<link rel="canonical" href="/sdg-metadata/pilot/metadata/en/5-3-1/">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": null,
+      "url": "/sdg-metadata/pilot/"
+    
+  }
+</script>
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+<link href="/sdg-metadata/pilot/feed.xml" type="application/atom+xml" rel="alternate" title="SDG Metadata Translation Pilot Feed">
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/sdg-metadata/pilot/assets/css/main.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css">
+
+<!--[if IE]>
+  <style>
+    /* old IE unsupported flexbox fixes */
+    .greedy-nav .site-title {
+      padding-right: 3em;
+    }
+    .greedy-nav button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+    }
+  </style>
+<![endif]-->
+
+
+
+    <!-- Favicons -->
+<link rel="shortcut icon" type="image/ico" href="/sdg-metadata/pilot/assets/img/favicons/favicon.ico">
+<link rel="icon" type="image/png" href="/sdg-metadata/pilot/assets/img/favicons/favicon.png">
+<!-- Mathjax -->
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  </head>
+
+  <body class="layout--indicator">
+    <nav class="skip-links">
+  <h2 class="screen-reader-text">Skip links</h2>
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+
+  <div class="test-banner">
+  This is an archive of the pilot study. For current project materials, see the
+  <a href="/sdg-metadata/">latest version</a>.
+</div>
+
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+        <a class="site-title" href="/sdg-metadata/pilot/">
+          SDG Metadata Translation Pilot
+          <span class="site-subtitle">Evaluating Machine Translation of Indicator Metadata for the Sustainable Development Goals</span>
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/sdg-metadata/pilot/documentation">Documentation</a>
+            </li><li class="masthead__menu-item">
+              <a href="/sdg-metadata/pilot/metadata">Metadata</a>
+            </li><li class="masthead__menu-item">
+              <a href="/sdg-metadata/pilot/developers">Developers</a>
+            </li></ul>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+  
+    
+      
+      <h3>Fields</h3>
+      <p><a href="#META_PAGE">META_PAGE</a><br /><a href="#META_LAST_UPDATE">META_LAST_UPDATE</a><br /><a href="#LANGUAGE">LANGUAGE</a><br /><a href="#TRANS_SOURCE">TRANS_SOURCE</a><br /><a href="#SDG_GOAL">SDG_GOAL</a><br /><a href="#SDG_TARGET">SDG_TARGET</a><br /><a href="#SDG_INDICATOR">SDG_INDICATOR</a><br /><a href="#SDG_CUSTODIAN_AGENCIES">SDG_CUSTODIAN_AGENCIES</a><br /><a href="#STAT_CONC_DEF">STAT_CONC_DEF</a><br /><a href="#RATIONALE">RATIONALE</a><br /><a href="#CLASS_SYSTEM">CLASS_SYSTEM</a><br /><a href="#REC_USE_LIM">REC_USE_LIM</a><br /><a href="#DATA_COMP">DATA_COMP</a><br /><a href="#DISAGGREGATION">DISAGGREGATION</a><br /><a href="#IMPUTATION">IMPUTATION</a><br /><a href="#REG_AGG">REG_AGG</a><br /><a href="#ADJUSTMENT">ADJUSTMENT</a><br /><a href="#DOC_METHOD">DOC_METHOD</a><br /><a href="#QUALITY_ASSURE">QUALITY_ASSURE</a><br /><a href="#SOURCE_TYPE">SOURCE_TYPE</a><br /><a href="#COLL_METHOD">COLL_METHOD</a><br /><a href="#DATA_AVAILABILITY">DATA_AVAILABILITY</a><br /><a href="#FREQ_COLL">FREQ_COLL</a><br /><a href="#REL_CAL_POLICY">REL_CAL_POLICY</a><br /><a href="#DATA_SOURCE">DATA_SOURCE</a><br /><a href="#COMPILING_ORG">COMPILING_ORG</a><br /><a href="#CONTACT_ORGANISATION">CONTACT_ORGANISATION</a><br /><a href="#REFERENCES">REFERENCES</a></p>
+
+      
+    
+    
+  
+  </div>
+
+
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Indicator: 5.3.1">
+    
+    
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title" class="page__title" itemprop="headline">Indicator: 5.3.1
+</h1>
+          
+
+
+        </header>
+      
+
+      <section class="page__content" itemprop="text">
+        
+        <p><a name="META_PAGE"></a></p>
+
+<p>5.3.1</p>
+
+<p><a name="META_LAST_UPDATE"></a></p>
+
+<p>Last updated: 19 March, 2019</p>
+
+<p><a name="LANGUAGE"></a></p>
+
+<p>ENG</p>
+
+<p><a name="TRANS_SOURCE"></a></p>
+
+<p>NA</p>
+
+<p><a name="SDG_GOAL"></a></p>
+
+<p>Goal 5: Achieve gender equality and empower all women and girls</p>
+
+<p><a name="SDG_TARGET"></a></p>
+
+<p>Target 5.3: Eliminate all harmful practices, such as child, early and forced marriage and female genital mutilation</p>
+
+<p><a name="SDG_INDICATOR"></a></p>
+
+<p>Indicator 5.3.1: Proportion of women aged 20-24 years who were married or in a union before age 15 and before age 18</p>
+
+<p><a name="SDG_CUSTODIAN_AGENCIES"></a></p>
+
+<h1 id="institutional-information">Institutional information</h1>
+<h2 id="organizations">Organization(s)</h2>
+<p>United Nations Children’s Fund (UNICEF)</p>
+
+<p><a name="STAT_CONC_DEF"></a></p>
+
+<h1 id="concepts-and-definitions">Concepts and definitions</h1>
+<h2 id="definition">Definition</h2>
+<p>Proportion of women aged 20-24 years who were married or in a union before age 15 and before age 18</p>
+
+<p><a name="RATIONALE"></a></p>
+
+<h2 id="rationale">Rationale</h2>
+<p>Marriage before the age of 18 is a fundamental violation of human rights. Child marriage often compromises a girl’s development by resulting in early pregnancy and social isolation, interrupting her schooling, limiting her opportunities for career and vocational advancement and placing her at increased risk of intimate partner violence. In many cultures, girls reaching puberty are expected to assume gender roles associated with womanhood. These include entering a union and becoming a mother.</p>
+
+<p>The practice of early/child marriage is a direct manifestation of gender inequality.</p>
+
+<p>The issue of child marriage is addressed in a number of international conventions and agreements. Although marriage is not mentioned directly in the Convention on the Rights of the Child, child marriage is linked to other rights – such as the right to freedom of expression, the right to protection from all forms of abuse, and the right to be protected from harmful traditional practices.</p>
+
+<p><a name="CLASS_SYSTEM"></a></p>
+
+<h2 id="concepts">Concepts</h2>
+<p>Both formal (i.e., marriages) and informal unions are covered under this indicator. Informal unions are generally defined as those in which a couple lives together for some time, intends to have a lasting relationship, but for which there has been no formal civil or religious ceremony (i.e., cohabitation).</p>
+
+<p><a name="REC_USE_LIM"></a></p>
+
+<h2 id="comments-and-limitations">Comments and limitations</h2>
+<p>There are existing tools and mechanisms for data collection that countries have implemented to monitor the situation with regards to this indicator. The modules used to collect information on marital status among women and men of reproductive age (15-49 years) in the DHS and MICS have been fully harmonized.</p>
+
+<p><a name="DATA_COMP"></a></p>
+
+<h1 id="methodology">Methodology</h1>
+<h2 id="computation-method">Computation method</h2>
+<p>Number of women aged 20-24 who were first married or in union before age 15 (or before age 18) divided by the total number of women aged 20-24 in the population multiplied by 100</p>
+
+<p><a name="DISAGGREGATION"></a></p>
+
+<h2 id="disaggregation">Disaggregation</h2>
+<p>Age, income, place of residence, geographic location, education, ethnicity (for some countries)</p>
+
+<p><a name="IMPUTATION"></a></p>
+
+<h2 id="treatment-of-missing-values">Treatment of missing values</h2>
+<ul>
+  <li>At country level: When data for a country are entirely missing, UNICEF does not publish any country-level estimate.</li>
+  <li>At regional and global levels: The regional average is applied to those countries within the region with missing values for the purposes of calculating regional aggregates only but are not published as country-level estimates.</li>
+</ul>
+
+<p><a name="REG_AGG"></a></p>
+
+<h2 id="regional-aggregates">Regional aggregates</h2>
+<p>Global aggregates are weighted averages of all the sub-regions that make up the world. Regional aggregates are weighted averages of all the countries within the region.</p>
+
+<p><a name="ADJUSTMENT"></a></p>
+
+<h2 id="sources-of-discrepancies">Sources of discrepancies</h2>
+<p>The estimates compiled and presented at global level come directly from nationally produced data and are not adjusted or recalculated.</p>
+
+<p><a name="DOC_METHOD"></a></p>
+
+<h2 id="methods-and-guidance-available-to-countries-for-the-compilation-of-the-data-at-the-national-level">Methods and guidance available to countries for the compilation of the data at the national level</h2>
+<p>Countries gather data on child marriage through household surveys such as UNICEF-supported MICS or Demographic and Health Surveys. In some countries, such data are also collected through other national household surveys.</p>
+
+<p><a name="QUALITY_ASSURE"></a></p>
+
+<h2 id="quality-assurance">Quality assurance</h2>
+<p>UNICEF maintains the global database on child marriage that is used for SDG and other official reporting. Before the inclusion of any data point in the database, it is reviewed by technical focal points at UNICEF headquarters to check for consistency and overall data quality. This review is based on a set of objective criteria to ensure that only the most recent and reliable information are included in the databases. These criteria include the following: data sources must include proper documentation; data values must be representative at the national population level; data are collected using an appropriate methodology (e.g., sampling); data values are based on a sufficiently large sample; data conform to the standard indicator definition including age group and concepts, to the extent possible; data are plausible based on trends and consistency with previously published/reported estimates for the indicator.</p>
+
+<p>As of 2018, UNICEF undertakes an annual consultation with government authorities on 10 of the child-related SDG indicators in its role of sole or joint custodian, and in line with its global monitoring mandate and normative commitments to advancing the 2030 Agenda for children. This includes indicator 5.3.1. More details on the process for the country consultation are outlined below.</p>
+
+<p><a name="SOURCE_TYPE"></a></p>
+
+<h1 id="data-sources">Data sources</h1>
+<h2 id="description">Description</h2>
+<p>Household surveys such as UNICEF-supported MICS and DHS have been collecting data on this indicator in low- and middle-income countries since around the late 1980s. In some countries, such data are also collected through national censuses or other national household surveys.</p>
+
+<p><a name="COLL_METHOD"></a></p>
+
+<h2 id="collection-process">Collection process</h2>
+<p>UNICEF undertakes a wide consultative process of compiling and assessing data from national sources for the purposes of updating its global databases on the situation of children. Up until 2017, the mechanism UNICEF used to collaborate with national authorities on ensuring data quality and international comparability on key indicators of relevance to children was known as Country Data Reporting on the Indicators for the Goals (CRING).</p>
+
+<p>As of 2018, UNICEF launched a new country consultation process with national authorities on selected child-related global SDG indicators it is custodian or co-custodian to meet emerging standards and guidelines on data flows for global reporting of SDG indicators, which place strong emphasis on technical rigour, country ownership and use of official data and statistics. The consultation process solicited feedback directly from National Statistical Offices, as well as other government agencies responsible for official statistics, on the compilation of the indicators, including the data sources used, and the application of internationally agreed definitions, classification and methodologies to the data from that source. Once reviewed, feedback is made available to countries on whether or not specific data points are accepted, and if not, the reasons why. More details on the consultation process can be found in the <a href="https://data.unicef.org/resources/resource-type/guidance/">guidance note</a>.</p>
+
+<p><a name="DATA_AVAILABILITY"></a></p>
+
+<h1 id="data-availability">Data availability</h1>
+<p>Comparable data on this indicator are currently available for 126 countries</p>
+
+<p><a name="FREQ_COLL"></a></p>
+
+<h1 id="calendar">Calendar</h1>
+<h2 id="data-collection">Data collection</h2>
+<p>UNICEF will undertake an annual country consultation likely between December and January every year to allow for review and processing of the feedback received in order to meet global SDG reporting deadlines.</p>
+
+<p><a name="REL_CAL_POLICY"></a></p>
+
+<h2 id="data-release">Data release</h2>
+<p>March 2019.</p>
+
+<p><a name="DATA_SOURCE"></a></p>
+
+<h1 id="data-providers">Data providers</h1>
+<p>National Statistical Offices (in most cases)</p>
+
+<p><a name="COMPILING_ORG"></a></p>
+
+<h1 id="data-compilers">Data compilers</h1>
+<p>UNICEF</p>
+
+<p><a name="CONTACT_ORGANISATION"></a></p>
+
+<h1 id="references">References</h1>
+<h2 id="url">URL</h2>
+<p>data.unicef.org</p>
+
+<p><a name="REFERENCES"></a></p>
+
+<h2 id="references-1">References</h2>
+<p><a href="https://data.unicef.org/topic/child-protection/child-marriage/">https://data.unicef.org/topic/child-protection/child-marriage/</a></p>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+        
+
+      </footer>
+
+      
+
+      
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+    </div>
+
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Follow:</strong></li>
+    
+
+    
+      
+        
+          <li><a href="https://github.com/OpenDataEnterprise/sdg-metadata" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+        
+      
+    
+
+    <li><a href="/sdg-metadata/pilot/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2021 SDG Metadata Translation Pilot. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/sdg-metadata/pilot/assets/js/main.min.js"></script>
+
+
+
+
+
+
+
+
+
+
+  </body>
+</html>

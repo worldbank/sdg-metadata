@@ -1,0 +1,462 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.21.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>Indicator: 16.5.2 - SDG Metadata Translation Pilot</title>
+<meta name="description" content="Evaluating Machine Translation of Indicator Metadata for the Sustainable Development Goals">
+
+
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="SDG Metadata Translation Pilot">
+<meta property="og:title" content="Indicator: 16.5.2">
+<meta property="og:url" content="/sdg-metadata/pilot/metadata/en/16-5-2/">
+
+
+  <meta property="og:description" content="Evaluating Machine Translation of Indicator Metadata for the Sustainable Development Goals">
+
+
+
+
+
+
+
+
+
+
+
+
+<link rel="canonical" href="/sdg-metadata/pilot/metadata/en/16-5-2/">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": null,
+      "url": "/sdg-metadata/pilot/"
+    
+  }
+</script>
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+<link href="/sdg-metadata/pilot/feed.xml" type="application/atom+xml" rel="alternate" title="SDG Metadata Translation Pilot Feed">
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/sdg-metadata/pilot/assets/css/main.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css">
+
+<!--[if IE]>
+  <style>
+    /* old IE unsupported flexbox fixes */
+    .greedy-nav .site-title {
+      padding-right: 3em;
+    }
+    .greedy-nav button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+    }
+  </style>
+<![endif]-->
+
+
+
+    <!-- Favicons -->
+<link rel="shortcut icon" type="image/ico" href="/sdg-metadata/pilot/assets/img/favicons/favicon.ico">
+<link rel="icon" type="image/png" href="/sdg-metadata/pilot/assets/img/favicons/favicon.png">
+<!-- Mathjax -->
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  </head>
+
+  <body class="layout--indicator">
+    <nav class="skip-links">
+  <h2 class="screen-reader-text">Skip links</h2>
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+
+  <div class="test-banner">
+  This is an archive of the pilot study. For current project materials, see the
+  <a href="/sdg-metadata/">latest version</a>.
+</div>
+
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+        <a class="site-title" href="/sdg-metadata/pilot/">
+          SDG Metadata Translation Pilot
+          <span class="site-subtitle">Evaluating Machine Translation of Indicator Metadata for the Sustainable Development Goals</span>
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/sdg-metadata/pilot/documentation">Documentation</a>
+            </li><li class="masthead__menu-item">
+              <a href="/sdg-metadata/pilot/metadata">Metadata</a>
+            </li><li class="masthead__menu-item">
+              <a href="/sdg-metadata/pilot/developers">Developers</a>
+            </li></ul>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+  
+    
+      
+      <h3>Fields</h3>
+      <p><a href="#META_PAGE">META_PAGE</a><br /><a href="#META_LAST_UPDATE">META_LAST_UPDATE</a><br /><a href="#LANGUAGE">LANGUAGE</a><br /><a href="#TRANS_SOURCE">TRANS_SOURCE</a><br /><a href="#SDG_GOAL">SDG_GOAL</a><br /><a href="#SDG_TARGET">SDG_TARGET</a><br /><a href="#SDG_INDICATOR">SDG_INDICATOR</a><br /><a href="#SDG_CUSTODIAN_AGENCIES">SDG_CUSTODIAN_AGENCIES</a><br /><a href="#STAT_CONC_DEF">STAT_CONC_DEF</a><br /><a href="#RATIONALE">RATIONALE</a><br /><a href="#CLASS_SYSTEM">CLASS_SYSTEM</a><br /><a href="#REC_USE_LIM">REC_USE_LIM</a><br /><a href="#DATA_COMP">DATA_COMP</a><br /><a href="#DISAGGREGATION">DISAGGREGATION</a><br /><a href="#IMPUTATION">IMPUTATION</a><br /><a href="#REG_AGG">REG_AGG</a><br /><a href="#ADJUSTMENT">ADJUSTMENT</a><br /><a href="#DOC_METHOD">DOC_METHOD</a><br /><a href="#QUALITY_ASSURE">QUALITY_ASSURE</a><br /><a href="#SOURCE_TYPE">SOURCE_TYPE</a><br /><a href="#COLL_METHOD">COLL_METHOD</a><br /><a href="#DATA_AVAILABILITY">DATA_AVAILABILITY</a><br /><a href="#FREQ_COLL">FREQ_COLL</a><br /><a href="#REL_CAL_POLICY">REL_CAL_POLICY</a><br /><a href="#DATA_SOURCE">DATA_SOURCE</a><br /><a href="#COMPILING_ORG">COMPILING_ORG</a><br /><a href="#CONTACT_ORGANISATION">CONTACT_ORGANISATION</a><br /><a href="#REFERENCES">REFERENCES</a></p>
+
+      
+    
+    
+  
+  </div>
+
+
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Indicator: 16.5.2">
+    
+    
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title" class="page__title" itemprop="headline">Indicator: 16.5.2
+</h1>
+          
+
+
+        </header>
+      
+
+      <section class="page__content" itemprop="text">
+        
+        <p><a name="META_PAGE"></a></p>
+
+<p>16.5.2</p>
+
+<p><a name="META_LAST_UPDATE"></a></p>
+
+<p>Last updated: 11 July 2017</p>
+
+<p><a name="LANGUAGE"></a></p>
+
+<p>ENG</p>
+
+<p><a name="TRANS_SOURCE"></a></p>
+
+<p>NA</p>
+
+<p><a name="SDG_GOAL"></a></p>
+
+<p>Goal 16: Promote peaceful and inclusive societies for sustainable development, provide access to justice for all and build effective, accountable and inclusive institutions at all levels</p>
+
+<p><a name="SDG_TARGET"></a></p>
+
+<p>Target 16.5: Substantially reduce corruption and bribery in all their forms</p>
+
+<p><a name="SDG_INDICATOR"></a></p>
+
+<p>Indicator 16.5.2: Proportion of businesses that had at least one contact with a public official and that paid a bribe to a public official, or were asked for a bribe by those public officials during the previous 12 months</p>
+
+<p><a name="SDG_CUSTODIAN_AGENCIES"></a></p>
+
+<h1 id="institutional-information">Institutional information</h1>
+
+<h2 id="organizations">Organization(s)</h2>
+
+<p>World Bank (WB)</p>
+
+<p><a name="STAT_CONC_DEF"></a></p>
+
+<h1 id="concepts-and-definitions">Concepts and definitions</h1>
+
+<h2 id="definition">Definition</h2>
+
+<p>Proportion of firms asked for a gift or informal payment when meeting with tax officials.</p>
+
+<p>In every Enterprise Survey (<a href="https://www.enterprisesurveys.org">https://www.enterprisesurveys.org</a>), there is a standard question which asks the survey respondent if they were inspected by or required to meet with tax officials. If the respondent indicates ‘yes’, then there is a follow-up question which asks if the respondent was expected to provide a gift or an informal payment during these inspections/meetings. The response options include “yes”, “no”, “don’t know”, and “refuse”.</p>
+
+<p>Enterprise Surveys are firm-level surveys conducted in World Bank client countries. The survey focuses on various aspects of the business environment as well as firm’s outcome measures such as annual sales, productivity, etc. The surveys are conducted via face-to-face interviews with the top manager or business owner. For each country, the survey is conducted approximately every 4-5 years.</p>
+
+<p><a name="RATIONALE"></a></p>
+
+<h2 id="rationale">Rationale</h2>
+
+<p>The rationale for this indicator is to ascertain whether firms are solicited for gifts or informal payments (i.e. bribes) when meeting with tax officials. Paying taxes are required of formal forms in most countries and hence the rational for this indicator is to measure the incidence of corruption during this routine interaction. The key strength of the Enterprise Survey is that most of the questions in the survey pertain to the actual, day-to-day experiences of the firm; this question regarding corruption during tax inspections/meetings is not an opinion-based question but rather a question grounded in the firm’s reality.</p>
+
+<p><a name="CLASS_SYSTEM"></a></p>
+
+<h2 id="concepts">Concepts</h2>
+
+<p>The respondents to the Enterprise Survey are firms- either manufacturing or services establishments. These are registered (formal) firms with 5+ employees. The firms are either fully or partially private (100% state-owned firms are ineligible for the Enterprise Survey). More information on the survey methodology can be found on the Methodology page of the website: <a href="https://www.enterprisesurveys.org/methodology">https://www.enterprisesurveys.org/methodology</a></p>
+
+<p>A gift or an informal payment is considered a ‘bribe’.</p>
+
+<p><a name="REC_USE_LIM"></a></p>
+
+<h2 id="comments-and-limitations">Comments and limitations</h2>
+
+<p>The key strength of the Enterprise Survey is that most of the questions in the survey pertain to the actual, day-to-day experiences of the firm; this question regarding corruption during tax inspections/meetings is not an opinion-based question but rather a question grounded in the firm’s reality.</p>
+
+<p>The limitations include that some countries’ data is almost 10 years old (e.g. South Africa and Brazil). This is due to the fact that these face-to-face survey projects can be expensive in some countries and hence due to budget limitations, the World Bank hasn’t been able to update some of the Enterprise Surveys data in a subset of countries. Another limitation is that the surveys are done mostly in World Bank client countries and hence most high-income countries are not covered by the surveys (US, Canada, Western European countries, Japan, GCC countries, etc.).</p>
+
+<p>Another limitation may be the sensitive nature of corruption. In some countries/cultures, firms may not be comfortable answering questions on corruption. Although the data is collected under the context of confidentiality, firms may refuse to answer the question if they have been subject to bribery solicitations. Hence, in some countries, the actual incidence of this particular type of corruption may be higher than the calculated indicator value.</p>
+
+<p><a name="DATA_COMP"></a></p>
+
+<h1 id="methodology">Methodology</h1>
+
+<h2 id="computation-method">Computation Method</h2>
+
+<p>The indicator is calculated for each country, by looking at the proportion of firms which answered ‘yes’ to the survey question. For all Enterprise Survey projects conducted since 2006, the resulting dataset has sampling weights. Hence the indicator value, which is computed using Stata, incorporates these sampling weights as well as the design strata.</p>
+
+<p><a name="DISAGGREGATION"></a></p>
+
+<h2 id="disaggregation">Disaggregation</h2>
+
+<p>The Enterprise Survey captures several descriptive characteristics of the respondent firms including: gender of top manager, primary business activity of the firm, subnational location of the firm, exporting status, number of employees, degree of foreign ownership, and several other characteristics. Hence the indicator can be disaggregated by the levels of these individual characteristics.</p>
+
+<p><a name="IMPUTATION"></a></p>
+
+<h2 id="treatment-of-missing-values">Treatment of missing values</h2>
+
+<ul>
+  <li>
+    <p><strong>At country level</strong></p>
+
+    <p>The indicator value is not imputed for countries which do not have an Enterprise Survey.</p>
+  </li>
+  <li>
+    <p><strong>At regional and global levels</strong></p>
+
+    <p>Regional and global aggregates of the indicator are derived from completed surveys. A single point estimate is created for each country and a global/regional aggregate takes a simple average of every country’s point estimate (when there is available data for that country). For example the East Asia Pacific average (point estimate) for the indicator does not include Japan since there is no Enterprise Survey for Japan.</p>
+  </li>
+</ul>
+
+<p><a name="REG_AGG"></a></p>
+
+<h2 id="regional-aggregates">Regional aggregates</h2>
+
+<p>Regional and global aggregates are computed by taking the simple average of the indicator value for all relevant countries. When producing regional and global aggregates as presented on the Enterprise Surveys website, note that only surveys posted during years 2010 onwards are used.</p>
+
+<p><a name="ADJUSTMENT"></a></p>
+
+<h2 id="sources-of-discrepancies">Sources of discrepancies</h2>
+
+<p>We are unaware of any country-produced data on this indicator</p>
+
+<p><a name="DOC_METHOD"></a></p>
+
+<h2 id="methods-and-guidance-available-to-countries-for-the-compilation-of-the-data-at-the-national-level">Methods and guidance available to countries for the compilation of the data at the national level</h2>
+
+<p>We recommend users consult the Enterprise Surveys website to learn about the overall survey methodology and learn which countries are available for benchmarking purposes.  <a href="https://www.enterprisesurveys.org/methodology">https://www.enterprisesurveys.org/methodology</a></p>
+
+<p><a name="QUALITY_ASSURE"></a></p>
+
+<h2 id="quality-assurance">Quality assurance</h2>
+
+<p>When conducting our survey projects, the implementing fieldwork team must send periodic batches of completed interviews to the World Bank so that we can run our own quality control programs on the data.  After running these programs, we provide the QC feedback to the implementing fieldwork team so that survey data, which has been flagged, can be verified and continuously improved.  This is how we continuously monitor the survey data while the projects are in the field.</p>
+
+<p>The World Bank collects this survey data for the public good of information.  For an individual survey project, once the data is collected and considered finalized (after our own internal QC processes), the survey data is published on the World Bank’s Enterprise Surveys website.</p>
+
+<p><a name="SOURCE_TYPE"></a></p>
+
+<h1 id="data-sources">Data sources</h1>
+
+<h2 id="description">Description</h2>
+
+<p>The website for Enterprise Surveys (<a href="https://www.enterprisesurveys.org">https://www.enterprisesurveys.org</a>) provides all metadata, including survey questionnaires and implementation reports for all Enterprise Surveys. The implementation reports indicate the sample size, sample frame used, dates/duration of fieldwork, the response rates, etc.</p>
+
+<p>Registration to the Enterprise Survey’s website is free and the website’s data portal allows users to access the raw data and survey documentation for each survey.</p>
+
+<p><a name="COLL_METHOD"></a></p>
+
+<h2 id="collection-process">Collection process</h2>
+
+<p>The World Bank conducts the Enterprise Surveys in client countries. The surveys are comparable as the survey methodology is applied in a consistent manner across countries: obtaining suitable sample frames, eligibility criteria for respondent firms, survey sample design, core questionnaire elements across every country, standardized QC checks on the received data, standardized computation of sampling weights, etc.</p>
+
+<p><a name="DATA_AVAILABILITY"></a></p>
+
+<h1 id="data-availability">Data availability</h1>
+
+<h2 id="description-1">Description</h2>
+
+<p>Data Availability 2010 to present (in terms of countries having at least 1 data point after 2010 for this indicator):
+Asia and Pacific: 28; Africa: 25; Latin America and Caribbean: 30; Europe, North America, Australia, New Zealand and Japan: 22.</p>
+
+<p><a name="FREQ_COLL"></a></p>
+
+<h1 id="calendar">Calendar</h1>
+
+<h2 id="data-collection">Data collection</h2>
+
+<p>The Surveys are ongoing. Information on current projects can be found at: <a href="https://www.enterprisesurveys.org/Methodology/Current-projects">https://www.enterprisesurveys.org/Methodology/Current-projects</a></p>
+
+<p><a name="REL_CAL_POLICY"></a></p>
+
+<h2 id="data-release">Data release</h2>
+
+<p>The indicators on the Enterprise Surveys website are updated whenever a new survey has been completed and uploaded to the website. For each country, only the most recently completed survey is used when calculating the indicator.</p>
+
+<p><a name="DATA_SOURCE"></a></p>
+
+<h1 id="data-providers">Data providers</h1>
+
+<p>The indicator is derived from Enterprise Surveys which are conducted by the World Bank. The World Bank usually hires a private contractor (typically a market research company) to conduct the survey fieldwork.</p>
+
+<p><a name="COMPILING_ORG"></a></p>
+
+<h1 id="data-compilers">Data compilers</h1>
+
+<h2 id="name">Name</h2>
+
+<p>World Bank</p>
+
+<p><a name="CONTACT_ORGANISATION"></a></p>
+
+<h1 id="references">References</h1>
+
+<h2 id="url">URL</h2>
+
+<p>www.worldbank.org</p>
+
+<p><a name="REFERENCES"></a></p>
+
+<h2 id="references-1">References</h2>
+
+<ul>
+  <li><a href="https://www.enterprisesurveys.org">https://www.enterprisesurveys.org</a></li>
+  <li><a href="https://www.enterprisesurveys.org/methodology">https://www.enterprisesurveys.org/methodology</a></li>
+  <li><a href="https://www.enterprisesurveys.org/data/exploretopics/corruption">https://www.enterprisesurveys.org/data/exploretopics/corruption</a></li>
+</ul>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+        
+
+      </footer>
+
+      
+
+      
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+    </div>
+
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Follow:</strong></li>
+    
+
+    
+      
+        
+          <li><a href="https://github.com/OpenDataEnterprise/sdg-metadata" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+        
+      
+    
+
+    <li><a href="/sdg-metadata/pilot/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2021 SDG Metadata Translation Pilot. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/sdg-metadata/pilot/assets/js/main.min.js"></script>
+
+
+
+
+
+
+
+
+
+
+  </body>
+</html>

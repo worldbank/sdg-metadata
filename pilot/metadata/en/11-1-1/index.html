@@ -1,0 +1,797 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.21.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>Indicator: 11.1.1 - SDG Metadata Translation Pilot</title>
+<meta name="description" content="Evaluating Machine Translation of Indicator Metadata for the Sustainable Development Goals">
+
+
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="SDG Metadata Translation Pilot">
+<meta property="og:title" content="Indicator: 11.1.1">
+<meta property="og:url" content="/sdg-metadata/pilot/metadata/en/11-1-1/">
+
+
+  <meta property="og:description" content="Evaluating Machine Translation of Indicator Metadata for the Sustainable Development Goals">
+
+
+
+
+
+
+
+
+
+
+
+
+<link rel="canonical" href="/sdg-metadata/pilot/metadata/en/11-1-1/">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": null,
+      "url": "/sdg-metadata/pilot/"
+    
+  }
+</script>
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+<link href="/sdg-metadata/pilot/feed.xml" type="application/atom+xml" rel="alternate" title="SDG Metadata Translation Pilot Feed">
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/sdg-metadata/pilot/assets/css/main.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css">
+
+<!--[if IE]>
+  <style>
+    /* old IE unsupported flexbox fixes */
+    .greedy-nav .site-title {
+      padding-right: 3em;
+    }
+    .greedy-nav button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+    }
+  </style>
+<![endif]-->
+
+
+
+    <!-- Favicons -->
+<link rel="shortcut icon" type="image/ico" href="/sdg-metadata/pilot/assets/img/favicons/favicon.ico">
+<link rel="icon" type="image/png" href="/sdg-metadata/pilot/assets/img/favicons/favicon.png">
+<!-- Mathjax -->
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  </head>
+
+  <body class="layout--indicator">
+    <nav class="skip-links">
+  <h2 class="screen-reader-text">Skip links</h2>
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+
+  <div class="test-banner">
+  This is an archive of the pilot study. For current project materials, see the
+  <a href="/sdg-metadata/">latest version</a>.
+</div>
+
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+        <a class="site-title" href="/sdg-metadata/pilot/">
+          SDG Metadata Translation Pilot
+          <span class="site-subtitle">Evaluating Machine Translation of Indicator Metadata for the Sustainable Development Goals</span>
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/sdg-metadata/pilot/documentation">Documentation</a>
+            </li><li class="masthead__menu-item">
+              <a href="/sdg-metadata/pilot/metadata">Metadata</a>
+            </li><li class="masthead__menu-item">
+              <a href="/sdg-metadata/pilot/developers">Developers</a>
+            </li></ul>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+  
+    
+      
+      <h3>Fields</h3>
+      <p><a href="#META_PAGE">META_PAGE</a><br /><a href="#META_LAST_UPDATE">META_LAST_UPDATE</a><br /><a href="#LANGUAGE">LANGUAGE</a><br /><a href="#TRANS_SOURCE">TRANS_SOURCE</a><br /><a href="#SDG_GOAL">SDG_GOAL</a><br /><a href="#SDG_TARGET">SDG_TARGET</a><br /><a href="#SDG_INDICATOR">SDG_INDICATOR</a><br /><a href="#SDG_CUSTODIAN_AGENCIES">SDG_CUSTODIAN_AGENCIES</a><br /><a href="#STAT_CONC_DEF">STAT_CONC_DEF</a><br /><a href="#RATIONALE">RATIONALE</a><br /><a href="#REC_USE_LIM">REC_USE_LIM</a><br /><a href="#DATA_COMP">DATA_COMP</a><br /><a href="#DISAGGREGATION">DISAGGREGATION</a><br /><a href="#IMPUTATION">IMPUTATION</a><br /><a href="#REG_AGG">REG_AGG</a><br /><a href="#ADJUSTMENT">ADJUSTMENT</a><br /><a href="#SOURCE_TYPE">SOURCE_TYPE</a><br /><a href="#DATA_AVAILABILITY">DATA_AVAILABILITY</a><br /><a href="#FREQ_COLL">FREQ_COLL</a><br /><a href="#DATA_SOURCE">DATA_SOURCE</a><br /><a href="#REFERENCES">REFERENCES</a><br /><a href="#SDG_RELATED_INDICATORS">SDG_RELATED_INDICATORS</a><br /><a href="#FOOTNOTE_1">FOOTNOTE_1</a><br /><a href="#FOOTNOTE_2">FOOTNOTE_2</a><br /><a href="#FOOTNOTE_3">FOOTNOTE_3</a><br /><a href="#FOOTNOTE_4">FOOTNOTE_4</a><br /><a href="#FOOTNOTE_5">FOOTNOTE_5</a><br /><a href="#FOOTNOTE_6">FOOTNOTE_6</a><br /><a href="#FOOTNOTE_7">FOOTNOTE_7</a><br /><a href="#FOOTNOTE_8">FOOTNOTE_8</a><br /><a href="#FOOTNOTE_9">FOOTNOTE_9</a><br /><a href="#FOOTNOTE_10">FOOTNOTE_10</a><br /><a href="#FOOTNOTE_11">FOOTNOTE_11</a><br /><a href="#FOOTNOTE_12">FOOTNOTE_12</a><br /><a href="#FOOTNOTE_13">FOOTNOTE_13</a></p>
+
+      
+    
+    
+  
+  </div>
+
+
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Indicator: 11.1.1">
+    
+    
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title" class="page__title" itemprop="headline">Indicator: 11.1.1
+</h1>
+          
+
+
+        </header>
+      
+
+      <section class="page__content" itemprop="text">
+        
+        <p><a name="META_PAGE"></a></p>
+
+<p>11.1.1</p>
+
+<p><a name="META_LAST_UPDATE"></a></p>
+
+<p>Last updated: 14 February 2018</p>
+
+<p><a name="LANGUAGE"></a></p>
+
+<p>ENG</p>
+
+<p><a name="TRANS_SOURCE"></a></p>
+
+<p>NA</p>
+
+<p><a name="SDG_GOAL"></a></p>
+
+<p>Goal 11: Make cities and human settlements inclusive, safe, resilient and sustainable</p>
+
+<p><a name="SDG_TARGET"></a></p>
+
+<p>Target 11.1: By 2030, ensure access for all to adequate, safe and affordable housing and basic services and upgrade slums</p>
+
+<p><a name="SDG_INDICATOR"></a></p>
+
+<p>Indicator 11.1.1: Proportion of urban population living in slums, informal settlements or inadequate housing</p>
+
+<p><a name="SDG_CUSTODIAN_AGENCIES"></a></p>
+
+<h1 id="institutional-information">Institutional information</h1>
+<h2 id="organizations">Organization(s)</h2>
+<p>United Nations Human Settlements Programme (UN-Habitat)</p>
+
+<p><a name="STAT_CONC_DEF"></a></p>
+
+<h1 id="concepts-and-definitions">Concepts and definitions</h1>
+
+<p>The nature of the housing sector with its institutions, laws and regulations, is one that touches every single aspect of the economy of a country and has interface with practically every social development sector. People living in adequate homes have better health, higher chances to improve their human capital and seize the opportunities available in urban contexts. At the same time, a housing sector that performs well acts as a ‘development multiplier’ benefiting complementary industries, contributing to economic development, employment generation, service provision and overall poverty reduction. Broadly, for every job in the house-building sector, an additional 1.5 to 2 jobs are generally created in the construction materials and other input industries. The contributions of housing to urban prosperity are also evident. The UN-Habitat City Prosperity Initiative reveals indicates that inadequate housing has negative effects on several other dimensions of urban prosperity. Urban contexts with housing conditions below average experience poorer equity and inclusion, reduced urban safety and livelihood opportunities, and have neglected connectivity and provision of public space.</p>
+
+<p>Inadequate housing thus remains very much a global urban sustainability challenge but also development opportunity. At the same time, the thematic area of ‘adequate housing’ and especially the term ‘slums’ - are often highly politicized. More nuanced definitions of these terms would enable and support a more robust and measured debate, greater engagement by all key stakeholders and the development of specific recommendations for application within each context and place.</p>
+
+<p>In order to develop a more nuanced definition, there are a number of interrelated terms that must be grappled with when considering an indicator for the SDG Target 11.1. They include inadequate housing and housing affordability, informal settlements and slums.</p>
+
+<h2 id="housing-affordability">Housing affordability</h2>
+<p>One of the most daunting challenges of urbanization globally has been the provision of adequate housing that people can afford. Findings from the UN Global Sample of Cities <sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote">1</a></sup> show that people across all types of urban centres are not able to afford home ownership or even the cost of rental housing. In low-income countries for example, households need to save the equivalent of nearly eight times their annual household income in order to be able to afford the price of a standard house in their town or city. If they rent, households have to commit more than 25 per cent of their monthly income to rent payments. <sup id="fnref:2" role="doc-noteref"><a href="#fn:2" class="footnote">2</a></sup></p>
+
+<p>The affordability issue is affecting the developing and developed worlds alike. In Latin America, high house price-to-income ratio and inaccessible housing finance compel households to resort to informal solutions without the benefits of planning and safety regulations. In many parts of Sub-Saharan Africa, less than 10 per cent of households are able to afford a mortgage for even the cheapest newly built house. In fact, African households face 55 per cent higher housing costs relative to their per capita GDP than in other regions. <sup id="fnref:3" role="doc-noteref"><a href="#fn:3" class="footnote">3</a></sup>  In many European countries, families, especially the youth, are severely cost burdened and have much less to spend on other necessities such as food, health, transport and clothing. In extreme circumstances, households are forced to leave their accommodation because of the inability to pay. The current migration crisis has worsened housing conditions in the region, a trend that seems set to continue in the next few years.</p>
+
+<h2 id="inadequate-housing-informal-settlements-and-slums">Inadequate housing, informal settlements and slums</h2>
+<p>Today, an estimated 1.6 billion people live in inadequate housing globally, of which 1 billion live in slums and informal settlements. <sup id="fnref:4" role="doc-noteref"><a href="#fn:4" class="footnote">4</a></sup> This means that about one in four people in cities live in conditions that harm their health, safety, prosperity and opportunities. Lack of access to basic services is a common constraint in informal settlements and slums: worldwide 2.4 billion people live without improved sanitation and 2 billion are affected by water stress. In spite of a decrease from 39 to 30 per cent of urban population living in slums between 2000 and 2014, absolute numbers continue to grow: currently, one quarter of the world’s urban population is estimated to live in slums, 881 million urban residents as opposed to 792 million in 2000.  Young women- and children-headed households are often the most vulnerable to inadequate housing conditions. Homelessness is also a growing challenge and it is estimated that more than 100 million people worldwide are homeless.  <sup id="fnref:5" role="doc-noteref"><a href="#fn:5" class="footnote">5</a></sup></p>
+
+<p>Slums represent one of the most extreme forms of deprivation and exclusion and remain a critical factor for the persistence of poverty and exclusion in the world – indeed a challenge for sustainable and inclusive urbanization. Research shows that other forms of urban poverty in the form of informal settlements increasingly become a worldwide phenomenon found also in the developed world.</p>
+
+<p>At the same time, not all people who live in inadequate housing live in slums but are nonetheless living in very substandard conditions in the urban contexts in which they are situated. The nature of these unsatisfactory living conditions must be captured and better represented in the global, country and city-level data to ensure a more robust picture of inadequate housing is documented. In light of this, the following definitions are proposed.</p>
+
+<h2 id="definition-and-concept">Definition and concept</h2>
+<p>As per the 2030 Agenda, to guide the development of the appropriate policies and programmes for ensuring access for all to adequate housing and the upgrading of slums, it is necessary to identify and quantify the proportion of the population that live in slums, informal settlements and those living in inadequate housing.</p>
+
+<p><strong>a. Slums</strong> – An expert group meeting was convened in 2002 by UN-Habitat, the United Nations Statistics Division and the Cities Alliance to agree on an operational definition for slums to be used for measuring the indicator of MDG 7 Target 7.D. The agreed definition classified a ‘slum household’ as one in which the inhabitants suffer one or more of the following ‘household deprivations’:</p>
+
+<ol>
+  <li>Lack of access to improved water source,</li>
+  <li>Lack of access to improved sanitation facilities,</li>
+  <li>Lack of sufficient living area,</li>
+  <li>Lack of housing durability and,</li>
+  <li>Lack of security of tenure. By extension, the term ‘slum dweller’ refers to a person living in a household that lacks any of the above attributes. <sup id="fnref:6" role="doc-noteref"><a href="#fn:6" class="footnote">6</a></sup></li>
+</ol>
+
+<p>These five components –all derived from the adequate housing’s definition have been used ever since for reporting and tracking of the MDGs, as the primary or secondary data measured to determine the number of slum dwellers living in developing countries. They were also the basis to establish the successful achievement of MDG Target 7.D. For each component, the experts agreed with the following sub-definitions:  <sup id="fnref:7" role="doc-noteref"><a href="#fn:7" class="footnote">7</a></sup></p>
+
+<p>1) <u>Access to improved water</u> – A household is considered to have access to improved drinking water if it has sufficient amount of water (20 litres/person/day) for family use, at an affordable price (less than 10% of the total household income) and available to household members without being subject to extreme effort (less than one hour a day for the minimum sufficient quantity), especially to women and children. An improved drinking water source is a facility that is protected from outside contamination, in particular from faecal matters’ contamination. Improved drinking water sources include: piped water into dwelling, plot or yard; public tap/stand pipe serving no more than 5 households; protected spring; rainwater collection; bottled water (if secondary source is also improved); bore hole/tube well; and, protected dug well.</p>
+
+<p>2) <u>Access to improved sanitation</u> – A household is considered to have access to improved sanitation if an excreta disposal system, either in the form of a private toilet or a public toilet shared with a reasonable number of people, is available to household members. Such improved sanitation facilities, therefore, hygienically separates human waste from human contact. Improved facilities include: flush/pour-flush toilets or latrines connected to a sewer, septic tank or pit; ventilated improved pit latrine; pit latrine with a slab or platform, which covers the pit entirely; and, composting toilets/latrines.</p>
+
+<p>3) <u>Sufficient living area /overcrowding</u> – A dwelling unit provides sufficient living area for the household members if not more than three people share the same habitable room. <sup id="fnref:8" role="doc-noteref"><a href="#fn:8" class="footnote">8</a></sup>  Additional indicators of overcrowding have been proposed: area-level indicators such as average in-house living area per person or the number of households per area. Additionally, housing-unit level indicators such as the number of persons per bed or the number of children under five per room may also be viable. However, the number of persons per room has been shown to correlate with adverse health risks and is more commonly collected through household survey. <sup id="fnref:9" role="doc-noteref"><a href="#fn:9" class="footnote">9</a></sup> UN-Habitat believes that the definition as it stands does not reflect the practical experience of overcrowding and as noted below, is proposing an alternative.</p>
+
+<p>4) <u>Structural quality/durability of dwellings</u> – A house is considered as ‘durable’ if it is built on a non-hazardous location and has a permanent and adequate structure able to protect its inhabitants from the extremes of climatic conditions such as rain, heat, cold, and humidity. The following criteria are used to determine the structural quality/durability of dwellings: permanency of structure (permanent building material for the walls, roof and floor; compliance with building codes; the dwelling is not in a dilapidated state; the dwelling is not in need of major repair); and location of house (hazardous location; the dwelling is not located on or near toxic waste; the dwelling is not located in a flood plain; the dwelling is not located on a steep slope; the dwelling is not located in a dangerous right of way: rail, highway, airport, power lines).</p>
+
+<p>5) <u>Security of tenure</u> – Secure tenure is the right of all individuals and groups to effective protection by the State against forced evictions. Security of tenure is understood as a set of relationships with respect to housing and land, established through statutory or customary law or informal or hybrid arrangements, that enables one to live in one’s home with security, peace and dignity (A/HRC/25/54). Regardless of the type of tenure, all persons with security of tenure have a legal status against arbitrary unlawful eviction, harassment and other threats. People have secure tenure when: there is evidence of documentation that can be used as proof of secure tenure status; and, there is either de facto or perceived protection from forced evictions. Important progress has been made to integrate the measurement of this component into the computation of the people living in slums.</p>
+
+<h2 id="informal-settlements">Informal Settlements</h2>
+<p><strong>b. Informal Settlements</strong> – Informal settlements are usually seen as synonymous of slums, with a particular focus on the formal status of land, structure and services. They are defined by three main criteria, according to Habitat III Issue Paper #22 <sup id="fnref:10" role="doc-noteref"><a href="#fn:10" class="footnote">10</a></sup>, which are already covered in the definition of slums. These are:</p>
+<ol>
+  <li><u>Inhabitants have no security of tenure</u> vis-à-vis the land or dwellings they inhabit, with modalities ranging from squatting to informal rental housing,</li>
+  <li>The <u>neighbourhoods usually lack, or are cut off from, formal basic services</u> and city infrastructure, and</li>
+  <li>The <u>housing may not comply with current planning and building regulations</u>, is often situated in geographically and environmentally hazardous areas, and may lack a municipal permit.</li>
+</ol>
+
+<p>Informal settlements can be occupied by all income levels of urban residents, affluent and poor.</p>
+
+<h2 id="inadequate-housing">Inadequate Housing</h2>
+
+<p><strong>c. Inadequate Housing</strong> – Article 25 of the Universal Declaration of Human Rights includes housing as one of the components of the right to adequate standards of living for all. <sup id="fnref:11" role="doc-noteref"><a href="#fn:11" class="footnote">11</a></sup> The United Nations Committee on Economic, Social and Cultural Rights’ general comments No.4 (1991) on the right to adequate housing and No.7 (1997) on forced evictions have underlined that the right to adequate housing should be seen as the right to live somewhere in security, peace and dignity. For housing to be adequate, it must provide more than four walls and a roof, and at a minimum, meet the following criteria:</p>
+<ol>
+  <li><u>Legal security of tenure</u>, which guarantees legal protection against forced evictions, harassment and other threats;</li>
+  <li><u>Availability of services, materials, facilities and infrastructure</u>, including safe drinking water, adequate sanitation, energy for cooking, heating, lighting, food storage or refuse disposal;</li>
+  <li><u>Affordability</u>, as housing is not adequate if its cost threatens or compromises the occupants’ enjoyment of other human rights;</li>
+  <li><u>Habitability</u>, as housing is not adequate if it does not guarantee physical safety or provide adequate space, as well as protection against the cold, damp, heat, rain, wind, other threats to health and structural hazards;</li>
+  <li><u>Accessibility</u>, as housing is not adequate if the specific needs of disadvantaged and marginalized groups are not taken into account (such as the poor, people facing discrimination; persons with disabilities, victims of natural disasters);</li>
+  <li><u>Location</u>, as housing is not adequate if it is cut off from employment opportunities, health-care services, schools, childcare centres and other social facilities, or if located in dangerous or polluted sites or in immediate proximity to pollution sources; and</li>
+  <li><u>Cultural adequacy</u>, as housing is not adequate if it does not respect and take into account the expression of cultural identity and ways of life.</li>
+</ol>
+
+<table>
+  <thead>
+    <tr>
+      <th colspan="4">
+        Table 1. Criteria defining slums, informal settlements and inadequate housing
+      </th>
+    </tr>
+    <tr>
+      <th>
+      </th>
+      <th style="min-width: 100px;">
+        Slums
+      </th>
+      <th>
+        Informal Settlements
+      </th>
+      <th>
+        Inadequate Housing
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        access to water
+      </td>
+      <td>
+        X
+      </td>
+      <td>
+        X
+      </td>
+      <td>
+        X
+      </td>
+    </tr>
+    <tr>
+      <td>
+        access to sanitation
+      </td>
+      <td>
+        X
+      </td>
+      <td>
+        X
+      </td>
+      <td>
+        X
+      </td>
+    </tr>
+    <tr>
+      <td>
+        sufficient living area, overcrowding
+      </td>
+      <td>
+        X
+      </td>
+      <td>
+      </td>
+      <td>
+        X
+      </td>
+    </tr>
+    <tr>
+      <td>
+        structural quality, durability and location
+      </td>
+      <td>
+        X
+      </td>
+      <td>
+        X
+      </td>
+      <td>
+        X
+      </td>
+    </tr>
+    <tr>
+      <td>
+        security of tenure
+      </td>
+      <td>
+        X
+      </td>
+      <td>
+        X
+      </td>
+      <td>
+        X
+      </td>
+    </tr>
+    <tr>
+      <td>
+        affordability
+      </td>
+      <td>
+      </td>
+      <td>
+      </td>
+      <td>
+        X
+      </td>
+    </tr>
+    <tr>
+      <td>
+        accessibility
+      </td>
+      <td>
+      </td>
+      <td>
+      </td>
+      <td>
+        X
+      </td>
+    </tr>
+    <tr>
+      <td>
+        cultural adequacy
+      </td>
+      <td>
+      </td>
+      <td>
+      </td>
+      <td>
+        X
+      </td>
+    </tr>
+  </tbody>
+</table>
+<h3 id="figure-1--example-of-overcrowding">Figure 1- Example of Overcrowding</h3>
+<p><img src="images/STAT_CONC_DEF1.png" alt="OVERCROWDING Sufficient living area: a house is considered to provide sufficient living area for the household members if not more than three people share the same habitable room that is a minimum of four square meters in area. Considering a maximum of 3 people per habitable room of a minimum of 4 sqm, not even 2 single beds fit in such a room, thus it is assumed that 3 people sleep on 1 bed. Moreover, other furniture is unlikely to fit, Required ventilation is also a concern. Instead, if a minimum room of 9 sqm is considered, as this is the most typical size of a slum room, the room’s living area becomes viable for 3 people." /></p>
+
+<p><a name="RATIONALE"></a></p>
+
+<h2 id="rationale">Rationale</h2>
+<p>As seen in Table 1, most of the criteria for defining slums, informal settlements and inadequate housing overlap. The three criteria of informal settlements are essentially captured in the definition of slums, which sustains the combination of both (slums/informal settlements). From the seven criteria of adequate housing, the three that are not covered by slums / informal settlements are affordability, accessibility and cultural adequacy. For the purpose of composing an indicator, affordability is the most relevant and easier to measure.</p>
+
+<p>Thus, in order to come up with a composite indicator, the metadata for the SDG Indicator 11.1.1 is proposing to group the definition of slums and informal settlements, to allow for comparison with MDGs, and add the element of affordability from the definition of adequate housing.</p>
+
+<p>In this regard, <em>housing affordability</em> is not only a key housing adequacy criterion, but is a suitable means of measuring inadequate housing in a more encompassing manner, as it remains a global challenge across different countries and income levels, with strong negative impact on urban inequality. 
+The underlying principle is that household financial costs associated with housing should not threaten or compromise the attainment and satisfaction of other basic needs such as, food, education, access to health care, transport, etc. Based on the existing method and data of UN-Habitat’s Urban Indicators Program (1996-2006), unaffordability is currently measured as the net monthly expenditure on housing cost that exceeds 30% of the total monthly income of the household.</p>
+
+<p>Thus, Indicator 11.1.1 is expected to be a <strong>composite one</strong>, with the main components of slum/informal settlements’ and the added component of affordability defining inadequate housing. Table 1 details the proposed definition of Slum/Informal Settlements and Inadequate Housing as well as the respective measurements.</p>
+
+<h3 id="table-1--definition-and-measurement-criteria-for-slums-informal-settlements-and-inadequate-housing-">Table 1 – Definition and measurement criteria for slums, informal settlements and inadequate housing <sup id="fnref:12" role="doc-noteref"><a href="#fn:12" class="footnote">12</a></sup></h3>
+<table>
+  <tbody>
+    <tr>
+      <td style="vertical-align: top;">
+        <p><strong>Slums / Informal Settlements</strong></p>
+      </td>
+      <td style="vertical-align: top;">
+        <p><strong>DEFINITION:</strong></p>
+        <p>As adopted in the MDG, household where the inhabitants suffer one or more of the following 'household deprivations': 1) Lack of access to improved water source, 2) Lack of access to improved sanitation facilities, 3) Lack of sufficient living area, 4) Lack of housing durability and, 5) Lack of security of tenure).</p>
+      </td>
+      <td style="min-width:275px">
+        <p><strong>MEASUREMENT:</strong></p>
+        <p><em>Security of Tenure:</em></p>
+        <ul>
+          <li>Proportion of households with formal title deeds to both land and residence.</li>
+          <li>Proportion of households with formal title deeds to either one of land or residence.</li>
+          <li>Proportion of households with agreements or any document as a proof of a tenure arrangement.</li>
+        </ul>
+        <p><em>Adequate water:</em></p>
+        <p>A settlement has an inadequate drinking water supply if less than 50% of households have an improved water supply:</p>
+        <ul>
+          <li>household connection;</li>
+          <li>access to public stand pipe;</li>
+          <li>rainwater collection; with at least 20 liters/person/day available within an acceptable collection distance.</li>
+        </ul>
+        <p><em>Access to sanitation:</em></p>
+        <p>A settlement has inadequate sanitation if less than 50% of households have improved sanitation:</p>
+        <ul>
+          <li>public sewer;</li>
+          <li>septic tank;</li>
+          <li>pour-flush latrine;</li>
+          <li>Ventilated improved pit latrine.</li>
+        </ul>
+        <p>The excreta disposal system is considered adequate if it is private or shared by a maximum of two households.</p>
+        <p><em>Structural quality of Housing and location:</em> Proportion of households residing on or near a hazardous site. The following locations should be considered:</p>
+        <ul>
+          <li>housing in geologically hazardous zones (landslide/earthquake and flood areas);</li>
+          <li>housing on or under garbage mountains;</li>
+          <li>housing around high-industrial pollution areas;</li>
+          <li>housing around other unprotected high-risk zones (e.g. railroads, airports, energy transmission lines).</li>
+        </ul>
+        <p><em>Structural quality of the housing and permanency of the structure:</em></p>
+        <p>Proportion of households living in temporary and/or dilapidated structures. The following factors should be considered when placing a housing unit in these categories:</p>
+        <ul>
+          <li>quality of construction (e.g. materials used for wall, floor and roof);</li>
+          <li>compliance with local building codes, standards and bylaws.</li>
+        </ul>
+        <p><em>Sufficient living area / Overcrowding:</em></p>
+        <ul>
+          <li>Proportion of households with more than two persons per room.</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top;">
+        <p><strong>Inadequate housing&nbsp;</strong></p>
+      </td>
+      <td style="vertical-align: top;">
+        <p><strong>DEFINITION:&nbsp;</strong></p>
+        <p>Proposed to complement the slums/informal settlements measuring affordability of housing at the global level.</p>
+      </td>
+      <td>
+        <p><strong>MEASUREMENT:&nbsp;</strong></p>
+        <p><em>Affordability:&nbsp;</em></p>
+        <ul>
+          <li>Proportion of households with net monthly expenditure on housing exceeding 30% of the total monthly income of the household.</li>
+        </ul>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<p><a name="REC_USE_LIM"></a></p>
+
+<h2 id="comments-and-limitations">Comments and limitations</h2>
+<p>As with all indicators, there are a number of potential challenges and limitations. Some of these are outlined below.</p>
+<ul>
+  <li>Difficulties to agree universally on some definitions and characteristics when referring to deteriorated housing conditions, often due to political or economic considerations.</li>
+  <li>Lack of appropriate tools at national and city levels to measure all components required by Indicator 11.1.1, sometimes resulting in the underestimation of deteriorated housing units.</li>
+  <li>The complicated relation between security of tenure with land and property makes it a difficult, but vital, aspect to include in the different surveys, and thus, to measure and monitor.</li>
+  <li>Indicator 11.1.1 does not capture homelessness.</li>
+  <li>Many countries still have limited capacities for data collection, management and analysis, their update and monitoring. These are key to ensure national and global data consistency.</li>
+</ul>
+
+<p><a name="DATA_COMP"></a></p>
+
+<h1 id="methodology">Methodology</h1>
+<h2 id="computation-method">Computation method</h2>
+<p>The indicator considers two components to be computed as follows:</p>
+
+<p>a) Slum/Informal Settlements households (SISH):<br />
+\[=100 \times [{\text{Number of people living in SISH households} \over \text{City population}}]\]</p>
+
+<p>b) Inadequate housing households (IHH):<br />
+\[=100 \times [{\text{Number of people living in IHH} \over \text{City population}}]\]</p>
+
+<p>The unit of measurements for all these indicators will be %. Currently, the data for this indicator is already being reported in nearly all developing countries on what refers to slums and informal settlements, and in some countries for what refers to expenditure on housing. The SDG indicator 11.1.1 will therefore contribute to report on a broader spectrum of inadequate housing conditions affecting households in all countries.</p>
+
+<p><a name="DISAGGREGATION"></a></p>
+
+<h2 id="disaggregation-">Disaggregation <sup id="fnref:13" role="doc-noteref"><a href="#fn:13" class="footnote">13</a></sup></h2>
+<h3 id="potential-disaggregation">Potential disaggregation</h3>
+
+<ul>
+  <li>Disaggregation by location (intra-urban)</li>
+  <li>Disaggregation by income group</li>
+  <li>Disaggregation by sex, race, ethnicity, religion, migration status (head of household)</li>
+  <li>Disaggregation by age (household members)</li>
+  <li>Disaggregation by disability (household members)</li>
+</ul>
+
+<h3 id="quantifiable-derivatives">Quantifiable derivatives:</h3>
+
+<ul>
+  <li>Proportion of households with durable housing</li>
+  <li>Proportion of households with improved water</li>
+  <li>Proportion of households with improved sanitation</li>
+  <li>Proportion of households with sufficient living space</li>
+  <li>Proportion of households with security of tenure</li>
+  <li>Proportion of households with one (1) housing deprivation</li>
+  <li>Proportion of households with multiple (3 or more) housing deprivations</li>
+  <li>Proportion of households with approved municipal permit</li>
+  <li>Proportion of households with (in) adequate housing (affordability)</li>
+</ul>
+
+<p><a name="IMPUTATION"></a></p>
+
+<h2 id="treatment-of-missing-values">Treatment of missing values</h2>
+<ul>
+  <li>At country level:<br />
+  All countries are expected to fully report on this indicator more consistently with few challenges where missing values will be reported at the national/global level. At the national level, it is possible that missing values will be recorded perhaps representing gaps of non-measurements among populations whose status of slum-hood or informality or inadequate housing is not recorded, unknown or where data is unavailable. Because the values will be aggregated at the national levels, missing values will be less observed at these levels, but are likely to affect the estimates. At the survey and data collection level, survey procedures for managing missing values will be applied based on the unit of analysis/ primary sampling units.</li>
+  <li>At regional and global levels:<br />
+  Global estimates will be adjusted with modelling based on trends to cater for missing information or data.</li>
+</ul>
+
+<p><a name="REG_AGG"></a></p>
+
+<h2 id="regional-aggregates">Regional aggregates</h2>
+<p>Regional and global estimates will be derived from national figures with an appropriate disaggregation level. Specialized tools will be developed and agreed upon with local and international stakeholders. Systems of quality assurance on the use of the tools, analysis and reporting will be deployed regionally, and global to ensure that standards are uniform and that definitions are universally applied.
+We expect that investments in improved data collection and monitoring at country level will produce incentives for governments to improve reporting and performance and also greater readiness to engage with multiple stakeholders in data collection and analysis and in achieving better understanding of the strengths and weaknesses of existing slum definitions and their applications.</p>
+
+<p><a name="ADJUSTMENT"></a></p>
+
+<h2 id="sources-of-discrepancies">Sources of discrepancies</h2>
+<p>As national agencies are responsible for data collection, no differences between country produced data and international estimated data on the indicator are expected to arise if standard methodologies and procedures are followed at all stages of the reporting process.  Missing data and other local variables and frequency of data collection usually affects the figures reported at the global and national level. For this indicator, national data will be used to derive global figures. In instances where global values differ from national figures, efforts will be made for harmonization.</p>
+
+<p><a name="SOURCE_TYPE"></a></p>
+
+<h1 id="data-sources">Data sources</h1>
+<h2 id="sources-and-data-collection">Sources and data collection</h2>
+<p>Data for the slum/informal settlements components of the indicator can be computed from Census and national household surveys, including DHS and MICS. Data for the inadequate housing component can be computed through income and household surveys that capture housing expenditures.</p>
+
+<p>As per all the agreed Agenda 2030’s goals and targets, to measure the achievement of this indicator will require the mobilisation of means required to efficiently monitor them, calling for revitalised partnerships with the participation of all countries, all stakeholders and all communities concerned.</p>
+
+<p>For primary reporting, national data providers (especially the Statistical agencies) will play an important role generating the primary data through census and surveys. Regional and global estimates will be derived from national figures with appropriate disaggregation. Specialized tools will be developed and agreed upon with local and international stakeholders. Quality assurance on the use of the tools, analysis and reporting will be deployed regionally and globally, to ensure that standards are uniform and that definitions are universally applied.</p>
+
+<p><a name="DATA_AVAILABILITY"></a></p>
+
+<h1 id="data-availability">Data availability</h1>
+<h2 id="description">Description</h2>
+<p>Data on slums is available for all developing countries, as it has been reported yearly by UN-Habitat in the MDGs’ reports. Recently, UN-Habitat has disaggregated information on this indicator at city level, increasing its suitability for SDG 11. The people living in slums’ indicator is currently measured in more than 320 cities across the world as part of UN-Habitat City Prosperity Initiative. UN-Habitat and World Bank computed this indicator for many years (1996-2006) as part of the Urban Indicators Programme. Data on inadequate housing, measured through housing affordability, is available for all OECED countries as well as in UN Global Sample of Cities covering 200 cities. Data on inadequate housing, measured through housing affordability, is available in many countries. UN-Habitat and World Bank computed this indicator for many years (1996-2006) as part of the Urban Indicators Programme. Recently, the Global Housing Indicators Working Group, a collaborative effort of Cities Alliance, Habitat for Humanity International, the Inter-American Development Bank, UN-Habitat proposed the collection of data on this indicator worldwide.</p>
+
+<p><a name="FREQ_COLL"></a></p>
+
+<h1 id="calendar">Calendar</h1>
+<p>All major surveys and census data collection process will continue to incorporate the aspects/components necessary for reporting on this indicator. The monitoring of this indicator will be repeated at regular intervals of 3-5 years, allowing for three-five year reporting points until the year 2030.</p>
+
+<p><a name="DATA_SOURCE"></a></p>
+
+<h1 id="data-providers-and-compilers">Data providers and compilers</h1>
+<p>This indicator has largely been successfully due to the collaborations between several organizations and institutions including UN- Habitat, UNEP, Cities Alliance, Slum dwellers International, and World Bank. There are several other experts who have also contributed to the development of the concepts, rationale and definitions, and metadata and will also support measurement, reporting and policy dialogue at the country level, based on the indicators.</p>
+
+<p>For primary reporting, National data provider especially the Statistical agencies will play an important role of generation of the primary data through census and surveys. Final Compilation &amp; reporting at the global level will be lead and guided by UN-Habitat with support from selected partners.</p>
+
+<p><a name="REFERENCES"></a></p>
+
+<h1 id="references">References</h1>
+<h2 id="bibliographic-references">Bibliographic references</h2>
+<ul>
+  <li>United Nations (2007). Indicators of Sustainable Development: Guidelines and Methodologies. Third Edition, United Nations, New York</li>
+  <li>A/HRC/25/54 (2013), Report of the Special Rapporteur on adequate housing as a component of the right to an adequate standard of living, and on the right to non-discrimination in this context</li>
+  <li>UN-Habitat (2002) Urban Indicators Guidelines. Nairobi</li>
+  <li>UN-Habitat, Global Urban Indicators Database 2012 a. Nairobi</li>
+  <li>UN-Habitat (2002), Expert Group Meeting on Urban Indicators, Nairobi, Kenya, November 2002</li>
+  <li>UN-Habitat (2003a), Slums of the World: The face of urban poverty in the new millennium</li>
+  <li>UN-Habitat (2003b), Improving the Lives of 100 Million Slum Dwellers – Guide to Monitoring Target 11</li>
+  <li>UN-Habitat (1998), Crowding and Health in Low Income Settlements of Guinea Bissau, SIEP Occasional Series No.1</li>
+  <li>Global report on Human settlement on Slums (2002)</li>
+  <li>Turkstra, J. and Raithelhuber, M. (2004). Urban slum Monitoring. ESRI User Conference paper 1667</li>
+  <li>Urban Indicators Programme, World Bank and UN-Habitat, Guidelines</li>
+  <li>Habitat for Humanity, Global Housing Indicators</li>
+  <li>Habitat for Humanity, Housing Indicators for the Sustainable Development Goals, 2015</li>
+  <li>McKinsey Global Institute (2014), A Blueprint for Addressing the Global Affordable Housing Challenge</li>
+  <li>United Nations (2015), Conference on Housing and Sustainable Urban Development – Habitat III, Issue Paper No. 22 on Informal Settlements</li>
+  <li>UN-Habitat, UN-AIDS (2015a) Ending the Urban Aids Epidemic. Nairobi</li>
+  <li>UN-Habitat (2015b). Slum Almanac 2015-2016</li>
+  <li>UN-Habitat (2016). World Cities Report 2016</li>
+</ul>
+
+<h2 id="url-references">URL references</h2>
+<ol>
+  <li><a href="http://www.un.org/esa/sustdev/natlinfo/indicators/methodology_sheets.pdf">http://www.un.org/esa/sustdev/natlinfo/indicators/methodology_sheets.pdf</a></li>
+  <li><a href="http://unhabitat.org/urban-indicators-guidelines/">http://unhabitat.org/urban-indicators-guidelines/</a></li>
+  <li><a href="http://mdgs.un.org/unsd/mdg/Metadata.aspx?IndicatorId=0&amp;SeriesId=710">http://mdgs.un.org/unsd/mdg/Metadata.aspx?IndicatorId=0&amp;SeriesId=710</a></li>
+  <li><a href="http://unhabitat.org/urban-initiatives/initiatives-programmes/participatory-slum-upgrading/">http://unhabitat.org/urban-initiatives/initiatives-programmes/participatory-slum-upgrading/</a></li>
+  <li><a href="http://unhabitat.org/slum-almanac-2015-2016/">http://unhabitat.org/slum-almanac-2015-2016/</a></li>
+  <li><a href="http://wcr.unhabitat.org/">http://wcr.unhabitat.org/</a></li>
+  <li><a href="http://www.unhabitat.org/programmes/guo/documents/EGM final report 4 Dec 02.pdf">http://www.unhabitat.org/programmes/guo/documents/EGM final report 4 Dec 02.pdf</a></li>
+</ol>
+
+<p><a name="SDG_RELATED_INDICATORS"></a></p>
+
+<h1 id="related-indicators">Related indicators</h1>
+<h2 id="direct-relation">Direct relation</h2>
+<p>1.1.1 Poverty rate; 1.1.2 Poverty rate, national; 6.1.1 Access to Improved Water; 6.2.1 Access to Improved Sanitation; 7.1.1 Access to Electricity; 8.3.1 Informal Employment; 8.5.2 Unemployment Rate 8.6.1 Youth Unemployment; 10.2.1 Population below Median Income; 10.1.1 Grow rates of the poorest 40%; 11.2.1 Public Transit Stop Coverage; 11.5.1 Population Affected by Hazardous Events; 11.6.1 Solid Waste Collection; 11.7.1 Accessibility to Open Public Area; 11.7.2 Public Space Safety for Women; 16.1.1 Homicide rate; 16.1.3 Population subjected to Violence.</p>
+
+<p><a name="FOOTNOTE_1"></a></p>
+
+<p><a name="FOOTNOTE_2"></a></p>
+
+<p><a name="FOOTNOTE_3"></a></p>
+
+<p><a name="FOOTNOTE_4"></a></p>
+
+<p><a name="FOOTNOTE_5"></a></p>
+
+<p><a name="FOOTNOTE_6"></a></p>
+
+<p><a name="FOOTNOTE_7"></a></p>
+
+<p><a name="FOOTNOTE_8"></a></p>
+
+<p><a name="FOOTNOTE_9"></a></p>
+
+<p><a name="FOOTNOTE_10"></a></p>
+
+<p><a name="FOOTNOTE_11"></a></p>
+
+<p><a name="FOOTNOTE_12"></a></p>
+
+<p><a name="FOOTNOTE_13"></a></p>
+
+<div class="footnotes" role="doc-endnotes">
+  <ol>
+    <li id="fn:1" role="doc-endnote">
+      <p>UN-Habitat (2016). Fundamentals of Urbanization. Evidence Base for Policy Making. Nairobi: UN-Habitat. <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:2" role="doc-endnote">
+      <p>Ibid. <a href="#fnref:2" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:3" role="doc-endnote">
+      <p>World Bank, 2017. Africa’s Cities: Opening Doors to the World. <a href="#fnref:3" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:4" role="doc-endnote">
+      <p>UN-Habitat (2016). World Cities Report. UN-Habitat (2005). Financing Shelter. <a href="#fnref:4" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:5" role="doc-endnote">
+      <p>UN-Habitat (2005). Financing Urban Shelter: Report on Urban Settlements. 2005. Nairobi: UN-Habitat. <a href="#fnref:5" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:6" role="doc-endnote">
+      <p>UN-Habitat (2003). Slums of the World: The face of urban poverty in the new millennium. &lt;mirror.unhabitat.org/pmss/getElectronicVersion.aspx?nr=1124&amp;alt=1&gt; <a href="#fnref:6" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:7" role="doc-endnote">
+      <p>United Nations (2007). Indicators of Sustainable Development: Guidelines and Methodologies. Third Edition, United Nations, New York; &lt; https://sustainabledevelopment.un.org/index.php?page=view&amp;type=400&amp;nr=107&amp;&gt;; UN-Habitat (2003), Slums of the World: The face of urban poverty in the new millennium. <a href="#fnref:7" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:8" role="doc-endnote">
+      <p>The original EGM’s advice considered a range of less than three to four people per habitable room. When this indicator got operationalized during the MDG 7 Target 7.D’s tracking, overcrowding was fixed at a maximum of three people per habitable room (‘minimum of four square meters,’ <a href="http://mdgs.un.org/unsd/mdg/Metadata.aspx">http://mdgs.un.org/unsd/mdg/Metadata.aspx</a>). <a href="#fnref:8" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:9" role="doc-endnote">
+      <p>UN-Habitat (1998), Crowding and Health in Low Income Settlements of Guinea Bissau, SIEP Occasional Series No.1. <a href="#fnref:9" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:10" role="doc-endnote">
+      <p>United Nations (2015), Conference on Housing and Sustainable Urban Development – Habitat III, Issue Paper No. 22 on Informal Settlements; UN-Habitat (2015), Slum Almanac 2015-2016. <a href="#fnref:10" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:11" role="doc-endnote">
+      <p>Article 25 (1) “Everyone has the right to a standard of living adequate for the health and well-being of himself and of his family, including food, clothing, housing and medical care and necessary social services, and the right to security in the event of unemployment, sickness, disability, widowhood, old age or other lack of livelihood in circumstances beyond his control.” <a href="#fnref:11" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:12" role="doc-endnote">
+      <p>Measurements based on those in the (2003) UN-Habitat Challenge of Slums, p.12. <a href="#fnref:12" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:13" role="doc-endnote">
+      <p>The proposed framework for potential disaggregation should consider that disaggregation has a cost. It is recommended that the level of development and the statistical capacity of countries be taken into consideration. As countries progress in their institutional capacities, further level of disaggregation can be undertaken. <a href="#fnref:13" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+        
+
+      </footer>
+
+      
+
+      
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+    </div>
+
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Follow:</strong></li>
+    
+
+    
+      
+        
+          <li><a href="https://github.com/OpenDataEnterprise/sdg-metadata" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+        
+      
+    
+
+    <li><a href="/sdg-metadata/pilot/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2021 SDG Metadata Translation Pilot. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/sdg-metadata/pilot/assets/js/main.min.js"></script>
+
+
+
+
+
+
+
+
+
+
+  </body>
+</html>
