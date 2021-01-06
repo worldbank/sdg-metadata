@@ -165,6 +165,20 @@ module SdgMetadataPlugins
         end
       end
 
+      # Generate all the history pages.
+      site.data['history'].each do |indicator, history|
+        dir = File.join('history', indicator) + '/'
+        layout = 'history'
+        title = 'Revision history for ' + indicator.gsub('-', '.') + ' indicator metadata file'
+        content = ''
+        language = 'en'
+        data = {
+          'slug' => indicator,
+          'history' => history,
+        }
+        site.pages << SdgMetadataPage.new(site, base, dir, layout, title, content, language, data)
+      end
+
       # Generate all the language pages.
       site.data['store']['metadata'].each do |language, indicators|
         dir = File.join('metadata', language) + '/'

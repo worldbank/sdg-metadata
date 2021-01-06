@@ -3,9 +3,6 @@ layout: single
 title: Architecture Diagram
 permalink: /documentation/architecture/
 ---
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jsPlumb/2.8.6/js/jsplumb.js"></script>
-<script src="https://unpkg.com/popper.js"></script>
-<script src="https://unpkg.com/tooltip.js"></script>
 
 <div id="architecture-diagram">
   <div class="container">
@@ -61,99 +58,101 @@ permalink: /documentation/architecture/
 </div>
 
 <script>
-jsPlumb.ready(function () {
+window.addEventListener('load', function(event) {
+  jsPlumb.ready(function () {
 
-  // Helper function to get overlay labels as tooltips.
-  function connectorTip(text, location) {
-    if (!location) {
-      location = 0.5;
+    // Helper function to get overlay labels as tooltips.
+    function connectorTip(text, location) {
+      if (!location) {
+        location = 0.5;
+      }
+      var label = '' +
+        '<div class="node connector-tooltip">' +
+          '<span class="icon-container"><i tabindex="0" class="fa fa-info-circle"></i></span>' +
+          '<span class="info">' + text + '</span>' +
+        '</div>';
+      return [['Custom', {create: function() { return $(label); }, location: location}]]
     }
-    var label = '' +
-      '<div class="node connector-tooltip">' +
-        '<span class="icon-container"><i tabindex="0" class="fa fa-info-circle"></i></span>' +
-        '<span class="info">' + text + '</span>' +
-      '</div>';
-    return [['Custom', {create: function() { return $(label); }, location: location}]]
-  }
 
-  // Helper function to get overlay arrows.
-  function connectorArrow(location) {
-    if (!location) {
-      location = 0.5;
+    // Helper function to get overlay arrows.
+    function connectorArrow(location) {
+      if (!location) {
+        location = 0.5;
+      }
+      return [["Arrow" , { width: 12, length: 12, location: location }]];
     }
-    return [["Arrow" , { width: 12, length: 12, location: location }]];
-  }
 
-  // Draw the connections using the jsPlumb library.
-  jsPlumb.importDefaults({
-    ConnectionsDetachable: false,
-    Connector: 'Straight',
-    Endpoint: [ 'Dot', { radius: 4 } ],
-    Anchors: ['Bottom', 'Top'],
-  });
-  jsPlumb.connect({
-    source: 'authoring-tool',
-    target: 'translation-source',
-    overlays: connectorTip('The Word documents are uploaded to the GitHub repository, to be reviewed/approved.'),
-  });
-  jsPlumb.connect({
-    source: 'translation-source',
-    target: 'translation-platform',
-    overlays: connectorTip('Administrators pull the source files from GitHub to Weblate for translation.'),
-  });
-  jsPlumb.connect({
-    source: 'translation-platform',
-    target: 'translation-targets',
-    overlays: connectorTip('Administrators push the completed translations back to GitHub to be reviewed/approved.'),
-  });
-  jsPlumb.connect({
-    source: 'translation-targets',
-    target: 'hosting-provider',
-    overlays: connectorTip('Completed translation files are automtically processed for deployment to GitHub Pages.'),
-  });
-  jsPlumb.connect({
-    source: 'hosting-provider',
-    target: 'output',
-    overlays: connectorArrow(),
-  });
-  jsPlumb.connect({
-    source: 'output',
-    target: 'authoring-tool',
-    anchors: ['Right', 'Right'],
-    connector: 'Flowchart',
-    overlays: connectorTip('If changes are needed, authors can make edits in the authoring tool to start the process again with a new version.'),
-  });
-  window.addEventListener('resize', function() {
-    jsPlumb.repaintEverything();
-  });
+    // Draw the connections using the jsPlumb library.
+    jsPlumb.importDefaults({
+      ConnectionsDetachable: false,
+      Connector: 'Straight',
+      Endpoint: [ 'Dot', { radius: 4 } ],
+      Anchors: ['Bottom', 'Top'],
+    });
+    jsPlumb.connect({
+      source: 'authoring-tool',
+      target: 'translation-source',
+      overlays: connectorTip('The Word documents are uploaded to the GitHub repository, to be reviewed/approved.'),
+    });
+    jsPlumb.connect({
+      source: 'translation-source',
+      target: 'translation-platform',
+      overlays: connectorTip('Administrators pull the source files from GitHub to Weblate for translation.'),
+    });
+    jsPlumb.connect({
+      source: 'translation-platform',
+      target: 'translation-targets',
+      overlays: connectorTip('Administrators push the completed translations back to GitHub to be reviewed/approved.'),
+    });
+    jsPlumb.connect({
+      source: 'translation-targets',
+      target: 'hosting-provider',
+      overlays: connectorTip('Completed translation files are automtically processed for deployment to GitHub Pages.'),
+    });
+    jsPlumb.connect({
+      source: 'hosting-provider',
+      target: 'output',
+      overlays: connectorArrow(),
+    });
+    jsPlumb.connect({
+      source: 'output',
+      target: 'authoring-tool',
+      anchors: ['Right', 'Right'],
+      connector: 'Flowchart',
+      overlays: connectorTip('If changes are needed, authors can make edits in the authoring tool to start the process again with a new version.'),
+    });
+    window.addEventListener('resize', function() {
+      jsPlumb.repaintEverything();
+    });
 
-  // Add the tooltips with Popper.js.
-  var repos = document.getElementsByClassName('node');
-  for (var i = 0; i < repos.length; i++) {
-    var button = repos[i].getElementsByClassName('icon-container');
-    var text = repos[i].getElementsByClassName('info');
-    if (text.length && button.length) {
-      var instance = new Tooltip(button[0], {
-        title: text[0].innerHTML,
-        placements: ['bottom', 'top'],
-        trigger: 'hover focus',
-        delay: {
-          show: 50,
-          hide: 150,
-        },
-        html: true,
-        closeOnClickOutside: true,
-        // Hijack the template to workaround a bug by adding an "inner" div.
-        // @see https://github.com/FezVrasta/popper.js/issues/669
-        template: '<div class="tooltip" role="tooltip">' +
-                    '<div class="inner">' +
-                      '<div class="tooltip-arrow"></div>' +
-                      '<div class="tooltip-inner"></div>' +
-                    '</div>' +
-                  '</div>',
-      });
+    // Add the tooltips with Popper.js.
+    var repos = document.getElementsByClassName('node');
+    for (var i = 0; i < repos.length; i++) {
+      var button = repos[i].getElementsByClassName('icon-container');
+      var text = repos[i].getElementsByClassName('info');
+      if (text.length && button.length) {
+        var instance = new Tooltip(button[0], {
+          title: text[0].innerHTML,
+          placements: ['bottom', 'top'],
+          trigger: 'hover focus',
+          delay: {
+            show: 50,
+            hide: 150,
+          },
+          html: true,
+          closeOnClickOutside: true,
+          // Hijack the template to workaround a bug by adding an "inner" div.
+          // @see https://github.com/FezVrasta/popper.js/issues/669
+          template: '<div class="tooltip" role="tooltip">' +
+                      '<div class="inner">' +
+                        '<div class="tooltip-arrow"></div>' +
+                        '<div class="tooltip-inner"></div>' +
+                      '</div>' +
+                    '</div>',
+        });
+      }
     }
-  }
+  });
 });
 
 </script>

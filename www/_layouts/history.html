@@ -1,0 +1,47 @@
+---
+layout: single
+---
+<p>Revision history displays all updates incorporated into this metadata file
+by the World Bank Translation Project Team. Each date listed refers to an update
+made by the team to the English metadata file.</p>
+
+<p>Only updates made by the World Bank Translation Project Team are shown. The original
+source file for all English metadata files is the
+<a href="https://unstats.un.org/sdgs/metadata/">UNSD SDG Metadata Repository</a>.</p>
+
+<ul>
+    {% for version in page.history %}
+    <li>
+        {% assign versionDate = version.date | date: '%B %d, %Y' %}
+        {{ versionDate }}<br>
+        <ul class="version-buttons">
+            <li>
+                <a class="btn btn--info" title="Comparison for {{ versionDate }}" href="{{ site.baseurl }}/history/{{ version.renderedDiff }}">Comparison</a>
+                <i tabindex="0" aria-describedby="tooltip-comparison" class="fa fa-info-circle"></i>
+            </li>
+            <li>
+                <a class="btn btn--inverse btn--small" title="Raw changes for {{ versionDate }}" href="{{ site.baseurl }}/history/{{ version.sourceDiff }}">Raw changes</a>
+                <i tabindex="0" aria-describedby="tooltip-raw-changes" class="fa fa-info-circle"></i>
+            </li>
+            <li>
+                <a class="btn btn--inverse btn--small" title="Github for {{ versionDate }}" href="https://github.com/worldbank/sdg-metadata/commit/{{ version.commit }}">Github</a>
+                <i tabindex="0" aria-describedby="tooltip-github" class="fa fa-info-circle"></i>
+            </li>
+        </ul>
+    </li>
+    {% endfor %}
+</ul>
+
+<div id="tooltip-comparison" style="display:none;">
+    "Comparison" shows additions and deletions to metadata files in simple,
+    human-readable format. This view may be helpful to general users.
+</div>
+<div id="tooltip-raw-changes" style="display:none;">
+    "Raw changes" shows additions and deletions to metadata files in detailed
+    format. This view may be helpful when precisely updating translations.
+</div>
+<div id="tooltip-github" style="display:none;">
+    "Github" points to the record of the change on Github.com in which the
+    metadata file was updated. This view is helpful for project managers to
+    identity the reason for the change and its author.
+</div>

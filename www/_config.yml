@@ -80,3 +80,10 @@ compress_html:
     envs: development
 
 display_main_nav: false
+
+footer_scripts:
+  - /assets/js/main.min.js
+  - https://cdnjs.cloudflare.com/ajax/libs/jsPlumb/2.8.6/js/jsplumb.js
+  - https://unpkg.com/popper.js
+  - https://unpkg.com/tooltip.js
+  - /assets/js/custom.js
