@@ -21,6 +21,7 @@ The documents below provide a general **introduction** and **step-by-step instru
   **Step 3:** [Use Weblate to translate machine-readable files and access the output](https://docs.google.com/document/d/1O2k7Gphah0KYXhVYsOQGWPb_TMyrOiCCzjjBsS0CNTQ/edit?usp=sharing)
   
   **Step 4:** [Revising Translations and Applying Translations Across Multiple Files](https://docs.google.com/document/d/1QuVISdsChNiPzPiXVzoUXPfsoHHaCadG_YmwS1K5sNg/edit?usp=sharing)
+  
  *HINT: Adding metadata files for translation? Start with step 1. Translating metadata files? Start wtih step 3. Updating existing translations? See step 4.
         Editing formatting? For English files, see step 1. For translated files, see step 3.*
 
