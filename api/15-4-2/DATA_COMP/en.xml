@@ -4,14 +4,9 @@
 	<message>The DATA_COMP field for indicator 15-4-2, translated into en</message>
 	<data>&lt;h1&gt;Methodology&lt;/h1&gt;
 &lt;h2&gt;Computation method:&lt;/h2&gt;
-&lt;p&gt;The indicator results from the juxtaposition of land cover data extracted from FAO Collect Earth tool and the global map of mountains produced by FAO/MPS in 2015 based on the UNEP-WMCM mountain classification. &lt;/p&gt;
-&lt;p&gt;Collect Earth (&lt;a href=&quot;http://www.openforis.org/tools/collect-earth.html&quot;&gt;http://www.openforis.org/tools/collect-earth.html&lt;/a&gt;) is a free and open source tool that enables data collection through Google Earth for a wide variety of purposes, including:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Support multi-phase National Forest Inventories&lt;/li&gt;
-  &lt;li&gt;Land Use, Land Use Change and Forestry (LULUCF) assessments&lt;/li&gt;
-  &lt;li&gt;Monitoring agricultural land and urban areas&lt;/li&gt;
-  &lt;li&gt;Validation of existing maps&lt;/li&gt;
-  &lt;li&gt;Collection of spatially explicit socio-economic data&lt;/li&gt;
-  &lt;li&gt;Quantifying deforestation, reforestation and desertification&lt;/li&gt;
-&lt;/ul&gt;</data>
+&lt;p&gt;The Mountain Green Cover Index is defined as &lt;/p&gt;
+&lt;p&gt;&lt;em&gt;MGCI = (Mountain Green Cover Area/Total Mountain Area) X 100&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Where Mountain Green Cover area = Sum of areas covered by Cropland, Grassland, Forest and Wetland land cover classes.&lt;/p&gt;
+&lt;p&gt;The vegetation descriptor is calculated from a land cover map using basic GIS functions. &lt;/p&gt;
+&lt;p&gt;If the country/region has no mountain area, it will be assigned value N/A.&lt;/p&gt;</data>
 </root>
