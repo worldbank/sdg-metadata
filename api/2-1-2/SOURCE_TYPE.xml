@@ -89,7 +89,7 @@ Deux versions de la FIES-SM sont disponibles pour les enquêtes auprès des indi
 &lt;/tbody&gt;
 &lt;/table&gt;
 
-&lt;p&gt;Les questions doivent être adaptées et administrées dans la langue préférée des répondants et les recenseurs doivent s&apos;assurer que les répondants reconnaissent la période de référence et le qualificatif selon lequel les expériences doivent être rapportées que lorsqu&apos;elles sont dues à &quot;un manque d&apos;argent ou d&apos;autres ou d&apos;autres ressources” et non, par exemple, à des raisons liées à la santé ou à d&apos;autres habitudes culturelles (comme le jeûne pour des crédos religieux)&lt;/p&gt;
+&lt;p&gt;Les questions doivent être adaptées et administrées dans la langue préférée des répondants et les recenseurs doivent s&apos;assurer que les répondants reconnaissent la période de référence et le qualificatif selon lequel les expériences doivent être rapportées que lorsqu&apos;elles sont dues à &quot;un manque d&apos;argent ou d&apos;autres ou d&apos;autres ressources” et non, par exemple, à des raisons liées à la santé ou à d&apos;autres habitudes culturelles (comme le jeûne pour des crédos religieux).&lt;/p&gt;
 &lt;p&gt;Le FIES-SM peut être inclus dans pratiquement n&apos;importe quelle enquête de population par téléphone ou par entretien personnel, bien que l&apos;entretien en face à face soit préférable. &lt;/p&gt;
 &lt;p&gt;Depuis 2014, le FIES-SM référencé individuellement, est appliqué à des échantillons nationaux représentatifs de la population âgée de 15 ans ou plus dans tous les pays couverts par le Gallup World Poll (plus de 140 pays chaque année, couvrant 90 % de la population mondiale). Dans la plupart des pays, les échantillons comprennent environ 1000 individus (avec des échantillons plus importants de 3000 individus en Inde et 5000 en Chine continentale). &lt;/p&gt;
 &lt;p&gt;Il existe d&apos;autres enquêtes nationales qui collectent déjà des données compatibles avec la FIES. &lt;/p&gt;
@@ -111,9 +111,9 @@ Deux versions de la FIES-SM sont disponibles pour les enquêtes auprès des indi
 &lt;p&gt;Aux Seychelles, les données FIES ont été collectées dans le cadre de l&apos;enquête trimestrielle sur les forces de travail. &lt;/p&gt;
 &lt;p&gt;Aux États-Unis, le HFSSM est inclus chaque année dans le supplément sur la sécurité alimentaire de la Current Population Survey (CPS-FSS) par le Bureau américain du recensement depuis 1995. (Le CPS-FSS a atteint environ 83 000 individus âgés de 15 ans ou plus dans environ 42 000 ménages en 2014). &lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Obtention de données comparables au niveau international pour la surveillance mondiale : &lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Pour assurer la comparabilité des indicateurs FImod+sev et FIsev calculés pour différentes populations, des seuils universels sont définis sur l&apos;échelle de référence globale FIES et convertis en valeurs correspondantes sur les échelles &amp;#x201C;locales&amp;#x201D; obtenues à la suite de l&apos;application du modèle de Rasch sur une population spécifique, par un processus de &amp;#x201C;mise en équation &amp;#x201D;.&lt;/p&gt;
-&lt;p&gt;L&apos;équation est une forme de normalisation de la mesure basée sur l&apos;identification du sous-ensemble d&apos;éléments qui peuvent être considérés comme communs à l&apos;ensemble des FIES et de l&apos;échelle spécifique utilisée pour la mesure dans chaque contexte. Les niveaux de gravité associés aux éléments communs sont utilisés comme points d&apos;ancrage pour ajuster les seuils globaux de la FIES aux échelles locales. Le processus de normalisation garantit que la moyenne et l&apos;écart-type de l&apos;ensemble des éléments communs sont identiques lorsqu&apos;ils sont mesurés sur l&apos;échelle globale de la FIES ou sur l&apos;échelle nationale. La compatibilité avec la FIES globale et la possibilité de compiler cet indicateur exigent qu&apos;au moins quatre des huit éléments de la FIES soient identifiés comme communs .&lt;/p&gt;
-&lt;p&gt;La Division de la statistique de la FAO a mis au point l&apos;ensemble de poids RM.weights sous R, qui fournit des routines pour estimer les paramètres du modèle de Rasch en utilisant le maximum de vraisemblance conditionnelle, avec la possibilité de tenir compte du plan d&apos;enquête complexe .&lt;/p&gt;
+&lt;p&gt;Pour assurer la comparabilité des indicateurs FImod+sev et FIsev calculés pour différentes populations, des seuils universels sont définis sur l&apos;échelle de référence globale FIES et convertis en valeurs correspondantes sur les échelles &amp;#x201C;locales&amp;#x201D; obtenues à la suite de l&apos;application du modèle de Rasch sur une population spécifique, par un processus de &amp;#x201C;mise en équation&amp;#x201D;.&lt;/p&gt;
+&lt;p&gt;L&apos;équation est une forme de normalisation de la mesure basée sur l&apos;identification du sous-ensemble d&apos;éléments qui peuvent être considérés comme communs à l&apos;ensemble des FIES et de l&apos;échelle spécifique utilisée pour la mesure dans chaque contexte. Les niveaux de gravité associés aux éléments communs sont utilisés comme points d&apos;ancrage pour ajuster les seuils globaux de la FIES aux échelles locales. Le processus de normalisation garantit que la moyenne et l&apos;écart-type de l&apos;ensemble des éléments communs sont identiques lorsqu&apos;ils sont mesurés sur l&apos;échelle globale de la FIES ou sur l&apos;échelle nationale. La compatibilité avec la FIES globale et la possibilité de compiler cet indicateur exigent qu&apos;au moins quatre des huit éléments de la FIES soient identifiés comme communs.&lt;/p&gt;
+&lt;p&gt;La Division de la statistique de la FAO a mis au point l&apos;ensemble de poids RM.weights sous R, qui fournit des routines pour estimer les paramètres du modèle de Rasch en utilisant le maximum de vraisemblance conditionnelle, avec la possibilité de tenir compte du plan d&apos;enquête complexe.&lt;/p&gt;
 			</language>
 			<language lang="ru">&lt;h1&gt; Источники данных &lt;/h1&gt;
 &lt;h2&gt; Описание источников и процесса сбора: &lt;/h2&gt;
@@ -124,10 +124,10 @@ Deux versions de la FIES-SM sont disponibles pour les enquêtes auprès des indi
   &lt;li&gt; Шкала продовольственной безопасности Мексики (или Escala Mexicana de Seguridad Alimentaria, - EMSA) - модификация ELCSA, используемая в Мексике,&lt;/li&gt;
   &lt;li&gt; Бразильская шкала отсутствия продовольственной безопасности (Escala Brasileira de medida de la Inseguran &amp;#xE7; a Alimentar &amp;#x2013; EBIA), используемая в Бразилии, или &lt;/li&gt;
   &lt;li&gt; Шкала отсутствия продовольственной безопасности домохозяйств (HFIAS), &lt;/li&gt;
-  &lt;li&gt; или любую из вышеперечисленных модификаций, которые могут быть откалиброваны с учетом глобальной Шкалы восприятия отсутствия продовольственной безопасности (FIES). &lt;/li&gt;
+  &lt;li&gt; или любую из вышеперечисленных модификаций, которые могут быть откалиброваны с учетом глобальной Шкалы восприятия отсутствия продовольственной безопасности (ШОПБ). &lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt; Две версии модуля обследования Шкалы восприятия отсутствия продовольственной безопасности ШОПБ-МО доступны для использования в обследованиях отдельных лиц или домохозяйств соответственно, и разница заключается в том, просят ли респондентов отчитываться только об их индивидуальном восприятии или также о восприятии другого члена домохозяйства.&lt;/p&gt;
-&lt;p&gt; Нынешний модуль FIES-SM включает в себя восемь вопросов, как показано в таблице ниже. &lt;/p&gt;
+&lt;p&gt; Нынешний модуль ШОПБ-МО включает в себя восемь вопросов, показанных в нижеследующей таблице. &lt;/p&gt;
 &lt;table&gt;
   &lt;tbody&gt;
     &lt;tr&gt;
@@ -164,7 +164,7 @@ Deux versions de la FIES-SM sont disponibles pour les enquêtes auprès des indi
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td&gt;
-        &lt;p&gt;Вопрос 3. И было ли время, когда вы (или любой другой взрослый член домохозяйства) употребляли только небольшое количество разновидностей пищи из-за нехватки денег или других ресурсов?&lt;/p&gt;
+        &lt;p&gt;Вопрос 3. И было ли время, когда вы (или любой другой взрослый член домохозяйства) употребляли только небольшое количество разновидной пищи из-за нехватки денег или других ресурсов?&lt;/p&gt;
       &lt;/td&gt;
       &lt;td&gt;
         &lt;p&gt;0 Нет&lt;/p&gt;
@@ -230,9 +230,9 @@ Deux versions de la FIES-SM sont disponibles pour les enquêtes auprès des indi
     &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;p&gt;Вопросы должны быть адаптированы и задаваться на языке, предпочитаемом респондентами, а счетчики должны быть проинструктированы, чтобы они убедились, что респонденты распознают отчетный период и спецификатор, в соответствии с которым следует отчитываться о своем восприятии, только в тех случаях, когда респонденты не потребляли пищу из-за &amp;#x201C; нехватки денег или других ресурсов &amp;#x201D; и не, например, по причинам, связанным со здоровьем или другими культурными привычками (например, пост по религиозным убеждениям).&lt;/p&gt;
+&lt;p&gt;Вопросы должны быть адаптированы и задаваться на языке, предпочитаемом респондентами, а счетчики должны быть проинструктированы, чтобы они были уверены, что респонденты правильно понимают, о каком отчетном периоде идет речь, и каков смысл понятия, в соответствии с которым следует дать ответ о своем восприятии только в тех случаях, когда респонденты не потребляли пищу из-за &amp;#x201C; нехватки денег или других ресурсов &amp;#x201D; и не, например, по причинам, связанным с состоянием здоровья или другими культурно-социальными привычками (например, пост по религиозным убеждениям).&lt;/p&gt;
 &lt;p&gt; Модуль обследования по Шкале восприятия отсутствия продовольственной безопасности (ШОПБ-МО) может быть включен практически в любой телефонный или личный опрос населения, хотя более предпочтительным является личное интервью. &lt;/p&gt;
-&lt;p&gt;С 2014 года индивидуально настроенный модуль обследования Шкалы восприятия отсутствия продовольственной безопасности (ШОПБ-МО) применяется к национально репрезентативным выборкам населения в возрасте 15 лет и старше во всех странах, охваченных всемирным социологическим опросом населения, проводимого Институтом Геллапа (более 140 стран ежегодно, охватывает 90% населения мира). В большинстве стран выборки включают около 1000 человек (с более крупными выборками 3000 человек в Индии и 5000 в континентальном Китае).&lt;/p&gt;
+&lt;p&gt;С 2014 года индивидуально настроенный модуль обследования Шкалы восприятия отсутствия продовольственной безопасности (ШОПБ-МО) применяется к национально репрезентативным выборкам населения в возрасте 15 лет и старше во всех странах, охваченных всемирным социологическим опросом населения, проводимого Институтом Геллапа (ежегодно охватывает более 90% населения в 140 странах мира). В большинстве стран выборки включают около 1000 человек (с более крупными выборками 3000 человек в Индии и 5000 человек в континентальном Китае).&lt;/p&gt;
 &lt;p&gt;Существуют и другие национальные обследования, в которых уже собираются данные, совместимые с ШОПБ. &lt;/p&gt;
 &lt;p&gt;В Буркина-Фасо ШОПБ была включена в раунд ENQUETE MULTISECTORIELLE CONTINUE (EMC-BF) 2014 года.&lt;/p&gt;
 &lt;p&gt;В Кабо-Верде ШОПБ была включена в раунд INQU &amp; # xC9; RITO NACIONAL DE VULNERABILIDADE ALIMENTAR E NUTRICIONAL DAS FAM &amp;#xCD; LIAS 2018 года.&lt;/p&gt;
@@ -240,14 +240,14 @@ Deux versions de la FIES-SM sont disponibles pour les enquêtes auprès des indi
 &lt;p&gt; В Чили ШОПБ была включена в раунд Encuesta de Caracterizaci&amp;#xF3;n Socioecon&amp;#xF3;mica Nacional (Casen) 2017 года.&lt;/p&gt;
 &lt;p&gt;В Эквадоре ШОПБ была включена в раунд обследования GESTI &amp;#xD3; N DE ESTAD &amp;#xCD; STICAS PERMANENTES A HOGARES (GEPH-ENEMDU) 2016 года.&lt;/p&gt;
 &lt;p&gt;В Гане ШОПБ была включена в раунд Обследования уровня жизни за 2016-17 годы. &lt;/p&gt;
-&lt;p&gt;В Индонезии данные ШОПБ регулярно собираются ежегодно с 2017 года в рамках Национального социально-экономического обследования (SUSENAS).&lt;/p&gt;
+&lt;p&gt;В Индонезии данные по ШОПБ ежегодно собираются с 2017 года в рамках Национального социально-экономического обследования (SUSENAS).&lt;/p&gt;
 &lt;p&gt;В Израиле модуль обследования продовольственной безопасности домашних хозяйств (HFSSM) был применен для сбора данных в ходе раунда обследования продовольственной безопасности 2016 года.&lt;/p&gt;
-&lt;p&gt;В Кении ШОПБ была включена в раунд обследования интегрированного бюджета домохозяйств на 2015–16 годы. &lt;/p&gt;
-&lt;p&gt;В Малави ШОПБ была включена в раунд 2016-17 годов ЧЕТВЕРТОГО КОМПЛЕКСНОГО ОБСЛЕДОВАНИЕ ДОМАШНИХ ХОЗЯЙСТВ. &lt;/p&gt;
-&lt;p&gt;В Нигерии ШОПБ была включена в ПАНЕЛЬНОЕ ОБЩЕЕ ОБСЛЕДОВАНИЕ ДОМОХОЗЯЙСТВ 2015 г.&lt;/p&gt;
-&lt;p&gt;В Палестине ШОПБ была включена в 2018 году в раунд 2019 года обследования Социально-экономического мониторинга палестинских домашних хозяйств.&lt;/p&gt;
-&lt;p&gt;В Республике Корея переведенный на корейский язык модуль обследования продовольственной безопасности домашних хозяйств (HFSSM) был включен в раунды 2014 и 2015 годов корейского национального обследования здоровья и питания (KNHANES).&lt;/p&gt;.
-&lt;p&gt;В Российской Федерации данные по ШОПБ были собраны в ходе раунда 2018 года Выборочного наблюдения рациона питания населения. &lt;/p&gt;
+&lt;p&gt;В Кении ШОПБ была включена в раунд обследования интегрированного бюджета домохозяйств за 2015–16 годы. &lt;/p&gt;
+&lt;p&gt;В Малави ШОПБ была включена в раунд 2016-17 годов ЧЕТВЕРТОГО КОМПЛЕКСНОГО ОБСЛЕДОВАНИЯ ДОМАШНИХ ХОЗЯЙСТВ. &lt;/p&gt;
+&lt;p&gt;В Нигерии ШОПБ была включена в ПАНЕЛЬНОЕ ОБЩЕЕ ОБСЛЕДОВАНИЕ ДОМОХОЗЯЙСТВ 2015 года.&lt;/p&gt;
+&lt;p&gt;В Палестине ШОПБ была включена в 2018 году в раунд обследования Социально-экономического мониторинга палестинских домашних хозяйств 2019 года.&lt;/p&gt;
+&lt;p&gt;В Республике Корея переведенный на корейский язык модуль обследования продовольственной безопасности домашних хозяйств (HFSSM) был включен в раунды корейского национального обследования здоровья и питания (KNHANES) 2014 и 2015 годов.&lt;/p&gt;.
+&lt;p&gt;В Российской Федерации данные по ШОПБ были собраны в ходе Выборочного наблюдения рациона питания населения раунда 2018 года. &lt;/p&gt;
 &lt;p&gt;В Сент-Люсии данные по ШОПБ были собраны в рамках Обследования условий жизни и бюджетов домохозяйств 2016 года.&lt;/p&gt;
 &lt;p&gt;На Сейшельских Островах данные по ШОПБ были собраны в рамках Ежеквартального обследования рабочей силы.&lt;/p&gt;
 &lt;p&gt;В Соединенных Штатах Бюро переписи населения США с 1995 года ежегодно включает Модуль обследования продовольственной безопасности домашних хозяйств (HFSSM) в Приложение по продовольственной безопасности к текущему обследованию населения (CPS-FSS). (CPS-FSS в 2014 году охватило около 83,000 человек в возрасте 15 лет и старше в 42,000 домохозяйств).&lt;/p&gt;
