@@ -13,7 +13,13 @@
 &lt;/ul&gt;
 &lt;p&gt; Pour éclairer la projection des tendances entre les périodes où les données sont rares, ou pour les pays qui ont peu ou pas de données du tout, le modèle statistique BMaT est utilisé pour estimer la mortalité maternelle. Le modèle comprend des facteurs connus pour être associés à la mortalité maternelle en tant que covariés prédicteurs (PIB, DFG et BRS). &lt;/p&gt;
 			</language>
-			<language lang="ru"/>
+			<language lang="ru">&lt;h2&gt; Обработка отсутствующих значений: &lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt; &lt;strong&gt; &lt;em&gt; На страновом уровне: &lt;/em&gt; &lt;/strong&gt; &lt;/li&gt;
+  &lt;li&gt; &lt;strong&gt; &lt;em&gt; На региональном и глобальном уровнях: &lt;/em&gt; &lt;/strong&gt; &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt; Статистическая модель BMaT используется для оценки материнской смертности при формировании прогнозирования, основанного на тенденциях, за периоды, когда данных недостаточно, или для стран, у которых данных мало или вообще нет. Модель включает факторы, которые, как известно, связаны с материнской смертностью, в качестве прогностического фактора ковариантов (валовой внутренний продукт (ВВП), общий коэффициент фертильности (ОКФ) и доля деторождений при квалифицированном родовспоможении (ДКР)). &lt;/p&gt;
+			</language>
 			<language lang="en">&lt;h2&gt;Treatment of missing values:&lt;/h2&gt;
 &lt;ul&gt;
   &lt;li&gt;&lt;strong&gt;&lt;em&gt;At country level:&lt;/em&gt;&lt;/strong&gt;&lt;/li&gt;
