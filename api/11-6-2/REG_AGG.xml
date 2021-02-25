@@ -5,7 +5,11 @@
 	<data>
 		<languages>
 			<language lang="ar"/>
-			<language lang="es"/>
+			<language lang="es">&lt;h2&gt; Agregados regionales:&lt;/h2&gt;
+&lt;p&gt; Los agregados regionales y mundiales son cifras ponderadas por población de las estimaciones nacionales. &lt;/p&gt;
+&lt;p&gt; Cagg=SUM (Cnat * Pnat)/ SUM (Pnat)&lt;/p&gt;
+&lt;p&gt; donde Cagg es la estimación regional/global, Cnat es la estimación nacional, Pnat es la población del país. La suma se hace sobre los países de la región (agregado regional) o todos los países (agregado global). &lt;/p&gt;
+			</language>
 			<language lang="fr">&lt;h2&gt;Agrégats régionaux: &lt;/h2&gt;
 &lt;p&gt;Les agrégats régionaux et mondiaux sont les chiffres des estimations nationales pondérés en fonction de la population. &lt;/p&gt;
 &lt;p&gt;Cagg=SUM (Cnat * Pnat)/ SUM (Pnat) &lt;/p&gt;
