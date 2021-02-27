@@ -11,6 +11,7 @@ module.exports = function(refresh=false) {
     }
     const sdgMetadataConvert = require('sdg-metadata-convert')
     const pdfOutput = new sdgMetadataConvert.PdfOutput(docOptions)
+    const yamlInput = new sdgMetadataConvert.YamlInput()
 
     if (refresh) {
         store.refresh()
@@ -19,12 +20,9 @@ module.exports = function(refresh=false) {
     // Compile arrays of source -> target conversions.
     const pdfConversions = []
     for (const language of store.getLanguages()) {
-        const sourceStrings = (language === 'en')
-        const sourceLangFolder = sourceStrings ? 'templates' : language
-        const sourceExtension = sourceStrings ? '.pot' : '.po'
-        const inputOptions = { sourceStrings: sourceStrings }
-        const gettextInput = new sdgMetadataConvert.GettextInput(inputOptions)
-        const sourceFolder = path.join('translations', sourceLangFolder)
+        const sourceLangFolder = language
+        const sourceExtension = '.yml'
+        const sourceFolder = path.join('translations-metadata', sourceLangFolder)
         const files = fs.readdirSync(sourceFolder).filter(file => {
             return path.extname(file).toLowerCase() === sourceExtension
         })
@@ -33,16 +31,16 @@ module.exports = function(refresh=false) {
             const targetFolder = utils.createFolder(['www', 'documents', language])
             const pdfFile = sourceFile.replace(sourceExtension, '.pdf')
             const pdfPath = path.join(targetFolder, pdfFile)
-            pdfConversions.push([sourcePath, pdfPath, gettextInput])
+            pdfConversions.push([sourcePath, pdfPath])
         }
     }
     convertPdfs()
 
     async function convertPdfs() {
         for (const conversion of pdfConversions) {
-            const [inputFile, outputFile, gettextInput] = conversion
+            const [inputFile, outputFile] = conversion
             try {
-                const metadata = await gettextInput.read(inputFile)
+                const metadata = await yamlInput.read(inputFile)
                 await pdfOutput.write(metadata, outputFile)
                 console.log(`Converted ${inputFile} to ${outputFile}.`);
             } catch(e) {
