@@ -3,18 +3,18 @@ const fs = require('fs')
 
 const sdgMetadataConvert = require('sdg-metadata-convert')
 const wordTemplateInput = new sdgMetadataConvert.WordTemplateInput({debug:true})
-const gettextOutput = new sdgMetadataConvert.GettextOutput()
+const yamlOutput = new sdgMetadataConvert.YamlOutput()
 
 const sourceFolder = 'indicators'
-const targetFolder = path.join('translations', 'templates')
+const targetFolder = path.join('translations-metadata', 'en')
 const extensions = ['.docx', '.docm']
 const files = fs.readdirSync(sourceFolder).filter(file => {
     return extensions.includes(path.extname(file).toLowerCase());
 })
 const conversions = files.map(sourceFile => {
     const sourcePath = path.join(sourceFolder, sourceFile)
-    const targetFile = sourceFile.split('.')[0] + '.pot'
-    const blankTranslationFile = sourceFile.split('.')[0] + '.po'
+    const targetFile = sourceFile.split('.')[0] + '.yml'
+    const blankTranslationFile = sourceFile.split('.')[0] + '.yml'
     const targetPath = path.join(targetFolder, targetFile)
     return [sourcePath, targetPath, blankTranslationFile]
 })
@@ -30,16 +30,14 @@ async function importIndicators() {
             if (indicatorIsNew) {
                 for (const languageFolder of fs.readdirSync('translations')) {
                     if (languageFolder != 'templates') {
-                        const blankTranslationOutput = new sdgMetadataConvert.GettextOutput({
-                            language: languageFolder
-                        })
+                        const blankTranslationOutput = new sdgMetadataConvert.YamlOutput()
                         const blankTranslationPath = path.join('translations', languageFolder, blankTranslationFile)
                         await blankTranslationOutput.write(metadata, blankTranslationPath)
                         console.log(`Converted ${inputFile} to ${blankTranslationPath}.`);
                     }
                 }
             }
-            await gettextOutput.write(metadata, outputFile)
+            await yamlOutput.write(metadata, outputFile)
             console.log(`Converted ${inputFile} to ${outputFile}.`);
         } catch(e) {
             console.log(e)
