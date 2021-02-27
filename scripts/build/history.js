@@ -10,6 +10,9 @@ module.exports = function() {
     const wordTemplateInput = new WordTemplateInput()
     const tempRepoPath = 'temp'
 
+    const revisionNamingConvention = 'REVISION'
+    const uploadNamingConvention = 'Add files via upload'
+
     const headerDisclaimer = `
         <p>
             Only updates made by the World Bank Translation Project Team are shown.
@@ -59,7 +62,21 @@ module.exports = function() {
             const filePath = path.join('indicators', file)
             const logs = await repo.log({ file: filePath })
             const versions = []
+            let treatUploadAsRevision = true
             for (const log of logs.all.reverse()) {
+                const isRevision = log.message.includes(revisionNamingConvention)
+                if (!isRevision) {
+                    const isUpload = log.message.includes(uploadNamingConvention)
+                    if (!isUpload) {
+                        continue
+                    }
+                    if (!treatUploadAsRevision) {
+                        continue
+                    }
+                    // We will treat this one as a revision,
+                    // but switch to false to ignore future ones.
+                    treatUploadAsRevision = false
+                }
                 const metadata = await metadataFromCommit(log.hash, filePath, tempRepo)
                 if (metadata != false) {
                     versions.push({ metadata, log })
