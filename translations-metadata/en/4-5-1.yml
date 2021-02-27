@@ -1,0 +1,129 @@
+SDG_GOAL: >-
+  <p>Goal 4: Ensure inclusive and equitable quality education and promote
+  lifelong learning opportunities for all</p>
+SDG_TARGET: >-
+  <p>Target 4.5: By 2030, eliminate gender disparities in education and ensure
+  equal access to all levels of education and vocational training for the
+  vulnerable, including persons with disabilities, indigenous peoples and
+  children in vulnerable situations</p>
+SDG_INDICATOR: >-
+  <p>Indicator 4.5.1: Parity indices (female/male, rural/urban, bottom/top
+  wealth quintile and others such as disability status, indigenous peoples and
+  conflict-affected, as data become available) for all education indicators on
+  this list that can be disaggregated</p>
+META_LAST_UPDATE: '<p>Last updated: 19 July 2016</p>'
+SDG_RELATED_INDICATORS: >-
+  <h1>Related indicators</h1>
+
+  <p>All equity targets and targets associated with the underlying
+  indicators.</p>
+SDG_CUSTODIAN_AGENCIES: |-
+  <h1>Institutional information</h1>
+  <h2><strong><strong>Organization(s):</strong></strong></h2>
+  <p>UNESCO Institute for Statistics (UNESCO-UIS)</p>
+STAT_CONC_DEF: >-
+  <h1>Concepts and definitions</h1>
+
+  <h2><strong><strong>Definition:</strong></strong></h2>
+
+  <p>Parity indices require data for the specific groups of interest. They
+  represent the ratio of the indicator value for one group to that of the other.
+  Typically, the likely more disadvantaged group is placed in the numerator. A
+  value of exactly 1 indicates parity between the two groups.</p>
+
+  <h2><strong><strong>Concepts:</strong></strong></h2>
+
+  <p>See metadata for relevant underlying indicator.</p>
+SOURCE_TYPE: >-
+  <h1>Data sources</h1>
+
+  <h2><strong><strong>Description:</strong></strong></h2>
+
+  <p>The sources are the same as for the underlying indicators for this
+  goal.</p>
+COLL_METHOD: |-
+  <h2><strong><strong>Collection process:</strong></strong></h2>
+  <p>The same as the underlying indicator.</p>
+FREQ_COLL: |-
+  <h1>Calendar</h1>
+  <h2><strong><strong>Data collection:</strong></strong></h2>
+  <p>Depends on underlying indicator. </p>
+REL_CAL_POLICY: |-
+  <h2><strong><strong>Data release:</strong></strong></h2>
+  <p>Depends on underlying indicator. </p>
+DATA_SOURCE: |-
+  <h1>Data providers</h1>
+  <p>The same as the underlying indicator.</p>
+COMPILING_ORG: |-
+  <h1>Data compilers</h1>
+  <p>UNESCO Institute for Statistics</p>
+RATIONALE: >-
+  <h2><strong><strong>Rationale:</strong></strong></h2>
+
+  <p>To measure the general level of disparity between two sub-populations of
+  interest with regard to a given indicator. The further from 1 the parity index
+  lies, the greater the disparity between the two groups of interest.</p>
+REC_USE_LIM: >-
+  <h2><strong><strong>Comments and limitations:</strong></strong></h2>
+
+  <p>The indicator is not symmetrical about 1 but a simple transformation can
+  make it so (by inverting ratios that exceed 1 and subtracting them from 2).
+  This will make interpretation easier.</p>
+DATA_COMP: >-
+  <h1>Methodology</h1>
+
+  <h2><strong><strong>Computation method:</strong></strong></h2>
+
+  <p>The indicator value of the likely more disadvantaged group is divided by
+  the indicator value of the other sub-population of interest. </p>
+
+  <p>DPI = [Indi]d</p>
+
+  <p>[Indi]a</p>
+
+  <p>where:</p>
+
+  <p>DPI = the Dimension (Gender, Wealth, Location, etc.) Parity Index</p>
+
+  <p>Indi = the Education 2030 Indicator i for which an equity measure is
+  needed.</p>
+
+  <p>d = the likely disadvantaged group (e.g. female, poorest, etc.)</p>
+
+  <p>a = the likely advantaged group (e.g. male, richest, etc.)</p>
+IMPUTATION: |-
+  <h2><strong><strong>Treatment of missing values:</strong></strong></h2>
+  <ul>
+    <li><strong><em>At country level:</em></strong></li>
+  </ul>
+  <p>The same as the underlying indicator.</p>
+  <ul>
+    <li><strong><em>At regional and global levels:</em></strong></li>
+  </ul>
+  <p>The same as the underlying indicator.</p>
+REG_AGG: |-
+  <h2><strong><strong>Regional aggregates:</strong></strong></h2>
+  <p>The same as the underlying indicator.</p>
+COVERAGE: >-
+  <h1>Data availability</h1>
+
+  <p>Depends on underlying indicator </p>
+
+  <h2><strong><strong>Disaggregation:</strong></strong></h2>
+
+  <p>None because the parity indices directly compare two sub-populations of
+  interest.</p>
+COMPARABILITY: |-
+  <h2><strong><strong>Sources of discrepancies:</strong></strong></h2>
+  <p>The same as the underlying indicator.</p>
+OTHER_DOC: >-
+  <h1>References</h1>
+
+  <h2><strong><strong>URL:</strong></strong></h2>
+
+  <p><a
+  href="http://www.uis.unesco.org/Pages/default.aspx">http://www.uis.unesco.org/Pages/default.aspx</a></p>
+
+  <h2><strong><strong>References:</strong></strong></h2>
+
+  <p>See references for each underlying indicator.</p>

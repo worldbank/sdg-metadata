@@ -1,0 +1,160 @@
+SDG_GOAL: >-
+  <p>Goal 8: Promote sustained, inclusive and sustainable economic growth, full
+  and productive employment and decent work for all</p>
+SDG_TARGET: >-
+  <p>Target 8.a: Increase Aid for Trade support for developing countries, in
+  particular least developed countries, including through the Enhanced
+  Integrated Framework for Trade-related Technical Assistance to Least Developed
+  Countries</p>
+SDG_INDICATOR: '<p>Indicator 8.a.1: Aid for Trade commitments and disbursements</p>'
+META_LAST_UPDATE: '<p>Last updated: 19 July 2016</p>'
+SDG_CUSTODIAN_AGENCIES: |-
+  <h1>Institutional information</h1>
+  <h2>Organization(s):</h2>
+  <p>Organisation for Economic Co-operation and Development (OECD)</p>
+STAT_CONC_DEF: >-
+  <h1>Concepts and definitions</h1>
+
+  <h2>Definition:</h2>
+
+  <p>Aid for Trade commitments and disbursements is the gross disbursements and
+  commitments of total Official Development Assistance (ODA) from all donors for
+  aid for trade.</p>
+
+  <h2>Concepts:</h2>
+
+  <p>The DAC defines Official Development Assistance (ODA) as &#x201C;those
+  flows to countries and territories on the DAC List of ODA Recipients and to
+  multilateral institutions which are i) provided by official agencies,
+  including state and local governments, or by their executive agencies; and ii)
+  each transaction is administered with the promotion of the economic
+  development and welfare of developing countries as its main objective; and is
+  concessional in character and conveys a grant element of at least 25 per cent
+  (calculated at a rate of discount of 10 per cent). (See <a
+  href="http://www.oecd.org/dac/stats/officialdevelopmentassistancedefinitionandcoverage.htm">http://www.oecd.org/dac/stats/officialdevelopmentassistancedefinitionandcoverage.htm</a>)</p>
+
+  <p>Other official flows (OOF),excluding officially supported export credits,
+  are defined as transactions by the official sector which do not meet the
+  conditions for eligibility as ODA, either because they are not primarily aimed
+  at development, or because they are not sufficiently concessional. See <a
+  href="http://www.oecd.org/dac/stats/documentupload/DCDDAC(2016)3FINAL.pdf">http://www.oecd.org/dac/stats/documentupload/DCDDAC(2016)3FINAL.pdf</a>,
+  Para 24.</p>
+
+  <p>Aid for Trade is captured in the CRS through sector codes in the 331 series
+  and the aid for trade marker. see here: <a
+  href="http://www.oecd.org/dac/stats/purposecodessectorclassification.htm">http://www.oecd.org/dac/stats/purposecodessectorclassification.htm</a>.</p>
+
+  <p>&#x2018;All donors&#x2019; refers to DAC donors, non-DAC donors and
+  multilateral organisations. </p>
+SOURCE_TYPE: >-
+  <h1>Data sources</h1>
+
+  <h2>Description:</h2>
+
+  <p>The OECD/DAC has been collecting data on official and private resource
+  flows from 1960 at an aggregate level and 1973 at an activity level through
+  the Creditor Reporting System (CRS data are considered complete from 1995 for
+  commitments at an activity level and 2002 for disbursements).</p>
+
+  <p>The data are reported by donors according to the same standards and
+  methodologies (see here: <a
+  href="http://www.oecd.org/dac/stats/methodology.htm">http://www.oecd.org/dac/stats/methodology.htm</a>).</p>
+
+  <p>Data are reported on an annual calendar year basis by statistical reporters
+  in national administrations (aid agencies, Ministries of Foreign Affairs or
+  Finance, etc.</p>
+COLL_METHOD: >-
+  <h2>Collection process:</h2>
+
+  <p>A statistical reporter is responsible for the collection of DAC statistics
+  in each providing country/agency. This reporter is usually located in the
+  national aid agency, Ministry of Foreign Affairs or Finance etc.</p>
+FREQ_COLL: >-
+  <h1>Calendar</h1>
+
+  <h2>Data collection:</h2>
+
+  <p>Data are published on an annual basis in December for flows in the previous
+  year. Detailed 2015 flows will be published in December 2016.</p>
+REL_CAL_POLICY: |-
+  <h2>Data release:</h2>
+  <p>December 2016.</p>
+DATA_SOURCE: >-
+  <h1>Data providers</h1>
+
+  <p>Data are reported on an annual calendar year basis by statistical reporters
+  in national administrations (aid agencies, Ministries of Foreign Affairs or
+  Finance, etc.</p>
+COMPILING_ORG: |-
+  <h1>Data compilers</h1>
+  <p>OECD</p>
+RATIONALE: >-
+  <h2>Rationale:</h2>
+
+  <p>Total Official Development Assistance (ODA) and Other Official Flows (OOF)
+  to developing countries quantify the public effort that donors provide to
+  developing countries for aid for trade.</p>
+REC_USE_LIM: >-
+  <h2>Comments and limitations:</h2>
+
+  <p>Data in the Creditor Reporting System are available from 1973. However, the
+  data coverage is considered complete from 1995 for commitments at an activity
+  level and 2002 for disbursements.</p>
+DATA_COMP: >-
+  <h1>Methodology</h1>
+
+  <h2>Computation method:</h2>
+
+  <p>The sum of ODA and OOF flows from all donors to developing countries for
+  aid for trade.</p>
+IMPUTATION: >-
+  <h2>Treatment of missing values:</h2>
+
+  <ul>
+    <li>At country level</li>
+  </ul>
+
+  <p>Due to high quality of reporting, no estimates are produced for missing
+  data.</p>
+
+  <ul>
+    <li>At regional and global levels</li>
+  </ul>
+
+  <p>Not applicable.</p>
+REG_AGG: >-
+  <h2>Regional aggregates:</h2>
+
+  <p>Global and regional figures are based on the sum of ODA and OOF flows for
+  aid for trade activities.</p>
+COVERAGE: >-
+  <h1>Data availability</h1>
+
+  <p>On a donor basis for all DAC countries and many non-DAC providers
+  (bilateral and multilateral) that report to the DAC on aid for
+  scholarships.</p>
+
+  <p>On a recipient basis for all developing countries eligible for ODA.</p>
+
+  <h2>Disaggregation:</h2>
+
+  <p>This indicator can be disaggregated by donor, recipient country, type of
+  finance, type of aid, trade policy and regulations and trade related
+  adjustment sub-sectors, etc..</p>
+COMPARABILITY: >-
+  <h2>Sources of discrepancies:</h2>
+
+  <p>DAC statistics are standardized on a calendar year basis for all donors and
+  may differ from fiscal year data available in budget documents for some
+  countries.</p>
+OTHER_DOC: >-
+  <h1>References</h1>
+
+  <p><strong>URL:</strong></p>
+
+  <p><a href="www.oecd.org/dac/stats">www.oecd.org/dac/stats</a></p>
+
+  <h2>References:</h2>
+
+  <p>See all links here: <a
+  href="http://www.oecd.org/dac/stats/methodology.htm">http://www.oecd.org/dac/stats/methodology.htm</a></p>
