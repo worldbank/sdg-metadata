@@ -5,9 +5,6 @@
 	<data>
 		<languages>
 			<language lang="ar"/>
-			<language lang="es"/>
-			<language lang="fr"/>
-			<language lang="ru"/>
 			<language lang="en">&lt;p&gt;&lt;strong&gt;Treatment of missing values:&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;&lt;strong&gt;&lt;em&gt;At country level:&lt;/em&gt;&lt;/strong&gt;&lt;/li&gt;
@@ -18,6 +15,9 @@
 &lt;/ul&gt;
 &lt;p&gt;No imputation is provided if values are missing for the entire country or the region. It can only be projected from the data reported for previous years.&lt;/p&gt;
 			</language>
+			<language lang="es"/>
+			<language lang="fr"/>
+			<language lang="ru"/>
 </languages>
 </data>
 </root>

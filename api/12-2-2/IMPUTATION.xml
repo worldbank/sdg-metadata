@@ -5,6 +5,16 @@
 	<data>
 		<languages>
 			<language lang="ar"/>
+			<language lang="en">&lt;h2&gt;Treatment of missing values:&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;At country level:&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;A zero is imputed when no positive real value was officially recorded, in the base data sets used, for any of the underlying components which make up this aggregated total. Thus &amp;#x201C;0.0&amp;#x201D; can represent either NA, or a genuine 0.0, or (crucially) a combination of both, which is a common situation. This allows for values to be easily aggregated into further aggregations; however, it should be thus noted that due to imputing missing values as &amp;#x2018;0.0&amp;#x2019;, the aggregations may represent a lower value than actual situation. &lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;At regional and global levels:&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Similarly, missing values are imputed as zero in the regional and global aggregations. However, in the case where no data is available at all for a particular country then the per capita and per GDP estimates are weighted averages of the available data. &lt;/p&gt;
+			</language>
 			<language lang="es"/>
 			<language lang="fr">&lt;h2&gt; Traitement des valeurs manquantes : &lt;/h2&gt;
 &lt;ul&gt;
@@ -25,16 +35,6 @@
   &lt;li&gt; &lt;strong&gt;&lt;em&gt;На региональном и глобальном уровнях:&lt;/em&gt;&lt;/strong&gt; &lt;/li&gt;
 &lt;/ul&gt;
 Точно так же, нулевые значения вменяются в отсутствующие значения в региональных и глобальных агрегатах. Однако в случае, если данных по какой-либо конкретной стране вообще нет в наличии, оценки на душу населения и на единицу ВВП представляют собой средневзвешенные значения имеющихся данных. &lt;/p&gt;
-			</language>
-			<language lang="en">&lt;h2&gt;Treatment of missing values:&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;At country level:&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;A zero is imputed when no positive real value was officially recorded, in the base data sets used, for any of the underlying components which make up this aggregated total. Thus &amp;#x201C;0.0&amp;#x201D; can represent either NA, or a genuine 0.0, or (crucially) a combination of both, which is a common situation. This allows for values to be easily aggregated into further aggregations; however, it should be thus noted that due to imputing missing values as &amp;#x2018;0.0&amp;#x2019;, the aggregations may represent a lower value than actual situation. &lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;At regional and global levels:&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Similarly, missing values are imputed as zero in the regional and global aggregations. However, in the case where no data is available at all for a particular country then the per capita and per GDP estimates are weighted averages of the available data. &lt;/p&gt;
 			</language>
 </languages>
 </data>

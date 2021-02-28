@@ -5,6 +5,54 @@
 	<data>
 		<languages>
 			<language lang="ar"/>
+			<language lang="en">&lt;h1&gt;Methodology&lt;/h1&gt;
+&lt;h2&gt;Computation method:&lt;/h2&gt;
+&lt;p&gt;Water use efficiency is computed as the sum of the three sectors listed above, weighted according to the proportion of water used by each sector over the total use. In formula:&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;WUE = A&lt;sub&gt;we&lt;/sub&gt; x P&lt;sub&gt;A&lt;/sub&gt; + M&lt;sub&gt;we&lt;/sub&gt; x P&lt;sub&gt;M&lt;/sub&gt; + S&lt;sub&gt;we&lt;/sub&gt; X P&lt;sub&gt;s&lt;/sub&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Where:&lt;/p&gt;
+&lt;p&gt;WUE = Water use efficiency&lt;/p&gt;
+&lt;p&gt;A&lt;sub&gt;we&lt;/sub&gt; = Irrigated agriculture water use efficiency [USD/m&lt;sup&gt;3&lt;/sup&gt;]&lt;/p&gt;
+&lt;p&gt;M&lt;sub&gt;we&lt;/sub&gt; = MIMEC water use efficiency [USD/m&lt;sup&gt;3&lt;/sup&gt;]&lt;/p&gt;
+&lt;p&gt;S&lt;sub&gt;we&lt;/sub&gt; = Services water use efficiency [USD/m&lt;sup&gt;3&lt;/sup&gt;]&lt;/p&gt;
+&lt;p&gt;P&lt;sub&gt;A&lt;/sub&gt; = Proportion of water used by the agricultural sector over the total use&lt;/p&gt;
+&lt;p&gt;P&lt;sub&gt;M&lt;/sub&gt; = Proportion of water used by the MIMEC sector over the total use&lt;/p&gt;
+&lt;p&gt;P&lt;sub&gt;S&lt;/sub&gt; = Proportion of water used by the service sector over the total use&lt;/p&gt;
+&lt;p&gt;The computing of each sector is described below.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Water use efficiency in irrigated agriculture&lt;/em&gt; is calculated as the agricultural value added per agricultural water use, expressed in USD/m&lt;sup&gt;3&lt;/sup&gt;. &lt;/p&gt;
+&lt;p&gt;In formula:&lt;/p&gt;
+&lt;p&gt;A&lt;sub&gt;we&lt;/sub&gt; = (GVA&lt;sub&gt;a&lt;/sub&gt; x (1-C&lt;sub&gt;r&lt;/sub&gt;))/V&lt;sub&gt;a&lt;/sub&gt;&lt;/p&gt;
+&lt;p&gt;Where:&lt;/p&gt;
+&lt;p&gt;A&lt;sub&gt;we&lt;/sub&gt; = Irrigated agriculture water use efficiency [USD/m&lt;sup&gt;3&lt;/sup&gt;]&lt;/p&gt;
+&lt;p&gt;GVA&lt;sub&gt;a &lt;/sub&gt;= Gross value added by agriculture (excluding river and marine fisheries and forestry) [USD]&lt;/p&gt;
+&lt;p&gt;C&lt;sub&gt;r&lt;/sub&gt; = Proportion of agricultural GVA produced by rainfed agriculture &lt;/p&gt;
+&lt;p&gt;V&lt;sub&gt;a&lt;/sub&gt; = Volume of water used by the agricultural sector (including irrigation, livestock and aquaculture) [m&lt;sup&gt;3&lt;/sup&gt;]&lt;/p&gt;
+&lt;p&gt;The volume of water used by the agricultural sectors (V) is collected at country level through national records and reported in questionnaires, in units of m&lt;sup&gt;3&lt;/sup&gt;/year (see example in AQUASTAT &lt;a href=&quot;http://www.fao.org/nr/water/aquastat/sets/aq-5yr-quest_eng.xls&quot;&gt;http://www.fao.org/nr/water/aquastat/sets/aq-5yr-quest_eng.xls)&lt;/a&gt;. Agricultural value added in national currency is obtained from national statistics, converted to USD and deflated to the baseline year.&lt;/p&gt;
+&lt;p&gt;C&lt;sub&gt;r&lt;/sub&gt; can be calculated from the proportion of irrigated land on the total Arable land and Permanent crops (hereinafter &amp;#x201C;cultivated land&amp;#x201D;, as follows:&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;C&lt;sub&gt;r&lt;/sub&gt; = 1/(1+(A&lt;sub&gt;i&lt;/sub&gt;/((1-A&lt;sub&gt;i&lt;/sub&gt;) * 0.375)))&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Where:&lt;/p&gt;
+&lt;p&gt;A&lt;sub&gt;i&lt;/sub&gt; = proportion of irrigated land on the total cultivated land, in decimals&lt;/p&gt;
+&lt;p&gt;0.375 = generic default ratio between rainfed and irrigated yields&lt;/p&gt;
+&lt;p&gt;More detailed estimations are however possible and encouraged at country level.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Water efficiency of the MIMEC sectors (including power production): &lt;/em&gt;MIMEC value added per unit of water used for the MIMEC sector, expressed in USD/m&lt;sup&gt;3&lt;/sup&gt;.&lt;/p&gt;
+&lt;p&gt;In formula:&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;M&lt;sub&gt;we&lt;/sub&gt; = GVA&lt;sub&gt;m&lt;/sub&gt;/V&lt;sub&gt;m&lt;/sub&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Where:&lt;/p&gt;
+&lt;p&gt;M&lt;sub&gt;we&lt;/sub&gt; = Industrial water use efficiency [USD/m&lt;sup&gt;3&lt;/sup&gt;]&lt;/p&gt;
+&lt;p&gt;GVA&lt;sub&gt;m&lt;/sub&gt; = Gross value added by MIMEC (including energy) [USD]&lt;/p&gt;
+&lt;p&gt;V&lt;sub&gt;m&lt;/sub&gt; = Volume of water used by MIMEC (including energy) [m&lt;sup&gt;3&lt;/sup&gt;]&lt;/p&gt;
+&lt;p&gt;MIMEC water use (V&lt;sub&gt;m&lt;/sub&gt;) is collected at country level through national records and reported in questionnaires, in units of m&lt;sup&gt;3&lt;/sup&gt;/year (see example in AQUASTAT &lt;a href=&quot;http://www.fao.org/nr/water/aquastat/sets/aq-5yr-quest_eng.xls&quot;&gt;http://www.fao.org/nr/water/aquastat/sets/aq-5yr-quest_eng.xls&lt;/a&gt;). MIMEC value added is obtained from national statistics, deflated to the baseline year.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Services water supply efficiency &lt;/em&gt;is calculated as the service sector value added (ISIC 36-39 and ISIC 45-98) divided by water used for distribution by the water collection, treatment and supply industry (ISIC 36), expressed in USD/m&lt;sup&gt;3&lt;/sup&gt;.&lt;/p&gt;
+&lt;p&gt;In formula:&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;S&lt;sub&gt;we&lt;/sub&gt; = GVA&lt;sub&gt;s&lt;/sub&gt;/V&lt;sub&gt;s&lt;/sub&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Where:&lt;/p&gt;
+&lt;p&gt;S&lt;sub&gt;we&lt;/sub&gt; = &lt;em&gt;Services water use efficiency [USD/m&lt;sup&gt;3&lt;/sup&gt;]&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;GVA&lt;sub&gt;s&lt;/sub&gt; = Gross value added by services [USD]&lt;/p&gt;
+&lt;p&gt;V&lt;sub&gt;s&lt;/sub&gt; = Volume of water used by the service sector [m&lt;sup&gt;3&lt;/sup&gt;]&lt;/p&gt;
+&lt;p&gt;Data on volumes of used and distributed water are collected at country level from the municipal supply utilities records and reported in questionnaires, in units of km&lt;sup&gt;3&lt;/sup&gt;/year or million m&lt;sup&gt;3&lt;/sup&gt;/year (see example in AQUASTAT &lt;a href=&quot;http://www.fao.org/nr/water/aquastat/sets/aq-5yr-quest_eng.xls&quot;&gt;http://www.fao.org/nr/water/aquastat/sets/aq-5yr-quest_eng.xls)&lt;/a&gt;. Services value added is obtained from national statistics, deflated to the baseline year.&lt;/p&gt;
+&lt;p&gt;Change in water use efficiency (CWUE) is computed as the ratio of water use efficiency (WUE) in time t minus water use efficiency in time t-1, divided by water use efficiency in time t-1 and multiplied by 100:&lt;/p&gt;
+&lt;p&gt;CWUE = ((WUE&lt;sub&gt;t&lt;/sub&gt; &amp;#x2013; WUE&lt;sub&gt;t-1&lt;/sub&gt;)/WUE&lt;sub&gt;t-1&lt;/sub&gt;)&lt;sub&gt; &lt;/sub&gt;* 100&lt;/p&gt;
+&lt;p&gt;It must be noted that computing the indicator in an aggregated manner, i.e. total GDP over total water use, would lead to an overestimation of the indicator. That is due to the fact that, for the agricultural sector, only the value produced under irrigation has to be counted in calculating the indicator. Hence, the sum of the value added of the various sectors used in these formulas is not equivalent to the total GDP of the country.&lt;/p&gt;
+			</language>
 			<language lang="es"/>
 			<language lang="fr">&lt;h1&gt; Méthodologie&lt;/h1&gt;
 &lt;h2&gt; Méthode de calcul:&lt;/h2&gt;
@@ -54,54 +102,6 @@
 &lt;p&gt; CWUE = ((WUE&lt;sub&gt;t&lt;/sub&gt; &amp;#x2013; WUE&lt;sub&gt;t-1&lt;/sub&gt;)/WUE&lt;sub&gt;t-1&lt;/sub&gt;)[
 			</language>
 			<language lang="ru"/>
-			<language lang="en">&lt;h1&gt;Methodology&lt;/h1&gt;
-&lt;h2&gt;Computation method:&lt;/h2&gt;
-&lt;p&gt;Water use efficiency is computed as the sum of the three sectors listed above, weighted according to the proportion of water used by each sector over the total use. In formula:&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;WUE = A&lt;sub&gt;we&lt;/sub&gt; x P&lt;sub&gt;A&lt;/sub&gt; + M&lt;sub&gt;we&lt;/sub&gt; x P&lt;sub&gt;M&lt;/sub&gt; + S&lt;sub&gt;we&lt;/sub&gt; X P&lt;sub&gt;s&lt;/sub&gt;&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;Where:&lt;/p&gt;
-&lt;p&gt;WUE = Water use efficiency&lt;/p&gt;
-&lt;p&gt;A&lt;sub&gt;we&lt;/sub&gt; = Irrigated agriculture water use efficiency [USD/m&lt;sup&gt;3&lt;/sup&gt;]&lt;/p&gt;
-&lt;p&gt;M&lt;sub&gt;we&lt;/sub&gt; = MIMEC water use efficiency [USD/m&lt;sup&gt;3&lt;/sup&gt;]&lt;/p&gt;
-&lt;p&gt;S&lt;sub&gt;we&lt;/sub&gt; = Services water use efficiency [USD/m&lt;sup&gt;3&lt;/sup&gt;]&lt;/p&gt;
-&lt;p&gt;P&lt;sub&gt;A&lt;/sub&gt; = Proportion of water used by the agricultural sector over the total use&lt;/p&gt;
-&lt;p&gt;P&lt;sub&gt;M&lt;/sub&gt; = Proportion of water used by the MIMEC sector over the total use&lt;/p&gt;
-&lt;p&gt;P&lt;sub&gt;S&lt;/sub&gt; = Proportion of water used by the service sector over the total use&lt;/p&gt;
-&lt;p&gt;The computing of each sector is described below.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;Water use efficiency in irrigated agriculture&lt;/em&gt; is calculated as the agricultural value added per agricultural water use, expressed in USD/m&lt;sup&gt;3&lt;/sup&gt;. &lt;/p&gt;
-&lt;p&gt;In formula:&lt;/p&gt;
-&lt;p&gt;A&lt;sub&gt;we&lt;/sub&gt; = (GVA&lt;sub&gt;a&lt;/sub&gt; x (1-C&lt;sub&gt;r&lt;/sub&gt;))/V&lt;sub&gt;a&lt;/sub&gt;&lt;/p&gt;
-&lt;p&gt;Where:&lt;/p&gt;
-&lt;p&gt;A&lt;sub&gt;we&lt;/sub&gt; = Irrigated agriculture water use efficiency [USD/m&lt;sup&gt;3&lt;/sup&gt;]&lt;/p&gt;
-&lt;p&gt;GVA&lt;sub&gt;a &lt;/sub&gt;= Gross value added by agriculture (excluding river and marine fisheries and forestry) [USD]&lt;/p&gt;
-&lt;p&gt;C&lt;sub&gt;r&lt;/sub&gt; = Proportion of agricultural GVA produced by rainfed agriculture &lt;/p&gt;
-&lt;p&gt;V&lt;sub&gt;a&lt;/sub&gt; = Volume of water used by the agricultural sector (including irrigation, livestock and aquaculture) [m&lt;sup&gt;3&lt;/sup&gt;]&lt;/p&gt;
-&lt;p&gt;The volume of water used by the agricultural sectors (V) is collected at country level through national records and reported in questionnaires, in units of m&lt;sup&gt;3&lt;/sup&gt;/year (see example in AQUASTAT &lt;a href=&quot;http://www.fao.org/nr/water/aquastat/sets/aq-5yr-quest_eng.xls&quot;&gt;http://www.fao.org/nr/water/aquastat/sets/aq-5yr-quest_eng.xls)&lt;/a&gt;. Agricultural value added in national currency is obtained from national statistics, converted to USD and deflated to the baseline year.&lt;/p&gt;
-&lt;p&gt;C&lt;sub&gt;r&lt;/sub&gt; can be calculated from the proportion of irrigated land on the total Arable land and Permanent crops (hereinafter &amp;#x201C;cultivated land&amp;#x201D;, as follows:&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;C&lt;sub&gt;r&lt;/sub&gt; = 1/(1+(A&lt;sub&gt;i&lt;/sub&gt;/((1-A&lt;sub&gt;i&lt;/sub&gt;) * 0.375)))&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;Where:&lt;/p&gt;
-&lt;p&gt;A&lt;sub&gt;i&lt;/sub&gt; = proportion of irrigated land on the total cultivated land, in decimals&lt;/p&gt;
-&lt;p&gt;0.375 = generic default ratio between rainfed and irrigated yields&lt;/p&gt;
-&lt;p&gt;More detailed estimations are however possible and encouraged at country level.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;Water efficiency of the MIMEC sectors (including power production): &lt;/em&gt;MIMEC value added per unit of water used for the MIMEC sector, expressed in USD/m&lt;sup&gt;3&lt;/sup&gt;.&lt;/p&gt;
-&lt;p&gt;In formula:&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;M&lt;sub&gt;we&lt;/sub&gt; = GVA&lt;sub&gt;m&lt;/sub&gt;/V&lt;sub&gt;m&lt;/sub&gt;&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;Where:&lt;/p&gt;
-&lt;p&gt;M&lt;sub&gt;we&lt;/sub&gt; = Industrial water use efficiency [USD/m&lt;sup&gt;3&lt;/sup&gt;]&lt;/p&gt;
-&lt;p&gt;GVA&lt;sub&gt;m&lt;/sub&gt; = Gross value added by MIMEC (including energy) [USD]&lt;/p&gt;
-&lt;p&gt;V&lt;sub&gt;m&lt;/sub&gt; = Volume of water used by MIMEC (including energy) [m&lt;sup&gt;3&lt;/sup&gt;]&lt;/p&gt;
-&lt;p&gt;MIMEC water use (V&lt;sub&gt;m&lt;/sub&gt;) is collected at country level through national records and reported in questionnaires, in units of m&lt;sup&gt;3&lt;/sup&gt;/year (see example in AQUASTAT &lt;a href=&quot;http://www.fao.org/nr/water/aquastat/sets/aq-5yr-quest_eng.xls&quot;&gt;http://www.fao.org/nr/water/aquastat/sets/aq-5yr-quest_eng.xls&lt;/a&gt;). MIMEC value added is obtained from national statistics, deflated to the baseline year.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;Services water supply efficiency &lt;/em&gt;is calculated as the service sector value added (ISIC 36-39 and ISIC 45-98) divided by water used for distribution by the water collection, treatment and supply industry (ISIC 36), expressed in USD/m&lt;sup&gt;3&lt;/sup&gt;.&lt;/p&gt;
-&lt;p&gt;In formula:&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;S&lt;sub&gt;we&lt;/sub&gt; = GVA&lt;sub&gt;s&lt;/sub&gt;/V&lt;sub&gt;s&lt;/sub&gt;&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;Where:&lt;/p&gt;
-&lt;p&gt;S&lt;sub&gt;we&lt;/sub&gt; = &lt;em&gt;Services water use efficiency [USD/m&lt;sup&gt;3&lt;/sup&gt;]&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;GVA&lt;sub&gt;s&lt;/sub&gt; = Gross value added by services [USD]&lt;/p&gt;
-&lt;p&gt;V&lt;sub&gt;s&lt;/sub&gt; = Volume of water used by the service sector [m&lt;sup&gt;3&lt;/sup&gt;]&lt;/p&gt;
-&lt;p&gt;Data on volumes of used and distributed water are collected at country level from the municipal supply utilities records and reported in questionnaires, in units of km&lt;sup&gt;3&lt;/sup&gt;/year or million m&lt;sup&gt;3&lt;/sup&gt;/year (see example in AQUASTAT &lt;a href=&quot;http://www.fao.org/nr/water/aquastat/sets/aq-5yr-quest_eng.xls&quot;&gt;http://www.fao.org/nr/water/aquastat/sets/aq-5yr-quest_eng.xls)&lt;/a&gt;. Services value added is obtained from national statistics, deflated to the baseline year.&lt;/p&gt;
-&lt;p&gt;Change in water use efficiency (CWUE) is computed as the ratio of water use efficiency (WUE) in time t minus water use efficiency in time t-1, divided by water use efficiency in time t-1 and multiplied by 100:&lt;/p&gt;
-&lt;p&gt;CWUE = ((WUE&lt;sub&gt;t&lt;/sub&gt; &amp;#x2013; WUE&lt;sub&gt;t-1&lt;/sub&gt;)/WUE&lt;sub&gt;t-1&lt;/sub&gt;)&lt;sub&gt; &lt;/sub&gt;* 100&lt;/p&gt;
-&lt;p&gt;It must be noted that computing the indicator in an aggregated manner, i.e. total GDP over total water use, would lead to an overestimation of the indicator. That is due to the fact that, for the agricultural sector, only the value produced under irrigation has to be counted in calculating the indicator. Hence, the sum of the value added of the various sectors used in these formulas is not equivalent to the total GDP of the country.&lt;/p&gt;
-			</language>
 </languages>
 </data>
 </root>

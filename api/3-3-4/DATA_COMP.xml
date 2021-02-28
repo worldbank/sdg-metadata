@@ -5,9 +5,6 @@
 	<data>
 		<languages>
 			<language lang="ar"/>
-			<language lang="es"/>
-			<language lang="fr"/>
-			<language lang="ru"/>
 			<language lang="en">&lt;h1&gt;Methodology&lt;/h1&gt;
 &lt;h2&gt;Computation method:&lt;/h2&gt;
 &lt;p&gt;The data was modelled using a Bayesian logistic regression looking at the proportion of individuals that tested positive for HBsAg in each study, weighting each study by its size and using a conditional autoregressive (CAR) model accounting for spatial and economic correlations between similar countries. This model uses data from well sampled countries to estimate prevalence in more data poor countries with effects such as sex, age and vaccination status, these are also informed by the geographic and countries GDP proximity to other countries (CAR model). Under the assumption that countries that are close together economically and/or geographically will have more similar prevalence due to similar social structure and health care capabilities. &lt;/p&gt;
@@ -30,6 +27,9 @@
 &lt;p&gt;Model validation was conducted using 90% of randomly selected data against the remaining 10%, and by comparing model estimates of prevalence against observed data (Figure 3). Figure 4 shows the average prevalence in each country from all the studies plotted against the models estimate. Figure 5 shows the marginal and joint posterior distributions for the fitted parameters. Table 1 gives the estimated parameter values with associated credible intervals.&lt;/p&gt;
 &lt;p&gt;During the validation exercise (in which countries were consulted over their estimates) it was pointed out that China had undertaken three very large-scale population-based serological surveys in order to establish baseline prevalence and progress towards HBV elimination. There were a large number of other surveys from China, that are less representative than these three nationwide surveys. We conducted a sensitivity analysis by restricting the data from China to the three nationally representative surveys. The effect of this change in input data was that the effect of vaccination was more distinct, but the estimated age effects (change in prevalence in children under 5, or juveniles (children 5-15 years)) were no longer significantly different from zero (see Table 2 and Figure 6). The deviance was significantly reduced, suggesting a much better fitting model (Table 2), albeit on a somewhat reduced dataset.&lt;/p&gt;
 			</language>
+			<language lang="es"/>
+			<language lang="fr"/>
+			<language lang="ru"/>
 </languages>
 </data>
 </root>

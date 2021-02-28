@@ -5,6 +5,16 @@
 	<data>
 		<languages>
 			<language lang="ar"/>
+			<language lang="en">&lt;h2&gt;Treatment of missing values:&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;em&gt;At country level:&lt;/em&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The first data point is the first reporting year after vaccine introduction. When country data are not available interpolation is used between 2 data points and extrapolation from the latest available data point. &lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;em&gt;At regional and global levels:&lt;/em&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Any needed imputation is done at country level. These country values can then be used to compute regional and global ones. &lt;/p&gt;
+			</language>
 			<language lang="es"/>
 			<language lang="fr">&lt;h2&gt;Traitement des valeurs manquantes : &lt;/h2&gt;
 &lt;ul&gt;
@@ -17,16 +27,6 @@
 &lt;p&gt;Toute imputation nécessaire est effectuée au niveau national. Ces valeurs nationales peuvent ensuite être utilisées pour calculer les valeurs régionales et mondiales. &lt;/p&gt;
 			</language>
 			<language lang="ru"/>
-			<language lang="en">&lt;h2&gt;Treatment of missing values:&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;&lt;em&gt;At country level:&lt;/em&gt;&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;The first data point is the first reporting year after vaccine introduction. When country data are not available interpolation is used between 2 data points and extrapolation from the latest available data point. &lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;&lt;em&gt;At regional and global levels:&lt;/em&gt;&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Any needed imputation is done at country level. These country values can then be used to compute regional and global ones. &lt;/p&gt;
-			</language>
 </languages>
 </data>
 </root>

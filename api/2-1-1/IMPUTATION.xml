@@ -5,6 +5,17 @@
 	<data>
 		<languages>
 			<language lang="ar"/>
+			<language lang="en">&lt;h2&gt;Treatment of missing values: &lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;At country level: &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;When no data on food consumption is available from a recent household survey, the model-based estimate of the PoU is informed by an estimate of DEC from Food Balance Sheets, an indirect estimate of CV based on information on the country&amp;#x2019;s GDP, Gini coefficient of Income, an index of the relative price of food, or other indicators of development such as country&amp;#x2019;s Under 5 Mortality Rate, and an estimate of the MDER based on the UN Population Division&amp;#x2019;s World Population Prospects data. &lt;/p&gt;
+&lt;p&gt;See the section on method of computation for details. &lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;At regional and global levels: &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Missing values for individual countries are implicitly imputed to be equal to the population weighted average of the estimated values of the countries present in the same region. &lt;/p&gt;
+			</language>
 			<language lang="es"/>
 			<language lang="fr">&lt;h2&gt;Traitement des valeurs manquantes : &lt;/h2&gt;
 &lt;ul&gt;
@@ -27,17 +38,6 @@
   &lt;li&gt;&lt;strong&gt;&lt;em&gt;На региональном и глобальном уровнях:&lt;/strong&gt;&lt;/em&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Недостающие значения для отдельных стран неявно вменяются, чтобы они стали равны средневзвешенным значениям показателей населения стран, которые находятся в том же регионе. &lt;/p&gt;
-			</language>
-			<language lang="en">&lt;h2&gt;Treatment of missing values: &lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;At country level: &lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;When no data on food consumption is available from a recent household survey, the model-based estimate of the PoU is informed by an estimate of DEC from Food Balance Sheets, an indirect estimate of CV based on information on the country&amp;#x2019;s GDP, Gini coefficient of Income, an index of the relative price of food, or other indicators of development such as country&amp;#x2019;s Under 5 Mortality Rate, and an estimate of the MDER based on the UN Population Division&amp;#x2019;s World Population Prospects data. &lt;/p&gt;
-&lt;p&gt;See the section on method of computation for details. &lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;At regional and global levels: &lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Missing values for individual countries are implicitly imputed to be equal to the population weighted average of the estimated values of the countries present in the same region. &lt;/p&gt;
 			</language>
 </languages>
 </data>

@@ -5,6 +5,16 @@
 	<data>
 		<languages>
 			<language lang="ar"/>
+			<language lang="en">&lt;h2&gt;Treatment of missing values:&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;em&gt;At country level:&lt;/em&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Missing data are not estimated by the UIS.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;em&gt;At regional and global levels:&lt;/em&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Imputations are based on interpolations or extrapolations of data for other reference years. Second option is to make an estimate for FTE based on available headcount data. In case no data are available at all, the unweighted regional average is used as an estimate.&lt;/p&gt;
+			</language>
 			<language lang="es"/>
 			<language lang="fr">&lt;h2&gt; Traitement des valeurs manquantes:&lt;/h2&gt;
 &lt;ul&gt;
@@ -17,16 +27,6 @@
 &lt;p&gt; Les imputations sont basées sur des interpolations ou des extrapolations de données pour d’autres années de référence. La deuxième option consiste à faire une estimation de l’ETP en fonction des données disponibles sur les effectifs. Dans le cas où aucune donnée n’est disponible, la moyenne régionale non pondérée est utilisée comme estimation. &lt;/p&gt;
 			</language>
 			<language lang="ru"/>
-			<language lang="en">&lt;h2&gt;Treatment of missing values:&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;&lt;em&gt;At country level:&lt;/em&gt;&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Missing data are not estimated by the UIS.&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;&lt;em&gt;At regional and global levels:&lt;/em&gt;&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Imputations are based on interpolations or extrapolations of data for other reference years. Second option is to make an estimate for FTE based on available headcount data. In case no data are available at all, the unweighted regional average is used as an estimate.&lt;/p&gt;
-			</language>
 </languages>
 </data>
 </root>

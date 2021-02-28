@@ -5,6 +5,25 @@
 	<data>
 		<languages>
 			<language lang="ar"/>
+			<language lang="en">&lt;h2&gt;Treatment of missing values:&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;em&gt;At country level:&lt;/em&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Aviation &lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Data are broadly complete.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Inland transport statistics&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;In case of missing data for a country for which at least one data point is available since 2000, we calculate estimates based on the expected growth rate for the country. The growth rates are computed from other socio-economic variables, such as Gross Domestic Product (GDP), population or urbanization.&lt;/p&gt;
+&lt;p&gt;For non-ITF/UNECE countries, data points are estimated using the ITF model, which uses several covariates such as GDP, population, transport network coverage&amp;#x2026; A description of the model can be found in the ITF Transport Outlook 2017.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;ITF (2017) ITF Transport Outlook 2017, OECD Publishing &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This model also uses several other data sources to make the calibration more robust in regions where ITF data does not have a good coverage.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;International Union of Railways (2015) Railway Statistics &amp;#x2013; 2015 synopsis, UIC&lt;/li&gt;
+  &lt;li&gt;International Road Federation (2011) ITF World Road Statistics, IRF&lt;/li&gt;
+  &lt;li&gt;De Bod, A., &amp;amp; Havenga, J. (2010). Sub-Saharan Africa&amp;#x2019;s rail freight transport system: Potential impact of densification on cost. Journal of Transport and Supply Chain Management, Vol. 4, pp. 89-101&lt;/li&gt;
+&lt;/ul&gt;
+			</language>
 			<language lang="es"/>
 			<language lang="fr">&lt;h2&gt; Traitement des valeurs manquantes:&lt;/h2&gt;
 &lt;ul&gt;
@@ -26,25 +45,6 @@
 &lt;/ul&gt;
 			</language>
 			<language lang="ru"/>
-			<language lang="en">&lt;h2&gt;Treatment of missing values:&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;&lt;em&gt;At country level:&lt;/em&gt;&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;&lt;em&gt;Aviation &lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Data are broadly complete.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;em&gt;Inland transport statistics&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;In case of missing data for a country for which at least one data point is available since 2000, we calculate estimates based on the expected growth rate for the country. The growth rates are computed from other socio-economic variables, such as Gross Domestic Product (GDP), population or urbanization.&lt;/p&gt;
-&lt;p&gt;For non-ITF/UNECE countries, data points are estimated using the ITF model, which uses several covariates such as GDP, population, transport network coverage&amp;#x2026; A description of the model can be found in the ITF Transport Outlook 2017.&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;ITF (2017) ITF Transport Outlook 2017, OECD Publishing &lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;This model also uses several other data sources to make the calibration more robust in regions where ITF data does not have a good coverage.&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;International Union of Railways (2015) Railway Statistics &amp;#x2013; 2015 synopsis, UIC&lt;/li&gt;
-  &lt;li&gt;International Road Federation (2011) ITF World Road Statistics, IRF&lt;/li&gt;
-  &lt;li&gt;De Bod, A., &amp;amp; Havenga, J. (2010). Sub-Saharan Africa&amp;#x2019;s rail freight transport system: Potential impact of densification on cost. Journal of Transport and Supply Chain Management, Vol. 4, pp. 89-101&lt;/li&gt;
-&lt;/ul&gt;
-			</language>
 </languages>
 </data>
 </root>
