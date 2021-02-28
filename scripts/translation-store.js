@@ -1,12 +1,11 @@
 const fs = require('fs')
 const os = require('os')
 const path = require('path')
-const gettextParser = require('gettext-parser')
-const { conceptStore, GettextInput } = require('sdg-metadata-convert')
+const yaml = require('js-yaml')
+const { conceptStore, YamlInput } = require('sdg-metadata-convert')
 
-const baseFolder = 'translations'
+const baseFolder = 'translations-metadata'
 const sourceLanguage = 'en'
-const sourceLanguageFolder = 'templates'
 
 let translationStore = buildTranslationStore()
 let miscellaneousTranslationStore = buildMiscellaneousTranslationStore()
@@ -162,10 +161,9 @@ function buildTranslationStore() {
     for (const languageFolder of fs.readdirSync(baseFolder)) {
 
         const sourceFolder = path.join(baseFolder, languageFolder)
-        const isSourceLanguage = (languageFolder === sourceLanguageFolder)
-        const language = (isSourceLanguage) ? sourceLanguage : languageFolder
-        const gettextInput = new GettextInput({ sourceStrings: isSourceLanguage })
-        const extension = (languageFolder === sourceLanguageFolder) ? '.pot' : '.po'
+        const language = languageFolder
+        const yamlInput = new YamlInput()
+        const extension = '.yml'
         translations[language] = {}
 
         const files = fs.readdirSync(sourceFolder).filter(file => {
@@ -174,7 +172,7 @@ function buildTranslationStore() {
         for (const file of files) {
             const indicatorId = normalizeIndicatorId(file.split('.')[0])
             const filePath = path.join(sourceFolder, file)
-            translations[language][indicatorId] = gettextInput.readSync(filePath).getConcepts()
+            translations[language][indicatorId] = yamlInput.readSync(filePath).getConcepts()
         }
     }
 
@@ -214,14 +212,13 @@ function getMiscellaneousTranslationStore() {
  */
 function buildMiscellaneousTranslationStore() {
     const translations = {}
-    const miscFolder = 'translations-misc'
+    const miscFolder = 'translations-site'
 
     for (const languageFolder of fs.readdirSync(miscFolder)) {
 
         const sourceFolder = path.join(miscFolder, languageFolder)
-        const isSourceLanguage = (languageFolder === sourceLanguageFolder)
-        const language = (isSourceLanguage) ? sourceLanguage : languageFolder
-        const extension = (languageFolder === sourceLanguageFolder) ? '.pot' : '.po'
+        const language = languageFolder
+        const extension = '.yml'
         translations[language] = {}
 
         const files = fs.readdirSync(sourceFolder).filter(file => {
@@ -231,13 +228,10 @@ function buildMiscellaneousTranslationStore() {
             const key = file.split('.')[0]
             const filePath = path.join(sourceFolder, file)
             const data = fs.readFileSync(filePath, { encoding: 'utf-8' })
-            const parsed = gettextParser.po.parse(data)
-            delete parsed.translations['']
+            const parsed = yaml.load(data)
             translations[language][key] = {}
-            for (const id of Object.keys(parsed.translations)) {
-                const source = Object.keys(parsed.translations[id])[0]
-                const item = parsed.translations[id][source]
-                const value = (isSourceLanguage) ? item.msgid : item.msgstr[0]
+            for (const id of Object.keys(parsed)) {
+                const value = parsed[id]
                 translations[language][key][id] = value
             }
         }
