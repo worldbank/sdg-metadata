@@ -1,6 +1,6 @@
 SDG_GOAL: >-
-  <p>Objectif 3 : Permettre à tous de vivre en bonne santé et promouvoir le
-  bien-être de tous à tout âge.</p>
+  <p>Objectif 3 : Permettre à tous de vivre en bonne santé et promouvoir le bien-être
+  de tous à tout âge.</p>
 SDG_TARGET: >-
   <p>Cible 3.8: Faire en sorte que chacun bénéficie d’une couverture sanitaire
   universelle, comprenant une protection contre les risques financiers et
@@ -253,7 +253,20 @@ COLL_METHOD: >-
   <p><em>Pour le numérateur</em></p>
 
   <ul>
-   <li> Comparer le ratio moyen des dépenses de santé de l'enquête à une part budgétaire moyenne de référence construite comme le ratio de la mesure agrégée des dépenses personnelles des ménages en monnaie locale courante et des dépenses de consommation finale agrégées des ménages en monnaie locale courante. Lorsque la différence absolue dépasse 5 points de pourcentage, les données de l'enquête sont identifiées comme des valeurs aberrantes pour l'estimation de part du budget des ménages consacrée à la santé et signalées pour une éventuelle exclusion. Le macro-indicateur des dépenses des ménages est disponible sur la <a href="http://www.who.int/health-accounts/ghed/en/">Base de données des dépenses de santé globale</a> (GHED)<sup><a href="#footnote-15" id="footnote-ref-15">[15]</a></sup> et sur la <a href="http://data.worldbank.org/data-catalog/world-development-indicators">Base de données des indicateurs du développement dans le monde</a> (WDI)<sup><a href="#footnote-16" id="footnote-ref-16">[16]</a></sup>. Les informations sur les dépenses de consommation finale des ménages sont également extraites de la base de données WDI (code de la série : NE.CON.PRVT.CN).</li>
+   <li> Comparer le ratio moyen des dépenses de santé de l'enquête à une part budgétaire
+  moyenne de référence construite comme le ratio de la mesure agrégée des dépenses
+  personnelles des ménages en monnaie locale courante et des dépenses de consommation
+  finale agrégées des ménages en monnaie locale courante. Lorsque la différence absolue
+  dépasse 5 points de pourcentage, les données de l'enquête sont identifiées comme
+  des valeurs aberrantes pour l'estimation de part du budget des ménages consacrée
+  à la santé et signalées pour une éventuelle exclusion. Le macro-indicateur des dépenses
+  des ménages est disponible sur la <a href="http://www.who.int/health-accounts/ghed/en/">Base
+  de données des dépenses de santé globale</a> (GHED)<sup><a href="#footnote-15" id="footnote-ref-15">[15]</a></sup>
+  et sur la <a href="http://data.worldbank.org/data-catalog/world-development-indicators">Base
+  de données des indicateurs du développement dans le monde</a> (WDI)<sup><a href="#footnote-16"
+  id="footnote-ref-16">[16]</a></sup>. Les informations sur les dépenses de consommation
+  finale des ménages sont également extraites de la base de données WDI (code de la
+  série : NE.CON.PRVT.CN).</li>
   </ul>
 
   <p>Ces points de référence sont également utilisés pour décider entre deux
@@ -470,7 +483,16 @@ REC_USE_LIM: >-
   id="footnote-ref-7">[7]</a></sup>.</p><div
   class="footnotes"><div><sup>4</sup><p> <a
   href="http://unstats.un.org/sdgs/metadata/files/Metadata-01-01-01a.pdf">http://unstats.un.org/sdgs/metadata/files/Metadata-01-01-01a.pdf</a>
-   <a href="#footnote-ref-4">&#x2191;</a></p></div><div><sup>5</sup><p>Chapitre 2 de &#x201C;Rapport mondial de suivi 2017 : la couverture-santé universelle&#x201D;, Organisation mondiale de la santé et Banque internationale pour la reconstruction et le développement / Banque mondiale; 2017; <a href="https://apps.who.int/iris/bitstream/handle/10665/272598/9789242513554-fre.pdf?ua=1/</a> ; <a href="#footnote-ref-5">&#x2191;</a></p></div><div><sup>6</sup><p>Xu, K., Evans, D. B., Carrin, G., Aguilar-Rivera, A. M., Musgrove, P., et Evans, T. (2007), &#x201C;Protecting Households From Catastrophic Health Spending,&#x201D; <em>Health Affairs</em>, 26, 972&#x2013;983. Xu, L., Evans, D., Kawabata, K., Zeramdini, R., Klavus, J., et Murray, C. (2003), &#x201C;Households Catastrophic Health Expenditure: A Multi-Country Analysis,&#x201D; <em>The Lancet</em>, 326, 111&#x2013;117. <a href="#footnote-ref-6">&#x2191;</a></p></div><div><sup>7</sup>
+   <a href="#footnote-ref-4">&#x2191;</a></p></div><div><sup>5</sup><p>Chapitre 2
+  de &#x201C;Rapport mondial de suivi 2017 : la couverture-santé universelle&#x201D;,
+  Organisation mondiale de la santé et Banque internationale pour la reconstruction
+  et le développement / Banque mondiale; 2017; <a href="https://apps.who.int/iris/bitstream/handle/10665/272598/9789242513554-fre.pdf?ua=1/</a>
+  ; <a href="#footnote-ref-5">&#x2191;</a></p></div><div><sup>6</sup><p>Xu, K., Evans,
+  D. B., Carrin, G., Aguilar-Rivera, A. M., Musgrove, P., et Evans, T. (2007), &#x201C;Protecting
+  Households From Catastrophic Health Spending,&#x201D; <em>Health Affairs</em>, 26,
+  972&#x2013;983. Xu, L., Evans, D., Kawabata, K., Zeramdini, R., Klavus, J., et Murray,
+  C. (2003), &#x201C;Households Catastrophic Health Expenditure: A Multi-Country Analysis,&#x201D;
+  <em>The Lancet</em>, 326, 111&#x2013;117. <a href="#footnote-ref-6">&#x2191;</a></p></div><div><sup>7</sup>
   <p><a
   href="http://www.euro.who.int/en/health-topics/Health-systems/health-systems-financing/publications/clusters/universal-health-coverage-financial-protection">http://www.euro.who.int/en/health-topics/Health-systems/health-systems-financing/publications/clusters/universal-health-coverage-financial-protection</a></p>
 
