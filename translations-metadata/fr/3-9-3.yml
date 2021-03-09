@@ -1,10 +1,11 @@
 SDG_GOAL: >-
-  <p>Objectif 3 : Permettre à tous de vivre en bonne santé et promouvoir le
-  bien-être de tous à tout âge.</p>
-SDG_TARGET: "<p>Cible 3.9: D’ici à 2030, réduire nettement le nombre de décès et\_de maladies dus à des substances chimiques dangereuses et à la pollution et à la contamination de l’air, de l’eau et du\_sol</p>"
+  <p>Objectif 3 : Permettre à tous de vivre en bonne santé et promouvoir le bien-être
+  de tous à tout âge.</p>
+SDG_TARGET: "<p>Cible 3.9 : D’ici à 2030, réduire nettement le nombre de décès et de\
+  \ maladies dus à des substances chimiques dangereuses et à la pollution et à la\
+  \ contamination de l’air, de l’eau et du sol.</p>"
 SDG_INDICATOR: >-
-  <p>Indicateur 3.9.3: Taux de mortalité attribuable à un empoisonnement
-  accidentel</p>
+  <p>Indicateur 3.9.3 : Taux de mortalité attribuable à un empoisonnement accidentel</p>
 META_LAST_UPDATE: '<p>Dernière mise à jour : 09 juillet 2017</p>'
 SDG_CUSTODIAN_AGENCIES: |-
   <h1> Informations institutionnelles</h1>
@@ -13,3 +14,106 @@ SDG_CUSTODIAN_AGENCIES: |-
 COMPILING_ORG: |-
   <h1>Compilateurs de données </h1>
   <p>L'OMS</p>
+OTHER_DOC: "<h1>Références</h1>\n<h2>URL : </h2>\n<p><a href=\"http://www.who.int/healthinfo/global_burden_disease/estimates/en/index1.html\"\
+  >http://www.who.int/healthinfo/global_burden_disease/estimates/en/index1.html</a></p>\n\
+  <h2>Références :</h2>\n<p>Définition de l'indicateur de l'OMS (<a href=\"http://apps.who.int/gho/data/node.imr.SDGPOISON?lang=fr\"\
+  >http://apps.who.int/gho/data/node.imr.SDGPOISON?lang=fr</a>) </p>\n<p>Méthodes\
+  \ et sources de données de l'OMS pour les causes mondiales de décès, 2000&#x2013;2012\
+  \ (<a href=\"http://www.who.int/healthinfo/global_burden_disease/GlobalCOD_method_2000_2012.pdf?ua=1\"\
+  >http://www.who.int/healthinfo/global_burden_disease/GlobalCOD_method_2000_2012.pdf?ua=1</a>)</p>"
+COMPARABILITY: "<h2>Sources des divergences : </h2>\n<p> L'OMS est tenue, en vertu\
+  \ d'une résolution de l'Assemblée mondiale de la santé, de se concerter sur toutes\
+  \ les statistiques de l'OMS et de demander aux pays de lui faire part de leurs commentaires\
+  \ sur les données concernant les pays et les territoires. Avant de publier, toutes\
+  \ les estimations font l'objet de consultations avec les pays.</p>"
+COVERAGE: "<h1>Disponibilité des données </h1>\n<h2>Description : </h2>\n<p><strong>\
+  \ Disponibilité des données pour la période à partir de 2010 : </strong></p>\n<p>Asie\
+  \ et Pacifique - 27% des pays (16 sur 59 pays, y compris les systèmes d'échantillonnage\
+  \ de la Chine et de l'Inde)</p>\n<p>Afrique - 6% des pays (3 sur 54 pays)</p>\n\
+  <p>Amérique latine et Caraïbes - 56% des pays (19 sur 34 pays) </p>\n<p>Europe,\
+  \ Amérique du Nord, Australie, Nouvelle-Zélande et Japon - 94% des pays (44 pays\
+  \ sur 47, manquants sont principalement de très petits pays) </p>\n<p><strong>Disponibilité\
+  \ des données (2000-2009) : </strong></p>\n<p>Asie et Pacifique - 27% des pays (16\
+  \ sur 59 pays, y compris les systèmes d'échantillonnage de la Chine et de l'Inde)</p>\n\
+  <p>Afrique - 6% des pays (3 sur 54 pays)</p>\n<p>Amérique latine et Caraïbes - 56%\
+  \ des pays (19 sur 34 pays)</p>\n<p>Europe, Amérique du Nord, Australie, Nouvelle-Zélande\
+  \ et Japon - 94% des pays (44 pays sur 47, manquants sont principalement de très\
+  \ petits pays) </p>\n<p><strong>Lien internet vers la base de données : </strong></p>\n\
+  <p>Les dernières estimations mondiales, régionales et nationales de la mortalité\
+  \ par cause spécifique, y compris les empoisonnements involontaires, pour les années\
+  \ 2000 et 2012 (publiées en 2014) peuvent être téléchargées sur le site web de l'OMS.\
+  \ <a href=\"http://www.who.int/healthinfo/global_burden_disease/estimates/en/index1.html\"\
+  >http://www.who.int/healthinfo/global_burden_disease/estimates/en/index1.html</a>\
+  \ Les estimations peuvent également être consultées de manière interactive par l'intermédiaire\
+  \ de l'Observatoire de la santé mondiale <a href=\"http://www.who.int/gho/mortality_burden_disease/en/\"\
+  >http://www.who.int/gho/mortality_burden_disease/en/</a></p>\n<h2>Séries chronologiques\
+  \ : </h2>\n<p>Des données de séries chronologiques limitées sont disponibles (séries\
+  \ comparables pour les années 2012 et bientôt 2015 ; les données pour 2000 sont\
+  \ également disponibles mais ont une comparabilité plus limitée) </p>\n<h2>Désagrégation\
+  \ :</h2>\n<p>Les données peuvent être ventilées par groupe d'âge, sexe et maladie.</p>"
+REG_AGG: "<h2>Agrégats régionaux : </h2>\n<p>Les estimations par pays du nombre de\
+  \ décès par cause sont additionnées pour obtenir des agrégats régionaux et mondiaux.</p>"
+IMPUTATION: "<h2>Traitement des valeurs manquantes : </h2>\n<ul>\n  <li><strong><em>Au\
+  \ niveau national : </em></strong></li>\n</ul>\n<p>Les données relatives aux années-pays\
+  \ manquantes sont interpolées ou extrapolées, selon les données disponibles. Pour\
+  \ les pays dont les données sont manquantes, elles sont fournies par des agences\
+  \ internationales, qui ont été interpolées/extrapolées, ajustées et complétées par\
+  \ des données supplémentaires et des modèles de cause de décès. Une description\
+  \ plus détaillée des méthodes est fournie dans <a href=\"http://www.who.int/healthinfo/global_burden_disease/GlobalCOD_method_2000_2012.pdf\"\
+  >http://www.who.int/healthinfo/global_burden_disease/GlobalCOD_method_2000_2012.pdf</a></p>\n\
+  <ul>\n  <li><strong><em>Aux niveaux régional et mondial : </em></strong></li>\n\
+  </ul>\n<p>NA </p>"
+DATA_COMP: "<h1>Méthodologie</h1>\n<h2>Méthode de calcul :</h2>\n<p>Les méthodes avec\
+  \ les normes internationales convenues ont été développées, examinées et publiées\
+  \ dans divers documents.</p>\n<p>Les méthodes utilisées pour l'analyse des causes\
+  \ de décès dépendent du type de données disponibles dans les pays. </p>\n<p>Pour\
+  \ les pays disposant d'un système d'enregistrement de l'état civil de haute qualité\
+  \ comprenant des informations sur les causes de décès, l'enregistrement de l'état\
+  \ civil que les États membres soumettent à la base de données de l'OMS sur la mortalité\
+  \ a été utilisé, avec des ajustements si nécessaire, par exemple en cas de sous-déclaration\
+  \ des décès.</p> \n<p>Pour les pays ne disposant pas de données de haute qualité\
+  \ sur l'enregistrement des décès, les estimations des causes de décès sont calculées\
+  \ à l'aide d'autres données, notamment des enquêtes sur les ménages avec autopsie\
+  \ verbale, des systèmes d'enregistrement par échantillon ou par sentinelle, des\
+  \ études spéciales et des systèmes de surveillance. Dans la plupart des cas, ces\
+  \ sources de données sont combinées dans un cadre de modélisation. </p>\n<p>La méthodologie\
+  \ complète peut être trouvée ici : <a href=\"http://www.who.int/healthinfo/global_burden_disease/GlobalCOD_method_2000_2012.pdf?ua=1\"\
+  >http://www.who.int/healthinfo/global_burden_disease/GlobalCOD_method_2000_2012.pdf?ua=1</a></p>"
+REC_USE_LIM: "<h2>Commentaires et limites : </h2>\n<p>Les données sur les décès sont\
+  \ largement disponibles dans les pays à partir des données d'enregistrement des\
+  \ décès ou des systèmes d'enregistrement par échantillonnage, qui sont des systèmes\
+  \ réalisables, mais des données de bonne qualité ne sont pas encore disponibles\
+  \ dans tous les pays. Ces données sont essentielles pour améliorer la santé et réduire\
+  \ les décès évitables dans les pays. Pour les pays qui ne disposent pas de tels\
+  \ systèmes d'enregistrement, les données doivent être complétées par d'autres types\
+  \ d'informations. </p>"
+RATIONALE: "<h2>Justification :</h2>\n<p>La mesure du taux de mortalité par empoisonnement\
+  \ involontaire donne une indication de l'ampleur de la gestion inadéquate des produits\
+  \ chimiques dangereux et de la pollution, et de l'efficacité du système de santé\
+  \ d'un pays. </p>"
+DATA_SOURCE: "<h1>Fournisseurs de données</h1>\n<p>Bureaux nationaux de statistiques,\
+  \ divers ministères de tutelle et bases de données couvrant l'état civil avec une\
+  \ couverture complète et un certificat médical de la cause du décès.</p>"
+REL_CAL_POLICY: "<h2>Publication des données :</h2>\n<p> Fin 2016 </p>"
+FREQ_COLL: "<h1>Calendrier</h1>\n<h2>Collecte de données :</h2>\n<p>En cours </p>"
+COLL_METHOD: "<h2>Processus de collecte : </h2>\n<p>L'OMS collecte les données directement\
+  \ auprès des sources nationales et, selon une méthode établie, les estimations sont\
+  \ communiquées aux pays afin de recevoir leurs commentaires avant leur publication.\
+  \ Voir l'indicateur 6.1 ci-dessus pour plus de détails.</p>"
+SOURCE_TYPE: "<h1>Sources de données</h1>\n<h2>Description : </h2>\n<p>Les données\
+  \ utilisées pour l'estimation comprennent (a) des données sur les services et les\
+  \ pratiques d'hygiène et d'assainissement, et (b) des données sur les causes de\
+  \ décès, dont la source de données privilégiée est les systèmes d'enregistrement\
+  \ des décès avec une couverture complète et une certification médicale de la cause\
+  \ du décès. Les autres sources de données possibles sont les enquêtes sur les ménages\
+  \ avec autopsie verbale, les systèmes d'enregistrement par échantillon ou par sentinelle,\
+  \ les études spéciales et les systèmes de surveillance.</p>"
+STAT_CONC_DEF: "<h1>Concepts et définitions</h1>\n<h2>Définition : </h2>\n<p>Le taux\
+  \ de mortalité attribué aux empoisonnements involontaires est défini comme le nombre\
+  \ de décès par empoisonnement involontaire au cours d'une année, divisé par la population\
+  \ et multiplié par 100 000.</p>\n<h2>Concepts : </h2>\n<p>Taux de mortalité par\
+  \ an dans le pays pour les empoisonnements involontaires. Les codes CIM-10 correspondant\
+  \ à l'indicateur comprennent X40, X43-X44, X46-X49. </p>"
+SDG_RELATED_INDICATORS: "<h1>Indicateurs connexes en date de février 2020</h1>\n<p>\
+  \ Indicateur 7.1.2 : Proportion de la population qui dépend principalement des combustibles\
+  \ et des technologies propres. </p>"
