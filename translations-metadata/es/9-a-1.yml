@@ -46,3 +46,54 @@ DATA_SOURCE: "<h1>Proveedores de datos</h1>\n<p>Los datos son comunicados por a�
   \ calendario por parte de los informantes estadísticos de las administraciones nacionales\
   \ (organismos de ayuda, Ministerios de Asuntos Exteriores o de Hacienda, etc.).</p>"
 META_LAST_UPDATE: '<p>Última actualización: 09 de julio de 2017</p>'
+COVERAGE: "<h1>Disponibilidad de datos</h1>\n<p>Sobre la base de receptores para todos\
+  \ los países en desarrollo que pueden recibir AOD.</p>\n<h2>Desagregación:</h2>\n\
+  <p>Este indicador se puede desagregar por tipo de flujo (AOD u OFO), por donante,\
+  \ país receptor, tipo de financiación, tipo de ayuda, subsector, etc.</p>"
+REG_AGG: "<h2>Agregados regionales:</h2>\n<p>Las cifras globales y regionales se basan\
+  \ en la suma de los flujos de AOD y OFO destinados al sector agrícola.</p>"
+DATA_COMP: "<h1>Metodología</h1>\n<h2>Método de cálculo:</h2>\n<p>La suma de los flujos\
+  \ de AOD y OFO de todos los donantes a los países en vías de desarrollo para infraestructura.</p>"
+RATIONALE: "<h2>Justificación:</h2>\n<p>Los flujos totales de AOD y OFO a los países\
+  \ en desarrollo cuantifican el esfuerzo público (excluyendo los créditos a la exportación)\
+  \ que los donantes proporcionan a los países en desarrollo para infraestructura.</p>"
+STAT_CONC_DEF: "<h1> Conceptos y definiciones</h1>\n<h2> Definición:</h2>\n<p> Desembolsos\
+  \ brutos del total de AOD y otros flujos oficiales de todos los donantes para apoyo\
+  \ de infraestructura. </p>\n<h2> Conceptos:</h2>\n<p><strong><em> AOD</em></strong>:\
+  \ El CAD define la AOD como &#x201C; esos flujos a países y territorios en la Lista\
+  \ de beneficiarios de AOD del CAD y a instituciones multilaterales que son </p>\n\
+  <ol>\n  <li> proporcionados por agencias oficiales, incluidos los gobiernos subnacionales\
+  \ y locales, o por sus agencias ejecutoras; y </li>\n  <li> cada transacción es\
+  \ administrada con el objetivo principal de promover el desarrollo económico y el\
+  \ bienestar de los países en desarrollo; y</li>\n  <li> tiene carácter concesional\
+  \ y conlleva un componente de donación de al menos el 25 por ciento (calculado a\
+  \ una tasa de descuento del 10 por ciento). (Véase <a href=\"http://www.oecd.org/dac/stats/officialdevelopmentassistancedefinitionandcoverage.htm\"\
+  >http://www.oecd.org/dac/stats/officialdevelopmentassistancedefinitionandcoverage.htm</a>)\
+  \ </li>\n</ol>\n<p> <strong><em> Otros flujos oficiales (OFO):</em></strong> Los\
+  \ otros flujos oficiales (excluyendo los créditos a la exportación con apoyo oficial)\
+  \ se definen como transacciones de sectores oficiales que no cumplen las condiciones\
+  \ para ser consideradas como AOD, ya sea porque no tienen como objetivo principal\
+  \ el desarrollo, o porque no son suficientemente concesionales. </p>\n<p> (Véase\
+  \ <a href=\"http://www.oecd.org/dac/stats/documentupload/DCDDAC(2016)3FINAL.pdf\"\
+  >http://www.oecd.org/dac/stats/documentupload/DCDDAC(2016)3FINAL.pdf</a>, Párr.\
+  \ 24). </p>\n<p><strong><em> El apoyo a la infraestructura</em></strong> incluye\
+  \ todos los códigos de sector de la serie 200 del SNPA(véase aquí: <a href=\"http://www.oecd.org/dac/stats/purposecodessectorclassification.htm\"\
+  >http://www.oecd.org/dac/stats/purposecodessectorclassification.htm</a>)</p>"
+REC_USE_LIM: "<h2> Comentarios y limitaciones: </h2>\n<p> Los datos del Sistema de\
+  \ Notificación de los Países Acreedores están disponibles desde 1973. Sin embargo,\
+  \ la cobertura de datos se considera completa desde 1995 para los compromisos a\
+  \ nivel de actividad y desde 2002 para los desembolsos. </p>"
+FREQ_COLL: "<h1>Calendario</h1>\n<h2>Recolección de datos:</h2>\n<p>Los datos se publican\
+  \ anualmente en diciembre para los flujos del año anterior.</p>\n<p>Los flujos detallados\
+  \ de 2015 se publicaron en diciembre de 2016.</p>"
+SOURCE_TYPE: "<h1> Fuentes de datos</h1>\n<h2> Descripción:</h2>\n<p> La OCDE/CAD\
+  \ ha estado recopilando datos sobre los flujos de recursos oficiales y privados\
+  \ desde 1960 a nivel agregado y desde 1973 a nivel de actividad a través del Sistema\
+  \ de Notificación de los Países Acreedores (los datos se consideran completos a\
+  \ partir de 1995 para los compromisos a nivel de actividad y 2002 para los desembolsos).\
+  \ </p>\n<p> Los donantes informan de los datos de acuerdo con las mismas normas\
+  \ y metodologías (véase aquí: <a href=\"http://www.oecd.org/dac/stats/methodology.htm\"\
+  >http://www.oecd.org/dac/stats/methodology.htm</a>). </p>\n<p> Los informantes estadísticos\
+  \ de las administraciones nacionales informan anualmente sobre los datos anuales\
+  \ del año calendario (organismos de ayuda, ministerios de Asuntos Exteriores o finanzas,\
+  \ etc.</p>"
