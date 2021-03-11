@@ -16,7 +16,16 @@
 &lt;p&gt;Not Applicable&lt;/p&gt;
 			</language>
 			<language lang="es"/>
-			<language lang="fr"/>
+			<language lang="fr">&lt;h2&gt;Traitement des valeurs manquantes : &lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;em&gt;Au niveau national : &lt;/em&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Pour les valeurs manquantes des paramètres (taux de positivité des tests et exhaustivité des rapports), une distribution basée sur un mélange de la distribution des valeurs disponibles est utilisée, si une valeur existe pour le pays ou la région dans le cas contraire. Les valeurs des paramètres de comportement de recherche de santé sont imputées par interpolation linéaire des valeurs lors des enquêtes ou par extrapolation de la première ou de la dernière enquête. Lorsqu&apos;aucune donnée n&apos;est disponible, le nombre de cas est interpolé en tenant compte de la croissance de la population. &lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;em&gt;Aux niveaux régional et mondial : &lt;/em&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt; Sans objet &lt;/p&gt;
+			</language>
 			<language lang="ru">&lt;h2&gt; Обработка отсутствующих значений: &lt;/h2&gt;
 &lt;ul&gt;
   &lt;li&gt; &lt;strong&gt; &lt;em&gt; На страновом уровне: &lt;/em&gt; &lt;/strong&gt; &lt;/li&gt;
