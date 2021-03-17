@@ -1,5 +1,10 @@
-SDG_GOAL: "<p>Objectif 8 : Promouvoir une croissance économique soutenue, partagée et durable, le plein emploi productif et\_un\_travail décent pour tous.</p>"
-SDG_TARGET: "<p>Cible 8.4: Améliorer progressivement, jusqu’en 2030, l’efficacité de l’utilisation des ressources mondiales dans les\_modes de consommation et de production et s’attacher à\_dissocier croissance économique et dégradation de l’environnement, comme prévu dans le Cadre décennal de programmation concernant les modes de consommation et de production durables, les pays développés montrant l’exemple en la matière</p>"
+SDG_GOAL: "<p>Objectif 8 : Promouvoir une croissance économique soutenue, partagée\
+  \ et durable, le plein emploi productif et un travail décent pour tous.</p>"
+SDG_TARGET: "<p>Cible 8.4: Améliorer progressivement, jusqu’en 2030, l’efficacité\
+  \ de l’utilisation des ressources mondiales dans les modes de consommation et de\
+  \ production et s’attacher à dissocier croissance économique et dégradation de l’environnement,\
+  \ comme prévu dans le Cadre décennal de programmation concernant les modes de consommation\
+  \ et de production durables, les pays développés montrant l’exemple en la matière</p>"
 SDG_INDICATOR: >-
   <p>Indicateur 8.4.2: Consommation matérielle nationale, consommation
   matérielle nationale par habitant et consommation matérielle nationale par
@@ -102,7 +107,21 @@ DATA_COMP: >-
   comptables sont définies dans la dernière édition (2013) du guide EUROSTAT
   pour les comptes CFM. La CFM fait également partie du cadre central du Système
   de comptabilité économique et environnementale intégrée (SCEE). </p>
-IMPUTATION: "<h2> Traitement des valeurs manquantes : </h2>\n<ul>\n\_\_<li> <strong> Au niveau national : </strong> </li>\n</ul>\n<p> Une valeur de zéro est imputée lorsqu'aucune valeur réelle positive n'a été officiellement enregistrée, dans les ensembles de données de base utilisés, pour aucune des composantes sous-jacentes qui composent ce total agrégé. Ainsi &#x201C; 0,0 &#x201D; peut représenter soit s. o., soit un véritable 0,0, soit une combinaison des deux, ce qui constitue une situation courante. Cela permet aux valeurs d'être facilement agrégées dans d'autres agrégations. Il convient cependant de noter qu'en raison de l'imputation de valeurs manquantes à &#x201C; 0,0 &#x201D;, les agrégations peuvent représenter une valeur inférieure à la situation réelle. </p>\n<ul>\n\_\_<li> <strong> Aux niveaux régional et mondial : </strong> </li>\n</ul>\n<p> De la même manière, les valeurs manquantes sont imputées à zéro dans les agrégations régionales et mondiales. Cependant, dans le cas où aucune donnée n'est disponible pour un pays particulier, les estimations par habitant et par PIB représentent des moyennes pondérées des données disponibles. </p>"
+IMPUTATION: "<h2> Traitement des valeurs manquantes : </h2>\n<ul>\n  <li> <strong>\
+  \ Au niveau national : </strong> </li>\n</ul>\n<p> Une valeur de zéro est imputée\
+  \ lorsqu'aucune valeur réelle positive n'a été officiellement enregistrée, dans\
+  \ les ensembles de données de base utilisés, pour aucune des composantes sous-jacentes\
+  \ qui composent ce total agrégé. Ainsi &#x201C; 0,0 &#x201D; peut représenter soit\
+  \ s. o., soit un véritable 0,0, soit une combinaison des deux, ce qui constitue\
+  \ une situation courante. Cela permet aux valeurs d'être facilement agrégées dans\
+  \ d'autres agrégations. Il convient cependant de noter qu'en raison de l'imputation\
+  \ de valeurs manquantes à &#x201C; 0,0 &#x201D;, les agrégations peuvent représenter\
+  \ une valeur inférieure à la situation réelle. </p>\n<ul>\n  <li> <strong> Aux niveaux\
+  \ régional et mondial : </strong> </li>\n</ul>\n<p> De la même manière, les valeurs\
+  \ manquantes sont imputées à zéro dans les agrégations régionales et mondiales.\
+  \ Cependant, dans le cas où aucune donnée n'est disponible pour un pays particulier,\
+  \ les estimations par habitant et par PIB représentent des moyennes pondérées des\
+  \ données disponibles. </p>"
 REG_AGG: >-
   <h2> Agrégats régionaux : </h2>
 
@@ -129,7 +148,7 @@ COVERAGE: >-
   métalliques et les minéraux non métalliques sont distincts. La CMN est
   généralement rapportée pour 11 catégories de matériaux, et la DE pour 44
   catégories de matériaux. </p>
-COMPARABILITY: '<h2>Sources des divergences: </h2>'
+COMPARABILITY: '<h2>Sources des divergences : </h2>'
 OTHER_DOC: >-
   <h1> Références </h1>
 
