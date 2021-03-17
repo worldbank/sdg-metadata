@@ -1,6 +1,124 @@
 SDG_GOAL: >-
-  <p>Objectif 10: Réduire les inégalités dans les pays et d’un pays à
-  l’autre</p>
-SDG_TARGET: "<p>Cible 10.a: Mettre en œuvre le principe d’un traitement spécial et\_différencié pour les pays en développement, en particulier les pays les moins avancés, conformément aux accords de l’Organisation mondiale du commerce</p>"
-SDG_INDICATOR: "<p>Indicateur 10.a.1: Proportion de lignes tarifaires concernées par les importations en provenance des pays les moins avancés et\_des pays en développement bénéficiant d’une franchise de droits</p>"
+  <p>Objectif 10 : Réduire les inégalités dans les pays et d’un pays à l’autre</p>
+SDG_TARGET: "<p>Cible 10.a : Mettre en œuvre le principe d’un traitement spécial et différencié\
+  \ pour les pays en développement, en particulier les pays les moins avancés, conformément\
+  \ aux accords de l’Organisation mondiale du commerce.</p>"
+SDG_INDICATOR: "<p>Indicateur 10.a.1 : Proportion de lignes tarifaires concernées\
+  \ par les importations en provenance des pays les moins avancés et des pays en développement\
+  \ bénéficiant d’une franchise de droits.</p>"
 META_LAST_UPDATE: '<p>Dernière mise à jour : 19 juillet 2016</p>'
+OTHER_DOC: "<h1>Références </h1>\n<h2>URL : </h2>\n<p><a href=\"http://www.intracen.org\"\
+  >http://www.intracen.org</a></p>\n<p><a href=\"http://www.wto.org\">http://www.wto.org</a></p>\n\
+  <p><a href=\"http://unctad.org/en/Pages/Home.aspx\">http://unctad.org/en/Pages/Home.aspx</a></p>\n\
+  <h2>Références:</h2>\n<p>Aucune référence disponible.</p>"
+COMPARABILITY: "<h2>Sources des divergences : </h2>\n<p>Non applicable. Les mêmes\
+  \ données nationales sont utilisées au niveau mondial.</p>"
+COVERAGE: "<h1>Disponibilité des données </h1>\n<h2>Description : </h2>\n<p>Asie et\
+  \ Pacifique : 42 </p>\n<p>Afrique : 49</p>\n<p>Amérique latine et Caraïbes : 34</p>\n\
+  <p>Europe, Amérique du Nord, Australie, Nouvelle-Zélande et Japon : 48</p>\n<h2>Séries\
+  \ chronologiques :</h2>\n<p>Données annuelles de 2005 à l'année la plus récente\
+  \ </p>\n<h2>Désagrégation :</h2>\n<p>La désagrégation est disponible par secteur\
+  \ de produit (par exemple, agriculture, textile, biens environnementaux), régions\
+  \ géographiques et niveau de revenu du pays (par exemple, développé, en développement,\
+  \ PMA).</p>"
+REG_AGG: "<h2>Agrégats régionaux :</h2>\n<p>Part des lignes tarifaires en franchise\
+  \ de droits dans le nombre total de lignes tarifaires par pays ou groupes de pays.\
+  \ Au niveau de la ligne tarifaire, le taux minimum entre le régime NPF et les autres\
+  \ régimes d'importation est toujours pris en compte dans notre calcul.</p>"
+IMPUTATION: "<h2>Traitement des valeurs manquantes : </h2>\n<ul>\n  <li><strong><em>Au\
+  \ niveau national :</em></strong></li>\n</ul>\n<p>Les valeurs manquantes sont calculées\
+  \ en utilisant l'année la plus récente disponible.</p>\n<ul>\n  <li><strong><em>Aux\
+  \ niveaux régional et mondial :</em></strong></li>\n</ul>\n<p>Les valeurs manquantes\
+  \ sont calculées en utilisant l'année la plus récente disponible.</p>"
+DATA_COMP: "<h1>Méthodologie </h1>\n<h2>Méthode de calcul :</h2>\n<p>L'indicateur\
+  \ est calculé comme la part moyenne des lignes tarifaires nationales qui sont exemptes\
+  \ de droits.</p>"
+REC_USE_LIM: "<h2>Commentaires et limites :</h2>\n<p>Les mises en garde suivantes\
+  \ doivent être prises en considération lors de l'examen de cet indicateur : </p>\n\
+  <ul>\n <li>Il n'existe pas d'estimations précises sur le traitement spécial et différencié\
+  \ pour les pays en développement, les calculs sont donc limités aux seuls tarifs\
+  \ douaniers. Ceux-ci ne représentent qu'une partie des facteurs de limitation des\
+  \ échanges, en particulier lorsqu'on examine les exportations des pays en développement\
+  \ ou des pays les moins avancés dans le cadre d'un traitement préférentiel non réciproque\
+  \ qui fixe des critères d'éligibilité.</li>\n  <li> Une couverture complète des\
+  \ régimes préférentiels des pays développés est utilisée pour le calcul, mais le\
+  \ traitement préférentiel peut ne pas être pleinement utilisé par les exportateurs\
+  \ des pays en développement pour différentes raisons telles que l'incapacité de\
+  \ certains exportateurs à satisfaire aux critères d'éligibilité (c'est-à-dire à\
+  \ respecter les règles d'origine). Comme il n'existe pas d'informations statistiques\
+  \ précises sur l'étendue de l'utilisation réelle de chacune de ces préférences,\
+  \ on suppose qu'elles sont pleinement utilisées.</li>\n  <li>Le traitement en franchise\
+  \ de droits est un indicateur de l'accès au marché, mais n'est pas toujours synonyme\
+  \ de traitement préférentiel pour les pays bénéficiaires, car un certain nombre\
+  \ de droits NPF sont déjà nuls ou proches de zéro, notamment pour les combustibles\
+  \ et les minéraux. Les accords internationaux sur les produits informatiques offrent\
+  \ également un traitement en franchise de droits pour les composants et les équipements\
+  \ utilisés à des fins de production. </li> \n</ul>"
+RATIONALE: "<h2>Justification : </h2>\n<p>Le calcul de cet indicateur permettra d'observer\
+  \ sur combien de produits les pays en développement et les PMA auront libre accès\
+  \ aux marchés des pays développés. Comparé aux taux tarifaires appliqués aux autres\
+  \ pays, cet indicateur permettra d'évaluer dans quelle mesure un traitement spécial\
+  \ et différencié a été accordé en termes de tarifs d'importation. L'évolution de\
+  \ cet indicateur indiquera les progrès réalisés dans l'élimination progressive des\
+  \ droits de douane sur les marchandises provenant des pays en développement et des\
+  \ PMA.</p>"
+COMPILING_ORG: "<h1>Compilateurs de données </h1>\n<p><strong>Nom :</strong></p>\n\
+  <p>ITC, OMC et CNUCED </p>\n<h2>Description : </h2>\n<p>Le CCI, l'OMC et la CNUCED\
+  \ feront conjointement rapport sur cet indicateur.</p>"
+DATA_SOURCE: "<h1>Fournisseurs de données </h1>\n<p>NA </p>"
+REL_CAL_POLICY: "<h2>Publication des données : </h2>\n<p>A titre indicatif, les calculs\
+  \ des indicateurs peuvent être prêts en mars de chaque année. Cependant, la date\
+  \ de publication dépendra de la période envisagée pour le lancement du rapport de\
+  \ suivi des ODD. </p>"
+FREQ_COLL: "<h1>Calendrier </h1>\n<h2>Collecte des données : </h2>\n<p>Mis à jour\
+  \ en continu toute l'année</p>"
+SOURCE_TYPE: "<h1>Sources de données </h1>\n<h2>Description : </h2>\n<p>Les principales\
+  \ informations utilisées pour calculer les indicateurs 10.a.1 sont les données sur\
+  \ les tarifs d'importation. Les informations sur les tarifs d'importation peuvent\
+  \ être obtenues en contactant directement les bureaux statistiques nationaux, les\
+  \ missions permanentes des pays auprès de l'ONU, les organisations régionales ou\
+  \ les points focaux au sein des douanes, les ministères en charge des recettes douanières\
+  \ (ministère de l'économie/des finances et les autorités fiscales concernées) ou,\
+  \ alternativement, le ministère du commerce. Les données tarifaires pour le calcul\
+  \ de cet indicateur sont extraites des bases de données du CCI (MAcMap) - <a href=\"\
+  http://www.macmap.org/%20\">http://www.macmap.org/</a> - de l'OMC (BID) - <a href=\"\
+  http://tao.wto.org\">http://tao.wto.org</a> - et de la CNUCED (TRAINS). Les données\
+  \ sur les tarifs d'importation incluses dans la base de données du CCI (MAcMap)\
+  \ sont collectées en contactant directement les points focaux des agences nationales\
+  \ ou des organisations régionales (dans le cas des unions douanières ou des communautés\
+  \ économiques régionales). Lorsqu'elles sont disponibles, les données sont téléchargées\
+  \ à partir des sites Internet officiels nationaux ou régionaux. Dans certains cas,\
+  \ les données sont achetées auprès de sociétés privées. Les données sur les tarifs\
+  \ d'importation incluses dans la base de données de l'OMC (BID) proviennent des\
+  \ notifications officielles des membres de l'OMC. Les tarifs d'importation inclus\
+  \ dans la base de données de la CNUCED (TRAINS) sont collectés auprès de sources\
+  \ officielles, y compris les sites web officiels des pays ou des organisations régionales.</p>"
+STAT_CONC_DEF: "<h1>Concepts et définitions </h1>\n<h2>Définition : </h2>\n<p>Proportion\
+  \ du nombre total de lignes tarifaires (en pourcentage) appliquées aux produits\
+  \ importés des pays les moins avancés et des pays en développement correspondant\
+  \ à un taux de droit de 0 % dans le chapitre 01-97 du SH.</p>\n<h2>Concepts : </h2>\n\
+  <p><strong><em>Ligne tarifaire ou lignes tarifaires nationales (NTL) :</em></strong>\
+  \ Les codes des lignes tarifaires nationales désignent les codes de classification,\
+  \ appliqués aux marchandises par les différents pays, qui sont plus longs que le\
+  \ niveau à six chiffres du SH. Les pays sont libres d'introduire des distinctions\
+  \ nationales pour les tarifs et à bien d'autres fins. Les codes de lignes tarifaires\
+  \ nationaux sont basés sur le système SH mais sont plus longs que six chiffres.\
+  \ Par exemple, le code SH à six chiffres 010120 fait référence aux ânes, mules et\
+  \ bardots, vivants, alors que le code de ligne tarifaire national américain 010120.10\
+  \ fait référence aux ânes reproducteurs de race pure vivants, 010120.20 fait référence\
+  \ aux ânes vivants autres que les ânes reproducteurs de race pure et 010120.30 fait\
+  \ référence aux mules et bardots importés pour un abattage immédiat.</p>\n<p><strong><em>Tarifs\
+  \ douaniers :</em></strong> Les tarifs douaniers sont des droits de douane sur les\
+  \ importations de marchandises, prélevés soit sur une base ad valorem (pourcentage\
+  \ de la valeur), soit sur une base spécifique (par exemple, 7 dollars par 100 kg).\
+  \ Les droits de douane peuvent être utilisés pour créer un avantage de prix pour\
+  \ des marchandises similaires produites localement et pour augmenter les recettes\
+  \ publiques. Les mesures de recours commercial et les taxes ne sont pas considérées\
+  \ comme des tarifs douaniers.</p>"
+SDG_CUSTODIAN_AGENCIES: "<h1>Informations institutionnelles </h1>\n<h2>Organisation(s)\
+  \ :</h2>\n<p>Centre du commerce international (CCI)</p>\n<p>Conférence des Nations\
+  \ Unies sur le commerce et le développement (CNUCED)</p>\n<p>L'Organisation mondiale\
+  \ du commerce (OMC)</p>"
+SDG_RELATED_INDICATORS: "<h1>Indicateurs connexes </h1>\n<p>Liens avec l'indicateur\
+  \ 17.12 sur la mise en œuvre de l'accès aux marchés en franchise de droits et sans\
+  \ contingent.</p>"
