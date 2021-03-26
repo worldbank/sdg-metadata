@@ -18,7 +18,7 @@ SDG_CUSTODIAN_AGENCIES: |-
   <h1>Informations institutionnelles</h1>
   <h2>Organisation(s):</h2>
   <p>Fonds des Nations Unies pour l'enfance (UNICEF)</p>
-  <p>Organisation Mondiale de la santé (OMS)</p>
+  <p>Organisation Mondiale de la Santé (OMS)</p>
   <p>Banque mondiale (BM)</p>
 STAT_CONC_DEF: >-
   <h1> Concepts et définitions </h1>
@@ -47,13 +47,12 @@ SOURCE_TYPE: >-
 
   <h2>Description : </h2>
 
-  <p>Pour la majorité des pays, les enquêtes sur les ménages représentatives au
-  niveau national constituent la source de données. Pour un nombre limité de
-  pays, les données des systèmes de surveillance sont utilisées si une
-  couverture suffisante de la population est documentée (environ 80 %). Pour les
-  deux sources de données, les mesures de la taille et du poids de
-  l'enfant&#x2019; doivent être collectées selon les techniques de mesure
-  standard recommandées (OMS 2008). </p>
+  <p>Pour la majorité des pays, les enquêtes auprès des ménages représentatives au
+  niveau national constituent la source de données. Pour un nombre limité de pays,
+  les données des systèmes de surveillance sont utilisées si une couverture suffisante
+  de la population est documentée (environ 80 %). Pour les deux sources de données,
+  les mesures de la taille et du poids de l'enfant doivent être collectées selon les
+  techniques de mesure standard recommandées (OMS 2008). </p>
 COLL_METHOD: >-
   <h2>Processus de collecte : </h2>
 
@@ -118,7 +117,7 @@ DATA_SOURCE: >-
   de nutrition. </p>
 COMPILING_ORG: |-
   <h1>Compilateurs de données </h1>
-  <p>UNICEF, OMS et le groupe de la Banque Mondiale</p>
+  <p>UNICEF, OMS et le groupe de la Banque mondiale</p>
 RATIONALE: >-
   <h2> Justification : </h2>
 
@@ -206,26 +205,25 @@ COVERAGE: >-
 COMPARABILITY: >-
   <h2>Sources des divergences : </h2>
 
-  <p>L'approche d'analyse standard pour construire l'ensemble de données commun
-  vise à une comparabilité maximale des estimations des pays. Pour l'inclusion
-  des estimations de l'enquête dans l'ensemble de données du MEC, le groupe
-  inter-agences applique des critères d'évaluation de la qualité de l'enquête.
-  Lorsque la documentation est insuffisante, l'enquête n'est pas incluse tant
-  que les informations ne sont pas disponibles. Lorsque des données brutes sont
-  disponibles et qu'une question se pose sur l'approche d'analyse, une nouvelle
-  analyse des données est effectuée selon la méthodologie standard. Des
-  divergences entre les résultats de l'approche standardisée et ceux qui sont
-  déclarés peuvent se produire pour diverses raisons, par exemple, l'utilisation
-  de normes différentes pour le calcul du score z, l'imputation du jour de
-  naissance lorsque celui-ci est manquant, l'utilisation de l'âge arrondi en
-  mois, l'utilisation de systèmes de marquage différents pour l'exclusion des
-  données. Pour les enquêtes basées sur les précédentes références NCHS/OMS, et
-  pour lesquelles les données brutes ne sont pas disponibles, une méthode de
-  conversion des z-scores basée sur les normes de croissance des enfants de
-  l'OMS est appliquée (Yang et de Onis, 2008). En outre, lorsque les enquêtes ne
-  couvrent pas l'intervalle d'âge 0-5 ans, ou sont uniquement représentatives
-  des zones rurales, un ajustement basé sur d'autres enquêtes pour le même pays
-  est effectué. Tout ajustement ou conversion est indiqué de manière
+  <p>L'approche d'analyse standard pour construire l'ensemble de données communes
+  vise à une comparabilité maximale des estimations des pays. Pour l'inclusion des
+  estimations de l'enquête dans l'ensemble de données Joint Child Malnutrition Estimates,
+  le groupe inter agences applique des critères d'évaluation de la qualité de l'enquête.
+  Lorsque la documentation est insuffisante, l'enquête n'est pas incluse tant que
+  les informations ne sont pas disponibles. Lorsque des données brutes sont disponibles
+  et qu'une question se pose sur l'approche d'analyse, une nouvelle analyse des données
+  est effectuée selon la méthodologie standard. Des divergences entre les résultats
+  de l'approche standardisée et ceux qui sont déclarés, peuvent se produire pour diverses
+  raisons (par exemple, utilisation de normes différentes pour le calcul du score
+  z, imputation du jour de naissance lorsque celui-ci est manquant, utilisation de
+  l'âge arrondi en mois, utilisation de systèmes de marquage différents pour l'exclusion
+  des données). Pour les enquêtes basées sur les précédentes références National Center
+  for Health Statistics (NCHS)/OMS, et pour lesquelles les données brutes ne sont
+  pas disponibles, une méthode de conversion des z-scores basée sur les normes de
+  croissance des enfants de l'OMS est appliquée (Yang et de Onis, 2008). En outre,
+  lorsque les enquêtes ne couvrent pas l'intervalle d'âge 0-5 ans, ou sont uniquement
+  représentatives des zones rurales, un ajustement basé sur d'autres enquêtes pour
+  le même pays est effectué. Tout ajustement ou conversion est indiqué de manière
   transparente dans l'ensemble de données commun annoté. </p>
 OTHER_DOC: >-
   <h1>Références</h1>
