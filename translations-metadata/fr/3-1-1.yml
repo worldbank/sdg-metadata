@@ -22,36 +22,37 @@ STAT_CONC_DEF: >-
 
   <h2>Définition : </h2>
 
-  <p>Le taux de mortalité maternelle (TMM) est défini comme le nombre de décès
-  maternels au cours d'une période donnée pour 100 000 naissances vivantes au
-  cours de la même période. Il décrit le risque de décès maternel par rapport au
-  nombre de naissances vivantes et saisit essentiellement le risque de décès au
-  cours d'une seule grossesse ou d'une seule naissance vivante.</p>
+  <p>Le ratio de mortalité maternelle (RMM) est défini comme le nombre de décès maternels
+  au cours d'une période donnée pour 100 000 naissances vivantes au cours de la même
+  période. Il décrit le risque de décès maternel par rapport au nombre de naissances
+  vivantes et saisit essentiellement le risque de décès au cours d'une seule grossesse
+  ou d'une seule naissance vivante.</p>
 
-  <p>Morts maternelles : Le nombre annuel de décès de femmes de toute cause liée
-  ou aggravée par la grossesse ou sa gestion (à l'exclusion des causes
-  accidentelles ou fortuites) pendant la grossesse et l'accouchement ou dans les
-  42 jours suivant l'interruption de la grossesse, indépendamment de la durée et
-  du lieu de la grossesse, exprimé pour 100 000 naissances vivantes, pendant une
+  <p>Le nombre de morts maternelles se définit comme le nombre annuel de décès de
+  femmes de toute cause liée ou aggravée par la grossesse ou sa gestion (à l'exclusion
+  des causes accidentelles ou fortuites) pendant la grossesse et l'accouchement ou
+  dans les 42 jours suivant l'interruption de la grossesse, indépendamment de la durée
+  et du lieu de la grossesse, exprimé pour 100 000 naissances vivantes, pendant une
   période déterminée.</p>
 
   <h2>Concepts : </h2>
 
-  <p>Définitions relatives au décès maternel dans la CIM-10 </p>
+  <p>Définitions relatives au décès maternel dans la Classification internationale
+  des maladies(CIM-10) </p>
 
-  <p>Mort maternelle : Le décès d'une femme enceinte ou dans les 42 jours
-  suivant l'interruption de la grossesse, quels que soient la durée et le lieu
-  de la grossesse, de toute cause liée à la grossesse ou à sa prise en charge ou
-  aggravée par celles-ci (décès obstétrique direct ou indirect), mais non de
-  causes accidentelles ou fortuites. </p>
+  <p>La mort maternelle se définit pour sa part comme le décès d'une femme enceinte
+  ou dans les 42 jours suivant l'interruption de la grossesse, quels que soient la
+  durée et le lieu de la grossesse, de toute cause liée à la grossesse ou à sa prise
+  en charge ou aggravée par celles-ci (décès obstétrique direct ou indirect), mais
+  non de causes accidentelles ou fortuites. </p>
 
-  <p>Décès lié à la grossesse : Le décès d'une femme pendant sa grossesse ou
-  dans les 42 jours suivant l'interruption de la grossesse, quelle que soit la
+  <p>Le décès lié à la grossesse informe sur le décès d'une femme pendant sa grossesse
+  ou dans les 42 jours suivant l'interruption de la grossesse, quelle que soit la
   cause du décès. </p>
 
-  <p>Mort maternelle tardive : Le décès d'une femme de cause obstétricale
-  directe ou indirecte, plus de 42 jours, mais moins d'un an après
-  l'interruption de la grossesse.</p>
+  <p>Pour la mort maternelle tardive, on parle de décès d'une femme de cause obstétricale
+  directe ou indirecte, plus de 42 jours, mais moins d'un an après l'interruption
+  de la grossesse.</p>
 SOURCE_TYPE: >-
   <h1>Sources de données</h1>
 
@@ -139,95 +140,89 @@ COMPILING_ORG: >-
 RATIONALE: >-
   <h2>Justification :</h2>
 
-  <p>Tous les indicateurs de mortalité maternelle dérivés du cycle d'estimation
-  de 2019 comprennent une estimation ponctuelle et un intervalle d'incertitude
-  (UI) de 80 %. Les données sont disponibles et peuvent être téléchargées sur la
-  page web « maternal mortality &#x2013; levels and trends 2000-2017 : <a
-  href="http://mmr2017.srhr.org">http://mmr2017.srhr.org</a>. Les estimations
-  ponctuelles et l'intervalle d'incertitude de 80 % doivent être pris en compte
-  lors de l'évaluation des estimations. </p>
+  <p>Tous les indicateurs de mortalité maternelle dérivés du cycle d'estimation de
+  2019 comprennent une estimation ponctuelle et un intervalle d'incertitude (UI) de
+  80 %. Les données sont disponibles et peuvent être téléchargées sur la page web
+  « Maternal Mortality &#x2013; Levels and Trends 2000-2017 ( <a href="http://mmr2017.srhr.org">http://mmr2017.srhr.org</a>).
+  Les estimations ponctuelles et l'intervalle d'incertitude de 80 % doivent être pris
+  en compte lors de l'évaluation des estimations. </p>
 
   <p> Par exemple : </p>
 
-  <p>Le TMM mondial estimé pour 2017 est de 211 (UI 199 à 243)</p>
+  <p>Le RMM mondial estimé pour 2017 est de 211 (UI 199 à 243)</p>
 
   <p>Cela signifie : </p>
 
-  <p> &#x2022; L'estimation ponctuelle est de 211 et l'intervalle d'incertitude
-  de 80% va de 199 à 243. </p>
+  <p> &#x2022; L'estimation ponctuelle est de 211 et l'intervalle d'incertitude de
+  80% va de 199 à 243. </p>
 
-  <p> &#x2022; Il y a 50% de chances que le véritable TMM mondial de 2017 soit
-  supérieur à 211, et 50% de chances que la valeur réelle soit inférieure à 211.
-  </p>
+  <p> &#x2022; Il y a 50% de chances que le véritable RMM mondial de 2017 soit supérieur
+  à 211, et 50% de chances que la valeur réelle soit inférieure à 211. </p>
 
-  <p> &#x2022;Il y a 80 % de chances que le véritable TMM mondial de 2017 se
-  situe entre 199 et 243. </p>
+  <p> &#x2022;Il y a 80 % de chances que le véritable RMM mondial de 2017 se situe
+  entre 199 et 243. </p>
 
-  <p> &#x2022; Il y a encore 10 % de chances que le véritable TMM mondial de
-  2017 soit supérieur à 243, et 10 % de chances que la valeur réelle soit
-  inférieure à 199. </p>
+  <p> &#x2022; Il y a encore 10 % de chances que le véritable RMM mondial de 2017
+  soit supérieur à 243, et 10 % de chances que la valeur réelle soit inférieure à
+  199. </p>
 
   <p>Parmi les autres interprétations précises, on peut citer : </p>
 
-  <p> &#x2022; Nous sommes sûrs à 90 % que le véritable TMM mondial de 2017 est
-  d'au moins 199. </p>
+  <p> &#x2022; Nous sommes sûrs à 90 % que le véritable RMM mondial de 2017 est d'au
+  moins 199. </p>
 
-  <p> &#x2022; Nous sommes sûrs à 90 % que le véritable TMM mondial de 2017 est
-  de 243 ou moins. </p>
+  <p> &#x2022; Nous sommes sûrs à 90 % que le véritable RMM mondial de 2017 est de
+  243 ou moins. </p>
 
-  <p>La quantité de données disponibles pour l'estimation d'un indicateur et la
-  qualité de ces données déterminent la largeur de l'UI d'un indicateur. À
-  mesure que la disponibilité et la qualité des données s'améliorent, la
-  certitude augmente que la valeur réelle d'un indicateur est proche de
-  l'estimation ponctuelle. </p>
+  <p>La quantité de données disponibles pour l'estimation d'un indicateur et la qualité
+  de ces données déterminent la largeur de l'UI d'un indicateur. À mesure que la disponibilité
+  et la qualité des données s'améliorent, équivaut à l'augmentation de la certitude
+  que la valeur réelle d'un indicateur est proche de l'estimation ponctuelle. </p>
 REC_USE_LIM: >-
   <h2>Commentaires et limites : </h2>
 
-  <p> L'ampleur de la mortalité maternelle dans une population est
-  essentiellement la combinaison de deux facteurs :</p>
+  <p> L'ampleur de la mortalité maternelle dans une population est essentiellement
+  la combinaison de deux facteurs :</p>
 
-  <p>i. Le risque de décès lors d'une seule grossesse ou d'une seule naissance
-  vivante. </p>
-
-  <p>ii. Le niveau de fertilité (c'est-à-dire le nombre de grossesses ou de
-  naissances que connaissent les femmes en âge de procréer). </p>
-
-  <p>Le taux de mortalité maternelle (TMM) est défini comme le nombre de décès
-  maternels pendant une période donnée pour 100 000 naissances vivantes au cours
-  de la même période. Il décrit le risque de décès maternel par rapport au
-  nombre de naissances vivantes et reprend essentiellement le point (i)
-  ci-dessus.</p>
-
-  <p>En revanche, le taux de mortalité maternelle (MMRate) est calculé comme le
-  nombre de décès maternels divisé par les années-personnes vécues par les
-  femmes en âge de procréer. Le taux de mortalité maternelle saisit à la fois le
-  risque de décès maternel par grossesse ou par naissance totale (naissance
-  vivante ou mort-né) et le niveau de fertilité de la population. En plus du TMM
-  et du taux de mortalité maternelle, il est possible de calculer le risque de
-  mortalité maternelle des femmes de la population pendant leur vie adulte. Une
-  autre mesure de la mortalité maternelle, la proportion de décès chez les
-  femmes en âge de procréer qui sont dus à des causes maternelles (MP), est
-  calculée comme le nombre de décès maternels divisé par le total des décès chez
-  les femmes âgées de 15 &#x2013;49 ans. </p>
-
-  <p><strong>Mesures statistiques connexes de la mortalité maternelle :
-  </strong></p>
-
-  <p>Taux de mortalité maternelle (TMM) : Nombre de décès maternels au cours
-  d'une période donnée pour 100 000 naissances vivantes au cours de la même
-  période. </p>
-
-  <p>Taux de mortalité maternelle (MMRate) : Nombre de décès maternels divisé
-  par le nombre d'années-personnes vécues par les femmes en âge de procréer.
+  <p>i. Le risque de décès lors d'une seule grossesse ou d'une seule naissance vivante.
   </p>
 
-  <p>Risque de décès maternel au cours de la vie d'un adulte : La probabilité
-  qu'une femme de 15 ans meure éventuellement d'une cause maternelle. </p>
+  <p>ii. Le niveau de fertilité (c'est-à-dire le nombre de grossesses ou de naissances
+  que connaissent les femmes en âge de procréer). </p>
 
-  <p>Proportion de décès de femmes en âge de procréer qui sont dus à des causes
-  maternelles (PM) : Le nombre de décès maternels au cours d'une période donnée
-  divisé par le nombre total de décès chez les femmes âgées de 15 ans &#x2013;49
+  <p>Le RMM est défini comme le nombre de décès maternels pendant une période donnée
+  pour 100 000 naissances vivantes au cours de la même période. Il décrit le risque
+  de décès maternel par rapport au nombre de naissances vivantes et reprend essentiellement
+  le point (i) ci-dessus.</p>
+
+  <p>En revanche, le taux de mortalité maternelle (RMM) est calculé comme le nombre
+  de décès maternels divisé par les années-personnes vécues par les femmes en âge
+  de procréer. Le RMM saisit à la fois le risque de décès maternel par grossesse ou
+  par naissance totale (naissance vivante ou mort-né) et le niveau de fertilité de
+  la population. En plus du RMM et du TMM, il est possible de calculer le risque de
+  mortalité maternelle des femmes de la population pendant leur vie adulte. Une autre
+  mesure de la mortalité maternelle : la proportion de décès chez les femmes en âge
+  de procréer qui sont dus à des causes maternelles, est calculée comme le nombre
+  de décès maternels divisé par le total des décès chez les femmes âgées de 15 à 49
   ans. </p>
+
+  <p><strong>Mesures statistiques connexes de la mortalité maternelle : </strong></p>
+
+  <p>Ratio de mortalité maternelle (RMM) est défini comme le nombre de décès maternels
+  au cours d'une période donnée pour 100 000 naissances vivantes au cours de la même
+  période. </p>
+
+  <p>Taux de mortalité maternelle (TMM) pour sa part renseigne sur le nombre de décès
+  maternels divisé par le nombre d'années-personnes vécues par les femmes en âge de
+  procréer. </p>
+
+  <p>Tandis que le risque de décès maternel au cours de la vie d'un adulte informe
+  sur la probabilité qu'une femme de 15 ans meure éventuellement d'une cause maternelle.
+  </p>
+
+  <p>La proportion de décès de femmes en âge de procréer qui sont dus à des causes
+  maternelles nous renseigne le nombre de décès maternels au cours d'une période donnée
+  divisé par le nombre total de décès chez les femmes âgées de 15 ans à 49 ans. </p>
 DATA_COMP: >-
   <h1>Méthodologie</h1>
 
