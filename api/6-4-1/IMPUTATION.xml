@@ -26,7 +26,16 @@
 &lt;/ul&gt;
 &lt;p&gt; Si les données par pays sont manquantes, la valeur de l’indicateur sera prise en compte dans la moyenne des autres dans la même région. &lt;/p&gt;
 			</language>
-			<language lang="ru"/>
+			<language lang="ru">&lt;h2&gt; Обработка отсутствующих значений: &lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt; &lt;strong&gt; &lt;em&gt; На страновом уровне: &lt;/em&gt; &lt;/strong&gt; &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt; Если будут доступны разрозненные (по времени) данные , то будет разработана методология интерполяции и экстраполяции. &lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt; &lt;strong&gt; &lt;em&gt; На региональном и глобальном уровнях: &lt;/em&gt; &lt;/strong&gt; &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt; Если страновые данные отсутствуют, то значение показателя будет считаться средним по другим странам в том же регионе. &lt;/p&gt;
+			</language>
 </languages>
 </data>
 </root>
