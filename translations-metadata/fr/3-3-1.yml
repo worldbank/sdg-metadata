@@ -16,10 +16,10 @@ STAT_CONC_DEF: >-
 
   <h2> Définition :</h2>
 
-  <p>Le nombre de nouvelles infections au VIH pour 1 000 habitants non infectés,
-  selon le sexe, l’âge et les populations clés, tel que défini comme le nombre
-  de nouvelles infections au VIH pour 1 000 années-personnes parmi la population
-  non infectée. </p>
+  <p>Le nombre de nouvelles infections au VIH pour 1 000 habitants non infectés, selon
+  le sexe, l’âge et les populations cibles, tel que défini comme le nombre de nouvelles
+  infections au VIH pour 1 000 années-personnes parmi la population non infectée.
+  </p>
 SOURCE_TYPE: >-
   <h1> Sources de données</h1>
 
@@ -88,22 +88,21 @@ IMPUTATION: >-
     <li> <strong> <em> Au niveau national : </em> </strong> </li>
   </ul>
 
-  <p> Les estimations ne sont pas collectées auprès des pays ayant une
-  population &lt; 250 000 habitants. De plus, aucune estimation n'est disponible
-  pour 10 pays avec de très petites épidémies de VIH qui ne produisent pas
-  d'estimations. Pour certains pays, les estimations n'étaient pas finalisées au
-  moment de la publication. Les valeurs propres à chaque pays ne sont pas
-  présentées pour ces pays. </p>
+  <p> Les estimations ne sont pas collectées auprès des pays ayant une population
+  inférieur à 250 000 habitants. De plus, aucune estimation n'est disponible pour
+  10 pays avec de très petites épidémies de VIH qui ne produisent pas d'estimations.
+  Pour certains pays, les estimations n'étaient pas finalisées au moment de la publication.
+  Les valeurs propres à chaque pays ne sont pas présentées pour ces pays. </p>
 
   <ul>
     <li> <strong> <em> Aux niveaux régional et mondial : </em> </strong> </li>
   </ul>
 
-  <p> Les pays avec des populations &lt; 250 000 et les 10 pays qui ne
-  produisent pas d'estimations ne sont pas inclus dans les estimations au niveau
-  régional ou mondial. Pour les pays dans lesquels les estimations n'étaient pas
-  finalisées au moment de la publication, les meilleures estimations non
-  officielles sont incluses dans les valeurs régionales et mondiales. </p>
+  <p> Les pays avec des populations inférieurs à 250 000 habitants et les 10 pays
+  qui ne produisent pas d'estimations ne sont pas inclus dans les estimations au niveau
+  régional ou mondial. Pour les pays dans lesquels les estimations n'étaient pas finalisées
+  au moment de la publication, les meilleures estimations non officielles sont incluses
+  dans les valeurs régionales et mondiales. </p>
 REG_AGG: >-
   <h2>Agrégats régionaux : </h2>
 
