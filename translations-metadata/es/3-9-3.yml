@@ -16,3 +16,102 @@ COMPILING_ORG: |-
   <h1>Compiladores de datos</h1>
   <p>OMS</p>
 META_LAST_UPDATE: '<p>Última actualización: 09 de julio de 2017</p>'
+OTHER_DOC: "<h1>Referencias</h1>\n<h2>URL:</h2>\n<p><a href=\"http://www.who.int/healthinfo/global_burden_disease/estimates/en/index1.html\"\
+  >http://www.who.int/healthinfo/global_burden_disease/estimates/en/index1.html</a></p>\n\
+  <h2>Referencias:</h2>\n<p>Definición del indicador de la OMS (<a href=\"http://apps.who.int/gho/data/node.imr.SDGPOISON?lang=en\"\
+  >http://apps.who.int/gho/data/node.imr.SDGPOISON?lang=en</a>)</p>\n<p>Métodos y\
+  \ fuentes de datos de la OMS para las causas mundiales de muerte, 2000&#x2013;2012\
+  \ (<a href=\"http://www.who.int/healthinfo/global_burden_disease/GlobalCOD_method_2000_2012.pdf?ua=1\"\
+  >http://www.who.int/healthinfo/global_burden_disease/GlobalCOD_method_2000_2012.pdf?ua=1</a>)</p>"
+COMPARABILITY: "<h2> Fuentes de discrepancias:</h2>\n<p> La resolución de la Asamblea\
+  \ Mundial de la Salud exige a la OMS que consulte todas las estadísticas de la OMS\
+  \ y solicite comentarios de los países sobre los datos sobre países y territorios.\
+  \ Antes de publicar todas las estimaciones se someten a consultas en el país. </p>"
+COVERAGE: "<h1>Disponibilidad de datos</h1>\n<h2>Descripción:</h2>\n<p><strong>Disponibilidad\
+  \ de datos para el periodo 2010 en adelante: </strong></p>\n<p>Asia y Pacífico -\
+  \ 27% de los países (16 de 59 países, incluidos los sistemas de muestra de China\
+  \ e India)</p>\n<p>África - 6% de los países (3 de 54 países)</p>\n<p>América Latina\
+  \ y el Caribe - 56% de los países (19 de 34 países)</p>\n<p>Europa, América del\
+  \ Norte, Australia, Nueva Zelanda y Japón - 94% de los países (44 de 47 países,\
+  \ los que faltan son principalmente países muy pequeños)</p>\n<p><strong>Disponibilidad\
+  \ de datos (2000-2009):</strong></p>\n<p>Asia y Pacífico - 27% de los países (16\
+  \ de 59 países, incluidos los sistemas de muestras de China e India)</p>\n<p>África\
+  \ - 6% de los países (3 de 54 países)</p>\n<p>América Latina y el Caribe - 56% de\
+  \ los países (19 de 34 países)</p>\n<p>Europa, América del Norte, Australia, Nueva\
+  \ Zelanda y Japón - 94% de los países (44 de 47 países, los que faltan son principalmente\
+  \ países muy pequeños)</p>\n<p><strong>Enlace web a la base de datos: </strong></p>\n\
+  <p>Las últimas estimaciones de mortalidad por causas específicas a nivel mundial,\
+  \ regional y nacional, incluidas las intoxicaciones no intencionadas, para el año\
+  \ 2000 y 2012 (publicadas en 2014) se pueden descargar del sitio web de la OMS.\
+  \ <a href=\"http://www.who.int/healthinfo/global_burden_disease/estimates/en/index1.html\"\
+  >http://www.who.int/healthinfo/global_burden_disease/estimates/en/index1.html</a>\
+  \ También se puede acceder a las estimaciones de forma interactiva a través del\
+  \ Observatorio Mundial de la Salud <a href=\"http://www.who.int/gho/mortality_burden_disease/en/\"\
+  >http://www.who.int/gho/mortality_burden_disease/en/</a></p>\n<h2>Series temporales:</h2>\n\
+  <h2>Se dispone de datos de series temporales limitadas (series comparables para\
+  \ los años 2012 y próximamente 2015; también se dispone de datos para el año 2000,\
+  \ pero su comparabilidad es más limitada)</p>\n<h2>Desagregación:</h2>\n<p>Los datos\
+  \ pueden desagregarse por grupos de edad, sexo y enfermedad.</p>"
+REG_AGG: "<h2>Agregados regionales:</h2>\n<p>Las estimaciones de los países sobre\
+  \ el número de muertes por causa se suman para obtener agregados regionales y globales</p>"
+IMPUTATION: "<h2>Tratamiento de valores faltantes:</h2>\n<ul>\n  <li><strong><em>A\
+  \ nivel de país:</em></strong></li>\n</ul>\n<p>Los datos de los años-país que faltan\
+  \ se interpolan o extrapolan, según los datos disponibles. En el caso de los países\
+  \ en los que faltan datos, éstos son proporcionados por organismos internacionales,\
+  \ que han sido interpolados/extrapolados, ajustados y completados con datos adicionales\
+  \ y modelos de causa de muerte. Se ofrece una descripción más detallada de los métodos\
+  \ en <a href=\"http://www.who.int/healthinfo/global_burden_disease/GlobalCOD_method_2000_2012.pdf\"\
+  >http://www.who.int/healthinfo/global_burden_disease/GlobalCOD_method_2000_2012.pdf</a></p>\n\
+  <ul>\n  <li><strong><em>A nivel regional y mundial:</em></strong></li>\n</ul>\n\
+  <p>NA</p>"
+DATA_COMP: "<h1>Metodología</h1>\n<h2>Método de cálculo:</h2>\n<p>Los métodos con\
+  \ estándares internacionales acordados han sido desarrollados, revisados y publicados\
+  \ en varios documentos.</p>\n<p>Los métodos utilizados para el análisis de las causas\
+  \ de muerte dependen del tipo de datos disponibles de los países. </p>\n<p>En el\
+  \ caso de los países con un sistema de registro civil de alta calidad que incluye\
+  \ información sobre la causa de muerte, se utilizó el registro civil que los Estados\
+  \ miembros envían a la Base de Datos de Mortalidad de la OMS, con ajustes cuando\
+  \ fuera necesario, por ejemplo, para el subregistro de muertes.</p>\n<p>En los países\
+  \ que no disponen de datos de alta calidad sobre el registro de defunciones, las\
+  \ estimaciones de la causa de muerte se calculan utilizando otros datos, como las\
+  \ encuestas de hogares con autopsia verbal, los sistemas de registro por muestreo\
+  \ o centinela, los estudios especiales y los sistemas de monitoreo. En la mayoría\
+  \ de los casos, estas fuentes de datos se combinan en un marco de modelización.</p>\n\
+  <p>La metodología completa puede encontrarse aquí: <a href=\"http://www.who.int/healthinfo/global_burden_disease/GlobalCOD_method_2000_2012.pdf?ua=1\"\
+  >http://www.who.int/healthinfo/global_burden_disease/GlobalCOD_method_2000_2012.pdf?ua=1</a></p>"
+REC_USE_LIM: "<h2>Comentarios y limitaciones:</h2>\n<p>Los datos sobre muertes están\
+  \ ampliamente disponibles en los países a partir de los datos del registro de defunciones\
+  \ o de los sistemas de registro por muestreo, que son sistemas factibles, pero todavía\
+  \ no se dispone de datos de buena calidad en todos los países. Estos datos son cruciales\
+  \ para mejorar la salud y reducir las muertes evitables en los países. En el caso\
+  \ de los países que no disponen de estos sistemas de registro, los datos deben completarse\
+  \ con otro tipo de información.</p>"
+RATIONALE: "<h2>Justificación:</h2>\n<p>La medición de la tasa de mortalidad por envenenamiento\
+  \ no intencionado proporciona una indicación del alcance de la gestión inadecuada\
+  \ de los productos químicos peligrosos y de la contaminación, así como de la eficacia\
+  \ del sistema sanitario de un país. </p>"
+DATA_SOURCE: "<h1>Proveedores de datos</h1>\n<p>Oficinas nacionales de estadística,\
+  \ diversos ministerios competentes y bases de datos que abarcan el registro civil\
+  \ con cobertura completa y la certificación médica de la causa de la muerte.</p>"
+REL_CAL_POLICY: "<h2>Publicación de datos:</h2>\n<p>Finales de 2016 </p>"
+COLL_METHOD: "<h2>Proceso de recolección:</h2>\n<p>La OMS recopila los datos directamente\
+  \ de las fuentes de los países y, siguiendo el método establecido, las estimaciones\
+  \ se comparten con los países para recibir sus comentarios antes de la publicación.\
+  \ Para más detalles, véase el indicador 6.1.</p>"
+SOURCE_TYPE: "<h1>Fuentes de datos</h1>\n<h2>Descripción:</h2>\n<p>Los datos para\
+  \ la estimación incluyen (a) datos sobre servicios y prácticas de agua, saneamiento\
+  \ e higiene, y (b) datos sobre la causa de la muerte, de los cuales la fuente de\
+  \ datos preferida son los sistemas de registro de defunciones con cobertura completa\
+  \ y certificación médica de la causa de la muerte. Otras posibles fuentes de datos\
+  \ son las encuestas de hogares con autopsia verbal, los sistemas de registro de\
+  \ muestras o centinelas, los estudios especiales y los sistemas de monitoreo.</p>"
+STAT_CONC_DEF: "<h1>Conceptos y definiciones</h1>\n<h2>Definición:</h2>\n<p>La tasa\
+  \ de mortalidad atribuida a las intoxicaciones no intencionadas, definida como el\
+  \ número de muertes por intoxicaciones no intencionadas en un año, dividido por\
+  \ la población y multiplicado por 100 000.</p>\n<h2>Conceptos:</h2>\n<p>Tasa de\
+  \ mortalidad en el país por envenenamientos no intencionados al año. Los códigos\
+  \ CIE-10 correspondientes al indicador incluyen X40, X43-X44, X46-X49.</p>"
+FREQ_COLL: "<h1>Calendario</h1>\n<h2>Recolección de datos:</h2>\n<p>En curso </p>"
+SDG_RELATED_INDICATORS: "<h1> Indicadores relacionados a febrero de 2020</h1>\n<p>\
+  \ Indicador 7.1.2: Proporción de la población con dependencia primaria de combustibles\
+  \ y tecnología limpias</p>"
