@@ -171,7 +171,7 @@
     
       
       <h3>Conceptos de metadatos SDMX</h3>
-      <ul class="indicator-fields"><li><a href="#SDG_GOAL">0.a. Objetivo</a></li><li><a href="#SDG_TARGET">0.b. Metas</a></li><li><a href="#SDG_INDICATOR">0.c. Indicador</a></li></ul>
+      <ul class="indicator-fields"><li><a href="#SDG_GOAL">0.a. Objetivo</a></li><li><a href="#SDG_TARGET">0.b. Metas</a></li><li><a href="#SDG_INDICATOR">0.c. Indicador</a></li><li><a href="#SDG_CUSTODIAN_AGENCIES">0.g. Organizaciones internacionales responsables del seguimiento global</a></li><li><a href="#STAT_CONC_DEF">2.a. Definition and concepts</a></li><li><a href="#RATIONALE">4.a. Rationale</a></li><li><a href="#REC_USE_LIM">4.b. Comment and limitations</a></li><li><a href="#DATA_COMP">4.c. Method of computation</a></li><li><a href="#IMPUTATION">4.f. Treatment of missing values (i) at country level and (ii) at regional level</a></li><li><a href="#REG_AGG">4.g. Regional aggregations</a></li><li><a href="#COMPARABILITY">6. Comparability/deviation from international standards</a></li><li><a href="#SOURCE_TYPE">3.a. Data sources</a></li><li><a href="#COLL_METHOD">3.b. Data collection method</a></li><li><a href="#COVERAGE">5. Data availability and disaggregation</a></li><li><a href="#FREQ_COLL">3.c. Data collection calendar</a></li><li><a href="#REL_CAL_POLICY">3.d. Data release calendar</a></li><li><a href="#DATA_SOURCE">3.e. Data providers</a></li><li><a href="#COMPILING_ORG">3.f. Data compilers</a></li><li><a href="#OTHER_DOC">7. References and Documentation</a></li></ul>
 
       
     
@@ -204,7 +204,49 @@
   <a class="btn btn--info" href="/sdg-metadata/documents/es/16-3-2.pdf">Descargar PDF</a>
   
 </div>
-<a name="SDG_GOAL"></a><div id="SDG_GOAL"><p>Meta 16: Promover sociedades pacíficas e inclusivas para el desarrollo sostenible, facilitar el acceso a la justicia para todos y construir a todos los niveles instituciones eficaces e inclusivas que rindan cuentas</p></div><a name="SDG_TARGET"></a><div id="SDG_TARGET"><p>Objetivo 16.3: Promover el estado de derecho en los planos nacional e internacional y garantizar la igualdad de acceso a la justicia para todos</p></div><a name="SDG_INDICATOR"></a><div id="SDG_INDICATOR"><p>Indicador 16.3.2: Proporción de detenidos que no han sido condenados en el conjunto de la población reclusa total</p></div>
+<a name="SDG_GOAL"></a><div id="SDG_GOAL"><p>Meta 16: Promover sociedades pacíficas e inclusivas para el desarrollo sostenible, facilitar el acceso a la justicia para todos y construir a todos los niveles instituciones eficaces e inclusivas que rindan cuentas</p></div><a name="SDG_TARGET"></a><div id="SDG_TARGET"><p>Objetivo 16.3: Promover el estado de derecho en los planos nacional e internacional y garantizar la igualdad de acceso a la justicia para todos</p></div><a name="SDG_INDICATOR"></a><div id="SDG_INDICATOR"><p>Indicador 16.3.2: Proporción de detenidos que no han sido condenados en el conjunto de la población reclusa total</p></div><a name="SDG_CUSTODIAN_AGENCIES"></a><div id="SDG_CUSTODIAN_AGENCIES"><h1> Información institucional </h1>
+<h2> Organización (es): </h2>
+<p> Oficina de las Naciones Unidas contra la Droga y el Delito (UNODC) </p></div><a name="STAT_CONC_DEF"></a><div id="STAT_CONC_DEF"><h1>Conceptos y definiciones</h1>
+<h2>Definición:</h2>
+<p>El número total de personas detenidas que aún no han sido condenadas, como porcentaje del número total de personas detenidas, en una fecha determinada.</p>
+<h2>Conceptos:</h2>
+<p>&#x2018;Condenado&#x2019; se refiere a las personas sujetas a un proceso penal que han recibido una decisión de una autoridad competente sobre su condena o absolución. A efectos del indicador, se considera que las personas que han recibido una decisión &#x2018;no definitiva&#x2019; (como cuando una condena está sujeta a apelación) están &#x2018;condenadas&#x2019;.</p></div><a name="RATIONALE"></a><div id="RATIONALE"><h2>Justificación:</h2>
+<p>El indicador significa el respeto general por el principio de que las personas que esperan un juicio no deben ser detenidas innecesariamente. Esto, a su vez, se basa en aspectos del derecho a la presunción de inocencia hasta que se demuestre la culpabilidad. Desde el punto de vista del desarrollo, el uso extensivo de la prisión preventiva cuando no es necesaria por razones como la prevención de la fuga, la protección de las víctimas o los testigos, o la prevención de la comisión de nuevos delitos, puede desviar los recursos del sistema de justicia penal y ejercer cargas financieras y de desempleo sobre el acusado y su familia. Medir el grado relativo de utilización de la prisión preventiva puede proporcionar las pruebas necesarias para ayudar a los países a reducir dichas cargas y garantizar su uso proporcionado.</p></div><a name="REC_USE_LIM"></a><div id="REC_USE_LIM"><h2> Comentarios y limitaciones: </h2>
+<p> La meta se relaciona con los conceptos multidimensionales de estado de derecho y acceso a la justicia y se requieren al menos dos indicadores para cubrir los principales elementos de acceso a la justicia y eficiencia del sistema de justicia. El indicador propuesto 16.3.2 cubre la eficiencia del sistema judicial.</p></div><a name="DATA_COMP"></a><div id="DATA_COMP"><h1>Metodología</h1>
+<p><strong>Método de cálculo:</strong></p>
+<p>El número total de personas detenidas sin sentencia dividido por el número total de personas detenidas, en una fecha determinada.</p></div><a name="IMPUTATION"></a><div id="IMPUTATION"><h2>Tratamiento de valores faltantes:</h2>
+<ul>
+  <li><strong><em>A nivel de país:</em></strong></li>
+</ul>
+<p>Si faltan todos los valores para un período y un país determinados, los valores que faltan se dejan en blanco. Si sólo faltan algunos años del período, los valores que faltan para ese año se dejan en blanco y no se tienen en cuenta al calcular la media trienal de ese país.</p>
+<ul>
+<li><strong><em>A nivel regional y mundial:</em></strong></li>
+</ul>
+<p>Los valores que faltan se dejan en blanco y no se tienen en cuenta en el cálculo de las medias regionales.</p></div><a name="REG_AGG"></a><div id="REG_AGG"><h2>Agregados regionales:</h2>
+<p>Las medias ponderadas son el método preferido para calcular las tasas medias regionales y globales. Para ello, los promedios regionales de la proporción de detenidos sin condena se obtienen sumando el número de personas sin condena detenidas en la región y dividiendo el total por la suma del número total de personas detenidas en la región. Del mismo modo, los promedios globales de la proporción de detenidos sin condena se obtienen sumando el número de personas sin condena detenidas en todo el mundo y dividiendo el total por la suma del número total de personas detenidas en todo el mundo.</p></div><a name="COMPARABILITY"></a><div id="COMPARABILITY"><h2>Fuentes de discrepancia:</h2>
+<p>La ONUDD sólo recopila datos de fuentes nacionales, por lo que no deberían existir diferencias entre los valores.</p></div><a name="SOURCE_TYPE"></a><div id="SOURCE_TYPE"><h1>Fuentes de datos</h1>
+<p><strong>Descripción:</strong></p>
+<p>La ONUDD recoge datos sobre las prisiones a través de su recopilación anual de datos (UN-CTS). La recopilación de datos a través del UN-CTS es facilitada por una red de más de 130 puntos focales nacionales designados por las autoridades responsables. Se dispone de datos sobre los detenidos sin condena y el total de detenidos del UN-CTS para 114 países. La cobertura de países puede mejorar si se incluyen otras fuentes (instituciones de investigación y ONG) (se dispone de datos para otros 60 países, lo que eleva el total para el periodo 2012-2014 a 174 países). Se dispone de datos para dos puntos en el tiempo (promedios trienales de 2003-2005 y 2012-2014) para 144 países.</p></div><a name="COLL_METHOD"></a><div id="COLL_METHOD"><p><strong>Proceso de recolección:</strong></p>
+<p>Existe un sistema consolidado de recopilación de datos anuales sobre la delincuencia y la justicia penal (Estudio de Tendencias Delictivas de la ONU, UN-CTS) que representa la base de datos sobre los detenidos sin sentencia. La recopilación de datos del UN-CTS se basa en gran medida en la red de puntos focales nacionales, que son instituciones/funcionarios designados por los países y que tienen la capacidad técnica y la función de producir datos sobre la delincuencia y la justicia penal (alrededor de 130 puntos focales designados en 2016). Además, estos datos se complementan, en el caso de los países en los que faltan valores, con datos oficiales recogidos por el Instituto de Investigación sobre Política Criminal (World Prison Brief), que recopila datos directamente de las administraciones penitenciarias nacionales o de los sitios web de los Ministerios de Justicia u otros organismos oficiales. Para futuros informes sobre los ODS, los datos se enviarán a los países para su consulta antes de su publicación.</p></div><a name="COVERAGE"></a><div id="COVERAGE"><h1>Disponibilidad de datos</h1>
+<h2>Descripción:</h2>
+<p>La meta se relaciona con los conceptos multidimensionales de Estado de Derecho y acceso a la justicia y se requieren al menos dos indicadores para cubrir los elementos principales de acceso a la justicia y eficiencia del sistema judicial. El indicador 16.3.2 propuesto cubre la eficiencia del sistema de justicia</p>.
+<h2>Series temporales:</h2>
+<p>2003-2014 </p>
+<h2>Desagregación:</h2>
+<p>La desagregación recomendada para este indicador es:</p>
+<ul>
+  <li>edad y sexo</li>
+  <li>duración de la detención preventiva (sin sentencia)</li>
+</ul></div><a name="FREQ_COLL"></a><div id="FREQ_COLL"><h1> Calendario</h1>
+<h2> Recolección de datos:</h2>
+<p> III-VI trimestre 2016</p></div><a name="REL_CAL_POLICY"></a><div id="REL_CAL_POLICY"><h2>Publicación de datos:</h2>
+<p>II trimestre de 2017 (datos de 2015) </p></div><a name="DATA_SOURCE"></a><div id="DATA_SOURCE"><h1> Proveedores de datos </h1>
+<p> Autoridad penitenciaria nacional, a través del punto focal de UN-CTS </p></div><a name="COMPILING_ORG"></a><div id="COMPILING_ORG"><h1> Compiladores de datos</h1>
+<p> ONUDD</p></div><a name="OTHER_DOC"></a><div id="OTHER_DOC"><h1>Referencias</h1>
+<h2>URL:</h2>
+<p><a href="www.unodc.org">www.unodc.org</a></p>
+<h2>Referencias:</h2>
+<p>Las definiciones y otros metadatos se proporcionan en el Estudio de Tendencias Delictivas de las Naciones Unidas (UN-CTS, por sus siglas en inglés). Las directrices sobre la recopilación de información sobre las personas detenidas, así como los ejemplos de hojas de recolección de datos, se proporcionan en el Manual de las Naciones Unidas para el Desarrollo de un Sistema de Estadísticas de Justicia Penal, así como (para los niños), en el Manual de la ONUDD/UNICEF para la Medición de Indicadores de Justicia Juvenil.</p></div>
         
       </section>
 
