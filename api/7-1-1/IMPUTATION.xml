@@ -26,7 +26,16 @@
 &lt;/ul&gt;
 &lt;p&gt; Les valeurs des niveaux régional et mondial sont calculées en intégrant toutes les données de l’enquête ainsi que les valeurs estimées par le modèle qui remplacent les valeurs manquantes. Les classifications régionales et mondiales sont basées sur la série M49 des Nations Unies à des fins statistiques. &lt;/p&gt;
 			</language>
-			<language lang="ru"/>
+			<language lang="ru">&lt;h2&gt;Обработка отсутствующих значений: &lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt; &lt;strong&gt; &lt;em&gt; На страновом уровне: &lt;/em&gt; &lt;/strong&gt; &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Для определения исторического развития и отправной точки темпов электрификации был принят простой подход к моделированию, чтобы заполнить отсутствующие элементы данных. Оценка проводится с использованием модели с переменными региона, страны и времени. Модель сохраняет исходное наблюдение, если данные доступны. Статистическая модель используется для заполнения данных только за те годы, когда они отсутствуют, и для помощи в проведении глобального и регионального анализа. При отсутствии данных обследования за конкретный год информация была заимствована из региональных тенденций. Расчетные значения ясно обозначены (&quot;Оценка&quot;) в базе данных. &amp; # XA0; &amp; # xA0;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt; &lt;strong&gt; На региональном и глобальном уровнях: &lt;/strong&gt; &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt; Значения для регионального и глобального уровней рассчитываются путем включения всех данных обследования вместе с оцененными с помощью модели значениями, заменяющими отсутствующие значения. Региональные и глобальные классификации основаны на серии ООН M49 для статистического использования. &lt;/p&gt;
+			</language>
 </languages>
 </data>
 </root>

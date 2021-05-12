@@ -19,7 +19,20 @@
 &lt;p&gt;Formulas to (1) calculate age-specific mortality rate for each five-year age group between 30 and 70, (2) translate the 5-year death rate into the probability of death in each 5-year age range, and (3) calculate the probability of death from age 30 to age 70, independent of other causes of death, can be found on page 6 of this document:&lt;/p&gt;
 &lt;p&gt;NCD Global Monitoring Framework: Indicator Definitions and Specifications. Geneva: World Health Organization, 2014 (&lt;a href=&quot;http://www.who.int/nmh/ncd-tools/indicators/GMF_Indicator_Definitions_FinalNOV2014.pdf?ua=1&quot;&gt;http://www.who.int/nmh/ncd-tools/indicators/GMF_Indicator_Definitions_FinalNOV2014.pdf?ua=1&lt;/a&gt;)&lt;/p&gt;
 			</language>
-			<language lang="es"/>
+			<language lang="es">&lt;h1&gt;Metodología&lt;/h1&gt;
+&lt;h2&gt;Método de cálculo:&lt;/h2&gt;
+&lt;p&gt;El cálculo de este indicador consta de 4 etapas:&lt;/p&gt;
+&lt;p&gt;1. Estimación de las tablas de vida de la OMS, basadas en la revisión de las Perspectivas de la Población Mundial 2012 de la ONU. &lt;/p&gt;
+&lt;p&gt;2. Estimación de la distribución de las causas de muerte. &lt;/p&gt;
+&lt;p&gt;3. Cálculo de las tasas de mortalidad por edad de las cuatro principales ENT para cada rango de edad de cinco años entre 30 y 70 años. &lt;/p&gt;
+&lt;p&gt;4. Cálculo de la probabilidad de morir entre los 30 y los 70 años por enfermedades cardiovasculares, cáncer, diabetes o enfermedades respiratorias crónicas.&lt;/p&gt;
+&lt;p&gt;Los métodos utilizados para el análisis de las causas de muerte dependen del tipo de datos disponibles de los países:&lt;/p&gt;
+&lt;p&gt;En el caso de los países con un sistema de registro civil de alta calidad que incluye información sobre la causa de la muerte, se utilizó el registro civil que los Estados miembros envían a la Base de Datos de Mortalidad de la OMS, con ajustes cuando fuera necesario, por ejemplo, para el subregistro de muertes.&lt;/p&gt;
+&lt;p&gt;En los países que no disponen de datos de alta calidad sobre el registro de defunciones, las estimaciones de la causa de muerte se calculan utilizando otros datos, como las encuestas de hogares con autopsia verbal, los sistemas de registro por muestreo o centinela, los estudios especiales y los sistemas de vigilancia. En la mayoría de los casos, estas fuentes de datos se combinan en un marco de modelización.&lt;/p&gt;
+&lt;p&gt; La probabilidad de morir entre los 30 y los 70 años a causa de las cuatro principales ENT se estimó utilizando las tasas de mortalidad específicas por edad de las cuatro principales categorías de ENT combinadas. Utilizando el método de la tabla de vida, el riesgo de muerte entre las edades exactas de 30 y 70 años, por cualquiera de las cuatro causas y en ausencia de otras causas de muerte, se calculó utilizando la ecuación siguiente. Los códigos CIE utilizados son Enfermedades cardiovasculares: I00-I99, Cáncer: C00-C97, Diabetes: E10-E14, y Enfermedad respiratoria crónica: J30-J98 &lt;/p&gt;
+&lt;p&gt;Las fórmulas para (1) calcular la tasa de mortalidad específica por edad para cada grupo de edad de cinco años entre 30 y 70 años, (2) traducir la tasa de mortalidad de cinco años en la probabilidad de muerte en cada rango de edad de cinco años, y (3) calcular la probabilidad de muerte desde los 30 hasta los 70 años, independientemente de otras causas de muerte, se pueden encontrar en la página 6 de este documento:&lt;/p&gt;
+&lt;p&gt;Marco de Vigilancia Mundial de las ENT: Definiciones y especificaciones de los indicadores. Ginebra: Organización Mundial de la Salud, 2014 (&lt;a href=&quot;http://www.who.int/nmh/ncd-tools/indicators/GMF_Indicator_Definitions_FinalNOV2014.pdf?ua=1&quot;&gt;http://www.who.int/nmh/ncd-tools/indicators/GMF_Indicator_Definitions_FinalNOV2014.pdf?ua=1&lt;/a&gt;)&lt;/p&gt;
+			</language>
 			<language lang="fr">&lt;h1&gt;Méthodologie&lt;/h1&gt;
 &lt;h2&gt;Méthode de calcul :&lt;/h2&gt;
 &lt;p&gt;Le calcul de cet indicateur comporte 4 étapes :&lt;/p&gt;
