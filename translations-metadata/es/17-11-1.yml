@@ -17,3 +17,121 @@ SDG_CUSTODIAN_AGENCIES: "<h1>Información institucional</h1>\n<h2>Organización(
 COMPILING_ORG: "<h1>Compiladores de datos</h1>\n<p><strong>Nombre:</strong></p>\n\
   <p>CCI, OMC y UNCTAD</p>\n<h2>Descripción:</h2>\n<p>El CCI, la OMC y la UNCTAD informarán\
   \ conjuntamente sobre este indicador</p>"
+OTHER_DOC: "<h1>Referencias</h1>\n<h2>URL:</h2>\n<p><a href=\"http://www.intracen.org\"\
+  >http://www.intracen.org</a></p>\n<p><a href=\"http://www.wto.org\">www.wto.org</a></p>\n\
+  <p><a href=\"http://unctad.org/en/Pages/Home.aspx\">http://unctad.org/en/Pages/Home.aspx</a></p>\n\
+  <h2>Referencias:</h2>\n<p>El cálculo de las estadísticas del comercio de mercancías\
+  \ se basa en prácticas internacionales y nacionales bien establecidas.</p>\n<p>Para\
+  \ el comercio de mercancías, véase el manual de estadísticas del comercio internacional\
+  \ de mercancías (ECIM) <a href=\"http://unstats.un.org/unsd/trade/methodology%20imts.htm\"\
+  >http://unstats.un.org/unsd/trade/methodology%20imts.htm</a></p>\n<p>Para el comercio\
+  \ de servicios, consulte el Manual de estadísticas del comercio internacional de\
+  \ servicios <a href=\"http://unstats.un.org/unsd/tradeserv/TFSITS/msits2010.htm\"\
+  >http://unstats.un.org/unsd/tradeserv/TFSITS/msits2010.htm</a></p>"
+COMPARABILITY: "<h2>Fuentes de discrepancias:</h2>\n<p>No aplicable a este indicador.\
+  \ Los datos globales son calculados de forma única por organismos internacionales.\
+  \ A nivel nacional, los datos utilizados son los mismos facilitados por las autoridades\
+  \ nacionales y las oficinas estadísticas. </p>"
+COVERAGE: "<h1>Disponibilidad de datos</h1>\n<h2>Descripción:</h2>\n<p>Asia y el Pacífico:\
+  \ 40</p>\n<p>África: 36</p>\n<p>América Latina y el Caribe: 29</p>\n<p>Europa, América\
+  \ del Norte, Australia, Nueva Zelanda y Japón: 31</p>\n<h2>Series temporales:</h2>\n\
+  <p>Datos anuales de 2000 al último año </p>\n<h2>Desagregación:</h2>\n<p>La desagregación\
+  \ está disponible por sector de productos (por ejemplo, agricultura, textiles, bienes\
+  \ ambientales), nivel de elaboración de mercancías, región geográfica y nivel de\
+  \ ingresos por países (por ejemplo, desarrollados, en desarrollo, PMA). </p>"
+REG_AGG: "<p><strong>Agregados regionales:</strong></p>\n<p>Las exportaciones de los\
+  \ países en el nivel de 6 dígitos de la clasificación del Sistema Armonizado (SA)\
+  \ se suman a nivel regional y luego se dividen por el importe total de las exportaciones.</p>"
+IMPUTATION: "<h2>Tratamiento de valores faltantes:</h2>\n<ul>\n <li><strong><em>A\
+  \ nivel de país:</em></strong></li>\n</ul>\n<p>Se utiliza el año anterior cuando\
+  \ no se dispone del último año. También se pueden utilizar las estadísticas espejo.\
+  \ Las estadísticas espejo son el término utilizado para definir las estadísticas\
+  \ que se calculan utilizando la información del país socio cuando no se dispone\
+  \ de datos del país analizado. Por ejemplo, la exportación de un país X podría recalcularse\
+  \ utilizando las estadísticas espejo a través de las importaciones desde el país\
+  \ X de todos sus socios. Hay que tener en cuenta, sin embargo, que las importaciones\
+  \ suelen declararse CIF (es decir, incluyendo el coste del flete y el seguro), mientras\
+  \ que la exportación FoB (es decir, libre a bordo). La diferencia entre estos dos\
+  \ sistemas de declaración debe tenerse en cuenta al utilizar los datos de importación\
+  \ para estimar las exportaciones.</p>\n<ul>\n  <li><strong><em>A nivel regional\
+  \ y mundial:</em></strong></li>\n</ul>\n<p> Respondido arriba.</p>"
+DATA_COMP: "<h1>Metodología</h1>\n<h2>Método de cálculo:</h2>\n<p>La participación\
+  \ en el comercio mundial se refiere a la fracción de un determinado grupo de países\
+  \ en el comercio total. </p>\n<p>Mientras que los datos del comercio de mercancías\
+  \ son coherentes a lo largo de la serie temporal (2000-actualidad), en el caso del\
+  \ comercio de servicios puede haber dificultades relacionadas con la falta de armonización\
+  \ de los datos anteriores a 2005. Los datos anteriores a 2005 se presentan de acuerdo\
+  \ con el 5º Manual de Balanza de Pagos. Después de 2005, los datos se han convertido\
+  \ según las categorías y los principios establecidos por la 6ª edición del Manual\
+  \ de Balanza de Pagos.</p>"
+REC_USE_LIM: "<h2>Comentarios y limitaciones:</h2>\n<p>Las cuotas de exportación deben\
+  \ analizarse desde diferentes ángulos para poder inferir si un país o una región\
+  \ concreta ha mejorado sus resultados comerciales. En primer lugar, debe tenerse\
+  \ siempre en cuenta el valor de las exportaciones para observar si los cambios en\
+  \ las cuotas de exportación se deben al aumento de las exportaciones de los países\
+  \ en desarrollo y los PMA o a la disminución de los valores exportados por otros\
+  \ países. En segundo lugar, y con el fin de fomentar un comercio beneficioso para\
+  \ los demás ODS, sería útil analizar la composición de la canasta de exportación\
+  \ según el nivel de procesamiento de los bienes que se comercializan. Esto permitirá\
+  \ comprender si se producen avances en cuanto a la calidad y el valor añadido de\
+  \ los productos exportados. Además de eso, mientras que algunas exportaciones como\
+  \ las armas, el petróleo y otros recursos naturales requerirían un análisis separado,\
+  \ el cálculo de los indicadores de diversificación de las exportaciones sería recomendable\
+  \ para evaluar los progresos realizados por los países en desarrollo y los PMA en\
+  \ términos de productividad y de mejora de su cartera de exportaciones.</p>\n<p>En\
+  \ lo que respecta al comercio de servicios, podría ser necesario recurrir a datos\
+  \ complementarios procedentes de las estadísticas sobre migración, turismo, empresas\
+  \ multinacionales (EMN) y mercado laboral, con el fin de proporcionar cifras detalladas\
+  \ sobre los servicios de viajes y gubernamentales n.c.o.p. Un área típica de interés\
+  \ para el comercio internacional de servicios está relacionada con los datos que\
+  \ pueden mantener los gobiernos sobre los servicios educativos y sanitarios prestados\
+  \ a o por no residentes (viajes; servicios personales, culturales y recreativos).\
+  \ La información obtenida de los países socios es útil para validar y mejorar las\
+  \ estadísticas de la economía compiladora. Los datos de las organizaciones internacionales\
+  \ pueden ser útiles para que los países receptores de ayuda recopilen datos sobre\
+  \ los servicios de asistencia técnica.</p>"
+RATIONALE: "<h2>Justificación:</h2>\n<p>El indicador propuesto permite seguir el aumento\
+  \ de las exportaciones de los países en desarrollo y de los PMA prescrito por la\
+  \ meta 17.11. El uso de la proporción de las exportaciones mundiales proporciona\
+  \ información sobre el tamaño relativo de las exportaciones de los países en desarrollo\
+  \ y de los PMA en comparación con las exportaciones mundiales.</p>"
+REL_CAL_POLICY: "<h2>Publicación de datos:</h2>\n<p>Los datos del año &#x201C;t-1&#x201D;\
+  \ se publicarán en el año &#x201C;t&#x201D; aproximadamente en marzo/abril, dependiendo\
+  \ también de la fecha decidida para el lanzamiento del informe anual sobre el seguimiento\
+  \ de los ODS. </p>"
+FREQ_COLL: "<h1>Calendario</h1>\n<h2>Recolección de datos:</h2>\n<p>La recolección\
+  \ de datos comerciales (flujo de importación y exportación) se realiza durante todo\
+  \ el año. </p>"
+SOURCE_TYPE: "<h1>Fuentes de datos</h1>\n<h2>Descripción:</h2>\n<p>Los datos sobre\
+  \ el comercio de mercancías incluidos en la base de datos del CCI (Trade Map) se\
+  \ recogen contactando directamente a los puntos focales de las agencias nacionales\
+  \ o las organizaciones regionales (en el caso de las uniones aduaneras o las comunidades\
+  \ económicas regionales). Los datos sobre el comercio de bienes incluidos en la\
+  \ base de datos de la OMC (BID) proceden de las notificaciones oficiales de los\
+  \ miembros de la OMC. Los datos del comercio de bienes se complementan, cuando es\
+  \ necesario, con la base de datos COMTRADE de las Naciones Unidas.</p>\n<p>Los datos\
+  \ sobre el comercio de servicios proceden de una base de datos conjunta del CCI,\
+  \ la UNCTAD y la OMC, basada principalmente en los datos de las cuentas de la balanza\
+  \ de pagos mantenidos por el FMI, la OCDE y EUROSTAT. En algunos casos, la OMC,\
+  \ junto con la UNCTAD, recoge información de fuentes nacionales. Los datos sobre\
+  \ el comercio de servicios pueden ser recuperados por los bancos nacionales y/o\
+  \ las oficinas nacionales de estadística a partir de una o varias de las siguientes\
+  \ fuentes:</p>\n<ul>\n  <li> Sistema Internacional de Notificación de Transacciones\
+  \ (ITRS, por sus siglas en inglés). En este caso, los pagos internacionales canalizados\
+  \ a través de los bancos nacionales se recogen, generalmente, bajo la responsabilidad\
+  \ del banco central nacional. Los pagos se utilizan como un proxy de las transacciones.</li>\n\
+  \  <li> Encuestas de empresas. Generalmente, bajo la responsabilidad de la oficina\
+  \ nacional de estadística.</li>\n</ul>"
+STAT_CONC_DEF: "<h1>Conceptos y definiciones</h1>\n<h2>Definición:</h2>\n<p>Exportaciones\
+  \ de los países en desarrollo y los PMA como porcentaje de las exportaciones mundiales\
+  \ de bienes y servicios</p>\n<h2>Conceptos:</h2>\n<p>Sistema Armonizado (SA): Es\
+  \ la clasificación internacional utilizada para categorizar los productos que se\
+  \ comercializan (comercio de mercancías)</p>\n<p>Balanza de pagos (BP): Los servicios\
+  \ se clasifican según las partidas que se presentan en la Balanza de Pagos, tal\
+  \ y como la define el FMI en el Manual de Balanza de Pagos.</p>"
+SDG_RELATED_INDICATORS: "<h1>Indicadores relacionados a febrero de 2020</h1>\n<p>Mejoras\
+  \ en la transferencia de bienes y servicios medioambientales (meta 17.7). Si el\
+  \ indicador se desglosa por nivel de transformación de los productos comercializados\
+  \ (materias primas, semiprocesados y procesados) o por el nivel de diversificación\
+  \ de los productos exportados, también podría utilizarse para medir los avances\
+  \ en productividad y diversificación (meta 8.2).</p>"
