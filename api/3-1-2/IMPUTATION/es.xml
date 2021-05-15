@@ -2,5 +2,13 @@
 <root>
 	<status>success</status>
 	<message>The IMPUTATION field for indicator 3-1-2, translated into es</message>
-	<data/>
+	<data>&lt;h2&gt;Tratamiento de los valores perdidos:&lt;/h2&gt;
+&lt;ul&gt;
+ &lt;li&gt;&lt;strong&gt;&lt;em&gt;A nivel de país:&lt;/em&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;No hay tratamiento de los valores que faltan a nivel de país. Si falta un valor para un año determinado, no se informa de ese valor.&lt;/p&gt;
+&lt;ul&gt;
+ &lt;li&gt;&lt;strong&gt;&lt;em&gt;A nivel regional y mundial:&lt;/em&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt; Los valores que faltan no se imputan para los niveles regional y global. Para el cálculo de la media regional y mundial se utiliza el último año disponible dentro de cada periodo. &lt;/p&gt;</data>
 </root>
