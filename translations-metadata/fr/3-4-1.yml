@@ -2,9 +2,9 @@ SDG_GOAL: >-
   <p>Objectif 3 : Permettre à tous de vivre en bonne santé et promouvoir le bien-être
   de tous à tout âge.</p>
 SDG_TARGET: >-
-  <p>Cible 3.4: D’ici 2030, réduire d’un tiers, par la prévention et le
-  traitement, le taux de mortalité prématurée due à des maladies non
-  transmissibles et promouvoir la santé mentale et le bien-être</p>
+  <p>Cible 3.4 : D’ici 2030, réduire d’un tiers, par la prévention et le traitement,
+  le taux de mortalité prématurée due à des maladies non transmissibles et promouvoir
+  la santé mentale et le bien-être</p>
 SDG_INDICATOR: >-
   <p>Indicateur 3.4.1 : Taux de mortalité attribué aux maladies
   cardiovasculaires, au cancer, au diabète ou aux maladies respiratoires
@@ -35,14 +35,15 @@ STAT_CONC_DEF: >-
   <p>Probabilité de décès : Probabilité qu'un individu décède entre deux âges, compte
   tenu des taux de mortalité actuels à chaque âge, calculés à l'aide des méthodes
   des tables de survie. La probabilité de décès entre deux âges peut être appelée
-  taux de mortalité </p>.
+  taux de mortalité. </p>
 
   <p>Table de vie : Table montrant l'expérience de mortalité d'un groupe hypothétique
   de nourrissons nés au même moment et soumis tout au long de leur vie à un ensemble
   de taux de mortalité par âge. </p>
 
   <p>Maladies cardiovasculaires, cancer, diabète ou maladies respiratoires chroniques
-  : CIM-10 causes sous-jacentes de décès I00-I99, COO-C97, E10-E14 et J30-J98 </p>
+  : Classification internationale des maladies (CIM-10) causes sous-jacentes de décès
+  I00-I99, COO-C97, E10-E14 et J30-J98 </p>
 SOURCE_TYPE: >-
   <h1>Sources de données</h1>
 
@@ -69,18 +70,17 @@ FREQ_COLL: >-
   permanence à l'OMS des statistiques annuelles sur les causes de décès. </p>
 REL_CAL_POLICY: |-
   <h2>Publication des données :</h2>
-  <p> Fin 2016. </p>
+  <p> Fin 2016 </p>
 RATIONALE: >-
   <h2>Raison d'être :</h2>
 
-  <p>La charge de morbidité due aux maladies non transmissibles (MNT) chez les
-  adultes augmente rapidement dans les pays en développement en raison du
-  vieillissement. Les maladies cardiovasculaires, le cancer, le diabète et les
-  maladies respiratoires chroniques sont les quatre principales causes de la
-  charge de morbidité due aux maladies non transmissibles. Il est important de
-  mesurer le risque de mourir de ces quatre grandes causes pour évaluer
-  l'ampleur de la charge due à la mortalité prématurée due aux MNT dans une
-  population.</p>
+  <p>La charge de morbidité due aux maladies non transmissibles (MNT) chez les adultes
+  augmente rapidement dans les pays en développement en raison du vieillissement.
+  Les maladies cardiovasculaires, le cancer, le diabète et les maladies respiratoires
+  chroniques sont les quatre principales causes de la charge de morbidité due aux
+  maladies non transmissibles. Il est important de mesurer le risque de mourir de
+  ces quatre grandes causes pour évaluer l'ampleur de la charge due à la mortalité
+  prématurée due aux MNT dans une population.</p>
 REC_USE_LIM: >-
   <h2>Commentaires et limites : </h2>
 
@@ -170,7 +170,7 @@ IMPUTATION: >-
   <p>S.O </p>
 REG_AGG: |-
   <h2>Agrégats régionaux : </h2>
-  <p>Agrégation des estimations de décès par cause, âge et sexe par pays.</p>
+  <p>Agrégation des estimations de décès par cause, âge et sexe par pays</p>
 COVERAGE: >-
   <h1>Disponibilité des données </h1>
 
@@ -180,7 +180,7 @@ COVERAGE: >-
   de décès sont calculées systématiquement par l'OMS pour tous ses États membres (avec
   un certain seuil de population) à tous les 3 ans.</p>
 
-  <h2>Désagrégation:</h2>
+  <h2>Désagrégation :</h2>
 
   <p>Sexe</p>
 COMPARABILITY: >-
@@ -193,32 +193,32 @@ COMPARABILITY: >-
 OTHER_DOC: >-
   <h1>Références</h1>
 
-  <h2>URL : </h2>
+  <h2>URL : </h2>
 
-  <p><a href="http://www.who.int/gho/en/">http://www.who.int/gho/en/</a></p>
+  <p><a href="http ://www.who.int/gho/en/">http ://www.who.int/gho/en/</a></p>
 
-  <h2>Références:</h2>
+  <h2>Références :</h2>
 
-  <p>NCD Global Monitoring Framework: Indicator Definitions and Specifications. Genève
-  : Organisation mondiale de la santé, 2014 (<a href="http://www.who.int/nmh/ncd-tools/indicators/GMF_Indicator_Definitions_FinalNOV2014.pdf?ua=1">http://www.who.int/nmh/ncd-tools/indicators/GMF_Indicator_Definitions_FinalNOV2014.pdf?ua=1</a>)
+  <p>NCD Global Monitoring Framework : Indicator Definitions and Specifications. Genève :
+  Organisation mondiale de la santé, 2014 (<a href="http ://www.who.int/nmh/ncd-tools/indicators/GMF_Indicator_Definitions_FinalNOV2014.pdf ?ua=1">http ://www.who.int/nmh/ncd-tools/indicators/GMF_Indicator_Definitions_FinalNOV2014.pdf ?ua=1</a>)
   </p>
 
-  <p>Définition de l'indicateur de l'OMS (<a href="http://apps.who.int/gho/indicatorregistry/App_Main/view_indicator.aspx?iid=3354">http://apps.who.int/gho/indicatorregistry/App_Main/view_indicator.aspx?iid=3354</a>)
+  <p>Définition de l'indicateur de l'OMS (<a href="http ://apps.who.int/gho/indicatorregistry/App_Main/view_indicator.aspx ?iid=3354">http ://apps.who.int/gho/indicatorregistry/App_Main/view_indicator.aspx ?iid=3354</a>)
   </p>
 
-  <p>WHO methods and data sources for global causes of death. 2000-2015. Genève: Organisation
-  mondiale de la santé, 2017. </p>
+  <p>WHO methods and data sources for global causes of death. 2000-2015. Genève :
+  Organisation mondiale de la santé, 2017. </p>
 
-  <p>(<a href="http://www.who.int/healthinfo/global_burden_disease/GlobalCOD_method_2000_2015.pdf">http://www.who.int/healthinfo/global_burden_disease/GlobalCOD_method_2000_2015.pdf</a>)</p>
+  <p>(<a href="http ://www.who.int/healthinfo/global_burden_disease/GlobalCOD_method_2000_2015.pdf">http ://www.who.int/healthinfo/global_burden_disease/GlobalCOD_method_2000_2015.pdf</a>)</p>
 
-  <p>Résolution de l'Assemblée mondiale de la santé, WHA66.10 (2014) : Follow-up to
+  <p>Résolution de l'Assemblée mondiale de la santé, WHA66.10 (2014) : Follow-up to
   the Political Declarations of the High-level Meeting of the General Assembly on
-  the Prevention and Control of Non-communicable Diseases. Y compris l'annexe 2 :
-  Comprehensive global monitoring Framework, inclunding 25 indicators, and a set of
-  nine voluntary global targets for the prevention and control ofnoncommunicable diseases.
-  Genève: Organisation mondiale dela santé, 2014 (<a href="http://apps.who.int/gb/ebwha/pdf_files/WHA66/A66_R10-en.pdf?ua=1">http://apps.who.int/gb/ebwha/pdf_files/WHA66/A66_R10-en.pdf?ua=1</a>)
+  the Prevention and Control of Non-communicable Diseases. Y compris l'annexe 2 :
+  Comprehensive global monitoring Framework, including 25 indicators, and a set of
+  nine voluntary global targets for the prevention and control of noncommunicable
+  diseases. Genève : Organisation mondiale de la santé, 2014 (<a href="http ://apps.who.int/gb/ebwha/pdf_files/WHA66/A66_R10-en.pdf ?ua=1">http ://apps.who.int/gb/ebwha/pdf_files/WHA66/A66_R10-en.pdf ?ua=1</a>)
   </p>
 
-  <p>Global Action PLan for the Prevention and Contril of NCDs 2013-2020. Genève :
-  Organisation mondiale de la santé, 2013 (<a href="http://apps.who.int/iris/bitstream/10665/94384/1/9789241506236_eng.pdf?ua=1">http://apps.who.int/iris/bitstream/10665/94384/1/9789241506236_eng.pdf?ua=1</a>)
+  <p>Global Action Plan for the Prevention and Control of NCDs 2013-2020. Genève :
+  Organisation mondiale de la santé, 2013 (<a href="http ://apps.who.int/iris/bitstream/10665/94384/1/9789241506236_eng.pdf ?ua=1">http ://apps.who.int/iris/bitstream/10665/94384/1/9789241506236_eng.pdf ?ua=1</a>)
   </p>
