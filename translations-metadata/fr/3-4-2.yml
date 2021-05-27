@@ -2,10 +2,10 @@ SDG_GOAL: >-
   <p>Objectif 3 : Permettre à tous de vivre en bonne santé et promouvoir le bien-être
   de tous à tout âge.</p>
 SDG_TARGET: >-
-  <p>Cible 3.4: D’ici 2030, réduire d’un tiers, par la prévention et le
-  traitement, le taux de mortalité prématurée due à des maladies non
-  transmissibles et promouvoir la santé mentale et le bien-être</p>
-SDG_INDICATOR: '<p>Indicateur 3.4.2: Taux de mortalité par suicide</p>'
+  <p>Cible 3.4 : D’ici 2030, réduire d’un tiers, par la prévention et le traitement,
+  le taux de mortalité prématurée due à des maladies non transmissibles et promouvoir
+  la santé mentale et le bien-être</p>
+SDG_INDICATOR: '<p>Indicateur 3.4.2 : Taux de mortalité par suicide</p>'
 META_LAST_UPDATE: '<p>Dernière mise à jour : 10 février 2017</p>'
 SDG_CUSTODIAN_AGENCIES: |-
   <h1> Information institutionnelle</h1>
@@ -14,11 +14,10 @@ SDG_CUSTODIAN_AGENCIES: |-
 STAT_CONC_DEF: >-
   <h1>Concepts et définitions</h1>
 
-  <p><strong>Définition:</strong></p>
+  <p><strong>Définition :</strong></p>
 
-  <p>Le taux de mortalité par suicide est défini comme le nombre de décès par
-  suicide au cours d'une année, divisé par la population et multiplié par 100
-  000.</p>
+  <p>Le taux de mortalité par suicide est défini comme le nombre de décès par suicide
+  au cours d'une année, divisé par la population et multiplié par 100 000.</p>
 SOURCE_TYPE: >-
   <h1>Sources de données</h1>
 
@@ -58,23 +57,21 @@ COMPILING_ORG: |-
 RATIONALE: >-
   <h2>Raison d'être :</h2>
 
-  <p>Les troubles mentaux se produisent dans toutes les régions et cultures du
-  monde. Les plus répandus de ces troubles sont la dépression et l'anxiété, qui
-  toucheraient près d'une personne sur dix. Dans le pire des cas, la dépression
-  peut conduire au suicide. En 2012, on estimait à plus de 800 000 le nombre de
-  décès par suicide dans le monde. Le suicide était la deuxième cause de décès
-  chez les jeunes adultes âgés de 15 &#x2013;29 ans, après les accidents de la
-  route.</p>
+  <p>Les troubles mentaux se produisent dans toutes les régions et cultures du monde.
+  Les plus répandus de ces troubles sont la dépression et l'anxiété, qui toucheraient
+  près d'une personne sur dix. Dans le pire des cas, la dépression peut conduire au
+  suicide. En 2012, on estimait à plus de 800 000 le nombre de décès par suicide dans
+  le monde. Le suicide était la deuxième cause de décès chez les jeunes adultes âgés
+  de 15 à 29 ans, après les accidents de la route.</p>
 REC_USE_LIM: >-
-  <h2><strong>Commentaires et limitations </strong> : </h2>
+  <h2><strong>Commentaires et limites </strong> : </h2>
 
-  <p>L'enregistrement complet des décès par suicide dans les systèmes
-  d'enregistrement des décès nécessite de bonnes liaisons avec les systèmes
-  coronaux et policiers, mais peut être sérieusement entravé par la
-  stigmatisation, les considérations sociales et juridiques, et les retards dans
-  la détermination de la cause du décès. Moins de la moitié des États membres de
-  l'OMS disposent de systèmes d'enregistrement des décès qui fonctionnent bien
-  et qui enregistrent les causes de décès.</p>
+  <p>L'enregistrement complet des décès par suicide dans les systèmes d'enregistrement
+  des décès nécessite de bonnes liaisons avec les systèmes coronaux et policiers,
+  mais peut être sérieusement entravé par la stigmatisation, les considérations sociales
+  et juridiques, et les retards dans la détermination de la cause du décès. Moins
+  de la moitié des États membres de l'OMS disposent de systèmes d'enregistrement des
+  décès qui fonctionnent bien et qui enregistrent les causes de décès.</p>
 DATA_COMP: >-
   <h1>Méthodologie</h1>
 
@@ -107,15 +104,14 @@ IMPUTATION: >-
     <li><strong><em>Au niveau national : </em></strong></li>
   </ul>
 
-  <p>Pour les pays disposant de statistiques de qualité sur les causes de décès,
-  l'interpolation/extrapolation a été effectuée pour les années-pays manquantes
-  ; pour les pays ne disposant que de données de faible qualité ou n'ayant pas
-  de données sur les causes de décès, la modélisation a été utilisée. La
-  méthodologie complète peut être trouvée ici : </p>
+  <p>Pour les pays disposant de statistiques de qualité sur les causes de décès, l'interpolation/extrapolation
+  a été effectuée pour les années-pays manquantes ; pour les pays ne disposant que
+  de données de faible qualité ou n'ayant pas de données sur les causes de décès,
+  la modélisation a été utilisée. La méthodologie complète peut être trouvée ici :
+  </p>
 
-  <p>Méthodes et sources de données de l'OMS pour les causes mondiales de décès,
-  2000&#x2013;2015 (<a
-  href="http://www.who.int/healthinfo/global_burden_disease/GlobalCOD_method_2000_2015.pdf">http://www.who.int/healthinfo/global_burden_disease/GlobalCOD_method_2000_2015.pdf</a>)</p>
+  <p>Méthodes et sources de données de l'OMS pour les causes mondiales de décès, 2000
+  à 2015 (<a href="http://www.who.int/healthinfo/global_burden_disease/GlobalCOD_method_2000_2015.pdf">http://www.who.int/healthinfo/global_burden_disease/GlobalCOD_method_2000_2015.pdf</a>)</p>
 
   <ul>
     <li><strong><em>Au niveau régional et mondial : </em></strong></li>
@@ -132,48 +128,42 @@ COVERAGE: >-
 
   <h2>Description : </h2>
 
-  <p>Environ 70 pays fournissent actuellement à l'OMS des données régulières de
-  qualité sur la mortalité par âge, sexe et causes de décès, et 40 autres pays
-  soumettent des données de moindre qualité. Cependant, des estimations
-  complètes des causes de décès sont calculées par l'OMS de manière systématique
-  pour tous ses États membres (avec un certain seuil de population) tous les 3
-  ans.</p>
+  <p>Environ 70 pays fournissent actuellement à l'OMS des données régulières de qualité
+  sur la mortalité par âge, sexe et causes de décès, et 40 autres pays soumettent
+  des données de moindre qualité. Cependant, des estimations complètes des causes
+  de décès sont calculées par l'OMS de manière systématique pour tous ses États membres
+  (avec un certain seuil de population) tous les 3 ans.</p>
 
-  <h2>Désagrégation:</h2>
+  <h2>Désagrégation :</h2>
 
   <p>Sexe, tranche d'âge </p>
 COMPARABILITY: >-
   <h2>Sources des divergences : </h2>
 
-  <p>Dans les pays dotés de systèmes d'enregistrement de l'état civil de haute
-  qualité, les estimations ponctuelles diffèrent parfois principalement pour
-  deux raisons : 1) l'OMS redistribue les décès ayant une cause de décès mal
-  définie (c'est-à-dire les blessures d'intention inconnue, codes CIM Y10-Y34 et
-  Y872) en suicide ; et 2) l'OMS corrige les décès dont l'enregistrement est
-  incomplet.</p>
+  <p>Dans les pays dotés de systèmes d'enregistrement de l'état civil de haute qualité,
+  les estimations ponctuelles diffèrent parfois principalement pour deux raisons :
+  1) l'OMS redistribue les décès ayant une cause de décès mal définie (c'est-à-dire
+  les blessures d'intention inconnue, codes CIM Y10-Y34 et Y872) en suicide ; et 2)
+  l'OMS corrige les décès dont l'enregistrement est incomplet.</p>
 OTHER_DOC: >-
   <h1>Références</h1>
 
-  <h2>URL : </h2>
+  <h2>URL : </h2>
 
-  <p><a href="http://www.who.int/gho/en/">http://www.who.int/gho/en/</a></p>
+  <p><a href="http://www.who.int/gho/en/">http ://www.who.int/gho/en/</a></p>
 
-  <h2>Références:</h2>
+  <h2>Références :</h2>
 
-  <p>Définition de l'indicateur de l'OMS (<a
-  href="http://apps.who.int/gho/indicatorregistry/App_Main/view_indicator.aspx?iid=4664">http://apps.who.int/gho/indicatorregistry/App_Main/view_indicator.aspx?iid=4664</a>)
+  <p>Définition de l'indicateur de l'OMS <a href="http://apps.who.int/gho/indicatorregistry/App_Main/view_indicator.aspx?iid=4664">http ://apps.who.int/gho/indicatorregistry/App_Main/view_indicator.aspx ?iid=4664</a>)
   </p>
 
-  <p>Méthodes et sources de données de l'OMS pour les causes mondiales de décès,
-  2000 &#x2013;2015 </p>
+  <p>Méthodes et sources de données de l'OMS pour les causes mondiales de décès, 2000
+  à 2015 </p>
 
-  <p>(<a
-  href="http://www.who.int/healthinfo/global_burden_disease/GlobalCOD_method_2000_2015.pdf">http://www.who.int/healthinfo/global_burden_disease/GlobalCOD_method_2000_2015.pdf</a>)</p>
+  <p>(<a href="http://www.who.int/healthinfo/global_burden_disease/GlobalCOD_method_2000_2015.pdf">http ://www.who.int/healthinfo/global_burden_disease/GlobalCOD_method_2000_2015.pdf</a>)</p>
 
-  <p>Résolution WHA66.8 (2013) de l'Assemblée mondiale de la santé : Plan
-  d'action global en matière de santé mentale 2013 &#x2013;2020, y compris
-  l'annexe 1 : Indicateurs permettant de mesurer les progrès accomplis vers la
-  réalisation des objectifs définis dans le plan d'action global en matière de
-  santé mentale 2013-2020 (<a
-  href="http://apps.who.int/gb/ebwha/pdf_files/WHA66/A66_R8-en.pdf?ua=1">http://apps.who.int/gb/ebwha/pdf_files/WHA66/A66_R8-en.pdf?ua=1</a>)
+  <p>World Health Assembly Resolution WHA66.8 (2013) : Comprehensive mental health
+  action plan 2013&#x2013;2020, y compris l'annexe 1 : Indicators for Measuring Progress
+  Towards Defined Targets of the Comprehensive Mental Health Action Plan 2013-2020
+  (<a href="http://apps.who.int/gb/ebwha/pdf_files/WHA66/A66_R8-en.pdf?ua=1">http ://apps.who.int/gb/ebwha/pdf_files/WHA66/A66_R8-en.pdf ?ua=1</a>)
   </p>
