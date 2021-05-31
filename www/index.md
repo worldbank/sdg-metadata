@@ -10,9 +10,9 @@ In January-March 2020, a [pilot](/sdg-metadata/pilot/) was conducted as the resu
 
 The team coordinated with the SDMX-SDG Working Group, the IAEG-SDG Metadata Working Group, and the secretariat of the IAEG-SDGs on the SDMX-SDG metadata concept compliance and version control.
 
-In October 2020, the main study was launched. All SDG indicator metadata files designated by the IAEG-SDGs as tier 1, tier 1/tier 2, or provisional tier 1 will be converted into machine-readable format and translated. Files are populated on our metadata webpage on a flow basis as they are prepared. 
+In October 2020, the main study was launched. All SDG indicator metadata files designated by the IAEG-SDGs as tier 1, tier 1/tier 2, or provisional tier 1 were converted into machine-readable format and translated. Files are populated on our metadata webpage on a flow basis as they are prepared. 
 
-Through a letter of agreement, the World Bank partnered with Statistics Canada to produce French translations of these metadata files. We welcome partners to generate translations into other languages.
+Through a letter of agreement, the World Bank partnered with Statistics Canada to produce French translations of these metadata files. Subsequently, a letter of agreement between the World Bank and ECLAC was signed to produce Spanish translations of these metadata files. We welcome partners to generate translations into other languages.
 
 * [Introduction to the SDG Metadata Translation Project](https://docs.google.com/presentation/d/1S6OkPgZr1eD6eY1WcXEaVlsqV71feSQMIZ0sPAPe2TA/edit?usp=sharing)
 * [Documentation]({{ site.baseurl }}/documentation/)
