@@ -14,6 +14,6 @@ World Bank ECASTAT Trust Fund SDG Metadata Translation Project: Innovation Throu
  * [WB ECATSAT SDG Metadata Project](https://github.com/worldbank/sdg-metadata/edit/master/www/document/WB ECASTAT SDG Metadata Translation Project.pdf)
  * [Rosstat UNECE SDG Metadata Translation Evaluaton](https://github.com/worldbank/sdg-metadata/edit/master/www/document/WB ECASTAT SDG Metadata Translation Project.pdf)
  * [STATCAN SDG Metadata Translation Evaluation](https://github.com/worldbank/sdg-metadata/edit/master/www/document/WB ECASTAT SDG Metadata Translation Project.pdf)
- * [ECLAC IAB SDG Metadata Translation Evaluation](https://github.com/worldbank/sdg-metadata/edit/master/www/document/WB ECASTAT SDG Metadata Translation Project.pdf)
+ * [ECLAC IAB SDG Metadata Translation Evaluation](https://github.com/worldbank/sdg-metadata/edit/master/www/document/ECLAC IAB SDG Metadata Translation Evaluation.pdf)
  * [UNSD SDG Metadata Collaboration](https://github.com/worldbank/sdg-metadata/edit/master/www/document/WB ECASTAT SDG Metadata Translation Project.pdf)
  * [CODE SDG Metadata Future Plans](https://github.com/worldbank/sdg-metadata/edit/master/www/document/CODE SDG Metadata Translation Future Plans.pdf)
