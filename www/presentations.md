@@ -8,8 +8,7 @@ The SDG Metadata Translation project has evolved over time. The initial pilot ex
 
 In the next phase of the project, we intend to harvest SDG metadata routinely from the SDG Lab (maintained by UNSD) to allow 1) translation of all tier 2 metadata and 2) efficient updating of previously translated metadata as needed.  
 
-Selected presentations describing the project's status and plans are provided below. .
-
+Selected presentations describing the project's status and plans are provided below.
 **World Bank ECASTAT Trust Fund SDG Metadata Translation Project: Innovation Through Strategic Collaborations** (April 27, 2021)
  * [WB ECATSAT SDG Metadata Project](https://github.com/worldbank/sdg-metadata/edit/master/www/document/WB_ECASTAT_SDG_Metadata_Translation_Project.pdf)
  * [ROSSTAT UNECE SDG Metadata Translation Evaluaton](https://github.com/worldbank/sdg-metadata/edit/master/www/document/ROSSTAT_UNECE_SDG_Metadata_Translation_Evaluation.pdf)
