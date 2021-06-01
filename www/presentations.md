@@ -11,7 +11,7 @@ In the next phase of the project, we intend to harvest SDG metadata routinely fr
 Selected presentations describing the project's status and plans are provided below.
 
 **World Bank ECASTAT Trust Fund SDG Metadata Translation Project: Innovation Through Strategic Collaborations** (April 27, 2021)
- * [WB ECATSAT SDG Metadata Project](https://github.com/worldbank/sdg-metadata/edit/master/www/documenation/WB_ECASTAT_SDG_Metadata_Translation_Project.pdf)
+ * [WB ECATSAT SDG Metadata Project](https://github.com/worldbank/sdg-metadata/edit/master/www/documentation/WB_ECASTAT_SDG_Metadata_Translation_Project.pdf)
  * [ROSSTAT UNECE SDG Metadata Translation Evaluaton](https://github.com/worldbank/sdg-metadata/edit/master/www/documentation/ROSSTAT_UNECE_SDG_Metadata_Translation_Evaluation.pdf)
  * [STATCAN SDG Metadata Translation Evaluation](https://github.com/worldbank/sdg-metadata/edit/master/www/documentation/STATSCAN_SDG_Metadata_Translation_Evaluation.pdf)
  * [ECLAC IAB SDG Metadata Translation Evaluation](https://github.com/worldbank/sdg-metadata/edit/master/www/documentation/ECLAC_IAB_SDG_Metadata_Translation_Evaluation.pdf)
