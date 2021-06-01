@@ -53,13 +53,13 @@ REC_USE_LIM: "<h2>Comentarios y limitaciones:</h2>\n<p>Algunos países tienen di
   \ los datos se refieren únicamente al operador con la mayor cobertura, y esto puede\
   \ subestimar la verdadera cobertura. </p>"
 RATIONALE: "<h2>Justificación:</h2>\n<p>El porcentaje de la población cubierto por\
-  \ una red móvil celular puede considerarse un indicador mínimo del acceso a las\
+  \ una red móvil-celular puede considerarse un indicador mínimo del acceso a las\
   \ TIC, ya que ofrece a las personas la posibilidad de suscribirse y utilizar los\
   \ servicios móviles celulares para comunicarse. En la última década, las redes móviles\
   \ celulares se han expandido rápidamente y han contribuido a superar las barreras\
   \ de infraestructura muy básicas que existían cuando las redes de telefonía fija\
-  \ &#x2013; -a menudo limitadas a zonas urbanas y muy pobladas- eran la infraestructura\
-  \ de telecomunicaciones dominante.</p>\n<p>Mientras que las redes móviles celulares\
+  \ -a menudo limitadas a zonas urbanas y muy pobladas- eran la infraestructura de\
+  \ telecomunicaciones dominante.</p>\n<p>Mientras que las redes móviles celulares\
   \ de 2G (banda estrecha) ofrecen servicios limitados (y principalmente basados en\
   \ la voz), las redes de mayor velocidad (3G y LTE) proporcionan un acceso cada vez\
   \ más rápido, fiable y de alta calidad a Internet y a su creciente cantidad de información,\
@@ -106,9 +106,9 @@ STAT_CONC_DEF: "<h1>Conceptos y definiciones</h1>\n<h2>Definición:</h2>\n<p>La 
   \ se refiere a la capacidad teórica de los abonados para utilizar servicios de datos\
   \ móviles a velocidad no de banda ancha, y no al número de usuarios activos de dichos\
   \ servicios.</p>\n<p><strong>Cobertura de población 3G</strong>: se refiere al porcentaje\
-  \ de habitantes que están dentro del alcance de al menos una señal móvil celular\
+  \ de habitantes que están dentro del alcance de al menos una señal móvil-celular\
   \ 3G, independientemente de que estén o no abonados. Se calcula dividiendo el número\
-  \ de habitantes que están cubiertos por al menos una señal móvil celular 3G por\
+  \ de habitantes que están cubiertos por al menos una señal móvil-celular 3G por\
   \ la población total y multiplicando por 100. Excluye a las personas cubiertas sólo\
   \ por GPRS, EDGE o CDMA 1xRTT.</p>\n<p><strong>Cobertura de población LTE</strong>:\
   \ Se refiere al porcentaje de habitantes que viven dentro del alcance de LTE/LTE-Advanced,\
@@ -122,7 +122,7 @@ STAT_CONC_DEF: "<h1>Conceptos y definiciones</h1>\n<h2>Definición:</h2>\n<p>La 
   \ etc.), el indicador incluirá más desgloses.</p>"
 SDG_RELATED_INDICATORS: "<h1>Indicadores relacionados a febrero de 2020</h1>\n<p>1.4,\
   \ 2.3, 2.c, 9.1, 11.b, 13.1</p>"
-COMPILING_ORG: "<h1>Compiladores de datos</h1>\n<p> OIT</p>"
+COMPILING_ORG: "<h1>Compiladores de datos</h1>\n<p> UIT</p>"
 COLL_METHOD: "<h2> Proceso de recolección:</h2>\n<p> La UIT recopila datos para este\
   \ indicador a través de un cuestionario anual de las autoridades nacionales de reglamentación\
   \ o de los Ministerios de Tecnologías de la Información y la Comunicación, que recopilan\
