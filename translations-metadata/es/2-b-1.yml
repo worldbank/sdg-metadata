@@ -1,5 +1,6 @@
 SDG_GOAL: >-
-  <p>Objetivo 2: Poner fin al hambre, lograr la seguridad alimentaria y la mejora de
+  <p>Objetivo 2: Poner fin al hambre, lograr la seguridad alimentaria y la mejora
+  de
   la nutrición y promover la agricultura sostenible</p>
 SDG_TARGET: >-
   <p>Meta 2.b: Corregir y prevenir las restricciones y distorsiones
@@ -40,10 +41,10 @@ REG_AGG: "<h2>Agregados regionales:</h2>\n<p>La OMC no calcula los agregados reg
   \ anuales aplicados a subvenciones a la exportación sumando todos los datos disponibles\
   \ después de haberlos convertido a una sola moneda (US$).</p>"
 IMPUTATION: "<h2>Tratamiento de los valores faltantes:</h2>\n<ul>\n  <li><strong><em>A\
-  \ nivel de país:</em></strong></li>\n</ul>\n<p>Los valores faltan cuando un miembro\
-  \ de la OMC no ha presentado su notificación. Los valores que faltan no se pueden\
-  \ estimar.</p>\n<ul>\n  <li><strong><em>A nivel regional y mundial:</em></strong></li>\n\
-  </ul>\n<p>No es relevante. </p>"
+  \ nivel de país:</em></strong></li>\n</ul>\n<p>No hay datos cuando un miembro de\
+  \ la OMC no ha presentado su notificación. Los valores que faltan no se pueden estimar.</p>\n\
+  <ul>\n  <li><strong><em>A nivel regional y mundial:</em></strong></li>\n</ul>\n\
+  <p>No es relevante. </p>"
 DATA_COMP: "<h1>Metodología</h1>\n<h2>Método de cálculo:</h2>\n<p>Los datos a nivel\
   \ de país proceden directamente de las notificaciones de los Miembros a la OMC y\
   \ no están sujetos a ningún cálculo por parte de la OMC. Cada Miembro de la OMC\
@@ -59,11 +60,11 @@ DATA_SOURCE: "<h1>Proveedores de datos</h1>\n<p>Miembros de la OMC</p>\n<h1>Comp
   \ de datos</h1>\n<h2>Nombre:</h2>\n<p>OMC</p>\n<h2>Descripción:</h2>\n<p>La OMC\
   \ recibe las notificaciones de los Miembros de la OMC y recopila la información\
   \ contenida en estas notificaciones para informar sobre este indicador.</p>"
-REL_CAL_POLICY: "<h2> Publicación de datos:</h2>\n<p> Cf. arriba </p>"
+REL_CAL_POLICY: "<h2> Publicación de datos:</h2>\n<p> Véase arriba </p>"
 FREQ_COLL: "<h1>Calendario</h1>\n<h2>Recolección de datos:</h2>\n<p>Los datos se recogen\
   \ periódicamente, siguiendo el calendario de presentación de notificaciones de los\
   \ miembros de la OMC.</p>"
-COLL_METHOD: "<h2> Proceso de recolección:</h2>\n<p> No es relevante. Cf. respuestas\
+COLL_METHOD: "<h2> Proceso de recolección:</h2>\n<p> No es relevante. Véase respuestas\
   \ anteriores</p>"
 SOURCE_TYPE: "<h1>Fuentes de datos</h1>\n<h2>Descripción:</h2>\n<p>Las fuentes de\
   \ datos son las notificaciones de los Miembros de la OMC en su cuadro ES:1 y las\
@@ -90,8 +91,8 @@ STAT_CONC_DEF: "<h1>Conceptos y definiciones</h1>\n<h2>Definición:</h2>\n<p>Las
   \ por productos o grupos de productos, según las listas de Miembros para los Miembros\
   \ con compromisos de reducción de las subvenciones a la exportación incluidos en\
   \ la parte IV de sus Listas y de acuerdo a las prácticas de notificación de Miembros\
-  \ en el caso de los países en desarrollo Miembros que utilicen subvenciones a la\
+  \ en el caso de los países en desarrollo miembros que utilicen subvenciones a la\
   \ exportación con arreglo a las disposiciones del párrafo 4 del artículo 9 del Acuerdo\
   \ sobre la Agricultura.&quot;</p>"
 SDG_CUSTODIAN_AGENCIES: "<h1> Información institucional </h1>\n<h2> Organización (es):\
-  \ </h2>\n<p> La Organización Mundial del Comercio (OMC) </p>"
+  \ </h2>\n<p> Organización Mundial del Comercio (OMC) </p>"

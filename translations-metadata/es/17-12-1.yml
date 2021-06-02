@@ -1,5 +1,6 @@
 SDG_GOAL: >-
-  <p>Objetivo 17: Fortalecer los medios de implementación y revitalizar la Alianza Mundial
+  <p>Objetivo 17: Fortalecer los medios de implementación y revitalizar la Alianza
+  Mundial
   para el Desarrollo Sostenible</p>
 SDG_TARGET: >-
   <p>Meta 17.12: Lograr la consecución oportuna del acceso a los mercados
@@ -22,17 +23,17 @@ COVERAGE: "<h1>Disponibilidad de datos</h1>\n<h2>Descripción:</h2>\n<p>Asia y P
   \ bienes ambientales), regiones geográficas y nivel de renta de los países (por\
   \ ejemplo, desarrollados, en desarrollo, PMA).</p>"
 SDG_CUSTODIAN_AGENCIES: "<h1>Información institucional</h1>\n<h2>Organización(es):</h2>\n\
-  <p>Centro de Comercio Internacional (CCI)</p>\n<p>Conferencia de las Naciones Unidas\
+  <p>Centro de Comercio Internacional (ITC)</p>\n<p>Conferencia de las Naciones Unidas\
   \ sobre Comercio y Desarrollo (UNCTAD)</p>\n<p>Organización Mundial del Comercio\
   \ (OMC)</p>"
 SDG_RELATED_INDICATORS: "<h1> Indicadores relacionados a febrero de 2020</h1>\n<p>\
   \ Vínculos con la disminución de las distorsiones del mercado agrícola (objetivo\
   \ 2.b), mejoras en la transferencia de bienes y servicios ambientales (objetivo\
   \ 17.7) y un mejor acceso a los medicamentos esenciales (3.b). </p>"
-COMPARABILITY: "<h2>Fuentes de discrepancia:</h2>\n<p>No procede. Se utilizan los\
-  \ mismos datos nacionales a nivel global.</p>"
+COMPARABILITY: "<h2>Fuentes de discrepancia:</h2>\n<p>No aplica. Se utilizan los mismos\
+  \ datos nacionales a nivel global.</p>"
 FREQ_COLL: "<h1>Calendario</h1>\n<h2>Recolección de datos:</h2>\n<p>Actualización\
-  \ continua durante todo el año</p>"
+  \ continua durante todo el año.</p>"
 OTHER_DOC: "<h1>Referencias</h1>\n<h2>URL:</h2>\n<p><a href=\"http://www.intracen.org/\"\
   >http://www.intracen.org</a></p>\n<p><a href=\"http://www.wto.org/\">http:// www.wto.org\
   \ </a></p>\n<p><a href=\"http://unctad.org/en/Pages/Home.aspx\">http://unctad.org/en/Pages/Home.aspx</a></p>\n\
@@ -79,8 +80,8 @@ RATIONALE: "<h2>Justificación:</h2>\n<p>El nivel medio de los tipos arancelario
   \ los que se enfrentan los países en desarrollo y los PMA permite observar a qué\
   \ ritmo avanza el sistema multilateral hacia la implantación de un acceso a los\
   \ mercados libre de derechos y de cuotas.</p>"
-COMPILING_ORG: "<h1>Compiladores de datos</h1>\n<h2>Nombre:</h2>\n<p>CCI, OMC y UNCTAD</p>\n\
-  <h2>Descripción:</h2>\n<p>El CCI, la OMC y la UNCTAD informarán conjuntamente sobre\
+COMPILING_ORG: "<h1>Compiladores de datos</h1>\n<h2>Nombre:</h2>\n<p>ITC, OMC y UNCTAD</p>\n\
+  <h2>Descripción:</h2>\n<p>El ITC, la OMC y la UNCTAD informarán conjuntamente sobre\
   \ este indicador</p>"
 DATA_SOURCE: "<h1>Proveedores de datos</h1>\n<p>Ya en las fuentes.</p>"
 REL_CAL_POLICY: "<h2>Publicación de datos:</h2>\n<p>Indicativamente, los cálculos\
@@ -95,15 +96,15 @@ SOURCE_TYPE: "<h1>Fuentes de datos</h1>\n<h2>Descripción:</h2>\n<p>La principal
   \ focales dentro de las aduanas, los ministerios encargados de los ingresos aduaneros\
   \ (Ministerio de Economía/Finanzas y autoridades de ingresos relacionadas) o, alternativamente,\
   \ el Ministerio de Comercio. Los datos arancelarios para el cálculo de este indicador\
-  \ se obtienen de las bases de datos del CCI (MAcMap) - http://www.macmap.org/ -\
-  \ OMC (BID) - http://tao.wto.org - y UNCTAD (TRAINS). Los datos de los aranceles\
-  \ de importación incluidos en la base de datos del CCI (MAcMap) se recopilan poniéndose\
+  \ se obtienen de las bases de datos del ITC (MAcMap) - http://www.macmap.org/ -\
+  \ OMC (BDI) - http://tao.wto.org - y UNCTAD (TRAINS). Los datos de los aranceles\
+  \ de importación incluidos en la base de datos del ITC (MAcMap) se recopilan poniéndose\
   \ en contacto directamente con los puntos focales de los organismos nacionales competentes\
   \ o las organizaciones regionales (en el caso de las uniones aduaneras o las comunidades\
   \ económicas regionales). Cuando están disponibles, los datos se descargan de los\
   \ sitios web oficiales nacionales o regionales. En algunos casos, los datos se compran\
   \ a empresas privadas. Los datos de los aranceles de importación incluidos en la\
-  \ base de datos de la OMC (BID) proceden de las notificaciones oficiales de los\
+  \ base de datos de la OMC (BDI) proceden de las notificaciones oficiales de los\
   \ miembros de la OMC. Los datos sobre aranceles de importación incluidos en la base\
   \ de datos de la UNCTAD (TRAINS) se recogen de fuentes oficiales, incluidos los\
   \ sitios web oficiales de los países u organizaciones regionales.</p>"
@@ -116,14 +117,15 @@ STAT_CONC_DEF: "<h1>Conceptos y definiciones</h1>\n<h2>Definición:</h2>\n<p>Ara
   \ una ventaja de precios para bienes similares producidos localmente y para aumentar\
   \ los ingresos del gobierno. Las medidas correctoras del comercio y los impuestos\
   \ no se consideran aranceles. Se tienen en cuenta los aranceles de los capítulos\
-  \ 01 a 97 del SA.</p>\n<p>Línea arancelaria o líneas arancelarias nacionales (LN):\
-  \ Los códigos de las Líneas Arancelarias Nacionales se refieren a los códigos de\
-  \ clasificación, aplicados a las mercancías por los distintos países, que son más\
-  \ largos que el nivel de seis dígitos del SA. Los países son libres de introducir\
-  \ distinciones nacionales para los aranceles y muchos otros fines.</p>\n<p>Los códigos\
-  \ nacionales de líneas arancelarias se basan en el sistema del SA, pero tienen más\
-  \ de seis dígitos. Por ejemplo, el código de seis dígitos del SA 010120 se refiere\
-  \ a asnos, mulos y burdéganos, vivos, mientras que el código de la línea arancelaria\
-  \ nacional de EE.UU. 010120.10 se refiere a asnos reproductores de raza pura vivos,\
-  \ 010120.20 se refiere a asnos vivos distintos de los reproductores de raza pura\
-  \ y 010120.30 se refiere a mulos y burdéganos importados para su sacrificio inmediato.</p>"
+  \ 01 a 97 del SA (Sistema Armonizado).</p>\n<p>Línea arancelaria o líneas arancelarias\
+  \ nacionales (LN): Los códigos de las Líneas Arancelarias Nacionales se refieren\
+  \ a los códigos de clasificación, aplicados a las mercancías por los distintos países,\
+  \ que son más largos que el nivel de seis dígitos del SA. Los países son libres\
+  \ de introducir distinciones nacionales para los aranceles y muchos otros fines.</p>\n\
+  <p>Los códigos nacionales de líneas arancelarias se basan en el sistema del SA,\
+  \ pero tienen más de seis dígitos. Por ejemplo, el código de seis dígitos del SA\
+  \ 010120 se refiere a asnos, mulos y burdéganos, vivos, mientras que el código de\
+  \ la línea arancelaria nacional de EE.UU. 010120.10 se refiere a asnos reproductores\
+  \ de raza pura vivos, 010120.20 se refiere a asnos vivos distintos de los reproductores\
+  \ de raza pura y 010120.30 se refiere a mulos y burdéganos importados para su sacrificio\
+  \ inmediato.</p>"

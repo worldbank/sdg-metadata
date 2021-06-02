@@ -1,5 +1,6 @@
 SDG_GOAL: >-
-  <p>Objetivo 7: Garantizar el acceso a una energía asequible, fiable, sostenible y
+  <p>Objetivo 7: Garantizar el acceso a una energía asequible, fiable, sostenible
+  y
   moderna para todos</p>
 SDG_TARGET: >-
   <p>Meta 7.3: De aquí a 2030, duplicar la tasa mundial de mejora de la
@@ -88,9 +89,10 @@ DATA_SOURCE: "<h1>Proveedores de datos </h1>\n<p>Administraciones nacionales, ta
   <p><a href=\"https://unstats.un.org/unsd/energystats/data\">https://unstats.un.org/unsd/energystats/data\
   \ </a> </p>"
 REL_CAL_POLICY: "<h2>Publicación de datos: </h2>\n<p>Los Balances Energéticos de la\
-  \ AIE se publican en verano (publicando información de dos años civiles anteriores).\
-  \ Los balances de energía de la ONU están disponibles hacia el final del año calendario\
-  \ (publicación de información de dos años calendario anteriores). </p>"
+  \ AIE se publican en el verano boreal (publicando información de los dos años calendario\
+  \ previos). Los balances de energía de la ONU están disponibles hacia el final del\
+  \ año calendario (publicación de información de dos años calendario anteriores).\
+  \ </p>"
 FREQ_COLL: "<h1>Calendario </h1>\n<h2>Recolección de datos: </h2>\n<p>Los datos se\
   \ recogen anualmente. </p>"
 SOURCE_TYPE: "<h1>Fuentes de datos </h1>\n<p>El suministro total de energía suele\
@@ -99,7 +101,7 @@ SOURCE_TYPE: "<h1>Fuentes de datos </h1>\n<p>El suministro total de energía sue
   \ Internacional de la Energía (AIE) y para todos los países del mundo por la División\
   \ de Estadística de las Naciones Unidas (UNSD). </p>\n<p>Los datos del PIB proceden\
   \ principalmente de la base de datos de los Indicadores de Desarrollo Mundial del\
-  \ Banco Mundial &#x2013;.</p>"
+  \ Banco Mundial.</p>"
 STAT_CONC_DEF: "<h1>Conceptos y definiciones </h1>\n<h2>Definición: </h2>\n<p>La intensidad\
   \ energética se define como la energía suministrada a la economía por unidad de\
   \ valor de la producción económica. </p>\n<h2>Conceptos: </h2>\n<p>El suministro\

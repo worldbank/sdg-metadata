@@ -35,9 +35,9 @@ COMPARABILITY: "<h2> Fuentes de discrepancias:</h2>\n<p> Los denominadores de po
   \ de población de la DPNU. </p>"
 COVERAGE: "<h1>Disponibilidad de datos</h1>\n<h2>Descripción:</h2>\n<p>Todos los países</p>\n\
   <h2>Series temporales:</h2>\n<p>De 2000 en adelante</p>\n<h2>Desagregación:</h2>\n\
-  <p>El indicador está desagregado por país, sexo y edad (niños frente a adultos).</p>"
+  <p>El indicador está desagregado por país, sexo y edad (niños vs adultos).</p>"
 REG_AGG: "<h2>Agregados regionales:</h2>\n<p>Se agregan las estimaciones de los recuentos\
-  \ de casos de los países. La incertidumbre se propaga asumiendo la independencia\
+  \ de casos de los países. La incertidumbre se distribuye asumiendo la independencia\
   \ de las estimaciones de los países.</p>"
 IMPUTATION: "<h2>Tratamiento de valores faltantes:</h2>\n<ul>\n  <li><strong><em>A\
   \ nivel de país:</em></strong></li>\n</ul>\n<p>Detalles disponibles en el siguiente\
@@ -56,13 +56,12 @@ DATA_COMP: "<h1>Metodología</h1>\n<h2>Método de cálculo:</h2>\n<p>Las estimac
   \ para cada país se obtienen utilizando uno o más de los siguientes enfoques, según\
   \ los datos disponibles: (i) incidencia = notificaciones de casos/proporción estimada\
   \ de casos detectados; (ii) modelización de captura-recaptura, (iii) incidencia\
-  \ = prevalencia/duración de la enfermedad.</p>\n<p>Los límites de incertidumbre\
-  \ se proporcionan además de las mejores estimaciones. </p>\n <p> Los detalles están\
-  \ disponibles en la \"Medición del impacto de la TB: política y recomendaciones\
-  \ sobre cómo evaluar la carga epidemiológica de la TB y el impacto del control de\
-  \ la TB \"y en el apéndice técnico en línea del \"Informe mundial sobre la tuberculosis\
-  \ de la OMS de 2017\" y <a href=\"https://arxiv.org/abs/1603.00278\"> https: //\
-  \ arxiv.org/abs/1603.00278</a></p>"
+  \ = prevalencia/duración de la enfermedad.</p>\n<p>Además de las mejores estimaciones\
+  \ se proporcionan los límites de incertidumbre . </p>\n <p> Los detalles están disponibles\
+  \ en la \"Medición del impacto de la TB: política y recomendaciones sobre cómo evaluar\
+  \ la carga epidemiológica de la TB y el impacto del control de la TB \"y en el apéndice\
+  \ técnico en línea del \"Informe mundial sobre la tuberculosis de la OMS de 2017\"\
+  \ y <a href=\"https://arxiv.org/abs/1603.00278\"> https: // arxiv.org/abs/1603.00278</a></p>"
 REC_USE_LIM: "<h2> Comentarios y limitaciones:</h2>\n<p> La incidencia de tuberculosis\
   \ se ha utilizado durante más de un siglo como principal indicador de la carga de\
   \ tuberculosis, junto con la mortalidad por tuberculosis. El indicador permite comparaciones\
