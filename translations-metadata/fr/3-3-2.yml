@@ -5,9 +5,9 @@ SDG_TARGET: "<p>Cible 3.3 : D’ici 2030, mettre fin à l’épidémie de sida, 
   \ au paludisme et aux maladies tropicales négligées et combattre l’hépatite, les\
   \ maladies transmises par l’eau et autres maladies transmissibles.</p>"
 SDG_INDICATOR: "<p>Indicateur 3.3.2: Incidence de la tuberculose pour 100 000 habitants</p>"
-META_LAST_UPDATE: '<p>Dernière mise à jour : 09 janvier 2018</p>'
+META_LAST_UPDATE: '<p>Dernière mise à jour : 9 janvier 2018</p>'
 SDG_CUSTODIAN_AGENCIES: |-
-  <h1> Information institutionnelle</h1>
+  <h1> Informations institutionnelles</h1>
   <h2> Organisation(s) : </h2>
   <p> Organisation mondiale de la Santé (OMS)</p>
 STAT_CONC_DEF: >-
@@ -24,9 +24,9 @@ STAT_CONC_DEF: >-
 
   La mesure directe exige des systèmes de surveillance de haute qualité dans lesquels
   la sous-déclaration est négligeable, et des systèmes de santé solides de sorte que
-  le sous-diagnostic soit également négligeable ; sinon, les estimations indirectes
+  le sous-diagnostic soit également négligeable. Pour leur part, les estimations indirectes
   sont basées sur les données de notification et les estimations des niveaux de sous-déclaration
-  et de sous-diagnostic</p>.
+  et de sous-diagnostic.</p>
 SOURCE_TYPE: >-
   <h1>Sources de données</h1>
 
@@ -38,21 +38,19 @@ SOURCE_TYPE: >-
   <p><a
   href="https://arxiv.org/ftp/arxiv/papers/1603/1603.00278.pdf">https://arxiv.org/ftp/arxiv/papers/1603/1603.00278.pdf</a></p>
 COLL_METHOD: >-
-  <h2><strong>Collection process</strong>:</h2>
+  <h2><strong>Processus de collecte</strong>:</h2>
 
-  <p> Les programmes nationaux de lutte contre la tuberculose communiquent
-  chaque année, entre mars et juin, leurs données annuelles sur la tuberculose à
-  l'OMS, en utilisant un système normalisé de communication des données en ligne
-  géré par l'OMS. Le système comprend des contrôles en temps réel de la
-  cohérence des données. Les estimations de la charge de la tuberculose sont
-  préparées en juillet-août et communiquées aux pays. Dans certains pays
-  disposant de nouvelles données d'enquête, les estimations sont mises à jour
-  séparément au cours de l'année. Toutes les estimations sont communiquées en
-  août-septembre et les révisions sont effectuées en fonction des réactions. La
-  série finale d'estimations est examinée par l'OMS avant sa publication en
-  octobre, afin de vérifier la conformité avec les normes internationales
-  spécifiques et l'harmonisation des ventilations par groupes d'âge et de sexe
-  </p>.
+  <p> Les programmes nationaux de lutte contre la tuberculose communiquent chaque
+  année entre mars et juin, leurs données annuelles sur la tuberculose à l'OMS, en
+  utilisant un système normalisé de communication des données en ligne géré par l'OMS.
+  Le système comprend des contrôles en temps réel de la cohérence des données. Les
+  estimations de la charge de la tuberculose sont préparées en juillet-août et communiquées
+  aux pays. Dans certains pays disposant de nouvelles données d'enquête, les estimations
+  sont mises à jour séparément au cours de l'année. Toutes les estimations sont communiquées
+  en août-septembre et les révisions sont effectuées en fonction des rétroactions.
+  La série finale d'estimations est examinée par l'OMS avant sa publication en octobre,
+  afin de vérifier la conformité avec les normes internationales spécifiques et l'harmonisation
+  des ventilations par groupes d'âge et de sexe.</p>
 FREQ_COLL: |-
   <h1>Calendrier</h1>
   <h2>Collecte de données :</h2>
@@ -71,58 +69,54 @@ COMPILING_ORG: |-
 RATIONALE: >-
   <h2> Justification: </h2>
 
-  <p> Après deux ans de consultations, une nouvelle stratégie mondiale de lutte
-  contre la tuberculose pour l'après-2015 a été approuvée par l'Assemblée
-  mondiale de la Santé en mai 2014. Connue sous le nom de stratégie pour mettre
-  fin à la tuberculose, elle couvre la période de 2016 à 2035. L'objectif global
-  est &#x201C; de mettre fin à l'épidémie mondiale de tuberculose &#x201D; et
-  des objectifs ambitieux en conséquence de réduction des décès et des cas de
-  tuberculose sont fixés pour 2030 (80% de réduction du taux d'incidence par
-  rapport au niveau de 2015) et 2035 (90 % de réduction du taux d'incidence),
-  dans le cadre des ODD. </p>
+  <p> Après deux ans de consultations, une nouvelle stratégie mondiale de lutte contre
+  la tuberculose pour l'après-2015 a été approuvée par l'Assemblée mondiale de la
+  Santé en mai 2014. Connue sous le nom de stratégie pour mettre fin à la tuberculose,
+  elle couvre la période de 2016 à 2035. L'objectif global est «de mettre fin à l'épidémie
+  mondiale de tuberculose» et par le même effet viser l'atteinte d'objectifs ambitieux
+  de réduction des décès et des cas de tuberculoses pour 2030 (80% de réduction du
+  taux d'incidence par rapport au niveau de 2015) et 2035 (90 % de réduction du taux
+  d'incidence), dans le cadre des objectifs de développement durable. </p>
 
-  <p> Le taux d'incidence de la tuberculose a été choisi comme indicateur pour
-  mesurer la réduction du nombre de cas de charge de morbidité. Bien que cet
-  indicateur ait été estimé avec une incertitude considérable dans la plupart
-  des pays en 2014, les notifications de cas aux autorités nationales
-  fournissent une bonne approximation s'il y a une sous-déclaration limitée des
-  cas détectés et un sous-diagnostic ou un surdiagnostic limité des cas. </p>
+  <p> Le taux d'incidence de la tuberculose a été choisi comme indicateur pour mesurer
+  la réduction du nombre de cas de charge de morbidité. Bien que cet indicateur ait
+  été estimé avec une incertitude considérable dans la plupart des pays en 2014, les
+  notifications de cas aux autorités nationales fournissent une bonne approximation
+  s'il y a une sous-déclaration limitée des cas détectés et un sous-diagnostic ou
+  un surdiagnostic limité des cas. </p>
 REC_USE_LIM: >-
-  <h2> Commentaires et limitations:</h2>
+  <h2> Commentaires et limites:</h2>
 
-  <p> L’incidence de la tuberculose est utilisée depuis plus d’un siècle comme
-  principal indicateur du fardeau de la tuberculose, ainsi que de la mortalité
-  due à la tuberculose. L’indicateur permet des comparaisons au fil du temps et
-  entre les pays. L’amélioration de la qualité des données de surveillance de la
-  tuberculose entraîne une réduction de l’incertitude quant à la valeur des
-  indicateurs. </p>
+  <p> L’incidence de la tuberculose est utilisée depuis plus d’un siècle comme principal
+  indicateur du fardeau de la tuberculose, ainsi que de la mortalité qui s'y rattache.
+  L’indicateur permet des comparaisons au fil du temps et entre les pays. L’amélioration
+  de la qualité des données de surveillance de la tuberculose entraîne une réduction
+  de l’incertitude quant à la valeur des indicateurs. </p>
 DATA_COMP: >-
   <h1> Méthodologie</h1>
 
   <h2> Méthode de calcul :</h2>
 
-  <p> Les estimations de l’incidence de la tuberculose sont produites au moyen
-  d’un processus consultatif et analytique dirigé par l’OMS et sont publiées
-  chaque année. Ces estimations sont fondées sur des notifications annuelles de
-  cas, des évaluations de la qualité et de la couverture des données de
-  notification de la tuberculose, des enquêtes nationales sur la prévalence de
-  la tuberculose et des informations provenant des systèmes d’enregistrement des
-  décès (vitaux). </p>
+  <p> Les estimations de l’incidence de la tuberculose sont produites au moyen d’un
+  processus consultatif et analytique dirigé par l’OMS et sont publiées chaque année.
+  Ces estimations sont fondées sur des notifications annuelles de cas, des évaluations
+  de la qualité et de la couverture des données de notification de la tuberculose,
+  des enquêtes nationales sur la prévalence de la tuberculose et des informations
+  provenant des systèmes d’enregistrement des décès (état civil). </p>
 
-  <p> Des estimations de l’incidence pour chaque pays sont obtenues, en
-  utilisant une ou plusieurs des approches suivantes selon les données
-  disponibles : (i) incidence = notifications de cas/proportion estimée de cas
-  détectés ; (ii) modélisation capture-recapture, (iii) incidence =
-  prévalence/durée de l’état. </p>
+  <p> Des estimations de l’incidence pour chaque pays sont obtenues, en utilisant
+  une ou plusieurs des approches suivantes selon les données disponibles : (i) incidence
+  = notifications de cas/proportion estimée de cas détectés ; (ii) modélisation capture-recapture,
+  (iii) incidence = prévalence/durée de l’état. </p>
 
-  <p> Des limites d’incertitude sont fournies en plus des meilleures
-  estimations. </p>
+  <p> Des limites d’incertitude sont fournies en plus des meilleures estimations.
+  </p>
 
-  <p> Les détails sont disponibles à partir de la mesure de l’impact de la
-  tuberculose : politiques et recommandations sur la façon d’évaluer le fardeau
-  épidémiologique de la tuberculose et l’impact de la lutte antituberculeuse et
-  de l’annexe technique en ligne au rapport mondial de l’OMS sur la tuberculose
-  2017 et <a
+  <p> Les détails sont disponibles à partir du document TB impact measurement policy
+  and recommendation for how to assess the epimiological burden of TB and the impact
+  of TB control (http://whqlibdoc.who.int/publications/2009/9789241598828_eng.pdf?ua=1)
+  et de l’annexe technique en ligne au rapport mondial de l’OMS sur la tuberculose
+  2017 et le document Methods used by WHO to estimate the Global burden of TB disease<a
   href="https ://arxiv.org/abs/1603.00278">https ://arxiv.org/abs/1603.00278</a></p>
 IMPUTATION: >-
   <h2> Traitement des valeurs manquantes:</h2>
@@ -131,19 +125,17 @@ IMPUTATION: >-
     <li> <strong> <em> Au niveau national:</em></strong></li>
   </ul>
 
-  <p> Détails disponibles dans le document public suivant:</p>
+  <p> Détails disponibles dans le document accessible au public suivant:</p>
 
-  <p> <a
-  href="https://arxiv.org/ftp/arxiv/papers/1603/1603.00278.pdf">https://arxiv.org/ftp/arxiv/papers/1603/1603.00278.pdf</a></p>
+  <p> <a href="https://arxiv.org/ftp/arxiv/papers/1603/1603.00278.pdf">https://arxiv.org/ftp/arxiv/papers/1603/1603.00278.pdf</a></p>
 
   <ul>
     <li> <strong> <em> Aux niveaux régional et mondial:</em></strong></li>
   </ul>
 
-  <p> Détails disponibles dans le document public suivant:</p>
+  <p> Détails disponibles dans le document accessible au public suivant:</p>
 
-  <p> <a
-  href="https://arxiv.org/ftp/arxiv/papers/1603/1603.00278.pdf">https://arxiv.org/ftp/arxiv/papers/1603/1603.00278.pdf</a></p>
+  <p> <a href="https://arxiv.org/ftp/arxiv/papers/1603/1603.00278.pdf">https://arxiv.org/ftp/arxiv/papers/1603/1603.00278.pdf</a></p>
 REG_AGG: >-
   <h2> Agrégats régionaux:</h2>
 
@@ -167,37 +159,31 @@ COVERAGE: >-
 COMPARABILITY: >-
   <h2> Sources des écarts : </h2>
 
-  <p> Les dénominateurs de population peuvent différer entre les sources
-  nationales et le PNUD. L'OMS utilise les estimations démographiques du PNUD.
-  </p>
+  <p> Les dénominateurs de population peuvent différer entre les sources nationales
+  et les données de la Division de la population du Département des affaires économiques
+  et sociales du Secrétariat des Nations Unies. L'OMS utilise les estimations démographiques
+  de l'organisme de l'ONU.</p>
 OTHER_DOC: >-
   <h1> Références </h1>
 
   <p> <strong> URL : </strong> </p>
 
-  <p> <a href="http ://www.who.int/tb/country/data/download/en/">
-  http ://www.who.int/tb/country/data/download/en/ </a> </p>
+  <p> <a href="http ://www.who.int/tb/country/data/download/en/"> http ://www.who.int/tb/country/data/download/en/
+  </a> </p>
 
   <h2> Références : </h2>
 
-  <p> Rapport mondial de l'OMS sur la tuberculose 2017 : (<a
-  href="http ://www.who.int/tb/publications/global_report/en/">
-  http ://www.who.int/tb/publications/global_report/en/ </a>, consulté le 9
-  janvier 2018). </p>
+  <p> WHO global tubercculosis report 2017 : (<a href="http ://www.who.int/tb/publications/global_report/en/">
+  http ://www.who.int/tb/publications/global_report/en/ </a>, consulté le 9 janvier
+  2018).</p>
 
-  <p> Méthodes utilisées par l'OMS pour estimer la charge mondiale de la
-  tuberculose : <a
-  href="https ://arxiv.org/ftp/arxiv/papers/1603/1603.00278.pdf">
+  <p> Methods used by WHO to estimate the Global burden of TB disease: <a href="https ://arxiv.org/ftp/arxiv/papers/1603/1603.00278.pdf">
   https ://arxiv.org/ftp/arxiv/papers/1603/1603.00278.pdf </a> </p>
 
-  <p> Définitions et cadre de notification pour la tuberculose &#x2013 ;
-  Révision de 2013 (WHO / HTM / TB / 2013.2). Genève : Organisation mondiale de
-  la Santé ; 2013 (<a
-  href="http ://www.who.int/tb/publications/definitions/en/">
-  http ://www.who.int/tb/publications/definitions/en/ </a>, consulté le 21 juin
-  2016). </p>
+  <p> Définitions et cadre de notification pour la tuberculose &#x2013 ; Révision
+  de 2013. Genève : Organisation mondiale de la Santé ; 2013 (<a href="http ://www.who.int/tb/publications/definitions/en/">
+  http ://www.who.int/tb/publications/definitions/en/ </a>, consulté le 21 juin 2016).</p>
 
-  <p> Documentation des organes directeurs de l'Assemblée mondiale de la Santé :
-  documents officiels. Genève : Organisation mondiale de la Santé (<a
-  href="http ://apps.who.int/gb/or/"> http ://apps.who.int/gb/or/ </a>, consulté
-  le 21 juin 2016). </p>
+  <p> Documentation des organes directeurs de l'Assemblée mondiale de la Santé : documents
+  officiels. Genève : Organisation mondiale de la Santé (<a href="http ://apps.who.int/gb/or/">
+  http ://apps.who.int/gb/or/ </a>, consulté le 21 juin 2016). </p>
