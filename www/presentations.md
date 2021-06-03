@@ -6,7 +6,7 @@ permalink: /presentations/
 
 The SDG Metadata Translation project has evolved over time. The initial pilot examined the feasibilty of computer-assisted translation of SDG metadata into Russian. The project has since expanded to include all tier 1 and tier 1/2 SDG metadata. Translations are available now in French and Spanish, and translations into other languages are under discussion.
 
-In the next phase of the project, we intend to harvest SDG metadata routinely from the SDG Lab (maintained by UNSD) to allow 1) translation of all tier 2 metadata and 2) efficient updating of previously translated metadata as needed.  
+In the next phase of the project, we intend to harvest SDG metadata routinely from the SDG Lab (maintained by UNSD) to allow 1) translation of all tier 2 metadata and 2) efficient updating of previously translated metadata as needed. 
 
 Selected presentations describing the project's status and plans are provided below.
 
