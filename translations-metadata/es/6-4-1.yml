@@ -18,3 +18,374 @@ SDG_RELATED_INDICATORS: "<h1>Indicadores relacionados</h1>\n<p>Este indicador de
   \ metas 1.1, 1.2, 2.1, 2.2, 5.4, 5.a, 6.1, 6.2, 6.3, 6.5 complementarán la información\
   \ proporcionada por este indicador.</p>"
 META_LAST_UPDATE: '<p>Última actualización: 13 de marzo de 2019</p>'
+OTHER_DOC: "<h1> Referencias</h1>\n<ul>\n  <li> Página principal de AQUASTAT: <a href=\"\
+  http://www.fao.org/nr/water/aquastat/main/index.stm\">http://www.fao.org/nr/water/aquastat/main/index.stm</a></li>\n\
+  \  <li> Glosario de AQUASTAT: <a href=\"http://www.fao.org/nr/water/aquastat/data/glossary/search.html\"\
+  >http://www.fao.org/nr/water/aquastat/data/glossary/search.html</a></li>\n  <li>\
+  \ Base de datos principal del país de AQUASTAT: <a href=\"http://www.fao.org/nr/water/aquastat/data/query/index.html?lang=en\"\
+  >http://www.fao.org/nr/water/aquastat/data/query/index.html?lang=en</a> </li>\n\
+  \  <li> AQUASTAT Uso del agua: <a href=\"http://www.fao.org/nr/water/aquastat/water_use/index.stm\"\
+  >http://www.fao.org/nr/water/aquastat/water_use/index.stm</a></li>\n  <li> Recursos\
+  \ hídricos de AQUASTAT: <a href=\"http://www.fao.org/nr/water/aquastat/water_res/index.stm\"\
+  >http://www.fao.org/nr/water/aquastat/water_res/index.stm</a></li>\n  <li> Publicaciones\
+  \ de AQUASTAT que tratan conceptos, metodologías, definiciones, terminologías, metadatos,\
+  \ etc.: <a href=\"http://www.fao.org/nr/water/aquastat/catalogues/index.stm\">http://www.fao.org/nr/water/aquastat/catalogues/index.stm</a></li>\n\
+  \  <li> Control de calidad aquastat: <a href=\"http://www.fao.org/nr/water/aquastat/sets/index.stm#main\"\
+  >http://www.fao.org/nr/water/aquastat/sets/index.stm#main</a></li>\n  <li> Directrices\
+  \ de AQUASTAT: <a href=\"http://www.fao.org/nr/water/aquastat/sets/aq-5yr-guide_eng.pdf\"\
+  >http://www.fao.org/nr/water/aquastat/sets/aq-5yr-guide_eng.pdf</a></li>\n  <li>\
+  \ Base de datos de producción FAOSTAT: <a href=\"http://faostat3.fao.org/download/Q/*/E\"\
+  >http://faostat3.fao.org/download/Q/*/E</a></li>\n  <li> Unsd/UNEP Questionnaire\
+  \ on Environment Statistics &#x2013; Water Section: <a href=\"http://unstats.un.org/unsd/environment/questionnaire.htm\"\
+  >http://unstats.un.org/unsd/environment/questionnaire.htm</a></li>\n  <li> <a href=\"\
+  http://unstats.un.org/unsd/environment/qindicators.htm\">http://unstats.un.org/unsd/environment/qindicators.htm</a><u>\
+  \ </u></li>\n  <li> Marco para el desarrollo de estadísticas del medio ambiente\
+  \ (FDES 2013) (capítulo 3): <a href=\"http://unstats.un.org/unsd/environment/FDES/FDES-2015-supporting-tools/FDES.pdf\"\
+  >http://unstats.un.org/unsd/environment/FDES/FDES-2015-supporting-tools/FDES.pdf</a></li>\n\
+  \  <li> Recomendaciones internacionales para las estadísticas del agua (IRWS) (2012):\
+  \ <a href=\"http://unstats.un.org/unsd/envaccounting/irws/\">http://unstats.un.org/unsd/envaccounting/irws/</a></li>\n\
+  \  <li> Oecd/Eurostat Questionnaire on Environment Statistics &#x2013; Sección del\
+  \ Agua: <a href=\"http://ec.europa.eu/eurostat/web/environment/water\">http://ec.europa.eu/eurostat/web/environment/water</a></li>\n\
+  \  <li> Archivos de datos de cuentas nacionales de la OCDE: <a href=\"http://www.oecd-ilibrary.org/economics/data/oecd-national-accounts-statistics_na-data-en\"\
+  >http://www.oecd-ilibrary.org/economics/data/oecd-national-accounts-statistics_na-data-en</a></li>\n\
+  \  <li> SEEA-Agua: <a href=\"https://seea.un.org/sites/seea.un.org/files/seeawaterwebversion_final_en.pdf\"\
+  >https://seea.un.org/sites/seea.un.org/files/seeawaterwebversion_final_en.pdf</a></li>\n\
+  \  <li> Marco central del SSEA: <a href=\"https://seea.un.org/sites/seea.un.org/files/seea_cf_final_en.pdf\"\
+  >https://seea.un.org/sites/seea.un.org/files/seea_cf_final_en.pdf</a> </li>\n  <li>\
+  \ Base de datos de agregados principales de las cuentas nacionales de la UNSD: <a\
+  \ href=\"http://unstats.un.org/unsd/snaama/selbasicFast.asp\">http://unstats.un.org/unsd/snaama/selbasicFast.asp</a></li>\n\
+  \  <li> Banco de Datos del Banco Mundial (Indicadores económicos mundiales) <a href=\"\
+  http://databank.worldbank.org/data/home.aspx\">http://databank.worldbank.org/data/home.aspx</a></li>\n\
+  \  <li> CIIU rev. 4: <a href=\"https://unstats.un.org/unsd/cr/registry/regcst.asp?Cl=27\"\
+  >https://unstats.un.org/unsd/cr/registry/regcst.asp?Cl=27</a></li>\n</ul>"
+COMPARABILITY: "<h2> Fuentes de discrepancias:</h2>\n<p> Las diferencias regionales,\
+  \ en particular en relación con la agricultura de regadío y las diferentes condiciones\
+  \ climáticas (incluida la variabilidad), deben tenerse en cuenta en la interpretación\
+  \ de este indicador, especialmente en los países con grandes cantidades de recursos\
+  \ hídricos disponibles. También por esta razón, el acoplamiento de este indicador\
+  \ con el estrés hídrico (6.4.2) es importante para la interpretación de los datos.\
+  \ </p>\n<h2> Obtención de datos internacionalmente comparables para el monitoreo\
+  \ mundial:</h2>\n<p> Los datos de este indicador se recopilan a través de un cuestionario/hoja\
+  \ de cálculo que permite a los países identificar los parámetros necesarios y proporcionar\
+  \ algunas comprobaciones preliminares de control. </p>\n<p> Los datos así recopilados\
+  \ son revisados por expertos de la FAO, también a través del equipo GEMI si es necesario.\
+  \ La conclusión del examen se comparte con el país, a fin de garantizar la coherencia\
+  \ y la armonización de los métodos, las definiciones y los resultados. </p>\n<p>\
+  \ La FAO ha preparado un documento metodológico paso a paso, a fin de proporcionar\
+  \ una guía técnica a los equipos en los países. Además, se está preparando una herramienta\
+  \ de aprendizaje electrónico, en forma de curso en línea, que estará lista a principios\
+  \ de 2018. Por último, se está redactando un manual general. </p>"
+COVERAGE: "<h1> Disponibilidad de datos</h1>\n<p> Actualmente, los datos necesarios\
+  \ para el indicador son recopilados por AQUASTAT y las otras bases de datos para\
+  \ 168 países en todo el mundo. </p>\n<p> El desglose del número de países cubiertos\
+  \ por región es el siguiente:</p>\n<table>\n  <tbody>\n    <tr>\n      <td>\n  \
+  \      <p> Mundo</p>\n      </td>\n      <td>\n        <p>168</p>\n      </td>\n\
+  \    </tr>\n    <tr>\n      <td>\n        <p> África</p>\n      </td>\n      <td>\n\
+  \        <p>51</p>\n      </td>\n    </tr>\n    <tr>\n      <td>\n        <p> Norte\
+  \ de África</p>\n      </td>\n      <td>\n        <p>6</p>\n      </td>\n    </tr>\n\
+  \    <tr>\n      <td>\n        <p> África subsahariana</p>\n      </td>\n      <td>\n\
+  \        <p>45</p>\n      </td>\n    </tr>\n    <tr>\n      <td>\n        <p> África\
+  \ oriental</p>\n      </td>\n      <td>\n        <p>16</p>\n      </td>\n    </tr>\n\
+  \    <tr>\n      <td>\n        <p> África Media</p>\n      </td>\n      <td>\n \
+  \       <p>8</p>\n      </td>\n    </tr>\n    <tr>\n      <td>\n        <p> África\
+  \ meridional</p>\n      </td>\n      <td>\n        <p>5</p>\n      </td>\n    </tr>\n\
+  \    <tr>\n      <td>\n        <p> África occidental</p>\n      </td>\n      <td>\n\
+  \        <p>16</p>\n      </td>\n    </tr>\n    <tr>\n      <td>\n        <p> América</p>\n\
+  \      </td>\n      <td>\n        <p>30</p>\n      </td>\n    </tr>\n    <tr>\n\
+  \      <td>\n        <p> América Latina y el Caribe</p>\n      </td>\n      <td>\n\
+  \        <p>28</p>\n      </td>\n    </tr>\n    <tr>\n      <td>\n        <p> Caribe</p>\n\
+  \      </td>\n      <td>\n        <p>8</p>\n      </td>\n    </tr>\n    <tr>\n \
+  \     <td>\n        <p> América Latina</p>\n      </td>\n      <td>\n        <p>20</p>\n\
+  \      </td>\n    </tr>\n    <tr>\n      <td>\n        <p> América del Norte</p>\n\
+  \      </td>\n      <td>\n        <p>2</p>\n      </td>\n    </tr>\n    <tr>\n \
+  \     <td>\n        <p> Asia</p>\n      </td>\n      <td>\n        <p>46</p>\n \
+  \     </td>\n    </tr>\n    <tr>\n      <td>\n        <p> Asia Central</p>\n   \
+  \   </td>\n      <td>\n        <p>5</p>\n      </td>\n    </tr>\n    <tr>\n    \
+  \  <td>\n        <p> Asia oriental</p>\n      </td>\n      <td>\n        <p>5</p>\n\
+  \      </td>\n    </tr>\n    <tr>\n      <td>\n        <p> Asia meridional</p>\n\
+  \      </td>\n      <td>\n        <p>8</p>\n      </td>\n    </tr>\n    <tr>\n \
+  \     <td>\n        <p> Asia sudoriental</p>\n      </td>\n      <td>\n        <p>10</p>\n\
+  \      </td>\n    </tr>\n    <tr>\n      <td>\n        <p> Asia occidental</p>\n\
+  \      </td>\n      <td>\n        <p>18</p>\n      </td>\n    </tr>\n    <tr>\n\
+  \      <td>\n        <p> Europa</p>\n      </td>\n      <td>\n        <p>37</p>\n\
+  \      </td>\n    </tr>\n    <tr>\n      <td>\n        <p> Europa oriental</p>\n\
+  \      </td>\n      <td>\n        <p>10</p>\n      </td>\n    </tr>\n    <tr>\n\
+  \      <td>\n        <p> Norte de Europa</p>\n      </td>\n      <td>\n        <p>10</p>\n\
+  \      </td>\n    </tr>\n    <tr>\n      <td>\n        <p> Sur de Europa</p>\n \
+  \     </td>\n      <td>\n        <p>10</p>\n      </td>\n    </tr>\n    <tr>\n \
+  \     <td>\n        <p> Europa occidental</p>\n      </td>\n      <td>\n       \
+  \ <p>7</p>\n      </td>\n    </tr>\n    <tr>\n      <td>\n        <p> Oceanía</p>\n\
+  \      </td>\n      <td>\n        <p>4</p>\n      </td>\n    </tr>\n    <tr>\n \
+  \     <td>\n        <p> Australia y Nueva Zelanda</p>\n      </td>\n      <td>\n\
+  \        <p>2</p>\n      </td>\n    </tr>\n    <tr>\n      <td>\n        <p> Melanesia</p>\n\
+  \      </td>\n      <td>\n        <p>2</p>\n      </td>\n    </tr>\n    <tr>\n \
+  \     <td>\n        <p> Micronesia</p>\n      </td>\n      <td>\n        <p>0</p>\n\
+  \      </td>\n    </tr>\n    <tr>\n      <td>\n        <p> Polinesia</p>\n     \
+  \ </td>\n      <td>\n        <p>0</p>\n      </td>\n    </tr>\n  </tbody>\n</table>\n\
+  <h2> Desagregación:</h2>\n<p> El indicador abarca todos los sectores económicos\
+  \ según la clasificación de la CIIU, proporcionando los medios para un análisis\
+  \ más detallado de la eficiencia del uso del agua para la planificación y la adopción\
+  \ de decisiones a nivel nacional. </p>\n<p> Aunque la subdivisión en tres grandes\
+  \ sectores económicos agregados, tal como se definen en el capítulo 3, es suficiente\
+  \ para compilar el indicador, siempre que sea posible es aconsejable desglosar aún\
+  \ más el indicador, de acuerdo con los siguientes criterios:</p>\n<ol>\n  <li> Económicamente,\
+  \ una subdivisión más refinada del sector económico se puede hacer usando la CIIU\
+  \ Rev.4 por los siguientes grupos:<ol>\n      <li> Agricultura, Silvicultura y Pesca\
+  \ (CIIU A); </li>\n      <li> Explotación de minas y canteras (CIIU B); </li>\n\
+  \      <li> Manufacturas (CIIU C); </li>\n      <li> Suministro de electricidad,\
+  \ gas, vapor y aire acondicionado (CIIU D); </li>\n      <li> Actividades de abastecimiento\
+  \ de agua, alcantarillado, gestión de desechos y rehabilitación (CIIU E), por </li>\
+  \ \n      <li> Captación, tratamiento y suministro de agua (CIIU 36) <ol> \n   \
+  \       <li>Alcantarillado (CIIU 37)</li>\n          <li><Construcción (CIIU F)</li>\n\
+  \        </ol>\n      </li>\n      <li>Otras industrias (suma de las demás industrias)</li>\n\
+  \    </ol>\n  </li>\n  <li>Geográficamente, calculando el indicador por cuenca hidrográfica,\
+  \ cuenca hidrográfica o unidades administrativas dentro de un país.</li>\n</ol>\n\
+  <p>Estos niveles de desagregación, o una combinación de ellos, brindarán una mayor\
+  \ comprensión de la dinámica de la eficiencia en el uso del agua, proporcionando\
+  \ información para políticas y acciones correctivas. </p>"
+QUALITY_ASSURE: "<h2>Garantía de calidad:</h2>\n<ul>\n  <li>NA</li>\n</ul>"
+DOC_METHOD: "<h2>Métodos y directrices a disposición de los países para la recopilación\
+  \ de los datos a nivel nacional:</h2>\n<ul>\n  <li>NA</li>\n</ul>"
+REG_AGG: "<h2>Agregados regionales:</h2>\n<p>La agregación para las estimaciones globales\
+  \ y regionales se realiza sumando los valores de los distintos parámetros que constituyen\
+  \ los elementos de la fórmula, es decir, el valor agregado por sector y el uso del\
+  \ agua por sector. A continuación, el indicador agregado se calcula aplicando la\
+  \ fórmula con esos datos agregados, como si se tratara de un solo país.</p>\n<p>Se\
+  \ está preparando una hoja de Excel con los cálculos, que se compartirá con el IAEG\
+  \ si se requiere.</p>"
+IMPUTATION: "<h2>Tratamiento de valores faltantes:</h2>\n<ul>\n  <li><strong><em>A\
+  \ nivel de país:</em></strong></li>\n</ul>\n<p>Si se dispone de datos dispersos\
+  \ (a lo largo del tiempo), se desarrollará una metodología con respecto a la inter\
+  \ y la extrapolación.</p>\n<ul>\n  <li><strong><em>A nivel regional y mundial:</em></strong></li>\n\
+  </ul>\n<p>Si faltan datos de un país, el valor del indicador se considerará en la\
+  \ media de los demás de la misma región.</p>"
+DATA_COMP: "<h1>Metodología</h1>\n<h2>Método del cómputo:</h2>\n<p>La eficiencia en\
+  \ el uso del agua se calcula como la suma de los tres sectores enumerados anteriormente,\
+  \ ponderada de acuerdo con la proporción de agua utilizada por cada sector sobre\
+  \ el uso total. En fórmula:</p>\n<p> <em>EUA = A<sub>we</sub> x P<sub>A</sub> +\
+  \ M<sub>we</sub> x P<sub>M</sub> + S<sub>we</sub> X P<sub>s</sub></em></p>\n<p>Donde:</p>\n\
+  <p>EUA = Eficiencia en el uso del agua</p>\n<p>A<sub>ea</sub> = Eficiencia en el\
+  \ uso del agua en la agricultura de regadío [USD/m<sup>3</sup>]</p>\n<p>M<sub>ea</sub>\
+  \ = Eficiencia en el uso del agua de MIMEC [USD/m<sup>3</sup>]</p>\n<p>S<sub>ea</sub>\
+  \ = Eficiencia en el uso del agua de los servicios [USD/m<sup>3</sup>]</p>\n<p>P<sub>A</sub>\
+  \ = Proporción de agua utilizada por el sector agrícola sobre el uso total</p>\n\
+  <p>P<sub>M</sub> = Proporción de agua utilizada por el sector MIMEC sobre el uso\
+  \ total</p>\n<p>P<sub>S</sub> = Proporción de agua utilizada por el sector de servicios\
+  \ sobre el uso total</p>\n<p>La computación de cada sector se describe a continuación.</p>\n\
+  <p><em>La eficiencia del uso del agua en la agricultura de regadío</em> se calcula\
+  \ como el valor agregado agrícola por uso del agua agrícola, expresado en USD/m<sup>3</sup>.</p>\n\
+  <p>En fórmula:</p>\n<p>A<sub>ea</sub> = (GVA<sub>a</sub> x (1-C<sub>r</sub>))/V<sub>a</sub></p>\n\
+  <p>Donde:</p>\n<p>A<sub>ea</sub> = Eficiencia en el uso del agua de la agricultura\
+  \ de regadío [USD/m<sup>3</sup>]</p>\n<p>VAB<sub>a </sub>= Valor agregado bruto\
+  \ de la agricultura (excluida la pesca fluvial y marina y la silvicultura) [USD]</p>\n\
+  <p>C<sub>r</sub> = Proporción del VAB agrícola producido por la agricultura de secano</p>\n\
+  <p>V<sub>a</sub> = Volumen de agua utilizada por el sector agrícola (incluyendo\
+  \ riego, ganadería y acuicultura) [m<sup>3</sup>]</p>\n<p> El volumen de agua utilizado\
+  \ por los sectores agrícolas (V) se recoge a nivel nacional a través de registros\
+  \ nacionales y se informa en cuestionarios, en unidades de m<sup>3</sup>/año (véase\
+  \ el ejemplo en AQUASTAT <a href=\"http://www.fao.org/nr/water/aquastat/sets/aq-5yr-quest_eng.xls\"\
+  >http://www.fao.org/nr/water/aquastat/sets/aq-5yr-quest_eng.xls)</a>. El valor añadido\
+  \ agrícola en moneda nacional se obtiene de las estadísticas nacionales, se convierte\
+  \ a USD y se deflacta al año de referencia.</p>\n<p>C<sub>r</sub> puede calcularse\
+  \ a partir de la proporción de tierras de regadío sobre el total de tierras cultivables\
+  \ y cultivos permanentes (en lo sucesivo, &#x201C;tierras cultivadas&#x201D;, de\
+  \ la siguiente manera:</p>\n<p><em>C<sub>r</sub> = 1/(1+(A<sub>i</sub>/((1-A<sub>i</sub>)\
+  \ * 0.375)))</em></p>\n<p>Donde:</p>\n<p>A<sub>i</sub> = proporción de tierras de\
+  \ regadío sobre el total de tierras cultivadas, en decimales</p>\n<p>0,375 = relación\
+  \ genérica por defecto entre los rendimientos de secano y de regadío</p>\n<p>Sin\
+  \ embargo, es posible y se alientan estimaciones más detalladas a nivel nacional.\
+  \ </p>\n<p><em> Eficiencia hídrica de los sectores MIMEC (incluida la producción\
+  \ de energía): </em>Valor agregado MIMEC por unidad de agua utilizada para el sector\
+  \ MIMEC, expresado en USD/m<sup>3</sup>.</p>\n<p>En fórmula:</p>\n<p><em>M<sub>ea</sub>\
+  \ = VAB<sub>m</sub>/V<sub>m</sub></em></p>\n<p>Dónde:</p>\n<p>M<sub>ea</sub> = Eficiencia\
+  \ en el uso industrial del agua [USD/m<sup>3</sup>]</p>\n<p>VAB<sub>m</sub> = Valor\
+  \ agregado bruto por MIMEC (incluida la energía) [USD]</p>\n<p>V<sub>m</sub> = Volumen\
+  \ de agua utilizado por MIMEC (incluida la energía) [m<sup>3</sup>]</p>\n<p>El uso\
+  \ del agua de MIMEC (V<sub>m</sub>) se recopila a nivel de país a través de registros\
+  \ nacionales y se informa en cuestionarios, en unidades de m<sup>3</sup>/año (véase\
+  \ el ejemplo en AQUASTAT <a href=\"http://www.fao.org/nr/water/aquastat/sets/aq-5yr-quest_eng.xls\"\
+  >http://www.fao.org/nr/water/aquastat/sets/aq-5yr-quest_eng.xls</a>). El valor agregado\
+  \ del MIMEC se obtiene de las estadísticas nacionales, deflactado al año de referencia.</p>\n\
+  <p><em>La eficiencia del abastecimiento de agua de los servicios </em> se calcula\
+  \ como el valor agregado del sector de los servicios (CIIU 36-39 y CIIU 45-98) dividido\
+  \ por el agua utilizada para la distribución por la industria de la recolección,\
+  \ el tratamiento y el suministro de agua (CIIU 36), expresado en USD/m<sup>3</sup>.</p>\n\
+  <p>En fórmula:</p>\n<p><em> S<sub>ea</sub> = VAB<sub>s</sub>/V<sub>s</sub></em></p>\n\
+  <p>Donde:</p>\n<p>S<sub>ea</sub> = <em>Eficiencia en el uso del agua de los servicios\
+  \ [USD/m<sup>3</sup>]</em></p>\n<p>VAB<sub>s</sub> = Valor agregado bruto por servicios\
+  \ [USD]</p>\n<p>V<sub>s</sub> = Volumen de agua utilizado por el sector servicios\
+  \ [m<sup>3</sup>]</p>\n<p>Los datos sobre los volúmenes de agua usada y distribuida\
+  \ se recopilan a nivel nacional a partir de los registros de servicios públicos\
+  \ municipales y se notifican en cuestionarios, en unidades de km<sup>3</sup>/año\
+  \ o millón de m<sup>3</sup>/año (véase el ejemplo en AQUASTAT <a href=\"http://www.fao.org/nr/water/aquastat/sets/aq-5yr-quest_eng.xls\"\
+  >http://www.fao.org/nr/water/aquastat/sets/aq-5yr-quest_eng.xls)</a>. El valor agregado\
+  \ de los servicios se obtiene de las estadísticas nacionales, deflactados al año\
+  \ de referencia.</p>\n<p>El cambio en la eficiencia del uso del agua (CEUA) se calcula\
+  \ como la relación entre la eficiencia del uso del agua (EUA) en el tiempo t menos\
+  \ la eficiencia del uso del agua en el tiempo t-1, dividida por la eficiencia del\
+  \ uso del agua en el tiempo t-1 y multiplicada por 100:</p>\n<p>CEUA = ((EUA<sub>t</sub>\
+  \ &#x2013; EUA<sub>t-1</sub>)/EUA<sub>t-1</sub>)<sub></sub> * 100</p>\n<p>Hay que\
+  \ tener en cuenta que calcular el indicador de forma agregada, es decir, el PIB\
+  \ total sobre el uso total del agua, llevaría a una sobreestimación del indicador.\
+  \ Esto se debe al hecho de que, para el sector agrícola, sólo hay que contar el\
+  \ valor producido bajo riego para calcular el indicador. Por lo tanto, la suma del\
+  \ valor agregado de los distintos sectores utilizada en estas fórmulas no es equivalente\
+  \ al PIB total del país.</p>"
+REC_USE_LIM: "<h2>Comentarios y limitaciones:</h2>\n<p>El coeficiente corrector Cr\
+  \ para el sector agrícola es necesario para centrar el indicador en la producción\
+  \ de regadío. Esto se hace por dos razones principales:</p>\n<ul>\n  <li>Para garantizar\
+  \ que sólo se consideran las aguas de escorrentía y las aguas subterráneas (las\
+  \ llamadas aguas azules) en el cálculo del indicador;</li>\n  <li>Para eliminar\
+  \ un posible sesgo de los indicadores, que de otro modo tenderían a disminuir si\
+  \ las tierras de cultivo de secano se convierten en regadío.</li>\n</ul>"
+RATIONALE: "<h2>Justificación:</h2>\n<p>El fundamento de este indicador consiste en\
+  \ proporcionar información sobre la eficiencia del uso económico y social de los\
+  \ recursos hídricos, es decir, el valor agregado generado por el uso del agua en\
+  \ los principales sectores de la economía y las pérdidas de la red de distribución.</p>\n\
+  <p>La eficiencia de la distribución de los sistemas de agua está implícita en los\
+  \ cálculos y podría hacerse explícita si es necesario y si se dispone de datos.</p>\n\
+  <p>Este indicador aborda específicamente el componente objetivo &#x201C;de aumentar\
+  \ sustancialmente la eficiencia del uso del agua en todos los sectores&#x201D;,\
+  \ midiendo la producción por unidad de agua de los usos productivos del agua, así\
+  \ como las pérdidas en el uso municipal del agua. No pretende ofrecer una imagen\
+  \ exhaustiva de la utilización del agua en un país. Otros indicadores, concretamente\
+  \ los correspondientes a los Objetivos 1.1, 1.2, 2.1, 2.2, 5.4, 5.a, 6.1, 6.2, 6.3,\
+  \ 6.5 complementarán la información proporcionada por este indicador. En particular,\
+  \ el indicador debe combinarse con el indicador de estrés hídrico 6.4.2 para proporcionar\
+  \ un seguimiento adecuado de la meta 6.4.</p>\n<p>En conjunto, las tres eficiencias\
+  \ sectoriales proporcionan una medida de la eficiencia global del agua en un país.\
+  \ El indicador proporciona incentivos para mejorar la eficiencia en el uso del agua\
+  \ a través de todos los sectores, destacando aquellos sectores en los que la eficiencia\
+  \ en el uso del agua se está quedando atrás.</p>\n<p>La interpretación del indicador\
+  \ se vería reforzada por la utilización de indicadores complementarios que se utilizarían\
+  \ a nivel de país. En este sentido, serían especialmente importantes el indicador\
+  \ sobre la eficiencia del agua para la energía y el indicador sobre la eficiencia\
+  \ de las redes de distribución de los municipios.</p>"
+COMPILING_ORG: "<h1>Compiladores de datos</h1>\n<p>FAO (a través de AQUASTAT), en\
+  \ nombre de ONU-Agua. El seguimiento de este indicador se integrará en la iniciativa\
+  \ GEMI, que junto con JMP y GLAAS, bajo el paraguas de ONU-Agua, proporcionará un\
+  \ marco coherente para el seguimiento mundial del ODS 6.</p>"
+DATA_SOURCE: "<h1>Proveedores de datos</h1>\n<p>La recolección de datos se realiza\
+  \ con diferentes modalidades en los distintos países. Las instituciones técnicas\
+  \ y económicas proporcionan sus datos pertinentes, a veces a través de la Oficina\
+  \ Nacional de Estadística (ONE), en particular para los datos económicos.</p>\n\
+  <p>Aunque la recopilación de datos y su modalidad sigue siendo, en última instancia,\
+  \ responsabilidad de cada país, la FAO está trabajando para promover una participación\
+  \ más regular de las ONE, con el fin de garantizar una mayor coherencia y solidez\
+  \ de los datos proporcionados.</p>\n<p>La lista de los Puntos Focales Nacionales\
+  \ de los países que participan en el proyecto GEMI se encuentra en el anexo. </p>"
+REL_CAL_POLICY: "<h2>Publicación de datos:</h2>\n<p>Noviembre de 2018</p>"
+FREQ_COLL: "<h1>Calendario</h1>\n<h2>Recolección de datos:</h2>\n<p>La recopilación\
+  \ de fuentes está en curso en el contexto de la Iniciativa de Seguimiento Integrado\
+  \ (GEMI)</p>"
+SOURCE_TYPE: "<h1>Fuentes de datos</h1>\n<p>Los datos necesarios para la compilación\
+  \ del indicador son datos administrativos recopilados a nivel nacional por las instituciones\
+  \ pertinentes, ya sean técnicos (para el agua y el riego) o económicos (para el\
+  \ valor agregado).</p>\n<p>Esos datos son luego compilados por la FAO, el Banco\
+  \ Mundial, la UNSD y otras instituciones internacionales, armonizados y publicados\
+  \ en bases de datos sectoriales como AQUASTAT de la FAO, el Banco de Datos del BM\
+  \ y los datos de la ONU de la UNSD</p>\n<p>Ejemplos de los cuestionarios que se\
+  \ pueden utilizar incluyen:</p>\n<p>AQUASTAT:</p>\n<p><a href=\"http://www.fao.org/nr/water/aquastat/sets/index.stm#main\"\
+  >http://www.fao.org/nr/water/aquastat/sets/index.stm#main</a> </p>\n<p><a href=\"\
+  http://www.fao.org/nr/water/aquastat/sets/aq-5yr-guide_eng.pdf\">http://www.fao.org/nr/water/aquastat/sets/aq-5yr-guide_eng.pdf</a>\
+  \ </p>\n<p>SBA-Agua: <a href=\"https://seea.un.org/sites/seea.un.org/files/seeawaterwebversion_final_en.pdf\"\
+  >https://seea.un.org/sites/seea.un.org/files/seeawaterwebversion_final_en.pdf</a>\
+  \ </p>\n<p>Marco central del SSEA: <a href=\"https://seea.un.org/sites/seea.un.org/files/seea_cf_final_en.pdf\"\
+  >https://seea.un.org/sites/seea.un.org/files/seea_cf_final_en.pdf</a> </p>\n<p>Nota\
+  \ técnica del SSEA sobre el agua (proyecto):</p>\n<p> <a href=\"https://seea.un.org/sites/seea.un.org/files/technical_note_water_26_05_2016.pdf\"\
+  >https://seea.un.org/sites/seea.un.org/files/technical_note_water_26_05_2016.pdf</a>\
+  \ </p>\n<p>IRWS:</p>\n<p><a href=\"https://seea.un.org/sites/seea.un.org/files/irws_en.pdf\"\
+  >https://seea.un.org/sites/seea.un.org/files/irws_en.pdf</a> </p>\n<p>UNSD/UNEP\
+  \ Questionnaire on Environment Statistics &#x2013; Water Section:</p>\n<p><a href=\"\
+  http://unstats.un.org/unsd/environment/questionnaire.htm\">http://unstats.un.org/unsd/environment/questionnaire.htm</a>\
+  \ </p>\n<p><a href=\"http://unstats.un.org/unsd/environment/qindicators.htm\">http://unstats.un.org/unsd/environment/qindicators.htm</a>\
+  \ </p>\n<p>OECD and Eurostat Joint Questionnaire on Inland Waters:</p>\n<p><a href=\"\
+  http://ec.europa.eu/eurostat/web/environment/water\">http://ec.europa.eu/eurostat/web/environment/water</a>\
+  \ </p>\n<p>Fuente del PIB:</p>\n<p>UNSD: <a href=\"http://unstats.un.org/unsd/snaama/selbasicFast.asp\"\
+  >http://unstats.un.org/unsd/snaama/selbasicFast.asp</a></p>"
+STAT_CONC_DEF: "<h1>Conceptos y definiciones</h1>\n<h2>Definición:</h2>\n<p>El cambio\
+  \ en la eficiencia del uso del agua a lo largo del tiempo (CEUA). El cambio en la\
+  \ relación entre el valor agregado y el volumen de uso del agua, a lo largo del\
+  \ tiempo.</p>\n<p>La eficiencia en el uso del agua (EUA) se define como el valor\
+  \ agregado de un determinado sector principal<sup><a href=\"#footnote-1\" id=\"\
+  footnote-ref-1\">[1]</a></sup> dividido por el volumen de agua utilizado. Siguiendo\
+  \ la codificación de la CIIU 4, los sectores se definen como:</p>\n<ol>\n  <li>agricultura;\
+  \ silvicultura; pesca (CIIU A), en adelante &#x201C;agricultura&#x201D;;</li>\n\
+  \  <li> explotación de minas y canteras; industria manufacturera; suministro de\
+  \ electricidad, gas, vapor y aire acondicionado; construcciones (CIIU B, C, D y\
+  \ F), en adelante &#x201C;MIMEC&#x201D;;</li>\n  <li>todos los sectores de servicios\
+  \ (CIIU E y CIIU G-T), en adelante &#x201C;servicios&#x201D;.</li>\n</ol>\n<p>La\
+  \ unidad del indicador se expresa en Valor/Volumen, comúnmente USD/m<sup>3</sup>.</p>\n\
+  <h2>Conceptos:</h2>\n<ul>\n  <li>Uso del agua: agua que recibe una industria o los\
+  \ hogares de otra industria o que se extrae directamente. [SEEA-Agua (ST/ESA/STAT/SER.F/100),\
+  \ par. 2.21]</li>\n  <li>Extracción de agua: agua extraída del medio ambiente por\
+  \ la economía. [SEEA-Agua (ST/ESA/STAT/SER.F/100), par. 2.9]</li>\n  <li>Uso de\
+  \ agua para riego (km&#xB3;/año): Cantidad anual de agua utilizada para el riego.\
+  \ Incluye el agua procedente de recursos renovables de agua dulce, así como el agua\
+  \ procedente de la sobreextracción de aguas subterráneas renovables o de la extracción\
+  \ de aguas subterráneas fósiles, el uso directo de aguas de drenaje agrícola, las\
+  \ aguas residuales (tratadas) y el agua desalada. [Glosario AQUASTAT]</li>\n  <li>Uso\
+  \ de agua para el ganado (abrevadero y limpieza) (km&#xB3;/año): Cantidad anual\
+  \ de agua utilizada para fines ganaderos. Incluye el agua procedente de recursos\
+  \ renovables de agua dulce, así como el agua procedente de la sobreextracción de\
+  \ aguas subterráneas renovables o de la extracción de aguas subterráneas fósiles,\
+  \ el uso directo de aguas de drenaje agrícola, las aguas residuales (tratadas) y\
+  \ el agua desalinizada. Incluye el agua para el ganado, el saneamiento, la limpieza\
+  \ de los establos, etc. Si está conectada a la red pública de suministro de agua,\
+  \ el agua utilizada para el ganado se incluye en el uso del agua de los servicios.\
+  \ [Glosario AQUASTAT]</li>\n  <li>Uso de agua para la acuicultura (km&#xB3;/año):\
+  \ Cantidad anual de agua utilizada para la acuicultura. Incluye el agua procedente\
+  \ de recursos renovables de agua dulce, así como el agua procedente de la sobreextracción\
+  \ de aguas subterráneas renovables o de la extracción de aguas subterráneas fósiles,\
+  \ el uso directo de aguas de drenaje agrícola, las aguas residuales (tratadas) y\
+  \ el agua desalinizada. La acuicultura es la cría de organismos acuáticos en zonas\
+  \ interiores y costeras, que implica la intervención en el proceso de cría para\
+  \ mejorar la producción y la propiedad individual o corporativa del stock que se\
+  \ cultiva. [Glosario AQUASTAT]</li>\n  <li>Uso del agua para los sectores MIMEC\
+  \ (km&#xB3;/año): Cantidad anual de agua utilizada para el sector MIMEC. Incluye\
+  \ el agua procedente de recursos renovables de agua dulce, así como la sobreextracción\
+  \ de aguas subterráneas renovables o la extracción de aguas subterráneas fósiles\
+  \ y el uso de agua desalinizada o el uso directo de aguas residuales (tratadas).\
+  \ Este sector se refiere a las industrias que se autoabastecen y que no están conectadas\
+  \ a la red pública de distribución. Glosario de AQUASTAT. Hay que tener en cuenta\
+  \ que en AQUASTAT, los sectores incluidos en el grupo MIMEC se denominan &#x201C;industria&#x201D;]<sup><a\
+  \ href=\"#footnote-2\" id=\"footnote-ref-2\">[2]</a></sup></li>\n  <li>Uso del agua\
+  \ para los sectores de servicios (km&#xB3;/año): Cantidad anual de agua utilizada\
+  \ principalmente para el uso directo de la población. Incluye el agua procedente\
+  \ de recursos renovables de agua dulce, así como la sobreextracción de aguas subterráneas\
+  \ renovables o la extracción de aguas subterráneas fósiles y el uso de agua desalinizada\
+  \ o el uso directo de aguas residuales tratadas. Suele calcularse como el total\
+  \ de agua utilizada por la red de distribución pública. Puede incluir la parte de\
+  \ las industrias que está conectada a la red municipal. Glosario de AQUASTAT. Hay\
+  \ que tener en cuenta que en AQUASTAT, los sectores incluidos en &#x201C;servicios&#x201D;\
+  \ se denominan &#x201C;municipales&#x201D;]</li>\n  <li>Valor agregado (bruto):\
+  \ El valor agregado es la producción neta de un sector tras sumar todas las producciones\
+  \ y restar los insumos intermedios. Se calcula sin hacer deducciones por la depreciación\
+  \ de los activos fabricados o el agotamiento y la degradación de los recursos naturales.\
+  \ El origen industrial del valor agregado está determinado por la Clasificación\
+  \ Industrial Internacional Uniforme (CIIU), revisión 4. [Banco de datos del BM,\
+  \ glosario de metadatos, modificado]</li>\n  <li>Tierras arables: Las tierras arables\
+  \ son las tierras dedicadas a cultivos agrícolas temporales (las superficies de\
+  \ cultivos múltiples se cuentan una sola vez), las praderas temporales para siega\
+  \ o pastoreo, las tierras dedicadas a huertas y jardines y las tierras en barbecho\
+  \ temporal (menos de cinco años). Las tierras abandonadas resultantes del cultivo\
+  \ itinerante no se incluyen en esta categoría. Los datos de &#x201C;Tierras cultivables&#x201D;\
+  \ no pretenden indicar la cantidad de tierra potencialmente cultivable. [FAOSTAT]</li>\n\
+  \  <li>Cultivos permanentes: Los cultivos permanentes son las tierras cultivadas\
+  \ con cultivos de larga duración que no tienen que volver a plantarse durante varios\
+  \ años (como el cacao y el café); las tierras con árboles y arbustos que producen\
+  \ flores, como las rosas y el jazmín; y los viveros (excepto los de árboles forestales,\
+  \ que deben clasificarse en &quot;bosque&quot;). Los prados y pastos permanentes\
+  \ se excluyen de las tierras dedicadas a cultivos permanentes. [FAOSTAT]</li>\n\
+  \  <li>Proporción de tierras de regadío sobre el total de tierras cultivadas: Parte\
+  \ de la tierra cultivada que está equipada para el riego, expresada en porcentaje</li>\n\
+  </ul><div class=\"footnotes\"><div><sup class=\"footnote-number\" id=\"footnote-1\"\
+  >1</sup><p> Para mantener la coherencia con la terminología utilizada en SEEA-Agua,\
+  \ en este texto se utilizan los términos uso de agua y extracción de agua. En particular,\
+  \ &#x201C;extracción de agua&#x201D; debe considerarse sinónimo de &#x201C;extracción\
+  \ de agua, tal y como se expresa tanto en AQUASTAT como en la declaración de la\
+  \ meta 6.4 de los ODS. 5947]&#x2191;</a></p></div><div><sup class=\"footnote-number\"\
+  \ id=\"footnote-2\">2</sup><p> En AQUASTAT, así como en el banco de datos del Banco\
+  \ Mundial y en otros conjuntos de datos nacionales e internacionales, el sector\
+  \ MIMEC se denomina &#x201C;Industria&#x201D;. Asimismo, SEEA-Agua utiliza el término\
+  \ &#x201C;uso industrial&#x201D; del agua. <a href=\"#footnote-ref-2\">&#x2191;</a></p></div></div>"
