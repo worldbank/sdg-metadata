@@ -241,9 +241,9 @@
   <li>Para garantizar que sólo se consideran las aguas de escorrentía y las aguas subterráneas (las llamadas aguas azules) en el cálculo del indicador;</li>
   <li>Para eliminar un posible sesgo de los indicadores, que de otro modo tenderían a disminuir si las tierras de cultivo de secano se convierten en regadío.</li>
 </ul></div><a name="DATA_COMP"></a><div id="DATA_COMP"><h1>Metodología</h1>
-<h2>Método del cómputo:</h2>
+<h2>Método del cálculo:</h2>
 <p>La eficiencia en el uso del agua se calcula como la suma de los tres sectores enumerados anteriormente, ponderada de acuerdo con la proporción de agua utilizada por cada sector sobre el uso total. En fórmula:</p>
-<p> <em>EUA = A<sub>we</sub> x P<sub>A</sub> + M<sub>we</sub> x P<sub>M</sub> + S<sub>we</sub> X P<sub>s</sub></em></p>
+<p> <em>EUA = A<sub>ea</sub> x P<sub>A</sub> + M<sub>ea</sub> x P<sub>M</sub> + S<sub>ea</sub> X P<sub>s</sub></em></p>
 <p>Donde:</p>
 <p>EUA = Eficiencia en el uso del agua</p>
 <p>A<sub>ea</sub> = Eficiencia en el uso del agua en la agricultura de regadío [USD/m<sup>3</sup>]</p>
@@ -252,16 +252,16 @@
 <p>P<sub>A</sub> = Proporción de agua utilizada por el sector agrícola sobre el uso total</p>
 <p>P<sub>M</sub> = Proporción de agua utilizada por el sector MIMEC sobre el uso total</p>
 <p>P<sub>S</sub> = Proporción de agua utilizada por el sector de servicios sobre el uso total</p>
-<p>La computación de cada sector se describe a continuación.</p>
+<p>El cálculo de cada sector se describe a continuación.</p>
 <p><em>La eficiencia del uso del agua en la agricultura de regadío</em> se calcula como el valor agregado agrícola por uso del agua agrícola, expresado en USD/m<sup>3</sup>.</p>
 <p>En fórmula:</p>
-<p>A<sub>ea</sub> = (GVA<sub>a</sub> x (1-C<sub>r</sub>))/V<sub>a</sub></p>
+<p>A<sub>ea</sub> = (VAB<sub>a</sub> x (1-C<sub>r</sub>))/V<sub>a</sub></p>
 <p>Donde:</p>
 <p>A<sub>ea</sub> = Eficiencia en el uso del agua de la agricultura de regadío [USD/m<sup>3</sup>]</p>
 <p>VAB<sub>a </sub>= Valor agregado bruto de la agricultura (excluida la pesca fluvial y marina y la silvicultura) [USD]</p>
 <p>C<sub>r</sub> = Proporción del VAB agrícola producido por la agricultura de secano</p>
 <p>V<sub>a</sub> = Volumen de agua utilizada por el sector agrícola (incluyendo riego, ganadería y acuicultura) [m<sup>3</sup>]</p>
-<p> El volumen de agua utilizado por los sectores agrícolas (V) se recoge a nivel nacional a través de registros nacionales y se informa en cuestionarios, en unidades de m<sup>3</sup>/año (véase el ejemplo en AQUASTAT <a href="http://www.fao.org/nr/water/aquastat/sets/aq-5yr-quest_eng.xls">http://www.fao.org/nr/water/aquastat/sets/aq-5yr-quest_eng.xls)</a>. El valor añadido agrícola en moneda nacional se obtiene de las estadísticas nacionales, se convierte a USD y se deflacta al año de referencia.</p>
+<p> El volumen de agua utilizado por los sectores agrícolas (V) se recoge a nivel nacional a través de registros nacionales y se informa en cuestionarios, en unidades de m<sup>3</sup>/año (véase el ejemplo en AQUASTAT <a href="http://www.fao.org/nr/water/aquastat/sets/aq-5yr-quest_eng.xls">http://www.fao.org/nr/water/aquastat/sets/aq-5yr-quest_eng.xls)</a>. El valor agregado agrícola en moneda nacional se obtiene de las estadísticas nacionales, se convierte a USD y se deflacta al año de referencia.</p>
 <p>C<sub>r</sub> puede calcularse a partir de la proporción de tierras de regadío sobre el total de tierras cultivables y cultivos permanentes (en lo sucesivo, &#x201C;tierras cultivadas&#x201D;, de la siguiente manera:</p>
 <p><em>C<sub>r</sub> = 1/(1+(A<sub>i</sub>/((1-A<sub>i</sub>) * 0.375)))</em></p>
 <p>Donde:</p>
@@ -309,7 +309,7 @@
   <li>NA</li>
 </ul></div><a name="SOURCE_TYPE"></a><div id="SOURCE_TYPE"><h1>Fuentes de datos</h1>
 <p>Los datos necesarios para la compilación del indicador son datos administrativos recopilados a nivel nacional por las instituciones pertinentes, ya sean técnicos (para el agua y el riego) o económicos (para el valor agregado).</p>
-<p>Esos datos son luego compilados por la FAO, el Banco Mundial, la UNSD y otras instituciones internacionales, armonizados y publicados en bases de datos sectoriales como AQUASTAT de la FAO, el Banco de Datos del BM y los datos de la ONU de la UNSD</p>
+<p>Esos datos son luego compilados por la FAO, el Banco Mundial, la UNSD y otras instituciones internacionales, armonizados y publicados en bases de datos sectoriales como AQUASTAT de la FAO, el Banco de Datos del BM y los datos de la ONU de la UNSD.</p>
 <p>Ejemplos de los cuestionarios que se pueden utilizar incluyen:</p>
 <p>AQUASTAT:</p>
 <p><a href="http://www.fao.org/nr/water/aquastat/sets/index.stm#main">http://www.fao.org/nr/water/aquastat/sets/index.stm#main</a> </p>
@@ -320,10 +320,10 @@
 <p> <a href="https://seea.un.org/sites/seea.un.org/files/technical_note_water_26_05_2016.pdf">https://seea.un.org/sites/seea.un.org/files/technical_note_water_26_05_2016.pdf</a> </p>
 <p>IRWS:</p>
 <p><a href="https://seea.un.org/sites/seea.un.org/files/irws_en.pdf">https://seea.un.org/sites/seea.un.org/files/irws_en.pdf</a> </p>
-<p>UNSD/UNEP Questionnaire on Environment Statistics &#x2013; Water Section:</p>
+<p>UNSD/UNEP Cuestionario sobre estadísticas ambientales &#x2013; Sección agua:</p>
 <p><a href="http://unstats.un.org/unsd/environment/questionnaire.htm">http://unstats.un.org/unsd/environment/questionnaire.htm</a> </p>
 <p><a href="http://unstats.un.org/unsd/environment/qindicators.htm">http://unstats.un.org/unsd/environment/qindicators.htm</a> </p>
-<p>OECD and Eurostat Joint Questionnaire on Inland Waters:</p>
+<p>OECD and Eurostat Cuestionario conjunto sobre aguas continentales:</p>
 <p><a href="http://ec.europa.eu/eurostat/web/environment/water">http://ec.europa.eu/eurostat/web/environment/water</a> </p>
 <p>Fuente del PIB:</p>
 <p>UNSD: <a href="http://unstats.un.org/unsd/snaama/selbasicFast.asp">http://unstats.un.org/unsd/snaama/selbasicFast.asp</a></p></div><a name="COVERAGE"></a><div id="COVERAGE"><h1> Disponibilidad de datos</h1>
@@ -577,7 +577,7 @@
       <li> Actividades de abastecimiento de agua, alcantarillado, gestión de desechos y rehabilitación (CIIU E), por </li> 
       <li> Captación, tratamiento y suministro de agua (CIIU 36) <ol> 
           <li>Alcantarillado (CIIU 37)</li>
-          <li><Construcción (CIIU F)</li>
+          <li>Construcción (CIIU F)</li>
         </ol>
       </li>
       <li>Otras industrias (suma de las demás industrias)</li>

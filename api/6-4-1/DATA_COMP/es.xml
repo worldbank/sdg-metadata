@@ -3,9 +3,9 @@
 	<status>success</status>
 	<message>The DATA_COMP field for indicator 6-4-1, translated into es</message>
 	<data>&lt;h1&gt;Metodología&lt;/h1&gt;
-&lt;h2&gt;Método del cómputo:&lt;/h2&gt;
+&lt;h2&gt;Método del cálculo:&lt;/h2&gt;
 &lt;p&gt;La eficiencia en el uso del agua se calcula como la suma de los tres sectores enumerados anteriormente, ponderada de acuerdo con la proporción de agua utilizada por cada sector sobre el uso total. En fórmula:&lt;/p&gt;
-&lt;p&gt; &lt;em&gt;EUA = A&lt;sub&gt;we&lt;/sub&gt; x P&lt;sub&gt;A&lt;/sub&gt; + M&lt;sub&gt;we&lt;/sub&gt; x P&lt;sub&gt;M&lt;/sub&gt; + S&lt;sub&gt;we&lt;/sub&gt; X P&lt;sub&gt;s&lt;/sub&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt; &lt;em&gt;EUA = A&lt;sub&gt;ea&lt;/sub&gt; x P&lt;sub&gt;A&lt;/sub&gt; + M&lt;sub&gt;ea&lt;/sub&gt; x P&lt;sub&gt;M&lt;/sub&gt; + S&lt;sub&gt;ea&lt;/sub&gt; X P&lt;sub&gt;s&lt;/sub&gt;&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;Donde:&lt;/p&gt;
 &lt;p&gt;EUA = Eficiencia en el uso del agua&lt;/p&gt;
 &lt;p&gt;A&lt;sub&gt;ea&lt;/sub&gt; = Eficiencia en el uso del agua en la agricultura de regadío [USD/m&lt;sup&gt;3&lt;/sup&gt;]&lt;/p&gt;
@@ -14,16 +14,16 @@
 &lt;p&gt;P&lt;sub&gt;A&lt;/sub&gt; = Proporción de agua utilizada por el sector agrícola sobre el uso total&lt;/p&gt;
 &lt;p&gt;P&lt;sub&gt;M&lt;/sub&gt; = Proporción de agua utilizada por el sector MIMEC sobre el uso total&lt;/p&gt;
 &lt;p&gt;P&lt;sub&gt;S&lt;/sub&gt; = Proporción de agua utilizada por el sector de servicios sobre el uso total&lt;/p&gt;
-&lt;p&gt;La computación de cada sector se describe a continuación.&lt;/p&gt;
+&lt;p&gt;El cálculo de cada sector se describe a continuación.&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;La eficiencia del uso del agua en la agricultura de regadío&lt;/em&gt; se calcula como el valor agregado agrícola por uso del agua agrícola, expresado en USD/m&lt;sup&gt;3&lt;/sup&gt;.&lt;/p&gt;
 &lt;p&gt;En fórmula:&lt;/p&gt;
-&lt;p&gt;A&lt;sub&gt;ea&lt;/sub&gt; = (GVA&lt;sub&gt;a&lt;/sub&gt; x (1-C&lt;sub&gt;r&lt;/sub&gt;))/V&lt;sub&gt;a&lt;/sub&gt;&lt;/p&gt;
+&lt;p&gt;A&lt;sub&gt;ea&lt;/sub&gt; = (VAB&lt;sub&gt;a&lt;/sub&gt; x (1-C&lt;sub&gt;r&lt;/sub&gt;))/V&lt;sub&gt;a&lt;/sub&gt;&lt;/p&gt;
 &lt;p&gt;Donde:&lt;/p&gt;
 &lt;p&gt;A&lt;sub&gt;ea&lt;/sub&gt; = Eficiencia en el uso del agua de la agricultura de regadío [USD/m&lt;sup&gt;3&lt;/sup&gt;]&lt;/p&gt;
 &lt;p&gt;VAB&lt;sub&gt;a &lt;/sub&gt;= Valor agregado bruto de la agricultura (excluida la pesca fluvial y marina y la silvicultura) [USD]&lt;/p&gt;
 &lt;p&gt;C&lt;sub&gt;r&lt;/sub&gt; = Proporción del VAB agrícola producido por la agricultura de secano&lt;/p&gt;
 &lt;p&gt;V&lt;sub&gt;a&lt;/sub&gt; = Volumen de agua utilizada por el sector agrícola (incluyendo riego, ganadería y acuicultura) [m&lt;sup&gt;3&lt;/sup&gt;]&lt;/p&gt;
-&lt;p&gt; El volumen de agua utilizado por los sectores agrícolas (V) se recoge a nivel nacional a través de registros nacionales y se informa en cuestionarios, en unidades de m&lt;sup&gt;3&lt;/sup&gt;/año (véase el ejemplo en AQUASTAT &lt;a href=&quot;http://www.fao.org/nr/water/aquastat/sets/aq-5yr-quest_eng.xls&quot;&gt;http://www.fao.org/nr/water/aquastat/sets/aq-5yr-quest_eng.xls)&lt;/a&gt;. El valor añadido agrícola en moneda nacional se obtiene de las estadísticas nacionales, se convierte a USD y se deflacta al año de referencia.&lt;/p&gt;
+&lt;p&gt; El volumen de agua utilizado por los sectores agrícolas (V) se recoge a nivel nacional a través de registros nacionales y se informa en cuestionarios, en unidades de m&lt;sup&gt;3&lt;/sup&gt;/año (véase el ejemplo en AQUASTAT &lt;a href=&quot;http://www.fao.org/nr/water/aquastat/sets/aq-5yr-quest_eng.xls&quot;&gt;http://www.fao.org/nr/water/aquastat/sets/aq-5yr-quest_eng.xls)&lt;/a&gt;. El valor agregado agrícola en moneda nacional se obtiene de las estadísticas nacionales, se convierte a USD y se deflacta al año de referencia.&lt;/p&gt;
 &lt;p&gt;C&lt;sub&gt;r&lt;/sub&gt; puede calcularse a partir de la proporción de tierras de regadío sobre el total de tierras cultivables y cultivos permanentes (en lo sucesivo, &amp;#x201C;tierras cultivadas&amp;#x201D;, de la siguiente manera:&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;C&lt;sub&gt;r&lt;/sub&gt; = 1/(1+(A&lt;sub&gt;i&lt;/sub&gt;/((1-A&lt;sub&gt;i&lt;/sub&gt;) * 0.375)))&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;Donde:&lt;/p&gt;
