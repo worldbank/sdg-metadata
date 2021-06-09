@@ -136,7 +136,7 @@ COVERAGE: "<h1> Disponibilidad de datos</h1>\n<p> Actualmente, los datos necesar
   \ gas, vapor y aire acondicionado (CIIU D); </li>\n      <li> Actividades de abastecimiento\
   \ de agua, alcantarillado, gestión de desechos y rehabilitación (CIIU E), por </li>\
   \ \n      <li> Captación, tratamiento y suministro de agua (CIIU 36) <ol> \n   \
-  \       <li>Alcantarillado (CIIU 37)</li>\n          <li><Construcción (CIIU F)</li>\n\
+  \       <li>Alcantarillado (CIIU 37)</li>\n          <li>Construcción (CIIU F)</li>\n\
   \        </ol>\n      </li>\n      <li>Otras industrias (suma de las demás industrias)</li>\n\
   \    </ol>\n  </li>\n  <li>Geográficamente, calculando el indicador por cuenca hidrográfica,\
   \ cuenca hidrográfica o unidades administrativas dentro de un país.</li>\n</ol>\n\
@@ -159,11 +159,11 @@ IMPUTATION: "<h2>Tratamiento de valores faltantes:</h2>\n<ul>\n  <li><strong><em
   \ y la extrapolación.</p>\n<ul>\n  <li><strong><em>A nivel regional y mundial:</em></strong></li>\n\
   </ul>\n<p>Si faltan datos de un país, el valor del indicador se considerará en la\
   \ media de los demás de la misma región.</p>"
-DATA_COMP: "<h1>Metodología</h1>\n<h2>Método del cómputo:</h2>\n<p>La eficiencia en\
+DATA_COMP: "<h1>Metodología</h1>\n<h2>Método del cálculo:</h2>\n<p>La eficiencia en\
   \ el uso del agua se calcula como la suma de los tres sectores enumerados anteriormente,\
   \ ponderada de acuerdo con la proporción de agua utilizada por cada sector sobre\
-  \ el uso total. En fórmula:</p>\n<p> <em>EUA = A<sub>we</sub> x P<sub>A</sub> +\
-  \ M<sub>we</sub> x P<sub>M</sub> + S<sub>we</sub> X P<sub>s</sub></em></p>\n<p>Donde:</p>\n\
+  \ el uso total. En fórmula:</p>\n<p> <em>EUA = A<sub>ea</sub> x P<sub>A</sub> +\
+  \ M<sub>ea</sub> x P<sub>M</sub> + S<sub>ea</sub> X P<sub>s</sub></em></p>\n<p>Donde:</p>\n\
   <p>EUA = Eficiencia en el uso del agua</p>\n<p>A<sub>ea</sub> = Eficiencia en el\
   \ uso del agua en la agricultura de regadío [USD/m<sup>3</sup>]</p>\n<p>M<sub>ea</sub>\
   \ = Eficiencia en el uso del agua de MIMEC [USD/m<sup>3</sup>]</p>\n<p>S<sub>ea</sub>\
@@ -171,10 +171,10 @@ DATA_COMP: "<h1>Metodología</h1>\n<h2>Método del cómputo:</h2>\n<p>La eficien
   \ = Proporción de agua utilizada por el sector agrícola sobre el uso total</p>\n\
   <p>P<sub>M</sub> = Proporción de agua utilizada por el sector MIMEC sobre el uso\
   \ total</p>\n<p>P<sub>S</sub> = Proporción de agua utilizada por el sector de servicios\
-  \ sobre el uso total</p>\n<p>La computación de cada sector se describe a continuación.</p>\n\
+  \ sobre el uso total</p>\n<p>El cálculo de cada sector se describe a continuación.</p>\n\
   <p><em>La eficiencia del uso del agua en la agricultura de regadío</em> se calcula\
   \ como el valor agregado agrícola por uso del agua agrícola, expresado en USD/m<sup>3</sup>.</p>\n\
-  <p>En fórmula:</p>\n<p>A<sub>ea</sub> = (GVA<sub>a</sub> x (1-C<sub>r</sub>))/V<sub>a</sub></p>\n\
+  <p>En fórmula:</p>\n<p>A<sub>ea</sub> = (VAB<sub>a</sub> x (1-C<sub>r</sub>))/V<sub>a</sub></p>\n\
   <p>Donde:</p>\n<p>A<sub>ea</sub> = Eficiencia en el uso del agua de la agricultura\
   \ de regadío [USD/m<sup>3</sup>]</p>\n<p>VAB<sub>a </sub>= Valor agregado bruto\
   \ de la agricultura (excluida la pesca fluvial y marina y la silvicultura) [USD]</p>\n\
@@ -184,7 +184,7 @@ DATA_COMP: "<h1>Metodología</h1>\n<h2>Método del cómputo:</h2>\n<p>La eficien
   \ por los sectores agrícolas (V) se recoge a nivel nacional a través de registros\
   \ nacionales y se informa en cuestionarios, en unidades de m<sup>3</sup>/año (véase\
   \ el ejemplo en AQUASTAT <a href=\"http://www.fao.org/nr/water/aquastat/sets/aq-5yr-quest_eng.xls\"\
-  >http://www.fao.org/nr/water/aquastat/sets/aq-5yr-quest_eng.xls)</a>. El valor añadido\
+  >http://www.fao.org/nr/water/aquastat/sets/aq-5yr-quest_eng.xls)</a>. El valor agregado\
   \ agrícola en moneda nacional se obtiene de las estadísticas nacionales, se convierte\
   \ a USD y se deflacta al año de referencia.</p>\n<p>C<sub>r</sub> puede calcularse\
   \ a partir de la proporción de tierras de regadío sobre el total de tierras cultivables\
@@ -284,7 +284,7 @@ SOURCE_TYPE: "<h1>Fuentes de datos</h1>\n<p>Los datos necesarios para la compila
   \ valor agregado).</p>\n<p>Esos datos son luego compilados por la FAO, el Banco\
   \ Mundial, la UNSD y otras instituciones internacionales, armonizados y publicados\
   \ en bases de datos sectoriales como AQUASTAT de la FAO, el Banco de Datos del BM\
-  \ y los datos de la ONU de la UNSD</p>\n<p>Ejemplos de los cuestionarios que se\
+  \ y los datos de la ONU de la UNSD.</p>\n<p>Ejemplos de los cuestionarios que se\
   \ pueden utilizar incluyen:</p>\n<p>AQUASTAT:</p>\n<p><a href=\"http://www.fao.org/nr/water/aquastat/sets/index.stm#main\"\
   >http://www.fao.org/nr/water/aquastat/sets/index.stm#main</a> </p>\n<p><a href=\"\
   http://www.fao.org/nr/water/aquastat/sets/aq-5yr-guide_eng.pdf\">http://www.fao.org/nr/water/aquastat/sets/aq-5yr-guide_eng.pdf</a>\
@@ -296,11 +296,11 @@ SOURCE_TYPE: "<h1>Fuentes de datos</h1>\n<p>Los datos necesarios para la compila
   >https://seea.un.org/sites/seea.un.org/files/technical_note_water_26_05_2016.pdf</a>\
   \ </p>\n<p>IRWS:</p>\n<p><a href=\"https://seea.un.org/sites/seea.un.org/files/irws_en.pdf\"\
   >https://seea.un.org/sites/seea.un.org/files/irws_en.pdf</a> </p>\n<p>UNSD/UNEP\
-  \ Questionnaire on Environment Statistics &#x2013; Water Section:</p>\n<p><a href=\"\
-  http://unstats.un.org/unsd/environment/questionnaire.htm\">http://unstats.un.org/unsd/environment/questionnaire.htm</a>\
+  \ Cuestionario sobre estadísticas ambientales &#x2013; Sección agua:</p>\n<p><a\
+  \ href=\"http://unstats.un.org/unsd/environment/questionnaire.htm\">http://unstats.un.org/unsd/environment/questionnaire.htm</a>\
   \ </p>\n<p><a href=\"http://unstats.un.org/unsd/environment/qindicators.htm\">http://unstats.un.org/unsd/environment/qindicators.htm</a>\
-  \ </p>\n<p>OECD and Eurostat Joint Questionnaire on Inland Waters:</p>\n<p><a href=\"\
-  http://ec.europa.eu/eurostat/web/environment/water\">http://ec.europa.eu/eurostat/web/environment/water</a>\
+  \ </p>\n<p>OECD and Eurostat Cuestionario conjunto sobre aguas continentales:</p>\n\
+  <p><a href=\"http://ec.europa.eu/eurostat/web/environment/water\">http://ec.europa.eu/eurostat/web/environment/water</a>\
   \ </p>\n<p>Fuente del PIB:</p>\n<p>UNSD: <a href=\"http://unstats.un.org/unsd/snaama/selbasicFast.asp\"\
   >http://unstats.un.org/unsd/snaama/selbasicFast.asp</a></p>"
 STAT_CONC_DEF: "<h1>Conceptos y definiciones</h1>\n<h2>Definición:</h2>\n<p>El cambio\
