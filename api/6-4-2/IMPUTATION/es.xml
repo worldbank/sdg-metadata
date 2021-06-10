@@ -7,14 +7,12 @@
   &lt;li&gt;&lt;strong&gt;&lt;em&gt; A nivel de país: &lt;/em&gt;&lt;/strong&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt; Se realizan tres tipos de imputación a nivel de país para completar los años que faltan en la serie temporal: &lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;
     &lt;ul&gt;
       &lt;li&gt; Imputación lineal: entre dos puntos de datos disponibles &lt;/li&gt;
       &lt;li&gt; Transferencia hacia adelante: después de los últimos puntos de datos disponibles y hasta 10 años &lt;/li&gt;
       &lt;li&gt; Imputación vertical: en caso de que se disponga de la extracción total de agua dulce pero falte el desglose por fuentes, y si existe el desglose para los años anteriores, se aplica la proporción respectiva por fuentes al total disponible &lt;/li&gt;
     &lt;/ul&gt;
-  &lt;/li&gt;
+&lt;ul&gt;
   &lt;li&gt;&lt;strong&gt;&lt;em&gt; A nivel regional y mundial: &lt;/em&gt;&lt;/strong&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt; Gracias a los métodos de imputación a nivel de país, se dispondrá de datos para toda la serie temporal (a menos que el último valor oficial se haya obtenido hace más de 10 años). &lt;/p&gt;</data>
