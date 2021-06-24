@@ -23,10 +23,9 @@ SDG_RELATED_INDICATORS: >-
 SDG_CUSTODIAN_AGENCIES: >-
   <h1> Information institutionnelle</h1>
 
-  <h2> Organisation(s):</h2>
+  <h2> Organisation(s) :</h2>
 
-  <p> Organisation des Nations Unies pour l’alimentation et l’agriculture
-  (ONUAA)</p>
+  <p> Organisation des Nations Unies pour l’alimentation et l’agriculture (ONUAA)</p>
 STAT_CONC_DEF: >-
   <h1> Concepts et définitions </h1>
 
@@ -42,9 +41,12 @@ STAT_CONC_DEF: >-
   Conformément au codage CITI 4, les secteurs sont définis comme suit: </p>
 
   <ol>
-    <li> agriculture; sylviculture; pêche (CITI A), ci-après &#x201C; agriculture &#x201D;; </li>
-    <li> mines et carrières; fabrication; électricité, gaz, vapeur et climatisation; constructions (CITI B, C, D et F), ci-après &#x201C; MIMEC &#x201D;; </li>
-    <li> tous les secteurs de services (CITI E et CITI G-T), ci-après &#x201C; services &#x201D;. </li>
+    <li> agriculture; sylviculture; pêche (CITI A), ci-après &#x201C; agriculture
+  &#x201D;; </li>
+    <li> mines et carrières; fabrication; électricité, gaz, vapeur et climatisation;
+  constructions (CITI B, C, D et F), ci-après &#x201C; MIMEC &#x201D;; </li>
+    <li> tous les secteurs de services (CITI E et CITI G-T), ci-après &#x201C; services
+  &#x201D;. </li>
   </ol>
 
   <p> L'unité de l'indicateur est exprimée en valeur / volume, généralement USD
@@ -53,17 +55,76 @@ STAT_CONC_DEF: >-
   <h2> Concepts: </h2>
 
   <ul>
-    <li> Utilisation de l'eau: eau qui est reçue par une industrie ou des ménages d'une autre industrie ou qui est directement prélevée. [SEEA-Eau (ST / ESA / STAT / SER.F / 100), par. 2,21] </li>
-    <li> Prélèvement d'eau: eau retirée de l'environnement par l'économie. [SEEA-Eau (ST / ESA / STAT / SER.F / 100), par. 2,9] </li>
-    <li> Utilisation de l'eau pour l'irrigation (km &#xB3; / an): Quantité annuelle d'eau utilisée à des fins d'irrigation. Cela comprend l'eau provenant de ressources renouvelables en eau douce, ainsi que l'eau provenant de la surexploitation des eaux souterraines renouvelables ou de l'extraction d'eaux souterraines fossiles, l'utilisation directe des eaux de drainage agricole, des eaux usées (traitées) et de l'eau dessalée. [Glossaire AQUASTAT] </li>
-    <li> Utilisation de l'eau pour le bétail (abreuvement et nettoyage) (km &#xB3; / an): quantité annuelle d'eau utilisée pour le bétail. Cela comprend l'eau provenant de ressources renouvelables en eau douce, ainsi que l'eau provenant de la surexploitation des eaux souterraines renouvelables ou de l'extraction d'eaux souterraines fossiles, l'utilisation directe des eaux de drainage agricole, des eaux usées (traitées) et de l'eau dessalée. Il comprend l'abreuvement du bétail, l'assainissement, le nettoyage des étables, etc. Si elle est connectée au réseau public d'approvisionnement en eau, l'eau utilisée pour le bétail est incluse dans les services d'utilisation de l'eau. [Glossaire AQUASTAT] </li>
-    <li> Utilisation de l'eau pour l'aquaculture (km &#xB3; / an): quantité annuelle d'eau utilisée pour l'aquaculture. Cela comprend l'eau provenant de ressources renouvelables en eau douce, ainsi que l'eau provenant de la surexploitation des eaux souterraines renouvelables ou de l'extraction d'eaux souterraines fossiles, l'utilisation directe des eaux de drainage agricole, des eaux usées (traitées) et de l'eau dessalée. L'aquaculture est l'élevage d'organismes aquatiques dans les zones intérieures et côtières, impliquant une intervention dans le processus d'élevage pour améliorer la production et la propriété individuelle ou collective du stock cultivé. [Glossaire AQUASTAT] </li>
-    <li> Consommation d'eau pour les secteurs MIMEC (km &#xB3; / an): Quantité annuelle d'eau utilisée pour le secteur MIMEC. Cela comprend l'eau provenant de ressources renouvelables en eau douce, ainsi que la surexploitation des eaux souterraines renouvelables ou l'extraction d'eaux souterraines fossiles et l'utilisation d'eau dessalée ou l'utilisation directe des eaux usées (traitées). Ce secteur fait référence aux industries auto-approvisionnées non connectées au réseau de distribution public. [Glossaire AQUASTAT. À noter que dans AQUASTAT, les secteurs inclus dans le groupe MIMEC sont appelés &#x201C; industrie &#x201D;] <sup> <a href="#footnote-2" id="footnote-ref-2"> [2] </a> </sup> </li>
-    <li> Utilisation de l'eau pour les secteurs des services (km &#xB3; / an): Quantité annuelle d'eau utilisée principalement pour l'usage direct de la population. Cela comprend l'eau provenant de ressources renouvelables en eau douce, ainsi que la surexploitation des eaux souterraines renouvelables ou l'extraction d'eaux souterraines fossiles et l'utilisation d'eau dessalée ou l'utilisation directe des eaux usées traitées. Elle est généralement calculée comme la quantité totale d'eau utilisée par le réseau public de distribution. Cela peut inclure la partie des industries qui est connectée au réseau municipal. [Glossaire AQUASTAT. À noter que dans AQUASTAT, les secteurs inclus dans &#x201C; services &#x201D; sont appelés &#x201C; municipal &#x201D;] </li>
-    <li> Valeur ajoutée (brute): la valeur ajoutée est la production nette d'un secteur après addition de toutes les sorties et soustraction des intrants intermédiaires. Il est calculé sans déduire la dépréciation des actifs fabriqués ou l'épuisement et la dégradation des ressources naturelles. L'origine industrielle de la valeur ajoutée est déterminée par la Classification internationale type par industrie (CITI), révision 4. [Banque de données de la Banque mondiale, glossaire des métadonnées, modifié] </li>
-    <li> Terres arables: Les terres arables sont les terres cultivées temporairement (les surfaces à cultures multiples ne sont comptées qu'une seule fois), les prairies temporaires pour la tonte ou le pâturage, les terres maraîchères et potagères et les terres temporairement en jachère (moins de cinq ans). Les terres abandonnées résultant de la culture itinérante ne sont pas incluses dans cette catégorie. Les données pour &#x201C; Terres arables &#x201D; ne sont pas censées indiquer la superficie de terres potentiellement cultivables. [ONUAASTAT] </li>
-    <li> Cultures permanentes: Les cultures permanentes sont les terres cultivées avec des cultures à long terme qui ne doivent pas être replantées pendant plusieurs années (comme le cacao et le café); terre sous les arbres et les arbustes produisant des fleurs, comme les roses et le jasmin; et les pépinières (à l'exception de celles des arbres forestiers, qui devraient être classées sous &quot; forêt &quot;). Les prairies et pâturages permanents sont exclus des terres cultivées en permanence. [ONUAASTAT] </li>
-    <li> Proportion de terres irriguées sur la totalité des terres cultivées: partie des terres cultivées équipées pour l'irrigation, exprimée en pourcentage </li>
+    <li> Utilisation de l'eau: eau qui est reçue par une industrie ou des ménages
+  d'une autre industrie ou qui est directement prélevée. [SEEA-Eau (ST / ESA / STAT
+  / SER.F / 100), par. 2,21] </li>
+    <li> Prélèvement d'eau: eau retirée de l'environnement par l'économie. [SEEA-Eau
+  (ST / ESA / STAT / SER.F / 100), par. 2,9] </li>
+    <li> Utilisation de l'eau pour l'irrigation (km &#xB3; / an): Quantité annuelle
+  d'eau utilisée à des fins d'irrigation. Cela comprend l'eau provenant de ressources
+  renouvelables en eau douce, ainsi que l'eau provenant de la surexploitation des
+  eaux souterraines renouvelables ou de l'extraction d'eaux souterraines fossiles,
+  l'utilisation directe des eaux de drainage agricole, des eaux usées (traitées) et
+  de l'eau dessalée. [Glossaire AQUASTAT] </li>
+    <li> Utilisation de l'eau pour le bétail (abreuvement et nettoyage) (km &#xB3;
+  / an): quantité annuelle d'eau utilisée pour le bétail. Cela comprend l'eau provenant
+  de ressources renouvelables en eau douce, ainsi que l'eau provenant de la surexploitation
+  des eaux souterraines renouvelables ou de l'extraction d'eaux souterraines fossiles,
+  l'utilisation directe des eaux de drainage agricole, des eaux usées (traitées) et
+  de l'eau dessalée. Il comprend l'abreuvement du bétail, l'assainissement, le nettoyage
+  des étables, etc. Si elle est connectée au réseau public d'approvisionnement en
+  eau, l'eau utilisée pour le bétail est incluse dans les services d'utilisation de
+  l'eau. [Glossaire AQUASTAT] </li>
+    <li> Utilisation de l'eau pour l'aquaculture (km &#xB3; / an): quantité annuelle
+  d'eau utilisée pour l'aquaculture. Cela comprend l'eau provenant de ressources renouvelables
+  en eau douce, ainsi que l'eau provenant de la surexploitation des eaux souterraines
+  renouvelables ou de l'extraction d'eaux souterraines fossiles, l'utilisation directe
+  des eaux de drainage agricole, des eaux usées (traitées) et de l'eau dessalée. L'aquaculture
+  est l'élevage d'organismes aquatiques dans les zones intérieures et côtières, impliquant
+  une intervention dans le processus d'élevage pour améliorer la production et la
+  propriété individuelle ou collective du stock cultivé. [Glossaire AQUASTAT] </li>
+    <li> Consommation d'eau pour les secteurs MIMEC (km &#xB3; / an): Quantité annuelle
+  d'eau utilisée pour le secteur MIMEC. Cela comprend l'eau provenant de ressources
+  renouvelables en eau douce, ainsi que la surexploitation des eaux souterraines renouvelables
+  ou l'extraction d'eaux souterraines fossiles et l'utilisation d'eau dessalée ou
+  l'utilisation directe des eaux usées (traitées). Ce secteur fait référence aux industries
+  auto-approvisionnées non connectées au réseau de distribution public. [Glossaire
+  AQUASTAT. À noter que dans AQUASTAT, les secteurs inclus dans le groupe MIMEC sont
+  appelés &#x201C; industrie &#x201D;] <sup> <a href="#footnote-2" id="footnote-ref-2">
+  [2] </a> </sup> </li>
+    <li> Utilisation de l'eau pour les secteurs des services (km &#xB3; / an): Quantité
+  annuelle d'eau utilisée principalement pour l'usage direct de la population. Cela
+  comprend l'eau provenant de ressources renouvelables en eau douce, ainsi que la
+  surexploitation des eaux souterraines renouvelables ou l'extraction d'eaux souterraines
+  fossiles et l'utilisation d'eau dessalée ou l'utilisation directe des eaux usées
+  traitées. Elle est généralement calculée comme la quantité totale d'eau utilisée
+  par le réseau public de distribution. Cela peut inclure la partie des industries
+  qui est connectée au réseau municipal. [Glossaire AQUASTAT. À noter que dans AQUASTAT,
+  les secteurs inclus dans &#x201C; services &#x201D; sont appelés &#x201C; municipal
+  &#x201D;] </li>
+    <li> Valeur ajoutée (brute): la valeur ajoutée est la production nette d'un secteur
+  après addition de toutes les sorties et soustraction des intrants intermédiaires.
+  Il est calculé sans déduire la dépréciation des actifs fabriqués ou l'épuisement
+  et la dégradation des ressources naturelles. L'origine industrielle de la valeur
+  ajoutée est déterminée par la Classification internationale type par industrie (CITI),
+  révision 4. [Banque de données de la Banque mondiale, glossaire des métadonnées,
+  modifié] </li>
+    <li> Terres arables: Les terres arables sont les terres cultivées temporairement
+  (les surfaces à cultures multiples ne sont comptées qu'une seule fois), les prairies
+  temporaires pour la tonte ou le pâturage, les terres maraîchères et potagères et
+  les terres temporairement en jachère (moins de cinq ans). Les terres abandonnées
+  résultant de la culture itinérante ne sont pas incluses dans cette catégorie. Les
+  données pour &#x201C; Terres arables &#x201D; ne sont pas censées indiquer la superficie
+  de terres potentiellement cultivables. [ONUAASTAT] </li>
+    <li> Cultures permanentes: Les cultures permanentes sont les terres cultivées
+  avec des cultures à long terme qui ne doivent pas être replantées pendant plusieurs
+  années (comme le cacao et le café); terre sous les arbres et les arbustes produisant
+  des fleurs, comme les roses et le jasmin; et les pépinières (à l'exception de celles
+  des arbres forestiers, qui devraient être classées sous &quot; forêt &quot;). Les
+  prairies et pâturages permanents sont exclus des terres cultivées en permanence.
+  [ONUAASTAT] </li>
+    <li> Proportion de terres irriguées sur la totalité des terres cultivées: partie
+  des terres cultivées équipées pour l'irrigation, exprimée en pourcentage </li>
   </ul> <div class="footnotes"> <div> <sup class="footnote-number"
   id="footnote-1"> 1 </sup> <p> Afin de maintenir la cohérence avec la
   terminologie utilisée dans SEEA-Water, les termes utilisation de l'eau et
@@ -219,8 +280,11 @@ REC_USE_LIM: >-
   raisons principales:</p>
 
   <ul>
-    <li> Veiller à ce que seules l’eau de ruissellement et les eaux souterraines (ce qu’on appelle l’eau bleue) soient prises en compte dans l’calcul de l’indicateur; </li>
-    <li> Éliminer un biais potentiel des indicateurs, qui autrement tendrait à diminuer si les terres cultivées plumentées étaient converties en terres irriguées. </li>
+    <li> Veiller à ce que seules l’eau de ruissellement et les eaux souterraines (ce
+  qu’on appelle l’eau bleue) soient prises en compte dans l’calcul de l’indicateur;
+  </li>
+    <li> Éliminer un biais potentiel des indicateurs, qui autrement tendrait à diminuer
+  si les terres cultivées plumentées étaient converties en terres irriguées. </li>
   </ul>
 DATA_COMP: >-
   <h1> Méthodologie</h1>
@@ -245,8 +309,7 @@ DATA_COMP: >-
   <p> M<sub>we</sub> = MIMEC efficacité de l’utilisation de l’eau
   [USD/m<sup>3</sup>]</p>
 
-  <p> S<sub>we</sub> = Services d'efficacité de l'utilisation de l'eau 
-  [USD/m<sup>3</sup>]</p>
+  <p> S<sub>we</sub> = Services d'efficacité de l'utilisation de l'eau  [USD/m<sup>3</sup>]</p>
 
   <p> P<sub>A</sub> = Proportion de l’eau utilisée par le secteur agricole par
   rapport à l’utilisation totale</p>
@@ -667,12 +730,15 @@ COVERAGE: >-
   l'indicateur, en fonction des critères suivants: </p>
 
   <ol>
-    <li> Sur le plan économique, une subdivision plus précise du secteur économique peut être effectuée à l'aide de la CITI Rev.4 par les groupes suivants: <ol>
+    <li> Sur le plan économique, une subdivision plus précise du secteur économique
+  peut être effectuée à l'aide de la CITI Rev.4 par les groupes suivants: <ol>
         <li> Agriculture, foresterie et pêche (CITI A); </li>
         <li> Mines et carrières (CITI B); </li>
         <li> Fabrication (CITI C); </li>
-        <li> Fourniture d'électricité, de gaz, de vapeur et de climatisation (CITI D); </li>
-        <li> Activités d'approvisionnement en eau, d'assainissement, de gestion des déchets et d'assainissement (CITI E), d'ici le </li>
+        <li> Fourniture d'électricité, de gaz, de vapeur et de climatisation (CITI
+  D); </li>
+        <li> Activités d'approvisionnement en eau, d'assainissement, de gestion des
+  déchets et d'assainissement (CITI E), d'ici le </li>
         <li> Collecte, traitement et approvisionnement en eau (CITI 36) <ol>
             <li> Égouts (CITI 37) </li>
             <li> Construction (CITI F) </li>
@@ -681,7 +747,8 @@ COVERAGE: >-
         <li> Autres industries (somme des industries restantes) </li>
       </ol>
     </li>
-    <li> Géographiquement, calcul de l'indicateur par bassin hydrographique, bassin versant ou unité administrative d'un pays. </li>
+    <li> Géographiquement, calcul de l'indicateur par bassin hydrographique, bassin
+  versant ou unité administrative d'un pays. </li>
   </ol>
 
   <p> Ces niveaux de désagrégation, ou une combinaison de ceux-ci, permettront
