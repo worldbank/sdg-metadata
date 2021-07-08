@@ -7,4 +7,7 @@ layout: single
   <a class="btn btn--info" href="{{ site.baseurl }}/history/{{ page.slug }}/">{{ site.data.store.t[page.language].site.REVISION_HISTORY | default: 'Revision history' }}</a>
   {% endif %}
 </div>
+
+{% include statistics.html stats=site.data.stats[page.language][page.slug] %}
+
 {{ content }}
