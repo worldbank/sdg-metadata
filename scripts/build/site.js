@@ -59,6 +59,13 @@ module.exports = function(refresh=false) {
                 }
             }
         }
+        for (const lang of Object.keys(languages)) {
+            for (const prop of languageProperties) {
+                const percentProp = prop + '_percent'
+                const percent = Math.round((languages[lang][prop] / languages[lang].total) * 100)
+                languages[lang][percentProp] = percent
+            }
+        }
         return languages
     }
 }

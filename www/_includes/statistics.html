@@ -1,0 +1,14 @@
+{% if include.stats %}
+<h2>Translations statistics</h2>
+<ul>
+  {% if include.stats.approved_percent %}
+  <li>Approved: {{ include.stats.approved_percent }}%</li>
+  {% endif %}
+  {% if include.stats.fuzzy_percent %}
+  <li>Needs edit: {{ include.stats.fuzzy_percent }}%</li>
+  {% endif %}
+  {% if include.stats.failing_percent %}
+  <li>Failing checks: {{ include.stats.failing_percent }}%</li>
+  {% endif %}
+</ul>
+{% endif %}
