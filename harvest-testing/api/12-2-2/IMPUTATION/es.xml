@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<status>success</status>
+	<message>The IMPUTATION field for indicator 12-2-2, translated into es</message>
+	<data>&lt;h2&gt;Tratamiento de valores faltantes:&lt;/h2&gt;
+&lt;ul&gt;
+ &lt;strong&gt;A nivel de país: &lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Se imputa un cero cuando no se ha registrado oficialmente ningún valor real positivo, en los conjuntos de datos base utilizados, para ninguno de los componentes subyacentes que conforman este total agregado. Por lo tanto, &amp;#x201C;0.0&amp;#x201D; puede representar un valor nulo o un verdadero 0.0, o (fundamentalmente) una combinación de ambos, que es una situación común. Esto permite que los valores sean fácilmente agregados en otras agregaciones; sin embargo, debe tenerse en cuenta que, debido a la imputación de los valores que faltan como &amp;#x2018;0.0&amp;#x2019;, las agregaciones pueden representar un valor inferior a la situación real. &lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;A nivel regional y global:&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt; Del mismo modo, los valores que faltan se imputan como cero en las agregaciones regionales y globales. Sin embargo, en el caso de que no se disponga de ningún dato para un país concreto, las estimaciones per cápita y por PIB son medias ponderadas de los datos disponibles. &lt;/p&gt;</data>
+</root>

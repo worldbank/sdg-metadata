@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<status>success</status>
+	<message>The DATA_COMP field for indicator 15-4-2, translated into all languages</message>
+	<data>
+		<languages>
+			<language lang="ar"/>
+			<language lang="en">&lt;h1&gt;Methodology&lt;/h1&gt;
+&lt;h2&gt;Computation method:&lt;/h2&gt;
+&lt;p&gt;The Mountain Green Cover Index is defined as &lt;/p&gt;
+&lt;p&gt;&lt;em&gt;MGCI = (Mountain Green Cover Area/Total Mountain Area) X 100&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Where Mountain Green Cover area = Sum of areas covered by Cropland, Grassland, Forest and Wetland land cover classes.&lt;/p&gt;
+&lt;p&gt;The vegetation descriptor is calculated from a land cover map using basic GIS functions. &lt;/p&gt;
+&lt;p&gt;If the country/region has no mountain area, it will be assigned value N/A.&lt;/p&gt;
+			</language>
+			<language lang="es"/>
+			<language lang="fr"/>
+			<language lang="ru">&lt;h1&gt; Методология &lt;/h1&gt;
+&lt;h2&gt; Метод расчета: &lt;/h2&gt;
+&lt;p&gt; Индекс растительного покрова гор (ИРПГ) определяется как &lt;/p&gt;
+&lt;p&gt; &lt;em&gt; ИРПГ = (Площадь растительного покрова гор / Общая площадь гор) X 100 &lt;/em&gt; &lt;/p&gt;
+&lt;p&gt; Где площадь растительного покрова гор = сумма площадей, покрытых классами возделываемых земель, пастбищ, лесов и водно-болотных угодий. &lt;/p&gt;
+&lt;p&gt; Идентификатор растительности рассчитывается на основе карты растительного покрова с использованием основных функций ГИС. &lt;/p&gt;
+&lt;p&gt; Если в стране / регионе нет горной местности, ему будет присвоено значение &quot;Не применимо&quot;. &lt;/p&gt;
+			</language>
+</languages>
+</data>
+</root>
