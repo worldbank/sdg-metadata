@@ -8,6 +8,9 @@ const xpath = require('xpath')
 const sdgMetadataConvert = require('sdg-metadata-convert')
 const seriesDescriptor = sdgMetadataConvert.descriptorStore.getDescriptor('SERIES')
 const seriesOptions = seriesDescriptor.options
+const harvestGoals = [
+    '1',
+]
 
 let xmlString
 //const source = 'global-metadata.xml'
@@ -47,7 +50,10 @@ async function harvestMetadata() {
             conceptValues[conceptId] = conceptValue.replace(/\r\n/g, '\n')
         }
         for (const indicatorId of indicatorIds) {
-            metadataByIndicator[indicatorId] = conceptValues
+            const goalId = indicatorId.split('.')[0]
+            if (harvestGoals.includes(goalId)) {
+                metadataByIndicator[indicatorId] = conceptValues
+            }
         }
     }
 
