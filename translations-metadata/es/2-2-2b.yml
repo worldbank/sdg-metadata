@@ -1,5 +1,6 @@
 SDG_GOAL: >-
-  <p>Objetivo 2: Poner fin al hambre, lograr la seguridad alimentaria y la mejora de
+  <p>Objetivo 2: Poner fin al hambre, lograr la seguridad alimentaria y la mejora
+  de
   la nutrición y promover la agricultura sostenible</p>
 SDG_TARGET: "<p>Meta 2.2: De aquí a 2030, poner fin a todas las formas de malnutrición,\
   \ incluso logrando, a más tardar en 2025, las metas convenidas internacionalmente\
@@ -7,8 +8,8 @@ SDG_TARGET: "<p>Meta 2.2: De aquí a 2030, poner fin a todas las formas de malnu
   \ y abordar las necesidades de nutrición de las adolescentes, las mujeres embarazadas\
   \ y lactantes y las personas de edad</p>"
 SDG_INDICATOR: "<p>Indicador 2.2.2: Prevalencia de la malnutrición (peso para la estatura,\
-  \ desviación típica > +2 o < -2 de la mediana de los patrones de crecimiento infantil\
-  \ de la OMS) entre los niños menores de 5 años, desglosada por tipo (emaciación\
+  \ desviación típica &gt;+2 o &lt;-2 de la mediana de los patrones de crecimiento\
+  \ infantil de la OMS) entre los niños menores de 5 años, desglosada por tipo (emaciación\
   \ y sobrepeso)</p>"
 SDG_RELATED_INDICATORS: <h1> Indicadores relacionados a febrero de 2020</h1>
 OTHER_DOC: "<h1>Referencias</h1>\n<h2>URL:</h2>\n<p><a href=\"http://data.unicef.org/nutrition/malnutrition.html\"\
@@ -119,24 +120,25 @@ STAT_CONC_DEF: "<h1>Conceptos y definiciones</h1>\n<h2>Definición:</h2>\n<p>Pre
   \ de casos de edema, en el conjunto de datos se incluyen en la prevalencia de bajo\
   \ peso para la altura. </p>"
 COMPARABILITY: "<h2>Fuentes de discrepancia:</h2>\n<p>El enfoque de análisis estándar\
-  \ para construir el dataset conjunto tiene como objetivo la máxima comparabilidad\
+  \ para construir el conjunto de datos tiene como objetivo la máxima comparabilidad\
   \ de las estimaciones de los países. Para la inclusión de las estimaciones de las\
-  \ encuestas en el dataset JME, el grupo interinstitucional aplica criterios de evaluación\
-  \ de la calidad de las encuestas. Cuando la documentación es insuficiente, la encuesta\
-  \ no se incluye hasta que la información esté disponible. Cuando se dispone de datos\
-  \ brutos y se cuestiona el enfoque del análisis, se realiza un nuevo análisis de\
-  \ los datos siguiendo la metodología estándar. Las discrepancias entre los resultados\
-  \ del enfoque normalizado y los comunicados pueden producirse por diversas razones,\
-  \ por ejemplo, el uso de diferentes normas para los cálculos de las puntuaciones\
-  \ z, la imputación del día de nacimiento cuando falta, el uso de la edad redondeada\
-  \ en meses, el uso de diferentes sistemas de marcado para la exclusión de datos.\
-  \ En el caso de las encuestas basadas en las referencias anteriores del NCHS/OMS,\
-  \ y para las que no se dispone de datos brutos, se aplica un método de conversión\
-  \ de las puntuaciones z para que se basen en los patrones de crecimiento infantil\
-  \ de la OMS (Yang y de Onis, 2008). Además, cuando las encuestas no cubren el intervalo\
-  \ de edad 0-&lt;5 años, o sólo son representativas de las zonas rurales, se realiza\
-  \ un ajuste basado en otras encuestas para el mismo país. Cualquier ajuste o conversión\
-  \ se indica de forma transparente en el dataset conjunto.</p>"
+  \ encuestas en el conjunto de datos de malnutrición infantil, el grupo interinstitucional\
+  \ aplica criterios de evaluación de la calidad de las encuestas. Cuando la documentación\
+  \ es insuficiente, la encuesta no se incluye hasta que la información esté disponible.\
+  \ Cuando se dispone de datos brutos y se cuestiona el enfoque del análisis, se realiza\
+  \ un nuevo análisis de los datos siguiendo la metodología estándar. Las discrepancias\
+  \ entre los resultados del enfoque normalizado y los comunicados pueden producirse\
+  \ por diversas razones, por ejemplo, el uso de diferentes normas para los cálculos\
+  \ de las puntuaciones z (z-scores), la imputación del día de nacimiento cuando falta,\
+  \ el uso de la edad redondeada en meses, el uso de diferentes sistemas de marcado\
+  \ para la exclusión de datos. En el caso de las encuestas basadas en las referencias\
+  \ anteriores del NCHS/OMS, y para las que no se dispone de datos brutos, se aplica\
+  \ un método de conversión de las puntuaciones z para que se basen en los patrones\
+  \ de crecimiento infantil de la OMS (Yang y de Onis, 2008). Además, cuando las encuestas\
+  \ no cubren el intervalo de edad 0-&lt;5 años, o sólo son representativas de las\
+  \ zonas rurales, se realiza un ajuste basado en otras encuestas para el mismo país.\
+  \ Cualquier ajuste o conversión se indica de forma transparente en el conjunto de\
+  \ datos.</p>"
 REG_AGG: "<h2>Agregados regionales:</h2>\n<p>Los agregados regionales están disponibles\
   \ para las siguientes clasificaciones: Naciones Unidas, ODM, UNICEF, OMS, regiones\
   \ del Banco Mundial y grupos de ingresos.</p>"
