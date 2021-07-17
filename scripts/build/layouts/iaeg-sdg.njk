@@ -3,6 +3,7 @@
 {% macro renderConcept(concept) %}
   {% if concept.value %}
     <div id="{{ concept.id }}">
+      {% if conceptNames %}<p class="concept-name">{{ conceptTranslations[concept.id] | default(concept.name, true) }}</p>{% endif %}
       {{ concept.value }}
     </div>
   {% endif %}

@@ -8,6 +8,7 @@ module.exports = function(refresh=false) {
     const docOptions = {
         layout: 'iaeg-sdg.njk',
         layoutFolder: path.join(__dirname, 'layouts'),
+        conceptNames: true,
     }
     const sdgMetadataConvert = require('sdg-metadata-convert')
     const pdfOutput = new sdgMetadataConvert.PdfOutput(docOptions)
