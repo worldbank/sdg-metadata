@@ -3,7 +3,8 @@ layout: single
 ---
 {{ site.data.languages[page.language].blurb | markdownify }}
 
-{% include statistics.html stats=site.data.stats[page.language] %}
+{% assign weblate_stats = site.data.stats[page.language] %}
+{% include statistics.html stats=weblate_stats %}
 
 {% for goal in page.goals %}
 <a class="goal-link" href="{{ goal }}">

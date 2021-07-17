@@ -8,6 +8,7 @@ layout: single
   {% endif %}
 </div>
 
-{% include statistics.html stats=site.data.stats[page.language][page.slug] %}
+{% assign weblate_stats = site.data.stats[page.language][page.slug] %}
+{% include statistics.html stats=weblate_stats %}
 
 {{ content }}
