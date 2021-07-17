@@ -1,4 +1,5 @@
-SDG_GOAL: '<p>Objetivo 1: Poner fin a la pobreza en todas sus formas y en todo el mundo</p>'
+SDG_GOAL: '<p>Objetivo 1: Poner fin a la pobreza en todas sus formas y en todo el
+  mundo</p>'
 SDG_TARGET: >-
   <p>Meta 1.1: De aquí a 2030, erradicar para todas las personas y en todo
   el mundo la pobreza extrema (actualmente se considera que sufren pobreza
@@ -111,29 +112,27 @@ RATIONALE: >-
 REC_USE_LIM: >-
   <h2>Comentarios y limitaciones:</h2>
 
-  <p>A nivel de país, las comparaciones a lo largo del tiempo pueden verse
-  afectadas por factores como los cambios en los tipos de encuesta o los métodos
-  de recogida de datos. El uso de las PPA en lugar de los tipos de cambio de
-  mercado garantiza que se tengan en cuenta las diferencias en los niveles de
-  precios entre países. Sin embargo, no se puede afirmar categóricamente que dos
-  personas de dos países diferentes, que viven por debajo de 1,90 dólares al día
-  en PPA, se enfrentan al mismo grado de privación o tienen el mismo grado de
-  necesidad</p>.
+  <p>A nivel de país, las comparaciones a lo largo del tiempo pueden verse afectadas
+  por factores como los cambios en los tipos de encuesta o los métodos de recogida
+  de datos. El uso de las PPA en lugar de los tipos de cambio de mercado garantiza
+  que se tengan en cuenta las diferencias en los niveles de precios entre países.
+  Sin embargo, no se puede afirmar categóricamente que dos personas de dos países
+  diferentes, que viven por debajo de 1,90 dólares al día en PPA, se enfrentan al
+  mismo grado de privación o tienen el mismo grado de necesidad.</p>
 
-  <p>La pobreza en el contexto de este indicador es un concepto que se aplica a
-  los hogares, y no a los individuos, basándose en el supuesto de que los
-  hogares ponen en común sus ingresos. Esta suposición puede no ser siempre
-  cierta</p>.
+  <p>La pobreza en el contexto de este indicador es un concepto que se aplica a los
+  hogares, y no a los individuos, basándose en el supuesto de que los hogares ponen
+  en común sus ingresos. Esta suposición puede no ser siempre cierta.</p>
 
-  <p>Además, la situación de pobreza de un hogar es una función del salario y
-  otros ingresos relacionados con el empleo obtenidos por los miembros del hogar
-  que tienen un empleo, los ingresos derivados de la propiedad de activos, más
-  cualquier otro ingreso disponible, como los pagos de transferencias, y el
-  número de miembros del hogar. Por lo tanto, el hecho de que un trabajador se
-  contabilice como trabajador pobre depende de sus propios ingresos, de los
-  ingresos de otros miembros del hogar y del número de miembros del hogar que
-  necesitan ser mantenidos. Por lo tanto, suele ser valioso estudiar la
-  estructura del hogar en relación con la pobreza laboral. </p>
+  <p>Además, la situación de pobreza de un hogar es una función del salario y otros
+  ingresos relacionados con el empleo obtenidos por los miembros del hogar que tienen
+  un empleo, los ingresos derivados de la propiedad de activos, más cualquier otro
+  ingreso disponible, como los pagos de transferencias, y el número de miembros del
+  hogar. Por lo tanto, el hecho de que un trabajador se contabilice como trabajador
+  pobre depende de sus propios ingresos, de los ingresos de otros miembros del hogar
+  y del número de miembros del hogar que necesitan ser mantenidos. Por lo tanto, suele
+  ser valioso estudiar la estructura del hogar en relación con la pobreza laboral.
+  </p>
 DATA_COMP: >-
   <h1>Metodología</h1>
 
@@ -142,7 +141,7 @@ DATA_COMP: >-
   <p>Tasa de pobreza laboral&#xA0;= ((Personas empleadas que viven con menos de
   1,90 dólares al día) / (Empleo total)) x 100</p>
 IMPUTATION: |-
-  <h2>Tratamiento de los valores perdidos:</h2>
+  <h2>Tratamiento de valores faltantes:</h2>
   <ul>
     <li>A nivel de país</li>
     <li>A nivel regional y mundial</li>
@@ -150,16 +149,14 @@ IMPUTATION: |-
 REG_AGG: >-
   <h2>Agregados regionales:</h2>
 
-  <p>La OIT elabora estimaciones mundiales y regionales del empleo por clase
-  económica (y, por tanto, de las tasas de pobreza de los trabajadores)
-  utilizando el modelo de la OIT&#x2019; Employment by Class (EbyC). Estas
-  estimaciones forman parte de la serie de Estimaciones y Proyecciones de la
-  OIT, analizadas en los informes de la OIT sobre el Empleo Mundial y las
-  Perspectivas Sociales. Para más información, sobre el modelo utilizado para
-  obtener estas estimaciones, consulte el documento de la OIT &#x201C;Empleo y
-  clase económica en el mundo en desarrollo&#x201D; (Kapsos y Bourmpoula, 2013),
-  disponible en <a
-  href="http://www.ilo.org/wcmsp5/groups/public/---dgreports/---inst/documents/publication/wcms_216451.pdf">http://www.ilo.org/wcmsp5/groups/public/---dgreports/---inst/documents/publication/wcms_216451.pdf</a></p>
+  <p>La OIT elabora estimaciones mundiales y regionales del empleo por clase económica
+  (y, por tanto, de las tasas de pobreza de los trabajadores) utilizando el modelo
+  de la OIT Employment by Class (EbyC). Estas estimaciones forman parte de la serie
+  de Estimaciones y Proyecciones de la OIT, analizadas en los informes de la OIT sobre
+  el Empleo Mundial y las Perspectivas Sociales. Para más información, sobre el modelo
+  utilizado para obtener estas estimaciones, consulte el documento de la OIT &#x201C;Empleo
+  y clase económica en el mundo en desarrollo&#x201D; (Kapsos y Bourmpoula, 2013),
+  disponible en <a href="http://www.ilo.org/wcmsp5/groups/public/---dgreports/---inst/documents/publication/wcms_216451.pdf">http://www.ilo.org/wcmsp5/groups/public/---dgreports/---inst/documents/publication/wcms_216451.pdf</a></p>
 DOC_METHOD: >-
   <h2> Métodos y lineamientos disponibles para los países para la recopilación
   de los datos a nivel nacional:</h2>
