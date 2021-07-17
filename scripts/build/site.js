@@ -37,12 +37,18 @@ module.exports = function(refresh=false) {
 
     writeStatistics()
     async function writeStatistics() {
-        const stats = await getStatistics()
+        const stats = await getStatistics('https://hosted.weblate.org/api/projects/sdg-metadata/components/')
         fs.writeFileSync(path.join(destinationFolder, 'stats.json'), JSON.stringify(stats), 'utf8')
     }
 
-    async function getStatistics() {
-        const components = await getJSON('https://hosted.weblate.org/api/projects/sdg-metadata/components/', headers)
+    async function getStatistics(endpoint) {
+        const components = await getJSON(endpoint, headers)
+        let nextPage = components.next
+        while (nextPage) {
+            const nextPageComponents = await(nextPage, headers)
+            components.results = components.results.concat(nextPageComponents.results)
+            nextPage = nextPageComponents.next
+        }
         const languages = {}
         for (const component of components.results) {
             const stats = await getJSON(component.statistics_url, headers)
