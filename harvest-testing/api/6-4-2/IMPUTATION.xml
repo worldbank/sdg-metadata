@@ -37,7 +37,24 @@
 &lt;/ul&gt;
 &lt;p&gt; Gracias a los métodos de imputación a nivel de país, se dispondrá de datos para toda la serie temporal (a menos que el último valor oficial se haya obtenido hace más de 10 años). &lt;/p&gt;
 			</language>
-			<language lang="fr"/>
+			<language lang="fr">&lt;h2&gt;Traitement des valeurs manquantes: &lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;em&gt;Au niveau national :&lt;/em&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Trois types d&apos;imputation sont effectués au niveau du pays pour combler les années manquantes dans les séries chronologiques : &lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Imputation linéaire : entre deux points de données disponibles&lt;/li&gt;.
+      &lt;li&gt;Report : après les derniers points de données disponibles et jusqu&apos;à 10 ans.&lt;/li&gt;
+      &lt;li&gt;Imputation verticale : en cas de prélèvement total d&apos;eau douce disponible mais de désagrégation par source manquante, et si la désagrégation existante existait pour les années précédentes, le ratio respectif par source est appliqué au total disponible.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt; &lt;strong&gt; &lt;em&gt;Aux niveaux régional et mondial :&lt;/em&gt; &lt;/strong&gt; &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Grâce aux méthodes d&apos;imputation au niveau national, les données seront disponibles pour l&apos;ensemble de la série chronologique (sauf si la dernière valeur officielle a été obtenue il y a plus de 10 ans).&lt;/p&gt;
+			</language>
+			<language lang="pt"/>
 			<language lang="ru">&lt;h2&gt; Обработка отсутствующих значений: &lt;/h2&gt;
 &lt;ul&gt;
   &lt;li&gt; &lt;strong&gt; &lt;em&gt; На страновом уровне: &lt;/em&gt; &lt;/strong&gt; &lt;/li&gt;
