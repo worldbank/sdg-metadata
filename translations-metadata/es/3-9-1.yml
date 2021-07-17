@@ -16,3 +16,43 @@ SDG_CUSTODIAN_AGENCIES: |-
 COMPILING_ORG: |-
   <h1>Compiladores de datos</h1>
   <p>OMS</p>
+DATA_SOURCE: "<h1>Proveedores de datos</h1>\n<p>Ministerio de Salud, Ministerio de\
+  \ Medio Ambiente.</p>"
+FREQ_COLL: "<h1>Calendario</h1>\n<p>NA</p>"
+SOURCE_TYPE: "<h1>Fuentes de datos</h1>\n<p>Exposición: Se utilizó el indicador 7.1.2\
+  \ como indicador de exposición para la contaminación atmosférica doméstica.</p>\n\
+  <p>Se utilizó la concentración media anual de partículas inferior a 2,5 um como\
+  \ indicador de exposición a la contaminación atmosférica. Los datos se modelaron\
+  \ según los métodos descritos para el indicador 11.6.2.</p>\n<p>Función de exposición-riesgo:\
+  \ Se utilizaron las funciones integradas de exposición-respuesta (IER) desarrolladas\
+  \ para el GBD 2010 (Burnett et al, 2014) y actualizadas posteriormente para el estudio\
+  \ GBD 2013 (Forouzanfar et al, 2015).</p>\n<p>Datos sanitarios: El número total\
+  \ de muertes por enfermedad, país, sexo y grupo de edad ha sido elaborado por la\
+  \ Organización Mundial de la Salud (OMS 2014b).</p>"
+STAT_CONC_DEF: "<h1>Conceptos y definiciones</h1>\n<h2>Definición:</h2>\n<p>La mortalidad\
+  \ atribuible a los efectos conjuntos de la contaminación atmosférica doméstica y\
+  \ ambiental puede expresarse como: Número de muertes, Tasa de mortalidad. Las tasas\
+  \ de mortalidad se calculan dividiendo el número de muertes por la población total\
+  \ (o se indica si se utiliza un grupo de población diferente, por ejemplo, niños\
+  \ menores de 5 años).</p>\n<p>Las pruebas de los estudios epidemiológicos han demostrado\
+  \ que la exposición a la contaminación atmosférica está relacionada, entre otras,\
+  \ con las importantes enfermedades que se tienen en cuenta en esta estimación:</p>\n\
+  <ul>\n  <li>Infecciones respiratorias agudas en niños pequeños (se estima en menores\
+  \ de 5 años);</li>\n  <li>Enfermedades cerebrovasculares (ictus) en adultos (estimadas\
+  \ por encima de los 25 años);</li>\n  <li>Cardiopatías isquémicas (CI) en adultos\
+  \ (estimadas por encima de los 25 años);</li>\n  <li>Enfermedad pulmonar obstructiva\
+  \ crónica (EPOC) en adultos (estimada por encima de los 25 años); y</li>\n  <li>Cáncer\
+  \ de pulmón en adultos (estimado por encima de los 25 años).</li>\n</ul>\n<h2>Conceptos:</h2>\n\
+  <p> Se evaluó la mortalidad resultante de la exposición a la contaminación del aire\
+  \ ambiental (exterior) y a la contaminación del aire doméstico (interior) por el\
+  \ uso de combustibles contaminantes para cocinar. La contaminación del aire ambiental\
+  \ es el resultado de las emisiones procedentes de la actividad industrial, los hogares,\
+  \ los automóviles y los camiones, que son complejas mezclas de contaminantes atmosféricos,\
+  \ muchos de los cuales son perjudiciales para la salud. De todos estos contaminantes,\
+  \ las partículas finas son las que más afectan a la salud humana. Por combustibles\
+  \ contaminantes se entiende el queroseno, la madera, el carbón, el estiércol animal,\
+  \ el carbón vegetal y los desechos de los cultivos.</p>"
+SDG_RELATED_INDICATORS: "<h1>Indicadores relacionados a febrero de 2020</h1>\n<p>11.6.2:\
+  \ Niveles medios anuales de partículas finas (por ejemplo, PM2,5 y PM10) en las\
+  \ ciudades (ponderados por la población)</p>\n<p>7.1.2: Proporción de la población\
+  \ que depende principalmente de combustibles y tecnologías limpias</p>"
