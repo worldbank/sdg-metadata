@@ -202,10 +202,13 @@
     padding: 0;
   }
   .page__content {
-    h1 {
+    h1, .concept-name {
       border-bottom: 2px solid #BBB;
       padding-bottom: 10px;
       margin-top: 20px;
+    }
+    .concept-name {
+      font-size: 1.563em;
     }
     h2 {
       margin-top: 20px;

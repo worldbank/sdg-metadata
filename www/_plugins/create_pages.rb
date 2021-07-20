@@ -5,9 +5,9 @@ module SdgMetadataPlugins
     safe true
     priority :normal
 
-    def get_field_content(content, field_id, field_name)
+    def get_field_content(content, field_id, field_name, site, language)
       prefix = '<div id="' + field_id + '">'
-      inner = '<p class="concept-name">' + field_name + '</p>' + content
+      inner = '<p class="concept-name">' + translate_concept_name(site, field_id, language) + '</p>' + content
       if content == '' || content == nil
         inner = '<p>' + field_name + ' (' + field_id + ') is not yet translated.</p>'
       end
@@ -48,6 +48,19 @@ module SdgMetadataPlugins
             return site.data['store']['t'][language]['site'][key]
           else
             return site.data['store']['t']['en']['site'][key]
+          end
+        end
+      end
+      return key
+    end
+
+    def translate_concept_name(site, key, language)
+      if site.data['store']['t'][language].key?('concepts')
+        if site.data['store']['t'][language]['concepts'].key?(key)
+          if site.data['store']['t'][language]['concepts'][key] != ''
+            return site.data['store']['t'][language]['concepts'][key]
+          else
+            return site.data['store']['t']['en']['concepts'][key]
           end
         end
       end
@@ -150,7 +163,7 @@ module SdgMetadataPlugins
           end
           toc = '<ul class="indicator-fields">' + toc.join('') + '</ul>'
 
-          content = translated_fields.map {|c| '<a name="' + c['id'] + '"></a>' + get_field_content(field_content[c['id']], c['id'], c['name']) }
+          content = translated_fields.map {|c| '<a name="' + c['id'] + '"></a>' + get_field_content(field_content[c['id']], c['id'], c['name'], site, language) }
           content = content.join("")
 
           # This provides some data for the benefit of the Minimal Mistakes theme.

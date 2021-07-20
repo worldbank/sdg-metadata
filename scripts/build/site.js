@@ -51,6 +51,9 @@ module.exports = function(refresh=false) {
         }
         const languages = {}
         for (const component of components.results) {
+            if (typeof component === 'undefined') {
+                continue
+            }
             const stats = await getJSON(component.statistics_url, headers)
             for (const language of stats.results) {
                 if (typeof languages[language.code] === 'undefined') {
