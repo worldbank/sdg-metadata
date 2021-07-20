@@ -14,3 +14,146 @@ COMPILING_ORG: "<h1>Compiladores de datos</h1>\n<p> UIT</p>"
 REL_CAL_POLICY: "<h2>Publicación de datos:</h2>\n<p>Junio de 2016 </p>"
 SDG_CUSTODIAN_AGENCIES: "<h1> Información institucional </h1>\n<h2> Organización (es):\
   \ </h2>\n<p> Unión Internacional de Telecomunicaciones (UIT) </p>"
+OTHER_DOC: "<h1>Referencias</h1>\n<h2>URL:</h2>\n<p><a href=\"http://www.itu.int/en/ITU-D/Statistics/Pages/default.aspx\"\
+  >http://www.itu.int/en/ITU-D/Statistics/Pages/default.aspx</a></p>\n<h2>Referencias:</h2>\n\
+  <p>Manual de la UIT para la medición del acceso y el uso de las TIC por los hogares\
+  \ y las personas 2014, ver: <a href=\"http://www.itu.int/en/ITU-D/Statistics/Pages/publications/manual2014.aspx\"\
+  >http://www.itu.int/en/ITU-D/Statistics/Pages/publications/manual2014.aspx</a></p>"
+COMPARABILITY: "<h2>Fuentes de discrepancia:</h2>\n<p>Las diferencias entre las cifras\
+  \ mundiales y las nacionales pueden surgir cuando los países utilizan una definición\
+  \ diferente a la acordada internacionalmente y utilizada por la UIT. También pueden\
+  \ surgir discrepancias cuando el alcance de edad de las encuestas difiere, o cuando\
+  \ el país solo proporciona datos para un determinado grupo de edad y no para la\
+  \ población total.</p>"
+COVERAGE: "<h1>Disponibilidad de datos</h1>\n<p>En total, el indicador está disponible\
+  \ para 100 países al menos a partir de una encuesta en los años 2011-2014.</p>\n\
+  <p>La UIT pone a disposición el indicador para cada año para 200 economías utilizando\
+  \ datos de encuestas y estimaciones para casi todos los países del mundo.</p>\n\
+  <h2>Desagregación:</h2>\n<p>Para los países que recopilan estos datos sobre la proporción\
+  \ de individuos que utilizan Internet a través de una encuesta oficial, y si los\
+  \ datos permiten el desglose y la desagregación, el indicador se puede desglosar\
+  \ por región (geográfica y/o urbana/rural), por sexo, por grupo de edad, por nivel\
+  \ educativo, por situación de la población activa y por ocupación. La UIT recoge\
+  \ datos de los países para todos estos desgloses.</p>"
+REG_AGG: "<h2>Agregados regionales:</h2>\n<p>Los datos a nivel de país sobre el porcentaje\
+  \ de individuos que utilizan Internet (usuarios de Internet como porcentaje de la\
+  \ población total) se estiman primero utilizando diversas técnicas, como la imputación\
+  \ en caliente, los modelos de regresión y la previsión de series temporales. La\
+  \ imputación en caliente utiliza datos de países con &#x201C;características similares&#x201D;,\
+  \ como el INB per cápita y la ubicación geográfica. Cuando no es posible encontrar\
+  \ una imputación adecuada basada en casos similares, se aplican modelos de regresión\
+  \ basados en un conjunto de países con características relativamente similares.</p>\n\
+  <p>Una vez que se dispone de los porcentajes a nivel de país para todos los países,\
+  \ se calcula el número de usuarios de Internet multiplicando los porcentajes por\
+  \ la población del país. El total de usuarios de Internet a nivel regional y mundial\
+  \ se ha calculado sumando los datos a nivel de país. Los porcentajes agregados se\
+  \ calcularon dividiendo los totales regionales por la población de los respectivos\
+  \ grupos.</p>"
+IMPUTATION: "<h2>Tratamiento de valores faltantes:</h2>\n<ul>\n  <li><strong><em>A\
+  \ nivel de país:</em></strong></li>\n</ul>\n<p>A falta de encuestas oficiales a\
+  \ los hogares, la UIT estima el porcentaje de personas que utilizan Internet (usuarios\
+  \ de Internet como porcentaje de la población total) mediante diversas técnicas,\
+  \ como la imputación en caliente, los modelos de regresión y la previsión de series\
+  \ temporales, utilizando datos como los ingresos, la educación y otros indicadores\
+  \ de las TIC.</p>\n<ul>\n  <li><strong><em>A nivel regional y mundial:</em></strong></li>\n\
+  </ul>\n<p>A falta de encuestas oficiales de hogares, la UIT estima el porcentaje\
+  \ de personas que utilizan Internet (usuarios de Internet como porcentaje de la\
+  \ población total) utilizando diversas técnicas, como la imputación en caliente,\
+  \ los modelos de regresión y la previsión de series temporales, utilizando datos\
+  \ como los ingresos, la educación y otros indicadores de las TIC.</p>"
+DATA_COMP: "<h1>Metodología</h1>\n<h2>Método de cálculo:</h2>\n<p>Para los países\
+  \ que recopilan datos sobre este indicador a través de una encuesta oficial, este\
+  \ indicador se calcula dividiendo el número total de personas incluidas en el ámbito\
+  \ de aplicación que han utilizado Internet (desde cualquier lugar) en los últimos\
+  \ 3 meses por el número total de personas incluidas en el ámbito de aplicación.\
+  \ Para los países que no han realizado una encuesta, los datos se estiman (por la\
+  \ UIT) basándose en el número de suscripciones a Internet y otros indicadores socioeconómicos\
+  \ (INB per cápita) y en los datos de las series temporales.</p>"
+REC_USE_LIM: "<h2>Comentarios y limitaciones:</h2>\n<p>Mientras que los datos sobre\
+  \ el porcentaje de personas que utilizan Internet son muy fiables para los países\
+  \ que han recogido los datos a través de encuestas oficiales a los hogares, son\
+  \ menos fiables en los casos en que el número de usuarios de Internet es estimado\
+  \ por la UIT. La UIT anima a todos los países a recopilar datos sobre este indicador\
+  \ a través de encuestas oficiales y el número de países con datos oficiales para\
+  \ este indicador está aumentando.</p>"
+RATIONALE: "<h2>Justificación:</h2>\n<p>Internet se ha convertido en una herramienta\
+  \ cada vez más importante para acceder a la información pública, lo que constituye\
+  \ un medio relevante para proteger las libertades fundamentales. El número de usuarios\
+  \ de Internet ha aumentado considerablemente en la última década y el acceso a la\
+  \ red ha cambiado la forma en que la gente vive, se comunica, trabaja y hace negocios.\
+  \ El uso de Internet es un indicador clave que los responsables políticos y otros\
+  \ siguen para medir el desarrollo de la sociedad de la información, y el crecimiento\
+  \ de los contenidos de Internet &#x2013;, incluidos los contenidos generados por\
+  \ los usuarios &#x2013;, proporciona acceso a cantidades cada vez mayores de información\
+  \ y servicios.</p>\n<p> A pesar del crecimiento de las redes, los servicios y las\
+  \ aplicaciones, el acceso y el uso de las tecnologías de la información y la comunicación\
+  \ (TIC) aún están lejos de estar distribuidos de forma equitativa, y muchas personas\
+  \ aún no pueden beneficiarse del potencial de Internet. Este indicador pone de relieve\
+  \ la importancia del uso de Internet como factor de desarrollo y ayuda a medir la\
+  \ brecha digital, que, si no se aborda adecuadamente, agravará las desigualdades\
+  \ en todos los ámbitos del desarrollo. Las variables clasificatorias de los individuos\
+  \ que utilizan Internet &#x2013;, como la edad, el sexo, el nivel educativo o la\
+  \ situación laboral &#x2013;, pueden ayudar a identificar las brechas digitales\
+  \ en los individuos que utilizan Internet. Esta información puede contribuir al\
+  \ diseño de políticas específicas para superar esas brechas.</p>\n<p> La proporción\
+  \ de personas que utilizan Internet es un indicador establecido y también uno de\
+  \ los tres indicadores de los Objetivos de Desarrollo del Milenio (ODM) relacionados\
+  \ con las TIC (para la meta 8F). Forma parte de la Lista Básica de Indicadores de\
+  \ la Asociación para la Medición de las TIC para el Desarrollo, que ha sido aprobada\
+  \ por la Comisión de Estadística de las Naciones Unidas (la última vez en 2014).\
+  \ También se incluye en el Índice de Desarrollo de las TIC de la UIT, por lo que\
+  \ se considera una métrica clave para las comparaciones internacionales de la evolución\
+  \ de las TIC.</p>"
+DATA_SOURCE: "<h1>Proveedores de datos</h1>\n<p>Oficina Nacional de Estadística (ONE)</p>"
+FREQ_COLL: "<h1>Calendario</h1>\n<h2>Recogida de datos:</h2>\n<p>Las estimaciones\
+  \ de fin de año se publican en junio del año siguiente a través de la base de datos\
+  \ de Indicadores de las Telecomunicaciones/TIC Mundiales de la UIT. Los datos también\
+  \ están disponibles sin coste alguno a través del Ojo de las TIC de la UIT, véase:\
+  \ <a href=\"http://www.itu.int/ITU-D/ict/%20\">http://www.itu.int/ITU-D/ict/</a>\
+  \ </p>"
+COLL_METHOD: "<h2>Proceso de recopilación:</h2>\n<p>Los datos sobre las personas que\
+  \ utilizan Internet se recogen a través de un cuestionario anual que la UIT envía\
+  \ a las oficinas nacionales de estadística (ONE). En este cuestionario la UIT recoge\
+  \ valores absolutos. Los porcentajes se calculan a posteriori. La metodología de\
+  \ la encuesta se verifica para garantizar que cumpla las normas estadísticas adecuadas.\
+  \ Los datos se verifican para garantizar la coherencia con los datos de años anteriores&#x2019;\
+  \ y la situación del país para otros indicadores relacionados (TIC y económicos).</p>"
+SOURCE_TYPE: "<h1>Fuentes de datos</h1>\n<h2>Descripción:</h2>\n<p>El indicador Proporción\
+  \ de personas que utilizan Internet se basa en una definición y una metodología\
+  \ acordadas internacionalmente, que se han desarrollado bajo la coordinación de\
+  \ la UIT, a través de sus Grupos de Expertos y tras un amplio proceso de consulta\
+  \ con los países. También es un indicador básico de la Lista Básica de Indicadores\
+  \ de la Asociación para la Medición de las TIC para el Desarrollo que ha sido aprobada\
+  \ por la Comisión de Estadística de las Naciones Unidas (la última vez en 2014).\
+  \ Los datos sobre las personas que utilizan Internet se recogen a través de un cuestionario\
+  \ anual que la UIT envía a las oficinas nacionales de estadística (ONE). En este\
+  \ cuestionario la UIT recoge valores absolutos. Los porcentajes se calculan a posteriori.\
+  \ La metodología de la encuesta se verifica para garantizar que cumpla las normas\
+  \ estadísticas adecuadas. Los datos se verifican para garantizar la coherencia con\
+  \ los datos de años anteriores&#x2019; y la situación del país para otros indicadores\
+  \ relacionados (TIC y económicos).</p>\n<p> En la mayoría de los países desarrollados\
+  \ y en un número creciente de países en desarrollo, los datos sobre el porcentaje\
+  \ de personas que utilizan Internet se basan en encuestas a hogares metodológicamente\
+  \ sólidas realizadas por los organismos nacionales de estadística. Si el organismo\
+  \ nacional de estadística no ha recopilado estadísticas de usuarios de Internet,\
+  \ la UIT estima el porcentaje de individuos que utilizan Internet.</p>\n<p> Los\
+  \ datos no suelen estar ajustados, pero las discrepancias en la definición, el ámbito\
+  \ de edad de los individuos, el periodo de referencia o la ruptura de la comparabilidad\
+  \ entre años se señalan en una nota de datos. Por este motivo, los datos no siempre\
+  \ son estrictamente comparables.</p>\n<p>Algunos países realizan una encuesta de\
+  \ hogares en la que la pregunta sobre el uso de Internet se incluye cada año. En\
+  \ otros, la frecuencia es cada dos o tres años. En general, el indicador está disponible\
+  \ para 100 países al menos a partir de una encuesta en los años 2011-2014.</p>\n\
+  <p>La UIT pone a disposición el indicador para cada año para 200 economías utilizando\
+  \ datos de encuestas y estimaciones para casi todos los países del mundo.</p>"
+STAT_CONC_DEF: "<h1>Conceptos y definiciones</h1>\n<h2>Definición:</h2>\n<p>El indicador\
+  \ Proporción de individuos que utilizan Internet se define como la proporción de\
+  \ individuos que utilizaron Internet desde cualquier lugar en los últimos tres meses.</p>\n\
+  <h2>Conceptos:</h2>\n<p>Internet es una red informática pública mundial. Proporciona\
+  \ acceso a una serie de servicios de comunicación, incluida la World Wide Web, y\
+  \ transmite correo electrónico, noticias, entretenimiento y archivos de datos, independientemente\
+  \ del dispositivo que se utilice (no se supone que sea solo a través de un ordenador,\
+  \ también puede ser por teléfono móvil, tableta, PDA, máquina de juegos, televisión\
+  \ digital, etc.). El acceso puede ser a través de una red fija o móvil.</p>"
+SDG_RELATED_INDICATORS: "<h1> Indicadores relacionados a febrero de 2020</h1>\n<p>1.4,\
+  \ 2.c, 4.3, 4.4, 5.b, 9.c, 10.3, 12.8, 16.10, 16.6, 16.7, 16.10, 17.6</p>"
