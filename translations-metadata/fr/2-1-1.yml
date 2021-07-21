@@ -166,17 +166,17 @@ REL_CAL_POLICY: |-
 DATA_SOURCE: >-
   <h1> Fournisseurs de données </h1>
 
-  <p>Compte tenu des diverses sources de données, les fournisseurs de données
-  nationaux varient. Les informations officielles sur la production, le commerce
-  et l'utilisation des produits alimentaires utilisés par la FAO pour établir
-  les bilans alimentaires sont principalement fournies par les unités
-  statistiques des ministères de l'agriculture. Les microdonnées des enquêtes
-  auprès des ménages sont généralement fournies par les BNS. </p>
+  <p>Compte tenu des diverses sources de données, les fournisseurs de données nationaux
+  varient. Les informations officielles sur la production, le commerce et l'utilisation
+  des produits alimentaires utilisés par la FAO pour établir les bilans alimentaires
+  sont principalement fournies par les unités statistiques des ministères de l'agriculture.
+  Les microdonnées des enquêtes auprès des ménages sont généralement fournies par
+  les BNS. </p>
 COMPILING_ORG: >-
   <h1>Compilateur de données </h1>
 
-  <p>FAO, Division des statistiques, Équipe des statistiques sur la sécurité
-  alimentaire et la nutrition.</p>
+  <p>FAO, Division des statistiques, Équipe des statistiques sur la sécurité alimentaire
+  et la nutrition.</p>
 RATIONALE: >-
   <h2>Justification : </h2>
 
@@ -542,15 +542,15 @@ IMPUTATION: >-
 REG_AGG: >-
   <h2>Agrégats régionaux : </h2>
 
-  <p>Les agrégats régionaux et mondiaux de la prévalence de la sous-alimentation
-  (PoU) sont calculés comme suit :</p>
+  <p>Les agrégats régionaux et mondiaux de la prévalence de la sous-alimentation (PoU)
+  sont calculés comme suit :</p>
 
   <p>PoU_REG = (_i PoU_i &#xD7; N_i) / (_i N_i) </p>
 
-  <p>où PoU_i correspond aux valeurs de la prévalence de la sous-alimentation
-  estimées pour tous les pays dans les régions pour lesquelles les données
-  disponibles permettent de calculer une estimation fiable, et N_i correspond à
-  la taille de la population correspondante.</p>
+  <p>où PoU_i correspond aux valeurs de la prévalence de la sous-alimentation estimées
+  pour tous les pays dans les régions pour lesquelles les données disponibles permettent
+  de calculer une estimation fiable, et N_i correspond à la taille de la population
+  correspondante.</p>
 DOC_METHOD: >-
   <h2>Méthodes et instructions à la disposition des pays pour la compilation des données
   au niveau national : </h2>
@@ -651,19 +651,18 @@ DOC_METHOD: >-
 QUALITY_ASSURE: >-
   <h2> Assurance de la qualité : </h2>
 
-  <p>Programme de renforcement des capacités pour les bilans alimentaires en
-  coopération avec la Stratégie mondiale (plus de détails peuvent être fournis
-  si nécessaire); le développement des capacités en coopération avec l'équipe
-  ESS de la sécurité alimentaire sous la forme d'un ensemble de documents
-  (financé par des projets); et le développement direct des capacités sur la
-  base des demandes directes spécifiques des pays.</p>
+  <p>Programme de renforcement des capacités pour les bilans alimentaires en coopération
+  avec la Stratégie mondiale (plus de détails peuvent être fournis si nécessaire);
+  le développement des capacités en coopération avec l'équipe ESS de la sécurité alimentaire
+  sous la forme d'un ensemble de documents (financé par des projets); et le développement
+  direct des capacités sur la base des demandes directes spécifiques des pays.</p>
 COVERAGE: >-
   <h1> Disponibilité des données </h1>
 
   <h2> Description : </h2>
 
-  <p> Depuis 2017, la FAO a publié des estimations distinctes de la prévalence
-  de la sous-alimentation pour 170 pays, réparties comme suit : </p>
+  <p> Depuis 2017, la FAO a publié des estimations distinctes de la prévalence de
+  la sous-alimentation pour 170 pays, réparties comme suit : </p>
 
   <p> Monde 170 </p>
 
@@ -723,9 +722,9 @@ COVERAGE: >-
 
   <p> Europe occidentale 7 </p>
 
-  <p> Alors que les estimations au niveau des pays sont présentées sous forme de
-  moyennes sur trois ans, les estimations régionales et mondiales sont des
-  estimations annuelles. </p>
+  <p> Alors que les estimations au niveau des pays sont présentées sous forme de moyennes
+  sur trois ans, les estimations régionales et mondiales sont des estimations annuelles.
+  </p>
 
   <h2> Séries chronologiques :  </h2>
 
@@ -735,81 +734,77 @@ COVERAGE: >-
 
   <h2>Désagrégation : </h2>
 
-  <p>En raison de la dépendance à l'égard des données des bilans alimentaires
-  nationaux pour estimer les niveaux moyens de consommation calorique dans la
-  population, le suivi mondial de la cible 1C des OMD et de la cible du Sommet
-  mondial sur l'alimentation a été basé sur les estimations de la prévalence de
-  la sous-alimentation au niveau national uniquement. </p>
+  <p>En raison de la dépendance à l'égard des données des bilans alimentaires nationaux
+  pour estimer les niveaux moyens de consommation calorique dans la population, le
+  suivi mondial de la cible 1C des OMD et de la cible du Sommet mondial sur l'alimentation
+  a été basé sur les estimations de la prévalence de la sous-alimentation au niveau
+  national uniquement. </p>
 
-  <p>En principe, l'indicateur peut être calculé pour n'importe quel groupe de
-  population spécifique, à condition qu'il existe suffisamment d'informations
-  précises pour caractériser les paramètres du modèle pour ce groupe spécifique,
-  c'est-à-dire que des données sur les niveaux de consommation alimentaire du
-  groupe, sa structure par âge/sexe et ses niveaux d'activité physique
-  existent.</p>
+  <p>En principe, l'indicateur peut être calculé pour n'importe quel groupe de population
+  spécifique, à condition qu'il existe suffisamment d'informations précises pour caractériser
+  les paramètres du modèle pour ce groupe spécifique, c'est-à-dire que des données
+  sur les niveaux de consommation alimentaire du groupe, sa structure par âge/sexe
+  et ses niveaux d'activité physique existent.</p>
 
-  <p> La possibilité de désagrégation est étroitement liée à la disponibilité
-  d'enquêtes conçues pour être représentatives au niveau des groupes de
-  population infranationaux. Compte tenu de la pratique courante dans la
-  conception des enquêtes nationales auprès des ménages, il est rare que des
-  informations fiables suffisantes soient disponibles pour une désagrégation
-  au-delà du niveau de la macro-zone de résidence (urbaine-rurale) et des
-  principales provinces/divisions d'un pays. Dans la mesure où la plupart des
-  enquêtes utilisées sont conçues pour capturer avec précision la distribution
-  des revenus, l'inférence peut être tirée sur la prévalence de la
-  sous-alimentation dans différentes catégories de revenus de la population. La
-  désagrégation par sexe est limitée par la possibilité d'identifier et de
-  regrouper les ménages en fonction des informations liées au genre (comme le
-  sexe du chef de ménage ou le ratio hommes/femmes). </p>
+  <p> La possibilité de désagrégation est étroitement liée à la disponibilité d'enquêtes
+  conçues pour être représentatives au niveau des groupes de population infranationaux.
+  Compte tenu de la pratique courante dans la conception des enquêtes nationales auprès
+  des ménages, il est rare que des informations fiables suffisantes soient disponibles
+  pour une désagrégation au-delà du niveau de la macro-zone de résidence (urbaine-rurale)
+  et des principales provinces/divisions d'un pays. Dans la mesure où la plupart des
+  enquêtes utilisées sont conçues pour capturer avec précision la distribution des
+  revenus, l'inférence peut être tirée sur la prévalence de la sous-alimentation dans
+  différentes catégories de revenus de la population. La désagrégation par sexe est
+  limitée par la possibilité d'identifier et de regrouper les ménages en fonction
+  des informations liées au genre (comme le sexe du chef de ménage ou le ratio hommes/femmes).
+  </p>
 COMPARABILITY: >-
   <h2> Sources de divergences : </h2>
 
-  <p>De nombreux pays ont produit et diffusé des estimations de la prévalence de
-  la sous-alimentation, y compris dans leurs rapports nationaux sur les OMD,
-  mais en utilisant presque toujours une méthodologie différente de celle
-  élaborée par la FAO, ce qui rend les chiffres nationaux non comparables à ceux
-  communiqués par la FAO.</p>
+  <p>De nombreux pays ont produit et diffusé des estimations de la prévalence de la
+  sous-alimentation, y compris dans leurs rapports nationaux sur les OMD, mais en
+  utilisant presque toujours une méthodologie différente de celle élaborée par la
+  FAO, ce qui rend les chiffres nationaux non comparables à ceux communiqués par la
+  FAO.</p>
 
-  <p> L'approche la plus couramment utilisée dans la préparation des rapports
-  nationaux a été de calculer le pourcentage de ménages pour lesquels la
-  consommation énergétique alimentaire quotidienne moyenne par habitant est
-  inférieure aux seuils de l'apport alimentaire quotidien recommandé,
-  généralement fixé à 2 100,00 kcal, basé sur les données d'enquêtes auprès des
-  ménages. Dans certains cas, des seuils inférieurs d'environ 1 400,00 kcal ont
-  également été utilisés, probablement en réaction au fait que les pourcentages
-  de ménages déclarant une consommation quotidienne moyenne inférieure à 2
-  100,00 kcal par habitant donnaient des estimations invraisemblablement élevées
-  de la prévalence de la sous-alimentation. </p>
+  <p> L'approche la plus couramment utilisée dans la préparation des rapports nationaux
+  a été de calculer le pourcentage de ménages pour lesquels la consommation énergétique
+  alimentaire quotidienne moyenne par habitant est inférieure aux seuils de l'apport
+  alimentaire quotidien recommandé, généralement fixé à 2 100,00 kcal, basé sur les
+  données d'enquêtes auprès des ménages. Dans certains cas, des seuils inférieurs
+  d'environ 1 400,00 kcal ont également été utilisés, probablement en réaction au
+  fait que les pourcentages de ménages déclarant une consommation quotidienne moyenne
+  inférieure à 2 100,00 kcal par habitant donnaient des estimations invraisemblablement
+  élevées de la prévalence de la sous-alimentation. </p>
 
-  <p> Presque sans exception, aucune considération liée à la présence d'une
-  variabilité excessive dans les données de consommation énergétique alimentaire
-  n'est faite, et les rapports révèlent des progrès limités ou nuls dans la
-  réduction de la prévalence de la sous-alimentation au fil du temps. </p>
+  <p> Presque sans exception, aucune considération liée à la présence d'une variabilité
+  excessive dans les données de consommation énergétique alimentaire n'est faite,
+  et les rapports révèlent des progrès limités ou nuls dans la réduction de la prévalence
+  de la sous-alimentation au fil du temps. </p>
 
-  <p>Tel qu’indiqué dans la section Méthode de calcul, les résultats obtenus
-  grâce à ces méthodes alternatives sont très peu fiables et très certainement
-  biaisés en faveur d'une surestimation. Il est donc souhaitable qu'un effort
-  concerté soit fait pour plaider en faveur de l'utilisation des méthodes de la
-  FAO dans la préparation des rapports nationaux. La FAO est prête à fournir
-  tout le soutien technique nécessaire.</p>
+  <p>Tel qu’indiqué dans la section Méthode de calcul, les résultats obtenus grâce
+  à ces méthodes alternatives sont très peu fiables et très certainement biaisés en
+  faveur d'une surestimation. Il est donc souhaitable qu'un effort concerté soit fait
+  pour plaider en faveur de l'utilisation des méthodes de la FAO dans la préparation
+  des rapports nationaux. La FAO est prête à fournir tout le soutien technique nécessaire.</p>
 OTHER_DOC: >-
   <h1> Références </h1>
 
   <h2> URL : </h2>
 
-  <p> <a href="http://www.fao.org/economic/ess/ess-fs/fr/">
-  http://www.fao.org/economic/ess/ess-fs/fr/ </a> </p>
+  <p> <a href="http://www.fao.org/economic/ess/ess-fs/fr/"> http://www.fao.org/economic/ess/ess-fs/fr/
+  </a> </p>
 
   <p> <strong> Références : </strong> </p>
 
-  <p> <a href="http://www.fao.org/docrep/012/w0931e/w0931e16.pdf%20">
-  http://www.fao.org/docrep/012/w0931e/w0931e16.pdf </a> </p>
+  <p> <a href="http://www.fao.org/docrep/012/w0931e/w0931e16.pdf%20"> http://www.fao.org/docrep/012/w0931e/w0931e16.pdf
+  </a> </p>
 
-  <p> <a href="http://www.fao.org/docrep/005/Y4249E/y4249e06.htm%23bm06%20">
-  http://www.fao.org/docrep/005/Y4249E/y4249e06.htm#bm06 </a> </p>
+  <p> <a href="http://www.fao.org/docrep/005/Y4249E/y4249e06.htm%23bm06%20"> http://www.fao.org/docrep/005/Y4249E/y4249e06.htm#bm06
+  </a> </p>
 
-  <p> <a href="http://www.fao.org/3/a-i4060e.pdf%20">
-  http://www.fao.org/3/a-i4060e.pdf </a> </p>
+  <p> <a href="http://www.fao.org/3/a-i4060e.pdf%20"> http://www.fao.org/3/a-i4060e.pdf
+  </a> </p>
 
-  <p> <a href="http://www.fao.org/3/a-i4046e.pdf">
-  http://www.fao.org/3/a-i4046e.pdf </a> </p>
+  <p> <a href="http://www.fao.org/3/a-i4046e.pdf"> http://www.fao.org/3/a-i4046e.pdf
+  </a> </p>
