@@ -142,7 +142,7 @@ module SdgMetadataPlugins
           toc = translated_fields.map do |c|
             # Look for a translated name.
             translated_name = site.data['store']['t'][language]['concepts'][c['id']]
-            if translated_name == ''
+            if translated_name == '' || translated_name == nil
               # But fall back to English.
               translated_name = c['name']
             end
