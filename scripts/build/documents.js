@@ -15,7 +15,7 @@ module.exports = function(refresh=false) {
     }
 
     const docOptions = {
-        layout: 'iaeg-sdg.njk',
+        layout: 'harmonized.njk',
         layoutFolder: path.join(__dirname, 'layouts'),
         conceptNames: true,
         conceptTranslations: conceptTranslations,
