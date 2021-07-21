@@ -95,26 +95,25 @@ DATA_SOURCE: >-
 COMPILING_ORG: >-
   <h1> Compilateurs de données</h1>
 
-  <p> Fonds des Nations Unies pour l’enfance (UNICEF), Organisation mondiale de
-  la Santé (OMS)</p>
+  <p> Fonds des Nations Unies pour l’enfance (UNICEF), Organisation mondiale de la
+  Santé (OMS)</p>
 RATIONALE: >-
   <h2> Justification : </h2>
 
-  <p> Avoir un préposé qualifié au moment de l'accouchement est une intervention
-  vitale importante pour les femmes et les bébés. Le fait de ne pas avoir accès
-  à cette assistance essentielle est préjudiciable à la santé des femmes car
-  cela pourrait entraîner la mort des femmes ou une morbidité durable, en
-  particulier dans les milieux vulnérables. </p>
+  <p> Avoir un préposé qualifié au moment de l'accouchement est une intervention vitale
+  importante pour les femmes et les bébés. Le fait de ne pas avoir accès à cette assistance
+  essentielle est préjudiciable à la santé des femmes car cela pourrait entraîner
+  la mort des femmes ou une morbidité durable, en particulier dans les milieux vulnérables.
+  </p>
 DATA_COMP: >-
   <h1> Méthodologie </h1>
 
   <h2> Méthode de calcul : </h2>
 
-  <p> Le nombre de femmes âgées de 15 à 49 ans avec une naissance vivante
-  assistée par un personnel de santé qualifié (par exemple, médecins,
-  infirmières ou sages-femmes) pendant l'accouchement est exprimé en pourcentage
-  de femmes âgées de 15 à 49 ans ayant une naissance vivante au cours de la même
-  période. </p>
+  <p> Le nombre de femmes âgées de 15 à 49 ans avec une naissance vivante assistée
+  par un personnel de santé qualifié (par exemple, médecins, infirmières ou sages-femmes)
+  pendant l'accouchement est exprimé en pourcentage de femmes âgées de 15 à 49 ans
+  ayant une naissance vivante au cours de la même période. </p>
 IMPUTATION: >-
   <h2> Traitement des valeurs manquantes :</h2>
 
@@ -122,17 +121,17 @@ IMPUTATION: >-
     <li> <strong> <em> Au niveau national :</em></strong></li>
   </ul>
 
-  <p> Il n’y a pas de traitement des valeurs manquantes au niveau des pays. Si
-  la valeur est manquante pour une année donnée, il n’y a pas de déclaration de
-  cette valeur. </p>
+  <p> Il n’y a pas de traitement des valeurs manquantes au niveau des pays. Si la
+  valeur est manquante pour une année donnée, il n’y a pas de déclaration de cette
+  valeur. </p>
 
   <ul>
     <li> <strong> <em> Aux niveaux régional et mondial :</em></strong></li>
   </ul>
 
-  <p> Les valeurs manquantes ne sont pas imputées aux niveaux régional et
-  mondial. La dernière année disponible au cours de chaque période est utilisée
-  pour le calcul de la moyenne régionale et mondiale. </p>
+  <p> Les valeurs manquantes ne sont pas imputées aux niveaux régional et mondial.
+  La dernière année disponible au cours de chaque période est utilisée pour le calcul
+  de la moyenne régionale et mondiale. </p>
 REG_AGG: >-
   <h2> Agrégats régionaux : </h2>
 
