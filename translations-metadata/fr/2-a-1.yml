@@ -13,8 +13,7 @@ SDG_CUSTODIAN_AGENCIES: >-
 
   <h2> <strong> <strong> Organisation(s) :</strong></strong></h2>
 
-  <p> Organisation des Nations Unies pour l’alimentation et l’agriculture
-  (FAO)</p>
+  <p> Organisation des Nations Unies pour l’alimentation et l’agriculture (FAO)</p>
 STAT_CONC_DEF: >-
   <h1>Concepts et définitions</h1>
 
@@ -89,19 +88,18 @@ FREQ_COLL: >-
 
   <h2><strong><strong>Collecte de données :</strong></strong></h2>
 
-  <p>La collecte des données de 2019 sur les dépenses publiques en matière
-  d'agriculture commencera en mai 2020. En raison du temps nécessaire pour
-  collecter, compiler et publier les données nationales, très peu de pays seront
-  en mesure de fournir les données de l'année de référence 2019 pour le cycle de
-  collecte de données du printemps 2020 de la FAO.</p>
+  <p>La collecte des données de 2019 sur les dépenses publiques en matière d'agriculture
+  commencera en mai 2020. En raison du temps nécessaire pour collecter, compiler et
+  publier les données nationales, très peu de pays seront en mesure de fournir les
+  données de l'année de référence 2019 pour le cycle de collecte de données du printemps
+  2020 de la FAO.</p>
 REL_CAL_POLICY: >-
   <h2><strong><strong>Publication des données :</strong></strong></h2>
 
-  <p>Comme ces données sont en grande partie compilées annuellement, la
-  prochaine publication de cet indicateur est prévue pour novembre 2020 et
-  couvrira les données jusqu'à l'année de référence 2019 (pour les pays pour
-  lesquels la collecte, la compilation et la publication des données sont plus
-  rapides).</p>
+  <p>Comme ces données sont en grande partie compilées annuellement, la prochaine
+  publication de cet indicateur est prévue pour novembre 2020 et couvrira les données
+  jusqu'à l'année de référence 2019 (pour les pays pour lesquels la collecte, la compilation
+  et la publication des données sont plus rapides).</p>
 DATA_SOURCE: >-
   <h1>Fournisseurs de données</h1>
 
@@ -110,8 +108,7 @@ DATA_SOURCE: >-
 COMPILING_ORG: >-
   <h1> Compilateurs de données</h1>
 
-  <p> Organisation des Nations Unies pour l’alimentation et l’agriculture
-  (FAO)</p>
+  <p> Organisation des Nations Unies pour l’alimentation et l’agriculture (FAO)</p>
 RATIONALE: >-
   <h2> <strong> <strong> Justification :</strong></strong></h2>
 
@@ -177,41 +174,40 @@ RATIONALE: >-
 REC_USE_LIM: >-
   <h2><strong><strong>Commentaires et limites : </strong></strong></h2>
 
-  <p>Comme le numérateur de ces données est basé sur des sources
-  administratives, il n'y a pas d'intervalle de confiance ou d'erreur type
-  associé aux données sur les dépenses publiques. Pour le dénominateur, les
-  données des comptes nationaux ne fournissent généralement aucune information
-  sur l'erreur type ou l'intervalle de confiance.</p>
+  <p>Comme le numérateur de ces données est basé sur des sources administratives,
+  il n'y a pas d'intervalle de confiance ou d'erreur type associé aux données sur
+  les dépenses publiques. Pour le dénominateur, les données des comptes nationaux
+  ne fournissent généralement aucune information sur l'erreur type ou l'intervalle
+  de confiance.</p>
 
-  <p>La principale limite de cet indicateur est qu'il ne prend en compte que les
-  dépenses du gouvernement central. Dans la mesure où certains pays peuvent
-  avoir une intervention plus importante des gouvernements infranationaux dans
-  l'agriculture, cela ne sera pas pris en compte.</p>
+  <p>La principale limite de cet indicateur est qu'il ne prend en compte que les dépenses
+  du gouvernement central. Dans la mesure où certains pays peuvent avoir une intervention
+  plus importante des gouvernements infranationaux dans l'agriculture, cela ne sera
+  pas pris en compte.</p>
 DATA_COMP: >-
   <h1>Méthodologie</h1>
 
   <h2><strong><strong>Méthode de calcul :</strong></strong></h2>
 
-  <p>IOA = Part de l'agriculture dans les dépenses publiques/part de la valeur
-  ajoutée de l'agriculture dans le PIB </p>
+  <p>IOA = Part de l'agriculture dans les dépenses publiques/part de la valeur ajoutée
+  de l'agriculture dans le PIB </p>
 
   <p> Où : </p>
 
   <p>Part de l'agriculture dans les dépenses publiques = </p>
 
-  <p>(Dépenses du gouvernement central pour l'agriculture/dépenses totales du
-  gouvernement central) * 100 </p>
+  <p>(Dépenses du gouvernement central pour l'agriculture/dépenses totales du gouvernement
+  central) * 100 </p>
 
-  <p>L'agriculture se réfère à la catégorie 042 du CFAP (agriculture,
-  foresterie, pêche et chasse) ; et </p>
+  <p>L'agriculture se réfère à la catégorie 042 du CFAP (agriculture, foresterie,
+  pêche et chasse) ; et </p>
 
   <p>Part de la valeur ajoutée agricole dans le PIB = </p>
 
   <p>(Valeur ajoutée agricole/PIB)* 100 </p>
 
-  <p> L'agriculture désigne la division A de la CITI Rév. 4 (agriculture,
-  foresterie, pêche et chasse), égale à la division A+B de la CITI Rév. 3.2.
-  </p>
+  <p> L'agriculture désigne la division A de la CITI Rév. 4 (agriculture, foresterie,
+  pêche et chasse), égale à la division A+B de la CITI Rév. 3.2. </p>
 IMPUTATION: >-
   <h2><strong><strong>Traitement des valeurs manquantes : </strong></strong></h2>
 
@@ -263,12 +259,11 @@ COVERAGE: >-
 COMPARABILITY: >-
   <h2><strong><strong>Sources des écarts : </strong></strong></h2>
 
-  <p>Comme la FAO ne modifie pas les données sur les dépenses publiques
-  communiquées par les pays et utilise les estimations des comptes nationaux
-  publiées par la Division des statistiques des Nations Unies (où certaines
-  données nationales peuvent être imputées), il ne devrait pas y avoir de
-  différence entre les données communiquées par la FAO et les chiffres
-  nationaux.</p>
+  <p>Comme la FAO ne modifie pas les données sur les dépenses publiques communiquées
+  par les pays et utilise les estimations des comptes nationaux publiées par la Division
+  des statistiques des Nations Unies (où certaines données nationales peuvent être
+  imputées), il ne devrait pas y avoir de différence entre les données communiquées
+  par la FAO et les chiffres nationaux.</p>
 OTHER_DOC: >-
   <h1>Références</h1>
 

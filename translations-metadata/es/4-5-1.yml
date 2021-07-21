@@ -1,24 +1,21 @@
 SDG_GOAL: >-
-  <p>Objetivo 4: Garantizar una educación inclusiva y equitativa de calidad y
-  promover oportunidades de aprendizaje permanente para todos</p>
+  <p>Objetivo 4: Garantizar una educación inclusiva y equitativa de calidad y promover
+  oportunidades de aprendizaje permanente para todos</p>
 SDG_TARGET: >-
-  <p>Meta 4.5: De aquí a 2030, eliminar las disparidades de género en la
-  educación y asegurar el acceso igualitario a todos los niveles de la enseñanza
-  y la formación profesional para las personas vulnerables, incluidas las
-  personas con discapacidad, los pueblos indígenas y los niños en situaciones de
-  vulnerabilidad</p>
+  <p>Meta 4.5: De aquí a 2030, eliminar las disparidades de género en la educación
+  y asegurar el acceso igualitario a todos los niveles de la enseñanza y la formación
+  profesional para las personas vulnerables, incluidas las personas con discapacidad,
+  los pueblos indígenas y los niños en situaciones de vulnerabilidad</p>
 SDG_INDICATOR: >-
-  <p>Indicador 4.5.1: Índices de paridad (entre mujeres y hombres, zonas rurales
-  y urbanas, quintiles de riqueza superior e inferior y grupos como los
-  discapacitados, los pueblos indígenas y los afectados por los conflictos, a
-  medida que se disponga de datos) para todos los indicadores educativos de esta
-  lista que puedan desglosarse</p>
+  <p>Indicador 4.5.1: Índices de paridad (entre mujeres y hombres, zonas rurales y
+  urbanas, quintiles de riqueza superior e inferior y grupos como los discapacitados,
+  los pueblos indígenas y los afectados por los conflictos, a medida que se disponga
+  de datos) para todos los indicadores educativos de esta lista que puedan desglosarse</p>
 META_LAST_UPDATE: '<p>Última actualización: 19 de julio de 2016</p>'
 SDG_RELATED_INDICATORS: >-
   <h1>Indicadores relacionados</h1>
 
-  <p>Todos los objetivos de equidad y los objetivos asociados a los indicadores
-  subyacentes.</p>
+  <p>Todos los objetivos de equidad y los objetivos asociados a los indicadores subyacentes.</p>
 SDG_CUSTODIAN_AGENCIES: |-
   <h1> Información institucional </h1>
   <h2> <strong> <strong> Organización (es): </strong> </strong> </h2>
@@ -28,11 +25,10 @@ STAT_CONC_DEF: >-
 
   <h2> <strong><strong> Definición:</strong></strong></h2>
 
-  <p> Los índices de paridad requieren datos para los grupos específicos de
-  interés. Representan la relación entre el valor del indicador de un grupo y el
-  del otro. Normalmente, el grupo probablemente más desfavorecido se coloca en
-  el numerador. Un valor de exactamente 1 indica la paridad entre los dos
-  grupos. </p>
+  <p> Los índices de paridad requieren datos para los grupos específicos de interés.
+  Representan la relación entre el valor del indicador de un grupo y el del otro.
+  Normalmente, el grupo probablemente más desfavorecido se coloca en el numerador.
+  Un valor de exactamente 1 indica la paridad entre los dos grupos. </p>
 
   <h2> <strong><strong> Conceptos:</strong></strong></h2>
 
@@ -42,8 +38,8 @@ SOURCE_TYPE: >-
 
   <h2> <strong><strong> Descripción:</strong></strong></h2>
 
-  <p> Las fuentes son las mismas que para los indicadores subyacentes para este
-  objetivo. </p>
+  <p> Las fuentes son las mismas que para los indicadores subyacentes para este objetivo.
+  </p>
 COLL_METHOD: |-
   <h2><strong><strong> Proceso de recolección:</strong></strong></h2>
   <p> Lo mismo que el indicador subyacente. </p>
@@ -63,22 +59,22 @@ COMPILING_ORG: |-
 RATIONALE: >-
   <h2> <strong><strong> Justificación: </strong></strong> </h2>
 
-  <p> Medir el nivel general de disparidad entre dos subpoblaciones de interés
-  con respecto a un indicador determinado. Cuanto más lejos de 1 esté el índice
-  de paridad, mayor será la disparidad entre los dos grupos de interés. </p>
+  <p> Medir el nivel general de disparidad entre dos subpoblaciones de interés con
+  respecto a un indicador determinado. Cuanto más lejos de 1 esté el índice de paridad,
+  mayor será la disparidad entre los dos grupos de interés. </p>
 REC_USE_LIM: >-
   <h2><strong><strong> Comentarios y limitaciones:</strong></strong></h2>
 
-  <p> El indicador no es simétrico sobre 1, pero una simple transformación puede
-  hacerlo (invirtiendo relaciones que superan 1 y restándolas de 2). Esto
-  facilitará la interpretación. </p>
+  <p> El indicador no es simétrico sobre 1, pero una simple transformación puede hacerlo
+  (invirtiendo relaciones que superan 1 y restándolas de 2). Esto facilitará la interpretación.
+  </p>
 DATA_COMP: >-
   <h1> Metodología</h1>
 
   <h2> <strong> <strong> Método de cálculo:</strong> </strong> </h2>
 
-  <p> El valor del indicador del grupo probablemente más desfavorecido se divide
-  por el valor del indicador de la otra subpoblación de interés. </p>
+  <p> El valor del indicador del grupo probablemente más desfavorecido se divide por
+  el valor del indicador de la otra subpoblación de interés. </p>
 
   <p> DPI = [Indi]d</p>
 
@@ -86,20 +82,17 @@ DATA_COMP: >-
 
   <p> donde:</p>
 
-  <p> DPI = Índice de paridad de la dimensión (género, riqueza, ubicación, etc.)
+  <p> DPI = Índice de paridad de la dimensión (género, riqueza, ubicación, etc.) </p>
+
+  <p> Indi = el Indicador de educación 2030 i para el que se necesita una medida de
+  equidad. </p>
+
+  <p>d = el grupo probablemente desfavorecido (por ejemplo, mujeres, más pobres, etc.)
   </p>
 
-  <p> Indi = el Indicador de educación 2030 i para el que se necesita una medida
-  de equidad. </p>
-
-  <p>d = el grupo probablemente desfavorecido (por ejemplo, mujeres, más pobres,
-  etc.) </p>
-
-  <p>a = el grupo probablemente favorecido (por ejemplo, hombre, más rico, etc.)
-  </p>
+  <p>a = el grupo probablemente favorecido (por ejemplo, hombre, más rico, etc.) </p>
 IMPUTATION: >-
-  <h2> <strong><strong> Tratamiento de valores faltantes:</strong></strong>
-  </h2>
+  <h2> <strong><strong> Tratamiento de valores faltantes:</strong></strong> </h2>
 
   <ul>
     <li> <strong><em> A nivel de país:</em></strong></li>
@@ -122,8 +115,8 @@ COVERAGE: >-
 
   <h2><strong><strong>Disaggregation:</strong></strong></h2>
 
-  <p>Ninguna porque los índices de paridad comparan directamente dos
-  subpoblaciones de interés.</p>
+  <p>Ninguna porque los índices de paridad comparan directamente dos subpoblaciones
+  de interés.</p>
 COMPARABILITY: |-
   <h2> <strong><strong> Fuentes de discrepancias:</strong></strong> </h2>
   <p> Lo mismo que el indicador subyacente. </p>
@@ -132,8 +125,7 @@ OTHER_DOC: >-
 
   <h2> <strong><strong> URL:</strong></strong> </h2>
 
-  <p> <a
-  href="http://www.uis.unesco.org/Pages/default.aspx">http://www.uis.unesco.org/Pages/default.aspx</a>
+  <p> <a href="http://www.uis.unesco.org/Pages/default.aspx">http://www.uis.unesco.org/Pages/default.aspx</a>
   </p>
 
   <h2> <strong><strong> Referencias:</strong></strong></h2>

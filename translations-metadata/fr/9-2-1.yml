@@ -2,10 +2,10 @@ SDG_GOAL: >-
   <p>Objectif 9 : Bâtir une infrastructure résiliente, promouvoir une industrialisation
   durable qui profite à tous et encourager l'innovation.</p>
 SDG_TARGET: >-
-  <p>Cible 9.2 : Promouvoir une industrialisation durable qui profite à tous et,
-  d'ici à 2030, augmenter nettement la contribution de l'industrie à l'emploi et
-  au produit intérieur brut, en fonction du contexte national, et la multiplier
-  par deux dans les pays les moins avancés</p>
+  <p>Cible 9.2 : Promouvoir une industrialisation durable qui profite à tous et, d'ici
+  à 2030, augmenter nettement la contribution de l'industrie à l'emploi et au produit
+  intérieur brut, en fonction du contexte national, et la multiplier par deux dans
+  les pays les moins avancés</p>
 SDG_INDICATOR: "<p>Indicateur 9.2.1: Valeur ajoutée dans l’industrie manufacturière,\
   \ en proportion du PIB et par habitant</p>"
 META_LAST_UPDATE: '<p> Dernière mise à jour : Mars 2020 </p>'
@@ -14,111 +14,103 @@ SDG_CUSTODIAN_AGENCIES: >-
 
   <h2> Organisation(s) :</h2>
 
-  <p> Organisation des Nations Unies pour le développement industriel
-  (ONUDI)</p>
+  <p> Organisation des Nations Unies pour le développement industriel (ONUDI)</p>
 STAT_CONC_DEF: >-
   <h1> Concepts et définitions</h1>
 
   <h2> Définition:</h2>
 
-  <p> La valeur ajoutée manufacturière (MVA) en proportion du produit intérieur
-  brut (PIB) est un ratio entre l’ACV et le PIB, tous deux déclarés en dollars
-  américains constants en 2015. </p>
+  <p> La valeur ajoutée manufacturière (MVA) en proportion du produit intérieur brut
+  (PIB) est un ratio entre l’ACV et le PIB, tous deux déclarés en dollars américains
+  constants en 2015. </p>
 
-  <p> MVA par habitant est calculé en divisant MVA en USD constant 2015 par
-  population d’un pays ou d’une région. </p>
+  <p> MVA par habitant est calculé en divisant MVA en USD constant 2015 par population
+  d’un pays ou d’une région. </p>
 
   <h2> Concepts:</h2>
 
-  <p> La valeur ajoutée brute mesure la contribution à l’économie de chaque
-  producteur, industrie ou secteur dans un pays. La valeur ajoutée brute générée
-  par n’importe quelle unité engagée dans l’activité de production peut être
-  calculée comme le résidu des unités&#x2019; la production totale moins la
-  consommation intermédiaire, les biens et les services utilisés dans le
-  processus de production de la production, ou comme la somme des revenus de
-  facteur générés par le processus de production (System of National Accounts
-  2008). Le secteur manufacturier désigne les industries appartenant au secteur
-  C définies par la révision 4 de la Classification industrielle standard
-  internationale de toutes les activités économiques (ISIC), ou D définie par la
-  révision 3 de l’ISIC. </p>
+  <p> La valeur ajoutée brute mesure la contribution à l’économie de chaque producteur,
+  industrie ou secteur dans un pays. La valeur ajoutée brute générée par n’importe
+  quelle unité engagée dans l’activité de production peut être calculée comme le résidu
+  des unités&#x2019; la production totale moins la consommation intermédiaire, les
+  biens et les services utilisés dans le processus de production de la production,
+  ou comme la somme des revenus de facteur générés par le processus de production
+  (System of National Accounts 2008). Le secteur manufacturier désigne les industries
+  appartenant au secteur C définies par la révision 4 de la Classification industrielle
+  standard internationale de toutes les activités économiques (ISIC), ou D définie
+  par la révision 3 de l’ISIC. </p>
 
-  <p> Le PIB représente la somme de la valeur ajoutée brute de toutes les unités
-  institutionnelles résidant dans l’économie. Aux fins de la comparabilité au
-  fil du temps et entre les pays, l’ACV et le PIB sont estimés en termes de prix
-  constants en USD. Les séries actuelles sont données à prix constants de 2015.
-  </p>
+  <p> Le PIB représente la somme de la valeur ajoutée brute de toutes les unités institutionnelles
+  résidant dans l’économie. Aux fins de la comparabilité au fil du temps et entre
+  les pays, l’ACV et le PIB sont estimés en termes de prix constants en USD. Les séries
+  actuelles sont données à prix constants de 2015. </p>
 SOURCE_TYPE: >-
   <h1> Sources de données</h1>
 
   <h2> Description:</h2>
 
-  <p> L’ONUDI tient à jour la base de données MVA. Les chiffres pour les mises à
-  jour sont obtenus à partir des estimations des comptes nationaux produites par
-  la Division des statistiques des Nations Unies (DSNU) et à partir de
-  publications officielles. </p>
+  <p> L’ONUDI tient à jour la base de données MVA. Les chiffres pour les mises à jour
+  sont obtenus à partir des estimations des comptes nationaux produites par la Division
+  des statistiques des Nations Unies (DSNU) et à partir de publications officielles.
+  </p>
 COLL_METHOD: >-
   <h2> Processus de collecte:</h2>
 
-  <p> Les données de l’ACV et du PIB par pays sont recueillies au moyen d’un
-  questionnaire sur les comptes nationaux (NAQ) envoyé par l’DSNU. Plus
-  d’informations sur la méthodologie sont disponibles sur</p>
-
-  <p> <a
-  href="https://unstats.un.org/unsd/snaama/methodology.pdf">https://unstats.un.org/unsd/snaama/methodology.pdf</a>.
-  </p>
-
-  <p> Les valeurs manquantes ou incohérentes sont vérifiées à l’aide de sources
-  nationales et d’indicateurs de développement mondial (IED). La préférence est
-  accordée aux données provenant de sources nationales. </p>
-
-  <p> Les données démographiques sont obtenues auprès de la Division de la
-  population des DESA des Nations Unies. Plus d’informations sur la méthodologie
+  <p> Les données de l’ACV et du PIB par pays sont recueillies au moyen d’un questionnaire
+  sur les comptes nationaux (NAQ) envoyé par l’DSNU. Plus d’informations sur la méthodologie
   sont disponibles sur</p>
 
-  <p> <a
-  href="https://esa.un.org/unpd/wpp/Publications/Files/WPP2015_Methodology.pdf">https://esa.un.org/unpd/wpp/Publications/Files/WPP2015_Methodology.pdf</a>.
+  <p> <a href="https://unstats.un.org/unsd/snaama/methodology.pdf">https://unstats.un.org/unsd/snaama/methodology.pdf</a>.
+  </p>
+
+  <p> Les valeurs manquantes ou incohérentes sont vérifiées à l’aide de sources nationales
+  et d’indicateurs de développement mondial (IED). La préférence est accordée aux
+  données provenant de sources nationales. </p>
+
+  <p> Les données démographiques sont obtenues auprès de la Division de la population
+  des DESA des Nations Unies. Plus d’informations sur la méthodologie sont disponibles
+  sur</p>
+
+  <p> <a href="https://esa.un.org/unpd/wpp/Publications/Files/WPP2015_Methodology.pdf">https://esa.un.org/unpd/wpp/Publications/Files/WPP2015_Methodology.pdf</a>.
   </p>
 FREQ_COLL: >-
   <h1> Calendrier</h1>
 
   <h2> Collecte de données:</h2>
 
-  <p> La collecte de données est effectuée en recevant des données par voie
-  électronique tout au long de l’année. </p>
+  <p> La collecte de données est effectuée en recevant des données par voie électronique
+  tout au long de l’année. </p>
 REL_CAL_POLICY: >-
   <h2> Communiqué de données:</h2>
 
-  <p> La base de données MVA de l’ONUDI est mise à jour entre mars et avril de
-  chaque année. </p>
+  <p> La base de données MVA de l’ONUDI est mise à jour entre mars et avril de chaque
+  année. </p>
 DATA_SOURCE: >-
   <h1> Fournisseurs de données</h1>
 
-  <p> Division des statistiques des Nations Unies (DSNU) et publications
-  officielles</p>
+  <p> Division des statistiques des Nations Unies (DSNU) et publications officielles</p>
 
   <p> DSNU des bureaux statistiques nationaux (ONS)</p>
 COMPILING_ORG: >-
   <h1> Compilateurs de données</h1>
 
-  <p> Organisation des Nations Unies pour le développement industriel
-  (ONUDI)</p>
+  <p> Organisation des Nations Unies pour le développement industriel (ONUDI)</p>
 RATIONALE: >-
   <h2> Justification:</h2>
 
-  <p> L’ACV est un indicateur reconnu et largement utilisé par les chercheurs et
-  les décideurs politiques pour évaluer le niveau d’industrialisation d’un pays.
-  La part de l’ACV dans le PIB reflète le rôle du secteur manufacturier dans
-  l’économie et le développement national d’un pays&#x2019; en général. L’ACV
-  par habitant est l’indicateur de base du niveau d’industrialisation d’un
-  pays&#x2019; ajusté en fonction de la taille de l’économie. L’une des
-  utilisations statistiques de l’ACV par habitant est de classer les groupes de
-  pays en fonction de l’étape du développement industriel. </p>
+  <p> L’ACV est un indicateur reconnu et largement utilisé par les chercheurs et les
+  décideurs politiques pour évaluer le niveau d’industrialisation d’un pays. La part
+  de l’ACV dans le PIB reflète le rôle du secteur manufacturier dans l’économie et
+  le développement national d’un pays&#x2019; en général. L’ACV par habitant est l’indicateur
+  de base du niveau d’industrialisation d’un pays&#x2019; ajusté en fonction de la
+  taille de l’économie. L’une des utilisations statistiques de l’ACV par habitant
+  est de classer les groupes de pays en fonction de l’étape du développement industriel.
+  </p>
 REC_USE_LIM: >-
   <h2> Commentaires et limitations:</h2>
 
-  <p> Des différences peuvent apparaître en raison des différentes versions des
-  révisions du Système des comptes nationaux (SNA) ou de l’ISIC utilisées par
-  les pays. </p>
+  <p> Des différences peuvent apparaître en raison des différentes versions des révisions
+  du Système des comptes nationaux (SNA) ou de l’ISIC utilisées par les pays. </p>
 DATA_COMP: |-
   <h1> Méthodologie</h1>
   <h2> Méthode de calcul:</h2>
@@ -131,8 +123,8 @@ IMPUTATION: >-
     <li> <strong> <em> Au niveau national:</em></strong></li>
   </ul>
 
-  <p> Boudt, Todorov, Upadhyaya (2009) : Nowcasting manufacturing value added
-  for cross-country comparison; Journal statistique de l’IAOS</p>
+  <p> Boudt, Todorov, Upadhyaya (2009) : Nowcasting manufacturing value added for
+  cross-country comparison; Journal statistique de l’IAOS</p>
 
   <ul>
     <li> <strong> <em> Au niveau régional et mondial:</em></strong></li>
@@ -142,30 +134,26 @@ IMPUTATION: >-
 REG_AGG: >-
   <h2> Agrégats régionaux:</h2>
 
-  <p> Agrégation régionale et mondiale de la somme directe des valeurs des pays
-  au sein des groupes de pays. </p>
+  <p> Agrégation régionale et mondiale de la somme directe des valeurs des pays au
+  sein des groupes de pays. </p>
 DOC_METHOD: >-
-  <h2> Méthodes et orientations à la disposition des pays pour la compilation
-  des données au niveau national:</h2>
+  <h2> Méthodes et orientations à la disposition des pays pour la compilation des
+  données au niveau national:</h2>
 
-  <p> Recommandations internationales pour les statistiques industrielles (IRIS)
-  2008 <a
-  href="https://unstats.un.org/unsd/publication/seriesM/seriesm_90e.pdf">https://unstats.un.org/unsd/publication/seriesM/seriesm_90e.pdf</a></p>
+  <p> Recommandations internationales pour les statistiques industrielles (IRIS) 2008
+  <a href="https://unstats.un.org/unsd/publication/seriesM/seriesm_90e.pdf">https://unstats.un.org/unsd/publication/seriesM/seriesm_90e.pdf</a></p>
 
-  <p> Système de comptabilité nationale (SNA) 2008 <a
-  href="https://unstats.un.org/unsd/publication/seriesf/SeriesF_2Rev5e.pdf">https://unstats.un.org/unsd/publication/seriesf/SeriesF_2Rev5e.pdf</a></p>
+  <p> Système de comptabilité nationale (SNA) 2008 <a href="https://unstats.un.org/unsd/publication/seriesf/SeriesF_2Rev5e.pdf">https://unstats.un.org/unsd/publication/seriesf/SeriesF_2Rev5e.pdf</a></p>
 
-  <p> Classification industrielle standard internationale de toutes les
-  activités économiques (ISIC) </p>
+  <p> Classification industrielle standard internationale de toutes les activités
+  économiques (ISIC) </p>
 
-  <p> <a
-  href="https://unstats.un.org/unsd/cr/registry/regcst.asp?Cl=27">https://unstats.un.org/unsd/cr/registry/regcst.asp?Cl=27</a></p>
+  <p> <a href="https://unstats.un.org/unsd/cr/registry/regcst.asp?Cl=27">https://unstats.un.org/unsd/cr/registry/regcst.asp?Cl=27</a></p>
 QUALITY_ASSURE: >-
   <h2> Assurance de la qualité:</h2>
 
-  <p> UNIDO (2009), UNIDO Qualité des données : Un cadre d'assurance qualité
-  pour les activités statistiques de l'ONUDI<a
-  href="https://open.unido.org/api/documents/4814740/download/UNIDO-Publication-2009-4814740">https://open.unido.org/api/documents/4814740/download/UNIDO-Publication-2009-4814740</a>
+  <p> UNIDO (2009), UNIDO Qualité des données : Un cadre d'assurance qualité pour
+  les activités statistiques de l'ONUDI<a href="https://open.unido.org/api/documents/4814740/download/UNIDO-Publication-2009-4814740">https://open.unido.org/api/documents/4814740/download/UNIDO-Publication-2009-4814740</a>
   </p>
 COVERAGE: >-
   <h1> Disponibilité des données</h1>
@@ -176,10 +164,9 @@ COVERAGE: >-
 
   <h2> Série de temps:</h2>
 
-  <p> Les données de cet indicateur sont disponibles à partir de 2000 dans la
-  base de données mondiale des Nations Unies sur les ODD, mais des séries de
-  temps plus longues sont disponibles dans la base de données de l’ONUDI sur
-  l’AIG. </p>
+  <p> Les données de cet indicateur sont disponibles à partir de 2000 dans la base
+  de données mondiale des Nations Unies sur les ODD, mais des séries de temps plus
+  longues sont disponibles dans la base de données de l’ONUDI sur l’AIG. </p>
 
   <h2> Désagrégation:</h2>
 
@@ -187,30 +174,26 @@ COVERAGE: >-
 COMPARABILITY: >-
   <h2> Sources d’écarts:</h2>
 
-  <p> Des différences mineures peuvent survenir en raison de 1) taux de change
-  pour la conversion en USD 2) différentes années de base utilisées pour les
-  données de prix constants 3) méthodes pour l’estimation récente de la période
-  et 4) différentes versions des révisions SNA et ISIC utilisées par les pays.
-  </p>
+  <p> Des différences mineures peuvent survenir en raison de 1) taux de change pour
+  la conversion en USD 2) différentes années de base utilisées pour les données de
+  prix constants 3) méthodes pour l’estimation récente de la période et 4) différentes
+  versions des révisions SNA et ISIC utilisées par les pays. </p>
 OTHER_DOC: >-
   <h1> Références </h1>
 
   <h2> URL: </h2>
 
-  <p> <a href="http://www.unido.org/statistics"> www.unido.org/statistics </a>
-  </p>
+  <p> <a href="http://www.unido.org/statistics"> www.unido.org/statistics </a> </p>
 
-  <p> <a href="https://unstats.un.org/unsd/snaama/methodology.pdf">
-  https://unstats.un.org/unsd/snaama/methodology.pdf </a> <br > <a
-  href="https://esa.un.org/unpd/wpp/Publications/Files/WPP2015_Methodology.pdf">
-  https://esa.un.org/unpd/wpp/Publications/Files/WPP2015_Methodology.pdf </a>
-  </p>
+  <p> <a href="https://unstats.un.org/unsd/snaama/methodology.pdf"> https://unstats.un.org/unsd/snaama/methodology.pdf
+  </a> <br > <a href="https://esa.un.org/unpd/wpp/Publications/Files/WPP2015_Methodology.pdf">
+  https://esa.un.org/unpd/wpp/Publications/Files/WPP2015_Methodology.pdf </a> </p>
 
   <h2> Références: </h2>
 
   <p> Annuaire international des statistiques industrielles; ONUDI </p>
 
-  <p> Classification internationale type par industrie de toutes les activités
-  économiques 2008 </p>
+  <p> Classification internationale type par industrie de toutes les activités économiques
+  2008 </p>
 
   <p> Système de comptabilité nationale 2008 </p>
