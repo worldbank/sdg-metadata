@@ -1,39 +1,34 @@
 SDG_GOAL: >-
-  <p>Objectif 6: Garantir l'accès de tous à des services d'alimentation en eau
-  et d'assainissement gérés de façon durable</p>
+  <p>Objectif 6: Garantir l'accès de tous à des services d'alimentation en eau et
+  d'assainissement gérés de façon durable</p>
 SDG_TARGET: >-
-  <p>Cible 6.4: D’ici à 2030, faire en sorte que les ressources en eau soient
-  utilisées beaucoup plus efficacement dans tous les secteurs et garantir la
-  viabilité des prélèvements et de l’approvisionnement en eau douce afin de
-  remédier à la pénurie d’eau et de réduire nettement le nombre de personnes qui
-  manquent d’eau</p>
+  <p>Cible 6.4: D’ici à 2030, faire en sorte que les ressources en eau soient utilisées
+  beaucoup plus efficacement dans tous les secteurs et garantir la viabilité des prélèvements
+  et de l’approvisionnement en eau douce afin de remédier à la pénurie d’eau et de
+  réduire nettement le nombre de personnes qui manquent d’eau</p>
 SDG_INDICATOR: "<p>Indicateur 6.4.2: Niveau de stress hydrique : prélèvements d’eau\
   \ douce en proportion des ressources en eau douce disponibles</p>"
 META_LAST_UPDATE: '<p>Dernière mise à jour : 5 Août 2020</p>'
 SDG_RELATED_INDICATORS: >-
   <h1>Indicateurs connexes</h1>
 
-  <p>6.4.1 : Variation de l'efficacité de l'utilisation des ressources en
-  eau</p>
+  <p>6.4.1 : Variation de l'efficacité de l'utilisation des ressources en eau</p>
 
-  <p>6.1.1 : Proportion de la population utilisant des services d'alimentation
-  en eau potable gérés en toute sécurité</p>
+  <p>6.1.1 : Proportion de la population utilisant des services d'alimentation en
+  eau potable gérés en toute sécurité</p>
 
   <p>6.3.1 : Proportion des eaux usées traitées sans danger</p>
 
   <p>6.6.1 : Variation de l'étendue des écosystèmes tributaires de l'eau</p>
 
-  <p>6.5.1 : Degré de mise en œuvre de la gestion intégrée des ressources en eau
-  (0-100)</p>
+  <p>6.5.1 : Degré de mise en œuvre de la gestion intégrée des ressources en eau (0-100)</p>
 
-  <p>2.4.1 : Proportion des zones agricoles exploitées de manière productive et
-  durable</p>
+  <p>2.4.1 : Proportion des zones agricoles exploitées de manière productive et durable</p>
 
-  <p>15.3.1 : Surface des terres dégradées, en proportion de la surface
-  terrestre</p>
+  <p>15.3.1 : Surface des terres dégradées, en proportion de la surface terrestre</p>
 
-  <p>11.5.1 : Nombre de personnes décédées, disparues ou directement touchées
-  lors de catastrophes, pour 100 000 personnes</p>
+  <p>11.5.1 : Nombre de personnes décédées, disparues ou directement touchées lors
+  de catastrophes, pour 100 000 personnes</p>
 SDG_CUSTODIAN_AGENCIES: >-
   <h1> Informations institutionnelles</h1>
 
@@ -164,9 +159,8 @@ DATA_SOURCE: >-
 COMPILING_ORG: >-
   <h1>Compilateur de données</h1>
 
-  <p>Organisation des Nations unies pour l'alimentation et l'agriculture (FAO)
-  par le biais d'AQUASTAT, son système mondial d'information sur l'eau (<a
-  href="http://www.fao.org/aquastat/fr/">http://www.fao.org/aquastat/fr/</a>).</p>
+  <p>Organisation des Nations unies pour l'alimentation et l'agriculture (FAO) par
+  le biais d'AQUASTAT, son système mondial d'information sur l'eau (<a href="http://www.fao.org/aquastat/fr/">http://www.fao.org/aquastat/fr/</a>).</p>
 RATIONALE: >-
   <h2>Justification :</h2>
 
@@ -298,75 +292,68 @@ DATA_COMP: >-
 QUALITY_ASSURE: >-
   <h2>Assurance de la qualité :</h2>
 
-  <p> Toutes les données d’AQUASTAT passent par un processus de validation
-  approfondi.</p>
+  <p> Toutes les données d’AQUASTAT passent par un processus de validation approfondi.</p>
 
-  <p>Avant le téléchargement, les données sont comparées à d’autres variables
-  pour s’assurer qu’elles sont logiquement correctes (en d’autres termes : 1 + 2
-  = 3) et que la référence utilisée ne conduit pas à AQUASTAT elle-même. En
-  d’autres termes, AQUASTAT trouve fréquemment des données pour 2014, qui sont
-  en fait des données AQUASTAT pour 2000 avec l’année changée (très probablement
-  par l'année lorsque les données ont été extraites d’AQUASTAT).</p>
+  <p>Avant le téléchargement, les données sont comparées à d’autres variables pour
+  s’assurer qu’elles sont logiquement correctes (en d’autres termes : 1 + 2 = 3) et
+  que la référence utilisée ne conduit pas à AQUASTAT elle-même. En d’autres termes,
+  AQUASTAT trouve fréquemment des données pour 2014, qui sont en fait des données
+  AQUASTAT pour 2000 avec l’année changée (très probablement par l'année lorsque les
+  données ont été extraites d’AQUASTAT).</p>
 
-  <p>Au cours du téléchargement dans la base de données principale, un autre
-  processus de validation a lieu, utilisant un ensemble d’environ 300 règles de
-  validation. De ce nombre, environ 100 règles sont des règles obligatoires, ce
-  qui signifie que si l'observation n’obéit pas à cette règle, le processus de
-  validation ne peut pas continuer. Par exemple, la superficie cultivée d’un
-  pays ne peut pas être plus grande que la superficie totale du pays. L’autre
-  ensemble d’environ 200 règles de validation sont des signes avant-coureurs
-  pour la personne qui effectue la validation. Par exemple, en général, la zone
-  équipée pour l’irrigation à l’aide de la technologie d’irrigation de surface
-  est d’au moins la moitié de la superficie totale équipée pour l’irrigation.
-  Cependant, dans certains pays, la zone d’irrigation localisée ou la zone
-  d’irrigation par gicleurs peut être plus grande que la zone d’irrigation de
-  surface. Si c’est le cas, alors un avertissement apparaît pendant la
-  validation pour que l’analyste vérifie si pour ce pays, cela est possible.
-  Également, pendant le processus de validation chaque nouvelle observation est
-  comparée à d’autres données déjà disponibles pour cette variable (de d’autres
-  années ou de la même année). S’il est impossible d’harmoniser ou de concilier
-  les différentes données, l’une ou l’autre des observations doit être supprimée
-  de la base de données. </p>
+  <p>Au cours du téléchargement dans la base de données principale, un autre processus
+  de validation a lieu, utilisant un ensemble d’environ 300 règles de validation.
+  De ce nombre, environ 100 règles sont des règles obligatoires, ce qui signifie que
+  si l'observation n’obéit pas à cette règle, le processus de validation ne peut pas
+  continuer. Par exemple, la superficie cultivée d’un pays ne peut pas être plus grande
+  que la superficie totale du pays. L’autre ensemble d’environ 200 règles de validation
+  sont des signes avant-coureurs pour la personne qui effectue la validation. Par
+  exemple, en général, la zone équipée pour l’irrigation à l’aide de la technologie
+  d’irrigation de surface est d’au moins la moitié de la superficie totale équipée
+  pour l’irrigation. Cependant, dans certains pays, la zone d’irrigation localisée
+  ou la zone d’irrigation par gicleurs peut être plus grande que la zone d’irrigation
+  de surface. Si c’est le cas, alors un avertissement apparaît pendant la validation
+  pour que l’analyste vérifie si pour ce pays, cela est possible. Également, pendant
+  le processus de validation chaque nouvelle observation est comparée à d’autres données
+  déjà disponibles pour cette variable (de d’autres années ou de la même année). S’il
+  est impossible d’harmoniser ou de concilier les différentes données, l’une ou l’autre
+  des observations doit être supprimée de la base de données. </p>
 
-  <p><a
-  href="http://www.fao.org/nr/water/aquastat/sets/WhyDBisEmpty_eng.pdf">http://www.fao.org/nr/water/aquastat/sets/WhyDBisEmpty_eng.pdf</a><br><a
+  <p><a href="http://www.fao.org/nr/water/aquastat/sets/WhyDBisEmpty_eng.pdf">http://www.fao.org/nr/water/aquastat/sets/WhyDBisEmpty_eng.pdf</a><br><a
   href="http://www.fao.org/nr/water/aquastat/About_us/index3.stm">http://www.fao.org/nr/water/aquastat/About_us/index3.stm</a></p>
 
-  <p>En plus de la validation habituelle décrite ci-dessus, chaque pays est
-  encouragé et soutenu dans la mise en place de son propre système de contrôle
-  de la qualité, afin que toutes les données utilisées dans le calcul soient
-  vérifiées, et que la cohérence soit maintenue au fil des ans pour assurer la
-  comparabilité et l’identification robuste de tendances.</p>
+  <p>En plus de la validation habituelle décrite ci-dessus, chaque pays est encouragé
+  et soutenu dans la mise en place de son propre système de contrôle de la qualité,
+  afin que toutes les données utilisées dans le calcul soient vérifiées, et que la
+  cohérence soit maintenue au fil des ans pour assurer la comparabilité et l’identification
+  robuste de tendances.</p>
 
-  <p>L’indicateur nécessite des données provenant de différents secteurs
-  d’expertise. À l’échelle internationale, elles sont disponibles dans
-  différents ensembles de données provenant de diverses institutions, telles que
-  la FAO, la DSNU et l’Institut international de gestion de l'eau. Chacune de
-  ces institutions dispose de son propre mécanisme de consultation et de
-  validation des données avec les pays.</p>
+  <p>L’indicateur nécessite des données provenant de différents secteurs d’expertise.
+  À l’échelle internationale, elles sont disponibles dans différents ensembles de
+  données provenant de diverses institutions, telles que la FAO, la DSNU et l’Institut
+  international de gestion de l'eau. Chacune de ces institutions dispose de son propre
+  mécanisme de consultation et de validation des données avec les pays.</p>
 
-  <p>Les données provenant de FAOSTAT et AQUASTAT sont recueillies dans les pays
-  par le biais d’enquêtes détaillées, qui contiennent des commentaires associés
-  à chaque valeur, et sont transmises par l’intermédiaire de
-  personnes-ressources. Une analyse critique de l’information et du traitement
-  des données est effectuée par la FAO. Les données sont ensuite organisées dans
-  des tableaux de données standard, et la rétroaction et l’approbation sont
-  demandées aux institutions nationales avant la publication et la
-  diffusion.</p>
+  <p>Les données provenant de FAOSTAT et AQUASTAT sont recueillies dans les pays par
+  le biais d’enquêtes détaillées, qui contiennent des commentaires associés à chaque
+  valeur, et sont transmises par l’intermédiaire de personnes-ressources. Une analyse
+  critique de l’information et du traitement des données est effectuée par la FAO.
+  Les données sont ensuite organisées dans des tableaux de données standard, et la
+  rétroaction et l’approbation sont demandées aux institutions nationales avant la
+  publication et la diffusion.</p>
 
-  <p>Toutefois, pour le processus des ODD, un mécanisme spécifique a été mis en
-  place. Ce dernier consiste en l’identification dans chaque pays, par le
-  gouvernement national, d’un point focal national et d’une équipe technique en
-  charge de la collecte et du calcul de l’indicateur, le tout en étroite
-  consultation avec la FAO. Ce système a été testé avec succès au cours de la
-  phase initiale du projet GEMI, réalisé par la FAO et sept autres agences des
-  Nations unies, et coordonné par ONU-Eau.</p>
+  <p>Toutefois, pour le processus des ODD, un mécanisme spécifique a été mis en place.
+  Ce dernier consiste en l’identification dans chaque pays, par le gouvernement national,
+  d’un point focal national et d’une équipe technique en charge de la collecte et
+  du calcul de l’indicateur, le tout en étroite consultation avec la FAO. Ce système
+  a été testé avec succès au cours de la phase initiale du projet GEMI, réalisé par
+  la FAO et sept autres agences des Nations unies, et coordonné par ONU-Eau.</p>
 
-  <p>Pour les pays qui pourraient initialement avoir des difficultés à compiler
-  et à calculer l’indicateur, la FAO apportera son soutien et, ultimement, sera
-  en mesure de produire l’indicateur à partir de données disponibles à l’échelle
-  internationale. Toutefois, aucune donnée ne sera rendue publique sans
-  l’approbation au préalable des autorités nationales compétentes.</p>
+  <p>Pour les pays qui pourraient initialement avoir des difficultés à compiler et
+  à calculer l’indicateur, la FAO apportera son soutien et, ultimement, sera en mesure
+  de produire l’indicateur à partir de données disponibles à l’échelle internationale.
+  Toutefois, aucune donnée ne sera rendue publique sans l’approbation au préalable
+  des autorités nationales compétentes.</p>
 COVERAGE: >-
   <h1>Disponibilité des données</h1>
 
@@ -419,12 +406,11 @@ COVERAGE: >-
 COMPARABILITY: >-
   <h2>Sources de divergences  :</h2>
 
-  <p>Des écarts pourraient se produire en raison, entre autres, des éléments
-  suivants : pour les estimations nationales, l’eau entrante fait partie des
-  ressources en eau disponibles dans le pays, tandis que les estimations
-  mondiales ne peuvent être faites qu’en additionnant les ressources internes en
-  eau renouvelable (eau produite dans le pays) de tous les pays afin d’éviter le
-  double comptage.</p>
+  <p>Des écarts pourraient se produire en raison, entre autres, des éléments suivants
+  : pour les estimations nationales, l’eau entrante fait partie des ressources en
+  eau disponibles dans le pays, tandis que les estimations mondiales ne peuvent être
+  faites qu’en additionnant les ressources internes en eau renouvelable (eau produite
+  dans le pays) de tous les pays afin d’éviter le double comptage.</p>
 OTHER_DOC: "<h1> Références </h1>\n<h2> URL : </h2>\n<p> <a href=\"http://www.fao.org/aquastat/fr/\"\
   >http://www.fao.org/aquastat/fr/</a> </p>\n<h2> Références : </h2>\n<p> Organisation\
   \ des Nations unies pour l'alimentation et l'agriculture (FAO). AQUASTAT, le Système\
