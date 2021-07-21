@@ -151,13 +151,17 @@
 &lt;h2&gt;Description des sources et du processus de collecte : &lt;/h2&gt;
 &lt;p&gt;Les données peuvent être collectées en utilisant le module d&apos;enquête FIES-SM (Food Insecurity Experience Scale) développé par la FAO, ou tout autre questionnaire d&apos;échelle de sécurité alimentaire basé sur l&apos;expérience, notamment : &lt;/p&gt;
 &lt;ul&gt;
- &lt;li&gt;le module d&apos;enquête sur la sécurité alimentaire des ménages (HFSSM) développé par le service de recherche économique du ministère américain de l&apos;agriculture, et utilisé aux États-Unis et au Canada, &lt;/li&gt;
- &lt;li&gt;]l&apos;échelle de sécurité alimentaire de l&apos;Amérique latine et des Caraïbes (ou Escala Latinoamericana y Caribe &amp;#xF1;a de Seguridad Alimentaria &amp;#x2013; ELCSA), utilisée au Guatemala et testée dans plusieurs autres pays hispanophones d&apos;Amérique latine, &lt;/li&gt;
- &lt;li&gt; l&apos;échelle mexicaine de sécurité alimentaire (ou Escala Mexicana de Seguridad Alimentaria, - EMSA), une adaptation de l&apos;ELCSA utilisée au Mexique, &lt;/li&gt;
- &lt;li&gt;l&apos;échelle d&apos;insécurité alimentaire brésilienne (Escala Brasileira de medida de la Inseguran &amp;#xE7; a Alimentar &amp;#x2013; EBIA) utilisée au Brésil, ou &lt;/li&gt; l&apos;échelle d&apos;insécurité alimentaire de l&apos;UE (Escala Brasileira de medida de la Inseguran &amp;#xE7; a Alimentar &amp;#x2013; EBIA)
+ &lt;li&gt;le module d&apos;enquête sur la sécurité alimentaire des ménages (HFSSM) développé
+par le service de recherche économique du ministère américain de l&apos;agriculture, et utilisé aux États-Unis et au Canada, &lt;/li&gt;
+ &lt;li&gt;]l&apos;échelle de sécurité alimentaire de l&apos;Amérique latine et des Caraïbes (ou
+Escala Latinoamericana y Caribe &amp;#xF1;a de Seguridad Alimentaria &amp;#x2013; ELCSA), utilisée au Guatemala et testée dans plusieurs autres pays hispanophones d&apos;Amérique latine, &lt;/li&gt;
+ &lt;li&gt; l&apos;échelle mexicaine de sécurité alimentaire (ou Escala Mexicana de Seguridad
+Alimentaria, - EMSA), une adaptation de l&apos;ELCSA utilisée au Mexique, &lt;/li&gt;
+ &lt;li&gt;l&apos;échelle d&apos;insécurité alimentaire brésilienne (Escala Brasileira de medida
+de la Inseguran &amp;#xE7; a Alimentar &amp;#x2013; EBIA) utilisée au Brésil, ou &lt;/li&gt; l&apos;échelle d&apos;insécurité alimentaire de l&apos;UE (Escala Brasileira de medida de la Inseguran &amp;#xE7; a Alimentar &amp;#x2013; EBIA)
  &lt;li&gt;l&apos;échelle d&apos;accès à l&apos;insécurité alimentaire des ménages (HFIAS), &lt;/li&gt;
- &lt;li&gt; ou toute adaptation de ce qui précède qui peut être calibrée par rapport aux FIES mondiales &lt;/li&gt;
-&lt;/ul&gt;
+ &lt;li&gt; ou toute adaptation de ce qui précède qui peut être calibrée par rapport aux
+FIES mondiales &lt;/li&gt; &lt;/ul&gt;
 Deux versions de la FIES-SM sont disponibles pour les enquêtes auprès des individus ou des ménages respectivement, et la différence réside dans le fait que les répondants sont invités à rendre compte uniquement de leurs expériences individuelles, ou également de celles des autres membres du ménage.&lt;/p&gt;
 &lt;p&gt;Le module FIES-SM actuel comprend huit questions comme dans le tableau ci-dessous. &lt;/p&gt;
 &lt;table&gt;
@@ -169,12 +173,14 @@ Deux versions de la FIES-SM sont disponibles pour les enquêtes auprès des indi
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td colspan=&quot;2&quot;&gt;
-        &lt;p&gt;Maintenant, je voudrais vous poser quelques questions sur la nourriture. &lt;/p&gt;
+        &lt;p&gt;Maintenant, je voudrais vous poser quelques questions sur la nourriture.
+&lt;/p&gt;
       &lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td&gt;
-        &lt;p&gt;Q1. Au cours des 12 derniers mois, y a-t-il eu une période où vous (ou tout autre adulte du foyer) avez craint de ne pas avoir assez de nourriture à manger par manque d&apos;argent ou d&apos;autres ressources ? &lt;/p&gt; 
+        &lt;p&gt;Q1. Au cours des 12 derniers mois, y a-t-il eu une période où vous (ou
+tout autre adulte du foyer) avez craint de ne pas avoir assez de nourriture à manger par manque d&apos;argent ou d&apos;autres ressources ? &lt;/p&gt; 
       &lt;/td&gt;
       &lt;td&gt;
         &lt;p&gt;0 Non&lt;/p&gt;
@@ -185,7 +191,8 @@ Deux versions de la FIES-SM sont disponibles pour les enquêtes auprès des indi
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td&gt;
-        &lt;p&gt;Q2. Toujours en pensant aux 12 derniers mois, y a-t-il eu une période où vous (ou tout autre adulte du ménage) n&apos;avez pas pu manger des aliments sains et nutritifs par manque d&apos;argent ou d&apos;autres ressources ? &lt;/p&gt;
+        &lt;p&gt;Q2. Toujours en pensant aux 12 derniers mois, y a-t-il eu une période
+où vous (ou tout autre adulte du ménage) n&apos;avez pas pu manger des aliments sains et nutritifs par manque d&apos;argent ou d&apos;autres ressources ? &lt;/p&gt;
       &lt;/td&gt;
       &lt;td&gt;
         &lt;p&gt;0 Non&lt;/p&gt;
@@ -196,7 +203,8 @@ Deux versions de la FIES-SM sont disponibles pour les enquêtes auprès des indi
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td&gt;
-        &lt;p&gt;Q3. Y a-t-il eu une époque où vous (ou tout autre adulte du ménage) ne mangiez que quelques aliments par manque d&apos;argent ou d&apos;autres ressources ?&lt;/p&gt;
+        &lt;p&gt;Q3. Y a-t-il eu une époque où vous (ou tout autre adulte du ménage) ne
+mangiez que quelques aliments par manque d&apos;argent ou d&apos;autres ressources ?&lt;/p&gt;
       &lt;/td&gt;
       &lt;td&gt;
         &lt;p&gt;0 Non&lt;/p&gt;
@@ -207,7 +215,8 @@ Deux versions de la FIES-SM sont disponibles pour les enquêtes auprès des indi
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td&gt;
-        &lt;p&gt;Q4. Y a-t-il eu un moment où vous (ou tout autre adulte du ménage) avez dû sauter un repas parce qu&apos;il n&apos;y avait pas assez d&apos;argent ou d&apos;autres ressources pour obtenir de la nourriture ?&lt;/p&gt;
+        &lt;p&gt;Q4. Y a-t-il eu un moment où vous (ou tout autre adulte du ménage) avez
+dû sauter un repas parce qu&apos;il n&apos;y avait pas assez d&apos;argent ou d&apos;autres ressources pour obtenir de la nourriture ?&lt;/p&gt;
       &lt;/td&gt;
       &lt;td&gt;
         &lt;p&gt;0 Non&lt;/p&gt;
@@ -218,7 +227,8 @@ Deux versions de la FIES-SM sont disponibles pour les enquêtes auprès des indi
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td&gt;
-        &lt;p&gt;Q5. Toujours en pensant aux 12 derniers MOIS, y a-t-il eu une période où vous (ou tout autre adulte du ménage) avez mangé moins que vous ne le pensiez par manque d&apos;argent ou d&apos;autres ressources ?&lt;/p&gt;
+        &lt;p&gt;Q5. Toujours en pensant aux 12 derniers MOIS, y a-t-il eu une période
+où vous (ou tout autre adulte du ménage) avez mangé moins que vous ne le pensiez par manque d&apos;argent ou d&apos;autres ressources ?&lt;/p&gt;
       &lt;/td&gt;
       &lt;td&gt;
         &lt;p&gt;0 Non&lt;/p&gt;
@@ -261,13 +271,17 @@ Deux versions de la FIES-SM sont disponibles pour les enquêtes auprès des indi
 &lt;h2&gt; Описание источников и процесса сбора: &lt;/h2&gt;
 &lt;p&gt;Данные могут собраться с помощью модуля обследования по Шкале восприятия отсутствия продовольственной безопасности (ШОПБ-МО), разработанного ФАО, или любых других вопросников, основанных на разработанной экспериментально шкале оценки продовольственной безопасности, включая: &lt;/p&gt;
 &lt;ul&gt;
-  &lt;li&gt; Модуль обследования продовольственной безопасности домашних хозяйств (HFSSM), разработанный Службой экономических исследований Министерства сельского хозяйства США и используемый в США и Канаде, &lt;/li&gt;
-  &lt;li&gt; Шкала продовольственной безопасности для Латинской Америки и Карибского бассейна (или Escala Latinoamericana y Caribe &amp;#xF1; a de Seguridad Alimentaria &amp;#x2013; ELCSA), используемая в Гватемале и протестированная в нескольких других испаноязычных странах Латинской Америки, &lt;/li&gt;
-  &lt;li&gt; Шкала продовольственной безопасности Мексики (или Escala Mexicana de Seguridad Alimentaria, - EMSA) - модификация ELCSA, используемая в Мексике,&lt;/li&gt;
-  &lt;li&gt; Бразильская шкала отсутствия продовольственной безопасности (Escala Brasileira de medida de la Inseguran &amp;#xE7; a Alimentar &amp;#x2013; EBIA), используемая в Бразилии, или &lt;/li&gt;
+  &lt;li&gt; Модуль обследования продовольственной безопасности домашних хозяйств (HFSSM),
+разработанный Службой экономических исследований Министерства сельского хозяйства США и используемый в США и Канаде, &lt;/li&gt;
+  &lt;li&gt; Шкала продовольственной безопасности для Латинской Америки и Карибского бассейна
+(или Escala Latinoamericana y Caribe &amp;#xF1; a de Seguridad Alimentaria &amp;#x2013; ELCSA), используемая в Гватемале и протестированная в нескольких других испаноязычных странах Латинской Америки, &lt;/li&gt;
+  &lt;li&gt; Шкала продовольственной безопасности Мексики (или Escala Mexicana de Seguridad
+Alimentaria, - EMSA) - модификация ELCSA, используемая в Мексике,&lt;/li&gt;
+  &lt;li&gt; Бразильская шкала отсутствия продовольственной безопасности (Escala Brasileira
+de medida de la Inseguran &amp;#xE7; a Alimentar &amp;#x2013; EBIA), используемая в Бразилии, или &lt;/li&gt;
   &lt;li&gt; Шкала отсутствия продовольственной безопасности домохозяйств (HFIAS), &lt;/li&gt;
-  &lt;li&gt; или любую из вышеперечисленных модификаций, которые могут быть откалиброваны с учетом глобальной Шкалы восприятия отсутствия продовольственной безопасности (ШОПБ). &lt;/li&gt;
-&lt;/ul&gt;
+  &lt;li&gt; или любую из вышеперечисленных модификаций, которые могут быть откалиброваны
+с учетом глобальной Шкалы восприятия отсутствия продовольственной безопасности (ШОПБ). &lt;/li&gt; &lt;/ul&gt;
 &lt;p&gt; Две версии модуля обследования Шкалы восприятия отсутствия продовольственной безопасности ШОПБ-МО доступны для использования в обследованиях отдельных лиц или домохозяйств соответственно, и разница заключается в том, просят ли респондентов отчитываться только об их индивидуальном восприятии или также о восприятии другого члена домохозяйства.&lt;/p&gt;
 &lt;p&gt; Нынешний модуль ШОПБ-МО включает в себя восемь вопросов, показанных в нижеследующей таблице. &lt;/p&gt;
 &lt;table&gt;
@@ -284,7 +298,8 @@ Deux versions de la FIES-SM sont disponibles pour les enquêtes auprès des indi
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td&gt;
-        &lt;p&gt;Вопрос 1.В течение последних 12 МЕСЯЦЕВ было ли время, когда вы (или любой другой взрослый член домохозяйства) беспокоились, что у вас не будет достаточно еды из-за нехватки денег или других ресурсов?&lt;/p&gt;
+        &lt;p&gt;Вопрос 1.В течение последних 12 МЕСЯЦЕВ было ли время, когда вы (или
+любой другой взрослый член домохозяйства) беспокоились, что у вас не будет достаточно еды из-за нехватки денег или других ресурсов?&lt;/p&gt;
       &lt;/td&gt;
       &lt;td&gt;
         &lt;p&gt;0 Нет&lt;/p&gt;
@@ -295,7 +310,8 @@ Deux versions de la FIES-SM sont disponibles pour les enquêtes auprès des indi
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td&gt;
-        &lt;p&gt;Вопрос 2. Возвращаясь к последним 12 МЕСЯЦАМ, было ли время, когда вы (или любой другой взрослый член домохозяйства) не могли употреблять здоровую и питательную пищу из-за нехватки денег или других ресурсов?&lt;/p&gt;
+        &lt;p&gt;Вопрос 2. Возвращаясь к последним 12 МЕСЯЦАМ, было ли время, когда вы
+(или любой другой взрослый член домохозяйства) не могли употреблять здоровую и питательную пищу из-за нехватки денег или других ресурсов?&lt;/p&gt;
       &lt;/td&gt;
       &lt;td&gt;
         &lt;p&gt;0 Нет&lt;/p&gt;
@@ -306,7 +322,8 @@ Deux versions de la FIES-SM sont disponibles pour les enquêtes auprès des indi
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td&gt;
-        &lt;p&gt;Вопрос 3. И было ли время, когда вы (или любой другой взрослый член домохозяйства) употребляли только небольшое количество разновидной пищи из-за нехватки денег или других ресурсов?&lt;/p&gt;
+        &lt;p&gt;Вопрос 3. И было ли время, когда вы (или любой другой взрослый член домохозяйства)
+употребляли только небольшое количество разновидной пищи из-за нехватки денег или других ресурсов?&lt;/p&gt;
       &lt;/td&gt;
       &lt;td&gt;
         &lt;p&gt;0 Нет&lt;/p&gt;
@@ -317,7 +334,8 @@ Deux versions de la FIES-SM sont disponibles pour les enquêtes auprès des indi
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td&gt;
-        &lt;p&gt;Вопрос 4. Было ли время, когда вам (или любому другому взрослому члену домохозяйства) приходилось пропускать прием пищи из-за нехватки денег или других ресурсов для того, чтобы получить еду?&lt;/p&gt;
+        &lt;p&gt;Вопрос 4. Было ли время, когда вам (или любому другому взрослому члену
+домохозяйства) приходилось пропускать прием пищи из-за нехватки денег или других ресурсов для того, чтобы получить еду?&lt;/p&gt;
       &lt;/td&gt;
       &lt;td&gt;
         &lt;p&gt;0 Нет&lt;/p&gt;
@@ -328,7 +346,8 @@ Deux versions de la FIES-SM sont disponibles pour les enquêtes auprès des indi
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td&gt;
-        &lt;p&gt;Вопрос 5. Возвращаясь к последним 12 МЕСЯЦАМ, было ли время, когда вы (или любой другой взрослый член домохозяйства) потребляли пищи меньше, чем вам бы хотелось, из-за нехватки денег или других ресурсов?&lt;/p&gt;
+        &lt;p&gt;Вопрос 5. Возвращаясь к последним 12 МЕСЯЦАМ, было ли время, когда вы
+(или любой другой взрослый член домохозяйства) потребляли пищи меньше, чем вам бы хотелось, из-за нехватки денег или других ресурсов?&lt;/p&gt;
       &lt;/td&gt;
       &lt;td&gt;
         &lt;p&gt;0 Нет&lt;/p&gt;
@@ -339,7 +358,8 @@ Deux versions de la FIES-SM sont disponibles pour les enquêtes auprès des indi
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td&gt;
-        &lt;p&gt;Вопрос 6. И было ли время, когда в вашем домохозяйстве не хватало еды из-за нехватки денег или других ресурсов?&lt;/p&gt;
+        &lt;p&gt;Вопрос 6. И было ли время, когда в вашем домохозяйстве не хватало еды
+из-за нехватки денег или других ресурсов?&lt;/p&gt;
       &lt;/td&gt;
       &lt;td&gt;
         &lt;p&gt;0 Нет&lt;/p&gt;
@@ -350,7 +370,8 @@ Deux versions de la FIES-SM sont disponibles pour les enquêtes auprès des indi
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td&gt;
-        &lt;p&gt;Вопрос 7. Было ли время, когда вы (или любой другой взрослый член домохозяйства) были голодны, но не потребляли пищу из-за нехватки денег или других ресурсов для приобретения еды?&lt;/p&gt;
+        &lt;p&gt;Вопрос 7. Было ли время, когда вы (или любой другой взрослый член домохозяйства)
+были голодны, но не потребляли пищу из-за нехватки денег или других ресурсов для приобретения еды?&lt;/p&gt;
       &lt;/td&gt;
       &lt;td&gt;
         &lt;p&gt;0 Нет&lt;/p&gt;
@@ -361,7 +382,8 @@ Deux versions de la FIES-SM sont disponibles pour les enquêtes auprès des indi
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td&gt;
-        &lt;p&gt;Вопрос 8. Наконец, было ли время, когда вы (или любой другой взрослый член домохозяйства) не потребляли пищу целый день из-за нехватки денег или других ресурсов?&lt;/p&gt;
+        &lt;p&gt;Вопрос 8. Наконец, было ли время, когда вы (или любой другой взрослый
+член домохозяйства) не потребляли пищу целый день из-за нехватки денег или других ресурсов?&lt;/p&gt;
       &lt;/td&gt;
       &lt;td&gt;
         &lt;p&gt;0 Нет&lt;/p&gt;

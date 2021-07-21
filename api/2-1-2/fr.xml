@@ -11,13 +11,17 @@
 &lt;h2&gt;Description des sources et du processus de collecte : &lt;/h2&gt;
 &lt;p&gt;Les données peuvent être collectées en utilisant le module d&apos;enquête FIES-SM (Food Insecurity Experience Scale) développé par la FAO, ou tout autre questionnaire d&apos;échelle de sécurité alimentaire basé sur l&apos;expérience, notamment : &lt;/p&gt;
 &lt;ul&gt;
- &lt;li&gt;le module d&apos;enquête sur la sécurité alimentaire des ménages (HFSSM) développé par le service de recherche économique du ministère américain de l&apos;agriculture, et utilisé aux États-Unis et au Canada, &lt;/li&gt;
- &lt;li&gt;]l&apos;échelle de sécurité alimentaire de l&apos;Amérique latine et des Caraïbes (ou Escala Latinoamericana y Caribe &amp;#xF1;a de Seguridad Alimentaria &amp;#x2013; ELCSA), utilisée au Guatemala et testée dans plusieurs autres pays hispanophones d&apos;Amérique latine, &lt;/li&gt;
- &lt;li&gt; l&apos;échelle mexicaine de sécurité alimentaire (ou Escala Mexicana de Seguridad Alimentaria, - EMSA), une adaptation de l&apos;ELCSA utilisée au Mexique, &lt;/li&gt;
- &lt;li&gt;l&apos;échelle d&apos;insécurité alimentaire brésilienne (Escala Brasileira de medida de la Inseguran &amp;#xE7; a Alimentar &amp;#x2013; EBIA) utilisée au Brésil, ou &lt;/li&gt; l&apos;échelle d&apos;insécurité alimentaire de l&apos;UE (Escala Brasileira de medida de la Inseguran &amp;#xE7; a Alimentar &amp;#x2013; EBIA)
+ &lt;li&gt;le module d&apos;enquête sur la sécurité alimentaire des ménages (HFSSM) développé
+par le service de recherche économique du ministère américain de l&apos;agriculture, et utilisé aux États-Unis et au Canada, &lt;/li&gt;
+ &lt;li&gt;]l&apos;échelle de sécurité alimentaire de l&apos;Amérique latine et des Caraïbes (ou
+Escala Latinoamericana y Caribe &amp;#xF1;a de Seguridad Alimentaria &amp;#x2013; ELCSA), utilisée au Guatemala et testée dans plusieurs autres pays hispanophones d&apos;Amérique latine, &lt;/li&gt;
+ &lt;li&gt; l&apos;échelle mexicaine de sécurité alimentaire (ou Escala Mexicana de Seguridad
+Alimentaria, - EMSA), une adaptation de l&apos;ELCSA utilisée au Mexique, &lt;/li&gt;
+ &lt;li&gt;l&apos;échelle d&apos;insécurité alimentaire brésilienne (Escala Brasileira de medida
+de la Inseguran &amp;#xE7; a Alimentar &amp;#x2013; EBIA) utilisée au Brésil, ou &lt;/li&gt; l&apos;échelle d&apos;insécurité alimentaire de l&apos;UE (Escala Brasileira de medida de la Inseguran &amp;#xE7; a Alimentar &amp;#x2013; EBIA)
  &lt;li&gt;l&apos;échelle d&apos;accès à l&apos;insécurité alimentaire des ménages (HFIAS), &lt;/li&gt;
- &lt;li&gt; ou toute adaptation de ce qui précède qui peut être calibrée par rapport aux FIES mondiales &lt;/li&gt;
-&lt;/ul&gt;
+ &lt;li&gt; ou toute adaptation de ce qui précède qui peut être calibrée par rapport aux
+FIES mondiales &lt;/li&gt; &lt;/ul&gt;
 Deux versions de la FIES-SM sont disponibles pour les enquêtes auprès des individus ou des ménages respectivement, et la différence réside dans le fait que les répondants sont invités à rendre compte uniquement de leurs expériences individuelles, ou également de celles des autres membres du ménage.&lt;/p&gt;
 &lt;p&gt;Le module FIES-SM actuel comprend huit questions comme dans le tableau ci-dessous. &lt;/p&gt;
 &lt;table&gt;
@@ -29,12 +33,14 @@ Deux versions de la FIES-SM sont disponibles pour les enquêtes auprès des indi
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td colspan=&quot;2&quot;&gt;
-        &lt;p&gt;Maintenant, je voudrais vous poser quelques questions sur la nourriture. &lt;/p&gt;
+        &lt;p&gt;Maintenant, je voudrais vous poser quelques questions sur la nourriture.
+&lt;/p&gt;
       &lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td&gt;
-        &lt;p&gt;Q1. Au cours des 12 derniers mois, y a-t-il eu une période où vous (ou tout autre adulte du foyer) avez craint de ne pas avoir assez de nourriture à manger par manque d&apos;argent ou d&apos;autres ressources ? &lt;/p&gt; 
+        &lt;p&gt;Q1. Au cours des 12 derniers mois, y a-t-il eu une période où vous (ou
+tout autre adulte du foyer) avez craint de ne pas avoir assez de nourriture à manger par manque d&apos;argent ou d&apos;autres ressources ? &lt;/p&gt; 
       &lt;/td&gt;
       &lt;td&gt;
         &lt;p&gt;0 Non&lt;/p&gt;
@@ -45,7 +51,8 @@ Deux versions de la FIES-SM sont disponibles pour les enquêtes auprès des indi
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td&gt;
-        &lt;p&gt;Q2. Toujours en pensant aux 12 derniers mois, y a-t-il eu une période où vous (ou tout autre adulte du ménage) n&apos;avez pas pu manger des aliments sains et nutritifs par manque d&apos;argent ou d&apos;autres ressources ? &lt;/p&gt;
+        &lt;p&gt;Q2. Toujours en pensant aux 12 derniers mois, y a-t-il eu une période
+où vous (ou tout autre adulte du ménage) n&apos;avez pas pu manger des aliments sains et nutritifs par manque d&apos;argent ou d&apos;autres ressources ? &lt;/p&gt;
       &lt;/td&gt;
       &lt;td&gt;
         &lt;p&gt;0 Non&lt;/p&gt;
@@ -56,7 +63,8 @@ Deux versions de la FIES-SM sont disponibles pour les enquêtes auprès des indi
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td&gt;
-        &lt;p&gt;Q3. Y a-t-il eu une époque où vous (ou tout autre adulte du ménage) ne mangiez que quelques aliments par manque d&apos;argent ou d&apos;autres ressources ?&lt;/p&gt;
+        &lt;p&gt;Q3. Y a-t-il eu une époque où vous (ou tout autre adulte du ménage) ne
+mangiez que quelques aliments par manque d&apos;argent ou d&apos;autres ressources ?&lt;/p&gt;
       &lt;/td&gt;
       &lt;td&gt;
         &lt;p&gt;0 Non&lt;/p&gt;
@@ -67,7 +75,8 @@ Deux versions de la FIES-SM sont disponibles pour les enquêtes auprès des indi
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td&gt;
-        &lt;p&gt;Q4. Y a-t-il eu un moment où vous (ou tout autre adulte du ménage) avez dû sauter un repas parce qu&apos;il n&apos;y avait pas assez d&apos;argent ou d&apos;autres ressources pour obtenir de la nourriture ?&lt;/p&gt;
+        &lt;p&gt;Q4. Y a-t-il eu un moment où vous (ou tout autre adulte du ménage) avez
+dû sauter un repas parce qu&apos;il n&apos;y avait pas assez d&apos;argent ou d&apos;autres ressources pour obtenir de la nourriture ?&lt;/p&gt;
       &lt;/td&gt;
       &lt;td&gt;
         &lt;p&gt;0 Non&lt;/p&gt;
@@ -78,7 +87,8 @@ Deux versions de la FIES-SM sont disponibles pour les enquêtes auprès des indi
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td&gt;
-        &lt;p&gt;Q5. Toujours en pensant aux 12 derniers MOIS, y a-t-il eu une période où vous (ou tout autre adulte du ménage) avez mangé moins que vous ne le pensiez par manque d&apos;argent ou d&apos;autres ressources ?&lt;/p&gt;
+        &lt;p&gt;Q5. Toujours en pensant aux 12 derniers MOIS, y a-t-il eu une période
+où vous (ou tout autre adulte du ménage) avez mangé moins que vous ne le pensiez par manque d&apos;argent ou d&apos;autres ressources ?&lt;/p&gt;
       &lt;/td&gt;
       &lt;td&gt;
         &lt;p&gt;0 Non&lt;/p&gt;

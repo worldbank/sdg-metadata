@@ -36,16 +36,20 @@
 &lt;p&gt;L’indice est calculé avec des moyens géométriques, basés sur les méthodes utilisées pour l’indice de développement humain. Le calcul de l’indicateur 3.8.1 nécessite d’abord de préparer les 14 indicateurs traceurs afin qu’ils puissent être combinés dans l’indice, puis de calculer l’indice à partir de ces valeurs. &lt;/p&gt;
 &lt;p&gt;Les 14 indicateurs traceurs sont d’abord placés sur la même échelle, 0 étant la valeur la plus basse et 100 étant la valeur optimale. Pour la plupart des indicateurs, cette échelle est l’échelle naturelle de mesure, par exemple, le pourcentage de nourrissons vaccinés varie de 0 à 100 p. 100. Toutefois, pour quelques indicateurs, un recalage supplémentaire est nécessaire pour obtenir des valeurs appropriées de 0 à 100, comme suit : &lt;/p&gt;
 &lt;ul&gt;
-  &lt;li&gt;Réalisation basée sur un minimum non nul pour obtenir une résolution plus fine (ceci &amp;#x201C;stretches&amp;#x201D; la répartition entre les pays): la prévalence de la pression artérielle non élevée et la prévalence de la non-consommation de tabac sont toutes deux recalées en utilisant une valeur minimale de 50%. &lt;ul&gt;
+  &lt;li&gt;Réalisation basée sur un minimum non nul pour obtenir une résolution plus
+fine (ceci &amp;#x201C;stretches&amp;#x201D; la répartition entre les pays): la prévalence de la pression artérielle non élevée et la prévalence de la non-consommation de tabac sont toutes deux recalées en utilisant une valeur minimale de 50%. &lt;ul&gt;
       &lt;li&gt;récalé = (X-50)/(100-50)*100&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
-  &lt;li&gt;Réalisation pour une mesure continue : le glucose plasmatique à jeun moyen, qui est une mesure continue (unités de mmol/L), est converti en une échelle de 0 à 100 en utilisant le risque biologique théorique minimum (5,1 mmol/L) et observé au maximum dans tous les pays (7,1 mmol/L). &lt;ul&gt;
+  &lt;li&gt;Réalisation pour une mesure continue : le glucose plasmatique à jeun moyen,
+qui est une mesure continue (unités de mmol/L), est converti en une échelle de 0 à 100 en utilisant le risque biologique théorique minimum (5,1 mmol/L) et observé au maximum dans tous les pays (7,1 mmol/L). &lt;ul&gt;
       &lt;li&gt;récalé = (7,1 - valeur originale)/(7,1-5,1)*100&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
-  &lt;li&gt;Maximum pour les indicateurs de taux : la densité des lits d’hôpital et la densité du personnel de santé sont tous deux plafonnés à des seuils maximaux, et les valeurs supérieures à ce seuil sont maintenues constantes à 100. Ces seuils sont basés sur les valeurs minimales observées dans les pays de l’OCDE. &lt;ul&gt;
-      &lt;li&gt; lits d’hôpital à l’échelle inférieure pour 10 000 = minimum (100, valeur originale / 18*100)&lt;/li&gt;
+  &lt;li&gt;Maximum pour les indicateurs de taux : la densité des lits d’hôpital et la
+densité du personnel de santé sont tous deux plafonnés à des seuils maximaux, et les valeurs supérieures à ce seuil sont maintenues constantes à 100. Ces seuils sont basés sur les valeurs minimales observées dans les pays de l’OCDE. &lt;ul&gt;
+      &lt;li&gt; lits d’hôpital à l’échelle inférieure pour 10 000 = minimum (100, valeur
+originale / 18*100)&lt;/li&gt;
       &lt;li&gt;rescaled médecins pour 1 000 = minimum (100, valeur originale / 0,9*100)&lt;/li&gt;
       &lt;li&gt;rescaled psychiatres pour 100.000 = minimum (100, valeur originale / 1*100)&lt;/li&gt;
       &lt;li&gt;rescaled surgeons per 100,000 = minimum (100, valeur originale / 14*100)&lt;/li&gt;
