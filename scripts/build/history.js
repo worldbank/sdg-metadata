@@ -44,9 +44,10 @@ module.exports = function() {
 
     async function main() {
 
+        const dataFolder = path.join('www', '_data')
+
         // Do not generate the histories for now, since source material is now
         // coming from the UN Metadata API.
-        const dataFolder = path.join('www', '_data')
         fs.writeFileSync(path.join(dataFolder, 'history.json'), JSON.stringify({}), 'utf8')
         return
 
@@ -132,7 +133,6 @@ module.exports = function() {
             }
         }
 
-        const dataFolder = path.join('www', '_data')
         fs.writeFileSync(path.join(dataFolder, 'history.json'), JSON.stringify(history), 'utf8')
     }
 
