@@ -1,7 +1,7 @@
-{% if include.stats and include.stats.approved_percent %}
+{% if include.stats and include.stats.approved_percent and page.language != 'en' %}
 <p class="weblate-stats">
   Translation approval: {{ include.stats.approved_percent }}%<br>
   <span class="weblate-stats-total"></span>
-  <span class="weblate-stats-part weblate-stats-approved" style="width:{{ include.stats.approved_percent }}%"></span>
+  <span class="weblate-stats-part weblate-stats-approved percentage-{{ include.stats.approved_percent }}" style="width:{{ include.stats.approved_percent }}%"></span>
 </p>
 {% endif %}
