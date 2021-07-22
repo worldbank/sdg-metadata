@@ -8,15 +8,18 @@ The purpose of this project is to translate metadata for Sustainable Development
 
 In January-March 2020, a [pilot](/sdg-metadata/pilot/) was conducted as the result of a collaboration by the World Bank Group under the ECASTAT Trust Fund in coordination with UNECE and ROSSTAT. The pilot produced Russian translations of selected SDG metadata with an estimated reduction of translation time of 35%. The pilot also provided a detailed protocol that could be replicated in other languages for other translation needs.
 
-The team coordinated with the SDMX-SDG Working Group, the IAEG-SDG Metadata Working Group, and the secretariat of the IAEG-SDGs on the SDMX-SDG metadata concept compliance and version control.
-
 In October 2020, the main study was launched. All SDG indicator metadata files designated by the IAEG-SDGs as tier 1, tier 1/tier 2, or provisional tier 1 were converted into machine-readable format and translated. Files are populated on our metadata webpage on a flow basis as they are prepared. 
 
-Through a letter of agreement, the World Bank partnered with Statistics Canada to produce French translations of these metadata files. Subsequently, a letter of agreement between the World Bank and ECLAC was signed to produce Spanish translations of these metadata files. We welcome partners to generate translations into other languages.
+In August 2021, the study will be expanded to include all tier 2 metadata files. In addition, all updated tier 1 metadata files that have been approved by the IAEG-SDG will be available for 'surgical' (hyperlink) translation. Files will be 'harvested' (hyperlink) from the UNSD SDG Data Lab on a routine (hyperlink) basis. This expansion is possible due to a new with the UN Food and Agriculture Organization and ongoing collaboration with the SDMX-SDG Working Group, the IAEG-SDG Metadata Working Group, and the secretariat of the IAEG-SDGs.
+
+We are grateful for our ongoing partnership with UNECE and Rosstat to prepare Russian translations. We are also grateful for our continued collaboration with Statistics Canada and ECLAC to produce French and Spanish metadata translations, respectively. We welcome partners to generate translations into other languages.
+
+The SDG Data Structure Defintion (hyperlink) can also be translated into local languages using our computer-assisted method. These structural metadata are used to convey SDG data into the SDG Data Lab. Translatating the DSD can assist national statistical offices preparing and contributing SDG data. Our method assists with updating translations as the DSD is updated. A collaboration with INSEE is exploring French translation.
 
 * [Introduction to the SDG Metadata Translation Project](https://docs.google.com/presentation/d/1S6OkPgZr1eD6eY1WcXEaVlsqV71feSQMIZ0sPAPe2TA/edit?usp=sharing)
 * [Presentations]({{ site.baseurl }}/presentations/)
 * [Documentation]({{ site.baseurl }}/documentation/)
-* [Metadata]({{ site.baseurl }}/metadata/)
+* [Reference Metadata]({{ site.baseurl }}/metadata/)
+* [Structural Metadata (DSD)]{{ site.baseurl }}/DSD/)
 
 For more information about the project, please email <sdgmetadatatranslation@worldbank.org>.
