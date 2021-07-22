@@ -3,7 +3,13 @@ layout: single
 title: Metadata
 permalink: /metadata/
 ---
-The SDG metadata are currently available in the languages below. As more translations become available, they will be posted here. For information on the selection of indicators, the conversion, and translation process, please see [Documentation]({{ site.baseurl }}/documentation/).
+The SDG metadata are currently available in the languages below. The source for SDG metadata translations is the SDG Data Lab, which is managed by UNSD. The SDG Data Lab contains SDG metadata in English as approved by the IAEG-SDGs. 
+
+Prior to August, 2021, source SDG metadata files were converted into machine-readable form by the World Bank translation team in collaboration with UNSD. Beginning in Spring, 2021, source SDG metadata will be converted into machine-readable form by UNSD. The World Bank translation team will then harvest these files from the SDG Data Lab. This will include both updated tier 1 metadata files, and all tier 2 metadata files. This change in process supports quality control and efficiencies in timeliness of updated translations.
+
+The translation status for each language (except the English source files) appears below.
+
+For more information on the translation process, please see [Documentation]({{ site.baseurl }}/documentation/).
 
 <ul>
   {% for language in site.data.languages %}
