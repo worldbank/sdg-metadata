@@ -37,7 +37,14 @@ module.exports = function(refresh=false) {
 
     writeStatistics()
     async function writeStatistics() {
-        const stats = await getStatistics('https://hosted.weblate.org/api/projects/sdg-metadata/components/')
+        let stats = {}
+        try {
+            stats = await getStatistics('https://hosted.weblate.org/api/projects/sdg-metadata/components/')
+        }
+        catch (ex) {
+            console.log('Unable to get translation stats.')
+            console.log(ex.message)
+        }
         fs.writeFileSync(path.join(destinationFolder, 'stats.json'), JSON.stringify(stats), 'utf8')
     }
 
