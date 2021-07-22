@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<status>success</status>
+	<message>The DATA_COMP field for indicator 3-6-1, translated into all languages</message>
+	<data>
+		<languages>
+			<language lang="ar"/>
+			<language lang="en">&lt;h1&gt;Methodology&lt;/h1&gt;
+&lt;h2&gt;Computation method:&lt;/h2&gt;
+&lt;p&gt;Our model is based on the quality of data we received. As a health organization, we rely primarily on the submission of vital registration data from countries&amp;#x2019; Ministries of Health to WHO (through the official channels). These data, on all causes of death, are then analysed by our colleagues in the Health Information Systems department to decide on how good the data are, that is, determining if there is good completeness and coverage of deaths for all causes. &lt;/p&gt;
+&lt;p&gt;We classified the countries on 4 categories or groups namely,&lt;/p&gt;
+&lt;p&gt;Group 1: Countries with death registration data (good vital/ death registration data)&lt;/p&gt;
+&lt;p&gt;Group 2: Countries with other sources of information on causes of death&lt;/p&gt;
+&lt;p&gt;Group 3: Countries with population less than 150 000&lt;/p&gt;
+&lt;p&gt;Group 4: Countries without eligible death registration data.&lt;/p&gt;
+&lt;p&gt;The Health Information Systems department analyses the quality and the completeness of the data. For the road safety model, if the country is considered by WHO to have good vital registration (VR) data this means that the country is in group 1, then we don&amp;#x2019;t apply a regression model to come up with an estimate (we may, however, project forward if the vital registration data are dated). If the country is considered in group 4 then we apply a negative binomial regression where N is the total road traffic deaths , C is constant term, Xi are a set of explanatory covariates, Pop is the population for the country-year, and ? is the negative binomial error term.&lt;/p&gt;
+&lt;p&gt;For the countries from group 2, the regression method described above was used to project forward the most recent year for which an estimate of total deaths were available.&lt;/p&gt;
+&lt;p&gt;Finally, the countries from group 3 which have a population less than 150,000 and did not have eligible death registration data, regression estimates were not used. Only the reported death were directly without adjustment.&lt;/p&gt;
+&lt;p&gt;More details about this estimation process in &lt;em&gt;Global Status Report on Road Safety 2015&lt;/em&gt;.&lt;/p&gt;
+			</language>
+			<language lang="es">&lt;h1&gt;Metodología&lt;/h1&gt;
+&lt;h2&gt;Método de cálculo:&lt;/h2&gt;
+&lt;p&gt;Nuestro modelo se basa en la calidad de los datos que recibimos. Como organización sanitaria, nos basamos principalmente en la presentación de los datos del registro civil de los Ministerios de Salud de los países a la OMS (a través de los canales oficiales). Estos datos, sobre todas las causas de muerte, son analizados después por nuestros colegas del departamento de Sistemas de Información Sanitaria para decidir la calidad de los datos, es decir, determinar si hay una buena integridad y cobertura de las muertes por todas las causas. &lt;/p&gt;
+&lt;p&gt;Clasificamos los países en 4 categorías o grupos, a saber,&lt;/p&gt;
+&lt;p&gt;Grupo 1: Países con datos de registro de defunciones (buenos datos vitales/de registro de defunciones)&lt;/p&gt;
+&lt;p&gt;Grupo 2: Países con otras fuentes de información sobre las causas de defunción&lt;/p&gt;
+&lt;p&gt;Grupo 3: Países con una población inferior a 150.000 habitantes&lt;/p&gt;
+&lt;p&gt;Grupo 4: Países sin datos de registro de defunciones admisibles.&lt;/p&gt;
+&lt;p&gt;El departamento de Sistemas de Información Sanitaria analiza la calidad y la exhaustividad de los datos. Para el modelo de seguridad vial, si la OMS considera que el país tiene buenos datos de registro civil (RC), significa que el país está en el grupo 1, entonces no aplicamos un modelo de regresión para obtener una estimación (sin embargo, podemos proyectar hacia adelante si los datos de registro civil son antiguos). Si el país se considera en el grupo 4, entonces aplicamos una regresión binomial negativa en la que N es el total de muertes por accidentes de tráfico, C es el término constante, Xi es un conjunto de covariables explicativas, Pop es la población del país-año y ? es el término de error binomial negativo.&lt;/p&gt;
+&lt;p&gt;Para los países del grupo 2, se utilizó el método de regresión descrito anteriormente para proyectar hacia adelante el año más reciente para el que se disponía de una estimación del total de muertes.&lt;/p&gt;
+&lt;p&gt;Por último, en los países del grupo 3 con una población inferior a 150.000 habitantes y que no disponían de datos de registro de defunciones, no se utilizaron las estimaciones de regresión. Sólo se utilizaron directamente las defunciones notificadas sin ajustarlas.&lt;/p&gt;
+&lt;p&gt;Más detalles sobre este proceso de estimación en &lt;em&gt;Informe sobre la situación mundial de la seguridad vial 2015&lt;/em&gt;.&lt;/p&gt;
+			</language>
+			<language lang="fr">&lt;h1&gt; Méthodologie &lt;/h1&gt;
+&lt;h2&gt; Méthode de calcul : &lt;/h2&gt;
+&lt;p&gt; Notre modèle est basé sur la qualité des données que nous avons reçues. En tant qu&apos;organisation de santé, nous nous appuyons principalement sur la soumission des données d&apos;état civil des ministères de la Santé des pays &amp;#x2019; à l&apos;OMS (par les voies officielles). Ces données, sur toutes les causes de décès, sont ensuite analysées par nos collègues du département des Systèmes d&apos;Information Sanitaire pour décider de la qualité des données, c&apos;est-à-dire déterminer s&apos;il existe une bonne exhaustivité et une bonne couverture des décès toutes causes confondues. &lt;/p&gt;
+&lt;p&gt; Nous avons classé les pays en 4 catégories ou groupes, à savoir &lt;/p&gt;
+&lt;p&gt; Groupe 1: Pays disposant de données d&apos;enregistrement des décès (bonnes données d&apos;état civil / d&apos;enregistrement des décès) &lt;/p&gt;
+&lt;p&gt; Groupe 2: Pays disposant d&apos;autres sources d&apos;informations sur les causes de décès &lt;/p&gt;
+&lt;p&gt; Groupe 3: Pays de moins de 150 000 habitants &lt;/p&gt;
+&lt;p&gt; Groupe 4: Pays sans données d&apos;enregistrement des décès éligibles. &lt;/p&gt;
+&lt;p&gt; Le service des systèmes d&apos;information sanitaire analyse la qualité et l&apos;exhaustivité des données. Pour le modèle de sécurité routière, si le pays est considéré par l&apos;OMS comme ayant de bonnes données d&apos;état civil (RV), cela signifie que le pays est dans le groupe 1, alors nous n&apos;appliquons &amp;#x2019; t un modèle de régression pour arriver à une estimation ( nous pouvons toutefois projeter vers l&apos;avant si les données d&apos;état civil sont datées). Si le pays est considéré dans le groupe 4, nous appliquons une régression binomiale négative où N est le nombre total de décès sur la route, C est un terme constant, Xi est un ensemble de covariables explicatives, Pop est la population pour le pays-année, et? est le terme d&apos;erreur binomial négatif. &lt;/p&gt;
+&lt;p&gt; Pour les pays du groupe 2, la méthode de régression décrite ci-dessus a été utilisée pour projeter l&apos;année la plus récente pour laquelle une estimation du nombre total de décès était disponible. &lt;/p&gt;
+&lt;p&gt; Enfin, les pays du groupe 3 qui ont une population de moins de 150 000 habitants et ne disposaient pas de données d&apos;enregistrement des décès éligibles, les estimations de régression n&apos;ont pas été utilisées. Seuls les décès déclarés étaient directement sans ajustement. &lt;/p&gt;
+&lt;p&gt; Plus de détails sur ce processus d&apos;estimation dans &lt;em&gt; Global Status Report on Road Safety 2015 &lt;/em&gt;. &lt;/p&gt;
+			</language>
+			<language lang="pt"/>
+			<language lang="ru">&lt;h1&gt; Методология &lt;/h1&gt;
+&lt;h2&gt; Метод расчета: &lt;/h2&gt;
+&lt;p&gt; Наша модель основана на качестве получаемых данных. Как организация здравоохранения, мы в первую очередь полагаемся на представление в ВОЗ (по официальным каналам) страновых данных регистрации естественного движения населения от министерств здравоохранения. Эти данные по всем причинам смерти затем анализируются нашими коллегами из отдела информационных систем здравоохранения, чтобы решить, насколько данные хорошего качества , то есть определить, отражают ли они достаточную полноту и охват смертности по всем причинам смертей. &lt;/p&gt;
+&lt;p&gt; Мы систематизировали страны по 4 категориям или группам, а именно: &lt;/p&gt;
+&lt;p&gt; Группа 1: страны с данными регистрации смертей (достоверные данные регистрации естественного движения населения / смертности) &lt;/p&gt;
+&lt;p&gt; Группа 2: страны с альтернативными источниками информации о причинах смертей &lt;/p&gt;
+&lt;p&gt; Группа 3: страны с численностью населения менее 150 000 человек &lt;/p&gt;
+&lt;p&gt; Группа 4: страны, в которых нет данных, соответствующих критериям, по регистрации смертей. &lt;/p&gt;
+&lt;p&gt; Отдел информационных систем здравоохранения анализирует качество и полноту данных. Для модели безопасности дорожного движения, если ВОЗ считает страну имеющей хорошие данные регистрации актов гражданского состояния (VR), это означает, что страна находится в группе 1, тогда мы не применяем регрессионную модель для получения оценки (мы можем , однако, если данные регистрации актов гражданского состояния датированы, сделать прогноз). Если страна входит в группу 4, мы применяем отрицательную биномиальную регрессию, где N - общее количество смертей в результате дорожно-транспортных происшествий, C - постоянный член, Xi - набор объясняющих ковариат, Pop - это население страны-года и ? отрицательный биномиальный параметр ошибки. &lt;/p&gt;
+&lt;p&gt; Для стран из группы 2 описанный выше метод регрессии использовался для прогнозирования самого последнего года, для которого была доступна оценка общего числа смертей. &lt;/p&gt;
+&lt;p&gt; Наконец, в странах из группы 3 с населением менее 150 000 человек и отсутствием соответствующих данных регистрации смертей регрессионные оценки не использовались. Только зарегистрированные случаи смертей не корректировались. &lt;/p&gt;
+&lt;p&gt; Подробнее об этом процессе оценки см. в &lt;em&gt; Докладе о состоянии безопасности дорожного движения в мире за 2015 год.&lt;/em&gt;. &lt;/p&gt;
+			</language>
+</languages>
+</data>
+</root>

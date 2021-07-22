@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<status>success</status>
+	<message>The REG_AGG field for indicator 15-4-2, translated into all languages</message>
+	<data>
+		<languages>
+			<language lang="ar"/>
+			<language lang="en">&lt;h2&gt;Regional aggregates:&lt;/h2&gt;
+&lt;p&gt;Using spatially explicit data allows straightforward calculation of the indicator value for any delineated area. However, giving the spatial resolution of 300 meters of the CCI layer, calculation of the indicator values for smallest regions consisting of only few pixels may results in abrupt changes in the indicator values due to the relatively higher impact of classification errors. &lt;/p&gt;
+			</language>
+			<language lang="es"/>
+			<language lang="fr"/>
+			<language lang="pt"/>
+			<language lang="ru">&lt;h2&gt; Региональные агрегаты: &lt;/h2&gt;
+&lt;p&gt; Использование пространственно-выраженных данных позволяет напрямую рассчитать значение показателя для любой очерченной области. Однако при пространственном разрешении 300 метров зоны ИИК расчет значений показателя для самых небольших областей, состоящих всего из нескольких пикселей, может привести к резким изменениям значений показателя из-за относительно более высокого влияния ошибок классификации.&lt;/p&gt;
+			</language>
+</languages>
+</data>
+</root>

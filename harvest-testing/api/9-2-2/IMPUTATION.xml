@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<status>success</status>
+	<message>The IMPUTATION field for indicator 9-2-2, translated into all languages</message>
+	<data>
+		<languages>
+			<language lang="ar"/>
+			<language lang="en">&lt;h2&gt;Treatment of missing values:&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;em&gt;At country level:&lt;/em&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Multivariate regression and cross-validation techniques are used to impute missing values at the country level. The additional variables used for the imputation include a range of indicators, including labour market and economic data. However, the imputed missing country values are only used to calculate the global and regional estimates; they are not used for international reporting on the SDG indicators by the ILO. For further information on the estimates, please refer to the the ILO modelled estimates methodological overview, available at &lt;a href=&quot;https://www.ilo.org/ilostat-files/Documents/TEM.pdf&quot;&gt;https://www.ilo.org/ilostat-files/Documents/TEM.pdf&lt;/a&gt;.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;em&gt;At regional and global levels:&lt;/em&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The aggregates are derived from the ILO modelled estimates that are used to produce global and regional estimates of, amongst others, employment by economic activity. These models use multivariate regression and cross-validation techniques to impute missing values at the country level, which are then aggregated to produce regional and global estimates. The regional and global shares of employment in manufacturing are obtained by first adding up, across countries, the numerator and denominator of the formula that defines the manufacturing employment as a proportion of total employment - outlined above. Once both magnitudes are produced at the desired level of aggregation, the ratio between the two is used to compute the share for each regional grouping and the global level. Notice that this direct aggregation method can be used due to the imputation of missing observations. For further information on the estimates, please refer to the the ILO modelled estimates methodological overview, available at &lt;a href=&quot;https://www.ilo.org/ilostat-files/Documents/TEM.pdf&quot;&gt;https://www.ilo.org/ilostat-files/Documents/TEM.pdf&lt;/a&gt;.&lt;/p&gt;
+			</language>
+			<language lang="es">&lt;h2&gt;Tratamiento de valores faltantes:&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;em&gt;A nivel de país:&lt;/em&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Se utilizan técnicas de regresión multivariante y de validación cruzada para imputar los valores faltantes a nivel de país. Las variables adicionales utilizadas para la imputación incluyen una serie de indicadores, entre los que se encuentran datos económicos y del mercado laboral. Sin embargo, los valores faltantes de los países imputados sólo se utilizan para calcular las estimaciones globales y regionales; no se utilizan para la presentación de informes internacionales sobre los indicadores de los ODS por parte de la OIT. Para más información sobre las estimaciones, consulte el resumen metodológico de las estimaciones modeladas de la OIT, disponible en &lt;a href=&quot;https://www.ilo.org/ilostat-files/Documents/TEM.pdf&quot;&gt;https://www.ilo.org/ilostat-files/Documents/TEM.pdf&lt;/a&gt;.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;em&gt;A nivel regional y mundial:&lt;/em&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Los agregados se derivan de las estimaciones modelizadas de la OIT que se utilizan para producir estimaciones globales y regionales de, entre otros, el empleo por actividad económica. Estos modelos utilizan técnicas de regresión multivariante y de validación cruzada para imputar los valores que faltan a nivel de país, que luego se agregan para producir estimaciones regionales y mundiales. Las proporciones regionales y mundiales del empleo en la industria manufacturera se obtienen sumando primero, en todos los países, el numerador y el denominador de la fórmula que define el empleo en la industria manufacturera como proporción del empleo total, como se ha indicado anteriormente. Una vez obtenidas ambas magnitudes al nivel de agregación deseado, se utiliza la relación entre ambas para calcular la participación de cada agrupación regional y del nivel mundial. Obsérvese que este método de agregación directa puede utilizarse debido a la imputación de las observaciones que faltan. Para más información sobre las estimaciones, consulte el resumen metodológico de las estimaciones modelizadas de la OIT, disponible en &lt;a href=&quot;https://www.ilo.org/ilostat-files/Documents/TEM.pdf&quot;&gt;https://www.ilo.org/ilostat-files/Documents/TEM.pdf&lt;/a&gt;.&lt;/p&gt;
+			</language>
+			<language lang="fr">&lt;h2&gt;Traitement des valeurs manquantes : &lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;em&gt;Au niveau national : &lt;/em&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Des techniques de régression multivariée et de validation croisée sont utilisées pour imputer les valeurs manquantes au niveau des pays. Les variables supplémentaires utilisées pour l&apos;imputation comprennent une série d&apos;indicateurs, notamment des données sur le marché du travail et des données économiques. Toutefois, les valeurs nationales manquantes imputées ne sont utilisées que pour calculer les estimations mondiales et régionales ; elles ne sont pas utilisées pour les rapports internationaux sur les indicateurs de l&apos;ODD par l&apos;OIT. Pour plus d&apos;informations sur les estimations, veuillez vous référer à la vue d&apos;ensemble méthodologique des estimations modélisées du BIT, disponible sur le site &lt;a href=&quot;https://www.ilo.org/ilostat-files/Documents/TEM.pdf&quot;&gt;https://www.ilo.org/ilostat-files/Documents/TEM.pdf&lt;/a&gt;.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt; &lt;strong&gt; &lt;em&gt;Aux niveaux régional et mondial :&lt;/em&gt; &lt;/strong&gt; &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Les agrégats sont dérivés des estimations modélisées de l&apos;OIT qui sont utilisées pour produire des estimations mondiales et régionales, entre autres, de l&apos;emploi par activité économique. Ces modèles utilisent des techniques de régression multivariée et de validation croisée pour imputer les valeurs manquantes au niveau des pays, qui sont ensuite agrégées pour produire des estimations régionales et mondiales. Les parts régionales et mondiales de l&apos;emploi dans le secteur manufacturier sont obtenues en additionnant d&apos;abord, entre les pays, le numérateur et le dénominateur de la formule qui définit l&apos;emploi dans le secteur manufacturier en tant que proportion de l&apos;emploi total - décrite ci-dessus. Une fois que les deux grandeurs sont produites au niveau d&apos;agrégation souhaité, le rapport entre les deux est utilisé pour calculer la part de chaque groupe régional et le niveau mondial. Il est à noter que cette méthode d&apos;agrégation directe peut être utilisée en raison de l&apos;imputation des observations manquantes. Pour plus d&apos;informations sur les estimations, veuillez vous référer à l&apos;aperçu méthodologique des estimations modélisées du BIT, disponible sur le site &lt;a href=&quot;https://www.ilo.org/ilostat-files/Documents/TEM.pdf&quot;&gt;https://www.ilo.org/ilostat-files/Documents/TEM.pdf&lt;/a&gt;. &lt;/p&gt;
+			</language>
+			<language lang="pt"/>
+			<language lang="ru">&lt;h2&gt; Обработка отсутствующих значений: &lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt; &lt;strong&gt; &lt;em&gt; На страновом уровне: &lt;/em&gt; &lt;/strong&gt; &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt; Для вменения отсутствующих значений на страновом уровне используются методы многомерной регрессии и перекрестной валидации. Дополнительные переменные, используемые для условного исчисления, включают ряд показателей, в том числе данные по рынку труда и экономические данные. Однако вмененные отсутствующие значения стран используются только для расчета глобальных и региональных оценок; они не используются МОТ для международной отчетности по показателям ЦУР. Дополнительную информацию об оценках см. в методологическом обзоре смоделированных оценок МОТ, доступном по адресу &lt;a href=&quot;https://www.ilo.org/ilostat-files/Documents/TEM.pdf&quot;&gt; https://www.ilo.org/ilostat-files/Documents/TEM.pdf &lt;/a&gt;. &lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt; &lt;strong&gt; &lt;em&gt; На региональном и глобальном уровнях: &lt;/em&gt; &lt;/strong&gt; &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt; Агрегированные показатели получены на основе смоделированных МОТ оценок, которые используются для получения, среди прочего, глобальных и региональных оценок занятости по видам экономической деятельности. В этих моделях используются методы многомерной регрессии и перекрестной валидации для вменения недостающих значений на страновом уровне, которые затем агрегируются для получения региональных и глобальных оценок. Региональные и глобальные значения долей занятости в секторе обрабатывающей промышленности рассчитываются путем сложения по странам числителя и знаменателя формулы, определяющей занятость в секторе обрабатывающей промышленности как долю от общей занятости, как указано выше. При получении обеих величин на желаемом уровне агрегирования, их соотношение используется для вычисления доли по каждой региональной группировке и для глобального уровня. Обратите внимание, что этот метод прямого агрегирования можно использовать благодаря вменению отсутствующих наблюдений. Дополнительную информацию об оценках см. в методологическом обзоре смоделированных оценок МОТ, доступном по адресу &lt;a href=&quot;https://www.ilo.org/ilostat-files/Documents/TEM.pdf&quot;&gt; https://www.ilo.org/ilostat-files/Documents/TEM.pdf &lt;/a&gt;. &lt;/p&gt;
+			</language>
+</languages>
+</data>
+</root>
