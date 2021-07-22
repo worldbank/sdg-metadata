@@ -6,6 +6,7 @@ title: SDG Metadata Translation Project
 <img alt="Sustainable Development Goals Icon" src="{{ site.baseurl }}/assets/img/sdg-icon.png" class="align-left" style="max-width:25%" />
 The purpose of this project is to translate metadata for Sustainable Development Goal (SDG) indicators into other languages using computer assisted translation tools. A low cost, efficient, and accurate method was needed to improve the transparency and accessibility of metadata for statistical capacity building.
 
+
 In January-March 2020, a [pilot](/sdg-metadata/pilot/) was conducted as the result of a collaboration by the World Bank Group under the ECASTAT Trust Fund in coordination with UNECE and ROSSTAT. The pilot produced Russian translations of selected SDG metadata with an estimated reduction of translation time of 35%. The pilot also provided a detailed protocol that could be replicated in other languages for other translation needs.
 
 In October 2020, the main study was launched. All SDG indicator metadata files designated by the IAEG-SDGs as tier 1, tier 1/tier 2, or provisional tier 1 were converted into machine-readable format and translated. Files are populated on our metadata webpage on a flow basis as they are prepared. 
