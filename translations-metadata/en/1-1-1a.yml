@@ -1,3 +1,4 @@
+SDG_INDICATOR_INFO: ''
 SDG_GOAL: '<p>Goal 1: End poverty in all its forms everywhere</p>'
 SDG_TARGET: >-
   <p>Target 1.1: By 2030, eradicate extreme poverty for all people everywhere,
@@ -6,11 +7,14 @@ SDG_INDICATOR: >-
   <p>Indicator 1.1.1: Proportion of the population living below the
   international poverty line by sex, age, employment status and geographic
   location (urban/rural)</p>
-META_LAST_UPDATE: <p>September 2020</p>
+META_LAST_UPDATE: '<p>Last updated: 19 July 2016</p>'
 SDG_CUSTODIAN_AGENCIES: |-
   <h1>Institutional information</h1>
   <h2>Organization(s):</h2>
   <p>World Bank (WB)</p>
+CONTACT: ''
+ORGANISATION_UNIT: ''
+IND_DEF_CON_CLASS: ''
 STAT_CONC_DEF: >-
   <h1>Concepts and definitions</h1>
 
@@ -56,6 +60,7 @@ STAT_CONC_DEF: >-
   U.S dollars. Later editions used 1993, 2005, and 2011 consumption PPP
   estimates produced by the World Bank&#x2019;s International Comparison Program
   (ICP).</p>
+SRC_TYPE_COLL_METHOD: ''
 SOURCE_TYPE: >-
   <h1>Data sources</h1>
 
@@ -130,6 +135,7 @@ DATA_SOURCE: >-
 COMPILING_ORG: |-
   <h1>Data compilers</h1>
   <p>World Bank</p>
+OTHER_METHOD: ''
 RATIONALE: >-
   <h2>Rationale:</h2>
 
@@ -144,7 +150,7 @@ RATIONALE: >-
   data become available (and thus may contain more recent data or revisions) and
   conducts a major reassessment of progress against poverty every year.
   PovcalNet is an interactive computational tool that allows users to replicate
-  these internationally comparable $1.90 and $3.20 a day global, regional and
+  these internationally comparable $1.90 and $3.10 a day global, regional and
   country-level poverty estimates and to compute poverty measures for custom
   country groupings and for different poverty lines. </p>
 
@@ -231,7 +237,7 @@ IMPUTATION: >-
   <h2>Treatment of missing values:</h2>
 
   <ul>
-    <li><strong><em>At country level:</em></strong></li>
+    <li>At country level:</li>
   </ul>
 
   <p>There is no &#x201C;imputation&#x201D; in the traditional sense for missing
@@ -243,7 +249,7 @@ IMPUTATION: >-
   imputation method.</p>
 
   <ul>
-    <li><strong><em>At regional and global levels:</em></strong></li>
+    <li>At regional and global levels:</li>
   </ul>
 
   <p>To compare the poverty rates across countries and compute regional
@@ -344,7 +350,7 @@ OTHER_DOC: >-
 
   <h2>URL:</h2>
 
-  <p><a href="https://www.worldbank.org">www.worldbank.org</a></p>
+  <p><a href="www.worldbank.org">www.worldbank.org</a></p>
 
   <h2>References:</h2>
 
