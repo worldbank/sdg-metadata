@@ -31,8 +31,8 @@ module.exports = function(refresh=false) {
     const languageProperties = [
         'total',
         'approved',
-        //'failing',
-        //'fuzzy',
+        'failing',
+        'fuzzy',
     ]
 
     writeStatistics()
