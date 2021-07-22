@@ -44,6 +44,12 @@ module.exports = function() {
 
     async function main() {
 
+        // Do not generate the histories for now, since source material is now
+        // coming from the UN Metadata API.
+        const dataFolder = path.join('www', '_data')
+        fs.writeFileSync(path.join(dataFolder, 'history.json'), JSON.stringify({}), 'utf8')
+        return
+
         const lastCommit = await repo.revparse('HEAD')
         if (!fs.existsSync(tempRepoPath)) {
             await repo.clone('https://github.com/worldbank/sdg-metadata', tempRepoPath)
