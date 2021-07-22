@@ -8,6 +8,6 @@ layout: single
 
 {% for goal in page.goals %}
 <a class="goal-link" href="{{ goal }}">
-  <img src="https://open-sdg.org/sdg-translations/assets/img/goals/{{ page.language }}/{{ goal }}.png" alt="Goal {{ goal }}" />
+  <img src="{{ site.baseurl }}/assets/img/goals/{{ page.language }}/{{ goal }}.png" alt="Goal {{ goal }}" />
 </a>
 {% endfor %}
