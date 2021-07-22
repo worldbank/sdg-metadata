@@ -16,7 +16,7 @@ We are grateful for our ongoing partnership with UNECE and Rosstat to prepare Ru
 
 The SDG Data Structure Defintion (hyperlink) can also be translated into local languages using our computer-assisted method. These structural metadata are used to convey SDG data into the SDG Data Lab. Translatating the DSD can assist national statistical offices preparing and contributing SDG data. Our method assists with updating translations as the DSD is updated. A collaboration with INSEE is exploring French translation.
 
-* [Introduction to the SDG Metadata Translation Project](https://docs.google.com/presentation/d/1S6OkPgZr1eD6eY1WcXEaVlsqV71feSQMIZ0sPAPe2TA/edit?usp=sharing)
+* [Brief Introduction to the SDG Metadata Translation Project]
 * [Presentations]({{ site.baseurl }}/presentations/)
 * [Documentation]({{ site.baseurl }}/documentation/)
 * [Reference Metadata]({{ site.baseurl }}/metadata/)
