@@ -7,6 +7,9 @@ module SdgMetadataPlugins
 
     def get_field_content(content, field_id, field_name, site, language)
       prefix = '<div id="' + field_id + '">'
+      if content == nil
+        content = ''
+      end
       inner = '<p class="concept-name">' + translate_concept_name(site, field_id, language) + '</p>' + content
       if content == '' || content == nil
         inner = '<p>' + field_name + ' (' + field_id + ') is not yet translated.</p>'
