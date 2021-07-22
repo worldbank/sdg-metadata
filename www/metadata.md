@@ -13,9 +13,11 @@ The SDG metadata are currently available in the languages below. As more transla
     <a class="btn btn--info" href="{{ site.baseurl }}/metadata/{{ language[0] }}">
       {{ language[1].name }}
     </a>
+    {% if langcode != 'en' %}
     <a href="https://hosted.weblate.org/engage/sdg-metadata/{{ language[0] }}/">
       <img src="https://hosted.weblate.org/widgets/sdg-metadata/{{ language[0] }}/svg-badge.svg" alt="Translation status" />
     </a>
+    {% endif %}
   </li>
   {% endif %}
   {% endfor %}
