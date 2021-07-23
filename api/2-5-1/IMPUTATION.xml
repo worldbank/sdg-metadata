@@ -15,7 +15,16 @@
 &lt;/ul&gt;
 &lt;p&gt;For both components, plants and animals, missing values are treated as such and not replaced by estimates.&lt;/p&gt;
 			</language>
-			<language lang="es"/>
+			<language lang="es">&lt;h2&gt;Tratamiento de valores faltantes:&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;em&gt;A nivel de país:&lt;/em&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;En el caso de las plantas, los valores faltantes se tratan como tales y no se sustituyen por estimaciones. En el caso de los animales, si no se facilitan datos para un año determinado, se supone que el estado de almacenamiento sigue siendo el mismo que el del último año del que se han comunicado datos. En este caso, la naturaleza de los datos se considera estimada. Sin embargo, si el último informe se refiere a un año de más de 10 años, el estado de almacenamiento se considera &amp;#x201C;desconocido&amp;#x201D;. &lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;em&gt;A nivel regional y mundial:&lt;/em&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Para ambos componentes, plantas y animales, los valores que faltan se tratan como tales y no se sustituyen por estimaciones.&lt;/p&gt;
+			</language>
 			<language lang="fr">&lt;h2&gt;Traitement des valeurs manquantes : &lt;/h2&gt;
 &lt;ul&gt;
   &lt;li&gt;&lt;strong&gt;&lt;em&gt;Au niveau national : &lt;/em&gt;&lt;/strong&gt;&lt;/li&gt;
