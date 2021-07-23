@@ -8,7 +8,7 @@ The purpose of this project is to translate metadata for Sustainable Development
 
 * In January-March 2020, a [pilot](/sdg-metadata/pilot/) was conducted as the result of a collaboration by the World Bank Group under the ECASTAT Trust Fund in coordination with UNECE and ROSSTAT. The pilot produced Russian translations of selected SDG metadata with an estimated reduction of translation time of 35%. 
 
-* In October 2020, the [second phase](/sdg-metadata/documentation) of the study was launched. All SDG indicator metadata files designated by the IAEG-SDGs as tier 1 were converted into machine-readable format and translated. 
+* In October 2020, the [second phase](/sdg-metadata/phase_2/) of the study was launched. All SDG indicator metadata files designated by the IAEG-SDGs as tier 1 were converted into machine-readable format and translated. 
 
 * In MONTH 2021, the study will be expanded to include all tier 2 metadata files and all updated tier 1 metadata files approved by the IAEG-SDG. Files will be harvested from the [UNSD SDG Data Lab] on a routine basis. This expansion is possible due to a new partnership with the UN Food and Agriculture Organization, and ongoing collaboration with the SDG-SDMX Working Group, the IAEG-SDG Metadata Working Group, and the secretariat of the IAEG-SDGs.
 
@@ -18,7 +18,7 @@ The [SDG Data Structure Defintion](/sdg-metadata/DSD/) also can be translated in
 
 * [Brief Introduction to the SDG Metadata Translation Project]
 * [Presentations]({{ site.baseurl }}/presentations/)
-* [Documentation]({{ site.baseurl }}/phase_3/)
+* [Documentation]({{ site.baseurl }}/documentation/)
 * [Reference Metadata]({{ site.baseurl }}/metadata/)
 * [Structural Metadata (DSD)]{{ site.baseurl }}/DSD/)
 
