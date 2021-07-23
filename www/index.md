@@ -10,7 +10,7 @@ The purpose of this project is to translate metadata for Sustainable Development
 
 * In October 2020, the [second phase](/sdg-metadata/documentation) of the study was launched. All SDG indicator metadata files designated by the IAEG-SDGs as tier 1 were converted into machine-readable format and translated. 
 
-* In MONTH 2021, the study will be expanded to include all tier 2 metadata files. In addition, all updated tier 1 metadata files that have been approved by the IAEG-SDG will be available for translation updates. Files will be harvested from the UNSD SDG Data Lab on a routine basis. This expansion is possible due to a new partnership with the UN Food and Agriculture Organization, and ongoing collaboration with the SDMX-SDG Working Group, the IAEG-SDG Metadata Working Group, and the secretariat of the IAEG-SDGs.
+* In MONTH 2021, the study will be expanded to include all tier 2 metadata files and all updated tier 1 metadata files approved by the IAEG-SDG. Files will be harvested from the [UNSD SDG Data Lab] on a routine basis. This expansion is possible due to a new partnership with the UN Food and Agriculture Organization, and ongoing collaboration with the SDG-SDMX Working Group, the IAEG-SDG Metadata Working Group, and the secretariat of the IAEG-SDGs.
 
 Translations are prepared through our ongoing partnerships with national statistical offices and regional agencies. UNECE and Rosstat prepared Russian translations. Statistics Canada prepared French translations. ECLAC and IADB prepared Spanish translations. We welcome partners to generate translations into other languages.
 
