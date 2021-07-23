@@ -5,7 +5,4 @@ layout: single
   <a class="btn btn--info" href="{{ site.baseurl }}/documents/{{ page.language }}/{{ page.slug }}.pdf">{{ site.data.store.t[page.language].site.DOWNLOAD_PDF | default: 'Download PDF' }}</a>
 </div>
 
-{% assign weblate_stats = site.data.stats[page.language][page.slug] %}
-{% include statistics.html stats=weblate_stats %}
-
 {{ content }}

@@ -68,8 +68,28 @@ module.exports = function(refresh=false) {
                     for (const prop of languageProperties) {
                         languages[language.code][prop] = 0
                     }
+                    languages[language.code].indicators = {}
                 }
-                languages[language.code][component.slug] = language
+
+                // Set some boolean flags.
+                language.is_updated = (language.fuzzy > 0)
+                language.is_new = (language.translated === 0)
+                language.is_complete = (language.translated === language.total)
+                language.is_in_progress = (language.translated < language.total && language.translated > 0)
+                if (language.is_new) {
+                    language.sdg_status = 'New'
+                }
+                else if (language.is_complete) {
+                    language.sdg_status = 'Complete'
+                }
+                else if (language.is_in_progress) {
+                    language.sdg_status = 'In progress'
+                }
+                else {
+                    language.sdg_status = 'Unknown'
+                }
+                languages[language.code].indicators[component.slug] = language
+
                 for (const prop of languageProperties) {
                     languages[language.code][prop] += language[prop]
                 }

@@ -196,6 +196,20 @@ module SdgMetadataPlugins
         }
         site.pages << SdgMetadataPage.new(site, base, dir, layout, title, content, language, data)
       end
+
+      # Generate all the statistics pages.
+      site.data['store']['metadata'].each do |language, indicators|
+        dir = File.join('metadata', language, 'statistics') + '/'
+        layout = 'statistics'
+        title = 'Translation statistics: ' + language
+        if site.data['languages'].key?(language)
+          title = 'Translations statistics: ' + site.data['languages'][language]['name']
+        end
+        content = ''
+        language = language
+        data = {}
+        site.pages << SdgMetadataPage.new(site, base, dir, layout, title, content, language, data)
+      end
     end
   end
 
