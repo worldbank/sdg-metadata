@@ -10,6 +10,7 @@ const seriesDescriptor = sdgMetadataConvert.descriptorStore.getDescriptor('SERIE
 const seriesOptions = seriesDescriptor.options
 const harvestGoals = [
     '1',
+    '2',
 ]
 
 let xmlString
