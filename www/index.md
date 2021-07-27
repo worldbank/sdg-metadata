@@ -16,10 +16,9 @@ Translations are prepared through our ongoing partnerships with national statist
 
 The [SDG Data Structure Defintion](/sdg-metadata/DSD/) also can be translated into local languages using our computer-assisted method. These structural metadata are used to convey SDG data into the SDG Data Lab. Translatating the DSD can assist national statistical offices preparing and contributing SDG data. A collaboration with INSEE is exploring French translation.
 
-* [Brief Introduction to the SDG Metadata Translation Project]
-* [Presentations]({{ site.baseurl }}/presentations/)
-* [Documentation]({{ site.baseurl }}/documentation/)
 * [Reference Metadata]({{ site.baseurl }}/metadata/)
 * [Structural Metadata (DSD)]{{ site.baseurl }}/DSD/)
+* [Documentation]({{ site.baseurl }}/documentation/)
+* [Presentations]({{ site.baseurl }}/presentations/)
 
 For more information about the project, please email <sdgmetadatatranslation@worldbank.org>.
