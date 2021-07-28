@@ -43,9 +43,95 @@ STAT_CONC_DEF: >-
 
   <p>The indicator is defined by the formula:</p>
 
-  <p><img
-  src="data:image/png;base64,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"></p>
-
+  <p><math xmlns="http://www.w3.org/1998/Math/MathML">
+      <mi>S</mi>
+      <mi>D</mi>
+      <mi>G</mi>
+      <mn>2</mn>
+      <mo>.</mo>
+      <mn>4</mn>
+      <mo>.</mo>
+      <mn>1</mn>
+      <mo>=</mo>
+      <mfrac>
+        <mrow>
+          <mi>A</mi>
+          <mi>r</mi>
+          <mi>e</mi>
+          <mi>a</mi>
+          <mi>&amp;nbsp;</mi>
+          <mi>u</mi>
+          <mi>n</mi>
+          <mi>d</mi>
+          <mi>e</mi>
+          <mi>r</mi>
+          <mi>&amp;nbsp;</mi>
+          <mi>p</mi>
+          <mi>r</mi>
+          <mi>o</mi>
+          <mi>d</mi>
+          <mi>u</mi>
+          <mi>c</mi>
+          <mi>t</mi>
+          <mi>i</mi>
+          <mi>v</mi>
+          <mi>e</mi>
+          <mi>&amp;nbsp;</mi>
+          <mi>a</mi>
+          <mi>n</mi>
+          <mi>d</mi>
+          <mi>&amp;nbsp;</mi>
+          <mi>s</mi>
+          <mi>u</mi>
+          <mi>s</mi>
+          <mi>t</mi>
+          <mi>a</mi>
+          <mi>i</mi>
+          <mi>n</mi>
+          <mi>a</mi>
+          <mi>b</mi>
+          <mi>l</mi>
+          <mi>e</mi>
+          <mi>&amp;nbsp;</mi>
+          <mi>a</mi>
+          <mi>g</mi>
+          <mi>r</mi>
+          <mi>i</mi>
+          <mi>c</mi>
+          <mi>u</mi>
+          <mi>l</mi>
+          <mi>t</mi>
+          <mi>u</mi>
+          <mi>r</mi>
+          <mi>e</mi>
+          <mi>&amp;nbsp;</mi>
+        </mrow>
+        <mrow>
+          <mi>A</mi>
+          <mi>g</mi>
+          <mi>r</mi>
+          <mi>i</mi>
+          <mi>c</mi>
+          <mi>u</mi>
+          <mi>l</mi>
+          <mi>t</mi>
+          <mi>u</mi>
+          <mi>r</mi>
+          <mi>a</mi>
+          <mi>l</mi>
+          <mi>&amp;nbsp;</mi>
+          <mi>l</mi>
+          <mi>a</mi>
+          <mi>n</mi>
+          <mi>d</mi>
+          <mi>&amp;nbsp;</mi>
+          <mi>a</mi>
+          <mi>r</mi>
+          <mi>e</mi>
+          <mi>a</mi>
+        </mrow>
+      </mfrac>
+    </math></p>
   <p>This implies the need to measure both the extent of land under productive
   and sustainable agriculture (the numerator), as well as the extent of
   agriculture land area (the denominator).</p>
@@ -79,7 +165,7 @@ STAT_CONC_DEF: >-
   <ul>
     <li>State and common land not used exclusively by the farm holding.</li>
     <li>Nomadic pastoralism.</li>
-    <li>Production from gardens and backyards. Production from hobby farms<sup><a href="#footnote-2" id="footnote-ref-2">[1]</a></sup>.</li>
+    <li>Production from gardens and backyards. Production from hobby farms<sup><a href="#footnote-3" id="footnote-ref-3">[1]</a></sup>.</li>
     <li>Holdings focusing exclusively on aquaculture. </li>
     <li>Holdings focusing exclusively on forestry.</li>
     <li>Food harvested from the wild.</li>
@@ -247,10 +333,10 @@ STAT_CONC_DEF: >-
 
   <p>Please see the annex for a detailed description of the
   sub-indicators.</p><div class="footnotes"><div><sup class="footnote-number"
-  id="footnote-2">1</sup><p> The countries will define hobby farms as per their
+  id="footnote-3">1</sup><p> The countries will define hobby farms as per their
   national criteria and remove these farms from the population of interest for
   2.4.1 until an international definition is available. <a
-  href="#footnote-ref-2">&#x2191;</a></p></div></div>
+  href="#footnote-ref-3">&#x2191;</a></p></div></div>
 UNIT_MEASURE: >-
   <p>The Indicator is unitless, expressing a ratio between two areas (both
   measured in thousand hectares), i.e., area under sustainable and productive
@@ -468,9 +554,52 @@ DOC_METHOD: >-
 
   <p> The values for reporting indicator 2.4.1 can be calculated as follows:</p>
 
-  <p><img
-  src="data:image/png;base64,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"></p>
-
+  <p><math xmlns="http://www.w3.org/1998/Math/MathML">
+      <msub>
+        <mrow>
+          <mi>S</mi>
+          <mi>D</mi>
+          <mi>G</mi>
+          <mn>241</mn>
+        </mrow>
+        <mrow>
+          <mi>d</mi>
+        </mrow>
+      </msub>
+      <mo>=</mo>
+      <mrow>
+        <mrow>
+          <munder>
+            <mrow>
+              <mi mathvariant="normal">min</mi>
+            </mrow>
+            <mrow>
+              <mi>n</mi>
+              <mo>:</mo>
+              <mn>1</mn>
+              <mo>-</mo>
+              <mn>11</mn>
+            </mrow>
+          </munder>
+        </mrow>
+        <mo>&#x2061;</mo>
+        <mrow>
+          <mo>(</mo>
+          <msub>
+            <mrow>
+              <mi>S</mi>
+              <mi>I</mi>
+            </mrow>
+            <mrow>
+              <mi>d</mi>
+              <mi>&amp;nbsp;</mi>
+              <mi>n</mi>
+            </mrow>
+          </msub>
+          <mo>)</mo>
+        </mrow>
+      </mrow>
+    </math></p>
   <p>where:</p>
 
   <p>SDG241<sub>d </sub>= proportion of agricultural land area that have
@@ -485,9 +614,71 @@ DOC_METHOD: >-
   <p>SDG241<sub>d </sub>is the proportion of agricultural area for which all
   sub-indicators are green.</p>
 
-  <p> <img
-  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAcYAAAAeCAIAAAA5GimIAAAAAXNSR0IArs4c6QAACLtJREFUeF7tnU1IVk0Ux9/eXdIyw43iqgzclODGkDZG1CIUXWiZgSi1CMmCiD4WRWWgmLqIjKCwj4VUuBA1N1a2LDfR16JFbaIP2kQte38vBw7T/Xg+rvPofXzOLC7zzJ05c+Y/d/73nDNzdd2fP3/+sWQIGAKGgCHgA4F/fQgxGYaAIWAIGAL/I2CUas+BIWAIGALeEDBK9QalCTIEDAFDwCjVngFDwBAwBLwhsM62p7xhaYIcBB4+fDg1NfXt2zfKtm/ffuHCBTIjIyOPHz+WWhs3bmxoaOjt7XVhe/ny5aNHj7hSWFVV1dPTQ9unT58i6u3bt2VlZe3t7S0tLW4T7l65cmV6ejog58aNG9euXSu6ORkfH3/37t3Q0FC+mn/9+hXogOjAgQO0BUMQ+PjxoyB57NixzZs3z87Ojo2NUdLd3R2AMd/uwmgH+tK5Hh4epuuAfO6uX78+MPvL0SFFbaFUS4aAXwSePHnS2trKFbFcz5w5I/K/fPmyZ88eKX/w4AF1rl+/rl2/ePGCkomJCUqgFfLSnAy3yFOZ5tzSJgjs7++n0NVfJAcK/Q6wcNIYIyPKVz44HD58WIAVnBVJ8gcPHlSBVNPpyLGXzEjG9SVzLbMZmZimS5cu5ahDEVUzxz9Fr7c1owoWJZZRY2MjI+IqJqqmrVu3ksdK2rFjx/Pnz7Ucy6WpqUmMLOyayclJaU4GW5V8c3Mz18+fP2sT7LJ9+/a5wjHEfv36dfTo0SIFE8MtgYkKDtu2bRPASW/evAEEQbK8vPz27duKBuXU9AhOXF8/fvygl/r6+ri+eABQBm/GozJpEGWUmoZZWGs64NTjBuKSBwaGsQnVssilnLUtkQESS4sFJqQZl2SVVlRUSAV820+fPimPSOHu3buFSlKYurq69u7di9pHjhwhg49PXgqFWfjZ1tZ2/PhxAUTqkMhQ7f3795GDwuWfn5/fuXOn3hWI7ty5E6iPBACvra31CE5cX69eveIxCLv8btdEftDcozJpEGWUmoZZWGs6iAVKiBM6cMcGz0KpWgKHan5paQlTVNk2EhFcxV27dukqvXv3bmdnpwReVzJBcJEpMNiwSoODgxQ+e/bs/PnzBIUJEJPHhMTQJs8tECDKKQ3BkMFixdfU1Ny6dYuShYWFyGFiJwbIC4iQg8yzZ89CuNrqw4cPWWkuXyTj+uJth+aZpfH+45GIe1Xkq0lK6hulpmQi1poafX19eN+sajxxHRth0C1btuhPl2GJFegtzDThLBcUrDbqI1YK4S+MXNbzz58/peTy5csrAyJbYZEp62aLvDA6OjrIyKtFhgP1qLXO/pKOgg0cSBYznPpQYdzoZOMucBdGPnXqFIjdu3fPxT8rzUllnQKZBX2FiAWdS1/uhGaeFzeSszIzWNBejFILCm9JC8cGETtLUWCZVVdX609uaVwPi1VZQ8KjJ0+e1JqYolTGuNMSHMb79++z1LGFZc0rK3kBnR7F7/YizRWS2RIPdAerJlYAOsYWXlxcdPF3X2lSrqEGtyPiufraoFzzcXHeQF+YxrC53whDYhxWuKFR6goDXrrdQVIYU7LRRCLSFxc8hRypqUFS1ic7V/v373fJiD0rWefCvGQS7OrQkIBvJG+iJ++DSJsuseO/unMvNOe+0kQfQgRhnl2mqgTNmcHMgdRldpHa5kapqZ2aYlWMjRSJb8JWmEhsQchIXr9+Ld4usTNYDBuTxawsiYkq9ix3sUBdLhsdHcXaEi6GiCP3iN2IIdXcKK30jkrizKKeG4sIo8xd2TJC+cDel1RO7PiLkm7oMKC2aK7m9u/fv79//64a8jPymXDjBlQgACIbU3RE4IWgtrSam5vjWllZGQDk5s2bOUYDwr3H9cVUupEKhRRgw0OWDS7ZjuPK3h2Gc/EGWI1SI59SK0yIAAuGtcSuCMuDtQoV4v4ji3KWGY4/5Rw7Z++Ck1VySxJRRbnLwUxWuNpNUCGJA+piG0LEgagivdAc2nWZQg60s4Axb6WcDOQOG2I91dXVxQ2PlYxAlGFHyN1JSwjH381EyYsXL3J11RZtJRZMOZRKnlHzWQS0DsuQAIefkXtxHEqDiF0OgknB6vTp0yCp0WegQ/7AwEAAEPCMfHPkOORwX7xK0ROLWMx/F1LAd10NqFa3y7glYSLCO96Rz3EsfqoV0RlaU9UQSIaAfm4gR+JFiHwj4Cb5mkBOp8/MzFy9ejVZdyvfClXdjyayKhAJSNZWySpkgJQp4BSH+xmCfMehc5Ssx9VtZVaqnzeTSUk5AhhBWMpsf2MBieMvOzCEYtkNE19ehkBNCT7gI2cOEaRnyJwi4BRaXtqGASnccCIhxfTGRNXvYpkdbG3Crxi5lOc1lsJpnkCyUWoC0KxJkSFAtA5X9MSJE7AkrnQ40qrjgXBxvTGsiDzgKW/atKlwQ4U7CE1klQ+/EwV2v5sIN8Sbxl/G1w4f74+UnzsgWdXLWiESUuIwxDc45qXN2dGSkO6GDRuYrAxzlLXH1a1gfzZldfG33lcZAeiJMGXWI6UJtMTsOnfuHAYXPE7AkUChhjWRRr+wBlHUwB98CXQEn/IZEiYzUWmJeObYMIHC1sQLAmaleoHRhBQrAvBUIfgUOPioiY04+BpWJbwgZheEKKfl6dfdnYuDD0cY19g9yZ9jw2Kdj+LX2yi1+OfQRpBKBOA+PgDl7BeciEsuZxgojDs/GzjuGvmdUioHakr9hYBRqj0QhkChENAPcNk7wlYN/B0ZOaGp5zQDx11d5sXCdWOLgYaF0t7kJkLAKDURbNbIEMgBAbx++SgTz53NLg6QquNP5tChQ9zimvmzV6xXjFyirmK35t4wBwWtin8EbHvKP6Ym0RAwBEoWAbNSS3bqbeCGgCHgHwGjVP+YmkRDwBAoWQSMUkt26m3ghoAh4B8Bo1T/mJpEQ8AQKFkEjFJLdupt4IaAIeAfgQhK5dBG+B+x+e/ZJBoChoAhsOYQ+A8lH6HWPd9yMAAAAABJRU5ErkJggg=="></p>
+  <p> </p>
 
+  <p><math xmlns="http://www.w3.org/1998/Math/MathML">
+      <msub>
+        <mrow>
+          <mi>S</mi>
+          <mi>D</mi>
+          <mi>G</mi>
+          <mn>241</mn>
+        </mrow>
+        <mrow>
+          <mi>a</mi>
+          <mo>+</mo>
+          <mi>d</mi>
+        </mrow>
+      </msub>
+      <mo>=</mo>
+      <mrow>
+        <mrow>
+          <munder>
+            <mrow>
+              <mi mathvariant="normal">min</mi>
+            </mrow>
+            <mrow>
+              <mi>n</mi>
+              <mo>:</mo>
+              <mn>1</mn>
+              <mo>-</mo>
+              <mn>11</mn>
+            </mrow>
+          </munder>
+        </mrow>
+        <mo>&#x2061;</mo>
+        <mrow>
+          <msub>
+            <mrow>
+              <msub>
+                <mrow>
+                  <mo>(</mo>
+                  <mi>S</mi>
+                  <mi>I</mi>
+                </mrow>
+                <mrow>
+                  <mi>d</mi>
+                </mrow>
+              </msub>
+              <mo>+</mo>
+              <msub>
+                <mrow>
+                  <mi>S</mi>
+                  <mi>I</mi>
+                </mrow>
+                <mrow>
+                  <mi>a</mi>
+                </mrow>
+              </msub>
+              <mo>)</mo>
+            </mrow>
+            <mrow>
+              <mi>n</mi>
+            </mrow>
+          </msub>
+        </mrow>
+      </mrow>
+    </math></p>
   <p>where:</p>
 
   <p>SDG241<sub>a+d </sub>= proportion of agricultural land area that have
@@ -507,9 +698,68 @@ DOC_METHOD: >-
   indicators are either green or yellow, an acceptable situation, but that could
   be improved. </p>
 
-  <p><img
-  src="data:image/png;base64,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"></p>
-
+  <p><math xmlns="http://www.w3.org/1998/Math/MathML">
+      <msub>
+        <mrow>
+          <mi>S</mi>
+          <mi>D</mi>
+          <mi>G</mi>
+          <mn>241</mn>
+        </mrow>
+        <mrow>
+          <mi>u</mi>
+        </mrow>
+      </msub>
+      <mo>=</mo>
+      <mn>1</mn>
+      <mo>-</mo>
+      <mi>S</mi>
+      <msub>
+        <mrow>
+          <mi>D</mi>
+          <mi>G</mi>
+          <mn>241</mn>
+        </mrow>
+        <mrow>
+          <mi>a</mi>
+          <mo>+</mo>
+          <mi>d</mi>
+        </mrow>
+      </msub>
+      <mo>=</mo>
+      <mrow>
+        <mrow>
+          <munder>
+            <mrow>
+              <mi mathvariant="normal">max</mi>
+            </mrow>
+            <mrow>
+              <mi>n</mi>
+              <mo>:</mo>
+              <mn>1</mn>
+              <mo>-</mo>
+              <mn>11</mn>
+            </mrow>
+          </munder>
+        </mrow>
+        <mo>&#x2061;</mo>
+        <mrow>
+          <mo>(</mo>
+          <msub>
+            <mrow>
+              <mi>S</mi>
+              <mi>I</mi>
+            </mrow>
+            <mrow>
+              <mi>u</mi>
+              <mi>&amp;nbsp;</mi>
+              <mi>n</mi>
+            </mrow>
+          </msub>
+          <mo>)</mo>
+        </mrow>
+      </mrow>
+    </math></p>
   <p>where:</p>
 
   <p>SDG241<sub>u </sub>= proportion estimated by default of agricultural area
@@ -613,13 +863,13 @@ OTHER_DOC: >-
 
   <ul>
     <li>Farm output value: The volume of agricultural output at farm level generally takes into account production of multiple outputs, e.g. crop types and crop and livestock combinations, etc. Since the volume of agricultural outputs is not measured in commensurate units (e.g. not all outputs are measured in tonnes, and tonnes of different output represent different products), it is necessary to establish an appropriate means of aggregation, in this case using a monetary unit. A simple way to enable aggregation is to reflect the multiple outputs produced by a single farm in terms of values (i.e. quantity multiplied by prices).</li>
-    <li>Farm agricultural land area: defined as the area of land used for agriculture within the farm<sup><a href="#footnote-3" id="footnote-ref-3">[2]</a></sup>. </li>
+    <li>Farm agricultural land area: defined as the area of land used for agriculture within the farm<sup><a href="#footnote-4" id="footnote-ref-4">[2]</a></sup>. </li>
   </ul>
 
   <p><strong>Sustainability criteria: </strong></p>
 
   <p>Distance from the 90<sup>th</sup> percentile of the national
-  distribution<sup><a href="#footnote-4" id="footnote-ref-4">[3]</a></sup>:</p>
+  distribution<sup><a href="#footnote-5" id="footnote-ref-5">[3]</a></sup>:</p>
 
   <ul>
     <li>Green (desirable): Sub-indicator value is &#x2265; 2/3 of the corresponding 90<sup>th</sup> percentile </li>
@@ -667,12 +917,39 @@ OTHER_DOC: >-
   may include other sources of income such as, for example, employment in local
   businesses by other family members, tourism activity, etc.</p>
 
-  <p>Formula<sup><a href="#footnote-5" id="footnote-ref-5">[4]</a></sup>:</p>
+  <p>Formula<sup><a href="#footnote-6" id="footnote-ref-6">[4]</a></sup>:</p>
 
-  <p><img
-  src="data:image/png;base64,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"></p>
-
-  <p>Where:</p>
+  <p><math xmlns="http://www.w3.org/1998/Math/MathML">
+      <mi>N</mi>
+      <mi>F</mi>
+      <mi>I</mi>
+      <mo>=</mo>
+      <mi>&amp;nbsp;</mi>
+      <mi>C</mi>
+      <mi>R</mi>
+      <mo>+</mo>
+      <msub>
+        <mrow>
+          <mi>Y</mi>
+        </mrow>
+        <mrow>
+          <mi>k</mi>
+        </mrow>
+      </msub>
+      <mo>-</mo>
+      <mi>O</mi>
+      <mi>E</mi>
+      <mo>-</mo>
+      <mi>D</mi>
+      <mi>e</mi>
+      <mi>p</mi>
+      <mo>+</mo>
+      <mi>&amp;nbsp;</mi>
+      <mi>V</mi>
+      <mi>I</mi>
+      <mi>C</mi>
+    </math></p>
+  <p>where:</p>
 
   <ul>
     <li>NFI = Total Net Farm Income</li>
@@ -687,7 +964,7 @@ OTHER_DOC: >-
 
   <ul>
     <li>Net farm income refers to the return (both monetary and non-monetary) to farm operators for their labor, management and capital, after all production expenses have been paid (that is, gross farm income minus production expenses). It includes net income from farm production, the value of commodities consumed on the farm, depreciation, and inventory changes.</li>
-    <li>Gross farm income refers to the monetary and non-monetary income received by farm. Its main components include cash receipts from the sale of farm products, direct program payments to producers, other farm income (such as income from custom work), value of food and fuel produced and consumed on the same farm, and change in value of year-end inventories of crops and livestock<sup><a href="#footnote-6" id="footnote-ref-6">[5]</a></sup>.</li>
+    <li>Gross farm income refers to the monetary and non-monetary income received by farm. Its main components include cash receipts from the sale of farm products, direct program payments to producers, other farm income (such as income from custom work), value of food and fuel produced and consumed on the same farm, and change in value of year-end inventories of crops and livestock<sup><a href="#footnote-7" id="footnote-ref-7">[5]</a></sup>.</li>
     <li>Farm cash receipts include revenues from the sale of agricultural commodities in local currency units that include sales of crops, livestock and its by-products.</li>
     <li>Direct program payments to producers included in farm cash receipts represent the amounts paid under various government and private programs to individuals involved in agricultural production. The payments related to current agricultural production include subsidies to encourage production or to compensate producers for low market returns, payments to stabilize incomes and payments to compensate producers for crop or livestock losses caused by extreme climatic conditions, disease or other reasons and insurance payments.</li>
     <li>Income-in-kind measures the value of the agricultural goods produced on farms and consumed by farm operator families. It is included to measure total farm production. </li>
@@ -783,7 +1060,7 @@ OTHER_DOC: >-
   mechanisms: </p>
 
   <ul>
-    <li>Access to or availed credit<sup><a href="#footnote-7" id="footnote-ref-7">[6]</a></sup></li>
+    <li>Access to or availed credit<sup><a href="#footnote-8" id="footnote-ref-8">[6]</a></sup></li>
     <li>Access to or availed insurance</li>
     <li>On farm diversification (share of a single agricultural commodity not greater than 66% in the total value of production of the holding)</li>
   </ul>
@@ -904,7 +1181,7 @@ OTHER_DOC: >-
     <li>
       <ul>
         <li>Soil erosion (loss of topsoil through wind or water erosion)</li>
-        <li>Reduction in soil fertility<sup><a href="#footnote-8" id="footnote-ref-8">[7]</a></sup></li>
+        <li>Reduction in soil fertility<sup><a href="#footnote-9" id="footnote-ref-9">[7]</a></sup></li>
         <li>Salinization of irrigated land</li>
         <li>Waterlogging</li>
         <li>Other &#x2013; Specify</li>
@@ -1012,7 +1289,7 @@ OTHER_DOC: >-
   fertilizer, in particular mineral or synthetic fertilizers and animal manure,
   their awareness about the environmental risks associated with fertilizer and
   manure applications, and their behaviour in terms of plant nutrient
-  management<sup><a href="#footnote-9" id="footnote-ref-9">[8]</a></sup>.
+  management<sup><a href="#footnote-10" id="footnote-ref-10">[8]</a></sup>.
   Management measures considered to help reducing risk is as follows: </p>
 
   <ol>
@@ -1020,9 +1297,9 @@ OTHER_DOC: >-
     <li>Use organic source of nutrients (including manure or composting residues) alone, or in combination with synthetic or mineral fertilizers </li>
     <li>Use legumes as a cover crop, or component of a multi/crop or pasture system to reduce fertilizer inputs</li>
     <li>Distribute synthetic or mineral fertilizer application over the growing period</li>
-    <li>Consider soil type and climate<sup><a href="#footnote-10" id="footnote-ref-10">[9]</a></sup> in deciding fertilizer application doses and frequencies</li>
+    <li>Consider soil type and climate<sup><a href="#footnote-11" id="footnote-ref-11">[9]</a></sup> in deciding fertilizer application doses and frequencies</li>
     <li>Use soil sampling at least every 5 years to perform nutrient budget calculations </li>
-    <li>Perform site-specific nutrient management or precision farming<sup><a href="#footnote-11" id="footnote-ref-11">[10]</a></sup></li>
+    <li>Perform site-specific nutrient management or precision farming<sup><a href="#footnote-12" id="footnote-ref-12">[10]</a></sup></li>
     <li>Use buffer strips along water courses.</li>
   </ol>
 
@@ -1032,7 +1309,7 @@ OTHER_DOC: >-
   assessed as follows: </p>
 
   <ul>
-    <li>Green (desirable): The farm takes specific measures to mitigate environmental risks (at least four from the list above). Default result for farms not using fertilizers<sup><a href="#footnote-12" id="footnote-ref-12">[11]</a></sup>. </li>
+    <li>Green (desirable): The farm takes specific measures to mitigate environmental risks (at least four from the list above). Default result for farms not using fertilizers<sup><a href="#footnote-13" id="footnote-ref-13">[11]</a></sup>. </li>
     <li>Yellow (acceptable): The farm uses fertilizers and takes at least two measures from the above list to mitigate environmental risks</li>
     <li>Red (unsustainable): The farm uses fertilizer and does not take any of the above specific measures to mitigate environmental risks associated with their use. </li>
   </ul>
@@ -1083,7 +1360,7 @@ OTHER_DOC: >-
   <p>Pesticides are important inputs in modern agriculture (crop and livestock),
   but if not well managed they can cause harm to people&#x2019;s health or to
   the environment. Practices associated with integrated pest management
-  (IPM<sup><a href="#footnote-13" id="footnote-ref-13">[12]</a></sup>) exist
+  (IPM<sup><a href="#footnote-14" id="footnote-ref-14">[12]</a></sup>) exist
   that contribute to minimise risks associated with the use of pesticides and
   limit their impact on human health and on the environment. The International
   Code of Conduct on Pesticide Management defines best practice in pesticide
@@ -1095,8 +1372,8 @@ OTHER_DOC: >-
 
   <p>The proposed sub-indicator is based on information on the use of pesticides
   on the farms, the type of pesticide used and the type of measure(s) taken to
-  mitigate the associated risks<sup><a href="#footnote-14"
-  id="footnote-ref-14">[13]</a></sup>. It considers the possibility that the
+  mitigate the associated risks<sup><a href="#footnote-15"
+  id="footnote-ref-15">[13]</a></sup>. It considers the possibility that the
   holding uses pesticides in the framework of an Integrated Pest Management
   (IPM) program, or adopts specific measures to help reducing risks associated
   with pesticide use. List of possible measures:</p>
@@ -1127,9 +1404,9 @@ OTHER_DOC: >-
   follows: </p>
 
   <ul>
-    <li>Green (desirable): The farm uses only moderately or slightly hazardous<sup><a href="#footnote-15" id="footnote-ref-15">[14]</a></sup> pesticides (WHO Class II or III). In this case, it adheres to all three health-related measures and at least four of the environment-related measures. Default result for farms not using pesticides.</li>
+    <li>Green (desirable): The farm uses only moderately or slightly hazardous<sup><a href="#footnote-16" id="footnote-ref-16">[14]</a></sup> pesticides (WHO Class II or III). In this case, it adheres to all three health-related measures and at least four of the environment-related measures. Default result for farms not using pesticides.</li>
     <li>Yellow (acceptable): The farm uses only moderately or slightly hazardous pesticides (WHO Class II or III) and takes some measures to mitigate environmental and health risks (at least two from each of the lists above)</li>
-    <li>Red (unsustainable): The farm uses highly or extremely hazardous pesticides (WHO Class Ia or Ib), illegal pesticides<sup><a href="#footnote-16" id="footnote-ref-16">[15]</a></sup>, or uses moderately or slightly hazardous pesticides without taking specific measures to mitigate environmental or health risks associated with their use (fewer than two from each of the lists above). </li>
+    <li>Red (unsustainable): The farm uses highly or extremely hazardous pesticides (WHO Class Ia or Ib), illegal pesticides<sup><a href="#footnote-17" id="footnote-ref-17">[15]</a></sup>, or uses moderately or slightly hazardous pesticides without taking specific measures to mitigate environmental or health risks associated with their use (fewer than two from each of the lists above). </li>
   </ul>
 
   <p><strong>Data items</strong></p>
@@ -1332,9 +1609,114 @@ OTHER_DOC: >-
   <p>The sub-indicator measures the farm unskilled labour daily wage rate in
   Local Currency Units (LCU).</p>
 
-  <p><img
-  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAjQAAAAqCAIAAAArqlaWAAAAAXNSR0IArs4c6QAAEe5JREFUeF7tncurXMUWxm/uPL5HiYioE0FRfIKKYCAxigMdGB8ByUhRJCDiOw5EjRoCAfEZCIhIVFQUIT4SMOADfKMgONArIuLIR4x/gPd3/eC7i6raffp0n+6zu8/ag2Z37VWrVn1Vu1bVqrVqr/r777//lVcikAgkAolAItAnBP7dJ2FSlkQgEUgEEoFE4H8IpHLKfpAIJAKJQCLQOwRSOfWuSVKgRCARSAQSgVRO2QcSgUQgEUgEeodAKqfeNUkKlAgkAolAIpDKKftAIpAIJAKJQO8QSOXUuyZJgRKBGoFrr712VXWNCdQPP/wAy40bN47JZ/zsp5xyCpKMzyc5zBMCqZzmqTWzLnOLwH/+uX799VdqyO9XX3116aWXDqgtimdBrXPSSSc99thjZ5999rKj9txzz51zzjnLLsaSCICijXyYVTz77LNLwnmlMUnltNJaPOs7kwh89tln6JJPPvmEQfzYY48944wz+DugJjt37hxG6/z4448XXnjhsiPy888/b9iwYdnFGF+Al1566eijj458SLnpppvG57wCOaRyWoGNnlWeVQQ++ugjD+JPPfWUqvH111+fe+65mMWYs3NPCmump59+evv27SQyOJLy22+/kSgj3i233MJf5d2/f//5559fwNEkJtcxxxzjR2+99ZaKJpGVAaVwgxhixV/KEg1Zosnuvvvuk6g7duwQAdf777/f1JHQwBZ6Sjdn2QCpiGpRC9YUBlFVtFmRF/7ixo3FNiX0KtS1htKJkCkvKeIJk+uuu+7zzz93Kaqp4UWwQngBVZc4qx10SeVO5bSkcCazRGCSCKBLikEc890ll1xy++23cw7ZNddc88gjj1D+O++8wwLrgw8+IBGzEikM5ay0sAdu3bqVRRhrLxLJyzRf9/GqidEiTP//+OOPPXv2oBTvvffeb775hizvvvvu3XffffDgwT///PO7775jXBZbfrE6Hj58mBtWe7ZAMo5TBeyTJN51113Wi00dCfErr7wCz3379p144omwQgzUwGuvvUa9UBivvvpqLdjjjz8OZS0MGnTTpk0UjdpWZcWfouH/3nvvWWwoL7vsMhK/+OILUVLQUUcdRaFYUwFBdQT2O+64Q8e/abV05513ggyW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"></p>
-
+  <p><math xmlns="http://www.w3.org/1998/Math/MathML">
+      <mi>D</mi>
+      <mi>a</mi>
+      <mi>i</mi>
+      <mi>l</mi>
+      <mi>y</mi>
+      <mi>&amp;nbsp;</mi>
+      <mi>w</mi>
+      <mi>a</mi>
+      <mi>g</mi>
+      <mi>e</mi>
+      <mi>&amp;nbsp;</mi>
+      <mi>r</mi>
+      <mi>a</mi>
+      <mi>t</mi>
+      <mi>e</mi>
+      <mi>&amp;nbsp;</mi>
+      <mi>o</mi>
+      <mi>f</mi>
+      <mi>&amp;nbsp;</mi>
+      <mi>u</mi>
+      <mi>n</mi>
+      <mi>s</mi>
+      <mi>k</mi>
+      <mi>i</mi>
+      <mi>l</mi>
+      <mi>l</mi>
+      <mi>e</mi>
+      <mi>d</mi>
+      <mi>&amp;nbsp;</mi>
+      <mi>h</mi>
+      <mi>i</mi>
+      <mi>r</mi>
+      <mi>e</mi>
+      <mi>d</mi>
+      <mi>&amp;nbsp;</mi>
+      <mi>l</mi>
+      <mi>a</mi>
+      <mi>b</mi>
+      <mi>o</mi>
+      <mi>r</mi>
+      <mo>=</mo>
+      <mfrac>
+        <mrow>
+          <mi>T</mi>
+          <mi>o</mi>
+          <mi>t</mi>
+          <mi>a</mi>
+          <mi>l</mi>
+          <mi>&amp;nbsp;</mi>
+          <mi>a</mi>
+          <mi>n</mi>
+          <mi>n</mi>
+          <mi>u</mi>
+          <mi>a</mi>
+          <mi>l</mi>
+          <mi>&amp;nbsp;</mi>
+          <mi>c</mi>
+          <mi>o</mi>
+          <mi>m</mi>
+          <mi>p</mi>
+          <mi>e</mi>
+          <mi>n</mi>
+          <mi>s</mi>
+          <mi>a</mi>
+          <mi>t</mi>
+          <mi>i</mi>
+          <mi>o</mi>
+          <mi>n</mi>
+          <mi>&amp;nbsp;</mi>
+        </mrow>
+        <mrow>
+          <mi>T</mi>
+          <mi>o</mi>
+          <mi>t</mi>
+          <mi>a</mi>
+          <mi>l</mi>
+          <mi>&amp;nbsp;</mi>
+          <mi>a</mi>
+          <mi>n</mi>
+          <mi>n</mi>
+          <mi>u</mi>
+          <mi>a</mi>
+          <mi>l</mi>
+          <mi>&amp;nbsp;</mi>
+          <mi>h</mi>
+          <mi>o</mi>
+          <mi>u</mi>
+          <mi>r</mi>
+          <mi>s</mi>
+          <mi>&amp;nbsp;</mi>
+          <mi>w</mi>
+          <mi>o</mi>
+          <mi>r</mi>
+          <mi>k</mi>
+          <mi>e</mi>
+          <mi>d</mi>
+          <mi>&amp;nbsp;</mi>
+        </mrow>
+      </mfrac>
+      <mi>*</mi>
+      <mn>8</mn>
+      <mi>&amp;nbsp;</mi>
+      <mi>h</mi>
+      <mi>o</mi>
+      <mi>u</mi>
+      <mi>r</mi>
+    </math></p>
   <p>Where compensation is both monetary and in kind payments expressed in Local
   Currency Units (LCU)</p>
 
@@ -1404,8 +1786,8 @@ OTHER_DOC: >-
   <p><strong>Sustainability criteria: </strong>Level on FIES scale</p>
 
   <ul>
-    <li>Green (desirable): Mild food insecurity<sup><a href="#footnote-17" id="footnote-ref-17">[16]</a></sup> </li>
-    <li>Yellow (acceptable)<sup><a href="#footnote-18" id="footnote-ref-18">[17]</a></sup>: Moderate food insecurity </li>
+    <li>Green (desirable): Mild food insecurity<sup><a href="#footnote-18" id="footnote-ref-18">[16]</a></sup> </li>
+    <li>Yellow (acceptable)<sup><a href="#footnote-19" id="footnote-ref-19">[17]</a></sup>: Moderate food insecurity </li>
     <li>Red (unsustainable): Severe food insecurity </li>
   </ul>
 
@@ -1526,75 +1908,75 @@ OTHER_DOC: >-
 
   <p>11.4 The right of the holder/holding to bequeath any of the parcel of the
   holding</p><div class="footnotes"><div><sup class="footnote-number"
-  id="footnote-3">2</sup><p> According to the SEEA-AFF classification and the
+  id="footnote-4">2</sup><p> According to the SEEA-AFF classification and the
   classification of the World Agricultural Census 2020 <a
-  href="#footnote-ref-3">&#x2191;</a></p></div><div><sup class="footnote-number"
-  id="footnote-4">3</sup><p> The 90<sup>th</sup> percentile and respective 1/3
+  href="#footnote-ref-4">&#x2191;</a></p></div><div><sup class="footnote-number"
+  id="footnote-5">3</sup><p> The 90<sup>th</sup> percentile and respective 1/3
   and 2/3 thresholds for productivity are calculated by major production system
   (crops, livestock, or a mix of crops and livestock or if possible by major
   agricultural areas of the country). Thereafter the individual farm
   productivity is estimated and compared with thresholds derived from the
   productivities of similar farms. <a
-  href="#footnote-ref-4">&#x2191;</a></p></div><div><sup class="footnote-number"
-  id="footnote-5">4</sup><p> See Statistics Canada at:
-  http://www.statcan.gc.ca/pub/21-010-x/21-010-x2014001-eng.pdf <a
   href="#footnote-ref-5">&#x2191;</a></p></div><div><sup class="footnote-number"
-  id="footnote-6">5</sup><p> Rental value of farm dwellings is not considered as
-  part of farm income. <a href="#footnote-ref-6">&#x2191;</a></p></div><div><sup
-  class="footnote-number" id="footnote-7">6</sup><p> Include cash loans and
+  id="footnote-6">4</sup><p> See Statistics Canada at:
+  http://www.statcan.gc.ca/pub/21-010-x/21-010-x2014001-eng.pdf <a
+  href="#footnote-ref-6">&#x2191;</a></p></div><div><sup class="footnote-number"
+  id="footnote-7">5</sup><p> Rental value of farm dwellings is not considered as
+  part of farm income. <a href="#footnote-ref-7">&#x2191;</a></p></div><div><sup
+  class="footnote-number" id="footnote-8">6</sup><p> Include cash loans and
   in-kind loans (e.g., seeds provided by another farmer and repaid with a share
   of the harvest, seeds, etc.) only for agriculture related investments. <a
-  href="#footnote-ref-7">&#x2191;</a></p></div><div><sup class="footnote-number"
-  id="footnote-8">7</sup><p> Reduction in soil fertility will be experienced by
+  href="#footnote-ref-8">&#x2191;</a></p></div><div><sup class="footnote-number"
+  id="footnote-9">7</sup><p> Reduction in soil fertility will be experienced by
   farmers as progressive reduction in yield and will be the result of a negative
   nutrient balance by which the amount of nutrient application (including
   through mineral and organic fertilizers, legumes, or green manure) is lower
   than the amount that is lost and exported by crops. <a
-  href="#footnote-ref-8">&#x2191;</a></p></div><div><sup class="footnote-number"
-  id="footnote-9">8</sup><p> In order to keep the questionnaire manageable, the
+  href="#footnote-ref-9">&#x2191;</a></p></div><div><sup class="footnote-number"
+  id="footnote-10">8</sup><p> In order to keep the questionnaire manageable, the
   module does not consider different type of crop or practice. The method
   therefore assumes that if a farmer reports best practices, these practices are
   applied over the entire farm. It may therefore over-estimate the area under
-  good practices. <a href="#footnote-ref-9">&#x2191;</a></p></div><div><sup
-  class="footnote-number" id="footnote-10">9</sup><p> Soil type, combined with
+  good practices. <a href="#footnote-ref-10">&#x2191;</a></p></div><div><sup
+  class="footnote-number" id="footnote-11">9</sup><p> Soil type, combined with
   climate, and in particular the frequency and intensity of rainfall events, are
   important elements to consider in deciding fertilizer application doses and
-  frequencies. <a href="#footnote-ref-10">&#x2191;</a></p></div><div><sup
-  class="footnote-number" id="footnote-11">10</sup><p> Precision farming is a
+  frequencies. <a href="#footnote-ref-11">&#x2191;</a></p></div><div><sup
+  class="footnote-number" id="footnote-12">10</sup><p> Precision farming is a
   farming management concept based on observing, measuring and responding to
   inter and intra-field variability in crops. <a
-  href="#footnote-ref-11">&#x2191;</a></p></div><div><sup
-  class="footnote-number" id="footnote-12">11</sup><p> Fertilizers to be
+  href="#footnote-ref-12">&#x2191;</a></p></div><div><sup
+  class="footnote-number" id="footnote-13">11</sup><p> Fertilizers to be
   considered include mineral and synthetic fertilizers as well as animal manure.
-  <a href="#footnote-ref-12">&#x2191;</a></p></div><div><sup
-  class="footnote-number" id="footnote-13">12</sup><p> Integrated Pest
+  <a href="#footnote-ref-13">&#x2191;</a></p></div><div><sup
+  class="footnote-number" id="footnote-14">12</sup><p> Integrated Pest
   Management (IPM) is an ecosystem approach to crop production and protection
   that combines different management strategies and practices to grow healthy
   crops and minimize the use of pesticides (FAO). <a
-  href="#footnote-ref-13">&#x2191;</a></p></div><div><sup
-  class="footnote-number" id="footnote-14">13</sup><p> In order to keep the
+  href="#footnote-ref-14">&#x2191;</a></p></div><div><sup
+  class="footnote-number" id="footnote-15">13</sup><p> In order to keep the
   questionnaire manageable, the module does not consider different types of crop
   or livestock. The method therefore assumes that if a farmer reports best
   practices, these practices are applied over the entire farm. It may therefore
   over-estimate the area under good practices. <a
-  href="#footnote-ref-14">&#x2191;</a></p></div><div><sup
-  class="footnote-number" id="footnote-15">14</sup><p> WHO Class II or III
+  href="#footnote-ref-15">&#x2191;</a></p></div><div><sup
+  class="footnote-number" id="footnote-16">14</sup><p> WHO Class II or III
   pesticides as defined by WHO classification
   (http://www.who.int/ipcs/publications/pesticides_hazard_2009.pdf), or
   equivalent national classification. <a
-  href="#footnote-ref-15">&#x2191;</a></p></div><div><sup
-  class="footnote-number" id="footnote-16">15</sup><p> In principle, illegal
+  href="#footnote-ref-16">&#x2191;</a></p></div><div><sup
+  class="footnote-number" id="footnote-17">15</sup><p> In principle, illegal
   pesticides refer to any products which do not comply with national regulations
   on pesticide management, such as un-registered, mislabeled, illegally imported
   etc. It does not cover &quot;off-label uses,&quot; which could be considered
   as an illegal use action. <a
-  href="#footnote-ref-16">&#x2191;</a></p></div><div><sup
-  class="footnote-number" id="footnote-17">16</sup><p> Computation of food
+  href="#footnote-ref-17">&#x2191;</a></p></div><div><sup
+  class="footnote-number" id="footnote-18">16</sup><p> Computation of food
   insecurity level is described in detail in e-learning course on SDG 2.1.2: <a
   href="http://www.fao.org/elearning/#/elc/en/course/SDG212">http://www.fao.org/elearning/#/elc/en/course/SDG212</a>
-  <a href="#footnote-ref-17">&#x2191;</a></p></div><div><sup
-  class="footnote-number" id="footnote-18">17</sup><p> <u>The terminology
+  <a href="#footnote-ref-18">&#x2191;</a></p></div><div><sup
+  class="footnote-number" id="footnote-19">17</sup><p> <u>The terminology
   &#x201C;Acceptable&#x201D; must be read within the context of SDG 2.4.1; it
   should be interpreted as a situation that nevertheless merits attention and
   actions aimed at improvement.</u> <a
-  href="#footnote-ref-18">&#x2191;</a></p></div></div>
+  href="#footnote-ref-19">&#x2191;</a></p></div></div>

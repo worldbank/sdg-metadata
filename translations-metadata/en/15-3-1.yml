@@ -1,3 +1,4 @@
+SDG_INDICATOR_INFO: ''
 SDG_GOAL: >-
   <p>Goal 15: Protect, restore and promote sustainable use of terrestrial
   ecosystems, sustainably manage forests, combat desertification, and halt and
@@ -9,42 +10,51 @@ SDG_TARGET: >-
 SDG_INDICATOR: >-
   <p>Indicator 15.3.1: Proportion of land that is degraded over total land
   area</p>
-META_LAST_UPDATE: '<p>Last updated: 23 January 2018</p>'
-SDG_RELATED_INDICATORS: |-
-  <h1>Related indicators</h1>
-  <p>2.4.1; 6.6.1; 11.3.1; 15.1.1; 15.2.1</p>
+SDG_SERIES_DESCR: ''
+META_LAST_UPDATE: <p>March 2021</p>
+SDG_RELATED_INDICATORS: <p>2.4.1; 6.6.1; 11.3.1; 15.1.1; 15.2.1</p>
 SDG_CUSTODIAN_AGENCIES: >-
-  <h1>Institutional information</h1>
-
-  <h2>Organization(s):</h2>
-
   <p>United Nations Convention to Combat Desertification (UNCCD) and partners,
   including the Food and Agriculture Organization of the United Nations (FAO),
   United Nations Statistics Division (UNSD), United Nations Environment (UNEP),
   United Nations Framework Convention on Climate Change (UNFCCC) and Convention
   on Biological Diversity (CBD).</p>
+CONTACT: ''
+CONTACT_ORGANISATION: >-
+  <p>United Nations Convention to Combat Desertification (UNCCD) and partners,
+  including the Food and Agriculture Organization of the United Nations (FAO),
+  United Nations Statistics Division (UNSD), United Nations Environment (UNEP),
+  United Nations Framework Convention on Climate Change (UNFCCC) and Convention
+  on Biological Diversity (CBD).</p>
+CONTACT_NAME: ''
+ORGANISATION_UNIT: ''
+CONTACT_FUNCT: ''
+CONTACT_PHONE: ''
+CONTACT_MAIL: ''
+CONTACT_EMAIL: ''
+IND_DEF_CON_CLASS: ''
 STAT_CONC_DEF: >-
-  <h1>Concepts and definitions</h1>
-
-  <h2>Definitions:</h2>
+  <p><strong>Definitions:</strong></p>
 
   <p><strong><em>Land degradation</em></strong> is defined as the reduction or
   loss of the biological or economic productivity and complexity of rain fed
   cropland, irrigated cropland, or range, pasture, forest and woodlands
   resulting from a combination of pressures, including land use and management
   practices. This definition was adopted by and is used by the 196 countries
-  that are Party to the UNCCD.<sup><a href="#footnote-1"
-  id="footnote-ref-1">[1]</a></sup> (see also Figure 1)</p>
+  that are Party to the UNCCD.<sup><sup><a href="#footnote-2"
+  id="footnote-ref-2">[1]</a></sup></sup> (see also Figure 1)</p>
 
   <p><strong><em>Land Degradation Neutrality</em></strong> (LDN) is defined as a
   state whereby the amount and quality of land resources necessary to support
   ecosystem functions and services and enhance food security remain stable or
   increase within specified temporal and spatial scales and ecosystems (decision
-  3/COP12).<sup><a href="#footnote-2" id="footnote-ref-2">[2]</a></sup></p>
+  3/COP12).<sup><sup><a href="#footnote-3"
+  id="footnote-ref-3">[2]</a></sup></sup></p>
 
   <p><strong><em>Total land area</em></strong> is the total surface area of a
   country excluding the area covered by inland waters, like major rivers and
-  lakes.<sup><a href="#footnote-3" id="footnote-ref-3">[3]</a></sup></p>
+  lakes.<sup><sup><a href="#footnote-4"
+  id="footnote-ref-4">[3]</a></sup></sup></p>
 
   <p><strong><em>The</em></strong><em> </em><strong><em>measurement
   unit</em></strong> for this indicator is the spatial extent (hectares or km2)
@@ -56,8 +66,8 @@ STAT_CONC_DEF: >-
   sub-indicators to be validated and reported by national authorities. The
   sub-indicators (Trends in Land Cover, Land Productivity and Carbon Stocks)
   were adopted by the UNCCD&#x2019;s governing body in 2013 as part of its
-  monitoring and evaluation approach.<sup><a href="#footnote-4"
-  id="footnote-ref-4">[4]</a></sup> </p>
+  monitoring and evaluation approach.<sup><sup><a href="#footnote-5"
+  id="footnote-ref-5">[4]</a></sup></sup> </p>
 
   <p><strong><em>The method of computation</em></strong> for this indicator
   follows the &#x201C;One Out, All Out&#x201D; statistical principle and is
@@ -65,16 +75,16 @@ STAT_CONC_DEF: >-
   sub-indicators to determine the extent of land that is degraded over total
   land area.</p>
 
-  <p><strong><em>The One Out, All Out (1OAO)</em></strong><em><sup><a
-  href="#footnote-5" id="footnote-ref-5">[5]</a></sup></em> principle is applied
-  taking into account changes in the sub-indicators which are depicted as (i)
-  positive or improving, (ii) negative or declining, or (iii) stable or
+  <p><strong><em>The One Out, All Out (1OAO)</em></strong><em><sup><sup><a
+  href="#footnote-6" id="footnote-ref-6">[5]</a></sup></sup></em> principle is
+  applied taking into account changes in the sub-indicators which are depicted
+  as (i) positive or improving, (ii) negative or declining, or (iii) stable or
   unchanging. If one of the sub-indicators is negative (or stable when degraded
   in the baseline or previous monitoring year) for a particular land unit, then
   it would be considered as degraded subject to validation by national
   authorities.</p>
 
-  <h2>Concepts:</h2>
+  <p><strong>Concepts:</strong></p>
 
   <p>The assessment and quantification of land degradation is generally regarded
   as context-specific, making it difficult for a single indicator to fully
@@ -82,8 +92,8 @@ STAT_CONC_DEF: >-
   sufficient, the sub-indicators address changes in different yet highly
   relevant ways: for example, land cover or productivity trends can capture
   relatively fast changes while changes in carbon stocks reflect slower changes
-  that suggest a trajectory or proximity to thresholds.<sup><a
-  href="#footnote-6" id="footnote-ref-6">[6]</a></sup> </p>
+  that suggest a trajectory or proximity to thresholds.<sup><sup><a
+  href="#footnote-7" id="footnote-ref-7">[6]</a></sup></sup> </p>
 
   <p>As proxies to monitor the key factors and driving variables that reflect
   the capacity to deliver land-based ecosystem services, the sub-indicators are
@@ -96,7 +106,7 @@ STAT_CONC_DEF: >-
   ground-based information.</p>
 
   <p>An operational definition of land degradation along with a description of
-  the linkages among the sub-indicators is given in Figure 1.</p>
+  the linkages among the sub-indicators is given in Figure 1. </p>
 
   <p><strong>Figure 1: Operational definition of land degradation and linkage
   with the sub-indicators.</strong></p>
@@ -106,142 +116,147 @@ STAT_CONC_DEF: >-
 
   <p><strong><em>Land cover</em></strong> refers to the observed physical cover
   of the Earth&#x2019;s surface which describes the distribution of vegetation
-  types, water bodies and human-made infrastructure.<sup><a href="#footnote-7"
-  id="footnote-ref-7">[7]</a></sup> It also reflects the use of land resources
-  (i.e., soil, water and biodiversity) for agriculture, forestry, human
-  settlements and other purposes.<sup><a href="#footnote-8"
-  id="footnote-ref-8">[8]</a></sup> This sub-indicator serves two functions for
-  SDG indicator 15.3.1: (1) changes in land cover may point to land degradation
-  when there is a loss of ecosystem services that are considered desirable in a
-  local or national context; and (2) a land cover classification system can be
-  used to disaggregate the other two sub-indicators, thus increasing the
-  indicator&#x2019;s policy relevance. This sub-indicator is also expected to be
-  used for reporting on SDG indicators 6.6.1, 11.3.1 and 15.1.1.</p>
-
-  <p>There is an international standard for the sub-indicator on land
-  cover<sup><a href="#footnote-9" id="footnote-ref-9">[9]</a></sup> which
-  includes the Land Cover Meta Language (LCML), a common reference structure
-  (statistical standard) for the comparison and integration of data for any
-  generic land cover classification system. LCML is also used for defining land
-  cover and ecosystem functional units used in the SEEA, and closely linked to
-  the Intergovernmental Panel on Climate Change (IPCC) classification on land
-  cover/land use.</p>
+  types, water bodies and human-made infrastructure.<sup><sup><a
+  href="#footnote-8" id="footnote-ref-8">[7]</a></sup></sup> It also reflects
+  the use of land resources (i.e., soil, water and biodiversity) for
+  agriculture, forestry, human settlements and other purposes.<sup><sup><a
+  href="#footnote-9" id="footnote-ref-9">[8]</a></sup></sup> This sub-indicator
+  serves two functions for SDG indicator 15.3.1: (1) changes in land cover may
+  point to land degradation when there is a loss of ecosystem services that are
+  considered desirable in a local or national context; and (2) a land cover
+  classification system can be used to disaggregate the other two
+  sub-indicators, thus increasing the indicator&#x2019;s policy relevance. This
+  sub-indicator is also expected to be used for reporting on SDG indicators
+  6.6.1, 11.3.1 and 15.1.1.</p>
 
   <p><strong><em>Land productivity</em></strong> refers to the total
   above-ground net primary production (NPP) defined as the energy fixed by
   plants minus their respiration which translates into the rate of biomass
-  accumulation that delivers a suite of ecosystem services.<sup><a
-  href="#footnote-10" id="footnote-ref-10">[10]</a></sup> This sub-indicator
-  points to changes in the health and productive capacity of the land and
-  reflects the net effects of changes in ecosystem functioning on plant and
-  biomass growth, where declining trends are often a defining characteristic of
-  land degradation.<sup><a href="#footnote-11"
-  id="footnote-ref-11">[11]</a></sup></p>
+  accumulation that delivers a suite of ecosystem services.<sup><sup><a
+  href="#footnote-10" id="footnote-ref-10">[9]</a></sup></sup> This
+  sub-indicator points to changes in the health and productive capacity of the
+  land and reflects the net effects of changes in ecosystem functioning on plant
+  and biomass growth, where declining trends are often a defining characteristic
+  of land degradation.<sup><sup><a href="#footnote-11"
+  id="footnote-ref-11">[10]</a></sup></sup></p>
+
+  <p><br><strong><em>Carbon stock</em></strong> is the quantity of carbon in a
+  &#x201C;pool&#x201D;: a reservoir which has the capacity to accumulate or
+  release carbon and is comprised of above- and below-ground biomass, dead
+  organic matter, and soil organic carbon.<sup><sup><a href="#footnote-12"
+  id="footnote-ref-12">[11]</a></sup></sup> In UNCCD decision 22/COP.11,
+  <em>soil organic carbon (SOC) stock</em> was adopted as the metric to be used
+  with the understanding that this metric will be replaced by <em>total
+  terrestrial system carbon stocks</em>, once operational. SOC is an indicator
+  of overall soil quality associated with nutrient cycling and its aggregate
+  stability and structure with direct implications for water infiltration, soil
+  biodiversity, vulnerability to erosion, and ultimately the productivity of
+  vegetation, and in agricultural contexts, yields. SOC stocks reflect the
+  balance between organic matter gains, dependent on plant productivity and
+  management practices, and losses due to decomposition through the action of
+  soil organisms and physical export through leaching and erosion.<sup><sup><a
+  href="#footnote-13" id="footnote-ref-13">[12]</a></sup></sup></p><div
+  class="footnotes"><div><sup class="footnote-number" id="footnote-2">1</sup><p>
+  United Nations Convention to Combat Desertification. 1994. Article 1 of the
+  Convention Text<br><a
+  href="http://www2.unccd.int/sites/default/files/relevant-links/2017-01/UNCCD_Convention_ENG_0.pdf">http://www2.unccd.int/sites/default/files/relevant-links/2017-01/UNCCD_Convention_ENG_0.pdf</a>
+  <a href="#footnote-ref-2">&#x2191;</a></p></div><div><sup
+  class="footnote-number" id="footnote-3">2</sup><p> <a
+  href="http://www2.unccd.int/sites/default/files/sessions/documents/ICCD_COP12_20_Add.1/20add1eng.pdf">http://www2.unccd.int/sites/default/files/sessions/documents/ICCD_COP12_20_Add.1/20add1eng.pdf</a>
+  <a href="#footnote-ref-3">&#x2191;</a></p></div><div><sup
+  class="footnote-number" id="footnote-4">3</sup><p> Food and Agriculture
+  Organization of the United Nations <a
+  href="#footnote-ref-4">&#x2191;</a></p></div><div><sup class="footnote-number"
+  id="footnote-5">4</sup><p> By its decision 22/COP.11, the Conference of the
+  Parties established a monitoring and evaluation approach consisting of: (a)
+  indicators; (b) a conceptual framework that allows for the integration of
+  indicators; and (c) indicators sourcing and management mechanisms at the
+  national/local level.<br><a
+  href="http://www.unccd.int/en/programmes/Science/Monitoring-Assessment/Documents/Decision22-COP11.pdf">http://www.unccd.int/en/programmes/Science/Monitoring-Assessment/Documents/Decision22-COP11.pdf</a>
+  <a href="#footnote-ref-5">&#x2191;</a></p></div><div><sup
+  class="footnote-number" id="footnote-6">5</sup><p> <a
+  href="https://circabc.europa.eu/sd/a/06480e87-27a6-41e6-b165-0581c2b046ad/Guidance%20No%2013%20-%20Classification%20of%20Ecological%20Status%20(WG%20A).pdf">https://circabc.europa.eu/sd/a/06480e87-27a6-41e6-b165-0581c2b046ad/Guidance%20No%2013%20-%20Classification%20of%20Ecological%20Status%20(WG%20A).pdf</a>
+  <a href="#footnote-ref-6">&#x2191;</a></p></div><div><sup
+  class="footnote-number" id="footnote-7">6</sup><p> <a
+  href="http://www2.unccd.int/sites/default/files/documents/2017-08/LDN_CF_report_web-english.pdf">http://www2.unccd.int/sites/default/files/documents/2017-08/LDN_CF_report_web-english.pdf</a>
+  <a href="#footnote-ref-7">&#x2191;</a></p></div><div><sup
+  class="footnote-number" id="footnote-8">7</sup><p> Di Gregorio, A. 2005. Land
+  cover classification system (LCCS): classification concepts and user manual.
+  Food and Agriculture Organization of the United Nations, Rome. <a
+  href="#footnote-ref-8">&#x2191;</a></p></div><div><sup class="footnote-number"
+  id="footnote-9">8</sup><p> FAO-GTOS. 2009. Land Cover: Assessment of the
+  status of the development of the standards for the Terrestrial Essential
+  Climate Variables. Global Terrestrial Observing System, Rome. <a
+  href="#footnote-ref-9">&#x2191;</a></p></div><div><sup class="footnote-number"
+  id="footnote-10">9</sup><p> Millennium Ecosystem Assessment. 2005. Ecosystems
+  and human wellbeing: a framework for assessment. Island Press, Washington, DC.
+  <a href="#footnote-ref-10">&#x2191;</a></p></div><div><sup
+  class="footnote-number" id="footnote-11">10</sup><p> Joint Research Centre of
+  the European Commission. 2017. World Atlas of Desertification, 3<sup>rd</sup>
+  edition. JRC, Ispra. <a
+  href="#footnote-ref-11">&#x2191;</a></p></div><div><sup
+  class="footnote-number" id="footnote-12">11</sup><p> IPCC. 2006. IPCC
+  Guidelines for National Greenhouse Gas Inventories: Agriculture, Forestry and
+  other Land Use. Prepared by the National Greenhouse Gas Inventories Programme:
+  Eggleston H.S., Buendia L., Miwa K., Ngara T. and Tanabe K. (eds). IGES,
+  Japan. <a href="#footnote-ref-12">&#x2191;</a></p></div><div><sup
+  class="footnote-number" id="footnote-13">12</sup><p> Smith, P., Fang, C.,
+  Dawson, J. J., &amp; Moncrieff, J. B. 2008. Impact of global warming on soil
+  organic carbon. Advances in agronomy, 97: 1-43. <a
+  href="#footnote-ref-13">&#x2191;</a></p></div></div>
+UNIT_MEASURE: >-
+  <p>The measurement unit for this indicator is the spatial extent (hectares or
+  km2) expressed as the proportion (percentage or %) of land that is degraded
+  over total land area.</p>
+CLASS_SYSTEM: >-
+  <p>There is an international standard for the sub-indicator on land
+  cover<sup><sup><a href="#footnote-14"
+  id="footnote-ref-14">[13]</a></sup></sup> which includes the Land Cover Meta
+  Language (LCML), a common reference structure (statistical standard) for the
+  comparison and integration of data for any generic land cover classification
+  system. LCML is also used for defining land cover and ecosystem functional
+  units used in the SEEA, and closely linked to the Intergovernmental Panel on
+  Climate Change (IPCC) classification on land cover/land use.</p>
 
   <p>The international standard for calculating NPP (gC/m&#xB2;/day) from
   remotely-sensed, multi-temporal surface reflectance data, accounting for the
   global range of climate and vegetation types, was established in 1999 by the
   U.S. National Aeronautics and Space Administration (NASA) in anticipation of
   the launch of the Moderate Resolution Imaging Spectroradiometer (MODIS)
-  sensor.<sup><a href="#footnote-12" id="footnote-ref-12">[12]</a></sup> The
-  Land Productivity Dynamics (LPD) methodology and dataset, developed by the
-  Joint Research Centre of the European Commission<sup><a href="#footnote-13"
-  id="footnote-ref-13">[13]</a></sup> and used in the UNCCD pilot programme,
-  employs this international standard to calculate NPP time series trends and
-  change analyses. <br><br><strong><em>Carbon stock</em></strong> is the
-  quantity of carbon in a &#x201C;pool&#x201D;: a reservoir which has the
-  capacity to accumulate or release carbon and is comprised of above- and
-  below-ground biomass, dead organic matter, and soil organic carbon.<sup><a
-  href="#footnote-14" id="footnote-ref-14">[14]</a></sup> In UNCCD decision
-  22/COP.11, <em>soil organic carbon (SOC) stock</em> was adopted as the metric
-  to be used with the understanding that this metric will be replaced by
-  <em>total terrestrial system carbon stocks</em>, once operational. SOC is an
-  indicator of overall soil quality associated with nutrient cycling and its
-  aggregate stability and structure with direct implications for water
-  infiltration, soil biodiversity, vulnerability to erosion, and ultimately the
-  productivity of vegetation, and in agricultural contexts, yields. SOC stocks
-  reflect the balance between organic matter gains, dependent on plant
-  productivity and management practices, and losses due to decomposition through
-  the action of soil organisms and physical export through leaching and
-  erosion.<sup><a href="#footnote-15" id="footnote-ref-15">[15]</a></sup></p>
-
-  <p>For carbon stocks, IPCC (2006) contains the most relevant definitions and
-  standards, especially with regard to reference values applicable for Tier 2
-  and 3 GHG reporting.<sup><a href="#footnote-16"
-  id="footnote-ref-16">[16]</a></sup> In this regard, the technical soil
-  infrastructure, data transfer and provision of national reporting data is also
-  standards-based.<sup><a href="#footnote-17"
-  id="footnote-ref-17">[17]</a></sup></p><div class="footnotes"><div><sup
-  class="footnote-number" id="footnote-1">1</sup><p> United Nations Convention
-  to Combat Desertification. 1994. Article 1 of the Convention Text<br><a
-  href="http://www2.unccd.int/sites/default/files/relevant-links/2017-01/UNCCD_Convention_ENG_0.pdf">http://www2.unccd.int/sites/default/files/relevant-links/2017-01/UNCCD_Convention_ENG_0.pdf</a> 
-  <a href="#footnote-ref-1">&#x2191;</a></p></div><div><sup
-  class="footnote-number" id="footnote-2">2</sup><p> <a
-  href="http://www2.unccd.int/sites/default/files/sessions/documents/ICCD_COP12_20_Add.1/20add1eng.pdf">http://www2.unccd.int/sites/default/files/sessions/documents/ICCD_COP12_20_Add.1/20add1eng.pdf</a> 
-  <a href="#footnote-ref-2">&#x2191;</a></p></div><div><sup
-  class="footnote-number" id="footnote-3">3</sup><p> Food and Agriculture
-  Organization of the United Nations <a
-  href="#footnote-ref-3">&#x2191;</a></p></div><div><sup class="footnote-number"
-  id="footnote-4">4</sup><p> By its decision 22/COP.11, the Conference of the
-  Parties established a monitoring and evaluation approach consisting of: (a)
-  indicators; (b) a conceptual framework that allows for the integration of
-  indicators; and (c) indicators sourcing and management mechanisms at the
-  national/local level.<br><a
-  href="http://www.unccd.int/en/programmes/Science/Monitoring-Assessment/Documents/Decision22-COP11.pdf">http://www.unccd.int/en/programmes/Science/Monitoring-Assessment/Documents/Decision22-COP11.pdf</a> 
-  <a href="#footnote-ref-4">&#x2191;</a></p></div><div><sup
-  class="footnote-number" id="footnote-5">5</sup><p> <a
-  href="https://circabc.europa.eu/sd/a/06480e87-27a6-41e6-b165-0581c2b046ad/Guidance%20No%2013%20-%20Classification%20of%20Ecological%20Status%20(WG%20A).pdf">https://circabc.europa.eu/sd/a/06480e87-27a6-41e6-b165-0581c2b046ad/Guidance%20No%2013%20-%20Classification%20of%20Ecological%20Status%20(WG%20A).pdf</a> 
-  <a href="#footnote-ref-5">&#x2191;</a></p></div><div><sup
-  class="footnote-number" id="footnote-6">6</sup><p> <a
-  href="http://www2.unccd.int/sites/default/files/documents/2017-08/LDN_CF_report_web-english.pdf">http://www2.unccd.int/sites/default/files/documents/2017-08/LDN_CF_report_web-english.pdf</a> 
-  <a href="#footnote-ref-6">&#x2191;</a></p></div><div><sup
-  class="footnote-number" id="footnote-7">7</sup><p> Di Gregorio, A. 2005. Land
-  cover classification system (LCCS): classification concepts and user manual.
-  Food and Agriculture Organization of the United Nations, Rome. <a
-  href="#footnote-ref-7">&#x2191;</a></p></div><div><sup class="footnote-number"
-  id="footnote-8">8</sup><p> FAO-GTOS. 2009. Land Cover: Assessment of the
-  status of the development of the standards for the Terrestrial Essential
-  Climate Variables. Global Terrestrial Observing System, Rome. <a
-  href="#footnote-ref-8">&#x2191;</a></p></div><div><sup class="footnote-number"
-  id="footnote-9">9</sup><p> <a
-  href="https://www.iso.org/standard/44342.html">https://www.iso.org/standard/44342.html</a> 
-  <a href="#footnote-ref-9">&#x2191;</a></p></div><div><sup
-  class="footnote-number" id="footnote-10">10</sup><p> Millennium Ecosystem
-  Assessment. 2005. Ecosystems and human wellbeing: a framework for assessment.
-  Island Press, Washington, DC. <a
-  href="#footnote-ref-10">&#x2191;</a></p></div><div><sup
-  class="footnote-number" id="footnote-11">11</sup><p> Joint Research Centre of
-  the European Commission. 2017. World Atlas of Desertification, 3<sup>rd</sup>
-  edition. JRC, Ispra. <a
-  href="#footnote-ref-11">&#x2191;</a></p></div><div><sup
-  class="footnote-number" id="footnote-12">12</sup><p> Running et al. 1999.
+  sensor.<sup><sup><a href="#footnote-15"
+  id="footnote-ref-15">[14]</a></sup></sup> The Land Productivity Dynamics (LPD)
+  methodology and dataset, developed by the Joint Research Centre of the
+  European Commission<sup><sup><a href="#footnote-16"
+  id="footnote-ref-16">[15]</a></sup></sup> and used in the UNCCD pilot
+  programme, employs this international standard to calculate NPP time series
+  trends and change analyses. <br><br>For carbon stocks, IPCC (2006) contains
+  the most relevant definitions and standards, especially with regard to
+  reference values applicable for Tier 2 and 3 GHG reporting.<sup><sup><a
+  href="#footnote-17" id="footnote-ref-17">[16]</a></sup></sup> In this regard,
+  the technical soil infrastructure, data transfer and provision of national
+  reporting data is also standards-based.<sup><sup><a href="#footnote-18"
+  id="footnote-ref-18">[17]</a></sup></sup></p><div class="footnotes"><div><sup
+  class="footnote-number" id="footnote-14">13</sup><p> <a
+  href="https://www.iso.org/standard/44342.html">https://www.iso.org/standard/44342.html</a>
+  <a href="#footnote-ref-14">&#x2191;</a></p></div><div><sup
+  class="footnote-number" id="footnote-15">14</sup><p> Running et al. 1999.
   MODIS Daily Photosynthesis (PSN) and Annual Net Primary Production (NPP)
   Product (MOD17): Algorithm Theoretical Basis Document <a
   href="https://eospso.gsfc.nasa.gov/sites/default/files/atbd/atbd_mod16.pdf">https://eospso.gsfc.nasa.gov/sites/default/files/atbd/atbd_mod16.pdf</a>
-  <a href="#footnote-ref-12">&#x2191;</a></p></div><div><sup
-  class="footnote-number" id="footnote-13">13</sup><p> Ivits and Cherlet. 2013.
+  <a href="#footnote-ref-15">&#x2191;</a></p></div><div><sup
+  class="footnote-number" id="footnote-16">15</sup><p> Ivits and Cherlet. 2013.
   Land-productivity dynamics towards integrated assessment of land degradation
   at global scales. European Commission JRC Technical Report. <a
-  href="https://publications.europa.eu/en/publication-detail/-/publication/1e2aceac-b20b-45ab-88d9-b3d187ae6375/language-en/format-PDF/source-49343336">https://publications.europa.eu/en/publication-detail/-/publication/1e2aceac-b20b-45ab-88d9-b3d187ae6375/language-en/format-PDF/source-49343336</a>    
-  <a href="#footnote-ref-13">&#x2191;</a></p></div><div><sup
-  class="footnote-number" id="footnote-14">14</sup><p> IPCC. 2006. IPCC
-  Guidelines for National Greenhouse Gas Inventories: Agriculture, Forestry and
-  other Land Use. Prepared by the National Greenhouse Gas Inventories Programme:
-  Eggleston H.S., Buendia L., Miwa K., Ngara T. and Tanabe K. (eds). IGES,
-  Japan. <a href="#footnote-ref-14">&#x2191;</a></p></div><div><sup
-  class="footnote-number" id="footnote-15">15</sup><p> Smith, P., Fang, C.,
-  Dawson, J. J., &amp; Moncrieff, J. B. 2008. Impact of global warming on soil
-  organic carbon. Advances in agronomy, 97: 1-43. <a
-  href="#footnote-ref-15">&#x2191;</a></p></div><div><sup
-  class="footnote-number" id="footnote-16">16</sup><p> IPCC. 2006. ibid <a
-  href="#footnote-ref-16">&#x2191;</a></p></div><div><sup
-  class="footnote-number" id="footnote-17">17</sup><p> <a
-  href="https://www.iso.org/standard/44595.html">https://www.iso.org/standard/44595.html</a> 
-  <a href="#footnote-ref-17">&#x2191;</a></p></div></div>
+  href="https://publications.europa.eu/en/publication-detail/-/publication/1e2aceac-b20b-45ab-88d9-b3d187ae6375/language-en/format-PDF/source-49343336">https://publications.europa.eu/en/publication-detail/-/publication/1e2aceac-b20b-45ab-88d9-b3d187ae6375/language-en/format-PDF/source-49343336</a>
+  <a href="#footnote-ref-16">&#x2191;</a></p></div><div><sup
+  class="footnote-number" id="footnote-17">16</sup><p> IPCC. 2006. ibid <a
+  href="#footnote-ref-17">&#x2191;</a></p></div><div><sup
+  class="footnote-number" id="footnote-18">17</sup><p> <a
+  href="https://www.iso.org/standard/44595.html">https://www.iso.org/standard/44595.html</a>
+  <a href="#footnote-ref-18">&#x2191;</a></p></div></div>
+SRC_TYPE_COLL_METHOD: ''
 SOURCE_TYPE: >-
-  <h1>Data sources</h1>
-
-  <h2>Description:</h2>
+  <p><strong>Description:</strong></p>
 
   <p>National data on the three sub-indicators is and can be collected through
   existing sources (e.g., databases, maps, reports), including participatory
@@ -257,24 +272,54 @@ SOURCE_TYPE: >-
   <p>The most accessible and widely used regional and global data sources for
   each of the sub-indicators are briefly described here.</p>
 
-  <ol>
-    <li><strong>Land cover and land cover change</strong> data are available in the: <ol>
-        <li><strong>ESA-CCI-LC,<sup><a href="#footnote-18" id="footnote-ref-18">[18]</a></sup></strong> containing annual land cover area data for the period 1992-2015, produced by the Catholic University of Louvain Geomatics as part of the Climate Change Initiative of the European Space Agency (ESA); or </li>
-        <li><strong>SEEA-MODIS,<sup><a href="#footnote-19" id="footnote-ref-19">[19]</a></sup></strong> containing annual land cover area data for the period 2001-2012, derived from the International Geosphere-Biosphere Programme (IGBP) type of the MODIS land cover dataset (MCD12Q1).</li>
-      </ol>
-    </li>
-    <li><strong>Land productivity data</strong> represented as vegetation indices (i.e., direct observations), and their derived products are considered the most independent and robust option for the analyses of land productivity, offering the longest consolidated time series and a broad range of operational data sets at different spatial scales. The most accurate and reliable datasets are available in the: <ol>
-        <li><strong>MODIS data products</strong>,<strong><sup><a href="#footnote-20" id="footnote-ref-20">[20]</a></sup> </strong>averaged at 1 km pixel resolution, integrated over each calendar year since 2000; and </li>
-        <li><strong>Copernicus Global Land Service products</strong>,<strong><sup><a href="#footnote-21" id="footnote-ref-21">[21]</a></sup></strong> averaged at 1 km pixel resolution and integrated over each calendar year since 1998.</li>
-      </ol>
-    </li>
-    <li><strong>Soil organic carbon stock</strong> data are available in the: <ol>
-        <li><strong>Harmonized World Soil Database (HWSD)</strong>, Version 1.2,<strong><sup><a href="#footnote-22" id="footnote-ref-22">[22]</a></sup></strong> the latest update being the current de facto standard soil grid with a spatial resolution of about 1 km; </li>
-        <li><strong>SoilGrids250m,<sup><a href="#footnote-23" id="footnote-ref-23">[23]</a></sup></strong> a global 3D soil information system at 250m resolution containing spatial predictions for a selection of soil properties (at six standard depths) including SOC stock (t ha<sup>-1</sup>);</li>
-        <li><strong>Global SOC Map, Version 1.0,<sup><a href="#footnote-24" id="footnote-ref-24">[24]</a></sup></strong> which consists of national SOC maps, developed as 1 km soil grids, covering a depth of 0-30 cm.</li>
-      </ol>
-    </li>
-  </ol>
+  <p><strong>1) Land cover and land cover change data</strong> are available in
+  the: </p>
+
+  <p><strong>(1) ESA-CCI-LC,</strong><sup><sup><a href="#footnote-19"
+  id="footnote-ref-19">[18]</a></sup></sup> containing annual land cover area
+  data for the period 1992-2015, produced by the Catholic University of Louvain
+  Geomatics as part of the Climate Change Initiative of the European Space
+  Agency (ESA); or </p>
+
+  <p><strong>(2) SEEA-MODIS,</strong><sup><sup><a href="#footnote-20"
+  id="footnote-ref-20">[19]</a></sup></sup> containing annual land cover area
+  data for the period 2001-2012, derived from the International
+  Geosphere-Biosphere Programme (IGBP) type of the MODIS land cover dataset
+  (MCD12Q1).</p>
+
+  <p><strong>2) Land productivity data</strong> represented as vegetation
+  indices (i.e., direct observations), and their derived products are considered
+  the most independent and robust option for the analyses of land productivity,
+  offering the longest consolidated time series and a broad range of operational
+  data sets at different spatial scales. The most accurate and reliable datasets
+  are available in the: </p>
+
+  <p><strong>(1) MODIS data products,</strong><sup><sup><a href="#footnote-21"
+  id="footnote-ref-21">[20]</a></sup></sup><strong> </strong>averaged at 1 km
+  pixel resolution, integrated over each calendar year since 2000; and </p>
+
+  <p><strong>(2) Copernicus Global Land Service products,</strong><sup><sup><a
+  href="#footnote-22" id="footnote-ref-22">[21]</a></sup></sup> averaged at 1 km
+  pixel resolution and integrated over each calendar year since 1998.</p>
+
+  <p><strong>3) Soil organic carbon stock data</strong> are available in the:
+  </p>
+
+  <p><strong>(1) Harmonized World Soil Database (HWSD), Version
+  1.2,</strong><sup><sup><a href="#footnote-23"
+  id="footnote-ref-23">[22]</a></sup></sup> the latest update being the current
+  de facto standard soil grid with a spatial resolution of about 1 km; </p>
+
+  <p><strong>(2) SoilGrids250m,</strong><sup><sup><a href="#footnote-24"
+  id="footnote-ref-24">[23]</a></sup></sup> a global 3D soil information system
+  at 250m resolution containing spatial predictions for a selection of soil
+  properties (at six standard depths) including SOC stock (t
+  ha<sup>-1</sup>);</p>
+
+  <p><strong>(3) Global SOC Map, Version 1.0,</strong><sup><sup><a
+  href="#footnote-25" id="footnote-ref-25">[24]</a></sup></sup> which consists
+  of national SOC maps, developed as 1 km soil grids, covering a depth of 0-30
+  cm.</p>
 
   <p>In the absence of, to enhance, or as a complement to national data sources,
   good practice suggests that the data and information derived from global and
@@ -287,30 +332,28 @@ SOURCE_TYPE: >-
   including the ground-truthing of remotely sensed data using Google Earth
   images, field surveys or a combination of both.</p><div
   class="footnotes"><div><sup class="footnote-number"
-  id="footnote-18">18</sup><p> <a
-  href="https://www.esa-landcover-cci.org/">https://www.esa-landcover-cci.org/</a> 
-  <a href="#footnote-ref-18">&#x2191;</a></p></div><div><sup
-  class="footnote-number" id="footnote-19">19</sup><p> <a
-  href="https://modis.gsfc.nasa.gov/data/dataprod/mod12.php">https://modis.gsfc.nasa.gov/data/dataprod/mod12.php</a> 
+  id="footnote-19">18</sup><p> <a
+  href="https://www.esa-landcover-cci.org/">https://www.esa-landcover-cci.org/</a>
   <a href="#footnote-ref-19">&#x2191;</a></p></div><div><sup
-  class="footnote-number" id="footnote-20">20</sup><p> <a
-  href="https://modis.gsfc.nasa.gov/data/dataprod/mod13.php">https://modis.gsfc.nasa.gov/data/dataprod/mod13.php</a> 
+  class="footnote-number" id="footnote-20">19</sup><p> <a
+  href="https://modis.gsfc.nasa.gov/data/dataprod/mod12.php">https://modis.gsfc.nasa.gov/data/dataprod/mod12.php</a>
   <a href="#footnote-ref-20">&#x2191;</a></p></div><div><sup
-  class="footnote-number" id="footnote-21">21</sup><p> <a
-  href="http://land.copernicus.eu/global/">http://land.copernicus.eu/global/</a> 
+  class="footnote-number" id="footnote-21">20</sup><p> <a
+  href="https://modis.gsfc.nasa.gov/data/dataprod/mod13.php">https://modis.gsfc.nasa.gov/data/dataprod/mod13.php</a>
   <a href="#footnote-ref-21">&#x2191;</a></p></div><div><sup
-  class="footnote-number" id="footnote-22">22</sup><p> <a
-  href="http://www.fao.org/soils-portal/soil-survey/soil-maps-and-databases/harmonized-world-soil-database-v12/en/">http://www.fao.org/soils-portal/soil-survey/soil-maps-and-databases/harmonized-world-soil-database-v12/en/</a> 
+  class="footnote-number" id="footnote-22">21</sup><p> <a
+  href="http://land.copernicus.eu/global/">http://land.copernicus.eu/global/</a>
   <a href="#footnote-ref-22">&#x2191;</a></p></div><div><sup
-  class="footnote-number" id="footnote-23">23</sup><p> <a
-  href="https://www.soilgrids.org/">https://www.soilgrids.org/</a>  <a
-  href="#footnote-ref-23">&#x2191;</a></p></div><div><sup
-  class="footnote-number" id="footnote-24">24</sup><p> <a
-  href="http://54.229.242.119/apps/GSOCmap.html">http://54.229.242.119/apps/GSOCmap.html</a> 
-  <a href="#footnote-ref-24">&#x2191;</a></p></div></div>
+  class="footnote-number" id="footnote-23">22</sup><p> <a
+  href="http://www.fao.org/soils-portal/soil-survey/soil-maps-and-databases/harmonized-world-soil-database-v12/en/">http://www.fao.org/soils-portal/soil-survey/soil-maps-and-databases/harmonized-world-soil-database-v12/en/</a>
+  <a href="#footnote-ref-23">&#x2191;</a></p></div><div><sup
+  class="footnote-number" id="footnote-24">23</sup><p> <a
+  href="https://www.soilgrids.org/">https://www.soilgrids.org/</a> <a
+  href="#footnote-ref-24">&#x2191;</a></p></div><div><sup
+  class="footnote-number" id="footnote-25">24</sup><p> <a
+  href="http://54.229.242.119/apps/GSOCmap.html">http://54.229.242.119/apps/GSOCmap.html</a>
+  <a href="#footnote-ref-25">&#x2191;</a></p></div></div>
 COLL_METHOD: >-
-  <h2>Collection process:</h2>
-
   <p>Data on the indicator and sub-indicators will be provided by national
   authorities (&#x201C;main reporting entity&#x201D;) to the UNCCD in their
   national reports following a standard format every four years beginning in
@@ -321,43 +364,37 @@ COLL_METHOD: >-
   financial and technical assistance in preparing their national reports from
   the UNCCD and its partners.</p>
 
-  <p>Once received, national reports will undergo a review process by the UNCCD
-  and its partners to ensure the correct use of definitions and methodology as
-  well as internal consistency. A comparison can be made with past assessments
-  and other existing data sources. Regular contacts between the main reporting
-  entity and UNCCD secretariat via a help desk system, and through regional,
-  sub-regional, and national workshops, will form part of this review process,
-  enable data adjustments when needed, and contribute to building national
-  capacities. The data will then be aggregated at sub-regional, regional and
-  global levels by the UNCCD and its partners.</p>
+  <p> </p>
 FREQ_COLL: >-
-  <h1>Calendar</h1>
-
-  <h2>Data collection:</h2>
-
   <p>The data collection process for UNCCD reporting has begun with the first
   reporting period scheduled for 2018 and subsequent reporting every four
   years.</p>
 REL_CAL_POLICY: >-
-  <h2>Data release:</h2>
-
   <p>Data from the 2018 reporting period will be released by February 2019 in
   national, sub-regional, regional and global formats. </p>
 DATA_SOURCE: >-
-  <h1>Data providers</h1>
-
   <p>The ministries or agencies (&#x201C;main reporting entity&#x201D;) that
   host the UNCCD National Focal Points, in conjunction with National Statistical
   Offices and specialized agencies, will prepare UNCCD national reports that
   include indicator 15.3.1 and the sub-indicators. Otherwise national data will
   be procured through national data platforms and mechanisms endorsed by the UN
   Statistical Commission.</p>
-COMPILING_ORG: |-
-  <h1>Data compilers</h1>
-  <p>UNCCD </p>
+COMPILING_ORG: <p>UNCCD </p>
+INST_MANDATE: >-
+  <p>The 13<sup>th</sup> meeting of the Conference of the Parties gave the UNCCD
+  secretariat the mandate to continue working with the Interagency and Expert
+  Group on Sustainable Development Goal Indicators in its role as the custodian
+  agency to finalize the methodology and data management protocols for
+  Sustainable Development Goal indicator 15.3.1 and begin coordination related
+  to national, regional and global reporting according to the protocols
+  established within the Sustainable Development Goal indicator framework.
+  <sup><a href="#footnote-26" id="footnote-ref-26">[25]</a></sup></p><div
+  class="footnotes"><div><sup class="footnote-number"
+  id="footnote-26">25</sup><p>
+  https://www.unccd.int/sites/default/files/sessions/documents/2019-08/9COP13_0.pdf
+  <a href="#footnote-ref-26">&#x2191;</a></p></div></div>
+OTHER_METHOD: ''
 RATIONALE: >-
-  <h2>Rationale:</h2>
-
   <p>In the last decade, there have been a number of global/regional targets and
   initiatives to halt and reverse land degradation and restore degraded land.
   Starting in 2010, these include the Aichi Biodiversity Targets, one of which
@@ -368,13 +405,13 @@ RATIONALE: >-
 
   <p>For each of the sub-indicators, countries can access a wide range of data
   sources, including Earth observation and geospatial information, while at the
-  same time ensuring national ownership.<sup><a href="#footnote-25"
-  id="footnote-ref-25">[25]</a></sup> The use of the existing national reporting
-  templates of the UNCCD,<sup><a href="#footnote-26"
-  id="footnote-ref-26">[26]</a></sup> which include the indicator and
+  same time ensuring national ownership.<sup><sup><a href="#footnote-27"
+  id="footnote-ref-27">[26]</a></sup></sup> The use of the existing national
+  reporting templates of the UNCCD,<sup><sup><a href="#footnote-28"
+  id="footnote-ref-28">[27]</a></sup></sup> which include the indicator and
   sub-indicators, provides a practical and harmonized approach to reporting on
-  this indicator beginning in 2018 and every four years thereafter.<sup><a
-  href="#footnote-27" id="footnote-ref-27">[27]</a></sup> The quantitative
+  this indicator beginning in 2018 and every four years thereafter.<sup><sup><a
+  href="#footnote-29" id="footnote-ref-29">[28]</a></sup></sup> The quantitative
   assessments and corresponding mapping at the national level, as required by
   this indicator, would help countries to set policy and planning priorities
   among diverse land resource areas, in particular:</p>
@@ -383,19 +420,17 @@ RATIONALE: >-
     <li>to identify hotspots and plan actions of redress, including through the conservation, rehabilitation, restoration and sustainable management of land resources; and</li>
     <li>to address emerging pressures to help avoid future land degradation.</li>
   </ul><div class="footnotes"><div><sup class="footnote-number"
-  id="footnote-25">25</sup><p> United Nations General Assembly. 2015.
+  id="footnote-27">26</sup><p> United Nations General Assembly. 2015.
   Transforming our world: the 2030 Agenda for Sustainable Development.
   Resolution adopted by the General Assembly on 25 September 2015 (A/RES/70/1).
-  <a href="#footnote-ref-25">&#x2191;</a></p></div><div><sup
-  class="footnote-number" id="footnote-26">26</sup><p> <a
-  href="http://www2.unccd.int/sites/default/files/relevant-links/2017-12/20171107_Template_Final_EN.pdf">http://www2.unccd.int/sites/default/files/relevant-links/2017-12/20171107_Template_Final_EN.pdf</a> 
-  <a href="#footnote-ref-26">&#x2191;</a></p></div><div><sup
-  class="footnote-number" id="footnote-27">27</sup><p> <a
-  href="http://www2.unccd.int/sites/default/files/sessions/documents/2017-09/ICCD_CRIC%2816%29_L.3-1715758E.pdf">http://www2.unccd.int/sites/default/files/sessions/documents/2017-09/ICCD_CRIC%2816%29_L.3-1715758E.pdf</a> 
-  <a href="#footnote-ref-27">&#x2191;</a></p></div></div>
+  <a href="#footnote-ref-27">&#x2191;</a></p></div><div><sup
+  class="footnote-number" id="footnote-28">27</sup><p> <a
+  href="http://www2.unccd.int/sites/default/files/relevant-links/2017-12/20171107_Template_Final_EN.pdf">http://www2.unccd.int/sites/default/files/relevant-links/2017-12/20171107_Template_Final_EN.pdf</a>
+  <a href="#footnote-ref-28">&#x2191;</a></p></div><div><sup
+  class="footnote-number" id="footnote-29">28</sup><p> <a
+  href="http://www2.unccd.int/sites/default/files/sessions/documents/2017-09/ICCD_CRIC%2816%29_L.3-1715758E.pdf">http://www2.unccd.int/sites/default/files/sessions/documents/2017-09/ICCD_CRIC%2816%29_L.3-1715758E.pdf</a>
+  <a href="#footnote-ref-29">&#x2191;</a></p></div></div>
 REC_USE_LIM: >-
-  <h2>Comments and limitations:</h2>
-
   <p>SDG indicator 15.3.1 is a binary -- degraded/not degraded -- quantification
   based on the analysis of available data that is validated and reported by
   national authorities. Reporting on the sub-indicators should be based
@@ -431,23 +466,19 @@ REC_USE_LIM: >-
   practice guidance for the monitoring and the reporting of the sub-indicators
   in other processes will assist in this regard. </p>
 DATA_COMP: >-
-  <h1>Methodology</h1>
-
-  <h2>Computation method:</h2>
-
   <p>By analysing changes in the sub-indicators in the context of local
   assessments of climate, soil, land use and any other factors influencing land
   conditions, national authorities can determine which land units are to be
   classified as degraded, sum the total, and report on the indicator. A
   conceptual framework, endorsed by the UNCCD&#x2019;s governing body in
-  September 2017,<sup><a href="#footnote-28" id="footnote-ref-28">[28]</a></sup>
-  underpins a universal methodology for deriving the indicator. The methodology
-  helps countries to select the most appropriate datasets for the sub-indicators
-  and determine national methods for estimating the indicator. In order to
-  assist countries with monitoring and reporting, Good Practice Guidance for SDG
-  Indicator 15.3.1<sup><a href="#footnote-29"
-  id="footnote-ref-29">[29]</a></sup> has been developed by the UNCCD and its
-  partners. </p>
+  September 2017,<sup><sup><a href="#footnote-30"
+  id="footnote-ref-30">[29]</a></sup></sup> underpins a universal methodology
+  for deriving the indicator. The methodology helps countries to select the most
+  appropriate datasets for the sub-indicators and determine national methods for
+  estimating the indicator. In order to assist countries with monitoring and
+  reporting, Good Practice Guidance for SDG Indicator 15.3.1<sup><sup><a
+  href="#footnote-31" id="footnote-ref-31">[30]</a></sup></sup> has been
+  developed by the UNCCD and its partners. </p>
 
   <p>The indicator is derived from a binary classification of land condition
   (i.e., degraded or not degraded) based primarily, and to the largest extent
@@ -486,11 +517,11 @@ DATA_COMP: >-
   considered negative (or stable when degraded in the baseline or previous
   monitoring year) by national authorities. This involves the:</p>
 
-  <ol>
-    <li>assessment and evaluation of <strong>land cover and land cover changes</strong>;</li>
-    <li>analysis of <strong>land productivity</strong> status and trends based on net primary production; and </li>
-    <li>determination of <strong>carbon stock</strong> values and changes, with an initial assessment of soil organic carbon as the proxy.</li>
-  </ol>
+  <p>(1) assessment and evaluation of <strong>land cover and land cover
+  changes</strong>;<br>(2) analysis of <strong>land productivity</strong> status
+  and trends based on net primary production; and <br>(3) determination of
+  <strong>carbon stock</strong> values and changes, with an initial assessment
+  of soil organic carbon as the proxy.</p>
 
   <p>It is good practice to assess change for interim and final reporting years
   in relation to the baseline year for each sub-indicator and then the
@@ -518,145 +549,557 @@ DATA_COMP: >-
   the land cover class determined to be degraded plus all area units that had
   previously been defined as degraded and that remain degraded:</p>
 
-  <p><img
-  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAA10AAABLCAMAAAC8wh12AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAJDUExURf///+zs7Ojo6Onp6fb29vn5+b29vWBgYENDQ42Njf7+/vX19a+vr1hYWHR0dPPz8/T09NLS0sPDw/Ly8tTU1MXFxW9vb0BAQEdHR7a2tp+fn2dnZ4yMjFFRUevr64qKinNzc4+Pj1paWo6OjtnZ2X19fVVVVWlpad7e3m5ubqenp/39/dra2rOzs5eXl05OTsHBwUxMTGVlZcnJydDQ0KCgoNXV1e/v72tra5KSkubm5vz8/Hl5eczMzIuLi+rq6tvb24SEhEhISPr6+ri4uJmZmfDw8GxsbOTk5Pj4+Ofn50FBQdPT02hoaEJCQnBwcIaGhuPj41lZWWNjY/v7+52dnX5+ft3d3YWFhZycnHV1dXt7e1RUVK2trYmJiaGhoWJiYsTExL+/v0ZGRoeHh3FxcURERJiYmMvLy1NTU5CQkGZmZtjY2N/f35ubm39/f66ursLCwrKyssjIyEtLS83Nzb6+vru7u2RkZFxcXJ6enldXV1JSUnJyckpKSk1NTV5eXu7u7oCAgHd3d8/Pz7GxsfHx8eXl5UVFRZqamsbGxuHh4dbW1tfX10lJSV9fX21tbe3t7YGBgZOTk6ysrMfHx/f395aWlrm5uU9PT6Wlpbe3t8rKytHR0eDg4LS0tM7OzqOjo11dXXZ2drCwsMDAwKSkpNzc3OLi4qKiopSUlIODg6mpqYKCgnp6eltbW4iIiFBQULq6umpqarW1taampmFhYaioqKqqqnh4eKurq7y8vJWVlZGRkXx8fFZWVgAAAHA6CGAAAADBdFJOU////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////wCINFSNAAAACXBIWXMAACHVAAAh1QEEnLSdAAARl0lEQVR4Xu2dy5mjOrdAnYUz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"></p>
-
+  <p> <math xmlns="http://www.w3.org/1998/Math/MathML">
+      <msub>
+        <mrow>
+          <mi>A</mi>
+          <mo>(</mo>
+          <mi>D</mi>
+          <mi>e</mi>
+          <mi>g</mi>
+          <mi>r</mi>
+          <mi>a</mi>
+          <mi>d</mi>
+          <mi>e</mi>
+          <mi>d</mi>
+          <mo>)</mo>
+        </mrow>
+        <mrow>
+          <mi>i</mi>
+          <mo>,</mo>
+          <mi mathvariant="normal">n</mi>
+        </mrow>
+      </msub>
+      <mo>=</mo>
+      <mrow>
+        <munderover>
+          <mo stretchy="false">&#x2211;</mo>
+          <mrow>
+            <mi>j</mi>
+            <mo>=</mo>
+            <mn>1</mn>
+          </mrow>
+          <mrow>
+            <mi>n</mi>
+          </mrow>
+        </munderover>
+        <mrow>
+          <msub>
+            <mrow>
+              <mi>A</mi>
+              <mi>r</mi>
+              <mi>e</mi>
+              <mi>c</mi>
+              <mi>e</mi>
+              <mi>n</mi>
+              <mi>t</mi>
+            </mrow>
+            <mrow>
+              <mi>i</mi>
+              <mo>,</mo>
+              <mi>n</mi>
+            </mrow>
+          </msub>
+          <mo>+</mo>
+        </mrow>
+      </mrow>
+      <msub>
+        <mrow>
+          <mi>A</mi>
+          <mi>p</mi>
+          <mi>e</mi>
+          <mi>r</mi>
+          <mi>s</mi>
+          <mi>i</mi>
+          <mi>s</mi>
+          <mi>t</mi>
+          <mi>e</mi>
+          <mi>n</mi>
+          <mi>t</mi>
+        </mrow>
+        <mrow>
+          <mi>i</mi>
+          <mo>,</mo>
+          <mi>n</mi>
+        </mrow>
+      </msub>
+    </math> (1)</p>
   <p>Where: </p>
 
-  <p><em>A(Degraded)</em> <em><sub>i,n </sub></em>is the total area degraded in
-  the land cover class <em>i</em> in the year of monitoring <em>n</em> (ha);</p>
-
-  <p><em>Arecent<sub>i,n </sub></em>is the area defined as degraded in the
-  current monitoring year following 1OAO assessment of the sub-indicators
-  (ha);</p>
-
-  <p><em>Apersistent<sub>i,n</sub></em> is the area previously defined as
-  degraded which remains degraded in the monitoring year following the 1OAO
-  assessment of the sub-indicators (ha).</p>
-
+  <p><math xmlns="http://www.w3.org/1998/Math/MathML">
+      <msub>
+        <mrow>
+          <mi>A</mi>
+          <mo>(</mo>
+          <mi>D</mi>
+          <mi>e</mi>
+          <mi>g</mi>
+          <mi>r</mi>
+          <mi>a</mi>
+          <mi>d</mi>
+          <mi>e</mi>
+          <mi>d</mi>
+          <mo>)</mo>
+        </mrow>
+        <mrow>
+          <mi>i</mi>
+          <mo>,</mo>
+          <mi>n</mi>
+        </mrow>
+      </msub>
+    </math> is the total area degraded in the land cover class <em>i</em> in the year of monitoring <em>n</em> (ha);</p>
+  <p><math xmlns="http://www.w3.org/1998/Math/MathML">
+      <msub>
+        <mrow>
+          <mi>A</mi>
+          <mi>r</mi>
+          <mi>e</mi>
+          <mi>c</mi>
+          <mi>e</mi>
+          <mi>n</mi>
+          <mi>t</mi>
+        </mrow>
+        <mrow>
+          <mi>i</mi>
+          <mo>,</mo>
+          <mi>n</mi>
+        </mrow>
+      </msub>
+    </math> is the area defined as degraded in the current monitoring year following 1OAO assessment of the sub-indicators (ha);</p>
+  <p><math xmlns="http://www.w3.org/1998/Math/MathML">
+      <msub>
+        <mrow>
+          <mi>A</mi>
+          <mi>p</mi>
+          <mi>e</mi>
+          <mi>r</mi>
+          <mi>s</mi>
+          <mi>i</mi>
+          <mi>s</mi>
+          <mi>t</mi>
+          <mi>e</mi>
+          <mi>n</mi>
+          <mi>t</mi>
+        </mrow>
+        <mrow>
+          <mi>i</mi>
+          <mo>,</mo>
+          <mi>n</mi>
+        </mrow>
+      </msub>
+    </math> is the area previously defined as degraded which remains degraded in the monitoring year following the 1OAO assessment of the sub-indicators (ha).</p>
   <p>The proportion of land cover type <em>i</em> that is degraded is then given
   by:</p>
 
-  <p><img
-  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAT8AAABOCAMAAABhceFJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAJDUExURf////n5+erq6u/v7/f39+fn5/b29v7+/uHh4ZmZmXJycq2trdPT04yMjNHR0dXV1WVlZXp6etfX1/Hx8dzc3FpaWrCwsPr6+vPz8/z8/N3d3UhISHNzc+3t7cnJyUxMTEBAQJWVlebm5mNjY0NDQ1FRUXl5eUVFRURERMjIyI2NjU5OTr+/v/39/fj4+J+fn0JCQl5eXnt7e0lJScfHx0dHR7Ozs5eXl/Ly8mtra2dnZ+jo6FlZWVdXV9TU1MXFxU1NTZKSktjY2FNTU83NzYqKip2dna6urm5ubkpKSqurq4GBgW9vb1VVVdDQ0IaGhr29vUZGRl1dXWZmZszMzMLCwlRUVMHBwVBQUKioqHR0dHZ2dnh4eGlpaXd3d39/f2JiYqenp7q6unV1dZOTk+vr66WlpYCAgFhYWOTk5HFxcZSUlIWFhfX19c/Pz4eHh3x8fImJiXBwcOPj4/T09EtLS76+vn5+frS0tKKiosTExH19fdbW1lZWVtLS0qqqqru7u6Ojo6GhoYiIiOzs7LKysvDw8J6enunp6ba2toSEhEFBQdra2qmpqWFhYZubm5CQkN/f37y8vLe3t4+Pj/v7+21tbYuLi+Dg4GhoaMDAwF9fX4KCgq+vr1xcXGpqasrKyrGxsbm5ucbGxmRkZJGRkY6OjtnZ2aSkpO7u7pycnFtbW5aWllJSUuXl5U9PT5qamtvb2+Li4t7e3s7OzpiYmKCgoLi4uKysrGBgYGxsbMPDw6ampsvLy4ODg7W1tQAAAPovdWQAAADBdFJOU////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////wCINFSNAAAACXBIWXMAACHVAAAh1QEEnLSdAAAKIElEQVR4Xu1cSXbrKhDNlC0w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"></p>
+  <p> <math xmlns="http://www.w3.org/1998/Math/MathML">
+      <msub>
+        <mrow>
+          <mi>P</mi>
+        </mrow>
+        <mrow>
+          <mi>i</mi>
+          <mo>,</mo>
+          <mi>n</mi>
+        </mrow>
+      </msub>
+      <mo>=</mo>
+      <mfrac>
+        <mrow>
+          <msub>
+            <mrow>
+              <mi>A</mi>
+              <mfenced separators="|">
+                <mrow>
+                  <mi>d</mi>
+                  <mi>e</mi>
+                  <mi>g</mi>
+                  <mi>r</mi>
+                  <mi>a</mi>
+                  <mi>d</mi>
+                  <mi>e</mi>
+                  <mi>d</mi>
+                </mrow>
+              </mfenced>
+            </mrow>
+            <mrow>
+              <mi>i</mi>
+              <mo>,</mo>
+              <mi mathvariant="normal">n</mi>
+            </mrow>
+          </msub>
+        </mrow>
+        <mrow>
+          <msub>
+            <mrow>
+              <mi>A</mi>
+              <mfenced separators="|">
+                <mrow>
+                  <mi>t</mi>
+                  <mi>o</mi>
+                  <mi>t</mi>
+                  <mi>a</mi>
+                  <mi>l</mi>
+                </mrow>
+              </mfenced>
+            </mrow>
+            <mrow>
+              <mi>i</mi>
+              <mo>,</mo>
+              <mi>n</mi>
+            </mrow>
+          </msub>
+        </mrow>
+      </mfrac>
+    </math> (2)</p>
+  <p>Where</p>
 
-  <p>Where:</p>
-
-  <p><em>P<sub>i,n</sub></em><sub> </sub>is the proportion of degraded land in
-  that land cover type <em>i</em> in the monitoring period <em>n</em>;<em>
-  </em></p>
-
-  <p> <em>A(Degraded)<sub>i,n</sub></em> is the total area degraded in the land
-  cover type <em>i</em> in the year of monitoring <em>n </em>(ha);</p>
-
-  <p><em>A(total)<sub>i,n</sub></em> is the total area of land cover type
-  <em>i</em> within the national boundary (ha). </p>
-
+  <p><math xmlns="http://www.w3.org/1998/Math/MathML">
+      <msub>
+        <mrow>
+          <mi>P</mi>
+        </mrow>
+        <mrow>
+          <mi>i</mi>
+          <mo>,</mo>
+          <mi mathvariant="normal">n</mi>
+        </mrow>
+      </msub>
+      <mi>&amp;nbsp;</mi>
+    </math>is the proportion of degraded land in that land cover type <em>i</em> in the monitoring period <em>n</em>;<em> </em></p>
+  <p> <math xmlns="http://www.w3.org/1998/Math/MathML">
+      <msub>
+        <mrow>
+          <mi>A</mi>
+          <mo>(</mo>
+          <mi>D</mi>
+          <mi>e</mi>
+          <mi>g</mi>
+          <mi>r</mi>
+          <mi>a</mi>
+          <mi>d</mi>
+          <mi>e</mi>
+          <mi>d</mi>
+          <mo>)</mo>
+        </mrow>
+        <mrow>
+          <mi>i</mi>
+          <mo>,</mo>
+          <mi mathvariant="normal">n</mi>
+        </mrow>
+      </msub>
+    </math> is the total area degraded in the land cover type <em>i</em> in the year of monitoring <em>n </em>(ha);</p>
+  <p><math xmlns="http://www.w3.org/1998/Math/MathML">
+      <msub>
+        <mrow>
+          <mi>A</mi>
+          <mo>(</mo>
+          <mi>t</mi>
+          <mi>o</mi>
+          <mi>t</mi>
+          <mi>a</mi>
+          <mi>l</mi>
+          <mo>)</mo>
+        </mrow>
+        <mrow>
+          <mi>i</mi>
+          <mo>,</mo>
+          <mi mathvariant="normal">n</mi>
+        </mrow>
+      </msub>
+    </math> is the total area of land cover type <em>i</em> within the national boundary (ha). </p>
   <p>The total area of land that is degraded over total land area is the
   accumulation across the <em>m</em> land cover classes within the monitoring
   period <em>n </em>is given by:</p>
 
-  <p><img
-  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAtsAAABCCAMAAACxWOo4AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAJDUExURf////z8/Ovr69jY2Nzc3PT09Orq6tra2tnZ2ezs7P39/f7+/uDg4N7e3vb29q2trZubm7m5ub+/v29vb0FBQUlJSaysrPv7+7W1tWtra0REREJCQnp6eufn542NjVRUVEBAQE5OTqenp/r6+tPT046OjpGRkaWlpff394SEhL6+vlxcXKurq6SkpImJiZqammFhYb29vcDAwGpqas7OzoKCgmRkZPHx8fLy8rq6uoqKitXV1eLi4ouLi7CwsOHh4eTk5N/f34eHh1hYWKmpqenp6ePj4/Dw8FpaWkdHR/X19Xl5eVBQUNTU1H19fWBgYEVFRcPDw19fX9vb22ZmZldXV8LCwuXl5ejo6Pj4+MnJycbGxl5eXkNDQ4+Pj4yMjE9PT1JSUt3d3XJyckxMTF1dXbe3t6ioqGVlZebm5m1tbVZWVtLS0k1NTZCQkK+vr1tbW/Pz80tLS1VVVfn5+czMzEZGRoODg8/Pz1NTU3h4eLOzs3t7e8vLy+3t7ZKSkoaGhsjIyMXFxUpKSlFRUaOjo+/v79fX15aWlmlpaaCgoH5+frKyspWVlYGBgZycnO7u7mxsbJiYmNbW1oCAgIWFhXd3d3V1dcfHx66urn9/f7GxsUhISHR0dHBwcGhoaHZ2dqKios3Nzbu7u2dnZ4iIiMHBwZ+fn3x8fJeXl9HR0aamppOTk7S0tLa2tsrKymNjY6GhoWJiYri4uFlZWcTExJmZmaqqqnFxcZ6enm5ubpSUlHNzc7y8vNDQ0J2dnQAAAL4B85cAAADBdFJOU////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////wCINFSNAAAACXBIWXMAACHVAAAh1QEEnLSdAAAPdElEQVR4Xu2c63WkuhKFHQe/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"></p>
+  <p> <math xmlns="http://www.w3.org/1998/Math/MathML">
+      <msub>
+        <mrow>
+          <mi>A</mi>
+          <mo>(</mo>
+          <mi>D</mi>
+          <mi>e</mi>
+          <mi>g</mi>
+          <mi>r</mi>
+          <mi>a</mi>
+          <mi>d</mi>
+          <mi>e</mi>
+          <mi>d</mi>
+          <mo>)</mo>
+        </mrow>
+        <mrow>
+          <mi mathvariant="normal">n</mi>
+        </mrow>
+      </msub>
+      <mo>=</mo>
+      <mrow>
+        <munderover>
+          <mo stretchy="false">&#x2211;</mo>
+          <mrow>
+            <mi>i</mi>
+          </mrow>
+          <mrow>
+            <mi>m</mi>
+          </mrow>
+        </munderover>
+        <mrow>
+          <msub>
+            <mrow>
+              <mi>A</mi>
+              <mo>(</mo>
+              <mi>D</mi>
+              <mi>e</mi>
+              <mi>g</mi>
+              <mi>r</mi>
+              <mi>a</mi>
+              <mi>d</mi>
+              <mi>e</mi>
+              <mi>d</mi>
+              <mo>)</mo>
+            </mrow>
+            <mrow>
+              <mi>i</mi>
+              <mo>,</mo>
+              <mi mathvariant="normal">n</mi>
+            </mrow>
+          </msub>
+        </mrow>
+      </mrow>
+    </math> (3)</p>
+  <p>Where</p>
 
-  <p>Where:</p>
-
-  <p><em>A(Degraded)</em><sub>n</sub> is the total area degraded in the year of
-  monitoring <em>n </em>(ha);</p>
-
-  <p><em>A(Degraded)<sub>i,</sub></em><sub>n</sub> the total area degraded in
-  the land cover type <em>i</em> in the year of monitoring <em>n</em>.</p>
-
+  <p><math xmlns="http://www.w3.org/1998/Math/MathML">
+      <msub>
+        <mrow>
+          <mi>A</mi>
+          <mo>(</mo>
+          <mi>D</mi>
+          <mi>e</mi>
+          <mi>g</mi>
+          <mi>r</mi>
+          <mi>a</mi>
+          <mi>d</mi>
+          <mi>e</mi>
+          <mi>d</mi>
+          <mo>)</mo>
+        </mrow>
+        <mrow>
+          <mi mathvariant="normal">n</mi>
+        </mrow>
+      </msub>
+    </math> is the total area degraded in the year of monitoring <em>n </em>(ha);</p>
+  <p><math xmlns="http://www.w3.org/1998/Math/MathML">
+      <msub>
+        <mrow>
+          <mi>A</mi>
+          <mo>(</mo>
+          <mi>D</mi>
+          <mi>e</mi>
+          <mi>g</mi>
+          <mi>r</mi>
+          <mi>a</mi>
+          <mi>d</mi>
+          <mi>e</mi>
+          <mi>d</mi>
+          <mo>)</mo>
+        </mrow>
+        <mrow>
+          <mi>i</mi>
+          <mo>,</mo>
+          <mi mathvariant="normal">n</mi>
+        </mrow>
+      </msub>
+    </math> is the total area degraded in the land cover type <em>i</em> in the year of monitoring <em>n</em>.</p>
   <p>The total proportion of land that is degraded over total land area is given
   by:</p>
 
-  <p><img
-  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAtsAAABXCAMAAADiQ3kQAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAJDUExURf////Dw8NTU1PPz89fX197e3vj4+MXFxXl5eXZ2dtbW1pKSkoyMjLu7u8/Pz7i4uJubm3BwcOzs7FFRUYqKivr6+qmpqU1NTZSUlPv7+2FhYYCAgMfHx8HBwUBAQKOjo/f397m5uUpKSqSkpGxsbFdXV9vb293d3U5OTnJycsbGxnx8fGpqal5eXkxMTHNzc+Xl5UhISNDQ0Onp6UFBQdnZ2ebm5l1dXWNjY+Hh4fHx8X9/f2BgYFtbW3d3d4mJiYaGhre3t2lpaerq6uTk5FxcXFRUVNXV1UtLS5aWlrGxsVlZWVhYWJiYmLq6uv39/WhoaPz8/L+/v1BQUEVFRbOzs+3t7aampp2dnfT09Ht7e2RkZL6+vnh4eM3NzW1tbe7u7mdnZ7y8vL29vZWVldzc3JCQkIKCgpOTk42NjWZmZszMzNPT046OjmJiYoSEhJ6enlNTU+jo6Gtra+vr6/n5+UNDQ+/v73FxcaKiooGBgU9PT5qamlVVVbS0tOPj48PDw5GRkcTExERERIiIiEJCQvLy8nR0dIWFhaurq1JSUqysrJeXl0lJScvLy35+fqqqqsrKykZGRmVlZa2trcnJyY+Pj87Ozv7+/qGhoZycnLa2toODg9/f34uLi+fn519fX29vb7W1tUdHR+Dg4K6urtLS0rKyssDAwJmZmaenp6CgoFpaWp+fn9HR0W5ublZWVtra2qioqIeHh8jIyNjY2Pb29np6enV1dfX19bCwsMLCwqWlpa+vr+Li4n19fQAAAH7AsoIAAADBdFJOU////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////wCINFSNAAAACXBIWXMAACHVAAAh1QEEnLSdAAAKnElEQVR4Xu2d2XXsrBKFOwFS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"></p>
-
+  <p> <math xmlns="http://www.w3.org/1998/Math/MathML">
+      <msub>
+        <mrow>
+          <mi>P</mi>
+        </mrow>
+        <mrow>
+          <mi mathvariant="normal">n</mi>
+        </mrow>
+      </msub>
+      <mo>=</mo>
+      <mfrac>
+        <mrow>
+          <msub>
+            <mrow>
+              <mi>A</mi>
+              <mo>(</mo>
+              <mi>D</mi>
+              <mi>e</mi>
+              <mi>g</mi>
+              <mi>r</mi>
+              <mi>a</mi>
+              <mi>d</mi>
+              <mi>e</mi>
+              <mi>d</mi>
+              <mo>)</mo>
+            </mrow>
+            <mrow>
+              <mi mathvariant="normal">n</mi>
+            </mrow>
+          </msub>
+        </mrow>
+        <mrow>
+          <mrow>
+            <munderover>
+              <mo stretchy="false">&#x2211;</mo>
+              <mrow>
+                <mi>i</mi>
+              </mrow>
+              <mrow>
+                <mi>m</mi>
+              </mrow>
+            </munderover>
+            <mrow>
+              <mi mathvariant="normal">A</mi>
+              <mo>(</mo>
+              <mi mathvariant="normal">T</mi>
+              <mi mathvariant="normal">o</mi>
+              <mi mathvariant="normal">t</mi>
+              <mi mathvariant="normal">a</mi>
+              <mi mathvariant="normal">l</mi>
+              <mo>)</mo>
+            </mrow>
+          </mrow>
+        </mrow>
+      </mfrac>
+    </math> (4)</p>
   <p>Where</p>
 
-  <p><em>P</em><sub>n</sub> is the proportion of land that is degraded over
-  total land area;</p>
-
-  <p><em>A (Degraded)</em><sub>n</sub> is the total area degraded in the year of
-  monitoring <em>n </em>(ha)<em>;</em></p>
-
-  <p>A (Total) is the total area within the national boundary (ha).</p>
-
+  <p><math xmlns="http://www.w3.org/1998/Math/MathML">
+      <msub>
+        <mrow>
+          <mi>P</mi>
+        </mrow>
+        <mrow>
+          <mi mathvariant="normal">n</mi>
+        </mrow>
+      </msub>
+    </math> is the proportion of land that is degraded over total land area;</p>
+  <p><math xmlns="http://www.w3.org/1998/Math/MathML">
+      <msub>
+        <mrow>
+          <mi>A</mi>
+          <mo>(</mo>
+          <mi>D</mi>
+          <mi>e</mi>
+          <mi>g</mi>
+          <mi>r</mi>
+          <mi>a</mi>
+          <mi>d</mi>
+          <mi>e</mi>
+          <mi>d</mi>
+          <mo>)</mo>
+        </mrow>
+        <mrow>
+          <mi mathvariant="normal">n</mi>
+        </mrow>
+      </msub>
+    </math> is the total area degraded in the year of monitoring <em>n </em>(ha)<em>;</em></p>
+  <p><math xmlns="http://www.w3.org/1998/Math/MathML">
+      <mi mathvariant="normal">A</mi>
+      <mo>(</mo>
+      <mi mathvariant="normal">T</mi>
+      <mi mathvariant="normal">o</mi>
+      <mi mathvariant="normal">t</mi>
+      <mi mathvariant="normal">a</mi>
+      <mi mathvariant="normal">l</mi>
+      <mo>)</mo>
+    </math> is the total area within the national boundary (ha).</p>
   <p><br>The proportion is converted to a percentage value by multiplying by
   100. </p><div class="footnotes"><div><sup class="footnote-number"
-  id="footnote-28">28</sup><p> <a
-  href="http://www2.unccd.int/sites/default/files/sessions/documents/2017-09/ICCD_COP%2813%29_CST_L.1-1715678E_0.pdf">http://www2.unccd.int/sites/default/files/sessions/documents/2017-09/ICCD_COP%2813%29_CST_L.1-1715678E_0.pdf</a> 
-  <a href="#footnote-ref-28">&#x2191;</a></p></div><div><sup
-  class="footnote-number" id="footnote-29">29</sup><p> <a
-  href="http://www2.unccd.int/sites/default/files/relevant-links/2017-10/Good%20Practice%20Guidance_SDG%20Indicator%2015.3.1_Version%201.0.pdf">http://www2.unccd.int/sites/default/files/relevant-links/2017-10/Good%20Practice%20Guidance_SDG%20Indicator%2015.3.1_Version%201.0.pdf</a> 
-  <a href="#footnote-ref-29">&#x2191;</a></p></div></div>
-IMPUTATION: >-
-  <h2>Treatment of missing values:</h2>
+  id="footnote-30">29</sup><p> <a
+  href="http://www2.unccd.int/sites/default/files/sessions/documents/2017-09/ICCD_COP%2813%29_CST_L.1-1715678E_0.pdf">http://www2.unccd.int/sites/default/files/sessions/documents/2017-09/ICCD_COP%2813%29_CST_L.1-1715678E_0.pdf</a>
+  <a href="#footnote-ref-30">&#x2191;</a></p></div><div><sup
+  class="footnote-number" id="footnote-31">30</sup><p> <a
+  href="http://www2.unccd.int/sites/default/files/relevant-links/2017-10/Good%20Practice%20Guidance_SDG%20Indicator%2015.3.1_Version%201.0.pdf">http://www2.unccd.int/sites/default/files/relevant-links/2017-10/Good%20Practice%20Guidance_SDG%20Indicator%2015.3.1_Version%201.0.pdf</a>
+  <a href="#footnote-ref-31">&#x2191;</a></p></div></div>
+DATA_VALIDATION: >-
+  <p>Once received, national reports will undergo a review process by the UNCCD
+  and its partners to ensure the correct use of definitions and methodology as
+  well as internal consistency. A comparison can be made with past assessments
+  and other existing data sources. Regular contacts between the main reporting
+  entity and UNCCD secretariat via a help desk system, and through regional,
+  sub-regional, and national workshops, will form part of this review process,
+  enable data adjustments when needed, and contribute to building national
+  capacities. The data will then be aggregated at sub-regional, regional and
+  global levels by the UNCCD and its partners.</p>
 
-  <ul>
-    <li><strong><em>At country level:</em></strong></li>
-  </ul>
+  <p>By leveraging an already established reporting mechanism, this data flows
+  and validation mechanism increases the efficiency with which UNCCD can gather
+  data from countries. In addition, since the definitions and methodologies for
+  reporting on SDG Indicator 15.3.1 are aligned with those adopted by the UNCCD,
+  the reporting burden on countries and the need for harmonization/validation of
+  the indicator values is reduced. Since national data and information to report
+  on SDG Indicator 15.3.1 generally comes from outside the National Statistical
+  Offices (NSOs), prior to submitting the data to the UN Statistical Division
+  (UNSD), the UNCCD consults with the NSOs and requests them to review and
+  validate the data submitted by their country as part of their national report.
+  For those countries that have not submitted a national report, the UNCCD
+  provides the NSOs with national estimates derived from global data sources for
+  review and validation.<sup><a href="#footnote-32"
+  id="footnote-ref-32">[31]</a></sup></p><div class="footnotes"><div><sup
+  class="footnote-number" id="footnote-32">31</sup><p>
+  https://www.unccd.int/sites/default/files/sessions/documents/2018-12/ICCD_CRIC%2817%29_8-1819696E.pdf
+  <a href="#footnote-ref-32">&#x2191;</a></p></div></div>
+ADJUSTMENT: <p>Not applicable.</p>
+IMPUTATION: >-
+  <p><em>At country level</em></p>
 
   <p>For countries where no data or information is available, the UNCCD and its
   partners can provide default estimates from regional or global data sources
   that would then be validated by national authorities.</p>
 
-  <ul>
-    <li><strong><em>At regional and global levels:</em></strong></li>
-  </ul>
+  <p><em>At regional and global levels</em></p>
 
   <p>The land area of countries with missing values (i.e., there is no default
   data) would be excluded from regional and global aggregation.</p>
 REG_AGG: >-
-  <h2>Regional and global aggregates:</h2>
-
   <p>The indicator can be aggregated to the regional and global level by summing
   the spatial extent of land that is degraded over total land area for all
   countries reporting in a specific region or globally.</p>
 DOC_METHOD: >-
-  <h2>Methods and guidance available to countries for the compilation of the
-  data at the national level:</h2>
-
   <p>All data are provided to UNCCD by countries in the form of a national
-  report following a standard reporting template,<sup><a href="#footnote-30"
-  id="footnote-ref-30">[30]</a></sup> which includes the quantitative data for
-  the indicator and sub-indicators as well as a qualitative assessment of
-  indicator trends. The reporting template ensures that countries provide the
-  full reference for original data sources as well as national definitions and
-  methodology.</p>
+  report following a standard reporting template,<sup><sup><a
+  href="#footnote-33" id="footnote-ref-33">[32]</a></sup></sup> which includes
+  the quantitative data for the indicator and sub-indicators as well as a
+  qualitative assessment of indicator trends. The reporting template ensures
+  that countries provide the full reference for original data sources as well as
+  national definitions and methodology.</p>
 
   <p>Detailed guidance on how to prepare the country reports and how to compute
   the indicator and sub-indicators is contained in the UNCCD reporting manual
-  and in the Good Practice Guidance for SDG indicator 15.3.1,<sup><a
-  href="#footnote-31" id="footnote-ref-31">[31]</a></sup> respectively. </p><div
-  class="footnotes"><div><sup class="footnote-number"
-  id="footnote-30">30</sup><p> <a
-  href="http://www2.unccd.int/sites/default/files/relevant-links/2017-12/20171107_Template_Final_EN.pdf">http://www2.unccd.int/sites/default/files/relevant-links/2017-12/20171107_Template_Final_EN.pdf</a> 
-  <a href="#footnote-ref-30">&#x2191;</a></p></div><div><sup
-  class="footnote-number" id="footnote-31">31</sup><p> <a
+  and in the Good Practice Guidance for SDG indicator 15.3.1,<sup><sup><a
+  href="#footnote-34" id="footnote-ref-34">[33]</a></sup></sup> respectively.
+  </p><div class="footnotes"><div><sup class="footnote-number"
+  id="footnote-33">32</sup><p> <a
+  href="http://www2.unccd.int/sites/default/files/relevant-links/2017-12/20171107_Template_Final_EN.pdf">http://www2.unccd.int/sites/default/files/relevant-links/2017-12/20171107_Template_Final_EN.pdf</a>
+  <a href="#footnote-ref-33">&#x2191;</a></p></div><div><sup
+  class="footnote-number" id="footnote-34">33</sup><p> <a
   href="http://www2.unccd.int/sites/default/files/relevant-links/2017-10/Good%20Practice%20Guidance_SDG%20Indicator%2015.3.1_Version%201.0.pdf">http://www2.unccd.int/sites/default/files/relevant-links/2017-10/Good%20Practice%20Guidance_SDG%20Indicator%2015.3.1_Version%201.0.pdf</a>
-  <a href="#footnote-ref-31">&#x2191;</a></p></div></div>
+  <a href="#footnote-ref-34">&#x2191;</a></p></div></div>
+QUALITY_MGMNT: ''
 QUALITY_ASSURE: >-
-  <h2>Quality assurance:</h2>
-
   <p>The UNCCD reporting templates has built-in quality check functionalities
   (e.g., range checks). Once received, national reports will undergo a review
   process by the UNCCD and its partners to ensure data integrity, correctness
   and completeness, the correct use of definitions and methodology as well as
   internal consistency. </p>
 
-  <p>A help-desk system<sup><a href="#footnote-32"
-  id="footnote-ref-32">[32]</a></sup> has been set up as a single point of
+  <p>A help-desk system<sup><sup><a href="#footnote-35"
+  id="footnote-ref-35">[34]</a></sup></sup> has been set up as a single point of
   contact for countries to get answers to questions and gain assistance on
   reporting issues.</p><div class="footnotes"><div><sup class="footnote-number"
-  id="footnote-32">32</sup><p> <a
+  id="footnote-35">34</sup><p> <a
   href="http://support.unccd.int/">http://support.unccd.int/</a> <a
-  href="#footnote-ref-32">&#x2191;</a></p></div></div>
+  href="#footnote-ref-35">&#x2191;</a></p></div></div>
+QUALITY_ASSMNT: ''
 COVERAGE: >-
-  <h1>Data availability</h1>
-
-  <h2>Description:</h2>
+  <p>Data availability:</p>
 
   <p>In many countries, national data for one or more of the sub-indicators are
   available. Regional and global data are available for all three sub-indicators
@@ -667,20 +1110,20 @@ COVERAGE: >-
   capacity building for monitoring and reporting on the indicator when
   necessary.</p>
 
-  <h2>Time series:</h2>
+  <p>Time series:</p>
 
   <p>Annual since the year 2000.</p>
 
-  <h2>Disaggregation:</h2>
+  <p>Disaggregation:</p>
 
   <p>The indicator can be disaggregated by land cover class or other spatially
   explicit land unit.</p>
 COMPARABILITY: >-
-  <h2>Sources of discrepancies:</h2>
+  <p>Sources of discrepancies:</p>
 
   <p>Data reported by the countries themselves will follow a standardized format
-  for UNCCD national reporting<sup><a href="#footnote-33"
-  id="footnote-ref-33">[33]</a></sup> that will include the indicator and
+  for UNCCD national reporting<sup><sup><a href="#footnote-36"
+  id="footnote-ref-36">[35]</a></sup></sup> that will include the indicator and
   sub-indicators as well as their data sources and explanatory notes.
   Differences between global and national figures may arise due to differences
   in spatial resolution of datasets, classification approaches (i.e. definition
@@ -693,9 +1136,7 @@ COMPARABILITY: >-
   analysis of the data, including any assumptions made and the methods used for
   estimating the indicator and sub-indicators.</p><div
   class="footnotes"><div><sup class="footnote-number"
-  id="footnote-33">33</sup><p> <a
-  href="http://www2.unccd.int/sites/default/files/relevant-links/2017-12/20171107_Template_Final_EN.pdf">http://www2.unccd.int/sites/default/files/relevant-links/2017-12/20171107_Template_Final_EN.pdf</a>  
-  <a href="#footnote-ref-33">&#x2191;</a></p></div></div>
-OTHER_DOC: |-
-  <h1>References</h1>
-  <p>All references for this indicator are provided in the footnotes.</p>
+  id="footnote-36">35</sup><p> <a
+  href="http://www2.unccd.int/sites/default/files/relevant-links/2017-12/20171107_Template_Final_EN.pdf">http://www2.unccd.int/sites/default/files/relevant-links/2017-12/20171107_Template_Final_EN.pdf</a>
+  <a href="#footnote-ref-36">&#x2191;</a></p></div></div>
+OTHER_DOC: <p>All references for this indicator are provided in the footnotes</p>
