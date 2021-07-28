@@ -11,6 +11,21 @@ const seriesOptions = seriesDescriptor.options
 const harvestGoals = [
     '1',
     '2',
+    '3',
+    '4',
+    '5',
+    '6',
+    '7',
+    '8',
+    '9',
+    '10',
+    '11',
+    '12',
+    '13',
+    '14',
+    '15',
+    '16',
+    '17',
 ]
 
 let xmlString
@@ -166,7 +181,7 @@ function getIndicatorIdsFromSeries(seriesCode) {
     }
     const series = seriesOptions.find(option => option.key === seriesCode)
     if (!series) {
-        throw new InputError(`WARNING: Series with code "${seriesCode}" could not be found.`)
+        throw `WARNING: Series with code "${seriesCode}" could not be found.`
     }
     else {
         return series.indicatorIds
