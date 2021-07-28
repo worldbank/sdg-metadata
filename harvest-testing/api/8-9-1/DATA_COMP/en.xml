@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<status>success</status>
+	<message>The DATA_COMP field for indicator 8-9-1, translated into en</message>
+	<data>&lt;p&gt;Tourism direct GDP as a proportion of total GDP (in%):&lt;/p&gt;
+&lt;p&gt;&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;
+    &lt;mfenced separators=&quot;|&quot;&gt;
+      &lt;mrow&gt;
+        &lt;mfrac&gt;
+          &lt;mrow&gt;
+            &lt;mi&gt;t&lt;/mi&gt;
+            &lt;mi&gt;d&lt;/mi&gt;
+            &lt;mi&gt;g&lt;/mi&gt;
+            &lt;mi&gt;d&lt;/mi&gt;
+            &lt;mi&gt;p&lt;/mi&gt;
+          &lt;/mrow&gt;
+          &lt;mrow&gt;
+            &lt;mi&gt;g&lt;/mi&gt;
+            &lt;mi&gt;d&lt;/mi&gt;
+            &lt;mi&gt;p&lt;/mi&gt;
+          &lt;/mrow&gt;
+        &lt;/mfrac&gt;
+      &lt;/mrow&gt;
+    &lt;/mfenced&gt;
+    &lt;mi&gt;*&lt;/mi&gt;
+    &lt;mn&gt;100&lt;/mn&gt;
+  &lt;/math&gt;&lt;/p&gt;
+&lt;p&gt;Tourism direct GDP in growth rate&lt;/p&gt;
+&lt;p&gt;((tdgdp &lt;sub&gt;t&lt;/sub&gt; / tdgdp &lt;sub&gt;t-1&lt;/sub&gt;)-1)*100&lt;/p&gt;</data>
+</root>

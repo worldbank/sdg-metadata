@@ -2,9 +2,7 @@
 <root>
 	<status>success</status>
 	<message>The DATA_COMP field for indicator 14-6-1, translated into en</message>
-	<data>&lt;h1&gt;Methodology&lt;/h1&gt;
-&lt;h2&gt;Computation method:&lt;/h2&gt;
-&lt;p&gt;The indicator is based upon responses by States to a certain sections of the questionnaire for monitoring the implementation of the Code of Conduct for Responsible Fisheries and related instruments (CCRF). These are sections covering the implementation of different international instruments used to combat IUU fishing. The responses will be converted using an algorithm to obtain a score for the indicator. Each instrument will be covered within a given variable, as follows:&lt;/p&gt;
+	<data>&lt;p&gt;The indicator is based upon responses by States to a certain sections of the questionnaire for monitoring the implementation of the Code of Conduct for Responsible Fisheries and related instruments (CCRF). These are sections covering the implementation of different international instruments used to combat IUU fishing. The responses will be converted using an algorithm to obtain a score for the indicator. Each instrument will be covered within a given variable, as follows:&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Variable 1&lt;/strong&gt; &lt;strong&gt;(V1)&lt;/strong&gt; - Adherence and implementation of the 1982 United Nations Convention on the Law of the Sea&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Variable 2&lt;/strong&gt; &lt;strong&gt;(V2)&lt;/strong&gt; - Adherence and implementation of the 1995 United Nations Fish Stocks Agreement &lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Variable 3 (V3)&lt;/strong&gt; - Development and implementation of a national plan of action (NPOA) to combat IUU fishing in line with the IPOA-IUU &lt;/p&gt;
@@ -66,10 +64,10 @@
 &lt;p&gt;(*) item on &amp;#x201C;Applicability of instruments&amp;#x201D;&lt;/p&gt;
 &lt;p&gt;For binding agreements, States will still be able to score points if they are not party to the agreement but are implementing its provisions. States will also score points if they have initiated the process to becoming party to an agreement. &lt;/p&gt;
 &lt;p&gt;This indicator is automatically computed within the web-application on which the countries will be responding to the questionnaire. Once the questionnaire is completed the respondent will be presented with a report of the indicator, describing the methodology and the score attained. The user will then be able to give a final confirmation of the indicator. The final scores from all the respondents will automatically be collected onto a database. This web-application will also allow the user to access in any the following languages: English, French, Spanish, Chinese, Arabic and Russian.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;em&gt;Choice of weighting per variable:&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;u&gt;Choice of weighting per variable:&lt;/u&gt;&lt;/p&gt;
 &lt;p&gt;The weightings for each variable have been carefully selected. These have been determined based upon their importance of their role in combatting IUU fishing as well as in consideration of the overlap present in between the different instruments. It is also for this consideration of overlap that the VG-FSP and the Compliance Agreement have been combined into Variable 5.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;em&gt;Applicability of instruments:&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;A set of questions will be present to determine certain characteristics of States (coastal, port, flag and land-locked). This will ensure that the indicator scoring for a country is not negatively affected if an instrument is not applicable to them. In such case, the weighing of the variable that is not applicable is redistributed into the remaining variables. In cases where none of the instruments is applicable, the country will get an indicator score of &amp;#x201C;N/A&amp;#x201D;.&lt;/p&gt;
+&lt;p&gt;&lt;u&gt;Applicability of instruments:&lt;/u&gt;&lt;/p&gt;
+&lt;p&gt;A set of questions will be present to determine certain characteristics of States (coastal, port, flag and land-locked). This will ensure that the indicator scoring for a country is not negatively affected if an instrument is not applicable to them. &lt;u&gt;In such case, the weighing of the variable that is not applicable is redistributed into the remaining variables&lt;/u&gt;. In cases where none of the instruments is applicable, the country will get an indicator score of &amp;#x201C;N/A&amp;#x201D;.&lt;/p&gt;
 &lt;table&gt;
   &lt;tbody&gt;
     &lt;tr&gt;

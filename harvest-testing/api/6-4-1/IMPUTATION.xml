@@ -5,15 +5,10 @@
 	<data>
 		<languages>
 			<language lang="ar"/>
-			<language lang="en">&lt;h2&gt;Treatment of missing values:&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;&lt;em&gt;At country level:&lt;/em&gt;&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;If scattered data (over time) are available, a methodology will be developed with regards to inter- and extrapolation.&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;&lt;em&gt;At regional and global levels:&lt;/em&gt;&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;If country data are missing, the value of the indicator will be considered in the average of the others in the same region.&lt;/p&gt;
+			<language lang="en">&lt;p&gt;&amp;#x2022; At country level&lt;/p&gt;
+&lt;p&gt;If scattered data (over time) are available, linear interpolation method takes place if there are at least two non-missing values in the time series. If not, the only possible way to impute it is through the carry-forward. Imputed data is displayed with an appropriate qualifier. &lt;/p&gt;
+&lt;p&gt;&amp;#x2022; At regional and global levels&lt;/p&gt;
+&lt;p&gt;If country data are missing, the value of the indicator will be considered in the average of the others in the same region. Imputed data is displayed with an appropriate qualifier. &lt;/p&gt;
 			</language>
 			<language lang="es">&lt;h2&gt;Tratamiento de valores faltantes:&lt;/h2&gt;
 &lt;ul&gt;
