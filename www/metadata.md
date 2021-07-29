@@ -17,6 +17,8 @@ The SDG reference metadata are currently available in the languages below. As mo
     <a href="https://hosted.weblate.org/engage/sdg-metadata/{{ language[0] }}/">
       <img src="https://hosted.weblate.org/widgets/sdg-metadata/{{ language[0] }}/svg-badge.svg" alt="Translation status" />
     </a>
+    {% else %}
+    <span class="language-tag">Source Files for Translation</span>
     {% endif %}
   </li>
   {% endif %}
