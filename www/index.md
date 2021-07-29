@@ -14,7 +14,7 @@ The purpose of this project is to translate metadata for Sustainable Development
 
 Translations are prepared through our ongoing partnerships with national statistical offices and regional agencies. UNECE and Rosstat prepared Russian translations. Statistics Canada prepared French translations. ECLAC and IADB prepared Spanish translations. We welcome partners to generate translations into other languages.
 
-The [SDG Data Structure Defintion](https://unstats.un.org/sdgs/iaeg-sdgs/sdmx-working-group/) also can be translated into local languages using our computer-assisted method. These structural metadata are used to convey SDG data into the SDG Data Lab. Translatating the DSD can assist national statistical offices preparing and contributing SDG data. A collaboration with INSEE is exploring French translation.
+We are currently exploring how our method can be used to translate [SDG Data Structure Defintion](https://unstats.un.org/sdgs/iaeg-sdgs/sdmx-working-group/) files into local languages. These structural metadata are used to convey SDG data into the SDG Data Lab. Translatating the DSD can assist national statistical offices preparing and contributing SDG data. A collaboration with UNSD and INSEE is exploring French translation.
 
 * [Reference Metadata]({{ site.baseurl }}/metadata/)
 * [Structural Metadata (DSD)]{{ site.baseurl }}/DSD/)
