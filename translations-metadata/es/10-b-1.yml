@@ -27,11 +27,10 @@ STAT_CONC_DEF: >-
 
   <p>Flujos oficiales y privados, tanto concesionales como no concesionales hacia
   los países en desarrollo. En el caso de los flujos oficiales, la principal distinción
-  es entre la ayuda oficial al desarrollo (AOD) y otros flujos oficiales.</p>
-
-  <p>OFO, mientras que los flujos privados se desglosan en flujos en condiciones de
-  mercado y donaciones benéficas. Los flujos incluyen las contribuciones a los organismos
-  multilaterales de desarrollo, que son a su vez organismos oficiales. Véase <a href="http://www.oecd.org/dac/stats/officialdevelopmentassistancedefinitionandcoverage.htm">http://www.oecd.org/dac/stats/officialdevelopmentassistancedefinitionandcoverage.htm</a>.</p>
+  es entre la ayuda oficial al desarrollo (AOD) y otros flujos oficiales (OFO), mientras
+  que los flujos privados se desglosan en flujos en condiciones de mercado y donaciones
+  benéficas. Los flujos incluyen las contribuciones a los organismos multilaterales
+  de desarrollo, que son a su vez organismos oficiales. Véase <a href="http://www.oecd.org/dac/stats/officialdevelopmentassistancedefinitionandcoverage.htm">http://www.oecd.org/dac/stats/officialdevelopmentassistancedefinitionandcoverage.htm</a></p>
 SOURCE_TYPE: >-
   <h1>Fuentes de datos</h1>
 
@@ -61,7 +60,7 @@ FREQ_COLL: >-
   <p> Los datos se publican anualmente en diciembre para los flujos del año anterior.
   Los flujos detallados de 2015 se publicarán en diciembre de 2016. </p>
 REL_CAL_POLICY: |-
-  <p><h2>Publicación de datos:</h2></p>
+  <p><strong>Publicación de datos:</strong></p>
   <p>Diciembre de 2016</p>
 DATA_SOURCE: >-
   <h1> Proveedores de datos</h1>
@@ -70,7 +69,7 @@ DATA_SOURCE: >-
 
   <p> Los datos son reportados anualmente por informantes estadísticos en administraciones
   nacionales (agencias de ayuda, Ministerios de Relaciones Exteriores o Finanzas,
-  etc.</p>
+  etc.).</p>
 COMPILING_ORG: |-
   <h1>Compiladores de datos</h1>
   <h2>Nombre:</h2>
@@ -95,11 +94,11 @@ IMPUTATION: |-
   <ul>
     <li> <strong> <em> A nivel de país:</em></strong></li>
   </ul>
-  <p> Ninguno - no se hacen estimaciones para los valores que faltan</p>
+  <p> Ninguno - no se hacen estimaciones para los valores que faltan.</p>
   <ul>
     <li> <strong> <em> A nivel regional y mundial:</em></strong></li>
   </ul>
-  <p> No aplicable</p>
+  <p> No aplicable.</p>
 REG_AGG: >-
   <h2> Agregados regionales:</h2>
 
@@ -121,7 +120,7 @@ COVERAGE: >-
 COMPARABILITY: >-
   <h2> Fuentes de discrepancias:</h2>
 
-  <p> Las estadísticas del Comité de Asistencia para el Desarrollo (DAC) se normalizan
+  <p> Las estadísticas del Comité de Asistencia para el Desarrollo (CAD) se normalizan
   por año calendario para todos los donantes y pueden diferir de los datos disponibles
   por año fiscal en los documentos presupuestarios para algunos países. </p>
 OTHER_DOC: >-
