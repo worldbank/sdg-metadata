@@ -14,3 +14,186 @@ SDG_CUSTODIAN_AGENCIES: "<h1> Información institucional </h1>\n<h2> Organizaci�
   \ </p>"
 SDG_RELATED_INDICATORS: "<h1>Indicadores relacionados a febrero de 2020</h1>\n<p>Meta\
   \ 5.2 y Objetivo 11: Tasa de desempleo, por sexo, edad y personas con discapacidad</p>"
+OTHER_DOC: "<h1>Referencias</h1>\n<h2>URL:</h2>\n<p><a href=\"www.unodc.org\">www.unodc.org</a></p>\n\
+  <h2>Referencias:</h2>\n<p>Base de datos de homicidios de la ONUDD (<a href=\"https://data.unodc.org/\"\
+  >https://data.unodc.org/</a>), ONUDD, Estudio mundial sobre el homicidio 2013; OMS-PNUD-ONUDD,\
+  \ Informe sobre la situación mundial de la prevención de la violencia 2014); ONUDD,\
+  \ Clasificación Internacional de los Delitos con Fines Estadísticos - ICCS, 2015</p>"
+COMPARABILITY: "<h2>Fuentes de discrepancia: </h2>\n<p>Pueden existir discrepancias\
+  \ entre los recuentos de homicidios dolosos producidos por los países y los comunicados\
+  \ internacionalmente, ya que los datos nacionales pueden referirse a la definición\
+  \ nacional de homicidio doloso, mientras que los datos comunicados por la UNODC\
+  \ pretenden ajustarse a la definición proporcionada por la ICCS (aprobada en 2015\
+  \ por los Estados miembros en la Comisión de Estadística de las Naciones Unidas\
+  \ y la Comisión de Prevención del Delito y Justicia Penal de las Naciones Unidas).\
+  \ La ONUDD se esfuerza especialmente por contabilizar todos los asesinatos que se\
+  \ ajustan a la definición de homicidio doloso de la ICCS, mientras que los datos\
+  \ nacionales pueden seguir recopilándose de acuerdo con los sistemas jurídicos nacionales\
+  \ y no con la clasificación estadística. La aplicación gradual de la ICCS por parte\
+  \ de los países debería mejorar la calidad y la coherencia de los datos nacionales\
+  \ e internacionales.</p>\n<p>Las tasas de homicidio intencional también pueden diferir\
+  \ debido al uso de diferentes cifras de población.</p>"
+COVERAGE: "<h1>Disponibilidad de datos</h1>\n<h2>Descripción:</h2>\n<p>Teniendo en\
+  \ cuenta los datos recogidos tanto por la ONUDD como por la OMS, se dispone de datos\
+  \ nacionales sobre homicidios para 174 países (al menos una observación entre 2009-2013).\
+  \ Se dispone de datos de series temporales sobre homicidios adecuados para el seguimiento\
+  \ para 141 países (al menos 3 observaciones, el más reciente entre 2011-2013).</p>\n\
+  <h2><strong>Series de tiempo</strong>:</h2>\n<p>2010-2014</p>\n<h2>Desagregación:</h2>\n\
+  <p>La desagregación recomendada para este indicador es:</p>\n<ul>\n  <li>sexo y\
+  \ edad de la víctima y del autor (presunto delincuente)</li>\n  <li>relación entre\
+  \ la víctima y el agresor (pareja, otro miembro de la familia, conocido, etc.)</li>\n\
+  \  <li>medio de perpetración (arma de fuego, objeto contundente, etc.)</li>\n  <li>contexto\
+  \ situacional/motivación (crimen organizado, violencia de pareja, etc.)</li>\n</ul>"
+REG_AGG: "<h2>Agregados regionales:</h2>\n<p>Las estimaciones globales y regionales\
+  \ se calculan como medias ponderadas de los datos nacionales, con ponderaciones\
+  \ proporcionadas por la población nacional resident.e</p>"
+IMPUTATION: "<h2>Tratamiento de valores faltantes:</h2>\n<ul>\n  <li><strong><em>A\
+  \ nivel de país:</em></strong></li>\n</ul>\n<p>La OMS elabora estimaciones para\
+  \ los países en los que no se dispone de datos nacionales sobre homicidios ni de\
+  \ la justicia penal ni de la sanidad pública/registro civil. Estas estimaciones\
+  \ se utilizan al compilar el conjunto de datos mundial y producen estimaciones de\
+  \ los valores que faltan (para obtener información sobre la metodología, véase OMS-PNUD-ONUDD,\
+  \ Informe sobre la situación mundial de la prevención de la violencia 2014).</p>\n\
+  <ul>\n  <li><strong><em>A nivel regional y mundial:</em></strong></li>\n</ul>\n\
+  <p>La OMS elabora estimaciones para los países en los que no se dispone de datos\
+  \ nacionales sobre homicidios ni de la justicia penal ni de la salud pública/registro\
+  \ civil. Estas estimaciones se utilizan al compilar el conjunto de datos mundial\
+  \ y producen estimaciones de los valores que faltan (para obtener información sobre\
+  \ la metodología, véase OMS-PNUD-ONUDD, Informe sobre la situación mundial de la\
+  \ prevención de la violencia 2014).</p>\n<p>La ONUDD y la OMS están colaborando\
+  \ en la elaboración de un enfoque común para producir series conjuntas de datos\
+  \ sobre homicidios de la ONUDD y la OMS a nivel nacional, regional y mundial.</p>"
+DATA_COMP: "<h1>Metodología</h1>\n<h2>Método de cálculo:</h2>\n<p>El indicador se\
+  \ calcula como el número total de víctimas de homicidio intencional registradas\
+  \ en un año determinado, dividido por la población total residente en el mismo año,\
+  \ multiplicado por 100.000.</p> \n<p>En varios países se producen dos conjuntos\
+  \ de datos separados sobre el homicidio intencional, respectivamente, a partir de\
+  \ la justicia penal y la salud pública/el registro civil. Cuando existen, se reportan\
+  \ las cifras de ambas fuentes de datos. Los datos de población proceden de las estimaciones\
+  \ anuales elaboradas por la División de Población de las Naciones Unidas.</p>"
+REC_USE_LIM: "<h2>Comentarios y limitaciones:</h2>\n<p>La ICCS ofrece importantes\
+  \ aclaraciones sobre la definición de homicidio doloso. En particular, establece\
+  \ que los siguientes asesinatos se incluyen en el cómputo de homicidio:</p>\n<ul>\n\
+  \  <li>Asesinato</li>\n  <li>Asesinato por honor</li>\n  <li>Agresión grave con\
+  \ resultado de muerte</li>\n  <li>Muerte como resultado de actividades terroristas</li>\n\
+  \  <li>Homicidios relacionados con la dote</li>\n  <li>Feminicidio</li>\n  <li>Infanticidio</li>\n\
+  \  <li>Homicidio voluntario </li> \n  <li>Ejecuciones extrajudiciales </li> \n \
+  \ <li>Homicidios provocados por el uso excesivo de la fuerza por parte de agentes\
+  \ del orden o funcionarios estatales </li> \n</ul>\n<p>Además, la ICCS proporciona\
+  \ indicaciones sobre cómo distinguir entre homicidios intencionados, asesinatos\
+  \ directamente relacionados con la guerra/conflicto y otros asesinatos que equivalen\
+  \ a crímenes de guerra.</p>\n<p>El hecho de que los datos sobre homicidios sean\
+  \ producidos normalmente por dos fuentes separadas e independientes a nivel nacional\
+  \ (justicia penal y salud pública) representa una ventaja específica de este indicador,\
+  \ ya que la comparación de las dos fuentes es una herramienta para evaluar la exactitud\
+  \ de los datos nacionales. Por lo general, en los países en los que existen datos\
+  \ de ambas fuentes, se registra un buen nivel de coincidencia entre ellas (véase\
+  \ el Estudio Mundial sobre el Homicidio de la UNODC, 2013).</p>\n<p>Los datos sobre\
+  \ homicidios elaborados por las autoridades de salud pública se guían por la Clasificación\
+  \ Internacional de Enfermedades (CIE-10), que ofrece una definición de &#x2018;Muerte\
+  \ por agresión&#x2019; que se aproxima mucho a la definición de homicidio intencional\
+  \ de la ICCS.</p>"
+RATIONALE: "<h2>Justificación:</h2>\n<p>Este indicador se utiliza ampliamente a nivel\
+  \ nacional e internacional para medir la forma más extrema de delincuencia violenta\
+  \ y también proporciona una indicación directa de la falta de seguridad. La seguridad\
+  \ frente a la violencia es un requisito previo para que los individuos disfruten\
+  \ de una vida segura y activa y para que las sociedades y las economías se desarrollen\
+  \ libremente. Los homicidios intencionales ocurren en todos los países del mundo\
+  \ y este indicador tiene una aplicabilidad global.</p>\n<p>El seguimiento de los\
+  \ homicidios dolosos es necesario para evaluar mejor sus causas, impulsores y consecuencias\
+  \ y, a largo plazo, para desarrollar medidas preventivas eficaces. Si los datos\
+  \ se desglosan adecuadamente (como se sugiere en el ICCS), el indicador puede identificar\
+  \ los diferentes tipos de violencia asociados al homicidio: interpersonal (incluida\
+  \ la violencia relacionada con la pareja y la familia), delictiva (incluida la delincuencia\
+  \ organizada y otras formas de actividades delictivas) y sociopolítica (incluidos\
+  \ el terrorismo y los delitos de odio).</p>"
+COMPILING_ORG: "<h1>Compiladores de datos</h1>\n<h2>Nombre:</h2>\n<p>Oficina de las\
+  \ Naciones Unidas contra la Droga y el Delito (UNODC),OMS</p>\n<h2>Descripción:</h2>\n\
+  <p>A nivel internacional, la Oficina de las Naciones Unidas contra la Droga y el\
+  \ Delito (ONUDD) recopila y difunde rutinariamente datos sobre homicidios intencionales\
+  \ a través de la recopilación anual de datos de la Encuesta de tendencias de las\
+  \ Naciones Unidas sobre la delincuencia(CTS). La ONUDD se asocia con organizaciones\
+  \ regionales en la recopilación y difusión de datos sobre homicidios, respectivamente\
+  \ con Eurostat en Europa y con la Organización de los Estados Americanos en las\
+  \ Américas. La OMS recopila datos sobre homicidios dolosos en el marco de la recopilación\
+  \ periódica de datos sobre las causas de muerte. En este contexto, los datos sobre\
+  \ muertes por agresión se consideran homicidios dolosos. </p>"
+DATA_SOURCE: "<h1>Proveedores de datos</h1>\n<h2>Nombre:</h2>\n<p>Los datos sobre\
+  \ homicidios dolosos son enviados a la ONUDD por los Estados miembros, normalmente\
+  \ a través de los puntos focales nacionales del UN-CTS que, en la mayoría de los\
+  \ casos, son instituciones nacionales responsables de la producción de datos en\
+  \ el ámbito de la delincuencia y la justicia penal (Oficinas Nacionales de Estadística,\
+  \ Ministerio del Interior, Ministerio de Justicia, etc.). La fuente principal sobre\
+  \ el homicidio doloso suele ser una institución del sistema de justicia penal (Policía,\
+  \ Ministerio del Interior, Fiscalía General, etc.). Los datos producidos por el\
+  \ sistema de salud pública/registro civil se envían a la OMS a través de las autoridades\
+  \ sanitarias nacionales.</p>\n<h2>Descripción:</h2>\n<p> Los datos sobre homicidios\
+  \ dolosos son enviados a la ONUDD por los Estados miembros, normalmente a través\
+  \ de los puntos focales nacionales del UN-CTS que, en la mayoría de los casos, son\
+  \ instituciones nacionales responsables de la producción de datos en el ámbito de\
+  \ la delincuencia y la justicia penal (Oficinas Nacionales de Estadística, Ministerio\
+  \ del Interior, Ministerio de Justicia, etc.). La fuente principal sobre el homicidio\
+  \ doloso suele ser una institución del sistema de justicia penal (Policía, Ministerio\
+  \ del Interior, Fiscalía General, etc.). Los datos producidos por el sistema de\
+  \ salud pública/registro civil se envían a la OMS a través de las autoridades sanitarias\
+  \ nacionales.</p>"
+REL_CAL_POLICY: "<h2> Publicación de datos: </h2>\n<p> Segundo trimestre de 2017 (datos\
+  \ de 2015) </p>"
+FREQ_COLL: "<h1>Calendario</h1>\n<h2>Recopilación de datos:</h2>\n<p>III-IV trimestre\
+  \ de 2016 </p>"
+SOURCE_TYPE: "<h1>Fuentes de datos</h1>\n<h2>Descripción:</h2>\n<p>Existen dos fuentes\
+  \ distintas a nivel de país: a) sistema de justicia penal; b) salud pública/registro\
+  \ civil. La ONUDD recoge y publica los datos de los sistemas de justicia penal a\
+  \ través de su recopilación de datos anual de larga duración por mandato de la Asamblea\
+  \ General de las Naciones Unidas (Estudio de Tendencias Delictivas de las Naciones\
+  \ Unidas, UN-CTS, por sus siglas en inglés); la OMS recoge y publica los datos producidos\
+  \ por la salud pública/el registro civil. La recopilación de datos a través del\
+  \ UN-CTS es facilitada por una red de más de 130 puntos focales nacionales designados\
+  \ por las autoridades responsables.</p>\n<p>Actualmente, cuando no se dispone de\
+  \ datos nacionales sobre homicidios de ninguno de los dos tipos de fuentes mencionados,\
+  \ se utilizan las estimaciones producidas por la OMS.</p>\n<p>La ONUDD y la OMS\
+  \ están colaborando en el desarrollo de un enfoque común para producir series de\
+  \ datos conjuntas de la ONUDD y la OMS sobre homicidios a nivel nacional, regional\
+  \ y mundial.</p>"
+STAT_CONC_DEF: "<h1>Conceptos y definiciones</h1>\n<p><strong>Definición:</strong></p>\n\
+  <p>El indicador se define como el recuento total de víctimas de homicidio doloso\
+  \ dividido por la población total, expresado por cada 100.000 habitantes.</p>\n\
+  <p>El homicidio intencional se define como la muerte ilegal infligida a una persona\
+  \ con la intención de causar la muerte o lesiones graves (Fuente: Clasificación\
+  \ Internacional del Delito con Fines Estadísticos, ICCS 2015); la población se refiere\
+  \ a la población total residente en un país determinado en un año determinado.</p>\n\
+  <h2>Conceptos:</h2>\n<p>En la ICCS el homicidio intencional se define como la &#x2018;&#x2018;Muerte\
+  \ ilegal infligida a una persona con la intención de causar la muerte o lesiones\
+  \ graves&#x201D;. Esta definición contiene tres elementos que caracterizan el asesinato\
+  \ de una persona como homicidio intencional:</p>\n<ol>\n  <li>El asesinato de una\
+  \ persona por otra persona (elemento objetivo);</li>\n  <li>La intención del autor\
+  \ de matar o herir gravemente a la víctima (elemento subjetivo);</li>\n  <li>La\
+  \ ilicitud del asesinato, lo que significa que la ley considera que el autor es\
+  \ responsable de la muerte ilícita (elemento legal).</li>\n</ol>\n<p> Esta definición\
+  \ establece que, a efectos estadísticos, todos los asesinatos que se ajusten a los\
+  \ tres criterios anteriores deben considerarse homicidios dolosos, con independencia\
+  \ de las definiciones previstas en las legislaciones o prácticas nacionales.</p>"
+COLL_METHOD: "<p><strong>Proceso de recolección:</strong></p>\n<p>A nivel internacional,\
+  \ la ONUDD recoge de forma rutinaria datos sobre homicidios dolosos a través de\
+  \ la recopilación anual de datos del UN-CTS. A petición de la Comisión de las Naciones\
+  \ Unidas sobre Prevención del Delito y Justicia Penal, más de 130 Estados miembros\
+  \ ya han designado un punto focal nacional del UN-CTS que entrega los datos a la\
+  \ ONUDD. En la mayoría de los casos, estos puntos focales son instituciones nacionales\
+  \ responsables de la producción de datos en el ámbito de la delincuencia y la justicia\
+  \ penal (Oficinas Nacionales de Estadística, Ministerio del Interior, Ministerio\
+  \ de Justicia, etc.). Para los países que no han designado un punto focal, la solicitud\
+  \ de datos se envía a las misiones permanentes en Viena. Cuando un país no informa\
+  \ a la ONUDD, se utilizan otras fuentes oficiales como sitios web autorizados, publicaciones\
+  \ u otras formas de comunicación. Actualmente se utilizan las estimaciones de homicidios\
+  \ de la OMS cuando no se dispone de ninguna otra fuente sobre homicidios. Una vez\
+  \ consolidados, los datos se comparten con los países para comprobar su exactitud.</p>\n\
+  <p>Cuando los datos y los metadatos relacionados están disponibles, se hacen algunos\
+  \ ajustes a los datos para asegurar el cumplimiento de la definición de homicidio\
+  \ intencional según la ICCS. Los datos nacionales sobre los tipos de asesinatos\
+  \ que son considerados como homicidio intencional por la ICCS, aunque se clasifican\
+  \ bajo un delito diferente a nivel de país, se añaden a las cifras nacionales de\
+  \ homicidio intencional. Esto sólo puede hacerse cuando se dispone de datos detallados\
+  \ sobre esos tipos de asesinatos (por ejemplo, agresiones graves con resultado de\
+  \ muerte, asesinatos por honor, etc.).</p>\n<p>En cuanto a la política de difusión\
+  \ de datos de la ONUDD, los datos para el seguimiento de los ODS se enviarán a los\
+  \ países para su consulta antes de su publicación.</p>"
