@@ -2,5 +2,13 @@
 <root>
 	<status>success</status>
 	<message>The IMPUTATION field for indicator 7-1-1, translated into es</message>
-	<data/>
+	<data>&lt;h2&gt;Tratamiento de valores faltants:&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;em&gt;A nivel de país:&lt;/em&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Dada la baja frecuencia y la distribución regional de algunas encuestas, muchos países tienen brechas en la disponibilidad de datos. Para completar las observaciones que faltan se adoptó un enfoque de modelización simple para desarrollar la evolución histórica y el punto de partida de las tasas de electrificación. La estimación se realiza mediante un modelo con variables de región, país y tiempo. El modelo mantiene la observación original si los datos están disponibles. El modelo estadístico se utiliza para completar los datos solo en los años en los que faltan y para ayudar a realizar análisis globales y regionales. A falta de datos de la encuesta para un año determinado, se toma prestada la información de las tendencias regionales. Los valores estimados están claramente identificados (&amp;#x201C;Estimación&amp;#x201D;) en la base de datos.&amp;#xA0;&amp;#xA0;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;A nivel regional y mundial:&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Los valores para los niveles regional y global se calculan incorporando todos los datos de la encuesta junto con los valores estimados por el modelo sustituyendo los valores que faltan. Las clasificaciones regionales y globales se basan en la serie M49 de las Naciones Unidas para uso estadístico.&lt;/p&gt;</data>
 </root>
