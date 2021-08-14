@@ -63,7 +63,7 @@ DOC_METHOD: "<h2>Métodos y directrices a disposición de los países para la co
   \ con los países como parte del ciclo anual de cuestionarios. </p>"
 DATA_COMP: "<h1>Metodología</h1>\n<h2>Método de cálculo:</h2>\n<p>Para cada país y\
   \ año, la capacidad de generación de electricidad renovable al final del año se\
-  \ divide por la población total del país a mediados de año (1 de julio).</p>"
+  \ divide por la población total del país a mediados de año (1ro de julio).</p>"
 REC_USE_LIM: "<h2>Comentarios y limitaciones:</h2>\n<p>En la actualidad, la electricidad\
   \ solo representa una cuarta parte del uso total de energía en el mundo y una parte\
   \ aún menor del uso de energía en la mayoría de los países en desarrollo. El hecho\
@@ -149,3 +149,71 @@ STAT_CONC_DEF: "<h1>Conceptos y definiciones</h1>\n<h2>Definición:</h2>\n<p>El 
   \ y energía geotérmica.</p>"
 SDG_CUSTODIAN_AGENCIES: "<h1>Información institucional</h1>\n<h2>Organizaciones:</h2>\n\
   <p>Agencia Internacional de Energías Renovables (IRENA)</p>"
+REG_AGG: "<h2>Agregados regionales:</h2>\n<p>Los totales regionales y mundiales se\
+  \ calculan sumando la capacidad de generación renovable de una región o del mundo\
+  \ y dividiéndola por la cifra correspondiente a la población total. El indicador\
+  \ se refiere únicamente a los países en desarrollo, por lo que estos agregados regionales\
+  \ (promedios) también reflejan únicamente la media de los países en desarrollo de\
+  \ cada región.</p>\n<p>En este cálculo se excluye la población de aquellos países\
+  \ y/o territorios en los que faltan datos sobre capacidad. Por ello, los valores\
+  \ de población regional y mundial utilizados en el cálculo pueden diferir de los\
+  \ indicados en las Perspectivas de la Población Mundial de la ONU.</p>"
+IMPUTATION: "<h2>Tratamiento de valores faltantes:</h2>\n<ul>\n  <li><strong><em>A\
+  \ nivel de país:</em></strong></li>\n</ul>\n<p>A nivel de país, a veces faltan datos\
+  \ sobre la capacidad eléctrica por dos razones:</p>\n<p>1. Retrasos en las respuestas\
+  \ a los cuestionarios de IRENA o en la publicación de los datos oficiales. En estos\
+  \ casos, se realizan estimaciones para poder calcular los totales globales y regionales.\
+  \ El tratamiento más básico es repetir el valor de la capacidad del año anterior.\
+  \ Sin embargo, IRENA también comprueba las fuentes de datos no oficiales y recoge\
+  \ datos sobre proyectos de inversión (véase el indicador 7.a.1). Estas otras fuentes\
+  \ pueden utilizarse para identificar si se han puesto en marcha nuevas centrales\
+  \ eléctricas en un año y se utilizan, cuando están disponibles, para actualizar\
+  \ el valor de la capacidad al final de un año. Estas estimaciones se sustituyen\
+  \ finalmente por los datos oficiales o del cuestionario cuando están disponibles.</p>\n\
+  <p>2. Los datos de la capacidad sin conexión a la red suelen faltar en las estadísticas\
+  \ nacionales de energía o se presentan en unidades no estándar (por ejemplo, el\
+  \ número de minicentrales hidroeléctricas en un país en lugar de su capacidad en\
+  \ MW). Cuando no se dispone de datos oficiales, IRENA recoge las cifras de la capacidad\
+  \ fuera de la red de una amplia variedad de fuentes oficiales y no oficiales de\
+  \ los países (por ejemplo, agencias de desarrollo, departamentos gubernamentales,\
+  \ ONG, promotores de proyectos y asociaciones industriales) y esta información se\
+  \ añade a la base de datos de capacidad para ofrecer una imagen más completa de\
+  \ la evolución del sector de las energías renovables en un país. Estos datos se\
+  \ revisan cada año a través de una amplia red de corresponsales nacionales (la Red\
+  \ REN21) y se comprueban con los puntos focales de IRENA en los países cuando asisten\
+  \ a las reuniones y talleres de formación de IRENA.</p>\n<p>Cuando faltan datos\
+  \ sobre la capacidad, sobre todo en territorios no estatales, éstos se excluyen\
+  \ del conjunto de datos. </p>\n<ul>\n  <li><strong><em>A nivel regional y mundial:</em></strong></li>\n\
+  </ul>\n<p>Véase más arriba. Las medias regionales y mundiales sólo se estiman en\
+  \ la medida en que las cifras de algunos países pueden ser estimadas en cada año.\
+  \ (Véase también la disponibilidad de datos más abajo). </p>"
+DATA_SOURCE: "<h1>Proveedores de datos</h1>\n<h2>Capacidad de generación de energía\
+  \ renovable:</h2>\n<p>Oficinas Nacionales de Estadística y Agencias Nacionales de\
+  \ Energía de los Ministerios (la autoridad para recoger estos datos varía según\
+  \ los países). Los datos para las estimaciones preliminares también pueden recogerse\
+  \ de las asociaciones industriales, de las empresas nacionales de servicios públicos\
+  \ o de los operadores de redes.</p>\n<h2>Población:</h2>\n<p>División de Población\
+  \ de las Naciones Unidas. Perspectivas de la Población Mundial</p>"
+COLL_METHOD: "<h2>Proceso de recolección:</h2>\n<p>Los datos sobre la capacidad se\
+  \ recogen como parte del ciclo de cuestionarios anuales de IRENA. Los cuestionarios\
+  \ se envían a los países a principios de cada año y en ellos se solicitan los datos\
+  \ sobre energías renovables de los dos años anteriores (es decir, a principios de\
+  \ 2019, los cuestionarios piden datos del año 2017). A continuación, los datos se\
+  \ validan y comprueban con los países y se publican en el Anuario de Estadísticas\
+  \ de Energías Renovables de IRENA a finales de junio. Para minimizar la carga de\
+  \ información, los cuestionarios de algunos países se completan previamente con\
+  \ datos recogidos por otros organismos (por ejemplo, Eurostat) y se envían a los\
+  \ países para que completen cualquier detalle adicional solicitado por IRENA.</p>\n\
+  <p>Al mismo tiempo, también se recopilan estimaciones preliminares de la capacidad\
+  \ del año anterior a partir de fuentes oficiales cuando están disponibles (por ejemplo,\
+  \ estadísticas nacionales, datos de los operadores de la red eléctrica) y de otras\
+  \ fuentes no oficiales (principalmente asociaciones industriales de los distintos\
+  \ sectores de las energías renovables). Estos datos se publican a finales de marzo.\
+  \ </p>\n<h2>Datos de población:</h2>\n<p>Para la parte de población de este indicador,\
+  \ los datos de población de IRENA proceden de las Proyecciones de Población Mundial\
+  \ de las Naciones Unidas. Los datos de población reflejan los residentes en un país\
+  \ o zona, independientemente del estatus legal o la ciudadanía. Los valores son\
+  \ estimaciones de mitad de año.</p>\n<p>El Departamento de Asuntos Económicos y\
+  \ Sociales de las Naciones Unidas publicó información sobre su metodología en el\
+  \ siguiente enlace:</p>\n<p><a href=\"https://population.un.org/wpp/Methodology/\"\
+  >https://population.un.org/wpp/Methodology/</a></p>"
