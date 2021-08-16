@@ -32,7 +32,33 @@
 &lt;p&gt;Where the relevant data are not available at all for a country, estimates may be based on another variable which is clearly linked to the item being estimated. For example, enrolments by age may be based on total enrolments.&lt;/p&gt;
 &lt;p&gt;Where no data are available for the country in any year that can inform the estimate, the unweighted average for the region in which the country lies is used.&lt;/p&gt;
 			</language>
-			<language lang="es"/>
+			<language lang="es">&lt;h2&gt;&lt;strong&gt;&lt;strong&gt;Tratamiento de valores faltantes:&lt;/strong&gt;&lt;/strong&gt;&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;em&gt;A nivel de país:&lt;/em&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;El IEU estima ciertos elementos clave de los datos que pueden faltar o estar incompletos para tener estimaciones publicables a nivel de país. Cuando esto no es posible, el IEU imputa los valores que faltan para utilizarlos únicamente en el cálculo de los agregados regionales y globales.&lt;/p&gt;
+&lt;p&gt;Para calcular las tasas de participación por edad, el IEU puede realizar una o varias de las siguientes operaciones:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Un ajuste para tener en cuenta el exceso o la falta de información, por ejemplo:&lt;/li&gt;
+  &lt;li&gt;Para incluir las matrículas en un tipo de educación &amp;#x2013; como la educación privada o la educación especial &amp;#x2013; no reportada por el país; y/o &lt;/li&gt;
+  &lt;li&gt;Para incluir las matrículas en una parte del país no informada por el país&lt;/li&gt;
+  &lt;li&gt;Una estimación del número de matriculados en el grupo de edad dado si la distribución por edades no fue reportada por el país&lt;/li&gt;
+  &lt;li&gt;Una redistribución de las inscripciones de edad desconocida (entre las edades conocidas)&lt;/li&gt;
+  &lt;li&gt;Una estimación de la población en el grupo de edad oficial para los países pequeños (si ni la División de Población de las Naciones Unidas ni el propio país pueden proporcionar estimaciones propias).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;En todos los casos, las estimaciones se basan en pruebas del propio país (por ejemplo, información del proveedor de datos sobre el tamaño del componente que falta, a través de correspondencia, publicaciones o datos en la página web del Ministerio o de la Oficina Nacional de Estadística o a través de encuestas realizadas por otras organizaciones) o en datos del país correspondientes a un año anterior. Estas cifras pueden publicarse (i) como datos observados si los elementos que faltan se encuentran en una fuente nacional; (ii) como estimaciones nacionales si se convence al país de que produzca estimaciones y las presente en lugar de los datos que faltan; o (iii) como estimaciones del IEU, si las estimaciones son realizadas por el IEU.&lt;/p&gt;
+&lt;p&gt;La distribución por edades de las inscripciones se estima normalmente a partir de la distribución por edades comunicada en un año anterior. Si el país nunca ha reportado la distribución por edad de las matrículas, se utiliza la distribución por edad reportada en otra encuesta, si está disponible (como las Encuestas de Indicadores Múltiples por Conglomerados (MICS) o las Encuestas Demográficas y de Salud (EDS)).&lt;/p&gt;
+&lt;p&gt;Las matrículas de edad desconocida se redistribuyen entre las edades conocidas si constituyen más del 5% del total de las matrículas en ese nivel educativo. No se realiza ninguna estimación si son un 5% o menos.&lt;/p&gt;
+&lt;p&gt;Las estimaciones de población por edad para países con poca población &amp;#x2013; producidas sólo cuando no se dispone de otras estimaciones adecuadas de la DPNU o del propio país &amp;#x2013; se realizan sólo para los países que han comunicado datos de educación al IEU y para los que se dispone de estimaciones de población de una fuente fiable en algunos años.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;em&gt;A nivel regional y mundial:&lt;/em&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Los agregados regionales y globales se obtienen de los datos nacionales publicables e imputados. Los datos publicables son los datos enviados al IEU por los Estados miembros o el resultado de una estimación explícita realizada por el Instituto basada en normas predeterminadas. En ambos casos, estos datos se envían a los Estados miembros para que los revisen antes de que el IEU los considere publicables. &lt;/p&gt;
+&lt;p&gt;Cuando no se dispone de datos para todos los países, el IEU imputa los datos nacionales con el único fin de calcular las medias regionales. Estos datos imputados no se publican ni se difunden de otro modo.&lt;/p&gt;
+&lt;p&gt;Cuando se dispone de datos de un país para un año anterior y otro más reciente que el año que falta, se realiza una interpolación lineal simple. Cuando sólo se dispone de datos para un año anterior, se utiliza el valor más reciente como estimación. Del mismo modo, cuando sólo se dispone de datos para un año más reciente, se utiliza el último valor como estimación.&lt;/p&gt;
+&lt;p&gt;Cuando no se dispone de ningún dato relevante para un país, las estimaciones pueden basarse en otra variable que esté claramente relacionada con el elemento que se está estimando. Por ejemplo, las matrículas por edad pueden basarse en las matrículas totales.&lt;/p&gt;
+&lt;p&gt;Cuando no se dispone de datos para el país en ningún año que puedan informar la estimación, se utiliza la media no ponderada de la región en la que se encuentra el país.&lt;/p&gt;
+			</language>
 			<language lang="fr">&lt;h2&gt;&lt;strong&gt;&lt;strong&gt;Traitement des valeurs manquantes : &lt;/strong&gt;&lt;/strong&gt;&lt;/h2&gt;
 &lt;ul&gt;
   &lt;li&gt;&lt;strong&gt;&lt;em&gt; Au niveau national : &lt;/em&gt;&lt;/strong&gt;&lt;/li&gt;
