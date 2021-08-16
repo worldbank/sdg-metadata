@@ -11,3 +11,103 @@ SDG_INDICATOR: "<p>Indicador 4.1.1: Proporción de niños, niñas y adolescentes
   \ de competencia en i) lectura y ii) matemáticas, desglosada por sexo</p>"
 DOC_METHOD: "<h2>Métodos y directrices a disposición de los países para la compilación\
   \ de los datos a nivel nacional:</h2>\n<p>Información no disponible.</p>"
+COMPARABILITY: "<h2>Fuentes de discrepancia:</h2>\n<p>Todavía no se aplica. Los datos\
+  \ sólo se comunican a nivel nacional.</p>"
+COVERAGE: "<h1>Disponibilidad de datos</h1>\n<h2>Series temporales:</h2>\n<p>Datos\
+  \ disponibles desde el año 2000. El indicador se comunicará anualmente.</p>\n<h2>Desagregación:</h2>\n\
+  <p>El indicador se publica desglosado por sexo. Otros desgloses, como la ubicación,\
+  \ la situación socioeconómica, la condición de inmigrante, el origen étnico y el\
+  \ idioma de la prueba en el hogar, se basan en los datos producidos por las organizaciones\
+  \ internacionales que administran la evaluación del aprendizaje cruzado, detallados\
+  \ en el documento de <a href=\"http://tcg.uis.unesco.org/wp-content/uploads/sites/4/2020/08/metadata-4.1.1.pdf\"\
+  >metadatos ampliados</a> y validados por los países. Los índices de paridad se estiman\
+  \ en el informe del indicador 4.5.1. La información sobre el desglose de la variable\
+  \ para el Indicador 4.1.1 se presenta en las siguientes tablas.</p>"
+QUALITY_ASSURE: "<h2>Garantía de calidad:</h2>\n<p>Información no disponible.</p>"
+REG_AGG: "<h2>Agregados regionales:</h2>\n<p>Todavía no se aplica. Los datos se comunican\
+  \ únicamente a nivel nacional. Media ponderada de la población por región que se\
+  \ comunicará en 2020. </p>"
+IMPUTATION: "<h2>Tratamiento de valores faltantes:</h2>\n<ul>\n  <li><strong><em>A\
+  \ nivel de país:</em></strong></li>\n</ul>\n<p>Los valores faltantes no se imputan.</p>\n\
+  <ul>\n  <li><strong><em>A nivel regional y mundial:</em></strong></li>\n</ul>\n\
+  <p>Los valores faltantes no se imputan.</p>"
+DATA_COMP: "<h1>Metodología</h1>\n<h2>Método de cálculo:</h2>\n<p>El número de niños\
+  \ y/o jóvenes de la etapa educativa n en el año t que alcanzan o superan el nivel\
+  \ de competencia predefinido en la asignatura s, expresado como porcentaje del número\
+  \ de niños y/o jóvenes de la etapa educativa n, en el año t, en cualquier nivel\
+  \ de competencia en la asignatura s.</p>\n<p>MPL<sub>t,n,s,</sub> = MP<sub>t,n,s</sub>\
+  \ / P<sub>t,n</sub></p>\n<p>donde: </p>\n<p>MP<sub>t,n,s</sub> = el número de niños\
+  \ y jóvenes de la etapa educativa n, en el año t, que han alcanzado o superado el\
+  \ nivel mínimo de competencia en la materia s. </p>\n<p>P<sub>t,n </sub>= el número\
+  \ de niños y jóvenes de la etapa educativa n, en el año t, en cualquier nivel de\
+  \ competencia en la materia s.</p>\n<p>n = la etapa educativa que se evaluó</p>\n\
+  <p>s = la materia evaluada (lectura o matemáticas).</p>\n<h2>Armonizar diversas\
+  \ fuentes de datos</h2>\n<p>Para hacer frente a los retos que plantea la limitada\
+  \ capacidad de algunos países para llevar a cabo evaluaciones transnacionales, regionales\
+  \ y nacionales, el IEU y sus socios han tomado medidas. Las estrategias se utilizan\
+  \ según su nivel de precisión y siguiendo un <a href=\"http://gaml.uis.unesco.org/wp-content/uploads/sites/2/2019/05/GAML6-WD-2-Protocol-for-reporting-4.1.1_v1.pdf\"\
+  >protocolo de información</a> que incluye las evaluaciones nacionales en circunstancias\
+  \ específicas. </p>\n<h2>Niños sin escolarizar </h2>\n<p>En 2016, 263 millones de\
+  \ niños, adolescentes y jóvenes estaban sin escolarizar, lo que representa casi\
+  \ una quinta parte de la población mundial de este grupo de edad. 63 millones, o\
+  \ el 24% del total, son niños en edad de asistir a la escuela primaria (normalmente\
+  \ de 6 a 11 años); 61 millones, o el 23% del total, son adolescentes en edad de\
+  \ asistir a la escuela secundaria inferior (normalmente de 12 a 14 años); y 139\
+  \ millones, o el 53% del total, son jóvenes en edad de asistir a la escuela secundaria\
+  \ superior (aproximadamente de 15 a 17 años). No todos estos chicos estarán permanentemente\
+  \ fuera de la escuela, algunos se reincorporarán al sistema educativo y, eventualmente,\
+  \ terminarán tarde, mientras que otros entrarán tarde. La cantidad varía según el\
+  \ país y la región y exige algún ajuste en la estimación del indicador 4.1.1. Actualmente\
+  \ se está discutiendo cómo implementar estos ajustes para reflejar a toda la población.\
+  \ En 2017, el <a href=\"http://uis.unesco.org/en/blog/helping-countries-improve-their-data-out-school-children\"\
+  ><u> IEUpropuso realizar ajustes utilizando los niños no escolarizados (OOSC)</u></a><sup><sup><a\
+  \ href=\"#footnote-2\" id=\"footnote-ref-2\">[2]</a></sup></sup> y las tasas de\
+  \ finalización. </p><div class=\"footnotes\"><div><sup class=\"footnote-number\"\
+  \ id=\"footnote-2\">2</sup><p> IEU (2017a). Más de la mitad de los niños y adolescentes\
+  \ no aprenden en todo el mundo. Montreal y IEU (2017b). Contando el número de niños\
+  \ que no aprenden: Metodología para un indicador global compuesto para la educación.\
+  \ Montreal. <a href=\"#footnote-ref-2\">&#x2191;</a></p></div></div>"
+REC_USE_LIM: "<h2>Comentarios y limitaciones:</h2>\n<p>Los resultados de aprendizaje\
+  \ de la evaluación transnacional del aprendizaje son directamente comparables para\
+  \ todos los países que participaron en las mismas evaluaciones transnacionales del\
+  \ aprendizaje. Sin embargo, estos resultados no son comparables entre diferentes\
+  \ evaluaciones de aprendizaje transnacionales o con las evaluaciones de aprendizaje\
+  \ nacionales. Podría lograrse un nivel de comparabilidad de los resultados de aprendizaje\
+  \ entre las evaluaciones utilizando diferentes metodologías, cada una con errores\
+  \ estándar diferentes. El período 2020-2021 arrojará luz sobre el tamaño de los\
+  \ errores estándar de estas metodologías. </p>\n<p>La comparabilidad de los resultados\
+  \ de aprendizaje a lo largo del tiempo tiene complicaciones adicionales, que requieren,\
+  \ idealmente, diseñar e implementar un conjunto de ítems comparables como anclas\
+  \ por adelantado. Se están realizando desarrollos metodológicos para abordar la\
+  \ comparabilidad de los resultados de las evaluaciones a lo largo del tiempo. </p>"
+RATIONALE: "<h2>Justificación:</h2>\n<p>El indicador pretende medir el porcentaje\
+  \ de niños y jóvenes que han alcanzado los resultados mínimos de aprendizaje en\
+  \ lectura y matemáticas durante o al final de las etapas educativas correspondientes.</p>\n\
+  <p>Cuanto mayor sea la cifra, mayor será la proporción de niños y/o jóvenes que\
+  \ alcanzan al menos la competencia mínima en el dominio respectivo (lectura o matemáticas)\
+  \ con las limitaciones indicadas en la sección &#x201C;Comentarios y limitaciones&#x201D;.</p>"
+COMPILING_ORG: "<h1>Compiladores de datos</h1>\n<p>Instituto de Estadística de la\
+  \ UNESCO (IEU)</p>"
+DATA_SOURCE: "<h1>Proveedores de datos</h1>\n<p><strong>Evaluaciones basadas en la\
+  \ escuela</strong></p>\n<ul>\n  <li><u>Las evaluaciones internacionales a gran escala</u>\
+  \ son comunicadas al IEU por organizaciones transnacionales (LLECE, PASEC, TIMSS\
+  \ y PIRLS, por sus siglas en inglés). Normalmente, las evaluaciones transnacionales\
+  \ a gran escala, ya sean regionales o internacionales, definen varios niveles de\
+  \ rendimiento y comunican también la media y la desviación típica. También eligen\
+  \ un nivel como punto de corte que define qué niños/jóvenes están por debajo o por\
+  \ encima del nivel.</li>\n  <li><u>Evaluaciones regionales</u>: PASEC, SACMEQ, ERCE,\
+  \ PILNA, SEAMEO.</li>\n  <li><u>Evaluaciones nacionales a gran escala</u> basadas\
+  \ en muestras o en censos. Los países deben informar sobre la proporción de estudiantes\
+  \ por nivel de competencia para cada dominio, indicando también el nivel mínimo\
+  \ de competencia, cuando sea definido por la evaluación nacional. EGRA y EGMA según\
+  \ los informes de USAID o de los países individuales. </li>\n</ul>\n<p><strong>Encuestas\
+  \ de hogares</strong></p>\n<ul>\n  <li>MICS6: comunicada al IEU por UNICEF</li>\n\
+  \  <li>Red Pal: comunicada al IEU por la Red Pal</li>\n</ul>"
+REL_CAL_POLICY: "<h2>Publicación de datos:</h2>\n<p>Febrero de 2020</p>"
+FREQ_COLL: "<h1>Calendario</h1>\n<h2>Recopilación de datos:</h2>\n<p>La recopilación\
+  \ de datos está en curso.</p>"
+SDG_CUSTODIAN_AGENCIES: "<h1> Información institucional</h1>\n<h2> Organización(es):</h2>\n\
+  <p> Instituto de Estadística de la UNESCO (IEU)</p>"
+SDG_RELATED_INDICATORS: "<h1>Indicadores relacionados</h1>\n<p>Los índices de paridad\
+  \ de este indicador se recogen en el indicador 4.5.1 de los ODS.</p>"
+META_LAST_UPDATE: '<p>Última actualización: Noviembre de 2020</p>'
