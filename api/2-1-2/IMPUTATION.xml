@@ -15,7 +15,16 @@
 &lt;/ul&gt;
 &lt;p&gt;Missing values for individual countries are implicitly imputed to be equal to the population weighted average of the estimated values of the countries present in the same region.&lt;/p&gt;
 			</language>
-			<language lang="es"/>
+			<language lang="es">&lt;h2&gt;Tratamiento de valores faltantes:&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;em&gt;A nivel de país:&lt;/em&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;El indicador no se calcula si no se dispone de datos del país.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;em&gt;A nivel regional y mundial:&lt;/em&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Los valores faltantes para los países individuales se imputan implícitamente para que sean iguales a la media ponderada de la población de los valores estimados de los países presentes en la misma región.&lt;/p&gt;
+			</language>
 			<language lang="fr">&lt;p&gt;&lt;h2&gt;Traitement des valeurs manquantes : &lt;/h2&gt;&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;&lt;strong&gt;&lt;em&gt; Au niveau national : &lt;/em&gt;&lt;/strong&gt;&lt;/li&gt;
