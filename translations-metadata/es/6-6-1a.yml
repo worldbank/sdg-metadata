@@ -14,3 +14,337 @@ SDG_CUSTODIAN_AGENCIES: "<h1> Información institucional </h1>\n<h2> Organizaci�
 REG_AGG: "<h2>Agregados regionales:</h2>\n<p>Para los métodos de agregación, véase:\
   \ </p>\n<p><a href=\"http://pre-uneplive.unep.org/media/docs/graphs/aggregation_methods.pdf\"\
   >http://pre-uneplive.unep.org/media/docs/graphs/aggregation_methods.pdf</a></p>"
+OTHER_DOC: "<h1>Referencias</h1>\n<h2>URL: </h2>\n<p><a href=\"http://www.sdg6monitoring.org/indicators/target-66/indicators661/\"\
+  >http://www.sdg6monitoring.org/indicators/target-66/indicators661/</a>.</p>\n<h1>Información\
+  \ adicional</h1>\n<p>La metodología se probó en dos fases piloto. En la primera\
+  \ de ellas se diseñó la metodología en consulta con los países, lo que dio lugar\
+  \ a un primer borrador de la metodología que fue revisado y reforzado por el Equipo\
+  \ Objetivo. A principios de 2016, el proyecto de metodología se probó de forma piloto\
+  \ en cinco países entre abril y noviembre de 2016 a través de talleres realizados\
+  \ en Jordania, Países Bajos, Perú, Senegal y Uganda. En cada uno de estos países,\
+  \ varios participantes de entidades nacionales y sectores gubernamentales participaron\
+  \ para obtener una amplia retroalimentación sobre la viabilidad técnica del proyecto\
+  \ de metodología.</p>\n<p>Durante los proyectos piloto de la metodología en 2016,\
+  \ se consultó a la ONE de cada uno de los 5 países y se le involucró en el proceso.\
+  \ Durante la campaña de recopilación de datos de la metodología piloto de 2017,\
+  \ la solicitud inicial de datos se comunicó a todos las ONE. Además, en octubre\
+  \ de 2017, los datos nacionales sobre la extensión espacial de las aguas abiertas\
+  \ (derivados de las observaciones terrestres) se compartieron con 188 países directamente\
+  \ a través de sus ONEs (véanse más detalles arriba).</p>"
+COMPARABILITY: "<h2>Fuentes de discrepancias:</h2>\n<p>No disponible.</p>"
+COVERAGE: "<h1>Disponibilidad de datos</h1>\n<h2>Descripción:</h2>\n<p>Los datos de\
+  \ los sub-indicadores 1 y 2 están disponibles anualmente. Para los sub-indicadores\
+  \ 3, 4 y 5, los datos ya están disponibles en algunos países y las autoridades nacionales\
+  \ deberían reforzar sus esfuerzos de seguimiento y notificación para ampliar la\
+  \ disponibilidad de datos para estos tres sub-indicadores.</p>\n<p>La recopilación\
+  \ de datos para todos los sub-indicadores se incluyó en una campaña de datos de\
+  \ 2017 dirigida a los países; sin embargo, los datos aún se están validando. Además,\
+  \ se han recopilado datos sobre la extensión espacial nacional de 188 países entre\
+  \ 2001 y 2015 para apoyar el sub-indicador 1. Los datos de los 5 sub-indicadores\
+  \ se comunican a la División de Estadística de las Naciones Unidas cada 5 años.</p>\n\
+  <h2>Series temporales:</h2>\n<p>Los informes sobre este indicador seguirán un ciclo\
+  \ anual.</p>\n<h2>Desagregación:</h2>\n<p>El indicador 6.6.1 puede desglosarse por\
+  \ cada sub-indicador. Todos los sub-indicadores también pueden desagregarse a diferentes\
+  \ escalas espaciales, es decir, nacional, de cuenca y de tipo de ecosistema.</p>"
+IMPUTATION: "<h2>Tratamiento de valores faltantes:</h2>\n<ul>\n<li><strong><em>A nivel\
+  \ de país:</em></strong></li>\n</ul>\n<p>Debido al uso de datos satelitales para\
+  \ algunos sub-indicadores, no se espera tener valores faltantes para estos sub-indicadores.\
+  \ Para todos los demás sub-indicadores, los valores faltantes no se imputan.</p>\n\
+  <ul>\n<li><strong><em>A nivel regional y mundial:</em></strong></li>\n</ul>\n<p>Los\
+  \ valores faltantes no se imputan.</p>"
+DATA_COMP: "<h1>Metodología</h1>\n<h2>Método de cálculo:</h2>\n<p>Los 5 sub-indicadores\
+  \ se calculan por separado y, por lo tanto, el indicador 6.6.1 se compone de 5 metodologías\
+  \ independientes.</p>\n<p><strong><em>Sub-indicador 1: Extensión espacial de los\
+  \ ecosistemas relacionados con el agua</em></strong>.</p>\n<p>La metodología de\
+  \ este sub-indicador describe cómo se generan y procesan las observaciones de la\
+  \ Tierra en un conjunto de datos sobre la extensión espacial global de los ecosistemas\
+  \ relacionados con el agua. La premisa básica de este enfoque es que las diferentes\
+  \ cubiertas terrestres, como la nieve, la roca desnuda, la vegetación y el agua,\
+  \ reflejan diferentes longitudes de onda de la luz. Los satélites circulan continuamente\
+  \ por nuestra tierra, captando imágenes y longitudes de onda reflejadas desde cada\
+  \ lugar del globo. Para cualquier lugar de la Tierra, se pueden combinar miles de\
+  \ imágenes para clasificar la cubierta terrestre del lugar. La tecnología informática\
+  \ avanzada puede programarse para digerir todas estas imágenes y dividir la tierra\
+  \ en píxeles de tipo de cobertura del suelo, uno de los cuales es el agua abierta.\
+  \ Las aguas abiertas se definen como cualquier área de agua superficial no obstruida\
+  \ por la vegetación acuática. De este modo, se pueden discernir los cambios en la\
+  \ extensión espacial de las ubicaciones de aguas abiertas durante un largo periodo\
+  \ de tiempo, incluyendo las masas de agua nuevas y perdidas o los cambios estacionales.</p>\n\
+  <p>Para distinguir un tipo de ecosistema relacionado con el agua de otro, se requiere\
+  \ un mayor procesamiento de estos datos de aguas abiertas junto con otros conjuntos\
+  \ de datos. Los datos generados sobre aguas abiertas se distinguen además en lagos,\
+  \ ríos y estuarios frente a masas de agua artificiales. Además, los humedales con\
+  \ vegetación se distinguen mediante un procesamiento posterior. El método para detectar\
+  \ los humedales con vegetación a partir de observaciones de la Tierra se basa en\
+  \ un enfoque que detecta las propiedades físicas de las zonas de humedales (por\
+  \ ejemplo, la humedad del suelo y el contenido de agua de la vegetación) a partir\
+  \ de imágenes multitemporales de SAR (radar de apertura sintética) y de imágenes\
+  \ ópticas de satélite, combinadas con otros conjuntos de datos geoespaciales relacionados\
+  \ con la topografía de la zona, la hidrografía de la cuenca y su red de drenaje,\
+  \ y los tipos de suelo. Los conjuntos de datos resultantes obtenidos a partir de\
+  \ las observaciones terrestres sobre la extensión espacial de los humedales con\
+  \ vegetación y las masas de agua artificiales se excluyen del cálculo de los valores\
+  \ de extensión espacial de los lagos, ríos y estuarios, para evitar la duplicación\
+  \ de las estimaciones de extensión espacial.</p>\n<p>De este modo, se generan anualmente\
+  \ tres conjuntos de datos globales mediante esta metodología: extensión espacial\
+  \ de lagos, ríos y estuarios; extensión espacial de cuerpos de agua artificiales;\
+  \ y extensión espacial de humedales con vegetación. Estos conjuntos de datos nacionales\
+  \ sobre la extensión espacial se proporcionan a los países para que los validen.\
+  \ Una vez validados, los conjuntos de datos anuales se utilizan para calcular el\
+  \ cambio porcentual de la extensión espacial a lo largo del tiempo, utilizando un\
+  \ período de referencia de 2001 a 2005. Las medias de los cinco años siguientes\
+  \ se comparan con esta línea de base.</p>\n<p><img src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAeEAAABCCAMAAABXa57IAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAI6UExURf////7+/v39/fPz8+7u7vz8/Orq6vj4+NjY2JKSkpmZmfv7+9ra2uvr68rKyo2Njampqebm5r29vW5ubpaWlt7e3u/v76ysrIGBgX5+fnNzc7y8vPf398/Pz4CAgIWFhfr6+sLCwm1tbaOjo2dnZ7a2tuLi4tTU1IaGhl5eXrq6uoqKin19feXl5eTk5Hp6esvLy1VVVZOTk/Hx8cTExFhYWHV1dezs7NDQ0I6OjvLy8rOzs19fX6urq0RERLi4uFlZWfT09FpaWvX19XBwcEZGRszMzLCwsFJSUpWVlZ6enpqamqenp1ZWVqampvn5+WNjY4uLi4+Pj09PT8bGxnZ2doODg+fn56Ghobu7u0lJSYKCglBQUJubm/b29sjIyGVlZWZmZpSUlFFRUcDAwHJycunp6bm5udfX152dnW9vb7+/v6+vr8nJyaioqGxsbGhoaGtra9bW1pCQkHFxcaWlpeDg4GBgYNnZ2ePj46qqqvDw8NPT06SkpFNTU3h4eImJiejo6JGRkU1NTdLS0l1dXbS0tGRkZH9/f0dHR7W1tVRUVMPDw5+fn+Hh4aCgoGlpaZiYmGFhYXR0dK2traKiopycnMHBwbGxsbKysre3t8XFxdXV1e3t7VxcXNvb293d3YiIiFtbW76+voeHh5eXl9zc3Hx8fK6urt/f31dXV2pqaoSEhExMTHd3d8fHx87Ozs3NzWJiYnl5eYyMjHt7e9HR0U5OTkpKSktLS0hISEVFRUJCQgAAACnMincAAAC+dFJOU///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////\n\
+  <p>Donde &#x3B2; = la extensión espacial media nacional de 2001-2005.</p>\n<p>Donde\
+  \ &#x3B3; = la extensión espacial media nacional de cualquier otro período de 5\
+  \ años.</p>\n<p><strong><em>Sub-indicador 2: Calidad del agua de los lagos y masas\
+  \ de agua artificiales</em></strong>.</p>\n<p>La metodología de este sub-indicador\
+  \ describe cómo se generan y procesan las observaciones de la Tierra en dos conjuntos\
+  \ de datos de clorofila a (Chl) y sólidos suspendidos totales (SST) dentro de los\
+  \ lagos a nivel mundial. Las observaciones de la Tierra sólo pueden proporcionar\
+  \ información sobre las concentraciones de los materiales presentes en el agua que\
+  \ afectan a su color. Estos materiales incluyen la clorofila, que es el principal\
+  \ pigmento del fitoplancton (la principal fuente de alimento en la cadena alimentaria),\
+  \ y el SST. Las concentraciones de Chl y TSS pueden utilizarse como indicadores\
+  \ para inferir otras características importantes de las masas de agua.</p>.<p>\n\
+  <p>Los resultados de Chl y TSS se derivan utilizando algoritmos empíricos, generados\
+  \ para cada píxel individual para asegurar que la variabilidad espacial dentro de\
+  \ cada lago se captura completamente. Los resultados se promedian a lo largo de\
+  \ un año para cada lago para producir concentraciones de Chl y TSS en todo el lago\
+  \ y no se muestran las pequeñas fluctuaciones localizadas en la concentración de\
+  \ estos dos parámetros. En cualquier día, los píxeles que representan cada concentración\
+  \ de Chl o TSS se cuantifican y se determina un promedio de todo el lago para ese\
+  \ día.</p>\n<p>El cambio en la concentración de Chl y TSS puede determinarse comparando\
+  \ una media anual con la línea de base. Este promedio anual de Chl y TSS será promediado\
+  \ cada 5 años, el cual será comparado con las líneas base de Chl y TSS para generar\
+  \ un cambio porcentual. Los lugares en los que el cambio porcentual es excesivo\
+  \ pueden ser objeto de un mayor control y gestión de la calidad del agua.</p>\n\
+  <p><strong><em>Sub-indicador 3: Cantidad (descarga) de agua en ríos y estuarios</em></strong>.</p>\n\
+  <p>La metodología para este sub-indicador describe diferentes técnicas que los países\
+  \ pueden implementar para monitorear la descarga de ríos y estuarios. Estas técnicas\
+  \ pueden incluir estaciones de aforo o medidores de descarga. La metodología no\
+  \ prescribe el tipo de técnica de medición de la descarga porque la selección debe\
+  \ basarse en el tamaño y el tipo de masa de agua, el terreno y la velocidad del\
+  \ flujo de agua, la precisión deseada de la medición, así como las finanzas disponibles.\
+  \ Sin embargo, todos los datos de descarga recopilados por los países deben cumplir\
+  \ los siguientes criterios mínimos:</p>.<p>\n<ul>\n<li>Los datos de descarga de\
+  \ cada río/estuario monitoreado deben recopilarse al menos una vez al mes. Estos\
+  \ datos deben ser promediados para obtener una descarga media anual por río/estuario\
+  \ monitoreado. </li> <li>Se deben recolectar datos de descarga de cada río/estuario\
+  \ monitoreado al menos una vez al mes.\n<li>Cada cuenca debe tener como mínimo un\
+  \ lugar de muestreo, en el punto en el que su agua sale a otra cuenca o cruza una\
+  \ frontera nacional. </li> <li>\n</ul>\n<p>Los países presentarán a los organismos\
+  \ de custodia 5 años de datos sobre los vertidos medios anuales por cuenca. Los\
+  \ datos de estos 5 años se promediarán para suavizar la variabilidad a corto plazo.\
+  \ Para generar la variación porcentual nacional de los vertidos a lo largo del tiempo,\
+  \ deberá establecerse un periodo de referencia común para todas las cuencas. Este\
+  \ período de referencia se utilizará para calcular el cambio porcentual de la descarga\
+  \ para cualquier período subsiguiente de 5 años. Para calcular el cambio porcentual\
+  \ de la descarga para cada período de cinco años siguiente al período de referencia,\
+  \ se utiliza la siguiente fórmula:</p>.<p\n<p><img src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAc8AAABGCAMAAACdbu+9AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAI3UExURf////39/fLy8srKyubm5v7+/vz8/Nzc3Nra2vj4+NPT04eHh3V1dcfHx/f3993d3dvb2+Xl5fr6+ra2tnJycpWVleHh4fn5+by8vHh4eKOjo+/v76qqqn19fZqamoSEhG5ubrKysvT09PX19djY2Hl5ecXFxfv7+1ZWVp2dnfDw8MTExF9fX/Pz8+Tk5Gtra11dXdLS0u7u7o6OjnBwcO3t7WZmZoCAgGhoaN/f309PT7Ozs2lpaYuLi1tbW5iYmGJiYomJiVFRUfb29lhYWM7OzlpaWs/Pz5+fn+np6W9vb5OTk4WFhbi4uIKCgrS0tElJSaSkpOjo6G1tbcjIyFRUVKioqJCQkFlZWezs7Kenp5SUlGFhYVJSUsHBwYyMjExMTEdHR3Nzc5ubm+vr6+rq6rGxsVBQUIqKimpqand3d01NTeLi4s3NzVdXV4+Pj1NTU97e3n9/f3FxcXZ2dnR0dI2NjWNjY7CwsFxcXMvLy1VVVZKSkpGRkYODg2VlZcPDw3x8fOfn59nZ2V5eXvHx8ePj40tLS2xsbKKioszMzODg4MnJydHR0WBgYLm5uZycnMDAwK+vr6mpqaamptDQ0GdnZ9TU1NbW1p6enqurq9XV1a2trZeXl5aWlre3t7u7u9fX16GhocbGxrq6urW1tXp6er+/v0hISMLCwqysrEpKSpmZmX5+foiIiL29vUZGRk5OToaGhmRkZKCgoIGBgXt7e6Wlpa6urr6+vkVFRURERAAAAFEDq44AAAC9dFJOU///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////\n\
+  <p>Donde &#x3B2; = descarga histórica de referencia de 5 años.</p>\n<p>Donde &#x3B3;\
+  \ = el vertido medio del periodo de 5 años de interés.</p>\n<p><strong><em>Sub-indicador\
+  \ 4: Calidad de los ecosistemas relacionados con el agua</em></strong>.</p>\n<p>La\
+  \ metodología para este sub-indicador se describe en el indicador 6.3.2 de los ODS.\
+  \ Los datos recopilados para el Indicador 6.3.2 se utilizan para el Sub-indicador\
+  \ 4 para informar un cálculo del cambio porcentual a lo largo del tiempo en cuerpos\
+  \ de agua con buena calidad de agua ambiental.</p>\n<p><strong>Sub-indicador 5:\
+  \ Cantidad de agua subterránea dentro de los acuíferos</strong>.</p>\n<p>La metodología\
+  \ de este sub-indicador describe una técnica simplificada para que los países controlen\
+  \ la cantidad de agua subterránea dentro de los acuíferos. El volumen de agua subterránea\
+  \ almacenada en un acuífero se estima tradicionalmente utilizando una combinación\
+  \ de parámetros, pero a los efectos del seguimiento del Indicador 6.6.1, el nivel\
+  \ de agua subterránea dentro de un acuífero puede medirse únicamente como un indicador\
+  \ del volumen de agua subterránea dentro de un acuífero. La medición del nivel de\
+  \ las aguas subterráneas dentro de un acuífero se realiza mediante el uso de pozos\
+  \ de sondeo. La metodología no prescribe el número de pozos de sondeo que deben\
+  \ controlarse por acuífero porque la distribución de las aguas subterráneas puede\
+  \ ser variable en función de la ubicación y las características de los acuíferos.\
+  \ Sin embargo, todos los datos sobre el nivel de las aguas subterráneas recopilados\
+  \ por los países deben cumplir los siguientes criterios mínimos:</p>.<p>\n<ul>\n\
+  <li>Las mediciones puntuales del nivel de las aguas subterráneas dentro de los acuíferos\
+  \ deben recolectarse al menos dos veces al año. Estos datos deben promediarse para\
+  \ obtener un nivel medio anual de las aguas subterráneas por acuífero monitoreado.\
+  \ La comprensión de los cambios estacionales y otros cambios a corto plazo es un\
+  \ aspecto necesario de la gestión de las aguas subterráneas, pero sólo debe considerarse\
+  \ como parte de la gestión local de las aguas subterráneas.</li> <li>\n<li>Cada\
+  \ acuífero controlado debe tener como mínimo un sondeo que pueda utilizarse para\
+  \ medir el nivel de las aguas subterráneas.</li> <li>\n</ul>\n<p>Los países presentarán\
+  \ a los organismos de custodia 5 años de datos sobre el nivel medio anual de las\
+  \ aguas subterráneas por cuenca, que se promediarán para suavizar la variabilidad\
+  \ a corto plazo. Para generar la variación porcentual nacional de la descarga a\
+  \ lo largo del tiempo, deberá establecerse un período de referencia común para todas\
+  \ las cuencas. Este período de referencia se utilizará para calcular el cambio porcentual\
+  \ de la cantidad de agua subterránea para cualquier período subsiguiente de 5 años.\
+  \ Para calcular el cambio porcentual de la cantidad para cada período de cinco años\
+  \ siguiente al período de referencia, se utiliza la siguiente fórmula.</p>.<p\n\
+  <p><img src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAcoAAABICAMAAABBTUWJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAI6UExURf////7+/vn5+eTk5Nvb2/39/e3t7fb29vz8/OPj46mpqYWFhbGxsejo6MzMzMXFxcHBwevr69jY2JOTk5GRkfPz84KCgu/v79DQ0IiIiIyMjK6urp6enm9vb4eHh+Dg4Pf396+vr3p6eqioqPT09GdnZ9TU1Ofn53d3d3Nzc9ra2vv7+/Hx8aOjo0lJSZaWlvX19aqqqmNjY8PDw7u7u2FhYfr6+rOzs01NTdHR0VNTU+zs7IODg3FxcX9/f+Xl5fDw8IuLi8rKytbW1lhYWPLy8rm5uVVVVaWlpd/f31xcXOnp6XZ2dre3t4mJiZeXl83NzdfX111dXfj4+JmZmVdXV7+/v2hoaGVlZc/Pz2xsbJycnJqamkxMTOrq6mRkZNXV1V5eXsvLy+bm5tnZ2Y6Ojm5ublFRUXJycmpqaltbW8TExLy8vH19fY2NjWZmZsDAwKamppubm1RUVMjIyFZWVoCAgHR0dN3d3aSkpLq6urCwsKurq+7u7mBgYM7OzmJiYrS0tJ+fn3h4eOLi4sfHx2lpaXt7e09PT7i4uH5+flpaWsbGxrW1tWtra3x8fLKysra2toaGhpWVldLS0pKSkm1tbYqKit7e3q2trdzc3FlZWXV1dYGBgb29vaCgoEtLS9PT06Kiol9fX8nJycLCwuHh4Xl5eXBwcE5OTp2dnZSUlFBQUKenp4SEhKysrL6+vpCQkEZGRkpKSlJSUpiYmEREREFBQUhISEdHR6GhoUVFRY+PjwAAAMz6tC0AAAC+dFJOU///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////\n\
+  <p>Donde &#x3B2; =nivel histórico de referencia de 5 años de las aguas subterráneas.</p>\n\
+  <p>Donde &#x3B3; =nivel medio de las aguas subterráneas de 5 años de interés.</p>"
+REC_USE_LIM: "<h2>Comentarios y limitaciones:</h2>\n<p>Esta metodología moviliza la\
+  \ recopilación de datos de observación de la tierra ampliamente disponibles sobre\
+  \ la extensión espacial y algunos parámetros de calidad del agua que serán validados\
+  \ por los países. Los datos en sí, en forma de imágenes y números, son fáciles de\
+  \ entender. Sin embargo, las metodologías utilizadas para generar estos datos son\
+  \ de naturaleza técnica y algunos países pueden desear entenderlas mejor. La metodología\
+  \ emplea métodos reconocidos internacionalmente, procedentes de comunidades de expertos\
+  \ como el Grupo de Observación de la Tierra (GEO) y las agencias espaciales internacionales,\
+  \ para obtener conjuntos de datos de observación de la Tierra estadísticamente sólidos\
+  \ y tecnológicamente más avanzados para los sub-indicadores 1 y 2. Estas organizaciones\
+  \ también se comprometerán a proporcionar herramientas y formación para apoyar a\
+  \ los países. El sub-indicador 2 sólo mide dos parámetros de calidad del agua, mientras\
+  \ que se reconoce que para determinar la buena calidad del agua es necesario medir\
+  \ múltiples parámetros. Sin embargo, los datos disponibles a nivel mundial pueden\
+  \ indicar posibles puntos conflictivos de contaminación o perturbación humana, lo\
+  \ que permite a los países realizar evaluaciones más locales de la calidad del agua.</p>\n\
+  <p>El indicador está diseñado para generar datos que permitan tomar decisiones informadas\
+  \ para proteger y restaurar los ecosistemas relacionados con el agua. No mide cuántos\
+  \ ecosistemas relacionados con el agua se han protegido y restaurado. Se supone\
+  \ que los países utilizarán los datos para tomar decisiones de forma activa, pero\
+  \ estas acciones no se miden actualmente. Los datos generados deberían considerarse\
+  \ junto con otros datos, como el cambio de uso de la tierra, para que los responsables\
+  \ de la toma de decisiones puedan proteger y restaurar los ecosistemas relacionados\
+  \ con el agua.</p>"
+RATIONALE: "<h2>Justificación:</h2>\n<p>La meta 6.6 tiene como objetivo &#x201C;proteger\
+  \ y restaurar los ecosistemas relacionados con el agua, incluyendo las montañas,\
+  \ los bosques, los humedales, los ríos, los acuíferos y los lagos&#x201D; a través\
+  \ del Indicador 6.6.1, que tiene como objetivo entender cómo y por qué estos ecosistemas\
+  \ están cambiando en extensión con el tiempo. Todos los diferentes componentes del\
+  \ Indicador 6.6.1 son importantes para formar una imagen completa que permita tomar\
+  \ decisiones informadas para la protección y restauración de los ecosistemas relacionados\
+  \ con el agua. Sin embargo, la falta de datos dentro de los países para apoyar el\
+  \ Indicador 6.6.1 se ha hecho evidente a través de la prueba piloto de 2017 y, por\
+  \ lo tanto, se propone una combinación de datos nacionales y datos basados en imágenes\
+  \ de satélite. Todos los datos generados se procesan utilizando metodologías reconocidas\
+  \ internacionalmente, lo que da lugar a conjuntos de datos globales de alta calidad\
+  \ con una amplia escala espacial y temporal.</p>"
+COMPILING_ORG: "<h1>Compiladores de datos</h1>\n<ol>\n<li>ONU Medio Ambiente (Programa\
+  \ de las Naciones Unidas para el Medio Ambiente)</li>\n</ol>"
+DATA_SOURCE: "<h1>Proveedores de datos</h1>\n<ol>\n<li>Puntos focales nacionales de\
+  \ SIMUVIMA/AGUA, en consulta con las ONEs</li>\n<li>Datos de satélite de la ESA\
+  \ y la NASA</li>\n</ol>"
+REL_CAL_POLICY: "<h2>Publicación de datos:</h2>\n<p>Primer ciclo de presentación de\
+  \ informes: junio de 2018; Segundo ciclo de información: junio de 2023; Tercer ciclo\
+  \ de información: junio de 2028.</p>"
+FREQ_COLL: "<h1>Calendario</h1>\n<h2>Recopilación de datos:</h2>\n<p>Estimación anual\
+  \ de los sub-indicadores 1 y 2 publicada alrededor de mayo. Cada cinco años se recopilarán\
+  \ datos mediante una campaña nacional de recolección de datos, a efectuarse durante\
+  \ los siguientes periodos: 2017, 2022 y 2027.</p>"
+COLL_METHOD: "<h2>Proceso de recolección:</h2>\n<p>Sub-indicadores 1 y 2: Todos los\
+  \ datos disponibles a nivel mundial generados para los sub-indicadores 1 y 2 se\
+  \ comparten con los países para su validación. Estos datos geoespaciales se generarán\
+  \ anualmente a escala nacional, sub-nacional y de masas de agua. Aunque estos datos\
+  \ se generan anualmente, la medición para informar sobre el cambio en la extensión\
+  \ requiere una validación cada cinco años. Los conjuntos de datos anuales validados\
+  \ serán utilizados por los organismos custodios para generar cambios porcentuales\
+  \ en nombre de los países.</p>\n<p> Sub-indicadores 3, 4 y 5: Todos los datos recopilados\
+  \ en los países para los sub-indicadores 3, 4 y 5 se presentarán a los organismos\
+  \ de custodia para que los revisen y verifiquen la calidad con respecto a los criterios\
+  \ mínimos de la metodología. Este proceso de revisión se facilitará mediante la\
+  \ comunicación por correo electrónico a través del servicio de asistencia global.\
+  \ Una vez revisados los datos anuales &#x2018;brutos&#x2019;, se completarán los\
+  \ cálculos del cambio porcentual y se validarán entre los organismos de custodia\
+  \ y el representante nacional.</p>"
+SOURCE_TYPE: "<h1>Fuentes de datos</h1>\n<p><strong>Descripción:</strong>.</p>\n<p><strong><em>Sub-Indicador\
+  \ 1:</em></strong> Los datos sobre la extensión espacial de las aguas abiertas,\
+  \ adquiridos por los satélites Landsat 5, 7 y 8 con una resolución de 30 m, se han\
+  \ generado para todo el planeta desde 2001 hasta 2015. A partir de 2016 (hasta 2030\
+  \ inclusive), se utilizarán satélites de mayor resolución espacial y temporal, tanto\
+  \ ópticos como de radar. Por ejemplo, los satélites Sentinel 1 (radar) de 20 m y\
+  \ Sentinel 2 (óptico) de 10 m, utilizados en combinación con los satélites Landsat,\
+  \ permitirán una delimitación más precisa de las masas de agua tanto en términos\
+  \ espaciales (debido a la mayor resolución espacial) como temporales (debido al\
+  \ mayor tiempo de revisita). Se utilizarán conjuntos de datos adicionales para refinar\
+  \ los datos de extensión espacial de las aguas abiertas, incluida la base de datos\
+  \ geoespacial Global Reservoir and Dam (GRanD). Para generar la extensión espacial\
+  \ de los humedales con vegetación, se utilizará una combinación de imágenes de Landsat\
+  \ 8 y Sentinel 1 y 2. A esto se sumarán otros conjuntos de datos globales existentes,\
+  \ como los mapas anuales de manglares de Global Mangrove Watch (GMW, por su sigla\
+  \ en inglés), así como los conjuntos de datos geoespaciales más adaptados a nivel\
+  \ local que capturen la topografía, la hidrografía, las redes de drenaje y los tipos\
+  \ de suelo.</p>\n<p><strong><em>Sub-Indicador 2</em></strong>: Las observaciones\
+  \ lacustres de Chl y TSS se obtienen a partir de la combinación de los satélites\
+  \ Landsat y Sentinel con instrumentos como OLCI, MODIS y VIIRS. Los instrumentos\
+  \ sensores utilizados para detectar TSS y Chl determinan la resolución espacial\
+  \ de la calidad del agua dentro de los lagos que se puede detectar. Algunos de los\
+  \ sensores de calidad del agua más precisos tienen una resolución de 250-350 metros,\
+  \ mientras que los sensores menos precisos pueden detectar cambios de TSS y Chl\
+  \ con una resolución de 100 m.</p>\n<p><strong><em>Sub-Indicador 3</em></strong>:\
+  \ La fuente de datos para el seguimiento de la descarga para este sub-indicador\
+  \ procede principalmente de mediciones in situ en ríos y estuarios, aunque los datos\
+  \ modelizados también son aceptables.</p>\n<p><strong><em>Sub-Indicador 4</em></strong>:\
+  \ La fuente de datos para el seguimiento de la calidad del agua para este sub-indicador\
+  \ son las mediciones in situ en el suelo dentro de los ecosistemas relacionados\
+  \ con el agua.</p>\n<p><strong><em>Sub-Indicador 5</em></strong>: La fuente de datos\
+  \ para el seguimiento de la cantidad de agua subterránea para este sub-indicador\
+  \ son las mediciones in situ del nivel de agua subterránea dentro de los acuíferos,\
+  \ aunque también son aceptables los datos modelados.</p>"
+STAT_CONC_DEF: "<h1>Conceptos y definiciones</h1>\n<h2>Definición:</h2>\n<p>El indicador\
+  \ incluye cinco categorías: 1) humedales con vegetación, 2) ríos y estuarios, 3)\
+  \ lagos, 4) acuíferos y 5) masas de agua artificiales. A efectos de esta metodología,\
+  \ el texto se refiere únicamente a estas cinco categorías de ecosistemas. Para abordar\
+  \ su complejidad, el indicador 6.6.1 se ha dividido en 5 sub-indicadores para captar\
+  \ las diversas fuentes de datos y metodologías necesarias para el seguimiento de\
+  \ los componentes del indicador. Las fuentes de datos proceden de una combinación\
+  \ de muestreo en tierra y observaciones terrestres. Dependiendo del tipo de ecosistema\
+  \ y del tipo de extensión que se mida, la metodología de recopilación de datos también\
+  \ puede ser muy diferente. Se propone un enfoque de seguimiento progresivo con dos\
+  \ niveles:.</p>\n<p>Nivel 1: 2 sub-indicadores basados en datos disponibles a nivel\
+  \ mundial procedentes de observaciones terrestres que serán validados por los países\
+  \ con sus propias metodologías y conjuntos de datos:.</p>\n<ul>\n<li>Sub-indicador\
+  \ 1 &#x2013; extensión espacial de los ecosistemas relacionados con el agua </li>\n\
+  <li>Sub-indicador 2 &#x2013; calidad del agua de los lagos y masas de agua artificiales</li>\n\
+  <li>Nivel 2: Datos recopilados por los países a través de 3 sub-indicadores:</li>\n\
+  <li>Sub-indicador 3 &#x2013; cantidad de agua (descarga) en ríos y estuarios</li>\n\
+  <li>Sub-indicador 4 &#x2013; calidad del agua importado del indicador 6.3.2 de los\
+  \ ODS </li>\n<li>Sub-indicador 5 &#x2013; cantidad de agua subterránea en los acuíferos</li>\n\
+  </ul>\n<p>Una metodología completa para este indicador está disponible en el documento\
+  \ titulado, &#x201C;Metodología de seguimiento del indicador 6.6.1 de los ODS&#x201D;.</p>\n\
+  <h2>Conceptos:</h2>\n<p> Los conceptos y definiciones utilizados en la metodología\
+  \ se han basado en los marcos y glosarios internacionales existentes, a menos que\
+  \ se indique lo contrario a continuación.</p>\n<p><strong><em>Ecosistemas relacionados\
+  \ con el agua</em></strong> &#x2013; incluye cinco categorías 1) humedales con vegetación,\
+  \ 2) ríos y estuarios, 3) lagos, 4) acuíferos y 5) masas de agua artificiales. A\
+  \ efectos de esta metodología, el texto se refiere únicamente a estas cinco categorías\
+  \ de ecosistemas. La mayoría de los tipos de ecosistemas relacionados con el agua\
+  \ que se monitorean en el Indicador 6.6.1 contienen agua dulce, con la excepción\
+  \ de los manglares y los estuarios que contienen aguas salobres y se incluyen en\
+  \ el Indicador 6.6.1. No se incluyen los ecosistemas que contienen o están dentro\
+  \ de aguas saladas, ya que están cubiertos por otros indicadores de los ODS (Objetivo\
+  \ 14). Otras categorías de humedales que se ajustan a las definiciones de la Convención\
+  \ de Ramsar se incluyen en la categoría de ecosistema de &#x2018;humedales con vegetación&#x2019;.</p>\n\
+  <p>Humedales con vegetación &#x2013; la categoría de ecosistema relacionado con\
+  \ el agua de los humedales con vegetación incluye pantanos, turberas, marismas,\
+  \ arrozales y manglares. Esta definición está estrechamente relacionada con la definición\
+  \ de humedales de la Convención de Ramsar, que es: &#x201C;extensiones de marismas,\
+  \ pantanos y turberas, o superficies cubiertas de aguas, sean éstas de régimen natural\
+  \ o artificial, permanentes o temporales, estancadas o corrientes, dulces, salobres\
+  \ o saladas, incluidas las extensiones de agua marina cuya profundidad en marea\
+  \ baja no exceda de seis metros&#x201D;, con la salvedad que las aguas saladas no\
+  \ están incluidas en el Indicador 6.6.1 (ya que están cubiertas por el ODS 14) y\
+  \ con la excepción que los humedales con vegetación son distintos de las otras categorías\
+  \ de ecosistemas de lagos, ríos y estuarios, acuíferos y cuerpos de agua artificiales.\
+  \ Los humedales con vegetación se han separado como una categoría de ecosistema\
+  \ propia debido a su importancia para la consecución de los objetivos y porque la\
+  \ metodología para monitorearlos con observaciones terrestres es única respecto\
+  \ a otras aguas abiertas. Los datos generados por la aplicación de esta metodología\
+  \ también generarán los datos requeridos por los países para informar a la Convención\
+  \ de Ramsar relativa a los humedales de importancia internacional.</p>\n<p><strong><em>Cuerpos\
+  \ de agua artificiales</em></strong> &#x2013; la categoría de ecosistemas relacionados\
+  \ con el agua de los cuerpos de agua artificiales incluye cuerpos de agua abiertos\
+  \ creados por los seres humanos, como embalses, canales, puertos, minas y canteras.\
+  \ Aunque se reconoce que no son ecosistemas acuáticos tradicionales que deban ser\
+  \ protegidos y restaurados, en algunos países albergan una cantidad notable de agua\
+  \ dulce y por ello se han incluido.</p>\n<p><strong><em>Aguas abiertas</em></strong>\
+  \ &#x2013; como cualquier área de agua superficial no obstruida por la vegetación\
+  \ acuática. Esto incluye las siguientes 3 categorías de ecosistemas relacionados\
+  \ con el agua: ríos y estuarios, lagos y cuerpos de agua artificiales.</p>\n<p><strong><em>Extensión</em></strong>\
+  \ &#x2013; se ha ampliado más allá de la extensión espacial para capturar parámetros\
+  \ básicos adicionales necesarios para la protección y restauración de los ecosistemas\
+  \ relacionados con el agua. La extensión incluye tres componentes: la extensión\
+  \ espacial o superficie, la calidad y la cantidad de los ecosistemas relacionados\
+  \ con el agua.</p>\n<p><strong><em>Cambio</em></strong> &#x2013; un cambio de una\
+  \ condición de extensión a otra a lo largo del tiempo dentro de un ecosistema relacionado\
+  \ con el agua, medido con respecto a un punto de referencia.</p>"
+SDG_RELATED_INDICATORS: "<h1>Indicadores relacionados</h1>\n<p>6.3.2, 6.4.1, 6.4.2,\
+  \ 6.5.1, 6.5.2, 15.3.1.</p>"
+META_LAST_UPDATE: '<p>Última actualización: 9 de mayo de 2018.</p>'
