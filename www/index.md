@@ -17,7 +17,7 @@ Translations are prepared through our ongoing partnerships with national statist
 We are currently exploring how our method can be used to translate [SDG Data Structure Defintion](https://unstats.un.org/sdgs/iaeg-sdgs/sdmx-working-group/) files into local languages. These structural metadata are used to convey SDG data into the SDG Data Lab. Translatating the DSD can assist national statistical offices preparing and contributing SDG data. A collaboration with UNSD and INSEE is exploring French translation.
 
 * [Reference Metadata]({{ site.baseurl }}/metadata/)
-* [Structural Metadata (DSD)]{{ site.baseurl }}/DSD/)
+* Structural Metadata (to come)
 * [Documentation]({{ site.baseurl }}/documentation/)
 * [Presentations]({{ site.baseurl }}/presentations/)
 
