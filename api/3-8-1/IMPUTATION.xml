@@ -26,7 +26,27 @@
 &lt;/ul&gt;
 &lt;p&gt;Any needed imputation is done at country level. These country values can then be used to compute regional and global ones.&lt;/p&gt;&lt;div class=&quot;footnotes&quot;&gt;&lt;div&gt;&lt;sup class=&quot;footnote-number&quot; id=&quot;footnote-1&quot;&gt;1&lt;/sup&gt;&lt;p&gt; Argentina, Australia, Austria, Belgium, Brunei Darussalam, Canada, Chile, Cyprus, Czechia, Denmark, Estonia, Finland, France, Germany, Greece, Iceland, Ireland, Israel, Italy, Japan, Luxembourg, Malta, Netherlands, New Zealand, Norway, Poland, Portugal, Republic of Korea, Singapore, Slovakia, Slovenia, Spain, Sweden, Switzerland, United Kingdom, United States of America, Uruguay &lt;a href=&quot;#footnote-ref-1&quot;&gt;&amp;#x2191;&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;
 			</language>
-			<language lang="es"/>
+			<language lang="es">&lt;h2&gt;Tratamiento de valores faltantes:&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;&lt;em&gt;A nivel de país:&lt;/em&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;El punto de partida para calcular el índice es reunir la información existente para cada indicador de seguimiento. En muchos casos, esto implica el uso de series temporales de países que han sido producidas o cotejadas por organismos de las Naciones Unidas en consulta con los gobiernos de los países (por ejemplo, la cobertura de inmunización, el acceso al saneamiento, la cobertura del tratamiento del VIH, etc.). Algunas de estas series temporales publicadas implican la elaboración de modelos matemáticos para conciliar múltiples fuentes de datos o imputar los valores faltantes, y estos detalles se resumen en el Anexo 1.&lt;/p&gt;
+&lt;p&gt;Después de ensamblar estos datos, todavía hay valores faltantes en algunos países/años para algunos indicadores. El cálculo del índice de cobertura de servicios de salud universal requiere valores para cada indicador de seguimiento de un país, por lo que es necesario realizar alguna imputación para cubrir estas brechas de datos. El enfoque actual consiste en un sencillo algoritmo de imputación. Para cada indicador:.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;ul&gt;
+      &lt;li&gt; Si un país tiene valores faltantes entre dos años con valores, se utiliza la interpolación lineal para rellenar los valores faltantes de los años intermedios&lt;/li&gt;
+      &lt;li&gt;Si un país tiene años históricos con valores, pero ningún valor actual, se utiliza la extrapolación constante para rellenar los valores faltantes hasta el año actual&lt;/li&gt;
+      &lt;li&gt;Si un país no tiene valores, se imputa un valor. En el caso de la búsqueda de atención por neumonía y la densidad de cirujanos, se ajusta una regresión para imputar los valores faltantes (véase el anexo 1 para más detalles). Para todos los demás indicadores, se calcula una mediana regional para imputar los valores faltantes. Las regiones se basan en las regiones geográficas del Banco Mundial, con una agrupación separada de los países tradicionales de ingresos altos&lt;sup&gt;&lt;a href=&quot;#footnote-1&quot; id=&quot;footnote-ref-1&quot;&gt;[1]&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Debido al calendario y la distribución de las diversas encuestas de salud y otros mecanismos de recopilación de datos, los países no recopilan ni informan sobre los 14 indicadores de seguimiento de la cobertura de los servicios de salud con carácter anual. Además, el seguimiento a nivel de país se realiza más adecuadamente en intervalos de tiempo más amplios, por ejemplo, cada 5 años, para permitir la recopilación de nuevos datos en los indicadores. Por lo tanto, la medida en que se ha utilizado la imputación para completar la información faltante debe comunicarse junto con el valor del índice.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;&lt;em&gt;A nivel regional y mundial:&lt;/em&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Cualquier imputación necesaria se realiza a nivel de país. Estos valores de los países pueden utilizarse para calcular los valores regionales y globales.&lt;/p&gt;&lt;div class=&quot;footnotes&quot;&gt;&lt;div&gt;&lt;sup class=&quot;footnote-number&quot; id=&quot;footnote-1&quot;&gt;1&lt;/sup&gt;.&lt;p&gt; Alemania, Argentina, Australia, Austria, Bélgica, Brunei Darussalam, Canadá, Chile, Chipre, Chequia, Dinamarca, Estonia, Finlandia, Francia, Grecia, Irlanda, Islandia, Israel, Italia, Japón, Luxemburgo, Malta, Países Bajos, Nueva Zelanda, Noruega, Polonia, Portugal, República de Corea, Singapur, Eslovaquia, Eslovenia, España, Suecia, Suiza, Reino Unido, Estados Unidos de América, Uruguay &lt;a href=&quot;#footnote-ref-1&quot;&gt;&amp;#x2191;&lt;/a&gt;.&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;
+			</language>
 			<language lang="fr">&lt;h2&gt; Traitement des valeurs manquantes :&lt;/h2&gt;
 &lt;ul&gt;
   &lt;li&gt; &lt;strong&gt; &lt;em&gt; Au niveau national :&lt;/em&gt;&lt;/strong&gt;&lt;/li&gt;
