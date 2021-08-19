@@ -10,3 +10,272 @@ SDG_INDICATOR: '<p>Indicador 15.4.2: Índice de cobertura verde de las montañas
 SDG_CUSTODIAN_AGENCIES: "<h1>Información institucional</h1>\n<h2>Organización(es):</h2>\n\
   <p>Organización de las Naciones Unidas para la Agricultura y la Alimentación (FAO)</p>"
 COMPILING_ORG: "<h1>Compiladores de datos</h1>\n<p>FAO</p>"
+OTHER_DOC: "<h1>Referencias</h1>\n<p>Eurostat (2019). <em>Rejilla LUCAS</em>. Recuperado\
+  \ de Eurostat Your Key to European statistcs: https://ec.europa.eu/eurostat/web/lucas/data/lucas-grid\
+  \ </p>\n<p>Kapos, V., Rhind, J., Edwards, M., Prince, M., &amp; Ravillous, C. (2000).\
+  \ Developing a map of the world&#x2019;s mountain forests. En M. F. Price , &amp;\
+  \ N. Butt (Eds.), <em>Forests in Sustainable Mountain Development: A State-of-Knowledge\
+  \ Report for 2000</em> (pp. 4-9). Wallingford: CAB International.</p>\n<p>Karagulle,\
+  \ D., Frye, C., Breyer, S., Aniello, P., Vaughan, R., &amp; Wright, D. (2017). Modelado\
+  \ de regiones globales de Hammond landform a partir de datos de elevación de 250\
+  \ m. <em>Transacciones en SIG</em>. doi:10.1111/tgis.12265</p>\n<p>K&#xF6;rner,\
+  \ C., Paulsen, J., &amp; Spehn, E. (2011). Una definición de las montañas y sus\
+  \ cinturones bioclimáticos para las comparaciones globales de los datos de biodiversidad.\
+  \ <em>Alpine Botany, 121</em>, 73-78.</p>\n<p>Santoro, M., Kirches, G., Wevers,\
+  \ J., Boettcher, M., Brockmann, C., Lamarche, C., . . . Defourny, P. (2015). <em>Land\
+  \ Cover CCI PRODUCT USER GUIDE VERSION 2.0.</em> Agencia Espacial Europea. Agencia\
+  \ Espacial Europea. Recuperado de http://maps.elie.ucl.ac.be/CCI/viewer/download/ESACCI-LC-Ph2-PUGv2_2.0.pdf</p>\n\
+  <p><a href=\"http://www.mountainpartnership.org/our-work/focusareas/foodsecurity/en/\"\
+  >http://www.mountainpartnership.org/our-work/focusareas/foodsecurity/en/</a> (el\
+  \ ráster SIG de las montañas está disponible para su descarga en la barra de la\
+  \ derecha) </p>\n<p><a href=\"http://www.openforis.org/tools/collect-earth.html\"\
+  >http://www.openforis.org/tools/collect-earth.html</a> </p>\n<p><a href=\"http://www.fao.org/3/a-i5175e.pdf\"\
+  >http://www.fao.org/3/a-i5175e.pdf</a> </p>\n<p><a href=\"http://www.fao.org/\"\
+  >http://www.fao.org/</a> </p>"
+COMPARABILITY: "<h2>Fuentes de discrepancia:</h2>\n<p>La metodología por defecto que\
+  \ se presenta aquí se basa en el uso del producto global ICC cobertura terrestre\
+  \ de la AEE, del que se ha informado que tiene una precisión global del 73,2%. Sin\
+  \ embargo, la estimación de la precisión se calculó utilizando las 22 clases de\
+  \ cobertura del suelo originales. Como la metodología presentada aquí se basa en\
+  \ el uso de clases agregadas, cabe esperar que la precisión sea mayor. </p>\n<p>La\
+  \ precisión de los productos de cobertura terrestre global puede variar regionalmente.\
+  \ Por la misma razón, los valores de los indicadores presentados pueden diferir\
+  \ de los derivados de los mapas nacionales de la cubierta terrestre. </p>"
+COVERAGE: "<h1>Disponibilidad de datos</h1>\n<p>El indicador se genera a partir de\
+  \ datos geoespaciales y, por tanto, tiene una cobertura universal. Los países que\
+  \ no tienen valores en la base de datos global de los ODS son A) países sin montañas\
+  \ en los que el indicador no es aplicable o B) países que no han validado las estimaciones\
+  \ de la FAO y que, sin embargo, no han proporcionado cifras propias.</p>\n<ol>\n\
+  \  <li>Los datos de la ICC de la AEE sobre la cubierta terrestre están disponibles\
+  \ de forma gratuita en <a href=\"https://www.esa-landcover-cci.org/?q=node/164\"\
+  >https://www.esa-landcover-cci.org/?q=node/164</a></li>\n  <li>Los datos de Kapos\
+  \ están disponibles gratuitamente en los siguientes enlaces:</li>\n</ol>\n<ul>\n\
+  \  <li>Sitio web de la Alianza para las Montañas de la FAO, encontrar el archivo\
+  \ raster en el banner de la derecha. Acceso en <a href=\"http://www.fao.org/mountain-partnership/our-work/focusareas/foodsecurity/en/\"\
+  >http://www.fao.org/mountain-partnership/our-work/focusareas/foodsecurity/en/</a>\
+  \ </li>\n  <li>La clasificación Kapos del USGS Mountain Explorer se puede encontrar\
+  \ como GME_K1classes.zip en: <a href=\"https://rmgsc.cr.usgs.gov/outgoing/ecosystems/Global/\"\
+  >https://rmgsc.cr.usgs.gov/outgoing/ecosystems/Global</a></li>\n</ul>\n<ol>\n  <li>Los\
+  \ límites administrativos están disponibles en varias bases de datos globales en\
+  \ los siguientes enlaces:</li>\n</ol>\n<ul>\n  <li>Capa de Unidades Administrativas\
+  \ Mundiales (GAUL, por sus siglas en inglés) de la FAO <a href=\"https://data.europa.eu/euodp/data/dataset/jrc-10112-10004\"\
+  >https://data.europa.eu/euodp/data/dataset/jrc-10112-10004</a></li>\n  <li>Divas-GIS\
+  \ <a href=\"https://www.diva-gis.org/gdata\">https://www.diva-gis.org/gdata</a>\
+  \ </li>\n  <li>Límites del segundo nivel administrativo de las Naciones Unidas (SALB)\
+  \ <a href=\"https://www.unsalb.org/\">https://www.unsalb.org/</a></li>\n</ul>\n\
+  <h2>Series temporales:</h2>\n<p>Se dispone de cifras nacionales, regionales y mundiales\
+  \ para los años 2000, 2010, 2015 y 2018.</p>\n<h2>Desagregación:</h2>\n<p>En la\
+  \ base de datos global de los ODS, el indicador se desglosa por clase de elevación\
+  \ de la montaña (descriptor de montaña). En el portal de indicadores de los ODS\
+  \ de la FAO se encuentra disponible una dimensión de desagregación adicional, la\
+  \ clase de cubierta terrestre del IPCC. La combinación de seis clases de elevación\
+  \ y seis tipos principales de cobertura del suelo según la clasificación del IPCC\
+  \ da lugar a 36 desgloses diferentes por país y por año de referencia. </p>"
+QUALITY_ASSURE: "<h2>Garantía de calidad:</h2>\n<ul>\n  <li>Las cifras de los países\
+  \ generadas por la FAO se envían a los puntos focales oficiales de los ODS para\
+  \ su validación antes de su publicación.</li>\n</ul>"
+DOC_METHOD: "<h2>Métodos y directrices a disposición de los países para la recopilación\
+  \ de los datos a nivel nacional:</h2>\n<p>El valor del indicador&#xA0;puede calcularse\
+  \ como sigue:&#xA0;&#xA0;</p>\n<ol>\n  <li>Las clases de cobertura del suelo de\
+  \ la AEE&#xA0;ICC&#xA0;están&#xA0;reclasificadas en seis clases del IPCC&#xA0;y\
+  \ mapa de cobertura verde/no verde&#xA0;</li>\n  <li>El mapa de rangos de elevación\
+  \ de Kapos&#xA0;se superpone&#xA0;al mapa&#xA0;resultante del paso 1.&#xA0;</li>\n\
+  \  <li>El histograma zonal&#xA0;se calcula&#xA0;para cada país&#xA0;y&#xA0;agrupación\
+  \ regional&#xA0;de tal manera que el número de píxeles que pertenecen a clases verdes\
+  \ y&#xA0;no verdes&#xA0;se contabilizan&#xA0;dentro de cada rango de elevación.&#xA0;</li>\n\
+  \  <li>Se calcula la relación (%) entre la suma de los píxeles verdes y el número\
+  \ total de píxeles (verdes más no verdes) que caen dentro de cada&#xA0;Kapos&#xA0;para\
+  \ obtener los valores de MGCI&#xA0;por cada&#xA0;clase de&#xA0;Kapos.&#xA0;</li>\n\
+  \  <li>El mismo procedimiento&#xA0;se utiliza&#xA0;para calcular la distribución\
+  \ de las clases de cobertura del suelo&#xA0;definidas por el IPCC dentro de cada\
+  \ rango de elevación.&#xA0;</li>\n</ol>"
+REG_AGG: "<h2>Agregados regionales:</h2>\n<p>La utilización de datos espacialmente\
+  \ explícitos permite calcular directamente el valor del indicador para cualquier\
+  \ zona delimitada. Sin embargo, teniendo en cuenta la resolución espacial de 300\
+  \ metros de la capa ICC, el cálculo de los valores del indicador para las regiones\
+  \ más pequeñas que constan de pocos píxeles puede dar lugar a cambios bruscos en\
+  \ los valores del indicador debido al impacto relativamente mayor de los errores\
+  \ de clasificación. </p>"
+IMPUTATION: "<h2>Tratamiento de valores faltantes:</h2>\n<ul>\n  <li><strong><em>A\
+  \ nivel de país:</em></strong></li>\n</ul>\n<p>No se aplica, ya que el indicador\
+  \ tiene una cobertura universal</p>\n<ul>\n  <li><strong><em>A nivel regional y\
+  \ mundial:</em></strong></li>\n</ul>\n<p>No procede, ya que el indicador tiene una\
+  \ cobertura universal</p>"
+DATA_COMP: "<h1>Metodología</h1>\n<h2>Método de cálculo:</h2>\n<p>El Índice de Cobertura\
+  \ Vegetal de Montaña se define como </p>\n<p><em>MGCI = (Área de cobertura verde\
+  \ de la montaña/Área total de la montaña) X 100</em></p>\n<p>Donde Área de Cobertura\
+  \ Verde de Montaña = Suma de las áreas cubiertas por las clases de cobertura terrestre\
+  \ de Tierras de Cultivo, Pastizales, Bosques y Humedales.</p>\n<p>El descriptor\
+  \ de vegetación se calcula a partir de un mapa de cobertura del suelo utilizando\
+  \ funciones básicas del SIG. </p>\n<p>Si el país/región no tiene zona de montaña,\
+  \ se le asignará el valor N/A.</p>"
+REC_USE_LIM: "<h2>Comentarios y limitaciones:</h2>\n<p>El indicador puede calcularse\
+  \ utilizando datos de observación de la Tierra disponibles gratuitamente y operaciones\
+  \ sencillas de SIG que pueden procesarse en SIG de software libre y de código abierto\
+  \ (FOSS). </p>\n<p>Las posibles limitaciones de la metodología descrita anteriormente\
+  \ están relacionadas principalmente con la calidad de los datos sobre la cubierta\
+  \ terrestre. Los mapas de cobertura del suelo de la ICC AEE están actualmente disponibles\
+  \ a una resolución de 300 metros, lo que limita su aplicabilidad en el monitoreo\
+  \ de paisajes pequeños y altamente heterogéneos. Por lo tanto, si los países tienen\
+  \ mapas nacionales de cobertura territorial de mayor resolución espacial y comparable\
+  \ o de mejor calidad, la FAO aconseja utilizarlos, siguiendo la misma metodología\
+  \ presentada aquí, para la generación de valores MGCI. </p>\n<p>En cuanto a la interpretación\
+  \ del indicador, aunque en la gran mayoría de los casos la dirección deseada es\
+  \ un aumento de la cubierta verde de montaña que refleja la restricción del daño\
+  \ a los ecosistemas naturales y posiblemente incluso la expansión de bosques, matorrales\
+  \ y pastizales a través de esfuerzos de conservación, en casos más limitados, un\
+  \ aumento en el valor del indicador en las clases de alta elevación también puede\
+  \ significar la invasión de vegetación en áreas previamente cubiertas por glaciares\
+  \ u otros permanentes o capas semipermanente de hielo o nieve, como resultado del\
+  \ calentamiento global debido al cambio climático. Ese cambio puede seguirse con\
+  \ la metodología actual y señalarse en consecuencia a nivel de datos desglosados\
+  \ por tipo de cubierta terrestre y clase de elevación, para distinguir este caso\
+  \ de la tendencia general deseada de aumentar la cubierta verde de las montañas.\
+  \ </p>"
+RATIONALE: "<h2>Justificación:</h2>\n<p>Los ecosistemas de montaña son importantes\
+  \ centros de biodiversidad que proporcionan valiosos servicios ecosistémicos a las\
+  \ zonas situadas aguas arriba y abajo. Sin embargo, las montañas son muy frágiles\
+  \ y se ven afectadas fácilmente por factores tanto naturales como antropogénicos.\
+  \ Entre ellos se encuentran el cambio climático, los riesgos naturales como los\
+  \ corrimientos de tierra y las inundaciones, la expansión agrícola no planificada,\
+  \ la urbanización no planificada, la extracción de madera y las actividades recreativas.\
+  \ La degradación de los ecosistemas de montaña, como la pérdida de la cubierta glaciar,\
+  \ la biodiversidad de la montaña y la cubierta vegetal, afectará a la capacidad\
+  \ del ecosistema para suministrar agua aguas abajo. La pérdida de la cubierta forestal\
+  \ y vegetal reducirá la capacidad del ecosistema para retener el suelo y evitar\
+  \ desprendimientos e inundaciones aguas abajo. </p>\n<p>Por lo tanto, el seguimiento\
+  \ de los cambios en la vegetación de montaña proporciona información sobre el estado\
+  \ de los ecosistemas de montaña. El seguimiento del Índice de cobertura verde de\
+  \ las montañas (MGCI, por sus siglas en inglés) a lo largo del tiempo puede proporcionar\
+  \ información sobre el alcance del cambio vegetacional y de la salud general del\
+  \ ecosistema de montaña. La evaluación del cambio de la cubierta vegetal diferenciada\
+  \ por la elevación es importante para comprender los cambios que se producen en\
+  \ las regiones de montaña debido a la influencia de la pendiente, el aspecto y la\
+  \ altitud del terreno montañoso en el ecosistema. </p>\n<p>Sin embargo, los valores\
+  \ del MGCI deben interpretarse con cuidado. No proporciona los detalles sobre el\
+  \ cambio de las especies, el cambio en la línea de árboles o las zonas de sombra\
+  \ de la lluvia. Entender la variación en la composición de las especies y la línea\
+  \ de árboles será importante para identificar los impactos a largo plazo del cambio\
+  \ climático en las regiones de montaña. El análisis de las variaciones vegetativas\
+  \ en cada una de las zonas de elevación a lo largo del tiempo ayudará a determinar\
+  \ las medidas de gestión y adaptación adecuadas.</p>\n<p>En algunos casos, un aumento\
+  \ del valor del indicador en las clases de alta elevación también puede significar\
+  \ la invasión de la vegetación en zonas anteriormente cubiertas por glaciares u\
+  \ otras capas de hielo o nieve permanentes o semipermanentes, como resultado del\
+  \ calentamiento global debido al cambio climático. Este cambio puede rastrearse\
+  \ con la metodología actual y marcarse en consecuencia a nivel de datos desagregados\
+  \ por tipo de cubierta terrestre y clase de elevación, para distinguir este caso\
+  \ de la tendencia general deseada de aumento de la cubierta verde de las montañas.</p>"
+DATA_SOURCE: "<h1>Proveedores de datos</h1>\n<p>Agencia Espacial Europea </p>\n<p>Alianza\
+  \ para las Montañas, FAO</p>\n<p>USGS </p>"
+REL_CAL_POLICY: "<h2>Publicación de datos:</h2>\n<p>Todos los datos están ya disponibles</p>"
+FREQ_COLL: "<h1>Calendario</h1>\n<h2>Recopilación de datos:</h2>\n<p>La ICC cubierta\
+  \ terrestre de la AEE está disponible desde 1992 hasta 2018. Cada año se entrega\
+  \ un nuevo mapa global de la cubierta terrestre.</p>"
+COLL_METHOD: "<h2>Proceso de recolección:</h2>\n<p>La FAO genera el indicador para\
+  \ todos los países y regiones que tienen zonas de montaña utilizando las capas de\
+  \ datos geoespaciales descritas en este documento. La FAO comparte las cifras de\
+  \ los países con los puntos focales de los ODS de los INE para su validación antes\
+  \ de la publicación, de acuerdo con las directrices del IAEG-SDG sobre flujos de\
+  \ datos globales y presentación de informes. En la misma ocasión, la FAO solicita\
+  \ a los países que proporcionen sus propias estimaciones para el indicador en caso\
+  \ de que estén disponibles. </p>"
+SOURCE_TYPE: "<h1>Fuentes de datos</h1>\n<h2>Descripción:</h2>\n<p><strong>1)Datos\
+  \ de la AEE ICC cubierta terrestre: </strong></p>\n<p>La Iniciativa sobre el Cambio\
+  \ Climático de la Agencia Espacial Europea (ICC de la AEE) es un programa cuyo objetivo\
+  \ es aprovechar todo el potencial de los datos de observación de la Tierra recogidos\
+  \ por la AEE para contribuir a las bases de datos de las Variables Climáticas Esenciales\
+  \ exigidas por la Convención Marco de las Naciones Unidas sobre el Cambio Climático\
+  \ (CMNUCC). </p>\n<p>Los productos ICC cubierta terrestre han sido elaborados utilizando\
+  \ una combinación de datos de teledetección como el MERIS de 300 m, SPOT &#x2013;VEGETACION\
+  \ de 1 km, PROBA &#x2013;V de 1 km y AVHRR de 1 km. El producto ICC consiste en\
+  \ una serie de mapas anuales de la cubierta terrestre a 300 m de resolución que\
+  \ abarcan el período comprendido entre 1992 y 2018. El periodo 1992-2015 está disponible\
+  \ en formato raster, mientras que el 2016-2018 está disponible en formato netCDF\
+  \ y se requiere una transformación a GTIFF para que estos conjuntos de datos estén\
+  \ disponibles para su procesamiento en un entorno SIG. Los datos de la cubierta\
+  \ terrestre son actualizados cada año por la Agencia Espacial Europea. </p>\n<p>El\
+  \ ICC de la AEE se adhiere al Sistema de Clasificación de Cobertura de la Organización\
+  \ de las Naciones Unidas para la Agricultura y la Alimentación (FAO) (Santoro, et\
+  \ al., 2015). </p>\n<p><strong>2) Capa de clase de montaña Kapos:</strong></p>\n\
+  <p>El conjunto de datos Kapos es un archivo ráster descriptor de montañas global.\
+  \ El archivo proporciona una clasificación de las cadenas montañosas de acuerdo\
+  \ con las definiciones propuestas por Kapos et al 2000:</p>\n<ul>\n  <li>Clase 1:\
+  \ elevación &gt; 4500 metros </li>\n  <li>Clase 2: elevación 3500 - 4500 metros</li>\n\
+  \  <li>Clase 3: elevación 2500 &#x2013; 3500 metros </li>\n  <li>Clase 4: elevación\
+  \ 1500 &#x2013; 2500 metros y pendiente &#x2265; 2</li>\n  <li>Clase 5: elevación\
+  \ 1.000&#x2013;1.500 metros y pendiente &#x2265; 5 o rango de elevación local (7\
+  \ kilómetros de radio) &#x2265; 300 metros</li>\n  <li>Clase 6: elevación 300&#x2013;1.000\
+  \ metros y rango de elevación local (7 kilómetros de radio) &#x2265; 300 metros\
+  \ fuera de 23&#xB0;N&#x2014;19&#xB0;S </li>\n  <li>Clase 0: Definida para representar\
+  \ las zonas no montañosas. </li>\n</ul>"
+STAT_CONC_DEF: "<h1>Conceptos y definiciones</h1>\n<h2>Definición:</h2>\n<p>El Índice\
+  \ de Cobertura Verde (ICMG, por sus siglas en inglés) está diseñado para medir la\
+  \ extensión y los cambios de la vegetación verde en las zonas de montaña, es decir,\
+  \ bosques, arbustos, árboles, pastos, tierras de cultivo, etc. &#x2013; con el fin\
+  \ de supervisar los avances en el objetivo de la montaña.</p>\n<p>El ICMG se define\
+  \ como el porcentaje de cobertura verde sobre la superficie total de la región montañosa\
+  \ de un país determinado y para un año determinado. El objetivo del índice es supervisar\
+  \ la evolución de la cubierta verde y evaluar así el estado de conservación de los\
+  \ ecosistemas de montaña.</p>\n<h2>Conceptos:</h2>\n<p>El índice de cobertura verde\
+  \ de las montañas se basa en dos capas de información descriptiva:</p>\n<p><u>1.Una\
+  \ capa descriptiva de la montaña</u>: las montañas pueden definirse con referencia\
+  \ a una variedad de parámetros, como el clima, la elevación, la ecología (K&#xF6;rner,\
+  \ Paulsen, &amp; Spehn, 2011) (Karagulle, et al., 2017). Esta metodología se adhiere\
+  \ a la definición de montaña del PNUMA- WCMC, basándose a su vez en la descripción\
+  \ de la montaña propuesta por (Kapos, Rhind, Edwards, Prince, &amp; Ravillous, 2000).</p>\n\
+  <p> Esta descripción clasifica las montañas según la altitud, la pendiente y el\
+  \ rango de elevación en 6 categorías.</p>\n<table>\n  <tbody>\n    <tr>\n      <td>\n\
+  \        <p>Clase de montaña</p>\n      </td>\n      <td>\n        <p>Descripción\
+  \ </p>\n      </td>\n    </tr>\n    <tr>\n      <td>\n        <p>1</p>\n      </td>\n\
+  \      <td colspan=\"2\">\n        <p>Elevación &gt; 4.500 metros</p>\n      </td>\n\
+  \    </tr>\n    <tr>\n      <td>\n        <p>2</p>\n      </td>\n      <td colspan=\"\
+  2\">\n        <p>Elevación 3.500&#x2013;4.500 metros</p>\n      </td>\n    </tr>\n\
+  \    <tr>\n      <td>\n        <p>3</p>\n      </td>\n      <td colspan=\"2\">\n\
+  \        <p>Elevación 2.500&#x2013;3.500 metros</p>\n      </td>\n    </tr>\n  \
+  \  <tr>\n      <td>\n        <p>4</p>\n      </td>\n      <td colspan=\"2\">\n \
+  \       <p>Elevación 1.500&#x2013;2.500 metros y pendiente &gt; 2</p>\n      </td>\n\
+  \    </tr>\n    <tr>\n      <td>\n        <p>5</p>\n      </td>\n      <td colspan=\"\
+  2\">\n        <p>Elevación 1.000&#x2013;1.500 metros y pendiente &gt; 5 o rango\
+  \ de elevación local (LER 7 kilómetros de radio) &gt; 300 metros</p>\n      </td>\n\
+  \    </tr>\n    <tr>\n      <td>\n        <p>6</p>\n      </td>\n      <td colspan=\"\
+  2\">\n        <p>Elevación 300&#x2013;1.000 metros y rango de elevación local (7\
+  \ kilómetros de radio) &gt; 300 metros</p>\n      </td>\n    </tr>\n  </tbody>\n\
+  </table>\n<p><u>2. Una capa descriptiva de la vegetación</u>: La capa descriptiva\
+  \ de vegetación clasifica la cobertura del suelo en áreas verdes y no verdes. La\
+  \ vegetación verde incluye tanto la vegetación natural como la resultante de la\
+  \ actividad antrópica (por ejemplo, cultivos, forestación, etc.). Las zonas no verdes\
+  \ incluyen las zonas con muy&#xA0;escasa&#xA0;vegetación&#xA0;, la tierra desnuda,\
+  \ el agua, el hielo/nieve permanente y las zonas urbanas. La capa de descripción\
+  \ de la vegetación puede obtenerse de diferentes maneras, pero los mapas de la cubierta\
+  \ terrestre basados en la teledetección son la fuente de datos más conveniente para\
+  \ este fin, ya que proporcionan la información necesaria sobre las zonas verdes\
+  \ y no verdes de forma espacialmente explícita y permiten la comparación a lo largo\
+  \ del tiempo mediante el análisis de los cambios en la cubierta terrestre. </p>\n\
+  <p>Actualmente, la FAO utiliza las series temporales de la cubierta terrestre producidas\
+  \ por la Agencia Espacial Europea (AEE) en el marco de la Iniciativa sobre el Cambio\
+  \ Climático (ICC) como solución general. Las clases originales de la ICC se reclasifican\
+  \ en seis clases del IPCC y, además, en clases binarias de cobertura verde/no verde\
+  \ como sigue:</p>\n<table>\n  <tbody>\n    <tr>\n      <td>\n        <p>Clase ICC\
+  \ de la AEE</p>\n      </td>\n      <td>\n        <p>Clase IPCC</p>\n      </td>\n\
+  \      <td>\n        <p>Verde / No verde</p>\n      </td>\n    </tr>\n    <tr>\n\
+  \      <td>\n        <p>50, 60, 61, 62, 70, 71, 72, 80, 81, 82, 90, 100</p>\n  \
+  \    </td>\n      <td>\n        <p>Bosque<sup><a href=\"#footnote-1\" id=\"footnote-ref-1\"\
+  >[1]</a></sup></p>\n      </td>\n      <td>\n        <p>Verde</p>\n      </td>\n\
+  \    </tr>\n    <tr>\n      <td>\n        <p>110, 120, 121, 122, 130, 140, </p>\n\
+  \      </td>\n      <td>\n        <p>Pasturas</p>\n      </td>\n      <td>\n   \
+  \     <p>Verde</p>\n      </td>\n    </tr>\n    <tr>\n      <td>\n        <p>10,11,\
+  \ 12, 20, 30, 40</p>\n      </td>\n      <td>\n        <p>Tierras de cultivo</p>\n\
+  \      </td>\n      <td>\n        <p>Verde</p>\n      </td>\n    </tr>\n    <tr>\n\
+  \      <td>\n        <p>160, 170, 180</p>\n      </td>\n      <td>\n        <p>Humedal</p>\n\
+  \      </td>\n      <td>\n        <p>Verde</p>\n      </td>\n    </tr>\n    <tr>\n\
+  \      <td>\n        <p>190</p>\n      </td>\n      <td>\n        <p>Asentamiento</p>\n\
+  \      </td>\n      <td>\n        <p>No verde</p>\n      </td>\n    </tr>\n    <tr>\n\
+  \      <td>\n        <p>150, 151, 152, 153, 200, 201, 202, 210, 220</p>\n      </td>\n\
+  \      <td>\n        <p>Otros terrenos</p>\n      </td>\n      <td>\n        <p>No\
+  \ verde</p>\n      </td>\n    </tr>\n  </tbody>\n</table><div class=\"footnotes\"\
+  ><div><sup class=\"footnote-number\" id=\"footnote-1\">1</sup><p> Tenga en cuenta\
+  \ que aquí el término &#x201C;Bosque&#x201D; se refiere a la cobertura del suelo,\
+  \ no necesariamente al uso del suelo <a href=\"#footnote-ref-1\">&#x2191;</a></p></div></div>"
+SDG_RELATED_INDICATORS: "<h1>Indicadores relacionados</h1>\n<p>6.6.1, 15.1.1, 15.2.1</p>"
+META_LAST_UPDATE: '<p>Última actualización: 14 de diciembre de 2020</p>'
