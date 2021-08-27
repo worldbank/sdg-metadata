@@ -52,7 +52,7 @@ module.exports = function(refresh=false) {
         const components = await getJSON(endpoint, headers)
         let nextPage = components.next
         while (nextPage) {
-            const nextPageComponents = await(nextPage, headers)
+            const nextPageComponents = await getJSON(nextPage, headers)
             components.results = components.results.concat(nextPageComponents.results)
             nextPage = nextPageComponents.next
         }
