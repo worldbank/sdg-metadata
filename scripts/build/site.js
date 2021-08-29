@@ -5,7 +5,11 @@ module.exports = function(refresh=false) {
     const store = require('../translation-store')
     const { conceptStore } = require('sdg-metadata-convert')
     const bent = require('bent')
-    const getJSON = bent('json')
+
+    const headers = {
+        'Authorization': 'Token ' + process.env.WEBLATE_API_TOKEN
+    }
+    const getJSON = bent('json', headers)
 
     if (refresh) {
         store.refresh()
@@ -22,11 +26,6 @@ module.exports = function(refresh=false) {
     }
 
     fs.writeFileSync(path.join(destinationFolder, 'store.json'), JSON.stringify(jekyllData), 'utf8')
-
-    // We also need a file for the translation statistics.
-    const headers = {
-        'Authorization': 'Token ' + process.env.WEBLATE_API_TOKEN
-    }
 
     const languageProperties = [
         'total',
@@ -49,10 +48,10 @@ module.exports = function(refresh=false) {
     }
 
     async function getStatistics(endpoint) {
-        const components = await getJSON(endpoint, headers)
+        const components = await getJSON(endpoint)
         let nextPage = components.next
         while (nextPage) {
-            const nextPageComponents = await getJSON(nextPage, headers)
+            let nextPageComponents = await getJSON(nextPage)
             components.results = components.results.concat(nextPageComponents.results)
             nextPage = nextPageComponents.next
         }
@@ -61,7 +60,7 @@ module.exports = function(refresh=false) {
             if (typeof component === 'undefined') {
                 continue
             }
-            const stats = await getJSON(component.statistics_url, headers)
+            const stats = await getJSON(component.statistics_url)
             for (const language of stats.results) {
                 if (typeof languages[language.code] === 'undefined') {
                     languages[language.code] = {}
