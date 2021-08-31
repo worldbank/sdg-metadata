@@ -10,14 +10,11 @@ The purpose of this project is to translate metadata for Sustainable Development
 
 * In October 2020, the [second phase](/sdg-metadata/phase_2/) of the study was launched. All SDG indicator metadata files designated by the IAEG-SDGs as tier 1 were converted into machine-readable format and translated. 
 
-* In August 2021, the study will be expanded to include all tier 2 metadata files and all updated tier 1 metadata files approved by the IAEG-SDG. Files will be harvested from the UNSD SDG Data Lab on a routine basis. This expansion is possible due to a new partnership with the UN Food and Agriculture Organization, and ongoing collaboration with the SDG-SDMX Working Group, the IAEG-SDG Metadata Working Group, and the secretariat of the IAEG-SDGs.
+* In September 2021, the study will be expanded to include all tier 2 metadata files and all updated tier 1 metadata files approved by the IAEG-SDG. Files will be harvested from the UNSD SDG Data Lab on a routine basis. This expansion is possible due to a new partnership with the UN Food and Agriculture Organization, and ongoing collaboration with the SDG-SDMX Working Group, the IAEG-SDG Metadata Working Group, and the secretariat of the IAEG-SDGs.
 
 Translations are prepared through our ongoing partnerships with national statistical offices and regional agencies. UNECE and Rosstat prepared Russian translations. Statistics Canada prepared French translations. ECLAC and IADB prepared Spanish translations. We welcome partners to generate translations into other languages.
 
-We are currently exploring how our method can be used to translate [SDG Data Structure Defintion](https://unstats.un.org/sdgs/iaeg-sdgs/sdmx-working-group/) files into local languages. These structural metadata are used to convey SDG data into the SDG Data Lab. Translatating the DSD can assist national statistical offices preparing and contributing SDG data. A collaboration with UNSD and INSEE is exploring French translation.
-
 * [Reference Metadata]({{ site.baseurl }}/metadata/)
-* Structural Metadata (to come)
 * [Documentation]({{ site.baseurl }}/documentation/)
 * [Presentations]({{ site.baseurl }}/presentations/)
 
