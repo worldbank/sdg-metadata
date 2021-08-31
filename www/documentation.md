@@ -10,11 +10,10 @@ During the [second phase](/sdg-metadata/phase_2/) of the study, the protocol was
 
 The project has now begun its third phase. The enhanced protocol provides translators with the most recent updates to English metadata files. Leveraging the method developed during the second phase of our project, UNSD now produces machine-readable metadata files and stores them in the SDG Data Lab. Accordingly, our project now 'harvests' these metadata files routinely and places them into our computer-assisted translation tool for translation by our partners. 
 
-Previously translated files are retained; files to be updated or newly translated are noted within translation status bars. The result is a more efficient, timely, and accurate method of maintaining metadata files as revisions are approved by the IAEG-SDGs.
+**Previously translated files are retained**; files to be updated or newly translated are noted within translation status bars. **Updates to English metadata files are flagged** so that previous translations can be updated easily. The result is a more efficient, timely, and accurate method of maintaining metadata files as revisions are approved by the IAEG-SDGs.
 
 * The first harvest occurred on DATE. Beginning September 30th, metadata will be harvested on **the last Friday of every quarter.**
 * [How do I translate machine-readable files and access the output?](https://docs.google.com/document/d/1O2k7Gphah0KYXhVYsOQGWPb_TMyrOiCCzjjBsS0CNTQ/edit?usp=sharing)
-* [Will I lose my translation work when metadata files are updated?](https://docs.google.com/document/d/1QuVISdsChNiPzPiXVzoUXPfsoHHaCadG_YmwS1K5sNg/edit?usp=sharing)
   
  
 
