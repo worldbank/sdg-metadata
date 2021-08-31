@@ -8,7 +8,7 @@ The SDG Metadata Translation [pilot](/sdg-metadata/pilot/) produced a series of 
 
 During the [second phase](/sdg-metadata/phase_2/) of the study, the protocol was refined to accommodate finalization of the SDG Metadata Concepts agreed upon by the SDG SDMX Working Group of the Interagency Expert Group on SDGs. The protocol also was refined to improve automatic formatting of files.
 
-The project has now begun its third phase. The enhanced protocol provides translators with the most recent updates to English metadata files. Leveraging the method developed during the second phase of our project, UNSD now produces machine-readable metadata files and stores them in the SDG Data Lab. Accordingly, our project now 'harvests' these metadata files routinely and places them into our computer-assisted translation tool for translation by our partners. 
+The project has now begun its **third phase**. The enhanced protocol provides translators with the most recent updates to English metadata files. Leveraging the method developed during the second phase of our project, UNSD now produces machine-readable metadata files and stores them in the SDG Data Lab. Accordingly, our project now 'harvests' these metadata files routinely and places them into our computer-assisted translation tool for translation by our partners. 
 
 **Previously translated files are retained**; files to be updated or newly translated are noted within translation status bars. **Updates to English metadata files are flagged** so that previous translations can be updated easily. The result is a more efficient, timely, and accurate method of maintaining metadata files as revisions are approved by the IAEG-SDGs.
 
