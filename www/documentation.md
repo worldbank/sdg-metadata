@@ -12,8 +12,8 @@ The project has now begun its **third phase**. The enhanced protocol provides tr
 
 **Previously translated files are retained**; files to be updated or newly translated are noted within translation status bars. **Updates to English metadata files are flagged** so that previous translations can be updated easily. The result is a more efficient, timely, and accurate method of maintaining metadata files as revisions are approved by the IAEG-SDGs.
 
-* The first harvest occurred on DATE. Beginning September 30th, metadata will be harvested on **the last Friday of every quarter.**
-* [How do I translate machine-readable files and access the output?](https://docs.google.com/document/d/1O2k7Gphah0KYXhVYsOQGWPb_TMyrOiCCzjjBsS0CNTQ/edit?usp=sharing)
+* The first harvest occurred in September, 2021. Beginning October, metadata will be harvested on **the Friday after every fiscal quarter.**
+* [How do I translate machine-readable files and access the output?](https://docs.google.com/document/d/18R0KPw5NtRQtUQOFBNUAzIPT_S9euAEsQxq00uau038/edit?usp=sharing)
   
  
 
