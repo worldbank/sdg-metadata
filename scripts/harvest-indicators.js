@@ -8,25 +8,6 @@ const xpath = require('xpath')
 const sdgMetadataConvert = require('sdg-metadata-convert')
 const seriesDescriptor = sdgMetadataConvert.descriptorStore.getDescriptor('SERIES')
 const seriesOptions = seriesDescriptor.options
-const harvestGoals = [
-    '1',
-    '2',
-    '3',
-    '4',
-    '5',
-    '6',
-    '7',
-    '8',
-    '9',
-    '10',
-    '11',
-    '12',
-    '13',
-    '14',
-    '15',
-    '16',
-    '17',
-]
 
 let xmlString
 //const source = 'global-metadata.xml'
@@ -52,6 +33,7 @@ async function harvestMetadata() {
     const select = xpath.useNamespaces(namespaces)
 
     const metadataByIndicator = {}
+    const seriesCodesByIndicator = {}
     const metadataSets = select('.//mes:MetadataSet', doc)
     for (const metadataSet of metadataSets) {
         const series = select('.//com:KeyValue[@id="SERIES"]/com:Value', metadataSet, true)
@@ -66,9 +48,18 @@ async function harvestMetadata() {
             conceptValues[conceptId] = conceptValue.replace(/\r\n/g, '\n')
         }
         for (const indicatorId of indicatorIds) {
-            const goalId = indicatorId.split('.')[0]
-            if (harvestGoals.includes(goalId)) {
+            if (typeof metadataByIndicator[indicatorId] !== 'undefined') {
+                // There is already something there. If it is identical,
+                // that's fine. But otherwise we want to know about it.
+                if (!isMetadataIdentical(conceptValues, metadataByIndicator[indicatorId])) {
+                    let message = 'Metadata from ' + seriesCode + ' is different from ' + seriesCodesByIndicator[indicatorId] + '. '
+                    message += 'Both are for indicator ' + indicatorId + '.'
+                    console.log(message)
+                }
+            }
+            else {
                 metadataByIndicator[indicatorId] = conceptValues
+                seriesCodesByIndicator[indicatorId] = seriesCode
             }
         }
     }
@@ -186,4 +177,21 @@ function getIndicatorIdsFromSeries(seriesCode) {
     else {
         return series.indicatorIds
     }
+}
+
+function isMetadataIdentical(a, b) {
+    for (const key of Object.keys(a)) {
+        if (a[key] !== b[key]) {
+            console.log('Difference in ' + key + ':')
+            console.log('- ' + a[key])
+            console.log('- ' + b[key])
+            return false
+        }
+    }
+    for (const key of Object.keys(b)) {
+        if (b[key] !== a[key]) {
+            return false
+        }
+    }
+    return true
 }
