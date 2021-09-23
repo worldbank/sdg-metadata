@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<status>success</status>
+	<message>The COMPARABILITY field for indicator 3-1-1, translated into es</message>
+	<data>&lt;h2&gt; Fuentes de discrepancias:&lt;/h2&gt;
+&lt;p&gt; El ratio de mortalidad materna se define como el número de muertes maternas dividido por nacidos vivos. Sin embargo, para tener en cuenta el posible estado incompleto del registro de muertes en diversas fuentes de datos, el MMEIG calcula primero la fracción de muertes debidas a causas maternas a partir de fuentes de datos originales (denominadas &amp;#x201C; proporción materna&amp;#x201D;, o PM], y luego aplica esa fracción a las estimaciones de la OMS del total de muertes entre las mujeres en edad reproductiva para obtener una estimación del número de muertes maternas. &lt;/p&gt;
+&lt;p&gt; En otras palabras, la siguiente fracción se calcula primero a partir de fuentes de datos de países:&lt;/p&gt;
+&lt;p&gt; PM= Número de muertes maternas 15-49/Todas las muertes femeninas a las edades de 15-49 &lt;/p&gt;
+&lt;p&gt; y, a continuación, el PM se utiliza para calcular el RMM de la siguiente manera:&lt;/p&gt;
+&lt;p&gt; RMM=PM &amp;#xD7; (Todas las muertes femeninas a las edades de 15-49/Número de nacidos vivos)&lt;/p&gt;
+&lt;p&gt;donde la estimación de todas las muertes a las edades de 15-49 años en la segunda ecuación se deriva de las tablas de vida de la OMS, y el número de nacidos vivos proviene de Perspectivas de la Población Mundial de 2019. &lt;/p&gt;
+&lt;p&gt; Con esto como antecedente, algunas de las razones por las que las estimaciones del MMEIG pueden diferir de las estadísticas nacionales son las siguientes:&lt;/p&gt;
+&lt;p&gt; 1. Los sistemas de registro civil y estadísticas vitales no siempre están completos (es decir, no siempre capturan el 100% de todas las muertes) y la integridad puede cambiar con el tiempo. El enfoque de estimación de MMEIG intenta corregir esto mediante el uso del enfoque anterior, que implica primero calcular el PM.&lt;/p&gt;
+&lt;p&gt; 2. El MMEIG a menudo aplica factores de ajuste al PM calculado a partir de datos originales para tener en cuenta los problemas de medición (como la forma en que el país definió las muertes &amp;#x201C; maternas &amp;#x201D;, la clasificación errónea o la incompletitud). &lt;/p&gt;
+&lt;p&gt; 3. El MMEIG utiliza la serie estandarizada de nacidos vivos de la División de Población de las Naciones Unidas, publicada en las Perspectivas de la Población Mundial (WPP, por sus siglas en inglés) de 2019, en el denominador de la ecuación RMM. Para informar mejor al WPP, los países deberían discutir las discrepancias directamente con la División de Población de las Naciones Unidas. La dirección de contacto es population@un.org; esta dirección de correo electrónico se supervisa regularmente y los mensajes se envían a los analistas apropiados para cada país o inquietud. &lt;/p&gt;
+&lt;p&gt; 4. Estadísticamente hablando, las muertes maternas son un evento relativamente raro, que puede conducir a tendencias de tiempo ruidosas en los datos a lo largo del tiempo. Como el objetivo de las estimaciones del MMEIG es hacer un seguimiento del progreso a largo plazo en la reducción de la mortalidad materna, el proceso de estimación implica cierta suavización para generar una curva que capture mejor los cambios en el riesgo subyacente. &lt;/p&gt;</data>
+</root>

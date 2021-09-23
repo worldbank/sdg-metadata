@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<status>success</status>
+	<message>The IMPUTATION field for indicator 3-6-1, translated into fr</message>
+	<data>&lt;h2&gt; Traitement des valeurs manquantes: &lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt; &lt;strong&gt; &lt;em&gt; Au niveau national : &lt;/em&gt; &lt;/strong&gt; &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt; Le traitement des données manquantes a été effectué comme suit : &lt;/p&gt;
+&lt;p&gt; 1) Nous avons identifié des valeurs manquantes (ou des années) dans les données de l&apos;état civil (VR) et cherché d&apos;autres sources dans nos données de cas à partir du questionnaire / enquête (rapporté) pour ces années. Nous avons ensuite calculé le facteur VR / déclaré pour les 3 dernières années où les données VR et déclarées étaient disponibles et nous avons utilisé ce facteur pour ajuster les données déclarées afin de remplacer la valeur manquante des données VR. &lt;/p&gt;
+&lt;p&gt; 2) Dans le cas où il y avait des données manquantes dans les données VR et rapportées, les valeurs manquantes ont été imputées avec une régression binomiale négative du taux pour chaque pays si la régression convergeait ou était significative. Sinon, nous avons utilisé le taux moyen d&apos;années avec des données. &lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt; &lt;strong&gt; &lt;em&gt; Aux niveaux régional et mondial : &lt;/em&gt; &lt;/strong&gt; &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt; Identique à la procédure décrite pour 11.2 ci-dessus &lt;/p&gt;</data>
+</root>

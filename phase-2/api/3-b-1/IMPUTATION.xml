@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<status>success</status>
+	<message>The IMPUTATION field for indicator 3-b-1, translated into all languages</message>
+	<data>
+		<languages>
+			<language lang="ar"/>
+			<language lang="en">&lt;h2&gt;Treatment of missing values:&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;em&gt;At country level:&lt;/em&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The first data point is the first reporting year after vaccine introduction. When country data are not available interpolation is used between 2 data points and extrapolation from the latest available data point. &lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;em&gt;At regional and global levels:&lt;/em&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Any needed imputation is done at country level. These country values can then be used to compute regional and global ones. &lt;/p&gt;
+			</language>
+			<language lang="es">&lt;h2&gt;Tratamiento de valores faltantes:&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;em&gt;A nivel de país:&lt;/em&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;El primer punto de datos es el primer año de notificación después de la introducción de la vacuna. Cuando los datos del país no están disponibles, se utiliza la interpolación entre 2 observaciones y la extrapolación del último punto de datos disponible. &lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;em&gt;A nivel regional y mundial:&lt;/em&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;La imputación necesaria se realiza a nivel de país. Estos valores de los países pueden utilizarse para calcular los valores regionales y globales.&lt;/p&gt;
+			</language>
+			<language lang="fr">&lt;h2&gt;Traitement des valeurs manquantes : &lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;em&gt;Au niveau national : &lt;/em&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Le premier point de données est la première année de déclaration après l&apos;introduction du vaccin. Lorsque les données nationales ne sont pas disponibles, l&apos;interpolation est utilisée entre deux points de données et l&apos;extrapolation à partir du dernier point de données disponible. &lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;em&gt;Au niveau régional et mondial : &lt;/em&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Toute imputation nécessaire est effectuée au niveau national. Ces valeurs nationales peuvent ensuite être utilisées pour calculer les valeurs régionales et mondiales. &lt;/p&gt;
+			</language>
+			<language lang="pt"/>
+			<language lang="ru">&lt;h2&gt;Обработка отсутствующих значений: &lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt; &lt;strong&gt; &lt;em&gt; На страновом уровне: &lt;/em&gt; &lt;/strong&gt; &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt; Первый элемент данных - это данные первого отчетного года после проведения вакцинации. Когда данные по стране недоступны, используется интерполяция между двумя элементами данных и экстраполяция от последнего доступного элемента данных. &lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt; &lt;strong&gt; &lt;em&gt; На региональном и глобальном уровнях: &lt;/em&gt; &lt;/strong&gt; &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt; Все необходимые условные исчисления производятся на страновом уровне. Эти страновые значения затем можно использовать для вычисления региональных и глобальных величин. &lt;/p&gt;
+			</language>
+</languages>
+</data>
+</root>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<status>success</status>
+	<message>The IMPUTATION field for indicator 3-3-3, translated into all languages</message>
+	<data>
+		<languages>
+			<language lang="ar"/>
+			<language lang="en">&lt;h2&gt;Treatment of missing values:&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;em&gt;At country level:&lt;/em&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;For missing values of the parameters (test positivity rate and reporting completeness) a distribution based on a mixture of the distribution of the available values is used, if any value exists for the country or from the region otherwise. Values for health seeking behaviour parameters are imputed by linear interpolation of the values when the surveys where made or extrapolation of the first or last survey. When no reported data is available the number of cases is interpolated taking into account the population growth. &lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;em&gt;At regional and global levels:&lt;/em&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Not Applicable&lt;/p&gt;
+			</language>
+			<language lang="es">&lt;h2&gt;Tratamiento de valores faltantes:&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;em&gt;A nivel de país:&lt;/em&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Para los valores faltantes de los parámetros (tasa de positividad de las pruebas y exhaustividad de la notificación) se utiliza una distribución basada en una mezcla de la distribución de los valores disponibles, si existe algún valor para el país o de la región en caso contrario. Los valores de los parámetros de comportamiento de búsqueda de la salud se imputan por interpolación lineal de los valores cuando se hicieron las encuestas o por extrapolación de la primera o última encuesta. Cuando no se dispone de datos, el número de casos se interpola teniendo en cuenta el crecimiento de la población.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;em&gt;A nivel regional y mundial:&lt;/em&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;No aplicable.&lt;/p&gt;
+			</language>
+			<language lang="fr">&lt;h2&gt;Traitement des valeurs manquantes : &lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;em&gt;Au niveau national : &lt;/em&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Pour les valeurs manquantes des paramètres (taux de positivité des tests et exhaustivité des rapports), une distribution basée sur un mélange de la distribution des valeurs disponibles est utilisée, si une valeur existe pour le pays ou la région dans le cas contraire. Les valeurs des paramètres de comportement de recherche de santé sont imputées par interpolation linéaire des valeurs lors des enquêtes ou par extrapolation de la première ou de la dernière enquête. Lorsqu&apos;aucune donnée n&apos;est disponible, le nombre de cas est interpolé en tenant compte de la croissance de la population. &lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;em&gt;Aux niveaux régional et mondial : &lt;/em&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt; Sans objet &lt;/p&gt;
+			</language>
+			<language lang="pt"/>
+			<language lang="ru">&lt;h2&gt; Обработка отсутствующих значений: &lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt; &lt;strong&gt; &lt;em&gt; На страновом уровне: &lt;/em&gt; &lt;/strong&gt; &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt; Для отсутствующих значений параметров (уровень положительных результатов тестирования и полнота отчетности) используется распределение, основанное на комбинации распределения доступных значений, если какое-либо значение существует в страновых данных или, в противном случае, может быть получено из данных регионального уровня. Значения параметров активного обращения за медицинской помощью рассчитываются путем линейной интерполяции значений, полученных при проведении обследований или экстраполяции значений первого или последнего обследования. При отсутствии отчетных данных количество случаев интерполируется с учетом роста населения.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt; &lt;strong&gt; &lt;em&gt; На региональном и глобальном уровнях: &lt;/em&gt; &lt;/strong&gt; &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt; Не применимо &lt;/p&gt;
+			</language>
+</languages>
+</data>
+</root>
