@@ -1,11 +1,9 @@
-SDG_INDICATOR_INFO: ''
 SDG_GOAL: '<p>Goal 10: Reduce inequality within and among countries</p>'
 SDG_TARGET: >-
   <p>Target 10.5: Improve the regulation and monitoring of global financial
   markets and institutions and strengthen the implementation of such
   regulations</p>
 SDG_INDICATOR: '<p>Indicator 10.5.1: Financial Soundness Indicators (FSIs)</p>'
-SDG_SERIES_DESCR: ''
 META_LAST_UPDATE: <p>03 December 2018</p>
 SDG_RELATED_INDICATORS: >-
   <p>Linkages with any other Goals and Targets: Recommendation II.2 of G-20 Data
@@ -16,15 +14,7 @@ SDG_RELATED_INDICATORS: >-
   SDDS, but with one exception under SDDS Plus, where resident real estate price
   index is used instead of net open position in foreign exchange to capital.</p>
 SDG_CUSTODIAN_AGENCIES: <p>International Monetary Fund</p>
-CONTACT: ''
 CONTACT_ORGANISATION: <p>International Monetary Fund</p>
-CONTACT_NAME: ''
-ORGANISATION_UNIT: ''
-CONTACT_FUNCT: ''
-CONTACT_PHONE: ''
-CONTACT_MAIL: ''
-CONTACT_EMAIL: ''
-IND_DEF_CON_CLASS: ''
 STAT_CONC_DEF: >-
   <p><strong>Definition:</strong></p>
 
@@ -157,9 +147,6 @@ STAT_CONC_DEF: >-
   currency, but their payments are linked to exchange rates, thus subject to
   foreign exchange risk. The denominator is total regulatory capital as defined
   above. </p>
-UNIT_MEASURE: ''
-CLASS_SYSTEM: ''
-SRC_TYPE_COLL_METHOD: ''
 SOURCE_TYPE: >-
   <p>The common source data are data reported by banks for supervisory purposes.
   They include balance sheet, income statement, and supervisory series (such as
@@ -175,8 +162,6 @@ DATA_SOURCE: <p>The national central banks or bank supervisory agencies.</p>
 COMPILING_ORG: >-
   <p>The FSIs are compiled at national level, but not at region or global level.
   </p>
-INST_MANDATE: ''
-OTHER_METHOD: ''
 RATIONALE: >-
   <p><strong>Regulatory Tier 1 capital to assets</strong>: It is a more
   stringent version of the leverage ratio and indicates the extent to which
@@ -239,8 +224,6 @@ DATA_COMP: >-
   <p>The calculation of the seven FSIs is detailed in section on
   &#x201C;Definition&#x201D; above. The common source data are data reported by
   banks to supervisory authorities, which are usually the FSI compilers. </p>
-DATA_VALIDATION: ''
-ADJUSTMENT: ''
 IMPUTATION: >-
   <p>&#x2022; At country level</p>
 
@@ -253,12 +236,10 @@ IMPUTATION: >-
   <p>The FSIs are not compiled at regional or global levels.</p>
 REG_AGG: <p>The FSIs are not aggregated at regional levels.</p>
 DOC_METHOD: '<p>The FSI Compilation Guide (206) available at http://data.imf.org/FSI.</p>'
-QUALITY_MGMNT: ''
 QUALITY_ASSURE: |-
   <ul>
     <li>The common source data are data reported by banks for supervisory purposes. National supervisors check and validate the data that are used by national FSI compilers. IMF staff check the FSIs reported by countries before posting on the FSI website and address data issues in collaboration with the national compilers whenever such issues are flagged by the validation and consistency checks implemented in the IMF data processing system.. </li>
   </ul>
-QUALITY_ASSMNT: ''
 COVERAGE: >-
   <p>Data availability:</p>
 

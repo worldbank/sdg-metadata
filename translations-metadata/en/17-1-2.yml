@@ -1,4 +1,3 @@
-SDG_INDICATOR_INFO: ''
 SDG_GOAL: >-
   <p>Goal 17: Strengthen the means of implementation and revitalize the Global
   Partnership for Sustainable Development</p>
@@ -9,23 +8,14 @@ SDG_TARGET: >-
 SDG_INDICATOR: >-
   <p>Indicator 17.1.2: Proportion of domestic budget funded by domestic
   taxes</p>
-SDG_SERIES_DESCR: ''
 META_LAST_UPDATE: <p>March 2021</p>
 SDG_RELATED_INDICATORS: >-
   <p>Indicator 17.1.1: Total government revenue as a proportion of GDP, by
   source </p>
 SDG_CUSTODIAN_AGENCIES: <p>IMF Statistics Department (Government Finance Division)</p>
-CONTACT: ''
 CONTACT_ORGANISATION: <p>IMF Statistics Department (Government Finance Division)</p>
-CONTACT_NAME: ''
-ORGANISATION_UNIT: ''
-CONTACT_FUNCT: ''
-CONTACT_PHONE: ''
-CONTACT_MAIL: ''
-CONTACT_EMAIL: ''
-IND_DEF_CON_CLASS: ''
 STAT_CONC_DEF: >-
-  <p>Definition: </p>
+  <p><strong>Definition: </strong></p>
 
   <p>The precise definition of the indicator is the Proportion of domestic
   budgetary central government expenditure funded by taxes. Budgetary central
@@ -49,7 +39,7 @@ STAT_CONC_DEF: >-
   applicable terms. It must clearly express the unit of measurement (proportion,
   dollars, number of people, etc.).</p>
 
-  <p>Concepts:</p>
+  <p><strong>Concepts:</strong></p>
 
   <p>The key concepts and terms associated with the indicator are outlined in
   GFSM 2014, as are the associated classifications. Revenue is defined in
@@ -59,7 +49,6 @@ STAT_CONC_DEF: >-
   aggregate are outlined in Chapter 6 - 8.</p>
 UNIT_MEASURE: <p>Proportion</p>
 CLASS_SYSTEM: <p>See 2.a.</p>
-SRC_TYPE_COLL_METHOD: ''
 SOURCE_TYPE: >-
   <p>The actual and recommended sources of data for deriving this indicator are
   the fiscal statistics reported to the IMF&#x2019;s Statistics Department.
@@ -90,7 +79,6 @@ COMPILING_ORG: >-
   organization responsible for the compilation and reporting on this indicator
   at the global level.</p>
 INST_MANDATE: <p>See 3.a.</p>
-OTHER_METHOD: ''
 RATIONALE: >-
   <p>Indicator 17.1.2 Proportion of domestic budgetary central government
   expenditure funded by taxes supports an understanding of the extent to which
@@ -127,7 +115,105 @@ REC_USE_LIM: >-
   the GFSM 2014 recommends that statistics should be compiled for all such
   general government units. This reporting structure is illustrated below:</p>
 
-  <p></p>
+  <table>
+    <tbody>
+      <tr>
+        <td>
+          <p> </p>
+        </td>
+        <td>
+          <p> </p>
+        </td>
+        <td colspan="2">
+          <p>General Government</p>
+        </td>
+        <td>
+          <p> </p>
+        </td>
+        <td>
+          <p> </p>
+        </td>
+        <td>
+          <p> </p>
+        </td>
+        <td>
+          <p> </p>
+        </td>
+        <td>
+          <p> </p>
+        </td>
+        <td rowspan="3">
+          <p>Memorandum: Central Govt. (incl. SSF of central level)</p>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="4">
+          <p>Central Government (excluding social security funds)</p>
+        </td>
+        <td rowspan="2">
+          <p>Social Security Funds</p>
+        </td>
+        <td rowspan="2">
+          <p>State Governments</p>
+        </td>
+        <td rowspan="2">
+          <p>Local Governments</p>
+        </td>
+        <td rowspan="2">
+          <p>Consolidation Column</p>
+        </td>
+        <td rowspan="2">
+          <p>General Government</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Budgetary</p>
+        </td>
+        <td>
+          <p>Extrabudgetary</p>
+        </td>
+        <td>
+          <p>Consolidation Column</p>
+        </td>
+        <td>
+          <p>Central Government</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>BA = GL1</p>
+        </td>
+        <td>
+          <p>EA</p>
+        </td>
+        <td>
+          <p>CC</p>
+        </td>
+        <td>
+          <p>CG</p>
+        </td>
+        <td>
+          <p>SSF</p>
+        </td>
+        <td>
+          <p>SG</p>
+        </td>
+        <td>
+          <p>LG</p>
+        </td>
+        <td>
+          <p>CT</p>
+        </td>
+        <td>
+          <p>GG = GL3</p>
+        </td>
+        <td>
+          <p>GL2</p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
 
   <p>There are some countries that report &#x201C;consolidated central
   government&#x201D; without necessarily providing the budgetary central
@@ -148,7 +234,143 @@ DATA_COMP: >-
   calculated as (Taxes / Expenditure expressed as a %) using the following data
   series:<br></p>
 
-  <p></p>
+  <table>
+    <tbody>
+      <tr>
+        <td>
+          <p><strong>Total Revenue</strong></p>
+        </td>
+        <td>
+          <p><strong>963</strong></p>
+        </td>
+        <td>
+          <p><strong> </strong></p>
+        </td>
+        <td>
+          <p><strong>Expenditure</strong></p>
+        </td>
+        <td>
+          <p><strong>1200</strong></p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p> </p>
+        </td>
+        <td>
+          <p> </p>
+        </td>
+        <td>
+          <p> </p>
+        </td>
+        <td>
+          <p> </p>
+        </td>
+        <td>
+          <p> </p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Taxes</p>
+        </td>
+        <td>
+          <p>800</p>
+        </td>
+        <td>
+          <p> </p>
+        </td>
+        <td>
+          <p>Expense</p>
+        </td>
+        <td>
+          <p>950</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Social contributions</p>
+        </td>
+        <td>
+          <p>105</p>
+        </td>
+        <td>
+          <p> </p>
+        </td>
+        <td rowspan="2">
+          <p>Net acquisition of nonfinancial assets</p>
+        </td>
+        <td>
+          <p>250</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Grants</p>
+        </td>
+        <td>
+          <p>25</p>
+        </td>
+        <td>
+          <p> </p>
+        </td>
+        <td>
+          <p> </p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Other revenue</p>
+        </td>
+        <td>
+          <p>33</p>
+        </td>
+        <td>
+          <p> </p>
+        </td>
+        <td>
+          <p> </p>
+        </td>
+        <td>
+          <p> </p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p> </p>
+        </td>
+        <td>
+          <p> </p>
+        </td>
+        <td>
+          <p> </p>
+        </td>
+        <td>
+          <p> </p>
+        </td>
+        <td>
+          <p> </p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p> </p>
+        </td>
+        <td>
+          <p> </p>
+        </td>
+        <td>
+          <p> </p>
+        </td>
+        <td>
+          <p><strong>SDG Indicator 17.1.2</strong></p>
+        </td>
+        <td>
+          <p><strong>67%</strong></p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
 
   <p>Consistency across countries will be ensured through the underlying
   structure of the IMF GFS database and application of one simple mathematical
@@ -179,7 +401,7 @@ QUALITY_MGMNT: <p>See 4.c.</p>
 QUALITY_ASSURE: <p>See 4.c.</p>
 QUALITY_ASSMNT: <p>See 4.c.</p>
 COVERAGE: >-
-  <p>Data availability:</p>
+  <p><strong>Data availability:</strong></p>
 
   <p>Classification of the indicator into one of the following three tiers:</p>
 
@@ -197,7 +419,7 @@ COVERAGE: >-
   non-reporters over the past few years to (at a minimum) provide the key
   revenue and expenditure series needed to monitor 17.1.</p>
 
-  <p>Disaggregation</p>
+  <p><strong>Disaggregation:</strong></p>
 
   <p>General government units have four types of revenue: (i) compulsory levies
   in the form of taxes and certain types of social contributions; (ii) property
@@ -220,7 +442,7 @@ COVERAGE: >-
   countries to report data allows for sufficient disaggregation for compiling
   17.1.2.</p>
 COMPARABILITY: >-
-  <p>Sources of discrepancies:</p>
+  <p><strong>Sources of discrepancies:</strong></p>
 
   <p>The IMF Statistics Department plans to rely on officially reported national
   data as reported by the national authorities using the standard IMF GFS annual
