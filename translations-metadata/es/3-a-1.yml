@@ -7,3 +7,182 @@ SDG_TARGET: >-
 SDG_INDICATOR: >-
   <p>Indicador 3.a.1: Prevalencia del consumo actual de tabaco a partir de los 15
   años de edad (edades ajustadas)</p>
+OTHER_DOC: "<h1>Referencias</h1>\n<h2>URL:</h2>\n<p><a href=\"http://www.who.int/tobacco/surveillance/tqs/en/\"\
+  >http://www.who.int/tobacco/surveillance/tqs/en/</a> </p>\n<p><a href=\"http://www.who.int/gho/en/\"\
+  >http://www.who.int/gho/en/</a></p>\n<p><a href=\"http://apps.who.int/fctc/implementation/database/\"\
+  >http://apps.who.int/fctc/implementation/database/</a></p>"
+COMPARABILITY: "<h2>Fuentes de discrepancia:</h2>\n<p>Las estimaciones de la OMS difieren\
+  \ de las estimaciones nacionales, ya que</p>\n<p>i) están estandarizadas por edad\
+  \ para mejorar la comparabilidad internacional y </p>\n<p>ii) se calculan utilizando\
+  \ un método estándar para todos los países. Las encuestas poco frecuentes o la falta\
+  \ de disponibilidad de encuestas recientes hacen que se recurra más a la modelización.\
+  \ Como el conjunto de datos de cada país mejora con el tiempo al añadirse nuevas\
+  \ encuestas, las estimaciones recientes pueden parecer incoherentes con las anteriores.\
+  \ Las estimaciones de la OMS se someten a consulta en los países antes de su publicación.</p>"
+COVERAGE: "<h1>Disponibilidad de datos</h1>\n<h2>Descripción:</h2>\n<p>El indicador\
+  \ está disponible para todos los países desde el año 2000 hasta el año en curso,\
+  \ dependiendo de la disponibilidad de datos empíricos para cada país.</p>\n<p><strong>Desagregación:</strong></p>\n\
+  <p>Sexo.</p>"
+QUALITY_ASSURE: "<h2>Garantía de calidad</h2>\n<p>Información no disponible</p>"
+DOC_METHOD: "<h2>Métodos y directrices a disposición de los países para la compilación\
+  \ de los datos a nivel nacional:</h2>\n<p>Información no disponible.</p>"
+REG_AGG: "<h2>Agregados regionales:</h2>\n<p>Las tasas de prevalencia medias de las\
+  \ regiones se calculan ponderando las tasas de prevalencia específicas por edad\
+  \ de los países y estandarizando las tasas medias específicas por edad de la región.</p>"
+IMPUTATION: "<h2>Tratamiento de  valores faltantes:</h2>\n<ul>\n  <li><strong><em>A\
+  \ nivel de país:</em></strong></li>\n</ul>\n<p>Para los países con menos de dos\
+  \ encuestas completadas en años diferentes desde 1990, no se calcula ninguna estimación,\
+  \ ya que no se puede determinar la tendencia. Para los países con datos de dos o\
+  \ más encuestas nacionales, las lagunas de datos, si las hay, se completan como\
+  \ se describe en el Método de cálculo.</p>\n<ul>\n  <li><strong><em>A nivel regional\
+  \ y mundial:</em></strong></li>\n</ul>\n<p>Los países en los que no se puede calcular\
+  \ una estimación se incluyen en los promedios regionales y mundiales asumiendo que\
+  \ sus tasas de prevalencia para varones y mujeres son iguales a las tasas medias\
+  \ para varones y mujeres observadas en la subregión de la ONU<sup><a href=\"#footnote-1\"\
+  \ id=\"footnote-ref-1\">[1]</a></sup> en la que se encuentran. Cuando se encuestó\
+  \ a menos del 50% de la población de una subregión de las Naciones Unidas, las subregiones\
+  \ de las Naciones Unidas se agrupan con las subregiones vecinas hasta que al menos\
+  \ el 50% de la población agrupada haya aportado datos a las tasas medias de la región\
+  \ 1.</p><div class=\"footnotes\"><div><sup class=\"footnote-number\" id=\"footnote-1\"\
+  >1</sup><p> Para obtener una lista de países por región de las Naciones Unidas,\
+  \ consulte las páginas ix a xiii de World Population Prospects: The 2017 Revision,\
+  \ publicado por el Departamento de Asuntos Económicos y Sociales de la ONU en 2017\
+  \ en <a href=\"https://esa.un.org/unpd/wpp/Publications/Files/WPP2017_Volume-I_Comprehensive-Tables.pdf%20\"\
+  >https://esa.un.org/unpd/wpp/Publications/Files/WPP2017_Volume-I_Comprehensive-Tables.pdf</a>\
+  \ (consultado el 25 de mayo de 2017). A los efectos del análisis del tabaco, se\
+  \ realizaron los siguientes ajustes: (i) La subregión de África Oriental se dividió\
+  \ en dos regiones: Islas de África Oriental y Resto de África Oriental; (ii) Armenia,\
+  \ Azerbaiyán, Estonia, Georgia, Kazajistán, Kirguistán, Letonia, Lituania, Tayikistán,\
+  \ Uzbekistán y Turkmenistán se clasificaron con Europa Oriental, (iii); Chipre,\
+  \ Israel y Turquía se clasificaron con Europa Meridional, y (iv) las subregiones\
+  \ de Melanesia, Micronesia y Polinesia se combinaron en una subregión. <a href=\"\
+  #footnote-ref-1\">&#x2191;</a></p></div></div>"
+DATA_COMP: "<h1>Metodología</h1>\n<h2>Método de cálculo:</h2>\n<p>Se utiliza un modelo\
+  \ estadístico basado en una metarregresión binomial negativa bayesiana para modelar\
+  \ la prevalencia del consumo actual de tabaco en cada país, por separado para varones\
+  \ y mujeres. Una descripción completa del método está disponible como artículo revisado\
+  \ por pares en The Lancet, volumen 385, nº 9972, p966&#x2013;976 (2015). Una vez\
+  \ que las tasas de prevalencia por edad y sexo de las encuestas nacionales se compilaron\
+  \ en un conjunto de datos, el modelo se ajustó para calcular las estimaciones de\
+  \ la tendencia desde el año 2000 hasta el 2030. El modelo tiene dos componentes\
+  \ principales: (a) ajustar los indicadores y grupos de edad que faltan, y (b) generar\
+  \ una estimación de las tendencias a lo largo del tiempo, así como el intervalo\
+  \ de credibilidad del 95% en torno a la estimación. Dependiendo de la exhaustividad\
+  \ de los datos de la encuesta de un país en particular, el modelo a veces utiliza\
+  \ datos de otros países para llenar los vacíos de información. Para llenar las lagunas\
+  \ de información, la información se &#x201C;toma prestada&#x201D; de los países\
+  \ de la misma subregión de la ONU. Las líneas de tendencia resultantes se utilizan\
+  \ para obtener estimaciones para un solo año, de modo que se puede comunicar una\
+  \ cifra aunque el país no haya realizado una encuesta en ese año. Para que los resultados\
+  \ sean comparables entre países, las tasas de prevalencia se estandarizan por edad\
+  \ con respecto a la población estándar de la OMS.</p>\n<p>Las estimaciones de los\
+  \ países con encuestas irregulares o con muchas lagunas de datos tendrán grandes\
+  \ rangos de incertidumbre, y esos resultados deben interpretarse con precaución.</p>"
+REC_USE_LIM: "<h2>Comentarios y limitaciones:</h2>\n<p>Para calcular las estimaciones\
+  \ comparables de este indicador se utilizan los datos brutos recolectados a través\
+  \ de las encuestas nacionales representativas de la población de los países. No\
+  \ se utiliza la información de las encuestas subnacionales. </p>\n<p>En algunos\
+  \ países, todo el consumo de tabaco y el tabaquismo pueden ser equivalentes, pero\
+  \ en muchos países en los que también se consumen otras formas de tabaco, las tasas\
+  \ de tabaquismo serán inferiores a las de consumo de tabaco en cierta medida. </p>\n\
+  <p>La comparabilidad, la calidad y la frecuencia de las encuestas de hogares afectan\
+  \ a la precisión y la calidad de las estimaciones. La falta de comparabilidad de\
+  \ los datos puede deberse al uso de diferentes instrumentos de encuesta, métodos\
+  \ de muestreo y análisis y definiciones de indicadores en los distintos Estados\
+  \ miembros. Las encuestas pueden abarcar diversos rangos de edad (no siempre mayores\
+  \ de 15 años) y repetirse a intervalos irregulares. Las encuestas pueden incluir\
+  \ una variedad de productos del tabaco, o a veces solo un producto, como los cigarrillos,\
+  \ según la percepción del país de qué productos son importantes de controlar. A\
+  \ menos que se controlen simultáneamente los productos para fumar y los que no son\
+  \ para fumar, la prevalencia del consumo de tabaco no se registrará. Los países\
+  \ han comenzado a vigilar el uso de los cigarrillos electrónicos y otros productos\
+  \ emergentes, lo que puede confundir las definiciones de consumo de tabaco de los\
+  \ países. La definición de consumo actual no siempre se limita a los 30 días anteriores\
+  \ a la encuesta. Además, en las encuestas se pide a las personas que informen por\
+  \ sí mismas sobre su consumo de tabaco, lo que puede dar lugar a una infradeclaración\
+  \ del consumo de tabaco. </p>\n<p>No existe un protocolo estándar utilizado en todos\
+  \ los Estados miembros para preguntar a las personas sobre su consumo de tabaco.\
+  \ Las preguntas sobre el tabaco para las encuestas (TQS) de la OMS se han adoptado\
+  \ en muchas encuestas, lo que ayuda a mejorar la comparabilidad de los indicadores\
+  \ entre países.</p>"
+RATIONALE: "<h2>Justificación:</h2>\n<p>El consumo de tabaco es uno de los principales\
+  \ factores que contribuyen a la enfermedad y a la muerte por enfermedades no transmisibles\
+  \ (ENT). No se ha demostrado que exista un nivel seguro de consumo de tabaco o de\
+  \ exposición al humo ajeno. Todos los consumidores diarios y no diarios de tabaco\
+  \ corren el riesgo de sufrir una serie de consecuencias negativas para la salud\
+  \ a lo largo de la vida, incluidas las ENT. La reducción de la prevalencia del consumo\
+  \ actual de tabaco contribuirá en gran medida a reducir la mortalidad prematura\
+  \ por ENT (meta 3.4). Es necesario realizar un seguimiento rutinario y regular de\
+  \ este indicador para poder realizar un seguimiento y una evaluación precisos del\
+  \ impacto de la aplicación del Convenio Marco de la OMS para el Control del Tabaco\
+  \ (CMCT de la OMS), o de las políticas de control del tabaco en los países que aún\
+  \ no son Parte del CMCT de la OMS, a lo largo del tiempo. Los niveles de prevalencia\
+  \ del consumo de tabaco son un indicador adecuado de la aplicación de la meta 3.a\
+  \ de los ODS &#x201C;Reforzar la aplicación del Convenio Marco de la Organización\
+  \ Mundial de la Salud para el Control del Tabaco en todos los países, según proceda&#x201D;.</p>"
+COMPILING_ORG: "<h1>Compiladores de datos</h1>\n<p>Iniciativa Libre de Tabaco de la\
+  \ OMS; Secretaría del Convenio Marco de la OMS para el Control del Tabaco y del\
+  \ Protocolo para la Eliminación del Comercio Ilícito de Productos de Tabaco.</p>"
+DATA_SOURCE: "<h1>Proveedores de datos</h1>\n<p>Estados miembros de la OMS, Partes\
+  \ del CMCT de la OMS.</p>"
+REL_CAL_POLICY: "<h2>Publicación de datos:</h2>\n<p>Publicación bienal a través del\
+  \ Informe mundial de la OMS sobre las tendencias del tabaquismo 2000-2025, el Observatorio\
+  \ Sanitario Mundial de la OMS y la base de datos de aplicación del CMCT de la OMS.</p>"
+FREQ_COLL: "<h1>Calendario</h1>\n<h2>Recopilación de datos:</h2>\n<p>Recopilación\
+  \ continua de datos. </p>"
+COLL_METHOD: "<h2>Proceso de recopilación:</h2>\n<p>Informes descargados de sitios\
+  \ web o enviados por correo electrónico por sus homólogos nacionales. La OMS comparte\
+  \ y hace públicas las metodologías de sus estimaciones a través del Informe mundial\
+  \ de la OMS sobre las tendencias del consumo de tabaco 2000-2025 y el Informe de\
+  \ la OMS sobre la epidemia mundial de tabaquismo. Las estimaciones de la OMS se\
+  \ someten a consulta en los países antes de su publicación.</p>"
+SOURCE_TYPE: "<h1>Fuentes de datos</h1>\n<h2>Descripción:</h2>\n<p>Tasas de prevalencia\
+  \ por edad y sexo de las encuestas nacionales representativas de la población realizadas\
+  \ desde 1990:</p>\n<ul>\n  <li>reconocidas oficialmente por la autoridad sanitaria\
+  \ nacional;</li>\n  <li>de participantes seleccionados al azar y representativos\
+  \ de la población general; y</li>\n  <li>que informen de al menos un indicador que\
+  \ mida el consumo actual de tabaco, el consumo diario de tabaco, el consumo actual\
+  \ de tabaco para fumar, el consumo diario de tabaco, el consumo actual de cigarrillos\
+  \ o el consumo diario de cigarrillos.</li>\n</ul>\n<p>Los informes oficiales de\
+  \ las encuestas se recogen de los Estados miembros mediante uno o varios de los\
+  \ siguientes métodos:</p>\n<ul>\n  <li>Sistema de notificación del CMCT de la OMS;</li>\n\
+  \  <li>revisión de las encuestas realizadas bajo los auspicios del Sistema Mundial\
+  \ de Vigilancia del Tabaco;</li>\n  <li>revisión de otras encuestas realizadas en\
+  \ colaboración con la OMS, como las encuestas STEPwise y las Encuestas Sanitarias\
+  \ Mundiales;</li>\n  <li>exploración de bases de datos de vigilancia internacionales\
+  \ como las de la Encuesta Demográfica y de Salud (DHS), la Encuesta de Indicadores\
+  \ Múltiples por Conglomerados (MICS) y la Encuesta de Medición de Niveles de Vida\
+  \ (LSMS) del Banco Mundial; e</li>\n  <li>identificación y revisión de encuestas\
+  \ específicas de cada país que no forman parte de los sistemas internacionales de\
+  \ vigilancia.</li>\n</ul>"
+STAT_CONC_DEF: "<h1>Conceptos y definiciones</h1>\n<h2>Definición:</h2>\n<p>El indicador\
+  \ se define como el porcentaje de la población de 15 años o más que consume actualmente\
+  \ cualquier producto del tabaco (para fumar y/o sin humo) de forma diaria o no diaria.</p>\n\
+  <h2>Conceptos:</h2>\n<p>Por consumo de tabaco se entiende el uso de productos de\
+  \ tabaco para fumar y/o sin humo. &#x201C;Por consumo actual&#x201D; se entiende\
+  \ el consumo en los últimos 30 días en el momento de la encuesta, ya sea diario\
+  \ o no diario.</p>\n<p>Por productos del tabaco se entiende los productos fabricados\
+  \ total o parcialmente con la hoja de tabaco como materia prima, destinados al consumo\
+  \ humano mediante su fumado, chupado, masticado o esnifado. </p>\n<p>&#x201C;Los\
+  \ productos de tabaco para fumar&#x201D; incluyen los cigarrillos, los cigarritos,\
+  \ los puros, los cheroots, los bidis, las pipas, las shishas (pipas de agua), el\
+  \ tabaco para armar, el kretek y cualquier otra forma de tabaco que se consuma fumando.</p>\n\
+  <p>&quot;El producto de tabaco sin humo&quot; incluye el rapé húmedo, el rapé cremoso,\
+  \ el rapé seco, el plug, los disolventes, el gul, la hoja suelta, el polvo de dientes\
+  \ rojos, el snus, el chimo, el gutkha, el khaini, el gudakhu, el zarda, el quiwam,\
+  \ el dohra tuibur, nasway, naas, naswar, shammah, toombak, paan (betel quid con\
+  \ tabaco), iq&#x2019;mik, mishri, tapkeer, tombol y cualquier otro producto del\
+  \ tabaco que se consuma inhalando, manteniéndolo en la boca o masticándolo.</p>\n\
+  <p>Las estimaciones de prevalencia se han &#x201C;estandarizado por edad&#x201D;\
+  \ para que sean comparables entre todos los países, independientemente del perfil\
+  \ demográfico del país. Esto se hace aplicando las tasas de prevalencia específicas\
+  \ de cada país por edad y sexo a la población estándar de la OMS. Las tasas resultantes\
+  \ son números hipotéticos que sólo tienen sentido cuando se comparan las tasas obtenidas\
+  \ para un país con las obtenidas para otro país.</p>"
+SDG_CUSTODIAN_AGENCIES: "<h1>Información institucional</h1>\n<h2>Organizaciones:</h2>\n\
+  <p>Organización Mundial de la Salud; </p>\n<p>Secretaría del Convenio Marco de la\
+  \ OMS para el Control del Tabaco (co-custodios)</p>"
+SDG_RELATED_INDICATORS: "<h1>Indicadores relacionados a febrero de 2020</h1>\n<p>Indicador\
+  \ 3.4.1: Tasa de mortalidad atribuida a enfermedades cardiovasculares, cáncer, diabetes\
+  \ o enfermedades respiratorias crónicas</p>"
+META_LAST_UPDATE: '<p>Fecha de actualización: noviembre de 2020</p>'
