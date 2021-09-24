@@ -9,15 +9,15 @@ SDG_TARGET: >-
 SDG_INDICATOR: >-
   <p>Indicator 9.2.1: Manufacturing value added as a proportion of GDP and per
   capita</p>
-META_LAST_UPDATE: '<p>Last updated: March 2020</p>'
-SDG_CUSTODIAN_AGENCIES: |-
-  <h1>Institutional information</h1>
-  <h2>Organization(s):</h2>
-  <p>United Nations Industrial Development Organization (UNIDO)</p>
+SDG_SERIES_DESCR: |-
+  <p>Manufacturing value added as a proportion of GDP (in constant 2015 USD)</p>
+  <p>Manufacturing value added as a proportion of GDP (in current USD)</p>
+  <p>Manufacturing value added per capita</p>
+META_LAST_UPDATE: <p>February 2021</p>
+SDG_CUSTODIAN_AGENCIES: <p>United Nations Industrial Development Organization (UNIDO)</p>
+CONTACT_ORGANISATION: <p>United Nations Industrial Development Organization (UNIDO)</p>
 STAT_CONC_DEF: >-
-  <h1>Concepts and definitions</h1>
-
-  <h2>Definition:</h2>
+  <p>Definitions:</p>
 
   <p>Manufacturing value added (MVA) as a proportion of gross domestic product
   (GDP) is a ratio between MVA and GDP, both reported in constant 2015 USD.</p>
@@ -25,7 +25,7 @@ STAT_CONC_DEF: >-
   <p>MVA per capita is calculated by dividing MVA in constant 2015 USD by
   population of a country or area.</p>
 
-  <h2>Concepts:</h2>
+  <p>Concepts:</p>
 
   <p>The gross value added measures the contribution to the economy of each
   individual producer, industry or sector in a country. The gross value added
@@ -41,17 +41,28 @@ STAT_CONC_DEF: >-
   resident in the economy. For the purpose on comparability over time and across
   countries MVA and GDP are estimated in terms of constant prices in USD. The
   current series are given at constant prices of 2015.</p>
+UNIT_MEASURE: >-
+  <p>MVA as a proportion of GDP is measure in percentages, MVA per capita in
+  constant 2015 USD.</p>
+CLASS_SYSTEM: >-
+  <p><a
+  href="https://unstats.un.org/unsd/nationalaccount/docs/SNA2008.pdf">System of
+  National Accounts 2008</a></p>
+
+  <p><a
+  href="https://unstats.un.org/unsd/publication/seriesm/seriesm_4rev4e.pdf">International
+  Standard Industrial Classification of all Economic Activities (ISIC) Revision
+  4</a></p>
+
+  <p><a
+  href="https://unstats.un.org/unsd/publication/seriesm/seriesm_4rev3_1e.pdf">International
+  Standard Industrial Classification of all Economic Activities (ISIC) Revision
+  3</a></p>
 SOURCE_TYPE: >-
-  <h1>Data sources</h1>
-
-  <h2>Description:</h2>
-
-  <p>UNIDO maintains MVA database. Figures for updates are obtained from
+  <p>UNIDO maintains the MVA database. Figures for updates are obtained from
   national account estimates produced by UN Statistics Division (UNSD) and from
   official publications.</p>
 COLL_METHOD: >-
-  <h2>Collection process:</h2>
-
   <p>The MVA and GDP country data are collected through a national accounts
   questionnaire (NAQ) sent by UNSD. More information on the methodology is
   available on</p>
@@ -67,27 +78,30 @@ COLL_METHOD: >-
   information on the methodology is available on</p>
 
   <p><a
-  href="https://esa.un.org/unpd/wpp/Publications/Files/WPP2015_Methodology.pdf">https://esa.un.org/unpd/wpp/Publications/Files/WPP2015_Methodology.pdf</a>.</p>
+  href="https://population.un.org/wpp/Publications/Files/WPP2019_Methodology.pdf">https://population.un.org/wpp/Publications/Files/WPP2019_Methodology.pdf</a>.</p>
 FREQ_COLL: >-
-  <h1>Calendar</h1>
-
-  <h2>Data collection:</h2>
-
   <p>Data collection is carried out by receiving data electronically throughout
   the year.</p>
-REL_CAL_POLICY: |-
-  <h2>Data release:</h2>
-  <p>UNIDO MVA database is updated between March and April every year.</p>
+REL_CAL_POLICY: <p>UNIDO MVA database is updated between March and April every year.</p>
 DATA_SOURCE: |-
-  <h1>Data providers</h1>
   <p>United Nations Statistics Division (UNSD) and official publications</p>
   <p>UNSD from national statistical offices (NSOs)</p>
-COMPILING_ORG: |-
-  <h1>Data compilers</h1>
-  <p>United Nations Industrial Development Organization (UNIDO)</p>
+COMPILING_ORG: <p>United Nations Industrial Development Organization (UNIDO)</p>
+INST_MANDATE: >-
+  <p>UNIDO, as the specialized UN agency on industrial development, has the
+  international mandate for collecting, producing and disseminating
+  internationally comparable industrial statistics. UNIDO&#x2019;s mandate
+  covers (i) the maintenance and updating of international industrial statistics
+  databases; (ii) methodological and analytical products based on statistical
+  research and experience of maintaining internationally comparable statistics;
+  (iii) contributions to the development and implementation of international
+  statistical standards and methodology; and (iv) technical cooperation services
+  to countries in the field of industrial statistics. With the repositioning of
+  UNIDO as the focal agency for inclusive and sustainable industrial development
+  (ISID), its statistical mandate was expanded to cover all dimensions of
+  industrial development, including its inclusiveness and environmental
+  sustainability.</p>
 RATIONALE: >-
-  <h2>Rationale:</h2>
-
   <p>MVA is a well-recognized and widely used indicator by researchers and
   policy makers to assess the level of industrialization of a country. The share
   of MVA in GDP reflects the role of manufacturing in the economy and a
@@ -97,83 +111,168 @@ RATIONALE: >-
   classifying country groups according to the stage of industrial
   development.</p>
 REC_USE_LIM: >-
-  <h2>Comments and limitations:</h2>
-
   <p>Differences may appear due to different versions of System of National
   Accounts (SNA) or ISIC revisions used by countries.</p>
 DATA_COMP: |-
-  <h1>Methodology</h1>
-  <h2>Computation method:</h2>
-  <p>MVA proportion to GDP = MVA/GDP*100.</p>
-  <p>MVA per capita = MVA/population</p>
-IMPUTATION: >-
-  <h2>Treatment of missing values:</h2>
+  <p><math xmlns="http://www.w3.org/1998/Math/MathML">
+      <mi>M</mi>
+      <mi>V</mi>
+      <mi>A</mi>
+      <mi>&amp;nbsp;</mi>
+      <mi>a</mi>
+      <mi>s</mi>
+      <mi>&amp;nbsp;</mi>
+      <mi>a</mi>
+      <mi>&amp;nbsp;</mi>
+      <mi>p</mi>
+      <mi>r</mi>
+      <mi>o</mi>
+      <mi>p</mi>
+      <mi>o</mi>
+      <mi>r</mi>
+      <mi>t</mi>
+      <mi>i</mi>
+      <mi>o</mi>
+      <mi>n</mi>
+      <mi>&amp;nbsp;</mi>
+      <mi>i</mi>
+      <mi>n</mi>
+      <mi>&amp;nbsp;</mi>
+      <mi>G</mi>
+      <mi>D</mi>
+      <mi>P</mi>
+      <mo>=</mo>
+      <mi>&amp;nbsp;</mi>
+      <mfrac>
+        <mrow>
+          <mi>M</mi>
+          <mi>V</mi>
+          <mi>A</mi>
+        </mrow>
+        <mrow>
+          <mi>G</mi>
+          <mi>D</mi>
+          <mi>P</mi>
+        </mrow>
+      </mfrac>
+      <mi>*</mi>
+      <mn>100</mn>
+    </math></p>
+  <p><math xmlns="http://www.w3.org/1998/Math/MathML">
+      <mi>M</mi>
+      <mi>V</mi>
+      <mi>A</mi>
+      <mi>&amp;nbsp;</mi>
+      <mi>p</mi>
+      <mi>e</mi>
+      <mi>r</mi>
+      <mi>&amp;nbsp;</mi>
+      <mi>c</mi>
+      <mi>a</mi>
+      <mi>p</mi>
+      <mi>i</mi>
+      <mi>t</mi>
+      <mi>a</mi>
+      <mo>=</mo>
+      <mi>&amp;nbsp;</mi>
+      <mfrac>
+        <mrow>
+          <mi>M</mi>
+          <mi>V</mi>
+          <mi>A</mi>
+        </mrow>
+        <mrow>
+          <mi>p</mi>
+          <mi>o</mi>
+          <mi>p</mi>
+          <mi>u</mi>
+          <mi>l</mi>
+          <mi>a</mi>
+          <mi>t</mi>
+          <mi>i</mi>
+          <mi>o</mi>
+          <mi>n</mi>
+        </mrow>
+      </mfrac>
+    </math></p>
+DATA_VALIDATION: >-
+  <p>UNIDO engages with countries in regular consultations during the data
+  collection process to ensure the data quality and international
+  comparability.</p>
+ADJUSTMENT: >-
+  <p>UNSD collects national accounts data through a regular consultation with
+  countries and areas by sending the UN NAQ to obtain important information
+  about differences in concept, scope, coverage and classification used. The
+  final estimates are provided to facilitate international comparability. More
+  detailed information on estimation methods is available here:</p>
 
-  <ul>
-    <li><strong><em>At country level:</em></strong></li>
-  </ul>
+  <p><a
+  href="https://unstats.un.org/unsd/snaama/assets/pdf/methodology.pdf">https://unstats.un.org/unsd/snaama/assets/pdf/methodology.pdf</a></p>
+
+  <p>The MVA data are nowcasted by UNIDO to enhance a timely analysis of
+  manufacturing trends.</p>
+IMPUTATION: >-
+  <p>&#x2022; At country level</p>
+
+  <p><a
+  href="https://unstats.un.org/unsd/snaama/assets/pdf/methodology.pdf">Methodology
+  for the National Accounts Main Aggregates Database</a></p>
 
   <p>Boudt, Todorov, Upadhyaya (2009): Nowcasting manufacturing value added for
   cross-country comparison; Statistical Journal of IAOS</p>
 
-  <ul>
-    <li><strong><em>At regional and global levels:</em></strong></li>
-  </ul>
+  <p>&#x2022; At regional and global levels</p>
 
   <p>No imputation used.</p>
 REG_AGG: >-
-  <h2>Regional aggregates:</h2>
-
   <p>Regional, global aggregation of direct summation of country values within
   the country groups.</p>
 DOC_METHOD: >-
-  <h2>Methods and guidance available to countries for the compilation of the
-  data at the national level:</h2>
+  <p>International Recommendations for Industrial Statistics (IRIS) 2008</p>
 
-  <p>International Recommendations for Industrial Statistics (IRIS) 2008 <a
+  <p><a
   href="https://unstats.un.org/unsd/publication/seriesM/seriesm_90e.pdf">https://unstats.un.org/unsd/publication/seriesM/seriesm_90e.pdf</a></p>
 
-  <p>System of National Accounts (SNA) 2008 <a
+  <p>System of National Accounts 2008 </p>
+
+  <p><a
   href="https://unstats.un.org/unsd/publication/seriesf/SeriesF_2Rev5e.pdf">https://unstats.un.org/unsd/publication/seriesf/SeriesF_2Rev5e.pdf</a></p>
 
   <p>International Standard Industrial Classification of All Economic Activities
   (ISIC) </p>
 
   <p><a
-  href="https://unstats.un.org/unsd/cr/registry/regcst.asp?Cl=27">https://unstats.un.org/unsd/cr/registry/regcst.asp?Cl=27</a></p>
+  href="https://unstats.un.org/unsd/classifications/Econ/isic">https://unstats.un.org/unsd/classifications/Econ/isic</a></p>
+
+  <p> </p>
 QUALITY_ASSURE: >-
-  <h2>Quality assurance:</h2>
+  <p>The UNIDO quality assurance framework is followed to check data quality and
+  consistency before the data dissemination.</p>
 
   <p>UNIDO (2009), UNIDO Data Quality: A quality assurance framework for UNIDO
   statistical activities <a
   href="https://open.unido.org/api/documents/4814740/download/UNIDO-Publication-2009-4814740">https://open.unido.org/api/documents/4814740/download/UNIDO-Publication-2009-4814740</a>
   </p>
 COVERAGE: >-
-  <h1>Data availability</h1>
-
-  <h2>Description:</h2>
+  <p>Data availability:</p>
 
   <p>For more than 200 economies</p>
 
-  <h2>Time series:</h2>
+  <p>Time series:</p>
 
   <p>Data for this indicator are available as of 2000 in the UN Global SDG
   Database, but longer time series are available in the UNIDO MVA database.</p>
 
-  <h2>Disaggregation:</h2>
+  <p>Disaggregation:</p>
 
   <p>No disaggregation available.</p>
 COMPARABILITY: >-
-  <h2>Sources of discrepancies:</h2>
-
-  <p>Minor differences may arise due to 1) exchange rates for conversion to USD
-  2) different base years used for constant price data 3) methods for recent
-  period estimation and 4) different versions of SNA and ISIC revisions used by
-  countries.</p>
+  <p>Sources of discrepancies: Minor differences may arise due to 1) exchange
+  rates for conversion to USD 2) different base years used for constant price
+  data 3) methods for recent period estimation and 4) different versions of SNA
+  and ISIC revisions used by countries.</p>
 OTHER_DOC: >-
-  <h1>References</h1>
-
-  <h2>URL:</h2>
+  <p><strong>URL:</strong></p>
 
   <p><a href="http://www.unido.org/statistics">www.unido.org/statistics</a></p>
 
@@ -181,7 +280,9 @@ OTHER_DOC: >-
   href="https://unstats.un.org/unsd/snaama/methodology.pdf">https://unstats.un.org/unsd/snaama/methodology.pdf</a><br><a
   href="https://esa.un.org/unpd/wpp/Publications/Files/WPP2015_Methodology.pdf">https://esa.un.org/unpd/wpp/Publications/Files/WPP2015_Methodology.pdf</a></p>
 
-  <h2>References:</h2>
+  <p><strong>References:</strong></p>
+
+  <p>International Recommendations for Industrial Statistics 2008</p>
 
   <p>International Yearbook of Industrial Statistics; UNIDO</p>
 

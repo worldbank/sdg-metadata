@@ -6,16 +6,12 @@ SDG_INDICATOR: >-
   <p>Indicator 1.1.1: Proportion of the population living below the
   international poverty line by sex, age, employment status and geographic
   location (urban/rural)</p>
-META_LAST_UPDATE: '<p>Last updated: March 2020</p>'
-SDG_RELATED_INDICATORS: <h1>Related indicators as of February 2020</h1>
-SDG_CUSTODIAN_AGENCIES: |-
-  <h1>Institutional information</h1>
-  <h2><strong>Organization(s):</strong></h2>
-  <p>ILO</p>
+META_LAST_UPDATE: <p>January 2021</p>
+SDG_RELATED_INDICATORS: '<p>1.3.1, 8.2.1, 8.3.1, 8.5.1, 10.4.1</p>'
+SDG_CUSTODIAN_AGENCIES: <p>ILO</p>
+CONTACT_ORGANISATION: <p>ILO</p>
 STAT_CONC_DEF: >-
-  <h1>Concepts and definitions</h1>
-
-  <h2>Definition:</h2>
+  <p><strong>Definition:</strong></p>
 
   <p>The proportion of the employed population below the international poverty
   line of US$1.90 per day, also referred to as the working poverty rate, is
@@ -23,32 +19,29 @@ STAT_CONC_DEF: >-
   consumption or income that is below the international poverty line of
   US$1.90.</p>
 
-  <h2>Concepts:</h2>
+  <p><strong>Concepts:</strong></p>
 
-  <p><strong><em>Employment:</em></strong> All persons of working age who,
-  during a short reference period (one week), were engaged in any activity to
-  produce goods or provide services for pay or profit.</p>
+  <p>Employment: All persons of working age who, during a short reference period
+  (one week), were engaged in any activity to produce goods or provide services
+  for pay or profit.</p>
 
-  <p><strong><em>Poverty Line:</em></strong> Threshold below which individuals
-  in the reference population are considered poor and above which they are
-  considered non-poor. The threshold is generally defined as the per-capita
-  monetary requirements an individual needs to afford the purchase of a basic
-  bundle of goods and services. For the purpose of this indicator, an absolute
-  international poverty line of US$1.90 per day is used.</p>
+  <p>Poverty Line: Threshold below which individuals in the reference population
+  are considered poor and above which they are considered non-poor. The
+  threshold is generally defined as the per-capita monetary requirements an
+  individual needs to afford the purchase of a basic bundle of goods and
+  services. For the purpose of this indicator, an absolute international poverty
+  line of US$1.90 per day is used.</p>
 
-  <p><strong><em>Household in poverty:</em></strong> Households are defined as
-  poor if their income or consumption expenditure is below the poverty line
-  taking into account the number of household members and composition (e.g.,
-  number of adults and children).</p>
+  <p>Household in poverty: Households are defined as poor if their income or
+  consumption expenditure is below the poverty line taking into account the
+  number of household members and composition (e.g., number of adults and
+  children).</p>
 
-  <p><strong><em>Working poor:</em></strong> Employed persons living in
-  households that are classified as poor, that is, that have income or
-  consumption levels below the poverty line used for measurement.</p>
+  <p>Working poor: Employed persons living in households that are classified as
+  poor, that is, that have income or consumption levels below the poverty line
+  used for measurement.</p>
+UNIT_MEASURE: <p>Percentage</p>
 SOURCE_TYPE: >-
-  <h1>Data sources</h1>
-
-  <h2>Description:</h2>
-
   <p>The preferred data source is a household survey with variables that can
   reliably identify both the poverty status of households and the economic
   activity of the household&#x2019;s members. Examples include household income
@@ -71,37 +64,45 @@ SOURCE_TYPE: >-
   expenditure survey and from a separate labour force survey when the respondent
   households can be matched and consistency in the long observation period
   between the surveys can be obtained.</p>
-COLL_METHOD: <h2>Collection process:</h2>
-FREQ_COLL: |-
-  <h1>Calendar</h1>
-  <h2>Data collection:</h2>
-REL_CAL_POLICY: <h2>Data release:</h2>
-DATA_SOURCE: |-
-  <h1>Data providers</h1>
-  <p>Mainly National Statistical Offices.</p>
-COMPILING_ORG: |-
-  <h1>Data compilers</h1>
-  <p>ILO</p>
-RATIONALE: >-
-  <h2>Rationale:</h2>
+COLL_METHOD: >-
+  <p> </p>
 
+  <p>The ILO processes national household survey microdatasets in line with
+  internationally-agreed indicator concepts and definitions set forth by the
+  International Conference of Labour Statisticians. </p>
+FREQ_COLL: <p>Continuous</p>
+REL_CAL_POLICY: >-
+  <p>National data are updated weekly on ILOSTAT. Global and regional estimates
+  are updated once per year (in November or December).</p>
+DATA_SOURCE: <p>Mainly National Statistical Offices.</p>
+COMPILING_ORG: <p>ILO</p>
+INST_MANDATE: >-
+  <p>The ILO is the UN focal point for labour statistics. It sets international
+  standards for labour statistics through the International Conference of Labour
+  Statisticians. It also compiles and produces labour statistics with the goal
+  of disseminating internationally-comparable datasets, and provides technical
+  assistance and training to ILO member States to support their efforts to
+  produce high quality labour market data.</p>
+RATIONALE: >-
   <p>In order to eradicate poverty, we must understand the root causes of
   poverty. </p>
 
   <p>The working poverty rate reveals the proportion of the employed population
-  living in poverty despite being employed, implying that their
-  employment-related incomes are not sufficient to lift them and their families
-  out of poverty and ensure decent living conditions. The adequacy of earnings
-  is a fundamental aspect of job quality, and these deficits in job quality
-  could be keeping workers and their families in poverty.</p>
+  living in poverty despite</p>
+
+  <p>being employed, implying that their employment-related incomes are not
+  sufficient to lift</p>
+
+  <p>them and their families out of poverty and ensure decent living conditions.
+  The adequacy of earnings is a fundamental aspect of job quality, and these
+  deficits in job quality could be keeping workers and their families in
+  poverty.</p>
 
   <p>The proportion of working poor in total employment (that is, the working
   poverty rate) combines data on household income or consumption with labour
   force framework variables measured at the individual level and sheds light on
   the relationship between employment and household poverty.</p>
 REC_USE_LIM: >-
-  <h2>Comments and limitations:</h2>
-
   <p>At the country level, comparisons over time may be affected by such factors
   as changes in survey types or data collection methods. The use of PPPs rather
   than market exchange rates ensures that differences in price levels across
@@ -121,22 +122,129 @@ REC_USE_LIM: >-
   income, the income of other household members and the number of household
   members who need to be supported. It is thus often valuable to study household
   structure in relation to working poverty. </p>
-DATA_COMP: >-
-  <h1>Methodology</h1>
+DATA_COMP: |-
+  <p><math xmlns="http://www.w3.org/1998/Math/MathML">
+      <mi mathvariant="normal">W</mi>
+      <mi mathvariant="normal">o</mi>
+      <mi mathvariant="normal">r</mi>
+      <mi mathvariant="normal">k</mi>
+      <mi mathvariant="normal">i</mi>
+      <mi mathvariant="normal">n</mi>
+      <mi mathvariant="normal">g</mi>
+      <mi mathvariant="normal">&amp;nbsp;</mi>
+      <mi mathvariant="normal">p</mi>
+      <mi mathvariant="normal">o</mi>
+      <mi mathvariant="normal">v</mi>
+      <mi mathvariant="normal">e</mi>
+      <mi mathvariant="normal">r</mi>
+      <mi mathvariant="normal">t</mi>
+      <mi mathvariant="normal">y</mi>
+      <mi mathvariant="normal">&amp;nbsp;</mi>
+      <mi mathvariant="normal">r</mi>
+      <mi mathvariant="normal">a</mi>
+      <mi mathvariant="normal">t</mi>
+      <mi mathvariant="normal">e</mi>
+      <mo>=</mo>
+      <mi mathvariant="normal">&amp;nbsp;</mi>
+      <mfrac>
+        <mrow>
+          <mi mathvariant="normal">E</mi>
+          <mi mathvariant="normal">m</mi>
+          <mi mathvariant="normal">p</mi>
+          <mi mathvariant="normal">l</mi>
+          <mi mathvariant="normal">o</mi>
+          <mi mathvariant="normal">y</mi>
+          <mi mathvariant="normal">e</mi>
+          <mi mathvariant="normal">d</mi>
+          <mi mathvariant="normal">&amp;nbsp;</mi>
+          <mi mathvariant="normal">p</mi>
+          <mi mathvariant="normal">e</mi>
+          <mi mathvariant="normal">r</mi>
+          <mi mathvariant="normal">s</mi>
+          <mi mathvariant="normal">o</mi>
+          <mi mathvariant="normal">n</mi>
+          <mi mathvariant="normal">s</mi>
+          <mi mathvariant="normal">&amp;nbsp;</mi>
+          <mi mathvariant="normal">l</mi>
+          <mi mathvariant="normal">i</mi>
+          <mi mathvariant="normal">v</mi>
+          <mi mathvariant="normal">i</mi>
+          <mi mathvariant="normal">n</mi>
+          <mi mathvariant="normal">g</mi>
+          <mi mathvariant="normal">&amp;nbsp;</mi>
+          <mi mathvariant="normal">o</mi>
+          <mi mathvariant="normal">n</mi>
+          <mi mathvariant="normal">&amp;nbsp;</mi>
+          <mi mathvariant="normal">l</mi>
+          <mi mathvariant="normal">e</mi>
+          <mi mathvariant="normal">s</mi>
+          <mi mathvariant="normal">s</mi>
+          <mi mathvariant="normal">&amp;nbsp;</mi>
+          <mi mathvariant="normal">t</mi>
+          <mi mathvariant="normal">h</mi>
+          <mi mathvariant="normal">a</mi>
+          <mi mathvariant="normal">n</mi>
+          <mi mathvariant="normal">&amp;nbsp;</mi>
+          <mi mathvariant="normal">U</mi>
+          <mi mathvariant="normal">S</mi>
+          <mi mathvariant="normal">$</mi>
+          <mi mathvariant="normal">&amp;nbsp;</mi>
+          <mn>1</mn>
+          <mo>.</mo>
+          <mn>90</mn>
+          <mi mathvariant="normal">&amp;nbsp;</mi>
+          <mi mathvariant="normal">a</mi>
+          <mi mathvariant="normal">&amp;nbsp;</mi>
+          <mi mathvariant="normal">d</mi>
+          <mi mathvariant="normal">a</mi>
+          <mi mathvariant="normal">y</mi>
+        </mrow>
+        <mrow>
+          <mi mathvariant="normal">T</mi>
+          <mi mathvariant="normal">o</mi>
+          <mi mathvariant="normal">t</mi>
+          <mi mathvariant="normal">a</mi>
+          <mi mathvariant="normal">l</mi>
+          <mi mathvariant="normal">&amp;nbsp;</mi>
+          <mi mathvariant="normal">e</mi>
+          <mi mathvariant="normal">m</mi>
+          <mi mathvariant="normal">p</mi>
+          <mi mathvariant="normal">l</mi>
+          <mi mathvariant="normal">o</mi>
+          <mi mathvariant="normal">y</mi>
+          <mi mathvariant="normal">m</mi>
+          <mi mathvariant="normal">e</mi>
+          <mi mathvariant="normal">n</mi>
+          <mi mathvariant="normal">t</mi>
+        </mrow>
+      </mfrac>
+      <mi>&amp;nbsp;</mi>
+      <mo>&#xD7;</mo>
+      <mn>100</mn>
+    </math></p>
+DATA_VALIDATION: >-
+  <p>The ILO engages in annual consultations with member States through the
+  ILOSTAT questionnaire and related Statistics Reporting System (StaRS).
+  National data providers receive a link to the portal where they can review all
+  national SDG data available on ILOSTAT.</p>
+ADJUSTMENT: >-
+  <p>Through the ILO Harmonized Microdata initiative, the ILO strives to produce
+  internationally comparable labour statistics based on the indicator concepts
+  and definitions adopted by the International Conference of Labour
+  Statisticians.</p>
+IMPUTATION: >-
+  <p>&#x2022; Estimates are produced for countries and years for which no direct
+  working poverty estimates are available based on household survey estimates,
+  but for which total poverty estimates are available in the World Bank&#x2019;s
+  PovcalNet database. This is carried out through a multivariate regression
+  model described in &#x201C;Employment and economic class in the developing
+  world&#x201D; (Kapsos and Bourmpoula, 2013), available at <a
+  href="http://www.ilo.org/wcmsp5/groups/public/---dgreports/---inst/documents/publication/wcms_216451.pdf">http://www.ilo.org/wcmsp5/groups/public/---dgreports/---inst/documents/publication/wcms_216451.pdf</a>.</p>
 
-  <h2>Computation method:</h2>
-
-  <p>Working poverty&#xA0;rate = ((Employed persons living on less than US$1.90
-  a day) / (Total employment)) x 100</p>
-IMPUTATION: |-
-  <h2>Treatment of missing values:</h2>
-  <ul>
-    <li>At country level</li>
-    <li>At regional and global levels</li>
-  </ul>
+  <p>&#x2022; Following the step described directly above, missing data at the
+  national level are estimated through a multivariate regression model for the
+  purpose of producing global and regional estimations.</p>
 REG_AGG: >-
-  <h2>Regional aggregates:</h2>
-
   <p>The ILO produces global and regional estimates of employment by economic
   class (and thus, of working poverty rates) using the ILO&#x2019;s Employment
   by Class (EbyC) model. These estimates are part of the ILO Estimates and
@@ -144,36 +252,46 @@ REG_AGG: >-
   Outlook reports. For more information, on the model used to derive these
   estimates, refer to the ILO paper &#x201C;Employment and economic class in the
   developing world&#x201D; (Kapsos and Bourmpoula, 2013), available at <a
-  href="http://www.ilo.org/wcmsp5/groups/public/---dgreports/---inst/documents/publication/wcms_216451.pdf">http://www.ilo.org/wcmsp5/groups/public/---dgreports/---inst/documents/publication/wcms_216451.pdf</a></p>
+  href="http://www.ilo.org/wcmsp5/groups/public/---dgreports/---inst/documents/publication/wcms_216451.pdf">http://www.ilo.org/wcmsp5/groups/public/---dgreports/---inst/documents/publication/wcms_216451.pdf</a>.</p>
 DOC_METHOD: >-
-  <h2>Methods and guidance available to countries for the compilation of the
-  data at the national level:</h2>
-QUALITY_ASSURE: <h2>Quality assurance:</h2>
-COVERAGE: |-
-  <h1>Data availability</h1>
-  <h2>Description:</h2>
-  <h2>Time series:</h2>
-  <h2>Disaggregation:</h2>
-  <p>Work is underway at the World Bank for disaggregated poverty estimates.</p>
-COMPARABILITY: <h2>Sources of discrepancies:</h2>
-OTHER_DOC: >-
-  <h1>References</h1>
-
-  <p>Decent Work and the Sustainable Development Goals: A Guidebook on SDG
-  Labour Market Indicators (ILO) <a
+  <p>National poverty estimates will differ from this SDG indicator. This SDG
+  indicator uses the international poverty line, currently set at US$1.90 at
+  purchasing power parity. For further information, see: Decent Work and the
+  Sustainable Development Goals: A Guidebook on SDG Labour Market Indicators
+  (ILO) <a
   href="https://www.ilo.org/stat/Publications/WCMS_647109/lang--en/index.htm">https://www.ilo.org/stat/Publications/WCMS_647109/lang--en/index.htm</a>
   </p>
+QUALITY_ASSURE: >-
+  <p>Data consistency and quality checks are regularly conducted for validation
+  of the data before dissemination in the ILOSTAT database. </p>
+COVERAGE: >-
+  <p>Data availability: Data for this indicator is available for 117 countries
+  and territories. </p>
 
-  <p>ILOSTAT (<a
-  href="https://ilostat.ilo.org/">https://ilostat.ilo.org/</a>).</p>
+  <p>Time series: This submission covers data from 2000 to 2019. </p>
 
-  <p>ILOSTAT&#x2019;s topic page on working poverty (<a
-  href="https://ilostat.ilo.org/topics/working-poor/">https://ilostat.ilo.org/topics/working-poor/</a>)</p>
+  <p>Disaggregation:</p>
 
-  <p>Employment and economic class in the developing world (Kapsos and
-  Bourmpoula, 2013) <a
-  href="http://www.ilo.org/wcmsp5/groups/public/---dgreports/---inst/documents/publication/wcms_216451.pdf">http://www.ilo.org/wcmsp5/groups/public/---dgreports/---inst/documents/publication/wcms_216451.pdf</a></p>
+  <p>The working poverty rate (proportion of employed persons living in poverty)
+  is disaggregated by sex and age.</p>
+COMPARABILITY: >-
+  <p>National poverty estimates will differ from this SDG indicator. This SDG
+  indicator uses the international poverty line, currently set at US$1.90 at
+  purchasing power parity. For further information, see: Decent Work and the
+  Sustainable Development Goals: A Guidebook on SDG Labour Market Indicators
+  (ILO) <a
+  href="https://www.ilo.org/stat/Publications/WCMS_647109/lang--en/index.htm">https://www.ilo.org/stat/Publications/WCMS_647109/lang--en/index.htm</a>
+  </p>
+OTHER_DOC: >-
+  <ul>
+    <li>Decent Work and the Sustainable Development Goals: A Guidebook on SDG Labour Market Indicators (ILO) <a href="https://www.ilo.org/stat/Publications/WCMS_647109/lang--en/index.htm">https://www.ilo.org/stat/Publications/WCMS_647109/lang--en/index.htm</a> </li>
+    <li>ILOSTAT (<a href="https://ilostat.ilo.org/">https://ilostat.ilo.org/</a>).<ul>
+        <li>ILOSTAT&#x2019;s topic page on working poverty (<a href="https://ilostat.ilo.org/topics/working-poor/">https://ilostat.ilo.org/topics/working-poor/</a>)</li>
+      </ul>
+    </li>
+    <li>Employment and economic class in the developing world (Kapsos and Bourmpoula, 2013) <a href="http://www.ilo.org/wcmsp5/groups/public/---dgreports/---inst/documents/publication/wcms_216451.pdf">http://www.ilo.org/wcmsp5/groups/public/---dgreports/---inst/documents/publication/wcms_216451.pdf</a></li>
+  </ul>
 
   <p>Decent Work Indicators Manual <a
   href="http://www.ilo.org/wcmsp5/groups/public/---dgreports/---integration/documents/publication/wcms_229374.pdf">http://www.ilo.org/wcmsp5/groups/public/---dgreports/---integration/documents/publication/wcms_229374.pdf</a>
-  (second version, page 70).</p>
+  (second version, page 70). </p>

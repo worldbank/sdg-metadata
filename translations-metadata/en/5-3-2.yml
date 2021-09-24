@@ -4,48 +4,62 @@ SDG_TARGET: >-
   forced marriage and female genital mutilation</p>
 SDG_INDICATOR: >-
   <p>Indicator 5.3.2: Proportion of girls and women aged 15-49 years who have
-  undergone female genital mutilation/cutting, by age</p>
-META_LAST_UPDATE: '<p>Last updated: 7 March 2019</p>'
-SDG_CUSTODIAN_AGENCIES: |-
-  <h1>Institutional information</h1>
-  <h2>Organization(s):</h2>
-  <p>United Nations Children&apos;s Fund (UNICEF)</p>
+  undergone female genital mutilation/cutting<sup><a href="#footnote-2"
+  id="footnote-ref-2">[1]</a></sup>, by age</p><div class="footnotes"><div><sup
+  class="footnote-number" id="footnote-2">1</sup><p> The official indicator name
+  refers to &#x2018;female genital mutilation/cutting&#x2019;, or FGM/C. In
+  recent years the convention within UNICEF and partner organizations has
+  shifted to referring to &#x2018;female genital mutilation&#x2019;, or FGM, a
+  term which is now used interchangeably with FGM/C throughout the metadata.
+  Other common terms for the practice include &#x2018;female
+  circumcision&#x2019; and &#x2018;excision&#x2019;. The custodian will request
+  the IAEG-SDGs to consider a refinement of the indicator name to reflect this
+  change for consideration at the UN Statistical Commission in 2022. <a
+  href="#footnote-ref-2">&#x2191;</a></p></div></div>
+META_LAST_UPDATE: <p>March 2021</p>
+SDG_RELATED_INDICATORS: >-
+  <p>The prevalence of female genital mutilation can be interpreted alongside
+  other indicators about women&#x2019;s well-being, including those on
+  women&#x2019;s health under Goal 3, those on the status of women under Goal 5,
+  and those around violence against women under Goal 16. </p>
+SDG_CUSTODIAN_AGENCIES: <p>United Nations Children&apos;s Fund (UNICEF)</p>
+CONTACT_ORGANISATION: <p>United Nations Children&apos;s Fund (UNICEF)</p>
 STAT_CONC_DEF: >-
-  <h1>Concepts and definitions</h1>
-
-  <h2>Definition:</h2>
+  <p>Definition:</p>
 
   <p>Proportion of girls and women aged 15-49 years who have undergone female
-  genital mutilation/cutting is currently being measured by the proportion of
-  girls aged 15-19 years who have undergone female genital
-  mutilation/cutting</p>
+  genital mutilation.</p>
 
-  <h2>Concepts:</h2>
+  <p>This indicator can be measured among smaller age groups, with the
+  experience of younger women representing FGM/C that has occurred more recently
+  and the experience of older women representing levels of the practice in the
+  past. At the regional and global level, this indicator is currently being
+  reported as the proportion of adolescent girls aged 15-19 years who have
+  undergone female genital mutilation.</p>
 
-  <p>Female genital mutilation/cutting (FGM/C) refers to &#x201C;all procedures
-  involving partial or total removal of the female external genitalia or other
-  injury to the female genital organs for non-medical reasons&quot; (World
-  Health Organization, Eliminating Female Genital Mutilation: An interagency
-  statement, WHO, UNFPA, UNICEF, UNIFEM, OHCHR, UNHCR, UNECA, UNESCO, UNDP,
-  UNAIDS, WHO, Geneva, 2008, p.4)</p>
+  <p>Concepts:</p>
+
+  <p>Female genital mutilation (FGM) refers to &#x201C;all procedures involving
+  partial or total removal of the female external genitalia or other injury to
+  the female genital organs for non-medical reasons&quot; (World Health
+  Organization, Eliminating Female Genital Mutilation: An interagency statement,
+  WHO, UNFPA, UNICEF, UNIFEM, OHCHR, UNHCR, UNECA, UNESCO, UNDP, UNAIDS, WHO,
+  Geneva, 2008, p.4)</p>
+UNIT_MEASURE: <p>Proportion</p>
+CLASS_SYSTEM: '<p>The indicator captures all experiences of FGM, regardless of type. </p>'
 SOURCE_TYPE: >-
-  <h1>Data sources</h1>
-
-  <h2>Description:</h2>
-
   <p>Household surveys such as UNICEF-supported MICS and DHS have been
   collecting data on this indicator in low- and middle-income countries since
   the late 1980s. In some countries, such data are also collected through other
   national household surveys.</p>
 COLL_METHOD: >-
-  <h2>Collection process:</h2>
-
-  <p>UNICEF undertakes a wide consultative process of compiling and assessing
-  data from national sources for the purposes of updating its global databases
-  on the situation of children. Up until 2017, the mechanism UNICEF used to
-  collaborate with national authorities on ensuring data quality and
-  international comparability on key indicators of relevance to children was
-  known as Country Data Reporting on the Indicators for the Goals (CRING).</p>
+  <ul>
+    <li>
+      <ol>
+        <li>UNICEF undertakes a wide consultative process of compiling and assessing data from national sources for the purposes of updating its global databases on the situation of children. Up until 2017, the mechanism UNICEF used to collaborate with national authorities on ensuring data quality and international comparability on key indicators of relevance to children was known as Country Data Reporting on the Indicators for the Goals (CRING).</li>
+      </ol>
+    </li>
+  </ul>
 
   <p>As of 2018, UNICEF launched a new country consultation process with
   national authorities on selected child-related global SDG indicators it is
@@ -58,87 +72,99 @@ COLL_METHOD: >-
   used, and the application of internationally agreed definitions,
   classification and methodologies to the data from that source. Once reviewed,
   feedback is made available to countries on whether or not specific data points
-  are accepted, and if not, the reasons why. More details on the consultation
-  process can be found in the <a
-  href="https://data.unicef.org/resources/resource-type/guidance/">guidance
-  note</a>. </p>
+  are accepted, and if not, the reasons why. </p>
 FREQ_COLL: >-
-  <h1>Calendar</h1>
-
-  <h2>Data collection:</h2>
-
   <p>UNICEF will undertake an annual country consultation likely between
   December and January every year to allow for review and processing of the
   feedback received in order to meet global SDG reporting deadlines.</p>
-REL_CAL_POLICY: |-
-  <h2>Data release:</h2>
-  <p>March 2019.</p>
-DATA_SOURCE: |-
-  <h1>Data providers</h1>
-  <p>National Statistical Offices (in most cases)</p>
-COMPILING_ORG: |-
-  <h1>Data compilers</h1>
-  <p>UNICEF</p>
+REL_CAL_POLICY: <p>March 2021</p>
+DATA_SOURCE: <p>National Statistical Offices (in most cases)</p>
+COMPILING_ORG: <p>UNICEF</p>
+INST_MANDATE: >-
+  <p>UNICEF is responsible for global monitoring and reporting on the wellbeing
+  of children. It provides technical and financial assistance to Member States
+  to support their efforts to collect quality data on FGM, including through the
+  UNICEF-supported MICS household survey programme. UNICEF also compiles FGM
+  statistics with the goal of making internationally comparable datasets
+  publicly available, and it analyses FGM statistics which are included in
+  relevant data-driven publications, including in its flagship publication,
+  <em>The State of the World&#x2019;s Children.</em></p>
 RATIONALE: >-
-  <h2>Rationale:</h2>
+  <p>FGM is a violation of girls&#x2019; and women&#x2019;s human rights. There
+  is a large body of literature documenting the adverse health consequences of
+  FGM over both the short and long term. The practice of FGM is a direct
+  manifestation of gender inequality </p>
 
-  <p>FGM/C is a violation of girls&#x2019; and women&#x2019;s human rights.
-  There is a large body of literature documenting the adverse health
-  consequences of FGM/C over both the short and long term. The practice of FGM/C
-  is a direct manifestation of gender inequality </p>
-
-  <p>FGM/C is condemned by a number of international treaties and conventions.
-  Since FGM/C is regarded as a traditional practice prejudicial to the health of
+  <p>FGM is condemned by a number of international treaties and conventions.
+  Since FGM is regarded as a traditional practice prejudicial to the health of
   children and is, in most cases, performed on minors, it violates the
   Convention on the Rights of the Child. Existing national legislation in many
-  countries also include explicit bans against FGM/C.</p>
+  countries also include explicit bans against FGM.</p>
 REC_USE_LIM: >-
-  <h2>Comments and limitations:</h2>
-
   <p>There are existing tools and mechanisms for data collection that countries
   have implemented to monitor the situation with regards to this indicator. The
   modules used to collect information on the circumcision status of girls aged
-  0-14 and women aged 15-49 in the DHS and MICS have been fully harmonized.</p>
+  0-14 and girls and women aged 15-49 in the DHS and MICS have been fully
+  harmonized.</p>
+
+  <p>Data on FGM inform policymakers of critically important variables in an
+  effort to better understand the practice and develop policies for its
+  abandonment. That said, these data must be analysed in light of the extremely
+  delicate and often sensitive nature of the topic. Self-reported data on FGM
+  need to be treated with caution for several reasons. Women may be unwilling to
+  disclose having undergone the procedure because of the sensitivity of the
+  issue or the illegal status of the practice in their country. In addition,
+  women may be unaware that they have been cut or of the extent of the cutting,
+  particularly if FGM was performed at an early age.</p>
+
+  <p>Data users should also keep in mind the retrospective nature of these data,
+  which results in this indicator not being sensitive to recent change. For more
+  details on interpretation and common pitfalls for this indicator, see: <a
+  href="https://data.unicef.org/wp-content/uploads/2020/06/A-Generation-to-Protect-publication-English_2020.pdf"><em>A
+  Generation to Protect: Monitoring violence exploitation and abuse of children
+  within the SDG framework</em></a><em> </em>(UNICEF 2020). </p>
 DATA_COMP: >-
-  <h1>Methodology</h1>
+  <p>Number of girls and women aged 15-49 who have undergone FGM divided by the
+  total number of girls and women aged 15-49 in the population multiplied by
+  100</p>
+DATA_VALIDATION: >-
+  <p>A wide consultative process is undertaken to compile, assess and validate
+  data from national sources. </p>
 
-  <h2>Computation method:</h2>
-
-  <p>Number of girls and women aged 15-49 who have undergone FGM/C divided by
-  the total number of girls and women aged 15-49 in the population multiplied by
-  100.</p>
+  <p>The consultation process solicited feedback directly from National
+  Statistical Offices, as well as other government agencies responsible for
+  official statistics, on the compilation of the indicators, including the data
+  sources used, and the application of internationally agreed definitions,
+  classification and methodologies to the data from that source. The results of
+  this country consultation are reviewed by UNICEF as the custodian agency. Once
+  reviewed, feedback is made available to countries on whether or not specific
+  data points are accepted, and if not, the reasons why. </p>
 IMPUTATION: >-
-  <h2>Treatment of missing values:</h2>
-
-  <ul>
-    <li>At country level:</li>
-  </ul>
+  <p>&#x2022; At country level</p>
 
   <p>When data for a country are entirely missing, UNICEF does not publish any
   country-level estimate</p>
 
-  <ul>
-    <li>At regional and global levels:</li>
-  </ul>
+  <p>&#x2022; At regional and global levels</p>
 
   <p>Regional aggregates are only published when at least 50 per cent of the
   regional population for the relevant age group are covered by the available
   data.</p>
 REG_AGG: >-
-  <h2>Regional aggregates:</h2>
-
-  <p>Global aggregates are weighted averages of all the countries with
-  nationally representative prevalence data.</p>
+  <p>Global aggregates are not presented for this indicator as data are only
+  collected in a subset of countries where the practice is sufficiently
+  widespread to warrant national-level data collection. Regional aggregates are
+  weighted averages of countries with available data within the region. </p>
 DOC_METHOD: >-
-  <h2>Methods and guidance available to countries for the compilation of the
-  data at the national level:</h2>
-
-  <p>Countries gather data on FGM/C through household surveys such as
+  <p>Countries gather data on FGM through household surveys such as
   UNICEF-supported MICS or Demographic and Health Surveys. In some countries,
   such data are also collected through other national household surveys.</p>
+QUALITY_MGMNT: >-
+  <p>The process behind the production of reliable statistics on FGM is well
+  established within UNICEF. The quality and process leading to the production
+  of the SDG indicator 5.3.2 is ensured by working closely with the statistical
+  offices and other relevant stakeholders through a consultative process.</p>
 QUALITY_ASSURE: >-
-  <h2>Quality assurance:</h2>
-
   <p>UNICEF maintains the global database on FGM/C that is used for SDG and
   other official reporting. Before the inclusion of any data point in the
   database, it is reviewed by technical focal points at UNICEF headquarters to
@@ -151,37 +177,38 @@ QUALITY_ASSURE: >-
   sufficiently large sample; data conform to the standard indicator definition
   including age group and concepts, to the extent possible; data are plausible
   based on trends and consistency with previously published/reported estimates
-  for the indicator. </p>
-
-  <p>As of 2018, UNICEF undertakes an annual consultation with government
-  authorities on 10 of the child-related SDG indicators in its role of sole or
-  joint custodian, and in line with its global monitoring mandate and normative
-  commitments to advancing the 2030 Agenda for children. This includes indicator
-  5.3.2. More details on the process for the country consultation are outlined
-  below.</p>
+  for the indicator.</p>
+QUALITY_ASSMNT: >-
+  <p>Data consistency and quality checks are regularly conducted for validation
+  of the data before dissemination </p>
 COVERAGE: >-
-  <h1>Data availability</h1>
+  <p>Data availability:</p>
 
   <p>Nationally representative prevalence data are currently available for 30
   low- and middle-income countries</p>
 
-  <h2>Disaggregation:</h2>
+  <p>Time series: </p>
 
-  <p>Age, income, place of residence, geographic location, ethnicity,
-  education</p>
+  <p>At the country level, the latest available data for indicator 5.3.2 are
+  published. At the regional level, time series estimates for indicator 5.3.2
+  (as measured among adolescent girls aged 15-19 years) are published for 5-year
+  intervals beginning from 2000.</p>
+
+  <p>Disaggregation:</p>
+
+  <p>Age (15-49 years at the national level, 15-19 years at the regional
+  level)</p>
 COMPARABILITY: >-
-  <p><strong>Sources of discrepancies:</strong></p>
+  <p>Sources of discrepancies:</p>
 
   <p>The estimates compiled and presented at global level come directly from
   nationally produced data and are not adjusted or recalculated.</p>
 OTHER_DOC: >-
-  <h1>References</h1>
+  <p><strong>URL:</strong></p>
 
-  <h2>URL:</h2>
+  <p>data.unicef.org</p>
 
-  <p><a href="https://data.unicef.org">https://data.unicef.org</a></p>
-
-  <h2>References:</h2>
+  <p><strong>References:</strong></p>
 
   <p><a
-  href="https://data.unicef.org/topic/child-protection/female-genital-mutilation/">https://data.unicef.org/topic/child-protection/female-genital-mutilation/</a></p>
+  href="https://data.unicef.org/topic/child-protection/female-genital-mutilation/">https://data.unicef.org/topic/child-protection/female-genital-mutilation/</a>https://data.unicef.org/resources/a-generation-to-protect/</p>

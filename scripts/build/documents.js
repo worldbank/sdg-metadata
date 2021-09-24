@@ -5,9 +5,20 @@ module.exports = function(refresh=false) {
     const utils = require('./utils')
     const store = require('../translation-store')
 
+    const miscTranslations = store.getMiscellaneousTranslationStore()
+    const conceptTranslations = {}
+    for (const language of Object.keys(miscTranslations)) {
+        conceptTranslations[language] = {}
+        for (const concept of Object.keys(miscTranslations[language].concepts)) {
+            conceptTranslations[language][concept] = miscTranslations[language].concepts[concept]
+        }
+    }
+
     const docOptions = {
-        layout: 'iaeg-sdg.njk',
+        layout: 'harmonized.njk',
         layoutFolder: path.join(__dirname, 'layouts'),
+        conceptNames: true,
+        conceptTranslations: conceptTranslations,
     }
     const sdgMetadataConvert = require('sdg-metadata-convert')
     const pdfOutput = new sdgMetadataConvert.PdfOutput(docOptions)
@@ -31,16 +42,17 @@ module.exports = function(refresh=false) {
             const targetFolder = utils.createFolder(['www', 'documents', language])
             const pdfFile = sourceFile.replace(sourceExtension, '.pdf')
             const pdfPath = path.join(targetFolder, pdfFile)
-            pdfConversions.push([sourcePath, pdfPath])
+            pdfConversions.push([sourcePath, pdfPath, language])
         }
     }
     convertPdfs()
 
     async function convertPdfs() {
         for (const conversion of pdfConversions) {
-            const [inputFile, outputFile] = conversion
+            const [inputFile, outputFile, language] = conversion
             try {
                 const metadata = await yamlInput.read(inputFile)
+                metadata.setDescriptor('LANGUAGE', language)
                 await pdfOutput.write(metadata, outputFile)
                 console.log(`Converted ${inputFile} to ${outputFile}.`);
             } catch(e) {

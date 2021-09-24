@@ -1,61 +1,67 @@
 SDG_GOAL: >-
   <p>Goal: Promote sustained, inclusive and sustainable economic growth, full
-  and productive employment and decent work for all</p>
+  and productive employment and decent work for all </p>
 SDG_TARGET: >-
   <p>Target: Achieve higher levels of economic productivity through
   diversification, technological upgrading and innovation, including through a
-  focus on high-value added and labour-intensive sectors</p>
-SDG_INDICATOR: '<p>Indicator: 8.2.1: Annual growth rate of real GDP per employed person</p>'
-META_LAST_UPDATE: '<p>Last updated: March 2020</p>'
-SDG_RELATED_INDICATORS: <h1>Related indicators</h1>
-SDG_CUSTODIAN_AGENCIES: |-
-  <h1>Institutional information</h1>
-  <h2>Organization(s):</h2>
+  focus on high-value added and labour-intensive sectors </p>
+SDG_INDICATOR: '<p>Indicator: 8.2.1: Annual growth rate of real GDP per employed person </p>'
+META_LAST_UPDATE: <p>January 2021</p>
+SDG_RELATED_INDICATORS: '<p>1.1.1, 8.3.1, 8.5.2, 10.4.1</p>'
+SDG_CUSTODIAN_AGENCIES: <p>ILO </p>
+CONTACT_ORGANISATION: |-
   <p>ILO</p>
+  <p> </p>
 STAT_CONC_DEF: >-
-  <h1>Concepts and definitions</h1>
+  <p><strong>Definition:</strong> </p>
 
-  <h2>Definition:</h2>
+  <p>The annual growth rate of real GDP per employed person conveys the annual
+  percentage change in real Gross Domestic Product per employed person. </p>
 
-  <p>Annual growth rate of real GDP per employed person conveys the annual
-  percentage change in real Gross Domestic Product per employed person.</p>
+  <p> </p>
 
-  <h2>Concepts:</h2>
+  <p><strong>Concepts:</strong> </p>
 
-  <p><strong><em>Gross Domestic Product (GDP):</em></strong> It is the main
-  measure of national output, representing the total value of all final goods
-  and services within the System of National Accounts (SNA) production boundary
-  produced in a particular economy (that is, the dollar value of all goods and
-  services within the SNA production boundary produced within a country&#x2019;s
-  borders in a given year). According to the SNA, &#x201C;GDP is the sum of
-  gross value added of all resident producer units plus that part (possibly the
-  total) of taxes on products, less subsidies on products, that is not included
-  in the valuation of output &#x2026; GDP is also equal to the sum of the final
-  uses of goods and services (all uses except intermediate consumption) measured
-  at purchasers&#x2019; prices, less the value of imports of goods and services
-  GDP is also equal to the sum of primary incomes distributed by resident
-  producer units.&#x201D;</p>
+  <p>Gross Domestic Product (GDP): It is the main measure of national output,
+  representing the total value of all final goods and services within the System
+  of National Accounts (SNA) production boundary produced in a particular
+  economy (that is, the dollar value of all goods and services within the SNA
+  production boundary produced within a country&#x2019;s borders in a given
+  year). According to the SNA, &#x201C;GDP is the sum of gross value added of
+  all resident producer units plus that part (possibly the total) of taxes on
+  products, less subsidies on products, that is not included in the valuation of
+  output &#x2026; GDP is also equal to the sum of the final uses of goods and
+  services (all uses except intermediate consumption) measured at
+  purchasers&#x2019; prices, less the value of imports of goods and services GDP
+  is also equal to the sum of primary incomes distributed by resident producer
+  units.&#x201D; </p>
 
-  <p><strong><em>Real Gross Domestic Product (GDP):</em></strong> Real GDP
-  refers to GDP calculated at constant prices, that is, the volume level of GDP,
-  excluding the effect of inflation and favouring comparisons of quantities
-  beyond price changes. Constant price estimates of GDP are calculated by
-  expressing values in terms of a base period. In theory, the price and quantity
-  components of a value are identified and the price in the base period is
-  substituted for that in the current period.</p>
+  <p> </p>
 
-  <p><strong><em>Employment</em></strong>: All persons of working age who,
-  during a short reference period (one week), were engaged in any activity to
-  produce goods or provide services for pay or profit.</p>
+  <p>Real Gross Domestic Product (GDP): Real GDP refers to GDP calculated at
+  constant prices, that is, the volume level of GDP, excluding the effect of
+  inflation and favouring comparisons of quantities beyond price changes.
+  Constant price estimates of GDP are calculated by expressing values in terms
+  of a base period. In theory, the price and quantity components of a value are
+  identified and the price in the base period is substituted for that in the
+  current period. </p>
+
+  <p> </p>
+
+  <p>Employment: All persons of working age who, during a short reference period
+  (one week), were engaged in any activity to produce goods or provide services
+  for pay or profit. </p>
+UNIT_MEASURE: <p>Percentage</p>
+CLASS_SYSTEM: <p>Not applicable</p>
 SOURCE_TYPE: >-
-  <h1>Data sources</h1>
-
-  <h2>Description:</h2>
+  <p><strong>Description:</strong> </p>
 
   <p>Output measures used in the numerator of this indicator (Gross Domestic
   Product) are best obtained from the production side of national accounts and
   represent, as much as possible, GDP at market prices for the aggregate economy
-  (adjusted for inflation, in constant prices).</p>
+  (adjusted for inflation, in constant prices). </p>
+
+  <p> </p>
 
   <p>Employment data used in the denominator are preferably derived from labour
   force or other household surveys with an employment module. In the absence of
@@ -65,45 +71,44 @@ SOURCE_TYPE: >-
   establishment surveys will capture the number of jobs and not the number of
   persons employed as preferred for the denominator. Also, establishment surveys
   cover, in many cases, the formal sector and employers and employees only, not
-  accounting for the whole economy.</p>
+  accounting for the whole economy. </p>
+
+  <p> </p>
 
   <p>When calculating this indicator, it is important to ensure that the
   coverage of the employment data is consistent with that of the national
-  accounts.</p>
+  accounts. </p>
 COLL_METHOD: >-
-  <h2>Collection process:</h2>
-
   <p>For the purposes of international reporting on the SDG indicators, the ILO
   uses country-level estimates of GDP in constant 2010 US$ from the World
   Bank&#x2019;s World Development Indicators database and country-level
-  estimates on employment from household surveys or derived from the
-  ILO&#x2019;s TEM to calculate levels and growth rates of labour productivity
-  at the country, regional and global levels.</p>
-FREQ_COLL: |-
-  <h1>Calendar</h1>
-  <h2>Data collection:</h2>
+  estimates on employment from household surveys or derived from the ILO
+  modelled estimates to calculate levels and growth rates of labour productivity
+  at the country, regional and global levels. </p>
+FREQ_COLL: <p>Continuous</p>
 REL_CAL_POLICY: >-
-  <h2>Data release:</h2>
-
   <p>ILO estimates of labour productivity are part of the ILO modelled estimates
   series, analysed in the ILO&apos;s World Employment and Social Outlook
-  reports. The ILO estimates are released once a year (January).</p>
+  reports. The ILO estimates are released once per year (in November or
+  December). </p>
 DATA_SOURCE: >-
-  <h1>Data providers</h1>
-
-  <p>National statistical offices, and in some cases labour ministries or other
-  related agencies.</p>
-
-  <h1>Data compilers</h1>
-
-  <p>ILO.</p>
+  <p>Input GDP and employment data are provided by national statistical offices,
+  and in some cases labour ministries or other related agencies. </p>
+COMPILING_ORG: <p>ILO </p>
+INST_MANDATE: >-
+  <p> The ILO is the UN focal point for labour statistics. It sets international
+  standards for labour statistics through the International Conference of Labour
+  Statisticians. It also compiles and produces labour statistics with the goal
+  of disseminating internationally-comparable datasets, and provides technical
+  assistance and training to ILO member States to support their efforts to
+  produce high quality labour market data.</p>
 RATIONALE: >-
-  <h2>Rationale:</h2>
-
   <p>Real GDP per employed person being a measure of labour productivity, this
   indicator represents a measure of labour productivity growth, thus providing
   information on the evolution, efficiency and quality of human capital in the
-  production process.</p>
+  production process. </p>
+
+  <p> </p>
 
   <p>Economic growth in a country can be ascribed to many factors, including
   increased employment and more effective work by those who are employed. This
@@ -111,10 +116,8 @@ RATIONALE: >-
   economic performance. Labour productivity (and growth) estimates can support
   the formulation of labour market policies and monitor their effects. They can
   also contribute to the understanding of how labour market performance affects
-  living standards.</p>
+  living standards. </p>
 REC_USE_LIM: >-
-  <h2>Comments and limitations:</h2>
-
   <p>Output measures are obtained from national accounts and represent, as much
   as possible, GDP at market prices for the aggregate economy. However, despite
   common principles that are mostly based on the United Nations System of
@@ -123,20 +126,93 @@ REC_USE_LIM: >-
   differences in the treatment of output in services sectors, differences in
   methods used to correct output measures for price changes (in particular, the
   use of different weighting systems to obtain deflators) and differences in the
-  degree of coverage of informal economic activities.</p>
+  degree of coverage of informal economic activities. </p>
+
+  <p> </p>
 
   <p>Data on employment used in the denominator of this indicator refer, as much
   as possible, to the average number of persons with one or more paid jobs
   during the year. That is, the reliability of the employment data is also
   dependent on the degree of coverage of informal activities by the statistical
-  source used.</p>
+  source used. </p>
 DATA_COMP: >-
-  <h1>Methodology</h1>
-
-  <h2>Computation method:</h2>
-
-  <p>Real GDP per employed person = GDP at constant prices/Total employment</p>
-
+  <p><math xmlns="http://www.w3.org/1998/Math/MathML">
+      <mi mathvariant="normal">R</mi>
+      <mi mathvariant="normal">e</mi>
+      <mi mathvariant="normal">a</mi>
+      <mi mathvariant="normal">l</mi>
+      <mi mathvariant="normal">&amp;nbsp;</mi>
+      <mi mathvariant="normal">G</mi>
+      <mi mathvariant="normal">D</mi>
+      <mi mathvariant="normal">P</mi>
+      <mi mathvariant="normal">&amp;nbsp;</mi>
+      <mi mathvariant="normal">p</mi>
+      <mi mathvariant="normal">e</mi>
+      <mi mathvariant="normal">r</mi>
+      <mi mathvariant="normal">&amp;nbsp;</mi>
+      <mi mathvariant="normal">e</mi>
+      <mi mathvariant="normal">m</mi>
+      <mi mathvariant="normal">p</mi>
+      <mi mathvariant="normal">l</mi>
+      <mi mathvariant="normal">o</mi>
+      <mi mathvariant="normal">y</mi>
+      <mi mathvariant="normal">e</mi>
+      <mi mathvariant="normal">d</mi>
+      <mi mathvariant="normal">&amp;nbsp;</mi>
+      <mi mathvariant="normal">p</mi>
+      <mi mathvariant="normal">e</mi>
+      <mi mathvariant="normal">r</mi>
+      <mi mathvariant="normal">s</mi>
+      <mi mathvariant="normal">o</mi>
+      <mi mathvariant="normal">n</mi>
+      <mo>=</mo>
+      <mi mathvariant="normal">&amp;nbsp;</mi>
+      <mfrac>
+        <mrow>
+          <mi mathvariant="normal">G</mi>
+          <mi mathvariant="normal">D</mi>
+          <mi mathvariant="normal">P</mi>
+          <mi mathvariant="normal">&amp;nbsp;</mi>
+          <mi mathvariant="normal">a</mi>
+          <mi mathvariant="normal">t</mi>
+          <mi mathvariant="normal">&amp;nbsp;</mi>
+          <mi mathvariant="normal">c</mi>
+          <mi mathvariant="normal">o</mi>
+          <mi mathvariant="normal">n</mi>
+          <mi mathvariant="normal">s</mi>
+          <mi mathvariant="normal">t</mi>
+          <mi mathvariant="normal">a</mi>
+          <mi mathvariant="normal">n</mi>
+          <mi mathvariant="normal">t</mi>
+          <mi mathvariant="normal">&amp;nbsp;</mi>
+          <mi mathvariant="normal">p</mi>
+          <mi mathvariant="normal">r</mi>
+          <mi mathvariant="normal">i</mi>
+          <mi mathvariant="normal">c</mi>
+          <mi mathvariant="normal">e</mi>
+          <mi mathvariant="normal">s</mi>
+          <mi mathvariant="normal">&amp;nbsp;</mi>
+        </mrow>
+        <mrow>
+          <mi mathvariant="normal">T</mi>
+          <mi mathvariant="normal">o</mi>
+          <mi mathvariant="normal">t</mi>
+          <mi mathvariant="normal">a</mi>
+          <mi mathvariant="normal">l</mi>
+          <mi mathvariant="normal">&amp;nbsp;</mi>
+          <mi mathvariant="normal">e</mi>
+          <mi mathvariant="normal">m</mi>
+          <mi mathvariant="normal">p</mi>
+          <mi mathvariant="normal">l</mi>
+          <mi mathvariant="normal">o</mi>
+          <mi mathvariant="normal">y</mi>
+          <mi mathvariant="normal">m</mi>
+          <mi mathvariant="normal">e</mi>
+          <mi mathvariant="normal">n</mi>
+          <mi mathvariant="normal">t</mi>
+        </mrow>
+      </mfrac>
+    </math></p>
   <p>The numerator and denominator of the equation above should refer to the
   same reference period, for example, the same calendar year.</p>
 
@@ -144,30 +220,164 @@ DATA_COMP: >-
   the annual growth rate of real GDP per employed person is calculated as
   follows:</p>
 
-  <p>Annual growth rate of real GDP per employed person</p>
-
-  <p>= ((LabProd in year n) &#x2013; (LabProd in year n-1))/((LabProd in year
-  n-1)) x 100</p>
+  <p><math xmlns="http://www.w3.org/1998/Math/MathML">
+      <mi mathvariant="normal">A</mi>
+      <mi mathvariant="normal">n</mi>
+      <mi mathvariant="normal">n</mi>
+      <mi mathvariant="normal">u</mi>
+      <mi mathvariant="normal">a</mi>
+      <mi mathvariant="normal">l</mi>
+      <mi mathvariant="normal">&amp;nbsp;</mi>
+      <mi mathvariant="normal">g</mi>
+      <mi mathvariant="normal">r</mi>
+      <mi mathvariant="normal">o</mi>
+      <mi mathvariant="normal">w</mi>
+      <mi mathvariant="normal">t</mi>
+      <mi mathvariant="normal">h</mi>
+      <mi mathvariant="normal">&amp;nbsp;</mi>
+      <mi mathvariant="normal">r</mi>
+      <mi mathvariant="normal">a</mi>
+      <mi mathvariant="normal">t</mi>
+      <mi mathvariant="normal">e</mi>
+      <mi mathvariant="normal">&amp;nbsp;</mi>
+      <mi mathvariant="normal">o</mi>
+      <mi mathvariant="normal">f</mi>
+      <mi mathvariant="normal">&amp;nbsp;</mi>
+      <mi mathvariant="normal">r</mi>
+      <mi mathvariant="normal">e</mi>
+      <mi mathvariant="normal">a</mi>
+      <mi mathvariant="normal">l</mi>
+      <mi mathvariant="normal">&amp;nbsp;</mi>
+      <mi mathvariant="normal">G</mi>
+      <mi mathvariant="normal">D</mi>
+      <mi mathvariant="normal">P</mi>
+      <mi mathvariant="normal">&amp;nbsp;</mi>
+      <mi mathvariant="normal">p</mi>
+      <mi mathvariant="normal">e</mi>
+      <mi mathvariant="normal">r</mi>
+      <mi mathvariant="normal">&amp;nbsp;</mi>
+      <mi mathvariant="normal">e</mi>
+      <mi mathvariant="normal">m</mi>
+      <mi mathvariant="normal">p</mi>
+      <mi mathvariant="normal">l</mi>
+      <mi mathvariant="normal">o</mi>
+      <mi mathvariant="normal">y</mi>
+      <mi mathvariant="normal">e</mi>
+      <mi mathvariant="normal">d</mi>
+      <mi mathvariant="normal">&amp;nbsp;</mi>
+      <mi mathvariant="normal">p</mi>
+      <mi mathvariant="normal">e</mi>
+      <mi mathvariant="normal">r</mi>
+      <mi mathvariant="normal">s</mi>
+      <mi mathvariant="normal">o</mi>
+      <mi mathvariant="normal">n</mi>
+      <mo>=</mo>
+      <mi mathvariant="normal">&amp;nbsp;</mi>
+      <mfrac>
+        <mrow>
+          <mo>(</mo>
+          <mi mathvariant="normal">L</mi>
+          <mi mathvariant="normal">a</mi>
+          <mi mathvariant="normal">b</mi>
+          <mi mathvariant="normal">P</mi>
+          <mi mathvariant="normal">r</mi>
+          <mi mathvariant="normal">o</mi>
+          <mi mathvariant="normal">d</mi>
+          <mi mathvariant="normal">&amp;nbsp;</mi>
+          <mi mathvariant="normal">i</mi>
+          <mi mathvariant="normal">n</mi>
+          <mi mathvariant="normal">&amp;nbsp;</mi>
+          <mi mathvariant="normal">y</mi>
+          <mi mathvariant="normal">e</mi>
+          <mi mathvariant="normal">a</mi>
+          <mi mathvariant="normal">r</mi>
+          <mi mathvariant="normal">&amp;nbsp;</mi>
+          <mi mathvariant="normal">n</mi>
+          <mo>)</mo>
+          <mi mathvariant="normal">&amp;nbsp;</mi>
+          <mo>&#x2013;</mo>
+          <mfenced separators="|">
+            <mrow>
+              <mi mathvariant="normal">L</mi>
+              <mi mathvariant="normal">a</mi>
+              <mi mathvariant="normal">b</mi>
+              <mi mathvariant="normal">P</mi>
+              <mi mathvariant="normal">r</mi>
+              <mi mathvariant="normal">o</mi>
+              <mi mathvariant="normal">d</mi>
+              <mi mathvariant="normal">&amp;nbsp;</mi>
+              <mi mathvariant="normal">i</mi>
+              <mi mathvariant="normal">n</mi>
+              <mi mathvariant="normal">&amp;nbsp;</mi>
+              <mi mathvariant="normal">y</mi>
+              <mi mathvariant="normal">e</mi>
+              <mi mathvariant="normal">a</mi>
+              <mi mathvariant="normal">r</mi>
+              <mi mathvariant="normal">&amp;nbsp;</mi>
+              <mi mathvariant="normal">n</mi>
+              <mo>-</mo>
+              <mn>1</mn>
+            </mrow>
+          </mfenced>
+        </mrow>
+        <mrow>
+          <mo>(</mo>
+          <mi mathvariant="normal">L</mi>
+          <mi mathvariant="normal">a</mi>
+          <mi mathvariant="normal">b</mi>
+          <mi mathvariant="normal">P</mi>
+          <mi mathvariant="normal">r</mi>
+          <mi mathvariant="normal">o</mi>
+          <mi mathvariant="normal">d</mi>
+          <mi mathvariant="normal">&amp;nbsp;</mi>
+          <mi mathvariant="normal">i</mi>
+          <mi mathvariant="normal">n</mi>
+          <mi mathvariant="normal">&amp;nbsp;</mi>
+          <mi mathvariant="normal">y</mi>
+          <mi mathvariant="normal">e</mi>
+          <mi mathvariant="normal">a</mi>
+          <mi mathvariant="normal">r</mi>
+          <mi mathvariant="normal">&amp;nbsp;</mi>
+          <mi mathvariant="normal">n</mi>
+          <mo>-</mo>
+          <mn>1</mn>
+          <mo>)</mo>
+        </mrow>
+      </mfrac>
+      <mi>&amp;nbsp;</mi>
+      <mo>&#xD7;</mo>
+      <mn>100</mn>
+    </math></p>
+DATA_VALIDATION: >-
+  <p>The ILO engages in annual consultations with member States through the
+  ILOSTAT questionnaire and related Statistics Reporting System (StaRS).
+  National data providers receive a link to the portal where they can review all
+  national SDG data available on ILOSTAT.</p>
+ADJUSTMENT: >-
+  <p>Through the ILO Harmonized Microdata initiative, the ILO strives to produce
+  internationally comparable labour statistics based on the indicator concepts
+  and definitions adopted by the International Conference of Labour
+  Statisticians.</p>
 IMPUTATION: >-
-  <h2>Treatment of missing values:</h2>
-
   <ul>
-    <li><strong><em>At country level:</em></strong></li>
+    <li>At country level </li>
   </ul>
 
   <p>Multivariate regression techniques are used to impute missing employment
-  values at the country level.</p>
+  values at the country level. </p>
 
-  <p>For further information on the estimates, please refer to the the ILO
-  modelled estimates methodological overview, available at <a
-  href="https://www.ilo.org/ilostat-files/Documents/TEM.pdf">https://www.ilo.org/ilostat-files/Documents/TEM.pdf</a></p>
+  <p>For further information on the estimates, please refer to the ILO modelled
+  estimates methodological overview, available at
+  https://www.ilo.org/ilostat-files/Documents/TEM.pdf. </p>
+
+  <p> </p>
 
   <ul>
-    <li><strong><em>At regional and global levels:</em></strong></li>
+    <li>At regional and global levels </li>
   </ul>
-REG_AGG: >-
-  <h2>Regional aggregates:</h2>
 
+  <p> </p>
+REG_AGG: >-
   <p>To address the problem of missing data, the ILO designed several
   econometric models which are used to produce estimates of labour market
   indicators in the countries and years for which real data are not available.
@@ -177,89 +387,77 @@ REG_AGG: >-
   then aggregated to produce regional and global estimates. For further
   information on the estimates, please refer to the the ILO modelled estimates
   methodological overview, available at <a
-  href="https://www.ilo.org/ilostat-files/Documents/TEM.pdf">https://www.ilo.org/ilostat-files/Documents/TEM.pdf</a>.</p>
-DOC_METHOD: >-
-  <h2>Methods and guidance available to countries for the compilation of the
-  data at the national level:</h2>
-
-  <p>See:</p>
-
-  <p>Estimates and projections of labour market indicators (<a
-  href="http://www.ilo.org/empelm/projects/WCMS_114246/lang--en/index.htm">http://www.ilo.org/empelm/projects/WCMS_114246/lang--en/index.htm</a>)</p>
-
-  <p>ILO Guidebook - Decent Work and the Sustainable Development Goals: A
-  Guidebook on SDG Labour Market Indicators (<a
-  href="https://www.ilo.org/stat/Publications/WCMS_647109/lang--en/index.htm">https://www.ilo.org/stat/Publications/WCMS_647109/lang--en/index.htm</a>)</p>
-
-  <p>ILO Manual &#x2013; Decent Work Indicators, Concepts and Definitions
-  &#x2013; Chapter 1, Economic and social context for decent work <a
-  href="http://www.ilo.org/integration/resources/pubs/WCMS_229374/lang--en/index.htm">http://www.ilo.org/integration/resources/pubs/WCMS_229374/lang--en/index.htm</a>
-  (second version, page 214)</p>
-
-  <p>Resolution concerning statistics of work, employment and labour
-  underutilization <a
-  href="http://www.ilo.ch/global/statistics-and-databases/standards-and-guidelines/resolutions-adopted-by-international-conferences-of-labour-statisticians/WCMS_230304/lang--en/index.htm">http://www.ilo.ch/global/statistics-and-databases/standards-and-guidelines/resolutions-adopted-by-international-conferences-of-labour-statisticians/WCMS_230304/lang--en/index.htm</a>
+  href="https://www.ilo.org/ilostat-files/Documents/TEM.pdf">https://www.ilo.org/ilostat-files/Documents/TEM.pdf</a>.
   </p>
+DOC_METHOD: |-
+  <p>See: </p>
+  <ul>
+    <li>ILO Guidebook - Decent Work and the Sustainable Development Goals: A Guidebook on SDG Labour Market Indicators (<a href="https://www.ilo.org/stat/Publications/WCMS_647109/lang--en/index.htm" target="_blank"><u>https://www.ilo.org/stat/Publications/WCMS_647109/lang--en/index.htm</u></a>) </li>
+    <li>ILO Manual &#x2013; Decent Work Indicators, Concepts and Definitions &#x2013; Chapter 1, Economic and social context for decent work <a href="http://www.ilo.org/integration/resources/pubs/WCMS_229374/lang--en/index.htm" target="_blank"><u>http://www.ilo.org/integration/resources/pubs/WCMS_229374/lang--en/index.htm</u></a> (second version, page 214) </li>
+    <li>Resolution concerning statistics of work, employment and labour underutilization <a href="http://www.ilo.ch/global/statistics-and-databases/standards-and-guidelines/resolutions-adopted-by-international-conferences-of-labour-statisticians/WCMS_230304/lang--en/index.htm" target="_blank"><u>http://www.ilo.ch/global/statistics-and-databases/standards-and-guidelines/resolutions-adopted-by-international-conferences-of-labour-statisticians/WCMS_230304/lang--en/index.htm</u></a> </li>
+    <li>System of National Accounts 2008 <a href="http://unstats.un.org/unsd/nationalaccount/sna2008.asp" target="_blank"><u>http://unstats.un.org/unsd/nationalaccount/sna2008.asp</u></a> </li>
+    <li>Trends Econometric Models: A Review of Methodology <a href="http://www.ilo.org/empelm/pubs/WCMS_120382/lang--en/index.htm" target="_blank"><u>http://www.ilo.org/empelm/pubs/WCMS_120382/lang--en/index.htm</u></a> </li>
+    <li>ILOSTAT Database (<a href="https://ilostat.ilo.org/" target="_blank"><u>https://ilostat.ilo.org/</u></a>) </li>
+    <li>ILOSTAT Database &#x2013; Topics - Labour productivity (<a href="https://ilostat.ilo.org/topics/labour-productivity/" target="_blank"><u>https://ilostat.ilo.org/topics/labour-productivity/</u></a>). </li>
+  </ul>
+QUALITY_ASSURE: >-
+  <p>Data consistency and quality checks are regularly conducted for validation
+  of the data before dissemination in the ILOSTAT database.</p>
 
-  <p>System of National Accounts 2008 <a
-  href="http://unstats.un.org/unsd/nationalaccount/sna2008.asp">http://unstats.un.org/unsd/nationalaccount/sna2008.asp</a>
-  </p>
-
-  <p>Trends Econometric Models: A Review of Methodology <a
-  href="http://www.ilo.org/empelm/pubs/WCMS_120382/lang--en/index.htm">http://www.ilo.org/empelm/pubs/WCMS_120382/lang--en/index.htm</a></p>
-
-  <p>ILOSTAT Database (<a
-  href="https://ilostat.ilo.org/">https://ilostat.ilo.org/</a>)</p>
-
-  <p>ILOSTAT Database &#x2013; Topics - Labour productivity (<a
-  href="https://ilostat.ilo.org/topics/labour-productivity/">https://ilostat.ilo.org/topics/labour-productivity/</a>).</p>
-QUALITY_ASSURE: <h2>Quality assurance:</h2>
+  <p> </p>
 COVERAGE: >-
-  <h1>Data availability</h1>
+  <p>Data Availability: Data for this indicator is available for 188 countries
+  and territories.</p>
 
-  <h2>Description:</h2>
-
-  <p><strong>Time series:</strong></p>
+  <p>Time series:</p>
 
   <p>Data for this indicator is available as of 2000 in the SDG Indicators
-  Global Database, but time series going back to 1991 and including projections
-  up to 2024 are available in ILOSTAT.</p>
+  Global Database, but time series going back to 1991 and including estimates up
+  to 2019 are available in ILOSTAT. </p>
 
-  <h2>Disaggregation:</h2>
+  <p>Disaggregation:</p>
 
-  <p>No disaggregation required for this indicator.</p>
-COMPARABILITY: <h2>Sources of discrepancies:</h2>
+  <p>No disaggregation required for this indicator. </p>
+COMPARABILITY: >-
+  <p>Sources of discrepancies:</p>
+
+  <p>The main limitations of the use of labour productivity as a global
+  indicator arise from problems in the international comparability of data, more
+  specifically from methodological differences across countries. Even though
+  national output measures, in particular GDP estimates, are derived mainly from
+  national accounts which should be based on internationally-agreed principles
+  consolidated in the United Nations SNA, there are still significant obstacles
+  to the international consistency of national accounts estimates. These range
+  from differences in the treatment of the output of service sectors to
+  adjustments for price changes and variations in the coverage of informal
+  activities and the underground economy. </p>
+
+  <p>Employment or labour input figures also suffer from comparability issues,
+  especially in terms of differences in age coverage, the definition of
+  employment, geographical and institutional coverage, the treatment of special
+  groups and the coverage of informal employment. </p>
+
+  <p>In cases where the contribution to GDP of forms of work other than
+  employment are expected to be significant, such as in the case of own-use
+  production of goods (subsistence agriculture and fishing) or volunteer work,
+  the exclusion of participation and time-spent in these productive activities
+  can be an important source of bias in the resulting indicators.</p>
 OTHER_DOC: >-
-  <h1>References</h1>
-
-  <p>ILO Guidebook - Decent Work and the Sustainable Development Goals: A
-  Guidebook on SDG Labour Market Indicators (<a
-  href="https://www.ilo.org/stat/Publications/WCMS_647109/lang--en/index.htm">https://www.ilo.org/stat/Publications/WCMS_647109/lang--en/index.htm</a>)</p>
-
-  <p>Estimates and projections of labour market indicators (<a
-  href="http://www.ilo.org/empelm/projects/WCMS_114246/lang--en/index.htm">http://www.ilo.org/empelm/projects/WCMS_114246/lang--en/index.htm</a>)
-  </p>
-
-  <p>ILO Manual &#x2013; Decent Work Indicators, Concepts and Definitions
-  &#x2013; Chapter 1, Economic and social context for decent work <a
-  href="http://www.ilo.org/integration/resources/pubs/WCMS_229374/lang--en/index.htm">http://www.ilo.org/integration/resources/pubs/WCMS_229374/lang--en/index.htm</a>
-  (second version, page 2149)</p>
+  <ul>
+    <li>ILO Guidebook - Decent Work and the Sustainable Development Goals: A Guidebook on SDG Labour Market Indicators (<a href="https://www.ilo.org/stat/Publications/WCMS_647109/lang--en/index.htm" target="_blank"><u>https://www.ilo.org/stat/Publications/WCMS_647109/lang--en/index.htm</u></a>) </li>
+    <li>Estimates and projections of labour market indicators (<a href="http://www.ilo.org/empelm/projects/WCMS_114246/lang--en/index.htm" target="_blank"><u>http://www.ilo.org/empelm/projects/WCMS_114246/lang--en/index.htm</u></a>) </li>
+    <li>ILO Manual &#x2013; Decent Work Indicators, Concepts and Definitions &#x2013; Chapter 1, Economic and social context for decent work <a href="http://www.ilo.org/integration/resources/pubs/WCMS_229374/lang--en/index.htm" target="_blank"><u>http://www.ilo.org/integration/resources/pubs/WCMS_229374/lang--en/index.htm</u></a> (second version, page 2149) </li>
+  </ul>
 
   <p>Resolution concerning statistics of work, employment and labour
   underutilization <a
-  href="http://www.ilo.ch/global/statistics-and-databases/standards-and-guidelines/resolutions-adopted-by-international-conferences-of-labour-statisticians/WCMS_230304/lang--en/index.htm">http://www.ilo.ch/global/statistics-and-databases/standards-and-guidelines/resolutions-adopted-by-international-conferences-of-labour-statisticians/WCMS_230304/lang--en/index.htm</a>
+  href="http://www.ilo.ch/global/statistics-and-databases/standards-and-guidelines/resolutions-adopted-by-international-conferences-of-labour-statisticians/WCMS_230304/lang--en/index.htm"
+  target="_blank"><u>http://www.ilo.ch/global/statistics-and-databases/standards-and-guidelines/resolutions-adopted-by-international-conferences-of-labour-statisticians/WCMS_230304/lang--en/index.htm</u></a>
   </p>
 
-  <p>System of National Accounts 2008 <a
-  href="http://unstats.un.org/unsd/nationalaccount/sna2008.asp">http://unstats.un.org/unsd/nationalaccount/sna2008.asp</a>
-  </p>
-
-  <p>Trends Econometric Models: A Review of Methodology <a
-  href="http://www.ilo.org/empelm/pubs/WCMS_120382/lang--en/index.htm">http://www.ilo.org/empelm/pubs/WCMS_120382/lang--en/index.htm</a>
-  </p>
-
-  <p>ILOSTAT Database (<a
-  href="https://ilostat.ilo.org/">https://ilostat.ilo.org/</a>)</p>
-
-  <p>ILOSTAT Database &#x2013; Topics - Labour productivity (<a
-  href="https://ilostat.ilo.org/topics/labour-productivity/">https://ilostat.ilo.org/topics/labour-productivity/</a>).</p>
+  <ul>
+    <li>System of National Accounts 2008 <a href="http://unstats.un.org/unsd/nationalaccount/sna2008.asp" target="_blank"><u>http://unstats.un.org/unsd/nationalaccount/sna2008.asp</u></a> </li>
+    <li>Trends Econometric Models: A Review of Methodology <a href="http://www.ilo.org/empelm/pubs/WCMS_120382/lang--en/index.htm" target="_blank"><u>http://www.ilo.org/empelm/pubs/WCMS_120382/lang--en/index.htm</u></a> </li>
+    <li>ILOSTAT Database (<a href="https://ilostat.ilo.org/" target="_blank"><u>https://ilostat.ilo.org/</u></a>) </li>
+    <li>ILOSTAT Database &#x2013; Topics - Labour productivity (<a href="https://ilostat.ilo.org/topics/labour-productivity/" target="_blank"><u>https://ilostat.ilo.org/topics/labour-productivity/</u></a>). </li>
+  </ul>

@@ -5,9 +5,12 @@ module SdgMetadataPlugins
     safe true
     priority :normal
 
-    def get_field_content(content, field_id, field_name)
+    def get_field_content(content, field_id, field_name, site, language)
       prefix = '<div id="' + field_id + '">'
-      inner = content
+      if content == nil
+        content = ''
+      end
+      inner = '<p class="concept-name">' + translate_concept_name(site, field_id, language) + '</p>' + content
       if content == '' || content == nil
         inner = '<p>' + field_name + ' (' + field_id + ') is not yet translated.</p>'
       end
@@ -48,6 +51,19 @@ module SdgMetadataPlugins
             return site.data['store']['t'][language]['site'][key]
           else
             return site.data['store']['t']['en']['site'][key]
+          end
+        end
+      end
+      return key
+    end
+
+    def translate_concept_name(site, key, language)
+      if site.data['store']['t'][language].key?('concepts')
+        if site.data['store']['t'][language]['concepts'].key?(key)
+          if site.data['store']['t'][language]['concepts'][key] != ''
+            return site.data['store']['t'][language]['concepts'][key]
+          else
+            return site.data['store']['t']['en']['concepts'][key]
           end
         end
       end
@@ -150,7 +166,7 @@ module SdgMetadataPlugins
           end
           toc = '<ul class="indicator-fields">' + toc.join('') + '</ul>'
 
-          content = translated_fields.map {|c| '<a name="' + c['id'] + '"></a>' + get_field_content(field_content[c['id']], c['id'], c['name']) }
+          content = translated_fields.map {|c| '<a name="' + c['id'] + '"></a>' + get_field_content(field_content[c['id']], c['id'], c['name'], site, language) }
           content = content.join("")
 
           # This provides some data for the benefit of the Minimal Mistakes theme.
@@ -163,20 +179,6 @@ module SdgMetadataPlugins
 
           site.pages << SdgMetadataPage.new(site, base, dir, layout, title, content, language, data)
         end
-      end
-
-      # Generate all the history pages.
-      site.data['history'].each do |indicator, history|
-        dir = File.join('history', indicator) + '/'
-        layout = 'history'
-        title = 'Revision history for ' + indicator.gsub('-', '.') + ' indicator metadata file'
-        content = ''
-        language = 'en'
-        data = {
-          'slug' => indicator,
-          'history' => history,
-        }
-        site.pages << SdgMetadataPage.new(site, base, dir, layout, title, content, language, data)
       end
 
       # Generate all the language pages.
@@ -192,6 +194,20 @@ module SdgMetadataPlugins
         data = {
           'goals' => goals_by_language[language].keys.uniq.sort_by { |k| get_sort_order(k) }
         }
+        site.pages << SdgMetadataPage.new(site, base, dir, layout, title, content, language, data)
+      end
+
+      # Generate all the statistics pages.
+      site.data['store']['metadata'].each do |language, indicators|
+        dir = File.join('metadata', language, 'statistics') + '/'
+        layout = 'statistics'
+        title = 'Translation statistics: ' + language
+        if site.data['languages'].key?(language)
+          title = 'Translations statistics: ' + site.data['languages'][language]['name']
+        end
+        content = ''
+        language = language
+        data = {}
         site.pages << SdgMetadataPage.new(site, base, dir, layout, title, content, language, data)
       end
     end

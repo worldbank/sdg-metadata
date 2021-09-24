@@ -202,10 +202,14 @@
     padding: 0;
   }
   .page__content {
-    h1 {
+    h1, .concept-name {
       border-bottom: 2px solid #BBB;
       padding-bottom: 10px;
       margin-top: 20px;
+    }
+    .concept-name {
+      font-size: 1.563em;
+      font-weight: bold;
     }
     h2 {
       margin-top: 20px;
@@ -258,13 +262,10 @@
   }
 }
 
-.layout--history {
-  .version-buttons {
-    list-style: none;
-    padding: 0;
-    i {
-      margin-left: 10px;
-      cursor: pointer;
-    }
-  }
+.statistics-buttons {
+  margin-bottom: 20px;
+}
+
+.language-tag {
+  font-size: 0.9em;
 }

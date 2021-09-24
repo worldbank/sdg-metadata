@@ -10,342 +10,726 @@ SDG_INDICATOR: >-
   <p>Indicator 16.10.2: Number of countries that adopt and implement
   constitutional, statutory and/or policy guarantees for public access to
   information</p>
-META_LAST_UPDATE: '<p>Last updated: 16 January 2017</p>'
+SDG_SERIES_DESCR: <p>None</p>
+META_LAST_UPDATE: <p>July 2021</p>
+SDG_RELATED_INDICATORS: <p>None</p>
 SDG_CUSTODIAN_AGENCIES: >-
-  <h1>Institutional information</h1>
-
-  <h2>Organization(s):</h2>
-
+  <p>United Nations Educational, Scientific and Cultural Organization
+  (UNESCO)</p>
+CONTACT_ORGANISATION: >-
   <p>United Nations Educational, Scientific and Cultural Organization
   (UNESCO)</p>
 STAT_CONC_DEF: >-
-  <h1>Concepts and definitions</h1>
-
-  <h2>Definition:</h2>
+  <p><strong>Definition:</strong></p>
 
   <p>Number of countries that adopt and implement constitutional, statutory
-  and/or policy guarantees for public access to information</p>
+  and/or policy guarantees for public access to information.</p>
 
-  <p>The focus of this indicator is thus on the status of adoption and
-  implementation of constitutional, statutory and/or policy guarantees for
-  public access to information. The definition relates directly to
-  &#x201C;public access to information&#x201D;, which is wider than, but is also
-  very much based upon, the established fundamental freedoms of expression and
-  association. Conversely, these freedoms also both impact on the environment
-  for public access to information. </p>
+  <p>The purpose of this indicator is to report the total of number of countries
+  that adopted legal guarantees on ATI, as well as the main tendencies in the
+  implementation of these guarantees, which are presented in global
+  aggregates.</p>
 
-  <h2>Concepts:</h2>
+  <p>Based on the definition above, the indicator has two components:</p>
 
-  <p>Conceptually, &#x2018;public access to information&#x2019; refers to
-  &#x201C;the presence of a robust system through which information is made
-  available to citizens and others.&#x201D; Such a system represents a
-  combination of intellectual, physical, and social elements that affect the
-  availability of information to individuals. In other words, in discussing the
-  issue of public access to information, it is important to recognize that any
-  measurement of its practical outworking needs to take into account how
-  individuals perceive the quality of information in the public domain, the
-  nature of the communicative infrastructure in place to facilitate access, and
-  how that information is ultimately utilized by individuals as members of a
-  particular polity. </p>
+  <p>1. Adoption</p>
 
-  <p>In general, then, these are the issues that go into legislation and policy
-  on public access. More specifically, such legislation and policy take the form
-  of Freedom of Information laws (FOI laws) which are aimed at allowing access
-  by the general public to data held by national governments and, increasingly,
-  by private companies whose work intersect with government operations. </p>
+  <p>2. Implementation</p>
 
-  <p>The emergence of freedom of information legislation was a response to
-  increasing dissatisfaction with the secrecy surrounding government policy
-  development and decision making. They establish a &quot;right-to-know&quot;
-  legal process by which requests may be made for government-held information,
-  to be received freely or at minimal cost, barring standard exceptions.</p>
+  <p>Under each component, key questions were identified based on what can be
+  called &#x201C;Principles of Access to Information&#x201D;, and which
+  highlight essential components for effective implementation of Access to
+  Information implementation at the country level. These Principles are
+  synthesized from existing frameworks and documents recognised
+  internationally.<sup><a href="#footnote-2" id="footnote-ref-2">[1]</a></sup>
+  For the purpose of this survey, the principles of relevance are as
+  follows:</p>
 
-  <p>Such a formulation has a basis in international agreements. For example,
-  the right to freedom of expression, which is not only recognized as a basic
-  human right in the Universal Declaration of Human Rights (1948), is also
-  upheld in the International Covenant on Civil and Political Rights (1966), the
-  European Convention on Human Rights (1950), the American Convention on Human
-  Rights (1969) and the African Charter on Human and Peoples&#x2019; Rights
-  (1981), thus lending itself to universal political recognition and
-  application. More specifically, in the European context, reference may be made
-  to the Council of Europe Convention on Access to Official Documents, adopted
-  on 18 June 2009. In the Americas, the Organization of American States&#x2019;
-  Inter-American Juridical Committee developed a set of Principles on the Right
-  of Access to Information in 2008.</p>
+  <p>1. Legal frameworks for Access to Information </p>
+
+  <p>2. Limited exemptions</p>
+
+  <p>3. Oversight mechanism </p>
+
+  <p>4. Appeals mechanism</p>
+
+  <p>5. Record keeping and reporting</p>
+
+  <p>Each question values between 0 and 2. Upon the completion of the survey, a
+  country can get a total score of 0-9. The total score of each country will not
+  be assigned to any level category (e.g.: low, medium or high). However, it
+  will contribute to global aggregates. </p>
+
+  <p>More details on the computation method are under the section
+  Methodology.</p>
+
+  <p><strong>Concepts:</strong></p>
+
+  <ol>
+    <li><em>Access to Information</em></li>
+  </ol>
+
+  <p>&#x201C;Public access to information&#x201D; is based upon the established
+  human right to the fundamental freedom of expression (FOE) and association.
+  States are duty-bearers for this right and measuring the fulfilment of this
+  duty allows for assessment of progress.</p>
+
+  <p>In terms of defining what is being measured, Access to Information (ATI)
+  has two principle components: the obligation for states to have a legal
+  framework that is also implemented in practice, that: </p>
+
+  <ul>
+    <li>Entitles public to request access to information (documents and other information recorded in any format) and to respond to such requests in a timely fashion. </li>
+    <li>Obliges authorities to ensure that information of public interest is put into the public domain proactively, without the need for requests.</li>
+  </ul>
+
+  <ol>
+    <li><em>Right to Information</em></li>
+  </ol>
+
+  <p>The right of access to public information (RTI) is a component of the
+  fundamental right of freedom of expression as set forth by Article 19 of the
+  Universal Declaration of Human Rights (1948), and the subsequent International
+  Covenant on Civil and Political Rights. These state that the fundamental right
+  of freedom of expression encompasses the freedom &quot;to seek, receive and
+  impart information and ideas through any media and regardless of
+  frontiers&#x201D; (our italics). Seeking and receiving is the dimension of the
+  right that is immediately relevant to this SDG indicator, with the right to
+  impart information and ideas constituting the other side of the coin. </p>
+
+  <p>RTI is an umbrella term that refers to the legal right to access
+  information held by public bodies. It is often used in the same way as terms
+  such as Freedom of Information (FOI). </p>
+
+  <ol>
+    <li><em>Implementation</em></li>
+  </ol>
+
+  <p>This refers primarily to efforts to give practical effect to the provisions
+  of the law, policy or regulation. Implementation thus designates government
+  bodies providing information to the public (on request as well as
+  proactively). Implementation is important to ensure that the benefits of the
+  law, policy or regulation are realized.</p>
+
+  <ol>
+    <li><em>Monitoring </em></li>
+  </ol>
+
+  <p>Monitoring the implementation of access to information refers to the
+  supervision and examination conducted by the dedicated Access to Information
+  oversight institution to ensure effective application of the legal
+  guarantee(s). This includes a role in assessing efforts made by public bodies
+  with a view to advance access to information in the country. </p>
+
+  <ol>
+    <li><em>Enforcement </em></li>
+  </ol>
+
+  <p>Enforcement of compliance with Access to Information legal guarantee(s)
+  refers to the actions of obliging adherence by duty-bearers to the respective
+  requirements and the implementation of sanctions when violations are found.
+  Enforcement is a disciplinary function that seeks to ensure that there are
+  consequences to the violation of rules, involving a set of tools used to
+  punish breaches of laws and regulations, and to deter future violations.</p>
+
+  <ol>
+    <li><em>Mediation</em></li>
+  </ol>
+
+  <p>Mediation is a negotiation facilitated by a neutral third party (a
+  mediator). Mediation does not involve decision making by the neutral third
+  party. Unlike a judge or an arbitrator, therefore, the mediator is not a
+  decision-maker. In mediation, the disputing parties work with the mediator to
+  resolve their disputes. The mediator assists the parties in reaching their own
+  decision on a settlement of the dispute by supervising the exchange of
+  information and the bargaining process. </p>
+
+  <ol>
+    <li><em>Dedicated oversight </em></li>
+  </ol>
+
+  <p>This specialist function covers the process of supervision, monitoring,
+  evaluation of performance and review, to ensure compliance with laws,
+  regulations and policies. It entails assessing and enforcing implementation.
+  Oversight of implementation is thus different to executing the actual
+  implementation itself in regard to the direct provision of information. </p>
+
+  <p>An oversight institution refers to the body charged with ensuring Oversight
+  and therefore accountability for the implementation of ATI. The same body or
+  another may also do appeals, although appeals is a distinct function from
+  oversight and are sometimes done by a separate body. This is why some
+  countries, there exists more than one oversight institution, depending on the
+  different tasks performed. </p>
+
+  <p>The oversight function can be exercised by the following (indicative)
+  institutions: </p>
+
+  <ul>
+    <li>Information Commission/ Commissioner;</li>
+    <li>Data Protection or Privacy Commission / Commissioner</li>
+    <li>Human Rights Commission</li>
+    <li>Ombudsman</li>
+    <li>Department/ Ministry/ Agency</li>
+  </ul>
+
+  <ol>
+    <li><em>Appeals </em></li>
+  </ol>
+
+  <p>An appeal is an application for a decision (or lack of a decision) relating
+  to a request for information, to be reviewed by the Access to Information
+  oversight institution that is tasked with this. Appeals normally involve
+  requests to reconsider failures by duty-bearers to provide information.
+  Ideally, an independent and impartial review body will be established with the
+  power to compel disclosure. While in some jurisdictions, courts may be an
+  effective alternative to a review body, they can be slow and expensive, and
+  therefore may prevent many people from seeking review. Appeals to a court
+  should normally be a last resort once institutional appeal processes are
+  exhausted, and this realm is treated as outside the scope of this indicator.
+  </p>
+
+  <ol>
+    <li><em>Limited exemptions </em></li>
+  </ol>
+
+  <p>Exemptions (or exceptions) allow the withholding of certain categories of
+  information. Limited exemptions mean that such withholding must be based on
+  narrow, proportionate, necessary and clearly defined limitations. Exceptions
+  should apply only where there is a risk of substantial harm to the protected
+  interest and where the harm is greater the overall public interest in having
+  access to the information. Bodies should provide reasons for any refusal to
+  provide access to information.</p>
+
+  <p>Several permissible exemptions include:</p>
+
+  <ul>
+    <li>national security; </li>
+    <li>international relations; </li>
+    <li>public health and safety;</li>
+    <li> the prevention, investigation and prosecution of legal wrongs; </li>
+    <li>privacy; </li>
+    <li>legitimate commercial and other economic interests; </li>
+    <li>management of the economy; </li>
+    <li>fair administration of justice and legal advice privilege; </li>
+    <li>conservation of the environment; and </li>
+    <li>legitimate policy making and other operations of public bodies.</li>
+  </ul>
+
+  <ol>
+    <li><em>Record-keeping and reporting</em></li>
+  </ol>
+
+  <p>Record-keeping is part of a records management system, which plays an
+  important role in fostering accountability and good governance. Without
+  adequate and reliable records of requests and/or appeals received and how they
+  are processed, it would be difficult to measure, and report progress on access
+  to information. In the implementation of access to information, reporting is
+  an essential tool for transparency and accountability purposes, as well as for
+  gathering evidence and data in mapping any gaps and needs as a precondition
+  for making targeted improvements. </p>
+
+  <p><strong>Comments and limitations:</strong></p>
+
+  <p>The indicator allows for reporting the total number of countries that
+  adopted constitutional, statutory and/or policy guarantees for public access
+  to information globally. Data on the implementation of these guarantees comes
+  from entities that responded to UNESCO survey.</p>
+
+  <p>In some countries, the oversight institutions for Access to Information
+  that are the entities best placed to provide data for this survey, directly or
+  indirectly, might not have an explicit monitoring role, or may have weak
+  record-keeping situations. Hence, they might not be able to provide detailed
+  information that could help contextualize the analysis. </p>
+
+  <p>The indicator does not enter into whether the national measures taken do
+  lead to further impacts. It focuses on the implementation of the regulatory
+  environment and on the mandate and supporting systems that is are
+  preconditions for effective implementation.</p><div
+  class="footnotes"><div><sup class="footnote-number" id="footnote-2">1</sup><p>
+  These include Article 10 of the United Nations Convention against Corruption;
+  resolutions of the UN General Assembly and Human Rights Council; the
+  Commonwealth&#x2019;s Model Freedom of Information Bill; Organization of
+  American States (OAS)&#x2019;s Model Law on Access to Information; African
+  Union&#x2019;s Model Law on Access to Information and reports from the UN the
+  Special Rapporteur on the promotion and protection of the right to freedom of
+  opinion and expression. <a href="#footnote-ref-2">&#x2191;</a></p></div></div>
+UNIT_MEASURE: <p>Number of countries.</p>
+CLASS_SYSTEM: <p>None</p>
 SOURCE_TYPE: >-
-  <h1>Data sources</h1>
+  <p><strong>Description:</strong></p>
 
-  <h2>Description:</h2>
+  <p>Data on the number of countries that adopted the guarantees will be
+  obtained through the responses from countries to the Survey on Public Access
+  to Information (SDG Indicator 16.10.2), </p>
 
-  <p>UNESCO and World Bank reports</p>
-
-  <p>Other UN bodies, such as UNDP</p>
-
-  <p>National bodies such as commissioners responsible for right to information
-  implementation</p>
-
-  <p>Media regulators </p>
-
-  <p>Academic and research institutions </p>
-
-  <p>Media support NGOs (national and international)</p>
-
-  <p>Methods used for data collection for this data are varied, drawing upon
-  both quantitative and qualitative ones, including:</p>
-
-  <ul>
-    <li>Qualitative expert assessments (World Justice Open Government Index, launched in 2015 and covering 102 countries); </li>
-    <li>Administrative records (e.g. number of requests for information; number of requests process in the last 12 months; number of women who submit such requests, etc.) </li>
-    <li>Surveys (e.g. UNESCO World Trends in Freedom of Expression &amp; Media Development and Media Development Indicators (MDI) reports; Open Society Foundation&#x2019;s series of surveys on &#x2018;access to information laws and practices&#x2019;; the World Values Survey [www.worldvaluessurvey.org]; IPU data on access-to-information legislation and constitutional guarantees of access to information; World Values Survey on trust of news media]; etc.)</li>
-  </ul>
-
-  <p>UN or relevant regional bodies that carry details of each treaty, including
-  countries that have signed, ratified or registered any exemptions to their
-  obligations, together with the treaty bodies&#x2019; general comments on
-  implementation.</p>
-
-  <p>Various international and regional rapporteurs on freedom of expression
-  issue country-specific reports.</p>
-
-  <p>For data on national laws and constitutional guarantees, sources include:
-  national libraries, law commissions, official records of parliament and
-  government records.</p>
-
-  <h2>List:</h2>
-
-  <p>UNESCO and World Bank reports; Other UN bodies; National bodies; World
-  Justice Open Government Index, Administrative records, World Justice Open
-  Government Index, UNESCO World Trends in Freedom of Expression &amp; Media
-  Development and Media Development Indicators (MDI) reports; Open Society
-  Foundation&#x2019;s, World Values Survey [<a
-  href="www.worldvaluessurvey.org">www.worldvaluessurvey.org</a>]; IPU data on
-  access-to-information legislation and constitutional guarantees of access to
-  information; World Values Survey on trust of news media]; etc.)</p>
+  <p>Data on the implementation at national level, which will contribute to
+  UNESCO&#x2019;s global reporting, will be obtained through the responses from
+  countries and their territories to the same survey. </p>
 COLL_METHOD: >-
-  <h2>Collection process:</h2>
+  <p>In collecting data at national level, UNESCO invites countries to
+  participate in UNESCO Survey on Public Access to Information (SDG Indicator
+  16.10.2). The survey will include an instruction manual. </p>
 
-  <p>UNESCO uses a triangulated method to compare data for global monitoring,
-  which includes (I) databases maintained by other international agencies; (2)
-  own international surveys carried out in countries by independent entities and
-  (3) modelled and estimated data, based on other data sources. More
-  specifically, UNESCO analyses data inputs from a variety of sources to produce
-  a consensus list of countries with freedom of information laws or equivalent.
-  Among those organizations and experts that make available their data are:
-  Freedominfo.org, Fringe Special by Robert Vleugels, Open Society Justice
-  Initiative, Right to Information Rating, by Access Info Europe and the Centre
-  for Law and Democracy, ARTICLE 19. Others include international agencies and
-  UN bodies, such as: The World Bank, The Office of the High Commissioner for
-  Human Rights, The UN Special Rapporteur on the Promotion and Protection of the
-  Right to Freedom of Opinion and Expression.</p>
+  <p>Countries that answer the overarching questions that will be scored
+  accordingly. In addition, where applicable, supplementary data will be
+  collected through follow-up questions, which will not be scored and will be
+  used to contextualize UNESCO&#x2019;s analysis.</p>
 FREQ_COLL: |-
-  <h1>Calendar</h1>
-  <h2>Data collection:</h2>
-  <p>From Jan-17 to Jul-17</p>
-  <h2>Data release:</h2>
-  <p>1-Oct-2017</p>
+  <p>UNESCO anticipates the collection of data on an annual basis.</p>
+  <p> </p>
+REL_CAL_POLICY: >-
+  <p>UNESCO plans to release data for indicator 16.10.2 in Q1 of each year as
+  part of its reporting to the UN Secretary-General Progress Report towards the
+  SDGs. </p>
 DATA_SOURCE: >-
-  <h1>Data providers</h1>
+  <p><strong>Name:</strong></p>
 
-  <h2>Name:</h2>
+  <p>Countries </p>
 
-  <p>UNESCO, World Bank, UNDP, and other UN bodies; National bodies, Academic
-  and research institutions, Media support NGOs</p>
+  <p><strong>Description:</strong></p>
 
-  <h2>Description:</h2>
-
-  <p>UNESCO, represented by National Programme Officers and regional Advisors
-  for Communication and Information in the field offices; Other UN bodies, such
-  as World Bank, UNDP, etc.; National bodies such as commissioners responsible
-  for right to information implementation; Media regulators; Academic and
-  research institutions; Media support NGOs (national and international)</p>
-COMPILING_ORG: |-
-  <h1>Data compilers</h1>
-  <p>UNESCO</p>
+  <p>Each country completes the survey in consultation with relevant line
+  departments/ ministries/ agencies/ oversight bodies for access to information
+  (e.g. Information Commissions, Data Protection or Privacy Commission,
+  Ombudsman, National Human Rights Institutions), and National Statistical
+  Offices.</p>
+COMPILING_ORG: <p>UNESCO</p>
+INST_MANDATE: >-
+  <p>UNESCO is the UN specialized agency building peace in the minds of people
+  through education, the sciences, culture, communication and information. In
+  the field of communication and information, UNESCO defends and promotes
+  freedom of expression, media independence and pluralism, and the building of
+  inclusive knowledge societies underpinned by universal access to information
+  and the innovative use of digital technologies. Since 2017, UNESCO has been
+  designated as the custodian agency for indicator 16.10.2. In this context,
+  UNESCO, via its International Programme for the Development of Communication
+  (IPDC), has been mandated by its Member States to monitor and report progress
+  on this indicator worldwide.</p>
 RATIONALE: >-
-  <h2>Rationale:</h2>
+  <p>To report on the number of countries that adopted the guarantees, data
+  collected through the survey instrument are triangulated by a desk research.
+  The data, which include years of adoption of such guarantees, are monitored
+  and updated annually to reflect changes, such as: </p>
 
-  <p>As suggested by the Sustainable Development Solutions Network (SDSN) and
-  UNESCO in earlier presentations to the UN Technical Support Team (UN TST),
-  this is a relevant and measurable indicator. </p>
+  <p>&#x2022; whether a country just passed a guarantee for Access to
+  Information; </p>
 
-  <p>It also responds to the growing number of UN member states that have
-  already adopted legal guarantees, and many others that are currently
-  considering relevant legislation or regulation in the field.</p>
+  <p>&#x2022; whether a country amended its existing guarantee(s) for Access to
+  Information. </p>
 
-  <p>The rationale for assessing the implementation dimension is to assess the
-  relevance of legal steps to practical information accessibility. It is not a
-  composite indicator, but a logical linkage of laws and policies to practical
-  impact that is relevant to SDG concerns.</p>
-
-  <p>For this indicator, the operative words are &#x201C;adoption&#x201D; and
-  &#x201C;implementation&#x201D;. As such, it establishes: (a) whether a country
-  (or at the global level, the number of countries) has constitutional,
-  statutory and/or policy guarantees for public access to information; (b) the
-  extent to which such national guarantees reflect &#x2018;international
-  agreements&#x2019; (e.g. Universal Declaration of Human Rights, etc.); and (c)
-  the implementation mechanisms in place for such guarantees, including the
-  following variables:</p>
-
-  <ul>
-    <li>Government efforts to publicly promote the right to information.</li>
-    <li>Citizens&#x2019; awareness of their legal right to information and their ability to utilize it effectively.</li>
-    <li>The capacity of public bodies to provide information upon request by the public. </li>
-  </ul>
-
-  <p>This indicator thus collates data from multiple sources, including National
-  Human Rights Institutions, national and international non-governmental
-  organizations, academic institutions, and national media regulatory
-  authorities, among others. Such information will be gathered, processed and
-  checked by international organizations - UNESCO and World Bank.</p>
-
-  <p>UNESCO collects some aspects of this data using the Media Development
-  Indicators, in addition to the biennial World Trends in Freedom of Expression
-  and Media Development report. </p>
-
-  <p>Data on the existence of freedom of information laws are available for at
-  least 195 countries.</p>
+  <p>In parallel, to link the data on adoption above with the implementation
+  aspect, and to measure the component of implementation at national level,
+  UNESCO collects data directly from countries and their territories via the
+  Survey on Public Access to Information (SDG Indicator 16.10.2). </p>
 REC_USE_LIM: >-
-  <h2>Comments and limitations:</h2>
-
   <p>This indicator does not assess the totality of &#x201C;public access to
   information&#x201D; component of the full Target of 16.10. Nevertheless, it
   focusses on a key determinant of the wider information environment.</p>
 DATA_COMP: >-
-  <h1>Methodology</h1>
+  <p>Responses to the survey will be computed using a weighted system, where
+  each question values between 0 and 2. There is a total of 8 key questions (4
+  for the component on &#x201C;Adoption&#x201D; and 3 for the component on
+  &#x201C;Implementation&#x201D;). A country can obtain a total score between
+  0-9 points. </p>
 
-  <h2>Computation method:</h2>
+  <p>The total score of each country will not be assigned to any level category
+  (e.g.: low, medium or high). However, it will contribute to global aggregates,
+  in which data will be interpreted using the sum formula to show overall
+  trends. The trends will illustrate the state of Access to Information
+  implementation as per &#x201C;Principles of Access to Information&#x201D;, as
+  cited in the Rationale section above.</p>
 
-  <p>The method of computation is both quantitative and qualitative, with data
-  generated from a global review of existing surveys (e.g. UNESCO&apos;s World
-  Trends in Freedom of Expression &amp; Media Development reports, etc.),
-  administrative records, expert assessments (e.g. World Justice Open Government
-  Index), etc. More specifically, the following key variables will be assessed:
-  </p>
+  <p>The table below show how questions are computed.</p>
+
+  <table>
+    <tbody>
+      <tr>
+        <td colspan="3">
+          <p><strong>UNESCO Survey on Public Access to Information </strong></p>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="3">
+          <p><strong>Indicator: 16.10.2</strong></p>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="3">
+          <p><strong>Components: Adoption + Implementation; Score: 0-9</strong></p>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="3">
+          <p><strong>Component 1: ADOPTION; Score: 0-5</strong></p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p><strong>Survey Question based on Principles of Access to Information</strong></p>
+        </td>
+        <td>
+          <p><strong> Score </strong></p>
+        </td>
+        <td>
+          <p><strong>Description of the calculation for global aggregates</strong></p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <ol>
+            <li>Whether a constitutional, statutory and/or other legal guarantee that recognises access to information as a fundamental right exists in your country? </li>
+          </ol>
+        </td>
+        <td>
+          <p>Yes = 1</p>
+          <p>No = 0</p>
+          <p>In progress: 0.5</p>
+        </td>
+        <td>
+          <p>The sum of countries that responded &#x201C;yes&#x201D; and &#x201C;in progress&#x201D;</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <ol>
+            <li>Whether the legal guarantee on Access to Information specifies the need of a dedicated oversight institution [or institutions]?</li>
+          </ol>
+        </td>
+        <td>
+          <p>Yes = 1</p>
+          <p>No = 0</p>
+        </td>
+        <td>
+          <p>The sum of countries that responded &#x201C;yes&#x201D;</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <ol>
+            <li>Whether the legal guarantee on Access to Information specifies the need for national public bodies (Ministry/Agency/Department) to appoint public information officers or a specific unit to handle Access to Information requests from the public? </li>
+          </ol>
+        </td>
+        <td>
+          <p>Yes, to <em>ALL</em> public bodies being required to appoint = 1 </p>
+          <p>Yes, but only to <em>some</em> public bodies = 0.5 </p>
+          <p>No = 0</p>
+        </td>
+        <td>
+          <p>The sum of countries that responded &#x201C;yes, all&#x201D; and &#x201C;yes, some&#x201D;</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <ol>
+            <li>Whether the legal guarantee on Access to Information mandates the following roles for the dedicated Access to Information oversight institution/s :</li>
+            <li>Oversight (legal responsibility to ensure implementation of the guarantee)</li>
+            <li>Appeals</li>
+            <li>Monitoring of Access to Information implementation</li>
+            <li>Enforcement of compliance with Access to Information legal guarantee(s)</li>
+            <li>Mediation</li>
+          </ol>
+        </td>
+        <td>
+          <p>0.2 for each role selected</p>
+          <p>Total point: 1 </p>
+        </td>
+        <td>
+          <p>The sum of countries that responded, &#x201C;option a&#x201D;, &#x201C;option b&#x201D;, &#x201C;option c&#x201D;, &#x201C;option d&#x201D; and &#x201C;option e&#x201D; </p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <ol>
+            <li>Does the legal guarantee on Access to Information explicitly mentions permissible exemptions that are elaborated in well-defined categories whereby requests for information may be legally denied. that are consistent with international standards?</li>
+          </ol>
+        </td>
+        <td>
+          <p>Yes = 1</p>
+          <p>No = 0</p>
+        </td>
+        <td>
+          <p>The sum of countries that responded &#x201C;yes&#x201D;</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p><strong>Score for Component 1</strong></p>
+        </td>
+        <td>
+          <p><strong>0-5</strong></p>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="3">
+          <p><strong>Component 2: IMPLEMENTATION; Score: 0-4</strong></p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p><strong>Survey Question based on Principles of Access to Information</strong></p>
+        </td>
+        <td>
+          <p><strong>Score</strong></p>
+        </td>
+        <td>
+          <p><strong>Description of the calculation for global aggregates</strong></p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <ol>
+            <li>Whether the dedicated Access to Information oversight institution/s in practice during the reporting year has carried out the following activities: </li>
+            <li>Published an Annual Report</li>
+            <li>Provided implementation guidance and/or offer training to officials from public bodies (Ministry/Agency/Department)</li>
+            <li>Raised public awareness</li>
+            <li>Kept statistics on requests and/or appeals </li>
+            <li>Requested public bodies to keep statistics of their activities and decisions</li>
+          </ol>
+        </td>
+        <td>
+          <p>0.4 for each activity selected</p>
+          <p>Total point: 2 </p>
+        </td>
+        <td>
+          <p>The sum of countries that responded &#x201C;option a&#x201D;; &#x201C;option b&#x201D; ; &#x201C;option c&#x201D;; &#x201C;option d&#x201D;; &#x201C;option e&#x201D; </p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <ol>
+            <li>Whether in practice the dedicated Access to Information oversight institution/s at the national level receive/s reports from public bodies (Ministry/Agency/Department) on the processing of Access to Information requests?</li>
+          </ol>
+        </td>
+        <td>
+          <p>Yes = 1</p>
+          <p>No = 0</p>
+        </td>
+        <td>
+          <p>The sum of countries that responded &#x201C;yes&#x201D;.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <ol>
+            <li>Whether the dedicated Access to Information oversight institution/s keep/s statistics of appeals at the national level?</li>
+          </ol>
+        </td>
+        <td>
+          <p>Yes = 1</p>
+          <p>No = 0</p>
+        </td>
+        <td>
+          <p>The sum of countries that responded &#x201C;yes&#x201D;.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p><strong>Score for Component 2</strong></p>
+        </td>
+        <td>
+          <p><strong>0-4</strong></p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p><strong>Total Score for the Survey (component 1 and 2)</strong></p>
+        </td>
+        <td>
+          <p><strong>0-9</strong></p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+  <p>The scenario below can provide an example of how a country obtains its
+  score:</p>
+
+  <p>Country X responded to the survey and based on its responses, it obtained
+  points, as in below:</p>
+
+  <ul>
+    <li>Question 1: responded &#x2018;YES&#x2019; and obtained 1 point</li>
+    <li>Question 2: responded &#x2018;YES&#x2019; and obtained 1 point</li>
+    <li>Question 3: responded &#x2018;NO&#x2019; and obtained 0 point</li>
+    <li>Question 4: selected three of five options provided. Each answer has 0.2 point, so it obtained 0.6 point. </li>
+    <li>Question 5: responded &#x2018;NO&#x2019; and obtained 0 point. </li>
+    <li>Question 6: selected four of five options provided. Each answer has 0.4 point and obtained 1.6 point. </li>
+    <li>Question 7: responded &#x2018;NO and obtained 0 point</li>
+    <li>Question 8: responded &#x2018;YES and obtained 1 point</li>
+  </ul>
+
+  <p>Therefore, Country X obtained a total score of 5.2. This score will not be
+  assigned to any level category (e.g.: low, medium or high). However, it will
+  contribute to global aggregates, in which data will be interpreted using the
+  sum formula to show trends. </p>
+
+  <p>Below is an example of how responses to the survey are used in the
+  interpretation of a global aggregate that illustrate a trend in the
+  &#x201C;Record keeping and reporting&#x201D; principle: </p>
+
+  <p>Out of 100 countries that responded to UNESCO Survey on Public Access to
+  Information (SDG Indicator 16.10.2), 80% have oversight institutions on Access
+  to Information (ATI). However, only 50% of them keep records of appeals with
+  regards RTI requests. This flags the need for improvement, as good
+  record-keeping is vital for evidence-based reporting, which can provide many
+  advantages for improving ATI. Without adequate and reliable records of the
+  requests received and how they are processed, it is difficult to produce
+  evidence and measure progress. </p>
+
+  <p>In addition, where applicable, supplementary data will be collected through
+  follow-up questions, which will not be scored and will be used to
+  contextualize UNESCO&#x2019;s analysis. The follow-up questions are as
+  follow:</p>
+
+  <ul>
+    <li>Question 1<ul>
+        <li>If responded &#x2018;YES&#x2019;: What are the guarantees (by type &#x2013; primary legislation, secondary legislation/regulation, binding policy document, etc)?</li>
+        <li>If responded &#x2018;NO&#x2019;: Are there still any non-binding policies on Access to Information (Public Statement such Open Government Partnership Action Plan; Strategy such as in Open Government/Open Data/ Open Access; Master or Action Plan/ SOP/ protocols/ digital or e-government policies relating to implementation of ATI; or Others) - then &#x2018;End survey&#x2019;. </li>
+        <li>If responded &#x2018;IN PROGRESS&#x2019;: Please explain - then &#x2018;End survey&#x2019;</li>
+      </ul>
+    </li>
+    <li>Question 2, if responded &#x2018;YES&#x2019;: <ul>
+        <li>
+          <ol>
+            <li>What is it / are they? (by type: Information Commission or Commissioner/ Data Protection or privacy Commission or Commissioner/ Converged body that combines data/privacy protection and Access to Information/ Human Rights Commission/ Ombudsman/ Department or Ministry or/ Agency or Other; and specify where appropriate at national or subnational levels).</li>
+            <li>Who appointed the Head of the oversight institution? (Executive/ Legislative/ Judiciary/ Other (e.g. a Committee): ________________ please explain)</li>
+            <li>Who approved the budget of the oversight institution [or institutions]? (Executive/ Legislative/ Judiciary/ Other (e.g. a multistakeholder committee): ________________ please explain)</li>
+            <li>To whom does/do the oversight institution/s directly report about their activities? (Executive/ Legislative/ Other (e.g. a Committee): ________________ please explain)</li>
+          </ol>
+        </li>
+      </ul>
+    </li>
+    <li>Question 5, if responded &#x2018;YES&#x2019;: Which of the following exemptions is/are mentioned: national security; international relations; public health and safety; the prevention, investigation and prosecution of legal wrongs; privacy; legitimate commercial and other economic interests; management of the economy; fair administration of justice and legal advice privilege; conservation of the environment; and legitimate policy making and other operations of public bodies.</li>
+    <li>Question 6, if one of the options is selected: Any other initiatives/activities that you would like to add?</li>
+    <li>Question 7, if responded &#x2018;YES&#x2019;: <ol>
+        <li>Choose reference year</li>
+        <li>How many formal requests made under the Access to Information guarantee(s)&#x2026; Received; Granted (fully; partially; total); Denied; Dismissed as ineligible?</li>
+        <li>Do you keep disaggregated data on the reasons for non-disclosure and partial disclosure on the basis of the permissible exemptions as stipulated in your country&#x2019;s legal guarantee? (Yes/No): </li>
+      </ol>
+    </li>
+    <li>Question 8, if responded &#x2018;YES&#x2019;:</li>
+  </ul>
 
   <ol>
-    <li>Does a country have constitutional, statutory and/or policy guarantees for public access to information?</li>
-    <li>Do those constitutional, statutory and/or policy guarantees reflect known international agreements (e.g. the Universal Declaration of Human Rights, the International Covenant on Civil and Political Rights, etc.)?</li>
-    <li>What implementation mechanisms are in place to ensure that such guarantees work optimally?</li>
+    <li>Choose reference year</li>
+    <li>How many appeals that your institution&#x2026; Received?; Granted (fully; partially; total)?; Denied; Dismissed as ineligible? </li>
+    <li>Do you keep disaggregated data on the reasons for non-disclosure and partial disclosure on the basis of the permissible exemptions as stipulated in your country&#x2019;s legal guarantee? (Yes/No). </li>
   </ol>
-
-  <p>To address these questions, the following will serve as performance
-  sub-indicators:</p>
-
-  <ul>
-    <li>National law or constitutional guarantee on the right to information</li>
-    <li>Country has signed and ratified relevant treaty obligations, with no significant exemptions, and these are reflected, to the extent possible, in domestic FOI legislation</li>
-    <li>Public is aware of and exercises right to access official information</li>
-    <li>Public bodies release information both pro-actively and on demand</li>
-    <li>Effective and efficient appeals mechanism via independent administrative body e.g. information commissioner or ombudsman</li>
-    <li>Any restriction on grounds of protection of personal privacy is narrowly defined so as to exclude information in which there is no justifiable public interest. </li>
-  </ul>
-
-  <p>The means of verification will include:</p>
-
-  <ul>
-    <li>Any law or policy on right to information that accords with international standards</li>
-    <li>Reports from credible agencies/experts about right to information guarantees and the extent to which they reflect international standards/agreements</li>
-    <li>Policies of public bodies concerning release of information (which ensure readily, freely available public access to information, including online)</li>
-    <li>Evidence of state commitment to open government e.g. publication and dissemination of laws, court decisions, parliamentary proceedings, spending programmes (vis-&#xE0;-vis SDG undertakings)</li>
-    <li>Statistical information about public requests for official information and their fulfilment or rejection</li>
-    <li>Statistical information about appeals or complaints over information requests that have been refused</li>
-  </ul>
-IMPUTATION: >-
-  <h2>Treatment of missing values:</h2>
-
-  <ul>
-    <li><strong><em>At country level:</em></strong></li>
-  </ul>
-
-  <p>An expert assessment of state-of-the-art literature on FOI laws
-  establishes:</p>
-
-  <ol>
-    <li>the number of countries currently with FOI laws/policies;</li>
-    <li>the extent to which they reflect &apos;international agreements&apos;; and</li>
-    <li>the effectiveness of the implementation mechanisms</li>
-  </ol>
-
-  <ul>
-    <li><strong><em>At regional and global levels:</em></strong></li>
-  </ul>
-
-  <p>An expert assessment of state-of-the-art literature on FOI laws, along with
-  in-country data from UNESCO ACIs (Advisors for Communication and Information)
-  in the field, establishes:</p>
-
-  <ol>
-    <li>the number of countries currently with FOI laws/policies;</li>
-    <li>the extent to which they reflect &apos;international agreements&apos;; and</li>
-    <li>the effectiveness of the implementation mechanisms</li>
-  </ol>
+DATA_VALIDATION: >-
+  <p>Data will be validated with countries during the processing stage to ensure
+  its quality and accuracy.</p>
+ADJUSTMENT: <p>Not applicable.</p>
+IMPUTATION: |-
+  <p>&#x2022; At country level</p>
+  <p>Missing values are not computed.</p>
+  <p>&#x2022; At regional and global levels</p>
+  <p>Data will only be aggregated from responding countries</p>
 REG_AGG: >-
-  <h2>Regional aggregates:</h2>
-
-  <p>An expert assessment of state-of-the-art literature on FOI laws, along with
-  in-country data from UNESCO ACIs (Advisors for Communication and Information)
-  in the field, establishes:</p>
-
-  <ol>
-    <li>the total number of countries currently with FOI laws/policies;</li>
-    <li>the extent to which these laws/policies reflect &apos;international agreements&apos;; and</li>
-    <li>the effectiveness of the implementation mechanisms in place (This aspect is measured in terms of surveys undertaken by different international organizations active in this field)</li>
-  </ol>
+  <p>For the reporting to the UN, regional aggregates follow the regional
+  grouping outlined by the UN Statistics Department for the UN Secretary-General
+  Progress Report towards the SDGs. As regards UNESCO reporting to its Member
+  States, this follows UNESCO&#x2019;s regional grouping based on its definition
+  of regions.<sup><a href="#footnote-3" id="footnote-ref-3">[2]</a></sup>
+  </p><div class="footnotes"><div><sup class="footnote-number"
+  id="footnote-3">2</sup><p> UNESCO&#x2019;s definition of regions with a view
+  to the execution by the Organization of regional activities:
+  unesdoc.unesco.org/in/rest/annotationSVC/DownloadWatermarkedAttachment/attach_import_b8a0c1c2-bc9b-4433-9742-c568fc7c0d19?_=372956eng.pdf&amp;to=142&amp;from=140
+  <a href="#footnote-ref-3">&#x2191;</a></p></div></div>
+DOC_METHOD: >-
+  <p>Once countries receive an invitation to participate in the survey, they
+  will have access to a manual that will guide the user. It is essential that
+  the user/person in charge gathers the responses using a well-coordinated
+  process involving all the relevant staff that oversee the work within the
+  various key issues contained within the survey. During the data collection
+  period, UNESCO will mobilise a team to support countries in filling the survey
+  and respond to their queries in a quality and timely manner.</p>
+QUALITY_MGMNT: >-
+  <p>UNESCO puts in place a dedicated team for the management of the survey. The
+  team provides a help desk service and online workshops to ensure relationship
+  management with countries. The team is also responsible for quality control
+  that includes data cleaning, processing, as well as verification. </p>
+QUALITY_ASSURE: >-
+  <p>UNESCO ensures quality by validating data collected via its survey with
+  countries in the case where a clarification is needed on the responses. UNESCO
+  also proposes online workshops with countries in three languages (English,
+  French and Spanish) to assist them in completing the survey, with a view to
+  avoid errors in respondent comprehension and interpretation, as well as
+  ensuring the quality of data that will be collected. </p>
+QUALITY_ASSMNT: >-
+  <p>Quality assessment will be done by evaluating data quality, comparability
+  and harmonization against the principles of Access to Information setforth
+  earlier in this document. As part of the evaluation mechanism, UNESCO will
+  also collect feedback directly from countries and experts, with a view to
+  improve the data collection process and the survey tool, as necessary.</p>
 COVERAGE: >-
-  <h1>Data availability</h1>
+  <p>Data availability:</p>
 
-  <p><strong>Description:</strong></p>
+  <p>National data on adoption and implementation of legal guarantees on Access
+  to Information should be available following the participation of States in
+  UNESCO&#x2019;s survey. Other data are available from various monitoring and
+  research initiatives around the world which can be used for triangulation and
+  as supplementary sources.</p>
 
-  <p>Data on the existence of freedom of information laws are available for at
-  least 195 countries. However, for future data collection and analysis, efforts
-  are underway to ensure that the data is analyzed to yield information on
-  aspects relating to how FOI laws are actually &quot;implemented&quot;, rather
-  than just their existence.</p>
+  <p>Time series: Not applicable.</p>
 
-  <h2>Disaggregation:</h2>
+  <p>Disaggregation:</p>
 
-  <p>The indicator can be disaggregated in terms of the extent to which the
-  residence of citizens affects their ability to access information (e.g. how do
-  rural, peri-rural, urban and peri-urban dwellers access information from
-  public bodies). It can also be disaggregated in terms of whether gender
-  influences ability to access information. Furthermore, aspects of how
-  disability affects public access to information can also be assessed.</p>
+  <p>Regional and global aggregates for this indicator will count the number of
+  countries within a region or globally that adopt and implement constitutional,
+  statutory and/or policy guarantees for public access to information.</p>
+COMPARABILITY: >-
+  <p>Not applicable. </p>
+
+  <p>Sources of discrepancies:</p>
+
+  <p>Not applicable because the indicator is only calculated from data submitted
+  by Member States to UNESCO in response to the Survey on Public Access to
+  Information (SDG Indicator 16.10.2).</p>
 OTHER_DOC: >-
-  <h1>References</h1>
+  <p><strong>URL:</strong></p>
 
-  <h2>URL:</h2>
+  <p>https://en.unesco.org/themes/monitoring-and-reporting-access-information</p>
 
-  <p><a href="http://en.unesco.org/">http://en.unesco.org/</a></p>
+  <p><strong>References:</strong></p>
 
-  <h2>References:</h2>
+  <p><strong>UNESCO 2020 Report on SDG Indicator 16.10.2 (Public Access to
+  Information):</strong></p>
 
-  <p>1. UNESCO Media Development Indicators: Framework for assessing media
-  development. <a
-  href="http://unesdoc.unesco.org/images/0016/001631/163102e.pdf">http://unesdoc.unesco.org/images/0016/001631/163102e.pdf</a></p>
+  <ul>
+    <li>
+      <ul>
+        <li>From promise to practice: access to information for sustainable development (publication version): https://unesdoc.unesco.org/ark:/48223/pf0000375022 </li>
+        <li>First global report on the implementation of access to Information laws (version submitted to the 32nd Session the Intergovernmental Council of the International Programme for the Development of Communication): https://unesdoc.unesco.org/ark:/48223/pf0000374637.locale=env </li>
+      </ul>
+    </li>
+  </ul>
 
-  <p>2. World Trends in Freedom of Expression and Media Development: <a
-  href="http://www.unesco.org/new/en/world-media-trends">http://www.unesco.org/new/en/world-media-trends</a></p>
-
-  <p>3. Universal Periodic Review: [UNESCO contributes data on freedom of
-  expression, including constitutional guarantees thereof, in addition to
-  tracking killings of journalists]. <a
-  href="http://www.ohchr.org/en/hrbodies/upr/pages/BasicFacts.aspx">http://www.ohchr.org/en/hrbodies/upr/pages/BasicFacts.aspx</a></p>
-
-  <p>4. World Justice Project. 2015. Open government and freedom of information:
-  advancing the global conversation. Available: <a
-  href="http://worldjusticeproject.org/sites/default/files/open_government_and_freedom_of_information_botero-ponce_may_2015.pdf">http://worldjusticeproject.org/sites/default/files/open_government_and_freedom_of_information_botero-ponce_may_2015.pdf</a>.</p>
-
-  <p>5. Open Society Justice Initiative. 2006. Transparency &amp; Silence: A
-  Survey of Access to Information Laws and Practices in Fourteen Countries.
-  Available: <a
-  href="https://www.opensocietyfoundations.org/sites/default/files/transparency_20060928.pdf">https://www.opensocietyfoundations.org/sites/default/files/transparency_20060928.pdf</a>.
+  <p><strong>Powering sustainable development with access to information:
+  highlights from the 2019 UNESCO monitoring and reporting of SDG indicator
+  16.10.2:</strong>
+  https://unesdoc.unesco.org/ark:/48223/pf0000369160?posInSet=2&amp;queryId=d806d9b7-15e1-4d94-95a2-6dfd9967e6c6
   </p>
 
-  <p>6. Inter-Parliamentary Union (IPU). 2009. Freedom of Expression and the
-  Right to Information (Resolution adopted by consensus by the 120th IPU
-  Assembly, Addis Ababa, 10 April 2009). Available: <a
-  href="http://www.right2info.org/resources/publications/ngo-statements/ngo-statements_ipu-declaration">http://www.right2info.org/resources/publications/ngo-statements/ngo-statements_ipu-declaration</a></p>
+  <p><strong>Access to information: a new promise for sustainable
+  development:</strong> https://unesdoc.unesco.org/ark:/48223/pf0000371485 </p>
 
-  <p>7. Article 19. 1999. The Public&apos;s Right to Know Principles on Freedom
-  of Information Legislation. Available: <a
-  href="http://www.ipu.org/splz-e/sfe/foi_ps.pdf">http://www.ipu.org/splz-e/sfe/foi_ps.pdf</a>.</p>
+  <p><strong>The Commonwealth&#x2019;s Model Freedom of Information Bill:
+  </strong>https://thecommonwealth.org/sites/default/files/key_reform_pdfs/P15370_12_ROL_Model_Freedom_Information.pdf
+  </p>
+
+  <p><strong>Organization of American States (OAS)&#x2019;s Model Law on Access
+  to Information:</strong> https://www.oas.org/dil/AG-RES_2607-2010_eng.pdf </p>
+
+  <p><strong>African Union&#x2019;s Model Law on Access to Information:</strong>
+  https://archives.au.int/handle/123456789/2062</p>
+
+  <p><strong>United Nations Convention against Corruption:</strong>
+  https://www.unodc.org/documents/brussels/UN_Convention_Against_Corruption.pdf
+  </p>
+
+  <p><strong>Resolution of the UN General Assembly and Human Rights Council
+  31/32:</strong> https://undocs.org/A/HRC/RES/31/32 </p>
+
+  <p><strong>2013 Report of the Special Rapporteur on the promotion and
+  protection of the right to freedom of opinion and expression:</strong>
+  https://ap.ohchr.org/documents/dpage_e.aspx?si=A/68/362 </p>

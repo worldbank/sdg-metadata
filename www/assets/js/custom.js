@@ -15,3 +15,7 @@ window.addEventListener('load', function(event) {
         }
     })
 });
+
+$(function() {
+    $('.tablesorter').tablesorter();
+});

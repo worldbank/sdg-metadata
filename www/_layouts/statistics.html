@@ -1,0 +1,45 @@
+---
+layout: single
+---
+
+This page provides detail on the status of metadata translations. Recall that each metadata file has text organized by SDG metadata concept, The table below describes the number of these "concept-strings" by translation status and if translation updates are required due to an update in the English source file. This table can help project managers gauge level of effort and assign translation tasks as needed.
+
+{% assign weblate_stats = site.data.stats[page.language] %}
+{% assign indicators = weblate_stats.indicators %}
+
+<table class="tablesorter tablesorter-blue">
+    <thead>
+        <tr>
+            <th>Indicator</th>
+            <th>Total</th>
+            <th>Translated</th>
+            <th>Untranslated</th>
+            <th>Updated</th>
+            <th>Weblate</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for indicator in indicators %}
+        {% if indicator[0] != 'glossary' %}
+        <tr>
+            <td>{{ indicator[0] }}</td>
+            <td>{{ indicator[1].total }}</td>
+            <td>{{ indicator[1].translated }}</td>
+            <td>{{ indicator[1].total | minus: indicator[1].translated }}</td>
+            <td>{{ indicator[1].fuzzy }}</td>
+            <td><a href="https://hosted.weblate.org/projects/sdg-metadata/{{ indicator[0] }}/{{ page.language }}/">Link</a></td>
+        </tr>
+        {% endif %}
+        {% endfor %}
+    </tbody>
+</table>
+
+<h2>Key</h2>
+<ul>
+    <li><strong>Indicator</strong>: Indicator number</li>
+    <li><strong>Total</strong>: Number of metadata concept-strings in the indicator</li>
+    <li><strong>Translated</strong>: Number of concept-stringss that are already translated</li>
+    <li><strong>Untranslated</strong>: Number of concept-strings that are not yet translated</li>
+    <li><strong>Updated</strong>: Number of concept-strings whose English source has changed</li>
+    <li><strong>Weblate</strong>: Link to translation dashboard in Weblate</li>
+</ul>

@@ -1,0 +1,67 @@
+{% extends 'base.njk' %}
+
+{% macro renderConcept(concept) %}
+  {% if concept.value %}
+    <div id="{{ concept.id }}">
+      {% if conceptNames %}<p class="concept-name">{{ conceptTranslations[concept.id] | default(concept.name, true) }}</p>{% endif %}
+      {{ concept.value }}
+    </div>
+  {% endif %}
+{% endmacro %}
+
+{% block content %}
+<style>
+#SDG_INDICATOR {
+  color: #1c75bc;
+}
+#SDG_INDICATOR *, #SDG_GOAL *, #SDG_TARGET * {
+  background: #EEE;
+  margin: 0;
+  padding: 10px 0;
+}
+</style>
+{{ renderConcept(SDG_INDICATOR_INFO) }}
+{{ renderConcept(SDG_GOAL) }}
+{{ renderConcept(SDG_TARGET) }}
+{{ renderConcept(SDG_INDICATOR) }}
+{{ renderConcept(SDG_SERIES_DESCR) }}
+{{ renderConcept(META_LAST_UPDATE) }}
+{{ renderConcept(SDG_RELATED_INDICATORS) }}
+{{ renderConcept(SDG_CUSTODIAN_AGENCIES) }}
+{{ renderConcept(CONTACT) }}
+{{ renderConcept(CONTACT_ORGANISATION) }}
+{{ renderConcept(CONTACT_NAME) }}
+{{ renderConcept(ORGANISATION_UNIT) }}
+{{ renderConcept(CONTACT_FUNCT) }}
+{{ renderConcept(CONTACT_PHONE) }}
+{{ renderConcept(CONTACT_MAIL) }}
+{{ renderConcept(CONTACT_EMAIL) }}
+{{ renderConcept(IND_DEF_CON_CLASS) }}
+{{ renderConcept(STAT_CONC_DEF) }}
+{{ renderConcept(UNIT_MEASURE) }}
+{{ renderConcept(CLASS_SYSTEM) }}
+{{ renderConcept(SRC_TYPE_COLL_METHOD) }}
+{{ renderConcept(SOURCE_TYPE) }}
+{{ renderConcept(COLL_METHOD) }}
+{{ renderConcept(FREQ_COLL) }}
+{{ renderConcept(REL_CAL_POLICY) }}
+{{ renderConcept(DATA_SOURCE) }}
+{{ renderConcept(COMPILING_ORG) }}
+{{ renderConcept(INST_MANDATE) }}
+{{ renderConcept(OTHER_METHOD) }}
+{{ renderConcept(RATIONALE) }}
+{{ renderConcept(REC_USE_LIM) }}
+{{ renderConcept(DATA_COMP) }}
+{{ renderConcept(DATA_VALIDATION) }}
+{{ renderConcept(ADJUSTMENT) }}
+{{ renderConcept(IMPUTATION) }}
+{{ renderConcept(REG_AGG) }}
+{{ renderConcept(DOC_METHOD) }}
+{{ renderConcept(QUALITY_MGMNT) }}
+{{ renderConcept(QUALITY_ASSURE) }}
+{{ renderConcept(QUALITY_ASSMNT) }}
+{{ renderConcept(SDG_QA_CONSULT) }}
+{{ renderConcept(COVERAGE) }}
+{{ renderConcept(COMPARABILITY) }}
+{{ renderConcept(OTHER_DOC) }}
+{% endblock %}

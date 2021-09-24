@@ -2,7 +2,7 @@ SDG_GOAL: >-
   <p>Goal 2: End hunger, achieve food security and improved nutrition, and
   promote sustainable agriculture</p>
 SDG_TARGET: >-
-  <p>Target 2.2: By 2030 end all forms of malnutrition, including achieving by
+  <p>Target 2.2: by 2030 end all forms of malnutrition, including achieving by
   2025 the internationally agreed targets on stunting and wasting in children
   under five years of age, and address the nutritional needs of adolescent
   girls, pregnant and lactating women, and older persons</p>
@@ -10,24 +10,23 @@ SDG_INDICATOR: >-
   <p>Indicator 2.2.2: Prevalence of malnutrition (weight for height &gt;+2 or
   &lt;-2 standard deviation from the median of the WHO Child Growth Standards)
   among children under 5 years of age, by type (wasting and overweight)</p>
-META_LAST_UPDATE: '<p>Last updated: 02 December 2016</p>'
-SDG_RELATED_INDICATORS: <h1>Related indicators as of February 2020</h1>
+META_LAST_UPDATE: <p>02 December 2016</p>
 SDG_CUSTODIAN_AGENCIES: |-
-  <h1>Institutional information</h1>
-  <h2>Organization(s):</h2>
+  <p>United Nations Children&apos;s Fund (UNICEF)</p>
+  <p>World Health Organization (WHO)</p>
+  <p>World Bank (WB)</p>
+CONTACT_ORGANISATION: |-
   <p>United Nations Children&apos;s Fund (UNICEF)</p>
   <p>World Health Organization (WHO)</p>
   <p>World Bank (WB)</p>
 STAT_CONC_DEF: >-
-  <h1>Concepts and definitions</h1>
-
-  <h2>Definition:</h2>
+  <p><strong>Definition:</strong></p>
 
   <p>Prevalence of wasting (weight for height &lt;-2 standard deviation from the
   median of the World Health Organization (WHO) Child Growth Standards) among
   children under 5 years of age.</p>
 
-  <h2>Concepts:</h2>
+  <p><strong>Concepts:</strong></p>
 
   <p>The official MDG indicator is wasting as assessed using weight for height.
   Wasting can however also be assessed with mid upper arm circumference (MUAC).
@@ -35,23 +34,17 @@ STAT_CONC_DEF: >-
   In addition, while wasting constitutes the major form of moderate acute
   malnutrition (MAM), there are acutely malnourished children who would not be
   picked up with weight-for-height or MUAC, namely those presenting bilateral
-  pitting odema (characterized by swollen feet, face and limbs). For Surveys
+  pitting oedema (characterized by swollen feet, face and limbs). For Surveys
   that report oedema cases, in the joint data set these are included in the
   prevalence of low weight-for-height. </p>
 SOURCE_TYPE: >-
-  <h1>Data sources</h1>
-
-  <h2>Description:</h2>
-
   <p>For the majority of countries, nationally representative household surveys
   constitute the data source. For a limited number of countries data from
   surveillance systems is used if sufficient population coverage is documented
   (about 80%). For both data sources, the child&#x2019;s height and weight
   measurements have to be collected following recommended standard measuring
-  techniques (WHO 2008). </p>
+  techniques (WHO 2008).</p>
 COLL_METHOD: >-
-  <h2>Collection process:</h2>
-
   <p>UNICEF, WHO and the World Bank group jointly review new data sources to
   update the country level estimates. Each agency uses their existing mechanisms
   for obtaining data.</p>
@@ -75,21 +68,15 @@ COLL_METHOD: >-
   information is included in the databases. Once reviewed, feedback is made
   available on whether or not specific data points are accepted, and if not, the
   reasons why. UNICEF uses these data obtained through CRING to feed into the
-  joint dataset. The World Bank Group provides estimates available through the
-  Living Standard Measurement Surveys (LSMS) which usually requires re-analysis
-  of datasets given that the LSMS reports often do not tabulate the stunting
+  joint dataset. The World Bank Group provides estimates availabe through the
+  Living Standard Measurement Surveys (LSMS) which ussually requires re-analysis
+  of datasets given theat the LSMS reports often do not tabulate the stunting
   data. </p>
 FREQ_COLL: >-
-  <h1>Calendar</h1>
-
-  <h2>Data collection:</h2>
-
   <p>Data sources are currently being updated to feed into the 2017 production
   of global and regional estimates and updated country level dataset to be
   released in May 2017. </p>
 REL_CAL_POLICY: >-
-  <h2>Data release:</h2>
-
   <p>The next planned release fo global/regional estimates as well as the
   updated country dataset is May 2017. Global and regional estimates are
   released annually every May starting in 2017. The country level dataset is
@@ -98,16 +85,10 @@ REL_CAL_POLICY: >-
   updates (one coinciding with the annual release of the regional/global
   estimates and at least one other update at another time of the year).</p>
 DATA_SOURCE: >-
-  <h1>Data providers</h1>
-
   <p>Data providers vary and most commonly are ministries of health, national
-  offices of statistics or national institutes of nutrition. </p>
-COMPILING_ORG: |-
-  <h1>Data compilers</h1>
-  <p>UNICEF, WHO and the World Bank group</p>
+  offices of statistics or national institutes of nutrition.</p>
+COMPILING_ORG: '<p>UNICEF, WHO and the World Bank group</p>'
 RATIONALE: >-
-  <h2>Rationale:</h2>
-
   <p>Child growth is an internationally accepted outcome reflecting child
   nutritional status. Child wasting refers to a child who is too thin for his or
   her height and is the result of recent rapid weight loss or the failure to
@@ -115,58 +96,45 @@ RATIONALE: >-
   risk of death, but treatment is possible. Child wasting is one of the World
   Health Assembly nutrition target indicators.</p>
 REC_USE_LIM: >-
-  <h2>Comments and limitations:</h2>
-
   <p>Survey estimates come with levels of uncertainty due to both sampling error
-  and non-sampling error (e.g. mesasurement technical error, recording error
-  etc.,). None of the two sources of errros have been fully taken into account
+  and non-sampling error (e.g. measurement technical error, recording error
+  etc.,). None of the two sources of errors have been fully taken into account
   for deriving estimates neither at country nor at regional and global levels.
   Surveys are carried out in a specific period of the year, usually over a few
   months. However, this indicator can be affected by seasonality, factors
   related to food availability (e.g. pre-harvest periods), disease (e.g. rainy
   season and diarrhoea, malaria, etc.), and natural disasters and conflicts.
   Hence, country-year estimates may not necessarily be comparable over time.
-  Consequently, only latest estimates are provided. </p>
+  Consequently, only latest estimates are provided.</p>
 DATA_COMP: >-
-  <h1>Methodology</h1>
-
-  <h2>Computation method:</h2>
-
   <p>Survey estimates are based on standardized methodology using the WHO Child
   Growth Standards as described elsewhere (Ref: Anthro software manual). Global
   and regional estimates are based on methodology outlined in UNICEF-WHO-The
   World Bank: Joint child malnutrition estimates - Levels and trends
-  (UNICEF/WHO/WB 2012)</p>
+  (UNICEF/WHO/WB 2012 )</p>
 IMPUTATION: >-
-  <h2>Treatment of missing values:</h2>
-
   <ul>
-    <li><strong><em>At country level:</em></strong></li>
+    <li>At country level</li>
   </ul>
 
   <p>No imputation methodology is applied to derive estimates for countries or
-  years where no data is available.</p>
+  years where no data is avaialble.</p>
 
   <ul>
-    <li><strong><em>At regional and global levels:</em></strong></li>
+    <li>At regional and global levels</li>
   </ul>
 
   <p>Countries and years are treated as missing randomly following a multilevel
-  modeling approach (<em>International Journal of Epidemiology</em>
-  2004;33:1260-70).</p>
+  modeling approach (International Journal of Epidemiology 2004;33:1260-70).</p>
 REG_AGG: >-
-  <h2>Regional aggregates:</h2>
-
   <p>Regional aggregates are available for the following classifications: UN,
   MDG, UNICEF, WHO, The World Bank regions and income groups.</p>
 COVERAGE: >-
-  <h1>Data availability</h1>
-
-  <h2>Description:</h2>
+  <p><strong>Data availability:</strong></p>
 
   <p>More than 150 countries.</p>
 
-  <h2>Time series:</h2>
+  <p><strong>Time series:</strong></p>
 
   <p>At country level, data are provided for the years where surveys are
   included in the joint dataset. Survey years range from 1983 to 2016. For the
@@ -175,15 +143,15 @@ COVERAGE: >-
   Joint Malnutrition Estimates the only estimate available for was for 2015 and
   no time series were provided). </p>
 
-  <h2>Disaggregation:</h2>
+  <p><strong>Disaggregation:</strong></p>
 
   <p>Global and regional estimates refer to the age group of children under 5
   years, sexes combined. Disaggregated country data are available in a majority
-  of household surveys and UNICEF-WHO-The World Bank Group are expanding the
+  of household surveys and UNICEF - WHO- The World Bank Group are expanding the
   joint data set to include sub national and stratified estimates (e.g. sex, age
   groups, wealth, mothers&apos; education, residence) in 2017.</p>
 COMPARABILITY: >-
-  <h2>Sources of discrepancies:</h2>
+  <p><strong>Sources of discrepancies:</strong></p>
 
   <p>The standard analysis approach to construct the joint data set aims for a
   maximum comparability of country estimates. For the inclusion of survey
@@ -204,37 +172,34 @@ COMPARABILITY: >-
   performed. Any adjustment or conversion is transparently stated in the
   annotated joint data set.</p>
 OTHER_DOC: >-
-  <h1>References</h1>
+  <p><strong>URL:</strong></p>
 
-  <h2>URL:</h2>
+  <p>data.unicef.org/nutrition/malnutrition.html;
+  http://www.who.int/nutgrowthdb/estimates2014/en/;
+  http://datatopics.worldbank.org/child-malnutrition;</p>
 
-  <p><a
-  href="http://data.unicef.org/nutrition/malnutrition.html">http://data.unicef.org/nutrition/malnutrition.html</a></p>
-
-  <p><a
-  href="http://www.who.int/nutgrowthdb/estimates2014/en/">http://www.who.int/nutgrowthdb/estimates2014/en/</a></p>
-
-  <p><a
-  href="http://datatopics.worldbank.org/child-malnutrition">http://datatopics.worldbank.org/child-malnutrition</a></p>
-
-  <h2>References:</h2>
+  <p><strong>References:</strong></p>
 
   <p>United Nations Children&#x2019;s Fund, World Health Organization, The World
-  Bank (2012). UNICEF-WHO-World Bank Joint Child Malnutrition Estimates.
-  (UNICEF, New York; WHO, Geneva; The World Bank, Washington, DC; 2012). </p>
+  Bank (2012). UNICEFWHO-World Bank Joint Child Malnutrition Estimates. (UNICEF,
+  New York; WHO, Geneva; The World Bank, Washington, DC; 2012). </p>
 
   <p>de Onis M, Bl&#xF6;ssner M, Borghi E, et al. (2004), Methodology for
-  estimating regional and global trends of childhood malnutrition. <em>Int J
-  Epidemiol</em>, 33(6):1260-70.</p>
+  estimating regional and global trends of childhood malnutrition. Int J
+  Epidemiol, 33(6):1260-70.</p>
 
-  <p>Yang H and de Onis M. Algorithms for converting estimates of child
-  malnutrition based on the NCHS reference into estimates based on the WHO Child
-  Growth Standards BMC <em>Pediatrics</em> 2008, 8:19 (05 May 2008) (<a
-  href="http://www.biomedcentral.com/1471-2431/8/19">http://www.biomedcentral.com/1471-2431/8/19</a>).</p>
+  <p>Yang H and de Onis M. <a
+  href="http://www.who.int/entity/nutgrowthdb/publications/algorithms/en/index.html">Algorithms
+  for converting estimates of child malnutrition based on the NCHS reference
+  into estimates based on the WHO Child Growth Standards</a> <br>BMC Pediatrics
+  2008, 8:19 (05 May 2008)
+  <br>(http://www.biomedcentral.com/1471-2431/8/19).</p>
 
-  <p>World Health Organization (2008). <em>Training Course on Child Growth
-  Assessment</em>. Geneva, WHO, 2008.</p>
+  <p>World Health Organization (2008). Training Course on Child Growth
+  Assessment. Geneva, WHO, 2008.</p>
 
-  <p><em>International Journal of Epidemiology</em> 2004;33:1260-70</p>
+  <p>International Journal of Epidemiology 2004;33:1260-70</p>
 
-  <p><em>International Journal of Epidemiology</em> 2003;32:518-26</p>
+  <p>International Journal of Epidemiology 2003;32:518-26</p>
+
+  <p>http://www.biomedcentral.com/1471-2431/8/19</p>

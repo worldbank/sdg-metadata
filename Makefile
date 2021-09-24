@@ -13,14 +13,11 @@ build.documents:
 build.api:
 	node scripts/prepare-build.js api
 
-build.history:
-	node scripts/prepare-build.js history
-
 build.site:
 	node scripts/prepare-build.js site
 	cd www && bundle exec jekyll build
 
-build: build.documents build.api build.history build.site
+build: build.documents build.api build.site
 
 publish: snapshots build
 

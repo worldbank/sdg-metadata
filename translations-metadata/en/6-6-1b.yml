@@ -1,59 +1,61 @@
 SDG_GOAL: >-
-  <p>Goal 6: Ensure availability and sustainable management of water and
+  <p>Goal: 6 Ensure availability and sustainable management of water and
   sanitation for all</p>
 SDG_TARGET: >-
-  <p>Target 6.6: By 2020, protect and restore water-related ecosystems,
+  <p>Target: 6.6 By 2020, protect and restore water-related ecosystems,
   including mountains, forests, wetlands, rivers, aquifers and lakes.</p>
-SDG_INDICATOR: '<p>Indicator 6.6.1: Change in the extent of water-related ecosystems</p>'
-META_LAST_UPDATE: '<p>Last updated: October 2020</p>'
-SDG_RELATED_INDICATORS: |-
-  <h1>Related indicators</h1>
-  <p>Linkages with any other Goals and Targets: 15.1.</p>
-SDG_CUSTODIAN_AGENCIES: |-
-  <h1>Institutional information</h1>
-  <h2>Organization(s):</h2>
-  <p>Secretariat of the Ramsar Convention on Wetlands </p>
+SDG_INDICATOR: '<p>Indicator: 6.6.1 Change in the extent of water-related ecosystems</p>'
+META_LAST_UPDATE: <p>March 2021</p>
+SDG_RELATED_INDICATORS: <p>15.1.</p>
+SDG_CUSTODIAN_AGENCIES: <p>Secretariat of the Ramsar Convention on Wetlands</p>
+CONTACT_ORGANISATION: <p>Secretariat of the Ramsar Convention on Wetlands</p>
 STAT_CONC_DEF: >-
-  <h1>Concepts and definitions</h1>
+  <p><strong>Definition:</strong></p>
 
-  <h2>Definition:</h2>
+  <ul>
+    <li>&#x201C;extent of wetlands&#x201D; </li>
+  </ul>
 
-  <p><strong><em>Extent of wetlands:</em></strong> This term can be defined as
-  the surface area of wetlands. It is measured in km2 or hectares. It is
-  expected that the surface reported by countries in 2018 corresponds to the
-  2017; if not, the reference year should be indicated. </p>
+  <p>This term can be defined as the surface area of wetlands. It is measured in
+  km<sup>2 </sup>or hectares. It is expected that the surface reported by
+  countries in 2018 correspond to the 2017; if not, the reference year should be
+  indicated. </p>
 
-  <p><strong><em>Change in the extent of wetlands</em></strong>: This term
-  refers to the percentage change in area of wetlands from a baseline reference.
-  For reporting such change, the previous extent, if known, and the period over
-  which the change has taken place should be specified. </p>
+  <ul>
+    <li>&#x201C;change in the extent of wetlands&#x201D; </li>
+  </ul>
 
-  <h2>Concepts:</h2>
+  <p>This term refers to the percentage change in area of wetlands from a
+  baseline reference. For reporting such change, the previous extent, if known,
+  and the period over which the change has taken place should be specified. </p>
+
+  <p><strong>Concepts:</strong></p>
 
   <p>In order to provide a precise definition of the indicator, it is crucial to
-  provide a definition of <strong>&#x201C;Water related ecosystems.&#x201D;
-  </strong>For this purpose, the definition of the Ramsar Convention on Wetlands
-  is used.</p>
+  provide a definition of </p>
 
-  <p><strong><em>The Ramsar definition of
-  &#x201C;wetlands&#x201D;</em></strong></p>
+  <p><strong>&#x201C;Water related ecosystems&#x201D;. </strong>For this
+  purpose, the definition of the Ramsar Convention on Wetlands is used.</p>
+
+  <ul>
+    <li><strong>the Ramsar definition of &#x201C;wetlands&#x201D;</strong></li>
+  </ul>
 
   <p>The Ramsar definition is very broad, reflecting the purpose and global
   coverage of the Convention:</p>
 
-  <p>In accordance with Article 1.1 of the Convention, <br><em>&#x201C;Wetlands
+  <p>In accordance with Article 1.1 of the Convention, <br>&#x201C;<em>Wetlands
   are areas of marsh, fen, peatland or water, whether natural or artificial,
   permanent or temporary, with water that is static or flowing, fresh, brackish
   or salt, including areas of marine water the depth of which at low tide does
-  not exceed six metres&#x201D;.</em></p>
+  not exceed six metres</em>&#x201D;.</p>
 
   <p>In addition, in accordance with Article 2.1, Ramsar Sites
-  <br><em>&#x201C;may incorporate riparian and coastal zones adjacent to the
+  <br>&#x201C;<em>may incorporate riparian and coastal zones adjacent to the
   wetlands, and islands or bodies of marine water deeper than six metres at low
-  tide lying within the wetlands&#x201D;.</em></p>
+  tide lying within the wetlands</em>&#x201D;.</p>
 
-  <p><strong><em>The Ramsar system of classifying wetland
-  types</em></strong></p>
+  <p><strong>- the Ramsar system of classifying wetland types</strong></p>
 
   <p>Many national definitions and classifications of &#x201C;wetlands&#x201D;
   are in use. They have been developed in response to different national needs
@@ -321,11 +323,17 @@ STAT_CONC_DEF: >-
       </tr>
     </tbody>
   </table>
+
+  <p> </p>
+UNIT_MEASURE: <p>The extent of wetlands is measure in km<sup>2</sup></p>
+CLASS_SYSTEM: >-
+  <p>The international standard classification being used is the Ramsar
+  Classification System for Wetland Types, adopted at COP4 in 1990, and amended
+  at COP6 in 1996 (Resolution VI.5) and at COP7 in 1999 (Resolution VII.11)
+  which is a basic internationally applicable habitat description for sites
+  designated for the Ramsar List of Wetlands of International Importance and
+  other wetlands. See item 7 Annex 1 for the full classification.</p>
 SOURCE_TYPE: >-
-  <h1>Data sources</h1>
-
-  <p><strong>Description:</strong></p>
-
   <p>The Ramsar Convention on Wetlands Secretariat has been collecting and
   analysing data on country implementation since 2000 including information
   about wetland inventories. This is done at intervals of 3 years that is the
@@ -356,8 +364,6 @@ SOURCE_TYPE: >-
   descriptions of how these have been used to estimate the extent of wetlands.
   </p>
 COLL_METHOD: >-
-  <h2>Collection process:</h2>
-
   <p>All data are provided by Ramsar Administrative Authorities to the Ramsar
   Secretariat in the form of country reports of implementation of the Convention
   based on a standard format that it is been approved by the Standing Committee.
@@ -369,21 +375,15 @@ COLL_METHOD: >-
   Secretariat using existing information and a literature search. All country
   reports (including those prepared by the Ramsar Secretariat) are sent to the
   respective Administrative Authority for validation before finalization.</p>
+
+  <p> </p>
 FREQ_COLL: >-
-  <h1>Calendar</h1>
-
-  <h2>Data collection:</h2>
-
   <p>Data collection process for indicator 6.6.1 has started in 2018 and data
   collection will take place also in 2019. </p>
 REL_CAL_POLICY: >-
-  <h2>Data release:</h2>
-
   <p>Updated data with time series and including year 2020 will be released late
   2020. </p>
 DATA_SOURCE: >-
-  <h1>Data providers</h1>
-
   <p>Ramsar Administrative Authorities prepare and submit to the Ramsar
   Secretariat their National Reports on implementation for each Conference of
   the Parties. Countries with dependent territories prepare more than one
@@ -391,14 +391,38 @@ DATA_SOURCE: >-
   is prepared by the Ramsar Secretariat using existing information and a
   literature search that is validated by the concern countries. </p>
 COMPILING_ORG: >-
-  <h1>Data compilers</h1>
-
   <p>Secretariat of the Ramsar Convention on Wetlands: The Secretariat expect to
   work with UNEP as co-custodian of this indicator and other<strong> </strong>UN
-  agencies and partners.</p>
-RATIONALE: >-
-  <p><strong>Rationale:</strong></p>
+  agencies and partners.<strong> </strong></p>
+INST_MANDATE: >-
+  <p>At the 52nd meeting of the Standing Committee (SC52) in 2016, Contracting
+  Parties of the Convention on Wetlands approved the inclusion of an indicator
+  on wetland extent in the National Report to COP13. Subsequently, the UN
+  General Assembly in July 2017 adopted the global indicator framework
+  (A/RES/71/313) that included Indicator 6.6.1 on change in the extent of
+  water-related ecosystems over time. Given that Contracting Parties were
+  reporting on extent as part of the National Reports, the Interagency Expert
+  Group on SDGs in 2017 appointed the Convention on Wetlands as co-custodian of
+  Indicator 6.6.1 using data coming from National Reports, which used as a main
+  source wetland inventories.</p>
 
+  <p>As noted in Resolution XIII.7 Enhancing the Convention&#x2019;s visibility
+  and synergies with other multilateral environmental agreements and other
+  international institutions, the Convention on Wetlands is co-custodian with
+  UNEP of SDG Indicator 6.6.1. The Convention contributes to monitoring progress
+  with data from National Reports on extent of wetlands, based on the
+  Convention&#x2019;s definitions and requirements for reporting. </p>
+
+  <p>Paragraph 40 of Resolution XIII.7 &#x201C;requests the Secretariat to
+  continue working with Contracting Parties on the completion of national
+  wetland inventories and wetland extent to report on SDG Indicator
+  6.6.1&#x201D;.</p>
+
+  <p>The Standing Committee at its 54th and 57th meetings, through Decisions
+  SC54-26 and <br>SC57-47, approved the allocation of funds to support
+  Contracting Parties in the completion of wetland inventories and report on
+  wetland extent under Indicator 6.6.1. </p>
+RATIONALE: >-
   <p>The Ramsar Convention on Wetlands is the Intergovernmental treaty that
   provides the framework for the Conservation and wise use of wetlands and their
   resources. The Convention was adopted in 1971 and came into force in 1975.
@@ -425,15 +449,13 @@ RATIONALE: >-
   use changes or for other uses and may help identify unsustainable practices
   from different sectors.</p>
 REC_USE_LIM: >-
-  <h2>Comments and limitations:</h2>
-
-  <p>The 1999 review of the state of wetland inventory worldwide (<em>Global
-  review of wetland resources and priorities for wetland inventory </em>-
-  GRoWI), which was undertaken for the Ramsar Convention, identified not only
-  the major gaps in the extent to which wetland inventory had been undertaken,
-  but also found that for the inventories which had been made it was frequently
-  very hard to trace their existence, to identify their purpose, scope and
-  coverage, and/or to access the information contained in them. </p>
+  <p>The 1999 review of the state of wetland inventory worldwide (Global review
+  of wetland resources and priorities for wetland inventory - GRoWI), which was
+  undertaken for the Ramsar Convention, identified not only the major gaps in
+  the extent to which wetland inventory had been undertaken, but also found that
+  for the inventories which had been made it was frequently very hard to trace
+  their existence, to identify their purpose, scope and coverage, and/or to
+  access the information contained in them. </p>
 
   <p>In the light of these findings and to help address this lack of access by
   those who need to use wetland inventory for a wide range of Convention
@@ -457,9 +479,9 @@ REC_USE_LIM: >-
   unusable. Distinguishing between permanent and temporary surface water and
   wetlands can therefore be difficult considering the available historical data.
   It is further noted that for complex environments with different wetland types
-  <em>in situ</em> data or local knowledge is critical to support the analysis
-  of the EO data, and is sometimes the only way to obtain information on certain
-  wetland types.</p>
+  in situ data or local knowledge is critical to support the analysis of the EO
+  data, and is sometimes the only way to obtain information on certain wetland
+  types.</p>
 
   <p>Another limitation is that some countries are in the process of update or
   complete their national wetlands inventories in others are still gaps or is
@@ -471,10 +493,6 @@ REC_USE_LIM: >-
   data and foster action for the conservation of these important ecosystems.
   </p>
 DATA_COMP: >-
-  <h1>Methodology</h1>
-
-  <h2>Computation method:</h2>
-
   <p>Wetland area (Km2 or ha, reference year)/ Change in the extent of wetlands
   (water-related ecosystems over time) a baseline reference and year.</p>
 
@@ -496,11 +514,28 @@ DATA_COMP: >-
 
   <p>This indicator can be aggregated to global or regional level by adding all
   country values globally or in a specific region. </p>
-IMPUTATION: >-
-  <h2>Treatment of missing values:</h2>
+DATA_VALIDATION: >-
+  <p>The Convention contributes to monitoring progress of Indicator 6.6.1 with
+  data from National Reports on extent of wetlands, based on the
+  Convention&#x2019;s definitions and requirements for reporting. State Parties
+  to the Convention report to the Secretariat every three years that is the
+  cycle of the Convention. The data submitted by the State Parties on their
+  National Reports on Indicator 6.6.1 are review by the Secretariat and Focal
+  Points of the State Parties are contacted in case clarifications are
+  necessary. Once the clarifications are made, the data are submitted to the
+  SDGs Indicators Database. </p>
+ADJUSTMENT: >-
+  <p>As indicated in item 2.c the international standard classification being
+  used is the Ramsar Classification System for Wetland Types, adopted at the
+  Fourth Meeting of the Conference of the Parties to the Convention on Wetlands
+  (COP4) in 1990.</p>
 
+  <p>Even that the Convention has a regional approach with six Ramsar regions
+  the harmonization of breakdowns on SDG classifications for regional grouping
+  for compliance with SDG processes.</p>
+IMPUTATION: >-
   <ul>
-    <li><strong><em>At country level:</em></strong></li>
+    <li>At country level</li>
   </ul>
 
   <p>For countries where no information on wetland inventories was provided to
@@ -510,19 +545,14 @@ IMPUTATION: >-
   literature search.</p>
 
   <ul>
-    <li><strong><em>At regional and global levels:</em></strong></li>
+    <li>At regional and global levels</li>
   </ul>
 
-  <p>As indicated above</p>
+  <p>As indicated above </p>
 REG_AGG: >-
-  <h2>Regional aggregates:</h2>
-
   <p>Since information is available for all countries, regional and global
   estimates are produced by summation. </p>
 DOC_METHOD: >-
-  <h2>Methods and guidance available to countries for the compilation of the
-  data at the national level:</h2>
-
   <p>Countries under the Ramsar Convention provide all data in the form of a
   country report following a standard format approved by the Standing Committee,
   which includes the original data and reference of wetland inventories as the
@@ -558,7 +588,7 @@ DOC_METHOD: >-
   efficient and reliable monitoring of the environment over time at global,
   regional and local scales.</p>
 
-  <p>The Scientific and Technical Review Panel of the Convention has produceda
+  <p>The Scientific and Technical Review Panel of the Convention has produced a
   Ramsar Technical Report on &#x201C;Best practice guidelines for the use of
   Earth Observation for wetland inventory, assessment and monitoring: An
   information source for wetland managers provided by the Ramsar Convention for
@@ -626,48 +656,53 @@ DOC_METHOD: >-
   development of training materials, webinars and other training opportunities
   for Contracting Parties.</p>
 
-  <p><strong><em>Ramsar Guidelines</em></strong></p>
+  <p>Ramsar Guidelines</p>
 
-  <p>Ramsar Handbooks: <em>Handbook 13 Inventory, assessment and monitoring, and
-  Handbook 15 Wetland Inventory </em><a
+  <p> </p>
+
+  <p>Ramsar Handbooks: Handbook 13 Inventory, assessment and monitoring, and
+  Handbook 15 Wetland Inventory <a
   href="http://www.ramsar.org/resources/ramsar-handbooks">http://www.ramsar.org/resources/ramsar-handbooks</a>.</p>
 
   <p>Ramsar Technical Report Low-cost GIS software and data for wetland
-  inventory, assessment &amp; monitoring. <a
+  inventory, assessment &amp; monitoring. </p>
+
+  <p><a
   href="https://www.ramsar.org/sites/default/files/documents/pdf/lib/lib_rtr02.pdf">https://www.ramsar.org/sites/default/files/documents/pdf/lib/lib_rtr02.pdf</a></p>
 
-  <p>Ramsar&#xA0;Technical Report 4: A Framework for a wetland inventory
-  metadatabase <a
+  <p><a
+  href="http://www.ramsar.org/sites/default/files/documents/pdf/lib/lib_rtr04.pdf">Ramsar
+  Technical Report 4: A Framework for a wetland inventory metadatabase.</a></p>
+
+  <p><a
   href="https://www.ramsar.org/sites/default/files/documents/pdf/lib/lib_rtr04.pdf">https://www.ramsar.org/sites/default/files/documents/pdf/lib/lib_rtr04.pdf</a></p>
 
   <p>Ramsar 2002. The Ramsar Convention on Wetlands, The 8th Meeting of the
   Conference of the Parties to the Convention on Wetlands, Valencia, Spain,
-  18-26 November 2002, COP8 DOC. 35, <em>The use of Earth Observation technology
-  to support the implementation of the Ramsar Convention </em><a
+  18-26 November 2002, COP8 DOC. 35, The use of Earth Observation technology to
+  support the implementation of the Ramsar Convention, <a
   href="http://www.ramsar.org/sites/default/files/documents/pdf/cop8/cop8_doc_35_e.pdf">http://www.ramsar.org/sites/default/files/documents/pdf/cop8/cop8_doc_35_e.pdf</a></p>
 
-  <p>Resolution VIII.6 <em>A Ramsar Framework for Wetland Inventory </em><a
+  <p>Resolution VIII.6 A Ramsar Framework for Wetland Inventory <a
   href="http://www.ramsar.org/document/resolution-viii6-a-ramsar-framework-for-wetland-inventory">http://www.ramsar.org/document/resolution-viii6-a-ramsar-framework-for-wetland-inventory</a></p>
 
-  <p>Resolution VI.12<em> National Wetland Inventories and candidate sites for
-  listing </em><a
+  <p>Resolution VI.12 National Wetland Inventories and candidate sites for
+  listing <a
   href="http://www.ramsar.org/sites/default/files/documents/pdf/res/key_res_vi.12e.pdf">http://www.ramsar.org/sites/default/files/documents/pdf/res/key_res_vi.12e.pdf</a></p>
 
-  <p>Resolution VII.20 <em>Priorities for wetland inventory </em><a
+  <p>Resolution VII.20 Priorities for wetland inventory <a
   href="http://www.ramsar.org/sites/default/files/documents/library/key_res_vii.20e.pdf">http://www.ramsar.org/sites/default/files/documents/library/key_res_vii.20e.pdf</a></p>
 
-  <p>Resolution IX.1 <em>Additional scientific and technical guidance for
+  <p>Resolution IX.1 Additional scientific and technical guidance for
   implementing the Ramsar wise use concept Annex E. An Integrated Framework for
-  wetland inventory assessment and monitoring </em><a
+  wetland inventory assessment and monitoring <a
   href="http://www.ramsar.org/sites/default/files/documents/pdf/res/key_res_ix_01_annexe_e.pdf">http://www.ramsar.org/sites/default/files/documents/pdf/res/key_res_ix_01_annexe_e.pdf</a></p>
 
-  <p>Resolution X.15 <em>Describing the ecological character of wetlands and
-  data needs and formats for core inventory: harmonized scientific and technical
-  guidance </em><a
+  <p>Resolution X.15 Describing the ecological character of wetlands and data
+  needs and formats for core inventory: harmonized scientific and technical
+  guidance <a
   href="http://www.ramsar.org/sites/default/files/documents/pdf/res/key_res_x_15_e.pdf">http://www.ramsar.org/sites/default/files/documents/pdf/res/key_res_x_15_e.pdf</a></p>
 QUALITY_ASSURE: >-
-  <h2>Quality assurance:</h2>
-
   <p>Once received, the country reports undergo a rigorous review process to
   ensure correct use of definitions and methodology as well as internal
   consistency. A comparison is made with past information and other existing
@@ -681,9 +716,7 @@ QUALITY_ASSURE: >-
   finalization and publishing of data. The data are then aggregated at
   sub-regional, regional and global levels by the Ramsar Secretariat team. </p>
 COVERAGE: >-
-  <h1>Data availability</h1>
-
-  <p><strong>Description:</strong></p>
+  <p>Data availability<strong>:</strong></p>
 
   <p>Data are available for all countries (143) that submitted National Reports
   for COP13 as well as for previous COPs as indicated below. The data collected
@@ -694,7 +727,7 @@ COVERAGE: >-
   Administrative Authorities for validation. The gaps of information will be
   addressed during 2018 and 2019 to fully report in late 2020. </p>
 
-  <h2>Time series:</h2>
+  <p>Time series<strong>:</strong></p>
 
   <p>The Secretariat holds National Report information from COP8 (2002), COP9
   (2005), COP10 (2008), COP11 (2012), COP12 (2015) and COP13 (2018) National
@@ -703,12 +736,10 @@ COVERAGE: >-
   indicators such as wetland inventories. However, for wetland extent the data
   collection has started in 2018. </p>
 
-  <h2>Disaggregation:</h2>
+  <p>Disaggregation<strong>:</strong></p>
 
   <p>No further disaggregation of this indicator </p>
 COMPARABILITY: >-
-  <h2>Sources of discrepancies:</h2>
-
   <p>The national figures are reported by the countries themselves following
   standardized format for the National Reports for the COPs that included
   definitions and reporting years, thus eliminating any discrepancies between
@@ -716,13 +747,11 @@ COMPARABILITY: >-
   provide the full reference for original data sources as well as national
   definitions and terminology. </p>
 OTHER_DOC: >-
-  <h1>References</h1>
-
-  <p>References and links are provide in the section of methods and guidance
+  <p>References and links are provided in the section of methods and guidance
   available to countries for the compilation of the data at the national
   level.</p>
 
-  <h1>Annex 1 Ramsar Wetland Classification</h1>
+  <p><strong>Annex 1 Ramsar Wetland Classification</strong></p>
 
   <p>The codes are based upon the Ramsar Classification System for Wetland
   Types, as approved by the Conference of the Contracting Parties in
@@ -732,42 +761,42 @@ OTHER_DOC: >-
   has provided below tabulations of some of the characteristics of each Wetland
   Type, for Marine/Coastal Wetlands and Inland Wetlands. </p>
 
-  <h2>Marine/Coastal Wetlands</h2>
+  <p><strong>Marine/Coastal Wetlands</strong></p>
 
-  <p><strong>A. Permanent shallow marine waters</strong> in most cases less than
-  six metres deep at low tide; includes sea bays and straits.</p>
+  <p>A -- <strong>Permanent shallow marine waters</strong> in most cases less
+  than six metres deep at low tide; includes sea bays and straits.</p>
 
-  <p><strong>B. Marine subtidal aquatic beds</strong>; includes kelp beds,
+  <p>B -- <strong>Marine subtidal aquatic beds</strong>; includes kelp beds,
   sea-grass beds, tropical marine meadows.</p>
 
-  <p><strong>C. Coral reefs</strong>.</p>
+  <p>C -- <strong>Coral reefs</strong>.</p>
 
-  <p><strong>D. Rocky marine shores</strong>; includes rocky offshore islands,
+  <p>D -- <strong>Rocky marine shores</strong>; includes rocky offshore islands,
   sea cliffs.</p>
 
-  <p><strong>E. Sand, shingle or pebble shores</strong>; includes sand bars,
+  <p>E -- <strong>Sand, shingle or pebble shores</strong>; includes sand bars,
   spits and sandy islets; includes dune systems and humid dune slacks.</p>
 
-  <p><strong>F. Estuarine waters</strong>; permanent water of estuaries and
+  <p>F -- <strong>Estuarine waters</strong>; permanent water of estuaries and
   estuarine systems of deltas.</p>
 
-  <p><strong>G. Intertidal mud, sand or salt flats</strong>.</p>
+  <p>G -- <strong>Intertidal mud, sand or salt flats</strong>.</p>
 
-  <p><strong>H. Intertidal marshes</strong>; includes salt marshes, salt
+  <p>H -- <strong>Intertidal marshes</strong>; includes salt marshes, salt
   meadows, saltings, raised salt marshes; includes tidal brackish and freshwater
   marshes.</p>
 
-  <p><strong>I. Intertidal forested wetlands</strong>; includes mangrove swamps,
-  nipah swamps and tidal freshwater swamp forests. </p>
+  <p>I -- <strong>Intertidal forested wetlands</strong>; includes mangrove
+  swamps, nipah swamps and tidal freshwater swamp forests. </p>
 
-  <p><strong>J. Coastal brackish/saline lagoons</strong>; brackish to saline
+  <p>J -- <strong>Coastal brackish/saline lagoons</strong>; brackish to saline
   lagoons with at least one relatively narrow connection to the sea.</p>
 
-  <p><strong>K. Coastal freshwater lagoons</strong>; includes freshwater delta
+  <p>K -- <strong>Coastal freshwater lagoons</strong>; includes freshwater delta
   lagoons.</p>
 
-  <p><strong>ZK(a). Karst and other subterranean hydrological systems</strong>,
-  marine/coastal</p>
+  <p>Zk(a) &#x2013; <strong>Karst and other subterranean hydrological
+  systems</strong>, marine/coastal</p>
 
   <p><strong>Tabulations of Wetland Type characteristics, Marine / Coastal
   Wetlands:</strong></p>
@@ -894,66 +923,65 @@ OTHER_DOC: >-
     </tbody>
   </table>
 
-  <h2>Inland Wetlands</h2>
+  <p><strong>Inland Wetlands</strong></p>
 
-  <p><strong>A. Permanent inland deltas</strong>.</p>
+  <p>L -- <strong>Permanent inland deltas</strong>.</p>
 
-  <p><strong>B. Permanent rivers/streams/creeks</strong>; includes
+  <p>M -- <strong>Permanent rivers/streams/creeks</strong>; includes
   waterfalls.</p>
 
-  <p><strong>C. Seasonal/intermittent/irregular
+  <p>N -- <strong>Seasonal/intermittent/irregular
   rivers/streams/creeks</strong>.</p>
 
-  <p><strong>D. Permanent freshwater lakes</strong> (over 8 ha); includes large
-  oxbow lakes.</p>
+  <p>O -- <strong>Permanent freshwater lakes</strong> (over 8 ha); includes
+  large oxbow lakes.</p>
 
-  <p><strong>E. Seasonal/intermittent freshwater lakes</strong> (over 8 ha);
+  <p>P -- <strong>Seasonal/intermittent freshwater lakes</strong> (over 8 ha);
   includes floodplain lakes.</p>
 
-  <p><strong>F. Permanent saline/brackish/alkaline lakes</strong>.</p>
+  <p>Q -- <strong>Permanent saline/brackish/alkaline lakes</strong>.</p>
 
-  <p><strong>G. Seasonal/intermittent saline/brackish/alkaline lakes and
+  <p>R -- <strong>Seasonal/intermittent saline/brackish/alkaline lakes and
   flats</strong>.</p>
 
-  <p><strong>Sp.</strong> <strong>Permanent saline/brackish/alkaline
+  <p>Sp -- <strong>Permanent saline/brackish/alkaline
   marshes/pools</strong>.</p>
 
-  <p><strong>Ss.</strong> <strong>Seasonal/intermittent saline/brackish/alkaline
+  <p>Ss -- <strong>Seasonal/intermittent saline/brackish/alkaline
   marshes/pools</strong>. </p>
 
-  <p><strong>Tp.</strong> <strong>Permanent freshwater marshes/pools; ponds
-  </strong>(below 8 ha), marshes and swamps on inorganic soils; with emergent
-  vegetation water-logged for at least most of the growing season.</p>
+  <p>Tp -- <strong>Permanent freshwater marshes/pools</strong>; ponds (below 8
+  ha), marshes and swamps on inorganic soils; with emergent vegetation
+  water-logged for at least most of the growing season.</p>
 
-  <p><strong>Ts.</strong> <strong>Seasonal/intermittent freshwater marshes/pools
-  on inorganic soils</strong>; includes sloughs, potholes, seasonally flooded
-  meadows, sedge marshes.</p>
+  <p>Ts -- <strong>Seasonal/intermittent freshwater marshes/pools on inorganic
+  soils</strong>; includes sloughs, potholes, seasonally flooded meadows, sedge
+  marshes.</p>
 
-  <p><strong>U.</strong> <strong>Non-forested peatlands</strong>; includes shrub
-  or open bogs, swamps, fens.</p>
+  <p>U -- <strong>Non-forested peatlands</strong>; includes shrub or open bogs,
+  swamps, fens.</p>
 
-  <p><strong>Va.</strong> <strong>Alpine wetlands</strong>; includes alpine
-  meadows, temporary waters from snowmelt.</p>
+  <p>Va -- <strong>Alpine wetlands</strong>; includes alpine meadows, temporary
+  waters from snowmelt.</p>
 
-  <p><strong>Vt.</strong> <strong>Tundra wetlands</strong>; includes tundra
-  pools, temporary waters from snowmelt.</p>
+  <p>Vt -- <strong>Tundra wetlands</strong>; includes tundra pools, temporary
+  waters from snowmelt.</p>
 
-  <p><strong>W.</strong> <strong>Shrub-dominated wetlands</strong>; includes
-  shrub swamps, shrub-dominated freshwater marshes, shrub carr, alder thicket on
+  <p>W -- <strong>Shrub-dominated wetlands</strong>; includes shrub swamps,
+  shrub-dominated freshwater marshes, shrub carr, alder thicket on inorganic
+  soils.</p>
+
+  <p>Xf -- <strong>Freshwater, tree-dominated wetlands</strong>; includes
+  freshwater swamp forests, seasonally flooded forests, wooded swamps on
   inorganic soils.</p>
 
-  <p><strong>Xf.</strong> <strong>Freshwater, tree-dominated wetlands</strong>;
-  includes freshwater swamp forests, seasonally flooded forests, wooded swamps
-  on inorganic soils.</p>
+  <p>Xp -- <strong>Forested peatlands</strong>; peatswamp forests.</p>
 
-  <p><strong>Xp</strong>. <strong>Forested peatlands</strong>; peatswamp
-  forests.</p>
+  <p>Y -- <strong>Freshwater springs; oases</strong>. </p>
 
-  <p><strong>Y.</strong> <strong>Freshwater springs; oases</strong>. </p>
+  <p>Zg -- <strong>Geothermal wetlands.</strong></p>
 
-  <p><strong>Zg</strong>. <strong>Geothermal wetlands</strong>.</p>
-
-  <p><strong>Zk(b).</strong> <strong>Karst and other subterranean hydrological
+  <p>Zk(b) &#x2013; <strong>Karst and other subterranean hydrological
   systems</strong>, inland.</p>
 
   <p><u>Note</u>: &#x201C;<strong>floodplain</strong>&#x201D; is a broad term
@@ -1202,19 +1230,34 @@ OTHER_DOC: >-
     </tbody>
   </table>
 
-  <h2>Human-made wetlands</h2>
+  <p><strong>Human-made wetlands</strong></p>
 
-  <ol>
-    <li><strong>Aquaculture</strong> (e.g. fish/shrimp) <strong>ponds.</strong></li>
-    <li><strong>Ponds</strong>; includes farm ponds, stock ponds, small tanks (generally below 8 ha).</li>
-    <li><strong>Irrigated land</strong>; includes irrigation channels and rice fields.</li>
-    <li><strong>Seasonally flooded agricultural land</strong> (including intensively managed or grazed wet meadow or pasture).</li>
-    <li><strong>Salt exploitation sites</strong>; salt pans, salines, etc.</li>
-    <li><strong>Water storage areas</strong>; reservoirs/barrages/dams/impoundments (generally over 8 ha).</li>
-    <li><strong>Excavations; gravel/brick/clay pits; </strong>borrow pits, mining pools.</li>
-    <li><strong>Wastewater treatment areas</strong>; sewage farms, settling ponds, oxidation basins, etc.</li>
-    <li><strong>Canals and drainage channels, ditches</strong>.</li>
-  </ol>
+  <p>1 -- <strong>Aquaculture</strong> (e.g. fish/shrimp)
+  <strong>ponds.</strong></p>
 
-  <p><strong>Zk(c).</strong> <strong>Karst and other subterranean hydrological
+  <p>2 -- <strong>Ponds</strong>; includes farm ponds, stock ponds, small tanks
+  (generally below 8 ha).</p>
+
+  <p>3 -- <strong>Irrigated land</strong>; includes irrigation channels and rice
+  fields.</p>
+
+  <p>4 -- <strong>Seasonally flooded agricultural land</strong> (including
+  intensively managed or grazed wet meadow or pasture).</p>
+
+  <p>5 -- <strong>Salt exploitation sites</strong>; salt pans, salines, etc.</p>
+
+  <p>6 -- <strong>Water storage areas</strong>;
+  reservoirs/barrages/dams/impoundments (generally over 8 ha).</p>
+
+  <p>7 -- <strong>Excavations</strong>; gravel/brick/clay pits; borrow pits,
+  mining pools.</p>
+
+  <p>8 -- <strong>Wastewater treatment areas</strong>; sewage farms, settling
+  ponds, oxidation basins, etc.</p>
+
+  <p>9 --<strong>Canals and drainage channels, ditches.</strong></p>
+
+  <p>Zk(c) &#x2013; <strong>Karst and other subterranean hydrological
   systems</strong>, human-made</p>
+
+  <p></p>
