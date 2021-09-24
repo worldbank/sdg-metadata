@@ -28,7 +28,24 @@
 &lt;p&gt;The mountain description layer used to derive the global estimates was created by the US Geological Survey from a 250 m DEM (Sayre &lt;em&gt;et al.&lt;/em&gt; 2018)&lt;/p&gt;
 &lt;p&gt;These datasets may be replaced by nationally relevant data sources when available.&lt;/p&gt;
 			</language>
-			<language lang="es"/>
+			<language lang="es">&lt;h1&gt;Fuentes de datos&lt;/h1&gt;
+&lt;h2&gt;Descripción:&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;1)Datos de la AEE ICC cubierta terrestre: &lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;La Iniciativa sobre el Cambio Climático de la Agencia Espacial Europea (ICC de la AEE) es un programa cuyo objetivo es aprovechar todo el potencial de los datos de observación de la Tierra recogidos por la AEE para contribuir a las bases de datos de las Variables Climáticas Esenciales exigidas por la Convención Marco de las Naciones Unidas sobre el Cambio Climático (CMNUCC). &lt;/p&gt;
+&lt;p&gt;Los productos ICC cubierta terrestre han sido elaborados utilizando una combinación de datos de teledetección como el MERIS de 300 m, SPOT &amp;#x2013;VEGETACION de 1 km, PROBA &amp;#x2013;V de 1 km y AVHRR de 1 km. El producto ICC consiste en una serie de mapas anuales de la cubierta terrestre a 300 m de resolución que abarcan el período comprendido entre 1992 y 2018. El periodo 1992-2015 está disponible en formato raster, mientras que el 2016-2018 está disponible en formato netCDF y se requiere una transformación a GTIFF para que estos conjuntos de datos estén disponibles para su procesamiento en un entorno SIG. Los datos de la cubierta terrestre son actualizados cada año por la Agencia Espacial Europea. &lt;/p&gt;
+&lt;p&gt;El ICC de la AEE se adhiere al Sistema de Clasificación de Cobertura de la Organización de las Naciones Unidas para la Agricultura y la Alimentación (FAO) (Santoro, et al., 2015). &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;2) Capa de clase de montaña Kapos:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;El conjunto de datos Kapos es un archivo ráster descriptor de montañas global. El archivo proporciona una clasificación de las cadenas montañosas de acuerdo con las definiciones propuestas por Kapos et al 2000:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Clase 1: elevación &amp;gt; 4500 metros &lt;/li&gt;
+  &lt;li&gt;Clase 2: elevación 3500 - 4500 metros&lt;/li&gt;
+  &lt;li&gt;Clase 3: elevación 2500 &amp;#x2013; 3500 metros &lt;/li&gt;
+  &lt;li&gt;Clase 4: elevación 1500 &amp;#x2013; 2500 metros y pendiente &amp;#x2265; 2&lt;/li&gt;
+  &lt;li&gt;Clase 5: elevación 1.000&amp;#x2013;1.500 metros y pendiente &amp;#x2265; 5 o rango de elevación local (7 kilómetros de radio) &amp;#x2265; 300 metros&lt;/li&gt;
+  &lt;li&gt;Clase 6: elevación 300&amp;#x2013;1.000 metros y rango de elevación local (7 kilómetros de radio) &amp;#x2265; 300 metros fuera de 23&amp;#xB0;N&amp;#x2014;19&amp;#xB0;S &lt;/li&gt;
+  &lt;li&gt;Clase 0: Definida para representar las zonas no montañosas. &lt;/li&gt;
+&lt;/ul&gt;
+			</language>
 			<language lang="fr"/>
 			<language lang="pt"/>
 			<language lang="ru">&lt;h1&gt; Источники данных &lt;/h1&gt;

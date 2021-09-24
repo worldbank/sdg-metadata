@@ -2,5 +2,13 @@
 <root>
 	<status>success</status>
 	<message>The IMPUTATION field for indicator 15-5-1, translated into es</message>
-	<data/>
+	<data>&lt;h2&gt;Tratamiento de valores faltantes:&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;em&gt;A nivel de país:&lt;/em&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Los Índices de la Lista Roja para cada grupo taxonómico se interpolan linealmente para los años entre los puntos de datos y se extrapolan linealmente (con una pendiente igual a la de los dos puntos evaluados más cercanos, excepto para los corales) hasta el punto de tiempo más antiguo y hacia el presente para los años para los que no se dispone de estimaciones. El año de inicio del índice agregado se establece como diez años antes del primer año de evaluación para el grupo taxonómico con el punto de inicio más tardío. Los corales no se extrapolan linealmente porque se sabe que los descensos han sido mucho más pronunciados después de 1996 (debido a los eventos de blanqueo extremo) que antes. Por lo tanto, la tasa de disminución anterior a 1996 se establece como la media de las tasas de los otros grupos taxonómicos.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;em&gt;A nivel regional y global:&lt;/em&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;El Índice de la Lista Roja se calcula a nivel mundial basándose en las evaluaciones del riesgo de extinción de cada especie incluida, ya que muchas especies tienen distribuciones que abarcan muchos países. Por lo tanto, aunque ciertamente hay incertidumbre en torno al Índice de la Lista Roja, no hay valores faltantes como tales, por lo que no es necesaria la imputación.&lt;/p&gt;</data>
 </root>

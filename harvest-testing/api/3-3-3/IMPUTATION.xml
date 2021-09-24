@@ -16,7 +16,16 @@
 &lt;p&gt;Not Applicable &lt;/p&gt;
 &lt;p&gt; &lt;/p&gt;
 			</language>
-			<language lang="es"/>
+			<language lang="es">&lt;h2&gt;Tratamiento de valores faltantes:&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;em&gt;A nivel de país:&lt;/em&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Para los valores faltantes de los parámetros (tasa de positividad de las pruebas y exhaustividad de la notificación) se utiliza una distribución basada en una mezcla de la distribución de los valores disponibles, si existe algún valor para el país o de la región en caso contrario. Los valores de los parámetros de comportamiento de búsqueda de la salud se imputan por interpolación lineal de los valores cuando se hicieron las encuestas o por extrapolación de la primera o última encuesta. Cuando no se dispone de datos, el número de casos se interpola teniendo en cuenta el crecimiento de la población.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;em&gt;A nivel regional y mundial:&lt;/em&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;No aplicable.&lt;/p&gt;
+			</language>
 			<language lang="fr">&lt;h2&gt;Traitement des valeurs manquantes : &lt;/h2&gt;
 &lt;ul&gt;
   &lt;li&gt;&lt;strong&gt;&lt;em&gt;Au niveau national : &lt;/em&gt;&lt;/strong&gt;&lt;/li&gt;

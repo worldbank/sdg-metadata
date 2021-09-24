@@ -2,5 +2,13 @@
 <root>
 	<status>success</status>
 	<message>The DATA_COMP field for indicator 3-2-2, translated into es</message>
-	<data/>
+	<data>&lt;h1&gt;Metodología&lt;/h1&gt;
+&lt;h2&gt;Método de cálculo:&lt;/h2&gt;
+&lt;p&gt;Las estimaciones del Grupo Interinstitucional de las Naciones Unidas para la Estimación de la Mortalidad Infantil (IGME) se derivan de datos representativos a nivel nacional procedentes de censos, encuestas o sistemas de registro civil. El IGME de la ONU no utiliza ninguna covariable para derivar sus estimaciones. Sólo aplica un método de ajuste de curvas a los datos empíricos de buena calidad para derivar las estimaciones de tendencias tras la evaluación de la calidad de los datos. En la mayoría de los casos, las estimaciones de la UN-IGME se aproximan a los datos subyacentes. El IGME de la ONU pretende minimizar los errores de cada estimación, armonizar las tendencias a lo largo del tiempo y producir estimaciones actualizadas y correctamente evaluadas. El IGME de la ONU produce estimaciones de la tasa de mortalidad neonatal con un modelo de regresión spline bayesiano que modela la relación de la tasa de mortalidad neonatal / (tasa de mortalidad de menores de cinco años - tasa de mortalidad neonatal). Las estimaciones de la tasa de mortalidad neonatal se obtienen recombinando las estimaciones del cociente con la tasa de mortalidad de menores de cinco años estimada por el IGME de las Naciones Unidas. Véanse las referencias para más detalles. &lt;/p&gt;
+&lt;p&gt;Para los datos subyacentes mencionados anteriormente, los métodos más utilizados son los siguientes:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;em&gt;Registro civil&lt;/em&gt;&lt;/strong&gt;: Número de niños fallecidos durante los primeros 28 días de vida y número de nacimientos utilizados para calcular las tasas de mortalidad neonatal.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;em&gt;Censos y encuestas&lt;/em&gt;&lt;/strong&gt;: Los censos y las encuestas suelen incluir preguntas sobre las muertes en los hogares en los últimos 12 meses, que pueden utilizarse para calcular las estimaciones de mortalidad.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;em&gt;Encuestas: &lt;/em&gt;&lt;/strong&gt;Se utiliza un método directo basado en la historia completa de los nacimientos, una serie de preguntas detalladas sobre cada uno de los hijos que una mujer ha dado a luz durante su vida. Las estimaciones de la mortalidad neonatal, posneonatal, infantil y de menores de cinco años pueden derivarse del módulo de historia de nacimientos completa.&lt;/li&gt;
+&lt;/ul&gt;</data>
 </root>

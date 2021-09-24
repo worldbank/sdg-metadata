@@ -2,5 +2,22 @@
 <root>
 	<status>success</status>
 	<message>The DATA_COMP field for indicator 3-9-1, translated into es</message>
-	<data/>
+	<data>&lt;h1&gt;Metodología&lt;/h1&gt;
+&lt;h2&gt;Método de cálculo:&lt;/h2&gt;
+&lt;p&gt;La mortalidad atribuible se calcula combinando primero la información sobre el aumento del riesgo (o relativo) de una enfermedad resultante de la exposición, con la información sobre la extensión de la exposición en la población (por ejemplo, la concentración media anual de partículas a la que está expuesta la población, la proporción de población que depende principalmente de combustibles contaminantes para cocinar).&lt;/p&gt;
+&lt;p&gt;Esto permite calcular la &amp;apos;fracción atribuible a la población&amp;apos; (FAP), que es la fracción de la enfermedad observada en una población determinada que puede atribuirse a la exposición (por ejemplo, en ese caso de la concentración media anual de partículas y la exposición a combustibles contaminantes para cocinar).&lt;/p&gt;
+&lt;p&gt;Si se aplica esta fracción a la carga total de la enfermedad (por ejemplo, las enfermedades cardiopulmonares expresadas en forma de muertes), se obtiene el número total de muertes que resulta de la exposición a ese factor de riesgo concreto (en el ejemplo anterior, a la contaminación atmosférica ambiental y doméstica).&lt;/p&gt;
+&lt;p&gt;Para estimar los efectos combinados de los factores de riesgo, se calcula una fracción atribuible conjunta de la población, como se describe en Ezzati et al (2003).&lt;/p&gt;
+&lt;p&gt;La mortalidad asociada a la contaminación atmosférica doméstica y ambiental se estimó basándose en el cálculo de las fracciones atribuibles conjuntas de la población, asumiendo exposiciones distribuidas independientemente y peligros independientes, como se describe en (Ezzati et al, 2003).&lt;/p&gt;
+&lt;p&gt;La fracción atribuible a la poblacional conjunta (FAP) se calculó mediante la siguiente fórmula:&lt;/p&gt;
+&lt;p&gt;FAP=1-PRODUCTO (1-FAPi) &lt;/p&gt;
+&lt;p&gt;donde FAPi es la FAP de los factores de riesgo individuales.&lt;/p&gt;
+&lt;p&gt;El FAP de la contaminación del aire ambiente y el FAP de la contaminación del aire doméstico se evaluaron por separado, basándose en la Evaluación de Riesgos Comparativa (Ezzati et al, 2002) y en grupos de expertos para el estudio de la Carga Mundial de la Enfermedad (GBD) 2010 (Lim et al, 2012; Smith et al, 2014).&lt;/p&gt;
+&lt;p&gt;Para la exposición a la contaminación del aire ambiente, las estimaciones de la media anual de partículas de un diámetro inferior a 2,5 um (PM25) se modelaron como se describe en OMS (2016, de próxima publicación), o para el indicador 11.6.2.&lt;/p&gt;
+&lt;p&gt; Para la exposición a la contaminación del aire en los hogares, se modeló la proporción de la población que depende principalmente del uso de combustibles contaminantes para cocinar (véase el indicador 7.1.2 [uso de combustibles contaminantes=1-uso de combustibles limpios]). Los detalles del modelo se publican en (Bonjour et al, 2013). &lt;/p&gt;
+&lt;p&gt;Se utilizaron las funciones integradas de exposición-respuesta (IER) desarrolladas para el GBD 2010 (Burnett et al, 2014) y actualizadas para el estudio GBD 2013 (Forouzanfar et al, 2015).&lt;/p&gt;
+&lt;p&gt;El porcentaje de la población expuesta a un factor de riesgo específico (en este caso, la contaminación del aire ambiente, es decir, las PM2,5) se proporcionó por país y por incremento de 1 ug/m3; los riesgos relativos se calcularon para cada incremento de PM2,5, basándose en la IER. La concentración contrafactual se seleccionó entre 5,6 y 8,8 ug/m3, como se describe en otros lugares (Ezzati et al, 2002; Lim et al, 2012). La fracción atribuible a la población del país para la ALRI, la EPOC, la CI, el accidente cerebrovascular y el cáncer de pulmón se calculó mediante la siguiente fórmula:&lt;/p&gt;
+&lt;p&gt;FAP=SUMA(Pi(RR-1)/(SUMA(RR-1)+1)&lt;/p&gt;
+&lt;p&gt;donde i es el nivel de PM2,5 en ug/m3, y Pi es el porcentaje de la población expuesta a ese nivel de contaminación atmosférica, y RR es el riesgo relativo.&lt;/p&gt;
+&lt;p&gt;Los cálculos para la contaminación atmosférica doméstica son similares y se explican en detalle en otro lugar (OMS 2014a).&lt;/p&gt;</data>
 </root>

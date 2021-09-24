@@ -14,7 +14,16 @@
   &lt;li&gt;The same procedure is used to calculate the distribution of the land cover classes as defined by IPCC within each elevation range. &lt;/li&gt;
 &lt;/ol&gt;
 			</language>
-			<language lang="es"/>
+			<language lang="es">&lt;h2&gt;Métodos y directrices a disposición de los países para la recopilación de los datos a nivel nacional:&lt;/h2&gt;
+&lt;p&gt;El valor del indicador&amp;#xA0;puede calcularse como sigue:&amp;#xA0;&amp;#xA0;&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;Las clases de cobertura del suelo de la AEE&amp;#xA0;ICC&amp;#xA0;están&amp;#xA0;reclasificadas en seis clases del IPCC&amp;#xA0;y mapa de cobertura verde/no verde&amp;#xA0;&lt;/li&gt;
+  &lt;li&gt;El mapa de rangos de elevación de Kapos&amp;#xA0;se superpone&amp;#xA0;al mapa&amp;#xA0;resultante del paso 1.&amp;#xA0;&lt;/li&gt;
+  &lt;li&gt;El histograma zonal&amp;#xA0;se calcula&amp;#xA0;para cada país&amp;#xA0;y&amp;#xA0;agrupación regional&amp;#xA0;de tal manera que el número de píxeles que pertenecen a clases verdes y&amp;#xA0;no verdes&amp;#xA0;se contabilizan&amp;#xA0;dentro de cada rango de elevación.&amp;#xA0;&lt;/li&gt;
+  &lt;li&gt;Se calcula la relación (%) entre la suma de los píxeles verdes y el número total de píxeles (verdes más no verdes) que caen dentro de cada&amp;#xA0;Kapos&amp;#xA0;para obtener los valores de MGCI&amp;#xA0;por cada&amp;#xA0;clase de&amp;#xA0;Kapos.&amp;#xA0;&lt;/li&gt;
+  &lt;li&gt;El mismo procedimiento&amp;#xA0;se utiliza&amp;#xA0;para calcular la distribución de las clases de cobertura del suelo&amp;#xA0;definidas por el IPCC dentro de cada rango de elevación.&amp;#xA0;&lt;/li&gt;
+&lt;/ol&gt;
+			</language>
 			<language lang="fr"/>
 			<language lang="pt"/>
 			<language lang="ru">&lt;h2&gt; Доступные странам методы и руководство для составления данных на национальном уровне: &lt;/h2&gt;

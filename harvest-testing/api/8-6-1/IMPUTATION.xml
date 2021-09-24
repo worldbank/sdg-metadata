@@ -15,7 +15,16 @@
   &lt;li&gt;At regional and global levels &lt;/li&gt;
 &lt;/ul&gt;
 			</language>
-			<language lang="es"/>
+			<language lang="es">&lt;h2&gt;Tratamiento de valores faltantes:&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;em&gt;A nivel de país:&lt;/em&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Se utilizan técnicas de regresión multivariada y de validación cruzada para imputar los valores faltantes a nivel de país. Las variables adicionales utilizadas para la imputación incluyen una serie de indicadores, entre los que se encuentran los datos del mercado laboral y de la matriculación escolar. Sin embargo, los valores faltantes de los países imputados sólo se utilizan para calcular las estimaciones globales y regionales; no se utilizan para la presentación de informes internacionales sobre los indicadores ODS por parte de la OIT. &lt;/p&gt;
+&lt;p&gt;Para más información sobre las estimaciones, consulte la descripción metodológica de las estimaciones modeladas de la OIT, disponible en &lt;a href=&quot;https://www.ilo.org/ilostat-files/Documents/TEM.pdf&quot;&gt;https://www.ilo.org/ilostat-files/Documents/TEM.pdf&lt;/a&gt;.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;em&gt;A nivel regional y mundial:&lt;/em&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+			</language>
 			<language lang="fr">&lt;h2&gt;Traitement des valeurs manquantes : &lt;/h2&gt;
 &lt;ul&gt;
   &lt;li&gt;&lt;strong&gt;&lt;em&gt;Au niveau national :&lt;/em&gt;&lt;/strong&gt;&lt;/li&gt;
