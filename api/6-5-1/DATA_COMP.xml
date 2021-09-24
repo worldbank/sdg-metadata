@@ -5,10 +5,10 @@
 	<data>
 		<languages>
 			<language lang="ar"/>
-			<language lang="en">&lt;h1&gt;Methodology&lt;/h1&gt;
-&lt;h2&gt;Computation method:&lt;/h2&gt;
-&lt;p&gt;1. The survey contains 33 questions divided into the four main sections described above. &lt;/p&gt;
-&lt;p&gt;2. Each question is given a score between 0 and 100, in increments of 10, guided by threshold descriptions for the following 6 categories:&lt;/p&gt;
+			<language lang="en">&lt;ol&gt;
+  &lt;li&gt;The survey contains 33 questions divided into the four main sections described above. &lt;/li&gt;
+  &lt;li&gt;Each question is given a score between 0 and 100, in increments of 10, guided by threshold descriptions for the following 6 categories:&lt;/li&gt;
+&lt;/ol&gt;
 &lt;ul&gt;
   &lt;li&gt;Very low (0)&lt;/li&gt;
   &lt;li&gt;Low (20)&lt;/li&gt;
@@ -18,8 +18,10 @@
   &lt;li&gt;Very high (100)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Note that guidance is provided for each threshold for each question, to ensure objective and comparable results. &lt;/p&gt;
-&lt;p&gt;3. The un-weighted average of the question scores within each of the four sections is calculated to give a score of 0 &amp;#x2013; 100 for each section, rounded to the nearest whole number. &lt;/p&gt;
-&lt;p&gt;4. The section scores (rounded to the nearest whole number), are averaged (un-weighted), and rounded to the nearest whole number, to give the indicator score, expressed as a number between 0 and 100.&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;The un-weighted average of the question scores within each of the four sections is calculated to give a score of 0 &amp;#x2013; 100 for each section, rounded to the nearest whole number. &lt;/li&gt;
+  &lt;li&gt;The section scores (rounded to the nearest whole number), are averaged (un-weighted), and rounded to the nearest whole number, to give the indicator score, expressed as a number between 0 and 100.&lt;/li&gt;
+&lt;/ol&gt;
 			</language>
 			<language lang="es">&lt;h1&gt;Metodología&lt;/h1&gt;
 &lt;h2&gt;Método de cálculo:&lt;/h2&gt;

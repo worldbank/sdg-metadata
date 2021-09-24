@@ -2,20 +2,13 @@
 <root>
 	<status>success</status>
 	<message>The IMPUTATION field for indicator 6-4-2, translated into en</message>
-	<data>&lt;h2&gt;Treatment of missing values:&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;&lt;em&gt;At country level:&lt;/em&gt;&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
+	<data>&lt;p&gt;&amp;#x2022; At country level&lt;/p&gt;
 &lt;p&gt;Three types of imputation are made at country level to fill in missing years in the timeseries:&lt;/p&gt;
 &lt;ul&gt;
-  &lt;li&gt;
-    &lt;ul&gt;
-      &lt;li&gt;Linear imputation: between two available data-points&lt;/li&gt;
-      &lt;li&gt;Carry forward: after the last available data-points and up to 10 years&lt;/li&gt;
-      &lt;li&gt;Vertical imputation: in case of available total freshwater withdrawal but missing disaggregation by sources, and if existing disaggregation existed for previous years, the respective ratio by sources is applied to the available total.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;&lt;em&gt;At regional and global levels:&lt;/em&gt;&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;Linear imputation: between two available data-points&lt;/li&gt;
+  &lt;li&gt;Carry forward: after the last available data-points and up to 10 years&lt;/li&gt;
+  &lt;li&gt;Vertical imputation: in case of available total freshwater withdrawal but missing disaggregation by sources, and if existing disaggregation existed for previous years, the respective ratio by sources is applied to the available total.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Thanks to the imputation methods at country level, data will be available for the whole time series (unless the latest official value was obtained more than 10 years ago).&lt;/p&gt;</data>
+&lt;p&gt;&amp;#x2022; At regional and global levels&lt;/p&gt;
+&lt;p&gt;Thanks to the imputation methods at country level, data will be available for the whole time series (unless the latest official value was obtained more than 10 years ago). Imputed data is displayed with an appropriate qualifier&lt;/p&gt;</data>
 </root>

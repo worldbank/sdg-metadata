@@ -2,10 +2,10 @@
 <root>
 	<status>success</status>
 	<message>The DATA_COMP field for indicator 8-1-1, translated into en</message>
-	<data>&lt;h1&gt;Methodology&lt;/h1&gt;
-&lt;h2&gt;Computation method:&lt;/h2&gt;
-&lt;p&gt;The annual growth rate of real Gross Domestic Product (GDP) per capita is calculated as follows:&lt;/p&gt;
-&lt;p&gt;a. Convert annual real GDP in domestic currency at 2015 prices for a country or area to US dollars at 2015 prices using the 2015 exchange rates.&lt;/p&gt;
-&lt;p&gt;b. Divide the result by the population of the country or area to obtain annual real GDP per capita in constant US dollars at 2015 prices.&lt;/p&gt;
-&lt;p&gt;c. Calculate the annual growth rate of real GDP per capita in year t+1 using the following formula: [(G(t+1) &amp;#x2013; G(t))/G(t)] x 100, where G(t+1) is real GDP per capita in 2015 US dollars in year t+1 and G(t) is real GDP per capita in 2015 US dollars in year t.&lt;/p&gt;</data>
+	<data>&lt;p&gt;The annual growth rate of real Gross Domestic Product (GDP) per capita is calculated as follows:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;Convert annual real GDP in domestic currency at 2015 prices for a country or area to US dollars at 2015 prices using the 2015 exchange rates.&lt;/li&gt;
+  &lt;li&gt;Divide the result by the population of the country or area to obtain annual real GDP per capita in constant US dollars at 2015 prices.&lt;/li&gt;
+  &lt;li&gt;Calculate the annual growth rate of real GDP per capita in year t+1 using the following formula: [(G(t+1) &amp;#x2013; G(t))/G(t)] x 100, where G(t+1) is real GDP per capita in 2015 US dollars in year t+1 and G(t) is real GDP per capita in 2015 US dollars in year t.&lt;/li&gt;
+&lt;/ol&gt;</data>
 </root>

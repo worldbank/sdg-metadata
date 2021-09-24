@@ -2,8 +2,7 @@
 <root>
 	<status>success</status>
 	<message>The SOURCE_TYPE field for indicator 2-1-2, translated into en</message>
-	<data>&lt;h1&gt;Data sources&lt;/h1&gt;
-&lt;h2&gt;Description of sources and collection process:&lt;/h2&gt;
+	<data>&lt;p&gt;Data sources and collection process&lt;/p&gt;
 &lt;p&gt;Data can be collected using the Food Insecurity Experience Scale survey module (FIES-SM) developed by FAO, or any other experience-based food security scale questionnaires, including:&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;the Household Food Security Survey Module (HFSSM) developed by the Economic Research Service of the US Department of Agriculture, and used in the US and Canada, &lt;/li&gt;
@@ -11,8 +10,8 @@
   &lt;li&gt;the Mexican Food Security Scale (or Escala Mexicana de Seguridad Alimentaria, - EMSA), an adaptation of the ELCSA used in Mexico, &lt;/li&gt;
   &lt;li&gt;the Brazilian Food Insecurity Scale (Escala Brasileira de medida de la Inseguran&amp;#xE7;a Alimentar &amp;#x2013; EBIA) used in Brazil, or &lt;/li&gt;
   &lt;li&gt;the Household Food Insecurity Access Scale (HFIAS), &lt;/li&gt;
-  &lt;li&gt;or any adaptation of the above that can be calibrated against the global FIES.&lt;/li&gt;
 &lt;/ul&gt;
+&lt;p&gt;or any adaptation of the above that can be calibrated against the global FIES.&lt;/p&gt;
 &lt;p&gt;Two versions of the FIES-SM are available for use in surveys of individuals or households respectively, and the difference stands in whether respondents are asked to report only on their individual experiences, or also on that of other member of the household.&lt;/p&gt;
 &lt;p&gt;The current FIES-SM module include eight questions as in the table below. &lt;/p&gt;
 &lt;table&gt;
@@ -138,7 +137,7 @@
 &lt;p&gt;In Saint Lucia, FIES data were collected in the Survey of Living Conditions and Household Budgets 2016.&lt;/p&gt;
 &lt;p&gt;In Seychelles, FIES data were collected in the Quarterly Labour Force Survey.&lt;/p&gt;
 &lt;p&gt;In the United States, the HFSSM is included every year in the Current Population Survey Food Security Supplement (CPS-FSS) by the US Bureau of Census since 1995. (The CPS-FSS reached about 83,000 individuals aged 15 or more in about 42,000 households in 2014.)&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Obtaining internationally comparable data for global monitoring:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;u&gt;Obtaining internationally comparable data for global monitoring:&lt;/u&gt;&lt;/p&gt;
 &lt;p&gt;To ensure comparability of the FImod+sev and FIsev indicators computed for different populations, universal thresholds are defined on the FIES global reference scale and converted into corresponding values on the &amp;#x201C;local&amp;#x201D; scales obtained as a result of application of the Rasch model on any specific population, through a process of &amp;#x201C;equating&amp;#x201D;.&lt;/p&gt;
 &lt;p&gt;Equating is a form of standardization of the metric based on identification of the subset of items that can be considered common to the global FIES and the specific scale used for measurement in each context. The severity levels associated with the common items are used as anchoring points to adjust the global FIES thresholds to the local scales. The standardization process ensures that the mean and standard deviation of the set of common items is the same when measured on the global FIES or on the national scale. Compatibility with the global FIES and the possibility to compile this indicator requires that at least four of the eight FIES items are identified as common.&lt;/p&gt;
 &lt;p&gt;The Statistics Division at FAO has developed the RM.weights package under R, which provides routines for estimating the parameters of the Rasch model using conditional maximum likelihood, with the possibility to allow for the complex survey design.&lt;/p&gt;</data>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<status>success</status>
+	<message>The IMPUTATION field for indicator 12-3-1a, translated into all languages</message>
+	<data>
+		<languages>
+			<language lang="ar"/>
+			<language lang="en">&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;At country level&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;In the absence of food loss data at the country-commodity level, FAO developed a loss imputation model to estimate losses of all countries and commodities and compile the Food Loss Index for SDG regions and commodity groups.&lt;/p&gt;
+&lt;p&gt;The model builds on loss data provided by the countries to the FAO within the annual Agriculture Production Questionnaires, loss factors available in the scientific literature published in the &lt;a href=&quot;http://www.fao.org/platform-food-loss-waste/flw-data/en/&quot;&gt;FLW database&lt;/a&gt; and from case studies, and a set of 200+ explanatory variables. &lt;/p&gt;
+&lt;p&gt;The model is a fixed effect model that selects the explanatory variables with a random forest algorithm. Where there is no information at all for a country-commodity combination, the model is applied to a cluster of commodities and the countries&amp;#x2019; estimated loss percentages will be equal to the cluster&amp;#x2019;s at global level.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;At regional and global levels&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;When loss data is insufficient to estimate even one country-commodity combination, the countries&amp;#x2019; estimated loss percentages will be equal to the cluster&amp;#x2019;s at global level for all the ten commodities in that country basket.&lt;/p&gt;
+			</language>
+			<language lang="es"/>
+			<language lang="fr"/>
+			<language lang="pt"/>
+			<language lang="ru"/>
+</languages>
+</data>
+</root>

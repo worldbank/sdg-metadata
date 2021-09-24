@@ -2,15 +2,15 @@
 <root>
 	<status>success</status>
 	<message>The IMPUTATION field for indicator 3-6-1, translated into en</message>
-	<data>&lt;h2&gt;Treatment of missing values:&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;&lt;em&gt;At country level:&lt;/em&gt;&lt;/strong&gt;&lt;/li&gt;
+	<data>&lt;ul&gt;
+  &lt;li&gt;At country level &lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Treatment of missing data was carried out as follows:&lt;/p&gt;
-&lt;p&gt;1) Identified missing values (or years) in vital registration (VR) data and looked for other sources in our case data from the questionnaire/survey (reported ) for these years. We then calculated the factor VR/Reported for the latest 3 years where VR and Reported data were available and used this factor to adjust Reported data to replace the missing value of VR data.&lt;/p&gt;
-&lt;p&gt;2) In the case where there is missing data in VR and Reported data, the missing values were imputed with a negative binomial regression of rate for each country if the regression converged or was significant. Otherwise we used the average rate of years with data.&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;For countries with high-quality cause-of-death statistics, interpolation/extrapolation was done for missing country-years; for countries with only low-quality or no data on causes of death, modelling was used. Complete methodology may be found here: &lt;/p&gt;
+&lt;p&gt;WHO methods and data sources for global causes of death, 2000&amp;#x2013;2019 (https://www.who.int/docs/default-source/gho-documents/global-health-estimates/ghe2019_cod_methods.pdf ) &lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
 &lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;&lt;em&gt;At regional and global levels:&lt;/em&gt;&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;At regional and global levels &lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Same as the procedure described for 11.2 above&lt;/p&gt;</data>
+&lt;p&gt;NA&lt;/p&gt;</data>
 </root>
