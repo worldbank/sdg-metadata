@@ -23,12 +23,10 @@ publish: snapshots build
 
 # Full (slow) local server, including website, API, and documents.
 serve.full: build
-	node scripts/watch-translations.js full &
 	cd www && bundle exec jekyll serve --skip-initial-build
 
 # Quick local server, only including the website.
 serve: build.site
-	node scripts/watch-translations.js &
 	cd www && bundle exec jekyll serve --skip-initial-build
 
 test:
