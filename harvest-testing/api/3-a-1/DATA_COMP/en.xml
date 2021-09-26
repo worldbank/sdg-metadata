@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<root>
-	<status>success</status>
-	<message>The DATA_COMP field for indicator 3-a-1, translated into en</message>
-	<data>&lt;h1&gt;Methodology&lt;/h1&gt;
-&lt;h2&gt;Computation method:&lt;/h2&gt;
-&lt;p&gt;A statistical model based on a Bayesian negative binomial meta-regression is used to model prevalence of current tobacco use for each country, separately for men and women. A full description of the method is available as a peer-reviewed article in The Lancet, volume 385, No. 9972, p966&amp;#x2013;976 (2015). Once the age-and-sex-specific prevalence rates from national surveys were compiled into a dataset, the model was fit to calculate trend estimates from the year 2000 to 2030. The model has two main components: (a) adjusting for missing indicators and age groups, and (b) generating an estimate of trends over time as well as the 95% credible interval around the estimate. Depending on the completeness/comprehensiveness of survey data from a particular country, the model at times makes use of data from other countries to fill information gaps. To fill data gaps, information is &amp;#x201C;borrowed&amp;#x201D; from countries in the same UN sub-region. The resulting trend lines are used to derive estimates for single years, so that a number can be reported even if the country did not run a survey in that year. In order to make the results comparable between countries, the prevalence rates are age-standardized to the WHO Standard Population.&lt;/p&gt;
-&lt;p&gt;Estimates for countries with irregular surveys or many data gaps will have large uncertainty ranges, and such results should be interpreted with caution.&lt;/p&gt;</data>
-</root>

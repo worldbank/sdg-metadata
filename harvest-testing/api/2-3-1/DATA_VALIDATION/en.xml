@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<root>
-	<status>success</status>
-	<message>The DATA_VALIDATION field for indicator 2-3-1, translated into en</message>
-	<data>&lt;p&gt;RuLIS aims to produce comparable data on rural incomes, livelihoods and development across countries and over time. The rural livelihoods indicators are built from survey microdata at the individual, household and community level.&lt;/p&gt;
-&lt;p&gt;The first stage consists on cleaning the original survey data in Stata to obtain harmonized variables. The original, intermediate and final datasets are stored in Stata and csv formats in different project folders with a defined structure, allowing for an easy query of the data by Stata and R. The second stage detects and treats outliers in the produced variables of Stage 1. Namely, the best transformation for each variable is found with automatized commands. The treatment consists on an imputation on the outlying observations detected on the step before. Finally, the imputed datasets are used to compute the indicators. &lt;/p&gt;
-&lt;p&gt;The analysis of the indicator allows to assess the advancement on the SDG 2.3 which aims to double the agricultural productivity and income of small-scale producers by 2030. &lt;/p&gt;</data>
-</root>
