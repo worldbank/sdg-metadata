@@ -5,16 +5,14 @@ SDG_TARGET: "<p>Cible 5.5 : Veiller à ce que les femmes participent pleinement 
   \ aux fonctions de direction à tous les niveaux de décision, dans la vie politique,\
   \ économique et publique, et y accèdent sur un pied d’égalité.</p>"
 SDG_INDICATOR: "<p>Indicateur 5.5.2 : Proportion de femmes occupant des postes de direction.</p>"
-META_LAST_UPDATE: '<p> Dernière mise à jour : Mars 2020 </p>'
+META_LAST_UPDATE: '<p> Janvier 2021 </p>'
 SDG_RELATED_INDICATORS: >-
   <h1> Indicateurs connexes</h1>
 
   <p>8.5.1 Rémunération horaire moyenne des employés féminins et masculins, selon
   la profession, l’âge et les personnes handicapées.</p>
 SDG_CUSTODIAN_AGENCIES: |-
-  <h1> Informations institutionnelles</h1>
-  <h2> Organisation(s) :</h2>
-  <p> OIT</p>
+  <p>Organisation internationale du travail (OIT)</p>
 STAT_CONC_DEF: >-
   <h1> Concepts et définitions</h1>
 
@@ -79,17 +77,7 @@ COLL_METHOD: >-
   ou par le traitement d’ensembles de microdonnées d’enquêtes nationales auprès des
   ménages. </p>
 FREQ_COLL: >-
-  <h1> Calendrier</h1>
-
-  <h2> Collecte de données :</h2>
-
-  <p> Le Département des statistiques de l’OIT envoie chaque année son questionnaire
-  annuel sur les statistiques du travail, généralement au 2ème trimestre, en vue de
-  recevoir les statistiques demandées au plus tard au 3ème trimestre ou à la fin de
-  l’année. Les données reçues par lots des bureaux statistiques régionaux et nationaux
-  et les données obtenues par le traitement des ensembles de microdonnées des enquêtes
-  nationales auprès des ménages par le Département des statistiques de l’OIT sont
-  continuellement mises à jour dans l’ILOSTAT dès qu’elles sont disponibles. </p>
+  <p>Continu</p>
 REL_CAL_POLICY: >-
   <h2> Publication des données : </h2>
 
@@ -103,7 +91,6 @@ DATA_SOURCE: |-
   <h1> Fournisseurs de données</h1>
   <p> Bureaux statistiques nationaux</p>
 COMPILING_ORG: |-
-  <h1> Compilateurs de données</h1>
   <p> OIT</p>
 RATIONALE: >-
   <h2> Justification :</h2>
@@ -259,3 +246,21 @@ OTHER_DOC: >-
   de la main-d'œuvre, adoptée par la 19 <sup> e </sup> CIST : <a href="http://ilo.org/global/statistics-and-databases/standards-and-guidelines/resolutions-adopted-byinternational-conferences-of-labour-statisticians/WCMS_230304/lang--en/index.htm">
   http://ilo.org/global/statistics-and-databases/standards-and-guidelines/resolutions-adopted-byinternational-conferences-of-labour-statisticians/WCMS_230304/lang--en/index.htm
   </a> </p>
+ADJUSTMENT: <p> Dans le cadre de l’initiative de l’OIT sur les microdonnées harmonisées,
+  l’OIT s’efforce de produire des statistiques du travail comparables au niveau international
+  en se basant sur des concepts et définitions d’indicateurs adoptés par la Conférence
+  internationale des statisticiens du travail. </p>
+DATA_VALIDATION: <p>L'OIT procède à des consultations annuelles avec les états membres
+  par le biais du questionnaire d'ILOSTAT et du système connexe de rapports statistiques
+  (Statistics Reporting System (StaRS)). Les fournisseurs de données nationaux reçoivent
+  un lien vers le portail où ils peuvent examiner toutes les données nationales sur
+  les ODD disponibles sur ILOSTAT.<p>
+INST_MANDATE: <p>L'OIT est le point focal des Nations Unies pour les statistiques
+  du travail. Elle établit des normes internationales pour les statistiques du travail
+  par le biais de la Conférence internationale des statisticiens du travail. Elle
+  compile et produit également des statistiques du travail dans le but de diffuser
+  des ensembles de données comparables au niveau international, et fournit une assistance
+  technique et une formation aux états membres de l'OIT afin de soutenir leurs efforts
+  pour produire des données sur le marché du travail de haute qualité. </p>
+UNIT_MEASURE: Pourcentage
+CONTACT_ORGANISATION: OIT
