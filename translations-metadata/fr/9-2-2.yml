@@ -8,7 +8,7 @@ SDG_TARGET: >-
   les pays les moins avancés</p>
 SDG_INDICATOR: "<p>Indicateur 9.2.2 : Emploi dans l’industrie manufacturière, en proportion\
   \ de l’emploi total</p>"
-META_LAST_UPDATE: '<p> Dernière mise à jour : Mars 2020 </p>'
+META_LAST_UPDATE: '<p> Janvier 2021 </p>'
 SDG_CUSTODIAN_AGENCIES: >-
   <h1>Informations institutionnelles</h1>
 
@@ -77,17 +77,7 @@ COLL_METHOD: >-
   sur les statistiques industrielles générales qui est rempli par les services nationaux
   de statistique et soumis à l'ONUDI chaque année. </p>
 FREQ_COLL: >-
-  <h1>Calendrier</h1>
-
-  <h2>Collecte de données :</h2>
-
-  <p>Le département des statistiques du BIT envoie son questionnaire annuel ILOSTAT,
-  généralement au cours du deuxième trimestre, afin de recevoir les statistiques demandées
-  au plus tard au cours du troisième trimestre ou à la fin de l'année. Les données
-  reçues par lots des bureaux statistiques régionaux et nationaux et les données obtenues
-  par le traitement des ensembles de microdonnées des enquêtes nationales sur les
-  ménages par le Département des statistiques du BIT sont continuellement mises à
-  jour dans ILOSTAT (dès qu'elles sont disponibles).</p>
+  <p>Continu</p>
 REL_CAL_POLICY: >-
   <h2>Publication des données :</h2>
 
@@ -244,3 +234,16 @@ OTHER_DOC: >-
   <p>Classification internationale type, par industrie, de toutes les branches d'activité
   économique 2008 (<a href="https://unstats.un.org/unsd/publication/seriesm/seriesm_4rev4e.pdf">https://unstats.un.org/unsd/publication/seriesm/seriesm_4rev4e.pdf</a>)
   </p>
+QUALITY_ASSURE: <p>Des contrôles de cohérence et de qualité des données sont régulièrement
+  effectués pour valider les données avant leur diffusion dans la base de données
+  d'ILOSTAT. </p>
+ADJUSTMENT: <p> Dans le cadre de l’initiative de l’OIT sur les microdonnées harmonisées,
+  l’OIT s’efforce de produire des statistiques du travail comparables au niveau international
+  en se basant sur des concepts et définitions d’indicateurs adoptés par la Conférence
+  internationale des statisticiens du travail. </p>
+DATA_VALIDATION: <p>L'OIT procède à des consultations annuelles avec les états membres
+  par le biais du questionnaire d'ILOSTAT et du système connexe de rapports statistiques
+  (Statistics Reporting System (StaRS)). Les fournisseurs de données nationaux reçoivent
+  un lien vers le portail où ils peuvent examiner toutes les données nationales sur
+  les ODD disponibles sur ILOSTAT.<p>
+UNIT_MEASURE: Pourcentage
