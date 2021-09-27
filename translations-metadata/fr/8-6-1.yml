@@ -4,12 +4,10 @@ SDG_TARGET: "<p>Cible 8.6 : D’ici à 2020, réduire nettement la proportion de
   \ non scolarisés et sans emploi ni formation</p>"
 SDG_INDICATOR: "<p>Indicateur 8.6.1 : Proportion de jeunes (âgés de 15 à 24 ans) non scolarisés\
   \ et sans emploi ni formation</p>"
-META_LAST_UPDATE: '<p> Dernière mise à jour : Mars 2020 </p>'
+META_LAST_UPDATE: '<p> Janvier 2021 </p>'
 SDG_RELATED_INDICATORS: <h1>Indicateurs connexes</h1>
 SDG_CUSTODIAN_AGENCIES: |-
-  <h1> Informations institutionnelles</h1>
-  <h2> Organisation(s) :</h2>
-  <p> OIT</p>
+  <p>Organisation internationale du travail (OIT)</p>
 DATA_SOURCE: >-
   <h1>Fournisseurs de données </h1>
 
@@ -48,17 +46,9 @@ COVERAGE: "<h1>Disponibilité des données </h1>\n<h2>Description :</h2>\n<h2>S�
   \ :</h2>\n<p>Aucune désagrégation n'est spécifiquement requise pour cet indicateur,\
   \ bien qu'une désagrégation par sexe soit souhaitable, tout comme une désagrégation\
   \ par groupes d'âge détaillés dans la tranche d'âge des jeunes.</p>"
-QUALITY_ASSURE: "<p><strong>Assurance qualité:</strong></p>\n<p>Des contrôles de cohérence\
-  \ et de qualité des données sont régulièrement effectués pour valider les données\
-  \ avant leur diffusion dans la base de données d'ILOSTAT.</p>\n<p>Dans de nombreux\
-  \ cas, les données sont obtenues par le traitement par l'OIT des ensembles de microdonnées\
-  \ des enquêtes nationales sur les ménages. Les données sont également communiquées\
-  \ par les bureaux nationaux de statistiques ou d'autres organismes nationaux compétents\
-  \ au Département des statistiques du BIT par le biais de son questionnaire annuel\
-  \ ILOSTAT sur les statistiques du travail. La source primaire des données ainsi\
-  \ que le référentiel, le cas échéant, sont indiqués dans les métadonnées et/ou notes\
-  \ de bas de page pertinentes dans ILOSTAT et dans la base de données mondiale des\
-  \ indicateurs des ODD.</p>"
+QUALITY_ASSURE: "<p>Des contrôles de cohérence et de qualité des données sont régulièrement\
+  \ effectués pour valider les données avant leur diffusion dans la base de données\
+  \ d'ILOSTAT. </p>"
 DOC_METHOD: "<h2>Méthodes et instructions à la disposition des pays pour la compilation\
   \ des données au niveau national :</h2>\n<p>Pour calculer cet indicateur, il faut\
   \ disposer de données fiables sur la situation du marché du travail et la participation\
@@ -153,14 +143,7 @@ REL_CAL_POLICY: "<h2>Publication des données : </h2>\n<p>La base de données d'
   \ sont disponibles vers le 2e ou 3e trimestre de l'année suivant l'année de référence,\
   \ alors qu'elles sont généralement disponibles vers le 3e ou 4e trimestre de l'année\
   \ suivant l'année de référence pour les autres pays.</p>"
-FREQ_COLL: "<h1>Calendrier</h1>\n<h2>Collecte des données : </h2>\n<p>Le BIT envoie\
-  \ son questionnaire annuel ILOSTAT sur les statistiques du travail, généralement\
-  \ au cours du 2e trimestre, afin de recevoir les statistiques demandées au 3e trimestre\
-  \ ou à la fin de l'année au plus tard. Les données reçues en lot des bureaux statistiques\
-  \ régionaux et nationaux et les données obtenues par le traitement des ensembles\
-  \ de microdonnées des enquêtes nationales sur les ménages par le Département des\
-  \ statistiques du BIT sont continuellement mises à jour dans ILOSTAT (au fur et\
-  \ à mesure qu'elles sont disponibles pour le Département des statistiques du BIT).</p>"
+FREQ_COLL: "<p>Continu</p>"
 COLL_METHOD: "<h2>Processus de collecte :</h2>\n<p>Le Département des statistiques\
   \ de l'OIT envoie son questionnaire annuel à toutes les agences concernées dans\
   \ chaque pays (bureau national des statistiques, ministère du travail, etc.) pour\
@@ -213,3 +196,14 @@ STAT_CONC_DEF: "<h1>Concepts et définitions </h1>\n<h2>Définition : </h2>\n<p>
   \ vocation spécifique. La formation technique, quant à elle, transmet un apprentissage\
   \ qui peut être appliqué dans des emplois de niveau intermédiaire, notamment ceux\
   \ de techniciens et de cadres moyens. </p>"
+ADJUSTMENT: <p> Dans le cadre de l’initiative de l’OIT sur les microdonnées harmonisées,
+  l’OIT s’efforce de produire des statistiques du travail comparables au niveau international
+  en se basant sur des concepts et définitions d’indicateurs adoptés par la Conférence
+  internationale des statisticiens du travail. </p>
+DATA_VALIDATION: <p>L'OIT procède à des consultations annuelles avec les états membres
+  par le biais du questionnaire d'ILOSTAT et du système connexe de rapports statistiques
+  (Statistics Reporting System (StaRS)). Les fournisseurs de données nationaux reçoivent
+  un lien vers le portail où ils peuvent examiner toutes les données nationales sur
+  les ODD disponibles sur ILOSTAT.<p>
+UNIT_MEASURE: Pourcentage
+CONTACT_ORGANISATION: OIT
