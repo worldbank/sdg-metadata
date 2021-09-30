@@ -1,14 +1,13 @@
 SDG_GOAL: >-
-  <p>Objectif 1 : Éliminer la pauvreté sous toutes ses formes et partout dans le monde
-  </p>
+  <p>Éliminer la pauvreté sous toutes ses formes et partout dans le monde</p>
 SDG_TARGET: "<p>Cible 1.1 : D’ici à 2030, éliminer complètement l’extrême pauvreté\
   \ dans le monde entier (s’entend actuellement du fait de vivre avec moins de 1,25 $\
-  \ des États‑Unis par jour)</p>"
+  \ (dollar américain) par jour)</p>"
 SDG_INDICATOR: >-
-  <p>Indicateur 1.1.1 : Proportion de la population vivant au-dessous du seuil de
+  <p>Indicateur 1.1.1 : Proportion de la population vivant en dessous du seuil de
   pauvreté fixé au niveau international, par sexe, âge, situation dans l’emploi et
   lieu de résidence (zone urbaine/zone rurale)</p>
-META_LAST_UPDATE: <p>Septembre 2020</p>
+META_LAST_UPDATE: '<p>Dernière mise à jour : 19 juillet 2016</p>'
 SDG_CUSTODIAN_AGENCIES: |-
   <h1>Information institutionnelle</h1>
   <h2>Organisation(s) :</h2>
@@ -18,9 +17,9 @@ STAT_CONC_DEF: >-
 
   <h2>Définition :</h2>
 
-  <p>L'indicateur &#x201C ;proportion de la population sous le seuil de pauvreté international&#x201D ;
+  <p>L'indicateur "proportion de la population sous le seuil de pauvreté international"
   est défini comme le pourcentage de la population vivant avec moins de 1,90 $ par
-  jour aux prix internationaux de 2011. L'indicateur &#x201C ;seuil de pauvreté international&#x201D ;
+  jour aux prix internationaux de 2011. L'indicateur "seuil de pauvreté international"
   est actuellement fixé à 1,90 $ par jour aux prix internationaux de 2011.</p>
 
   <h2>Concepts :</h2>
@@ -99,8 +98,8 @@ SOURCE_TYPE: >-
 
   <h2>Liste :</h2>
 
-  <p>Directement des BNS ou indirectement d'autres sources &#x2013; voir la section
-  Sources de données.</p>
+  <p>Directement des BNS ou indirectement d'autres sources - voir la section Sources
+  de données.</p>
 COLL_METHOD: >-
   <h2>Procédure de collecte :</h2>
 
@@ -121,14 +120,14 @@ FREQ_COLL: >-
 REL_CAL_POLICY: >-
   <h2>Publication des données:</h2>
 
-  <p>Le GPWG de la Banque mondiale s'est engagé à mettre à jour les données sur la
-  pauvreté chaque année. Les estimations mises à jour sont publiées lors de l'assemblée
+  <p>Le groupe de la Banque mondiale s'est engagé à mettre à jour les données sur
+  la pauvreté chaque année. Les estimations mises à jour sont publiées lors de l'assemblée
   annuelle de la Banque mondiale, en octobre de chaque année.</p>
 DATA_SOURCE: >-
   <h1>Fournisseurs de données</h1>
 
-  <p>La Banque mondiale reçoit généralement les données directement des ONS. Dans
-  d'autres cas, elle utilise les données des ONS reçues indirectement. Il est possible
+  <p>La Banque mondiale reçoit généralement les données directement des BNS. Dans
+  d'autres cas, elle utilise les données des BNS reçues indirectement. Il est possible
   de consulter la section Sources de données pour plus de détails.</p>
 COMPILING_ORG: |-
   <h1>Compilateur des données</h1>
@@ -241,7 +240,7 @@ IMPUTATION: >-
   <h2>Traitement des valeurs manquantes :</h2>
 
   <ul>
-    <li><strong><em>Au niveau national :</strong></em></li>
+    <li>Au niveau national :</li>
   </ul>
 
   <p>Il n'y a pas d'«imputation» au sens traditionnel du terme pour les données nationales
@@ -253,7 +252,7 @@ IMPUTATION: >-
   la méthode d'imputation.</p>
 
   <ul>
-    <li><strong><em>Aux niveaux régional et mondial :</strong></em></li>
+    <li>Aux niveaux régional et mondial :</li>
   </ul>
 
   <p>Pour comparer les taux de pauvreté entre pays et calculer des agrégats régionaux,
@@ -302,8 +301,8 @@ IMPUTATION: >-
 
   <p>Le ratio agrégé par habitant pour une région est la moyenne pondérée selon la
   population des indices de pauvreté dans les pays de cette région. Le nombre de pauvres
-  dans chaque région est le produit de l&#8217indice de pauvreté de la région et de
-  la population régionale totale. Cela suppose que le taux de pauvreté d'un pays sans
+  dans chaque région est le produit de l'indice de pauvreté de la région et de la
+  population régionale totale. Cela suppose que le taux de pauvreté d'un pays sans
   enquête sur les ménages est égal à la moyenne régionale.</p>
 REG_AGG: >-
   <h2>Agrégats régionaux :</h2>
@@ -324,21 +323,21 @@ COVERAGE: >-
 
   <p><strong> <em>2010 à aujourd'hui </em></strong> </p>
 
-  <p>Asie et Pacifique : 23 (40 si les estimations modélisées sont inclues) ; Afrique :
-  23 (48 si les estimations modélisées sont inclues) ; Amérique latine et Caraïbes :
-  19 (21 si les estimations modélisées sont inclues)</p>
+  <p>Asie et Pacifique : 23 (40 si les estimations modélisées sont incluses) ; Afrique :
+  23 (48 si les estimations modélisées sont incluses) ; Amérique latine et Caraïbes :
+  19 (21 si les estimations modélisées sont incluses)</p>
 
   <p>Europe, Amérique du Nord, Australie, Nouvelle-Zélande et Japon : 17 (25 si les
-  estimations modélisées sont inclues)</p>
+  estimations modélisées sont incluses)</p>
 
   <p><strong> <em>2000-2009 </em></strong> </p>
 
-  <p>Asie et Pacifique : 38 (40 si les estimations modélisées sont inclues) ; Afrique :
-  47 (48 si les estimations modélisées sont inclues) ; Amérique latine et Caraïbes :
-  21 (21 si les estimations modélisées sont inclues)</p>
+  <p>Asie et Pacifique : 38 (40 si les estimations modélisées sont incluses) ; Afrique :
+  47 (48 si les estimations modélisées sont incluses) ; Amérique latine et Caraïbes :
+  21 (21 si les estimations modélisées sont incluses)</p>
 
   <p>Europe, Amérique du Nord, Australie, Nouvelle-Zélande et Japon : 20 (25 si les
-  estimations modélisées sont inclues)</p>
+  estimations modélisées sont incluses)</p>
 
   <h2>Désagrégation :</h2>
 
@@ -358,7 +357,7 @@ OTHER_DOC: >-
 
   <h2>URL :</h2>
 
-  <p><a href="https ://www.banquemondiale.org/">https ://www.banquemondiale.org/</a></p>
+  <p><a href="www.banquemondiale.org/">www.banquemondiale.org/</a></p>
 
   <h2>Références :</h2>
 
