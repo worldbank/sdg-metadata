@@ -330,24 +330,680 @@ REC_USE_LIM: >-
   indicateurs, même si, malheureusement, des étiquettes similaires sont utilisées
   pour les décrire. </p>
 DATA_COMP: >-
-  <p>Les données au niveau individuel ou domestique sont recueillies en appliquant
-  un questionnaire d’échelle de sécurité alimentaire fondé sur l’expérience dans le
-  cadre d’une enquête. Le module d’enquête sur la sécurité alimentaire recueille des
-  réponses aux questions demandant aux répondants de signaler l’apparition de plusieurs
-  expériences et conditions typiques associées à l’insécurité alimentaire. Les données
-  sont analysées à l’aide du modèle Rasch (également connu sous le nom de modèle logistique
-  à un paramètre, 1-PL), qui postule que la probabilité d’observer une réponse affirmative
-  par l’intimé i à la question j, est une fonction logistique de la distance, sur
-  une échelle sous-jacente de gravité, entre la position de l’intimée, <em>a<sub>i</sub></em>
-  et celle de l’article <em>b<sub>j</sub></em>.</p>
+  <p>Les données au niveau individuel ou au niveau du ménage sont recueillies en appliquant
+  un questionnaire d’échelle de sécurité alimentaire fondée sur l’expérience dans
+  le cadre d’une enquête. Le module d’enquête sur la sécurité alimentaire recueille
+  des réponses aux questions demandant aux répondants de signaler l’apparition de
+  plusieurs expériences et conditions typiques associées à l’insécurité alimentaire.
+  Les données sont analysées à l’aide du modèle Rasch (également connu sous le nom
+  de modèle logistique à un paramètre, 1-PL), qui postule que la probabilité d’observer
+  une réponse affirmative par le répondant i à la question j, est une fonction logistique
+  de la distance, sur une échelle sous-jacente de gravité, entre la position du répondant,
+  <em>a<sub>i</sub></em> et celle de l’item <em>b<sub>j</sub></em>.</p>
 
   <p><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAUEAAABLCAMAAADZPMXRAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAIlUExURf////z8/Ozs7Kmpqa6urv7+/snJyaGhoeTk5Pv7+9DQ0IKCgpmZmdzc3Orq6qioqHx8fL29vXNzc/X19fj4+LS0tGdnZ8vLy/n5+Xt7e3R0dOnp6dHR0c7OzvT09GpqavHx8VBQUKurq/39/YyMjM/Pz9LS0lZWVrGxsZeXl05OTtra2ufn5/b29m9vb4aGhujo6GRkZH19fYmJifPz852dnWVlZeDg4NfX18XFxcHBwczMzO7u7r6+vsjIyMfHx+vr67+/v8DAwMbGxubm5lxcXM3NzeHh4e3t7WNjY6SkpMPDw8rKyvf396qqqnJycqenp2ZmZpubm/Ly8pqammFhYYCAgExMTOLi4lVVVZ+fn4iIiFdXV35+flNTU+Xl5Xh4eFtbW9/f393d3VpaWqKiooqKimJiYlRUVISEhE1NTWBgYKampvr6+oODg3Z2dpOTk39/f2xsbLy8vE9PT6ysrLKysnFxcdvb211dXbCwsFhYWJWVlUtLS7a2to2Njbe3t4GBgVFRUdPT04eHh62trZycnKWlpVJSUo+Pj+/v76+vr/Dw8Gtra+Pj49bW1pCQkF9fX3BwcJKSko6OjrOzs3V1dVlZWbq6urW1tdXV1dTU1F5eXp6entnZ2bi4uHd3d21tbYuLi5iYmG5ubpGRkbu7u6CgoEpKSsTExHp6et7e3sLCwoWFhdjY2JSUlGhoaGlpaXl5ebm5uZaWlqOjowAAAF+5RDQAAAC3dFJOU///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////ABGphX4AAAAJcEhZcwAAIdUAACHVAQSctJ0AAAhnSURBVHhe7ZtZkvOsDoazAHaE1kAVlxSXbIwrimWeVxJ4SOLYzvB/pxOedDvYsekgC024L4PBYDAY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"></p>
 
-  <p>Parameters <em>a<sub>i</sub></em> et <em>b<sub>j</sub></em> peuvent être estimés
-  à l’aide de procédures de probabilité maximale. Paramètres <em>a<sub>i</sub></em><sub>
-  </sub>
+  <p>Les paramètres <em>a<sub>i</sub></em> et <em>b<sub>j</sub></em> peuvent être
+  estimés à l’aide de procédures de probabilité maximale. Les paramètres <em>a<sub>i</sub></em><sub>
+  </sub>, en particulier, sont interprétés comme une mesure de gravité de la condition
+  d'insécurité alimentaire pour chaque répondant et ils sont utilisés pour former
+  des classes d'insécurité alimentaire.</p>
+
+  <p>L'échelle de sécurité alimentaire fondée sur l'expérience (FIES) tient compte
+  des trois classes (a) sécurité alimentaire ou insécurité alimentaire légère; (b)
+  insécurité alimentaire modérée ou grave et (c) insécurité alimentaire grave, et
+  estime la probabilité d'être en insécurité alimentaire modérée ou grave (<math xmlns="http://www.w3.org/1998/Math/MathML">
+      <msub>
+        <mrow>
+          <mi>p</mi>
+        </mrow>
+        <mrow>
+          <mi>m</mi>
+          <mi>o</mi>
+          <mi>d</mi>
+          <mo>+</mo>
+          <mi>g</mi>
+          <mi>r</mi>
+          <mi>a</mi>
+          <mi>v</mi>
+          <mi>e</mi>
+        </mrow>
+      </msub>
+    </math>) et la probabilité d'être en insécurité alimentaire grave (<math xmlns="http://www.w3.org/1998/Math/MathML">
+      <msub>
+        <mrow>
+          <mi>p</mi>
+        </mrow>
+        <mrow>
+          <mi>g</mi>
+          <mi>r</mi>
+          <mi>a</mi>
+          <mi>v</mi>
+          <mi>e</mi>
+        </mrow>
+      </msub>
+    </math>) pour chaque répondant, avec <math xmlns="http://www.w3.org/1998/Math/MathML">
+      <mn>0</mn>
+      <mo>&amp;lt;</mo>
+      <msub>
+        <mrow>
+          <mi>p</mi>
+        </mrow>
+        <mrow>
+          <mi>g</mi>
+          <mi>r</mi>
+          <mi>a</mi>
+          <mi>v</mi>
+          <mi>e</mi>
+        </mrow>
+      </msub>
+      <mo>&amp;lt;</mo>
+      <msub>
+        <mrow>
+          <mi>p</mi>
+        </mrow>
+        <mrow>
+          <mi>m</mi>
+          <mi>o</mi>
+          <mi>d</mi>
+          <mo>+</mo>
+          <mi>g</mi>
+          <mi>r</mi>
+          <mi>a</mi>
+          <mi>v</mi>
+          <mi>e</mi>
+        </mrow>
+      </msub>
+      <mo>&amp;lt;</mo>
+      <mn>1</mn>
+    </math>. La probabilité d'être en sécurité alimentaire ou en insécurité alimentaire
+  légère peut être déduite comme étant <math xmlns="http://www.w3.org/1998/Math/MathML">
+      <msub>
+        <mrow>
+          <mi>p</mi>
+        </mrow>
+        <mrow>
+          <mi>s</mi>
+          <mi>a</mi>
+        </mrow>
+      </msub>
+      <mo>=</mo>
+      <mn>1</mn>
+      <mo>-</mo>
+      <msub>
+        <mrow>
+          <mi>p</mi>
+        </mrow>
+        <mrow>
+          <mi>m</mi>
+          <mi>o</mi>
+          <mi>d</mi>
+          <mo>+</mo>
+          <mi>g</mi>
+          <mi>r</mi>
+          <mi>a</mi>
+          <mi>v</mi>
+          <mi>e</mi>
+        </mrow>
+      </msub>
+    </math>.</p>
+  <p>Étant donné un échantillon représentatif, la prévalence d'insécurité alimentaire
+  modérée ou grave (IAmod+grave), et grave (IAgrave) dans la population est calculée
+  comme étant la somme pondérée de la probabilité d'être dans la classe modérée ou
+  grave et dans la classe grave, respectivement, de tous les individus ou répondants
+  des ménages de l'échantillon :</p>
+
+  <p><math xmlns="http://www.w3.org/1998/Math/MathML">
+      <mo>(</mo>
+      <mn>1</mn>
+      <mo>)</mo>
+      <mi>&amp;nbsp;</mi>
+      <mi>&amp;nbsp;</mi>
+      <mi>&amp;nbsp;</mi>
+      <mi>&amp;nbsp;</mi>
+      <mi>&amp;nbsp;</mi>
+      <mi>&amp;nbsp;</mi>
+      <mi>I</mi>
+      <msub>
+        <mrow>
+          <mi>A</mi>
+        </mrow>
+        <mrow>
+          <mi>m</mi>
+          <mi>o</mi>
+          <mi>d</mi>
+          <mo>+</mo>
+          <mi>g</mi>
+          <mi>r</mi>
+          <mi>a</mi>
+          <mi>v</mi>
+          <mi>e</mi>
+        </mrow>
+      </msub>
+      <mo>=</mo>
+      <mi mathvariant="normal">&amp;nbsp;</mi>
+      <mrow>
+        <msub>
+          <mo stretchy="false">&#x2211;</mo>
+          <mrow>
+            <mi>i</mi>
+          </mrow>
+        </msub>
+        <mrow>
+          <msub>
+            <mrow>
+              <msub>
+                <mrow>
+                  <mi>p</mi>
+                </mrow>
+                <mrow>
+                  <mi>i</mi>
+                </mrow>
+              </msub>
+            </mrow>
+            <mrow>
+              <mi>m</mi>
+              <mi>o</mi>
+              <mi>d</mi>
+              <mo>+</mo>
+              <mi>g</mi>
+              <mi>r</mi>
+              <mi>a</mi>
+              <mi>v</mi>
+              <mi>e</mi>
+            </mrow>
+          </msub>
+          <mo>&#xD7;</mo>
+          <msub>
+            <mrow>
+              <mi>w</mi>
+            </mrow>
+            <mrow>
+              <mi>i</mi>
+            </mrow>
+          </msub>
+        </mrow>
+      </mrow>
+    </math></p>
+  <p>et </p>
+
+  <p><math xmlns="http://www.w3.org/1998/Math/MathML">
+      <mo>(</mo>
+      <mn>2</mn>
+      <mo>)</mo>
+      <mi>&amp;nbsp;</mi>
+      <mi>&amp;nbsp;</mi>
+      <mi>&amp;nbsp;</mi>
+      <mi>&amp;nbsp;</mi>
+      <mi>&amp;nbsp;</mi>
+      <mi>&amp;nbsp;</mi>
+      <mi>I</mi>
+      <msub>
+        <mrow>
+          <mi>A</mi>
+        </mrow>
+        <mrow>
+          <mi>g</mi>
+          <mi>r</mi>
+          <mi>a</mi>
+          <mi>v</mi>
+          <mi>e</mi>
+        </mrow>
+      </msub>
+      <mo>=</mo>
+      <mi mathvariant="normal">&amp;nbsp;</mi>
+      <mrow>
+        <msub>
+          <mo stretchy="false">&#x2211;</mo>
+          <mrow>
+            <mi>i</mi>
+          </mrow>
+        </msub>
+        <mrow>
+          <msub>
+            <mrow>
+              <msub>
+                <mrow>
+                  <mi>p</mi>
+                </mrow>
+                <mrow>
+                  <mi>i</mi>
+                </mrow>
+              </msub>
+            </mrow>
+            <mrow>
+              <mi>g</mi>
+              <mi>r</mi>
+              <mi>a</mi>
+              <mi>v</mi>
+              <mi>e</mi>
+            </mrow>
+          </msub>
+          <mo>&#xD7;</mo>
+          <msub>
+            <mrow>
+              <mi>w</mi>
+            </mrow>
+            <mrow>
+              <mi>i</mi>
+            </mrow>
+          </msub>
+        </mrow>
+      </mrow>
+    </math></p>
+  <p>où <math xmlns="http://www.w3.org/1998/Math/MathML">
+      <msub>
+        <mrow>
+          <mi>w</mi>
+        </mrow>
+        <mrow>
+          <mi>i</mi>
+        </mrow>
+      </msub>
+    </math> sont les poids post-stratification qui indiquent la proportion d'individus
+  ou de ménages dans la population nationale représentée par chaque élément dans l'échantillon.</p>
+  <p>Il est important de noter que si <math xmlns="http://www.w3.org/1998/Math/MathML">
+      <msub>
+        <mrow>
+          <mi>w</mi>
+        </mrow>
+        <mrow>
+          <mi>i</mi>
+        </mrow>
+      </msub>
+    </math> sont les poids échantillonnaux d'individus, alors la prévalence d'insécurité
+  alimentaire fait référence à la population totale d'individus, tandis que si ce
+  sont des poids de ménages, la prévalence d'insécurité alimentaire fait référence
+  à la population totale de ménages. Pour le calcul de l'indicateur 2.1.2, l'objectif
+  est de calculer la prévalence d'individus. Ceci suppose que :</p>
+  <p>Si une enquête est au niveau des ménages et qu'on a des poids échantillonnaux
+  de ménages, ils devront être transformés en poids d'individus en les multipliant
+  par la taille du ménage. Ces poids d'individus peuvent ensuite être utilisés pour
+  calculer les taux de prévalence d'individus dans les formules (1) et (2)</p>
+
+  <p>Si l'enquête n'inclut que des adultes, alors les poids d'adultes appliqués aux
+  probabilités dans les formules (1) et (2) donnent les taux de prévalence d'adultes
+  (<math xmlns="http://www.w3.org/1998/Math/MathML">
+      <mi>I</mi>
+      <msup>
+        <mrow>
+          <mi>A</mi>
+        </mrow>
+        <mrow>
+          <mi>A</mi>
+          <mi>d</mi>
+          <mi>u</mi>
+          <mi>l</mi>
+          <mi>t</mi>
+          <mi>e</mi>
+          <mi>s</mi>
+        </mrow>
+      </msup>
+    </math>). Dans ce cas, si on veut calculer la prévalence dans la population totale,
+  alors il faut aussi calculer la proportion d'enfants vivant dans les ménages où
+  il y a au moins un adulte qui est en insécurité alimentaire. Ceci peut être fait
+  en divisant le poids d'adultes par le nombre d'adultes dans le ménage pour ensuite
+  multiplier ce poids ménage approximatif par le nombre d'enfants dans le ménage.
+  Une fois qu'on a les poids d'enfants approximatifs, la prévalence d'insécurité alimentaire
+  d'enfants vivant dans les ménages où il y a au moins un adulte en insécurité alimentaire
+  (<math xmlns="http://www.w3.org/1998/Math/MathML">
+      <mi>I</mi>
+      <msup>
+        <mrow>
+          <mi>A</mi>
+        </mrow>
+        <mrow>
+          <mi>E</mi>
+          <mi>n</mi>
+          <mi>f</mi>
+          <mi>a</mi>
+          <mi>n</mi>
+          <mi>t</mi>
+          <mi>s</mi>
+        </mrow>
+      </msup>
+    </math>) peut être calculée en appliquant ces poids aux probabilités d'insécurité
+  alimentaire dans les formules (1) et (2). La prévalence d'insécurité alimentaire
+  dans la population totale est finalement calculée comme suit :</p>
+  <p><math xmlns="http://www.w3.org/1998/Math/MathML">
+      <mi>I</mi>
+      <msub>
+        <mrow>
+          <mi>A</mi>
+        </mrow>
+        <mrow>
+          <mi>m</mi>
+          <mi>o</mi>
+          <mi>d</mi>
+          <mo>+</mo>
+          <mi>g</mi>
+          <mi>r</mi>
+          <mi>a</mi>
+          <mi>v</mi>
+          <mi>e</mi>
+        </mrow>
+      </msub>
+      <mi mathvariant="normal">&amp;nbsp;</mi>
+      <mo>=</mo>
+      <mi mathvariant="normal">&amp;nbsp;</mi>
+      <mfrac>
+        <mrow>
+          <mi>I</mi>
+          <msubsup>
+            <mrow>
+              <mi>A</mi>
+            </mrow>
+            <mrow>
+              <mi>m</mi>
+              <mi>o</mi>
+              <mi>d</mi>
+              <mo>+</mo>
+              <mi>g</mi>
+              <mi>r</mi>
+              <mi>a</mi>
+              <mi>v</mi>
+              <mi>e</mi>
+            </mrow>
+            <mrow>
+              <mi>A</mi>
+              <mi>d</mi>
+              <mi>u</mi>
+              <mi>l</mi>
+              <mi>t</mi>
+              <mi>e</mi>
+              <mi>s</mi>
+            </mrow>
+          </msubsup>
+          <mi mathvariant="normal">*</mi>
+          <msup>
+            <mrow>
+              <mi>N</mi>
+            </mrow>
+            <mrow>
+              <mi>A</mi>
+              <mi>d</mi>
+              <mi>u</mi>
+              <mi>l</mi>
+              <mi>t</mi>
+              <mi>e</mi>
+              <mi>s</mi>
+            </mrow>
+          </msup>
+          <mo>+</mo>
+          <mi>I</mi>
+          <msubsup>
+            <mrow>
+              <mi>A</mi>
+            </mrow>
+            <mrow>
+              <mi>m</mi>
+              <mi>o</mi>
+              <mi>d</mi>
+              <mo>+</mo>
+              <mi>g</mi>
+              <mi>r</mi>
+              <mi>a</mi>
+              <mi>v</mi>
+              <mi>e</mi>
+            </mrow>
+            <mrow>
+              <mi>E</mi>
+              <mi>n</mi>
+              <mi>f</mi>
+              <mi>a</mi>
+              <mi>n</mi>
+              <mi>t</mi>
+              <mi>s</mi>
+            </mrow>
+          </msubsup>
+          <mi mathvariant="normal">*</mi>
+          <msup>
+            <mrow>
+              <mi>N</mi>
+            </mrow>
+            <mrow>
+              <mi>E</mi>
+              <mi>n</mi>
+              <mi>f</mi>
+              <mi>a</mi>
+              <mi>n</mi>
+              <mi>t</mi>
+              <mi>s</mi>
+            </mrow>
+          </msup>
+        </mrow>
+        <mrow>
+          <msup>
+            <mrow>
+              <mi>N</mi>
+            </mrow>
+            <mrow>
+              <mi>A</mi>
+              <mi>d</mi>
+              <mi>u</mi>
+              <mi>l</mi>
+              <mi>t</mi>
+              <mi>e</mi>
+              <mi>s</mi>
+            </mrow>
+          </msup>
+          <mo>+</mo>
+          <msup>
+            <mrow>
+              <mi>N</mi>
+            </mrow>
+            <mrow>
+              <mi>E</mi>
+              <mi>n</mi>
+              <mi>f</mi>
+              <mi>a</mi>
+              <mi>n</mi>
+              <mi>t</mi>
+              <mi>s</mi>
+            </mrow>
+          </msup>
+        </mrow>
+      </mfrac>
+    </math></p>
+  <p>et </p>
+
+  <p><math xmlns="http://www.w3.org/1998/Math/MathML">
+      <mi>I</mi>
+      <msub>
+        <mrow>
+          <mi>A</mi>
+        </mrow>
+        <mrow>
+          <mi>g</mi>
+          <mi>r</mi>
+          <mi>a</mi>
+          <mi>v</mi>
+          <mi>e</mi>
+        </mrow>
+      </msub>
+      <mi mathvariant="normal">&amp;nbsp;</mi>
+      <mo>=</mo>
+      <mi mathvariant="normal">&amp;nbsp;</mi>
+      <mfrac>
+        <mrow>
+          <mi>I</mi>
+          <msubsup>
+            <mrow>
+              <mi>A</mi>
+            </mrow>
+            <mrow>
+              <mi>g</mi>
+              <mi>r</mi>
+              <mi>a</mi>
+              <mi>v</mi>
+              <mi>e</mi>
+            </mrow>
+            <mrow>
+              <mi>A</mi>
+              <mi>d</mi>
+              <mi>u</mi>
+              <mi>l</mi>
+              <mi>t</mi>
+              <mi>e</mi>
+              <mi>s</mi>
+            </mrow>
+          </msubsup>
+          <mi mathvariant="normal">*</mi>
+          <msup>
+            <mrow>
+              <mi>N</mi>
+            </mrow>
+            <mrow>
+              <mi>A</mi>
+              <mi>d</mi>
+              <mi>u</mi>
+              <mi>l</mi>
+              <mi>t</mi>
+              <mi>e</mi>
+              <mi>s</mi>
+            </mrow>
+          </msup>
+          <mo>+</mo>
+          <mi>I</mi>
+          <msubsup>
+            <mrow>
+              <mi>A</mi>
+            </mrow>
+            <mrow>
+              <mi>g</mi>
+              <mi>r</mi>
+              <mi>a</mi>
+              <mi>v</mi>
+              <mi>e</mi>
+            </mrow>
+            <mrow>
+              <mi>E</mi>
+              <mi>n</mi>
+              <mi>f</mi>
+              <mi>a</mi>
+              <mi>n</mi>
+              <mi>t</mi>
+              <mi>s</mi>
+            </mrow>
+          </msubsup>
+          <mi mathvariant="normal">*</mi>
+          <msup>
+            <mrow>
+              <mi>N</mi>
+            </mrow>
+            <mrow>
+              <mi>E</mi>
+              <mi>n</mi>
+              <mi>f</mi>
+              <mi>a</mi>
+              <mi>n</mi>
+              <mi>t</mi>
+              <mi>s</mi>
+            </mrow>
+          </msup>
+        </mrow>
+        <mrow>
+          <msup>
+            <mrow>
+              <mi>N</mi>
+            </mrow>
+            <mrow>
+              <mi>A</mi>
+              <mi>d</mi>
+              <mi>u</mi>
+              <mi>l</mi>
+              <mi>t</mi>
+              <mi>e</mi>
+              <mi>s</mi>
+            </mrow>
+          </msup>
+          <mo>+</mo>
+          <msup>
+            <mrow>
+              <mi>N</mi>
+            </mrow>
+            <mrow>
+              <mi>E</mi>
+              <mi>n</mi>
+              <mi>f</mi>
+              <mi>a</mi>
+              <mi>n</mi>
+              <mi>t</mi>
+              <mi>s</mi>
+            </mrow>
+          </msup>
+        </mrow>
+      </mfrac>
+    </math></p>
+  <p>Où <math xmlns="http://www.w3.org/1998/Math/MathML">
+      <msup>
+        <mrow>
+          <mi>N</mi>
+        </mrow>
+        <mrow>
+          <mi>A</mi>
+          <mi>d</mi>
+          <mi>u</mi>
+          <mi>l</mi>
+          <mi>t</mi>
+          <mi>e</mi>
+          <mi>s</mi>
+        </mrow>
+      </msup>
+    </math> et <math xmlns="http://www.w3.org/1998/Math/MathML">
+      <msup>
+        <mrow>
+          <mi>N</mi>
+        </mrow>
+        <mrow>
+          <mi>E</mi>
+          <mi>n</mi>
+          <mi>f</mi>
+          <mi>a</mi>
+          <mi>n</mi>
+          <mi>t</mi>
+          <mi>s</mi>
+        </mrow>
+      </msup>
+    </math> représentent les populations d'adultes et d'enfants dans le pays.</p>
+  <p>Quand on l'applique à la population totale du pays, la prévalence d'insécurité
+  alimentaire dans la population totale nous donne le nombre d'individus vivant dans
+  des ménages en insécurité alimentaire (ou dans des ménages où il y a au moins un
+  adulte en insécurité alimentaire) dans un pays, à différents niveau de gravité (<math
+  xmlns="http://www.w3.org/1998/Math/MathML">
+      <msub>
+        <mrow>
+          <mi>N</mi>
+        </mrow>
+        <mrow>
+          <mi>m</mi>
+          <mi>o</mi>
+          <mi>d</mi>
+          <mo>+</mo>
+          <mi>g</mi>
+          <mi>r</mi>
+          <mi>a</mi>
+          <mi>v</mi>
+          <mi>e</mi>
+        </mrow>
+      </msub>
+    </math> et <math xmlns="http://www.w3.org/1998/Math/MathML">
+      <msub>
+        <mrow>
+          <mi>N</mi>
+        </mrow>
+        <mrow>
+          <mi>g</mi>
+          <mi>r</mi>
+          <mi>a</mi>
+          <mi>v</mi>
+          <mi>e</mi>
+        </mrow>
+      </msub>
+    </math>). Dans la base de données, le nombre de personnes en insécurité alimentaire
+  est exprimé en milliers. </p>
 IMPUTATION: >-
   <ul>
     <li>Au niveau national :</li>
