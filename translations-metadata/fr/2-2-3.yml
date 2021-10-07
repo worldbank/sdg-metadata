@@ -242,37 +242,35 @@ REG_AGG: >-
   des moyennes pondérées de la population des pays constitutifs (voir la méthodologie
   pour obtenir des estimations au niveau des pays ci-dessus).</p>
 DOC_METHOD: >-
-  <p><strong>Méthodes et orientations dont disposent les pays pour la compilation
-  des données au niveau national :</strong></p>
-
   <p>Cet indicateur fait partie du Cadre mondial de surveillance de la nutrition (GNMF),
   pour lequel des conseils opérationnels sont proposés aux pays: Orientations opérationnelles
   pour le suivi des progrès accomplis dans la réalisation des objectifs pour 2025,
   disponible sur le site https://apps.who.int/iris/bitstream/handle/10665/272261/9789242513608-fre.pdf
   </a> dans les six langues officielles de l'ONU.</p>
 
-  <p>L'OMS collabore également avec l'UNICEF, les Centers for Disease Control and
-  Prevention des États-Unis et Nutrition International pour mettre à jour un manuel
-  d'enquête sur les micronutriments, qui contient des détails sur la conduite et la
-  communication des résultats des enquêtes nationales sur la nutrition.<sup><a href="#footnote-1"
-  id="footnote-ref-1">[1]</a></sup> </p><div class="footnotes"><div><sup class="footnote-number"
-  id="footnote-1">1</sup><p> <a href="http://mnsurveytoolkit.nutritionintl.org/">http://mnsurveytoolkit.nutritionintl.org/</a>
-  <a href="#footnote-ref-1">&#x2191;</a></p></div></div>
-QUALITY_ASSURE: >-
-  <h2>Assurance de la qualité : </h2>
+  <p>L'OMS en collaboration avec l'UNICEF, les "Centers for Disease Control and Prevention"
+  des États-Unis et "Nutrition International" ont mis à jour un manuel d'enquête sur
+  les micronutriments, qui contient des détails sur la conduite et la communication
+  des résultats des enquêtes nationales sur la nutrition.<sup><a href="#footnote-2"
+  id="footnote-ref-2">[1]</a></sup></p>
 
+  <p> </p><div class="footnotes"><div><sup class="footnote-number" id="footnote-2">1</sup><p>"Centers
+  for Disease Control and Prevention", Organisation mondiale de la santé, Nutrition
+  International, UNICEF. Micronutrient survey manual. Genève: Organisation mondiale
+  de la santé; 2020. Licence: CC BY-NC-SA 3.0 IGO. <a href="#footnote-ref-2">&#x2191;</a></p></div></div>
+QUALITY_ASSURE: >-
   <p>Les données d'enquête fournies dans des publications ou des rapports d'enquête
   évalués par des pairs sont examinées en vue de leur inclusion dans la base de données
-  de l'OMS sur les micronutriments. Les critères d'éligibilité sont les suivants :
-  des détails sur la méthode d'échantillonnage sont fournis ; l'échantillon était
-  représentatif d'au moins le premier niveau administratif (par exemple, état, province,
-  canton, oblast) ; l'échantillon était basé sur la population, sur les ménages ou
-  sur les installations (c'est-à-dire pour les femmes enceintes, les nouveau-nés et
-  les enfants d'âge préscolaire et scolaire) ; l'échantillon était transversal ou
-  constituait l'évaluation de base dans un programme d'intervention ; et l'étude a
-  utilisé des techniques de collecte de données et une méthodologie de laboratoire
-  standard et validées. En cas de préoccupations particulières concernant les données
-  rapportées, on s'efforce d'en discuter avec un représentant du pays.</p>
+  de l'OMS sur les micronutriments. Les critères d'éligibilité pour la base de données
+  sur les micronutriments sont les suivants : des détails sur la méthode d'échantillonnage
+  sont fournis ; l'échantillon était représentatif d'au moins le premier niveau administratif
+  (par exemple, état, province, canton, oblast) ; l'échantillon était basé sur la
+  population, sur les ménages ou sur les installations (c'est-à-dire pour les femmes
+  enceintes, les nouveau-nés et les enfants d'âge préscolaire et scolaire) ; l'échantillon
+  était transversal ou constituait l'évaluation de base dans un programme d'intervention
+  ; et l'étude a utilisé des techniques de collecte de données et une méthodologie
+  de laboratoire standard et validées. En cas de préoccupations particulières concernant
+  les données rapportées, on s'efforce d'en discuter avec un représentant du pays.</p>
 COVERAGE: >-
   <h1>Disponibilité des données </h1>
 
@@ -350,3 +348,8 @@ ADJUSTMENT: <p>Les données sur l'hémoglobine moyenne et la prévalence de l'an
   Stevens et al (2013). Le mélange hiérarchique bayésien ajuste en interne les statistiques
   sommaires calculées avec des seuils d'hémoglobine non standard pour qu'elles correspondent
   aux seuils standard de l'OMS indiqués ci-dessus. </p>
+QUALITY_MGMNT: <p>Toutes les enquêtes incluses dans la base de données passent par
+  les critères d'inclusion décrits ci-dessous. Les données suivent également les cinq
+  principes de l'OMS en matière de données <sup><a href="#footnote-3" id="footnote-ref-3">[2]</a></sup>.
+  </p><div class="footnotes"><div><sup class="footnote-number" id="footnote-3">2</sup><p>
+  Principes de données de l'OMS. https://www.who.int/data/principles <a href="#footnote-ref-3">&#x2191;</a></p></div></div>
