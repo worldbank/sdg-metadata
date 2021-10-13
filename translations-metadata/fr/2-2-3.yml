@@ -20,7 +20,7 @@ SDG_RELATED_INDICATORS: >-
   en 2013 perdra plus de 24 millions de dollars US au cours de leur vie en raison
   de la perte de productivité due à l'AIF.</p>
 
-  De plus, la capacité mentale qui est sous-développée lorsque les enfants présentent
+  <p>De plus, la capacité mentale qui est sous-développée lorsque les enfants présentent
   une carence en fer affecte leurs performances scolaires et leur potentiel de gains
   futurs. Par conséquent, l'anémie infantile est associée à une baisse de 2,5 % des
   salaires à l'âge adulte, ce qui affecte à la fois la productivité et la croissance
@@ -137,8 +137,6 @@ FREQ_COLL: >-
 REL_CAL_POLICY: |-
   <p>Il n'y a pas de date fixe à laquelle la nouvelle série d'estimations de l'anémie sera produite ; cependant, les estimations sont généralement produites à toutes les trois à cinq ans.</p>
 DATA_SOURCE: >-
-  <h1>Fournisseurs de données</h1>
-
   <p>Il existe deux sources principales de données d'enquête pour l'anémie : 1) les
   rapports générés par les pays ou les partenaires de mise en œuvre et 2) les manuscrits
   publiés. Parfois, les États membres, les bureaux régionaux, la communauté internationale
@@ -153,8 +151,8 @@ DATA_SOURCE: >-
   de l'OMS,</li>
     <li>Institutions nationales de recherche et d'enseignement, </li>
     <li>Organisations non gouvernementales, et </li>
-    <li>Organisations du système des <a href="http://www.unsceb.org/directory"><u>Nations
-  Unies. </u></a> </li>
+    <li>Organisations du système des <a href="http://www.unsceb.org/directory">Nations
+  Unies</a>.</li>
   </ul>
 COMPILING_ORG: >-
   <p>L'OMS compile les données qui vont dans la base de données des micronutriments
@@ -216,8 +214,8 @@ DATA_COMP: >-
   de mesure, et l'incertitude liée à la réalisation d'estimations pour les pays et
   les années sans données. </p>
 IMPUTATION: >-
-  <li>Au niveau national :</li>
-
+  <ul>
+    <li>Au niveau national :</li>
   </ul>
 
   <p>Un modèle de mélange hiérarchique bayésien a été utilisé pour estimer les distributions
@@ -279,7 +277,7 @@ COVERAGE: >-
   de la population de 124 pays du monde entier. Les données recueillies entre 1995
   et 2020 ont été utilisées.</p>
 
-  <p></p>
+  <p> </p>
 
   <p><strong>Séries chronologiques :</strong></p>
 
