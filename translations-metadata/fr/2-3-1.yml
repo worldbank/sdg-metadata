@@ -126,3 +126,176 @@ RATIONALE: "<p>Le Programme de développement durable 2030 a souligné l'importa
   \ producteurs a également des répercussions sur la réduction de la pauvreté, car\
   \ les petits producteurs de denrées alimentaires sont souvent pauvres, et on constate\
   \ fréquemment qu'ils sont proches des conditions de subsistance.</p>"
+DATA_COMP: "<p><strong>Méthode de calcul :</strong></p>\n<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"\
+  >\n    <mi mathvariant=\"normal\">O</mi>\n    <mi mathvariant=\"normal\">D</mi>\n\
+  \    <mi mathvariant=\"normal\">D</mi>\n    <mi mathvariant=\"normal\">&amp ;nbsp ;</mi>\n\
+  \    <mn>2</mn>\n    <mo>.</mo>\n    <mn>3</mn>\n    <mo>.</mo>\n    <mn>1</mn>\n\
+  \    <mo>=</mo>\n    <msubsup>\n      <mrow>\n        <mi>I</mi>\n      </mrow>\n\
+  \      <mrow>\n        <mn>2</mn>\n        <mo>.</mo>\n        <mn>3</mn>\n    \
+  \    <mo>.</mo>\n        <mn>1</mn>\n      </mrow>\n      <mrow>\n        <mi>t</mi>\n\
+  \      </mrow>\n    </msubsup>\n    <mo>=</mo>\n    <mrow>\n      <mrow>\n     \
+  \   <mrow>\n          <munderover>\n            <mo stretchy=\"false\">&#x2211 ;</mo>\n\
+  \            <mrow>\n              <mi>j</mi>\n              <mo>=</mo>\n      \
+  \        <mn>1</mn>\n            </mrow>\n            <mrow>\n              <mi>n</mi>\n\
+  \            </mrow>\n          </munderover>\n          <mrow>\n            <mo>(</mo>\n\
+  \            <mfrac>\n              <mrow>\n                <mrow>\n           \
+  \       <munder>\n                    <mo stretchy=\"false\">&#x2211 ;</mo>\n  \
+  \                  <mrow>\n                      <mi>i</mi>\n                  \
+  \  </mrow>\n                  </munder>\n                  <mrow>\n            \
+  \        <msubsup>\n                      <mrow>\n                        <mi>V</mi>\n\
+  \                      </mrow>\n                      <mrow>\n                 \
+  \       <mi>i</mi>\n                        <mi>j</mi>\n                      </mrow>\n\
+  \                      <mrow>\n                        <mi>t</mi>\n            \
+  \          </mrow>\n                    </msubsup>\n                    <msubsup>\n\
+  \                      <mrow>\n                        <mi>p</mi>\n            \
+  \          </mrow>\n                      <mrow>\n                        <mi>i</mi>\n\
+  \                        <mi>j</mi>\n                      </mrow>\n           \
+  \           <mrow>\n                        <mi>t</mi>\n                      </mrow>\n\
+  \                    </msubsup>\n                  </mrow>\n                </mrow>\n\
+  \              </mrow>\n              <mrow>\n                <msubsup>\n      \
+  \            <mrow>\n                    <mi>L</mi>\n                    <mi>d</mi>\n\
+  \                  </mrow>\n                  <mrow>\n                    <mi>j</mi>\n\
+  \                  </mrow>\n                  <mrow>\n                    <mi>t</mi>\n\
+  \                  </mrow>\n                </msubsup>\n              </mrow>\n\
+  \            </mfrac>\n            <mo>)</mo>\n          </mrow>\n        </mrow>\n\
+  \      </mrow>\n      <mo>/</mo>\n      <mrow>\n        <mi>n</mi>\n      </mrow>\n\
+  \    </mrow>\n  </math></p>\n<p>où : </p>\n<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"\
+  >\n    <msubsup>\n      <mrow>\n        <mi>V</mi>\n      </mrow>\n      <mrow>\n\
+  \        <mi>i</mi>\n        <mi>j</mi>\n      </mrow>\n      <mrow>\n        <mi>t</mi>\n\
+  \      </mrow>\n    </msubsup>\n  </math> est le volume physique du produit agricole\
+  \ i vendu par le petit producteur alimentaire j au cours de l'année t ; </p>\n<p><math\
+  \ xmlns=\"http://www.w3.org/1998/Math/MathML\">\n    <msubsup>\n      <mrow>\n \
+  \       <mi>p</mi>\n      </mrow>\n      <mrow>\n        <mi>i</mi>\n        <mi>j</mi>\n\
+  \      </mrow>\n      <mrow>\n        <mi>t</mi>\n      </mrow>\n    </msubsup>\n\
+  \  </math> est le prix de vente constant reçu par le petit producteur alimentaire\
+  \ j au cours de la même année t ; </p>\n<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"\
+  >\n    <msubsup>\n      <mrow>\n        <mi>L</mi>\n        <mi>d</mi>\n      </mrow>\n\
+  \      <mrow>\n        <mi>j</mi>\n      </mrow>\n      <mrow>\n        <mi>t</mi>\n\
+  \      </mrow>\n    </msubsup>\n  </math> est le nombre de jours de travail utilisés\
+  \ par le petit producteur alimentaire j au cours de l'année t ; </p>\n<p><math xmlns=\"\
+  http://www.w3.org/1998/Math/MathML\">\n    <mi>n</mi>\n    <mi mathvariant=\"normal\"\
+  >&amp ;nbsp ;</mi>\n  </math>est le nombre de petits producteurs alimentaires. </p>\n\
+  <p>Comme l'indicateur se réfère à un ensemble d'unités de production, les “petits\
+  \ producteurs”, le dénominateur doit résumer les informations sur l'ensemble de\
+  \ la production entreprise dans chaque unité. Cela exige que les volumes de production\
+  \ soient rapportés dans un numéraire commun, étant donné qu'il est impossible d'additionner\
+  \ les unités physiques. Le numéraire le plus pratique pour agréger les produits\
+  \ au numérateur est un vecteur de prix constants. Lorsqu'elles sont mesurées à différents\
+  \ moments, comme l'exige le suivi des indicateurs des ODD, les variations des valeurs\
+  \ constantes représentent des variations de volume agrégées. </p>"
+ADJUSTMENT: <p>La productivité des petits producteurs alimentaires par jour de travail
+  est l'ensemble de données est en unités monétaires locales (UML (LCU)). Pour chaque
+  pays et chaque année, la valeur de la production en UML doit être convertie en PPA
+  2011 USD. Le processus consiste d'abord à tenir compte de l'inflation dans la monnaie,
+  pour laquelle l'indice des prix à la consommation (IPC) de chaque pays est utilisé
+  ; une fois déflaté, il est converti en PPA 2011 USD, ce qui permet une norme homogène
+  de l'indicateur. L'ODD 2.3 se concentre non seulement sur les petits exploitants
+  agricoles, mais aussi sur les femmes et les personnes ayant un statut autochtone.
+  L'indicateur (qui se situe au niveau du ménage) est ensuite calculé de manière désagrégée
+  par sexe, c'est-à-dire c'est-à-dire si le ménage est dirigé par une femme ou un
+  homme.</p>
+QUALITY_ASSURE: <p>Les microdonnées des enquêtes utilisées dans le calcul sont accessibles
+  au public, de sorte que leur qualité incombe aux producteurs. La qualité du calcul
+  a été vérifiée auprès d'un certain nombre de collègues et de deux examinateurs indépendants
+  du projet RuLIS.</p>
+QUALITY_ASSMNT: "<p>Une évaluation qualitative a été effectuée sur les estimations\
+  \ finales de l’indicateur, qui ont été mises à jour cette année et comparées aux\
+  \ résultats de 2019. Les facteurs de conversion en PPA sont extraits de la Banque\
+  \ mondiale et sont constamment mis à jour, ce qui entraîne une modification des\
+  \ facteurs de conversion et donc une légère modification des résultats de l’indicateur\
+  \ 2.3.1. de 2019 à 2021.</p>\n<p>Certains pays ont des données qui doivent être\
+  \ évaluées encore plus, soit par des contrôles sur les données brutes et / ou le\
+  \ traitement des données par l’équipe du RuLIS.</p>"
+DATA_VALIDATION: "<p>Le système RuLIS vise à produire des données comparables sur\
+  \ les revenus, les moyens d'existence et le développement des zones rurales entre\
+  \ les pays et dans le temps. Les indicateurs des moyens d'existence en milieu rural\
+  \ sont construits à partir de microdonnées d'enquête au niveau des individus, des\
+  \ ménages et des communautés.</p>\n<p>La première étape consiste à nettoyer les\
+  \ données d'enquête originales dans Stata pour obtenir des variables harmonisées.\
+  \ Les ensembles de données originaux, intermédiaires et finaux sont stockés en format\
+  \ Stata et csv dans différents répertoires de projet avec une structure définie,\
+  \ permettant une recherche facile des données par Stata et R. La deuxième étape\
+  \ détecte et traite les valeurs aberrantes pour les variables produites à l'étape\
+  \ 1. À savoir, la meilleure transformation pour chaque variable est trouvée avec\
+  \ des commandes automatisées. Le traitement consiste en une imputation des observations\
+  \ aberrantes détectées à l'étape précédente. Enfin, les ensembles de données imputées\
+  \ sont utilisés pour calculer les indicateurs. </p>\n<p>L'analyse de l'indicateur\
+  \ permet d'évaluer l'avancement de l'ODD 2.3 qui vise à doubler la productivité\
+  \ et les revenus agricoles des petits producteurs d'ici 2030. </p>"
+IMPUTATION: "<ul>\n  <li>Au niveau des pays</li>\n</ul>\n<p>Les variables utilisées\
+  \ dans le calcul sont sujettes à la détection de valeurs aberrantes, par le biais\
+  \ d’écarts absolus médians et d’autres approches, au cas par cas. </p>\n<ul>\n \
+  \ <li>Aux niveaux régional et mondial</li>\n</ul>\n<p> Aucune imputation des données\
+  \ n’est faite aux niveaux régional et mondial. </p>"
+REG_AGG: <p>Aucun agrégat régional ou mondial ne peut être calculé, étant donné la
+  disponibilité limitée des données. </p>
+DOC_METHOD: <p>Les pays peuvent s’appuyer sur le document méthodologique disponible
+  à l’adresse <a href="http://www.fao.org/3/ca3043en/ca3043en.pdf">http://www.fao.org/3/ca3043en/ca3043en.pdf</a>
+  et sur l’apprentissage en ligne disponible à l’adresse <a href="https://elearning.fao.org/course/view.php?id=483">https://elearning.fao.org/course/view.php?id=483</a>.
+  </p>
+QUALITY_MGMNT: <p>Un contrôle logique et arithmétique des données déclarées est effectué.</p>
+COVERAGE: "<p><strong>Disponibilité des données :</strong></p>\n<p>Les données ne\
+  \ sont toujours pas disponibles de manière systématique et harmonisée. Les informations\
+  \ suivantes sur la disponibilité des données sont fournies sur la base des enquêtes\
+  \ appropriées disponibles dans les pays sélectionnés.</p>\n<p>La répartition du\
+  \ nombre de pays couverts par région est la suivante :</p>\n<table>\n  <tbody>\n\
+  \    <tr>\n      <td></td>\n      <td>\n        <p>Nombre de pays</p>\n      </td>\n\
+  \      <td>\n        <p>Nature des données</p>\n      </td>\n    </tr>\n    <tr>\n\
+  \      <td>\n        <p>Monde</p>\n      </td>\n      <td>\n        <p>8</p>\n \
+  \     </td>\n      <td>\n        <p>E</p>\n      </td>\n    </tr>\n    <tr>\n  \
+  \    <td>\n        <p>Afrique</p>\n      </td>\n      <td>\n        <p>7</p>\n \
+  \     </td>\n      <td>\n        <p>E</p>\n      </td>\n    </tr>\n    <tr>\n  \
+  \    <td>\n        <p>Afrique du Nord</p>\n      </td>\n      <td> </td>\n     \
+  \ <td> </td>\n    </tr>\n    <tr>\n      <td>\n        <p>Afrique subsaharienne</p>\n\
+  \      </td>\n      <td> </td>\n      <td> </td>\n    </tr>\n    <tr>\n      <td>\n\
+  \        <p>Afrique de l'Est</p>\n      </td>\n      <td>\n        <p>4</p>\n  \
+  \    </td>\n      <td>\n        <p>E</p>\n      </td>\n    </tr>\n    <tr>\n   \
+  \   <td>\n        <p>Afrique centrale</p>\n      </td>\n      <td></td>\n      <td>\
+  \ </td>\n    </tr>\n    <tr>\n     <td>\n        <p>Afrique du Sud</p>\n      </td>\n\
+  \      <td> </td>\n      <td> </td>\n    </tr>\n    <tr>\n     <td>\n        <p>\
+  \ Afrique occidentale</p>\n      </td>\n      <td>\n        <p>3</p>\n      </td>\n\
+  \      <td>\n        <p>E</p>\n      </td>\n    </tr>\n    <tr>\n      <td>\n  \
+  \      <p>Amériques</p>\n      </td>\n      <td> </td>\n      <td> </td>\n    </tr>\n\
+  \    <tr>\n      <td>\n        <p>Amérique latine et Caraïbes</p>\n      </td>\n\
+  \      <td> </td>\n      <td> </td>\n    </tr>\n    <tr>\n      <td>\n        <p>Caraïbes</p>\n\
+  \      </td>\n      <td> </td>\n      <td></td>\n    </tr>\n    <tr>\n      <td>\n\
+  \        <p>Amérique latine</p>\n      </td>\n      <td> </td>\n      <td></td>\n\
+  \    </tr>\n    <tr>\n      <td>\n        <p>Amérique du Nord</p>\n      </td>\n\
+  \      <td></td>\n      <td></td>\n    </tr>\n    <tr>\n      <td>\n        <p>Asie</p>\n\
+  \      </td>\n      <td>\n        <p>1</p>\n      </td>\n      <td>\n        <p>E</p>\n\
+  \      </td>\n    </tr>\n    <tr>\n      <td>\n        <p>Asie centrale</p>\n  \
+  \    </td>\n      <td></td>\n      <td></td>\n    </tr>\n    <tr>\n      <td>\n\
+  \        <p>Asie orientale</p>\n      </td>\n      <td></td>\n      <td> </td>\n\
+  \    </tr>\n    <tr>\n      <td>\n        <p>Asie du Sud</p>\n      </td>\n    \
+  \  <td>\n        <p>1</p>\n      </td>\n      <td>\n        <p>E</p>\n      </td>\n\
+  \    </tr>\n    <tr>\n      <td>\n        <p>Asie du Sud-Est</p>\n      </td>\n\
+  \      <td> </td>\n      <td> </td>\n    </tr>\n    <tr>\n      <td>\n        <p>Asie\
+  \ occidentale</p>\n      </td>\n      <td> </td>\n      <td> </td>\n    </tr>\n\
+  \    <tr>\n      <td>\n        <p>Europe</p>\n      </td>\n      <td> </td>\n  \
+  \    <td> </td>\n    </tr>\n    <tr>\n      <td>\n        <p>Europe de l'Est</p>\n\
+  \      </td>\n      <td> </td>\n      <td></td>\n    </tr>\n    <tr>\n      <td>\n\
+  \        <p>Europe du Nord</p>\n      </td>\n      <td> </td>\n      <td></td>\n\
+  \    </tr>\n    <tr>\n      <td>\n        <p>Europe du Sud</p>\n      </td>\n  \
+  \    <td> </td>\n      <td> </td>\n    </tr>\n    <tr>\n      <td>\n        <p>Europe\
+  \ de l'Ouest</p>\n      </td>\n      <td> </td>\n      <td></td>\n    </tr>\n  \
+  \  <tr>\n      <td>\n        <p>Océanie</p>\n      </td>\n      <td></td>\n    \
+  \  <td> </td>\n    </tr>\n    <tr>\n      <td>\n        <p>Australie et Nouvelle-Zélande</p>\n\
+  \      </td>\n      <td> </td>\n      <td> </td>\n    </tr>\n    <tr>\n      <td>\n\
+  \        <p>Mélanésie</p>\n      </td>\n      <td> </td>\n      <td> </td>\n   \
+  \ </tr>\n    <tr>\n      <td>\n        <p>Micronésie</p>\n      </td>\n      <td>\
+  \ </td>\n      <td> </td>\n    </tr>\n    <tr>\n      <td>\n        <p>Polynésie</p>\n\
+  \      </td>\n      <td> </td>\n      <td> </td>\n    </tr>\n  </tbody>\n</table>\n\
+  <p><strong>Séries chronologiques :</strong></p>\n<p>D'ici 2030.</p>\n<p><strong>Désagrégation\
+  \ :</strong></p>\n<p>L'indicateur 2.3.1 doit être désagrégé par classes de taille\
+  \ d'entreprise agricole/pastorale/forestière. La cible de l'ODD global 2.3 exige\
+  \ que l'on se concentre spécifiquement sur les femmes, les peuples autochtones,\
+  \ les agriculteurs familiaux, les pasteurs et les pêcheurs. Pour cette raison, l'indicateur\
+  \ doit être ventilé par sexe, par type d'entreprise et par communauté de référence.</p>"
+COMPARABILITY: "<p><strong>Sources de divergences :</strong></p>\n<p>Sans objet.</p>"
+OTHER_DOC: "<ul>\n  <li>Note sur “Méthodologie proposée pour le calcul et le suivi\
+  \ de l’indicateur 2.3.1 et 2.3.2”, Bureau du statisticien en chef et de la Division\
+  \ des statistiques, FAO, Rome </li>\n  <li>“Définir les petits producteurs d’aliments\
+  \ pour surveiller l’objectif 2.3 du Programme de développement durable 2030”. Document\
+  \ de travail de la Division de statistique de la FAO disponible à l’adresse <a href=\"\
+  http://www.fao.org/3/a-i6858e.pdf\">http://www.fao.org/3/a-i6858e.pdf</a> </li>\n\
+  </ul>"
