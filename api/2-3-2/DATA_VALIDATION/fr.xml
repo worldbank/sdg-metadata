@@ -2,5 +2,7 @@
 <root>
 	<status>success</status>
 	<message>The DATA_VALIDATION field for indicator 2-3-2, translated into fr</message>
-	<data/>
+	<data>&lt;p&gt;Le système RuLIS vise à produire des données comparables sur les revenus, les moyens d&apos;existence et le développement des zones rurales entre les pays et dans le temps. Les indicateurs des moyens d&apos;existence en milieu rural sont construits à partir de microdonnées d&apos;enquête au niveau des individus, des ménages et des communautés.&lt;/p&gt;
+&lt;p&gt;La première étape consiste à nettoyer les données d&apos;enquête originales dans Stata pour obtenir des variables harmonisées. Les ensembles de données originaux, intermédiaires et finaux sont stockés en format Stata et csv dans différents répertoires de projet avec une structure définie, permettant une recherche facile des données par Stata et R. La deuxième étape détecte et traite les valeurs aberrantes pour les variables produites à l&apos;étape 1. À savoir, la meilleure transformation pour chaque variable est trouvée avec des commandes automatisées. Le traitement consiste en une imputation des observations aberrantes détectées à l&apos;étape précédente. Enfin, les ensembles de données imputées sont utilisés pour calculer les indicateurs. &lt;/p&gt;
+&lt;p&gt;L&apos;analyse de l&apos;indicateur permet d&apos;évaluer l&apos;avancement de l&apos;ODD 2.3 qui vise à doubler la productivité et les revenus agricoles des petits producteurs d&apos;ici 2030. &lt;/p&gt;</data>
 </root>
