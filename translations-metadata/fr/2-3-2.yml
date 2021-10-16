@@ -40,3 +40,36 @@ REC_USE_LIM: <p>Compte tenu de la méthodologie approuvée, le calcul de l'indic
   il existe un degré considérable de chevauchement entre la population des producteurs
   alimentaires et celle des ménages, il s'agit toujours d'un chevauchement partiel,
   ce qui peut nuire à la précision du calcul. </p>
+DATA_VALIDATION: "<p>Le système RuLIS vise à produire des données comparables sur\
+  \ les revenus, les moyens d'existence et le développement des zones rurales entre\
+  \ les pays et dans le temps. Les indicateurs des moyens d'existence en milieu rural\
+  \ sont construits à partir de microdonnées d'enquête au niveau des individus, des\
+  \ ménages et des communautés.</p>\n<p>La première étape consiste à nettoyer les\
+  \ données d'enquête originales dans Stata pour obtenir des variables harmonisées.\
+  \ Les ensembles de données originaux, intermédiaires et finaux sont stockés en format\
+  \ Stata et csv dans différents répertoires de projet avec une structure définie,\
+  \ permettant une recherche facile des données par Stata et R. La deuxième étape\
+  \ détecte et traite les valeurs aberrantes pour les variables produites à l'étape\
+  \ 1. À savoir, la meilleure transformation pour chaque variable est trouvée avec\
+  \ des commandes automatisées. Le traitement consiste en une imputation des observations\
+  \ aberrantes détectées à l'étape précédente. Enfin, les ensembles de données imputées\
+  \ sont utilisés pour calculer les indicateurs. </p>\n<p>L'analyse de l'indicateur\
+  \ permet d'évaluer l'avancement de l'ODD 2.3 qui vise à doubler la productivité\
+  \ et les revenus agricoles des petits producteurs d'ici 2030. </p>"
+IMPUTATION: "<ul>\n  <li>Au niveau des pays</li>\n</ul>\n<p>Les variables utilisées\
+  \ dans le calcul sont sujettes à la détection de valeurs aberrantes, par le biais\
+  \ d’écarts absolus médians et d’autres approches, au cas par cas. </p>\n<ul>\n \
+  \ <li>Aux niveaux régional et mondial</li>\n</ul>\n<p> Aucune imputation des données\
+  \ n’est faite aux niveaux régional et mondial. </p>"
+REG_AGG: <p>Aucun agrégat régional ou mondial ne peut être calculé, étant donné la
+  disponibilité limitée des données. </p>
+DOC_METHOD: <p>Les pays peuvent s’appuyer sur le document méthodologique disponible
+  à l’adresse <a href="http://www.fao.org/3/ca3043en/ca3043en.pdf">http://www.fao.org/3/ca3043en/ca3043en.pdf</a>
+  et sur l’apprentissage en ligne disponible à l’adresse <a href="https://elearning.fao.org/course/view.php?id=483">https://elearning.fao.org/course/view.php?id=483</a>.
+  </p>
+QUALITY_MGMNT: <p>Un contrôle logique et arithmétique des données déclarées est effectué.</p>
+QUALITY_ASSURE: <p>Les microdonnées des enquêtes utilisées dans le calcul sont accessibles
+  au public, de sorte que leur qualité incombe aux producteurs. La qualité du calcul
+  a été vérifiée auprès d'un certain nombre de collègues et de deux examinateurs indépendants
+  du projet RuLIS.</p>
+COMPARABILITY: "<p><strong>Sources de divergences :</strong></p>\n<p>Sans objet.</p>"
