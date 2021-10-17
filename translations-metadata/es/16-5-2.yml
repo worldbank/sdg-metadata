@@ -31,7 +31,7 @@ STAT_CONC_DEF: "<h1>Conceptos y definiciones</h1>\n<h2><strong><strong>Definici�
   \ indica &#x2018;sí&#x2019;, hay una pregunta de seguimiento en la que se pregunta\
   \ si se esperaba que el encuestado proporcionara un regalo o un pago informal durante\
   \ estas inspecciones/reuniones. Las opciones de respuesta incluyen &#x201C;sí&#x201D;,\
-  \ &#x201C;no&#x201D;, &#x201C;no&#x2019;sabe&#x201D; y &#x201C;se niega&#x201D;.</p>\n\
+  \ &#x201C;no&#x201D;, &#x201C;no sabe&#x201D; y &#x201C;se niega&#x201D;.</p>\n\
   <p>Las encuestas de empresas son encuestas a nivel empresarial realizadas en los\
   \ países clientes del Banco Mundial. La encuesta se centra en varios aspectos del\
   \ entorno empresarial, así como en las medidas de resultados de las empresas, como\
@@ -46,7 +46,7 @@ STAT_CONC_DEF: "<h1>Conceptos y definiciones</h1>\n<h2><strong><strong>Definici�
   file:///C:\\Users\\jenpa\\AppData\\Local\\Temp\\Temp1_Tier%201-Pilot%20Refresh.zip\\\
   Tier%201-Pilot%20Refresh\\www.enterprisesurveys.org\\methodology\">www.enterprisesurveys.org/methodology</a></p>\n\
   <p>Un regalo o un pago informal se considera un &#x2018;soborno&#x2019;.</p>"
-OTHER_DOC: "<h1><u> </u>Referencias</h1>\n<h2><strong><strong>URL:</strong></strong></h2>\n\
+OTHER_DOC: "<h1>Referencias</h1>\n<h2><strong><strong>URL:</strong></strong></h2>\n\
   <p><a href=\"http://www.worldbank.org\">www.worldbank.org</a> </p>\n<h2><strong><strong>Referencias:</strong></strong></h2>\n\
   <ul>\n  <li><a href=\"http://www.enterprisesurveys.org\">www.enterprisesurveys.org</a>\
   \ </li>\n  <li><a href=\"http://www.enterprisesurveys.org/methodology\">www.enterprisesurveys.org/methodology</a>\
@@ -77,7 +77,7 @@ QUALITY_ASSURE: "<h2>Control de calidad:</h2>\n<p>Cuando realizamos nuestros pro
   \ la información. En el caso de un proyecto de encuesta individual, una vez que\
   \ los datos se recogen y se consideran finalizados (tras nuestros propios procesos\
   \ internos de control de calidad), los datos de la encuesta se publican en el sitio\
-  \ web de Enterprise Surveys del Banco Mundial&#x2019;.</p>"
+  \ web de Enterprise Surveys del Banco Mundial.</p>"
 DOC_METHOD: "<h2> Métodos y directrices a disposición de los países para la recopilación\
   \ de los datos a nivel nacional:</h2>\n<p> Recomendamos a los usuarios que consulten\
   \ el sitio web de Enterprise Surveys para conocer la metodología general de la encuesta\
@@ -90,16 +90,16 @@ REG_AGG: "<h2><strong><strong> Agregados regionales:</strong></strong></h2>\n<p>
   \ y globales tal como se presentan en el sitio web de Enterprise Surveys, tenga\
   \ en cuenta que solo se utilizan encuestas publicadas durante los años 2010 en adelante.\
   \ </p>"
-IMPUTATION: "<h2><strong><strong> Tratamiento de los valores faltantes:</strong></strong></h2>\n\
-  <ul>\n  <li> <strong><em> A nivel de país:</em></strong></li>\n</ul>\n<p> El valor\
-  \ del indicador no está imputado para los países que no tienen una encuesta de empresas.\
-  \ </p>\n<ul>\n  <li><strong><em> A nivel regional y mundial:</em></strong></li>\n\
-  </ul>\n<p> Los agregados regionales y globales del indicador se derivan de encuestas\
-  \ completadas. Se crea una única estimación puntual para cada país y un agregado\
-  \ global/regional que toma una media simple de las estimaciones puntuales de cada\
-  \ país&#x2019; (cuando hay datos disponibles para ese país). Por ejemplo, la media\
-  \ (estimación puntual) del indicador para Asia Oriental y el Pacífico no incluye\
-  \ a Japón, ya que no existe una encuesta de empresas para este país.</p>"
+IMPUTATION: "<h2><strong><strong>Tratamiento de valores faltantes:</strong></strong></h2>\n\
+  <h5><strong>A nivel de país:</strong></h5>\n<p>El valor del indicador no se imputa\
+  \ para los países que no disponen de una encuesta de empresas.</p>\n<h5><strong>A\
+  \ nivel regional y mundial:</strong></h5>\n<p>Los agregados regionales y globales\
+  \ del indicador se derivan de las encuestas completadas. Se crea una única estimación\
+  \ puntual para cada país y un agregado global/regional toma una media simple de\
+  \ la estimación puntual de cada país(cuando hay datos disponibles para ese país).\
+  \ Por ejemplo, la media (estimación puntual) del indicador para Asia Oriental y\
+  \ el Pacífico no incluye a Japón, ya que no existe una encuesta de empresas para\
+  \ este país.</p>"
 DATA_COMP: "<h1> Metodología</h1>\n<h2><strong><strong> Método de cálculo:</strong></strong></h2>\n\
   <p> El indicador se calcula para cada país, examinando la proporción de empresas\
   \ que respondieron &#x2018;sí&#x2019; a la pregunta de la encuesta. Para todos los\
@@ -108,26 +108,26 @@ DATA_COMP: "<h1> Metodología</h1>\n<h2><strong><strong> Método de cálculo:</s
   \ que se calcula utilizando Stata, incorpora estas ponderaciones de muestreo, así\
   \ como los estratos de diseño. </p>"
 REC_USE_LIM: "<h2><strong><strong> Comentarios y limitaciones:</strong></strong></h2>\n\
-  <p> La fortaleza clave de la Encuesta de Empresa es que la mayoría de las preguntas\
+  <p> La fortaleza clave de la Encuesta de Empresas es que la mayoría de las preguntas\
   \ de la encuesta se refieren a las experiencias reales del día a día de la empresa;\
   \ esta cuestión relativa a la corrupción durante las inspecciones/reuniones fiscales\
   \ no es una cuestión basada en opiniones, sino más bien una cuestión basada en la\
-  \ realidad de la empresa&#x2019;. </p>\n<p> Las limitaciones incluyen que los datos\
-  \ de algunos países tienen casi 10 años (por ejemplo, Sudáfrica y Brasil). Esto\
-  \ se debe al hecho de que estos proyectos de encuestas presenciales pueden ser costosos\
-  \ en algunos países y, por lo tanto, debido a limitaciones presupuestarias, el Banco\
+  \ realidad de la empresa. </p>\n<p> Las limitaciones incluyen que los datos de algunos\
+  \ países tienen casi 10 años (por ejemplo, Sudáfrica y Brasil). Esto se debe al\
+  \ hecho de que estos proyectos de encuestas presenciales pueden ser costosos en\
+  \ algunos países y, por lo tanto, debido a limitaciones presupuestarias, el Banco\
   \ Mundial no ha podido actualizar algunos de los datos de encuestas de empresas\
   \ en un subconjunto de países. Otra limitación es que las encuestas se realizan\
   \ principalmente en los países clientes del Banco Mundial y, por lo tanto, la mayoría\
   \ de los países de altos ingresos no están cubiertos por las encuestas (Estados\
-  \ Unidos, Canadá, países de Europa occidental, Japón, países del CCG, etc.). </p>\n\
-  <p> Otra limitación puede ser la naturaleza sensible de la corrupción. En algunos\
-  \ países/culturas, es posible que las empresas no se sientan cómodas respondiendo\
-  \ preguntas sobre corrupción. Aunque los datos se recopilan en el contexto de la\
-  \ confidencialidad, las empresas pueden negarse a responder a la pregunta si han\
-  \ sido objeto de solicitudes de soborno. Por lo tanto, en algunos países, la incidencia\
-  \ real de este tipo particular de corrupción puede ser mayor que el valor calculado\
-  \ del indicador. </p>"
+  \ Unidos, Canadá, países de Europa occidental, Japón, países del CCG (Gulf Cooperation\
+  \ Council, por sus siglas en inglés), etc.). </p>\n<p> Otra limitación puede ser\
+  \ la naturaleza sensible de la corrupción. En algunos países/culturas, es posible\
+  \ que las empresas no se sientan cómodas respondiendo preguntas sobre corrupción.\
+  \ Aunque los datos se recopilan en el contexto de la confidencialidad, las empresas\
+  \ pueden negarse a responder a la pregunta si han sido objeto de solicitudes de\
+  \ soborno. Por lo tanto, en algunos países, la incidencia real de este tipo particular\
+  \ de corrupción puede ser mayor que el valor calculado del indicador. </p>"
 RATIONALE: "<h2> <strong> <strong> Justificación: </strong> </strong> </h2>\n<p> La\
   \ justificación de este indicador es determinar si se solicita a las empresas obsequios\
   \ o pagos informales (es decir, sobornos) cuando se reúnen con funcionarios fiscales.\
@@ -137,7 +137,7 @@ RATIONALE: "<h2> <strong> <strong> Justificación: </strong> </strong> </h2>\n<p
   \ mayoría de las preguntas de la encuesta pertenecen a las experiencias reales del\
   \ día a día de la empresa; esta cuestión relativa a la corrupción durante las inspecciones\
   \ / reuniones fiscales no es una cuestión de opinión, sino más bien una cuestión\
-  \ basada en la realidad de la empresa &#x2019;. </p>"
+  \ basada en la realidad de la empresa. </p>"
 COMPILING_ORG: "<h1>Compiladores de datos</h1>\n<h2><strong><strong>Nombre:</strong></strong></h2>\n\
   <p>Banco Mundial</p>"
 DATA_SOURCE: "<h1> Proveedores de datos</h1>\n<p> El indicador se deriva de encuestas\
@@ -158,6 +158,6 @@ SOURCE_TYPE: "<h1>Fuentes de datos</h1>\n<h2><strong><strong>Descripción:</stro
   \ de ejecución de todas las encuestas de empresas. Los informes de implementación\
   \ indican el tamaño de la muestra, el marco muestral utilizado, las fechas/duración\
   \ del trabajo de campo, los índices de respuesta, etc.</p>\n<p>El registro en el\
-  \ sitio web de la Encuesta de Empresa&#x2019;es gratuito y el portal de datos del\
-  \ sitio web&#x2019;permite a los usuarios acceder a los datos brutos y a la documentación\
-  \ de la encuesta para cada encuesta.</p>"
+  \ sitio web de la Encuesta de Empresas es gratuito y el portal de datos del sitio\
+  \ web permite a los usuarios acceder a los datos brutos y a la documentación de\
+  \ la encuesta para cada encuesta.</p>"
