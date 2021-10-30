@@ -50,7 +50,7 @@ COVERAGE: "<h1>Disponibilidad de datos</h1>\n<h2>Descripción:</h2>\n<p><strong>
   \ de los parámetros del indicador están disponibles para 2008, 2010, 2012 y 2014.\
   \ </p>\n<h2>Fuentes de discrepancia:</h2>\n<p>Este indicador será generado por los\
   \ países, por lo que no se esperan diferencias en las cifras globales y nacionales.</p>"
-QUALITY_ASSURE: "<h2>Garantía de calidad:</h2>\n<p>Una vez recibida, la presentación\
+QUALITY_ASSURE: "<h2>Aseguramiento de la calidad:</h2>\n<p>Una vez recibida, la presentación\
   \ del país se somete a un exhaustivo proceso de validación de los datos, que suele\
   \ ser un proceso iterativo que requiere comunicación y retroalimentación con los\
   \ homólogos regionales y nacionales. La calidad de la presentación también se evalúa\
@@ -97,7 +97,7 @@ REG_AGG: "<h2>Agregados regionales:</h2>\n<p>Para los agregados globales y regio
 IMPUTATION: "<h2>Tratamiento de valores faltantes:</h2>\n<ul>\n  <li><strong><em>A\
   \ nivel de país:</em></strong></li>\n</ul>\n<p>Debido a la naturaleza altamente\
   \ específica del país y del contexto del indicador, no se producen estimaciones\
-  \ para los países a los que les faltan datos</p>\n<ul>\n  <li><strong><em>A nivel\
+  \ para los países a los que les faltan datos.</p>\n<ul>\n  <li><strong><em>A nivel\
   \ regional y mundial:</em></strong></li>\n</ul>\n<p>Mecanismo operativo por el cual\
   \ los individuos y las comunidades pueden contribuir significativamente a la gestión\
   \ del agua y el saneamiento, entonces el país será excluido de las estimaciones\
@@ -145,12 +145,12 @@ COMPILING_ORG: "<h1>Compiladores de datos</h1>\n<h2>Nombre:</h2>\n<p>OMS, OCDE y
 DATA_SOURCE: "<h1>Proveedores de datos</h1>\n<h2>Descripción:</h2>\n<p>Ministerios\
   \ con responsabilidades relacionadas con el suministro de agua y el saneamiento,\
   \ la agricultura, el desarrollo y la gestión de los recursos hídricos y el medio\
-  \ ambiente</p>"
+  \ ambiente.</p>"
 REL_CAL_POLICY: "<h2>Publicación de datos:</h2>\n<p>Q1 2017 </p>"
 FREQ_COLL: "<h1>Calendario</h1>\n<h2>Recopilación de datos:</h2>\n<p>La actual ronda\
   \ de Análisis y Evaluación Global de Saneamiento y Agua Potable (GLAAS) de ONU-Agua\
-  \ se ha puesto en marcha y los datos estarán disponibles a finales de 2016. (De\
-  \ año calendario a año calendario)</p>"
+  \ se ha puesto en marcha y los datos estarán disponibles a finales de 2016 (De año\
+  \ calendario a año calendario).</p>"
 COLL_METHOD: "<h2>Proceso de recolección:</h2>\n<p>Los gobiernos nacionales que participan\
   \ en la encuesta GLAAS rellenan el cuestionario, preferiblemente con el apoyo de\
   \ una revisión de múltiples partes interesadas. Aunque un ministerio dirige el proceso\
