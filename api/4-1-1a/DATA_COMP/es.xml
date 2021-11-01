@@ -4,12 +4,12 @@
 	<message>The DATA_COMP field for indicator 4-1-1a, translated into es</message>
 	<data>&lt;h1&gt;Metodología&lt;/h1&gt;
 &lt;h2&gt;Método de cálculo:&lt;/h2&gt;
-&lt;p&gt;El número de niños y/o jóvenes de la etapa educativa n en el año t que alcanzan o superan el nivel de competencia predefinido en la asignatura s, expresado como porcentaje del número de niños y/o jóvenes de la etapa educativa n, en el año t, en cualquier nivel de competencia en la asignatura s.&lt;/p&gt;
+&lt;p&gt;El número de niños y/o jóvenes de la etapa educativa n en el año t que alcanzan o superan el nivel de competencia predefinido en la asignatura s, expresado como porcentaje del número de niños y/o jóvenes de la etapa educativa n, en el año t, en cualquier nivel de competencia en la asignaturas.&lt;/p&gt;
 &lt;p&gt;MPL&lt;sub&gt;t,n,s,&lt;/sub&gt; = MP&lt;sub&gt;t,n,s&lt;/sub&gt; / P&lt;sub&gt;t,n&lt;/sub&gt;&lt;/p&gt;
 &lt;p&gt;donde: &lt;/p&gt;
-&lt;p&gt;MP&lt;sub&gt;t,n,s&lt;/sub&gt; = el número de niños y jóvenes de la etapa educativa n, en el año t, que han alcanzado o superado el nivel mínimo de competencia en la materia s. &lt;/p&gt;
-&lt;p&gt;P&lt;sub&gt;t,n &lt;/sub&gt;= el número de niños y jóvenes de la etapa educativa n, en el año t, en cualquier nivel de competencia en la materia s.&lt;/p&gt;
-&lt;p&gt;n = la etapa educativa que se evaluó&lt;/p&gt;
+&lt;p&gt;MP&lt;sub&gt;t,n,s&lt;/sub&gt; = el número de niños y jóvenes de la etapa educativa n, en el año t, que han alcanzado o superado el nivel mínimo de competencia en la materias. &lt;/p&gt;
+&lt;p&gt;P&lt;sub&gt;t,n &lt;/sub&gt;= el número de niños y jóvenes de la etapa educativa n, en el año t, en cualquier nivel de competencia en la materias.&lt;/p&gt;
+&lt;p&gt;n = la etapa educativa que se evaluó.&lt;/p&gt;
 &lt;p&gt;s = la materia evaluada (lectura o matemáticas).&lt;/p&gt;
 &lt;h2&gt;Armonizar diversas fuentes de datos&lt;/h2&gt;
 &lt;p&gt;Para hacer frente a los retos que plantea la limitada capacidad de algunos países para llevar a cabo evaluaciones transnacionales, regionales y nacionales, el IEU y sus socios han tomado medidas. Las estrategias se utilizan según su nivel de precisión y siguiendo un &lt;a href=&quot;http://gaml.uis.unesco.org/wp-content/uploads/sites/2/2019/05/GAML6-WD-2-Protocol-for-reporting-4.1.1_v1.pdf&quot;&gt;protocolo de información&lt;/a&gt; que incluye las evaluaciones nacionales en circunstancias específicas. &lt;/p&gt;
