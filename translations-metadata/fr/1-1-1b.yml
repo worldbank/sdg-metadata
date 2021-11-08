@@ -8,7 +8,7 @@ SDG_INDICATOR: >-
   pauvreté fixé au niveau international, par sexe, âge, situation dans l’emploi et
   lieu de résidence (zone urbaine/zone rurale)</p>
 META_LAST_UPDATE: '<p> Janvier 2021 </p>'
-SDG_RELATED_INDICATORS: <h1>1.3.1, 8.2.1, 8.3.1, 8.5.1, 10.4.1</h1>
+SDG_RELATED_INDICATORS: <p>1.3.1, 8.2.1, 8.3.1, 8.5.1, 10.4.1</p>
 SDG_CUSTODIAN_AGENCIES: |-
   <p>Organisation internationale du travail (OIT)</p>
 STAT_CONC_DEF: >-
@@ -20,7 +20,7 @@ STAT_CONC_DEF: >-
   consommation ou le revenu par habitant est inférieur au seuil de pauvreté international
   de 1,90 $ américain par jour.</p>
 
-  <h2>Concepts :</h2>
+  <p><strong>Concepts :</strong></p>
 
   <p>Emploi : Toutes les personnes en âge de travailler qui, pendant une courte période
   de référence (une semaine), ont exercé une activité quelconque de production de
@@ -71,13 +71,13 @@ COLL_METHOD: "<p> </p>\n<p> L'OIT traite les ensembles de microdonnées des enqu
   \ statisticiens du travail. </p>"
 FREQ_COLL: |-
   <p>Continu</p>
-REL_CAL_POLICY: <p> Les données nationales sont mises à jour chaque semaine sur ILOSTAT.
+REL_CAL_POLICY: <p>Les données nationales sont mises à jour chaque semaine sur ILOSTAT.
   Les estimations mondiales et régionales sont mises à jour une fois par an (en novembre
   ou en décembre). </p>
 DATA_SOURCE: |-
-  <p>Principalement les Instituts nationaux de statistiques.</p>
+  <p>Principalement les Bureaux nationaux de statistique.</p>
 COMPILING_ORG: |-
-  <p> OIT</p>
+  <p>OIT</p>
 RATIONALE: >-
   <p>Pour éradiquer la pauvreté, nous devons en comprendre les causes profondes. </p>
 
@@ -175,8 +175,8 @@ INST_MANDATE: <p>L'OIT est le point focal des Nations Unies pour les statistique
   des ensembles de données comparables au niveau international, et fournit une assistance
   technique et une formation aux états membres de l'OIT afin de soutenir leurs efforts
   pour produire des données sur le marché du travail de haute qualité. </p>
-UNIT_MEASURE: Pourcentage
-CONTACT_ORGANISATION: OIT
+UNIT_MEASURE: <p>Pourcentage</p>
+CONTACT_ORGANISATION: <p>OIT</p>
 DATA_COMP: "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\">\n    <mi mathvariant=\"\
   normal\">T</mi>\n    <mi mathvariant=\"normal\">a</mi>\n    <mi mathvariant=\"normal\"\
   >u</mi>\n    <mi mathvariant=\"normal\">x</mi>\n    <mi mathvariant=\"normal\">&amp;nbsp;</mi>\n\
