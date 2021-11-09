@@ -457,13 +457,13 @@
   &lt;li&gt;exploitent un certain nombre de têtes de bétail se situant dans les deux premiers quintiles (les 40 % inférieurs) de la répartition cumulative du nombre de têtes de bétail par unité de production au niveau national (mesuré en unités de bétail tropical – UBT); et qui &lt;/li&gt;
   &lt;li&gt;obtiennent un revenu économique annuel provenant des activités agricoles se situant dans les deux premiers quintiles (les 40 % inférieurs) de la distribution cumulative des revenus économiques provenant des activités agricoles par unité de production au niveau national (mesuré en dollars de parité de pouvoir d’achat) ne dépassant pas 34 387 dollars de parité de pouvoir d’achat. &lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt; &lt;strong&gt;Concepts&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt; &lt;strong&gt;Concepts :&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;Les concepts suivants sont adoptés pour le calcul des indicateurs 2.3.1 :&lt;/li&gt;
   &lt;li&gt;Les petits producteurs d’aliments sont définis comme ceux qui se trouvent dans l’intersection des 40 % inférieurs de la distribution cumulative des terres, du bétail et des revenus. &lt;/li&gt;
   &lt;li&gt;Les unités de bétail tropical sont une échelle de conversion utilisée pour la normalisation et la mesure du nombre de têtes de bétail. Une UBT est l’équivalent en poids métabolique d’un bovin en Amérique du Nord. La liste complète des facteurs de conversion se trouve dans les Lignes directrices pour la préparation des examens du secteur de l’élevage &lt;/li&gt;
   &lt;li&gt;Le concept de productivité est normalisé par le Manuel de mesure de la productivité de l’OCDE. Cela définit la productivité comme “un rapport entre une mesure en volume des extrants et une mesure en volume de l’utilisation des intrants”. Vous trouverez de plus amples renseignements sur les définitions possibles dans “Mesure de la productivité et de l’efficacité en agriculture : revue de la littérature et analyse des lacunes”. &lt;/li&gt;
-&lt;/ul&gt;&lt;p&gt;Niveau II&lt;/p&gt;&lt;p&gt;Étant donné que l’indicateur 2.3.1 est mesuré à partir d&apos;une population cible de producteurs – considérés comme de petits producteurs –, la source de données idéale pour les mesurer est une enquête unique qui recueille toutes les informations requises en référence aux unités de production individuelles. La source de données la plus appropriée pour la collecte d’informations sur le volume total de la production agricole et sur la main-d’œuvre adoptée dans l’exploitation agricole serait les enquêtes agricoles. D’autres possibilités à explorer en l’absence d’enquêtes agricoles sont les suivantes : &lt;/p&gt;
+&lt;/ul&gt;&lt;p&gt;Valeur de la production par jour de travail des petits producteurs alimentaires en USD 2011 PPA constante.&lt;/p&gt;&lt;p&gt;Niveau II&lt;/p&gt;&lt;p&gt;Étant donné que l’indicateur 2.3.1 est mesuré à partir d&apos;une population cible de producteurs – considérés comme de petits producteurs –, la source de données idéale pour les mesurer est une enquête unique qui recueille toutes les informations requises en référence aux unités de production individuelles. La source de données la plus appropriée pour la collecte d’informations sur le volume total de la production agricole et sur la main-d’œuvre adoptée dans l’exploitation agricole serait les enquêtes agricoles. D’autres possibilités à explorer en l’absence d’enquêtes agricoles sont les suivantes : &lt;/p&gt;
 &lt;ol&gt;
   &lt;li&gt;enquêtes auprès des ménages intégrées à un module agricole, &lt;/li&gt;
   &lt;li&gt;recensements agricoles, &lt;/li&gt;
@@ -478,7 +478,7 @@
     &lt;mi mathvariant=&quot;normal&quot;&gt;O&lt;/mi&gt;
     &lt;mi mathvariant=&quot;normal&quot;&gt;D&lt;/mi&gt;
     &lt;mi mathvariant=&quot;normal&quot;&gt;D&lt;/mi&gt;
-    &lt;mi mathvariant=&quot;normal&quot;&gt;&amp;amp ;nbsp ;&lt;/mi&gt;
+    &lt;mi mathvariant=&quot;normal&quot;&gt;&amp;amp;nbsp;&lt;/mi&gt;
     &lt;mn&gt;2&lt;/mn&gt;
     &lt;mo&gt;.&lt;/mo&gt;
     &lt;mn&gt;3&lt;/mn&gt;
@@ -505,7 +505,7 @@
       &lt;mrow&gt;
         &lt;mrow&gt;
           &lt;munderover&gt;
-            &lt;mo stretchy=&quot;false&quot;&gt;&amp;#x2211 ;&lt;/mo&gt;
+            &lt;mo stretchy=&quot;false&quot;&gt;&amp;#x2211;&lt;/mo&gt;
             &lt;mrow&gt;
               &lt;mi&gt;j&lt;/mi&gt;
               &lt;mo&gt;=&lt;/mo&gt;
@@ -521,7 +521,7 @@
               &lt;mrow&gt;
                 &lt;mrow&gt;
                   &lt;munder&gt;
-                    &lt;mo stretchy=&quot;false&quot;&gt;&amp;#x2211 ;&lt;/mo&gt;
+                    &lt;mo stretchy=&quot;false&quot;&gt;&amp;#x2211;&lt;/mo&gt;
                     &lt;mrow&gt;
                       &lt;mi&gt;i&lt;/mi&gt;
                     &lt;/mrow&gt;
@@ -593,7 +593,7 @@
         &lt;mi&gt;t&lt;/mi&gt;
       &lt;/mrow&gt;
     &lt;/msubsup&gt;
-  &lt;/math&gt; est le volume physique du produit agricole i vendu par le petit producteur alimentaire j au cours de l&apos;année t ; &lt;/p&gt;
+  &lt;/math&gt; est le volume physique du produit agricole i vendu par le petit producteur alimentaire j au cours de l&apos;année t; &lt;/p&gt;
 &lt;p&gt;&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;
     &lt;msubsup&gt;
       &lt;mrow&gt;
@@ -607,7 +607,7 @@
         &lt;mi&gt;t&lt;/mi&gt;
       &lt;/mrow&gt;
     &lt;/msubsup&gt;
-  &lt;/math&gt; est le prix de vente constant reçu par le petit producteur alimentaire j au cours de la même année t ; &lt;/p&gt;
+  &lt;/math&gt; est le prix de vente constant reçu par le petit producteur alimentaire j au cours de la même année t; &lt;/p&gt;
 &lt;p&gt;&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;
     &lt;msubsup&gt;
       &lt;mrow&gt;
@@ -621,10 +621,10 @@
         &lt;mi&gt;t&lt;/mi&gt;
       &lt;/mrow&gt;
     &lt;/msubsup&gt;
-  &lt;/math&gt; est le nombre de jours de travail utilisés par le petit producteur alimentaire j au cours de l&apos;année t ; &lt;/p&gt;
+  &lt;/math&gt; est le nombre de jours de travail utilisés par le petit producteur alimentaire j au cours de l&apos;année t; &lt;/p&gt;
 &lt;p&gt;&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;
     &lt;mi&gt;n&lt;/mi&gt;
-    &lt;mi mathvariant=&quot;normal&quot;&gt;&amp;amp ;nbsp ;&lt;/mi&gt;
+    &lt;mi mathvariant=&quot;normal&quot;&gt;&amp;amp;nbsp;&lt;/mi&gt;
   &lt;/math&gt;est le nombre de petits producteurs alimentaires. &lt;/p&gt;
 &lt;p&gt;Comme l&apos;indicateur se réfère à un ensemble d&apos;unités de production, les “petits producteurs”, le dénominateur doit résumer les informations sur l&apos;ensemble de la production entreprise dans chaque unité. Cela exige que les volumes de production soient rapportés dans un numéraire commun, étant donné qu&apos;il est impossible d&apos;additionner les unités physiques. Le numéraire le plus pratique pour agréger les produits au numérateur est un vecteur de prix constants. Lorsqu&apos;elles sont mesurées à différents moments, comme l&apos;exige le suivi des indicateurs des ODD, les variations des valeurs constantes représentent des variations de volume agrégées. &lt;/p&gt;&lt;p&gt;Le système RuLIS vise à produire des données comparables sur les revenus, les moyens d&apos;existence et le développement des zones rurales entre les pays et dans le temps. Les indicateurs des moyens d&apos;existence en milieu rural sont construits à partir de microdonnées d&apos;enquête au niveau des individus, des ménages et des communautés.&lt;/p&gt;
 &lt;p&gt;La première étape consiste à nettoyer les données d&apos;enquête originales dans Stata pour obtenir des variables harmonisées. Les ensembles de données originaux, intermédiaires et finaux sont stockés en format Stata et csv dans différents répertoires de projet avec une structure définie, permettant une recherche facile des données par Stata et R. La deuxième étape détecte et traite les valeurs aberrantes pour les variables produites à l&apos;étape 1. À savoir, la meilleure transformation pour chaque variable est trouvée avec des commandes automatisées. Le traitement consiste en une imputation des observations aberrantes détectées à l&apos;étape précédente. Enfin, les ensembles de données imputées sont utilisés pour calculer les indicateurs. &lt;/p&gt;
