@@ -79,13 +79,13 @@ STAT_CONC_DEF: "<p> <strong>Définition :</strong></p>\n<p>Volume de la producti
   \ deux premiers quintiles (les 40 % inférieurs) de la distribution cumulative des\
   \ revenus économiques provenant des activités agricoles par unité de production\
   \ au niveau national (mesuré en dollars de parité de pouvoir d’achat) ne dépassant\
-  \ pas 34 387 dollars de parité de pouvoir d’achat. </li>\n</ul>\n<p> <strong>Concepts</strong></p>\n\
-  <ul>\n  <li>Les concepts suivants sont adoptés pour le calcul des indicateurs 2.3.1\
-  \ :</li>\n  <li>Les petits producteurs d’aliments sont définis comme ceux qui se\
-  \ trouvent dans l’intersection des 40 % inférieurs de la distribution cumulative\
-  \ des terres, du bétail et des revenus. </li>\n  <li>Les unités de bétail tropical\
-  \ sont une échelle de conversion utilisée pour la normalisation et la mesure du\
-  \ nombre de têtes de bétail. Une UBT est l’équivalent en poids métabolique d’un\
+  \ pas 34 387 dollars de parité de pouvoir d’achat. </li>\n</ul>\n<p> <strong>Concepts\
+  \ :</strong></p>\n<ul>\n  <li>Les concepts suivants sont adoptés pour le calcul\
+  \ des indicateurs 2.3.1 :</li>\n  <li>Les petits producteurs d’aliments sont définis\
+  \ comme ceux qui se trouvent dans l’intersection des 40 % inférieurs de la distribution\
+  \ cumulative des terres, du bétail et des revenus. </li>\n  <li>Les unités de bétail\
+  \ tropical sont une échelle de conversion utilisée pour la normalisation et la mesure\
+  \ du nombre de têtes de bétail. Une UBT est l’équivalent en poids métabolique d’un\
   \ bovin en Amérique du Nord. La liste complète des facteurs de conversion se trouve\
   \ dans les Lignes directrices pour la préparation des examens du secteur de l’élevage\
   \ </li>\n  <li>Le concept de productivité est normalisé par le Manuel de mesure\
@@ -128,21 +128,21 @@ RATIONALE: "<p>Le Programme de développement durable 2030 a souligné l'importa
   \ fréquemment qu'ils sont proches des conditions de subsistance.</p>"
 DATA_COMP: "<p><strong>Méthode de calcul :</strong></p>\n<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"\
   >\n    <mi mathvariant=\"normal\">O</mi>\n    <mi mathvariant=\"normal\">D</mi>\n\
-  \    <mi mathvariant=\"normal\">D</mi>\n    <mi mathvariant=\"normal\">&amp ;nbsp ;</mi>\n\
+  \    <mi mathvariant=\"normal\">D</mi>\n    <mi mathvariant=\"normal\">&amp;nbsp;</mi>\n\
   \    <mn>2</mn>\n    <mo>.</mo>\n    <mn>3</mn>\n    <mo>.</mo>\n    <mn>1</mn>\n\
   \    <mo>=</mo>\n    <msubsup>\n      <mrow>\n        <mi>I</mi>\n      </mrow>\n\
   \      <mrow>\n        <mn>2</mn>\n        <mo>.</mo>\n        <mn>3</mn>\n    \
   \    <mo>.</mo>\n        <mn>1</mn>\n      </mrow>\n      <mrow>\n        <mi>t</mi>\n\
   \      </mrow>\n    </msubsup>\n    <mo>=</mo>\n    <mrow>\n      <mrow>\n     \
-  \   <mrow>\n          <munderover>\n            <mo stretchy=\"false\">&#x2211 ;</mo>\n\
+  \   <mrow>\n          <munderover>\n            <mo stretchy=\"false\">&#x2211;</mo>\n\
   \            <mrow>\n              <mi>j</mi>\n              <mo>=</mo>\n      \
   \        <mn>1</mn>\n            </mrow>\n            <mrow>\n              <mi>n</mi>\n\
   \            </mrow>\n          </munderover>\n          <mrow>\n            <mo>(</mo>\n\
   \            <mfrac>\n              <mrow>\n                <mrow>\n           \
-  \       <munder>\n                    <mo stretchy=\"false\">&#x2211 ;</mo>\n  \
-  \                  <mrow>\n                      <mi>i</mi>\n                  \
-  \  </mrow>\n                  </munder>\n                  <mrow>\n            \
-  \        <msubsup>\n                      <mrow>\n                        <mi>V</mi>\n\
+  \       <munder>\n                    <mo stretchy=\"false\">&#x2211;</mo>\n   \
+  \                 <mrow>\n                      <mi>i</mi>\n                   \
+  \ </mrow>\n                  </munder>\n                  <mrow>\n             \
+  \       <msubsup>\n                      <mrow>\n                        <mi>V</mi>\n\
   \                      </mrow>\n                      <mrow>\n                 \
   \       <mi>i</mi>\n                        <mi>j</mi>\n                      </mrow>\n\
   \                      <mrow>\n                        <mi>t</mi>\n            \
@@ -163,18 +163,18 @@ DATA_COMP: "<p><strong>Méthode de calcul :</strong></p>\n<p><math xmlns=\"htt
   >\n    <msubsup>\n      <mrow>\n        <mi>V</mi>\n      </mrow>\n      <mrow>\n\
   \        <mi>i</mi>\n        <mi>j</mi>\n      </mrow>\n      <mrow>\n        <mi>t</mi>\n\
   \      </mrow>\n    </msubsup>\n  </math> est le volume physique du produit agricole\
-  \ i vendu par le petit producteur alimentaire j au cours de l'année t ; </p>\n<p><math\
+  \ i vendu par le petit producteur alimentaire j au cours de l'année t; </p>\n<p><math\
   \ xmlns=\"http://www.w3.org/1998/Math/MathML\">\n    <msubsup>\n      <mrow>\n \
   \       <mi>p</mi>\n      </mrow>\n      <mrow>\n        <mi>i</mi>\n        <mi>j</mi>\n\
   \      </mrow>\n      <mrow>\n        <mi>t</mi>\n      </mrow>\n    </msubsup>\n\
   \  </math> est le prix de vente constant reçu par le petit producteur alimentaire\
-  \ j au cours de la même année t ; </p>\n<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"\
+  \ j au cours de la même année t; </p>\n<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"\
   >\n    <msubsup>\n      <mrow>\n        <mi>L</mi>\n        <mi>d</mi>\n      </mrow>\n\
   \      <mrow>\n        <mi>j</mi>\n      </mrow>\n      <mrow>\n        <mi>t</mi>\n\
   \      </mrow>\n    </msubsup>\n  </math> est le nombre de jours de travail utilisés\
-  \ par le petit producteur alimentaire j au cours de l'année t ; </p>\n<p><math xmlns=\"\
+  \ par le petit producteur alimentaire j au cours de l'année t; </p>\n<p><math xmlns=\"\
   http://www.w3.org/1998/Math/MathML\">\n    <mi>n</mi>\n    <mi mathvariant=\"normal\"\
-  >&amp ;nbsp ;</mi>\n  </math>est le nombre de petits producteurs alimentaires. </p>\n\
+  >&amp;nbsp;</mi>\n  </math>est le nombre de petits producteurs alimentaires. </p>\n\
   <p>Comme l'indicateur se réfère à un ensemble d'unités de production, les “petits\
   \ producteurs”, le dénominateur doit résumer les informations sur l'ensemble de\
   \ la production entreprise dans chaque unité. Cela exige que les volumes de production\
@@ -299,3 +299,5 @@ OTHER_DOC: "<ul>\n  <li>Note sur “Méthodologie proposée pour le calcul et le
   \ de travail de la Division de statistique de la FAO disponible à l’adresse <a href=\"\
   http://www.fao.org/3/a-i6858e.pdf\">http://www.fao.org/3/a-i6858e.pdf</a> </li>\n\
   </ul>"
+UNIT_MEASURE: <p>Valeur de la production par jour de travail des petits producteurs
+  alimentaires en USD 2011 PPA constante.</p>
