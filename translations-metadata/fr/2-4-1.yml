@@ -255,3 +255,754 @@ COMPILING_ORG: <p>Les bureaux nationaux de statistique ou les bureaux désignés
   effectuera le contrôle de la qualité et diffusera l’information par l’intermédiaire
   de FAOSTAT. La FAO fera à son tour rapport à la communauté statistique internationale
   et à la DSNU. </p>
+COVERAGE: "<p>Disponibilité des données :</p>\n<p>De nombreux sous-indicateurs de\
+  \ cet indicateur sont déjà recueillis dans les pays, soit dans le cadre d’enquêtes\
+  \ agricoles existantes, soit par le biais d’autres sources de données telles que\
+  \ les systèmes de surveillance de l’environnement, les données administratives ou\
+  \ les enquêtes auprès des ménages. Pourtant, ils ne sont pas recueillis avec un\
+  \ ensemble commun de critères qui répondent aux exigences de l’indicateur, garantissant\
+  \ la même qualité ou le respect de la comparabilité internationale. </p>\n<h2>Séries\
+  \ chronologiques :</h2>\n<p>L’indicateur 2.4.1 des ODD mesure les progrès vers une\
+  \ agriculture plus durable et productive sur une périodicité de trois ans, car pour\
+  \ de nombreux sous-indicateurs, il est probable que les changements seront relativement\
+  \ limités d’une année à l’autre. En outre, la périodicité sur 3 ans permettra aux\
+  \ pays d’avoir trois points de données sur l’indicateur avant 2030. </p>\n<p>Désagrégation\
+  \ :</p>\n<p>L’indicateur 2.4.1 devrait être recueilli au moyen d’enquêtes agricoles\
+  \ et le résultat devrait être exprimé en valeur nationale. Cependant, la méthodologie\
+  \ est indépendante de l’échelle et peut être adoptée à n’importe quel niveau géographique.\
+  \ En outre, l’indicateur peut être ventilé en fonction du type de système agricole\
+  \ (culture, bétail ou mixte) et d’autres caractéristiques de l’exploitation, par\
+  \ exemple le secteur des ménages/non-ménages, irrigué/non irrigué ou le sexe de\
+  \ l’exploitant. </p>"
+IMPUTATION: "<p>La non-réponse partielle au niveau individuel (exploitation agricole)\
+  \ sera imputée à l'aide de techniques statistiques appropriées, telles que les algorithmes\
+  \ du plus proche voisin. La décision d'imputer ou non et le choix de la méthode\
+  \ sont fonction de la nature de la variable à imputer et de la quantité et du type\
+  \ de données disponibles pour l'imputation, telles que la disponibilité de données\
+  \ auxiliaires provenant de différentes sources (par ex. enquêtes, informations administratives).\
+  \ </p>\n<p>Il est important de distinguer clairement les données manquantes des\
+  \ événements non applicables. Comme précisé ci-dessus et dans les fiches méthodologiques\
+  \ des sous-indicateurs, certains sous-indicateurs peuvent être enregistrés comme\
+  \ « sans objet » pour une exploitation donnée. Dans ce cas, l'exploitation sera\
+  \ considérée comme durable du point de vue des sous-indicateurs donnés.</p>\n<p>&#x2022;\
+  \ Au niveau du pays</p>\n<p>&#x2022; Aux niveaux régional et mondial</p>"
+DATA_COMP: "<p>Les étapes de calcul de l'ODD 2.4.1 incluent :</p>\n<ol>\n  <li>Déterminer\
+  \ la <strong>portée </strong>de l'indicateur : la portée de l'indicateur 2.4.1 est\
+  \ l'exploitation agricole, et plus précisément la superficie agricole de l'exploitation,\
+  \ c'est-à-dire les terres utilisées principalement pour les cultures et élever du\
+  \ bétail. Les activités de foresterie, de pêche et d'aquaculture peuvent être incluses\
+  \ dans la mesure où il s'agit d'activités secondaires menées sur la surface agricole\
+  \ de l'exploitation, par exemple la rizipisciculture et les systèmes similaires.</li>\n\
+  \  <li>Déterminer les <strong>dimensions </strong>à couvrir : l'indicateur 2.4.1\
+  \ inclut les dimensions environnementales, économiques et sociales dans l'évaluation\
+  \ de la durabilité. </li>\n  <li>Choisir <strong>l'échelle </strong>pour l'évaluation\
+  \ de la durabilité : l'indicateur 2.4.1 est au niveau de l'exploitation avec une\
+  \ agrégation à des niveaux supérieurs.</li>\n  <li>Choisir le ou les <strong>instruments\
+  \ </strong>de collecte de données. Il est recommandé que les données de l'indicateur\
+  \ 2.4.1 soient recueillies via une enquête agricole.</li>\n  <li>Choisir les <strong>thèmes\
+  \ </strong>au sein de chaque dimension, et choisir un <strong>sous-indicateur </strong>pour\
+  \ chaque thème. Les sous-indicateurs doivent satisfaire à un certain nombre de critères\
+  \ (décrits à l'annexe 1 pour chaque sous-indicateur, respectivement).</li>\n  <li>Évaluer\
+  \ la <strong>performance de durabilité au niveau de l'exploitation pour chaque sous-indicateur</strong> :\
+  \ des <strong>critères </strong>de durabilité spécifiques sont appliqués afin d'évaluer\
+  \ le niveau de durabilité de l'exploitation pour chaque thème en fonction des sous-indicateurs.\
+  \ </li>\n  <li>Décider de la <strong>périodicité de suivi de l'indicateur</strong>.\
+  \ Il est recommandé que la collecte soit au moins tous les trois ans.</li>\n  <li><strong>Modalité\
+  \ de déclaration de l'indicateur</strong>. L'ensemble des sous-indicateurs est présenté\
+  \ sous la forme d'un <strong>tableau de bord</strong>. L'approche du tableau de\
+  \ bord offre une réponse en termes de mesure de la durabilité au niveau de l'exploitation\
+  \ et de son agrégation au niveau national. </li>\n</ol>\n<p> La méthodologie propose\
+  \ de rendre compte de l'indicateur 2.4.1 à travers un tableau de bord au niveau\
+  \ national, présentant les différents sous-indicateurs ensemble mais de façon indépendante.\
+  \ L'approche du tableau de bord offre plusieurs avantages, notamment la possibilité\
+  \ de combiner des données provenant de différentes sources et l'identification des\
+  \ problèmes critiques de durabilité, facilitant la recherche d'un équilibre entre\
+  \ les trois dimensions de la durabilité. En conséquence, les pays peuvent facilement\
+  \ visualiser leurs performances en termes de différentes dimensions et thèmes de\
+  \ durabilité, et comprendre où les efforts politiques peuvent être concentrés pour\
+  \ des améliorations futures.</p>\n<p>Le calcul des résultats et la construction\
+  \ du tableau de bord sont effectués pour chaque sous-indicateur séparément en utilisant\
+  \ l'approche du « feu de circultation » déjà définie pour chaque sous-indicateur\
+  \ : l'agrégation au niveau national est effectuée pour chaque sous-indicateur indépendamment\
+  \ , en additionnant la superficie des terres agricoles de chaque exploitation agricole\
+  \ par catégorie de durabilité (rouge, jaune ou vert) et en rapportant le total national\
+  \ résultant en pourcentage de la superficie nationale totale des terres agricoles\
+  \ de toutes les exploitations agricoles du pays. En pratique, la valeur déclarée\
+  \ de l'indicateur 2.4.1 est déterminée par les résultats du sous-indicateur le plus\
+  \ limitatif en termes de performance de durabilité.</p>"
+DOC_METHOD: "<p>La note méthodologique fournit une description détaillée du calcul\
+  \ de l'indicateur sur la base de l'enquête agricole.</p>\n<p> Les valeurs pour déclarer\
+  \ l'indicateur 2.4.1 peuvent être calculées comme suit :</p>\n<p><math xmlns=\"\
+  http://www.w3.org/1998/Math/MathML\">\n    <msub>\n      <mrow>\n        <mi>S</mi>\n\
+  \        <mi>D</mi>\n        <mi>G</mi>\n        <mn>241</mn>\n      </mrow>\n \
+  \     <mrow>\n        <mi>d</mi>\n      </mrow>\n    </msub>\n    <mo>=</mo>\n \
+  \   <mrow>\n      <mrow>\n        <munder>\n          <mrow>\n            <mi mathvariant=\"\
+  normal\">min</mi>\n          </mrow>\n          <mrow>\n            <mi>n</mi>\n\
+  \            <mo>:</mo>\n            <mn>1</mn>\n            <mo>-</mo>\n      \
+  \      <mn>11</mn>\n          </mrow>\n        </munder>\n      </mrow>\n      <mo>&#x2061;</mo>\n\
+  \      <mrow>\n        <mo>(</mo>\n        <msub>\n          <mrow>\n          \
+  \  <mi>S</mi>\n            <mi>I</mi>\n          </mrow>\n          <mrow>\n   \
+  \         <mi>d</mi>\n            <mi>&amp;nbsp;</mi>\n            <mi>n</mi>\n\
+  \          </mrow>\n        </msub>\n        <mo>)</mo>\n      </mrow>\n    </mrow>\n\
+  \  </math></p>\n<p>où :</p>\n<p>SDG241<sub>d </sub>= proportion de la superficie\
+  \ des terres agricoles qui a atteint le niveau « désiré »</p>\nSI<sub>d n </sub>=\
+  \ proportion du sous-indicateur n qui est classée dans le niveau « désiré »</p>\n\
+  <p>min fait référence au niveau minimum des SI<sub>d n</sub> au niveau national\
+  \ pour l'ensemble des 11 sous-indicateurs</p>\n<p>SDG241<sub>d </sub>est la proportion\
+  \ de la superficie des terres agricoles pour laquelle tous les sous-indicateurs\
+  \ sont verts.</p>\n<p> </p>\n<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"\
+  >\n    <msub>\n      <mrow>\n        <mi>S</mi>\n        <mi>D</mi>\n        <mi>G</mi>\n\
+  \        <mn>241</mn>\n      </mrow>\n      <mrow>\n        <mi>a</mi>\n       \
+  \ <mo>+</mo>\n        <mi>d</mi>\n      </mrow>\n    </msub>\n    <mo>=</mo>\n \
+  \   <mrow>\n      <mrow>\n        <munder>\n          <mrow>\n            <mi mathvariant=\"\
+  normal\">min</mi>\n          </mrow>\n          <mrow>\n            <mi>n</mi>\n\
+  \            <mo>:</mo>\n            <mn>1</mn>\n            <mo>-</mo>\n      \
+  \      <mn>11</mn>\n          </mrow>\n        </munder>\n      </mrow>\n      <mo>&#x2061;</mo>\n\
+  \      <mrow>\n        <msub>\n          <mrow>\n            <msub>\n          \
+  \    <mrow>\n                <mo>(</mo>\n                <mi>S</mi>\n          \
+  \      <mi>I</mi>\n              </mrow>\n              <mrow>\n               \
+  \ <mi>d</mi>\n              </mrow>\n            </msub>\n            <mo>+</mo>\n\
+  \            <msub>\n              <mrow>\n                <mi>S</mi>\n        \
+  \        <mi>I</mi>\n              </mrow>\n              <mrow>\n             \
+  \   <mi>a</mi>\n              </mrow>\n            </msub>\n            <mo>)</mo>\n\
+  \          </mrow>\n          <mrow>\n            <mi>n</mi>\n          </mrow>\n\
+  \        </msub>\n      </mrow>\n    </mrow>\n  </math></p>\n<p>où :</p>\n<p>SDG241<sub>a+d\
+  \ </sub>= proportion de la superficie des terres agricoles qui a atteint le niveau\
+  \ « désiré » (estimée par excès, voir la note plus bas)</p>\n<p>SI<sub>d n </sub>=\
+  \ proportion du sous-indicateur n qui est classée dans le niveau « désiré »</p>\n\
+  <p>SI<sub>a n </sub>= proportion du sous-indicateur n qui est classée dans le niveau\
+  \ « acceptable »</p>\n<p>min fait référence au niveau minimum de (SI<sub>d n </sub>+\
+  \ SI<sub>a n</sub>) au niveau national pour l'ensemble des 11 sous-indicateurs</p>\n\
+  <p>SDG241<sub>a+d </sub>est la proportion de la superficie des terres agricoles\
+  \ pour laquelle tous les sous-indicateurs sont verts ou jaunes, une situation acceptable\
+  \ mais qui pourrait être améliorée. </p>\n<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"\
+  >\n    <msub>\n      <mrow>\n        <mi>S</mi>\n        <mi>D</mi>\n        <mi>G</mi>\n\
+  \        <mn>241</mn>\n      </mrow>\n      <mrow>\n        <mi>u</mi>\n      </mrow>\n\
+  \    </msub>\n    <mo>=</mo>\n    <mn>1</mn>\n    <mo>-</mo>\n    <mi>S</mi>\n \
+  \   <msub>\n      <mrow>\n        <mi>D</mi>\n        <mi>G</mi>\n        <mn>241</mn>\n\
+  \      </mrow>\n      <mrow>\n        <mi>a</mi>\n        <mo>+</mo>\n        <mi>d</mi>\n\
+  \      </mrow>\n    </msub>\n    <mo>=</mo>\n    <mrow>\n      <mrow>\n        <munder>\n\
+  \          <mrow>\n            <mi mathvariant=\"normal\">max</mi>\n          </mrow>\n\
+  \          <mrow>\n            <mi>n</mi>\n            <mo>:</mo>\n            <mn>1</mn>\n\
+  \            <mo>-</mo>\n            <mn>11</mn>\n          </mrow>\n        </munder>\n\
+  \      </mrow>\n      <mo>&#x2061;</mo>\n      <mrow>\n        <mo>(</mo>\n    \
+  \    <msub>\n          <mrow>\n            <mi>S</mi>\n            <mi>I</mi>\n\
+  \          </mrow>\n          <mrow>\n            <mi>u</mi>\n            <mi>&amp;nbsp;</mi>\n\
+  \            <mi>n</mi>\n          </mrow>\n        </msub>\n        <mo>)</mo>\n\
+  \      </mrow>\n    </mrow>\n  </math></p>\n<p>where:</p>\n<p>SDG241<sub>u </sub>=\
+  \ proportion estimée par défaut de la superficie des terres agricoles qui est «\
+  \ non durable » (voir la note plus bas)</p>\n<p>SI<sub>u n </sub>= proportion du\
+  \ sous-indicateur n qui est classée « non durable »</p>\n<p>max fait référence à\
+  \ la valeur maximale des SI<sub>u n</sub> pour l'ensemble des 11 sous-indicateurs,\
+  \ au niveau national</p>\n<p>SDG241<sub>u </sub> est la proportion de la superficie\
+  \ des terres agricoles pour laquelle au moins un des sous-indicateurs est non durable,\
+  \ et est par conséquent classée non durable. </p>\n<p>Les performances des pays\
+  \ dans le temps peuvent être mesurées par l'évolution de la valeur de SDG241<sub>d\
+  \ </sub>et de SDG241<sub>a+d</sub>. Une augmentation dans le temps indique une amélioraiton\
+  \ tandis qu'une diminution indique une détérioration. </p>"
+DATA_VALIDATION: '<p>Les données font l’objet d’un travail de validation complet qui
+  couvre : la détection des valeurs aberrantes, les erreurs de transmission et les
+  contrôles de cohérence des données. On invite les pays à examiner les résultats
+  diffusés pour leur pays et soit à confirmer qu’ils sont corrects, soit à fournir
+  des remarques et / ou à réviser les données s’ils identifient des erreurs. </p>'
+ADJUSTMENT: <p>Des ajustements à la superficie agricole nationale totale peuvent être
+  effectués pour corriger les zones communes qui sont hors de portée en ce qui concerne
+  la méthodologie de l'indicateur.</p>
+REG_AGG: <p>Ces données seront diffusées par l’intermédiaire de FAOSTAT, la plus grande
+  base de données de statistiques alimentaires et agricoles. Par conséquent, la méthode
+  de calcul suivra la norme internationale établie par la base de données. Dans le
+  cas de cet indicateur, les agrégats régionaux et mondiaux seront calculés en pondérant
+  les indicateurs nationaux en fonction de la superficie agricole du pays.</p>
+QUALITY_ASSURE: <p>La FAO travaillera en étroite collaboration avec les pays pour
+  l’assurance de la qualité. Non seulement la collecte de données pour l’ODD 2.4.1
+  respectera les normes internationales, mais elle respectera également le cadre d’assurance
+  de la qualité des données de la FAO « Statistics Quality Assurance Framework » (<a
+  href="http://www.fao.org/statistics/standards/en/">http://www.fao.org/statistics/standards/en/</a>).
+  </p>
+QUALITY_ASSMNT: <p>Une évaluation qualitative de la qualité globale des produits statistiques
+  est fournie dans les rapports réguliers en résumant les principaux points forts
+  et les éventuelles lacunes en matière de qualité des données des pays, par sous-indicateur.
+  </p>
+COMPARABILITY: "<p><strong>Sources des divergences :</strong></p>\n<p>Étant donné\
+  \ qu’il s’agit d’un indicateur de niveau II, il n’existe actuellement aucune donnée\
+  \ pour cet indicateur. Il n’y a donc pas de divergence entre les données nationales\
+  \ et infranationales.</p>"
+OTHER_DOC: "<ul>\n  <li> FAO. 1988. Rapport du Conseil de la FAO, 94e session, 1988.\
+  \ Rome. </li>\n  <li>FAO. 2014. Building a common vision for sustainable food and\
+  \ agriculture: Principles and approaches, FAO Rome.</li>\n  <li> FAO. 2017. Rapport\
+  \ de la réunion du groupe d’experts sur l’indicateur 2.4.1 des ODD. Avril 2017.\
+  \ </li>\n  <li>FAO, 2018. Classification de l’utilisation des terres. Dans : SEEA\
+  \ Agriculture, Forestry and Fisheries, Annex I, pg. 120, 130-135. FAO et DSNU, Rome,\
+  \ Italie.</li>\n  <li>FAO. 2018. Rapport de la 26<sup>e</sup> Commission de l’agriculture,\
+  \ 1-5 octobre 2018.</li>\n  <li>Global Strategy for Improving Agricultural and Rural\
+  \ Statistics. 2017. Handbook on the Agricultural Integrated Survey. </li>\n  <li>FAO\
+  \ 2020: SDG 2.4,1, note méthodologique. Juillet 2020.</li>\n  <li>Hayati, D. 2017.\
+  \ Literature Review: A Literature Review on Frameworks and Methods for Measuring\
+  \ and Monitoring Sustainable Agriculture. Technical Report n.22. Global Strategy\
+  \ Technical Report: Rome.</li>\n</ul>\n<p>Annexe : description des sous-indicateurs</p>\n\
+  <h3>1. Valeur de la production agricole par hectare</h3>\n<p><strong>Dimension :\
+  \ </strong>Économique</p>\n<p><strong>Thème : </strong>Productivité des terres</p>\n\
+  <p>La productivité des terres est une mesure de la valeur agricole des productions\
+  \ obtenues sur une superficie donnée. Le maintien ou l’amélioration de la production\
+  \ au fil du temps par rapport à la superficie des terres utilisées est un aspect\
+  \ important de la durabilité pour diverses raisons. Au niveau de l’exploitation,\
+  \ la productivité des terres reflète la technologie et les processus de production\
+  \ pour des conditions agro-écologiques données. Dans un sens plus large, une augmentation\
+  \ du niveau de productivité des terres permet une production plus élevée tout en\
+  \ réduisant la pression sur les ressources foncières de plus en plus rares, généralement\
+  \ liées à la déforestation et aux pertes associées de services écosystémiques et\
+  \ de biodiversité.</p>\n<p><strong>Couverture : </strong>tous les types d'exploitations</p>\n\
+  <p><strong>Description : </strong></p>\n<p>Le sous-indicateur est décrit comme la\
+  \ valeur de la production agricole par hectare (exploitations qui produisent des\
+  \ cultures et du bétail ou un mélange). Les informations sur les extrants des exploitations\
+  \ et les superficies agricoles devraient être des informations standard disponibles\
+  \ dans les enquêtes agricoles, fournissant ainsi une bonne base d’évaluation au\
+  \ niveau des exploitations. </p>\n<ul>\n  <li>Valeur de la production agricole :\
+  \ le volume de la production agricole au niveau de l’exploitation tient généralement\
+  \ compte de la production de plusieurs produits, par exemple les types de cultures\
+  \ et les combinaisons de cultures et de bétail, etc. Étant donné que le volume des\
+  \ productions agricoles n’est pas mesuré en unités proportionnelles (par exemple,\
+  \ toutes les productions ne sont pas mesurées en tonnes et les tonnes de productions\
+  \ différentes représentent des produits différents), il est nécessaire d’établir\
+  \ un moyen approprié d’agrégation, dans ce cas à l’aide d’une unité monétaire. Un\
+  \ moyen simple de permettre l’agrégation consiste à refléter les multiples extrants\
+  \ produits par une même exploitation en termes de valeurs (c’est-à-dire la quantité\
+  \ multipliée par les prix). </li>\n  <li>Superficie des terres agricoles : définie\
+  \ comme la superficie des terres utilisées pour l’agriculture au sein de la ferme<sup><a\
+  \ href=\"#footnote-4\" id=\"footnote-ref-4\">[2]</a></sup>. </li>\n</ul>\n<p><strong>Critères\
+  \ de durabilité : </strong></p>\n<p>Distance par rapport au 90<sup>e</sup> centile\
+  \ de la distribution nationale<sup><a href=\"#footnote-5\" id=\"footnote-ref-5\"\
+  >[3]</a></sup> :</p>\n<ul>\n  <li>Vert (souhaitable) : la valeur du sous-indicateur\
+  \ est &#x2265; 2/3 du 90<sup>e</sup> centile correspondant</li>\n  <li>Jaune (acceptable)\
+  \ : la valeur du sous-indicateur est &#x2265; 1/3 et &lt; 2/3 du 90<sup>e</sup>\
+  \ centile correspondant</li>\n  <li>Rouge (non durable) : la valeur du sous-indicateur\
+  \ est &lt; 1/3 du 90<sup>e</sup> centile correspondant</li>\n</ul>\n<p><strong>Éléments\
+  \ de données</strong></p>\n<p>Période de référence : dernière année civile</p>\n\
+  <ul>\n  <li>\n    <ol>\n      <li>Quantités et prix à la ferme (ou valeur de la\
+  \ production) des 5 principales cultures et/ou produits animaux et sous-produits\
+  \ produits par l’exploitation</li>\n      <li>Quantités et prix à la ferme (ou valeur\
+  \ de la production) d’autres produits agricoles (produits agroforestiers ou aquacoles,\
+  \ etc.) produits par l’exploitation</li>\n      <li>Superficie des terres agricoles\
+  \ de l’exploitation</li>\n    </ol>\n  </li>\n</ul>\n<h3>2. Revenu agricole net</h3>\n\
+  <p><strong>Dimension :</strong> Économique<strong> </strong></p>\n<p> <strong>Thème\
+  \ :</strong> Rentabilité</p>\n<p>Une partie importante de la durabilité de l’agriculture\
+  \ est la viabilité économique de l’exploitation, tirée dans une large mesure par\
+  \ sa rentabilité. La rentabilité est mesurée à l’aide du revenu net que l’agriculteur\
+  \ est en mesure de tirer des opérations agricoles. La disponibilité et l’utilisation\
+  \ de l’information sur la performance économique des exploitations agricoles, mesurée\
+  \ à l’aide de la rentabilité, favoriseront une meilleure prise de décision tant\
+  \ au niveau microéconomique que macro-économique. Étant donné que les mesures du\
+  \ rendement déterminent le comportement, une meilleure information sur le rendement\
+  \ peut modifier le comportement et la prise de décisions du gouvernement et des\
+  \ producteurs, tant dans l'agriculture commerciale à grande échelle que dans l'agriculture\
+  \ de subsistance à petite et moyenne échelle.</li>\n<p><strong>Couverture : </strong>tous\
+  \ les types d'exploitations</p>\n<p><strong>Description : </strong></p>\n<p>Le sous-indicateur\
+  \ mesure si l'exploitation est constamment rentable sur une période de trois ans.\
+  \ Ce sous-indicateur se concentre sur le revenu des opérations agricoles plutôt\
+  \ que sur le revenu total du ménage agricole, qui peut inclure d'autres sources\
+  \ de revenus comme, par exemple, l'emploi d'autres membres de la famille dans des\
+  \ entreprises locales, le tourisme, etc.</p>\n<p>Formule<sup><a href=\"#footnote-6\"\
+  \ id=\"footnote-ref-6\">[4]</a></sup>:</p>\n<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"\
+  >\n    <mi>N</mi>\n    <mi>F</mi>\n    <mi>I</mi>\n    <mo>=</mo>\n    <mi>&amp;nbsp;</mi>\n\
+  \    <mi>C</mi>\n    <mi>R</mi>\n    <mo>+</mo>\n    <msub>\n      <mrow>\n    \
+  \    <mi>Y</mi>\n      </mrow>\n      <mrow>\n        <mi>k</mi>\n      </mrow>\n\
+  \    </msub>\n    <mo>-</mo>\n    <mi>O</mi>\n    <mi>E</mi>\n    <mo>-</mo>\n \
+  \   <mi>D</mi>\n    <mi>e</mi>\n    <mi>p</mi>\n    <mo>+</mo>\n    <mi>&amp;nbsp;</mi>\n\
+  \    <mi>V</mi>\n    <mi>I</mi>\n    <mi>C</mi>\n  </math></p>\n<p>où :</p>\n<ul>\n\
+  \  <li>NFI = Revenu agricole net</li>\n  <li>CR = Recettes monétaires agricoles\
+  \ totales, y compris les paiements directs de programmes</li>\n  <li>Y<sub>k</sub>\
+  \ = Revenu en nature</li>\n  <li>OE = Dépenses totales d'exploitation après remises\
+  \ (y compris les coûts de la main-d'œuvre)</li>\n  <li>Dep = Amortissements</li>\n\
+  \  <li>VIC = Valeur de la variation des stocks\n</ul>\n<p>Définitions :</p>\n<ul>\n\
+  \  <li>Le revenu agricole net désigne la rémunération (monétaire et non monétaire)\
+  \ des exploitants agricoles pour leur travail, leur gestion et leur capital, après\
+  \ paiement de toutes les dépenses de production (c'est-à-dire le revenu agricole\
+  \ brut moins les dépenses de production). Il comprend le revenu net de la production\
+  \ agricole, la valeur des produits consommés sur l'exploitation, la dépréciation\
+  \ et les variations de stocks.</li>\n  <li>Le revenu agricole brut désigne les revenus\
+  \ monétaires et non monétaires perçus par l'exploitation. Ses principales composantes\
+  \ comprennent les recettes monétaires provenant de la vente de produits agricoles,\
+  \ les paiements directs de programmes aux producteurs, les autres revenus agricoles\
+  \ (tels que les revenus du travail à forfait), la valeur des aliments et du carburant\
+  \ produits et consommés sur la même exploitation, et la variation de la valeur des\
+  \ stocks de fin d'année des cultures et du bétail<sup><a href=\"#footnote-7\" id=\"\
+  footnote-ref-7\">[5]</a></sup>.</li>\n  <li>Les recettes monétaires agricoles comprennent\
+  \ les recettes provenant de la vente de produits agricoles en unités monétaires\
+  \ locales qui incluent les ventes de cultures, de bétail et de ses sous-produits.</li>\n\
+  \  <li>Les paiements directs de programmes aux producteurs inclus dans les recettes\
+  \ monétaires agricoles représentent les montants versés dans le cadre de divers\
+  \ programmes gouvernementaux et privés aux personnes impliquées dans la production\
+  \ agricole. Les paiements liés à la production agricole courante comprennent les\
+  \ subventions visant à encourager la production ou à compenser les producteurs pour\
+  \ les faibles rendements du marché, les paiements visant à stabiliser les revenus\
+  \ et les paiements visant à compenser les producteurs pour les pertes de récoltes\
+  \ ou de bétail causées par des conditions climatiques extrêmes, des maladies ou\
+  \ d'autres raisons et les paiements d'assurance.</li>\n  <li>Le revenu en nature\
+  \ mesure la valeur des biens agricoles produits dans les exploitations agricoles\
+  \ et consommés par les familles des exploitants agricoles. Il est inclus pour mesurer\
+  \ la production agricole totale.</li>\n  <li>Les dépenses d'exploitation représentent\
+  \ les coûts commerciaux encourus par les entreprises agricoles pour les biens et\
+  \ services utilisés dans le processus de production. Les dépenses comprennent à\
+  \ la fois les achats et la propre production, à savoir : les impôts fonciers, le\
+  \ travail à forfait, les semences, le loyer, les engrais et la chaux, les produits\
+  \ chimiques, les réparations des machines et des bâtiments, l'irrigation, le carburant\
+  \ pour le chauffage et les machines, les salaires, les intérêts et la part de l'entreprise\
+  \ dans les primes d'assurance.</li>\n  <li>Les charges d'amortissement tiennent\
+  \ compte de la dépréciation économique ou de la perte de la juste valeur marchande\
+  \ des immobilisations de l'entreprise agricole. Calculée sur les bâtiments agricoles,\
+  \ les machines agricoles et la part de l'entreprise agricole dans les automobiles,\
+  \ les camions et la maison de ferme, la dépréciation est généralement considérée\
+  \ comme le résultat du vieillissement, de l'usure et de l'obsolescence. Elle représente\
+  \ une diminution des avantages économiques potentiels qui peuvent être générés par\
+  \ l'immobilisation.</li>\n  <li>La valeur de la variation des stocks (VIC) mesure\
+  \ la valeur monétaire de la variation physique des stocks appartenant aux producteurs.\
+  \ Ce concept est utilisé pour évaluer la production économique agricole totale.\
+  \ Pour calculer la VIC, la variation des stocks appartenant aux producteurs (entre\
+  \ la fin et le début d'une année civile) est d'abord calculée, puis multipliée par\
+  \ les prix annuels moyens des cultures ou la valeur par animal. Ce calcul est différent\
+  \ de l'approche de la valeur comptable financière ou comptable, qui évalue les stocks\
+  \ de début et de fin, puis en déduit la variation.</li>\n  <li>La VIC pour tous\
+  \ les principaux produits de base peut varier considérablement (en fonction de l'ampleur\
+  \ de la variation des stocks et des prix). La VIC peut être positive (lorsque les\
+  \ stocks sont plus importants à la fin de l'année par rapport aux niveaux du début\
+  \ de l'année) ou négative (lorsque les stocks de fin d'année sont inférieurs aux\
+  \ niveaux du début de l'année). Si les niveaux de stocks sont les mêmes au début\
+  \ et à la fin de l'année, la VIC sera nulle malgré les variations de prix.</li>\n\
+  </ul>\n<p>L'estimation de la rentabilité au niveau d'une exploitation agricole nécessite\
+  \ généralement la compilation des registres financiers de base de l'exploitation,\
+  \ c'est-à-dire les transactions quotidiennes, hebdomadaires, mensuelles ou saisonnières\
+  \ de manière organisée. En général, les grandes exploitations commerciales tiennent\
+  \ des registres financiers détaillés, mais dans le cas des exploitations d'agriculture\
+  \ de subsistance à moyenne et petite échelle, la tenue de registres est rarement\
+  \ pratiquée et dans la plupart des pays, elle n'existe pas du tout.</p>\n<p>Dans\
+  \ le cas où des données détaillées ne sont pas disponibles au niveau de l'exploitation,\
+  \ les estimations seront calculées sur la base des déclarations des agriculteurs\
+  \ concernant les quantités et les prix des produits et des intrants. Dans ces cas,\
+  \ la dépréciation, la variation des stocks et les taxes peuvent être négligées.\
+  \ Ceci est décrit ci-dessous comme l'option simplifiée (1).</p>\n<p>Une option simplifiée\
+  \ (2) est également proposée, basée sur la déclaration de l'agriculteur concernant\
+  \ la rentabilité de l'exploitation agricole au cours des trois dernières années\
+  \ civiles. Il est recommandé d'utiliser cette option simplifiée uniquement lorsque\
+  \ les deux autres options ne sont pas réalisables.</p>\n<p><strong>Critères de durabilité\
+  \ : </strong></p>\n<p>Pour qu'une exploitation agricole soit rentable, le revenu\
+  \ agricole net doit être plus grand que zéro.</p>\n<ul>\n  <li>Vert (souhaitable)\
+  \ : plus grand que zéro pour les trois dernières années consécutives</li>\n  <li>Jaune\
+  \ (acceptable) : plus grand que zéro pour au moins une des trois dernières années\
+  \ consécutives</li>\n  <li>Rouge (non durable) : plus petit que zéro pour l'ensemble\
+  \ des trois dernières années consécutives</li>\n</ul>\n<p><strong>Éléments de données</strong></p>\n\
+  <p>Période de référence : les trois dernières années civiles</p>\n<p><strong><em>Option\
+  \ recommandée</em></strong></p>\n<p>Les données des registres financiers de l'exploitation,\
+  \ c'est-à-dire les transactions quotidiennes, hebdomadaires, mensuelles ou saisonnières,\
+  \ sont recueillies de manière organisée (en général, les grandes exploitations commerciales\
+  \ tiennent des registres financiers détaillés sur la base desquels le NFI peut être\
+  \ calculé selon l'équation ci-dessus).</p>\n<p><strong><em>Option simplifiée (1)</em></strong></p>\n\
+  <p>À utiliser lorsque les données détaillées ne sont pas disponibles au niveau de\
+  \ l'exploitation (mieux adaptée aux petits exploitants et au secteur des ménages).</p>\n\
+  \  <li>Quantité produite (c'est-à-dire les cultures et le bétail, ainsi que leurs\
+  \ produits et sous-produits, destinés au marché ou à l'autoconsommation)</li>\n\
+  \  <li>Prix à la ferme des quantités produites ci-dessus</li>\n  <li>Frais d'exploitation,\
+  \ y compris les quantités d'intrants et leurs prix de marché</li>\n  <li>Quantité/rendement\
+  \ des autres activités menées dans l'exploitation et/ou des produits fabriqués dans\
+  \ l'exploitation, par exemple l'aquaculture, l'agroforesterie et autres</li>\n \
+  \ <li>Prix à la ferme des autres activités/ produits de base de l'exploitation</li>\n\
+  \  <li>Quantités et prix des intrants utilisés pour produire d'autres extrants sur\
+  \ l'exploitation</li>\n<p><strong><em>Option simplifiée (2)</em></strong></p>\n\
+  \  <li>Déclaration du répondant sur la rentabilité de l'exploitation agricole au\
+  \ cours des 3 dernières années civiles</li>\n<h3>3. Mécanismes d'atténuation des\
+  \ risques</h3>\n<p><strong>Dimension : </strong>Économique</p>\n<p><strong>Thème\
+  \ : </strong>Résilience</p>\n<p>La résilience englobe les capacités d'absorption,\
+  \ d'anticipation et d'adaptation et se réfère aux propriétés d'un système qui permet\
+  \ aux exploitations de faire face aux chocs et aux stress, de persister et de continuer\
+  \ à bien fonctionner (dans le sens de fournir la stabilité, des règles prévisibles,\
+  \ la sécurité et d'autres avantages à ses membres). </p> <p><strong>Coverage: </strong>Tous\
+  \ les types d'exploitations agricoles <strong> </strong></p> <p><strong>Description:\
+  \ </strong></p> <p>Ce sous-indicateur mesure l'incidence des mécanismes d'atténuation\
+  \ suivants : </p> X13365X] <ul> <li>Accès au crédit ou recours au crédit<sup><a\
+  \ href=\"#footnote-8\" id=\"footnote-ref-8\">[6]</a></sup></li><li>Accès au crédit\
+  \ ou recours au crédit. <li>Accès à l'assurance ou recours à celle-ci</li>. <li>Diversification\
+  \ au sein de l'exploitation (part d'un seul produit agricole ne dépassant pas 66%\
+  \ de la valeur totale de la production de l'exploitation)</li>. X13663X] <p> <p>L'accès\
+  \ au crédit et/ou à l'assurance est défini ici comme la disponibilité d'un service\
+  \ donné et le fait que le détenteur dispose de moyens suffisants pour obtenir ce\
+  \ service (documents requis, garanties, antécédents de crédit positifs, etc.) En\
+  \ général, l'accès à un ou plusieurs des trois facteurs ci-dessus permettra à l'exploitation\
+  \ de prévenir, de résister, de s'adapter et de se remettre des chocs externes tels\
+  \ que les inondations, les sécheresses, les défaillances du marché (par exemple,\
+  \ les chocs de prix), les chocs climatiques et les maladies animales. </p> <p><strong>Sustainability\
+  \ criteria: </strong></p> <p>Une exploitation agricole est considérée comme résiliente\
+  \ si elle a utilisé ou a les moyens d'accéder aux mécanismes d'atténuation des risques\
+  \ comme suit :</p> <ul> <li>Vert (souhaitable) : Accès ou utilisation d'au moins\
+  \ deux des mécanismes d'atténuation des risques énumérés ci-dessus </li>. <li>Jaune\
+  \ (acceptable) : Accès ou utilisation d'au moins un des mécanismes d'atténuation\
+  \ énumérés ci-dessus </li>. <li>Rouge (non durable) : Aucun accès aux mécanismes\
+  \ d'atténuation énumérés. </li> </ul> <p>**************</p> <p><strong>Data items</strong></p>\
+  \ <p>Période de référence : dernière année civile</p> <p>3.1. Exploitation agricole\
+  \ ayant accès ou ayant eu recours au crédit, à l'assurance ou à d'autres instruments\
+  \ financiers :</p> <ul>. <ul> <li>Crédit (formel et informel) </li>. <li>Assurance\
+  \ </li> X14881X] </ul> <p>3.2 Liste des autres activités agricoles en dehors des\
+  \ cultures et de l'élevage</p>. <p>3.3 Valeur de la production pour les activités/produits\
+  \ énumérés de l'exploitation </p>. <h3>4. Prévalence de la dégradation des sols\
+  \ </h3> <p>. <p><strong>Dimension: </strong>Environmental<strong> </strong></p>\
+  \ <p><strong>Theme: </strong>Santé des sols </p>. <p>De nombreux processus affectant\
+  \ la santé des sols sont déterminés par les pratiques agricoles. La FAO et le Groupe\
+  \ technique intergouvernemental sur les sols (ITPS) ont identifié 10 menaces principales\
+  \ pour les fonctions du sol : érosion du sol, pertes de carbone organique du sol,\
+  \ déséquilibre des nutriments, acidification, contamination, engorgement, compactage,\
+  \ imperméabilisation du sol, salinisation et perte de biodiversité du sol. </p>\
+  \ <p><strong>Coverage: </strong>Tous les types d'exploitations agricoles <strong>\
+  \ </strong> </p>. <p><strong>Description: </strong></p> <p>Ce sous-indicateur mesure\
+  \ la mesure dans laquelle les activités agricoles affectent la santé des sols et\
+  \ représente donc un problème de durabilité. L'examen des dix menaces pesant sur\
+  \ les sols montre que toutes sauf une (l'imperméabilisation des sols, qui est la\
+  \ perte de sols naturels au profit de la construction/urbanisation) sont potentiellement\
+  \ et principalement affectées par des pratiques agricoles inappropriées. Dans l'idéal,\
+  \ il faudrait donc que tous les sols situés sous la surface agricole d'un pays fassent\
+  \ l'objet d'une surveillance périodique afin d'évaluer l'impact de l'agriculture\
+  \ sur les sols. Cela nécessite des enquêtes et des campagnes d'échantillonnage détaillées,\
+  \ associées à des tests en laboratoire. Afin de proposer une solution gérable tout\
+  \ en capturant les principales tendances du pays en termes de santé des sols, l'enquête\
+  \ agricole se concentre sur les quatre menaces qui combinent les caractéristiques\
+  \ les plus répandues (pour la surveillance nationale, les pays peuvent choisir d'ajouter\
+  \ l'un des autres domaines indiqués ci-dessus, en fonction de la pertinence), et\
+  \ les plus faciles à évaluer par le biais des enquêtes agricoles : </p> X16673X]\
+  \ <ol> X16685X]Érosion des sols</li> <li>Réduction de l'impact de l'agriculture\
+  \ sur l'environnement. <li>Réduction de la fertilité du sol</li>. <li>Salinisation\
+  \ des terres irriguées</li> <li>Waterlogging</li> <li>Autre - Spécifiez </li>. </ol>\
+  \ <p>L'enquête sur les exploitations agricoles permet de saisir les connaissances\
+  \ des agriculteurs sur la situation de l'exploitation agricole en termes de dégradation\
+  \ des sols. L'expérience a montré que les agriculteurs sont très conscients de l'état\
+  \ de leurs sols, de leur santé et de leur niveau de dégradation. Les agriculteurs\
+  \ peuvent également avoir l'opportunité de mentionner d'autres menaces que les quatre\
+  \ ci-dessus. </p> [D'autres sources de données sur la santé des sols peuvent soit\
+  \ compléter les informations collectées par l'enquête sur les exploitations et offrir\
+  \ des possibilités de recoupement des réponses des agriculteurs, soit être utilisées\
+  \ comme sources alternatives de données. Avant l'enquête agricole, une étude documentaire\
+  \ pourrait recueillir toutes les informations disponibles sur la santé des sols,\
+  \ notamment en utilisant les statistiques officielles nationales ou les statistiques\
+  \ disponibles auprès d'agences internationales telles que la FAO. Il s'agit généralement\
+  \ de cartes, de modèles, de résultats d'échantillonnage des sols, d'analyses en\
+  \ laboratoire et d'enquêtes sur le terrain, ainsi que de tous les rapports existants\
+  \ sur la dégradation des sols et des terres au niveau national. Sur la base de ces\
+  \ informations, des cartes ou des tableaux (par frontières administratives ou autres\
+  \ divisions du pays) peuvent être établis, montrant les menaces pesant sur les sols\
+  \ selon les 4 catégories de menaces ci-dessus </p>. <p><strong>Sustainability criteria:\
+  \ </strong></p> <p>Proportion de la surface agricole de l'exploitation affectée\
+  \ par la dégradation des sols </p>. <ul> <li>Vert (souhaitable) : La surface combinée\
+  \ affectée par l'une des quatre menaces sélectionnées pour la santé des sols est\
+  \ négligeable (moins de 10% de la surface agricole totale de l'exploitation).</li>\
+  \ <li>Jaune (acceptable) : La superficie combinée affectée par l'une des quatre\
+  \ menaces sélectionnées pour la santé des sols se situe entre 10 % et 50 % de la\
+  \ superficie agricole totale de l'exploitation</li>. <li>Rouge (non durable) : La\
+  \ superficie combinée affectée par l'une des quatre menaces sélectionnées pour la\
+  \ santé des sols est supérieure à 50 % de la superficie agricole totale de l'exploitation</li>.\
+  \ </ul> <p>**************</p> <p><strong>Data items</strong></p> <p>Période de référence\
+  \ : trois dernières années civiles</p> <p>4.1 Liste des menaces de dégradation des\
+  \ sols subies par l'exploitation</p> <ul> <li> <ul> <li>Érosion du sol (perte de\
+  \ la couche arable par érosion éolienne ou hydrique)</li>. <li>Réduction de la fertilité\
+  \ des sols<sup><a href=\"#footnote-9\" id=\"footnote-ref-9\">[7]</a></sup></li>\
+  \ <li>Salinisation des terres irriguées</li> <li>Waterlogging</li> <li>Autre &#x2013;\
+  \ Précisez </li> <li>Aucun des éléments ci-dessus</li> </ul> </li> </ul> <p>4.2\
+  \ Surface totale de l'exploitation affectée par des menaces liées à la dégradation\
+  \ du sol</p>. <h3>5. Variation de la disponibilité en eau </h3>. <p>Dimension :\
+  \ Environnementale </p> <p>Thème : Utilisation de l'eau </p> <p>L'agriculture, et\
+  \ plus particulièrement l'agriculture irriguée, est de loin le principal secteur\
+  \ économique utilisant les ressources en eau douce. Dans de nombreux endroits, le\
+  \ prélèvement d'eau dans les rivières et les aquifères souterrains dépasse ce qui\
+  \ peut être considéré comme écologiquement durable. Cette situation affecte à la\
+  \ fois les rivières et les aquifères souterrains. L'agriculture durable exige donc\
+  \ que ce niveau d'utilisation de l'eau douce pour l'irrigation reste dans des limites\
+  \ acceptables. Bien qu'il n'existe pas de normes internationalement reconnues en\
+  \ matière d'utilisation durable de l'eau, les signaux associés à une utilisation\
+  \ non durable de l'eau comprennent généralement la réduction progressive du niveau\
+  \ des eaux souterraines, l'assèchement des sources et des rivières, l'augmentation\
+  \ des conflits entre les utilisateurs d'eau. </p> <p><strong>Coverage: </strong>Tous\
+  \ les types d'exploitations agricoles <strong> </strong> </p>. <p><strong>Description:\
+  \ </strong></p> <p>Ce sous-indicateur saisit la mesure dans laquelle l'agriculture\
+  \ contribue à des modèles non durables d'utilisation de l'eau. Idéalement, le niveau\
+  \ de durabilité de l'utilisation de l'eau est mesuré à l'échelle du bassin fluvial\
+  \ ou de l'aquifère d'eau souterraine, car c'est l'effet combiné de tous les utilisateurs\
+  \ partageant la même ressource qui a un impact sur la durabilité de l'eau. L'enquête\
+  \ sur les exploitations agricoles saisit la conscience et le comportement des agriculteurs\
+  \ &#x2019; par rapport à la pénurie d'eau, et les associe à trois niveaux de durabilité.\
+  \ Cette prise de conscience et ce comportement sont exprimés en termes de :</p>\
+  \ <ul> <li>si l'agriculteur utilise l'eau pour irriguer les cultures sur au moins\
+  \ 10% de la surface agricole de l'exploitation et pourquoi, si la réponse est négative\
+  \ (n'en a pas besoin, ne peut se le permettre) ;</li> <li>si l'agriculteur est conscient\
+  \ des problèmes de disponibilité de l'eau dans la zone de l'exploitation et s'il\
+  \ remarque une réduction de la disponibilité de l'eau au fil du temps ;</li> <li>s'il\
+  \ existe des organisations (organisations d'utilisateurs d'eau, autres) chargées\
+  \ de répartir l'eau entre les utilisateurs et dans quelle mesure ces organisations\
+  \ fonctionnent efficacement ;</li>. </ul> <p>D'autres sources de données peuvent\
+  \ soit compléter l'enquête sur l'utilisation de l'eau dans les exploitations et\
+  \ offrir des possibilités de recoupement des réponses des agriculteurs&#x2019;,\
+  \ soit être utilisées comme sources alternatives de données. Avant l'enquête sur\
+  \ les exploitations, une étude documentaire doit recueillir toutes les informations\
+  \ disponibles sur le bilan hydrique, y compris les statistiques officielles nationales\
+  \ ou les statistiques disponibles auprès d'agences internationales telles que la\
+  \ FAO. Les informations sur les ressources en eau et leur utilisation sont généralement\
+  \ recueillies par les entités chargées de la gestion ou de la surveillance de l'eau\
+  \ et sont organisées par entité hydrologique (bassin fluvial ou aquifère souterrain).\
+  \ Elles comprennent généralement des relevés hydrologiques (débit des cours d'eau,\
+  \ niveaux des eaux souterraines), des modèles et des cartes montrant l'étendue de\
+  \ l'utilisation de l'eau par entité hydrologique </p>. <p><strong>Sustainability\
+  \ criteria: </strong> </p> <p>La durabilité de l'exploitation agricole par rapport\
+  \ à l'utilisation de l'eau sera évaluée comme suit : </p> <ul> <li>Vert (souhaitable)\
+  \ : La disponibilité de l'eau reste stable au fil des ans, pour les exploitations\
+  \ irriguant des cultures sur plus de 10 % de la surface agricole de l'exploitation.\
+  \ Résultat par défaut pour les exploitations qui irriguent moins de 10 % de leur\
+  \ surface agricole </li>. <li> Jaune (acceptable) : utilise l'eau pour irriguer\
+  \ des cultures sur au moins 10 % de la surface agricole de l'exploitation, ne sait\
+  \ pas si la disponibilité de l'eau reste stable au fil des ans, ou connaît une réduction\
+  \ de la disponibilité de l'eau au fil des ans, mais il existe une organisation qui\
+  \ répartit efficacement l'eau entre les utilisateurs. </li> <li> Rouge (non durable)\
+  \ : dans tous les autres cas. </li> </ul> <p><strong>Data items</strong></p> <p>Période\
+  \ de référence : les trois dernières années civiles</p> X22895X]5.1 Superficie agricole\
+  \ irriguée de l'exploitation </p> [X22950X <p>5.2 Réduction de la disponibilité\
+  \ de l'eau subie par l'exploitation </p> [X23020X <p>5.3 Existence d'organisations\
+  \ s'occupant de l'allocation de l'eau </p>. <h3>6. Gestion des engrais </h3> <p>\
+  \ <h3>6. <p><strong>Dimension: </strong>Environmental<strong> </strong></p> <p><strong>Theme:\
+  \ </strong>Risque de pollution par les engrais </p>. <p>L'agriculture peut affecter\
+  \ la qualité de l'environnement par une utilisation excessive ou une gestion inadéquate\
+  \ des engrais. L'agriculture durable implique que le niveau des produits chimiques\
+  \ dans le sol et les masses d'eau reste dans des seuils acceptables. La gestion\
+  \ intégrée des nutriments végétaux prend en compte toutes les sources de nutriments\
+  \ (minéraux et organiques) et leur gestion afin d'obtenir le meilleur équilibre\
+  \ nutritif. La mesure de la qualité des sols et de l'eau permet de connaître l'étendue\
+  \ et les causes de la pollution, mais la mise en place de systèmes de surveillance\
+  \ des sols et de l'eau est coûteuse et n'est pas toujours réalisable dans les pays.\
+  \ </p> <p> Note : la gestion des éléments nutritifs des plantes aborde deux questions\
+  \ de durabilité : éviter la pollution et maintenir un bon niveau de fertilité des\
+  \ sols. Ce sous-indicateur traite de la première question, tandis que la seconde\
+  \ est traitée dans le sous-indicateur 4 &#x2018;Santé des sols&#x2019;. </p> <p><strong>Coverage:\
+  \ </strong>Tous les types d'exploitations agricoles</p>. <p><strong>Description:\
+  \ </strong></p> <p>L'approche proposée est basée sur des questions posées aux agriculteurs\
+  \ concernant leur utilisation d'engrais, en particulier d'engrais minéraux ou synthétiques\
+  \ et de fumier animal, leur connaissance des risques environnementaux associés aux\
+  \ applications d'engrais et de fumier, et leur comportement en termes de gestion\
+  \ des éléments nutritifs des plantes<sup><a href=\"#footnote-10\" id=\"footnote-ref-10\"\
+  >[8]</a></sup>. Les mesures de gestion considérées comme contribuant à réduire le\
+  \ risque sont les suivantes : </p> <ol> <li>Suivre les protocoles selon les indications\
+  \ des services de vulgarisation ou des points de vente ou selon les réglementations\
+  \ locales, sans dépasser les doses recommandées</li>. <li>Utiliser une source organique\
+  \ d'éléments nutritifs (y compris le fumier ou les résidus de compostage) seule,\
+  \ ou en combinaison avec des engrais synthétiques ou minéraux </li>. <li>Utiliser\
+  \ les légumineuses comme culture de couverture ou comme composante d'un système\
+  \ de multiculture ou de pâturage pour réduire les apports d'engrais </li>. <li>Répartir\
+  \ l'application d'engrais synthétique ou minéral sur la période de croissance</li>\
+  \ <li>Tenir compte du type de sol et du climat<sup><a href=\"#footnote-11\" id=\"\
+  footnote-ref-11\">[9]</a></sup> pour décider des doses et des fréquences d'application\
+  \ des engrais</li> <li>Utiliser des échantillons de sol au moins tous les 5 ans\
+  \ pour effectuer les calculs du bilan nutritif </li>. <li>Effectuer une gestion\
+  \ des éléments nutritifs spécifique au site ou une agriculture de précision<sup><a\
+  \ href=\"#footnote-12\" id=\"footnote-ref-12\">[10]</a></sup></li> <li>Utiliser\
+  \ des bandes tampons le long des cours d'eau </li>. </ol> <p>Critères de durabilité\
+  \ : </p> <p>La durabilité de l'exploitation par rapport au risque de pollution par\
+  \ les engrais sera évaluée comme suit : </p> <ul> <li>Vert (souhaitable) : L'exploitation\
+  \ prend des mesures spécifiques pour atténuer les risques environnementaux (au moins\
+  \ quatre de la liste ci-dessus). Résultat par défaut pour les exploitations n'utilisant\
+  \ pas d'engrais <sup> <a href=\"#footnote-13\" id=\"footnote-ref-13\"> [11] </a>\
+  \ </sup>. </li> <li> Jaune (acceptable) : L'exploitation utilise des engrais et\
+  \ prend au moins deux mesures de la liste ci-dessus pour atténuer les risques environnementaux\
+  \ </li>. <li>Rouge (non durable) : L'exploitation utilise des engrais et ne prend\
+  \ aucune des mesures spécifiques ci-dessus pour atténuer les risques environnementaux\
+  \ liés à leur utilisation. </li> </ul> <p>**************</p> <p><strong>Data items</strong></p>\
+  \ <p>Période de référence : dernière année civile</p> <p> </p> <p>6.1 Utilisation\
+  \ d'engrais synthétiques ou minéraux ou de fumier/fumier animal par l'exploitation\
+  \ agricole (O/N)</p> <p>6.1. <p>6.2 Mesures spécifiques prises pour atténuer les\
+  \ risques environnementaux liés à l'utilisation excessive ou abusive d'engrais,\
+  \ selon la liste ci-dessous : </p> </p> <p>&#x20DD; 1 Suivre les protocoles selon\
+  \ les instructions des services de vulgarisation ou des détaillants ou les réglementations\
+  \ locales, sans dépasser les doses recommandées. <p>&#x20DD; 2 Utiliser une source\
+  \ organique d'éléments nutritifs (y compris le fumier ou les résidus de compostage)\
+  \ seule, ou en combinaison avec des engrais synthétiques ou minéraux </p>. <p>&#x20DD;\
+  \ 3 Utiliser les légumineuses comme culture de couverture ou comme composante d'un\
+  \ système de multiculture ou de pâturage pour réduire les apports d'engrais </p>.\
+  \ <p>&#x20DD; 4 Répartir l'application d'engrais synthétiques ou minéraux sur la\
+  \ période de croissance </p>. <p> &#x20DD; 5 Tenir compte du type de sol et du climat\
+  \ pour décider des doses et des fréquences d'application des engrais </p>. <p>&#x20DD;\
+  \ 6 Utiliser l'échantillonnage du sol au moins tous les 5 ans pour effectuer les\
+  \ calculs de bilan nutritif </p> <p>&#x20DD; 7 Effectuer une gestion des éléments\
+  \ nutritifs spécifique au site ou une agriculture de précision </p>. <p> &#x20DD;\
+  \ 8 Utiliser des bandes tampons le long des cours d'eau </p>. <h3> 7. La gestion\
+  \ des pesticides </h3>. <p><strong>Dimension: </strong>Environmental<strong> </strong></p>\
+  \ <p><strong>Theme: </strong>Pesticide risk</p> <p>Les pesticides sont des intrants\
+  \ importants dans l'agriculture moderne (culture et élevage), mais s'ils ne sont\
+  \ pas bien gérés, ils peuvent nuire à la santé des gens&#x2019;ou à l'environnement.\
+  \ Il existe des pratiques associées à la lutte intégrée contre les ravageurs (IPM<sup><a\
+  \ href=\"#footnote-14\" id=\"footnote-ref-14\">[12]</a></sup>) qui contribuent à\
+  \ minimiser les risques liés à l'utilisation des pesticides et à limiter leur impact\
+  \ sur la santé humaine et sur l'environnement. Le Code international de conduite\
+  \ sur la gestion des pesticides définit les meilleures pratiques en matière de gestion\
+  \ des pesticides </p>. <p><strong>Coverage: </strong>Tous les types d'exploitations\
+  \ agricoles</p> <p><strong>Description: </strong> </p> <p>Le sous-indicateur proposé\
+  \ est basé sur des informations relatives à l'utilisation de pesticides dans les\
+  \ exploitations, au type de pesticide utilisé et au type de mesure(s) prise(s) pour\
+  \ atténuer les risques associés<sup><a href=\"#footnote-15\" id=\"footnote-ref-15\"\
+  >[13]</a></sup>. Il envisage la possibilité que l'exploitation utilise des pesticides\
+  \ dans le cadre d'un programme de lutte intégrée contre les parasites (IPM), ou\
+  \ adopte des mesures spécifiques pour contribuer à réduire les risques liés à l'utilisation\
+  \ de pesticides. Liste des mesures possibles : </p> <p>Health</p> <ol> <li>Respect\
+  \ du mode d'emploi des pesticides figurant sur l'étiquette (y compris l'utilisation\
+  \ d'équipements de protection lors de l'application de pesticides) </li>. <li>Entretien\
+  \ et nettoyage de l'équipement de protection après utilisation </li>. <li>Elimination\
+  \ sûre des déchets (cartons, bouteilles et sacs)</li> </ol> <p>Environment</p> <ol>\
+  \ <li>Respect du mode d'emploi de l'étiquette pour l'application du pesticide </li>\
+  \ [X29176X <li>Adopter l'une des bonnes pratiques suivantes : ajuster la période\
+  \ de plantation, appliquer l'espacement des cultures, la rotation des cultures,\
+  \ la culture mixte ou l'interculture </li>. <li>Effectuer une lutte biologique contre\
+  \ les parasites ou utiliser des biopesticides </li> <li>Adopter la rotation des\
+  \ pâturages pour supprimer les populations de parasites du bétail </li>. <li>Éliminer\
+  \ systématiquement les parties de la plante attaquées par les ravageurs </li>. <li>Entretien\
+  \ et nettoyage du matériel de pulvérisation après utilisation </li>. <li>N'utiliser\
+  \ un pesticide que deux fois au maximum ou en mélange au cours d'une saison pour\
+  \ éviter la résistance aux pesticides</li>. </ol> <p>Critères de durabilité : </p>\
+  \ <p>La durabilité de l'exploitation en ce qui concerne les pesticides sera évaluée\
+  \ comme suit : </p> <ul> <li>Vert (souhaitable) : L'exploitation n'utilise que des\
+  \ pesticides modérément ou légèrement dangereux <sup> <a href=\"#footnote-16\" id=\"\
+  footnote-ref-16\"> [14] </a> </sup> (classe II ou III de l'OMS). Dans ce cas, elle\
+  \ respecte les trois mesures liées à la santé et au moins quatre des mesures liées\
+  \ à l'environnement. Résultat par défaut pour les exploitations n'utilisant pas\
+  \ de pesticides </li>. <li> Jaune (acceptable) : L'exploitation n'utilise que des\
+  \ pesticides modérément ou légèrement dangereux (classe II ou III de l'OMS) et prend\
+  \ quelques mesures pour atténuer les risques pour l'environnement et la santé (au\
+  \ moins deux de chacune des listes ci-dessus)</li>. <li>Rouge (non durable) : L'exploitation\
+  \ utilise des pesticides hautement ou extrêmement dangereux (classe Ia ou Ib de\
+  \ l'OMS), des pesticides illégaux <sup> <a href=\"#footnote-17\" id=\"footnote-ref-17\"\
+  > [15] </a> </sup>, ou utilise des pesticides modérément ou légèrement dangereux\
+  \ sans prendre de mesures spécifiques pour atténuer les risques environnementaux\
+  \ ou sanitaires liés à leur utilisation (moins de deux de chacune des listes ci-dessus).\
+  \ </li> </ul> <p><strong>Data items</strong></p> <p>Période de référence : dernière\
+  \ année civile</p> <p>7.1 Utilisation de pesticides pour les cultures ou le bétail\
+  \ par l'exploitation agricole (O/N) </p>. <p>7.2 Utilisation de pesticides très\
+  \ ou extrêmement dangereux par l'exploitation agricole (O/N) </p>. <p>7.3 Mesures\
+  \ prises pour protéger les personnes contre les risques sanitaires liés aux pesticides\
+  \ : </p> X31141X] <ol> <li>Respect du mode d'emploi des pesticides figurant sur\
+  \ l'étiquette, y compris l'utilisation d'équipements de protection individuelle\
+  \ (O/N) </li>. <li>Entretien et nettoyage de l'équipement de protection après utilisation\
+  \ (O/N)</li>. <li>Elimination sûre des déchets (cartons, bouteilles et sacs) (O/N)\
+  \ </li>. </ol> X31415X]7.4 Mesures prises pour éviter les risques environnementaux\
+  \ liés aux pesticides : </p> [X31504X <ol> <li>Respect du mode d'emploi de l'étiquette\
+  \ pour l'application du pesticide (O/N) </li>. <li>Ajustement de la période de plantation\
+  \ (O/N) </li> </li> <li>Application de l'espacement des cultures (O/N) </li> X31674X]Application\
+  \ de la rotation des cultures (O/N)</li> <li>Application de la rotation des cultures\
+  \ (O/N)</li>. X31720X]Application de la polyculture (O/N)</li> <li>Application de\
+  \ la rotation des cultures (O/N)</li>. <li>Application de l'interculture (O/N)</li>.\
+  \ <li>Effectuer une lutte biologique contre les nuisibles (O/N) </li>. <li>Utilisation\
+  \ de biopesticides (O/N) </li>. <li>Adopter la rotation des pâturages pour supprimer\
+  \ les populations de parasites du bétail (O/N)</li>. <li>Élimination systématique\
+  \ des parties de la plante attaquées par les ravageurs (O/N)</li>. <li>Entretien\
+  \ et nettoyage du matériel de pulvérisation après utilisation (O/N)</li>. <li>Utiliser\
+  \ un pesticide au maximum deux fois ou en mélange dans une saison pour éviter la\
+  \ résistance aux pesticides (O/N)</li>. X32235X] <h3> <h3>8. Utilisation de pratiques\
+  \ favorisant l'agrobiodiversité </h3>. <p><strong>Dimension: </strong>Environmental<strong>\
+  \ </strong></p> <p><strong>Theme: </strong>Biodiversity </p> <p>La Convention sur\
+  \ la diversité biologique (CDB) souligne la relation étroite entre les activités\
+  \ agricoles et la biodiversité, en considérant trois niveaux de biodiversité : la\
+  \ diversité au niveau génétique ; l'agrobiodiversité au niveau du système de production\
+  \ ; et la biodiversité au niveau de l'écosystème (sauvage). La façon dont l'agriculture\
+  \ est pratiquée influence ces trois niveaux. Les tentatives de développement d'indicateurs\
+  \ de biodiversité pour l'agriculture considèrent systématiquement un grand nombre\
+  \ de sous-indicateurs, sans critères de durabilité universellement reconnus. Compte\
+  \ tenu de ces contraintes, et de l'importance d'aborder la biodiversité dans la\
+  \ construction de l'indicateur 2.4.1, il est proposé de développer un sous-indicateur\
+  \ qui capture les efforts vers une agriculture plus durable qui contribue mieux\
+  \ à la biodiversité, en identifiant une liste limitée de pratiques qui sont favorables\
+  \ à la conservation de la biodiversité </p>. <p><strong>Coverage: </strong>Tous\
+  \ les types d'exploitations agricoles<strong> </strong></p> <p><strong>Description:\
+  \ </strong></p> <p>Ce sous-indicateur mesure le niveau d'adoption de pratiques agricoles\
+  \ plus durables qui contribuent davantage à la biodiversité de l'exploitation aux\
+  \ niveaux de l'écosystème, des espèces et de la génétique. Cet indicateur concerne\
+  \ à la fois les cultures et le bétail. Plus précisément, dans le cas de ce sous-indicateur,\
+  \ le champ d'application est l'ensemble de la zone de l'exploitation agricole, par\
+  \ opposition à la zone agricole qui est utilisée pour le reste des 10 sous-indicateurs.\
+  \ </p> <p>En particulier, deux systèmes de notation distincts en fonction de l'applicabilité\
+  \ du critère de l'agriculture biologique ont été proposés</p>. <p>Selon l'existence\
+  \ ou non d'un système de certification biologique, les pays choisiront l'un des\
+  \ deux ensembles de critères proposés ci-dessous et seront donc évalués/notés différemment\
+  \ en termes de leur statut de durabilité. Selon cette formulation, pour obtenir\
+  \ le statut vert, les exploitations des pays ayant mis en place une certification\
+  \ biologique devront vérifier 3 des 6 critères. Au contraire, les exploitations\
+  \ opérant dans des pays où aucune certification biologique n'est en place, devront\
+  \ vérifier 2 des 5 critères pour obtenir le statut vert</p>. <p>La formulation détaillée\
+  \ des critères pour les 2 systèmes de notation est décrite ci-dessous :</p>. <ol>\
+  \ <li><strong>Critères pour le groupe de pays ayant des systèmes/systèmes de certification\
+  \ biologique :</strong></li> <li>Laisser au moins 10% de la surface de l'exploitation\
+  \ à la végétation naturelle ou diversifiée. Il peut s'agir de pâturages naturels,\
+  \ de bandes de fleurs sauvages, de tas de pierres et de bois, d'arbres ou de haies,\
+  \ d'étangs naturels ou de zones humides. </li> <li>L'exploitation produit des produits\
+  \ agricoles certifiés biologiques ou ses produits sont en cours de certification.\
+  \ </li> <li>L'exploitation agricole n'utilise pas d'antimicrobiens médicalement\
+  \ importants comme facteurs de croissance </li>. <li>Au moins deux des éléments\
+  \ suivants contribuent à la production agricole : 1) cultures temporaires, 2) pâturages,\
+  \ 3) cultures permanentes, 4) arbres sur la ferme, 5) bétail ou produits animaux,\
+  \ et 6) aquaculture.</li> <li>Pratique une rotation des cultures ou des cultures\
+  \ et des pâturages impliquant au moins 2 cultures ou des cultures et des pâturages\
+  \ sur au moins 80% de la surface agricole de l'exploitation (hors cultures permanentes\
+  \ et pâturages permanents) sur une période de 3 ans. Dans le cas d'une rotation\
+  \ de deux cultures, les deux cultures doivent appartenir à des genres végétaux différents,\
+  \ par exemple une graminée et une légumineuse, ou une graminée et un tubercule,\
+  \ etc. <li>Le bétail comprend des races adaptées localement</li>. </ol> <p><strong>Sustainability\
+  \ status:</strong></p> <ul> <li> <ul> <li>Vert (souhaitable) : L'exploitation agricole\
+  \ répond à au moins trois des critères ci-dessus </li>. <li> Jaune (acceptable)\
+  \ : L'exploitation agricole répond à un ou deux des critères ci-dessus </li>. <li>Rouge\
+  \ (non durable) : L'exploitation agricole ne répond à aucun des critères ci-dessus\
+  \ </li>. </ul> </li> </ul> <ol> <li><strong>Critères pour le groupe de pays n'ayant\
+  \ pas de systèmes/régimes de certification biologique :</strong></li> <li>Laisser\
+  \ au moins 10% de la surface de l'exploitation à la végétation naturelle ou diversifiée.\
+  \ Il peut s'agir de pâturages naturels, de bandes de fleurs sauvages, de tas de\
+  \ pierres et de bois, d'arbres ou de haies, d'étangs naturels ou de zones humides.\
+  \ </li> <li>L'exploitation n'utilise pas d'antimicrobiens médicalement importants\
+  \ comme facteurs de croissance </li>. <li>Au moins deux des éléments suivants contribuent\
+  \ à la production agricole : 1) les cultures temporaires, 2) les pâturages, 3) les\
+  \ cultures permanentes, 4) les arbres de la ferme, 5) le bétail ou les produits\
+  \ animaux, et 6) l'aquaculture</li>. <li>Pratique une rotation de cultures ou de\
+  \ cultures/pâturages impliquant au moins 2 cultures ou des cultures et des pâturages\
+  \ sur au moins 80% de la surface cultivée de l'exploitation (à l'exclusion des cultures\
+  \ permanentes et des pâturages permanents) sur une période de 3 ans. Dans le cas\
+  \ d'une rotation de deux cultures, les deux cultures doivent appartenir à des genres\
+  \ végétaux différents, par exemple une graminée et une légumineuse, ou une graminée\
+  \ et un tubercule, etc. </li> <li>Le bétail comprend des races adaptées localement</li>.\
+  \ </ol> <p><strong>Sustainability status:</strong></p> <ul> <li> <ul> <li>Vert (souhaitable)\
+  \ : L'exploitation agricole répond à au moins deux des critères ci-dessus </li>.\
+  \ <li> Jaune (acceptable) : L'exploitation agricole répond à un des critères ci-dessus\
+  \ </li>. <li>Rouge (non durable) : L'exploitation agricole ne répond à aucun des\
+  \ critères ci-dessus </li>. </ul> </li> </ul> <p><strong>Data items</strong></p>\
+  \ <p>Période de référence : dernière année civile</p> <p>8.1 Pourcentage de la superficie\
+  \ de l'exploitation couverte par une végétation naturelle ou diversifiée (non cultivée),\
+  \ y compris les pâturages naturels ou les prairies, les bandes de fleurs sauvages,\
+  \ les tas de pierres ou de bois, les arbres ou les haies, les étangs naturels ou\
+  \ les zones humides</p>. <p>8.2 Produits agricoles (cultures et/ou bétail) certifiés\
+  \ biologiques (O/N) </p>. X37981X]8.3 Produits agricoles (cultures et/ou bétail)\
+  \ en cours de certification biologique (O/N)</p> [X380885X <p>8.4 Indiquer le numéro\
+  \ de certification biologique de l'exploitation </p>. <p>8.5 Indiquer le nom de\
+  \ l'organisme de certification biologique </p>. <p>8.6 Superficie sur laquelle les\
+  \ [CULTURES/Élevages] certifiés biologiques ont été produits</p>. <p>8.7 Utilisation\
+  \ d'antimicrobiens médicalement importants comme stimulateur de croissance pour\
+  \ le bétail (O/N) </p>. <p>8.8 Valeur de la production de l'exploitation (couverte\
+  \ par le sous-indicateur 1) </p>. <p>&#x20DD; 1 Cultures temporaires </p> <p>&#x20DD;\
+  \ 2 Pâturages</p> <p>&#x20DD; 3 Cultures permanentes</p> <p>&#x20DD; 4 Arbres sur\
+  \ la ferme </p> <p> &#x20DD; 5 Bétail et produits d'origine animale </p> [X38616X\
+  \ <p>&#x20DD; 6 Aquaculture </p> <p>8 <p>8.9 Pourcentage de la superficie cultivée\
+  \ sur laquelle une rotation des cultures ou une rotation des cultures et des pâturages\
+  \ impliquant au moins deux cultures (à l'exclusion des cultures permanentes et des\
+  \ pâturages permanents) de différents genres de plantes est pratiquée sur une période\
+  \ de 3 ans</p>. <p>8.10 Superficie de l'exploitation agricole couverte par les (jusqu'à\
+  \ 5) cultures principales énumérées pour le sous-indicateur 1 (à l'exclusion des\
+  \ pâturages)</p>. <p>8.11 Liste des différentes races et croisements et pourcentage\
+  \ d'animaux qu'ils représentent pour chaque espèce animale</p>. <h3>9. Taux de salaire\
+  \ dans l'agriculture </h3>. <p><strong>Dimension: </strong>Sociale</p> <p><strong>Theme:\
+  \ </strong>Decent employment</p> <p>Le thème fournit des informations sur la rémunération\
+  \ des salariés travaillant pour l'exploitation et appartenant au groupe de professions\
+  \ élémentaires, tel que défini par la Classification internationale type des professions\
+  \ (CITP-08 - code 92). Il informe sur les risques économiques encourus par les travailleurs\
+  \ non qualifiés (ceux qui effectuent des tâches simples et routinières) en termes\
+  \ de rémunération perçue, cette dernière étant comparée au salaire minimum fixé\
+  \ au niveau national dans le secteur agricole. Ce sous-indicateur permet de distinguer\
+  \ les exploitations qui versent une rémunération équitable à leurs employés appartenant\
+  \ au groupe des professions élémentaires, des exploitations agricoles qui versent\
+  \ une rémunération à leurs employés appartenant au groupe des professions élémentaires\
+  \ qui est inférieure à la norme du salaire minimum. Dans ce dernier cas, les exploitations\
+  \ agricoles sont considérées comme non viables car la rémunération versée n'est\
+  \ pas suffisante pour assurer un niveau de vie décent </p>. <p><strong>Coverage:\
+  \ </strong>Non applicable aux exploitations qui n'emploient que de la main-d'œuvre\
+  \ familiale.</p>"
