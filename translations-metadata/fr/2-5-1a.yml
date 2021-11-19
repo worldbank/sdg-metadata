@@ -1,7 +1,7 @@
 SDG_GOAL: '<p>Objectif 2 : Éliminer la faim, assurer la sécurité alimentaire, améliorer
   la nutrition et promouvoir l’agriculture durable</p>'
-SDG_INDICATOR: '<p>Indicateur 2.5.1 : Nombre de ressources phytogénétiques et animales
-  destinées à l’alimentation et à l’agriculture sécurisées dans des installations
+SDG_INDICATOR: '<p>Indicateur 2.5.1 : Nombre de ressources génétiques végétales et
+  animales destinées à l’alimentation et à l’agriculture sécurisées dans des installations
   de conservation à moyen ou à long terme</p>'
 META_LAST_UPDATE: <p>1 mars 2019</p>
 SDG_RELATED_INDICATORS: <p>La composante sur les ressources zoogénétiques présente
@@ -10,14 +10,14 @@ SDG_CUSTODIAN_AGENCIES: <p>Organisation des Nations unies pour l'alimentation et
   (FAO)</p>
 STAT_CONC_DEF: "<p><strong>Définition :</strong></p>\n<p>La conservation des ressources\
   \ génétiques végétales et animales pour l’alimentation et l’agriculture (RGAA) dans\
-  \ les installations de conservation à moyen ou long terme (<em>ex situ</em>, dans\
+  \ des installations de conservation à moyen ou long terme (<em>ex situ</em>, dans\
   \ les banques de gènes) représente le moyen le plus fiable de conserver les ressources\
   \ génétiques dans le monde entier. Les RGAA végétales et animales conservées dans\
   \ ces installations peuvent également être facilement utilisées dans les programmes\
   \ de sélection, même directement à la ferme. </p>\n<p>La mesure des tendances des\
   \ matériaux conservés <em>ex situ</em> fournit une évaluation globale de la mesure\
-  \ dans laquelle nous parvenons à maintenir et/ou à augmenter la diversité génétique\
-  \ totale disponible pour une utilisation future et donc protégée de toute perte\
+  \ dans laquelle nous parvenons à maintenir et/ou à accroître la diversité génétique\
+  \ totale disponible pour une utilisation future et donc à la protéger de toute perte\
   \ permanente de diversité génétique qui pourrait se produire dans l’habitat naturel,\
   \ c’est-à-dire <em>in situ</em>, ou à la ferme. </p>\n<p>Les deux composantes de\
   \ l’indicateur, RGAA végétales et animales, sont comptées séparément. </p>\n<p>\
@@ -37,13 +37,14 @@ STAT_CONC_DEF: "<p><strong>Définition :</strong></p>\n<p>La conservation des 
   \ session ordinaire (<a href=\"http://www.fao.org/docrep/meeting/028/mg538e.pdf\"\
   >http://www.fao.org/docrep/meeting/028/mg538e.pdf</a>). </p>\n<p><em>Ressources\
   \ zoogénétiques</em></p>\n<p>La composante animale est calculée comme le nombre\
-  \ de races locales (c’est-à-dire dont l’existence n’existerait que dans un seul\
-  \ pays) stockées dans une collection de banques de gènes avec une quantité de matériel\
-  \ génétique stockée nécessaire pour reconstituer la race en cas d’extinction (de\
-  \ plus amples informations sur « suffisamment de matériel stocké pour reconstituer\
-  \ une race » peuvent être trouvées dans les Lignes directrices sur la cryconservation\
-  \ des ressources génétiques animales, FAO, 2012, accessible à http://www.fao.org/docrep/016/i3017e/i3017e00.htm).\
-  \ Les lignes directrices ont été approuvées par la Commission des ressources génétiques\
+  \ de races locales (c’est-à-dire dont l’existence n’Aurait été signalée que dans\
+  \ un seul pays) stockées dans une collection d'une banque de gènes avec une quantité\
+  \ de matériel génétique stockée qui est nécessaire pour reconstituer la race en\
+  \ cas d’extinction (de plus amples informations sur « suffisamment de matériel stocké\
+  \ pour reconstituer une race » peuvent être trouvées dans les Lignes directrices\
+  \ sur la cryconservation des ressources génétiques animales, FAO, 2012, un document\
+  \ accessible à l'adresse http://www.fao.org/docrep/016/i3017e/i3017e00.htm). Ces\
+  \ lignes directrices ont été approuvées par la Commission des ressources génétiques\
   \ pour l’alimentation et l’agriculture de la FAO à sa treizième session ordinaire\
   \ (http://www.fao.org/docrep/meeting/024/mc192e.pdf). </p>\n<p><strong>Concepts :</strong></p>\n\
   <p><em>Ressources phytogénétiques</em></p>\n<p>Ressources phytogénétiques pour l’alimentation\
@@ -67,18 +68,18 @@ STAT_CONC_DEF: "<p><strong>Définition :</strong></p>\n<p>La conservation des 
   \ des conditions de stockage à moyen ou long terme, sous forme de semences dans\
   \ des chambres froides, de plantes sur le terrain et de tissus <em>in vitro</em>\
   \ et/ou cryoconservés. </p>\n<p><em>Ressources zoogénétiques</em></p>\n<p>Race :\
-  \ Une race est soit un groupe sous-spécifique de bétail domestique avec des caractéristiques\
-  \ externes définissables et identifiables qui lui permettent d’être séparée par\
-  \ une évaluation visuelle d’autres groupes définis de manière similaire au sein\
-  \ de la même espèce, soit un groupe pour lequel la séparation géographique et/ou\
+  \ Une race est soit un groupe sous-spécifique de bétail domestique présentant des\
+  \ caractéristiques externes définissables et identifiables qui lui permettent d’être\
+  \ séparée par une évaluation visuelle d'autres groupes de la même espèce définis\
+  \ de manière similaire, soit un groupe pour lequel la séparation géographique et/ou\
   \ culturelle de groupes phénotypiquement similaires a conduit à l’acceptation de\
   \ son identité distincte. </p>\n<p>Installations de conservation à moyen ou à long\
   \ terme : La diversité biologique est souvent conservée <em>ex situ</em>, à l’extérieur\
   \ de son habitat naturel, dans des installations appelées banques de gènes. Dans\
   \ le cas de la diversité des animaux domestiques, la conservation <em>ex situ</em>\
-  \ comprend à la fois l’entretien d’animaux vivants (<em>in vivo</em>) et la cryoconservation.\
-  \ </p>\n<p> La cryoconservation est la collecte et la congélation de sperme, d'ovules,\
-  \ d'embryons ou de tissus en vue d'une éventuelle utilisation future pour la reproduction\
+  \ comprend à la fois le maintien d’animaux vivants (<em>in vivo</em>) et la cryoconservation.\
+  \ </p>\n<p>La cryoconservation est la collecte et la congélation de sperme, d'ovules,\
+  \ d'embryons ou de tissus en vue d'une utilisation potentielle future pour la reproduction\
   \ ou la régénération des animaux.</p>"
 COLL_METHOD: "<p>L’indicateur est lié à un cadre de suivi approuvé par la Commission\
   \ des ressources génétiques pour l’alimentation et l’agriculture de la FAO, dans\
@@ -93,7 +94,7 @@ COLL_METHOD: "<p>L’indicateur est lié à un cadre de suivi approuvé par la C
 FREQ_COLL: "<p><em>Ressources phytogénétiques </em></p>\n<p>La collecte de données\
   \ est effectuée chaque année dans le cadre de la Commission des ressources génétiques\
   \ pour l’alimentation et l’agriculture de la FAO. </p>\n<p><em>Ressources zoogénétiques</em>\
-  \ </p>\n<p>Les données de DAD-IS peuvent être mises à jour tout au long de l’année.\
+  \ </p>\n<p>Les données du DAD-IS peuvent être mises à jour tout au long de l’année.\
   \ </p>"
 REL_CAL_POLICY: "<p><em>Ressources phytogénétiques </em></p>\n<p>Premier trimestre\
   \ de l'année. </p>\n<p><em>Ressources zoogénétiques </em></p>\n<p>Premier trimestre\
@@ -192,7 +193,7 @@ SOURCE_TYPE: "<p><em>Ressources phytogénétiques</em></p>\n<p> Les données pro
   \ pour l’alimentation et l’agriculture. </p>\n<p><em>Ressources zoogénétiques</em></p>\n\
   <p>Les coordonnateurs nationaux pour la gestion des ressources zoogénétiques, nommés\
   \ par leur gouvernement respectif, fournissent des données au Système d’information\
-  \ sur la diversité des animaux domestiques (DAD-IS) (http://dad.fao.org/). DAD-IS\
+  \ sur la diversité des animaux domestiques (DAD-IS) (http://dad.fao.org/). Le DAD-IS\
   \ permet aux pays de stocker des données sur les ressources zoogénétiques sécurisées\
   \ dans des installations de conservation à moyen ou à long terme selon les besoins\
   \ de l’indicateur. </p>"
@@ -212,10 +213,10 @@ RATIONALE: "<p>Les ressources génétiques pour l’alimentation et l’agricult
   \ ressources génétiques pour l’alimentation et l’agriculture de la FAO, dans lequel\
   \ l’état et les tendances des ressources génétiques végétales et animales sont décrits\
   \ au moyen d’indicateurs convenus à l’échelle mondiale et d’évaluations régulières\
-  \ par pays. </p>\n<p>Le nombre de matériaux conservés dans des conditions de stockage\
-  \ à moyen ou à long terme fournit une mesure indirecte de la diversité génétique\
-  \ totale, qui sont gérées pour une utilisation future. Dans l’ensemble, les variations\
-  \ positives sont donc approximativement une augmentation de l’agro-biodiversité\
+  \ par les pays. </p>\n<p>Le nombre de matériaux conservés dans des conditions de\
+  \ stockage à moyen ou à long terme fournit une mesure indirecte de la diversité\
+  \ génétique totale, qui sont gérées pour une utilisation future. Dans l’ensemble,\
+  \ les variations positives sont donc approximativement une augmentation de l’agro-biodiversité\
   \ assurée, tandis que les variations négatives une perte de celle-ci. </p>\n<p>Il\
   \ faut faire preuve de prudence dans la déclaration et l’interprétation de l’indicateur.\
   \ Dans le cas des ressources phytogénétiques, un ajout incontrôlé d’accessions qui\
@@ -236,8 +237,9 @@ RATIONALE: "<p>Les ressources génétiques pour l’alimentation et l’agricult
   \ et garantie. </p>"
 DATA_SOURCE: <p>Les points focaux nationaux / coordonnateurs nationaux officiellement
   nommés et les gestionnaires des banques de gènes régionales / internationales. Pour
-  plus d’informations par pays, voir pour les ressources phytogénétiques <a href="http://www.fao.org/agriculture/crops/thematic-sitemap/theme/seeds-pgr/gpa/national-focal-points/en/">http://www.fao.org/agriculture/crops/thematic-sitemap/theme/seeds-pgr/gpa/national-focal-points/en/</a>
-  et pour les ressources zoogénétiques <a href="http://www.fao.org/dad-is/national-coordinators/en/">http://www.fao.org/dad-is/national-coordinators/en/</a>.
+  plus d’informations par pays, consulter le lien suivant pour les ressources phytogénétiques
+  <a href="http://www.fao.org/agriculture/crops/thematic-sitemap/theme/seeds-pgr/gpa/national-focal-points/en/">http://www.fao.org/agriculture/crops/thematic-sitemap/theme/seeds-pgr/gpa/national-focal-points/en/</a>
+  et celui-ci pour les ressources zoogénétiques <a href="http://www.fao.org/dad-is/national-coordinators/en/">http://www.fao.org/dad-is/national-coordinators/en/</a>.
   </p>
 REC_USE_LIM: "<p><em>Ressources phytogénétiques</em></p>\n<p>De manière générale,\
   \ deux questions sont préoccupantes dans l’utilisation du « nombre d’accessions »\
@@ -270,8 +272,8 @@ DATA_COMP: "<p><em>Ressources phytogénétiques</em></p>\n<p>La composante vég�
   \ la composante animale, l’indicateur est calculé comme le nombre de races locales\
   \ avec suffisamment de matériel génétique stocké dans les collections de banques\
   \ de gènes permettant de reconstituer la race en cas d’extinction (sur la base des\
-  \ Directives sur la cryconservation des ressources génétiques animales, FAO, 2012,\
-  \ <a href=\"http://www.fao.org/docrep/016/i3017e/i3017e00.htm\">http://www.fao.org/docrep/016/i3017e/i3017e00.htm</a>).\
+  \ Directives sur la cryconservation des ressources zoogénétiques, FAO, 2012, <a\
+  \ href=\"http://www.fao.org/docrep/016/i3017e/i3017e00.htm\">http://www.fao.org/docrep/016/i3017e/i3017e00.htm</a>).\
   \ </p>"
 DOC_METHOD: "<p>Pour la composante végétale de l’indicateur, les points focaux nationaux\
   \ officiellement nommés et les gestionnaires de banques de gènes régionales ou internationales\
@@ -299,10 +301,10 @@ DOC_METHOD: "<p>Pour la composante végétale de l’indicateur, les points foca
   \ déclarées. </p>\n<p>Pour la composante animale, les coordonnateurs nationaux pour\
   \ la gestion des ressources zoogénétiques fournissent le type de matériel (par exemple,\
   \ échantillons de sperme, embryons, cellules somatiques) cryoconservé dans le cadre\
-  \ d’un programme de cryconservation, ainsi que le nombre de donneurs mâles et femelles\
-  \ respectifs au système d’information sur la diversité des animaux domestiques DAD-IS.\
-  \ </p><div class=\"footnotes\"> <div> <sup class=\"footnote-number\" id=\"footnote-2\"\
-  >1</sup><p> <a href=\"#footnote-ref-2\">&#x2191;</a></p></div></div>"
+  \ d’un programme de cryoconservation, ainsi que le nombre respectif de donneurs\
+  \ mâles et femelles dans le système d'information sur la diversité des animaux domestiques\
+  \ DAD-IS. </p><div class=\"footnotes\"> <div> <sup class=\"footnote-number\" id=\"\
+  footnote-2\">1</sup><p> <a href=\"#footnote-ref-2\">&#x2191;</a></p></div></div>"
 COMPARABILITY: "<p><strong>Sources des divergences :</strong></p>\n<p>Il n’existe\
   \ pas de données estimées à l’échelle internationale. Les données relatives à cet\
   \ indicateur sont toutes produites par des pays et des centres régionaux ou internationaux.\
@@ -316,15 +318,15 @@ COVERAGE: "<p><strong>Disponibilité des données :</strong></p>\n<p> <em>Ressou
   \ est effectuée chaque année en janvier. Des efforts continus sont déployés pour\
   \ améliorer la couverture des pays et des centres internationaux/régionaux, ainsi\
   \ que la qualité de l’information. </p>\n<p><em>Ressources zoogénétiques</em></p>\n\
-  <p>L’analyse des rapports par pays à la FAO fournis par 128 pays en 2014 pour la\
+  <p>L’analyse des rapports nationaux fournis par 128 pays à la FAO en 2014 pour la\
   \ préparation du « Second Report on the State of the World’s Animal Genetic Resources\
   \ for Food and Agriculture » a fourni une première base de référence en ce qui concerne\
   \ le nombre de populations de races nationales où suffisamment de matériel est stocké.\
-  \ En mars 2018, les informations rapportées dans DAD-IS étaient encore rares. Selon\
-  \ DAD-IS, le matériel génétique n’est cryoconservé que pour une très faible proportion\
-  \ (3%) des races locales et pour seulement environ 1% des races, la quantité de\
-  \ matériel stocké estimée suffisante pour la reconstitution de la population. Les\
-  \ données des rapports par pays ne sont pas directement comparables aux données\
+  \ En mars 2018, les informations rapportées dans le DAD-IS étaient encore rares.\
+  \ Selon le DAD-IS, le matériel génétique n’est cryoconservé que pour une très faible\
+  \ proportion (3%) des races locales et pour seulement environ 1% des races, la quantité\
+  \ de matériel stocké estimée suffisante pour la reconstitution de la population.\
+  \ Les données des rapports par pays ne sont pas directement comparables aux données\
   \ du DAD-IS, car les rapports par pays se réfèrent également aux races transfrontalières.\
   \ Cependant, les résultats basés sur les données du DAD-IS soulignent le besoin\
   \ urgent pour les pays de déclarer des informations relatives au matériel cryconservé\
@@ -333,7 +335,8 @@ COVERAGE: "<p><strong>Disponibilité des données :</strong></p>\n<p> <em>Ressou
   \ 2016, 2017 et 2018. Les estimations de l’état de l’indicateur avant 2014 sont\
   \ faites en utilisant la <em>date d’acquisition</em> des accessions déclarées en\
   \ 2014. </p>\n<p><em>Ressources zoogénétiques</em></p>\n<p>La base des données vient\
-  \ des rapports par pays fournis en 2014. Les données DAD-IS sont disponibles pour\
-  \ 2017 et 2018. </p>\n<p><strong>Désagrégation :</strong></p>\n<p>Pour les composantes\
-  \ végétales et animales, une désagrégation géographique (nationale, régionale, mondiale)\
-  \ est effectuée. Le regroupement par sexe, âge, etc. n’est pas applicable. </p>"
+  \ des rapports par pays fournis en 2014. Les données du DAD-IS sont disponibles\
+  \ pour 2017 et 2018. </p>\n<p><strong>Désagrégation :</strong></p>\n<p>Pour les\
+  \ composantes végétales et animales, une désagrégation géographique (nationale,\
+  \ régionale, mondiale) est effectuée. Le regroupement par sexe, âge, etc. n’est\
+  \ pas applicable. </p>"
