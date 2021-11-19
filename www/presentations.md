@@ -10,7 +10,7 @@ The project has now begun its third phase, which harvests SDG metadata routinely
 
 Selected presentations describing the project's status and plans are provided below.
 **UNSD Meeting with Custodian Agencies for the 2022 Data Reporting Cycle** (November 19, 2021)
-* [The Big Deal about Machine-Readable Metadata for SDGs] (https://docs.google.com/presentation/d/1ea1_sGvqBsAyxD-tJDfwOdzvxq4KzE7j/edit#slide=id.g1029022a816_0_29)
+* [The Big Deal about Machine-Readable Metadata for SDGs](https://docs.google.com/presentation/d/1ea1_sGvqBsAyxD-tJDfwOdzvxq4KzE7j/edit#slide=id.g1029022a816_0_29)
 
 **SDMX Global Conference** (September 29, 2021)
  * [Computer-Assisted Translation of SDMX Structural and Reference Metadata](https://docs.google.com/presentation/d/1_veQE4Ul2P2mP2gWzhFfBkmWFqogpZyM/edit?usp=sharing&ouid=116033792114015938213&rtpof=true&sd=true)
