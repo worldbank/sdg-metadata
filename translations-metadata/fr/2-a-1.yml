@@ -11,21 +11,19 @@ META_LAST_UPDATE: '<p>Mars 2021</p>'
 SDG_CUSTODIAN_AGENCIES: >-
   <p>Organisation des Nations unies pour l'alimentation et l'agriculture (FAO)</p>
 STAT_CONC_DEF: >-
-  <h1>Concepts et définitions</h1>
+  <p><strong>Définition :</strong></p>
 
-  <h2><strong><strong>Définition :</strong></strong></h2>
+  <p>L'Indice d’orientation agricole (IOA) des dépenses publiques est défini comme
+  la part de l'agriculture dans les dépenses publiques, divisée par la part de la
+  valeur ajoutée de l'agriculture dans le produit intérieur brut (PIB), l'agriculture
+  désignant le secteur de l'agriculture, de la sylviculture, de la pêche et de la
+  chasse. La mesure est un indice exempt de devise, calculé comme le rapport entre
+  ces deux parts. Les gouvernements nationaux sont tenus de calculer les dépenses
+  publiques selon les statistiques de finances publiques (SFP) et la Classification
+  des fonctions des administrations publiques (CFAP), et la part de la valeur ajoutée
+  de l'agriculture dans le PIB selon le système de comptabilité nationale (SCN).</p>
 
-  <p>L'Indice d’orientation agricole des dépenses publiques est défini comme la part
-  de l'agriculture dans les dépenses publiques, divisée par la part de la valeur ajoutée
-  de l'agriculture dans le produit intérieur brut (PIB), l'agriculture désignant le
-  secteur de l'agriculture, de la sylviculture, de la pêche et de la chasse. La mesure
-  est un indice exempt de devise, calculé comme le rapport entre ces deux parts. Les
-  gouvernements nationaux sont tenus de calculer les dépenses publiques selon les
-  statistiques de finances publiques (SFP) et la classification des fonctions des
-  administrations publiques (CFAP), et la part de la valeur ajoutée de l'agriculture
-  dans le PIB selon le système de comptabilité nationale (SCN).</p>
-
-  <h2><strong><strong>Concepts :</strong></strong></h2>
+  <p><strong>Concepts :</strong></p>
 
   <p>L'agriculture désigne le secteur de l'agriculture, de la sylviculture, de la
   pêche et de la chasse, ou la division A de la Classification internationale type
@@ -33,7 +31,7 @@ STAT_CONC_DEF: >-
 
   <p>Les dépenses publiques sont toutes les dépenses et acquisitions d'actifs non
   financiers associés au soutien d'un secteur en particulier, tel que défini dans
-  le Manuel des statistiques de finances publiques (GFSM) 2014 élaboré par le Fonds
+  le Manuel des statistiques de finances publiques (MSFP) 2014 élaboré par le Fonds
   monétaire international (FMI). </p>
 
   <p>Les dépenses publiques sont classées selon la Classification des fonctions des
@@ -44,20 +42,16 @@ STAT_CONC_DEF: >-
   <p>La valeur ajoutée agricole et le PIB sont basés sur le système de comptabilité
   nationale (SCN). </p>
 SOURCE_TYPE: >-
-  <h1>Sources de données</h1>
-
-  <h2><strong><strong>Description :</strong></strong></h2>
-
-  <p>Les données sur les dépenses publiques sont collectées auprès des pays au moyen
+  <p>Les données sur les dépenses publiques sont recueillies auprès des pays au moyen
   d'un questionnaire annuel administré par la FAO. Étant donné que les pays compilent
   généralement les données sur les dépenses publiques en fonction de leurs systèmes
   financiers, et qu'il s'agit de données administratives couvrant la totalité des
   dépenses publiques, en particulier au niveau du gouvernement central, il n'y a pas
-  de problème d'échantillonnage et aucune possibilité d'erreur d'échantillonnage.
-  Pour certains pays qui ne communiquent pas de telles données à la FAO, les données
-  peuvent être obtenues à partir de la base de données GFS du FMI (qui comprend des
-  données similaires, mais couvrant davantage de secteurs, et avec moins de désagrégation
-  du CFAP 042) ou à partir des sites web officiels des gouvernements nationaux. </p>
+  d'erreur d'échantillonnage. Pour certains pays qui ne communiquent pas de telles
+  données à la FAO, les données peuvent être obtenues à partir de la base de données
+  SFP du FMI (qui comprend des données similaires, mais couvrant davantage de secteurs,
+  et avec moins de désagrégation du CFAP 042) ou à partir des sites web officiels
+  des gouvernements nationaux. </p>
 
   <p>Les données sur la valeur ajoutée agricole et le PIB sont basées sur le système
   de comptabilité nationale, qui est un cadre analytique qui compile les données nationales
@@ -66,107 +60,95 @@ SOURCE_TYPE: >-
   des Nations Unies, qui fournit des estimations de comptabilité nationale pour 220
   pays et territoires.</p>
 COLL_METHOD: >-
-  <h2><strong><strong>Processus de collecte :</strong></strong></h2>
-
-  <p>Les données pour le dénominateur sont collectées chaque année auprès des pays
-  à l'aide du questionnaire de la FAO sur les GEA, élaboré en collaboration avec le
-  FMI. Les données des pays peuvent être complétées, pour les pays manquants, par
-  des données collectées par le FMI, ou publiées sur les sites web officiels des gouvernements
-  nationaux. Les homologues officielles au niveau national sont, selon le pays, le
-  bureau national des statistiques, le ministère des finances (ou une autre agence
-  centrale de planification) ou le ministère de l'agriculture. La validation et la
-  consultation ont été menées par le biais de diverses commissions et comités de la
-  FAO, notamment ses deux commissions de statistiques agricoles en Afrique et en Asie
-  et Pacifique, son Comité des statistiques de l'agriculture et de l'élevage en Amérique
-  latine et dans les Caraïbes, et son Comité de l'agriculture. </p>
+  <p>Les données pour le dénominateur sont recueillies chaque année auprès des pays
+  à l'aide du questionnaire de la FAO sur les dépenses publiques en agriculture (DPA),
+  élaboré en collaboration avec le FMI. Les données des pays peuvent être complétées,
+  pour les pays avec données manquantes, par des données recueillies par le FMI, ou
+  publiées sur les sites web officiels des gouvernements nationaux. Les homologues
+  officiels au niveau national sont, selon le pays, le bureau national de statistique,
+  le ministère des finances (ou une autre agence centrale de planification) ou le
+  ministère de l'agriculture. La validation et la consultation ont été menées par
+  le biais de diverses commissions et comités de la FAO, notamment ses deux commissions
+  de statistiques agricoles en Afrique et en Asie et Pacifique, son Comité des statistiques
+  de l'agriculture et de l'élevage en Amérique latine et dans les Caraïbes, et son
+  Comité de l'agriculture. </p>
 FREQ_COLL: >-
-  <h1>Calendrier</h1>
-
-  <h2><strong><strong>Collecte de données :</strong></strong></h2>
-
-  <p>La collecte des données de 2019 sur les dépenses publiques en matière d'agriculture
-  commencera en mai 2020. En raison du temps nécessaire pour collecter, compiler et
-  publier les données nationales, très peu de pays seront en mesure de fournir les
-  données de l'année de référence 2019 pour le cycle de collecte de données du printemps
-  2020 de la FAO.</p>
+  <p>La collecte des données pour l'année de référence 2020 sur les dépenses publiques
+  en agriculture (DPA) commencera en mars-avril 2021. En raison du temps nécessaire
+  pour recueillir, compiler et publier les données nationales, certains pays seront
+  peut-être en retard pour fournir des données ponctuelles.</p>
 REL_CAL_POLICY: >-
-  <h2><strong><strong>Publication des données :</strong></strong></h2>
-
   <p>Comme ces données sont en grande partie compilées annuellement, la prochaine
-  publication de cet indicateur est prévue pour novembre 2020 et couvrira les données
-  jusqu'à l'année de référence 2019 (pour les pays pour lesquels la collecte, la compilation
+  publication de cet indicateur est prévue pour novembre 202 et couvrira les données
+  jusqu'à l'année de référence 2020 (pour les pays pour lesquels la collecte, la compilation
   et la publication des données sont plus rapides).</p>
+
+  <p></p>
 DATA_SOURCE: >-
-  <h1>Fournisseurs de données</h1>
-
-  <p>Ministère des finances, agence centrale de planification, bureau national des
-  statistiques et/ou ministère de l'agriculture</p>
+  <p>Ministère des finances, agence centrale de planification, bureau national de
+  statistique et/ou ministère de l'agriculture</p>
 COMPILING_ORG: >-
-  <h1> Compilateurs de données</h1>
-
-  <p> Organisation des Nations Unies pour l’alimentation et l’agriculture (FAO)</p>
+  <p>Organisation des Nations Unies pour l’alimentation et l’agriculture (FAO)</p>
 RATIONALE: >-
-  <h2> <strong> <strong> Justification :</strong></strong></h2>
-
-  <p> Un indice d’orientation agricole (IOA) supérieur à 1 reflète une orientation
+  <p>Un indice d’orientation agricole (IOA) supérieur à 1 reflète une orientation
   plus élevée vers le secteur agricole, qui reçoit une part plus élevée des dépenses
   publiques par rapport à sa contribution à la valeur ajoutée économique. Un IOA inférieur
   à 1 reflète une orientation plus faible vers l’agriculture, tandis qu’un IOA égal
   à 1 reflète la neutralité dans l’orientation d’un gouvernement vers le secteur agricole.
   </p>
 
-  <p> Les dépenses publiques consacrées à l’agriculture comprennent les dépenses consacrées
-  aux politiques et aux programmes sectoriels ; l’amélioration du sol et le contrôle
-  de la dégradation des sols ; l’irrigation et les réservoirs à usage agricole ; la
-  gestion de la santé animale, la recherche sur le bétail et la formation en élevage ;
-  recherche biologique marine/d’eau douce ; le boisement et d’autres projets forestiers ;
+  <p>Les dépenses publiques consacrées à l’agriculture comprennent les dépenses consacrées
+  aux politiques et aux programmes sectoriels; l’amélioration du sol et le contrôle
+  de la dégradation des sols; l’irrigation et les réservoirs à usage agricole; la
+  gestion de la santé animale, la recherche sur le bétail et la formation en élevage;
+  la recherche biologique marine/d’eau douce; le boisement et d’autres projets forestiers;
   etc.</p>
 
-  <p> Les dépenses consacrées à ces activités agricoles contribuent à accroître l’efficacité
+  <p>Les dépenses consacrées à ces activités agricoles contribuent à accroître l’efficacité
   du secteur, la productivité et la croissance des revenus en augmentant le capital
   physique ou humain et/ou en réduisant les contraintes budgétaires inter-temporaires.
   </p>
 
-  <p> Toutefois, le secteur privé sous-investi généralement dans ces activités en
+  <p>Toutefois, le secteur privé sous-investit généralement dans ces activités en
   raison de la présence d’une défaillance du marché (p. ex. la bonne nature de la
   recherche et du développement dans le secteur public, les externalités positives
-  liées à l’amélioration des conditions du sol et de l’eau ; le manque d’accès au
-  crédit concurrentiel en raison de l’information asymétrique entre les producteurs
-  et les institutions financières, etc.). De même, le risque élevé auquel sont confrontés
+  liées à l’amélioration des conditions du sol et de l’eau; le manque d’accès au crédit
+  concurrentiel en raison de l’information asymétrique entre les producteurs et les
+  institutions financières, etc.). De même, le risque élevé auquel sont confrontés
   les producteurs agricoles, en particulier les petits exploitants incapables de se
   protéger contre les risques, exige souvent l’intervention du gouvernement en termes
   de redistribution des revenus pour soutenir les petits exploitants en détresse à
   la suite de mauvaises récoltes et de pertes de bétail causées par les ravageurs,
-  les sécheresses, les inondations, les défaillances d’infrastructures ou les graves
-  changements de prix. </p>
+  les sécheresses, les inondations, les défaillances d’infrastructures ou les changements
+  de prix importants. </p>
 
-  <p> Les dépenses publiques consacrées à l’agriculture sont essentielles pour remédier
+  <p>Les dépenses publiques consacrées à l’agriculture sont essentielles pour remédier
   à ces défaillances du marché et au besoin périodique de redistribution des revenus.
-  Cela conduit à plusieurs indicateurs potentiels pour les Objectifs de développement
-  durable, notamment : a) le niveau des dépenses publiques consacrées à l’agriculture
-  (GEA) ; b) la part de l’agriculture dans les dépenses publiques, et c) l’AOI pour
-  les dépenses publiques. </p>
+  Cela conduit à plusieurs indicateurs potentiels pour les objectifs de développement
+  durable, notamment : a) le niveau des dépenses publiques en agriculture (DPA) ;
+  b) la part de l’agriculture dans les dépenses publiques, et c) l’IOA pour les dépenses
+  publiques. </p>
 
-  <p> Un indicateur qui mesure les niveaux de GEA ne tient pas compte de la taille
-  d’une économie. Si deux pays, A et B, ont le même niveau de GEA, et la même contribution
+  <p>Un indicateur qui mesure les niveaux de DPA ne tient pas compte de la taille
+  d’une économie. Si deux pays, A et B, ont le même niveau de DPA, et la même contribution
   agricole au PIB, mais que l’économie du pays A est 10 fois celle du pays B, fixer
-  les mêmes niveaux cibles pour le GEA ne tient pas compte de la taille économique.
+  les mêmes niveaux cibles pour le DPA ne tient pas compte de la taille économique.
   </p>
 
-  <p> Un indicateur qui mesure du GEA ne tient pas compte des contributions relatives
-  du secteur agricole au PIB d’un pays. Prenons deux pays de la même taille économique,
-  C et D, où l’agriculture contribue à hauteur de 2 % au PIB de C, et de 10 % au PIB
-  du pays D. Si les dépenses publiques totales étaient égales dans les deux pays,
-  C ferait l’expérience d’un investissement relatif plus important dans l’agriculture
-  que D. Si les dépenses publiques totales différaient, le résultat pourrait être
-  amplifié ou dilué. </p>
+  <p>Un indicateur qui mesure la part de l’agriculture dans les dépenses publiques
+  ne tient pas compte des contributions relatives du secteur agricole au PIB d’un
+  pays. Prenons deux pays de la même taille économique, C et D, où l’agriculture contribue
+  2 % au PIB de C, et 10 % au PIB du pays D. Si les dépenses publiques totales étaient
+  égales dans les deux pays, C ferait l’expérience d’un investissement relatif plus
+  important dans l’agriculture que D. Si les dépenses publiques totales différaient,
+  le résultat pourrait être amplifié ou dilué. </p>
 
-  <p> L’indice IOA tient compte de la taille économique d’un pays, de la contribution
-  de l’Agriculture au PIB et du montant total des dépenses publiques. En tant que
-  tel, il permet l’établissement d’une cible universelle et réalisable. Néanmoins,
-  il est utile d’interpréter l’IOA en combinaison avec son numérateur et son dénominateur
-  séparément, soit : la part de l’agriculture dans les dépenses publiques et la part
-  à valeur ajoutée du PIB dans l’agriculture.</p>
+  <p>L’indice IOA tient compte de la taille économique d’un pays, de la contribution
+  de l’agriculture au PIB et du montant total des dépenses publiques. Bien que l'indicateur
+  ne permette pas l’établissement d’une cible universelle et réalisable, il est utile
+  d’interpréter l’IOA en combinaison avec son numérateur et son dénominateur séparément,
+  soit : la part de l’agriculture dans les dépenses publiques et la part de la valeur
+  ajoutée du PIB dans l’agriculture.</p>
 REC_USE_LIM: >-
   <h2><strong><strong>Commentaires et limites : </strong></strong></h2>
 
@@ -275,3 +257,44 @@ OTHER_DOC: >-
   <p>FMI Manuel des statistiques de finances publiques 2014 <br><a href="https://www.imf.org/external/Pubs/FT/GFS/Manual/2014/GFSM_2014_FRE.pdf">https://www.imf.org/external/Pubs/FT/GFS/Manual/2014/GFSM_2014_FRE.pdf</a></p>
 CONTACT_ORGANISATION: <p>Organisation des Nations unies pour l'alimentation et l'agriculture
   (FAO)</p>
+CLASS_SYSTEM: "<p>La Classification des fonctions des administrations publiques (CFAP)\
+  \ est une classification détaillée des fonctions, ou objectifs socio-économiques,\
+  \ que les unités des administrations publiques visent à atteindre par le biais de\
+  \ divers types de dépenses. Les fonctions sont classées selon un schéma à trois\
+  \ niveaux, conforme à la Classification internationale type des industries de toutes\
+  \ les activités économiques (CITI), Rév.4. En particulier, le schéma comprend :\
+  \ </p>\n<ol>\n  <li>10 catégories de premier niveau, ou à deux chiffres, appelées\
+  \ divisions, y compris les catégories Affaires économiques (04) et Protection de\
+  \ l’environnement (05); </li>\n  <li>au sein de chaque division, 2 catégories ou\
+  \ plus à trois chiffres, appelées groupes, comme l’agriculture, la foresterie, la\
+  \ pêche et la chasse (042) et la protection de la biodiversité et des paysages (054);\
+  \ et </li>\n  <li>au sein de chaque groupe, une ou plusieurs catégories à quatre\
+  \ chiffres, appelées classes, telles que Agriculture (0421), Foresterie (0422) et\
+  \ Pêche et chasse (0423). </li>\n</ol>\n<p>Le questionnaire du Fonds monétaire international\
+  \ (FMI) sur les statistiques de finances publiques (SFP) recueille des données sur\
+  \ les deux premiers niveaux. Le questionnaire de la FAO vise à recueillir des informations\
+  \ sur les classes, ainsi qu’une ventilation des dépenses connexes en dépenses récurrentes\
+  \ et en dépenses en capital. Les trois niveaux de classification et le contenu de\
+  \ chaque classe sont décrits dans le MSFP 2014, accessible à l'adresse https://www.imf.org/external/np/sta/gfsm/.\
+  \ </p>\n<p>La classification géographique FAOSTAT est utilisée pour agréger les\
+  \ indicateurs entre les groupes de pays (<a href=\"http://www.fao.org/faostat/en/#definitions\"\
+  >http://www.fao.org/faostat/en/#definitions</a>). </p>"
+INST_MANDATE: '<p>L’article I de la Constitution de la FAO exige que l’Organisation
+  « recueille, analyse, interprète et diffuse des informations relatives à la nutrition,
+  à l’alimentation et à l’agriculture ».(http://www.fao.org/docrep/x5584e/x5584e00.htm).
+  Les pays membres ont réaffirmé ce mandat en 2000. Dans le cadre du programme de
+  travail statistique de la FAO, les pays membres ont approuvé le développement d’un
+  domaine des statistiques d’investissement, y compris les travaux en cours sur les
+  dépenses publiques consacrées à l’agriculture, lors des réunions de trois organismes
+  statutaires: la Commission Asie-Pacifique des statistiques agricoles (APCAS) tenue
+  au Vietnam en février 2014; la Commission africaine des statistiques agricoles (AFCAS)
+  qui s’est tenue au Maroc en décembre 2013 ; et le groupe de travail de l’IICA sur
+  les statistiques de l’agriculture et de l’élevage pour l’Amérique latine et les
+  Caraïbes, qui s’est tenu à Trinité-et-Tobago en juin 2013. </p>'
+SDG_SERIES_DESCR: "<p>Série primaire : Indice d’orientation agricole pour les dépenses\
+  \ publiques</p>\n<p>Série complémentaire : Part de la valeur ajoutée de l’agriculture\
+  \ dans le PIB (%)</p>\n<p>Séries complémentaires : Part de l’agriculture dans les\
+  \ dépenses publiques (%). </p>"
+SDG_RELATED_INDICATORS: <p>Les indicateurs 17.1.1 et 17.1.2 s'appliquent également
+  à la méthodologie des SFP du FMI.</p>
+UNIT_MEASURE: "<p>Ratio</p>\n<p>Voir 4.c. Méthode de calcul, ci-dessous. </p>"
