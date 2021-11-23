@@ -45,13 +45,13 @@ SOURCE_TYPE: >-
   <p>Les données sur les dépenses publiques sont recueillies auprès des pays au moyen
   d'un questionnaire annuel administré par la FAO. Étant donné que les pays compilent
   généralement les données sur les dépenses publiques en fonction de leurs systèmes
-  financiers, et qu'il s'agit de données administratives couvrant la totalité des
-  dépenses publiques, en particulier au niveau du gouvernement central, il n'y a pas
-  d'erreur d'échantillonnage. Pour certains pays qui ne communiquent pas de telles
-  données à la FAO, les données peuvent être obtenues à partir de la base de données
-  SFP du FMI (qui comprend des données similaires, mais couvrant davantage de secteurs,
-  et avec moins de désagrégation du CFAP 042) ou à partir des sites web officiels
-  des gouvernements nationaux. </p>
+  financiers et comptables, et qu'il s'agit de données administratives couvrant la
+  totalité des dépenses publiques, en particulier au niveau du gouvernement central,
+  il n'y a pas d'erreur d'échantillonnage. Pour certains pays qui ne communiquent
+  pas de telles données à la FAO, les données peuvent être obtenues à partir de la
+  base de données SFP du FMI (qui comprend des données similaires, mais couvrant davantage
+  de secteurs, et avec moins de désagrégation du CFAP 042) ou à partir des sites web
+  officiels des gouvernements nationaux. </p>
 
   <p>Les données sur la valeur ajoutée agricole et le PIB sont basées sur le système
   de comptabilité nationale, qui est un cadre analytique qui compile les données nationales
@@ -150,18 +150,34 @@ RATIONALE: >-
   soit : la part de l’agriculture dans les dépenses publiques et la part de la valeur
   ajoutée du PIB dans l’agriculture.</p>
 REC_USE_LIM: >-
-  <h2><strong><strong>Commentaires et limites : </strong></strong></h2>
+  <p>Comme le numérateur de ces données est basé sur des systèmes financiers et comptables
+  et des sources administratives, il n'y a pas d'intervalle de confiance ou d'erreur
+  type associés aux données sur les dépenses publiques. Pour le dénominateur, les
+  données des comptes nationaux ne fournissent généralement aucune information sur
+  l'erreur type ou l'intervalle de confiance.</p>
 
-  <p>Comme le numérateur de ces données est basé sur des sources administratives,
-  il n'y a pas d'intervalle de confiance ou d'erreur type associé aux données sur
-  les dépenses publiques. Pour le dénominateur, les données des comptes nationaux
-  ne fournissent généralement aucune information sur l'erreur type ou l'intervalle
-  de confiance.</p>
+  <p>La principale limite de cet indicateur est que les dépenses consolidées des administrations
+  publiques, la meilleure mesure pour les comparaisons entre pays, ne sont pas disponibles
+  pour tous les pays déclarants. Alors que la plupart des économies avancées et de
+  nombreuses économies de marché émergentes déclarent ces données, de nombreuses économies
+  plus petites et/ou à faible revenu n’ont pas d’interventions budgétaires significatives
+  dans l’agriculture aux niveaux de l'état/provincial et local/municipal; ou ne disposent
+  pas de données sources suffisantes pour établir des estimations significatives des
+  administrations publiques pour chaque sous-secteur. Étant donné que dans plusieurs
+  pays, des interventions importantes dans le domaine de l’agriculture sont mises
+  en œuvre par les gouvernements infranationaux, l’indicateur 2.a.1 est calculé en
+  utilisant le niveau de gouvernement le plus élevé disponible pour le pays déclarant.
+  Pour certains pays, comme l’Inde, où le secteur des administrations publiques est
+  défini à des fins de politique budgétaire comme l’administration centrale budgétaire
+  plus l’administration publique des États, l’indicateur en tiendra compte. </p>
 
-  <p>La principale limite de cet indicateur est qu'il ne prend en compte que les dépenses
-  du gouvernement central. Dans la mesure où certains pays peuvent avoir une intervention
-  plus importante des gouvernements infranationaux dans l'agriculture, cela ne sera
-  pas pris en compte.</p>
+  <p>L’annexe I énumère les pays déclarants, leur code M49, la dernière année pour
+  laquelle des données sont disponibles et le niveau de gouvernement pour lequel des
+  données ont été déclarées. La notation du niveau de gouvernement utilisée est la
+  suivante: GG: Gouvernement général consolidé; CG: Gouvernement central consolidé
+  (à l’exclusion des caisses de sécurité sociale): CGI: Gouvernement central consolidé
+  (y compris les caisses de sécurité sociale); BA : Gouvernement central budgétaire.
+  </p>
 DATA_COMP: >-
   <h1>Méthodologie</h1>
 
@@ -288,7 +304,7 @@ INST_MANDATE: '<p>L’article I de la Constitution de la FAO exige que l’Organ
   dépenses publiques consacrées à l’agriculture, lors des réunions de trois organismes
   statutaires: la Commission Asie-Pacifique des statistiques agricoles (APCAS) tenue
   au Vietnam en février 2014; la Commission africaine des statistiques agricoles (AFCAS)
-  qui s’est tenue au Maroc en décembre 2013 ; et le groupe de travail de l’IICA sur
+  qui s’est tenue au Maroc en décembre 2013; et le groupe de travail de l’IICA sur
   les statistiques de l’agriculture et de l’élevage pour l’Amérique latine et les
   Caraïbes, qui s’est tenu à Trinité-et-Tobago en juin 2013. </p>'
 SDG_SERIES_DESCR: "<p>Série primaire : Indice d’orientation agricole pour les dépenses\
