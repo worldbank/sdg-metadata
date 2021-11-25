@@ -287,7 +287,7 @@
 &lt;p&gt;Il est important de distinguer clairement les données manquantes des événements non applicables. Comme précisé ci-dessus et dans les fiches méthodologiques des sous-indicateurs, certains sous-indicateurs peuvent être enregistrés comme « sans objet » pour une exploitation donnée. Dans ce cas, l&apos;exploitation sera considérée comme durable du point de vue des sous-indicateurs donnés.&lt;/p&gt;
 &lt;p&gt;&amp;#x2022; Au niveau du pays&lt;/p&gt;
 &lt;p&gt;&amp;#x2022; Aux niveaux régional et mondial&lt;/p&gt;&lt;p&gt;Ces données seront diffusées par l’intermédiaire de FAOSTAT, la plus grande base de données de statistiques alimentaires et agricoles. Par conséquent, la méthode de calcul suivra la norme internationale établie par la base de données. Dans le cas de cet indicateur, les agrégats régionaux et mondiaux seront calculés en pondérant les indicateurs nationaux en fonction de la superficie agricole du pays.&lt;/p&gt;&lt;p&gt;La note méthodologique fournit une description détaillée du calcul de l&apos;indicateur sur la base de l&apos;enquête agricole.&lt;/p&gt;
-&lt;p&gt; Les valeurs pour déclarer l&apos;indicateur 2.4.1 peuvent être calculées comme suit :&lt;/p&gt;
+&lt;p&gt;Les valeurs pour déclarer l&apos;indicateur 2.4.1 peuvent être calculées comme suit :&lt;/p&gt;
 &lt;p&gt;&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;
     &lt;msub&gt;
       &lt;mrow&gt;
@@ -336,7 +336,7 @@
   &lt;/math&gt;&lt;/p&gt;
 &lt;p&gt;où :&lt;/p&gt;
 &lt;p&gt;SDG241&lt;sub&gt;d &lt;/sub&gt;= proportion de la superficie des terres agricoles qui a atteint le niveau « désiré »&lt;/p&gt;
-SI&lt;sub&gt;d n &lt;/sub&gt;= proportion du sous-indicateur n qui est classée dans le niveau « désiré »&lt;/p&gt;
+&lt;p&gt;SI&lt;sub&gt;d n &lt;/sub&gt;= proportion du sous-indicateur n qui est classée dans le niveau « désiré »&lt;/p&gt;
 &lt;p&gt;min fait référence au niveau minimum des SI&lt;sub&gt;d n&lt;/sub&gt; au niveau national pour l&apos;ensemble des 11 sous-indicateurs&lt;/p&gt;
 &lt;p&gt;SDG241&lt;sub&gt;d &lt;/sub&gt;est la proportion de la superficie des terres agricoles pour laquelle tous les sous-indicateurs sont verts.&lt;/p&gt;
 &lt;p&gt; &lt;/p&gt;
@@ -471,7 +471,7 @@ SI&lt;sub&gt;d n &lt;/sub&gt;= proportion du sous-indicateur n qui est classée 
       &lt;/mrow&gt;
     &lt;/mrow&gt;
   &lt;/math&gt;&lt;/p&gt;
-&lt;p&gt;where:&lt;/p&gt;
+&lt;p&gt;où :&lt;/p&gt;
 &lt;p&gt;SDG241&lt;sub&gt;u &lt;/sub&gt;= proportion estimée par défaut de la superficie des terres agricoles qui est « non durable » (voir la note plus bas)&lt;/p&gt;
 &lt;p&gt;SI&lt;sub&gt;u n &lt;/sub&gt;= proportion du sous-indicateur n qui est classée « non durable »&lt;/p&gt;
 &lt;p&gt;max fait référence à la valeur maximale des SI&lt;sub&gt;u n&lt;/sub&gt; pour l&apos;ensemble des 11 sous-indicateurs, au niveau national&lt;/p&gt;
