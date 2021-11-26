@@ -100,7 +100,7 @@ DATA_COMP: >-
 
   <p>Des détails sont disponibles dans le document de mesure de l'impact de la tuberculose
   (en anglais) : politique et recommandations pour évaluer le fardeau épidémiologique
-  de la tuberculose et l'impact du contrôle de la tuberculose (https://www.who.int/publications/i/item/9789241598828)
+  de la tuberculose et l'impact la lutte antituberculeuse (https://www.who.int/publications/i/item/9789241598828)
   et dans l'annexe technique en ligne du rapport mondial de l'OMS sur la tuberculose
   (en anglais) à l'adresse <a href="https://www.who.int/teams/global-tuberculosis-programme/data">https://www.who.int/teams/global-tuberculosis-programme/data</a>.</p>
 IMPUTATION: >-
@@ -142,41 +142,50 @@ COVERAGE: >-
   <p>L'indicateur est désagrégé par pays, sexe et groupe d'âge et cinq facteurs de
   risque. </p>
 COMPARABILITY: >-
-  <h2> Sources des écarts : </h2>
+  <p>Sources des divergences : </p>
 
-  <p> Les dénominateurs de population peuvent différer entre les sources nationales
-  et les données de la Division de la population du Département des affaires économiques
-  et sociales du Secrétariat des Nations Unies. L'OMS utilise les estimations démographiques
-  de l'organisme de l'ONU.</p>
+  <p>Les dénominateurs de population peuvent différer entre les sources nationales
+  et les données de la Division de la population des Nations Unies. L'OMS utilise
+  les estimations démographiques de celle-ci.</p>
 OTHER_DOC: >-
-  <h1> Références </h1>
+  <p><strong>URL : </strong> </p>
 
-  <p><strong> URL : </strong></p>
+  <p> </p>
 
-  <p> <a href="http://www.who.int/tb/country/data/download/en/"> http ://www.who.int/tb/country/data/download/en/</a></p>
+  <p><a href="https://www.who.int/teams/global-tuberculosis-programme/data">https://www.who.int/teams/global-tuberculosis-programme/data</a>(en
+  anglais)</p>
 
-  <h2> Références : </h2>
+  <p><strong>Références :</strong> </p>
 
-  <p> WHO global tuberculosis report 2017 : (<a href="http ://www.who.int/tb/publications/global_report/en/">
-  http ://www.who.int/tb/publications/global_report/en/ </a>, consulté le 9 janvier
-  2018).</p>
+  <p> </p>
 
-  <p> Methods used by WHO to estimate the Global burden of TB disease : <a href="https ://arxiv.org/ftp/arxiv/papers/1603/1603.00278.pdf">
-  https ://arxiv.org/ftp/arxiv/papers/1603/1603.00278.pdf </a> </p>
+  <p>Le dernier Rapport mondial sur la tuberculose de l'OMS (en anglais) : <a href="https://www.who.int/teams/global-tuberculosis-programme/data">https://www.who.int/teams/global-tuberculosis-programme/data</a>,
+  consulté le 4 janvier 2021). </p>
 
-  <p> Définitions et cadre de notification pour la tuberculose &#x2013  Révision de
-  2013. Genève : Organisation mondiale de la Santé ; 2013<a href="http://www.who.int/tb/publications/definitions/fr/">
-  http ://www.who.int/tb/publications/definitions/fr/ </a>, consulté le 21 juin 2016).</p>
+  <p> </p>
 
-  <p> Documentation des organes directeurs de l'Assemblée mondiale de la Santé : documents
-  officiels. Genève : Organisation mondiale de la Santé (<a href="http ://apps.who.int/gb/or/">
-  http ://apps.who.int/gb/or/ </a>, consulté le 21 juin 2016). </p>
+  <p> </p>
+
+  <p>Définitions et cadre de notification pour la tuberculose, révision 2013 (WHO/HTM/TB/2013.2).
+  Genève : Organisation mondiale de la Santé ; 2013 (<a href="https://www.who.int/fr/publications/i/item/9789241505345">https://www.who.int/fr/publications/i/item/9789241505345</a>
+  consulté le 4 janvier 2021). </p>
+
+  <p> </p>
+
+  <p>Document de mesure de l'impact de la tuberculose (en anglais) : politique et
+  recommandations pour évaluer le fardeau épidémiologique de la tuberculose et l'impact
+  de la lutte antituberculeuse (WHO/HTM/TB/2009.416). Genève : Organisation mondiale
+  de la Santé ; 2009 (https://www.who.int/publications/i/item/9789241598828). </p>
+
+  <p>Documentation des organismes directeurs de l'Assemblée mondiale de la Santé :
+  documents officiels (en anglais). Genève : Organisation mondiale de la Santé (http://apps.who.int/gb/or/,
+  consulté le 21 juin 2016). </p>
 SDG_SERIES_DESCR: <p>Sans objet</p>
 SDG_RELATED_INDICATORS: "<p>Indicateurs associés à l'incidence de la tuberculose :\
   \ 1.1.1, 1.3.1, 2.1.1, 3.3.1, 3.4.1, 3.5.2, 3.a.1, 3.8.1, 3.8.2, 7.1.2, 8.1.1, 10.1.1,\
   \ 11.1.1</p>"
 CONTACT_ORGANISATION: <p>Organisation mondiale de la Santé (OMS)</p>
-UNIT_MEASURE: <p>Nombre de cas pour 100 000 habitant par année.</p>
+UNIT_MEASURE: <p>Nombre de cas pour 100 000 habitants par année.</p>
 CLASS_SYSTEM: '<p>Définitions et cadre de notification pour la tuberculose, révision
   2013 (WHO/HTM/TB/2013.2). Genève : Organisation mondiale de la Santé; 2013 (<a href="https://www.who.int/fr/publications/i/item/9789241505345">https://www.who.int/fr/publications/i/item/9789241505345</a>
   consulté le 4 janvier 2021). </p>'
@@ -204,7 +213,7 @@ QUALITY_ASSURE: <p>Les données sur la tuberculose déclarées par les États me
 INST_MANDATE: <p>Plusieurs résolutions de l'OMS approuvées par les États membres lors
   de différentes assemblées mondiales de la santé ont confié à l'OMS la responsabilité
   de surveiller le fardeau de la tuberculose dans le monde et de rendre compte de
-  la réponse (https://www.who.int/tb/publications/resolutions/en/). </p>
+  la réponse (https://www.who.int/tb/publications/resolutions/en/) (en anglais). </p>
 QUALITY_MGMNT: "<p>Toutes les statistiques sanitaires publiées par l'OMS font l'objet\
   \ d'un examen interne systématique de la part de la Division des données, y compris\
   \ les statistiques sur le fardeau de la tuberculose. L'examen externe de statistiques\
