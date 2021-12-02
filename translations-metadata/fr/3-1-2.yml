@@ -80,16 +80,16 @@ REL_CAL_POLICY: >-
   <p>Les données communiquées par les pays et les estimations mondiales et régionales
   sont publiées chaque année ; en février par l'UNICEF sur le site Web de données
   <a href="http://www.data.unicef.org">www.data.unicef.org</a> (3) et par l'Organisation
-  mondiale de la santé en mai dans le Rapport sur les statistiques sanitaires mondiales
+  mondiale de la Santé en mai dans le Rapport sur les statistiques sanitaires mondiales
   (<a href="http://www.who.int/whosis/whostat/en/" target="_blank">http://www.who.int/whosis/whostat/en/</a>)
   et l'Observatoire de la santé mondiale de l'OMS (https://apps.who.int/gho/data/node.main).
-  . L'UNICEF fait également état de cet indicateur dans le rapport sur la situation
+  L'UNICEF fait également état de cet indicateur dans le rapport sur la situation
   des enfants dans le monde qui est publié tous les deux ans. </p>
 DATA_SOURCE: >-
-  <p> Ministères de la santé et bureaux nationaux de la statistique, soit par l'entremise
+  <p>Ministères de la santé et bureaux nationaux de la statistique, soit par l'entremise
   d’enquêtes auprès des ménages, ou bien de donnés administratives. </p>
 COMPILING_ORG: >-
-  <p> Fonds des Nations Unies pour l’enfance (UNICEF), Organisation mondiale de la
+  <p>Fonds des Nations Unies pour l’enfance (UNICEF), Organisation mondiale de la
   Santé (OMS).</p>
 RATIONALE: >-
   <p>L'accès à un prestataire de soins de santé qualifié au moment de l'accouchement
@@ -111,7 +111,7 @@ DATA_COMP: >-
   </p>
 IMPUTATION: >-
   <ul>
-    <li> Au niveau national :</li>
+    <li>Au niveau national :</li>
   </ul>
 
   <p>Il n’y a pas de traitement des valeurs manquantes au niveau des pays. Si la valeur
@@ -121,7 +121,7 @@ IMPUTATION: >-
   <p> </p>
 
   <ul>
-    <li> Aux niveaux régional et mondial :</li>
+    <li>Aux niveaux régional et mondial :</li>
   </ul>
 
   <p>Les valeurs manquantes ne sont pas imputées aux niveaux régional et mondial.
@@ -210,8 +210,8 @@ COMPARABILITY: >-
   où la proportion de naissances assistées par des professionnels de santé est très
   élevée. Néanmoins, il faut noter que les naissances en institution peuvent sous-estimer
   le pourcentage de naissances assistées par des professionnels de santé qualifiés,
-  en particulier dans les cas où les naissances à domicile - assistées par des professionnels
-  de santé qualifiés - sont prévalentes. </p>
+  en particulier dans les cas où les naissances à domicile – assistées par des professionnels
+  de santé qualifiés – sont prévalentes. </p>
 OTHER_DOC: >-
   <p><strong>URL : </strong><a href="https://data.unicef.org/topic/maternal-health/delivery-care/"
   target="_blank"><strong><u>https://data.unicef.org/topic/maternal-health/delivery-care/#</u></strong></a><strong>
@@ -228,8 +228,8 @@ OTHER_DOC: >-
   l'accouchement, déclaration conjointe de l'OMS, du FNUAP, de l'UNICEF, de l'ICM,
   du CII, de la FIGO et de l'IPA, 2018 https://www.who.int/reproductivehealth/publications/statement-competent-mnh-professionals/en/</li>
         <li>Base de données conjointe UNICEF/OMS sur le personnel de santé qualifié,
-  fondée sur les données des enquêtes nationales sur les ménages basées sur la population
-  et les systèmes de santé de routine. https://data.unicef.org/topic/maternal-health/delivery-care/#
+  fondée sur les données des enquêtes nationales auprès des ménages basées sur la
+  population et les systèmes de santé de routine. https://data.unicef.org/topic/maternal-health/delivery-care/#
   </li>
         <li>Division de la population des Nations Unies, Perspectives de la population
   mondiale. https://population.un.org/wpp/Download/Standard/Population/ </li>
