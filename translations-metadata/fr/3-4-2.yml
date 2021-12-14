@@ -4,11 +4,11 @@ SDG_GOAL: >-
 SDG_TARGET: >-
   <p>Cible 3.4 : D’ici 2030, réduire d’un tiers, par la prévention et le traitement,
   le taux de mortalité prématurée due à des maladies non transmissibles et promouvoir
-  la santé mentale et le bien-être</p>
+  la santé mentale et le bien-être </p>
 SDG_INDICATOR: '<p>Indicateur 3.4.2 : Taux de mortalité par suicide</p>'
 META_LAST_UPDATE: '<p>Dernière mise à jour : 10 février 2017</p>'
 SDG_CUSTODIAN_AGENCIES: |-
-  <p>Organisation mondiale de la Santé (OMS)</p>
+  <p>Organisation mondiale de la Santé (OMS) </p>
 STAT_CONC_DEF: >-
   <h1>Concepts et définitions</h1>
 
@@ -34,14 +34,10 @@ COLL_METHOD: >-
   <p>L' OMS mène un processus formel de consultation des pays avant de publier ses
   estimations des causes de décès.</p>
 FREQ_COLL: >-
-  <h1>Calendrier</h1>
-
-  <h2>Collecte de données :</h2>
-
-  <p>L'OMS envoie deux fois par an un courrier électronique aux États membres pour
-  leur demander de fournir des données tabulaires sur l'enregistrement des décès (y
-  compris toutes les causes de décès). Les pays soumettent en permanence à l'OMS des
-  statistiques annuelles sur les causes de décès. (De NA à NA) </p>
+  <p>L’OMS demande chaque année aux États membres des données d’enregistrement des
+  décès sous forme de tableau (incluant toutes les causes de décès). Les pays peuvent
+  soumettre des statistiques annuelles sur les causes de décès à l’OMS sur une base
+  continue. </p>
 REL_CAL_POLICY: |-
   <h2>Publication des données :</h2>
   <p>Fin 2016</p>
@@ -161,3 +157,25 @@ OTHER_DOC: >-
   Progress Towards Defined Targets of the Comprehensive Mental Health Action Plan
   2013-2020 (<a href="http ://apps.who.int/gb/ebwha/pdf_files/WHA66/A66_R8-en.pdf ?ua=1">http ://apps.who.int/gb/ebwha/pdf_files/WHA66/A66_R8-en.pdf ?ua=1</a>)
   </p>
+INST_MANDATE: <p>Conformément à l’article 64 de sa constitution, l’OMS est mandatée
+  pour demander à chaque État membre de fournir des statistiques sur la mortalité.
+  En outre, le Règlement de l’OMS sur la nomenclature de 1967 affirme l’importance
+  de compiler et de publier des statistiques sur la mortalité et la morbidité sous
+  une forme comparable. Les États membres ont commencé à déclarer des données sur
+  la mortalité à l’OMS depuis le début des années cinquante et cette activité de notification
+  se poursuit jusqu’à aujourd’hui. </p>
+QUALITY_ASSURE: <p>Les principes de données de l’Organisation mondiale de la Santé
+  (OMS) fournissent une base pour réaffirmer continuellement la confiance envers les
+  informations et les preuves de l’OMS au sujet de la santé publique. Les cinq principes
+  sont conçus pour fournir un cadre pour la gouvernance des données pour l’OMS. Les
+  principes sont principalement destinés au personnel de l’OMS dans toutes les parties
+  de l’Organisation afin d’aider à définir les valeurs et les normes qui régissent
+  la manière dont les données qui entrent, circulent et sortent de l’OMS sont recueillies,
+  traitées, partagées et utilisées. Ces principes sont rendus publics afin qu’ils
+  puissent être utilisés et mentionnés par les États membres et les acteurs non étatiques
+  collaborant avec l’OMS. </p>
+DOC_METHOD: <p>Les catégories de causes de décès (y compris les suicides) suivent
+  les définitions de la Classification internationale des maladies, dixième révision
+  (CIM-10). Veuillez consulter le tableau A de l’annexe des méthodes et sources de
+  données de l’OMS sur les causes mondiales de décès, 2000-2019 (en anglais seulement
+  https://www.who.int/docs/default-source/gho-documents/global-health-estimates/ghe2019_cod_methods.pdf)</p>
