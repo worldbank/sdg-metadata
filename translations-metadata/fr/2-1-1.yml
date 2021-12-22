@@ -4,19 +4,19 @@ SDG_TARGET: "<p>Cible 2.1 : D’ici 2030, éliminer la faim et faire en sorte qu
   \ en particulier les pauvres et les personnes en situation vulnérable, y compris\
   \ les nourrissons, ait accès toute l’année à une alimentation saine, nutritive et\
   \ suffisante</p>"
-SDG_INDICATOR: '<p>Indicateur 2.1.1: Prévalence de la sous-alimentation</p>'
+SDG_INDICATOR: '<p>Indicateur 2.1.1 : Prévalence de la sous-alimentation</p>'
 META_LAST_UPDATE: '<p>Février 2021</p>'
 SDG_RELATED_INDICATORS: >-
   <p>2.1.2, 2.2.1, 2.2.2, 2.2.3 </p>
 
-  <p> Commentaires  : </p>
+  <p>Commentaires : </p>
 
   <p>Lié à la cible 2.2, dans la mesure où la faim peut mener à la malnutrition et
   la cible 2.2 peut ne pas être atteinte si la cible 2.1 ne l'est pas.</p>
 SDG_CUSTODIAN_AGENCIES: >-
   <p>Organisation des Nations unies pour l'alimentation et l'agriculture (FAO)</p>
 STAT_CONC_DEF: >-
-  <p>Définition : </p>
+  <p>Définition : </p>
 
   <p>La prévalence de la sous-alimentation est une estimation de la proportion de
   la population dont la consommation alimentaire habituelle est insuffisante pour
@@ -30,9 +30,9 @@ STAT_CONC_DEF: >-
   pour lui fournir l'énergie nécessaire à la conduite d'une vie normale, saine et
   active, compte tenu de ses propres besoins énergétiques alimentaires. </p>
 
-  <p>Bien que les termes soient étroitement liés, la “sous-alimentation” telle que
-  définie ici est différente des concepts de “malnutrition” et “dénutrition” car elle
-  se réfère à la condition d'apport alimentaire insuffisant, plutôt qu'au résultat
+  <p>Bien que les termes soient étroitement liés, la « sous-alimentation » telle que
+  définie ici est différente des concepts de « malnutrition » et « dénutrition » car
+  elle se réfère à la condition d'apport alimentaire insuffisant, plutôt qu'au résultat
   en termes de statut nutritionnel. </p>
 
   <p>Alors que la condition de sous-alimentation s'applique à des individus, l'indicateur
@@ -64,12 +64,12 @@ SOURCE_TYPE: >-
   soient correctement comptabilisées, y compris les aliments consommés hors du domicile;</li>
     <li>b)Des informations suffisantes soient disponibles pour convertir les données
   sur la consommation alimentaire ou sur les dépenses alimentaires en contribution
-  à l'apport énergétique alimentaire; </li>
-  <li>c)Les méthodes appropriées de calcul de la prévalence de la sous-alimentation
-  soient utilisées pour contrôler la variabilité excessive des niveaux estimés de
-  consommation alimentaire habituelle des ménages, en tenant compte de la variabilité
-  normale de la distribution de la consommation alimentaire entre les individus, liée
-  aux différences de besoins énergétiques des membres de la population. </li>
+  à l'apport énergétique alimentaire; </li> <li>c)Les méthodes appropriées de calcul
+  de la prévalence de la sous-alimentation soient utilisées pour contrôler la variabilité
+  excessive des niveaux estimés de consommation alimentaire habituelle des ménages,
+  en tenant compte de la variabilité normale de la distribution de la consommation
+  alimentaire entre les individus, liée aux différences de besoins énergétiques des
+  membres de la population. </li>
 
   </ol>
 
@@ -96,8 +96,7 @@ SOURCE_TYPE: >-
   </li>
     <li>d) données alternatives sur les quantités totales d'aliments disponibles pour
   la consommation humaine, afin de corriger les biais dans l'estimation de la consommation
-  énergétique alimentaire quotidienne moyenne nationale de la population. </li>
-  </ol>
+  énergétique alimentaire quotidienne moyenne nationale de la population. </li> </ol>
 
   <p> Les données pour a), b) et c) pourraient être disponibles par le biais d'une
   même enquête polyvalente fournissant des données sur la consommation alimentaire,
@@ -111,21 +110,18 @@ SOURCE_TYPE: >-
   des aliments et les bilans alimentaires. </p>
 
   <p>Pour étayer son estimation des prévalences de la sous-alimentation aux niveaux
-  national, régional et mondial,  en plus de toutes les enquêtes auprès des ménages
+  national, régional et mondial, en plus de toutes les enquêtes auprès des ménages
   pour lesquelles il est possible d'obtenir des microdonnées sur la consommation alimentaire,
   la FAO s'appuie sur : </p>
 
   <ol>
-    <li>a) Division de la population des nations Unies. Perspectives de la population
-  mondiale (<a href="https://esa.un.org/unpd/wpp/Download/Standard/Population/">https://esa.un.org/unpd/wpp/Download/Standard/Population/</a>),
+    <li>a) UN Population Division's World Population Prospects (en anglais) (<a href="https://esa.un.org/unpd/wpp/Download/Standard/Population/">https://esa.un.org/unpd/wpp/Download/Standard/Population/</a>),
   qui fournit des estimations actualisées des structures de la population nationale
   par sexe et âge tous les deux ans pour la plupart des pays du monde; </li>
-    <li>b) FAO Bilans alimentaires (<a href="http://faostat3.fao.org/download/FB/*/E">http://faostat3.fao.org/download/FB/*/E</a>),
-  qui fournit chaque année des estimations actualisées des disponibilités alimentaires
-  nationales pour la plupart des pays du monde.</li>
-  </ol>
-
-  <p>Les microdonnées provenant des enquêtes sur les ménages recueillant des données
+    <li>b) Les bilans alimentaires du FAO (http://www.fao.org/faostat/fr/#data), qui
+  fournissent chaque année des estimations actualisées des disponibilités alimentaires
+  nationales pour la plupart des pays du monde.</li> </ol>
+  <p>Les microdonnées provenant des enquêtes auprès des ménages recueillant des données
   sur la consommation alimentaire sont fournies à la FAO directement par les bureaux
   nationaux de statistique (BNS), ou via leurs sites Internet ou des accords bilatéraux
   spécifiques.</p>
@@ -136,7 +132,7 @@ COLL_METHOD: >-
   nationaux. La FAO envoie chaque année un questionnaire de collecte de données à
   un point focal identifié. </p>
 
-  <p>Les microdonnées des enquêtes sur les ménages sont généralement fournies par
+  <p>Les microdonnées des enquêtes auprès des ménages sont généralement fournies par
   les BNS. Lorsqu'elles sont disponibles, les données sont recueillies par la FAO
   directement à même le site web des BNS. Dans plusieurs cas, lorsque les microdonnées
   ne sont pas disponibles dans le domaine public, des accords bilatéraux ont été signés,
@@ -215,7 +211,7 @@ REC_USE_LIM: >-
   (CV) basée sur des informations sur le PIB national, le coefficient Gini du revenu,
   un indice du prix relatif des aliments, ou d'autres indicateurs de développement
   tels que le taux de mortalité des moins de 5 ans, ou une estimation des besoins
-  énergétiques alimentaires minimums basés sur les données du World Population Prospects
+  énergétiques alimentaires minimums basés sur les données du « World Population Prospects »
   de la Division de la population des Nations unies.</p>
 
   <p>2. Fiabilité</p>
@@ -235,8 +231,8 @@ REC_USE_LIM: >-
   de toutes les sources de consommation alimentaire. Des recherches récentes montrent
   qu'un biais négatif de plus de 850 kcal peut être introduit sur l'estimation de
   la consommation calorique quotidienne par habitant selon le type de module de consommation
-  alimentaire choisi pour saisir les données au niveau des ménages. (Voir De Weerdt
-  et al., 2015, tableau 2, https://feb.kuleuven.be/drc/licos/publications/dp/DP%20365%20Complete.pdf).
+  alimentaire choisi pour saisir les données au niveau des ménages. (Voir (en anglais)
+  De Weerdt et al., 2015, tableau 2, https://feb.kuleuven.be/drc/licos/publications/dp/DP%20365%20Complete.pdf).
   Une analyse détaillée d'une récente enquête sur le budget des ménages au Brésil
   a révélé que les aliments fournis gratuitement dans le cadre du programme de repas
   scolaires et consommés par les enfants à l'école n'avaient pas été pris en compte
@@ -273,7 +269,7 @@ REC_USE_LIM: >-
   dans les estimations du CV qui serait introduit par la variabilité fausse due aux
   erreurs de mesure des apports énergétiques alimentaires individuels habituels.</p>
 
-  <p>3. Comparabilité </em></p>
+  <p>3. Comparabilité </p>
 
   <p>Si la même méthode de calcul est utilisée, la comparabilité dans le temps et
   l'espace est relativement élevée, la seule cause potentielle d'inhomogénéité se
@@ -739,7 +735,7 @@ QUALITY_MGMNT: <p> Le "ESS" effectue une analyse des tendances de l’indicateur
   En raison de leur connaissance de leurs régions et de leurs pays, ils fournissent
   souvent des contributions inestimables aux révisions et à la finalisation de la
   mise à jour. </p>
-INST_MANDATE: <p> Le Bureau du statisticien en chef de la FAO gère le Groupe de travail
+INST_MANDATE: <p>Le Bureau du statisticien en chef de la FAO gère le Groupe de travail
   interministéral sur les indicateurs des ODD sous la tutelle de la FAO et identifie
   un point focal pour chacun d’eux. Le chef de l’Équipe des statistiques sur la sécurité
   alimentaire et la nutrition de la Division des statistiques est officiellement nommé

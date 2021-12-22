@@ -44,15 +44,15 @@ DATA_COMP: "<p>Les dépenses publiques totales pour un niveau d'éducation donn�
   >\n    <msub>\n      <mrow>\n        <mi>T</mi>\n        <mi>P</mi>\n        <mi>X</mi>\n\
   \      </mrow>\n      <mrow>\n        <mi>t</mi>\n      </mrow>\n    </msub>\n \
   \ </math> = dépenses publiques totales dans l'année financière <em>t</em></p>"
-IMPUTATION: "<p>•<strong> Au niveau du pays</strong></p>\n<p>Aucun par le compilateur\
-  \ de données. </p>\n<p>•<strong> Aux niveaux régional et mondial</strong></p>\n\
-  <p>Aucun par le compilateur de données. </p>"
+IMPUTATION: "<p>•<strong>Au niveau national</strong></p>\n<p>Aucun par le compilateur\
+  \ de données.</p>\n<p>•<strong>Aux niveaux régional et mondial</strong></p>\n<p>Aucun\
+  \ par le compilateur de données.</p>"
 COMPARABILITY: "<p><strong>Sources des divergences :</strong></p>\n<p>Aucune.</p>"
 SDG_TARGET: '<p>Cible 1.a : Garantir une mobilisation importante de ressources provenant
   de sources multiples, y compris par le renforcement de la coopération pour le développement,
   afin de doter les pays en développement, en particulier les pays les moins avancés,
   de moyens adéquats et prévisibles de mettre en œuvre des programmes et politiques
-  visant à mettre fin à la pauvreté sous toutes ses formes.</p>'
+  visant à mettre fin à la pauvreté sous toutes ses formes</p>'
 META_LAST_UPDATE: <p>Juillet 2021</p>
 STAT_CONC_DEF: "<p><strong>Définition :</strong></p>\n<p>Dépenses totales des administrations\
   \ publiques (locales, régionales et centrales) en matière d'éducation (dépenses\
@@ -73,7 +73,7 @@ COLL_METHOD: "<p>Les données sur les dépenses d'éducation sont fournies par l
   \ des pays en réponse à l'enquête annuelle de l'ISU sur l'éducation formelle ou\
   \ à la collecte de données UNESCO-OCDE-Eurostat (UOE). </p>\n<p>Les données sur\
   \ les dépenses totales des administrations publiques (tous les secteurs) proviennent\
-  \ de la base de données \"World Economic Outlook\" du Fonds monétaire international\
+  \ de la base de données « World Economic Outlook » du Fonds monétaire international\
   \ et sont mises à jour une fois par an. </p>"
 DATA_SOURCE: <p>Ministères des finances, ministères de l’éducation, bureaux nationaux
   de statistique. </p>
@@ -83,17 +83,17 @@ INST_MANDATE: "<p>L'Institut de statistique de l'UNESCO (ISU) est la branche sta
   \ international dans les domaines de l'éducation, de la science, de la culture et\
   \ de la communication pour les pays à tous les stades de développement.</p>\n<p>Le\
   \ <a href=\"https://www.moe.gov.bn/DocumentDownloads/Education%202030/Education2030.pdf\"\
-  ><u>Cadre \"Education 2030 Framework for Action 100\"</u></a> a clairement indiqué\
-  \ que : \"<em>Compte tenu de l'importance de l'harmonisation du suivi et de l'établissement\
-  \ de rapports, l'ISU restera la source officielle de données comparables au niveau\
-  \ transnational sur l'éducation. Il continuera de produire des indicateurs de suivi\
-  \ internationaux basés sur son enquête annuelle sur l'éducation et sur d'autres\
-  \ sources de données qui garantissent la comparabilité internationale pour plus\
-  \ de 200 pays et territoires. En plus de la collecte de données, l'ISU travaillera\
-  \ avec des partenaires pour développer de nouveaux indicateurs, des approches statistiques\
-  \ et des outils de suivi afin de mieux évaluer les progrès pour les cibles liées\
-  \ au mandat de l'UNESCO, en travaillant en coordination avec le \"SDG-Education\
-  \ 2030 SC\"\"</em></p>"
+  ><u>cadre (en anglais) « Education 2030 Framework for Action »</u></a> a clairement\
+  \ indiqué que : « <em>Compte tenu de l'importance de l'harmonisation du suivi et\
+  \ de l'établissement de rapports, l'ISU restera la source officielle de données\
+  \ comparables au niveau transnational sur l'éducation. Il continuera de produire\
+  \ des indicateurs de suivi internationaux basés sur son enquête annuelle sur l'éducation\
+  \ et sur d'autres sources de données qui garantissent la comparabilité internationale\
+  \ pour plus de 200 pays et territoires. En plus de la collecte de données, l'ISU\
+  \ travaillera avec des partenaires pour développer de nouveaux indicateurs, des\
+  \ approches statistiques et des outils de suivi afin de mieux évaluer les progrès\
+  \ pour les cibles liées au mandat de l'UNESCO, en travaillant en coordination avec\
+  \ le \"SDG-Education 2030 SC \"</em> »</p>"
 REC_USE_LIM: "<p>Une proportion élevée de dépenses publiques en éducation démontre\
   \ que le gouvernement accorde une grande priorité à l'éducation par rapport aux\
   \ autres investissements publics. Lors de l'interprétation de cet indicateur, il\
@@ -101,7 +101,7 @@ REC_USE_LIM: "<p>Une proportion élevée de dépenses publiques en éducation d�
   \ de ressources financières et donc de budgets globaux plus (ou moins) importants,\
   \ et que les pays dont la population est plus jeune peuvent dépenser davantage en\
   \ éducation par rapport à d'autres secteurs tels que la santé ou la sécurité sociale,\
-  \ et vice-versa. Le cadre \"Education 2030 Framework for Action\" a approuvé un\
+  \ et vice-versa. Le cadre « Education 2030 Framework for Action » a approuvé un\
   \ point de référence pour cet indicateur, qui encourage les pays à allouer au moins\
   \ 15 à 20 % de leurs dépenses publiques à l'éducation.</p>\n<p>Dans certains cas,\
   \ les données sur les dépenses publiques totales en matière d'éducation ne concernent\
@@ -114,18 +114,18 @@ REC_USE_LIM: "<p>Une proportion élevée de dépenses publiques en éducation d�
 REG_AGG: <p>Les agrégats régionaux et mondiaux ne sont actuellement pas disponibles
   pour cet indicateur.</p>
 COVERAGE: "<p><strong>Disponibilité des données :</strong></p>\n<p>156 pays avec au\
-  \ moins un point de données pour la période 2010-2019.</p>\n<p><strong>Série chronologique\
-  \ :</strong></p>\n<p>1980-2019 dans la base de données de l'ISU ; 2000-2019 dans\
+  \ moins un point de données pour la période 2010-2019.</p>\n<p><strong>Séries chronologiques\
+  \ :</strong></p>\n<p>1980-2019 dans la base de données de l'ISU; 2000-2019 dans\
   \ la base de données globale des ODD. </p>\n<p> <strong>Désagrégation :</strong></p>\n\
   <p>Par niveau d’éducation. </p>"
-OTHER_DOC: "<p><strong>URL :</strong></p>\n<p><a href=\"http://uis.unesco.org\">http://uis.unesco.org</a></p>\n\
-  <p><strong>Références :</strong></p>\n<p>Manuel d'instruction de l'ISU : Enquête\
-  \ sur l'éducation formelle </p>\n<p><a href=\"http://uis.unesco.org/sites/default/files/documents/instruction-manual-survey-formal-education-2017-en.pdf\"\
-  >http://uis.unesco.org/sites/default/files/documents/instruction-manual-survey-formal-education-2017-en.pdf</a></p>\n\
-  <p>Collecte de données de l'UOE sur l'éducation formelle : Manuel sur les concepts,\
-  \ définitions et classifications</p>\n<p><a href=\"http://uis.unesco.org/en/files/uoe-data-collection-manual-2020-en-pdf\"\
+OTHER_DOC: "<p><strong>URL :</strong></p>\n<p><a href=\"http://uis.unesco.org/fr\"\
+  >http://uis.unesco.org/fr</a></p>\n<p><strong>Références :</strong></p>\n<p>Manuel\
+  \ d'instruction : Enquête sur l'enseignement formel</p>\n<p><a href=\"http://uis.unesco.org/sites/default/files/documents/manuel-dinstructions-enquete-lenseignement-formel-2018-fr.pdf\"\
+  >http://uis.unesco.org/sites/default/files/documents/manuel-dinstructions-enquete-lenseignement-formel-2018-fr.pdf</a></p>\n\
+  <p>(en anglais) UOE data collection on formal education: Manual on concepts, definitions\
+  \ and classifications</p>\n<p><a href=\"http://uis.unesco.org/en/files/uoe-data-collection-manual-2020-en-pdf\"\
   >http://uis.unesco.org/en/files/uoe-data-collection-manual-2020-en-pdf</a></p>\n\
   <p>Questionnaire de l'ISU sur les dépenses en éducation (CITE 0-8)</p>\n<p><a href=\"\
-  http://uis.unesco.org/en/uis-questionnaires\">http://uis.unesco.org/en/uis-questionnaires</a></p>\n\
-  <p>Perspectives de l'économie mondiale du FMI</p>\n<p><a href=\"https://www.imf.org/en/Publications/WEO\"\
-  >https://www.imf.org/en/Publications/WEO</a></p>"
+  http://uis.unesco.org/fr/uis-questionnaires\">http://uis.unesco.org/fr/uis-questionnaires</a></p>\n\
+  <p>Perspectives de l'économie mondiale du FMI</p>\n<p><a href=\"https://www.imf.org/fr/Publications/WEO\"\
+  >https://www.imf.org/fr/Publications/WEO</a></p>"
