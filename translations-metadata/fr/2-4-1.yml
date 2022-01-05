@@ -59,15 +59,15 @@ STAT_CONC_DEF: "<h2>Définition :</h2>\n<p>Cet indicateur est défini par la for
   \ en propriété (à l'exclusion de la location à autrui), en location, en fermage,\
   \ en métayage ou en emprunt. Les terres de l'État ou communales utilisées par les\
   \ exploitations agricoles ne sont pas incluses. Veuillez consulter le <a href=\"\
-  http://www.fao.org/3/ca7154en/ca7154en.pdf\">document méthodologique</a> préparé\
-  \ par la FAO pour une explication plus détaillée</li>. </ul>\n<p>Le champ de l'indicateur\
-  \ 2.4.1 est l'exploitation agricole, et plus précisément la superficie agricole\
-  \ de l'exploitation, c'est-à-dire les terres utilisées principalement pour la culture\
-  \ et l'élevage. Ce choix de champ est tout à fait cohérent avec l'utilisation prévue\
-  \ de la superficie agricole d'un pays comme dénominateur de l'indicateur agrégé.\
-  \ Plus précisément, les éléments suivants sont inclus dans le champ de l'indicateur\
+  http://www.fao.org/3/ca7154en/ca7154en.pdf\">document méthodologique (en anglais)</a>\
+  \ préparé par la FAO pour une explication plus détaillée</li>. </ul>\n<p>Le champ\
+  \ de l'indicateur 2.4.1 est l'exploitation agricole, et plus précisément la superficie\
+  \ agricole de l'exploitation, c'est-à-dire les terres utilisées principalement pour\
+  \ la culture et l'élevage. Ce choix de champ est tout à fait cohérent avec l'utilisation\
+  \ prévue de la superficie agricole d'un pays comme dénominateur de l'indicateur\
+  \ agrégé. Plus précisément, les éléments suivants sont inclus dans le champ de l'indicateur\
   \ 2.4.1 :</p>\n<ul>\n  <li>Systèmes de production de cultures et d'élevage intensifs\
-  \ et extensifs</li>.\n  <li>Agriculture de subsistance.</li>\n  <li>Terres de l'État\
+  \ et extensifs.</li>.\n  <li>Agriculture de subsistance.</li>\n  <li>Terres de l'État\
   \ et communales lorsqu'elles sont utilisées exclusivement et gérées par l'exploitation\
   \ agricole.</li> \n  <li>Cultures alimentaires et non alimentaires et produits de\
   \ l'élevage (par exemple, tabac, coton et laine de mouton). </li> \n  <li>Cultures\
@@ -76,12 +76,12 @@ STAT_CONC_DEF: "<h2>Définition :</h2>\n<p>Cet indicateur est défini par la for
   \ mesure où elle a lieu sur les terres agricoles. Par exemple, la rizipisciculture\
   \ et les systèmes similaires. </li> </ul>\n<p>Les éléments suivants sont exclus\
   \ du champ de l'indicateur 2.4.1 :</p>\n<ul>\n  <li>Terres de l'État et communales\
-  \ non utilisées exclusivement par l'exploitation agricole</li>.\n  <li>Pastoralisme\
+  \ non utilisées exclusivement par l'exploitation agricole.</li>.\n  <li>Pastoralisme\
   \ nomade.</li>\n  <li>Production issue des jardins et arrière-cours. Production\
   \ des fermes d'agrément <sup><a href=\"#footnote-3\" id=\"footnote-ref-3\">[1]</a></sup>.\
   \ </li>\n  <li>Exploitations consacrées exclusivement à l'aquaculture. </li>\n \
   \ <li>Exploitations consacrées exclusivement à la sylviculture. </li>\n  <li>Nourriture\
-  \ récoltée à l'état sauvage. </li>\n</ul>\n<h2>Concepts:</h2>\n<p>La revue littéraire\
+  \ récoltée à l'état sauvage. </li>\n</ul>\n<h2>Concepts :</h2>\n<p>La revue littéraire\
   \ (Hayati, 2017) a identifié un grand nombre de thèmes potentiels de durabilité\
   \ dans les trois dimensions de la durabilité et, pour chaque thème, généralement\
   \ un grand nombre de sous-indicateurs possibles. Les considérations clés dans la\
@@ -138,7 +138,7 @@ STAT_CONC_DEF: "<h2>Définition :</h2>\n<p>Cet indicateur est défini par la for
 CLASS_SYSTEM: <p>La classification des terres est celle du Recensement de l'agriculture
   et du Système des comptes économiques et environnementaux (SEEA), telle qu'elle
   est mise en œuvre dans le questionnaire de la FAO sur l'utilisation des terres,
-  l'irrigation et les pratiques agricoles (<a href="http://www.fao.org/faostat/en/#data/RL/metadata">http://www.fao.org/faostat/en/#data/RL/metadata</a>
+  l'irrigation et les pratiques agricoles (<a href="https://www.fao.org/faostat/fr/#data/RL/metadata">https://www.fao.org/faostat/fr/#data/RL/metadata</a>
   ). </p>
 FREQ_COLL: <p>La collecte des données dépendra des cycles de collecte de données existant
   actuellement pour les enquêtes agricoles dans les pays. La FAO a intégré le module
@@ -151,7 +151,7 @@ DATA_SOURCE: <p>Les bureaux nationaux de statistique ou les bureaux désignés d
   les pays seront chargés de recueillir des données pour cet indicateur. </p>
 INST_MANDATE: <p>L’article I de la constitution de la FAO exige que celle-ci recueille,
   analyse, interprète et diffuse des informations relatives à la nutrition, à l’alimentation
-  et à l’agriculture <a href="http://www.fao.org/3/K8024E/K8024E.pdf">http://www.fao.org/3/K8024E/K8024E.pdf</a>
+  et à l’agriculture <a href="http://www.fao.org/3/K8024F/K8024F.pdf">http://www.fao.org/3/K8024F/K8024F.pdf</a>
   . </p>
 REC_USE_LIM: "<p>Au cours des consultations entreprises, plusieurs pays ont souligné\
   \ les difficultés à combiner des données provenant de différentes sources et ont\
@@ -168,28 +168,28 @@ REC_USE_LIM: "<p>Au cours des consultations entreprises, plusieurs pays ont soul
   \ Il bénéficie également des travaux de la FAO visant à développer le programme\
   \ d'enquête intégrée sur l'agriculture (AGRIS), qui est mis en œuvre dans le cadre\
   \ d'une nouvelle initiative appelée <a href=\"http://www.data4sdgs.org/50by2030\"\
-  >50 X 2030</a>. </p>\n<p>La décision de se concentrer sur les enquêtes agricoles\
-  \ a des implications sur le type d'informations qu'il est possible de saisir afin\
-  \ de couvrir les différentes dimensions de la durabilité. Si les enquêtes agricoles\
-  \ sont bien adaptées pour mesurer la dimension économique de la durabilité, elles\
-  \ ne sont peut-être pas l'outil idéal pour mesurer la durabilité environnementale\
-  \ et sociale en termes d'impact/résultats. </p>\n<p>Généralement, les impacts environnementaux\
-  \ de l'agriculture sont mesurés par des systèmes de surveillance tels que la télédétection,\
-  \ l'échantillonnage du sol et de l'eau, ou d'autres outils associés à une zone spécifique,\
-  \ plutôt qu'à une seule exploitation agricole. Pour plusieurs thèmes environnementaux,\
-  \ il est peu probable que les agriculteurs soient en mesure d'évaluer l'impact environnemental\
-  \ de leurs pratiques agricoles sur des questions telles que la pollution par les\
-  \ engrais ou l'impact des pesticides. L'utilisation d'un instrument d'enquête agricole,\
-  \ au lieu de systèmes de surveillance environnementale, implique donc de passer\
-  \ de la mesure des résultats/impacts à l'évaluation des pratiques des agriculteurs.\
-  \ Dans la mesure du possible, cependant, la méthodologie révisée continue de se\
-  \ concentrer sur la mesure des résultats. </p>\n<p>De même, les sous-thèmes de la\
-  \ dimension sociale sont généralement mieux saisis par des enquêtes auprès des ménages.\
-  \ Si, dans la majorité des cas, les exploitations agricoles sont étroitement associées\
-  \ à un ménage donné, ce n'est pas toujours le cas, et par conséquent, la saisie\
-  \ de la dimension sociale de la durabilité par le biais d'une enquête agricole,\
-  \ en particulier si elle n'est pas conçue pour couvrir les aspects sociaux, pourrait\
-  \ poser certains défis.</p>"
+  >50x2030</a> (lien en anglais seulement). </p>\n<p>La décision de se concentrer\
+  \ sur les enquêtes agricoles a des implications sur le type d'informations qu'il\
+  \ est possible de saisir afin de couvrir les différentes dimensions de la durabilité.\
+  \ Si les enquêtes agricoles sont bien adaptées pour mesurer la dimension économique\
+  \ de la durabilité, elles ne sont peut-être pas l'outil idéal pour mesurer la durabilité\
+  \ environnementale et sociale en termes d'impact/résultats. </p>\n<p>Généralement,\
+  \ les impacts environnementaux de l'agriculture sont mesurés par des systèmes de\
+  \ surveillance tels que la télédétection, l'échantillonnage du sol et de l'eau,\
+  \ ou d'autres outils associés à une zone spécifique, plutôt qu'à une seule exploitation\
+  \ agricole. Pour plusieurs thèmes environnementaux, il est peu probable que les\
+  \ agriculteurs soient en mesure d'évaluer l'impact environnemental de leurs pratiques\
+  \ agricoles sur des questions telles que la pollution par les engrais ou l'impact\
+  \ des pesticides. L'utilisation d'un instrument d'enquête agricole, au lieu de systèmes\
+  \ de surveillance environnementale, implique donc de passer de la mesure des résultats/impacts\
+  \ à l'évaluation des pratiques des agriculteurs. Dans la mesure du possible, cependant,\
+  \ la méthodologie révisée continue de se concentrer sur la mesure des résultats.\
+  \ </p>\n<p>De même, les sous-thèmes de la dimension sociale sont généralement mieux\
+  \ saisis par des enquêtes auprès des ménages. Si, dans la majorité des cas, les\
+  \ exploitations agricoles sont étroitement associées à un ménage donné, ce n'est\
+  \ pas toujours le cas, et par conséquent, la saisie de la dimension sociale de la\
+  \ durabilité par le biais d'une enquête agricole, en particulier si elle n'est pas\
+  \ conçue pour couvrir les aspects sociaux, pourrait poser certains défis.</p>"
 SOURCE_TYPE: "<p>Différentes données sont recueillies via différents instruments.\
   \ Souvent, les données environnementales sont recueillies par le biais de systèmes\
   \ de surveillance environnementale, y compris la télédétection. Pourtant, de nombreux\
@@ -215,9 +215,9 @@ SOURCE_TYPE: "<p>Différentes données sont recueillies via différents instrume
   \ de l'indicateur 2.4.1 des ODD en ce qui concerne la dimension environnementale\
   \ de la durabilité.</p>"
 COLL_METHOD: "<p>Un questionnaire est envoyé à tous les pays chaque année depuis 2020\
-  \ (<a href=\"http://www.fao.org/sustainable-development-goals/indicators/241/en/\"\
-  >http://www.fao.org/sustainable-développement-objectifs/indicateurs/241/fr/</a>\
-  \ ). En outre, afin de faciliter la collecte de données par pays, un module de données\
+  \ (<a href=\"https://www.fao.org/sustainable-development-goals/indicators/241/fr/\"\
+  >https://www.fao.org/sustainable-development-goals/indicators/241/fr/</a> ). En\
+  \ outre, afin de faciliter la collecte de données par pays, un module de données\
   \ a été conçu et il contient l’ensemble des questions de base nécessaires pour obtenir\
   \ les données pour l’ODD 2.4.1. Si des enquêtes agricoles existent déjà dans un\
   \ pays, ces questions peuvent être intégrées dans les instruments existants afin\
@@ -285,7 +285,7 @@ IMPUTATION: "<p>La non-réponse partielle au niveau individuel (exploitation agr
   \ des sous-indicateurs, certains sous-indicateurs peuvent être enregistrés comme\
   \ « sans objet » pour une exploitation donnée. Dans ce cas, l'exploitation sera\
   \ considérée comme durable du point de vue des sous-indicateurs donnés.</p>\n<p>&#x2022;\
-  \ Au niveau du pays</p>\n<p>&#x2022; Aux niveaux régional et mondial</p>"
+  \ Au niveau national</p>\n<p>&#x2022; Aux niveaux régional et mondial</p>"
 DATA_COMP: "<p>Les étapes de calcul de l'ODD 2.4.1 incluent :</p>\n<ol>\n  <li>Déterminer\
   \ la <strong>portée </strong>de l'indicateur : la portée de l'indicateur 2.4.1 est\
   \ l'exploitation agricole, et plus précisément la superficie agricole de l'exploitation,\
@@ -311,7 +311,7 @@ DATA_COMP: "<p>Les étapes de calcul de l'ODD 2.4.1 incluent :</p>\n<ol>\n  <li
   \ de déclaration de l'indicateur</strong>. L'ensemble des sous-indicateurs est présenté\
   \ sous la forme d'un <strong>tableau de bord</strong>. L'approche du tableau de\
   \ bord offre une réponse en termes de mesure de la durabilité au niveau de l'exploitation\
-  \ et de son agrégation au niveau national. </li>\n</ol>\n<p> La méthodologie propose\
+  \ et de son agrégation au niveau national. </li>\n</ol>\n<p>La méthodologie propose\
   \ de rendre compte de l'indicateur 2.4.1 à travers un tableau de bord au niveau\
   \ national, présentant les différents sous-indicateurs ensemble mais de façon indépendante.\
   \ L'approche du tableau de bord offre plusieurs avantages, notamment la possibilité\
@@ -333,8 +333,8 @@ DATA_COMP: "<p>Les étapes de calcul de l'ODD 2.4.1 incluent :</p>\n<ol>\n  <li
 DOC_METHOD: "<p>La note méthodologique fournit une description détaillée du calcul\
   \ de l'indicateur sur la base de l'enquête agricole.</p>\n<p>Les valeurs pour déclarer\
   \ l'indicateur 2.4.1 peuvent être calculées comme suit :</p>\n<p><math xmlns=\"\
-  http://www.w3.org/1998/Math/MathML\">\n    <msub>\n      <mrow>\n        <mi>S</mi>\n\
-  \        <mi>D</mi>\n        <mi>G</mi>\n        <mn>241</mn>\n      </mrow>\n \
+  http://www.w3.org/1998/Math/MathML\">\n    <msub>\n      <mrow>\n        <mi>O</mi>\n\
+  \        <mi>D</mi>\n        <mi>D</mi>\n        <mn>241</mn>\n      </mrow>\n \
   \     <mrow>\n        <mi>d</mi>\n      </mrow>\n    </msub>\n    <mo>=</mo>\n \
   \   <mrow>\n      <mrow>\n        <munder>\n          <mrow>\n            <mi mathvariant=\"\
   normal\">min</mi>\n          </mrow>\n          <mrow>\n            <mi>n</mi>\n\
@@ -344,14 +344,14 @@ DOC_METHOD: "<p>La note méthodologique fournit une description détaillée du c
   \  <mi>S</mi>\n            <mi>I</mi>\n          </mrow>\n          <mrow>\n   \
   \         <mi>d</mi>\n            <mi>&amp;nbsp;</mi>\n            <mi>n</mi>\n\
   \          </mrow>\n        </msub>\n        <mo>)</mo>\n      </mrow>\n    </mrow>\n\
-  \  </math></p>\n<p>où :</p>\n<p>SDG241<sub>d </sub>= proportion de la superficie\
+  \  </math></p>\n<p>où :</p>\n<p>ODD241<sub>d </sub>= proportion de la superficie\
   \ des terres agricoles qui a atteint le niveau « désiré »</p>\n<p>SI<sub>d n </sub>=\
   \ proportion du sous-indicateur n qui est classée dans le niveau « désiré »</p>\n\
   <p>min fait référence au niveau minimum des SI<sub>d n</sub> au niveau national\
-  \ pour l'ensemble des 11 sous-indicateurs</p>\n<p>SDG241<sub>d </sub>est la proportion\
+  \ pour l'ensemble des 11 sous-indicateurs</p>\n<p>ODD241<sub>d </sub>est la proportion\
   \ de la superficie des terres agricoles pour laquelle tous les sous-indicateurs\
   \ sont verts.</p>\n<p> </p>\n<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"\
-  >\n    <msub>\n      <mrow>\n        <mi>S</mi>\n        <mi>D</mi>\n        <mi>G</mi>\n\
+  >\n    <msub>\n      <mrow>\n        <mi>O</mi>\n        <mi>D</mi>\n        <mi>D</mi>\n\
   \        <mn>241</mn>\n      </mrow>\n      <mrow>\n        <mi>a</mi>\n       \
   \ <mo>+</mo>\n        <mi>d</mi>\n      </mrow>\n    </msub>\n    <mo>=</mo>\n \
   \   <mrow>\n      <mrow>\n        <munder>\n          <mrow>\n            <mi mathvariant=\"\
@@ -366,20 +366,20 @@ DOC_METHOD: "<p>La note méthodologique fournit une description détaillée du c
   \        <mi>I</mi>\n              </mrow>\n              <mrow>\n             \
   \   <mi>a</mi>\n              </mrow>\n            </msub>\n            <mo>)</mo>\n\
   \          </mrow>\n          <mrow>\n            <mi>n</mi>\n          </mrow>\n\
-  \        </msub>\n      </mrow>\n    </mrow>\n  </math></p>\n<p>où :</p>\n<p>SDG241<sub>a+d\
+  \        </msub>\n      </mrow>\n    </mrow>\n  </math></p>\n<p>où :</p>\n<p>ODD241<sub>a+d\
   \ </sub>= proportion de la superficie des terres agricoles qui a atteint le niveau\
   \ « désiré » (estimée par excès, voir la note plus bas)</p>\n<p>SI<sub>d n </sub>=\
   \ proportion du sous-indicateur n qui est classée dans le niveau « désiré »</p>\n\
   <p>SI<sub>a n </sub>= proportion du sous-indicateur n qui est classée dans le niveau\
   \ « acceptable »</p>\n<p>min fait référence au niveau minimum de (SI<sub>d n </sub>+\
   \ SI<sub>a n</sub>) au niveau national pour l'ensemble des 11 sous-indicateurs</p>\n\
-  <p>SDG241<sub>a+d </sub>est la proportion de la superficie des terres agricoles\
+  <p>ODD241<sub>a+d </sub>est la proportion de la superficie des terres agricoles\
   \ pour laquelle tous les sous-indicateurs sont verts ou jaunes, une situation acceptable\
   \ mais qui pourrait être améliorée. </p>\n<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"\
-  >\n    <msub>\n      <mrow>\n        <mi>S</mi>\n        <mi>D</mi>\n        <mi>G</mi>\n\
+  >\n    <msub>\n      <mrow>\n        <mi>O</mi>\n        <mi>D</mi>\n        <mi>D</mi>\n\
   \        <mn>241</mn>\n      </mrow>\n      <mrow>\n        <mi>u</mi>\n      </mrow>\n\
-  \    </msub>\n    <mo>=</mo>\n    <mn>1</mn>\n    <mo>-</mo>\n    <mi>S</mi>\n \
-  \   <msub>\n      <mrow>\n        <mi>D</mi>\n        <mi>G</mi>\n        <mn>241</mn>\n\
+  \    </msub>\n    <mo>=</mo>\n    <mn>1</mn>\n    <mo>-</mo>\n    <mi>O</mi>\n \
+  \   <msub>\n      <mrow>\n        <mi>D</mi>\n        <mi>D</mi>\n        <mn>241</mn>\n\
   \      </mrow>\n      <mrow>\n        <mi>a</mi>\n        <mo>+</mo>\n        <mi>d</mi>\n\
   \      </mrow>\n    </msub>\n    <mo>=</mo>\n    <mrow>\n      <mrow>\n        <munder>\n\
   \          <mrow>\n            <mi mathvariant=\"normal\">max</mi>\n          </mrow>\n\
@@ -389,16 +389,16 @@ DOC_METHOD: "<p>La note méthodologique fournit une description détaillée du c
   \    <msub>\n          <mrow>\n            <mi>S</mi>\n            <mi>I</mi>\n\
   \          </mrow>\n          <mrow>\n            <mi>u</mi>\n            <mi>&amp;nbsp;</mi>\n\
   \            <mi>n</mi>\n          </mrow>\n        </msub>\n        <mo>)</mo>\n\
-  \      </mrow>\n    </mrow>\n  </math></p>\n<p>où :</p>\n<p>SDG241<sub>u </sub>=\
+  \      </mrow>\n    </mrow>\n  </math></p>\n<p>où :</p>\n<p>ODD241<sub>u </sub>=\
   \ proportion estimée par défaut de la superficie des terres agricoles qui est «\
   \ non durable » (voir la note plus bas)</p>\n<p>SI<sub>u n </sub>= proportion du\
   \ sous-indicateur n qui est classée « non durable »</p>\n<p>max fait référence à\
   \ la valeur maximale des SI<sub>u n</sub> pour l'ensemble des 11 sous-indicateurs,\
-  \ au niveau national</p>\n<p>SDG241<sub>u </sub> est la proportion de la superficie\
+  \ au niveau national</p>\n<p>ODD241<sub>u </sub> est la proportion de la superficie\
   \ des terres agricoles pour laquelle au moins un des sous-indicateurs est non durable,\
   \ et est par conséquent classée non durable. </p>\n<p>Les performances des pays\
-  \ dans le temps peuvent être mesurées par l'évolution de la valeur de SDG241<sub>d\
-  \ </sub>et de SDG241<sub>a+d</sub>. Une augmentation dans le temps indique une amélioraiton\
+  \ dans le temps peuvent être mesurées par l'évolution de la valeur de ODD241<sub>d\
+  \ </sub>et de ODD241<sub>a+d</sub>. Une augmentation dans le temps indique une amélioraiton\
   \ tandis qu'une diminution indique une détérioration. </p>"
 DATA_VALIDATION: '<p>Les données font l’objet d’un travail de validation complet qui
   couvre : la détection des valeurs aberrantes, les erreurs de transmission et les
@@ -417,7 +417,7 @@ QUALITY_ASSURE: <p>La FAO travaillera en étroite collaboration avec les pays po
   l’assurance de la qualité. Non seulement la collecte de données pour l’ODD 2.4.1
   respectera les normes internationales, mais elle respectera également le cadre d’assurance
   de la qualité des données de la FAO « Statistics Quality Assurance Framework » (<a
-  href="http://www.fao.org/statistics/standards/en/">http://www.fao.org/statistics/standards/en/</a>).
+  href="http://www.fao.org/statistics/standards/fr/">http://www.fao.org/statistics/standards/fr/</a>).
   </p>
 QUALITY_ASSMNT: <p>Une évaluation qualitative de la qualité globale des produits statistiques
   est fournie dans les rapports réguliers en résumant les principaux points forts
@@ -427,19 +427,19 @@ COMPARABILITY: "<p><strong>Sources des divergences :</strong></p>\n<p>Étant don
   \ qu’il s’agit d’un indicateur de niveau II, il n’existe actuellement aucune donnée\
   \ pour cet indicateur. Il n’y a donc pas de divergence entre les données nationales\
   \ et infranationales.</p>"
-OTHER_DOC: "<ul>\n  <li> FAO. 1988. Rapport du Conseil de la FAO, 94e session, 1988.\
-  \ Rome. </li>\n  <li>FAO. 2014. Building a common vision for sustainable food and\
-  \ agriculture: Principles and approaches, FAO Rome.</li>\n  <li> FAO. 2017. Rapport\
-  \ de la réunion du groupe d’experts sur l’indicateur 2.4.1 des ODD. Avril 2017.\
-  \ </li>\n  <li>FAO, 2018. Classification de l’utilisation des terres. Dans : SEEA\
-  \ Agriculture, Forestry and Fisheries, Annex I, pg. 120, 130-135. FAO et DSNU, Rome,\
-  \ Italie.</li>\n  <li>FAO. 2018. Rapport de la 26<sup>e</sup> Commission de l’agriculture,\
-  \ 1-5 octobre 2018.</li>\n  <li>Global Strategy for Improving Agricultural and Rural\
-  \ Statistics. 2017. Handbook on the Agricultural Integrated Survey. </li>\n  <li>FAO\
-  \ 2020: SDG 2.4,1, note méthodologique. Juillet 2020.</li>\n  <li>Hayati, D. 2017.\
-  \ Literature Review : A Literature Review on Frameworks and Methods for Measuring\
+OTHER_DOC: "<ul>\n  <li>FAO. 1988. « Report of the FAO Council », 94e session, 1988.\
+  \ Rome.</li>\n  <li>FAO. 2014. « Building a common vision for sustainable food and\
+  \ agriculture: Principles and approaches », FAO Rome.</li>\n  <li>FAO. 2017. « Report\
+  \ from the Expert Group Meeting on SDG indicator 2.4.1. April, 2017 ». </li>\n \
+  \ <li>FAO, 2018. Classification de l’utilisation des terres. Dans : « SEEA Agriculture,\
+  \ Forestry and Fisheries, Annex I, pg. 120, 130-135 ». FAO et DSNU, Rome, Italie.</li>\n\
+  \  <li>FAO. 2018. « Report of the 26<sup>th</sup> Committee on Agriculture », 1-5\
+  \ octobre 2018.</li>\n  <li>« Global Strategy for Improving Agricultural and Rural\
+  \ Statistics. 2017. Handbook on the Agricultural Integrated Survey ». </li>\n  <li>« FAO\
+  \ 2020: SDG 2.4.1, methodological note ». Juillet 2020.</li>\n  <li>« Hayati, D.\
+  \ 2017. Literature Review: A Literature Review on Frameworks and Methods for Measuring\
   \ and Monitoring Sustainable Agriculture. Technical Report n.22. Global Strategy\
-  \ Technical Report: Rome.</li>\n</ul>\n<p>Annexe : description des sous-indicateurs</p>\n\
+  \ Technical Report: Rome ».</li>\n</ul>\n<p>Annexe : description des sous-indicateurs</p>\n\
   <h3>1. Valeur de la production agricole par hectare</h3>\n<p><strong>Dimension :\
   \ </strong>économique</p>\n<p><strong>Thème : </strong>productivité des terres</p>\n\
   <p>La productivité des terres est une mesure de la valeur agricole des productions\
@@ -502,17 +502,17 @@ OTHER_DOC: "<ul>\n  <li> FAO. 1988. Rapport du Conseil de la FAO, 94e session, 1
   \ du ménage agricole, qui peut inclure d'autres sources de revenus comme, par exemple,\
   \ l'emploi d'autres membres de la famille dans des entreprises locales, le tourisme,\
   \ etc.</p>\n<p>Formule<sup><a href=\"#footnote-6\" id=\"footnote-ref-6\">[4]</a></sup>:</p>\n\
-  <p><math xmlns=\"http://www.w3.org/1998/Math/MathML\">\n    <mi>N</mi>\n    <mi>F</mi>\n\
-  \    <mi>I</mi>\n    <mo>=</mo>\n    <mi>&amp;nbsp;</mi>\n    <mi>C</mi>\n    <mi>R</mi>\n\
+  <p><math xmlns=\"http://www.w3.org/1998/Math/MathML\">\n    <mi>R</mi>\n    <mi>A</mi>\n\
+  \    <mi>N</mi>\n    <mo>=</mo>\n    <mi>&amp;nbsp;</mi>\n    <mi>R</mi>\n    <mi>M</mi>\n\
   \    <mo>+</mo>\n    <msub>\n      <mrow>\n        <mi>Y</mi>\n      </mrow>\n \
   \     <mrow>\n        <mi>k</mi>\n      </mrow>\n    </msub>\n    <mo>-</mo>\n \
-  \   <mi>O</mi>\n    <mi>E</mi>\n    <mo>-</mo>\n    <mi>D</mi>\n    <mi>e</mi>\n\
-  \    <mi>p</mi>\n    <mo>+</mo>\n    <mi>&amp;nbsp;</mi>\n    <mi>V</mi>\n    <mi>I</mi>\n\
-  \    <mi>C</mi>\n  </math></p>\n<p>où :</p>\n<ul>\n  <li>NFI = Revenu agricole net</li>\n\
-  \  <li>CR = Recettes monétaires agricoles totales, y compris les paiements directs\
-  \ de programmes</li>\n  <li>Y<sub>k</sub> = Revenu en nature</li>\n  <li>OE = Dépenses\
+  \   <mi>D</mi>\n    <mi>E</mi>\n    <mo>-</mo>\n    <mi>A</mi>\n    <mi>m</mi>\n\
+  \    <mi>o</mi>\n    <mo>+</mo>\n    <mi>&amp;nbsp;</mi>\n    <mi>V</mi>\n    <mi>V</mi>\n\
+  \    <mi>S</mi>\n  </math></p>\n<p>où :</p>\n<ul>\n  <li>RAN = Revenu agricole net</li>\n\
+  \  <li>RM = Recettes monétaires agricoles totales, y compris les paiements directs\
+  \ de programmes</li>\n  <li>Y<sub>k</sub> = Revenu en nature</li>\n  <li>DE = Dépenses\
   \ totales d'exploitation après remises (y compris les coûts de la main-d'œuvre)</li>\n\
-  \  <li>Dep = Amortissements</li>\n  <li>VIC = Valeur de la variation des stocks\n\
+  \  <li>Amo = Amortissements</li>\n  <li>VVS = Valeur de la variation des stocks\n\
   </ul>\n<p>Définitions :</p>\n<ul>\n  <li>Le revenu agricole net désigne la rémunération\
   \ (monétaire et non monétaire) des exploitants agricoles pour leur travail, leur\
   \ gestion et leur capital, après paiement de toutes les dépenses de production (c'est-à-dire\
@@ -554,19 +554,19 @@ OTHER_DOC: "<ul>\n  <li> FAO. 1988. Rapport du Conseil de la FAO, 94e session, 1
   \ est généralement considérée comme le résultat du vieillissement, de l'usure et\
   \ de l'obsolescence. Elle représente une diminution des avantages économiques potentiels\
   \ qui peuvent être générés par l'immobilisation.</li>\n  <li>La valeur de la variation\
-  \ des stocks (VIC) mesure la valeur monétaire de la variation physique des stocks\
+  \ des stocks (VVS) mesure la valeur monétaire de la variation physique des stocks\
   \ appartenant aux producteurs. Ce concept est utilisé pour évaluer la production\
   \ économique agricole totale. Pour calculer la VIC, la variation des stocks appartenant\
   \ aux producteurs (entre la fin et le début d'une année civile) est d'abord calculée,\
   \ puis multipliée par les prix annuels moyens des cultures ou la valeur par animal.\
   \ Ce calcul est différent de l'approche de la valeur comptable financière ou comptable,\
   \ qui évalue les stocks de début et de fin, puis en déduit la variation.</li>\n\
-  \  <li>La VIC pour tous les principaux produits de base peut varier considérablement\
-  \ (en fonction de l'ampleur de la variation des stocks et des prix). La VIC peut\
+  \  <li>La VVS pour tous les principaux produits de base peut varier considérablement\
+  \ (en fonction de l'ampleur de la variation des stocks et des prix). La VVS peut\
   \ être positive (lorsque les stocks sont plus importants à la fin de l'année par\
   \ rapport aux niveaux du début de l'année) ou négative (lorsque les stocks de fin\
   \ d'année sont inférieurs aux niveaux du début de l'année). Si les niveaux de stocks\
-  \ sont les mêmes au début et à la fin de l'année, la VIC sera nulle malgré les variations\
+  \ sont les mêmes au début et à la fin de l'année, la VVS sera nulle malgré les variations\
   \ de prix.</li>\n</ul>\n<p>L'estimation de la rentabilité au niveau d'une exploitation\
   \ agricole nécessite généralement la compilation des registres financiers de base\
   \ de l'exploitation, c'est-à-dire les transactions quotidiennes, hebdomadaires,\
@@ -859,7 +859,7 @@ OTHER_DOC: "<ul>\n  <li> FAO. 1988. Rapport du Conseil de la FAO, 94e session, 1
   footnote-ref-16\"> [14] </a> </sup> (classe II ou III de l'OMS). Dans ce cas, elle\
   \ respecte les trois mesures liées à la santé et au moins quatre des mesures liées\
   \ à l'environnement. Résultat par défaut pour les exploitations n'utilisant pas\
-  \ de pesticides. </li>\n  <li> Jaune (acceptable) : L'exploitation n'utilise que\
+  \ de pesticides. </li>\n  <li>Jaune (acceptable) : L'exploitation n'utilise que\
   \ des pesticides modérément ou légèrement dangereux (classe II ou III de l'OMS)\
   \ et prend quelques mesures pour atténuer les risques pour l'environnement et la\
   \ santé (au moins deux de chacune des listes ci-dessus).</li>\n  <li>Rouge (non\
@@ -1151,7 +1151,7 @@ OTHER_DOC: "<ul>\n  <li> FAO. 1988. Rapport du Conseil de la FAO, 94e session, 1
   \ de l'exploitation individuelle est estimée et comparée aux seuils dérivés des\
   \ productivités d'exploitations similaires. <a href=\"#footnote-ref-5\">&#x2191;</a></p></div>\n\
   <div><sup class=\"footnote-number\" id=\"footnote-6\">4</sup><p>Consulter le site\
-  \ de Statistique Canada au lien suivant : http://www.statcan.gc.ca/pub/21-010-x/21-010-x2014001-eng.pdf\
+  \ de Statistique Canada au lien suivant : http://www.statcan.gc.ca/pub/21-010-x/21-010-x2014001-fra.pdf\
   \ <a href=\"#footnote-ref-6\">&#x2191;</a></p></div>\n<div><sup class=\"footnote-number\"\
   \ id=\"footnote-7\">5</sup><p> La valeur locative des logements agricoles n'est\
   \ pas considérée comme faisant partie du revenu agricole. <a href=\"#footnote-ref-7\"\
@@ -1207,6 +1207,6 @@ OTHER_DOC: "<ul>\n  <li> FAO. 1988. Rapport du Conseil de la FAO, 94e session, 1
   >http://www.fao.org/elearning/#/elc/en/course/SDG212</a> <a href=\"#footnote-ref-18\"\
   >&#x2191;</a></p></div>\n<div><sup class=\"footnote-number\" id=\"footnote-19\"\
   >17</sup><p> <u>La terminologie « Acceptable » doit être lue dans le contexte de\
-  \ l'ODD 2.4.1 ; elle doit être interprétée comme une situation qui mérite néanmoins\
+  \ l'ODD 2.4.1; elle doit être interprétée comme une situation qui mérite néanmoins\
   \ une attention et des actions visant à l'améliorer.</u> <a href=\"#footnote-ref-19\"\
   >&#x2191;</a></p></div></div>"
