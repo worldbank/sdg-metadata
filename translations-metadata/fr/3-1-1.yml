@@ -1,8 +1,8 @@
 SDG_GOAL: >-
   <p>Objectif 3 : Permettre à tous de vivre en bonne santé et promouvoir le bien-être
-  de tous à tout âge.</p>
-SDG_TARGET: "<p>Cible 3.1 : D’ici à 2030, faire passer le taux mondial de mortalité\
-  \ maternelle au-dessous de 70 pour 100 000 naissances vivantes.</p>"
+  de tous à tout âge</p>
+SDG_TARGET: "<p>Cible 3.1 : D’ici 2030, faire passer le taux mondial de mortalité\
+  \ maternelle au-dessous de 70 pour 100 000 naissances vivantes</p>"
 SDG_INDICATOR: '<p>Indicateur 3.1.1 : Taux de mortalité maternelle</p>'
 META_LAST_UPDATE: '<p>Dernière mise à jour : 12 février 2020</p>'
 SDG_RELATED_INDICATORS: >-
@@ -15,15 +15,15 @@ SDG_CUSTODIAN_AGENCIES: >-
 
   <h2>Organisation(s) :</h2>
 
-  <p> Organisation mondiale de la santé (OMS). Département Santé et recherche génésiques.
-  </p>
+  <p>Organisation mondiale de la santé (OMS). Département de santé et recherche sexuelles
+  et génésiques. </p>
 STAT_CONC_DEF: >-
   <h1>Concepts et définitions</h1>
 
   <h2>Définition : </h2>
 
   <p>Le ratio de mortalité maternelle (RMM) est défini comme le nombre de décès maternels
-  au cours d'une période donnée pour 100 000 naissances vivantes au cours de la même
+  au cours d'une période donnée pour 100 000 naissances vivantes au cours de la même
   période. Il décrit le risque de décès maternel par rapport au nombre de naissances
   vivantes et saisit essentiellement le risque de décès au cours d'une seule grossesse
   ou d'une seule naissance vivante.</p>
@@ -32,7 +32,7 @@ STAT_CONC_DEF: >-
   femmes de toute cause liée ou aggravée par la grossesse ou sa gestion (à l'exclusion
   des causes accidentelles ou fortuites) pendant la grossesse et l'accouchement ou
   dans les 42 jours suivant l'interruption de la grossesse, indépendamment de la durée
-  et du lieu de la grossesse, exprimé pour 100 000 naissances vivantes, pendant une
+  et du lieu de la grossesse, exprimé pour 100 000 naissances vivantes, pendant une
   période déterminée.</p>
 
   <h2>Concepts : </h2>
@@ -58,20 +58,21 @@ SOURCE_TYPE: >-
 
   <h2>Description : </h2>
 
-  <p>Veuillez voir la page 14 du rapport (<a href="https://www.who.int/reproductivehealth/publications/maternal-mortality-2000-2017/en/">https://www.who.int/reproductivehealth/publications/maternal-mortality-2000-2017/en/</a>).
-  </p>
+  <p>Veuillez consulter la page 14 du rapport (<a href="https://www.who.int/reproductivehealth/publications/maternal-mortality-2000-2017/en/">https://www.who.int/reproductivehealth/publications/maternal-mortality-2000-2017/en/
+  (en anglais)</a>). </p>
 COLL_METHOD: >-
   <h2>Processus de collecte : </h2>
 
-  <p>Le MMEIG gère une base de données comprenant des données sur la mortalité maternelle
-  provenant de l'état civil, d'enquêtes démographiques, de systèmes de surveillance,
-  de recensements et d'autres études/enquêtes spécialisées. Cette base de données
-  est utilisée pour déterminer le nombre de décès maternels et si possible, le nombre
-  de décès parmi toutes les femmes en âge de procréer (WRA) afin de calculer la proportion
-  « PM » de décès maternels parmi les WRA. Le RMM est ensuite calculé comme suit :
-  RMM = PM(D/B) ; où « D » est le nombre de décès chez les femmes âgées de 15 à 49
-  ans (WRA) et « B » est le nombre de naissances vivantes. Le nombre de naissances
-  vivantes est basé sur les Perspectives de la population mondiale 2019. </p>
+  <p>Le Groupe Inter-agence d'estimation de la mortalité maternelle (GIEMM/MMEIG)
+  gère une base de données comprenant des données sur la mortalité maternelle provenant
+  de l'état civil, d'enquêtes démographiques, de systèmes de surveillance, de recensements
+  et d'autres études/enquêtes spécialisées. Cette base de données est utilisée pour
+  déterminer le nombre de décès maternels et si possible, le nombre de décès parmi
+  toutes les femmes en âge de procréer (FAP) afin de calculer la proportion « PM »
+  de décès maternels parmi les FAP. Le RMM est ensuite calculé comme suit : RMM =
+  PM(D/B) ; où « D » est le nombre de décès chez les femmes âgées de 15 à 49 ans (FAP)
+  et « B » est le nombre de naissances vivantes. Le nombre de naissances vivantes
+  est basé sur les Perspectives de la population mondiale 2019. </p>
 
   <p>La modélisation statistique est entreprise pour générer des estimations comparables
   aux niveaux national, régional et mondial. L'ajustement du modèle est évalué par
@@ -95,8 +96,8 @@ COLL_METHOD: >-
 
   <p>Les ajustements sont effectués en fonction du type de source de données : </p>
 
-  <p>(1) Systèmes d'enregistrement publiques et de statistiques de l'état civil, pour
-  incomplétude et classification erronée des décès maternels </p>
+  <p>(1) Systèmes d'enregistrement et de statistiques de l'état civil, pour incomplétude
+  et classification erronée des décès maternels </p>
 
   <p>(2) qui fournit des rapports sur la mortalité « liée à la grossesse » pour la
   sous-déclaration de ces décès, ainsi que sur la sur-déclaration des décès maternels
@@ -112,71 +113,69 @@ FREQ_COLL: >-
 
   <h2>Collecte de données :</h2>
 
-  <p>Les données de base sont collectées par les pays, généralement chaque année pour
-  les sources des systèmes d'enregistrement publiques et de statistiques de l'état
-  civil, tous les 3 à 5 ans pour les revues spécialisées, tous les 5 à 7 ans pour
-  les enquêtes de population, tous les 10 ans pour les recensements. </p>
+  <p>Les données de base sont recueillies par les pays, généralement chaque année
+  pour les sources des systèmes d'enregistrement et de statistiques de l'état civil,
+  tous les 3 à 5 ans pour les revues spécialisées, tous les 5 à 7 ans pour les enquêtes
+  de population, tous les 10 ans pour les recensements. </p>
 REL_CAL_POLICY: >-
-  <h2>Publication des données :</h2>
+  <h2>Diffusion des données :</h2>
 
-  <p>Le prochain cycle d'estimation du RMM est prévu pour la publication en 2022.
-  </p>
+  <p>Le prochain cycle d'estimation du RMM est prévu pour la diffusion de 2022. </p>
 DATA_SOURCE: >-
   <h1>Fournisseurs de données</h1>
 
-  <p>Les fournisseurs de données au niveau national peuvent être des bureaux de statistiques,
+  <p>Les fournisseurs de données au niveau national peuvent être des bureaux de statistique,
   des organismes spécialisés dans la surveillance épidémiologique et le ministère
-  de la Santé. </p>
+  de la santé. </p>
 COMPILING_ORG: >-
   <h1>Compilateurs de données </h1>
 
-  <p>Le MMEIG, composé de : OMS, UNICEF, FNUAP, Groupe de la Banque mondiale et Division
+  <p>Le GIEMM, composé de : OMS, UNICEF, FNUAP, Groupe de la Banque mondiale et Division
   de la population de l'ONU. </p>
 RATIONALE: >-
   <h2>Justification :</h2>
 
   <p>Tous les indicateurs de mortalité maternelle dérivés du cycle d'estimation de
-  2019 comprennent une estimation ponctuelle et un intervalle d'incertitude (UI) de
+  2019 comprennent une estimation ponctuelle et un intervalle de confiance (IC) de
   80 %. Les données sont disponibles et peuvent être téléchargées sur la page web
-  « Maternal Mortality &#x2013; Levels and Trends 2000-2017 ( <a href="http://mmr2017.srhr.org">http://mmr2017.srhr.org</a>).
-  Les estimations ponctuelles et l'intervalle d'incertitude de 80 % doivent être pris
+  (en anglais) « Maternal Mortality – Levels and Trends 2000-2017 ( <a href="http://mmr2017.srhr.org">http://mmr2017.srhr.org</a>).
+  Les estimations ponctuelles et l'intervalle de confiance de 80 % doivent être pris
   en compte lors de l'évaluation des estimations. </p>
 
-  <p> Par exemple : </p>
+  <p>Par exemple : </p>
 
-  <p>Le RMM mondial estimé pour 2017 est de 211 (UI 199 à 243)</p>
+  <p>Le RMM mondial estimé pour 2017 est de 211 (IC 199 à 243)</p>
 
   <p>Cela signifie : </p>
 
-  <p> &#x2022; L'estimation ponctuelle est de 211 et l'intervalle d'incertitude de
-  80% va de 199 à 243. </p>
+  <p> · L'estimation ponctuelle est de 211 et l'intervalle de confiance de 80% va
+  de 199 à 243. </p>
 
-  <p> &#x2022; Il y a 50% de chances que le véritable RMM mondial de 2017 soit supérieur
+  <p> · Il y a 50% de chances que le véritable RMM mondial de 2017 soit supérieur
   à 211, et 50% de chances que la valeur réelle soit inférieure à 211. </p>
 
-  <p> &#x2022;Il y a 80 % de chances que le véritable RMM mondial de 2017 se situe
-  entre 199 et 243. </p>
+  <p> · Il y a 80 % de chances que le véritable RMM mondial de 2017 se situe entre
+  199 et 243. </p>
 
-  <p> &#x2022; Il y a encore 10 % de chances que le véritable RMM mondial de 2017
-  soit supérieur à 243, et 10 % de chances que la valeur réelle soit inférieure à
-  199. </p>
+  <p> · Il y a encore 10 % de chances que le véritable RMM mondial de 2017 soit supérieur
+  à 243, et 10 % de chances que la valeur réelle soit inférieure à 199. </p>
 
   <p>Parmi les autres interprétations précises, on peut citer : </p>
 
-  <p> &#x2022; Nous sommes sûrs à 90 % que le véritable RMM mondial de 2017 est d'au
-  moins 199. </p>
+  <p> · Nous sommes sûrs à 90 % que le véritable RMM mondial de 2017 est d'au moins
+  199. </p>
 
-  <p> &#x2022; Nous sommes sûrs à 90 % que le véritable RMM mondial de 2017 est de
-  243 ou moins. </p>
+  <p> · Nous sommes sûrs à 90 % que le véritable RMM mondial de 2017 est de 243 ou
+  moins. </p>
 
   <p>La quantité de données disponibles pour l'estimation d'un indicateur et la qualité
-  de ces données déterminent la largeur de l'UI d'un indicateur. À mesure que la disponibilité
-  et la qualité des données s'améliorent, équivaut à l'augmentation de la certitude
-  que la valeur réelle d'un indicateur est proche de l'estimation ponctuelle. </p>
+  de ces données déterminent la largeur de l'IC d'un indicateur. À mesure que la disponibilité
+  et la qualité des données s'améliorent, la certitude que la valeur réelle d'un indicateur
+  est proche de l'estimation ponctuelle augmente. </p>
 REC_USE_LIM: >-
   <h2>Commentaires et limites : </h2>
 
-  <p> L'ampleur de la mortalité maternelle dans une population est essentiellement
+  <p>L'ampleur de la mortalité maternelle dans une population est essentiellement
   la combinaison de deux facteurs :</p>
 
   <p>i. Le risque de décès lors d'une seule grossesse ou d'une seule naissance vivante.
@@ -186,13 +185,13 @@ REC_USE_LIM: >-
   que connaissent les femmes en âge de procréer). </p>
 
   <p>Le RMM est défini comme le nombre de décès maternels pendant une période donnée
-  pour 100 000 naissances vivantes au cours de la même période. Il décrit le risque
+  pour 100 000 naissances vivantes au cours de la même période. Il décrit le risque
   de décès maternel par rapport au nombre de naissances vivantes et reprend essentiellement
   le point (i) ci-dessus.</p>
 
-  <p>En revanche, le taux de mortalité maternelle (RMM) est calculé comme le nombre
+  <p>En revanche, le taux de mortalité maternelle (TMM) est calculé comme le nombre
   de décès maternels divisé par les années-personnes vécues par les femmes en âge
-  de procréer. Le RMM saisit à la fois le risque de décès maternel par grossesse ou
+  de procréer. Le TMM saisit à la fois le risque de décès maternel par grossesse ou
   par naissance totale (naissance vivante ou mort-né) et le niveau de fertilité de
   la population. En plus du RMM et du TMM, il est possible de calculer le risque de
   mortalité maternelle des femmes de la population pendant leur vie adulte. Une autre
@@ -203,21 +202,21 @@ REC_USE_LIM: >-
 
   <p><strong>Mesures statistiques connexes de la mortalité maternelle : </strong></p>
 
-  <p>Ratio de mortalité maternelle (RMM) est défini comme le nombre de décès maternels
-  au cours d'une période donnée pour 100 000 naissances vivantes au cours de la même
+  <p>Le Ratio de mortalité maternelle (RMM) est défini comme le nombre de décès maternels
+  au cours d'une période donnée pour 100 000 naissances vivantes au cours de la même
   période. </p>
 
-  <p>Taux de mortalité maternelle (TMM) pour sa part renseigne sur le nombre de décès
-  maternels divisé par le nombre d'années-personnes vécues par les femmes en âge de
-  procréer. </p>
+  <p>Le Taux de mortalité maternelle (TMM) pour sa part renseigne sur le nombre de
+  décès maternels divisé par le nombre d'années-personnes vécues par les femmes en
+  âge de procréer. </p>
 
   <p>Tandis que le risque de décès maternel au cours de la vie d'un adulte informe
   sur la probabilité qu'une femme de 15 ans meure éventuellement d'une cause maternelle.
   </p>
 
   <p>La proportion de décès de femmes en âge de procréer qui sont dus à des causes
-  maternelles nous renseigne le nombre de décès maternels au cours d'une période donnée
-  divisé par le nombre total de décès chez les femmes âgées de 15 ans à 49 ans. </p>
+  maternelles : nombre de décès maternels au cours d'une période donnée divisé par
+  le nombre total de décès chez les femmes âgées de 15 ans à 49 ans. </p>
 DATA_COMP: >-
   <h1>Méthodologie</h1>
 
@@ -225,30 +224,30 @@ DATA_COMP: >-
 
   <p>Le RMM peut être calculé en divisant les décès maternels enregistrés (ou estimés)
   par le total des naissances vivantes enregistrées (ou estimées) au cours de la même
-  période et en multipliant par 100 000. La mesure exige de l’information sur l’état
+  période et en multipliant par 100 000. La mesure exige de l’information sur l’état
   de la grossesse, le moment du décès (pendant la grossesse, l’accouchement ou dans
   les 42 jours suivant l’interruption de grossesse) et la cause du décès.</p>
 
-  <p> Le TMM peut être calculé directement à partir des données recueillies au moyen
-  de systèmes d’enregistrement vitaux, d’enquêtes auprès des ménages ou d’autres sources.
-  Il y a souvent des problèmes de qualité des données, en particulier liés à la sous-déclaration
-  et à la classification erronée des décès maternels. Par conséquent, les données
-  sont souvent ajustées afin de tenir compte de ces problèmes de qualité des données.
-  Certains pays entreprennent ces ajustements ou corrections dans le cadre d’enquêtes
-  spécialisées/confidentielles ou d’efforts administratifs intégrés aux programmes
-  de surveillance de la mortalité maternelle.</p>
+  <p>Le TMM peut être calculé directement à partir des données recueillies au moyen
+  de systèmes d’enregistrement de l'état civil, d’enquêtes auprès des ménages ou d’autres
+  sources. Il y a souvent des problèmes de qualité des données, en particulier liés
+  à la sous-déclaration et à la classification erronée des décès maternels. Par conséquent,
+  les données sont souvent ajustées afin de tenir compte de ces problèmes de qualité
+  des données. Certains pays entreprennent ces ajustements ou corrections dans le
+  cadre d’enquêtes spécialisées/confidentielles ou d’efforts administratifs intégrés
+  aux programmes de surveillance de la mortalité maternelle.</p>
 
-  <p><strong> Modèle d’estimation de la mortalité maternelle bayésien (le modèle BMat) :
+  <p><strong>Modèle d’estimation de la mortalité maternelle bayésien (le modèle BMat) :
   </strong></p>
 
-  <p> Estimation et projection des indicateurs de mortalité maternelle sont entreprises
+  <p>L'estimation et la projection des indicateurs de mortalité maternelle sont entreprises
   à l’aide du modèle BMat. Ce modèle vise à s’assurer que l’approche d’estimation
-  du RMM est uniforme dans tous les pays, mais qu’elle demeure souple en ce qu’elle
+  du RMM est uniforme dans tous les pays, mais qu’elle demeure souple puisqu'elle
   est fondée sur des tendances axées sur la covariation afin d’éclairer les estimations
-  dans les pays ou pays périodicités avec une information limitée ; capture les tendances
-  observées dans les pays où les séries d’observations sont plus longues ; et tient
-  compte des différences dans les erreurs stochastiques et d’échantillonnage entre
-  les observations.</p>
+  des pays ou des combinaisons pays-périodes avec une information limitée; elle saisit
+  des tendances observées dans les pays où les séries d’observations sont plus longues;
+  et elle tient compte des différences dans les erreurs stochastiques et d’échantillonnage
+  entre les observations.</p>
 
   <p>Le modèle est résumé comme suit : </p>
 
@@ -259,10 +258,11 @@ DATA_COMP: >-
   <p>où </p>
 
   <p><em>EPM<sup>NA</sup></em>= la proportion attendue de décès non liés au VIH chez
-  les femmes de 15 à 49 ans qui sont dus à des causes maternelles [NA = non-VIH ;
-  anciennement « non-SIDA »]</p>
+  les femmes de 15 à 49 ans qui sont dus à des causes maternelles [NA = non-VIH; anciennement
+  « non-SIDA »]</p>
 
-  <p><em>GDP </em>= produit intérieur brut par habitant (en dollars EU PPA 2011)</p>
+  <p><em>GDP </em>= produit intérieur brut par habitant (en dollars américains PPA
+  2011)</p>
 
   <p><em>GFR</em>= taux de fertilité général (naissances vivantes par femme de 15
   à 49 ans)</p>
@@ -270,9 +270,10 @@ DATA_COMP: >-
   <p><em>SBA </em>= proportion des naissances assistées par du personnel de santé
   qualifié</p>
 
-  <p><em>&#x3B3;<sub>j</sub></em>= terme d'interception aléatoire pour le pays j</p>
+  <p><em>&#x3B3;<sub>j</sub></em>= terme d'ordonnée à l'origine aléatoire pour le
+  pays j</p>
 
-  <p>&#x3D5;<sub>k</sub> = terme d'interception aléatoire pour la région k.</p>
+  <p>&#x3D5;<sub>k</sub> = terme d'ordonnée à l'origine aléatoire pour la région k.</p>
 
   <p>Pour les pays disposant de données sur la mortalité maternelle, la proportion
   attendue de décès maternels non liés au VIH a été calculée sur la base des effets
@@ -281,7 +282,7 @@ DATA_COMP: >-
   régionaux. </p>
 
   <p>Les estimations résultantes du <em>EPM<sup>NA </sup></em> ont été utilisées pour
-  obtenir le RMM non-VIH attendu grâce à la relation suivante :</p> 
+  obtenir le RMM non-VIH attendu grâce à la relation suivante :</p> 
 
   <p>RMM attendu non-VIH =EPM<sup>NA</sup>*(1-a)*E/B</p>
 
@@ -294,7 +295,7 @@ DATA_COMP: >-
 
   <p>B = le nombre de naissances.</p>
 
-  <p>Estimation des décès maternels indirects liés au VIH :</p>
+  <p>Estimation des décès maternels indirects liés au VIH :</p>
 
   <p>Pour les pays où l'épidémie de VIH est généralisée et où la prévalence du VIH
   est élevée, le VIH/sida est une cause majeure de décès pendant la grossesse et après
@@ -310,65 +311,65 @@ DATA_COMP: >-
   parmi tous les décès liés au VIH survenus pendant la grossesse, l'accouchement et
   la puerpéralité).</p>
 
-  <p>Le nombre de décès maternels indirects liés au VIH (HIV) , <em> </em> </strong>,
-  <em>D<sup>HIV</sup>, </em> est estimé par:</p> <p><em>D<sup>HIV </sup>= a * E *
-  v * u</em></p>
+  <p>Le nombre de décès maternels indirects liés au VIH, <em>D<sup>VIH</sup>, </em>
+  est estimé à l'aide de :</p>
+
+  <p><em>D<sup>VIH</sup> = a * E * v * u</em></p>
 
   <p>Où</p>
 
   <p><em>a*E</em> = le nombre total de décès liés au VIH parmi tous les décès de femmes
   âgées de 15 à 49.</p>
 
-  <p><em>v = </em>est la proportion de décès liés au VIH chez les femmes âgées de
-  15 à 49 qui surviennent pendant la grossesse. La valeur de <em>v </em> peut être
-  calculée comme suit : <em>v&#xA0;</em>=&#xA0 <em>c k GFR / [</em>1 + <em>c</em>(<em>k-</em>1)
-  <em>GFR] </em>où <forte> </forte>GFR est le taux de fertilité général, et <em> c
-  </em> est la durée moyenne d'exposition (en années) au risque de mortalité liée
-  à la grossesse par nais1sance vivante (fixée à 1 pour cette analyse), et <em>k </em>est
-  le risque relatif de mourir du sida pour une femme enceinte par rapport à une femme
-  non enceinte (reflétant à la fois la baisse de la fertilité des femmes séropositives
-  et l'augmentation du risque de mortalité des femmes enceintes séropositives). La
-  valeur de k a été fixée à 0,3.</p> <p>u = est la fraction des décès lors d'une grossesse
-  dus au sida que l'on suppose être des décès maternels indirects. Le United Nations
-  Maternal Mortality Estimation Inter-Agency Group (UN MMEIG/TAG) a examiné les données
-  d'études disponibles sur les décès dus au SIDA chez les femmes enceintes et a recommandé
-  d'utiliser <em>u&#xA0;=&#xA0;</em>0,3.</p>
+  <p><em>v =</em> est la proportion de décès liés au VIH chez les femmes âgées de
+  15 à 49 qui surviennent pendant la grossesse. La valeur de <em>v</em> peut être
+  calculée comme suit : <em>v</em> = <em>c k GFR / [</em>1 + <em>c</em>(<em>k-</em>1)
+  <em>GFR] </em>où GFR est le taux de fertilité général, et <em>c</em> est la durée
+  moyenne d'exposition (en années) au risque de mortalité liée à la grossesse par
+  naissance vivante (fixée à 1 pour cette analyse), et <em>k</em> est le risque relatif
+  de mourir du sida pour une femme enceinte par rapport à une femme non enceinte (reflétant
+  à la fois la baisse de la fertilité des femmes séropositives et l'augmentation du
+  risque de mortalité des femmes enceintes séropositives). La valeur de k a été fixée
+  à 0,3.</p> <p>u = la fraction des décès lors d'une grossesse dus au sida que l'on
+  suppose être des décès maternels indirects. Le GIEMM a examiné les données d'études
+  disponibles sur les décès dus au sida chez les femmes enceintes et a recommandé
+  d'utiliser <em>u =</em>0,3.</p>
 
-  <p>Pour la proportion de décès de femmes en âge de procréer qui sont dus à des causes
-  maternelles observée, nous avons supposé que le total des décès maternels signalés
+  <p>Pour la proportion observée de décès de femmes en âge de procréer qui sont dus
+  à des causes maternelles, nous avons supposé que le total des décès maternels signalés
   est une combinaison de la proportion de décès maternels non liés au VIH et de la
   proportion de décès maternels (indirects) liés au VIH, cette dernière étant donnée
   par <em>a*v</em> pour les observations avec une définition « décès lié à la grossesse
   » et <em>a*v*u</em> pour les observations avec une définition « décès maternel ».</p>
 IMPUTATION: >-
-  <h2> Traitement des valeurs manquantes :</h2>
+  <h2>Traitement des valeurs manquantes :</h2>
 
   <ul>
-    <li> <strong> <em> Au niveau national :</em></strong></li>
-    <li> <strong> <em> Aux niveaux régional et mondial :</em></strong></li>
+    <li> <strong> <em>Au niveau national :</em></strong></li>
+    <li> <strong> <em>Aux niveaux régional et mondial :</em></strong></li>
   </ul>
 
-  <p> Pour éclairer la projection des tendances entre les périodes où les données
-  sont rares, ou pour les pays qui ont peu ou pas de données du tout, le modèle statistique
+  <p>Pour éclairer la projection des tendances entre les périodes où les données sont
+  rares, ou pour les pays qui ont peu ou pas de données du tout, le modèle statistique
   BMaT est utilisé pour estimer la mortalité maternelle. Le modèle comprend des facteurs
-  connus pour être associés à la mortalité maternelle en tant que covariés prédicteurs
+  connus pour être associés à la mortalité maternelle en tant que covariables prédictrices
   (GDP, GFR et SAB). </p>
 REG_AGG: >-
   <h2>Agrégats régionaux : </h2>
 
   <p>Le taux de mortalité maternelle peut être calculé en divisant les décès maternels
   enregistrés (ou estimés) par le nombre total de naissances vivantes enregistrées
-  (ou estimées) au cours de la même période et en multipliant le résultat par 100
-  000. La mesure nécessite des informations sur l'état de la grossesse, le moment
-  du décès (pendant la grossesse, l'accouchement ou dans les 42 jours suivant l'interruption
+  (ou estimées) au cours de la même période et en multipliant le résultat par 100 000.
+  La mesure nécessite des informations sur l'état de la grossesse, le moment du décès
+  (pendant la grossesse, l'accouchement ou dans les 42 jours suivant l'interruption
   de la grossesse) et la cause du décès. </p>
 
-  <p>Le taux de mortalité maternelle peut être calculé directement à partir des données
-  collectées par les systèmes d'état civil, les enquêtes sur les ménages ou d'autres
-  sources. Il existe souvent des problèmes de qualité des données, notamment liés
-  à la sous-déclaration et à la mauvaise classification des décès maternels. Par conséquent,
-  les données sont souvent ajustées afin de prendre en compte ces problèmes de qualité
-  des données. </p>
+  <p>Le ratio de mortalité maternelle peut être calculé directement à partir des données
+  recueillies par les systèmes d'enregistrement de l'état civil, les enquêtes auprès
+  des ménages ou d'autres sources. Il existe souvent des problèmes de qualité des
+  données, notamment liés à la sous-déclaration et à la mauvaise classification des
+  décès maternels. Par conséquent, les données sont souvent ajustées afin de prendre
+  en compte ces problèmes de qualité des données. </p>
 
   <p>La mortalité maternelle étant un événement relativement rare, il est nécessaire
   de disposer d'échantillons de grande taille si l'on utilise des enquêtes auprès
@@ -377,19 +378,19 @@ REG_AGG: >-
   de confiance importants, ce qui limite l'utilité pour les comparaisons entre pays
   ou dans le temps. </p>
 
-  <p>Afin de réduire la taille de l'échantillon, la méthode des sœurs utilisée dans
-  les DHS et les enquêtes à indicateurs multiples (MICS) mesure la mortalité maternelle
-  en interrogeant les répondants sur la survie des sœurs. Il convient de noter que
-  la méthode des sœurs entraîne une mortalité liée à la grossesse : quelle que soit
-  la cause du décès, tous les décès survenus pendant la grossesse, la naissance ou
-  les six semaines suivant l'interruption de la grossesse sont inclus dans le numérateur
-  du taux de mortalité maternelle.</p>
+  <p>Afin de réduire la taille de l'échantillon, la « méthode des sœurs » utilisée
+  dans les enquêtes démographiques et de santé (DHS) et les enquêtes à indicateurs
+  multiples (MICS) mesure la mortalité maternelle en interrogeant les répondants sur
+  la survie des sœurs. Il convient de noter que la méthode des sœurs entraîne une
+  mortalité liée à la grossesse : quelle que soit la cause du décès, tous les décès
+  survenus pendant la grossesse, l'accouchement ou les six semaines suivant l'interruption
+  de la grossesse sont inclus dans le numérateur du taux de mortalité maternelle.</p>
 
-  <p> Les recensements ont également inclus des questions sur les décès maternels
-  avec un succès variable.</p>
+  <p>Les recensements ont également inclus des questions sur les décès maternels avec
+  un succès variable.</p>
 
-  <p>L'étude RAMOS (Reproductive Age Mortality Studies) est une étude spéciale qui
-  utilise des sources variées, selon le contexte, pour identifier les décès maternels;
+  <p>L'étude RAMOS (« Reproductive Age Mortality Studies ») est une étude spéciale
+  qui utilise des sources variées, selon le contexte, pour identifier les décès maternels;
   aucune source unique n'identifie tous les décès. Des entretiens avec les membres
   du ménage et les prestataires de soins de santé ainsi que l'examen des dossiers
   des établissements sont utilisés pour classer les décès comme étant maternels ou
@@ -419,7 +420,7 @@ REG_AGG: >-
   données afin d'obtenir des estimations nationales comparables, permettant une agrégation
   régionale et mondiale.</p>
 
-  <p>Actuellement, seul un tiers environ de tous les pays/territoires disposent de
+  <p>Actuellement, environ seul un tiers de tous les pays/territoires disposent de
   données fiables et n'ont pas besoin d'estimations supplémentaires. Pour environ
   la moitié des pays inclus dans le processus d'estimation, les estimations de la
   mortalité maternelle rapportées par les pays sont ajustées à des fins de comparabilité
@@ -427,95 +428,96 @@ REG_AGG: >-
   mortalité maternelle, un modèle statistique est utilisé pour prédire les niveaux
   de mortalité maternelle. Cependant, les estimations ponctuelles calculées avec cette
   méthodologie peuvent ne pas représenter les véritables niveaux de mortalité maternelle.
-  Il est conseillé de considérer les estimations de même que les marges d'incertitude
-  déclarées dans lesquelles on sait que les niveaux réels se situent. </p>
+  Il est conseillé de considérer les estimations de même que les intervalles de confiance
+  déclarés dans lesquels on sait que les niveaux réels se situent. </p>
 
-  <p>Les détails sur les ajustements et les formules sont publiés/disponibles ici
-  : </p>
+  <p>Les détails sur les ajustements et les formules sont publiés/disponibles (en
+  anglais) ici : </p>
 
-  <p>(1) Peterson E, Chou D, Gemmill A, Moller AB, Say L, Alkema L. Estimating maternal
+  <p>(1) Peterson E, Chou D, Gemmill A, Moller AB, Say L, Alkema L. « Estimating maternal
   mortality using vital registration data : a Bayesian hierarchical bivariate random
   walk model to estimate sensitivity and specificity of reporting for population-periods
-  without validation data. 2019 (<a href="https://arxiv.org/abs/1909.08578">https://arxiv.org/abs/1909.08578</a>)</p>
+  without validation data ». 2019 (<a href="https://arxiv.org/abs/1909.08578">https://arxiv.org/abs/1909.08578</a>)</p>
 
   <p>(2) Organisation mondiale de la santé (OMS), Fonds des Nations Unies pour l'enfance
   (UNICEF), Fonds des Nations Unies pour la population (FNUAP), Groupe de la Banque
-  mondiale, Division de la population des Nations Unies. Tendances de la mortalité
+  mondiale, Division de la population des Nations Unies. Évolution de la mortalité
   maternelle : 2000 à 2017 : estimations de l'OMS, de l'UNICEF, du FNUAP, du Groupe
   de la Banque mondiale et de la Division de la population des Nations Unies. Genève
-  : Organisation mondiale de la santé ; 2019 (<a href="https://www.who.int/reproductivehealth/publications/maternal-mortality-2000-2017/en/">https://www.who.int/reproductivehealth/publications/maternal-mortality-2000-2017/en/</a>).
+  : Organisation mondiale de la Santé. 2019 (<a href="https://www.who.int/reproductivehealth/publications/maternal-mortality-2000-2017/en/">https://www.who.int/reproductivehealth/publications/maternal-mortality-2000-2017/en/</a>).
   </p>
 COVERAGE: >-
   <h1>Disponibilité des données </h1>
 
   <p>Les estimations du RMM sont limitées aux pays dont la population est supérieure
-  à 100 000 habitants. Sur 185 pays et territoires, 177 disposent de données représentatives
+  à 100 000 habitants. Sur 185 pays et territoires, 177 disposent de données représentatives
   au niveau national.</p>
 
   <h2>Désagrégation :</h2>
 
-  <p> Les estimations actuelles du RMM sont rapportées aux niveaux national, régional
+  <p>Les estimations actuelles du RMM sont déclarées aux niveaux national, régional
   et mondial. Les estimations au niveau régional ont des strates de revenu selon la
-  classification de la Banque mondiale, par les groupements régionaux de l'UNICEF
+  classification de la Banque mondiale, selon les groupements régionaux de l'UNICEF
   et du FNUAP.</p>
 COMPARABILITY: >-
-  <h2>Sources des écarts : </h2>
+  <h2>Sources des divergences : </h2>
 
   <p>Le ratio de mortalité maternelle est défini comme le nombre de décès maternels
   divisé par le nombre de naissances vivantes. Toutefois, pour tenir compte du caractère
   potentiellement incomplet de l'enregistrement des décès dans les différentes sources
-  de données, le MMEIG calcule d'abord la fraction des décès dus à des causes maternelles
-  à partir des sources de données originales (appelée la « proportion maternelle »
+  de données, le GIEMM calcule d'abord la fraction des décès dus à des causes maternelles
+  à partir des sources de données originales (appelée la « proportion maternelle »
   ou PM), puis applique cette fraction aux estimations de l'OMS du nombre total de
   décès chez les femmes en âge de procréer pour obtenir une estimation du nombre de
   décès maternels. </p>
 
   <p>En d'autres termes, la fraction suivante est d'abord calculée à partir des sources
-  de données des pays : </p>
+  de données des pays : </p>
 
-  <p>PM= Nombre de décès maternels 15 à 49 ans/tous les décès féminins à l'âge de
-  15 à 49 ans </p>
+  <p>PM = Nombre de décès maternels 15 à 49 ans / tous les décès féminins à l'âge
+  de 15 à 49 ans </p>
 
-  <p> et ensuite le PM est utilisé pour calculer le RMM comme suit : </p>
+  <p>et ensuite le PM est utilisé pour calculer le RMM comme suit : </p>
 
-  <p>RMM = PM &#xD7; (tous les décès de femmes entre 15 et 49 ans/nombre de naissances
+  <p>RMM = PM x (tous les décès de femmes entre 15 et 49 ans / nombre de naissances
   vivantes) </p>
 
-  <p> où l'estimation de tous les décès entre 15 et 49 ans dans la deuxième équation
+  <p>où l'estimation de tous les décès entre 15 et 49 ans dans la deuxième équation
   est tirée des tables de survie de l'OMS, et le nombre de naissances vivantes est
-  tiré du World Population Prospects 2019. </p>
+  tiré du « World Population Prospects 2019 ». </p>
 
-  <p>Dans ce contexte, voici quelques raisons pour lesquelles les estimations du MMEIG
-  peuvent différer des statistiques nationales :</p>
+  <p>Dans ce contexte, voici quelques raisons pour lesquelles les estimations du GIEMM
+  peuvent différer des statistiques nationales :</p>
 
-  <p>1. Les systèmes d'enregistrement publiques et de statistiques de l'état civil
-  ne sont pas toujours complets (c'est-à-dire qu'ils ne saisissent pas toujours 100
-  % de tous les décès) et cette complétude peut changer avec le temps. L'approche
-  d'estimation du MMEIG tente de corriger cela en utilisant l'approche ci-dessus,
-  qui implique de calculer d'abord les PM. </p>
+  <p>1. Les systèmes d'enregistrement et de statistiques de l'état civil ne sont pas
+  toujours complets (c'est-à-dire qu'ils ne saisissent pas toujours 100 % de tous
+  les décès) et cette complétude peut changer avec le temps. L'approche d'estimation
+  du GIEMM tente de corriger cela en utilisant l'approche ci-dessus, qui implique
+  de calculer d'abord les PM. </p>
 
-  <p>2. Le MMEIG applique souvent des facteurs d'ajustement aux PM calculées à partir
+  <p>2. Le GIEMM applique souvent des facteurs d'ajustement aux PM calculées à partir
   des données originales pour tenir compte des problèmes de mesure (tels que la façon
-  dont le pays a défini les « décès maternels », une mauvaise classification ou un
+  dont le pays a défini les « décès maternels », une mauvaise classification ou un
   manque d'exhaustivité). </p>
 
-  <p>3. Le MMEIG utilise la série standardisée de naissances vivantes de la Division
-  de la population des Nations Unies, telle que publiée dans World Population Prospects
-  2019, au dénominateur de l'équation du RMMR. Pour mieux informer le WPP, les pays
-  doivent discuter des écarts directement avec le UNPD. L'adresse de contact est population@un.org
-  ; cette adresse électronique fait l'objet d'un suivi régulier et les messages sont
-  envoyés aux analystes appropriés pour chaque pays ou préoccupation. </p>
+  <p>3. Le GIEMM utilise la série standardisée de naissances vivantes de la Division
+  de la population des Nations Unies, telle que publiée dans « World Population Prospects
+  2019 », au dénominateur de l'équation du RMM. Pour mieux informer le WPP, les pays
+  doivent discuter des écarts directement avec la DIvision de la populaiton des NU.
+  L'adresse de contact est population@un.org; cette adresse électronique fait l'objet
+  d'un suivi régulier et les messages sont envoyés aux analystes appropriés pour chaque
+  pays ou préoccupation. </p>
 
   <p>4. Statistiquement parlant, les décès maternels sont un événement relativement
   rare, ce qui peut conduire à des distorsions temporelles dans les données au fil
-  du temps. Comme l'objectif des estimations du MMEIG est de suivre les progrès à
+  du temps. Comme l'objectif des estimations du GIEMM est de suivre les progrès à
   long terme dans la réduction de la mortalité maternelle, le processus d'estimation
   implique un certain lissage pour générer une courbe qui saisit mieux les changements
   du risque sous-jacent. </p>
 OTHER_DOC: >-
-  <h1>Références</h1>
+  <h1>Références (en anglais seulement)</h1>
 
-  <h2>URL : </h2><a href="https://www.who.int/reproductivehealth/publications/maternal-mortality-2000-2017/en/">
+  <h2>URL : </h2>
 
   <p><a href="https://www.who.int/reproductivehealth/publications/maternal-mortality-2000-2017/en/">https://www.who.int/reproductivehealth/publications/maternal-mortality-2000-2017/en/</a></p>
 
@@ -523,11 +525,11 @@ OTHER_DOC: >-
 
   <p>(1) Organisation mondiale de la santé (OMS), Fonds des Nations Unies pour l'enfance
   (UNICEF), Fonds des Nations Unies pour la population (FNUAP), Groupe de la Banque
-  mondiale, Division de la population des Nations Unies. Trends in maternal mortality:
+  mondiale, Division de la population des Nations Unies. « Trends in maternal mortality:
   2000 to 2017: estimates by WHO, UNICEF, UNFPA, World Bank Group and the United Nations
-  Population Division. Genève : Organisation mondiale de la santé ; 2019 </p>
+  Population Division ». Genève : Organisation mondiale de la santé ; 2019 </p>
 
-  <p>(2) Peterson E, Chou D, Gemmill A, Moller AB, Say L, Alkema L. Estimating maternal
+  <p>(2) Peterson E, Chou D, Gemmill A, Moller AB, Say L, Alkema L. « Estimating maternal
   mortality using vital registration data : a Bayesian hierarchical bivariate random
   walk model to estimate sensitivity and specificity of reporting for population-periods
-  without validation data. 2019 (<a href="https://arxiv.org/abs/1909.08578">https://arxiv.org/abs/1909.08578</a>).</p>
+  without validation data ». 2019 (<a href="https://arxiv.org/abs/1909.08578">https://arxiv.org/abs/1909.08578</a>).</p>
