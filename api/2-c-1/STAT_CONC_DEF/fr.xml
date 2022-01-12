@@ -5,7 +5,7 @@
 	<data>&lt;p&gt;&lt;strong&gt;Définition :&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;L’indicateur des anomalies des prix alimentaires (IAPA) identifie les prix du marché qui sont anormalement élevés. L’IAPA repose sur un taux de croissance composé pondéré qui tient compte à la fois de la croissance des prix au cours de l’année et de l’ensemble de l’année. L’indicateur évalue directement la croissance des prix sur un mois particulier sur de nombreuses années, en tenant compte de la saisonnalité des marchés agricoles et de l’inflation, ce qui permet de répondre à la question de savoir si un changement de prix est anormal ou non pour une période donnée.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Concepts :&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt; L’indicateur des anomalies de prix alimentaires (IAPA) repose sur deux taux de croissance composés (TCC), un taux de croissance composé trimestriel (TCCT) et un taux de croissance composé annuel (TCCA). Un TCC est une moyenne géométrique&lt;sup&gt;&lt;a href=&quot;#footnote-2&quot; id=&quot;footnote-ref-2&quot;&gt;[1]&lt;/a&gt;&lt;/sup&gt; qui suppose qu’une variable aléatoire croît à un rythme régulier, composé sur une période de temps spécifique. Parce qu’il suppose un taux de croissance régulier, le TCC lisse l’effet de la volatilité des variations de prix. Le TCC est la croissance de toute variable aléatoire de la période
+&lt;p&gt;L’indicateur des anomalies de prix alimentaires (IAPA) repose sur deux taux de croissance composés (TCC), un taux de croissance composé trimestriel (TCCT) et un taux de croissance composé annuel (TCCA). Un TCC est une moyenne géométrique&lt;sup&gt;&lt;a href=&quot;#footnote-2&quot; id=&quot;footnote-ref-2&quot;&gt;[1]&lt;/a&gt;&lt;/sup&gt; qui suppose qu’une variable aléatoire croît à un rythme régulier, composé sur une période de temps spécifique. Parce qu’il suppose un taux de croissance régulier, le TCC lisse l’effet de la volatilité des variations de prix. Le TCC est la croissance de toute variable aléatoire pour la période
 &lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;
     &lt;msub&gt;
       &lt;mrow&gt;
@@ -24,7 +24,7 @@
         &lt;mi&gt;B&lt;/mi&gt;
       &lt;/mrow&gt;
     &lt;/msub&gt;
-  &lt;/math&gt;, à la puissance un sur la période de temps à l&apos;étude&lt;/p&gt;
+  &lt;/math&gt;, à la puissance (un sur la période de temps à l&apos;étude)&lt;/p&gt;
 &lt;p&gt;&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;
     &lt;msub&gt;
       &lt;mrow&gt;

@@ -34,7 +34,7 @@
   &lt;li&gt;Au niveau national &lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt; &lt;/p&gt;
-&lt;p&gt;Nous n&apos;imputons pas de valeurs manquantes aux pays qui n&apos;ont jamais communiqué de données pour une quelconque MTN. Pour les pays qui ont communiqué des données dans le passé, nous n&apos;imputons les valeurs manquantes que pour les MTN qui ont été signalées dans le passé mais qui ne l&apos;ont pas été cette année.&lt;/p&gt;
+&lt;p&gt;Nous n&apos;imputons pas de valeurs manquantes aux pays qui n&apos;ont jamais communiqué de données pour une quelconque MTN. Pour les pays qui ont déclaré des données dans le passé, nous n&apos;imputons les valeurs manquantes que pour les MTN qui ont été signalées dans le passé mais qui ne l&apos;ont pas été cette année.&lt;/p&gt;
 &lt;p&gt; &lt;/p&gt;
 &lt;p&gt;Pour la reproductibilité, nous employons des techniques d&apos;imputation multiple en utilisant le progiciel Amelia disponible gratuitement dans R. Nous imputons 100 ensembles de données complets en utilisant toutes les données transversales disponibles (pays et années), en appliquant une transformation de racine carrée pour exclure les valeurs négatives de l&apos;incidence, ainsi que des variables catégorielles indiquant les régions et les groupes de revenus, et en tenant compte des effets linéaires du temps propres à chaque pays. Nous faisons des agrégats pour l&apos;ensemble des maladies et en extrayons la moyenne ainsi que les valeurs de 2,5 et 97,5 centiles afin d&apos;obtenir les meilleures estimations et les intervalles d&apos;incertitude pour chaque pays. &lt;/p&gt;
 &lt;p&gt; &lt;/p&gt;
