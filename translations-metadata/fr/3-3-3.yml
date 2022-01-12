@@ -6,27 +6,27 @@ SDG_TARGET: "<p>Cible 3.3 : D’ici 2030, mettre fin à l’épidémie de sida, 
   \ maladies transmises par l’eau et d'autres maladies transmissibles </p>"
 SDG_INDICATOR: "<p>Indicateur 3.3.3 : Incidence du paludisme pour 1 000 habitants\
   \ </p>"
-OTHER_DOC: "<p> <strong>URL :</strong> </p>\n<p>(en anglais) https://www.who.int/publications/i/item/9789240015791\
-  \ </p>\n<p> </p>\n<p> <strong>Références :</strong> </p>\n<p>1. Organisation mondiale\
-  \ de la Santé. Rapport mondial sur le paludisme 2020. </p>\n<p>2. Organisation mondiale\
-  \ de la Santé. Rapport mondial sur le paludisme 2008 [Internet]. Genève : Organisation\
-  \ mondiale de la Santé; 2008. Disponible (en anglais) auprès de : http://apps.who.int/iris/bitstream/10665/43939/1/9789241563697_eng.pdf\
-  \ </p>\n<p>3. Cibulskis RE, Aregawi M, Williams R, Otten M, Dye C. Worldwide Incidence\
-  \ of Malaria in 2009: Estimates, Time Trends, and a Critique of Methods. Mueller\
-  \ I, éditeur. PLoS Med. 2011 Déc 20;8( 12) :e1001142. </p>\n<p>4. Équipe de base\
-  \ en R. R : Un langage et un environnement pour l’informatique statistique [Internet].\
-  \ Vienne, Autriche : Fondation R pour l’informatique statistique; 2020. Disponible\
-  \ (en anglais) auprès de : http://www.R-project.org/ </p>\n<p> </p>\n<p>5. Bhatt\
-  \ S, Weiss DJ, Cameron E, Bisanzio D, Mappin B, Dalrymple U, et al. The effect of\
-  \ malaria control on Plasmodium falciparum in Africa between 2000 and 2015. Nature.\
-  \ 2015 Oct 8;526(7572):207-11. </p>"
+OTHER_DOC: "<p>(Toutes les références sont en anglais)</p>\n<p> <strong>URL :</strong>\
+  \ </p>\n<p>https://www.who.int/publications/i/item/9789240015791 </p>\n<p> </p>\n\
+  <p> <strong>Références :</strong> </p>\n<p>1. Organisation mondiale de la Santé.\
+  \ Rapport mondial sur le paludisme 2020. </p>\n<p>2. Organisation mondiale de la\
+  \ Santé. Rapport mondial sur le paludisme 2008 [Internet]. Genève : Organisation\
+  \ mondiale de la Santé; 2008. Disponible à l'adresse : http://apps.who.int/iris/bitstream/10665/43939/1/9789241563697_eng.pdf\
+  \ </p>\n<p>3. Cibulskis RE, Aregawi M, Williams R, Otten M, Dye C. « Worldwide Incidence\
+  \ of Malaria in 2009: Estimates, Time Trends, and a Critique of Methods ». Mueller\
+  \ I, éditeur. PLoS Med. 2011 Déc 20;8(12):e1001142. </p>\n<p>4. R Core Team. R:\
+  \ A Language and Environment for Statistical Computing [Internet]. Vienne, Autriche.\
+  \ R Foundation for Statistical Computing; 2020. Disponible à l'adresse : http://www.R-project.org/\
+  \ </p>\n<p> </p>\n<p>5. Bhatt S, Weiss DJ, Cameron E, Bisanzio D, Mappin B, Dalrymple\
+  \ U, et al. « The effect of malaria control on Plasmodium falciparum in Africa between\
+  \ 2000 and 2015 ». Nature. 2015 Oct 8;526(7572):207-11. </p>"
 DATA_COMP: "<p>L’incidence du paludisme (1) est exprimée par le nombre de nouveaux\
-  \ cas pour 100 000 habitants par an, la population d’un pays étant dérivée des projections\
+  \ cas pour 100 000 habitants par an, la population d’un pays étant dérivée des projections\
   \ de la Division de la population des Nations Unies et la proportion totale à risque\
   \ estimée par le Programme national de lutte contre le paludisme d’un pays. Plus\
-  \ précisément, le pays estime quelle est la proportion totale de la population à\
-  \ risque de paludisme, puis, pour chaque année, la population totale à risque est\
-  \ estimée comme la population de l’ONU pour cette année, multipliée par la proportion\
+  \ précisément, le pays estime quelle est la proportion totale de la population qui\
+  \ est à risque de paludisme, puis, pour chaque année, la population totale à risque\
+  \ est estimée comme la population de l’ONU pour cette année, multipliée par la proportion\
   \ de la population à risque au départ.</p>\n<p> </p>\n<p>Le nombre total de nouveaux\
   \ cas, T, est estimé à partir du nombre de cas de paludisme signalés par un ministère\
   \ de la santé qui est ajusté pour tenir compte (i) de l’incomplétude des systèmes\
@@ -74,7 +74,7 @@ DATA_COMP: "<p>L’incidence du paludisme (1) est exprimée par le nombre de nou
   \ des soins dans le secteur public ou privé. </p>\n<p> </p>\n<p>Les valeurs de la\
   \ proportion de personnes demandant des soins ont été interpolées linéairement entre\
   \ les années où une enquête a été menée et ont été extrapolées pour les années précédant\
-  \ la première ou après la dernière enquête. Les valeurs manquantes pour les distributions\
+  \ la première ou suivant la dernière enquête. Les valeurs manquantes pour les distributions\
   \ ont été imputées à l’aide d’un mélange de la distribution du pays, avec une probabilité\
   \ égale pour les années où les valeurs étaient présentes ou, s’il n’y avait aucune\
   \ valeur pour une année dans le pays, un mélange de la distribution de la région\
@@ -96,7 +96,7 @@ DATA_COMP: "<p>L’incidence du paludisme (1) est exprimée par le nombre de nou
   \ de), le Botswana, le Brésil, la Colombie, la République dominicaine, la Guyane\
   \ française, le Guatemala, la Guyane, Haïti, le Honduras, le Myanmar (depuis 2013),\
   \ le Rwanda et le Venezuela (République bolivarienne du) déclarent ensemble les\
-  \ cas des secteurs privé et public ; par conséquent, aucun ajustement n'a été effectué\
+  \ cas des secteurs privé et public; par conséquent, aucun ajustement n'a été effectué\
   \ pour le secteur privé cherchant à se faire soigner, tandis que pour l'Indonésie,\
   \ on a supposé que 25 % des cas privés étaient déclarés dans le secteur public depuis\
   \ 2017. </p>\n<p> </p>\n<p>Pour certains pays africains à forte transmission, la\
@@ -148,10 +148,10 @@ COVERAGE: "<p>Disponibilité des données : </p>\n<p>109 pays</p>\n<p> </p>\n<
 QUALITY_ASSURE: "<p>Nous recueillons des données à l'aide d'un formulaire standardisé\
   \ en fonction de l'état de la lutte contre le paludisme, de l'élimination ou de\
   \ la prévention de la réintroduction. Nous travaillons en étroite collaboration\
-  \ avec les centres collaborateurs et les évaluateurs externes pour assurer la qualité.\
-  \ </p>"
+  \ avec les centres de collaborateurs et les évaluateurs externes pour assurer la\
+  \ qualité. </p>"
 DOC_METHOD: "<p>Les informations sont fournies par le PNLP de chaque pays en utilisant\
-  \ l'application District Health Information Systems2 (DHIS2) créée spécifiquement\
+  \ l'application « District Health Information Systems 2 » (DHIS2) créée spécifiquement\
   \ à cet effet. </p>"
 REG_AGG: "<p>Les nombres de cas sont agrégés par région, et l'incertitude est obtenue\
   \ à partir de l'agrégation de la répartition de chaque pays. La population à risque\
@@ -172,10 +172,10 @@ REC_USE_LIM: "<p>L'incidence estimée peut être différente de l'incidence sign
   \ de la déclaration (le nombre de cas déclarés peut être inférieur aux cas estimés\
   \ si le pourcentage d'établissements de santé déclarant au cours d'un mois est inférieur\
   \ à 100%);</li>\n  <li>l'étendue des tests de diagnostic du paludisme (nombre de\
-  \ lames examinées ou de TDR effectués); </li>\n  <li>le recours à des établissements\
-  \ de santé privés qui ne sont généralement pas inclus dans les systèmes de déclaration;\
-  \ </li>\n  <li>l'indicateur n'est estimé que là où il y a transmission du paludisme.</li>\n\
-  </ul>"
+  \ lames examinées ou de tests diagnostiques rapides (TDR) effectués); </li>\n  <li>le\
+  \ recours à des établissements de santé privés qui ne sont généralement pas inclus\
+  \ dans les systèmes de déclaration; </li>\n  <li>l'indicateur n'est estimé que là\
+  \ où il y a transmission du paludisme.</li>\n</ul>"
 RATIONALE: "<p>La justification est de mesurer l'évolution de la morbidité liée au\
   \ paludisme et identifier les endroits où le risque de maladie est le plus élevé.\
   \ Grâce à ces informations, les programmes peuvent répondre à des tendances inhabituelles,\
@@ -186,7 +186,7 @@ RATIONALE: "<p>La justification est de mesurer l'évolution de la morbidité li�
 COMPILING_ORG: "<p>L'unité de surveillance, de suivi et d'évaluation du Programme\
   \ mondial de lutte contre le paludisme est chargée de compiler et de traiter toutes\
   \ les informations pertinentes. Les estimations nationales pour certains pays sont\
-  \ réalisées en collaboration avec l'Université d'Oxford (Malaria Atlas Project).\
+  \ réalisées en collaboration avec l'Université d'Oxford (« Malaria Atlas Project »).\
   \ </p>"
 DATA_SOURCE: "<p>Le Programme national de lutte contre le paludisme est chargé de\
   \ recueillir les informations dans chaque pays. </p>"
@@ -203,7 +203,7 @@ SOURCE_TYPE: "<p>Les cas signalés par le PNLP sont obtenus à partir du systèm
   \ au public et comprennent les enquêtes démographiques nationales auprès des ménages\
   \ ou l'enquête sur les indicateurs du paludisme. </p>"
 STAT_CONC_DEF: "<p><strong>Définition :</strong> </p>\n<p>L'incidence du paludisme\
-  \ est définie comme le nombre de nouveaux cas de paludisme pour 1 000 personnes\
+  \ est définie comme le nombre de nouveaux cas de paludisme pour 1 000 personnes\
   \ à risque chaque année.</p>\n<p></p>\n<p><strong>Concepts :</strong> </p>\n<p>Le\
   \ cas de paludisme est défini comme l'apparition du paludisme chez une personne\
   \ dont la présence de parasites du paludisme dans le sang a été confirmée par un\
@@ -214,24 +214,24 @@ SDG_CUSTODIAN_AGENCIES: "<p>Programme mondial de lutte contre le paludisme de l'
 SDG_RELATED_INDICATORS: "<h1>Indicateurs connexes en date de février 2020</h1>\n<p>Sans\
   \ objet</p>"
 META_LAST_UPDATE: '<p>Février 2021</p>'
-UNIT_MEASURE: <p>Nombre de cas pour 1 000 personnes à risque.</p>
+UNIT_MEASURE: <p>Nombre de cas pour 1 000 personnes à risque.</p>
 CLASS_SYSTEM: <p>Sans objet</p>
 DATA_VALIDATION: <p>Les estimations du fardeau présentées dans le Rapport mondial
   sur le paludisme sont envoyées aux pays par l’intermédiaire des bureaux régionaux
   pour consultation et approbation.</p>
 ADJUSTMENT: <p>Sans objet</p>
 QUALITY_MGMNT: <p>Les estimations du fardeau sont d’abord examinées à l'interne par
-  les bureaux régionaux et de pays du PMLP et de l’OMS. Celles-ci sont ensuite partagées
+  les bureaux régionaux et nationaux du PMLP et de l’OMS. Celles-ci sont ensuite partagées
   avec le pays pour validation. L'approbation finale est reçue de la division des
   données et de l’analyse de l’OMS.</p>
 CONTACT_ORGANISATION: <p>Programme mondial de lutte contre le paludisme de l'Organisation
   mondiale de la Santé (OMS)</p>
-INST_MANDATE: <p>La stratégie technique et les cibles mondiales pour le paludisme
-  2016-2030 a été adoptée par la 68e Assemblée mondiale de la Santé (en anglais)(<a
-  href="https://apps.who.int/iris/bitstream/handle/10665/253469/A68_R1_REC1-en.pdf?sequence=1&amp;isAllowed=y">https://apps.who.int/iris/bitstream/handle/10665/253469/A68_R1_REC1-en.pdf?sequence=1&amp;isAllowed=y</a>).
+INST_MANDATE: <p>La stratégie technique mondiale (STM) et les cibles mondiales pour
+  le paludisme 2016-2030 ont été adoptées par la 68e Assemblée mondiale de la Santé
+  (<a href="https://apps.who.int/gb/ebwha/pdf_files/WHA68-REC1/A68_2015_REC1-fr.pdf">https://apps.who.int/gb/ebwha/pdf_files/WHA68-REC1/A68_2015_REC1-fr.pdf</a>).
   L'Assemblée a demandé à l'OMS de suivre les progrès accomplis dans la réalisation
-  des étapes et des objectifs de la SMT. Le Rapport mondial sur le paludisme est le
-  processus par lequel la SMT est suivie par pays, par région de l'OMS et au niveau
+  des étapes et des objectifs de la STM. Le Rapport mondial sur le paludisme est le
+  processus par lequel la STM est suivie par pays, par région de l'OMS et au niveau
   mondial. </p>
 QUALITY_ASSMNT: <p>Nous effectuons une validation interne des valeurs aberrantes et
   de l’exhaustivité et nous posons des questions aux pays par l’intermédiaire des
