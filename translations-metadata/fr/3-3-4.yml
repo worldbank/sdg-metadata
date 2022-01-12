@@ -52,7 +52,7 @@ DATA_COMP: "<p>Les données ont été modélisées à l'aide d'une régression l
   \ Avec les effets aléatoires spatiaux décrits par </p>\n<p>ui~ N(u−i,σ2u/ni)</p>\n\
   <p>où </p>\n<p>u−i= ∑j ∈ neigh(i)wiuj/ni</p>\n<p>où ni est le nombre de voisins\
   \ pour le pays i et les poids wi, valent 1. </p>\n<p> </p>\n<p>Le modèle a été simulé\
-  \ dans le paquet statistique bayésien WinBUGS, et la manipulation des données et\
+  \ dans le module statistique bayésien WinBUGS, et la manipulation des données et\
   \ l'initialisation du modèle exécutées à partir de R (3.3.1) en utilisant R2WinBUGS.\
   \ Le modèle prend en compte les paramètres de l'âge, du sexe, du biais de l'étude\
   \ (par exemple, une fraction élevée de participants à l'étude provenant de populations\
@@ -63,7 +63,7 @@ DATA_COMP: "<p>Les données ont été modélisées à l'aide d'une régression l
   \ a été calculée en utilisant la taille et la localisation de chaque étude. Pour\
   \ les pays ne disposant pas de données, nous avons utilisé le centroïde de la population.\
   \ Dans une approche novatrice, nous avons considéré 3 dimensions dans la matrice\
-  \ d'adjacence des pays ; nous avons utilisé les dimensions géographiques habituelles,\
+  \ d'adjacence des pays; nous avons utilisé les dimensions géographiques habituelles,\
   \ la latitude et la longitude, et nous les avons également combinées avec le log\
   \ naturel du PIB par habitant du pays, ceci afin de mesurer non seulement la proximité\
   \ géographique mais aussi la proximité de développement des pays. La matrice d'adjacence\
@@ -81,7 +81,7 @@ DATA_COMP: "<p>Les données ont été modélisées à l'aide d'une régression l
   \ puis nous avons calculé la distance entre ces deux chiffres normalisés. Cela crée\
   \ une surface gaussienne lissée qui dépend à la fois de la proximité spatiale et\
   \ de la proximité du PIB par habitant. Nous avons comparé des ratios de, 1:0, 1:1,\
-  \ 2:1, 1:2 (Géographique:PIB). </p>\n<p>Pour chaque matrice d'adjacence différente,\
+  \ 2:1, 1:2 (Géographie:PIB). </p>\n<p>Pour chaque matrice d'adjacence différente,\
   \ nous avons également dû choisir une distance de voisinage, c'est-à-dire sur quelle\
   \ distance un pays peut être affecté par un autre. Ainsi, nous avons également fait\
   \ varier le rayon de distance à partir duquel sélectionner les voisins pour le réseau\
@@ -227,49 +227,48 @@ SOURCE_TYPE: "<p>Une recherche systématique sur les articles publiés entre le 
   \ la détection de la prévalence dans les études : ELI nouveau (ELISA -2, -3, EIA,\
   \ …), EIA ancien (CMIA, CIEP, RPHA), NAT (qPCR/ PCR en temps réel, nested PCR, multiplex\
   \ PCR), autre (par exemple RIA) ; Inconnu/non spécifié. </li>\n  <li>Pays : Les\
-  \ noms de pays ont été enregistrés selon www.who.int et, à des fins d'analyse supplémentaire,\
-  \ ont été regroupés selon les six régions de l'OMS : la région africaine, la région\
-  \ des Amériques, la région de la Méditerranée orientale, la région européenne, la\
-  \ région de l'Asie du Sud-Est et la région du Pacifique occidental. </li>\n  <li>Taille\
-  \ de l'échantillon d'individus sur lesquels du sang a été prélevé / d'individus\
-  \ impliqués dans les analyses ou dans les bases pour les paramètres d'estimation\
-  \ : En tant qu'indicateur de qualité de l'étude, nous avons fait une distinction\
-  \ entre la taille effective de l'échantillon, c'est-à-dire le nombre d'individus\
-  \ impliqués dans les analyses ou dans les bases pour les paramètres d'estimation,\
-  \ et le nombre d'individus sur lesquels du sang a été prélevé (colonne séparée)\
-  \ et la taille de l'échantillon initialement calculée/planifiée (colonne séparée).\
-  \ </li>\n  <li>Population : Bien que l'accent ait été mis sur la population générale,\
-  \ deux groupes supplémentaires ont été inclus et spécifiés. Il s'agit de : TS et\
-  \ donneur de sang (en plus de sous-groupes non spécifiés, rémunérés, non rémunérés/volontaires).\
-  \ Si dans cette colonne “la population” a été spécifiée comme TS ou donneur de sang\
-  \ et non comme population générale, la colonne de risque de biais (suivante) reste\
-  \ vide. </li>\n  <li>Niveau : L'information est fournie si l'étude a été menée au\
-  \ niveau national, sous-national, au niveau de la ville ou si le niveau n'a pas\
-  \ été précisé davantage (quatre catégories). </li>\n  <li>Lieu de l'étude : Cette\
-  \ variable à texte libre précise la ville/zone du pays où l'étude incluse a été\
-  \ menée. Les variables/colonnes Niveau et Lieu de l'étude ont été incluses en plus\
-  \ suite à la réunion de l'OMS sur l'impact de la vaccination contre l'hépatite B\
-  \ à l'OMS, Genève, en mars 2014. </li>\n</ol>\n<p> </p>\n<p>Données supplémentaires\
-  \ provenant d'autres sources que les études éligibles : </p>\n<ol>\n  <li>Année\
-  \ d'introduction du vaccin dans l'ensemble du pays : les données proviennent des\
-  \ rapports officiels des États membres de l'OMS et, sauf indication contraire, les\
-  \ données sont déclarées chaque année dans le cadre du processus de déclaration\
+  \ noms de pays ont été enregistrés selon https://www.who.int/fr/home et, à des fins\
+  \ d'analyse supplémentaire, ont été regroupés selon les six régions de l'OMS : la\
+  \ région africaine, la région des Amériques, la région de la Méditerranée orientale,\
+  \ la région européenne, la région de l'Asie du Sud-Est et la région du Pacifique\
+  \ occidental. </li>\n  <li>Taille de l'échantillon d'individus sur lesquels du sang\
+  \ a été prélevé / d'individus impliqués dans les analyses ou dans les bases pour\
+  \ les paramètres d'estimation : En tant qu'indicateur de qualité de l'étude, nous\
+  \ avons fait une distinction entre la taille effective de l'échantillon, c'est-à-dire\
+  \ le nombre d'individus impliqués dans les analyses ou dans les bases pour les paramètres\
+  \ d'estimation, et le nombre d'individus sur lesquels du sang a été prélevé (colonne\
+  \ séparée) et la taille de l'échantillon initialement calculée/planifiée (colonne\
+  \ séparée). </li>\n  <li>Population : Bien que l'accent ait été mis sur la population\
+  \ générale, deux groupes supplémentaires ont été inclus et spécifiés. Il s'agit\
+  \ de : TS et donneur de sang (en plus de sous-groupes non spécifiés, rémunérés,\
+  \ non rémunérés/volontaires). Si dans cette colonne « la population » a été spécifiée\
+  \ comme TS ou donneur de sang et non comme population générale, la colonne de risque\
+  \ de biais (suivante) reste vide. </li>\n  <li>Niveau : L'information est fournie\
+  \ si l'étude a été menée au niveau national, sous-national, au niveau de la ville\
+  \ ou si le niveau n'a pas été précisé davantage (quatre catégories). </li>\n  <li>Lieu\
+  \ de l'étude : Cette variable à texte libre précise la ville/zone du pays où l'étude\
+  \ incluse a été menée. Les variables/colonnes Niveau et Lieu de l'étude ont été\
+  \ incluses en plus suite à la réunion de l'OMS sur l'impact de la vaccination contre\
+  \ l'hépatite B à l'OMS, Genève, en mars 2014. </li>\n</ol>\n<p> </p>\n<p>Données\
+  \ supplémentaires provenant d'autres sources que les études éligibles : </p>\n<ol>\n\
+  \  <li>Année d'introduction du vaccin dans l'ensemble du pays : les données proviennent\
+  \ des rapports officiels des États membres de l'OMS et, sauf indication contraire,\
+  \ les données sont déclarées chaque année dans le cadre du processus de déclaration\
   \ conjointe OMS/UNICEF. <a href=\"http://www.who.int/entity/immunization/monitoring_surveillance/data/year_vaccine_introduction.xls?ua=1\"\
-  >http://www.who.int/entity/immunization/monitoring_surveillance/data/year_vaccine_introduction.xls?ua=1</a>\
-  \ </li>.\n  <li>Période à laquelle l'étude a été menée : pré-vaccination ou post-vaccination.\
-  \ Cette période est déterminée en fonction de l'année d'introduction dans l'ensemble\
-  \ du pays. </li>\n  <li>Série d'estimations de couverture : les données sont obtenues\
-  \ auprès du WUENIC : <a href=\"http://apps.who.int/immunization_monitoring/globalsummary/timeseries/tswucoveragebcg.html\"\
+  >http://www.who.int/entity/immunization/monitoring_surveillance/data/year_vaccine_introduction.xls?ua=1\
+  \ (en anglais)</a> </li>.\n  <li>Période à laquelle l'étude a été menée : pré-vaccination\
+  \ ou post-vaccination. Cette période est déterminée en fonction de l'année d'introduction\
+  \ dans l'ensemble du pays. </li>\n  <li>Série d'estimations de couverture : les\
+  \ données sont obtenues auprès du WUENIC (en anglais) : <a href=\"http://apps.who.int/immunization_monitoring/globalsummary/timeseries/tswucoveragebcg.html\"\
   \ target=\"_blank\">http://apps.who.int/immunization_monitoring/globalsummary/timeseries/tswucoveragebcg.html</a>\
   \ </li>.\n  <li>Le PIB par habitant a été utilisé à partir des données de l'ONU\
-  \ qui compile les informations de la Source de la Banque mondiale <a href=\"http://data.un.org/Data.aspx?q=GDP&d=SNAAMA&f=grID%3a101%3bcurrID%3aUSD%3bpcFlag%3a1\"\
-  \ target=\"_blank\">http://data.un.org/Data.aspx?q=GDP&d=SNAAMA&f=grID%3a101%3bcurrID%3aUSD%3bpcFlag%3a1</a>\
-  \ ), </li>.\n  <li>Données de longitude et de latitude (source : <a href=\"http://www.google.com/\"\
-  \ target=\"_blank\">www.google.com</a>). </li>\n  <li>Les données sur la structure\
-  \ et la taille de la population pour chaque pays provenaient de la division de la\
-  \ population de l'ONU : <a href=\"http://www.un.org/en/development/desa/population/\"\
-  \ target=\"_blank\">http://www.un.org/en/development/desa/population/</a> </li>\n\
-  </ol>"
+  \ qui compile les informations de la Source de la Banque mondiale <a href=\"http://data.un.org/Data.aspx?q=GDP&amp;d=SNAAMA&amp;f=grID%3a101%3bcurrID%3aUSD%3bpcFlag%3a1\"\
+  \ target=\"_blank\">http://data.un.org/Data.aspx?q=GDP&d=SNAAMA&f=grID%3a101%3bcurrID%3aUSD%3bpcFlag%3a1\
+  \ (en anglais)</a> ), </li>.\n  <li>Données de longitude et de latitude (source\
+  \ : <a href=\"http://www.google.com/\" target=\"_blank\">www.google.com</a>). </li>\n\
+  \  <li>Les données sur la structure et la taille de la population pour chaque pays\
+  \ provenaient de la Division de la population de l'ONU : <a href=\"https://www.un.org/development/desa/pd/fr\"\
+  >https://www.un.org/development/desa/pd/fr</a> </li>\n</ol>"
 OTHER_DOC: "<p><strong>Des enquêtes sérologiques sont disponibles pour chaque État\
   \ membre et des références sont fournies pour chaque point de données. </strong></p>\n\
   <p> <strong>URL : </strong><a href=\"http://whohbsagdashboard.com/#global-strategies\"\
@@ -286,7 +285,7 @@ COMPARABILITY: "<p>Cet ensemble de données représente les meilleures estimatio
   \ échantillonnés pour estimer la prévalence dans les pays les plus pauvres en données\
   \ en tenant compte d’effets tels que le sexe, l’âge et le statut vaccinal. En raison\
   \ de la rareté des données de certains pays, les estimations sont plus robustes\
-  \ au niveau mondial et régional qu’au niveau des pays, de sorte que l’accent devrait\
+  \ au niveau mondial et régional qu’au niveau national, de sorte que l’accent devrait\
   \ être mis sur les intervalles de confiance de 95% et pas seulement sur les estimations\
   \ ponctuelles rapportées. </p>\n<p>Sources des divergences :</p>\n<p>Les critères\
   \ d’inclusion ou d’exclusion du type d’études de séroprévalence. Des études observationnelles\
@@ -317,17 +316,17 @@ QUALITY_ASSURE: "<p><strong>Assurance de la qualité : </strong></p>\n<ul>\n  <l
   \ membres la possibilité d'examiner et de commenter les données et les estimations\
   \ dans le cadre du processus dit de consultation des pays.</li>\n</ul>"
 DOC_METHOD: "<p>Sans objet. Les estimations proviennent du modèle mathématique. </p>\n\
-  <p> </p>\n<p>Gather (Guidelines for Accurate and Transparent Health Estimates Reporting)\
-  \ propose une liste de contrôle d'informations qui devraient être incluses dans\
-  \ les nouveaux rapports sur les estimations de la santé mondiale et promeut de meilleures\
-  \ pratiques en matière de communication des estimations sanitaires. Une série d'indicateurs\
-  \ de santé sont utilisés pour surveiller la santé de la population et orienter l'allocation\
-  \ des ressources dans le monde entier. Cependant le manque de données pour certaines\
-  \ régions et les différentes méthodes de mesure posent des problèmes qui sont souvent\
-  \ résolus en utilisant des techniques de modélisation statistique pour générer des\
-  \ estimations cohérentes basées sur des sources de données souvent disparates. <u><a\
-  \ href=\"http://gather-statement.org/&quot; \\t &quot;_blank\">http://gather-statement.org/</a></u>\
-  \ </p>"
+  <p> </p>\n<p>« Gather » (Guidelines for Accurate and Transparent Health Estimates\
+  \ Reporting) propose une liste de contrôle d'informations qui devraient être incluses\
+  \ dans les nouveaux rapports sur les estimations de la santé mondiale et promeut\
+  \ de meilleures pratiques en matière de communication des estimations sanitaires.\
+  \ Une série d'indicateurs de santé sont utilisés pour surveiller la santé de la\
+  \ population et orienter l'allocation des ressources dans le monde entier. Cependant\
+  \ le manque de données pour certaines régions et les différentes méthodes de mesure\
+  \ posent des problèmes qui sont souvent résolus en utilisant des techniques de modélisation\
+  \ statistique pour générer des estimations cohérentes basées sur des sources de\
+  \ données souvent disparates. <u><a href=\"http://gather-statement.org/&quot; \\\
+  t &quot;_blank\">http://gather-statement.org/</a></u> </p>"
 REG_AGG: '<p><strong>Sources des divergences :</strong> </p>
 
   <p>Les estimations ne sont pas toujours les mêmes que les estimations nationales
@@ -344,7 +343,7 @@ REG_AGG: '<p><strong>Sources des divergences :</strong> </p>
   pour les groupes de population à risque élevé (p. ex., les migrants et les réfugiés).
   </p>
 
-  <p>Les estimations par pays peuvent provenir de certaines enquêtes sérologiques.
+  <p>Les estimations nationales peuvent provenir de certaines enquêtes sérologiques.
   </p>'
 IMPUTATION: "<ul>\n  <li>Au niveau national : </li>\n</ul>\n<p>Toutes les valeurs\
   \ représentent les meilleures estimations de l'indicateur de l'antigène de surface\
@@ -354,7 +353,7 @@ IMPUTATION: "<ul>\n  <li>Au niveau national : </li>\n</ul>\n<p>Toutes les valeur
   \ différentes. Des estimations sont fournies pour 194 États membres de l'OMS. L'analyse\
   \ a été effectuée pour les groupes d'âge de 0 à 5 ans et pour la population générale.\
   \ En raison de la rareté des données de certains pays, les estimations sont plus\
-  \ robustes au niveau mondial et régional qu'au niveau des pays, c'est pourquoi nous\
+  \ robustes au niveau mondial et régional qu'au niveau national, c'est pourquoi nous\
   \ suggérons aux pays de se concentrer sur les intervalles de confiance de 95% et\
   \ pas seulement sur les estimations ponctuelles rapportées. </p>\n<p> </p>\n<p>Une\
   \ revue de littérature approfondie et solide a été entreprise pour trouver des études\
@@ -418,7 +417,7 @@ STAT_CONC_DEF: "<p> <strong>Définition :</strong> </p>\n<p>Cet indicateur est m
   \ du virus. Un test positif pour AgHBs indique une infection active par le VHB.\
   \ La réponse immunitaire à l’AgHBs fournit la base de l’immunité contre le VHB,\
   \ et l’AgHBs est le composant principal de l’hépatite B. <sup>2</sup> </p>\n<p>\
-  \ </p>\n<p> <strong>Concepts :</strong> </p>\n<p> Il n’est pas possible, pour des\
+  \ </p>\n<p> <strong>Concepts :</strong> </p>\n<p>Il n’est pas possible, pour des\
   \ raisons cliniques, de différencier l’hépatite B de l’hépatite causée par d’autres\
   \ agents viraux, par conséquent, la confirmation en laboratoire du diagnostic est\
   \ essentielle. L’antigène de surface de l’hépatite B est le test d’hépatite B le\
