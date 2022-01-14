@@ -29,17 +29,17 @@
 &lt;/ul&gt;
 &lt;p&gt;Igual que el procedimiento descrito para el 11.2 anterior&lt;/p&gt;
 			</language>
-			<language lang="fr">&lt;h2&gt; Traitement des valeurs manquantes: &lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt; &lt;strong&gt; &lt;em&gt; Au niveau national : &lt;/em&gt; &lt;/strong&gt; &lt;/li&gt;
+			<language lang="fr">&lt;ul&gt;
+  &lt;li&gt;Au niveau national &lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt; Le traitement des données manquantes a été effectué comme suit : &lt;/p&gt;
-&lt;p&gt; 1) Nous avons identifié des valeurs manquantes (ou des années) dans les données de l&apos;état civil (VR) et cherché d&apos;autres sources dans nos données de cas à partir du questionnaire / enquête (rapporté) pour ces années. Nous avons ensuite calculé le facteur VR / déclaré pour les 3 dernières années où les données VR et déclarées étaient disponibles et nous avons utilisé ce facteur pour ajuster les données déclarées afin de remplacer la valeur manquante des données VR. &lt;/p&gt;
-&lt;p&gt; 2) Dans le cas où il y avait des données manquantes dans les données VR et rapportées, les valeurs manquantes ont été imputées avec une régression binomiale négative du taux pour chaque pays si la régression convergeait ou était significative. Sinon, nous avons utilisé le taux moyen d&apos;années avec des données. &lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;Pour les pays disposant de statistiques de grande qualité sur les causes de décès, une interpolation/extrapolation a été effectuée pour les années-pays manquantes; pour les pays où les données sur les causes de décès sont de faible qualité ou inexistantes, la modélisation a été utilisée. La méthodologie complète peut être trouvée (en anglais) à l&apos;adresse : &lt;/p&gt;
+&lt;p&gt;« WHO methods and data sources for global causes of death, 2000–2019 » (https://www.who.int/docs/default-source/gho-documents/global-health-estimates/ghe2019_cod_methods.pdf ) &lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
 &lt;ul&gt;
-  &lt;li&gt; &lt;strong&gt; &lt;em&gt; Aux niveaux régional et mondial : &lt;/em&gt; &lt;/strong&gt; &lt;/li&gt;
+  &lt;li&gt;Aux niveaux régional et mondial &lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt; Identique à la procédure décrite pour 11.2 ci-dessus &lt;/p&gt;
+&lt;p&gt;Sans objet&lt;/p&gt;
 			</language>
 			<language lang="pt"/>
 			<language lang="ru">&lt;h2&gt; Обработка отсутствующих значений: &lt;/h2&gt;

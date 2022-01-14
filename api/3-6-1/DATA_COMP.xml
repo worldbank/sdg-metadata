@@ -24,18 +24,11 @@
 &lt;p&gt;Por último, en los países del grupo 3 con una población inferior a 150.000 habitantes y que no disponían de datos de registro de defunciones, no se utilizaron las estimaciones de regresión. Sólo se utilizaron directamente las defunciones notificadas sin ajustarlas.&lt;/p&gt;
 &lt;p&gt;Más detalles sobre este proceso de estimación en &lt;em&gt;Informe sobre la situación mundial de la seguridad vial 2015&lt;/em&gt;.&lt;/p&gt;
 			</language>
-			<language lang="fr">&lt;h1&gt; Méthodologie &lt;/h1&gt;
-&lt;h2&gt; Méthode de calcul : &lt;/h2&gt;
-&lt;p&gt; Notre modèle est basé sur la qualité des données que nous avons reçues. En tant qu&apos;organisation de santé, nous nous appuyons principalement sur la soumission des données d&apos;état civil des ministères de la Santé des pays &amp;#x2019; à l&apos;OMS (par les voies officielles). Ces données, sur toutes les causes de décès, sont ensuite analysées par nos collègues du département des Systèmes d&apos;Information Sanitaire pour décider de la qualité des données, c&apos;est-à-dire déterminer s&apos;il existe une bonne exhaustivité et une bonne couverture des décès toutes causes confondues. &lt;/p&gt;
-&lt;p&gt; Nous avons classé les pays en 4 catégories ou groupes, à savoir &lt;/p&gt;
-&lt;p&gt; Groupe 1: Pays disposant de données d&apos;enregistrement des décès (bonnes données d&apos;état civil / d&apos;enregistrement des décès) &lt;/p&gt;
-&lt;p&gt; Groupe 2: Pays disposant d&apos;autres sources d&apos;informations sur les causes de décès &lt;/p&gt;
-&lt;p&gt; Groupe 3: Pays de moins de 150 000 habitants &lt;/p&gt;
-&lt;p&gt; Groupe 4: Pays sans données d&apos;enregistrement des décès éligibles. &lt;/p&gt;
-&lt;p&gt; Le service des systèmes d&apos;information sanitaire analyse la qualité et l&apos;exhaustivité des données. Pour le modèle de sécurité routière, si le pays est considéré par l&apos;OMS comme ayant de bonnes données d&apos;état civil (RV), cela signifie que le pays est dans le groupe 1, alors nous n&apos;appliquons &amp;#x2019; t un modèle de régression pour arriver à une estimation ( nous pouvons toutefois projeter vers l&apos;avant si les données d&apos;état civil sont datées). Si le pays est considéré dans le groupe 4, nous appliquons une régression binomiale négative où N est le nombre total de décès sur la route, C est un terme constant, Xi est un ensemble de covariables explicatives, Pop est la population pour le pays-année, et? est le terme d&apos;erreur binomial négatif. &lt;/p&gt;
-&lt;p&gt; Pour les pays du groupe 2, la méthode de régression décrite ci-dessus a été utilisée pour projeter l&apos;année la plus récente pour laquelle une estimation du nombre total de décès était disponible. &lt;/p&gt;
-&lt;p&gt; Enfin, les pays du groupe 3 qui ont une population de moins de 150 000 habitants et ne disposaient pas de données d&apos;enregistrement des décès éligibles, les estimations de régression n&apos;ont pas été utilisées. Seuls les décès déclarés étaient directement sans ajustement. &lt;/p&gt;
-&lt;p&gt; Plus de détails sur ce processus d&apos;estimation dans &lt;em&gt; Global Status Report on Road Safety 2015 &lt;/em&gt;. &lt;/p&gt;
+			<language lang="fr">&lt;p&gt;Les méthodes utilisées pour l’analyse des causes de décès dépendent du type de données disponibles dans les pays : &lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;Pour les pays dotés d’un système d’enregistrement de l’état civil de haute qualité, y compris des informations sur la cause du décès, l’enregistrement de l’état civil que les États membres soumettent à la base de données de l’OMS sur la mortalité a été utilisé, avec des ajustements si nécessaire, par exemple pour la sous-déclaration des décès, l’âge et le sexe inconnus et les causes de décès mal définies. &lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;Pour les pays qui n’ont pas de données d’enregistrement des décès de haute qualité, les estimations des causes de décès sont calculées à l’aide d’autres données, y compris des enquêtes auprès des ménages avec autopsie verbale, des systèmes d’enregistrement par échantillonnage ou sentinelle, des études spéciales. &lt;/p&gt;
 			</language>
 			<language lang="pt"/>
 			<language lang="ru">&lt;h1&gt; Методология &lt;/h1&gt;
