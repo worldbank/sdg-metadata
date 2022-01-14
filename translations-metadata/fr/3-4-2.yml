@@ -42,7 +42,7 @@ RATIONALE: >-
   <p>Les troubles mentaux se produisent dans toutes les régions et cultures du monde.
   Les plus répandus de ces troubles sont la dépression et l’anxiété, qui touchent
   près de 1 personne sur 10. Au pire, la dépression peut conduire au suicide. En 2019,
-  on estime à plus de 700 000 le nombre de décès par suicide dans le monde. </p>
+  on estime à plus de 700 000 le nombre de décès par suicide dans le monde. </p>
 REC_USE_LIM: >-
   <p>L'enregistrement complet des décès par suicide dans les systèmes d'enregistrement
   des décès nécessite de bonnes liaisons avec les systèmes coronaux et policiers,
@@ -51,8 +51,8 @@ REC_USE_LIM: >-
   de la moitié des États membres de l'OMS disposent de systèmes d'enregistrement des
   décès qui fonctionnent bien et qui enregistrent les causes de décès.</p>
 DATA_COMP: >-
-  <p>Taux de mortalité par suicide (pour 100 000 habitants) = (Nombre de décès par
-  suicide dans une année x 100 000) / Population en milieu d'année pour la même année
+  <p>Taux de mortalité par suicide (pour 100 000 habitants) = (Nombre de décès par
+  suicide dans une année x 100 000) / Population en milieu d'année pour la même année
   civile</p>
 
   <p> </p>
@@ -76,7 +76,7 @@ DATA_COMP: >-
   d'enregistrement par échantillon ou par sentinelle et des études spéciales. </p>
 IMPUTATION: >-
   <ul>
-    <li>Au niveau des pays : </li>
+    <li>Au niveau national : </li>
   </ul>
 
   <p> </p>
@@ -84,10 +84,10 @@ IMPUTATION: >-
   <p>Pour les pays disposant de statistiques de haute qualité sur les causes de décès,
   une interpolation/extrapolation a été effectuée pour les années-pays manquants;
   pour les pays où les données sur les causes de décès sont de faible qualité ou inexistantes,
-  la modélisation a été utilisée. La méthodologie complète peut être trouvée ici (en
-  anglais seulement) : </p>
+  la modélisation a été utilisée. La méthodologie complète peut être trouvée (en anglais)
+  à l'adresse : </p>
 
-  <p>WHO methods and data sources for global causes of death, 2000-2019 (https://www.who.int/docs/default-source/gho-documents/global-health-estimates/ghe2019_cod_methods.pdf)</p>
+  <p>« WHO methods and data sources for global causes of death, 2000–2019 » (https://www.who.int/docs/default-source/gho-documents/global-health-estimates/ghe2019_cod_methods.pdf)</p>
 
   <p> </p>
 
@@ -127,11 +127,13 @@ COMPARABILITY: >-
   les blessures d'intention inconnue, codes CIM Y10-Y34 et Y872) en suicide ; et 2)
   l'OMS corrige les décès dont l'enregistrement est incomplet. </p>
 OTHER_DOC: >-
+  <p>(Toutes les références sont anglais, sauf la dernière)</p>
+
   <p> <strong>URL :</strong> </p>
 
   <p> </p>
 
-  <p>(en anglais seulement) http://www.who.int/gho/en/ </p>
+  <p>http://www.who.int/gho/en/ </p>
 
   <p> </p>
 
@@ -139,24 +141,25 @@ OTHER_DOC: >-
 
   <p> </p>
 
-  <p>Définition des indicateurs de l’OMS (en anglais seulement http://apps.who.int/gho/indicatorregistry/App_Main/view_indicator.aspx?iid=3354)
+  <p>Définition des indicateurs de l’OMS (http://apps.who.int/gho/indicatorregistry/App_Main/view_indicator.aspx?iid=3354)
   </p>
 
   <p> </p>
 
-  <p>WHO methods and data sources for global causes of death, 2000-2019 </p>
+  <p>« WHO methods and data sources for global causes of death, 2000–2019 » </p>
 
-  <p>(en anglais seulement https://www.who.int/docs/default-source/gho-documents/global-health-estimates/ghe2019_cod_methods.pdf)
+  <p>(https://www.who.int/docs/default-source/gho-documents/global-health-estimates/ghe2019_cod_methods.pdf)
   </p>
 
   <p> </p>
 
-  <p>World Health Assembly Resolution, WHA66.10 (2014): Follow-up to the Political
-  Declaration of the High-level Meeting of the General Assembly on the Prevention
-  and Control of Non-communicable Diseases. Including Appendix 2: Comprehensive global
-  monitoring framework, including 25 indicators, and a set of nine voluntary global
-  targets for the prevention and control of noncommunicable diseases. (en anglais
-  seulement http://apps.who.int/gb/ebwha/pdf_files/WHA66/A66_R10-en.pdf?ua=1) </p>
+  <p>Résolution de l'Assemblée mondiale de la Santé, WHA66.8 (2013) : Plan d’action
+  global pour la santé mentale 2013-2020, incluant l'Appendice 1 : Indicateurs pour
+  mesurer les progrès accomplis par rapport aux cibles définies
+
+  dans le Plan d’action global pour la santé mentale 2013-2020. (consulter la résolution
+  WHA66.8 (p. 13) et l'Appendice 1 (p. 106) dans le document https://apps.who.int/gb/ebwha/pdf_files/WHA66-REC1/A66_REC1-fr.pdf)
+  </p>
 
   <p> </p>
 INST_MANDATE: <p>Conformément à l’article 64 de sa constitution, l’OMS est mandatée
@@ -198,7 +201,7 @@ QUALITY_ASSMNT: <p>Toutes les déclarations et allégations faites officiellemen
   les lignes directrices visent à définir et à promouvoir les bonnes pratiques en
   matière de déclaration des estimations de la santé.</p>
 DATA_VALIDATION: <p>On a consulté les pays au sujet du nombre de décès par suicide
-  dans le cadre de l’ensemble complet des causes de décès avant la publication. </p>
+  dans le cadre de l’ensemble complet des causes de décès avant la diffusion. </p>
 ADJUSTMENT: <p>Les décès de sexe inconnu ont été redistribués au prorata au sein des
   groupes de cause-âge de sexe connu, puis les décès d’âge inconnu ont été redistribués
   au prorata dans les groupes de cause-sexe d’âge connu.</p>
