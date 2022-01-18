@@ -252,272 +252,239 @@ DATA_COMP: >-
   Unies, Numéro de vente : E.83.XIII.2. (<a href="https://www.un.org/en/development/desa/population/publications/pdf/mortality/Manual_X.pdf">https://www.un.org/en/development/desa/population/publications/pdf/mortality/Manual_X.pdf</a>).
   </p>
 IMPUTATION: >-
-  <h2> Traitement des valeurs manquantes :</h2>
+  <p>· Au niveau national</p>
 
-  <ul>
-    <li> <strong> <em> Au niveau national :</em></strong></li>
-  </ul>
+  <p>Il n’y a aucune tentative de fournir des estimations pour des pays ou des zones
+  individuels lorsque les données de pays ou de zones ne sont pas disponibles. </p>
 
-  <p> On ne tente pas de fournir des estimations pour chaque pays ou région lorsque
-  les données sur les pays ou les régions ne sont pas disponibles. </p>
+  <p>· Aux niveaux régional et mondial</p>
 
-  <ul>
-    <li> <strong> <em> Aux niveaux régional et mondial :</em></strong></li>
-  </ul>
+  <p>Les agrégats régionaux ou mondiaux du taux de natalité chez les adolescentes
+  pour le groupe d’âge des 15-19 ans proviennent de la dernière révision des Perspectives
+  de la population mondiale produite par la Division de la population. </p>
 
-  <p> Les agrégats régionaux ou mondiaux du taux de natalité des adolescents pour
-  le groupe d’âge des 15 à 19 ans proviennent de la dernière révision des perspectives
-  démographiques mondiales produite par la Division de la population. Compte tenu
-  des cas où les données sont manquantes ou évaluées comme peu fiables, les estimations
-  pour chaque pays ou domaines sont générées soit à partir de l’opinion d’experts,
-  l’examen et la pondération de chaque observation analytiquement, soit, ces dernières
-  années, par l’utilisation de méthodes statistiques automatisées, soit par l’utilisation
-  d’un modèle de données ajusté aux biais pour contrôler les biais systématiques entre
-  les différents types de données. Voir Nations Unies, Département des affaires économiques
-  et sociales, Division de la population (2019). World Population Prospects 2019 :
-  Revision, Methodology of the United Nations Population estimates and projections
-  (ST/ESA/SER. A/425), disponible à <a href="https ://population.un.org/wpp/Publications/Files/WPP2019_Methodology.pdf">https ://population.un.org/wpp/Publications/Files/WPP2019_Methodology.pdf</a>.
-  </p>
+  <p>Dans les cas où les données sont manquantes ou jugées peu fiables, des estimations
+  pour des pays ou des régions individuels sont générées soit par l’examen et la pondération
+  analytiques de chaque observation par des experts, soit, au cours des dernières
+  années, à l’aide de méthodes statistiques automatisées, soit en utilisant un modèle
+  de données ajusté pour le biais pour contrôler les biais systématiques entre différents
+  types de données. Consulter le document (en anglais) : Nations Unies, Département
+  des affaires économiques et sociales, Division de la population (2019). « World
+  Population Prospects 2019: Methodology of the United Nations population estimates
+  and projections » (ST/ESA/SER. A/425), disponible à l’adresse suivante : <a href="https://population.un.org/wpp/Publications/Files/WPP2019_Methodology.pdf">https://population.un.org/wpp/Publications/Files/WPP2019_Methodology.pdf</a></p>
 REG_AGG: >-
-  <h2> Agrégats régionaux :</h2>
+  <p>Les taux de natalité chez les adolescentes déclarés pour les agrégats mondiaux
+  et régionaux sont basés sur la moyenne des taux de natalité estimés des adolescentes
+  pour deux périodes contiguës de cinq ans (par exemple, 2015-2020 et 2020-2025 pour
+  l’année 2020) publiée sur le site (en anglais) des Nations Unies, Département des
+  affaires économiques et sociales, Division de la population (2019), Perspectives
+  de la population mondiale 2019 (<a href="http://esa.un.org/unpd/wpp/">http://esa.un.org/unpd/wpp/</a>)</p>
 
-  <p> Les taux de natalité des adolescents déclarés pour les agrégats mondiaux et
-  régionaux sont basés sur la moyenne des taux de natalité estimés des adolescents
-  pour deux périodes contiguës de cinq ans (par exemple, 2015 à 2020 et 2020 à 2025
-  pour l’année 2020) publiées dans Nations Unies, Département des affaires économiques
-  et sociales, Division de la population (2017). <em> World Population Prospects :
-  The 2017 Revision, DVD Edition</em> (<a href="http ://esa.un.org/unpd/wpp/">http ://esa.un.org/unpd/wpp/</a>).
-  </p>
-
-  <p> Les taux de fécondité selon l’âge des agrégats mondiaux et régionaux de <em>World
-  Population Prospects</em> (WPP) sont basés sur la reconstruction de la population
-  au niveau des pays et fournissent une meilleure estimation basée sur toutes les
-  informations démographiques disponibles. WPP examine et évalue autant de types et
-  de sources d’estimations empiriques que possible (y compris les antécédents de naissance
-  rétrospectifs, les estimations directes et indirectes de la fécondité), et les estimations
-  finales sont obtenues pour assurer autant de cohérence interne que possible avec
-  toutes les autres composantes démographiques et cohortes énumérées dans les recensements
-  successifs. </p>
+  <p>Les taux de fécondité par âge pour les agrégats mondiaux et régionaux des Perspectives
+  de la population mondiale sont basés sur la reconstruction de la population au niveau
+  des pays et fournissent une meilleure estimation basée sur toutes les informations
+  démographiques disponibles. Les Perspectives de la population mondiale considèrent
+  potentiellement autant de types et de sources d’estimations empiriques que possible
+  (y compris les antécédents de naissance rétrospectifs, les estimations directes
+  et indirectes de la fécondité), et les estimations finales sont dérivées pour assurer
+  autant de cohérence interne que possible avec toutes les autres composantes démographiques
+  et cohortes intercensales dénombrées dans les recensements successifs. </p>
 COVERAGE: >-
-  <h1>Disponibilité des données</h1>
+  <p>Disponibilité des données :</p>
 
-  <p>Les données relatives au taux de natalité chez les adolescentes de 15 à 19 ans
-  sont disponibles pour 229 pays ou zones pour la période 2000 à 2019. Pour 219 pays
-  ou zones, il existe au moins deux points de données disponibles. Seuls quatre pays
-  ont un point de données, deux en Europe et en Amérique du Nord (Gibraltar et Saint-Pierre-et-Miquelon)
-  et deux en Océanie (Tokelau et Wallis et Futuna).</p>
+  <p>Les données sur le taux de natalité chez les adolescentes âgées de 15 à 19 ans
+  sont disponibles pour 224 pays ou régions pour la période 2000-2020. Pour 219 pays
+  ou régions, il existe au moins deux points de données disponibles. Seuls cinq pays
+  disposent d’un point de données, deux en Europe et en Amérique du Nord (Gibraltar
+  et Saint-Pierre-et-Miquelon), deux en Océanie (Tokélaou et Îles Wallis-et-Futuna)
+  et un en Amérique latine et dans les Caraïbes (Îles Caïmans). </p>
 
-  <p>La désagrégation régionale de la disponibilité des données est la suivante :
-  </p>
+  <p>La répartition régionale de la disponibilité des données est la suivante :</p>
 
   <table>
-    <thead>
-      <tr>
-        <th colspan="2"></th>
-        <th colspan="3">
-          <p><strong>Entre 2000 et 2018</strong></p>
-        </th>
-      </tr>
-      <tr>
-        <th colspan="2">
-          <p><strong>Régions du monde et ODD</strong></p>
-        </th>
-        <th>
-          <p><strong>Au moins un point de données</strong></p>
-        </th>
-        <th colspan="2">
-          <p><strong> Deux ou plusieurs points de données</strong></p>
-        </th>
-      </tr>
-    </thead>
     <tbody>
       <tr>
+        <td> </td>
         <td colspan="2">
-          <p>MONDE </p>
-        </td>
-        <td>
-          <p>223</p>
-        </td>
-        <td colspan="2">
-          <p>219</p>
+          <p> <strong>Entre 2000 et 2020</strong></p>
         </td>
       </tr>
       <tr>
-        <td colspan="2">
-          <p>Amérique du Nord et Europe </p>
+        <td>
+          <p> <strong>Régions du monde et des ODD</strong></p>
+        </td>
+        <td>
+          <p> <strong>Au moins un point de données</strong></p>
+        </td>
+        <td>
+          <p> <strong>Deux points de données ou plus</strong></p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>MONDE</p>
+        </td>
+        <td>
+          <p>224</p>
+        </td>
+        <td rowspan="12">
+          <p>219</p>
+          <p>47</p>
+          <p>44</p>
+          <p>14</p>
+          <p>19</p>
+          <p>24</p>
+          <p>50</p>
+          <p>19</p>
+          <p>2</p>
+          <p>32</p>
+          <p>47</p>
+          <p>56</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Europe et Amérique du Nord</p>
         </td>
         <td>
           <p>49</p>
         </td>
-        <td colspan="2">
-          <p>47</p>
-        </td>
       </tr>
       <tr>
-        <td colspan="2">
+        <td>
           <p>Amérique latine et Caraïbes</p>
         </td>
         <td>
-          <p>44</p>
-        </td>
-        <td colspan="2">
-          <p>44</p>
+          <p>45</p>
         </td>
       </tr>
       <tr>
-        <td colspan="2">
+        <td>
           <p>Asie centrale et Asie du Sud</p>
         </td>
         <td>
           <p>14</p>
         </td>
-        <td colspan="2">
-          <p>14</p>
+      </tr>
+      <tr>
+        <td>
+          <p>Asie de l’Est et Asie du Sud-Est</p>
+        </td>
+        <td>
+          <p>19</p>
         </td>
       </tr>
       <tr>
-        <td colspan="2">
-          <p>Asie de l'Est et du Sud-Est</p>
-        </td>
         <td>
-          <p>19</p>
-        </td>
-        <td colspan="2">
-          <p>19</p>
-        </td>
-      </tr>
-        <tr>
-        <td colspan="2">
-          <p>Asie occidentale et Afrique du Nord</p>
+          <p>Afrique du Nord et Asie occidentale</p>
         </td>
         <td>
           <p>24</p>
         </td>
-        <td colspan="2">
-          <p>24</p>
-        </td>
       </tr>
-       <tr>
-        <td colspan="2">
+      <tr>
+        <td>
           <p>Afrique subsaharienne</p>
         </td>
         <td>
           <p>50</p>
         </td>
-        <td colspan="2">
-          <p>50</p>
-        </td>
       </tr>
-       <tr>
-        <td colspan="2">
-          <p>Océanie à l'exclusion de l'Australie et de la Nouvelle-Zélande</p>
+      <tr>
+        <td>
+          <p>Océanie à l’exclusion de l’Australie et de la Nouvelle-Zélande</p>
         </td>
         <td>
           <p>21</p>
         </td>
-        <td colspan="2">
-          <p>19</p>
-        </td>
       </tr>
       <tr>
-        <td colspan="2">
+        <td>
           <p>Australie et Nouvelle-Zélande</p>
         </td>
         <td>
           <p>2</p>
         </td>
-        <td colspan="2">
-          <p>2</p>
-        </td>
       </tr>
       <tr>
-        <td colspan="2">
-          <p>Pays en développement sans littoral (PDSL)</p>
+        <td>
+          <p>Pays en développement enclavés (sans littoral) (LLDC)</p>
         </td>
         <td>
           <p>32</p>
         </td>
-        <td colspan="2">
-          <p>32</p>
-        </td>
       </tr>
       <tr>
-        <td colspan="2">
-          <p>Pays les moins avancés (PMA)</p>
+        <td>
+          <p>Pays moins développés (LDC)</p>
         </td>
         <td>
           <p>47</p>
         </td>
-        <td colspan="2">
-          <p>47</p>
-        </td>
       </tr>
       <tr>
-        <td colspan="2">
-          <p>Petits États insulaires en développement (PEID)</p>
+        <td>
+          <p>États insulaires en développement (SIDS)</p>
         </td>
         <td>
-          <p>56</p>
-        </td>
-        <td colspan="2">
-          <p>56</p>
+          <p>57</p>
         </td>
       </tr>
     </tbody>
   </table>
 
-  <h2>Désagrégation :</h2>
+  <p>Séries chronologiques :</p>
 
-  <p>Âge, éducation, nombre d'enfants vivants, état matrimonial, statut socio-économique,
-  situation géographique et autres catégories, selon la source de données et le nombre
-  d'observations.</p>
+  <p>Voir ci-dessus</p>
+
+  <p>Désagrégation :</p>
+
+  <p>L’âge, le niveau de scolarité, le nombre d’enfants vivants, l’état matrimonial,
+  le statut socioéconomique, l’emplacement géographique et d’autres catégories, selon
+  la source de données et le nombre d’observations. </p>
 COMPARABILITY: >-
-  <h2> Sources d’écarts :</h2>
+  <p>Sources des divergences :</p>
 
-  <p> Les estimations fondées sur l’état civil ne sont fournies que lorsque le pays
+  <p>Les estimations fondées sur l’état civil ne sont fournies que lorsque le pays
   fait état d’une couverture d’au moins 90 pour cent et lorsqu’il existe un accord
   raisonnable entre les estimations de l’état civil et les estimations de l’enquête.
   De petites divergences peuvent survenir en raison de différents dénominateurs ou
   de l’inclusion des naissances chez les femmes de moins de 15 ans. Les estimations
   de l’enquête ne sont fournies que lorsqu’il n’y a pas de données de l'état civil
-  fiable. Il peut y avoir des divergences sur la datation et le chiffre réel si une
-  période de référence différente est utilisée. En particulier, de nombreux sondages
-  font état de taux pour une période de référence de trois ans et de cinq ans. Pour
-  les pays où les données sont rares, des périodes de référence de plus de cinq ans
-  avant l’enquête pourraient être utilisées. </p>
+  fiables. Il peut y avoir des divergences sur la date et le chiffre réel si une période
+  de référence différente est utilisée. En particulier, de nombreux sondages font
+  état de taux pour une période de référence de trois ans et de cinq ans. Pour les
+  pays où les données sont rares, des périodes de référence qui sont plus de cinq
+  ans avant l’enquête pourraient être utilisées. </p>
 OTHER_DOC: >-
-  <h1> Références</h1>
+  <p>URL :</p>
 
-  <h2> URL :</h2>
+  <p> <a href="https://www.un.org/development/desa/pd/fr">https://www.un.org/development/desa/pd/fr</a>;
+  <a href="https://www.unfpaopendata.org/libraries/aspx/Home.aspx">(en anglais) https://www.unfpaopendata.org/libraries/aspx/Home.aspx</a></p>
 
-  <p> <a href="http ://www.un.org/en/development/desa/population/index.asp">http ://www.un.org/en/development/desa/population/index.asp</a></p>
+  <p>Autres références (en anglais, à moin d'indication contraire) :</p>
 
-  <p> <a href="https ://www.unfpaopendata.org/libraries/aspx/Home.aspx">https ://www.unfpaopendata.org/libraries/aspx/Home.aspx</a></p>
-
-  <h2> Références :</h2>
-
-  <p> Nations Unies, Département des affaires économiques et sociales, Division de
-  la population (2019). World Fertility Data 2019 (POP/DB/Fert/Rev2019), Disponible
-  à : <a href="http ://www.un.org/fr/development/desa/population/publications/dataset/fertility/wfd2019.asp">http ://www.un.org/fr/development/desa/population/publications/dataset/fertility/wfd2019.asp</a>.
+  <p>Nations Unies, Département des affaires économiques et sociales, Division de
+  la population (2019). « World Fertility Data 2019 ». POP/DB/Fert/Rev2019. Disponible
+  à l’adresse : <a href="https://www.un.org/en/development/desa/population/publications/dataset/fertility/wfd2019.asp">https://www.un.org/en/development/desa/population/publications/dataset/fertility/wfd2019.asp</a>
   </p>
 
-  <p> Nations Unies, Département des affaires économiques et sociales, Division de
-  la population (2019). World Population Prospects 2019 : Methodology of the United
-  Nations population estimates and projections (ST/SER. A/425) <a href="https ://esa.un.org/unpd/wpp/Publications/Files/WPP2019_Methodology.pdf">https ://esa.un.org/unpd/wpp/Publications/Files/WPP2019_Methodology.pdf</a>.
+  <p>Nations Unies, Département des affaires économiques et sociales, Division de
+  la population (2019). « World Population Prospects 2019: Methodology of the United
+  Nations population estimates and projections » (ST/ESA/SER. A/425). <a href="https://population.un.org/wpp/Publications/Files/WPP2019_Methodology.pdf">https://population.un.org/wpp/Publications/Files/WPP2019_Methodology.pdf</a>
   </p>
 
-  <p> Nations Unies, Département des affaires économiques et sociales, Division de
-  la population (2019). World Population Prospects 2019. <a href="http ://esa.un.org/unpd/wpp/">http ://esa.un.org/unpd/wpp/</a></p>
+  <p>Nations Unies, Département des affaires économiques et sociales, Division de
+  la population (2019). « World Population Prospects 2019 ». <a href="http://esa.un.org/unpd/wpp/">http://esa.un.org/unpd/wpp/</a></p>
 
-  <p> Handbook on the Collection of Fertility and Mortality Data, Publication des
-  Nations Unies (ST/ESA/STAT/SER. F/92), <a href="http ://unstats.un.org/unsd/demographic/standmeth/handbooks/Handbook_Fertility_Mortality.pdf">http ://unstats.un.org/unsd/demographic/standmeth/handbooks/Handbook_Fertility_Mortality.pdf</a></p>
+  <p>Manuel de collecte de données sur la fécondité et la mortalité, publication des
+  Nations Unies (ST/ESA/STAT/SER. F/92), (<a href="https://unstats.un.org/unsd/demographic-social/Standards-and-Methods/files/Handbooks/fertility-and-mortality/SeriesF_92-F.pdf">https://unstats.un.org/unsd/demographic-social/Standards-and-Methods/files/Handbooks/fertility-and-mortality/SeriesF_92-F.pdf</a>)</p>
 
-  <p> Manual X : Indirect Techniques for Demographic Estimation, Publication des Nations
-  Unies, Publication des Nations Unies, No. E.83.XIII.2 <a href="https ://www.un.org/en/development/desa/population/publications/pdf/mortality/Manual_X.pdf.">https ://www.un.org/en/development/desa/population/publications/pdf/mortality/Manual_X.pdf.</a>.
-  </p>
+  <p>« Manual X: Indirect Techniques for Demographic Estimation », Publication des
+  Nations Unies, Numéro de vente : E.83.XIII.2. (<a href="https://www.un.org/en/development/desa/population/publications/pdf/mortality/Manual_X.pdf">https://www.un.org/en/development/desa/population/publications/pdf/mortality/Manual_X.pdf</a>)</p>
 
-  <p> Indicator and monitoring framework for the Global Strategy for Women's, Children's
-  and Adolescents' Health (2016-2030), disponible à l’adresse suivante : <a href="https ://www.who.int/life-course/about/coia/indicator-and-monitoring-framework/en/>https ://www.who.int/life-course/about/coia/indicator-and-monitoring-framework/en/.</a></p>
+  <p>« Indicator and Monitoring Framework for the Global Strategy for Women's, Children's
+  and Adolescents' Health (2016-2030) », (<a href="https://www.who.int/life-course/publications/gs-Indicator-and-monitoring-framework.pdf">https://www.who.int/life-course/publications/gs-Indicator-and-monitoring-framework.pdf</a>)</p>
 CONTACT_ORGANISATION: "<p>Division de la population, Département des affaires économiques\
   \ et sociales (DAES), Organisation des Nations Unies</p>\n<p>Fonds des Nations Unies\
   \ pour la population (FNUAP)</p>"
@@ -528,3 +495,44 @@ INST_MANDATE: <p>La Division de la population du Département des affaires écon
   et accessibles et une analyse des tendances démographiques et des résultats en matière
   de développement pour tous les pays et toutes les régions du monde. C’est l’organisme
   dépositaire de l’indicateur ODD 3.7.2. </p>
+ADJUSTMENT: <p>Lorsque des données sont disponibles à partir des systèmes d’enregistrement
+  de l’état civil couvrant au moins 90 % de toutes les naissances vivantes, le taux
+  de natalité chez les adolescentes est calculé en divisant le nombre annuel de naissances
+  vivantes de femmes âgées de 19 ans ou moins (groupes d’âge de 10 à 14 ans et de
+  15 à 19 ans) par la population féminine du groupe d’âge pertinent tirée de la dernière
+  révision des Perspectives de la population mondiale produite par la Division de
+  la population. Le taux de natalité chez les adolescentes provenant d’autres sources
+  n’est pas ajusté. </p>
+DATA_VALIDATION: '<p>La Division de la population tient à jour une base de données
+  sur les taux de fécondité provenant de différentes sources, y compris des estimations
+  produites par les bureaux nationaux de statistique et les unités statistiques régionales.
+  Depuis la dernière série de rapports sur les ODD, les données sont mises à jour
+  à partir de diverses sources jusqu’à une date limite spécifiée – généralement avant
+  la fin du mois de janvier de l’année de déclaration. Les données démographiques
+  nouvellement disponibles sont soumises à des analyses de qualité et évaluées en
+  examinant la cohérence des modèles, des niveaux et des tendances des données au
+  sein des pays et des régions et entre eux. La Division de la population a souvent
+  contacté le Fonds des Nations Unies pour la population (FNUAP) pour demander à ses
+  bureaux nationaux de l’aider à obtenir des données qui pourraient être disponibles
+  mais pas encore publiées. En outre, par l’intermédiaire du FNUAP, les données que
+  la Division de la population juge douteuses sont vérifiées par le bureau national
+  de statistique ou un autre organisme gouvernemental compétent. Le processus de compilation
+  et de sélection des données pour la déclaration des ODD est disponible (en anglais)
+  à l’adresse suivante : https://www.un.org/development/desa/pd/sites/www.un.org.development.desa.pd/files/unpd-egm-fer-2020-10-backgroundpaper_newtitle_final_oct9.pdf</p>'
+QUALITY_MGMNT: '<p>La Division de la population tient à jour une base de données sur
+  les taux de fécondité provenant de différentes sources, y compris des estimations
+  produites par les bureaux nationaux de statistique et les unités statistiques régionales.
+  Depuis la dernière série de rapports sur les ODD, les données sont mises à jour
+  à partir de diverses sources jusqu’à une date limite spécifiée – généralement avant
+  la fin du mois de janvier de l’année de déclaration. À chaque révision des Perspectives
+  de la population mondiale, la Division de la population procède à une réévaluation
+  des tendances démographiques historiques pour les pays et territoires du monde.
+  Ces estimations démographiques sont fondées sur les sources de données les plus
+  récentes disponibles, comme les recensements, les enquêtes démographiques, les registres
+  de l’état civil, les registres de population et diverses autres sources. Les données
+  et informations démographiques nouvellement disponibles sont soumises à des analyses
+  de qualité et évaluées en examinant la cohérence des modèles, des niveaux et des
+  tendances des données entre les pays et les régions. La description des lignes directrices
+  pour la gestion de la qualité des données et du processus est disponible (en anglais)
+  aux adresses suivantes : https://www.un.org/development/desa/pd/sites/www.un.org.development.desa.pd/files/unpd-egm-fer-2020-10-backgroundpaper_newtitle_final_oct9.pdf;
+  https://population.un.org/wpp/Publications/Files/WPP2019_Methodology.pdf. </p>'
