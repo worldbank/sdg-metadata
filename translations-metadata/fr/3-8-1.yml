@@ -85,8 +85,8 @@ STAT_CONC_DEF: >-
 
   <p> <strong> <em>III. Maladies non transmissibles</em></strong></p>
 
-  <p> 9. <strong>Hypertension</strong> : Prévalence normalisée selon l’âge de la pression
-  artérielle non élevée (tension artérielle systolique &lt;140 mm Hg ou pression artérielle
+  <p> 9. <strong>Hypertension</strong> : Prévalence normalisée selon l’âge de la tension
+  artérielle non élevée (tension artérielle systolique &lt;140 mm Hg ou tension artérielle
   diastolique &lt;90 mm Hg) chez les adultes âgés de 18 ans ou plus</p>
 
   <p>10. <strong>Diabète</strong> : Glucose plasmatique moyen à jeun normalisé par
@@ -574,7 +574,7 @@ OTHER_DOC: >-
           <p>Sources principales de données</p>
         </td>
         <td>
-          <p>Enquêtes auprès des ménages et système d'information de routine des installations</p>
+          <p>Enquêtes auprès des ménages et système d'information de routine des établissements</p>
         </td>
       </tr>
       <tr>
@@ -655,7 +655,7 @@ OTHER_DOC: >-
           <p>Sources principales de données</p>
         </td>
         <td>
-          <p>Enquêtes auprès des ménages et système d'information de routine des installations</p>
+          <p>Enquêtes auprès des ménages et système d'information de routine des établissements</p>
         </td>
       </tr>
       <tr>
@@ -799,7 +799,7 @@ OTHER_DOC: >-
   d'une régression qui prédit la couverture de la recherche de soins pour des symptômes
   de pneumonie (sur l'échelle logit), obtenue à partir de la base de données de l'OMS
   décrite ci-dessus, en fonction du log de l'estimation du taux de mortalité par pneumonie
-  chez les moins de 5 ans, que vous pouvez trouver ici : <a href="https://www.who.int/healthinfo/global_burden_disease/estimates/en/index2.html">https://www.who.int/healthinfo/global_burden_disease/estimates/en/index2.html</a></p>
+  chez les moins de 5 ans, que vous pouvez trouver à l'adresse : <a href="https://www.who.int/healthinfo/global_burden_disease/estimates/en/index2.html">https://www.who.int/healthinfo/global_burden_disease/estimates/en/index2.html</a></p>
         </td>
       </tr>
     </tbody>
@@ -812,7 +812,7 @@ OTHER_DOC: >-
           <p>Indicateur traceur</p>
         </td>
         <td>
-          <p>Tuberculosis treatment</p>
+          <p>Traitement pour la tuberculose</p>
         </td>
       </tr>
       <tr>
@@ -820,8 +820,8 @@ OTHER_DOC: >-
           <p>Définition de l'indicateur</p>
         </td>
         <td>
-          <p>Percentage of incidence TB cases that are detected and successfully treated
-  in a given year</p>
+          <p>Pourcentage de cas de tuberculose détectés et traités avec succès dans
+  une année donnée</p>
         </td>
       </tr>
       <tr>
@@ -829,8 +829,8 @@ OTHER_DOC: >-
           <p>Numérateur</p>
         </td>
         <td>
-          <p>Number of new and relapse cases detected in a given year and successfully
-  treated</p>
+          <p>Nombre de nouveaux cas et de cas de rechute détectés au cours d'une année
+  donnée et traités avec succès</p>
         </td>
       </tr>
       <tr>
@@ -838,7 +838,8 @@ OTHER_DOC: >-
           <p>Dénominateur</p>
         </td>
         <td>
-          <p>Number of new and relapse cases in the same year</p>
+          <p>Nombre de nouveaux cas et de cas de rechute détectés au cours de cette
+  même année</p>
         </td>
       </tr>
       <tr>
@@ -846,9 +847,10 @@ OTHER_DOC: >-
           <p>Sources principales de données</p>
         </td>
         <td>
-          <p>Facility information systems, surveillance systems, population-based
-  health surveys with TB diagnostic testing, TB register and related quarterly reporting
-  system (or electronic TB registers)</p>
+          <p>Systèmes d'information des établissements, systèmes de surveillance,
+  enquêtes de santé basées sur la population avec tests de diagnostic de la tuberculose,
+  registre de la tuberculose et système de notification trimestriel connexe (ou registres
+  électroniques de la tuberculose)</p>
         </td>
       </tr>
       <tr>
@@ -856,14 +858,16 @@ OTHER_DOC: >-
           <p>Méthode de mesure</p>
         </td>
         <td>
-          <p>This indicator requires three main inputs:</p>
-          <p>(1) The number of new and relapse TB cases diagnosed and treated in national
-  TB control programmes and notified to WHO in a given year.</p>
-          <p>(2) The number of incident TB cases for the same year, typically estimated
-  by WHO.</p>
-          <p>(3) Percentage of TB cases successfully treated (cured plus treatment
-  completed) among TB cases notified to the national health authorities.</p>
-          <p>The final indicator = (1)/(2) x (3)</p>
+          <p>Cet indicateur nécessite trois entrées principales :</p>
+          <p>(1) Le nombre de nouveaux cas de tuberculose et de cas de rechute diagnostiqués
+  et traités dans les programmes nationaux de lutte contre la tuberculose et déclarés
+  à l'OMS au cours d'une année donnée .</p>
+          <p>(2) Le nombre de cas de tuberculose pour la même année, généralement
+  estimé par l'OMS .</p>
+          <p>(3) Pourcentage de cas de tuberculose traités avec succès (guérison plus
+  traitement terminé) parmi les cas de tuberculose déclarés aux autorités sanitaires
+  nationales .</p>
+          <p>L'indicateur final = (1)/(2) x (3)</p>
         </td>
       </tr>
       <tr>
@@ -871,18 +875,20 @@ OTHER_DOC: >-
           <p>Méthode d'estimation</p>
         </td>
         <td>
-          <p>Estimates of TB incidence are produced through a consultative and analytical
-  process led by WHO and are published annually. These estimates are based on annual
-  case notifications, assessments of the quality and coverage of TB notification data,
-  national surveys of the prevalence of TB disease and information from death (vital)
-  registration systems. Estimates of incidence for each country are derived, using
-  one or more of the following approaches depending on available data:</p>
-          <p>1. incidence = case notifications/estimated proportion of cases detected;</p>
-          <p>2. incidence = prevalence/duration of condition;</p>
-          <p>3. incidence = deaths/proportion of incident cases that die. </p>
-          <p>These estimates of TB incidence are combined with country-reported data
-  on the number of cases detected and treated, and the percentage of cases successfully
-  treated, as described above.</p>
+          <p>Les estimations de l'incidence de la tuberculose sont produites dans
+  le cadre d'un processus consultatif et analytique dirigé par l'OMS et sont publiées
+  chaque année. Ces estimations sont basées sur les notifications annuelles de cas,
+  les évaluations de la qualité et de la couverture des données de notification de
+  la tuberculose, les enquêtes nationales sur la prévalence de la tuberculose et les
+  informations provenant des systèmes d'enregistrement des décès (état civil). Les
+  estimations de l'incidence pour chaque pays sont dérivées, en utilisant une ou plusieurs
+  des approches suivantes en fonction des données disponibles :</p>
+          <p>1. incidence = notifications de cas/proportion estimée de cas détectés;</p>
+          <p>2. incidence = prévalence/durée de la condition;</p>
+          <p>3. incidence = décès/proportion de cas qui résultent en décès. </p>
+          <p>Ces estimations de l'incidence de la tuberculose sont combinées avec
+  les données déclarées par les pays sur le nombre de cas détectés et traités, et
+  le pourcentage de cas traités avec succès, comme décrit ci-dessus. .</p>
         </td>
       </tr>
       <tr>
@@ -890,9 +896,9 @@ OTHER_DOC: >-
           <p>Notes au sujet de la CSU</p>
         </td>
         <td>
-          <p>To compute the indicator using WHO estimates, one can access necessary
-  files here: <a href="http://www.who.int/tb/country/data/download/en/">http://www.who.int/tb/country/data/download/en/</a>,
-  and compute the indicator as = c_cdr x c_new_tsr</p>
+          <p>Pour calculer l'indicateur à l'aide des estimations de l'OMS, on peut
+  accéder aux fichiers nécessaires à l'adresse : <a href="http://www.who.int/tb/country/data/download/en/">http://www.who.int/tb/country/data/download/en/</a>,
+  et calculer l'indicateur comme étant = c_cdr x c_new_tsr</p>
         </td>
       </tr>
     </tbody>
@@ -905,7 +911,7 @@ OTHER_DOC: >-
           <p>Indicateur traceur</p>
         </td>
         <td>
-          <p>HIV treatment</p>
+          <p>Traitement pour le VIH</p>
         </td>
       </tr>
       <tr>
@@ -913,8 +919,8 @@ OTHER_DOC: >-
           <p>Définition de l'indicateur</p>
         </td>
         <td>
-          <p>Percentage of people living with HIV currently receiving antiretroviral
-  therapy (ART)</p>
+          <p>Pourcentage de personnes vivant avec le VIH qui reçoivent actuellement
+  un traitement antirétroviral</p>
         </td>
       </tr>
       <tr>
@@ -922,8 +928,8 @@ OTHER_DOC: >-
           <p>Numérateur</p>
         </td>
         <td>
-          <p>Number of adults and children who are currently receiving ART at the
-  end of the reporting period</p>
+          <p>Nombre d'adultes et d'enfants qui recevaient un traitement antirétroviral
+  à la fin de la période de référence</p>
         </td>
       </tr>
       <tr>
@@ -931,7 +937,7 @@ OTHER_DOC: >-
           <p>Dénominateur</p>
         </td>
         <td>
-          <p>Number of adults and children living with HIV during the same period</p>
+          <p>Nombre d'adultes et d'enfants vivant avec le VIH pendant la même période</p>
         </td>
       </tr>
       <tr>
@@ -939,8 +945,8 @@ OTHER_DOC: >-
           <p>Sources principales de données</p>
         </td>
         <td>
-          <p>Facility reporting systems, sentinel surveillance sites, population-based
-  surveys</p>
+          <p>Systèmes de déclaration des établissements, sites de surveillance sentinelle,
+  enquêtes basées sur la population </p>
         </td>
       </tr>
       <tr>
@@ -948,16 +954,18 @@ OTHER_DOC: >-
           <p>Méthode de mesure</p>
         </td>
         <td>
-          <p>Numérateur: Le numérateur can be generated by counting the number of
-  adults and children who received antiretroviral combination therapy at the end of
-  the reporting period. Data can be collected from facility-based ART registers or
-  drug supply management systems. These are then tallied and transferred to cross
-  sectional monthly or quarterly reports which can then be aggregated for national
-  totals. Patients receiving ART in the private sector and public sector should be
-  included in the numerator.</p>
-          <p>Dénominateur: Data on the number of people with HIV infection may come
-  from population-based surveys or, as is common in sub-Saharan Africa, surveillance
-  systems based on antenatal care clinics.</p>
+          <p>Numérateur: Le numérateur peut être généré en comptant le nombre d'adultes
+  et d'enfants qui ont reçu une polythérapie antirétrovirale à la fin de la période
+  de référence. Les données peuvent être recueillies à partir des registres de traitement
+  antirétroviral des établissements ou des systèmes de gestion de l'approvisionnement
+  en médicaments. Ceux-ci sont ensuite comptabilisés et transférés dans des rapports
+  mensuels ou trimestriels transversaux qui peuvent ensuite être agrégés pour obtenir
+  des totaux nationaux. Les patients recevant un traitement antirétroviral dans le
+  secteur privé et le secteur public doivent être inclus dans le numérateur.</p>
+          <p>Dénominateur: Les données sur le nombre de personnes infectées par le
+  VIH peuvent provenir d'enquêtes basées sur la population ou, comme c'est souvent
+  le cas en Afrique subsaharienne, de systèmes de surveillance basés sur des cliniques
+  de soins prénatals.</p>
         </td>
       </tr>
       <tr>
@@ -965,18 +973,20 @@ OTHER_DOC: >-
           <p>Méthode d'estimation</p>
         </td>
         <td>
-          <p>Estimates of antiretroviral treatment coverage among people living with
-  HIV for 2000-2018 are derived as part of the 2019 UNAIDS&apos; estimation round.
-  </p>
-          <p>To estimate the number of people living with HIV across time in high
-  burden countries, UNAIDS in collaboration with countries uses an epidemic model
-  (Spectrum) that combines surveillance data on prevalence with the current number
-  of patients receiving ART and assumptions about the natural history of HIV disease
-  progression. </p>
-          <p>Since ART is now recommended for all individuals living with HIV, monitoring
-  ART coverage is less complicated than before, when only those with a certain level
-  of disease severity were eligible to receive ART.</p>
-          <p>Estimates of ART coverage can be found here: http://aidsinfo.unaids.org/</p>
+          <p>Les estimations de la couverture du traitement antirétroviral chez les
+  personnes vivant avec le VIH pour 2000-2018 sont dérivées du cycle d'estimation
+  2019 de l'ONUSIDA. </p>
+          <p>Pour estimer le nombre de personnes vivant avec le VIH au fil du temps
+  dans les pays à forte charge, l'ONUSIDA, en collaboration avec les pays, utilise
+  un modèle épidémique (Spectrum) qui combine les données de surveillance sur la prévalence
+  avec le nombre actuel de patients recevant un traitement antirétroviral et des hypothèses
+  sur l'histoire naturelle de l'évolution du VIH. </p>
+          <p>Étant donné que le traitement antirétroviral est désormais recommandé
+  pour toutes les personnes vivant avec le VIH, le suivi de la couverture de ce traitement
+  est moins compliqué qu'auparavant, alors que seules les personnes présentant un
+  certain niveau de gravité de la maladie étaient éligibles pour recevoir ce traitement.</p>
+          <p>Les estimations de la couverture du traitement antirétroviral sont disponibles
+  à l'adresse : http://aidsinfo.unaids.org/</p>
         </td>
       </tr>
       <tr>
@@ -984,8 +994,9 @@ OTHER_DOC: >-
           <p>Notes au sujet de la CSU</p>
         </td>
         <td>
-          <p>Comparable estimates of ART coverage in high income countries, in particular
-  time trends, are not always available.</p>
+          <p>Des estimations comparables de la couverture du traitement antirétroviral
+  dans les pays à revenu élevé, en particulier les tendances temporelles, ne sont
+  pas toujours disponibles .</p>
         </td>
       </tr>
     </tbody>
@@ -998,7 +1009,7 @@ OTHER_DOC: >-
           <p>Indicateur traceur</p>
         </td>
         <td>
-          <p>Malaria prevention</p>
+          <p>Prévention du paludisme (malaria)</p>
         </td>
       </tr>
       <tr>
@@ -1006,8 +1017,8 @@ OTHER_DOC: >-
           <p>Définition de l'indicateur</p>
         </td>
         <td>
-          <p>Percentage of population in malaria-endemic areas who slept under an
-  ITN the previous night.</p>
+          <p>Pourcentage de la population dans les zones où le paludisme est endémique
+  qui dormait sous une moustiquaire imprégnée d’insecticide la nuit précédente.</p>
         </td>
       </tr>
       <tr>
@@ -1015,7 +1026,8 @@ OTHER_DOC: >-
           <p>Numérateur</p>
         </td>
         <td>
-          <p>Number of people in malaria-endemic areas who slept under an ITN.</p>
+          <p>Nombre de personnes dans les zones où le paludisme est endémique qui
+  dormaient sous une moustiquaire imprégnée d’insecticide.</p>
         </td>
       </tr>
       <tr>
@@ -1023,7 +1035,7 @@ OTHER_DOC: >-
           <p>Dénominateur</p>
         </td>
         <td>
-          <p>Total number of people in malaria endemic areas.</p>
+          <p>Nombre total de personnes dans les zones où le paludisme est endémique.</p>
         </td>
       </tr>
       <tr>
@@ -1031,12 +1043,14 @@ OTHER_DOC: >-
           <p>Sources principales de données</p>
         </td>
         <td>
-          <p>Data on household access and use of ITNs come from nationally representative
-  household surveys such as Demographic and Health Surveys, Multiple Indicator Cluster
-  Surveys, and Malaria Indicator Surveys. Data on the number of ITNs delivered by
-  manufacturers to countries are compiled by Milliner Global Associates, and data
-  on the number of ITNs distributed within countries are reported by National Malaria
-  Control Programs.</p>
+          <p>Les données sur l'accès et l'utilisation des moustiquaires imprégnées
+  d’insecticide (MII) par les ménages proviennent d'enquêtes auprès des ménages représentatives
+  au niveau national telles que les enquêtes démographiques et de santé, les enquêtes
+  en grappes à indicateurs multiples et les enquêtes sur les indicateurs du paludisme.
+  Les données sur le nombre de MII livrées par les fabricants aux pays sont compilées
+  par « Milliner Global Associates », et les données sur le nombre de MII distribuées
+  dans les pays sont communiquées par les programmes nationaux de lutte contre le
+  paludisme.</p>
         </td>
       </tr>
       <tr>
@@ -1044,10 +1058,11 @@ OTHER_DOC: >-
           <p>Méthode de mesure</p>
         </td>
         <td>
-          <p>Many recent national surveys report the number of ITNs observed in each
-  respondent household. Ownership rates can be converted to the proportion of people
-  sleeping under an ITN using a linear relationship between access and use that has
-  been derived from 62 surveys that collect information on both indicators. </p>
+          <p>De nombreuses enquêtes nationales récentes rapportent le nombre de MII
+  observées dans chaque ménage répondant. Les taux de possession peuvent être convertis
+  en proportion de personnes dormant sous une MII en utilisant une relation linéaire
+  entre l'accès et l'utilisation qui a été dérivée de 62 enquêtes qui recueillent
+  des informations sur les deux indicateurs. </p>
         </td>
       </tr>
       <tr>
@@ -1055,11 +1070,13 @@ OTHER_DOC: >-
           <p>Méthode d'estimation</p>
         </td>
         <td>
-          <p>Mathematical models can be used to combine data from household surveys
-  on access and use with information on ITN deliveries from manufacturers and ITN
-  distribution by national malaria programmes to produce annual estimates of ITN coverage.
-  WHO uses this approach in collaboration with the Malaria Atlas Project. Methodological
-  details can be found in the Annex of the World Malaria Report 2015: <a href="http://www.who.int/malaria/publications/world-malaria-report-2015/report/en/">http://www.who.int/malaria/publications/world-malaria-report-2015/report/en/</a>.</p>
+          <p>Des modèles mathématiques peuvent être utilisés pour combiner les données
+  des enquêtes auprès des ménages sur l'accès et l'utilisation avec des informations
+  sur les livraisons de MII par les fabricants et la distribution de MII par les programmes
+  nationaux de lutte contre le paludisme afin de produire des estimations annuelles
+  de la couverture en MII. L'OMS utilise cette approche en collaboration avec le « Malaria
+  Atlas Project ». Les détails méthodologiques peuvent être trouvés dans l'annexe
+  du Rapport mondial sur le paludisme 2015 : <a href="http://www.who.int/malaria/publications/world-malaria-report-2015/report/en/">http://www.who.int/malaria/publications/world-malaria-report-2015/report/en/</a>.</p>
         </td>
       </tr>
       <tr>
@@ -1067,9 +1084,10 @@ OTHER_DOC: >-
           <p>Notes au sujet de la CSU</p>
         </td>
         <td>
-          <p>WHO produces comparable ITN coverage estimates for 40 high burden countries.
-  For other countries, ITN coverage is not included in the UHC service coverage index
-  due to data limitations. </p>
+          <p>L'OMS produit des estimations comparables de la couverture en MII pour
+  40 pays fortement touchés. Pour les autres pays, la couverture en MII n'est pas
+  incluse dans l'indice de couverture des services pour la CSU en raison des limites
+  des données. </p>
         </td>
       </tr>
     </tbody>
@@ -1082,7 +1100,7 @@ OTHER_DOC: >-
           <p>Indicateur traceur</p>
         </td>
         <td>
-          <p>Water and sanitation</p>
+          <p>Eau et système sanitaire</p>
         </td>
       </tr>
       <tr>
@@ -1090,7 +1108,8 @@ OTHER_DOC: >-
           <p>Définition de l'indicateur</p>
         </td>
         <td>
-          <p>Percentage of households using at least basic sanitation facilities</p>
+          <p>Pourcentage de ménages utilisant au moins des installations sanitaires
+  de base</p>
         </td>
       </tr>
       <tr>
@@ -1098,9 +1117,9 @@ OTHER_DOC: >-
           <p>Numérateur</p>
         </td>
         <td>
-          <p>Population living in a household with: flush or pour-flush to piped sewer
-  system, septic tank or pit latrine; ventilated improved pit latrine; pit latrine
-  with slab; or composting toilet.</p>
+          <p>Population vivant dans un ménage avec : chasse d'eau vers un réseau d'égouts,
+  une fosse septique ou des latrines à fosse; latrine à fosse ventilée améliorée;
+  latrines à fosse avec dalle; ou toilettes à compost.</p>
         </td>
       </tr>
       <tr>
@@ -1108,7 +1127,7 @@ OTHER_DOC: >-
           <p>Dénominateur</p>
         </td>
         <td>
-          <p>Total population</p>
+          <p>Population totale</p>
         </td>
       </tr>
       <tr>
@@ -1116,7 +1135,7 @@ OTHER_DOC: >-
           <p>Sources principales de données</p>
         </td>
         <td>
-          <p>Population-based household surveys and censuses</p>
+          <p>Enquêtes auprès des ménages et recensements</p>
         </td>
       </tr>
       <tr>
@@ -1124,8 +1143,8 @@ OTHER_DOC: >-
           <p>Méthode de mesure</p>
         </td>
         <td>
-          <p>Household-level responses, weighted by household size, are used to compute
-  population coverage.</p>
+          <p>Les réponses au niveau du ménage, pondérées par la taille du ménage,
+  sont utilisées pour calculer la couverture de la population.</p>
         </td>
       </tr>
       <tr>
@@ -1133,14 +1152,16 @@ OTHER_DOC: >-
           <p>Méthode d'estimation</p>
         </td>
         <td>
-          <p>The WHO/UNICEF Joint Monitoring Programme has produced regular estimates
-  of coverage of at least basic sanitation for MDG monitoring. After compiling a database
-  of available data sources, for each country, simple linear regressions are fitted
-  to the country&#x2019;s data series to obtain an in-sample estimate, as well as
-  to produce a 2-year extrapolation beyond the last available data point, after which
-  coverage is held constant for 4 years and then assumed missing. This is done separately
-  for urban and rural regions, and then combined to obtain national coverage estimates.
-  Details of the methodology and most recent estimates can be found here: http://www.wssinfo.org/</p>
+          <p>Le Programme conjoint de suivi OMS/UNICEF a produit des estimations régulières
+  de la couverture d'au moins un système sanitaire de base pour le suivi des OMD.
+  Après avoir compilé une base de données des sources de données disponibles, pour
+  chaque pays, des régressions linéaires simples sont ajustées à la série de données
+  du pays pour obtenir une estimation, ainsi que pour produire une extrapolation sur
+  2 ans au-delà du dernier point de données disponible, après quoi la couverture est
+  maintenue constante pendant 4 ans, puis supposée manquante. Ceci est fait séparément
+  pour les régions urbaines et rurales, puis combiné pour obtenir des estimations
+  de la couverture nationale. Les détails de la méthodologie et les estimations les
+  plus récentes peuvent être trouvés à l'adresse : http://www.wssinfo.org/</p>
         </td>
       </tr>
       <tr>
@@ -1148,11 +1169,12 @@ OTHER_DOC: >-
           <p>Notes au sujet de la CSU</p>
         </td>
         <td>
-          <p>The SDG indicator for sanitation (SDG 6.2.1) is an expanded version of
-  the MDG indicator, incorporating the quality of sanitation facilities. It is not
-  for UHC monitoring due to lower data availability. A joint indicator that identifies
-  the proportion of households with access to both safe water and sanitation could
-  also be considered.</p>
+          <p>L'indicateur ODD au sujet de système sanitaire (ODD 6.2.1) est une version
+  élargie de l'indicateur OMD, intégrant la qualité des installations d'assainissement.
+  Il n'est pas pour la surveillance de la CSU en raison de la faible disponibilité
+  des données. Un indicateur conjoint qui identifie la proportion de ménages ayant
+  accès à la fois à l'eau potable et à un système sanitaire pourrait également être
+  envisagé.</p>
         </td>
       </tr>
     </tbody>
@@ -1165,7 +1187,7 @@ OTHER_DOC: >-
           <p>Indicateur traceur</p>
         </td>
         <td>
-          <p>Prevention of cardiovascular disease</p>
+          <p>Prévention de maladie cardiovasculaire</p>
         </td>
       </tr>
       <tr>
@@ -1173,8 +1195,8 @@ OTHER_DOC: >-
           <p>Définition de l'indicateur</p>
         </td>
         <td>
-          <p>Age-standardized prevalence of normal blood pressure among adults aged
-  18+, regardless of treatment status</p>
+          <p>Prévalence normalisée selon l’âge de la tension artérielle normale chez
+  les adultes âgés de 18 ans ou plus, quel que soit le statut du traitement</p>
         </td>
       </tr>
       <tr>
@@ -1182,8 +1204,9 @@ OTHER_DOC: >-
           <p>Numérateur</p>
         </td>
         <td>
-          <p>Number of adults aged 18 or older with systolic blood pressure &lt;140
-  mm Hg and diastolic blood pressure &lt;90 mm Hg (regardless of treatment status)</p>
+          <p>Nombre d'adultes âgés de 18 ans ou plus avec une tension artérielle systolique
+  &lt; 140 mm Hg ou tension artérielle diastolique &lt; 90 mm Hg (quel que soit le
+  statut du traitement)</p>
         </td>
       </tr>
       <tr>
@@ -1191,7 +1214,7 @@ OTHER_DOC: >-
           <p>Dénominateur</p>
         </td>
         <td>
-          <p>Number of adults aged 18 or older</p>
+          <p>Nombre d'adultes âgés de 18 ans ou plus</p>
         </td>
       </tr>
       <tr>
@@ -1199,7 +1222,7 @@ OTHER_DOC: >-
           <p>Sources principales de données</p>
         </td>
         <td>
-          <p>Population-based surveys and surveillance systems</p>
+          <p>Enquêtes basées sur la population et systèmes de surveillance</p>
         </td>
       </tr>
       <tr>
@@ -1207,9 +1230,10 @@ OTHER_DOC: >-
           <p>Méthode de mesure</p>
         </td>
         <td>
-          <p>Data sources recording measured blood pressure are used (self-reported
-  data are excluded).&#xA0;If multiple blood pressure readings are taken per participant,
-  the first reading is dropped and the remaining readings are averaged.</p>
+          <p>Les sources de données enregistrant la tension artérielle mesurée sont
+  utilisées (les données autodéclarées sont exclues). Si plusieurs lectures de tension
+  artérielle sont prises par participant, la première lecture est abandonnée et on
+  fait la moyenne des lectures restantes.</p>
         </td>
       </tr>
       <tr>
@@ -1217,17 +1241,21 @@ OTHER_DOC: >-
           <p>Méthode d'estimation</p>
         </td>
         <td>
-          <p>For producing comparable national estimates, data observations of prevalence
-  defined in terms of alternate SBP and/or DBP cutoffs are converted into prevalence
-  of raised blood pressure, defined as systolic blood pressure &gt;=140 mm Hg or diastolic
-  blood pressure &gt;=90 mm Hg using regression equations. A Bayesian hierarchical
-  model is then fitted to these data to calculate age-sex-year-country specific prevalences,
-  which accounts for national vs. subnational data sources, urban vs. rural data sources,
-  and allows for variation in prevalence across age and sex. Age-standardized estimates
-  are then produced by applying the crude estimates to the WHO Standard Population.
-  Details on the statistical methods are here: <a href="http://www.thelancet.com/journals/lancet/article/PIIS0140-6736(16)31919-5/fulltext">http://www.thelancet.com/journals/lancet/article/PIIS0140-6736(16)31919-5/fulltext</a></p>
-          <p>WHO and the NCD Risk Factor Collaboration (NCD-RisC) has produced comparable
-  estimates for this indicator up through year 2015, which are available here: </p>
+          <p>Pour produire des estimations nationales comparables, les données d'observation
+  de la prévalence définies en termes de seuils alternatifs de tension artérielle
+  systolique et/ou diastolique sont converties en prévalence de l'hypertension artérielle,
+  soit une tension artérielle systolique &gt; 140 mm Hg ou une tension artérielle
+  diastolique &gt; 90 mm Hg, à l'aide d'équations de régression. Un modèle hiérarchique
+  bayésien est ensuite ajusté à ces données pour calculer les prévalences spécifiques
+  par âge-sexe-année-pays, qui tient compte des sources de données nationales par
+  rapport aux sources de données infranationales, des sources de données urbaines
+  par rapport aux rurales, et permet une variation de la prévalence selon l'âge et
+  le sexe. Des estimations normalisées selon l'âge sont ensuite produites en appliquant
+  les estimations brutes à la population type de l'OMS. Les détails sur les méthodes
+  statistiques sont à l'adresse : <a href="http://www.thelancet.com/journals/lancet/article/PIIS0140-6736(16)31919-5/fulltext">http://www.thelancet.com/journals/lancet/article/PIIS0140-6736(16)31919-5/fulltext</a></p>
+          <p>L'OMS et le groupe « NCD Risk Factor Collaboration (NCD-RisC) » ont produit
+  des estimations comparables pour cet indicateur jusqu'à l'année 2015, qui sont disponibles
+  à l'adresse : </p>
           <p><a href="http://apps.who.int/gho/data/node.main.A875STANDARD?lang=en">http://apps.who.int/gho/data/node.main.A875STANDARD?lang=en</a></p>
         </td>
       </tr>
@@ -1236,18 +1264,21 @@ OTHER_DOC: >-
           <p>Notes au sujet de la CSU</p>
         </td>
         <td>
-          <p>Prevalence estimates are converted to the prevalence of normal blood
-  pressure for incorporation into the UHC index, so that a value of 100% is the optimal
-  target. This is computed as: normal blood pressure prevalence = 1 &#x2013; raised
-  blood pressure prevalence. The above estimates are done separately for men and women;
-  for the UHC tracer indicator a simple average of values for men and women is computed.</p>
-          <p>Normal blood pressure is the sum of the percentage of individuals who
-  do not have hypertension, and the percentage of individuals whose hypertension is
-  controlled by medication. The absence of hypertension is a result of prevention
-  efforts via promotion of physical activity and healthy diets, as well as other factors.
-  Hypertension controlled with medication is a result of effective treatment. This
-  indicator is thus a proxy for both effective health promotion and effective medical
-  services. </p>
+          <p>Les estimations de prévalence sont converties en prévalence de tension
+  artérielle normale pour être incorporées dans l'indice de la CSU, de sorte qu'une
+  valeur de 100 % soit la cible optimale. Ceci est calculé comme suit : prévalence
+  de la tension artérielle normale = 1 – prévalence de la tension artérielle élevée.
+  Les estimations ci-dessus sont faites séparément pour les hommes et les femmes;
+  pour l'indicateur traceur de la CSU, une simple moyenne des valeurs pour les hommes
+  et les femmes est calculée.</p>
+          <p>La tension artérielle normale est la somme du pourcentage de personnes
+  qui ne souffrent pas d'hypertension et du pourcentage de personnes dont l'hypertension
+  est contrôlée par des médicaments. L'absence d'hypertension est le résultat d'efforts
+  de prévention via la promotion de l'activité physique et d'une alimentation saine,
+  ainsi que d'autres facteurs. L'hypertension contrôlée par des médicaments est le
+  résultat d'un traitement efficace. Cet indicateur est donc un indicateur indirect
+  de l'efficacité de la promotion de la santé et de l'efficacité des services médicaux.
+  </p>
         </td>
       </tr>
     </tbody>
@@ -1260,7 +1291,7 @@ OTHER_DOC: >-
           <p>Indicateur traceur</p>
         </td>
         <td>
-          <p>Management of diabetes</p>
+          <p>Gestion du diabète</p>
         </td>
       </tr>
       <tr>
@@ -1268,8 +1299,8 @@ OTHER_DOC: >-
           <p>Définition de l'indicateur</p>
         </td>
         <td>
-          <p>Age-standardized mean fasting plasma glucose for adults aged 18 years
-  and older</p>
+          <p>Glucose plasmatique moyen à jeun normalisé par âge pour les adultes âgés
+  de 18 ans ou plus</p>
         </td>
       </tr>
       <tr>
@@ -1277,7 +1308,7 @@ OTHER_DOC: >-
           <p>Sources principales de données</p>
         </td>
         <td>
-          <p>Population-based surveys and surveillance systems</p>
+          <p>Enquêtes basées sur la population et systèmes de surveillance</p>
         </td>
       </tr>
       <tr>
@@ -1285,9 +1316,10 @@ OTHER_DOC: >-
           <p>Méthode de mesure</p>
         </td>
         <td>
-          <p>Fasting plasma glucose (FPG) levels are determined by taking a blood
-  sample from participants who have fasted for at least 8 hours. Other related biomarkers,
-  such as hemoglobin A1c (HbA1c), were used to help calculate estimates (see below).</p>
+          <p>Les niveaux de glucose plasmatique à jeun sont déterminés en prélevant
+  un échantillon de sang de participants qui ont jeûné pendant au moins 8 heures.
+  D'autres biomarqueurs apparentés, tels que l'hémoglobine A1c (HbA1c), ont été utilisés
+  pour aider à calculer les estimations (voir ci-dessous).</p>
         </td>
       </tr>
       <tr>
@@ -1295,14 +1327,17 @@ OTHER_DOC: >-
           <p>Méthode d'estimation</p>
         </td>
         <td>
-          <p>For producing comparable national estimates, data observations based
-  on mean FPG, oral glucose tolerance test (OGTT), HbA1c, or combinations therein,
-  are all converted to mean FPG. A Bayesian hierarchical model is then fitted to these
-  data to calculate age-sex-year-country specific prevalences, which accounts for
-  national vs. subnational data sources, urban vs. rural data sources, and allows
-  for variation in prevalence across age and sex. Age-standardized estimates are then
-  produced by applying the crude estimates to the WHO Standard Population. Methodological
-  details can be found here: <a href="https://www.who.int/diabetes/global-report/en/">https://www.who.int/diabetes/global-report/en/</a></p>
+          <p>Pour produire des estimations nationales comparables, les observations
+  de données basées sur le glucose plasmatique à jeun moyen, le test de tolérance
+  au glucose oral (OGTT), l'HbA1c ou leurs combinaisons sont toutes converties en
+  glucose plasmatique à jeun moyen. Un modèle hiérarchique bayésien est ensuite ajusté
+  à ces données pour calculer les prévalences spécifiques par âge-sexe-année-pays,
+  qui tient compte des sources de données nationales par rapport aux sources de données
+  infranationales, des sources de données urbaines par rapport aux rurales, et permet
+  une variation de la prévalence selon l'âge et le sexe. Des estimations normalisées
+  selon l'âge sont ensuite produites en appliquant les estimations brutes à la population
+  type de l'OMS. Les détails méthodologiques peuvent être trouvés dans le Rapport
+  mondial sur le diabète à l'adresse : <a href="http://apps.who.int/iris/bitstream/handle/10665/254648/9789242565256-fre.pdf?sequence=1">http://apps.who.int/iris/bitstream/handle/10665/254648/9789242565256-fre.pdf?sequence=1</a></p>
         </td>
       </tr>
       <tr>
@@ -1310,13 +1345,15 @@ OTHER_DOC: >-
           <p>Notes au sujet de la CSU</p>
         </td>
         <td>
-          <p>An individual&#x2019;s FPG may be low because of effective treatment
-  with glucose-lowering medication, or because the individual is not diabetic as a
-  result of health promotion activities or other factors such as genetics. Mean FPG
-  is thus a proxy for both effective promotion of healthy diets and behaviors and
-  effective treatment of diabetes. </p>
-          <p>The above estimates are done separately for men and women; for the UHC
-  tracer indicator a simple average of values for men and women is computed.</p>
+          <p>Le glucose plasmatique à jeun d'un individu peut être faible en raison
+  d'un traitement efficace avec des médicaments hypoglycémiants, ou parce que l'individu
+  n'est pas diabétique en raison d'activités de promotion de la santé ou d'autres
+  facteurs tels que la génétique. Le glucose plasmatique à jeun moyen est donc un
+  indicateur à la fois de la promotion efficace d'une alimentation et de comportements
+  sains et d'un traitement efficace du diabète.</p>
+          <p>Les estimations ci-dessus sont produites séparément pour les hommes et
+  les femmes; pour l'indicateur traceur de la CSU, une simple moyenne des valeurs
+  pour les hommes et les femmes est calculée.</p>
         </td>
       </tr>
     </tbody>
@@ -1329,7 +1366,7 @@ OTHER_DOC: >-
           <p>Indicateur traceur</p>
         </td>
         <td>
-          <p>Tobacco control</p>
+          <p>Contrôle du tabac</p>
         </td>
       </tr>
       <tr>
@@ -1337,8 +1374,8 @@ OTHER_DOC: >-
           <p>Définition de l'indicateur</p>
         </td>
         <td>
-          <p>Age-standardized prevalence of adults &gt;=15 years not smoking tobacco
-  in last 30 days </p>
+          <p>Prévalence normalisée selon l’âge des adultes d'au moins 15 ans n'ayant
+  pas fumé de tabac au cours des 30 derniers jours </p>
         </td>
       </tr>
       <tr>
@@ -1346,8 +1383,8 @@ OTHER_DOC: >-
           <p>Numérateur</p>
         </td>
         <td>
-          <p>Adults 15 years and older who have not smoked tobacco in the last 30
-  days</p>
+          <p>Nombre d'adultes d'au moins 15 ans n'ayant pas fumé de tabac au cours
+  des 30 derniers jours</p>
         </td>
       </tr>
       <tr>
@@ -1355,7 +1392,7 @@ OTHER_DOC: >-
           <p>Dénominateur</p>
         </td>
         <td>
-          <p>Adults 15 years and older</p>
+          <p>Nombre d'adultes d'au moins 15 ans</p>
         </td>
       </tr>
       <tr>
@@ -1363,7 +1400,7 @@ OTHER_DOC: >-
           <p>Sources principales de données</p>
         </td>
         <td>
-          <p>Household surveys</p>
+          <p>Enquêtes auprès des ménages</p>
         </td>
       </tr>
       <tr>
@@ -1371,9 +1408,9 @@ OTHER_DOC: >-
           <p>Méthode de mesure</p>
         </td>
         <td>
-          <p>&#x201C;Current tobacco smoking&quot; includes cigarettes, cigars, pipes
-  or any other smoked tobacco products used in the past 30 days. Data are collected
-  via self-report in surveys.</p>
+          <p>« Fumant actuellement du tabac » comprend les cigarettes, les cigares,
+  les pipes ou tout autre produit du tabac fumé au cours des 30 derniers jours. Les
+  données sont recueillies via l'auto-déclaration dans les enquêtes.</p>
         </td>
       </tr>
       <tr>
@@ -1381,11 +1418,12 @@ OTHER_DOC: >-
           <p>Méthode d'estimation</p>
         </td>
         <td>
-          <p>WHO estimates prevalence of current tobacco (non) smoking with a negative
-  binomial meta-regression model, which generates comparable estimates by adjusting
-  for differences in age groups and indicator definition across national surveys included
-  in the analysis. These estimates are done separately for men and women. Methodological
-  details can be found here: <a href="http://www.thelancet.com/journals/lancet/article/PIIS0140-6736(15)60264-1/supplemental">http://www.thelancet.com/journals/lancet/article/PIIS0140-6736(15)60264-1/supplemental</a></p>
+          <p>L'OMS estime la prévalence du (non) tabagisme actuel avec un modèle de
+  méta-régression binomiale négative, qui génère des estimations comparables en faisant
+  un ajustement pour tenir compte des différences dans les groupes d'âge et de la
+  définition des indicateurs dans les enquêtes nationales incluses dans l'analyse.
+  Ces estimations sont faites séparément pour les hommes et les femmes. Les détails
+  méthodologiques peuvent être trouvés à l'adresse : <a href="http://www.thelancet.com/journals/lancet/article/PIIS0140-6736(15)60264-1/supplemental">http://www.thelancet.com/journals/lancet/article/PIIS0140-6736(15)60264-1/supplemental</a></p>
         </td>
       </tr>
       <tr>
@@ -1393,8 +1431,8 @@ OTHER_DOC: >-
           <p>Notes au sujet de la CSU</p>
         </td>
         <td>
-          <p>Prevalence of not smoking tobacco is computed as 1 minus the prevalence
-  of tobacco smoking.</p>
+          <p>La prévalence de ne pas fumer de tabac est calculée comme 1 moins la
+  prévalence de fumer du tabac. </p>
         </td>
       </tr>
     </tbody>
@@ -1407,7 +1445,7 @@ OTHER_DOC: >-
           <p>Indicateur traceur</p>
         </td>
         <td>
-          <p>Hospital access</p>
+          <p>Accès à l’hôpital</p>
         </td>
       </tr>
       <tr>
@@ -1415,8 +1453,8 @@ OTHER_DOC: >-
           <p>Indicator definition</p>
         </td>
         <td>
-          <p>Hospital beds per capita, relative to a maximum threshold of 18 per 10,000
-  population</p>
+          <p>Lits d’hôpital par habitant, par rapport à un seuil maximum de 18 pour
+  10 000 habitants</p>
         </td>
       </tr>
       <tr>
@@ -1424,7 +1462,8 @@ OTHER_DOC: >-
           <p>Numérateur</p>
         </td>
         <td>
-          <p>Number of hospital beds (should exclude labor and delivery beds)</p>
+          <p>Nombre de lits d'hôpital (devrait exclure les lits pour le travail et
+  pour l'accouchement)</p>
         </td>
       </tr>
       <tr>
@@ -1432,7 +1471,7 @@ OTHER_DOC: >-
           <p>Dénominateur</p>
         </td>
         <td>
-          <p>Total population</p>
+          <p>Population totale </p>
         </td>
       </tr>
       <tr>
@@ -1440,7 +1479,8 @@ OTHER_DOC: >-
           <p>Sources principales de données</p>
         </td>
         <td>
-          <p>Administrative systems / Health facility reporting system</p>
+          <p>Systèmes administratifs / Système de déclaration des établissements de
+  santé</p>
         </td>
       </tr>
       <tr>
@@ -1448,16 +1488,17 @@ OTHER_DOC: >-
           <p>Méthode de mesure</p>
         </td>
         <td>
-          <p>Country administrative systems are used to total the number of hospital
-  beds, which are divided by the total estimated population, and multiplied by 10,000.
-  </p>
-          <p>WHO regional offices and other groups collect information on national
-  hospital bed density, including the following online resources:</p>
+          <p>Les systèmes administratifs des pays sont utilisés pour totaliser le
+  nombre de lits d'hôpitaux, qui est divisé par la population totale estimée et multiplié
+  par 10 000. </p>
+          <p>Les bureaux régionaux de l'OMS et d'autres groupes recueillent des informations
+  sur la densité nationale des lits d'hôpitaux, y compris les ressources en ligne
+  suivantes :</p>
           <p><a href="https://rho.emro.who.int/rhodata/node.main.A36">https://rho.emro.who.int/rhodata/node.main.A36</a></p>
-          <p>WHO AFRO regional observatory: <a href="http://www.aho.afro.who.int/en/data-statistics/hospital-beds-10-000-population">http://www.aho.afro.who.int/en/data-statistics/hospital-beds-10-000-population</a></p>
-          <p>WHO EURO European Health for All Database: <a href="https://gateway.euro.who.int/en/datasets%20european-health-for-all-database/">https://gateway.euro.who.int/en/datasets
+          <p>Observatoire régional de l'OMS « AFRO » : <a href="http://www.aho.afro.who.int/en/data-statistics/hospital-beds-10-000-population">http://www.aho.afro.who.int/en/data-statistics/hospital-beds-10-000-population</a></p>
+          <p>Base de données de l'OMS « EURO European Health for All » : <a href="https://gateway.euro.who.int/en/datasets%20european-health-for-all-database/">https://gateway.euro.who.int/en/datasets
   european-health-for-all-database/</a></p>
-          <p>OECD: <a href="https://data.oecd.org/healtheqt/hospital-beds.htm">https://data.oecd.org/healtheqt/hospital-beds.htm</a></p>
+          <p>OCDE: <a href="https://data.oecd.org/healtheqt/hospital-beds.htm">https://data.oecd.org/healtheqt/hospital-beds.htm</a></p>
         </td>
       </tr>
       <tr>
