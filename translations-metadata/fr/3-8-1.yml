@@ -103,8 +103,8 @@ STAT_CONC_DEF: >-
 
   <p>13. <strong>Personnel de santé</strong> : Professionnels de la santé (médecins,
   psychiatres et chirurgiens) par habitant, par rapport aux seuils maximaux pour chaque
-  cadre (chevauchement partiel avec l’indicateur des ODD 3.c.1, voir métadonnées <a
-  href="https://unstats.un.org/sdgs/metadata/files/Metadata-03-0C-01.pdf">ici</a>)</p>
+  groupe (chevauchement partiel avec l’indicateur des ODD 3.c.1, voir métadonnées
+  <a href="https://unstats.un.org/sdgs/metadata/files/Metadata-03-0C-01.pdf">ici</a>)</p>
 
   <p>14. <strong>Sécurité sanitaire</strong> : Indice de capacité de base du Règlement
   sanitaire international (RSI), qui est le pourcentage moyen d’attributs de 13 capacités
@@ -1506,20 +1506,21 @@ OTHER_DOC: >-
           <p>Méthode d'estimation</p>
         </td>
         <td>
-          <p>Using available data, the indicator is computed relative to a threshold
-  value of 18 hospital beds per 10,000 population. This threshold is below the observed
-  OECD high income country minimum (since year 2000) of 20 per 10,000 and tends to
-  correspond to an inpatient hospital admission rate of around 5 per 100 per year.
-  This indicator is designed to capture low levels of hospital capacity; the maximum
-  threshold is used because very high hospital bed densities are not necessary an
-  efficient use of resources. The indicator is computed as follows, using country
-  data on hospital bed density (<em>x</em>), which results in values ranging from
-  0 to 100:</p>
-          <p>Country with a hospital bed density <em>x</em> &lt; 18 per 10,000 per
-  year, the indicator = </p>
+          <p>À partir des données disponibles, l'indicateur est calculé par rapport
+  à une valeur seuil de 18 lits d'hôpitaux pour 10 000 habitants. Ce seuil est inférieur
+  au minimum observé pour les pays à revenu élevé de l'OCDE (depuis l'an 2000) de
+  20 pour 10 000 et tend à correspondre à un taux d'hospitalisation d'environ 5 pour
+  100 par an. Cet indicateur est conçu pour saisir les faibles niveaux de capacité
+  hospitalière; le seuil maximal est utilisé parce que des densités de lits d'hôpitaux
+  très élevées ne sont pas nécessaires à une utilisation efficace des ressources.
+  L'indicateur est calculé comme suit, en utilisant les données nationales sur la
+  densité des lits d'hôpitaux (<em>x</em>), ce qui donne des valeurs allant de 0 à
+  100 :</p>
+          <p>Pays avec une densité de lits d'hôpital <em>x</em> &lt; 18 pour 10 000
+  habitants, par année, l'indicateur = </p>
           <p><em>x</em> /18*100. </p>
-          <p>Country with a hospital bed density <em>x</em> &gt;= 18 per 10,000 per
-  year, the indicator = 100.</p>
+          <p>Pays avec une densité de lits d'hôpital <em>x</em> &gt;= 18 pour 10 000
+  habitants, par année, l'indicateur = 100.</p>
         </td>
       </tr>
       <tr>
@@ -1527,11 +1528,11 @@ OTHER_DOC: >-
           <p>Notes au sujet de la CSU</p>
         </td>
         <td>
-          <p>An alternative indicator could be hospital in-patient admission rate,
-  relative to a maximum threshold. However, that indicator is currently not reported
-  widely across regions, in particular the African Region. In countries where both
-  hospital beds per capita and in-patient admission rates are available, they are
-  highly correlated.</p>
+          <p>Un autre indicateur pourrait être le taux d'hospitalisation des patients,
+  par rapport à un seuil maximal. Cependant, cet indicateur n'est actuellement pas
+  largement déclaré dans toutes les régions, en particulier dans la région africaine.
+  Dans les pays où les lits d'hôpitaux par habitant et les taux d'hospitalisation
+  sont disponibles, ils sont fortement corrélés.</p>
         </td>
       </tr>
     </tbody>
@@ -1544,7 +1545,7 @@ OTHER_DOC: >-
           <p>Indicateur traceur</p>
         </td>
         <td>
-          <p>Health workforce</p>
+          <p>Personnel de santé</p>
         </td>
       </tr>
       <tr>
@@ -1552,8 +1553,8 @@ OTHER_DOC: >-
           <p>Définition de l'indicateur</p>
         </td>
         <td>
-          <p>Health professionals (physicians, psychiatrists, and surgeons) per capita,
-  relative to maximum thresholds for each cadre</p>
+          <p>Professionnels de la santé (médecins, psychiatres et chirurgiens) par
+  habitant, par rapport aux seuils maximaux pour chaque groupe</p>
         </td>
       </tr>
       <tr>
@@ -1561,7 +1562,7 @@ OTHER_DOC: >-
           <p>Numérateur</p>
         </td>
         <td>
-          <p>Number of physicians, psychiatrists and surgeons</p>
+          <p>Nombre de médecins, psychiatres et chirurgiens</p>
         </td>
       </tr>
       <tr>
@@ -1569,7 +1570,7 @@ OTHER_DOC: >-
           <p>Dénominateur</p>
         </td>
         <td>
-          <p>Total population</p>
+          <p>Population totale</p>
         </td>
       </tr>
       <tr>
@@ -1577,9 +1578,9 @@ OTHER_DOC: >-
           <p>Sources principales de données</p>
         </td>
         <td>
-          <p>National database or registry of health workers, ideally coupled with
-  regular assessment of completeness using census data, professional association registers,
-  or facility censuses.</p>
+          <p>Base de données ou registre national du personnel de santé, idéalement
+  associé à une évaluation régulière de l'exhaustivité à l'aide des données de recensement,
+  des registres des associations professionnelles ou des recensements des établissements</p>
         </td>
       </tr>
       <tr>
@@ -1587,22 +1588,25 @@ OTHER_DOC: >-
           <p>Méthode de mesure</p>
         </td>
         <td>
-          <p>The classification of health workers is based on criteria for vocational
-  education and training, regulation of health professions, and activities and tasks
-  of jobs, i.e., a framework for categorizing key workforce variables according to
-  shared characteristics. The WHO framework largely draws on the latest revisions
-  to the internationally standardized classification systems of the International
-  Labour Organization (International Standard Classification of Occupations), United
-  Nations Educational, Scientific and Cultural Organization (International Standard
-  Classification of Education), and the United Nations Statistics Division (International
-  Standard Industrial Classification of All Economic Activities). </p>
-          <p>Methodological details and data can be found here: <a href="http://www.who.int/hrh/statistics/hwfstats/en/">http://www.who.int/hrh/statistics/hwfstats/en/</a></p>
-          <p>Data are from the following sources:</p>
-          <p>Physicians: <a href="http://apps.who.int/gho/data/node.main.HWFGRP_0020?lang=en">http://apps.who.int/gho/data/node.main.HWFGRP_0020?lang=en</a></p>
-          <p>Psychiatrists: <a href="https://www.who.int/healthinfo/universal_health_coverage/report/2017/en/">https://www.who.int/healthinfo/universal_health_coverage/report/2017/en/</a></p>
-          <p>Surgeons: <a href="http://apps.who.int/gho/data/node.main.HWF9?lang=en%20">http://apps.who.int/gho/data/node.main.HWF9?lang=en</a>
+          <p>La classification du personnel de santé est basée sur des critères d'enseignement
+  et de formation professionnels, de réglementation des professions de santé et d'activités
+  et de tâches professionnelles, c'est-à-dire un cadre de catégorisation des variables
+  clés de la main-d'œuvre en fonction de caractéristiques communes. Le cadre de l'OMS
+  s'inspire largement des dernières révisions des systèmes de classification normalisés
+  au niveau international de l'Organisation internationale du travail (Classification
+  internationale type des professions), de l'Organisation des Nations Unies pour l'éducation,
+  la science et la culture (Classification internationale type de l'éducation) et
+  de la Division de la statistique des Nations Unies (Classification internationale
+  type par industrie, de toutes les branches d'activité économique). </p>
+          <p>Les détails méthodologiques et les données peuvent être trouvés à l'adresse
+  : <a href="http://www.who.int/hrh/statistics/hwfstats/en/">http://www.who.int/hrh/statistics/hwfstats/en/</a></p>
+          <p>Les données proviennent des sources suivantes :</p>
+          <p>Médecins : <a href="http://apps.who.int/gho/data/node.main.HWFGRP_0020?lang=en">http://apps.who.int/gho/data/node.main.HWFGRP_0020?lang=en</a></p>
+          <p>Psychiatres : <a href="https://www.who.int/fr/publications/i/item/WHO-HIS-HGF-17.2">https://www.who.int/fr/publications/i/item/WHO-HIS-HGF-17.2</a></p>
+          <p>Chirurgiens : <a href="http://apps.who.int/gho/data/node.main.HWF9?lang=en%20">http://apps.who.int/gho/data/node.main.HWF9?lang=en</a>
   </p>
-          <p>(data here were supplemented by prior editions of the the database)</p>
+          <p>(ces données ont été complétées par des éditions antérieures de la base
+  de données)</p>
         </td>
       </tr>
       <tr>
@@ -1610,21 +1614,23 @@ OTHER_DOC: >-
           <p>Méthode d'estimation</p>
         </td>
         <td>
-          <p>Using available data, the indicator is computed by first rescaling, separately,
-  health worker density ratios for each of the three cadres (physicians, psychiatrists
-  and surgeons) relative to the minimum observed values across OECD countries since
-  2000, which are as follows: physicians = 0.9 per 1000, psychiatrists = 1 per 100,000,
-  and surgeons = 14 per 100,000. This rescaling is done in the same way as that for
-  the hospital bed density indicator described above, resulting in indicator values
-  that range from 0 to 100 for each of the three cadres. For example, using country
-  data on physicians per 1000 population (<em>x</em>), the cadre-specific indicator
-  would be computed as:</p>
-          <p>Country with <em>x</em> &lt; 0.9 per 1000 per year, the cadre-specific
-  indicator = <em>x</em> /0.9*100. </p>
-          <p>Country with <em>x</em> &gt;= 0.9 per 1000 per year, the cadre-specific
-  indicator = 100.</p>
-          <p>As a final step, the geometric mean of the three cadre-specific indicator
-  values is computed to obtain the final indicator of health workforce density.</p>
+          <p>À l'aide des données disponibles, l'indicateur est calculé en rééchelonnant
+  d'abord, séparément, les ratios de densité du personnel de santé pour chacun des
+  trois groupes (médecins, psychiatres et chirurgiens) par rapport aux valeurs minimales
+  observées dans les pays de l'OCDE depuis 2000, qui sont les suivantes : médecins
+  = 0,9 pour 1 000, psychiatres = 1 pour 100 000 et chirurgiens = 14 pour 100 000.
+  Cette remise à l'échelle est effectuée de la même manière que pour l'indicateur
+  de densité de lits d'hôpitaux décrit ci-dessus, ce qui donne des valeurs d'indicateur
+  allant de 0 à 100 pour chacun des trois groupes. Par exemple, en utilisant les données
+  nationales sur les médecins pour 1 000 habitants (<em>x</em>), l'indicateur spécifique
+  au groupe serait calculé comme suit :</p>
+          <p>Pays avec <em>x</em> &lt; 0,9 pour 1 000 habitants, par année, l'indicateur
+  spécifique à ce groupe = <em>x</em> /0.9*100. </p>
+          <p>Pays avec <em>x</em> &gt;= 0,9 pour 1 000 habitants, par année, l'indicateur
+  spécifique à ce groupe = 100.</p>
+          <p>Dans une dernière étape, la moyenne géométrique des trois valeurs d'indicateur
+  spécifique à chaque groupe est calculée pour obtenir l'indicateur final de la densité
+  des effectifs de santé.</p>
         </td>
       </tr>
       <tr>
@@ -1632,15 +1638,15 @@ OTHER_DOC: >-
           <p>Notes au sujet de la CSU</p>
         </td>
         <td>
-          <p>The &#x201C;physicians&#x201D; category would ideally be expanded to
-  include all &#x201C;core health professionals&#x201D;, such as nurses and midwives.
-  However, no internationally comparable data base exists that uses consistent definitions
-  of non-physician core health professionals to allow for fully accurate cross-country
-  comparisons. </p>
-          <p>For countries without observed data, the density of surgeons was estimated
-  from a regression that predicts the log of surgeons per 100,000, obtained from the
-  WHO data base described above, as a function of the log of GDP per capita, as estimated
-  by the World Bank.</p>
+          <p>La catégorie « médecins » serait idéalement élargie pour inclure tous
+  les « professionnels de la santé de base », tels que les infirmières et les sages-femmes.
+  Cependant, il n'existe aucune base de données internationalement comparable qui
+  utilise des définitions cohérentes des principaux professionnels de la santé non
+  médecins pour permettre des comparaisons précises entre les pays.  </p>
+          <p>Pour les pays sans données observées, la densité de chirurgiens a été
+  estimée à partir d'une régression qui prédit le log de chirurgiens pour 100 000
+  habitants, obtenu à partir de la base de données de l'OMS décrite ci-dessus, exprimé
+  comme une fonction du log du PIB par habitant, tel qu'estimé par la Banque mondiale.</p>
         </td>
       </tr>
     </tbody>
@@ -1653,7 +1659,7 @@ OTHER_DOC: >-
           <p>Indicateur traceur</p>
         </td>
         <td>
-          <p>Health security</p>
+          <p>Sécurité sanitaire</p>
         </td>
       </tr>
       <tr>
@@ -1661,14 +1667,14 @@ OTHER_DOC: >-
           <p>Définition de l'indicateur</p>
         </td>
         <td>
-          <p>International Health Regulations (IHR) core capacity index, which is
-  the average percentage of attributes of 13 core capacities that have been attained
-  at a specific point in time. </p>
-          <p>The 13 core capacities are: (1) National legislation, policy and financing;
-  (2) Coordination and National Focal Point communications; (3) Surveillance; (4)
-  Response; (5) Preparedness; (6) Risk communication; (7) Human resources; (8) Laboratory;
-  (9) Points of entry; (10) Zoonotic events; (11) Food safety; (12) Chemical events;
-  (13) Radionuclear emergencies.</p>
+          <p>Indice de capacité de base du Règlement sanitaire international (RSI),
+  qui est le pourcentage moyen d’attributs de 13 capacités de base qui ont été atteintes
+  à un moment précis. </p>
+          <p>Les 13 capacités de base sont : (1) Législation nationale, politique
+  et financement; (2) Coordination et communication du correspondant national ; (3)
+  Surveillance; (4) Réponse; (5) État de préparation; (6) Communication des risques;
+  (7) Ressources humaines; (8) Laboratoire; (9) Points d'entrée; (10) Événements zoonotiques;
+  (11) Sécurité alimentaire; (12) Événements chimiques; (13) Urgences radionucléaires.</p>
         </td>
       </tr>
       <tr>
@@ -1676,7 +1682,7 @@ OTHER_DOC: >-
           <p>Numérateur</p>
         </td>
         <td>
-          <p>Number of attributes attained</p>
+          <p>Nombre d'attributs atteints</p>
         </td>
       </tr>
       <tr>
@@ -1684,7 +1690,7 @@ OTHER_DOC: >-
           <p>Dénominateur</p>
         </td>
         <td>
-          <p>Total number of attributes</p>
+          <p>Nombre total d'attributs</p>
         </td>
       </tr>
       <tr>
@@ -1692,7 +1698,7 @@ OTHER_DOC: >-
           <p>Sources principales de données</p>
         </td>
         <td>
-          <p>Key informant survey</p>
+          <p>Sondage auprès des informateurs clés</p>
         </td>
       </tr>
       <tr>
@@ -1700,9 +1706,11 @@ OTHER_DOC: >-
           <p>Méthode de mesure</p>
         </td>
         <td>
-          <p>Key informants report on attainment of a set of attributes for each of
-  13 core capacities using a standard WHO instrument, as described here: <a href="http://apps.who.int/iris/bitstream/10665/84933/1/WHO_HSE_GCR_2013.2_eng.pdf">http://apps.who.int/iris/bitstream/10665/84933/1/WHO_HSE_GCR_2013.2_eng.pdf</a></p>
-          <p>Capacity-level indicator values can be found here: </p>
+          <p>Les informateurs clés rendent compte de la réalisation d'un ensemble
+  d'attributs pour chacune des 13 capacités de base à l'aide d'un instrument standard
+  de l'OMS, tel que décrit à l'adresse : <a href="http://apps.who.int/iris/bitstream/10665/84933/1/WHO_HSE_GCR_2013.2_eng.pdf">http://apps.who.int/iris/bitstream/10665/84933/1/WHO_HSE_GCR_2013.2_eng.pdf</a></p>
+          <p>Les valeurs des indicateurs de niveau de capacité peuvent être trouvées
+  à l'adresse : </p>
           <p><a href="http://apps.who.int/gho/data/node.main.IHRSPARALL?lang=en">http://apps.who.int/gho/data/node.main.IHRSPARALL?lang=en</a></p>
         </td>
       </tr>
@@ -1711,8 +1719,8 @@ OTHER_DOC: >-
           <p>Méthode d'estimation</p>
         </td>
         <td>
-          <p>The indicator is computed by averaging, across the 13 core capacities,
-  the percentage of attributes for each capacity that have been attained.</p>
+          <p>L'indicateur est calculé en faisant la moyenne, sur les 13 capacités
+  de base, du pourcentage d'attributs pour chaque capacité, qui ont été atteints.</p>
         </td>
       </tr>
       <tr>
@@ -1720,9 +1728,9 @@ OTHER_DOC: >-
           <p>Notes au sujet de la CSU</p>
         </td>
         <td>
-          <p>Countries began reporting IHR core capacity attainment to WHO for the
-  year 2010. The earliest available IHR score for each country is used for all years
-  2000-2009.</p>
+          <p>Les pays ont commencé à communiquer à l'OMS l'atteinte des capacités
+  de base du RSI pour l'année 2010. Le premier score RSI disponible pour chaque pays
+  est utilisé pour toutes les années 2000-2009.</p>
         </td>
       </tr>
     </tbody>
