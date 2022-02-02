@@ -4,27 +4,28 @@ SDG_GOAL: >-
 SDG_TARGET: "<p>Cible 3.3 : D’ici 2030, mettre fin à l’épidémie de sida, à la tuberculose,\
   \ au paludisme et aux maladies tropicales négligées et combattre l’hépatite, les\
   \ maladies transmises par l’eau et d'autres maladies transmissibles </p>"
-SDG_INDICATOR: "<p>Indicateur 3.3.1 : Nombre de nouvelles infections à VIH pour 1 000 personnes\
-  \ séronégatives, par sexe, âge et groupes de population cible </p>"
+SDG_INDICATOR: "<p>Indicateur 3.3.1 : Nombre de nouvelles infections par le VIH pour\
+  \ 1 000 personnes séronégatives, par sexe, âge et groupes clés de la population\
+  \ </p>"
 META_LAST_UPDATE: '<p>Février 2021</p>'
 SDG_CUSTODIAN_AGENCIES: |-
-  <p>Le Programme conjoint des Nations Unies sur le VIH/SIDA (ONUSIDA)</p>
+  <p>Le Programme conjoint des Nations Unies sur le VIH/sida (ONUSIDA)</p>
 STAT_CONC_DEF: >-
   <p><strong>Définition :</strong></p>
 
   <p> </p>
 
-  <p>Le nombre de nouvelles infections au VIH pour 1 000 habitants non infectés, selon
-  le sexe, l’âge et les populations cibles, tel que défini comme le nombre de nouvelles
-  infections au VIH pour 1 000 personnes-années parmi la population non infectée.
-  </p>
+  <p>Le nombre de nouvelles infections par le VIH pour 1 000 habitants non infectés,
+  selon le sexe, l’âge et des groupes clés de la population, tel que défini comme
+  le nombre de nouvelles infections par le VIH pour 1 000 personnes-années parmi la
+  population non infectée. </p>
 
   <p> </p>
 SOURCE_TYPE: >-
   <p>La modélisation du spectre est utilisée pour les données présentées ici. Les
   méthodes alternatives de mesure comprennent les enquêtes auprès des ménages ou des
-  populations clés avec test d'incidence du VIH, ou la surveillance de routine parmi
-  les populations clés. </p>
+  tests d'incidence du VIH aurpès de groupes clés de la population, ou la surveillance
+  de routine parmi les groupes clés de la population. </p>
 
   <p> </p>
 COLL_METHOD: >-
@@ -37,9 +38,10 @@ COLL_METHOD: >-
 
   <p>Le Groupe de référence sur les estimations, modèles et projections de l'ONUSIDA
   fournit des conseils techniques sur le développement de la composante VIH du logiciel
-  Spectrum (www.epidem.org). Le logiciel Spectrum est développé par Avenir Health
-  (www.avenirhealth.org) – qui comprend un module d'estimations et de projections
-  qui est développé par l'East-West Center (www.eastwestcenter.org). </p>
+  Spectrum ((en anglais) www.epidem.org). Le logiciel Spectrum est développé par « Avenir
+  Health » ((en anglais) www.avenirhealth.org) – qui comprend un module d'estimations
+  et de projections qui est développé par le « East-West Center » ((en anglais) www.eastwestcenter.org).
+  </p>
 FREQ_COLL: >-
   <p>Les sources de données sont compilées tout au long de l’année. Les modèles Spectrum
   sont créés au cours des trois premiers mois de chaque année et finalisés en mai.
@@ -47,8 +49,8 @@ FREQ_COLL: >-
 REL_CAL_POLICY: |-
   <p>Des données sont publiées chaque année en juillet</p>
 DATA_SOURCE: >-
-  <p> Les estimations sont produites par une équipe d'experts nationaux du ministère
-  de la santé, des groupes consultatifs nationaux sur le SIDA et des partenaires de
+  <p>Les estimations sont produites par une équipe d'experts nationaux du ministère
+  de la santé, des groupes consultatifs nationaux sur le sida et des partenaires de
   développement. Les résultats sont approuvés par les cadres supérieurs des ministères
   de la santé. </p>
 COMPILING_ORG: |-
@@ -69,19 +71,17 @@ DATA_COMP: >-
   également rarement représentatifs. L'incidence du VIH est donc modélisée à l'aide
   du logiciel Spectrum</p>
 IMPUTATION: >-
-  <p>&#x2022; Au niveau national : </p>
+  <p>&#x2022;Au niveau national : </p>
 
-  <p> Les estimations ne sont pas recueillies auprès des pays ayant une population
+  <p>Les estimations ne sont pas recueillies auprès des pays ayant une population
   inférieure à 250 000 habitants. De plus, aucune estimation n'est disponible pour
-  10 pays avec de très petites épidémies de VIH qui ne produisent pas d'estimations.
+  10 pays avec de très petites épidémies de VIH, qui ne produisent pas d'estimations.
   Pour certains pays, les estimations n'étaient pas finalisées au moment de la publication.
   Les valeurs propres à chaque pays ne sont pas présentées pour ces pays. </p>
 
   <p> </p>
 
-  <p>&#x2022; Aux niveaux régional et mondial : </p>
-
-  </ul>
+  <p>&#x2022;Aux niveaux régional et mondial : </p>
 
   <p>Les pays avec une population inférieure à 250 000 habitants et les 10 pays qui
   ne produisent pas d'estimations ne sont pas inclus dans les estimations aux niveaux
@@ -99,7 +99,7 @@ DOC_METHOD: >-
   les méthodes. En outre, ils sont soutenus par des spécialistes nationaux dans environ
   45 pays. Lorsqu'aucun spécialiste n'est disponible dans le pays, une assistance
   à distance est fournie. Les directives sont également disponibles à l'adresse suivante
-  HIVtools.unaids.org </p>
+  https://hivtools.unaids.org/fr/hiv-tools-fr/. </p>
 
   <p> <strong> </strong> </p>
 QUALITY_ASSURE: >-
@@ -112,24 +112,25 @@ COVERAGE: >-
   <p>Disponibilité des données : </p>
 
   <p>170 pays en 2020. Les données sont disponibles par âge et par sexe, mais l'estimation
-  de l'incidence parmi les populations clés pose des problèmes méthodologiques</p>
+  de l'incidence parmi les groupes clés de la population pose des problèmes méthodologiques</p>
 
-  <p>Série chronologique :</p>
+  <p>Séries chronologiques :</p>
 
   <p>2000-2019 </p>
 
   <p>Désagrégation : </p>
 
   <p>Population générale, groupes d'âge (0-14, 15-24, 15-49, 50+ ans, tous les âges),
-  sexe (homme, femme, les deux). Les données relatives à la population clé ne sont
-  pas disponibles actuellement car les méthodes sont en cours de développement. </p>
+  sexe (homme, femme, les deux). Les données relatives aux groupes clés de la population
+  ne sont pas disponibles actuellement car les méthodes sont en cours de développement.
+  </p>
 COMPARABILITY: |-
   <p>Sources des divergences : </p>
   <p>Ces variations seront différentes d’un pays à l’autre. </p>
 OTHER_DOC: >-
   <p><strong>URL : </strong> </p>
 
-  <p>unaids.org </p>
+  <p>https://www.unaids.org/fr </p>
 
   <p> </p>
 
@@ -145,11 +146,11 @@ OTHER_DOC: >-
 
   <p><a href="https://hivtools.unaids.org/fr/hiv-tools-fr/">https://hivtools.unaids.org/fr/hiv-tools-fr/</a></p>
 
-  <p>Supplément de revue sur les méthodes (en anglais):</p>
+  <p>(en anglais) « Journal Supplement on methods » :</p>
 
   <p>https://journals.lww.com/aidsonline/toc/2019/12153</p>
 
-  <p>Surveillance mondiale du SIDA par l'ONUSIDA </p>
+  <p>Surveillance mondiale du sida par l'ONUSIDA </p>
 
   <p>https://www.unaids.org/fr/global-aids-monitoring</p>
 
@@ -172,18 +173,18 @@ OTHER_DOC: >-
 
   <p> </p>
 
-  <p>Directives consolidées pour l'information stratégique sur le VIH dans le secteur
-  de la santé. Genève : Organisation mondiale de la santé (en anglais); <a href="https://www.who.int/publications/i/item/9789241508759"><u>https://www.who.int/publications/i/item/9789241508759</u></a>
+  <p>(en anglais) « Consolidated Strategic Information Guidelines for HIV in the Health
+  Sector ». Genève : Organisation mondiale de la santé; <a href="https://www.who.int/publications/i/item/9789241508759"><u>https://www.who.int/publications/i/item/9789241508759</u></a>
   </p>
 
   <p> </p>
-CONTACT_ORGANISATION: <p>Le Programme conjoint des Nations Unies sur le VIH/SIDA (ONUSIDA)</p>
+CONTACT_ORGANISATION: <p>Le Programme conjoint des Nations Unies sur le VIH/sida (ONUSIDA)</p>
 UNIT_MEASURE: <p>Nombre de personnes pour 1 000.</p>
 CLASS_SYSTEM: <p>Sans objet</p>
-INST_MANDATE: <p>Les déclarations politiques des Nations unies sur le VIH/SIDA (de
+INST_MANDATE: <p>Les déclarations politiques des Nations unies sur le VIH/sida (de
   2001, 2011 et 2016) ont chargé l'ONUSIDA d'aider les pays à produire ces données
   et de rendre compte de la situation de l'épidémie mondiale de VIH chaque année ainsi
-  que par l'intermédiaire du Secrétaire général des Nations unies. </p>
+  que par l'intermédiaire du Secrétaire général des Nations Unies. </p>
 SDG_RELATED_INDICATORS: <p>La réalisation de cette cible aura un impact positif sur
   plusieurs objectifs des ODD et, en atteignant d'autres objectifs, ceci améliorera
   la capacité des pays à réduire les nouvelles infections par le VIH. Les objectifs
@@ -212,14 +213,14 @@ REC_USE_LIM: "<p>Les méthodes et les limites de l'estimation de l'incidence du 
   \ et l'incidence du VIH chez les enfants semblent être raisonnablement robustes\
   \ dans les épidémies généralisées, l'estimation de l'épidémie pédiatrique du VIH\
   \ dans les épidémies concentrées reste un défi car il n'existe pas de mesures robustes\
-  \ de la fertilité parmi les populations clés vivant avec le VIH. </li>\n  <li>Actuellement,\
-  \ l'ONUSIDA ne soutient le développement des estimations du VIH que dans les pays\
-  \ dont la population est supérieure à 250 000 habitants. Cela est principalement\
-  \ dû à la capacité de soutien.</li>\n</ul>"
+  \ de la fertilité parmi les groupes clés de la population vivant avec le VIH. </li>\n\
+  \  <li>Actuellement, l'ONUSIDA ne soutient le développement des estimations du VIH\
+  \ que dans les pays dont la population est supérieure à 250 000 habitants. Cela\
+  \ est principalement dû à la capacité de soutien.</li>\n</ul>"
 DATA_VALIDATION: <p>Les estimations de l'incidence du VIH sont créées par les équipes
   nationales et sont approuvées par les gestionnaires du ministère de la santé, avec
   une déclaration claire que ces données seront fournies pour les rapports sur les
-  ODD. Le point focal des ODD pour le pays reçoit une copie des demandes d'autorisation.
+  ODD. Le correspondant national des ODD reçoit une copie des demandes d'autorisation.
   L'ONUSIDA examine ensuite les données d'entrée et les résultats pour en garantir
   la qualité. </p>
 ADJUSTMENT: <p>Aucun ajustement n'est apporté aux estimations. </p>
@@ -228,7 +229,7 @@ QUALITY_MGMNT: <p>L'élaboration des méthodes est supervisée par un groupe ext
   de l'ONUSIDA pour garantir la cohérence entre les pays.</p>
 QUALITY_ASSMNT: <p>Les résultats sont systématiquement comparés aux données empiriques
   lorsqu'elles sont disponibles. Ces données empiriques comprennent des études de
-  recherche, des enquêtes aurpès des ménages avec mesure de l'incidence, et des sites
+  recherche, des enquêtes auprès des ménages avec mesure de l'incidence, et des sites
   de surveillance longitudinale du VIH lorsqu'ils sont disponibles. Si des incohérences
   sont constatées, des modifications sont envisagées pour les modèles. Plus récemment,
   une étude portant sur l'incidence en Afrique subsaharienne a trouvé une correspondance.

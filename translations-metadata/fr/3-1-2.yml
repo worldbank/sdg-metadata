@@ -1,7 +1,7 @@
 SDG_GOAL: >-
   <p>Objectif 3 : Permettre à tous de vivre en bonne santé et promouvoir le bien-être
   de tous à tout âge </p>
-SDG_TARGET: "<p>Cible 3.1 : D’ici à 2030, faire passer le taux mondial de mortalité\
+SDG_TARGET: "<p>Cible 3.1 : D’ici 2030, faire passer le taux mondial de mortalité\
   \ maternelle au-dessous de 70 pour 100 000 naissances vivantes </p>"
 SDG_INDICATOR: "<p>Indicateur 3.1.2 : Proportion d’accouchements assistés par du personnel\
   \ de santé qualifié </p>"
@@ -51,7 +51,7 @@ SOURCE_TYPE: >-
   dans des établissements de santé et sont donc enregistrées. Ces données peuvent
   être utilisées pour suivre l'indicateur sur une base annuelle. </p>
 COLL_METHOD: >-
-  <p> L’UNICEF et l’OMS maintiennent des bases de données conjointes sur l’ODD 3.1.2
+  <p>L’UNICEF et l’OMS maintiennent des bases de données conjointes sur l’ODD 3.1.2
   Proportion d’accouchements assistés par du personnel de santé qualifié et collaborent
   ensemble pour s'assurer de la qualité et de la cohérence des données (mentionnées
   ci-dessus).</p>
@@ -81,8 +81,9 @@ REL_CAL_POLICY: >-
   sont publiées chaque année ; en février par l'UNICEF sur le site Web de données
   <a href="http://www.data.unicef.org">www.data.unicef.org</a> (3) et par l'Organisation
   mondiale de la Santé en mai dans le Rapport sur les statistiques sanitaires mondiales
-  (<a href="http://www.who.int/whosis/whostat/en/" target="_blank">http://www.who.int/whosis/whostat/en/</a>)
-  et l'Observatoire de la santé mondiale de l'OMS (https://apps.who.int/gho/data/node.main).
+  (<a href="https://www.who.int/fr/data/gho/publications/world-health-statistics"
+  target="_blank">https://www.who.int/fr/data/gho/publications/world-health-statistics</a>)
+  et l'Observatoire de la santé mondiale de l'OMS ((en anglais) https://apps.who.int/gho/data/node.main).
   L'UNICEF fait également état de cet indicateur dans le rapport sur la situation
   des enfants dans le monde qui est publié tous les deux ans. </p>
 DATA_SOURCE: >-
@@ -114,7 +115,7 @@ IMPUTATION: >-
     <li>Au niveau national :</li>
   </ul>
 
-  <p>Il n’y a pas de traitement des valeurs manquantes au niveau des pays. Si la valeur
+  <p>Il n’y a pas de traitement des valeurs manquantes au niveau national. Si la valeur
   est manquante pour une année donnée, il n’y a pas de déclaration de cette valeur.
   </p>
 
@@ -146,8 +147,8 @@ DOC_METHOD: >-
   assistées par du personnel de santé qualifié)/(nombre total de naissances vivantes)
   x 100.</p>
 
-  <p>Dans les enquêtes sur les ménages, telles que les EDS, les MICS et les ERS, la
-  répondante est interrogée à propos de la naissance la plus récente et des personnes
+  <p>Dans les enquêtes auprès des ménages, telles que les EDS, les MICS et les ERS,
+  la répondante est interrogée à propos de la naissance la plus récente et des personnes
   qui l'ont aidée à accoucher pendant une période allant jusqu'à cinq ans avant l'interview.
   Pour la cohérence des rapports, les équipes de personnalisation des enquêtes dans
   les pays sont encouragées à examiner les catégories de prestataires de soins de
@@ -213,8 +214,10 @@ COMPARABILITY: >-
   en particulier dans les cas où les naissances à domicile – assistées par des professionnels
   de santé qualifiés – sont prévalentes. </p>
 OTHER_DOC: >-
+  <p>(Toutes les références sont en anglais)</p>
+
   <p><strong>URL : </strong><a href="https://data.unicef.org/topic/maternal-health/delivery-care/"
-  target="_blank"><strong><u>https://data.unicef.org/topic/maternal-health/delivery-care/#</u></strong></a><strong>
+  target="_blank"><strong><u>https://data.unicef.org/topic/maternal-health/delivery-care/</u></strong></a><strong>
   </strong> </p>
 
   <p> </p>
@@ -224,15 +227,13 @@ OTHER_DOC: >-
   <ul>
     <li>
       <ol>
-        <li>Définition du personnel de santé qualifié prodiguant des soins pendant
-  l'accouchement, déclaration conjointe de l'OMS, du FNUAP, de l'UNICEF, de l'ICM,
-  du CII, de la FIGO et de l'IPA, 2018 https://www.who.int/reproductivehealth/publications/statement-competent-mnh-professionals/en/</li>
-        <li>Base de données conjointe UNICEF/OMS sur le personnel de santé qualifié,
-  fondée sur les données des enquêtes nationales auprès des ménages basées sur la
-  population et les systèmes de santé de routine. https://data.unicef.org/topic/maternal-health/delivery-care/#
+        <li>« Definition of skilled health personnel providing care during childbirth
+  2018 joint statement by WHO, UNFPA, UNICEF, ICM, ICN, FIGO and IPA » https://www.who.int/reproductivehealth/publications/statement-competent-mnh-professionals/en/</li>
+        <li>« Joint UNICEF/WHO database of skilled health personnel, based on population-based
+  national household survey data and routine health systems ». https://data.unicef.org/topic/maternal-health/delivery-care/
   </li>
-        <li>Division de la population des Nations Unies, Perspectives de la population
-  mondiale. https://population.un.org/wpp/Download/Standard/Population/ </li>
+        <li>Division de la population des Nations Unies, « World Population Prospects ».
+  https://population.un.org/wpp/Download/Standard/Population/ </li>
       </ol>
     </li>
   </ul>
@@ -240,7 +241,7 @@ SDG_RELATED_INDICATORS: <p>En lien avec l’objectif 3.1 sur la réduction de la
   maternelle, l'objectif 3.2 sur la réduction de la mortalité néonatale et l'objectif
   3.8 sur la réalisation de la couverture sanitaire universelle (couverture des services
   de santé essentiels)</p>
-UNIT_MEASURE: <p>Cet indicateur est rapporté en proportion (ou en pourcentage)</p>
+UNIT_MEASURE: <p>Cet indicateur est une proportion (ou pourcentage)</p>
 CLASS_SYSTEM: <p>Un aspect important de cet indicateur est la déclaration des catégories
   de prestataires de santé au niveau national. Les catégories standard pour l'indicateur
   comprennent les médecins, les infirmières et les sages-femmes. Cependant, des catégories
@@ -252,7 +253,7 @@ INST_MANDATE: <p>L'UNICEF et l'OMS sont co-responsables de la compilation et de 
   état de cet indicateur. </p>
 ADJUSTMENT: <p>Dans les cas où la déclaration des catégories qualifiées n'est pas
   cohérente avec les années précédentes ou avec les catégories considérées comme qualifiées
-  au niveau du pays, les valeurs déclarées peuvent être ajustées. Lorsque cela est
+  au niveau national, les valeurs déclarées peuvent être ajustées. Lorsque cela est
   fait, on consulte le pays au sujet du processus. </p>
 CONTACT_ORGANISATION: <p>Fonds des Nations Unies pour l'enfance (UNICEF) et Organisation
   mondiale de la Santé (OMS)</p>

@@ -6,7 +6,7 @@ SDG_TARGET: >-
   le taux de mortalité prématurée due à des maladies non transmissibles et promouvoir
   la santé mentale et le bien-être </p>
 SDG_INDICATOR: >-
-  <p>Indicateur 3.4.1 : Taux de mortalité attribué aux maladies cardiovasculaires,
+  <p>Indicateur 3.4.1 : Taux de mortalité attribuable aux maladies cardiovasculaires,
   au cancer, au diabète ou aux maladies respiratoires chroniques </p>
 META_LAST_UPDATE: '<p>Mars 2021</p>'
 SDG_CUSTODIAN_AGENCIES: |-
@@ -48,7 +48,7 @@ STAT_CONC_DEF: >-
   <p> </p>
 
   <p>Maladies cardiovasculaires, cancer, diabète ou maladies respiratoires chroniques
-  : classification internationale des maladies (CIM-10), causes sous-jacentes de décès
+  : Classification internationale des maladies (CIM-10), causes sous-jacentes de décès
   I00-I99, COO-C97, E10-E14 et J30-J98. </p>
 SOURCE_TYPE: >-
   <p>La source de données privilégiée est le système d'enregistrement des décès avec
@@ -125,16 +125,16 @@ DATA_COMP: >-
   d’âge de cinq ans entre 30 et 70 ans, (2) traduire le taux de mortalité sur 5 ans
   en probabilité de décès dans chaque tranche d’âge de 5 ans, et (3) calculer la probabilité
   de décès de 30 à 70 ans, indépendamment des autres causes de décès, se trouvent
-  à la page 6 du présent document (en anglais seulement) : </p>
+  à la page 6 du présent document (en anglais) : </p>
 
   <p> </p>
 
-  <p>NCD Global Monitoring Framework: Indicator Definitions and Specifications. Genève :
-  Organisation mondiale de la Santé, 2014 (http://www.who.int/nmh/ncd-tools/indicators/GMF_Indicator_Definitions_FinalNOV2014.pdf?ua=1)
+  <p>« NCD Global Monitoring Framework: Indicator Definitions and Specifications ».
+  Genève : Organisation mondiale de la Santé, 2014 (http://www.who.int/nmh/ncd-tools/indicators/GMF_Indicator_Definitions_FinalNOV2014.pdf?ua=1)
   </p>
 IMPUTATION: >-
   <ul>
-    <li>Au niveau des pays </li>
+    <li>Au niveau national </li>
   </ul>
 
   <p> </p>
@@ -142,11 +142,10 @@ IMPUTATION: >-
   <p>Pour les pays présentant des statistiques sur les causes de décès de grande qualité,
   une interpolation/extrapolation a été effectuée pour les années-pays manquants;
   pour les pays où les données sur les causes de décès sont de faible qualité ou inexistantes,
-  la modélisation a été utilisée. La méthodologie complète peut être trouvée ici :
-  </p>
+  la modélisation a été utilisée. La méthodologie complète peut être trouvée (en anglais)
+  à l'adresse : </p>
 
-  <p>Méthodes et sources de données de l’OMS sur les causes mondiales de décès, 2000-2019
-  (en anglais seulement https://www.who.int/docs/default-source/gho-documents/global-health-estimates/ghe2019_cod_methods.pdf
+  <p>« WHO methods and data sources for global causes of death, 2000–2019 » (https://www.who.int/docs/default-source/gho-documents/global-health-estimates/ghe2019_cod_methods.pdf
   ) </p>
 
   <p> </p>
@@ -168,7 +167,7 @@ COVERAGE: >-
   <p>Près de 70 pays fournissent actuellement à l’OMS des données régulières de haute
   qualité sur la mortalité par âge, sexe et causes de décès, et 58 autres pays soumettent
   des données de qualité inférieure. Toutefois, l’OMS calcule systématiquement des
-  estimations complètes de la cause du décès pour l’ensemble de ses États membres
+  estimations complètes de la cause de décès pour l’ensemble de ses États membres
   (avec un certain seuil de population).</p>
 
   <p>Séries chronologiques : 2000-2019</p>
@@ -184,11 +183,13 @@ COMPARABILITY: >-
   1) l'OMS redistribue les décès dont la cause est mal définie; et 2) l'OMS corrige
   les décès dont l'enregistrement est incomplet.</p>
 OTHER_DOC: >-
-  <p> <strong> URL :</strong> </p>
+  <p>(Toutes les références sont anglais, sauf la résolution de l'AMS)</p>
+
+  <p> <strong>URL :</strong> </p>
 
   <p> </p>
 
-  <p>(en anglais seulement) http://www.who.int/gho/en/ </p>
+  <p>http://www.who.int/gho/en/ </p>
 
   <p> </p>
 
@@ -196,33 +197,34 @@ OTHER_DOC: >-
 
   <p> </p>
 
-  <p>NCD Global Monitoring Framework: Indicator Definitions and Specifications. Genève :
-  Organisation mondiale de la Santé, 2014 (en anglais seulement http://www.who.int/nmh/ncd-tools/indicators/GMF_Indicator_Definitions_FinalNOV2014.pdf?ua=1)
+  <p>« NCD Global Monitoring Framework: Indicator Definitions and Specifications ».
+  Genève : Organisation mondiale de la Santé, 2014 (http://www.who.int/nmh/ncd-tools/indicators/GMF_Indicator_Definitions_FinalNOV2014.pdf?ua=1)
   </p>
 
   <p> </p>
 
-  <p>Définition des indicateurs de l’OMS (en anglais seulement http://apps.who.int/gho/indicatorregistry/App_Main/view_indicator.aspx?iid=3354)
+  <p>Définition des indicateurs de l’OMS (http://apps.who.int/gho/indicatorregistry/App_Main/view_indicator.aspx?iid=3354)
   </p>
 
   <p> </p>
 
-  <p>WHO methods and data sources for global causes of death, 2000-2019 </p>
+  <p>« WHO methods and data sources for global causes of death, 2000–2019 » </p>
 
-  <p>(en anglais seulement https://www.who.int/docs/default-source/gho-documents/global-health-estimates/ghe2019_cod_methods.pdf)
+  <p>(https://www.who.int/docs/default-source/gho-documents/global-health-estimates/ghe2019_cod_methods.pdf)
   </p>
 
-  <p>World Health Assembly Resolution, WHA66.10 (2014): Follow-up to the Political
-  Declaration of the High-level Meeting of the General Assembly on the Prevention
-  and Control of Non-communicable Diseases. Including Appendix 2: Comprehensive global
-  monitoring framework, including 25 indicators, and a set of nine voluntary global
-  targets for the prevention and control of noncommunicable diseases. (en anglais
-  seulement http://apps.who.int/gb/ebwha/pdf_files/WHA66/A66_R10-en.pdf?ua=1) </p>
+  <p>Résolution de l'Assemblée mondiale de la Santé, WHA66.10 (2014) : Suivi de la
+  Déclaration politique de la Réunion de haut niveau de l’Assemblée générale sur la
+  prévention et la maîtrise des maladies non transmissibles, incluant l'Appendice
+  2 : Cadre global mondial de suivi comprenant 25 indicateurs et neuf cibles volontaires
+  à l’échelle mondiale pour la lutte contre les maladies non transmissibles. (consulter
+  la résolution WHA66.10 (p. 17) et l'Appendice 2 (p. 154) dans le document https://apps.who.int/gb/ebwha/pdf_files/WHA66-REC1/A66_REC1-fr.pdf)
+  </p>
 
   <p> </p>
 
-  <p>WHO Global Action Plan for the Prevention and Control of Noncommunicable Diseases
-  2013-2020 (en anglais seulement http://apps.who.int/iris/bitstream/10665/94384/1/9789241506236_eng.pdf?ua=1)
+  <p>« WHO Global Action Plan for the Prevention and Control of Noncommunicable Diseases
+  2013-2020 » (http://apps.who.int/iris/bitstream/10665/94384/1/9789241506236_eng.pdf?ua=1)
   </p>
 
   <p> </p>
@@ -230,11 +232,11 @@ SDG_RELATED_INDICATORS: <p>Sans objet</p>
 COMPILING_ORG: <p>OMS </p>
 INST_MANDATE: <p>Conformément à l’article 64 de sa constitution, l’OMS est mandatée
   pour demander à chaque État membre de fournir des statistiques sur la mortalité.
-  En outre, le Règlement de l’OMS sur la nomenclature de 1967 affirme l’importance
+  En outre, le Règlement sur la nomenclature de 1967 de l’OMS affirme l’importance
   de compiler et de publier des statistiques sur la mortalité et la morbidité sous
   une forme comparable. Les États membres ont commencé à déclarer des données sur
-  la mortalité à l’OMS depuis le début des années cinquante et cette activité de notification
-  se poursuit jusqu’à aujourd’hui. </p>
+  la mortalité à l’OMS depuis le début des années cinquante et cette activité se poursuit
+  jusqu’à aujourd’hui. </p>
 DATA_VALIDATION: <p>Les points focaux désignés par le pays (généralement au ministère
   de la santé ou au bureau national de statistique) ont été consultés au sujet du
   nombre de décès, dans le cadre de l'ensemble complet des causes de décès avant la
@@ -268,15 +270,14 @@ ADJUSTMENT: <p>Les décès de sexe inconnu ont été redistribués au prorata au
   au prorata dans les groupes de cause-sexe d’âge connu.</p>
 DOC_METHOD: <p>Les catégories de causes de décès (y compris les suicides) suivent
   les définitions de la Classification internationale des maladies, dixième révision
-  (CIM-10). Veuillez consulter le tableau A de l’annexe des méthodes et sources de
-  données de l’OMS sur les causes mondiales de décès, 2000-2019 (en anglais seulement
-  https://www.who.int/docs/default-source/gho-documents/global-health-estimates/ghe2019_cod_methods.pdf)</p>
+  (CIM-10). Veuillez consulter le tableau A de l’annexe du document (en anglais) « WHO
+  methods and data sources for global causes of death, 2000–2019 » (https://www.who.int/docs/default-source/gho-documents/global-health-estimates/ghe2019_cod_methods.pdf)</p>
 QUALITY_ASSMNT: <p>Toutes les déclarations et allégations faites officiellement par
   le Siège de l’OMS concernant les estimations de l’état de santé au niveau de la
   population (pays, région, monde – par exemple, la mortalité, l’incidence, la prévalence,
   le fardeau de morbidité) sont approuvées par le Département des données et de l’analyse
-  (DDA) par le biais du processus d’autorisation exécutive. Cela inclut l’instruction
-  GATHER. GATHER fait la promotion des pratiques exemplaires en matière de déclaration
+  (DDA) par le biais du processus d’autorisation exécutive. Cela inclut les instructions
+  de « GATHER » qui fait la promotion des pratiques exemplaires en matière de déclaration
   des estimations de la santé à l’aide d’une liste de contrôle de 18 éléments qui
   devraient être déclarés chaque fois que de nouvelles estimations de la santé mondiale
   sont publiées, y compris des descriptions des données d’entrée et des méthodes d’estimation.
