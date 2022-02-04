@@ -1,16 +1,16 @@
 SDG_GOAL: >-
-  <p>Goal 2: End hunger, achieve food security and improved nutrition, and
+  <p>Goal 2: End hunger, achieve food security and improved nutrition and
   promote sustainable agriculture</p>
 SDG_TARGET: >-
-  <p>Target 2.2: by 2030 end all forms of malnutrition, including achieving by
-  2025 the internationally agreed targets on stunting and wasting in children
-  under five years of age, and address the nutritional needs of adolescent
-  girls, pregnant and lactating women, and older persons</p>
+  <p>Target 2.2: By 2030, end all forms of malnutrition, including achieving, by
+  2025, the internationally agreed targets on stunting and wasting in children
+  under 5 years of age, and address the nutritional needs of adolescent girls,
+  pregnant and lactating women and older persons</p>
 SDG_INDICATOR: >-
   <p>Indicator 2.2.2: Prevalence of malnutrition (weight for height &gt;+2 or
   &lt;-2 standard deviation from the median of the WHO Child Growth Standards)
   among children under 5 years of age, by type (wasting and overweight)</p>
-META_LAST_UPDATE: <p>02 December 2016</p>
+META_LAST_UPDATE: <p>2016-12-02</p>
 SDG_CUSTODIAN_AGENCIES: |-
   <p>United Nations Children&apos;s Fund (UNICEF)</p>
   <p>World Health Organization (WHO)</p>
@@ -34,7 +34,7 @@ STAT_CONC_DEF: >-
   In addition, while wasting constitutes the major form of moderate acute
   malnutrition (MAM), there are acutely malnourished children who would not be
   picked up with weight-for-height or MUAC, namely those presenting bilateral
-  pitting oedema (characterized by swollen feet, face and limbs). For Surveys
+  pitting odema (characterized by swollen feet, face and limbs). For Surveys
   that report oedema cases, in the joint data set these are included in the
   prevalence of low weight-for-height. </p>
 SOURCE_TYPE: >-
@@ -97,8 +97,8 @@ RATIONALE: >-
   Health Assembly nutrition target indicators.</p>
 REC_USE_LIM: >-
   <p>Survey estimates come with levels of uncertainty due to both sampling error
-  and non-sampling error (e.g. measurement technical error, recording error
-  etc.,). None of the two sources of errors have been fully taken into account
+  and non-sampling error (e.g. mesasurement technical error, recording error
+  etc.,). None of the two sources of errros have been fully taken into account
   for deriving estimates neither at country nor at regional and global levels.
   Surveys are carried out in a specific period of the year, usually over a few
   months. However, this indicator can be affected by seasonality, factors
@@ -114,14 +114,14 @@ DATA_COMP: >-
   (UNICEF/WHO/WB 2012 )</p>
 IMPUTATION: >-
   <ul>
-    <li>At country level</li>
+    <li><strong>At country level</strong></li>
   </ul>
 
   <p>No imputation methodology is applied to derive estimates for countries or
   years where no data is avaialble.</p>
 
   <ul>
-    <li>At regional and global levels</li>
+    <li><strong>At regional and global levels</strong></li>
   </ul>
 
   <p>Countries and years are treated as missing randomly following a multilevel

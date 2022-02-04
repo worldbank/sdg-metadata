@@ -1,15 +1,13 @@
-SDG_GOAL: >-
-  <p>Goal 3: Ensure healthy lives and promote well-being for all at all ages
-  </p>
+SDG_GOAL: '<p>Goal 3: Ensure healthy lives and promote well-being for all at all ages</p>'
 SDG_TARGET: >-
   <p>Target 3.3: By 2030, end the epidemics of AIDS, tuberculosis, malaria and
   neglected tropical diseases and combat hepatitis, water-borne diseases and
-  other communicable diseases </p>
+  other communicable diseases</p>
 SDG_INDICATOR: >-
   <p>Indicator 3.3.5: Number of people requiring interventions against neglected
   tropical diseases </p>
 SDG_SERIES_DESCR: <p>Not applicable </p>
-META_LAST_UPDATE: <p>7 February 2021</p>
+META_LAST_UPDATE: <p>2021-02-07</p>
 SDG_RELATED_INDICATORS: >-
   <p>NTDs are formally recognized as targets for global action in SDG target
   3.3, which calls to &#x201C;end the epidemics of ... neglected tropical
@@ -278,7 +276,7 @@ DATA_VALIDATION: >-
 ADJUSTMENT: <p>Not applicable</p>
 IMPUTATION: >-
   <ul>
-    <li>At country level </li>
+    <li><strong>At country level </strong></li>
   </ul>
 
   <p> </p>
@@ -302,7 +300,7 @@ IMPUTATION: >-
   <p> </p>
 
   <ul>
-    <li>At regional and global levels </li>
+    <li><strong>At regional and global levels </strong></li>
   </ul>
 
   <p> </p>
@@ -384,16 +382,16 @@ QUALITY_ASSMNT: >-
   a supervisors&#x2019; coverage tool (<a
   href="https://apps.who.int/iris/bitstream/handle/10665/329376/9789241516464-eng.pdf">https://apps.who.int/iris/bitstream/handle/10665/329376/9789241516464-eng.pdf</a>).</p>
 COVERAGE: >-
-  <p>Data availability: </p>
+  <p><strong>Data availability: </strong></p>
 
   <p>Data are currently being reported by 191 countries, with good coverage of
   all regions. </p>
 
-  <p>Time series:</p>
+  <p><strong>Time series:</strong></p>
 
   <p>2010-2019</p>
 
-  <p>Disaggregation: </p>
+  <p><strong>Disaggregation: </strong></p>
 
   <p>Disaggregation by disease is required; ending the epidemic of NTDs requires
   a reduction in the number of people requiring interventions for each NTD.</p>
@@ -401,7 +399,7 @@ COVERAGE: >-
   <p>Disaggregation by age is required for PC: preschool-aged children (1-4
   years), school-aged (5-14 years) and adults (= 15 years). </p>
 COMPARABILITY: >-
-  <p>Sources of discrepancies:</p>
+  <p><strong>Sources of discrepancies:</strong></p>
 
   <p>Countries do not typically aggregate their data across NTDs, but if they
   applied the aggregation method as described above, they would obtain the same

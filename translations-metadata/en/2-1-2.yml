@@ -8,7 +8,7 @@ SDG_TARGET: >-
 SDG_INDICATOR: >-
   <p>Indicator 2.1.2: Prevalence of moderate or severe food insecurity in the
   population, based on the Food Insecurity Experience Scale (FIES)</p>
-META_LAST_UPDATE: <p>February 2021</p>
+META_LAST_UPDATE: <p>2021-02-01</p>
 SDG_RELATED_INDICATORS: >-
   <p>2.1.1, 2.2.1, 2.2.2, 2.2.3</p>
 
@@ -19,7 +19,7 @@ SDG_RELATED_INDICATORS: >-
 SDG_CUSTODIAN_AGENCIES: <p>Food and Agriculture Organisation of the United Nations (FAO)</p>
 CONTACT_ORGANISATION: <p>Food and Agriculture Organisation of the United Nations (FAO)</p>
 STAT_CONC_DEF: >-
-  <p>Definition:</p>
+  <p><strong>Definition:</strong></p>
 
   <p>The indicator measures the percentage of individuals in the population who
   have experienced food insecurity at moderate or severe levels during the
@@ -29,7 +29,7 @@ STAT_CONC_DEF: >-
   Insecurity Experience Scale in more than 140 countries worldwide, starting in
   2014.</p>
 
-  <p>Concepts:</p>
+  <p><strong>Concepts:</strong></p>
 
   <p>Extensive research over more than 25 years has demonstrated that the
   inability to access food results in a series of experiences and conditions
@@ -1115,13 +1115,13 @@ ADJUSTMENT: >-
   ensure national and sub-national results are comparable.</p>
 IMPUTATION: >-
   <ul>
-    <li>At country level</li>
+    <li><strong>At country level</strong></li>
   </ul>
 
   <p>The indicator is not computed if no country data are available.</p>
 
   <ul>
-    <li>At regional and global levels</li>
+    <li><strong>At regional and global levels</strong></li>
   </ul>
 
   <p>Missing values for individual countries are implicitly imputed to be equal
@@ -1147,16 +1147,17 @@ DOC_METHOD: >-
   href="https://www.ers.usda.gov/media/8271/hh2012.pdf"><u>https://www.ers.usda.gov/media/8271/hh2012.pdf</u></a>
   )</p>
 
-  <p>Brazil: Escala Brasileira de Inseguran&#xE7;a Alimentar (<a
-  href="http://biblioteca.ibge.gov.br/visualizacao/livros/liv91984.pdf"><u>http://biblioteca.ibge.gov.br/visualizacao/livros/liv91984.pdf</u></a>
+  <p>Brazil: Escala Brasileira de Inseguran&#xE7;a Alimentar (<u><a
+  href="http://biblioteca.ibge.gov.br/visualizacao/livros/liv91984.pdf">http://biblioteca.ibge.gov.br/visualizacao/livros/liv91984.pdf</a></u>
   , Quadro 5, page 30)</p>
 
-  <p>Mexico: Escala Mexicana de Seguridad Alimentaria (<a
-  href="http://www.beta.inegi.org.mx/contenidos/proyectos/enchogares/regulares/enigh/tradicional/2012/doc/c_tra_enigh12_hogares.pdf"><u>http://www.beta.inegi.org.mx/contenidos/proyectos/enchogares/regulares/enigh/tradicional/2012/doc/c_tra_enigh12_hogares.pdf</u></a>,
+  <p>Mexico: Escala Mexicana de Seguridad Alimentaria (<u><a
+  href="http://www.beta.inegi.org.mx/contenidos/proyectos/enchogares/regulares/enigh/tradicional/2012/doc/c_tra_enigh12_hogares.pdf">http://www.beta.inegi.org.mx/contenidos/proyectos/enchogares/regulares/enigh/tradicional/2012/doc/c_tra_enigh12_hogares.pdf</a></u>,
   pages 13-14)</p>
 
-  <p>Guatemala: Escala Latino Americana y Caribena de Seguridad Alimentaria (<a
-  href="http://www.ine.gob.gt/sistema/uploads/2015/12/11/DDrIEuLOPuEcXTcLXab1yOkiOV2HQreq.pdf"><u>http://www.ine.gob.gt/sistema/uploads/2015/12/11/DDrIEuLOPuEcXTcLXab1yOkiOV2HQreq.pdf</u></a>
+  <p>Guatemala: Escala Latino Americana y Caribena de Seguridad Alimentaria
+  (<u><a
+  href="http://www.ine.gob.gt/sistema/uploads/2015/12/11/DDrIEuLOPuEcXTcLXab1yOkiOV2HQreq.pdf">http://www.ine.gob.gt/sistema/uploads/2015/12/11/DDrIEuLOPuEcXTcLXab1yOkiOV2HQreq.pdf</a></u>
   , pagina 3)</p>
 
   <p>FAO &#x2013; Food Insecurity Experience Scale (<a
@@ -1219,7 +1220,7 @@ QUALITY_ASSURE: >-
   collection (e.g. Canada).</p>
 QUALITY_ASSMNT: <p>High.</p>
 COVERAGE: >-
-  <p>Data availability:</p>
+  <p><strong>Data availability:</strong></p>
 
   <p>Data for 2014, 2015,2016, 2017 and 2018 are available from FAO for 137
   countries, areas and territories included in the Gallup World Poll. Regional
@@ -1503,7 +1504,7 @@ COVERAGE: >-
   <p>It is good practice to associate a measure of variability (margins of error
   or upper and lower bound) when disaggregated data are produced.</p>
 COMPARABILITY: >-
-  <p>Sources of discrepancies:</p>
+  <p><strong>Sources of discrepancies:</strong></p>
 
   <p>In the few cases where indicators of food insecurity based on
   experience-based food security scales have been reported by countries (U.S.,

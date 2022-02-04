@@ -6,14 +6,14 @@ SDG_TARGET: >-
   <p>Target 16.7: Ensure responsive, inclusive, participatory and representative
   decision-making at all levels</p>
 SDG_INDICATOR: >-
-  <p>Indicator 16.7.1: Proportions of positions (by age group, sex, persons with
-  disabilities and population groups) in public institutions (national and
-  local), including (a) <u>the legislatures</u>; (b) the public service; and (c)
-  the judiciary, compared to national distributions.</p>
-
+  <p>Indicator 16.7.1: Proportions of positions in national and local
+  institutions, including (a) the legislatures; (b) the public service; and (c)
+  the judiciary, compared to national distributions, by sex, age, persons with
+  disabilities and population groups</p>
+SDG_SERIES_DESCR: >-
   <p>This metadata is for sub-component (a) of the indicator, on
   legislatures.</p>
-META_LAST_UPDATE: <p>March 2021</p>
+META_LAST_UPDATE: <p>2021-03-01</p>
 SDG_RELATED_INDICATORS: >-
   <p>Indicator 5.5.1(a) looks at the proportion of seats held by women in
   national parliaments while indicator 5.5.1(b) considers the proportion of
@@ -96,8 +96,6 @@ STAT_CONC_DEF: >-
 UNIT_MEASURE: '<p>Number, Ratio, Percent</p>'
 CLASS_SYSTEM: <p>Not applicable</p>
 SOURCE_TYPE: >-
-  <p><strong>Description:</strong></p>
-
   <p>The multiple data points pertaining to the parliamentary sub-component of
   indicator 16.7.1 will be compiled by the Inter-Parliamentary Union (IPU) based
   on information gathered in its New PARLINE database on national
@@ -472,8 +470,6 @@ REC_USE_LIM: >-
   persons with disabilities in parliaments include Uganda, India, Afghanistan
   and Rwanda. <a href="#footnote-ref-17">&#x2191;</a></p></div></div>
 DATA_COMP: >-
-  <p><strong>Computation Method:</strong></p>
-
   <ul>
     <li><em>Members:</em></li>
   </ul>
@@ -680,10 +676,14 @@ DATA_VALIDATION: >-
   parliamentary web sites or internet searches. Additional information gathered
   from other sources is regularly crosschecked with parliaments. </p>
 ADJUSTMENT: <p>Not applicable</p>
-IMPUTATION: |-
-  <p>&#x2022; At country level</p>
+IMPUTATION: >-
+  <p><strong>&#x2022;</strong> <strong>At country level</strong></p>
+
   <p>There is no treatment of missing values.</p>
-  <p>&#x2022; At regional and global levels</p>
+
+  <p><strong>&#x2022;</strong> <strong>At regional and global
+  levels</strong></p>
+
   <p>There is no imputation of missing values.</p>
 REG_AGG: >-
   <p>Regional aggregations are a simple sum of country and chamber level data. A
@@ -839,7 +839,7 @@ COVERAGE: >-
   with regards to age, and adopts IPU&#x2019;s definition of young MPs as those
   under 45 years old. <a href="#footnote-ref-21">&#x2191;</a></p></div></div>
 COMPARABILITY: |-
-  <p>Sources of discrepancies:</p>
+  <p><strong>Sources of discrepancies:</strong></p>
   <p>There is no internationally estimated data for this indicator.</p>
 OTHER_DOC: >-
   <p>Arnesen and Peters, &#x201C;The Legitimacy of Representation: How

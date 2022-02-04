@@ -7,7 +7,7 @@ SDG_TARGET: >-
 SDG_INDICATOR: >-
   <p>Indicator 14.3.1: Average marine acidity (pH) measured at agreed suite of
   representative sampling stations</p>
-META_LAST_UPDATE: <p>15 February 2021</p>
+META_LAST_UPDATE: <p>2021-02-15</p>
 SDG_RELATED_INDICATORS: >-
   <p>14.a.1 Increase scientific knowledge, develop research capacity and
   transfer marine technology, taking into account the Intergovernmental
@@ -40,7 +40,7 @@ STAT_CONC_DEF: >-
   provide data of sufficient quality and with comprehensive metadata information
   to enable integration with data from other sites in the country. </p>
 
-  <p><u>Concepts:</u></p>
+  <p><strong><u>Concepts:</u></strong></p>
 
   <p>Ocean acidification is caused by an increase in the amount of dissolved
   atmospheric CO<sub>2</sub> in the seawater. The average marine acidity is
@@ -361,13 +361,13 @@ ADJUSTMENT: >-
   independent of where the data were collected within the water column; however,
   they are encouraged to provide surface data (&#x2264; 10 m). </p>
 IMPUTATION: >-
-  <p><u>At country level</u></p>
+  <p><strong><u>At country level</u></strong></p>
 
   <p>Some missing values may be modelled or calculated if established
   methodologies exist (see Recommendations for calculation of the carbonate
   system in IOC/EC-LI/2 Annex 6).</p>
 
-  <p><u>At regional and global levels</u></p>
+  <p><strong><u>At regional and global levels</u></strong></p>
 
   <p>Regional aggregates are permissible if more than 50% of coastal nations
   have reported values.</p>
@@ -575,7 +575,7 @@ QUALITY_ASSMNT: >-
     <li>Measurements of undefined quality (Category 3) (will not be displayed in the visualization of annual weighted means and variance of pH).</li>
   </ol>
 COVERAGE: >-
-  <p><u>Data availability:</u></p>
+  <p><strong><u>Data availability:</u></strong></p>
 
   <p>Metadata and data availability continuously increase. In early 2021, SDG
   14.3.1 data from different national and national data bases were provided
@@ -591,7 +591,7 @@ COVERAGE: >-
   and GOA-ON website (<a
   href="http://goa-on.org/news/news.php">http://goa-on.org/news/news.php</a>).</p>
 
-  <p><u>Disaggregation:</u></p>
+  <p><strong><u>Disaggregation:</u></strong></p>
 
   <p>Countries provide complete data sets with respective site-specific data and
   metadata files.</p>

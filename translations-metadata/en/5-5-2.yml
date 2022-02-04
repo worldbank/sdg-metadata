@@ -1,17 +1,17 @@
 SDG_GOAL: '<p>Goal 5: Achieve gender equality and empower all women and girls</p>'
 SDG_TARGET: >-
-  <p>Target 5.5: Ensure women&apos;s full and effective participation and equal
-  opportunities for leadership at all levels of decision-making in political,
-  economic and public life</p>
-SDG_INDICATOR: '<p>Indicator: 5.5.2: Proportion of women in managerial positions</p>'
-META_LAST_UPDATE: <p>January 2021</p>
+  <p>Target 5.5: Ensure women&#x2019;s full and effective participation and
+  equal opportunities for leadership at all levels of decision-making in
+  political, economic and public life</p>
+SDG_INDICATOR: '<p>Indicator 5.5.2: Proportion of women in managerial positions</p>'
+META_LAST_UPDATE: <p>2021-01-01</p>
 SDG_RELATED_INDICATORS: >-
   <p>8.5.1 Average hourly earnings of female and male employees, by occupation,
   age and persons with disabilities</p>
 SDG_CUSTODIAN_AGENCIES: <p>ILO</p>
 CONTACT_ORGANISATION: <p>ILO</p>
 STAT_CONC_DEF: >-
-  <p>Definition:</p>
+  <p><strong>Definition:</strong></p>
 
   <p>This indicator refers to the proportion of females in the total number of
   persons employed in managerial positions. It is recommended to use two
@@ -25,7 +25,7 @@ STAT_CONC_DEF: >-
   in that it would suggest that women hold positions with more decision-making
   power and responsibilities than they actually do.</p>
 
-  <p>Concepts:</p>
+  <p><strong>Concepts:</strong></p>
 
   <p>- Employment comprises all persons of working age who, during a short
   reference period (one week), were engaged in any activity to produce goods or
@@ -1102,7 +1102,7 @@ ADJUSTMENT: >-
   and definitions adopted by the International Conference of Labour
   Statisticians.</p>
 IMPUTATION: >-
-  <p>&#x2022; At country level</p>
+  <p><strong>&#x2022; At country level</strong></p>
 
   <p>Multivariate regression and cross-validation techniques are used to impute
   missing values at the country level. The additional variables used for the
@@ -1115,7 +1115,7 @@ IMPUTATION: >-
   modelled estimates methodological overview, available at
   https://www.ilo.org/ilostat-files/Documents/TEM.pdf.</p>
 
-  <p>&#x2022; At regional and global levels</p>
+  <p><strong>&#x2022; At regional and global levels</strong></p>
 REG_AGG: >-
   <p>The aggregates are derived from the ILO modelled estimates that are used to
   produce global and regional estimates of, amongst others, employment by
@@ -1156,18 +1156,19 @@ QUALITY_ASSURE: >-
 
   <p> </p>
 COVERAGE: >-
-  <p>Data availability: Data on proportion of women in managerial positions is
-  available for 168 countries and territories. Data on women in senior and
-  middle management positions is available for 116 countries and
-  territories.</p>
+  <p><strong>Data availability: </strong></p>
 
-  <p>Time series:</p>
+  <p>Data on proportion of women in managerial positions is available for 168
+  countries and territories. Data on women in senior and middle management
+  positions is available for 116 countries and territories.</p>
+
+  <p><strong>Time series:</strong></p>
 
   <p>Data for this indicator is available as of 2000 in the SDG Indicators
   Global Database, but time series going back several decades are available in
   ILOSTAT.</p>
 
-  <p>Disaggregation:</p>
+  <p><strong>Disaggregation:</strong></p>
 
   <p>This indicator requires no disaggregation per se, although employment
   statistics by both sex and occupation are needed to calculate it. If

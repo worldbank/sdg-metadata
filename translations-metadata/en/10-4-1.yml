@@ -3,7 +3,7 @@ SDG_TARGET: >-
   <p>Target 10.4: Adopt policies, especially fiscal, wage and social protection
   policies, and progressively achieve greater equality</p>
 SDG_INDICATOR: '<p>Indicator 10.4.1: Labour share of GDP</p>'
-META_LAST_UPDATE: <p>January 2021</p>
+META_LAST_UPDATE: <p>2021-01-01</p>
 SDG_RELATED_INDICATORS: '<p>8.2.1, 8.5.1</p>'
 SDG_CUSTODIAN_AGENCIES: <p>ILO</p>
 CONTACT_ORGANISATION: <p>ILO</p>
@@ -149,7 +149,7 @@ ADJUSTMENT: >-
   the basis of this estimate, and is added to the numerator of the expression in
   4.c.</p>
 IMPUTATION: >-
-  <p>&#x2022; At country level</p>
+  <p><strong>&#x2022; At country level</strong></p>
 
   <p>Multivariate regression and cross-validation techniques are used to impute
   missing values at the country level. The additional variables used for the
@@ -162,7 +162,7 @@ IMPUTATION: >-
   href="https://www.ilo.org/ilostat-files/Documents/Labour%20income%20share%20and%20distribution.pdf">The
   Global Labour Income Share and Distribution</a>.</p>
 
-  <p>&#x2022; At regional and global levels</p>
+  <p><strong>&#x2022; At regional and global levels</strong></p>
 
   <p>Not applicable (see 4.g below)</p>
 REG_AGG: >-
@@ -211,11 +211,11 @@ QUALITY_ASSMNT: >-
   href="https://www.ilo.org/ilostat-files/Documents/Labour%20income%20share%20and%20distribution.pdf">The
   Global Labour Income Share and Distribution</a>. </p>
 COVERAGE: |-
-  <p>Data availability:</p>
+  <p><strong>Data availability:</strong></p>
   <p>Data for this indicator is available for 187 countries and territories</p>
-  <p>Time series:</p>
+  <p><strong>Time series:</strong></p>
   <p>Data for this indicator is available for the period from 2004 to 2017.</p>
-  <p>Disaggregation:</p>
+  <p><strong>Disaggregation:</strong></p>
   <p>No disaggregations are required for this indicator.</p>
 COMPARABILITY: >-
   <p>The data on compensation of employees and GDP used for the indicator is

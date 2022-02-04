@@ -1,12 +1,12 @@
 SDG_GOAL: >-
-  <p>Goal: Promote sustained, inclusive and sustainable economic growth, full
-  and productive employment and decent work for all </p>
+  <p>Goal 8: Promote sustained, inclusive and sustainable economic growth, full
+  and productive employment and decent work for all</p>
 SDG_TARGET: >-
-  <p>Target: Achieve higher levels of economic productivity through
+  <p>Target 8.2: Achieve higher levels of economic productivity through
   diversification, technological upgrading and innovation, including through a
-  focus on high-value added and labour-intensive sectors </p>
-SDG_INDICATOR: '<p>Indicator: 8.2.1: Annual growth rate of real GDP per employed person </p>'
-META_LAST_UPDATE: <p>January 2021</p>
+  focus on high-value added and labour-intensive sectors</p>
+SDG_INDICATOR: '<p>Indicator 8.2.1: Annual growth rate of real GDP per employed person</p>'
+META_LAST_UPDATE: <p>2021-01-01</p>
 SDG_RELATED_INDICATORS: '<p>1.1.1, 8.3.1, 8.5.2, 10.4.1</p>'
 SDG_CUSTODIAN_AGENCIES: <p>ILO </p>
 CONTACT_ORGANISATION: |-
@@ -360,7 +360,7 @@ ADJUSTMENT: >-
   Statisticians.</p>
 IMPUTATION: >-
   <ul>
-    <li>At country level </li>
+    <li><strong>At country level </strong></li>
   </ul>
 
   <p>Multivariate regression techniques are used to impute missing employment
@@ -373,7 +373,7 @@ IMPUTATION: >-
   <p> </p>
 
   <ul>
-    <li>At regional and global levels </li>
+    <li><strong>At regional and global levels </strong></li>
   </ul>
 
   <p> </p>
@@ -406,20 +406,21 @@ QUALITY_ASSURE: >-
 
   <p> </p>
 COVERAGE: >-
-  <p>Data Availability: Data for this indicator is available for 188 countries
-  and territories.</p>
+  <p><strong>Data Availability: </strong></p>
 
-  <p>Time series:</p>
+  <p>Data for this indicator is available for 188 countries and territories.</p>
+
+  <p><strong>Time series:</strong></p>
 
   <p>Data for this indicator is available as of 2000 in the SDG Indicators
   Global Database, but time series going back to 1991 and including estimates up
   to 2019 are available in ILOSTAT. </p>
 
-  <p>Disaggregation:</p>
+  <p><strong>Disaggregation:</strong></p>
 
   <p>No disaggregation required for this indicator. </p>
 COMPARABILITY: >-
-  <p>Sources of discrepancies:</p>
+  <p><strong>Sources of discrepancies:</strong></p>
 
   <p>The main limitations of the use of labour productivity as a global
   indicator arise from problems in the international comparability of data, more

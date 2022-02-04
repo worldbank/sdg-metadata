@@ -8,16 +8,16 @@ SDG_TARGET: >-
 SDG_INDICATOR: >-
   <p>Indicator 16.9.1: Proportion of children under 5 years of age whose births
   have been registered with a civil authority, by age</p>
-META_LAST_UPDATE: <p>March2021</p>
+META_LAST_UPDATE: <p>2021-12-06</p>
 SDG_CUSTODIAN_AGENCIES: <p>United Nations Children&apos;s Fund (UNICEF)</p>
 CONTACT_ORGANISATION: <p>United Nations Children&apos;s Fund (UNICEF)</p>
 STAT_CONC_DEF: >-
-  <p>Definition:</p>
+  <p><strong>Definition:</strong></p>
 
   <p>Proportion of children under 5 years of age whose births have been
   registered with a civil authority.</p>
 
-  <p>Concepts:</p>
+  <p><strong>Concepts:</strong></p>
 
   <p>&#x2022; Birth registration: Birth registration is defined as &#x2018;the
   continuous, permanent and universal recording, within the civil registry, of
@@ -84,7 +84,7 @@ INST_MANDATE: >-
   of children. It provides technical and financial assistance to Member States
   to support their efforts to collect quality data on birth registration,
   including through the UNICEF-supported MICS household survey programme. UNICEF
-  also compiles child marriage statistics with the goal of making
+  also compiles birth registration statistics with the goal of making
   internationally comparable datasets publicly available, and it analyses birth
   registration statistics which are included in relevant data-driven
   publications, including in its flagship publication, <em>The State of the
@@ -136,12 +136,12 @@ DATA_VALIDATION: >-
   reviewed, feedback is made available to countries on whether or not specific
   data points are accepted, and if not, the reasons why. </p>
 IMPUTATION: >-
-  <p>&#x2022; At country level</p>
+  <p><strong>&#x2022; At country level</strong></p>
 
   <p>When data for a country are entirely missing, UNICEF does not publish any
   country-level estimate</p>
 
-  <p>&#x2022; At regional and global levels</p>
+  <p><strong>&#x2022; At regional and global levels</strong></p>
 
   <p>The regional average is applied to those countries within the region with
   missing values for the purposes of calculating regional aggregates only, but
@@ -191,20 +191,20 @@ QUALITY_ASSMNT: >-
   <p>Data consistency and quality checks are regularly conducted for validation
   of the data before dissemination </p>
 COVERAGE: >-
-  <p>Data availability:</p>
+  <p><strong>Data availability:</strong></p>
 
   <p>Nationally representative and comparable data are currently available for
   around 170 countries</p>
 
-  <p>Time series:</p>
+  <p><strong>Time series:</strong></p>
 
   <p>Not available</p>
 
-  <p>Disaggregation:</p>
+  <p><strong>Disaggregation:</strong></p>
 
   <p>Age</p>
 COMPARABILITY: >-
-  <p>Sources of discrepancies:</p>
+  <p><strong>Sources of discrepancies:</strong></p>
 
   <p>The estimates compiled and presented at global level come directly from
   nationally produced data and are not adjusted or recalculated.</p>

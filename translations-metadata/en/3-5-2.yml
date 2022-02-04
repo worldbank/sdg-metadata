@@ -1,19 +1,17 @@
-SDG_GOAL: >-
-  <p>Goal 3: Ensure healthy lives and promote well-being for all at all ages
-  </p>
+SDG_GOAL: '<p>Goal 3: Ensure healthy lives and promote well-being for all at all ages</p>'
 SDG_TARGET: >-
   <p>Target 3.5: Strengthen the prevention and treatment of substance abuse,
-  including narcotic drug abuse and harmful use of alcohol </p>
+  including narcotic drug abuse and harmful use of alcohol</p>
 SDG_INDICATOR: >-
   <p>Indicator 3.5.2: Alcohol per capita consumption (aged 15 years and older)
-  within a calendar year in litres of pure alcohol </p>
+  within a calendar year in litres of pure alcohol</p>
 SDG_SERIES_DESCR: <p>Not applicable. </p>
-META_LAST_UPDATE: <p>3 March 2021</p>
+META_LAST_UPDATE: <p>2021-03-03</p>
 SDG_RELATED_INDICATORS: '<p>Goal 8; Targets 3.4, 3.6 </p>'
 SDG_CUSTODIAN_AGENCIES: <p>World Health Organization (WHO) </p>
 CONTACT_ORGANISATION: <p>World Health Organization (WHO) </p>
 STAT_CONC_DEF: >-
-  <p>Definitions:</p>
+  <p><strong>Definitions:</strong></p>
 
   <p>Harmful use of alcohol, defined according to the national context as
   alcohol per capita consumption (aged 15 years and older) within a calendar
@@ -38,7 +36,7 @@ STAT_CONC_DEF: >-
   Tourist consumption is based on UN statistics, and data are provided by IHME.
   </p>
 
-  <p>Concepts:</p>
+  <p><strong>Concepts:</strong></p>
 
   <p>Recorded alcohol per capita (15+) consumption of pure alcohol is calculated
   as the sum of beverage-specific alcohol consumption of pure alcohol (beer,
@@ -182,12 +180,12 @@ DATA_VALIDATION: >-
   through WHO Regional Offices for validation and endorsement. </p>
 ADJUSTMENT: <p>Not applicable.</p>
 IMPUTATION: >-
-  <p>At country level </p>
+  <p><strong>At country level </strong></p>
 
   <p>The values of missing countries (e.g. Monaco, San Marino) are that small
   that they would not affect global or regional figures. </p>
 
-  <p>At regional and global levels </p>
+  <p><strong>At regional and global levels </strong></p>
 
   <p>The values of missing countries (e.g. Monaco, San Marino) are that small
   that they would not affect global or regional figures.</p>
@@ -207,21 +205,21 @@ QUALITY_MGMNT: >-
 QUALITY_ASSURE: '<p>Statistics clearance by Data, Analytics and Delivery for Impact Unit </p>'
 QUALITY_ASSMNT: '<p>Data, Analytics and Delivery for Impact Unit.</p>'
 COVERAGE: >-
-  <p>Data availability:</p>
+  <p><strong>Data availability:</strong></p>
 
   <p>Global, by WHO and SDG regions, by World Bank income groups, by country.
   The data are available for 190 WHO Member States. </p>
 
-  <p>Time series:</p>
+  <p><strong>Time series:</strong></p>
 
   <p>Recorded alcohol per capita consumption since 1960s, and total alcohol per
   capita consumption since 2000. </p>
 
-  <p>Disaggregation:</p>
+  <p><strong>Disaggregation:</strong></p>
 
   <p>Sex, age. </p>
 COMPARABILITY: >-
-  <p>Sources of discrepancies:</p>
+  <p><strong>Sources of discrepancies:</strong></p>
 
   <p>Population estimates, alcohol content by volume across different alcoholic
   beverage categories, age distributions, requirements for survey data used in

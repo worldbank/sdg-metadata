@@ -9,25 +9,13 @@ SDG_TARGET: >-
   development in a manner that protects the poor and the affected
   communities</p>
 SDG_INDICATOR: >-
-  <p>Indicator 12.c.1: Amount of fossil-fuel subsidies per unit of GDP
-  (production and consumption)</p>
-META_LAST_UPDATE: '<p>Last updated: September 2020</p>'
-SDG_RELATED_INDICATORS: <h1>Related indicators as of February 2020</h1>
-SDG_CUSTODIAN_AGENCIES: |-
-  <h1>Institutional information</h1>
-  <h2>Organization(s):</h2>
-  <p>UN Environment (United Nations Environment Programme)</p>
-CONTACT_ORGANISATION: <p>United Nations Environment Programme</p>
-CONTACT_NAME: <p>Ludgarde Coppens</p>
-ORGANISATION_UNIT: <p>SDGs and Environment Statistics Unit</p>
-CONTACT_FUNCT: <p>Head of SDGs and Environment Statistics Unit</p>
-CONTACT_PHONE: <p>+254 20 7624158</p>
-CONTACT_MAIL: '<p>UN Gigiri, Nairobi, Kenya</p>'
-CONTACT_EMAIL: <p>Ludgarde.coppens@un.org</p>
+  <p>Indicator 12.c.1: Amount of fossil-fuel subsidies (production and
+  consumption) per unit of GDP</p>
+META_LAST_UPDATE: <p>2021-12-06</p>
+SDG_CUSTODIAN_AGENCIES: <p>United Nations Environment Programme (UNEP)</p>
+CONTACT_ORGANISATION: <p>United Nations Environment Programme (UNEP)</p>
 STAT_CONC_DEF: >-
-  <h1>Concepts and definitions</h1>
-
-  <h2>Definition:</h2>
+  <p><strong>Definitions:</strong></p>
 
   <p>In order to measure fossil fuel subsidies at the national, regional and
   global level, three sub-indicators are recommended for reporting on this
@@ -43,7 +31,7 @@ STAT_CONC_DEF: >-
   fuels&#x201D; and thus this indicator is effectively &quot;Amount of fossil
   fuel subsidies per unit of GDP (production and consumption)&quot;.</p>
 
-  <h2>Concepts:</h2>
+  <p><strong>Concepts:</strong></p>
 
   <p>The concepts and definitions used in the methodology have been based on
   existing international frameworks and glossaries.</p>
@@ -55,11 +43,11 @@ STAT_CONC_DEF: >-
     <li>Include non-energy uses with monitoring optional for the measuring of this indicator.</li>
     <li>Additional details are provided in the methodological document entitled, Measuring Fossil Fuel Subsidies in the Context of the Sustainable Development Goals.</li>
   </ul>
+UNIT_MEASURE: |-
+  <p>Percentage of GDP</p>
+  <p>Constant United States dollars per capita</p>
+  <p>Millions of constant United States dollars</p>
 SOURCE_TYPE: >-
-  <h1>Data sources</h1>
-
-  <h2>Description:</h2>
-
   <p>Direct transfers are generally reported in government budgets, and well
   documented in sectoral and Finance Ministries, broken down by programme if not
   by fuel. Those that meet the SNA definition of &#x201C;subsidies&#x201D;
@@ -85,35 +73,24 @@ SOURCE_TYPE: >-
   that would be owed to the government under the baseline conditions and with
   the special tax feature.</p>
 
-  <p>Fossil fuel subsidies should be monitored on an annual basis. </p>
+  <p>Fossil fuel subsidies should be monitored on an annual basis.</p>
 COLL_METHOD: >-
-  <h2>Collection process:</h2>
-
   <p>The data will be collected by UN Environment through electronic reporting
   being developed by UN Environment. </p>
 FREQ_COLL: >-
-  <h1>Calendar</h1>
-
-  <h2>Data collection:</h2>
-
   <p>Annual with reporting on induced transfers starting in 2018. Data on direct
   transfers and tax revenue foregone will be in place by 2020.</p>
-REL_CAL_POLICY: |-
-  <h2>Data release:</h2>
-  <p>Annual.</p>
+REL_CAL_POLICY: <p>Annual.</p>
 DATA_SOURCE: |-
-  <h1>Data providers</h1>
   <ol>
     <li>National Focal Points from National Statistical Systems.</li>
-    <li>OECD</li>
-    <li>IMF and IEA</li>
+    <li>International Estimate Providers &#x2013; OECD, IEA and IMF</li>
   </ol>
-COMPILING_ORG: |-
-  <h1>Data compilers</h1>
-  <p>UN Environment (United Nations Environment Programme) </p>
+COMPILING_ORG: <p>United Nations Environment Programme (UNEP)</p>
+INST_MANDATE: >-
+  <p>UNEP has been assigned the role of custodian agency for this indicator
+  under the SDG process.</p>
 RATIONALE: >-
-  <h2>Rationale:</h2>
-
   <p>The scale and impact of fossil fuel subsidies presents both challenges and
   opportunities for achieving the goals of the 2030 Agenda on Sustainable
   Development. For one, the use of fossil fuels, and their promotion through
@@ -135,8 +112,6 @@ RATIONALE: >-
   producer subsidies. It allows for tracking of national and global trends and
   serve as an important guide for policy-making. </p>
 REC_USE_LIM: >-
-  <h2>Comments and limitations:</h2>
-
   <p>The monitoring and reporting of SDG Indicator 12.c.1 requires capacity
   within national statistical systems to evaluate direct and indirect transfers
   of government funds. Data collection by the statistical agencies from the
@@ -150,18 +125,16 @@ REC_USE_LIM: >-
   monitoring of direct and indirect transfers with optional monitoring of tax
   expenditure foregone.</p>
 DATA_COMP: >-
-  <h1>Methodology</h1>
-
-  <h2>Computation method:</h2>
-
   <p>It is proposed that countries report on the subsidy categories listed below
   as sub-indicators.</p>
 
-  <ul>
-    <li>Direct transfers; </li>
-    <li>Induced transfers (reporting on regulated prices and calculation of the total amount);</li>
-    <li>Tax expenditure, other government revenue foregone and under-pricing of goods and services, including risk (optional). </li>
-  </ul>
+  <p>- Direct transfers; </p>
+
+  <p>- Induced transfers (reporting on regulated prices and calculation of the
+  total amount);</p>
+
+  <p>- Tax expenditure, other government revenue foregone and under-pricing of
+  goods and services, including risk (optional). </p>
 
   <p>The last category should be included as an optional sub-indicator. Each
   sub-indicator should be expressed in national currency or United States
@@ -191,33 +164,33 @@ DATA_COMP: >-
   tradable commodities (mainly coal, crude oil, and petroleum products), the
   reference prices are based on the spot price at the nearest international hub
   &#x2013; e.g., the United States, Northwest Europe, or Singapore.</p>
+DATA_VALIDATION: >-
+  <p>Data sent to UNEP will be monitored and verified for quality with the help
+  of institutional partners, before being transmitted to the UNSD.</p>
+ADJUSTMENT: <p>Not applicable.</p>
 IMPUTATION: >-
-  <h2>Treatment of missing values:</h2>
+  <p><strong>&#x2022; At country level</strong></p>
 
-  <ul>
-    <li><strong>At country level:</strong></li>
-  </ul>
+  <p>Missing values are not imputed.</p>
 
-  <p>Missing values are not imputed. </p>
-
-  <ul>
-    <li><strong>At regional and global levels:</strong></li>
-  </ul>
+  <p><strong>&#x2022; At regional and global levels</strong></p>
 
   <p>A price gap method is used to create national, regional and global
   estimates.</p>
-
-  <p>. </p>
 REG_AGG: >-
-  <h2>Regional aggregates:</h2>
-
   <p>The methodology used for the calculation of the regional/global aggregates
   from the country values is available at <a
-  href="http://pre-uneplive.unep.org/media/docs/graphs/aggregation_methods.pdf">http://pre-uneplive.unep.org/media/docs/graphs/aggregation_methods.pdf</a></p>
+  href="http://wesr.unep.org/media/docs/graphs/aggregation_methods.pdf">http://wesr.unep.org/media/docs/graphs/aggregation_methods.pdf</a>.
+  </p>
+DOC_METHOD: >-
+  <p><a
+  href="https://wedocs.unep.org/bitstream/handle/20.500.11822/28111/FossilFuel.pdf?sequence=1&amp;isAllowed=y">https://wedocs.unep.org/bitstream/handle/20.500.11822/28111/FossilFuel.pdf?sequence=1&amp;isAllowed=y</a>
+  </p>
+QUALITY_MGMNT: <p>See 4.d.</p>
+QUALITY_ASSURE: <p>See 4.d.</p>
+QUALITY_ASSMNT: <p>See 4.d.</p>
 COVERAGE: >-
-  <h1>Data availability</h1>
-
-  <h2>Description:</h2>
+  <p><strong>Data availability:</strong></p>
 
   <p>An initial baseline data assessment of data availability demonstrates that
   99 countries have existing data which can be used to estimate fossil fuels
@@ -225,30 +198,24 @@ COVERAGE: >-
   revenue foregone. Data on induced transfers using a price gap approach is
   available for all UN member states.</p>
 
-  <h2>Time series:</h2>
+  <p><strong>Time series:</strong></p>
 
   <p>The reporting on this indicator will follow an annual cycle with initial
   reporting on induced transfers starting in 2018. Data on direct transfers and
   tax revenue foregone will be in place by 2020.</p>
 
-  <h2>Disaggregation:</h2>
+  <p><strong>Disaggregation:</strong></p>
 
   <p>Because of the risk of double counting, the dataset should therefore
   provide disaggregated information on individual subsidy measures that will be
   reported as sub-indicators by category of subsidies.</p>
 COMPARABILITY: >-
-  <h2>Sources of discrepancies:</h2>
+  <p><strong>Sources of discrepancies:</strong></p>
 
   <p>Country level data and price gap data are shown separately, thus this
   should not apply. </p>
 OTHER_DOC: >-
-  <h1>References</h1>
+  <p>UNEP (2019). Measuring Fossil Fuel Subsidies in the Context of the
+  Sustainable Development Goals.</p>
 
-  <h2>References:</h2>
-
-  <p>IEA. (2005). <em>Energy Statistics&#x2013;Manual</em>. <em>International
-  Energy Agency, Paris, France</em>. Paris. <a
-  href="https://doi.org/10.1787/9789264033986-en">https://doi.org/10.1787/9789264033986-en</a></p>
-
-  <p>OECD. (2015). <em>OECD Companion to the Inventory of Support Measures for
-  Fossil Fuels 2015</em>. Paris.</p>
+  <p>UN Environment, Nairobi, Kenya</p>

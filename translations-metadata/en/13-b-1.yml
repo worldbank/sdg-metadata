@@ -1,22 +1,16 @@
-SDG_GOAL: >-
-  <p>Goal 13: Take urgent action to combat climate change and its impacts<sup><a
-  href="#footnote-2" id="footnote-ref-2">[1]</a></sup> </p><div
-  class="footnotes"><div><sup class="footnote-number" id="footnote-2">1</sup><p>
-  Acknowledging that the United Nations Framework Convention on Climate Change
-  is the primary international, intergovernmental forum for negotiating the
-  global response to climate change. <a
-  href="#footnote-ref-2">&#x2191;</a></p></div></div>
+SDG_GOAL: '<p>Goal 13: Take urgent action to combat climate change and its impacts</p>'
 SDG_TARGET: >-
-  <p>Target: 13.b Promote mechanisms for raising capacity for effective climate
+  <p>Target 13.b: Promote mechanisms for raising capacity for effective climate
   change-related planning and management in least developed countries and small
   island developing States, including focusing on women, youth and local and
   marginalized communities</p>
 SDG_INDICATOR: >-
-  <p>13.b.1 Number of least developed countries and small island developing
-  States with nationally determined contributions, long-term strategies,
-  national adaptation plans and adaptation communications, as reported to the
-  secretariat of the United Nations Framework Convention on Climate Change </p>
-META_LAST_UPDATE: <p>March 2021</p>
+  <p>Indicator 13.b.1: Number of least developed countries and small island
+  developing States with nationally determined contributions, long-term
+  strategies, national adaptation plans and adaptation communications, as
+  reported to the secretariat of the United Nations Framework Convention on
+  Climate Change</p>
+META_LAST_UPDATE: <p>2021-03-01</p>
 SDG_CUSTODIAN_AGENCIES: <p>UN Climate Change (UNFCCC Secretariat)</p>
 CONTACT_ORGANISATION: <p>UN Climate Change (UNFCCC Secretariat)</p>
 STAT_CONC_DEF: >-
@@ -169,8 +163,8 @@ RATIONALE: >-
   <p>The Convention established several processes to foster transparency and
   accountability of countries&#x2019; actions to address climate change.</p>
 
-  <p>The Paris Agreement<sup><a href="#footnote-3"
-  id="footnote-ref-3">[2]</a></sup> builds upon the Convention and brings all
+  <p>The Paris Agreement<sup><a href="#footnote-2"
+  id="footnote-ref-2">[1]</a></sup> builds upon the Convention and brings all
   nations into a common cause to undertake ambitious efforts to combat climate
   change and adapt to its effects, with enhanced support to assist developing
   countries to do so, charting a new course in the global climate effort. The
@@ -182,19 +176,23 @@ RATIONALE: >-
   deal with the impacts of climate change. </p>
 
   <p>Materials are received from Parties on an ongoing basis. </p><div
-  class="footnotes"><div><sup class="footnote-number" id="footnote-3">2</sup><p>
+  class="footnotes"><div><sup class="footnote-number" id="footnote-2">1</sup><p>
   The Paris Agreement entered into force on 4 November 2016. Further information
   about the Paris Agreement may be found at
   &lt;http://unfccc.int/paris_agreement/items/9485.php&gt; <a
-  href="#footnote-ref-3">&#x2191;</a></p></div></div>
+  href="#footnote-ref-2">&#x2191;</a></p></div></div>
 REC_USE_LIM: <p> see 4.a</p>
 DATA_COMP: >-
   <p>Count of submitted reports annually in advance of preparation of SDG
   progress reports, based on most recent data for SIDS and LDCs.</p>
-IMPUTATION: |-
-  <p>&#x2022; At country level</p>
+IMPUTATION: >-
+  <p>&#x2022; <strong>At country level</strong></p>
+
   <p>n/a</p>
-  <p>&#x2022; At regional and global levels</p>
+
+  <p><strong>&#x2022;</strong> <strong>At regional and global
+  levels</strong></p>
+
   <p>n/a</p>
 REG_AGG: <p>n/a</p>
 DOC_METHOD: '<p>&#x2022; Data is compiled globally</p>'
@@ -202,7 +200,7 @@ QUALITY_ASSURE: >-
   <p>Data reported is based on official information as documented and reported
   on at &lt;unfccc.int&gt;.</p>
 COVERAGE: >-
-  <p>Data availability:</p>
+  <p><strong>Data availability:</strong></p>
 
   <p>Number of SIDS and LDCs; Number of Parties to the UNFCCC and Paris
   Agreement</p>
@@ -221,7 +219,7 @@ COVERAGE: >-
   href="https://unfccc.int/process/the-paris-agreement/status-of-ratification"><em>https://unfccc.int/process/the-paris-agreement/status-of-ratification</em></a><em>
   </em></p>
 
-  <p>Time series:</p>
+  <p><strong>Time series:</strong></p>
 
   <p>Ongoing as Parties submit reports. Will be compiled annually in advance of
   preparation of annual SDG progress reports; NDCs are submitted in advance of
@@ -232,14 +230,14 @@ COVERAGE: >-
   href="https://unfccc.int/topics/science/workstreams/global-stocktake-referred-to-in-article-14-of-the-paris-agreement">https://unfccc.int/topics/science/workstreams/global-stocktake-referred-to-in-article-14-of-the-paris-agreement</a>
   </p>
 
-  <p>Disaggregation:</p>
+  <p><strong>Disaggregation:</strong></p>
 
   <p>n/a. Some analysis on linkages across other SDGs may be undertaken in
   collaboration with other UN organisations, as relevant, to show how countries
   are utilising these tools for implementation of climate action and SDGs more
   broadly.</p>
 COMPARABILITY: |-
-  <p>Sources of discrepancies:</p>
+  <p><strong>Sources of discrepancies:</strong></p>
   <p>n/a</p>
 OTHER_DOC: >-
   <p>As included in links above;</p>

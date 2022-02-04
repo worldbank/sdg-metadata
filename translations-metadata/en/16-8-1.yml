@@ -7,9 +7,9 @@ SDG_TARGET: >-
 SDG_INDICATOR: >-
   <p>Indicator 10.6.1: Proportion of members and voting rights of developing
   countries in international organizations</p>
-META_LAST_UPDATE: <p>19 July 2016</p>
-SDG_CUSTODIAN_AGENCIES: '<p>Financing for Development Office, DESA (FFDO)</p>'
-CONTACT_ORGANISATION: '<p>Financing for Development Office, DESA (FFDO)</p>'
+META_LAST_UPDATE: <p>2021-05-01</p>
+SDG_CUSTODIAN_AGENCIES: '<p>Financing for Sustainable Development Office, DESA </p>'
+CONTACT_ORGANISATION: '<p>Financing for Sustainable Development Office, DESA </p>'
 STAT_CONC_DEF: >-
   <p><strong>Definition:</strong></p>
 
@@ -42,6 +42,7 @@ STAT_CONC_DEF: >-
   are intended for statistical convenience and do not necessarily express a
   judgement about the stage reached by a particular country or area in the
   development process.</p>
+UNIT_MEASURE: <p>Proportion of membership or voting rights.</p>
 SOURCE_TYPE: >-
   <p><strong>Description:</strong></p>
 
@@ -116,7 +117,9 @@ SOURCE_TYPE: >-
 
   <p>WTO Annual Report; </p>
 
-  <p>Charters of the Financial Stability Board</p>
+  <p>Charters of the Financial Stability Board; FSB Annual Report</p>
+COLL_METHOD: <p>Desk review.</p>
+FREQ_COLL: <p>Annually in March.</p>
 REL_CAL_POLICY: >-
   <p>United Nations General Assembly:</p>
 
@@ -186,15 +189,15 @@ COMPILING_ORG: >-
   <p><strong>Description:</strong></p>
 
   <p>The data is compiled and the proportions calculated by the Financing for
-  Development Office, United Nations Department of Economic and Social
-  Affairs.</p>
+  Sustainable Development Office, United Nations Department of Economic and
+  Social Affairs.</p>
 RATIONALE: >-
   <p>The United Nations is based on a principle of sovereign equality of all its
   Member States (Article 2, UN Charter). This indicator aims to measure the
   degree to which States enjoy equal representation in different international
   organizations.</p>
 REC_USE_LIM: >-
-  <p>Cross institutional comparisons needs to pay attention to the different
+  <p>Cross institutional comparisons need to pay attention to the different
   membership of the institutions. Voting rights and membership in their
   institutions are agreed by the Member States themselves. As a structural
   indicator, there will be only small changes over time to reflect agreement on
@@ -207,15 +210,26 @@ DATA_COMP: >-
   developing countries, divided by the total number of voting rights. The
   proportion of membership is calculated by taking the number of developing
   country members, divided by the total number of members.</p>
+DATA_VALIDATION: <p>N/A</p>
+ADJUSTMENT: <p>N/A</p>
+IMPUTATION: <p>N/A</p>
+REG_AGG: '<p>Aggregations are additive, with no weighting.</p>'
+DOC_METHOD: <p>N/A</p>
+QUALITY_MGMNT: <p>Internal review.</p>
 COVERAGE: >-
-  <p>Data availability:</p>
+  <p><strong>Data availability:</strong></p>
 
   <p>Available for all countries.</p>
 
-  <p>Disaggregation:</p>
+  <p><strong>Time series:</strong></p>
+
+  <p>2000, 2005, 2010, 2015, and annually thereafter</p>
+
+  <p><strong>Disaggregation:</strong></p>
 
   <p>Data is calculated and presented separately for each international
   organization.</p>
+COMPARABILITY: <p>N/A</p>
 OTHER_DOC: >-
   <p><strong>URL:</strong></p>
 

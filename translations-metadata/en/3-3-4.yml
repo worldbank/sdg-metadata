@@ -1,13 +1,11 @@
-SDG_GOAL: >-
-  <p>Goal 3: Ensure healthy lives and promote well-being for all at all ages
-  </p>
+SDG_GOAL: '<p>Goal 3: Ensure healthy lives and promote well-being for all at all ages</p>'
 SDG_TARGET: >-
   <p>Target 3.3: By 2030, end the epidemics of AIDS, tuberculosis, malaria and
   neglected tropical diseases and combat hepatitis, water-borne diseases and
-  other communicable diseases </p>
+  other communicable diseases</p>
 SDG_INDICATOR: '<p>Indicator 3.3.4: Hepatitis B incidence per 100,000 population </p>'
 SDG_SERIES_DESCR: <p>Not applicable</p>
-META_LAST_UPDATE: <p>April 2021</p>
+META_LAST_UPDATE: <p>2021-04-01</p>
 SDG_CUSTODIAN_AGENCIES: <p>World Health Organization </p>
 CONTACT_ORGANISATION: <p>World Health Organization</p>
 STAT_CONC_DEF: >-
@@ -338,7 +336,7 @@ ADJUSTMENT: >-
   much as possible. </p>
 IMPUTATION: >-
   <ul>
-    <li>At country level </li>
+    <li><strong>At country level </strong></li>
   </ul>
 
   <p>All values represent the best estimates for the hepatitis B surface antigen
@@ -371,7 +369,7 @@ IMPUTATION: >-
   <p> </p>
 
   <ul>
-    <li>At regional and global levels </li>
+    <li><strong>At regional and global levels </strong></li>
   </ul>
 
   <p>Same as above </p>
@@ -402,9 +400,9 @@ DOC_METHOD: >-
   and guide resource allocation throughout the world. But the lack of data for
   some regions and differing measurement methods present challenges that are
   often addressed by using statistical modelling techniques to generate coherent
-  estimates based on often disparate sources of data. <u><a
-  href="http://gather-statement.org/&quot; \t
-  &quot;_blank">http://gather-statement.org/</a></u> </p>
+  estimates based on often disparate sources of data. <a
+  href="http://gather-statement.org/"
+  target="_blank"><u>http://gather-statement.org/</u></a> </p>
 QUALITY_ASSURE: |-
   <p><strong>Quality assurance</strong> </p>
   <ul>
@@ -415,16 +413,16 @@ QUALITY_ASSURE: |-
     <li>WHO provided Member States the opportunity to review and comment on data and estimates as part of the so called country consultation process. </li>
   </ul>
 COVERAGE: >-
-  <p>Data availability: </p>
+  <p><strong>Data availability: </strong></p>
 
   <p>Estimates are available for 194 Member States and for the six WHO Regions,
   as well as at global level. </p>
 
-  <p>Time series:</p>
+  <p><strong>Time series:</strong></p>
 
   <p>Estimates are available for pre- vaccine era, 2015 and 2018 and 2020 </p>
 
-  <p>Disaggregation: </p>
+  <p><strong>Disaggregation: </strong></p>
 
   <p>age groups (i.e. under five years of age, 5 years and older (although these
   estimates are not reported) and the general population); sex/gender if
@@ -446,7 +444,7 @@ COMPARABILITY: >-
   country level, therefore focus should be on the 95% Credible Intervals and not
   only on the reported point estimates.</p>
 
-  <p>Sources of discrepancies:</p>
+  <p><strong>Sources of discrepancies:</strong></p>
 
   <p>Inclusion or exclusion criteria of the type of seroprevalence studies.
   Observational studies on chronic HBV infection seroprevalence (HBsAg

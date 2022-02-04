@@ -6,11 +6,11 @@ SDG_TARGET: >-
   equitable and quality primary and secondary education leading to relevant and
   effective learning outcomes</p>
 SDG_INDICATOR: >-
-  <p>Indicator 4.1.1: Proportion of children and young people: (a) in grades
-  2/3; (b) at the end of primary; education and (c) at the end of lower
-  secondary education achieving at least a minimum proficiency level in (i)
-  reading and (ii) mathematics, by sex</p>
-META_LAST_UPDATE: <p>April 2021</p>
+  <p>Indicator 4.1.1: Proportion of children and young people (a) in grades 2/3;
+  (b) at the end of primary; and (c) at the end of lower secondary achieving at
+  least a minimum proficiency level in (i) reading and (ii) mathematics, by
+  sex</p>
+META_LAST_UPDATE: <p>2021-07-01</p>
 SDG_RELATED_INDICATORS: >-
   <p>The parity indices for this indicator are reported in SDG indicator
   4.5.1.</p>
@@ -151,10 +151,8 @@ STAT_CONC_DEF: >-
 UNIT_MEASURE: >-
   <p>Proportion. This indicator is expressed as proportion of children and/or
   young people at the relevant stage of education in a given year achieving or
-  exceeding the pre-defined proficiency level in a given subject.</p>
+  exceeding the pre-defined proficiency level in a given subject </p>
 CLASS_SYSTEM: >-
-  <p> </p>
-
   <p>This indicator expresses a <em>Minimum proficiency level (MPL) </em>that is
   the benchmark of basic knowledge in a domain (mathematics, reading, etc.)
   measured through learning assessments. In September 2018, an agreement was
@@ -172,31 +170,29 @@ SOURCE_TYPE: >-
   structured?</strong></p>
 
   <table>
-    <thead>
-      <tr>
-        <th rowspan="2">
-          <p> </p>
-        </th>
-        <th colspan="2">
-          <p><strong>In-school based</strong></p>
-        </th>
-        <th rowspan="2">
-          <p><strong>Household Based Surveys</strong></p>
-        </th>
-        <th rowspan="2">
-          <p><strong>Grade</strong></p>
-        </th>
-      </tr>
-      <tr>
-        <th>
-          <p><strong>Cross-national</strong></p>
-        </th>
-        <th>
-          <p><strong>National </strong></p>
-        </th>
-      </tr>
-    </thead>
     <tbody>
+      <tr>
+        <td rowspan="2">
+          <p> </p>
+        </td>
+        <td colspan="2">
+          <p><strong>In-school based</strong></p>
+        </td>
+        <td rowspan="2">
+          <p><strong>Household Based Surveys</strong></p>
+        </td>
+        <td rowspan="2">
+          <p><strong>Grade</strong></p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p><strong>Cross-national</strong></p>
+        </td>
+        <td>
+          <p><strong>National </strong></p>
+        </td>
+      </tr>
       <tr>
         <td rowspan="4">
           <p><strong>Grade 2 or 3</strong></p>
@@ -350,7 +346,7 @@ COLL_METHOD: >-
   <p>The UIS compiles information from data source providers at international
   level and from countries at the national level. </p>
 FREQ_COLL: <p>Data collection is rolling during the year. </p>
-REL_CAL_POLICY: <p>February/March and September every year </p>
+REL_CAL_POLICY: <p>February/March and September every year.</p>
 DATA_SOURCE: |-
   <p><strong>School-Based assessments</strong></p>
   <ul>
@@ -363,6 +359,7 @@ DATA_SOURCE: |-
     <li>MICS6: reported to the UIS by UNICEF</li>
     <li>Pal Network: reported to the UIS by Pal Network</li>
   </ul>
+  <p> </p>
 COMPILING_ORG: <p>UNESCO Institute of Statistics (UIS)</p>
 INST_MANDATE: >-
   <p>The UNESCO Institute for Statistics (UIS) is the statistical branch of the
@@ -373,17 +370,16 @@ INST_MANDATE: >-
 
   <p>The <a
   href="https://www.moe.gov.bn/DocumentDownloads/Education%202030/Education2030.pdf"><u>Education
-  2030 Framework for Action 100</u></a><u> </u>has clearly states that:
-  &#x201C;<em>In recognition of the importance of harmonization of monitoring
-  and reporting, the UIS will remain the official source of cross-nationally
-  comparable data on education. It will continue to produce international
-  monitoring indicators based on its annual education survey and on other data
-  sources that guarantee international comparability for more than 200 countries
-  and territories. In addition to collecting data, the UIS will work with
-  partners to develop new indicators, statistical approaches and monitoring
-  tools to better assess progress across the targets related to UNESCO&#x2019;s
-  mandate, working in coordination with the SDG-Education 2030
-  SC&#x201D;</em></p>
+  2030 Framework for Action 100</u></a> has clearly stated that: &#x201C;<em>In
+  recognition of the importance of harmonization of monitoring and reporting,
+  the UIS will remain the official source of cross-nationally comparable data on
+  education. It will continue to produce international monitoring indicators
+  based on its annual education survey and on other data sources that guarantee
+  international comparability for more than 200 countries and territories. In
+  addition to collecting data, the UIS will work with partners to develop new
+  indicators, statistical approaches and monitoring tools to better assess
+  progress across the targets related to UNESCO&#x2019;s mandate, working in
+  coordination with the SDG-Education 2030 SC&#x201D;.</em></p>
 RATIONALE: >-
   <p>The indicator aims to measure the percentage of children and young people
   who have achieved the minimum learning outcomes in reading and mathematics
@@ -402,13 +398,9 @@ REC_USE_LIM: >-
   could be achieved by using different methodologies, each with varying standard
   errors. The UIS has implemented a mechanism of comparability trough a
   consensus on the definition of the skills and contents. The linking though the
-  verbal definition.</p>
-
-  <p> </p>
-
-  <p>The comparability of learning outcomes over time has additional
-  complications, which require, ideally, to design and implement a set of
-  comparable items as anchors in advance. Methodological developments are
+  verbal definition. The comparability of learning outcomes over time has
+  additional complications, which require, ideally, to design and implement a
+  set of comparable items as anchors in advance. Methodological developments are
   underway to address comparability of assessments outcomes over time.</p>
 DATA_COMP: >-
   <p>The number of children and/or young people at the relevant stage of
@@ -451,18 +443,14 @@ DATA_COMP: >-
     </math></p>
   <p>where: </p>
 
-  <p> </p>
-
   <p>MPt,n,s = the number of children and young people at stage of education n,
   in year t, who have achieved or exceeded the minimum proficiency level in
   subject s.</p>
 
-  <p> </p>
+  <p>MPt,n = the total number of children and young people at stage of education
+  n, in year t.</p>
 
-  <p>Pt,n = the total number of children and young people at stage of education
-  n, in year t</p>
-
-  <p>n = the stage of education that was assessed</p>
+  <p>n = the stage of education that was assessed.</p>
 
   <p>s = the subject that was assessed (reading or mathematics).</p>
 
@@ -476,7 +464,7 @@ DATA_COMP: >-
   protocol</u></a> that includes the national assessments under specific
   circumstances. </p>
 
-  <p><strong>Completion status</strong></p>
+  <p><strong>Completion status </strong></p>
 
   <p>Combining completion rates with learning outcomes improves our
   understanding of progress towards Target 4.1. Almost all information regarding
@@ -484,7 +472,7 @@ DATA_COMP: >-
   level. The inclusion of completion in the global list offers to report
   according to completion status. he greatest differences between the SDG 4.1.1
   on learning before completion and the disaggregation by completion are found
-  in regions or countries with lower completion and enrollment rates because the
+  in regions or countries with lower completion and enrolment rates because the
   adjusted (or children completing and learning) indicator is based on a
   quality-adjusted completion rate. This also explains why the largest
   differences occur at the lower-secondary level. Globally, 47% of
@@ -494,7 +482,7 @@ DATA_COMP: >-
   minimum proficiency in mathematics. References <a
   href="http://tcg.uis.unesco.org/wp-content/uploads/sites/4/2020/10/WG-GAML-3-Children-Completing-and-Learning.pdf">here</a>.</p>
 DATA_VALIDATION: >-
-  <p>To quality control is granted by the setting of a Review Panel to discuss
+  <p>The quality control is granted by the setting of a Review Panel to discuss
   any problem/disagreement on implementation. The Review Panel is constituted by
   regionally representative experts on learning.</p>
 ADJUSTMENT: >-
@@ -507,9 +495,9 @@ ADJUSTMENT: >-
   case of some assessment program it means choosing a different level than the
   one the assessment program had been using for reporting results.</p>
 IMPUTATION: |-
-  <p>&#x2022; <strong>At country level</strong></p>
+  <p><strong>&#x2022; At country level</strong></p>
   <p>Missing values are not imputed.</p>
-  <p>&#x2022; <strong>At regional and global levels</strong></p>
+  <p><strong>&#x2022; At regional and global levels</strong></p>
   <p>Missing values are not imputed.</p>
 REG_AGG: >-
   <p>Not yet applicable. Data are reported at the national level only.
@@ -525,11 +513,13 @@ DOC_METHOD: >-
   the selection of the assessment program. </p>
 QUALITY_MGMNT: >-
   <p>The UIS maintains a global database on learning assessments in basic
-  education. The inclusion of a data point in the database to show transparency
-  is completed by following a protocol and is reviewed by UIS technical focal
-  points to ensure consistency and overall data quality, based on objective
-  criteria to ensure that only the most recent and reliable information are
-  included in the database. </p>
+  education. For transparency purposes, the inclusion of a data point in the
+  database is completed by following a protocol and is reviewed by UIS technical
+  focal points to ensure consistency and overall data quality, based on
+  objective criteria to ensure that only the most recent and reliable
+  information are included in the database. </p>
+
+  <p> </p>
 QUALITY_ASSURE: >-
   <p>Information produced by the cross national and national assessment programs
   are described in their manuals. </p>
@@ -538,17 +528,17 @@ QUALITY_ASSMNT: >-
   data sources must include adequate documentation; data values should be
   representative at the national population level and should otherwise be
   included in a footnote; data values are based on a sufficiently large sample;
-  The learning assessment framework covers the minimum set of content in the
+  the learning assessment framework covers the minimum set of content in the
   global content framework and the proficiency levels are aligned with the
   minimum proficiency level (MPL) as defined in the global proficiency
   framework; and the data are plausible and based on trends and consistency with
   previously published or reported estimates for the indicator.</p>
 COVERAGE: >-
-  <p><strong>Data availability:</strong> </p>
+  <p><strong>Data availability: </strong></p>
 
-  <p>Data available at the national level.</p>
+  <p>data available at the national level.</p>
 
-  <p><strong>Time series:</strong> </p>
+  <p><strong>Time series: </strong></p>
 
   <p>Data available since 2000.</p>
 

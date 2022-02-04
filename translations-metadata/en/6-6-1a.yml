@@ -2,8 +2,8 @@ SDG_GOAL: >-
   <p>Goal 6: Ensure availability and sustainable management of water and
   sanitation for all</p>
 SDG_TARGET: >-
-  <p>Target 6.6: By 2030 protect and restore water-related ecosystems, including
-  mountains, forests, wetlands, rivers, aquifers and lakes</p>
+  <p>Target 6.6: By 2020, protect and restore water-related ecosystems,
+  including mountains, forests, wetlands, rivers, aquifers and lakes</p>
 SDG_INDICATOR: >-
   <p>Indicator 6.6.1: Change in the extent of water-related ecosystems over
   time</p>
@@ -55,7 +55,7 @@ SDG_SERIES_DESCR: >-
 
   <p>Nationally derived quantity of rivers (millions of cubic metres per annum)
   [6.6.1]</p>
-META_LAST_UPDATE: <p> July 2021</p>
+META_LAST_UPDATE: <p>2021-07-01</p>
 SDG_RELATED_INDICATORS: '<p>6.3.2, 6.4.1, 6.4.2, 6.5.1, 6.5.2, 15.3.1</p>'
 SDG_CUSTODIAN_AGENCIES: <p>United Nations Environment Programme (UNEP)</p>
 CONTACT_ORGANISATION: <p>United Nations Environment Programme (UNEP)</p>
@@ -270,13 +270,12 @@ STAT_CONC_DEF: >-
   including the marine environment. The SDG indicator 6.6.1 definition refers to
   only a specific group of inland vegetated wetlands typologies.</p>
 
-  <p><strong>Permanent and seasonal water</strong>. A permanent water surface is
-  underwater throughout the year whilst a seasonal water surface is underwater
-  for less than 12 months of the year. Some locations don&#x2019;t have
-  observations for all 12 months of the year (for reasons such as polar night).
-  In these cases, water is considered as seasonal if the number of months where
-  water is present is less than the number of months where valid observations
-  were acquired.</p>
+  <p>Permanent and seasonal water. A permanent water surface is underwater
+  throughout the year whilst a seasonal water surface is underwater for less
+  than 12 months of the year. Some locations don&#x2019;t have observations for
+  all 12 months of the year (for reasons such as polar night). In these cases,
+  water is considered as seasonal if the number of months where water is present
+  is less than the number of months where valid observations were acquired.</p>
 
   <p>A second consideration is lakes and rivers that freeze for part of the
   year. During the frozen period water is still present under the ice (true both
@@ -406,10 +405,12 @@ SOURCE_TYPE: >-
   stream flow quantity. However globally derived hydrological run off modelled
   data will soon be available and used to measure stream flow as part of
   indicator 661 replacing the need for In-situ stream flow measurements to be
-  collected.</p>
+  collected. </p>
 
   <p> </p>
 COLL_METHOD: >-
+  <p> </p>
+
   <p>Each sub-indicator (including permanent lakes and river area; seasonal
   lakes and river area; reservoir minimum and maximum area and water quality;
   inland wetlands area; mangroves area; lake water quality) is computed
@@ -429,8 +430,6 @@ FREQ_COLL: >-
   Every three/four years data is communicated to national focal points for
   validation.</p>
 REL_CAL_POLICY: >-
-  <p><strong>Data release:</strong></p>
-
   <p>First reporting cycle: June 2018; Second reporting cycle: June 2020; Third
   reporting cycle: June 2023.</p>
 DATA_SOURCE: |-
@@ -1296,7 +1295,7 @@ DATA_VALIDATION: >-
   approval.</p>
 IMPUTATION: >-
   <ul>
-    <li>At country level</li>
+    <li><strong>At country level</strong></li>
   </ul>
 
   <p>Due to the use of satellite data for some sub-indicators, it is not
@@ -1304,7 +1303,7 @@ IMPUTATION: >-
   sub-indicators, missing values are not imputed. </p>
 
   <ul>
-    <li>At regional and global levels</li>
+    <li><strong>At regional and global levels</strong></li>
   </ul>
 
   <p>Missing values are not imputed.</p>
@@ -1404,7 +1403,7 @@ OTHER_DOC: >-
   detailed information about the approach used to obtain satellite-based Earth
   observation data with regard to the sub-indicators.</p>
 
-  <p>References</p>
+  <p><strong>References</strong></p>
 
   <p>Bunting P., Rosenqvist A., Lucas R., Rebelo L-M., Hilarides L., Thomas N.,
   Hardy A., Itoh T., Shimada M. and Finlayson C.M. (2018). The Global Mangrove

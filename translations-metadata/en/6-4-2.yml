@@ -9,7 +9,7 @@ SDG_TARGET: >-
 SDG_INDICATOR: >-
   <p>Indicator 6.4.2: Level of water stress: freshwater withdrawal as a
   proportion of available freshwater resources</p>
-META_LAST_UPDATE: <p>February 2021</p>
+META_LAST_UPDATE: <p>2021-07-01</p>
 SDG_RELATED_INDICATORS: >-
   <p>6.4.1: Change in water-use efficiency over time</p>
 
@@ -299,7 +299,7 @@ ADJUSTMENT: >-
   geographic areas and is used to convert area codes in the external sources to
   UNSDM49 codes which is the standard used in the SWS.</p>
 IMPUTATION: >-
-  <p>&#x2022; At country level</p>
+  <p><strong>&#x2022; At country level</strong></p>
 
   <p>Three types of imputation are made at country level to fill in missing
   years in the timeseries:</p>
@@ -310,7 +310,7 @@ IMPUTATION: >-
     <li>Vertical imputation: in case of available total freshwater withdrawal but missing disaggregation by sources, and if existing disaggregation existed for previous years, the respective ratio by sources is applied to the available total.</li>
   </ul>
 
-  <p>&#x2022; At regional and global levels</p>
+  <p><strong>&#x2022; At regional and global levels</strong></p>
 
   <p>Thanks to the imputation methods at country level, data will be available
   for the whole time series (unless the latest official value was obtained more
@@ -334,7 +334,7 @@ DOC_METHOD: |-
   </ul>
 QUALITY_MGMNT: |-
   <ul>
-    <li>First, the annual Water and Agriculture questionnaire, used for collecting information on SDG indicator 6.4.1, was endorsed by FAO&#x2019;s Office of the Chief Statistician (OCS).</li>
+    <li>First, the annual AQUASTAT questionnaire on water and agriculture, used for collecting information on SDG indicator 6.4.2, was endorsed by FAO&#x2019;s Office of the Chief Statistician (OCS).</li>
     <li>During the reporting process, the OCS provides overall guidance, including on metadata reporting, based on the Metadata Dissemination Standard approved by the FAO IDWG-Statistics Technical Task Force.</li>
     <li>Data on Environmental flow requirements is re updated only when detailed methodology and metadata reprovided and when consistency in the values is ensured.</li>
     <li>After revision and validation, data are submitted to the OCS who also ensures the quality of the data and results.</li>
@@ -390,12 +390,12 @@ COVERAGE: >-
 
   <p>Europe, North America, Australia, New Zealand and Japan 47</p>
 
-  <p>Time series:</p>
+  <p><strong>Time series:</strong></p>
 
   <p>1961-2018 (Discontinuous, depending on country. Data are interpolated to
   create timelines.) </p>
 
-  <p>Disaggregation:</p>
+  <p><strong>Disaggregation:</strong></p>
 
   <p>Although the indicator is based on total water volumes, sectoral data are
   needed to be able to disaggregate it in order to show the respective

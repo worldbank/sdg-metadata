@@ -1,13 +1,13 @@
-SDG_GOAL: <p>Goal 1. End poverty in all its forms everywhere</p>
+SDG_GOAL: '<p>Goal 1: End poverty in all its forms everywhere</p>'
 SDG_TARGET: >-
   <p>Target 1.3: Implement nationally appropriate social protection systems and
   measures for all, including floors, and by 2030 achieve substantial coverage
-  of the poor and the vulnerable.</p>
+  of the poor and the vulnerable</p>
 SDG_INDICATOR: >-
-  <p>Indicator 1.3.1: Percentage of the population covered by social protection
-  floors/systems disaggregated by sex, and distinguishing children, unemployed,
-  old age, people with disabilities, pregnant women/new-borns, work injury
-  victims, poor and vulnerable</p>
+  <p>Indicator 1.3.1: Proportion of population covered by social protection
+  floors/systems, by sex, distinguishing children, unemployed persons, older
+  persons, persons with disabilities, pregnant women, newborns, work-injury
+  victims and the poor and the vulnerable</p>
 SDG_SERIES_DESCR: |-
   <ol>
     <li>Proportion of population covered by at least one social protection cash benefit</li>
@@ -20,7 +20,7 @@ SDG_SERIES_DESCR: |-
     <li>Proportion of vulnerable persons receiving benefits</li>
     <li>Proportion of poor population receiving social assistance cash benefit</li>
   </ol>
-META_LAST_UPDATE: <p>January 2021</p>
+META_LAST_UPDATE: <p>2021-01-01</p>
 SDG_RELATED_INDICATORS: <p>3.8.1; 3.8.2; 1.a.2</p>
 SDG_CUSTODIAN_AGENCIES: <p>International Labour Organization (ILO)</p>
 CONTACT_ORGANISATION: <p>International Labour Organization (ILO)</p>
@@ -150,12 +150,12 @@ DATA_VALIDATION: >-
   the country.</p>
 ADJUSTMENT: <p>Not applicable.</p>
 IMPUTATION: >-
-  <p>&#x2022; At country level</p>
+  <p><strong>&#x2022; At country level</strong></p>
 
   <p>Indicators for countries with missing values are not part of the
   reporting.</p>
 
-  <p>&#x2022; At regional and global levels</p>
+  <p><strong>&#x2022; At regional and global levels</strong></p>
 
   <p>For SDG regions with insufficient country coverage, imputations are
   used.</p>
@@ -193,6 +193,8 @@ QUALITY_ASSURE: >-
   providing the information, comparisons with the values of the variables and
   indicators obtained in previous years, and application of a set of calculation
   and verification algorithms. </p>
+
+  <p> </p>
 QUALITY_ASSMNT: >-
   <p>The final assessment of the quality of social protection information is
   carried out by the Public Finance, Actuarial and Statistics Unit of the
@@ -203,7 +205,7 @@ QUALITY_ASSMNT: >-
   protection data. If the issues cannot be clarified, the respective information
   is not published. </p>
 COVERAGE: >-
-  <p>Data availability:</p>
+  <p><strong>Data availability:</strong></p>
 
   <p>The Social Security Inquiry/World Social Protection Database includes data
   on 214 countries and territories. As of March 2017, ILO is processing the
@@ -212,21 +214,21 @@ COVERAGE: >-
   <p>An updated pre-filled version of the questionnaire is sent to the countries
   in April-May. </p>
 
-  <p>Time series: From 2015 (for some series from 2000)</p>
+  <p><strong>Time series:</strong></p>
 
-  <p>Disaggregation:</p>
+  <p>From 2015 (for some series from 2000)</p>
+
+  <p><strong>Disaggregation:</strong></p>
 
   <p>Whenever data is available, the indicator is disaggregated by sex and age
   groups.</p>
 COMPARABILITY: >-
-  <p>Sources of discrepancies:</p>
-
-  <h2>Sources of differences between global and national figures</h2>
+  <p><strong>Sources of discrepancies:</strong></p>
 
   <p>Estimations are based on administrative data produced by countries
   (SSI).</p>
 OTHER_DOC: >-
-  <p>URLs: </p>
+  <p><strong>URLs: </strong></p>
 
   <p><u>ILOSTAT</u></p>
 

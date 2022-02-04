@@ -9,7 +9,7 @@ SDG_TARGET: >-
 SDG_INDICATOR: >-
   <p>Indicator 15.3.1: Proportion of land that is degraded over total land
   area</p>
-META_LAST_UPDATE: <p>March 2021</p>
+META_LAST_UPDATE: <p>2021-03-01</p>
 SDG_RELATED_INDICATORS: <p>2.4.1; 6.6.1; 11.3.1; 15.1.1; 15.2.1</p>
 SDG_CUSTODIAN_AGENCIES: >-
   <p>United Nations Convention to Combat Desertification (UNCCD) and partners,
@@ -1036,13 +1036,13 @@ DATA_VALIDATION: >-
   <a href="#footnote-ref-32">&#x2191;</a></p></div></div>
 ADJUSTMENT: <p>Not applicable.</p>
 IMPUTATION: >-
-  <p><em>At country level</em></p>
+  <p><strong><em>At country level</em></strong></p>
 
   <p>For countries where no data or information is available, the UNCCD and its
   partners can provide default estimates from regional or global data sources
   that would then be validated by national authorities.</p>
 
-  <p><em>At regional and global levels</em></p>
+  <p><strong><em>At regional and global levels</em></strong></p>
 
   <p>The land area of countries with missing values (i.e., there is no default
   data) would be excluded from regional and global aggregation.</p>
@@ -1085,7 +1085,7 @@ QUALITY_ASSURE: >-
   href="http://support.unccd.int/">http://support.unccd.int/</a> <a
   href="#footnote-ref-35">&#x2191;</a></p></div></div>
 COVERAGE: >-
-  <p>Data availability:</p>
+  <p><strong>Data availability:</strong></p>
 
   <p>In many countries, national data for one or more of the sub-indicators are
   available. Regional and global data are available for all three sub-indicators
@@ -1096,16 +1096,16 @@ COVERAGE: >-
   capacity building for monitoring and reporting on the indicator when
   necessary.</p>
 
-  <p>Time series:</p>
+  <p><strong>Time series:</strong></p>
 
   <p>Annual since the year 2000.</p>
 
-  <p>Disaggregation:</p>
+  <p><strong>Disaggregation:</strong></p>
 
   <p>The indicator can be disaggregated by land cover class or other spatially
   explicit land unit.</p>
 COMPARABILITY: >-
-  <p>Sources of discrepancies:</p>
+  <p><strong>Sources of discrepancies:</strong></p>
 
   <p>Data reported by the countries themselves will follow a standardized format
   for UNCCD national reporting<sup><sup><a href="#footnote-36"

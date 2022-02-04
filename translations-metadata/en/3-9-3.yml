@@ -1,12 +1,10 @@
-SDG_GOAL: >-
-  <p>Goal 3: Ensure healthy lives and promote well-being for all at all ages
-  </p>
+SDG_GOAL: '<p>Goal 3: Ensure healthy lives and promote well-being for all at all ages</p>'
 SDG_TARGET: >-
   <p>Target 3.9: By 2030, substantially reduce the number of deaths and
   illnesses from hazardous chemicals and air, water and soil pollution and
-  contamination </p>
-SDG_INDICATOR: '<p>Indicator 3.9.3: Mortality rate attributed to unintentional poisoning </p>'
-META_LAST_UPDATE: <p>May 2021</p>
+  contamination</p>
+SDG_INDICATOR: '<p>Indicator 3.9.3: Mortality rate attributed to unintentional poisoning</p>'
+META_LAST_UPDATE: <p>2021-05-01</p>
 SDG_RELATED_INDICATORS: >-
   <p>Indicator 7.1.2: Proportion of population with primary reliance on clean
   fuels and technology </p>
@@ -110,7 +108,7 @@ ADJUSTMENT: >-
   within cause-sex groups of known ages.</p>
 IMPUTATION: >-
   <ul>
-    <li>At country level </li>
+    <li><strong>At country level </strong></li>
   </ul>
 
   <p> </p>
@@ -124,7 +122,7 @@ IMPUTATION: >-
   (https://www.who.int/docs/default-source/gho-documents/global-health-estimates/ghe2019_cod_methods.pdf)</p>
 
   <ul>
-    <li>At regional and global levels </li>
+    <li><strong>At regional and global levels </strong></li>
   </ul>
 
   <p> </p>
@@ -169,7 +167,7 @@ QUALITY_ASSMNT: >-
   group convened by the World Health Organization, the guidelines aim to define
   and promote good practice in reporting health estimates.</p>
 COVERAGE: >-
-  <p>Data availability:</p>
+  <p><strong>Data availability:</strong></p>
 
   <p>Almost 70 countries currently provide WHO with regular high-quality data on
   mortality by age, sex and causes of death, and another 58 countries submit
@@ -177,15 +175,15 @@ COVERAGE: >-
   calculated by WHO systematically for all of its Member States (with a certain
   population threshold) every 3 years. </p>
 
-  <p>Time series:</p>
+  <p><strong>Time series:</strong></p>
 
   <p>From 2000 to 2019</p>
 
-  <p>Disaggregation:</p>
+  <p><strong>Disaggregation:</strong></p>
 
   <p>Data can be disaggregated by age group, sex and disease. </p>
 COMPARABILITY: >-
-  <p>Sources of discrepancies:</p>
+  <p><strong>Sources of discrepancies:</strong></p>
 
   <p>WHO is required by World Health Assembly resolution to consult on all WHO
   statistics, and seek feedback from countries on data about countries and

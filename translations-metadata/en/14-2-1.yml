@@ -2,18 +2,19 @@ SDG_GOAL: >-
   <p>Goal 14: Conserve and sustainably use the oceans, seas and marine resources
   for sustainable development</p>
 SDG_TARGET: >-
-  <p>Target 14.1: By 2025, prevent and significantly reduce marine pollution of
-  all kinds, in particular from land-based activities, including marine debris
-  and nutrient pollution</p>
+  <p>Target 14.2: By 2020, sustainably manage and protect marine and coastal
+  ecosystems to avoid significant adverse impacts, including by strengthening
+  their resilience, and take action for their restoration in order to achieve
+  healthy and productive oceans</p>
 SDG_INDICATOR: >-
   <p>Indicator 14.2.1: Number of countries using ecosystem-based approaches to
   managing marine areas</p>
-META_LAST_UPDATE: <p> 8 February 2021</p>
+META_LAST_UPDATE: <p>2021-02-08</p>
 SDG_RELATED_INDICATORS: <p>N/A</p>
 SDG_CUSTODIAN_AGENCIES: <p>United Nations Environment Programme (UNEP)</p>
 CONTACT_ORGANISATION: <p>United Nations Environment Programme (UNEP)</p>
 STAT_CONC_DEF: >-
-  <p>Definition: </p>
+  <p><strong>Definition: </strong></p>
 
   <p>Regional Seas Coordinated Indicator 22 &#x2018;Integrated Coastal Zone
   Management (ICZM) is proposed as the primary indicator. For countries with
@@ -32,7 +33,7 @@ STAT_CONC_DEF: >-
   entitled, &#x201C;Global Manual on Ocean Statistics for Measuring SDG 14.1.1,
   14.2.1 and 14.5.1&#x201D;.</p>
 
-  <p>Concepts:</p>
+  <p><strong>Concepts:</strong></p>
 
   <p>ICZM &#x2013; An Integrated Coastal Zone Management (ICZM) plan covers the
   entire coastal zone. Marine and terrestrial areas are managed together. Plans
@@ -145,30 +146,33 @@ DATA_COMP: >-
   identify where the two layers coincide. </p>
 
   <p>All countries should report on if a plan is in place. </p>
-IMPUTATION: |-
+IMPUTATION: >-
   <p>Missing values are not imputed.</p>
-  <p>&#x2022; At country level</p>
-  <p>&#x2022; At regional and global levels</p>
+
+  <p><strong>&#x2022;</strong> <strong>At country level</strong></p>
+
+  <p><strong>&#x2022;</strong> <strong>At regional and global
+  levels</strong></p>
 REG_AGG: >-
   <p>The data will be aggregated at the sub-regional, regional and global levels
   by counting the number of countries with a plan for each group.</p>
 COVERAGE: >-
-  <p>Data availability:</p>
+  <p><strong>Data availability:</strong></p>
 
   <p>Data will be made available for all member states.</p>
 
-  <p>Time series:</p>
+  <p><strong>Time series:</strong></p>
 
   <p>National data collection through the Regional Seas already exists for many
   Regional Seas, this data will be compiled for SDG reporting in 2020. Reporting
   will be every 5 years &#x2013; as policy development takes time.</p>
 
-  <p>Disaggregation:</p>
+  <p><strong>Disaggregation:</strong></p>
 
   <p>&#x2022; A geospatial map of areas covered by a plan is recommended for
   national level decision making.</p>
 COMPARABILITY: |-
-  <p>Sources of discrepancies: </p>
+  <p><strong>Sources of discrepancies: </strong></p>
   <p>NA</p>
 OTHER_DOC: >-
   <p>Regional Seas website:

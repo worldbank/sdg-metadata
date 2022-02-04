@@ -3,13 +3,13 @@ SDG_GOAL: >-
   industrialization and foster innovation</p>
 SDG_TARGET: >-
   <p>Target 9.2: Promote inclusive and sustainable industrialization and, by
-  2030, significantly raise industry&apos;s share of employment and gross
+  2030, significantly raise industry&#x2019;s share of employment and gross
   domestic product, in line with national circumstances, and double its share in
   least developed countries</p>
 SDG_INDICATOR: >-
   <p>Indicator 9.2.2: Manufacturing employment as a proportion of total
   employment</p>
-META_LAST_UPDATE: <p>January 2021</p>
+META_LAST_UPDATE: <p>2021-01-01</p>
 SDG_RELATED_INDICATORS: <p>8.2.1</p>
 SDG_CUSTODIAN_AGENCIES: >-
   <p>United Nations Industrial Development Organization (UNIDO)</p>
@@ -22,12 +22,12 @@ CONTACT_ORGANISATION: >-
   <p>(with the collaboration of the International Labour Organization &#x2013;
   ILO)</p>
 STAT_CONC_DEF: >-
-  <p>Definitions:</p>
+  <p><strong>Definitions:</strong></p>
 
   <p>This indicator presents the share of manufacturing employment in total
   employment.</p>
 
-  <p>Concepts:</p>
+  <p><strong>Concepts:</strong></p>
 
   <p>Employment comprises all persons of working age who during a short
   reference period (one week), were engaged in any activity to produce goods or
@@ -245,7 +245,7 @@ ADJUSTMENT: >-
   and definitions adopted by the International Conference of Labour
   Statisticians.</p>
 IMPUTATION: >-
-  <p>&#x2022; At country level</p>
+  <p><strong>&#x2022;</strong> <strong>At country level</strong></p>
 
   <p>Multivariate regression and cross-validation techniques are used to impute
   missing values at the country level. The additional variables used for the
@@ -257,7 +257,8 @@ IMPUTATION: >-
   available at
   https://ilostat.ilo.org/resources/concepts-and-definitions/ilo-modelled-estimates/.</p>
 
-  <p>&#x2022; At regional and global levels</p>
+  <p><strong>&#x2022;</strong> <strong>At regional and global
+  levels</strong></p>
 
   <p>The aggregates are derived from the ILO modelled estimates that are used to
   produce global and regional estimates of, amongst others, employment by
@@ -281,21 +282,21 @@ QUALITY_ASSURE: >-
   <p>Data consistency and quality checks are regularly conducted for validation
   of the data before dissemination in the ILOSTAT database. </p>
 COVERAGE: >-
-  <p>Data availability:</p>
+  <p><strong>Data availability:</strong></p>
 
   <p>Data is available in ILOSTAT for 177 countries and territories.</p>
 
-  <p>Time series:</p>
+  <p><strong>Time series:</strong></p>
 
   <p>Data for this indicator is available from 2000 in the UN Global SDG
   Database, but longer time series are available in ILOSTAT.</p>
 
-  <p>Disaggregation:</p>
+  <p><strong>Disaggregation:</strong></p>
 
   <p>This indicator can be disaggregated by sex, occupation, age, region and
   others.</p>
 COMPARABILITY: >-
-  <p>Sources of discrepancies:</p>
+  <p><strong>Sources of discrepancies:</strong></p>
 
   <p>The difference may arise due to: a) discrepancies in data sources; b) ISIC
   Revision used by a country; c) informal employment; d) coverage of data source

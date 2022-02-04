@@ -8,32 +8,34 @@ SDG_INDICATOR: >-
   <p>Indicator 6.b.1: Proportion of local administrative units with established
   and operational policies and procedures for participation of local communities
   in water and sanitation management</p>
-META_LAST_UPDATE: '<p>Last updated: 11 July 2017</p>'
+META_LAST_UPDATE: <p>2017-07-11</p>
 SDG_RELATED_INDICATORS: >-
-  <h1>Related indicators</h1>
+  <p>6.5:</p>
 
-  <p>6.5: Number of deaths, missing persons and persons affected by disaster per
+  <p>Number of deaths, missing persons and persons affected by disaster per
   100,000 people [a]</p>
 
-  <p>15.9: Number of deaths, missing persons and persons affected by disaster
-  per 100,000 people [a]</p>
+  <p>15.9:</p>
 
-  <h2>Comments:</h2>
+  <p>Number of deaths, missing persons and persons affected by disaster per
+  100,000 people [a]</p>
+
+  <p>Comments:</p>
 
   <p>6.5 (implement integrated water resources management at all levels,
   including transboundary cooperation as appropriate) 15.9 (integrate ecosystem
   and biodiversity values into national and local planning, development
   processes, poverty reduction strategies and accounts)</p>
 SDG_CUSTODIAN_AGENCIES: |-
-  <h1>Institutional information</h1>
-  <h2>Organization(s):</h2>
+  <p>World Health Organization (WHO)</p>
+  <p>United Nations Environment Programme (UNEP)</p>
+  <p>Organisation for Economic Co-operation and Development (OECD)</p>
+CONTACT_ORGANISATION: |-
   <p>World Health Organization (WHO)</p>
   <p>United Nations Environment Programme (UNEP)</p>
   <p>Organisation for Economic Co-operation and Development (OECD)</p>
 STAT_CONC_DEF: >-
-  <h1>Concepts and definitions</h1>
-
-  <h2>Definition:</h2>
+  <p><strong>Definition:</strong></p>
 
   <p>The indicator assesses the percentage of local administrative units (as
   defined by the national government) that have an established and operational
@@ -49,7 +51,7 @@ STAT_CONC_DEF: >-
   with high level of users/communities participating in planning programs in
   water and sanitation management, and hygiene promotion.</p>
 
-  <h2>Concepts:</h2>
+  <p><strong>Concepts:</strong></p>
 
   <p>Stakeholder participation is essential to ensure the sustainability of
   water and sanitation management options over time, e.g. the choice of
@@ -80,10 +82,6 @@ STAT_CONC_DEF: >-
   (6.3), efficiency and sustainable use (6.4), integrated water resources
   management (6.5) and water-related ecosystems (6.6).</p>
 SOURCE_TYPE: >-
-  <h1>Data sources</h1>
-
-  <h2>Description:</h2>
-
   <p>The UN-Water Global Analysis and Assessment of Sanitation and
   Drinking-Water (GLAAS) provides information on governance, monitoring, human
   resources, and financing in the water, sanitation, and hygiene (WASH) sector.
@@ -128,8 +126,6 @@ SOURCE_TYPE: >-
   &#x201C;Water Governance at a Glance&#x201D; will be launched at the 8th World
   Water Forum in Brasilia (2018).</p>
 COLL_METHOD: >-
-  <h2>Collection process:</h2>
-
   <p>National governments participating in the GLAAS survey fill out the
   questionnaire, preferably supported by a multi-stakeholder review. Although
   one ministry leads the process (e.g. Ministry of Water, Ministry of
@@ -151,32 +147,19 @@ COLL_METHOD: >-
   collection, validation and consultation processes, the results are expected to
   be comparable and no further adjustments are foreseen.</p>
 FREQ_COLL: >-
-  <h1>Calendar</h1>
-
-  <h2>Data collection:</h2>
-
   <p>The current round of UN-Water Global Analysis and Assessment of Sanitation
   and Drinking-Water (GLAAS) has been launched and data will be available by
   end-2016. (From NA to NA)</p>
-REL_CAL_POLICY: |-
-  <h2>Data release:</h2>
-  <p>Q1 2017 </p>
+REL_CAL_POLICY: <p>Q1 2017 </p>
 DATA_SOURCE: >-
-  <h1>Data providers</h1>
-
-  <h2>Description:</h2>
-
   <p>Ministries with responsibilities related to water supply and sanitation,
   agriculture, water resources development and management, and environment</p>
 COMPILING_ORG: |-
-  <h1>Data compilers</h1>
-  <h2>Name:</h2>
+  <p>Name:</p>
   <p>WHO, OECD and UNEP</p>
-  <h2>Description:</h2>
+  <p>Description:</p>
   <p>WHO, with support from OECD and UNEP</p>
 RATIONALE: >-
-  <h2>Rationale:</h2>
-
   <p>Defining the procedures in policy or law for the participation of local
   communities is vital to ensure the needs of all the community are met,
   including the most vulnerable and also encourages ownership of schemes which
@@ -188,8 +171,6 @@ RATIONALE: >-
   a higher likelihood of sustainable delivery and management of water and
   sanitation services.</p>
 REC_USE_LIM: >-
-  <h2>Comments and limitations:</h2>
-
   <p>Data on local administrative units with established and operational
   policies and procedures for local participation is being collected through the
   current cycle of GLAAS, and will be available by end-2016. Until then, the
@@ -200,10 +181,6 @@ REC_USE_LIM: >-
   Water Governance Indicators and administrative data, will be progressively
   included in the calculation of the indicator as they become available.</p>
 DATA_COMP: >-
-  <h1>Methodology</h1>
-
-  <h2>Computation method:</h2>
-
   <p>The UN-Water Global Analysis and Assessment of Sanitation and
   Drinking-Water (GLAAS) questionnaire provides information on whether there are
   &#x201C;clearly defined procedures in laws or policies for participation by
@@ -220,18 +197,12 @@ DATA_COMP: >-
   <p>Both numerator and denominator will be obtained through the GLAAS survey
   for the 2016-2017 cycle.</p>
 IMPUTATION: >-
-  <h2>Treatment of missing values:</h2>
-
-  <ul>
-    <li><strong><em>At country level:</em></strong></li>
-  </ul>
+  <p><strong>&#x2022; At country level</strong></p>
 
   <p>Due to the highly country- and context-specific nature of the indicator, no
   estimates are produced for countries that are missing data.</p>
 
-  <ul>
-    <li><strong><em>At regional and global levels:</em></strong></li>
-  </ul>
+  <p><strong>&#x2022; At regional and global levels</strong></p>
 
   <p>Operational mechanism by which individuals and communities can meaningfully
   contribute to water and sanitation management then the country will be
@@ -243,8 +214,6 @@ IMPUTATION: >-
   Similarly, countries with missing values are excluded from global and regional
   analysis for this indicator.</p>
 REG_AGG: >-
-  <h2>Regional aggregates:</h2>
-
   <p>For global and regional aggregates, the percentage of local administrative
   units that have a defined and operational mechanism by which individuals and
   communities can meaningfully contribute to decisions and directions about
@@ -252,9 +221,6 @@ REG_AGG: >-
   country&#x2019;s percent value weighted based on total country population for
   the data year, as a proportion of the global population.</p>
 DOC_METHOD: >-
-  <h2>Methods and guidance available to countries for the compilation of the
-  data at the national level:</h2>
-
   <p>National governments participating in GLAAS fill out the country survey,
   preferably supported by a multi-stakeholder review. Although one ministry
   leads the process, it is often the case that many different ministries and
@@ -276,8 +242,6 @@ DOC_METHOD: >-
   cycle of data collection (2016/2017) can be found at the following link: <a
   href="http://www.who.int/water_sanitation_health/monitoring/investments/glaas-2017-survey/en/">http://www.who.int/water_sanitation_health/monitoring/investments/glaas-2017-survey/en/</a></p>
 QUALITY_ASSURE: >-
-  <h2>Quality assurance:</h2>
-
   <p>Once received, the country submission undergoes a thorough data validation
   process, which is often an iterative process requiring communication and
   feedback with regional and country counterparts. Quality of the submission is
@@ -296,82 +260,71 @@ QUALITY_ASSURE: >-
   providing consent to WHO for the release and publication of the country data
   is signed and submitted along with the filled survey.</p>
 COVERAGE: >-
-  <h1>Data availability</h1>
+  <p><strong>Data availability:</strong></p>
 
-  <h2>Description:</h2>
-
-  <p><strong><em>Asia and Pacific</em></strong>: Most countries (at least 50% of
-  the countries covering 60% of the population from the region)</p>
-
-  <p><strong><em>Africa</em></strong>: Some countries (approximately 50% of the
-  countries covering 50% of the population from the region)</p>
-
-  <p><strong><em>Latin America and the Caribbean</em></strong>: Most countries
-  (at least 60% of the countries covering 80% of the population from the
-  region)</p>
-
-  <p><strong><em>Europe, North America, Australia, New Zealand and
-  Japan</em></strong>: Most countries (at least 60% of the countries covering
+  <p>Asia and Pacific: Most countries (at least 50% of the countries covering
   60% of the population from the region)</p>
+
+  <p>Africa: Some countries (approximately 50% of the countries covering 50% of
+  the population from the region)</p>
+
+  <p>Latin America and the Caribbean: Most countries (at least 60% of the
+  countries covering 80% of the population from the region)</p>
+
+  <p>Europe, North America, Australia, New Zealand and Japan: Most countries (at
+  least 60% of the countries covering 60% of the population from the region)</p>
 
   <p>Please note that these reflect data on presence of policies and procedures
   for local participation at the national level. Data at the local
-  administrative unit level is being collected through the current cycle of
-  GLAAS and through administrative data that will be progressively included in
-  the calculation of the indicator (cf. 7.1, 10.1, and 10.2).</p>
+  administrative unit level is being collected through the current cycle of </p>
 
-  <h2>Time series:</h2>
+  <p>GLAAS and through administrative data that will be progressively included
+  in the calculation of the indicator (cf. 7.1, 10.1, and 10.2).</p>
+
+  <p><strong>Time series:</strong></p>
 
   <p>Time series of parameters under the indicator are available for 2008, 2010,
   2012, and 2014. </p>
-
-  <h2>Sources of discrepancies:</h2>
+COMPARABILITY: >-
+  <p><strong>Sources of discrepancies:</strong></p>
 
   <p>This indicator will be generated by countries, thus no differences in
   global and national figures are expected.</p>
 OTHER_DOC: >-
-  <p>References</p>
+  <p><strong>URL:</strong></p>
 
-  <h2>URL:</h2>
+  <p>http://www.who.int/water_sanitation_health/glaas/en/</p>
 
-  <p><a
-  href="http://www.who.int/water_sanitation_health/glaas/en/">http://www.who.int/water_sanitation_health/glaas/en/</a></p>
+  <p>http://www.unep.org/</p>
 
-  <p><a href="http://www.unep.org/">http://www.unep.org/</a></p>
+  <p>http://www.oecd.org/env/watergovernanceprogramme.htm</p>
 
-  <p><a
-  href="http://www.oecd.org/env/watergovernanceprogramme.htm">http://www.oecd.org/env/watergovernanceprogramme.htm</a></p>
-
-  <h2>References:</h2>
+  <p><strong>References:</strong></p>
 
   <p>UN-Water Global Analysis and Assessment of Sanitation and Drinking-Water.
-  <a
-  href="http://www.who.int/water_sanitation_health/glaas/en/">http://www.who.int/water_sanitation_health/glaas/en/</a></p>
+  http://www.who.int/water_sanitation_health/glaas/en/</p>
 
-  <p>OECD (2015a), OECD Principles on Water Governance, available at: <a
-  href="https://www.oecd.org/gov/regional-policy/OECD-Principles-on-Water-Governance-brochure.pdf">https://www.oecd.org/gov/regional-policy/OECD-Principles-on-Water-Governance-brochure.pdf</a></p>
+  <p>OECD (2015a), OECD Principles on Water Governance, available at:
+  https://www.oecd.org/gov/regional-policy/OECD-Principles-on-Water-Governance-brochure.pdf</p>
 
   <p>OECD (2015b), Stakeholder Engagement for Inclusive Water Governance, OECD
-  Studies on Water, OECD Publishing, Paris., <a
-  href="http://dx.doi.org/10.1787/9789264231122-en">http://dx.doi.org/10.1787/9789264231122-en</a></p>
+  Studies on Water, OECD Publishing, Paris.,
+  http://dx.doi.org/10.1787/9789264231122-en</p>
 
-  <p>UN-Water 2008 : Status Report on IWRM for CSD-16, <a
-  href="http://www.unwater.org/publications/publications-detail/en/c/206480/UNEP-DHI%20">http://www.unwater.org/publications/publications-detail/en/c/206480/UNEP-DHI</a>
+  <p>UN-Water 2008 : Status Report on IWRM for CSD-16,
+  http://www.unwater.org/publications/publications-detail/en/c/206480/UNEP-DHI
   </p>
 
-  <p>UN-Water 2012: Status Reports on IWRM. <a
-  href="http://www.unwater.org/publications/status-report-on-integrated-water-resources-management/en/%20">http://www.unwater.org/publications/status-report-on-integrated-water-resources-management/en/</a>
+  <p>UN-Water 2012: Status Reports on IWRM.
+  http://www.unwater.org/publications/status-report-on-integrated-water-resources-management/en/
   </p>
 
   <p>Data from the 2012 Survey on the Application of Integrated Approaches to
-  Water Resources Management. <a
-  href="http://www.unepdhi.org/rioplus20%20">http://www.unepdhi.org/rioplus20</a>
-  </p>
+  Water Resources Management. http://www.unepdhi.org/rioplus20 </p>
 
   <p>UNEP 2016. Degree of implementation of integrated water resources
-  management. Draft survey to support SDG indicator 6.5.1 <a
-  href="http://www.unepdhi.org/whatwedo/gemi%20">http://www.unepdhi.org/whatwedo/gemi</a>
-  </p>
+  management. Draft survey to support SDG indicator 6.5.1
+  http://www.unepdhi.org/whatwedo/gemi </p>
 
-  <p>OECD 2015. Stakeholder Engagement for Inclusive Water Governance. <a
-  href="http://www.oecd-ilibrary.org/governance/stakeholder-engagement-for-inclusive-water-governance_9789264231122-en">http://www.oecd-ilibrary.org/governance/stakeholder-engagement-for-inclusive-water-governance_9789264231122-en</a></p>
+  <p>OECD 2015. Stakeholder Engagement for Inclusive Water Governance.
+  http://www.oecd-ilibrary.org/governance/stakeholder-engagement-for-inclusive-water-governance_9789264231122-en</p>

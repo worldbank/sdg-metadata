@@ -3,8 +3,8 @@ SDG_TARGET: >-
   <p>Target 12.6: Encourage companies, especially large and transnational
   companies, to adopt sustainable practices and to integrate sustainability
   information into their reporting cycle</p>
-SDG_INDICATOR: <p>Indicator 12.6.1 Number of companies publishing sustainability reports</p>
-META_LAST_UPDATE: <p>March 2021</p>
+SDG_INDICATOR: '<p>Indicator 12.6.1: Number of companies publishing sustainability reports</p>'
+META_LAST_UPDATE: <p>2021-03-01</p>
 SDG_RELATED_INDICATORS: <p>N/A</p>
 SDG_CUSTODIAN_AGENCIES: |-
   <p>United Nations Conference on Trade and Development (UNCTAD)</p>
@@ -13,7 +13,7 @@ CONTACT_ORGANISATION: |-
   <p>United Nations Conference on Trade and Development (UNCTAD)</p>
   <p>United Nations Environment Programme(UNEP)</p>
 STAT_CONC_DEF: >-
-  <p>Definitions:</p>
+  <p><strong>Definitions:</strong></p>
 
   <p><u>Sustainability Reports</u>: </p>
 
@@ -45,7 +45,7 @@ STAT_CONC_DEF: >-
   &#x201C;Company&#x201D; can therefore apply to either the parent company, or a
   franchise or subsidiary, depending on their reporting practices.</p>
 
-  <p>Concepts:</p>
+  <p><strong>Concepts:</strong></p>
 
   <p>It is proposed that, to be counted towards the indicator, companies must
   publish information that meets a &#x201C;Minimum requirement&#x201D; of
@@ -271,26 +271,27 @@ IMPUTATION: >-
   Therefore there could be some reports that cannot be captured for this reason.
   </p>
 
-  <p>&#x2022; At country level</p>
+  <p><strong>&#x2022;</strong> <strong>At country level</strong></p>
 
-  <p>&#x2022; At regional and global levels</p>
+  <p><strong>&#x2022;</strong> <strong>At regional and global
+  levels</strong></p>
 REG_AGG: >-
   <p>The data will be aggregated at the sub-regional, regional and global
   levels. In doing so, double-counting will be avoided, so a company may appear
   under several countries, but will only be counted once at regional and global
   levels.</p>
 COVERAGE: >-
-  <p>Data availability:</p>
+  <p><strong>Data availability:</strong></p>
 
   <p>Data will be made available for all member states that have companies
   publishing sustainability information, as defined by the indicator. </p>
 
-  <p>Time series:</p>
+  <p><strong>Time series:</strong></p>
 
   <p>The reporting on this indicator will be annual, given that most companies
   publish sustainability information on an annual basis.</p>
 
-  <p>Disaggregation:</p>
+  <p><strong>Disaggregation:</strong></p>
 
   <p>The platform will generate the following information for each country, then
   aggregate per sub-region, region and globally (avoiding double-counting of
@@ -383,7 +384,7 @@ COVERAGE: >-
     <li>Complete list of accepted assurance standards and tools to be defined.</li>
   </ul>
 COMPARABILITY: |-
-  <p>Sources of discrepancies:</p>
+  <p><strong>Sources of discrepancies:</strong></p>
   <p>N/A</p>
 OTHER_DOC: >-
   <p>N/A</p>
@@ -1345,8 +1346,6 @@ OTHER_DOC: >-
       </tr>
     </tbody>
   </table>
-
-  <p><strong><br></strong></p>
 
   <p><strong>Annex 2: Global and national repositories to mine for global 12.6.1
   Database</strong></p>

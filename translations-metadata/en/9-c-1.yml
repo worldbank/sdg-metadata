@@ -8,18 +8,13 @@ SDG_TARGET: >-
 SDG_INDICATOR: >-
   <p>Indicator 9.c.1: Proportion of population covered by a mobile network, by
   technology</p>
-META_LAST_UPDATE: '<p>Last updated: 19 July 2016</p>'
-SDG_RELATED_INDICATORS: |-
-  <h1>Related indicators as of February 2020</h1>
-  <p>1.4, 2.3, 2.c, 9.1, 11.b, 13.1</p>
-SDG_CUSTODIAN_AGENCIES: |-
-  <h1>Institutional information</h1>
-  <h2>Organization(s):</h2>
-  <p>International Telecommunication Union (ITU)</p>
+SDG_SERIES_DESCR: <p>Not Applicable </p>
+META_LAST_UPDATE: <p>2021-08-20</p>
+SDG_RELATED_INDICATORS: '<p>1.4, 2.3, 2.c, 9.1, 11.b, 13.1</p>'
+SDG_CUSTODIAN_AGENCIES: <p>International Telecommunication Union (ITU)</p>
+CONTACT_ORGANISATION: <p>International Telecommunication Union (ITU)</p>
 STAT_CONC_DEF: >-
-  <h1>Concepts and definitions</h1>
-
-  <h2>Definition:</h2>
+  <p><strong>Definitions:</strong></p>
 
   <p>Proportion of population covered by a mobile network, broken down by
   technology, refers to the percentage of inhabitants living within range of a
@@ -28,45 +23,45 @@ STAT_CONC_DEF: >-
   within range of a mobile-cellular signal by the total population and
   multiplying by 100.</p>
 
-  <h2>Concepts:</h2>
+  <p><strong>Concepts:</strong></p>
 
-  <p>The indicator is based on where the population lives, and not where they
-  work or go to school, etc. When there are multiple operators offering the
+  <p>&quot;The indicator is based on where the population lives, and not where
+  they work or go to school, etc. When there are multiple operators offering the
   service, the maximum population number covered should be reported. Coverage
   should refer to LTE, broadband (3G) and narrowband (2G) mobile-cellular
   technologies and include:</p>
 
-  <p><strong>2G mobile population coverage</strong>: Mobile networks with access
-  to data communications (e.g. Internet) at downstream speeds below 256 Kbit/s.
-  This includes mobile-cellular technologies such as GPRS, CDMA2000 1x and most
-  EDGE implementations. The indicator refers to the theoretical ability of
+  <p>- 2G mobile population coverage: Mobile networks with access to data
+  communications (e.g. Internet) at downstream speeds below 256 Kbit/s. This
+  includes mobile-cellular technologies such as GPRS, CDMA2000 1x and most EDGE
+  implementations. The indicator refers to the theoretical ability of
   subscribers to use non-broadband speed mobile data services, rather than the
   number of active users of such services.</p>
 
-  <p><strong>3G population coverage</strong>: refers to the percentage of
-  inhabitants that are within range of at least a 3G mobile-cellular signal,
-  irrespective of whether or not they are subscribers. This is calculated by
-  dividing the number of inhabitants that are covered by at least a 3G
-  mobile-cellular signal by the total population and multiplying by 100. It
-  excludes people covered only by GPRS, EDGE or CDMA 1xRTT.</p>
+  <p>- 3G population coverage: refers to the percentage of inhabitants that are
+  within range of at least a 3G mobile-cellular signal, irrespective of whether
+  or not they are subscribers. This is calculated by dividing the number of
+  inhabitants that are covered by at least a 3G mobile-cellular signal by the
+  total population and multiplying by 100. It excludes people covered only by
+  GPRS, EDGE or CDMA 1xRTT.</p>
 
-  <p><strong>LTE population coverage</strong>: Refers to the percentage of
-  inhabitants that live within range of LTE/LTE-Advanced, mobile
-  WiMAX/WirelessMAN or other more advanced mobile-cellular networks,
-  irrespective of whether or not they are subscribers. This is calculated by
-  dividing the number of inhabitants that are covered by the previously
-  mentioned mobile-cellular technologies by the total population and multiplying
-  by 100. It excludes people covered only by HSPA, UMTS, EV-DO and previous 3G
-  technologies, and also excludes fixed WiMAX coverage.</p>
+  <p>- LTE population coverage: Refers to the percentage of inhabitants that
+  live within range of LTE/LTE-Advanced, mobile WiMAX/WirelessMAN or other more
+  advanced mobile-cellular networks, irrespective of whether or not they are
+  subscribers. This is calculated by dividing the number of inhabitants that are
+  covered by the previously mentioned mobile-cellular technologies by the total
+  population and multiplying by 100. It excludes people covered only by HSPA,
+  UMTS, EV-DO and previous 3G technologies, and also excludes fixed WiMAX
+  coverage.</p>
 
   <p>As technologies evolve and as more and more countries will deploy and
   commercialize more advanced mobile-broadband networks (5G etc.), the indicator
-  will include further breakdowns.</p>
+  will include further breakdowns.&quot;</p>
+UNIT_MEASURE: <p>Proportion of population covered.</p>
+CLASS_SYSTEM: >-
+  <p>Technologies as defined in the ITU Handbook for the Collection of
+  Administrative Data on Telecommunications/ICT 2020.</p>
 SOURCE_TYPE: >-
-  <h1>Data sources</h1>
-
-  <h2>Description:</h2>
-
   <p>This indicator is based on an internationally agreed definition and
   methodology, which have been developed under the coordination of ITU, through
   its Expert Groups and following an extensive consultation process with
@@ -78,31 +73,21 @@ SOURCE_TYPE: >-
   national regulatory authorities or Information and Communication Technology
   Ministries, who collect the data from Internet service providers.</p>
 COLL_METHOD: >-
-  <h2>Collection process:</h2>
-
-  <p>ITU collects data for this indicator through an annual questionnaire from
-  national regulatory authorities or Information and Communication Technology
-  Ministries, who collect the data from Internet service providers.</p>
-FREQ_COLL: >-
-  <h1>Calendar</h1>
-
-  <h2>Data collection:</h2>
-
-  <p>Data are collected through the short ITU World Telecommunication/ICT
-  Indicators Questionnaire in April of each year and published in June of each
-  year.</p>
-REL_CAL_POLICY: |-
-  <h2>Data release:</h2>
-  <p>June 2016.</p>
-DATA_SOURCE: |-
-  <h1>Data providers</h1>
-  <p>Telecommunication/ICT regulatory authority, or Ministry of ICTs.</p>
-COMPILING_ORG: |-
-  <h1>Data compilers</h1>
-  <p>ITU</p>
+  <p>ITU collects data for this indicator through a questionnaire from national
+  regulatory authorities or Information and Communication Technology Ministries,
+  who collect the data from Internet service providers.</p>
+FREQ_COLL: '<p>ITU collects data twice a year from Member States, in Q1 and in Q3.</p>'
+REL_CAL_POLICY: >-
+  <p>Data are released twice a year, In July and December, in the <a
+  href="https://www.itu.int/en/ITU-D/Statistics/Pages/publications/wtid.aspx">Wor&#x200B;ld
+  Telecommun&#x200B;ic&#x200B;ation/ICT Indicators
+  Database&#x200B;</a>&#x200B;.</p>
+DATA_SOURCE: '<p>Telecommunication/ICT regulatory authority, or Ministry of ICTs.</p>'
+COMPILING_ORG: <p>ITU</p>
+INST_MANDATE: >-
+  <p>As the UN specialized agency for ICTs, ITU is the official source for
+  global ICT statistics, collecting ICT data from its Member States. </p>
 RATIONALE: >-
-  <h2>Rationale:</h2>
-
   <p>The percentage of the population covered by a mobile cellular network can
   be considered as a minimum indicator for ICT access since it provides people
   with the possibility to subscribe to and use mobile-cellular services to
@@ -126,41 +111,30 @@ RATIONALE: >-
   specific targets in terms of the mobile population coverage (by technology)
   that operators must achieve.</p>
 REC_USE_LIM: >-
-  <h2>Comments and limitations:</h2>
-
   <p>Some countries have difficulty calculating overall mobile-cellular
   population coverage. In some cases, data refer only to the operator with the
   largest coverage, and this may understate the true coverage.</p>
 DATA_COMP: >-
-  <h1>Methodology</h1>
-
-  <h2>Computation method:</h2>
-
   <p>The indicator percentage of the population covered by a mobile network,
   broken down by technology, refers to the percentage of inhabitants living
   within range of a mobile-cellular signal, irrespective of whether or not they
   are mobile phone subscribers or users. This is calculated by dividing the
   number of inhabitants within range of a mobile-cellular signal by the total
   population and multiplying by 100.</p>
+DATA_VALIDATION: >-
+  <p>Data are submitted by Member States to ITU. ITU checks and validates the
+  data, in consultation with the Member States. </p>
 IMPUTATION: >-
-  <h2>Treatment of missing values:</h2>
-
-  <ul>
-    <li><strong><em>At country level:</em></strong></li>
-  </ul>
+  <p><strong>&#x2022; At country level</strong></p>
 
   <p>Missing values are estimated using data published by mobile cellular
   operators that have the largest market share.</p>
 
-  <ul>
-    <li><strong><em>At regional and global levels:</em></strong></li>
-  </ul>
+  <p><strong>&#x2022; At regional and global levels</strong></p>
 
   <p>Missing values are estimated using data published by mobile cellular
   operators that have the largest market share.</p>
 REG_AGG: >-
-  <h2>Regional aggregates:</h2>
-
   <p>Global and regional estimates are produced using weighted country-level
   data. First, the missing country-level data are estimated using data of the
   dominant mobile operator. Once all the country-level percentages are
@@ -170,16 +144,35 @@ REG_AGG: >-
   a signal were calculated by summing the country-level data. The aggregate
   percentages were calculated by dividing the regional totals by the population
   of respective groups.</p>
+DOC_METHOD: >-
+  <p>ITU Handbook for the Collection of Administrative Data on
+  Telecommunications/ICT 2020: <a
+  href="https://www.itu.int/en/ITU-D/Statistics/Pages/publications/handbook.aspx">https://www.itu.int/en/ITU-D/Statistics/Pages/publications/handbook.aspx</a>
+  </p>
+QUALITY_MGMNT: >-
+  <p>Data are checked and validated by the ICT Data and Analytics (IDA) Division
+  of the ITU. Countries are contacted to clarify and correct their
+  submissions.</p>
+QUALITY_ASSURE: >-
+  <p>The guidelines of the ITU Handbook for the Collection of Administrative
+  Data on Telecommunications/ICT 2020 are followed.</p>
+QUALITY_ASSMNT: >-
+  <p>The guidelines of the ITU Handbook for the Collection of Administrative
+  Data on Telecommunications/ICT 2020 are followed.</p>
 COVERAGE: >-
-  <h1>Data availability</h1>
+  <p><strong>Data availability:</strong></p>
 
-  <p>By 2015, data on 2G mobile population coverage were available for about 147
-  countries, from developed and developing regions, and covering all key global
-  regions. Data on 3G mobile population coverage were available for 152
-  countries and data on LTE mobile population coverage were available for 124
-  countries. ITU publishes data on this indicator yearly.</p>
+  <p>Data for this indicator exist for more than 160 economies.</p>
 
-  <h2>Disaggregation:</h2>
+  <p><strong>Time series:</strong></p>
+
+  <p>1997 onwards for 2G</p>
+
+  <p>2007 onwards for 3G</p>
+
+  <p>2012onwards for LTE</p>
+
+  <p><strong>Disaggregation:</strong></p>
 
   <p>Based on the data for the percentage of the population covered by a mobile
   network, broken down by technology, and on rural population figures, countries
@@ -191,15 +184,15 @@ COMPARABILITY: >-
   <p>None. ITU uses the data provided by countries, including the in-scope
   population that is used to calculate the percentages.</p>
 OTHER_DOC: >-
-  <h1>References</h1>
-
-  <h2>URL:</h2>
+  <p><strong>URL:</strong></p>
 
   <p><a
-  href="http://www.itu.int/en/ITU-D/Statistics/Pages/default.aspx">http://www.itu.int/en/ITU-D/Statistics/Pages/default.aspx</a></p>
+  href="http://www.itu.int/en/ITU-D/Statistics/Pages/default.aspx">http://www.itu.int/en/ITU-D/Statistics/Pages/default.aspx</a>
+  </p>
 
-  <h2>References:</h2>
+  <p><strong>References:</strong></p>
 
-  <p>ITU Handbook for the collection of Administrative Data on
-  Telecommunications/ICT, 2011 (and revisions and new indicators), see:<a
-  href="http://www.itu.int/en/ITUD/Statistics/Pages/publications/handbook.aspx">http://www.itu.int/en/ITUD/Statistics/Pages/publications/handbook.aspx</a></p>
+  <p>ITU Handbook for the Collection of Administrative Data on
+  Telecommunications/ICT 2020: <a
+  href="https://www.itu.int/en/ITU-D/Statistics/Pages/publications/handbook.aspx">https://www.itu.int/en/ITU-D/Statistics/Pages/publications/handbook.aspx</a>
+  </p>

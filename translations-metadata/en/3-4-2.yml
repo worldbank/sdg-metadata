@@ -1,24 +1,20 @@
-SDG_GOAL: >-
-  <p>Goal 3: Ensure healthy lives and promote well-being for all at all ages
-  </p>
+SDG_GOAL: '<p>Goal 3: Ensure healthy lives and promote well-being for all at all ages</p>'
 SDG_TARGET: >-
   <p>Target 3.4: By 2030, reduce by one third premature mortality from
   non-communicable diseases through prevention and treatment and promote mental
-  health and well-being </p>
-SDG_INDICATOR: '<p>Indicator 3.4.2: Suicide mortality rate </p>'
-META_LAST_UPDATE: <p>May 2021</p>
+  health and well-being</p>
+SDG_INDICATOR: '<p>Indicator 3.4.2: Suicide mortality rate</p>'
+META_LAST_UPDATE: <p>2021-05-01</p>
 SDG_RELATED_INDICATORS: <p>NA</p>
 SDG_CUSTODIAN_AGENCIES: <p>World Health Organization (WHO) </p>
-CONTACT_ORGANISATION: |-
-  <p> </p>
-  <p>World Health Organization (WHO) </p>
+CONTACT_ORGANISATION: <p>World Health Organization (WHO) </p>
 STAT_CONC_DEF: >-
-  <p>Definitions: </p>
+  <p><strong>Definitions: </strong></p>
 
   <p>The Suicide mortality rate as defined as the number of suicide deaths in a
   year, divided by the population, and multiplied by 100 000. </p>
 
-  <p>Concepts:</p>
+  <p><strong>Concepts:</strong></p>
 UNIT_MEASURE: <p>Rate per 100 000 population </p>
 CLASS_SYSTEM: >-
   <p>Suicides are defined in terms of the International Classification of
@@ -89,7 +85,7 @@ ADJUSTMENT: >-
   within cause-sex groups of known ages. </p>
 IMPUTATION: >-
   <ul>
-    <li>At country level: </li>
+    <li><strong>At country level: </strong></li>
   </ul>
 
   <p> </p>
@@ -108,7 +104,7 @@ IMPUTATION: >-
   <p> </p>
 
   <ul>
-    <li>At regional and global levels </li>
+    <li><strong>At regional and global levels </strong></li>
   </ul>
 
   <p> </p>
@@ -154,7 +150,7 @@ QUALITY_ASSMNT: >-
   group convened by the World Health Organization, the guidelines aim to define
   and promote good practice in reporting health estimates.</p>
 COVERAGE: >-
-  <p>Data availability:</p>
+  <p><strong>Data availability:</strong></p>
 
   <p>Almost 70 countries currently provide WHO with regular high-quality data on
   mortality by age, sex and causes of death, and another 58 countries submit
@@ -162,13 +158,15 @@ COVERAGE: >-
   calculated by WHO systematically for all of its Member States (with a certain
   population threshold) every 3 years. </p>
 
-  <p>Time series: From 2000 to 2019</p>
+  <p><strong>Time series:</strong></p>
 
-  <p>Disaggregation: </p>
+  <p>From 2000 to 2019</p>
+
+  <p><strong>Disaggregation: </strong></p>
 
   <p>Sex, age group </p>
 COMPARABILITY: >-
-  <p>Sources of discrepancies:</p>
+  <p><strong>Sources of discrepancies:</strong></p>
 
   <p>In countries with high quality vital registration systems, point estimates
   sometimes differ primarily for two reasons: 1) WHO redistributes deaths with

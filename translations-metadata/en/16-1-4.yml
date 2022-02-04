@@ -8,7 +8,8 @@ SDG_TARGET: >-
 SDG_INDICATOR: >-
   <p>Indicator 16.1.4: Proportion of population that feel safe walking alone
   around the area they live</p>
-META_LAST_UPDATE: <p>26 April 2021</p>
+SDG_SERIES_DESCR: <p>Not applicable </p>
+META_LAST_UPDATE: <p>2021-12-06</p>
 SDG_RELATED_INDICATORS: >-
   <p>This indicator complements the other indicators of Target 16.1, which focus
   on the rate of intentional homicide (16.1.1), the rate of conflict-related
@@ -25,7 +26,7 @@ STAT_CONC_DEF: >-
   <p><strong>Definition:</strong></p>
 
   <p>This indicator refers to the proportion of the adult population who feel
-  safe walking alone in their neighbourhood at night.</p>
+  safe walking alone in their neighbourhood after dark.</p>
 
   <p><strong>Concepts:</strong></p>
 
@@ -34,23 +35,44 @@ STAT_CONC_DEF: >-
   limiting the area in question to the &#x201C;neighbourhood&#x201D; or
   &#x201C;area they live in&#x201D;. Various other formulations of local
   neighbourhood may be appropriate depending on cultural, physical and language
-  context.</p>
+  context. Providing a universally applicable definition of neighborhood is
+  challenging, as one&#x2019;s neighbourhood is a subjective concept that will
+  mean different things to different people.<sup><a href="#footnote-2"
+  id="footnote-ref-2">[1]</a></sup> </p>
 
-  <p>&#x201C;At night&#x201D;- the indicator should specifically capture
-  respondent&#x2019;s feelings and perceptions when walking alone at night/after
-  dark. The specific reference to that point of the day is important because
-  according to research,<sup><a href="#footnote-2"
-  id="footnote-ref-2">[1]</a></sup> darkness is one of the factors individuals
-  perceive as important when assessing whether a situation is dangerous.</p><div
-  class="footnotes"><div><sup class="footnote-number" id="footnote-2">1</sup><p>
-  See e.g. Warr, Mark. 1990. &quot;Dangerous Situations: Social Context and Fear
-  of Victimization&quot;. Social Forces. 68 (3): 891-907. <a
-  href="#footnote-ref-2">&#x2191;</a></p></div></div>
+  <p>&#x201C;After dark&#x201D;- the indicator should specifically capture
+  respondent&#x2019;s feelings and perceptions when walking alone after dark.
+  The specific reference to darkness is important because according to
+  research,<sup><a href="#footnote-3" id="footnote-ref-3">[2]</a></sup> darkness
+  is one of the factors individuals perceive as important when assessing whether
+  a situation is dangerous. While the specific reference to &#x201C;after
+  dark&#x201D; is the preferrable wording and widely used in crime victimisation
+  surveys,<sup><a href="#footnote-4" id="footnote-ref-4">[3]</a></sup> a
+  suitable alternative wording is &#x201C;at night&#x201D;.<sup><a
+  href="#footnote-5" id="footnote-ref-5">[4]</a></sup> Specifying an exact time
+  of the day (e.g. 6pm), however, is not advisable as darkness (not time of day
+  per se) is the factor that affects individuals perception of safety, and
+  cross-national as well as seasonal variation in the onset of darkness makes it
+  problematic to establish a universally suitable threshold to define
+  nighttime.</p><div class="footnotes"><div><sup class="footnote-number"
+  id="footnote-2">1</sup><p> Ferraro, K. F., &amp; LaGrange, R. L.. 1987. The
+  measurement of fear of crime. Sociological Inquiry, 57(1), 70&#x2013;101. <a
+  href="#footnote-ref-2">&#x2191;</a></p></div><div><sup class="footnote-number"
+  id="footnote-3">2</sup><p> See e.g. Warr, Mark. 1990. &quot;Dangerous
+  Situations: Social Context and Fear of Victimization&quot;. Social Forces. 68
+  (3): 891-907. <a href="#footnote-ref-3">&#x2191;</a></p></div><div><sup
+  class="footnote-number" id="footnote-4">3</sup><p> UNODC-UNECE (2010) Manual
+  on Victimization Surveys, p. 57; <a
+  href="#footnote-ref-4">&#x2191;</a></p></div><div><sup class="footnote-number"
+  id="footnote-5">4</sup><p> Roberts B. (2014) Fear of Walking Alone at Night.
+  In: Michalos A.C. (eds) Encyclopedia of Quality of Life and Well-Being
+  Research. Springer, Dordrecht. https://doi.org/10.1007/978-94-007-0753-5_1023
+  <a href="#footnote-ref-5">&#x2191;</a></p></div></div>
 UNIT_MEASURE: <p>Proportion/percentage</p>
 CLASS_SYSTEM: <p>Not applicable</p>
 SOURCE_TYPE: >-
   <p>The indicator is based on a single survey question (&#x2018;How safe do you
-  feel walking alone in your area/neighbourhood at night?&#x2019;) to be
+  feel walking alone in your area/neighbourhood after dark?&#x2019;) to be
   included in a general population survey. The question can be an add-on survey
   module to be incorporated into other ongoing general population surveys (such
   as surveys on corruption, governance, quality of life, public attitudes or
@@ -58,26 +80,28 @@ SOURCE_TYPE: >-
   victimisation.</p>
 
   <p>Data should be collected as part of a nationally representative probability
-  sample of adult population residing in the country, irrespective of legal
-  residence status. The sampling frame and sample design should ensure that
-  results can be disaggregated at sub-national level. It is recommended that the
-  sample size is sufficiently large to allow for disaggregation by age, gender,
-  ethnicity, and other relevant.</p>
+  sample of adult population (this typically refers to the population aged 18
+  years and above) residing in the country, irrespective of legal residence
+  status. The sampling frame and sample design should ensure that results can be
+  disaggregated at sub-national level. It is recommended that the sample size is
+  sufficiently large to allow for disaggregation by age, gender, ethnicity, and
+  other relevant.</p>
 
   <p>The survey documentation should provide the specific wording used to
   collect data on fear of crime/perceptions of safety, enable the identification
-  of possible discrepancies from standard definitions, and allow an assessment
-  of the overall data quality (e.g. sample size, target population, agency
-  responsible for the data collection, etc.).</p>
+  of possible discrepancies from standard definitions (e.g. no reference to
+  &#x201C;after dark&#x201D; or &#x201C;neighbourhood&#x201D;), and allow an
+  assessment of the overall data quality (e.g. sample size, target population,
+  agency responsible for the data collection, etc.).</p>
 COLL_METHOD: >-
   <p>At the international level, data are collected by UNODC through the annual
   United Nations Survey of Crime Trends and Operations of the Criminal Justice
-  Systems (UN-CTS) data collection initiative.<sup><a href="#footnote-3"
-  id="footnote-ref-3">[2]</a></sup> Data are produced at the national level and
+  Systems (UN-CTS) data collection initiative.<sup><a href="#footnote-6"
+  id="footnote-ref-6">[5]</a></sup> Data are produced at the national level and
   sent to UNODC by Member States, usually through national UN-CTS Focal Points,
   which in most cases are national institutions responsible for data production
   in the area of crime and criminal justice (National Statistical Offices,
-  Ministry of Interior, Ministry of Justice, etc.). Since 2016, the UN-CTS
+  Ministry of Interior, Ministry of Justice, etc.). Since 2017, the UN-CTS
   collects available nationally produced survey data on fear of crime as part of
   its victimisation module in the UN-CTS. When necessary, other data sources may
   be used, including from websites, publications, other forms of
@@ -85,9 +109,9 @@ COLL_METHOD: >-
 
   <p>Data for SDG monitoring will be sent to countries for consultation prior to
   publication.</p><div class="footnotes"><div><sup class="footnote-number"
-  id="footnote-3">2</sup><p> <a
+  id="footnote-6">5</sup><p> <a
   href="https://www.unodc.org/unodc/en/data-and-analysis/United-Nations-Surveys-on-Crime-Trends-and-the-Operations-of-Criminal-Justice-Systems.html">https://www.unodc.org/unodc/en/data-and-analysis/United-Nations-Surveys-on-Crime-Trends-and-the-Operations-of-Criminal-Justice-Systems.html</a>
-  <a href="#footnote-ref-3">&#x2191;</a></p></div></div>
+  <a href="#footnote-ref-6">&#x2191;</a></p></div></div>
 FREQ_COLL: >-
   <p>Countries are encouraged to conduct surveys on crime victimisation in
   regular intervals, but at least every four years to reflect progress between
@@ -119,7 +143,7 @@ RATIONALE: >-
   the concept of &#x2018;fear of crime&#x2019;, which has been elicited in
   dozens of crime victimization surveys, and the standard formulation used here
   has been shown to be applicable in different cultural contexts.<sup><a
-  href="#footnote-4" id="footnote-ref-4">[3]</a></sup> It is important to note
+  href="#footnote-7" id="footnote-ref-7">[6]</a></sup> It is important to note
   that fear of crime is a phenomenon that is separate from the prevalence of
   crime and that fear of crime may be even largely independent from actual
   experience. The perception of crime and the resulting fear of it is influenced
@@ -130,9 +154,9 @@ RATIONALE: >-
   engagement in the community, and thus represent an obstacle to development.
   Fear of crime also differs across demographic groups and this indicator helps
   to identify vulnerable groups.</p><div class="footnotes"><div><sup
-  class="footnote-number" id="footnote-4">3</sup><p> UNODC-UNECE (2010) Manual
+  class="footnote-number" id="footnote-7">6</sup><p> UNODC-UNECE (2010) Manual
   on Victimization Surveys, p. 56. <a
-  href="#footnote-ref-4">&#x2191;</a></p></div></div>
+  href="#footnote-ref-7">&#x2191;</a></p></div></div>
 REC_USE_LIM: >-
   <p>Victimization surveys (as dedicated surveys or as modules of household
   surveys) are usually restricted to the general population living in households
@@ -141,7 +165,7 @@ REC_USE_LIM: >-
 
   <p>There are several limitations associated with the wording of the survey
   question used to measure fear of crime (&#x2018;How safe do you feel walking
-  alone in your area/neighbourhood at night?&#x2019;). First, the question
+  alone in your area/neighbourhood after dark?&#x2019;). First, the question
   assumes that respondents do the following: (1) go out, (2) go out alone, (3)
   go out in their neighbourhood, and (4) go out after dark. For many
   respondents, the reasons for not going out alone in their neighbourhood after
@@ -154,16 +178,17 @@ REC_USE_LIM: >-
   &#x2018;crime&#x2019;, but rather it is implicit in the question. There may be
   other reasons unrelated to crime (e.g. wild animals, traffic, etc.) why
   respondents may not feel safe walking around their neighbourhood after
-  dark.<sup><a href="#footnote-5" id="footnote-ref-5">[4]</a></sup></p><div
-  class="footnotes"><div><sup class="footnote-number" id="footnote-5">4</sup><p>
+  dark.<sup><a href="#footnote-8" id="footnote-ref-8">[7]</a></sup></p><div
+  class="footnotes"><div><sup class="footnote-number" id="footnote-8">7</sup><p>
   UNODC-UNECE (2010) Manual on Victimization Surveys, p. 57. <a
-  href="#footnote-ref-5">&#x2191;</a></p></div></div>
+  href="#footnote-ref-8">&#x2191;</a></p></div></div>
 DATA_COMP: >-
   <p>The question used in victimization surveys is: How safe do you feel walking
-  alone in your area/neighbourhood at night? Answer options are typically: (1)
-  Very safe, (2) safe, (3) unsafe (4), very unsafe, (5) I never go out alone at
-  night/does not apply, (99) don&#x2019;t know.<sup><a href="#footnote-6"
-  id="footnote-ref-6">[5]</a></sup> The proportion of population that feel safe
+  alone in your area/neighbourhood after dark?<sup><a href="#footnote-9"
+  id="footnote-ref-9">[8]</a></sup> Answer options are typically: (1) Very safe,
+  (2) safe, (3) unsafe (4), very unsafe, (5) I never go out alone at night/does
+  not apply, (99) don&#x2019;t know.<sup><a href="#footnote-10"
+  id="footnote-ref-10">[9]</a></sup> The proportion of population that feel safe
   is calculated by summing up the number of respondents who feel &#x201C;very
   safe&#x201D; and &#x201C;safe&#x201D; and dividing the total by the total
   number of respondents, and multiplying by 100.</p>
@@ -181,6 +206,7 @@ DATA_COMP: >-
           <mi>N</mi>
           <mi>u</mi>
           <mi>m</mi>
+          <mi>b</mi>
           <mi>e</mi>
           <mi>r</mi>
           <mi>&amp;nbsp;</mi>
@@ -241,13 +267,15 @@ DATA_COMP: >-
           <mi>e</mi>
           <mi>&amp;nbsp;</mi>
           <mi>a</mi>
+          <mi>f</mi>
           <mi>t</mi>
+          <mi>e</mi>
+          <mi>r</mi>
           <mi>&amp;nbsp;</mi>
-          <mi>n</mi>
-          <mi>i</mi>
-          <mi>g</mi>
-          <mi>h</mi>
-          <mi>t</mi>
+          <mi>d</mi>
+          <mi>a</mi>
+          <mi>r</mi>
+          <mi>k</mi>
           <mi>&amp;nbsp;</mi>
           <mi>i</mi>
           <mi>n</mi>
@@ -312,7 +340,7 @@ DATA_COMP: >-
       </mfrac>
       <mi>X</mi>
       <mn>100</mn>
-    </math></p><div class="footnotes"><div><sup class="footnote-number" id="footnote-6">5</sup><p> It is recommended that where the respondent&#x2019;s answer is &#x201C;I never go out alone at night&#x201D;, the following probing question is asked: &#x201C;How safe <em>would </em>you feel if you went outside at night?&#x201D;. <a href="#footnote-ref-6">&#x2191;</a></p></div></div>
+    </math></p><div class="footnotes"><div><sup class="footnote-number" id="footnote-9">8</sup><p> This question is intended to capture respondents&#x2019; perception of safety when thinking about crime, although it does not explicitly mention crime or prime respondents to think about crime. Where the respondent&#x2019;s answer is &#x201C;Unsafe&#x201D; or &#x201C;Very unsafe&#x201D;, the following probing question may be asked to further understand why respondents feel unsafe: &#x201C;Why do you feel unsafe walking alone in your area/neighbourhood at night after dark?&#x201D; Possible answer options should be tailored to the specific country context and, in addition to crime-related reasons could also include options that are not crime-related. To avoid biasing respondents answers, it is recommended that answer options are not revealed to the respondent. <a href="#footnote-ref-9">&#x2191;</a></p></div><div><sup class="footnote-number" id="footnote-10">9</sup><p> It is recommended that where the respondent&#x2019;s answer is &#x201C;I never go out alone after dark&#x201D;, the following probing question is asked: &#x201C;How safe <em>would </em>you feel if you went outside after dark?&#x201D;.. <a href="#footnote-ref-10">&#x2191;</a></p></div></div>
 DATA_VALIDATION: >-
   <p>The data for the indicator is collected through household surveys conducted
   by National Statistics Offices (NSOs) or other institutions following tight
@@ -327,22 +355,24 @@ DATA_VALIDATION: >-
   publication. </p>
 ADJUSTMENT: <p> Not applicable</p>
 IMPUTATION: |-
-  <p>&#x2022; At country level</p>
+  <p>&#x2022; <strong>At country level</strong></p>
   <p>Missing values are left blank</p>
-  <p>&#x2022; At regional and global levels</p>
+  <p>&#x2022; <strong>At regional and global levels</strong></p>
   <p>Missing values are left blank</p>
 REG_AGG: >-
   <p>Regional and global estimates are currently not produced due to limited
   data coverage.</p>
 DOC_METHOD: >-
-  <p>In 2010 UNODC-UNECE published a Manual on Victimization Surveys that
-  provides technical guidance on the implementation of such surveys, on the
-  basis of good practices developed at the country-level. The UNODC-UNECE Manual
-  on Victimization Surveys (2010) is available at: <a
+  <p>In 2010 the United Nations Office on Drugs and Crime and the United Nations
+  Economic Commission for Europe (UNODC-UNECE) published a Manual on
+  Victimization Surveys that provides technical guidance on the implementation
+  of such surveys, on the basis of good practices developed at the
+  country-level. The UNODC-UNECE Manual on Victimization Surveys (2010) is
+  available at: <a
   href="https://www.unodc.org/documents/data-and-analysis/Crime-statistics/Manual_on_Victimization_surveys_2009_web.pdf">https://www.unodc.org/documents/data-and-analysis/Crime-statistics/Manual_on_Victimization_surveys_2009_web.pdf</a>
   </p>
 QUALITY_MGMNT: >-
-  <p> UNODC has a statistical unit with dedicated staff to support the data
+  <p>UNODC has a statistical unit with dedicated staff to support the data
   collection through technical assistance, collating and verifying the received
   data and continuously improve data collection mechanisms including
   guidelines.</p>
@@ -366,11 +396,14 @@ COVERAGE: >-
   methodologies in order to assess the population&#x2019;s perception of safety
   and fear of crime. However, the scale and methods of administration vary. Many
   of these surveys contain the question needed to compute indicator 16.1.4.
-  (&#x2018;How safe do you feel walking alone in your area/neighbourhood at
-  night?&#x2019;). This suggests that data on this indicator will become more
+  (&#x2018;How safe do you feel walking alone in your area/neighbourhood after
+  dark?&#x2019;). This suggests that data on this indicator will become more
   widely available over the next few years.</p>
 
   <p>Recommended disaggregation for this indicator:</p>
+
+  <p>- time of day (perception of safety &#x201C;during the day&#x201D; and
+  &#x201C;after dark&#x201D;)</p>
 
   <p>- age</p>
 
@@ -394,8 +427,16 @@ OTHER_DOC: >-
 
   <p><strong>References:</strong></p>
 
-  <p>Warr, Mark. 1990. &quot;Dangerous Situations: Social Context and Fear of
-  Victimization&quot;. Social Forces. 68 (3): 891-907.</p>
+  <p>Ferraro, K. F., &amp; LaGrange, R. L.. 1987. &#x201C;The measurement of
+  fear of crime&#x201D;. Sociological Inquiry, 57(1), 70&#x2013;101.</p>
+
+  <p>Roberts B. 2014. &#x201C;Fear of Walking Alone at Night&#x201D;. In:
+  Michalos A.C. (eds) Encyclopedia of Quality of Life and Well-Being Research.
+  Springer, Dordrecht. https://doi.org/10.1007/978-94-007-0753-5_1023</p>
 
   <p>UNODC-UNECE. 2010. Manual on Victimization Surveys. Available at : <a
-  href="https://www.unodc.org/documents/data-and-analysis/Crime-statistics/Manual_on_Victimization_surveys_2009_web.pdf">https://www.unodc.org/documents/data-and-analysis/Crime-statistics/Manual_on_Victimization_surveys_2009_web.pdf</a></p>
+  href="https://www.unodc.org/documents/data-and-analysis/Crime-statistics/Manual_on_Victimization_surveys_2009_web.pdf">https://www.unodc.org/documents/data-and-analysis/Crime-statistics/Manual_on_Victimization_surveys_2009_web.pdf</a>
+  </p>
+
+  <p>Warr, Mark. 1990. &quot;Dangerous Situations: Social Context and Fear of
+  Victimization&quot;. Social Forces. 68 (3): 891-907.</p>

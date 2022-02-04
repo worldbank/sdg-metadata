@@ -7,21 +7,17 @@ SDG_TARGET: >-
 SDG_INDICATOR: >-
   <p>Indicator 17.3.2: Volume of remittances (in United States dollars) as a
   proportion of total GDP</p>
-META_LAST_UPDATE: '<p>Last updated: 19 July 2016</p>'
-SDG_CUSTODIAN_AGENCIES: |-
-  <h1>Institutional information</h1>
-  <h2><strong><strong>Organization(s):</strong></strong></h2>
-  <p>World Bank (WB)</p>
+META_LAST_UPDATE: <p>2016-07-19</p>
+SDG_CUSTODIAN_AGENCIES: <p>World Bank (WB)</p>
+CONTACT_ORGANISATION: <p>World Bank (WB)</p>
 STAT_CONC_DEF: >-
-  <h1>Concepts and definitions</h1>
-
-  <h2><strong><strong>Definition:</strong></strong></h2>
+  <p><strong>Definition:</strong></p>
 
   <p>Personal remittances received as proportion of GDP is the inflow of
   personal remittances expressed as a percentage of Gross Domestic Product
   (GDP). </p>
 
-  <h2><strong><strong>Concepts:</strong></strong></h2>
+  <p><strong>Concepts:</strong></p>
 
   <p>Personal remittances comprise of personal transfers and compensation of
   employees. Personal transfers consist of all current transfers in cash or in
@@ -31,15 +27,12 @@ STAT_CONC_DEF: >-
   income of border, seasonal, and other short-term workers who are employed in
   an economy where they are not resident and of residents employed by
   non-resident entities. Data are the sum of two items defined in the sixth
-  edition of the IMF&apos;s <em>Balance of Payments Manual</em>: personal
-  transfers and compensation of employees.</p>
+  edition of the IMF&apos;s Balance of Payments Manual: personal transfers and
+  compensation of employees.</p>
 
   <p>The concepts used are in line with the Sixth Edition of the IMF&apos;s
-  <em>Balance of Payments and International Investment Position Manual</em>
-  (<em>BPM6</em>).</p>
+  Balance of Payments and International Investment Position Manual (BPM6).</p>
 SOURCE_TYPE: >-
-  <h1>Data sources</h1>
-
   <p>Volume of personal remittances data are sourced from IMF&#x2019;s Balance
   of Payments Statistics database and then gap-filled with World Bank staff
   estimates. </p>
@@ -50,12 +43,8 @@ SOURCE_TYPE: >-
   in the Bank&#x2019;s country office network &#x2013; the World Bank&#x2019;s
   principal mechanism for gathering quantitative macroeconomic information on
   its member countries.</p>
-FREQ_COLL: |-
-  <h1>Calendar</h1>
-  <p>This is done on an annual basis.</p>
+FREQ_COLL: <p>This is done on an annual basis.</p>
 DATA_SOURCE: >-
-  <h1>Data providers</h1>
-
   <p>The national data provider of personal remittances is the institution in
   charge of the collection and compilation of the Balance of Payments
   statistics. This responsibility varies and is country specific (i.e. Central
@@ -67,14 +56,12 @@ DATA_SOURCE: >-
   </p>
 
   <p>GDP data are sourced from the World Bank&#x2019;s World Development
-  Indicators (WDI) database and are compiled in accordance to the <em>System of
-  National Accounts, 2008</em> (<em>2008 SNA</em>) methodology. GDP data
-  collection is conducted through the Unified Survey process, the World
-  Bank&#x2019;s principal mechanism for gathering quantitative macroeconomic
-  information on its member countries.</p>
+  Indicators (WDI) database and are compiled in accordance to the System of
+  National Accounts, 2008 (2008 SNA) methodology. GDP data collection is
+  conducted through the Unified Survey process, the World Bank&#x2019;s
+  principal mechanism for gathering quantitative macroeconomic information on
+  its member countries.</p>
 COMPILING_ORG: >-
-  <h1>Data compilers</h1>
-
   <p>The government agency in charge of the collection and compilation of the
   Balance of Payments statistics is the responsible organization for compilation
   and reporting of the personal remittances data. This information gets reported
@@ -82,68 +69,53 @@ COMPILING_ORG: >-
   Fund. The World Bank is the responsible agency for compilation and reporting
   of the GDP data.</p>
 DATA_COMP: >-
-  <h1>Methodology</h1>
-
-  <h2><strong><strong>Computation method:</strong></strong></h2>
-
   <p>Personal remittances are the sum of two items defined in the sixth edition
-  of the IMF&apos;s <em>Balance of Payments Manual</em>: personal transfers and
+  of the IMF&apos;s Balance of Payments Manual: personal transfers and
   compensation of employees. World Bank staff estimates on the volume of
   personal remittances data are used for gap-filling purposes. GDP data, sourced
   from the World Bank&#x2019;s World Development Indicators (WDI) database, are
   then used to express the indicator as a percentage of GDP.</p>
 IMPUTATION: >-
-  <h2><strong><strong>Treatment of missing values:</strong></strong></h2>
-
-  <ul>
-    <li><strong><em>At country level:</em></strong></li>
-  </ul>
+  <p><strong>&#x2022; At country level</strong></p>
 
   <p>World Bank staff estimates for personal remittances data are based on data
   from IMF Balance of Payments Statistics database and data releases from
   central banks, national statistical agencies, and World Bank country
   desks.</p>
 
-  <ul>
-    <li><strong><em>At regional and global levels:</em></strong></li>
-  </ul>
+  <p><strong>&#x2022; At regional and global levels</strong></p>
 
   <p>NA</p>
 REG_AGG: >-
-  <h2><strong><strong>Regional aggregates:</strong></strong></h2>
-
-  <p>Regional and global estimates are calculated as the GDP weighted
-  average.</p>
+  <p>Regional and global estimates are calculated as the GDP weighted average.
+  </p>
 COVERAGE: >-
-  <h1>Data availability</h1>
+  <p><strong>Data availability:</strong></p>
 
   <p>Data for 207 countries are already currently available on a regular basis
   for this indicator.</p>
 
-  <h2><strong><strong>Disaggregation:</strong></strong></h2>
+  <p><strong>Time series:</strong></p>
+
+  <p><strong>Disaggregation:</strong></p>
 
   <p>None</p>
+COMPARABILITY: '<p><strong>Sources of discrepancies:</strong></p>'
 OTHER_DOC: >-
-  <h1><u> </u>References</h1>
+  <p><strong>URL:</strong></p>
 
-  <h2><strong><strong>URL:</strong></strong></h2>
+  <p>www.worldbank.org</p>
 
-  <p><a
-  href="https://d.docs.live.net/c8f087e0e47b6917/Desktop/Employment/WB/WB%20Metadata%20Project/Authoring%20Tool/www.worldbank.org">www.worldbank.org</a></p>
+  <p><strong>References:</strong></p>
 
-  <h2><strong><strong>References:</strong></strong></h2>
+  <p>Data are compiled in accordance with the sixth edition of the Balance of
+  Payments and International Investment Position Manual (BPM6). The manual is
+  available at: https://www.imf.org/external/pubs/ft/bop/2007/bopman6.htm</p>
 
-  <p>Data are compiled in accordance with the sixth edition of the <em>Balance
-  of Payments and International Investment Position Manual</em> (<em>BPM6</em>).
-  The manual is available at: <a
-  href="https://www.imf.org/external/pubs/ft/bop/2007/bopman6.htm">https://www.imf.org/external/pubs/ft/bop/2007/bopman6.htm</a></p>
-
-  <p>GDP data are compiled in accordance to the <em>System of National Accounts,
-  2008</em> (<em>2008 SNA</em>) methodology. The manual is available at: <a
-  href="http://unstats.un.org/unsd/nationalaccount/docs/SNA2008.pdf">http://unstats.un.org/unsd/nationalaccount/docs/SNA2008.pdf</a>.
-  </p>
+  <p>GDP data are compiled in accordance to the System of National Accounts,
+  2008 (2008 SNA) methodology. The manual is available at:
+  http://unstats.un.org/unsd/nationalaccount/docs/SNA2008.pdf. </p>
 
   <p>Metadata also available at:</p>
 
-  <p><a
-  href="http://databank.worldbank.org/data/reports.aspx?source=2&amp;type=metadata&amp;series=BX.TRF.PWKR.DT.GD.ZS">http://databank.worldbank.org/data/reports.aspx?source=2&amp;type=metadata&amp;series=BX.TRF.PWKR.DT.GD.ZS</a></p>
+  <p>http://databank.worldbank.org/data/reports.aspx?source=2&amp;type=metadata&amp;series=BX.TRF.PWKR.DT.GD.ZS</p>

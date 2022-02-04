@@ -1,23 +1,30 @@
-SDG_GOAL: '<p>Goal 12: Ensure sustainable consumption and production patterns</p>'
+SDG_GOAL: >-
+  <p>Goal 8: Promote sustained, inclusive and sustainable economic growth, full
+  and productive employment and decent work for all</p>
 SDG_TARGET: >-
-  <p>Target 12.2: By 2020, achieve the sustainable management and efficient use
-  of natural resources.</p>
+  <p>Target 8.4: Improve progressively, through 2030, global resource efficiency
+  in consumption and production and endeavour to decouple economic growth from
+  environmental degradation, in accordance with the 10&#x2011;Year Framework of
+  Programmes on Sustainable Consumption and Production, with developed countries
+  taking the lead</p>
 SDG_INDICATOR: >-
-  <p>Indicator 12.2.1: Material Footprint, material footprint per capita, and
-  material footprint per GDP</p>
-META_LAST_UPDATE: <p>4 February 2021</p>
-SDG_RELATED_INDICATORS: <p>Indicator 8.4.1</p>
+  <p>Indicator 8.4.1: Material Footprint, material footprint per capita, and
+  material footprint per GDP </p>
+META_LAST_UPDATE: <p>2021-02-04</p>
+SDG_RELATED_INDICATORS: <p>Indicator 12.2.1 </p>
 SDG_CUSTODIAN_AGENCIES: <p>United Nations Environment Programme (UNEP)</p>
-CONTACT_ORGANISATION: <p>United Nations Environment Programme (UNEP)</p>
+CONTACT_ORGANISATION: <p>United Nations Environment Programme (UNEP) </p>
 STAT_CONC_DEF: >-
-  <p>Definitions:</p>
+  <p><strong>Definition:</strong> </p>
 
   <p>Material Footprint (MF) is the attribution of global material extraction to
   domestic final demand of a country. The total material footprint is the sum of
   the material footprint for biomass, fossil fuels, metal ores and non-metal
   ores. </p>
 
-  <p>Concepts:</p>
+  <p> </p>
+
+  <p><strong>Concepts:</strong> </p>
 
   <p>Domestic Material Consumption (DMC) and MF need to be looked at in
   combination as they cover the two aspects of the economy, production and
@@ -26,7 +33,7 @@ STAT_CONC_DEF: >-
   demand. A country can, for instance have a very high DMC because it has a
   large primary production sector for export or a very low DMC because it has
   outsourced most of the material intensive industrial process to other
-  countries. The material footprint corrects for both phenomena. </p>
+  countries. The material footprint corrects for both phenomena.</p>
 UNIT_MEASURE: |-
   <p>Tonnes</p>
   <p>kilograms per constant United States dollar</p>
@@ -40,21 +47,21 @@ SOURCE_TYPE: >-
   sources for DMC and MF include the IEA, USGS, FAO and COMTRADE databases. </p>
 COLL_METHOD: >-
   <p>The IRP Global Material Flows and Resource Productivity working group
-  compiles the data from countries and from other sources.</p>
-FREQ_COLL: <p>Under discussion</p>
-REL_CAL_POLICY: <p>11 September 2017</p>
+  compiles the data from countries and from other sources. </p>
+FREQ_COLL: <p>Under discussion </p>
+REL_CAL_POLICY: <p>11 September 2017 </p>
 DATA_SOURCE: <p>National Statistical Offices </p>
-COMPILING_ORG: '<p>UNEP, OECD and EUROSTAT</p>'
+COMPILING_ORG: '<p>UNEP, OECD and EUROSTAT </p>'
 RATIONALE: >-
   <p>Material footprint of consumption reports the amount of primary materials
   required to serve final demand of a country and can be interpreted as an
   indicator for the material standard of living/level of capitalization of an
-  economy. Per-capita MF describes the average material use for final
-  demand.</p>
+  economy. Per-capita MF describes the average material use for final demand.
+  </p>
 REC_USE_LIM: >-
   <p>The global material flows database is based on country material flow
   accounts from the European Union and Japan and estimated data for the rest of
-  the world.</p>
+  the world. </p>
 DATA_COMP: >-
   <p>It is calculated as raw material equivalent of imports (RME<sub>IM</sub>)
   plus domestic extraction (DE) minus raw material equivalents of exports
@@ -65,6 +72,8 @@ DATA_COMP: >-
   University of Sydney, Australia (Lenzen et al. 2013) which is an
   internationally well-established and the most detailed and reliable MRIO
   framework available to date. </p>
+
+  <p> </p>
 DATA_VALIDATION: >-
   <p>The prefilled questionnaire with estimated data will be send to the
   National Statistical Office (NSO) Focal Points (FP) for the compilation of the
@@ -72,11 +81,11 @@ DATA_VALIDATION: >-
   with stakeholders within their countries and report back the data to UNEP. For
   countries with no national data collected for this indicator, UNEP will ask
   the countries to agree on publishing and releasing the estimated data on the
-  World Environment Situation Room and in the SDG Global database.</p>
-
-  <p> </p>
+  World Environment Situation Room and in the SDG Global database. </p>
 IMPUTATION: >-
-  <p>&#x2022; At country level:</p>
+  <ul>
+    <li><strong>At country level </strong></li>
+  </ul>
 
   <p>A zero is imputed when no positive real value was officially recorded, in
   the base data sets used, for any of the underlying components which make up
@@ -87,7 +96,11 @@ IMPUTATION: >-
   values as &#x2018;0.0&#x2019;, the aggregations may represent a lower value
   than actual situation. </p>
 
-  <p>&#x2022; At regional and global levels:</p>
+  <p> </p>
+
+  <ul>
+    <li><strong>At regional and global levels </strong></li>
+  </ul>
 
   <p>Similarly, missing values are imputed as zero in the regional and global
   aggregations. However, in the case where no data is available at all for a
@@ -96,47 +109,44 @@ IMPUTATION: >-
 REG_AGG: >-
   <p>The data will be aggregated at the sub-regional, regional and global
   levels. For the aggregation methods, please see:
-  http://wesr.unep.org/media/docs/graphs/aggregation_methods.pdf</p>
+  http://wesr.unep.org/media/docs/graphs/aggregation_methods.pdf </p>
 DOC_METHOD: >-
   <p>UNEP, Eurostat with the IRP and UNSD have developed a global manual on
   Economy Wide -Material Flow Accounting (EW-MFA) which brings in the European
   guidelines, but provides a modular approach for countries looking to develop
   EW-MFA for the first time and it addresses specific issues related to resource
-  extractive based economies. The EU Economy-wide material flow accounts
-  handbook 2018. </p>
+  extractive based economies.</p>
 
   <p>https://seea.un.org/sites/seea.un.org/files/global_material_flow_accounting_manual_final_draft.pdf</p>
 
   <p>https://ec.europa.eu/eurostat/web/products-manuals-and-guidelines/-/KS-GQ-18-006</p>
 COVERAGE: >-
-  <p>Data availability:</p>
+  <p><strong>Data availability:</strong></p>
 
-  <p>The data covers more than 170 countries.</p>
+  <p>The data covers more than 170 countries. </p>
 
-  <p>Time series:</p>
+  <p><strong>Time series:</strong></p>
 
   <p>The data set covers each nation individually, over a time period of 47
-  years (1970-2017).</p>
+  years (1970-2017). </p>
 
-  <p>Disaggregation:</p>
+  <p><strong>Disaggregation:</strong></p>
 
   <p>The MF indicator can be disaggregated to four main material categories, a
   varying number of economic sectors whose expenditure require materials and to
   three domestic final demand sectors (household consumption, government
   consumption and capital investment) and foreign final demand (i.e. exports).
   </p>
-COMPARABILITY: '<p>Sources of discrepancies:</p>'
+COMPARABILITY: '<p><strong>Sources of discrepancies:</strong></p>'
 OTHER_DOC: >-
-  <p><strong>URL:</strong></p>
-
-  <p><strong>References:</strong></p>
+  <p><strong>References:</strong> </p>
 
   <p>EUROSTAT (2013). Economy-wide material flow accounts. Compilation guide
-  2013.</p>
+  2013. </p>
 
   <p>Wiedmann, T., H. Schandl, M. Lenzen, D. Moran, S. Suh, J. West, K.
   Kanemoto, (2013) The Material Footprint of Nations, Proc. Nat. Acad. Sci.
-  Online before print.</p>
+  Online before print. </p>
 
   <p>Lenzen, M., Moran, D., Kanemoto, K., Geschke, A. (2013) Building Eora: A
   global Multi-regional Input-Output Database at High Country and Secotr
