@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<status>success</status>
+	<message>The COLL_METHOD field for indicator 1-3-1b, translated into all languages</message>
+	<data>
+		<languages>
+			<language lang="ar"/>
+			<language lang="en">&lt;p&gt;Unit-record data of nationally represenative household surveys are collected by National Statistical Offices (NSOs) and provided to the World Bank for analytical purposes. The ASPIRE team harmonizes social protection information captured by these household surveys to make the analysis reasonably comparable across countries and over time.&lt;/p&gt;
+&lt;p&gt;The ASPIRE harmonization methodology for household survey data rests on the following three steps:&lt;/p&gt;
+&lt;p&gt;1. &lt;em&gt;Identification and classification of social protection and labor (SPL) programs&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Household surveys are carefully reviewed to identify SPL program information. Once this information is identified, two levels of analysis are implemented: first, variables are created for each of the country specific programs found in the survey; second, program variables are aggregated and harmonized into 12 SPL program categories, and 2 private transfer categories. The country specific programs included into these main SPL categories are documented in detail and validated with WB country task teams in close coordination with national counterparts.&lt;/p&gt;
+&lt;p&gt;In order to generate the indicators, the following variables are also used: household identification number, location (urban/rural), household size, welfare aggregate, household weight, and two poverty lines: a relative poverty line, defined as the poorest 20% of the welfare distribution, and the international poverty line of PPP $1.90 per day.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;2. Welfare aggregates&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Households are ranked in quintiles of percapita welfare (income or consumption). Special efforts are made to include the most recently updated welfare aggregates officially agreed with National Statistical Offices and/or harmonized by the World Bank&amp;#x2019;s Global Monitoring Database (GMD) initiative led by the Poverty and Equity Global Practice. These welfare aggregates are comparable across countries and across years for global poverty monitoring and welfare measurement. &lt;/p&gt;
+&lt;p&gt;3. &lt;em&gt;PPP conversions&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;All monetary variables (transfer amounts) and welfare aggregates are deflated to 2011 values and then expressed in 2011 purchasing power parity (PPP) terms. To this effect, the private consumption PPP conversion factor is used.&lt;/p&gt;
+&lt;p&gt;Once the information is harmonized performance indicators are generated using ADePT social protection software.&lt;/p&gt;
+			</language>
+			<language lang="es"/>
+			<language lang="fr"/>
+			<language lang="pt"/>
+			<language lang="ru"/>
+</languages>
+</data>
+</root>

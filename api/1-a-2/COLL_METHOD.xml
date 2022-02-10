@@ -5,8 +5,11 @@
 	<data>
 		<languages>
 			<language lang="ar"/>
-			<language lang="en">&lt;p&gt;Data on education expenditure are submitted by country governments in response to the annual UIS survey on formal education or to the UNESCO-OECD-Eurostat (UOE) data collection. &lt;/p&gt;
-&lt;p&gt;Data on total general government expenditure (all sectors) are obtained from the International Monetary Fund&amp;apos;s World Economic Outlook database and are updated once a year. &lt;/p&gt;
+			<language lang="en">&lt;p&gt;There are two different methods used to collect data depending on the availability of data for a particular country:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;Data on education expenditure are submitted by country governments in response to the annual UIS survey on formal education or to the UNESCO-OECD-Eurostat (UOE) data collection. &lt;/li&gt;
+  &lt;li&gt;If a country does not respond to the annual survey, then data mining of publicly available sources as described above and then an indicator value is estimated based on a modelling approach as needed. &lt;/li&gt;
+&lt;/ol&gt;
 			</language>
 			<language lang="es"/>
 			<language lang="fr">&lt;p&gt;Les données sur les dépenses d&apos;éducation sont fournies par les gouvernements des pays en réponse à l&apos;enquête annuelle de l&apos;ISU sur l&apos;éducation formelle ou à la collecte de données UNESCO-OCDE-Eurostat (UOE). &lt;/p&gt;

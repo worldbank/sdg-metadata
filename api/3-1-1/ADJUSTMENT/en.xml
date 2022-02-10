@@ -2,5 +2,17 @@
 <root>
 	<status>success</status>
 	<message>The ADJUSTMENT field for indicator 3-1-1, translated into en</message>
-	<data/>
+	<data>&lt;p&gt;Details on adjustments and formulas are published/available here:&lt;/p&gt;
+&lt;p&gt;(1) Peterson E, Chou D, Gemmill A, Moller AB, Say L, Alkema L. Estimating maternal mortality using vital registration data: a Bayesian hierarchical bivariate random walk model to estimate sensitivity and specificity of reporting for population-periods without validation data. 2019 (https://arxiv.org/abs/1909.08578)&lt;/p&gt;
+&lt;p&gt;(2) World Health Organization (WHO), United Nations Children&amp;#x2019;s Fund (UNICEF), United Nations Population Fund (UNFPA), World Bank Group, United Nations Population Division. Trends in maternal mortality: 2000 to 2017: estimates by WHO, UNICEF, UNFPA, World Bank Group and the United Nations Population Division. Geneva: World Health Organization; 2019 (https://www.who.int/reproductivehealth/publications/maternal-mortality-2000-2017/en/).&lt;/p&gt;
+&lt;p&gt; In brief:&lt;/p&gt;
+&lt;p&gt;Adjustments for variation in definitions of the input data:&lt;/p&gt;
+&lt;p&gt;Previous studies found incidental or accidental deaths (comprise 10% of pregnancy-related deaths (excluding HIV-related deaths) in sub-Saharan African countries, and 15% in other low- and middle-income countries. Adjustments are applied to pregnancy-related deaths to account for these non-maternal deaths.&lt;/p&gt;
+&lt;p&gt;The proportion of pregnancy-related deaths among the deaths attributable to mortality shock from crisis is assumed to be equal to the proportion of women in the population who are pregnant or postpartum at the time of the crisis. The proportion of pregnant women in the population is set equal to the general fertility rate, based on the assumption of a one-year period associated with a live birth. Additional uncertainty is added to the estimates of crisis years.&lt;/p&gt;
+&lt;p&gt;Adjustment for harmonization of breakdowns:&lt;/p&gt;
+&lt;p&gt;Population-based surveys such as DHS and MICS obtain information by interviewing respondents about the survival of their siblings. This approach, commonly referred to as the direct sisterhood method. Given the study design (based on sisters of respondents), the population exposed to risk may be atypical of the population at large. Therefore, we compute an age-standardized value of PM, based on the female population of households at the time of the survey.&lt;/p&gt;
+&lt;p&gt;Adjustment for underreporting (unregistered) and misclassification in CRVS systems:&lt;/p&gt;
+&lt;p&gt;Underreporting and misclassification in CRVS systems are accounted for with specialized studies. Model estimated country-year specific adjustment factors are obtained and applied to CRVS data.&lt;/p&gt;
+&lt;p&gt;Adjustment for under-reporting in non-CRVS and non-specialised sources:&lt;/p&gt;
+&lt;p&gt;It is widely believed that some form of upward adjustment is required for population-based surveys to account for deaths early in pregnancy that might not have been captured. Therefore an upwards adjustment of 10% was applied to maternal deaths that were not obtained from CRVS systems or specialized studies.&lt;/p&gt;</data>
 </root>

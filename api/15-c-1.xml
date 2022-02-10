@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<status>success</status>
+	<message>All metadata fields for indicator 15-c-1, translated into all languages</message>
+	<data>
+		<languages>
+			<language lang="ar"/>
+			<language lang="en">&lt;p&gt;Goal 15: Protect, restore and promote sustainable use of terrestrial ecosystems, sustainably manage forests, combat desertification, and halt and reverse land degradation and halt biodiversity loss&lt;/p&gt;&lt;p&gt;Target 15.7: Take urgent action to end poaching and trafficking of protected species of flora and fauna and address both demand and supply of illegal wildlife products&lt;/p&gt;&lt;p&gt;Indicator 15.7.1: Proportion of traded wildlife that was poached or illicitly trafficked&lt;/p&gt;&lt;p&gt;2016-07-19&lt;/p&gt;&lt;p&gt;United Nations Office on Drugs and Crime (UNODC)&lt;/p&gt;&lt;p&gt;United Nations Office on Drugs and Crime (UNODC)&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Definition:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;The share of all trade in wildlife detected as being illegal&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Concepts:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&amp;#x201C;All trade in wildlife&amp;#x201D; is the sum of the values of legal and illegal trade&lt;/p&gt;
+&lt;p&gt;&amp;#x201C;Legal trade&amp;#x201D; is the sum of the value of all shipments made in compliance with the Convention on International Trade in Endangered Species of Wild Fauna and Flora (CITES), using valid CITES permits and certificates.&lt;/p&gt;
+&lt;p&gt;&amp;#x201C;Illegal trade&amp;#x201D; is the sum of the value of all CITES/listed specimens seized.&lt;/p&gt;&lt;p&gt;The legal trade data are reported annually by Parties to CITES and stored in the CITES Trade Database, managed by the UNEP World Conservation Monitoring Centre in Cambridge.&lt;/p&gt;
+&lt;p&gt;The detected illegal trade data have been gathered from a number of sources and combined in a UNODC database called &amp;#x201C;World WISE&amp;#x201D;. This database will be filled, from 2017, with data from the new annual CITES Illegal Trade reporting requirement.&lt;/p&gt;
+&lt;p&gt;The US LEMIS price data for CITES-listed species are also provided to UNEP-WCMC within the U.S. annual report to CITES.&lt;/p&gt;&lt;p&gt;Some adjustment/validation is necessary between countries, but standardized codes for the legal wildlife trade have been developing since 1975. The basic fields necessary for the global indicator (species, product, and unit) are well established and present in every seizure. Some unit conversions (e.g. logs to MT to m3 for timber) are necessary for some products. For many commodities, for instance trade in live animals and trophies, it is possible to aggregate based on &amp;#x201C;whole individuals&amp;#x201D;. To do regional or national breakdowns, however, data on the source of the shipment are necessary (as the impact of poaching pertains to the source country, not the seizure country), and these data are not available for every seizure.&lt;/p&gt;&lt;p&gt;The first tranche of data from the Illicit Trade Report should be available in November 2017. &lt;/p&gt;&lt;p&gt;To be determined&lt;/p&gt;&lt;p&gt;The CITES Management Authority of each country&lt;/p&gt;&lt;p&gt;UNODC and UNEP-WCMC&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Rationale:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;There are over 35,000 species under international protection, so it is impossible to monitor all poaching. Illegal trade, however, is an indirect indicator of poaching. Wildlife seizures represent concrete instances of illegal trade, but the share of overall wildlife crime they represent is unknown and variable. In addition, the number of species under international protection continues to grow. Legal international trade in protected species, by definition, is 100% captured in the CITES Trade Database, which now contains over 16 million records of trade in CITES-listed species. To ground the illegal trade data in a complete indicator, the ratio of aggregated seizures to total trade is estimated. An increase in the share of total wildlife trade that is illegal would be interpreted as a negative indicator, and a decrease as a positive one.&lt;/p&gt;
+&lt;p&gt;Because the illegal wildlife trade represents thousands of distinct products, a means of aggregation is necessary. The legal trade value does not represent the true black market value of the items seized, nor the true value of the legal shipments, because it is derived from a single market source (US LEMIS). It does, however, present a logical and consistent means of aggregating unlike products.&lt;/p&gt;&lt;p&gt;Seizures are an incomplete indicator of trafficking, and subject to considerable volatility. Universal coverage is not presently available, although 120 countries are represented in the present database. Since the indicator looks at the relationship between two values, changes in the relationship could be due to changes in either value.&lt;/p&gt;&lt;p&gt;The value of a species-product unit is derived from the weighted average of prices declared for legal imports of analogous species product units, as acquired from United States Law Enforcement Monitoring and Information System of the Fish and Wildlife Service.&lt;/p&gt;
+&lt;p&gt;The value of legal trade is the sum of all species-product units documented in CITES export permits as reported in the CITES Annual Reports times the species-product unit prices as specified above.&lt;/p&gt;
+&lt;p&gt;The value of illegal trade is the sum of all species-product units documented in the World WISE seizure database times the species-product unit prices as specified above.&lt;/p&gt;
+&lt;p&gt;The indicator is value of illegal trade/(value of legal trade + value of illegal trade)&lt;/p&gt;&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;At country level&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Given the number of products and volatility of these markets, there is presently no mechanism for imputing missing data.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;At regional and global levels&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;As above&lt;/p&gt;&lt;p&gt;National data are added.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Data availability:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;60&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Time series:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Disaggregation:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Where source data are available, the data could be disaggregated to the national level. As a form of trade data, issues of gender, age, and disability status are not applicable.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Sources of discrepancies:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;The global figure is the aggregate of national figures provided by countries.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;URL:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;www.unodc.org&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;References:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;http://www.unodc.org/documents/data-and-analysis/wildlife/Methodological_Annex_final.pdf&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://trade.cites.org/cites_trade_guidelines/en-CITES_Trade_Database_Guide.pdf&quot;&gt;&lt;u&gt;http://trade.cites.org/cites_trade_guidelines/en-CITES_Trade_Database_Guide.pdf&lt;/u&gt;&lt;/a&gt;&lt;/p&gt;
+			</language>
+			<language lang="es"/>
+			<language lang="fr"/>
+			<language lang="pt"/>
+			<language lang="ru"/>
+</languages>
+</data>
+</root>

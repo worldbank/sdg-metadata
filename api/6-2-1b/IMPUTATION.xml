@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<status>success</status>
+	<message>The IMPUTATION field for indicator 6-2-1b, translated into all languages</message>
+	<data>
+		<languages>
+			<language lang="ar"/>
+			<language lang="en">&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;At country level&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The JMP method uses a simple regression model to generate time series estimates for all years including for years without data points. The JMP then shares all its estimates using its country consultation mechanism to get consensus from countries before publishing its estimates.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;At regional and global levels&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Regional and global estimates for basic hygiene services are calculated if there are (non-imputed) data available for at least 50% of the relevant population within the region. In order to produce estimates for regional or global levels, imputed estimates are produced for countries lacking data. Imputed country estimates are not published and only used for aggregation. &lt;/p&gt;
+			</language>
+			<language lang="es"/>
+			<language lang="fr"/>
+			<language lang="pt"/>
+			<language lang="ru"/>
+</languages>
+</data>
+</root>

@@ -2,13 +2,13 @@
 <root>
 	<status>success</status>
 	<message>The DATA_COMP field for indicator 3-2-2, translated into en</message>
-	<data>&lt;h1&gt;Methodology&lt;/h1&gt;
-&lt;h2&gt;Computation method:&lt;/h2&gt;
-&lt;p&gt;The UN Inter-agency Group for Child Mortality Estimation (UN IGME) estimates are derived from nationally representative data from censuses, surveys or vital registration systems. The UN IGME does not use any covariates to derive its estimates. It only applies a curve fitting method to good-quality empirical data to derive trend estimates after data quality assessment. In most cases, the UN IGME estimates are close to the underlying data. The UN IGME aims to minimize the errors for each estimate, harmonize trends over time and produce up-to-date and properly assessed estimates. The UN IGME produces neonatal mortality rate estimates with a Bayesian spline regression model which models the ratio of neonatal mortality rate / (under-five mortality rate - neonatal mortality rate). Estimates of NMR are obtained by recombining the estimates of the ratio with the UN IGME-estimated under-five mortality rate. See the references for details. &lt;/p&gt;
-&lt;p&gt;For the underlying data mentioned above, the most frequently used methods are as follows:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;&lt;em&gt;Civil registration&lt;/em&gt;&lt;/strong&gt;: Number of children who died during the first 28 days of life and the number of births used to calculate neonatal mortality rates.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;&lt;em&gt;Censuses and surveys&lt;/em&gt;&lt;/strong&gt;: Censuses and surveys often include questions on household deaths in the last 12 months, which can be used to calculate mortality estimates.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;&lt;em&gt;Surveys: &lt;/em&gt;&lt;/strong&gt;A direct method is used based on a full birth history, a series of detailed questions on each child a woman has given birth to during her lifetime. Neonatal, post-neonatal, infant, child and under-five mortality estimates can be derived from the full birth history module.&lt;/li&gt;
-&lt;/ul&gt;</data>
+	<data>&lt;p&gt;The UN Inter-agency Group for Child Mortality Estimation (UN IGME) estimates are derived from nationally representative data from censuses, surveys or vital registration systems. The UN IGME does not use any covariates to derive its estimates (except in the case of neonatal mortality estimation, which incorporates the relatively more data-rich under-five mortality rate estimates in the modelling) . It only applies a curve fitting method to good-quality empirical data to derive trend estimates after data quality assessment. In most cases, the UN IGME estimates are close to the underlying data. The UN IGME aims to minimize the errors for each estimate, harmonize trends over time and produce up-to-date and properly assessed estimates. The UN IGME produces neonatal mortality rate estimates with a Bayesian spline regression model which models the ratio of neonatal mortality rate / (under-five mortality rate - neonatal mortality rate). Estimates of NMR are obtained by recombining the estimates of the ratio with the UN IGME-estimated under-five mortality rate. See the references for details. &lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;For the underlying data mentioned above, the most frequently used methods are as follows: &lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;Civil registration: The neonatal mortality rate can be calculated from the number of children who died during the first 28 days of life and the number of births. &lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;Censuses and surveys: Censuses and surveys often include questions on household deaths in the last 12 months, which can be used to calculate mortality estimates. &lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;Surveys: A direct method is used based on a full birth history, a series of detailed questions on each child a woman has given birth to during her lifetime. Neonatal, post-neonatal, infant, child and under-five mortality estimates can be derived from the full birth history. &lt;/p&gt;</data>
 </root>

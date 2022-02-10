@@ -6,7 +6,7 @@
 		<languages>
 			<language lang="ar"/>
 			<language lang="en">&lt;ul&gt;
-  &lt;li&gt;At country level &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;At country level &lt;/strong&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt; &lt;/p&gt;
 &lt;p&gt;We do not impute missing values for countries that have never reported data for any NTD. For countries that have reported data in the past, we impute missing values only for those NTDs that have been reported in the past but that have not been reported in the current year. &lt;/p&gt;
@@ -14,7 +14,7 @@
 &lt;p&gt;For reproducibility, we employ multiple imputation techniques using the freely available Amelia package in R. We impute 100 complete datasets using all available cross-sectional data (countries and years), applying a square root transformation to exclude negative values of incidence, as well as categorical variables denoting regions and income groups, and allowing for country-specific linear time effects. We aggregate across diseases and extract the mean and 2.5th and 97.5th centile values to report best estimates and uncertainty intervals for each country. &lt;/p&gt;
 &lt;p&gt; &lt;/p&gt;
 &lt;ul&gt;
-  &lt;li&gt;At regional and global levels &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;At regional and global levels &lt;/strong&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt; &lt;/p&gt;
 &lt;p&gt;Using the 100 imputed datasets, we aggregate across diseases and regions, extract the mean and 2.5th and 97.5th centile values to report best estimates and uncertainty intervals at the regional and global levels. &lt;/p&gt;

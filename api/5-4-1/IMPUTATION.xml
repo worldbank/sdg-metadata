@@ -5,15 +5,23 @@
 	<data>
 		<languages>
 			<language lang="ar"/>
-			<language lang="en">Treatment of missing values:
-
-•	At country level
-UNSD does not produce estimates for missing values
-•	At regional and global levels
-No imputation is done
+			<language lang="en">&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;At country level&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;UNSD does not produce estimates for missing values&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;At regional and global levels&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;No imputation is done. Aggregates are computed based on available data only.&lt;/p&gt;
 			</language>
 			<language lang="es"/>
-			<language lang="fr"/>
+			<language lang="fr">Traitement des valeurs manquantes :
+
+• Au niveau national
+La Division de la statistique des Nations Unies (DSNU) ne produit pas d’estimations pour les valeurs manquantes
+• Aux niveaux régional et mondial
+Aucune imputation n’est faite
+			</language>
 			<language lang="pt"/>
 			<language lang="ru"/>
 </languages>

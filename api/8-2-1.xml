@@ -5,7 +5,7 @@
 	<data>
 		<languages>
 			<language lang="ar"/>
-			<language lang="en">&lt;p&gt;Goal: Promote sustained, inclusive and sustainable economic growth, full and productive employment and decent work for all &lt;/p&gt;&lt;p&gt;Target: Achieve higher levels of economic productivity through diversification, technological upgrading and innovation, including through a focus on high-value added and labour-intensive sectors &lt;/p&gt;&lt;p&gt;Indicator: 8.2.1: Annual growth rate of real GDP per employed person &lt;/p&gt;&lt;p&gt;January 2021&lt;/p&gt;&lt;p&gt;1.1.1, 8.3.1, 8.5.2, 10.4.1&lt;/p&gt;&lt;p&gt;ILO &lt;/p&gt;&lt;p&gt;ILO&lt;/p&gt;
+			<language lang="en">&lt;p&gt;Goal 8: Promote sustained, inclusive and sustainable economic growth, full and productive employment and decent work for all&lt;/p&gt;&lt;p&gt;Target 8.2: Achieve higher levels of economic productivity through diversification, technological upgrading and innovation, including through a focus on high-value added and labour-intensive sectors&lt;/p&gt;&lt;p&gt;Indicator 8.2.1: Annual growth rate of real GDP per employed person&lt;/p&gt;&lt;p&gt;2021-01-01&lt;/p&gt;&lt;p&gt;1.1.1, 8.3.1, 8.5.2, 10.4.1&lt;/p&gt;&lt;p&gt;ILO &lt;/p&gt;&lt;p&gt;ILO&lt;/p&gt;
 &lt;p&gt; &lt;/p&gt;&lt;p&gt;&lt;strong&gt;Definition:&lt;/strong&gt; &lt;/p&gt;
 &lt;p&gt;The annual growth rate of real GDP per employed person conveys the annual percentage change in real Gross Domestic Product per employed person. &lt;/p&gt;
 &lt;p&gt; &lt;/p&gt;
@@ -230,13 +230,13 @@
     &lt;mo&gt;&amp;#xD7;&lt;/mo&gt;
     &lt;mn&gt;100&lt;/mn&gt;
   &lt;/math&gt;&lt;/p&gt;&lt;p&gt;The ILO engages in annual consultations with member States through the ILOSTAT questionnaire and related Statistics Reporting System (StaRS). National data providers receive a link to the portal where they can review all national SDG data available on ILOSTAT.&lt;/p&gt;&lt;p&gt;Through the ILO Harmonized Microdata initiative, the ILO strives to produce internationally comparable labour statistics based on the indicator concepts and definitions adopted by the International Conference of Labour Statisticians.&lt;/p&gt;&lt;ul&gt;
-  &lt;li&gt;At country level &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;At country level &lt;/strong&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Multivariate regression techniques are used to impute missing employment values at the country level. &lt;/p&gt;
 &lt;p&gt;For further information on the estimates, please refer to the ILO modelled estimates methodological overview, available at https://www.ilo.org/ilostat-files/Documents/TEM.pdf. &lt;/p&gt;
 &lt;p&gt; &lt;/p&gt;
 &lt;ul&gt;
-  &lt;li&gt;At regional and global levels &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;At regional and global levels &lt;/strong&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt; &lt;/p&gt;&lt;p&gt;To address the problem of missing data, the ILO designed several econometric models which are used to produce estimates of labour market indicators in the countries and years for which real data are not available. The employment data derived from the ILO modelled estimates are used to produce estimates on labour productivity. These models use multivariate regression techniques to impute missing values at the country level, which are then aggregated to produce regional and global estimates. For further information on the estimates, please refer to the the ILO modelled estimates methodological overview, available at &lt;a href=&quot;https://www.ilo.org/ilostat-files/Documents/TEM.pdf&quot;&gt;https://www.ilo.org/ilostat-files/Documents/TEM.pdf&lt;/a&gt;. &lt;/p&gt;&lt;p&gt;See: &lt;/p&gt;
 &lt;ul&gt;
@@ -248,11 +248,12 @@
   &lt;li&gt;ILOSTAT Database (&lt;a href=&quot;https://ilostat.ilo.org/&quot; target=&quot;_blank&quot;&gt;&lt;u&gt;https://ilostat.ilo.org/&lt;/u&gt;&lt;/a&gt;) &lt;/li&gt;
   &lt;li&gt;ILOSTAT Database &amp;#x2013; Topics - Labour productivity (&lt;a href=&quot;https://ilostat.ilo.org/topics/labour-productivity/&quot; target=&quot;_blank&quot;&gt;&lt;u&gt;https://ilostat.ilo.org/topics/labour-productivity/&lt;/u&gt;&lt;/a&gt;). &lt;/li&gt;
 &lt;/ul&gt;&lt;p&gt;Data consistency and quality checks are regularly conducted for validation of the data before dissemination in the ILOSTAT database.&lt;/p&gt;
-&lt;p&gt; &lt;/p&gt;&lt;p&gt;Data Availability: Data for this indicator is available for 188 countries and territories.&lt;/p&gt;
-&lt;p&gt;Time series:&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;&lt;p&gt;&lt;strong&gt;Data Availability: &lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Data for this indicator is available for 188 countries and territories.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Time series:&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;Data for this indicator is available as of 2000 in the SDG Indicators Global Database, but time series going back to 1991 and including estimates up to 2019 are available in ILOSTAT. &lt;/p&gt;
-&lt;p&gt;Disaggregation:&lt;/p&gt;
-&lt;p&gt;No disaggregation required for this indicator. &lt;/p&gt;&lt;p&gt;Sources of discrepancies:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Disaggregation:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;No disaggregation required for this indicator. &lt;/p&gt;&lt;p&gt;&lt;strong&gt;Sources of discrepancies:&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;The main limitations of the use of labour productivity as a global indicator arise from problems in the international comparability of data, more specifically from methodological differences across countries. Even though national output measures, in particular GDP estimates, are derived mainly from national accounts which should be based on internationally-agreed principles consolidated in the United Nations SNA, there are still significant obstacles to the international consistency of national accounts estimates. These range from differences in the treatment of the output of service sectors to adjustments for price changes and variations in the coverage of informal activities and the underground economy. &lt;/p&gt;
 &lt;p&gt;Employment or labour input figures also suffer from comparability issues, especially in terms of differences in age coverage, the definition of employment, geographical and institutional coverage, the treatment of special groups and the coverage of informal employment. &lt;/p&gt;
 &lt;p&gt;In cases where the contribution to GDP of forms of work other than employment are expected to be significant, such as in the case of own-use production of goods (subsistence agriculture and fishing) or volunteer work, the exclusion of participation and time-spent in these productive activities can be an important source of bias in the resulting indicators.&lt;/p&gt;&lt;ul&gt;

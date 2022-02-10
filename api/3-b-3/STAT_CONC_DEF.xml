@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<status>success</status>
+	<message>The STAT_CONC_DEF field for indicator 3-b-3, translated into all languages</message>
+	<data>
+		<languages>
+			<language lang="ar"/>
+			<language lang="en">&lt;p&gt;&lt;strong&gt;Definition:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Proportion of health facilities that have a core set of relevant essential medicines available and affordable on a sustainable basis.&lt;/p&gt;
+&lt;p&gt;The indicator is a multidimensional index reported as a proportion (%) of health facilities that have a defined core set of quality-assured medicines that are available and affordable relative to the total number of surveyed health facilities at national level.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Concepts:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Indicator 3.b.3 is defined as the &amp;#x201C;Proportion of health facilities that have a core set of relevant essential medicines available and affordable on a sustainable basis&amp;#x201D;.This indicator is based on the proportion of facilities (pharmacies, hospitals, clinics,primary care centers, public/private, etc.) where core essential medicines from the identified set are available for purchase and their prices are affordable, compared to the total number of facilities surveyed.&lt;/p&gt;
+&lt;p&gt;There are several core concepts that are used for measuring indicator 3.b.3:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;Availability of medicine&lt;/li&gt;
+  &lt;li&gt;Affordability of medicine&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;&amp;#x2192;&lt;/strong&gt;to define affordability, additional concepts are used:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Daily dose treatment of the medicine&lt;/li&gt;
+  &lt;li&gt;National poverty line&lt;/li&gt;
+  &lt;li&gt;Wage of the lowest paid unskilled government worker&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol&gt;
+  &lt;li&gt;Core set of relevant essential medicines (defined on a global level)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;&amp;#x2192;&lt;/strong&gt;to apply a core set of relevant essential medicines defined on a global level to all countries, an additional concept is used:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;global burden of disease&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;1)A medicine is &lt;u&gt;available&lt;/u&gt; in a facility when it is found in this facility by the interviewer on the day of data collection. Availability is measured as a binary variable with 1=medicine is available and 0=otherwise.&lt;/p&gt;
+&lt;p&gt;2) A medicine is &lt;u&gt;affordable &lt;/u&gt;when no extra daily wages (EDW) are needed for the lowest paid unskilled government sector worker (LPGW wage) to purchase a monthly dose treatment of this medicine after fulfilling basic needs represented by the national poverty line (NPL). Affordability is measured as a ratio of 1) the sum of the NPL and the price per daily dose of treatment of the medicine (DDD), over 2) the LPGW salary. This measures the number of extra daily wages needed to cover the cost of the medicines in the core set and that can vary between 0 and infinity.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;2.a) Daily dose of treatment (DDD)&lt;/em&gt; is an average maintenance dose per day for a medicine used for its main indication in adults.&lt;sup&gt;2&lt;/sup&gt; DDDs allow comparisons of medicine use despite differences in strength, quantity or pack size.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;2.b) National poverty line (NLP)&lt;/em&gt; is the benchmark for estimating poverty indicators that are consistent with the country&amp;apos;s specific economic and social circumstances. NPLs reflect local perceptions of the level and composition of consumption or income needed to be non-poor.&lt;/p&gt;
+&lt;p&gt;2.c) W&lt;em&gt;age of the lowest paid unskilled government worker (LPGW &lt;/em&gt;is a minimum living wage that employees are entitled to receive to ensure overcome of poverty and reduction of inequalities.&lt;/p&gt;
+&lt;p&gt;In other words, affordability of a medicine identifies how many (if any) extra daily wages are needed for an individual who earns the LPGW wage to be able to purchase a medicine. The computed EDW ratio aims to indicate whether the LPGW wage is enough for the individual who earns the lowest possible income to cover 1) the daily expenditures for food and non-food items used to define (relative or absolute) poverty using national standards (NPL) and 2) the daily needs for a medicine (DDD). This ratio then requires transformation into a binary variable where medicine is affordable when zero extra daily wages are required to purchase it and not affordable otherwise. &lt;/p&gt;
+&lt;p&gt;3)The &lt;u&gt;core set of relevant essential medicines &lt;/u&gt;is a list of 32 tracer essential medicines for acute and chronic, communicable and non-communicable diseases in the primary health care setting.&lt;/p&gt;
+&lt;p&gt;This basket of medicines has been selected from the 2017 WHO Model List of Essential Medicines and used in primary health care. By definition, essential medicines are those that satisfy the priority health care needs of the population and are selected for inclusion on the Model List based on due consideration of disease prevalence, evidence of efficacy and safety, and consideration of cost and cost-effectiveness.&lt;/p&gt;
+&lt;p&gt;These medicines are listed in &lt;em&gt;table 1 &lt;/em&gt;of &lt;u&gt;Annex 1&lt;/u&gt;, where a detailed justification for including each medicine is also provided, as well as online references for the relevant treatment guidelines and sections in the WHO List of Essential Medicines.&lt;/p&gt;
+&lt;p&gt;This list of medicines is intended as a global reference. However, to address regional and country specificities in terms of medicine needs, the medicines in this basket are weighted according to the regional burden of disease.&lt;/p&gt;
+&lt;p&gt;3.a) The &lt;em&gt;global burden of disease&lt;/em&gt; is an assessment of the health of the world&amp;apos;s population. More specifically, disease burden provides information on the global and regional estimates of premature mortality, disability and loss of health for causes. The summary measure used to give an indication of the burden of disease is the disability adjusted life years (DALYs), which represent a person&amp;#x2019;s loss of the equivalent of one year of full health. This metric incorporates years of life lost due to death and years of life lost through living in states of less than full health (or disability).&lt;/p&gt;
+			</language>
+			<language lang="es"/>
+			<language lang="fr"/>
+			<language lang="pt"/>
+			<language lang="ru"/>
+</languages>
+</data>
+</root>

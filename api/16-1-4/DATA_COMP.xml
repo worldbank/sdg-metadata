@@ -5,7 +5,7 @@
 	<data>
 		<languages>
 			<language lang="ar"/>
-			<language lang="en">&lt;p&gt;The question used in victimization surveys is: How safe do you feel walking alone in your area/neighbourhood at night? Answer options are typically: (1) Very safe, (2) safe, (3) unsafe (4), very unsafe, (5) I never go out alone at night/does not apply, (99) don&amp;#x2019;t know.&lt;sup&gt;&lt;a href=&quot;#footnote-6&quot; id=&quot;footnote-ref-6&quot;&gt;[5]&lt;/a&gt;&lt;/sup&gt; The proportion of population that feel safe is calculated by summing up the number of respondents who feel &amp;#x201C;very safe&amp;#x201D; and &amp;#x201C;safe&amp;#x201D; and dividing the total by the total number of respondents, and multiplying by 100.&lt;/p&gt;
+			<language lang="en">&lt;p&gt;The question used in victimization surveys is: How safe do you feel walking alone in your area/neighbourhood after dark?&lt;sup&gt;&lt;a href=&quot;#footnote-9&quot; id=&quot;footnote-ref-9&quot;&gt;[8]&lt;/a&gt;&lt;/sup&gt; Answer options are typically: (1) Very safe, (2) safe, (3) unsafe (4), very unsafe, (5) I never go out alone at night/does not apply, (99) don&amp;#x2019;t know.&lt;sup&gt;&lt;a href=&quot;#footnote-10&quot; id=&quot;footnote-ref-10&quot;&gt;[9]&lt;/a&gt;&lt;/sup&gt; The proportion of population that feel safe is calculated by summing up the number of respondents who feel &amp;#x201C;very safe&amp;#x201D; and &amp;#x201C;safe&amp;#x201D; and dividing the total by the total number of respondents, and multiplying by 100.&lt;/p&gt;
 &lt;p&gt;&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;
     &lt;mn&gt;16&lt;/mn&gt;
     &lt;mo&gt;.&lt;/mo&gt;
@@ -19,6 +19,7 @@
         &lt;mi&gt;N&lt;/mi&gt;
         &lt;mi&gt;u&lt;/mi&gt;
         &lt;mi&gt;m&lt;/mi&gt;
+        &lt;mi&gt;b&lt;/mi&gt;
         &lt;mi&gt;e&lt;/mi&gt;
         &lt;mi&gt;r&lt;/mi&gt;
         &lt;mi&gt;&amp;amp;nbsp;&lt;/mi&gt;
@@ -79,13 +80,15 @@
         &lt;mi&gt;e&lt;/mi&gt;
         &lt;mi&gt;&amp;amp;nbsp;&lt;/mi&gt;
         &lt;mi&gt;a&lt;/mi&gt;
+        &lt;mi&gt;f&lt;/mi&gt;
         &lt;mi&gt;t&lt;/mi&gt;
+        &lt;mi&gt;e&lt;/mi&gt;
+        &lt;mi&gt;r&lt;/mi&gt;
         &lt;mi&gt;&amp;amp;nbsp;&lt;/mi&gt;
-        &lt;mi&gt;n&lt;/mi&gt;
-        &lt;mi&gt;i&lt;/mi&gt;
-        &lt;mi&gt;g&lt;/mi&gt;
-        &lt;mi&gt;h&lt;/mi&gt;
-        &lt;mi&gt;t&lt;/mi&gt;
+        &lt;mi&gt;d&lt;/mi&gt;
+        &lt;mi&gt;a&lt;/mi&gt;
+        &lt;mi&gt;r&lt;/mi&gt;
+        &lt;mi&gt;k&lt;/mi&gt;
         &lt;mi&gt;&amp;amp;nbsp;&lt;/mi&gt;
         &lt;mi&gt;i&lt;/mi&gt;
         &lt;mi&gt;n&lt;/mi&gt;
@@ -150,7 +153,7 @@
     &lt;/mfrac&gt;
     &lt;mi&gt;X&lt;/mi&gt;
     &lt;mn&gt;100&lt;/mn&gt;
-  &lt;/math&gt;&lt;/p&gt;&lt;div class=&quot;footnotes&quot;&gt;&lt;div&gt;&lt;sup class=&quot;footnote-number&quot; id=&quot;footnote-6&quot;&gt;5&lt;/sup&gt;&lt;p&gt; It is recommended that where the respondent&amp;#x2019;s answer is &amp;#x201C;I never go out alone at night&amp;#x201D;, the following probing question is asked: &amp;#x201C;How safe &lt;em&gt;would &lt;/em&gt;you feel if you went outside at night?&amp;#x201D;. &lt;a href=&quot;#footnote-ref-6&quot;&gt;&amp;#x2191;&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;
+  &lt;/math&gt;&lt;/p&gt;&lt;div class=&quot;footnotes&quot;&gt;&lt;div&gt;&lt;sup class=&quot;footnote-number&quot; id=&quot;footnote-9&quot;&gt;8&lt;/sup&gt;&lt;p&gt; This question is intended to capture respondents&amp;#x2019; perception of safety when thinking about crime, although it does not explicitly mention crime or prime respondents to think about crime. Where the respondent&amp;#x2019;s answer is &amp;#x201C;Unsafe&amp;#x201D; or &amp;#x201C;Very unsafe&amp;#x201D;, the following probing question may be asked to further understand why respondents feel unsafe: &amp;#x201C;Why do you feel unsafe walking alone in your area/neighbourhood at night after dark?&amp;#x201D; Possible answer options should be tailored to the specific country context and, in addition to crime-related reasons could also include options that are not crime-related. To avoid biasing respondents answers, it is recommended that answer options are not revealed to the respondent. &lt;a href=&quot;#footnote-ref-9&quot;&gt;&amp;#x2191;&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;div&gt;&lt;sup class=&quot;footnote-number&quot; id=&quot;footnote-10&quot;&gt;9&lt;/sup&gt;&lt;p&gt; It is recommended that where the respondent&amp;#x2019;s answer is &amp;#x201C;I never go out alone after dark&amp;#x201D;, the following probing question is asked: &amp;#x201C;How safe &lt;em&gt;would &lt;/em&gt;you feel if you went outside after dark?&amp;#x201D;.. &lt;a href=&quot;#footnote-ref-10&quot;&gt;&amp;#x2191;&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;
 			</language>
 			<language lang="es"/>
 			<language lang="fr"/>

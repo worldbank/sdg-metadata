@@ -5,12 +5,24 @@
 	<data>
 		<languages>
 			<language lang="ar"/>
-			<language lang="en">&lt;h2&gt;Treatment of missing values:&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;&lt;em&gt;At country level:&lt;/em&gt;&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;&lt;em&gt;At regional and global levels:&lt;/em&gt;&lt;/strong&gt;&lt;/li&gt;
+			<language lang="en">&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;At country level&lt;/strong&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;To inform projection of trends across periods where data are sparse, or for countries with little or no data at all, the BMaT statistical model is used to estimate maternal mortality. The model includes factors known to be associated with maternal mortality as predictor covariates (GDP, GFR and SAB).&lt;/p&gt;
+&lt;p&gt;Missing values are treated at the country-level. This is done as follows. There is no treatment of missing values at the regional level.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Predictor variable data:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Complete and comparable predictor data is obtained by constructing time series estimates for predictor variables (covariates) from 1990 to 2019:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Gross domestic product (GDP) per capita, measured in purchasing power parity (PPP) equivalent US dollars using 2011 as the baseline, was generated based on data from the World Bank Group and in instances supplemented by unofficial estimates derived by MMEIG using growth rates in United Nations GDP data and/or previous MMEIG GDP estimates.&lt;/li&gt;
+  &lt;li&gt;General fertility rate (GFR) was computed from data on live births and population size (number of women aged 15&amp;#x2013;49) from UNPD&amp;#x2019;s 2019 revision of World population prospects.&lt;/li&gt;
+  &lt;li&gt;Skilled birth attendant (SBA) data consist of time series derived using all available data from population-based national household survey data and countries&amp;#x2019; routine reporting mechanisms (WHO and UNICEF Joint Skilled Birth Attendant database). &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Response variable data:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;All-cause deaths for WRA, used to denominate maternal deaths in the statistic PM, are imputed when missing and in some cases overwritten. &lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Estimated all-cause deaths from WHO Global Health Estimates lifetables were used to impute and overwrite all-cause deaths in specialized studies in which the search went beyond registration systems.&lt;/li&gt;
+  &lt;li&gt;CRVS reported all-cause deaths were used to impute missing all-cause deaths in specialized studies in which the search was within registration systems.&lt;/li&gt;
+  &lt;li&gt;Estimated all-cause deaths from WHO Global Health Estimates were used to impute missing all-cause deaths in miscellaneous studies.&lt;/li&gt;
+&lt;/ul&gt;
 			</language>
 			<language lang="es">&lt;h2&gt; Tratamiento de valores faltantes:&lt;/h2&gt;
 &lt;ul&gt;

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<status>success</status>
+	<message>The STAT_CONC_DEF field for indicator 10-2-1, translated into all languages</message>
+	<data>
+		<languages>
+			<language lang="ar"/>
+			<language lang="en">&lt;h2&gt;Definition:&lt;/h2&gt;
+&lt;p&gt;The proportion of people living below 50 percent of median income (or consumption) is the share (%) of a country&amp;#x2019;s population living on less than half of the consumption/income level of the median of the national income/consumption distribution. &lt;/p&gt;
+&lt;h2&gt;Concepts:&lt;/h2&gt;
+&lt;p&gt;The indicator is measured using per capita welfare measure of consumption or income. The indicator is calculated by estimating the share of the population in a country living on less than 50% of median of the national distribution of income or consumption, as estimated from survey data. &lt;/p&gt;
+&lt;p&gt;Per capita income or consumption is estimated using total household income or consumption divided by the total household size. Total disposable income or total consumption from both market and non-market sources is the desired welfare vector used. &lt;/p&gt;
+&lt;p&gt;The estimation relies on the same harmonized welfare vectors (distributions) that are used for 10.1.1 and 1.1.1. Using the same data and closely related methodologies ensures internal consistency across these closely related indicators. The data is available through PovcalNet, the World Bank&amp;#x2019;s online tool for reporting global poverty and inequality numbers. For details on concepts and standards, refer to documentation available on the PovcalNet website. &lt;/p&gt;
+&lt;p&gt;The methodology entails measuring the share of people living below 50% of national median. A threshold set at 50% of the median of the income or consumption is used to derive a headcount rate, similar to how monetary poverty is typically measured. The national median is readily available from the distributional data in PovcalNet. The measurement follows a two-step process of first estimating half of the national median income (or consumption) and then the share of people living below this relative threshold.&lt;/p&gt;
+&lt;p&gt;The indicator uses the same data on household income and consumption that is used for monitoring SDG indicators 1.1.1 and 10.1.1, which have been classified as Tier 1 indicators. The methodology and data are similar to that used in measuring international poverty, which has been tested and vetted over many years, including for the purpose of monitoring MDG 1. It is also closely related to a large literature of relative poverty measurement. &lt;/p&gt;
+			</language>
+			<language lang="es"/>
+			<language lang="fr"/>
+			<language lang="pt"/>
+			<language lang="ru"/>
+</languages>
+</data>
+</root>

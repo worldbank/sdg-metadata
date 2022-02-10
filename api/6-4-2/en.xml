@@ -2,7 +2,7 @@
 <root>
 	<status>success</status>
 	<message>All metadata fields for the indicator 6-4-2, translated into en</message>
-	<data>&lt;p&gt;Goal 6: Ensure availability and sustainable management of water and sanitation for all&lt;/p&gt;&lt;p&gt;Target 6.4: By 2030, substantially increase water-use efficiency across all sectors and ensure sustainable withdrawals and supply of freshwater to address water scarcity and substantially reduce the number of people suffering from water scarcity&lt;/p&gt;&lt;p&gt;Indicator 6.4.2: Level of water stress: freshwater withdrawal as a proportion of available freshwater resources&lt;/p&gt;&lt;p&gt;February 2021&lt;/p&gt;&lt;p&gt;6.4.1: Change in water-use efficiency over time&lt;/p&gt;
+	<data>&lt;p&gt;Goal 6: Ensure availability and sustainable management of water and sanitation for all&lt;/p&gt;&lt;p&gt;Target 6.4: By 2030, substantially increase water-use efficiency across all sectors and ensure sustainable withdrawals and supply of freshwater to address water scarcity and substantially reduce the number of people suffering from water scarcity&lt;/p&gt;&lt;p&gt;Indicator 6.4.2: Level of water stress: freshwater withdrawal as a proportion of available freshwater resources&lt;/p&gt;&lt;p&gt;2021-07-01&lt;/p&gt;&lt;p&gt;6.4.1: Change in water-use efficiency over time&lt;/p&gt;
 &lt;p&gt;6.1.1: Proportion of population using safely managed drinking water services&lt;/p&gt;
 &lt;p&gt;6.3.1: Proportion of wastewater safely treated&lt;/p&gt;
 &lt;p&gt;6.6.1: Change in the extent of water-related ecosystems over time&lt;/p&gt;
@@ -67,20 +67,20 @@
   &lt;li&gt;After this verification, exchanges between the National Correspondents and FAO take place to correct and confirm the collected data. &lt;/li&gt;
   &lt;li&gt;The last validation step is an automated validation routine included in the Statistical Working System (SWS), which uses almost 200 validation rules.&lt;/li&gt;
 &lt;/ul&gt;&lt;p&gt;Since national level data is frequently tailored to be useful at national level and not for international comparisons, data may be manipulated in order to maximize international comparability. Adjusted data is displayed with an appropriate qualifier. Data is rounded according to a specific methodology&lt;u&gt; &lt;/u&gt;&lt;a href=&quot;http://www.fao.org/aquastat/en/databases/maindatabase/metadata/&quot;&gt;http://www.fao.org/aquastat/en/databases/maindatabase/metadata/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Additionally, the Statistical Working System (SWS) has the correspondence among different international codes (FAOSTAT, UNSDM49, ISO2, ISO3) for geographic areas and is used to convert area codes in the external sources to UNSDM49 codes which is the standard used in the SWS.&lt;/p&gt;&lt;p&gt;&amp;#x2022; At country level&lt;/p&gt;
+&lt;p&gt;Additionally, the Statistical Working System (SWS) has the correspondence among different international codes (FAOSTAT, UNSDM49, ISO2, ISO3) for geographic areas and is used to convert area codes in the external sources to UNSDM49 codes which is the standard used in the SWS.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;&amp;#x2022; At country level&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;Three types of imputation are made at country level to fill in missing years in the timeseries:&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;Linear imputation: between two available data-points&lt;/li&gt;
   &lt;li&gt;Carry forward: after the last available data-points and up to 10 years&lt;/li&gt;
   &lt;li&gt;Vertical imputation: in case of available total freshwater withdrawal but missing disaggregation by sources, and if existing disaggregation existed for previous years, the respective ratio by sources is applied to the available total.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&amp;#x2022; At regional and global levels&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&amp;#x2022; At regional and global levels&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;Thanks to the imputation methods at country level, data will be available for the whole time series (unless the latest official value was obtained more than 10 years ago). Imputed data is displayed with an appropriate qualifier&lt;/p&gt;&lt;p&gt;Regional and global estimates will be done by summing up the national figures on renewable freshwater resources and total freshwater withdrawal, considering only the internal renewable water resources of each country in order to avoid double counting, and the external renewable freshwater resources of the region as a whole if any. In case of regional aggregation without physical continuity (such as income groupings or Least Developed Countries group, etc.), total renewable water resources are summed up. The EFR at regional level is estimated as the average of the countries&amp;#x2019; EFRs, in percentage, and applied to the regional water resources.&lt;/p&gt;&lt;ul&gt;
   &lt;li&gt;A set of tools is available to countries for the compilation of the indicator. Among them, a step-by-step methodological guide, an interpretation paper, and an e-learning course. All the tools are available on the FAO web pages, at: http://www.fao.org/sustainable-development-goals/indicators/642/en/ &lt;/li&gt;
   &lt;li&gt;During 2020 and 2021 FAO has organized four virtual trainings for Asia, Latin-America and the Caribbean and Africa on SDG 6.4. &lt;/li&gt;
   &lt;li&gt;FAO&amp;#x2019;s AQUASTAT team provides continued guidance to the countries thought the National Correspondents during the data collection time to ensure data is duly and timely compiled&lt;/li&gt;
 &lt;/ul&gt;&lt;ul&gt;
-  &lt;li&gt;First, the annual Water and Agriculture questionnaire, used for collecting information on SDG indicator 6.4.1, was endorsed by FAO&amp;#x2019;s Office of the Chief Statistician (OCS).&lt;/li&gt;
+  &lt;li&gt;First, the annual AQUASTAT questionnaire on water and agriculture, used for collecting information on SDG indicator 6.4.2, was endorsed by FAO&amp;#x2019;s Office of the Chief Statistician (OCS).&lt;/li&gt;
   &lt;li&gt;During the reporting process, the OCS provides overall guidance, including on metadata reporting, based on the Metadata Dissemination Standard approved by the FAO IDWG-Statistics Technical Task Force.&lt;/li&gt;
   &lt;li&gt;Data on Environmental flow requirements is re updated only when detailed methodology and metadata reprovided and when consistency in the values is ensured.&lt;/li&gt;
   &lt;li&gt;After revision and validation, data are submitted to the OCS who also ensures the quality of the data and results.&lt;/li&gt;
@@ -101,9 +101,9 @@
 &lt;p&gt;Africa 49&lt;/p&gt;
 &lt;p&gt;Latin America and the Caribbean 27&lt;/p&gt;
 &lt;p&gt;Europe, North America, Australia, New Zealand and Japan 47&lt;/p&gt;
-&lt;p&gt;Time series:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Time series:&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;1961-2018 (Discontinuous, depending on country. Data are interpolated to create timelines.) &lt;/p&gt;
-&lt;p&gt;Disaggregation:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Disaggregation:&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;Although the indicator is based on total water volumes, sectoral data are needed to be able to disaggregate it in order to show the respective contribution of different sectors to the country&amp;#x2019;s water stress, and therefore the relative importance of actions needed to contain water demand in the different sectors (agriculture, services and industry). &lt;/p&gt;
 &lt;p&gt;At national level, water resources and withdrawals are estimated or measured at the level of appropriate hydrological units (river basins, aquifers). It is therefore possible to obtain a geographical distribution of water stress by hydrological unit, thus allowing for more targeted response in terms of water demand management.&lt;/p&gt;&lt;p&gt;Geographical: For national estimates incoming freshwater is counted as being part of the country&amp;#x2019;s available freshwater resources, while global estimates can only be done by adding up the internal renewable freshwater resources (water generated within the country) of all countries in order to avoid double counting. Moreover, external freshwater resources are computed according to treaties, if present, which may lead to different values with respect to the actual freshwater resources assessed through hydrology.&lt;/p&gt;
 &lt;p&gt;Over-time: time series are comparable across time. &lt;/p&gt;&lt;p&gt;&lt;strong&gt;URL:&lt;/strong&gt;&lt;/p&gt;

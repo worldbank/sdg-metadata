@@ -6,11 +6,11 @@
 		<languages>
 			<language lang="ar"/>
 			<language lang="en">&lt;ul&gt;
-  &lt;li&gt;At country level&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;At country level&lt;/strong&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Given the low frequency and regional distribution of some surveys, many countries have gaps in data availability. A simple modelling approach was adopted to fill in the missing data points, in order to develop the historical evolution and starting point of the electrification rates. The estimation is conducted using a model with region, country and time variables. The model keeps the original observation if data is available. The statistical model is used to fill in data only for years where they are missing and to help conduct global and regional analyses. In the absence of survey data for a given year, information from regional trends was borrowed. The estimated values are clearly identified (&amp;#x201C;Estimate&amp;#x201D;) in the database. In the meantime, if a country value indicates a high discrepancy compared with either IEA data or data from the past publication, the country is considered as an outlier and not affected by the regional trends. As a result, such countries only have their country effects in model estimates. &lt;/p&gt;
 &lt;ul&gt;
-  &lt;li&gt;At regional and global levels&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;At regional and global levels&lt;/strong&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Values for regional and global levels are calculated by incorporating all survey data along with model-estimated values substituting missing values. Regional and global classifications are based on the UN M49 series for statistical use.&lt;/p&gt;
 			</language>

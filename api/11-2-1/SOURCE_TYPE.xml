@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<status>success</status>
+	<message>The SOURCE_TYPE field for indicator 11-2-1, translated into all languages</message>
+	<data>
+		<languages>
+			<language lang="ar"/>
+			<language lang="en">&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Location of public transport stops:&lt;/strong&gt; typically available from city administration or transport service providers, General Transit Feed Specification (GTFS) feeds, OpenStreetMap, Google (if not available at all, for instance in cities with informal paratransit services, innovative technologies/ apps and stakeholder consultations could assist the cities to map out the routes and stops). &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Street Network:&lt;/strong&gt; Ideally available from city administration but could also come from OpenStreetMap, the Global Roads Open Access Data Set (gROADS) and other open source streets data providers. &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Population data: &lt;/strong&gt;available from censuses or other demographic surveys at individual dwelling units or enumeration zones, which can be further disaggregated to uniform grids through population modelling approaches.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Number of residents per dwelling unit:&lt;/strong&gt; available from census/household surveys. &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Demographic data for disaggregation:&lt;/strong&gt; typically available from household surveys that collect information both on household/individual characteristics and travel patterns. Must also provide information on the location of the respondent. These surveys could also be used to collect information about the perceived quality of the service, such as time to reach a station considering obstacles, typical wait times, safety, etc. Note that such household surveys are often not easily available and rarely updated on a frequent (e.g. every 2-3 years) basis. &lt;/li&gt;
+&lt;/ul&gt;
+			</language>
+			<language lang="es"/>
+			<language lang="fr"/>
+			<language lang="pt"/>
+			<language lang="ru"/>
+</languages>
+</data>
+</root>

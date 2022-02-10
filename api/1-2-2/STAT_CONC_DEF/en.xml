@@ -4,32 +4,29 @@
 	<message>The STAT_CONC_DEF field for indicator 1-2-2, translated into en</message>
 	<data>&lt;p&gt;&lt;strong&gt;Definition:&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;The following four series are used to monitor the SDG 1.2.2. &lt;/p&gt;
-&lt;ol&gt;
-  &lt;li&gt;Official multidimensional poverty headcount, by sex, and age (% of population)&lt;/li&gt;
-&lt;/ol&gt;
+&lt;p&gt;1) Official multidimensional poverty headcount, by sex, and age (% of population)&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;The percentage of people who are multidimensionally poor&lt;/li&gt;
 &lt;/ul&gt;
-&lt;ol&gt;
-  &lt;li&gt;Average number of deprivations (intensity)&lt;/li&gt;
-&lt;/ol&gt;
+&lt;p&gt;2) Average share of weighted deprivations (intensity) for total population&lt;/p&gt;
 &lt;ul&gt;
-  &lt;li&gt;The average percentage of dimensions in which poor people are deprived&lt;/li&gt;
+  &lt;li&gt;The average share of weighted dimensions in which poor people are deprived among total population &lt;/li&gt;
 &lt;/ul&gt;
-&lt;ol&gt;
-  &lt;li&gt;Official multidimensional poverty headcount (% of total households)&lt;/li&gt;
-&lt;/ol&gt;
+&lt;p&gt;3) Official multidimensional poverty headcount (% of total households)&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;The percentage of households who are multidimensionally poor&lt;/li&gt;
 &lt;/ul&gt;
-&lt;ol&gt;
-  &lt;li&gt;Multidimensional deprivation for children (% of population under 18)&lt;/li&gt;
-&lt;/ol&gt;
+&lt;p&gt;4) Average share of weighted deprivations (intensity) for total households&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;The average share of weighted dimensions in which poor people are deprived among total households &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;5) Multidimensional deprivation for children (% of population under 18)&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;The percentage of children who are simultaneously deprived in multiple dimensions of well-being&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Concepts:&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Official multidimensional poverty headcount is calculated by each country using different methodologies. The most commonly used method is Alkire Foster (AF) methodology which identifies dimensions, typically health, education and living standards and several indicators in each dimension. The unit of analysis could be either individual or household. The individuals or households are considered as multidimensionally poor if they are deprived in multiple indicators exceeding certain thresholds. &lt;/p&gt;
-&lt;p&gt;On the other hand, EU countries and North Macedonia use a completely different approach to measure the multidimensional poverty using the concept of &amp;quot;people at risk of poverty or social exclusion&amp;quot; (AROPE). AROPE consists of three indicators, and people will be considered as &amp;quot;at risk of poverty or social exclusion&amp;quot; if they are &amp;quot;at risk of poverty&amp;quot; or &amp;quot;severely materially deprived&amp;quot; or &amp;quot;living in a household with a very low work intensity&amp;quot;. &lt;/p&gt;
-&lt;p&gt;Multidimensional deprivation for children is calculated based on the methodology called as Multiple Overlapping Deprivation Analysis (MODA). A child is considered multidimensionally poor if s/he is simultaneously deprived in multiple dimensions. It also identifies dimensions and indicators under each dimension, and has a similar structure with the AF methodology. However, it is strikingly different in that it focuses on the life-cycle of children and creates different sets of dimensions and indicators for different age groups, for instance, 0-4, 5-11, 12-14, 15-17, and conducts analysis separately for each age group. In the global SDG database, the multidimensional poverty headcount (%) for overall 0-17 age range has been used.&lt;/p&gt;</data>
+&lt;p&gt;The design of a measure of multidimensional poverty is different in each country, but regardless of the exact methodology selected, it still follows a similar process to define the features of the measure, which include: i) the purpose of the measure; ii) the unit of identification (most frequently either the household or the individuals); iii) the dimensions and respective indicators that delimit which deprivations should be measured; iv) the methodology for developing the measure (including deprivation cut-offs, weights, and poverty cut-offs).&lt;/p&gt;
+&lt;p&gt;The most commonly used method is the Alkire Foster (AF) methodology which identifies dimensions, typically health, education and living standards and several indicators in each dimension. The unit of analysis could be either the individual or the household. The individuals or households are considered as multidimensionally poor if they are deprived in multiple dimensions, exceeding certain thresholds. &lt;/p&gt;
+&lt;p&gt;EU countries, North Macedonia and Turkey have a different approach to measure the multidimensional poverty using the concept of &amp;quot;people at risk of poverty or social exclusion&amp;quot; (AROPE) calculated by EUROSTAT using the data from EU statistics on income and living conditions (EU-SILC). AROPE consists of three indicators, and individuals are considered as &amp;quot;at risk of poverty or social exclusion&amp;quot; if they are &amp;quot;at risk of poverty&amp;quot; or &amp;quot;severely materially deprived&amp;quot; or &amp;quot;living in a household with a very low work intensity&amp;quot;. &lt;/p&gt;
+&lt;p&gt;There is a multidimensional poverty measure specifically designed for children. A child is considered multidimensionally poor if s/he is simultaneously deprived in multiple dimensions. It identifies the dimensions of poverty and the indicators under each dimension, and has a similar structure to the AF methodology. However, it is different in that it focuses on the life-cycle of children, creating different sets of dimensions and indicators for different age groups (e.g., for ages 0-4, 5-11, 12-14, 15-17 years), and conducts analyses separately for each age group. In the global SDG database, the multidimensional poverty headcount (%) for the overall 0-17 age group has been used for countries reporting individual measures of child multidimensional poverty.&lt;/p&gt;</data>
 </root>

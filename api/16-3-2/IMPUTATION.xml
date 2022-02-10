@@ -5,14 +5,9 @@
 	<data>
 		<languages>
 			<language lang="ar"/>
-			<language lang="en">&lt;h2&gt;Treatment of missing values:&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;&lt;em&gt;At country level:&lt;/em&gt;&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
+			<language lang="en">&lt;p&gt;&lt;strong&gt;&amp;#x2022; At country level&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;If all values for a given period and country are missing, then the missing values are left blank. If only certain years in the period are missing, then missing values for that year are left blank and are not taken into account when computing the three year average for that country.&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;&lt;em&gt;At regional and global levels:&lt;/em&gt;&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;&amp;#x2022; At regional and global levels&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;Missing values are left blank and are not taken into account when computing regional averages.&lt;/p&gt;
 			</language>
 			<language lang="es">&lt;h2&gt;Tratamiento de valores faltantes:&lt;/h2&gt;

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<status>success</status>
+	<message>The DATA_COMP field for indicator 9-1-1, translated into en</message>
+	<data>&lt;p&gt;The indicator is calculated by overlying three basic geospatial datasets: population distribution, road location, and road passability. The RAI is calculated as the rural population within a 2 km buffer of a good road divided by the total rural population of the country. &lt;/p&gt;
+&lt;p&gt;First, the spatial distribution of the rural population needs to be determined. This involves obtaining the population dataset for the country, either from country sources or global datasets such as WorldPop. &lt;/p&gt;
+&lt;p&gt;Next, the road network should be merged with road condition assessments, either in terms of IRI if available, or visual assessment. Those roads with a quality not meeting the threshold of the RAI (not providing &amp;#x201C;all-season&amp;#x201D; access) should be excluded. In general, the RAI adopts a road condition threshold is generally set at an IRI of less than 6 meters/km for paved roads and an IRI of less than 13 meters/km for unpaved roads. If IRI is unavailable, alternative assessments of road condition may be used, if comparable. If road condition data is not available, then accessibility factors can be defined to identify those roads at highest risk of impassability. A 2 km buffer should be generated around the road network meeting the condition threshold or highest risk. Urban areas should be removed from both the road data and the population data. &lt;/p&gt;
+&lt;p&gt;Finally, the rural population living within the 2 km buffer should be calculated. The final RAI is determined by dividing this portion of the rural population with the total rural population.&lt;/p&gt;</data>
+</root>
