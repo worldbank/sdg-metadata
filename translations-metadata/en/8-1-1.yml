@@ -1,18 +1,14 @@
 SDG_GOAL: >-
   <p>Goal 8: Promote sustained, inclusive and sustainable economic growth, full
-  and productive employment</p>
-
-  <p>and decent work for all</p>
+  and productive employment and decent work for all</p>
 SDG_TARGET: >-
   <p>Target 8.1: Sustain per capita economic growth in accordance with national
-  circumstances and, in</p>
-
-  <p>particular, at least 7 per cent gross domestic product growth per annum in
-  the least developed countries </p>
+  circumstances and, in particular, at least 7 per cent gross domestic product
+  growth per annum in the least developed countries</p>
 SDG_INDICATOR: '<p>Indicator 8.1.1: Annual growth rate of real GDP per capita</p>'
 SDG_SERIES_DESCR: <p>NY_GDP_PCAP </p>
-META_LAST_UPDATE: <p>15 February 2021</p>
-SDG_RELATED_INDICATORS: <p>Any economic statistics related SDG indicator </p>
+META_LAST_UPDATE: <p>2021-02-15</p>
+SDG_RELATED_INDICATORS: <p>Any economic statistics related SDG indicator</p>
 SDG_CUSTODIAN_AGENCIES: <p>United Nations Statistics Division (UNSD)</p>
 CONTACT_ORGANISATION: <p>United Nations Statistics Division (UNSD)</p>
 STAT_CONC_DEF: >-
@@ -40,8 +36,6 @@ CLASS_SYSTEM: >-
   <p>International Standard Industrial Classification (ISIC 3) of all Economic
   Activities</p>
 SOURCE_TYPE: >-
-  <p>Description: </p>
-
   <p>The underlying annual GDP estimates in domestic currency are collected from
   countries or areas annually through a national accounts questionnaire (NAQ),
   while the underlying population estimates are obtained from the UN Population
@@ -174,7 +168,7 @@ ADJUSTMENT: >-
   https://unstats.un.org/unsd/snaama/assets/pdf/methodology.pdf </p>
 IMPUTATION: >-
   <ul>
-    <li>At country level</li>
+    <li><strong>At country level</strong></li>
   </ul>
 
   <p>When a full set of official annual GDP data is not available, estimation
@@ -211,7 +205,7 @@ IMPUTATION: >-
   consistent from year to year.</p>
 
   <ul>
-    <li>At regional and global levels</li>
+    <li><strong>At regional and global levels</strong></li>
   </ul>
 
   <p>After the missing real GDP country or area data are imputed using the
@@ -281,16 +275,16 @@ QUALITY_ASSMNT: >-
   Additionally, the growth rate from year to year is analysed to identify
   anomalies in the data. </p>
 COVERAGE: >-
-  <p>Data availability:</p>
+  <p><strong>Data availability:</strong></p>
 
   <p>National statistics offices, central banks or national agencies responsible
   for compiling official national accounts estimates for a country or area</p>
 
-  <p>Time series:</p>
+  <p><strong>Time series:</strong></p>
 
   <p>Annual data from 1970 to 2019 are available. </p>
 
-  <p>Disaggregation:</p>
+  <p><strong>Disaggregation:</strong></p>
 
   <p>It is possible to disaggregate the country data by region, if countries can
   make available the underlying</p>
@@ -298,7 +292,7 @@ COVERAGE: >-
   <p>regional data which are consistent with the national accounts data to
   perform the disaggregation.</p>
 COMPARABILITY: >-
-  <p>Sources of discrepancies: </p>
+  <p><strong>Sources of discrepancies: </strong></p>
 
   <p>The differences with country data include the following: </p>
 

@@ -13,16 +13,12 @@ SDG_INDICATOR: >-
   <p>Indicator 17.2.1: Net official development assistance, total and to least
   developed countries, as a proportion of the Organization for Economic
   Cooperation and Development (OECD) Development Assistance Committee
-  donors&apos; gross national income (GNI)</p>
-META_LAST_UPDATE: '<p>Last updated: 8 July 2020</p>'
-SDG_CUSTODIAN_AGENCIES: |-
-  <h1>Institutional information</h1>
-  <h2>Organization(s):</h2>
-  <p>Organisation for Economic Co-operation and Development (OECD)</p>
+  donors&#x2019; gross national income (GNI)</p>
+META_LAST_UPDATE: <p>2020-07-08</p>
+SDG_CUSTODIAN_AGENCIES: <p>Organisation for Economic Co-operation and Development (OECD)</p>
+CONTACT_ORGANISATION: <p>Organisation for Economic Co-operation and Development (OECD)</p>
 STAT_CONC_DEF: >-
-  <h1>Concepts and definitions</h1>
-
-  <h2>Definition:</h2>
+  <p><strong>Definition:</strong></p>
 
   <p>The indicator Net official development assistance, total and to least
   developed countries, as a proportion of the Organization for Economic
@@ -30,118 +26,87 @@ STAT_CONC_DEF: >-
   donors&apos; gross national income (GNI) is defined as Net ODA disbursements
   as a per cent of GNI.</p>
 
-  <h2>Concepts:</h2>
+  <p><strong>Concepts:</strong></p>
 
-  <p><strong>ODA:</strong> The DAC defines ODA as &#x201C;those flows to
-  countries and territories on the DAC List of ODA Recipients and to
-  multilateral institutions which are i) provided by official agencies,
-  including state and local governments, or by their executive agencies; and ii)
-  each transaction is administered with the promotion of the economic
-  development and welfare of developing countries as its main objective; and is
-  concessional in character and conveys a grant element of at least 25 per cent
-  (calculated at a rate of discount of 10 per cent). (See <a
-  href="http://www.oecd.org/dac/stats/officialdevelopmentassistancedefinitionandcoverage.htm">http://www.oecd.org/dac/stats/officialdevelopmentassistancedefinitionandcoverage.htm</a>)</p>
+  <p>ODA: The DAC defines ODA as &#x201C;those flows to countries and
+  territories on the DAC List of ODA Recipients and to multilateral institutions
+  which are i) provided by official agencies, including state and local
+  governments, or by their executive agencies; and ii) each transaction is
+  administered with the promotion of the economic development and welfare of
+  developing countries as its main objective; and</p>
 
-  <p><strong>GNI</strong> is obtained by DAC reporters from their national
-  statistical offices.</p>
+  <p>is concessional in character and conveys a grant element of at least 25 per
+  cent (calculated at a rate of discount of 10 per cent). (See
+  http://www.oecd.org/dac/stats/officialdevelopmentassistancedefinitionandcoverage.htm)</p>
+
+  <p>GNI is obtained by DAC reporters from their national statistical
+  offices.</p>
 
   <p>Note: Since 2018, the Development Assistance Committee (DAC) of the OECD
   measures the headline ODA data as of 2018 on a grant equivalent basis. See
   references for more details.</p>
 SOURCE_TYPE: >-
-  <h1>Data sources</h1>
-
-  <h2>Description:</h2>
-
   <p>The OECD/DAC has been collecting data on official and private resource
   flows from 1960 at an aggregate level and 1973 at an activity level through
   the Creditor Reporting System (CRS data are considered complete from 1995 for
   commitments at an activity level and 2002 for disbursements).</p>
 
   <p>The data are reported by donors according to the same standards and
-  methodologies (see here: <a
-  href="http://www.oecd.org/dac/stats/methodology.htm">http://www.oecd.org/dac/stats/methodology.htm</a>).</p>
+  methodologies (see here: http://www.oecd.org/dac/stats/methodology.htm).</p>
 
   <p>Data are reported on an annual calendar year basis by statistical reporters
   in national administrations (aid agencies, Ministries of Foreign Affairs or
   Finance, etc.</p>
 COLL_METHOD: >-
-  <h2>Collection process:</h2>
-
   <p>A statistical reporter is responsible for the collection of DAC statistics
   in each providing country/agency. This reporter is usually located in the
   national aid agency, Ministry of Foreign Affairs or Finance etc.</p>
 FREQ_COLL: >-
-  <h1>Calendar</h1>
-
-  <h2>Data collection:</h2>
-
   <p>Data are published on an annual basis in December for flows in the previous
-  year. Detailed 2015 flows will be published in December 2016. </p>
-REL_CAL_POLICY: |-
-  <h2>Data release:</h2>
-  <p>December 2016 </p>
+  year. Detailed 2015 flows will be published in December 2016.</p>
+REL_CAL_POLICY: <p>December 2016</p>
 DATA_SOURCE: >-
-  <h1>Data providers</h1>
-
   <p>Data are reported on an annual calendar year basis by statistical reporters
   in national administrations (aid agencies, Ministries of Foreign Affairs or
   Finance, etc.</p>
-COMPILING_ORG: |-
-  <h1>Data compilers</h1>
-  <p>OECD</p>
+COMPILING_ORG: <p>OECD</p>
 RATIONALE: >-
-  <h2>Rationale:</h2>
-
   <p>Total ODA flows to developing countries quantify the public effort that
   donors provide to developing countries.</p>
-REC_USE_LIM: |-
-  <h2>Comments and limitations:</h2>
-  <p>Data are available from 1960.</p>
-DATA_COMP: |-
-  <h1>Methodology</h1>
-  <h2>Computation method:</h2>
-  <p>Net ODA disbursements as a per cent of GNI.</p>
+REC_USE_LIM: <p>Data are available from 1960.</p>
+DATA_COMP: <p>Net ODA disbursements as a per cent of GNI.</p>
 IMPUTATION: |-
-  <h2>Treatment of missing values:</h2>
-  <ul>
-    <li><strong><em>At country level:</em></strong></li>
-  </ul>
+  <p><strong>&#x2022; At country level</strong></p>
   <p>None</p>
-  <ul>
-    <li><strong><em>At regional and global levels:</em></strong></li>
-  </ul>
+  <p><strong>&#x2022; At regional and global levels</strong></p>
   <p>None</p>
-REG_AGG: |-
-  <h2>Regional aggregates:</h2>
-  <p>Total net ODA as per cent of GNI is a total donor figure.</p>
+REG_AGG: <p>Total net ODA as per cent of GNI is a total donor figure.</p>
 COVERAGE: >-
-  <h1>Data availability</h1>
+  <p><strong>Data availability:</strong></p>
 
   <p>On a donor basis for all DAC countries and many non-DAC providers
   (bilateral and multilateral) that report to the DAC.</p>
 
-  <h2>Disaggregation:</h2>
+  <p><strong>Time series:</strong></p>
+
+  <p><strong>Disaggregation:</strong></p>
 
   <p>This indicator can be disaggregated by donor, recipient country, type of
   finance, type of aid, sub-sector, etc.</p>
 COMPARABILITY: >-
-  <h2>Sources of discrepancies:</h2>
+  <p><strong>Sources of discrepancies:</strong></p>
 
   <p>DAC statistics are standardized on a calendar year basis for all donors and
   may differ from fiscal year data available in budget documents for some
   countries.</p>
 OTHER_DOC: >-
-  <h1>References</h1>
+  <p><strong>URL:</strong></p>
 
-  <h2>URL:</h2>
+  <p>www.oecd.org/dac/stats</p>
 
-  <p><a href="http://www.oecd.org/dac/stats">www.oecd.org/dac/stats</a></p>
+  <p><strong>References:</strong></p>
 
-  <h2>References:</h2>
+  <p>See all links here: http://www.oecd.org/dac/stats/methodology.htm</p>
 
-  <p>See all links here: <a
-  href="http://www.oecd.org/dac/stats/methodology.htm">http://www.oecd.org/dac/stats/methodology.htm</a></p>
-
-  <p>In addition, see: <a
-  href="http://www.oecd.org/dac/financing-sustainable-development/development-financestandards/officialdevelopmentassistancedefinitionandcoverage.htm">http://www.oecd.org/dac/financing-sustainable-development/development-financestandards/officialdevelopmentassistancedefinitionandcoverage.htm</a></p>
+  <p>In addition, see:
+  http://www.oecd.org/dac/financing-sustainable-development/development-financestandards/officialdevelopmentassistancedefinitionandcoverage.htm</p>

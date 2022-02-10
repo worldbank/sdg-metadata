@@ -3,8 +3,8 @@ SDG_TARGET: >-
   <p>Target 10.5: Improve the regulation and monitoring of global financial
   markets and institutions and strengthen the implementation of such
   regulations</p>
-SDG_INDICATOR: '<p>Indicator 10.5.1: Financial Soundness Indicators (FSIs)</p>'
-META_LAST_UPDATE: <p>03 December 2018</p>
+SDG_INDICATOR: '<p>Indicator 10.5.1: Financial Soundness Indicators</p>'
+META_LAST_UPDATE: <p>2018-12-03</p>
 SDG_RELATED_INDICATORS: >-
   <p>Linkages with any other Goals and Targets: Recommendation II.2 of G-20 Data
   Gap Initiative &#x2013; 2 concerns FSIs. Its target is by 2021, G-20 economies
@@ -146,7 +146,7 @@ STAT_CONC_DEF: >-
   Foreign-currency-linked instruments refer to accounts denominated in national
   currency, but their payments are linked to exchange rates, thus subject to
   foreign exchange risk. The denominator is total regulatory capital as defined
-  above. </p>
+  above.</p>
 SOURCE_TYPE: >-
   <p>The common source data are data reported by banks for supervisory purposes.
   They include balance sheet, income statement, and supervisory series (such as
@@ -223,37 +223,38 @@ REC_USE_LIM: >-
 DATA_COMP: >-
   <p>The calculation of the seven FSIs is detailed in section on
   &#x201C;Definition&#x201D; above. The common source data are data reported by
-  banks to supervisory authorities, which are usually the FSI compilers. </p>
+  banks to supervisory authorities, which are usually the FSI compilers.</p>
 IMPUTATION: >-
-  <p>&#x2022; At country level</p>
+  <p><strong>&#x2022;</strong> <strong>At country level</strong></p>
 
   <p>It is not relevant to the seven FSIs. Source data are collected by
   banks&#x2019; supervisory authorities and complete reporting is usually
   mandated by law.</p>
 
-  <p>&#x2022; At regional and global levels</p>
+  <p><strong>&#x2022;</strong> <strong>At regional and global
+  levels</strong></p>
 
   <p>The FSIs are not compiled at regional or global levels.</p>
 REG_AGG: <p>The FSIs are not aggregated at regional levels.</p>
 DOC_METHOD: '<p>The FSI Compilation Guide (206) available at http://data.imf.org/FSI.</p>'
 QUALITY_ASSURE: |-
   <ul>
-    <li>The common source data are data reported by banks for supervisory purposes. National supervisors check and validate the data that are used by national FSI compilers. IMF staff check the FSIs reported by countries before posting on the FSI website and address data issues in collaboration with the national compilers whenever such issues are flagged by the validation and consistency checks implemented in the IMF data processing system.. </li>
+    <li>The common source data are data reported by banks for supervisory purposes. National supervisors check and validate the data that are used by national FSI compilers. IMF staff check the FSIs reported by countries before posting on the FSI website and address data issues in collaboration with the national compilers whenever such issues are flagged by the validation and consistency checks implemented in the IMF data processing system. </li>
   </ul>
 COVERAGE: >-
-  <p>Data availability:</p>
+  <p><strong>Data availability:</strong></p>
 
   <p>As of end-December 2018, there were 138 FSI reporters. All countries report
   all or most core FSIs and some encouraged FSIs that can be used to support the
   interpretation of these seven SDG indicators. </p>
 
-  <p>Time series:</p>
+  <p><strong>Time series:</strong></p>
 
   <p>Data for most countries are reported on a monthly or quarterly basis; a few
   countries report data on a semi-annual basis and with a lag of more than a
   quarter. Data are available as far back as 2005 for some countries.</p>
 
-  <p>Disaggregation:</p>
+  <p><strong>Disaggregation:</strong></p>
 
   <p>The FSIs disseminated by the IMF are weighted averages for the sector as a
   whole (e.g., deposit takers, other financial corporations, nonfinancial
@@ -262,7 +263,7 @@ COVERAGE: >-
   applicable, an explanation is provided in the metadata. There are no
   disaggregated breakdowns of the FSIs reported to the IMF.</p>
 COMPARABILITY: >-
-  <p>Sources of discrepancies:</p>
+  <p><strong>Sources of discrepancies:</strong></p>
 
   <p>Data calculated by other sources could be different from the FSIs
   disseminated by the IMF due to the use of different compilation methodology

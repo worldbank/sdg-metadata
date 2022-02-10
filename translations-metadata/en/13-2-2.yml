@@ -1,20 +1,13 @@
-SDG_GOAL: >-
-  <p>Goal 13: Take urgent action to combat climate change and its impacts<sup><a
-  href="#footnote-2" id="footnote-ref-2">[1]</a></sup> </p><div
-  class="footnotes"><div><sup class="footnote-number" id="footnote-2">1</sup><p>
-  Acknowledging that the United Nations Framework Convention on Climate Change
-  is the primary international, intergovernmental forum for negotiating the
-  global response to climate change. <a
-  href="#footnote-ref-2">&#x2191;</a></p></div></div>
+SDG_GOAL: '<p>Goal 13: Take urgent action to combat climate change and its impacts</p>'
 SDG_TARGET: >-
-  <p>Target: 13.2 Integrate climate change measures into national policies,
+  <p>Target 13.2: Integrate climate change measures into national policies,
   strategies and planning</p>
-SDG_INDICATOR: '<p>Indicator: 13.2.2 Total greenhouse gas emissions per year</p>'
-META_LAST_UPDATE: <p>March 2021</p>
+SDG_INDICATOR: '<p>Indicator 13.2.2: Total greenhouse gas emissions per year</p>'
+META_LAST_UPDATE: <p>2021-03-01</p>
 SDG_CUSTODIAN_AGENCIES: <p>UN Climate Change (UNFCCC Secretariat)</p>
 CONTACT_ORGANISATION: <p>UN Climate Change (UNFCCC Secretariat)</p>
 STAT_CONC_DEF: >-
-  <p>Definition, rationale and concepts:</p>
+  <p><strong>Definition, rationale and concepts:</strong></p>
 
   <p>The ultimate objective of the Climate Change Convention (UNFCCC) is to
   achieve the stabilization of greenhouse gas concentrations in the atmosphere
@@ -98,10 +91,14 @@ DATA_COMP: >-
   the GWP provided in the IPCC Second Assessment Report
   (https://www.ipcc.ch/report/ipcc-second-assessment-full-report/) based on the
   effects of GHGs over a 100-year time.</p>
-IMPUTATION: |-
-  <p>&#x2022; At country level</p>
+IMPUTATION: >-
+  <p><strong>&#x2022;</strong> <strong>At country level</strong></p>
+
   <p>Availability of data depends only on what is received from Parties.</p>
-  <p>&#x2022; At regional and global levels</p>
+
+  <p><strong>&#x2022;</strong> <strong>At regional and global
+  levels</strong></p>
+
   <p>n/a</p>
 REG_AGG: <p>n/a</p>
 DOC_METHOD: |-
@@ -112,7 +109,7 @@ DOC_METHOD: |-
     <li>Revised 1996 IPCC Guidelines for National Greenhouse Gas Inventories &#x2013; https://www.ipcc-nggip.iges.or.jp/public/gl/invs1.html</li>
   </ul>
 COVERAGE: >-
-  <p>Data availability:</p>
+  <p><strong>Data availability:</strong></p>
 
   <p>Based on national inventory reports submitted to the UNFCCC secretariat,
   total greenhouse gas (GHG) emissions in Gt CO2 eq of developed countries (43
@@ -122,17 +119,17 @@ COVERAGE: >-
   non-Annex I Parties submit their national communications/biennial update
   reports only periodically.</p>
 
-  <p>Time series:</p>
+  <p><strong>Time series:</strong></p>
 
   <p>Data for Annex I Parties are available from the base year (usually 1990) up
   to two years before the inventory is due. Data available for non-Annex I
   Parties are usually only for selected years.</p>
 
-  <p>Disaggregation:</p>
+  <p><strong>Disaggregation:</strong></p>
 
   <p>Data is disaggregated by Annex I and Non-Annex I Parties to the UNFCCC</p>
 COMPARABILITY: |-
-  <p>Sources of discrepancies:</p>
+  <p><strong>Sources of discrepancies:</strong></p>
   <p>n/a</p>
 OTHER_DOC: |-
   <ul>

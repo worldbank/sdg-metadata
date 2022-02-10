@@ -1,12 +1,10 @@
-SDG_GOAL: >-
-  <p>Goal 3: Ensure healthy lives and promote well-being for all at all ages
-  </p>
+SDG_GOAL: '<p>Goal 3: Ensure healthy lives and promote well-being for all at all ages</p>'
 SDG_TARGET: >-
   <p>Target 3.3: By 2030, end the epidemics of AIDS, tuberculosis, malaria and
   neglected tropical diseases and combat hepatitis, water-borne diseases and
-  other communicable diseases </p>
+  other communicable diseases</p>
 SDG_INDICATOR: '<p>Indicator 3.3.3: Malaria incidence per 1,000 population </p>'
-META_LAST_UPDATE: <p>February 2021</p>
+META_LAST_UPDATE: <p>2021-02-01</p>
 SDG_CUSTODIAN_AGENCIES: <p>Global Malaria Programme at World Health Organization (WHO) </p>
 CONTACT_ORGANISATION: <p>Global Malaria Programme at World Health Organization (WHO)</p>
 STAT_CONC_DEF: >-
@@ -15,9 +13,7 @@ STAT_CONC_DEF: >-
   <p>Incidence of malaria is defined as the number of new cases of malaria per
   1,000 people at risk each year. </p>
 
-  <p> </p>
-
-  <p> <strong>Concepts:</strong> </p>
+  <p><strong>Concepts:</strong> </p>
 
   <p>Case of malaria is defined as the occurrence of malaria infection in a
   person whom the presence of malaria parasites in the blood has been confirmed
@@ -38,7 +34,7 @@ COLL_METHOD: >-
   <p>The official counterpart for each country is the National Malaria Control
   Program at the Ministry of Health. </p>
 FREQ_COLL: <p>Data is collected every year. </p>
-REL_CAL_POLICY: <p>Data is released yearly.. </p>
+REL_CAL_POLICY: <p>Data is released yearly. </p>
 DATA_SOURCE: >-
   <p>The National Malaria Control Program is the responsible to collect the
   information at each country. </p>
@@ -214,7 +210,7 @@ DATA_VALIDATION: >-
 ADJUSTMENT: <p>NA</p>
 IMPUTATION: >-
   <ul>
-    <li>At country level </li>
+    <li><strong>At country level</strong></li>
   </ul>
 
   <p>For missing values of the parameters (test positivity rate and reporting
@@ -229,7 +225,7 @@ IMPUTATION: >-
   <p> </p>
 
   <ul>
-    <li>At regional and global levels </li>
+    <li><strong>At regional and global levels</strong></li>
   </ul>
 
   <p>Not Applicable </p>
@@ -257,15 +253,14 @@ QUALITY_ASSMNT: >-
   necessary we rely on data quality assessment information from external sources
   such as partners working in malaria monitor and evaluation. </p>
 COVERAGE: |-
-  <p>Data availability: </p>
-  <p>109 countries </p>
-  <p> </p>
-  <p>Time series: </p>
-  <p>Annually from 2000 </p>
-  <p>Disaggregation:</p>
-  <p>The indicator is estimated at country level. </p>
+  <p><strong>Data availability: </strong></p>
+  <p>109 countries</p>
+  <p><strong>Time series:</strong></p>
+  <p>Annually from 2000</p>
+  <p><strong>Disaggregation:</strong></p>
+  <p>The indicator is estimated at country level.</p>
 COMPARABILITY: >-
-  <p><strong>Sources of discrepancies:</strong> </p>
+  <p><strong>Sources of discrepancies:</strong></p>
 
   <p>The estimated incidence can differ from the incidence reported by a
   Ministry of Health which can be affected by: </p>
@@ -276,13 +271,12 @@ COMPARABILITY: >-
     <li>the use of private health facilities which are usually not included in reporting systems. </li>
   </ul>
 OTHER_DOC: >-
-  <p><strong>URL:</strong> </p>
+  <p><strong>URL:</strong></p>
 
-  <p>https://www.who.int/publications/i/item/9789240015791 </p>
+  <p><a
+  href="https://www.who.int/publications/i/item/9789240015791">https://www.who.int/publications/i/item/9789240015791</a></p>
 
-  <p> </p>
-
-  <p><strong>References:</strong> </p>
+  <p><strong>References:</strong></p>
 
   <p>1. World Health Organization. World Malaria Report 2020 2020. </p>
 
@@ -292,14 +286,12 @@ OTHER_DOC: >-
 
   <p>3. Cibulskis RE, Aregawi M, Williams R, Otten M, Dye C. Worldwide Incidence
   of Malaria in 2009: Estimates, Time Trends, and a Critique of Methods. Mueller
-  I, editor. PLoS Med. 2011 Dec 20;8(12):e1001142. </p>
+  I, editor. PLoS Med. 2011 Dec 20;8(12):e1001142.</p>
 
   <p>4. R Core Team. R: A Language and Environment for Statistical Computing
   [Internet]. Vienna, Austria: R Foundation for Statistical Computing; 2020.
   Available from: http://www.R-project.org/ </p>
 
-  <p> </p>
-
   <p>5. Bhatt S, Weiss DJ, Cameron E, Bisanzio D, Mappin B, Dalrymple U, et al.
   The effect of malaria control on Plasmodium falciparum in Africa between 2000
-  and 2015. Nature. 2015 Oct 8;526(7572):207&#x2013;11. </p>
+  and 2015. Nature. 2015 Oct 8;526(7572):207&#x2013;11.</p>

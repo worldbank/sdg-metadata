@@ -10,8 +10,8 @@ SDG_INDICATOR: >-
   services (education, health and social protection)</p>
 
   <p>This document applies to the education component of indicator 1.a.2.</p>
-META_LAST_UPDATE: <p>July 2021</p>
-SDG_RELATED_INDICATORS: '<p>4.5.3, 4.5.4, 4.5.5, 4.a.1, 4.b.1, 4.b.2</p>'
+META_LAST_UPDATE: <p>2021-12-20</p>
+SDG_RELATED_INDICATORS: '<p>4.5.3, 4.5.4, 4.5.5, 4.a.1, 4.b.1</p>'
 SDG_CUSTODIAN_AGENCIES: <p>UNESCO Institute for Statistics (UNESCO-UIS)</p>
 CONTACT_ORGANISATION: <p>UNESCO Institute for Statistics (UNESCO-UIS)</p>
 STAT_CONC_DEF: >-
@@ -35,27 +35,46 @@ STAT_CONC_DEF: >-
   services, such as teaching staff, school buildings, or school books and
   teaching materials, and peripheral educational goods and services such as
   ancillary services, general administration and other activities.</p>
+UNIT_MEASURE: >-
+  <p>Percentage. This indicator is the total general government expenditure on
+  education, expressed as a percentage of total general government expenditure
+  on all sectors. </p>
+CLASS_SYSTEM: <p>None</p>
 SOURCE_TYPE: >-
-  <p>Annual financial reports by national Ministries of Finance or Ministries of
-  Education, or national accounts reports by National Statistical Offices.</p>
-COLL_METHOD: >-
-  <p>Data on education expenditure are submitted by country governments in
-  response to the annual UIS survey on formal education or to the
-  UNESCO-OECD-Eurostat (UOE) data collection. </p>
+  <p>The source of data varies by country depending on the availability:</p>
 
-  <p>Data on total general government expenditure (all sectors) are obtained
-  from the International Monetary Fund&apos;s World Economic Outlook database
-  and are updated once a year. </p>
-FREQ_COLL: >-
-  <p>Annual UIS survey (latest launched in October 2019) and UOE survey (latest
-  launched in June 2019).</p>
+  <p><strong>For public expenditure on education:</strong> government
+  expenditure datasets, expenditure reports in national and sub-national
+  budgets, the IMF Government Finance Statistics database, Public Expenditure
+  Reviews published by the World Bank and others, the World Bank&#x2019;s BOOST
+  dataset, and other national or international sources as available.</p>
+
+  <p><strong>For total government expenditure:</strong> the source of total
+  government expenditure would be from a comparable source as the total amount
+  of public expenditure on education. For example, if the expenditure amount is
+  derived from national budget documents then total expenditure would also be
+  derived from national budget documents. </p>
+
+  <p><em>Note that if governments have an official indicator for this SDG, then
+  this would be the source.</em></p>
+COLL_METHOD: >-
+  <p>There are two different methods used to collect data depending on the
+  availability of data for a particular country:</p>
+
+  <ol>
+    <li>Data on education expenditure are submitted by country governments in response to the annual UIS survey on formal education or to the UNESCO-OECD-Eurostat (UOE) data collection. </li>
+    <li>If a country does not respond to the annual survey, then data mining of publicly available sources as described above and then an indicator value is estimated based on a modelling approach as needed. </li>
+  </ol>
+FREQ_COLL: |-
+  <ol>
+    <li>Annual UIS (usually launched the 4th quarter every year) and UOE survey (usually launched in June every year). </li>
+    <li>Data mining is conducted periodically to correspond to the UIS data release schedule</li>
+  </ol>
 REL_CAL_POLICY: <p>Biannual UIS data release (February and September).</p>
 DATA_SOURCE: >-
   <p>Ministries of Finance, Ministries of Education, National Statistical
   Offices.</p>
-COMPILING_ORG: >-
-  <p>UNESCO Institute for Statistics, OECD, Eurostat, International Monetary
-  Fund.</p>
+COMPILING_ORG: '<p>UNESCO Institute for Statistics, OECD, Eurostat</p>'
 INST_MANDATE: >-
   <p>The UNESCO Institute for Statistics (UIS) is the statistical branch of the
   United Nations Educational, Scientific and Cultural Organization (UNESCO). The
@@ -65,42 +84,41 @@ INST_MANDATE: >-
 
   <p>The <a
   href="https://www.moe.gov.bn/DocumentDownloads/Education%202030/Education2030.pdf"><u>Education
-  2030 Framework for Action 100</u></a> has clearly states that: &#x201C;<em>In
-  recognition of the importance of harmonization of monitoring and reporting,
-  the UIS will remain the official source of cross-nationally comparable data on
-  education. It will continue to produce international monitoring indicators
-  based on its annual education survey and on other data sources that guarantee
-  international comparability for more than 200 countries and territories. In
-  addition to collecting data, the UIS will work with partners to develop new
-  indicators, statistical approaches and monitoring tools to better assess
-  progress across the targets related to UNESCO&#x2019;s mandate, working in
-  coordination with the SDG-Education 2030 SC&#x201D;</em></p>
+  2030 Framework for Action &#xA7;100</u></a> has clearly stated that:
+  &#x201C;<em>In recognition of the importance of harmonization of monitoring
+  and reporting, the UIS will remain the official source of cross-nationally
+  comparable data on education. It will continue to produce international
+  monitoring indicators based on its annual education survey and on other data
+  sources that guarantee international comparability for more than 200 countries
+  and territories. In addition to collecting data, the UIS will work with
+  partners to develop new indicators, statistical approaches and monitoring
+  tools to better assess progress across the targets related to UNESCO&#x2019;s
+  mandate, working in coordination with the SDG-Education 2030
+  SC&#x201D;.</em></p>
 RATIONALE: >-
   <p>The indicator is used to assess a government&apos;s emphasis on education
-  relative to its investments in other sectors. The indicator shows how much of
-  a priority education is for a given government, over time or in comparison
-  with other countries.</p>
+  relative to other sectors. The indicator shows how much of a priority
+  education is for a given government, over time or in comparison with other
+  countries.</p>
 REC_USE_LIM: >-
   <p>A high proportion of government expenditure on education demonstrates a
   high government priority for education relative to other public investments.
-  When interpreting this indicator one should keep in mind that some governments
-  have more (or fewer) financial resources and therefore larger (or smaller)
-  overall budgets, and that countries with younger populations may spend more on
-  education relative to other sectors such as health or social security, and
-  vice-versa. The Education 2030 Framework for Action has endorsed a benchmark
-  for this indicator, which encourages countries to allocate at least 15% to 20%
-  of their public expenditure to education.</p>
+  The Education 2030 Framework for Action has endorsed a benchmark for this
+  indicator, which encourages countries to allocate at least 15% to 20% of their
+  public expenditure to education.</p>
 
   <p>In some instances data on total public expenditure on education refer only
   to the Ministry of Education, excluding other ministries may also spend a part
-  of their budget on educational activities. Although the IMF aims to publish
-  data on total general government expenditure following common definitions
-  based on the Government Finance Statistics Manual, in practice this concept
-  (and what it includes) may differ between countries.</p>
+  of their budget on educational activities as well as the local governments
+  that receive block grants and do not report how much they spend on education.
+  Although the IMF aims to publish data on total general government expenditure
+  following common definitions based on the Government Finance Statistics
+  Manual, in practice this concept (and what it includes) may differ between
+  countries.</p>
 DATA_COMP: >-
-  <p>Total government expenditure for a given level of education (e.g. primary,
-  secondary, or all levels combined) is expressed as a percentage of total
-  general government expenditure (all sectors).</p>
+  <p>Total government expenditure on education in all levels combined is
+  expressed as a percentage of total general government expenditure (all
+  sectors).</p>
 
   <p><math xmlns="http://www.w3.org/1998/Math/MathML">
       <msub>
@@ -110,22 +128,19 @@ DATA_COMP: >-
           <mi>E</mi>
         </mrow>
         <mrow>
-          <mi>n</mi>
-          <mo>,</mo>
           <mi>t</mi>
         </mrow>
       </msub>
       <mo>=</mo>
       <mfrac>
         <mrow>
+          <mi>T</mi>
           <msub>
             <mrow>
               <mi>X</mi>
               <mi>E</mi>
             </mrow>
             <mrow>
-              <mi>n</mi>
-              <mo>,</mo>
               <mi>t</mi>
             </mrow>
           </msub>
@@ -152,25 +167,22 @@ DATA_COMP: >-
           <mi>E</mi>
         </mrow>
         <mrow>
-          <mi>n</mi>
-          <mo>,</mo>
           <mi>t</mi>
         </mrow>
       </msub>
-    </math> = expenditure on education level <em>n</em> as a percentage of total government expenditure in financial year <em>t</em></p>
+    </math> = government expenditure on education as a percentage of total government expenditure in financial year <em>t</em></p>
   <p><math xmlns="http://www.w3.org/1998/Math/MathML">
       <msub>
         <mrow>
+          <mi>T</mi>
           <mi>X</mi>
           <mi>E</mi>
         </mrow>
         <mrow>
-          <mi>n</mi>
-          <mo>,</mo>
           <mi>t</mi>
         </mrow>
       </msub>
-    </math> = total general government expenditure on education level <em>n</em> in financial year <em>t</em></p>
+    </math> = total general government expenditure on education in financial year <em>t</em></p>
   <p><math xmlns="http://www.w3.org/1998/Math/MathML">
       <msub>
         <mrow>
@@ -183,24 +195,63 @@ DATA_COMP: >-
         </mrow>
       </msub>
     </math> = total government expenditure in financial year <em>t</em></p>
+  <p>Note: the numerator and denominator should come from the same source as
+  preferred option.</p>
+DATA_VALIDATION: >-
+  <p>The UNESCO Institute for Statistics shares all indicator values and notes
+  on methodology with National Statistical Offices, Ministries of Education, or
+  other relevant agencies in individual countries for their review, feedback and
+  validation before the publication of the data. </p>
+ADJUSTMENT: >-
+  <p>Data should cover formal education only and should follow common
+  definitions. </p>
 IMPUTATION: |-
-  <p>&#x2022; <strong>At country level</strong></p>
+  <p><strong>&#x2022; At country level</strong></p>
   <p>None by data compiler.</p>
-  <p>&#x2022; <strong>At regional and global levels</strong></p>
+  <p><strong>&#x2022; At regional and global levels</strong></p>
   <p>None by data compiler.</p>
 REG_AGG: >-
   <p>Regional and global aggregates are not currently available for this
   indicator.</p>
+DOC_METHOD: >-
+  <p>The UIS has elaborated guidance for the countries on the methodology that
+  should be used to calculate this indicator based on the Survey of Formal
+  Education and its manual. The standardized template for data mining containts
+  instructions for its completion. </p>
+QUALITY_MGMNT: >-
+  <p>The UIS maintains a global database used to produce this indicator and
+  defines the protocols and standards for data reporting by countries. For
+  transparency purposes, the inclusion of a data point in the database is
+  completed by following a protocol and is reviewed by UIS technical focal
+  points to ensure consistency and overall data quality, based on objective
+  criteria to ensure that only the most recent and reliable information are
+  included in the database.</p>
+QUALITY_ASSURE: >-
+  <p>Before its annual data release and the addition of any indicators to the
+  global SDG Indicators Database, the UNESCO Institute for Statistics submits
+  all indicator values and notes on methodology to National Statistical Offices,
+  Ministries of Education or other relevant agencies in individual countries for
+  their review and feedback.</p>
+QUALITY_ASSMNT: >-
+  <p>The indicator should be produced based on consistent and actual data on
+  total government expenditures on education and total government expenditures
+  on all sectors combined. Criteria for quality assessment include: data sources
+  must include proper documentation; data values must be representative at the
+  national population level and, if not, should be footnoted; data are plausible
+  and based on trends and consistency with previously published/reported values
+  for the indicator.</p>
 COVERAGE: |-
   <p><strong>Data availability:</strong></p>
   <p>156 countries with at least one data point for the period 2010-2019.</p>
   <p><strong>Time series:</strong></p>
   <p>1980-2019 in UIS database; 2000-2019 in the SDG Global database.</p>
   <p><strong>Disaggregation:</strong></p>
-  <p>By level of education.</p>
-COMPARABILITY: |-
-  <p><strong>Sources of discrepancies:</strong></p>
-  <p>None.</p>
+  <p>None </p>
+COMPARABILITY: >-
+  <p><strong>Sources of discrepancies</strong></p>
+
+  <p>The data is derived from different sources and may be subject to
+  differences in national definitions of expenditure types. </p>
 OTHER_DOC: >-
   <p><strong>URL:</strong></p>
 

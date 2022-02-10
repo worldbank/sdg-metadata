@@ -1,16 +1,16 @@
 SDG_GOAL: >-
   <p>Goal 8: Promote sustained, inclusive and sustainable economic growth, full
-  and productive employment and decent work for all </p>
+  and productive employment and decent work for all</p>
 SDG_TARGET: >-
   <p>Target 8.4: Improve progressively, through 2030, global resource efficiency
   in consumption and production and endeavour to decouple economic growth from
-  environmental degradation, in accordance with the 10-Year Framework of
+  environmental degradation, in accordance with the 10&#x2011;Year Framework of
   Programmes on Sustainable Consumption and Production, with developed countries
-  taking the lead </p>
+  taking the lead</p>
 SDG_INDICATOR: >-
   <p>Indicator 8.4.2: Domestic material consumption, domestic material
   consumption per capita, and domestic material consumption per GDP </p>
-META_LAST_UPDATE: <p>4 February 2021</p>
+META_LAST_UPDATE: <p>2021-02-04</p>
 SDG_RELATED_INDICATORS: <p>Indicator 12.2.2 </p>
 SDG_CUSTODIAN_AGENCIES: <p>United Nations Environment Programme (UNEP) </p>
 CONTACT_ORGANISATION: <p>United Nations Environment Programme (UNEP) </p>
@@ -86,7 +86,7 @@ DATA_VALIDATION: >-
   World Environment Situation Room and in the SDG Global database. </p>
 IMPUTATION: >-
   <ul>
-    <li>At country level </li>
+    <li><strong>At country level </strong></li>
   </ul>
 
   <p>A zero is imputed when no positive real value was officially recorded, in
@@ -101,7 +101,7 @@ IMPUTATION: >-
   <p> </p>
 
   <ul>
-    <li>At regional and global levels </li>
+    <li><strong>At regional and global levels </strong></li>
   </ul>
 
   <p>Similarly, missing values are imputed as zero in the regional and global
@@ -124,23 +124,23 @@ DOC_METHOD: >-
   <p>https://seea.un.org/sites/seea.un.org/files/global_material_flow_accounting_manual_final_draft.pdf
   https://ec.europa.eu/eurostat/web/products-manuals-and-guidelines/-/KS-GQ-18-006</p>
 COVERAGE: >-
-  <p>Data availability:</p>
+  <p><strong>Data availability:</strong></p>
 
   <p>The data covers more than 170 countries. </p>
 
-  <p>Time series:</p>
+  <p><strong>Time series:</strong></p>
 
   <p>The data set covers each nation individually, over a time period of 47
   years (1970-2017). </p>
 
-  <p>Disaggregation:</p>
+  <p><strong>Disaggregation:</strong></p>
 
   <p>The DMC indicator can be disaggregated into imports, domestic extraction
   and exports by a large number of material follow categories. At the highest
   level of aggregation biomass, fossil fuels, metal ores and non-metallic
   minerals are distinguished. DMC is usually reported for 11 material
   categories, DE for 44 material categories. </p>
-COMPARABILITY: '<p>Sources of discrepancies:</p>'
+COMPARABILITY: '<p><strong>Sources of discrepancies:</strong></p>'
 OTHER_DOC: >-
   <p><strong>References:</strong> </p>
 

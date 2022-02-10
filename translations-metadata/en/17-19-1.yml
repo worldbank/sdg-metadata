@@ -9,20 +9,14 @@ SDG_TARGET: >-
 SDG_INDICATOR: >-
   <p>Indicator 17.19.1: Dollar value of all resources made available to
   strengthen statistical capacity in developing countries</p>
-META_LAST_UPDATE: '<p>Last updated: 11 July 2017</p>'
+META_LAST_UPDATE: <p>2017-07-11</p>
 SDG_RELATED_INDICATORS: >-
-  <h1>Related indicators as of February 2020</h1>
-
   <p>17.18.3: Number of countries with a national statistical plan that is fully
   funded and under implementation, by source of funding</p>
-SDG_CUSTODIAN_AGENCIES: |-
-  <h1>Institutional information</h1>
-  <h2>Organization(s):</h2>
-  <p>Partnership in Statistics for Development in the 21st Century (PARIS21)</p>
+SDG_CUSTODIAN_AGENCIES: <p>Partnership in Statistics for Development in the 21st Century (PARIS21)</p>
+CONTACT_ORGANISATION: <p>Partnership in Statistics for Development in the 21st Century (PARIS21)</p>
 STAT_CONC_DEF: >-
-  <h1>Concepts and definitions</h1>
-
-  <h2>Definition:</h2>
+  <p><strong>Definition:</strong></p>
 
   <p>The indicator Dollar value of all resources made available to strengthen
   statistical capacity in developing countries is based on the Partner Report on
@@ -30,10 +24,6 @@ STAT_CONC_DEF: >-
   provide a snapshot of the US dollar value of ongoing statistical support in
   developing countries.</p>
 SOURCE_TYPE: >-
-  <h1>Data sources</h1>
-
-  <h2>Description:</h2>
-
   <p>To provide a full picture of international support to statistics, the
   indicator draws on three distinct data sources. The first source of data is
   the OECD Creditor Reporting System (CRS), which records data from OECD
@@ -46,8 +36,7 @@ SOURCE_TYPE: >-
   by this code, causing the CRS figures to underestimate actual levels of
   support for international aid. PARIS21 seeks to reduce this downward bias by
   searching project descriptions in the CRS for terms indicating a component of
-  SCB. The methodology is presented at <a
-  href="http://www.paris21.org/PRESS2015">http://www.paris21.org/PRESS2015</a>.</p>
+  SCB. The methodology is presented at http://www.paris21.org/PRESS2015.</p>
 
   <p>Third, and finally, the PARIS21 Secretariat supplements this data with an
   online questionnaire completed by a global network of reporters. The
@@ -59,26 +48,16 @@ SOURCE_TYPE: >-
   institutions with large portfolios of statistical projects that have requested
   to report to the PARIS21 Secretariat directly.</p>
 
-  <h2>List:</h2>
+  <p><strong>List:</strong></p>
 
   <p>OECD Creditor Reporting System (CRS), PARIS21</p>
-FREQ_COLL: |-
-  <h1>Calendar</h1>
-  <p>From Sep-16</p>
-DATA_SOURCE: |-
-  <h1>Data providers</h1>
-  <p>PARIS21/OECD</p>
-COMPILING_ORG: |-
-  <h1>Data compilers</h1>
-  <p>PARIS21</p>
+FREQ_COLL: <p>From Sep-16</p>
+DATA_SOURCE: <p>PARIS21/OECD</p>
+COMPILING_ORG: <p>PARIS21</p>
 RATIONALE: >-
-  <h2>Rationale:</h2>
-
   <p>The indicator aims to provide a snapshot of the US dollar value of ongoing
   statistical support in developing countries</p>
 REC_USE_LIM: >-
-  <h2>Comments and limitations:</h2>
-
   <p>Measuring support to statistics comes with many methodological challenges.
   The financial figures presented in the PRESS therefore need to be interpreted
   with these challenges in mind. For instance, PRESS numbers rely on the
@@ -96,56 +75,45 @@ REC_USE_LIM: >-
   <p>The indicator only captures international support to statistics and does
   not account for domestic resources.</p>
 DATA_COMP: >-
-  <h1>Methodology</h1>
-
-  <h2>Computation method:</h2>
-
   <p>The financial amounts were converted to US dollars by using the period
   average exchange rate of the commitment year of the project/program. In cases
   where the disbursement amounts were reported, the exchange rate used was the
   period average of the disbursement year.</p>
+IMPUTATION: |-
+  <p><strong>&#x2022; At country level</strong></p>
+  <p><strong>&#x2022; At regional and global levels</strong></p>
 REG_AGG: >-
-  <h2>Regional aggregates:</h2>
-
   <p>Regional-level aggregates are based on the sum of national commitments,
   sub-regional and regional commitments.</p>
 DOC_METHOD: >-
-  <h2>Methods and guidance available to countries for the compilation of the
-  data at the national level:</h2>
-
   <p>2016 Partner Report on Support to Statistics (PRESS) published by PARIS21
   (<a href="http://www.paris21.org/press">www.paris21.org/press</a>) based on
   data from Creditor Reporting System (<a
   href="https://stats.oecd.org/Index.aspx?DataSetCode=CRS1">https://stats.oecd.org/Index.aspx?DataSetCode=CRS1</a>)
   and PARIS21 PRESS online survey.</p>
 QUALITY_ASSURE: >-
-  <h2>Quality assurance:</h2>
-
   <p>Inviting donors to check and validate information available online (<a
   href="http://www.paris21.org/press">www.paris21.org/press</a>).</p>
 COVERAGE: >-
-  <h1>Data availability</h1>
-
-  <h2>Description:</h2>
+  <p><strong>Data availability:</strong></p>
 
   <p>The current time series for 2006-2013 covers 132 developing countries.</p>
 
-  <h2>Time series:</h2>
+  <p><strong>Time series:</strong></p>
 
   <p>From 2006 to 2013</p>
 
-  <h2>Disaggregation:</h2>
+  <p><strong>Disaggregation:</strong></p>
 
   <p>The commitment amount can be disaggregated by geographical area, ODA
   sectors, area of statistics and method of financing (grant vs loan).</p>
+COMPARABILITY: '<p><strong>Sources of discrepancies:</strong></p>'
 OTHER_DOC: >-
-  <h1>References</h1>
-
-  <h2>URL:</h2>
+  <p><strong>URL:</strong></p>
 
   <p><a href="http://www.paris21.org">www.paris21.org</a> </p>
 
-  <h2>References:</h2>
+  <p><strong>References:</strong></p>
 
   <p>OECD (2007). Reporting Directives for the Creditor Reporting System.
   available at <a

@@ -7,9 +7,9 @@ SDG_TARGET: >-
   under 5 years of age, and address the nutritional needs of adolescent girls,
   pregnant and lactating women and older persons</p>
 SDG_INDICATOR: >-
-  <p>Indicator 2.2.3: Prevalence of anaemia in women aged 15-49 years, by
+  <p>Indicator 2.2.3: Prevalence of anaemia in women aged 15 to 49 years, by
   pregnancy status (percentage)</p>
-META_LAST_UPDATE: <p>March 2021</p>
+META_LAST_UPDATE: <p>2021-03-01</p>
 SDG_RELATED_INDICATORS: >-
   <p>Goal 1. No poverty</p>
 
@@ -79,14 +79,14 @@ SDG_RELATED_INDICATORS: >-
 SDG_CUSTODIAN_AGENCIES: <p>World Health Organization (WHO)</p>
 CONTACT_ORGANISATION: <p>World Health Organization (WHO)</p>
 STAT_CONC_DEF: >-
-  <p>Definition:</p>
+  <p><strong>Definition:</strong></p>
 
   <p>Percentage of women aged 15&#x2212;49 years with a haemoglobin
   concentration less than 120 g/L for non-pregnant women and lactating women,
   and less than 110 g/L for pregnant women, adjusted for altitude and
   smoking.</p>
 
-  <p>Concepts:</p>
+  <p><strong>Concepts:</strong></p>
 
   <p>Anaemia: condition in which the concentration of blood haemoglobin
   concentration falls below established cut-off values.</p>
@@ -237,7 +237,7 @@ ADJUSTMENT: >-
   above. </p>
 IMPUTATION: >-
   <ul>
-    <li>At country level</li>
+    <li><strong>At country level</strong></li>
   </ul>
 
   <p>A Bayesian hierarchical mixture model was used to estimate haemoglobin
@@ -252,7 +252,7 @@ IMPUTATION: >-
   https://www.thelancet.com/cms/10.1016/S2214-109X(13)70001-9/attachment/e073f9da-1330-4a1d-a1a0-67caf08c11bf/mmc1.pdf.</p>
 
   <ul>
-    <li>At regional and global levels</li>
+    <li><strong>At regional and global levels</strong></li>
   </ul>
 
   <p>Global and regional prevalence estimates were calculated as

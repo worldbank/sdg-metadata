@@ -3,35 +3,33 @@ SDG_GOAL: >-
   Partnership for Sustainable Development</p>
 SDG_TARGET: >-
   <p>Target 17.11: Significantly increase the exports of developing countries,
-  in particular with a view to doubling the least developed countries&apos;
+  in particular with a view to doubling the least developed countries&#x2019;
   share of global exports by 2020</p>
 SDG_INDICATOR: >-
-  <p>Indicator 17.11.1: Developing countries&apos; and least developed
-  countries&apos; share of global exports</p>
-META_LAST_UPDATE: '<p>Last updated: 19 July 2016</p>'
+  <p>Indicator 17.11.1: Developing countries&#x2019; and least developed
+  countries&#x2019; share of global exports</p>
+META_LAST_UPDATE: <p>2016-07-19</p>
 SDG_RELATED_INDICATORS: >-
-  <h1>Related indicators as of February 2020</h1>
-
   <p>Improvements in the transfer of environmental goods and services (target
   17.7). If the indicator is disaggregated by level of processing of the traded
   products (raw materials, semi-processed and processed) or by the level of
   diversification of the products exported, it could be also used to measure
   progress in productivity and diversification (target 8.2).</p>
 SDG_CUSTODIAN_AGENCIES: |-
-  <h1>Institutional information</h1>
-  <h2>Organization(s):</h2>
+  <p>International Trade Centre (ITC)</p>
+  <p>United Nations Conference on Trade and Development (UNCTAD)</p>
+  <p>The World Trade Organization (WTO)</p>
+CONTACT_ORGANISATION: |-
   <p>International Trade Centre (ITC)</p>
   <p>United Nations Conference on Trade and Development (UNCTAD)</p>
   <p>The World Trade Organization (WTO)</p>
 STAT_CONC_DEF: >-
-  <h1>Concepts and definitions</h1>
-
-  <h2>Definition:</h2>
+  <p><strong>Definition:</strong></p>
 
   <p>Exports by developing countries and LDCs as a share of global exports of
   goods and services</p>
 
-  <h2>Concepts:</h2>
+  <p><strong>Concepts:</strong></p>
 
   <p>Harmonized System (HS): Is the international classification used to
   categorize products that are traded (merchandise trade)</p>
@@ -40,12 +38,8 @@ STAT_CONC_DEF: >-
   presented in the Balance of Payments as defined by the IMF in t the Balance of
   Payments Manual.</p>
 SOURCE_TYPE: >-
-  <h1>Data sources</h1>
-
-  <h2>Description:</h2>
-
-  <p>Trade in goods data included in the ITC (Trade Map) database are collected
-  by contacting directly focal points in national agencies or regional
+  <p>&quot;Trade in goods data included in the ITC (Trade Map) database are
+  collected by contacting directly focal points in national agencies or regional
   organizations (in the case of custom unions or regional economic communities).
   Trade in goods data included in the WTO (IDB) database are sourced from
   official notifications of WTO members. Trade in goods data are complemented,
@@ -58,42 +52,32 @@ SOURCE_TYPE: >-
   banks and/or national statistic offices from one or more of the following
   sources:</p>
 
-  <ul>
-    <li>International Transaction Reporting System (ITRS). In this case, international payments channelled through domestic banks are collected, generally, under the responsibility of the national central bank. Payments are used as a proxy of transactions.</li>
-    <li>Enterprise surveys. Generally, under the responsibility of the national statistical office.</li>
-  </ul>
+  <p>International Transaction Reporting System (ITRS). In this case,
+  international payments channelled through domestic banks are collected,
+  generally, under the responsibility of the national central bank. Payments are
+  used as a proxy of transactions.</p>
+
+  <p>Enterprise surveys. Generally, under the responsibility of the national
+  statistical office.</p>
 FREQ_COLL: >-
-  <h1>Calendar</h1>
-
-  <h2>Data collection:</h2>
-
-  <p>Collection of trade data (import and export flow) occurs all year round.
-  </p>
+  <p>Collection of trade data (import and export flow) occurs all year
+  round.</p>
 REL_CAL_POLICY: >-
-  <h2>Data release:</h2>
-
   <p>Data for year &#x201C;t-1&#x201D; will be released in year
   &#x201C;t&#x201D; approximately around March/April depending also on the date
-  decided for the launching of the yearly report on the SDGs monitoring. </p>
-DATA_SOURCE: |-
-  <h1>Data providers</h1>
-  <p>Already answered above.</p>
+  decided for the launching of the yearly report on the SDGs monitoring.</p>
+DATA_SOURCE: <p>Already answered above.</p>
 COMPILING_ORG: |-
-  <h1>Data compilers</h1>
   <p><strong>Name:</strong></p>
   <p>ITC, WTO and UNCTAD</p>
-  <h2>Description:</h2>
+  <p><strong>Description:</strong></p>
   <p>ITC, WTO and UNCTAD will jointly report on this indicator</p>
 RATIONALE: >-
-  <h2>Rationale:</h2>
-
   <p>The indicator proposed allows tracking the increase of exports from
   Developing countries and LDCs prescribed by target 17.11. Using shares of
   global exports provide information on the relative size of Developing and LDCs
   export in comparison to global exports.</p>
 REC_USE_LIM: >-
-  <h2>Comments and limitations:</h2>
-
   <p>Export shares need to be analysed from different angles in order to infer
   whether a particular country or region made improvements in its trade
   performance. First of all, exports value should be always kept into account in
@@ -120,10 +104,6 @@ REC_USE_LIM: >-
   compiling economy. Data from international organizations can be useful for aid
   recipient countries to compile data on technical assistance services.</p>
 DATA_COMP: >-
-  <h1>Methodology</h1>
-
-  <h2>Computation method:</h2>
-
   <p>Share of global trade is intended of a particular group of country fraction
   of total trade.</p>
 
@@ -134,10 +114,8 @@ DATA_COMP: >-
   converted according to the categories and principles established by the 6th
   edition of the Balance of Payments Manual.</p>
 IMPUTATION: >-
-  <h2>Treatment of missing values:</h2>
-
   <ul>
-    <li><strong><em>At country level:</em></strong></li>
+    <li><strong>At country level</strong></li>
   </ul>
 
   <p>Previous year is used when latest year is not available. Alternatively
@@ -152,20 +130,16 @@ IMPUTATION: >-
   exports.</p>
 
   <ul>
-    <li><strong><em>At regional and global levels:</em></strong></li>
+    <li><strong>At regional and global levels</strong></li>
   </ul>
 
   <p>Answered above.</p>
 REG_AGG: >-
-  <p><strong>Regional aggregates:</strong></p>
-
   <p>Country exports at the 6 digit level of the Harmonized System (HS)
   classification are summed together at the regional level and then divided by
   the total amount of exports.</p>
 COVERAGE: >-
-  <h1>Data availability</h1>
-
-  <h2>Description:</h2>
+  <p><strong>Data availability:</strong></p>
 
   <p>Asia and Pacific: 40</p>
 
@@ -175,42 +149,35 @@ COVERAGE: >-
 
   <p>Europe, North America, Australia, New Zealand and Japan: 31</p>
 
-  <h2>Time series:</h2>
+  <p><strong>Time series:</strong></p>
 
   <p>Yearly data from 2000 to latest year </p>
 
-  <h2>Disaggregation:</h2>
+  <p><strong>Disaggregation:</strong></p>
 
   <p>Disaggregation is available by product sector (e.g. Agriculture, Textile,
   Environmental goods), level of goods processing, geographical region and
   country income level (e.g. Developed, Developing, LDCs).</p>
 COMPARABILITY: >-
-  <h2>Sources of discrepancies:</h2>
+  <p><strong>Sources of discrepancies:</strong></p>
 
   <p>Not applicable to this indicator. Global data are calculated uniquely by
   international agencies. At the national level, the data used are the same
   provided by national authorities and statistical offices.</p>
 OTHER_DOC: >-
-  <h1>References</h1>
+  <p><strong>URL:</strong></p>
 
-  <h2>URL:</h2>
+  <p>http://www.intracen.org; www.wto.org;
+  http://unctad.org/en/Pages/Home.aspx</p>
 
-  <p><a href="http://www.intracen.org">http://www.intracen.org</a></p>
-
-  <p><a href="http://www.wto.org">www.wto.org</a></p>
-
-  <p><a
-  href="http://unctad.org/en/Pages/Home.aspx">http://unctad.org/en/Pages/Home.aspx</a></p>
-
-  <h2>References:</h2>
+  <p><strong>References:</strong></p>
 
   <p>The calculation of trade in goods statistics is based on well-established
   international and national practices.</p>
 
   <p>For trade in goods refer to the manual on International Merchandise Trade
-  Statistics (IMTS) <a
-  href="http://unstats.un.org/unsd/trade/methodology%20imts.htm">http://unstats.un.org/unsd/trade/methodology%20imts.htm</a></p>
+  Statistics (IMTS) http://unstats.un.org/unsd/trade/methodology%20imts.htm</p>
 
   <p>For trade in services, refer to the Manual on Statistics of International
-  Trade in Services <a
-  href="http://unstats.un.org/unsd/tradeserv/TFSITS/msits2010.htm">http://unstats.un.org/unsd/tradeserv/TFSITS/msits2010.htm</a></p>
+  Trade in Services
+  http://unstats.un.org/unsd/tradeserv/TFSITS/msits2010.htm</p>

@@ -8,7 +8,8 @@ SDG_TARGET: >-
 SDG_INDICATOR: >-
   <p>Indicator 4.3.1: Participation rate of youth and adults in formal and
   non-formal education and training in the previous 12 months, by sex</p>
-META_LAST_UPDATE: <p>March 2020</p>
+SDG_SERIES_DESCR: <p>Not applicable. </p>
+META_LAST_UPDATE: <p>2021-07-01</p>
 SDG_RELATED_INDICATORS: '<p>1.4, 4.4, 4.5, 5.b, 8.5, 9.2</p>'
 SDG_CUSTODIAN_AGENCIES: <p>UNESCO Institute for Statistics (UNESCO-UIS)</p>
 CONTACT_ORGANISATION: <p>UNESCO Institute for Statistics (UNESCO-UIS)</p>
@@ -36,9 +37,13 @@ STAT_CONC_DEF: >-
   and outside educational institutions and cater to people of all ages.
   Depending on national contexts, it may cover educational programmes to impart
   adult literacy, life-skills, work-skills, and general culture.</p>
+UNIT_MEASURE: >-
+  <p>Percentage. This indicator is expressed as the percentage of youth and
+  adults in a given age range participating in education or training in a given
+  time period. </p>
+CLASS_SYSTEM: <p>Not applicable. </p>
 SOURCE_TYPE: >-
-  <p>Administrative data from schools and other places of education and training
-  or household survey data on participants in formal and non-formal education
+  <p>Household survey data on participants in formal and non-formal education
   and training by single year of age; population censuses and surveys for
   population estimates by single year of age (if using administrative data on
   enrolment). </p>
@@ -49,6 +54,25 @@ FREQ_COLL: <p>Various depending on survey and country.</p>
 REL_CAL_POLICY: <p>Various depending on survey and country.</p>
 DATA_SOURCE: <p>Ministries of Education and /or National Statistical Offices.</p>
 COMPILING_ORG: <p>UNESCO Institute for Statistics</p>
+INST_MANDATE: >-
+  <p>The UNESCO Institute for Statistics (UIS) is the statistical branch of the
+  United Nations Educational, Scientific and Cultural Organization (UNESCO). The
+  Institute produces internationally comparable data and methodologies in the
+  fields of education, science, culture and communication for countries at all
+  stages of development.</p>
+
+  <p>The <a
+  href="https://www.moe.gov.bn/DocumentDownloads/Education%202030/Education2030.pdf"><u>Education
+  2030 Framework for Action 100</u></a> has clearly stated that: &#x201C;<em>In
+  recognition of the importance of harmonization of monitoring and reporting,
+  the UIS will remain the official source of cross-nationally comparable data on
+  education. It will continue to produce international monitoring indicators
+  based on its annual education survey and on other data sources that guarantee
+  international comparability for more than 200 countries and territories. In
+  addition to collecting data, the UIS will work with partners to develop new
+  indicators, statistical approaches and monitoring tools to better assess
+  progress across the targets related to UNESCO&#x2019;s mandate, working in
+  coordination with the SDG-Education 2030 SC&#x201D;.</em></p>
 RATIONALE: >-
   <p>To show the level of participation of youth and adults in education and
   training of all types. A high value indicates a large share of the population
@@ -66,39 +90,74 @@ DATA_COMP: >-
   non-formal education or training is expressed as a percentage of the
   population of the same age.</p>
 
-  <p>PRAGi = EAGi</p>
-
-  <p>PAGi</p>
+  <p>PR<sub>AGi</sub> = E<sub>AGi</sub>/P<sub>AGi</sub></p>
 
   <p>where:</p>
 
-  <p>PRAGi = participation rate of the population in age group i in formal and
+  <p>PR<sub>AGi</sub> = participation rate of the population in age group i in
+  formal and non-formal education and training</p>
+
+  <p>E<sub>AGi</sub> = enrolment of the population in age group i in formal and
   non-formal education and training</p>
 
-  <p>EAGi = enrolment of the population in age group i in formal and non-formal
-  education and training</p>
+  <p>P<sub>AGi</sub> = population in age group i</p>
 
-  <p>PAGi = population in age group i</p>
-
-  <p>i = 15-24, 15 and above, 25-64 etc.</p>
+  <p>i = 15-24, 15 and above, 25-64, etc.</p>
+DATA_VALIDATION: >-
+  <p>The UNESCO Institute for Statistics shares all indicator values and notes
+  on methodology with National Statistical Offices, Ministries of Education, or
+  other relevant agencies in individual countries for their review, feedback and
+  validation before the publication of the data. </p>
+ADJUSTMENT: <p>Not applicable.</p>
 IMPUTATION: |-
-  <p>&#x2022; At country level:</p>
+  <p><strong>&#x2022; At country level:</strong></p>
   <p>None by data compiler.</p>
-  <p>&#x2022; At regional and global levels:</p>
+  <p><strong>&#x2022; At regional and global levels:</strong></p>
   <p>None by data compiler.</p>
 REG_AGG: >-
   <p>Regional and global aggregates are not currently available for this
   indicator.</p>
+DOC_METHOD: >-
+  <p>The UIS has elaborated guidance for the countries on the methodology that
+  should be used to calculate this indicator. </p>
+QUALITY_MGMNT: >-
+  <p>The UIS maintains the global database used to produce this indicator. For
+  transparency purposes, the inclusion of a data point in the database is
+  completed by following a protocol and is reviewed by UIS technical focal
+  points to ensure consistency and overall data quality, based on objective
+  criteria to ensure that only the most recent and reliable information are
+  included in the database. </p>
+QUALITY_ASSURE: >-
+  <p>The process for quality assurance includes review of survey documentation,
+  review of the indicator values across time, calculation of measures of
+  reliability, examination of consistency of indicator values derived from
+  different sources and, if necessary, consultation with data providers.</p>
+
+  <p>Before its annual data release and the addition of any indicators to the
+  global SDG Indicators Database, the UNESCO Institute for Statistics submits
+  all indicator values and notes on methodology to National Statistical Offices,
+  Ministries of Education or other relevant agencies in individual countries for
+  their review and feedback.</p>
+QUALITY_ASSMNT: >-
+  <p>Accurate data on participation in formal and non-formal education and
+  training by age or specific age-groups and by sex, and the corresponding
+  population data from all types of educational institutions (public and
+  private), formal and non-formal, are essential for calculating this indicator.
+  Criteria for quality assessment include: data sources must include proper
+  documentation; data values must be representative at the national population
+  level and, if not, should be footnoted; data are plausible and based on trends
+  and consistency with previously published/reported values for the
+  indicator.</p>
 COVERAGE: >-
-  <p>Data availability:</p>
+  <p><strong>Data availability:</strong></p>
 
   <p>99 countries with at least one data point for the period 2010-2018.</p>
 
-  <p>Time series:</p>
+  <p><strong>Time series:</strong></p>
 
   <p>1994-2018 in UIS database; 2000-2018 in SDG global database.</p>
 
-  <p>Disaggregation:</p>
+  <p><strong>Disaggregation:</strong></p>
 
   <p>By age and sex from administrative sources, and by age, sex, location and
   income from household surveys.</p>
@@ -108,16 +167,18 @@ COMPARABILITY: |-
 OTHER_DOC: >-
   <p><strong>URL:</strong></p>
 
-  <p>http://www.uis.unesco.org/Pages/default.aspx</p>
+  <p>http://www.uis.unesco.org</p>
 
   <p><strong>References:</strong></p>
 
-  <p>European Adult Education Survey (AES):
-  http://www.eui.eu/Research/Library/ResearchGuides/Economics/Statistics/DataPortal/AES.aspx
+  <p>European Adult Education Survey (AES): <a
+  href="http://www.eui.eu/Research/Library/ResearchGuides/Economics/Statistics/DataPortal/AES.aspx">http://www.eui.eu/Research/Library/ResearchGuides/Economics/Statistics/DataPortal/AES.aspx</a>
   </p>
 
-  <p>European Continuing Vocational Training Survey:
-  http://ec.europa.eu/eurostat/cache/metadata/en/trng_cvts_esms.htm </p>
+  <p>European Continuing Vocational Training Survey: </p>
 
-  <p>European Labour Force Survey:
-  http://ec.europa.eu/eurostat/cache/metadata/en/trng_lfs_4w0_esms.htm</p>
+  <p>https://ec.europa.eu/eurostat/web/microdata/continuing-vocational-training-survey</p>
+
+  <p>European Labour Force Survey: <a
+  href="http://ec.europa.eu/eurostat/cache/metadata/en/trng_lfs_4w0_esms.htm">http://ec.europa.eu/eurostat/cache/metadata/en/trng_lfs_4w0_esms.htm</a>
+  </p>

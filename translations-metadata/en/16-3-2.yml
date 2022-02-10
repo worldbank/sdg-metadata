@@ -8,21 +8,17 @@ SDG_TARGET: >-
 SDG_INDICATOR: >-
   <p>Indicator 16.3.2: Unsentenced detainees as a proportion of overall prison
   population</p>
-META_LAST_UPDATE: '<p>Last updated: 19 July 2016</p>'
-SDG_CUSTODIAN_AGENCIES: |-
-  <h1>Institutional information</h1>
-  <h2>Organization(s):</h2>
-  <p>United Nations Office on Drugs and Crime (UNODC)</p>
+META_LAST_UPDATE: <p>2016-07-19</p>
+SDG_CUSTODIAN_AGENCIES: <p>United Nations Office on Drugs and Crime (UNODC)</p>
+CONTACT_ORGANISATION: <p>United Nations Office on Drugs and Crime (UNODC)</p>
 STAT_CONC_DEF: >-
-  <h1>Concepts and definitions</h1>
-
-  <h2>Definition:</h2>
+  <p><strong>Definition:</strong></p>
 
   <p>The total number of persons held in detention who have not yet been
   sentenced, as a percentage of the total number of persons held in detention,
   on a specified date.</p>
 
-  <h2>Concepts:</h2>
+  <p><strong>Concepts:</strong></p>
 
   <p>&#x2018;Sentenced&#x2019; refers to persons subject to criminal proceedings
   who have received a decision from a competent authority regarding their
@@ -30,10 +26,6 @@ STAT_CONC_DEF: >-
   received a &#x2018;non-final&#x2019; decision (such as where a conviction is
   subject to appeal) are considered to be &#x2018;sentenced&#x2019;.</p>
 SOURCE_TYPE: >-
-  <h1>Data sources</h1>
-
-  <p><strong>Description:</strong></p>
-
   <p>UNODC collects data on prisons through its annual data collection (UN-CTS).
   The data collection through the UN-CTS is facilitated by a network of over 130
   national Focal Points appointed by responsible authorities. Data on
@@ -44,8 +36,6 @@ SOURCE_TYPE: >-
   for two points in time (2003-2005 and 2012-2014 three year averages) are
   available for 144 countries.</p>
 COLL_METHOD: >-
-  <p><strong>Collection process:</strong></p>
-
   <p>There is a consolidated system of annual data collection on crime and
   criminal justice (UN- Crime Trends Survey, UN-CTS) which represents the basis
   of data on unsentenced detainees. The UN-CTS data collection is largely based
@@ -58,22 +48,11 @@ COLL_METHOD: >-
   prison administrations or from the websites of Ministries of Justice or other
   official agencies. For future SDG reporting data will be sent to countries for
   consultation prior to publication.</p>
-FREQ_COLL: |-
-  <h1>Calendar</h1>
-  <h2>Data collection:</h2>
-  <p>III-VI quarter 2016</p>
-REL_CAL_POLICY: |-
-  <h2>Data release:</h2>
-  <p>II quarter 2017 (data for 2015) </p>
-DATA_SOURCE: |-
-  <h1>Data providers</h1>
-  <p>National prison authority, through UN-CTS Focal Point</p>
-COMPILING_ORG: |-
-  <h1>Data compilers</h1>
-  <p>UNODC</p>
+FREQ_COLL: <p>III-VI quarter 2016</p>
+REL_CAL_POLICY: <p>II quarter 2017 (data for 2015) </p>
+DATA_SOURCE: '<p>National prison authority, through UN-CTS Focal Point</p>'
+COMPILING_ORG: <p>UNODC</p>
 RATIONALE: >-
-  <h2>Rationale:</h2>
-
   <p>The indicator signifies overall respect for the principle that persons
   awaiting trial shall not be detained in custody unnecessarily. This, in turn,
   is premised on aspects of the right to be presumed innocent until proven
@@ -86,40 +65,26 @@ RATIONALE: >-
   provide the evidence to assist countries in lowering such burdens and ensuring
   its proportionate use.</p>
 REC_USE_LIM: >-
-  <h2>Comments and limitations:</h2>
-
   <p>The target relates to the multidimensional concepts of rule of law and
   access to justice and at least two indicators are required to cover the main
   elements of access to justice and efficiency of the justice system. The
   proposed indicator 16.3.2 covers the efficiency of the justice system.</p>
 DATA_COMP: >-
-  <h1>Methodology</h1>
-
-  <p><strong>Computation method:</strong></p>
-
   <p>The total number of unsentenced persons held in detention divided by the
   total number of persons held in detention, on a specified date.</p>
 IMPUTATION: >-
-  <h2>Treatment of missing values:</h2>
-
-  <ul>
-    <li><strong><em>At country level:</em></strong></li>
-  </ul>
+  <p><strong>&#x2022; At country level</strong></p>
 
   <p>If all values for a given period and country are missing, then the missing
   values are left blank. If only certain years in the period are missing, then
   missing values for that year are left blank and are not taken into account
   when computing the three year average for that country.</p>
 
-  <ul>
-    <li><strong><em>At regional and global levels:</em></strong></li>
-  </ul>
+  <p><strong>&#x2022; At regional and global levels</strong></p>
 
   <p>Missing values are left blank and are not taken into account when computing
   regional averages.</p>
 REG_AGG: >-
-  <h2>Regional aggregates:</h2>
-
   <p>Weighted averages are the preferred method for calculating regional and
   global average rates. For this purpose, regional averages of the proportion of
   unsentenced detainees are obtained by adding up the number of unsentenced
@@ -129,40 +94,35 @@ REG_AGG: >-
   number of unsentenced persons held globally and dividing the total by the sum
   of the total number of persons held in detention globally.</p>
 COVERAGE: >-
-  <h1>Data availability</h1>
-
-  <h2>Description:</h2>
+  <p><strong>Data availability:</strong></p>
 
   <p>The target relates to the multidimensional concepts of rule of law and
   access to justice and at least two indicators are required to cover the main
   elements of access to justice and efficiency of the justice system. The
   proposed indicator 16.3.2 covers the efficiency of the justice system.</p>
 
-  <h2>Time series:</h2>
+  <p><strong>Time series:</strong></p>
 
-  <p>2003-2014 </p>
+  <p>2003-2014</p>
 
-  <h2>Disaggregation:</h2>
+  <p><strong>Disaggregation:</strong></p>
 
   <p>Recommended disaggregation for this indicator are:</p>
 
-  <ul>
-    <li>age and sex</li>
-    <li>length of pre-trial (unsentenced) detention</li>
-  </ul>
+  <p>- age and sex</p>
+
+  <p>- length of pre-trial (unsentenced) detention</p>
 COMPARABILITY: >-
-  <h2>Sources of discrepancies:</h2>
+  <p><strong>Sources of discrepancies:</strong></p>
 
   <p>UNODC only compiles data from national sources, therefore no differences
   among the values should exist.</p>
 OTHER_DOC: >-
-  <h1>References</h1>
+  <p><strong>URL:</strong></p>
 
-  <h2>URL:</h2>
+  <p>www.unodc.org</p>
 
-  <p><a href="www.unodc.org">www.unodc.org</a></p>
-
-  <h2>References:</h2>
+  <p><strong>References:</strong></p>
 
   <p>Definitions and other metadata are provided in the UN-Crime Trends Survey
   (UN-CTS) Guidance on collection of information on detained persons, as well as

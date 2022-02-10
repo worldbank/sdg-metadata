@@ -4,9 +4,17 @@ SDG_TARGET: >-
   equal opportunities for leadership at all levels of decision-making in
   political, economic and public life</p>
 SDG_INDICATOR: >-
-  <p>Indicator 5.5.1(a): Proportion of seats held by women in national
-  parliaments</p>
-META_LAST_UPDATE: <p>19 February 2020</p>
+  <p>Indicator 5.5.1: Proportion of seats held by women in (a) national
+  parliaments and (b) local governments</p>
+SDG_SERIES_DESCR: >-
+  <p>Number of seats held by women in national parliaments (number)
+  SG_GEN_PARLN</p>
+
+  <p>Current number of seats in national parliaments (number) SG_GEN_PARLNT</p>
+
+  <p>Proportion of seats held by women in national parliaments (% of total
+  number of seats) SG_GEN_PARL</p>
+META_LAST_UPDATE: <p>2021-08-24</p>
 SDG_RELATED_INDICATORS: >-
   <p>Indicator 16.7.1: Proportions of positions (by age group, sex, persons with
   disabilities and population groups) in public institutions (national and
@@ -15,7 +23,7 @@ SDG_RELATED_INDICATORS: >-
 SDG_CUSTODIAN_AGENCIES: <p>Inter-Parliamentary Union (IPU)</p>
 CONTACT_ORGANISATION: <p>Inter-Parliamentary Union (IPU)</p>
 STAT_CONC_DEF: >-
-  <p>Definition:</p>
+  <p><strong>Definition:</strong></p>
 
   <p>The proportion of seats held by women in (a) national parliaments,
   currently as at 1 January of reporting year, is currently measured as the
@@ -32,13 +40,17 @@ STAT_CONC_DEF: >-
   <p>Seats refer to the number of parliamentary mandates, or the number of
   members of parliament.</p>
 
-  <p>Concepts:</p>
+  <p><strong>Concepts:</strong></p>
 
   <p>Seats refer to the number of parliamentary mandates, also known as the
   number of members of parliament. Seats are usually won by members in general
   parliamentary elections. Seats may also be filled by nomination, appointment,
   indirect election, rotation of members and by-election.</p>
-SOURCE_TYPE: <p>The data used are official statistics received from parliaments.</p>
+UNIT_MEASURE: <p>Number and percentage</p>
+CLASS_SYSTEM: <p>Not applicable.</p>
+SOURCE_TYPE: >-
+  <p>The data used are official statistics received from national
+  parliaments.</p>
 COLL_METHOD: >-
   <p>The data are provided by national parliaments and updated after an election
   or parliamentary renewal. National parliaments also transmit their data to the
@@ -52,8 +64,25 @@ COLL_METHOD: >-
   parliament. </p>
 FREQ_COLL: '<p>Data are updated on a monthly basis, up to the last day of the month.</p>'
 REL_CAL_POLICY: '<p>Data are updated on a monthly basis, up to the last day of the month.</p>'
-DATA_SOURCE: <p>Inter-Parliamentary Union (IPU) member parliaments</p>
+DATA_SOURCE: <p>National parliaments.</p>
 COMPILING_ORG: <p>Inter-Parliamentary Union (IPU)</p>
+INST_MANDATE: >-
+  <p>The Inter-Parliamentary Union (IPU) is the global organization of
+  parliaments. It was founded in 1889 as the first multilateral political
+  organization in the world, encouraging cooperation and dialogue between all
+  nations. Today, the IPU comprises 179 national Member Parliaments and 13
+  regional parliamentary bodies. It promotes democracy and helps parliaments
+  become stronger, younger, gender-balanced and more diverse. </p>
+
+  <p>The IPU recognizes gender equality as a key component of democracy. It
+  works to achieve equal participation of men and women in politics and supports
+  parliaments in advancing gender equality. This includes the collection and
+  dissemination of quantitative and qualitative data on women in politics. In
+  particular, the IPU has tracked the percentage of women in national
+  parliaments since 1945 and is the authority for this data. See historical and
+  comparative data on women in parliament at <a
+  href="https://data.ipu.org/historical-women">https://data.ipu.org/historical-women</a>.
+  </p>
 RATIONALE: >-
   <p>The indicator measures the degree to which women have equal access to
   parliamentary decision making. Women&#x2019;s participation in parliaments is
@@ -78,25 +107,77 @@ RATIONALE: >-
   countries that have adopted special measures generally have greater
   representation of women in parliament than countries without special
   measures.</p>
-REC_USE_LIM: |-
-  <ul>
-    <li>The number of countries covered varies with suspensions or dissolutions of parliaments. As of 1 February 2016, 193 countries are included.</li>
-    <li>There can be difficulties in obtaining information on by-election results and replacements due to death or resignation. These changes are ad hoc events which are more difficult to keep track of. By-elections, for instance, are often not announced internationally as general elections are.</li>
-    <li>The data excludes the numbers and percentages of women in upper chambers of parliament. The information in available on the IPU website at <a href="https://data.ipu.org/women-ranking">https://data.ipu.org/women-ranking</a>.</li>
-    <li>Parliaments vary considerably in their internal workings and procedures, however, generally legislate, oversee government and represent the electorate. In terms of measuring women&#x2019;s contribution to political decision making, this indicator may not be sufficient because some women may face obstacles in fully and efficiently carrying out their parliamentary mandate.</li>
-  </ul>
+REC_USE_LIM: >-
+  <p>- The number of countries covered varies with suspensions or dissolutions
+  of parliaments. As of 1 February 2016, 193 countries are included.</p>
+
+  <p>- There can be difficulties in obtaining information on by-election results
+  and replacements due to death or resignation. These changes are ad hoc events
+  which are more difficult to keep track of. By-elections, for instance, are
+  often not announced internationally as general elections are.</p>
+
+  <p>- The data excludes the numbers and percentages of women in upper chambers
+  of parliament. The information in available on the IPU website at <a
+  href="https://data.ipu.org/women-ranking">https://data.ipu.org/women-ranking</a>.</p>
+
+  <p>- Parliaments vary considerably in their internal workings and procedures,
+  however, generally legislate, oversee government and represent the electorate.
+  In terms of measuring women&#x2019;s contribution to political decision
+  making, this indicator may not be sufficient because some women may face
+  obstacles in fully and efficiently carrying out their parliamentary
+  mandate.</p>
 DATA_COMP: >-
   <p>The proportion of seats held by women in national parliament is derived by
   dividing the total number of seats occupied by women by the total number of
   seats in parliament.</p>
 
   <p>There is no weighting or normalising of statistics.</p>
+DATA_VALIDATION: >-
+  <p>IPU member parliaments provide information on changes and updates to the
+  IPU secretariat via IPU Groups within each parliamentary chamber or via the
+  Parline Correspondent&#x2019;s Network. </p>
+
+  <p>Parline Correspondents are staff members of national parliaments who act as
+  the IPU focal point for IPU&#x2019;s Parline database within each chamber or
+  parliament. Their main role is to make sure that all the data in Parline for
+  their parliament is up&#x2011;to&#x2011;date and correct, including for this
+  indicator. If no response is provided to questionnaires, other methods are
+  used to obtain the information, such as from the electoral management body,
+  parliamentary web sites or Internet searches. Additional information gathered
+  from other sources is regularly crosschecked with parliaments. </p>
+ADJUSTMENT: <p>Not applicable.</p>
 IMPUTATION: |-
   <p>No adjustments are made for missing values.</p>
-  <p>&#x2022; At country level</p>
-  <p>&#x2022; At regional and global levels</p>
+  <p><strong>&#x2022; At country level</strong></p>
+  <p><strong>&#x2022; At regional and global levels</strong></p>
+REG_AGG: >-
+  <p>Regional aggregations are a simple sum of country and chamber level data. A
+  weighting structure is not applied.</p>
+DOC_METHOD: >-
+  <p>Guidance is not required to provide information for this indicator (i.e.
+  current number of members and total number of women members in a given single
+  or lower chamber of a national parliament).</p>
+
+  <p>A &#x201C;Checklist for Parline Correspondents&#x201D; is provided to
+  remind parliaments to inform the IPU of changes to the number of seats or the
+  total number of women in a parliamentary chamber, every time there is a
+  change.</p>
+QUALITY_MGMNT: >-
+  <p>Data for this indicator is input and housed within the Parline database
+  (data.ipu.org).</p>
+
+  <p>IPU has dedicated staff for data collection and management, a Network of
+  Parline Correspondents to provide data updates, and a constant exchange with
+  parliaments via IPU groups housed within member parliaments.</p>
+QUALITY_ASSURE: >-
+  <p>There is no significant statistical processing required for this indicator
+  aside from checking coherence overtime. </p>
+QUALITY_ASSMNT: >-
+  <p>IPU data is housed within the Parline database which automatically
+  generates calculations on the number and percentage of women to ensure
+  accuracy. Exports from the database are utilised for SDG reporting.</p>
 COVERAGE: >-
-  <p>Data availability:</p>
+  <p><strong>Data availability:</strong></p>
 
   <p>Data are available for 193 countries. Information is available in all
   countries where a national legislature exists and therefore does not include
@@ -128,14 +209,14 @@ COVERAGE: >-
 
   <p>Prior to 1997 Unknown</p>
 
-  <p>Disaggregation:</p>
+  <p><strong>Disaggregation:</strong></p>
 
   <p>The indicator can be disaggregated for analysis by geographical region and
   sub-region, legislature type (single or lower, parliamentary or presidential),
   the method of filling seats (directly elected, indirectly elected, appointed)
   and the use of special measures.</p>
 COMPARABILITY: >-
-  <p>Sources of discrepancies:</p>
+  <p><strong>Sources of discrepancies:</strong></p>
 
   <p>Data are not adjusted for international comparability. Though, for
   international comparisons, generally only the single or lower house is
@@ -153,7 +234,7 @@ OTHER_DOC: >-
 
   <p>Inter-parliamentary Union (2008). Equality in Politics: A Survey of Women
   and Men in Parliaments. Geneva. Available from <a
-  href="http://www.ipu.org/english/surveys.htm#equality08">http://www.ipu.org/english/surveys.htm#equality08</a>.</p>
+  href="http://www.ipu.org/english/surveys.htm#equality08">http://www.ipu.org/english/surveys.htm#equality08</a></p>
 
   <p>Inter-parliamentary Union (2010). Is Parliament Open to Women? Available
   from <a
@@ -163,10 +244,9 @@ OTHER_DOC: >-
   Review of Good Practice. Available from <a
   href="http://www.ipu.org/pdf/publications/gsp11-e.pdf">http://www.ipu.org/pdf/publications/gsp11-e.pdf</a></p>
 
-  <p>United Nations Development Fund For Women (2009). Progress of the
-  World&#x2019;s Women 2008/2009. New York. Available from
-  http://www.unifem.org/progress/2008. </p>
+  <p>Inter-parliamentary Union (2020). Women in parliament: 1995&#x2013;2020 -
+  25 years in review. Available from <a
+  href="https://www.ipu.org/resources/publications/reports/2020-03/women-in-parliament-1995-2020-25-years-in-review">https://www.ipu.org/resources/publications/reports/2020-03/women-in-parliament-1995-2020-25-years-in-review</a></p>
 
-  <p>UN-Women (2011). Progress of the World&#x2019;s Women 2011-2012. New York.
-  Available from <a
-  href="http://progress.unwomen.org/pdfs/EN-Report-Progress.pdf">http://progress.unwomen.org/pdfs/EN-Report-Progress.pdf</a></p>
+  <p>Inter-parliamentary Union and UN Women (2021). Women in Politics: 2021.
+  Available from https://www.ipu.org/women-in-politics-2021</p>

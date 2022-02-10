@@ -1,20 +1,16 @@
 SDG_GOAL: >-
-  <p>Goal 2: End hunger, achieve food security and improved nutrition, and
+  <p>Goal 2: End hunger, achieve food security and improved nutrition and
   promote sustainable agriculture</p>
 SDG_TARGET: >-
-  <p>Target 2.2: by 2030 end all forms of malnutrition, including achieving by
-  2025 the internationally agreed targets on stunting and wasting in children
-  under five years of age, and address the nutritional needs of adolescent
-  girls, pregnant and lactating women, and older persons</p>
+  <p>Target 2.2: By 2030, end all forms of malnutrition, including achieving, by
+  2025, the internationally agreed targets on stunting and wasting in children
+  under 5 years of age, and address the nutritional needs of adolescent girls,
+  pregnant and lactating women and older persons</p>
 SDG_INDICATOR: >-
   <p>Indicator 2.2.1: Prevalence of stunting (height for age &lt;-2 standard
   deviation from the median of the World Health Organization (WHO) Child Growth
   Standards) among children under 5 years of age</p>
-SDG_SERIES_DESCR: >-
-  <p>Description of SDG data series. Only applies if the metadata does not apply
-  to all series under this indicator. </p>
-META_LAST_UPDATE: <p>02 December 2016</p>
-SDG_RELATED_INDICATORS: <p>Linkages with any other Goals and Targets.</p>
+META_LAST_UPDATE: <p>2016-12-02</p>
 SDG_CUSTODIAN_AGENCIES: |-
   <p>United Nations Children&apos;s Fund (UNICEF)</p>
   <p>World Health Organization (WHO)</p>
@@ -24,7 +20,7 @@ CONTACT_ORGANISATION: |-
   <p>World Health Organization (WHO)</p>
   <p>World Bank (WB)</p>
 STAT_CONC_DEF: >-
-  <p>Definition:</p>
+  <p><strong>Definition:</strong></p>
 
   <p>Prevalence of stunting (height-for-age &lt;-2 standard deviation from the
   median of the World Health Organization (WHO) Child Growth Standards) among
@@ -33,15 +29,9 @@ STAT_CONC_DEF: >-
   <p> (French: pourcentage de sous-alimentation; Spanish: porcentaje de
   sub-alimentaci&#xF3;n)</p>
 
-  <p>Concepts:</p>
+  <p><strong>Concepts:</strong></p>
 
   <p>NA.</p>
-UNIT_MEASURE: >-
-  <p>Description of the unit of measurement (proportion, dollars, number of
-  people, etc.)</p>
-CLASS_SYSTEM: >-
-  <p>Describe references to both national and international standards and
-  classification being used. [Information to be provided where applicable.]</p>
 SOURCE_TYPE: >-
   <p>For the majority of countries, nationally representative household surveys
   constitute the data source. For a limited number of countries data from
@@ -93,11 +83,6 @@ DATA_SOURCE: >-
   <p>Data providers vary and most commonly are ministries of health, national
   offices of statistics or national institutes of nutrition. </p>
 COMPILING_ORG: '<p>UNICEF, WHO and the World Bank group</p>'
-INST_MANDATE: >-
-  <p>Description of the set of rules or other formal set of instructions
-  assigning responsibility as well as the authority to an organisation for the
-  collection, processing, and dissemination of statistics for this
-  indicator.</p>
 RATIONALE: >-
   <p>Child growth is an internationally accepted outcome reflecting child
   nutritional status. Child stunting refers to a child who is too short for his
@@ -118,27 +103,16 @@ DATA_COMP: >-
   and regional estimates are based on methodology outlined in UNICEF-WHO-The
   World Bank: Joint child malnutrition estimates - Levels and trends
   (UNICEF/WHO/WB 2012 )</p>
-DATA_VALIDATION: >-
-  <p>Description of process of monitoring the results of data compilation and
-  ensuring the quality of the statistical results, including consultation
-  process with countries on the national data submitted to the SDGs Indicators
-  Database. Descriptions and links to all relevant reference materials should be
-  provided.</p>
-ADJUSTMENT: >-
-  <p>Description of any adjustments with respect to use of standard
-  classifications and harmonization of breakdowns for age group and other
-  dimensions, or adjustments made for compliance with specific international or
-  national definitions.</p>
 IMPUTATION: >-
   <ul>
-    <li>At country level</li>
+    <li><strong>At country level</strong></li>
   </ul>
 
   <p>No imputation methodology is applied to derive estimates for countries or
   years where no data is avaialble.</p>
 
   <ul>
-    <li>At regional and global levels</li>
+    <li><strong>At regional and global levels</strong></li>
   </ul>
 
   <p>Countries and years are treated as missing randomly following a multilevel
@@ -146,21 +120,6 @@ IMPUTATION: >-
 REG_AGG: >-
   <p>Regional aggregates are available for the following classifications: UN,
   MDG, UNICEF, WHO, The World Bank regions and income groups.</p>
-DOC_METHOD: >-
-  <p>Description of methodology used by countries for the compilation of data at
-  national level and the relevant international recommendations and guidelines
-  available to countries. Descriptions and links to all relevant reference
-  materials should be provided. </p>
-QUALITY_MGMNT: >-
-  <p>Description of systems and frameworks in place within an organisation to
-  manage the quality of statistical products and processes.</p>
-QUALITY_ASSURE: >-
-  <p>Description of practices and guidelines focusing on quality in general and
-  dealing with quality of statistical programmes at your agency, including
-  measures for ensuring the efficient use of resources.</p>
-QUALITY_ASSMNT: >-
-  <p>Description of overall evaluation of fulfilling quality requirements, based
-  on standard quality criteria.</p>
 COVERAGE: >-
   <p><strong>Data availability:</strong></p>
 

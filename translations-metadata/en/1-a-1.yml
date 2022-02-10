@@ -1,24 +1,19 @@
-SDG_GOAL: <p>Goal 1. End poverty in all its forms everywhere</p>
+SDG_GOAL: '<p>Goal 1: End poverty in all its forms everywhere</p>'
 SDG_TARGET: >-
-  <p>Target 1.a. Ensure significant mobilization of resources from a variety of
+  <p>Target 1.a: Ensure significant mobilization of resources from a variety of
   sources, including through enhanced development cooperation, in order to
   provide adequate and predictable means for developing countries, in particular
   least developed countries, to implement programmes and policies to end poverty
   in all its dimensions</p>
 SDG_INDICATOR: >-
-  <p>Indicator 1.a.1:&#xA0;Total official development assistance (ODA) grants
-  from all donors that focus on poverty reduction as a share of the recipient
+  <p>Indicator 1.a.1: Total official development assistance grants from all
+  donors that focus on poverty reduction as a share of the recipient
   country&#x2019;s gross national income</p>
-META_LAST_UPDATE: '<p>Last updated: 14 April 2020</p>'
-SDG_RELATED_INDICATORS: <h1>Related indicators</h1>
-SDG_CUSTODIAN_AGENCIES: |-
-  <h1>Institutional information</h1>
-  <h2>Organization(s):</h2>
-  <p>OECD</p>
+META_LAST_UPDATE: <p>2020-04-14</p>
+SDG_CUSTODIAN_AGENCIES: <p>OECD</p>
+CONTACT_ORGANISATION: <p>OECD</p>
 STAT_CONC_DEF: >-
-  <h1>Concepts and definitions</h1>
-
-  <h2>Definition:</h2>
+  <p><strong>Definition:</strong></p>
 
   <p>Total official development assistance (ODA) grants from all donors that
   focus on poverty reduction as a share of the recipient country&#x2019;s gross
@@ -39,7 +34,7 @@ STAT_CONC_DEF: >-
   programmes and reproductive health) and developmental food aid (see here: <a
   href="http://www.oecd.org/dac/stats/purposecodessectorclassification.htm">http://www.oecd.org/dac/stats/purposecodessectorclassification.htm</a>).</p>
 
-  <h2>Concepts:</h2>
+  <p><strong>Concepts:</strong></p>
 
   <p>The OECD/Development Assistance Committee (DAC) defines ODA as
   &#x201C;flows to countries and territories on the DAC List of ODA Recipients
@@ -68,10 +63,6 @@ STAT_CONC_DEF: >-
   here: <a
   href="http://www.oecd.org/dac/stats/purposecodessectorclassification.htm">http://www.oecd.org/dac/stats/purposecodessectorclassification.htm</a></p>
 SOURCE_TYPE: >-
-  <h1>Data sources</h1>
-
-  <h2>Description:</h2>
-
   <p>The OECD/DAC has been collecting data on official and private resource
   flows, from 1960 at an aggregate level, and 1973 at an activity level through
   the Creditor Reporting System (CRS data are considered complete from 1995 for
@@ -86,8 +77,6 @@ SOURCE_TYPE: >-
   in national administrations (aid agencies, Ministries of Foreign Affairs or
   Finance, etc.)</p>
 COLL_METHOD: >-
-  <h2>Collection process:</h2>
-
   <p>A statistical reporter is responsible for the collection of DAC statistics
   in each providing country/agency. This reporter is usually located in the
   national aid agency, Ministry of Foreign Affairs or Finance etc.</p>
@@ -96,91 +85,61 @@ COLL_METHOD: >-
   level and aggregate level) to the national statistical reporter every year.
   </p>
 FREQ_COLL: >-
-  <h1>Calendar</h1>
-
-  <h2>Data collection:</h2>
-
   <p>Data collection is annual. Detailed 2019 flows will be published in
   December 2020.</p>
-REL_CAL_POLICY: |-
-  <h2>Data release:</h2>
-  <p>Detailed 2019 flows will be published in December 2020.</p>
+REL_CAL_POLICY: <p>Detailed 2019 flows will be published in December 2020.</p>
 DATA_SOURCE: >-
-  <h1>Data providers</h1>
-
   <p>A statistical reporter is responsible for the collection of DAC statistics
   in each providing country/agency. This reporter is usually located in the
   national aid agency, Ministry of Foreign Affairs or Finance etc.</p>
-COMPILING_ORG: |-
-  <h1>Data compilers</h1>
-  <p>OECD, Development Cooperation Directorate</p>
+COMPILING_ORG: '<p>OECD, Development Cooperation Directorate.</p>'
 RATIONALE: >-
-  <h2>Rationale:</h2>
-
   <p>Total ODA flows to developing countries quantify the public effort
   (excluding non- concessional flows and export credits), that all donors
   provide for the economic development and welfare of developing countries.
   Within ODA, basic social services and development food aid focus on poverty
   alleviation in developing countries.</p>
 REC_USE_LIM: >-
-  <h2>Comments and limitations:</h2>
-
   <p>Data in the Creditor Reporting System (i.e. at an activity level), are
   available from 1973 onwards. However, the data coverage is considered complete
   since 1995 for commitments and 2002 for disbursements.</p>
 DATA_COMP: >-
-  <h1>Methodology</h1>
+  <p><u>From a donor country&#x2019;s perspective</u>: The sum of bilateral ODA
+  grants by donor that focus on poverty reduction as a share of the donor
+  country&#x2019;s gross national income. </p>
 
-  <h2>Computation method:</h2>
-
-  <p><strong>From a donor country&#x2019;s perspective</strong>: The sum of
-  bilateral ODA grants by donor that focus on poverty reduction as a share of
-  the donor country&#x2019;s gross national income. </p>
-
-  <p><strong>From a recipient country&#x2019;s perspective</strong>: The sum of
-  total ODA grants from all donors (i.e. DAC donors, multilateral organisations
-  and other bilateral providers of development cooperation) that focus on
-  poverty reduction as a share of the developing country&#x2019;s gross national
-  income. </p>
+  <p><u>From a recipient country&#x2019;s perspective</u>: The sum of total ODA
+  grants from all donors (i.e. DAC donors, multilateral organisations and other
+  bilateral providers of development cooperation) that focus on poverty
+  reduction as a share of the developing country&#x2019;s gross national income.
+  </p>
 IMPUTATION: >-
-  <h2>Treatment of missing values:</h2>
+  <p>Due to high quality of reporting, no estimates are produced for missing
+  data.</p>
 
-  <ul>
-    <li><strong><em>At country level:</em></strong></li>
-  </ul>
+  <p>&#x2022; <strong>At country level</strong></p>
 
   <p>Due to high quality of reporting, no estimates are produced for missing
   data.</p>
 
-  <ul>
-    <li><strong><em>At regional and global levels:</em></strong></li>
-  </ul>
+  <p>&#x2022; <strong>At regional and global levels</strong></p>
 
   <p>Due to high quality of reporting, no estimates are produced for missing
   data.</p>
 REG_AGG: >-
-  <h2>Regional aggregates:</h2>
-
   <p>Global, regional and country figures are based on the sum of ODA grant
   flows for poverty reduction.</p>
 DOC_METHOD: >-
-  <h2>Methods and guidance available to countries for the compilation of the
-  data at the national level:</h2>
-
   <p>The DAC statistical Reporting Directives govern the reporting of DAC
   statistics, and are reviewed and agreed by the DAC Working Party of
   Development Finance Statistics, see: <a
   href="https://one.oecd.org/document/DCD/DAC/STAT(2018)9/FINAL/en/pdf">https://one.oecd.org/document/DCD/DAC/STAT(2018)9/FINAL/en/pdf</a></p>
 QUALITY_ASSURE: >-
-  <h2>Quality assurance:</h2>
-
   <p>The OECD/DAC Secretariat is responsible for verifying and validating data
   submissions from providers of development cooperation, as well as publishing
   the data.</p>
 COVERAGE: >-
-  <h1>Data availability</h1>
-
-  <h2>Description:</h2>
+  <p><strong>Data availability:</strong></p>
 
   <p>Data are published on an annual basis in December for flows in the previous
   year.</p>
@@ -189,33 +148,31 @@ COVERAGE: >-
 
   <p>Provisional data classification: Tier I</p>
 
-  <h2>Time series:</h2>
+  <p><strong>Time series:</strong></p>
 
   <p>The OECD/DAC has been collecting data on official and private resource
   flows, from 1960 at an aggregate level, and 1973 at an activity level through
   the Creditor Reporting System (CRS data are considered complete from 1995 for
   commitments at an activity level and 2002 for disbursements). </p>
 
-  <h2>Disaggregation:</h2>
+  <p><strong>Disaggregation:</strong></p>
 
   <p>This indicator can be disaggregated by donor, by recipient country, by type
   of finance, by type of aid, by sub-sector, by policy marker (e.g. gender),
   etc.</p>
 COMPARABILITY: >-
-  <h2>Sources of discrepancies:</h2>
+  <p><strong>Sources of discrepancies:</strong></p>
 
   <p>DAC statistics are standardized on a calendar year basis for all donors and
   may differ from fiscal year data available in budget documents for some
   countries.</p>
 OTHER_DOC: >-
-  <h1>References</h1>
+  <p><strong>URL: </strong></p>
 
-  <h2>URL: </h2>
+  <p>See all links here:<strong> </strong><a
+  href="http://www.oecd.org/dac/stats/methodology.htm"><strong>http://www.oecd.org/dac/stats/methodology.htm</strong></a></p>
 
-  <p>See all links here: <a
-  href="http://www.oecd.org/dac/stats/methodology.htm">http://www.oecd.org/dac/stats/methodology.htm</a></p>
+  <p><strong>References: </strong></p>
 
-  <h2>References: </h2>
-
-  <p>See all links here: <a
-  href="http://www.oecd.org/dac/stats/methodology.htm">http://www.oecd.org/dac/stats/methodology.htm</a></p>
+  <p>See all links here:<strong> </strong><a
+  href="http://www.oecd.org/dac/stats/methodology.htm"><strong>http://www.oecd.org/dac/stats/methodology.htm</strong></a></p>

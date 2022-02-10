@@ -7,17 +7,17 @@ SDG_TARGET: >-
   marine resources, including through sustainable management of fisheries,
   aquaculture and tourism</p>
 SDG_INDICATOR: >-
-  <p>Indicator 14.7.1: Sustainable fisheries as a percentage of GDP in small
+  <p>Indicator 14.7.1: Sustainable fisheries as a proportion of GDP in small
   island developing States, least developed countries and all countries</p>
 SDG_SERIES_DESCR: <p>N/A </p>
-META_LAST_UPDATE: <p>February 2021</p>
+META_LAST_UPDATE: <p>2021-02-01</p>
 SDG_RELATED_INDICATORS: >-
   <p>Linkages with other goals and targets: SDG 1, SDG 2, SDG 8 (in particular
   8.1 and 8.4), SDG 12, SDG 13, SDG 14 (in particular 14.4.1)</p>
 SDG_CUSTODIAN_AGENCIES: <p>Food and Agriculture Organization of the United Nations (FAO)</p>
 CONTACT_ORGANISATION: <p>Food and Agriculture Organization of the United Nations (FAO)</p>
 STAT_CONC_DEF: >-
-  <p>Definitions:</p>
+  <p><strong>Definitions:</strong></p>
 
   <p>This indicator expresses the value added of sustainable marine capture
   fisheries as a proportion of Gross Domestic Product (GDP).</p>
@@ -575,8 +575,6 @@ DATA_COMP: >-
           <mi mathvariant="normal">h</mi>
         </mrow>
       </mfrac>
-    </math></p>
-  <p><math xmlns="http://www.w3.org/1998/Math/MathML">
       <msub>
         <mrow>
           <mi mathvariant="normal">V</mi>
@@ -873,6 +871,9 @@ DATA_COMP: >-
         </mrow>
       </mfenced>
     </math></p>
+  <p><math xmlns="http://www.w3.org/1998/Math/MathML">
+      <mo>+</mo>
+    </math></p>
   <p>Method 2: When national sustainability data is not available from 14.4.1,
   the contribution of sustainable marine capture fisheries to GDP is calculated
   as follows using proxy regional sustainability data.</p>
@@ -1161,8 +1162,6 @@ DATA_COMP: >-
           <mi mathvariant="normal">h</mi>
         </mrow>
       </mfrac>
-    </math></p>
-  <p><math xmlns="http://www.w3.org/1998/Math/MathML">
       <msub>
         <mrow>
           <mi mathvariant="normal">V</mi>
@@ -1681,6 +1680,9 @@ DATA_COMP: >-
         </mrow>
       </mfenced>
     </math></p>
+  <p><math xmlns="http://www.w3.org/1998/Math/MathML">
+      <mo>+</mo>
+    </math></p>
 DATA_VALIDATION: >-
   <p>The methodology relies on information which is already provided by
   countries or published by FAO. National statistical systems are the primary
@@ -1694,7 +1696,7 @@ ADJUSTMENT: >-
   review and System of National Accounts (SNA) series.</p>
 IMPUTATION: >-
   <ul>
-    <li>At country level</li>
+    <li><strong>At country level</strong></li>
   </ul>
 
   <p>This indicator examines economic contribution from marine capture
@@ -1712,7 +1714,7 @@ IMPUTATION: >-
   not available from SDG 14.4.1 , then regional stock status will be used.</p>
 
   <ul>
-    <li>At regional and global level</li>
+    <li><strong>At regional and global level</strong></li>
   </ul>
 
   <p>Not applicable. Regional aggregates will only be calculated based on
@@ -1763,7 +1765,7 @@ QUALITY_ASSMNT: >-
   calculation of this indicator it may not fully reflect the sustainability of
   national fisheries.</p>
 COVERAGE: >-
-  <p>Data availability:</p>
+  <p><strong>Data availability:</strong></p>
 
   <p>The indicator may be calculated based on currently available data for 128
   countries which have marine capture fisheries and have reported the value
@@ -2442,7 +2444,7 @@ COVERAGE: >-
 
   <p>Value added from UNSD: from 1990 to 2017</p>
 
-  <p>Disaggregation:</p>
+  <p><strong>Disaggregation:</strong></p>
 
   <p>Currently there are no disaggregation dimensions for this indicator.</p>
 COMPARABILITY: >-

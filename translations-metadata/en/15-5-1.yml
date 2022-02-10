@@ -7,7 +7,7 @@ SDG_TARGET: >-
   of natural habitats, halt the loss of biodiversity and, by 2020, protect and
   prevent the extinction of threatened species</p>
 SDG_INDICATOR: '<p>Indicator 15.5.1: Red List Index</p>'
-META_LAST_UPDATE: <p>4 January 2021</p>
+META_LAST_UPDATE: <p>2021-01-04</p>
 SDG_RELATED_INDICATORS: >-
   <p>Disaggregations of the Red List Index are also of particular relevance as
   indicators towards the following SDG targets (Brooks et al. 2015): SDG 2.4 Red
@@ -76,8 +76,6 @@ CLASS_SYSTEM: >-
   href="http://www.iucnredlist.org">www.iucnredlist.org</a>), defined following
   IUCN (2012a).</p>
 SOURCE_TYPE: >-
-  <p><strong>Description:</strong></p>
-
   <p>The Red List Index is based on data from The IUCN Red List of Threatened
   Species (<a href="http://www.iucnredlist.org">www.iucnredlist.org</a>), in
   particular the numbers of species in each Red List category of extinction
@@ -190,8 +188,6 @@ RATIONALE: >-
   Indicator in the draft post-2020 Global Biodiversity Framework (CBD
   2020b).</p>
 REC_USE_LIM: >-
-  <p><strong>Comments and limitations:</strong></p>
-
   <p>There are four main sources of uncertainty associated with Red List Index
   values and trends.</p>
 
@@ -211,8 +207,6 @@ REC_USE_LIM: >-
   not reflect particularly well the deteriorating status of common species that
   remain abundant and widespread but are declining slowly.</p>
 DATA_COMP: >-
-  <p><strong>Computation Method:</strong></p>
-
   <p>The Red List Index is calculated at a point in time by first multiplying
   the number of species in each Red List Category by a weight (ranging from 1
   for &#x2018;Near Threatened&#x2019; to 5 for &#x2018;Extinct&#x2019; and
@@ -328,7 +322,7 @@ ADJUSTMENT: >-
   definitions.</p>
 IMPUTATION: >-
   <ul>
-    <li>At country level</li>
+    <li><strong>At country level</strong></li>
   </ul>
 
   <p>Red List Indices for each taxonomic group are interpolated linearly for
@@ -343,7 +337,7 @@ IMPUTATION: >-
   average of the rates for the other taxonomic groups.</p>
 
   <ul>
-    <li>At regional and global levels</li>
+    <li><strong>At regional and global levels</strong></li>
   </ul>
 
   <p>The Red List Index is calculated globally based on assessments of
@@ -470,7 +464,7 @@ QUALITY_ASSURE: >-
   Red List. </p>
 QUALITY_ASSMNT: <p>High.</p>
 COVERAGE: >-
-  <p>Data availability:</p>
+  <p><strong>Data availability:</strong></p>
 
   <p>The Red List Index has been classified by the IAEG-SDGs as Tier 1. Current
   data are available for all countries in the world, and these are updated
@@ -489,7 +483,7 @@ COVERAGE: >-
   and (for birds) on the BirdLife International Data Zone
   (http://datazone.birdlife.org/species/dashboard).</p>
 
-  <p>Disaggregation:</p>
+  <p><strong>Disaggregation:</strong></p>
 
   <p>The Red List Index can be downscaled to show national and regional Red List
   Indices, weighted by the fraction of each species&#x2019; distribution
@@ -553,7 +547,7 @@ COVERAGE: >-
   List Index (impacts of invasive alien species) (Butchart 2008, McGeoch et al.
   2010).</p>
 COMPARABILITY: >-
-  <p>Sources of discrepancies:</p>
+  <p><strong>Sources of discrepancies:</strong></p>
 
   <p>Some countries have assessed the national extinction risk of species
   occurring in the country, and have repeated such assessments, allowing a

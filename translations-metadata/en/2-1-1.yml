@@ -6,7 +6,7 @@ SDG_TARGET: >-
   particular the poor and people in vulnerable situations, including infants, to
   safe, nutritious and sufficient food all year round</p>
 SDG_INDICATOR: '<p>Indicator 2.1.1: Prevalence of undernourishment</p>'
-META_LAST_UPDATE: <p>February 2021</p>
+META_LAST_UPDATE: <p>2021-02-01</p>
 SDG_RELATED_INDICATORS: >-
   <p>2.1.2, 2.2.1, 2.2.2, 2.2.3 </p>
 
@@ -17,7 +17,7 @@ SDG_RELATED_INDICATORS: >-
 SDG_CUSTODIAN_AGENCIES: <p>Food and Agriculture Organization of the United Nations (FAO)</p>
 CONTACT_ORGANISATION: <p>Food and Agriculture Organization of the United Nations (FAO)</p>
 STAT_CONC_DEF: >-
-  <p>Definition: </p>
+  <p><strong>Definition: </strong></p>
 
   <p>The prevalence of undernourishment (PoU) (French: pourcentage de
   sous-alimentation; Spanish: porcentaje de sub-alimentaci&#xF3;n; Italian:
@@ -26,7 +26,7 @@ STAT_CONC_DEF: >-
   dietary energy levels that are required to maintain a normal active and
   healthy life. It is expressed as a percentage.</p>
 
-  <p>Concepts: </p>
+  <p><strong>Concepts: </strong></p>
 
   <p>Undernourishment is defined as the condition by which a person has access,
   on a regular basis, to the amount of food that are insufficient to provide the
@@ -450,7 +450,7 @@ DATA_VALIDATION: >-
   data used in their specific case. </p>
 ADJUSTMENT: <p>None. </p>
 IMPUTATION: >-
-  <p>&#x2022; At country level </p>
+  <p><strong>&#x2022; At country level </strong></p>
 
   <p>When no data on food consumption is available from a recent household
   survey, the model-based estimate of the PoU is informed by an estimate of DEC
@@ -462,7 +462,7 @@ IMPUTATION: >-
 
   <p>See the section on method of computation for details. </p>
 
-  <p>&#x2022; At regional and global levels </p>
+  <p><strong>&#x2022; At regional and global levels </strong></p>
 
   <p>Missing values for individual countries are implicitly imputed to be equal
   to the population weighted average of the estimated values of the countries
@@ -676,7 +676,7 @@ COVERAGE: >-
   by gender-related information (such as sex of the head of the household, or
   male/female ratio).</p>
 COMPARABILITY: >-
-  <p>Sources of discrepancies: </p>
+  <p><strong>Sources of discrepancies: </strong></p>
 
   <p>Many countries have produced and reported on estimates of the Prevalence of
   Undernourishment, including in their national MDG Reports, but almost
@@ -704,9 +704,9 @@ COMPARABILITY: >-
   preparation of national reports. FAO stands ready to provide all necessary
   technical support.</p>
 OTHER_DOC: |-
-  <p>URL: </p>
+  <p><strong>URL: </strong></p>
   <p>http://www.fao.org/economic/ess/ess-fs/en/ </p>
-  <p>References: </p>
+  <p><strong>References: </strong></p>
   <p>http://www.fao.org/docrep/012/w0931e/w0931e16.pdf </p>
   <p>http://www.fao.org/docrep/005/Y4249E/y4249e06.htm#bm06 </p>
   <p>http://www.fao.org/3/a-i4060e.pdf </p>

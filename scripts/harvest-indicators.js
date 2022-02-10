@@ -53,7 +53,7 @@ async function harvestMetadata() {
                 // that's fine. But otherwise we want to know about it.
                 if (!isMetadataIdentical(conceptValues, metadataByIndicator[indicatorId])) {
                     let message = 'Metadata from ' + seriesCode + ' is different from ' + seriesCodesByIndicator[indicatorId] + '. '
-                    message += 'Both are for indicator ' + indicatorId + '.'
+                    message += 'Both are for indicator ' + indicatorId + '.\n'
                     console.log(message)
                 }
             }
@@ -104,6 +104,9 @@ function getIndicatorIdsFromSeries(seriesCode) {
         SG_GEN_PARLN: ['5.5.1a'],
         SG_GEN_PARLNT: ['5.5.1a'],
         SG_GEN_LOCG: ['5.5.1b'],
+        SH_SAN_SAFE: ['6.2.1a'],
+        SH_SAN_DEFECT: ['6.2.1a'],
+        SH_SAN_HNDWSH: ['6.2.1b'],
         EN_WBE_PMPR: ['6.6.1a'],
         EN_WBE_PMNR: ['6.6.1a'],
         EN_WBE_PMPP: ['6.6.1a'],

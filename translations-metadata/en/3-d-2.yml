@@ -1,6 +1,4 @@
-SDG_GOAL: >-
-  <p>Goal 3: Ensure healthy lives and promote well-being for all at all ages
-  </p>
+SDG_GOAL: '<p>Goal 3: Ensure healthy lives and promote well-being for all at all ages</p>'
 SDG_TARGET: >-
   <p>Target 3.d: Strengthen the capacity of all countries, in particular
   developing countries, for early warning, risk reduction and management of
@@ -8,7 +6,7 @@ SDG_TARGET: >-
 SDG_INDICATOR: >-
   <p>Indicator 3.d.2: Percentage of bloodstream infections due to selected
   antimicrobial-resistant organisms</p>
-META_LAST_UPDATE: <p>April 2021</p>
+META_LAST_UPDATE: <p>2021-04-01</p>
 SDG_CUSTODIAN_AGENCIES: <p>World Health Organization (WHO) </p>
 CONTACT_ORGANISATION: <p>World Health Organization (WHO) </p>
 STAT_CONC_DEF: >-
@@ -270,16 +268,15 @@ DATA_COMP: >-
   href="#footnote-ref-11">&#x2191;</a></p></div></div>
 IMPUTATION: |-
   <ul>
-    <li>At country level </li>
+    <li><strong>At country level</strong></li>
   </ul>
   <p>Countries with no data are reported as blank. </p>
 COVERAGE: >-
-  <p>Data availability:</p>
+  <p><strong>Data availability:</strong></p>
 
   <p>Data are available by country, gender, and age group, as well as whether
   infection is of community or hospital origin. </p>
 OTHER_DOC: >-
-  <p><strong>URL:</strong> <a href="http://www.who.int/glass/en/"
-  target="_blank"><u>http://www.who.int/glass/en/</u></a> ; <a
-  href="http://www.who.int/gho/glass/en/"
-  target="_blank"><u>http://www.who.int/gho/glass/en/</u></a> </p>
+  <p><strong>URL:</strong> <a
+  href="http://www.who.int/glass/en/">http://www.who.int/glass/en/</a> ; <a
+  href="http://www.who.int/gho/glass/en/">http://www.who.int/gho/glass/en/</a></p>

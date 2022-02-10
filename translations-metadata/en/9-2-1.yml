@@ -3,7 +3,7 @@ SDG_GOAL: >-
   industrialization and foster innovation</p>
 SDG_TARGET: >-
   <p>Target 9.2: Promote inclusive and sustainable industrialization and, by
-  2030, significantly raise industry&apos;s share of employment and gross
+  2030, significantly raise industry&#x2019;s share of employment and gross
   domestic product, in line with national circumstances, and double its share in
   least developed countries</p>
 SDG_INDICATOR: >-
@@ -13,11 +13,11 @@ SDG_SERIES_DESCR: |-
   <p>Manufacturing value added as a proportion of GDP (in constant 2015 USD)</p>
   <p>Manufacturing value added as a proportion of GDP (in current USD)</p>
   <p>Manufacturing value added per capita</p>
-META_LAST_UPDATE: <p>February 2021</p>
+META_LAST_UPDATE: <p>2021-02-01</p>
 SDG_CUSTODIAN_AGENCIES: <p>United Nations Industrial Development Organization (UNIDO)</p>
 CONTACT_ORGANISATION: <p>United Nations Industrial Development Organization (UNIDO)</p>
 STAT_CONC_DEF: >-
-  <p>Definitions:</p>
+  <p><strong>Definitions:</strong></p>
 
   <p>Manufacturing value added (MVA) as a proportion of gross domestic product
   (GDP) is a ratio between MVA and GDP, both reported in constant 2015 USD.</p>
@@ -25,7 +25,7 @@ STAT_CONC_DEF: >-
   <p>MVA per capita is calculated by dividing MVA in constant 2015 USD by
   population of a country or area.</p>
 
-  <p>Concepts:</p>
+  <p><strong>Concepts:</strong></p>
 
   <p>The gross value added measures the contribution to the economy of each
   individual producer, industry or sector in a country. The gross value added
@@ -212,7 +212,7 @@ ADJUSTMENT: >-
   <p>The MVA data are nowcasted by UNIDO to enhance a timely analysis of
   manufacturing trends.</p>
 IMPUTATION: >-
-  <p>&#x2022; At country level</p>
+  <p><strong>&#x2022;</strong> <strong>At country level</strong></p>
 
   <p><a
   href="https://unstats.un.org/unsd/snaama/assets/pdf/methodology.pdf">Methodology
@@ -221,7 +221,8 @@ IMPUTATION: >-
   <p>Boudt, Todorov, Upadhyaya (2009): Nowcasting manufacturing value added for
   cross-country comparison; Statistical Journal of IAOS</p>
 
-  <p>&#x2022; At regional and global levels</p>
+  <p><strong>&#x2022;</strong> <strong>At regional and global
+  levels</strong></p>
 
   <p>No imputation used.</p>
 REG_AGG: >-
@@ -254,23 +255,25 @@ QUALITY_ASSURE: >-
   href="https://open.unido.org/api/documents/4814740/download/UNIDO-Publication-2009-4814740">https://open.unido.org/api/documents/4814740/download/UNIDO-Publication-2009-4814740</a>
   </p>
 COVERAGE: >-
-  <p>Data availability:</p>
+  <p><strong>Data availability:</strong></p>
 
   <p>For more than 200 economies</p>
 
-  <p>Time series:</p>
+  <p><strong>Time series:</strong></p>
 
   <p>Data for this indicator are available as of 2000 in the UN Global SDG
   Database, but longer time series are available in the UNIDO MVA database.</p>
 
-  <p>Disaggregation:</p>
+  <p><strong>Disaggregation:</strong></p>
 
   <p>No disaggregation available.</p>
 COMPARABILITY: >-
-  <p>Sources of discrepancies: Minor differences may arise due to 1) exchange
-  rates for conversion to USD 2) different base years used for constant price
-  data 3) methods for recent period estimation and 4) different versions of SNA
-  and ISIC revisions used by countries.</p>
+  <p><strong>Sources of discrepancies: </strong></p>
+
+  <p>Minor differences may arise due to 1) exchange rates for conversion to USD
+  2) different base years used for constant price data 3) methods for recent
+  period estimation and 4) different versions of SNA and ISIC revisions used by
+  countries.</p>
 OTHER_DOC: >-
   <p><strong>URL:</strong></p>
 

@@ -1,12 +1,12 @@
 SDG_GOAL: '<p>Goal 12: Ensure sustainable consumption and production patterns</p>'
 SDG_TARGET: >-
-  <p>Target: 12.b Develop and implement tools to monitor sustainable development
+  <p>Target 12.b: Develop and implement tools to monitor sustainable development
   impacts for sustainable tourism that creates jobs and promotes local culture
   and products</p>
 SDG_INDICATOR: >-
-  <p>Indicator: 12.b.1 Implementation of standard accounting tools to monitor
+  <p>Indicator 12.b.1: Implementation of standard accounting tools to monitor
   the economic and environmental aspects of tourism sustainability</p>
-META_LAST_UPDATE: <p>25 March 2021</p>
+META_LAST_UPDATE: <p>2021-03-25</p>
 SDG_RELATED_INDICATORS: >-
   <p>8.9.1 Tourism Direct GDP (indicator derived from the TSA).</p>
 
@@ -16,8 +16,10 @@ SDG_RELATED_INDICATORS: >-
 SDG_CUSTODIAN_AGENCIES: <p>World Tourism Organization (UNWTO)</p>
 CONTACT_ORGANISATION: <p>World Tourism Organization (UNWTO)</p>
 STAT_CONC_DEF: >-
-  <p>Definitions: The indicator &#x201C;Implementation of standard accounting
-  tools to monitor the economic and environmental aspects of tourism
+  <p><strong>Definitions:</strong> </p>
+
+  <p>The indicator &#x201C;Implementation of standard accounting tools to
+  monitor the economic and environmental aspects of tourism
   sustainability&#x201D; relates to the degree of implementation in countries of
   the Tourism Satellite Account (TSA) and the System of Environmental and
   Economic Accounts (SEEA) tables that are to date considered most relevant and
@@ -44,17 +46,19 @@ STAT_CONC_DEF: >-
   href="https://seea.un.org/content/seea-central-framework"><em>System of
   Economic-Environmental Accounting 2012</em></a>.</p>
 
-  <p>Concepts: The concepts and template presentation tables related to Tourism
-  Satellite Accounts can be found in the <a
-  href="http://unstats.un.org/unsd/tradeserv/tourism/manual.html"
-  target="_blank"><em>Tourism Satellite Account: Recommended Methodological
-  Framework 2008</em></a> (TSA: RMF 2008) which provides the common conceptual
-  framework for constructing a TSA. It adopts the basic system of concepts,
-  classifications, definitions, tables and aggregates of the System of National
-  Accounts 2008 (SNA 2008). The UN Statistical Commission took note of the TSA:
-  RMF 2008 document at its 39th session (26-29 February 2008). It updates and
-  replaces the previous TSA:RMF 2000 which was approved by the United Nations
-  Statistical Commission at its 31st session (29 February-3 March 2000).</p>
+  <p><strong>Concepts:</strong></p>
+
+  <p>The concepts and template presentation tables related to Tourism Satellite
+  Accounts can be found in the <a
+  href="http://unstats.un.org/unsd/tradeserv/tourism/manual.html"><em>Tourism
+  Satellite Account: Recommended Methodological Framework 2008</em></a> (TSA:
+  RMF 2008) which provides the common conceptual framework for constructing a
+  TSA. It adopts the basic system of concepts, classifications, definitions,
+  tables and aggregates of the System of National Accounts 2008 (SNA 2008). The
+  UN Statistical Commission took note of the TSA: RMF 2008 document at its 39th
+  session (26-29 February 2008). It updates and replaces the previous TSA:RMF
+  2000 which was approved by the United Nations Statistical Commission at its
+  31st session (29 February-3 March 2000).</p>
 
   <p>The concepts and template presentation tables related to water, energy, GHG
   emission and solid waste can be found in <a
@@ -177,8 +181,6 @@ REC_USE_LIM: >-
   consolidation (from experimental to full-fledged) in the implementation of TSA
   and SEEA which might differ considerably between countries. </p>
 DATA_COMP: >-
-  <p><strong>Computation Method:</strong></p>
-
   <p>Implementation of standard accounting tools to monitor the economic and
   environmental aspects of tourism sustainability = total number of tables
   produced by countries out of the tables identified below:</p>
@@ -201,10 +203,14 @@ DATA_VALIDATION: >-
   newly reported data for the country with respect to the data available
   previously, countries are consulted. Similarly, if other inconsistencies are
   found, there is ongoing follow up with countries. </p>
-IMPUTATION: |-
-  <p>&#x2022; At country level</p>
+IMPUTATION: >-
+  <p><strong>&#x2022;</strong> <strong>At country level</strong></p>
+
   <p>n/a</p>
-  <p>&#x2022; At regional and global levels</p>
+
+  <p><strong>&#x2022;</strong> <strong>At regional and global
+  levels</strong></p>
+
   <p>n/a</p>
 REG_AGG: <p>n/a</p>
 DOC_METHOD: >-
@@ -227,25 +233,25 @@ QUALITY_ASSURE: >-
   reported on SEEA tables can also be cross-checked with information available
   to UNSD. </p>
 COVERAGE: >-
-  <p>Data availability:</p>
+  <p><strong>Data availability:</strong></p>
 
   <p>While SEEA and TSA tables are currently not compiled everywhere, ALL
   countries are able to provide information on this indicator. Those States
   where no tables are compiled report a value of zero (0). There are currently
-  (as of March 2021) data available for over 150 countries,in all regions. The
+  (as of March 2021) data available for over 150 countries, in all regions. The
   data has already been uploaded on the SDG Global Database. </p>
 
-  <p>Time series:</p>
+  <p><strong>Time series:</strong></p>
 
   <p>Data is available from 2008 onwards.</p>
 
-  <p>Disaggregation:</p>
+  <p><strong>Disaggregation:</strong></p>
 
   <p>Disaggregation of the different TSA tables and SEEA tables (water flows,
   energy flows, GHG emissions and solid waste), and disaggregation by standard
   (TSA and SEEA), will be possible. </p>
 COMPARABILITY: >-
-  <p>Sources of discrepancies:</p>
+  <p><strong>Sources of discrepancies:</strong></p>
 
   <p>Discrepancies might arise from the varying degrees of consolidation in the
   implementation of TSA and SEEA in countries. </p>

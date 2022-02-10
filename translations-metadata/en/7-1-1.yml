@@ -5,12 +5,13 @@ SDG_TARGET: >-
   <p>Target 7.1: By 2030, ensure universal access to affordable, reliable and
   modern energy services</p>
 SDG_INDICATOR: '<p>Indicator 7.1.1: Proportion of population with access to electricity</p>'
-META_LAST_UPDATE: <p>11 February 2021</p>
+SDG_SERIES_DESCR: <p>N/A </p>
+META_LAST_UPDATE: <p>2021-03-31</p>
 SDG_RELATED_INDICATORS: <p>SDG7</p>
 SDG_CUSTODIAN_AGENCIES: <p>World Bank Group</p>
 CONTACT_ORGANISATION: <p>World Bank Group</p>
 STAT_CONC_DEF: >-
-  <p>Definition:</p>
+  <p><strong>Definition:</strong></p>
 
   <p>Proportion of population with access to electricity is the percentage of
   population with access to electricity.</p>
@@ -21,7 +22,7 @@ STAT_CONC_DEF: >-
   disaggregated by total, urban and rural access rates per country, as well as
   by UN regional and global classifications. </p>
 
-  <p>Concepts:</p>
+  <p><strong>Concepts:</strong></p>
 
   <p>Electricity access in this scenario refers to the proportion of population
   in the considered area (country, region or global context) that has access to
@@ -33,14 +34,14 @@ STAT_CONC_DEF: >-
   and the Caribbean, the Middle East and North Africa Poverty Database, and the
   Europe and Central Asia Poverty Database, all of which are based on similar
   surveys. At the time of this analysis, the Global Electrification Database
-  contained 1,228 surveys from 140 countries, excluding surveys from high-income
+  contained 1,282 surveys from 139 countries, excluding surveys from high-income
   countries as classified by the United Nations.</p>
 UNIT_MEASURE: <p>Percent (%)</p>
 CLASS_SYSTEM: |-
   <ul>
     <li>Regional and global classifications refer to the list of standard country or area codes for statistical use (M49) provided by the United Nations Statistics Division </li>
     <li>Country classification by income group is based on the World Bank Country and Lending Groups. </li>
-    <li>Country population data takes into account the World Development Indicators as of September 2020. </li>
+    <li>Country population data takes into account the World Development Indicators as of February 2021. </li>
   </ul>
 SOURCE_TYPE: >-
   <p>Data for access to electricity is collected from household surveys and
@@ -168,7 +169,7 @@ DATA_COMP: >-
   and the Caribbean, the Middle East and North Africa Poverty Database, and the
   Europe and Central Asia Poverty Database, all of which are based on similar
   surveys. At the time of this analysis, the Global Electrification Database
-  contained 1,228 surveys from 140 countries, excluding surveys from high-income
+  contained 1,282 surveys from 139 countries, excluding surveys from high-income
   countries as classified by the United Nations.</p>
 
   <p>To estimate values, a multilevel nonparametric modelling
@@ -223,7 +224,7 @@ ADJUSTMENT: >-
   listed based on the UNSD&#x2019;s M49 standard. </p>
 IMPUTATION: >-
   <ul>
-    <li>At country level</li>
+    <li><strong>At country level</strong></li>
   </ul>
 
   <p>Given the low frequency and regional distribution of some surveys, many
@@ -242,7 +243,7 @@ IMPUTATION: >-
   only have their country effects in model estimates. </p>
 
   <ul>
-    <li>At regional and global levels</li>
+    <li><strong>At regional and global levels</strong></li>
   </ul>
 
   <p>Values for regional and global levels are calculated by incorporating all
@@ -290,18 +291,17 @@ QUALITY_ASSMNT: >-
   national conflict. Therefore, for these countries, the access rate is not
   linearly increased.</p>
 COVERAGE: >-
-  <p>Data availability:</p>
+  <p><strong>Data availability:</strong></p>
 
-  <p>Data is currently collected for 140 countries from 1990 to 2019, excluding
-  &#x201C;High Income&#x201D; or &#x201C;Developed&#x201D; countries as
-  classified by the United Nations. </p>
+  <p>Data is currently collected for 139 countries from 1990 to 2019, excluding
+  &#x201C;Developed&#x201D; countries classified by the United Nations. </p>
 
-  <p>Time series:</p>
+  <p><strong>Time series:</strong></p>
 
   <p>Data for countries have been compiled for the 1990-2019 period, though
   there are gaps in accurate data availability.</p>
 
-  <p>Disaggregation:</p>
+  <p><strong>Disaggregation:</strong></p>
 
   <p>Electricity access rates are disaggregated by geographic location into
   total, urban and rural rates. Countries that are classified as
@@ -310,7 +310,7 @@ COVERAGE: >-
   of access to electricity by rural or urban place of residence is possible for
   all countries.</p>
 COMPARABILITY: >-
-  <p>Sources of discrepancies:</p>
+  <p><strong>Sources of discrepancies:</strong></p>
 
   <p>The World Bank database compiles electricity usage data, while many
   international agencies and national ministries report electricity production
@@ -318,7 +318,7 @@ COMPARABILITY: >-
   of population data can also lead to differences in assessing
   electrification.</p>
 OTHER_DOC: >-
-  <p>URL:</p>
+  <p><strong>URL:</strong></p>
 
   <p><a
   href="https://databank.worldbank.org/source/world-development-indicators">https://databank.worldbank.org/source/world-development-indicators</a></p>
@@ -326,7 +326,7 @@ OTHER_DOC: >-
   <p><a
   href="https://trackingsdg7.esmap.org/">https://trackingsdg7.esmap.org/</a></p>
 
-  <p>References: </p>
+  <p><strong>References: </strong></p>
 
   <ul>
     <li>Bonjour et al. 2013. S. Bonjour, H. Adair-Rohani, J. Wolf, N.G. Bruce, S. Mehta, A. Pr&#xFC;ss-Ust&#xFC;n, M. Lahiff, E.A. Rehfuess, V. Mishra, K.R. Smith. Solid fuel use for household cooking: Country and regional estimates for 1980-2010. </li>

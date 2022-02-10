@@ -11,18 +11,18 @@ SDG_TARGET: >-
 SDG_INDICATOR: >-
   <p>Indicator 2.5.2: Proportion of local breeds classified as being at risk of
   extinction</p>
-META_LAST_UPDATE: <p>March 2021</p>
+META_LAST_UPDATE: <p>2021-03-01</p>
 SDG_RELATED_INDICATORS: <p>This indicator is linked to SDG indicator 2.5.1b.</p>
 SDG_CUSTODIAN_AGENCIES: <p>Food and Agriculture Organization of the United Nations (FAO)</p>
 CONTACT_ORGANISATION: <p>Food and Agriculture Organization of the United Nations (FAO)</p>
 STAT_CONC_DEF: >-
-  <p>Definition: </p>
+  <p><strong>Definition: </strong></p>
 
   <p>The indicator presents the percentage of local livestock breeds among local
   breeds with known risk status classified as being at risk of extinctions at a
   certain moment in time, as well as the trends for this percentage.</p>
 
-  <p>Concepts: </p>
+  <p><strong>Concepts: </strong></p>
 
   <p>A similar indicator was originally proposed for the Target 15.5, and it
   serves also as an indicator for the Aichi Target 13 &#x201C;Genetic Diversity
@@ -440,7 +440,7 @@ DATA_VALIDATION: >-
   population size)</p>
 ADJUSTMENT: <p>Not applicable.</p>
 IMPUTATION: >-
-  <p>At breed level</p>
+  <p><strong>At breed level</strong></p>
 
   <p>If no population data are provided for a respective year, it is assumed
   that the risk status remains the same as for the last year for which
@@ -449,14 +449,14 @@ IMPUTATION: >-
   year more than 10- years before, the risk status is considered
   &#x201C;unknown&#x201D;. </p>
 
-  <p>&#x2022; At country level</p>
+  <p><strong>&#x2022; At country level</strong></p>
 
   <p>Country information is considered to be missing if 100% percent of a
   country&#x2019;s local breeds do have risk status &#x201C;unknown&#x201D;. If
   100% of a country&#x2019;s breed risk status values are estimates (see above),
   the nature of country data is also considered to be an estimate.</p>
 
-  <p>&#x2022; At regional and global levels</p>
+  <p><strong>&#x2022; At regional and global levels</strong></p>
 
   <p>See aggregation rules under 4.g</p>
 REG_AGG: >-
@@ -573,10 +573,10 @@ QUALITY_ASSMNT: >-
   Workshops to assess and discuss the collection of data the indicator is based
   on. The indicators itself is automatically calculated in DAD-IS. </p>
 COVERAGE: |-
-  <p>Data availability:</p>
+  <p><strong>Data availability:</strong></p>
   <p>Data are public available through DAD-IS (see http://dad.fao.org/).</p>
-  <p>Time series:</p>
-  <p>Disaggregation: </p>
+  <p><strong>Time series:</strong></p>
+  <p><strong>Disaggregation: </strong></p>
   <p>Data are available by country.</p>
 COMPARABILITY: |-
   <p><strong>Sources of discrepancies:</strong></p>

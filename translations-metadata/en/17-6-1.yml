@@ -10,18 +10,13 @@ SDG_TARGET: >-
 SDG_INDICATOR: >-
   <p>Indicator 17.6.1: Fixed Internet broadband subscriptions per 100
   inhabitants, by speed</p>
-META_LAST_UPDATE: '<p>Last updated: 19 July 2016</p>'
-SDG_RELATED_INDICATORS: |-
-  <h1>Related indicators as of February 2020</h1>
-  <p>8.2, 9.1, 9.c, 17.8</p>
-SDG_CUSTODIAN_AGENCIES: |-
-  <h1>Institutional information</h1>
-  <h2>Organization(s):</h2>
-  <p>International Telecommunication Union (ITU)</p>
+SDG_SERIES_DESCR: <p>Not Applicable </p>
+META_LAST_UPDATE: <p>2021-08-20</p>
+SDG_RELATED_INDICATORS: '<p>8.2, 9.1, 9.c, 17.8</p>'
+SDG_CUSTODIAN_AGENCIES: <p>International Telecommunication Union (ITU)</p>
+CONTACT_ORGANISATION: <p>International Telecommunication Union (ITU)</p>
 STAT_CONC_DEF: >-
-  <h1>Concepts and definitions</h1>
-
-  <h2>Definition:</h2>
+  <p><strong>Definition:</strong></p>
 
   <p>The indicator fixed Internet broadband subscriptions, by speed, refers to
   the number of fixed-broadband subscriptions to the public Internet, split by
@@ -42,7 +37,7 @@ STAT_CONC_DEF: >-
   -broadband Internet subscriptions with advertised downstream speeds equal to,
   or greater than, 10 Mbit/s.</p>
 
-  <h2>Concepts:</h2>
+  <p><strong>Concepts:</strong></p>
 
   <p>Fixed Internet broadband subscriptions refer to subscriptions to high-speed
   access to the public Internet (a TCP/IP connection), at downstream speeds
@@ -58,51 +53,42 @@ STAT_CONC_DEF: >-
   <p>The Internet is a worldwide public computer network. It provides access to
   a number of communication services including the World Wide Web and carries
   e-mail, news, entertainment and data files.</p>
+UNIT_MEASURE: <p>Per 100 inhabitants</p>
+CLASS_SYSTEM: >-
+  <p>Speed tiers as defined in the ITU Handbook for the Collection of
+  Administrative Data on Telecommunications/ICT 2020.</p>
 SOURCE_TYPE: >-
-  <h1>Data sources</h1>
-
-  <h2>Description:</h2>
-
   <p>Since data for this indicator are based on administrative data from
   operators, no information on individual subscribers is available and therefore
   the data cannot be broken down by any individual characteristics. Data could
   in theory be broken down by geographic location and urban/rural, but ITU does
   not collect this information.</p>
 COLL_METHOD: >-
-  <h2>Collection process:</h2>
-
-  <p>ITU collects data for this indicator through an annual questionnaire from
-  national regulatory authorities or Information and Communication Technology
-  Ministries, who collect the data from Internet service providers.</p>
-FREQ_COLL: >-
-  <h1>Calendar</h1>
-
-  <h2>Data collection:</h2>
-
-  <p>Year-end data are released in June of the following year through the ITU
-  World Telecommunication/ICT Indicators Database. </p>
-REL_CAL_POLICY: |-
-  <h2>Data release:</h2>
-  <p>June 2016 </p>
+  <p>ITU collects data for this indicator through a questionnaire from national
+  regulatory authorities or Information and Communication Technology Ministries,
+  who collect the data from Internet service providers. </p>
+FREQ_COLL: '<p>ITU collects data twice a year from Member States, in Q1 and in Q3.</p>'
+REL_CAL_POLICY: >-
+  <p>Data are released twice a year, In July and December, in the <a
+  href="https://www.itu.int/en/ITU-D/Statistics/Pages/publications/wtid.aspx">Wor&#x200B;ld
+  Telecommun&#x200B;ic&#x200B;ation/ICT Indicators
+  Database&#x200B;</a>&#x200B;.</p>
 DATA_SOURCE: >-
-  <h1>Data providers</h1>
-
   <p>The telecommunication/ICT regulatory authority or the Ministry in charge of
   ICTs within each country, who collect the data from Internet Service Providers
   (ISPs).</p>
-COMPILING_ORG: |-
-  <h1>Data compilers</h1>
-  <p>ITU</p>
+COMPILING_ORG: <p>ITU</p>
+INST_MANDATE: >-
+  <p>As the UN specialized agency for ICTs, ITU is the official source for
+  global ICT statistics, collecting ICT data from its Member States. </p>
 RATIONALE: >-
-  <h2>Rationale:</h2>
-
   <p>The Internet has become an increasingly important tool to provide access to
   information, and can help foster and enhance regional and international
   cooperation on, and access to, science, technology and innovations, and
   enhance knowledge sharing. High-speed Internet access is important to ensure
   that Internet users have quality access to the Internet and can take advantage
   of the growing amount of Internet content &#x2013; including user-generated
-  content &#x2013; services and information.</p>
+  content &#x2013;, services and information.</p>
 
   <p>While the number of fixed-broadband subscriptions has increased
   substantially over the last years and while service providers offer
@@ -119,8 +105,6 @@ RATIONALE: >-
   Information on fixed broadband subscriptions by speed will contribute to the
   design of targeted policies to overcome those divides.</p>
 REC_USE_LIM: >-
-  <h2>Comments and limitations:</h2>
-
   <p>Since most Internet service providers offer plans linked to download speed,
   the indicator is relatively straightforward to collect. Countries may use
   packages that do not align with the speeds used for this group of indicators.
@@ -130,10 +114,6 @@ REC_USE_LIM: >-
   increasing demand and availability of higher-speed broadband
   subscriptions.</p>
 DATA_COMP: >-
-  <h1>Methodology</h1>
-
-  <h2>Computation method:</h2>
-
   <p>ITU collects data for this indicator through an annual questionnaire from
   national regulatory authorities or Information and Communication Technology
   (ICT) Ministries, who collect the data from national Internet service
@@ -141,29 +121,55 @@ DATA_COMP: >-
   in the country to provide the number of their fixed-broadband subscriptions by
   the speeds indicated. The data are then added up to obtain the country
   totals.</p>
+DATA_VALIDATION: >-
+  <p>Data are submitted by Member States to ITU. ITU checks and validates the
+  data, in consultation with the Member States. </p>
+ADJUSTMENT: <p>No adjustments are made to the data submitted by countries.</p>
 IMPUTATION: |-
-  <h2>Treatment of missing values:</h2>
-  <ul>
-    <li><strong><em>At country level:</em></strong></li>
-  </ul>
+  <p><strong>&#x2022; At country level</strong></p>
   <p>Missing values are not estimated (Not applicable).</p>
-  <ul>
-    <li><strong><em>At regional and global levels:</em></strong></li>
-  </ul>
+  <p><strong>&#x2022; At regional and global levels</strong></p>
   <p>Missing values are not estimated (Not applicable).</p>
-REG_AGG: |-
-  <h2>Regional aggregates:</h2>
-  <p>Not calculated.</p>
+REG_AGG: >-
+  <p>Missing country-level data are first estimated using various techniques,
+  such as hot-deck imputation, regression models and time series forecast.
+  Hot-deck imputation uses data from countries with &#x201C;similar&#x201D;
+  characteristics, such as GNI per capita and geographic location. In cases when
+  it is not possible to find an adequate imputation based on similar cases,
+  regression models based on a set of countries with relatively similar
+  characteristics are applied.</p>
+
+  <p>Once the country-level percentages are available for all countries, the
+  regional and global aggregates are calculated by summing the country-level
+  data. The aggregate percentages were calculated by dividing the regional
+  totals by the population of respective groups.</p>
+
+  <p>Not calculated for the speed breakdowns.</p>
+DOC_METHOD: >-
+  <p>ITU Handbook for the Collection of Administrative Data on
+  Telecommunications/ICT 2020: <a
+  href="https://www.itu.int/en/ITU-D/Statistics/Pages/publications/handbook.aspx">https://www.itu.int/en/ITU-D/Statistics/Pages/publications/handbook.aspx</a>
+  </p>
+QUALITY_MGMNT: >-
+  <p>Data are checked and validated by the ICT Data and Analytics (IDA) Division
+  of the ITU. Countries are contacted to clarify and correct their
+  submissions.</p>
+QUALITY_ASSURE: >-
+  <p>The guidelines of the ITU Handbook for the Collection of Administrative
+  Data on Telecommunications/ICT 2020 are followed.</p>
+QUALITY_ASSMNT: >-
+  <p>The guidelines of the ITU Handbook for the Collection of Administrative
+  Data on Telecommunications/ICT 2020 are followed.</p>
 COVERAGE: >-
-  <h1>Data availability</h1>
+  <p><strong>Data availability:</strong></p>
 
-  <p>Data for this indicator exist for about 90 economies (in 2015). However,
-  more countries are expected to provide information on this indicator over the
-  next few years, which will allow ITU to produce regional and global estimates.
-  Data on fixed-broadband subscriptions not broken down by speed are widely
-  available, and regional and global are being produced.</p>
+  <p>Data for this indicator exist for more than 160 economies.</p>
 
-  <h2>Disaggregation:</h2>
+  <p><strong>Time series:</strong></p>
+
+  <p>2005 onwards.</p>
+
+  <p><strong>Disaggregation:</strong></p>
 
   <p>Since data for this indicator are based on administrative data from ISPs,
   no information on individual subscribers is available and therefore the data
@@ -171,21 +177,21 @@ COVERAGE: >-
   be broken down by geographic location and urban/rural, but ITU does not
   collect this information.</p>
 COMPARABILITY: >-
-  <h2>Sources of discrepancies:</h2>
+  <p><strong>Sources of discrepancies:</strong></p>
 
   <p>Differences between global and national figures may arise when countries do
   not use the same definition for fixed-broadband subscriptions, or when speed
   tiers differ. Differences for each data point will be explained in a note.</p>
 OTHER_DOC: >-
-  <h1>References</h1>
-
-  <h2>URL:</h2>
+  <p><strong>URL:</strong></p>
 
   <p><a
-  href="http://www.itu.int/en/ITU-D/Statistics/Pages/default.aspx">http://www.itu.int/en/ITU-D/Statistics/Pages/default.aspx</a></p>
+  href="http://www.itu.int/en/ITU-D/Statistics/Pages/default.aspx">http://www.itu.int/en/ITU-D/Statistics/Pages/default.aspx</a>
+  </p>
 
-  <h2>References:</h2>
+  <p><strong>References:</strong></p>
 
   <p>ITU Handbook for the Collection of Administrative Data on
-  Telecommunications/ICT, 2011, (and revisions and new indicators), see:
-  [missing]</p>
+  Telecommunications/ICT 2020: <a
+  href="https://www.itu.int/en/ITU-D/Statistics/Pages/publications/handbook.aspx">https://www.itu.int/en/ITU-D/Statistics/Pages/publications/handbook.aspx</a>
+  </p>
