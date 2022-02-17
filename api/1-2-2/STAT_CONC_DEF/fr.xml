@@ -2,34 +2,31 @@
 <root>
 	<status>success</status>
 	<message>The STAT_CONC_DEF field for indicator 1-2-2, translated into fr</message>
-	<data>&lt;p&gt; &lt;strong&gt;Définition :&lt;/strong&gt;&lt;/p&gt;
+	<data>&lt;p&gt;&lt;strong&gt;Définition :&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;Les quatre séries suivantes sont utilisées pour suivre l’ODD 1.2.2. &lt;/p&gt;
-&lt;ol&gt;
-  &lt;li&gt;Dénombrement officiel de la pauvreté multidimensionnelle, selon le sexe et l’âge (% de la population)&lt;/li&gt;
-&lt;/ol&gt;
+&lt;p&gt;1) Dénombrement officiel de la pauvreté multidimensionnelle, selon le sexe et l’âge (% de la population)&lt;/p&gt;
 &lt;ul&gt;
-  &lt;li&gt;Le pourcentage de personnes qui sont multidimensionnellement pauvres&lt;/li&gt;
+  &lt;li&gt;Le pourcentage de personnes qui sont pauvres d&apos;un point de vue multidimensionnel&lt;/li&gt;
 &lt;/ul&gt;
-&lt;ol&gt;
-  &lt;li&gt;Nombre moyen de privations (intensité)&lt;/li&gt;
-&lt;/ol&gt;
+&lt;p&gt;2) Part moyenne des privations pondérées (intensité) pour la population totale&lt;/p&gt;
 &lt;ul&gt;
-  &lt;li&gt;Le pourcentage moyen de dimensions desquelles les pauvres sont privés&lt;/li&gt;
+  &lt;li&gt;La part moyenne des dimensions pondérées dans lesquelles les pauvres sont démunis parmi la population totale &lt;/li&gt;
 &lt;/ul&gt;
-&lt;ol&gt;
-  &lt;li&gt;Dénombrement officiel de la pauvreté multidimensionnelle (% du total des ménages)&lt;/li&gt;
-&lt;/ol&gt;
+&lt;p&gt;3) Dénombrement officiel de pauvreté multidimensionnelle (% du total des ménages)&lt;/p&gt;
 &lt;ul&gt;
-  &lt;li&gt;Le pourcentage de ménages qui sont multidimensionnellement pauvres&lt;/li&gt;
+  &lt;li&gt;Le pourcentage de ménages qui sont pauvres d&apos;un point de vue multidimensionnel&lt;/li&gt;
 &lt;/ul&gt;
-&lt;ol&gt;
-  &lt;li&gt;Privation multidimensionnelle chez les enfants (% de la population de moins de 18 ans)&lt;/li&gt;
-&lt;/ol&gt;
+&lt;p&gt;4) Part moyenne des privations pondérées (intensité) pour l’ensemble des ménages&lt;/p&gt;
 &lt;ul&gt;
-  &lt;li&gt;Le pourcentage d’enfants qui sont simultanément privés de multiples dimensions du bien-être&lt;/li&gt;
+  &lt;li&gt;La part moyenne des dimensions pondérées dans lesquelles les pauvres sont privés parmi l’ensemble des ménages &lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt; &lt;strong&gt; Concepts :&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Le dénombrement officiel de la pauvreté multidimensionnelle est calculé par chaque pays à l’aide de méthodologies différentes. La méthode la plus couramment utilisée est la méthodologie Alkire Foster (AF) qui identifie les dimensions, généralement la santé, l’éducation et les niveaux de vie et plusieurs indicateurs dans chaque dimension. L’unité d’analyse peut être individuelle ou domestique. Les individus ou les ménages sont considérés comme multidimensionnellement pauvres s’ils sont privés dans de multiples indicateurs dépassant certains seuils. &lt;/p&gt;
-&lt;p&gt; D’autre part, les pays de l’UE et la Macédoine du Nord utilisent une approche complètement différente pour mesurer la pauvreté multidimensionnelle en utilisant le concept de « personnes menacées de pauvreté ou d’exclusion sociale » (AROPE). L’AROPE se compose de trois indicateurs, et les personnes seront considérées comme « à risque de pauvreté ou d’exclusion sociale » si elles sont « à risque de pauvreté » ou « gravement démunies matériellement » ou « vivant dans un ménage avec une très faible intensité de travail ». &lt;/p&gt;
-&lt;p&gt;La privation multidimensionnelle chez les enfants est calculée sur la base de la méthodologie appelée analyse du chevauchement des privations multiples (MODA). Un enfant est considéré comme multidimensionnellement pauvre s’il est simultanément privé dans plusieurs dimensions. La méthodologie identifie également les dimensions et les indicateurs sous chaque dimension, et a une structure similaire à la méthodologie AF. Cependant, elle est étonnamment différente puisqu&apos;elle se concentre sur le cycle de vie des enfants et crée différents ensembles de dimensions et d’indicateurs pour différents groupes d’âge, par exemple, 0-4, 5-11, 12-14, 15-17, et effectue une analyse séparément pour chaque groupe d’âge. Dans la base de données mondiale sur les ODD, le dénombrement multidimensionnel de la pauvreté (%) pour l’ensemble de la tranche d’âge de 0 à 17 ans a été utilisé. &lt;/p&gt;</data>
+&lt;p&gt;5) Privation multidimensionnelle pour les enfants (% de la population de moins de 18 ans)&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Le pourcentage d’enfants qui sont simultanément privés dans de multiples dimensions de bien-être&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Concepts :&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;La conception d’une mesure de la pauvreté multidimensionnelle est différente dans chaque pays, mais quelle que soit la méthodologie exacte choisie, elle suit toujours un processus similaire pour définir les caractéristiques de la mesure, qui comprennent : i) l’objectif de la mesure; ii) l’unité d’identification (le plus souvent le ménage ou les individus); iii) les dimensions et les indicateurs respectifs qui délimitent les privations à mesurer; iv) la méthodologie d’élaboration de la mesure (y compris les seuils de privation, les pondérations et les seuils de pauvreté). &lt;/p&gt;
+&lt;p&gt;La méthode la plus couramment utilisée est la méthodologie Alkire-Foster (AF) qui identifie les dimensions, généralement la santé, l’éducation et le niveau de vie et plusieurs indicateurs dans chaque dimension. L’unité d’analyse pourrait être soit l’individu, soit le ménage. Les individus ou les ménages sont considérés comme multidimensionnellement pauvres s’ils sont privés dans de multiples dimensions, dépassant certains seuils. &lt;/p&gt;
+&lt;p&gt;Les pays de l’UE, la Macédoine du Nord et la Turquie ont une approche différente pour mesurer la pauvreté multidimensionnelle en utilisant le concept de « personnes menacées de pauvreté ou d’exclusion sociale » (AROPE) calculées par EUROSTAT à l’aide des données des statistiques de l’UE sur le revenu et les conditions de vie (EU-SILC). L’AROPE se compose de trois indicateurs, et les individus sont considérés comme« à risque de pauvreté ou d’exclusion sociale » s’ils sont « à risque de pauvreté » ou « gravement démunis matériellement » ou « vivant dans un ménage avec une très faible intensité de travail ». &lt;/p&gt;
+&lt;p&gt;Il existe une mesure multidimensionnelle de la pauvreté spécialement conçue pour les enfants. Un enfant est considéré comme multidimensionnellement pauvre s’il est simultanément privé dans plusieurs dimensions. La méthodologie identifie les dimensions de la pauvreté et les indicateurs sous chaque dimension, et a une structure similaire à la méthodologie AF. Cependant, elle est différente puisqu&apos;elle met l’accent sur le cycle de vie des enfants, en créant différents ensembles de dimensions et d’indicateurs pour différents groupes d’âge (par exemple, pour les enfants de 0 à 4 ans, de 5 à 11 ans, de 12 à 14 ans, de 15 à 17 ans) et effectue des analyses séparément pour chaque groupe d’âge. Dans la base de données mondiale sur les ODD, le dénombrement de la pauvreté multidimensionnelle (%) pour l’ensemble du groupe d’âge des 0 à 17 ans a été utilisé pour les pays déclarant des mesures individuelles de la pauvreté multidimensionnelle des enfants. &lt;/p&gt;</data>
 </root>
