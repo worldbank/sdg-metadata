@@ -6,24 +6,19 @@ SDG_TARGET: "<p>Cible 1.1 : D’ici 2030, éliminer complètement l’extrême
   \ américain) par jour)</p>"
 SDG_INDICATOR: >-
   <p>Indicateur 1.1.1 : Proportion de la population vivant en dessous du seuil de
-  pauvreté fixé au niveau international, par sexe, âge, situation dans l’emploi et
-  lieu de résidence (zone urbaine/zone rurale)</p>
-META_LAST_UPDATE: '<p>1 juillet 2021</p>'
+  pauvreté fixé au niveau international, par sexe, âge, situation d’emploi et lieu
+  de résidence (zone urbaine/zone rurale)</p>
+META_LAST_UPDATE: '<p>2021-07-01</p>'
 SDG_CUSTODIAN_AGENCIES: |-
-  <h1>Information institutionnelle</h1>
-  <h2>Organisation(s) :</h2>
   <p>Banque mondiale (BM)</p>
 STAT_CONC_DEF: >-
-  <h1>Concepts et définitions</h1>
-
-  <h2>Définition :</h2>
+  <p><strong>Définition :</strong></p>
 
   <p>L'indicateur « proportion de la population sous le seuil de pauvreté international »
   est défini comme le pourcentage de la population vivant avec moins de 1,90 $ par
-  jour aux prix internationaux de 2011. L'indicateur « seuil de pauvreté international »
-  est actuellement fixé à 1,90 $ par jour aux prix internationaux de 2011.</p>
+  jour aux prix internationaux de 2011.</p>
 
-  <h2>Concepts :</h2>
+  <p><strong>Concepts :</strong></p>
 
   <p>Pour évaluer la pauvreté dans un pays donné et identifier la meilleure façon
   de la réduire, on se concentre sur un seuil de pauvreté jugé approprié pour ce dernier.
@@ -58,10 +53,6 @@ STAT_CONC_DEF: >-
   de consommation de 1993, 2005 et 2011 produites par le Programme de comparaison
   internationale (PCI) de la Banque mondiale.</p>
 SOURCE_TYPE: >-
-  <h1>Sources de données</h1>
-
-  <h2>Description :</h2>
-
   <p>La Banque mondiale reçoit généralement les données directement des Bureaux nationaux
   de statistique (BNS). Dans certains cas, la Banque utilise des données reçues indirectement.
   Par exemple, elle reçoit des données d'Eurostat et de l'Étude sur le revenu au Luxembourg
@@ -81,63 +72,32 @@ SOURCE_TYPE: >-
   sur la mesure et l'analyse de la pauvreté dans le cadre des activités d'assistance
   technique.</p>
 
-  <p>Au sein de la Banque mondiale, le Groupe de travail sur la pauvreté mondiale
-  (GTPM (GPWG)) est responsable de la collecte, de la validation et de la compilation
-  des estimations de la pauvreté. Le GTPM archive les ensembles de données obtenus
-  des BNS et les harmonise ensuite en appliquant des méthodologies communes. L'objectif
-  du GTPM est de s'assurer que les données sur la pauvreté et les inégalités générées,
-  conservées et diffusées par la Banque mondiale sont à jour, répondent à des normes
-  de haute qualité, sont bien documentées et sont cohérentes d'un canal de diffusion
-  à l'autre. Les membres du GTPM produisent et mettent à jour les estimations de la
-  proportion de la population vivant sous le seuil de pauvreté international en utilisant
-  les données brutes généralement fournies par les gouvernements nationaux. Les données
-  brutes sont obtenues par les économistes de la pauvreté par l'intermédiaire de leurs
-  contacts dans les BNS, et leur qualité est vérifiée avant d'être soumise à une analyse
-  plus approfondie. Les données brutes peuvent être des données unitaires d'enquêtes
-  ou des données groupées, selon les accords conclus avec les gouvernements nationaux.
-  Dans la plupart des cas, l'agrégat de bien-être, élément essentiel pour l'estimation
-  de la pauvreté, est généré par les gouvernements nationaux. Parfois, la Banque mondiale
-  doit construire l'agrégat du bien-être ou ajuster l'agrégat fourni par le pays.</p>
-
-  <h2>Liste :</h2>
+  <p><strong>Liste :</strong></p>
 
   <p>Directement des BNS ou indirectement d'autres sources - voir la section Sources
   de données.</p>
 COLL_METHOD: >-
-  <h2>Processus de collecte :</h2>
-
   <p>La Banque mondiale partage et rend publiques de manière transparente les méthodologies
   pour toutes sortes d'ajustements aux données originales (par exemple, par le biais
-  de son site web PovcalNet et de ses divers documents analytiques). Les estimations
+  de son site Web PovcalNet et de ses divers documents analytiques). Les estimations
   de la pauvreté sont élaborées par des économistes, qui travaillent en étroite collaboration
   avec leurs homologues des gouvernements nationaux pour chaque mise à jour des données
   sur la pauvreté. </p>
 FREQ_COLL: >-
-  <h1>Calendrier</h1>
-
-  <h2>Collecte de données :</h2>
-
-  <p>La collecte des données de base est en cours par le GTPM de la Banque mondiale.
-  Le calcul des nouvelles estimations de la pauvreté à l'aide de données de base mises
-  à jour a normalement lieu chaque année, de mai à septembre.</p>
+  <p>Les données sont recueillies en continu par le Groupe de travail sur la pauvreté
+  mondiale de la Banque mondiale.</p>
 REL_CAL_POLICY: >-
-  <h2>Diffusion des données:</h2>
-
   <p>Le groupe de la Banque mondiale s'est engagé à mettre à jour les données sur
   la pauvreté chaque année. Les estimations mises à jour sont publiées lors de l'assemblée
-  annuelle de la Banque mondiale, en octobre de chaque année.</p>
+  de la Banque mondiale au printemps, en avril de chaque année.</p>
 DATA_SOURCE: >-
-  <h1>Fournisseurs de données</h1>
-
-  <p>La Banque mondiale reçoit généralement les données directement des BNS. Dans
-  d'autres cas, elle utilise les données des BNS reçues indirectement. Il est possible
-  de consulter la section Sources de données pour plus de détails.</p>
+  <p>La Banque mondiale reçoit généralement les données directement des bureaux nationaux
+  de statistique (BNS). Dans d'autres cas, elle utilise les données des BNS reçues
+  indirectement. Il est possible de consulter la section Sources de données pour plus
+  de détails.</p>
 COMPILING_ORG: |-
-  <h1>Compilateur des données</h1>
   <p>Banque mondiale</p>
 RATIONALE: >-
-  <h2>Justification :</h2>
-
   <p>La surveillance de la pauvreté importe dans le programme de développement mondial
   ainsi que dans celui de développement national de nombreux pays. La Banque mondiale
   a produit ses premières estimations de la pauvreté dans les pays en développement
@@ -145,15 +105,15 @@ RATIONALE: >-
   1990) en utilisant des données d'enquêtes sur les ménages pour 22 pays (Ravallion,
   Datt, et van de Walle 1991). Depuis lors, le nombre de pays qui réalisent des enquêtes
   sur les revenus et les dépenses des ménages a considérablement augmenté. Le Groupe
-  de recherche sur le développement de la Banque mondiale maintient une base de données
-  qui est mise à jour chaque année à mesure que de nouvelles données d'enquête sont
-  disponibles (et peut donc contenir des données plus récentes ou des révisions) et
-  procède chaque année à une réévaluation majeure des progrès réalisés dans la lutte
-  contre la pauvreté. PovcalNet est un outil de calcul interactif qui permet aux utilisateurs
-  de reproduire ces estimations de la pauvreté comparables au niveau international
-  de 1,90 $ et 3,10 $ par jour, au niveau mondial, régional et national et de calculer
-  des mesures de pauvreté pour des regroupements de pays personnalisés et pour différents
-  seuils de pauvreté. </p>
+  sur le développement des données de la Banque mondiale maintient une base de données,
+  PovcalNet, qui est mise à jour chaque année à mesure que de nouvelles données d'enquête
+  sont disponibles (et peut donc contenir des données plus récentes ou des révisions)
+  et procède chaque année à une réévaluation majeure des progrès réalisés dans la
+  lutte contre la pauvreté. PovcalNet est un outil de calcul interactif qui permet
+  aux utilisateurs de reproduire ces estimations de la pauvreté comparables au niveau
+  international de 1,90 $ et 3,20 $ par jour, au niveau mondial, régional et national
+  et de calculer des mesures de pauvreté pour des regroupements de pays personnalisés
+  et pour différents seuils de pauvreté. </p>
 
   <p>Le Portail des données sur la pauvreté et l'équité donne accès à la base de données
   et à des tableaux de bord conviviaux avec des graphiques et des cartes interactives
@@ -163,16 +123,6 @@ RATIONALE: >-
   de pauvreté nationaux ainsi que des estimations comparables au niveau international,
   produites à partir de PovcalNet et de façon cohérente avec celui-ci.</p>
 REC_USE_LIM: >-
-  <h2>Commentaires et limites :</h2>
-
-  <p>Cinq pays ; Bangladesh, Cap-Vert, Cambodge, Jordanie et Laos, utilisent les facteurs
-  de conversion de PPA de 2005 et les seuils de pauvreté correspondants de 1,25 $
-  par jour et 2 $ par jour. Cela est dû aux écarts importants entre le taux de variation
-  des facteurs de la PPA et le taux de variation des indices des prix à la consommation
-  intérieurs. Veuillez consulter l'encadré 1.1 du Rapport de suivi mondial 2015/2016
-  (<a href="https://reliefweb.int/report/world/rapport-de-suivi-mondial-20152016-objectifs-de-d-veloppement-dans-une-re-de-changement">https://reliefweb.int/report/world/rapport-de-suivi-mondial-20152016-objectifs-de-d-veloppement-dans-une-re-de-changement</a>)
-  pour une explication détaillée.</p>
-
   <p>Malgré les progrès réalisés au cours de la dernière décennie, la mesure de la
   pauvreté demeure un défi. L'actualité, la fréquence, la qualité et la comparabilité
   des enquêtes auprès des ménages doivent augmenter considérablement, en particulier
@@ -204,10 +154,6 @@ REC_USE_LIM: >-
   comprennent maintenant des évaluations pour la consommation ou le revenu de la production
   propre, mais les méthodes d'évaluation varient.</p>
 DATA_COMP: >-
-  <h1>Méthodologie</h1>
-
-  <h2>Méthode de calcul :</h2>
-
   <p>Pour mesurer la pauvreté de manière cohérente dans les différents pays, les mesures
   internationales de la Banque mondiale appliquent une norme commune, ancrée sur ce
   que « pauvreté » signifie dans les pays les plus pauvres du monde. Le seuil original
@@ -240,11 +186,7 @@ DATA_COMP: >-
   sont utilisées pour aligner les estimations basées sur une enquête avec ces années
   de référence.</p>
 IMPUTATION: >-
-  <h2>Traitement des valeurs manquantes :</h2>
-
-  <ul>
-    <li>Au niveau national :</li>
-  </ul>
+  <p><strong>&#x2022; Au niveau national</strong></p>
 
   <p>Il n'y a pas d'« imputation » au sens traditionnel du terme pour les données
   nationales manquantes. Toutefois, pour générer des agrégats régionaux et mondiaux
@@ -254,9 +196,7 @@ IMPUTATION: >-
   traitement des valeurs manquantes aux niveaux régional et mondial fournit plus de
   détails sur la méthode d'imputation.</p>
 
-  <ul>
-    <li>Aux niveaux régional et mondial :</li>
-  </ul>
+  <p><strong>&#x2022; Aux niveaux régional et mondial</strong></p>
 
   <p>Pour comparer les taux de pauvreté entre pays et calculer des agrégats régionaux,
   les estimations des pays doivent d'abord être « alignées » sur une année de référence
@@ -282,8 +222,8 @@ IMPUTATION: >-
   pays. Par conséquent, on utilise à la place la variation de la consommation privée
   par habitant telle que mesurée à partir des comptes nationaux. Bien qu'il ne soit
   pas possible de garantir que la mesure du revenu ou de la consommation basée sur
-  l'enquête évolue exactement au même rythme que la consommation privée dans les comptes
-  nationaux, il semble que ce soit la meilleure option disponible.</p>
+  l'enquête évolue au même rythme que la consommation privée dans les comptes nationaux,
+  il semble que ce soit la meilleure option disponible.</p>
 
   <p>Lorsque l'année de référence se situe entre deux années d'enquête, une estimation
   de la consommation moyenne pour l'année de référence est construite en extrapolant
@@ -308,8 +248,6 @@ IMPUTATION: >-
   de la population régionale totale. Cela suppose que le taux de pauvreté d'un pays
   sans enquête auprès des ménages est égal à la moyenne régionale.</p>
 REG_AGG: >-
-  <h2>Agrégats régionaux :</h2>
-
   <p>Comme les enquêtes ne sont pas menées chaque année dans la plupart des pays,
   les estimations de la pauvreté doivent être établies pour les années de référence
   par interpolation ou extrapolation en utilisant les données des comptes nationaux.
@@ -317,37 +255,12 @@ REG_AGG: >-
   et mondial. Les agrégats régionaux et mondiaux sont des moyennes pondérées en fonction
   de la population.</p>
 COVERAGE: >-
-  <h1>Disponibilité des données</h1>
+  <p><strong>Disponibilité des données :</strong></p>
 
-  <h2>Description :</h2>
-
-  <p>Disponibilité des données (mesurée en termes de nombre de pays disposant d'au
-  moins une observation par région) :</p>
-
-  <p><strong> <em>2010 à aujourd'hui </em></strong> </p>
-
-  <p>Asie et Pacifique : 23 (40 si les estimations modélisées sont incluses); Afrique :
-  23 (48 si les estimations modélisées sont incluses); Amérique latine et Caraïbes :
-  19 (21 si les estimations modélisées sont incluses)</p>
-
-  <p>Europe, Amérique du Nord, Australie, Nouvelle-Zélande et Japon : 17 (25 si les
-  estimations modélisées sont incluses)</p>
-
-  <p><strong> <em>2000-2009 </em></strong> </p>
-
-  <p>Asie et Pacifique : 38 (40 si les estimations modélisées sont incluses); Afrique :
-  47 (48 si les estimations modélisées sont incluses); Amérique latine et Caraïbes :
-  21 (21 si les estimations modélisées sont incluses)</p>
-
-  <p>Europe, Amérique du Nord, Australie, Nouvelle-Zélande et Japon : 20 (25 si les
-  estimations modélisées sont incluses)</p>
-
-  <h2>Désagrégation :</h2>
-
-  <p>Des travaux sont en cours à la Banque mondiale pour des estimations désagrégées
-  de la pauvreté.</p>
+  <p>Les données sont disponibles dans 168 économies (mesurées en termes de nombre
+  d’économies qui ont au moins 1 point de données). </p>
 COMPARABILITY: >-
-  <h2>Sources des divergences :</h2>
+  <p><strong>Sources des divergences :</strong></p>
 
   <p>La pauvreté nationale est un concept différent de la pauvreté mondiale. Le taux
   de pauvreté national est défini par des seuils de pauvreté spécifiques à chaque
@@ -356,29 +269,54 @@ COMPARABILITY: >-
   taux de pauvreté nationaux ne peuvent pas être comparés entre les pays ou avec le
   taux de pauvreté de 1,90 $ par jour.</p>
 OTHER_DOC: >-
-  <h1>Références</h1>
+  <p><strong>URL :</strong></p>
 
-  <h2>URL :</h2>
+  <p>www.banquemondiale.org</p>
 
-  <p><a href="www.banquemondiale.org/">www.banquemondiale.org/</a></p>
-
-  <h2>Références :</h2>
+  <p><strong>Références :</strong></p>
 
   <p>Pour plus d'informations et la méthodologie, il est possible de consulter PovcalNet
-  (en anglais seulement <a href="http://iresearch.worldbank.org/PovcalNet/index.htm">http://iresearch.worldbank.org/PovcalNet/index.htm</a>).</p>
+  (en anglais http://iresearch.worldbank.org/PovcalNet/index.htm).</p>
 
-  <p>Il est également possible de consulter (en anglais seulement) : <a href="https://documents.banquemondiale.org/fr/publication/documents-reports/documentdetail/360021468187787070/a-global-count-of-the-extreme-poor-in-2012-data-issues-methodology-and-initial-results">https://documents.banquemondiale.org/fr/publication/documents-reports/documentdetail/360021468187787070/a-global-count-of-the-extreme-poor-in-2012-data-issues-methodology-and-initial-results</a>
-  </p>
+  <p>Il est également possible de consulter (en anglais) : https://documents.banquemondiale.org/fr/publication/documents-reports/documentdetail/360021468187787070/a-global-count-of-the-extreme-poor-in-2012-data-issues-methodology-and-initial-results</p>
 
-  <p>Pour un aperçu, il est possible de consulter : <a href="https://www.banquemondiale.org/fr/topic/poverty/brief/global-poverty-line-faq">https://www.banquemondiale.org/fr/topic/poverty/brief/global-poverty-line-faq</a>
+  <p>Pour un aperçu, il est possible de consulter : https://www.banquemondiale.org/fr/topic/poverty/brief/global-poverty-line-faq
   </p>
 
   <p>Pour un lien complet vers les documents de référence, les documents de travail
-  et les articles de revues scientifiques, il est possible de consulter (en anglais
-  seulement) : </p>
-
-  <p><a href="http://iresearch.worldbank.org/PovcalNet/index.htm?0,4">http://iresearch.worldbank.org/PovcalNet/index.htm?0,4</a>
+  et les articles de revues scientifiques, il est possible de consulter (en anglais) :
   </p>
 
-  <p>(En anglais seulement) A Measured Approach to Ending Poverty and Boosting Shared
-  Prosperity: Concepts, Data, and the Twin Goals. (<a href="http://www.worldbank.org/en/research/publication/a-measured-approach-to-ending-poverty-and-boosting-shared-prosperity">http://www.worldbank.org/en/research/publication/a-measured-approach-to-ending-poverty-and-boosting-shared-prosperity</a>)</p>
+  <p>http://iresearch.worldbank.org/PovcalNet/index.htm?0,4 </p>
+
+  <p>(En anglais) « A Measured Approach to Ending Poverty and Boosting Shared Prosperity:
+  Concepts, Data, and the Twin Goals ». (http://www.worldbank.org/en/research/publication/a-measured-approach-to-ending-poverty-and-boosting-shared-prosperity)</p>
+CONTACT_ORGANISATION: <p>Banque mondiale (BM)</p>
+SDG_RELATED_INDICATORS: "<p>Indicateur 1.2.1 : Proportion de la population vivant\
+  \ au-dessous du seuil national de pauvreté, par sexe et âge</p>\n<p>Indicateur 10.1.1 :\
+  \ Taux de croissance des dépenses ou du revenu du ménage par habitant parmi les\
+  \ 40 % les plus pauvres de la population et la population totale</p>\n<p>Indicateur\
+  \ 10.2.1 : Proportion de personnes vivant en dessous de 50 % du revenu médian, selon\
+  \ le sexe, l’âge et le statut de personne handicapée</p>"
+UNIT_MEASURE: <p>L’unité de mesure est la proportion de personnes. </p>
+CLASS_SYSTEM: <p>Sans objet</p>
+INST_MANDATE: <p>Au sein de la Banque mondiale, le Groupe de travail sur la pauvreté
+  mondiale (GTPM) est chargé de la collecte, de la validation et de l’estimation des
+  estimations de la pauvreté. Le GTPM archive les ensembles de données obtenus auprès
+  des BNS, puis les harmonise en appliquant des méthodologies communes. L’objectif
+  du GTPM est de veiller à ce que les données sur la pauvreté et sur les inégalités
+  qui sont générées, organisées et diffusées par la Banque mondiale soient à jour,
+  répondent à des normes de qualité élevées et soient bien documentées et cohérentes
+  dans tous les canaux de diffusion. Les membres du GTPM génèrent et mettent à jour
+  les estimations de la proportion de la population en dessous du seuil de pauvreté
+  international en utilisant les données brutes généralement fournies par les gouvernements
+  des pays. </p>
+DATA_VALIDATION: <p>Les données brutes sont obtenues par des économistes experts sur
+  la pauvreté grâce à leurs contacts au sein des BNS, et leur qualité est vérifiée
+  avant d'être soumises à une analyse plus approfondie. Les données brutes peuvent
+  être des données d'enquêtes unitaires ou des données groupées, selon les accords
+  avec les gouvernements des pays. Dans la plupart des cas, l'agrégat de bien-être,
+  l'élément essentiel pour l'estimation de la pauvreté, est généré par les gouvernements
+  des pays. Parfois, la Banque mondiale doit construire l'agrégat de bien-être ou
+  ajuster l'agrégat fourni par le pays.</p>
+ADJUSTMENT: <p>Sans objet</p>
