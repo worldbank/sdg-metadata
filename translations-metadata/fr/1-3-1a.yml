@@ -26,30 +26,30 @@ DATA_VALIDATION: <p>La validation est organisée par les bureaux régionaux et n
   de l'OIT avec le ministère du travail ou une autre institution qui sert de point
   focal dans le pays.</p>
 ADJUSTMENT: <p>Sans objet.</p>
-IMPUTATION: "<p>• Au niveau national</p>\n<p>Les indicateurs pour les pays dont les\
-  \ valeurs sont manquantes ne font pas partie du rapport.</p>\n<p>• Aux niveaux régional\
-  \ et mondial</p>\n<p>Pour les régions des ODD dont la couverture du pays est insuffisante,\
-  \ des imputations sont utilisées.</p>"
-DOC_METHOD: '<p> L’enquête sur la sécurité sociale de l’OIT est utilisée au niveau
+IMPUTATION: "<p><strong>• Au niveau national</strong></p>\n<p>Les indicateurs pour\
+  \ les pays dont les valeurs sont manquantes ne font pas partie du rapport.</p>\n\
+  <p><strong>• Aux niveaux régional et mondial</strong></p>\n<p>Pour les régions des\
+  \ ODD dont la couverture du pays est insuffisante, des imputations sont utilisées.</p>"
+DOC_METHOD: '<p>L’enquête sur la sécurité sociale de l’OIT est utilisée au niveau
   national pour compiler les données. Toutes les informations pertinentes (questionnaire,
-  guide technique, etc.) peuvent être obtenues ici (en anglais seulement) : <a href="https://www.social-protection.org/gimi/WSPDB.action?id=41">https://www.social-protection.org/gimi/WSPDB.action?id=41</a>
+  guide technique, etc.) peuvent être obtenues (en anglais) à l''adresse : <a href="https://www.social-protection.org/gimi/WSPDB.action?id=41">https://www.social-protection.org/gimi/WSPDB.action?id=41</a>
   </p>'
 QUALITY_MGMNT: <p>Les processus de compilation, d’analyse et de publication des données
   relatives à la protection sociale, y compris leur contrôle de qualité, sont exécutés
   conformément au cadre méthodologique et aux normes établis par le Département des
   statistiques de l’OIT, conformément aux normes de l’OIT en matière de technologies
   de l’information et de gestion. </p>
-COVERAGE: "<p>Disponibilité des données :</p>\n<p>La base de données de l'ESS/base\
-  \ de données mondiale sur la protection sociale comprend des données sur 214 pays\
-  \ et territoires. En mars 2017, l’OIT traitait les données de l’enquête sur la sécurité\
-  \ sociale pour environ 70 pays par an. </p>\n<p>Une version préremplie mise à jour\
-  \ du questionnaire est envoyée aux pays en avril-mai. </p>\n<p>Séries chronologiques\
-  \ : à partir de 2015 (pour certaines séries à partir de 2000)</p>\n<p>Désagrégation\
-  \ :</p>\n<p>Chaque fois que des données sont disponibles, l’indicateur est ventilé\
-  \ par sexe et par groupe d’âge. </p>"
-COMPARABILITY: "<p>Sources des divergences :</p>\n<h2>Sources des différences entre\
-  \ les chiffres mondiaux et nationaux</h2>\n<p>Les estimations sont basées sur des\
-  \ données administratives produites par les pays (ESS).</p>"
+COVERAGE: "<p><strong>Disponibilité des données :</strong></p>\n<p>La base de données\
+  \ de l'ESS/base de données mondiale sur la protection sociale comprend des données\
+  \ sur 214 pays et territoires. En mars 2017, l’OIT traitait les données de l’enquête\
+  \ sur la sécurité sociale pour environ 70 pays par an. </p>\n<p>Une version préremplie\
+  \ mise à jour du questionnaire est envoyée aux pays en avril-mai. </p>\n<p><strong>Séries\
+  \ chronologiques :</strong></p>\n<p>À partir de 2015 (pour certaines séries à partir\
+  \ de 2000)</p>\n<p><strong>Désagrégation :</strong></p>\n<p>Chaque fois que des\
+  \ données sont disponibles, l’indicateur est ventilé par sexe et par groupe d’âge.\
+  \ </p>"
+COMPARABILITY: "<p><strong>Sources des divergences :</strong></p>\n<p>Les estimations\
+  \ sont basées sur des données administratives produites par les pays (ESS).</p>"
 COLL_METHOD: "<h2>Obtenir des données comparables au niveau international pour le\
   \ suivi mondial</h2>\n<p>Les données sont recueillies à l'aide des questionnaires\
   \ de l'enquête sur la sécurité sociale (ESS), qui sont remplis en collaboration\
@@ -63,18 +63,18 @@ COLL_METHOD: "<h2>Obtenir des données comparables au niveau international pour 
   \ supplémentaires. Dans de nombreux cas, des contacts directs avec les homologues\
   \ nationaux sont nécessaires, car l'application de l'ESS repose sur une forte coordination\
   \ avec nos homologues gouvernementaux. </p>"
-SDG_GOAL: <p>Objectif 1. Éliminer la pauvreté sous toutes ses formes et partout
-  dans le monde</p>
+SDG_GOAL: '<p>Objectif 1 : Éliminer la pauvreté sous toutes ses formes et partout
+  dans le monde</p>'
 SDG_CUSTODIAN_AGENCIES: <p>Organisation internationale du travail (OIT)</p>
 SDG_TARGET: "<p>Cible 1.3 : Mettre en œuvre des systèmes et des mesures de protection\
   \ sociale appropriés au niveau national pour tous, y compris des seuils, et atteindre\
-  \ d'ici 2030 une couverture substantielle des pauvres et des personnes vulnérables.</p>"
+  \ d'ici 2030 une couverture substantielle des pauvres et des personnes vulnérables</p>"
 SOURCE_TYPE: "<p>La principale source de données est l'<strong>Enquête sur la sécurité\
-  \ sociale (questionnaire en ligne (en anglais seulement) </strong><a href=\"https://qpss.ilo.org/\"\
+  \ sociale (questionnaire en ligne (en anglais) </strong><a href=\"https://qpss.ilo.org/\"\
   ><strong>https://qpss.ilo.org/</strong></a><strong>)</strong>, la collecte périodique\
   \ de données administratives de l’OIT auprès des ministères nationaux du travail,\
   \ de la sécurité sociale, de la protection sociale, des finances et autres.</p>\n\
-  <p> Depuis 1950, l’Enquête sur la sécurité sociale de l’OIT est la principale source\
+  <p>Depuis 1950, l’Enquête sur la sécurité sociale de l’OIT est la principale source\
   \ mondiale de données administratives sur la protection sociale. Les sources de\
   \ données secondaires comprennent les bases de données mondiales existantes de statistiques\
   \ sur la protection sociale, y compris celles de la Banque mondiale, de l’UNICEF,\
@@ -85,10 +85,11 @@ SOURCE_TYPE: "<p>La principale source de données est l'<strong>Enquête sur la 
   \ les tendances de développement des systèmes de protection sociale, y compris les\
   \ seuils, en fournissant des données pour un large éventail de pays (214 pays et\
   \ territoires). </p>"
-SDG_INDICATOR: '<p>Indicateur 1.3.1 : Pourcentage de la population couverte par des
-  seuils/systèmes de protection sociale ventilés par sexe, et en distinguant les enfants,
-  les chômeurs, les personnes âgées, les personnes handicapées, les femmes enceintes/nouveau-nés,
-  les victimes d’accidents du travail, les pauvres et les vulnérables</p>'
+SDG_INDICATOR: '<p>Indicateur 1.3.1 : Proportion de la population couverte par des
+  seuils/systèmes de protection sociale, par sexe, en distinguant les enfants, les
+  chômeurs, les personnes âgées, les personnes handicapées, les femmes enceintes,
+  les nouveau-nés, les victimes d''accidents du travail et les pauvres et les personnes
+  vulnérables</p>'
 SDG_SERIES_DESCR: "<ol>\n  <li>Proportion de la population couverte par au moins une\
   \ prestation de protection sociale en espèces</li>\n  <li>Proportion d'enfants couverts\
   \ par des prestations de protection sociale</li>\n  <li>Proportion de femmes accouchant\
@@ -99,16 +100,16 @@ SDG_SERIES_DESCR: "<ol>\n  <li>Proportion de la population couverte par au moins
   \  <li>Proportion de personnes vulnérables recevant des allocations</li>\n  <li>Proportion\
   \ de la population pauvre recevant une prestation en espèces de l'aide sociale</li>\n\
   </ol>"
-STAT_CONC_DEF: "<h2>Définition :</h2>\n<h2>L'indicateur reflète la proportion de personnes\
-  \ effectivement couvertes par un système de protection sociale, y compris les seuils\
-  \ de protection sociale. Il reflète également les principales composantes de la\
-  \ protection sociale : allocations familiales et de maternité, soutien aux personnes\
-  \ sans emploi, aux personnes handicapées, aux victimes d'accidents du travail et\
-  \ aux personnes âgées. </h2>\n<h2>La couverture effective de la protection sociale\
-  \ est mesurée par le nombre de personnes qui cotisent activement à un régime d'assurance\
-  \ sociale ou qui reçoivent des prestations (contributives ou non contributives).</h2>\n\
-  <h2><br>Concepts : </h2>\n</p>Les systèmes de protection sociale comprennent des\
-  \ régimes contributifs et non contributifs pour les enfants, les femmes enceintes\
+STAT_CONC_DEF: "<p><strong>Définition :</strong></p>\n<p>L'indicateur reflète la proportion\
+  \ de personnes effectivement couvertes par un système de protection sociale, y compris\
+  \ les seuils de protection sociale. Il reflète également les principales composantes\
+  \ de la protection sociale : allocations familiales et de maternité, soutien aux\
+  \ personnes sans emploi, aux personnes handicapées, aux victimes d'accidents du\
+  \ travail et aux personnes âgées. </p>\n<p>La couverture effective de la protection\
+  \ sociale est mesurée par le nombre de personnes qui cotisent activement à un régime\
+  \ d'assurance sociale ou qui reçoivent des prestations (contributives ou non contributives).</p>\n\
+  <p><strong>Concepts : </strong></p>\n</p>Les systèmes de protection sociale comprennent\
+  \ des régimes contributifs et non contributifs pour les enfants, les femmes enceintes\
   \ et les nouveau-nés, les personnes en âge actif, les personnes âgées, pour les\
   \ victimes d'accidents du travail et les personnes handicapées. Les seuils de protection\
   \ sociale fournissent au moins un niveau de base dans toutes les principales éventualités\
@@ -132,18 +133,19 @@ RATIONALE: "<h2>Justification et interprétation :</h2>\n<p>L'accès à un nivea
   \ effectivement des prestations des programmes de protection sociale contributifs\
   \ et non contributifs, plus le nombre de personnes qui contribuent activement aux\
   \ régimes d'assurance sociale.</p>"
-QUALITY_ASSURE: <p>La compilation des données sur la protection sociale est basée
-  sur la mise en œuvre en cours de l'ESS au niveau national. Le cycle d’application
-  et de traitement des données, des informations et des indicateurs de l'ESS est effectué
-  en étroite coordination avec les bureaux gouvernementaux des pays concernés, avec
-  un contrôle technique par des spécialistes de l’OIT dans les bureaux extérieurs.
-  Les informations recueillies au niveau des pays par le biais de l'ESS sont complétées
-  par des informations provenant d’autres sources nationales afin de calculer un ensemble
-  de variables et d’indicateurs qui composent la base de données mondiale sur la protection
-  sociale. Les pratiques de contrôle de qualité comprennent des consultations avec
-  les organismes gouvernementaux fournissant l’information, des comparaisons avec
-  les valeurs des variables et des indicateurs obtenus au cours des années précédentes
-  et l’application d’un ensemble d’algorithmes de calcul et de vérification. </p>
+QUALITY_ASSURE: "<p>La compilation des données sur la protection sociale est basée\
+  \ sur la mise en œuvre en cours de l'ESS au niveau national. Le cycle d’application\
+  \ et de traitement des données, des informations et des indicateurs de l'ESS est\
+  \ effectué en étroite coordination avec les bureaux gouvernementaux des pays concernés,\
+  \ avec un contrôle technique par des spécialistes de l’OIT dans les bureaux extérieurs.\
+  \ Les informations recueillies au niveau des pays par le biais de l'ESS sont complétées\
+  \ par des informations provenant d’autres sources nationales afin de calculer un\
+  \ ensemble de variables et d’indicateurs qui composent la base de données mondiale\
+  \ sur la protection sociale. Les pratiques de contrôle de qualité comprennent des\
+  \ consultations avec les organismes gouvernementaux fournissant l’information, des\
+  \ comparaisons avec les valeurs des variables et des indicateurs obtenus au cours\
+  \ des années précédentes et l’application d’un ensemble d’algorithmes de calcul\
+  \ et de vérification. </p>\n<p> </p>"
 QUALITY_ASSMNT: <p>L’évaluation finale de la qualité des informations relatives à
   la protection sociale est effectuée par l’Unité des finances publiques, de l’actuariat
   et des statistiques du Département de la protection sociale de l’OIT. Ce processus
@@ -201,15 +203,15 @@ REG_AGG: <p>Les indicateurs mondiaux et régionaux sont des moyennes pondérées
   sociale pour 169 pays. Les données au niveau des pays (déclarées et imputées) sont
   ensuite agrégées pour produire des estimations mondiales et régionales des indicateurs
   de protection sociale.</p>
-OTHER_DOC: "<p>(Toutes en anglais sauf la dernière)</p>\n<p>URL : </p>\n<p> <u>ILOSTAT</u></p>\n\
-  <p> <u>https://ilostat.ilo.org/World Social Protection Data Dashboards</u></p>\n\
-  <p> <u>https://www.social-protection.org/gimi/WSPDB.action?id=32</u></p>\n<p>Social\
-  \ Security Inquiry (questionnaire) :</p>\n<p> <a href=\"https://qpss.ilo.org/\"\
-  > <strong>https://qpss.ilo.org/</strong></a></p>\n<p>Social Security Inquiry. Manual\
-  \ 2018 :</p>\n<p> <a href=\"http://www.social-protection.org/gimi/gess/RessourcePDF.action?ressource.ressourceId=53711\"\
+OTHER_DOC: "<p>(Toutes en anglais sauf la dernière)</p>\n<p><strong>URL :</strong></p>\n\
+  <p> <u>ILOSTAT</u></p>\n<p> <u>https://ilostat.ilo.org/World Social Protection Data\
+  \ Dashboards</u></p>\n<p> <u>https://www.social-protection.org/gimi/WSPDB.action?id=32</u></p>\n\
+  <p>« Social Security Inquiry » (questionnaire) :</p>\n<p> <a href=\"https://qpss.ilo.org/\"\
+  > <strong>https://qpss.ilo.org/</strong></a></p>\n<p>« Social Security Inquiry ».\
+  \ Manual 2018 :</p>\n<p> <a href=\"http://www.social-protection.org/gimi/gess/RessourcePDF.action?ressource.ressourceId=53711\"\
   > <u>http://www.social-protection.org/gimi/gess/RessourcePDF.action?ressource.ressourceId=53711</u></a></p>\n\
-  <p>ILO Social Protection Floors Recommendation (n&#xB0;202), 2012</p>\n<p> <a href=\"\
-  http://www.ilo.org/dyn/normlex/en/f?p=NORMLEXPUB:12100:0::NO::P12100_INSTRUMENT_ID,P12100_LANG_CODE:3065524\"\
+  <p>« ILO Social Protection Floors Recommendation » (n&#xB0;202), 2012</p>\n<p> <a\
+  \ href=\"http://www.ilo.org/dyn/normlex/en/f?p=NORMLEXPUB:12100:0::NO::P12100_INSTRUMENT_ID,P12100_LANG_CODE:3065524\"\
   > <u>http://www.ilo.org/dyn/normlex/en/f?p=NORMLEXPUB:12100:0::NO::P12100_INSTRUMENT_ID,P12100_LANG_CODE:3065524</u></a></p>\n\
   <p>Rapport mondial sur la protection sociale 2017/2019:</p>\n<p> <a href=\"https://www.ilo.org/global/publications/books/WCMS_624892/lang--fr/index.htm\"\
   > <u>https://www.ilo.org/global/publications/books/WCMS_624892/lang--fr/index.htm</u></a>\
