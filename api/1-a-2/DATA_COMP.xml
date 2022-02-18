@@ -84,7 +84,7 @@
 &lt;p&gt;Note: the numerator and denominator should come from the same source as preferred option.&lt;/p&gt;
 			</language>
 			<language lang="es"/>
-			<language lang="fr">&lt;p&gt;Les dépenses publiques totales pour un niveau d&apos;éducation donné (par exemple, primaire, secondaire ou tous niveaux confondus) sont exprimées en pourcentage des dépenses publiques totales (tous secteurs confondus).&lt;/p&gt;
+			<language lang="fr">&lt;p&gt;Les dépenses publiques totales en éducation (tous niveaux confondus) sont exprimées en pourcentage des dépenses publiques totales (tous secteurs confondus).&lt;/p&gt;
 &lt;p&gt;&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;
     &lt;msub&gt;
       &lt;mrow&gt;
@@ -93,22 +93,19 @@
         &lt;mi&gt;E&lt;/mi&gt;
       &lt;/mrow&gt;
       &lt;mrow&gt;
-        &lt;mi&gt;n&lt;/mi&gt;
-        &lt;mo&gt;,&lt;/mo&gt;
         &lt;mi&gt;t&lt;/mi&gt;
       &lt;/mrow&gt;
     &lt;/msub&gt;
     &lt;mo&gt;=&lt;/mo&gt;
     &lt;mfrac&gt;
       &lt;mrow&gt;
+        &lt;mi&gt;T&lt;/mi&gt;
         &lt;msub&gt;
           &lt;mrow&gt;
             &lt;mi&gt;X&lt;/mi&gt;
             &lt;mi&gt;E&lt;/mi&gt;
           &lt;/mrow&gt;
           &lt;mrow&gt;
-            &lt;mi&gt;n&lt;/mi&gt;
-            &lt;mo&gt;,&lt;/mo&gt;
             &lt;mi&gt;t&lt;/mi&gt;
           &lt;/mrow&gt;
         &lt;/msub&gt;
@@ -135,25 +132,22 @@
         &lt;mi&gt;E&lt;/mi&gt;
       &lt;/mrow&gt;
       &lt;mrow&gt;
-        &lt;mi&gt;n&lt;/mi&gt;
-        &lt;mo&gt;,&lt;/mo&gt;
         &lt;mi&gt;t&lt;/mi&gt;
       &lt;/mrow&gt;
     &lt;/msub&gt;
-  &lt;/math&gt; = dépenses pour le niveau d&apos;éducation &lt;em&gt;n&lt;/em&gt; exprimées en pourcentage des dépenses publiques totales dans l&apos;année financière &lt;em&gt;t&lt;/em&gt;&lt;/p&gt;
+  &lt;/math&gt; = dépenses publiques en éducation exprimées en pourcentage des dépenses publiques totales dans l&apos;année financière &lt;em&gt;t&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;
     &lt;msub&gt;
       &lt;mrow&gt;
+        &lt;mi&gt;T&lt;/mi&gt;
         &lt;mi&gt;X&lt;/mi&gt;
         &lt;mi&gt;E&lt;/mi&gt;
       &lt;/mrow&gt;
       &lt;mrow&gt;
-        &lt;mi&gt;n&lt;/mi&gt;
-        &lt;mo&gt;,&lt;/mo&gt;
         &lt;mi&gt;t&lt;/mi&gt;
       &lt;/mrow&gt;
     &lt;/msub&gt;
-  &lt;/math&gt; = dépenses publiques totales pour le niveau d&apos;éducation &lt;em&gt;n&lt;/em&gt; dans l&apos;année financière &lt;em&gt;t&lt;/em&gt;&lt;/p&gt;
+  &lt;/math&gt; = dépenses publiques totales en éducation dans l&apos;année financière &lt;em&gt;t&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;
     &lt;msub&gt;
       &lt;mrow&gt;
@@ -166,6 +160,7 @@
       &lt;/mrow&gt;
     &lt;/msub&gt;
   &lt;/math&gt; = dépenses publiques totales dans l&apos;année financière &lt;em&gt;t&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Remarque : l’option préférée est que le numérateur et le dénominateur proviennent de la même source. &lt;/p&gt;
 			</language>
 			<language lang="pt"/>
 			<language lang="ru"/>
