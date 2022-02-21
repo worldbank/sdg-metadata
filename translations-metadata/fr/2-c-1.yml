@@ -399,17 +399,18 @@ RATIONALE: "<p>Les seuils pour l'indice <math xmlns=\"http://www.w3.org/1998/Mat
   \ Les événements qui s'écartent de plus d'un écart type de leur distribution historique\
   \ ont une faible probabilité de se produire et sont donc plus faciles à identifier\
   \ comme des prix anormalement élevés.</p>"
-IMPUTATION: "<ul>\n  <li>Au niveau national </li>\n</ul>\n<p>Pour les prix intérieurs\
-  \ des produits alimentaires de base, les données sont des données republiées récoltées\
-  \ auprès d'organisations gouvernementales nationales sans imputation des valeurs\
-  \ manquantes. Pour les besoins de l'indicateur, si plus de 3 mois consécutifs de\
-  \ données manquent ou si moins de 5 ans sont disponibles, le suivi de la série peut\
-  \ être abandonné. </p>\n<p>Pour l'indice des prix alimentaires dans <a href=\"http://www.fao.org/faostat/fr/#data/CP\"\
-  >FAOSTAT</a>, les données sont des données republiées récoltées auprès d'autres\
-  \ organisations internationales sans imputation des valeurs manquantes. Pour les\
-  \ besoins de l'indicateur, si plus de 3 mois consécutifs de données sont manquants\
-  \ ou si moins de 5 ans sont disponibles, le suivi de la série peut être abandonné.</p>\n\
-  <ul>\n  <li>Aux niveaux régional et mondial</li>\n</ul>\n<p>Sans objet</p>"
+IMPUTATION: "<ul>\n  <li><strong>Au niveau national</strong></li>\n</ul>\n<p>Pour\
+  \ les prix intérieurs des produits alimentaires de base, les données sont des données\
+  \ republiées récoltées auprès d'organisations gouvernementales nationales sans imputation\
+  \ des valeurs manquantes. Pour les besoins de l'indicateur, si plus de 3 mois consécutifs\
+  \ de données manquent ou si moins de 5 ans sont disponibles, le suivi de la série\
+  \ peut être abandonné. </p>\n<p>Pour l'indice des prix alimentaires dans <a href=\"\
+  http://www.fao.org/faostat/fr/#data/CP\">FAOSTAT</a>, les données sont des données\
+  \ republiées récoltées auprès d'autres organisations internationales sans imputation\
+  \ des valeurs manquantes. Pour les besoins de l'indicateur, si plus de 3 mois consécutifs\
+  \ de données sont manquants ou si moins de 5 ans sont disponibles, le suivi de la\
+  \ série peut être abandonné.</p>\n<ul>\n  <li><strong>Aux niveaux régional et mondial</strong></li>\n\
+  </ul>\n<p>Sans objet</p>"
 DOC_METHOD: <p>Un cours interactif d’apprentissage en ligne est disponible à l'adresse
   <a href="http://www.fao.org/elearning/#/elc/en/course/SDG2C1">Indicateur ODD 2.c.1
   – Anomalies des prix alimentaires</a> pour compléter les efforts des pays dans le
