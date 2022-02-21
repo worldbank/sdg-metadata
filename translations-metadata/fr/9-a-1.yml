@@ -11,8 +11,6 @@ SDG_INDICATOR: >-
   au développement et autres apports du secteur public) alloué aux infrastructures</p>
 META_LAST_UPDATE: '<p>2017-07-09</p>'
 SDG_CUSTODIAN_AGENCIES: |-
-  <h1>Informations institutionnelles</h1>
-  <h2>Organisation(s) :</h2>
   <p>Organisation de coopération et de développement économiques (OCDE)</p>
 STAT_CONC_DEF: >-
   <h1> Concepts et définitions </h1>
@@ -52,10 +50,6 @@ STAT_CONC_DEF: >-
   de secteur SRC de la série 200 (voir ici : <a href="http://www.oecd.org/dac/stats/purposecodessectorclassification.htm">
   http ://www.oecd.org/dac/stats/purposecodessectorclassification. htm </a>) </p>
 SOURCE_TYPE: >-
-  <h1>Sources de données</h1>
-
-  <h2>Description : </h2>
-
   <p>Le CAD de l'OCDE recueille des données sur les flux de ressources officielles
   et privées depuis 1960 au niveau agrégé et depuis 1973 au niveau des activités par
   le biais du Système de notification des pays créanciers (les données du SNPC sont
@@ -63,7 +57,7 @@ SOURCE_TYPE: >-
   et depuis 2002 pour les décaissements). </p>
 
   <p>Les données sont déclarées par les donateurs selon les mêmes normes et méthodologies
-  (consulter le lien : <a href="http://www.oecd.org/fr/cad/financementpourledeveloppementdurable/normes-financement-developpement/">http://www.oecd.org/fr/cad/financementpourledeveloppementdurable/normes-financement-developpement/</a>).</p>
+  (consulter le lien : http://www.oecd.org/fr/cad/financementpourledeveloppementdurable/normes-financement-developpement/).</p>
 
   <p>Les données sont déclarées sur la base d'une année civile par les déclarants
   statistiques des administrations nationales (agences d'aide, ministères des affaires
@@ -85,13 +79,10 @@ FREQ_COLL: >-
 
   <p> Les flux détaillés de 2015 ont été publiés en décembre 2016. </p>
 DATA_SOURCE: >-
-  <h1>Fournisseurs de données</h1>
-
   <p>Les données sont déclarées sur la base d'une année civile par les déclarants
   statistiques des administrations nationales (agences d'aide, ministères des affaires
-  étrangères ou des finances, etc.</p>
+  étrangères ou des finances, etc.).</p>
 COMPILING_ORG: |-
-  <h1>Compilateurs de données </h1>
   <p>OCDE</p>
 RATIONALE: >-
   <h2> Justification :</h2>
@@ -100,8 +91,6 @@ RATIONALE: >-
   public (à l'exclusion des crédits à l'exportation) que les donateurs fournissent
   aux pays en développement pour l'infrastructure. </p>
 REC_USE_LIM: >-
-  <h2>Commentaires et limites : </h2>
-
   <p>Les données du Système de notification des pays créanciers sont disponibles à
   partir de 1973. Toutefois, la couverture des données n'est considérée complète que
   depuis 1995 pour les engagements au niveau des activités et depuis 2002 pour les
@@ -129,8 +118,6 @@ IMPUTATION: >-
 
   <p>Sans objet. </p>
 REG_AGG: >-
-  <h2>Agrégats régionaux : </h2>
-
   <p>Les chiffres mondiaux et régionaux sont basés sur la somme des flux d'APD et
   d'autres apports du secteur public vers le secteur agricole.</p>
 COVERAGE: >-
@@ -159,3 +146,5 @@ OTHER_DOC: >-
   <h2>Références :</h2>
 
   <p>Consulter tous les liens ici : <a href="http://www.oecd.org/fr/cad/financementpourledeveloppementdurable/normes-financement-developpement/">http://www.oecd.org/fr/cad/financementpourledeveloppementdurable/normes-financement-developpement/</a></p>
+CONTACT_ORGANISATION: <p>Organisation de coopération et de développement économiques
+  (OCDE)</p>
