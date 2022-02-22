@@ -12,22 +12,18 @@ META_LAST_UPDATE: '<p>2017-07-09</p>'
 SDG_RELATED_INDICATORS: |-
   <p>Autres indicateurs d'aide publique au développement (APD)</p>
 SDG_CUSTODIAN_AGENCIES: |-
-  <h1>Informations institutionnelles</h1>
-  <h2>Organisation(s) :</h2>
   <p>Organisation de coopération et de développement économiques (OCDE)</p>
 STAT_CONC_DEF: >-
-  <h1>Concepts et définitions</h1>
-
-  <h2>Définition : </h2>
+  <p><strong>Définition : </strong></p>
 
   <p>Décaissements bruts du total de l'Aide publique au développement (APD) et des
   autres apports du secteur public de tous les donateurs en faveur du secteur agricole.</p>
 
-  <h2>Concepts : </h2>
+  <p><strong>Concepts : </strong></p>
 
-  <p><strong><em>APD</em></strong> : Le Comité d'aide au développement (CAD) définit
-  l'APD comme « les flux vers les pays et territoires figurant sur la liste du CAD
-  des bénéficiaires de l'APD et vers les institutions multilatérales, qui sont </p>
+  <p>APD : Le Comité d'aide au développement (CAD) définit l'APD comme « les flux
+  vers les pays et territoires figurant sur la liste du CAD des bénéficiaires de l'APD
+  et vers les institutions multilatérales, qui sont </p>
 
   <ol>
     <li>fournis par des agences officielles, y compris les gouvernements des États
@@ -35,15 +31,14 @@ STAT_CONC_DEF: >-
     <li>chaque transaction est administrée avec pour principal objectif la promotion
   du développement économique et du bien-être des pays en développement; et</li>
     <li>est de nature concessionnelle et comporte un élément de subvention d'au moins
-  25 % (calculé à un taux d'actualisation de 10 %). (Consulter <a href="http://www.oecd.org/fr/developpement/financementpourledeveloppementdurable/normes-financement-developpement/aidepubliqueaudeveloppementdefinitionetchampcouvert.htm">http://www.oecd.org/fr/developpement/financementpourledeveloppementdurable/normes-financement-developpement/aidepubliqueaudeveloppementdefinitionetchampcouvert.htm</a>)</li>
+  25 % (calculé à un taux d'actualisation de 10 %) ». (Consulter <a href="http://www.oecd.org/fr/developpement/financementpourledeveloppementdurable/normes-financement-developpement/aidepubliqueaudeveloppementdefinitionetchampcouvert.htm">http://www.oecd.org/fr/developpement/financementpourledeveloppementdurable/normes-financement-developpement/aidepubliqueaudeveloppementdefinitionetchampcouvert.htm</a>)</li>
   </ol>
 
-  <p><strong><em>Autres apports du secteur public : </em></strong>Les autres apports
-  du secteur public (à l'exclusion des crédits à l'exportation bénéficiant d'un soutien
-  public) sont définis comme des transactions du secteur public qui ne remplissent
-  pas les conditions d'éligibilité à l'APD, soit parce qu'elles ne visent pas principalement
-  le développement, soit parce qu'elles ne sont pas suffisamment concessionnelles.
-  </p>
+  <p>Autres apports du secteur public : Les autres apports du secteur public (à l'exclusion
+  des crédits à l'exportation bénéficiant d'un soutien public) sont définis comme
+  des transactions du secteur public qui ne remplissent pas les conditions d'éligibilité
+  à l'APD, soit parce qu'elles ne visent pas principalement le développement, soit
+  parce qu'elles ne sont pas suffisamment concessionnelles. </p>
 
   <p>(Consulter <a href="http://www.oecd.org/dac/stats/documentupload/DCDDAC(2016)3FINAL.pdf">http://www.oecd.org/dac/stats/documentupload/DCDDAC(2016)3FINAL.pdf
   (en anglais)</a>, paragraphe 24)</p>
@@ -53,10 +48,6 @@ STAT_CONC_DEF: >-
   (consulter le lien : <a href="http://www.oecd.org/fr/developpement/financementpourledeveloppementdurable/normes-financement-developpement/codes-objetclassificationsectorielle.htm">http://www.oecd.org/fr/developpement/financementpourledeveloppementdurable/normes-financement-developpement/codes-objetclassificationsectorielle.htm</a>)
   </p>
 SOURCE_TYPE: >-
-  <h1>Sources de données</h1>
-
-  <h2>Description : </h2>
-
   <p>Le CAD de l'OCDE recueille des données sur les flux de ressources officielles
   et privées depuis 1960 au niveau agrégé et depuis 1973 au niveau des activités par
   le biais du Système de notification des pays créanciers (les données du SNPC sont
@@ -64,91 +55,67 @@ SOURCE_TYPE: >-
   et depuis 2002 pour les décaissements). </p>
 
   <p>Les données sont déclarées par les donateurs selon les mêmes normes et méthodologies
-  (consulter le lien : <a href="http://www.oecd.org/fr/cad/financementpourledeveloppementdurable/normes-financement-developpement/">http://www.oecd.org/fr/cad/financementpourledeveloppementdurable/normes-financement-developpement/</a>).</p>
+  (consulter le lien : http://www.oecd.org/fr/cad/financementpourledeveloppementdurable/normes-financement-developpement/).</p>
 
   <p>Les données sont déclarées sur la base d'une année civile par les déclarants
   statistiques des administrations nationales (agences d'aide, ministères des affaires
   étrangères ou des finances, etc.).</p>
 COLL_METHOD: >-
-  <h2>Processus de collecte : </h2>
-
   <p>Un déclarant statistique est responsable de la collecte des statistiques du CAD
   dans chaque pays/organisme fournisseur. Ce déclarant se trouve généralement dans
   l'organisme d'aide national, le ministère des affaires étrangères ou des finances,
   etc.</p>
 FREQ_COLL: >-
-  <h1>Calendrier</h1>
-
-  <h2>Collecte de données :</h2>
-
   <p>Les données sont publiées sur une base annuelle en décembre pour les flux de
   l'année précédente.</p>
 
   <p>Les flux détaillés pour 2015 seront publiés en décembre 2016.</p>
 REL_CAL_POLICY: |-
-  <h2>Diffusion des données :</h2>
   <p>Décembre 2016. </p>
 DATA_SOURCE: >-
-  <h1>Fournisseurs de données</h1>
-
   <p>Les données sont déclarées sur la base d'une année civile par les déclarants
   statistiques des administrations nationales (agences d'aide, ministères des affaires
-  étrangères ou des finances, etc.</p>
+  étrangères ou des finances, etc.).</p>
 COMPILING_ORG: |-
-  <h1>Compilateurs de données </h1>
   <p>OCDE</p>
 RATIONALE: >-
-  <p><strong>Justification :</strong></p>
-
   <p>Les flux totaux d'APD et d'autres apports du secteur public vers les pays en
   développement quantifient l'effort public (excluant les crédits à l'exportation)
   que les donateurs fournissent aux pays en développement pour l'agriculture.</p>
 REC_USE_LIM: >-
-  <h2>Commentaires et limites : </h2>
-
   <p>Les données du Système de notification des pays créanciers sont disponibles à
   partir de 1973. Toutefois, la couverture des données n'est considérée complète que
   depuis 1995 pour les engagements au niveau des activités et depuis 2002 pour les
   décaissements.</p>
 DATA_COMP: >-
-  <h1>Méthodologie</h1>
-
-  <h2>Méthode de calcul :</h2>
-
   <p>La somme des flux d'APD et d'autres apports du secteur public de tous les donateurs
   vers les pays en développement dans le secteur agricole.</p>
 IMPUTATION: >-
-  <h2>Traitement des valeurs manquantes : </h2>
-
   <ul>
-    <li><strong><em>Au niveau national : </em></strong></li>
+    <li><strong>Au niveau national :</strong></li>
   </ul>
 
   <p> En raison de la qualité élevée des rapports, aucune estimation n'est produite
   pour les données manquantes.</p>
 
   <ul>
-    <li><strong><em>Aux niveaux régional et mondial : </em></strong></li>
+    <li><strong>Aux niveaux régional et mondial :</strong></li>
   </ul>
 
   <p>Sans objet </p>
 REG_AGG: >-
-  <h2>Agrégats régionaux : </h2>
-
   <p>Les chiffres mondiaux et régionaux sont basés sur la somme des flux d'APD et
   d'autres apports du secteur public vers le secteur agricole.</p>
 COVERAGE: >-
-  <h1>Disponibilité des données </h1>
-
-  <h2>Description : </h2>
+  <p><strong>Disponibilité des données :</strong></p>
 
   <p>Sur la base du bénéficiaire pour tous les pays en développement éligibles à l'APD.</p>
 
-  <h2>Séries chronologiques : </h2>
+  <p><strong>Séries chronologiques : </strong></p>
 
-  <p>Données disponibles depuis 1973 sur une base annuelle (calendrier) </p>
+  <p>Données disponibles depuis 1973 sur une base annuelle (année civile) </p>
 
-  <h2>Désagrégation :</h2>
+  <p><strong>Désagrégation :</strong></p>
 
   <p>Cet indicateur peut être ventilé par type de flux (APD ou autres apports du secteur
   public), par donateur, pays bénéficiaire, type de financement, type d'aide (projet
@@ -160,12 +127,12 @@ COMPARABILITY: >-
   tous les donateurs et peuvent différer des données de l’exercice disponible dans
   les documents budgétaires de certains pays.</p>
 OTHER_DOC: >-
-  <h1>Références</h1>
+  <p><strong>URL :</strong></p>
 
-  <h2>URL : </h2>
+  <p>https://www.oecd.org/fr/cad/financementpourledeveloppementdurable/</p>
 
-  <p><a href="https://www.oecd.org/fr/cad/financementpourledeveloppementdurable/">https://www.oecd.org/fr/cad/financementpourledeveloppementdurable/</a></p>
-
-  <h2>Références :</h2>
+  <p><strong>Références :</strong></p>
 
   <p>Consulter tous les liens ici : <a href="http://www.oecd.org/fr/cad/financementpourledeveloppementdurable/normes-financement-developpement/">http://www.oecd.org/fr/cad/financementpourledeveloppementdurable/normes-financement-developpement/</a></p>
+CONTACT_ORGANISATION: <p>Organisation de coopération et de développement économiques
+  (OCDE)</p>
