@@ -1,16 +1,16 @@
 SDG_GOAL: >-
   <p>Objectif 3 : Permettre à tous de vivre en bonne santé et promouvoir le bien-être
-  de tous à tout âge </p>
+  de tous à tout âge</p>
 SDG_TARGET: "<p>Cible 3.1 : D’ici 2030, faire passer le taux mondial de mortalité\
-  \ maternelle au-dessous de 70 pour 100 000 naissances vivantes </p>"
+  \ maternelle au-dessous de 70 pour 100 000 naissances vivantes</p>"
 SDG_INDICATOR: "<p>Indicateur 3.1.2 : Proportion d’accouchements assistés par du personnel\
   \ de santé qualifié </p>"
-META_LAST_UPDATE: '<p>16 février 2021</p>'
+META_LAST_UPDATE: '<p>2021-02-16</p>'
 SDG_CUSTODIAN_AGENCIES: >-
   <p>Fonds des Nations Unies pour l'enfance (UNICEF) et Organisation mondiale de la
-  Santé (OMS) </p>
+  Santé (OMS)</p>
 STAT_CONC_DEF: >-
-  <p><strong>Définition : </strong></p>
+  <p><strong>Définition :</strong></p>
 
   <p>Le pourcentage d'accouchements assistés par du personnel de santé qualifié (généralement
   des médecins, des infirmières ou des sages-femmes) est le pourcentage d'accouchements
@@ -23,13 +23,11 @@ STAT_CONC_DEF: >-
   pendant le travail et l'accouchement pour garantir un accouchement propre et positif;
   et (iii) identifier et prendre en charge ou orienter les femmes et/ou les nouveau-nés
   présentant des complications. </p>
-
-  <p> </p>
 SOURCE_TYPE: >-
   <p>Les enquêtes auprès des ménages au niveau national sont les principales sources
   de données utilisées pour recueillir des données pour le personnel de santé qualifié.
-  Ces enquêtes comprennent des enquêtes démographiques et sanitaires (EDS), des enquêtes
-  par grappes à indicateurs multiples (MICS), des enquêtes sur la santé reproductive
+  Ces enquêtes comprennent des enquêtes démographiques et de santé (EDS), des enquêtes
+  en grappes à indicateurs multiples (MICS), des enquêtes sur la santé reproductive
   (ESR) et des enquêtes nationales basées sur des méthodologies similaires. Les enquêtes
   sont menées tous les 3 à 5 ans. Les sources de données comprennent également les
   statistiques sur les services de routine.</p>
@@ -38,13 +36,12 @@ SOURCE_TYPE: >-
   pays où l'utilisation des services d'accouchement est faible, où les données du
   secteur privé sont exclues de la collecte de données de routine, et/ou où les systèmes
   d'information sanitaire sont faibles. Ces enquêtes comprennent les enquêtes démographiques
-  et sanitaires (EDS), les enquêtes par grappes à indicateurs multiples (MICS), les
-  enquêtes sur la santé reproductive (ESR) et d'autres enquêtes nationales basées
-  sur des méthodologies similaires. Dans le cadre des MICS, des EDS et d'autres enquêtes
-  similaires, la répondante est interrogée à propos de la dernière naissance vivante
-  et des personnes qui l'ont aidée à accoucher pendant une période allant jusqu'à
-  cinq ans avant l'entretien. Ces enquêtes sont généralement menées tous les 3 à 5
-  ans.</p>
+  et de santé (EDS), les enquêtes en grappes à indicateurs multiples (MICS), les enquêtes
+  sur la santé reproductive (ESR) et d'autres enquêtes nationales basées sur des méthodologies
+  similaires. Dans le cadre des MICS, des EDS et d'autres enquêtes similaires, la
+  répondante est interrogée à propos de la dernière naissance vivante et des personnes
+  qui l'ont aidée à accoucher pendant une période allant jusqu'à cinq ans avant l'entretien.
+  Ces enquêtes sont généralement menées tous les 3 à 5 ans.</p>
 
   <p>Les registres des services de routine et des établissements sont une source de
   données plus courante dans les pays où une grande partie des naissances ont lieu
@@ -77,7 +74,7 @@ FREQ_COLL: >-
   Les données provenant de sources administratives de routine sont régulièrement disponibles
   sur une base annuelle. </p>
 REL_CAL_POLICY: >-
-  <p>Les données communiquées par les pays et les estimations mondiales et régionales
+  <p>Les données déclarées par les pays et les estimations mondiales et régionales
   sont publiées chaque année ; en février par l'UNICEF sur le site Web de données
   <a href="http://www.data.unicef.org">www.data.unicef.org</a> (3) et par l'Organisation
   mondiale de la Santé en mai dans le Rapport sur les statistiques sanitaires mondiales
@@ -112,7 +109,7 @@ DATA_COMP: >-
   </p>
 IMPUTATION: >-
   <ul>
-    <li>Au niveau national :</li>
+    <li><strong>Au niveau national :</strong></li>
   </ul>
 
   <p>Il n’y a pas de traitement des valeurs manquantes au niveau national. Si la valeur
@@ -122,7 +119,7 @@ IMPUTATION: >-
   <p> </p>
 
   <ul>
-    <li>Aux niveaux régional et mondial :</li>
+    <li><strong>Aux niveaux régional et mondial :</strong></li>
   </ul>
 
   <p>Les valeurs manquantes ne sont pas imputées aux niveaux régional et mondial.
@@ -147,7 +144,7 @@ DOC_METHOD: >-
   assistées par du personnel de santé qualifié)/(nombre total de naissances vivantes)
   x 100.</p>
 
-  <p>Dans les enquêtes auprès des ménages, telles que les EDS, les MICS et les ERS,
+  <p>Dans les enquêtes auprès des ménages, telles que les EDS, les MICS et les ESR,
   la répondante est interrogée à propos de la naissance la plus récente et des personnes
   qui l'ont aidée à accoucher pendant une période allant jusqu'à cinq ans avant l'interview.
   Pour la cohérence des rapports, les équipes de personnalisation des enquêtes dans
@@ -169,18 +166,18 @@ QUALITY_ASSURE: >-
   pour certains pays peuvent inclure des catégories supplémentaires de personnel formé
   en plus des médecins, des infirmières et des sages-femmes. </p>
 COVERAGE: >-
-  <p>Disponibilité des données :</p>
+  <p><strong>Disponibilité des données :</strong></p>
 
   <p>Les données sont disponibles pour plus de 170 pays. </p>
 
   <p>Le décalage entre l’année de référence et la production réelle de séries de données
   dépend de la disponibilité de l’enquête auprès des ménages pour chaque pays. </p>
 
-  <p>Séries chronologiques :</p>
+  <p><strong>Séries chronologiques :</strong></p>
 
   <p>2000 à 2020</p>
 
-  <p>Désagrégation :</p>
+  <p><strong>Désagrégation :</strong></p>
 
   <p>Pour cet indicateur, lorsque des données sont communiquées à partir d’enquêtes
   auprès des ménages, la désagrégation est disponible pour diverses caractéristiques
@@ -189,7 +186,7 @@ COVERAGE: >-
   Lorsque des données sont communiquées à partir de sources administratives, la désagrégation
   est plus limitée et tend à n’inclure que la résidence. </p>
 COMPARABILITY: >-
-  <p><strong>Sources de divergences :</strong></p>
+  <p><strong>Sources des divergences :</strong></p>
 
   <p>Des divergences sont possibles si des chiffres nationaux sont compilés au niveau
   de l'établissement de santé. Ceux-ci différeraient des chiffres mondiaux, qui sont
