@@ -270,13 +270,11 @@ DATA_COMP: >-
   traceur pour l'utilisation d'une moustiquaire imprégnée d'insecticide est retiré
   du calcul.</p>
 IMPUTATION: >-
-  <h2>Traitement des valeurs manquantes :</h2>
-
   <ul>
-    <li> <strong> <em>Au niveau national :</em></strong></li>
+    <li> <strong>Au niveau national :</strong></li>
   </ul>
 
-  <p>Le point de départ pour calculer l’index est d’assembler les informations existantes
+  <p>Le point de départ pour calculer l’indice est d’assembler les informations existantes
   pour chaque indicateur traceur. Dans de nombreux cas, il s’agit d’utiliser des séries
   chronologiques par pays qui ont été produites ou rassemblées par les agences des
   Nations Unies en consultation avec les gouvernements nationaux (p. ex., couverture
@@ -284,6 +282,8 @@ IMPUTATION: >-
   Certaines de ces séries chronologiques publiées impliquent une modélisation mathématique
   pour réconcilier plusieurs sources de données ou imputer les valeurs manquantes,
   et ces détails sont résumés à l’annexe 1. </p>
+
+  <p> </p>
 
   <p>Après avoir rassemblé ces intrants, il manque encore des valeurs pour certaines
   années par pays pour certains indicateurs. Le calcul de l’indice de couverture des
@@ -293,23 +293,21 @@ IMPUTATION: >-
   chaque indicateur :</p>
 
   <ul>
-    <li>
-      <ul>
-        <li>Si un pays a des valeurs manquantes entre deux années pour lesquelles
-  on a des valeurs, l’interpolation linéaire est utilisée pour remplir les valeurs
-  manquantes pour les années intermédiaires</li>
-        <li>Si un pays a des valeurs historiques, mais aucune valeur actuelle, l’extrapolation
+    <li>Si un pays a des valeurs manquantes entre deux années pour lesquelles on a
+  des valeurs, l’interpolation linéaire est utilisée pour remplir les valeurs manquantes
+  pour les années intermédiaires</li>
+    <li>Si un pays a des valeurs historiques, mais aucune valeur actuelle, l’extrapolation
   constante est utilisée pour remplir les valeurs manquantes de l’année en cours</li>
-        <li>Si un pays n’a pas de valeurs, une valeur est imputée. Pour la recherche
-  de soins et la densité des chirurgiens en cas de pneumonie, une régression convient
+    <li>Si un pays n’a pas de valeurs, une valeur est imputée. Pour la recherche de
+  soins et la densité des chirurgiens en cas de pneumonie, une régression convient
   pour imputer les valeurs manquantes (voir l’annexe 1 pour plus de détails). Pour
   tous les autres indicateurs, une médiane régionale est calculée pour imputer les
   valeurs manquantes. Les régions sont basées sur les régions géographiques de la
   Banque mondiale, avec un groupe distinct pour les pays traditionnellement à revenu
-  élevé<sup><a href="#footnote-1" id="footnote-ref-1">[1]</a></sup> </li>
-      </ul>
-    </li>
+  élevé</li>
   </ul>
+
+  <p> </p>
 
   <p>Compte tenu du calendrier et de la distribution de diverses enquêtes sur la santé
   et d’autres mécanismes de collecte de données, les pays ne recueillent pas et ne
@@ -320,56 +318,52 @@ IMPUTATION: >-
   la mesure dans laquelle l’imputation a été utilisée pour imputer les valeurs manquantes
   doit être déclarée avec la valeur de l’indice. </p>
 
+  <p> </p>
+
   <ul>
-    <li> <strong> <em>Aux niveaux régional et mondial :</em></strong></li>
+    <li> <strong>Aux niveaux régional et mondial :</strong></li>
   </ul>
 
   <p>Toute imputation nécessaire se fait au niveau des pays. Ces valeurs nationales
   peuvent ensuite être utilisées pour calculer les valeurs régionales et mondiales.
-  </p> <div class="footnotes"> <div> <sup class="footnote-number" id="footnote-1">1</sup><p>
-  Argentine, Australie, Autriche, Belgique, Brunei Darussalam, Canada, Chili, Chypre,
-  Tchéquie, Danemark, Estonie, Finlande, France, Allemagne, Grèce, Islande, Irlande,
-  Israël, Italie, Japon, Luxembourg, Malte, Pays-Bas, Nouvelle-Zélande, Norvège, Pologne,
-  Portugal, République de Corée, Singapour, Slovaquie, Slovénie, Espagne, Suède, Suisse,
-  Royaume-Uni, États-Unis d’Amérique, Uruguay <a href="#footnote-ref-1">&#x2191;</a></p></div></div>
+  </p>
 REG_AGG: >-
-  <h2>Agrégats régionaux : </h2>
-
-  <p>Les agrégats régionaux et mondiaux sont calculés en utilisant la taille de la
-  population nationale pour calculer une moyenne pondérée des valeurs spécifiques
-  nationales pour l'indice. Cela se justifie par le fait que la CSU est une propriété
-  des pays et que l'indice des services essentiels est une mesure sommaire de l'accès
-  aux services essentiels pour la population de chaque pays. </p>
+  <p>Les agrégats régionaux et mondiaux utilisent les estimations de la population
+  des Nations Unies au niveau des pays pour calculer une moyenne pondérée des valeurs
+  nationales pour l’indice. Cela est justifié parce que la CSU est une propriété des
+  pays et que l’indice des services essentiels est une mesure sommaire de l’accès
+  aux services essentiels pour la population de chaque pays. Les estimations de la
+  population des Nations Unies au niveau des pays sont utilisées pour assurer la cohérence
+  et la comparabilité des estimations au sein des pays et entre les pays au fil du
+  temps. </p>
 COVERAGE: >-
-  <h1>Disponibilité des données </h1>
-
-  <h2>Description : </h2>
+  <p><strong>Disponibilité des données :</strong></p>
 
   <p>Résumer la disponibilité des données pour l'indice de couverture des services
   de CSU n'est pas simple, car différentes sources de données sont utilisées pour
   les 14 indicateurs traceurs. En outre, pour de nombreux indicateurs, des estimations
   comparables ont été produites, dans de nombreux cas en s'appuyant sur différents
   types de sources de données sous-jacentes pour éclairer les estimations tout en
-  utilisant également des projections pour imputer les valeurs manquantes. Sur la
-  base des sources de données sous-jacentes pour chacun des indicateurs traceurs (c'est-à-dire
-  en ignorant les estimations et les projections), la proportion moyenne d'indicateurs
-  utilisés pour calculer l'indice avec les données sous-jacentes disponibles depuis
-  2010 est d'environ 70% dans l'ensemble des pays. </p>
+  utilisant également des projections pour imputer les valeurs manquantes. </p>
 
-  <h2>Séries chronologiques : </h2>
+  <p><strong>Séries chronologiques :</strong></p>
 
   <p>Une valeur de référence de l'indice de couverture des services de CSU pour 2015
   dans 183 pays a été publiée fin 2017. Dans le cadre de ce processus, des sources
-  de données remontant à 2000 ont été rassemblées. En 2019, il est prévu de publier
-  des séries chronologiques de 2000 à 2017. </p>
+  de données remontant à 2000 ont été rassemblées. En 2019, l'indice de couverture
+  des services de CSU a été estimé pour les années 2000, 2005, 2010, 2015 et 2017.
+  En 2021, l'indice a été estimé pour toutes les années de 2000 à 2019 et pour tous
+  les pays. </p>
 
-  <h2>Désagrégation : </h2>
+  <p><strong>Désagrégation :</strong></p>
 
   <p>L'équité est au cœur de la définition de la CSU, et par conséquent, l'indice
   de couverture des services de CSU devrait être utilisé pour communiquer des informations
   sur les inégalités de couverture des services dans les pays. Cela peut être fait
   en présentant l'indice séparément pour la population nationale par rapport aux populations
   défavorisées afin de mettre en évidence les différences entre elles. </p>
+
+  <p> </p>
 
   <p>Pour les pays, l'emplacement géographique est probablement la dimension la plus
   réalisable pour la désagrégation infranationale basée sur les niveaux de couverture
@@ -385,7 +379,7 @@ COVERAGE: >-
   Cette approche devrait être remplacée par une désagrégation complète des 14 indicateurs
   traceurs une fois que les données seront disponibles pour ce faire. </p>
 COMPARABILITY: >-
-  <h2>Sources des divergences : </h2>
+  <p><strong>Sources des divergences :</strong></p>
 
   <p>L'indice de couverture des services s'appuie sur des données et des estimations
   disponibles publiquement pour les indicateurs traceurs. Ces chiffres ont déjà fait
@@ -394,19 +388,19 @@ COMPARABILITY: >-
 OTHER_DOC: >-
   <p>(Toutes les références sont en anglais, à moins d'indication contraire)</p>
 
-  <h1>Références</h1>
+  <p><strong>URL : </strong><a href="http://www.who.int/healthinfo/universal_health_coverage/en/"><u>http://www.who.int/healthinfo/universal_health_coverage/en/</u></a></p>
 
-  <h2><strong>URL : </strong></h2>
+  <p> </p>
 
-  <p><a href="http://www.who.int/healthinfo/universal_health_coverage/en/">http://www.who.int/healthinfo/universal_health_coverage/en/</a></p>
+  <p><strong>Références : </strong>Rapport mondial de suivi 2017 : la couverture-santé
+  universelle <a href="https://www.who.int/fr/publications/i/item/WHO-HIS-HGF-17.2">https://www.who.int/fr/publications/i/item/WHO-HIS-HGF-17.2</a></p>
 
-  <h2><strong>Références : </strong></h2>
+  <p><a href="http://www.thelancet.com/pdfs/journals/langlo/PIIS2214-109X(17)30472-2.pdf"
+  target="_blank"><u>http://www.thelancet.com/pdfs/journals/langlo/PIIS2214-109X(17)30472-2.pdf</u></a>
+  </p>
 
-  <p>Rapport mondial de suivi 2017 : la couverture-santé universelle <a href="https://www.who.int/fr/publications/i/item/WHO-HIS-HGF-17.2">https://www.who.int/fr/publications/i/item/WHO-HIS-HGF-17.2</a></p>
-
-  <p><a href="http://www.thelancet.com/pdfs/journals/langlo/PIIS2214-109X(17)30472-2.pdf">http://www.thelancet.com/pdfs/journals/langlo/PIIS2214-109X(17)30472-2.pdf</a></p>
-
-  <p><a href="http://www.who.int/healthinfo/universal_health_coverage/en/">http://www.who.int/healthinfo/universal_health_coverage/en/</a></p>
+  <p><a href="http://www.who.int/healthinfo/universal_health_coverage/en/" target="_blank"><u>http://www.who.int/healthinfo/universal_health_coverage/en/</u></a>
+  </p>
 
   <p>Pour le développement historique de méthodes, consulter :</p>
 
@@ -419,8 +413,10 @@ OTHER_DOC: >-
 
   <p><a href="http://collections.plos.org/uhc2014">http://collections.plos.org/uhc2014</a></p>
 
-  <h1>Annexe 1: Metadonnées pour les indicateurs traceurs utilisés pour mesurer la
-  couverture des services de santé essentiels pour suivre l'indicateur des ODD 3.8.1.</h1>
+  <p> </p>
+
+  <p>Annexe 1: Metadonnées pour les indicateurs traceurs utilisés pour mesurer la
+  couverture des services de santé essentiels pour suivre l'indicateur des ODD 3.8.1.</p>
 
   <p>Veuillez envoyer vos commentaires ou requêtes à l'adresse : <a href="mailto:uhc_stats@who.int">uhc_stats@who.int</a></p>
 
@@ -486,16 +482,18 @@ OTHER_DOC: >-
   et sexuellement actives mais qui n'utilisent aucune méthode de contraception (moderne
   ou traditionnelle) et qui déclarent ne plus vouloir d'enfant ou vouloir retarder
   la naissance de leur prochain enfant d'au moins deux ans. Sont incluses :</p>
-          <p>toutes les femmes enceintes (mariées ou en union libre) dont les grossesses
-  étaient non désirées ou inopportunes au moment de la conception;</p>
-          <p>toutes les femmes en aménorrhée post-partum (mariées ou en union libre)
+           <ol>
+            <li>toutes les femmes enceintes (mariées ou en union libre) dont les grossesses
+  étaient non désirées ou inopportunes au moment de la conception;</li>
+            <li>toutes les femmes en aménorrhée post-partum (mariées ou en union libre)
   qui n'utilisent pas la planification familiale et dont le dernier accouchement n'était
-  pas désiré ou inopportun;</p>
-          <p>toutes les femmes fécondes (mariées ou en union libre) qui ne sont ni
-  enceintes ni en aménorrhée post-partum, et qui soit ne veulent plus d'enfants (veulent
-  limiter la taille de la famille), soit qui souhaitent reporter la naissance d'un
-  enfant d'au moins deux ans ou ne savent pas quand ou si elles veulent un autre enfant
-  (veulent espacer les naissances), mais n'utilisent aucune méthode contraceptive.</p>
+  pas désiré ou inopportun;</li>
+            <li>toutes les femmes fécondes (mariées ou en union libre) qui ne sont
+  ni enceintes ni en aménorrhée post-partum, et qui soit ne veulent plus d'enfants
+  (veulent limiter la taille de la famille), soit qui souhaitent reporter la naissance
+  d'un enfant d'au moins deux ans ou ne savent pas quand ou si elles veulent un autre
+  enfant (veulent espacer les naissances), mais n'utilisent aucune méthode contraceptive.</li>
+  </ol>
           <p>Les méthodes modernes comprennent la stérilisation féminine et masculine,
   le dispositif intra-utérin (DIU), l'implant, les injectables, les pilules contraceptives
   orales, les préservatifs masculins et féminins, les méthodes de barrière vaginale
@@ -517,7 +515,11 @@ OTHER_DOC: >-
   l'incertitude à partir des données d'enquête. Le modèle tient compte des différences
   selon la source de données, l'échantillon de population et les méthodes contraceptives.
   </p>
-          <p>Pour plus de détails, consulter : <a href="http://www.un.org/en/development/desa/population/theme/family-planning/cp_model.shtml">http://www.un.org/en/development/desa/population/theme/family-planning/cp_model.shtml</a></p>
+          <p>Pour plus de détails, consulter :</p>
+          <p>https://www.un.org/development/desa/pd/data/family-planning-indicators</p>
+          <p>Compilation de données d'enquêtes par pays sur l'utilisation mondiale
+  de contraceptifs : </p>
+          <p>https://www.un.org/development/desa/pd/node/3285 </p>
         </td>
       </tr>
       <tr>
@@ -595,7 +597,7 @@ OTHER_DOC: >-
         </td>
         <td>
           <p>L'OMS tient à jour une base de données sur la couverture des soins prénatals
-  : <a href="http://apps.who.int/gho/data/node.main.ANTENATALCARECOVERAGE4">http://apps.who.int/gho/data/node.main.ANTENATALCARECOVERAGE4</a></p>
+  : <a href="http://apps.who.int/gho/data/node.main.ANTENATALCARECOVERAGE4"><u>http://apps.who.int/gho/data/node.main.ANTENATALCARECOVERAGE4</u></a></p>
         </td>
       </tr>
       <tr>
@@ -685,8 +687,8 @@ OTHER_DOC: >-
   locaux, l'OMS/UNICEF détermine le niveau réel le plus probable de couverture vaccinale.
   </p>
           <p>Pour plus de détails, consulter : </p>
-          <p><a href="http://www.who.int/bulletin/volumes/87/7/08-053819/en/">http://www.who.int/bulletin/volumes/87/7/08-053819/en/</a></p>
-          <p><a href="http://www.who.int/immunization/monitoring_surveillance/routine/coverage/en/index4.html">http://www.who.int/immunization/monitoring_surveillance/routine/coverage/en/index4.html</a></p>
+          <p>http://www.who.int/bulletin/volumes/87/7/08-053819/en/</p>
+          <p>http://www.who.int/immunization/monitoring_surveillance/routine/coverage/en/index4.html</p>
         </td>
       </tr>
       <tr>
@@ -771,11 +773,11 @@ OTHER_DOC: >-
   (MICS) a été choisie par le groupe et est basée sur la perception des mères d'un
   enfant qui tousse, respire plus vite que d'habitude avec des respirations courtes
   et rapides ou ayant des difficultés à respirer, à l'exclusion des enfants qui n'avaient
-  que le nez bouché. La définition du prestataire de soins approprié varie d'un pays
-  à l'autre.</p>
+  que le nez bouché. La définition du prestataire de soins « approprié » varie d'un
+  pays à l'autre.</p>
           <p>L'OMS maintient une base de données d'observations au niveau des pays,
   à partir d'enquêtes auprès des ménages qui peut être consultée à l'adresse : <a
-  href="http://apps.who.int/gho/data/node.main.38?lang=en">http://apps.who.int/gho/data/node.main.38?lang=en</a></p>
+  href="http://apps.who.int/gho/data/node.main.38?lang=en"><u>http://apps.who.int/gho/data/node.main.38?lang=en</u></a></p>
         </td>
       </tr>
       <tr>
@@ -798,7 +800,7 @@ OTHER_DOC: >-
   d'une régression qui prédit la couverture de la recherche de soins pour des symptômes
   de pneumonie (sur l'échelle logit), obtenue à partir de la base de données de l'OMS
   décrite ci-dessus, en fonction du log de l'estimation du taux de mortalité par pneumonie
-  chez les moins de 5 ans, que vous pouvez trouver à l'adresse : <a href="https://www.who.int/healthinfo/global_burden_disease/estimates/en/index2.html">https://www.who.int/healthinfo/global_burden_disease/estimates/en/index2.html</a></p>
+  chez les moins de 5 ans, que vous pouvez trouver à l'adresse : <a href="https://www.who.int/healthinfo/global_burden_disease/estimates/en/index2.html"><u>https://www.who.int/healthinfo/global_burden_disease/estimates/en/index2.html</u></a></p>
         </td>
       </tr>
     </tbody>
@@ -819,8 +821,8 @@ OTHER_DOC: >-
           <p>Définition de l'indicateur</p>
         </td>
         <td>
-          <p>Pourcentage de cas de tuberculose détectés et traités avec succès dans
-  une année donnée</p>
+          <p>Pourcentage de cas de tuberculose détectés et traités dans une année
+  donnée</p>
         </td>
       </tr>
       <tr>
@@ -828,8 +830,8 @@ OTHER_DOC: >-
           <p>Numérateur</p>
         </td>
         <td>
-          <p>Nombre de nouveaux cas et de cas de rechute détectés au cours d'une année
-  donnée et traités avec succès</p>
+          <p>Nombre de nouveaux cas et de cas de rechute détectés et traités dans
+  une année donnée</p>
         </td>
       </tr>
       <tr>
@@ -857,16 +859,13 @@ OTHER_DOC: >-
           <p>Méthode de mesure</p>
         </td>
         <td>
-          <p>Cet indicateur nécessite trois entrées principales :</p>
+          <p>Cet indicateur nécessite deux entrées principales :</p>
           <p>(1) Le nombre de nouveaux cas de tuberculose et de cas de rechute diagnostiqués
   et traités dans les programmes nationaux de lutte contre la tuberculose et déclarés
   à l'OMS au cours d'une année donnée .</p>
           <p>(2) Le nombre de cas de tuberculose pour la même année, généralement
   estimé par l'OMS .</p>
-          <p>(3) Pourcentage de cas de tuberculose traités avec succès (guérison plus
-  traitement terminé) parmi les cas de tuberculose déclarés aux autorités sanitaires
-  nationales .</p>
-          <p>L'indicateur final = (1)/(2) x (3)</p>
+          <p>L'indicateur final = (1)/(2)</p>
         </td>
       </tr>
       <tr>
@@ -896,8 +895,8 @@ OTHER_DOC: >-
         </td>
         <td>
           <p>Pour calculer l'indicateur à l'aide des estimations de l'OMS, on peut
-  accéder aux fichiers nécessaires à l'adresse : <a href="http://www.who.int/tb/country/data/download/en/">http://www.who.int/tb/country/data/download/en/</a>,
-  et calculer l'indicateur comme étant = c_cdr x c_new_tsr</p>
+  accéder aux fichiers nécessaires à l'adresse : <a href="http://www.who.int/tb/country/data/download/en/"><u>http://www.who.int/tb/country/data/download/en/</u></a>,
+  et calculer l'indicateur comme étant = c_cdr</p>
         </td>
       </tr>
     </tbody>
@@ -1075,7 +1074,7 @@ OTHER_DOC: >-
   nationaux de lutte contre le paludisme afin de produire des estimations annuelles
   de la couverture en MII. L'OMS utilise cette approche en collaboration avec le « Malaria
   Atlas Project ». Les détails méthodologiques peuvent être trouvés dans l'annexe
-  du Rapport mondial sur le paludisme 2015 : <a href="http://www.who.int/malaria/publications/world-malaria-report-2015/report/en/">http://www.who.int/malaria/publications/world-malaria-report-2015/report/en/</a>.</p>
+  du Rapport mondial sur le paludisme 2015 : <u>https://apps.who.int/iris/handle/10665/200018</u>.</p>
         </td>
       </tr>
       <tr>
@@ -1151,16 +1150,29 @@ OTHER_DOC: >-
           <p>Méthode d'estimation</p>
         </td>
         <td>
-          <p>Le Programme conjoint de suivi OMS/UNICEF a produit des estimations régulières
-  de la couverture d'au moins un système sanitaire de base pour le suivi des OMD.
-  Après avoir compilé une base de données des sources de données disponibles, pour
-  chaque pays, des régressions linéaires simples sont ajustées à la série de données
-  du pays pour obtenir une estimation, ainsi que pour produire une extrapolation sur
-  2 ans au-delà du dernier point de données disponible, après quoi la couverture est
-  maintenue constante pendant 4 ans, puis supposée manquante. Ceci est fait séparément
-  pour les régions urbaines et rurales, puis combiné pour obtenir des estimations
-  de la couverture nationale. Les détails de la méthodologie et les estimations les
-  plus récentes peuvent être trouvés à l'adresse : http://www.wssinfo.org/</p>
+          <p>Le Programme conjoint de suivi OMS/UNICEF rassemble, examine et évalue
+  les données nationales recueillies par les bureaux de statistique et d'autres institutions
+  compétentes, y compris les autorités sectorielles. La régression linéaire est utilisée
+  pour fournir des estimations de la population utilisant des installations sanitaires
+  améliorées, ainsi que la proportion pratiquant la défécation à l'air libre. Des
+  régressions sont également effectuées pour estimer la population utilisant des installations
+  sanitaires améliorées reliées aux égouts et aux fosses septiques; celles-ci sont
+  contraints de ne pas dépasser les estimations du nombre total d'installations améliorées.
+  La proportion de la population partageant des installations sanitaires avec et sans
+  égouts est estimée en prenant une moyenne de toutes les données disponibles sur
+  le partage provenant d'enquêtes et de recensements auprès des ménages. Les services
+  sanitaires de base sont calculés en multipliant la proportion de la population utilisant
+  des installations sanitaires améliorées par la proportion d'installations sanitaires
+  améliorées qui ne sont pas partagées entre deux ménages ou plus. Des estimations
+  distinctes sont faites pour les zones urbaines et rurales, et les estimations nationales
+  sont générées sous forme de moyennes pondérées des deux, en utilisant les données
+  démographiques du rapport le plus récent de la Division de la population des Nations
+  Unies. L'enquête auprès des ménages ou le recensement le plus récent disponible
+  pour la plupart des pays a généralement été réalisé il y a deux à six ans. Le Programme
+  conjoint extrapole les régressions sur deux ans au-delà du dernier point de données
+  disponible. Au-delà de ce point, les estimations restent inchangées jusqu'à quatre
+  ans, sauf si la couverture est inférieure à 0,5 % ou supérieure à 99,5 %, auquel
+  cas la limite est prolongée indéfiniment. Pour plus d'informations, consulter https://washdata.org/monitoring/methods/estimation-methods</p>
         </td>
       </tr>
       <tr>
@@ -1251,11 +1263,7 @@ OTHER_DOC: >-
   par rapport aux rurales, et permet une variation de la prévalence selon l'âge et
   le sexe. Des estimations normalisées selon l'âge sont ensuite produites en appliquant
   les estimations brutes à la population type de l'OMS. Les détails sur les méthodes
-  statistiques sont à l'adresse : <a href="http://www.thelancet.com/journals/lancet/article/PIIS0140-6736(16)31919-5/fulltext">http://www.thelancet.com/journals/lancet/article/PIIS0140-6736(16)31919-5/fulltext</a></p>
-          <p>L'OMS et le groupe « NCD Risk Factor Collaboration (NCD-RisC) » ont produit
-  des estimations comparables pour cet indicateur jusqu'à l'année 2015, qui sont disponibles
-  à l'adresse : </p>
-          <p><a href="http://apps.who.int/gho/data/node.main.A875STANDARD?lang=en">http://apps.who.int/gho/data/node.main.A875STANDARD?lang=en</a></p>
+  statistiques sont à l'adresse : https://www.thelancet.com/journals/lancet/article/piiS0140-6736(21)01330-1/fulltext</p>
         </td>
       </tr>
       <tr>
@@ -1407,9 +1415,11 @@ OTHER_DOC: >-
           <p>Méthode de mesure</p>
         </td>
         <td>
-          <p>« Fumant actuellement du tabac » comprend les cigarettes, les cigares,
-  les pipes ou tout autre produit du tabac fumé au cours des 30 derniers jours. Les
-  données sont recueillies via l'auto-déclaration dans les enquêtes.</p>
+          <p>Les produits du tabac comprennent les cigarettes, les pipes, les cigares,
+  les cigarillos, les pipes à eau (narguilé, chicha), les bidis, le kretek, les produits
+  du tabac chauffés et toutes les formes de tabac sans fumée (oral et nasal). Les
+  produits du tabac excluent les e-cigarettes (qui ne contiennent pas de tabac), les
+  « e-cigares », les « e-narguilés », les JUUL et les « e-pipes ».</p>
         </td>
       </tr>
       <tr>
@@ -1417,12 +1427,30 @@ OTHER_DOC: >-
           <p>Méthode d'estimation</p>
         </td>
         <td>
-          <p>L'OMS estime la prévalence du (non) tabagisme actuel avec un modèle de
-  méta-régression binomiale négative, qui génère des estimations comparables en faisant
-  un ajustement pour tenir compte des différences dans les groupes d'âge et de la
-  définition des indicateurs dans les enquêtes nationales incluses dans l'analyse.
-  Ces estimations sont faites séparément pour les hommes et les femmes. Les détails
-  méthodologiques peuvent être trouvés à l'adresse : <a href="http://www.thelancet.com/journals/lancet/article/PIIS0140-6736(15)60264-1/supplemental">http://www.thelancet.com/journals/lancet/article/PIIS0140-6736(15)60264-1/supplemental</a></p>
+          <p>Un modèle statistique basé sur une méta-régression binomiale négative
+  bayésienne est utilisé pour modéliser la prévalence de la consommation actuelle
+  de tabac pour chaque pays, séparément pour les hommes et les femmes. Une description
+  complète de la méthode est disponible dans un article évalué par des pairs dans
+  The Lancet, volume 385, n° 9972, p966-976 (2015). Une fois que les taux de prévalence
+  par âge et par sexe des enquêtes nationales ont été compilés dans un ensemble de
+  données, le modèle a été adapté pour calculer les estimations de tendance de l'année
+  2000 à 2025. Le modèle comporte deux composantes principales : (a) ajustement pour
+  les indicateurs manquants et groupes d'âge, et (b) générer une estimation des tendances
+  dans le temps ainsi que l'intervalle de confiance à 95 % autour de l'estimation.
+  Selon l'intégralité/l'exhaustivité des données d'enquête d'un pays en particulier,
+  le modèle utilise parfois des données d'autres pays pour combler les lacunes en
+  matière d'information. Lorsqu'un pays a réalisé moins de deux enquêtes nationales
+  représentatives de la population au cours d'années différentes, aucune tentative
+  n'est faite pour combler les lacunes dans les données et aucune estimation n'est
+  calculée. Pour combler les lacunes dans les données, les informations sont « empruntées
+  » aux pays de la même sous-région des Nations Unies. Les lignes de tendance résultantes
+  sont utilisées pour dériver des estimations pour des années individuelles, de sorte
+  qu'un nombre peut être rapporté même si le pays n'a pas mené d'enquête cette année-là.
+  Afin de rendre les résultats comparables entre les pays, les taux de prévalence
+  sont normalisés selon l'âge par rapport à la population type de l'OMS. Les estimations
+  pour les pays avec des enquêtes irrégulières ou de nombreuses lacunes dans les données
+  auront de larges intervalles d'incertitude, et ces résultats doivent être interprétés
+  avec prudence. </p>
         </td>
       </tr>
       <tr>
@@ -1493,11 +1521,10 @@ OTHER_DOC: >-
           <p>Les bureaux régionaux de l'OMS et d'autres groupes recueillent des informations
   sur la densité nationale des lits d'hôpitaux, y compris les ressources en ligne
   suivantes :</p>
-          <p><a href="https://rho.emro.who.int/rhodata/node.main.A36">https://rho.emro.who.int/rhodata/node.main.A36</a></p>
-          <p>Observatoire régional de l'OMS « AFRO » : <a href="http://www.aho.afro.who.int/en/data-statistics/hospital-beds-10-000-population">http://www.aho.afro.who.int/en/data-statistics/hospital-beds-10-000-population</a></p>
-          <p>Base de données de l'OMS « EURO European Health for All » : <a href="https://gateway.euro.who.int/en/datasets%20european-health-for-all-database/">https://gateway.euro.who.int/en/datasets
-  european-health-for-all-database/</a></p>
-          <p>OCDE: <a href="https://data.oecd.org/healtheqt/hospital-beds.htm">https://data.oecd.org/healtheqt/hospital-beds.htm</a></p>
+          <p>Observatoire régional de l'OMS « EMRO » : https://rho.emro.who.int/rhodata/node.main.A36</p>
+          <p>Observatoire régional de l'OMS « AFRO » : http://www.aho.afro.who.int/en/data-statistics/hospital-beds-10-000-population</p>
+          <p>Base de données de l'OMS « EURO European Health for All » : https://gateway.euro.who.int/en/datasets/european-health-for-all-database/</p>
+          <p>OCDE: https://data.oecd.org/healtheqt/hospital-beds.htm</p>
         </td>
       </tr>
       <tr>
@@ -1515,11 +1542,12 @@ OTHER_DOC: >-
   L'indicateur est calculé comme suit, en utilisant les données nationales sur la
   densité des lits d'hôpitaux (<em>x</em>), ce qui donne des valeurs allant de 0 à
   100 :</p>
-          <p>Pays avec une densité de lits d'hôpital <em>x</em> &lt; 18 pour 10 000
-  habitants, par année, l'indicateur = </p>
-          <p><em>x</em> /18*100. </p>
-          <p>Pays avec une densité de lits d'hôpital <em>x</em> &gt;= 18 pour 10 000
-  habitants, par année, l'indicateur = 100.</p>
+          <ul>
+            <li>Pays avec une densité de lits d'hôpital <em>x</em> &lt; 18 pour 10 000
+  habitants, par année, l'indicateur = <em>x</em> /18*100. </li>
+            <li>Pays avec une densité de lits d'hôpital <em>x</em> &gt;= 18 pour 10 000
+  habitants, par année, l'indicateur = 100.</li>
+          </ul>
         </td>
       </tr>
       <tr>
@@ -1596,16 +1624,13 @@ OTHER_DOC: >-
   internationale type des professions), de l'Organisation des Nations Unies pour l'éducation,
   la science et la culture (Classification internationale type de l'éducation) et
   de la Division de la statistique des Nations Unies (Classification internationale
-  type par industrie, de toutes les branches d'activité économique). </p>
-          <p>Les détails méthodologiques et les données peuvent être trouvés à l'adresse
-  : <a href="http://www.who.int/hrh/statistics/hwfstats/en/">http://www.who.int/hrh/statistics/hwfstats/en/</a></p>
+  type par industrie, de toutes les branches d'activité économique). Les détails méthodologiques
+  et les données peuvent être trouvés à l'adresse : <a href="http://www.who.int/hrh/statistics/hwfstats/en/">http://www.who.int/hrh/statistics/hwfstats/en/</a></p>
           <p>Les données proviennent des sources suivantes :</p>
           <p>Médecins : <a href="http://apps.who.int/gho/data/node.main.HWFGRP_0020?lang=en">http://apps.who.int/gho/data/node.main.HWFGRP_0020?lang=en</a></p>
           <p>Psychiatres : <a href="https://www.who.int/fr/publications/i/item/WHO-HIS-HGF-17.2">https://www.who.int/fr/publications/i/item/WHO-HIS-HGF-17.2</a></p>
-          <p>Chirurgiens : <a href="http://apps.who.int/gho/data/node.main.HWF9?lang=en%20">http://apps.who.int/gho/data/node.main.HWF9?lang=en</a>
-  </p>
-          <p>(ces données ont été complétées par des éditions antérieures de la base
-  de données)</p>
+          <p>Chirurgiens : http://apps.who.int/gho/data/node.main.HWF9?lang=en (ces
+  données ont été complétées par des éditions antérieures de la base de données)</p>
         </td>
       </tr>
       <tr>
@@ -1623,10 +1648,12 @@ OTHER_DOC: >-
   allant de 0 à 100 pour chacun des trois groupes. Par exemple, en utilisant les données
   nationales sur les médecins pour 1 000 habitants (<em>x</em>), l'indicateur spécifique
   au groupe serait calculé comme suit :</p>
-          <p>Pays avec <em>x</em> &lt; 0,9 pour 1 000 habitants, par année, l'indicateur
-  spécifique à ce groupe = <em>x</em> /0.9*100. </p>
-          <p>Pays avec <em>x</em> &gt;= 0,9 pour 1 000 habitants, par année, l'indicateur
-  spécifique à ce groupe = 100.</p>
+          <ul>
+            <li>Pays avec <em>x</em> &lt; 0,9 pour 1 000 habitants, par année, l'indicateur
+  spécifique à ce groupe = <em>x</em> /0.9*100. </li>
+            <li>Pays avec <em>x</em> &gt;= 0,9 pour 1 000 habitants, par année, l'indicateur
+  spécifique à ce groupe = 100.</li>
+          </ul>
           <p>Dans une dernière étape, la moyenne géométrique des trois valeurs d'indicateur
   spécifique à chaque groupe est calculée pour obtenir l'indicateur final de la densité
   des effectifs de santé.</p>
@@ -1641,11 +1668,7 @@ OTHER_DOC: >-
   les « professionnels de la santé de base », tels que les infirmières et les sages-femmes.
   Cependant, il n'existe aucune base de données internationalement comparable qui
   utilise des définitions cohérentes des principaux professionnels de la santé non
-  médecins pour permettre des comparaisons précises entre les pays.  </p>
-          <p>Pour les pays sans données observées, la densité de chirurgiens a été
-  estimée à partir d'une régression qui prédit le log de chirurgiens pour 100 000
-  habitants, obtenu à partir de la base de données de l'OMS décrite ci-dessus, exprimé
-  comme une fonction du log du PIB par habitant, tel qu'estimé par la Banque mondiale.</p>
+  médecins pour permettre des comparaisons précises entre les pays. </p>
         </td>
       </tr>
     </tbody>
@@ -1707,10 +1730,11 @@ OTHER_DOC: >-
         <td>
           <p>Les informateurs clés rendent compte de la réalisation d'un ensemble
   d'attributs pour chacune des 13 capacités de base à l'aide d'un instrument standard
-  de l'OMS, tel que décrit à l'adresse : <a href="http://apps.who.int/iris/bitstream/10665/84933/1/WHO_HSE_GCR_2013.2_eng.pdf">http://apps.who.int/iris/bitstream/10665/84933/1/WHO_HSE_GCR_2013.2_eng.pdf</a></p>
-          <p>Les valeurs des indicateurs de niveau de capacité peuvent être trouvées
-  à l'adresse : </p>
-          <p><a href="http://apps.who.int/gho/data/node.main.IHRSPARALL?lang=en">http://apps.who.int/gho/data/node.main.IHRSPARALL?lang=en</a></p>
+  de l'OMS. Cet instrument est basé sur une auto-évaluation et une auto-déclaration
+  par l'État partie. Le questionnaire a été révisé en 2018 et a été utilisé pour les
+  rapports en 2018 et 2019 avec le même format, différent du questionnaire utilisé
+  pendant la période 2010-2017, il y a donc une limite pour la comparaison des scores
+  des rapports entre la période 2010-2017 avec les rapports à partir de 2018.</p>
         </td>
       </tr>
       <tr>
@@ -1718,8 +1742,15 @@ OTHER_DOC: >-
           <p>Méthode d'estimation</p>
         </td>
         <td>
-          <p>L'indicateur est calculé en faisant la moyenne, sur les 13 capacités
-  de base, du pourcentage d'attributs pour chaque capacité, qui ont été atteints.</p>
+          <p>Le score de chaque niveau d'indicateur est classé en pourcentage de performance
+  sur l'échelle de « 1 à 5 », p. ex., pour un pays sélectionnant le niveau 3 pour
+  l'indicateur 2.1, le niveau de l'indicateur sera exprimé comme suit : NIVEAU DE
+  CAPACITÉ = 3/5*100 = 60%. Le niveau de capacité est exprimé comme la moyenne de
+  tous les indicateurs. Si un pays sélectionne, p. ex., le niveau 3 pour l'indicateur
+  2.1 et le niveau 4 pour l'indicateur 2.2, le niveau d'indicateur pour 2.1 sera exprimé
+  comme suit : 3/5*100 = 60 %, le niveau d'indicateur pour 2.2 sera exprimé comme
+  suit : 4/5*100 = 80 % et le niveau de capacité pour les deux sera exprimé comme
+  suit: (60+80)/2 = 70% .</p>
         </td>
       </tr>
       <tr>
