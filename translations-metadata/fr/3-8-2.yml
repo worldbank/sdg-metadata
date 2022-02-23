@@ -9,13 +9,13 @@ SDG_TARGET: >-
 SDG_INDICATOR: >-
   <p>Indicateur 3.8.2 : Proportion de la population consacrant une grande part des
   dépenses ou du revenu du ménage aux services de soins de santé</p>
-META_LAST_UPDATE: '<p>Mars 2019</p>'
+META_LAST_UPDATE: '<p>2019-03-01</p>'
 SDG_RELATED_INDICATORS: |-
   <p>Indicateurs : 1.1.1; 1.2.1 et 3.8.1</p>
 SDG_CUSTODIAN_AGENCIES: |-
   <p>Organisation mondiale de la Santé (OMS)</p>
 STAT_CONC_DEF: >-
-  <p> <strong>Définition:</strong></p>
+  <p><strong>Définition :</strong></p>
 
   <p>La proportion de la population dont le ménage consacre une part importante de
   ses dépenses totales ou de son revenu total aux dépenses de santé. </p>
@@ -24,9 +24,7 @@ STAT_CONC_DEF: >-
   ménage » : supérieures à 10 % et supérieures à 25 % des dépenses ou des revenus
   totaux du ménage. </p>
 
-  <p> </p>
-
-  <p> <strong>Concepts:</strong></p>
+  <p><strong>Concepts :</strong></p>
 
   <p>L’indicateur 3.8.2 est défini comme la « proportion de la population dont le
   ménage consacre une part importante de ses dépenses totales ou de son revenu total
@@ -35,7 +33,7 @@ STAT_CONC_DEF: >-
   de santé du ménage (numérateur) et les dépenses totales de consommation du ménage
   ou, lorsqu’elles ne sont pas disponibles, le revenu (dénominateur). </p>
 
-  <p> <strong> <em>Numérateur</em></strong></p>
+  <p><strong> <em>Numérateur</em></strong></p>
 
   <p>Les dépenses de santé du ménage sont définies comme toute dépense engagée au
   moment de l’utilisation du service pour obtenir tout type de soins (préventifs,
@@ -68,7 +66,7 @@ STAT_CONC_DEF: >-
   L’ICHA est le fruit d’une collaboration entre l’OCDE, Eurostat et l’Organisation
   mondiale de la Santé. </p>
 
-  <p> <strong> <em>Dénominateur</em></strong></p>
+  <p><strong> <em>Dénominateur</em></strong></p>
 
   <p>Les dépenses de consommation et le revenu du ménage sont toutes deux des mesures
   monétaires de bien-être. La consommation du ménage est fonction du revenu permanent,
@@ -216,9 +214,7 @@ COLL_METHOD: >-
   différence absolue entre la valeur de référence et l’estimation de l’enquête dépasse
   10 points de pourcentage, l'estimation de l’enquête est identifiée comme une valeur
   aberrante dans l’effectif de pauvreté à 3,10 $ par jour et signalée pour une éventuelle
-  exclusion. </li>
-  </ul>
-
+  exclusion. </li> </ul>
   <p> <em>Pour le numérateur du ratio des dépenses de santé</em></p>
 
   <ul>
@@ -351,110 +347,10 @@ RATIONALE: >-
   3.8.2), veuillez consulter Wagstaff et al. (2018) et le chapitre 2 du Rapport mondial
   de suivi 2017 : la couverture-santé universelle de l'OMS et la Banque internationale
   pour la reconstruction et le développement/ La Banque mondiale. </p>
-
-  <p>4.b. Commentaires et limites</p>
-
-  <p>Il est possible de surveiller régulièrement l’indicateur 3.8.2 en utilisant les
-  mêmes données d’enquête auprès des ménages que celles utilisées pour suivre les
-  cibles 1.1 et 1.2 des ODD sur la pauvreté<sup><sup><a href="#footnote-11" id="footnote-ref-11">[10]</a></sup></sup>.
-  Ces enquêtes sont également régulièrement menées à d’autres fins, telles que le
-  calcul des pondérations pour l’indice des prix à la consommation. Ces enquêtes sont
-  généralement menées par des BNS. Ainsi, le suivi de la proportion de la population
-  dont le ménage consacre une part importante de ses dépenses totales ou de son revenu
-  total aux dépenses de santé n’ajoute pas de charge supplémentaire de collecte de
-  données tant que la composante des dépenses de santé des données sur la consommation
-  non alimentaire des ménages peut être identifiée. Bien qu’il s’agisse d’un avantage,
-  l’indicateur 3.8.2 souffre des mêmes défis en matière d’actualité, de fréquence,
-  de qualité des données et de comparabilité des enquêtes que l’indicateur 1.1.1 des
-  ODD. Cependant, l’indicateur 3.8.2 a ses propres limites conceptuelles et empiriques.
-  </p>
-
-  <p>Premièrement, l’indicateur 3.8.2 tente de cerner les difficultés financières
-  auxquelles les personnes sont confrontées lorsqu’elles utilisent leur revenu, leur
-  épargne ou contractent des prêts pour payer des soins de santé. Cependant, la plupart
-  des enquêtes auprès des ménages ne parviennent pas à identifier la source de financement
-  utilisée par un ménage qui déclare des dépenses de santé. Dans les pays où il n’y
-  a pas de remboursement rétrospectif des dépenses de santé des ménages, ce n’est
-  pas un problème. Si un ménage déclare des dépenses de santé, ce sera parce qu’il
-  ne sera remboursé par aucun tiers payeur. Il est donc conforme à la définition donnée
-  pour les paiements directs en soins de santé (le numérateur). </p>
-
-  <p>Pour les pays en revanche où il existe un remboursement rétrospectif– par exemple,
-  via un régime contributif d’assurance maladie – le montant déclaré par un ménage
-  sur les dépenses de santé peut être remboursé totalement ou partiellement à un autre
-  moment donné, plus tard, peut-être après la période de rappel de l'enquête auprès
-  des ménages. </p>
-
-  <p>De toute évidence, des travaux supplémentaires sont nécessaires pour garantir
-  que les instruments d'enquête recueillent des informations sur les sources de financement
-  utilisées par le ménage pour payer les soins de santé, ou l'instrument d'enquête
-  auprès des ménages précise toujours que les dépenses de santé doivent être nettes
-  de tout remboursement. </p>
-
-  <p>Deuxièmement, dans la définition actuelle de l'indicateur 3.8.2, les dépenses
-  de santé importantes peuvent être identifiées en comparant les dépenses de santé
-  du ménage à son revenu du ménage ou à ses dépenses totales. Les dépenses sont la
-  mesure recommandée des ressources du ménage (voir la section sur le concept), mais
-  des travaux empiriques récents ont démontré que si les statistiques sur 3.8.2 au
-  niveau national sont assez robustes à un tel choix, leur désagrégation par groupe
-  de revenu y est assez sensible. Les mesures basées sur le revenu montrent une plus
-  grande concentration de la proportion de la population dont le ménage a d'importantes
-  dépenses de santé parmi les pauvres que les mesures basées sur les dépenses (voir
-  le chapitre 2 du Rapport mondial de suivi 2017 : la couverture-santé universelle
-  de l'OMS et la Banque internationale pour la reconstruction et le développement/
-  La Banque mondiale ainsi que Wagstaff et al 2018 ).</p>
-
-  <p>Troisièmement, l'indicateur 3.8.2. s'appuie sur un seuil unique pour identifier
-  ce qui constitue « les dépenses de santé importantes en proportion des dépenses
-  totales ou du revenu total du ménage ». Les personnes juste en dessous de ce seuil
-  ne sont pas prises en compte, ce qui est toujours le problème des mesures basées
-  sur des seuils. Ceci est simplement évité en traçant la fonction de distribution
-  cumulative du ratio des dépenses de santé derrière 3.8.2. Ce faisant, il est possible
-  d'identifier pour tout seuil la proportion de la population qui consacre une part
-  quelconque du budget de son ménage à la santé. </p>
-
-  <p>Quatrièmement, l'indicateur 3.8.2. repose sur des mesures des dépenses de santé
-  a posteriori. Les faibles niveaux de dépenses pourraient être dus à des erreurs
-  de mesure dues à la fois à des erreurs non dues à l'échantillonnage, telles qu'une
-  période de rappel très courte qui ne permet pas la collecte d'informations sur les
-  soins de santé nécessitant une nuitée; ou des erreurs d'échantillonnage telles que
-  le suréchantillonnage de zones où le fardeau de morbidité est particulièrement faible.
-  L'absence de dépenses pourrait également être due au fait que les personnes ne peuvent
-  rien dépenser pour la santé, ce qui, du moins pour les services inclus dans 3.8.1,
-  devrait entraîner de faibles niveaux de couverture. </p>
-
-  <p>Il existe d'autres indicateurs utilisés pour mesurer les difficultés financières.
-  L'OMS utilise un cadre qui comprend, en plus de l'indicateur 3.8.2, une définition
-  des dépenses de santé importantes par rapport aux dépenses autres que les dépenses
-  de subsistance <sup><sup><a href="#footnote-12" id="footnote-ref-12">[11]</a></sup>,<sup><a
-  href="#footnote-13" id="footnote-ref-13">[12]</a></sup>,<sup><a href="#footnote-14"
-  id="footnote-ref-14">[13]</a></sup>,</sup>.</p><div class="footnotes"><div><sup
-  class="footnote-number" id="footnote-11">10</sup><p> <a href="http://unstats.un.org/sdgs/metadata/files/Metadata-01-01-01a.pdf">(en
-  anglais) http://unstats.un.org/sdgs/metadata/files/Metadata-01-01-01a.pdf</a> <a
-  href="#footnote-ref-11">&#x2191;</a></p></div><div><sup class="footnote-number"
-  id="footnote-12">11</sup><p> Chapitre 2 du Rapport mondial de suivi 2017 : la couverture-santé
-  universelle, Organisation mondiale de la Santé et la Banque internationale pour
-  la reconstruction et le développement/ La Banque mondiale; 2017; <a href="http://www.who.int/healthinfo/indicators/2015/en/">http://www.who.int/healthinfo/indicators/2015/en/</a>
-  ; <a href="#footnote-ref-12">&#x2191;</a></p></div><div><sup class="footnote-number"
-  id="footnote-13">12</sup><p>Xu, K., Evans, D. B., Carrin, G., Aguilar-Rivera, A.
-  M., Musgrove, P., et Evans, T. (2007), « Protecting Households From Catastrophic
-  Health Spending »; <em>Health Affairs</em>, 26, 972–983. Xu, L., Evans, D., Kawabata,
-  K., Zeramdini, R., Klavus, J., et Murray, C. (2003), « Households Catastrophic Health
-  Expenditure: A Multi-Country Analysis », <em>The Lancet</em>, 326, 111–117. <a href="#footnote-ref-13">&#x2191;</a></p></div><div><sup
-  class="footnote-number" id="footnote-14">13</sup><p> <a href="http://www.euro.who.int/en/health-topics/Health-systems/health-systems-financing/publications/clusters/universal-health-coverage-financial-protection">(en
-  anglais) http://www.euro.who.int/en/health-topics/Health-systems/health-systems-financing/publications/clusters/universal-health-coverage-financial-protection</a>;
-  <a href="http://applications.emro.who.int/dsaf/EMROPUB_2016_EN_19169.pdf?ua=1">(en
-  anglais) http://applications.emro.who.int/dsaf/EMROPUB_2016_EN_19169.pdf?ua=1</a>;
-  <a href="http://apps.searo.who.int/uhc">(en anglais) http://apps.searo.who.int/uhc</a>;
-  <a href="http://www.paho.org/hq/index.php?option=com_content&amp;view=article&amp;id=11065%3A2015-universal-health-coverage-latin-america-caribbean&amp;catid=3316%3Apublications&amp;Itemid=3562&amp;lang=en">(en
-  anglais) http://www.paho.org/hq/index.php?option=com_content&amp;view=article&amp;id=11065%3A2015-universal-health-coverage-latin-america-caribbean&amp;catid=3316%3Apublications&amp;Itemid=3562&amp;lang=en</a>
-  <a href="#footnote-ref-14">&#x2191;</a></p></div></div>
 REC_USE_LIM: >-
-  <h2>Commentaires et limites :</h2>
-
   <p>Il est possible de suivre l'indicateur 3.8.2 de manière régulière en utilisant
   les mêmes données d'enquête auprès des ménages que celles utilisées pour suivre
-  les cibles 1.1 et 1.2, liées à la pauvreté<sup><a href="#footnote-4" id="footnote-ref-4">[4]</a></sup>.
+  les cibles 1.1 et 1.2, liées à la pauvreté<sup><sup><a href="#footnote-11" id="footnote-ref-11">[10]</a></sup></sup>.
   Ces enquêtes sont généralement menées par les bureaux nationaux de statistique (BNS)
   et ce à d'autres fins, telles que le calcul des pondérations de l'indice des prix
   à la consommation. Ainsi, le suivi de la proportion de la population dont les dépenses
@@ -476,7 +372,7 @@ REC_USE_LIM: >-
   par une tierce partie. Le tout est donc conforme à la définition utilisée pour les
   paiements directs de soins de santé (le numérateur). </p>
 
-  <p>Pour les pays  où il existe un remboursement rétroactif, par exemple via un régime
+  <p>Pour les pays où il existe un remboursement rétroactif, par exemple via un régime
   d'assurance maladie contributif, le montant déclaré par un ménage pour les dépenses
   de santé peut être totalement ou partiellement remboursé à un moment ultérieur,
   parfois hors de la période de référence de l'enquête. </p>
@@ -498,7 +394,7 @@ REC_USE_LIM: >-
   ayant d'importantes dépenses de santé parmi les ménages plus pauvres que les mesures
   basées sur les dépenses (voir le chapitre 2 du Rapport mondial de suivi 2017 : la
   couverture-santé universelle de l'OMS et de la Banque mondiale ainsi que Wagstaff
-  et al 2018).
+  et al 2018).</p>
 
   <p>Troisièmement, l'indicateur 3.8.2 s'appuie sur des seuils pour identifier ce
   qui constitue &#x2018;les dépenses de santé importantes en tant que part des dépenses
@@ -549,18 +445,154 @@ DATA_COMP: >-
   <p>Nombre moyen pondéré de personnes dont le ménage consacre une part importante
   de ses dépenses totales ou de son revenu total aux dépenses de santé</p>
 
-  <p> </p>
-
-  <p> <img src="data:image/png;base64,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"></p>
-
-  <p>où <em>i</em> indique un ménage, <em>1( )</em> est la fonction d'indicateur qui
+  <p><math xmlns="http://www.w3.org/1998/Math/MathML">
+      <mfrac>
+        <mrow>
+          <mrow>
+            <munder>
+              <mo stretchy="false">&#x2211;</mo>
+              <mrow>
+                <mi>i</mi>
+              </mrow>
+            </munder>
+            <mrow>
+              <msub>
+                <mrow>
+                  <mi>m</mi>
+                </mrow>
+                <mrow>
+                  <mi>i</mi>
+                </mrow>
+              </msub>
+              <msub>
+                <mrow>
+                  <mi>&#x3C9;</mi>
+                </mrow>
+                <mrow>
+                  <mi>i</mi>
+                </mrow>
+              </msub>
+              <mn>1</mn>
+              <mfenced separators="|">
+                <mrow>
+                  <mfrac>
+                    <mrow>
+                      <mi>d</mi>
+                      <mi>é</mi>
+                      <mi>p</mi>
+                      <mi>e</mi>
+                      <mi>n</mi>
+                      <mi>s</mi>
+                      <mi>e</mi>
+                      <mi>s</mi>
+                      <mi>&amp;nbsp;</mi>
+                      <mi>e</mi>
+                      <mi>n</mi>
+                      <mi>&amp;nbsp;</mi>
+                      <mi>s</mi>
+                      <mi>a</mi>
+                      <mi>n</mi>
+                      <mi>t</mi>
+                      <mi>é</mi>
+                      <mi>&amp;nbsp;</mi>
+                      <mi>d</mi>
+                      <mi>u</mi>
+                      <mi>&amp;nbsp;</mi>
+                      <mi>m</mi>
+                      <mi>é</mi>
+                      <mi>n</mi>
+                      <mi>a</mi>
+                      <mi>g</mi>
+                      <mi>e</mi>
+                      <mi>&amp;nbsp;</mi>
+                      <mi>i</mi>
+                    </mrow>
+                    <mrow>
+                      <mi>d</mi>
+                      <mi>é</mi>
+                      <mi>p</mi>
+                      <mi>e</mi>
+                      <mi>n</mi>
+                      <mi>s</mi>
+                      <mi>e</mi>
+                      <mi>s</mi>
+                      <mi>&amp;nbsp;</mi>
+                      <mi>t</mi>
+                      <mi>o</mi>
+                      <mi>t</mi>
+                      <mi>a</mi>
+                      <mi>l</mi>
+                      <mi>e</mi>
+                      <mi>s</mi>
+                      <mi>&amp;nbsp;</mi>
+                      <mi>d</mi>
+                      <mi>u</mi>
+                      <mi>&amp;nbsp;</mi>
+                      <mi>m</mi>
+                      <mi>é</mi>
+                      <mi>n</mi>
+                      <mi>a</mi>
+                      <mi>g</mi>
+                      <mi>e</mi>
+                      <mi>&amp;nbsp;</mi>
+                      <mi>i</mi>
+                    </mrow>
+                  </mfrac>
+                  <mo>&amp;gt;</mo>
+                  <mi>&#x3C4;</mi>
+                </mrow>
+              </mfenced>
+            </mrow>
+          </mrow>
+        </mrow>
+        <mrow>
+          <mrow>
+            <munder>
+              <mo stretchy="false">&#x2211;</mo>
+              <mrow>
+                <mi>i</mi>
+              </mrow>
+            </munder>
+            <mrow>
+              <msub>
+                <mrow>
+                  <mi>m</mi>
+                </mrow>
+                <mrow>
+                  <mi>i</mi>
+                </mrow>
+              </msub>
+            </mrow>
+          </mrow>
+          <msub>
+            <mrow>
+              <mi>&#x3C9;</mi>
+            </mrow>
+            <mrow>
+              <mi>i</mi>
+            </mrow>
+          </msub>
+        </mrow>
+      </mfrac>
+    </math></p>
+  <p>où <em>i</em> indique un ménage, <em>1( )</em> est la fonction indicatrice qui
   prend la valeur de 1 si l'expression entre parenthèses est vraie, et de 0 sinon,
   <em>m<sub>i</sub></em> correspond au nombre de membres dans le ménage <em>i</em>,
-  <em>w<sub>i</sub></em> correspond au poids d'échantillonnage du ménage <em>i</em>,
-  et <em>τ</em> est un seuil identifiant les dépenses importantes des ménages en matière
+  <math xmlns="http://www.w3.org/1998/Math/MathML">
+      <mi>&amp;nbsp;</mi>
+      <msub>
+        <mrow>
+          <mi>&#x3C9;</mi>
+        </mrow>
+        <mrow>
+          <mi>i</mi>
+        </mrow>
+      </msub>
+    </math> correspond au poids d'échantillonnage du ménage <em>i</em>, <math xmlns="http://www.w3.org/1998/Math/MathML">
+      <mi mathvariant="normal">&#x3C4;</mi>
+    </math> est un seuil identifiant les dépenses importantes des ménages en matière
   de santé en tant que part de la consommation ou du revenu total (par ex. 10 % et
   25 %). </p>
-
   <p>Les dépenses de santé et totales et les revenus totaux des ménages sont définis
   à la section Concepts. Pour plus d'informations sur la méthodologie, il est possible
   de consulter Wagstaff et al (2018) et le chapitre 2 du Rapport mondial de suivi
@@ -595,7 +627,7 @@ DOC_METHOD: >-
   au niveau national :</h2>
 QUALITY_ASSURE: <h2>Assurance de la qualité :</h2>
 COVERAGE: >-
-  <p>Disponibilité des données :</p>
+  <p><strong>Disponibilité des données :</strong></p>
 
   <p>Cet indicateur repose principalement sur les mêmes sources de données que celles
   utilisées pour le suivi de l'indicateur 1.1.1, à l'exception que les données sur
@@ -1195,13 +1227,13 @@ COVERAGE: >-
   de l'OMS et la Banque internationale pour la reconstruction et le développement/
   La Banque mondiale et Wagstaff et al 2018.</p>
 
-  <p>Séries chronologiques :</p>
+  <p><strong>Séries chronologiques :</strong></p>
 
   <p>La fréquence de ces données est similaire à celle des données utilisées pour
   l'indicateur 1.1.1. Elle varie d'un pays à l'autre, mais en moyenne, elle va de
   1 an à 3 à 5 ans.</p>
 
-  <p>Désagrégation :</p>
+  <p><strong>Désagrégation :<strong></p>
 
   <p>Les désagrégations suivantes sont possibles dans la mesure où l'enquête a été
   conçue pour fournir des estimations représentatives à ce niveau :</p>
@@ -1218,7 +1250,7 @@ COVERAGE: >-
 
   </ul>
 COMPARABILITY: >-
-  <p>Sources des divergences :</p>
+  <p><strong>Sources des divergences :</strong></p>
 
   <p>Les estimations au niveau des pays sont toutes fondées sur des enquêtes représentatives
   au niveau national avec des informations sur les dépenses ou les revenus totaux
@@ -1265,14 +1297,13 @@ OTHER_DOC: >-
   <a href="http://datatopics.worldbank.org/universal-health-coverage/"><u>http://datatopics.worldbank.org/universal-health-coverage/</u></a>
   </p>
 
-  <p> <strong>Références :</strong></p>
+  <p><strong>Références :</strong></p>
 
   <ul>
     <li>Chapitre 2 sur la protection financière dans le Rapport mondial de suivi 2017
   : la couverture-santé universelle, Organisation mondiale de la Santé et la Banque
   internationale pour la reconstruction et le développement/ La Banque mondiale; 2017
-  </li>
-  </ul>
+  </li> </ul>
 
   <p><a href="https://apps.who.int/iris/bitstream/handle/10665/272598/9789242513554-fre.pdf?sequence=1&isAllowed=y/">
   <u>https://apps.who.int/iris/bitstream/handle/10665/272598/9789242513554-fre.pdf?sequence=1&isAllowed=y/</u></a></p>
@@ -1285,34 +1316,30 @@ OTHER_DOC: >-
   van Wilgenburg, K. et Eozenou, P., (2018), « Progress on catastrophic health spending
   in 133 countries: a retrospective observational study », The Lancet Global Health,
   volume 6, numéro 2, e169-e179. <a href="http://dx.doi.org/10.1016/S2214-109X(17)30429-1">
-  <u>http://dx.doi.org/10.1016/S2214-109X(17)30429-1</u></a></li>
-  </ul>
+  <u>http://dx.doi.org/10.1016/S2214-109X(17)30429-1</u></a></li> </ul>
 
-  <p> <em>Sur les approches sous-jacentes derrière la définition actuelle des dépenses
+  <p><em>Sur les approches sous-jacentes derrière la définition actuelle des dépenses
   de santé importantes en pourcentage de la consommation ou du revenu total des ménages:</em></p>
 
   <ul>
     <li>Chapitre 18 de « Analysing health equity using household survey data ». Washington,
   DC : Groupe de la Banque mondiale; 2008, <a href="http://www.worldbank.org/en/topic/health/publication/analyzing-health-equity-using-household-survey-data"><u>http://www.worldbank.org/en/topic/health/publication/analyzing-health-equity-using-household-survey-data</u></a>
-  </li>
-  </ul>
+  </li> </ul>
 
-  <p> <em>Pour la définition des dépenses de santé </em></p>
+  <p><em>Pour la définition des dépenses de santé </em></p>
 
   <ul>
     <li> <a href="http://www.oecd-ilibrary.org/social-issues-migration-health/a-system-of-health-accounts/classification-of-health-care-financing-schemes-icha-hf_9789264116016-9-en">
-  <u>http://www.oecd-ilibrary.org/social-issues-migration-health/a-system-of-health-accounts/classification-of-health-care-financing-schemes-icha-hf_9789264116016-9-en</u></a><u>
-  </u></li>
+  <u>http://www.oecd-ilibrary.org/social-issues-migration-health/a-system-of-health-accounts/classification-of-health-care-financing-schemes-icha-hf_9789264116016-9-en</u></a></li>
   </ul>
 
-  <p> <em>Pour les composantes des dépenses de santé</em></p>
+  <p><em>Pour les composantes des dépenses de santé</em></p>
 
   <ul>
     <li>La division 06 de la Classification des fonctions de consommation des ménages
   (COICOP) <a href="https://unstats.un.org/unsd/class/revisions/coicop_revision.asp"><u>(en
   anglais) https://unstats.un.org/unsd/class/revisions/coicop_revision.asp</u></a>;
   <a href="http://unstats.un.org/unsd/cr/registry/regcs.asp?Cl=5&amp;Lg=1&amp;Co=06.1">
-  <u>http://unstats.un.org/unsd/cr/registry/regcs.asp?Cl=5&amp;lg=1&amp;Co=06.1</u></a><u>
-  </u></li>
+  <u>http://unstats.un.org/unsd/cr/registry/regcs.asp?Cl=5&amp;lg=1&amp;Co=06.1</u></a></li>
   </ul>
 CONTACT_ORGANISATION: <p>Organisation mondiale de la Santé (OMS)</p>
