@@ -5,7 +5,7 @@ SDG_TARGET: "<p>Cible 2.1 : D’ici 2030, éliminer la faim et faire en sorte qu
   \ les nourrissons, ait accès toute l’année à une alimentation saine, nutritive et\
   \ suffisante</p>"
 SDG_INDICATOR: '<p>Indicateur 2.1.1 : Prévalence de la sous-alimentation</p>'
-META_LAST_UPDATE: '<p>Février 2021</p>'
+META_LAST_UPDATE: '<p>2021-02-01</p>'
 SDG_RELATED_INDICATORS: >-
   <p>2.1.2, 2.2.1, 2.2.2, 2.2.3 </p>
 
@@ -16,14 +16,14 @@ SDG_RELATED_INDICATORS: >-
 SDG_CUSTODIAN_AGENCIES: >-
   <p>Organisation des Nations Unies pour l'alimentation et l'agriculture (FAO)</p>
 STAT_CONC_DEF: >-
-  <p>Définition : </p>
+  <p><strong>Définition :</strong></p>
 
   <p>La prévalence de la sous-alimentation est une estimation de la proportion de
   la population dont la consommation alimentaire habituelle est insuffisante pour
   fournir les niveaux d'énergie nécessaires au maintien d'une vie normale, active
   et saine. Elle est exprimée en pourcentage.</p>
 
-  <p>Concepts : </p> 
+  <p><strong>Concepts :</strong></p> 
 
   <p>La sous-alimentation est définie comme la condition dans laquelle une personne
   a accès, de façon régulière, à des quantités de nourriture qui sont insuffisantes
@@ -451,7 +451,7 @@ DATA_COMP: >-
   énergétique alimentaire recommandé dans une population, peut être utilisé pour calculer
   l'écart énergétique alimentaire.</p>
 IMPUTATION: >-
-  <p>• Au niveau national : </p>
+  <p><strong>• Au niveau national :</strong></p>
 
   <p>Lorsqu'aucune donnée sur la consommation alimentaire n'est disponible à partir
   d'une enquête récente auprès des ménages, l'estimation de la prévalence de la sous-alimentation
@@ -466,7 +466,7 @@ IMPUTATION: >-
 
   <p>Voir la section Méthode de calcul pour plus de détails.</p>
 
-  <p>• Aux niveaux régional et mondial :</p>
+  <p><strong>• Aux niveaux régional et mondial :</strong></p>
 
   <p>Les valeurs manquantes pour chaque pays sont implicitement imputées pour être
   égales à la moyenne pondérée de la population des valeurs estimées des pays présents
@@ -681,7 +681,7 @@ COVERAGE: >-
   limitée par la possibilité d'identifier et de regrouper les ménages en fonction
   des informations liées au genre (comme le sexe du chef de ménage ou le ratio hommes/femmes).</p>
 COMPARABILITY: >-
-  <p>Sources des divergences :</p>
+  <p><strong>Sources des divergences :</strong></p>
 
   <p>De nombreux pays ont produit et diffusé des estimations de la prévalence de la
   sous-alimentation, y compris dans leurs rapports nationaux sur les OMD, mais en
@@ -710,11 +710,11 @@ COMPARABILITY: >-
   pour plaider en faveur de l'utilisation des méthodes de la FAO dans la préparation
   des rapports nationaux. La FAO est prête à fournir tout le soutien technique nécessaire.</p>
 OTHER_DOC: >-
-  <p>URL : </p>
+  <p><strong>URL :</strong></p>
 
   <p>https://www.fao.org/food-agriculture-statistics/fr/ </p>
 
-  <p>Références (en anglais) : </p>
+  <p><strong>Références (en anglais) :</strong></p>
 
   <p>http://www.fao.org/docrep/012/w0931e/w0931e16.pdf </p>
 
