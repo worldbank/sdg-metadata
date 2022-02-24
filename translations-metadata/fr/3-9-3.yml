@@ -11,7 +11,7 @@ META_LAST_UPDATE: '<p>2021-05-01</p>'
 SDG_CUSTODIAN_AGENCIES: |-
   <p>Organisation mondiale de la Santé (OMS)</p>
 COMPILING_ORG: |-
-  <p>OMS </p>
+  <p>OMS</p>
 OTHER_DOC: "<p>(Toutes les références sont en anglais)</p>\n<p> <strong>URL:</strong>\
   \ </p>\n<p> </p>\n<p>https://www.who.int/data/gho/data/themes/mortality-and-global-health-estimates\
   \ </p>\n<p> <strong>Références :</strong> </p>\n<p> </p>\n<p>Définition de l’indicateur\
@@ -19,30 +19,30 @@ OTHER_DOC: "<p>(Toutes les références sont en anglais)</p>\n<p> <strong>URL:</
   <p>« WHO methods and data sources for country-level causes of death, 2000-2019 »</p>\n\
   <p>(https://www.who.int/docs/default-source/gho-documents/global-health-estimates/ghe2019_cod_methods.pdf)\
   \ </p>"
-COMPARABILITY: "<p>Sources des divergences : </p>\n<p>L'OMS est tenue, en vertu d'une\
-  \ résolution de l'Assemblée mondiale de la santé, de se concerter sur toutes les\
-  \ statistiques qu'elle prépare et de demander aux pays de lui faire part de leurs\
-  \ commentaires sur les données les concernant. Avant d'être publiées, toutes les\
-  \ estimations font l'objet de consultations avec les pays.</p>"
-COVERAGE: "<p>Disponibilité des données :</p>\n<p>Près de 70 pays fournissent actuellement\
-  \ à l’OMS des données régulières de haute qualité sur la mortalité par âge, sexe\
-  \ et cause de décès, et 58 autres pays soumettent des données de qualité inférieure.\
-  \ Cependant, des estimations complètes de la cause de décès sont systématiquement\
-  \ calculées par l’OMS pour tous ses États membres (avec un certain seuil de population)\
-  \ tous les 3 ans. </p>\n<p>Séries chronologiques :</p>\n<p>De 2000 à 2019</p>\n\
-  <p>Désagrégation:</p>\n<p>Les données peuvent être ventilées par groupe d’âge, sexe\
-  \ et maladie. </p>"
+COMPARABILITY: "<p><strong>Sources des divergences :</strong></p>\n<p>L'OMS est tenue,\
+  \ en vertu d'une résolution de l'Assemblée mondiale de la santé, de se concerter\
+  \ sur toutes les statistiques qu'elle prépare et de demander aux pays de lui faire\
+  \ part de leurs commentaires sur les données les concernant. Avant d'être publiées,\
+  \ toutes les estimations font l'objet de consultations avec les pays.</p>"
+COVERAGE: "<p><strong>Disponibilité des données :</strong></p>\n<p>Près de 70 pays\
+  \ fournissent actuellement à l’OMS des données régulières de haute qualité sur la\
+  \ mortalité par âge, sexe et cause de décès, et 58 autres pays soumettent des données\
+  \ de qualité inférieure. Cependant, des estimations complètes de la cause de décès\
+  \ sont systématiquement calculées par l’OMS pour tous ses États membres (avec un\
+  \ certain seuil de population) tous les 3 ans. </p>\n<p><strong>Séries chronologiques\
+  \ :</strong></p>\n<p>De 2000 à 2019</p>\n<p><strong>Désagrégation:</strong></p>\n\
+  <p>Les données peuvent être ventilées par groupe d’âge, sexe et maladie. </p>"
 REG_AGG: "<p>Les estimations nationales du nombre de décès par cause sont additionnées\
   \ pour obtenir des agrégats régionaux et mondiaux.</p>"
-IMPUTATION: "<ul>\n  <li>Au niveau national </li>\n</ul>\n<p> </p>\n<p>Pour les pays\
-  \ disposant de statistiques de grande qualité sur les causes de décès, une interpolation/extrapolation\
-  \ a été effectuée pour les années-pays manquantes; pour les pays où les données\
-  \ sur les causes de décès sont de faible qualité ou inexistantes, la modélisation\
-  \ a été utilisée. La méthodologie complète (en anglais) peut être trouvée à l'adresse :\
-  \ </p>\n<p>« WHO methods and data sources for country-level causes of death 2000-2019 »\
-  \ (https://www.who.int/docs/default-source/gho-documents/global-health-estimates/ghe2019_cod_methods.pdf)</p>\n\
-  <ul>\n  <li>Aux niveaux régional et mondial </li>\n</ul>\n<p> </p>\n<p>Sans objet\
-  \ </p>"
+IMPUTATION: "<ul>\n  <li><strong>Au niveau national :</strong></li>\n</ul>\n<p> </p>\n\
+  <p>Pour les pays disposant de statistiques de grande qualité sur les causes de décès,\
+  \ une interpolation/extrapolation a été effectuée pour les années-pays manquantes;\
+  \ pour les pays où les données sur les causes de décès sont de faible qualité ou\
+  \ inexistantes, la modélisation a été utilisée. La méthodologie complète (en anglais)\
+  \ peut être trouvée à l'adresse : </p>\n<p>« WHO methods and data sources for country-level\
+  \ causes of death 2000-2019 » (https://www.who.int/docs/default-source/gho-documents/global-health-estimates/ghe2019_cod_methods.pdf)</p>\n\
+  <ul>\n  <li><strong>Aux niveaux régional et mondial :</strong></li>\n</ul>\n<p>\
+  \ </p>\n<p>Sans objet </p>"
 DATA_COMP: "<p>Les méthodes assorties de normes internationales convenues ont été\
   \ élaborées, examinées et publiées dans divers documents. </p>\n<p> </p>\n<p>Pour\
   \ les pays dotés d’un système d’enregistrement de l’état civil de haute qualité,\
@@ -90,13 +90,13 @@ SOURCE_TYPE: "<p>Les données utilisées pour l'estimation comprennent (a) des d
 STAT_CONC_DEF: "<p><strong>Définition :</strong> </p>\n<p> </p>\n<p>Taux de mortalité\
   \ attribué aux empoisonnements non intentionnels, défini comme le nombre de décès\
   \ dus à des empoisonnements non intentionnels au cours d'une année, divisé par la\
-  \ population et multiplié par 100 000. </p>\n<p> </p>\n<p> </p>\n<p><strong>Concept :</strong>\
+  \ population et multiplié par 100 000. </p>\n<p> </p>\n<p><strong>Concept :</strong>\
   \ </p>\n<p> </p>\n<p>Taux de mortalité dans le pays par empoisonnements accidentels\
   \ par an. Les codes de la CIM-10 correspondant à l'indicateur comprennent X40, X43,\
   \ X46-X48, X49. </p>"
 SDG_RELATED_INDICATORS: "<p>Indicateur 7.1.2 : Proportion de la population utilisant\
-  \ principalement des carburants et des technologies propres </p>"
-CONTACT_ORGANISATION: <p>Organisation mondiale de la Santé (OMS)</p>
+  \ principalement des carburants et des technologies propres</p>"
+CONTACT_ORGANISATION: <p>Organisation mondiale de la Santé (OMS) </p>
 INST_MANDATE: <p>Conformément à l’article 64 de sa constitution, l’OMS est mandatée
   pour demander à chaque État membre de fournir des statistiques sur la mortalité.
   En outre, le Règlement sur la nomenclature de 1967 de l’OMS affirme l’importance
