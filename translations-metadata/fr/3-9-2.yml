@@ -9,25 +9,21 @@ SDG_INDICATOR: "<p>Indicateur 3.9.2 : Taux de mortalité attribuable à l’in
   \ des services inadéquats d'eau, de système sanitaire et d'hygiène (WASH))</p>"
 META_LAST_UPDATE: '<p>2017-07-09</p>'
 SDG_RELATED_INDICATORS: >-
-  <h1>Indicateurs connexes en date de février 2020</h1>
-
   <p>Indicateur 7.1.2 : Proportion de la population utilisant principalement des carburants
   et des technologies propres</p>
 SDG_CUSTODIAN_AGENCIES: |-
-  <h1>Informations institutionnelles</h1>
-  <h2>Organisation(s) : </h2>
   <p>Organisation mondiale de la Santé (OMS)</p>
 STAT_CONC_DEF: >-
-  <h1>Concepts et définitions</h1>
-
-  <h2>Définition :</h2>
+  <p><strong>Définition :</strong></p>
 
   <p>Le taux de mortalité attribuable à l'insalubrité de l'eau, aux déficiences du
   système sanitaire et au manque d'hygiène (exposition à des services inadéquats d'eau,
   de système sanitaire et d'hygiène (WASH)) est défini comme le nombre de décès attribuables
   à ces causes au cours d'une année, divisé par la population, et multiplié par 100 000.</p>
 
-  <h2>Concepts :</h2>
+  <p> </p>
+
+  <p><strong>Concepts :</strong></p>
 
   <p>Décès attribuables à des services inadéquats d'eau, de système sanitaire et d'hygiène
   (en particulier les services WASH), exprimés pour 100 000 habitants. Les maladies
@@ -35,39 +31,27 @@ STAT_CONC_DEF: >-
   infections intestinales à nématodes (codes de la CIM-10 B76-B77, B79) et la malnutrition
   protéino-énergétique (codes de la CIM-10 E40-E46) attribuables à des lacunes au
   niveau des services WASH.</p>
+
+  <p> </p>
 SOURCE_TYPE: >-
-  <h1>Sources de données</h1>
-
-  <h2>Description :</h2>
-
   <p>Les données proviennent principalement des bases de données nationales. Afin
   de maximiser la robustesses des estimations, tout en réduisant la duplication et
   le fardeau de déclaration, des données complémentaires provenant d'autres bases
   de données sont également utilisées.</p>
 COLL_METHOD: >-
-  <h2>Processus de collecte : </h2>
-
   <p>L' OMS mène un processus formel de consultation des pays avant de publier ses
   estimations des causes de décès.</p>
 FREQ_COLL: |-
-  <h1>Calendrier</h1>
-  <h2>Collecte de données :</h2>
   <p>En cours </p>
 REL_CAL_POLICY: |-
-  <h2>Diffusion des données :</h2>
   <p>Premier trimestre de 2017</p>
 DATA_SOURCE: >-
-  <h1>Fournisseurs de données</h1>
-
   <p>Bureaux nationaux de statistique et différents ministères et bases de données
   couvrant l'enregistrement à l'état civil et offrant une couverture complète ainsi
   que la certification des causes de décès.</p>
 COMPILING_ORG: |-
-  <h1>Compilateurs de données</h1>
   <p>OMS</p>
 RATIONALE: >-
-  <h2>Justification :</h2>
-
   <p>Cet indicateur présente le nombre de morts attribuables à des services inadéquats
   d'eau, de système sanitaire et d'hygiène (en particulier les services WASH) qui
   pourraient être évitées grâce à une amélioration de ces pratiques. Il repose à la
@@ -75,8 +59,6 @@ RATIONALE: >-
   sanitaires qui y sont liés, et fournit donc des informations importantes sur les
   maladies causées par les risques mesurés aux cibles 6.1, 6.2 et 6.3.</p>
 REC_USE_LIM: >-
-  <h2>Commentaires et limites :</h2>
-
   <p>Les données reposent sur (a) des statistiques sur les services WASH (6.1, 6.2
   et 6.3), qui sont disponibles pour presque tous les pays, et (b) des données sur
   les décès. Les données nationales sur les décès sont généralement disponibles à
@@ -86,50 +68,54 @@ REC_USE_LIM: >-
   ne disposent pas encore de tels systèmes d'enregistrement et que les données doivent
   être complétées par d'autres types d'information.</p>
 DATA_COMP: >-
-  <h1>Méthodologie</h1>
-
-  <h2>Méthode de calcul :</h2>
-
   <p>Les méthodes ayant fait l'objet d'un accord international ont été élaborées,
   examinées et publiées dans divers documents (en anglais):</p>
 
-  <p><a href="http://www.who.int/water_sanitation_health/gbd_poor_water/en/">http://www.who.int/water_sanitation_health/gbd_poor_water/en/</a></p>
+  <p> </p>
 
-  <p><a href="http://www.ncbi.nlm.nih.gov/pmc/articles/PMC4255749/">http://www.ncbi.nlm.nih.gov/pmc/articles/PMC4255749/</a></p>
+  <p>http://www.who.int/water_sanitation_health/gbd_poor_water/en/</p>
+
+  <p> </p>
+
+  <p>http://www.ncbi.nlm.nih.gov/pmc/articles/PMC4255749/</p>
+
+  <p> </p>
 IMPUTATION: >-
-  <h2>Traitement des valeurs manquantes :</h2>
-
   <ul>
-    <li><strong><em>Au niveau national :</em></strong></li>
+    <li><strong>Au niveau national :</strong></li>
   </ul>
+
+  <p> </p>
 
   <p>Les données sont disponibles pour presque tous les pays. Toutefois, lorsque les
   données nationales sont incomplètes, les données reposent sur des statistiques fournies
   par des organisations internationales qui ont été interpolées, extrapolées, ajustées
   et complétées par des données supplémentaires et des modèles de cause de décès.
   Une description détaillée des méthodes utilisées est disponible (en anglais) à l'adresse
-  :<a href="http://www.who.int/healthinfo/global_burden_disease/GlobalCOD_method_2000_2012.pdf">http://www.who.int/healthinfo/global_burden_disease/GlobalCOD_method_2000_2012.pdf</a></p>
+  : http://www.who.int/healthinfo/global_burden_disease/GlobalCOD_method_2000_2012.pdf</p>
+
+  <p> </p>
 
   <ul>
-    <li><strong><em>Aux niveaux régional et mondial :</em></strong></li>
+    <li><strong>Aux niveaux régional et mondial :</strong></li>
   </ul>
+
+  <p> </p>
 
   <p>Sans objet</p>
 REG_AGG: >-
-  <h2>Agrégats régionaux : </h2>
-
   <p>Les estimations nationales du nombre de décès par cause sont additionnées pour
   obtenir des agrégats régionaux et mondiaux.</p>
-COVERAGE: >-
-  <h1>Disponibilité des données</h1>
 
-  <h2>Description :</h2>
+  <p> </p>
+COVERAGE: >-
+  <p><strong>Disponibilité des données :</strong></p>
 
   <p>Les données sont disponibles pour presque tous les pays. Lorsque les données
   nationales sont incomplètes, les données reposent sur des statistiques fournies
   par des organisations internationales.</p>
 
-  <p><strong>Données nationales uniquement pour les années 2010 et suivantes :</strong></p>
+  <p>Données nationales uniquement pour les années 2010 et suivantes :</p>
 
   <p>Asie et Pacifique - 27 % des pays (16 pays sur 59, incluant la Chine et l'Inde
   (systèmes d'enregistrement par échantillonnage))</p>
@@ -141,7 +127,9 @@ COVERAGE: >-
   <p>Europe, Amérique du Nord, Australie, Nouvelle-Zélande et Japon - 94 % des pays
   (44 pays sur 47, les trois manquants sont essentiellement de très petits pays)</p>
 
-  <p><strong>Pour la période 2000 à 2009 :</strong></p>
+  <p> </p>
+
+  <p>Pour la période 2000 à 2009 :</p>
 
   <p>Asie et Pacifique - 27 % des pays (16 pays sur 59, incluant la Chine et l'Inde
   (systèmes d'enregistrement par échantillonnage))</p>
@@ -153,25 +141,32 @@ COVERAGE: >-
   <p>Europe, Amérique du Nord, Australie, Nouvelle-Zélande et Japon - 94 % des pays
   (44 pays sur 47, les trois manquants sont essentiellement de très petits pays)</p>
 
-  <p>Lien Internet à la base de données (en anglais) : <a href="http://apps.who.int/gho/data/node.home%20">http://apps.who.int/gho/data/node.home</a>
-  </p>
+  <p> </p>
 
-  <p>L'indicateur est utilisé et disponible depuis plus d'une décennie. <a href="http://apps.who.int/gho/data/node.main.INADEQUATEWSH?lang=en">(en
-  anglais) http://apps.who.int/gho/data/node.main.INADEQUATEWSH?lang=en</a></p>
+  <p>Lien Internet à la base de données (en anglais) :</p>
 
-  <p><a href="http://www.who.int/water_sanitation_health/gbd_poor_water/en/">(en anglais)
-  http://www.who.int/water_sanitation_health/gbd_poor_water/en/</a></p>
+  <p>http://apps.who.int/gho/data/node.home%20 </p>
+
+  <p> </p>
+
+  <p>L'indicateur est utilisé et disponible depuis plus d'une décennie. http://apps.who.int/gho/data/node.main.INADEQUATEWSH?lang=en</p>
+
+  <p>http://www.who.int/water_sanitation_health/gbd_poor_water/en/</p>
+
+  <p> </p>
 
   <p>L'OMS compile et utilise ces données pour produire des estimations régionales
   et mondiales pour cet indicateur. </p>
 
-  <h2>Séries chronologiques :</h2>
+  <p> </p>
+
+  <p><strong>Séries chronologiques :</strong></p>
 
   <p>Des séries chronologiques sont disponibles (séries comparables pour 2012 et bientôt
   2015; les données pour 2002 sont également disponibles, mais ne sont pas totalement
   comparables).</p>
 
-  <h2>Désagrégation :</h2>
+  <p><strong>Désagrégation :</strong></p>
 
   <p>Comme l'indicateur est basé sur la population, la désagrégation au niveau géographique
   est la plus évidente. Les données sont également disponibles par sexe et par groupe
@@ -179,22 +174,31 @@ COVERAGE: >-
   Monitoring Programme for Water Supply, Sanitation and Hygiene » (JMP), les données
   peuvent également être désagrégées par quintile de richesse.</p>
 OTHER_DOC: >-
-  <h1>Références (en anglais)</h1>
+  <p>(Toutes les références sont en anglais)</p>
 
-  <h2>URL :</h2>
+  <p><strong>URL :</strong></p>
 
-  <p><a href="http://www.who.int/water_sanitation_health/gbd_poor_water/en/">http://www.who.int/water_sanitation_health/gbd_poor_water/en/</a></p>
+  <p> </p>
 
-  <h2>Références :</h2>
+  <p>http://www.who.int/water_sanitation_health/gbd_poor_water/en/</p>
 
-  <p>1. Définition de l'indicateur de l'OMS : <a href="http://apps.who.int/gho/data/node.imr.SDGWSHBOD?lang=en">http://apps.who.int/gho/data/node.imr.SDGWSHBOD?lang=en</a></p>
+  <p> </p>
 
-  <p><a href="http://www.who.int/water_sanitation_health/gbd_poor_water/en/">http://www.who.int/water_sanitation_health/gbd_poor_water/en/</a></p>
+  <p><strong>Références :</strong></p>
 
-  <p>2. WHO methods and data sources for country-level causes of death, 2000-2012
-  <a href="http://www.who.int/healthinfo/global_burden_disease/GlobalCOD_method_2000_2012.pdf?ua=1">http://www.who.int/healthinfo/global_burden_disease/GlobalCOD_method_2000_2012.pdf?ua=1</a>.</p>
-COMPARABILITY: "<h2>Sources de divergences :</h2>\n<p>L'OMS est tenue, par une résolution\
-  \ de l'Assemblée mondiale de la santé, de procéder à des consultations sur toutes\
-  \ les statistiques de l'OMS et de demander la rétroaction des pays sur les données\
-  \ concernant les pays et les territoires. Avant d'être publiées, toutes les estimations\
-  \ font l'objet de consultations auprès des pays.</p>"
+  <p> </p>
+
+  <p>1. Définition de l'indicateur de l'OMS : http://apps.who.int/gho/data/node.imr.SDGWSHBOD?lang=en</p>
+
+  <p>http://www.who.int/water_sanitation_health/gbd_poor_water/en/</p>
+
+  <p> </p>
+
+  <p>2. « WHO methods and data sources for country-level causes of death 2000-2012 »
+  (http://www.who.int/healthinfo/global_burden_disease/GlobalCOD_method_2000_2012.pdf?ua=1)</p>
+COMPARABILITY: "<p><strong>Sources des divergences :</strong></p>\n<p>L'OMS est tenue,\
+  \ par une résolution de l'Assemblée mondiale de la santé, de procéder à des consultations\
+  \ sur toutes les statistiques de l'OMS et de demander la rétroaction des pays sur\
+  \ les données concernant les pays et les territoires. Avant d'être publiées, toutes\
+  \ les estimations font l'objet de consultations auprès des pays.</p>"
+CONTACT_ORGANISATION: <p>Organisation mondiale de la Santé (OMS) </p>

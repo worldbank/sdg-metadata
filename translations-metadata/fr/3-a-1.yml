@@ -8,41 +8,41 @@ SDG_INDICATOR: "<p>Indicateur 3.a.1 : Prévalence normalisée selon l’âge de 
   \ actuelle de tabac chez les personnes âgées de 15 ans ou plus</p>"
 META_LAST_UPDATE: '<p>2021-12-06</p>'
 SDG_RELATED_INDICATORS: >-
-  <h1>Indicateurs connexes en date de février 2020 </h1>
-
   <p>Indicateur 3.4.1 : Taux de mortalité attribuable aux maladies cardiovasculaires,
   au cancer, au diabète ou aux maladies respiratoires chroniques </p>
 SDG_CUSTODIAN_AGENCIES: >-
-  <h1>Informations institutionnelles</h1>
-
-  <h2>Organisation(s) :</h2>
-
-  <p>Organisation mondiale de la Santé; </p>
-
-  <p>Secrétariat de la Convention-cadre de l’OMS pour la lutte antitabac (co-gardiens)</p>
+  <p>Organisation mondiale de la Santé; Secrétariat de la Convention-cadre de l’OMS
+  pour la lutte antitabac (co-gardiens)</p>
 STAT_CONC_DEF: >-
-  <h1>Concepts et définitions </h1>
-
-  <h2>Définition : </h2>
+  <p><strong>Définition : </strong></p>
 
   <p>L'indicateur est défini comme le pourcentage de la population âgée de 15 ans
   ou plus qui utilise actuellement un produit du tabac (tabac fumé et / ou sans fumée)
   quotidiennement ou non. </p>
 
-  <h2>Concepts : </h2>
+  <p> </p>
+
+  <p><strong>Concepts :</strong></p>
 
   <p>L'usage du tabac signifie l'utilisation de produits du tabac fumés et / ou sans
   fumée. « Utilisation actuelle » signifie l'utilisation au cours des 30 jours précédant
   l'enquête, que l'utilisation soit quotidienne ou non. </p>
+
+  <p> </p>
 
   <p>Les produits du tabac sont les produits entièrement ou partiellement fabriqués
   à partir de tabac en feuilles comme matière première destinée à la consommation
   humaine que ce soit pour le fumer, par la succion, la mastication ou l'inhalation.
   </p>
 
+  <p> </p>
+
   <p>« Les produits du tabac fumés » comprennent les cigarettes, les cigarillos, les
   cigares, les cheroots, les bidis, les pipes, les chicha (pipes à eau), le tabac
-  à rouler, le kretek et toute autre forme de tabac consommée en fumant . </p>
+  à rouler, le kretek, les produits du tabac chauffés et toute autre forme de tabac
+  consommée en fumant . </p>
+
+  <p> </p>
 
   <p>« Les produits du tabac sans fumée » comprennent le tabac à priser humide, le
   tabac à priser crémeux, le tabac à priser sec, le bouchon, les dissolvables, le
@@ -52,6 +52,8 @@ STAT_CONC_DEF: >-
   tombol et tout autre produit du tabac consommé en l'inhalant, en le tenant dans
   sa bouche ou en le mâchant. </p>
 
+  <p> </p>
+
   <p>Les estimations de prévalence ont été « normalisées selon l'âge » pour les rendre
   comparables dans tous les pays, quel que soit le profil démographique du pays. Cela
   se fait en appliquant les taux de prévalence spécifiques à l'âge et au sexe de chaque
@@ -59,15 +61,11 @@ STAT_CONC_DEF: >-
   hypothétiques qui ne sont significatifs que lorsque l'on compare les taux obtenus
   pour un pays avec ceux obtenus pour un autre pays. </p>
 SOURCE_TYPE: >-
-  <h1>Sources de données</h1>
-
-  <h2>Description :</h2>
-
   <p>Taux de prévalence selon l’âge et le sexe des enquêtes nationales représentatives
   auprès de la population menées depuis 1990 :</p>
 
   <ul>
-    <li>officiellement reconnues par les autorités sanitaires nationales; </li>
+    <li>officiellement reconnues par les autorités sanitaires nationales;</li>
     <li>avec des participants choisis au hasard, représentatifs de la population générale;
   et</li>
     <li>déclarant au moins un indicateur mesurant l’usage actuel du tabac, l’usage
@@ -75,12 +73,13 @@ SOURCE_TYPE: >-
   ou la cigarette quotidienne. </li>
   </ul>
 
+  <p> </p>
+
   <p>Les rapports officiels de l’enquête sont recueillis auprès des États membres
-  par une ou plusieurs des méthodes suivantes :</p>
+  à l'aide d’une ou plusieurs des méthodes suivantes :</p>
 
   <ul>
-    <li>système de déclaration de la Convention-cadre de la lutte antitabac de l’OMS;
-  </li>
+    <li>système de déclaration de la Convention-cadre de la lutte antitabac de l’OMS;</li>
     <li>examen des enquêtes menées sous l’égide du Système mondial de surveillance
   du tabac; </li>
     <li>examen d’autres enquêtes menées en collaboration avec l’OMS, telles que des
@@ -93,36 +92,26 @@ SOURCE_TYPE: >-
   systèmes internationaux de surveillance. </li>
   </ul>
 COLL_METHOD: >-
-  <h2>Processus de collecte : </h2>
-
-  <p>Les rapports téléchargés à partir de sites Web ou envoyés par courriel par des
-  homologues nationaux. L'OMS partage et rend publiques les méthodologies de ses estimations
+  <p>Les rapports téléchargés à partir de sites Web, soumis par le biais de la plateforme
+  de déclaration de l'OMS pour la CCLAT ou envoyés par courriel par des homologues
+  nationaux. L'OMS partage et rend publiques les méthodologies de ses estimations
   par le biais du Rapport mondial sur les tendances de l'usage du tabac 2000-2025
   de l'OMS et du Rapport sur l'épidémie mondiale de tabagisme de l'OMS. Les estimations
   de l'OMS font l'objet d'une consultation dans les pays avant leur publication. </p>
 FREQ_COLL: |-
-  <h1>Calendrier</h1>
-  <h2>Collecte de données :</h2>
   <p>Collecte continue de données. </p>
 REL_CAL_POLICY: >-
-  <h2>Diffusion des données :</h2>
-
   <p>Diffusion biennale par l’intermédiaire du Rapport mondial sur les tendances du
   tabagisme 2000-2025 de l’OMS, de l’Observatoire mondial de la santé de l’OMS et
-  de la base de données de mise en œuvre de la Convention-cadre pour la lutte antitabac
-  de l’OMS. </p>
+  du Rapport de progrès mondial aur la mise en œuvre de la Convention-cadre pour la
+  lutte antitabac de l’OMS. </p>
 DATA_SOURCE: |-
-  <h1>Fournisseurs de données</h1>
-  <p>États membres de l’OMS, Parties de la à la Convention-cadre pour la lutte antitabac de l’OMS. </p>
+  <p>États membres de l’OMS, Parties de la Convention-cadre pour la lutte antitabac de l’OMS. </p>
 COMPILING_ORG: >-
-  <h1>Compilateurs de données </h1>
-
-  <p>Initiative « WHOT » pour un monde sans tabac; Secrétariat de la Convention-cadre
+  <p>L'initiative pour un monde sans tabac de l'OMS, le Secrétariat de la Convention-cadre
   pour la lutte antitabac de l'OMS et le Protocole pour éliminer le commerce illicite
   des produits du tabac. </p>
 RATIONALE: >-
-  <h2>Justification : </h2>
-
   <p>L'usage du tabac est un facteur majeur de maladie et de décès dus aux maladies
   non transmissibles (MNT). Il n'y a pas de niveau sûr prouvé pour le tabagisme ou
   l'exposition à la fumée secondaire. Tous les utilisateurs quotidiens et non quotidiens
@@ -138,17 +127,19 @@ RATIONALE: >-
   de la Convention-cadre de l’Organisation mondiale de la Santé pour la lutte antitabac
   ». </p>
 REC_USE_LIM: >-
-  <h2>Commentaires et limites :</h2>
-
   <p>Les données brutes recueillies au moyen d’enquêtes représentatives de la population
   dans les pays sont utilisées pour calculer des estimations comparables pour cet
   indicateur. Les informations provenant d’enquêtes infranationales ne sont pas utilisées.
   </p>
 
+  <p> </p>
+
   <p>Dans certains pays, tous les usages du tabac et le tabagisme peuvent être équivalents,
   mais dans de nombreux pays où d’autres formes de tabac sont également consommées,
   les taux de tabagisme seront inférieurs aux taux d’usage du tabac dans une certaine
   mesure. </p>
+
+  <p> </p>
 
   <p>La comparabilité, la qualité et la fréquence des enquêtes auprès des ménages
   influent sur l’exactitude et la qualité des estimations. La non-comparabilité des
@@ -167,128 +158,174 @@ REC_USE_LIM: >-
   de déclarer eux-même leur consommation de tabac, ce qui peut conduire à une sous-déclaration
   de l’usage du tabac. </p>
 
+  <p> </p>
+
   <p>Il n’existe pas de protocole standard utilisé dans tous les États membres pour
   poser des questions aux gens sur leur consommation de tabac. Les questions sur le
   tabac pour les enquêtes (Tobacco Questions for Surveys TQS) de l’OMS ont été adoptées
   dans de nombreuses enquêtes, ce qui contribue à améliorer la comparabilité des indicateurs
   entre les pays. </p>
 DATA_COMP: >-
-  <h1>Méthodologie</h1>
-
-  <h2>Méthode de calcul :</h2>
-
   <p>Un modèle statistique basé sur une méta-régression binomiale négative bayésienne
   est utilisé pour modéliser la prévalence de l’usage actuel du tabac dans chaque
   pays, séparément pour les hommes et les femmes. Une description complète de la méthode
   est disponible sous la forme d’un article évalué par des pairs dans The Lancet,
   volume 385, no 9972, p966–976 (2015). Une fois que les taux de prévalence propres
-  à l’âge et au sexe des enquêtes nationales ont été compilés dans un ensemble de
-  données, le modèle était apte à calculer les estimations des tendances de l’an 2000
-  à 2030. Le modèle a deux composantes principales : a) s’adapter aux indicateurs
-  manquants et aux groupes d’âge, et (b) générer une estimation des tendances au fil
-  du temps ainsi que l’intervalle de confiance de 95 % autour de l’estimation. Selon
-  l’intégralité et l’exhaustivité des données de l’enquête d’un pays particulier,
-  le modèle utilise parfois les données d’autres pays pour combler les lacunes en
-  matière d’information. Pour combler les lacunes en matière de données, l’information
-  est « empruntée » aux pays de la même sous-région des Nations Unies. Les tendances
-  qui en résultent sont utilisées pour obtenir des estimations pendant une seule année,
-  de sorte qu’un certain nombre d’entre elles peuvent être déclarées même si le pays
-  n’a pas mené d’enquête cette année-là. Afin de rendre les résultats comparables
-  d’un pays à l’autre, les taux de prévalence sont normalisés par âge avec la population
-  standard de l’OMS. </p>
+  à l’âge et au sexe des enquêtes nationales sont compilés dans un ensemble de données,
+  le modèle est apte à calculer les estimations des tendances de l’an 2000 à 2030.
+  Le modèle a deux composantes principales : a) s’adapter aux indicateurs manquants
+  et aux groupes d’âge, et (b) générer une estimation des tendances au fil du temps
+  ainsi que l’intervalle de confiance de 95 % autour de l’estimation. Selon l’intégralité
+  et l’exhaustivité des données de l’enquête d’un pays particulier, le modèle utilise
+  parfois les données d’autres pays pour combler les lacunes en matière d’information.
+  Pour combler les lacunes en matière de données, l’information est « empruntée »
+  aux pays de la même sous-région des Nations Unies.</p>
+
+  <p>Les tendances qui en résultent sont utilisées pour obtenir des estimations pendant
+  une seule année, de sorte qu’un certain nombre d’entre elles peuvent être déclarées
+  même si le pays n’a pas mené d’enquête cette année-là. Afin de rendre les résultats
+  comparables d’un pays à l’autre, les taux de prévalence sont normalisés par âge
+  avec la population standard de l’OMS. </p>
 
   <p>Les estimations pour les pays ayant des enquêtes irrégulières ou de nombreuses
   lacunes en matière de données auront de grandes plages d’incertitude, et ces résultats
   devraient être interprétés avec prudence. </p>
 IMPUTATION: >-
-  <h2>Traitement des valeurs manquantes :</h2>
+  <p><strong>&#xF0B7;Au niveau national :</strong></p>
 
-  <ul>
-    <li> <strong> <em>Au niveau national :</em></strong></li>
-  </ul>
+  <p>Pour les pays ayant réalisé moins de deux enquêtes nationales au cours d’années
+  différentes depuis 1990, aucune estimation n’est calculée, car aucune tendance ne
+  peut être déterminée. Pour les pays dont les données proviennent de deux enquêtes
+  nationales ou plus, les lacunes en matière de données, le cas échéant, sont comblées
+  comme décrit dans la <em>Méthode de calcul</em>. </p>
 
-  <p>Pour les pays ayant réalisé moins de deux enquêtes au cours d’années différentes
-  depuis 1990, aucune estimation n’est calculée, puisqu’aucune tendance ne peut être
-  déterminée. Pour les pays qui ont des données provenant de deux enquêtes nationales
-  ou plus, les lacunes en matière de données, le cas échéant, sont comblées comme
-  décrit dans la méthode de calcul. </p>
+  <p> </p>
 
-  <ul>
-    <li> <strong> <em>Aux niveaux régional et mondial :</em></strong></li>
-  </ul>
+  <p><strong>&#xF0B7;Aux niveaux régional et mondial :</strong></p>
 
   <p>Les pays où aucune estimation ne peut être calculée sont inclus dans les moyennes
   régionales et mondiales en supposant que leurs taux de prévalence pour les hommes
-  et les femmes sont égaux aux taux moyens des hommes et des femmes observés dans
-  la sous-région des Nations Unies<sup><a href="#footnote-1" id="footnote-ref-1">[1]</a></sup>
-  dans laquelle ils se trouvent. Lorsque moins de 50 % de la population d’une sous-région
-  des Nations Unies a été sondée, les sous-régions des Nations Unies sont regroupées
-  avec les sous-régions voisines jusqu’à ce qu’au moins 50 % de la population groupée
-  ait fourni des données aux taux moyens de la région. </p> <div class="footnotes">
-  <div> <sup class="footnote-number" id="footnote-1">1</sup><p> Pour une liste des
-  pays par région des Nations Unies, veuillez consulter les pages ix à xiii du document
-  (en anglais) « World Population Prospects : The 2017 Revision », publiée par le
-  Département des affaires économiques et sociales des Nations Unies en 2017 à <a
-  href="https://esa.un.org/unpd/wpp/Publications/Files/WPP2017_Volume-I_Comprehensive-Tables.pdf%20">https://esa.un.org/unpd/wpp/Publications/Files/WPP2017_Volume-I_Comprehensive-Tables.pdf</a>
-  (consulté le 25 mai 2017). Aux fins de l’analyse du tabagisme, les ajustements suivants
-  ont été apportés : (i) la sous-région de l’Afrique de l’Est a été divisée en deux
-  régions : les îles d’Afrique de l’Est et le reste de l’Afrique de l’Est; (ii) l’Arménie,
-  l’Azerbaïdjan, l’Estonie, la Géorgie, le Kazakhstan, le Kirghizistan, la Lettonie,
-  la Lituanie, le Tadjikistan, l’Ouzbékistan et le Turkménistan ont été classés en
-  Europe de l’Est; (iii) Chypre, Israël et la Turquie ont été classés avec l’Europe
-  du Sud, et (iv) les sous-régions de Mélanésie, de Micronésie et de Polynésie ont
-  été combinées en une sous-région. <a href="#footnote-ref-1"> &#x2191; </a> </p>
-  </div> </div>
+  et les femmes sont égaux aux taux moyens pour les hommes et les femmes observés
+  dans la sous-région des Nations Unies dans laquelle ils sont situés. Lorsque moins
+  de 50 % de la population d’une sous-région a été enquêtée, les sous-régions sont
+  regroupées avec les sous-régions voisines jusqu’à ce qu’au moins 50 % de la population
+  regroupée ait fourni des données pour les taux moyens de la région. </p>
 REG_AGG: >-
-  <h2>Agrégats régionaux : </h2>
-
   <p>Les taux de prévalence moyens pour les régions sont calculés en pondérant avec
   la taille de la population les taux de prévalence par âge dans les pays, puis en
   normalisant selon l'âge les taux moyens par âge de la région. </p>
 DOC_METHOD: >-
-  <h2>Méthodes et instructions à la disposition des pays pour la compilation des données
-  au niveau national : </h2>
-
-  <p>Information non disponible. </p>
+  <p>Les pays utilisent divers protocoles d’enquête basés sur la population pour surveiller
+  le tabagisme au niveau national. Voici des exemples de protocoles appuyés à l’échelle
+  internationale : Questions sur le tabac pour les enquêtes (<a href="https://www.gtssacademy.org/survey-tools/tqs/">(en
+  anglais) https://www.gtssacademy.org/survey-tools/tqs/</a>); l’Enquête mondiale
+  sur le tabac chez les adultes (<a href="https://www.gtssacademy.org/survey-tools/gats/">(en
+  anglais) https://www.gtssacademy.org/survey-tools/gats/</a>); l’enquête STEPS de
+  l’OMS (<a href="https://www.who.int/teams/noncommunicable-diseases/surveillance/systems-tools/steps">(en
+  anglais) https://www.who.int/teams/noncommunicable-diseases/surveillance/systems-tools/steps</a>);
+  l’Enquête sur la santé dans le monde (<a href="https://www.who.int/data/data-collection-tools/world-health-survey-plus">(en
+  anglais) https://www.who.int/data/data-collection-tools/world-health-survey-plus</a>);
+  l’enquête en grappes à indicateurs multiples (<a href="https://mics.unicef.org/tools">(en
+  anglais) https://mics.unicef.org/tools</a>); et l’Enquête démographique et de santé
+  (<a href="https://www.dhsprogram.com/Methodology/index.cfm">(en anglais) https://www.dhsprogram.com/Methodology/index.cfm</a>).
+  L’échantillonnage pour la représentativité nationale est l’apanage des bureaux nationaux
+  de statistique. Les données d’enquête soumises tous les deux ans par les Parties
+  de la CCLAT aux Secrétariat de la CCLAT par l’intermédiaire de l’instrument de notification
+  (<a href="https://fctc.who.int/fr/who-fctc/reporting/reporting-instrument">https://fctc.who.int/fr/who-fctc/reporting/reporting-instrument</a>)
+  sont partagées avec l’OMS. Des données supplémentaires sont obtenues par l’OMS en
+  contactant les points focaux du secteur du tabac auprès des ministères de la santé
+  ou en effectuant des recherches dans le domaine public. </p>
 QUALITY_ASSURE: |-
-  <h2>Assurance de la qualité :</h2> 
-  <p>Information non disponible</p>
+  <p>Les données d’enquête déclarées par les États membres de l’OMS et par les Parties de la CCLAT de l’OMS sont vérifiées par rapport aux rapports publiés et pour en vérifier la cohérence interne. Les résultats de la modélisation, ainsi que les données d’entrée, sont partagés avec les experts de la surveillance du tabac et des politiques dans les régions de l’OMS avant d’être partagés avec les points focaux du tabac au sein des ministères de la santé. Le centre collaborateur compétent de l’OMS examine également les résultats avant leur publication. </p>
 COVERAGE: >-
-  <h1>Disponibilité des données</h1>
+  <p><strong>Disponibilité des données :</strong></p>
 
-  <h2>Description :</h2>
+  <p>La disponibilité dépend du calendrier de publication des résultats de l’enquête
+  démographique représentative à l’échelle nationale de chaque pays. L’OMS calcule
+  des estimations tous les deux ans. </p>
 
-  <p>L’indicateur est disponible pour tous les pays de 2000 à l’année en cours, selon
-  la disponibilité des données empiriques pour chaque pays. </p>
+  <p><strong>Séries chronologiques :</strong></p>
 
-  <p> <strong>Désagrégation :</strong></p>
-
-  <p>Par sexe. </p>
-COMPARABILITY: >-
-  <h2>Sources des divergences : </h2>
-
-  <p>Les estimations de l'OMS diffèrent des estimations nationales en ce qu'elles
-  sont </p>
-
-  <p>i) normalisées selon l'âge pour améliorer la comparabilité internationale et
+  <p>L’indicateur est calculé pour tous les pays de 2000 à l’année en cours. Lorsque
+  l’année en cours est postérieure à l’année d’enquête nationale la plus récente,
+  les projections sont faites selon la <em>Méthode de calcul</em> décrite ci-dessus.
   </p>
 
-  <p>ii) calculées selon une méthode standard pour tous les pays. Les enquêtes peu
-  fréquentes ou l'indisponibilité d'enquêtes récentes conduisent à une plus grande
-  dépendance à la modélisation. À mesure que l'ensemble de données pour chaque pays
-  s'améliore avec le temps avec l'ajout de nouvelles enquêtes, les estimations récentes
-  peuvent sembler incompatibles avec les estimations antérieures. Les estimations
-  de l'OMS font l'objet d'une consultation dans les pays avant d'être publiées. </p>
+  <p><strong>Désagrégation :</strong></p>
+
+  <p>Sexe </p>
+COMPARABILITY: >-
+  <p><strong>Sources des divergences :</strong></p>
+
+  <p>Les estimations de l'OMS diffèrent des estimations nationales en ce qu'elles
+  sont i) normalisées selon l'âge pour améliorer la comparabilité internationale et
+  ii) calculées selon une méthode standard pour tous les pays. Les enquêtes peu fréquentes
+  ou l'indisponibilité d'enquêtes récentes conduisent à une plus grande dépendance
+  à la modélisation. À mesure que l'ensemble de données pour chaque pays s'améliore
+  avec le temps avec l'ajout de nouvelles enquêtes, les estimations récentes peuvent
+  sembler incompatibles avec les estimations antérieures. Les estimations de l'OMS
+  font l'objet d'une consultation dans les pays avant d'être publiées. </p>
 OTHER_DOC: >-
   <p>(Toutes les références sont en anglais)</p>
 
-  <h1>Références</h1>
+  <p><strong>URL : </strong> </p>
 
-  <h2>URL :</h2>
-
-  <p> <a href="http://www.who.int/tobacco/surveillance/tqs/en/">http://www.who.int/tobacco/surveillance/tqs/fr/</a>
+  <p><a href="http://www.who.int/gho/en/" target="_blank"><u>http://www.who.int/gho/en/</u></a>
   </p>
 
-  <p> <a href="http://www.who.int/gho/en/">http://www.who.int/gho/fr/</a></p>
+  <p><a href="http://apps.who.int/fctc/implementation/database/" target="_blank">
+  <u>http://apps.who.int/fctc/implementation/database/</u></a> </p>
 
-  <p> <a href="http://apps.who.int/fctc/implementation/database/">http://apps.who.int/fctc/implementation/database/</a></p>
+  <p><strong>Remarques :</strong> </p>
+
+  <p><sup>1</sup> Pour une liste des pays par région de l’ONU, veuillez consulter
+  les « World Population Prospects », publiée par le Département des affaires économiques
+  et sociales des Nations Unies. Aux fins de l’analyse de l’usage du tabac, les ajustements
+  suivants ont été apportés : i) la sous-région de l’Afrique de l’Est a été divisée
+  en deux régions : les îles d’Afrique de l’Est et le reste de l’Afrique de l’Est;
+  ii) L’Arménie, l’Azerbaïdjan, l’Estonie, la Géorgie, le Kazakhstan, le Kirghizistan,
+  la Lettonie, la Lituanie, le Tadjikistan, l’Ouzbékistan et le Turkménistan ont été
+  classés dans la catégorie Europe de l’Est; iii) Chypre, Israël et la Turquie ont
+  été classés dans la catégorie Europe du Sud; et iv) les sous-régions de Mélanésie,
+  de Micronésie et de Polynésie ont été regroupées en une seule sous-région. </p>
+SDG_SERIES_DESCR: <p>Sans objet</p>
+CONTACT_ORGANISATION: <p>Organisation mondiale de la Santé; Secrétariat de la Convention-cadre
+  de l’OMS pour la lutte antitabac (co-gardiens)</p>
+DATA_VALIDATION: <p>Les résultats de la modélisation décrite dans la <em>Méthode de
+  calcul</em> sont comparés aux données d’entrée pour assurer un bon ajustement du
+  modèle. Les résultats et les données d’entrée sont partagés avec les pays par l’intermédiaire
+  du point focal de lutte antitabac pour une consultation avant la publication dans
+  les rapports biennaux <em>Rapport mondial de l’OMS sur les tendances de l’usage
+  du tabac 2000-2025</em> et <em>Rapport de l’OMS sur l’épidémie mondiale de tabagisme</em>.
+  Au cours de la consultation par pays, des données supplémentaires sont parfois mises
+  à la disposition de l’OMS par le pays aux fins de la modélisation de l’indicateur
+  3.a.1. </p>
+ADJUSTMENT: <p>À l’exception des ajustements effectués au cours de la modélisation,
+  décrits dans la <em>Méthode de calcul</em>, aucun autre ajustement n’est effectué.</p>
+QUALITY_MGMNT: <p>Autorisation des méthodes et publications statistiques par l’intermédiaire
+  de la Division des données, de l’analyse et de la mise en œuvre pour l’impact de
+  l'OMS. Le respect des directives « GATHER » (<a href="http://gather-statement.org/">(en
+  anglais) http://gather-statement.org/</a>) est requis pour l’autorisation. Les données,
+  les estimations et les métadonnées sont publiées par l’intermédiaire de l’Observatoire
+  mondial de la Santé. </p>
+UNIT_MEASURE: <p>Proportion (pourcentage)</p>
+INST_MANDATE: <p>La Convention-cadre pour la lutte antitabac de l’OMS (CCLAT) a été
+  adoptée par l’Assemblée mondiale de la Santé le 21 mai 2003 (résolution 56.1) et
+  est entrée en vigueur le 27 février 2005. En 2010, la Conférence des Parties a adopté
+  la décision CCLAT/COP4(16), qui demande au Secrétariat de la Convention, en coopération
+  avec les autorités compétentes de l’OMS, en particulier l’Initiative pour un monde
+  sans tabac, de normaliser davantage les définitions et les indicateurs et de faciliter
+  l’examen régulier des progrès accomplis dans la mise en œuvre de la Convention.
+  Consulter <a href="https://apps.who.int/gb/fctc/PDF/cop4/FCTC_COP4_DIV6-fr.pdf">https://apps.who.int/gb/fctc/PDF/cop4/FCTC_COP4_DIV6-fr.pdf</a>
+  </p>
+CLASS_SYSTEM: "<p>Les « produits du tabac » sont définis à l'article 1 (f) de la CCLAT\
+  \ de l'OMS, consulter <a href=\"https://www.who.int/fctc/text_download/fr/\">https://www.who.int/fctc/text_download/fr/</a>.\
+  \ Les produits du tabac chauffés sont classés comme produits du tabac dans la décision\
+  \ FCTC/COP8(22), consulter <a href=\"https://www.who.int/fctc/cop/sessions/cop8/FCTC_COP8(22)_FR.pdf.\"\
+  >https://www.who.int/fctc/cop/sessions/cop8/FCTC_COP8(22)_FR.pdf</a> </p>\n<p>La\
+  \ population standard de l'OMS est utilisée pour la normalisation en fonction de\
+  \ l'âge, consulter <a href=\"https://www.who.int/healthinfo/paper31.pdf\">(en anglais)\
+  \ https://www.who.int/healthinfo/paper31.pdf</a> </p>\n<p>Les données des « World\
+  \ Population Prospects » (population âgée de 15 ans ou plus par pays) sont utilisées\
+  \ au dénominateur de l'indicateur, consulter <a href=\"https://population.un.org/wpp/\"\
+  >(en anglais)https://population.un.org/wpp/</a> </p>"
