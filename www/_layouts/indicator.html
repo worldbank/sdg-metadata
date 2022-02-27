@@ -3,6 +3,10 @@ layout: single
 ---
 <div class="download-buttons">
   <a class="btn btn--info" href="{{ site.baseurl }}/documents/{{ page.language }}/{{ page.slug }}.pdf">{{ site.data.store.t[page.language].site.DOWNLOAD_PDF | default: 'Download PDF' }}</a>
+  {% if site.data.source-changes[page.slug] and page.language == 'en' %}
+  <a class="btn btn--info" href="{{ site.baseurl }}/source-changes/{{ page.slug }}.html">Latest source changes</a>
+  <a class="btn btn--info" href="{{ site.baseurl }}/source-changes/rendered/{{ page.slug }}.html">Latest source changes (rendered)</a>
+  {% endif %}
 </div>
 
 {{ content }}
