@@ -7,6 +7,9 @@ install:
 snapshots:
 	node scripts/snapshots.js
 
+build.changes:
+	node scripts/prepare-build.js changes
+
 build.documents:
 	node scripts/prepare-build.js documents
 
@@ -17,7 +20,7 @@ build.site:
 	node scripts/prepare-build.js site
 	cd www && bundle exec jekyll build
 
-build: build.documents build.api build.site
+build: build.changes build.documents build.api build.site
 
 publish: snapshots build
 
