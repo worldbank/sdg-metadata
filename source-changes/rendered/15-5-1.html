@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Indicator 15.5.1: Red List Index</title>
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/diff2html/bundles/css/diff2html.min.css" />
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/diff2html/bundles/js/diff2html.min.js"></script>
+        <style>
+            html {
+                -webkit-print-color-adjust: exact;
+            }
+            .d2h-code-line-ctn {
+                white-space: normal;
+            }
+            ins, del, h1 p, h2 p, h3 p, h4 p, h5 p, h6 p {
+                display: inline;
+            }
+            ins.mod, ins.diffmod + li {
+                background: khaki;
+            }
+            ins.diffmod {
+                background: lightgreen;
+            }
+            del.diffmod, del.diffdel {
+                background: salmon;
+            }
+            ins.diffins {
+                background: lightgreen;
+            }
+            .sdg-diff-section {
+                padding: 20px;
+                margin: 20px 0;
+                background: #EEE;
+            }
+            header {
+                font-size: 1.2em;
+            }
+            
+        .instructions {
+            border: 1px solid black;
+            background: lightyellow;
+            padding: 20px;
+        }
+    
+        </style>
+        
+    </head>
+    <body>
+        <h1>Indicator 15.5.1: Red List Index</h1>
+        
+        <header>
+            
+        <p>
+            This comparison shows additions and deletions to metadata files in simple,
+            human-readable format. This view may be helpful to general users.
+        </p>
+    
+        </header>
+        
+        <p>
+        
+            <ins class="diffmod">2021-01-04</ins><br>
+            <del class="diffmod">4 January 2021</del>
+        
+        </p>
+        <div class="sdg-diff-section"><div class="d2h-file-header"><div class="d2h-file-name-wrapper"><div class="d2h-file-name">0.e. Metadata update (META_LAST_UPDATE)</div></div></div><p><del class="diffdel">4 January </del>2021<ins class="diffins">-01-04</ins></p></div><div class="sdg-diff-section"><div class="d2h-file-header"><div class="d2h-file-name-wrapper"><div class="d2h-file-name">3.a. Data sources (SOURCE_TYPE)</div></div></div><p><strong><del class="diffdel">Description:</del></p><del class="diffdel">
+</del><p>The Red List Index is based on data from The IUCN Red List of Threatened Species (<a href="http://www.iucnredlist.org">www.iucnredlist.org</a>), in particular the numbers of species in each Red List category of extinction risk, and changes in these numbers over time resulting from genuine improvements or deteriorations in the status of species. Data on species&#x2019; distribution, population size, trends and other parameters that underpin Red List assessments are gathered from published and unpublished sources, species experts, scientists, and conservationists through correspondence, workshops, and electronic fora. </p></div><div class="sdg-diff-section"><div class="d2h-file-header"><div class="d2h-file-name-wrapper"><div class="d2h-file-name">4.b. Comment and limitations (REC_USE_LIM)</div></div></div><p><strong><del class="diffdel">Comments and limitations:</del></p><del class="diffdel">
+</del><p>There are four main sources of uncertainty associated with Red List Index values and trends.</p>
+<ol>
+  <li>Inadequate, incomplete or inaccurate knowledge of a species&#x2019; status. This uncertainty is minimized by assigning estimates of extinction risk to categories that are broad in magnitude and timing.</li>
+  <li>Delays in knowledge about a species becoming available for assessment. Such delays apply to a small (and diminishing) proportion of status changes, and can be overcome in the Red List Index through back-casting (Butchart et al. 2007).</li>
+  <li>Inconsistency between species assessments. These can be minimized by the requirement to provide supporting documentation detailing the best available data, with justifications, sources, and estimates of uncertainty and data quality, which are checked and standardized by IUCN through Red List Authorities, a Red List Technical Working Group and an independent Standards and Petitions Sub-committee. Further, detailed Guidelines on the Application of the Categories and Criteria are maintained (IUCN SPSC 2019), as is an online training course (in English, Spanish and French).</li>
+  <li>Species that are too poorly known for the Red List Criteria to be applied are assigned to the Data Deficient category. For birds, only 0.8% of extant species are evaluated as Data Deficient, compared with 24% of amphibians. If Data Deficient species differ in the rate at which their extinction risk is changing, the Red List Index may give a biased picture of the changing extinction risk of the overall set of species. The degree of uncertainty this introduces is estimated through a bootstrapping procedure that randomly assigns each Data Deficient species a category based on the numbers of non-Data Deficient species in each Red List category for the set of species under consideration, and repeats this for 1,000 iterations, plotting the 2.5 and 97.5 percentiles as lower and upper confidence intervals for the median.</li>
+</ol>
+<p>The main limitation of the Red List Index is related to the fact that the Red List Categories are relatively broad measures of status, and thus the Red List Index for any individual taxonomic group can practically be updated at intervals of at least four years. However, as the overall index is aggregated across multiple taxonomic groups, with groups reassessed asynchronously, it can be updated annually. A further limitation is that the Red List Index does not reflect particularly well the deteriorating status of common species that remain abundant and widespread but are declining slowly.</p></div><div class="sdg-diff-section"><div class="d2h-file-header"><div class="d2h-file-name-wrapper"><div class="d2h-file-name">4.c. Method of computation (DATA_COMP)</div></div></div><p><strong><del class="diffdel">Computation Method:</del></p><del class="diffdel">
+</del><p>The Red List Index is calculated at a point in time by first multiplying the number of species in each Red List Category by a weight (ranging from 1 for &#x2018;Near Threatened&#x2019; to 5 for &#x2018;Extinct&#x2019; and &#x2018;Extinct in the Wild&#x2019;) and summing these values. This is then divided by a maximum threat score which is the total number of species multiplied by the weight assigned to the &#x2018;Extinct&#x2019; category. This final value is subtracted from 1 to give the Red List Index value.</p>
+<p>Mathematically this calculation is expressed as: </p>
+<p>RLIt = 1 &#x2013; [(Ss Wc(t,s) / (WEX * N)]</p>
+<p>Where Wc(t,s) is the weight for category (c) at time (t) for species (s) (the weight for &#x2018;Critically Endangered&#x2019; = 4, &#x2018;Endangered&#x2019; = 3, &#x2018;Vulnerable&#x2019; = 2, &#x2018;Near Threatened&#x2019; = 1, &#x2018;Least Concern&#x2019; = 0. &#x2018;Critically Endangered&#x2019; species tagged as &#x2018;Possibly Extinct&#x2019; or &#x2018;Possibly Extinct in the Wild&#x2019; are assigned a weight of 5); WEX = 5, the weight assigned to &#x2018;Extinct&#x2019; or &#x2018;Extinct in the Wild&#x2019; species; and N is the total number of assessed species, excluding those assessed as Data Deficient in the current time period, and those considered to be &#x2018;Extinct&#x2019; in the year the set of species was first assessed.</p>
+<p>The formula requires that:</p>
+<ul>
+  <li>Exactly the same set of species is included in all time periods, and</li>
+  <li>The only Red List Category changes are those resulting from genuine improvement or deterioration in status (i.e., excluding changes resulting from improved knowledge or taxonomic revisions), and</li>
+  <li>Data Deficient species are excluded (or treated according to the procedure described above).</li>
+</ul>
+<p>In many cases, species lists will change slightly from one assessment to the next (e.g., owing to taxonomic revisions). The conditions can therefore be met by retrospectively adjusting earlier Red List categorizations using current information and taxonomy. This is achieved by assuming that the current Red List Categories for the taxa have applied since the set of species was first assessed for the Red List, unless there is information to the contrary that genuine status changes have occurred. Such information is often contextual (e.g., relating to the known history of habitat loss within the range of the species). If there is insufficient information available for a newly added species, it is not incorporated into the Red List Index until it is assessed for a second time, at which point earlier assessments are retrospectively corrected by extrapolating recent trends in population, range, habitat and threats, supported by additional information. To avoid spurious results from biased selection of species, Red List Indices are typically calculated only for taxonomic groups in which all species worldwide have been assessed for the Red List, or for samples of species that have been systematically or randomly selected.</p>
+<p>The methods and scientific basis for the Red List Index were described by Butchart et al. (2004, 2005, 2007, 2010). </p>
+<p>Butchart et al. (2010) also described the methods by which Red List Indices for different taxonomic groups are aggregated to produce a single multi-taxon Red List Index. Specifically, aggregated Red List Indices are calculated as the arithmetic mean of modelled Red List Indices. Red List Indices for each taxonomic group are interpolated linearly for years between data points and extrapolated linearly (with a slope equal to that between the two closest assessed points) to align them with years for which Red List Indices for other taxa are available. The Red List Indices for each taxonomic group for each year are modelled to take into account various sources of uncertainty: </p>
+<ol>
+  <li>Data Deficiency: Red List categories (from Least Concern to Extinct) are assigned to all Data Deficient species, with a probability proportional to the number of species in non-Data Deficient categories for that taxonomic group; </li>
+  <li>Extrapolation uncertainty: although RLIs were extrapolated linearly based on the slope of the closest two assessed point, there is uncertainty about how accurate this slope may be. To incorporate this uncertainty, rather than extrapolating deterministically, the slope used for extrapolation is selected from a normal distribution with a probability equal to the slope of the closest two assessed points, and standard deviation equal to 60% of this slope (i.e., the CV is 60%); </li>
+  <li>Temporal variability: the &#x2018;true&#x2019; Red List Index likely changes from year to year, but because assessments are repeated only at multi-year intervals, the precise value for any particular year is uncertain. </li>
+</ol>
+<p>To make this uncertainty explicit, the Red List Index value for a given taxonomic group in a given year is assigned from a moving window of five years, centred on the focal year (with the window set as 3-4 years for the first two and last two years in the series). Note that assessment uncertainty cannot yet be incorporated into the index. Practically, these uncertainties are incorporated into the aggregated Red List Indices as follows: Data Deficient species were allotted a category as described above, and a Red List Index for each taxonomic group was calculated interpolating and extrapolating as described above. A final Red List Index value was assigned to each taxonomic group for each year from a window of years as described above. Each such &#x2018;run&#x2019; produced a Red List Index for the complete time period for each taxonomic group, incorporating the various sources of uncertainty. Ten thousand such runs are generated for each taxonomic group, and the mean is calculated.</p>
+<p>Methods for generating national disaggregations of the Red List Index are described below in section 5 on Data availability and disaggregation.</p></div><div class="sdg-diff-section"><div class="d2h-file-header"><div class="d2h-file-name-wrapper"><div class="d2h-file-name">4.f. Treatment of missing values (i) at country level and (ii) at regional level (IMPUTATION)</div></div></div><ul>
+  <li><strong><ins class="mod">At country level</ins></strong></li>
+</ul>
+<p>Red List Indices for each taxonomic group are interpolated linearly for years between data points and extrapolated linearly (with a slope equal to that between the two closest assessed points, except for corals) back to the earliest time point and forwards to the present for years for which estimates are not available. The start year of the aggregated index is set as ten years before the first assessment year for the taxonomic group with the latest starting point. Corals are not extrapolated linearly because declines are known to have been much steeper subsequent to 1996 (owing to extreme bleaching events) than before. Therefore the rate of decline prior to 1996 is set as the average of the rates for the other taxonomic groups.</p>
+<ul>
+  <li><strong><ins class="mod">At regional and global levels</ins></strong></li>
+</ul>
+<p>The Red List Index is calculated globally based on assessments of extinction risk of each species included, because many species have distributions that span many countries. Thus, while there is certainly uncertainty around the Red List Index, there are no missing values as such, and so no imputation is necessary.</p></div><div class="sdg-diff-section"><div class="d2h-file-header"><div class="d2h-file-name-wrapper"><div class="d2h-file-name">5. Data availability and disaggregation (COVERAGE)</div></div></div><p><strong><ins class="mod">Data availability:</ins></strong></p>
+<p>The Red List Index has been classified by the IAEG-SDGs as Tier 1. Current data are available for all countries in the world, and these are updated annually. Index values for each country are available in the UN SDG Indicators Database <a href="https://unstats.un.org/sdgs/indicators/database/">https://unstats.un.org/sdgs/indicators/database/</a>. Red List Index graphs and underlying index data are available for each country, SDG regions, IPBES region, CMS region and various thematic disaggregations at <a href="https://www.iucnredlist.org/search">https://www.iucnredlist.org/search</a>. Red List Index graphs are also available for each country in the BIP Indicators Dashboard (<a href="https://bipdashboard.natureserve.org/bip/SelectCountry.html">https://bipdashboard.natureserve.org/bip/SelectCountry.html</a>), the Integrated Biodiversity Assessment Tool Country Profiles (<a href="https://ibat-alliance.org/country_profiles">https://ibat-alliance.org/country_profiles</a>), and (for birds) on the BirdLife International Data Zone (http://datazone.birdlife.org/species/dashboard).</p>
+<p><strong><ins class="mod">Disaggregation:</ins></strong></p>
+<p>The Red List Index can be downscaled to show national and regional Red List Indices, weighted by the fraction of each species&#x2019; distribution occurring within the country or region, building on the method published by Rodrigues et al. (2014) PLoS ONE 9(11): e113934. These show an index of how well species are conserved in a country or region to its potential contribution to global species conservation (for the taxonomic groups of species included). The index is calculated as: </p>
+<p>RLI(t,u) = 1 &#x2013; [(Ss(W(t,s) * (rsu/Rs)) / (WEX * Ss (rsu/Rs))</p>
+<p>where t is the year of comprehensive reassessment, u is the spatial unit (i.e. country), W_((t,s)) is the weight of the global Red List category for species s at time t (Least Concern =0, Near Threatened =1, Vulnerable =2, Endangered =3, Critically Endangered =4, Critically Endangered (Possibly Extinct) =5, Critically Endangered (Possibly Extinct in the Wild) =5, Extinct in the Wild =5 and Extinct =5), WEX = 5 is the weight for Extinct species, r_su is the fraction of the total range of species s in unit u, and R_s is the total range size of species s.</p>
+<p>The index varies from 1 if the country has contributed the minimum it can to the global RLI (i.e., if the numerator is 0 because all species in the country are Least Concern) to 0 if the country has contributed the maximum it can to the global RLI (i.e., if the numerator equals the denominator because all species in the country are Extinct or Possibly Extinct). </p>
+<p>The taxonomic groups included are those in which all species have been assessed for the IUCN Red List more than once. Red List categories for years in which comprehensive assessments (i.e. those in which all species in the taxonomic group have been assessed) were carried out are determined following the approach of Butchart et al. 2007; PLoS ONE 2(1): e140, i.e. they match the current categories except for those taxa that have undergone genuine improvement or deterioration in extinction risk of sufficient magnitude to qualify for a higher or lower Red List category.</p>
+<p>The indicator can also be disaggregated by ecosystems, habitats, and other political and geographic divisions (e.g., Han et al. 2014), by taxonomic subsets (e.g., Hoffmann et al. 2011), by suites of species relevant to particular international treaties or legislation (e.g., Croxall et al. 2012), by suites of species exposed to particular threatening processes (e.g., Butchart 2008), and by suites of species that deliver particular ecosystem services, or have particular biological or life-history traits (e.g., Regan et al. 2015). In each case, information can be obtained from The IUCN Red List of Threatened Species to determine which species are relevant to particular subsets (e.g. which occur in particular ecosystems, habitats, and geographic areas of interest). These disaggregations are available on the IUCN Red List website at https://www.iucnredlist.org/search.</p>
+<p>Disaggregations of the Red List Index are also of particular relevance as indicators towards the following SDG targets (Brooks et al. 2015): SDG 2.4 Red List Index (species used for food and medicine); SDG 2.5 Red List Index (wild relatives and local breeds); SDG 12.2 Red List Index (impacts of utilisation) (Butchart 2008); SDG 12.4 Red List Index (impacts of pollution); SDG 13.1 Red List Index (impacts of climate change); SDG 14.1 Red List Index (impacts of pollution on marine species); SDG 14.2 Red List Index (marine species); SDG 14.3 Red List Index (reef-building coral species) (Carpenter et al. 2008); SDG 14.4 Red List Index (impacts of utilisation on marine species); SDG 15.1 Red List Index (terrestrial &amp; freshwater species); SDG 15.2 Red List Index (forest-specialist species); SDG 15.4 Red List Index (mountain species); SDG 15.7 Red List Index (impacts of utilisation) (Butchart 2008); and SDG 15.8 Red List Index (impacts of invasive alien species) (Butchart 2008, McGeoch et al. 2010).</p></div><div class="sdg-diff-section"><div class="d2h-file-header"><div class="d2h-file-name-wrapper"><div class="d2h-file-name">6. Comparability/deviation from international standards (COMPARABILITY)</div></div></div><p><strong><ins class="mod">Sources of discrepancies:</ins></strong></p>
+<p>Some countries have assessed the national extinction risk of species occurring in the country, and have repeated such assessments, allowing a national Red List Index to be produced. This may differ from the indicator described here because (a) it considers national rather than global extinction risk, and (b) because it takes no account of the national responsibility for the conservation of each species, treating as equal both those species that occur nowhere outside the country (i.e. national endemics) and those with large ranges that occur in many other countries. Any such differences will be smaller for countries within which a high proportion of species are endemic (i.e., only found in that country), as in many island nations and mountainous countries, especially in the tropics. The differences will be larger for countries within which a high proportion of species have widespread distributions across many nations.</p></div>
+        
+        
+    </body>
+</html>

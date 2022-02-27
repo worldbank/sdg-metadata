@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Indicator 3.3.5: Number of people requiring interventions against neglected tropical diseases </title>
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/diff2html/bundles/css/diff2html.min.css" />
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/diff2html/bundles/js/diff2html.min.js"></script>
+        <style>
+            html {
+                -webkit-print-color-adjust: exact;
+            }
+            .d2h-code-line-ctn {
+                white-space: normal;
+            }
+            ins, del, h1 p, h2 p, h3 p, h4 p, h5 p, h6 p {
+                display: inline;
+            }
+            ins.mod, ins.diffmod + li {
+                background: khaki;
+            }
+            ins.diffmod {
+                background: lightgreen;
+            }
+            del.diffmod, del.diffdel {
+                background: salmon;
+            }
+            ins.diffins {
+                background: lightgreen;
+            }
+            .sdg-diff-section {
+                padding: 20px;
+                margin: 20px 0;
+                background: #EEE;
+            }
+            header {
+                font-size: 1.2em;
+            }
+            
+        .instructions {
+            border: 1px solid black;
+            background: lightyellow;
+            padding: 20px;
+        }
+    
+        </style>
+        
+    </head>
+    <body>
+        <h1>Indicator 3.3.5: Number of people requiring interventions against neglected tropical diseases </h1>
+        
+        <header>
+            
+        <p>
+            This comparison shows additions and deletions to metadata files in simple,
+            human-readable format. This view may be helpful to general users.
+        </p>
+    
+        </header>
+        
+        <p>
+        
+            <ins class="diffmod">2021-02-07</ins><br>
+            <del class="diffmod">7 February 2021</del>
+        
+        </p>
+        <div class="sdg-diff-section"><div class="d2h-file-header"><div class="d2h-file-name-wrapper"><div class="d2h-file-name">0.a. Goal (SDG_GOAL)</div></div></div><p>Goal 3: Ensure healthy lives and promote well-being for all at all ages<del class="diffdel">&nbsp;</del></p></div><div class="sdg-diff-section"><div class="d2h-file-header"><div class="d2h-file-name-wrapper"><div class="d2h-file-name">0.b. Target (SDG_TARGET)</div></div></div><p>Target 3.3: By 2030, end the epidemics of AIDS, tuberculosis, malaria and neglected tropical diseases and combat hepatitis, water-borne diseases and other communicable diseases<del class="diffdel">&nbsp;</del></p></div><div class="sdg-diff-section"><div class="d2h-file-header"><div class="d2h-file-name-wrapper"><div class="d2h-file-name">0.e. Metadata update (META_LAST_UPDATE)</div></div></div><p><del class="diffdel">7 February </del>2021<ins class="diffins">-02-07</ins></p></div><div class="sdg-diff-section"><div class="d2h-file-header"><div class="d2h-file-name-wrapper"><div class="d2h-file-name">4.f. Treatment of missing values (i) at country level and (ii) at regional level (IMPUTATION)</div></div></div><ul>
+  <li><strong><ins class="mod">At country level </ins></strong></li>
+</ul>
+<p> </p>
+<p>We do not impute missing values for countries that have never reported data for any NTD. For countries that have reported data in the past, we impute missing values only for those NTDs that have been reported in the past but that have not been reported in the current year. </p>
+<p> </p>
+<p>For reproducibility, we employ multiple imputation techniques using the freely available Amelia package in R. We impute 100 complete datasets using all available cross-sectional data (countries and years), applying a square root transformation to exclude negative values of incidence, as well as categorical variables denoting regions and income groups, and allowing for country-specific linear time effects. We aggregate across diseases and extract the mean and 2.5th and 97.5th centile values to report best estimates and uncertainty intervals for each country. </p>
+<p> </p>
+<ul>
+  <li><strong><ins class="mod">At regional and global levels </ins></strong></li>
+</ul>
+<p> </p>
+<p>Using the 100 imputed datasets, we aggregate across diseases and regions, extract the mean and 2.5th and 97.5th centile values to report best estimates and uncertainty intervals at the regional and global levels. </p></div><div class="sdg-diff-section"><div class="d2h-file-header"><div class="d2h-file-name-wrapper"><div class="d2h-file-name">5. Data availability and disaggregation (COVERAGE)</div></div></div><p><strong><ins class="mod">Data availability: </ins></strong></p>
+<p>Data are currently being reported by 191 countries, with good coverage of all regions. </p>
+<p><strong><ins class="mod">Time series:</ins></strong></p>
+<p>2010-2019</p>
+<p><strong><ins class="mod">Disaggregation: </ins></strong></p>
+<p>Disaggregation by disease is required; ending the epidemic of NTDs requires a reduction in the number of people requiring interventions for each NTD.</p>
+<p>Disaggregation by age is required for PC: preschool-aged children (1-4 years), school-aged (5-14 years) and adults (= 15 years). </p></div><div class="sdg-diff-section"><div class="d2h-file-header"><div class="d2h-file-name-wrapper"><div class="d2h-file-name">6. Comparability/deviation from international standards (COMPARABILITY)</div></div></div><p><strong><ins class="mod">Sources of discrepancies:</ins></strong></p>
+<p>Countries do not typically aggregate their data across NTDs, but if they applied the aggregation method as described above, they would obtain the same number. The only exceptions would be countries with one or more missing values for individual NTDs. In these exceptional cases, internationally estimated aggregates will be higher than country produced aggregates that assume missing values are nil. We present best estimates with uncertainty intervals to highlight those missing values that have a significant impact on country aggregates, until such time that missing values are reported. </p></div>
+        
+        
+    </body>
+</html>
