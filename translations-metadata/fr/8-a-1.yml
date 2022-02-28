@@ -45,23 +45,22 @@ STAT_CONC_DEF: >-
   <p> « Tous les donateurs » se réfèrent aux donateurs du CAD, aux donateurs non membres
   du CAD et aux organisations multilatérales. </p>
 SOURCE_TYPE: >-
-  <h1> Sources de données </h1>
+  <p>Le CAD de l'OCDE recueille des données sur les flux de ressources officielles
+  et privées depuis 1960 au niveau agrégé et depuis 1973 au niveau des activités par
+  le biais du Système de notification des pays créanciers (les données du SNPC sont
+  considérées comme complètes depuis 1995 pour les engagements au niveau des activités
+  et depuis 2002 pour les décaissements). </p>
 
-  <h2> Description :</h2>
+  <p> </p>
 
-  <p> L'OCDE / CAD a collecté des données sur les flux de ressources officielles et
-  privées à partir de 1960 au niveau agrégé et de 1973 au niveau des activités par
-  le biais du système de notification des créanciers (les données du CRS sont considérées
-  comme complètes à partir de 1995 pour les engagements au niveau des activités et
-  de 2002 pour les décaissements). </p>
+  <p>Les données sont déclarées par les donateurs selon les mêmes normes et méthodologies
+  (consulter le lien : http://www.oecd.org/fr/cad/financementpourledeveloppementdurable/normes-financement-developpement/).</p>
 
-  <p> Les données sont communiquées par les donateurs selon les mêmes normes et méthodologies
-  (voir ici : <a href="http ://www.oecd.org/dac/stats/methodology.htm"> http ://www.oecd.org/dac/stats/methodology.htm
-  </a>). </p>
+  <p> </p>
 
-  <p> Les données sont communiquées sur la base d'une année civile annuelle par les
-  statisticiens des administrations nationales (agences d'aide, ministères des affaires
-  étrangères ou des finances, etc). </p>
+  <p>Les données sont déclarées sur la base d'une année civile par les déclarants
+  statistiques des administrations nationales (agences d'aide, ministères des affaires
+  étrangères ou des finances, etc.).</p>
 COLL_METHOD: >-
   <p>Un déclarant statistique est responsable de la collecte des statistiques du CAD
   dans chaque pays/organisme fournisseur. Ce déclarant se trouve généralement dans
@@ -77,13 +76,10 @@ FREQ_COLL: >-
 REL_CAL_POLICY: |-
   <p>Décembre 2016. </p>
 DATA_SOURCE: >-
-  <h1>Fournisseurs de données</h1>
-
   <p>Les données sont déclarées sur la base d'une année civile par les déclarants
   statistiques des administrations nationales (agences d'aide, ministères des affaires
-  étrangères ou des finances, etc.</p>
+  étrangères ou des finances, etc.).</p>
 COMPILING_ORG: |-
-  <h1>Compilateurs de données </h1>
   <p>OCDE</p>
 RATIONALE: >-
   <h2> Justification :</h2>
@@ -106,20 +102,24 @@ DATA_COMP: >-
   <p>La somme des flux d'APD et d'AFO de tous les donateurs vers les pays en développement
   pour l’aide au commerce.</p>
 IMPUTATION: >-
-  <h2>Traitement des valeurs manquantes :</h2>
-
   <ul>
-    <li>Au niveau national :</li>
+    <li><strong>Au niveau national :</strong></li>
   </ul>
+
+  <p> </p>
 
   <p>En raison de la qualité élevée des rapports, aucune estimation n'est produite
   pour les données manquantes.</p>
 
+  <p> </p>
+
   <ul>
-    <li>Aux niveaux régional et mondial :</li>
+    <li><strong>Aux niveaux régional et mondial :</strong></li>
   </ul>
 
-  <p> Sans objet. </p>
+  <p> </p>
+
+  <p>Sans objet. </p>
 REG_AGG: >-
   <h2> Agrégats régionaux :</h2>
 
@@ -141,7 +141,7 @@ COVERAGE: >-
   le type de financement, le type d’aide, la politique et la réglementation commerciales
   et les sous-secteurs d’ajustement liés au commerce, etc. </p>
 COMPARABILITY: >-
-  <h2>Sources des divergences :</h2>
+  <p><strong>Sources des divergences :</strong></p>
 
   <p>Les statistiques du CAD sont normalisées sur la base d’une année civile pour
   tous les donateurs et peuvent différer des données de l’exercice disponible dans
