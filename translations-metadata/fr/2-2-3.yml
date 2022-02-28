@@ -1,6 +1,6 @@
 SDG_GOAL: >-
-  <p>Objectif 2 : Éliminer la faim, assurer la sécurité alimentaire, améliorer la
-  nutrition et promouvoir l’agriculture durable</p>
+  <p>Objectif 2 : Éliminer la faim, assurer la sécurité alimentaire, améliorer la
+  nutrition et promouvoir l'agriculture durable</p>
 SDG_TARGET: "<p>Objectif 2.2 : D'ici 2030, mettre fin à toutes formes de malnutrition,\
   \ notamment en atteignant d'ici 2025 les objectifs convenus au niveau international\
   \ concernant le retard de croissance et l'émaciation chez les enfants de moins de\
@@ -81,14 +81,14 @@ SDG_RELATED_INDICATORS: >-
 SDG_CUSTODIAN_AGENCIES: |-
   <p>Organisation mondiale de la Santé (OMS)</p>
 STAT_CONC_DEF: >-
-  <p>Définition :</p>
+  <p><strong>Définition :</strong></p>
 
   <p>Pourcentage de femmes âgées de 15 à 49 ans ayant une concentration d'hémoglobine
   inférieure à 120 g/L pour les femmes non enceintes et les femmes allaitantes, et
   inférieure à 110 g/L pour les femmes enceintes, ajusté en fonction de l'altitude
   et du tabagisme.</p>
 
-  <p>Concepts :</p>
+  <p><strong>Concepts :</strong></p>
 
   <p>Anémie : état dans lequel la concentration d'hémoglobine sanguine tombe en dessous
   des valeurs limites établies. </p>
@@ -152,7 +152,7 @@ DATA_SOURCE: >-
     <li>Institutions nationales de recherche et d'enseignement, </li>
     <li>Organisations non gouvernementales, et </li>
     <li>Organisations du système des <a href="http://www.unsceb.org/directory">Nations
-  Unies</a> (lien en anglais seulement).</li>
+  Unies</a> (lien en anglais).</li>
   </ul>
 COMPILING_ORG: >-
   <p>L'OMS compile les données qui vont dans la base de données des micronutriments
@@ -215,7 +215,7 @@ DATA_COMP: >-
   les années sans données. </p>
 IMPUTATION: >-
   <ul>
-    <li>Au niveau national :</li>
+    <li><strong>Au niveau national :</strong></li>
   </ul>
 
   <p>Un modèle de mélange hiérarchique bayésien a été utilisé pour estimer les distributions
@@ -229,7 +229,7 @@ IMPUTATION: >-
   Health 2013; 1: e16–25 ». Disponible à l'adresse https://www.thelancet.com/cms/10.1016/S2214-109X(13)70001-9/attachment/e073f9da-1330-4a1d-a1a0-67caf08c11bf/mmc1.pdf</p>
 
   <ul>
-    <li>Aux niveaux régional et mondial :</li>
+    <li><strong>Aux niveaux régional et mondial :</strong></li>
   </ul>
 
   <p>Les distributions pour les régions ont été calculées comme des moyennes pondérées
