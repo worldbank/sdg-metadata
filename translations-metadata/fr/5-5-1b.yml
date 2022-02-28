@@ -5,9 +5,9 @@ SDG_TARGET: "<p>Cible 5.5 : Veiller à ce que les femmes participent pleinement 
   \ effectivement aux fonctions de direction à tous les niveaux de décision, dans\
   \ la vie politique, économique et publique, et y accèdent à chance égale</p>"
 SDG_INDICATOR: >-
-  <p>Indicateur 5.5.1(b) : Proportion de sièges occupés par des femmes dans les gouvernements
-  locaux</p>
-META_LAST_UPDATE: '<p>30 janvier 2018</p>'
+  <p>Indicateur 5.5.1 : Proportion de sièges occupés par des femmes (a) dans les parlements
+  nationaux et (b) dans les gouvernements locaux</p>
+META_LAST_UPDATE: '<p>2018-01-30</p>'
 SDG_CUSTODIAN_AGENCIES: |-
   <p>ONU Femmes</p>
 STAT_CONC_DEF: >-
@@ -19,7 +19,7 @@ STAT_CONC_DEF: >-
   <p>Il est exprimé en pourcentage des postes élus occupés par des femmes dans les
   organes législatifs et délibérants de l’administration locale. </p>
 
-  <h2>Concepts : </h2>
+  <p><strong>Concepts :</strong></p>
 
   <p>Le <strong><u>gouvernement local</u></strong> est l’une des sphères infranationales
   du gouvernement et le résultat de la décentralisation, un processus de transfert
@@ -200,19 +200,126 @@ REC_USE_LIM: >-
 DATA_COMP: >-
   <p>La méthode de calcul est la suivante : </p>
 
-  <p><em>Indicateur</em> 5.5.1(b) = <em>(Nombre de sièges détenus par des femmes)</em>
-  X 100) / <em>Nombre total de sièges détenus par des femmes et des hommes</em></p>
-
+  <p><math xmlns="http://www.w3.org/1998/Math/MathML">
+      <mi>I</mi>
+      <mi>n</mi>
+      <mi>d</mi>
+      <mi>i</mi>
+      <mi>c</mi>
+      <mi>a</mi>
+      <mi>t</mi>
+      <mi>e</mi>
+      <mi>u</mi>
+      <mi>r</mi>
+      <mi mathvariant="normal">&amp;nbsp;</mi>
+      <mn>5</mn>
+      <mo>.</mo>
+      <mn>5</mn>
+      <mo>.</mo>
+      <mn>1</mn>
+      <mo>(</mo>
+      <mi>b</mi>
+      <mo>)</mo>
+      <mo>=</mo>
+      <mi mathvariant="normal">&amp;nbsp;</mi>
+      <mfrac>
+        <mrow>
+          <mfenced separators="|">
+            <mrow>
+              <mi>N</mi>
+              <mi>o</mi>
+              <mi>m</mi>
+              <mi>b</mi>
+              <mi>r</mi>
+              <mi>e</mi>
+              <mi mathvariant="normal">&amp;nbsp;</mi>
+              <mi>s</mi>
+              <mi>i</mi>
+              <mi>è</mi>
+              <mi>g</mi>
+              <mi>e</mi>
+              <mi>s</mi>
+              <mi mathvariant="normal">&amp;nbsp;</mi>
+              <mi>d</mi>
+              <mi>é</mi>
+              <mi>t</mi>
+              <mi>e</mi>
+              <mi>n</mi>
+              <mi>u</mi>
+              <mi>s</mi>
+              <mi mathvariant="normal">&amp;nbsp;</mi>
+              <mi>f</mi>
+              <mi>e</mi>
+              <mi>m</mi>
+              <mi>m</mi>
+              <mi>e</mi>
+              <mi>s</mi>
+            </mrow>
+          </mfenced>
+          <mi mathvariant="normal">&amp;nbsp;</mi>
+          <mo>&#xD7;</mo>
+          <mi mathvariant="normal">&amp;nbsp;</mi>
+          <mn>100</mn>
+        </mrow>
+        <mrow>
+          <mi>N</mi>
+          <mi>o</mi>
+          <mi>m</mi>
+          <mi>b</mi>
+          <mi>r</mi>
+          <mi>e</mi>
+          <mi mathvariant="normal">&amp;nbsp;</mi>
+          <mi>t</mi>
+          <mi>o</mi>
+          <mi>t</mi>
+          <mi>a</mi>
+          <mi>l</mi>
+          <mi mathvariant="normal">&amp;nbsp;</mi>
+          <mi>s</mi>
+          <mi>i</mi>
+          <mi>è</mi>
+          <mi>g</mi>
+          <mi>e</mi>
+          <mi>s</mi>
+          <mi mathvariant="normal">&amp;nbsp;</mi>
+          <mi>d</mi>
+          <mi>é</mi>
+          <mi>t</mi>
+          <mi>e</mi>
+          <mi>n</mi>
+          <mi>u</mi>
+          <mi>s</mi>
+          <mi mathvariant="normal">&amp;nbsp;</mi>
+          <mi>f</mi>
+          <mi>e</mi>
+          <mi>m</mi>
+          <mi>m</mi>
+          <mi>e</mi>
+          <mi>s</mi>
+          <mi mathvariant="normal">&amp;nbsp;</mi>
+          <mi>e</mi>
+          <mi>t</mi>
+          <mi mathvariant="normal">&amp;nbsp;</mi>
+          <mi>h</mi>
+          <mi>o</mi>
+          <mi>m</mi>
+          <mi>m</mi>
+          <mi>e</mi>
+          <mi>s</mi>
+        </mrow>
+      </mfrac>
+      <mi mathvariant="normal">&amp;nbsp;</mi>
+    </math></p>
   <h2>Unité :</h2>
 
   <p>%</p>
 IMPUTATION: |-
-  <p>&#x2022; Au niveau national</p>
+  <p>&#x2022; <strong>Au niveau national :</strong></p>
   <p>Non imputées</p>
-  <p>&#x2022; Aux niveaux régional et mondial</p>
+  <p>&#x2022; <strong>Aux niveaux régional et mondial :</strong></p>
   <p>Non imputées</p>
 COVERAGE: >-
-  <p>Disponibilité des données :</p>
+  <p><strong>Disponibilité des données :</strong></p>
 
   <p>Les données sur la représentation des femmes et des hommes aux postes élus des
   organes législatifs/délibérants des gouvernements locaux sont actuellement disponibles
@@ -223,16 +330,16 @@ COVERAGE: >-
   que la méthodologie de l’indicateur aura été utilisée de manière cohérente dans
   tous les pays et toutes les régions. </p>
 
-  <p>Séries chronologiques :</p>
+  <p><strong>Séries chronologiques :</strong></p>
 
-  <p>Désagrégation : </p>
+  <p><strong>Désagrégation :</strong></p>
 
   <p>Les données sur les postes élus dans les organes législatifs/délibérants des
   collectivités locales doivent être ventilées par sexe pour permettre le calcul de
   l’indicateur. Aucune désagrégation supplémentaire n’est requise pour la déclaration
   des ODD. </p>
 COMPARABILITY: >-
-  <p>Sources des divergences :</p>
+  <p><strong>Sources des divergences :</strong></p>
 
   <p>Il n’y a pas de divergences. Les données sont déclarées par des entités des systèmes
   statistiques nationaux, y compris les organismes de gestion électorale et les bureaux
