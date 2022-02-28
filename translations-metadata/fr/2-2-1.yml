@@ -10,14 +10,14 @@ SDG_TARGET: >-
 SDG_INDICATOR: "<p>Indicateur 2.2.1 : Prévalence du retard de croissance (indice taille/âge\
   \ inférieur à -2 écarts types par rapport à la médiane des normes de croissance\
   \ de l’enfant définies par l’OMS) chez les enfants de moins de 5 ans</p>"
-META_LAST_UPDATE: '<p>2 Décembre 2016 </p>'
+META_LAST_UPDATE: '<p>2016-12-02</p>'
 SDG_RELATED_INDICATORS: <p>Couplages avec tout autre objectif et cible</p>
 SDG_CUSTODIAN_AGENCIES: |-
   <p>Fonds des Nations Unies pour l'enfance (UNICEF)</p>
   <p>Organisation mondiale de la Santé (OMS)</p>
   <p>Banque mondiale (BM)</p>
 STAT_CONC_DEF: >-
-  <p>Définition :</p>
+  <p><strong>Définition :</strong></p>
 
   <p>Prévalence du retard de croissance (taille pour l'âge &lt; -2 écarts types par
   rapport à la médiane des normes de croissance de l'Organisation mondiale de la Santé
@@ -25,7 +25,7 @@ STAT_CONC_DEF: >-
 
   <p>(français : pourcentage de sous-alimentation; espagnol : porcentaje de sub-alimentación)</p>
 
-  <p>Concepts :</p>
+  <p><strong>Concepts :</strong></p>
 
   <p>Sans objet</p>
 SOURCE_TYPE: >-
@@ -34,7 +34,7 @@ SOURCE_TYPE: >-
   les données des systèmes de surveillance sont utilisées si une couverture suffisante
   de la population est documentée (environ 80 %). Pour les deux sources de données,
   les mesures de la taille et du poids de l'enfant doivent être recueillies selon
-  les techniques de mesure standard recommandées (OMS 2008). </p>
+  les techniques de mesure standard recommandées (OMS 2008).</p>
 COLL_METHOD: >-
   <p>L'UNICEF, l'OMS et la Banque mondiale examinent conjointement de nouvelles sources
   de données pour mettre à jour les estimations au niveau des pays. Chaque agence
@@ -68,8 +68,8 @@ COLL_METHOD: >-
   des LSMS ne présentent souvent pas les données sur le retard de croissance.</p>
 FREQ_COLL: >-
   <p>Les sources de données sont actuellement mises à jour afin d'alimenter la production
-  en 2017 d'estimations mondiales et régionales et de l'ensemble de données nationales
-  mises à jour qui seront publiées en mai 2017.</p>
+  d'estimations mondiales et régionales pour 2017 et l'ensemble de données nationales
+  mises à jour qui seront publiées en mai 2017. </p>
 REL_CAL_POLICY: >-
   <p>La prochaine publication des estimations mondiales/régionales et de l'ensemble
   des données nationales actualisées est prévue pour mai 2017. Les estimations mondiales
@@ -107,14 +107,14 @@ DATA_COMP: >-
   child malnutrition estimates - Levels and trends (UNICEF/WHO/WB 2012) ».</p>
 IMPUTATION: >-
   <ul>
-    <li>Au niveau national :</li>
+    <li><strong>Au niveau national :</strong></li>
   </ul>
 
   <p>Aucune méthode d'imputation n'est appliquée pour obtenir des estimations pour
   les pays ou les années où aucune donnée n'est disponible.</p>
 
   <ul>
-    <li>Aux niveaux régional et mondial :</li>
+    <li><strong>Aux niveaux régional et mondial :</strong></li>
   </ul>
 
   <p>Les pays et les années sont traités comme manquants de manière aléatoire selon
@@ -126,25 +126,25 @@ REG_AGG: >-
 COVERAGE: >-
   <p><strong>Disponibilité des données :</strong></p>
 
-  <p>Plus de 150 pays.</p>
+  <p>Plus de 150 pays. </p>
 
   <p><strong>Séries chronologiques :</strong></p>
 
-  <p>Au niveau national, les données sont fournies pour les années où les enquêtes
-  sont incluses dans l'ensemble de données communes. Les années d'enquête vont de
-  1983 à 2016. Pour les niveaux mondial et régional, les estimations pour les années
-  allant de 1990 à la dernière publication d'estimations (c'est-à-dire que dans l'édition
-  de septembre 2016 des estimations conjointes de la malnutrition (JME), la dernière
-  estimation disponible était pour 2015). </p>
+  <p>Au niveau des pays, des données sont fournies pour les années où les enquêtes
+  sont incluses dans l’ensemble de données conjoint. Les années d’enquête vont de
+  1983 à 2016. Pour les niveaux mondial et régional, les estimations de 1990 à la
+  dernière année disponible lors de la diffusion chaque année (c’est-à-dire que dans
+  l’édition de septembre 2016 des estimations conjointes de la malnutrition (JME),
+  la dernière estimation disponible était pour 2015). </p>
 
   <p><strong>Désagrégation :</strong></p>
 
-  <p>Les estimations mondiales et régionales se réfèrent au groupe d'âge des enfants
-  de moins de 5 ans, tous sexes confondus. Des données nationales désagrégées sont
-  disponibles dans une majorité d'enquêtes auprès des ménages et le groupe UNICEF
-  - OMS - Banque mondiale élargit la série de données communes pour inclure des estimations
-  infranationales et stratifiées (par exemple, sexe, groupes d'âge, richesse, éducation
-  des mères, résidence) en 2017. </p>
+  <p>Les estimations mondiales et régionales se réfèrent au groupe d’âge des enfants
+  de moins de 5 ans, tous sexes confondus. Des données ventilées par pays sont disponibles
+  dans la majorité des enquêtes auprès des ménages et le groupe UNICEF - OMS - Banque
+  mondiale élargit l’ensemble de données conjoint pour inclure des estimations infranationales
+  et stratifiées (par exemple, sexe, groupes d’âge, richesse, éducation des mères,
+  résidence) en 2017.</p>
 COMPARABILITY: >-
   <p><strong>Sources des divergences :</strong></p>
 
