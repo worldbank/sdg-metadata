@@ -1,7 +1,7 @@
 ADJUSTMENT: <p>Sans objet</p>
 META_LAST_UPDATE: <p>2021-03-01</p>
-SDG_GOAL: '<p>Objectif 2 : Éliminer la faim, assurer la sécurité alimentaire, améliorer
-  la nutrition et promouvoir l’agriculture durable</p>'
+SDG_GOAL: '<p>Objectif 2 : Éliminer la faim, assurer la sécurité alimentaire, améliorer
+  la nutrition et promouvoir l''agriculture durable</p>'
 SDG_CUSTODIAN_AGENCIES: <p>Organisation des Nations Unies pour l'alimentation et l'agriculture
   (FAO)</p>
 CONTACT_ORGANISATION: <p>Organisation des Nations Unies pour l'alimentation et l'agriculture
@@ -27,19 +27,20 @@ QUALITY_ASSMNT: <p>Tous les deux ans, la FAO organise un atelier mondial de coor
   nationaux pour évaluer et discuter de la collecte de données sur lesquelles est
   basé l'indicateur. L'indicateur lui-même est automatiquement calculé dans le DAD-IS.
   </p>
-STAT_CONC_DEF: "<p>Définition : </p>\n<p>L’indicateur présente le pourcentage de races\
-  \ de bétail locales dont le statut est classé comme étant en danger d’extinction\
-  \ à un moment donné, ainsi que les tendances de ce pourcentage. </p>\n<p>Concepts :\
-  \ </p>\n<p>Un indicateur similaire a été proposé à l’origine pour la cible 15.5,\
-  \ et il sert également d’indicateur pour la cible 13 d’Aichi « Diversité génétique\
-  \ des animaux domestiques terrestres » en vertu de la Convention sur la diversité\
-  \ biologique (CDB). Il est décrit sur la page Web du Partenariat pour les indicateurs\
-  \ de biodiversité (BIP), un réseau d’organisations qui se sont réunies pour fournir\
-  \ les informations les plus récentes possibles sur la biodiversité afin de suivre\
-  \ les progrès accomplis dans la réalisation des objectifs d’Aichi ((en anglais)\
-  \ http://www.bipindicators.net/domesticatedanimals). En outre, il est présenté dans\
-  \ les Perspectives mondiales de la diversité biologique 4, page 91 (voir https://www.cbd.int/gbo/gbo4/publication/gbo4-fr-hr.pdf)\
-  \ qui est un résultat des processus dans le cadre de la CDB. </p>"
+STAT_CONC_DEF: "<p><strong>Définition :</strong></p>\n<p>L’indicateur présente le\
+  \ pourcentage de races de bétail locales dont le statut est classé comme étant en\
+  \ danger d’extinction à un moment donné, ainsi que les tendances de ce pourcentage.\
+  \ </p>\n<p><strong>Concepts :</strong></p>\n<p>Un indicateur similaire a été proposé\
+  \ à l’origine pour la cible 15.5, et il sert également d’indicateur pour la cible\
+  \ 13 d’Aichi « Diversité génétique des animaux domestiques terrestres » en vertu\
+  \ de la Convention sur la diversité biologique (CDB). Il est décrit sur la page\
+  \ Web du Partenariat pour les indicateurs de biodiversité (BIP), un réseau d’organisations\
+  \ qui se sont réunies pour fournir les informations les plus récentes possibles\
+  \ sur la biodiversité afin de suivre les progrès accomplis dans la réalisation des\
+  \ objectifs d’Aichi ((en anglais) http://www.bipindicators.net/domesticatedanimals).\
+  \ En outre, il est présenté dans les Perspectives mondiales de la diversité biologique\
+  \ 4, page 91 (voir https://www.cbd.int/gbo/gbo4/publication/gbo4-fr-hr.pdf) qui\
+  \ est un résultat des processus dans le cadre de la CDB. </p>"
 UNIT_MEASURE: <p>Proportion de races locales </p>
 CLASS_SYSTEM: '<p>Les normes et classifications internationales utilisées ont été
   approuvées par la Commission des ressources génétiques pour l’alimentation et l’agriculture
@@ -101,17 +102,18 @@ REG_AGG: "<p>Indicateur ODD agrégé Pj pour k pays (avec au moins une race loca
   \    </mfrac>\n    <mo>)</mo>\n  </math></p>\n<p>Les résultats régionaux et mondiaux\
   \ ne sont communiqués que si plus de 50% des pays de la région ou du monde ne sont\
   \ pas manquants</p>"
-IMPUTATION: "<p>Au niveau de la race</p>\n<p>Si aucune donnée de population n'est\
-  \ fournie pour une année donnée, il est supposé que le statut de risque reste le\
-  \ même que pour la dernière année pour laquelle des données de population ont été\
-  \ communiquées. Dans ce cas, la nature des données est considérée comme étant estimée.\
-  \ Toutefois, si le rapport le plus récent se réfère à une année antérieure de plus\
-  \ de 10 ans, le statut de risque est considéré comme « inconnu ». </p>.\n<p>· Au\
-  \ niveau national</p>\n<p>Les informations sur le pays sont considérées comme manquantes\
-  \ si 100 % des races locales d'un pays ont un statut de risque « inconnu ». Si 100\
-  \ % des valeurs du statut de risque des races d'un pays sont des estimations (voir\
-  \ ci-dessus), la nature des données du pays est également considérée comme une estimation.</p>\n\
-  <p>· Aux niveaux régional et mondial</p>\n<p>Voir les règles d'agrégation sous 4.g</p>"
+IMPUTATION: "<p><strong>Au niveau de la race</strong></p>\n<p>Si aucune donnée de\
+  \ population n'est fournie pour une année donnée, il est supposé que le statut de\
+  \ risque reste le même que pour la dernière année pour laquelle des données de population\
+  \ ont été communiquées. Dans ce cas, la nature des données est considérée comme\
+  \ étant estimée. Toutefois, si le rapport le plus récent se réfère à une année antérieure\
+  \ de plus de 10 ans, le statut de risque est considéré comme « inconnu ». </p>.\n\
+  <p>· <strong>Au niveau national :</strong></p>\n<p>Les informations sur le pays\
+  \ sont considérées comme manquantes si 100 % des races locales d'un pays ont un\
+  \ statut de risque « inconnu ». Si 100 % des valeurs du statut de risque des races\
+  \ d'un pays sont des estimations (voir ci-dessus), la nature des données du pays\
+  \ est également considérée comme une estimation.</p>\n<p>· <strong>Aux niveaux régional\
+  \ et mondial :</strong></p>\n<p>Voir les règles d'agrégation sous 4.g</p>"
 QUALITY_ASSURE: "<p>Décrite dans la section 7 du document FAO. 2011. « Surveying and\
   \ monitoring of animal genetic resources ». Directives FAO : Production et santé\
   \ animales. Numéro 7. Rome. (disponible en anglais à l'adresse http://www.fao.org/docrep/014/ba0055e/ba0055e00.htm)\
@@ -266,10 +268,10 @@ DOC_METHOD: "<p>Recensement du bétail au niveau de la race ou données dérivé
   \ « Surveying and monitoring of animal genetic resources ». Directives FAO : Production\
   \ et santé animales. Numéro 7. Rome. (disponible en anglais à l'adresse http://www.fao.org/docrep/014/ba0055e/ba0055e00.htm)\
   \ </p>"
-COVERAGE: "<p>Disponibilité des données :</p>\n<p>Les données sont accessibles au\
-  \ public par l’intermédiaire du DAD-IS (voir https://www.fao.org/dad-is/fr/). </p>\n\
-  <p>Séries chronologiques :</p>\n<p>Désagrégation : </p>\n<p>Les données sont disponibles\
-  \ par pays. </p>"
+COVERAGE: "<p><strong>Disponibilité des données :</strong></p>\n<p>Les données sont\
+  \ accessibles au public par l’intermédiaire du DAD-IS (voir https://www.fao.org/dad-is/fr/).\
+  \ </p>\n<p><strong>Séries chronologiques :</strong></p>\n<p><strong>Désagrégation\
+  \ :</strong></p>\n<p>Les données sont disponibles par pays. </p>"
 COMPARABILITY: "<p><strong>Sources des divergences :</strong></p>\n<p>Sans objet</p>"
 OTHER_DOC: "<p><strong>URL : </strong></p>\n<p>https://www.fao.org/dad-is/fr/ </p>\n\
   <p><strong> Références : </strong></p>\n<p>FAO. 2013. « Guidelines on In vivo Conservation\
