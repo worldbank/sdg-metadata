@@ -105,7 +105,7 @@ IMPUTATION: |-
   <p>&#x2022; <strong>Au niveau national :</strong></p>
   <p>&#x2022; <strong>Aux niveaux régional et mondial :</strong></p>
 COVERAGE: >-
-  <p>Disponibilité des données :</p>
+  <p><strong>Disponibilité des données :</strong></p>
 
   <p>Les données sont disponibles pour 193 pays. Les informations sont disponibles
   dans tous les pays où il existe une législature nationale et n’incluent donc pas
@@ -136,14 +136,14 @@ COVERAGE: >-
 
   <p>Avant 1997 Inconnu</p>
 
-  <p>Désagrégation:</p>
+  <p><strong>Désagrégation:</strong></p>
 
   <p>L’indicateur peut être ventilé pour analyse par région géographique et sous-région,
   type de législature (chambre unique ou chambre basse, parlementaire ou présidentielle),
   méthode de pourvoir les sièges (élus au suffrage direct, élus au suffrage indirect,
   nommés) et utilisation de mesures spéciales. </p>
 COMPARABILITY: >-
-  <p>Sources des divergences :</p>
+  <p><strong>Sources des divergences :</strong></p>
 
   <p>Les données ne sont pas ajustées en fonction de la comparabilité internationale.
   Bien que, pour les comparaisons internationales, généralement seule la chambre unique
@@ -167,12 +167,11 @@ OTHER_DOC: >-
   <p>Union interparlementaire (2011). Parlements sensibles au genre. Étude mondiale
   des bonnes pratiques. Disponible à l'adresse <a href="http://www.ipu.org/pdf/publications/gsp11-f.pdf">http://www.ipu.org/pdf/publications/gsp11-f.pdf</a></p>
 
-  <p>Fonds de développement des Nations Unies pour la femme (2009). Le Progrès des
-  femmes à travers le monde 2008/2009. New York. Disponible à l'adresse https://www.unwomen.org/sites/default/files/Headquarters/Media/Publications/UNIFEM/POWW08_Report_Full_Text_fr.pdf.
-  </p>
+  <p>Union interparlementaire (2020). Les femmes au parlement : 1995–2020 - Regard
+  sur 25 ans. Disponible à l'adresse <a href="https://www.ipu.org/fr/ressources/publications/rapports/2020-03/les-femmes-au-parlement-1995-2020-regard-sur-25-ans">https://www.ipu.org/fr/ressources/publications/rapports/2020-03/les-femmes-au-parlement-1995-2020-regard-sur-25-ans</a></p>
 
-  <p>ONU Femmes (2011). Le Progrès des Femmes dans le monde 2011-2012. New York. Disponible
-  à l'adresse <a href="https://www.unwomen.org/sites/default/files/Headquarters/Attachments/Sections/Library/Publications/2011/ProgressOfTheWorldsWomen-2011-fr.pdf">https://www.unwomen.org/sites/default/files/Headquarters/Attachments/Sections/Library/Publications/2011/ProgressOfTheWorldsWomen-2011-fr.pdf</a></p>
+  <p>Union interparlementaire et ONU Femmes (2021). Les femmes en politique : 2021.
+  Disponible à l'adresse https://www.ipu.org/fr/femmes-politique-2021</p>
 CONTACT_ORGANISATION: <p>Union interparlementaire (UIP)</p>
 CLASS_SYSTEM: <p>Sans objet</p>
 ADJUSTMENT: <p>Sans objet</p>
@@ -210,3 +209,22 @@ DATA_VALIDATION: "<p>Les parlements membres de l’UIP fournissent des informati
 UNIT_MEASURE: <p>Nombre et pourcentage</p>
 REG_AGG: <p>Les agrégations régionales sont une simple somme de données au niveau
   des pays et des chambres. Aucune structure de pondération n’est appliquée. </p>
+DOC_METHOD: "<p>Il n’est pas nécessaire de fournir des conseils ou lignes directrices\
+  \ pour cet indicateur (c’est-à-dire pour le nombre actuel de membres et le nombre\
+  \ total de femmes membres dans une chambre unique ou une chambre basse donnée d’un\
+  \ parlement national). </p>\n<p> Un « Aide-mémoire pour les correspondants Parline »\
+  \ est fournie pour rappeler aux parlements d’informer l’UIP des changements apportés\
+  \ au nombre de sièges ou au nombre total de femmes dans une chambre parlementaire,\
+  \ chaque fois qu’il y a un changement. </p>"
+QUALITY_MGMNT: "<p>Les données de cet indicateur sont saisies et stockées dans la\
+  \ base de données Parline (data.ipu.org/fr). </p>\n<p>L’UIP dispose d’un personnel\
+  \ dédié à la collecte et à la gestion des données, d’un réseau de correspondants\
+  \ Parline pour fournir des mises à jour des données et un échange constant avec\
+  \ les parlements par l’intermédiaire des groupes de l’UIP hébergés au sein des parlements\
+  \ membres. </p>"
+QUALITY_ASSURE: <p>Il n’y a pas de traitement statistique significatif requis pour
+  cet indicateur, à part la vérification de la cohérence au fil du temps. </p>
+QUALITY_ASSMNT: <p>Les données de l’UIP sont hébergées dans la base de données Parline
+  qui génère automatiquement des calculs sur le nombre et le pourcentage de femmes
+  pour en assurer l’exactitude. Des exportations de la base de données sont utilisées
+  pour la déclaration des ODD. </p>
