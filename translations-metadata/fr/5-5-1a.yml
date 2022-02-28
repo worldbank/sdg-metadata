@@ -4,9 +4,9 @@ SDG_GOAL: >-
 SDG_TARGET: "<p>Cible 5.5 : Veiller à ce que les femmes participent pleinement et\
   \ effectivement aux fonctions de direction à tous les niveaux de décision, dans\
   \ la vie politique, économique et publique, et y accèdent à chance égale</p>"
-SDG_INDICATOR: "<p>Indicateur 5.5.1(a) : Proportion de sièges occupés par des femmes\
-  \ dans les parlements nationaux</p>"
-META_LAST_UPDATE: '<p>19 février 2020</p>'
+SDG_INDICATOR: "<p>Indicateur 5.5.1 : Proportion de sièges occupés par des femmes\
+  \ (a) dans les parlements nationaux et (b) dans les gouvernements locaux</p>"
+META_LAST_UPDATE: '<p>2021-08-24</p>'
 SDG_RELATED_INDICATORS: >-
   <p>Indicateur 16.7.1 : Proportions de postes (selon le groupe d’âge, le sexe, les
   personnes handicapées et les groupes de population) dans les institutions publiques
@@ -15,7 +15,7 @@ SDG_RELATED_INDICATORS: >-
 SDG_CUSTODIAN_AGENCIES: |-
   <p>Union interparlementaire (UIP) </p>
 STAT_CONC_DEF: >-
-  <p>Définition : </p>
+  <p><strong>Définition :</strong></p>
 
   <p>La proportion de sièges occupés par des femmes dans les parlements nationaux,
   actuellement au 1er janvier de l'année de référence, est mesurée comme le nombre
@@ -32,14 +32,15 @@ STAT_CONC_DEF: >-
   <p>Les sièges désignent le nombre de mandats parlementaires ou le nombre de députés.
   </p>
 
-  <p>Concepts : </p>
+  <p><strong>Concepts :</strong></p>
 
   <p>Les sièges désignent le nombre de mandats parlementaires, également appelé nombre
   de parlementaires. Les sièges sont généralement remportés par les membres lors d'élections
   législatives générales. Les sièges peuvent également être pourvus par nomination,
   élection indirecte, rotation des membres et élection partielle. </p>
 SOURCE_TYPE: >-
-  <p>Les données utilisées sont des statistiques officielles reçues des parlements.</p>
+  <p>Les données utilisées sont des statistiques officielles reçues des parlements
+  nationaux.</p>
 COLL_METHOD: >-
   <p>Les données sont fournies par les parlements nationaux et mises à jour après
   une élection ou un renouvellement parlementaire. Les parlements nationaux transmettent
@@ -59,7 +60,7 @@ REL_CAL_POLICY: >-
   <p>Les données sont mises à jour sur une base mensuelle, jusqu'au dernier jour du
   mois. </p>
 DATA_SOURCE: |-
-  <p>Parlements membres de l'Union interparlementaire (UIP) </p>
+  <p>Parlements nationaux.</p>
 COMPILING_ORG: |-
   <p>Union interparlementaire (UIP) </p>
 RATIONALE: >-
@@ -101,8 +102,8 @@ DATA_COMP: >-
   <p>Il n’y a pas de pondération ou de normalisation des statistiques. </p>
 IMPUTATION: |-
   <p>Aucun ajustement n’est effectué pour les valeurs manquantes. </p>
-  <p>&#x2022; Au niveau national</p>
-  <p>&#x2022; Aux niveaux régional et mondial</p>
+  <p>&#x2022; <strong>Au niveau national :</strong></p>
+  <p>&#x2022; <strong>Aux niveaux régional et mondial :</strong></p>
 COVERAGE: >-
   <p>Disponibilité des données :</p>
 
@@ -175,3 +176,37 @@ OTHER_DOC: >-
 CONTACT_ORGANISATION: <p>Union interparlementaire (UIP)</p>
 CLASS_SYSTEM: <p>Sans objet</p>
 ADJUSTMENT: <p>Sans objet</p>
+SDG_SERIES_DESCR: "<p>Nombre de sièges occupés par des femmes dans les parlements\
+  \ nationaux (nombre) SG_GEN_PARLN</p>\n<p>Nombre actuel de sièges dans les parlements\
+  \ nationaux (nombre) SG_GEN_PARLNT</p>\n<p>Proportion de sièges occupés par des\
+  \ femmes dans les parlements nationaux (% du nombre total de sièges) SG_GEN_PARL</p>"
+INST_MANDATE: "<p>L’Union interparlementaire (UIP) est l’organisation mondiale des\
+  \ parlements. Elle a été fondée en 1889 en tant que première organisation politique\
+  \ multilatérale au monde, encourageant la coopération et le dialogue entre toutes\
+  \ les nations. Aujourd’hui, l’UIP comprend 179 Parlements membres nationaux et 13\
+  \ organes parlementaires régionaux. Il promeut la démocratie et aide les parlements\
+  \ à devenir plus forts, plus jeunes, plus équilibrés selon les genres et plus diversifiés.\
+  \ </p>\n<p>L’UIP reconnaît l’égalité des genres comme un élément clef de la démocratie.\
+  \ Il œuvre à la participation égale des hommes et des femmes à la vie politique\
+  \ et soutient les parlements dans la promotion de l’égalité des genres. Cela comprend\
+  \ la collecte et la diffusion de données quantitatives et qualitatives sur les femmes\
+  \ en politique. En particulier, l’UIP suit le pourcentage de femmes dans les parlements\
+  \ nationaux depuis 1945 et est l’autorité pour ces données. Voir les données historiques\
+  \ et comparatives sur les femmes au parlement à l'adresse <a href=\"https://data.ipu.org/fr/femmes-historiques\"\
+  >https://data.ipu.org/fr/femmes-historiques</a>. </p>"
+DATA_VALIDATION: "<p>Les parlements membres de l’UIP fournissent des informations\
+  \ sur les changements et les mises à jour au secrétariat de l’UIP par l’intermédiaire\
+  \ des Groupes de l’UIP au sein de chaque chambre parlementaire ou par l’intermédiaire\
+  \ du réseau de correspondants Parline. </p>\n<p>Les correspondants Parline sont\
+  \ des membres du personnel des parlements nationaux qui agissent en tant que point\
+  \ focal de l’UIP pour la base de données Parline de l’UIP, au sein de chaque chambre\
+  \ ou parlement. Leur rôle principal est de s’assurer que toutes les données de Parline\
+  \ pour leur parlement sont à jour et correctes, y compris pour cet indicateur. Si\
+  \ aucune réponse n’est fournie aux questionnaires, d’autres méthodes sont utilisées\
+  \ pour obtenir l’information, par exemple auprès de l’organisme de gestion électorale,\
+  \ des sites Web parlementaires ou des recherches sur Internet. Les informations\
+  \ supplémentaires recueillies auprès d’autres sources sont régulièrement recoupées\
+  \ avec celles des parlements. </p>"
+UNIT_MEASURE: <p>Nombre et pourcentage</p>
+REG_AGG: <p>Les agrégations régionales sont une simple somme de données au niveau
+  des pays et des chambres. Aucune structure de pondération n’est appliquée. </p>
