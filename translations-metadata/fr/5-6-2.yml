@@ -210,3 +210,77 @@ REC_USE_LIM: <p>L’indicateur 5.6.2 mesure exclusivement l’existence de lois 
   composantes ont été choisies parce qu’elles ont été identifiées comme des paramètres
   clés conformément aux documents de consensus internationaux et aux normes relatives
   aux droits de l’homme. </p>
+DATA_COMP: "<p>L'indicateur mesure les facilitateurs et les obstacles juridiques spécifiques\
+  \ pour 13 composantes à travers quatre sections. Le calcul de l'indicateur nécessite\
+  \ des données pour les 13 composantes.</p>\n<p>Les 13 composantes sont placées sur\
+  \ la même échelle, 0% étant la valeur la plus basse et 100% la valeur optimale.\
+  \ Chaque composante est calculée indépendamment et pondérée de manière égale. Chaque\
+  \ <u>composante</u> est calculée comme suit :</p>\n<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"\
+  >\n    <mi>C</mi>\n    <mi>i</mi>\n  </math> : Valeur pour la composante i</p>\n\
+  <p><math xmlns=\"http://www.w3.org/1998/Math/MathML\">\n    <mi>E</mi>\n    <mi>i</mi>\n\
+  \  </math> : Nombre total de facilitateurs pour la composante i</p>\n<p><math xmlns=\"\
+  http://www.w3.org/1998/Math/MathML\">\n    <mi>e</mi>\n    <mi>i</mi>\n  </math>\
+  \ : Nombre de facilitateurs qui sont en place pour la composante i</p>\n<p><math\
+  \ xmlns=\"http://www.w3.org/1998/Math/MathML\">\n    <mi>B</mi>\n    <mi>i</mi>\n\
+  \  </math> : Nombre total d'obstacles pour la composante i</p>\n<p><math xmlns=\"\
+  http://www.w3.org/1998/Math/MathML\">\n    <mi>b</mi>\n    <mi>i</mi>\n  </math>\
+  \ : Nombre d'obstacles qui sont en place pour la composante i</p>\n<p><math xmlns=\"\
+  http://www.w3.org/1998/Math/MathML\">\n    <mi>C</mi>\n    <mi>i</mi>\n    <mo>=</mo>\n\
+  \    <mfenced separators=\"|\">\n      <mrow>\n        <mfrac>\n          <mrow>\n\
+  \            <mi>e</mi>\n            <mi>i</mi>\n          </mrow>\n          <mrow>\n\
+  \            <mi>E</mi>\n            <mi>i</mi>\n          </mrow>\n        </mfrac>\n\
+  \        <mo>-</mo>\n        <mfrac>\n          <mrow>\n            <mi>b</mi>\n\
+  \            <mi>i</mi>\n          </mrow>\n          <mrow>\n            <mi>B</mi>\n\
+  \            <mi>i</mi>\n          </mrow>\n        </mfrac>\n      </mrow>\n  \
+  \  </mfenced>\n    <mi>&amp;nbsp;</mi>\n    <mo>&#xD7;</mo>\n    <mn>100</mn>\n\
+  \  </math></p>\n<p>La valeur de l'indicateur 5.6.2 est calculée comme <em>la moyenne\
+  \ arithmétique des données des 13 composantes</em>. De même, la valeur de chaque\
+  \ section est calculée comme la moyenne arithmétique des données de ses composantes\
+  \ constitutives. </p>"
+QUALITY_ASSURE: <p>L'indicateur 5.6.2 s'appuie sur les réponses officielles fournies
+  par les gouvernements nationaux. Le FNUAP peut effectuer un suivi auprès de ceux-ci
+  et demander des informations supplémentaires si les réponses diffèrent des informations
+  spécifiques à chaque pays sur les développements juridiques et réglementaires sur
+  les questions relatives aux mandats respectifs des principales parties prenantes,
+  y compris les équipes de pays des Nations Unies et les agences des Nations Unies.
+  Le FNUAP encourage également chaque pays à mettre en place un comité national de
+  validation chargé d’examiner et de valider toutes les contributions de l’enquête.
+  </p>
+ADJUSTMENT: <p>Aucun ajustement n’est effectué au niveau mondial. </p>
+REG_AGG: <p>Les agrégats mondiaux et régionaux sont calculés comme des moyennes non
+  pondérées des données propres à chaque pays pour les pays constitutifs. </p>
+DATA_VALIDATION: <p>Des consultations par pays sont menées pour chaque cycle de collecte
+  de données. Les données et la méthodologie des indicateurs sont communiquées aux
+  gouvernements nationaux avec les soumissions originales. L’indicateur 5.6.2 repose
+  sur les réponses officielles fournies par les gouvernements nationaux. Le FNUAP
+  peut effectuer un suivi auprès de ceux-ci et demander des informations supplémentaires
+  si les réponses diffèrent des informations spécifiques à chaque pays sur les développements
+  juridiques et réglementaires sur les questions relatives aux mandats respectifs
+  des principales parties prenantes, y compris les équipes de pays des Nations Unies
+  et les agences des Nations Unies. Le FNUAP encourage également chaque pays à mettre
+  en place un comité national de validation chargé d’examiner et de valider toutes
+  les contributions de l’enquête. </p>
+DOC_METHOD: <p>L’indicateur 5.6.2 est calculé sur la base des réponses officielles
+  des gouvernements recueillies dans le cadre de l’Enquête des Nations Unies auprès
+  des gouvernements, sur la population et le développement. L’enquête, mandatée par
+  l’Assemblée générale dans sa résolution 1838 (XVII) du 18 décembre 1962, est menée
+  par le Secrétaire général depuis 1963. Toutes les questions requises pour l’indicateur
+  5.6.2 sont intégrées dans le Module II sur la fécondité, la planification familiale
+  et la santé génésique de l’enquête. </p>
+COMPARABILITY: "<p><strong>Sources des divergences :</strong></p>\n<p>Sans objet,\
+  \ car l’indicateur 5.6.2 repose sur des données officielles fournies par les gouvernements\
+  \ nationaux et aucune estimation n’est produite au niveau international. </p>"
+OTHER_DOC: <p>(en anglais) https://www.unfpa.org/sdg-5-6</p>
+IMPUTATION: "<p>&#x2022; <strong>Au niveau national :</strong></p>\n<p>Aucune imputation\
+  \ ne sera faite pour un pays avec des données manquantes. </p>\n<p> </p>\n<p>&#x2022;\
+  \ <strong>Aux niveaux régional et mondial :</strong></p>\n<p> Aucune imputation\
+  \ ne sera faite aux niveaux régional et mondial. </p>"
+COVERAGE: "<p><strong>Disponibilité des données :</strong></p>\n<p>107 pays disposent\
+  \ de données complètes ou partielles pour l’indicateur 5.6.2, couvrant 75 % de la\
+  \ population mondiale. Au total, 75 pays disposent de données complètes, ce qui\
+  \ permet de calculer les données de l’indicateur 5.6.2. </p>\n<p><strong>Séries\
+  \ chronologiques :</strong></p>\n<p>Sans objet</p>\n<p><strong>Désagrégation :</strong></p>\n\
+  <p>Les données seront ventilées par section et par composante. Cela permettra aux\
+  \ pays d’identifier les domaines particuliers des soins de santé sexuelle et génésique,\
+  \ de l’information et de l’éducation pour lesquels des progrès sont nécessaires.\
+  \ </p>"
