@@ -161,3 +161,216 @@ DOC_METHOD: "<p>Les pays peuvent s’appuyer sur le document d’information dé
   \ ainsi que sur la plateforme (en anglais) d'apprentissage en ligne à l'adresse\
   \ <a href=\"https://elearning.fao.org/course/view.php?id=363\">https://elearning.fao.org/course/view.php?id=363</a>.\
   \ </p>"
+STAT_CONC_DEF: "<p><strong>Définition:</strong></p> ;\n<p>L'indicateur se compose\
+  \ de deux sous-indicateurs. </p> ;\n<p><strong>Le sous-indicateur (a)</strong> ;\
+  \ est une mesure de prévalence. Il mesure la prévalence des personnes dans la population\
+  \ agricole ayant des droits de propriété ou d'occupation sur des terres agricoles,\
+  \ désagrégées par sexe.</p> ;\n<table> ;\n  <tbody> ;\n    <tr> ;\n      <td> ;\n\
+  \        <p>Nombre de personnes dans la population agricole ayant des droits de\
+  \ propriété ou d'occupation sur des terres agricoles</p> ;\n      </td> ;\n    \
+  \  <td rowspan=\"2\"> ;\n        <p>* 100, par sexe</p> ;\n      </td> ;\n    </tr>\
+  \ ;\n    <tr> ;\n      <td> ;\n        <p>Population agricole totale</p> ;\n   \
+  \   </td> ;\n    </tr> ;\n  </tbody> ;\n</table> ;\n<p><strong>Le sous-indicateur\
+  \ (b) </strong>porte sur la parité hommes-femmes, en mesurant la mesure dans laquelle\
+  \ les femmes sont désavantagées en matière de droits de propriété / d'occupation\
+  \ des terres agricoles. </p> ;\n<table> ;\n  <tbody> ;\n    <tr> ;\n      <td> ;\n\
+  \        <p>Nombre de femmes dans la population agricole ayant des droits de propriété\
+  \ ou d'occupation sur des terres agricoles</p> ;\n      </td> ;\n      <td rowspan=\"\
+  2\"> ;\n        <p>* 100, par type de tenure</p> ;\n      </td> ;\n    </tr> ;\n\
+  \    <tr> ;\n      <td> ;\n        <p>Total de la population agricole ayant des\
+  \ droits de propriété ou d'occupation sur des terres agricoles</p> ;\n      </td>\
+  \ ;\n    </tr> ;\n  </tbody> ;\n</table> ;\n<h2>Concepts et termes</h2> ;\n<p>Les\
+  \ concepts et termes de base essentiels à la collecte des données nécessaires au\
+  \ calcul de l'indicateur 5.a.1 des ODD sont les suivants:</p> ;\n<ul> ;\n  <li>Terres\
+  \ agricoles</li> ;\n  <li>Ménage agricole</li> ;\n  <li>Population agricole</li>\
+  \ ;\n  <li>Droits de propriété et d'occupation des terres agricoles</li> ;\n</ul>\
+  \ ;\n<p><u>Terres agricoles</u></p> ;\n<p>Les terres sont considérées ‘terres agricoles’\
+  \ ; selon leur utilisation. Les classes et les définitions de l'utilisation des\
+  \ terres sont basées sur la classification de l'utilisation des terres pour le recensement\
+  \ agricole recommandée par le Programme mondial pour le recensement de l'agriculture\
+  \ 2020. <sup><a href=\"#footnote-2\" ; id=\"footnote-ref-2\"> ;[1]</a></sup></p>\
+  \ ;\n<p>Comme le montre la figure 1 ci-dessous, les terres agricoles sont un sous-ensemble\
+  \ des terres totales d'un pays.</p> ;\n<p><img src=\"data :image/png ;base64,iVBORw0KGgoAAAANSUhEUgAAAyMAAAERCAIAAADnnO8dAAAAAXNSR0IArs4c6QAAxK5JREFUeF7snQk8VN8XwN9EJWtEliI/W0WUNSJbll/Fnyha0O6XhLSgVYoUbbRolSWVoiIqhIqyhaJkq5AsGfvOMP/7ZmQfhpDl3s98fj+9uffcc773vvfO3HPefRg8Ho/AAglAApAAJAAJQAKQACQwDAQmDYNMKBISgAQgAUgAEoAEIAFIACUAPS04DyABSAASgAQgAUgAEhguAtDTGi6yUC4kAAlAApAAJAAJQAKYnnlamZmZkAskAAlAApAAJAAJQAKQwCAIUFNTz549u6Mh8LS6lUEIhU0gAUgAEoAEIAFIABKABACB/fv3d/aselnTwmAwkyhFJ02RhbwgAUgAEhgbBForcA13KKYsx1Dyjg2FoZaQACQwTgng6i4BT8vJyandvt49LXDBoqDSG6cQoFmQACQw3gjgW4uaaw5QUu+aRCk+3myD9kACkMCYItBUtbmbpwUz4sfUAEJlIQFIABKABCABSGBMEYCe1pgaLqgsJAAJQAKQACQACYwpAtDTGlPDBZWFBCABSAASgAQggTFFAHpaY2q4oLKQACQACUACkAAkMKYIQE9rTA1Xd2Upl/zLtE5nxjptOuHJ5Bsy836GUWPlpsZSFQc28luRW5PziEotEF5plOsxk9w2I1GPYp2HNmp15bp3R6hHokPYByQACfw1AsN8vrPxvSsFF5NNjRmS6/6ajb11rCOZi17lNtVG8HGOKsUmtjLQ0xqh8f/tfxBOTsKnoVgv442Ms86UP9CAydxFw+O2psetxWtn/IEY2BQSgATGAYHJTDeTDdquMBWr/A0G8PNrNFrPRrPZeoF/iIr/bqrRqB7UCRIgmwD0tMhGNdQVMVTU3AvnmrnI2gpjhlo2lAcJQAITjgCVOrfCP5RtZmPo5VezMY9hBhTrTqlePSihIc3CTgfvU2N4IKHqgACcwSM8DVqxkdGbNj/dceB9bEkL6BtD></p>\
+  \ ;\n<p>Figure 1. Classification de l'utilisation des sols (WCA 2020)</p> ;\n<p>En\
+  \ particulier, les <strong>terres agricoles</strong> ; comprennent:</p> ;\n<ul>\
+  \ ;\n  <li>LU1- les terres consacrées aux cultures temporaires<sup><a href=\"#footnote-3\"\
+  \ ; id=\"footnote-ref-3\"> ;[2]</a></sup></li> ;\n  <li>LU2- terres en prairies\
+  \ et pâturages temporaires<sup><a href=\"#footnote-4\" ; id=\"footnote-ref-4\">\
+  \ ;[3]</a></sup></li> ;\n  <li>LU3- terres temporairement en friche<sup><a href=\"\
+  #footnote-5\" ; id=\"footnote-ref-5\"> ;[4]</a></sup></li> ;\n  <li>LU4- terres\
+  \ consacrées aux cultures permanentes<sup><a href=\"#footnote-6\" ; id=\"footnote-ref-6\"\
+  > ;[5]</a></sup></li> ;\n  <li>LU5- terres en prairies et pâturages permanents<sup><a\
+  \ href=\"#footnote-7\" ; id=\"footnote-ref-7\"> ;[6]</a></sup></li> ;\n</ul> ;\n\
+  <p>Comme l'indicateur 5.a.1 se concentre sur les terres agricoles, il <em>exclut</em>\
+  \ ; toutes les formes de terres qui ne sont pas considérées comme ‘agricoles’ ;,\
+  \ à savoir:</p> ;\n<ul> ;\n  <li>LU6- terrains sous les bâtiments de ferme et les\
+  \ cours de ferme</li> ;\n  <li>LU7- forêts et autres terres boisées</li> ;\n  <li>LU8-\
+  \ superficie utilisée pour l'aquaculture (y compris les eaux intérieures et côtières\
+  \ si elles font partie de l'exploitation)</li> ;\n  <li>LU9- autre zone non classée\
+  \ ailleurs</li> ;\n</ul> ;\n<p>La classe d'utilisation des terres agricoles se rapporte\
+  \ à une période de référence spécifique ; ainsi, la période de référence doit être\
+  \ précisée lors de la collecte des données sur l'utilisation des terres.</p> ;\n\
+  <p><u>Ménage agricole</u></p> ;\n<p>Les droits de propriété ou d'occupation sur\
+  \ les terres agricoles concernent spécifiquement les individus dont la subsistance\
+  \ dépend de l'agriculture. Ces personnes sont identifiées selon que leur ménage\
+  \ peut être classé ou non comme un <strong><em>ménage agricole</em></strong> ; qui,\
+  \ aux fins du calcul de l'indicateur 5.a.1, se caractérise par les éléments suivants:</p>\
+  \ ;\n<ul> ;\n  <li>Un ou plusieurs membres du ménage ont exploité des terres à des\
+  \ fins agricoles <em>ou </em>ont élevé du bétail au cours des 12 derniers mois,\
+  \ quel que soit le but final de la production et</li> ;\n  <li>Au moins un membre\
+  \ du ménage a exploité des terres à des fins agricoles ou a élevé du bétail en tant\
+  \ que travailleur indépendant</li> ;\n</ul> ;\n<p>La définition considère que puisque\
+  \ les terres agricoles comprennent <em>à la fois</em> ; les terres cultivées (LU1-LU4)\
+  \ et les prés et pâturages (LU5), la propriété ou les droits d'occupation des terres\
+  \ agricoles sont pertinents pour les ménages exploitant des terres et/ou élevant\
+  \ ou gardant du bétail. L'engagement dans des activités de sylviculture, d'exploitation\
+  \ forestière, de pêche et d'aquaculture n'est pas inclus car l'indicateur est axé\
+  \ sur les terres agricoles ;\nLes ménages qui ont des droits d'occupation sur des\
+  \ terres agricoles mais qui ne les exploitent pas sont exclus, car l'indicateur\
+  \ porte sur les ménages dont les moyens de subsistance sont liés à la pratique de\
+  \ l'agriculture ;\n<p>La longue période de référence (12 derniers mois) permet de\
+  \ capturer les ménages agricoles même s'ils sont interrogés hors saison. En d'autres\
+  \ termes, étant donné que le travail agricole est très irrégulier et fortement affecté\
+  \ par la saisonnalité, si la collecte de données adopte une période de référence\
+  \ courte, les individus engagés dans l'agriculture parce qu'ils ne pratiquaient\
+  \ pas l'agriculture au moment de l'enquête ou parce qu'ils ont été interrogés hors\
+  \ saison peuvent être exclus.</p> ;\n<p>La spécification “quel que soit le but final\
+  \ de la production” ; garantit l'inclusion des ménages qui produisent uniquement\
+  \ pour leur propre consommation. Elle répond à un problème courant où l'agriculture\
+  \ pratiquée uniquement ou principalement pour l'autoconsommation, sans aucune orientation\
+  \ vers le marché (donc, avec un revenu nul ou faible) n'est pas perçue comme une\
+  \ activité économique<em> ;.</em></p> ;\n<p><u>Population agricole</u></p> ;\n<p>La\
+  \ population de référence pour l'indicateur 5.a.1 est la population de <strong><em>individus\
+  \ adultes vivant dans des ménages agricoles </em></strong><em> ;(telle que définie\
+  \ ci-dessus). </em>La définition recommandée de <strong>“adulte”</strong> ; est\
+  \ une personne âgée de 18 ans ou plus, bien que les pays puissent la définir en\
+  \ fonction de leur contexte.</p> ;\n<p>Une fois qu'un ménage est classé comme un\
+  \ ‘ménage agricole’ ;, tous les membres adultes du ménage sont considérés comme\
+  \ faisant partie de la population de référence (appelée simplement “population agricole”\
+  \ ; dans ce document).</p> ;\n<p>L'adoption d'une perspective de ménage est particulièrement\
+  \ importante du point de vue du genre, car dans de nombreux ménages agricoles, les\
+  \ femmes se considèrent souvent comme n'étant pas impliquées dans l'agriculture,\
+  \ alors qu'elles apportent un soutien substantiel aux activités agricoles du ménage’.\
+  \ En outre, les moyens de subsistance de l'individu ne peuvent être complètement\
+  \ détachés de ceux des autres membres du ménage ; en particulier, pour les ménages\
+  \ exploitant des terres ou élevant du bétail, la terre est un actif important pour\
+  \ tous les individus et les protège en cas de dissolution du ménage</p> ;\n<p><u>Droits\
+  \ de propriété et d'occupation des terres agricoles:</u></p> ;\n<p>Il est difficile\
+  \ de définir et d'opérationnaliser les droits de propriété et d'occupation de manière\
+  \ à obtenir des chiffres fiables et comparables d'un pays à l'autre.</p> ;\n<p><strong><em>La\
+  \ propriété foncière</em></strong> ; est un droit légalement reconnu d'acquérir,\
+  \ d'utiliser et de transférer des terres. Dans les systèmes de propriété privée,\
+  \ ce droit s'apparente à une tenure en pleine propriété. Cependant, dans les systèmes\
+  \ où les terres appartiennent à l'État, le terme ‘propriété foncière’ ; fait référence\
+  \ à la possession des droits les plus proches de la propriété dans un système de\
+  \ propriété privée. Dans ce contexte, il est plus approprié de parler de <strong><em>droits\
+  \ d'occupation</em></strong>– ; par exemple, des baux à long terme, des droits d'occupation,\
+  \ de location ou d'utilisation accordés par l'État, souvent pour plusieurs décennies,\
+  \ et qui sont transférables. </p> ;\n<p>Compte tenu de ce qui précède, ainsi que\
+  \ de la nécessité de pouvoir comparer les estimations entre les pays, pour déterminer\
+  \ si un individu est dit avoir des droits de propriété ou des droits d'occupation\
+  \ sûrs sur des terres agricoles, trois conditions (proxies) sont considérées:</p>\
+  \ ;\n<p><u>Proxy 1</u>- Présence de documents légalement reconnus au nom de l'individu</p>\
+  \ ;\n<p><u>Proxy 2</u>- Droit de vendre</p> ;\n<p><u>Procuration 3</u>- Droit de\
+  \ léguer </p> ;\n<p><em>Documentation formelle</em></p> ;\n<p>Proxy 1 désigne l'existence\
+  \ de tout document qu'un individu peut utiliser pour revendiquer des droits de propriété\
+  \ devant la loi sur un actif en vertu du fait que le nom de l'individu’est inscrit\
+  \ comme propriétaire ou détenteur sur le document. </p> ;\n<p>Compte tenu des différences\
+  \ entre les systèmes juridiques des différents pays, il n'est pas possible de fournir\
+  \ une liste exhaustive des documents qui pourraient être considérés comme une preuve\
+  \ formelle de propriété ou de sécurité d'occupation. Cependant, en fonction du cadre\
+  \ juridique national, les documents suivants peuvent être considérés <strong>comme\
+  \ une preuve écrite formelle de propriété ou de sécurité d'occupation:</strong></p>\
+  \ ;\n<ul> ;\n  <li><strong>Titre de propriété</strong> : “<em>un instrument écrit\
+  \ ou imprimé qui réalise une disposition légale</em>”<em><sup><a href=\"#footnote-8\"\
+  \ ; id=\"footnote-ref-8\"> ;[7]</a></sup></em></li> ;\n  <li><strong>Certificat\
+  \ d'occupation ou certificat foncier</strong> : “<em>Un certificat foncier est une\
+  \ copie certifiée d'une inscription dans un système de titres fonciers et fournit\
+  \ une preuve de la propriété et des charges sur le terrain à ce moment-là< ;/em>”<em><sup><a\
+  \ href=\"#footnote-9\" ; id=\"footnote-ref-9\"> ;[8]</a></sup></em></li> ;\n  <li><strong>Contrat\
+  \ d'achat</strong> : <em>un contrat entre un vendeur et un acheteur pour disposer\
+  \ d'un terrain</em></li> ;\n  <li><strong>Certificat enregistré d'acquisition héréditaire</strong></li>\
+  \ ;\n  <li><strong>Certificat d'occupation coutumière</strong> : <em>un document\
+  \ officiel de l'État indiquant le propriétaire ou le détenteur de la terre parce\
+  \ que le droit coutumier a reconnu cette personne particulière comme le propriétaire\
+  \ légitime. Il peut être utilisé comme preuve du droit légal sur la terre. </em>Ces\
+  \ certificats comprennent, entre autres, les certificats de propriété coutumière\
+  \ et d'utilisation coutumière.</li> ;\n  <li><strong>Certificat enregistré de bail\
+  \ perpétuel / à long terme</strong> : “<em>un accord contractuel entre un propriétaire\
+  \ et un locataire pour la location d'un terrain. Un contrat de bail ou de location\
+  \ est le document contractuel utilisé pour créer un droit de bail ou une location</em>”<em><sup><a\
+  \ href=\"#footnote-10\" ; id=\"footnote-ref-10\"> ;[9]</a></sup></em></li> ;\n \
+  \ <li><strong>Contrat de location enregistré à court terme (moins de 3 ans)</strong></li>\
+  \ ;\n  <li><strong>Certificat délivré pour possession adverse ou prescription</strong>\
+  \ : <em>est un certificat indiquant que le possesseur adverse acquiert le terrain\
+  \ après une période légale prescrite</em> ; </li> ;\n</ul> ;\n<p>Les résultats du\
+  \ projet EDGE (Evidence and Data for Gender Equality)<sup><a href=\"#footnote-11\"\
+  \ ; id=\"footnote-ref-11\"> ;[10]</a></sup> ; montrent clairement qu'il ne suffit\
+  \ pas de se concentrer sur les documents légalement reconnus pour analyser la complexité\
+  \ des droits liés à la terre, notamment dans les pays en développement et dans une\
+  \ perspective de genre. Le principal facteur limitant l'applicabilité universelle\
+  \ des documents légalement reconnus pour définir la propriété est la pénétration\
+  \ diverse de ces documents juridiquement contraignants.</p> ;\n<p><em>Droits d'aliénation</em></p>\
+  \ ;\nEn l'absence de documents écrits formels, comme dans les pays où l'État est\
+  \ propriétaire des terres, il est essentiel de tenir compte également des droits\
+  \ d'aliénation sur les terres, qui peuvent être présents même dans des contextes\
+  \ où les droits d'occupation ne sont pas formellement documentés. <strong>L'aliénation</strong>\
+  \ ; est définie comme la capacité de transférer un actif donné de son vivant (Proxy\
+  \ 2- droit de vendre) ou après sa mort (Proxy 3- droit de léguer). </p> ;\n<p>Le\
+  \ “droit de vendre” ; désigne la capacité d'un individu à transférer de façon permanente\
+  \ l'actif en question en échange d'avantages en espèces ou en nature. </p> ;\n<p>Le\
+  \ “droit de léguer” ; désigne la capacité d'un individu à transmettre le bien en\
+  \ question à une ou plusieurs autres personnes après son décès, par testament écrit,\
+  \ par testament oral (s'il est reconnu par le pays) ou, lorsque le défunt n'a pas\
+  \ laissé de testament, par succession ab intestat. </p> ;\n<p>Le droit de vendre\
+  \ et de léguer est considéré comme un fait objectif ayant force de loi, par opposition\
+  \ à une simple déclaration volontaire de droits d'occupation des terres ;\n<p>La\
+  \ décision de s'appuyer sur les trois procurations définies est basée sur les résultats\
+  \ de sept tests de terrain menés par le projet EDGE. Ces tests ont démontré : </p>\
+  \ ;\n<ul> ;\n  <li>Le manque de fiabilité des déclarations de propriété/possession.\
+  \ En fait, la propriété/possession déclarée n'était souvent étayée par aucun type\
+  \ de document ni par la possession d'un quelconque droit d'aliénation</li> ;\n \
+  \ <li>La nécessité de considérer comme ‘propriétaires’ ; ou ‘détenteurs de droits\
+  \ d'occupation’ ; uniquement les individus qui sont liés à la terre agricole par\
+  \ un droit objectif sur celle-ci, incluant à la fois la possession légale formelle\
+  \ et les droits d'aliénation.</li> ;\n  <li>La nécessité de combiner différents\
+  \ indicateurs, car aucun indicateur n'est universellement applicable pour définir\
+  \ la propriété foncière ou la sécurité des droits d'occupation. </li> ;\n</ul><div\
+  \ class=\"footnotes\"><div><sup class=\"footnote-number\" ; id=\"footnote-2\">1</sup><p>\
+  \ ; FAO. 2015. Programme mondial pour le recensement de l'agriculture 2020- Volume\
+  \ 1 : Programme, concepts et définitions. Série sur le développement des statistiques\
+  \ de la FAO 15. <a href=\"#footnote-ref-2\">#x2191;</a></p></div><div><sup class=\"\
+  footnote-number\" ; id=\"footnote-3\">2</sup><p> ; Défini comme : “toutes les terres\
+  \ utilisées pour des cultures dont le cycle de croissance est inférieur à un an”\
+  \ ; (WCA 2020). Les cultures temporaires comprennent toutes les cultures qui doivent\
+  \ être semées ou plantées après chaque récolte pour une nouvelle production (par\
+  \ exemple, les céréales). La liste complète des cultures classées comme ‘temporaires’\
+  \ ; est fournie dans le WCA 2020, page 165 (<a href=\"http://www.fao.org/3/a-i4913e.pdf\"\
+  >http://www.fao.org/3/a-i4913e.pdf</a> ;). <a href=\"#footnote-ref-3\">↑</a></p></div><div><sup\
+  \ class=\"footnote-number\" ; id=\" ;footnote-4\">3</sup><p> ; Définies comme des\
+  \ terres cultivées depuis moins de cinq ans avec des cultures herbacées ou fourragères\
+  \ pour la fauche ou le pâturage. <a href=\"#footnote-ref-4\">↑</a></p></div><div><sup\
+  \ class=\"footnote-number\" ; id=\"footnote-5\">4</sup><p> ; Lorsque des terres\
+  \ arables sont maintenues au repos pendant au moins une année agricole en raison\
+  \ de la rotation des cultures ou pour d'autres raisons, telles que l'impossibilité\
+  \ de planter de nouvelles cultures, on parle de jachère temporaire. Cette catégorie\
+  \ ne comprend pas les terres qui ne sont pas cultivées au moment de l'enquête mais\
+  \ qui seront semées et plantées avant la fin de l'année agricole. <a href=\"#footnote-ref-5\"\
+  >↑</a></p></div><div><sup class=\"footnote-number\" ; id=\"footnote-6\"> ;5</sup><p>\
+  \ ; Surface cultivée avec des cultures à long terme qui n'ont pas besoin d'être\
+  \ replantées chaque année, comme les fruits et les noix, certains types de cultures\
+  \ stimulantes, etc. <a href=\"#footnote-ref-6\">↑</a></p></div><div><sup class=\"\
+  footnote-number\" ; id=\" ;footnote-7\">6</sup><p> ; Terres cultivées avec des cultures\
+  \ fourragères herbacées ou laissées à l'état de prairie sauvage ou de pâturage pendant\
+  \ plus de cinq ans. <a href=\"#footnote-ref-7\">↑</a></p></div><div><sup class=\"\
+  footnote-number\" ; id=\"footnote-8\">7</sup><p> ; Source : <em>“Thésaurus multilingue\
+  \ sur les régimes fonciers”</em> ;, FAO 2003 <a href=\"#footnote-ref-8\">↑ ;</a></p></div><div><sup\
+  \ class=\"footnote-number\" ; id=\"footnote-9\">8</sup><p> ; Source : <em>“Thésaurus\
+  \ multilingue sur les régimes fonciers”</em> ;, FAO 2003 <a href=\"#footnote-ref-9\"\
+  >↑ ;</a></p></div><div><sup class=\"footnote-number\" ; id=\"footnote-10\">9</sup><p>\
+  \ ; Source : <em>“Thésaurus multilingue sur les régimes fonciers”</em> ;, FAO 2003\
+  \ <a href=\"#footnote-ref-10\">↑ ;</a></p></div><div><sup class=\"footnote-number\"\
+  \ ; id=\"footnote-11\">10</sup><p> ; Source : <em>“Directives méthodologiques de\
+  \ l'ONU sur la production de statistiques sur la propriété des actifs dans une perspective\
+  \ de genre”</em> ; Projet de directives présenté à la Commission de statistique\
+  \ de l'ONU en mars 2017 <a href=\"#footnote-ref-11\">↑</a></p></div></div> ;"
