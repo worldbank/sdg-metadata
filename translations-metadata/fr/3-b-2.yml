@@ -15,30 +15,28 @@ SDG_INDICATOR: >-
   à la recherche médicale et aux soins de santé de base</p>
 META_LAST_UPDATE: '<p>2017-07-09</p>'
 SDG_RELATED_INDICATORS: |-
-  <h1>Indicateurs connexes en date de février 2020</h1>
   <p>Autres indicateurs d'aide publique au développement (APD)</p>
 SDG_CUSTODIAN_AGENCIES: |-
-  <h1>Informations institutionnelles</h1>
-  <h2>Organisation(s) :</h2>
   <p>Organisation de coopération et de développement économiques (OCDE)</p>
 STAT_CONC_DEF: >-
-  <h1>Concepts et définitions</h1>
-
-  <h2>Définition : </h2>
+  <p><strong>Définition :</strong></p>
 
   <p>Décaissements bruts de l'aide publique au développement (APD) totale de tous
   les donateurs en faveur de la recherche médicale et des secteurs de santé de base.</p>
 
-  <h2>Concepts : </h2>
+  <p> </p>
+
+  <p><strong>Concepts :</strong></p>
 
   <p>APD : le Comité d'aide au développement (CAD) définit l'APD comme « les flux
   vers les pays et territoires figurant sur la liste du CAD des bénéficiaires de l'APD
-  et vers les institutions multilatérales » qui sont </p>
+  et vers les institutions multilatérales ». Ceux-ci suivent les règles suivantes
+  :</p>
 
-  <ul>
+  <ol>
 
-  <li>fournis par des agences officielles, y compris les gouvernements des États et
-  des collectivités locales, ou par leurs agences exécutives; et </li>
+  <li>ils fournis par des agences officielles, y compris les gouvernements des États
+  et des collectivités locales, ou par leurs agences exécutives;</li>
 
   <li>chaque transaction est administrée avec pour principal objectif la promotion
   du développement économique et du bien-être des pays en développement; et</li>
@@ -46,30 +44,30 @@ STAT_CONC_DEF: >-
   <li>est de nature concessionnelle et comporte un élément de subvention d'au moins
   25 % (calculé à un taux d'actualisation de 10 %). (Consulter le lien : <a href="https://www.oecd.org/fr/developpement/financementpourledeveloppementdurable/normes-financement-developpement/aidepubliqueaudeveloppementdefinitionetchampcouvert.htm
 
-  ">https://www.oecd.org/fr/developpement/financementpourledeveloppementdurable/normes-financement-developpement/aidepubliqueaudeveloppementdefinitionetchampcouvert.htm
+  "><u>https://www.oecd.org/fr/developpement/financementpourledeveloppementdurable/normes-financement-developpement/aidepubliqueaudeveloppementdefinitionetchampcouvert.htm</u></a>)</li>
 
-  </a>)</li>
+  </ol>
 
-  </ul>
+  <p> </p>
 
   <p>Les secteurs de la recherche médicale et de la santé de base sont définis par
   le CAD. La recherche médicale fait référence au code de secteur 12182 du Système
   de notification des pays créanciers (SNPC) et la santé de base couvre tous les codes
-  de la série 122 (consulter le lien : <a href="https://www.oecd.org/fr/developpement/financementpourledeveloppementdurable/normes-financement-developpement/codes-objetclassificationsectorielle.htm">https://www.oecd.org/fr/developpement/financementpourledeveloppementdurable/normes-financement-developpement/codes-objetclassificationsectorielle.htm</a>)
+  de la série 122 (consulter le lien : <a href="https://www.oecd.org/fr/developpement/financementpourledeveloppementdurable/normes-financement-developpement/codes-objetclassificationsectorielle.htm"><u>https://www.oecd.org/fr/developpement/financementpourledeveloppementdurable/normes-financement-developpement/codes-objetclassificationsectorielle.htm</u></a>)
   </p>
 SOURCE_TYPE: >-
-  <h1>Sources de données</h1>
-
-  <h2>Description : </h2>
-
   <p>Le CAD de l'OCDE recueille des données sur les flux de ressources officielles
   et privées depuis 1960 au niveau agrégé et depuis 1973 au niveau des activités par
   le biais du Système de notification des pays créanciers (les données du SNPC sont
   considérées comme complètes depuis 1995 pour les engagements au niveau des activités
   et depuis 2002 pour les décaissements). </p>
 
+  <p> </p>
+
   <p>Les données sont déclarées par les donateurs selon les mêmes normes et méthodologies
-  (consulter le lien : <a href="http://www.oecd.org/fr/cad/financementpourledeveloppementdurable/normes-financement-developpement/">http://www.oecd.org/fr/cad/financementpourledeveloppementdurable/normes-financement-developpement/</a>).</p>
+  (consulter le lien : http://www.oecd.org/fr/cad/financementpourledeveloppementdurable/normes-financement-developpement/).</p>
+
+  <p> </p>
 
   <p>Les données sont déclarées sur la base d'une année civile par les déclarants
   statistiques des administrations nationales (agences d'aide, ministères des affaires
@@ -80,93 +78,81 @@ COLL_METHOD: >-
   l'organisme d'aide national, le ministère des affaires étrangères ou des finances,
   etc.</p>
 FREQ_COLL: >-
-  <h1>Calendrier</h1>
-
-  <h2>Collecte de données :</h2>
-
   <p>Les données sont publiées sur une base annuelle en décembre pour les flux de
   l'année précédente.</p>
 REL_CAL_POLICY: |-
-  <h2>Diffusion des données :</h2>
   <p>Les flux détaillés pour 2015 seront publiés en décembre 2016.</p>
 DATA_SOURCE: >-
-  <h1>Fournisseurs de données</h1>
-
-  <h2>Nom : </h2>
-
   <p>Les données sont déclarées sur la base d'une année civile par les déclarants
   statistiques des administrations nationales (agences d'aide, ministères des affaires
   étrangères ou des finances, etc.).</p>
 COMPILING_ORG: |-
-  <h1>Compilateurs de données </h1>
   <p>OCDE</p>
 RATIONALE: >-
-  <h2>Justification :</h2>
-
   <p>Les flux totaux d'APD aux pays en développement quantifient l'effort public que
   les donateurs fournissent à ces pays pour la recherche médicale et la santé de base.</p>
 REC_USE_LIM: >-
-  <h2>Commentaires et limites : </h2>
-
   <p>Les données du Système de notification des pays créanciers sont disponibles à
   partir de 1973. Toutefois, la couverture des données est considérée comme complète
   à partir de 1995 pour les engagements au niveau des activités et à partir de 2002
   pour les décaissements.</p>
 DATA_COMP: >-
-  <h1>Méthodologie</h1>
-
-  <h2>Méthode de calcul :</h2>
-
   <p>La somme des flux de l'APD versés par tous les donateurs aux pays en développement
   pour la recherche médicale et la santé de base.</p>
 IMPUTATION: >-
-  <h2>Traitement des valeurs manquantes : </h2>
-
   <ul>
-    <li><strong><em>Au niveau national : </em></strong></li>
+    <li><strong>Au niveau national :</strong></li>
   </ul>
+
+  <p> </p>
 
   <p>En raison de la qualité élevée des rapports, aucune estimation n'est produite
   pour les données manquantes.</p>
 
+  <p> </p>
+
   <ul>
-    <li><strong><em>Aux niveaux régional et mondial : </em></strong></li>
+    <li><strong>Aux niveaux régional et mondial :</strong></li>
   </ul>
+
+  <p> </p>
 
   <p>Sans objet. </p>
 REG_AGG: >-
-  <h2>Agrégats régionaux : </h2>
-
   <p>Les chiffres mondiaux et régionaux sont basés sur la somme des flux d'APD pour
   la recherche médicale et la santé de base.</p>
 COVERAGE: >-
-  <h1>Disponibilité des données </h1>
-
-  <h2>Description : </h2>
+  <p><strong>Disponibilité des données :</strong></p>
 
   <p>Sur la base du bénéficiaire pour tous les pays en développement éligibles à l'APD.</p>
 
-  <h2>Séries chronologiques : </h2>
+  <p><strong>Séries chronologiques :</strong></p>
 
   <p>Données disponibles depuis 1973 sur une base annuelle (année civile) </p>
 
-  <h2>Désagrégation :</h2>
+  <p><strong>Désagrégation :</strong></p>
 
   <p>Cet indicateur peut être désagrégé par donateur, pays bénéficiaire, type de financement,
   type d'aide, sous-secteur de la santé, etc.</p>
 COMPARABILITY: >-
-  <h2>Sources des divergences :</h2>
+  <p><strong>Sources des divergences :</strong></p>
 
   <p>Les statistiques du CAD sont normalisées sur la base d’une année civile pour
   tous les donateurs et peuvent différer des données de l’exercice disponible dans
   les documents budgétaires de certains pays.</p>
 OTHER_DOC: >-
-  <h1>Références</h1>
+  <p><strong>URL :</strong></p>
 
-  <h2>URL : </h2>
+  <p> </p>
 
-  <p><a href="https://www.oecd.org/fr/cad/financementpourledeveloppementdurable/">https://www.oecd.org/fr/cad/financementpourledeveloppementdurable/</a></p>
+  <p><a href="https://www.oecd.org/fr/cad/financementpourledeveloppementdurable/"><u>https://www.oecd.org/fr/cad/financementpourledeveloppementdurable/</u></a></p>
 
-  <h2>Références :</h2>
+  <p> </p>
 
-  <p>Voir tous les liens à l'adresse : <a href="https://www.oecd.org/fr/cad/financementpourledeveloppementdurable/normes-financement-developpement/">https://www.oecd.org/fr/cad/financementpourledeveloppementdurable/normes-financement-developpement/</a></p>
+  <p><strong>Références :</strong></p>
+
+  <p> </p>
+
+  <p>Voir tous les liens à l'adresse : <a href="https://www.oecd.org/fr/cad/financementpourledeveloppementdurable/normes-financement-developpement/"><u>https://www.oecd.org/fr/cad/financementpourledeveloppementdurable/normes-financement-developpement/</u></a></p>
+CONTACT_ORGANISATION: <p>Organisation de coopération et de développement économiques
+  (OCDE)</p>

@@ -4,7 +4,7 @@ SDG_GOAL: >-
 SDG_TARGET: "<p>Cible 3.c : Accroître considérablement le budget de la santé et le\
   \ recrutement, le perfectionnement, la formation et le maintien en poste du personnel\
   \ de santé dans les pays en développement, notamment dans les pays les moins développés\
-  \ et les petits États insulaires en développement.</p>"
+  \ et les petits États insulaires en développement</p>"
 SDG_INDICATOR: '<p>Indicateur 3.c.1 : Densité et répartition du personnel de santé</p>'
 META_LAST_UPDATE: '<p>2021-03-01</p>'
 SDG_CUSTODIAN_AGENCIES: |-
@@ -12,9 +12,7 @@ SDG_CUSTODIAN_AGENCIES: |-
 STAT_CONC_DEF: >-
   <p><strong><u>Densité du personnel de santé par profession</u> </strong></p>
 
-  <p><strong> </strong></p>
-
-  <p><strong>Définition : </strong></p>
+  <p> </p>
 
   <p><strong>Densité de médecins :</strong> La densité de médecins est définie comme
   le nombre de médecins, y compris les généralistes et les médecins spécialistes pour
@@ -181,16 +179,16 @@ REG_AGG: >-
   a été extraite des « World Population Prospects » de la Division de la population
   des Nations Unies 2017. </p>
 COVERAGE: >-
-  <p>Disponibilité des données </p>
+  <p><strong>Disponibilité des données :</strong></p>
 
-  <p>Séries chronologiques : </p>
+  <p><strong>Séries chronologiques :</strong></p>
 
   <p>Données disponibles pour la période 2000-2018.</p>
 
   <p>Lien internet vers la base de données : <a href="http://www.who.int/hrh/statistics/hwfstats/en/"
   target="_blank"><u>http://www.who.int/hrh/statistics/hwfstats/en/</u></a> </p>
 
-  <p>Désagrégation :</p>
+  <p><strong>Désagrégation :</strong></p>
 
   <p>Données au niveau national </p>
 OTHER_DOC: >-
@@ -236,16 +234,16 @@ UNIT_MEASURE: "<p>Densités du personnel de santé par profession : les données
 CLASS_SYSTEM: <p>Classification internationale type des professions (CITP-08)</p>
 INST_MANDATE: <p>WHA69.19 exhorte les États membres à partager un ensemble de données
   de base avec l’OMS, afin d’accroître la base de données probantes de statistiques
-  mondiales sur le personnel de santé. </p>
+  mondiales sur le personnel de santé.</p>
 RATIONALE: <p>Pour obtenir des métadonnées et des définitions détaillées, reportez-vous
   au Manuel sur les comptes nationaux des personnels de santé (NHWA) (<a href="https://www.who.int/fr/publications/i/item/9789241513111">https://www.who.int/fr/publications/i/item/9789241513111</a>
   )</p>
 DATA_VALIDATION: <p>Les données enregistrées dans la plateforme de données NHWA sont
   validées par les points focaux nationaux. Des contrôles de la qualité des données
   et des consultations par pays sont utilisés. </p>
-IMPUTATION: "<p>&#x2022; Au niveau national</p>\n<p>&#x2022; Aux niveaux régional\
-  \ et mondial</p>"
+IMPUTATION: "<p>&#x2022; <strong>Au niveau national :</strong></p>\n<p>&#x2022; <strong>Aux\
+  \ niveaux régional et mondial :</strong></p>"
 DOC_METHOD: <p>Les pays sont priés de consulter le Manuel sur les comptes nationaux
   des personnels de santé (NHWA) (<a href="https://www.who.int/fr/publications/i/item/9789241513111">https://www.who.int/fr/publications/i/item/9789241513111</a>),
   pour obtenir des conseils sur les indicateurs et la méthodologie. </p>
-COMPARABILITY: <p>Sources des divergences :</p>
+COMPARABILITY: <p><strong>Sources des divergences :</strong></p>

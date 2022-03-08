@@ -12,7 +12,7 @@ SDG_INDICATOR: >-
   à +2 écarts types ou inférieur à -2 écarts types par rapport à la médiane des normes
   de croissance de l'enfant définies par l'OMS chez les enfants de moins de 5 ans,
   par type (surpoids et émaciation)</p>
-META_LAST_UPDATE: '<p>2 Décembre 2016 </p>'
+META_LAST_UPDATE: '<p>2016-12-02</p>'
 SDG_RELATED_INDICATORS: <h1>Indicateurs connexes à partir de février 2020</h1>
 SDG_CUSTODIAN_AGENCIES: |-
   <p>Fonds des Nations Unies pour l'enfance (UNICEF)</p>
@@ -21,23 +21,17 @@ SDG_CUSTODIAN_AGENCIES: |-
 STAT_CONC_DEF: >-
   <p><strong>Définition :</strong></p>
 
-  <p>Prévalence de l'émaciation (poids pour la taille inférieur à -2 écart-type par
-  rapport à la médiane des normes de croissance de l'enfant de l'Organisation mondiale
-  de la Santé (OMS)) chez les enfants de moins de 5 ans.</p>
+  <p>Prévalence du surpoids (poids pour la taille supérieur à +2 écart type par rapport
+  à la médiane des normes de croissance de l’enfant de l’Organisation mondiale de
+  la Santé (OMS)) chez les enfants de moins de 5 ans. </p>
 
   <p><strong>Concepts :</strong></p>
 
-  <p>L'indicateur officiel des OMD est l'émaciation et elle est évaluée en utilisant
-  le poids par rapport à la taille. Cependant, l'émaciation peut également être évaluée
-  par la circonférence moyenne du bras (MUAC). Les estimations de l'émaciation basées
-  sur la MUAC ne sont pas prises en compte dans l'ensemble de données conjoint. De
-  plus, alors que l'émaciation constitue la principale forme de malnutrition aiguë
-  modérée (MAM), il existe des enfants souffrant de malnutrition aiguë qui ne seraient
-  pas détectés avec le poids par rapport à la taille ou la MUAC, à savoir ceux présentant
-  un œdème bilatéral par piqûres (caractérisé par des pieds, un visage et des membres
-  enflés). Pour les enquêtes qui rapportent des cas d'oedèmes, ceux-ci sont inclus
-  dans la prévalence de valeur faible pour le poids par rapport à la taille dans l'ensemble
-  de données conjoint.</p>
+  <p>L’indicateur officiel des OMD est le surpoids tel qu’évalué en utilisant le poids
+  pour la taille. Le surpoids peut cependant également être évalué avec d’autres indicateurs
+  tels que l’indice de masse corporelle (IMC) pour l’âge. En général, l’IMC pour l’âge
+  n’est pas utilisé dans l’ensemble de données conjointes, mais a été pris en compte
+  en l’absence de toute autre estimation disponible. </p>
 SOURCE_TYPE: >-
   <p>Pour la majorité des pays, les enquêtes auprès des ménages représentatives au
   niveau national constituent la source de données. Pour un nombre limité de pays,
@@ -94,25 +88,23 @@ DATA_SOURCE: >-
 COMPILING_ORG: |-
   <p>UNICEF, OMS et le groupe de la Banque mondiale</p>
 RATIONALE: >-
-  <p>La croissance de l'enfant est un résultat internationalement accepté reflétant
-  l'état nutritionnel de l'enfant. L'émaciation infantile fait référence à un enfant
-  trop maigre pour sa taille et est le résultat d'une perte de poids rapide récente
-  ou d'un manque de poids. Un enfant émacié modérément ou gravement a un risque accru
-  de décès, mais un traitement est possible. L'émaciation infantile est l'un des indicateurs
-  cibles de la nutrition de l'Assemblée mondiale de la Santé. </p>
+  <p>La croissance de l’enfant est un domaine de résultats internationalement accepté
+  reflétant l’état nutritionnel de l’enfant. Le surpoids chez l’enfant fait référence
+  à un enfant qui est trop lourd pour sa taille. Cette forme de malnutrition résulte
+  de dépenser trop peu de calories pour la quantité de nourriture consommée et augmente
+  le risque de maladies non transmissibles plus tard dans la vie. Le surpoids chez
+  les enfants est l’un des indicateurs cibles nutritionnels de l’Assemblée mondiale
+  de la Santé.</p>
 REC_USE_LIM: >-
-  <p>Les estimations d'enquête sont assorties de niveaux d'incertitude dus à la fois
-  à une erreur d'échantillonnage et à une erreur non due à l'échantillonnage (par
-  exemple, erreur technique de mesure, erreur d'enregistrement, etc.). Aucune des
-  deux sources d'erreurs n'a été pleinement prise en compte pour obtenir des estimations
-  ni au niveau national, ni aux niveaux régional et mondial. Les enquêtes sont menées
-  à une période spécifique de l'année, généralement sur quelques mois. Cependant,
-  cet indicateur peut être affecté par la saisonnalité, les facteurs liés à la disponibilité
-  de la nourriture (par exemple les périodes de pré-récolte), les maladies (par exemple
-  la saison des pluies et la diarrhée, le paludisme, etc.) et les catastrophes naturelles
-  et les conflits. Par conséquent, les estimations pays-année ne sont pas nécessairement
-  comparables dans le temps. C'est pourquoi seules les dernières estimations sont
-  fournies.</p>
+  <p>Les estimations de l’enquête comportent des niveaux d’incertitude dus à la fois
+  à l’erreur d’échantillonnage et à l’erreur non due à l’échantillonnage (p. ex.,
+  erreur technique de mesure, erreur d’enregistrement, etc.). Aucune des deux sources
+  d’erreurs n’a été pleinement prise en compte pour établir des estimations ni au
+  niveau national, ni aux niveaux régional et mondial. Le surpoids est particulièrement
+  préoccupant car les données pour les pays à revenu élevé sont rares, alors que les
+  taux sont généralement plus élevés parmi les pays à revenu élevé disposant de données,
+  de sorte que le manque de représentation des pays à revenu élevé peut affecter les
+  taux mondiaux et même régionaux. </p>
 DATA_COMP: >-
   <p>Les estimations de l'enquête sont basées sur une méthodologie standardisée utilisant
   les normes de croissance de l'enfant de l'OMS telles que décrites ailleurs (Réf
@@ -121,14 +113,14 @@ DATA_COMP: >-
   child malnutrition estimates - Levels and trends (UNICEF/WHO/WB 2012) ».</p>
 IMPUTATION: >-
   <ul>
-    <li>Au niveau national :</li>
+    <li><strong>Au niveau national :</strong></li>
   </ul>
 
   <p>Aucune méthode d'imputation n'est appliquée pour obtenir des estimations pour
   les pays ou les années où aucune donnée n'est disponible.</p>
 
   <ul>
-    <li>Aux niveaux régional et mondial :</li>
+    <li><strong>Aux niveaux régional et mondial :</strong></li>
   </ul>
 
   <p>Les pays et les années sont traités comme manquants de manière aléatoire selon
@@ -146,11 +138,10 @@ COVERAGE: >-
 
   <p>Au niveau des pays, des données sont fournies pour les années où les enquêtes
   sont incluses dans l’ensemble de données conjoint. Les années d’enquête vont de
-  1983 à 2016. Pour les niveaux mondial et régional, les estimations ne sont fournies
-  que pour la dernière estimation disponible lors de sa publication chaque année (c’est-à-dire
-  que dans l’édition de septembre 2016 des estimations conjointes de la malnutrition
-  (JME), la seule estimation disponible était pour 2015 et aucune série chronologique
-  n’a été fournie). </p>
+  1983 à 2016. Pour les niveaux mondial et régional, les estimations de 1990 à la
+  dernière année disponible lors de la diffusion chaque année (c’est-à-dire que dans
+  l’édition de septembre 2016 des estimations conjointes de la malnutrition (JME),
+  la dernière estimation disponible était pour 2015). </p>
 
   <p><strong>Désagrégation :</strong></p>
 

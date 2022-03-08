@@ -30,7 +30,7 @@ SDG_INDICATOR: '<p>Indicateur 5.2.1 : Proportion de femmes et de filles de 15 an
   sexuelle ou psychologique de la part d’un partenaire intime actuel ou ancien au
   cours des 12 derniers mois, par forme de violence et par âge</p>'
 SDG_SERIES_DESCR: <p>Les métadonnées s'appliquent à toutes les séries </p>
-META_LAST_UPDATE: <p>Juillet 2021</p>
+META_LAST_UPDATE: <p>2021-07-01 </p>
 SDG_CUSTODIAN_AGENCIES: "<p>Fonds des Nations Unies pour l’enfance (UNICEF)</p>\n\
   <p>Entité des Nations Unies pour l’égalité des sexes et l’autonomisation des femmes\
   \ (ONU Femmes)</p>\n<p>Office des Nations Unies contre la drogue et le crime (ONUDC)</p>\n\
@@ -351,26 +351,26 @@ QUALITY_ASSURE: "<p>Le Groupe de travail interinstitutions sur les données sur 
   \ et de validation des données compilées par les organismes dépositaires de cet\
   \ indicateur a été entrepris, y compris avec les points focaux identifiés pour les\
   \ indicateurs des ODD et les points focaux dans d’autres ministères concernés. </p>"
-COVERAGE: "<p>Disponibilité des données :</p>\n<p>Depuis 2000, 161 pays ont mené des\
-  \ enquêtes nationales ou infranationales sur la prévalence de la violence à l’égard\
-  \ des femmes ou ont inclus un module sur la violence à l’égard des femmes dans une\
-  \ EDS ou une autre enquête nationale auprès des ménages. Cependant, toutes ces données\
-  \ ne sont pas comparables et, dans de nombreux cas, elles ne sont pas recueillies\
-  \ régulièrement. </p>\n<p>Séries chronologiques :</p>\n<p>Des séries chronologiques\
-  \ sont disponibles pour certains pays. Des séries chronologiques mondiales avec\
-  \ des données comparables ne sont pas encore disponibles. </p>\n<p>Désagrégation :</p>\n\
-  <p>En plus de la forme de violence et de l’âge, le revenu et la richesse, l’éducation,\
-  \ l’origine ethnique (y compris le statut autochtone), le statut d’invalidité, l’état\
-  \ matrimonial ou de partenariat, la relation avec l’agresseur (c.-à-d. le partenaire\
-  \ actuel ou ancien), l’emplacement géographique, le statut migratoire et la fréquence\
-  \ de la violence sont suggérés comme variables souhaitées pour la désagrégation\
-  \ de cet indicateur. Bien qu’il ne soit pas encore possible de communiquer des données\
-  \ ventilées en fonction de ces variables aux niveaux régional et mondial, on encourage\
-  \ les pays à déclarer ces niveaux de désagrégation dans leurs rapports nationaux\
-  \ et, aussi souvent que possible, à inclure ces données pour le groupe d’âge de\
-  \ 15 à 49 ans. </p>"
-COMPARABILITY: "<p>Sources des divergences :</p>\n<p>Toutes les sources de données\
-  \ d’enquête disponibles, représentatives aux niveaux national et infranational,\
+COVERAGE: "<p><strong>Disponibilité des données :</strong></p>\n<p>Depuis 2000, 161\
+  \ pays ont mené des enquêtes nationales ou infranationales sur la prévalence de\
+  \ la violence à l’égard des femmes ou ont inclus un module sur la violence à l’égard\
+  \ des femmes dans une EDS ou une autre enquête nationale auprès des ménages. Cependant,\
+  \ toutes ces données ne sont pas comparables et, dans de nombreux cas, elles ne\
+  \ sont pas recueillies régulièrement. </p>\n<p><strong>Séries chronologiques :</strong></p>\n\
+  <p>Des séries chronologiques sont disponibles pour certains pays. Des séries chronologiques\
+  \ mondiales avec des données comparables ne sont pas encore disponibles. </p>\n\
+  <p><strong>Désagrégation :</strong></p>\n<p>En plus de la forme de violence et de\
+  \ l’âge, le revenu et la richesse, l’éducation, l’origine ethnique (y compris le\
+  \ statut autochtone), le statut d’invalidité, l’état matrimonial ou de partenariat,\
+  \ la relation avec l’agresseur (c.-à-d. le partenaire actuel ou ancien), l’emplacement\
+  \ géographique, le statut migratoire et la fréquence de la violence sont suggérés\
+  \ comme variables souhaitées pour la désagrégation de cet indicateur. Bien qu’il\
+  \ ne soit pas encore possible de communiquer des données ventilées en fonction de\
+  \ ces variables aux niveaux régional et mondial, on encourage les pays à déclarer\
+  \ ces niveaux de désagrégation dans leurs rapports nationaux et, aussi souvent que\
+  \ possible, à inclure ces données pour le groupe d’âge de 15 à 49 ans. </p>"
+COMPARABILITY: "<p><strong>Sources des divergences :</strong></p>\n<p>Toutes les sources\
+  \ de données d’enquête disponibles, représentatives aux niveaux national et infranational,\
   \ sont utilisées pour générer les estimations de prévalence. Les données proviennent\
   \ de rapports d’enquête publiés et/ou de données et d’ensembles de données fournis\
   \ par les pays. Dans les cas où seules des données ventilées par type de violence\
@@ -452,12 +452,13 @@ REC_USE_LIM: "<p><u>Comparabilité</u> :</p>\n<p>La disponibilité de données c
   \ accrue des données sur la violence à l’égard des femmes âgées de 50 ans ou plus.\
   \ Cela permettra de mieux estimer l’ampleur de ce problème et de comprendre les\
   \ expériences de violence conjugale pour ce groupe d’âge plus âgé. </p>"
-IMPUTATION: "<p>&#x2022; Au niveau national</p>\n<p>Lorsque les données d’un pays\
-  \ sont totalement manquantes, aucune estimation au niveau du pays n’est publiée.\
-  \ </p>\n<p>&#x2022; Aux niveaux régional et mondial</p>\n<p>Des imputations sont\
-  \ effectuées dans les cas où les données par pays ne sont pas disponibles aux fins\
-  \ des chiffres régionaux et mondiaux. Le nombre de pays inclus dans la moyenne et\
-  \ avec des données disponibles est clairement indiqué par région des ODD. </p>"
+IMPUTATION: "<p>&#x2022; <strong>Au niveau national :</strong></p>\n<p>Lorsque les\
+  \ données d’un pays sont totalement manquantes, aucune estimation au niveau du pays\
+  \ n’est publiée. </p>\n<p>&#x2022; <strong>Aux niveaux régional et mondial :</strong></p>\n\
+  <p>Des imputations sont effectuées dans les cas où les données par pays ne sont\
+  \ pas disponibles aux fins des chiffres régionaux et mondiaux. Le nombre de pays\
+  \ inclus dans la moyenne et avec des données disponibles est clairement indiqué\
+  \ par région des ODD. </p>"
 DOC_METHOD: "<p>Les pays recueillent des données sur la violence entre partenaires\
   \ intimes au moyen (1) d’enquêtes nationales spécialisées sur la prévalence consacrées\
   \ à la mesure de la violence à l’égard des femmes; (2) de modules sur la violence\

@@ -1,5 +1,5 @@
-SDG_GOAL: '<p>Objectif 2 : Éliminer la faim, assurer la sécurité alimentaire, améliorer
-  la nutrition et promouvoir l’agriculture durable</p>'
+SDG_GOAL: '<p>Objectif 2 : Éliminer la faim, assurer la sécurité alimentaire, améliorer
+  la nutrition et promouvoir l''agriculture durable</p>'
 SDG_TARGET: "<p>Cible 2.3 : D'ici 2030, doubler la productivité agricole et les revenus\
   \ des petits producteurs alimentaires, en particulier des femmes, des populations\
   \ autochtones, des agriculteurs familiaux, des éleveurs et des pêcheurs, notamment\
@@ -57,7 +57,7 @@ SDG_SERIES_DESCR: "<p>Productivité des petits producteurs alimentaires (product
   \ primaire)</p>\n<p>Productivité des grands producteurs alimentaires (production\
   \ agricole par jour de travail, PPA) (dollar international constant de 2011) (série\
   \ complémentaire)</p>"
-META_LAST_UPDATE: <p>15 février 2021</p>
+META_LAST_UPDATE: <p>2021-02-15</p>
 SDG_RELATED_INDICATORS: <p>Indicateur des ODD 2.3.2</p>
 SDG_CUSTODIAN_AGENCIES: <p>Organisation des Nations unies pour l'alimentation et l'agriculture
   (FAO)</p>
@@ -222,11 +222,11 @@ DATA_VALIDATION: "<p>Le système RuLIS vise à produire des données comparables
   \ sont utilisés pour calculer les indicateurs. </p>\n<p>L'analyse de l'indicateur\
   \ permet d'évaluer l'avancement de l'ODD 2.3 qui vise à doubler la productivité\
   \ et les revenus agricoles des petits producteurs d'ici 2030. </p>"
-IMPUTATION: "<ul>\n  <li>Au niveau national</li>\n</ul>\n<p>Les variables utilisées\
-  \ dans le calcul sont sujettes à la détection de valeurs aberrantes, par le biais\
-  \ d’écarts absolus médians et d’autres approches, au cas par cas. </p>\n<ul>\n \
-  \ <li>Aux niveaux régional et mondial</li>\n</ul>\n<p>Aucune imputation des données\
-  \ n’est faite aux niveaux régional et mondial. </p>"
+IMPUTATION: "<ul>\n  <li><strong>Au niveau national :</strong></li>\n</ul>\n<p>Les\
+  \ variables utilisées dans le calcul sont sujettes à la détection de valeurs aberrantes,\
+  \ par le biais d’écarts absolus médians et d’autres approches, au cas par cas. </p>\n\
+  <ul>\n  <li><strong>Aux niveaux régional et mondial :</strong></li>\n</ul>\n<p>Aucune\
+  \ imputation des données n’est faite aux niveaux régional et mondial. </p>"
 REG_AGG: <p>Aucun agrégat régional ou mondial ne peut être calculé, étant donné la
   disponibilité limitée des données. </p>
 DOC_METHOD: <p>Les pays peuvent s’appuyer sur le document méthodologique (en anglais)
@@ -291,7 +291,8 @@ COVERAGE: "<p><strong>Disponibilité des données :</strong></p>\n<p>Les donnée
   \ que l'on se concentre spécifiquement sur les femmes, les peuples autochtones,\
   \ les agriculteurs familiaux, les pasteurs et les pêcheurs. Pour cette raison, l'indicateur\
   \ doit être ventilé par sexe, par type d'entreprise et par communauté de référence.</p>"
-COMPARABILITY: "<p><strong>Sources des divergences :</strong></p>\n<p>Sans objet.</p>"
+COMPARABILITY: "<p><strong>Sources des divergences :</strong></p>\n<p>Sans objet.\
+  \ </p>"
 OTHER_DOC: "<ul>\n  <li>Note sur le document « Methodology for Computing and Monitoring\
   \ the sustainable Development Goal Indicator 2.3.1 and 2.3.2 » (en anglais), Bureau\
   \ du statisticien en chef et Division de la statistique, FAO, Rome </li>\n  <li>« Defining\

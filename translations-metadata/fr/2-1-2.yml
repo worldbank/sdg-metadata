@@ -1,5 +1,5 @@
-SDG_GOAL: "<p>Objectif 2 : Éliminer la faim, assurer la sécurité alimentaire, améliorer\
-  \ la nutrition et promouvoir l’agriculture durable</p>"
+SDG_GOAL: "<p>Objectif 2 : Éliminer la faim, assurer la sécurité alimentaire, améliorer\
+  \ la nutrition et promouvoir l'agriculture durable</p>"
 SDG_TARGET: "<p>Cible 2.1 : D’ici 2030, éliminer la faim et faire en sorte que chacun,\
   \ en particulier les pauvres et les personnes en situation vulnérable, y compris\
   \ les nourrissons, ait accès toute l’année à une alimentation saine, nutritive et\
@@ -16,7 +16,7 @@ SDG_RELATED_INDICATORS: |-
 SDG_CUSTODIAN_AGENCIES: >-
   <p>Organisation des Nations unies pour l'alimentation et l'agriculture (FAO)</p>
 STAT_CONC_DEF: >-
-  <p>Définition : </p>
+  <p><strong>Définition :</strong></p>
 
   <p>L'indicateur mesure le pourcentage d'individus dans la population qui ont connu
   une insécurité alimentaire modérée ou grave au cours de la période de référence.
@@ -25,7 +25,7 @@ STAT_CONC_DEF: >-
   norme de mesure établie par la FAO grâce à l'application de cette mesure dans plus
   de 140 pays à travers le monde depuis 2014.</p>
 
-  <p>Concepts :</p>
+  <p><strong>Concepts :</strong></p>
 
   <p>Des recherches approfondies menées sur plus de 25 ans ont démontré que l’incapacité
   d’accéder à la nourriture entraîne une série d’expériences et de conditions assez
@@ -69,7 +69,7 @@ SOURCE_TYPE: >-
   </ul>
 
   <p>ou toute adaptation de ce qui précède qui peut être calibrée par rapport aux
-  FIES mondiales </p>
+  FIES mondiales. </p>
 
   <p>Deux versions du module FIES-SM sont disponibles pour les enquêtes auprès des
   individus ou des ménages respectivement, et la différence réside dans le fait que
@@ -139,7 +139,7 @@ SOURCE_TYPE: >-
         <td>
           <p>0 Non</p>
           <p>1 Oui</p>
-          3093]98 Ne sait pas</p>
+          <p>98 Ne sait pas</p>
           <p>99 Refus</p>
         </td>
       </tr>
@@ -576,8 +576,7 @@ DATA_COMP: >-
       <mo>&amp;lt;</mo>
       <mn>1</mn>
     </math>. La probabilité d'être en sécurité alimentaire ou en insécurité alimentaire
-  légère peut être obtenue à l'aide de
-  <math xmlns="http://www.w3.org/1998/Math/MathML">
+  légère peut être obtenue à l'aide de <math xmlns="http://www.w3.org/1998/Math/MathML">
       <msub>
         <mrow>
           <mi>p</mi>
@@ -766,13 +765,11 @@ DATA_COMP: >-
   alimentaire se réfère à la population totale des individus, tandis que si ce sont
   des poids de ménage, la prévalence se réfère à la population des ménages. Pour le
   calcul de l'indicateur 2.1.2, l'objectif est de produire une prévalence d'individus.
-  Cela implique que :</p>
-  <p>Si l'enquête se situe au niveau des ménages et fournit des poids d'échantillonnage
-  des ménages, ceux-ci doivent être transformés en poids d'échantillonnage individuels
-  en multipliant les poids par la taille du ménage. Ce système de pondération individuelle
-  peut alors être utilisé pour calculer les taux de prévalence individuels dans les
-  formules (1) et (2).</p>
-
+  Cela implique que :</p> <p>Si l'enquête se situe au niveau des ménages et fournit
+  des poids d'échantillonnage des ménages, ceux-ci doivent être transformés en poids
+  d'échantillonnage individuels en multipliant les poids par la taille du ménage.
+  Ce système de pondération individuelle peut alors être utilisé pour calculer les
+  taux de prévalence individuels dans les formules (1) et (2).</p>
   <p>Si l'enquête ne comprend que des adultes, alors les pondérations d'adultes appliquées
   aux probabilités des formules (1) et (2) fournissent les taux de prévalence d'adultes
   (<math xmlns="http://www.w3.org/1998/Math/MathML">
@@ -816,8 +813,7 @@ DATA_COMP: >-
       </msup>
     </math>) peuvent être calculées en appliquant ces poids aux probabilités d'insécurité
   alimentaire dans les formules (1) et (2). La prévalence de l'insécurité alimentaire
-  dans la population totale est finalement calculée comme suit :</p>
-  <p><math xmlns="http://www.w3.org/1998/Math/MathML">
+  dans la population totale est finalement calculée comme suit :</p> <p><math xmlns="http://www.w3.org/1998/Math/MathML">
       <mi>I</mi>
       <msub>
         <mrow>
@@ -1140,13 +1136,13 @@ DATA_COMP: >-
   alimentaire est exprimé en milliers. </p>
 IMPUTATION: >-
   <ul>
-    <li>Au niveau national :</li>
+    <li><strong>Au niveau national :</strong></li>
   </ul>
 
   <p>L'indicateur n'est pas calculé si aucune donnée nationale n'est disponible.</p>
 
   <ul>
-    <li>Aux niveaux régional et mondial :</li>
+    <li><strong>Aux niveaux régional et mondial :</strong></li>
   </ul>
 
   <p>Les valeurs manquantes pour les pays individuels sont implicitement imputées
@@ -1169,7 +1165,7 @@ DOC_METHOD: >-
 
   <p>Des exemples sont fournis ci-dessous (en anglais ou en espagnol) : </p>
 
-  <p>"tats-Unis : Household Food Security Survey Module (<a href="https://www.ers.usda.gov/media/8271/hh2012.pdf"><u>https://www.ers.usda.gov/media/8271/hh2012.pdf</u></a>)</p>
+  <p>États-Unis : Household Food Security Survey Module (<a href="https://www.ers.usda.gov/media/8271/hh2012.pdf"><u>https://www.ers.usda.gov/media/8271/hh2012.pdf</u></a>)</p>
 
   <p>Brésil : Escala Brasileira de Insegurança Alimentar (<a href="http://biblioteca.ibge.gov.br/visualizacao/livros/liv91984.pdf"><u>http://biblioteca.ibge.gov.br/visualizacao/livros/liv91984.pdf</u></a>,
   Quadro 5, page 30) </p>
@@ -1211,10 +1207,10 @@ QUALITY_ASSURE: >-
   à cette norme et ainsi produire des estimations de la prévalence de l'insécurité
   alimentaire qui peuvent être considérées comme comparables entre les pays.</p>
 
-  <p>Des documents pertinents sont disponibles ici <a href="http://www.fao.org/3/a-i4830e.pdf"><u>http://www.fao.org/3/a-i4830e.pdf
+  <p>Des documents pertinents sont disponibles aux adresses <a href="http://www.fao.org/3/a-i4830e.pdf"><u>http://www.fao.org/3/a-i4830e.pdf
   (en anglais)</u></a>, <a href="http://www.fao.org/3/b-i4830s.pdf"><u>http://www.fao.org/3/b-i4830s.pdf
   (en espagnol)</u></a>, <a href="http://www.fao.org/3/c-i4830f.pdf"><u>http://www.fao.org/3/c-i4830f.pdf
-  (en français)</u></a> et ici <a href="http://www.fao.org/3/a-i3946e.pdf"><u>http://www.fao.org/3/a-i3946e.pdf
+  (en français)</u></a> et <a href="http://www.fao.org/3/a-i3946e.pdf"><u>http://www.fao.org/3/a-i3946e.pdf
   (en anglais)</u></a>.</p>
 
   <p>Les données nationales utilisées pour établir l'indicateur sont obtenues directement
@@ -1222,7 +1218,7 @@ QUALITY_ASSURE: >-
   (par exemple, aux États-Unis), ou sur demande directement aux bureaux nationaux
   de statistique responsables de la collecte des données (par exemple, au Canada).</p>
 COVERAGE: >-
-  <p>Disponibilité des données : </p>
+  <p><strong>Disponibilité des données :</strong></p>
 
   <p>Les données pour 2014, 2015, 2016, 2017 et 2018 sont disponibles auprès de la
   FAO pour 137 pays, zones et territoires inclus dans le sondage mondial Gallup. Les
@@ -1507,7 +1503,7 @@ COVERAGE: >-
   <p>Il est de bonne pratique d'associer une mesure de variabilité (marges d'erreur
   ou limites supérieure et inférieure) lorsque des données désagrégées sont produites.</p>
 COMPARABILITY: >-
-  <p>Sources des divergences : </p>
+  <p><strong>Sources des divergences :</strong></p>
 
   <p>Dans les quelques cas où des indicateurs d'insécurité alimentaire basés sur des
   échelles de sécurité alimentaire fondées sur l'expérience ont été signalés par les

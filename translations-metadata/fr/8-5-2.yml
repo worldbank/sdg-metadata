@@ -1,8 +1,8 @@
-SDG_GOAL: "<p>Objectif 8 : Promouvoir une croissance économique soutenue, partagée\
-  \ et durable, le plein emploi productif et un travail décent pour tous.</p>"
-SDG_TARGET: "<p>Cible 8.5: D’ici à 2030, parvenir au plein emploi productif et garantir\
-  \ à toutes les femmes et à tous les hommes, y compris les jeunes et les personnes\
-  \ handicapées, un travail décent et un salaire égal pour un travail de valeur égale</p>"
+SDG_GOAL: "<p>Objectif 8 : Promouvoir une croissance économique soutenue, inclusive\
+  \ et durable, le plein emploi productif et un travail décent pour tous</p>"
+SDG_TARGET: "<p>Cible 8.5 : D’ici 2030, parvenir au plein emploi productif et à un\
+  \ travail décent pour toutes les femmes et tous les hommes, y compris pour les jeunes\
+  \ et les personnes handicapées, et à un salaire égal pour un travail de valeur égale</p>"
 SDG_INDICATOR: "<p>Indicateur 8.5.2: Taux de chômage, par sexe, âge et situation au regard\
   \ du handicap</p>"
 META_LAST_UPDATE: '<p>2021-01-01</p>'
@@ -48,16 +48,9 @@ COVERAGE: "<h1>Disponibilité des données </h1>\n<h2>Description :</h2>\n<p>L'i
   \ remontant plus loin sont disponibles dans ILOSTAT.</p>\n<h2>Désagrégation :</h2>\n\
   <p>Cet indicateur devrait, dans l'idéal, être ventilé par sexe, groupe d'âge et\
   \ statut de handicap.</p>"
-QUALITY_ASSURE: "<h2>Assurance qualité</h2>\n<p>Des contrôles de cohérence et de qualité\
-  \ des données sont régulièrement effectués pour valider les données avant leur diffusion\
-  \ dans la base de données d'ILOSTAT.</p>\n<p>Dans de nombreux cas, les données sont\
-  \ obtenues par le traitement par l'OIT des ensembles de microdonnées des enquêtes\
-  \ nationales sur les ménages. Les données sont également communiquées par les bureaux\
-  \ nationaux de statistique ou d'autres organismes nationaux compétents au Département\
-  \ des statistiques du BIT par le biais de son questionnaire annuel sur les statistiques\
-  \ du travail. La source primaire des données ainsi que le référentiel, le cas échéant,\
-  \ sont indiqués dans les métadonnées et/ou notes de bas de page pertinentes dans\
-  \ ILOSTAT et dans la base de données mondiale des indicateurs des ODD.</p>"
+QUALITY_ASSURE: "<p>Des contrôles de cohérence et de qualité des données sont régulièrement\
+  \ effectués pour la validation des données avant leur diffusion dans la base de\
+  \ données de l’ILOSTAT. </p>\n<p> </p>"
 DOC_METHOD: "<h2>Méthodes et instructions à la disposition des pays pour la compilation\
   \ des données au niveau national :</h2>\n<p>Pour calculer cet indicateur (selon\
   \ les définitions du chômage et du taux de chômage de l'OIT), il faut disposer de\
@@ -130,13 +123,7 @@ RATIONALE: "<h2>Justification : </h2>\n<p>Le taux de chômage est une mesure uti
   \ cas, avec le début d'une période d'expansion, lorsque des personnes qui n'étaient\
   \ pas sur le marché du travail auparavant commencent à tester les conditions par\
   \ une recherche active d'emploi.</p>"
-REL_CAL_POLICY: "<h2>Publication des données :</h2>\n<p>La base de données en ligne\
-  \ ILOSTAT de l'OIT est continuellement mise à jour pour refléter les statistiques\
-  \ compilées et traitées chaque semaine. En général, les statistiques pour les pays\
-  \ d'EUROSTAT et de l'OCDE sont disponibles vers le 2e ou 3e trimestre de l'année\
-  \ suivant l'année de référence, alors qu'elles sont habituellement disponibles vers\
-  \ le 3e ou 4e trimestre de l'année suivant l'année de référence pour les autres\
-  \ pays.</p>"
+REL_CAL_POLICY: "<p>En continu</p>"
 FREQ_COLL: "<p>En continu</p>"
 COLL_METHOD: "<h2>Processus de collecte :</h2>\n<p>Le Département des statistiques\
   \ de l'OIT envoie son questionnaire annuel sur les statistiques du travail à toutes\
@@ -196,10 +183,10 @@ ADJUSTMENT: <p>Dans le cadre de l’initiative de l’OIT sur les microdonnées 
   en se basant sur des concepts et définitions d’indicateurs adoptés par la Conférence
   internationale des statisticiens du travail. </p>
 DATA_VALIDATION: <p>L'OIT procède à des consultations annuelles avec les Etats membres
-  par le biais du questionnaire d'ILOSTAT et du système connexe de rapports statistiques
-  (Statistics Reporting System (StaRS)). Les fournisseurs de données nationaux reçoivent
-  un lien vers le portail où ils peuvent examiner toutes les données nationales sur
-  les ODD disponibles dans ILOSTAT.</p>
+  par le biais du questionnaire d'ILOSTAT et du système de rapports statistiques (« Statistics
+  Reporting System » (StaRS)). Les fournisseurs de données nationaux reçoivent un
+  lien vers le portail où ils peuvent examiner toutes les données nationales sur les
+  ODD disponibles dans ILOSTAT.</p>
 INST_MANDATE: <p>L'OIT est le point focal des Nations Unies pour les statistiques
   du travail. Elle établit des normes internationales pour les statistiques du travail
   par le biais de la Conférence internationale des statisticiens du travail. Elle

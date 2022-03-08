@@ -12,7 +12,7 @@ SDG_INDICATOR: >-
   à +2 écarts types ou inférieur à -2 écarts types par rapport à la médiane des normes
   de croissance de l'enfant définies par l'OMS chez les enfants de moins de 5 ans,
   par type (surpoids et émaciation)</p>
-META_LAST_UPDATE: '<p>2 Décembre 2016 </p>'
+META_LAST_UPDATE: '<p>2016-12-02</p>'
 SDG_RELATED_INDICATORS: <h1>Indicateurs connexes à partir de février 2020</h1>
 SDG_CUSTODIAN_AGENCIES: |-
   <p>Fonds des Nations Unies pour l'enfance (UNICEF)</p>
@@ -101,15 +101,15 @@ RATIONALE: >-
   de décès, mais un traitement est possible. L'émaciation infantile est l'un des indicateurs
   cibles de la nutrition de l'Assemblée mondiale de la Santé. </p>
 REC_USE_LIM: >-
-  <p>Les estimations d'enquête sont assorties de niveaux d'incertitude dus à la fois
-  à une erreur d'échantillonnage et à une erreur non due à l'échantillonnage (par
-  exemple, erreur technique de mesure, erreur d'enregistrement, etc.). Aucune des
-  deux sources d'erreurs n'a été pleinement prise en compte pour obtenir des estimations
-  ni au niveau national, ni aux niveaux régional et mondial. Les enquêtes sont menées
-  à une période spécifique de l'année, généralement sur quelques mois. Cependant,
-  cet indicateur peut être affecté par la saisonnalité, les facteurs liés à la disponibilité
-  de la nourriture (par exemple les périodes de pré-récolte), les maladies (par exemple
-  la saison des pluies et la diarrhée, le paludisme, etc.) et les catastrophes naturelles
+  <p>Les estimations de l’enquête comportent des niveaux d’incertitude dus à la fois
+  à l’erreur d’échantillonnage et à l’erreur non due à l’échantillonnage (p. ex.,
+  erreur technique de mesure, erreur d’enregistrement, etc.). Aucune des deux sources
+  d’erreurs n’a été pleinement prise en compte pour établir des estimations ni au
+  niveau national, ni aux niveaux régional et mondial. Les enquêtes sont menées à
+  une période spécifique de l'année, généralement sur quelques mois. Cependant, cet
+  indicateur peut être affecté par la saisonnalité, les facteurs liés à la disponibilité
+  de la nourriture (p. ex., les périodes de pré-récolte), les maladies (p. ex., la
+  saison des pluies et la diarrhée, le paludisme, etc.) et les catastrophes naturelles
   et les conflits. Par conséquent, les estimations pays-année ne sont pas nécessairement
   comparables dans le temps. C'est pourquoi seules les dernières estimations sont
   fournies.</p>
@@ -121,14 +121,14 @@ DATA_COMP: >-
   child malnutrition estimates - Levels and trends (UNICEF/WHO/WB 2012) ».</p>
 IMPUTATION: >-
   <ul>
-    <li>Au niveau national :</li>
+    <li><strong>Au niveau national :</strong></li>
   </ul>
 
   <p>Aucune méthode d'imputation n'est appliquée pour obtenir des estimations pour
   les pays ou les années où aucune donnée n'est disponible.</p>
 
   <ul>
-    <li>Aux niveaux régional et mondial :</li>
+    <li><strong>Aux niveaux régional et mondial :</strong></li>
   </ul>
 
   <p>Les pays et les années sont traités comme manquants de manière aléatoire selon
