@@ -10,12 +10,11 @@ CONTACT_PHONE: Sans objet
 CONTACT_EMAIL: Sans objet
 UNIT_MEASURE: <p>Les données pour cet indicateur sont exprimées en proportion du temps
   passé dans une journée</p>
-DATA_VALIDATION: "Processus de consultation/validation avec les pays pour les ajustements\
-  \ et les estimations\nLa plupart des données sont fournies et validées par les bureaux\
+DATA_VALIDATION: "<p>La plupart des données sont fournies et validées par les bureaux\
   \ nationaux de statistique. Dans certains cas, des données ont été obtenues à partir\
   \ de bases de données et de publications nationales accessibles au public. La Division\
   \ de la statistique des Nations Unies (DSNU) communique avec les pays s’il y a des\
-  \ incohérences ou des erreurs possibles dans les données."
+  \ incohérences ou des erreurs possibles dans les données.</p>"
 COLL_METHOD: "<p>Les données sont recueillies par les bureaux nationaux de statistique,\
   \ les homologues officiels au niveau national. Les données sont compilées et validées\
   \ par la DSNU. En cas d'incohérence ou de problème avec les données, la DSNU consulte\
@@ -37,9 +36,18 @@ QUALITY_ASSURE: "Assurance qualité\nLa Division de la statistique des Nations U
   \ données sur l’emploi du temps et la classification des activités utilisées par\
   \ les pays, afin d’évaluer le niveau de comparabilité entre les pays et au fil du\
   \ temps dans un pays donné. "
-REG_AGG: "Agrégats régionaux :\nLe nombre de pays menant de telles enquêtes est insuffisant\
-  \ pour permettre le calcul des agrégats régionaux. En outre, la comparabilité limitée\
-  \ entre les données nationales entrave le calcul des agrégats régionaux."
+REG_AGG: "<p>Le nombre de pays menant de telles enquêtes est insuffisant pour permettre\
+  \ le calcul d’agrégats régionaux annuels pour la déclaration des ODD. En outre,\
+  \ la comparabilité limitée entre les données nationales entrave le calcul des agrégats\
+  \ régionaux. Néanmoins, le Conseil de sécurité de l’ONU produit régulièrement des\
+  \ estimations régionales pour suivre les tendances mondiales et en rendre compte.\
+  \ Cela se fait en utilisant les dernières données disponibles de chaque pays de\
+  \ la région. En cas de données insuffisantes d’une région, les agrégats régionaux\
+  \ ne sont pas déclarés pour la région en question. Les régions des ODD « Australie\
+  \ et Nouvelle-Zélande » et « Europe et Amérique du Nord » sont combinées pour produire\
+  \ un seul agrégat pour « Région développée ». En outre, le ratio de temps passé\
+  \ par les femmes et les hommes est calculé séparément pour chaque pays, puis calculé\
+  \ en moyenne sur les pays de la région afin d’assurer la comparabilité. </p>"
 QUALITY_MGMNT: Sans objet
 QUALITY_ASSMNT: Sans objet
 SDG_GOAL: "<p>Objectif 5 : Parvenir à l’égalité des sexes et autonomiser toutes les\
@@ -150,11 +158,13 @@ RATIONALE: "<p>L’objectif de l’indicateur est de mesurer le temps que les fe
   \ d’une moyenne prise sur une période hebdomadaire (ou la période de référence pour\
   \ la collecte de données), et ne signifie donc pas que les femmes et les hommes\
   \ passent ces quantités de temps données chaque jour. </p>"
-ADJUSTMENT: Sans objet
-IMPUTATION: "Traitement des valeurs manquantes :\n\n• Au niveau national\nLa Division\
-  \ de la statistique des Nations Unies (DSNU) ne produit pas d’estimations pour les\
-  \ valeurs manquantes\n• Aux niveaux régional et mondial\nAucune imputation n’est\
-  \ faite"
+ADJUSTMENT: <p>Aucun ajustement par rapport aux normes internationales n’est effectué.
+  </p>
+IMPUTATION: "<ul>\n  <li><strong>Au niveau national :</strong></li>\n</ul>\n<p>La\
+  \ Division de la statistique des Nations Unies (DSNU) ne produit pas d’estimations\
+  \ pour les valeurs manquantes</p>\n<ul>\n  <li><strong>Aux niveaux régional et mondial\
+  \ :</strong></li>\n</ul>\n<p>Aucune imputation n’est faite. Les agrégats sont calculés\
+  \ en fonction des données disponibles uniquement. </p>"
 STAT_CONC_DEF: "<p><strong>Définition :</strong></p>\n<p>Cet indicateur est défini\
   \ comme la proportion de temps passé dans une journée à faire du travail domestique\
   \ et prodiguer des soins de façon non rémunérée par les hommes et les femmes. Le\
@@ -270,3 +280,104 @@ REC_USE_LIM: "<p>Les statistiques sur l’emploi du temps ont été utilisées p
   \  <li>Les différentes populations d’âge cible utilisées par les pays et les groupes\
   \ d’âge utilisés rendent également les données sur l’emploi du temps difficiles\
   \ à comparer entre les pays. </li>\n</ol>"
+DATA_COMP: "<p>Les données présentées pour cet indicateur sont exprimées en proportion\
+  \ du temps dans une journée. Dans le cas où la période de référence est d'une semaine,\
+  \ on fait la moyenne des données hebdomadaires sur les sept jours de la semaine\
+  \ pour obtenir le temps quotidien moyen. </p>\n<p>La proportion du temps consacré\
+  \ au travail domestique et aux soins non rémunérés est calculée en divisant le nombre\
+  \ quotidien moyen d'heures consacrées au travail domestique et aux soins non rémunérés\
+  \ par 24 heures. </p>\n<p>La proportion du temps consacré au travail domestique\
+  \ et aux soins non rémunérés (l'indicateur 5.4.1) est calculé comme suit :</p>\n\
+  <p><math xmlns=\"http://www.w3.org/1998/Math/MathML\">\n    <mi>I</mi>\n    <mi>n</mi>\n\
+  \    <mi>d</mi>\n    <mi>i</mi>\n    <mi>c</mi>\n    <mi>a</mi>\n    <mi>t</mi>\n\
+  \    <mi>e</mi>\n    <mi>u</mi>\n    <mi>r</mi>\n    <mi>&nbsp;</mi>\n    <mn>5</mn>\n\
+  \    <mo>.</mo>\n    <mn>4</mn>.\n    <mo>.</mo>\n    <mn>1</mn>.\n    <mo>=</mo>.\n\
+  \    <mfrac>\n      <mrow>\n        <mi>N</mi>\n        <mi>o</mi>\n        <mi>m</mi>\n\
+  \        <mi>b</mi>\n        <mi>r</mi>\n        <mi>e</mi>\n        <mi>&nbsp;</mi>\n\
+  \        <mi>d</mi>\n        <mi>'</mi>\n        <mi>&nbsp;</mi>\n        <mi>h</mi>\n\
+  \        <mi>e</mi>\n        <mi>u</mi>\n        <mi>r</mi>\n        <mi>e</mi>\n\
+  \        <mi>s</mi>\n        <mi>&nbsp;</mi>\n        <mi>p</mi>\n        <mi>a</mi>\n\
+  \        <mi>r</mi>\n        <mi>&nbsp;</mi>\n        <mi>j</mi>\n        <mi>o</mi>\n\
+  \        <mi>u</mi>\n        <mi>r</mi>\n        <mi>&nbsp;</mi>\n        <mi>t</mi>\n\
+  \        <mi>r</mi>\n        <mi>a</mi>\n        <mi>v</mi>\n        <mi>a</mi>\n\
+  \        <mi>u</mi>\n        <mi>x</mi>\n        <mi>&nbsp;</mi>\n        <mi>d</mi>\n\
+  \        <mi>o</mi>\n        <mi>m</mi>\n        <mi>e</mi>\n        <mi>s</mi>\n\
+  \        <mi>t</mi>\n        <mi>i</mi>\n        <mi>q</mi>\n        <mi>u</mi>\n\
+  \        <mi>e</mi>\n        <mi>s</mi>\n        <mi>&nbsp;</mi>\n        <mo>+</mo>\n\
+  \        <mi>&nbsp;</mi>\n        <mi>s</mi>\n        <mi>o</mi>\n        <mi>i</mi>\n\
+  \        <mi>n</mi>\n        <mi>s</mi>\n      </mrow>\n      <mrow>\n        <mn>24</mn>\n\
+  \      </mrow>\n    </mfrac>\n    <mo>×</mo>\n    <mn>100</mn>\n  </math></p>\n\
+  <p>où</p>\n<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\">\n        <mi>N</mi>\n\
+  \        <mi>o</mi>\n        <mi>m</mi>\n        <mi>b</mi>\n        <mi>r</mi>\n\
+  \        <mi>e</mi>\n        <mi>&nbsp;</mi>\n        <mi>d</mi>\n        <mi>'</mi>\n\
+  \        <mi>&nbsp;</mi>\n        <mi>h</mi>\n        <mi>e</mi>\n        <mi>u</mi>\n\
+  \        <mi>r</mi>\n        <mi>e</mi>\n        <mi>s</mi>\n        <mi>&nbsp;</mi>\n\
+  \        <mi>p</mi>\n        <mi>a</mi>\n        <mi>r</mi>\n        <mi>&nbsp;</mi>\n\
+  \        <mi>j</mi>\n        <mi>o</mi>\n        <mi>u</mi>\n        <mi>r</mi>\n\
+  \    <mi>&nbsp;</mi>\n    <mi>a</mi>\n    <mi>c</mi>\n    <mi>t</mi>\n    <mi>i</mi>\n\
+  \    <mi>v</mi>\n    <mi>i</mi>\n    <mi>t</mi>\n    <mi>é</mi>\n    <mi>s</mi>\n\
+  \    <mi>&nbsp;</mi>\n    <mi>c</mi>\n    <mi>o</mi>\n    <mi>n</mi>\n    <mi>c</mi>\n\
+  \    <mi>e</mi>\n    <mi>r</mi>\n    <mi>n</mi>\n    <mi>é</mi>\n    <mi>e</mi>\n\
+  \    <mi>s</mi>\n    <mo>=</mo>\n    <mfrac>\n      <mrow>\n        <mtable>\n \
+  \         <mtr>\n            <mtd>\n              <mrow>\n                <maligngroup></maligngroup>\n\
+  \        <mi>N</mi>\n        <mi>o</mi>\n        <mi>m</mi>\n        <mi>b</mi>\n\
+  \        <mi>r</mi>\n        <mi>e</mi>\n        <mi>&nbsp;</mi>\n        <mi>&nbsp;</mi>\n\
+  \                <mi>t</mi>\n                <mi>o</mi>\n                <mi>t</mi>\n\
+  \                <mi>a</mi>\n                <mi>l</mi>\n        <mi>d</mi>\n  \
+  \      <mi>'</mi>\n        <mi>&nbsp;</mi>\n        <mi>h</mi>\n        <mi>e</mi>\n\
+  \        <mi>u</mi>\n        <mi>r</mi>\n        <mi>e</mi>\n        <mi>s</mi>\n\
+  \    <mi>&nbsp;</mi>\n    <mi>a</mi>\n    <mi>c</mi>\n    <mi>t</mi>\n    <mi>i</mi>\n\
+  \    <mi>v</mi>\n    <mi>i</mi>\n    <mi>t</mi>\n    <mi>é</mi>\n    <mi>s</mi>\n\
+  \                <mi>&nbsp;</mi>\n              </mrow>\n            </mtd>\n  \
+  \        </mtr>\n          <mtr>\n            <mtd>\n              <mrow>\n    \
+  \            <maligngroup></maligngroup>\n    <mi>c</mi>\n    <mi>o</mi>\n    <mi>n</mi>\n\
+  \    <mi>c</mi>\n    <mi>e</mi>\n    <mi>r</mi>\n    <mi>n</mi>\n    <mi>é</mi>\n\
+  \    <mi>e</mi>\n    <mi>s</mi>\n                <mi>&nbsp;</mi>\n             \
+  \   <mi>f</mi>\n                <mi>a</mi>\n                <mi>i</mi>\n       \
+  \         <mi>t</mi>\n                <mi>e</mi>\n                <mi>s</mi>\n \
+  \               <mi>&nbsp;</mi>\n                <mi>p</mi>\n                <mi>a</mi>\n\
+  \                <mi>r</mi>\n                <mi>&nbsp;</mi>\n                <mi>p</mi>\n\
+  \                <mi>o</mi>\n                <mi>p</mi>\n                <mi>u</mi>\n\
+  \                <mi>l</mi>\n                <mi>a</mi>\n                <mi>t</mi>\n\
+  \                <mi>i</mi>\n                <mi>o</mi>\n                <mi>n</mi>\n\
+  \              </mrow>\n            </mtd>\n          </mtr>\n        </mtable>\n\
+  \      </mrow>\n      <mrow>\n        <mtable>\n          <mtr>\n            <mtd>\n\
+  \              <mrow>\n                <maligngroup></maligngroup>\n           \
+  \     <mi>P</mi>\n                <mi>o</mi>\n                <mi>p</mi>\n     \
+  \           <mi>u</mi>\n                <mi>l</mi>\n                <mi>a</mi>\n\
+  \                <mi>t</mi>\n                <mi>i</mi>\n                <mi>o</mi>\n\
+  \                <mi>n</mi>\n                <mi>&nbsp;</mi>\n                <mi>t</mi>\n\
+  \                <mi>o</mi>\n                <mi>t</mi>\n                <mi>a</mi>\n\
+  \                <mi>l</mi>\n                <mi>e</mi>\n              </mrow>\n\
+  \            </mtd>\n          </mtr>\n          <mtr>\n            <mtd>\n    \
+  \          <mrow>\n                <maligngroup></maligngroup>\n               \
+  \ <mo>(</mo>.\n                <mi>f</mi>\n                <mi>a</mi>\n        \
+  \        <mi>i</mi>\n                <mi>t</mi>\n                <mi>&nbsp;</mi>\n\
+  \                <mi>a</mi>\n                <mi>c</mi>\n                <mi>t</mi>\n\
+  \                <mi>i</mi>\n                <mi>v</mi>\n                <mi>i</mi>\n\
+  \                <mi>t</mi>\n                <mi>é</mi>\n                <mi>s</mi>\n\
+  \                <mi>&nbsp;</mi>\n                <mi>o</mi>\n                <mi>u</mi>\n\
+  \                <mi>&nbsp;</mi>\n                <mi>n</mi>\n                <mi>o</mi>\n\
+  \                <mi>n</mi>\n                <mo>)</mo>\n              </mrow>\n\
+  \            </mtd>\n          </mtr>\n        </mtable>\n      </mrow>\n    </mfrac>\n\
+  \  </math></p>\n<p>Si les données sur le temps passé sont hebdomadaires, on fait\
+  \ la moyenne des données sur les sept jours de la semaine pour obtenir le temps\
+  \ passé quotidien.</p>\n<p>Le nombre moyen d'heures consacrées au travail domestique\
+  \ et aux soins non rémunérés provient des statistiques sur l'emploi du temps qui\
+  \ sont recueillies par le biais d'enquêtes autonomes sur l'emploi du temps ou d'un\
+  \ module sur l'emploi du temps dans les enquêtes polyvalentes auprès des ménages.\
+  \ Les données sur l'emploi du temps peuvent être résumées et présentées soit (1)\
+  \ comme le temps moyen passé par les participants (à une activité donnée) uniquement,\
+  \ soit (2) comme le temps moyen passé par l'ensemble de la population d'un certain\
+  \ âge (population totale concernée). Dans le premier type de moyennes, le temps\
+  \ total passé par les individus qui ont fait une activité est divisé par le nombre\
+  \ de personnes qui l'ont faite (participants). Dans le second type de moyennes,\
+  \ le temps total est divisé par la population totale pertinente (ou un sous-groupe\
+  \ de celle-ci), que les personnes aient fait l'activité ou non. </p>\n<p><em>L'indicateur\
+  \ 5.4.1 de l'ODD est calculé sur la base du nombre moyen d'heures consacrées aux\
+  \ travaux domestiques et aux soins non rémunérés pour l'ensemble de la population\
+  \ pertinente. Ce type de mesures peut être utilisé pour comparer des groupes et\
+  \ évaluer les changements dans le temps. Les différences entre les groupes ou au\
+  \ fil du temps peuvent être dues à une différence (ou un changement) dans la proportion\
+  \ de ceux qui participent à l'activité spécifique ou à une différence (ou un changement)\
+  \ dans le temps passé par les participants, ou les deux. </em></p>"
