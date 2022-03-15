@@ -28,14 +28,13 @@ COLL_METHOD: "<p>Les données sont recueillies par les bureaux nationaux de stat
   \ concernant les statistiques du travail, de l’emploi et de la sous-utilisation\
   \ du travail, adoptée par la Conférence internationale des statisticiens du travail\
   \ (CIST) à sa 19e session en 2013</li>\n</ul>"
-COMPARABILITY: "Sources des divergences :\nSans objet\n"
+COMPARABILITY: "<p><strong>Sources des divergences :</strong></p>\n<p>Sans objet</p>"
 FREQ_COLL: "<p>Une fois que les données nationales sur l’emploi du temps sont disponibles,\
   \ elles sont ajoutées à la base de données de la DSNU.</p>"
-QUALITY_ASSURE: "Assurance qualité\nLa Division de la statistique des Nations Unies\
-  \ (DSNU) a examiné en détail la méthodologie d’enquête suivie pour recueillir des\
-  \ données sur l’emploi du temps et la classification des activités utilisées par\
-  \ les pays, afin d’évaluer le niveau de comparabilité entre les pays et au fil du\
-  \ temps dans un pays donné. "
+QUALITY_ASSURE: "<p>La Division de la statistique des Nations Unies (DSNU) a examiné\
+  \ en détail la méthodologie d’enquête suivie pour recueillir des données sur l’emploi\
+  \ du temps et la classification des activités utilisées par les pays, afin d’évaluer\
+  \ le niveau de comparabilité entre les pays et au fil du temps dans un pays donné.</p>"
 REG_AGG: "<p>Le nombre de pays menant de telles enquêtes est insuffisant pour permettre\
   \ le calcul d’agrégats régionaux annuels pour la déclaration des ODD. En outre,\
   \ la comparabilité limitée entre les données nationales entrave le calcul des agrégats\
@@ -48,8 +47,18 @@ REG_AGG: "<p>Le nombre de pays menant de telles enquêtes est insuffisant pour p
   \ un seul agrégat pour « Région développée ». En outre, le ratio de temps passé\
   \ par les femmes et les hommes est calculé séparément pour chaque pays, puis calculé\
   \ en moyenne sur les pays de la région afin d’assurer la comparabilité. </p>"
-QUALITY_MGMNT: Sans objet
-QUALITY_ASSMNT: Sans objet
+QUALITY_MGMNT: "<p>Des détails sur la gestion de la qualité sont disponibles dans\
+  \ le document (en anglais) sur la qualité des données pour les statistiques de l’emploi\
+  \ du temps, présenté à la Commission statistique en 2020:</p>\n<p> <a href=\"https://unstats.un.org/unsd/statcom/51st-session/documents/BG-Item3m-Defining_Quality-E.pdf\"\
+  >https://unstats.un.org/unsd/statcom/51st-session/documents/BG-Item3m-Defining_Quality-E.pdf</a></p>\n\
+  <p>Ce rapport technique est en cours de mise à jour et d’élaboration par le groupe\
+  \ TUS-EG et sera présenté à la Commission statistique en mars 2022. Le rapport actualisé\
+  \ reflétera les derniers développements et comprendra des exemples de pays. </p>"
+QUALITY_ASSMNT: <p>Le Conseil de sécurité de l’ONU examine et évalue la qualité des
+  données reçues des pays et retourne aux fournisseurs de données pour obtenir des
+  éclaircissements si nécessaire. Les données reçues sont comparées aux années précédentes
+  afin d’assurer l’uniformité dans le temps. En outre, les calculs des indicateurs
+  sont vérifiés et les données sont vérifiées pour détecter les anomalies. </p>
 SDG_GOAL: "<p>Objectif 5 : Parvenir à l’égalité des sexes et autonomiser toutes les\
   \ femmes et les filles</p>"
 SDG_SERIES_DESCR: 5.4.1 Proportion du temps consacré au travail domestique et aux
@@ -381,3 +390,56 @@ DATA_COMP: "<p>Les données présentées pour cet indicateur sont exprimées en 
   \ fil du temps peuvent être dues à une différence (ou un changement) dans la proportion\
   \ de ceux qui participent à l'activité spécifique ou à une différence (ou un changement)\
   \ dans le temps passé par les participants, ou les deux. </em></p>"
+DOC_METHOD: "<p>Classification internationale des activités à prendre en compte dans\
+  \ les statistiques du budget-temps (ICATUS 2016) : <a href=\"https://unstats.un.org/unsd/demographic-social/time-use/icatus-2016/\"\
+  >(en anglais) https://unstats.un.org/unsd/demographic-social/time-use/icatus-2016/</a></p>\n\
+  <p>« Guide to Producing Statistics on Time-Use: Measuring Paid und Unpaid Work »\
+  \ : <a href=\"https://unstats.un.org/unsd/publication/SeriesF/SeriesF_93E.pdf\"\
+  >(en anglais) https://unstats.un.org/unsd/publication/SeriesF/SeriesF_93E.pdf</a></p>\n\
+  <p>Système de comptabilité nationale 2008 (SCN 2008) : <a href=\"https://unstats.un.org/unsd/nationalaccount/sna2008.asp\"\
+  >https://unstats.un.org/unsd/nationalaccount/sna2008.asp</a></p>\n<p>Résolution\
+  \ concernant les statistiques du travail, de l’emploi et de la sous-utilisation\
+  \ de la main-d’oeuvre :</p>\n<p><a href=\"https://www.ilo.org/global/statistics-and-databases/standards-and-guidelines/resolutions-adopted-by-international-conferences-of-labour-statisticians/WCMS_233215/lang--fr/index.htm\"\
+  >https://www.ilo.org/global/statistics-and-databases/standards-and-guidelines/resolutions-adopted-by-international-conferences-of-labour-statisticians/WCMS_233215/lang--fr/index.htm</a></p>"
+COVERAGE: "<p><strong>Disponibilité des données :</strong></p>\n<p>90 pays avec des\
+  \ données entre 2000 et 2020</p>\n<p>Par année:</p>\n<p>2000–2004 : 41 pays</p>\n\
+  <p>2005–2009 : 38 pays</p>\n<p>À partir de 2010 : 66 pays</p>\n<p>Par région (2000–2020)</p>\n\
+  <p>Afrique : 17 pays</p>\n<p>Amériques : 19 pays</p>\n<p>Asie : 21 pays</p>\n<p>Europe\
+  \ : 32 pays</p>\n<p>Océanie : 3 pays</p>\n<p><strong>Séries chronologiques :</strong></p>\n\
+  <p>De 2000 à 2020</p>\n<p><strong>Désagrégation :</strong></p>\n<p>Cet indicateur\
+  \ doit être ventilé selon les dimensions suivantes : sexe, âge et lieu. </p>\n<p>Les\
+  \ catégories de désagrégation, par dimension, sont les suivantes : </p>\n<p>Sexe\
+  \ : femme/homme </p>\n<p>Âge : les groupes d’âge recommandés sont : 15+, 15-24,\
+  \ 25-44, 45-54, 55-64 et 65+</p>\n<p>Lieu : urbain/rural (suivant les définitions\
+  \ nationales étant donné l’absence de définition internationale)</p>\n<p>Ces catégories\
+  \ ont été recommandées par le Groupe interinstitutions et d’experts sur les statistiques\
+  \ sexospécifiques (IAEG-GS) lors de sa 11e réunion à Rome, en Italie, les 30 et\
+  \ 31 octobre 2017. </p>\n<p>Les données disponibles sont actuellement ventilées\
+  \ par sexe, âge et lieu</p>"
+OTHER_DOC: "<p>(Toutes les références sont en anglais)</p>\n<p><strong>URL :</strong></p>\n\
+  <p>http://unstats.un.org/unsd/gender/default.html</p>\n<p><strong>Références :</strong></p>\n\
+  <ul>\n  <li>« Guide to Producing Statistics on Time-Use: Measuring Paid and Unpaid\
+  \ Work » : <a href=\"https://unstats.un.org/unsd/publication/SeriesF/SeriesF_93E.pdf\"\
+  >https://unstats.un.org/unsd/publication/SeriesF/SeriesF_93E.pdf</a></li>\n  <li>Classification\
+  \ internationale des activités à prendre en compte dans les statistiques du budget-temps\
+  \ (ICATUS 2016) : <a href=\"https://unstats.un.org/unsd/demographic-social/time-use/icatus-2016/\"\
+  >https://unstats.un.org/unsd/demographic-social/time-use/icatus-2016/</a></li>\n\
+  \  <li>« Minimum Set of Gender Indicators » : <a href=\"http://genderstats.un.org\"\
+  >http://genderstats.un.org</a> </li>\n  <li>« Modernization of the production of\
+  \ time-use statistics: Linking priority components of the conceptual framework »\
+  \ : <a href=\"https://unstats.un.org/unsd/statcom/51st-session/documents/BG-Item3m-Placemat-E.pdf\"\
+  >https://unstats.un.org/unsd/statcom/51st-session/documents/BG-Item3m-Placemat-E.pdf</a>\
+  \ </li>\n  <li>« Time-use data crucial for monitoring the 2030 Agenda for Sustainable\
+  \ Development: going beyond SDG 5 » du document « Policy relevance: Making the case\
+  \ for time-use data collections in support of SDGs monitoring » : <a href=\"https://unstats.un.org/unsd/statcom/51st-session/documents/BG-Item3m-PolicyRelevance-E.pdf\"\
+  >https://unstats.un.org/unsd/statcom/51st-session/documents/BG-Item3m-PolicyRelevance-E.pdf</a></li>\n\
+  \  <li>« Concepts and definitions in the context of time-use surveys and statistics »\
+  \ : <a href=\"https://unstats.un.org/unsd/statcom/51st-session/documents/BG-Item3m-Concepts_and_definitions-E.pdf\"\
+  >https://unstats.un.org/unsd/statcom/51st-session/documents/BG-Item3m-Concepts_and_definitions-E.pdf</a></li>\n\
+  \  <li>« Towards defining quality for data and statistics on time use » : <a href=\"\
+  https://unstats.un.org/unsd/statcom/51st-session/documents/BG-Item3m-Defining_Quality-E.pdf\"\
+  >https://unstats.un.org/unsd/statcom/51st-session/documents/BG-Item3m-Defining_Quality-E.pdf</a></li>\n\
+  \  <li>« Minimum Harmonized Instrument for the collection of time-use data » : <a\
+  \ href=\"https://unstats.un.org/unsd/statcom/51st-session/documents/BG-Item3m-MinimumHarmonizedInstrument-E.pdf\"\
+  >https://unstats.un.org/unsd/statcom/51st-session/documents/BG-Item3m-MinimumHarmonizedInstrument-E.pdf</a></li>\n\
+  </ul>"
