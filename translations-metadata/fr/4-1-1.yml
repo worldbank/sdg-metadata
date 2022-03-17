@@ -3,8 +3,8 @@ SDG_GOAL: "<p>Objectif 4 : Assurer l'accès de tous à une éducation de qualit�
   \ un pied d'égalité, et promouvoir les possibilités d'apprentissage tout au long\
   \ de la vie</p>"
 SDG_TARGET: '<p>Cible 4.1 : D’ici 2030, faire en sorte que toutes les filles et tous
-  les garçons suivent, sur un pied d’égalité, un cycle complet d’enseignement primaire
-  et secondaire gratuit et de qualité, les dotant d’acquis véritablement utiles</p>'
+  les garçons terminent un cycle complet d’enseignement primaire et secondaire gratuit,
+  équitable et de qualité, les dotant d’acquis véritablement utiles</p>'
 SDG_RELATED_INDICATORS: <p>Les indices de parité pour cet indicateur sont indiqués
   dans l’indicateur 4.5.1 des ODD. </p>
 STAT_CONC_DEF: "<p><strong>Définition :</strong></p>\n<p>Pourcentage d’enfants et\
@@ -78,7 +78,7 @@ REL_CAL_POLICY: <p>Février/mars et septembre de chaque année. </p>
 IMPUTATION: "<p>&#x2022; <strong>Au niveau national :</strong></p>\n<p>Les valeurs\
   \ manquantes ne sont pas imputées. </p>\n<p>&#x2022; <strong>Aux niveaux régional\
   \ et mondial :</strong></p>\n<p>Les valeurs manquantes ne sont pas imputées. </p>"
-REG_AGG: <p>Sans objet pour l'instant. Les données ne sont communiquées qu’au niveau
+REG_AGG: <p>Sans objet pour l'instant. Les données ne sont déclarées qu’au niveau
   national. Moyenne pondérée de la population par région à déclarer en 2020. </p>
 QUALITY_ASSURE: <p>L’information produite par les programmes d’évaluation transnationaux
   et nationaux est décrite dans leurs manuels. </p>
@@ -161,7 +161,8 @@ SOURCE_TYPE: "<p>Type de sources de données : Évaluations de l’apprentissage
   \ que défini par les niveaux CITE dans chaque pays</p>\n      </td>\n    </tr>\n\
   \    <tr>\n      <td colspan=\"2\">\n        <p><strong>Validation </strong></p>\n\
   \      </td>\n      <td colspan=\"3\">\n        <p>Envoyé par UNESCO-ISU pour l'approbation\
-  \ des pays</p>\n      </td>\n    </tr>\n  </tbody>\n</table>"
+  \ des pays</p>\n      </td>\n    </tr>\n  </tbody>\n</table>\n<p>Note : Consulter\
+  \ la section 3.e. Fournisseur de données pour la signification des acronymes</p>"
 COMPILING_ORG: <p>Institut de statistique de l'UNESCO (UNESCO-ISU)</p>
 DATA_VALIDATION: <p>Le contrôle de la qualité est assuré par la mise en place d’un
   comité d’examen chargé de discuter de tout problème ou désaccord sur la mise en
@@ -228,22 +229,22 @@ DATA_COMP: "<p>Le nombre d’enfants et/ou de jeunes au niveau pertinent d’éd
   \ par l’ISU et ses partenaires. Les stratégies sont utilisées en fonction de son\
   \ niveau de précision et selon un protocole de déclaration <a href=\"https://tcg.uis.unesco.org/wp-content/uploads/sites/4/2020/10/GAML6-WD-2-Protocole-etablissementd-des-rapports-sur-4.1.1.pdf\"\
   ><u></u></a> qui inclut les évaluations nationales dans des circonstances spécifiques.\
-  \ </p>\n<p><strong>État d’achèvement </strong></p>\n<p>La combinaison des taux d’achèvement\
-  \ et des résultats d’apprentissage améliore notre compréhension des progrès accomplis\
-  \ dans l’atteinte de la cible 4.1. Presque toutes les informations concernant l’apprentissage\
-  \ sont scolaires et ne tiennent pas compte de l’achèvement du niveau. L’inclusion\
-  \ de l’achèvement dans la liste globale offre de rendre compte en fonction de l’état\
-  \ d’achèvement. Les plus grandes différences entre l’ODD 4.1.1 sur l’apprentissage\
-  \ avant l’achèvement et la désagrégation par achèvement se trouvent dans les régions\
-  \ ou les pays où les taux d’achèvement et de scolarisation sont plus faibles parce\
-  \ que l’indicateur ajusté (ou les enfants qui terminent et apprennent) est basé\
-  \ sur un taux d’achèvement ajusté en fonction de la qualité. Cela explique également\
-  \ pourquoi les différences les plus importantes se produisent au niveau du premier\
-  \ cycle du secondaire. À l’échelle mondiale, 47 % des élèves du premier cycle du\
-  \ secondaire atteignent une maîtrise minimale en lecture selon l’indicateur original\
-  \ de l’ODD 4.1.1, mais la valeur de l’indicateur ajusté tomberait à 34 % des adolescents\
-  \ terminant le premier cycle du secondaire et atteignant une maîtrise minimale en\
-  \ mathématiques. Références (en anglais) <a href=\"http://tcg.uis.unesco.org/wp-content/uploads/sites/4/2020/10/WG-GAML-3-Children-Completing-and-Learning.pdf\"\
+  \ </p>\n<p><strong>État de la réussite </strong></p>\n<p>La combinaison des taux\
+  \ de réussite et des résultats d’apprentissage améliore notre compréhension des\
+  \ progrès accomplis dans l’atteinte de la cible 4.1. Presque toutes les informations\
+  \ concernant l’apprentissage sont scolaires et ne tiennent pas compte de la réussite\
+  \ du niveau. L’inclusion de la réussite dans la liste globale offre de rendre compte\
+  \ en fonction de l’état de la réussite. Les plus grandes différences entre l’ODD\
+  \ 4.1.1 sur l’apprentissage avant la réussite et la désagrégation selon la réussite\
+  \ se trouvent dans les régions ou les pays où les taux de réussite et de scolarisation\
+  \ sont plus faibles parce que l’indicateur ajusté (ou les enfants qui terminent\
+  \ et apprennent) est basé sur un taux de réussite ajusté en fonction de la qualité.\
+  \ Cela explique également pourquoi les différences les plus importantes se produisent\
+  \ au niveau du premier cycle du secondaire. À l’échelle mondiale, 47 % des élèves\
+  \ du premier cycle du secondaire atteignent une maîtrise minimale en lecture selon\
+  \ l’indicateur original de l’ODD 4.1.1, mais la valeur de l’indicateur ajusté tomberait\
+  \ à 34 % des adolescents terminant le premier cycle du secondaire et atteignant\
+  \ une maîtrise minimale en mathématiques. Références (en anglais) <a href=\"http://tcg.uis.unesco.org/wp-content/uploads/sites/4/2020/10/WG-GAML-3-Children-Completing-and-Learning.pdf\"\
   >ici</a>. </p>"
 ADJUSTMENT: <p>Tel qu’il est actuellement mesuré, la plupart des évaluations de l’apprentissage
   ont des méthodologies différentes pour établir un niveau de compétence minimum.
@@ -263,13 +264,13 @@ DOC_METHOD: "<p>L’ISU a élaboré des lignes directrices à l’intention des 
 QUALITY_ASSMNT: '<p>Les critères pour assurer la qualité et la normalisation des données
   sont les suivants : les sources de données doivent comprendre une documentation
   adéquate; les valeurs des données devraient être représentatives au niveau de la
-  population nationale et devraient autrement être incluses dans une note de bas de
-  page; les valeurs des données sont fondées sur un échantillon suffisamment grand;
-  le cadre d’évaluation de l’apprentissage couvre l’ensemble minimal de contenu dans
-  le cadre de contenu mondial et les niveaux de compétence sont alignés sur le niveau
-  de compétence minimum (NCM) tel que défini dans le cadre de compétence mondial;
-  et les données sont plausibles et fondées sur les tendances et la cohérence avec
-  les estimations précédemment publiées ou déclarées pour l’indicateur. </p>'
+  population nationale et, dans la négative, doivent être notées en bas de page; les
+  valeurs des données sont fondées sur un échantillon suffisamment grand; le cadre
+  d’évaluation de l’apprentissage couvre l’ensemble minimal de contenu dans le cadre
+  de contenu mondial et les niveaux de compétence sont alignés sur le niveau de compétence
+  minimum (NCM) tel que défini dans le cadre de compétence mondial; et les données
+  sont plausibles et fondées sur des tendances et sont cohérentes avec les valeurs
+  précédemment publiées ou déclarées pour l’indicateur. </p>'
 COVERAGE: "<p><strong>Disponibilité des données : </strong></p>\n<p>Données disponibles\
   \ au niveau national. </p>\n<p><strong>Séries chronologiques : </strong></p>\n<p>Données\
   \ disponibles depuis 2000. </p>\n<p><strong>Désagrégation :</strong></p>\n<p>L’indicateur\
@@ -281,13 +282,39 @@ COVERAGE: "<p><strong>Disponibilité des données : </strong></p>\n<p>Données d
   \ de métadonnées <a href=\"http://tcg.uis.unesco.org/wp-content/uploads/sites/4/2020/09/metadata-4.1.1.pdf\"\
   ></a> et validée par les pays. Les indices de parité sont estimés dans le rapport\
   \ de l’indicateur 4.5.1. </p>"
-OTHER_DOC: "<p>Minimum Proficiency Levels</p>\n<p><a href=\"http://gaml.uis.unesco.org/wp-content/uploads/sites/2/2019/07/MPLs_revised_doc_20190506_v2.pdf\"\
+OTHER_DOC: "<p>(À moins d'indication contraire, les références sont en anglais)</p>\n\
+  <p>« Minimum Proficiency Levels »</p>\n<p><a href=\"http://gaml.uis.unesco.org/wp-content/uploads/sites/2/2019/07/MPLs_revised_doc_20190506_v2.pdf\"\
   ><u>http://gaml.uis.unesco.org/wp-content/uploads/sites/2/2019/07/MPLs_revised_doc_20190506_v2.pdf</u></a></p>\n\
-  <p>Costs and Benefits of Different Approaches to Measuring the Learning Proficiency\
-  \ of Students (SDG Indicator 4.1.1)</p>\n<p><a href=\"http://uis.unesco.org/sites/default/files/documents/ip53-costs-benefits-approaches-measuring-proficiency-2019-en.pdf\"\
+  <p>« Costs and Benefits of Different Approaches to Measuring the Learning Proficiency\
+  \ of Students (SDG Indicator 4.1.1) »</p>\n<p><a href=\"http://uis.unesco.org/sites/default/files/documents/ip53-costs-benefits-approaches-measuring-proficiency-2019-en.pdf\"\
   ><u>http://uis.unesco.org/sites/default/files/documents/ip53-costs-benefits-approaches-measuring-proficiency-2019-en.pdf</u></a></p>\n\
-  <p>Protocol for Reporting on SDG Global Indicator 4.1.1</p>\n<p><a href=\"http://gaml.uis.unesco.org/wp-content/uploads/sites/2/2019/05/GAML6-WD-2-Protocol-for-reporting-4.1.1_v1.pdf\"\
-  ><u>http://gaml.uis.unesco.org/wp-content/uploads/sites/2/2019/05/GAML6-WD-2-Protocol-for-reporting-4.1.1_v1.pdf</u></a></p>\n\
-  <p>Global Proficiency Framework for Reading and Mathematics - Grade 2 to 6</p>\n\
+  <p>Protocole d'établissement des rapports sur l'indicateur 4.1.1</p>\n<p><a href=\"\
+  https://tcg.uis.unesco.org/wp-content/uploads/sites/4/2020/10/GAML6-WD-2-Protocole-etablissementd-des-rapports-sur-4.1.1.pdf\"\
+  ><u>https://tcg.uis.unesco.org/wp-content/uploads/sites/4/2020/10/GAML6-WD-2-Protocole-etablissementd-des-rapports-sur-4.1.1.pdf</u></a></p>\n\
+  <p>« Global Proficiency Framework for Reading and Mathematics - Grade 2 to 6 »</p>\n\
   <p><a href=\"http://gaml.uis.unesco.org/wp-content/uploads/sites/2/2019/05/Global-Proficiency-Framework-18Oct2019_KD.pdf\"\
   ><u>http://gaml.uis.unesco.org/wp-content/uploads/sites/2/2019/05/Global-Proficiency-Framework-18Oct2019_KD.pdf</u></a></p>"
+DATA_SOURCE: "<p><strong>Évaluations en milieu scolaire</strong></p>\n<ul>\n  <li>Les\
+  \ <u>évaluations internationales à grande échelle</u> sont communiquées à l’ISU\
+  \ par des organisations transnationales (Laboratoire latino-américain d'évaluation\
+  \ de la qualité de l'éducation (LLECE), Programme d'analyse des systèmes éducatifs\
+  \ de la CONFEMEN (PASEC), « Trends in International Mathematics and Science Study »\
+  \ (TIMSS) et « Progress in International Reading Literacy Study » (PIRLS)). En règle\
+  \ générale, l’évaluation transnationale à grande échelle, régionale ou internationale,\
+  \ définit différents niveaux de performance et rend compte également de la moyenne\
+  \ et de l’écart type. Elles choisissent aussi bien un niveau comme point de coupure\
+  \ qui définit le niveau au-dessus duquel ou en dessous duquel les enfants / jeunes\
+  \ se situent. </li>\n  <li><u>Évaluations régionales</u> : PASEC, « Southern and\
+  \ Eastern African Consortium for Monitoring Educational Quality »\n(SACMEQ), Étude\
+  \ comparative et exploratoire régionale (ERCE), « Pacific Islands Literacy and Numeracy\
+  \ Assessment » (PILNA), « Southeast Asian Ministers of Education Organization »\
+  \ (SEAMEO). </li>\n  <li><u>Évaluations nationales à grande échelle</u> fondées\
+  \ sur des échantillons ou des recensements. Les pays devraient indiquer la proportion\
+  \ d’étudiants par niveau de compétence pour chaque domaine, en indiquant également\
+  \ le niveau de compétence minimum, lorsqu’il est défini par l’évaluation nationale.\
+  \ Les évaluations « Early Grade Reading Assessment » (EGRA) et « Early Grade Mathematics\
+  \ Assesment » (EGMA), telles que déclarées par l’Agence américaine pour le développement\
+  \ international (USAID) ou des pays individuels. </li>\n</ul>\n<p><strong>Enquêtes\
+  \ auprès des ménages</strong></p>\n<ul>\n  <li>MICS6 : déclarée par l’UNICEF à l’ISU\
+  \ </li>\n  <li>Réseau PAL (Action citoyenne pour l'apprentissage)</li>\n</ul>\n\
+  <p> </p>"
