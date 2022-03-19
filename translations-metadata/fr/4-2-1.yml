@@ -30,20 +30,20 @@ COLL_METHOD: "<ul>\n      <li>L’UNICEF entreprend un vaste processus consultat
   \ de la mise à jour de ses bases de données mondiales sur la situation des enfants.\
   \ Jusqu’en 2017, le mécanisme utilisé par l’UNICEF pour collaborer avec les autorités\
   \ nationales afin d’assurer la qualité des données et la comparabilité internationale\
-  \ sur les indicateurs clés pertinents pour les enfants était connu sous le nom de\
-  \ rapport de données par pays sur les indicateurs pour les objectifs (Country Data\
-  \ Reporting on the Indicators for the Goals (CRING)). </li>\n      <li>À partir\
-  \ de 2018, l’UNICEF a lancé un nouveau processus de consultation par pays avec les\
-  \ autorités nationales sur certains indicateurs mondiaux des ODD liés aux enfants,\
-  \ pour lesquels il est gardien ou co-gardien, pour répondre aux normes et directives\
-  \ émergentes sur les flux de données pour la déclaration mondiale des indicateurs\
-  \ des ODD, qui mettent fortement l’accent sur la rigueur technique, l’appropriation\
-  \ par les pays et l’utilisation des données et statistiques officielles. Le processus\
-  \ de consultation a sollicité des commentaires directement des bureaux nationaux\
-  \ de statistique, ainsi que d’autres organismes gouvernementaux responsables des\
-  \ statistiques officielles, sur la compilation des indicateurs, y compris les sources\
-  \ de données utilisées, et l’application des définitions, classifications et méthodologies\
-  \ convenues au niveau international aux données provenant de cette source. Une fois\
+  \ des indicateurs clés pertinents pour les enfants était connu sous le nom de rapport\
+  \ de données par pays sur les indicateurs pour les objectifs (Country Data Reporting\
+  \ on the Indicators for the Goals (CRING)). </li>\n      <li>À partir de 2018, l’UNICEF\
+  \ a lancé un nouveau processus de consultation par pays avec les autorités nationales\
+  \ sur certains indicateurs mondiaux des ODD liés aux enfants, pour lesquels il est\
+  \ dépositaire ou co-dépositaire, pour répondre aux normes et directives émergentes\
+  \ sur les flux de données pour la déclaration mondiale des indicateurs des ODD,\
+  \ qui mettent fortement l’accent sur la rigueur technique, l’appropriation par les\
+  \ pays et l’utilisation des données et statistiques officielles. Le processus de\
+  \ consultation a sollicité des commentaires directement des bureaux nationaux de\
+  \ statistique, ainsi que d’autres organismes gouvernementaux responsables des statistiques\
+  \ officielles, sur la compilation des indicateurs, y compris les sources de données\
+  \ utilisées, et l’application des définitions, classifications et méthodologies\
+  \ convenues au niveau international aux données provenant de ces sources. Une fois\
   \ examinés, les pays peuvent faire part de leurs commentaires sur l’acceptation\
   \ de points de données spécifiques et, dans le cas contraire, sur les raisons pour\
   \ lesquelles ils ne sont pas acceptés. </li>\n</ul>"
@@ -54,3 +54,83 @@ DATA_SOURCE: <p>Bureaux nationaux de statistique (dans la plupart des cas)</p>
 COMPILING_ORG: <p>UNICEF</p>
 QUALITY_ASSMNT: <p>Des contrôles de cohérence et de qualité des données sont régulièrement
   effectués pour valider les données avant leur diffusion </p>
+SDG_GOAL: "<p>Objectif 4 : Assurer l'accès de tous à une éducation de qualité, sur\
+  \ un pied d'égalité, et promouvoir les possibilités d'apprentissage tout au long\
+  \ de la vie</p>"
+SDG_TARGET: "<p>Cible 4.2 : D’ici 2030, faire en sorte que toutes les filles et tous\
+  \ les garçons aient accès à des services de développement et de soins de la petite\
+  \ enfance et à une éducation préscolaire de qualité qui les préparent pour le cycle\
+  \ d'éducation du primaire</p>"
+REL_CAL_POLICY: <p>Les données mises à jour sur l'indicateur 4.2.1 telles que mesurées
+  par l’ECDI2030 seront disponibles au cours de la période de rapport des ODD tous
+  les mois de février/mars. </p>
+SDG_INDICATOR: '<p>Indicateur 4.2.1 : Proportion d’enfants âgés de 24 à 59 mois qui
+  sont sur la bonne voie de développement en matière de santé, d’apprentissage et
+  de bien-être psychosocial, selon le sexe</p>'
+SDG_RELATED_INDICATORS: '<p>Indicateur 4.2.2 : Taux de participation à des activités
+  d’apprentissage organisées (un an avant l’âge officiel de scolarisation dans le
+  primaire), selon le sexe</p>'
+STAT_CONC_DEF: "<p><strong>Définition :</strong></p>\n<p>Proportion d'enfants âgés\
+  \ de 24 à 59 mois dont le développement est sur la bonne voie en matière de santé,\
+  \ d'apprentissage et de bien-être psychosocial.</p>\n<p><strong>Concept :</strong></p>\n\
+  <p>Les domaines inclus dans l'indicateur 4.2.1 des ODD incluent les concepts suivants :</p>\n\
+  <ul>\n  <li><strong>Santé</strong> : développement de la motricité globale, développement\
+  \ de la motricité fine et soins personnels</li>\n  <li><strong>Apprentissage</strong> :\
+  \ langage expressif, littératie, numératie, pré-écriture et fonctionnement exécutif</li>\n\
+  \  <li><strong>Bien-être psychosocial : </strong>compétences émotionnelles, compétences\
+  \ sociales, comportement d'intériorisation et comportement d'extériorisation</li>\n\
+  </ul>\n<p>La mesure recommandée pour l'indicateur 4.2.1 des ODD est l'Indice de\
+  \ développement de la petite enfance 2030 (ECDI2030), qui est un instrument à 20\
+  \ éléments permettant de mesurer les résultats développementaux chez les enfants\
+  \ âgés de 24 à 59 mois dans des enquêtes basées sur la population. L'indicateur\
+  \ issu de l'ECDI2030 est la proportion d'enfants âgés de 24 à 59 mois ayant atteint\
+  \ le nombre minimum d'étapes attendues pour leur tranche d'âge, défini comme suit\
+  \ :</p>\n<ul>\n  <li>Les enfants âgés de 24 à 29 mois sont classés comme étant en\
+  \ bonne voie de développement s'ils ont atteint au moins 7 étapes;</li>\n  <li>Les\
+  \ enfants âgés de 30 à 35 mois sont classés comme étant en bonne voie de développement\
+  \ s'ils ont atteint au moins 9 étapes;</li>\n  <li>Les enfants âgés de 36 à 41 mois\
+  \ sont classés comme étant en bonne voie de développement s'ils ont atteint au moins\
+  \ 11 étapes;</li>\n  <li>Les enfants âgés de 42 à 47 mois sont classés comme étant\
+  \ en bonne voie de développement s'ils ont atteint au moins 13 étapes;</li>\n  <li>Les\
+  \ enfants âgés de 48 à 59 mois sont classés comme étant en bonne voie de développement\
+  \ s'ils ont atteint au moins 15 étapes. </li>\n</ul>"
+SOURCE_TYPE: "<p>En 2015, l’UNICEF a lancé un processus de développement méthodologique\
+  \ qui a impliqué de vastes consultations avec des experts, des organismes partenaires\
+  \ et des autorités statistiques nationales. Au cours des cinq années suivantes,\
+  \ une séquence d’étapes techniques soigneusement planifiées a été exécutée, incorporant\
+  \ des méthodes qualitatives et quantitatives pour identifier les meilleurs éléments\
+  \ pour mesurer l’indicateur 4.2.1. Ce processus a conduit à l’élaboration de l’ECDI2030.\
+  \ </p>\n<p>L’ECDI2030 répond au besoin de données représentatives à l’échelle nationale\
+  \ et comparables à l’échelle internationale sur le développement de la petite enfance,\
+  \ recueillies de manière normalisée. Il rend compte de l’atteinte des étapes clés\
+  \ du développement par les enfants âgés de 24 à 59 mois. On pose 20 questions aux\
+  \ mères ou aux principaux fournisseurs de soins sur la façon dont leurs enfants\
+  \ se comportent dans certaines situations quotidiennes, ainsi que sur les compétences\
+  \ et les connaissances qu’ils ont acquises. </p>\n<p>L’ECDI2030 peut être intégré\
+  \ aux efforts nationaux existants de collecte de données, y compris les programmes\
+  \ internationaux d’enquêtes auprès des ménages tels que le MICS soutenu par l’UNICEF\
+  \ et les enquêtes démographiques et de santé. </p>\n<p>L’ECDI2030 est destiné à\
+  \ remplacer l’indice de développement de la petite enfance (ou ECDI) qui recueille\
+  \ des données sur l’indicateur proxy de l’indicateur 4.2.1 des ODD utilisé depuis\
+  \ 2015. L’ancien ECDI et le nouvel ECDI2030 ciblent différents groupes d’âge et\
+  \ mesurent des domaines de développement légèrement différents. Par conséquent,\
+  \ les indicateurs générés par les deux instruments peuvent ne pas être entièrement\
+  \ comparables et il faut faire preuve de prudence lors de l’interprétation des estimations\
+  \ produites par les deux mesures. </p>"
+INST_MANDATE: <p>L’UNICEF est responsable du suivi mondial et de l’établissement de
+  rapports sur le bien-être des enfants. Il fournit une assistance technique et financière
+  aux États membres pour les aider à recueillir des données de qualité sur le développement
+  de la petite enfance (DPE), notamment par le biais du programme d’enquête auprès
+  des ménages MICS soutenu par l’UNICEF. Celui-ci compile également des statistiques
+  sur le DPE dans le but de rendre publics des ensembles de données comparables au
+  niveau international, et il analyse les statistiques sur le DPE qui sont incluses
+  dans les publications pertinentes fondées sur des données, y compris dans sa publication
+  phare, <em>La situation des enfants dans le monde</em>. </p>
+RATIONALE: <p>Le développement de la petite enfance (DPE) ouvre la voie à la prospérité
+  tout au long de la vie. Investir dans le développement du jeune enfant est l’un
+  des investissements les plus critiques et les plus rentables qu’un pays puisse faire
+  pour améliorer la santé, l’éducation et la productivité des adultes afin de renforcer
+  le capital humain et de promouvoir le développement durable. Le DPE est l’équité
+  dès le départ et fournit une bonne indication du développement national. Les efforts
+  visant à améliorer le DPE peuvent apporter des améliorations humaines, sociales
+  et économiques pour les individus et les sociétés. </p>
