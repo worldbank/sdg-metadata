@@ -8,8 +8,8 @@ DATA_VALIDATION: "<p>Un vaste processus de consultation est entrepris pour compi
   \ de consultation a sollicité des commentaires directement des bureaux nationaux\
   \ de statistique, ainsi que d'autres agences gouvernementales responsables des statistiques\
   \ officielles, sur la compilation des indicateurs, y compris les sources de données\
-  \ utilisées, et l'application des définitions, classifications et méthodologies\
-  \ convenues au niveau international pour les données de cette source. Les résultats\
+  \ utilisées, et l'application de définitions, de classifications et de méthodologies\
+  \ convenues au niveau international pour les données de ces sources. Les résultats\
   \ de cette consultation nationale sont examinés par l'UNICEF en tant qu'agence dépositaire.\
   \ Une fois examinés, des commentaires sont mis à la disposition des pays sur l'acceptation\
   \ ou non de points de données spécifiques et, s'ils ne sont pas acceptés, sur les\
@@ -134,3 +134,69 @@ RATIONALE: <p>Le développement de la petite enfance (DPE) ouvre la voie à la p
   dès le départ et fournit une bonne indication du développement national. Les efforts
   visant à améliorer le DPE peuvent apporter des améliorations humaines, sociales
   et économiques pour les individus et les sociétés. </p>
+DATA_COMP: <p>Le nombre d’enfants âgés de 24 à 59 mois qui sont sur la bonne voie
+  de développement en matière de santé, d’apprentissage et de bien-être psychosocial
+  divisé par le nombre total d’enfants âgés de 24 à 59 mois dans la population, multiplié
+  par 100. </p>
+REG_AGG: "<p>L’agrégat mondial est une moyenne pondérée de tous les pays pour lesquels\
+  \ des données sont disponibles. Les agrégats globaux sont publiés indépendamment\
+  \ de la couverture de la population, mais le nombre de pays et la proportion du\
+  \ groupe de population pertinent représenté par les données disponibles sont clairement\
+  \ indiqués. </p>\n<p>Les agrégats régionaux sont des moyennes pondérées de tous\
+  \ les pays de la région. </p>"
+DOC_METHOD: <p>Les pays recueillent des données sur la prévalence de l’état de développement
+  des enfants par le biais d’enquêtes auprès des ménages telles que les MICS ou les
+  enquêtes démographiques et de santé soutenues par l’UNICEF. </p>
+QUALITY_MGMNT: <p>Le processus qui sous-tend la production de statistiques fiables
+  sur le développement de la petite enfance est bien établi au sein de l’UNICEF. La
+  qualité et le processus menant à la production de l’indicateur 4.2.1 des ODD sont
+  assurés en travaillant en étroite collaboration avec les bureaux de statistique
+  et les autres parties prenantes concernées par le biais d’un processus consultatif.
+  </p>
+COVERAGE: "<p><strong>Disponibilité des données :</strong></p>\n<p>Les données sur\
+  \ l’indicateur recueillies dans le cadre de la mise en œuvre de l’ECDI2030 devraient\
+  \ être disponibles à partir de 2021. Des données comparables recueillies par l’ECDI\
+  \ sont actuellement disponibles pour près de 80 pays. Les pays dont les données\
+  \ sur l’indicateur de substitution ont été recueillies auprès de l’ECDI continueront\
+  \ d’être utilisés pour la déclaration mondiale des ODD jusqu’à ce que de nouvelles\
+  \ données utilisant l’ECDI2030 soient disponibles. </p>\n<p><strong>Séries chronologiques\
+  \ :</strong></p>\n<p>Non disponible</p>\n<p><strong>Désagrégation :</strong></p>\n\
+  <p>Sexe</p>"
+OTHER_DOC: "<p><strong>URL :</strong></p>\n<p>(en anglais) data.unicef.org</p>\n<p><strong>Références\
+  \ :</strong></p>\n<p>(en anglais) http://data.unicef.org/ecd/development-status.html</p>"
+REC_USE_LIM: "<p>L’ODD 4.2.1 a été initialement classé comme niveau 3 et a été mis\
+  \ au niveau 2 en 2019; de plus, des modifications ont été apportées à l’indicateur\
+  \ au cours de l’examen exhaustif de 2020. À la lumière de cela et étant donné que\
+  \ l’ECDI2030 a été officiellement publié en mars 2020, il faudra un certain temps\
+  \ pour que les pays adoptent et mettent en œuvre la nouvelle mesure et pour que\
+  \ les données deviennent disponibles auprès d’un nombre suffisant de pays. Par conséquent,\
+  \ entre-temps, un indicateur indirect (les enfants âgés de 36 à 59 mois qui sont\
+  \ sur la bonne voie sur le plan du développement dans au moins trois des quatre\
+  \ domaines suivants : littératie, physique, socio-émotionnel et apprentissage) sera\
+  \ utilisé pour rendre compte de l'indicateur 4.2.1, le cas échéant. Cet indicateur\
+  \ indirect est utilisé pour les rapports mondiaux sur les ODD depuis 2015, mais\
+  \ n’est pas entièrement aligné avec la définition et le groupe d’âge couverts par\
+  \ la formulation de l’indicateur des ODD. Lorsque l’indicateur de substitution est\
+  \ utilisé pour la déclaration de l'indicateur des ODD 4.2.1 pour un pays, il sera\
+  \ noté en tant que tel dans la base de données mondiale des ODD. </p>"
+QUALITY_ASSURE: "<p>L’UNICEF tient à jour la base de données mondiale sur le développement\
+  \ de la petite enfance qui est utilisée pour les ODD et d’autres rapports officiels.\
+  \ Avant l’inclusion d’un point de données dans la base de données, il est examiné\
+  \ par les points focaux techniques au siège de l’UNICEF pour vérifier la cohérence\
+  \ et la qualité globale des données. Cet examen est fondé sur un ensemble de critères\
+  \ objectifs visant à s’assurer que seules les informations les plus récentes et\
+  \ les plus fiables sont incluses dans les bases de données. Ces critères sont les\
+  \ suivants : les sources de données doivent inclure la documentation appropriée;\
+  \ les valeurs des données doivent être représentatives au niveau de la population\
+  \ nationale; les données sont recueillies à l’aide d’une méthodologie appropriée\
+  \ (p. ex., échantillonnage); les valeurs des données sont fondées sur un échantillon\
+  \ suffisamment grand; les données sont conformes à la définition de l’indicateur\
+  \ standard, y compris le groupe d’âge et les concepts, dans la mesure du possible;\
+  \ les données sont plausibles en fonction des tendances et de la cohérence avec\
+  \ les estimations précédemment publiées/déclarées pour l’indicateur. </p>\n<p>Depuis\
+  \ 2018, l’UNICEF entreprend une consultation annuelle avec les autorités gouvernementales\
+  \ sur 10 des indicateurs des ODD liés aux enfants dans son rôle de dépositaire ou\
+  \ co-dépositaire, et conformément à son mandat mondial de suivi et à ses engagements\
+  \ normatifs visant à faire progresser le Programme 2030 pour les enfants. Cela inclut\
+  \ l’indicateur 4.2.1. De plus amples détails sur le processus de consultation par\
+  \ pays sont présentés ci-dessous. </p>"
