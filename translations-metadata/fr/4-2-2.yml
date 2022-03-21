@@ -10,24 +10,21 @@ SDG_INDICATOR: "<p>Indicateur 4.2.2 : Taux de participation à des activités d�
   \ le sexe</p>"
 META_LAST_UPDATE: '<p>2021-07-01</p>'
 SDG_RELATED_INDICATORS: |-
-  <h1>Indicateurs connexes en février 2020</h1>
   <p>1.4, 4.5</p>
 SDG_CUSTODIAN_AGENCIES: |-
   <p>Institut de statistique de l'UNESCO (UNESCO-ISU)</p>
 STAT_CONC_DEF: >-
-  <h1>Concepts et définitions</h1>
+  <p><strong>Définition :</strong></p>
 
-  <h2><strong><strong>Définition :</strong></strong></h2>
+  <p>Le taux de participation à des activités d'apprentissage organisées (un an avant
+  l'âge officiel d'entrée au primaire), selon le sexe, défini comme le pourcentage
+  d'enfants d'une tranche d'âge donnée qui participent à un ou plusieurs programmes
+  d'apprentissage organisé, y compris les programmes qui offrent une combinaison d'éducation
+  et de soins. La participation à la petite enfance et à l'enseignement primaire sont
+  toutes deux incluses. La tranche d'âge varie selon les pays en fonction de l'âge
+  officiel d'entrée dans l'enseignement primaire. </p>
 
-  <p>Le taux de participation à l'apprentissage organisé (un an avant l'âge officiel
-  d'entrée dans le primaire), par sexe, défini comme le pourcentage d'enfants d'une
-  tranche d'âge donnée qui participent à un ou plusieurs programmes d'apprentissage
-  organisé, y compris les programmes qui offrent une combinaison d'éducation et de
-  soins. La participation à la petite enfance et à l'enseignement primaire sont toutes
-  deux incluses. La tranche d'âge varie selon les pays en fonction de l'âge officiel
-  d'entrée dans l'enseignement primaire. </p>
-
-  <h2><strong><strong>Concepts :</strong></strong></h2>
+  <p><strong>Concepts :</strong></p>
 
   <p>Un programme d'apprentissage organisé est un programme qui consiste en un ensemble
   cohérent ou une séquence d'activités éducatives conçues dans le but d'atteindre
@@ -39,73 +36,42 @@ STAT_CONC_DEF: >-
   la révision 2011 de la Classification internationale type de l'éducation (CITE 2011).
   L'éducation de la petite enfance est généralement conçue avec une approche holistique
   pour soutenir le développement cognitif, physique, social et émotionnel précoce
-  des enfants&#x2019;et pour initier les jeunes enfants à l'enseignement organisé
-  en dehors du contexte familial. L'enseignement primaire propose des activités d'apprentissage
+  des enfants et pour initier les jeunes enfants à l'enseignement organisé en dehors
+  du contexte familial. L'enseignement primaire propose des activités d'apprentissage
   et d'éducation conçues pour fournir aux élèves des compétences fondamentales en
   lecture, en écriture et en mathématiques et pour établir une base solide pour l'apprentissage
   et la compréhension des domaines fondamentaux de la connaissance et du développement
   personnel. Il se concentre sur l'apprentissage à un niveau de base de complexité
   avec peu, voire pas, de spécialisation. </p>
 
-  <p> L'âge officiel d'entrée dans le primaire est l'âge auquel les enfants sont obligés
+  <p>L'âge officiel d'entrée dans le primaire est l'âge auquel les enfants sont obligés
   de commencer l'enseignement primaire conformément à la législation ou aux politiques
   nationales. Lorsque plus d'un âge est spécifié, par exemple, dans différentes parties
   d'un pays, l'âge officiel d'entrée le plus courant (c'est-à-dire l'âge auquel la
   plupart des enfants du pays sont censés commencer l'enseignement primaire) est utilisé
   pour le calcul de cet indicateur au niveau mondial. </p>
 SOURCE_TYPE: >-
-  <h1>Sources de données</h1>
-
-  <h2><strong><strong>Description :</strong></strong></h2>
-
-  <p> Données administratives des écoles et autres centres d'apprentissage organisés
+  <p>Des données administratives des écoles et autres centres d'apprentissage organisés
   ou des enquêtes auprès des ménages sur les inscriptions par année d'âge dans les
-  programmes d'apprentissage précoce ; recensements de la population et enquêtes pour
-  les estimations démographiques par année d'âge (si l'on utilise des données administratives
-  sur les inscriptions) ; données administratives des ministères de l'éducation sur
-  l'âge officiel d'entrée dans l'enseignement primaire.</p>
-
-  <h2><strong><strong>Processus de collecte :</strong></strong></h2>
-
-  <p>L'Institut de statistique de l'UNESCO produit des séries chronologiques à partir
-  des données sur les inscriptions communiquées par les ministères de l'éducation
-  ou les offices nationaux de statistiques et des estimations démographiques produites
-  par la Division de la population des Nations unies. Les données sur les inscriptions
-  sont recueillies par le biais de l'enquête annuelle sur l'éducation formelle. Les
-  pays sont invités à communiquer des données en fonction des niveaux d'éducation
-  définis dans la Classification internationale type de l'éducation (CITE) afin de
-  garantir la comparabilité internationale des indicateurs qui en résultent.</p>
-
-  <p>Les données reçues sont validées à l'aide de systèmes électroniques de détection
-  des erreurs qui vérifient les erreurs et les incohérences arithmétiques et l'analyse
-  des tendances pour détecter les résultats non plausibles. Les questions sont traitées
-  avec les représentants des pays qui communiquent les données afin que des corrections
-  (d'erreurs) ou des explications puissent être apportées (de résultats non plausibles
-  mais corrects). Au cours de ce processus, les pays sont également encouragés à fournir
-  des estimations pour les éléments de données manquants ou incomplets. </p>
-
-  <p>En outre, les pays ont également la possibilité de voir et de commenter les principaux
-  indicateurs que l'ISU produit dans une revue annuelle «par pays» des indicateurs.</p>
+  programmes d'apprentissage précoce; des recensements de la population et des enquêtes
+  pour les estimations démographiques par année d'âge (si l'on utilise des données
+  administratives sur les inscriptions); des données administratives des ministères
+  de l'éducation sur l'âge officiel d'entrée dans l'enseignement primaire.</p>
 FREQ_COLL: >-
-  <p>Enquête annuelle de l'ISU (la dernière lancée en octobre 2019) et enquête de
-  l'UOE (la dernière lancée en juin 2019).</p>
+  <p>Enquête annuelle de l'UNESCO-ISU (la dernière lancée en octobre 2020) et enquête
+  de l'UNESCO-ISU / OCDE / EUROSTAT (UOE) (la dernière lancée en juin 2020).</p>
 REL_CAL_POLICY: |-
   <p>Diffusion semestrielle des données de l'ISU (février et septembre). </p>
 DATA_SOURCE: |-
-  <h1>Fournisseurs de données</h1>
-  <p> Ministères de l'éducation et/ou offices nationaux de statistiques.</p>
+  <p> Ministères de l'éducation et/ou bureaux nationaux de statistique.</p>
 COMPILING_ORG: |-
   <p>Institut de statistique de l'UNESCO (UNESCO-ISU)</p>
 RATIONALE: >-
-  <h2><strong><strong>Justification :</strong></strong></h2>
-
   <p>L'indicateur mesure l'exposition des enfants à des activités d'apprentissage
   organisées au cours de l'année précédant le début de l'école primaire. Une valeur
   élevée de l'indicateur montre un degré élevé de participation à l'apprentissage
-  organisé juste avant l'âge officiel d'entrée dans l'enseignement primaire</p>
+  organisé juste avant l'âge officiel d'entrée dans l'enseignement primaire.</p>
 REC_USE_LIM: >-
-  <h2><strong><strong>Commentaires et limites : </strong></strong></h2>
-
   <p>La participation à des programmes d'apprentissage au cours des premières années
   n'est pas à temps plein pour de nombreux enfants, ce qui signifie que l'exposition
   à des environnements d'apprentissage en dehors de la maison varie en intensité.
@@ -118,10 +84,6 @@ REC_USE_LIM: >-
   complémentaires recueillies sur le temps que les enfants passent dans les programmes
   d'apprentissage. </p>
 DATA_COMP: >-
-  <h3>Méthodologie</h3>
-
-  <h2><strong><strong>Méthode de calcul :</strong></strong></h2>
-
   <p>Le nombre d'enfants de la tranche d'âge concernée qui participent à un programme
   d'apprentissage organisé est exprimé en pourcentage de la population totale de la
   même tranche d'âge. L'indicateur peut être calculé à partir de données administratives
@@ -131,31 +93,25 @@ DATA_COMP: >-
   dérivée des estimations de la population. Pour le calcul de cet indicateur au niveau
   mondial, on utilise les estimations démographiques de la Division de la population
   des Nations unies. Si elles sont dérivées d'enquêtes auprès des ménages, les inscriptions
-  et la population sont collectées en même temps. </p>
+  et la population sont recueillies en même temps. </p>
 
-  <p>PROL0t1,AG(a-1) = E0t1,AG(a-1) </p>
-
-  <p>SAPAG(a-1)</p>
+  <p>PROL<sub>0t1,AG(a-1)</sub> = E<sub>0t1,AG(a-1)</sub>/SAP<sub>AG(a-1)</sub></p>
 
   <p> où : </p>
 
-  <p>PROL0t1,AG(a-1) = taux de participation à l'apprentissage organisé un an avant
+  <p>PROL<sub>0t1,AG(a-1)</sub> = taux de participation à l'apprentissage organisé
+  un an avant l'âge officiel a d'entrée dans l'enseignement primaire </p>
+
+  <p>E<sub>0t1,AG(a-1)</sub> = taux de scolarisation dans l'enseignement préscolaire
+  ou primaire (niveaux 0 et 1 de la CITE) à un an de l'âge officiel a d'entrée dans
+  l'enseignement primaire </p>
+
+  <p>SAP<sub>AG(a-1)</sub> = population d'âge scolaire âgée d'un an en dessous de
   l'âge officiel d'entrée a dans l'enseignement primaire </p>
-
-  <p>E0t1,AG(a-1) = scolarisation dans l'enseignement préscolaire ou primaire (niveaux
-  0 et 1 de la CITE) à un an de l'âge officiel d'entrée dans l'enseignement primaire
-  </p>
-
-  <p>SAPAG(a-1) = population d'âge scolaire âgée d'un an en dessous de l'âge officiel
-  d'entrée a dans l'enseignement primaire </p>
 IMPUTATION: >-
-  <h2><strong><strong>Traitement des valeurs manquantes : </strong></strong></h2>
+  <p>&#x2022; <strong>Au niveau national :</strong></p>
 
-  <ul>
-    <li><strong><em> Au niveau national : </em></strong></li>
-  </ul>
-
-  <p> L'ISU estime certains éléments clés des données qui peuvent être manquants ou
+  <p>L'ISU estime certains éléments clés des données qui peuvent être manquants ou
   incomplets afin d'avoir des estimations publiables au niveau des pays. Lorsque cela
   n'est pas possible, l'ISU impute les valeurs manquantes pour les utiliser uniquement
   dans le calcul d'agrégats régionaux et mondiaux. </p>
@@ -163,56 +119,55 @@ IMPUTATION: >-
   <p>Pour le calcul des taux de participation par âge, l'ISU peut effectuer une ou
   plusieurs des opérations suivantes : </p>
 
-  <ul>
-    <li>Un ajustement pour tenir compte de la sur- ou sous-déclaration, par exemple
-  : </li>
-  <li>Pour inclure les inscriptions dans un type d'enseignement &#x2013; tel que l'enseignement
-  privé ou l'enseignement spécial &#x2013; non déclaré par le pays ; et/ou </li> Pour
-  inclure les inscriptions dans un type d'enseignement
-    <li> Pour inclure les inscriptions dans une partie du pays non déclarée par le
-  pays. </li>
-    <li>Une estimation du nombre d'inscriptions dans le groupe d'âge donné si la répartition
-  par âge n'a pas été communiquée par le pays </li>
-    <li>Une redistribution des inscriptions d'âge inconnu (à travers les âges connus)
-  </li>
-    <li>Une estimation de la population dans le groupe d'âge officiel pour les petits
-  pays (si ni la Division de la population des Nations Unies ni le pays lui-même ne
-  peuvent fournir leurs propres estimations).</li>
-  </ul>
+  <p>&#x2022; Un ajustement pour tenir compte de la sur- ou sous-déclaration, par
+  exemple :</p>
+
+  <p>o Pour inclure les inscriptions dans un type d'enseignement – tel que l'enseignement
+  privé ou l'enseignement spécial – non déclarées par le pays; et/ou</p>
+
+  <p>o Pour inclure les inscriptions dans une partie du pays non déclarées par le
+  pays. </p>
+
+  <p>&#x2022; Une estimation du nombre d'inscriptions dans le groupe d'âge donné si
+  la répartition par âge n'a pas été déclarée par le pays </p>
+
+  <p>&#x2022; Une redistribution des inscriptions d'âge inconnu (à travers les âges
+  connus)</p>
+
+  <p>&#x2022; Une estimation de la population dans le groupe d'âge officiel pour les
+  petits pays (si ni la Division de la population des Nations Unies ni le pays lui-même
+  ne peuvent fournir leurs propres estimations).</p>
 
   <p>Dans tous les cas, les estimations sont basées sur des éléments probants provenant
-  du pays lui-même (par exemple, des informations du fournisseur de données sur la
-  taille de la composante manquante, par le biais de la correspondance, de publications
-  ou de données sur la page web du ministère ou de l'Office national des statistiques,
-  ou par le biais d'enquêtes menées par d'autres organisations) ou sur des données
-  provenant du pays pour une année précédente. Ces chiffres peuvent être publiés :
-  (i) en tant que données observées si les éléments manquants sont trouvés dans une
-  source nationale ; (ii) en tant qu'estimations nationales si le pays est persuadé
-  de produire des estimations et de les soumettre à la place des données manquantes
-  ; ou (iii) en tant qu'estimations de l'ISU, si les estimations sont faites par l'ISU.
-  </p>
+  du pays lui-même (p. ex., des informations du fournisseur de données sur la taille
+  de la composante manquante, par le biais de la correspondance, de publications ou
+  de données sur la page Web du ministère ou du bureau national de statistique, ou
+  par le biais d'enquêtes menées par d'autres organisations) ou sur des données provenant
+  du pays pour une année précédente. Ces chiffres peuvent être publiés : (i) en tant
+  que données observées si les éléments manquants sont trouvés dans une source nationale;
+  (ii) en tant qu'estimations nationales si le pays est persuadé de produire des estimations
+  et de les soumettre à la place des données manquantes; ou (iii) en tant qu'estimations
+  de l'ISU, si les estimations sont faites par l'ISU. </p>
 
   <p>La répartition par âge des inscriptions est le plus souvent estimée à partir
   de la répartition par âge rapportée dans une année précédente. Si le pays n'a jamais
-  communiqué la répartition par âge des inscriptions, on utilise la répartition par
-  âge indiquée dans une autre enquête, si elle est disponible (comme les enquêtes
-  en grappes à indicateurs multiples (MICS) ou les enquêtes démographiques et sanitaires
-  (EDS)). </p>
+  déclaré la répartition par âge des inscriptions, on utilise la répartition par âge
+  indiquée dans une autre enquête, si elle est disponible (comme les enquêtes en grappes
+  à indicateurs multiples (MICS) ou les enquêtes démographiques et de santé (EDS)).
+  </p>
 
   <p>Les inscriptions d'âge inconnu sont redistribuées entre les âges connus si elles
   représentent plus de 5 % du total des inscriptions dans ce niveau d'enseignement.
-  Aucune estimation n'est faite s'ils sont inférieurs ou égaux à 5 % .</p>
+  Aucune estimation n'est faite s'ils elles représentent 5 % ou moins.</p>
 
-  <p>Les estimations de la population par âge pour les pays à faible population &#x2013;
-  ne sont produites que lorsqu'il n'y a pas d'autres estimations appropriées disponibles,
-  soit auprès du PNUD, soit auprès du pays lui-même &#x2013;, et ne sont faites que
-  pour les pays qui ont communiqué des données sur l'éducation à l'ISU et pour lesquels
-  des estimations de la population provenant d'une source fiable sont disponibles
-  certaines années. </p>
+  <p>Les estimations de la population par âge pour les pays à faible population –
+  produites que lorsqu'il n'y a pas d'autres estimations appropriées disponibles,
+  soit auprès de la DPNU, soit auprès du pays lui-même – ne sont faites que pour les
+  pays qui ont déclaré des données sur l'éducation à l'ISU et pour lesquels des estimations
+  de la population provenant d'une source fiable sont disponibles certaines années.
+  </p>
 
-  <ul>
-    <li><strong><em>Aux niveaux régional et mondial : </em></strong></li>
-  </ul>
+  <p>&#x2022; <strong> Aux niveaux régional et mondial :</strong></p>
 
   <p>Les agrégats régionaux et mondiaux sont dérivés de données nationales publiables
   et imputées. Les données publiables sont les données soumises à l'ISU par les États
@@ -233,37 +188,33 @@ IMPUTATION: >-
 
   <p>Lorsque les données pertinentes ne sont pas du tout disponibles pour un pays,
   les estimations peuvent être basées sur une autre variable qui est clairement liée
-  au poste faisant l'objet de l'estimation. Par exemple, les inscriptions par âge
-  peuvent être basées sur les inscriptions totales. </p>
+  à la variable faisant l'objet de l'estimation. Par exemple, les inscriptions par
+  âge peuvent être basées sur les inscriptions totales. </p>
 
   <p>Lorsqu'aucune donnée disponible pour le pays, pour une année quelconque, ne peut
   servir à l'estimation, la moyenne non pondérée de la région dans laquelle se trouve
   le pays est utilisée.</p>
 REG_AGG: >-
-  <h2><strong><strong>Agrégats régionaux :</strong></strong></h2>
-
   <p>Les agrégats régionaux et mondiaux sont calculés comme des moyennes pondérées
   en utilisant le dénominateur de l'indicateur comme poids. Comme décrit précédemment,
   lorsque des données publiables ne sont pas disponibles pour un pays ou une année
   donnée, des valeurs sont imputées pour le calcul des agrégats régionaux et mondiaux.</p>
 COVERAGE: >-
-  <h1>Disponibilité des données </h1>
-
-  <h2><strong><strong>Description :</strong></strong></h2>
+  <p><strong>Disponibilité des données :</strong></p>
 
   <p>167 pays avec au moins un point de données pour la période 2010-2019.</p>
 
-  <h2><strong><strong>Séries chronologiques :</strong></strong></h2>
+  <p><strong>Séries chronologiques :</strong></p>
 
-  <p>1998-2019 dans la base de données de l'ISU ; 2000-2019 dans la base de données
-  mondiale de l'ODD. </p>
+  <p>1998-2019 dans la base de données de l'ISU; 2000-2019 dans la base de données
+  mondiale des ODD. </p>
 
-  <h2><strong><strong>Désagrégation:</strong></strong></h2>
+  <p><strong>Désagrégation :</strong></p>
 
-  <p>Par âge et sexe d'après des sources administratives, et par âge, sexe, lieu et
-  revenu d'après des enquêtes sur les ménages. </p>
+  <p>Selon l'âge et le sexe d'après des sources administratives, et selon l'âge, le
+  sexe, le lieu et le revenu d'après des enquêtes auprès des ménages. </p>
 COMPARABILITY: >-
-  <h2><strong><strong>Sources des écarts : </strong></strong></h2>
+  <p><strong>Sources des divergences : </strong></p>
 
   <p>Les chiffres publiés au niveau national peuvent différer des chiffres internationaux
   en raison des différences entre les systèmes éducatifs nationaux et la Classification
@@ -273,21 +224,19 @@ COMPARABILITY: >-
   estimations démographiques nationales et celles de la Division de la population
   des Nations unies (DPNU).</p>
 OTHER_DOC: >-
-  <h1> Références </h1>
+  <p><strong>URL:</strong></p>
 
-  <h2> <strong> <strong> URL : </strong> </strong> </h2>
+  <p><a href="http://uis.unesco.org/fr">http://uis.unesco.org/fr</a> </p>
 
-  <p> <a href="http ://www.uis.unesco.org/Pages/default.aspx"> http ://www.uis.unesco.org/Pages/default.aspx
-  </a> </p>
+  <p><strong>Références :</strong></p>
 
-  <h2> <strong> <strong> Références : </strong> </strong> </h2>
+  <p>Manuel d'instruction - Enquête sur l'enseignement formel <a href="http://uis.unesco.org/sites/default/files/documents/manuel-dinstructions-enquete-lenseignement-formel-2018-fr.pdf">http://uis.unesco.org/sites/default/files/documents/manuel-dinstructions-enquete-lenseignement-formel-2018-fr.pdf</a></p>
 
-  <p> Manuel d'instruction de l'Enquête sur l'éducation formelle <a href="http ://www.uis.unesco.org/UISQuestionnaires/Documents/UIS_ED_M_2016.pdf%20">
-  http ://www.uis.unesco.org/UISQuestionnaires/Documents/UIS_ED_M_2016.pdf </a> et
-  </p>
+  <p>Questionnaire de l’ISU sur les étudiants et les enseignants (CITE 0-4)</p>
 
-  <p> Questionnaire de l'ISU sur les élèves et les enseignants (CITE 0-4) <a href="http ://www.uis.unesco.org/UISQuestionnaires/Pages/default.aspx.">
-  http ://www.uis.unesco.org/UISQuestionnaires/Pages/default.aspx. </a> </p>
+  <p><a href="http://uis.unesco.org/fr/uis-questionnaires">http://uis.unesco.org/fr/uis-questionnaires</a></p>
+
+  <p> </p>
 CONTACT_ORGANISATION: <p>Institut de statistique de l'UNESCO (UNESCO-ISU)</p>
 DATA_VALIDATION: <p>L’Institut de statistique de l’UNESCO partage toutes les valeurs
   des indicateurs et les notes sur la méthodologie avec les bureaux nationaux de statistique,
@@ -311,3 +260,66 @@ INST_MANDATE: "<p>L'Institut de statistique de l'UNESCO (ISU) est la branche sta
   \ approches statistiques et des outils de suivi afin de mieux évaluer les progrès\
   \ pour les cibles liées au mandat de l'UNESCO, en travaillant en coordination avec\
   \ le \"SDG-Education 2030 SC \"</em> ».</p>"
+SDG_SERIES_DESCR: <p>Sans objet</p>
+UNIT_MEASURE: "<p>Pourcentage. Cet indicateur est exprimé en pourcentage d’enfants\
+  \ (un an avant l’âge officiel d’entrée au primaire) qui participent à une activité\
+  \ d’apprentissage organisée dans la petite enfance et à l’enseignement primaire.\
+  \ </p>\n<p> </p>"
+CLASS_SYSTEM: <p>La Classification internationale type de l’éducation (CITE) est utilisée
+  pour définir l’éducation de la petite enfance et l’enseignement primaire. </p>
+ADJUSTMENT: <p>Les données doivent être communiquées en fonction des niveaux d'éducation
+  définis dans la Classification internationale type de l'éducation (CITE) afin de
+  garantir la comparabilité internationale des indicateurs obtenus. </p>
+DOC_METHOD: <p>L’ISU a élaboré des conseils à l’intention des pays sur la méthodologie
+  qui devrait être utilisée pour calculer cet indicateur. Les correspondances CITE
+  qui aident les pays à déclarer leurs données dans un cadre comparable au niveau
+  international sont disponibles sur le site Web de l’Institut de statistique de l’UNESCO
+  (http://uis.unesco.org/fr/cartographies-de-la-cite). </p>
+COLL_METHOD: "<p>L’Institut de statistique de l’UNESCO produit des séries chronologiques\
+  \ basées sur les données sur les inscriptions communiquées par les ministères de\
+  \ l’éducation ou les bureaux nationaux de statistique et les estimations de la population\
+  \ produites par la Division de la population des Nations Unies. Les données sur\
+  \ les inscriptions sont recueillies dans le cadre de l’Enquête annuelle sur l’éducation\
+  \ formelle. Les pays sont invités à communiquer des données en fonction des niveaux\
+  \ d’éducation définis dans la Classification internationale type de l’éducation\
+  \ (CITE) afin d’assurer la comparabilité internationale des indicateurs qui en résultent.\
+  \ </p>\n<p>Les données reçues sont validées à l’aide de systèmes électroniques de\
+  \ détection d’erreurs qui vérifient les erreurs et les incohérences arithmétiques\
+  \ et l’analyse des tendances pour des résultats invraisemblables. Les demandes sont\
+  \ envoyées aux représentants des pays responsables de déclarer les données afin\
+  \ que des corrections puissent être apportées (des erreurs) ou des explications\
+  \ données (des résultats invraisemblables mais corrects). Au cours de ce processus,\
+  \ les pays sont également encouragés à fournir des estimations pour les éléments\
+  \ de données manquants ou incomplets. </p>\n<p>En outre, les pays ont également\
+  \ la possibilité de voir et de commenter les principaux indicateurs produits par\
+  \ l’ISU dans le cadre d’un « examen annuel des pays » des indicateurs. </p>"
+QUALITY_ASSMNT: '<p>L’indicateur devrait être fondé sur le taux de participation par
+  année d’âge dans les programmes d’apprentissage de la petite enfance dans tous les
+  types d’établissements d’enseignement, y compris les établissements publics, privés
+  et tous les autres établissements qui offrent des programmes éducatifs organisés.
+  Les critères d’évaluation de la qualité comprennent : les sources de données doivent
+  comprendre la documentation appropriée; les valeurs des données doivent être représentatives
+  au niveau de la population nationale et, dans la négative, doivent être notées en
+  bas de page; les données sont plausibles et fondées sur les tendances et sont cohérentes
+  avec les valeurs précédemment publiées ou déclarées pour l’indicateur. </p>'
+QUALITY_MGMNT: <p>L’ISU gère la base de données globale utilisée pour produire cet
+  indicateur. À des fins de transparence, l’inclusion d’un point de données dans la
+  base de données est complétée en suivant un protocole et est examinée par les points
+  focaux techniques de l’ISU pour assurer la cohérence et la qualité globale des données,
+  sur la base de critères objectifs pour s’assurer que seules les informations les
+  plus récentes et les plus fiables sont incluses dans la base de données. La déclaration
+  internationale des données sur les inscriptions devrait être fondée sur la Classification
+  internationale type de l’éducation de 2011 tenue à jour par l’ISU. Les données démographiques
+  sont produites et tenues à jour par la Division de la population des Nations Unies
+  (DPNU). </p>
+QUALITY_ASSURE: "<p>Le processus d’assurance de la qualité comprend l’examen de la\
+  \ documentation de l’enquête pour s’assurer que la définition des programmes d’apprentissage\
+  \ organisés est cohérente entre les diverses enquêtes, l’examen des valeurs des\
+  \ indicateurs dans le temps, le calcul des mesures de fiabilité, l’examen de la\
+  \ cohérence des valeurs des indicateurs provenant de différentes sources et, si\
+  \ nécessaire, la consultation auprès des fournisseurs de données. </p>\n<p>Avant\
+  \ la publication annuelle des données et l’ajout de tout indicateur à la base de\
+  \ données mondiale sur les indicateurs des ODD, l’Institut de statistique de l’UNESCO\
+  \ soumet toutes les valeurs des indicateurs et les notes méthodologiques aux bureaux\
+  \ nationaux de statistique, aux ministères de l’éducation ou à d’autres organismes\
+  \ concernés dans les différents pays pour examen et rétroaction. </p>"
