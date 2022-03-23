@@ -55,9 +55,9 @@ DATA_COMP: "<p>Les dépenses publiques totales en éducation (tous niveaux confo
   \ publiques totales dans l'année financière <em>t</em></p>\n<p>Remarque : l’option\
   \ préférée est que le numérateur et le dénominateur proviennent de la même source.\
   \ </p>"
-IMPUTATION: "<p><strong>• Au niveau national</strong></p>\n<p>Aucun par le compilateur\
-  \ de données.</p>\n<p><strong>• Aux niveaux régional et mondial</strong></p>\n<p>Aucun\
-  \ par le compilateur de données.</p>"
+IMPUTATION: "<p>• <strong>Au niveau national :</strong></p>\n<p>Aucun par le compilateur\
+  \ de données.</p>\n<p>• <strong>Aux niveaux régional et mondial :</strong></p>\n\
+  <p>Aucun par le compilateur de données.</p>"
 COMPARABILITY: "<p><strong>Sources des divergences</strong></p>\n<p>Les données proviennent\
   \ de différentes sources et peuvent être sujettes à des différences dans les définitions\
   \ nationales des types de dépenses. </p>"
@@ -123,7 +123,7 @@ REC_USE_LIM: "<p>Une proportion élevée de dépenses publiques en éducation d�
   \ définitions communes basées sur le Manuel des statistiques de finances publiques,\
   \ dans la pratique, ce concept (et ce qu'il inclut) peut différer d'un pays à l'autre.</p>"
 REG_AGG: <p>Les agrégats régionaux et mondiaux ne sont actuellement pas disponibles
-  pour cet indicateur.</p>
+  pour cet indicateur. </p>
 COVERAGE: "<p><strong>Disponibilité des données :</strong></p>\n<p>156 pays avec au\
   \ moins un point de données pour la période 2010-2019.</p>\n<p><strong>Séries chronologiques\
   \ :</strong></p>\n<p>1980-2019 dans la base de données de l'ISU; 2000-2019 dans\
