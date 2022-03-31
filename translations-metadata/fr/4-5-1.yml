@@ -2,131 +2,101 @@ SDG_GOAL: >-
   <p>Objectif 4 : Assurer l'accès de tous à une éducation de qualité, sur un pied
   d'égalité, et promouvoir les possibilités d'apprentissage tout au long de la vie</p>
 SDG_TARGET: >-
-  <p>Cible 4.5 : d'ici 2030, éliminer les disparités entre les sexes dans l'enseignement
+  <p>Cible 4.5 : D'ici 2030, éliminer les disparités entre les sexes dans l'enseignement
   et assurer aux personnes vulnérables, notamment aux personnes handicapées, aux populations
   autochtones et aux enfants en situation vulnérable, l'égalité d'accès à tous les
   niveaux d'enseignement et de formation professionnelle.</p>
-SDG_INDICATOR: "<p>Indicateur 4.5.1: Indices de parité (femmes/hommes, urbain/rural,\
+SDG_INDICATOR: "<p>Indicateur 4.5.1 : Indices de parité (femmes/hommes, urbain/rural,\
   \ quintile inférieur/supérieur de richesse et autres paramètres tels que le handicap,\
   \ le statut d’autochtone et les situations de conflit, à mesure que les données\
-  \ deviennent disponibles) pour tous les indicateurs dans le domaine de l’éducation\
+  \ deviennent disponibles) pour tous les indicateurs dans le domaine de l’éducation\
   \ de cette liste pouvant être ventilés</p>"
-META_LAST_UPDATE: '<p>Mai 2021</p>'
+META_LAST_UPDATE: '<p>2021-07-30</p>'
 SDG_RELATED_INDICATORS: >-
-  <h1>Indicateurs connexes</h1>
-
   <p>Tous les objectifs d'équité et les objectifs associés aux indicateurs sous-jacents.</p>
 SDG_CUSTODIAN_AGENCIES: |-
   <p>Institut de statistique de l'UNESCO (UNESCO-ISU)</p>
 STAT_CONC_DEF: >-
-  <h1>Concepts et définitions</h1>
-
-  <h2><strong><strong>Définition:</strong></strong></h2>
+  <p><strong>Définition :</strong></p>
 
   <p>Les indices de parité nécessitent des données pour les groupes d'intérêt spécifiques.
   Ils représentent le rapport entre la valeur de l'indicateur pour un groupe et celle
   de l'autre. Généralement, le groupe le plus défavorisé est placé dans le numérateur.
-  Une valeur de 1 exactement indique la parité entre les deux groupes. </p>
+  Une valeur de 1 indique la parité entre les deux groupes. </p>
 
-  <h2><strong><strong>Concepts:</strong></strong></h2>
+  <p><strong>Concepts :</strong></p>
 
-  <p>Voir les métadonnées pour l'indicateur sous-jacent pertinent. </p>
+  <p>Consulter les métadonnées pour l'indicateur sous-jacent pertinent. </p>
 SOURCE_TYPE: >-
-  <h1>Sources de données</h1>
-
-  <h2><strong><strong>Description:</strong></strong></h2>
-
-  <p>Les sources sont les mêmes que pour les indicateurs sous-jacents à cet objectif.</p>
+  <p>Les sources sont les mêmes que celles des indicateurs sous-jacents à cet objectif.</p>
 COLL_METHOD: |-
-  <h2><strong><strong>Collection process:</strong></strong></h2>
-  <p> Même chose que l'indicateur sous-jacent. </p>
+  <p>La même que celle de l'indicateur sous-jacent. </p>
 FREQ_COLL: |-
-  <h1>Calendrier</h1>
-  <h2><strong><strong>Collecte de données:</strong></strong></h2>
   <p>Dépend de l'indicateur sous-jacent. </p>
 REL_CAL_POLICY: |-
-  <h2><strong><strong>Publication des données:</strong></strong></h2>
   <p>Dépend de l'indicateur sous-jacent. </p>
 DATA_SOURCE: |-
-  <h1>Fournisseurs de données</h1>
-  <p> Identique à l'indicateur sous-jacent. </p>
+  <p>Les mêmes que ceux de l'indicateur sous-jacent. </p>
 COMPILING_ORG: |-
   <p>Institut de statistique de l'UNESCO (UNESCO-ISU)</p>
 RATIONALE: >-
-  <h2><strong><strong>Rationnel:</strong></strong></h2>
-
-  <p>Mesurer le niveau général de disparité entre deux sous-populations d'intérêt
+  <p>Pour mesurer le niveau général de disparité entre deux sous-populations d'intérêt
   par rapport à un indicateur donné. Plus l'indice de parité est éloigné de 1, plus
   la disparité entre les deux groupes d'intérêt est importante.</p>
 REC_USE_LIM: >-
-  <h2><strong><strong>Commentaires et limitations : </strong></strong></h2>
-
   <p>L'indicateur n'est pas symétrique par rapport à 1 mais une simple transformation
   peut le rendre tel (en inversant les ratios qui dépassent 1 et en les soustrayant
   de 2). Cela facilitera l'interprétation.</p>
 DATA_COMP: >-
-  <h1>Méthodologie</h1>
-
-  <h2><strong><strong>Computation method:</strong></strong></h2>
-
   <p>La valeur de l'indicateur du groupe probablement le plus défavorisé est divisée
   par la valeur de l'indicateur de l'autre sous-population concernée. </p>
 
-  <p>DPI = [Indi]d </p>
-
-  <p>[Indi]a </p>
+  <p>IPD = [Ind<sub>i</sub>]<sub>d</sub>/[Ind<sub>i</sub>]<sub>a</sub></p>
 
   <p>où : </p>
 
-  <p>DPI = l'indice de parité des dimensions (genre, richesse, lieu, etc.) </p>
+  <p>IPD = l'indice de parité des dimensions (genre, richesse, lieu, etc.) </p>
 
-  <p>Indi = l'indicateur i de l'éducation 2030 pour lequel une mesure d'équité est
-  nécessaire. </p>
+  <p>Ind<sub>i</sub> = l'indicateur i d'Education 2030 pour lequel une mesure d'équité
+  est nécessaire </p>
 
-  <p>d = le groupe probablement défavorisé (par exemple, les femmes, les plus pauvres,
+  <p>d = le groupe probablement défavorisé (p. ex., les femmes, les plus pauvres,
   etc.) </p>
 
-  <p>a = le groupe probablement avantagé (par exemple, les hommes, les plus riches,
-  etc.) </p>
+  <p>a = le groupe probablement avantagé (p. ex., les hommes, les plus riches, etc.)
+  </p>
 IMPUTATION: >-
-  <h2><strong><strong>Traitement des valeurs manquantes : </strong></strong></h2>
+  <p>&#x2022; <strong>Au niveau national :</strong></p>
 
-  <ul>
-    <li><strong><em> Au niveau national : </em></strong></li>
-  </ul>
+  <p>Le même que celui de l'indicateur sous-jacent. </p>
 
-  <p> Même chose que l'indicateur sous-jacent. </p>
+  <p>&#x2022; <strong>Au niveau régional et mondial :</strong></p>
 
-  <ul>
-    <li><strong><em>Au niveau régional et mondial : </em></strong></li>
-  </ul>
-
-  <p>Le même que l'indicateur sous-jacent. </p>
+  <p>Le même que celui de l'indicateur sous-jacent. </p>
 REG_AGG: |-
-  <h2><strong><strong>Agrégats régionaux:</strong></strong></h2>
-  <p> Même chose que l'indicateur sous-jacent. </p>
+  <p>Les mêmes que ceux de l'indicateur sous-jacent. </p>
 COVERAGE: >-
-  <h1>Disponibilité des données </h1>
+  <p><strong>Disponibilité des données :</strong></p>
 
   <p>Dépend de l'indicateur sous-jacent. </p>
 
-  <h2><strong><strong>Désagrégation:</strong></strong></h2>
+  <p><strong>Séries chronologiques :</strong></p>
 
-  <p> Aucune, car les indices de parité comparent directement deux sous-populations
+  <p><strong>Désagrégation :</strong></p>
+
+  <p>Aucune, car les indices de parité comparent directement deux sous-populations
   d'intérêt. </p>
 COMPARABILITY: |-
-  <h2><strong><strong>Sources des divergences : </strong></strong></h2>
-  <p> Le même que l'indicateur sous-jacent. </p>
+  <p><strong>Sources des divergences :</strong></p>
+  <p>Les mêmes que celles de l'indicateur sous-jacent. </p>
 OTHER_DOC: >-
-  <h1>Références</h1>
+  <p><strong>URL :</strong></p>
 
-  <h2><strong><strong>URL:</strong></strong></h2>
+  <p><a href="http://uis.unesco.org/fr">http://uis.unesco.org/fr</a></p>
 
-  <p><a href="http://www.uis.unesco.org/Pages/default.aspx">http://www.uis.unesco.org/Pages/default.aspx</a></p>
+  <p><strong>Références :</strong></p>
 
-  <h2><strong><strong>Références:</strong></strong></h2>
-
-  <p>Voir les références pour chaque indicateur sous-jacent. </p>
+  <p>Consulter les références pour chaque indicateur sous-jacent. </p>
 CONTACT_ORGANISATION: <p>Institut de statistique de l'UNESCO (UNESCO-ISU)</p>
 DATA_VALIDATION: <p>L’Institut de statistique de l’UNESCO partage toutes les valeurs
   des indicateurs et les notes sur la méthodologie avec les bureaux nationaux de statistique,
@@ -150,3 +120,18 @@ INST_MANDATE: "<p>L'Institut de statistique de l'UNESCO (ISU) est la branche sta
   \ approches statistiques et des outils de suivi afin de mieux évaluer les progrès\
   \ pour les cibles liées au mandat de l'UNESCO, en travaillant en coordination avec\
   \ le \"SDG-Education 2030 SC \"</em> ».</p>"
+SDG_SERIES_DESCR: <p>La même que celle de l’indicateur sous-jacent. </p>
+CLASS_SYSTEM: <p>Sans objet car les indices de parité comparent directement deux sous-populations
+  d’intérêt. </p>
+ADJUSTMENT: <p>Les mêmes que ceux de l’indicateur sous-jacent. </p>
+DOC_METHOD: <p>L’ISU a élaboré des conseils à l’intention des pays sur la méthodologie
+  qui devrait être utilisée pour calculer cet indicateur. </p>
+QUALITY_MGMNT: <p>La gestion de la qualité de cet indicateur est la même que celle
+  des indicateurs sous-jacents. </p>
+QUALITY_ASSURE: <p>L’assurance de la qualité pour cet indicateur est la même que celle
+  des indicateurs sous-jacents. </p>
+QUALITY_ASSMNT: <p>L’évaluation de la qualité de cet indicateur est la même que celle
+  des indicateurs sous-jacents. </p>
+UNIT_MEASURE: <p>Ratio. Cet indicateur est exprimé comme le rapport entre la valeur
+  de l’indicateur pour le groupe probablement le plus défavorisé et celui du groupe
+  probablement plus favorisé. </p>

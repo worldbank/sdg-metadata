@@ -2,7 +2,7 @@ ADJUSTMENT: <p>Sans objet</p>
 SDG_CUSTODIAN_AGENCIES: <p>Institut de statistique de l'UNESCO (UNESCO-ISU)</p>
 CONTACT_ORGANISATION: <p>Institut de statistique de l'UNESCO (UNESCO-ISU)</p>
 REG_AGG: <p>Les agrégats régionaux et mondiaux ne sont actuellement pas disponibles
-  pour cet indicateur.</p>
+  pour cet indicateur. </p>
 COMPARABILITY: "<p><strong>Sources des divergences :</strong></p>\n<p>Aucune.</p>"
 INST_MANDATE: "<p>L'Institut de statistique de l'UNESCO (ISU) est la branche statistique\
   \ de l'Organisation des Nations Unies pour l'éducation, la science et la culture\
@@ -28,3 +28,137 @@ SDG_GOAL: "<p>Objectif 4 : Assurer l'accès de tous à une éducation de qualit�
   \ de la vie</p>"
 FREQ_COLL: <p>Le calendrier varie selon l’enquête et le pays. </p>
 COMPILING_ORG: <p>Institut de statistique de l'UNESCO (UNESCO-ISU)</p>
+SDG_INDICATOR: '<p>Indicateur 4.6.1 : Proportion de la population d’un groupe d’âge
+  donné atteignant au moins un niveau fixe de compétences fonctionnelles (a) en littératie
+  et (b) en numératie, selon le sexe</p>'
+SDG_RELATED_INDICATORS: <p>1.2, 1.5, 2.1, 2.2, 2.3, 3.1, 3.3, 3.4, 3.7, 4.5, 5.3,
+  5.4, 5.5, 5.6, 8.5, 8.6, 8.b, 10.2, 12.8, 13.3, 13.b</p>
+UNIT_MEASURE: <p>Cet indicateur est exprimé en proportion de jeunes et d’adultes qui
+  ont atteint ou dépassé un niveau fixe de compétence en (a) littératie et (b) en
+  numératie. </p>
+SDG_TARGET: '<p>Cible 4.6 : D’ici 2030, veiller à ce que tous les jeunes et une proportion
+  importante d’adultes, hommes et femmes, atteignent la littératie et la numératie</p>'
+CLASS_SYSTEM: "<p><strong>Descripteur de niveau 2 du PEICA</strong></p>\n<p><strong>Littératie :</strong></p>\n\
+  <p>À ce niveau, le support des textes peut être numérique ou imprimé, et les textes\
+  \ peuvent comprendre des types continus, non continus ou mixtes. Les tâches à ce\
+  \ niveau exigent que les répondants fassent des correspondances entre le texte et\
+  \ l’information, et peuvent nécessiter une paraphrase ou des inférences de bas niveau.\
+  \ Certains éléments d’information concurrents peuvent être présents. Certaines tâches\
+  \ nécessitent que le répondant :</p>\n<ul>\n  <li>parcourt ou intégre deux ou plusieurs\
+  \ éléments d’information en fonction de critères; </li>\n  <li>compare et contraste\
+  \ ou se fasse une raison à propos des informations demandées dans la question; ou</li>\n\
+  \  <li>navigue dans les textes numériques pour accéder aux informations provenant\
+  \ de diverses parties d’un document et les identifie. </li>\n</ul>\n<p><strong>Numératie :</strong></p>\n\
+  <p>Les tâches à ce niveau exigent que le répondant identifie et agisse sur des informations\
+  \ et des idées mathématiques intégrées dans un éventail de contextes communs où\
+  \ le contenu mathématique est assez explicite ou visuel avec relativement peu de\
+  \ distracteurs. Les tâches ont tendance à nécessiter l’application de deux étapes\
+  \ ou processus ou plus impliquant un calcul avec des nombres entiers et des décimales,\
+  \ des pourcentages et des fractions communs; une mesure simple et une représentation\
+  \ spatiale; une estimation; et l’interprétation de données et de statistiques relativement\
+  \ simples dans des textes, des tableaux et des graphiques. </p>"
+STAT_CONC_DEF: "<p><strong>Définition :</strong></p>\n<p>La proportion de jeunes (âgés\
+  \ de 15 à 24 ans) et d’adultes (âgés de 15 ans et plus) qui ont atteint ou dépassé\
+  \ un niveau fixe de compétence en (a) littératie et (b) en numératie. </p>\n<p><strong>Concepts\
+  \ :</strong></p>\n<p>Le <strong>niveau de compétence fixe (NCF)</strong> est la\
+  \ référence des connaissances de base dans un domaine (littératie ou numératie)\
+  \ mesuré par des évaluations d’apprentissage. Actuellement, le NCF pour les rapports\
+  \ globaux est le descripteur de niveau 2 du Programme pour l’évaluation internationale\
+  \ des compétences des adultes (PEICA). </p>\n<p>Les concepts de littératie fonctionnelle\
+  \ et de numératie fonctionnelle sont basés sur les définitions de l’UNESCO, qui\
+  \ couvrent un continuum de niveaux de compétence plutôt qu’une dichotomie. Une personne\
+  \ est fonctionnellement alphabétisée si elle peut s’engager dans toutes les activités\
+  \ dans lesquelles l’alphabétisation est nécessaire au fonctionnement efficace de\
+  \ son groupe et de sa communauté et qui lui permet également de continuer à utiliser\
+  \ la lecture, l’écriture et le calcul pour son propre développement et celui de\
+  \ la communauté. </p>"
+SOURCE_TYPE: <p>Cet indicateur est recueilli au moyen d’enquêtes d’évaluation des
+  compétences auprès de la population adulte (p. ex., PEICA, « Skills towards Employment
+  and Productivity » (STEP), « Literacy Assessment and Monitoring Programme » (LAMP),
+  Recherche-action sur la mesure des apprentissages des bénéficiaires des programmes
+  d'alphabétisation (RAMAA)) et d’enquêtes nationales sur l’alphabétisation/la littératie
+  des adultes. </p>
+COLL_METHOD: <p>Les données sont recueillies auprès des organisations respectives
+  responsables de chaque évaluation. </p>
+REL_CAL_POLICY: "<p>Les données sont publiées par l’ISU en février/mars et en septembre\
+  \ de chaque année. </p>\n<p> </p>"
+RATIONALE: '<p>L’indicateur est une mesure directe des niveaux de compétence des jeunes
+  et des adultes dans les deux domaines suivants : la littératie et la numératie.
+  </p>'
+REC_USE_LIM: <p>La littératie fonctionnelle et la numératie sont liées au contexte,
+  de sorte que les programmes d’enquête doivent être développés davantage afin d’encadrer
+  les questions d’une manière qui soit significative pour différents contextes économiques
+  et sociaux et qui pourrait être plus efficace pour refléter le niveau de compétences
+  de la population. </p>
+IMPUTATION: "<p>&#x2022; <strong>Au niveau national :</strong></p>\n<p>Aucun par le\
+  \ compilateur de données. </p>\n<p>&#x2022; <strong>Aux niveaux régional et mondial\
+  \ :</strong></p>\n<p>Aucun par le compilateur de données. </p>"
+DATA_VALIDATION: <p>Au cours de chaque période de mise à jour des données, des enquêtes
+  sur les publications récentes des résultats des évaluations nationales et internationales
+  sont effectuées. Ensuite, des consultations sont menées avec les références nationales
+  et les points focaux techniques de l’ISU pour vérifier la disponibilité et la validité
+  des données. </p>
+QUALITY_ASSURE: <p>L’OCDE est le compilateur de données pour le PEICA et le Groupe
+  de la Banque mondiale est le compilateur de STEP, tous deux utilisant le cadre du
+  PEICA et les descripteurs de niveau de compétence. </p>
+COVERAGE: "<p><strong>Disponibilité des données :</strong></p>\n<p>45 pays ayant au\
+  \ moins un point de données pour la période 2010-2017. </p>\n<p><strong>Séries chronologiques\
+  \ :</strong></p>\n<p>À partir de 2006. </p>\n<p><strong>Désagrégation :</strong></p>\n\
+  <p>Selon le groupe d’âge, le sexe, l’emplacement, le revenu et le type de compétence.\
+  \ Le statut d’invalidité n’est actuellement pas disponible dans la plupart des évaluations\
+  \ nationales et transnationales de l’apprentissage. </p>"
+DATA_SOURCE: <p>Cet indicateur est recueilli au moyen d’enquêtes d’évaluation nationales
+  ou internationales sur les compétences auprès des populations de jeunes et d’adultes.
+  L’Évaluation des compétences des adultes dans le cadre de son Programme pour l’évaluation
+  internationale des compétences des adultes (PEICA) de l’OCDE et le « Skills Towards
+  Employment and Productivity » (STEP) de la Banque mondiale, tous deux basés sur
+  le cadre et l’échelle du PEICA, et les organismes chargés de mener des évaluations
+  nationales de l’apprentissage (y compris les ministères de l’éducation, les bureaux
+  nationaux de statistique et d’autres fournisseurs de données) sont des sources de
+  données de cet indicateur</p>
+DATA_COMP: "<p>Proportion de jeunes et d’adultes qui ont atteint au moins un niveau\
+  \ de compétence fixe tel que défini pour les évaluations à grande échelle (représentatives\
+  \ de l’échantillon) de littératie et de numératie des adultes :\n<p> <math xmlns=\"\
+  http://www.w3.org/1998/Math/MathML\">\n    <mi>P</mi>\n    <mi>N</mi>\n    <mi>C</mi>\n\
+  \    <mi>F</mi>\n    <mi> &amp;nbsp; </mi>\n    <mi>t</mi>\n    <mo>,</mo>\n   \
+  \ <mi>a</mi>\n    <mo>,</mo>\n    <mi>d</mi>\n    <mo>=</mo>\n    <mfrac>\n    \
+  \  <mrow>\n        <mi>N</mi>\n        <mi>C</mi>\n        <mi>F</mi>\n        <mi>\
+  \ &amp;nbsp; </mi>\n        <mi>t</mi>\n        <mo>,</mo>\n        <mi>a</mi>\n\
+  \        <mo>,</mo>\n        <mi>d</mi>\n      </mrow>\n      <mrow>\n        <mi>P</mi>\n\
+  \        <mi> &amp;nbsp; </mi>\n        <mi>t</mi>\n        <mo>,</mo>\n       \
+  \ <mi>a</mi>\n        <mo>,</mo>\n        <mi>d</mi>\n      </mrow>\n    </mfrac>\n\
+  \  </math> </p>\n<p>où : </p>\n<p><strong><em>PNCF t,a,d</em></strong> = la proportion\
+  \ de personnes dans une enquête sur les compétences dans le groupe d'âge <strong>a</strong>,\
+  \ dans l'année <strong>t</strong>, qui ont atteint ou dépassé le niveau fixe de\
+  \ compétence dans le domaine <strong>d</strong>.</p>\n<p><strong><em>NCF t,a,d</em></strong>\
+  \ = le nombre de personnes dans une enquête sur les compétences dans le groupe d'âge\
+  \ <strong>a</strong>, dans l'année <strong>t</strong>, qui ont atteint ou dépassé\
+  \ le niveau fixe de compétence dans le domaine <strong>d</strong>.</p>\n<p><strong><em>P\
+  \ t,a,d</em></strong> = le nombre de personnes dans le groupe d'âge <strong>a</strong>,\
+  \ dans l'année <strong>t</strong>, qui ont participé à une enquête sur les compétences\
+  \ dans le domaine <strong>d</strong>.</p>\n<p><strong>a</strong> = 15-65 ans (jeunes\
+  \ et adultes) </p>\n<p><strong>d</strong> = le domaine évalué (littératie ou numéracie).\
+  \ </p>"
+DOC_METHOD: <p>L’ISU a élaboré des lignes directrices à l’intention des pays concernant
+  le contenu, les procédures et les rapports sur le <a href="http://gaml.uis.unesco.org/indicator-4-6-1/">microsite</a>
+  de l’Alliance mondiale pour surveiller l’apprentissage (GAML), . </p>
+QUALITY_MGMNT: <p>L’ISU tient à jour une base de données mondiale sur les évaluations
+  de l’apprentissage dans l’éducation de base. À des fins de transparence, l’inclusion
+  d’un point de données dans la base de données est complétée en suivant un protocole
+  et est examinée par les points focaux techniques de l’ISU pour assurer la cohérence
+  et la qualité globale des données, sur la base de critères objectifs pour s’assurer
+  que seules les informations les plus récentes et les plus fiables sont incluses
+  dans la base de données. </p>
+QUALITY_ASSMNT: '<p>Les critères pour assurer la qualité et la normalisation des données
+  sont les suivants : les sources de données doivent comprendre une documentation
+  adéquate; les valeurs des données devraient être représentatives au niveau de la
+  population nationale et, dans la négative, doivent être notées en bas de page; et
+  les données sont plausibles et fondées sur des tendances et sont cohérentes avec
+  les valeurs précédemment publiées ou déclarées pour l’indicateur. </p>'
+OTHER_DOC: "<p><strong>URL :</strong></p>\n<p>http://uis.unesco.org/fr</p>\n<p><strong>Références\
+  \ :</strong></p>\n<p>Programme pour l’évaluation internationale des compétences\
+  \ des adultes (PEICA) : </p>\n<p>(en anglais) http://www.oecd.org/site/piaac/ </p>\n\
+  <p>Programme de mesure des compétences « Skills towards Employment and Productivity »\
+  \ (STEP) : (en anglais) http://microdata.worldbank.org/index.php/catalog/step/about\
+  \ </p>\n<p>Recherche-action sur la mesure des apprentissages des bénéficiaires des\
+  \ programmes d'alphabétisation (RAMAA) : </p>\n<p>https://uil.unesco.org/fr/alphabetisation/mesure-des-resultats-de-lapprentissage-ramaa</p>"
