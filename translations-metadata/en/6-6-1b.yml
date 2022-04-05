@@ -7,8 +7,11 @@ SDG_TARGET: >-
 SDG_INDICATOR: >-
   <p>Indicator 6.6.1: Change in the extent of water-related ecosystems over
   time</p>
-META_LAST_UPDATE: <p>2021-03-01</p>
-SDG_RELATED_INDICATORS: <p>15.1.</p>
+SDG_SERIES_DESCR: |-
+  <p>Extent of inland wetlands (square kilometres)</p>
+  <p>Extent of human made wetlands (square kilometres)</p>
+META_LAST_UPDATE: '2022-03-31'
+SDG_RELATED_INDICATORS: <p>15.1</p>
 SDG_CUSTODIAN_AGENCIES: <p>Secretariat of the Ramsar Convention on Wetlands</p>
 CONTACT_ORGANISATION: <p>Secretariat of the Ramsar Convention on Wetlands</p>
 STAT_CONC_DEF: >-
@@ -20,8 +23,8 @@ STAT_CONC_DEF: >-
 
   <p>This term can be defined as the surface area of wetlands. It is measured in
   km<sup>2 </sup>or hectares. It is expected that the surface reported by
-  countries in 2018 correspond to the 2017; if not, the reference year should be
-  indicated. </p>
+  countries in 2018 correspond to that of 2017; if not, the reference year
+  should be indicated. </p>
 
   <ul>
     <li>&#x201C;change in the extent of wetlands&#x201D; </li>
@@ -87,7 +90,7 @@ STAT_CONC_DEF: >-
   wetlands or freshwater ecosystems for purpose of indicator 6.6.1 (see table
   below, the explanations of each wetland type code is in Annex 1). </p>
 
-  <p><strong>Tabulations of Wetland Type characteristics, Inland
+  <p><strong>Table 1: Tabulations of Wetland Type characteristics, Inland
   Wetlands:</strong></p>
 
   <table>
@@ -325,9 +328,7 @@ STAT_CONC_DEF: >-
       </tr>
     </tbody>
   </table>
-
-  <p> </p>
-UNIT_MEASURE: <p>The extent of wetlands is measure in km<sup>2</sup></p>
+UNIT_MEASURE: <p>The extent of wetlands is measured in km<sup>2</sup></p>
 CLASS_SYSTEM: >-
   <p>The international standard classification being used is the Ramsar
   Classification System for Wetland Types, adopted at COP4 in 1990, and amended
@@ -338,22 +339,22 @@ CLASS_SYSTEM: >-
 SOURCE_TYPE: >-
   <p>The Ramsar Convention on Wetlands Secretariat has been collecting and
   analysing data on country implementation since 2000 including information
-  about wetland inventories. This is done at intervals of 3 years that is the
+  about wetland inventories. This is done at intervals of 3 years, that is the
   cycle of Country reporting under the Convention </p>
 
   <p>The 1999 review of the state of wetland inventory worldwide (<em>Global
   review of wetland resources and priorities for wetland inventory </em>-
   GRoWI), which was undertaken for the Ramsar Convention, identified not only
   the major gaps in the extent to which wetland inventory had been undertaken,
-  but also found that for the inventories which had been made it was frequently
+  but also found that for the inventories which had been made, it was frequently
   very hard to trace their existence, to identify their purpose, scope and
   coverage, and/or to access the information contained in them.</p>
 
   <p>Another source of information is the update of the Wetland Extent Trends
   (WET) Index that was commissioned by the Ramsar Convention Secretariat to
   WCMC. The Wet Index is an updatable indicator of wetland area trends where
-  there are still gaps of information. However, is not applicable at national
-  level and has been used, as data are not available at national level. This
+  there are still gaps of information. However, it is not applicable at national
+  level and has not been used, as data are not available at national level. This
   will be fixed with national reports. </p>
 
   <p>In the format for National Report for COP13 the Contracting Parties agreed
@@ -377,8 +378,6 @@ COLL_METHOD: >-
   Secretariat using existing information and a literature search. All country
   reports (including those prepared by the Ramsar Secretariat) are sent to the
   respective Administrative Authority for validation before finalization.</p>
-
-  <p> </p>
 FREQ_COLL: >-
   <p>Data collection process for indicator 6.6.1 has started in 2018 and data
   collection will take place also in 2019. </p>
@@ -391,11 +390,11 @@ DATA_SOURCE: >-
   the Parties. Countries with dependent territories prepare more than one
   report. For the remaining countries where no information is provided, a report
   is prepared by the Ramsar Secretariat using existing information and a
-  literature search that is validated by the concern countries. </p>
+  literature search that is validated by the concerned countries. </p>
 COMPILING_ORG: >-
-  <p>Secretariat of the Ramsar Convention on Wetlands: The Secretariat expect to
-  work with UNEP as co-custodian of this indicator and other<strong> </strong>UN
-  agencies and partners.<strong> </strong></p>
+  <p>Secretariat of the Ramsar Convention on Wetlands: The Secretariat expects
+  to work with UNEP as co-custodian of this indicator and other<strong>
+  </strong>UN agencies and partners.<strong> </strong></p>
 INST_MANDATE: >-
   <p>At the 52nd meeting of the Standing Committee (SC52) in 2016, Contracting
   Parties of the Convention on Wetlands approved the inclusion of an indicator
@@ -405,10 +404,10 @@ INST_MANDATE: >-
   water-related ecosystems over time. Given that Contracting Parties were
   reporting on extent as part of the National Reports, the Interagency Expert
   Group on SDGs in 2017 appointed the Convention on Wetlands as co-custodian of
-  Indicator 6.6.1 using data coming from National Reports, which used as a main
-  source wetland inventories.</p>
+  Indicator 6.6.1 using data coming from National Reports, which used wetland
+  inventories as a main source.</p>
 
-  <p>As noted in Resolution XIII.7 Enhancing the Convention&#x2019;s visibility
+  <p>As noted in Resolution XIII.7, enhancing the Convention&#x2019;s visibility
   and synergies with other multilateral environmental agreements and other
   international institutions, the Convention on Wetlands is co-custodian with
   UNEP of SDG Indicator 6.6.1. The Convention contributes to monitoring progress
@@ -428,7 +427,7 @@ RATIONALE: >-
   <p>The Ramsar Convention on Wetlands is the Intergovernmental treaty that
   provides the framework for the Conservation and wise use of wetlands and their
   resources. The Convention was adopted in 1971 and came into force in 1975.
-  Since then 170 Countries, representing almost 90% on UN member states, from
+  Since then, 170 Countries representing almost 90% on UN member states, from
   all the world&#xB4;s geographic regions have acceded to become Contracting
   Parties under the Convention.</p>
 
@@ -443,9 +442,9 @@ RATIONALE: >-
   <p>The indicator provides a measure of the relative extent of inland wetlands
   in a country. It follows the rationale of the forest indicator (Indicator
   15.1.1). The availability of accurate data on a country&apos;s wetland extent
-  based on the country&#xB4;s wetland inventory is crucial for the decision
-  making regarding policies, restoration of critical wetlands or designation
-  under national or international management or protected area categories. </p>
+  based on the country&#xB4;s wetland inventory is crucial for decision making
+  regarding policies, restoration of critical wetlands or designation under
+  national or international management or protected area categories. </p>
 
   <p>Changes in the wetland extent reflect wetland loss and degradation for land
   use changes or for other uses and may help identify unsustainable practices
@@ -455,7 +454,7 @@ REC_USE_LIM: >-
   of wetland resources and priorities for wetland inventory - GRoWI), which was
   undertaken for the Ramsar Convention, identified not only the major gaps in
   the extent to which wetland inventory had been undertaken, but also found that
-  for the inventories which had been made it was frequently very hard to trace
+  for the inventories which had been made, it was frequently very hard to trace
   their existence, to identify their purpose, scope and coverage, and/or to
   access the information contained in them. </p>
 
@@ -470,44 +469,45 @@ REC_USE_LIM: >-
   <p>In 2002, several limitations were identified (Ramsar COP8) in the use of EO
   for routinely deriving wetland information. These included the cost of the
   technology, the technical capacity needed to use the data, the unsuitability
-  of the data available for some basic applications (in particular in terms of
-  spatial resolution), the lack of clear, robust and efficient user-oriented
-  methods and guidelines for using the technology, and a lack of solid track
-  record of successful case studies that could form a basis for operational
-  activities. </p>
+  of the data available for some basic applications (in terms of spatial
+  resolution), the lack of clear, robust and efficient user-oriented methods and
+  guidelines for using the technology, and a lack of solid track record of
+  successful case studies that could form a basis for operational activities.
+  </p>
 
   <p>Historical optical data is available from Landsat and Spot missions;
   however, persistent cloud cover in certain regions renders much of these data
   unusable. Distinguishing between permanent and temporary surface water and
   wetlands can therefore be difficult considering the available historical data.
-  It is further noted that for complex environments with different wetland types
-  in situ data or local knowledge is critical to support the analysis of the EO
-  data, and is sometimes the only way to obtain information on certain wetland
-  types.</p>
+  It is further noted that for complex environments with different wetland
+  types, in situ data or local knowledge is critical to support the analysis of
+  the EO data, and is sometimes the only way to obtain information on certain
+  wetland types.</p>
 
-  <p>Another limitation is that some countries are in the process of update or
-  complete their national wetlands inventories in others are still gaps or is
-  difficult to access the available information.</p>
+  <p>Another limitation is that some countries are in the process of updating or
+  completing their national wetlands inventories. In others, there are still
+  gaps or difficulty to access the available information.</p>
 
   <p>Despite the above limitations, the use of the measure of extent of wetlands
-  will respond to the indicator and will allow to having a practical mechanism
-  in the short term to track the status of water related ecosystems with robust
+  will respond to the indicator and will allow having a practical mechanism in
+  the short term to track the status of water related ecosystems with robust
   data and foster action for the conservation of these important ecosystems.
   </p>
 DATA_COMP: >-
-  <p>Wetland area (Km2 or ha, reference year)/ Change in the extent of wetlands
-  (water-related ecosystems over time) a baseline reference and year.</p>
+  <p>Wetland area (Km<sup>2</sup> or ha, reference year)/Change in the extent of
+  wetlands (water-related ecosystems over time) a baseline reference and
+  year.</p>
 
   <p> </p>
 
-  <p>Based upon the national wetland inventory (complete or partial) countries
+  <p>Based upon the national wetland inventory (complete or partial), countries
   provide a baseline figure in square kilometres for the extent of wetlands
   (according to the Ramsar definition) for the year 2017. The minimum
   information that should be provided is the total area of wetlands for each of
   the three major categories; &#x201C;marine/coastal&#x201D;,
   &#x201C;inland&#x201D; and &#x201C;human-made.</p>
 
-  <p>If the information is available countries indicate the % of change in the
+  <p>If the information is available, countries indicate the % change in the
   extent of wetlands over the last three years. If the period of data covers
   more than three years, countries provide the available information, and
   indicate the period of the change. For reporting such change, the previous
@@ -527,14 +527,13 @@ DATA_VALIDATION: >-
   necessary. Once the clarifications are made, the data are submitted to the
   SDGs Indicators Database. </p>
 ADJUSTMENT: >-
-  <p>As indicated in item 2.c the international standard classification being
+  <p>As indicated in item 2.c, the international standard classification being
   used is the Ramsar Classification System for Wetland Types, adopted at the
   Fourth Meeting of the Conference of the Parties to the Convention on Wetlands
   (COP4) in 1990.</p>
 
-  <p>Even that the Convention has a regional approach with six Ramsar regions
-  the harmonization of breakdowns on SDG classifications for regional grouping
-  for compliance with SDG processes.</p>
+  <p>When reporting on the SDGs data, we use the regional aggregates according
+  to the &#x201C;SDG regional groupings for compliance with SDG processes. </p>
 IMPUTATION: >-
   <ul>
     <li><strong>At country level</strong></li>
@@ -544,7 +543,8 @@ IMPUTATION: >-
   the Ramsar Convention on Wetlands Secretariat as part of their National
   Reports to COP13 (16% of countries) a report is in preparation by the Ramsar
   Secretariat using existing information from previous assessments and
-  literature search.</p>
+  literature search. The reports are shared with the concerned countries in
+  order to comment and make any adjustment complementation to the data. </p>
 
   <ul>
     <li><strong>At regional and global levels</strong></li>
@@ -563,25 +563,24 @@ DOC_METHOD: >-
   <p>Detailed methodology and guidance on how to provide the data on extent for
   indicator 6.6.1 in their National Reports and to use Ramsar definition and
   classification is found in the document &#x201C;Guidance on information on
-  national wetland extent, to be provided in Target 8 National Wetlands
-  Inventory of the Ramsar National Report for COP13&#x201D;. </p>
+  national wetland extent, is provided in Target 8 National Wetlands Inventory
+  of the Ramsar National Report for COP13 and COP14 &#x201D;. </p>
 
   <p>The Ramsar Convention on Wetlands has taken many steps to ensure the wise
   use and conservation of wetlands globally. This has included the development
   and promotion of guidance and best practice tools for the inventory,
-  assessment and monitoring of change in wetlands with a particular emphasis in
-  recent years on the application of an increasing number of satellite-based
-  remote sensing approaches (Davidson &amp; Finlayson 2007; Mackay et al. 2009;
-  Ramsar Secretariat 2010a). This has become necessary as there is an increasing
-  demand for information that can be readily used by wetland managers to help
-  stem the ongoing loss and degradation of wetlands. </p>
+  assessment and monitoring of change in wetlands with emphasis in recent years
+  on the application of an increasing number of satellite-based remote sensing
+  approaches (Davidson &amp; Finlayson 2007; Mackay et al. 2009; Ramsar
+  Secretariat 2010a). This has become necessary as there is an increasing demand
+  for information that can be readily used by wetland managers to help stem the
+  ongoing loss and degradation of wetlands. </p>
 
   <p>The utility of different remote sensing datasets for wetland inventory,
-  monitoring and assessment is well established, in particular through the
-  provision of site based (Land Use Land Cover (LULC)) maps characterising a
-  particular ecosystem, to the analysis of time series data (remote sensing
-  datasets collected consistently over a particular time period) to determine
-  changes.</p>
+  monitoring and assessment is well established, through the provision of site
+  based (Land Use Land Cover (LULC)) maps characterising an ecosystem, to the
+  analysis of time series data (remote sensing datasets collected consistently
+  over a particular time period) to determine changes.</p>
 
   <p>The availability and accessibility of EO datasets suitable for addressing
   the information needs of the Ramsar Convention and wetland practitioners has
@@ -596,15 +595,15 @@ DOC_METHOD: >-
   information source for wetland managers provided by the Ramsar Convention for
   Wetlands&#x201D;. The Ramsar Convention and EO based approaches build on those
   previously undertaken on the use of EO technologies for implementation of the
-  Convention (Ramsar 2002; Davidson &amp; Finlayson 2007; Mackay et al. 2009)
+  Convention (Ramsar, 2002; Davidson &amp; Finlayson, 2007; Mackay et al., 2009)
   and are placed within the conceptualisation of wetland inventory, assessment
-  and monitoring that were incorporated into the IF-WIAM (Ramsar Secretariat
+  and monitoring that were incorporated into the IF-WIAM (Ramsar Secretariat,
   2010b). </p>
 
   <p>The purpose of the report is to provide an overview of the application of
   EO technologies to inform wetland managers and practitioners, and
   stakeholders, including those from related sectors, such as protected area
-  managers and wetland education centre staff (Ramsar Convention 2015) about
+  managers and wetland education centre staff (Ramsar Convention, 2015) about
   &#x201C;best practice&#x201D; use of EO technologies, taking into account
   requirements and recommendations from the Convention. </p>
 
@@ -620,9 +619,9 @@ DOC_METHOD: >-
   patterns of wetlands is complicated by the lack of medium to high-resolution
   data in particular prior to 2000. </p>
 
-  <p>Despite the ever expanding data archives, improving quality and increasing
+  <p>Despite the ever-expanding data archives, improving quality and increasing
   suitability of EO data for wetland inventory, monitoring and assessment, it is
-  important to note that &#x201C;ground-truthing&#x201D; or field based
+  important to note that &#x201C;ground-truthing&#x201D; or field-based
   assessments and validation are still a vital component of any work involving
   EO data, whose occasional omission may still lead to problematic results. </p>
 
@@ -634,18 +633,18 @@ DOC_METHOD: >-
   appropriate assessment and monitoring, and is used to collect information to
   describe the ecological character of wetlands including that used to support
   the listing of Ramsar sites, as recorded in the Ramsar Information Sheet
-  (Ramsar Secretariat 2012), assessment considers the pressures and associated
+  (Ramsar Secretariat, 2012), assessment considers the pressures and associated
   risks of adverse change in ecological character; and monitoring, which can
   include both survey and surveillance, provides information on the extent of
   any change that occurs as a consequence of management actions. </p>
 
-  <p>Under the Convention multiple guidelines have been developed to support
-  countries to complete national wetland inventories including the use of
-  metadata (Some of these guidelines are mentioned below). More recently in 2020
-  the Secretariat prepared a toolkit on wetlands inventory to assist Contracting
-  Parties to implement or update a NWI. The aim of the toolkit is to provide
-  practical guidance and examples of how to implement an NWI, including a
-  step-by-step process and resources to support each recommendation. Good
+  <p>Under the Convention, multiple guidelines have been developed to support
+  countries to complete national wetland inventories (NWIs) including the use of
+  metadata (Some of these guidelines are mentioned below). More recently in
+  2020, the Secretariat prepared a toolkit on wetlands inventory to assist
+  Contracting Parties to implement or update a NWI. The aim of the toolkit is to
+  provide practical guidance and examples of how to implement an NWI, including
+  a step-by-step process and resources to support each recommendation. Good
   practices and examples on the areas of carrying out and updating NWIs,
   inventory methods, data collection, Earth observation and use of wetland
   inventories in decision-making are provided. Examples that illustrate how to
@@ -658,15 +657,25 @@ DOC_METHOD: >-
   development of training materials, webinars and other training opportunities
   for Contracting Parties.</p>
 
-  <p>Ramsar Guidelines</p>
+  <p><strong>Ramsar Guidelines</strong></p>
+
+  <p>A new toolkit for National Wetlands Inventories</p>
+
+  <p><a
+  href="https://www.ramsar.org/sites/default/files/documents/library/nwi_toolkit_2020_e.pdf">https://www.ramsar.org/sites/default/files/documents/library/nwi_toolkit_2020_e.pdf</a></p>
 
   <p> </p>
 
-  <p>Ramsar Handbooks: Handbook 13 Inventory, assessment and monitoring, and
-  Handbook 15 Wetland Inventory <a
-  href="http://www.ramsar.org/resources/ramsar-handbooks">http://www.ramsar.org/resources/ramsar-handbooks</a>.</p>
+  <p>Handbook 15 Wetland Inventory. Ramsar Secretariat 2010a.</p>
 
-  <p>Ramsar Technical Report Low-cost GIS software and data for wetland
+  <p><a
+  href="https://www.ramsar.org/sites/default/files/documents/pdf/lib/hbk4-15.pdf">https://www.ramsar.org/sites/default/files/documents/pdf/lib/hbk4-15.pdf</a></p>
+
+  <p>Ramsar Handbooks: Handbook 13 Inventory, assessment and monitoring. Ramsar
+  Secretariat 2010b <a
+  href="https://www.ramsar.org/sites/default/files/documents/pdf/lib/hbk4-13.pdf">https://www.ramsar.org/sites/default/files/documents/pdf/lib/hbk4-13.pdf</a></p>
+
+  <p>Ramsar Technical Report 2 Low-cost GIS software and data for wetland
   inventory, assessment &amp; monitoring. </p>
 
   <p><a
@@ -679,7 +688,7 @@ DOC_METHOD: >-
   <p><a
   href="https://www.ramsar.org/sites/default/files/documents/pdf/lib/lib_rtr04.pdf">https://www.ramsar.org/sites/default/files/documents/pdf/lib/lib_rtr04.pdf</a></p>
 
-  <p>Ramsar 2002. The Ramsar Convention on Wetlands, The 8th Meeting of the
+  <p>Ramsar (2002). The Ramsar Convention on Wetlands, The 8th Meeting of the
   Conference of the Parties to the Convention on Wetlands, Valencia, Spain,
   18-26 November 2002, COP8 DOC. 35, The use of Earth Observation technology to
   support the implementation of the Ramsar Convention, <a
@@ -704,6 +713,53 @@ DOC_METHOD: >-
   needs and formats for core inventory: harmonized scientific and technical
   guidance <a
   href="http://www.ramsar.org/sites/default/files/documents/pdf/res/key_res_x_15_e.pdf">http://www.ramsar.org/sites/default/files/documents/pdf/res/key_res_x_15_e.pdf</a></p>
+
+  <p><a
+  href="https://www.ramsar.org/document/ramsar-technical-report-10-the-use-of-earth-observation-for-wetland-inventory-assessment">Ramsar
+  Technical Report 10: The use of Earth Observation for wetland inventory,
+  assessment and monitoring | Ramsar</a></p>
+
+  <p>The Ramsar Convention on Wetlands. (2011). The 11th Meeting of the
+  Conference of the Parties to the Convention on Wetlands, Bucharest, Romania,
+  6-13 July, 2012. Resolution XI.8, Annex 2: Strategic Framework and guidelines
+  for the future development of the List of Wetlands of International Importance
+  of the Convention on Wetlands (Ramsar, Iran, 1971) &#x2013; 2012 revision.
+  </p>
+
+  <p><a
+  href="https://www.ramsar.org/sites/default/files/documents/library/cop11-res08-e-anx2_revcop13.pdf">https://www.ramsar.org/sites/default/files/documents/library/cop11-res08-e-anx2_revcop13.pdf</a></p>
+
+  <p>Davidson, N.C. &amp; Finlayson, C.M. (2007). Earth Observation for wetland
+  inventory, assessment and monitoring. Aquatic Conservation: Marine and
+  Freshwater Ecosystems, 17, 219-228.</p>
+
+  <p><a href="https://booksc.org/book/538915/be9741">Earth Observation for
+  wetland inventory, assessment and monitoring | N.C. Davidson; C.M. Finlayson |
+  download (booksc.org)</a></p>
+
+  <p>MacKay, H., Finlayson, C.M., Fern&#xE1;ndez-Prieto, D., Davidson, N.,
+  Pritchard, D. &amp; Rebelo, L.-M. (2009). The role of Earth Observation (EO)
+  technologies in supporting implementation of the Ramsar Convention on
+  Wetlands. Journal of Environmental Monitoring 90(7), 2234-2242.</p>
+
+  <p><a href="https://booksc.org/book/3680727/08a074">The role of Earth
+  Observation (EO) technologies in supporting implementation of the Ramsar
+  Convention on Wetlands | H. MacKay; C.M. Finlayson; D. Fern&#xE1;ndez-Prieto;
+  N. Davidson; D. Pritchard; L.-M. Rebelo | download (booksc.org)</a></p>
+QUALITY_MGMNT: >-
+  <p>At the 52nd meeting of the Standing Committee (SC52) in 2016, Contracting
+  Parties of the Convention on Wetlands approved the inclusion of an indicator
+  on wetland extent in the National Report to COP13. The Secretariat provides
+  guidance and training to Contracting Parties for the submission of National
+  Reports to COP13/COP14 and developed a toolkit and training on wetlands
+  inventories to enable them to provide data that could be used for SDG
+  Indicator 6.6.1 reporting. The Secretariat also works with Parties to complete
+  and refine information on extent that has been submitted to the Secretariat
+  and to identify information that is available in existing inventories referred
+  in National Reports, that has not been used to report on wetland extent.
+  Through this mechanism, national validated data using accepted international
+  definitions of wetlands are provided to measure the extent of water-related
+  ecosystems under SDG 6. </p>
 QUALITY_ASSURE: >-
   <p>Once received, the country reports undergo a rigorous review process to
   ensure correct use of definitions and methodology as well as internal
@@ -717,13 +773,19 @@ QUALITY_ASSURE: >-
   sent to the respective Ramsar Administrative Authority for validation before
   finalization and publishing of data. The data are then aggregated at
   sub-regional, regional and global levels by the Ramsar Secretariat team. </p>
+QUALITY_ASSMNT: >-
+  <p>Refinement of data includes reporting on wetland type using the two main
+  categories in the Ramsar classification: inland and human-made wetlands.
+  Through this mechanism, national validated data using accepted international
+  definitions of wetlands under the Convention are provided to measure the
+  extent of water-related ecosystems under SDG 6. </p>
 COVERAGE: >-
   <p><strong>Data availability:</strong></p>
 
   <p>Data are available for all countries (143) that submitted National Reports
   for COP13 as well as for previous COPs as indicated below. The data collected
   include information on wetland inventories and extent. For the missing country
-  data (16%) as indicated in the &#x201C;Quality assurance section&#x201D; the
+  data (16%) as indicated in the &#x201C;Quality assurance section&#x201D;, the
   Secretariat will prepare in 2018 reports with the available source of
   information for Indictor 6.6.1 that will be sent to the respective Ramsar
   Administrative Authorities for validation. The gaps of information will be
@@ -735,8 +797,9 @@ COVERAGE: >-
   (2005), COP10 (2008), COP11 (2012), COP12 (2015) and COP13 (2018) National
   Reports, in databases which permit an analysis of trends in implementation
   over time, from the 2002-2005 triennium to 2012-2015 that includes specific
-  indicators such as wetland inventories. However, for wetland extent the data
-  collection has started in 2018. </p>
+  indicators such as wetland inventories. However, for wetland extent, the data
+  collection has started in 2018. Contracting Parties report in two main
+  categories in the Ramsar classification: inland and human-made wetlands.</p>
 
   <p><strong>Disaggregation:</strong></p>
 
@@ -800,8 +863,8 @@ OTHER_DOC: >-
   <p>Zk(a) &#x2013; <strong>Karst and other subterranean hydrological
   systems</strong>, marine/coastal</p>
 
-  <p><strong>Tabulations of Wetland Type characteristics, Marine / Coastal
-  Wetlands:</strong></p>
+  <p><strong>Table 2: Tabulations of Wetland Type characteristics, Marine /
+  Coastal Wetlands:</strong></p>
 
   <table>
     <tbody>
@@ -993,7 +1056,7 @@ OTHER_DOC: >-
   shrublands, woodlands and forests. Floodplain wetlands are not listed as a
   specific wetland type herein.</p>
 
-  <p><strong>Tabulations of Wetland Type characteristics, Inland
+  <p><strong>Table 3: Tabulations of Wetland Type characteristics, Inland
   Wetlands:</strong></p>
 
   <table>

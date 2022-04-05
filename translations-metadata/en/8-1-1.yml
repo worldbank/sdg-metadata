@@ -1,13 +1,15 @@
 SDG_GOAL: >-
   <p>Goal 8: Promote sustained, inclusive and sustainable economic growth, full
-  and productive employment and decent work for all</p>
+  and productive employment</p>
+
+  <p>and decent work for all</p>
 SDG_TARGET: >-
   <p>Target 8.1: Sustain per capita economic growth in accordance with national
   circumstances and, in particular, at least 7 per cent gross domestic product
   growth per annum in the least developed countries</p>
 SDG_INDICATOR: '<p>Indicator 8.1.1: Annual growth rate of real GDP per capita</p>'
-SDG_SERIES_DESCR: <p>NY_GDP_PCAP </p>
-META_LAST_UPDATE: <p>2021-02-15</p>
+SDG_SERIES_DESCR: <p>Annual growth rate of real GDP per capita (%)</p>
+META_LAST_UPDATE: '2022-03-31'
 SDG_RELATED_INDICATORS: <p>Any economic statistics related SDG indicator</p>
 SDG_CUSTODIAN_AGENCIES: <p>United Nations Statistics Division (UNSD)</p>
 CONTACT_ORGANISATION: <p>United Nations Statistics Division (UNSD)</p>
@@ -24,11 +26,11 @@ STAT_CONC_DEF: >-
   <p>measured in constant US dollars to facilitate the calculation of country
   growth rates and aggregation of</p>
 
-  <p>the country data</p>
+  <p>the country data.</p>
 UNIT_MEASURE: |-
-  <p>Annual growth rate of real GDP per capita: in per cent (%)</p>
-  <p>GDP: in US dollars</p>
-  <p>Population: the number of individuals</p>
+  <p>Annual growth rate of real GDP per capita: Percent (%)</p>
+  <p>GDP: US dollars</p>
+  <p>Population: Number</p>
 CLASS_SYSTEM: >-
   <p>Different versions of The System of National Accounts (1968, 1993 and 2008
   SNA)</p>
@@ -41,18 +43,15 @@ SOURCE_TYPE: >-
   while the underlying population estimates are obtained from the UN Population
   Division on <a
   href="https://population.un.org/wpp/Download/Standard/Population/"
-  target="_blank"><u>https://population.un.org/wpp/Download/Standard/Population/</u></a>
-  </p>
+  target="_blank"><u>https://population.un.org/wpp/Download/Standard/Population/</u></a></p>
 COLL_METHOD: >-
   <p>Each year, the national accounts section of the UNSD sends a pre-filled NAQ
   to countries or areas to collect the latest data on official annual national
   accounts in domestic currency. In order to lighten the reporting burden of
-  countries to different international and regional organizations the UNSD
+  countries to different international and regional organizations, the UNSD
   receives data from the Organisation for Economic Co-operation and Development
   (OECD), the United Nations Economic Commission for Europe (ECE) and the
   Caribbean Community (CARICOM) on behalf of their constituents. </p>
-
-  <p> </p>
 FREQ_COLL: >-
   <p>The exercise to collect official annual national accounts estimates from
   countries or areas using the national accounts questionnaire starts in
@@ -61,7 +60,7 @@ FREQ_COLL: >-
 REL_CAL_POLICY: <p>December of each year </p>
 DATA_SOURCE: >-
   <p>National statistics offices, central banks or national agencies responsible
-  for compiling official national accounts estimates for a country or area </p>
+  for compiling official national accounts estimates for a country or area. </p>
 COMPILING_ORG: <p>United Nations Statistics Division (UNSD) </p>
 INST_MANDATE: >-
   <p>The National Accounts Section of the United Nations Statistics
@@ -106,7 +105,7 @@ RATIONALE: >-
 
   <p>A positive percentage change in annual real GDP per capita can be
   interpreted as an increase in the average standard of living of the residents
-  in a country or area</p>
+  in a country or area.</p>
 REC_USE_LIM: >-
   <p>Although countries or areas calculate GDP using the common principles and
   recommendations in the United Nations System of National Accounts (SNA), there
@@ -114,8 +113,8 @@ REC_USE_LIM: >-
   include:</p>
 
   <ol>
-    <li>Different versions of the SNA (for example, 1968, 1993 or 2008) countries or areas use in calculating their GDP estimates</li>
-    <li>Different degree of coverage of informal and non-observed economic activities in the GDP estimates</li>
+    <li>Different versions of the SNA (for example, 1968, 1993 or 2008) countries or areas use in calculating their GDP estimates.</li>
+    <li>Different degree of coverage of informal and non-observed economic activities in the GDP estimates.</li>
   </ol>
 
   <p>Further, as a necessary condition to being a key economic performance
@@ -131,7 +130,43 @@ DATA_COMP: >-
   <ol>
     <li>Convert annual real GDP in domestic currency at 2015 prices for a country or area to US dollars at 2015 prices using the 2015 exchange rates.</li>
     <li>Divide the result by the population of the country or area to obtain annual real GDP per capita in constant US dollars at 2015 prices.</li>
-    <li>Calculate the annual growth rate of real GDP per capita in year t+1 using the following formula: [(G(t+1) &#x2013; G(t))/G(t)] x 100, where G(t+1) is real GDP per capita in 2015 US dollars in year t+1 and G(t) is real GDP per capita in 2015 US dollars in year t.</li>
+    <li>Calculate the annual growth rate of real GDP per capita in year t+1 using the following formula: <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mfrac>
+          <mrow>
+            <msub>
+              <mrow>
+                <mi>G</mi>
+              </mrow>
+              <mrow>
+                <mi>t</mi>
+                <mo>+</mo>
+                <mn>1</mn>
+              </mrow>
+            </msub>
+            <mo>-</mo>
+            <msub>
+              <mrow>
+                <mi>G</mi>
+              </mrow>
+              <mrow>
+                <mi>t</mi>
+              </mrow>
+            </msub>
+          </mrow>
+          <mrow>
+            <msub>
+              <mrow>
+                <mi>G</mi>
+              </mrow>
+              <mrow>
+                <mi>t</mi>
+              </mrow>
+            </msub>
+          </mrow>
+        </mfrac>
+        <mo>&#xD7;</mo>
+        <mn>100</mn>
+      </math>, where G<sub>t+1</sub> is the real GDP per capita in 2015 US dollars in year t+1 and G<sub>t</sub> is the real GDP per capita in 2015 US dollars in year t.</li>
   </ol>
 DATA_VALIDATION: >-
   <p>The official national accounts data in domestic currency are validated to
@@ -142,7 +177,7 @@ ADJUSTMENT: >-
   <p>The current and constant price GDP series are converted into US dollars by
   applying the corresponding market exchange rates as reported by the
   International Monetary Fund (IMF). When these conversion rates are not
-  available other IMF rates are used (official rates or principal rates). For
+  available, other IMF rates are used (official rates or principal rates). For
   countries whose exchange rates are not reported by the IMF, the annual average
   of United Nations operational rates of exchange (UNOPs) is applied. The UNOPs
   are conversion rates that are applied in official transactions of the United
@@ -164,8 +199,9 @@ ADJUSTMENT: >-
 
   <p> </p>
 
-  <p>More information on the methodology to estimate the data is available on
-  https://unstats.un.org/unsd/snaama/assets/pdf/methodology.pdf </p>
+  <p>More information on the methodology to estimate the data is available on <a
+  href="https://unstats.un.org/unsd/snaama/assets/pdf/methodology.pdf">https://unstats.un.org/unsd/snaama/assets/pdf/methodology.pdf</a>
+  </p>
 IMPUTATION: >-
   <ul>
     <li><strong>At country level</strong></li>
@@ -188,7 +224,7 @@ IMPUTATION: >-
         <li>Official statistics disseminated by Eurostat, European Central Bank and the Organization for Economic Cooperation and Development (OECD) for their members;</li>
         <li>Information provided by Permanent Missions to the United Nations;</li>
         <li>Economic surveys and estimates prepared by United Nations&#x2019; Regional Economic Commissions (i.e. UNECE, ECLAC, ESCAP, UNECA and ESCWA);</li>
-        <li>Publications of international organizations with a strong focus on statistical data collection (including regional development banks). The most common sources used for their respective countries are listed below: Asia: Asian Development Bank, ASEAN, Arab Monetary Fund, Secretariat of the Pacific Community (SPC) Africa: African Development Bank, Afristat, Banque des Etats de l&#x2019;Afrique Centrale (BEAC), Union Economique Monetaire Ouest Africain (UEMOA) Americas: CARICOM, Caribbean Development Bank, Eastern Caribbean Central Bank (ECCB) Other: OECD for non-member countries Statistical Committee of the Commonwealth of Independent States.</li>
+        <li>Publications of international organizations with a strong focus on statistical data collection (including regional development banks). The most common sources used for their respective countries are listed below: Asia: Asian Development Bank, ASEAN, Arab Monetary Fund, Secretariat of the Pacific Community (SPC) Africa: African Development Bank, Afristat, Banque des &#xC9;tats de l&#x2019;Afrique Centrale (BEAC), Union &#xC9;conomique Mon&#xE9;taire Ouest Africain (UEMOA) Americas: CARICOM, Caribbean Development Bank, Eastern Caribbean Central Bank (ECCB) Other: OECD for non-member countries Statistical Committee of the Commonwealth of Independent States.</li>
         <li>Estimates and indicators from other international organizations. The most common sources used are: the International Monetary Fund (IMF) and the World Bank;</li>
         <li>Publications or websites of specialized groups, the most common sources used are: the Gulf Cooperation Council, the Asia-Pacific Economic Cooperation (APEC), the Committee of Central Bank Governors in SADC; the Islamic Development Bank, and the Statistical Training Centre for Islamic Countries;</li>
         <li>Economic data from commercial providers and other sources, the most common sources used are: the Economic Intelligence Unit and the United States Central Intelligence Agency;</li>
@@ -220,10 +256,10 @@ REG_AGG: >-
   and global aggregates are then divided by the corresponding population to
   derive the regional and global real GDP per capita estimates. These estimates
   are then used to calculate the annual growth rates in regional and global real
-  GDP per capita using the formula as described above.</p>
+  GDP per capita using the formula described above.</p>
 DOC_METHOD: >-
   <ul>
-    <li>GDP: National Accounts Statistics: Main Aggregates and Detailed Tables, 2019 See <a href="https://unstats.un.org/unsd/nationalaccount/pubsDB.asp?pType=3" target="_blank"><u>https://unstats.un.org/unsd/nationalaccount/pubsDB.asp?pType=3</u></a> </li>
+    <li>GDP: National Accounts Statistics: Main Aggregates and Detailed Tables, 2020 See <a href="https://unstats.un.org/unsd/nationalaccount/pubsDB.asp?pType=3" target="_blank">https://unstats.un.org/unsd/nationalaccount/pubsDB.asp?pType=3</a> </li>
   </ul>
 
   <p> </p>
@@ -233,7 +269,7 @@ DOC_METHOD: >-
   </ul>
 
   <p>See:
-  <u>https://unstats.un.org/unsd/demographic-social/products/dyb/dybsets/2019.pdf</u></p>
+  https://unstats.un.org/unsd/demographic-social/products/dyb/dybsets/2020.pdf</p>
 
   <p> </p>
 
@@ -242,13 +278,13 @@ DOC_METHOD: >-
   </ul>
 
   <p>See <a href="https://unstats.un.org/unsd/nationalaccount/docs/SNA2008.pdf"
-  target="_blank"><u>https://unstats.un.org/unsd/nationalaccount/docs/SNA2008.pdf</u></a>
+  target="_blank">https://unstats.un.org/unsd/nationalaccount/docs/SNA2008.pdf</a>
   </p>
 
   <p> </p>
 
   <ul>
-    <li>Population: Principles and Recommendations for Population and Housing Censuses See<u> </u><a href="https://unstats.un.org/unsd/publication/seriesM/Series_M67rev3en.pdf" target="_blank"><u>https://unstats.un.org/unsd/publication/seriesM/Series_M67rev3en.pdf</u></a> </li>
+    <li>Population: Principles and Recommendations for Population and Housing Censuses See <a href="https://unstats.un.org/unsd/publication/seriesM/Series_M67rev3en.pdf" target="_blank">https://unstats.un.org/unsd/publication/seriesM/Series_M67rev3en.pdf</a> </li>
   </ul>
 QUALITY_MGMNT: >-
   <p>All official data received by the United Nations Statistics Division are
@@ -278,11 +314,11 @@ COVERAGE: >-
   <p><strong>Data availability:</strong></p>
 
   <p>National statistics offices, central banks or national agencies responsible
-  for compiling official national accounts estimates for a country or area</p>
+  for compiling official national accounts estimates for a country or area.</p>
 
   <p><strong>Time series:</strong></p>
 
-  <p>Annual data from 1970 to 2019 are available. </p>
+  <p>Annual data from 1970 to 2020 are available. </p>
 
   <p><strong>Disaggregation:</strong></p>
 
@@ -296,7 +332,7 @@ COMPARABILITY: >-
 
   <p>The differences with country data include the following: </p>
 
-  <p> Official country data are typically available in domestic currency only.
+  <p>Official country data are typically available in domestic currency only.
   The data estimates for this indicator are in US dollars. </p>
 
   <p>Countries or areas may not have a full set of official GDP data. The GDP
@@ -312,8 +348,10 @@ COMPARABILITY: >-
   country has shifted from the 1968 SNA to 1993 SNA or 2008 SNA. When a single
   time series version does not exist for the entire period (1970 to t-1), UNSD
   uses estimation procedures to backcast the most recently reported time series
-  version. Backcasting is only performed when time series overlap for at least
-  one year. The overlapping year is used to create a ratio; this ratio is then
+  version. </p>
+
+  <p>Backcasting is only performed when time series overlap for at least one
+  year. The overlapping year is used to create a ratio; this ratio is then
   applied backwards to the previous time series version. If there is a change of
   fiscal year between two official data time series, the older series are
   converted to the fiscal year type of the most recent time series prior to
@@ -333,15 +371,25 @@ COMPARABILITY: >-
 OTHER_DOC: >-
   <p><strong>URL:</strong></p>
 
-  <p>https://unstats.un.org/unsd/snaama/Index </p>
+  <p><a
+  href="https://unstats.un.org/unsd/snaama/Index">https://unstats.un.org/unsd/snaama/Index</a>
+  </p>
 
   <p><strong>References:</strong></p>
 
-  <p>http://unstats.un.org/unsd/nationalaccount/sna.asp
-  http://unstats.un.org/unsd/nationalaccount/data.asp </p>
+  <p><a
+  href="http://unstats.un.org/unsd/nationalaccount/sna.asp">http://unstats.un.org/unsd/nationalaccount/sna.asp</a>
+  <a
+  href="http://unstats.un.org/unsd/nationalaccount/data.asp">http://unstats.un.org/unsd/nationalaccount/data.asp</a>
+  </p>
 
-  <p>https://unstats.un.org/unsd/snaama/Index</p>
+  <p><a
+  href="https://unstats.un.org/unsd/snaama/Index">https://unstats.un.org/unsd/snaama/Index</a>
+  </p>
 
-  <p>http://data.un.org/Explorer.aspx?d=SNAAMA </p>
+  <p><a
+  href="http://data.un.org/Explorer.aspx?d=SNAAMA">http://data.un.org/Explorer.aspx?d=SNAAMA</a>
+  </p>
 
-  <p>https://population.un.org/wpp/</p>
+  <p><a href="https://population.un.org/wpp/">https://population.un.org/wpp/</a>
+  </p>

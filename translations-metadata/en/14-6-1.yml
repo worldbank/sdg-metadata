@@ -13,10 +13,10 @@ SDG_INDICATOR: >-
   <p>Indicator 14.6.1: Degree of implementation of international instruments
   aiming to combat illegal, unreported and unregulated fishing</p>
 SDG_SERIES_DESCR: <p>Metadata applies to complete series under this indicator. </p>
-META_LAST_UPDATE: <p>2021-02-01</p>
+META_LAST_UPDATE: '2022-03-31'
 SDG_RELATED_INDICATORS: '<p>SDG 1, SDG 2, SDG 5, SDG 12, SDG 13, SDG 14.2/4/5/6/7/c</p>'
-SDG_CUSTODIAN_AGENCIES: <p>Food and Agriculture Organization of the United Nations</p>
-CONTACT_ORGANISATION: <p>Food and Agriculture Organization of the United Nations</p>
+SDG_CUSTODIAN_AGENCIES: <p>Food and Agriculture Organization of the United Nations (FAO)</p>
+CONTACT_ORGANISATION: <p>Food and Agriculture Organization of the United Nations (FAO)</p>
 STAT_CONC_DEF: >-
   <p><strong>Definition:</strong></p>
 
@@ -140,25 +140,54 @@ UNIT_MEASURE: >-
     <tbody>
       <tr>
         <td>
+          <p>Score</p>
+        </td>
+        <td></td>
+        <td>
+          <p>Bands</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>&gt;0 &#x2013;&lt; 0.2</p>
+        </td>
+        <td></td>
+        <td>
           <p>Band 1: Very low implementation of applicable instruments to combat IUU fishing</p>
         </td>
       </tr>
       <tr>
+        <td>
+          <p>0.2 &#x2013;&lt; 0.4</p>
+        </td>
+        <td></td>
         <td>
           <p>Band 2: Low implementation of applicable instruments to combat IUU fishing</p>
         </td>
       </tr>
       <tr>
         <td>
+          <p>0.4 &#x2013;&lt; 0.6</p>
+        </td>
+        <td></td>
+        <td>
           <p>Band 3: Medium implementation of applicable instruments to combat IUU fishing</p>
         </td>
       </tr>
       <tr>
         <td>
+          <p>0.6 &#x2013;&lt; 0.8</p>
+        </td>
+        <td></td>
+        <td>
           <p>Band 4: High implementation of applicable instruments to combat IUU fishing</p>
         </td>
       </tr>
       <tr>
+        <td>
+          <p>0.8 &#x2013; 1.0</p>
+        </td>
+        <td></td>
         <td>
           <p>Band 5: Very high implementation of applicable instruments to combat IUU fishing</p>
         </td>
@@ -167,6 +196,9 @@ UNIT_MEASURE: >-
   </table>
 
   <p> </p>
+
+  <p>See more details for the determination of the bands under 4.a. and for the
+  computation of the sub-indicators under 4.c. and the Annex.</p>
 CLASS_SYSTEM: >-
   <p>No applicable international standards for measuring degree of
   implementation of such applicable instruments to combat IUU fishing.</p>
@@ -191,14 +223,14 @@ COLL_METHOD: >-
 FREQ_COLL: >-
   <p>The questionnaire is sent out on a biennial basis. It is expected to be
   sent out 8 months prior to the holding of the Committee on Fisheries and
-  remain open for a 3 month period.</p>
+  remain open for a 3-month period.</p>
 REL_CAL_POLICY: >-
   <p>Data for the indicator are expected to be released one week after closure
   of the questionnaire.</p>
 DATA_SOURCE: >-
   <p>Data is typically provided by the national fishery
   Ministries/departments.</p>
-COMPILING_ORG: <p>FAO</p>
+COMPILING_ORG: <p>Food and Agriculture Organization of the United Nations (FAO)</p>
 INST_MANDATE: >-
   <p>Article I of the FAO constitution requires that the Organization collect,
   analyses, interpret and disseminate information relating to nutrition, food
@@ -424,7 +456,7 @@ DATA_COMP: >-
           <p><strong>V1</strong></p>
         </td>
         <td>
-          <p>The only case where this instrument becomes not applicable, is when the State is land-locked and they are not a flag state. </p>
+          <p>The only case where this instrument becomes not applicable, is when the State is landlocked and they are not a flag state. </p>
         </td>
       </tr>
       <tr>
@@ -529,12 +561,13 @@ QUALITY_ASSURE: >-
   countries for every edition of the questionnaire, a task that would require a
   substantial outlay of resources. </p>
 
-  <p>FAO is however carrying out national and regional workshops on the
-  implementation of international instruments to combat IUU fishing. During
-  these workshops, the indicator is used a tool to understand the situation
+  <p>FAO does however use the indicator when carrying out its national and
+  regional workshops under its global capacity development programme to support
+  the implementation of international instruments to combat IUU fishing. During
+  these workshops, the indicator is used as a tool to understand the situation
   within the countries, all the while ensuring that there is a clear
-  understanding of the questions or any other technical aspects relevant to this
-  indicator. </p>
+  understanding of the questions, reporting process or any other technical
+  aspects relevant to this indicator. </p>
 
   <p>Furthermore, once the user has completed the questionnaire, the user is
   able to extract a report of the indicator detailing their responses to the
@@ -2544,7 +2577,7 @@ OTHER_DOC: >-
       </tr>
       <tr>
         <td>
-          <p>5.4) Does your country maintain a record of vessels authorized by your country to operate on the high seas conducting fishing and fishing related activities and suply the record to the FAO or interested States at their request?</p>
+          <p>5.4) Does your country maintain a record of vessels authorized by your country to operate on the high seas conducting fishing and fishing related activities and supply the record to the FAO or interested States at their request?</p>
         </td>
         <td>
           <p>Yes/No</p>
@@ -2759,7 +2792,7 @@ OTHER_DOC: >-
 
   <p>Appendix 2: Example indicator scoring</p>
 
-  <p>The general question ascertain the applicability of the instruments to a
+  <p>The general question ascertains the applicability of the instruments to a
   State.</p>
 
   <p>- Country A is a coastal State, port State and flag State with high levels
@@ -2775,7 +2808,7 @@ OTHER_DOC: >-
   the agreements but has a high level of implementation of instruments to combat
   IUU fishing to which it is applicable.</p>
 
-  <p>The table on the next page shows hypothetical responses for this three
+  <p>The table on the next page shows hypothetical responses for these three
   countries, the scores that they achieve with these responses and finally the
   bands that these scores translate into.</p>
 

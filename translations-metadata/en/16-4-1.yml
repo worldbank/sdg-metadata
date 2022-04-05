@@ -9,7 +9,7 @@ SDG_TARGET: >-
 SDG_INDICATOR: >-
   <p>Indicator 16.4.1: Total value of inward and outward illicit financial flows
   (in current United States dollars)</p>
-META_LAST_UPDATE: <p>2021-12-06</p>
+META_LAST_UPDATE: '2022-03-31'
 SDG_RELATED_INDICATORS: >-
   <p>Linkages with related indicators:</p>
 
@@ -42,7 +42,7 @@ STAT_CONC_DEF: >-
   <p>Thus, IFFs have the following features: </p>
 
   <ul>
-    <li><strong>Illicit in origin, transfer or use</strong>. A flow of value is considered illicit if it is illicitly generated (e.g. originates from criminal activities or tax evasion), illicitly transferred (e.g. violating currency controls) or illicitly used (e.g. for financing terrorism). The flow can be licitly generated, transferred or used, but it must be illicit in at least one of these aspects. Some flows that are not illegal may fall within the definition of IFFs for statistical purposes, for example, cross-border tax avoidance which erodes the tax base of a country where that income was generated. </li>
+    <li><strong>Illicit in origin, transfer or use</strong>. A flow of value is considered illicit if it is illicitly generated (e.g., originates from criminal activities or tax evasion), illicitly transferred (e.g., violating currency controls) or illicitly used (e.g., for financing terrorism). The flow can be licitly generated, transferred or used, but it must be illicit in at least one of these aspects. Some flows that are not illegal may fall within the definition of IFFs for statistical purposes, for example, cross-border aggressive tax avoidance which erodes the tax base of a country where that income was generated. </li>
     <li><strong>Exchange of value</strong>, rather than purely financial transfers. Exchange of value includes exchange of goods and services, and financial and non-financial assets. For instance, illicit cross-border bartering, meaning the illicit exchange of goods and services for other goods and services, is a common practice in illegal markets and it is considered as IFF.</li>
     <li>IFFs measure <strong>a flow of value over a given time</strong> - as opposed to a stock measure, which would be the accumulation of value. </li>
     <li><strong>Flows that cross a border</strong>.<sup><sup><a href="#footnote-2" id="footnote-ref-2">[1]</a></sup></sup> This includes assets that cross borders and assets where the ownership changes from a resident of a country to a non-resident, even if the assets remain in the same jurisdiction. </li>
@@ -51,14 +51,14 @@ STAT_CONC_DEF: >-
   <p>There are four main types of activities that can generate IFFs:</p>
 
   <ul>
-    <li><em><u>Illicit tax and commercial IFFs</u></em>: These include illicit practices by legal entities as well as arrangements and individuals with the objective of concealing revenues and reducing tax burden through evading controls and regulations. This category can be divided into two components: <ul>
-        <li><strong>IFFs from illegal commercial activities and tax evasion</strong>. These include illegal practices such as tariff, duty and revenue offences, tax evasion, competition offences and market manipulation amongst others, as included in the ICCS. Most of these activities are non-observed, hidden or part of the shadow, underground or informal economy that may generate IFFs. </li>
+    <li><em><u>Illicit tax and commercial practices</u></em>: These include illicit practices by legal entities as well as arrangements and individuals with the objective of concealing revenues and reducing tax burden through evading controls and regulations. This category can be divided into two components: <ul>
+        <li><strong>IFFs from illegal commercial activities and tax evasion</strong>. These include illegal practices such as tariff, duty and revenue offences, tax evasion, competition offences and market manipulation amongst others, as included in the International Classification of Crime for Statistical Purposes (ICCS)<sup><a href="#footnote-3" id="footnote-ref-3">[2]</a></sup>. Most of these activities are non-observed, hidden or part of the shadow, underground or informal economy that may generate IFFs. </li>
         <li><strong>IFFs from aggressive tax avoidance</strong>. Illicit flows can also be generated from legal economic activities through aggressive tax avoidance. This can take place through the manipulation of transfer pricing, strategic location of debt and intellectual property, tax treaty shopping and the use of hybrid instruments and entities. These flows need to be carefully considered, as they generally arise from legal business transactions and only the illicit part of the cross-border flows belongs within the scope of IFFs.</li>
       </ul>
     </li>
+    <li><em><u>IFFs from illegal markets</u></em>: These include trade in illicit goods and services when the corresponding financial flows cross borders. The focus is on criminal activities where income is generated through exchange (trade) of illegal goods or services. Such processes often involve a degree of criminal organisation aimed at creating profit. They include any type of trafficking in goods, such as drugs and firearms, or services, such as smuggling of migrants. IFFs emerge from transnational trade in illicit goods and services, as well as from cross-border flows from managing the illicit income from such activities.</li>
     <li><em><u>IFFs from corruption</u></em>: The United Nations Convention against Corruption (UNCAC) defines acts considered as corruption, and they are consistently defined in the ICCS, such as bribery, embezzlement, abuse of functions, trading in influence, illicit enrichment and other acts of corruption in the scope. When these acts &#x2013; directly or indirectly - generate cross-border flows, they generate IFFs. </li>
     <li><em><u>Exploitation-type activities, and financing of crime and terrorism:</u></em> Exploitation-type activities are non-productive activities that entail a forced, involuntary and illicit transfer of economic resources between two actors. Terrorism financing and financing of crime are illicit, voluntary transfers of funds between two actors. Examples of exploitation-type activities are sexual exploitation, theft, extortion, illicit enrichment, and kidnapping. When the related financial flows cross country borders, they constitute IFFs.</li>
-    <li><em><u>IFFs from illegal markets</u></em>: These include trade in illicit goods and services when the corresponding financial flows cross borders. The focus is on criminal activities where income is generated through exchange (trade) of illegal goods or services. Such processes often involve a degree of criminal organisation aimed at creating profit. They include any type of trafficking in goods, such as drugs and firearms, or services, such as smuggling of migrants. IFFs emerge from transnational trade in illicit goods and services, as well as from cross-border flows from managing the illicit income from such activities.</li>
   </ul>
 
   <p>Other relevant concepts include:</p>
@@ -74,28 +74,166 @@ STAT_CONC_DEF: >-
   described below considers domestic IFFs as part of the illegal economy too.
   These flows would not fall under the definition of IFFs for SDG 16.4.1, but
   are of high relevance to understanding organised cross-border illicit flows.
-  <a href="#footnote-ref-2">&#x2191;</a></p></div></div>
+  <a href="#footnote-ref-2">&#x2191;</a></p></div><div><sup
+  class="footnote-number" id="footnote-3">2</sup><p> See section 2.c <a
+  href="#footnote-ref-3">&#x2191;</a></p></div></div>
 UNIT_MEASURE: >-
   <p>The Indicator measures the total value of inward and outward illicit
   financial flows (IFFs) in current United States dollars. </p>
 CLASS_SYSTEM: >-
   <p>IFFs are measured by identifying activities and behaviours that may
-  generated them, such as those that are listed in the International
-  Classification of Crime for Statistical Purposes (ICCS) and those that relate
-  to the area of aggressive tax avoidance in addition. <em><u>The UNODC (2015)
+  generated them, such as those that are listed in the <em><u>UNODC (2015)
   International Classification of Crime for Statistical Purposes</u></em> (ICCS)
-  provides definitions of a number of behaviours, events and activities which
-  may generate IFFs such as exploitation-type activities and terrorism,
-  trafficking activities and corruption, as well as many activities related to
-  illicit tax and commercial practices.<sup><a href="#footnote-3"
-  id="footnote-ref-3">[2]</a></sup> The ICCS, however, focuses solely on actions
-  and behaviours that are attributable to different types of crime. The
+  <sup><a href="#footnote-4" id="footnote-ref-4">[3]</a></sup> and those that
+  relate to the area of aggressive tax avoidance in addition. ICCS provides
+  definitions of a number of behaviours, events and activities which may
+  generate IFFs such as exploitation-type activities and terrorism, trafficking
+  activities and corruption, as well as many activities related to illicit tax
+  and commercial practices. The ICCS, however, focuses solely on actions and
+  behaviours that are attributable to different types of crime. The
   classification will be extended to cover all IFFs related to tax and
-  commercial activities, namely IFFs related to aggressive tax avoidance.</p>
+  commercial activities, namely IFFs related to aggressive tax avoidance. A
+  draft of classifying tax and commercial activities extending from, but not
+  indicating their inclusion in the ICCS, is presented below. Please note that
+  codes 080413, 080414 and 080415 are not covered by the ICCS as they are
+  clearly not criminal activities. Only an excerpt is shown for illustrative
+  purposes as a more exhaustive classification is being developed. </p>
+
+  <p><strong>Draft classification of tax and commercial IFFs</strong></p>
+
+  <table>
+    <tbody>
+      <tr>
+        <td>
+          <p><strong>Code</strong></p>
+        </td>
+        <td>
+          <p><strong>Description</strong></p>
+        </td>
+        <td colspan="2">
+          <p><strong>Inclusion/exclusion</strong></p>
+        </td>
+      </tr>
+      <tr>
+        <td rowspan="2">
+          <p>08041<strong><u>1</u></strong></p>
+        </td>
+        <td rowspan="2">
+          <p>Acts of concealing revenues or wealth in order to evade taxation</p>
+        </td>
+        <td>
+          <p>Inclusion</p>
+        </td>
+        <td>
+          <p>Outright undeclared (concealed e.g., in secrecy jurisdictions); Undeclared via instruments (Phantom corporations or shell companies, tax havens)</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Exclusion</p>
+        </td>
+        <td>
+          <p>Fraud, deception or corruption (07)</p>
+        </td>
+      </tr>
+      <tr>
+        <td rowspan="2">
+          <p>08041<strong><u>2</u></strong></p>
+        </td>
+        <td rowspan="2">
+          <p>Acts of fraudulently misdeclaring the object, the quantity or the value of traded goods in invoicing transactions</p>
+        </td>
+        <td>
+          <p>Inclusion</p>
+        </td>
+        <td>
+          <p>Under/over reporting prices; Multiple invoicing; Over/under reporting of quantities; Misclassification of tariff categories</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Exclusion</p>
+        </td>
+        <td>
+          <p>Transfer misprincing (08041<strong><u>3</u></strong>)</p>
+        </td>
+      </tr>
+      <tr>
+        <td rowspan="2">
+          <p>08041<strong><u>3*</u></strong></p>
+        </td>
+        <td rowspan="2">
+          <p>Acts departing from the arm&#x2019;s length principle</p>
+        </td>
+        <td>
+          <p>Inclusion</p>
+        </td>
+        <td>
+          <p>Setting up over/under priced exchange of goods and services with the intent of moving profits among MNEs units</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Exclusion</p>
+        </td>
+        <td>
+          <p>Misinvoicing (08041<strong><u>2</u></strong>)</p>
+        </td>
+      </tr>
+      <tr>
+        <td rowspan="2">
+          <p>08041<strong><u>4*</u></strong></p>
+        </td>
+        <td rowspan="2">
+          <p>Acts related to strategic location of debt, other financial assets, risks, or other corporate activities</p>
+        </td>
+        <td>
+          <p>Inclusion</p>
+        </td>
+        <td>
+          <p>Intracompany loans; Interest payments</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Exclusion</p>
+        </td>
+        <td>
+          <p>Transfer misprincing (08041<strong><u>3</u></strong>)</p>
+        </td>
+      </tr>
+      <tr>
+        <td rowspan="2">
+          <p>08041<strong><u>5*</u></strong></p>
+        </td>
+        <td rowspan="2">
+          <p>Acts related to strategic location of intellectual property products and other non-financial assets</p>
+        </td>
+        <td>
+          <p>Inclusion</p>
+        </td>
+        <td>
+          <p>Strategic location of intellectual property; Strategic location of other assets; Cost-sharing agreements; Royalty payments</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Exclusion</p>
+        </td>
+        <td>
+          <p>Transfer misprincing (08041<strong><u>3</u></strong>)</p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+  <p>* Although extending from ICCS code 08041, these categories are not covered
+  in ICCS (not criminal activities).</p>
 
   <p>A number of activities and behaviours are identified as potentially
-  generating IFFs. Examples of such behaviours are shown below, but a more
-  exhaustive classification is being developed. </p>
+  generating IFFs, both from tax and commercial, and illegal IFFs categories.
+  Examples of such behaviours as based directly on ICCS are shown below, but a
+  more exhaustive classification is being developed. </p>
 
   <p><strong>Examples of activities that may generate IFFs from crime, by ICCS
   categories</strong></p>
@@ -157,9 +295,9 @@ CLASS_SYSTEM: >-
       </tr>
     </tbody>
   </table><div class="footnotes"><div><sup class="footnote-number"
-  id="footnote-3">2</sup><p> <a
+  id="footnote-4">3</sup><p> <a
   href="about:blank">https://www.unodc.org/documents/data-and-analysis/statistics/crime/ICCS/ICCS_English_2016_web.pdf</a>
-  <a href="#footnote-ref-3">&#x2191;</a></p></div></div>
+  <a href="#footnote-ref-4">&#x2191;</a></p></div></div>
 SOURCE_TYPE: >-
   <p>The measurement of IFFs requires combining data held by different entities
   of the national statistical system and beyond, especially national statistical
@@ -177,8 +315,8 @@ SOURCE_TYPE: >-
   in the field of profit shifting and related tax and commercial IFFs. </p>
 
   <p>Given the transnational nature of the Indicator, data available in other
-  countries can support the calculation of national measures. <sup><a
-  href="#footnote-4" id="footnote-ref-4">[3]</a></sup> The following existing
+  countries can support the calculation of national measures.<sup><a
+  href="#footnote-5" id="footnote-ref-5">[4]</a></sup> The following existing
   data collection systems collect data relevant to IFFs from countries globally
   and can also be resources for countries to measure their IFF:</p>
 
@@ -197,7 +335,7 @@ SOURCE_TYPE: >-
   <p>The global data collection on firearm trafficking collects data on
   seizures, prices and trafficking routes and it is an essential tool to
   understanding the dynamics of illegal firearms markets and flows.<sup><sup><a
-  href="#footnote-5" id="footnote-ref-5">[4]</a></sup></sup></p>
+  href="#footnote-6" id="footnote-ref-6">[5]</a></sup></sup></p>
 
   <p>UNODC collects data on trafficking victims identified in their respective
   countries using a common questionnaire with a standard set of indicators.
@@ -207,21 +345,31 @@ SOURCE_TYPE: >-
   <p>UNODC, in partnership with CITES also maintains a global database of
   wildlife seizure incidents. This is mainly based on data submitted by the
   Parties to the Convention on International Trade in Endangered Species of Wild
-  Fauna and Flora<sup><sup><a href="#footnote-6"
-  id="footnote-ref-6">[5]</a></sup></sup>. It provides information on seized
-  quantities by species and origin-destination routes.</p><div
-  class="footnotes"><div><sup class="footnote-number" id="footnote-4">3</sup><p>
-  For example, drug price in destination countries can help estimating illicit
-  flows entering the country where the drug is produced. <a
-  href="#footnote-ref-4">&#x2191;</a></p></div><div><sup class="footnote-number"
-  id="footnote-5">4</sup><p>
+  Fauna and Flora<sup><sup><a href="#footnote-7"
+  id="footnote-ref-7">[6]</a></sup></sup>. It provides information on seized
+  quantities by species and origin-destination routes.</p>
+
+  <p>Other global data sources can be used to directly support, or supplement
+  existing national data sources in measuring IFFs, particularly tax and
+  commercial IFFs. These include, among others: </p>
+
+  <ul>
+    <li>United Nations International Trade Statistics Database (United Nations Comtrade) or IMF Direction of Trade Statistics (DOTS) for international trade data; </li>
+    <li>Global Transport Costs Dataset for International Trade by UNCTAD, the World Bank, and Equitable Maritime Consulting, or OECD International Transport and Insurance Costs of Merchandise Trade for addressing different valuation of international trade flows; </li>
+    <li>OECD Country-by-Country Reporting, OECD Analytical Database on Individual Multinationals and Affiliates, OECD Activity of Multinational Enterprises, Global Groups Register and other for tracking activities and aggressive tax avoidance by multinational enterprise groups. </li>
+    <li>The locational banking statistics from the Bank of International Settlements to estimate the flows related to undeclared offshore wealth, i.e., IFFs from tax evasion. </li>
+  </ul><div class="footnotes"><div><sup class="footnote-number"
+  id="footnote-5">4</sup><p> For example, drug price in destination countries
+  can help estimating illicit flows entering the country where the drug is
+  produced. <a href="#footnote-ref-5">&#x2191;</a></p></div><div><sup
+  class="footnote-number" id="footnote-6">5</sup><p>
   https://www.unodc.org/unodc/en/firearms-protocol/index.html <a
-  href="#footnote-ref-5">&#x2191;</a></p></div><div><sup class="footnote-number"
-  id="footnote-6">5</sup><p> These data were shared with UNODC through
+  href="#footnote-ref-6">&#x2191;</a></p></div><div><sup class="footnote-number"
+  id="footnote-7">6</sup><p> These data were shared with UNODC through
   International Consortium on Combating Wildlife Crime (ICCWC) for more
   information see:
   https://www.unodc.org/documents/data-and-analysis/wildlife/WLC16_Chapter_2.pdf
-  <a href="#footnote-ref-6">&#x2191;</a></p></div></div>
+  <a href="#footnote-ref-7">&#x2191;</a></p></div></div>
 COLL_METHOD: >-
   <p>The Indicator builds on existing data, but its exhaustiveness may require
   extensions to national data collection. This includes both administrative and
@@ -247,10 +395,10 @@ COLL_METHOD: >-
 
   <p> </p>
 FREQ_COLL: >-
-  <p>UNODC and UNCTAD are in the process of helping Member States to build their
-  national capacity to measure the Indicator. More detailed data collection
-  plans will be made based on the outcomes of current consultations, pilot
-  testing and capacity building projects.</p>
+  <p>UNODC and UNCTAD are in the process of helping Member States to strengthen
+  their national capacity to measure the Indicator. More detailed data
+  collection plans will be made based on the outcomes of current consultations,
+  pilot testing and capacity-strengthening projects.</p>
 REL_CAL_POLICY: >-
   <p>It is expected that preliminary calculations for the annual indicator at
   the national, regional and sub-regional levels will be carried out in autumn
@@ -258,15 +406,15 @@ REL_CAL_POLICY: >-
   needed, the compilers will have to strike a balance between exhaustiveness and
   timeliness. </p>
 DATA_SOURCE: >-
-  <p>Statistical units are natural (individuals) or legal persons (businesses or
-  institutions). Thus, relevant data are held by national statistical offices,
-  central banks, tax authorities, customs, financial intelligence centres,
-  criminal justice institutions, including courts, police, military, etc. They
-  collect primary data from individuals, businesses, institutions and other
-  statistical units either for statistical purposes or for their administrative
-  work. Focal points at the national level are responsible for compiling the
-  indicator and submitting it in collaboration with the national statistical
-  office. </p>
+  <p>Data providers are natural (individuals) or legal persons (businesses or
+  institutions) who report their data for different purposes. Thus, relevant
+  data are held by national statistical offices, central banks, tax authorities,
+  customs, financial intelligence centres, criminal justice institutions,
+  including courts, police, military, etc. They collect primary data from
+  individuals, businesses, institutions and other statistical units either for
+  statistical purposes or for their administrative work. Focal points at the
+  national level are responsible for compiling the indicator and submitting it
+  in collaboration with the national statistical office. </p>
 COMPILING_ORG: >-
   <p>At the national level, national statistical offices have a coordinating
   role in the national statistical system, and are, thus, well placed to lead
@@ -287,7 +435,7 @@ INST_MANDATE: >-
 RATIONALE: >-
   <p>A major challenge to sustainable development of societies around the world,
   particularly in developing countries, is represented by several criminal
-  activities and tax-related illicit practices which are at the origin or
+  activities and tax and commercial illicit practices which are at the origin or
   associated with IFFs. Proceeds from criminal activities are often transferred
   between countries to be laundered, utilized and reinvested in licit or illicit
   activities. IFFs can also originate from legal economic activities but become
@@ -338,10 +486,10 @@ DATA_COMP: >-
   methods) and are not the exclusive result of model-based procedures. The
   measurement approach is in line with the &#x201C;Eurostat Handbook on the
   compilation of statistics on illegal economic activities in national accounts
-  and balance of payments&#x201D;<sup><a href="#footnote-7"
-  id="footnote-ref-7">[6]</a></sup> for the estimation of the contribution of
-  illegal activities to the GDP. <sup><sup><a href="#footnote-8"
-  id="footnote-ref-8">[7]</a></sup></sup></p>
+  and balance of payments&#x201D;<sup><a href="#footnote-8"
+  id="footnote-ref-8">[7]</a></sup> for the estimation of the contribution of
+  illegal activities to the GDP.<sup><sup><a href="#footnote-9"
+  id="footnote-ref-9">[8]</a></sup></sup></p>
 
   <p>The proposed compilation methods follow the principles developed in
   economic measurement frameworks such as the System of National Accounts and
@@ -349,14 +497,17 @@ DATA_COMP: >-
 
   <p>A two-step process was developed that aids Member States in calculating
   Indicator 16.4.1. The methodology has been tested in four countries. In 2021,
-  up to twelve pilots will be launched in Africa and six in Asia and the
-  Pacific. These will lead to the refinement and finalisation of practical
-  guidelines for the measurement of IFFs.</p>
+  twelve pilots have been launched in Africa and six in Asia and the Pacific.
+  These will lead to the refinement and finalisation of practical guidelines for
+  the measurement of IFFs. In 2021, UNCTAD released a draft Methodological
+  guidelines to measure tax and commercial illicit financial flows - Methods for
+  pilot testing to support measurement exercises in these countries.<sup><a
+  href="#footnote-10" id="footnote-ref-10">[9]</a></sup> </p>
 
   <p>The methodology foresees:</p>
 
   <ol>
-    <li>A risk assessment that identifies the major and most relevant sources of IFFs in a country. This risk assessment can follow and build on existing risk assessments, e.g., the ones mandated by the Financial Action Task Force (FATF).<sup><a href="#footnote-9" id="footnote-ref-9">[8]</a></sup> </li>
+    <li>A risk assessment that identifies the major and most relevant sources of IFFs in a country. This risk assessment can follow and build on existing risk assessments, e.g., the ones mandated by the Financial Action Task Force (FATF).<sup><a href="#footnote-11" id="footnote-ref-11">[10]</a></sup> </li>
     <li>Once the activities that generate the most important flows are identified, the flows are estimated in a disaggregated manner and then summed up for the indicator. </li>
   </ol>
 
@@ -382,8 +533,8 @@ DATA_COMP: >-
           <p>With that P=C+S+E+L.</p>
           <p>Countries with extended illicit drug cultivation, normally collect data on P, C, and S (losses cannot be estimated and are excluded from the calculations) and annual exports of drugs can be estimated. </p>
           <p>The value of exports can be measured by the wholesale value of the relevant drug in countries of destination of the drug produced in the country. These data can be retrieved from international data on seizures reported by other Member States (which provide information on the country of origin) and price data, which is as well reported annually through the mandated Annual Report Questionnaire (ARQ) submitted to UNODC (see <a href="about:blank">https://dataunodc.un.org/</a>)</p>
-          <p>This methodology has been applied in Peru, Mexico and Afghanistan<sup><a href="#footnote-10" id="footnote-ref-10">[9]</a></sup> where certain portions of the income generated from drug production and trafficking are accounted for in the national accounts.</p>
-          <p><strong><u>IFFs from smuggling of migrants<sup><a href="#footnote-11" id="footnote-ref-11">[10]</a></sup></u></strong></p>
+          <p>This methodology has been applied in Peru, Mexico and Afghanistan<sup><a href="#footnote-12" id="footnote-ref-12">[11]</a></sup> where certain portions of the income generated from drug production and trafficking are accounted for in the national accounts.</p>
+          <p><strong><u>IFFs from smuggling of migrants<sup><a href="#footnote-13" id="footnote-ref-13">[12]</a></sup></u></strong></p>
           <p>Following the Eurostat manual &#x201C;Handbook on the compilation of statistics on illegal economic activities in national accounts and balance of payments&#x201D; four types of smuggling transactions can be distinguished, two of which create IFF:</p>
           <p><strong>Type I: Resident smugglers and resident migrants </strong>does not cover transnationality and illegal entry and does not create IFFs </p>
           <p> </p>
@@ -408,32 +559,36 @@ DATA_COMP: >-
   property). To assess these flows, quantitative and qualitative information
   held by financial authorities, central banks and other entities concerned with
   money laundering and financial crimes can be used.</p><div
-  class="footnotes"><div><sup class="footnote-number" id="footnote-7">6</sup><p>
+  class="footnotes"><div><sup class="footnote-number" id="footnote-8">7</sup><p>
   Available here: <a
   href="about:blank">https://ec.europa.eu/eurostat/documents/3859598/8714610/KS-05-17-202-EN-N.pdf/eaf638df-17dc-47a1-9ab7-fe68476100ec</a>
-  <a href="#footnote-ref-7">&#x2191;</a></p></div><div><sup
-  class="footnote-number" id="footnote-8">7</sup><p> With one principle
+  <a href="#footnote-ref-8">&#x2191;</a></p></div><div><sup
+  class="footnote-number" id="footnote-9">8</sup><p> With one principle
   difference. The mere transfer of funds (exploitation-type activities and
   terrorism financing) are not considered in the GDP estimates, as they are not
   productive transactions and may not be carried out with the mutual agreement
   of both parties. Such activities can, however, generate noteworthy amounts of
   illicit income and subsequent IFFs. The present framework includes activities
   that are not considered as being productive in the framework of the System of
-  National Accounts. <a href="#footnote-ref-8">&#x2191;</a></p></div><div><sup
-  class="footnote-number" id="footnote-9">8</sup><p> https://www.fatf-gafi.org/
-  <a href="#footnote-ref-9">&#x2191;</a></p></div><div><sup
-  class="footnote-number" id="footnote-10">9</sup><p> See e.g., National
+  National Accounts. <a href="#footnote-ref-9">&#x2191;</a></p></div><div><sup
+  class="footnote-number" id="footnote-10">9</sup><p> Available here: <a
+  href="https://unctad.org/system/files/non-official-document/20210917_IFFsGuidelinesForPilots_en_0.pdf">https://unctad.org/system/files/non-official-document/20210917_IFFsGuidelinesForPilots_en_0.pdf</a>
+  <a href="#footnote-ref-10">&#x2191;</a></p></div><div><sup
+  class="footnote-number" id="footnote-11">10</sup><p>
+  https://www.fatf-gafi.org/ <a
+  href="#footnote-ref-11">&#x2191;</a></p></div><div><sup
+  class="footnote-number" id="footnote-12">11</sup><p> See e.g., National
   Statistics and Information Authority, Afghanistan and UNODC,
   &#x201C;Afghanistan Opium Survey 2018 &#x2013; Challenges to sustainable
   development, peace and security&#x201D;, July 2019. <a
-  href="#footnote-ref-10">&#x2191;</a></p></div><div><sup
-  class="footnote-number" id="footnote-11">10</sup><p> The Protocol against the
+  href="#footnote-ref-12">&#x2191;</a></p></div><div><sup
+  class="footnote-number" id="footnote-13">12</sup><p> The Protocol against the
   Smuggling of Migrants, supplementing the United Nations Convention against
   Transnational Organized Crime (the Migrant Smuggling Protocol) defines migrant
   smuggling as: &#x201D;in order to obtain, directly or indirectly, a financial
   or other material benefits, of the illegal entry of a person into a State
   Party of which the person is not a national or a permanent resident&#x201D;.
-  See as well ICCS. <a href="#footnote-ref-11">&#x2191;</a></p></div></div>
+  See as well ICCS. <a href="#footnote-ref-13">&#x2191;</a></p></div></div>
 DATA_VALIDATION: >-
   <p>UNODC and UNCTAD will request member states to provide sufficient metadata
   accompanying their compiled IFFs estimates. Currently still work in progress,
@@ -483,12 +638,16 @@ DOC_METHOD: >-
   <ul>
     <li>UNCTAD and UNODC published a <a href="https://www.unodc.org/documents/data-and-analysis/statistics/IFF/IFF_Conceptual_Framework_for_publication_15Oct.pdf">Conceptual Framework for the Statistical Measurement of Illicit Financial Flows</a> as a joint publication in October 2020. It details the concepts, definitions and types of IFFs, and discusses the challenges of statistical production. </li>
     <li>At the national level, data sources need to be identified separately for the major IFFs originating from tax and commercial practices, corruption, exploitation-type and terrorism activities, and illegal markets. These sources should cover the major flows relevant to the country and provide information for estimating total inward and outward flows separately. The <a href="https://www.unodc.org/unodc/en/data-and-analysis/statistics/iccs.html">ICCS</a> provides a useful listing of behaviours, events and activities that may generate IFFs, and an extended classification of IFFs from aggressive tax avoidance is being discussed. </li>
-    <li>The methodology follows the approach suggested in the Eurostat Handbook on the compilation of statistics on illegal economic activities in national accounts and balance of payments<sup><sup><a href="#footnote-12" id="footnote-ref-12">[11]</a></sup></sup> with the exception mentioned in footnote 1. </li>
-    <li>UNCTAD/UNODC Task Force is finalising methodological guidelines on the measurement of selected types of IFFs. These will be pilot testing in 2021 to be refined and included in a comprehensive Statistical Framework for the Measurement of Illicit Financial Flows, to be submitted to the United Nations Statistical Commission (UNSC) for its review once finalised. The custodians will publish methodological materials for the pilot testing of different types of IFFs and their measurement in 2021. The guidelines will describe the functioning of selected illegal markets or criminal activities, the possible IFF types that can emerge from these activities and provide practical guidance on statistical sources and estimation methods. </li>
+    <li>The methodology follows the approach suggested in the Eurostat Handbook on the compilation of statistics on illegal economic activities in national accounts and balance of payments<sup><sup><a href="#footnote-14" id="footnote-ref-14">[13]</a></sup></sup> with the exception mentioned in footnote 1. </li>
+    <li>UNCTAD/UNODC Task Force is finalising methodological guidelines on the measurement of selected types of IFFs. These are pilot testing in 2021 to be refined and included in a comprehensive Statistical Framework for the Measurement of Illicit Financial Flows, to be submitted to the United Nations Statistical Commission (UNSC) for its review once finalised. The custodians have published or will publish methodological materials for the pilot testing of different types of IFFs and their measurement in 2021<sup><a href="#footnote-15" id="footnote-ref-15">[14]</a></sup>. The guidelines will describe the functioning of selected illegal markets or criminal activities, the possible IFF types that can emerge from these activities and provide practical guidance on statistical sources and estimation methods. </li>
   </ul><div class="footnotes"><div><sup class="footnote-number"
-  id="footnote-12">11</sup><p>Available here: <a
+  id="footnote-14">13</sup><p>Available here: <a
   href="about:blank">https://ec.europa.eu/eurostat/documents/3859598/8714610/KS-05-17-202-EN-N.pdf/eaf638df-17dc-47a1-9ab7-fe68476100ec</a>
-  <a href="#footnote-ref-12">&#x2191;</a></p></div></div>
+  <a href="#footnote-ref-14">&#x2191;</a></p></div><div><sup
+  class="footnote-number" id="footnote-15">14</sup><p> For methodological
+  guidelines to measure tax and commercial IFFs, see: <a
+  href="https://unctad.org/system/files/non-official-document/20210917_IFFsGuidelinesForPilots_en_0.pdf">https://unctad.org/system/files/non-official-document/20210917_IFFsGuidelinesForPilots_en_0.pdf</a>
+  <a href="#footnote-ref-15">&#x2191;</a></p></div></div>
 QUALITY_MGMNT: >-
   <p>Compilation of indicator 16.4.1 must be conducted in full adherence to the
   Fundamental Principles of Official Statistics. Moreover, national statistical
@@ -542,12 +701,12 @@ COVERAGE: >-
 
   <p>&#x2022; IFFs from illicit tax and commercial practices, </p>
 
-  <p>&#x2022; IFFs from corruption, </p>
+  <p>&#x2022; IFFs from illegal markets, </p>
 
-  <p>&#x2022; IFFs from exploitation-type and financing of crime and terrorism,
-  and</p>
+  <p>&#x2022; IFFs from corruption, and</p>
 
-  <p>&#x2022; IFFs from illegal markets. </p>
+  <p>&#x2022; IFFs from exploitation-type and financing of crime and
+  terrorism.</p>
 
   <p>In addition, member states may decide to disaggregate the IFF indicator,
   where relevant, by:</p>
@@ -580,6 +739,8 @@ OTHER_DOC: >-
 
   <p><a href="about:blank">https://unctad.org/statistics</a></p>
 
+  <p>https://stats.unctad.org/iffs</p>
+
   <p><a href="about:blank">https://dataunodc.un.org/</a></p>
 
   <p><a href="about:blank">https://unctadstat.unctad.org</a></p>
@@ -590,7 +751,12 @@ OTHER_DOC: >-
   <p>UNCTAD-UNODC Conceptual Framework for the Statistical Measurement of
   Illicit Financial Flows (2020) <a
   href="https://www.unodc.org/documents/data-and-analysis/statistics/IFF/IFF_Conceptual_Framework_for_publication_FINAL_16Oct_print.pdf">https://www.unodc.org/documents/data-and-analysis/statistics/IFF/IFF_Conceptual_Framework_for_publication_FINAL_16Oct_print.pdf</a>
-  <br>UNCTAD-ECA capacity building project:<br><a
+  <br>UNCTAD Methodological Guidelines to Measure Tax and Commercial Illicit
+  Financial Flows &#x2013; Methods for pilot testing (2021). <a
+  href="https://unctad.org/system/files/non-official-document/20210917_IFFsGuidelinesForPilots_en_0.pdf">https://unctad.org/system/files/non-official-document/20210917_IFFsGuidelinesForPilots_en_0.pdf</a>
+  </p>
+
+  <p>UNCTAD-ECA capacity building project:<br><a
   href="https://unctad.org/project/defining-estimating-and-disseminating-statistics-illicit-financial-flows-africa">https://unctad.org/project/defining-estimating-and-disseminating-statistics-illicit-financial-flows-africa</a></p>
 
   <p>UNODC-UNCTAD project on Latin America (2017-2020): <a

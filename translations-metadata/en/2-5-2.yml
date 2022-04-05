@@ -11,8 +11,9 @@ SDG_TARGET: >-
 SDG_INDICATOR: >-
   <p>Indicator 2.5.2: Proportion of local breeds classified as being at risk of
   extinction</p>
-META_LAST_UPDATE: <p>2021-03-01</p>
-SDG_RELATED_INDICATORS: <p>This indicator is linked to SDG indicator 2.5.1b.</p>
+SDG_SERIES_DESCR: <p>Proportion of local breeds classified as being at risk of extinction</p>
+META_LAST_UPDATE: '2022-03-31'
+SDG_RELATED_INDICATORS: <p>Indicator 2.5.1b on animal genetic resources </p>
 SDG_CUSTODIAN_AGENCIES: <p>Food and Agriculture Organization of the United Nations (FAO)</p>
 CONTACT_ORGANISATION: <p>Food and Agriculture Organization of the United Nations (FAO)</p>
 STAT_CONC_DEF: >-
@@ -32,23 +33,25 @@ STAT_CONC_DEF: >-
   provide the most up-to date biodiversity information possible for tracking
   progress towards the Aichi Targets
   (http://www.bipindicators.net/domesticatedanimals). Further, it is presented
-  in the Global Biodiversity Outlook 4, page 91 (see
-  http://www.cbd.int/gbo/gbo4/publication/gbo4-en-lr.pdf) which is an output of
-  the processes under the CBD.</p>
-UNIT_MEASURE: <p>Proportion of local breeds </p>
+  in the Global Biodiversity Outlook 4, page 91 (see <a
+  href="https://www.cbd.int/gbo/gbo4/publication/gbo4-en.pdf">https://www.cbd.int/gbo/gbo4/publication/gbo4-en.pdf</a>
+  ) which is an output of the processes under the CBD.</p>
+UNIT_MEASURE: <p>Percent (%) </p>
 CLASS_SYSTEM: >-
   <p>International standards and classifications used have been endorsed by the
   FAO Commission on Genetic Resources for Food and Agriculture and are provided
   in more detail in: FAO. 2013. In vivo conservation of animal genetic resources
-  (accessible at http://www.fao.org/3/a-i3327e.pdf).</p>
+  (accessible at <a
+  href="http://www.fao.org/3/a-i3327e.pdf">http://www.fao.org/3/a-i3327e.pdf</a>).</p>
 SOURCE_TYPE: >-
   <p>DAD-IS is the Domestic Animal Diversity Information System maintained and
-  developed by FAO (http://www.fao.org/dad-is/en/). It provides access to
-  searchable databases of breed-related information and photos and links to
-  other online resources on livestock diversity. It allows to analyze the
-  diversity of livestock breeds on national, regional and global levels
-  including the status of breeds regarding their risk of extinction. DAD-IS
-  currently contains data from 182 countries and 38 species. It contains
+  developed by FAO (<a
+  href="http://www.fao.org/dad-is/en/">http://www.fao.org/dad-is/en/</a>). It
+  provides access to searchable databases of breed-related information and
+  photos and links to other online resources on livestock diversity. It allows
+  to analyze the diversity of livestock breeds on national, regional and global
+  levels including the status of breeds regarding their risk of extinction.
+  DAD-IS currently contains data from 182 countries and 38 species. It contains
   information on more than 8,800 mammalian and avian breeds, among those about
   7,700 are considered local (i.e. reported to occur in only one country).</p>
 COLL_METHOD: >-
@@ -63,7 +66,7 @@ DATA_SOURCE: >-
   entering/updating the country&#x2019;s data within the global data information
   system DAD-IS directly to the NC, after having received the official
   nomination letter.</p>
-COMPILING_ORG: <p>FAO</p>
+COMPILING_ORG: <p>Food and Agriculture Organization of the United Nations (FAO)</p>
 INST_MANDATE: >-
   <p>The National Coordinators for Management of Animal Genetic Resources are
   responsible for the provision of national data the indicator is based on.
@@ -72,8 +75,9 @@ INST_MANDATE: >-
   <em>Developing the institutional framework for the management of animal
   genetic resources</em>.</p>
 
-  <p>FAO Animal Production and Health Guidelines. No. 6. Rome. (Accessible at
-  http://www.fao.org/3/ba0054e/ba0054e00.pdf). </p>
+  <p>FAO Animal Production and Health Guidelines. No. 6. Rome. (Accessible at <a
+  href="http://www.fao.org/3/ba0054e/ba0054e00.pdf">http://www.fao.org/3/ba0054e/ba0054e00.pdf</a>).
+  </p>
 RATIONALE: >-
   <p>The indicator has a direct link to &#x201C;biodiversity&#x201D; as animal
   or livestock genetic resources represent an integral part of agricultural
@@ -92,7 +96,7 @@ RATIONALE: >-
   directly related to &#x201C;halt the loss of biodiversity&#x201D;.</p>
 REC_USE_LIM: >-
   <p>Breed-related information remains far from complete. Across the world, when
-  excluding extinct breeds, 65 percent of local breeds are classified as of
+  excluding extinct breeds, 61 percent of local breeds are classified as of
   unknown status because of missing population data or lack of recent updates.
   </p>
 
@@ -101,175 +105,125 @@ REC_USE_LIM: >-
   the risk classes.</p>
 DATA_COMP: >-
   <p>The indicator is based on the data contained in FAO&#x2019;s Global
-  Databank for Animal Genetic Resources DAD-IS (http://dad.fao.org/). Risk
-  classes are defined based on population sizes of breeds reported to DAD-IS.
-  The risk class is considered to be &#x201C;unknown&#x201D; if (i) no
-  population sizes are reported or (ii) the most recent population size reported
-  refers to a year more than 10- years before the year of calculation (10 year
-  cut off point). </p>
+  Databank for Animal Genetic Resources DAD-IS (<a
+  href="http://dad.fao.org/">http://dad.fao.org/</a>). Risk classes are defined
+  based on population sizes of breeds reported to DAD-IS. The risk class is
+  considered to be &#x201C;unknown&#x201D; if (i) no population sizes are
+  reported or (ii) the most recent population size reported refers to a year
+  more than 10- years before the year of calculation (10 year cut off point).
+  </p>
 
-  <p> Species are assigned to two groups. The first group comprises species that
+  <p>Species are assigned to two groups. The first group comprises species that
   have high reproductive capacity, such as pigs, rabbits, guinea pigs and avian
   species, and the second comprises species that</p>
 
   <p>have low reproductive capacity, i.e. those belonging to the taxonomical
-  families Bovidae,</p>
-
-  <p>Equidae, Camelidae and Cervidae.</p>
+  families Bovidae, Equidae, Camelidae and Cervidae.</p>
 
   <p>The risk status categories are defined as follows (see also FAO. 2013. In
   vivo conservation of animal genetic resources. FAO Animal Production and
-  Health Guidelines. No. 14. Rome. Accessible at
-  http://www.fao.org/docrep/018/i3327e/i3327e.pdf.): </p>
+  Health Guidelines. No. 14. Rome. Accessible at <a
+  href="http://www.fao.org/docrep/018/i3327e/i3327e.pdf">http://www.fao.org/docrep/018/i3327e/i3327e.pdf</a>):
+  </p>
 
   <p><strong><em>Extinct. </em></strong>A breed is categorized as extinct when
-  there are no breeding males or breeding</p>
-
-  <p>females remaining and any cryoconserved genetic material that may be
-  available is insufficient</p>
-
-  <p>for breed reconstitution.</p>
+  there are no breeding males or breeding females remaining and any
+  cryoconserved genetic material that may be available is insufficient for breed
+  reconstitution.</p>
 
   <p><strong><em>Cryoconserved only. </em></strong>Breeds that have no living
-  male or female animals remaining, but</p>
-
-  <p>for which there is sufficient cryopreserved material to allow for
-  reconstitution of the breed,</p>
-
-  <p>are assigned to the category cryoconserved only. The ability to
-  reconstitute an otherwise extinct</p>
-
-  <p>breed depends on the amount of and type of stored germplasm.
-  Requirements</p>
-
-  <p>differ greatly according to species. Guidance on what constitutes
-  &#x201C;sufficient cryopreserved</p>
-
-  <p>material&#x201D; is provided in the FAO guidelines <em>Cryoconservation of
-  animal genetic resources</em></p>
-
-  <p>(FAO, 2012).</p>
+  male or female animals remaining, but for which there is sufficient
+  cryopreserved material to allow for reconstitution of the breed, are assigned
+  to the category cryoconserved only. The ability to reconstitute an otherwise
+  extinct breed depends on the amount of and type of stored germplasm.
+  Requirements differ greatly according to species. Guidance on what constitutes
+  &#x201C;sufficient cryopreserved material&#x201D; is provided in the FAO
+  guidelines <em>Cryoconservation of animal genetic resources</em> (FAO,
+  2012).</p>
 
   <p><strong><em>Critical. </em></strong>A breed is categorized as critical
   if:</p>
 
   <p><strong>&#x2022; </strong>the total number of breeding females is less than
-  or equal to 100 (300 for species</p>
-
-  <p>with low reproductive capacity); or</p>
+  or equal to 100 (300 for species with low reproductive capacity); or</p>
 
   <p><strong>&#x2022; </strong>the overall population size is less than or equal
-  to 80 (240) and the population trend</p>
-
-  <p>is increasing and the proportion of females being bred to males of the same
-  breed</p>
-
-  <p>is greater than 80 percent (i.e. cross-breeding is equal to or less than 20
-  percent); or</p>
+  to 80 (240) and the population trend is increasing and the proportion of
+  females being bred to males of the same breed is greater than 80 percent (i.e.
+  cross-breeding is equal to or less than 20 percent); or</p>
 
   <p><strong>&#x2022; </strong>the overall population size is less than or equal
-  to 120 (360) and the population trend</p>
-
-  <p>is stable or decreasing; or</p>
+  to 120 (360) and the population trend is stable or decreasing; or</p>
 
   <p><strong>&#x2022; </strong>the total number of breeding males is less than
-  or equal to five (i.e. <em>&#x394;F </em>is 3 percent</p>
+  or equal to five (i.e. <em>&#x394;F </em>is 3 percent or greater).</p>
 
-  <p>or greater).</p>
-
-  <p>If the population trend is unknown, then it is assumed to be stable.</p>
-
-  <p>Breeds for which demographic characteristics suggest a critical risk of
-  extinction, but</p>
-
-  <p>that have active conservation programmes (including cryoconservation) in
-  place, or populations</p>
-
-  <p>that are maintained by commercial companies or research institutions are
-  considered</p>
-
-  <p>to be &#x201C;critical-maintained&#x201D; for reporting purposes.</p>
+  <p>If the population trend is unknown, then it is assumed to be stable. Breeds
+  for which demographic characteristics suggest a critical risk of extinction,
+  but that have active conservation programmes (including cryoconservation) in
+  place, or populations that are maintained by commercial companies or research
+  institutions are considered to be &#x201C;critical-maintained&#x201D; for
+  reporting purposes.</p>
 
   <p><strong><em>Endangered. </em></strong>A breed is categorized as endangered
   if:</p>
 
   <p><strong>&#x2022; </strong>the total number of breeding females is greater
-  than 100 (300 for species with low</p>
-
-  <p>reproductive capacity) and less than or equal to 1 000 (3 000); or</p>
+  than 100 (300 for species with low reproductive capacity) and less than or
+  equal to 1 000 (3 000); or</p>
 
   <p><strong>&#x2022; </strong>the overall population size is greater than 80
-  (240) and less than 800 (2 400) and</p>
-
-  <p>increasing in size and the percentage of females being bred to males of the
-  same</p>
-
-  <p>breed is above 80 percent; or</p>
+  (240) and less than 800 (2 400) and increasing in size and the percentage of
+  females being bred to males of the same breed is above 80 percent; or</p>
 
   <p><strong>&#x2022; </strong>the overall population size is greater than 120
-  (360) and less than or equal to 1 200</p>
-
-  <p>(3 600) and the trend is stable or decreasing; or</p>
+  (360) and less than or equal to 1 200 (3 600) and the trend is stable or
+  decreasing; or</p>
 
   <p><strong>&#x2022; </strong>the total number of breeding males is less than
-  or equal to 20 and greater than five</p>
-
-  <p>(i.e. <em>&#x394;F </em>is between 1 and 3 percent).</p>
+  or equal to 20 and greater than five (i.e. <em>&#x394;F </em>is between 1 and
+  3 percent).</p>
 
   <p>Once again, if the population trend is unknown, then it is assumed to be
-  stable.</p>
-
-  <p>Endangered breeds will be assigned to the subcategory
-  &#x201C;endangered-maintained&#x201D; if</p>
-
-  <p>active conservation programmes are in place or if their populations are
-  maintained by commercial</p>
-
-  <p>companies or research institutions.</p>
+  stable. Endangered breeds will be assigned to the subcategory
+  &#x201C;endangered-maintained&#x201D; if active conservation programmes are in
+  place or if their populations are maintained by commercial companies or
+  research institutions.</p>
 
   <p><strong><em>Vulnerable. </em></strong>A breed is categorized as vulnerable
   if:</p>
 
   <p><strong>&#x2022; </strong>the total number of breeding females is between 1
-  000 and 2 000 (3 000 and 6 000</p>
-
-  <p>for species with low reproductive capacity); or</p>
+  000 and 2 000 (3 000 and 6 000 for species with low reproductive capacity);
+  or</p>
 
   <p><strong>&#x2022; </strong>the overall population size is greater than 800
-  (2 400) and less than or equal to 1 600</p>
-
-  <p>(4 800) and increasing and the percentage of females being bred to males of
-  the</p>
-
-  <p>same breed is greater than 80 percent; or</p>
+  (2 400) and less than or equal to 1 600 (4 800) and increasing and the
+  percentage of females being bred to males of the same breed is greater than 80
+  percent; or</p>
 
   <p><strong>&#x2022; </strong>the overall population size is greater than 1 200
-  (3 600) and less than or equal to</p>
-
-  <p>2 400 (7 200) but stable or decreasing; or</p>
+  (3 600) and less than or equal to 2 400 (7 200) but stable or decreasing;
+  or</p>
 
   <p><strong>&#x2022; </strong>the total number of breeding males is between 20
-  and 35 (i.e. the <em>&#x394;F </em>is between 0.5</p>
-
-  <p>and 1 percent).</p>
+  and 35 (i.e. the <em>&#x394;F </em>is between 0.5 and 1 percent).</p>
 
   <p>Unreported population trends are assumed to be stable.</p>
 
   <p><strong><em>Not at risk. </em></strong>A breed is categorized as not at
-  risk if the population status is known and</p>
+  risk if the population status is known and the breed does not fall in the
+  critical or endangered categories (including the respective subcategories) or
+  the vulnerable category.</p>
 
-  <p>the breed does not fall in the critical or endangered categories (including
-  the respective</p>
-
-  <p>subcategories) or the vulnerable category. </p>
+  <p> </p>
 
   <p><strong><em>Unknown. </em></strong>This category is self-explanatory and
-  calls for action. A population survey is</p>
-
-  <p>needed; the breed could be critical, endangered or vulnerable.</p>
+  calls for action. A population survey is needed; the breed could be critical,
+  endangered or vulnerable.</p>
 
   <ul>
-    <li>A Breed is considered to be at risk if it has been classified as either critical, critical-maintained, endangered, endangered-maintained or vulnerable. </li>
+    <li>A breed is considered to be at risk if it has been classified as either critical, critical-maintained, endangered, endangered-maintained or vulnerable. </li>
   </ul>
 
   <p>The indicator is calculated as follows:</p>
@@ -437,8 +391,8 @@ DATA_COMP: >-
 DATA_VALIDATION: >-
   <p>Consistency of data uploaded for computation of risk status is
   automatically checked by DAD-IS (e.g. number of females not exceeding total
-  population size)</p>
-ADJUSTMENT: <p>Not applicable.</p>
+  population size).</p>
+ADJUSTMENT: <p>Not applicable</p>
 IMPUTATION: >-
   <p><strong>At breed level</strong></p>
 
@@ -548,8 +502,8 @@ DOC_METHOD: >-
   national surveys. </p>
 
   <p>FAO. 2011. Surveying and monitoring of animal genetic resources. FAO Animal
-  Production and Health Guidelines. No. 7. Rome. (available at
-  http://www.fao.org/docrep/014/ba0055e/ba0055e00.htm)</p>
+  Production and Health Guidelines. No. 7. Rome. (available at <a
+  href="http://www.fao.org/docrep/014/ba0055e/ba0055e00.htm">http://www.fao.org/docrep/014/ba0055e/ba0055e00.htm</a>)</p>
 QUALITY_MGMNT: >-
   <p>FAO provides regular training to National Coordinators related to data
   collection and entering data into the official system, DAD-IS. The indicators
@@ -560,7 +514,9 @@ QUALITY_MGMNT: >-
 QUALITY_ASSURE: >-
   <p>Described in section 7 of FAO. 2011. Surveying and monitoring of animal
   genetic resources. FAO Animal Production and Health Guidelines. No. 7. Rome.
-  (available at http://www.fao.org/docrep/014/ba0055e/ba0055e00.htm) </p>
+  (available at <a
+  href="http://www.fao.org/docrep/014/ba0055e/ba0055e00.htm">http://www.fao.org/docrep/014/ba0055e/ba0055e00.htm</a>)
+  </p>
 
   <p>The guidelines were presented to and endorsed by the Commission on Genetic
   Resources for Food and Agriculture at its Thirteenth Regular Session in July
@@ -569,26 +525,33 @@ QUALITY_ASSURE: >-
   <p>FAO is responsible for the quality of the internal statistical processes
   used to compile the published datasets.</p>
 QUALITY_ASSMNT: >-
-  <p>Each second year FAO is organizing a global National Coordinators&#x2019;
+  <p>Each second year, FAO is organizing a global National Coordinators&#x2019;
   Workshops to assess and discuss the collection of data the indicator is based
   on. The indicators itself is automatically calculated in DAD-IS. </p>
-COVERAGE: |-
+COVERAGE: >-
   <p><strong>Data availability:</strong></p>
-  <p>Data are public available through DAD-IS (see http://dad.fao.org/).</p>
+
+  <p>Data are publicly available through DAD-IS (see <a
+  href="http://dad.fao.org/">http://dad.fao.org/</a>).</p>
+
   <p><strong>Time series:</strong></p>
+
+  <p>DAD-IS data are available since 2000 up to 2022.</p>
+
   <p><strong>Disaggregation: </strong></p>
+
   <p>Data are available by country.</p>
 COMPARABILITY: |-
   <p><strong>Sources of discrepancies:</strong></p>
-  <p>NA</p>
+  <p>Not applicable</p>
 OTHER_DOC: >-
   <p><strong>URL: </strong></p>
 
-  <p>http://dad.fao.org/ </p>
+  <p><a href="http://dad.fao.org/">http://dad.fao.org/</a> </p>
 
   <p><strong>References: </strong></p>
 
   <p>FAO. 2013. In vivo conservation of animal genetic resources.</p>
 
-  <p>FAO Animal Production and Health Guidelines. No. 14. Rome. Accessible at
-  http://www.fao.org/docrep/018/i3327e/i3327e.pdf</p>
+  <p>FAO Animal Production and Health Guidelines. No. 14. Rome. Accessible at <a
+  href="http://www.fao.org/docrep/018/i3327e/i3327e.pdf">http://www.fao.org/docrep/018/i3327e/i3327e.pdf</a></p>

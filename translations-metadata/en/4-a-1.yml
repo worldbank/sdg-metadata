@@ -8,17 +8,17 @@ SDG_TARGET: >-
 SDG_INDICATOR: >-
   <p>Indicator 4.a.1: Proportion of schools offering basic services, by type of
   service</p>
-SDG_SERIES_DESCR: <p>Not applicable. </p>
-META_LAST_UPDATE: <p>2021-07-01</p>
+SDG_SERIES_DESCR: <p>Not applicable </p>
+META_LAST_UPDATE: '2022-03-31'
 SDG_RELATED_INDICATORS: '<p>6.1, 6.2, 7.1, 9.c, 17.8</p>'
-SDG_CUSTODIAN_AGENCIES: <p>UNESCO Institute for Statistics (UNESCO-UIS)</p>
-CONTACT_ORGANISATION: <p>UNESCO Institute for Statistics (UNESCO-UIS)</p>
+SDG_CUSTODIAN_AGENCIES: <p>UNESCO Institute for Statistics (UIS)</p>
+CONTACT_ORGANISATION: <p>UNESCO Institute for Statistics (UIS)</p>
 STAT_CONC_DEF: >-
   <p><strong>Definitions:</strong></p>
 
-  <p>The percentage of schools by level of education ( (primary, lower secondary
-  and upper secondary education) primary education) with access to the given
-  facility or service.</p>
+  <p>The percentage of schools by level of education (primary, lower secondary
+  and upper secondary education) with access to the given facility or
+  service.</p>
 
   <p><strong>Concepts:</strong></p>
 
@@ -33,8 +33,9 @@ STAT_CONC_DEF: >-
   number of communication services including the World Wide Web and carries
   e-mail, news, entertainment and data files, irrespective of the device used
   (i.e. not assumed to be only via a computer) and thus can also be accessed by
-  mobile telephone, tablet, PDA, games machine, digital TV etc.). Access can be
-  via a fixed narrowband, fixed broadband, or via mobile network.</p>
+  mobile telephone, tablet, personal digital assistant, games machine, digital
+  TV etc.). Access can be via a fixed narrowband, fixed broadband, or via mobile
+  network.</p>
 
   <p>Computers for pedagogical use: Use of computers to support course delivery
   or independent teaching and learning needs. This may include activities using
@@ -87,10 +88,7 @@ STAT_CONC_DEF: >-
 
   <p>Basic handwashing facilities are defined as functional handwashing
   facilities, with soap and water available to all girls and boys.</p>
-UNIT_MEASURE: >-
-  <p>Percentage. This indicator is expressed as the percentage of schools with
-  access to the given facility or service, by level of education (primary, lower
-  secondary and upper secondary education) </p>
+UNIT_MEASURE: <p>Percent (%) </p>
 CLASS_SYSTEM: >-
   <p>The International Standard Classification of Education (ISCED) is used to
   define primary, lower secondary and upper secondary education. </p>
@@ -102,15 +100,16 @@ SOURCE_TYPE: >-
 COLL_METHOD: >-
   <p><strong>For administrative sources:</strong></p>
 
-  <p>The UNESCO Institute for Statistics produces time series based on data
-  reported by Ministries of Education or National Statistical Offices. The data
-  are gathered through the annual Survey of Formal Education (on access to
-  electricity, drinking water, sanitation and handwashing facilities) and
-  through the Survey on ICTs in Education (on access to electricity, Internet
-  and computers). Data on adapted infrastructure are not collected currently.
-  Countries are asked to report data according to the levels of education
-  defined in the International Standard Classification of Education (ISCED) to
-  ensure international comparability of resulting indicators.</p>
+  <p>The UNESCO Institute for Statistics (UIS) produces time series based on
+  data reported by Ministries of Education or National Statistical Offices
+  (NSOs). The data are gathered through the annual Survey of Formal Education
+  (on access to electricity, drinking water, sanitation and handwashing
+  facilities) and through the Survey on ICTs in Education (on access to
+  electricity, Internet and computers). Data on adapted infrastructure are not
+  collected currently. Countries are asked to report data according to the
+  levels of education defined in the International Standard Classification of
+  Education (ISCED) to ensure international comparability of resulting
+  indicators.</p>
 
   <p>The data received are validated using electronic error detection systems
   that check for arithmetic errors and inconsistencies and trend analysis for
@@ -129,21 +128,21 @@ COLL_METHOD: >-
   typically, these are available for download publicly. UIS analyses this data
   to provide estimates of the indicator. When there is more than one data point
   available for a given level of schooling, an average is used as the indicator.
-  Annexe Table 2 presents the questionnaire used to collect data in the
+  Annex Table 2 presents the questionnaire used to collect data in the
   cross-national assessments included. </p>
 FREQ_COLL: >-
-  <p>For administrative sources: Annual UIS survey (latest launched in October
-  2020) and UOE survey (latest launched in June 2020).</p>
+  <p>For administrative sources: Annual UIS survey (usually launched in the
+  4<sup>th</sup> quarter) and UOE survey (usually launched in June).</p>
 
   <p>For cross-national assessments: as data is released publicly.</p>
-REL_CAL_POLICY: <p>Biannual UIS data release (February and September).</p>
+REL_CAL_POLICY: <p>Biannual UIS data release (March and September).</p>
 DATA_SOURCE: >-
   <p>For administrative sources: Ministries of Education and/or National
   Statistical Offices.</p>
 
   <p>For cross-national learning assessments: International student assessment
   programme administrators.</p>
-COMPILING_ORG: <p>UNESCO Institute for Statistics.</p>
+COMPILING_ORG: <p>UNESCO Institute for Statistics (UIS)</p>
 INST_MANDATE: >-
   <p>The UNESCO Institute for Statistics (UIS) is the statistical branch of the
   United Nations Educational, Scientific and Cultural Organization (UNESCO). The
@@ -153,16 +152,17 @@ INST_MANDATE: >-
 
   <p>The <a
   href="https://www.moe.gov.bn/DocumentDownloads/Education%202030/Education2030.pdf"><u>Education
-  2030 Framework for Action 100</u></a> has clearly stated that: &#x201C;<em>In
-  recognition of the importance of harmonization of monitoring and reporting,
-  the UIS will remain the official source of cross-nationally comparable data on
-  education. It will continue to produce international monitoring indicators
-  based on its annual education survey and on other data sources that guarantee
-  international comparability for more than 200 countries and territories. In
-  addition to collecting data, the UIS will work with partners to develop new
-  indicators, statistical approaches and monitoring tools to better assess
-  progress across the targets related to UNESCO&#x2019;s mandate, working in
-  coordination with the SDG-Education 2030 SC&#x201D;.</em></p>
+  2030 Framework for Action &#xA7;100</u></a> has clearly stated that:
+  &#x201C;<em>In recognition of the importance of harmonization of monitoring
+  and reporting, the UIS will remain the official source of cross-nationally
+  comparable data on education. It will continue to produce international
+  monitoring indicators based on its annual education survey and on other data
+  sources that guarantee international comparability for more than 200 countries
+  and territories. In addition to collecting data, the UIS will work with
+  partners to develop new indicators, statistical approaches and monitoring
+  tools to better assess progress across the targets related to UNESCO&#x2019;s
+  mandate, working in coordination with the SDG-Education 2030
+  SC&#x201D;.</em></p>
 RATIONALE: >-
   <p>The indicator measures access in schools to key basic services and
   facilities necessary to ensure a safe and effective learning environment for
@@ -179,23 +179,63 @@ DATA_COMP: >-
   relevant facilities is expressed as a percentage of all schools at that level
   of education.</p>
 
-  <p>PSn,f = Sn,f</p>
-
-  <p>Sn</p>
-
+  <p><math xmlns="http://www.w3.org/1998/Math/MathML">
+      <msub>
+        <mrow>
+          <mi>P</mi>
+          <mi>S</mi>
+        </mrow>
+        <mrow>
+          <mi>n</mi>
+          <mo>,</mo>
+          <mi>f</mi>
+        </mrow>
+      </msub>
+      <mo>=</mo>
+      <mi>&amp;nbsp;</mi>
+      <mfrac>
+        <mrow>
+          <msub>
+            <mrow>
+              <mi>S</mi>
+            </mrow>
+            <mrow>
+              <mi>n</mi>
+              <mo>,</mo>
+              <mi>f</mi>
+            </mrow>
+          </msub>
+        </mrow>
+        <mrow>
+          <msub>
+            <mrow>
+              <mi>S</mi>
+            </mrow>
+            <mrow>
+              <mi>n</mi>
+            </mrow>
+          </msub>
+        </mrow>
+      </mfrac>
+      <mi>&amp;nbsp;</mi>
+      <mo>&#xD7;</mo>
+      <mn>100</mn>
+    </math></p>
   <p>where:</p>
 
-  <p>PSn,f = percentage of schools at level n of education with access to
-  facility f</p>
+  <p><em>PS<sub>n,f</sub></em> = percentage of schools at level <em>n</em> of
+  education with access to facility <em>f</em></p>
 
-  <p>Sn,f = schools at level n of education with access to facility f</p>
+  <p><em>S<sub>n,f</sub></em> = schools at level <em>n</em> of education with
+  access to facility <em>f</em></p>
 
-  <p>Sn = total number of schools at level n of education</p>
+  <p><em>S<sub>n</sub></em> = total number of schools at level <em>n</em> of
+  education</p>
 DATA_VALIDATION: >-
-  <p>The UNESCO Institute for Statistics shares all indicator values and notes
-  on methodology with National Statistical Offices, Ministries of Education, or
-  other relevant agencies in individual countries for their review, feedback and
-  validation before the publication of the data. </p>
+  <p>The UIS shares all indicator values and notes on methodology with NSOs,
+  Ministries of Education, or other relevant agencies in individual countries
+  for their review, feedback and validation before the publication of the data.
+  </p>
 ADJUSTMENT: >-
   <p>Data should be reported according to the levels of education defined in the
   International Standard Classification of Education (ISCED) to ensure
@@ -288,14 +328,20 @@ QUALITY_ASSMNT: >-
   and consistency with previously published/reported values for the
   indicator.</p>
 COVERAGE: >-
-  <p><strong>For administrative data sources:</strong></p>
-
   <p><strong>Data availability:</strong></p>
 
-  <p>140 countries for electricity, 113 countrie1 for computers, 106 countries
+  <p><em>For administrative data sources:</em></p>
+
+  <p>140 countries for electricity, 113 countries for computers, 106 countries
   for Internet, 109 countries for water, 103 countries for sanitation, 105
   countries for hand-washing facilities and 50 countries for adapted
   infrastructure that have at least one data point in the period 2010-2019.</p>
+
+  <p><em>For student assessment sources:</em></p>
+
+  <p>Annex Table 1 presents indicator availability by suggested cross-national
+  learning assessment included in the data as well as number of countries which
+  participate in the assessment programme. </p>
 
   <p><strong>Time series:</strong></p>
 
@@ -303,13 +349,7 @@ COVERAGE: >-
 
   <p><strong>Disaggregation:</strong></p>
 
-  <p>By level of education.</p>
-
-  <p><strong>For student assessment sources:</strong></p>
-
-  <p>Annex Table 1 presents indicator availability by suggested cross-national
-  learning assessment included in the data as well as number of countries which
-  participate in the assessment programme. </p>
+  <p>By level of education</p>
 COMPARABILITY: >-
   <p><strong>Sources of discrepancies:</strong></p>
 
@@ -321,8 +361,7 @@ COMPARABILITY: >-
 OTHER_DOC: >-
   <p><strong>URL:</strong></p>
 
-  <p><a
-  href="http://www.uis.unesco.org/Pages/default.aspx">http://www.uis.unesco.org/Pages/default.aspx</a></p>
+  <p><a href="http://uis.unesco.org/">http://uis.unesco.org/</a> </p>
 
   <p><strong>References:</strong></p>
 
@@ -331,14 +370,15 @@ OTHER_DOC: >-
   Measuring Information and Communication Technologies (ICT) in Education, UIS
   Technical Paper No. 2.</p>
 
-  <p>WASH Monitoring Indicators:
-  http://www.unicef.org/wash/files/4_WSSCC_JMP_Fact_Sheets_4_UK_LoRes.pdf </p>
+  <p>WASH Monitoring Indicators: <a
+  href="https://www.unicef.org/wash">https://www.unicef.org/wash</a> </p>
 
   <p>UIS Questionnaires on Statistics of Information and Communication
   Technologies (ICT) in Education and the Regional Module for Africa: <a
-  href="http://www.uis.unesco.org/UISQuestionnaires/Pages/default.aspx">http://www.uis.unesco.org/UISQuestionnaires/Pages/default.aspx</a>.</p>
+  href="http://uis.unesco.org/en/uis-questionnaires">http://uis.unesco.org/en/uis-questionnaires</a>
+  </p>
 
-  <p><strong>Annexe: methods used to estimate indicator values using
+  <p><strong>Annex: methods used to estimate indicator values using
   cross-national assessments</strong></p>
 
   <p>Cross national assessments are sample-based and, as such, provide estimates
@@ -349,7 +389,7 @@ OTHER_DOC: >-
   School-level (first stage) data was used to estimate the percentages of
   schools with the given facilities. Data was weighted by school sampling
   weights. The population which the sample of schools represented are presented
-  in Annexe Table 1.</p>
+  in Annex Table 1.</p>
 
   <table>
     <tbody>
@@ -537,7 +577,7 @@ OTHER_DOC: >-
     <tbody>
       <tr>
         <td colspan="4">
-          <p>Annexe Table 2. School questionnaire items related to SDG 4.a.1</p>
+          <p>Annex Table 2. School questionnaire items related to SDG 4.a.1</p>
         </td>
       </tr>
       <tr>

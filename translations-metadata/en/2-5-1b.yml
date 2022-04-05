@@ -12,17 +12,20 @@ SDG_INDICATOR: >-
   <p>Indicator 2.5.1: Number of (a) plant and (b) animal genetic resources for
   food and agriculture secured in either medium- or long-term conservation
   facilities</p>
-META_LAST_UPDATE: <p>2021-03-01</p>
+SDG_SERIES_DESCR: >-
+  <p>Number of local breeds for which sufficient genetic resources are stored
+  for reconstitution</p>
+META_LAST_UPDATE: '2022-03-31'
 SDG_RELATED_INDICATORS: >-
-  <p>The component on animal genetic resources has linkages with indicators
-  2.5.1a on plants and 2.5.2.</p>
-SDG_CUSTODIAN_AGENCIES: <p>Food and Agriculture Organization of the United Nations (UN FAO)</p>
-CONTACT_ORGANISATION: <p>Food and Agriculture Organization of the United Nations (UN FAO)</p>
+  <p>Indicator 2.5.1a on plant genetic resources and 2.5.2 on animal genetic
+  resources </p>
+SDG_CUSTODIAN_AGENCIES: <p>Food and Agriculture Organization of the United Nations (FAO)</p>
+CONTACT_ORGANISATION: <p>Food and Agriculture Organization of the United Nations (FAO)</p>
 STAT_CONC_DEF: >-
   <p><strong>Definition:</strong></p>
 
   <p>The conservation of plant and animal genetic resources for food and
-  agriculture (GRFA) in medium or long term conservation facilities (<em>ex
+  agriculture (GRFA) in medium- or long-term conservation facilities (<em>ex
   situ</em>, in genebanks) represents the most trusted means of conserving
   genetic resources worldwide. Plant and animal GRFA conserved in these
   facilities can be easily used in breeding programmes as well, even directly
@@ -44,10 +47,11 @@ STAT_CONC_DEF: >-
   collection with an amount of genetic material stored which is required to
   reconstitute the breed in case of extinction (further information on
   &#x201C;sufficient material stored to reconstitute a breed&#x201D; can be
-  found in the Guidelines on Cryconservation of Animal Genetic Resources, FAO,
-  2012, accessible at http://www.fao.org/docrep/016/i3017e/i3017e00.htm). The
-  guidelines have been endorsed by the FAO Commission on Genetic Resources for
-  Food and Agriculture at its Thirteenth Regular Session
+  found in the Guidelines on Cryoconservation of Animal Genetic Resources, FAO,
+  2012, accessible at <a
+  href="http://www.fao.org/docrep/016/i3017e/i3017e00.htm">http://www.fao.org/docrep/016/i3017e/i3017e00.htm</a>).
+  The guidelines have been endorsed by the FAO Commission on Genetic Resources
+  for Food and Agriculture at its Thirteenth Regular Session
   (http://www.fao.org/docrep/meeting/024/mc192e.pdf).</p>
 
   <p><strong>Concepts:</strong></p>
@@ -61,7 +65,7 @@ STAT_CONC_DEF: >-
   from phenotypically similar groups has led to acceptance of its separate
   identity. </p>
 
-  <p>Medium or long term conservation facilities: Biological diversity is often
+  <p>Medium- or long-term conservation facilities: Biological diversity is often
   conserved <em>ex situ</em>, outside its natural habitat, in facilities called
   genebanks. In the case of domestic animal diversity, <em>ex situ</em>
   conservation includes both the maintenance of live animals (<em>in vivo</em>)
@@ -73,39 +77,34 @@ UNIT_MEASURE: <p>Number of local breeds</p>
 CLASS_SYSTEM: >-
   <p>International standards and classifications used have been endorsed by the
   FAO Commission on Genetic Resources for Food and Agriculture at its Thirteenth
-  Regular Session (http://www.fao.org/docrep/meeting/024/mc192e.pdf).</p>
+  Regular Session (<a
+  href="http://www.fao.org/docrep/meeting/024/mc192e.pdf">http://www.fao.org/docrep/meeting/024/mc192e.pdf</a>).</p>
 SOURCE_TYPE: >-
-  <p><em>Animal genetic resources</em></p>
-
   <p>National Coordinators for Management of Animal Genetic Resources, nominated
   by their respective government, provide data to the Domestic Animal Diversity
-  Information System (DAD-IS) (http://dad.fao.org/). DAD-IS allows countries the
-  storage of data on animal genetic resources being secured in either medium or
-  long term conservation facilities as needed for the indicator.</p>
+  Information System (DAD-IS) (<a
+  href="http://dad.fao.org/">http://dad.fao.org/</a>). DAD-IS allows countries
+  the storage of data on animal genetic resources being secured in either
+  medium- or long-term conservation facilities as needed for the indicator.</p>
 COLL_METHOD: >-
   <p>The indicator is related to a monitoring framework endorsed by the FAO
   Commission on Genetic Resources for Food and Agriculture in which the status
   and trends of plant and animal genetic resources are described through
   globally agreed indicators and regular country-driven assessments. Officially
-  appointed National Focal Points / National Coordinators report directly to
-  FAO, using a format agreed by the FAO Commission on Genetic Resources for Food
-  and Agriculture.</p>
+  appointed National Focal Points (NFPs)/National Coordinators report directly
+  to FAO, using a format agreed by the FAO Commission on Genetic Resources for
+  Food and Agriculture.</p>
 
   <p>Sessions of the intergovernmental technical working groups on plant and on
   animal genetic resources for food and agriculture allow for formal
   consultation processes. </p>
-FREQ_COLL: |-
-  <p><em>Animal genetic resources</em> </p>
-  <p>Data in DAD-IS can be updated throughout the whole year. </p>
-REL_CAL_POLICY: |-
-  <p><em>Animal genetic resources</em></p>
-  <p>First quarter of the year.</p>
+FREQ_COLL: <p>Data in DAD-IS can be updated throughout the whole year. </p>
+REL_CAL_POLICY: <p>First quarter of the year.</p>
 DATA_SOURCE: >-
   <p>The officially nominated National Focal Points / National Coordinators. For
   information by country see for animal genetic resources <a
-  href="http://www.fao.org/dad-is/national-coordinators/en/">http://www.fao.org/dad-is/national-coordinators/en/</a>
-  .</p>
-COMPILING_ORG: <p>Food and Agriculture Organization of the United Nations (UN FAO)</p>
+  href="http://www.fao.org/dad-is/national-coordinators/en/">http://www.fao.org/dad-is/national-coordinators/en/</a>.</p>
+COMPILING_ORG: <p>Food and Agriculture Organization of the United Nations (FAO)</p>
 INST_MANDATE: >-
   <p>The National Coordinators for Management of Animal Genetic Resources are
   responsible for the provision of national data the indicator is based on.
@@ -114,8 +113,9 @@ INST_MANDATE: >-
   <em>Developing the institutional framework for the management of animal
   genetic resources</em>.</p>
 
-  <p>FAO Animal Production and Health Guidelines. No. 6. Rome. (Accessible at
-  http://www.fao.org/3/ba0054e/ba0054e00.pdf). </p>
+  <p>FAO Animal Production and Health Guidelines. No. 6. Rome. (Accessible at <a
+  href="http://www.fao.org/3/ba0054e/ba0054e00.pdf">http://www.fao.org/3/ba0054e/ba0054e00.pdf</a>).
+  </p>
 RATIONALE: >-
   <p>Genetic resources for food and agriculture provide the building blocks of
   food security and, directly or indirectly, support the livelihoods of every
@@ -141,20 +141,16 @@ RATIONALE: >-
   therefore approximated to an increase in the agro-biodiversity secured, while
   negative variations to a loss of it. </p>
 REC_USE_LIM: >-
-  <p><em>Animal genetic resources</em></p>
-
-  <p>Information on cryoconserved material in the Domestic Animal Diversity
+  <p>Information on cryo-conserved material in the Domestic Animal Diversity
   Information System DAD-IS needs to be updated on a regular base.</p>
 DATA_COMP: >-
-  <p><em>Animal genetic resources</em></p>
-
   <p>For the animal component the indicator is calculated as the number of local
   breeds with enough genetic material stored within genebank collections
   allowing to reconstitute the breed in case of extinction (based on the
-  Guidelines on Cryconservation of animal genetic resources, FAO, 2012, <a
+  Guidelines on Cryoconservation of animal genetic resources, FAO, 2012, <a
   href="http://www.fao.org/docrep/016/i3017e/i3017e00.htm">http://www.fao.org/docrep/016/i3017e/i3017e00.htm</a>).</p>
 DATA_VALIDATION: <p>There is no validation process in place.</p>
-ADJUSTMENT: <p>Not applicable.</p>
+ADJUSTMENT: <p>Not applicable</p>
 IMPUTATION: >-
   <ul>
     <li><strong>At country level</strong></li>
@@ -175,12 +171,12 @@ DOC_METHOD: >-
   <p>For the animal component the National Coordinators for the Management of
   Animal Genetic Resources provide the type of material (e.g. semen samples,
   embryos, somatic cells) cryo-conserved within the framework of a
-  cryconservation programme, as well as the number of the respective male and
+  cryoconservation programme, as well as the number of the respective male and
   female donors to the Domestic Animal Diversity Information System DAD-IS. FAO
   provides internationally endorsed guidelines on the definition of
-  &#x201C;sufficient&#x201D; material (see FAO. 2012. Cryoconservation of animal
-  genetic resources. FAO Animal Production and Health Guidelines No. 12. Rome.
-  (available at <a
+  &#x201C;sufficient&#x201D; material (see FAO. 2012. Cryo-conservation of
+  animal genetic resources. FAO Animal Production and Health Guidelines No. 12.
+  Rome. (available at <a
   href="http://www.fao.org/docrep/016/i3017e/i3017e00.pdf">http://www.fao.org/docrep/016/i3017e/i3017e00.pdf</a>)</p>
 QUALITY_MGMNT: >-
   <p>FAO provides regular training to National Coordinators related to data
@@ -190,7 +186,7 @@ QUALITY_ASSURE: >-
   <p>FAO is responsible for the quality of the internal statistical processes
   used to compile the published datasets.</p>
 
-  <p>FAO. 2012. Cryoconservation of animal genetic resources. FAO Animal
+  <p>FAO. 2012. Cryo-conservation of animal genetic resources. FAO Animal
   Production and Health Guidelines No. 12. Rome. (available at <a
   href="http://www.fao.org/docrep/016/i3017e/i3017e00.pdf">http://www.fao.org/docrep/016/i3017e/i3017e00.pdf</a>)</p>
 QUALITY_ASSMNT: >-
@@ -200,23 +196,18 @@ QUALITY_ASSMNT: >-
 COVERAGE: >-
   <p><strong>Data availability:</strong></p>
 
-  <p><em>Animal genetic resources</em></p>
-
   <p>The analysis of country reports to FAO provided by 128 countries in 2014
   for the preparation of &#x2018;The Second Report on the State of the
   World&#x2019;s Animal Genetic Resources for Food and Agriculture&#x2019;
   provided a first baseline with regard to the number of national breed
-  populations where sufficient material is stored. As of February 2021,
-  according to DAD-IS, genetic material is cryoconserved for only a very low
-  proportion (9 percent) of local breeds and for only around 2.6 percent of
-  breeds is the quantity of stored material estimated to be sufficient for
-  population reconstitution..</p>
+  populations where sufficient material is stored. However, currently genetic
+  material is cryo-conserved for only a very low proportion (less than 10
+  percent), whereas the quantity of stored material is sufficient for population
+  reconstitution for an even smaller percentage of local breeds.</p>
 
   <p><strong>Time series:</strong></p>
 
-  <p><em>Animal genetic resources</em></p>
-
-  <p>DAD-IS data are available since 2010 up to 2020.</p>
+  <p>DAD-IS data are available since 2000 up to 2022.</p>
 
   <p><strong>Disaggregation:</strong></p>
 
@@ -228,54 +219,6 @@ COMPARABILITY: >-
   <p>There are no internationally estimated data. Data on this indicator are all
   produced by countries and regional or international centres. </p>
 OTHER_DOC: >-
-  <p><strong><em>Plant genetic resources</em></strong></p>
-
-  <p>National Focal Points for the monitoring of the Second Global Plan of
-  Action for Plant Genetic Resources for Food and Agriculture and the
-  preparation of country reports for The Third Report on the State of the
-  World&apos;s Plant Genetic Resources for Food and Agriculture: <a
-  href="http://www.fao.org/agriculture/crops/thematic-sitemap/theme/seeds-pgr/gpa/national-focal-points/en/">http://www.fao.org/agriculture/crops/thematic-sitemap/theme/seeds-pgr/gpa/national-focal-points/en/</a></p>
-
-  <p>List of descriptors for reporting on the Plant Component of SDG indicator
-  2.5.1, FAO 2017 <a
-  href="http://www.fao.org/fileadmin/user_upload/wiews/docs/SDG_251_data_requirement_sheet_table_EN.docx">http://www.fao.org/fileadmin/user_upload/wiews/docs/SDG_251_data_requirement_sheet_table_EN.docx</a>
-  </p>
-
-  <p>Second Global Plan of Action for Plant Genetic Resources for Food and
-  Agriculture: <a
-  href="http://www.fao.org/docrep/015/i2624e/i2624e00.htm">http://www.fao.org/docrep/015/i2624e/i2624e00.htm</a></p>
-
-  <p>Second Report on the State of the World&#x2019;s Plant Genetic Resources
-  for Food and Agriculture</p>
-
-  <p><a
-  href="http://www.fao.org/docrep/013/i1500e/i1500e00.htm">http://www.fao.org/docrep/013/i1500e/i1500e00.htm</a></p>
-
-  <p>Genebank Standards for Plant Genetic Resources for Food and Agriculture,
-  FAO, 2014</p>
-
-  <p><a
-  href="http://www.fao.org/documents/card/en/c/7b79ee93-0f3c-5f58-9adc-5d4ef063f9c7/">http://www.fao.org/documents/card/en/c/7b79ee93-0f3c-5f58-9adc-5d4ef063f9c7/</a></p>
-
-  <p>Targets and Indicators for Plant Genetic Resources for Food and
-  Agriculture, In: Report of the Fourteenth Regular Session of the Commission on
-  Genetic Resources for Food and Agriculture, </p>
-
-  <p>CGRFA-14/13/Report, Appendix C, <a
-  href="http://www.fao.org/docrep/meeting/028/mg538e.pdf">http://www.fao.org/docrep/meeting/028/mg538e.pdf</a></p>
-
-  <p>Reporting Format for Monitoring the Implementation of the Second Global
-  Plan of Action for Plant Genetic Resources for Food and Agriculture,
-  CGRFA-15/15/Inf.9, <a
-  href="http://www.fao.org/3/a-mm294e.pdf">http://www.fao.org/3/a-mm294e.pdf</a></p>
-
-  <p>FAO/Bioversity Multi-Crop Passport Descriptor (MCPD) v. 2 </p>
-
-  <p><a
-  href="http://www.bioversityinternational.org/fileadmin/user_upload/online_library/publications/pdfs/FAO-Bioversity_multi_crop_passport_descriptors_V_2_Final_rev_1526.pdf">http://www.bioversityinternational.org/fileadmin/user_upload/online_library/publications/pdfs/FAO-Bioversity_multi_crop_passport_descriptors_V_2_Final_rev_1526.pdf</a></p>
-
-  <p><strong><em>Animal genetic resources</em></strong></p>
-
   <p>Preparation of the First Report on the State of the World&apos;s Animal
   Genetic Resources</p>
 
@@ -286,27 +229,27 @@ OTHER_DOC: >-
   <p><a
   href="http://www.fao.org/docrep/004/y1100m/y1100m03.htm">http://www.fao.org/docrep/004/y1100m/y1100m03.htm</a></p>
 
-  <p>Guidelines on Cryconservation of Animal Genetic Resources, FAO, 2012,
+  <p>Guidelines on Cryoconservation of Animal Genetic Resources, FAO, 2012,
   accessible at <a
   href="http://www.fao.org/docrep/016/i3017e/i3017e00.htm">http://www.fao.org/docrep/016/i3017e/i3017e00.htm</a></p>
 
-  <p>National Coordinator for Management of Animal Genetic Resources: </p>
+  <p>National Coordinator for Management of Animal Genetic Resources. </p>
 
   <p><a
   href="http://dad.fao.org/cgi-bin/EfabisWeb.cgi?sid=-1,contacts">http://dad.fao.org/cgi-bin/EfabisWeb.cgi?sid=-1,contacts</a></p>
 
-  <p>Status of Animal Genetic Resources &#x2013; 2016,
-  CGRFA/WG-AnGR-9/16/Inf.3,</p>
+  <p><br>Status of Animal Genetic Resources &#x2013; 2016,
+  CGRFA/WG-AnGR-9/16/Inf.3.</p>
 
   <p><a
   href="http://www.fao.org/3/a-mq950e.pdf">http://www.fao.org/3/a-mq950e.pdf</a></p>
 
-  <p>Guidelines on In vivo Conservation of Animal Genetic Resources, FAO, 2013,
+  <p>Guidelines on In vivo Conservation of Animal Genetic Resources, FAO, 2013.
   <a
   href="http://www.fao.org/docrep/018/i3327e/i3327e.pdf">http://www.fao.org/docrep/018/i3327e/i3327e.pdf</a></p>
 
   <p>The Second Report on the State of the World&#x2019;s Animal Genetic
-  Resources for Food and Agriculture</p>
+  Resources for Food and Agriculture.</p>
 
   <p><a
   href="http://www.fao.org/3/a-i4787e.pdf">http://www.fao.org/3/a-i4787e.pdf</a></p>

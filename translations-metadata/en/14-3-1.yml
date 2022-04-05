@@ -7,7 +7,10 @@ SDG_TARGET: >-
 SDG_INDICATOR: >-
   <p>Indicator 14.3.1: Average marine acidity (pH) measured at agreed suite of
   representative sampling stations</p>
-META_LAST_UPDATE: <p>2021-02-15</p>
+SDG_SERIES_DESCR: >-
+  <p>Average marine acidity (pH) measured at agreed suite of representative
+  sampling stations</p>
+META_LAST_UPDATE: '2022-03-31'
 SDG_RELATED_INDICATORS: >-
   <p>14.a.1 Increase scientific knowledge, develop research capacity and
   transfer marine technology, taking into account the Intergovernmental
@@ -18,11 +21,11 @@ SDG_RELATED_INDICATORS: >-
 SDG_CUSTODIAN_AGENCIES: <p>Intergovernmental Oceanographic Commission (IOC) of UNESCO</p>
 CONTACT_ORGANISATION: <p>Intergovernmental Oceanographic Commission (IOC) of UNESCO</p>
 STAT_CONC_DEF: >-
-  <h2><u>Definitions:</u></h2>
+  <h2>Definitions:</h2>
 
-  <p>Ocean acidification is the reduction in the pH of the ocean over an
-  extended period, typically of decades or longer, which is caused primarily by
-  the uptake of carbon dioxide from the atmosphere<sup><a href="#footnote-2"
+  <p>Ocean acidification is the decrease of seawater pH over an extended period,
+  typically of decades or longer, which is caused primarily by the uptake of
+  carbon dioxide from the atmosphere<sup><a href="#footnote-2"
   id="footnote-ref-2">[1]</a></sup>. </p>
 
   <p>This indicator is based on observations that constrain the ocean carbon
@@ -40,7 +43,7 @@ STAT_CONC_DEF: >-
   provide data of sufficient quality and with comprehensive metadata information
   to enable integration with data from other sites in the country. </p>
 
-  <p><strong><u>Concepts:</u></strong></p>
+  <p><strong>Concepts:</strong></p>
 
   <p>Ocean acidification is caused by an increase in the amount of dissolved
   atmospheric CO<sub>2</sub> in the seawater. The average marine acidity is
@@ -65,9 +68,11 @@ UNIT_MEASURE: >-
 CLASS_SYSTEM: >-
   <p>The SDG indicator 14.3.1 methodology was endorsed by IOC Member States at
   the Fifty-first Session of the IOC Executive Council (IOC/EC-LI/2 Annex 6
-  rev). The methodology was further community approved as an Ocean Best Practice
-  (<a
-  href="http://dx.doi.org/10.25607/OBP-655">http://dx.doi.org/10.25607/OBP-655</a>).</p>
+  rev). In November 2018, the SDG indicator 14.3.1 was upgraded to Tier II by
+  the UN Inter&#x2011;agency and Expert Group on SDG indicators (IAEG-SDGs). The
+  methodology was further community approved as an Ocean Best Practice (<a
+  href="http://dx.doi.org/10.25607/OBP-655">http://dx.doi.org/10.25607/OBP-655</a>).
+  </p>
 SOURCE_TYPE: >-
   <p>The general IOC data collection process is described in Document <a
   href="http://www.ioc-unesco.org/index.php?option=com_oe&amp;task=viewDocumentRecord&amp;docID=19589">IOC-XXIX/2Annex
@@ -120,7 +125,10 @@ SOURCE_TYPE: >-
   for a direct submission of metadata and data, the portal further provides the
   full text of the SDG 14.3.1 Indicator Methodology, the data template, the
   metadata template and the metadata instructions file. Since 2020 a newly
-  developed FAQ section facilitates the provision of 14.3.1 data. </p>
+  developed FAQ section facilitates the provision of 14.3.1 data. IOC is
+  developing a federated data system to automatically harvest data from other
+  relevant ocean carbon databases and repositories into the SDG 14.3.1 Indicator
+  database.</p>
 
   <p>Furthermore the<a href="http://portal.goa-on.org/"> GOA-ON data portal</a>
   features open access data, in addition to a global monitoring asset inventory.
@@ -142,11 +150,13 @@ COLL_METHOD: >-
   relevant scientists, agencies or programmes. An annual data submission request
   is sent out via IOC Circular Letters directly to the member states asking for
   the respective data and metadata (through circular letter <a
-  href="https://oceanexpert.org/document/26312">2792</a> in 2019 and circular
-  letter <a href="https://oceanexpert.org/document/27502">2815</a> in 2020). New
-  updates and the inclusion of new features to the SDG 14.3.1 data portal to be
-  developed in 2021 will facilitate with collaboration with other existing ocean
-  carbon data centres and biogeochemical data platforms. </p>
+  href="https://oceanexpert.org/document/26312">2792</a> in 2019, circular
+  letter <a href="https://oceanexpert.org/document/27502">2815</a> in 2020 and
+  circular letter <a
+  href="https://unesdoc.unesco.org/ark:/48223/pf0000379637">2859</a> in 2021).
+  New updates and the inclusion of new features to the SDG 14.3.1 data portal to
+  be developed in 2022 will facilitate with collaboration with other existing
+  ocean carbon data centres and biogeochemical data platforms. </p>
 
   <p>Furthermore, IOC benefits from direct contributions from ocean
   acidification scientists organized within the Global Ocean Acidification
@@ -164,7 +174,7 @@ COLL_METHOD: >-
   coastal environments, which can be subject to large variability and a range of
   influences, such as nutrient and freshwater inputs, guidelines for the
   measurement of pH and carbonate chemistry can be found here (Pimenta and Grear
-  2018)</p>
+  2018).</p>
 
   <p>All data submitted to SDG 14.3.1 must include an estimate of measurement
   uncertainty in the metadata. Autonomous sensors for pH and
@@ -182,8 +192,8 @@ FREQ_COLL: >-
   <p>National data sets should be reported annually (at the least), following
   the request by IOC Circular letters. However, experts, national focal points
   of Member States and NODCs are invited to submit data throughout the year via
-  the SDG 14.3.1 data portal. The next invitation via a Circular Letter will be
-  send in during the second semester of 2021.</p>
+  the SDG 14.3.1 data portal. The invitation via a Circular Letter will be sent
+  during the second semester of each year. </p>
 REL_CAL_POLICY: <p>Data are released in February each year.</p>
 DATA_SOURCE: >-
   <p>The general IOC data collection process is described in Document
@@ -215,18 +225,19 @@ INST_MANDATE: >-
   processes of its Member States. In addition, IOC is recognized through the
   United Nations Convention on the Law of the Sea (UNCLOS) as a competent
   international organization in the fields of Marine Scientific Research (Part
-  XIII) and Transfer of Marine Technology (Part XIV). According to its Statutes,
-  the Commission may act also as a joint specialized mechanism of the
-  organizations of the United Nations system that have agreed to use the
-  Commission for discharging certain of their responsibilities in the fields of
-  marine sciences and ocean services, and have agreed accordingly to sustain the
-  work of the Commission. IOC is further one of the organizations supporting the
-  Global Ocean Acidification Observing Network (GOA-ON) (<a
-  href="http://goa-on.org">http://goa-on.org</a>). The Commission hosts one part
-  of the distributed GOA-ON Secretariat, fostering science collaboration and
-  capacity building in ocean acidification observations. GOA-ON actively
-  encourages its members to collect and report metadata and data relevant for
-  the SDG indicator 14.3.1.</p>
+  XIII) and Transfer of Marine Technology (Part XIV). </p>
+
+  <p>According to its Statutes, the Commission may act also as a joint
+  specialized mechanism of the organizations of the United Nations system that
+  have agreed to use the Commission for discharging certain of their
+  responsibilities in the fields of marine sciences and ocean services, and have
+  agreed accordingly to sustain the work of the Commission. IOC is further one
+  of the organizations supporting the Global Ocean Acidification Observing
+  Network (GOA-ON) (<a href="http://goa-on.org">http://goa-on.org</a>). The
+  Commission hosts one part of the distributed GOA-ON Secretariat, fostering
+  science collaboration and capacity building in ocean acidification
+  observations. GOA-ON actively encourages its members to collect and report
+  metadata and data relevant for the SDG indicator 14.3.1.</p>
 RATIONALE: >-
   <p>The ocean absorbs up to 30% of the annual emissions of anthropogenic
   CO<sub>2</sub> to the atmosphere, helping to alleviate the impacts of climate
@@ -310,7 +321,9 @@ REC_USE_LIM: >-
   as well as specifying the location, accompanying biogeochemical variables and
   the person taking the measurement.</p>
 DATA_COMP: >-
-  <p>Detailed information in Attachment I IOC/EC-LI/2 Annex 6.</p>
+  <p>Detailed information in <a
+  href="https://unesdoc.unesco.org/ark:/48223/pf0000265127?3=null&amp;queryId=f3a23122-f713-4f5c-aa88-5e73275ff5f6">Attachment
+  I IOC/EC-LI/2 Annex 6</a>.</p>
 
   <p>This indicator calls for the collection of multiple observations, in the
   form of individual data points, to capture the variability in ocean acidity.
@@ -325,25 +338,27 @@ DATA_COMP: >-
   samples should enable the characterisation of a seasonal cycle at the site.
   Detailed guidelines on the minimum number of observations required are
   provided in the Methodology (<a
-  href="https://oa.iode.org">https://oa.iode.org</a>). In addition to the data
-  value, standard deviation and the total range (minimum and maximum values
-  measured), as well as underlying data used to provide traceability and
-  transparency (metadata information) should be reported. All reported values
-  should have gone through a first level quality control by the data provider.
-  If historical data is available, this should be released to enable
-  calculations about the rate of change and to compare natural variability and
-  anthropogenic effects.</p>
+  href="https://oa.iode.org">https://oa.iode.org</a>). </p>
+
+  <p>In addition to the data value, standard deviation and the total range
+  (minimum and maximum values measured), as well as underlying data used to
+  provide traceability and transparency (metadata information) should be
+  reported. All reported values should have gone through a first level quality
+  control by the data provider. If historical data is available, this should be
+  released to enable calculations about the rate of change and to compare
+  natural variability and anthropogenic effects.</p>
 
   <p>Relevant data from 2010 onwards are accepted.</p>
 DATA_VALIDATION: >-
-  <p>The counterparts are invited to provide references (metadata) for the
+  <p>The counterparts are invited to provide references (<a
+  href="https://oceanexpert.org/document/26001">metadata</a>) for the
   information provided. Data provided by experts, who are not representatives of
   NODCs or IOC Member States, are sent for national validation to the relevant
   official counterparts.</p>
 
   <p>Further IOC receives verified information by the identified representatives
   of its Member States directly, which entails the validation necessary to be
-  published for the SDG indicator 14.3.1 assessments</p>
+  published for the SDG indicator 14.3.1 assessments.</p>
 ADJUSTMENT: >-
   <p>The 14.3.1 data and metadata files give detailed information about the
   requested data and metadata to report. Data and metadata files contain
@@ -361,33 +376,38 @@ ADJUSTMENT: >-
   independent of where the data were collected within the water column; however,
   they are encouraged to provide surface data (&#x2264; 10 m). </p>
 IMPUTATION: >-
-  <p><strong><u>At country level</u></strong></p>
+  <ul>
+    <li><strong>At country level</strong></li>
+  </ul>
 
   <p>Some missing values may be modelled or calculated if established
   methodologies exist (see Recommendations for calculation of the carbonate
   system in IOC/EC-LI/2 Annex 6).</p>
 
-  <p><strong><u>At regional and global levels</u></strong></p>
+  <ul>
+    <li><strong>At regional and global levels</strong></li>
+  </ul>
 
   <p>Regional aggregates are permissible if more than 50% of coastal nations
   have reported values.</p>
 REG_AGG: >-
   <p>Every country or nominated IODE National Oceanographic Data Centre
-  (NODC)/Associated Data Unit (ADU)<sup><a href="#footnote-3"
-  id="footnote-ref-3">[2]</a> </sup>will provide annually updated data sets.
-  Aggregations across regions will require data of comparable quality and all
-  relevant metadata with site-specific information be included in the data sets.
-  Due to the variability of measurements and the prevalence of areas with high
-  variability in ocean acidity, the aggregation of measurement averages (equally
-  weighed annual mean) across coastal marine habitat and ecosystem types is
-  difficult to interpret and is therefore discouraged. </p><div
+  (NODC)/Associated Data Unit (ADU)<sup><sup><a href="#footnote-3"
+  id="footnote-ref-3">[2]</a></sup> </sup>will provide annually updated data
+  sets. Aggregations across regions will require data of comparable quality and
+  all relevant metadata with site-specific information be included in the data
+  sets. Due to the variability of measurements and the prevalence of areas with
+  high variability in ocean acidity, the aggregation of measurement averages
+  (equally weighed annual mean) across coastal marine habitat and ecosystem
+  types is difficult to interpret and is therefore discouraged. </p><div
   class="footnotes"><div><sup class="footnote-number" id="footnote-3">2</sup><p>
   https://www.iode.org/index.php?option=com_oe&amp;task=viewGroupRecord&amp;groupID=349
   <a href="#footnote-ref-3">&#x2191;</a></p></div></div>
 DOC_METHOD: >-
-  <p>The SDG 14.3.1 Indicator Methodology presented in the document
-  IOC-XXIX/2Annex 14, IOC/EC-LI/2 Annex 6 provides guidelines for the collection
-  of measurements towards the Indicator. Data and metadata files in which all of
+  <p>The SDG 14.3.1 Indicator Methodology presented in the document <a
+  href="https://unesdoc.unesco.org/ark:/48223/pf0000265127?3=null&amp;queryId=f3a23122-f713-4f5c-aa88-5e73275ff5f6">IOC-XXIX/2Annex
+  14, IOC/EC-LI/2 Annex 6</a> provides guidelines for the collection of
+  measurements towards the Indicator. Data and metadata files in which all of
   the relevant measurements should be compiled will be provided to the data
   centre or data originator. This data will be collected by the relevant
   national data centers, such as National Statistical Offices (NSOs) and
@@ -395,94 +415,28 @@ DOC_METHOD: >-
   Indicator&#x2019;s custodian agency, the IOC of UNESCO<sup><a
   href="#footnote-4" id="footnote-ref-4">[3]</a></sup>. </p>
 
-  <p>The Indicator Methodology comprises an overview of statements on best
-  practice and links to several Standard Operating Procedures (SOPs). These
-  procedures represent the best practices compiled by the leading researcher in
-  the field and have been made freely available. A list of relevant material, as
-  referenced in the Indicator Methodology, can be found here: <a
+  <p>Table 1 comprises an overview of statements on best practice and links to
+  several Standard Operating Procedures (SOPs). These procedures represent the
+  best practices compiled by the leading researcher in the field and have been
+  made freely available. A list of relevant material, as referenced in the
+  Indicator Methodology, can be found here: <a
   href="http://www.ioccp.org/index.php/documents/standards-and-methods">http://www.ioccp.org/index.php/documents/standards-and-methods</a></p>
 
-  <p>Table 1. List of standard operating procedures to measure different
-  parameters of the carbonate system (procedures marked with * are able to
-  attain climate quality). </p>
+  <p>The collection of samples followed by their analysis according to the
+  methods and standards included in the SDG 14.3.1 Indicator Methodology is of
+  the greatest importance for the production of data that can be collated
+  towards the global comparison of ocean acidification data of known quality
+  under this indicator. Guidance on how to collect, analyse and manage the data
+  is provided in the methodology and associated metadata and its metadata
+  instruction file. </p>
 
-  <table>
-    <thead>
-      <tr>
-        <th></th>
-        <th>
-          <p><strong>Discrete</strong></p>
-        </th>
-        <th>
-          <p><strong>Underway</strong></p>
-        </th>
-        <th>
-          <p><a href="http://www.ioccp.org/index.php/instruments-and-sensors"><strong>Fixed autonomous sensors</strong></a></p>
-        </th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>
-          <p><strong>pH</strong></p>
-        </td>
-        <td>
-          <p><a href="http://www.ioccp.org/images/D4standards/Dickson-2007/sop06b.pdf">Spectrophotometric</a><u> *</u></p>
-          <p><a href="http://www.ioccp.org/images/D4standards/Dickson-2007/sop06a.pdf">Potentiometric</a><u> </u></p>
-        </td>
-        <td>
-          <p>Spectrophotometric</p>
-          <p><a href="https://www.sciencedirect.com/science/article/pii/S2211122014000413">ISFET</a></p>
-        </td>
-        <td>
-          <p>Spectrophotometric</p>
-          <p><a href="https://www.sciencedirect.com/science/article/pii/S2211122014000413">ISFET</a></p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p><strong>CT </strong></p>
-        </td>
-        <td>
-          <p>IR detection</p>
-          <p><a href="http://www.ioccp.org/images/D4standards/Dickson-2007/sop02.pdf">Coulometry</a> *</p>
-        </td>
-        <td></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td>
-          <p><strong>AT</strong></p>
-        </td>
-        <td>
-          <p><a href="http://www.ioccp.org/index.php/documents/standards-and-methods/2-uncategorised/263-guide-to-best-practices-for-ocean-co2-measurements">Potentiometric titration</a> (open and <a href="http://www.ioccp.org/images/D4standards/Dickson-2007/sop03a.pdf">closed cell</a>; <a href="http://www.ioccp.org/images/D4standards/Dickson-2007/sop03b.pdf">open recommended</a>) *</p>
-        </td>
-        <td></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td>
-          <p><strong><em>p</em>CO<sub>2</sub></strong></p>
-        </td>
-        <td></td>
-        <td>
-          <p><a href="https://www.sciencedirect.com/science/article/pii/S0967064508004268">Equilibration, headspace</a><u> *</u></p>
-          <p>Membrane-based</p>
-        </td>
-        <td>
-          <p><a href="https://www.earth-syst-sci-data.net/6/353/2014/essd-6-353-2014.html">Equilibration</a> *</p>
-          <p>Membrane-based</p>
-        </td>
-      </tr>
-    </tbody>
-  </table>
-
-  <p>The document IOC-XXIX/2Annex 14, IOC/EC-LI/2 Annex 6 further provides
-  guidance on sampling strategies, sampling frequencies, recommendations for
-  calculation of the carbonate system and uncertainty of measurement.</p><div
-  class="footnotes"><div><sup class="footnote-number" id="footnote-4">3</sup><p>
-  IOC-XXIX/2Annex 14, IOC/EC-LI/2 Annex 6 <a
-  href="#footnote-ref-4">&#x2191;</a></p></div></div>
+  <p>The document <a
+  href="https://unesdoc.unesco.org/ark:/48223/pf0000265127?3=null&amp;queryId=f3a23122-f713-4f5c-aa88-5e73275ff5f6">IOC-XXIX/2Annex
+  14, IOC/EC-LI/2 Annex 6</a> further provides guidance on sampling strategies,
+  sampling frequencies, recommendations for calculation of the carbonate system
+  and uncertainty of measurement.</p><div class="footnotes"><div><sup
+  class="footnote-number" id="footnote-4">3</sup><p> IOC-XXIX/2Annex 14,
+  IOC/EC-LI/2 Annex 6 <a href="#footnote-ref-4">&#x2191;</a></p></div></div>
 QUALITY_MGMNT: >-
   <p>For the purposes of SDG 14.3.1, three categories of measurement quality
   were established (adapted from Newton et al. 2015):</p>
@@ -532,8 +486,12 @@ QUALITY_MGMNT: >-
   measurement quality Category 1 or 2. A variety of capacity development
   activities to support Member States&#x2019; capacity in this regard are
   conducted by different organizations (more information can be found here: e.g.
-  www.iaea.org/ocean-acidification; http://ioccp.org;
-  http://www.ioc-cd.org/index.php; http://www.whoi.edu/courses/OCB-OA/). </p>
+  <a
+  href="http://www.iaea.org/ocean-acidification">www.iaea.org/ocean-acidification</a>;
+  <a href="http://ioccp.org">http://ioccp.org</a>; <a
+  href="http://www.ioc-cd.org/index.php">http://www.ioc-cd.org/index.php</a>; <a
+  href="http://www.whoi.edu/courses/OCB-OA/">http://www.whoi.edu/courses/OCB-OA/</a>).
+  </p>
 QUALITY_ASSURE: >-
   <p>Data quality control and validation processes were developed in close
   consultation with experts in the field of ocean acidification, amongst them
@@ -567,31 +525,34 @@ QUALITY_ASSURE: >-
 QUALITY_ASSMNT: >-
   <p>Following the quality control management and assurance mechanisms described
   in 4.i and 4.j, three categories of measurement quality will be attributed to
-  the individual data sets</p>
+  the individual data sets:</p>
 
   <ol>
-    <li>Established oceanographic climate quality (Category 1)</li>
-    <li>Weather quality data including that from sensors and capacity building simplified pH and alkalinity measurements, with appropriate uncertainty assessment (Category 2)</li>
+    <li>Established oceanographic climate quality (Category 1).</li>
+    <li>Weather quality data including that from sensors and capacity building simplified pH and alkalinity measurements, with appropriate uncertainty assessment (Category 2).</li>
     <li>Measurements of undefined quality (Category 3) (will not be displayed in the visualization of annual weighted means and variance of pH).</li>
   </ol>
 COVERAGE: >-
-  <p><strong><u>Data availability:</u></strong></p>
+  <p><strong>Data availability:</strong></p>
 
-  <p>Metadata and data availability continuously increase. In early 2021, SDG
-  14.3.1 data from different national and national data bases were provided
-  directly via the SDG 14.3.1 data portal (http://oa.iode.org).</p>
+  <p>Metadata and data availability continuously increase. Since 2021, SDG
+  14.3.1 data from different national and national data bases are provided
+  directly to a dedicated data portal (<a
+  href="http://oa.iode.org">http://oa.iode.org</a>). This data portal features a
+  wide range of metadata and additional data characterizing the carbonate system
+  of the seawater, not available at the global SDG database.</p>
 
   <p>In order to close existing data gaps to a) measure ocean acidification and
   b) to report SDG indicator 14.3.1 metadata and data, IOC, together with
   partners, conducts trainings and webinars. A new ocean acidification online
-  course will be available during the first semester of 2021
+  course is now available.
   (https://classroom.oceanteacher.org/tag/index.php?tc=1&amp;tag=Ocean%20acidification).
   Past and future trainings are announced on the Ocean Expert (<a
   href="https://oceanexpert.org/events/calendar">https://oceanexpert.org/events/calendar</a>)
   and GOA-ON website (<a
   href="http://goa-on.org/news/news.php">http://goa-on.org/news/news.php</a>).</p>
 
-  <p><strong><u>Disaggregation:</u></strong></p>
+  <p><strong>Disaggregation:</strong></p>
 
   <p>Countries provide complete data sets with respective site-specific data and
   metadata files.</p>
@@ -645,7 +606,9 @@ OTHER_DOC: >-
   Jewett, E.B., King, T., Langdon, C.J., McAfee, S., Pleschner-Steele, D. and
   Steele, B. (2015) Core principles of the California Current Acidification
   Network: Linking chemistry, physics, and ecological effects. Oceanography
-  28(2):160&#x2013;169, http://dx.doi.org/10.5670/oceanog.2015.39. </p>
+  28(2):160&#x2013;169, <a
+  href="http://dx.doi.org/10.5670/oceanog.2015.39">http://dx.doi.org/10.5670/oceanog.2015.39</a>.
+  </p>
 
   <p>Newton J. A., Feeley, R. A., Jewett, E. B., Williamson, P. and Mathis, J.
   (2015) Global Ocean Acidification Observing Network: Requirements and

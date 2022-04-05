@@ -9,7 +9,15 @@ SDG_TARGET: >-
 SDG_INDICATOR: >-
   <p>Indicator 9.b.1: Proportion of medium and high-tech industry value added in
   total value added</p>
-META_LAST_UPDATE: <p>2021-02-01</p>
+SDG_SERIES_DESCR: >-
+  <p>Proportion of medium and high-tech manufacturing value added in total value
+  added (%)</p>
+META_LAST_UPDATE: '2022-03-31'
+SDG_RELATED_INDICATORS: >-
+  <p>4.4.1: Proportion of youth and adults with information and communications
+  technology (ICT) skills, by type of skill</p>
+
+  <p>9.2.1: Manufacturing value added as a proportion of GDP and per capita</p>
 SDG_CUSTODIAN_AGENCIES: <p>United Nations Industrial Development Organization (UNIDO)</p>
 CONTACT_ORGANISATION: <p>United Nations Industrial Development Organization (UNIDO)</p>
 STAT_CONC_DEF: >-
@@ -38,8 +46,7 @@ STAT_CONC_DEF: >-
   exclusively to manufacturing industries. However, there have been recent
   efforts (Galindo-Rueda and Verger, 2016) to extend the definition to
   non-manufacturing industries as well. Nevertheless, medium-high and high
-  technology sectors also in new paper are primarily represented by
-  manufacturing industries.</p>
+  technology sectors are primarily represented by manufacturing industries.</p>
 
   <p>The following table includes the classification of MHT industries by ISIC
   Rev. 3 and ISIC Rev. 4.</p>
@@ -160,13 +167,13 @@ STAT_CONC_DEF: >-
       </tr>
       <tr>
         <td>
-          <p>30*</p>
+          <p>30<sup>*</sup></p>
         </td>
         <td>
           <p>Manufacture of other transport equipment </p>
         </td>
         <td>
-          <p>35**</p>
+          <p>35<sup>**</sup></p>
         </td>
         <td>
           <p>Manufacture of other transport equipment</p>
@@ -192,7 +199,7 @@ STAT_CONC_DEF: >-
 
   <p>MVA is the value added of manufacturing industry, which is Section C of
   ISIC Rev.4, and Section D of ISIC Rev.3. </p>
-UNIT_MEASURE: <p>Percentages</p>
+UNIT_MEASURE: <p>Percent (%)</p>
 CLASS_SYSTEM: >-
   <p><a
   href="https://unstats.un.org/unsd/publication/seriesm/seriesm_4rev4e.pdf">International
@@ -208,14 +215,14 @@ SOURCE_TYPE: >-
   Revision 4 respectively.</p>
 COLL_METHOD: >-
   <p>Data are collected using General Industrial Statistics Questionnaire which
-  is filled by NSOs and submitted to UNIDO annually. Data for OECD countries are
-  obtained directly from OECD. Country data are also collected from official
-  publications and official web-sites.</p>
-FREQ_COLL: <p>Data are collected annually from NSOs and OECD</p>
+  is filled by National Statistical Offices (NSOs) and submitted to UNIDO
+  annually. Data for OECD countries are obtained directly from OECD. Country
+  data are also collected from official publications and official websites.</p>
+FREQ_COLL: <p>Data are collected annually from NSOs and OECD.</p>
 REL_CAL_POLICY: <p>UNIDO INDSTAT database is updated between March and April every year.</p>
 DATA_SOURCE: >-
   <p>National statistical offices (NSOs) in non-OECD countries, and OECD
-  countries by OECD</p>
+  countries by OECD.</p>
 COMPILING_ORG: <p>United Nations Industrial Development Organization (UNIDO)</p>
 INST_MANDATE: >-
   <p>UNIDO, as the specialized UN agency on industrial development, has the
@@ -302,6 +309,7 @@ DATA_COMP: >-
         </mrow>
       </mfrac>
       <mi mathvariant="normal">*</mi>
+      <mo>&#xD7;</mo>
       <mn>100</mn>
     </math></p>
 DATA_VALIDATION: >-
@@ -337,14 +345,31 @@ DOC_METHOD: >-
 
   <p><a
   href="https://unstats.un.org/unsd/classifications/Econ/isic">https://unstats.un.org/unsd/classifications/Econ/isic</a></p>
+QUALITY_MGMNT: >-
+  <p>UNIDO published a handbook for statisticians involved in the regular
+  industrial statistics programmes of NSOs or line ministries (<a
+  href="https://www.unido.org/sites/default/files/2012-07/Industrial%20Statistics%20-%20Guidelines%20and%20Methdology_0.pdf">Industrial
+  Statistics - Guidelines and Methodology</a>). It describes the statistical
+  methods related to the major stages of industrial statistics operation.
+  Moreover, UNIDO has established a quality management framework based on the
+  internationally recognized guidelines recommended by IRIS to ensure quality of
+  statistical products.</p>
 QUALITY_ASSURE: >-
-  <p>The UNIDO quality assurance framework is followed to check data quality and
-  consistency before the data dissemination.</p>
-
-  <p>UNIDO (2009), UNIDO Data Quality: A quality assurance framework for UNIDO
-  statistical activities <a
-  href="https://open.unido.org/api/documents/4814740/download/UNIDO-Publication-2009-4814740">https://open.unido.org/api/documents/4814740/download/UNIDO-Publication-2009-4814740</a>
-  </p>
+  <p><a href="https://unstats.un.org/unsd/unsystem/Documents/QAF-UNIDO.pdf">The
+  UNIDO Quality Assurance Framework</a> is followed to ensure that the
+  statistical activities of UNIDO are relevant and the data compiled and
+  disseminated are accurate, complete within the defined scope and coverage,
+  timely, comparable in terms of internationally recommended methods and
+  classification standards and internally coherent to variables included in the
+  datasets. While these generally accepted, broad dimensions of quality of
+  statistical data may be defined in each NSO&apos;s own quality assurance
+  framework. UNIDO makes maximum effort that data produced from the statistical
+  operation undertaken with the UNIDO technical cooperation are accurate,
+  internationally comparable and coherent.</p>
+QUALITY_ASSMNT: >-
+  <p>UNIDO employs a wide range of data quality techniques and consultations
+  with national providers to assure quality principles supported by the
+  Fundamental Principles of Official Statistics. </p>
 COVERAGE: >-
   <p><strong>Data availability:</strong></p>
 
@@ -372,15 +397,25 @@ OTHER_DOC: >-
 
   <h2>References:</h2>
 
-  <p>UNIDO Publication - The Industrial Competitiveness of Nations 2013</p>
-
-  <p>Competitive Industrial Performance (CIP) report 2018</p>
+  <p>Competitive Industrial Performance (CIP) report 2018. <a
+  href="https://www.unido.org/sites/default/files/files/2019-05/CIP_Report_2019.pdf">https://www.unido.org/sites/default/files/files/2019-05/CIP_Report_2019.pdf</a></p>
 
   <p>International Standard Industrial Classification of All Economic Activities
-  2008</p>
+  2008. <a
+  href="https://unstats.un.org/unsd/publication/seriesm/seriesm_4rev4e.pdf">https://unstats.un.org/unsd/publication/seriesm/seriesm_4rev4e.pdf</a></p>
 
   <p>Galindo-Rueda, F. and F. Verger (2016). OECD Taxonomy of Economic
   Activities Based on R&amp;D Intensity, OECD Science, Technology and Industry
   Working Papers, 2016/04, OECD Publishing, Paris. Available at:</p>
 
   <p>http://dx.doi.org/10.1787/5jlv73sqqp8r-en</p>
+
+  <p>UNIDO (2009). UNIDO Data Quality: A quality assurance framework for UNIDO
+  statistical activities <a
+  href="https://open.unido.org/api/documents/4814740/download/UNIDO-Publication-2009-4814740">https://open.unido.org/api/documents/4814740/download/UNIDO-Publication-2009-4814740</a></p>
+
+  <p>UNIDO (2010). Industrial Statistics - Guidelines and Methodology
+  https://www.unido.org/sites/default/files/2012-07/Industrial%20Statistics%20-%20Guidelines%20and%20Methdology_0.pdf</p>
+
+  <p>UNIDO (2013). The Industrial Competitiveness of Nations 2013. <a
+  href="https://www.unido.org/sites/default/files/2013-07/Competitive_Industrial_Performance_Report_UNIDO_2012_2013_0.PDF">https://www.unido.org/sites/default/files/2013-07/Competitive_Industrial_Performance_Report_UNIDO_2012_2013_0.PDF</a></p>

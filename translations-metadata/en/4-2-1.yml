@@ -3,13 +3,17 @@ SDG_GOAL: >-
   lifelong learning opportunities for all</p>
 SDG_TARGET: >-
   <p>Target 4.2: By 2030, ensure that all girls and boys have access to quality
-  early childhood development, care and pre&#x2011;primary education so that
-  they are ready for primary education</p>
+  early childhood development, care and pre-primary education so that they are
+  ready for primary education</p>
 SDG_INDICATOR: >-
   <p>Indicator 4.2.1: Proportion of children aged 24&#x2013;59 months who are
   developmentally on track in health, learning and psychosocial well-being, by
   sex</p>
-META_LAST_UPDATE: <p>2021-03-01</p>
+SDG_SERIES_DESCR: >-
+  <p>Proportion of children who are developmentally on track in at least three
+  of the following domains: literacy-numeracy, physical development,
+  social-emotional development, and learning</p>
+META_LAST_UPDATE: '2022-03-31'
 SDG_RELATED_INDICATORS: >-
   <p>Indicator 4.2.2: Participation rate in organized learning (one year before
   the official primary entry age), by sex</p>
@@ -27,9 +31,9 @@ STAT_CONC_DEF: >-
   following concepts:</p>
 
   <ul>
-    <li><strong>Health</strong>: gross motor development, fine motor development and self-care</li>
-    <li><strong>Learning</strong>: expressive language, literacy, numeracy, pre-writing, and executive functioning</li>
-    <li><strong>Psychosocial well-being: </strong>emotional skills, social skills, internalizing behavior, and externalizing behavior</li>
+    <li><strong>Health</strong>: gross motor development, fine motor development and self-care.</li>
+    <li><strong>Learning</strong>: expressive language, literacy, numeracy, pre-writing, and executive functioning.</li>
+    <li><strong>Psychosocial well-being: </strong>emotional skills, social skills, internalizing behavior, and externalizing behavior.</li>
   </ul>
 
   <p>The recommended measure for SDG 4.2.1 is the Early Childhood Development
@@ -46,7 +50,8 @@ STAT_CONC_DEF: >-
     <li>Children age 42 to 47 months are classified as developmentally on-track if they have achieved at least 13 milestones;</li>
     <li>Children age 48 to 59 months are classified as developmentally on-track if they have achieved at least 15 milestones. </li>
   </ul>
-UNIT_MEASURE: <p>Proportion</p>
+UNIT_MEASURE: <p>Percent (%)</p>
+CLASS_SYSTEM: <p>Not applicable</p>
 SOURCE_TYPE: >-
   <p>In 2015, UNICEF initiated a process of methodological development that
   involved extensive consultations with experts, partner agencies and national
@@ -65,7 +70,8 @@ SOURCE_TYPE: >-
 
   <p>The ECDI2030 can be integrated into existing national data collection
   efforts, including international household survey programmes such as
-  UNICEF-supported MICS and the Demographic and Health Surveys. </p>
+  UNICEF-supported Multiple Indicator Cluster Surveys (MICS) and the Demographic
+  and Health Surveys (DHS). </p>
 
   <p>The ECDI2030 is meant to replace the Early Childhood Development Index (or
   ECDI) which collects data on the proxy indicator for SDG 4.2.1 that has been
@@ -84,14 +90,14 @@ COLL_METHOD: >-
   </ul>
 
   <p>As of 2018, UNICEF launched a new country consultation process with
-  national authorities on selected child-related global SDG indicators it is
-  custodian or co-custodian to meet emerging standards and guidelines on data
-  flows for global reporting of SDG indicators, which place strong emphasis on
-  technical rigour, country ownership and use of official data and statistics.
-  The consultation process solicited feedback directly from National Statistical
-  Offices, as well as other government agencies responsible for official
-  statistics, on the compilation of the indicators, including the data sources
-  used, and the application of internationally agreed definitions,
+  national authorities on selected child-related global SDG indicators for which
+  it is custodian or co-custodian to meet emerging standards and guidelines on
+  data flows for global reporting of SDG indicators, which place strong emphasis
+  on technical rigour, country ownership and use of official data and
+  statistics. The consultation process solicits feedback directly from National
+  Statistical Offices (NSOs), as well as other government agencies responsible
+  for official statistics, on the compilation of the indicators, including the
+  data sources used, and the application of internationally agreed definitions,
   classification and methodologies to the data from that source. Once reviewed,
   feedback is made available to countries on whether or not specific data points
   are accepted, and if not, the reasons why. </p>
@@ -103,7 +109,7 @@ REL_CAL_POLICY: >-
   <p>Updated data on 4.2.1 as measured by the ECDI2030 will be available in the
   SDG reporting period every February/March.</p>
 DATA_SOURCE: <p>National Statistical Offices (in most cases)</p>
-COMPILING_ORG: <p>UNICEF</p>
+COMPILING_ORG: <p>United Nations Children&apos;s Fund (UNICEF)</p>
 INST_MANDATE: >-
   <p>UNICEF is responsible for global monitoring and reporting on the wellbeing
   of children. It provides technical and financial assistance to Member States
@@ -146,7 +152,7 @@ DATA_VALIDATION: >-
   <p>A wide consultative process is undertaken to compile, assess and validate
   data from national sources. </p>
 
-  <p>The consultation process solicited feedback directly from National
+  <p>The consultation process solicits feedback directly from National
   Statistical Offices, as well as other government agencies responsible for
   official statistics, on the compilation of the indicators, including the data
   sources used, and the application of internationally agreed definitions,
@@ -154,19 +160,22 @@ DATA_VALIDATION: >-
   this country consultation are reviewed by UNICEF as the custodian agency. Once
   reviewed, feedback is made available to countries on whether or not specific
   data points are accepted, and if not, the reasons why. </p>
+ADJUSTMENT: >-
+  <p>The estimates compiled and presented at global level come directly from
+  nationally produced data and are not adjusted or recalculated.</p>
 IMPUTATION: >-
   <p><strong>&#x2022; At country level</strong></p>
 
   <p>When data for a country are entirely missing, UNICEF does not publish any
-  country-level estimate</p>
+  country-level estimate.</p>
 
   <p><strong>&#x2022; At regional and global levels</strong></p>
 
   <p>The regional average is applied to those countries within the region with
   missing values for the purposes of calculating regional aggregates only but
   are not published as country-level estimates. Regional aggregates are only
-  published when at least 50 per cent of the regional population for the
-  relevant age group are covered by the available data.</p>
+  published when at least 50 percent of the regional population for the relevant
+  age group are covered by the available data.</p>
 REG_AGG: >-
   <p>The global aggregate is a weighted average of all countries with available
   data. Global aggregates are published regardless of population coverage, but
@@ -203,19 +212,18 @@ QUALITY_ASSURE: >-
   authorities on 10 of the child-related SDG indicators in its role of sole or
   joint custodian, and in line with its global monitoring mandate and normative
   commitments to advancing the 2030 Agenda for children. This includes indicator
-  4.2.1. More details on the process for the country consultation are outlined
-  below.</p>
+  4.2.1. </p>
 QUALITY_ASSMNT: >-
   <p>Data consistency and quality checks are regularly conducted for validation
-  of the data before dissemination </p>
+  of the data before dissemination. </p>
 COVERAGE: >-
   <p><strong>Data availability:</strong></p>
 
   <p>Data on the indicator collected through implementation of the ECDI2030 are
-  expected to become available beginning in 2021. Comparable data collected by
-  the ECDI are currently available for close to 80 countries. Countries with
-  data on the proxy indicator collected with the ECDI will continue to be used
-  for global SDG reporting until new data using the ECDI2030 are available. </p>
+  expected to become available, beginning in 2022. Comparable data collected by
+  the ECDI are currently available for around 80 countries. Countries with data
+  on the proxy indicator collected with the ECDI will continue to be used for
+  global SDG reporting until new data using the ECDI2030 are available. </p>
 
   <p><strong>Time series:</strong></p>
 
@@ -229,8 +237,13 @@ COMPARABILITY: >-
 
   <p>The estimates compiled and presented at global level come directly from
   nationally produced data and are not adjusted or recalculated.</p>
-OTHER_DOC: |-
+OTHER_DOC: >-
   <p><strong>URL:</strong></p>
+
   <p>data.unicef.org</p>
+
   <p><strong>References:</strong></p>
-  <p>http://data.unicef.org/ecd/development-status.html</p>
+
+  <p><a
+  href="http://data.unicef.org/ecd/development-status.html">http://data.unicef.org/ecd/development-status.html</a>
+  </p>

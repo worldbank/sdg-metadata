@@ -8,10 +8,16 @@ SDG_TARGET: >-
 SDG_INDICATOR: >-
   <p>Indicator 8.8.1: Fatal and non-fatal occupational injuries per 100,000
   workers, by sex and migrant status</p>
-META_LAST_UPDATE: <p>2021-01-01</p>
-SDG_RELATED_INDICATORS: <p>1.3.1</p>
-SDG_CUSTODIAN_AGENCIES: <p>ILO</p>
-CONTACT_ORGANISATION: <p>ILO</p>
+SDG_SERIES_DESCR: >-
+  <p>Non-fatal occupational injuries among employees, by sex and migrant status
+  (per 100,000 employees)</p>
+
+  <p>Fatal occupational injuries among employees, by sex and migrant status (per
+  100,000 employees)</p>
+META_LAST_UPDATE: '2022-03-31'
+SDG_RELATED_INDICATORS: '<p>1.3.1, 8.8.2</p>'
+SDG_CUSTODIAN_AGENCIES: <p>International Labour Organisation (ILO)</p>
+CONTACT_ORGANISATION: <p>International Labour Organisation (ILO)</p>
 STAT_CONC_DEF: >-
   <p><strong>Definition:</strong> </p>
 
@@ -25,7 +31,7 @@ STAT_CONC_DEF: >-
 
   <p>The number of occupational injuries expressed per a given number of workers
   in the reference group is also known as the incidence rate of occupational
-  injuries </p>
+  injuries. </p>
 
   <p> </p>
 
@@ -33,11 +39,11 @@ STAT_CONC_DEF: >-
 
   <p>Definitions of the main concepts presented below are derived from the
   Resolution concerning statistics of occupational injuries (resulting from
-  occupational accidents), adopted by the 16th ICLS in 1998 </p>
+  occupational accidents), adopted by the 16th International Conference of
+  Labour Statisticians (ICLS) in 1998 </p>
 
   <p>(<a
-  href="http://www.ilo.org/global/statistics-and-databases/standards-and-guidelines/resolutions-adopted-byinternational-conferences-of-labour-statisticians/WCMS_087528/lang--en/index.htm"
-  target="_blank"><u>http://www.ilo.org/global/statistics-and-databases/standards-and-guidelines/resolutions-adopted-byinternational-conferences-of-labour-statisticians/WCMS_087528/lang--en/index.htm</u></a>).
+  href="https://www.ilo.org/global/statistics-and-databases/standards-and-guidelines/resolutions-adopted-by-international-conferences-of-labour-statisticians/WCMS_087528/lang--en/index.htm">https://www.ilo.org/global/statistics-and-databases/standards-and-guidelines/resolutions-adopted-by-international-conferences-of-labour-statisticians/WCMS_087528/lang--en/index.htm</a>).
   </p>
 
   <p> </p>
@@ -58,7 +64,7 @@ STAT_CONC_DEF: >-
   time to risk factors linked to the work activity. Diseases are included only
   in cases where the disease arose as a direct result of an accident. An
   occupational injury can be fatal or non-fatal (and non-fatal injuries could
-  entail the loss of work days). </p>
+  entail the loss of workdays). </p>
 
   <p> </p>
 
@@ -79,7 +85,7 @@ STAT_CONC_DEF: >-
   occupation, region, age group, or any combination of these, or those covered
   by a particular insurance scheme, accident notification systems, or household
   or establishment survey). </p>
-UNIT_MEASURE: '<p>Ratio of cases per 100&#x2019;000 workers</p>'
+UNIT_MEASURE: '<p>Ratio of cases per 100,000 workers</p>'
 CLASS_SYSTEM: >-
   <p>Migrant status is determined according to country of birth (native-born or
   foreign-born) or country of citizenship (citizen or non-citizen). </p>
@@ -100,7 +106,7 @@ SOURCE_TYPE: >-
   excluded from the statistics, as recommended. </p>
 COLL_METHOD: >-
   <p>The ILO Department of Statistics processes national household survey
-  microdatasets in line with internationally-agreed indicator concepts and
+  microdata sets in line with internationally-agreed indicator concepts and
   definitions set forth by the International Conference of Labour Statisticians.
   For data that could not be obtained through this processing or directly from
   government websites, the ILO sends out an annual ILOSTAT questionnaire to all
@@ -113,14 +119,14 @@ REL_CAL_POLICY: <p>Continuous</p>
 DATA_SOURCE: >-
   <p>Labour ministries, labour inspection, national insurance, and/or national
   statistical offices </p>
-COMPILING_ORG: <p>ILO </p>
+COMPILING_ORG: <p>International Labour Organisation (ILO) </p>
 INST_MANDATE: >-
   <p>The ILO is the UN focal point for labour statistics. It sets international
   standards for labour statistics through the International Conference of Labour
   Statisticians. It also compiles and produces labour statistics with the goal
   of disseminating internationally-comparable datasets, and provides technical
   assistance and training to ILO member States to support their efforts to
-  produce high quality labour market data.</p>
+  produce high quality labour market data. </p>
 RATIONALE: >-
   <p>This indicator provides valuable information that could be used to
   formulate policies and programmes for the prevention of occupational injuries,
@@ -141,11 +147,11 @@ RATIONALE: >-
   employers&#x2019; organizations, workers and workers&#x2019; organizations to
   introduce accident prevention measures. </p>
 REC_USE_LIM: >-
-  <p>There may be problems of under reporting of occupational injuries, and
+  <p>There may be problems of underreporting of occupational injuries, and
   proper systems should be put in place to ensure the best reporting and data
-  quality. Under reporting is thought to be present in countries at all levels
-  of development, but may be particularly problematic in some developing
-  countries. Data users should be aware of this issue when analysing the data.
+  quality. Underreporting is thought to be present in countries at all levels of
+  development but may be particularly problematic in some developing countries.
+  Data users should be aware of this issue when analysing the data.
   Double-counting of cases of occupational injury may also happen in cases where
   data from several registries (records kept by different agencies, for example)
   are consolidated to have more comprehensive statistics. </p>
@@ -516,34 +522,49 @@ DATA_VALIDATION: >-
   ILOSTAT questionnaire and related Statistics Reporting System (StaRS).
   National data providers receive a link to the portal where they can review all
   national SDG data available on ILOSTAT.</p>
-ADJUSTMENT: <p>Not applicable.</p>
-IMPUTATION: <p>Not applicable. </p>
-REG_AGG: <p>Not applicable.</p>
+ADJUSTMENT: <p>Not applicable</p>
+IMPUTATION: <p>Not applicable</p>
+REG_AGG: <p>Not applicable</p>
 DOC_METHOD: >-
   <p>This indicator could come from a variety of sources at the national level,
   including various kinds of administrative records (insurance records, labour
   inspection records, etc.), household surveys and establishment surveys. </p>
 
   <ul>
-    <li>ILO Guidebook - Decent Work and the Sustainable Development Goals: A Guidebook on SDG Labour Market Indicators (<a href="https://www.ilo.org/stat/Publications/WCMS_647109/lang--en/index.htm" target="_blank"><u>https://www.ilo.org/stat/Publications/WCMS_647109/lang--en/index.htm</u></a> ) </li>
-    <li>ILO Manual &#x2013; Decent Work Indicators, Concepts and Definitions &#x2013; Chapter 8, Safe work environment <a href="http://www.ilo.org/integration/resources/pubs/WCMS_229374/lang--%20en/index.htm" target="_blank"><u>http://www.ilo.org/integration/resources/pubs/WCMS_229374/lang-- en/index.htm</u></a> (second version, page 156) </li>
-    <li>Resolution concerning statistics of occupational injuries (resulting from occupational accidents) <a href="http://www.ilo.org/global/statistics-and-databases/standards-and-guidelines/resolutionsadopted-by-international-conferences-of-labour-statisticians/WCMS_087528/lang--en/index.htm" target="_blank"><u>http://www.ilo.org/global/statistics-and-databases/standards-and-guidelines/resolutionsadopted-by-international-conferences-of-labour-statisticians/WCMS_087528/lang--en/index.htm</u></a> </li>
+    <li>ILO Guidebook - Decent Work and the Sustainable Development Goals: A Guidebook on SDG Labour Market Indicators (<a href="https://www.ilo.org/global/statistics-and-databases/publications/WCMS_647109/lang--en/index.htm">https://www.ilo.org/global/statistics-and-databases/publications/WCMS_647109/lang--en/index.htm</a>) </li>
+    <li>ILO Manual &#x2013; Decent Work Indicators, Concepts and Definitions &#x2013; Chapter 8, Safe work environment <a href="https://www.ilo.org/integration/resources/pubs/WCMS_229374/lang--en/index.htm">https://www.ilo.org/integration/resources/pubs/WCMS_229374/lang--en/index.htm</a> (second version, page 156) </li>
+    <li>Resolution concerning statistics of occupational injuries (resulting from occupational accidents) <a href="https://www.ilo.org/global/statistics-and-databases/standards-and-guidelines/resolutions-adopted-by-international-conferences-of-labour-statisticians/WCMS_087528/lang--en/index.htm">https://www.ilo.org/global/statistics-and-databases/standards-and-guidelines/resolutions-adopted-by-international-conferences-of-labour-statisticians/WCMS_087528/lang--en/index.htm</a> </li>
     <li>Global database on occupational safety and health legislation &#x2013; LEGOSH <a href="http://www.ilo.org/safework/info/publications/WCMS_217849/lang--en/index.htm" target="_blank"><u>http://www.ilo.org/safework/info/publications/WCMS_217849/lang--en/index.htm</u></a> </li>
-    <li>Occupational injuries statistics from household surveys and establishment surveys <a href="http://www.ilo.org/stat/Publications/WCMS_173153/lang--en/index.htm" target="_blank"><u>http://www.ilo.org/stat/Publications/WCMS_173153/lang--en/index.htm</u></a> </li>
+    <li>Occupational injuries statistics from household surveys and establishment surveys <a href="https://www.ilo.org/wcmsp5/groups/public/---dgreports/---stat/documents/publication/wcms_173153.pdf">https://www.ilo.org/wcmsp5/groups/public/---dgreports/---stat/documents/publication/wcms_173153.pdf</a> </li>
     <li>ILOSTAT (<a href="https://ilostat.ilo.org/" target="_blank"><u>https://ilostat.ilo.org</u></a>) </li>
-    <li>ILOSTAT Metadata &#x2013; Indicator descriptions (<a href="https://ilostat.ilo.org/resources/methods/description-occupational-injuries/" target="_blank"><u>https://ilostat.ilo.org/resources/methods/description-occupational-injuries/</u></a>) </li>
+    <li>ILOSTAT Metadata &#x2013; Indicator descriptions (<a href="https://ilostat.ilo.org/resources/concepts-and-definitions/description-occupational-injuries/">https://ilostat.ilo.org/resources/concepts-and-definitions/description-occupational-injuries/</a>) </li>
   </ul>
+QUALITY_MGMNT: >-
+  <p>The processes of compilation, production, and publication of data,
+  including its quality control, are carried out following the methodological
+  framework and standards established by the ILO Department of Statistics, in
+  compliance with the information technology and management standards of the
+  ILO.</p>
 QUALITY_ASSURE: >-
   <p>Data consistency and quality checks are regularly conducted for validation
-  of the data before dissemination in the ILOSTAT database. . </p>
+  of the data before dissemination in the ILOSTAT database. </p>
+QUALITY_ASSMNT: >-
+  <p>The final assessment of the quality of information is carried out by the
+  Data Production and Analysis Unit of the ILO Department of Department. In
+  cases of doubt about the quality of specific data, these values are reviewed
+  with the participation of the national agencies responsible for producing the
+  data if appropriate. If the issues cannot be clarified, the respective
+  information is not published.</p>
 COVERAGE: >-
   <p><strong>Data availability:</strong> </p>
 
-  <p>Data for this indicator is available for 87 countries and territories.</p>
+  <p>Data on fatal injuries per 100,000 workers is available for 96 countries
+  and territories. Data on injuries per 100,000 workers is available for 94
+  countries and territories.</p>
 
   <p><strong>Time series:</strong> </p>
 
-  <p>The submission covers data from 2000 to 2019.</p>
+  <p>The submission covers data from 2000 to 2020.</p>
 
   <p><strong>Disaggregation:</strong></p>
 
@@ -581,9 +602,9 @@ COMPARABILITY: >-
 OTHER_DOC: |-
   <p> </p>
   <ul>
-    <li>ILO Guidebook - Decent Work and the Sustainable Development Goals: A Guidebook on SDG Labour Market Indicators (<a href="https://www.ilo.org/stat/Publications/WCMS_647109/lang--en/index.htm" target="_blank"><u>https://www.ilo.org/stat/Publications/WCMS_647109/lang--en/index.htm</u></a> ) </li>
-    <li>ILOSTAT database: https://ilostat.ilo.org </li>
-    <li>ILOSTAT Metadata &#x2013; Indicator Descriptions (<a href="https://ilostat.ilo.org/resources/methods/description-occupational-injuries/" target="_blank"><u>https://ilostat.ilo.org/resources/methods/description-occupational-injuries/</u></a>) </li>
-    <li>Decent Work Indicators Manual: <a href="http://www.ilo.org/wcmsp5/groups/public/---dgreports/---stat/documents/publication/wcms_223121.pdf" target="_blank"><u>http://www.ilo.org/wcmsp5/groups/public/---dgreports/---stat/documents/publication/wcms_223121.pdf</u></a> </li>
-    <li> Resolution concerning statistics of occupational injuries (resulting from occupational accidents) adopted by the 16th ICLS in 1998: <a href="http://www.ilo.org/global/statistics-and-databases/standards-and-guidelines/resolutions-adopted-byinternational-conferences-of-labour-statisticians/WCMS_087528/lang--en/index.htm" target="_blank"><u>http://www.ilo.org/global/statistics-and-databases/standards-and-guidelines/resolutions-adopted-byinternational-conferences-of-labour-statisticians/WCMS_087528/lang--en/index.htm</u></a> </li>
+    <li>ILO Guidebook - Decent Work and the Sustainable Development Goals: A Guidebook on SDG Labour Market Indicators (<a href="https://www.ilo.org/global/statistics-and-databases/publications/WCMS_647109/lang--en/index.htm">https://www.ilo.org/global/statistics-and-databases/publications/WCMS_647109/lang--en/index.htm</a>) </li>
+    <li>ILOSTAT database: <a href="https://ilostat.ilo.org">https://ilostat.ilo.org</a> </li>
+    <li>ILOSTAT Metadata &#x2013; Indicator Descriptions (<a href="https://ilostat.ilo.org/resources/concepts-and-definitions/description-occupational-injuries/">https://ilostat.ilo.org/resources/concepts-and-definitions/description-occupational-injuries/</a>) </li>
+    <li>Decent Work Indicators Manual: <a href="https://www.ilo.org/integration/resources/pubs/WCMS_229374/lang--en/index.htm">https://www.ilo.org/integration/resources/pubs/WCMS_229374/lang--en/index.htm</a> </li>
+    <li> Resolution concerning statistics of occupational injuries (resulting from occupational accidents) adopted by the 16th ICLS in 1998: <a href="https://www.ilo.org/global/statistics-and-databases/standards-and-guidelines/resolutions-adopted-by-international-conferences-of-labour-statisticians/WCMS_087528/lang--en/index.htm">https://www.ilo.org/global/statistics-and-databases/standards-and-guidelines/resolutions-adopted-by-international-conferences-of-labour-statisticians/WCMS_087528/lang--en/index.htm</a> </li>
   </ul>

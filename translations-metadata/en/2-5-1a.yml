@@ -12,15 +12,16 @@ SDG_INDICATOR: >-
   <p>Indicator 2.5.1: Number of (a) plant and (b) animal genetic resources for
   food and agriculture secured in either medium- or long-term conservation
   facilities</p>
-META_LAST_UPDATE: <p>2021-03-01</p>
+SDG_SERIES_DESCR: <p>Plant genetic resources accessions stored ex situ (number)</p>
+META_LAST_UPDATE: '2022-03-31'
 SDG_RELATED_INDICATORS: <p>Indicator 2.5.1b on animal genetic resources.</p>
-SDG_CUSTODIAN_AGENCIES: <p>Food and Agriculture Organization of the United Nations (UN FAO)</p>
-CONTACT_ORGANISATION: <p>Food and Agriculture Organization of the United Nations (UN FAO)</p>
+SDG_CUSTODIAN_AGENCIES: <p>Food and Agriculture Organization of the United Nations (FAO)</p>
+CONTACT_ORGANISATION: <p>Food and Agriculture Organization of the United Nations (FAO)</p>
 STAT_CONC_DEF: >-
   <p><strong>Definition:</strong></p>
 
   <p>The conservation of plant and animal genetic resources for food and
-  agriculture (GRFA) in medium or long term conservation facilities (<em>ex
+  agriculture (GRFA) in medium- or long-term conservation facilities (<em>ex
   situ</em>, in genebanks) represents the most trusted means of conserving
   genetic resources worldwide. Plant and animal GRFA conserved in these
   facilities can be easily used in breeding programmes as well, even directly
@@ -36,11 +37,11 @@ STAT_CONC_DEF: >-
   are separately counted.</p>
 
   <p>The plant component is calculated as the number of accessions of plant
-  genetic resources secured in conservation facilities under medium or long term
-  conditions, where an &#x2018;accession&#x2019; is defined as a distinct sample
-  of seeds, planting materials or plants which is maintained in a genebank.
-  Genebank Standards for Plant Genetic Resources for Food and Agriculture
-  (accessible at <a
+  genetic resources secured in conservation facilities under medium- or
+  long-term conditions, where an &#x2018;accession&#x2019; is defined as a
+  distinct sample of seeds, planting materials or plants which is maintained in
+  a genebank. Genebank Standards for Plant Genetic Resources for Food and
+  Agriculture (accessible at <a
   href="http://www.fao.org/documents/card/en/c/7b79ee93-0f3c-5f58-9adc-5d4ef063f9c7/">http://www.fao.org/documents/card/en/c/7b79ee93-0f3c-5f58-9adc-5d4ef063f9c7/</a>),
   set the benchmark for current scientific and technical best practices for
   conserving plant genetic resources, and support key international policy
@@ -70,11 +71,11 @@ STAT_CONC_DEF: >-
   characterization and evaluation. Active collections are maintained in short to
   medium-term storage and usually duplicated in a base collection. </p>
 
-  <p>Medium or long term conservation facilities: Biological diversity is often
+  <p>Medium- or long-term conservation facilities: Biological diversity is often
   conserved <em>ex situ</em>, outside its natural habitat, in facilities called
   genebanks. In the case of plant genetic resources, genebanks conserve base
-  collections under medium or long term storage conditions, in the form of seeds
-  in cold rooms, plants in the field and tissues <em>in vitro</em> and/or
+  collections under medium- or long-term storage conditions, in the form of
+  seeds in cold rooms, plants in the field and tissues <em>in vitro</em> and/or
   cryoconserved. </p>
 UNIT_MEASURE: >-
   <p>Number of unique accessions of plant genetic resources secured in medium to
@@ -93,8 +94,8 @@ CLASS_SYSTEM: >-
   href="http://www.fao.org/docrep/meeting/028/mg538e.pdf">http://www.fao.org/docrep/meeting/028/mg538e.pdf</a>).
   </p>
 SOURCE_TYPE: >-
-  <p>Data are sourced from officially appointed National Focal Points (NFP) (see
-  <a
+  <p>Data are sourced from officially appointed National Focal Points (NFPs)
+  (see <a
   href="http://www.fao.org/agriculture/crops/thematic-sitemap/theme/seeds-pgr/gpa/national-focal-points/en/">http://www.fao.org/agriculture/crops/thematic-sitemap/theme/seeds-pgr/gpa/national-focal-points/en/</a>)
   and regional and international agricultural research centres holding PGRFA
   <em>ex situ</em> collections. Data providers report either (i) directly to FAO
@@ -136,7 +137,7 @@ DATA_SOURCE: >-
   genetic resources <a
   href="http://www.fao.org/agriculture/crops/thematic-sitemap/theme/seeds-pgr/gpa/national-focal-points/en/">http://www.fao.org/agriculture/crops/thematic-sitemap/theme/seeds-pgr/gpa/national-focal-points/en/</a>.
   </p>
-COMPILING_ORG: <p>Food and Agriculture Organization of the United Nations (UN FAO)</p>
+COMPILING_ORG: <p>Food and Agriculture Organization of the United Nations (FAO)</p>
 INST_MANDATE: >-
   <p>The National Focal Points for Plant Genetic Resources are responsible for
   the provision of national data on the indicator. Their Terms of Reference have
@@ -177,7 +178,7 @@ RATIONALE: >-
   order to avoid duplicate counting at the national level, primarily base
   collections should be reported. An active collection could be reported, only
   when, in the absence of a base collection, it also serves the function of the
-  base collection.Another example that needs to be monitored both while
+  base collection. Another example that needs to be monitored both while
   reporting and interpreting the results include the grouping or splitting of
   accessions, as in both cases the variation in the accounted number does not
   reflect a variation in the genetic diversity conserved and secured. Therefore,
@@ -194,7 +195,7 @@ REC_USE_LIM: >-
   <p>Undetected duplicates of accessions may contribute to an increase of the
   indicator, as each accession is a managed unit, kept and recorded as distinct.
   The detection of such duplicates will therefore result in a reduction in the
-  number of accession previously reported. This can occur at different levels,
+  number of accessions previously reported. This can occur at different levels,
   for example within genebank collections and also at international level.</p>
 
   <p>A loss of viability of the material(s) conserved that is not promptly
@@ -215,7 +216,7 @@ DATA_COMP: >-
   both seed, field, cryo-preserved or <em>in vitro</em> collections depending on
   the species conserved and the available facilities in the country.</p>
 DATA_VALIDATION: <p>There is no validation process in place.</p>
-ADJUSTMENT: <p> Not applicable.</p>
+ADJUSTMENT: <p> Not applicable</p>
 IMPUTATION: |-
   <ul>
     <li><strong>At country level</strong></li>
@@ -234,22 +235,23 @@ DOC_METHOD: >-
   Plant Component of SDG indicator 2.5.1</em> (see References) accessible from
   the World Information and Early Warning System for plant genetic resources for
   food and agriculture (WIEWS) home page (<a
-  href="http://www.fao.org/wiews">http://www.fao.org/wiews</a>). Out of the 12
+  href="http://www.fao.org/wiews">http://www.fao.org/wiews</a>). Out of the 13
   passport descriptors which can be used to characterize each accession, four
   are mandatory: (i) the name of the genebank (or <em>holding institute
   code</em>); (ii) the <em>accession number</em><sup><a href="#footnote-2"
   id="footnote-ref-2">[1]</a></sup>; (iii) the scientific name of the accession
   (<em>name of taxon</em>, including genus, species and lower taxonomic
-  ranking); and (iv) the type of storage. Reporting on the remaining descriptors
-  is highly recommended, as it allows the analysis of changes in different types
-  of diversity concerned, including changes in the type and origin of the
-  material secured (e.g. <em>biological status</em>; <em>country of origin</em>;
-  <em>locations of safety duplications</em>; etc.) and better describes the
-  composition of the secured materials. The descriptors have been agreed by the
-  FAO Commission on Genetic Resources for Food and Agriculture (see question 6.2
-  in the <em>Reporting format for monitoring the implementation of the Second
-  global Plan of Action for Plant Genetic Resources for Food and
-  Agriculture</em> <a
+  ranking); and (iv) the type of storage. </p>
+
+  <p>Reporting on the remaining descriptors is highly recommended, as it allows
+  the analysis of changes in different types of diversity concerned, including
+  changes in the type and origin of the material secured (e.g. <em>biological
+  status</em>; <em>country of origin</em>; <em>locations of safety
+  duplications</em>; etc.) and better describes the composition of the secured
+  materials. The descriptors have been agreed by the FAO Commission on Genetic
+  Resources for Food and Agriculture (see question 6.2 in the <em>Reporting
+  format for monitoring the implementation of the Second global Plan of Action
+  for Plant Genetic Resources for Food and Agriculture</em> <a
   href="http://www.fao.org/3/a-mm294e.pdf">http://www.fao.org/3/a-mm294e.pdf</a>).
   Genebank holdings are counted based on the list of accessions reported.
   National Focal Points are invited to provide a brief analysis to highlight and
@@ -257,8 +259,8 @@ DOC_METHOD: >-
   class="footnotes"><div><sup class="footnote-number" id="footnote-2">1</sup><p>
   <a href="#footnote-ref-2">&#x2191;</a></p></div></div>
 QUALITY_MGMNT: >-
-  <p> FAO provides regular training to National FocalPoints related to data
-  collection andreporting.</p>
+  <p> FAO provides regular training to National Focal Points related to data
+  collection and reporting.</p>
 QUALITY_ASSURE: >-
   <p>FAO is responsible for the quality of the internal statistical processes
   used to compile the published datasets.</p>
@@ -279,22 +281,19 @@ COVERAGE: >-
   implementation of the Second Global Plan of Action for PGRFA serve as baseline
   (number of accessions as of June 2014). </p>
 
-  <p>As of February 2020, data on over 5.4 million accessions from 103 countries
-  and 17 international/regional centres are being published. The data collection
-  is carried out annually in January. Continued efforts are made to improve the
-  coverage of countries and international/regional centres, as well as the
-  quality of the information.</p>
+  <p>Data for over 100 countries and 17 international/regional centres are being
+  published. The data collection is carried out annually in January. Continued
+  efforts are made to improve the coverage of countries and
+  international/regional centres, as well as the quality of the information.</p>
 
   <p><strong>Time series:</strong></p>
 
-  <p>Data are available in WIEWS for 2014, 2016, 2017, 2018 and 2019. Estimates
-  of the status of the indicator before 2014 are made using the <em>acquisition
-  date</em> of the accessions as reported in 2014.</p>
+  <p>Data are available in WIEWS since 2014 with either a two-year or one-year
+  periodicity.</p>
 
   <p><strong>Disaggregation:</strong></p>
 
-  <p>Geographic disaggregation (national, regional, global) is made. Grouping by
-  sex, age etc. is not applicable.</p>
+  <p>Not applicable</p>
 COMPARABILITY: >-
   <p><strong>Sources of discrepancies:</strong></p>
 
@@ -304,26 +303,26 @@ OTHER_DOC: >-
   <p>National Focal Points for the monitoring of the Second Global Plan of
   Action for Plant Genetic Resources for Food and Agriculture and the
   preparation of country reports for The Third Report on the State of the
-  World&apos;s Plant Genetic Resources for Food and Agriculture: <a
+  World&apos;s Plant Genetic Resources for Food and Agriculture. <a
   href="http://www.fao.org/agriculture/crops/thematic-sitemap/theme/seeds-pgr/gpa/national-focal-points/en/">http://www.fao.org/agriculture/crops/thematic-sitemap/theme/seeds-pgr/gpa/national-focal-points/en/</a></p>
 
   <p>List of descriptors for reporting on the Plant Component of SDG indicator
-  2.5.1, FAO 2017 <a
+  2.5.1, FAO 2017. <a
   href="http://www.fao.org/fileadmin/user_upload/wiews/docs/SDG_251_data_requirement_sheet_table_EN.docx">http://www.fao.org/fileadmin/user_upload/wiews/docs/SDG_251_data_requirement_sheet_table_EN.docx</a>
   </p>
 
   <p>Second Global Plan of Action for Plant Genetic Resources for Food and
-  Agriculture: <a
+  Agriculture. <a
   href="http://www.fao.org/docrep/015/i2624e/i2624e00.htm">http://www.fao.org/docrep/015/i2624e/i2624e00.htm</a></p>
 
   <p>Second Report on the State of the World&#x2019;s Plant Genetic Resources
-  for Food and Agriculture</p>
+  for Food and Agriculture.</p>
 
   <p><a
   href="http://www.fao.org/docrep/013/i1500e/i1500e00.htm">http://www.fao.org/docrep/013/i1500e/i1500e00.htm</a></p>
 
   <p>Genebank Standards for Plant Genetic Resources for Food and Agriculture,
-  FAO, 2014</p>
+  FAO, 2014.</p>
 
   <p><a
   href="http://www.fao.org/documents/card/en/c/7b79ee93-0f3c-5f58-9adc-5d4ef063f9c7/">http://www.fao.org/documents/card/en/c/7b79ee93-0f3c-5f58-9adc-5d4ef063f9c7/</a></p>
@@ -332,15 +331,15 @@ OTHER_DOC: >-
   Agriculture, In: Report of the Fourteenth Regular Session of the Commission on
   Genetic Resources for Food and Agriculture, </p>
 
-  <p>CGRFA-14/13/Report, Appendix C, <a
+  <p>CGRFA-14/13/Report, Appendix C. <a
   href="http://www.fao.org/docrep/meeting/028/mg538e.pdf">http://www.fao.org/docrep/meeting/028/mg538e.pdf</a></p>
 
   <p>Reporting Format for Monitoring the Implementation of the Second Global
   Plan of Action for Plant Genetic Resources for Food and Agriculture,
-  CGRFA-15/15/Inf.9, <a
+  CGRFA-15/15/Inf.9. <a
   href="http://www.fao.org/3/a-mm294e.pdf">http://www.fao.org/3/a-mm294e.pdf</a></p>
 
-  <p>FAO/Bioversity Multi-Crop Passport Descriptor (MCPD) v. 2 </p>
+  <p>FAO/Bioversity Multi-Crop Passport Descriptor (MCPD) v. 2. </p>
 
   <p><a
   href="http://www.bioversityinternational.org/fileadmin/user_upload/online_library/publications/pdfs/FAO-Bioversity_multi_crop_passport_descriptors_V_2_Final_rev_1526.pdf">http://www.bioversityinternational.org/fileadmin/user_upload/online_library/publications/pdfs/FAO-Bioversity_multi_crop_passport_descriptors_V_2_Final_rev_1526.pdf</a></p>

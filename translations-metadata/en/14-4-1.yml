@@ -10,153 +10,279 @@ SDG_TARGET: >-
 SDG_INDICATOR: >-
   <p>Indicator 14.4.1: Proportion of fish stocks within biologically sustainable
   levels</p>
-SDG_SERIES_DESCR: <p>NA. </p>
-META_LAST_UPDATE: <p>2021-02-01</p>
+SDG_SERIES_DESCR: >-
+  <p>Proportion of fish stocks within biologically sustainable levels (not
+  overexploited) (%) ER_H2O_FWTL</p>
+META_LAST_UPDATE: '2022-03-31'
 SDG_RELATED_INDICATORS: >-
   <p>Indicator 14.7.1: Sustainable fisheries as a percentage of GDP in small
   island developing States, least developed countries and all countries</p>
 SDG_CUSTODIAN_AGENCIES: <p>Food and Agriculture Organization of the United Nations (FAO)</p>
-CONTACT_ORGANISATION: |-
-  <p>Fisheries Division</p>
-  <p>Office of the Chief Statistician</p>
+CONTACT_ORGANISATION: <p>Food and Agriculture Organization of the United Nations (FAO)</p>
 STAT_CONC_DEF: >-
   <p><strong>Definition:</strong></p>
 
-  <p>The indicator, Proportion of marine fish stocks within biologically
-  sustainable levels, measures the sustainability of the world&apos;s marine
-  capture fisheries by their abundance. A fish stock whose abundance is at or
-  greater than the level that can produce the maximum sustainable yield (MSY) is
-  classified as biologically sustainable. In contrast, when abundance falls
-  below the MSY level, the stock is considered biologically unsustainable. </p>
+  <p>The indicator, &quot;Proportion of marine fish stocks within biologically
+  sustainable levels&quot;, measures the sustainability of the world&apos;s
+  marine capture fisheries by the abundance of the exploited fish stocks with
+  respect to MSY levels.</p>
 
-  <p>MSY is defined as the greatest amount of catch that can be harvested
-  continuously from a stock under constant and current environmental conditions
-  (e.g., habitat, water conditions, species composition and interactions, and
-  anything that could affect birth, growth, or death rates of the stock) without
-  affecting the long-term productivity of the stock. The indicator measures the
-  sustainability of fish resources based a good balance between human use and
-  ecological conservation.</p>
+  <p>For each level of reporting (National, Regional, Global) the indicator is
+  calculated as the ratio between the number of exploited fish stocks classified
+  as &quot;within biologically sustainable levels&quot; and the total number of
+  stocks in the Reference List that were classified with a determined status
+  (within/not within &quot;biologically sustainable levels&quot;).</p>
+
+  <p><math xmlns="http://www.w3.org/1998/Math/MathML">
+      <msub>
+        <mrow>
+          <mi>P</mi>
+        </mrow>
+        <mrow>
+          <mi>s</mi>
+        </mrow>
+      </msub>
+      <mo>=</mo>
+      <mfrac>
+        <mrow>
+          <msub>
+            <mrow>
+              <mi>N</mi>
+            </mrow>
+            <mrow>
+              <mi>s</mi>
+            </mrow>
+          </msub>
+        </mrow>
+        <mrow>
+          <mi>N</mi>
+        </mrow>
+      </mfrac>
+      <mi>x</mi>
+      <mn>100</mn>
+      <mo>=</mo>
+      <mfrac>
+        <mrow>
+          <msub>
+            <mrow>
+              <mi>N</mi>
+            </mrow>
+            <mrow>
+              <mi>s</mi>
+            </mrow>
+          </msub>
+        </mrow>
+        <mrow>
+          <msub>
+            <mrow>
+              <mi>N</mi>
+            </mrow>
+            <mrow>
+              <mi>s</mi>
+            </mrow>
+          </msub>
+          <mo>+</mo>
+          <msub>
+            <mrow>
+              <mi>N</mi>
+            </mrow>
+            <mrow>
+              <mi>u</mi>
+            </mrow>
+          </msub>
+        </mrow>
+      </mfrac>
+      <mi>x</mi>
+      <mn>100</mn>
+    </math></p>
+  <p>where Ps is the percentage of stocks classified as &quot;within
+  biologically sustainable levels&quot; for the Reference List of stocks. Ns is
+  the number of stocks in the Reference List classified as &quot;within
+  biologically sustainable levels&quot;, Nu is the number of stocks in the
+  Reference List classified as &quot;outside biologically sustainable
+  levels&quot; and N = Ns + Nu is the total number of stocks in the Reference
+  List that have been classified as within or outside &quot;biologically
+  sustainable levels&quot;.</p>
+
+  <p>Classifying individual stocks as within/outside &quot;biologically
+  sustainable levels&quot;:</p>
+
+  <p>In order to keep consistency with the 14.4 target (&quot;at least to levels
+  that can produce maximum sustainable yield as determined by their biological
+  characteristics&quot; and other earlier international agreements, including
+  the United Nations Convention on the Law of the Sea (UNCLOS), a fish stock is
+  classified as &quot;within biologically sustainable levels&quot; if its
+  abundance is estimated (considering uncertainty) to be equal to or greater
+  than the level that can produce the Maximum Sustainable Yield (MSY). In
+  contrast, when abundance falls below the MSY level, the stock is classified as
+  &quot;outside biologically sustainable levels&quot;.</p>
+
+  <p>A wide array of methods and approaches (including documented expert
+  opinion) is used to classify stock status relative to the abundance producing
+  MSY. This varies among countries, regions and stocks. Nevertheless, the
+  reliability of the classification is assessed by FAO as part of the process of
+  producing the index.</p>
+
+  <p><strong>Maximum Sustainable Yield (MSY)</strong> is commonly defined as the
+  greatest average amount of catch that can be harvested in the long-term from a
+  stock under constant and current environmental conditions (e.g., habitat,
+  water conditions, species composition and interactions, and anything that
+  could affect birth, growth, or death rates of the stock), without affecting
+  the long-term productivity of the stock. A stock can produce MSY if its
+  abundance is above a certain level, usually around 50% of its unexploited
+  abundance (but actual value can vary around that level, depending on the
+  biological characteristics of the stock). See more at <a
+  href="https://www.fao.org/faoterm/en/?defaultCollId=21">https://www.fao.org/faoterm/en/?defaultCollId=21</a></p>
 
   <p>MSY-based reference points are the most common type of reference points
   used in fisheries management today. This is primarily because, for decades,
   reference points from surplus production models have most often been set based
   on the concept of MSY and they are the basic benchmarks for the sustainability
   of fisheries set by the UN Convention on the Law of the Sea (UNCLOS, Article
-  61(3)).</p>
+  61(3)). For more on Reference Points in Fish Stock Assessment, see Caddy and
+  Mahon (1995), Cadima (2003) or Haddon (2011).</p>
 
-  <p><strong>Concepts:</strong></p>
+  <p><strong>BMSY</strong>: Biomass corresponding to Maximum Sustainable Yield
+  from a production model or from an age-based analysis using a stock
+  recruitment model. Often used as a biological reference point in fisheries
+  management, it is the calculated long-term average biomass value expected if
+  fishing at FMSY.</p>
 
-  <p>Fish stock refers to a group of individuals of a single species or
-  sometimes combined species living in a defined area from which catches are
-  taken in a fishery.</p>
+  <p><strong>A population is:</strong> &#x201C;A group of individuals of the
+  same species living in the same area at the same time and sharing a common
+  gene pool, with little or no immigration or emigration.&#x201D;</p>
 
-  <p>A reference list of stocks should be established by each country and
-  consists of a list of stocks selected according to FAO guidelines, against
-  which the indicator will be reported (Appendix 1). The reference list should
-  include national and shared stocks but not straddling stocks as defined
-  below.</p>
+  <p><strong>A biological stock is: </strong>&#x201C;A subpopulation of a
+  species inhabiting a particular geographic area, having similar biological
+  characteristics (e.g. growth, reproduction, mortality) and negligible genetic
+  mixing with other adjacent subpopulations of the same species.&quot; (FAO,
+  2004-2021).</p>
 
-  <p>National stocks are located completely within an EEZ and/or territorial
-  waters. </p>
+  <p>The <strong>Reference List of Stocks: i</strong>t is not possible to
+  classify the sustainability of exploitation for all the exploited stocks from
+  a country, region or the world. Therefore, the indicator must be calculated
+  based on a subset of these stocks. The list of the stocks that are classified
+  for status and used to calculate the indicators is called the &quot;Reference
+  List of Stocks&quot;.</p>
 
-  <p>Shared stocks are distributed within the EEZ and/or territorial waters of
-  two or more adjacent countries. </p>
+  <p>The Reference List of Stocks is built differently for the Regional/Global
+  and the National levels. The process of building the Reference List of Stocks
+  for regional and global level are described in FAO (2011). At National level,
+  countries are requested to define a list of stocks, based on an agreed set of
+  criteria (Appendix 1). National and shared stocks can be included, but not
+  straddling stocks (stocks that are distributed both in national EEZ and Areas
+  Beyond National Jurisdiction).</p>
 
-  <p>Straddling stocks are found to move across boundaries between EEZ waters or
-  between EEZ and high seas (e.g. tuna stocks), and that are caught by multiple
-  countries. </p>
+  <p>At this moment, there is not a direct correspondence between the national
+  level Reference Lists (that are defined by each country) and the regional and
+  global Reference lists (that are defined by FAO).</p>
 
-  <p>Countries are asked to report on stocks listed in its reference list,
-  including those monitored through official stock assessments by an
-  authoritative agency, through a scientific process and using best available
-  science and data. These assessments could be based on classic or data-limited
-  methods. </p>
+  <p><a id="move956633181111111111111111"></a></p>
 
-  <p>Stock assessment uses biological information, fishery data such as catch
-  statistics and fishing effort, and scientific survey data to estimate
-  population dynamics of fish stocks for management purposes. Stock assessment
-  methods include biological dynamic models, age-structured models, length-based
-  methods and stock recruitment models.</p>
-UNIT_MEASURE: <p>Proportion (percentage).</p>
+  <p>The detailed description of all necessary concepts can be found in the
+  e-learning course (FAO 2019-2021).</p>
+UNIT_MEASURE: <p>Percent (%)</p>
 CLASS_SYSTEM: |-
   <p>FAO Major Fishing Areas for Statistical Purposes</p>
   <p>ASFIS List of Species for Fishery Statistics Purposes</p>
   <p>UNFSA Stock Jurisdictional distribution</p>
   <p>FIRMS typology of stock units</p>
 SOURCE_TYPE: >-
-  <p>The MSY-based reference point is often established through a formal stock
+  <p>The classification of the status of exploited stocks relatively to the
+  abundance that can produce MSY is often established through a formal stock
   assessment process. The data to inform stock assessments can come from many
   different sources, including fishery-dependent and fishery-independent
   sources. Fishery-dependent data are collected from the fishery itself, using
   both commercial and recreational sources through reporting or sample-based
-  surveys at sea, at landing sites, or within fishing communities. Data from
-  these sources are generally compiled into fisheries statistics. They can
+  surveys at sea, at landing sites, or within fishing communities. They can
   include information on removals of fish from the sea, which can include
   landings and discards, and information on the fleet such as number of boats,
-  number of tows, time spent on the sea.</p>
+  number of tows, time spent on the sea, as well as economic and social
+  information like fish prices, fuel expenditures, total sales, employment or
+  other.</p>
 
-  <p>Fisheries-independent are obtained in ways not related to any fishing
+  <p>Fishery-independent data are obtained in ways not related to any fishing
   activity and are typically collected by scientists via surveys (often
-  scientific cruises) designed to sample species abundance and biomass over long
-  time series, and over consistent seasons and geographic areas. Typically,
-  fisheries-independent data collect biological information on the species (age,
-  length, weight, maturity, etc.), and habitat and environmental information
-  (temperature, salinity, depth, etc.).</p>
+  scientific cruises) designed to estimate species abundance and biomass over
+  long time series, and over consistent seasons and geographic areas. Typically,
+  fisheries-independent data also include biological information on the species
+  (age, length, weight, maturity, etc.), and habitat and environmental
+  information (temperature, salinity, depth, etc.).</p>
 
-  <p>Three primary categories of data inputs are required for stock assessment,
-  including data on life history traits, and time series of catch and fishing
-  effort. Stock abundance is often not known and relative abundance or indices
-  are often used to reflect historical changes in population size. These data
-  can be sourced from fishery-independent surveys, e.g. acoustic or trawl-based
-  sampling, or from fishery-dependent estimates using catch and effort data.
-  Life history parameters provides information on individual growth and stock
-  productivity e.g. fish size, age, reproductive rates, and natural mortality.
-  Catch is the amount of fish removed from a stock by all types of fishing.</p>
+  <p>These data and other information are used by Stock Assessment scientists to
+  classify the stock status. References on the methods most commonly used can be
+  found in Cadima (2003), Haddon (2011), Sparre and Venema (1998) and other
+  publications dealing with the methods of stock assessment.</p>
+
+  <p>The information used for the indicator at the Global/Regional level is
+  based on a different process and data sources than that used for the national
+  level </p>
 
   <p>Global/Regional:</p>
 
   <p>Because of the high data demands of classical stock assessment methods,
   only a limited number of fish stocks have been assessed. These species account
-  for 17&#x2013;25 percent of the global catch (Branch et al., 2011), and most
-  are caught by fisheries in developed countries. To balance the global
+  for ca 50 percent of the global catch (Hilborn et al., 2020), and most are
+  caught by industrial fisheries in developed countries . To balance the global
   representativeness of the assessment results and the goal of using the best
   available information, the FAO uses a wide spectrum of data and methods to
   extend its assessment to the fish stocks that account for the majority (70-80
-  percent) of the global catch (FAO, 2005).</p>
+  percent) of the global catch (FAO, 2011).</p>
 
-  <p>National: </p>
+  <p>National:</p>
+
+  <p>The national level indicator, on the other hand, is based exclusively on
+  the stock status reported by countries. A multiplicity of methods are used to
+  classify the stock status, including model-based estimates, empirical
+  indicators and documented expert opinion.</p>
 
   <p>For country reporting, a questionnaire was sent out to all FAO member
   States with marine boundaries (i.e. 165 States) in 2019, and will be resent in
   2021, and then on a two-year basis. For the complete list of questions used to
   inform this indicator, please refer to Appendix 2.</p>
 COLL_METHOD: >-
-  <p>Global/regional: </p>
+  <p>At this moment, data collection is separate for the national and
+  regional/global levels.</p>
+
+  <p>Global/regional level: </p>
 
   <p>The fish stocks that FAO has monitored since 1974 represent a wide spectrum
   of data availability, ranging from data-rich and formally assessed stocks to
   those that have very little information apart from catch statistics by FAO
   major fishing area and those with no stock assessment at all. For the purposes
   of using the best available data and information and maintaining consistency
-  among stocks and assessors, a procedure has been defined to identify stock
-  status information (FAO 2011). </p>
+  among stocks and assessors, a procedure has been defined to identify relevant
+  stock status information (FAO 2011).</p>
 
-  <p>National: </p>
+  <p>National level: </p>
 
   <p>FAO collects national data through a questionnaire sent to the Principal
   Focal Point (PFP) of each country. The PFP organises an institutional set-up
   which identifies the competent authorities to develop a reference list of
-  stocks and completes the questionnaire. The information or data collected
-  through the questionnaire from a country will initially only inform individual
-  country progress, also acknowledging the need for a learning curve along the
-  few first questionnaire inquiries. Depending on the evolution and further
-  standardization of country reporting over the next 3-5 years, national data
-  may be used to inform global/regional estimates. </p>
-FREQ_COLL: >-
-  <p>National : Reporting every 2 years, i.e., 2020, 2021, 2023, 2025, etc.</p>
+  stocks and completes the questionnaire. </p>
 
-  <p>Global/regional: every 2 years, i.e. &#x2026;, 2013, 2015, 2017, 2019,
-  ...</p>
+  <p>During the initial stages of national data reporting, the information or
+  data collected through the questionnaire from a country will initially only
+  inform the indicator for the individual countries, also acknowledging the need
+  for a learning curve along the few first questionnaire inquiries. As a result,
+  the global/regional indicator remains during these initial stages separate
+  from the national indicators. However, FAO is working on a convergence (where
+  possible) of the two processes, and good-quality stock status assessments
+  reported by countries for the national indicators will be included in the
+  regional/global indicator calculations, depending on the evolution and further
+  standardization of country reporting over the next 3-5 years..</p>
+
+  <p>Despite this effort, due to the heterogeneity of reporting from countries
+  in the same FAO Major Fishing Area, and the necessary inclusion of straddling
+  and highly migratory stocks and fisheries in the regional and global
+  indicator, it is unlikely that a full convergence will be achieved in a short
+  time-frame.</p>
+FREQ_COLL: >-
+  <p>National : Reporting every 2 years beginning in 2020</p>
+
+  <p>Global/regional: every 2 years since 2013The data collection calendar for
+  the national level may be adjusted in the future according to requirements for
+  a convergence between National and Global/regional processes.</p>
 REL_CAL_POLICY: |-
   <p>National: biennially. </p>
   <p>Global/regional: biennially</p>
@@ -164,13 +290,34 @@ DATA_SOURCE: >-
   <p>FAO provides global and regional data. National-level data are generally
   reported by the National Statistics Office or the Ministry of Fisheries and/or
   Agriculture.</p>
-COMPILING_ORG: <p>FAO</p>
+COMPILING_ORG: <p>Food and Agriculture Organization of the United Nations (FAO)</p>
 INST_MANDATE: >-
+  <p>The Food and Agriculture Organization of the United Nations (FAO) is the
+  lead United Nations agency for agriculture, forestry, fisheries and rural
+  development. As part of its mandate, it fosters global, regional and national
+  sustainable development initiatives to secure responsible fisheries worldwide,
+  which in turn requires maintaining fish stocks at biologically sustainable
+  levels, so that they can contribute fully, and in a sustainable way, to the
+  food and nutrition security, as well as to social and economic development, of
+  Humankind.</p>
+
+  <p>Specifically, the mission of the <a
+  href="http://www.fao.org/fishery-aquaculture/en/" target="_blank">FAO
+  Fisheries and Aquaculture Division (NFI)</a> is stated as &quot;To strengthen
+  global governance and the managerial and technical capacities of members and
+  to lead consensus-building towards improved conservation and utilization of
+  aquatic resources&quot;.</p>
+
+  <p>As part of its mandate, FAO is also tasked with collecting and
+  disseminating data and information for improved planning and management of
+  fisheries, aquaculture and the other food-producing sectors of the
+  economy.</p>
+
   <p>Article I of the FAO constitution requires that the organization collect,
   analyses, interpret and disseminate information relating to nutrition, food
   and agriculture (the term &#x201C;agriculture&#x201D; and its derivatives
   includes forestry, fisheries and aquaculture, <a
-  href="http://www.fao.org/3/K8024E/K8024E.pdf">http://www.fao.org/3/K8024E/K8024E.pdf</a>)</p>
+  href="http://www.fao.org/3/K8024E/K8024E.pdf">http://www.fao.org/3/K8024E/K8024E.pdf</a>).</p>
 
   <p>The first session of the FAO Conference in 1945 provided the basis and
   rationale for the FAO mandate as a custodian agency of this indicator:
@@ -187,7 +334,7 @@ RATIONALE: >-
   sustainable yield (MSY). To fulfil the objectives of these international
   treaties, fishery management authorities need to undertake assessment of the
   state of fish stocks and develop effective policies and management strategies.
-  As a UN Agency with a mandate for fisheries, FAO endeavour to provide the
+  As a UN Agency with a mandate for fisheries, FAO endeavours to provide the
   international community with the best information on the state of marine
   fishery resources.</p>
 
@@ -218,84 +365,170 @@ RATIONALE: >-
   contexts, to some extent overcoming the technical barriers that traditional
   methods presented. This is because country-level reporting will be limited to
   the assessment of stocks that are found only within a country&#x2019;s EEZ
-  and/or shared with neighbouring countries&#x2019; EEZs, and therefore not
+  and/or shared with neighbouring countries&#x2019; EEZs, and therefore do not
   include straddling stocks, highly migratory species, or stocks in Areas Beyond
   National Jurisdiction (ABNJ). As a result, national data alone cannot be
   meaningfully aggregated at global/regional levels, but it can be used to
-  inform country progress on fish stock sustainability within the EEZ. The FAO
-  has developed an online platform to facilitate the estimation and a
-  country&#x2019;s own report of the indicator. The platform provides an
-  E-learning course that help countries to understand the indicator, estimation
-  methodology and report process as well as some simple stock assessment methods
-  that can be used to estimate stock status when only limited data are available
-  to help address the capacity insufficiency faced by many developing
-  countries.</p>
+  inform country progress on fish stock sustainability within the EEZ. </p>
 
   <p>In 2019, the FAO began sending a questionnaire to countries to collect
   national data with the aim to help countries in the reporting process.</p>
 REC_USE_LIM: >-
   <p>The indicator measures the sustainability of fishery resources, and as an
-  end-result is a measure of Target 14.4. Its derivation requires catch data and
-  fishing effort and other biological or technical parameters as well together
-  with technical expertise necessary to perform stock assessment. The indicator
-  at global level is estimated by the FAO based on the methodology developed in
-  the 1980s. Although regular updates were carried out to incorporate technical
-  advances and changes in major fish species, some discrepancies between regions
-  may occur in the representativeness of the reference list in practical
-  fisheries. However, this will not pose a large impact on the reliability of
-  the indicator&#x2019;s temporal trends.</p>
+  end-result is a measure of Target 14.4. Its derivation requires catch and
+  fishing effort data and/or other biological or technical data and parameters
+  as well together with scientific expertise necessary to perform stock
+  assessment correctly. The indicator at global level is estimated by the FAO
+  based on the methodology developed in the 1980s. Although regular updates were
+  carried out to incorporate technical advances and changes in major fish
+  species, some discrepancies between regions may occur in the
+  representativeness of the reference list in practical fisheries. However, this
+  will not pose a large impact on the reliability of the indicator&#x2019;s
+  temporal trends.</p>
 
   <p>For the national level, the composition of stocks within the reference list
   of stocks and the selection criteria used to develop the list will vary
   between countries, making the indicator suitable for checking
-  countries&#x2019; own progress over time. However, this reduces the
-  comparability of sustainability levels between countries.</p>
+  countries&#x2019; own progress over time. </p>
 DATA_COMP: >-
   <p>FAO currently reports the global and regional indicators calculated from
   FAO&#x2019;s assessment of a selected list of fish stocks around the world.
   The methodology is described in the FAO Technical Paper (FAO 2011). </p>
 
-  <p> FAO has been developing the new approach for country-level reporting since
+  <p>FAO has been developing the new approach for country-level reporting since
   2017, and has consulted with countries in three dedicated expert consultation
   workshops: In November 2017, FAO convened a workshop to exchange views with
   national practitioners on the new proposed analytical methods to produce
-  Indicator 14.4.1 at country level<sup><sup><a href="#footnote-2"
-  id="footnote-ref-2">[1]</a></sup></sup>. In February 2019, FAO convened an
-  expert consultation workshop<sup><sup><a href="#footnote-3"
-  id="footnote-ref-3">[2]</a></sup></sup> on development of the methodologies
-  for the global assessment of fish stock status, with participants from
-  countries and regional fisheries organizations. In October 2019, FAO organized
-  a capacity development workshop on stock status assessment and estimation
-  methods of SDG Indicator 14.4.1 for the Asia Pacific Region, with participants
-  from 17 countries. However, so far very few countries have started their own
-  estimation and reporting of Indicator 14.4.1.</p>
+  Indicator 14.4.1 at country level<sup><a href="#footnote-1"
+  id="footnote-ref-1">[1]</a></sup>. In February 2019, FAO convened an expert
+  consultation workshop<sup><a href="#footnote-2"
+  id="footnote-ref-2">[2]</a></sup> on development of the methodologies for the
+  global assessment of fish stock status, with participants from countries and
+  regional fisheries organizations. In order to help countries reporting on the
+  indicator, FAO then organized a series of capacity development workshops on
+  stock status assessment and estimation methods of SDG Indicator 14.4.1 for
+  various regions. </p>
+
+  <p>In November 2019, FAO dispatched the first SDG14.4.1 questionnaire calling
+  countries to report on their national indicator. Eighty-three countries
+  submitted their questionnaire and three reported independently. FAO has
+  reported the full results of this first inquiry through UNSD in February
+  2022.</p>
+
+  <p>For each level of reporting (National, Regional, Global) the indicator is
+  calculated as the ratio between the number of exploited fish stocks classified
+  as &quot;within biologically sustainable levels&quot; and the total number of
+  stocks in the Reference List that were classified with a determined status
+  (within/not within &quot;biologically sustainable levels&quot;).</p>
+
+  <p><math xmlns="http://www.w3.org/1998/Math/MathML">
+      <msub>
+        <mrow>
+          <mi>P</mi>
+        </mrow>
+        <mrow>
+          <mi>s</mi>
+        </mrow>
+      </msub>
+      <mo>=</mo>
+      <mfrac>
+        <mrow>
+          <msub>
+            <mrow>
+              <mi>N</mi>
+            </mrow>
+            <mrow>
+              <mi>s</mi>
+            </mrow>
+          </msub>
+        </mrow>
+        <mrow>
+          <mi>N</mi>
+        </mrow>
+      </mfrac>
+      <mi>x</mi>
+      <mn>100</mn>
+      <mo>=</mo>
+      <mfrac>
+        <mrow>
+          <msub>
+            <mrow>
+              <mi>N</mi>
+            </mrow>
+            <mrow>
+              <mi>s</mi>
+            </mrow>
+          </msub>
+        </mrow>
+        <mrow>
+          <msub>
+            <mrow>
+              <mi>N</mi>
+            </mrow>
+            <mrow>
+              <mi>s</mi>
+            </mrow>
+          </msub>
+          <mo>+</mo>
+          <msub>
+            <mrow>
+              <mi>N</mi>
+            </mrow>
+            <mrow>
+              <mi>u</mi>
+            </mrow>
+          </msub>
+        </mrow>
+      </mfrac>
+      <mi>x</mi>
+      <mn>100</mn>
+    </math></p>
+  <p>where Ps is the percent of stocks classified as &quot;within biologically
+  sustainable levels&quot; for the Reference List of stocks. Ns is the number of
+  stocks in the Reference List classified as &quot;within biologically
+  sustainable levels&quot;, Nu is the number of stocks in the Reference List
+  classified as &quot;outside biologically sustainable levels&quot; and N = Ns +
+  Nu is the total number of stocks in the Reference List that have been
+  classified as within or outside &quot;biologically sustainable
+  levels&quot;.</p>
+
+  <p>Classifying individual stocks as within/outside &quot;biologically
+  sustainable levels&quot;:</p>
+
+  <p>In order to keep consistency with the 14.4 target (&quot;at least to levels
+  that can produce maximum sustainable yield as determined by their biological
+  characteristics&quot; and other earlier international agreements, including
+  the United Nations Convention on the Law of the Sea (UNCLOS)), a fish stock is
+  classified as &quot;within biologically sustainable levels&quot; if its
+  abundance is estimated to be (considering uncertainty) at or greater than the
+  level that can produce the Maximum Sustainable Yield (MSY). In contrast, when
+  abundance falls below the MSY level, the stock is classified as &quot;outside
+  biologically sustainable levels&quot;.</p>
+
+  <p>A wide array of methods and approaches (including documented expert
+  opinion) is used to classify stock status relative to the abundance producing
+  MSY. This varies among countries, regions and stocks. Nevertheless, the
+  reliability of the classification is assessed by FAO as part of the process of
+  producing the index.</p>
 
   <p>Global/Regional:</p>
 
   <p>Global and regional estimates of stock sustainability have been performed
   for 584 fish stocks around the world since 1974, representing 70% of global
-  landings. Each stock is estimated using the methodology described in the FAO
-  Technical Paper (FAO, 2011). </p>
+  landings. The status of each stock is estimated using the methodology
+  described in the FAO Technical Paper (FAO, 2011). </p>
 
   <p>National:</p>
 
-  <p>The indicator is calculated as the number of stocks with sustainable status
-  divided by the number of stocks with known status in the reference list. This
-  proportion is calculated based on stock numbers, without weighting either by
-  its production volume or stock abundance; that is, every fish stock is
-  considered to have the same importance. </p>
-
   <p>Countries are requested to report the status of a reference list of fish
-  stocks, which should be determined based on the significance of a specific
-  stock in a society, either in landings, economic contribution to society, or
-  cultural and traditional values, rather than based on whether stock assessment
-  exists.</p><div class="footnotes"><div><sup class="footnote-number"
-  id="footnote-2">1</sup><p> Full report accessible here:
+  stocks defined by each country on the basis of the criteria presented in
+  Appendix 1.</p><div class="footnotes"><div><sup class="footnote-number"
+  id="footnote-1">1</sup><p> Full report accessible here:
   http://www.fao.org/documents/card/en/c/I8714EN/ <a
-  href="#footnote-ref-2">&#x2191;</a></p></div><div><sup class="footnote-number"
-  id="footnote-3">2</sup><p> Full report accessible here:
+  href="#footnote-ref-1">&#x2191;</a></p></div><div><sup class="footnote-number"
+  id="footnote-2">2</sup><p> Full report accessible here:
   http://www.fao.org/3/ca4355en/ca4355en.pdf <a
-  href="#footnote-ref-3">&#x2191;</a></p></div></div>
+  href="#footnote-ref-2">&#x2191;</a></p></div></div>
 DATA_VALIDATION: >-
   <p>FAO carries out a series of validations to assure that the data and
   information are provided by countries in line with the questionnaire
@@ -320,14 +553,12 @@ IMPUTATION: >-
   <p><strong>&#x25CF; At country level</strong></p>
 
   <p>This indicator examines marine fish stocks. If a country has no marine
-  capture fisheries, then the indicator is not calculated for that country. In
-  such case, no imputation is performed to derive estimates. For countries
-  reporting limited marine fish stock data, additional data are compiled from
-  scientific working groups and are peer reviewed and analyzed based on FAO
-  expert knowledge. However, the estimation of the indicator at regional and
-  global levels was estimated not based on country questionnaires, but by the
-  FAO through a systematic assessment of a reference list selected globally.
-  </p>
+  capture fisheries, then the indicator is not calculated for that country and
+  FAO reports it to UNSD with the flag &#x201C;N&#x201D; (Not relevant). When
+  data is missing at national level, no imputation is performed to derive
+  estimates. The estimation of the indicator at regional and global levels was
+  estimated not based on country questionnaires, but by the FAO through a
+  systematic assessment of a reference list selected globally. </p>
 REG_AGG: >-
   <p>As explained in the &#x201C;Rationale&#x201D; section, national data alone
   cannot be meaningfully aggregated at global/regional level because
@@ -347,12 +578,12 @@ DOC_METHOD: >-
   <p>For some countries, little stock assessment has been done. To help these
   countries and to facilitate their reporting, FAO prepared online materials and
   tools, including a selection of methods that can be used to evaluate stock
-  status with data limited methods such as length-based and catch-only methods.
-  The strengths and limitations of these methods are discussed in an eLearning
-  course (Lesson 4), and caveats were also provided to avoid misuse and exercise
-  cautions in practice. Furthermore, capacity building workshops have been
-  organised to provide support to countries in stock assessment and reporting on
-  the SDG 14.4.1.</p>
+  status with data limited methods such as length-based and catch-only methods
+  and an online platform for hands-on practice. The strengths and limitations of
+  these methods are discussed in an eLearning course (Lesson 4), and caveats
+  were also provided to avoid misuse and exercise cautions in practice.
+  Furthermore, capacity development workshops have been organised to provide
+  support to countries in stock assessment and reporting on the SDG 14.4.1.</p>
 
   <p>eLearning course: <a
   href="https://elearning.fao.org/course/view.php?id=502">https://elearning.fao.org/course/view.php?id=502</a></p>
@@ -363,7 +594,7 @@ QUALITY_MGMNT: >-
   (SQAF) available at: <a
   href="http://www.fao.org/docrep/019/i3664e/i3664e.pdf">http://www.fao.org/docrep/019/i3664e/i3664e.pdf</a>.</p>
 
-  <p> . </p>
+  <p> </p>
 
   <p>FAO is systematically carrying out quality assessments to ensure the
   quality of the SDG indicator data sets. </p>
@@ -398,43 +629,42 @@ QUALITY_ASSMNT: >-
 COVERAGE: >-
   <p><strong>Data availability:</strong></p>
 
-  <p>The indicator has global data from 1974 to 2017. Regional breakdown is by
-  FAO major fishing area. The regional and global indicators were calculated
-  based on the reference list of fish stocks FAO established in 1974.</p>
-
   <p>Global/regional: the indicator has global and regional data from 1974 to
-  2017. Regional breakdown is by FAO major fishing area. Countries are not
-  directly involved in the computation of the indicator at global/regional
-  level. </p>
+  2019. Regional breakdown is by FAO major fishing area. The regional and global
+  indicators were calculated based on the reference list of fish stocks FAO
+  established in 1974. Countries are not directly involved in the computation of
+  the indicator at global/regional level. </p>
 
   <p>National: the national-level questionnaire was dispatched for the first
   time in November 2019; FAO identifies 165 countries with a marine border, and
   three countries with Caspian Sea border, as being eligible, in principle, to
-  report. As the result of the first questionnaire call, ninety-seven countries
-  expressed interest in the indicator (59%), of which eighty two replied with
+  report. As the result of the first questionnaire call, ninety-eight countries
+  expressed interest in the indicator (59%), of which eighty-three replied with
   completed questionnaires while three countries reported the indicator
-  separately (51.5%), 11 countries stated that they could not report due to lack
+  separately (52%), 11 countries stated that they could not report due to lack
   of data or time, and one responded with some catch data. </p>
 
   <p><strong>Time series:</strong></p>
 
-  <p>From 1974 to 2017.</p>
+  <p>Global/regional level: from 1974 to 2017.</p>
 
-  <p>Global/regional level: from 1974 to 2018.</p>
-
-  <p>National level: Not available yet (first questionnaire dispatched in
-  November 2019, considered a trial/testing phase).</p>
+  <p>National level: First questionnaire dispatched in November 2019, considered
+  a trial/testing phase. Upon comprehensive Quality Assurance analysis, FAO
+  reported the full results of this first inquiry through UNSD in February
+  2022.</p>
 
   <p><strong>Disaggregation:</strong></p>
 
-  <p>By FAO major marine fishing areas for statistical purposes<sup><sup><a
-  href="#footnote-4" id="footnote-ref-4">[3]</a></sup></sup>.</p>
+  <p>By FAO major marine fishing areas for statistical purposes<sup><a
+  href="#footnote-3" id="footnote-ref-3">[3]</a></sup>.</p>
 
   <p>Taxonomically, FAO publishes the indicator separately for straddling stocks
   (mostly tuna and tuna like).</p><div class="footnotes"><div><sup
-  class="footnote-number"
-  id="footnote-4">3</sup><p>http://www.fao.org/cwp-on-fishery-statistics/handbook/general-concepts/fishing-areas-for-statistical-purposes/en/
-  <a href="#footnote-ref-4">&#x2191;</a></p></div></div>
+  class="footnote-number" id="footnote-3">3</sup><p><a
+  href="https://www.fao.org/fishery/en/area/search">https://www.fao.org/fishery/en/area/search</a>
+  and <a
+  href="https://www.fao.org/cwp-on-fishery-statistics/handbook/general-concepts/main-water-areas/en/">https://www.fao.org/cwp-on-fishery-statistics/handbook/general-concepts/main-water-areas/en/</a>
+  <a href="#footnote-ref-3">&#x2191;</a></p></div></div>
 COMPARABILITY: >-
   <p><strong>Sources of discrepancies:</strong></p>
 
@@ -448,23 +678,24 @@ COMPARABILITY: >-
 OTHER_DOC: >-
   <p><strong>URL: </strong></p>
 
-  <h2>@FAO 2016-2021. Sustainable Development Goals. Indicator 14.4.1 -
+  <h2>FAO 2016-2021. Sustainable Development Goals. Indicator 14.4.1 -
   Proportion of fish stocks within biologically sustainable levels. <a
   href="http://www.fao.org/sustainable-development-goals/indicators/1441/en/">http://www.fao.org/sustainable-development-goals/indicators/1441/en/</a>
   </h2>
 
-  <p>@FAO 2019-2021. SDG 14.4.1 eLearning course. <a
+  <p>FAO 2019-2021. SDG 14.4.1 eLearning course. <a
   href="https://elearning.fao.org/course/view.php?id=502">https://elearning.fao.org/course/view.php?id=502</a></p>
 
-  <p>@FAO 2015-2021. CWP handbook of fishery statistical standards. Fishing
-  areas for statistical purpose. <a
-  href="http://www.fao.org/cwp-on-fishery-statistics/handbook/general-concepts/fishing-areas-for-statistical-purposes/en/">http://www.fao.org/cwp-on-fishery-statistics/handbook/general-concepts/fishing-areas-for-statistical-purposes/en/</a></p>
+  <p>FAO 2015-2021. CWP handbook of fishery statistical standards. Fishing areas
+  for statistical purpose. <a
+  href="https://www.fao.org/cwp-on-fishery-statistics/handbook/general-concepts/main-water-areas/en/">https://www.fao.org/cwp-on-fishery-statistics/handbook/general-concepts/main-water-areas/en/</a>
+  </p>
 
-  <p>@FAO 2015-2021. CWP handbook of fishery statistical standards. Identifiers
+  <p>FAO 2015-2021. CWP handbook of fishery statistical standards. Identifiers
   for aquatic animals and plants: <a
   href="http://www.fao.org/cwp-on-fishery-statistics/handbook/general-concepts/identifiers-for-aquatic-animals-and-plants/en/">http://www.fao.org/cwp-on-fishery-statistics/handbook/general-concepts/identifiers-for-aquatic-animals-and-plants/en/</a></p>
 
-  <p>@FAO 2004-2021. FIRMS Information Management Policy - Annex 1.2 - List of
+  <p>FAO 2004-2021. FIRMS Information Management Policy - Annex 1.2 - List of
   reference terms for Marine Resources. Updated June 2019.
   http://www.fao.org/3/a-ax530e.pdf</p>
 
@@ -475,13 +706,36 @@ OTHER_DOC: >-
   from stock assessments. Conservation Biology, 25: 777&#x2013;783. doi:
   10.1111/j.1523-1739.2011.01687.x.</p>
 
+  <p>Caddy, J.R. and Mahon, R. (1995). Reference Points for fisheries
+  management. FAO Fisheries Technical Paper. No. 337. Rome, FAO. 83p.</p>
+
+  <p>Cadima, E.L. (2003) Fish stock assessment manual. FAO Fisheries Technical
+  Paper. No. 393. Rome, FAO. 161p.</p>
+
   <p>FAO (1995) Code of conduct for responsible fisheries. 41 pp.</p>
 
   <p>FAO (2005) Review of the state of world marine fishery resources. FAO
   Fisheries Technical Paper No. 457. Rome. 235 pp</p>
 
   <p>FAO (2011) Review of the state of world marine fishery resources. FAO
-  technical paper 569: http://www.fao.org/docrep/015/i2389e/i2389e00.htm.</p>
+  technical paper 569: <a
+  href="http://www.fao.org/docrep/015/i2389e/i2389e00.htm">http://www.fao.org/docrep/015/i2389e/i2389e00.htm</a>.
+  </p>
+
+  <p>Haddon, M. (2011). Modelling and Quantitative Methods in Fisheries 2nd
+  Edition. Chapman and Hall/CRC. 465 p.</p>
+
+  <p>Hilborn, R., R.O. Amoroso, C.M. Anderson, J.K. Baum, T.A. Branch, C.
+  Costello, C.L. de Moor, et al. 2020. &#x201C;Effective Fisheries Management
+  Instrumental in Improving Fish Stock Status.&#x201D; Proceedings of the
+  National Academy of Sciences of the United States of America 117 (4):
+  2218&#x2013;24. <a
+  href="https://doi.org/10.1073/">https://doi.org/10.1073/</a>
+  pnas.1909726116.</p>
+
+  <p>Sparre P. &amp; Venema, S.C. (1998). Introduction to tropical fish stock
+  assessment. Part 1. Manual. FAO Fisheries Technical Paper. No. 306.1, Rev. 2.
+  Rome, FAO. 407p.</p>
 
   <p>UN (1995) Agreement for the implementation of the provisions of the United
   Nations Convention on the Law of the Sea of 10 December 1982 relating to the
@@ -901,7 +1155,7 @@ OTHER_DOC: >-
       </tr>
       <tr>
         <td colspan="12">
-          <p><strong><em><u>Time series are optional but recommended to be reported by stock fo all available years</u></em></strong></p>
+          <p><strong><em><u>Time series are optional but recommended to be reported by stock for all available years</u></em></strong></p>
         </td>
       </tr>
       <tr>

@@ -8,10 +8,13 @@ SDG_TARGET: >-
 SDG_INDICATOR: >-
   <p>Indicator 8.5.1: Average hourly earnings of employees, by sex, age,
   occupation and persons with disabilities</p>
-META_LAST_UPDATE: <p>2021-01-01</p>
+SDG_SERIES_DESCR: >-
+  <p>Average hourly earnings of employees by sex and occupation (local
+  currency)</p>
+META_LAST_UPDATE: '2022-03-31'
 SDG_RELATED_INDICATORS: '<p>1.1.1, 5.5.2, 8.2.1, 10.4.1 </p>'
-SDG_CUSTODIAN_AGENCIES: <p>ILO</p>
-CONTACT_ORGANISATION: <p>ILO </p>
+SDG_CUSTODIAN_AGENCIES: <p>International Labour Organization (ILO)</p>
+CONTACT_ORGANISATION: <p>International Labour Organization (ILO) </p>
 STAT_CONC_DEF: >-
   <p><strong>Definition:</strong> </p>
 
@@ -39,7 +42,7 @@ STAT_CONC_DEF: >-
   union dues and other obligations of employees. As stated in the indicator
   title, data on earnings should be presented on the basis of the arithmetic
   average of the hourly earnings of all employees. </p>
-UNIT_MEASURE: <p>Percentage</p>
+UNIT_MEASURE: <p>Current local currency </p>
 CLASS_SYSTEM: >-
   <p>The breakdown by occupation is based on the latest version of the
   International Standard Classification of Occupation (ISCO).</p>
@@ -62,8 +65,8 @@ SOURCE_TYPE: >-
   <p>Data on earnings could also be derived from a variety of administrative
   records.</p>
 COLL_METHOD: >-
-  <p>The ILO Department of Statistics processes national household survey
-  microdatasets in line with internationally-agreed indicator concepts and
+  <p>The ILO Department of Statistics processes national household survey micro
+  datasets in line with internationally-agreed indicator concepts and
   definitions set forth by the International Conference of Labour Statisticians.
   For data that could not be obtained through this processing or directly from
   government websites, the ILO sends out an annual ILOSTAT questionnaire to all
@@ -76,7 +79,7 @@ REL_CAL_POLICY: <p>Continuous</p>
 DATA_SOURCE: >-
   <p>At the national level, the agency responsible for producing data on
   earnings is usually the national statistical office. </p>
-COMPILING_ORG: <p>ILO </p>
+COMPILING_ORG: <p>International Labour Organization (ILO) </p>
 INST_MANDATE: >-
   <p>The ILO is the UN focal point for labour statistics. It sets international
   standards for labour statistics through the International Conference of Labour
@@ -87,7 +90,7 @@ INST_MANDATE: >-
 RATIONALE: >-
   <p>Earnings are a key aspect of quality of employment and living conditions.
   Information on hourly earnings disaggregated by various classifications (sex,
-  age, occupation, disability status) provides some indication of the extent to
+  age, occupation, disability status) provide some indication of the extent to
   which pay equality is respected or achieved. </p>
 REC_USE_LIM: >-
   <p>The variety of possible sources for statistics on earnings greatly hinders
@@ -100,12 +103,305 @@ REC_USE_LIM: >-
 DATA_COMP: >-
   <p><strong>Computation Method:</strong> </p>
 
+  <p>The method of calculation used to obtain the average hourly earnings of
+  employees depends on the source of data used and the type of information it
+  provides. For instance, where there is information available on each
+  worker&#x2019;s hourly earnings and hours worked, the average is a weighted
+  average calculated by summing up the product of each worker&#x2019;s hourly
+  earnings times the hours worked and dividing it by the total number of hours
+  worked by all workers. In other words:</p>
+
+  <p><math xmlns="http://www.w3.org/1998/Math/MathML">
+      <mi>A</mi>
+      <mi>v</mi>
+      <mi>e</mi>
+      <mi>r</mi>
+      <mi>a</mi>
+      <mi>g</mi>
+      <mi>e</mi>
+      <mi>&amp;nbsp;</mi>
+      <mi>h</mi>
+      <mi>o</mi>
+      <mi>u</mi>
+      <mi>r</mi>
+      <mi>l</mi>
+      <mi>y</mi>
+      <mi>&amp;nbsp;</mi>
+      <mi>e</mi>
+      <mi>a</mi>
+      <mi>r</mi>
+      <mi>n</mi>
+      <mi>i</mi>
+      <mi>n</mi>
+      <mi>g</mi>
+      <mi>s</mi>
+      <mo>=</mo>
+      <mi mathvariant="normal">&amp;nbsp;</mi>
+      <mfrac>
+        <mrow>
+          <mrow>
+            <mo stretchy="false">&#x2211;</mo>
+            <mrow>
+              <mo>(</mo>
+              <mi>h</mi>
+              <mi>o</mi>
+              <mi>u</mi>
+              <mi>r</mi>
+              <mi>l</mi>
+              <mi>y</mi>
+              <mi>&amp;nbsp;</mi>
+              <mi>e</mi>
+              <mi>a</mi>
+              <mi>r</mi>
+              <mi>n</mi>
+              <mi>i</mi>
+              <mi>n</mi>
+              <mi>g</mi>
+              <mi>s</mi>
+              <mi>&amp;nbsp;</mi>
+              <mi>o</mi>
+              <mi>f</mi>
+              <mi>&amp;nbsp;</mi>
+              <mi>e</mi>
+              <mi>a</mi>
+              <mi>c</mi>
+              <mi>h</mi>
+              <mi>&amp;nbsp;</mi>
+              <mi>e</mi>
+              <mi>m</mi>
+              <mi>p</mi>
+              <mi>l</mi>
+              <mi>o</mi>
+              <mi>y</mi>
+              <mi>e</mi>
+              <mi>e</mi>
+              <mi>&amp;nbsp;</mi>
+              <mi>x</mi>
+              <mi>&amp;nbsp;</mi>
+              <mi>h</mi>
+              <mi>o</mi>
+              <mi>u</mi>
+              <mi>r</mi>
+              <mi>s</mi>
+              <mi>&amp;nbsp;</mi>
+              <mi>w</mi>
+              <mi>o</mi>
+              <mi>r</mi>
+              <mi>k</mi>
+              <mi>e</mi>
+              <mi>d</mi>
+              <mi>&amp;nbsp;</mi>
+              <mi>b</mi>
+              <mi>y</mi>
+              <mi>&amp;nbsp;</mi>
+              <mi>e</mi>
+              <mi>a</mi>
+              <mi>c</mi>
+              <mi>h</mi>
+              <mi>&amp;nbsp;</mi>
+              <mi>e</mi>
+              <mi>m</mi>
+              <mi>p</mi>
+              <mi>l</mi>
+              <mi>o</mi>
+              <mi>y</mi>
+              <mi>e</mi>
+              <mi>e</mi>
+              <mo>)</mo>
+            </mrow>
+          </mrow>
+        </mrow>
+        <mrow>
+          <mi>T</mi>
+          <mi>o</mi>
+          <mi>t</mi>
+          <mi>a</mi>
+          <mi>l</mi>
+          <mi>&amp;nbsp;</mi>
+          <mi>n</mi>
+          <mi>u</mi>
+          <mi>m</mi>
+          <mi>b</mi>
+          <mi>e</mi>
+          <mi>r</mi>
+          <mi>&amp;nbsp;</mi>
+          <mi>o</mi>
+          <mi>f</mi>
+          <mi>&amp;nbsp;</mi>
+          <mi>h</mi>
+          <mi>o</mi>
+          <mi>u</mi>
+          <mi>r</mi>
+          <mi>s</mi>
+          <mi>&amp;nbsp;</mi>
+          <mi>w</mi>
+          <mi>o</mi>
+          <mi>r</mi>
+          <mi>k</mi>
+          <mi>e</mi>
+          <mi>d</mi>
+          <mi>&amp;nbsp;</mi>
+          <mi>b</mi>
+          <mi>y</mi>
+          <mi>&amp;nbsp;</mi>
+          <mi>a</mi>
+          <mi>l</mi>
+          <mi>l</mi>
+          <mi>&amp;nbsp;</mi>
+          <mi>e</mi>
+          <mi>m</mi>
+          <mi>p</mi>
+          <mi>l</mi>
+          <mi>o</mi>
+          <mi>y</mi>
+          <mi>e</mi>
+          <mi>e</mi>
+          <mi>s</mi>
+        </mrow>
+      </mfrac>
+    </math></p>
   <p>Statistics on average hourly earnings by sex can be used to calculate the
   gender pay gap, as follows: </p>
 
-  <p>Gender pay gap= (&#x3016;Average hourly earnings&#x3017;_Men-
-  &#x3016;Average hourly earnings&#x3017;_Women)/&#x3016;Average hourly
-  earnings&#x3017;_Men x 100 </p>
+  <p><math xmlns="http://www.w3.org/1998/Math/MathML">
+      <mi>G</mi>
+      <mi>e</mi>
+      <mi>n</mi>
+      <mi>d</mi>
+      <mi>e</mi>
+      <mi>r</mi>
+      <mi>&amp;nbsp;</mi>
+      <mi>p</mi>
+      <mi>a</mi>
+      <mi>y</mi>
+      <mi>&amp;nbsp;</mi>
+      <mi>g</mi>
+      <mi>a</mi>
+      <mi>p</mi>
+      <mo>=</mo>
+      <mfrac>
+        <mrow>
+          <mfenced separators="|">
+            <mrow>
+              <mi>A</mi>
+              <mi>v</mi>
+              <mi>e</mi>
+              <mi>r</mi>
+              <mi>a</mi>
+              <mi>g</mi>
+              <mi>e</mi>
+              <mi>&amp;nbsp;</mi>
+              <mi>h</mi>
+              <mi>o</mi>
+              <mi>u</mi>
+              <mi>r</mi>
+              <mi>l</mi>
+              <mi>y</mi>
+              <mi>&amp;nbsp;</mi>
+              <mi>e</mi>
+              <mi>a</mi>
+              <mi>r</mi>
+              <mi>n</mi>
+              <mi>i</mi>
+              <mi>n</mi>
+              <mi>g</mi>
+              <msub>
+                <mrow>
+                  <mi>s</mi>
+                </mrow>
+                <mrow>
+                  <mi>m</mi>
+                  <mi>e</mi>
+                  <mi>n</mi>
+                </mrow>
+              </msub>
+            </mrow>
+          </mfenced>
+          <mi>&amp;nbsp;</mi>
+          <mo>-</mo>
+          <mi>&amp;nbsp;</mi>
+          <mfenced separators="|">
+            <mrow>
+              <mi>A</mi>
+              <mi>v</mi>
+              <mi>e</mi>
+              <mi>r</mi>
+              <mi>a</mi>
+              <mi>g</mi>
+              <mi>e</mi>
+              <mi>&amp;nbsp;</mi>
+              <mi>h</mi>
+              <mi>o</mi>
+              <mi>u</mi>
+              <mi>r</mi>
+              <mi>l</mi>
+              <mi>y</mi>
+              <mi>&amp;nbsp;</mi>
+              <mi>e</mi>
+              <mi>a</mi>
+              <mi>r</mi>
+              <mi>n</mi>
+              <mi>i</mi>
+              <mi>n</mi>
+              <mi>g</mi>
+              <msub>
+                <mrow>
+                  <mi>s</mi>
+                </mrow>
+                <mrow>
+                  <mi>w</mi>
+                  <mi>o</mi>
+                  <mi>m</mi>
+                  <mi>e</mi>
+                  <mi>n</mi>
+                </mrow>
+              </msub>
+            </mrow>
+          </mfenced>
+        </mrow>
+        <mrow>
+          <mfenced separators="|">
+            <mrow>
+              <mi>A</mi>
+              <mi>v</mi>
+              <mi>e</mi>
+              <mi>r</mi>
+              <mi>a</mi>
+              <mi>g</mi>
+              <mi>e</mi>
+              <mi>&amp;nbsp;</mi>
+              <mi>h</mi>
+              <mi>o</mi>
+              <mi>u</mi>
+              <mi>r</mi>
+              <mi>l</mi>
+              <mi>y</mi>
+              <mi>&amp;nbsp;</mi>
+              <mi>e</mi>
+              <mi>a</mi>
+              <mi>r</mi>
+              <mi>n</mi>
+              <mi>i</mi>
+              <mi>n</mi>
+              <mi>g</mi>
+              <msub>
+                <mrow>
+                  <mi>s</mi>
+                </mrow>
+                <mrow>
+                  <mi>m</mi>
+                  <mi>e</mi>
+                  <mi>n</mi>
+                </mrow>
+              </msub>
+            </mrow>
+          </mfenced>
+        </mrow>
+      </mfrac>
+      <mi>&amp;nbsp;</mi>
+      <mo>&#xD7;</mo>
+      <mn>100</mn>
+    </math> </p>
 DATA_VALIDATION: >-
   <p>The ILO engages in annual consultations with member States through the
   ILOSTAT questionnaire and related Statistics Reporting System (StaRS).
@@ -116,17 +412,17 @@ ADJUSTMENT: >-
   internationally comparable labour statistics based on the indicator concepts
   and definitions adopted by the International Conference of Labour
   Statisticians.</p>
-IMPUTATION: <p>NA </p>
-REG_AGG: <p>NA </p>
+IMPUTATION: <p>Not applicable </p>
+REG_AGG: <p>Not applicable </p>
 DOC_METHOD: >-
-  <p>-Resolution concerning the measurement of employment-related income,
+  <p>- Resolution concerning the measurement of employment-related income,
   adopted by the Sixteenth International Conference of Labour Statisticians
   (January 1998), available at <a
   href="http://www.ilo.org/global/statistics-and-databases/standards-and-guidelines/resolutions-adopted-by-international-conferences-of-labour-statisticians/WCMS_087490/lang--en/index.htm"
   target="_blank"><u>http://www.ilo.org/global/statistics-and-databases/standards-and-guidelines/resolutions-adopted-by-international-conferences-of-labour-statisticians/WCMS_087490/lang--en/index.htm</u></a>
   </p>
 
-  <p>-Resolution concerning the International Classification of Status in
+  <p>- Resolution concerning the International Classification of Status in
   Employment (ICSE), adopted by the Fifteenth International Conference of Labour
   Statisticians (January 1993), available at <a
   href="http://www.ilo.org/global/statistics-and-databases/standards-and-guidelines/resolutions-adopted-by-international-conferences-of-labour-statisticians/WCMS_087562/lang--en/index.htm"
@@ -140,22 +436,35 @@ DOC_METHOD: >-
   target="_blank"><u>http://www.ilo.org/global/statistics-and-databases/standards-and-guidelines/resolutions-adopted-by-international-conferences-of-labour-statisticians/WCMS_087496/lang--en/index.htm</u></a>
   </p>
 
-  <p>-ILO manual: An integrated system of wages statistics, available at <a
+  <p>- ILO manual: An integrated system of wages statistics, available at <a
   href="http://www.ilo.org/wcmsp5/groups/public/---dgreports/---stat/documents/presentation/wcms_315657.pdf"
   target="_blank"><u>http://www.ilo.org/wcmsp5/groups/public/---dgreports/---stat/documents/presentation/wcms_315657.pdf</u></a>
   </p>
+QUALITY_MGMNT: >-
+  <p>The processes of compilation, production, and publication of data,
+  including its quality control, are carried out following the methodological
+  framework and standards established by the ILO Department of Statistics, in
+  compliance with the information technology and management standards of the
+  ILO.</p>
 QUALITY_ASSURE: >-
   <p>Data consistency and quality checks are regularly conducted for validation
   of the data before dissemination in the ILOSTAT database.</p>
 
   <p> </p>
+QUALITY_ASSMNT: >-
+  <p>The final assessment of the quality of information is carried out by the
+  Data Production and Analysis Unit of the ILO Department of Department. In
+  cases of doubt about the quality of specific data, these values are reviewed
+  with the participation of the national agencies responsible for producing the
+  data if appropriate. If the issues cannot be clarified, the respective
+  information is not published. </p>
 COVERAGE: >-
   <p><strong>Data availability:</strong></p>
 
-  <p>Data for this indicator is available for 103 countries and territories.
+  <p>Data for this indicator is available for 118 countries and territories.
   </p>
 
-  <p>Time series: The submission covers data from 2000 to 2019.</p>
+  <p>Time series: The submission covers data from 2000 to 2021.</p>
 
   <p><strong>Disaggregation:</strong></p>
 
@@ -186,46 +495,45 @@ COMPARABILITY: >-
   naturally affects the reliability of the results.</p>
 OTHER_DOC: >-
   <p>Decent Work and the Sustainable Development Goals: A Guidebook on SDG
-  Labour Market Indicators, available at <a
-  href="https://www.ilo.org/stat/Publications/WCMS_647109/lang--en/index.htm"
-  target="_blank"><u>https://www.ilo.org/stat/Publications/WCMS_647109/lang--en/index.htm</u></a>
+  Labour Market Indicators, available at
+  https://www.ilo.org/global/statistics-and-databases/publications/WCMS_647109/lang--en/index.htm
   </p>
 
   <p>Resolution concerning the measurement of employment-related income, adopted
   by the Sixteenth International Conference of Labour Statisticians (January
   1998), available at <a
   href="http://www.ilo.org/global/statistics-and-databases/standards-and-guidelines/resolutions-adopted-by-international-conferences-of-labour-statisticians/WCMS_087490/lang--en/index.htm"
-  target="_blank"><u>http://www.ilo.org/global/statistics-and-databases/standards-and-guidelines/resolutions-adopted-by-international-conferences-of-labour-statisticians/WCMS_087490/lang--en/index.htm</u></a>
-  </p>
+  target="_blank"><u>http://www.ilo.org/global/statistics-and-databases/standards-and-guidelines/resolutions-adopted-by-international-conferences-of-labour-statisticians/WCMS_087490/lang--en/index.htm</u></a></p>
+
+  <p> </p>
 
   <p>Resolution concerning the International Classification of Status in
   Employment (ICSE), adopted by the Fifteenth International Conference of Labour
   Statisticians (January 1993), available at <a
   href="http://www.ilo.org/global/statistics-and-databases/standards-and-guidelines/resolutions-adopted-by-international-conferences-of-labour-statisticians/WCMS_087562/lang--en/index.htm"
-  target="_blank"><u>http://www.ilo.org/global/statistics-and-databases/standards-and-guidelines/resolutions-adopted-by-international-conferences-of-labour-statisticians/WCMS_087562/lang--en/index.htm</u></a>
-  </p>
+  target="_blank"><u>http://www.ilo.org/global/statistics-and-databases/standards-and-guidelines/resolutions-adopted-by-international-conferences-of-labour-statisticians/WCMS_087562/lang--en/index.htm</u></a></p>
+
+  <p> </p>
 
   <p>Resolution concerning an integrated system of wages statistics, adopted by
   the Twelfth International Conference of Labour Statisticians (January 1973),
   available at <a
   href="http://www.ilo.org/global/statistics-and-databases/standards-and-guidelines/resolutions-adopted-by-international-conferences-of-labour-statisticians/WCMS_087496/lang--en/index.htm"
-  target="_blank"><u>http://www.ilo.org/global/statistics-and-databases/standards-and-guidelines/resolutions-adopted-by-international-conferences-of-labour-statisticians/WCMS_087496/lang--en/index.htm</u></a>
-  </p>
+  target="_blank"><u>http://www.ilo.org/global/statistics-and-databases/standards-and-guidelines/resolutions-adopted-by-international-conferences-of-labour-statisticians/WCMS_087496/lang--en/index.htm</u></a></p>
 
-  <p>ILO manual: An integrated system of wages statistics, available at <a
-  href="http://www.ilo.org/wcmsp5/groups/public/---dgreports/---stat/documents/presentation/wcms_315657.pdf"
-  target="_blank"><u>http://www.ilo.org/wcmsp5/groups/public/---dgreports/---stat/documents/presentation/wcms_315657.pdf</u></a>
-  </p>
+  <p> </p>
 
-  <p>ILOSTAT database, available at <a href="https://ilostat.ilo.org/"
-  target="_blank"><u>https://ilostat.ilo.org</u></a> </p>
+  <p>ILO manual: An integrated system of wages statistics, available <u>at
+  https://www.ilo.org/wcmsp5/groups/public/---dgreports/---stat/documents/presentation/wcms_315657.pdf</u></p>
 
-  <p>ILOSTAT&#x2019;s indicator description on earnings and labour cost, at <a
-  href="https://ilostat.ilo.org/resources/methods/description-earnings-and-labour-cost/"
-  target="_blank"><u>https://ilostat.ilo.org/resources/methods/description-earnings-and-labour-cost/</u></a>
-  </p>
+  <p>ILOSTAT database, available at <a
+  href="https://ilostat.ilo.org">https://ilostat.ilo.org</a> </p>
 
-  <p>International Standard Classification of Occupations (ISCO-08) <a
-  href="http://www.ilo.org/public/english/bureau/stat/isco/isco08/"
-  target="_blank"><u>http://www.ilo.org/public/english/bureau/stat/isco/isco08/</u></a>
+  <p>ILOSTAT&#x2019;s indicator description on earnings and labour cost, at
+  https://ilostat.ilo.org/resources/concepts-and-definitions/description-earnings-and-labour-cost/</p>
+
+  <p> </p>
+
+  <p>International Standard Classification of Occupations (ISCO)
+  https://ilostat.ilo.org/resources/concepts-and-definitions/classification-occupation/
   </p>

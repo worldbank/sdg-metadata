@@ -11,9 +11,51 @@ SDG_INDICATOR: >-
   the judiciary, compared to national distributions, by sex, age, persons with
   disabilities and population groups</p>
 SDG_SERIES_DESCR: >-
-  <p>This metadata is for sub-component (a) of the indicator, on
+  <p>This metadata is for sub-component (a) of the 16.7.1 indicator on
   legislatures.</p>
-META_LAST_UPDATE: <p>2021-03-01</p>
+
+  <p>Number of chairs of permanent committees, by age sex and focus of the
+  committee, Joint Committees</p>
+
+  <p>Number of chairs of permanent committees, by age sex and focus of the
+  committee, Lower Chamber or Unicameral</p>
+
+  <p>Number of chairs of permanent committees, by age sex and focus of the
+  committee, Upper Chamber</p>
+
+  <p>Ratio for female members of parliaments (Ratio of the proportion of women
+  in parliament in the proportion of women in the national population with the
+  age of eligibility as a lower bound boundary), Lower Chamber or Unicameral</p>
+
+  <p>Ratio for female members of parliaments (Ratio of the proportion of women
+  in parliament in the proportion of women in the national population with the
+  age of eligibility as a lower bound boundary), Upper Chamber</p>
+
+  <p>Number of speakers in parliament, by age and sex , Lower Chamber or
+  Unicameral</p>
+
+  <p>Number of speakers in parliament, by age and sex, Upper Chamber</p>
+
+  <p>Number of youth in parliament (age 45 or below), Lower Chamber or
+  Unicameral (Number)</p>
+
+  <p>Number of youth in parliament (age 45 or below), Upper Chamber (Number)</p>
+
+  <p>Proportion of youth in parliament (age 45 or below), Lower Chamber or
+  Unicameral (%)</p>
+
+  <p>Proportion of youth in parliament (age 45 or below), Upper Chamber (%)</p>
+
+  <p>Ratio of young members in parliament (Ratio of the proportion of young
+  members in parliament (age 45 or below) in the proportion of the national
+  population (age 45 or below) with the age of eligibility as a lower bound
+  boundary), Lower Chamber or Unicameral</p>
+
+  <p>Ratio of young members in parliament (Ratio of the proportion of young
+  members in parliament (age 45 or below) in the proportion of the national
+  population (age 45 or below) with the age of eligibility as a lower bound
+  boundary), Upper Chamber</p>
+META_LAST_UPDATE: '2022-03-31'
 SDG_RELATED_INDICATORS: >-
   <p>Indicator 5.5.1(a) looks at the proportion of seats held by women in
   national parliaments while indicator 5.5.1(b) considers the proportion of
@@ -24,8 +66,8 @@ SDG_RELATED_INDICATORS: >-
   present indicator recommends building on the methodology elaborated for
   indicator 5.5.1(b) for future reporting on indicator 16.7.1(a) at local
   level.</p>
-SDG_CUSTODIAN_AGENCIES: <p>Inter-Parliamentary Union</p>
-CONTACT_ORGANISATION: <p>Inter-Parliamentary Union</p>
+SDG_CUSTODIAN_AGENCIES: <p>Inter-Parliamentary Union (IPU)</p>
+CONTACT_ORGANISATION: <p>Inter-Parliamentary Union (IPU)</p>
 STAT_CONC_DEF: >-
   <p><strong>Definition:</strong></p>
 
@@ -67,8 +109,8 @@ STAT_CONC_DEF: >-
   &lt;https://data.ipu.org/compare?field=country%3A%3Afield_structure_of_parliament#pie&gt;
   <a href="#footnote-ref-2">&#x2191;</a></p></div><div><sup
   class="footnote-number" id="footnote-3">2</sup><p> UN General Assembly,
-  Convention on the Rights of Persons with Disabilities : resolution / adopted
-  by the General Assembly, 24 January 2007, A/RES/61/106, available at:
+  Convention on the Rights of Persons with Disabilities: resolution / adopted by
+  the General Assembly, 24 January 2007, A/RES/61/106, available at:
   http://www.refworld.org/docid/45f973632.html <a
   href="#footnote-ref-3">&#x2191;</a></p></div><div><sup class="footnote-number"
   id="footnote-4">3</sup><p> <em>Minority group: </em>a group numerically
@@ -84,7 +126,7 @@ STAT_CONC_DEF: >-
   id="footnote-5">4</sup><p> <em>Indigenous peoples: </em>peoples in independent
   countries who are regarded as indigenous on account of their descent from the
   populations which inhabited the country, or a geographical region to which the
-  country belongs, at the time of conquest or colonisation or the establishment
+  country belongs, at the time of conquest or colonization or the establishment
   of present state boundaries and who, irrespective of their legal status,
   retain some or all of their own social, economic, cultural and political
   institutions. Source: C169 - Indigenous and Tribal Peoples Convention, 1989
@@ -93,7 +135,7 @@ STAT_CONC_DEF: >-
   electoral law reserves 50 per cent of seats in the People&apos;s Assembly for
   &#x201C;workers and farmers&#x201D;. <a
   href="#footnote-ref-6">&#x2191;</a></p></div></div>
-UNIT_MEASURE: '<p>Number, Ratio, Percent</p>'
+UNIT_MEASURE: '<p>Number, Ratio, Percent (%)</p>'
 CLASS_SYSTEM: <p>Not applicable</p>
 SOURCE_TYPE: >-
   <p>The multiple data points pertaining to the parliamentary sub-component of
@@ -225,8 +267,8 @@ INST_MANDATE: >-
   that promotes democracy and sustainable development and helps parliaments to
   become stronger, younger, gender-balanced and more diverse. The IPU has a
   historical record of collecting reference data on parliaments since the 1960s.
-  It also maintains the flaghsip Parline database on national parliaments -- an
-  authoratative and up-to-date resource containing over 600 data fields for
+  It also maintains the flaghsip Parline database on national parliaments - an
+  authoritative and up-to-date resource containing over 600 data fields for
   every functioning parliament in the world. </p>
 
   <p>In 2017 UNDP approached the IPU to jointly develop metadata for the 16.7.1a
@@ -251,13 +293,12 @@ RATIONALE: >-
   electorate, as members resemble the people they represent in respect to
   gender, age, ethnicity and disability. Descriptive representation has been
   found to be associated with higher levels of trust in public institutions, as
-  people feel closer to elected representatives who resemble them and</p>
-
-  <p>perceive more visibly representative political bodies with better quality
-  and fairness of policy decisions, and with less undue influence of vested
-  interests over decision-making.<sup><a href="#footnote-9"
-  id="footnote-ref-9">[8]</a></sup> Such descriptive representation should then
-  enhance the substantive influence of population groups.</p>
+  people feel closer to elected representatives who resemble them and perceive
+  more visibly representative political bodies with better quality and fairness
+  of policy decisions, and with less undue influence of vested interests over
+  decision-making.<sup><a href="#footnote-9" id="footnote-ref-9">[8]</a></sup>
+  Such descriptive representation should then enhance the substantive influence
+  of population groups.</p>
 
   <p>The methodology for this indicator measures representation in parliamentary
   decision-making with respect to the sex and age of members of parliament. It
@@ -285,7 +326,7 @@ RATIONALE: >-
   <ul>
     <li><em>Members of parliament</em> play important roles in public decision-making by voting on laws and holding the government to account. </li>
     <li><em>The Speaker</em><strong> </strong>of a legislature presides over the proceedings of parliament and typically plays a significant role in setting the parliamentary agenda and organizing the business of parliament. The Speaker is responsible for ensuring parliamentary business is conducted fairly and effectively, and for protecting the autonomy of the legislature in relation to the other branches of government. </li>
-    <li><em>Committee Chairs</em> preside over the work of parliamentary committees, and typically have great influence over the committee agenda and business, including the legislative and oversight work carried out. In addition, committee Chairs often participate in the management boards or bureau that guide the overall work of parliament. As the number and mandates of permanent committees vary between parliaments, for the sake of better quality data and greater comparability, this indicator only considers five Permanent Committees : Foreign Affairs, Defence, Finance, Human Rights and Gender Equality (see &#x2018;Comments and limitations&#x2019;). </li>
+    <li><em>Committee Chairs</em> preside over the work of parliamentary committees, and typically have great influence over the committee agenda and business, including the legislative and oversight work carried out. In addition, committee Chairs often participate in the management boards or bureau that guide the overall work of parliament. As the number and mandates of permanent committees vary between parliaments, for the sake of better-quality data and greater comparability, this indicator only considers five Permanent Committees : Foreign Affairs, Defence, Finance, Human Rights and Gender Equality (see &#x2018;Comments and limitations&#x2019;). </li>
   </ul>
 
   <p><em><u>Political representation and disaggregation dimensions</u></em></p>
@@ -354,7 +395,7 @@ REC_USE_LIM: >-
   <p><em><u>Measuring representation</u></em></p>
 
   <ul>
-    <li>The significance of descriptive representation has been challenged in different ways. First, there is the question of what and who should be mirrored in the representative body; why be attentive to some groups (women, young people, minorities etc) but not others (the poor, LGBTI, &quot;ethnic&quot; groups who might not be officially recognized etc)? Second, the mirror notion of descriptive representation may be deemed dangerous if it precludes citizens from choosing representatives who do not look like them. One of the base tenets of democracy is freedom of choice at the ballot box and if one is corralled into having to vote for a candidate of your own sex or ethnicity, then that intrinsic liberty is constrained. Third, descriptive representation has the danger of ultimately becoming an end in itself. Concerns about effective representation should not end once parliament has the appropriate number of members for each minority groups. Indeed at this stage concerns about adequate political representation should be just beginning. These members should be able to articulate minority concerns and have the same opportunities to influence policy as other members. Nevertheless, if a parliament includes none, or very few, women, young people, minorities etc., that is probably a worrying sign that their interests are not being heard. <sup><a href="#footnote-10" id="footnote-ref-10">[9]</a></sup> </li>
+    <li>The significance of descriptive representation has been challenged in different ways. First, there is the question of what and who should be mirrored in the representative body; why be attentive to some groups (women, young people, minorities etc) but not others (the poor, LGBTI, &quot;ethnic&quot; groups who might not be officially recognized etc)? Second, the mirror notion of descriptive representation may be deemed dangerous if it precludes citizens from choosing representatives who do not look like them. One of the base tenets of democracy is freedom of choice at the ballot box and if one is corralled into having to vote for a candidate of your own sex or ethnicity, then that intrinsic liberty is constrained. Third, descriptive representation has the danger of ultimately becoming an end in itself. Concerns about effective representation should not end once parliament has the appropriate number of members for each minority groups. Indeed, at this stage concerns about adequate political representation should be just beginning. These members should be able to articulate minority concerns and have the same opportunities to influence policy as other members. Nevertheless, if a parliament includes none, or very few, women, young people, minorities etc., that is probably a worrying sign that their interests are not being heard. <sup><a href="#footnote-10" id="footnote-ref-10">[9]</a></sup> </li>
     <li>Representation needs to go hand in hand with participation, with both concepts being part of target 16.7. Without meaningful opportunities for citizens to participate in parliamentary decision-making, representation alone is unlikely to automatically lead to effective popular control of the government - one of the fundamental principles of democracy (International IDEA, 2013). </li>
     <li>The age and sex of individuals holding decision-making positions in parliament provide an indication at the symbolic level of the way in which power is shared within this institution. However, there is no certainty that because a Speaker or committee Chair is young (or old), a woman (or a man), or belongs to a minority group, s/he will bring to the fore issues of interest to groups with the same socio-demographic profile.</li>
     <li>Tracking the age of MPs over time offers some measure of youth representation in parliament. However, in most parliaments around the world, leadership positions such as Speaker and permanent committee Chairs are considered senior functions which require considerable experience, and are awarded in recognition of parliamentary achievement. This means that such positions are by nature unlikely to be held by members below the &#x2018;youth&#x2019; age bracket of &#x2018;45 years old and under&#x2019;. As such, for the positions of Speaker and committee Chairs, more relevant insights will be generated on the basis of sex disaggregation. </li>
@@ -374,7 +415,7 @@ REC_USE_LIM: >-
 
   <ul>
     <li>In between reporting dates, it may be difficult to maintain up-to-date information on the results of by-elections held in selected constituencies to fill vacancies arising from the death or resignation of members.</li>
-    <li>From one year to another during any given parliamentary term (typically 4 or 5 years), some Members may fall into a different age group amongst those considered for this indicator. For this reason, age of Members is collected at the time of their election to parliament </li>
+    <li>From one year to another during any given parliamentary term (typically 4 or 5 years), some Members may fall into a different age group amongst those considered for this indicator. For this reason, age of Members is collected at the time of their election to parliament. </li>
     <li>Age of Speakers and permanent committee Chairs is collected at the time of their appointment to the position, then verified and updated as of 1 January each year. </li>
   </ul>
 
@@ -447,10 +488,10 @@ REC_USE_LIM: >-
   &#x201C;Gender-sensitive Parliaments&#x201D;, p. 18 (on committee chairs:
   &#x201C;All leaders, irrespective of gender, need to demonstrate their
   capabilities before they can be accepted as credible and legitimate authority
-  bearers&#x201D;) <a href="#footnote-ref-12">&#x2191;</a></p></div><div><sup
+  bearers&#x201D;). <a href="#footnote-ref-12">&#x2191;</a></p></div><div><sup
   class="footnote-number" id="footnote-13">12</sup><p> IPU and UNDP, &#x201C;The
   representation of minorities and indigenous peoples in parliament: A global
-  overview&#x201D; (2010) <a
+  overview&#x201D; (2010). <a
   href="#footnote-ref-13">&#x2191;</a></p></div><div><sup
   class="footnote-number" id="footnote-14">13</sup><p> See, for example, the EU
   General Data Protection Regulation (GDPR, 2016/679) which introduced a
@@ -502,26 +543,262 @@ DATA_COMP: >-
     <li>To calculate the ratio for &#x2018;young&#x2019; MPs (aged 45 and below), the following formula is to be used: </li>
   </ol>
 
-  <p><strong>Ratio 1 = <u> Proportion of MPs aged 45 and below in parliament
-  </u></strong></p>
+  <p><math xmlns="http://www.w3.org/1998/Math/MathML">
+      <mi mathvariant="bold-italic">R</mi>
+      <mi mathvariant="bold-italic">a</mi>
+      <mi mathvariant="bold-italic">t</mi>
+      <mi mathvariant="bold-italic">i</mi>
+      <mi mathvariant="bold-italic">o</mi>
+      <mi mathvariant="bold-italic">&amp;nbsp;</mi>
+      <mn>1</mn>
+      <mo>=</mo>
+      <mi mathvariant="bold-italic">&amp;nbsp;</mi>
+      <mfrac>
+        <mrow>
+          <mi mathvariant="bold-italic">P</mi>
+          <mi mathvariant="bold-italic">r</mi>
+          <mi mathvariant="bold-italic">o</mi>
+          <mi mathvariant="bold-italic">p</mi>
+          <mi mathvariant="bold-italic">o</mi>
+          <mi mathvariant="bold-italic">r</mi>
+          <mi mathvariant="bold-italic">t</mi>
+          <mi mathvariant="bold-italic">i</mi>
+          <mi mathvariant="bold-italic">o</mi>
+          <mi mathvariant="bold-italic">n</mi>
+          <mi mathvariant="bold-italic">&amp;nbsp;</mi>
+          <mi mathvariant="bold-italic">&amp;nbsp;</mi>
+          <mi mathvariant="bold-italic">o</mi>
+          <mi mathvariant="bold-italic">f</mi>
+          <mi mathvariant="bold-italic">&amp;nbsp;</mi>
+          <mi mathvariant="bold-italic">M</mi>
+          <mi mathvariant="bold-italic">P</mi>
+          <mi mathvariant="bold-italic">s</mi>
+          <mi mathvariant="bold-italic">&amp;nbsp;</mi>
+          <mi mathvariant="bold-italic">a</mi>
+          <mi mathvariant="bold-italic">g</mi>
+          <mi mathvariant="bold-italic">e</mi>
+          <mi mathvariant="bold-italic">d</mi>
+          <mi mathvariant="bold-italic">&amp;nbsp;</mi>
+          <mn>45</mn>
+          <mi mathvariant="bold-italic">&amp;nbsp;</mi>
+          <mi mathvariant="bold-italic">a</mi>
+          <mi mathvariant="bold-italic">n</mi>
+          <mi mathvariant="bold-italic">d</mi>
+          <mi mathvariant="bold-italic">&amp;nbsp;</mi>
+          <mi mathvariant="bold-italic">b</mi>
+          <mi mathvariant="bold-italic">e</mi>
+          <mi mathvariant="bold-italic">l</mi>
+          <mi mathvariant="bold-italic">o</mi>
+          <mi mathvariant="bold-italic">w</mi>
+          <mi mathvariant="bold-italic">&amp;nbsp;</mi>
+          <mi mathvariant="bold-italic">i</mi>
+          <mi mathvariant="bold-italic">n</mi>
+          <mi mathvariant="bold-italic">&amp;nbsp;</mi>
+          <mi mathvariant="bold-italic">p</mi>
+          <mi mathvariant="bold-italic">a</mi>
+          <mi mathvariant="bold-italic">r</mi>
+          <mi mathvariant="bold-italic">l</mi>
+          <mi mathvariant="bold-italic">i</mi>
+          <mi mathvariant="bold-italic">a</mi>
+          <mi mathvariant="bold-italic">m</mi>
+          <mi mathvariant="bold-italic">e</mi>
+          <mi mathvariant="bold-italic">n</mi>
+          <mi mathvariant="bold-italic">t</mi>
+        </mrow>
+        <mrow>
+          <mi mathvariant="bold-italic">P</mi>
+          <mi mathvariant="bold-italic">r</mi>
+          <mi mathvariant="bold-italic">o</mi>
+          <mi mathvariant="bold-italic">p</mi>
+          <mi mathvariant="bold-italic">o</mi>
+          <mi mathvariant="bold-italic">r</mi>
+          <mi mathvariant="bold-italic">t</mi>
+          <mi mathvariant="bold-italic">i</mi>
+          <mi mathvariant="bold-italic">o</mi>
+          <mi mathvariant="bold-italic">n</mi>
+          <mi mathvariant="bold-italic">&amp;nbsp;</mi>
+          <mi mathvariant="bold-italic">o</mi>
+          <mi mathvariant="bold-italic">f</mi>
+          <mi mathvariant="bold-italic">&amp;nbsp;</mi>
+          <mi mathvariant="bold-italic">t</mi>
+          <mi mathvariant="bold-italic">h</mi>
+          <mi mathvariant="bold-italic">e</mi>
+          <mi mathvariant="bold-italic">&amp;nbsp;</mi>
+          <mi mathvariant="bold-italic">n</mi>
+          <mi mathvariant="bold-italic">a</mi>
+          <mi mathvariant="bold-italic">t</mi>
+          <mi mathvariant="bold-italic">i</mi>
+          <mi mathvariant="bold-italic">o</mi>
+          <mi mathvariant="bold-italic">n</mi>
+          <mi mathvariant="bold-italic">a</mi>
+          <mi mathvariant="bold-italic">l</mi>
+          <mi mathvariant="bold-italic">&amp;nbsp;</mi>
+          <mi mathvariant="bold-italic">p</mi>
+          <mi mathvariant="bold-italic">o</mi>
+          <mi mathvariant="bold-italic">p</mi>
+          <mi mathvariant="bold-italic">u</mi>
+          <mi mathvariant="bold-italic">l</mi>
+          <mi mathvariant="bold-italic">a</mi>
+          <mi mathvariant="bold-italic">t</mi>
+          <mi mathvariant="bold-italic">i</mi>
+          <mi mathvariant="bold-italic">o</mi>
+          <mi mathvariant="bold-italic">n</mi>
+          <mi mathvariant="bold-italic">&amp;nbsp;</mi>
+          <mi mathvariant="bold-italic">a</mi>
+          <mi mathvariant="bold-italic">g</mi>
+          <mi mathvariant="bold-italic">e</mi>
+          <mi mathvariant="bold-italic">d</mi>
+          <mi mathvariant="bold-italic">&amp;nbsp;</mi>
+          <mn>45</mn>
+          <mi mathvariant="bold-italic">&amp;nbsp;</mi>
+          <mi mathvariant="bold-italic">a</mi>
+          <mi mathvariant="bold-italic">n</mi>
+          <mi mathvariant="bold-italic">d</mi>
+          <mi mathvariant="bold-italic">&amp;nbsp;</mi>
+          <mi mathvariant="bold-italic">b</mi>
+          <mi mathvariant="bold-italic">e</mi>
+          <mi mathvariant="bold-italic">l</mi>
+          <mi mathvariant="bold-italic">o</mi>
+          <mi mathvariant="bold-italic">w</mi>
+        </mrow>
+      </mfrac>
+    </math></p>
+  <p><strong><em>(with the age of eligibility as a lower
+  boundary)</em></strong></p>
 
-  <p><strong>Proportion of the national population aged 45 and below
-  </strong></p>
-
-  <p><em>(with the age of eligibility as a lower boundary)</em></p>
-
-  <p>Where: </p>
+  <p>where: </p>
 
   <ul>
     <li>The numerator is the number of seats held by MPs aged 45 and below, divided by the total number of members in parliament</li>
     <li>The denominator can be computed using national population figures as follows: </li>
   </ul>
 
-  <p><em><u>[Size of national population &lt; or = to 45] &#x2013; [Size of
-  national population &lt; age of eligibility]</u></em></p>
-
-  <p><em>Size of the national population</em></p>
-
+  <p><math xmlns="http://www.w3.org/1998/Math/MathML">
+      <mfrac>
+        <mrow>
+          <mfenced open="[" close="]" separators="|">
+            <mrow>
+              <mi>S</mi>
+              <mi>i</mi>
+              <mi>z</mi>
+              <mi>e</mi>
+              <mi>&amp;nbsp;</mi>
+              <mi>o</mi>
+              <mi>f</mi>
+              <mi>&amp;nbsp;</mi>
+              <mi>n</mi>
+              <mi>a</mi>
+              <mi>t</mi>
+              <mi>i</mi>
+              <mi>o</mi>
+              <mi>n</mi>
+              <mi>a</mi>
+              <mi>l</mi>
+              <mi>&amp;nbsp;</mi>
+              <mi>p</mi>
+              <mi>o</mi>
+              <mi>p</mi>
+              <mi>u</mi>
+              <mi>l</mi>
+              <mi>a</mi>
+              <mi>t</mi>
+              <mi>i</mi>
+              <mi>o</mi>
+              <mi>n</mi>
+              <mi>&amp;nbsp;</mi>
+              <mo>&#x2264;</mo>
+              <mn>45</mn>
+            </mrow>
+          </mfenced>
+          <mo>-</mo>
+          <mi>&amp;nbsp;</mi>
+          <mfenced open="[" close="]" separators="|">
+            <mrow>
+              <mi>S</mi>
+              <mi>i</mi>
+              <mi>z</mi>
+              <mi>e</mi>
+              <mi>&amp;nbsp;</mi>
+              <mi>o</mi>
+              <mi>f</mi>
+              <mi>&amp;nbsp;</mi>
+              <mi>n</mi>
+              <mi>a</mi>
+              <mi>t</mi>
+              <mi>i</mi>
+              <mi>o</mi>
+              <mi>n</mi>
+              <mi>a</mi>
+              <mi>l</mi>
+              <mi>&amp;nbsp;</mi>
+              <mi>p</mi>
+              <mi>o</mi>
+              <mi>p</mi>
+              <mi>u</mi>
+              <mi>l</mi>
+              <mi>a</mi>
+              <mi>t</mi>
+              <mi>i</mi>
+              <mi>o</mi>
+              <mi>n</mi>
+              <mi>&amp;nbsp;</mi>
+              <mo>&amp;lt;</mo>
+              <mi>a</mi>
+              <mi>g</mi>
+              <mi>e</mi>
+              <mi>&amp;nbsp;</mi>
+              <mi>o</mi>
+              <mi>f</mi>
+              <mi>&amp;nbsp;</mi>
+              <mi>e</mi>
+              <mi>l</mi>
+              <mi>i</mi>
+              <mi>g</mi>
+              <mi>i</mi>
+              <mi>b</mi>
+              <mi>i</mi>
+              <mi>l</mi>
+              <mi>i</mi>
+              <mi>t</mi>
+              <mi>y</mi>
+            </mrow>
+          </mfenced>
+        </mrow>
+        <mrow>
+          <mi>S</mi>
+          <mi>i</mi>
+          <mi>z</mi>
+          <mi>e</mi>
+          <mi>&amp;nbsp;</mi>
+          <mi>o</mi>
+          <mi>f</mi>
+          <mi>&amp;nbsp;</mi>
+          <mi>t</mi>
+          <mi>h</mi>
+          <mi>e</mi>
+          <mi>&amp;nbsp;</mi>
+          <mi>n</mi>
+          <mi>a</mi>
+          <mi>t</mi>
+          <mi>i</mi>
+          <mi>o</mi>
+          <mi>n</mi>
+          <mi>a</mi>
+          <mi>l</mi>
+          <mi>&amp;nbsp;</mi>
+          <mi>p</mi>
+          <mi>o</mi>
+          <mi>p</mi>
+          <mi>u</mi>
+          <mi>l</mi>
+          <mi>a</mi>
+          <mi>t</mi>
+          <mi>i</mi>
+          <mi>o</mi>
+          <mi>n</mi>
+        </mrow>
+      </mfrac>
+    </math></p>
   <p>The resulting ratio can then be interpreted as follows: </p>
 
   <ul>
@@ -537,12 +814,125 @@ DATA_COMP: >-
   above the age of eligibility), but only 25% of MPs fall in this age category:
   </p>
 
-  <p><strong>Ratio 1 = <u> Proportion of MPs aged 45 and below in parliament
-  </u> </strong></p>
-
-  <p><strong>Proportion of the national population aged 45 and
-  below</strong></p>
-
+  <p><math xmlns="http://www.w3.org/1998/Math/MathML">
+      <mi>R</mi>
+      <mi>a</mi>
+      <mi>t</mi>
+      <mi>i</mi>
+      <mi>o</mi>
+      <mi>&amp;nbsp;</mi>
+      <mn>1</mn>
+      <mo>=</mo>
+      <mi>&amp;nbsp;</mi>
+      <mfrac>
+        <mrow>
+          <mi>P</mi>
+          <mi>r</mi>
+          <mi>o</mi>
+          <mi>p</mi>
+          <mi>o</mi>
+          <mi>r</mi>
+          <mi>t</mi>
+          <mi>i</mi>
+          <mi>o</mi>
+          <mi>n</mi>
+          <mi>&amp;nbsp;</mi>
+          <mi>o</mi>
+          <mi>f</mi>
+          <mi>&amp;nbsp;</mi>
+          <mi>M</mi>
+          <mi>P</mi>
+          <mi>s</mi>
+          <mi>&amp;nbsp;</mi>
+          <mi>a</mi>
+          <mi>g</mi>
+          <mi>e</mi>
+          <mi>d</mi>
+          <mi>&amp;nbsp;</mi>
+          <mn>45</mn>
+          <mi>&amp;nbsp;</mi>
+          <mi>a</mi>
+          <mi>n</mi>
+          <mi>d</mi>
+          <mi>&amp;nbsp;</mi>
+          <mi>b</mi>
+          <mi>e</mi>
+          <mi>l</mi>
+          <mi>o</mi>
+          <mi>w</mi>
+          <mi>&amp;nbsp;</mi>
+          <mi>i</mi>
+          <mi>n</mi>
+          <mi>&amp;nbsp;</mi>
+          <mi>p</mi>
+          <mi>a</mi>
+          <mi>r</mi>
+          <mi>l</mi>
+          <mi>i</mi>
+          <mi>a</mi>
+          <mi>m</mi>
+          <mi>e</mi>
+          <mi>n</mi>
+          <mi>t</mi>
+        </mrow>
+        <mrow>
+          <mi>P</mi>
+          <mi>r</mi>
+          <mi>o</mi>
+          <mi>p</mi>
+          <mi>o</mi>
+          <mi>r</mi>
+          <mi>t</mi>
+          <mi>i</mi>
+          <mi>o</mi>
+          <mi>n</mi>
+          <mi>&amp;nbsp;</mi>
+          <mi>o</mi>
+          <mi>f</mi>
+          <mi>&amp;nbsp;</mi>
+          <mi>t</mi>
+          <mi>h</mi>
+          <mi>e</mi>
+          <mi>&amp;nbsp;</mi>
+          <mi>n</mi>
+          <mi>a</mi>
+          <mi>t</mi>
+          <mi>i</mi>
+          <mi>o</mi>
+          <mi>n</mi>
+          <mi>a</mi>
+          <mi>l</mi>
+          <mi>&amp;nbsp;</mi>
+          <mi>p</mi>
+          <mi>o</mi>
+          <mi>p</mi>
+          <mi>u</mi>
+          <mi>l</mi>
+          <mi>a</mi>
+          <mi>t</mi>
+          <mi>i</mi>
+          <mi>o</mi>
+          <mi>n</mi>
+          <mi>&amp;nbsp;</mi>
+          <mi>a</mi>
+          <mi>g</mi>
+          <mi>e</mi>
+          <mi>d</mi>
+          <mi>&amp;nbsp;</mi>
+          <mn>45</mn>
+          <mi>&amp;nbsp;</mi>
+          <mi>a</mi>
+          <mi>n</mi>
+          <mi>d</mi>
+          <mi>&amp;nbsp;</mi>
+          <mi>b</mi>
+          <mi>e</mi>
+          <mi>l</mi>
+          <mi>o</mi>
+          <mi>w</mi>
+        </mrow>
+      </mfrac>
+    </math></p>
   <p><em>(with the age of eligibility as a lower boundary)</em></p>
 
   <p>Ratio = 0.25 / 0.3 = <strong>0.83</strong> </p>
@@ -572,24 +962,232 @@ DATA_COMP: >-
     <li>To calculate the ratio for female MPs, the following formula is to be used: </li>
   </ol>
 
-  <p><strong>Ratio 2 = <u> Proportion of women in parliament </u> Proportion of
-  women in the national population </strong></p>
-
+  <p><math xmlns="http://www.w3.org/1998/Math/MathML">
+      <mi>R</mi>
+      <mi>a</mi>
+      <mi>t</mi>
+      <mi>i</mi>
+      <mi>o</mi>
+      <mi>&amp;nbsp;</mi>
+      <mn>2</mn>
+      <mo>=</mo>
+      <mi>&amp;nbsp;</mi>
+      <mfrac>
+        <mrow>
+          <mi>P</mi>
+          <mi>r</mi>
+          <mi>o</mi>
+          <mi>p</mi>
+          <mi>o</mi>
+          <mi>r</mi>
+          <mi>t</mi>
+          <mi>i</mi>
+          <mi>o</mi>
+          <mi>n</mi>
+          <mi>&amp;nbsp;</mi>
+          <mi>o</mi>
+          <mi>f</mi>
+          <mi>&amp;nbsp;</mi>
+          <mi>w</mi>
+          <mi>o</mi>
+          <mi>m</mi>
+          <mi>e</mi>
+          <mi>n</mi>
+          <mi>&amp;nbsp;</mi>
+          <mi>i</mi>
+          <mi>n</mi>
+          <mi>&amp;nbsp;</mi>
+          <mi>p</mi>
+          <mi>a</mi>
+          <mi>r</mi>
+          <mi>l</mi>
+          <mi>i</mi>
+          <mi>a</mi>
+          <mi>m</mi>
+          <mi>e</mi>
+          <mi>n</mi>
+          <mi>t</mi>
+        </mrow>
+        <mrow>
+          <mi>P</mi>
+          <mi>r</mi>
+          <mi>o</mi>
+          <mi>p</mi>
+          <mi>o</mi>
+          <mi>r</mi>
+          <mi>t</mi>
+          <mi>i</mi>
+          <mi>o</mi>
+          <mi>n</mi>
+          <mi>&amp;nbsp;</mi>
+          <mi>o</mi>
+          <mi>f</mi>
+          <mi>&amp;nbsp;</mi>
+          <mi>w</mi>
+          <mi>o</mi>
+          <mi>m</mi>
+          <mi>e</mi>
+          <mi>n</mi>
+          <mi>&amp;nbsp;</mi>
+          <mi>i</mi>
+          <mi>n</mi>
+          <mi>&amp;nbsp;</mi>
+          <mi>t</mi>
+          <mi>h</mi>
+          <mi>e</mi>
+          <mi>&amp;nbsp;</mi>
+          <mi>n</mi>
+          <mi>a</mi>
+          <mi>t</mi>
+          <mi>i</mi>
+          <mi>o</mi>
+          <mi>n</mi>
+          <mi>a</mi>
+          <mi>l</mi>
+          <mi>&amp;nbsp;</mi>
+          <mi>p</mi>
+          <mi>o</mi>
+          <mi>p</mi>
+          <mi>u</mi>
+          <mi>l</mi>
+          <mi>a</mi>
+          <mi>t</mi>
+          <mi>i</mi>
+          <mi>o</mi>
+          <mi>n</mi>
+        </mrow>
+      </mfrac>
+    </math></p>
   <p><em>(with the age of eligibility as a lower boundary)</em></p>
 
-  <p>Where: </p>
+  <p>where: </p>
 
   <ul>
     <li>The numerator is the number of seats held by female MPs, divided by the total number of members in parliament</li>
     <li>The denominator can be computed using national population figures as follows: </li>
   </ul>
 
-  <p><em><u>[Size of female national population &gt; or = to age of
-  eligibility]</u></em></p>
-
-  <p><em>Size of the national population &gt; or = to age of
-  eligibility</em></p>
-
+  <p><math xmlns="http://www.w3.org/1998/Math/MathML">
+      <mfrac>
+        <mrow>
+          <mfenced open="[" close="]" separators="|">
+            <mrow>
+              <mi>S</mi>
+              <mi>i</mi>
+              <mi>z</mi>
+              <mi>e</mi>
+              <mi>&amp;nbsp;</mi>
+              <mi>o</mi>
+              <mi>f</mi>
+              <mi>&amp;nbsp;</mi>
+              <mi>f</mi>
+              <mi>e</mi>
+              <mi>m</mi>
+              <mi>a</mi>
+              <mi>l</mi>
+              <mi>e</mi>
+              <mi>&amp;nbsp;</mi>
+              <mi>n</mi>
+              <mi>a</mi>
+              <mi>t</mi>
+              <mi>i</mi>
+              <mi>o</mi>
+              <mi>n</mi>
+              <mi>a</mi>
+              <mi>l</mi>
+              <mi>&amp;nbsp;</mi>
+              <mi>p</mi>
+              <mi>o</mi>
+              <mi>p</mi>
+              <mi>u</mi>
+              <mi>l</mi>
+              <mi>a</mi>
+              <mi>t</mi>
+              <mi>i</mi>
+              <mi>o</mi>
+              <mi>n</mi>
+              <mi>&amp;nbsp;</mi>
+              <mo>&#x2265;</mo>
+              <mi>a</mi>
+              <mi>g</mi>
+              <mi>e</mi>
+              <mi>&amp;nbsp;</mi>
+              <mi>o</mi>
+              <mi>f</mi>
+              <mi>&amp;nbsp;</mi>
+              <mi>e</mi>
+              <mi>l</mi>
+              <mi>i</mi>
+              <mi>g</mi>
+              <mi>i</mi>
+              <mi>b</mi>
+              <mi>i</mi>
+              <mi>l</mi>
+              <mi>i</mi>
+              <mi>t</mi>
+              <mi>y</mi>
+            </mrow>
+          </mfenced>
+        </mrow>
+        <mrow>
+          <mfenced open="[" close="]" separators="|">
+            <mrow>
+              <mi>S</mi>
+              <mi>i</mi>
+              <mi>z</mi>
+              <mi>e</mi>
+              <mi>&amp;nbsp;</mi>
+              <mi>o</mi>
+              <mi>f</mi>
+              <mi>&amp;nbsp;</mi>
+              <mi>t</mi>
+              <mi>h</mi>
+              <mi>e</mi>
+              <mi>&amp;nbsp;</mi>
+              <mi>n</mi>
+              <mi>a</mi>
+              <mi>t</mi>
+              <mi>i</mi>
+              <mi>o</mi>
+              <mi>n</mi>
+              <mi>a</mi>
+              <mi>l</mi>
+              <mi>&amp;nbsp;</mi>
+              <mi>p</mi>
+              <mi>o</mi>
+              <mi>p</mi>
+              <mi>u</mi>
+              <mi>l</mi>
+              <mi>a</mi>
+              <mi>t</mi>
+              <mi>i</mi>
+              <mi>o</mi>
+              <mi>n</mi>
+              <mi>&amp;nbsp;</mi>
+              <mo>&#x2265;</mo>
+              <mi>a</mi>
+              <mi>g</mi>
+              <mi>e</mi>
+              <mi>&amp;nbsp;</mi>
+              <mi>o</mi>
+              <mi>f</mi>
+              <mi>&amp;nbsp;</mi>
+              <mi>e</mi>
+              <mi>l</mi>
+              <mi>i</mi>
+              <mi>g</mi>
+              <mi>i</mi>
+              <mi>b</mi>
+              <mi>i</mi>
+              <mi>l</mi>
+              <mi>i</mi>
+              <mi>t</mi>
+              <mi>y</mi>
+            </mrow>
+          </mfenced>
+        </mrow>
+      </mfrac>
+    </math></p>
   <p><u>Note</u>: This denominator can be set at 50 in most countries, as women
   generally represent around 50% of the national population in any given age
   bracket. </p>
@@ -608,10 +1206,102 @@ DATA_COMP: >-
   <p>Say in the same country A, 10% of seats are held by women MPs and women
   represent 50% of the national population in the given age bracket):</p>
 
-  <p><strong>Ratio 2 = <u> Proportion of women in parliament </u> </strong></p>
-
-  <p><strong>Proportion of women in the national population </strong></p>
-
+  <p><math xmlns="http://www.w3.org/1998/Math/MathML">
+      <mi>R</mi>
+      <mi>a</mi>
+      <mi>t</mi>
+      <mi>i</mi>
+      <mi>o</mi>
+      <mi>&amp;nbsp;</mi>
+      <mn>2</mn>
+      <mo>=</mo>
+      <mi>&amp;nbsp;</mi>
+      <mfrac>
+        <mrow>
+          <mi>P</mi>
+          <mi>r</mi>
+          <mi>o</mi>
+          <mi>p</mi>
+          <mi>o</mi>
+          <mi>r</mi>
+          <mi>t</mi>
+          <mi>i</mi>
+          <mi>o</mi>
+          <mi>n</mi>
+          <mi>&amp;nbsp;</mi>
+          <mi>o</mi>
+          <mi>f</mi>
+          <mi>&amp;nbsp;</mi>
+          <mi>w</mi>
+          <mi>o</mi>
+          <mi>m</mi>
+          <mi>e</mi>
+          <mi>n</mi>
+          <mi>&amp;nbsp;</mi>
+          <mi>i</mi>
+          <mi>n</mi>
+          <mi>&amp;nbsp;</mi>
+          <mi>p</mi>
+          <mi>a</mi>
+          <mi>r</mi>
+          <mi>l</mi>
+          <mi>i</mi>
+          <mi>a</mi>
+          <mi>m</mi>
+          <mi>e</mi>
+          <mi>n</mi>
+          <mi>t</mi>
+        </mrow>
+        <mrow>
+          <mi>P</mi>
+          <mi>r</mi>
+          <mi>o</mi>
+          <mi>p</mi>
+          <mi>o</mi>
+          <mi>r</mi>
+          <mi>t</mi>
+          <mi>i</mi>
+          <mi>o</mi>
+          <mi>n</mi>
+          <mi>&amp;nbsp;</mi>
+          <mi>o</mi>
+          <mi>f</mi>
+          <mi>&amp;nbsp;</mi>
+          <mi>w</mi>
+          <mi>o</mi>
+          <mi>m</mi>
+          <mi>e</mi>
+          <mi>n</mi>
+          <mi>&amp;nbsp;</mi>
+          <mi>i</mi>
+          <mi>n</mi>
+          <mi>&amp;nbsp;</mi>
+          <mi>t</mi>
+          <mi>h</mi>
+          <mi>e</mi>
+          <mi>&amp;nbsp;</mi>
+          <mi>n</mi>
+          <mi>a</mi>
+          <mi>t</mi>
+          <mi>i</mi>
+          <mi>o</mi>
+          <mi>n</mi>
+          <mi>a</mi>
+          <mi>l</mi>
+          <mi>&amp;nbsp;</mi>
+          <mi>p</mi>
+          <mi>o</mi>
+          <mi>p</mi>
+          <mi>u</mi>
+          <mi>l</mi>
+          <mi>a</mi>
+          <mi>t</mi>
+          <mi>i</mi>
+          <mi>o</mi>
+          <mi>n</mi>
+        </mrow>
+      </mfrac>
+    </math></p>
   <p><em>(with the age of eligibility as a lower boundary)</em></p>
 
   <p>Ratio = 0.10 / 0.50 = <strong>0.2</strong> </p>
@@ -632,7 +1322,7 @@ DATA_COMP: >-
   <p>In bicameral parliaments, data will be collected and computed separately
   for the same set of positions in each chamber. </p>
 
-  <p><strong>Regional / global aggregates:</strong></p>
+  <p><strong>Regional/global aggregates:</strong></p>
 
   <p>Regional and global aggregates can be calculated on the basis of the data
   compiled for the indicator. </p>
@@ -753,7 +1443,7 @@ QUALITY_MGMNT: >-
   (data.ipu.org).</p>
 
   <p>IPU has dedicated staff for data collection and management, a Network of
-  Parline Corresponents to provide data updates, and a constant exchange with
+  Parline Correspondents to provide data updates, and a constant exchange with
   parliaments via IPU groups housed within member parliaments.</p>
 QUALITY_ASSURE: >-
   <p>Data for the indicator will follow the quality assurance measures put in
@@ -787,7 +1477,7 @@ COVERAGE: >-
     <li><em>Members</em>: Sex-disaggregated data available for parliaments in 193 countries and split between chambers in case of bicameral parliaments. Data on age is collected at the start of each new legislature, following parliamentary elections. The New PARLINE database provides information on the number of MPs in each parliament across 10 statistical intervals (age 18-20; age 21-30; age 31-40; age 41-45; age 46-50; age 51-60; age 61-70; age 71-80; age 81-90; age 91 and over) and the percentage of members age 45 and younger, with 45 being the cut-off age for &#x2018;young&#x2019; MPs. </li>
     <li><em>Speakers</em>: Sex and age of Speakers available on New PARLINE for all parliamentary chambers in 193 countries. This data is updated on a daily basis, every time a change occurs. </li>
     <li><em>Permanent committee Chairs</em>: Sex and age of chairs on committees on Human Rights and Gender Equality are featured on New PARLINE and sex and age data of foreign affairs, defence, and finance committees will be added in 2020. This data is updated after every election and checked with parliaments at the start of each year. In addition, New PARLINE provides information on the age of eligibility in all countries with national parliaments (i.e. the age of eligibility will be the cut-off age above which the demographic profile of the national population will be compared to that of members in parliament). This is required for defining the national population to be used as a comparator for the share of &#x2018;young&#x2019; MPs in parliament (see Ratio 1). This data is updated every time a change occurs. </li>
-    <li><em>National population statistics: </em>National population statistics are required to calculate the denominator of Ratio 1 (see &#x2018;Computation Method&#x2019;), namely to calculate the &#x201C;size of national population &lt; or = to 45&#x201D; and the &#x201C;size of national population &lt; age of eligibility&#x201D;, for the current year, and for both sexes combined.<em> </em><a href="https://emea01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fpopulation.un.org%2Fwpp%2FDataQuery%2F&amp;data=02%7C01%7C%7C0db59f4fb1304ea7528a08d629f1b842%7Cb3e5db5e2944483799f57488ace54319%7C0%7C0%7C636742515482684081&amp;sdata=lMZjxUY5rXE8%2FU3InZgWWkvsR60dibpPC%2FvjJ6xIH34%3D&amp;reserved=0">The World Population Prospects 2017 database</a> is the most recent official United Nations population estimates and projections<sup><a href="#footnote-19" id="footnote-ref-19">[18]</a></sup>. It presents population estimates for 233 countries and areas.<sup><a href="#footnote-20" id="footnote-ref-20">[19]</a></sup> Estimates are available in annually interpolated series <a href="https://emea01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fpopulation.un.org%2Fwpp%2FDVD%2FFiles%2F1_Indicators%2520(Standard)%2FEXCEL_FILES%2F5_Interpolated%2FWPP2017_INT_F03_1_POPULATION_BY_AGE_ANNUAL_BOTH_SEXES.xlsx&amp;data=02%7C01%7C%7C0db59f4fb1304ea7528a08d629f1b842%7Cb3e5db5e2944483799f57488ace54319%7C0%7C0%7C636742515482684081&amp;sdata=OehpBQLSBdr1tx9omSp5mgEO1Ja%2BnRLGGFv6GCFuQwk%3D&amp;reserved=0">graduated into single age distributions</a> (0, 1, 2, ..., 99, 100), for both sexes, as of 1 July of the year indicated. </li>
+    <li><em>National population statistics: </em>National population statistics are required to calculate the denominator of Ratio 1 (see &#x2018;Computation Method&#x2019;), namely to calculate the &#x201C;size of national population &#x2264; to 45&#x201D; and the &#x201C;size of national population &lt; age of eligibility&#x201D;, for the current year, and for both sexes combined.<em> </em><a href="https://emea01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fpopulation.un.org%2Fwpp%2FDataQuery%2F&amp;data=02%7C01%7C%7C0db59f4fb1304ea7528a08d629f1b842%7Cb3e5db5e2944483799f57488ace54319%7C0%7C0%7C636742515482684081&amp;sdata=lMZjxUY5rXE8%2FU3InZgWWkvsR60dibpPC%2FvjJ6xIH34%3D&amp;reserved=0">The World Population Prospects 2017 database</a> is the most recent official United Nations population estimates and projections<sup><a href="#footnote-19" id="footnote-ref-19">[18]</a></sup>. It presents population estimates for 233 countries and areas.<sup><a href="#footnote-20" id="footnote-ref-20">[19]</a></sup> Estimates are available in annually interpolated series <a href="https://emea01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fpopulation.un.org%2Fwpp%2FDVD%2FFiles%2F1_Indicators%2520(Standard)%2FEXCEL_FILES%2F5_Interpolated%2FWPP2017_INT_F03_1_POPULATION_BY_AGE_ANNUAL_BOTH_SEXES.xlsx&amp;data=02%7C01%7C%7C0db59f4fb1304ea7528a08d629f1b842%7Cb3e5db5e2944483799f57488ace54319%7C0%7C0%7C636742515482684081&amp;sdata=OehpBQLSBdr1tx9omSp5mgEO1Ja%2BnRLGGFv6GCFuQwk%3D&amp;reserved=0">graduated into single age distributions</a> (0, 1, 2, ..., 99, 100), for both sexes, as of 1 July of the year indicated. </li>
   </ul>
 
   <p><u>Data on electoral and constitutional measures for guaranteeing
@@ -809,7 +1499,7 @@ COVERAGE: >-
     <li>Contextually relevant population groups (e.g. indigenous/linguistic/ethnic/religious/occupational groups): List of electoral or constitutional provisions guaranteeing representation of various population groups in parliament. </li>
   </ul><div class="footnotes"><div><sup class="footnote-number"
   id="footnote-19">18</sup><p> The Population Division of the Department of
-  Economic and Social Affairs of the United Nations issues a new Revision of thr
+  Economic and Social Affairs of the United Nations issues a new Revision of the
   <em>World Population Prospects</em> every two years, with the next one due in
   the first half of 2019. Estimates from the <em>World Population Prospects</em>
   sometimes differ from official statistics as &#x201C;official demographic
@@ -852,10 +1542,10 @@ OTHER_DOC: >-
   Association Winnipeg&#x201D; (2003)</p>
 
   <p>Commonwealth Parliamentary Association (CPA)&#x2019;s Study Group on
-  &#x2018;The Financing and Administration of Parliament&#x2019;, Zanzibar,
-  Tanzania on May 25-29, 2005, in CPA &#x201C;Benchmarks for Democratic
+  &#x2018;Administration and Financing of Parliament&#x2019;, Zanzibar, Tanzania
+  on May 25-29, 2005, in CPA &#x201C;Benchmarks for Democratic
   Legislatures&#x201D; (2006): <a
-  href="https://agora-parl.org/sites/default/files/cpa_-_benchmarks_for_democratic_legislatures._a_study_group_report_-_20.12.2006_-_en_-_standards.pdf">https://agora-parl.org/sites/default/files/cpa_-_benchmarks_for_democratic_legislatures._a_study_group_report_-_20.12.2006_-_en_-_standards.pdf</a>
+  href="https://www.cpahq.org/media/awydqld2/administration-and-financing-of-parliament-study-group-report-1.pdf">https://www.cpahq.org/media/awydqld2/administration-and-financing-of-parliament-study-group-report-1.pdf</a>.
   </p>
 
   <p>Congleton, On the Merits of Bicameral Legislatures: Policy Stability within
@@ -867,11 +1557,10 @@ OTHER_DOC: >-
   href="https://www.openingparliament.org/static/pdfs/english.pdf">https://www.openingparliament.org/static/pdfs/english.pdf</a>
   </p>
 
-  <p>Eelbode, &#x201C;Political representation of ethnic minorities: A framework
-  for a comparative analysis of ethnic minority representation&#x201D; (2010),
-  available from: <a
-  href="http://www.ecprnet.eu/databases/conferences/papers/333.pdf">http://www.ecprnet.eu/databases/conferences/papers/333.pdf</a>
-  </p>
+  <p>Eelbode, &#x201C;The political representation of ethnic minorities: A
+  framework for a comparative analysis of ethnic minority representation&#x201D;
+  (2010), available from: <a href="http://hdl.handle.net/1854/LU-2001816"
+  target="_parent">http://hdl.handle.net/1854/LU-2001816</a></p>
 
   <p>Hague, Harrop, McCormick, &#x201C;Comparative Government and Politics: An
   Introduction&#x201D;, 10<sup>th</sup> Edition, Palgrave, London (2016).</p>
@@ -972,6 +1661,6 @@ OTHER_DOC: >-
   https://unstats.un.org/sdgs/iaeg-sdgs/metadata-compilation/</a></p>
 
   <p>Zhanarstanova &amp; Nechayeva, &#x201C;Contemporary Principles of Political
-  Representation of Ethnic Groups&#x201D; (2015): <a
-  href="https://ac.els-cdn.com/S221256711630243X/1-s2.0-S221256711630243X-main.pdf?_tid=ca3281c2-4a09-420d-bf0a-d6c2bf9f0d64&amp;acdnat=1528013894_ea1ef6787411661e2bb0d77d7b79acfa">https://ac.els-cdn.com/S221256711630243X/1-s2.0-S221256711630243X-main.pdf?_tid=ca3281c2-4a09-420d-bf0a-d6c2bf9f0d64&amp;acdnat=1528013894_ea1ef6787411661e2bb0d77d7b79acfa</a>
-  </p>
+  Representation of Ethnic Groups&#x201D; (2016): doi:<a
+  href="http://dx.doi.org/10.1016/S2212-5671(16)30243-X"
+  target="_blank">10.1016/S2212-5671(16)30243-X</a></p>

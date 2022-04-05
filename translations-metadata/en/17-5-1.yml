@@ -8,7 +8,13 @@ SDG_INDICATOR: >-
   <p>Indicator 17.5.1: Number of countries that adopt and implement investment
   promotion regimes for developing countries, including the least developed
   countries</p>
-META_LAST_UPDATE: <p>2021-03-01</p>
+SDG_SERIES_DESCR: >-
+  <p>Number of countries with an inforce bilateral investment treaty (BIT)
+  (Number)</p>
+
+  <p>Number of countries with a signed bilateral investment treaty (BIT)
+  (Number)</p>
+META_LAST_UPDATE: '2022-03-31'
 SDG_RELATED_INDICATORS: >-
   <p>Indicator 10.b.1: Total resource flows for development, by recipient and
   donor countries and type of flow (e.g. official development assistance,
@@ -19,14 +25,14 @@ SDG_RELATED_INDICATORS: >-
   budget (metadata) However, indicator 17.3.1 is currently under refinement,
   with a proposal to be split to: a) FDI as a proportion of Gross National
   Income, and b) Total official support for development (TOSSD).</p>
-SDG_CUSTODIAN_AGENCIES: <p>UNCTAD</p>
-CONTACT_ORGANISATION: <p>UNCTAD</p>
+SDG_CUSTODIAN_AGENCIES: <p>United Nations Conference on Trade and Development (UNCTAD)</p>
+CONTACT_ORGANISATION: <p>United Nations Conference on Trade and Development (UNCTAD)</p>
 STAT_CONC_DEF: >-
   <p><strong>Definition:</strong></p>
 
   <p>The indicator provides the number of countries that have adopted and
   implemented investment promotion regimes for developing countries, including
-  least developed countries.</p>
+  least developed countries (LDCs).</p>
 
   <p><strong>Concepts:</strong></p>
 
@@ -75,7 +81,7 @@ STAT_CONC_DEF: >-
   commits the host country government to grant certain standards of treatment
   and protection to foreign investors (nationals and companies of the other
   country) and their investments.</p>
-UNIT_MEASURE: <p>The unit of measurement is the number of countries.</p>
+UNIT_MEASURE: <p>Number of countries</p>
 CLASS_SYSTEM: >-
   <p>Target economies and their numerical codes applied as in the UNCTADStat and
   in line with the ISO 3166-1 standard and the Standard Country or Area Codes
@@ -98,12 +104,8 @@ SOURCE_TYPE: >-
 COLL_METHOD: >-
   <p>Preliminary data are collected through the following means: </p>
 
-  <p>&#x25CF; An in-depth pilot survey where a limited number of countries that
-  offer outward investment promotion are contacted and asked for detailed
-  information;</p>
-
-  <p>&#x25CF; A less detailed online questionnaire for all outward investment
-  promotion agencies; </p>
+  <p>&#x25CF; An in-depth online questionnaire circulated to SDG focal points in
+  statistical offices worldwide; </p>
 
   <p>&#x25CF; Internet research carried out by UNCTAD;</p>
 
@@ -113,18 +115,14 @@ COLL_METHOD: >-
   <p>The official counterparts at the country level are national ministries and
   outward investment promotion agencies. The agency in charge may vary across
   countries depending on the national structure. </p>
-FREQ_COLL: <p>UNCTAD started to collect data in July 2019 with a pilot study. </p>
-REL_CAL_POLICY: >-
-  <p>The release of the indicator can start when sufficient country coverage has
-  been reached. It is expected that first results for the indicator will be
-  available by the end of 2020 with preliminary estimates. Considering the wide
-  range of source data needed, the compilers will have to strike a balance
-  between exhaustiveness of details on types of investment promotion and
-  timeliness of the indicator.</p>
+FREQ_COLL: <p>Annual data collection in Q4 of the year preceding the reporting.</p>
+REL_CAL_POLICY: '<p> Annual release, in Q1 of the reporting year.</p>'
 DATA_SOURCE: >-
   <p>Data providers include national ministries, outward investment promotion
   agencies and other international organisations.</p>
-COMPILING_ORG: <p>UNCTAD will compile the collected national data to report it globally.</p>
+COMPILING_ORG: >-
+  <p>The United Nations Conference on Trade and Development (UNCTAD) will
+  compile the collected national data to report it globally.</p>
 INST_MANDATE: >-
   <p>The UNCTAD IIA Navigator is a comprehensive free database of international
   investment agreements (IIAs). It is primarily built on information provided by
@@ -154,13 +152,13 @@ REC_USE_LIM: >-
   available. However, to some extent, data may exist in aggregate form (see
   below). </p>
 
-  <p>Furthermore, the pilot study indicated that many developed countries and
-  some emerging economies have national investment promotion regimes in place
-  that encourage investment abroad. Usually, however, these promotion regimes
-  are available for outward investment in any country &#x2013; not only for
-  investment in LDCs or other developing economies. Some types of investment
+  <p>Furthermore, the UNCTAD research indicated that many developed countries
+  and some emerging economies have national investment promotion regimes in
+  place that encourage investment abroad. Usually, however, these promotion
+  regimes are available for outward investment in any country &#x2013; not only
+  for investment in LDCs or other developing economies. Some types of investment
   promotion tools can be more country-specific, like bilateral investment
-  treaties. Therefore, indicator reporting will be started with preliminary
+  treaties (BITs). Therefore, indicator reporting started with preliminary
   estimates covering these types of investment promotion tools only.</p>
 DATA_COMP: >-
   <p>The proposed computation method includes the following in the compilation
@@ -246,6 +244,7 @@ DATA_VALIDATION: >-
   <p>UNCTAD is in continuous consultation with member States to collect and
   update information on IIAs, reviewing the quality and comprehensiveness of the
   IIA Navigator. </p>
+ADJUSTMENT: <p>No changes to the survey data are introduced</p>
 IMPUTATION: >-
   <p><strong>&#x2022; At country level</strong></p>
 
@@ -311,16 +310,14 @@ QUALITY_ASSMNT: >-
 COVERAGE: >-
   <p><strong>Data availability:</strong></p>
 
-  <p>Currently, preliminary results for a UNCTAD pilot exercise consisting of a
-  detailed questionnaire and a less detailed online questionnaire on existing
-  outward investment promotion regimes for developing countries, including LDCs,
-  are available. Replies have been received from five countries (on the detailed
-  questionnaire) and from 26 countries on the shorter questionnaire. The answers
+  <p>Currently, results are available based on a detailed online questionnaire
+  on existing outward investment promotion regimes for developing countries,
+  including LDCs. Replies have been received from 39 countries. The answers
   received vary considerably in their degree of substance and detail. </p>
 
   <p>Further data will be available on the government websites of home
-  countries. In 2020, in-house internet research provided information on 19
-  countries.</p>
+  countries. In 2021, in-house internet research provided information on 17
+  additional countries.</p>
 
   <p>Concerning international investment agreements, UNCTAD&#x2019;s database on
   this aspect is comprehensive and currently includes detailed information on
@@ -330,7 +327,7 @@ COVERAGE: >-
 
   <p>The data on international investment agreements comprehensively covers
   bilateral investment treaties, the main type of such agreements, signed from
-  1959 to 2020.</p>
+  1959 to 2021.</p>
 
   <p><strong>Disaggregation:</strong></p>
 
@@ -374,11 +371,15 @@ COMPARABILITY: >-
 OTHER_DOC: >-
   <p><strong>URL:</strong></p>
 
-  <p>https://unctad.org/statistics</p>
+  <p><a href="https://unctad.org/statistics">https://unctad.org/statistics</a>
+  </p>
 
   <p><a
   href="https://investmentpolicy.unctad.org/international-investment-agreements">https://investmentpolicy.unctad.org/international-investment-agreements</a></p>
 
-  <p>https://unctadstat.unctad.org</p>
+  <p><a href="https://unctadstat.unctad.org">https://unctadstat.unctad.org</a>
+  </p>
 
-  <p>https://unctad.org/en/pages/DIAE/DIAE.aspx</p>
+  <p><a
+  href="https://unctad.org/en/pages/DIAE/DIAE.aspx">https://unctad.org/en/pages/DIAE/DIAE.aspx</a>
+  </p>

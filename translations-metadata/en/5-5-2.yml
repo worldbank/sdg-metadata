@@ -4,12 +4,13 @@ SDG_TARGET: >-
   equal opportunities for leadership at all levels of decision-making in
   political, economic and public life</p>
 SDG_INDICATOR: '<p>Indicator 5.5.2: Proportion of women in managerial positions</p>'
-META_LAST_UPDATE: <p>2021-01-01</p>
-SDG_RELATED_INDICATORS: >-
-  <p>8.5.1 Average hourly earnings of female and male employees, by occupation,
-  age and persons with disabilities</p>
-SDG_CUSTODIAN_AGENCIES: <p>ILO</p>
-CONTACT_ORGANISATION: <p>ILO</p>
+SDG_SERIES_DESCR: |-
+  <p>Proportion of managerial positions held by women</p>
+  <p>Proportion of women in senior and middle management positions</p>
+META_LAST_UPDATE: '2022-03-31'
+SDG_RELATED_INDICATORS: <p>8.5.1 </p>
+SDG_CUSTODIAN_AGENCIES: <p>International Labour Organization (ILO)</p>
+CONTACT_ORGANISATION: <p>International Labour Organization (ILO)</p>
 STAT_CONC_DEF: >-
   <p><strong>Definition:</strong></p>
 
@@ -45,7 +46,7 @@ STAT_CONC_DEF: >-
   ISCO), then major group 1 of ISCO-88 and ISCO-08 can be used as a proxy and
   the indicator would then refer only to total management (including junior
   management).</p>
-UNIT_MEASURE: <p>Percentage</p>
+UNIT_MEASURE: <p>Percent (%)</p>
 CLASS_SYSTEM: >-
   <p>Employment in management is determined according to the categories of the
   latest version of the International Standard Classification of Occupations
@@ -64,17 +65,17 @@ SOURCE_TYPE: >-
 COLL_METHOD: >-
   <p>The ILO Department of Statistics processes national household survey
   microdatasets in line with internationally-agreed indicator concepts and
-  definitions set forth by the International Conference of Labour Statisticians.
-  For data that could not be obtained through this processing or directly from
-  government websites, the ILO sends out an annual ILOSTAT questionnaire to all
-  relevant agencies within each country (national statistical office, labour
-  ministry, etc.) requesting the latest annual data and any revisions on
-  numerous labour market topics and indicators, including many SDG
-  indicators.</p>
+  definitions set forth by the International Conference of Labour Statisticians
+  (ICLS). For data that could not be obtained through this processing or
+  directly from government websites, the ILO sends out an annual ILOSTAT
+  questionnaire to all relevant agencies within each country (national
+  statistical office (NSO), labour ministry, etc.) requesting the latest annual
+  data and any revisions on numerous labour market topics and indicators,
+  including many SDG indicators.</p>
 FREQ_COLL: <p>Continuous</p>
 REL_CAL_POLICY: <p>Continuous</p>
 DATA_SOURCE: <p>National statistical offices</p>
-COMPILING_ORG: <p>ILO</p>
+COMPILING_ORG: <p>International Labour Organization (ILO)</p>
 INST_MANDATE: >-
   <p>The ILO is the UN focal point for labour statistics. It sets international
   standards for labour statistics through the International Conference of Labour
@@ -590,7 +591,7 @@ DATA_COMP: |-
       <mn>100</mn>
     </math></p>
   <ul>
-    <li>Using ISCO-08:</li>
+    <li>Using ISCO-88:</li>
   </ul>
   <p><math xmlns="http://www.w3.org/1998/Math/MathML">
       <mi mathvariant="normal">P</mi>
@@ -1116,6 +1117,9 @@ IMPUTATION: >-
   https://www.ilo.org/ilostat-files/Documents/TEM.pdf.</p>
 
   <p><strong>&#x2022; At regional and global levels</strong></p>
+
+  <p>Regional and global figures are aggregates of the country-level figures
+  including the imputed values.</p>
 REG_AGG: >-
   <p>The aggregates are derived from the ILO modelled estimates that are used to
   produce global and regional estimates of, amongst others, employment by
@@ -1134,39 +1138,56 @@ REG_AGG: >-
   https://www.ilo.org/ilostat-files/Documents/TEM.pdf.</p>
 DOC_METHOD: >-
   <p>In order to calculate this indicator, data on employment by sex and
-  occupation is needed, using at least the 2-digit level of the International
-  Standard Classification of Occupations. This data are collected at the
-  national level mainly through labour force surveys (or other types of
-  household surveys with an employment module). For the methodology of each
-  national household survey, one must refer to the most comprehensive survey
-  report or to the methodological publications of the national statistical
-  office in question.</p>
+  occupation is needed, using at least the 2-digit level of the ISCO. This data
+  are collected at the national level mainly through labour force surveys (or
+  other types of household surveys with an employment module). For the
+  methodology of each national household survey, one must refer to the most
+  comprehensive survey report or to the methodological publications of the
+  national statistical office in question.</p>
 
   <ul>
-    <li>ILO Guidebook - Decent Work and the Sustainable Development Goals: A Guidebook on SDG Labour Market Indicators (<a href="https://www.ilo.org/stat/Publications/WCMS_647109/lang--en/index.htm">https://www.ilo.org/stat/Publications/WCMS_647109/lang--en/index.htm</a> )</li>
+    <li>ILO Guidebook - Decent Work and the Sustainable Development Goals: A Guidebook on SDG Labour Market Indicators ( <a href="https://www.ilo.org/global/statistics-and-databases/publications/WCMS_647109/lang--en/index.htm">https://www.ilo.org/global/statistics-and-databases/publications/WCMS_647109/lang--en/index.htm</a>)</li>
     <li>ILO Manual &#x2013; Decent Work Indicators, Concepts and Definitions &#x2013; Chapter 8, Equal opportunity and treatment in employment <a href="http://www.ilo.org/integration/resources/pubs/WCMS_229374/lang--en/index.htm">http://www.ilo.org/integration/resources/pubs/WCMS_229374/lang--en/index.htm</a> (second version, page 146)</li>
-    <li>Resolution concerning statistics of work, employment and labour underutilization <a href="http://www.ilo.org/global/statistics-and-databases/standards-and-guidelines/resolutionsadopted-by-international-conferences-of-labour-statisticians/WCMS_230304/lang--en/index.htm">http://www.ilo.org/global/statistics-and-databases/standards-and-guidelines/resolutionsadopted-by-international-conferences-of-labour-statisticians/WCMS_230304/lang--en/index.htm</a> </li>
+    <li>Resolution concerning statistics of work, employment and labour underutilization <a href="https://www.ilo.org/wcmsp5/groups/public/---dgreports/---stat/documents/normativeinstrument/wcms_230304.pdf">https://www.ilo.org/wcmsp5/groups/public/---dgreports/---stat/documents/normativeinstrument/wcms_230304.pdf</a></li>
     <li>International Standard Classification of Occupations 2008 (ISCO-08) <a href="http://www.ilo.org/public/english/bureau/stat/isco/isco08/">http://www.ilo.org/public/english/bureau/stat/isco/isco08/</a> </li>
     <li>ILOSTAT Database (<a href="https://ilostat.ilo.org/">https://ilostat.ilo.org/</a>)</li>
-    <li>ILOSTAT&#x2013; Indicator Descriptions (Employment by occupation, at: <a href="https://ilostat.ilo.org/resources/methods/description-employment-by-occupation/">https://ilostat.ilo.org/resources/methods/description-employment-by-occupation/</a>). </li>
+    <li>ILOSTAT&#x2013; Indicator Descriptions (Employment by occupation, at: <a href="https://ilostat.ilo.org/resources/concepts-and-definitions/description-employment-by-occupation/">https://ilostat.ilo.org/resources/concepts-and-definitions/description-employment-by-occupation/</a></li>
   </ul>
+QUALITY_MGMNT: >-
+  <p>The processes of compilation, production, and publication of data,
+  including its quality control, are carried out following the methodological
+  framework and standards established by the ILO Department of Statistics, in
+  compliance with the information technology and management standards of the
+  ILO.</p>
 QUALITY_ASSURE: >-
   <p>Data consistency and quality checks are regularly conducted for validation
   of the data before dissemination in the ILOSTAT database.</p>
 
   <p> </p>
+QUALITY_ASSMNT: >-
+  <p>The final assessment of the quality of information is carried out by the
+  Data Production and Analysis Unit of the ILO Department of Department. In
+  cases of doubt about the quality of specific data, these values are reviewed
+  with the participation of the national agencies responsible for producing the
+  data if appropriate. If the issues cannot be clarified, the respective
+  information is not published. </p>
 COVERAGE: >-
   <p><strong>Data availability: </strong></p>
 
-  <p>Data on proportion of women in managerial positions is available for 168
-  countries and territories. Data on women in senior and middle management
-  positions is available for 116 countries and territories.</p>
+  <p>Data on proportion of women in managerial positions is available for 188
+  countries and territories. </p>
+
+  <p>Data on women in senior and middle management positions is available for
+  134 countries and territories.</p>
 
   <p><strong>Time series:</strong></p>
 
   <p>Data for this indicator is available as of 2000 in the SDG Indicators
   Global Database, but time series going back several decades are available in
   ILOSTAT.</p>
+
+  <p>Global and regional data on proportion of women in managerial positions are
+  available from 2000 to 2020.</p>
 
   <p><strong>Disaggregation:</strong></p>
 
@@ -1184,7 +1205,8 @@ COMPARABILITY: >-
 OTHER_DOC: |-
   <ul>
     <li>ILOSTAT database: <a href="https://ilostat.ilo.org/resources/methods/description-employment-by-occupation/">https://ilostat.ilo.org</a> </li>
-    <li>Decent Work and the Sustainable Development Goals: A Guidebook on SDG Labour Market Indicators: <a href="https://www.ilo.org/stat/Publications/WCMS_647109/lang--en/index.htm">https://www.ilo.org/stat/Publications/WCMS_647109/lang--en/index.htm</a> Decent work indicators - ILO Manual: <a href="http://www.ilo.org/wcmsp5/groups/public/---dgreports/---integration/documents/publication/wcms_229374.pdf">http://www.ilo.org/wcmsp5/groups/public/---dgreports/---integration/documents/publication/wcms_229374.pdf</a> </li>
+    <li>Decent Work and the Sustainable Development Goals: A Guidebook on SDG Labour Market Indicators <a href="https://www.ilo.org/global/statistics-and-databases/publications/WCMS_647109/lang--en/index.htm">https://www.ilo.org/global/statistics-and-databases/publications/WCMS_647109/lang--en/index.htm</a></li>
+    <li>Decent work indicators - ILO Manual: <a href="http://www.ilo.org/wcmsp5/groups/public/---dgreports/---integration/documents/publication/wcms_229374.pdf">http://www.ilo.org/wcmsp5/groups/public/---dgreports/---integration/documents/publication/wcms_229374.pdf</a> </li>
     <li>ISCO-08: <a href="http://www.ilo.org/public/english/bureau/stat/isco/isco08/">http://www.ilo.org/public/english/bureau/stat/isco/isco08/</a> </li>
-    <li>Resolution concerning statistics of work, employment and labour underutilization, adopted by the 19<sup>th</sup> ICLS: <a href="http://ilo.org/global/statistics-and-databases/standards-and-guidelines/resolutions-adopted-byinternational-conferences-of-labour-statisticians/WCMS_230304/lang--en/index.htm">http://ilo.org/global/statistics-and-databases/standards-and-guidelines/resolutions-adopted-byinternational-conferences-of-labour-statisticians/WCMS_230304/lang--en/index.htm</a></li>
+    <li>Resolution concerning statistics of work, employment and labour underutilization, adopted by the 19<sup>th</sup> ICLS: <a href="https://www.ilo.org/wcmsp5/groups/public/---dgreports/---stat/documents/normativeinstrument/wcms_230304.pdf">https://www.ilo.org/wcmsp5/groups/public/---dgreports/---stat/documents/normativeinstrument/wcms_230304.pdf</a></li>
   </ul>

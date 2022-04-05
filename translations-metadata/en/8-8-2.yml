@@ -11,7 +11,7 @@ SDG_INDICATOR: >-
   Organization (ILO) textual sources and national legislation, by sex and
   migrant status</p>
 SDG_SERIES_DESCR: <p>Not applicable </p>
-META_LAST_UPDATE: <p>2021-01-01</p>
+META_LAST_UPDATE: '2022-03-31'
 SDG_RELATED_INDICATORS: >-
   <p>This indicator links with 8.8.1 &amp; 8.b.1; 16.2.2; 16.10.1; 16.a.1;
   16.b.1</p>
@@ -71,8 +71,9 @@ STAT_CONC_DEF: >-
   Freedom of Association Committee, allow for the examination of violations on
   the basis of a submission of a representation or a complaint. </p>
 UNIT_MEASURE: >-
-  <p>The unit of measurement is the number of coded evaluation criteria (see at
-  Tables 1-2).</p>
+  <p>The unit of measurement is the number of coded evaluation criteria (see
+  Tables 1-2 of <a
+  href="https://www.ilo.org/wcmsp5/groups/public/---dgreports/---stat/documents/meetingdocument/wcms_648636.pdf">https://www.ilo.org/wcmsp5/groups/public/---dgreports/---stat/documents/meetingdocument/wcms_648636.pdf</a>).</p>
 CLASS_SYSTEM: <p>Not applicable</p>
 SOURCE_TYPE: >-
   <p>The method makes use of six ILO textual sources: </p>
@@ -101,7 +102,7 @@ SOURCE_TYPE: >-
   federal states, only federal-level legislation is coded. </p>
 
   <p>The coding of national legislation is carried out in close collaboration
-  with the International Labour Office to assure that it is done in a manner
+  with the International Labour Office to ensure that it is done in a manner
   consistent with the ILO&#x2019;s supervisory system. In addition, countries
   may also make available information on national legislation when reporting on
   this indicator through Voluntary National Reports or national reporting
@@ -115,22 +116,19 @@ COLL_METHOD: >-
   <p>The data collection is based on the coding of the relevant textual sources
   (see above) against a list of evaluation criteria and then converting the
   coding into indicators.</p>
-FREQ_COLL: <p>NA</p>
-REL_CAL_POLICY: >-
-  <p>It is expected to be reported by the end of each year. 2018 data will be
-  released in 2020. Currently it is planned to make both the 2019 and 2020 data
-  available in 2021. </p>
+FREQ_COLL: <p>Not applicable</p>
+REL_CAL_POLICY: <p>Data are released in February of each year. </p>
 DATA_SOURCE: >-
   <p>Given that the statistical foundation of the indicator are the ILO textual
   sources (see below) and that those sources are themselves based on information
   provided by the Governments, workers&#x2019; and employers&#x2019;
   organizations, the data is provided by the ILO.</p>
-COMPILING_ORG: <p>ILO </p>
+COMPILING_ORG: <p>International Labour Organization (ILO) </p>
 INST_MANDATE: >-
   <p>In 2018, the 20th International Conference of Labour Statisticians (ICLS)
   adopted a &#x2018;Resolution concerning the methodology of the SDG indicator
-  8.8.2 on labour rights&#x2019;. Point (b) of the resolution recommends the
-  International Labour Office to communicate on behalf of the ICLS the
+  8.8.2 on labour rights&#x2019;. Point (b) of the resolution recommends that
+  the International Labour Office communicate on behalf of the ICLS, the
   confirmation that the ILO should be the custodian agency for indicator 8.8.2,
   given that ILO textual sources are its statistical foundation.<sup><a
   href="#footnote-2" id="footnote-ref-2">[1]</a></sup></p><div
@@ -150,7 +148,7 @@ REC_USE_LIM: >-
   organizations), it was decided to prominently present the following chapeau
   text in the reporting of SDG indicator 8.8.2:</p>
 
-  <p> &#x201C;SDG indicator 8.8.2 seeks to measure the level of national
+  <p>&#x201C;SDG indicator 8.8.2 seeks to measure the level of national
   compliance with fundamental labour rights (freedom of association and
   collective bargaining). It is based on six International Labour Organization
   (ILO) supervisory body textual sources and also on national legislation.
@@ -213,7 +211,7 @@ DATA_COMP: >-
   does not affect the construction of the binary coding column, in order to
   avoid double-counting given that the textual sources commonly reference each
   other. The cells of the column of weights are then multiplied by corresponding
-  cells of the binary coding column, and summing across the cells of the
+  cells of the binary coding column and summing across the cells of the
   resultant column yields a weighted non-normalized score for any given country
   and year. </p>
 
@@ -226,8 +224,8 @@ DATA_COMP: >-
   score for any given country and year is normalized to range in value from 0 to
   10, the best and worst possible scores respectively. In the future, if any
   country should receive a non-normalized score of greater than 95, this will be
-  capped at 95, yielding a normalized score of 10.<sup><a href="#footnote-5"
-  id="footnote-ref-5">[4]</a></sup></p>
+  capped at 95, yielding a normalized score of 10.<sup><sup><a
+  href="#footnote-5" id="footnote-ref-5">[4]</a></sup></sup></p>
 
   <p>In addition, the method applies the notion that general prohibitions in law
   imply general prohibitions in practice (though not vice versa). In terms of
@@ -252,8 +250,547 @@ DATA_COMP: >-
   organizations&#x201D; in law, &#x201C;General prohibition of the development
   of independent organizations&#x201D; in practice, &#x201C;General prohibition
   of the right to collective bargaining&#x201D; in law, and &#x201C;General
-  prohibition of collective bargaining&#x201D; in practice. </p><div
-  class="footnotes"><div><sup class="footnote-number"
+  prohibition of collective bargaining&#x201D; in practice. </p>
+
+  <p><strong>Table 1. Hypothetical Example of Coding and Indicator Construction
+  (for a Single Country and Year)</strong></p>
+
+  <table>
+    <tbody>
+      <tr>
+        <td colspan="2">
+          <p><strong>Evaluation Criteria</strong></p>
+        </td>
+        <td>
+          <p><strong>Textual coding</strong></p>
+        </td>
+        <td>
+          <p><strong>Binary coding</strong></p>
+        </td>
+        <td>
+          <p><strong>Weights</strong></p>
+        </td>
+        <td>
+          <p><strong>Binary coding x Weights</strong></p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p> </p>
+        </td>
+        <td>
+          <p><strong>Ia. Fundamental civil liberties in law</strong></p>
+        </td>
+        <td>
+          <p> </p>
+        </td>
+        <td>
+          <p> </p>
+        </td>
+        <td>
+          <p> </p>
+        </td>
+        <td>
+          <p> </p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>2</p>
+        </td>
+        <td>
+          <p>Infringements of trade unionists&apos; basic freedoms </p>
+        </td>
+        <td>
+          <p>a</p>
+        </td>
+        <td>
+          <p>1</p>
+        </td>
+        <td>
+          <p>1,93</p>
+        </td>
+        <td>
+          <p>1,93</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p> </p>
+        </td>
+        <td>
+          <p><strong>Ib. Fundamental civil liberties in practice</strong></p>
+        </td>
+        <td>
+          <p> </p>
+        </td>
+        <td>
+          <p> </p>
+        </td>
+        <td>
+          <p> </p>
+        </td>
+        <td>
+          <p> </p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>6</p>
+        </td>
+        <td>
+          <p>Killing or disappearance of trade unionists in relation to their trade union activities</p>
+        </td>
+        <td>
+          <p>af</p>
+        </td>
+        <td>
+          <p>1</p>
+        </td>
+        <td>
+          <p>2,00</p>
+        </td>
+        <td>
+          <p>2,00</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>9</p>
+        </td>
+        <td>
+          <p>Other violent actions against trade unionists in relation to their trade union activities</p>
+        </td>
+        <td>
+          <p>af</p>
+        </td>
+        <td>
+          <p>1</p>
+        </td>
+        <td>
+          <p>1,82</p>
+        </td>
+        <td>
+          <p>1,82</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>12</p>
+        </td>
+        <td>
+          <p>Arrest, detention, imprisonment, charging and fining of trade unionists in relation to their trade union activities</p>
+        </td>
+        <td>
+          <p>af</p>
+        </td>
+        <td>
+          <p>1</p>
+        </td>
+        <td>
+          <p>1,95</p>
+        </td>
+        <td>
+          <p>1,95</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p> </p>
+        </td>
+        <td>
+          <p><strong>IIa. Right of workers to establish and join organizations in law</strong></p>
+        </td>
+        <td>
+          <p> </p>
+        </td>
+        <td>
+          <p> </p>
+        </td>
+        <td>
+          <p> </p>
+        </td>
+        <td>
+          <p> </p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>24</p>
+        </td>
+        <td>
+          <p>Exclusion of workers from the right to establish and join organizations</p>
+        </td>
+        <td>
+          <p>a</p>
+        </td>
+        <td>
+          <p>1</p>
+        </td>
+        <td>
+          <p>1,86</p>
+        </td>
+        <td>
+          <p>1,86</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>30</p>
+        </td>
+        <td>
+          <p>Lack of adequate legal guarantees against anti-union discriminatory measures</p>
+        </td>
+        <td>
+          <p>a</p>
+        </td>
+        <td>
+          <p>1</p>
+        </td>
+        <td>
+          <p>1,75</p>
+        </td>
+        <td>
+          <p>1,75</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>33</p>
+        </td>
+        <td>
+          <p>Infringements of the right to establish and join federations/confederations/international organizations</p>
+        </td>
+        <td>
+          <p>abf</p>
+        </td>
+        <td>
+          <p>1</p>
+        </td>
+        <td>
+          <p>1,73</p>
+        </td>
+        <td>
+          <p>1,73</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p> </p>
+        </td>
+        <td>
+          <p><strong>IIb. Right of workers to establish and join organizations in practice</strong></p>
+        </td>
+        <td>
+          <p> </p>
+        </td>
+        <td>
+          <p> </p>
+        </td>
+        <td>
+          <p> </p>
+        </td>
+        <td>
+          <p> </p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>37</p>
+        </td>
+        <td>
+          <p>Previous authorization requirements</p>
+        </td>
+        <td>
+          <p>af</p>
+        </td>
+        <td>
+          <p>1</p>
+        </td>
+        <td>
+          <p>1,70</p>
+        </td>
+        <td>
+          <p>1,70</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>42</p>
+        </td>
+        <td>
+          <p>Committed against trade union officials re violation no. 41</p>
+        </td>
+        <td>
+          <p>f</p>
+        </td>
+        <td>
+          <p>1</p>
+        </td>
+        <td>
+          <p>1,89</p>
+        </td>
+        <td>
+          <p>1,89</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>43</p>
+        </td>
+        <td>
+          <p>Lack of guarantee of due process and/or justice re violation no. 41</p>
+        </td>
+        <td>
+          <p>f</p>
+        </td>
+        <td>
+          <p>1</p>
+        </td>
+        <td>
+          <p>1,80</p>
+        </td>
+        <td>
+          <p>1,80</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p> </p>
+        </td>
+        <td>
+          <p><strong>IIIa. Other union activities in law</strong></p>
+        </td>
+        <td>
+          <p> </p>
+        </td>
+        <td>
+          <p> </p>
+        </td>
+        <td>
+          <p> </p>
+        </td>
+        <td>
+          <p> </p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>49</p>
+        </td>
+        <td>
+          <p>Infringements of the right to freely elect representatives</p>
+        </td>
+        <td>
+          <p>a</p>
+        </td>
+        <td>
+          <p>1</p>
+        </td>
+        <td>
+          <p>1,80</p>
+        </td>
+        <td>
+          <p>1,80</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>50</p>
+        </td>
+        <td>
+          <p>Infringements of the right to freely organize and control financial administration</p>
+        </td>
+        <td>
+          <p>ab</p>
+        </td>
+        <td>
+          <p>1</p>
+        </td>
+        <td>
+          <p>1,59</p>
+        </td>
+        <td>
+          <p>1,59</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>52</p>
+        </td>
+        <td>
+          <p>Prohibition of all political activities</p>
+        </td>
+        <td>
+          <p>ab</p>
+        </td>
+        <td>
+          <p>1</p>
+        </td>
+        <td>
+          <p>1,73</p>
+        </td>
+        <td>
+          <p>1,73</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p> </p>
+        </td>
+        <td>
+          <p><strong>IVa. Right to collective bargaining in law</strong></p>
+        </td>
+        <td>
+          <p> </p>
+        </td>
+        <td>
+          <p> </p>
+        </td>
+        <td>
+          <p> </p>
+        </td>
+        <td>
+          <p> </p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>66</p>
+        </td>
+        <td>
+          <p>Acts of interference in collective bargaining</p>
+        </td>
+        <td>
+          <p>a</p>
+        </td>
+        <td>
+          <p>1</p>
+        </td>
+        <td>
+          <p>1,66</p>
+        </td>
+        <td>
+          <p>1,66</p>
+        </td>
+      </tr>
+      <tr>
+        <td></td>
+        <td>
+          <p><strong>IVb. Right to collective bargaining in practice</strong></p>
+        </td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>
+          <p>72</p>
+        </td>
+        <td>
+          <p>Exclusion of workers from the right to collective bargaining</p>
+        </td>
+        <td>
+          <p>a</p>
+        </td>
+        <td>
+          <p>1</p>
+        </td>
+        <td>
+          <p>1,84</p>
+        </td>
+        <td>
+          <p>1,84</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p> </p>
+        </td>
+        <td>
+          <p> </p>
+        </td>
+        <td>
+          <p> </p>
+        </td>
+        <td>
+          <p> </p>
+        </td>
+        <td>
+          <p> </p>
+        </td>
+        <td>
+          <p> </p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p> </p>
+        </td>
+        <td>
+          <p><strong>Sum (non-normalized score)</strong></p>
+        </td>
+        <td>
+          <p> </p>
+        </td>
+        <td>
+          <p>15</p>
+        </td>
+        <td>
+          <p> </p>
+        </td>
+        <td>
+          <p>27,05</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p> </p>
+        </td>
+        <td>
+          <p><strong>Normalized score (0 = best, 10 = worst)<sup>1</sup></strong></p>
+        </td>
+        <td>
+          <p> </p>
+        </td>
+        <td>
+          <p> </p>
+        </td>
+        <td>
+          <p> </p>
+        </td>
+        <td>
+          <p><strong>2,85</strong></p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p> </p>
+        </td>
+        <td>
+          <p> </p>
+        </td>
+        <td>
+          <p> </p>
+        </td>
+        <td>
+          <p> </p>
+        </td>
+        <td>
+          <p> </p>
+        </td>
+        <td>
+          <p> </p>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="6">
+          <p><sup>1</sup> The formula used is: (x*10/95), where x = the weighted non-normalized score for a given country and year and is capped at 95. </p>
+        </td>
+      </tr>
+    </tbody>
+  </table><div class="footnotes"><div><sup class="footnote-number"
   id="footnote-5">4</sup><p><sup> </sup>The formula is thus: (x*10/95), where x
   = the weighted non-normalized score for a given country and year and is capped
   at 95. <a href="#footnote-ref-5">&#x2191;</a></p></div></div>
@@ -283,7 +820,7 @@ DATA_VALIDATION: >-
   traced back to individual textual sources. This is made possible by the coding
   itself, in which violations are coded with the letters &#x201C;a&#x201D;
   through &#x201C;g,&#x201D; with each letter standing for one of the seven
-  textual sources coded, as discussed below. </p>
+  textual sources coded (see Table 1.). </p>
 
   <p><em>Inter-coder reliability</em>. The method is based on clear and
   comprehensive coding rules as well as definitions for each of the evaluation
@@ -306,13 +843,14 @@ DATA_VALIDATION: >-
   on the Fundamental Conventions Concerning Rights at Work in Light of the ILO
   Declaration on Social Justice for a Fair Globalization, 2008</em> (ILO, 2012).
   <a href="#footnote-ref-6">&#x2191;</a></p></div></div>
+ADJUSTMENT: <p>Not applicable</p>
 IMPUTATION: >-
   <ul>
-    <li>At country level</li>
+    <li><strong>At country level</strong></li>
   </ul>
 
   <p>There is no treatment of missing values at country level. The indicator is
-  not reported for non-ratifying countries, nor for countries for which ILO
+  neither reported for non-ratifying countries, nor for countries for which ILO
   supervisory body textual sources do not provide sufficient amount of
   information in a specific year. The ILO will consult its constituents
   regarding which countries should be dropped from reporting for these reasons.
@@ -322,15 +860,16 @@ IMPUTATION: >-
   tripartite constituents.</p>
 
   <ul>
-    <li>At regional and global levels</li>
+    <li><strong>At regional and global levels</strong></li>
   </ul>
 
   <p>For the computation of the regional aggregates, treatment of missing values
   (i.e. scores that are recommended to be dropped) is based on the following
-  rules: 1. If scores are missing for all years, the country is dropped from the
-  sample; 2. If scores are available for a single year, the available score is
-  used for all other years; 3. If scores are available for multiple but not all
-  years, the missing value is computed as the average of available scores.</p>
+  rules: (1). If scores are missing for all years, the country is dropped from
+  the sample; (2). If scores are available for a single year, the available
+  score is used for all other years; (3). If scores are available for multiple
+  but not all years, the missing value is computed as the average of available
+  scores.</p>
 REG_AGG: >-
   <p>The regional and global aggregates are weighted averages (with weights
   derived from ILO labour force estimates). To avoid biased estimations,
@@ -353,20 +892,30 @@ REG_AGG: >-
   98 to the total labour force is greater or equal to 25%, or, where the
   difference in absolute value between the regional aggregate including all
   countries and the regional aggregate including only countries that have
-  ratified the ILO conventions is smaller or equal than 1.5.</p>
+  ratified the ILO conventions is smaller or equal than 2.</p>
 DOC_METHOD: <p>Not applicable</p>
+QUALITY_MGMNT: >-
+  <p>The processes of compilation, production, and publication of data,
+  including its quality control, are carried out following the methodological
+  framework and standards established by the ILO Department of Statistics, in
+  compliance with the information technology and management standards of the
+  ILO.</p>
+QUALITY_ASSURE: <p>Not applicable</p>
+QUALITY_ASSMNT: <p>Not applicable</p>
 COVERAGE: >-
   <p><strong>Data availability:</strong></p>
 
   <p>The data is available for ILO member states that ratified both ILO
-  Convention no. 87 and 98, which is currently 154 countries. </p>
+  Convention no. 87 and 98, which is currently 137 countries. This submission
+  covers country, regional and global data from 2015 to 2020.</p>
 
   <p><strong>Disaggregation:</strong></p>
 
   <p>The disaggregation by sex and migrant status is not currently available.
   </p>
+COMPARABILITY: <p>Not applicable</p>
 OTHER_DOC: >-
-  <p>International Conference of Labour Statisticians (2018) 20<sup>th</sup>.
+  <p>International Conference of Labour Statisticians (2018) 20<sup>th</sup>
   Session, <a href="http://www.ilo.org/20thicls">www.ilo.org/20thicls</a> </p>
 
   <p></p>

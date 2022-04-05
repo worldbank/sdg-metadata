@@ -9,10 +9,10 @@ SDG_INDICATOR: >-
   <p>Indicator 4.3.1: Participation rate of youth and adults in formal and
   non-formal education and training in the previous 12 months, by sex</p>
 SDG_SERIES_DESCR: <p>Not applicable. </p>
-META_LAST_UPDATE: <p>2021-07-01</p>
+META_LAST_UPDATE: '2022-03-31'
 SDG_RELATED_INDICATORS: '<p>1.4, 4.4, 4.5, 5.b, 8.5, 9.2</p>'
-SDG_CUSTODIAN_AGENCIES: <p>UNESCO Institute for Statistics (UNESCO-UIS)</p>
-CONTACT_ORGANISATION: <p>UNESCO Institute for Statistics (UNESCO-UIS)</p>
+SDG_CUSTODIAN_AGENCIES: <p>UNESCO Institute for Statistics (UIS)</p>
+CONTACT_ORGANISATION: <p>UNESCO Institute for Statistics (UIS)</p>
 STAT_CONC_DEF: >-
   <p><strong>Definition:</strong></p>
 
@@ -37,11 +37,8 @@ STAT_CONC_DEF: >-
   and outside educational institutions and cater to people of all ages.
   Depending on national contexts, it may cover educational programmes to impart
   adult literacy, life-skills, work-skills, and general culture.</p>
-UNIT_MEASURE: >-
-  <p>Percentage. This indicator is expressed as the percentage of youth and
-  adults in a given age range participating in education or training in a given
-  time period. </p>
-CLASS_SYSTEM: <p>Not applicable. </p>
+UNIT_MEASURE: <p>Percent (%) </p>
+CLASS_SYSTEM: <p>Not applicable</p>
 SOURCE_TYPE: >-
   <p>Household survey data on participants in formal and non-formal education
   and training by single year of age; population censuses and surveys for
@@ -52,8 +49,8 @@ COLL_METHOD: >-
   survey. </p>
 FREQ_COLL: <p>Various depending on survey and country.</p>
 REL_CAL_POLICY: <p>Various depending on survey and country.</p>
-DATA_SOURCE: <p>Ministries of Education and /or National Statistical Offices.</p>
-COMPILING_ORG: <p>UNESCO Institute for Statistics</p>
+DATA_SOURCE: <p>Ministries of Education and /or National Statistical Offices (NSOs).</p>
+COMPILING_ORG: <p>UNESCO Institute for Statistics (UIS)</p>
 INST_MANDATE: >-
   <p>The UNESCO Institute for Statistics (UIS) is the statistical branch of the
   United Nations Educational, Scientific and Cultural Organization (UNESCO). The
@@ -63,16 +60,17 @@ INST_MANDATE: >-
 
   <p>The <a
   href="https://www.moe.gov.bn/DocumentDownloads/Education%202030/Education2030.pdf"><u>Education
-  2030 Framework for Action 100</u></a> has clearly stated that: &#x201C;<em>In
-  recognition of the importance of harmonization of monitoring and reporting,
-  the UIS will remain the official source of cross-nationally comparable data on
-  education. It will continue to produce international monitoring indicators
-  based on its annual education survey and on other data sources that guarantee
-  international comparability for more than 200 countries and territories. In
-  addition to collecting data, the UIS will work with partners to develop new
-  indicators, statistical approaches and monitoring tools to better assess
-  progress across the targets related to UNESCO&#x2019;s mandate, working in
-  coordination with the SDG-Education 2030 SC&#x201D;.</em></p>
+  2030 Framework for Action &#xA7;100</u></a> has clearly stated that:
+  &#x201C;<em>In recognition of the importance of harmonization of monitoring
+  and reporting, the UIS will remain the official source of cross-nationally
+  comparable data on education. It will continue to produce international
+  monitoring indicators based on its annual education survey and on other data
+  sources that guarantee international comparability for more than 200 countries
+  and territories. In addition to collecting data, the UIS will work with
+  partners to develop new indicators, statistical approaches and monitoring
+  tools to better assess progress across the targets related to UNESCO&#x2019;s
+  mandate, working in coordination with the SDG-Education 2030
+  SC&#x201D;.</em></p>
 RATIONALE: >-
   <p>To show the level of participation of youth and adults in education and
   training of all types. A high value indicates a large share of the population
@@ -90,19 +88,58 @@ DATA_COMP: >-
   non-formal education or training is expressed as a percentage of the
   population of the same age.</p>
 
-  <p>PR<sub>AGi</sub> = E<sub>AGi</sub>/P<sub>AGi</sub></p>
-
+  <p><math xmlns="http://www.w3.org/1998/Math/MathML">
+      <msub>
+        <mrow>
+          <mi>P</mi>
+          <mi>R</mi>
+        </mrow>
+        <mrow>
+          <mi>A</mi>
+          <mi>G</mi>
+          <mi>i</mi>
+        </mrow>
+      </msub>
+      <mo>=</mo>
+      <mi>&amp;nbsp;</mi>
+      <mfrac>
+        <mrow>
+          <msub>
+            <mrow>
+              <mi>E</mi>
+            </mrow>
+            <mrow>
+              <mi>A</mi>
+              <mi>G</mi>
+              <mi>i</mi>
+            </mrow>
+          </msub>
+        </mrow>
+        <mrow>
+          <msub>
+            <mrow>
+              <mi>P</mi>
+            </mrow>
+            <mrow>
+              <mi>A</mi>
+              <mi>G</mi>
+              <mi>i</mi>
+            </mrow>
+          </msub>
+        </mrow>
+      </mfrac>
+    </math></p>
   <p>where:</p>
 
-  <p>PR<sub>AGi</sub> = participation rate of the population in age group i in
-  formal and non-formal education and training</p>
+  <p><em>PR<sub>AGi</sub></em> = participation rate of the population in age
+  group <em>i</em> in formal and non-formal education and training</p>
 
-  <p>E<sub>AGi</sub> = enrolment of the population in age group i in formal and
-  non-formal education and training</p>
+  <p><em>E<sub>AGi</sub></em> = enrolment of the population in age group
+  <em>i</em> in formal and non-formal education and training</p>
 
-  <p>P<sub>AGi</sub> = population in age group i</p>
+  <p><em>P<sub>AGi</sub></em> = population in age group <em>i</em></p>
 
-  <p>i = 15-24, 15 and above, 25-64, etc.</p>
+  <p><em>i</em> = 15-24, 15 and above, 25-64, etc.</p>
 DATA_VALIDATION: >-
   <p>The UNESCO Institute for Statistics shares all indicator values and notes
   on methodology with National Statistical Offices, Ministries of Education, or
@@ -163,11 +200,12 @@ COVERAGE: >-
   income from household surveys.</p>
 COMPARABILITY: |-
   <p><strong>Sources of discrepancies:</strong></p>
-  <p>None.</p>
+  <p>None</p>
 OTHER_DOC: >-
   <p><strong>URL:</strong></p>
 
-  <p>http://www.uis.unesco.org</p>
+  <p><a
+  href="file:///\\uissv3\teams\LO\Learning%20Outcomes\Metadata\IAEG-SDG-reviewed%20metadata_121_13022022\Revised%2013022022\uis.unesco.org">uis.unesco.org</a></p>
 
   <p><strong>References:</strong></p>
 
@@ -177,7 +215,8 @@ OTHER_DOC: >-
 
   <p>European Continuing Vocational Training Survey: </p>
 
-  <p>https://ec.europa.eu/eurostat/web/microdata/continuing-vocational-training-survey</p>
+  <p><a
+  href="https://ec.europa.eu/eurostat/web/microdata/continuing-vocational-training-survey">https://ec.europa.eu/eurostat/web/microdata/continuing-vocational-training-survey</a></p>
 
   <p>European Labour Force Survey: <a
   href="http://ec.europa.eu/eurostat/cache/metadata/en/trng_lfs_4w0_esms.htm">http://ec.europa.eu/eurostat/cache/metadata/en/trng_lfs_4w0_esms.htm</a>

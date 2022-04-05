@@ -10,7 +10,7 @@ SDG_TARGET: >-
 SDG_INDICATOR: >-
   <p>Indicator 2.4.1: Proportion of agricultural area under productive and
   sustainable agriculture</p>
-META_LAST_UPDATE: <p>2021-03-01</p>
+META_LAST_UPDATE: '2022-03-31'
 SDG_RELATED_INDICATORS: >-
   <p>Direct links to:</p>
 
@@ -31,111 +31,11 @@ CONTACT_ORGANISATION: <p>Food and Agriculture Organization of the United Nations
 STAT_CONC_DEF: >-
   <h2>Definition:</h2>
 
-  <p>The indicator is defined by the formula:</p>
-
-  <p><math xmlns="http://www.w3.org/1998/Math/MathML">
-      <mi>S</mi>
-      <mi>D</mi>
-      <mi>G</mi>
-      <mn>2</mn>
-      <mo>.</mo>
-      <mn>4</mn>
-      <mo>.</mo>
-      <mn>1</mn>
-      <mo>=</mo>
-      <mfrac>
-        <mrow>
-          <mi>A</mi>
-          <mi>r</mi>
-          <mi>e</mi>
-          <mi>a</mi>
-          <mi>&amp;nbsp;</mi>
-          <mi>u</mi>
-          <mi>n</mi>
-          <mi>d</mi>
-          <mi>e</mi>
-          <mi>r</mi>
-          <mi>&amp;nbsp;</mi>
-          <mi>p</mi>
-          <mi>r</mi>
-          <mi>o</mi>
-          <mi>d</mi>
-          <mi>u</mi>
-          <mi>c</mi>
-          <mi>t</mi>
-          <mi>i</mi>
-          <mi>v</mi>
-          <mi>e</mi>
-          <mi>&amp;nbsp;</mi>
-          <mi>a</mi>
-          <mi>n</mi>
-          <mi>d</mi>
-          <mi>&amp;nbsp;</mi>
-          <mi>s</mi>
-          <mi>u</mi>
-          <mi>s</mi>
-          <mi>t</mi>
-          <mi>a</mi>
-          <mi>i</mi>
-          <mi>n</mi>
-          <mi>a</mi>
-          <mi>b</mi>
-          <mi>l</mi>
-          <mi>e</mi>
-          <mi>&amp;nbsp;</mi>
-          <mi>a</mi>
-          <mi>g</mi>
-          <mi>r</mi>
-          <mi>i</mi>
-          <mi>c</mi>
-          <mi>u</mi>
-          <mi>l</mi>
-          <mi>t</mi>
-          <mi>u</mi>
-          <mi>r</mi>
-          <mi>e</mi>
-          <mi>&amp;nbsp;</mi>
-        </mrow>
-        <mrow>
-          <mi>A</mi>
-          <mi>g</mi>
-          <mi>r</mi>
-          <mi>i</mi>
-          <mi>c</mi>
-          <mi>u</mi>
-          <mi>l</mi>
-          <mi>t</mi>
-          <mi>u</mi>
-          <mi>r</mi>
-          <mi>a</mi>
-          <mi>l</mi>
-          <mi>&amp;nbsp;</mi>
-          <mi>l</mi>
-          <mi>a</mi>
-          <mi>n</mi>
-          <mi>d</mi>
-          <mi>&amp;nbsp;</mi>
-          <mi>a</mi>
-          <mi>r</mi>
-          <mi>e</mi>
-          <mi>a</mi>
-        </mrow>
-      </mfrac>
-    </math></p>
-  <p>This implies the need to measure both the extent of land under productive
-  and sustainable agriculture (the numerator), as well as the extent of
-  agriculture land area (the denominator).</p>
-
-  <ul>
-    <li>The <em>numerator</em> captures the three dimensions of sustainable production: environmental, economic and social. It corresponds to agricultural land area of the farms that satisfy the sustainability criteria of the 11 sub-indicators selected across all three dimensions.</li>
-    <li>The <em>denominator</em> in turn the sum of agricultural land area (as defined by FAO) utilized by agricultural holdings that are owned (excluding rented-out), rented-in, leased, sharecropped or borrowed. State or communal land used by farm holdings is not included. Please see the <a href="http://www.fao.org/3/ca7154en/ca7154en.pdf">methodological document</a> prepared by FAO for a more detailed explanation.</li>
-  </ul>
-
   <p>The scope of indicator 2.4.1 is the agricultural farm holding, and more
   precisely the agricultural land area of the farm holding, i.e. land used
   primarily to grow crops and raise livestock. This choice of scope is fully
   consistent with the intended use of a country&#x2019;s agricultural land area
-  as the denominator of the aggregate indicator. Specifically the following
+  as the denominator of the aggregate indicator. Specifically, the following
   are:</p>
 
   <p>Included within scope:</p>
@@ -155,7 +55,7 @@ STAT_CONC_DEF: >-
   <ul>
     <li>State and common land not used exclusively by the farm holding.</li>
     <li>Nomadic pastoralism.</li>
-    <li>Production from gardens and backyards. Production from hobby farms<sup><a href="#footnote-3" id="footnote-ref-3">[1]</a></sup>.</li>
+    <li>Production from gardens and backyards. Production from hobby farms<sup><a href="#footnote-2" id="footnote-ref-2">[1]</a></sup>.</li>
     <li>Holdings focusing exclusively on aquaculture. </li>
     <li>Holdings focusing exclusively on forestry.</li>
     <li>Food harvested from the wild.</li>
@@ -323,20 +223,25 @@ STAT_CONC_DEF: >-
 
   <p>Please see the annex for a detailed description of the
   sub-indicators.</p><div class="footnotes"><div><sup class="footnote-number"
-  id="footnote-3">1</sup><p> The countries will define hobby farms as per their
+  id="footnote-2">1</sup><p> The countries will define hobby farms as per their
   national criteria and remove these farms from the population of interest for
   2.4.1 until an international definition is available. <a
-  href="#footnote-ref-3">&#x2191;</a></p></div></div>
+  href="#footnote-ref-2">&#x2191;</a></p></div></div>
 UNIT_MEASURE: >-
-  <p>The Indicator is unitless, expressing a ratio between two areas (both
-  measured in thousand hectares), i.e., area under sustainable and productive
-  agriculture and total agricultural land area.</p>
+  <p>Percentage (%):The member countries are required to report the proportion
+  (percentage) of agriculture land area for all 11 sub-indicators separately by
+  sustainability status. Aggregation at the national level is performed for each
+  sub-indicator independently, by adding up the agricultural land area of each
+  agriculture holding (selected through a nationally representative sample) and
+  finally reporting the resulting national total as a percentage of the total
+  nationally representative agriculture land area for the 11 sub-indicators in a
+  dashboard. </p>
 CLASS_SYSTEM: >-
-  <p>The land area classification is that of Census of Agriculture and the
-  System of Environmental and Economic Accounts (SEEA), as implemented in the
-  FAO Land Use, Irrigation and Agricultural Practices Questionnaire (<a
-  href="http://www.fao.org/faostat/en/#data/RL/metadata">http://www.fao.org/faostat/en/#data/RL/metadata</a>
-  ). </p>
+  <p>The land area classification is that implemented in the FAO Land Use,
+  Irrigation and Agricultural Practices Questionnaire (<a
+  href="http://www.fao.org/faostat/en/#data/RL/metadata">http://www.fao.org/faostat/en/#data/RL/metadata</a>),
+  which is consistent with the classification of Census of Agriculture and the
+  System of Environmental and Economic Accounts (SEEA). </p>
 SOURCE_TYPE: >-
   <p>Different data are collected through different instruments. Often,
   environmental data are collected through environmental monitoring systems,
@@ -366,20 +271,20 @@ SOURCE_TYPE: >-
   of sustainability.</p>
 COLL_METHOD: >-
   <p>A questionnaire is sent to all countries annually since 2020 (<a
-  href="http://www.fao.org/sustainable-development-goals/indicators/241/en/">http://www.fao.org/sustainable-development-goals/indicators/241/en/</a>
-  ). Furthermore in order to facilitate data collection by countries, a data
+  href="http://www.fao.org/sustainable-development-goals/indicators/241/en/">http://www.fao.org/sustainable-development-goals/indicators/241/en/</a>).
+  Furthermore, in order to facilitate data collection by countries, a data
   module has been designed, which contains the core set of questions necessary
   to obtain the data for SDG 2.4.1. If farm surveys already exist within a
   country, these questions can be integrated into existing instruments in order
-  to minimize the burden to national statistical offices in data collection.</p>
+  to minimize the burden to National Statistical Offices (NSOs).</p>
 
-  <p>All data collection activities will be done through the National
-  Statistical Office or the office designated to collect data for this
-  indicator. FAO, together with the Global Strategy to improve Agriculture and
-  Rural Statistics (GSARS), have developed the capacity development material
-  necessary for this indicator, including a methodological guide, an enumerator
-  manual, calculation document and an e-learning course to train country NSO and
-  other relevant staff on the indictor. </p>
+  <p>All data collection activities will be done through the NSO or the office
+  designated to collect data for this indicator. FAO, together with the Global
+  Strategy to improve Agriculture and Rural Statistics (GSARS), have developed
+  the capacity development material necessary for this indicator, including a
+  methodological guide, an enumerator manual, calculation document, sampling
+  guidance and an e-learning course to train country NSO and other relevant
+  staff on the indictor. </p>
 FREQ_COLL: >-
   <p>Data collection will depend on currently existing data collection cycles
   for farm surveys within countries. FAO has integrated the questionnaire module
@@ -401,8 +306,8 @@ INST_MANDATE: >-
   <p>Article I of the FAO constitution requires that the Organization collect,
   analyses, interpret and disseminate information relating to nutrition, food
   and agriculture <a
-  href="http://www.fao.org/3/K8024E/K8024E.pdf">http://www.fao.org/3/K8024E/K8024E.pdf</a>
-  . </p>
+  href="http://www.fao.org/3/K8024E/K8024E.pdf">http://www.fao.org/3/K8024E/K8024E.pdf</a>.
+  </p>
 RATIONALE: >-
   <p>The approaches to framing and defining sustainable agriculture vary in
   terms of their coverage of the three primary dimensions of sustainability,
@@ -468,17 +373,117 @@ REC_USE_LIM: >-
   sustainability through a farm survey, especially if it is not designed to
   cover social aspects could pose certain challenges.</p>
 DATA_COMP: >-
+  <p>The indicator is defined by the formula:</p>
+
+  <p><math xmlns="http://www.w3.org/1998/Math/MathML">
+      <mi>S</mi>
+      <mi>D</mi>
+      <mi>G</mi>
+      <mn>2</mn>
+      <mo>.</mo>
+      <mn>4</mn>
+      <mo>.</mo>
+      <mn>1</mn>
+      <mo>=</mo>
+      <mfrac>
+        <mrow>
+          <mi>A</mi>
+          <mi>r</mi>
+          <mi>e</mi>
+          <mi>a</mi>
+          <mi>&amp;nbsp;</mi>
+          <mi>u</mi>
+          <mi>n</mi>
+          <mi>d</mi>
+          <mi>e</mi>
+          <mi>r</mi>
+          <mi>&amp;nbsp;</mi>
+          <mi>p</mi>
+          <mi>r</mi>
+          <mi>o</mi>
+          <mi>d</mi>
+          <mi>u</mi>
+          <mi>c</mi>
+          <mi>t</mi>
+          <mi>i</mi>
+          <mi>v</mi>
+          <mi>e</mi>
+          <mi>&amp;nbsp;</mi>
+          <mi>a</mi>
+          <mi>n</mi>
+          <mi>d</mi>
+          <mi>&amp;nbsp;</mi>
+          <mi>s</mi>
+          <mi>u</mi>
+          <mi>s</mi>
+          <mi>t</mi>
+          <mi>a</mi>
+          <mi>i</mi>
+          <mi>n</mi>
+          <mi>a</mi>
+          <mi>b</mi>
+          <mi>l</mi>
+          <mi>e</mi>
+          <mi>&amp;nbsp;</mi>
+          <mi>a</mi>
+          <mi>g</mi>
+          <mi>r</mi>
+          <mi>i</mi>
+          <mi>c</mi>
+          <mi>u</mi>
+          <mi>l</mi>
+          <mi>t</mi>
+          <mi>u</mi>
+          <mi>r</mi>
+          <mi>e</mi>
+          <mi>&amp;nbsp;</mi>
+        </mrow>
+        <mrow>
+          <mi>A</mi>
+          <mi>g</mi>
+          <mi>r</mi>
+          <mi>i</mi>
+          <mi>c</mi>
+          <mi>u</mi>
+          <mi>l</mi>
+          <mi>t</mi>
+          <mi>u</mi>
+          <mi>r</mi>
+          <mi>a</mi>
+          <mi>l</mi>
+          <mi>&amp;nbsp;</mi>
+          <mi>l</mi>
+          <mi>a</mi>
+          <mi>n</mi>
+          <mi>d</mi>
+          <mi>&amp;nbsp;</mi>
+          <mi>a</mi>
+          <mi>r</mi>
+          <mi>e</mi>
+          <mi>a</mi>
+        </mrow>
+      </mfrac>
+    </math></p>
+  <p>This implies the need to measure both the extent of land under productive
+  and sustainable agriculture (the numerator), as well as the extent of
+  agriculture land area (the denominator).</p>
+
+  <ul>
+    <li>The <em>numerator</em> captures the three dimensions of sustainable production: environmental, economic and social. It corresponds to agricultural land area of the farms that satisfy the sustainability criteria of the 11 sub-indicators selected across all three dimensions.</li>
+    <li>The <em>denominator</em> in turn the sum of agricultural land area (as defined by FAO) utilized by agricultural holdings that are owned (excluding rented-out), rented-in, leased, sharecropped or borrowed. State or communal land used by farm holdings is not included. Please see the <a href="http://www.fao.org/3/ca7154en/ca7154en.pdf">methodological document</a> prepared by FAO for a more detailed explanation. </li>
+  </ul>
+
   <p>Steps to calculate SDG 2.4.1 include:</p>
 
   <ol>
     <li>Determining the <strong>scope </strong>of the indicator: The scope of Indicator 2.4.1 is the agricultural farm holding, and more precisely the agricultural land area of the farm holding, i.e., land used primarily to grow crops and raise livestock. Forestry, fisheries and aquaculture activities may be included to the extent that they are secondary activities conducted on the agricultural area of the farm holding, for example rice-fish farming and similar systems.</li>
     <li>Determining the <strong>dimensions </strong>to be covered: Indicator 2.4.1 includes environmental, economic and social dimensions in the sustainability assessment. </li>
     <li>Choosing the <strong>scale </strong>for the sustainability assessment: Indicator 2.4.1 is farm level with aggregation to higher levels.</li>
-    <li>Selecting the data collection <strong>instrument(s). </strong>It is recommended that indicator 2.4.1 be collected through a farm survey<strong>.</strong></li>
-    <li>Selecting the <strong>themes </strong>within each dimension, and choosing a <strong>sub-indicator</strong> for each theme. The sub-indicators should satisfy a number of criteria (described in annex 1 for each sub-indicator, respectively). </li>
+    <li>Selecting the data collection <strong>instrument(s)</strong>:<strong> </strong>It is recommended that indicator 2.4.1 be collected through a farm survey.</li>
+    <li>Selecting the <strong>themes </strong>within each dimension, and choosing a <strong>sub-indicator</strong> for each theme: The sub-indicators should satisfy a number of criteria (described in annex 1 for each sub-indicator, respectively). </li>
     <li>Assessing <strong>sustainability performance at farm level for each sub-indicator</strong>: Specific sustainability <strong>criteria</strong> are applied in order to assess the sustainability level of the farm for each theme according to the respective sub-indicators. </li>
-    <li>Deciding the <strong>periodicity of monitoring the indicator</strong>. It is recommended to be collected at least every three years.</li>
-    <li><strong>Modality of reporting the indicator. </strong>The set of sub-indicators are presented in the form of a <strong>dashboard</strong>. The dashboard approach offers a response in terms of measuring sustainability at farm level and aggregating it at national level. </li>
+    <li>Deciding the <strong>periodicity of monitoring the indicator</strong>: It is recommended to be collected at least every three years.</li>
+    <li><strong>Modality of reporting the indicator</strong>:<strong> </strong>The set of sub-indicators are presented in the form of a <strong>dashboard</strong>. The dashboard approach offers a response in terms of measuring sustainability at farm level and aggregating it at national level. </li>
   </ol>
 
   <p>The 2.4.1 methodology proposes reporting of indicator 2.4.1 through a
@@ -500,18 +505,20 @@ DATA_COMP: >-
   the total national agricultural land area of all agricultural farm holdings in
   the country. In practice, the reported value of Indicator 2.4.1 is determined
   by the results of most-limiting sub-indicator in terms of sustainability
-  performance</p>
+  performance.</p>
 DATA_VALIDATION: >-
   <p>The data undergo comprehensive validation work that cover: detection of
   outliers, transmission errors and data consistency checks. Countries asked to
   examine the disseminated results for their country and either to confirm that
-  they are correct or to provide remarks and / or revise data if they identify
+  they are correct or to provide remarks and/or revise data if they identify
   errors. </p>
 ADJUSTMENT: >-
   <p>Adjustments to total national agricultural area may be made to correct for
   common areas that are out of scope with regards to the indicator
   methodology.</p>
 IMPUTATION: >-
+  <p><strong>&#x2022;</strong> <strong>At country level</strong></p>
+
   <p>Partial non-response at individual level (farm holding) will be imputed
   using appropriate statistical techniques, such as nearest-neighbour
   algorithms. The decision on whether to impute or not and the choice of the
@@ -526,12 +533,22 @@ IMPUTATION: >-
   farm. In this case, the farm will be considered sustainable from the
   perspective of the given sub-indicators.</p>
 
-  <p><strong>&#x2022; At country level</strong></p>
+  <p>At the country level, if and when data are provided using alternative
+  sources for some of the sub-indicators, relevant notes to be provided by the
+  country explaining the type, nature, source and time period of the data
+  reported. </p>
 
-  <p><strong>&#x2022; At regional and global levels</strong></p>
+  <p><strong>&#x2022;</strong> <strong>At regional and global
+  levels</strong></p>
+
+  <p>No treatment of missing values will be carried out at the regional and
+  global level. The regional and global estimates will be constructed using data
+  of countries that have reported all 11 sub-indicators and/or those that have
+  reported a sub-set of the 11 only if some of the sub-indicators are not
+  applicable or irrelevant in the context of those country. </p>
 REG_AGG: >-
   <p>These data will be disseminated through FAOSTAT, the largest database of
-  food and agricultural statistics. Therefore the method of calculation will
+  food and agricultural statistics. Therefore, the method of calculation will
   follow the international standard established by the database. In the case of
   this indicator, regional and global aggregates will be computed by weighting
   the national indicators according to the country&#x2019;s agricultural
@@ -590,16 +607,16 @@ DOC_METHOD: >-
     </math></p>
   <p>where:</p>
 
-  <p>SDG241<sub>d </sub>= proportion of agricultural land area that have
+  <p>SDG241<sub>d</sub>is proportion of agricultural land area that have
   achieved the &#x2018;desirable&#x2019; level</p>
 
-  <p>SI<sub>d n </sub>= proportion of sub-indicator n that is classified as
+  <p>SI<sub>d n </sub>is proportion of sub-indicator n that is classified as
   &#x2018;desirable&#x2019; </p>
 
   <p>min refers to the minimum level of SI<sub>d n</sub> at national level
   across all 11 sub-indicators</p>
 
-  <p>SDG241<sub>d </sub>is the proportion of agricultural area for which all
+  <p>SDG241<sub>d </sub>is proportion of agricultural area for which all
   sub-indicators are green.</p>
 
   <p> </p>
@@ -669,20 +686,20 @@ DOC_METHOD: >-
     </math></p>
   <p>where:</p>
 
-  <p>SDG241<sub>a+d </sub>= proportion of agricultural land area that have
+  <p>SDG241<sub>a+d</sub>is proportion of agricultural land area that have
   achieved at least the &#x2018;acceptable&#x2019; level (estimated by excess,
   see note below)</p>
 
-  <p>SI<sub>d n </sub>= proportion of sub-indicator n that is classified as
+  <p>SI<sub>d n </sub>is proportion of sub-indicator n that is classified as
   &#x2018;desirable&#x2019; </p>
 
-  <p>SI<sub>a n </sub>= proportion of sub-indicator n that is classified as
+  <p>SI<sub>a n </sub>is proportion of sub-indicator n that is classified as
   &#x2018;acceptable&#x2019; </p>
 
   <p>min refers to the minimum level of (SI<sub>d n </sub>+ SI<sub>a n</sub>) at
   national level across all 11 sub-indicators</p>
 
-  <p>SDG241<sub>a+d </sub>is the proportion of agricultural area for which all
+  <p>SDG241<sub>a+d </sub>is proportion of agricultural area for which all
   indicators are either green or yellow, an acceptable situation, but that could
   be improved. </p>
 
@@ -750,22 +767,27 @@ DOC_METHOD: >-
     </math></p>
   <p>where:</p>
 
-  <p>SDG241<sub>u </sub>= proportion estimated by default of agricultural area
+  <p>SDG241<sub>u </sub>is proportion estimated by default of agricultural area
   that is &#x2018;unsustainable&#x2019; (see note below)</p>
 
-  <p>SI<sub>u n </sub>= proportion of sub-indicator n that is classified as
+  <p>SI<sub>u n </sub>is proportion of sub-indicator n that is classified as
   &#x2018;unsustainable&#x2019;</p>
 
   <p>max refers to the highest value of SI<sub>u n</sub> across all 11
   sub-indicators at national level</p>
 
-  <p>SDG241<sub>u </sub>= is the proportion of agricultural area for which at
-  least one sub-indicator is unsustainable, and is therefore classified as
+  <p>SDG241<sub>u </sub>is proportion of agricultural area for which at least
+  one sub-indicator is unsustainable, and is therefore classified as
   unsustainable. </p>
 
   <p>The performances of countries over time can be measured by the change in
   the value of SDG241<sub>d </sub>and SDG241<sub>a+d</sub>. An increase over
   time indicates improvement, while decrease indicates degradation. </p>
+QUALITY_MGMNT: >-
+  <p>Standard quality management of the entire data reporting process and the
+  data itself will be carried out in close coordination with countries to ensure
+  the data reported conforms with the methodology and relevant international
+  standards. </p>
 QUALITY_ASSURE: >-
   <p>FAO will work closely with countries for quality assurance. Not only will
   data collection for SDG 2.4.1 respect international standards, it will also
@@ -779,17 +801,20 @@ QUALITY_ASSMNT: >-
 COVERAGE: >-
   <p><strong>Data availability:</strong></p>
 
-  <p>Many sub-indicators for this indicator are already being collected in
-  countries, either as part of existing farm surveys or through other data
-  sources such as environmental monitoring systems, administrative data or
-  household surveys. Yet they are not collected with a common set of criteria
-  that fulfil the indicator requirements, guarantee the same quality or
-  adherence to international comparability. </p>
+  <p>The indicator is currently in the Tier II category because few countries
+  are able to report it. Data are expected to be collected either as part of
+  existing farm surveys or through other data sources such as environmental
+  monitoring systems, administrative data or household surveys. </p>
+
+  <p>Comprehensive capacity development efforts (using a mix of in person, mass
+  online trainings and bilateral assistance) are underway to build countries
+  capacities. The data will be reported by end of 2022, once the third and final
+  round of the 3 years data collection and reporting cycle is completed</p>
 
   <h2>Time series:</h2>
 
   <p>SDG Indicator 2.4.1 measures progress towards more sustainable and
-  productive agriculture over a three year periodicity because for many
+  productive agriculture over a three-year periodicity because for many
   sub-indicators, it is likely that changes will be relatively limited from a
   year to another. Furthermore, the 3-year periodicity will enable countries to
   have three data points on the indicator before 2030.</p>
@@ -798,7 +823,7 @@ COVERAGE: >-
 
   <p>Indicator 2.4.1 is expected to be collected through farm surveys and the
   result expressed as a national value. However, the methodology is scale
-  independent and can be adopted at any geographical level. In addition the
+  independent and can be adopted at any geographical level. In addition, the
   indicator can be disaggregated according to type of farming system (crop,
   livestock or mixed) and other characteristics of the farm e.g.
   household/non-household sector, irrigated/non-irrigated or gender of the farm
@@ -807,23 +832,23 @@ COMPARABILITY: >-
   <p><strong>Sources of discrepancies:</strong></p>
 
   <p>Given that this is a Tier II indicator, no data currently exists for this
-  indicator. Therefore there are no discrepancies between national and
+  indicator. Therefore, there are no discrepancies between national and
   sub-national data.</p>
 OTHER_DOC: >-
   <ul>
-    <li>FAO. 1988. Report of the FAO Council, 94th Session, 1988. Rome.</li>
-    <li>FAO. 2014. Building a common vision for sustainable food and agriculture: Principles and approaches, FAO Rome.</li>
-    <li>FAO. 2017. Report from the Expert Group Meeting on SDG indicator 2.4.1. April, 2017. </li>
-    <li>FAO, 2018. Land Use Classification. In: SEEA Agriculture, Forestry and Fisheries, Annex I, pg. 120, 130-135. FAO and UNSD, Rome, Italy.</li>
-    <li>FAO. 2018. Report of the 26<sup>th</sup> Committee on Agriculture, 1-5 October 2018.</li>
-    <li>Global Strategy for Improving Agricultural and Rural Statistics. 2017. Handbook on the Agricultural Integrated Survey. </li>
-    <li>FAO 2020: SDG 2.4,1, methodological note. July, 2020.</li>
-    <li>Hayati, D. 2017. Literature Review: A Literature Review on Frameworks and Methods for Measuring and Monitoring Sustainable Agriculture. Technical Report n.22. Global Strategy Technical Report: Rome.</li>
+    <li>FAO. 1988. Report of the FAO Council, 94th Session, 1988. FAO, Rome, Italy.</li>
+    <li>FAO. 2014. Building a common vision for sustainable food and agriculture: Principles and approaches, FAO, Rome, Italy.</li>
+    <li>FAO. 2017. Report from the Expert Group Meeting on SDG indicator 2.4.1. April, 2017. FAO, Rome, Italy.</li>
+    <li>FAO. 2018. Land Use Classification. In: SEEA Agriculture, Forestry and Fisheries, Annex I, pg. 120, 130-135. FAO and UNSD, Rome, Italy..</li>
+    <li>FAO. 2018. Report of the 26<sup>th</sup> Committee on Agriculture, 1-5 October 2018. FAO, Rome, Italy.</li>
+    <li>Global Strategy for Improving Agricultural and Rural Statistics. 2017. Handbook on the Agricultural Integrated Survey. FAO, Rome, Italy.</li>
+    <li>FAO. 2020. SDG 2.4,1, methodological note. July, 2020. FAO, Rome, Italy.</li>
+    <li>Hayati, D. 2017. Literature Review: A Literature Review on Frameworks and Methods for Measuring and Monitoring Sustainable Agriculture. Technical Report n.22. Global Strategy Technical Report. FAO, Rome, Italy..</li>
   </ul>
 
   <p>Annex: description of the sub-indicators</p>
 
-  <h3>1. Farm output value per hectare</h3>
+  <h3><strong>1. Farm output value per hectare</strong></h3>
 
   <p><strong>Dimension: </strong>Economic<strong> </strong></p>
 
@@ -850,13 +875,13 @@ OTHER_DOC: >-
 
   <ul>
     <li>Farm output value: The volume of agricultural output at farm level generally takes into account production of multiple outputs, e.g. crop types and crop and livestock combinations, etc. Since the volume of agricultural outputs is not measured in commensurate units (e.g. not all outputs are measured in tonnes, and tonnes of different output represent different products), it is necessary to establish an appropriate means of aggregation, in this case using a monetary unit. A simple way to enable aggregation is to reflect the multiple outputs produced by a single farm in terms of values (i.e. quantity multiplied by prices).</li>
-    <li>Farm agricultural land area: defined as the area of land used for agriculture within the farm<sup><a href="#footnote-4" id="footnote-ref-4">[2]</a></sup>. </li>
+    <li>Farm agricultural land area: defined as the area of land used for agriculture within the farm<sup><a href="#footnote-3" id="footnote-ref-3">[2]</a></sup>. </li>
   </ul>
 
   <p><strong>Sustainability criteria: </strong></p>
 
   <p>Distance from the 90<sup>th</sup> percentile of the national
-  distribution<sup><a href="#footnote-5" id="footnote-ref-5">[3]</a></sup>:</p>
+  distribution<sup><a href="#footnote-4" id="footnote-ref-4">[3]</a></sup>:</p>
 
   <ul>
     <li>Green (desirable): Sub-indicator value is &#x2265; 2/3 of the corresponding 90<sup>th</sup> percentile </li>
@@ -864,7 +889,7 @@ OTHER_DOC: >-
     <li>Red (unsustainable): Sub-indicator value is &lt; 1/3 of the corresponding 90<sup>th</sup> percentile</li>
   </ul>
 
-  <p><strong>Data items</strong></p>
+  <p><strong>Data items:</strong></p>
 
   <p>Reference period: last calendar year</p>
 
@@ -878,7 +903,7 @@ OTHER_DOC: >-
     </li>
   </ul>
 
-  <h3>2. Net Farm Income</h3>
+  <h3><strong>2. Net Farm Income:</strong></h3>
 
   <p><strong>Dimension:</strong> Economic<strong> </strong></p>
 
@@ -904,7 +929,7 @@ OTHER_DOC: >-
   may include other sources of income such as, for example, employment in local
   businesses by other family members, tourism activity, etc.</p>
 
-  <p>Formula<sup><a href="#footnote-6" id="footnote-ref-6">[4]</a></sup>:</p>
+  <p>Formula<sup><a href="#footnote-5" id="footnote-ref-5">[4]</a></sup>:</p>
 
   <p><math xmlns="http://www.w3.org/1998/Math/MathML">
       <mi>N</mi>
@@ -951,7 +976,7 @@ OTHER_DOC: >-
 
   <ul>
     <li>Net farm income refers to the return (both monetary and non-monetary) to farm operators for their labor, management and capital, after all production expenses have been paid (that is, gross farm income minus production expenses). It includes net income from farm production, the value of commodities consumed on the farm, depreciation, and inventory changes.</li>
-    <li>Gross farm income refers to the monetary and non-monetary income received by farm. Its main components include cash receipts from the sale of farm products, direct program payments to producers, other farm income (such as income from custom work), value of food and fuel produced and consumed on the same farm, and change in value of year-end inventories of crops and livestock<sup><a href="#footnote-7" id="footnote-ref-7">[5]</a></sup>.</li>
+    <li>Gross farm income refers to the monetary and non-monetary income received by farm. Its main components include cash receipts from the sale of farm products, direct program payments to producers, other farm income (such as income from custom work), value of food and fuel produced and consumed on the same farm, and change in value of year-end inventories of crops and livestock<sup><a href="#footnote-6" id="footnote-ref-6">[5]</a></sup>.</li>
     <li>Farm cash receipts include revenues from the sale of agricultural commodities in local currency units that include sales of crops, livestock and its by-products.</li>
     <li>Direct program payments to producers included in farm cash receipts represent the amounts paid under various government and private programs to individuals involved in agricultural production. The payments related to current agricultural production include subsidies to encourage production or to compensate producers for low market returns, payments to stabilize incomes and payments to compensate producers for crop or livestock losses caused by extreme climatic conditions, disease or other reasons and insurance payments.</li>
     <li>Income-in-kind measures the value of the agricultural goods produced on farms and consumed by farm operator families. It is included to measure total farm production. </li>
@@ -988,18 +1013,18 @@ OTHER_DOC: >-
     <li>Red (unsustainable): below zero for all of the past 3 consecutive years</li>
   </ul>
 
-  <p><strong>Data items</strong></p>
+  <p><strong>Data items:</strong></p>
 
   <p>Reference period: last three calendar years</p>
 
-  <p><strong><em>Recommended option</em></strong></p>
+  <p><strong><em>Recommended option:</em></strong></p>
 
   <p>Data from farm financial records, i.e. daily, weekly, monthly or seasonal
   transactions are collected in an organized way (in general, large commercial
   farms maintain detailed financial records on the basis of which the NFI can be
   calculated as per above equation). </p>
 
-  <p><strong><em>Simplified option (1)</em></strong></p>
+  <p><strong><em>Simplified option (1):</em></strong></p>
 
   <p>To be used when the detailed data are not available at farm level (better
   adapted to smallholders and household sector). </p>
@@ -1017,7 +1042,7 @@ OTHER_DOC: >-
     </li>
   </ul>
 
-  <p><strong><em>Simplified option (2)</em></strong></p>
+  <p><strong><em>Simplified option (2):</em></strong></p>
 
   <ul>
     <li>
@@ -1027,7 +1052,7 @@ OTHER_DOC: >-
     </li>
   </ul>
 
-  <h3>3. Risk mitigation mechanisms</h3>
+  <h3><strong>3. Risk mitigation mechanisms</strong></h3>
 
   <p><strong>Dimension: </strong>Economic<strong> </strong></p>
 
@@ -1047,7 +1072,7 @@ OTHER_DOC: >-
   mechanisms: </p>
 
   <ul>
-    <li>Access to or availed credit<sup><a href="#footnote-8" id="footnote-ref-8">[6]</a></sup></li>
+    <li>Access to or availed credit<sup><a href="#footnote-7" id="footnote-ref-7">[6]</a></sup></li>
     <li>Access to or availed insurance</li>
     <li>On farm diversification (share of a single agricultural commodity not greater than 66% in the total value of production of the holding)</li>
   </ul>
@@ -1070,9 +1095,7 @@ OTHER_DOC: >-
     <li>Red (unsustainable): No access to the listed mitigation mechanisms. </li>
   </ul>
 
-  <p>**************</p>
-
-  <p><strong>Data items</strong></p>
+  <p><strong>Data items:</strong></p>
 
   <p>Reference period: last calendar year</p>
 
@@ -1088,7 +1111,7 @@ OTHER_DOC: >-
 
   <p>3.3 Value of output for the listed on-farm activities/commodities</p>
 
-  <h3>4. Prevalence of soil degradation</h3>
+  <h3><strong>4. Prevalence of soil degradation</strong></h3>
 
   <p><strong>Dimension: </strong>Environmental<strong> </strong></p>
 
@@ -1156,9 +1179,7 @@ OTHER_DOC: >-
     <li>Red (unsustainable): The combined area affected by any of the four selected threats to soil health is above 50% of the total agriculture area of the farm.</li>
   </ul>
 
-  <p>**************</p>
-
-  <p><strong>Data items</strong></p>
+  <p><strong>Data items:</strong></p>
 
   <p>Reference period: last three calendar years</p>
 
@@ -1168,7 +1189,7 @@ OTHER_DOC: >-
     <li>
       <ul>
         <li>Soil erosion (loss of topsoil through wind or water erosion)</li>
-        <li>Reduction in soil fertility<sup><a href="#footnote-9" id="footnote-ref-9">[7]</a></sup></li>
+        <li>Reduction in soil fertility<sup><a href="#footnote-8" id="footnote-ref-8">[7]</a></sup></li>
         <li>Salinization of irrigated land</li>
         <li>Waterlogging</li>
         <li>Other &#x2013; Specify</li>
@@ -1180,19 +1201,19 @@ OTHER_DOC: >-
   <p>4.2 Total area of the holding affected by threats related to soil
   degradation</p>
 
-  <h3>5. Variation in water availability</h3>
+  <h3><strong>5. Variation in water availability</strong></h3>
 
-  <p>Dimension: Environmental </p>
+  <p><strong>Dimension:</strong> Environmental </p>
 
-  <p>Theme: Water use</p>
+  <p><strong>Theme:</strong> Water use</p>
 
   <p>Agriculture, more specifically irrigated agriculture, is by far the main
   economic sector using freshwater resources. In many places, water withdrawal
   from rivers and groundwater aquifers is beyond what can be considered
   environmentally sustainable. This affects both rivers and underground
   aquifers. Sustainable agriculture therefore requires that that level of use of
-  freshwater for irrigation remains within acceptable boundaries. While there is
-  no internationally agreed standards of water use sustainability, signals
+  freshwater for irrigation remains within acceptable boundaries. While there
+  are no internationally agreed standards of water use sustainability, signals
   associated with unsustainable use of water typically include progressive
   reduction in the level of groundwater, drying out of springs and rivers,
   increased conflicts among water users. </p>
@@ -1238,7 +1259,7 @@ OTHER_DOC: >-
     <li>Red (unsustainable): in all other cases. </li>
   </ul>
 
-  <p><strong>Data items</strong></p>
+  <p><strong>Data items:</strong></p>
 
   <p>Reference period: last three calendar years</p>
 
@@ -1248,7 +1269,7 @@ OTHER_DOC: >-
 
   <p>5.3 Existence of organizations dealing with water allocation </p>
 
-  <h3>6. Management of fertilizers</h3>
+  <h3><strong>6. Management of fertilizers</strong></h3>
 
   <p><strong>Dimension: </strong>Environmental<strong> </strong></p>
 
@@ -1276,7 +1297,7 @@ OTHER_DOC: >-
   fertilizer, in particular mineral or synthetic fertilizers and animal manure,
   their awareness about the environmental risks associated with fertilizer and
   manure applications, and their behaviour in terms of plant nutrient
-  management<sup><a href="#footnote-10" id="footnote-ref-10">[8]</a></sup>.
+  management<sup><a href="#footnote-9" id="footnote-ref-9">[8]</a></sup>.
   Management measures considered to help reducing risk is as follows: </p>
 
   <ol>
@@ -1284,26 +1305,24 @@ OTHER_DOC: >-
     <li>Use organic source of nutrients (including manure or composting residues) alone, or in combination with synthetic or mineral fertilizers </li>
     <li>Use legumes as a cover crop, or component of a multi/crop or pasture system to reduce fertilizer inputs</li>
     <li>Distribute synthetic or mineral fertilizer application over the growing period</li>
-    <li>Consider soil type and climate<sup><a href="#footnote-11" id="footnote-ref-11">[9]</a></sup> in deciding fertilizer application doses and frequencies</li>
+    <li>Consider soil type and climate<sup><a href="#footnote-10" id="footnote-ref-10">[9]</a></sup> in deciding fertilizer application doses and frequencies</li>
     <li>Use soil sampling at least every 5 years to perform nutrient budget calculations </li>
-    <li>Perform site-specific nutrient management or precision farming<sup><a href="#footnote-12" id="footnote-ref-12">[10]</a></sup></li>
+    <li>Perform site-specific nutrient management or precision farming<sup><a href="#footnote-11" id="footnote-ref-11">[10]</a></sup></li>
     <li>Use buffer strips along water courses.</li>
   </ol>
 
-  <p>Sustainability criteria: </p>
+  <p><strong>Sustainability criteria: </strong></p>
 
   <p>Farm sustainability in relation with fertilizer pollution risk will be
   assessed as follows: </p>
 
   <ul>
-    <li>Green (desirable): The farm takes specific measures to mitigate environmental risks (at least four from the list above). Default result for farms not using fertilizers<sup><a href="#footnote-13" id="footnote-ref-13">[11]</a></sup>. </li>
+    <li>Green (desirable): The farm takes specific measures to mitigate environmental risks (at least four from the list above). Default result for farms not using fertilizers<sup><a href="#footnote-12" id="footnote-ref-12">[11]</a></sup>. </li>
     <li>Yellow (acceptable): The farm uses fertilizers and takes at least two measures from the above list to mitigate environmental risks</li>
     <li>Red (unsustainable): The farm uses fertilizer and does not take any of the above specific measures to mitigate environmental risks associated with their use. </li>
   </ul>
 
-  <p>**************</p>
-
-  <p><strong>Data items</strong></p>
+  <p><strong>Data items:</strong></p>
 
   <p>Reference period: last calendar year</p>
 
@@ -1338,7 +1357,7 @@ OTHER_DOC: >-
 
   <p>&#x20DD; 8 Use buffer strips along water courses.</p>
 
-  <h3>7. Management of pesticides</h3>
+  <h3><strong>7. Management of pesticides</strong></h3>
 
   <p><strong>Dimension: </strong>Environmental<strong> </strong></p>
 
@@ -1347,7 +1366,7 @@ OTHER_DOC: >-
   <p>Pesticides are important inputs in modern agriculture (crop and livestock),
   but if not well managed they can cause harm to people&#x2019;s health or to
   the environment. Practices associated with integrated pest management
-  (IPM<sup><a href="#footnote-14" id="footnote-ref-14">[12]</a></sup>) exist
+  (IPM<sup><a href="#footnote-13" id="footnote-ref-13">[12]</a></sup>) exist
   that contribute to minimise risks associated with the use of pesticides and
   limit their impact on human health and on the environment. The International
   Code of Conduct on Pesticide Management defines best practice in pesticide
@@ -1359,13 +1378,13 @@ OTHER_DOC: >-
 
   <p>The proposed sub-indicator is based on information on the use of pesticides
   on the farms, the type of pesticide used and the type of measure(s) taken to
-  mitigate the associated risks<sup><a href="#footnote-15"
-  id="footnote-ref-15">[13]</a></sup>. It considers the possibility that the
+  mitigate the associated risks<sup><a href="#footnote-14"
+  id="footnote-ref-14">[13]</a></sup>. It considers the possibility that the
   holding uses pesticides in the framework of an Integrated Pest Management
   (IPM) program, or adopts specific measures to help reducing risks associated
   with pesticide use. List of possible measures:</p>
 
-  <p>Health</p>
+  <p>Health:</p>
 
   <ol>
     <li>Adherence to label directions for pesticide use (including use of protection equipment while applying pesticides)</li>
@@ -1373,11 +1392,11 @@ OTHER_DOC: >-
     <li>Safe disposal of waste (cartons, bottles and bags)</li>
   </ol>
 
-  <p>Environment</p>
+  <p>Environment:</p>
 
   <ol>
     <li>Adherence to label directions for pesticide application</li>
-    <li>Adopt any of the these good practices: adjust planting time, apply crop spacing, crop rotation, mixed cropping or inter-cropping </li>
+    <li>Adopt any of these good practices: adjust planting time, apply crop spacing, crop rotation, mixed cropping or inter-cropping </li>
     <li>Perform biological pest control or use biopesticides</li>
     <li>Adopt pasture rotation to suppress livestock pest population </li>
     <li>Systematic removal of plant parts attacked by pests</li>
@@ -1385,18 +1404,18 @@ OTHER_DOC: >-
     <li>Use one pesticide no more than two times or in mixture in a season to avoid pesticide resistance</li>
   </ol>
 
-  <p>Sustainability criteria: </p>
+  <p><strong>Sustainability criteria: </strong></p>
 
   <p>Farm sustainability in relation with pesticides will be assessed as
   follows: </p>
 
   <ul>
-    <li>Green (desirable): The farm uses only moderately or slightly hazardous<sup><a href="#footnote-16" id="footnote-ref-16">[14]</a></sup> pesticides (WHO Class II or III). In this case, it adheres to all three health-related measures and at least four of the environment-related measures. Default result for farms not using pesticides.</li>
+    <li>Green (desirable): The farm uses only moderately or slightly hazardous<sup><a href="#footnote-15" id="footnote-ref-15">[14]</a></sup> pesticides (WHO Class II or III). In this case, it adheres to all three health-related measures and at least four of the environment-related measures. Default result for farms not using pesticides.</li>
     <li>Yellow (acceptable): The farm uses only moderately or slightly hazardous pesticides (WHO Class II or III) and takes some measures to mitigate environmental and health risks (at least two from each of the lists above)</li>
-    <li>Red (unsustainable): The farm uses highly or extremely hazardous pesticides (WHO Class Ia or Ib), illegal pesticides<sup><a href="#footnote-17" id="footnote-ref-17">[15]</a></sup>, or uses moderately or slightly hazardous pesticides without taking specific measures to mitigate environmental or health risks associated with their use (fewer than two from each of the lists above). </li>
+    <li>Red (unsustainable): The farm uses highly or extremely hazardous pesticides (WHO Class Ia or Ib), illegal pesticides<sup><a href="#footnote-16" id="footnote-ref-16">[15]</a></sup>, or uses moderately or slightly hazardous pesticides without taking specific measures to mitigate environmental or health risks associated with their use (fewer than two from each of the lists above). </li>
   </ul>
 
-  <p><strong>Data items</strong></p>
+  <p><strong>Data items:</strong></p>
 
   <p>Reference period: last calendar year</p>
 
@@ -1433,7 +1452,7 @@ OTHER_DOC: >-
     <li>Use one pesticide no more than two times or in mixture in a season to avoid pesticide resistance (Y/N)</li>
   </ol>
 
-  <h3>8. Use of agro-biodiversity-supportive practices</h3>
+  <h3><strong>8. Use of agro-biodiversity-supportive practices</strong></h3>
 
   <p><strong>Dimension: </strong>Environmental<strong> </strong></p>
 
@@ -1484,7 +1503,7 @@ OTHER_DOC: >-
     <li>Farm does not use medically important antimicrobials as growth promoters.</li>
     <li>At least two of the following contribute to farm production: 1) temporary crops, 2) pasture, 3) permanent crops, 4) trees on farm, 5) livestock or animal products, and 6) aquaculture.</li>
     <li>Practices crop or crop/pasture rotation involving at least 2 crops or crops and pastures on at least 80% of the farm agriculture area (excluding permanent crops and permanent pastures) over a period of 3 years. In case of a 2-crop rotation, the 2 crops have to be from different plant genus, e.g. a grass plus a legume, or a grass plus a tuber etc.<strong> </strong></li>
-    <li>Livestock includes locally adapted breeds.</li>
+    <li>Livestock includes locally adapted breeds<sup><a href="#footnote-17" id="footnote-ref-17">[16]</a></sup>.</li>
   </ol>
 
   <p><strong>Sustainability status:</strong></p>
@@ -1520,7 +1539,7 @@ OTHER_DOC: >-
     </li>
   </ul>
 
-  <p><strong>Data items</strong></p>
+  <p><strong>Data items:</strong></p>
 
   <p>Reference period: last calendar year</p>
 
@@ -1568,13 +1587,13 @@ OTHER_DOC: >-
   <p>8.11 List of different breeds and cross-breed and percentage of animals
   they represent for each animal species</p>
 
-  <h3>9. Wage rate in agriculture</h3>
+  <h3><strong>9. Wage rate in agriculture</strong></h3>
 
   <p><strong>Dimension: </strong>Social </p>
 
   <p><strong>Theme: </strong>Decent employment</p>
 
-  <p>The theme provide information on the remuneration of employees working for
+  <p>The theme provides information on the remuneration of employees working for
   the farm and belonging to the elementary occupation group, as defined by the
   International Standard Classification of Occupation (ISCO-08 - code 92). It
   informs about economic risks faced by unskilled workers (those performing
@@ -1707,7 +1726,7 @@ OTHER_DOC: >-
   <p>Where compensation is both monetary and in kind payments expressed in Local
   Currency Units (LCU)</p>
 
-  <p><strong>Sustainability criteria</strong>: </p>
+  <p><strong>Sustainability criteria: </strong></p>
 
   <p>Unskilled labour wage rate in relation to national or agriculture sector
   minimum wage rate. In case there is no national or agriculture sector minimum
@@ -1719,7 +1738,7 @@ OTHER_DOC: >-
     <li>Red (unsustainable): if the wage rate paid to unskilled labour is below the minimum national wage rate or minimum agricultural sector wage rate (if available). </li>
   </ul>
 
-  <p><strong>Data items</strong></p>
+  <p><strong>Data items:</strong></p>
 
   <p>Reference period: last calendar year</p>
 
@@ -1731,7 +1750,7 @@ OTHER_DOC: >-
   <p>9.3 Minimum agricultural sector wage rate (if available) or minimum
   national wage rate </p>
 
-  <h3>10. Food Insecurity Experience Scale (FIES)</h3>
+  <h3><strong>10. Food Insecurity Experience Scale (FIES)</strong></h3>
 
   <p><strong>Dimension: </strong>Social </p>
 
@@ -1773,12 +1792,12 @@ OTHER_DOC: >-
   <p><strong>Sustainability criteria: </strong>Level on FIES scale</p>
 
   <ul>
-    <li>Green (desirable): Mild food insecurity<sup><a href="#footnote-18" id="footnote-ref-18">[16]</a></sup> </li>
-    <li>Yellow (acceptable)<sup><a href="#footnote-19" id="footnote-ref-19">[17]</a></sup>: Moderate food insecurity </li>
+    <li>Green (desirable): Mild food insecurity<sup><a href="#footnote-18" id="footnote-ref-18">[17]</a></sup> </li>
+    <li>Yellow (acceptable)<sup><a href="#footnote-19" id="footnote-ref-19">[18]</a></sup>: Moderate food insecurity </li>
     <li>Red (unsustainable): Severe food insecurity </li>
   </ul>
 
-  <p><strong>Data items</strong></p>
+  <p><strong>Data items:</strong></p>
 
   <p>Reference period: last 12 months</p>
 
@@ -1813,7 +1832,7 @@ OTHER_DOC: >-
   household) did not eat for a whole day because of a lack of money or other
   resources</p>
 
-  <h3>11. Secure tenure rights to land</h3>
+  <h3><strong>11. Secure tenure rights to land</strong></h3>
 
   <p><strong>Dimension: </strong>Social </p>
 
@@ -1864,7 +1883,7 @@ OTHER_DOC: >-
     <li>Red (unsustainable): no positive responses to any of the 4 questions above</li>
   </ul>
 
-  <p><strong>Data items</strong></p>
+  <p><strong>Data items:</strong></p>
 
   <p>Reference period: last calendar year</p>
 
@@ -1895,74 +1914,85 @@ OTHER_DOC: >-
 
   <p>11.4 The right of the holder/holding to bequeath any of the parcel of the
   holding</p><div class="footnotes"><div><sup class="footnote-number"
-  id="footnote-4">2</sup><p> According to the SEEA-AFF classification and the
+  id="footnote-3">2</sup><p> According to the SEEA-AFF classification and the
   classification of the World Agricultural Census 2020 <a
-  href="#footnote-ref-4">&#x2191;</a></p></div><div><sup class="footnote-number"
-  id="footnote-5">3</sup><p> The 90<sup>th</sup> percentile and respective 1/3
+  href="#footnote-ref-3">&#x2191;</a></p></div><div><sup class="footnote-number"
+  id="footnote-4">3</sup><p> The 90<sup>th</sup> percentile and respective 1/3
   and 2/3 thresholds for productivity are calculated by major production system
   (crops, livestock, or a mix of crops and livestock or if possible by major
   agricultural areas of the country). Thereafter the individual farm
   productivity is estimated and compared with thresholds derived from the
   productivities of similar farms. <a
-  href="#footnote-ref-5">&#x2191;</a></p></div><div><sup class="footnote-number"
-  id="footnote-6">4</sup><p> See Statistics Canada at:
+  href="#footnote-ref-4">&#x2191;</a></p></div><div><sup class="footnote-number"
+  id="footnote-5">4</sup><p> See Statistics Canada at:
   http://www.statcan.gc.ca/pub/21-010-x/21-010-x2014001-eng.pdf <a
-  href="#footnote-ref-6">&#x2191;</a></p></div><div><sup class="footnote-number"
-  id="footnote-7">5</sup><p> Rental value of farm dwellings is not considered as
-  part of farm income. <a href="#footnote-ref-7">&#x2191;</a></p></div><div><sup
-  class="footnote-number" id="footnote-8">6</sup><p> Include cash loans and
+  href="#footnote-ref-5">&#x2191;</a></p></div><div><sup class="footnote-number"
+  id="footnote-6">5</sup><p> Rental value of farm dwellings is not considered as
+  part of farm income. <a href="#footnote-ref-6">&#x2191;</a></p></div><div><sup
+  class="footnote-number" id="footnote-7">6</sup><p> Include cash loans and
   in-kind loans (e.g., seeds provided by another farmer and repaid with a share
   of the harvest, seeds, etc.) only for agriculture related investments. <a
-  href="#footnote-ref-8">&#x2191;</a></p></div><div><sup class="footnote-number"
-  id="footnote-9">7</sup><p> Reduction in soil fertility will be experienced by
+  href="#footnote-ref-7">&#x2191;</a></p></div><div><sup class="footnote-number"
+  id="footnote-8">7</sup><p> Reduction in soil fertility will be experienced by
   farmers as progressive reduction in yield and will be the result of a negative
   nutrient balance by which the amount of nutrient application (including
   through mineral and organic fertilizers, legumes, or green manure) is lower
   than the amount that is lost and exported by crops. <a
-  href="#footnote-ref-9">&#x2191;</a></p></div><div><sup class="footnote-number"
-  id="footnote-10">8</sup><p> In order to keep the questionnaire manageable, the
+  href="#footnote-ref-8">&#x2191;</a></p></div><div><sup class="footnote-number"
+  id="footnote-9">8</sup><p> In order to keep the questionnaire manageable, the
   module does not consider different type of crop or practice. The method
   therefore assumes that if a farmer reports best practices, these practices are
   applied over the entire farm. It may therefore over-estimate the area under
-  good practices. <a href="#footnote-ref-10">&#x2191;</a></p></div><div><sup
-  class="footnote-number" id="footnote-11">9</sup><p> Soil type, combined with
+  good practices. <a href="#footnote-ref-9">&#x2191;</a></p></div><div><sup
+  class="footnote-number" id="footnote-10">9</sup><p> Soil type, combined with
   climate, and in particular the frequency and intensity of rainfall events, are
   important elements to consider in deciding fertilizer application doses and
-  frequencies. <a href="#footnote-ref-11">&#x2191;</a></p></div><div><sup
-  class="footnote-number" id="footnote-12">10</sup><p> Precision farming is a
+  frequencies. <a href="#footnote-ref-10">&#x2191;</a></p></div><div><sup
+  class="footnote-number" id="footnote-11">10</sup><p> Precision farming is a
   farming management concept based on observing, measuring and responding to
   inter and intra-field variability in crops. <a
-  href="#footnote-ref-12">&#x2191;</a></p></div><div><sup
-  class="footnote-number" id="footnote-13">11</sup><p> Fertilizers to be
+  href="#footnote-ref-11">&#x2191;</a></p></div><div><sup
+  class="footnote-number" id="footnote-12">11</sup><p> Fertilizers to be
   considered include mineral and synthetic fertilizers as well as animal manure.
-  <a href="#footnote-ref-13">&#x2191;</a></p></div><div><sup
-  class="footnote-number" id="footnote-14">12</sup><p> Integrated Pest
+  <a href="#footnote-ref-12">&#x2191;</a></p></div><div><sup
+  class="footnote-number" id="footnote-13">12</sup><p> Integrated Pest
   Management (IPM) is an ecosystem approach to crop production and protection
   that combines different management strategies and practices to grow healthy
   crops and minimize the use of pesticides (FAO). <a
-  href="#footnote-ref-14">&#x2191;</a></p></div><div><sup
-  class="footnote-number" id="footnote-15">13</sup><p> In order to keep the
+  href="#footnote-ref-13">&#x2191;</a></p></div><div><sup
+  class="footnote-number" id="footnote-14">13</sup><p> In order to keep the
   questionnaire manageable, the module does not consider different types of crop
   or livestock. The method therefore assumes that if a farmer reports best
   practices, these practices are applied over the entire farm. It may therefore
   over-estimate the area under good practices. <a
-  href="#footnote-ref-15">&#x2191;</a></p></div><div><sup
-  class="footnote-number" id="footnote-16">14</sup><p> WHO Class II or III
+  href="#footnote-ref-14">&#x2191;</a></p></div><div><sup
+  class="footnote-number" id="footnote-15">14</sup><p> WHO Class II or III
   pesticides as defined by WHO classification
-  (http://www.who.int/ipcs/publications/pesticides_hazard_2009.pdf), or
-  equivalent national classification. <a
-  href="#footnote-ref-16">&#x2191;</a></p></div><div><sup
-  class="footnote-number" id="footnote-17">15</sup><p> In principle, illegal
+  (https://www.who.int/publications/i/item/9789240005662or equivalent national
+  classification. <a href="#footnote-ref-15">&#x2191;</a></p></div><div><sup
+  class="footnote-number" id="footnote-16">15</sup><p> In principle, illegal
   pesticides refer to any products which do not comply with national regulations
   on pesticide management, such as un-registered, mislabeled, illegally imported
   etc. It does not cover &quot;off-label uses,&quot; which could be considered
   as an illegal use action. <a
+  href="#footnote-ref-16">&#x2191;</a></p></div><div><sup
+  class="footnote-number" id="footnote-17">16</sup><p> Breeds which have been in
+  the country for a sufficient time to be genetically adapted to one or more of
+  traditional production systems or environments in the country. The phrase
+  &#x201C;sufficient time&#x201D; refers to time present in one or more of the
+  country&#x2019;s traditional production systems or environments. Taking
+  cultural, social and genetic aspects into account, a period of 40 years and
+  six generations of the respective species might be considered as a guiding
+  value for &#x201C;sufficient time&#x201D;, subject to specific national
+  circumstances (definition of locally adapted breeds adopted by the Fourteenth
+  Regular Session (April 2013) of the FAO Commission on Genetic Resources for
+  Food and Agriculture). <a
   href="#footnote-ref-17">&#x2191;</a></p></div><div><sup
-  class="footnote-number" id="footnote-18">16</sup><p> Computation of food
+  class="footnote-number" id="footnote-18">17</sup><p> Computation of food
   insecurity level is described in detail in e-learning course on SDG 2.1.2: <a
   href="http://www.fao.org/elearning/#/elc/en/course/SDG212">http://www.fao.org/elearning/#/elc/en/course/SDG212</a>
   <a href="#footnote-ref-18">&#x2191;</a></p></div><div><sup
-  class="footnote-number" id="footnote-19">17</sup><p> <u>The terminology
+  class="footnote-number" id="footnote-19">18</sup><p> <u>The terminology
   &#x201C;Acceptable&#x201D; must be read within the context of SDG 2.4.1; it
   should be interpreted as a situation that nevertheless merits attention and
   actions aimed at improvement.</u> <a

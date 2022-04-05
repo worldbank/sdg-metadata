@@ -5,16 +5,16 @@ SDG_TARGET: >-
   <p>Target 14.b: Provide access for small-scale artisanal fishers to marine
   resources and markets</p>
 SDG_INDICATOR: >-
-  <p>Indicator 14.b.1: Degree of application of a legal/regulatory/
-  policy/institutional framework which recognizes and protects access rights for
-  small-scale fisheries</p>
-SDG_SERIES_DESCR: <p>Metadata applies to complete series under this indicator. </p>
-META_LAST_UPDATE: <p>2021-02-01</p>
+  <p>Indicator 14.b.1: Degree of application of a
+  legal/regulatory/policy/institutional framework which recognizes and protects
+  access rights for small&#x2010;scale fisheries</p>
+SDG_SERIES_DESCR: <p>Not applicable</p>
+META_LAST_UPDATE: '2022-03-31'
 SDG_RELATED_INDICATORS: >-
   <p>Linkages with any other Goals and Targets: SDG 1, SDG 2 (in particular
   2.3), SDG 5, SDG 12, SDG 13, SDG 14.2/4/5/6/7</p>
-SDG_CUSTODIAN_AGENCIES: <p>Food and Agriculture Organization of the United Nations</p>
-CONTACT_ORGANISATION: <p>Food and Agriculture Organization of the United Nations</p>
+SDG_CUSTODIAN_AGENCIES: <p>Food and Agriculture Organization of the United Nations (FAO)</p>
+CONTACT_ORGANISATION: <p>Food and Agriculture Organization of the United Nations (FAO)</p>
 STAT_CONC_DEF: >-
   <p><strong>Definition:</strong></p>
 
@@ -36,43 +36,70 @@ UNIT_MEASURE: >-
     <tbody>
       <tr>
         <td>
+          <p>Score</p>
+        </td>
+        <td>
+          <p>Bands</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>&gt;0 &#x2013;&lt; 0.2</p>
+        </td>
+        <td>
           <p>Band 1: Very low implementation of instruments for access to resources and markets for small-scale fisheries</p>
         </td>
       </tr>
       <tr>
+        <td>
+          <p>0.2 &#x2013;&lt; 0.4</p>
+        </td>
         <td>
           <p>Band 2: Low implementation of instruments for access to resources and markets for small-scale fisheries</p>
         </td>
       </tr>
       <tr>
         <td>
+          <p>0.4 &#x2013;&lt; 0.6</p>
+        </td>
+        <td>
           <p>Band 3: Medium implementation of instruments for access to resources and markets for small-scale fisheries</p>
         </td>
       </tr>
       <tr>
+        <td>
+          <p>0.6 &#x2013;&lt; 0.8</p>
+        </td>
         <td>
           <p>Band 4: High implementation of instruments for access to resources and markets for small-scale fisheries</p>
         </td>
       </tr>
       <tr>
         <td>
+          <p>0.8 &#x2013; 1.0</p>
+        </td>
+        <td>
           <p>Band 5: Very high implementation of instruments for access to resources and markets for small-scale fisheries</p>
         </td>
       </tr>
     </tbody>
   </table>
+
+  <p>See more details for the determination of the bands under 4.a., for the
+  computation of the sub-indicators under 4.c. and the Annex for the full
+  original questions informing the sub-indicators. </p>
 CLASS_SYSTEM: >-
   <p>No applicable international standards for measuring degree of
   implementation of frameworks which recognize and protect access rights for
   small-scale fisheries.</p>
 SOURCE_TYPE: >-
-  <p>Data is based on the replies to three questions of the CCRF questionnaire.
-  It is usually provided from administrative sources, as best identified by the
-  national fisheries administration responsible for replying to the CCRF
-  questionnaire. The data is based on the presence of relevant laws,
-  regulations, policies, plans or strategies and how these have been implemented
-  so both legislative, management, and other documentation must be consulted to
-  respond to the queries.</p>
+  <p>Data are based on the replies to three questions of the CCRF questionnaire
+  (see Annex). It is usually provided from administrative sources, as best
+  identified by the national fisheries administration responsible for replying
+  to the CCRF questionnaire. The data are based on the presence of relevant
+  laws, regulations, policies, plans or strategies and how these have been
+  implemented so both legislative, management, and other documentation must be
+  consulted to respond to the queries.</p>
 COLL_METHOD: >-
   <p>The CCRF questionnaire is a web-based system, with related data processing
   tools and usability features. Data is collected from FAO member countries
@@ -88,14 +115,14 @@ FREQ_COLL: >-
   Fisheries and remain open for a 2-3 month period, alterations of this calendar
   are subject to changes in the timing of the Committee on Fisheries.</p>
 REL_CAL_POLICY: >-
-  <p> Data for the indicator is expected to be released one week after closure
+  <p>Data for the indicator are expected to be released one week after closure
   of the questionnaire.</p>
 DATA_SOURCE: >-
-  <p>Data is typically provided by the National Fishery
+  <p>Data are typically provided by the National Fishery
   Ministries/departments.</p>
-COMPILING_ORG: <p>FAO</p>
+COMPILING_ORG: <p>Food and Agriculture Organization of the United Nations (FAO)</p>
 INST_MANDATE: >-
-  <p> Article I of the FAO constitution requires that the Organization collect,
+  <p>Article I of the FAO constitution requires that the Organization collect,
   analyses, interpret and disseminate information relating to nutrition, food
   and agriculture http://www.fao.org/3/K8024E/K8024E.pdf.</p>
 RATIONALE: >-
@@ -485,8 +512,9 @@ DATA_COMP: >-
   &#x2018;unknown&#x2019; responses are scored as a &#x2018;no&#x2019;, or zero.
   A response of yes results in a score that corresponds with the full weighting
   value for that variable category. For example, a &#x2018;yes&#x2019; response
-  for variables 1.3, 2.1 and 3.1 are scored as 0.1, 0.03 and 0.3
-  respectively.</p>
+  for variables 1.3, 2.1 and 3.1 are scored as 0.1, 0.03 and 0.3 respectively.
+  All &#x2018;no&#x2019;, &#x2018;blank&#x2019; or &#x2018;unknown&#x2019;
+  responses are scored as zero.</p>
 
   <p>One exception is made in the case of sub-variable 1.5. This question allows
   a response of &#x2018;other&#x2019; with an associated text field. A positive
@@ -513,7 +541,9 @@ IMPUTATION: >-
   consultation and judgement rather than the use of mathematical formula for
   data imputation. The use of expert judgement is a critical factor as the
   indicator asses the state of management/ policy implementation at a national
-  level, not values that could be readily inputted. </p>
+  level, not values that could be readily inputted.</p>
+
+  <p> </p>
 
   <p><strong>&#x2022;</strong> <strong>At regional and global
   levels</strong></p>
@@ -537,7 +567,7 @@ DOC_METHOD: >-
   questionnaires. No adjustments are required for the data for definitions nor
   for classification or demographic harmonization.</p>
 QUALITY_MGMNT: >-
-  <p> FAO is responsible for the quality of the internal statistical processes
+  <p>FAO is responsible for the quality of the internal statistical processes
   used to compile the published datasets. The FAO Statistics Quality Assurance
   Framework (SQAF), available at: <a
   href="http://www.fao.org/docrep/019/i3664e/i3664e.pdf">http://www.fao.org/docrep/019/i3664e/i3664e.pdf</a>,
@@ -551,7 +581,7 @@ QUALITY_MGMNT: >-
   activities are carried out systematically (e.g. quality reviews,
   self-assessments, compliance monitoring).</p>
 QUALITY_ASSURE: >-
-  <p>&#x2022; Data are checked for their correctness; completeness; consistency
+  <p>&#x2022; Data are checked for their correctness, completeness, consistency
   along the process of data entry, and/or through a specific statistical
   analysis as the yearly data set is closed. </p>
 
@@ -563,7 +593,7 @@ QUALITY_ASSURE: >-
   user, an indicator report will automatically be generated for final validation
   by the country.</p>
 QUALITY_ASSMNT: >-
-  <p> From 2022 data series onwards, questions of a factual nature used to
+  <p>From 2022 data series onwards, questions of a factual nature used to
   indicate applicability of the indicator or to calculate the score of the
   indicator, such as whether a country is landlocked or whether it is a Party to
   a relevant international instrument will be pre-compiled. Official sources
@@ -577,7 +607,65 @@ COVERAGE: >-
   <p><strong>Data availability:</strong></p>
 
   <p>In 2016, 92 countries and the European Union replied to the questionnaire
-  section on the three indicators to measure target performance for 14.b.1 </p>
+  section on the three indicators to measure target performance for 14.b.1. </p>
+
+  <p>The below table indicates the scores for SDG 14.b.1 reporting that where
+  validated by countries since 2018. </p>
+
+  <table>
+    <tbody>
+      <tr>
+        <td></td>
+        <td colspan="2">
+          <p>Indicator 14.b.1</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Reporting year</p>
+        </td>
+        <td>
+          <p>2018</p>
+        </td>
+        <td>
+          <p>2020</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Validated scores</p>
+        </td>
+        <td>
+          <p>113</p>
+        </td>
+        <td>
+          <p>92</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Non validated scores</p>
+        </td>
+        <td>
+          <p>7</p>
+        </td>
+        <td>
+          <p>16</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Not applicable scores</p>
+        </td>
+        <td>
+          <p>11</p>
+        </td>
+        <td>
+          <p>10</p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
 
   <p>Breakdown of the number of countries covered by region is as follows:</p>
 
@@ -941,8 +1029,15 @@ OTHER_DOC: >-
   <p>&#x2022; SDG 14.b
   http://www.fao.org/sustainable-development-goals/indicators/14.b.1/en/</p>
 
-  <p>&#x2022; e-learning course on SDG indicator 14.b.1:
-  http://www.fao.org/elearning/#/elc/en/course/SDG14B1</p>
+  <p>&#x2022; e-learning course on SDG indicator 14.b.1: <a
+  href="https://elearning.fao.org/course/view.php?id=348&amp;lang=en">https://elearning.fao.org/course/view.php?id=348&amp;lang=en</a></p>
+
+  <ul>
+    <li>06-08 July 2021 (Online event) <a href="https://www.fao.org/sustainable-development-goals/events/detail/en/c/1437632/" target="_blank">Asia Regional Workshop on SDG 14.b and its indicator 14.b.1</a></li>
+    <li>9-11 April 2019 (Nadi, Fiji)| <a href="https://www.fao.org/documents/card/en/c/ca7753en" target="_top">Pacific Regional Workshop on Exploring SDG Target 14.b and its Indicator 14.b.1</a>.</li>
+    <li>28-29 November 2017 (Gaeta, Italy) | <a href="https://www.fao.org/3/ca0140en/CA0140EN.pdf" target="_blank">Exploring Sustainable Development Goal 14.b and its Proposed Indicator 14.b.1</a></li>
+    <li><a href="https://www.fao.org/publications/card/en/c/CB4806EN" target="_blank">Reporting on Sustainable Development Goal Target 14.b and its indicator 14.b.1 - Guidance for Pacific Island countries</a></li>
+  </ul>
 
   <p><strong>References:</strong></p>
 
@@ -953,4 +1048,120 @@ OTHER_DOC: >-
 
   <p>&#x2022; http://www.fao.org/3/a-mq873e.pdf</p>
 
-  <p>&#x2022; http://www.fao.org/3/a-bo076e.pdf</p>
+  <p>&#x2022; <a
+  href="http://www.fao.org/3/a-bo076e.pdf">http://www.fao.org/3/a-bo076e.pdf</a></p>
+
+  <p><strong>ANNEX &#x2013; Relevant questions from the FAO CCRF
+  questionnaire</strong></p>
+
+  <table>
+    <tbody>
+      <tr>
+        <td>
+          <p><strong>Variable 1. Existence of laws, regulations, policies, plans or strategies that specifically target or address the small-scale fisheries sector &#x2013; weighting 40%</strong></p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Are there any laws, regulations, policies, plans or strategies that specifically target or address the small-scale fisheries sector?</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>1.1) Law</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>1.2) Regulation</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>1.3) Policy</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>1.4) Plan/strategy</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>1.5) Other*</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p><strong>Variable 2. Ongoing specific initiatives to implement the SSF Guidelines - weighting 30%</strong></p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>In the case that your country has a specific initiative to implement the SFF guidelines. What specific activities are included in this initiative:</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>2.1) Improving tenure security for small-scale fishers and fish workers in accordance with SSF Guidelines paragraphs 5.2-5.12</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>2.2) Supporting small-scale fisheries actors to take an active part in sustainable resource management in accordance with SSF Guidelines paragraphs 5.13-5.20</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>2.3) Promoting social development, employment and decent work in small-scale fisheries in accordance with SSF Guidelines paragraphs 6.2-6.18</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>2.4) Enhancing small-scale fisheries value chains, post-harvest operations and trade in accordance with SSF Guidelines paragraphs 7.1-7.10</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>2.5) Ensuring gender equality in small-scale fisheries in accordance with SSF Guidelines paragraphs 8.1-8.4</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>2.6) Addressing disaster risks and climate change in small-scale fisheries in accordance with SSF Guidelines paragraphs 9.1-9.9</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>2.7) Strengthening institutions in support of SSF and to promote policy coherence, coordination and collaboration in accordance with SSF Guidelines paragraphs 10.1-10.8</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>2.8) Improving information, research and communication on the contribution of SSF to food security and poverty eradication in accordance with SSF Guidelines paragraphs 11.1-11.11</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>2.9) Implementing capacity development of fisheries organizations and other stakeholders in accordance with SSF Guidelines paragraphs 12.1-12.4</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>2.10) Establishing or improving monitoring mechanisms and promoting SSF Guidelines implementation in accordance with SSF Guidelines paragraphs 13.1-13.6</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p><strong>Variable 3. Existence of mechanisms through which small-scale fishers and fish workers contribute to decision-making processes &#x2013; weighting 30%</strong></p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>3.1) Does your country have an advisory/consultative body to the Ministry/Department of Fisheries in which fishers/fish workers can participate and contribute to decision-making processes? (representation at national or provincial level)</p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+  <p> </p>

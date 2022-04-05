@@ -7,7 +7,11 @@ SDG_TARGET: >-
 SDG_INDICATOR: >-
   <p>Indicator 7.2.1: Renewable energy share in the total final energy
   consumption</p>
-META_LAST_UPDATE: <p>2021-02-15</p>
+SDG_SERIES_DESCR: <p>Not applicable </p>
+META_LAST_UPDATE: '2022-03-31'
+SDG_RELATED_INDICATORS: |-
+  <p>Indicator 9.4.1: CO<sub>2</sub> emission per unit of value added</p>
+  <p>Indicator 13.2.2: Total greenhouse gas emissions per year</p>
 SDG_CUSTODIAN_AGENCIES: |-
   <p>International Energy Agency (IEA) </p>
   <p>United Nations Statistics Division (UNSD) </p>
@@ -29,7 +33,7 @@ STAT_CONC_DEF: >-
   marine and renewable waste. Total final energy consumption is calculated from
   balances as total final consumption minus non-energy use. </p>
 
-  <p>Comments with regard to specific renewable energy sources: </p>
+  <p>Comments regarding specific renewable energy sources: </p>
 
   <ul>
     <li>Solar energy includes solar PV and solar thermal. </li>
@@ -37,9 +41,7 @@ STAT_CONC_DEF: >-
     <li>Solid biofuels include fuelwood, animal waste, vegetable waste, black liquor, bagasse and charcoal. </li>
     <li>Renewable waste energy covers energy from renewable municipal waste.</li>
   </ul>
-UNIT_MEASURE: >-
-  <p>The renewable energy share in the total final energy consumption is
-  expressed as a percentage and has no unit of measurement.</p>
+UNIT_MEASURE: <p>Percent (%) </p>
 CLASS_SYSTEM: >-
   <p>The &#x201C;International Recommendations for Energy Statistics&#x201D;
   (IRES), adopted by the UN Statistical Commission, is the globally recognized
@@ -63,8 +65,8 @@ SOURCE_TYPE: >-
 COLL_METHOD: >-
   <p>The IEA collects energy data at the national level according to harmonised
   international definitions and questionnaires, as described in the UN
-  International Recommendations for Energy Statistics
-  (unstats.un.org/unsd/energystats/methodology/ires/).</p>
+  International Recommendations for Energy Statistics (<a
+  href="https://unstats.un.org/unsd/energystats/methodology/ires/">unstats.un.org/unsd/energystats/methodology/ires/</a>).</p>
 
   <p>UNSD also collects energy statistics from countries according to the same
   harmonised methodology.</p>
@@ -98,18 +100,18 @@ INST_MANDATE: >-
   towards the SDG 7.2 target, leverage on their national data efforts and add
   value by promoting coherent standards, definitions and methodologies for both
   raw data and the derived indicators with the ultimate goal of producing
-  international comparable datasets. </p>
+  internationally comparable datasets. </p>
 
   <p>The UNSD mission in the area of energy statistics is to strengthen national
-  statistical systems in order to assist them in producing high quality energy
-  statistics and balances. The mission is realized through four workstreams:
-  Data collection (since 1950); Development of methodological guidelines and
-  standards in energy statistics (e.g., IRES, ESCM); Capacity building (to
-  disseminate such methodology and to assist countries to strengthen their
-  energy statistical systems); and International cooperation and coordination.
-  UNSD was selected as one of the custodians of indicator 7.2.1 because it
-  collects for all countries the underlying data necessary to calculate the
-  indicator. </p>
+  statistical systems in order to assist countries to produce high quality
+  energy statistics and balances. The mission is realized through four
+  workstreams: Data collection (since 1950); Development of methodological
+  guidelines and standards in energy statistics (e.g., IRES, ESCM); Capacity
+  building (to disseminate such methodology and to assist countries to
+  strengthen their energy statistical systems); and International cooperation
+  and coordination. UNSD was selected as one of the custodians of indicator
+  7.2.1 because it collects for all countries the underlying data necessary to
+  calculate the indicator. </p>
 RATIONALE: >-
   <p>The target &#x201C;By 2030, increase substantially the share of renewable
   energy in the global energy mix&#x201D; impacts all three dimensions of
@@ -149,14 +151,204 @@ DATA_COMP: >-
   energy consumption. Renewable energy consumption is derived as the sum of
   direct final consumption of renewable sources plus the components of
   electricity and heat consumption estimated to be derived from renewable
-  sources based on generation shares. For instance, if total final consumption
-  is 150 TJ for biogas energy, while total final consumption of electricity is
-  400 TJ and heat 100 TJ, and the share of biogas is 10 percent in electricity
-  output and 5 percent in heat output, the total reported number for biogas
-  consumption will be 195 TJ (150 TJ+400TJ*10%+100TJ*5%). The Global Tracking
-  Framework Report (IEA and World Bank, 2013) provides more details on the
-  suggested methodology for defining and measuring renewable energy (Chapter 4,
-  Section 1, page 201-202). </p>
+  sources based on generation shares. The indicator is calculated based on the
+  following formula:</p>
+
+  <p><math xmlns="http://www.w3.org/1998/Math/MathML">
+      <msub>
+        <mrow>
+          <mi>T</mi>
+          <mi>F</mi>
+          <mi>E</mi>
+          <mi>C</mi>
+        </mrow>
+        <mrow>
+          <mi>R</mi>
+          <mi>E</mi>
+          <mi>S</mi>
+        </mrow>
+      </msub>
+      <mo>=</mo>
+      <mi>&amp;nbsp;</mi>
+      <mfrac>
+        <mrow>
+          <msub>
+            <mrow>
+              <mi>T</mi>
+              <mi>F</mi>
+              <mi>E</mi>
+              <mi>C</mi>
+            </mrow>
+            <mrow>
+              <mi>R</mi>
+              <mi>E</mi>
+              <mi>S</mi>
+            </mrow>
+          </msub>
+          <mo>+</mo>
+          <mfenced separators="|">
+            <mrow>
+              <msub>
+                <mrow>
+                  <mi>T</mi>
+                  <mi>F</mi>
+                  <mi>E</mi>
+                  <mi>C</mi>
+                </mrow>
+                <mrow>
+                  <mi>E</mi>
+                  <mi>L</mi>
+                  <mi>E</mi>
+                </mrow>
+              </msub>
+              <mo>&#xD7;</mo>
+              <mfrac>
+                <mrow>
+                  <msub>
+                    <mrow>
+                      <mi>E</mi>
+                      <mi>L</mi>
+                      <mi>E</mi>
+                    </mrow>
+                    <mrow>
+                      <mi>R</mi>
+                      <mi>E</mi>
+                      <mi>S</mi>
+                    </mrow>
+                  </msub>
+                </mrow>
+                <mrow>
+                  <msub>
+                    <mrow>
+                      <mi>E</mi>
+                      <mi>L</mi>
+                      <mi>E</mi>
+                    </mrow>
+                    <mrow>
+                      <mi>T</mi>
+                      <mi>O</mi>
+                      <mi>T</mi>
+                      <mi>A</mi>
+                      <mi>L</mi>
+                    </mrow>
+                  </msub>
+                </mrow>
+              </mfrac>
+            </mrow>
+          </mfenced>
+          <mo>+</mo>
+          <mfenced separators="|">
+            <mrow>
+              <msub>
+                <mrow>
+                  <mi>T</mi>
+                  <mi>F</mi>
+                  <mi>E</mi>
+                  <mi>C</mi>
+                </mrow>
+                <mrow>
+                  <mi>H</mi>
+                  <mi>E</mi>
+                  <mi>A</mi>
+                  <mi>T</mi>
+                </mrow>
+              </msub>
+              <mo>&#xD7;</mo>
+              <mfrac>
+                <mrow>
+                  <msub>
+                    <mrow>
+                      <mi>H</mi>
+                      <mi>E</mi>
+                      <mi>A</mi>
+                      <mi>T</mi>
+                    </mrow>
+                    <mrow>
+                      <mi>R</mi>
+                      <mi>E</mi>
+                      <mi>S</mi>
+                    </mrow>
+                  </msub>
+                </mrow>
+                <mrow>
+                  <msub>
+                    <mrow>
+                      <mi>H</mi>
+                      <mi>E</mi>
+                      <mi>A</mi>
+                      <mi>T</mi>
+                    </mrow>
+                    <mrow>
+                      <mi>T</mi>
+                      <mi>O</mi>
+                      <mi>T</mi>
+                      <mi>A</mi>
+                      <mi>L</mi>
+                    </mrow>
+                  </msub>
+                </mrow>
+              </mfrac>
+            </mrow>
+          </mfenced>
+        </mrow>
+        <mrow>
+          <msub>
+            <mrow>
+              <mi>T</mi>
+              <mi>F</mi>
+              <mi>E</mi>
+              <mi>C</mi>
+            </mrow>
+            <mrow>
+              <mi>T</mi>
+              <mi>O</mi>
+              <mi>T</mi>
+              <mi>A</mi>
+              <mi>L</mi>
+            </mrow>
+          </msub>
+        </mrow>
+      </mfrac>
+    </math></p>
+  <p>Where:</p>
+
+  <p><math xmlns="http://www.w3.org/1998/Math/MathML">
+      <mi>T</mi>
+      <mi>F</mi>
+      <mi>E</mi>
+      <mi>C</mi>
+    </math>: Total final energy consumption is the sum of final energy consumption in the transport, industry and other sectors (also equivalent to the total final consumption minus the non-energy use).</p>
+  <p><math xmlns="http://www.w3.org/1998/Math/MathML">
+      <mi>E</mi>
+      <mi>L</mi>
+      <mi>E</mi>
+    </math>: Gross electricity production </p>
+  <p><math xmlns="http://www.w3.org/1998/Math/MathML">
+      <mi>H</mi>
+      <mi>E</mi>
+      <mi>A</mi>
+      <mi>T</mi>
+    </math>: Gross heat production</p>
+  <p><math xmlns="http://www.w3.org/1998/Math/MathML">
+      <mi>R</mi>
+      <mi>E</mi>
+      <mi>S</mi>
+    </math>: Renewable energy sources which include hydropower, wind, solar photovoltaic, solar thermal, geothermal, tide/wave/ocean, renewable municipal waste, solid biofuels, liquid biofuels, and biogases.</p>
+  <p>The denominator is the total final energy consumption of all energy
+  products, while the numerator includes the direct consumption of renewable
+  energy sources plus the final consumption of gross electricity and heat that
+  is estimated to have come from renewable sources. This estimation allocates
+  the amount of electricity and heat consumption to renewable sources based on
+  the share of renewables in gross production in order to perform the
+  calculation at the final energy level. For instance, if total final
+  consumption is 150 TJ for biogas energy, while total final consumption of
+  electricity is 400 TJ and heat 100 TJ, and the share of biogas is 10 percent
+  in electricity output and 5 percent in heat output, the total reported number
+  for biogas consumption will be 195 TJ (150 TJ+400TJ*10%+100TJ*5%).</p>
+
+  <p>The Global Tracking Framework Report (IEA and World Bank, 2013) provides
+  more details on the suggested methodology for defining and measuring renewable
+  energy (Chapter 4, Section 1, page 201-202). </p>
 DATA_VALIDATION: >-
   <p>The IEA has several internal procedures in place for energy data
   validation. This includes energy balance checks, time series analysis and
@@ -188,7 +380,7 @@ ADJUSTMENT: >-
   identification of such deviations from the standard is an ongoing task, and
   UNSD has started publishing some of this information in a supplement to the
   Energy Statistics Database named &#x201C;Notes on sources&#x201D;, available
-  at: unstats.un.org/unsd/energystats/pubs/yearbook/ , with the goal of
+  at: unstats.un.org/unsd/energystats/pubs/yearbook/, with the goal of
   increasing transparency and providing more and more information with time.</p>
 IMPUTATION: >-
   <p><strong>&#x2022; At country level</strong></p>
@@ -225,7 +417,7 @@ DOC_METHOD: >-
   <p>The IEA data corresponding to OECD countries are derived based on
   information provided in</p>
 
-  <p>the five fuel specific annual IEA/Eurostat joint questionnaires completed
+  <p>the five fuel-specific annual IEA/Eurostat joint questionnaires completed
   by the national administrations. These questionnaires are available online at:
   <a
   href="https://www.iea.org/areas-of-work/data-and-statistics/questionnaires">iea.org/areas-of-work/data-and-statistics/questionnaires</a></p>
@@ -249,7 +441,9 @@ QUALITY_MGMNT: >-
   helps the energy statisticians have a better grasp of definitions, units and
   methodologies. Moreover, IEA has established a quality management framework
   based on the internationally recognized guidelines recommended by IRES to
-  ensure quality of statistical products. </p>
+  ensure quality of statistical products.</p>
+
+  <p> </p>
 
   <p>ESCM contains a full chapter on the Generic Statistical Business Process
   Model applied to energy statistics, helping countries manage energy data
@@ -261,9 +455,19 @@ QUALITY_ASSURE: >-
   clarity as well as coherence and comparability of the data.</p>
 
   <p>UNSD coordinated input from international organizations and countries to
-  publish IRES and its practical companion the ESCM. Each of both contains a
+  publish IRES and its practical companion, the ESCM. Each of both contains a
   chapter on quality assurance and metadata to help guide all countries ensure
   good energy data quality. </p>
+QUALITY_ASSMNT: >-
+  <p>The IEA has an extensive data quality validation process through exchange
+  with national data providers worldwide. It also convenes its Energy Statistics
+  Development Group meeting to discuss energy statistics developments with its
+  Members, and cooperates with partners worldwide to ensure coherence of data
+  and methods.</p>
+
+  <p>UNSD assesses many quality aspects of the data by means of internal checks,
+  exchanges with national data providers, and comparison with alternative
+  sources. </p>
 COVERAGE: >-
   <p><strong>Data availability:</strong></p>
 
@@ -283,7 +487,7 @@ COVERAGE: >-
   <p>Disaggregation of the data on consumption of renewable energy, e.g. by
   resource and end-use sector, could provide insights into other dimensions of
   the goal, such as affordability and reliability. For solar energy, it may also
-  be of interest to disaggregate between on grid and off-grid capacity.</p>
+  be of interest to disaggregate between on-grid and off-grid capacity.</p>
 COMPARABILITY: >-
   <p><strong>Sources of discrepancies:</strong></p>
 
@@ -301,7 +505,9 @@ COMPARABILITY: >-
 OTHER_DOC: >-
   <p><strong>URL: </strong></p>
 
-  <p>iea.org; <a
+  <p><a
+  href="file:///\\jupiter\EDC\CO2\Collaboration\SDG\SDG7\GTF%202021\Data\Meta%20data\iea.org">iea.org</a>;
+  <a
   href="https://unstats.un.org/unsd/energystats/">unstats.un.org/unsd/energystats</a></p>
 
   <p><strong>References: </strong></p>
@@ -318,7 +524,8 @@ OTHER_DOC: >-
   href="https://unstats.un.org/unsd/energystats/data/">unstats.un.org/unsd/energystats/data</a>
   (description) and <a
   href="http://data.un.org/Explorer.aspx?d=EDATA">data.un.org/Explorer.aspx?d=EDATA</a>
-  (data)</p>
+  (data). Downloadable though API (https://data.un.org/ws). Browse contents on
+  https://data.un.org/SdmxBrowser/start.</p>
 
   <p>IEA SDG 7 webpage: <a
   href="file:///C:\Users\leonardo.souza\Documents\Leo\Energy\Sustainable%20Development\SDG%20Indicators\IEA%20coordination\iea.org\reports\sdg7-data-and-projections">iea.org/reports/sdg7-data-and-projections</a></p>
@@ -361,6 +568,7 @@ OTHER_DOC: >-
   href="https://www.irena.org/statistics">https://www.irena.org/statistics</a>.</p>
 
   <p>United Nations. 2016. &#x201C;Energy Statistics Compilers Manual&#x201D;
-  (whitecover)</p>
+  </p>
 
-  <p>unstats.un.org/unsd/energystats/methodology/escm/</p>
+  <p><a
+  href="file:///\\jupiter\EDC\CO2\Collaboration\SDG\SDG7\GTF%202021\Data\Meta%20data\unstats.un.org\unsd\energystats\methodology\escm\">unstats.un.org/unsd/energystats/methodology/escm/</a></p>

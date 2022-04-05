@@ -9,10 +9,17 @@ SDG_TARGET: >-
 SDG_INDICATOR: >-
   <p>Indicator 9.3.2: Proportion of small-scale industries with a loan or line
   of credit</p>
-META_LAST_UPDATE: <p>2021-02-01</p>
-SDG_RELATED_INDICATORS: <p>9.3.1</p>
-SDG_CUSTODIAN_AGENCIES: <p>United Nations Industrial Development Organization (UNIDO)</p>
-CONTACT_ORGANISATION: <p>United Nations Industrial Development Organization (UNIDO)</p>
+SDG_SERIES_DESCR: <p>Proportion of small-scale industries with a loan or line of credit (%)</p>
+META_LAST_UPDATE: '2022-03-31'
+SDG_RELATED_INDICATORS: >-
+  <p>9.3.1: Proportion of small-scale industries in total industry value
+  added</p>
+SDG_CUSTODIAN_AGENCIES: |-
+  <p>United Nations Industrial Development Organization (UNIDO)</p>
+  <p>World Bank</p>
+CONTACT_ORGANISATION: |-
+  <p>United Nations Industrial Development Organization (UNIDO)</p>
+  <p>World Bank</p>
 STAT_CONC_DEF: >-
   <p><strong>Definitions</strong><sup><sup><a href="#footnote-2"
   id="footnote-ref-2">[1]</a></sup></sup><strong>:</strong></p>
@@ -66,8 +73,8 @@ STAT_CONC_DEF: >-
   can be identified for which production data may be meaningfully compiled. </p>
 
   <p>As introduced in IRIS 2008 (United Nations, 2011), an <strong>economic
-  activity</strong> is understood as referring to a process, that is to say, to
-  the combination of actions carried out by a certain entity that uses labor,
+  activity</strong> is understood as referring to a process, that is , the
+  combination of actions carried out by a certain entity that uses labor,
   capital, goods and services to produce specific products (goods and services).
   In general, industrial statistics reflect the characteristics and economic
   activities of units engaged in a class of industrial activities that are
@@ -110,15 +117,15 @@ STAT_CONC_DEF: >-
 
   <p><strong>Lines of credit</strong> and loan commitments provide a guarantee
   that undrawn funds will be available in the future, but no financial
-  liability/asset exists until such funds are actually provided. Undrawn lines
-  of credit and undisbursed loan commitments are contingent liabilities of the
-  issuing institutions&#x2014; generally, banks (IMF, 2011). A loan or line of
-  credit refers to regulated financial institutions only.</p><div
+  liability/asset exists until such funds are provided. Undrawn lines of credit
+  and undisbursed loan commitments are contingent liabilities of the issuing
+  institutions&#x2014; generally, banks (IMF, 2011). A loan or line of credit
+  refers to regulated financial institutions only.</p><div
   class="footnotes"><div><sup class="footnote-number" id="footnote-2">1</sup><p>
   Some of the text on concepts and definition may be identical to Metadata
   submitted for Indicators 9.3.1. <a
   href="#footnote-ref-2">&#x2191;</a></p></div></div>
-UNIT_MEASURE: <p>Percentages</p>
+UNIT_MEASURE: <p>Percent (%)</p>
 CLASS_SYSTEM: >-
   <p><a
   href="https://unstats.un.org/unsd/publication/seriesm/seriesm_4rev4e.pdf">International
@@ -137,18 +144,19 @@ SOURCE_TYPE: >-
   <p> </p>
 COLL_METHOD: >-
   <p>One of the main sources of data for this indicator currently available is
-  the Enterprise Survey conducted by the World Bank which covers the formal
-  sector and contains data for small and medium enterprises only (with 5 or more
-  employees). In some countries, additional surveys, including Informal Surveys
-  of unregistered enterprises and/or Micro Surveys for registered firms with
-  less than five employees, are conducted and available at country level. </p>
+  the Enterprise Survey conducted by the World Bank (www.enterprisesurveys.org),
+  which covers the formal sector and contains data for small and medium
+  enterprises only (with 5 or more employees). In some countries, additional
+  surveys, including Informal Surveys of unregistered enterprises and/or Micro
+  Surveys for registered firms with less than five employees, are conducted and
+  available at country level. </p>
 
   <p>The Enterprise Survey is based on a representative sample of enterprises
   run by the private sector. The surveys cover a broad range of business
   environment topics including access to finance, corruption, infrastructure,
   crime, competition, and performance measures. Since 2002, the World Bank has
   collected these data from face-to-face interviews with top managers and
-  business owners in over 161,000 companies in 144 economies.</p>
+  business owners in over 174,000 companies in 151 economies.</p>
 
   <p>The surveys have been conducted since 2002 by different units within the
   World Bank. Since 2005-06, most data collection efforts have been centralized
@@ -218,7 +226,9 @@ REL_CAL_POLICY: >-
   <p>The UNIDO SDG-9 database is updated between March and April every year
   including the 9.3.2 indicator.</p>
 DATA_SOURCE: <p>World Bank Enterprise Surveys</p>
-COMPILING_ORG: <p>United Nations Industrial Development Organization (UNIDO)</p>
+COMPILING_ORG: |-
+  <p>United Nations Industrial Development Organization (UNIDO)</p>
+  <p>World Bank Enterprise Surveys</p>
 INST_MANDATE: >-
   <p>UNIDO, as the specialized UN agency on industrial development, has the
   international mandate for collecting, producing and disseminating
@@ -252,8 +262,8 @@ RATIONALE: >-
   financial support in the form of preferential loan, credit etc. This indicator
   shows how widely financial institutions are serving the &#x201C;small-scale
   industries&#x201D;. Together with the indicator SDG 9.3.1, this indicator
-  reflects the main message of the target 9.3 which promotes to increase the
-  access of &#x201C;small-scale industries&#x201D; to financial services.</p>
+  reflects the main message of the target 9.3 which seeks to increase the access
+  of &#x201C;small-scale industries&#x201D; to financial services.</p>
 REC_USE_LIM: >-
   <p>The main limitation of existing national data is varying size classes by
   country indicating that data are obtained from different target populations.
@@ -388,13 +398,29 @@ DATA_COMP: >-
           <mo>&quot;</mo>
         </mrow>
       </mfrac>
-      <mi>*</mi>
+      <mo>&#xD7;</mo>
       <mn>100</mn>
     </math></p>
   <p>The indicator is calculated as a share of small-scale manufacturing
   enterprises with a loan or line of credit in the total number of small-scale
   manufacturing enterprises. Calculation of the indicator can be extended for
   other economic activities.</p>
+DATA_VALIDATION: >-
+  <p>This indicator is computed using data collected from the World
+  Bank&#x2019;s Enterprise Surveys. A detailed manual and guide on the
+  Enterprise Surveys implementation is found here (<a
+  href="https://www.enterprisesurveys.org/content/dam/enterprisesurveys/documents/methodology/Enterprise-Surveys-Manual-and-Guide.pdf">https://www.enterprisesurveys.org/content/dam/enterprisesurveys/documents/methodology/Enterprise-Surveys-Manual-and-Guide.pdf</a>).
+  Section 4.4 &#x201C;Data Collection Cycle&#x201D; of this document describes
+  the processes in place used to validate or check the survey data which is
+  collected to ensure quality.</p>
+ADJUSTMENT: >-
+  <p>For any given survey, during the quality checks outlined in the Enterprise
+  Surveys manual and guide (section 4.4), if inconsistencies or mistakes are
+  found in the data, the World Bank transmits this feedback to the fieldwork
+  team that is conducting the survey in the first place. The fieldwork team
+  should make sure that any data mistakes are corrected (or if the data is
+  indeed correct, provide the justification to the World Bank) when submitting
+  the final survey dataset.</p>
 IMPUTATION: >-
   <p><strong>&#x2022;</strong> <strong>At country level</strong></p>
 
@@ -406,18 +432,22 @@ IMPUTATION: >-
   <p>No treatment of missing values is applied at regional and global
   levels.</p>
 REG_AGG: >-
-  <p>Regional and global aggregates are currently not provided due to a limited
-  geographical and time coverage. The Enterprise Surveys are implemented every
-  year in around 20 countries. Data frequency for each country is around 4
-  years.</p>
+  <p>The Enterprise Surveys are implemented every year in around 20 countries.
+  Data frequency is limited for each country around 4 years. Regional and global
+  averages are thus computed by taking a simple average of country-level point
+  estimates. For each economy, only the latest available year of survey data is
+  used in this computation. Only surveys adhering to the <a
+  href="https://www.enterprisesurveys.org/content/dam/enterprisesurveys/documents/methodology/ES_QuestionnaireManual_2019.pdf">Enterprise
+  Surveys Global Methodology</a> are used to compute these regional and global
+  aggregates.</p>
 DOC_METHOD: >-
-  <p>International Recommendations for Industrial Statistics (IRIS) 2008</p>
+  <p>International Recommendations for Industrial Statistics. (2008).</p>
 
   <p><a
   href="https://unstats.un.org/unsd/publication/seriesM/seriesm_90e.pdf">https://unstats.un.org/unsd/publication/seriesM/seriesm_90e.pdf</a></p>
 
   <p>International Standard Industrial Classification of All Economic Activities
-  (ISIC) </p>
+  (ISIC). </p>
 
   <p><a
   href="https://unstats.un.org/unsd/classifications/Econ/isic">https://unstats.un.org/unsd/classifications/Econ/isic</a></p>
@@ -425,23 +455,45 @@ DOC_METHOD: >-
   <p>International Monetary Fund. (2011). Public Sector Debt Statistics: Guide
   for Compilers and Users. Washington, DC: International Monetary Fund. </p>
 
-  <p>https://www.elibrary.imf.org/view/IMF069/11874-9781616351564/11874-9781616351564/front.xml?language=en&amp;redirect=true</p>
+  <p><a
+  href="https://www.elibrary.imf.org/view/IMF069/11874-9781616351564/11874-9781616351564/front.xml?language=en&amp;redirect=true">https://www.elibrary.imf.org/view/IMF069/11874-9781616351564/11874-9781616351564/front.xml?language=en&amp;redirect=true</a>
+  </p>
 
-  <p>World Bank Enterprise Surveys methodology</p>
+  <p>World Bank Enterprise Surveys methodology.</p>
 
-  <p>https://www.enterprisesurveys.org/en/methodology</p>
+  <p><a
+  href="https://www.enterprisesurveys.org/en/methodology">https://www.enterprisesurveys.org/en/methodology</a>
+  </p>
+QUALITY_MGMNT: >-
+  <p>A detailed manual and guide on the Enterprise Surveys implementation is
+  found here (<a
+  href="https://www.enterprisesurveys.org/content/dam/enterprisesurveys/documents/methodology/Enterprise-Surveys-Manual-and-Guide.pdf">https://www.enterprisesurveys.org/content/dam/enterprisesurveys/documents/methodology/Enterprise-Surveys-Manual-and-Guide.pdf</a>).
+  This manual provides a comprehensive overview of the quality management of the
+  Enterprise Surveys.</p>
 QUALITY_ASSURE: >-
-  <p>The UNIDO quality assurance framework is followed to check data quality and
-  consistency before the data dissemination.</p>
+  <p>The process of quality assurance includes the review of survey
+  questionnaires/documentations/metadata, examination of reliability of data,
+  and making sure they comply with international standards (e.g. workforce
+  concepts in the survey questions correspond to ILO standards), and examining
+  the consistency and coherence within the data set as well as with the time
+  series of data and the resulting indicators.</p>
 
-  <p>UNIDO (2009), UNIDO Data Quality: A quality assurance framework for UNIDO
+  <p>The UNIDO quality assurance framework is followed to check data quality and
+  consistency before data dissemination.</p>
+
+  <p>UNIDO (2009). UNIDO Data Quality: A quality assurance framework for UNIDO
   statistical activities <a
   href="https://open.unido.org/api/documents/4814740/download/UNIDO-Publication-2009-4814740">https://open.unido.org/api/documents/4814740/download/UNIDO-Publication-2009-4814740</a>
   </p>
+QUALITY_ASSMNT: >-
+  <p>For any given survey, quality checks outlined in the Enterprise Surveys
+  manual and guide (section 4.4), are implemented during data collection (survey
+  fieldwork), and the World Bank transmits the resulting feedback to the
+  fieldwork team that is conducting the survey in the first place.</p>
 COVERAGE: >-
   <p><strong>Data availability:</strong></p>
 
-  <p>Data for around 140 economies were collected.</p>
+  <p>Data for around 150 economies were collected.</p>
 
   <p><strong>Time series:</strong></p>
 
@@ -450,7 +502,7 @@ COVERAGE: >-
 
   <p><strong>Disaggregation:</strong></p>
 
-  <p>No disaggregation available</p>
+  <p>No disaggregation available.</p>
 COMPARABILITY: >-
   <p><strong>Sources of discrepancies:</strong></p>
 
@@ -459,7 +511,9 @@ COMPARABILITY: >-
 OTHER_DOC: >-
   <h2>URL:</h2>
 
-  <p>https://www.enterprisesurveys.org/</p>
+  <p><a
+  href="https://www.enterprisesurveys.org/">https://www.enterprisesurveys.org/</a>
+  </p>
 
   <p><a href="http://www.unido.org/statistics">www.unido.org/statistics</a></p>
 
@@ -470,16 +524,19 @@ OTHER_DOC: >-
   <p>International Monetary Fund. (2011). Public Sector Debt Statistics: Guide
   for Compilers and Users. Washington, DC: International Monetary Fund. </p>
 
-  <p>https://www.elibrary.imf.org/view/IMF069/11874-9781616351564/11874-9781616351564/front.xml?language=en&amp;redirect=true</p>
+  <p><a
+  href="https://www.elibrary.imf.org/view/IMF069/11874-9781616351564/11874-9781616351564/front.xml?language=en&amp;redirect=true">https://www.elibrary.imf.org/view/IMF069/11874-9781616351564/11874-9781616351564/front.xml?language=en&amp;redirect=true</a></p>
+
+  <p> </p>
 
   <p>United Nations. (2002). International Standard Industrial Classification of
-  All Economic Activities (ISIC Revision 4). New York : United Nations.</p>
+  All Economic Activities (ISIC Revision 4). New York: United Nations.</p>
 
-  <p> <a
+  <p><a
   href="https://unstats.un.org/unsd/publication/seriesm/seriesm_4rev4e.pdf">https://unstats.un.org/unsd/publication/seriesm/seriesm_4rev4e.pdf</a></p>
 
   <p>United Nations. (2008). International Standard Industrial Classification of
-  All Economic Activities (ISIC Revision 3.1). New York : United Nations.</p>
+  All Economic Activities (ISIC Revision 3.1). New York: United Nations.</p>
 
   <p> <a
   href="https://unstats.un.org/unsd/publication/SeriesM/seriesm_4rev3_1e.pdf">https://unstats.un.org/unsd/publication/SeriesM/seriesm_4rev3_1e.pdf</a></p>
