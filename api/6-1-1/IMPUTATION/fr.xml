@@ -2,5 +2,12 @@
 <root>
 	<status>success</status>
 	<message>The IMPUTATION field for indicator 6-1-1, translated into fr</message>
-	<data/>
+	<data>&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Au niveau national :&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;La méthode du JMP utilise un modèle de régression simple pour générer des estimations de séries chronologiques pour toutes les années, y compris pour les années sans points de données. Le JMP partage ensuite toutes ses estimations en utilisant son mécanisme de consultation par pays pour obtenir un consensus des pays avant de publier ses estimations. &lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Aux niveaux régional et mondial :&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Des estimations régionales et mondiales pour les différents éléments des services gérés en toute sécurité sont calculées à condition que des données (non imputées) soient disponibles pour au moins 30 % de la population utilisant des sources d’eau potable améliorées dans la région. Afin de produire des estimations aux niveaux régional ou mondial, des estimations imputées sont produites pour les pays qui ne disposent pas de données. Les estimations nationales imputées ne sont pas publiées et ne sont utilisées qu’à des fins d’agrégation. &lt;/p&gt;</data>
 </root>
