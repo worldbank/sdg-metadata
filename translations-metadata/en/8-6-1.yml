@@ -7,10 +7,13 @@ SDG_TARGET: >-
 SDG_INDICATOR: >-
   <p>Indicator 8.6.1: Proportion of youth (aged 15&#x2013;24 years) not in
   education, employment or training</p>
-META_LAST_UPDATE: <p>2021-01-01</p>
-SDG_RELATED_INDICATORS: <p>Related indicators as of February 2020 </p>
-SDG_CUSTODIAN_AGENCIES: <p>ILO</p>
-CONTACT_ORGANISATION: <p>ILO</p>
+SDG_SERIES_DESCR: >-
+  <p>Proportion of youth (aged 15-24 years) not in education, employment or
+  training, by sex</p>
+META_LAST_UPDATE: '2022-03-31'
+SDG_RELATED_INDICATORS: <p>8.5.2</p>
+SDG_CUSTODIAN_AGENCIES: <p>International Labour Organization (ILO)</p>
+CONTACT_ORGANISATION: <p>International Labour Organization (ILO)</p>
 STAT_CONC_DEF: >-
   <p><strong>Definition: </strong></p>
 
@@ -37,7 +40,7 @@ STAT_CONC_DEF: >-
   intentional or deliberate, but not institutionalized. It is thus less
   organized and less structured than either formal or non-formal education.
   Informal learning may include learning activities that occur in the family, in
-  the work place, in the local community, and in daily life, on a self-directed,
+  the workplace, in the local community, and in daily life, on a self-directed,
   family-directed or socially-directed basis. For the purposes of this
   indicator, persons will be considered in education if they are in formal or
   non-formal education, as described above, but excluding informal learning.
@@ -56,7 +59,10 @@ STAT_CONC_DEF: >-
   collar related to a specific trade, occupation or vocation. Technical training
   on the other hand imparts learning that can be applied in intermediate-level
   jobs, in particular those of technicians and middle managers. </p>
-UNIT_MEASURE: <p>Percentage</p>
+UNIT_MEASURE: <p>Percent (%)</p>
+CLASS_SYSTEM: >-
+  <p>Youth are defined as persons aged 15 to 24 (inclusive) for the purpose of
+  this indicator.</p>
 SOURCE_TYPE: >-
   <p>The preferred official national data source for this indicator is a
   household-based labour force survey. </p>
@@ -66,7 +72,7 @@ SOURCE_TYPE: >-
   obtain the required data. </p>
 COLL_METHOD: >-
   <p>The ILO Department of Statistics processes national household survey
-  microdatasets in line with internationally-agreed indicator concepts and
+  microdata sets in line with internationally-agreed indicator concepts and
   definitions set forth by the International Conference of Labour Statisticians.
   For data that could not be obtained through this processing or directly from
   government websites, the ILO sends out an annual ILOSTAT questionnaire to all
@@ -80,9 +86,9 @@ DATA_SOURCE: >-
   <p>Mainly national statistical offices, and in some cases labour ministries or
   other related agencies, at the country-level. In some cases, regional or
   international statistical offices can also act as data providers. </p>
-COMPILING_ORG: <p>ILO </p>
+COMPILING_ORG: <p>International Labour Organization (ILO) </p>
 INST_MANDATE: >-
-  <p> The ILO is the UN focal point for labour statistics. It sets international
+  <p>The ILO is the UN focal point for labour statistics. It sets international
   standards for labour statistics through the International Conference of Labour
   Statisticians. It also compiles and produces labour statistics with the goal
   of disseminating internationally-comparable datasets, and provides technical
@@ -100,9 +106,9 @@ RATIONALE: >-
   latter includes those youth who are outside the labour force and are in
   education, and thus are furthering their skills and qualifications. </p>
 REC_USE_LIM: >-
-  <p>The calculation of this indicator requires to have reliable information on
+  <p>The calculation of this indicator requires having reliable information on
   both the labour market status and the participation in education or training
-  of young persons. The quality of such information is heavily dependent on the
+  of youth. The quality of such information is heavily dependent on the
   questionnaire design, the sample size and design and the accuracy of
   respondents&apos; answers. </p>
 
@@ -113,315 +119,9 @@ REC_USE_LIM: >-
   composition of each sub-group would have policy implications, and thus should
   also be considered when analysing the NEET rate. </p>
 DATA_COMP: >-
-  <p><math xmlns="http://www.w3.org/1998/Math/MathML">
-      <mi mathvariant="normal">Y</mi>
-      <mi mathvariant="normal">o</mi>
-      <mi mathvariant="normal">u</mi>
-      <mi mathvariant="normal">t</mi>
-      <mi mathvariant="normal">h</mi>
-      <mi mathvariant="normal">&amp;nbsp;</mi>
-      <mi mathvariant="normal">N</mi>
-      <mi mathvariant="normal">E</mi>
-      <mi mathvariant="normal">E</mi>
-      <mi mathvariant="normal">T</mi>
-      <mi mathvariant="normal">&amp;nbsp;</mi>
-      <mi mathvariant="normal">&amp;nbsp;</mi>
-      <mi mathvariant="normal">r</mi>
-      <mi mathvariant="normal">a</mi>
-      <mi mathvariant="normal">t</mi>
-      <mi mathvariant="normal">e</mi>
-      <mo>=</mo>
-      <mi mathvariant="normal">&amp;nbsp;</mi>
-      <mfrac>
-        <mrow>
-          <mi>&amp;nbsp;</mi>
-          <mi>Y</mi>
-          <mi>o</mi>
-          <mi>u</mi>
-          <mi>t</mi>
-          <mi>h</mi>
-          <mi>&amp;nbsp;</mi>
-          <mo>&#x2013;</mo>
-          <mo>(</mo>
-          <mi>Y</mi>
-          <mi>o</mi>
-          <mi>u</mi>
-          <mi>t</mi>
-          <mi>h</mi>
-          <mi>&amp;nbsp;</mi>
-          <mi>i</mi>
-          <mi>n</mi>
-          <mi>&amp;nbsp;</mi>
-          <mi>e</mi>
-          <mi>m</mi>
-          <mi>p</mi>
-          <mi>l</mi>
-          <mi>o</mi>
-          <mi>y</mi>
-          <mi>m</mi>
-          <mi>e</mi>
-          <mi>n</mi>
-          <mi>t</mi>
-          <mo>+</mo>
-          <mi>&amp;nbsp;</mi>
-          <mi>Y</mi>
-          <mi>o</mi>
-          <mi>u</mi>
-          <mi>t</mi>
-          <mi>h</mi>
-          <mi>&amp;nbsp;</mi>
-          <mi>n</mi>
-          <mi>o</mi>
-          <mi>t</mi>
-          <mi>&amp;nbsp;</mi>
-          <mi>i</mi>
-          <mi>n</mi>
-          <mi>&amp;nbsp;</mi>
-          <mi>e</mi>
-          <mi>m</mi>
-          <mi>p</mi>
-          <mi>l</mi>
-          <mi>o</mi>
-          <mi>y</mi>
-          <mi>m</mi>
-          <mi>e</mi>
-          <mi>n</mi>
-          <mi>t</mi>
-          <mi>&amp;nbsp;</mi>
-          <mi>b</mi>
-          <mi>u</mi>
-          <mi>t</mi>
-          <mi>&amp;nbsp;</mi>
-          <mi>i</mi>
-          <mi>n</mi>
-          <mi>&amp;nbsp;</mi>
-          <mi>e</mi>
-          <mi>d</mi>
-          <mi>u</mi>
-          <mi>c</mi>
-          <mi>a</mi>
-          <mi>t</mi>
-          <mi>i</mi>
-          <mi>o</mi>
-          <mi>n</mi>
-          <mi>&amp;nbsp;</mi>
-          <mi>o</mi>
-          <mi>r</mi>
-          <mi>&amp;nbsp;</mi>
-          <mi>t</mi>
-          <mi>r</mi>
-          <mi>a</mi>
-          <mi>i</mi>
-          <mi>n</mi>
-          <mi>i</mi>
-          <mi>n</mi>
-          <mi>g</mi>
-          <mo>)</mo>
-        </mrow>
-        <mrow>
-          <mi>Y</mi>
-          <mi>o</mi>
-          <mi>u</mi>
-          <mi>t</mi>
-          <mi>h</mi>
-        </mrow>
-      </mfrac>
-      <mi>&amp;nbsp;</mi>
-      <mo>&#xD7;</mo>
-      <mn>100</mn>
-    </math></p>
   <p>It is important to note here that youth simultaneously in employment and
   education or training should not be double counted when subtracted from the
   total number of youth. The formula can also be expressed as:</p>
-
-  <p><math xmlns="http://www.w3.org/1998/Math/MathML">
-      <mi mathvariant="normal">Y</mi>
-      <mi mathvariant="normal">o</mi>
-      <mi mathvariant="normal">u</mi>
-      <mi mathvariant="normal">t</mi>
-      <mi mathvariant="normal">h</mi>
-      <mi mathvariant="normal">&amp;nbsp;</mi>
-      <mi mathvariant="normal">N</mi>
-      <mi mathvariant="normal">E</mi>
-      <mi mathvariant="normal">E</mi>
-      <mi mathvariant="normal">T</mi>
-      <mi mathvariant="normal">&amp;nbsp;</mi>
-      <mi mathvariant="normal">&amp;nbsp;</mi>
-      <mi mathvariant="normal">r</mi>
-      <mi mathvariant="normal">a</mi>
-      <mi mathvariant="normal">t</mi>
-      <mi mathvariant="normal">e</mi>
-      <mo>=</mo>
-      <mi mathvariant="normal">&amp;nbsp;</mi>
-      <mfrac>
-        <mrow>
-          <mo>(</mo>
-          <mi>U</mi>
-          <mi>n</mi>
-          <mi>e</mi>
-          <mi>m</mi>
-          <mi>p</mi>
-          <mi>l</mi>
-          <mi>o</mi>
-          <mi>y</mi>
-          <mi>e</mi>
-          <mi>d</mi>
-          <mi>&amp;nbsp;</mi>
-          <mi>y</mi>
-          <mi>o</mi>
-          <mi>u</mi>
-          <mi>t</mi>
-          <mi>h</mi>
-          <mi>&amp;nbsp;</mi>
-          <mo>+</mo>
-          <mi>&amp;nbsp;</mi>
-          <mi>Y</mi>
-          <mi>o</mi>
-          <mi>u</mi>
-          <mi>t</mi>
-          <mi>h</mi>
-          <mi>&amp;nbsp;</mi>
-          <mi>o</mi>
-          <mi>u</mi>
-          <mi>t</mi>
-          <mi>s</mi>
-          <mi>i</mi>
-          <mi>d</mi>
-          <mi>e</mi>
-          <mi>&amp;nbsp;</mi>
-          <mi>t</mi>
-          <mi>h</mi>
-          <mi>e</mi>
-          <mi>&amp;nbsp;</mi>
-          <mi>l</mi>
-          <mi>a</mi>
-          <mi>b</mi>
-          <mi>o</mi>
-          <mi>u</mi>
-          <mi>r</mi>
-          <mi>&amp;nbsp;</mi>
-          <mi>f</mi>
-          <mi>o</mi>
-          <mi>r</mi>
-          <mi>c</mi>
-          <mi>e</mi>
-          <mo>)</mo>
-          <mi>&amp;nbsp;</mi>
-          <mo>&#x2013;</mo>
-          <mi>&amp;nbsp;</mi>
-          <mo>(</mo>
-          <mi>U</mi>
-          <mi>n</mi>
-          <mi>e</mi>
-          <mi>m</mi>
-          <mi>p</mi>
-          <mi>l</mi>
-          <mi>o</mi>
-          <mi>y</mi>
-          <mi>e</mi>
-          <mi>d</mi>
-          <mi>&amp;nbsp;</mi>
-          <mi>y</mi>
-          <mi>o</mi>
-          <mi>u</mi>
-          <mi>t</mi>
-          <mi>h</mi>
-          <mi>&amp;nbsp;</mi>
-          <mi>i</mi>
-          <mi>n</mi>
-          <mi>&amp;nbsp;</mi>
-          <mi>e</mi>
-          <mi>d</mi>
-          <mi>u</mi>
-          <mi>c</mi>
-          <mi>a</mi>
-          <mi>t</mi>
-          <mi>i</mi>
-          <mi>o</mi>
-          <mi>n</mi>
-          <mi>&amp;nbsp;</mi>
-          <mi>o</mi>
-          <mi>r</mi>
-          <mi>&amp;nbsp;</mi>
-          <mi>t</mi>
-          <mi>r</mi>
-          <mi>a</mi>
-          <mi>i</mi>
-          <mi>n</mi>
-          <mi>i</mi>
-          <mi>n</mi>
-          <mi>g</mi>
-          <mo>+</mo>
-          <mi>Y</mi>
-          <mi>o</mi>
-          <mi>u</mi>
-          <mi>t</mi>
-          <mi>h</mi>
-          <mi>&amp;nbsp;</mi>
-          <mi>o</mi>
-          <mi>u</mi>
-          <mi>t</mi>
-          <mi>s</mi>
-          <mi>i</mi>
-          <mi>d</mi>
-          <mi>e</mi>
-          <mi>&amp;nbsp;</mi>
-          <mi>t</mi>
-          <mi>h</mi>
-          <mi>e</mi>
-          <mi>&amp;nbsp;</mi>
-          <mi>l</mi>
-          <mi>a</mi>
-          <mi>b</mi>
-          <mi>o</mi>
-          <mi>u</mi>
-          <mi>r</mi>
-          <mi>&amp;nbsp;</mi>
-          <mi>f</mi>
-          <mi>o</mi>
-          <mi>r</mi>
-          <mi>c</mi>
-          <mi>e</mi>
-          <mi>&amp;nbsp;</mi>
-          <mi>i</mi>
-          <mi>n</mi>
-          <mi>&amp;nbsp;</mi>
-          <mi>e</mi>
-          <mi>d</mi>
-          <mi>u</mi>
-          <mi>c</mi>
-          <mi>a</mi>
-          <mi>t</mi>
-          <mi>i</mi>
-          <mi>o</mi>
-          <mi>n</mi>
-          <mi>&amp;nbsp;</mi>
-          <mi>o</mi>
-          <mi>r</mi>
-          <mi>&amp;nbsp;</mi>
-          <mi>t</mi>
-          <mi>r</mi>
-          <mi>a</mi>
-          <mi>i</mi>
-          <mi>n</mi>
-          <mi>i</mi>
-          <mi>n</mi>
-          <mi>g</mi>
-          <mo>)</mo>
-          <mi>&amp;nbsp;</mi>
-        </mrow>
-        <mrow>
-          <mi>Y</mi>
-          <mi>o</mi>
-          <mi>u</mi>
-          <mi>t</mi>
-          <mi>h</mi>
-        </mrow>
-      </mfrac>
-      <mi>&amp;nbsp;</mi>
-      <mo>&#xD7;</mo>
-      <mn>100</mn>
-    </math></p>
 DATA_VALIDATION: >-
   <p>The ILO engages in annual consultations with member States through the
   ILOSTAT questionnaire and related Statistics Reporting System (StaRS).
@@ -453,6 +153,9 @@ IMPUTATION: >-
   <ul>
     <li><strong>At regional and global levels </strong></li>
   </ul>
+
+  <p>Regional and global figures are aggregates of the country-level figures
+  including the imputed values.</p>
 REG_AGG: >-
   <p>The NEET aggregates are derived from the ILO modelled estimates that are
   used to produce global and regional estimates of, amongst others, rates of
@@ -470,42 +173,40 @@ REG_AGG: >-
   https://ilostat.ilo.org/resources/concepts-and-definitions/ilo-modelled-estimates/.
   </p>
 DOC_METHOD: >-
-  <p>In order to calculate this indicator, reliable data are needed on both the
-  labour market situation and the participation in the educational system of the
-  youth. These data are collected at the national level mainly through labour
-  force surveys (or other types of household surveys with an employment module).
-  For the methodology of each national household survey, one must refer to the
-  most comprehensive survey report or to the methodological publications of the
+  <p>To calculate this indicator, reliable data are needed on both the labour
+  market situation and the participation in the educational system of the youth.
+  These data are collected at the national level mainly through labour force
+  surveys (or other types of household surveys with an employment module). For
+  the methodology of each national household survey, one must refer to the most
+  comprehensive survey report or to the methodological publications of the
   national statistical office in question. </p>
-
-  <ul>
-    <li>ILO Guidebook - Decent Work and the Sustainable Development Goals: A Guidebook on SDG Labour Market Indicators (<a href="https://www.ilo.org/stat/Publications/WCMS_647109/lang--en/index.htm" target="_blank"><u>https://www.ilo.org/stat/Publications/WCMS_647109/lang--en/index.htm</u></a> ) </li>
-    <li>ILO Manual &#x2013; Decent Work Indicators, Concepts and Definitions &#x2013; Chapter 1, Employment opportunities <a href="http://www.ilo.org/integration/resources/pubs/WCMS_229374/lang--en/index.htm" target="_blank"><u>http://www.ilo.org/integration/resources/pubs/WCMS_229374/lang--en/index.htm</u></a> (second version, page 38) </li>
-    <li>Resolution concerning statistics of work, employment and labour underutilization <a href="http://www.ilo.org/global/statistics-and-databases/standards-and-guidelines/resolutions-adoptedby-international-conferences-of-labour-statisticians/WCMS_230304/lang--en/index.htm" target="_blank"><u>http://www.ilo.org/global/statistics-and-databases/standards-and-guidelines/resolutions-adoptedby-international-conferences-of-labour-statisticians/WCMS_230304/lang--en/index.htm</u></a> </li>
-  </ul>
-
-  <p>International Standard Classification of Education 2011 (ISCED-2011) <a
-  href="http://www.uis.unesco.org/Education/Pages/international-standard-classification-of-education.aspx"
-  target="_blank"><u>http://www.uis.unesco.org/Education/Pages/international-standard-classification-of-education.aspx</u></a>
-  </p>
-
-  <ul>
-    <li>ILOSTAT (<a href="https://ilostat.ilo.org/" target="_blank">https://ilostat.ilo.org/</a>). </li>
-    <li>ILOSTAT&#x2019;s Indicator Descriptions &#x2013; Youth NEET rate (<a href="https://ilostat.ilo.org/resources/methods/description-youth-neet/" target="_blank">https://ilostat.ilo.org/resources/methods/description-youth-neet/</a>). </li>
-  </ul>
+QUALITY_MGMNT: >-
+  <p>The processes of compilation, production, and publication of data,
+  including its quality control, are carried out following the methodological
+  framework and standards established by the ILO Department of Statistics, in
+  compliance with the information technology and management standards of the
+  ILO.</p>
 QUALITY_ASSURE: >-
   <p>Data consistency and quality checks are regularly conducted for validation
   of the data before dissemination in the ILOSTAT database. </p>
+QUALITY_ASSMNT: >-
+  <p>The final assessment of the quality of information is carried out by the
+  Data Production and Analysis Unit of the ILO Department of Department. In
+  cases of doubt about the quality of specific data, these values are reviewed
+  with the participation of the national agencies responsible for producing the
+  data if appropriate. If the issues cannot be clarified, the respective
+  information is not published. </p>
 COVERAGE: >-
   <p><strong>Data availability: </strong></p>
 
-  <p>Data for this indicator is available for 157 countries and territories.</p>
+  <p>Data for this indicator is available for 168 countries and territories.</p>
 
   <p><strong>Time series: </strong></p>
 
   <p>Country data for this indicator is available as of 2000 in the SDG
   Indicators Global Database, but longer time series are available in ILOSTAT.
-  Regional data in this submission covers a period of 2005 to 2019.</p>
+  Global and regional data in this submission covers a period of 2005 to
+  2020.</p>
 
   <p><strong>Disaggregation:</strong></p>
 
@@ -521,17 +222,14 @@ COMPARABILITY: >-
   participation in education or training will naturally affect the comparability
   of the resulting statistics, as will the coverage of the source of statistics
   (geographical coverage, population coverage, age coverage, etc.).</p>
-OTHER_DOC: >-
+OTHER_DOC: |-
   <ul>
-    <li>ILO Guidebook - Decent Work and the Sustainable Development Goals: A Guidebook on SDG Labour Market Indicators (<a href="https://www.ilo.org/stat/Publications/WCMS_647109/lang--en/index.htm" target="_blank"><u>https://www.ilo.org/stat/Publications/WCMS_647109/lang--en/index.htm</u></a> ) </li>
+    <li>ILO Guidebook - Decent Work and the Sustainable Development Goals: A Guidebook on SDG Labour Market Indicators (https://www.ilo.org/global/statistics-and-databases/publications/WCMS_647109/lang--en/index.htm ) </li>
     <li>Decent Work Indicators Manual: <a href="http://www.ilo.org/wcmsp5/groups/public/---dgreports/---stat/documents/publication/wcms_223121.pdf" target="_blank"><u>http://www.ilo.org/wcmsp5/groups/public/---dgreports/---stat/documents/publication/wcms_223121.pdf</u></a> </li>
-    <li>Resolution concerning statistics of work, employment and labour underutilization, adopted by the 19<sup>th</sup> ICLS in 2013: <a href="http://www.ilo.org/global/statistics-and-databases/standards-and-guidelines/resolutions-adoptedby-international-conferences-of-labour-statisticians/WCMS_230304/lang--en/index.htm" target="_blank"><u>http://www.ilo.org/global/statistics-and-databases/standards-and-guidelines/resolutions-adoptedby-international-conferences-of-labour-statisticians/WCMS_230304/lang--en/index.htm</u></a> </li>
-    <li>International Standard Classification of Education (ISCED) developed by UNESCO: <a href="http://www.uis.unesco.org/Education/Pages/international-standard-classification-of-education.aspx" target="_blank"><u>http://www.uis.unesco.org/Education/Pages/international-standard-classification-of-education.aspx</u></a> </li>
+    <li>Resolution concerning statistics of work, employment and labour underutilization, adopted by the 19<sup>th</sup> ICLS in 2013: <a href="https://www.ilo.org/global/statistics-and-databases/standards-and-guidelines/resolutions-adopted-by-international-conferences-of-labour-statisticians/WCMS_230304/lang--en/index.htm">https://www.ilo.org/global/statistics-and-databases/standards-and-guidelines/resolutions-adopted-by-international-conferences-of-labour-statisticians/WCMS_230304/lang--en/index.htm</a> </li>
+    <li>International Standard Classification of Education (ISCED) developed by UNESCO: http://uis.unesco.org/en/topic/international-standard-classification-education-isced </li>
     <li>What does NEETs mean and why is the concept so easily misinterpreted? (ILO, W4Y, Technical brief n&#xB0;1): <a href="http://www.ilo.org/wcmsp5/groups/public/---dgreports/---dcomm/documents/publication/wcms_343153.pdf" target="_blank"><u>http://www.ilo.org/wcmsp5/groups/public/---dgreports/---dcomm/documents/publication/wcms_343153.pdf</u></a> </li>
     <li>ILOSTAT (<a href="https://ilostat.ilo.org/" target="_blank"><u>https://ilostat.ilo.org/</u></a>). </li>
+    <li>ILOSTAT&#x2019;s Indicator Descriptions &#x2013; Youth NEET rate (https://ilostat.ilo.org/resources/concepts-and-definitions/description-youth-neet/). </li>
+    <li>ILO Manual &#x2013; Decent Work Indicators, Concepts and Definitions &#x2013; Chapter 1, Employment opportunities <a href="http://www.ilo.org/integration/resources/pubs/WCMS_229374/lang--en/index.htm" target="_blank"><u>http://www.ilo.org/integration/resources/pubs/WCMS_229374/lang--en/index.htm</u></a> (second version, page 38). </li>
   </ul>
-
-  <p>ILOSTAT&#x2019;s Indicator Descriptions &#x2013; Youth NEET rate (<a
-  href="https://ilostat.ilo.org/resources/methods/description-youth-neet/"
-  target="_blank"><u>https://ilostat.ilo.org/resources/methods/description-youth-neet/</u></a>).
-  </p>

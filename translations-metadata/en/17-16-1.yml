@@ -11,8 +11,16 @@ SDG_INDICATOR: >-
   <p>Indicator 17.16.1: Number of countries reporting progress in
   multi-stakeholder development effectiveness monitoring frameworks that support
   the achievement of the sustainable development goals</p>
-META_LAST_UPDATE: <p>2021-02-12</p>
-SDG_RELATED_INDICATORS: <p>17.15 and 5c.</p>
+SDG_SERIES_DESCR: >-
+  <p>Number of countries reporting progress in multi-stakeholder development
+  effectiveness monitoring frameworks that support the achievement of the
+  sustainable development goals &#x2013; data by provider countries</p>
+
+  <p>Number of countries reporting progress in multi-stakeholder development
+  effectiveness monitoring frameworks that support the achievement of the
+  sustainable development goals &#x2013; data by recipient countries</p>
+META_LAST_UPDATE: '2022-03-31'
+SDG_RELATED_INDICATORS: <p>17.15 and 5.c.1</p>
 SDG_CUSTODIAN_AGENCIES: |-
   <p>Organisation for Economic Co-operation and Development (OECD)</p>
   <p>United Nations Development Programme (UNDP)</p>
@@ -22,10 +30,10 @@ CONTACT_ORGANISATION: |-
 STAT_CONC_DEF: >-
   <p><strong>Definition:</strong></p>
 
-  <p>The indicator tracks the number of countries reporting progress in multi
-  stakeholder monitoring frameworks that track the implementation of development
-  effectiveness commitments supporting the achievement of sustainable
-  development goals (SDGs). </p>
+  <p>The indicator tracks the number of countries reporting progress in
+  multi-stakeholder monitoring frameworks that track the implementation of
+  development effectiveness commitments supporting the achievement of
+  sustainable development goals (SDGs). </p>
 
   <p><strong>Concepts:</strong></p>
 
@@ -37,7 +45,7 @@ STAT_CONC_DEF: >-
   indicators measure the strength of the relationship between development
   actors; </p>
 
-  <p>&#x2022; where data collection and review is led by the countries
+  <p>&#x2022; where data collection and review are led by the countries
   themselves; and where participation in data collection and review involves
   relevant stakeholders representing, at minimum, the public sector, the private
   sector and civil society organizations.</p>
@@ -51,16 +59,17 @@ STAT_CONC_DEF: >-
   <p>The Global Partnership for Effective Development Cooperation (Global
   Partnership) monitoring framework is an example of existing development
   effectiveness monitoring frameworks. There are other complementary efforts,
-  such as the ECOSOC Development Cooperation Forum (DCF) mutual accountability
-  survey. Emerging and future monitoring frameworks that fit the above
-  definition, such as recent efforts to track South-South Cooperation by SEGIB,
-  could also be considered.</p>
+  such as the United Nations Economic and Social Council (ECOSOC) Development
+  Cooperation Forum (DCF) mutual accountability survey. Emerging and future
+  monitoring frameworks that fit the above definition, such as recent efforts to
+  track South-South Cooperation by the Ibero-American General Secretariat
+  (SEGIB), could also be considered.</p>
 UNIT_MEASURE: <p>Number of countries</p>
 CLASS_SYSTEM: >-
   <p>For developing countries, classification is based on SDG grouping provided
-  by the UN Statistical Office (regional classification, LDCs, LLDCs, SIDS).
-  Income classification follows the World Bank grouping (low, lower-middle,
-  upper-middle, and high income. </p>
+  by the UN Statistical Office (regional classification, Least Developed
+  Countries (LDCs), Landlocked Developing Countries (LLDCs), Small Island
+  Developing States (SIDS)). </p>
 
   <p>For development partners, classification is based on SDG grouping
   (regional). In addition, bilateral partners can be distinguished between
@@ -82,7 +91,7 @@ SOURCE_TYPE: >-
   studies, informing global monitoring and providing practical suggestions for
   improving development results. Synergies with the measurement of indicator 7
   of the Global Partnership monitoring framework are being used. Other
-  complementary sources of data (i.e. additional multi- stakeholder frameworks)
+  complementary sources of data (i.e. additional multi-stakeholder frameworks)
   may be incorporated in the future to provide a broader picture of progress
   made by countries towards development effectiveness in support of SDG
   implementation. </p>
@@ -97,7 +106,7 @@ COLL_METHOD: >-
   Society Organisations, the private sector, and trade unions) to gather and
   validate data.</p>
 
-  <p>The data is then reviewed by headquarters offices of providers of
+  <p>The data is then reviewed by headquarters/offices of providers of
   development co-operation.</p>
 
   <p>(iii) No adjustments are made to submitted data, given that the validation
@@ -106,17 +115,18 @@ COLL_METHOD: >-
   revision.</p>
 FREQ_COLL: >-
   <p>The data collection calendar for global data aggregation was on a biennial
-  cycle. Data has been collected in 2016 and 2018. The next monitoring round
-  will take place starting from 2023. </p>
+  cycle prior to 2020. Data has been reported based on data collected in 2016
+  and 2018. The next monitoring round will take place starting from 2023 with
+  data collection occurring on a rolling basis. </p>
 REL_CAL_POLICY: >-
   <p>Data release is scheduled for the first quarter in the year that
   immediately follows the national data gathering processes.</p>
 DATA_SOURCE: >-
-  <p>Leading central ministry from reporting countries. Typically the Ministry
+  <p>Leading central ministry from reporting countries. Typically, the Ministry
   of Finance, the Ministry of Planning, or the Ministry of Foreign Affairs,
   depending on the division of labour within each government.</p>
 
-  <p>Description:</p>
+  <p><strong>Description:</strong></p>
 
   <p>Representatives from the leading ministry in country governments &#x2013;-
   are responsible for leading the national data gathering process and
@@ -126,7 +136,10 @@ DATA_SOURCE: >-
   and trade unions. For calculation of indicator 17.16.1, country governments
   submit the data to the OECD/UNDP Joint Support Team of the Global
   Partnership.</p>
-COMPILING_ORG: <p>OECD and UNDP jointly compile and report the data at the global level.</p>
+COMPILING_ORG: >-
+  <p>Organisation for Economic Co-operation and Development (OECD) and United
+  Nations Development Programme (UNDP) jointly compile and report the data at
+  the global level.</p>
 INST_MANDATE: >-
   <p>As custodians of this SDG indicator, OECD and UNDP are responsible for
   providing technical guidance and supporting countries to collect data,
@@ -183,9 +196,9 @@ REC_USE_LIM: >-
   development cooperation opt to report in their role as recipient and/or
   provider of development cooperation.</p>
 DATA_COMP: >-
-  <p>To reflect the universal nature of target 17.16 this indicator is presented
-  as the global aggregate number of countries reporting progress. For any
-  country reporting towards one (or more) multi-stakeholder development
+  <p>To reflect the universal nature of target 17.16, this indicator is
+  presented as the global aggregate number of countries reporting progress. For
+  any country reporting towards one (or more) multi-stakeholder development
   effectiveness framework(s), the country is considered to be reporting progress
   when, for the year of reference, the number of indicators within the
   framework(s) that show a positive trend is greater than the number of
@@ -215,7 +228,7 @@ DATA_COMP: >-
   <ol>
     <li><em>Leading in setting up national priorities: </em>Countries strengthen their<em> </em>national results frameworks.</li>
     <li><em>Creating an enabling environment for civil society organisations: </em>Civil society organizations operate within an environment that maximises their engagement in and contribution to development.</li>
-    <li><em>Promoting private sector engagement and contribution to development: </em>Quality of public-private dialogue </li>
+    <li><em>Promoting private sector engagement and contribution to development: </em>Quality of public-private dialogue. </li>
     <li><em>Recording development cooperation on budgets subject to parliamentary oversight</em>: Share of development cooperation funds planned to/for the country&#x2019;s public sector that are recorded in the annual budget submitted for legislative approval.</li>
     <li><em>Strengthening mutual accountability: </em>Mutual accountability among development actors is strengthened through inclusive reviews.</li>
     <li><em>Strengthening gender equality and women&#x2019;s empowerment: </em>Existence of transparent government systems to track public allocations for gender equality and women&#x2019;s empowerment. </li>
@@ -236,7 +249,7 @@ DATA_COMP: >-
   cooperation. </p>
 
   <p>The baseline for assessing progress is the latest measurement available for
-  each specific country. When no baseline exists for a country, the first
+  each specific count When no baseline exists for a country, the first
   measurement available for an indicator constitutes the baseline for future
   measurements of progress.</p>
 
@@ -245,7 +258,9 @@ DATA_COMP: >-
   as &#x201C;making progress&#x201D;. </p><div class="footnotes"><div><sup
   class="footnote-number" id="footnote-2">1</sup><p> Estimates currently
   available for countries that are members of the OECD Development Assistance
-  Committee. <a href="#footnote-ref-2">&#x2191;</a></p></div></div>
+  Committee. Data can be found at
+  https://stats.oecd.org/Index.aspx?DataSetCode=TABLE7B <a
+  href="#footnote-ref-2">&#x2191;</a></p></div></div>
 DATA_VALIDATION: >-
   <p>The OECD and UNDP review the project level data submitted by partner
   countries in consultation and coordination with countries&#x2019; national
@@ -276,9 +291,7 @@ DOC_METHOD: >-
   and Spanish. A separate guide in English is also available to providers of
   development co-operation. The guidance is updated regularly. The guide for
   national coordinators is available at
-  https://www.effectivecooperation.org/content/2018-monitoring-guide-national-co-ordinators.
-  The guide for providers is available at
-  https://www.effectivecooperation.org/content/2018-monitoring-round-mini-guide-development-partners.
+  https://www.effectivecooperation.org/system/files/2020-09/2018_Monitoring_Guide_National_Coordinator.pdf.
   </p>
 QUALITY_MGMNT: >-
   <p>The national coordinator has the main responsibility to ensure the quality
@@ -305,6 +318,10 @@ COVERAGE: >-
 
   <p><strong>Time series:</strong></p>
 
+  <p>Data for countries have been compiled in 2016 and 2018. From 2023, data
+  will be available on a rolling basis with all countries encouraged to report
+  at least once within a four-year cycle.</p>
+
   <p><strong>Disaggregation:</strong></p>
 
   <p>The indicator presented as a global aggregate is generated through a
@@ -321,18 +338,17 @@ COVERAGE: >-
   in Africa, the Asia-Pacific Development Effectiveness Facility in
   Asia-Pacific, the Pacific Islands Forum Secretariat, the UN Regional Economic
   Commissions). </p>
-COMPARABILITY: >-
-  <p><strong>Sources of discrepancies:</strong></p>
-
-  <p>The national figures are directly aggregated to come up with global
-  estimates. </p>
+COMPARABILITY: '<p><strong>Sources of discrepancies:</strong></p>'
 OTHER_DOC: >-
   <h2>URL:</h2>
 
-  <p>http://effectivecooperation.org/</p>
+  <p><a
+  href="http://effectivecooperation.org/">http://effectivecooperation.org/</a>
+  </p>
 
-  <p><strong>Internationally agreed methodology and guideline URL: </strong><a
-  href="http://effectivecooperation.org/pdf/2018_Monitoring_Guide_National_Coordinator.pdf">http://effectivecooperation.org/pdf/2018_Monitoring_Guide_National_Coordinator.pdf</a></p>
+  <p><strong>Internationally agreed methodology and guideline URL:
+  </strong>https://www.effectivecooperation.org/system/files/2020-09/2018_Monitoring_Guide_National_Coordinator.pdf
+  </p>
 
   <h2>References:</h2>
 
@@ -346,8 +362,7 @@ OTHER_DOC: >-
   Network: A Global Initiative for the United Nations. New York: SDSN.</p>
 
   <p>GPEDC (2018). 2018 <em>Monitoring Guide</em>. /Paris/New York. Available
-  at: <a
-  href="http://effectivecooperation.org/pdf/2018_Monitoring_Guide_National_Coordinator.pdf">http://effectivecooperation.org/pdf/2018_Monitoring_Guide_National_Coordinator.pdf</a></p>
+  at: 09/2018_Monitoring_Guide_National_Coordinator.pdf </p>
 
   <p>Hazlewood, P. (2015). Global Multi-stakeholder Partnerships: Scaling Up
   Public-Private Collective Impact for SDGs. Independent Research Forum,
@@ -358,4 +373,4 @@ OTHER_DOC: >-
   for Development Cooperation. ECOSOC: DCG Germany High-Level Symposium.</p>
 
   <p>Ocampo, Jose Antonio (2015). A Post-2015 Monitoring and Accountability
-  Framework. UNDESA: CDP Background Paper No. 27. ST/ESA/2015/CDP/27</p>
+  Framework. UNDESA: CDP Background Paper No. 27. ST/ESA/2015/CDP/27.</p>

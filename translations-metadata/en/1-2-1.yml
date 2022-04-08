@@ -6,7 +6,8 @@ SDG_TARGET: >-
 SDG_INDICATOR: >-
   <p>Indicator 1.2.1: Proportion of population living below the national poverty
   line, by sex and age</p>
-META_LAST_UPDATE: <p>2021-08-01</p>
+SDG_SERIES_DESCR: <p>Not applicable</p>
+META_LAST_UPDATE: '2022-03-31'
 SDG_RELATED_INDICATORS: >-
   <p>Indicator 1.1.1: Proportion of population below the international poverty
   line, by sex, age, employment status and geographical location
@@ -45,7 +46,7 @@ SOURCE_TYPE: >-
   Bank assesses the methodology used by the government, validates the estimates
   with raw data whenever possible, and consults the country economists for
   publishing. Accepted estimates, along with metadata, will be published in the
-  WDI database as well as the Poverty and Equity Database of the World Bank.
+  WDI database as well as the Poverty and Inequality Platform of the World Bank.
   </p>
 
   <p>Another source is World Bank&#x2019;s Poverty Assessments. The World Bank
@@ -351,17 +352,17 @@ COVERAGE: >-
 
   <p>Data availability depends on the availability of household surveys and
   analysis of survey data. Data for total poverty are currently available for
-  156 countries.</p>
+  154 countries.</p>
 
   <p><strong>Time series:</strong></p>
 
-  <p>Data are available from 1984 to 2019. Because the effort and capacity of
+  <p>Data are available from 1985 to 2020. Because the effort and capacity of
   collecting and analysing survey data are different for each country, the
   length of the time series for each country varies greatly. </p>
 
   <p><strong>Disaggregation:</strong></p>
 
-  <p>The only aggregation is by rural and urban areas.</p>
+  <p>Currently no disaggregation is made.</p>
 COMPARABILITY: >-
   <p><strong>Sources of discrepancies:</strong></p>
 
@@ -374,10 +375,9 @@ COMPARABILITY: >-
 OTHER_DOC: >-
   <p><strong>URL:</strong></p>
 
-  <p>Poverty and Equity Data Portal</p>
+  <p>Poverty and Inequality Platform</p>
 
-  <p><a
-  href="http://povertydata.worldbank.org/poverty/home/">http://povertydata.worldbank.org/poverty/home/</a></p>
+  <p><a href="http://pip.worldbank.org/">http://pip.worldbank.org/</a></p>
 
   <p><strong>References:</strong></p>
 

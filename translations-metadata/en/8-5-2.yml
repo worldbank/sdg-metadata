@@ -8,11 +8,14 @@ SDG_TARGET: >-
 SDG_INDICATOR: >-
   <p>Indicator 8.5.2: Unemployment rate, by sex, age and persons with
   disabilities </p>
-META_LAST_UPDATE: <p>2021-01-01</p>
-SDG_RELATED_INDICATORS: '<p>1.1.1, 8.2.1, 8.6.1, 10.4.1</p>'
-SDG_CUSTODIAN_AGENCIES: <p>ILO </p>
+SDG_SERIES_DESCR: |-
+  <p>Unemployment rate, by sex and age</p>
+  <p>Unemployment rate, by sex and disability</p>
+META_LAST_UPDATE: '2022-03-31'
+SDG_RELATED_INDICATORS: '<p>1.1.1, 8.2.1, 8.3.1, 8.6.1, 10.4.1</p>'
+SDG_CUSTODIAN_AGENCIES: <p>International Labour Organization (ILO) </p>
 CONTACT_ORGANISATION: |-
-  <p>ILO</p>
+  <p>International Labour Organization (ILO)</p>
   <p> </p>
 STAT_CONC_DEF: >-
   <p><strong>Definition:</strong> </p>
@@ -63,7 +66,7 @@ STAT_CONC_DEF: >-
   Labour Statisticians. </p>
 
   <p> </p>
-UNIT_MEASURE: <p>Percentage</p>
+UNIT_MEASURE: <p>Percent (%)</p>
 CLASS_SYSTEM: >-
   <p>Disability status is based on the WHO International Classification of
   Functioning, Disability and Health (ICF), according to which disability covers
@@ -88,7 +91,7 @@ SOURCE_TYPE: >-
   not be comparable with indicator 8.5.2. </p>
 COLL_METHOD: >-
   <p>The ILO Department of Statistics processes national household survey
-  microdatasets in line with internationally-agreed indicator concepts and
+  microdata sets in line with internationally-agreed indicator concepts and
   definitions set forth by the International Conference of Labour Statisticians.
   For data that could not be obtained through this processing or directly from
   government websites, the ILO sends out an annual ILOSTAT questionnaire to all
@@ -102,7 +105,7 @@ DATA_SOURCE: >-
   <p>Mainly national statistical offices, and in some cases labour ministries or
   other related agencies, at the country-level. In some cases, regional or
   international statistical offices can also act as data providers. </p>
-COMPILING_ORG: <p>ILO</p>
+COMPILING_ORG: <p>International Labour Organization (ILO)</p>
 INST_MANDATE: >-
   <p>The ILO is the UN focal point for labour statistics. It sets international
   standards for labour statistics through the International Conference of Labour
@@ -133,6 +136,7 @@ REC_USE_LIM: >-
   measures should supplement the unemployment rate to comprehensively assess
   labour underutilization. </p>
 DATA_COMP: |-
+  <p>The computation is identical for both series:</p>
   <p><math xmlns="http://www.w3.org/1998/Math/MathML">
       <mi mathvariant="normal">U</mi>
       <mi mathvariant="normal">n</mi>
@@ -219,15 +223,18 @@ IMPUTATION: >-
   calculate the global and regional estimates; they are not used for
   international reporting on the SDG indicators by the ILO. </p>
 
-  <p>For further information on the estimates, please refer to the the ILO
-  modelled estimates methodological overview, available at
-  https://www.ilo.org/ilostat-files/Documents/TEM.pdf</p>
+  <p>For further information on the estimates, please refer to the ILO modelled
+  estimates methodological overview, available at <a
+  href="https://www.ilo.org/ilostat-files/Documents/TEM.pdf">https://www.ilo.org/ilostat-files/Documents/TEM.pdf</a>.</p>
 
   <p> </p>
 
   <ul>
     <li><strong>At regional and global levels </strong></li>
   </ul>
+
+  <p>Regional and global figures are aggregates of the country-level figures
+  including the imputed values.</p>
 REG_AGG: >-
   <p>To address the problem of missing data, the ILO designed several
   econometric models which are used to produce estimates of labour market
@@ -240,7 +247,7 @@ REG_AGG: >-
   estimates methodological overview, available at <a
   href="https://www.ilo.org/ilostat-files/Documents/TEM.pdf">https://www.ilo.org/ilostat-files/Documents/TEM.pdf</a>.</p>
 DOC_METHOD: >-
-  <p>In order to calculate this indicator (according to the ILO definitions of
+  <p>To calculate this indicator (according to the ILO definitions of
   unemployment and unemployment rate), data is needed on both the labour force
   and the unemployed, by sex and age (and eventually disability status). This
   data is collected at the national level mainly through labour force surveys
@@ -249,47 +256,48 @@ DOC_METHOD: >-
   comprehensive survey report or to the methodological publications of the
   national statistical office in question. </p>
 
-  <ul>
-    <li>Decent Work and the Sustainable Development Goals: A Guidebook on SDG Labour Market Indicators, available at <a href="https://www.ilo.org/stat/Publications/WCMS_647109/lang--en/index.htm" target="_blank"><u>https://www.ilo.org/stat/Publications/WCMS_647109/lang--en/index.htm</u></a> </li>
-    <li>ILO Manual &#x2013; Decent Work Indicators, Concepts and Definitions &#x2013; Chapter 1, Employment opportunities <a href="http://www.ilo.org/integration/resources/pubs/WCMS_229374/lang--en/index.htm" target="_blank"><u>http://www.ilo.org/integration/resources/pubs/WCMS_229374/lang--en/index.htm</u></a> (second version, pages 34 and 49) </li>
-    <li>Resolution concerning statistics of work, employment and labour underutilization <a href="http://www.ilo.org/global/statistics-and-databases/standards-and-guidelines/resolutions-adoptedby-international-conferences-of-labour-statisticians/WCMS_230304/lang--en/index.htm" target="_blank"><u>http://www.ilo.org/global/statistics-and-databases/standards-and-guidelines/resolutions-adoptedby-international-conferences-of-labour-statisticians/WCMS_230304/lang--en/index.htm</u></a> </li>
-    <li>ILOSTAT (<a href="https://ilostat.ilo.org/" target="_blank"><u>https://ilostat.ilo.org/</u></a>) </li>
-    <li>ILOSTAT Indicator descriptions (<u>https://ilostat.ilo.org/resources/methods/description-unemployment-rate/</u>) </li>
-    <li>ILOSTAT&#x2019;s topic page on Unemployment and Labour Underutilization (https://ilostat.ilo.org/topics/unemployment-and-labour-underutilization/). </li>
-  </ul>
+  <p>For further information, see section 7 with references and documentation.
+  </p>
 QUALITY_MGMNT: >-
-  <p>Data consistency and quality checks regularly conducted for validation of
-  the data before dissemination in the ILOSTAT database. In many cases, data are
-  obtained through ILO processing of microdata sets of national household
-  surveys. Data are also reported by national statistical offices or other
-  relevant national agencies to the ILO Department of Statistics through its
-  annual questionnaire on labour statistics. The primary source of the data as
-  well as the repository where applicable are indicated in the relevant metadata
-  and/or footnotes in ILOSTAT and in the SDG Indicators Global Database. </p>
+  <p>The processes of compilation, production, and publication of data,
+  including its quality control, are carried out following the methodological
+  framework and standards established by the ILO Department of Statistics, in
+  compliance with the information technology and management standards of the
+  ILO.</p>
 QUALITY_ASSURE: >-
   <p>Data consistency and quality checks are regularly conducted for validation
   of the data before dissemination in the ILOSTAT database.</p>
 
   <p> </p>
+QUALITY_ASSMNT: >-
+  <p>The final assessment of the quality of information is carried out by the
+  Data Production and Analysis Unit of the ILO Department of Department. In
+  cases of doubt about the quality of specific data, these values are reviewed
+  with the participation of the national agencies responsible for producing the
+  data if appropriate. If the issues cannot be clarified, the respective
+  information is not published. </p>
 COVERAGE: >-
   <p><strong>Data availability:</strong></p>
 
-  <p>Data disaggregated by sex and age for this indicator is available for 186
+  <p>Data disaggregated by sex and age for this indicator is available for 216
   countries and territories. The indicator is widely available based on real
   observations provided by countries and derived from national labour force
   surveys, other types of household surveys or population census. </p>
 
   <p>However, the disaggregation by disability is not widely available and this
-  submission only includes 68 countries and territories. It is increasingly
+  submission only includes 101 countries and territories. It is increasingly
   reported but coverage is still very low. </p>
 
   <p><strong>Time series:</strong><br>Data for disaggregation by sex and age for
-  this indicator is available as of 2000 until 2019 for countries in the SDG
+  this indicator is available as of 2000 until 2021 for countries in the SDG
   Indicators Global Database, but time series going back further are available
-  in ILOSTAT. 2020 regional aggregates are available for total population. </p>
+  in ILOSTAT. 2020 regional aggregates are available for total population.
+  Global and regional aggregates disaggregated by sex and age are available
+  through 2020 and aggregates disaggregated by sex only are available for
+  2021.</p>
 
   <p>Data for disaggregation by disability status is available for the period
-  from 2005 to 2019. </p>
+  from 2003 to 2021 at the country level. </p>
 
   <p><strong>Disaggregation:</strong></p>
 
@@ -313,14 +321,15 @@ COMPARABILITY: >-
   light on labour market failures.</p>
 OTHER_DOC: |-
   <ul>
-    <li>Decent Work and the Sustainable Development Goals: A Guidebook on SDG Labour Market Indicators, available at <a href="https://www.ilo.org/stat/Publications/WCMS_647109/lang--en/index.htm" target="_blank"><u>https://www.ilo.org/stat/Publications/WCMS_647109/lang--en/index.htm</u></a> </li>
+    <li>Decent Work and the Sustainable Development Goals: A Guidebook on SDG Labour Market Indicators, available at <a href="https://www.ilo.org/global/statistics-and-databases/publications/WCMS_647109/lang--en/index.htm">https://www.ilo.org/global/statistics-and-databases/publications/WCMS_647109/lang--en/index.htm</a> </li>
     <li>ILOSTAT (<a href="https://ilostat.ilo.org/" target="_blank"><u>https://ilostat.ilo.org/</u></a>) </li>
-    <li>ILOSTAT Indicator descriptions (<u>https://ilostat.ilo.org/resources/methods/description-unemployment-rate/</u>) </li>
+    <li>ILOSTAT Indicator descriptions (<u>https://ilostat.ilo.org/resources/concepts-and-definitions/description-unemployment-rate/</u>) </li>
     <li>ILOSTAT&#x2019;s topic page on Unemployment and Labour Underutilization (https://ilostat.ilo.org/topics/unemployment-and-labour-underutilization/). </li>
-    <li>Decent Work Indicators Manual: http://www.ilo.org/wcmsp5/groups/public/---dgreports/--- </li>
+    <li>Decent Work Indicators Manual: <u>http://www.ilo.org/wcmsp5/groups/public/---dgreports/--- </u></li>
   </ul>
-  <p>stat/documents/publication/wcms_223121.pdf </p>
+  <p><u>stat/documents/publication/wcms_223121.pdf </u></p>
   <ul>
-    <li>Resolution concerning statistics of work, employment and labour underutilization, adopted by the 19<sup>th</sup> ICLS in 2013: <a href="http://www.ilo.org/global/statistics-and-databases/standards-and-guidelines/resolutions-adoptedby-international-conferences-of-labour-statisticians/WCMS_230304/lang--en/index.htm" target="_blank"><u>http://www.ilo.org/global/statistics-and-databases/standards-and-guidelines/resolutions-adoptedby-international-conferences-of-labour-statisticians/WCMS_230304/lang--en/index.htm</u></a> </li>
+    <li>Resolution concerning statistics of work, employment and labour underutilization, adopted by the 19<sup>th</sup> ICLS in 2013: <a href="https://www.ilo.org/global/statistics-and-databases/standards-and-guidelines/resolutions-adopted-by-international-conferences-of-labour-statisticians/WCMS_230304/lang--en/index.htm">https://www.ilo.org/global/statistics-and-databases/standards-and-guidelines/resolutions-adopted-by-international-conferences-of-labour-statisticians/WCMS_230304/lang--en/index.htm</a> </li>
     <li>Trends Econometric Models: A Review of Methodology: <a href="http://www.ilo.org/wcmsp5/groups/public/---ed_emp/---emp_elm/---trends/documents/publication/wcms_120382.pdf" target="_blank"><u>http://www.ilo.org/wcmsp5/groups/public/---ed_emp/---emp_elm/---trends/documents/publication/wcms_120382.pdf</u></a> </li>
+    <li>ILO Manual &#x2013; Decent Work Indicators, Concepts and Definitions &#x2013; Chapter 1, Employment opportunities <a href="http://www.ilo.org/integration/resources/pubs/WCMS_229374/lang--en/index.htm" target="_blank"><u>http://www.ilo.org/integration/resources/pubs/WCMS_229374/lang--en/index.htm</u></a> (second version, pages 34 and 49) </li>
   </ul>

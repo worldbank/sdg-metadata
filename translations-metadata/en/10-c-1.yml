@@ -6,7 +6,8 @@ SDG_TARGET: >-
 SDG_INDICATOR: >-
   <p>Indicator 10.c.1: Remittance costs as a proportion of the amount
   remitted</p>
-META_LAST_UPDATE: <p>2018-02-02</p>
+SDG_SERIES_DESCR: <p>Not applicable</p>
+META_LAST_UPDATE: '2022-03-31'
 SDG_RELATED_INDICATORS: >-
   <p>G20 5x5 target &#x2013; Remittance cost reduction for development. In 2009,
   the G8 set a target, later adopted by the G20, to reduce the cost of
@@ -34,34 +35,42 @@ STAT_CONC_DEF: >-
 
   <p><strong>Concepts:</strong></p>
 
-  <p>International remittance transfer. A cross-border person-to-person payment
-  of relatively low value. The transfers are typically recurrent payments by
-  migrant workers (who send money to their families in their home country every
-  month). In the report, the term &#x201C;remittance transfer&#x201D; is used
-  for simplicity (ie it is assumed the transfer is international).</p>
+  <p><strong>International remittance transfer.</strong> A cross-border
+  person-to-person payment of relatively low value. The transfers are typically
+  recurrent payments by migrant workers (who send money to their families in
+  their home country every month). In the report, the term &#x201C;remittance
+  transfer&#x201D; is used for simplicity (ie it is assumed the transfer is
+  international).</p>
 
-  <p>Remittance service. A service that enables end users to send and/or receive
-  remittance transfers.</p>
+  <p><strong>Remittance service.</strong> A service that enables end users to
+  send and/or receive remittance transfers.</p>
 
-  <p>Remittance service provider (RSP). An entity, operating as a business, that
-  provides a remittance service for a price to end users, either directly or
-  through agents. These include both banks and money transfer operators, as
-  defined below.</p>
+  <p><strong>Remittance service provider (RSP).</strong> An entity, operating as
+  a business, that provides a remittance service for a price to end users,
+  either directly or through agents. These include both banks and money transfer
+  operators, as defined below.</p>
 
-  <p>Money transfer operator (MTO). A non-deposit taking payment service
-  provider where the service involves payment per transfer (or possibly payment
-  for a set or series of transfers) by the sender to the payment service
-  provider (for example, by cash or bank transfer) &#x2013; i.e. as opposed to a
-  situation where the payment service provider debits an account held by the
-  sender at the payment service provider. MTOs may include both traditional
-  players focusing on delivering funds in cash and innovative players which may
-  adopt a variety of different business models for the delivery of the
-  transactions.</p>
+  <p><strong>Money transfer operator (MTO).</strong> A non-deposit taking
+  payment service provider where the service involves payment per transfer (or
+  possibly payment for a set or series of transfers) by the sender to the
+  payment service provider (for example, by cash or bank transfer) &#x2013; i.e.
+  as opposed to a situation where the payment service provider debits an account
+  held by the sender at the payment service provider. MTOs may include both
+  traditional players focusing on delivering funds in cash and innovative
+  players which may adopt a variety of different business models for the
+  delivery of the transactions.</p>
 
   <p><strong>Price. </strong>The total cost to the end users of sending a
   remittance transfer (including the fees charged to the sender and the margin
   by which the exchange rate charged to the end users is above the current
   interbank exchange rate).</p>
+
+  <p><strong>Transparent service</strong>. A remittance service for which the
+  sending cost can be split into its two components: transfer fee and foreign
+  exchange margin. If a provider does not disclose the foreign exchange rate
+  applicable to the transaction, then the service is considered not transparent.
+  </p>
+UNIT_MEASURE: <p>Cost expressed as % of amount sent</p>
 SOURCE_TYPE: >-
   <p>Data sources are the remittance service providers (RSPs) themselves. Data
   are collected quarterly through a mystery shopping exercise, which takes one
@@ -111,7 +120,10 @@ DATA_COMP: >-
   and accessibility (determined by geographic proximity of branches for services
   that require physical presence, or access to any technology or device
   necessary to use the service, such as a bank account, mobile phone or the
-  internet. </p>
+  internet. The SmaRT Methodology was developed in collaboration with the Global
+  Remittances Working Group, a working group which was formed by the World Bank
+  at the request of the G8/G20 to monitor the progress towards the 5x5
+  Objective. </p>
 
   <p>For additional information on the methodology of SmaRT, please see: <a
   href="https://remittanceprices.worldbank.org/sites/default/files/smart_methodology.pdf">https://remittanceprices.worldbank.org/sites/default/files/smart_methodology.pdf</a>
@@ -121,8 +133,18 @@ DATA_COMP: >-
   calculations:</p>
 
   <ol>
-    <li>Global average of remittance costs to be reduced to less than 3 percent: this is calculated as the simple average of the total cost for all services included in the RPW database</li>
-    <li>Enabling remittance senders in all corridors to send money to their receivers at a cost of 5 percent or less: this is calculated as the average cost of the three cheapest available services in each corridor which meet a defined set of minimum requirements, as described in the World Bank SmaRT methodology. The target is that the SmaRT average for all corridors should be 5 percent or lower.</li>
+    <li>Global average of remittance costs to be reduced to less than 3 percent: this is calculated as the simple average of the total cost for all transparent services included in the RPW database</li>
+    <li>Enabling remittance senders in all corridors to send money to their receivers at a cost of 5 percent or less: this is calculated as the average cost of the three cheapest (and transparent) services in each corridor which meet a defined set of minimum requirements, as described in the World Bank SmaRT methodology. The target is that the SmaRT average for all corridors should be 5 percent or lower.</li>
+  </ol>
+
+  <p>RPW database includes several indicators. Four of these indicators are used
+  to monitor (2) above: </p>
+
+  <ol>
+    <li>Average cost of sending $200 (%) for a sending country: simple average of the cost of all transparent services from a sending country (regardless of the destination country). Sample size is 48. </li>
+    <li>Average cost of sending $200 (%) to a receiving country: simple average of the cost of all transparent services to a receiving country (regardless of the origin country). Sample size is 105.</li>
+    <li>Average cost of sending $200 (%) in a corridor: simple average of the cost of all transparent services from a sending country to a specific destination country. Sample size is 367.</li>
+    <li>SmaRT average cost of sending $200 (%) in a corridor: SmaRT average cost of all SmaRT qualifying services from a sending country to a specific destination country. Sample size changes by the quarter, depending on the availability of the SmaRT qualifying services in corridors satisfying the specific prerequisites identified in the SmaRT Methodology.</li>
   </ol>
 IMPUTATION: >-
   <p><strong>&#x2022; At country level</strong></p>
@@ -133,15 +155,15 @@ IMPUTATION: >-
 
   <p><strong>&#x2022; At regional and global levels</strong></p>
 
-  <p>Regional aggregates are computed by calculating simple averages of
-  individual services remitting to the recipient countries in the region for
-  which there is data. Countries with no data are not included, however, as a
-  representative sample is built, it is assumed that missing data fall in the
-  same cost range as collected data.</p>
+  <p>Regional aggregates are computed by calculating simple averages of the cost
+  of individual transparent services remitting to the recipient countries in the
+  region for which there is data. Countries with no data are not included,
+  however, as a representative sample is built, it is assumed that missing data
+  fall in the same cost range as collected data.</p>
 REG_AGG: >-
   <p>Regional aggregates are computed by calculating simple averages of
-  individual services remitting to the recipient countries in the region for
-  which there is data.</p>
+  individual transparent services remitting to the recipient countries in the
+  region for which there is data.</p>
 DOC_METHOD: >-
   <ul>
     <li>Minimum requirements for national and regional databases are provided on the Remittance Prices Worldwide website at: <a href="https://remittanceprices.worldbank.org/en/national-and-regional-databases-certified-by-the-world-bank">https://remittanceprices.worldbank.org/en/national-and-regional-databases-certified-by-the-world-bank</a>. For consistent methodology, the following minimum requirements were established: <ol>
@@ -178,7 +200,7 @@ QUALITY_ASSURE: >-
 COVERAGE: >-
   <p><strong>Data availability:</strong></p>
 
-  <p>The data are available for 365 corridors, which include 48 sending
+  <p>The data are available for 367 corridors, which include 48 sending
   countries and 105 receiving countries. The data are collected quarterly.</p>
 
   <p><strong>Time series:</strong></p>

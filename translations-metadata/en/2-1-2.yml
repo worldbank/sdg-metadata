@@ -8,7 +8,17 @@ SDG_TARGET: >-
 SDG_INDICATOR: >-
   <p>Indicator 2.1.2: Prevalence of moderate or severe food insecurity in the
   population, based on the Food Insecurity Experience Scale (FIES)</p>
-META_LAST_UPDATE: <p>2021-02-01</p>
+SDG_SERIES_DESCR: >-
+  <p>Prevalence of moderate or severe food insecurity in the adult population
+  (%) </p>
+
+  <p>Prevalence of severe food insecurity in the adult population (%) </p>
+
+  <p>Total population in moderate or severe food insecurity (thousands of
+  people) </p>
+
+  <p>Total population in severe food insecurity (thousands of people) </p>
+META_LAST_UPDATE: '2022-03-31'
 SDG_RELATED_INDICATORS: >-
   <p>2.1.1, 2.2.1, 2.2.2, 2.2.3</p>
 
@@ -46,18 +56,15 @@ STAT_CONC_DEF: >-
   insecurity. The severity of the food insecurity condition as measured by this
   indicator thus directly reflects the extent of households&#x2019; or
   individuals&#x2019; inability to regularly access the food they need.</p>
-UNIT_MEASURE: >-
-  <p>The unit of the prevalence of moderate or severe food insecurity is
-  percentage of the total population. A related indicator, the number of food
-  insecure people, is measured as millions of people. </p>
+UNIT_MEASURE: |-
+  <p>Prevalence of food insecurity: Percent (%) </p>
+  <p>Number of food insecure people: Millions (of people) </p>
 CLASS_SYSTEM: >-
   <p>The construction of the regional and global estimates, as well as estimates
   for specific groups, such as Least Developed Countries, Land Locked Developing
   countries, Small Island Developing States, Developed Regions, and Developing
   Regions, of this indicator follows the UN M49 Standard.</p>
 SOURCE_TYPE: >-
-  <p>Data sources and collection process</p>
-
   <p>Data can be collected using the Food Insecurity Experience Scale survey
   module (FIES-SM) developed by FAO, or any other experience-based food security
   scale questionnaires, including:</p>
@@ -192,72 +199,61 @@ SOURCE_TYPE: >-
   cultural habits (such as fasting for religious credos).</p>
 
   <p>The FIES-SM can be included in virtually any telephone-based or personal
-  interview based survey of the population, though face to face interview is
+  interview-based survey of the population, though face to face interview is
   preferred. </p>
 
   <p>Since 2014, the individual referenced FIES-SM is applied to nationally
   representative samples of the population aged 15 or more in all countries
   covered by the Gallup World Poll (more than 140 countries every year, covering
-  90% of the world population). In most countries samples include about 1000
+  90% of the world population). In most countries, samples include about 1000
   individuals (with larger samples of 3000 individuals in India and 5000 in
   mainland China).</p>
+
+  <p>Additionally to the GWP, in 2020 FAO collected data in 20 countries through
+  Geopoll&#xAE; with the specific objective of assessing food insecurity during
+  the COVID-19 pandemic. The countries covered were: Afghanistan, Burkina Faso,
+  Cameroon, Central African Republic, Chad, Democratic Republic of the Congo, El
+  Salvador, Ethiopia, Guatemala, Haiti, Iraq, Liberia, Mozambique, Myanmar,
+  Niger, Nigeria, Sierra Leone, Somalia, South Africa and Zimbabwe. For all
+  these countries, the 2020 assessment was based on Geopoll data.</p>
 
   <p>Other national surveys exist that already collect FIES compatible data.
   </p>
 
-  <p>In Burkina Faso, the FIES was included in the 2014 round of ENQUETE
-  MULTISECTORIELLE CONTINUE (EMC-BF).</p>
+  <p>For Afghanistan, Angola, Armenia, Botswana, Burkina Faso, Cabo Verde,
+  Canada, Chile, Costa Rica, Ecuador, Fiji, Ghana, Greece, Grenada, Honduras,
+  Indonesia, Israel, Kazakhstan, Kenya, Kiribati, Kyrgyzstan, Lesotho, Malawi,
+  Mauritania, Mexico, Morocco, Namibia, Niger, Nigeria, Palestine, Philippines,
+  Republic of Korea, Russian Federation, Saint Lucia, Samoa, Senegal,
+  Seychelles, Sierra Leone, South Sudan, Sudan, Tonga, Uganda, United Republic
+  of Tanzania, United States of America, Vanuatu, Viet Nam and Zambia, national
+  government survey data were used to calculate the prevalence estimates of food
+  insecurity by applying FAO&#x2019;s statistical methods to adjust national
+  results to the same global reference standard, covering approximately a
+  quarter of the world population. Countries are considered for the year/years
+  when national data are available, informing the regional and subregional
+  aggregates assuming a constant trend in the period 2014&#x2013;2020, or
+  integrating the remaining years with GWP or Geopoll data in case they were
+  compatible. Exceptions to this rule are: Armenia, Botswana, Burkina Faso,
+  Chile, Costa Rica, Ecuador, Ghana, Honduras, Indonesia, Israel, Malawi,
+  Namibia, Niger, Nigeria, Sierra Leone, Uganda and Zambia. In these cases, the
+  following procedure was followed:</p>
 
-  <p>In Cabo Verde, the FIES was included in the 2018 round of INQU&#xC9;RITO
-  NACIONAL DE VULNERABILIDADE ALIMENTAR E NUTRICIONAL DAS FAM&#xCD;LIAS.</p>
+  <ul>
+    <li>Use national data collected in one year to inform the corresponding year.</li>
+    <li>For the remaining years, apply the smoothed trend coming from the data collected by FAO through the Gallup&#xA9; World Poll to the national data to describe evolution over time. Smoothed trend is computed by taking the mean of the rates of change between consecutive three-year averages.</li>
+  </ul>
 
-  <p>In Canada, Canadian Health Food Security Scale was included by Statistics
-  Canada in the 2015 round of Canadian Community Health Survey (CCHS).</p>
+  <p>The motivation behind this procedure was the strong evidence found in
+  support of the trend suggested by data collected by FAO (for instance,
+  evolution of poverty, extreme poverty, employment, food inflation, among
+  others), allowing to provide a more updated description of the trend in the
+  period 2014&#x2013;2020.</p>
 
-  <p>In Chile, FIES was included in the 2017 round of Encuesta de
-  Caracterizaci&#xF3;n Socioecon&#xF3;mica Nacional (Casen).</p>
-
-  <p>In Ecuador, FIES was included in the 2016 round of the GESTI&#xD3;N DE
-  ESTAD&#xCD;STICAS PERMANENTES A HOGARES (GEPH-ENEMDU).</p>
-
-  <p>In Ghana, the FIES was included in the 2016-17 round of Living Standards
-  Survey.</p>
-
-  <p>In Indonesia, FIES is regularly collected every year since 2017 through
-  National Socio-Economic Survey (SUSENAS).</p>
-
-  <p>In Israel, HFSSM was collected in the 2016 round of the Food Security
-  Survey.</p>
-
-  <p>In Kenya, the FIES was included in the 2015-16 round of Integrated
-  Household Budget.</p>
-
-  <p>In Malawi, the FIES was included in the 2016-17 round of FOURTH INTEGRATED
-  HOUSEHOLD SURVEY.</p>
-
-  <p>In Nigeria, the FIES was included in the 2015 round of GENERAL HOUSEHOLD
-  SURVEY-PANEL.</p>
-
-  <p>In Palestine, FIES was included in the 2018 round of the Socio-economic
-  Monitoring of the Palestinian Households&#x2019; Survey.</p>
-
-  <p>In the Republic of Korea, the Korean translation of the HFSSM was included
-  in the 2014 and 2015 rounds of the Korea National Health and Nutrition
-  Examination Survey (KNHANES).</p>
-
-  <p>In the Russian Federation, FIES was collected in the 2018 round of
-  Nutrition sample survey.</p>
-
-  <p>In Saint Lucia, FIES data were collected in the Survey of Living Conditions
-  and Household Budgets 2016.</p>
-
-  <p>In Seychelles, FIES data were collected in the Quarterly Labour Force
-  Survey.</p>
-
-  <p>In the United States, the HFSSM is included every year in the Current
-  Population Survey Food Security Supplement (CPS-FSS) by the US Bureau of
-  Census since 1995. (The CPS-FSS reached about 83,000 individuals aged 15 or
-  more in about 42,000 households in 2014.)</p>
+  <p>In Indonesia, Kazakhstan, Kyrgyzstan, Mauritania, Nicaragua, Paraguay,
+  Rwanda, Seychelles, Sudan and United Republic of Tanzania, due to lack of data
+  in 2020, the corresponding subregional trend between 2019 and 2020 was used to
+  inform 2020.</p>
 
   <p><u>Obtaining internationally comparable data for global monitoring:</u></p>
 
@@ -284,7 +280,9 @@ SOURCE_TYPE: >-
   complex survey design.</p>
 COLL_METHOD: <p>Face-to-face and telephone interviews within national surveys.</p>
 FREQ_COLL: <p>Continuing</p>
-REL_CAL_POLICY: <p>July 2021 </p>
+REL_CAL_POLICY: >-
+  <p>Data are released each year alongside the <em>State of Food Security and
+  Nutrition in the World</em> report, usually in mid-July. </p>
 DATA_SOURCE: >-
   <p>National data providers will be the National Statistical Authorities that
   are responsible for the survey in which the FIES or similar scale is included.
@@ -322,7 +320,7 @@ RATIONALE: >-
 
   <p>As with any statistical assessment, reliability and precision crucially
   depend on the quality of the survey design and implementation. One major
-  advantage of the analytic treatment of the data through the Rasch model based
+  advantage of the analytic treatment of the data through the Rasch model-based
   methods is that it permits testing the quality of the data collected and
   evaluating the likely margin of uncertainty around estimated prevalence rates,
   which should always be reported.</p>
@@ -829,7 +827,7 @@ DATA_COMP: >-
               <mi>s</mi>
             </mrow>
           </msubsup>
-          <mi mathvariant="normal">*</mi>
+          <mo>&#xD7;</mo>
           <msup>
             <mrow>
               <mi>N</mi>
@@ -869,7 +867,7 @@ DATA_COMP: >-
               <mi>n</mi>
             </mrow>
           </msubsup>
-          <mi mathvariant="normal">*</mi>
+          <mo>&#xD7;</mo>
           <msup>
             <mrow>
               <mi>N</mi>
@@ -957,7 +955,7 @@ DATA_COMP: >-
               <mi>s</mi>
             </mrow>
           </msubsup>
-          <mi mathvariant="normal">*</mi>
+          <mo>&#xD7;</mo>
           <msup>
             <mrow>
               <mi>N</mi>
@@ -993,7 +991,7 @@ DATA_COMP: >-
               <mi>n</mi>
             </mrow>
           </msubsup>
-          <mi mathvariant="normal">*</mi>
+          <mo>&#xD7;</mo>
           <msup>
             <mrow>
               <mi>N</mi>
@@ -1106,10 +1104,10 @@ DATA_COMP: >-
       </msub>
     </math>). In the database, the number of food insecure people are expressed in thousands. </p>
 DATA_VALIDATION: >-
-  <p>For data collected by FAO through the Gallup World Poll, the country
-  results have been shared with all national statistical offices through an
-  email communication sent by the FAO Chief Statistician, requesting feedback,
-  and published only if they did not refuse to.</p>
+  <p>For data collected by FAO through the Gallup World Poll or other service
+  providers, the country results have been shared with all national statistical
+  offices through an email communication sent by the FAO Chief Statistician,
+  requesting feedback, and published only if they did not refuse to.</p>
 ADJUSTMENT: >-
   <p>International calibration of food insecurity thresholds is performed to
   ensure national and sub-national results are comparable.</p>
@@ -1131,11 +1129,69 @@ REG_AGG: >-
   <p>Regional and global aggregates of the prevalence of moderate or severe food
   insecurity (FI) based on FIES are computed as: </p>
 
-  <p>FI_REG = (_i FI_i &#xD7; N_i) / (_i N_i) </p>
-
-  <p>where FI_i are the values of FI estimated for all countries in the regions
-  for which available data allow to compute a reliable estimate, and N_i the
-  corresponding population size. </p>
+  <p><math xmlns="http://www.w3.org/1998/Math/MathML">
+      <mi>F</mi>
+      <msub>
+        <mrow>
+          <mi>I</mi>
+        </mrow>
+        <mrow>
+          <mi>R</mi>
+          <mi>E</mi>
+          <mi>G</mi>
+        </mrow>
+      </msub>
+      <mo>=</mo>
+      <mo>(</mo>
+      <mi>F</mi>
+      <msub>
+        <mrow>
+          <mi>I</mi>
+        </mrow>
+        <mrow>
+          <mi>i</mi>
+        </mrow>
+      </msub>
+      <mo>&#xD7;</mo>
+      <msub>
+        <mrow>
+          <mi>N</mi>
+        </mrow>
+        <mrow>
+          <mi>i</mi>
+        </mrow>
+      </msub>
+      <mo>)</mo>
+      <mo>/</mo>
+      <msub>
+        <mrow>
+          <mi>N</mi>
+        </mrow>
+        <mrow>
+          <mi>i</mi>
+        </mrow>
+      </msub>
+    </math></p>
+  <p>where <math xmlns="http://www.w3.org/1998/Math/MathML">
+      <mi>F</mi>
+      <msub>
+        <mrow>
+          <mi>I</mi>
+        </mrow>
+        <mrow>
+          <mi>i</mi>
+        </mrow>
+      </msub>
+    </math> are the values of FI estimated for all countries in the regions for which available data allow to compute a reliable estimate, and <math xmlns="http://www.w3.org/1998/Math/MathML">
+      <msub>
+        <mrow>
+          <mi>N</mi>
+        </mrow>
+        <mrow>
+          <mi>i</mi>
+        </mrow>
+      </msub>
+    </math> the corresponding population size. </p>
 DOC_METHOD: >-
   <p>Experience-based food security scales data are collected through population
   surveys (either household or individual surveys) using questionnaires/modules
@@ -1144,37 +1200,32 @@ DOC_METHOD: >-
   <p>Examples are provided below: </p>
 
   <p>U.S.A.: Household Food Security Survey Module (<a
-  href="https://www.ers.usda.gov/media/8271/hh2012.pdf"><u>https://www.ers.usda.gov/media/8271/hh2012.pdf</u></a>
-  )</p>
+  href="https://www.ers.usda.gov/media/8271/hh2012.pdf"><u>https://www.ers.usda.gov/media/8271/hh2012.pdf</u></a>)</p>
 
-  <p>Brazil: Escala Brasileira de Inseguran&#xE7;a Alimentar (<u><a
-  href="http://biblioteca.ibge.gov.br/visualizacao/livros/liv91984.pdf">http://biblioteca.ibge.gov.br/visualizacao/livros/liv91984.pdf</a></u>
-  , Quadro 5, page 30)</p>
+  <p>Brazil: Escala Brasileira de Inseguran&#xE7;a Alimentar (<a
+  href="http://biblioteca.ibge.gov.br/visualizacao/livros/liv91984.pdf"><u>http://biblioteca.ibge.gov.br/visualizacao/livros/liv91984.pdf</u></a>,
+  Quadro 5, page 30)</p>
 
-  <p>Mexico: Escala Mexicana de Seguridad Alimentaria (<u><a
-  href="http://www.beta.inegi.org.mx/contenidos/proyectos/enchogares/regulares/enigh/tradicional/2012/doc/c_tra_enigh12_hogares.pdf">http://www.beta.inegi.org.mx/contenidos/proyectos/enchogares/regulares/enigh/tradicional/2012/doc/c_tra_enigh12_hogares.pdf</a></u>,
-  pages 13-14)</p>
+  <p>Mexico: Escala Mexicana de Seguridad Alimentaria (<a
+  href="https://www.coneval.org.mx/Evaluacion/ECNCH/Documents/CIESAS_alimentacion.pdf">https://www.coneval.org.mx/Evaluacion/ECNCH/Documents/CIESAS_alimentacion.pdf</a>)</p>
 
-  <p>Guatemala: Escala Latino Americana y Caribena de Seguridad Alimentaria
-  (<u><a
-  href="http://www.ine.gob.gt/sistema/uploads/2015/12/11/DDrIEuLOPuEcXTcLXab1yOkiOV2HQreq.pdf">http://www.ine.gob.gt/sistema/uploads/2015/12/11/DDrIEuLOPuEcXTcLXab1yOkiOV2HQreq.pdf</a></u>
-  , pagina 3)</p>
+  <p>Guatemala: Escala Latino Americana y Caribena de Seguridad Alimentaria (<a
+  href="http://www.ine.gob.gt/sistema/uploads/2015/12/11/DDrIEuLOPuEcXTcLXab1yOkiOV2HQreq.pdf"><u>http://www.ine.gob.gt/sistema/uploads/2015/12/11/DDrIEuLOPuEcXTcLXab1yOkiOV2HQreq.pdf</u></a>,
+  pagina 3)</p>
 
   <p>FAO &#x2013; Food Insecurity Experience Scale (<a
-  href="http://www.fao.org/3/a-bl404e.pdf"><u>http://www.fao.org/3/a-bl404e.pdf</u></a>
-  ) </p>
+  href="http://www.fao.org/3/a-bl404e.pdf"><u>http://www.fao.org/3/a-bl404e.pdf</u></a>)
+  </p>
 
   <p>Inclusion of the FIES survey module in a questionnaire is a simple matter
   of adapting the questions to the local language by following guidelines
   provided in the following documents.</p>
 
   <p><a
-  href="http://www.fao.org/3/a-be898e.pdf"><u>http://www.fao.org/3/a-be898e.pdf</u></a><u>
-  </u> </p>
+  href="http://www.fao.org/3/a-be898e.pdf"><u>http://www.fao.org/3/a-be898e.pdf</u></a></p>
 
   <p><a
-  href="http://www.fao.org/3/a-be898f.pdf"><u>http://www.fao.org/3/a-be898f.pdf</u></a>
-  </p>
+  href="http://www.fao.org/3/a-be898f.pdf"><u>http://www.fao.org/3/a-be898f.pdf</u></a></p>
 
   <p><a
   href="http://www.fao.org/3/a-be898s.pdf"><u>http://www.fao.org/3/a-be898s.pdf</u></a></p>
@@ -1196,7 +1247,7 @@ QUALITY_MGMNT: >-
 QUALITY_ASSURE: >-
   <p>FIES data are validated through testing of adherence to the Rasch model
   assumption of equal discrimination of the items and absence of residual
-  correlation and measurement of Rasch reliability indexes. Such test would
+  correlation and measurement of Rasch reliability indexes. Such a test would
   reveal whether the data is of sufficient quality to produce reliable estimates
   of the prevalence of food insecurity according to the FIES standard. </p>
 
@@ -1205,280 +1256,41 @@ QUALITY_ASSURE: >-
   standard and thus produce estimates of the prevalence of food insecurity that
   can be considered comparable across countries.</p>
 
-  <p>Relevant material is available here <a
+  <p>Relevant material is available at <a
   href="http://www.fao.org/3/a-i4830e.pdf"><u>http://www.fao.org/3/a-i4830e.pdf</u></a>,
   <a
   href="http://www.fao.org/3/b-i4830s.pdf"><u>http://www.fao.org/3/b-i4830s.pdf</u></a>,
   <a
   href="http://www.fao.org/3/c-i4830f.pdf"><u>http://www.fao.org/3/c-i4830f.pdf</u></a>
-  and here <a
+  and <a
   href="http://www.fao.org/3/a-i3946e.pdf"><u>http://www.fao.org/3/a-i3946e.pdf</u></a>.</p>
 
-  <p>National data used to compile the indicator is obtained directly from the
-  microdata dissemination websites of countries, when available (e.g. USA), or
-  by direct request to the national statistical offices responsible for data
-  collection (e.g. Canada).</p>
-QUALITY_ASSMNT: <p>High.</p>
+  <p>When the estimates are based on official national data, the data used to
+  compile the indicator is obtained directly from the microdata dissemination
+  websites of countries, when available (e.g. USA), or by direct request to the
+  national statistical offices responsible for data collection (e.g.
+  Canada).</p>
+QUALITY_ASSMNT: >-
+  <p>High. For the vast majority of countries, the quality assurance steps
+  provide indication of high quality and reliable data.</p>
 COVERAGE: >-
   <p><strong>Data availability:</strong></p>
 
-  <p>Data for 2014, 2015,2016, 2017 and 2018 are available from FAO for 137
-  countries, areas and territories included in the Gallup World Poll. Regional
-  and sub regional aggregates are computed for all regions, with the exceptions
-  of the Caribbean and the Oceania regions (as most small island states in the
-  Caribbean and in the South Pacific are not covered by the GWP) and Middle
-  Africa (as less than 50% of the regional population was covered). Data have
-  been subject to a country consultation process and only results validated by
-  national statistical offices are published at country level. </p>
+  <p>Data for 2014-2020 are available from FAO for more than 140 countries,
+  areas and territories included in the Gallup World Poll. </p>
 
-  <p>FIES compatible data from official national surveys are already available
-  from Burkina Faso, Cabo Verde, Canada, Chile, Ecuador, Ghana, Indonesia,
-  Israel, Kenya, Malawi, Nigeria, Palestine, Republic of Korea (2014 and 2015),
-  Russian Federation (2016-18), Saint Lucia, Seychelles, United States of
-  America. . </p>
-
-  <p>Breakdown of the number of countries covered by region is as follows:</p>
-
-  <table>
-    <tbody>
-      <tr>
-        <td>
-          <p>World</p>
-        </td>
-        <td>
-          <p>137</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>Africa</p>
-        </td>
-        <td>
-          <p>39</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>Northern Africa</p>
-        </td>
-        <td>
-          <p>5</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>Sub-Saharan Africa</p>
-        </td>
-        <td>
-          <p>34</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>Eastern Africa</p>
-        </td>
-        <td>
-          <p>11</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>Middle Africa</p>
-        </td>
-        <td>
-          <p>4</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>Southern Africa</p>
-        </td>
-        <td>
-          <p>5</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>Western Africa</p>
-        </td>
-        <td>
-          <p>14</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>Americas</p>
-        </td>
-        <td>
-          <p>22</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>Latin America and the Caribbean</p>
-        </td>
-        <td>
-          <p>20</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>Caribbean</p>
-        </td>
-        <td>
-          <p>3</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>Latin America</p>
-        </td>
-        <td>
-          <p>17</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>Northern America</p>
-        </td>
-        <td>
-          <p>2</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>Asia</p>
-        </td>
-        <td>
-          <p>36</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>Central Asia</p>
-        </td>
-        <td>
-          <p>4</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>Eastern Asia</p>
-        </td>
-        <td>
-          <p>4</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>Southern Asia</p>
-        </td>
-        <td>
-          <p>8</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>South-Eastern Asia</p>
-        </td>
-        <td>
-          <p>7</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>Western Asia</p>
-        </td>
-        <td>
-          <p>13</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>Europe</p>
-        </td>
-        <td>
-          <p>39</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>Eastern Europe</p>
-        </td>
-        <td>
-          <p>10</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>Northern Europe</p>
-        </td>
-        <td>
-          <p>10</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>Southern Europe</p>
-        </td>
-        <td>
-          <p>12</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>Western Europe</p>
-        </td>
-        <td>
-          <p>7</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>Oceania</p>
-        </td>
-        <td>
-          <p>2</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>Australia and New Zealand</p>
-        </td>
-        <td>
-          <p>2</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>Melanesia</p>
-        </td>
-        <td>
-          <p>0</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>Micronesia</p>
-        </td>
-        <td>
-          <p>0</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>Polynesia</p>
-        </td>
-        <td>
-          <p>0</p>
-        </td>
-      </tr>
-    </tbody>
-  </table>
+  <p>Regional and sub regional aggregates are computed for all regions, with the
+  exceptions of the Caribbean and the Middle Africa regions (as less than 50% of
+  the regional population up to 2019 was covered). Both regions can be estimated
+  only for 2020. Data have been subject to a country consultation process and
+  only results validated by national statistical offices are published at
+  country level.</p>
 
   <p><strong>Time series:</strong></p>
 
-  <p>Only the 3-year average (2014-2016, 2015-17 and 2016-18) is provided.</p>
+  <p>Only the 3-year average (2014-2016, 2015-17, 2016-18, 2017-19 and 2018-20)
+  is provided for country level data. Annual values are provided for regional
+  aggregates.</p>
 
   <p><strong>Disaggregation:</strong></p>
 
@@ -1503,6 +1315,9 @@ COVERAGE: >-
 
   <p>It is good practice to associate a measure of variability (margins of error
   or upper and lower bound) when disaggregated data are produced.</p>
+
+  <p>At the moment, disaggregated statistics by gender of the respondent are
+  provided.</p>
 COMPARABILITY: >-
   <p><strong>Sources of discrepancies:</strong></p>
 

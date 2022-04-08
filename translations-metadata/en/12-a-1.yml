@@ -10,8 +10,9 @@ SDG_TARGET: >-
 SDG_INDICATOR: >-
   <p>Indicator 7.b.1: Installed renewable energy-generating capacity in
   developing countries (in watts per capita)</p>
-META_LAST_UPDATE: <p>2021-03-01</p>
-SDG_RELATED_INDICATORS: <p>Not applicable</p>
+SDG_SERIES_DESCR: <p>Not applicable </p>
+META_LAST_UPDATE: '2022-03-31'
+SDG_RELATED_INDICATORS: <p>This indicator is also used as indicator 12.a.1</p>
 SDG_CUSTODIAN_AGENCIES: <p>International Renewable Energy Agency (IRENA)</p>
 CONTACT_ORGANISATION: <p>International Renewable Energy Agency (IRENA)</p>
 STAT_CONC_DEF: >-
@@ -45,11 +46,11 @@ CLASS_SYSTEM: >-
   Recommendations for Energy Statistics or IRES</p>
 SOURCE_TYPE: >-
   <p>IRENA&#x2019;s electricity capacity database contains information about the
-  electricity generating capacity installed at the year-end, measured in MW. The
-  dataset covers all countries and areas from the year 2000 onwards. The dataset
-  also records whether the capacity is on-grid or off-grid and is split into 36
-  different renewable energy types that can be aggregated into the six main
-  sources of renewable energy.</p>
+  electricity generating capacity installed at the year-end, measured in
+  megawatt (MW). The dataset covers all countries and areas from the year 2000
+  onwards. The dataset also records whether the capacity is on-grid or off-grid
+  and is split into 36 different renewable energy types that can be aggregated
+  into the six main sources of renewable energy.</p>
 
   <p><strong>Population data:</strong></p>
 
@@ -59,15 +60,15 @@ SOURCE_TYPE: >-
   The values are midyear estimates.</p>
 
   <p>The United Nations Department of Economic and Social Affairs published
-  information about their methodology on the link below:</p>
+  information about its methodology on the link below:</p>
 
   <p><a
   href="https://population.un.org/wpp/Methodology/">https://population.un.org/wpp/Methodology/</a></p>
 COLL_METHOD: >-
-  <p>The capacity data is collected as part of IRENA&#x2019;s annual
+  <p>The capacity data are collected as part of IRENA&#x2019;s annual
   questionnaire cycle. Questionnaires are sent to countries at the start of a
   year asking for renewable energy data for two years previously (i.e. at the
-  start of 2019, questionnaires ask for data for the year 2017). The data is
+  start of 2019, questionnaires ask for data for the year 2017). The data are
   then validated and checked with countries and published in the IRENA Renewable
   Energy Statistics Yearbook at the end of June. To minimise reporting burden,
   the questionnaires for some countries are pre-filled with data collected by
@@ -80,14 +81,14 @@ COLL_METHOD: >-
   unofficial sources (mostly industry associations for the different renewable
   energy sectors). These are published at the end of March.</p>
 FREQ_COLL: >-
-  <p>Capacity data is recorded as a year-end figure. The data is collected in
-  the first six months of every year</p>
+  <p>Capacity data are recorded as a year-end figure. The data are collected in
+  the first six months of every year.</p>
 REL_CAL_POLICY: >-
   <p>Estimates of generating capacity for a year are published at the end of
-  March in the following year. Final figures for the year before that are
-  published at the end of June.</p>
+  March in the following year. Final figures for the previous year are published
+  at the end of June.</p>
 DATA_SOURCE: >-
-  <p>Renewable energy generating capacity:</p>
+  <p><strong>Renewable energy generating capacity:</strong></p>
 
   <p>National Statistical Offices and National Energy Agencies of Ministries
   (the authority to collect this data varies between countries). Data for
@@ -96,7 +97,7 @@ DATA_SOURCE: >-
 
   <p><strong>Population:</strong></p>
 
-  <p>United Nations Population Division. World Population Prospects.</p>
+  <p>United Nations Population Division- World Population Prospects.</p>
 COMPILING_ORG: <p>International Renewable Energy Agency (IRENA).</p>
 INST_MANDATE: >-
   <p>With a mandate from countries around the world, IRENA encourages
@@ -118,26 +119,26 @@ RATIONALE: >-
 
   <p>Renewables are considered a sustainable form of energy supply, as their
   current use does not usually deplete their availability to be used in the
-  future. The focus of this indicator on electricity reflects the emphasis in
+  future. The focus of this indicator on electricity reflects the emphasis of
   the target on modern sources of energy and is particularly relevant for
   developing countries where the demand for electricity is often high and its
   availability is constrained. Furthermore, the focus on renewables reflects the
   fact that the technologies used to produce renewable electricity are generally
   modern and more sustainable than non-renewables, particularly in the fastest
-  growing sub-sectors of electricity generation from wind and solar energy.</p>
+  growing sub-sectors of electricity generation from wind and solar energy. </p>
 
   <p>The division of renewable electricity capacity by population (to produce a
-  measure of Watts per capita) is proposed to scale the capacity data to account
-  for the large variation in needs between countries. It uses population rather
-  than GDP to scale the data, because this is the most basic indicator of the
-  demand for modern and sustainable energy services in a country.</p>
+  measure of Watts per capita) is proposing to scale the capacity data to
+  account for the large variation in needs between countries. It uses population
+  rather than GDP to scale the data, because this is the most basic indicator of
+  the demand for modern and sustainable energy services in a country.</p>
 
-  <p>This indicator should also complement indicators 7.1.1 and 7.2. With
+  <p>This indicator should also complement indicators 7.1.1 and 7.2.1. With
   respect to electricity access, it will provide additional information to the
   proportion of people with electricity access by showing how much
   infrastructure is available to deliver that access (in terms of the amount of
-  capacity per person). The focus on renewable capacity will also add-value to
-  the existing renewables indicator (7.2) by showing how much renewable energy
+  capacity per person). The focus on renewable capacity will also add value to
+  the existing renewables indicator (7.2.1) by showing how much renewable energy
   is contributing to the need for improved electricity access.</p>
 REC_USE_LIM: >-
   <p>At present, electricity only accounts for about one-quarter of total energy
@@ -176,19 +177,19 @@ DATA_VALIDATION: >-
   countries at one of IRENA&#x2019;s three governing body meetings, where
   discrepancies or other data issues can be discussed with country
   representatives.</p>
-ADJUSTMENT: <p>Not applicable.</p>
+ADJUSTMENT: <p>Not applicable</p>
 IMPUTATION: >-
   <p><strong>At country level:</strong></p>
 
-  <p>At the country level, electricity capacity data is sometimes missing for
+  <p>At the country level, electricity capacity data are sometimes missing for
   two reasons:</p>
 
   <ol>
     <li>Delays in responding to IRENA questionnaires or publication of official data. In such cases, estimates are made so that global and regional totals can be calculated. The most basic treatment is to repeat the value of capacity from the previous year. However, IRENA also checks unofficial data sources and collects data about investment projects (see Indicator 7.a.1). These other sources can be used to identify if any new power plants have been commissioned in a year and are used where available to update the capacity value at the end of a year. Any such estimates are eventually replaced by official or questionnaire data when that becomes available.</li>
-    <li>Off-grid capacity data is frequently missing from national energy statistics, or is presented in non-standard units (e.g. numbers of mini-hydro plants in a country rather than their capacity in MW). Where official data is not available, off-grid capacity figures are collected by IRENA from a wide variety of other official and unofficial sources in countries (e.g. development agencies, government departments, NGOs, project developers and industry associations) and this information is added to the capacity database to give a more complete picture of developments in the renewable energy sector in a country. This data is peer reviewed each year through an extensive network of national correspondents (the REN21 Network) and is checked with IRENA country focal points when they attend IRENA meetings and training workshops.</li>
+    <li>Off-grid capacity data are frequently missing from national energy statistics or is presented in non-standard units (e.g. numbers of mini-hydro plants in a country rather than their capacity in MW). Where official data are not available, off-grid capacity figures are collected by IRENA from a wide variety of other official and unofficial sources in countries (e.g. development agencies, government departments, NGOs, project developers and industry associations) and this information is added to the capacity database to give a more complete picture of developments in the renewable energy sector in a country. These data are peer reviewed each year through an extensive network of national correspondents (the REN21 Network) and is checked with IRENA country focal points when they attend IRENA meetings and training workshops.</li>
   </ol>
 
-  <p>When capacity data is missing, mostly in non-state territories, these are
+  <p>When capacity data are missing, mostly in non-state territories, these are
   excluded from the dataset. </p>
 
   <p><strong>At regional and global levels:</strong></p>
@@ -199,7 +200,7 @@ IMPUTATION: >-
 REG_AGG: >-
   <p>Regional and global averages are calculated by summing the renewable
   generating capacity for a region or the World and dividing that by the
-  corresponding figure for total population. The indicator is for developing
+  corresponding figure for the total population. The indicator is for developing
   countries only, so these regional aggregates (averages) also reflect only the
   average for the developing countries in each region.</p>
 
@@ -208,8 +209,8 @@ REG_AGG: >-
   population values used in the calculation might differ from those reported in
   the UN World Population Prospects.</p>
 DOC_METHOD: >-
-  <p>Guidance for the collection of electricity capacity data is provided by the
-  International Recommendations for Energy Statistics. IRENA also produces
+  <p>Guidance for the collection of electricity capacity data are provided by
+  the International Recommendations for Energy Statistics. IRENA also produces
   methodological guidance for countries, specifically about how to measure
   renewable energy and collect renewable energy data. This is supported by a
   comprehensive programme of regional renewable energy statistics training
@@ -223,9 +224,9 @@ QUALITY_ASSURE: >-
   Fundamental Principles of Official Statistics: <a
   href="https://unstats.un.org/unsd/dnss/gp/fundprinciples.aspx">https://unstats.un.org/unsd/dnss/gp/fundprinciples.aspx</a>.</p>
 QUALITY_ASSMNT: >-
-  <p>The quality of the data is verified by automated validation routines for
+  <p>The quality of the data are verified by automated validation routines for
   aggregates. Furthermore, official questionnaires guarantee the validity for
-  each data point, where applicable.</p>
+  each data point, where applicable. </p>
 COVERAGE: >-
   <p><strong>Data availability:</strong></p>
 
@@ -239,17 +240,17 @@ COVERAGE: >-
   shares of data from estimated and unofficial sources is only 5% and 1%
   respectively. The large difference between these measures is due to the
   inclusion of off-grid capacity figures in the database. The amount of off-grid
-  generating capacity in a country is quite frequently estimated by IRENA, but
-  the amounts of off-grid capacity recorded in each case is often relatively
+  generating capacity in a country is frequently estimated by IRENA, but the
+  amounts of off-grid capacity recorded in each case is often relatively
   small.</p>
 
   <p><strong>Time series:</strong></p>
 
-  <p>Renewable generating capacity data is available from 2000 onwards. </p>
+  <p>Renewable generating capacity data are available from 2000 onwards. </p>
 
   <p><strong>Disaggregation:</strong></p>
 
-  <p>IRENA&#x2019;s renewable capacity data is available for every country and
+  <p>IRENA&#x2019;s renewable capacity data are available for every country and
   area in the world from the year 2000 onwards. These figures can also be
   disaggregated by technology (solar, hydro, wind, etc.) and by on-grid and
   off-grid capacity.</p>
@@ -265,5 +266,9 @@ COMPARABILITY: >-
   (e.g. the reporting of derated rather than maximum net installed capacity or
   the reporting of built rather than commissioned capacity at year-end).</p>
 OTHER_DOC: >-
+  <p>UN, 2018. International Recommendations for Energy Statistics (IRES). New
+  York City: United Nations. Retrieved from <a
+  href="https://unstats.un.org/unsd/energystats/methodology/documents/IRES-web.pdf">https://unstats.un.org/unsd/energystats/methodology/documents/IRES-web.pdf</a></p>
+
   <p>IRENA Statistical Yearbooks: <a
-  href="https://www.irena.org/Statistics">https://www.irena.org/Statistics</a>.</p>
+  href="https://www.irena.org/Statistics">https://www.irena.org/Statistics</a></p>

@@ -9,15 +9,21 @@ SDG_TARGET: >-
 SDG_INDICATOR: >-
   <p>Indicator 8.7.1: Proportion and number of children aged 5&#x2013;17 years
   engaged in child labour, by sex and age</p>
-META_LAST_UPDATE: <p>2021-02-01</p>
+SDG_SERIES_DESCR: >-
+  <p>Proportion of children engaged in economic activity, by sex and age (%)</p>
+
+  <p>Proportion of children engaged in economic activity and household chores,
+  by sex and age (%)</p>
+META_LAST_UPDATE: '2022-03-31'
+SDG_RELATED_INDICATORS: <p>Many other SDG indicators have links and are relevant to child labour.</p>
 SDG_CUSTODIAN_AGENCIES: |-
-  <p>United Nations Children&apos;s Fund (UNICEF) </p>
-  <p>International Labour Organization (ILO) </p>
+  <p>United Nations Children&apos;s Fund (UNICEF)</p>
+  <p>International Labour Organization (ILO)</p>
 CONTACT_ORGANISATION: |-
-  <p>United Nations Children&apos;s Fund (UNICEF) </p>
-  <p>International Labour Organization (ILO) </p>
+  <p>United Nations Children&apos;s Fund (UNICEF)</p>
+  <p>International Labour Organization (ILO)</p>
 STAT_CONC_DEF: >-
-  <p><strong>Definition: </strong></p>
+  <p><strong>Definition:</strong></p>
 
   <p>The number of children engaged in child labour corresponds to the number of
   children reported to be in child labour during the reference period (usually
@@ -28,7 +34,7 @@ STAT_CONC_DEF: >-
 
   <p> </p>
 
-  <p><strong>Concepts: </strong></p>
+  <p><strong>Concepts:</strong></p>
 
   <p>Three principal international legal instruments &#x2013; ILO Convention No.
   138 (Minimum Age) (C138), United Nations Convention on the Rights of the Child
@@ -37,7 +43,7 @@ STAT_CONC_DEF: >-
   international actions against it. In accordance with these instruments, child
   labour is work that children should <em>not </em>be doing because (a) they are
   too young or (b) is likely to harm their health, safety or morals, due to its
-  nature or the conditions in which it is carried out. </p>
+  nature or the conditions in which it is carried out.</p>
 
   <p> </p>
 
@@ -49,36 +55,36 @@ STAT_CONC_DEF: >-
 
   <p> </p>
 
-  <p>In accordance with the ICLS resolutions<sup>1</sup>, child labour can be
-  measured on the basis of the production boundary set by the United Nations
-  System of National Accounts (SNA) or on the basis of the general production
-  boundary. The former limits the frame of reference to economic activity, while
-  the latter extends it to include both economic activity <em>and</em> unpaid
-  household services, that is, the production of domestic and personal services
-  by a household member for consumption within their own household, commonly
-  called &#x201C;household chores&#x201D;. </p>
+  <p>In accordance with the ICLS resolutions<sup><a href="#footnote-2"
+  id="footnote-ref-2">[1]</a></sup>, child labour can be measured on the basis
+  of the production boundary set by the United Nations System of National
+  Accounts (UN SNA) or on the basis of the general production boundary. The
+  former limits the frame of reference to economic activity, while the latter
+  extends it to include both economic activity <em>and</em> unpaid household
+  services, that is, the production of domestic and personal services by a
+  household member for consumption within their own household, commonly called
+  &#x201C;household chores&#x201D;. </p>
 
   <p> </p>
 
   <p>Following from this, two indicators are used for measuring child labour for
   the purpose of SDG reporting, the first based on the production boundary set
-  by the United Nations System of National Accounts (SNA) and the second based
-  on the general production boundary. </p>
+  by the UN SNA and the second based on the general production boundary.</p>
 
   <p> </p>
 
   <p>Indicator 1: Proportion and number of children aged 5-17 years engaged in
   economic activities at or above age-specific hourly thresholds (<strong>SNA
-  production boundary basis</strong>) </p>
+  production boundary basis</strong>)</p>
 
-  <p><em>Child labour for the 5 to 11 age range</em>: children working at least
-  1 hour per week in economic activity; </p>
+  <p><em>Child labour for the 5 to 11 age range</em>: children working for 1
+  hour or more per week in economic activity; </p>
 
-  <p><em>Child labour for the 12 to 14 age range</em>: children working for at
-  least 14 hours per week in economic activity; </p>
+  <p><em>Child labour for the 12 to 14 age range</em>: children working for 14
+  hours or more per week in economic activity;</p>
 
-  <p><em>Child labour for the 15 to 17 age range</em>: children working for more
-  than 43 hours per week in economic activity. </p>
+  <p><em>Child labour for the 15 to 17 age range</em>: children working for 43
+  hours or more per week in economic activity.</p>
 
   <p> </p>
 
@@ -86,16 +92,17 @@ STAT_CONC_DEF: >-
   economic activities and household chores at or above age-specific hourly
   thresholds (<strong>general production boundary basis</strong>): </p>
 
-  <p><em>Child labour for the 5 to 11 age range</em>: children working at least
-  1 hour per week in economic activity and/or involved in unpaid household
-  services for more than 21 hours per week; </p>
+  <p><em>Child labour for the 5 to 11 age range</em>: children working for 1
+  hour or more per week in economic activity and/or involved in unpaid household
+  services for 21 hours or more per week; </p>
 
-  <p><em>Child labour for the 12 to 14 age range</em>: children working for at
-  least 14 hours per week in economic activity and/or involved in unpaid
-  household services for more than 21 hours per week; </p>
+  <p><em>Child labour for the 12 to 14 age range</em>: children working for 14
+  hours or more per week in economic activity and/or involved in unpaid
+  household services for 21 hours or more per week; </p>
 
-  <p><em>Child labour for the 15 to 17 age range</em>: children working for more
-  than 43 hours per week in economic activity.<sup>2</sup> </p>
+  <p><em>Child labour for the 15 to 17 age range</em>: children working for 43
+  hours or more per week in economic activity.<sup><a href="#footnote-3"
+  id="footnote-ref-3">[2]</a></sup> </p>
 
   <p> </p>
 
@@ -108,15 +115,19 @@ STAT_CONC_DEF: >-
   other work that is likely to harm children&#x2019;s health, safety or
   well-being. </p>
 
-  <p> </p>
-UNIT_MEASURE: <p>Proportion</p>
+  <p> </p><div class="footnotes"><div><sup class="footnote-number"
+  id="footnote-2">1</sup><p> 20th International Conference of Labour
+  Statisticians. Resolution to amend the 18th ICLS Resolution concerning
+  statistics of child labour. ILO. Geneva, October 2019. <a
+  href="#footnote-ref-2">&#x2191;</a></p></div><div><sup class="footnote-number"
+  id="footnote-3">2</sup><p> No hourly threshold is set for household chores for
+  ages 15-17. <a href="#footnote-ref-3">&#x2191;</a></p></div></div>
+UNIT_MEASURE: <p>Percent (%)</p>
 CLASS_SYSTEM: >-
   <p>The definition of child labour is in line with the standard set by the
   latest 20<sup>th</sup> International Conference of Labour Statisticians.
   Resolution to amend the 18th ICLS Resolution concerning statistics of child
-  labour.</p>
-
-  <p>ILO. Geneva, October 2019</p>
+  labour. ILO. Geneva, October 2019</p>
 SOURCE_TYPE: >-
   <p>Household surveys such as National Labour Force Surveys, National
   Multipurpose Household Surveys, UNICEF-supported Multiple Indicator Cluster
@@ -139,13 +150,13 @@ COLL_METHOD: >-
 
   <p>As of 2018, UNICEF launched a new country consultation process with
   national authorities on selected child-related global SDG indicators it is
-  custodian or co-custodian to meet emerging standards and guidelines on data
-  flows for global reporting of SDG indicators, which place strong emphasis on
-  technical rigour, country ownership and use of official data and statistics.
-  The consultation process solicited feedback directly from National Statistical
-  Offices, as well as other government agencies responsible for official
-  statistics, on the compilation of the indicators, including the data sources
-  used, and the application of internationally agreed definitions,
+  custodian or co-custodian to, to meet emerging standards and guidelines on
+  data flows for global reporting of SDG indicators, which place strong emphasis
+  on technical rigour, country ownership and use of official data and
+  statistics. The consultation process solicited feedback directly from National
+  Statistical Offices (NSOs), as well as other government agencies responsible
+  for official statistics, on the compilation of the indicators, including the
+  data sources used, and the application of internationally agreed definitions,
   classification and methodologies to the data from that source. The results of
   this country consultation are reviewed and discussed with ILO. Once reviewed,
   feedback is made available to countries on whether or not specific data points
@@ -154,13 +165,17 @@ FREQ_COLL: >-
   <p>UNICEF will undertake an annual country consultation likely between
   December and January every year to allow for review and processing of the
   feedback received in order to meet global SDG reporting deadlines. </p>
-REL_CAL_POLICY: <p>Feb/March 2021. </p>
+REL_CAL_POLICY: >-
+  <p>Updated data on 8.7.1 will be available in the SDG reporting period every
+  February/March.</p>
 DATA_SOURCE: >-
   <p>National Statistical Offices (for the most part) and line ministries/other
   government agencies and International agencies that have conducted labour
   force surveys or other household surveys through which data on child labour
   were collected. </p>
-COMPILING_ORG: <p>UNICEF and ILO</p>
+COMPILING_ORG: >-
+  <p>United Nations Children&apos;s Fund (UNICEF) and International Labour
+  Organization (ILO) </p>
 INST_MANDATE: >-
   <p>The ILO is the UN focal point for labour statistics. It sets international
   standards for labour statistics through the International Conference of Labour
@@ -191,8 +206,6 @@ RATIONALE: >-
   broadly on all working children, also provide a basis for increasing public
   awareness of the situation of working children and for the development of
   appropriate regulatory frameworks and policies. </p>
-
-  <p> </p>
 REC_USE_LIM: >-
   <p>While the concept of child labour includes working in activities that are
   hazardous in nature, to ensure comparability of estimates over time and to
@@ -231,9 +244,22 @@ REC_USE_LIM: >-
   number of flexibility clauses left to the discretion of the competent national
   authority in consultation (where relevant) with workers&#x2019; and
   employers&#x2019; organizations (e.g., minimum ages, scope of
-  application).<sup>3</sup> This means that there is no single legal definition
-  of child labour across countries, and thus, no single statistical measure of
-  child labour consistent with national legislation across countries. </p>
+  application).<sup><a href="#footnote-4" id="footnote-ref-4">[3]</a></sup> This
+  means that there is no single legal definition of child labour across
+  countries, and thus, no single statistical measure of child labour consistent
+  with national legislation across countries. </p><div
+  class="footnotes"><div><sup class="footnote-number" id="footnote-4">3</sup><p>
+  Principal areas of flexibility in the Convention include: (a)<em>minimum
+  ages</em>: Members whose economy and educational facilities are insufficiently
+  developed may specify a lower general minimum age of 14 years (Art. 2.4) and a
+  lower age range for light work of 12 to 14 years (Art 7.4); and (b) <em>scope
+  of application</em>: Members may exclude from the application of the
+  Convention limited (non-hazardous) categories of employment or work in respect
+  of which special and substantial problems of application arise (Art. 4.1).
+  Members whose economy and administrative facilities are insufficiently
+  developed may also initially limit the scope of application of the Convention
+  (Art. 5.1) beyond a core group of economic activities or undertakings (Art.
+  5.3). <a href="#footnote-ref-4">&#x2191;</a></p></div></div>
 DATA_COMP: >-
   <p>Children aged 5-17: Number of children aged 5-17 reported in child labour
   during the week prior to the survey divided by the total number of children
@@ -289,8 +315,6 @@ IMPUTATION: >-
     <li><strong>At country level </strong></li>
   </ul>
 
-  <p> </p>
-
   <p>Country data are not published when data for a country are entirely
   missing. </p>
 
@@ -300,20 +324,16 @@ IMPUTATION: >-
     <li><strong>At regional and global levels </strong></li>
   </ul>
 
-  <p> </p>
-
-  <p>The methodology for calculation of regional and global aggregates is still
-  being discussed among co-custodian agencies. </p>
+  <p>For details on the methodology for treatment of missing data in the
+  calculation of regional and global aggregates see, <a
+  href="https://data.unicef.org/resources/child-labour-2020-global-estimates-trends-and-the-road-forward/">Child
+  Labour: Global estimates 2020, trends and the road forward</a></p>
 REG_AGG: >-
-  <p>The methodology for calculation of regional aggregates is still being
-  discussed among co-custodian agencies. </p>
-DOC_METHOD: >-
-  <p>Countries gather data on child labour through household surveys such as
-  National Labour Force Surveys, National Multipurpose Household Surveys,
-  UNICEF-supported Multiple Indicator Cluster Surveys (MICS), Demographic and
-  Health Surveys (DHS), ILO-supported Statistical Information and Monitoring
-  Programme on Child Labour (SIMPOC), and World Bank Living Standard Measurement
-  surveys (LSMS). </p>
+  <p>For details on the methodology for calculation of regional aggregates, see
+  <a
+  href="https://data.unicef.org/resources/child-labour-2020-global-estimates-trends-and-the-road-forward/">Child
+  Labour: Global estimates 2020, trends and the road forward</a> </p>
+DOC_METHOD: <p>See Section 3.a. </p>
 QUALITY_MGMNT: >-
   <p>The process behind the production of reliable statistics on child labour is
   well established within UNICEF and the ILO. The quality and process leading to
@@ -331,7 +351,7 @@ QUALITY_ASSURE: >-
   representative at the national population level; data are collected using an
   appropriate methodology (e.g., sampling); data values are based on a
   sufficiently large sample; data conform to the standard indicator definition
-  including age group and concepts, to the extent possible; data are plausible
+  including age group and concepts, to the extent possible; data are plausible,
   based on trends and consistency with previously published/reported estimates
   for the indicator. </p>
 
@@ -345,12 +365,12 @@ QUALITY_ASSURE: >-
   below. </p>
 QUALITY_ASSMNT: >-
   <p>Data consistency and quality checks are regularly conducted for validation
-  of the data before dissemination </p>
+  of the data before dissemination. </p>
 COVERAGE: >-
   <p><strong>Data availability:</strong></p>
 
   <p>Nationally representative and comparable data are currently available for
-  around 90 low-and middle-income countries. </p>
+  around 100 low-and middle-income countries. </p>
 
   <p><strong>Time series:</strong></p>
 
@@ -358,11 +378,9 @@ COVERAGE: >-
 
   <p><strong>Disaggregation:</strong></p>
 
-  <p>Sex and age. </p>
+  <p>Sex. </p>
 COMPARABILITY: >-
   <p><strong>Sources of discrepancies:</strong> </p>
-
-  <p> </p>
 
   <p>The country estimates compiled and presented in the global SDG database
   have been re-analyzed by UNICEF and ILO in accordance with the definitions and
@@ -370,28 +388,12 @@ COMPARABILITY: >-
   country data values included in the global SDG database will differ from those
   published and presented in national survey reports. </p>
 OTHER_DOC: >-
-  <p><strong>URL: </strong></p>
+  <p>UNICEF statistics on child labour:
+  https://data.unicef.org/topic/child-protection/child-labour/ </p>
 
-  <p>data.unicef.org </p>
-
-  <p><a
-  href="http://www.ilo.org/ipec/ChildlabourstatisticsSIMPOC/Questionnairessurveysandreports/lang--en/index.htm"
-  target="_blank"><u>http://www.ilo.org/ipec/ChildlabourstatisticsSIMPOC/Questionnairessurveysandreports/lang--en/index.htm</u></a>
+  <p>ILO statistics on child labour: <a
+  href="http://www.ilo.org/ipec/ChildlabourstatisticsSIMPOC/Questionnairessurveysandreports/lang--en/index.htm">http://www.ilo.org/ipec/ChildlabourstatisticsSIMPOC/Questionnairessurveysandreports/lang--en/index.htm</a>
   </p>
 
-  <p><a href="http://www.ucw-project.org/"
-  target="_blank"><u>www.ucw-project.org</u></a> </p>
-
-  <p><strong>References: </strong></p>
-
-  <p><a href="http://data.unicef.org/child-protection/child-labour.html"
-  target="_blank"><u>http://data.unicef.org/child-protection/child-labour.html</u></a>
-  </p>
-
-  <p><a
-  href="http://www.ilo.org/ipec/ChildlabourstatisticsSIMPOC/lang--en/index.htm"
-  target="_blank"><u>http://www.ilo.org/ipec/ChildlabourstatisticsSIMPOC/lang--en/index.htm</u></a>
-  </p>
-
-  <p><a href="http://www.ucw-project.org/"
-  target="_blank"><u>www.ucw-project.org</u></a> </p>
+  <p>Child Labour: Global estimates 2020, trends and the road forward: <a
+  href="https://data.unicef.org/resources/child-labour-2020-global-estimates-trends-and-the-road-forward/">https://data.unicef.org/resources/child-labour-2020-global-estimates-trends-and-the-road-forward/</a></p>

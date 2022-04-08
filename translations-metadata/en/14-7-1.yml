@@ -9,8 +9,8 @@ SDG_TARGET: >-
 SDG_INDICATOR: >-
   <p>Indicator 14.7.1: Sustainable fisheries as a proportion of GDP in small
   island developing States, least developed countries and all countries</p>
-SDG_SERIES_DESCR: <p>N/A </p>
-META_LAST_UPDATE: <p>2021-02-01</p>
+SDG_SERIES_DESCR: <p>Not applicable </p>
+META_LAST_UPDATE: '2022-03-31'
 SDG_RELATED_INDICATORS: >-
   <p>Linkages with other goals and targets: SDG 1, SDG 2, SDG 8 (in particular
   8.1 and 8.4), SDG 12, SDG 13, SDG 14 (in particular 14.4.1)</p>
@@ -24,9 +24,9 @@ STAT_CONC_DEF: >-
 
   <h2>Concepts:</h2>
 
-  <p>The <u>Gross Domestic Product (GDP)</u> is the value of all final goods and
-  services produced in an economy in a given period, which is equivalent to the
-  sum of the value added (VA) from all sectors in an economy.</p>
+  <p>The GDP is the value of all final goods and services produced in an economy
+  in a given period, which is equivalent to the sum of the value added (VA) from
+  all sectors in an economy.</p>
 
   <p>The <u>value added of marine capture fisheries</u> measures the value of
   fish harvested from marine stocks, minus the value of goods and services that
@@ -34,7 +34,7 @@ STAT_CONC_DEF: >-
   includes activities that are normally integrated into the process of
   production and occur at sea, such as fishing vessels which process or preserve
   their catch on board. However, it does not include the processing or
-  preserving of fish when it occurs in land based facilities.</p>
+  preserving of fish when it occurs in land-based facilities.</p>
 
   <p>A <u>fish stock</u> is a subset of a species (fish, crustacean, mollusc,
   etc.) or a population inhabiting a geographical area and participating in the
@@ -90,7 +90,7 @@ STAT_CONC_DEF: >-
   section A 0311 ISIC revision</em></p><div class="footnotes"><div><sup
   class="footnote-number" id="footnote-2">1</sup><p> FAO fishing areas for
   statistical purposes: </p><p><a
-  href="http://www.fao.org/cwp-on-fishery-statistics/handbook/general-concepts/major-fishing-areas-general/en/">http://www.fao.org/cwp-on-fishery-statistics/handbook/general-concepts/major-fishing-areas-general/en/</a>
+  href="http://fao.org/cwp-on-fishery-statistics/handbook/general-concepts/main-water-areas/en/">http://fao.org/cwp-on-fishery-statistics/handbook/general-concepts/main-water-areas/en/</a>
   <a href="#footnote-ref-2">&#x2191;</a></p></div><div><sup
   class="footnote-number" id="footnote-3">2</sup><p> UNCLOS: <a
   href="http://www.un.org/Depts/los/convention_agreements/texts/unclos/unclos_e.pdf">http://www.un.org/Depts/los/convention_agreements/texts/unclos/unclos_e.pdf</a>
@@ -101,7 +101,9 @@ STAT_CONC_DEF: >-
   class="footnote-number" id="footnote-5">4</sup><p> ISIC revision 4: <a
   href="https://unstats.un.org/unsd/publication/seriesm/seriesm_4rev4e.pdf">https://unstats.un.org/unsd/publication/seriesm/seriesm_4rev4e.pdf</a>
   <a href="#footnote-ref-5">&#x2191;</a></p></div></div>
-UNIT_MEASURE: <p>The indicator measures sustainable fisheries as a percentage of GDP.</p>
+UNIT_MEASURE: >-
+  <p>Percent (%). The indicator measure the value added of sustainable marine
+  capture fisheries as a percentage of GDP.</p>
 CLASS_SYSTEM: >-
   <p>The United Nation&#x2019;s International Standard Classification of All
   Economic Activities (ISIC) and</p>
@@ -166,9 +168,11 @@ COLL_METHOD: >-
   which identifies the competent authorities to develop a reference list of
   stocks and completes the questionnaire. The information or data collected
   through the questionnaire from a country will initially only inform individual
-  country progress. Depending on the evolution and further standardization of
-  country reporting over the next 3-5 years, national data may be used to inform
-  global/regional estimates. </p>
+  country progress. FAO is working on a convergence (where possible) of the two
+  processes under SDG indicator 14.4.1, and good-quality stock status
+  assessments reported by countries for the national indicators will be included
+  in the regional/global indicator calculations, depending on the evolution and
+  further standardization of country reporting.</p>
 FREQ_COLL: >-
   <p>Data for GDP and value added is retrieved by FAO from UNSD (or the OECD in
   case of missing values) once a year every February.</p>
@@ -186,7 +190,7 @@ DATA_SOURCE: >-
 
   <p>&#x2022; The Organization for Economic Cooperation and Development
   (OECD).</p>
-COMPILING_ORG: <p>Food and Agriculture Organization of the United Nations.</p>
+COMPILING_ORG: <p>Food and Agriculture Organization of the United Nations (FAO)</p>
 INST_MANDATE: >-
   <p>FAO is the sole custodian of indicator 14.7.1, as designated by the
   Inter-agency and Expert Group on Sustainable Development Goal Indicators
@@ -196,7 +200,7 @@ RATIONALE: >-
   &#x201C;including of fisheries, aquaculture and tourism&#x201D;, this
   indicator as selected by the IAEG-SDG focuses only on the sustainable use of
   marine resources by fisheries. The methodology hereby proposed by FAO thus
-  measures sustainable fisheries as a percentage of GDP, in accordance to the
+  measures sustainable fisheries as a percentage of GDP, in accordance with the
   agreed indicator formulation.</p>
 
   <p>The share of value added from an industry in GDP is commonly used as an
@@ -211,8 +215,8 @@ RATIONALE: >-
   exploited to a point where it cannot replenish itself will ultimately provide
   sub-optimal long-term economic returns for stakeholders. </p>
 
-  <p>The status of a fish stock is evaluated through a various processes of
-  assessment that commonly combines biological and statistical information to
+  <p>The status of a fish stock is evaluated through various processes of
+  assessment that commonly combine biological and statistical information to
   assess changes in its abundance in response to fishing, which also enables
   forecasting of future trends. </p>
 
@@ -267,18 +271,9 @@ REC_USE_LIM: >-
   Fishing Area. For each country, the sustainability multiplier will be the
   average sustainability weighted by the proportion of the quantity of marine
   capture for each respective fishing area in which the country performs fishing
-  activities. </p>
-
-  <p>Currently, FAO aims to begin compiling country-level estimates for SDG
-  indicator 14.4.1 (proportion of fish stocks within biologically sustainable
-  levels) in 2020. Once these estimates become available, the computation method
-  for the current indicator will use country-level estimates rather than
-  estimates based on FAO Major Fishing Areas to determine the sustainability
-  multiplier and hence estimate the value added of sustainable marine capture
-  fisheries as a proportion of GDP. </p><div class="footnotes"><div><sup
-  class="footnote-number" id="footnote-9">8</sup><p> The most recent version of
-  Review of the State of World Marine Fishery Resources which contains stock
-  status is available at <a
+  activities. </p><div class="footnotes"><div><sup class="footnote-number"
+  id="footnote-9">8</sup><p> The most recent version of Review of the State of
+  World Marine Fishery Resources which contains stock status is available at <a
   href="http://www.fao.org/docrep/015/i2389e/i2389e.pdf">http://www.fao.org/docrep/015/i2389e/i2389e.pdf</a>
   <a href="#footnote-ref-9">&#x2191;</a></p></div></div>
 DATA_COMP: >-
@@ -331,11 +326,6 @@ DATA_COMP: >-
       <mi mathvariant="normal">r</mi>
       <mi mathvariant="normal">e</mi>
       <mi mathvariant="normal">&amp;nbsp;</mi>
-      <mfenced separators="|">
-        <mrow>
-          <mi mathvariant="normal">%</mi>
-        </mrow>
-      </mfenced>
       <mo>=</mo>
       <mi mathvariant="normal">&amp;nbsp;</mi>
       <mfrac>
@@ -1717,12 +1707,14 @@ IMPUTATION: >-
     <li><strong>At regional and global level</strong></li>
   </ul>
 
-  <p>Not applicable. Regional aggregates will only be calculated based on
-  contribution of sustainable fisheries to the GDP of those countries that have
-  reported value added for fishing and aquaculture in a given year. </p><div
-  class="footnotes"><div><sup class="footnote-number"
-  id="footnote-10">9</sup><p> The most recent version of Review of the State of
-  World Marine Fishery Resources is available at <a
+  <p>When a country has not reported the value added of fishing and aquaculture
+  in a given year, their most recent figure for the value added of fisheries and
+  aquaculture will be used will be used as proxy. In such instances GDP data
+  will be from the same year as the most recent figure for the value added of
+  fisheries and aquaculture, while other components will be from the year for
+  which the indicator is being calculated. </p><div class="footnotes"><div><sup
+  class="footnote-number" id="footnote-10">9</sup><p> The most recent version of
+  Review of the State of World Marine Fishery Resources is available at <a
   href="http://www.fao.org/docrep/015/i2389e/i2389e.pdf">http://www.fao.org/docrep/015/i2389e/i2389e.pdf</a>
   <a href="#footnote-ref-10">&#x2191;</a></p></div></div>
 REG_AGG: >-
@@ -1738,7 +1730,7 @@ DOC_METHOD: >-
   <p>All data used in the calculation of this indicator is drawn from already
   available international sources. As such there is no additional reporting
   burden for countries.</p>
-QUALITY_MGMNT: <p>N/A</p>
+QUALITY_MGMNT: <p>Not applicable</p>
 QUALITY_ASSURE: >-
   <p>In order to provide continuity of collection of data for value added for
   fisheries and aquaculture, and GDP across different versions of the Systems of
@@ -1767,682 +1759,16 @@ QUALITY_ASSMNT: >-
 COVERAGE: >-
   <p><strong>Data availability:</strong></p>
 
-  <p>The indicator may be calculated based on currently available data for 128
-  countries which have marine capture fisheries and have reported the value
-  added of fisheries and aquaculture at least once since 2011. This includes 35
-  SIDS, 68 developing countries and 23 least developed countries.</p>
-
-  <p>Breakdown of country data availability by region, starting in 2011:</p>
-
-  <table>
-    <tbody>
-      <tr>
-        <td></td>
-        <td>
-          <p><strong>2011</strong></p>
-        </td>
-        <td>
-          <p><strong>2013</strong></p>
-        </td>
-        <td>
-          <p><strong>2015</strong></p>
-        </td>
-        <td>
-          <p><strong>2017</strong></p>
-        </td>
-        <td>
-          <p><strong>Overall coverage</strong></p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>Global</p>
-        </td>
-        <td>
-          <p>126</p>
-        </td>
-        <td>
-          <p>122</p>
-        </td>
-        <td>
-          <p>111</p>
-        </td>
-        <td>
-          <p>98</p>
-        </td>
-        <td>
-          <p>128</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>Developing</p>
-        </td>
-        <td>
-          <p>68</p>
-        </td>
-        <td>
-          <p>67</p>
-        </td>
-        <td>
-          <p>60</p>
-        </td>
-        <td>
-          <p>57</p>
-        </td>
-        <td>
-          <p>68</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>Least Developed Countries</p>
-        </td>
-        <td>
-          <p>20</p>
-        </td>
-        <td>
-          <p>18</p>
-        </td>
-        <td>
-          <p>18</p>
-        </td>
-        <td>
-          <p>17</p>
-        </td>
-        <td>
-          <p>23</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>SIDS</p>
-        </td>
-        <td>
-          <p>35</p>
-        </td>
-        <td>
-          <p>33</p>
-        </td>
-        <td>
-          <p>30</p>
-        </td>
-        <td>
-          <p>23</p>
-        </td>
-        <td>
-          <p>35</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>Africa</p>
-        </td>
-        <td>
-          <p>26</p>
-        </td>
-        <td>
-          <p>25</p>
-        </td>
-        <td>
-          <p>23</p>
-        </td>
-        <td>
-          <p>20</p>
-        </td>
-        <td>
-          <p>29</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>Northern Africa</p>
-        </td>
-        <td>
-          <p>2</p>
-        </td>
-        <td>
-          <p>1</p>
-        </td>
-        <td>
-          <p>1</p>
-        </td>
-        <td>
-          <p>1</p>
-        </td>
-        <td>
-          <p>2</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>Sub-Saharan Africa</p>
-        </td>
-        <td>
-          <p>24</p>
-        </td>
-        <td>
-          <p>24</p>
-        </td>
-        <td>
-          <p>22</p>
-        </td>
-        <td>
-          <p>19</p>
-        </td>
-        <td>
-          <p>27</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>Eastern Africa</p>
-        </td>
-        <td>
-          <p>6</p>
-        </td>
-        <td>
-          <p>7</p>
-        </td>
-        <td>
-          <p>7</p>
-        </td>
-        <td>
-          <p>5</p>
-        </td>
-        <td>
-          <p>7</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>Middle Africa</p>
-        </td>
-        <td>
-          <p>6</p>
-        </td>
-        <td>
-          <p>6</p>
-        </td>
-        <td>
-          <p>5</p>
-        </td>
-        <td>
-          <p>4</p>
-        </td>
-        <td>
-          <p>6</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>Southern Africa</p>
-        </td>
-        <td>
-          <p>2</p>
-        </td>
-        <td>
-          <p>2</p>
-        </td>
-        <td>
-          <p>2</p>
-        </td>
-        <td>
-          <p>2</p>
-        </td>
-        <td>
-          <p>2</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>Western Africa</p>
-        </td>
-        <td>
-          <p>10</p>
-        </td>
-        <td>
-          <p>9</p>
-        </td>
-        <td>
-          <p>8</p>
-        </td>
-        <td>
-          <p>8</p>
-        </td>
-        <td>
-          <p>12</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>Americas</p>
-        </td>
-        <td>
-          <p>36</p>
-        </td>
-        <td>
-          <p>36</p>
-        </td>
-        <td>
-          <p>31</p>
-        </td>
-        <td>
-          <p>24</p>
-        </td>
-        <td>
-          <p>36</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>Latin America and the Caribbean</p>
-        </td>
-        <td>
-          <p>32</p>
-        </td>
-        <td>
-          <p>32</p>
-        </td>
-        <td>
-          <p>28</p>
-        </td>
-        <td>
-          <p>23</p>
-        </td>
-        <td>
-          <p>32</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>Caribbean</p>
-        </td>
-        <td>
-          <p>16</p>
-        </td>
-        <td>
-          <p>16</p>
-        </td>
-        <td>
-          <p>13</p>
-        </td>
-        <td>
-          <p>7</p>
-        </td>
-        <td>
-          <p>16</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>Latin America</p>
-        </td>
-        <td>
-          <p>16</p>
-        </td>
-        <td>
-          <p>16</p>
-        </td>
-        <td>
-          <p>15</p>
-        </td>
-        <td>
-          <p>16</p>
-        </td>
-        <td>
-          <p>16</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>Northern America</p>
-        </td>
-        <td>
-          <p>4</p>
-        </td>
-        <td>
-          <p>4</p>
-        </td>
-        <td>
-          <p>3</p>
-        </td>
-        <td>
-          <p>1</p>
-        </td>
-        <td>
-          <p>4</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>Asia</p>
-        </td>
-        <td>
-          <p>22</p>
-        </td>
-        <td>
-          <p>22</p>
-        </td>
-        <td>
-          <p>22</p>
-        </td>
-        <td>
-          <p>21</p>
-        </td>
-        <td>
-          <p>22</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>Central Asia</p>
-        </td>
-        <td>
-          <p>0</p>
-        </td>
-        <td>
-          <p>0</p>
-        </td>
-        <td>
-          <p>0</p>
-        </td>
-        <td>
-          <p>0</p>
-        </td>
-        <td>
-          <p>0</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>Eastern Asia</p>
-        </td>
-        <td>
-          <p>1</p>
-        </td>
-        <td>
-          <p>1</p>
-        </td>
-        <td>
-          <p>1</p>
-        </td>
-        <td>
-          <p>0</p>
-        </td>
-        <td>
-          <p>1</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>Southern Asia</p>
-        </td>
-        <td>
-          <p>6</p>
-        </td>
-        <td>
-          <p>6</p>
-        </td>
-        <td>
-          <p>6</p>
-        </td>
-        <td>
-          <p>6</p>
-        </td>
-        <td>
-          <p>6</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>South-Eastern Asia</p>
-        </td>
-        <td>
-          <p>8</p>
-        </td>
-        <td>
-          <p>8</p>
-        </td>
-        <td>
-          <p>8</p>
-        </td>
-        <td>
-          <p>8</p>
-        </td>
-        <td>
-          <p>8</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>Western Asia</p>
-        </td>
-        <td>
-          <p>7</p>
-        </td>
-        <td>
-          <p>7</p>
-        </td>
-        <td>
-          <p>7</p>
-        </td>
-        <td>
-          <p>7</p>
-        </td>
-        <td>
-          <p>7</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>Europe</p>
-        </td>
-        <td>
-          <p>29</p>
-        </td>
-        <td>
-          <p>28</p>
-        </td>
-        <td>
-          <p>26</p>
-        </td>
-        <td>
-          <p>25</p>
-        </td>
-        <td>
-          <p>30</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>Eastern Europe</p>
-        </td>
-        <td>
-          <p>5</p>
-        </td>
-        <td>
-          <p>4</p>
-        </td>
-        <td>
-          <p>4</p>
-        </td>
-        <td>
-          <p>3</p>
-        </td>
-        <td>
-          <p>5</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>Northern Europe</p>
-        </td>
-        <td>
-          <p>11</p>
-        </td>
-        <td>
-          <p>11</p>
-        </td>
-        <td>
-          <p>10</p>
-        </td>
-        <td>
-          <p>10</p>
-        </td>
-        <td>
-          <p>11</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>Southern Europe</p>
-        </td>
-        <td>
-          <p>9</p>
-        </td>
-        <td>
-          <p>9</p>
-        </td>
-        <td>
-          <p>8</p>
-        </td>
-        <td>
-          <p>8</p>
-        </td>
-        <td>
-          <p>9</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>Western Europe</p>
-        </td>
-        <td>
-          <p>4</p>
-        </td>
-        <td>
-          <p>4</p>
-        </td>
-        <td>
-          <p>4</p>
-        </td>
-        <td>
-          <p>4</p>
-        </td>
-        <td>
-          <p>4</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>Oceania</p>
-        </td>
-        <td>
-          <p>12</p>
-        </td>
-        <td>
-          <p>10</p>
-        </td>
-        <td>
-          <p>9</p>
-        </td>
-        <td>
-          <p>8</p>
-        </td>
-        <td>
-          <p>12</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>Australia and New Zealand</p>
-        </td>
-        <td>
-          <p>1</p>
-        </td>
-        <td>
-          <p>1</p>
-        </td>
-        <td>
-          <p>1</p>
-        </td>
-        <td>
-          <p>1</p>
-        </td>
-        <td>
-          <p>1</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>Melanesia</p>
-        </td>
-        <td>
-          <p>4</p>
-        </td>
-        <td>
-          <p>2</p>
-        </td>
-        <td>
-          <p>2</p>
-        </td>
-        <td>
-          <p>2</p>
-        </td>
-        <td>
-          <p>4</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>Micronesia</p>
-        </td>
-        <td>
-          <p>3</p>
-        </td>
-        <td>
-          <p>3</p>
-        </td>
-        <td>
-          <p>3</p>
-        </td>
-        <td>
-          <p>3</p>
-        </td>
-        <td>
-          <p>3</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>Polynesia</p>
-        </td>
-        <td>
-          <p>4</p>
-        </td>
-        <td>
-          <p>4</p>
-        </td>
-        <td>
-          <p>3</p>
-        </td>
-        <td>
-          <p>2</p>
-        </td>
-        <td>
-          <p>4</p>
-        </td>
-      </tr>
-    </tbody>
-  </table>
+  <p>The indicator may be calculated based on currently available data for over
+  120 countries which have marine capture fisheries and have reported the value
+  added of fisheries and aquaculture at least once since 2011. </p>
 
   <p><strong>Time Series:</strong></p>
 
-  <p>Regional state of the world&#x2019;s marine fish stock: 2011, 2013 and
-  2015</p>
+  <p>Regional state of the world&#x2019;s marine fish stock: every two years
+  from 2011</p>
 
-  <p>Value added from UNSD: from 1990 to 2017</p>
+  <p>Value added from UNSD:, annually</p>
 
   <p><strong>Disaggregation:</strong></p>
 
@@ -2477,7 +1803,7 @@ OTHER_DOC: >-
 
   <p>- ICTSD. 2018. Overfishing, Overfished Stocks, and the Current WTO
   Negotiations on Fisheries Subsidies:
-  https://www.ictsd.org/themes/environment/research/overfishing-overfished-stocks-and-the-current-wto-negotiations-on</p>
+  https://www.greengrowthknowledge.org/sites/default/files/downloads/resource/Overfishing,%20Overfished%20Stocks,%20and%20the%20Current%20WTO%20Negotiations%20on%20Fisheries%20Subsidies.pdf</p>
 
   <p>- OECD Annual National Accounts: http://stats.oecd.org/ </p>
 

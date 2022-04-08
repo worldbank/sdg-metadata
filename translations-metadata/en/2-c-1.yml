@@ -7,7 +7,14 @@ SDG_TARGET: >-
   information, including on food reserves, in order to help limit extreme food
   price volatility</p>
 SDG_INDICATOR: '<p>Indicator 2.c.1: Indicator of food price anomalies</p>'
-META_LAST_UPDATE: <p>2021-03-01</p>
+SDG_SERIES_DESCR: >-
+  <p>Indicator of Food Price Anomalies (IFPA), by type of product</p>
+
+  <p>Indicator of Food Price Anomalies (IFPA), by Consumer Food Price Index</p>
+
+  <p>Proportion of countries recording abnormally high or moderately high food
+  prices, according to the Indicator of Food Price Anomalies (%)</p>
+META_LAST_UPDATE: '2022-03-31'
 SDG_RELATED_INDICATORS: <p>Not applicable</p>
 SDG_CUSTODIAN_AGENCIES: <p>Food and Agriculture Organization of the United Nations (FAO)</p>
 CONTACT_ORGANISATION: <p>Food and Agriculture Organization of the United Nations (FAO)</p>
@@ -49,7 +56,7 @@ STAT_CONC_DEF: >-
           <mi>B</mi>
         </mrow>
       </msub>
-    </math>, raised to the power of one over the length of the period of time being considered</p>
+    </math>, raised to the power of one over the length of the period of time being considered.</p>
   <p><math xmlns="http://www.w3.org/1998/Math/MathML">
       <msub>
         <mrow>
@@ -136,7 +143,7 @@ STAT_CONC_DEF: >-
       <mo>-</mo>
       <mn>1</mn>
     </math> (1)</p>
-  <p>Where:</p>
+  <p>where:</p>
 
   <p><math xmlns="http://www.w3.org/1998/Math/MathML">
       <msub>
@@ -207,205 +214,8 @@ STAT_CONC_DEF: >-
       <mi>A</mi>
     </math> and <math xmlns="http://www.w3.org/1998/Math/MathML">
       <mi>B</mi>
-    </math>.</p>
-  <p>The quarterly <math xmlns="http://www.w3.org/1998/Math/MathML">
-      <mo>(</mo>
-      <msubsup>
-        <mrow>
-          <mi>Q</mi>
-          <mi>I</mi>
-          <mi>F</mi>
-          <mi>P</mi>
-          <mi>A</mi>
-        </mrow>
-        <mrow>
-          <mi>y</mi>
-          <mi>t</mi>
-        </mrow>
-        <mrow></mrow>
-      </msubsup>
-      <mo>)</mo>
-    </math> and annual <math xmlns="http://www.w3.org/1998/Math/MathML">
-      <mo>(</mo>
-      <msubsup>
-        <mrow>
-          <mi>A</mi>
-          <mi>I</mi>
-          <mi>F</mi>
-          <mi>P</mi>
-          <mi>A</mi>
-        </mrow>
-        <mrow>
-          <mi>y</mi>
-          <mi>t</mi>
-        </mrow>
-        <mrow></mrow>
-      </msubsup>
-      <mo>)</mo>
-    </math> indicators of food price anomalies are then defined as:</p>
-  <p><math xmlns="http://www.w3.org/1998/Math/MathML">
-      <mfenced separators="|">
-        <mrow>
-          <mfrac>
-            <mrow>
-              <msub>
-                <mrow>
-                  <mi>C</mi>
-                  <mi>X</mi>
-                  <mi>G</mi>
-                  <mi>R</mi>
-                </mrow>
-                <mrow>
-                  <mi>y</mi>
-                  <mi>t</mi>
-                </mrow>
-              </msub>
-              <mo>-</mo>
-              <msub>
-                <mrow>
-                  <mover accent="false">
-                    <mrow>
-                      <mi>W</mi>
-                      <mo>_</mo>
-                      <mi>C</mi>
-                      <mi>X</mi>
-                      <mi>G</mi>
-                      <mi>R</mi>
-                    </mrow>
-                    <mo>&#xAF;</mo>
-                  </mover>
-                </mrow>
-                <mrow>
-                  <mi>t</mi>
-                </mrow>
-              </msub>
-            </mrow>
-            <mrow>
-              <msub>
-                <mrow>
-                  <mover accent="true">
-                    <mrow>
-                      <mi>&#x3C3;</mi>
-                    </mrow>
-                    <mo>^</mo>
-                  </mover>
-                </mrow>
-                <mrow>
-                  <msub>
-                    <mrow>
-                      <mi>W</mi>
-                      <mo>_</mo>
-                      <mi>C</mi>
-                      <mi>X</mi>
-                      <mi>G</mi>
-                      <mi>R</mi>
-                    </mrow>
-                    <mrow>
-                      <mi>t</mi>
-                    </mrow>
-                  </msub>
-                </mrow>
-              </msub>
-            </mrow>
-          </mfrac>
-        </mrow>
-      </mfenced>
-      <mo>=</mo>
-      <msubsup>
-        <mrow>
-          <mi>X</mi>
-          <mi>I</mi>
-          <mi>F</mi>
-          <mi>P</mi>
-          <mi>A</mi>
-        </mrow>
-        <mrow>
-          <mi>y</mi>
-          <mi>t</mi>
-        </mrow>
-        <mrow></mrow>
-      </msubsup>
-    </math> (2)</p>
-  <p>Where:</p>
-
-  <p><math xmlns="http://www.w3.org/1998/Math/MathML">
-      <msub>
-        <mrow>
-          <mi>C</mi>
-          <mi>X</mi>
-          <mi>G</mi>
-          <mi>R</mi>
-        </mrow>
-        <mrow>
-          <mi>y</mi>
-          <mi>t</mi>
-        </mrow>
-      </msub>
-    </math> is either the quarterly or annual compound growth rate in month <em>t </em>for year <em>y</em></p>
-  <p><math xmlns="http://www.w3.org/1998/Math/MathML">
-      <msub>
-        <mrow>
-          <mover accent="false">
-            <mrow>
-              <mi>W</mi>
-              <mo>_</mo>
-              <mi>C</mi>
-              <mi>X</mi>
-              <mi>G</mi>
-              <mi>R</mi>
-            </mrow>
-            <mo>&#xAF;</mo>
-          </mover>
-        </mrow>
-        <mrow>
-          <mi>t</mi>
-        </mrow>
-      </msub>
-    </math> is the weighted average of either the quarterly or annual compound growth rate for month <em>t</em> across years <em>y</em></p>
-  <p><math xmlns="http://www.w3.org/1998/Math/MathML">
-      <msub>
-        <mrow>
-          <mover accent="true">
-            <mrow>
-              <mi>&#x3C3;</mi>
-            </mrow>
-            <mo>^</mo>
-          </mover>
-        </mrow>
-        <mrow>
-          <msub>
-            <mrow>
-              <mi>W</mi>
-              <mo>_</mo>
-              <mi>C</mi>
-              <mi>X</mi>
-              <mi>G</mi>
-              <mi>R</mi>
-            </mrow>
-            <mrow>
-              <mi>t</mi>
-            </mrow>
-          </msub>
-        </mrow>
-      </msub>
-    </math> is the weighted standard deviation of either the quarterly or annual compound growth rate for month <em>t</em> over years <em>y</em>, </p>
-  <p><math xmlns="http://www.w3.org/1998/Math/MathML">
-      <msubsup>
-        <mrow>
-          <mi>X</mi>
-          <mi>I</mi>
-          <mi>F</mi>
-          <mi>P</mi>
-          <mi>A</mi>
-        </mrow>
-        <mrow>
-          <mi>y</mi>
-          <mi>t</mi>
-        </mrow>
-        <mrow></mrow>
-      </msubsup>
-    </math> is either the quarterly or annual indicator of a price anomaly. </p><div class="footnotes"><div><sup class="footnote-number" id="footnote-2">1</sup><p> A geometric mean is a type of average, which indicates the typical value of a set of numbers by using the product of their values as opposed to the arithmetic mean which relies on their sum (<a href="https://en.wikipedia.org/wiki/Geometric_mean">Wikipedia, 2017</a>) <a href="#footnote-ref-2">&#x2191;</a></p></div></div>
-UNIT_MEASURE: <p>Not applicable as IFPA is an index.</p>
+    </math>.</p><div class="footnotes"><div><sup class="footnote-number" id="footnote-2">1</sup><p> A geometric mean is a type of average, which indicates the typical value of a set of numbers by using the product of their values as opposed to the arithmetic mean which relies on their sum (<a href="https://en.wikipedia.org/wiki/Geometric_mean">Wikipedia, 2017</a>) <a href="#footnote-ref-2">&#x2191;</a></p></div></div>
+UNIT_MEASURE: <p>Index and Percent.</p>
 CLASS_SYSTEM: <p>Not applicable</p>
 SOURCE_TYPE: >-
   <p>FAO relies on official domestic price data that it compiles in the Food
@@ -416,7 +226,7 @@ SOURCE_TYPE: >-
   and millet. While diets across the world have become more diversified with
   increasing incomes, cereals still account for 45 percent of a person&#x2019;s
   daily caloric intake, making this commodity group the most important in terms
-  of its contribution to caloric intake, particularly for low income populations
+  of its contribution to caloric intake, particularly for low-income populations
   (FAOSTAT, 2017). For the purpose of a more comprehensive coverage at the
   global level, FAO also calculates IFPA on countries&#x2019; officially
   reported food price indices as reported in <a
@@ -432,8 +242,8 @@ SOURCE_TYPE: >-
   <p>For the Food CPI, the FAOSTAT monthly CPI &amp; Food CPI database was based
   on the ILO CPI data until December 2014. In 2014, IMF-ILO-FAO agreed to
   transfer global CPI data compilation from ILO to IMF. Upon agreement, CPIs for
-  all items and its sub components originates from the International Monetary
-  Fund (IMF), and the UN Statistics Division(UNSD) for countries not covered by
+  all items and its subcomponents originates from the International Monetary
+  Fund (IMF), and the UN Statistics Division (UNSD) for countries not covered by
   the IMF. However, due to a limited time coverage from IMF and UNSD for a
   number of countries, the Organisation for Economic Co-operation and
   Development (OECD), the European statistics (EUROSTAT), the Latin America and
@@ -451,22 +261,22 @@ COLL_METHOD: >-
   href="http://www.fao.org/faostat/en/#data/CP">FAOSTAT</a> (please refer to the
   3.a. Data sources). </p>
 FREQ_COLL: >-
-  <p>Food commodity prices in the <a
-  href="http://www.fao.org/giews/food-prices/tool/public/#/home">FPMA</a> tool
+  <p>Food commodity prices in the Food Price Monitoring and Analysis (<a
+  href="http://www.fao.org/giews/food-prices/tool/public/#/home">FPMA</a>) tool
   are updated monthly. Food Price Indices in <a
   href="http://www.fao.org/faostat/en/#data/CP">FAOSTAT</a> are updated
-  quarterly</p>
-REL_CAL_POLICY: <p>The next release for data on this indicator is projected for</p>
+  quarterly.</p>
+REL_CAL_POLICY: <p>During the second quarter of each year</p>
 DATA_SOURCE: >-
   <p>The sources of the price information are numerous and are listed for each
   price series in the FPMA tool at <a
-  href="https://fpma.apps.fao.org/giews/food-prices/tool/public/#/home">https://fpma.apps.fao.org/giews/food-prices/tool/public/#/home</a>
-  . </p>
-
-  <p>For the Food Price Indices the source is FAOSTAT <a
-  href="http://www.fao.org/faostat/en/#data/CP">http://www.fao.org/faostat/en/#data/CP</a>
+  href="https://fpma.apps.fao.org/giews/food-prices/tool/public/#/home">https://fpma.apps.fao.org/giews/food-prices/tool/public/#/home</a>.
   </p>
-COMPILING_ORG: <p>FAO</p>
+
+  <p>For the Food Price Indices, the source is FAOSTAT <a
+  href="http://www.fao.org/faostat/en/#data/CP">http://www.fao.org/faostat/en/#data/CP</a>.
+  </p>
+COMPILING_ORG: <p>Food and Agriculture Organization of the United Nations (FAO)</p>
 INST_MANDATE: >-
   <p>Article I of the FAO constitution requires that the Organization collect,
   analyses, interpret and disseminate information relating to nutrition, food
@@ -671,6 +481,7 @@ DATA_COMP: >-
         <mrow></mrow>
       </msubsup>
     </math>), and the annual indicator of food price anomalies<math xmlns="http://www.w3.org/1998/Math/MathML">
+      <mi>&amp;nbsp;</mi>
       <msubsup>
         <mrow>
           <mo>(</mo>
@@ -687,7 +498,171 @@ DATA_COMP: >-
         <mrow></mrow>
       </msubsup>
       <mo>)</mo>
-    </math> as stated in equation 1.</p>
+    </math>.</p>
+  <p><math xmlns="http://www.w3.org/1998/Math/MathML">
+      <mfenced separators="|">
+        <mrow>
+          <mfrac>
+            <mrow>
+              <msub>
+                <mrow>
+                  <mi>C</mi>
+                  <mi>X</mi>
+                  <mi>G</mi>
+                  <mi>R</mi>
+                </mrow>
+                <mrow>
+                  <mi>y</mi>
+                  <mi>t</mi>
+                </mrow>
+              </msub>
+              <mo>-</mo>
+              <msub>
+                <mrow>
+                  <mover accent="false">
+                    <mrow>
+                      <mi>W</mi>
+                      <mo>_</mo>
+                      <mi>C</mi>
+                      <mi>X</mi>
+                      <mi>G</mi>
+                      <mi>R</mi>
+                    </mrow>
+                    <mo>&#xAF;</mo>
+                  </mover>
+                </mrow>
+                <mrow>
+                  <mi>t</mi>
+                </mrow>
+              </msub>
+            </mrow>
+            <mrow>
+              <msub>
+                <mrow>
+                  <mover accent="true">
+                    <mrow>
+                      <mi>&#x3C3;</mi>
+                    </mrow>
+                    <mo>^</mo>
+                  </mover>
+                </mrow>
+                <mrow>
+                  <msub>
+                    <mrow>
+                      <mi>W</mi>
+                      <mo>_</mo>
+                      <mi>C</mi>
+                      <mi>X</mi>
+                      <mi>G</mi>
+                      <mi>R</mi>
+                    </mrow>
+                    <mrow>
+                      <mi>t</mi>
+                    </mrow>
+                  </msub>
+                </mrow>
+              </msub>
+            </mrow>
+          </mfrac>
+        </mrow>
+      </mfenced>
+      <mo>=</mo>
+      <msubsup>
+        <mrow>
+          <mi>X</mi>
+          <mi>I</mi>
+          <mi>F</mi>
+          <mi>P</mi>
+          <mi>A</mi>
+        </mrow>
+        <mrow>
+          <mi>y</mi>
+          <mi>t</mi>
+        </mrow>
+        <mrow></mrow>
+      </msubsup>
+    </math> (2)</p>
+  <p>Where:</p>
+
+  <p><math xmlns="http://www.w3.org/1998/Math/MathML">
+      <msub>
+        <mrow>
+          <mi>C</mi>
+          <mi>X</mi>
+          <mi>G</mi>
+          <mi>R</mi>
+        </mrow>
+        <mrow>
+          <mi>y</mi>
+          <mi>t</mi>
+        </mrow>
+      </msub>
+    </math> is either the quarterly or annual compound growth rate in month <em>t </em>for year <em>y</em></p>
+  <p><math xmlns="http://www.w3.org/1998/Math/MathML">
+      <msub>
+        <mrow>
+          <mover accent="false">
+            <mrow>
+              <mi>W</mi>
+              <mo>_</mo>
+              <mi>C</mi>
+              <mi>X</mi>
+              <mi>G</mi>
+              <mi>R</mi>
+            </mrow>
+            <mo>&#xAF;</mo>
+          </mover>
+        </mrow>
+        <mrow>
+          <mi>t</mi>
+        </mrow>
+      </msub>
+    </math> is the weighted average of either the quarterly or annual compound growth rate for month <em>t</em> across years <em>y</em></p>
+  <p><math xmlns="http://www.w3.org/1998/Math/MathML">
+      <msub>
+        <mrow>
+          <mover accent="true">
+            <mrow>
+              <mi>&#x3C3;</mi>
+            </mrow>
+            <mo>^</mo>
+          </mover>
+        </mrow>
+        <mrow>
+          <msub>
+            <mrow>
+              <mi>W</mi>
+              <mo>_</mo>
+              <mi>C</mi>
+              <mi>X</mi>
+              <mi>G</mi>
+              <mi>R</mi>
+            </mrow>
+            <mrow>
+              <mi>t</mi>
+            </mrow>
+          </msub>
+        </mrow>
+      </msub>
+    </math> is the weighted standard deviation of either the quarterly or annual compound growth rate for month <em>t</em> over years <em>y</em>, </p>
+  <p><math xmlns="http://www.w3.org/1998/Math/MathML">
+      <msubsup>
+        <mrow>
+          <mi>X</mi>
+          <mi>I</mi>
+          <mi>F</mi>
+          <mi>P</mi>
+          <mi>A</mi>
+        </mrow>
+        <mrow>
+          <mi>y</mi>
+          <mi>t</mi>
+        </mrow>
+        <mrow></mrow>
+      </msubsup>
+    </math> is either the quarterly or annual indicator of a price anomaly in month <em>t</em> for year <em>y</em>. </p>
+  <p>Then IFPA is defined as:</p>
+
   <p><math xmlns="http://www.w3.org/1998/Math/MathML">
       <msub>
         <mrow>
@@ -818,6 +793,7 @@ DATA_COMP: >-
           <mi>A</mi>
         </mrow>
         <mrow>
+          <mi>y</mi>
           <mi>t</mi>
         </mrow>
         <mrow></mrow>
@@ -850,8 +826,7 @@ DATA_COMP: >-
       </mfenced>
     </math>-- to abnormal price growth from year-to-year. This is done to better capture the price level relative to its seasonal trends, which is measured to the price level a year earlier. SDG indicator 2.c.1 is then calculated as the arithmetic mean over <math xmlns="http://www.w3.org/1998/Math/MathML">
       <mi>t</mi>
-    </math> months of the</p>
-  <p> <math xmlns="http://www.w3.org/1998/Math/MathML">
+    </math> months of the <math xmlns="http://www.w3.org/1998/Math/MathML">
       <msub>
         <mrow>
           <mi>I</mi>
@@ -960,7 +935,7 @@ IMPUTATION: >-
     <li><strong>At country level</strong></li>
   </ul>
 
-  <p> For the domestic food commodity prices, the data is republished data
+  <p>For the domestic food commodity prices, the data is republished data
   harvested from national governmental organizations without imputation of
   missing values. For the purpose of the indicator, if more than 3 consecutive
   months of data are missing or if less than 5 years are available the series
@@ -1005,7 +980,7 @@ REG_AGG: >-
   </p>
 DOC_METHOD: >-
   <p>An interactive e-learning course is available on <a
-  href="http://www.fao.org/elearning/#/elc/en/course/SDG2C1">SDG Indicator 2.c.1
+  href="https://elearning.fao.org/course/view.php?id=362">SDG Indicator 2.c.1
   &#x2013; Food price anomalies</a> to complement countries&#x2019; efforts in
   monitoring the 2030 Agenda and broaden the subject&#x2019;s understanding. The
   course covers basic concepts related to market functioning, prices
@@ -1013,7 +988,7 @@ DOC_METHOD: >-
   and use the online Food Price Monitoring and Analysis (FPMA) tool to interpret
   indicator results, at national and international level. Besides in English,
   the online version of this course is also available in <a
-  href="http://www.fao.org/elearning/course/SDG2C1/ru/story.html"
+  href="https://elearning.fao.org/pluginfile.php/485928/course/section/1889/SDG-2C1_RU_WIN32_CDROM.zip"
   target="_blank">Russian</a>, French and Spanish.</p>
 QUALITY_MGMNT: >-
   <p>FAO is responsible for the quality of the internal statistical processes
@@ -1043,348 +1018,17 @@ QUALITY_ASSMNT: >-
 COVERAGE: >-
   <p><strong>Data availability:</strong></p>
 
-  <p>Breakdown of the number of countries covered by region, according to the
-  latest data, is as follows:</p>
-
-  <table>
-    <tbody>
-      <tr>
-        <td>
-          <p>Region</p>
-        </td>
-        <td>
-          <p>Food prices</p>
-        </td>
-        <td>
-          <p>Food CPI</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>World</p>
-        </td>
-        <td>
-          <p>77</p>
-        </td>
-        <td>
-          <p>187</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>Africa</p>
-        </td>
-        <td>
-          <p>30</p>
-        </td>
-        <td>
-          <p>49</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>Northern Africa</p>
-        </td>
-        <td>
-          <p>2</p>
-        </td>
-        <td>
-          <p>5</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>Sub-Saharan Africa</p>
-        </td>
-        <td>
-          <p>28</p>
-        </td>
-        <td>
-          <p>44</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>Eastern Africa</p>
-        </td>
-        <td>
-          <p>11</p>
-        </td>
-        <td>
-          <p>16</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>Middle Africa</p>
-        </td>
-        <td>
-          <p>2</p>
-        </td>
-        <td>
-          <p>7</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>Southern Africa</p>
-        </td>
-        <td>
-          <p>4</p>
-        </td>
-        <td>
-          <p>5</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>Western Africa</p>
-        </td>
-        <td>
-          <p>11</p>
-        </td>
-        <td>
-          <p>16</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>Americas</p>
-        </td>
-        <td>
-          <p>18</p>
-        </td>
-        <td>
-          <p>40</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>Latin America and the Caribbean</p>
-        </td>
-        <td>
-          <p>18</p>
-        </td>
-        <td>
-          <p>37</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>Caribbean</p>
-        </td>
-        <td>
-          <p>2</p>
-        </td>
-        <td>
-          <p>18</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>South America</p>
-        </td>
-        <td>
-          <p>9</p>
-        </td>
-        <td>
-          <p>11</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>Central America</p>
-        </td>
-        <td>
-          <p>7</p>
-        </td>
-        <td>
-          <p>8</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>Northern America</p>
-        </td>
-        <td></td>
-        <td>
-          <p>3</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>Asia</p>
-        </td>
-        <td>
-          <p>24</p>
-        </td>
-        <td>
-          <p>44</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>Central Asia</p>
-        </td>
-        <td>
-          <p>3</p>
-        </td>
-        <td>
-          <p>3</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>Eastern Asia</p>
-        </td>
-        <td>
-          <p>3</p>
-        </td>
-        <td>
-          <p>4</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>Southern Asia</p>
-        </td>
-        <td>
-          <p>5</p>
-        </td>
-        <td>
-          <p>9</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>South-Eastern Asia</p>
-        </td>
-        <td>
-          <p>6</p>
-        </td>
-        <td>
-          <p>11</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>Western Asia</p>
-        </td>
-        <td>
-          <p>7</p>
-        </td>
-        <td>
-          <p>17</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>Europe</p>
-        </td>
-        <td>
-          <p>5</p>
-        </td>
-        <td>
-          <p>41</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>Eastern Europe</p>
-        </td>
-        <td>
-          <p>3</p>
-        </td>
-        <td>
-          <p>10</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>Northern Europe</p>
-        </td>
-        <td></td>
-        <td>
-          <p>11</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>Southern Europe</p>
-        </td>
-        <td>
-          <p>1</p>
-        </td>
-        <td>
-          <p>13</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>Western Europe</p>
-        </td>
-        <td></td>
-        <td>
-          <p>7</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>Oceania</p>
-        </td>
-        <td></td>
-        <td>
-          <p>13</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>Australia and New Zealand</p>
-        </td>
-        <td></td>
-        <td>
-          <p>2</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>Melanesia</p>
-        </td>
-        <td></td>
-        <td>
-          <p>5</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>Micronesia</p>
-        </td>
-        <td></td>
-        <td>
-          <p>3</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>Polynesia</p>
-        </td>
-        <td></td>
-        <td>
-          <p>3</p>
-        </td>
-      </tr>
-    </tbody>
-  </table>
+  <p>IFPA on commodity prices is available for about two fifths of countries,
+  while IFPA on Food CPI is available for almost all countries.</p>
 
   <p><strong>Time series:</strong></p>
 
-  <p>While IFPA on commodity prices is available from 2015 to 2020, IFPA on Food
-  CPI covers the rage of the 2010-2019 period, following the availability of CPI
-  data in FAO STAT as of mid-January, 2021. </p>
+  <p>IFPA on commodity prices is available annually from 2015, while IFPA on
+  Food CPI is available annually since 2010.</p>
 
   <p><strong>Disaggregation:</strong></p>
 
-  <p>Type of product, level of price anomaly</p>
+  <p>Type of product, level of price anomaly.</p>
 COMPARABILITY: >-
   <p>FAO relies on the Food Price Indices as reported in FAOSTAT as well as on
   available official domestic food price data that it compiles in the Food Price

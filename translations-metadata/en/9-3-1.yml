@@ -9,8 +9,11 @@ SDG_TARGET: >-
 SDG_INDICATOR: >-
   <p>Indicator 9.3.1: Proportion of small-scale industries in total industry
   value added</p>
-META_LAST_UPDATE: <p>2021-02-01</p>
-SDG_RELATED_INDICATORS: <p>9.3.2</p>
+SDG_SERIES_DESCR: <p>Proportion of small-scale industries in total industry value added</p>
+META_LAST_UPDATE: '2022-03-31'
+SDG_RELATED_INDICATORS: >-
+  <p>9.3.2: Proportion of small-scale industries with a loan or line of
+  credit</p>
 SDG_CUSTODIAN_AGENCIES: <p>United Nations Industrial Development Organization (UNIDO)</p>
 CONTACT_ORGANISATION: <p>United Nations Industrial Development Organization (UNIDO)</p>
 STAT_CONC_DEF: >-
@@ -66,8 +69,8 @@ STAT_CONC_DEF: >-
   can be identified for which production data may be meaningfully compiled. </p>
 
   <p>As introduced in IRIS 2008 (United Nations, 2011), an <strong>economic
-  activity</strong> is understood as referring to a process, that is to say, to
-  the combination of actions carried out by a certain entity that uses labor,
+  activity</strong> is understood as referring to a process, that is, the
+  combination of actions carried out by a certain entity that uses labor,
   capital, goods and services to produce specific products (goods and services).
   In general, industrial statistics reflect the characteristics and economic
   activities of units engaged in a class of industrial activities that are
@@ -110,7 +113,7 @@ STAT_CONC_DEF: >-
 
   <p>All above mentioned terms are introduced to be in line with IRIS 2008
   (United Nations, 2011).</p>
-UNIT_MEASURE: <p>Percentages</p>
+UNIT_MEASURE: <p>Percent (%)</p>
 CLASS_SYSTEM: >-
   <p><a
   href="https://unstats.un.org/unsd/publication/seriesm/seriesm_4rev4e.pdf">International
@@ -128,7 +131,7 @@ COLL_METHOD: >-
   annual industrial surveys, where value added is disaggregated by size classes
   given in terms of number of employees and from surveys focusing particularly
   on small enterprises, or small and medium enterprises in general.</p>
-FREQ_COLL: '<p>Data are collected annually from NSOs, OECD and EUROSTAT</p>'
+FREQ_COLL: '<p>Data are collected annually from NSOs, OECD and EUROSTAT.</p>'
 REL_CAL_POLICY: >-
   <p>UNIDO SDG-9 database is updated between March and April every year
   including the 9.3.1 indicator.</p>
@@ -173,7 +176,7 @@ REC_USE_LIM: >-
   procedure, taxation and different waivers aimed to promote &#x201C;small-scale
   industries&#x201D;. Therefore, countries may agree on a common size class for
   compilation purposes. In this context, UNIDO proposes that all countries
-  compile the employment and value added data by a size class of
+  compile the employment and value-added data by a size class of
   &#x201C;small-scale industries&#x201D; as with less than 20 persons employed.
   From such data, an internationally comparable data on the share of
   &#x201C;small-scale industries&#x201D; in total could be derived.</p>
@@ -273,7 +276,7 @@ DATA_COMP: >-
           <mi>d</mi>
         </mrow>
       </mfrac>
-      <mi>*</mi>
+      <mo>&#xD7;</mo>
       <mn>100</mn>
     </math></p>
 DATA_VALIDATION: >-
@@ -310,29 +313,46 @@ DOC_METHOD: >-
 
   <p><a
   href="https://unstats.un.org/unsd/classifications/Econ/isic">https://unstats.un.org/unsd/classifications/Econ/isic</a></p>
+QUALITY_MGMNT: >-
+  <p>UNIDO published a handbook for statisticians involved in the regular
+  industrial statistics programmes of NSOs or line ministries (<a
+  href="https://www.unido.org/sites/default/files/2012-07/Industrial%20Statistics%20-%20Guidelines%20and%20Methdology_0.pdf">Industrial
+  Statistics - Guidelines and Methodology</a>). It describes the statistical
+  methods related to the major stages of industrial statistics operation.
+  Moreover, UNIDO has established a quality management framework based on the
+  internationally recognized guidelines recommended by IRIS to ensure quality of
+  statistical products.</p>
 QUALITY_ASSURE: >-
-  <p>The UNIDO quality assurance framework is followed to check data quality and
-  consistency before the data dissemination.</p>
-
-  <p>UNIDO (2009), UNIDO Data Quality: A quality assurance framework for UNIDO
-  statistical activities <a
-  href="https://open.unido.org/api/documents/4814740/download/UNIDO-Publication-2009-4814740">https://open.unido.org/api/documents/4814740/download/UNIDO-Publication-2009-4814740</a>
-  </p>
+  <p><a href="https://unstats.un.org/unsd/unsystem/Documents/QAF-UNIDO.pdf">The
+  UNIDO Quality Assurance Framework</a> is followed to ensure that the
+  statistical activities of UNIDO are relevant and the data compiled and
+  disseminated are accurate, complete within the defined scope and coverage,
+  timely, comparable in terms of internationally recommended methods and
+  classification standards and internally coherent to variables included in the
+  datasets. While these generally accepted, broad dimensions of quality of
+  statistical data may be defined in each NSO&apos;s own quality assurance
+  framework. UNIDO makes maximum effort that data produced from the statistical
+  operation undertaken with the UNIDO technical cooperation are accurate,
+  internationally comparable and coherent.</p>
+QUALITY_ASSMNT: >-
+  <p>UNIDO employs a wide range of data quality techniques and consultations
+  with national providers to assure quality principles supported by the
+  Fundamental Principles of Official Statistics. </p>
 COVERAGE: >-
   <p><strong>Data availability:</strong></p>
 
-  <p>Data for around 70 economies were collected</p>
+  <p>Data for around 70 economies were collected.</p>
 
   <p><strong>Time series:</strong></p>
 
-  <p>Data are provided on very irregular basis. Data available from annual
-  industrial surveys show yearly frequency, surveys on small and medium
+  <p>Data are provided on a very irregular basis. Data available from annual
+  industrial surveys show yearly frequency, while surveys on small and medium
   enterprises are conducted either irregularly or with a given time lag (for
   instance once in five years).</p>
 
   <p><strong>Disaggregation:</strong></p>
 
-  <p>Data can be disaggregated by manufacturing sub-sectors</p>
+  <p>Data can be disaggregated by manufacturing sub-sectors.</p>
 COMPARABILITY: >-
   <p><strong>Sources of discrepancies:</strong></p>
 
@@ -348,13 +368,13 @@ OTHER_DOC: >-
   <h2>References:</h2>
 
   <p>United Nations. (2002). International Standard Industrial Classification of
-  All Economic Activities (ISIC Revision 4). New York : United Nations.</p>
+  All Economic Activities (ISIC Revision 4). New York: United Nations.</p>
 
-  <p> <a
+  <p><a
   href="https://unstats.un.org/unsd/publication/seriesm/seriesm_4rev4e.pdf">https://unstats.un.org/unsd/publication/seriesm/seriesm_4rev4e.pdf</a></p>
 
   <p>United Nations. (2008). International Standard Industrial Classification of
-  All Economic Activities (ISIC Revision 3.1). New York : United Nations.</p>
+  All Economic Activities (ISIC Revision 3.1). New York: United Nations.</p>
 
   <p> <a
   href="https://unstats.un.org/unsd/publication/SeriesM/seriesm_4rev3_1e.pdf">https://unstats.un.org/unsd/publication/SeriesM/seriesm_4rev3_1e.pdf</a></p>
@@ -368,3 +388,10 @@ OTHER_DOC: >-
 
   <p> <a
   href="http://www.oecd.org/std/business-stats/structuralanddemographicbusinessstatisticssdbsoecd.htm">http://www.oecd.org/std/business-stats/structuralanddemographicbusinessstatisticssdbsoecd.htm</a></p>
+
+  <p>UNIDO (2009). UNIDO Data Quality: A quality assurance framework for UNIDO
+  statistical activities <a
+  href="https://open.unido.org/api/documents/4814740/download/UNIDO-Publication-2009-4814740">https://open.unido.org/api/documents/4814740/download/UNIDO-Publication-2009-4814740</a></p>
+
+  <p>UNIDO (2010). Industrial Statistics - Guidelines and Methodology
+  https://www.unido.org/sites/default/files/2012-07/Industrial%20Statistics%20-%20Guidelines%20and%20Methdology_0.pdf</p>

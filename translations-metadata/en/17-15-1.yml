@@ -8,8 +8,9 @@ SDG_TARGET: >-
 SDG_INDICATOR: >-
   <p>Indicator 17.15.1: Extent of use of country-owned results frameworks and
   planning tools by providers of development cooperation</p>
-META_LAST_UPDATE: <p>2021-02-12</p>
-SDG_RELATED_INDICATORS: '<p>17.16.1. and 5.c.1:</p>'
+SDG_SERIES_DESCR: <p>Not applicable</p>
+META_LAST_UPDATE: '2022-03-31'
+SDG_RELATED_INDICATORS: <p>17.16.1 and 5.c.1</p>
 SDG_CUSTODIAN_AGENCIES: |-
   <p>Organisation for Economic Co-operation and Development (OECD)</p>
   <p>United Nations Development Programme (UNDP)</p>
@@ -53,16 +54,16 @@ STAT_CONC_DEF: >-
   <p>Some examples of CRFs are long-term vision plans; national development
   strategies; joint government-multi-donor plans; government&#x2019;s sector
   strategies, policies and plans; subnational planning instruments, as well as
-  other frameworks (e.g. budget support performance matrices, sector-wide
+  other frameworks (e.g. budget support performance matrices &amp; sector-wide
   approaches). In contrast, planning and priority setting documents produced
   outside the government, such as country strategies prepared by development
   partners, are not considered CRFs.</p>
-UNIT_MEASURE: <p>Proportion</p>
+UNIT_MEASURE: <p>Percent (%)</p>
 CLASS_SYSTEM: >-
   <p>For developing countries, classification is based on SDG grouping provided
-  by the UN Statistical Office (regional classification, LDCs, LLDCs, SIDS).
-  Income classification follows the World Bank grouping (low, lower-middle,
-  upper-middle, and high income).</p>
+  by the UN Statistical Office (regional classification, Least Developed
+  Countries (LDCs), Landlocked Developing Countries (LLDCs), Small Island
+  Developing States (SIDS)). </p>
 
   <p>For development partners, classification is based on SDG grouping. In
   addition, bilateral partners can be distinguished between members of the
@@ -80,8 +81,8 @@ COLL_METHOD: >-
   monitoring exercise, a national coordinator is assigned by the country
   government. S/he typically comes from the Ministry of Finance, the Ministry of
   Planning, or the Ministry of Foreign Affairs, a Ministry that has a role for
-  managing development cooperation and partnerships in accordance to respective
-  institutional structure of each country. </p>
+  managing development cooperation and partnerships in accordance with the
+  respective institutional structure of each country. </p>
 
   <p>(ii) The national coordinator collects inputs from development partners.
   The data is submitted to the OECD and UNDP and subsequently undergoes a review
@@ -91,9 +92,10 @@ COLL_METHOD: >-
   validation process. However, inconsistencies or possible problematic values
   are highlighted and sent back to national coordinators for revision.</p>
 FREQ_COLL: >-
-  <p>The data collection calendar for global data aggregation was on a biennial
-  cycle. Data has been collected in 2016 and 2018. The next monitoring round
-  will take place starting from 2023. </p>
+  <p>The data collection calendar was on a biennial cycle prior to 2020. Data
+  has been reported based on the data collected in 2016 and 2018. The next
+  monitoring round will take place starting from 2023 with data collection
+  occurring on a rolling basis. </p>
 REL_CAL_POLICY: >-
   <p>Data release is scheduled for the first quarter in the year that
   immediately follows the national data gathering processes.</p>
@@ -113,7 +115,10 @@ DATA_SOURCE: >-
   development co-operation, civil society organisations, the private sector, and
   trade unions. For calculation of indicator 17.15.1, country governments submit
   the data to the OECD/UNDP Joint Support Team of the Global Partnership.</p>
-COMPILING_ORG: <p>OECD and UNDP jointly compile and report the data at the global level.</p>
+COMPILING_ORG: >-
+  <p>Organisation for Economic Co-operation and Development (OECD) and United
+  Nations Development Programme (UNDP) jointly compile and report the data at
+  the global level.</p>
 INST_MANDATE: >-
   <p>As custodians of this SDG indicator, OECD and UNDP are responsible for
   providing technical guidance and supporting countries to collect data,
@@ -152,16 +157,16 @@ REC_USE_LIM: >-
   national development planning, the enabling environment of civil society
   organisations, the quality of public-private dialogue, the predictability of
   development co-operation, and the use of country public financial management
-  systems by providers of development co-operation . Data generated from the
+  systems by providers of development co-operation. Data generated from the
   Global Partnership monitoring provide evidence for two additional SDG
   indicators: 17.16.1 and 5.c.1. </p>
 DATA_COMP: >-
   <p>To provide a comprehensive measure on the extent of use of country-owned
   results frameworks and other government-led planning tools, the indicator
-  calculates the degree to which objectives, results indicators and monitoring
+  calculates the degree to which objectives, results, indicators and monitoring
   frameworks associated with new development interventions are drawn from
-  government sources &#x2013;including national, sector and subnational planning
-  tools.</p>
+  government sources &#x2013; including national, sector and subnational
+  planning tools.</p>
 
   <p>For each development intervention of significant size (US$ 100,000 and
   above) approved during the year of reference, the following dimensions are
@@ -197,7 +202,7 @@ DATA_COMP: >-
   extent of use of country-owned results frameworks and planning tools in
   medium-sized vs. larger projects, as the indicator tries to capture the
   overall behaviour of development partners in designing new interventions in a
-  given country. Weighting by project size would otherwise over represent
+  given country. Weighting by project size would otherwise overrepresent
   infrastructure projects and underrepresent interventions focused on
   influencing policies and institutional arrangements. Nevertheless, data on
   project size is available.</p>
@@ -214,7 +219,7 @@ DATA_VALIDATION: >-
   <p>Details on the validation process can be found at <a
   href="https://www.effectivecooperation.org/content/2018-monitoring-guide-national-co-ordinators">https://www.effectivecooperation.org/content/2018-monitoring-guide-national-co-ordinators</a>.
   </p>
-ADJUSTMENT: <p>Not applicable.</p>
+ADJUSTMENT: <p>Not applicable</p>
 IMPUTATION: >-
   <p><strong>&#x2022;</strong> <strong>At country level</strong></p>
 
@@ -275,6 +280,10 @@ COVERAGE: >-
 
   <p><strong>Time series:</strong></p>
 
+  <p>Data for countries have been compiled in 2016 and 2018. From 2023, data
+  will be available on a rolling basis with all countries encouraged to report
+  at least once within a four-year cycle.</p>
+
   <p><strong>Disaggregation:</strong></p>
 
   <p>Given the bottom-up approach in generating the indicator, disaggregation is
@@ -284,23 +293,22 @@ COVERAGE: >-
   global and regional aggregates can be used for monitoring
   internationally-agreed commitments related to strengthening country ownership
   and better partner alignment with nationally-set development goals. </p>
-COMPARABILITY: >-
+COMPARABILITY: |-
   <p><strong>Sources of discrepancies:</strong></p>
-
-  <p>National figures are directly aggregated to come up with global
-  figures.</p>
+  <p>NA</p>
 OTHER_DOC: >-
   <p><strong>URL:</strong></p>
 
-  <p>http://effectivecooperation.org/</p>
+  <p><a
+  href="http://effectivecooperation.org/">http://effectivecooperation.org/</a></p>
 
   <p>Internationally agreed methodology and guideline URL:
-  http://effectivecooperation.org/pdf/2018_Monitoring_Guide_National_Coordinator.pdf</p>
+  https://www.effectivecooperation.org/system/files/2020-09/2018_Monitoring_Guide_National_Coordinator.pdf</p>
 
   <p><strong>References:</strong></p>
 
   <p>Ocampo, Jose Antonio (2015). A Post-2015 Monitoring and Accountability
-  Framework. UNDESA: CDP Background Paper No. 27. ST/ESA/2015/CDP/27</p>
+  Framework. UNDESA: CDP Background Paper No. 27. ST/ESA/2015/CDP/27.</p>
 
   <p>Espey, Jessica; K. Walecik and M. K&#xFC;hner (2015). Follow-up and Review
   of the SDGs: Fulfilling our Commitments. Sustainable Development Solutions
@@ -312,4 +320,4 @@ OTHER_DOC: >-
   Partnership Forum, Korea.</p>
 
   <p>GPEDC (2018). 2018 Monitoring Guide. /Paris/New York. Available at:
-  http://effectivecooperation.org/pdf/2018_Monitoring_Guide_National_Coordinator.pdf</p>
+  https://www.effectivecooperation.org/system/files/2020-09/2018_Monitoring_Guide_National_Coordinator.pdf</p>

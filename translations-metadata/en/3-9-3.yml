@@ -4,7 +4,10 @@ SDG_TARGET: >-
   illnesses from hazardous chemicals and air, water and soil pollution and
   contamination</p>
 SDG_INDICATOR: '<p>Indicator 3.9.3: Mortality rate attributed to unintentional poisoning</p>'
-META_LAST_UPDATE: <p>2021-05-01</p>
+SDG_SERIES_DESCR: >-
+  <p>Mortality rate attributed to unintentional poisonings, by sex (deaths per
+  100,000 population) SH_STA_POISN</p>
+META_LAST_UPDATE: '2022-03-31'
 SDG_RELATED_INDICATORS: >-
   <p>Indicator 7.1.2: Proportion of population with primary reliance on clean
   fuels and technology </p>
@@ -15,51 +18,42 @@ CONTACT_ORGANISATION: <p>World Health Organization (WHO) </p>
 STAT_CONC_DEF: >-
   <p><strong>Definition:</strong> </p>
 
-  <p> </p>
-
   <p>The mortality rate attributed to unintentional poisoning as defined as the
   number of deaths of unintentional poisonings in a year, divided by the
-  population, and multiplied by 100 000. </p>
-
-  <p> </p>
+  population, and multiplied by 100,000. </p>
 
   <p> </p>
 
   <p><strong>Concepts:</strong> </p>
 
-  <p> </p>
-
   <p>Mortality rate in the country from unintentional poisonings per year. The
-  ICD-10 codes corresponding to the indicator includes X40, X43, X46-X48, X49.
-  </p>
-UNIT_MEASURE: <p>Rate per 100 000 population </p>
+  International Classification of Diseases, Tenth Revision (ICD-10) codes
+  corresponding to the indicator includes X40, X43, X46-X48, X49. </p>
+UNIT_MEASURE: '<p>Rate per 100,000 population </p>'
 CLASS_SYSTEM: >-
   <p>Poisonings are defined in terms of the International Classification of
-  Diseases, Tenth Revision (ICD-10) (See 2.a)</p>
+  Diseases, Tenth Revision (ICD-10) (See 2.a).</p>
 SOURCE_TYPE: >-
-  <p>Data inputs to the estimate include (a) data on WASH services and
-  practices, and (b) cause-of-death data, of which the preferred data source is
-  death registration systems with complete coverage and medical certification of
-  cause of death. Other possible data sources include household surveys with
-  verbal autopsy, sample or sentinel registration systems, special studies and
-  surveillance systems. </p>
+  <p>Data inputs to the estimate include (a) data on Water, Sanitation, and
+  Hygiene services and practices, and (b) cause-of-death data, of which the
+  preferred data source is death registration systems with complete coverage and
+  medical certification of cause of death. Other possible data sources include
+  household surveys with verbal autopsy, sample or sentinel registration
+  systems, special studies and surveillance systems. </p>
 COLL_METHOD: >-
   <p>WHO collects data directly from country sources, and following established
   method, estimates are shared with countries to receive their feedback before
-  publication. See Indicator 6.1 above for more details. </p>
-
-  <p> </p>
+  publication. See Indicator 6.1 for more details. </p>
 FREQ_COLL: >-
-  <p>WHO sends an e-mail two times per year annually requesting tabulated death
-  registration data (including all causes of death) from Member States.
-  Countries may submit annual cause-of-death statistics to WHO on an ongoing
-  basis.</p>
+  <p>WHO sends an e-mail twice annually requesting tabulated death registration
+  data (including all causes of death) from Member States. Countries may submit
+  annual cause-of-death statistics to WHO on an ongoing basis.</p>
 REL_CAL_POLICY: <p>End of 2020</p>
 DATA_SOURCE: >-
   <p>National statistics offices, various line ministries and databases covering
   civil registration with complete coverage and medical certification of cause
   of death. </p>
-COMPILING_ORG: <p>WHO </p>
+COMPILING_ORG: <p>World Health Organization (WHO) </p>
 INST_MANDATE: >-
   <p>According to Article 64 of its constitution, WHO is mandated to request
   each Member State to provide statistics on mortality. Furthermore, the WHO
@@ -68,7 +62,7 @@ INST_MANDATE: >-
   States started to report mortality data to WHO since the early fifties and
   this reporting activity is continuing until today. </p>
 RATIONALE: >-
-  <p>Measuring how the mortality rate from unintentional poisonings provides an
+  <p>The measure of mortality rate from unintentional poisonings provides an
   indication of the extent of inadequate management of hazardous chemicals and
   pollution, and of the effectiveness of a country&#x2019;s health system. </p>
 REC_USE_LIM: >-
@@ -94,9 +88,8 @@ DATA_COMP: >-
 
   <p>For countries without high-quality death registration data, cause of death
   estimates are calculated using other data, including household surveys with
-  verbal autopsy, sample or sentinel registration systems, special studies </p>
-
-  <p>Complete methodology may be found here: <a
+  verbal autopsy, sample or sentinel registration systems, special studies.
+  Complete methodology may be found here: <a
   href="https://www.who.int/docs/default-source/gho-documents/global-health-estimates/ghe2019_cod_methods.pdf">https://www.who.int/docs/default-source/gho-documents/global-health-estimates/ghe2019_cod_methods.pdf</a></p>
 DATA_VALIDATION: >-
   <p>The number of deaths were country consulted with country designated focal
@@ -111,8 +104,6 @@ IMPUTATION: >-
     <li><strong>At country level </strong></li>
   </ul>
 
-  <p> </p>
-
   <p>For countries with high-quality cause-of-death statistics,
   interpolation/extrapolation was done for missing country-years; for countries
   with only low-quality or no data on causes of death, modelling was used.
@@ -125,12 +116,10 @@ IMPUTATION: >-
     <li><strong>At regional and global levels </strong></li>
   </ul>
 
-  <p> </p>
-
-  <p>NA </p>
+  <p>Not applicable </p>
 REG_AGG: >-
   <p>Country estimates of number of deaths by cause are summed to obtain
-  regional and global aggregates </p>
+  regional and global aggregates. </p>
 DOC_METHOD: >-
   <p>The cause of death categories (including unintentional poisoning follow the
   definitions in terms of the International Classification of Diseases, Tenth
@@ -139,28 +128,29 @@ DOC_METHOD: >-
   (https://www.who.int/docs/default-source/gho-documents/global-health-estimates/ghe2019_cod_methods.pdf)</p>
 QUALITY_MGMNT: >-
   <p>The World Health Organization (WHO) established a Reference Group on Health
-  Statistics in 2013 to provide advice on population health statistics to WHO
+  Statistics in 2013 to provide advice to it on population health statistics
   with a focus on methodological and data issues related to the measurement of
   mortality and cause-of-death patterns. The group facilitated interaction
   between multilateral development institutions and other independent academic
   groups with WHO expert groups in specific subject areas including methods to
-  the estimation on causes of death</p>
+  the estimation on causes of death.</p>
 QUALITY_ASSURE: >-
   <p>The data principles of the World Health Organization (WHO) provide a
-  foundation for continually reaffirming trust in WHO&#x2019;s information and
-  evidence on public health. The five principles are designed to provide a
-  framework for data governance for WHO. The principles are intended primarily
-  for use by WHO staff across all parts of the Organization in order to help
-  define the values and standards that govern how data that flows into, across
-  and out of WHO is collected, processed, shared and used. These principles are
-  made publicly available so that they may be used and referred to by Member
-  States and non-state actors collaborating with WHO.</p>
+  foundation for continually reaffirming trust in its information and evidence
+  on public health. The five principles are designed to provide a framework for
+  data governance for the organization. The principles are intended primarily
+  for use by all staff in order to help define the values and standards that
+  govern how data that flows into, across and out of the organization is
+  collected, processed, shared and used. These principles are made publicly
+  available so that they may be used and referred to by Member States and
+  non-state actors collaborating with the organization.</p>
 QUALITY_ASSMNT: >-
   <p>All statements and claims made officially by WHO headquarters about
   population-level (country, regional, global) estimates of health status (e.g.
   mortality, incidence, prevalence, burden of disease), are cleared by the
   Department of Data and Analytics (DNA) through the executive clearance
-  process. This includes the GATHER statement. GATHER promotes best practices in
+  process. These include the Guidelines for Accurate and Transparent Health
+  Estimates Reporting (GATHER) statement. GATHER promotes best practices in
   reporting health estimates using a checklist of 18 items that should be
   reported every time new global health estimates are published, including
   descriptions of input data and estimation methods. Developed by a working
@@ -185,21 +175,18 @@ COVERAGE: >-
 COMPARABILITY: >-
   <p><strong>Sources of discrepancies:</strong></p>
 
-  <p>WHO is required by World Health Assembly resolution to consult on all WHO
+  <p>WHO is required by World Health Assembly resolution to consult on all its
   statistics, and seek feedback from countries on data about countries and
-  territories. Before publishing all estimates undergo country consultations.
-  </p>
+  territories before publishing all estimates. </p>
 OTHER_DOC: >-
   <p><strong>URL:</strong> </p>
 
-  <p> </p>
+  <p><a
+  href="https://www.who.int/data/gho/data/themes/mortality-and-global-health-estimates">https://www.who.int/data/gho/data/themes/mortality-and-global-health-estimates</a></p>
 
-  <p>https://www.who.int/data/gho/data/themes/mortality-and-global-health-estimates
-  </p>
+  <p> </p>
 
   <p><strong>References:</strong> </p>
-
-  <p> </p>
 
   <p>WHO indicator definition
   (http://apps.who.int/gho/data/node.imr.SDGPOISON?lang=en) </p>

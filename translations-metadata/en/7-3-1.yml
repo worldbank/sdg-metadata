@@ -7,7 +7,13 @@ SDG_TARGET: >-
 SDG_INDICATOR: >-
   <p>Indicator 7.3.1: Energy intensity measured in terms of primary energy and
   GDP</p>
-META_LAST_UPDATE: <p>2021-02-15</p>
+SDG_SERIES_DESCR: >-
+  <p>Energy intensity level of primary energy (megajoules per constant 2017
+  purchasing power parity GDP)</p>
+META_LAST_UPDATE: '2022-03-31'
+SDG_RELATED_INDICATORS: |-
+  <p>Indicator 9.4.1: CO<sub>2</sub> emission per unit of value added</p>
+  <p>Indicator 13.2.2: Total greenhouse gas emissions per year</p>
 SDG_CUSTODIAN_AGENCIES: |-
   <p>International Energy Agency (IEA) </p>
   <p>United Nations Statistics Division (UNSD)</p>
@@ -28,9 +34,8 @@ STAT_CONC_DEF: >-
   Product (GDP) is the measure of economic output. For international comparison
   purposes, GDP is measured in constant terms at purchasing power parity.</p>
 UNIT_MEASURE: >-
-  <p>The energy intensity level of primary energy is expressed in megajoules of
-  total energy supply per unit of purchasing power parity GDP in constant 2017
-  USD figures. </p>
+  <p>Energy intensity is expressed in megajoules per unit of purchasing power
+  parity GDP in constant 2017 USD figures. </p>
 CLASS_SYSTEM: >-
   <p>The &#x201C;International Recommendations for Energy Statistics&#x201D;
   (IRES), adopted by the UN Statistical Commission, is the globally recognized
@@ -43,17 +48,15 @@ SOURCE_TYPE: >-
   <p>Total energy supply is typically calculated in the making of energy
   balances. Energy balances are compiled based on data collected for around 150
   economies from the International Energy Agency (IEA) and for all countries in
-  the world from the United Nations Statistics Division (UNSD). </p>
-
-  <p>GDP data are taken mainly from the World Bank &#x2013; World Development
-  Indicator database.</p>
+  the world from the United Nations Statistics Division (UNSD). GDP data are
+  taken mainly from the World Bank &#x2013; World Development Indicator
+  database.</p>
 COLL_METHOD: >-
   <p>The IEA collects energy data at the national level according to harmonised
   international definitions and questionnaires, as described in the UN
   International Recommendations for Energy Statistics available at : (<a
-  href="https://unstats.un.org/unsd/energystats/methodology/ires">unstats.un.org/unsd/energystats/methodology/ires</a>).</p>
-
-  <p>UNSD also collects energy statistics from countries according to the same
+  href="https://unstats.un.org/unsd/energystats/methodology/ires">unstats.un.org/unsd/energystats/methodology/ires</a>).
+  UNSD also collects energy statistics from countries according to the same
   harmonised methodology.</p>
 
   <p>The most recent GDP estimates published by the World Bank with reference
@@ -93,7 +96,7 @@ INST_MANDATE: >-
   towards the SDG 7.3 target, leverage on their national data efforts and add
   value by promoting coherent standards, definitions and methodologies for both
   raw data and the derived indicators with the ultimate goal of producing
-  international comparable datasets. </p>
+  internationally comparable datasets. </p>
 
   <p>The UNSD mission in the area of energy statistics is to strengthen national
   statistical systems in order to assist them in producing high quality energy
@@ -160,8 +163,10 @@ ADJUSTMENT: >-
   identification of such deviations from the standard is an ongoing task, and
   UNSD has started publishing some of this information in a supplement to the
   Energy Statistics Database named &#x201C;Notes on sources&#x201D;, available
-  at: unstats.un.org/unsd/energystats/pubs/yearbook/, with the goal of
-  increasing transparency and providing more and more information with time.</p>
+  at: <a
+  href="https://unstats.un.org/unsd/energystats/pubs/yearbook/">unstats.un.org/unsd/energystats/pubs/yearbook/</a>,
+  with the goal of increasing transparency and providing more and more
+  information with time.</p>
 IMPUTATION: >-
   <p><strong>&#x2022; At country level</strong></p>
 
@@ -230,9 +235,19 @@ QUALITY_ASSURE: >-
   clarity as well as coherence and comparability of the data.</p>
 
   <p>UNSD coordinated input from international organizations and countries to
-  publish IRES and its practical companion the ESCM. Each of both contains a
+  publish IRES and its practical companion, the ESCM. Each of both contains a
   chapter on quality assurance and metadata to help guide all countries ensure
   good energy data quality. </p>
+QUALITY_ASSMNT: >-
+  <p>The IEA has an extensive data quality validation process through exchange
+  with national data providers worldwide. It also convenes its Energy Statistics
+  Development Group meeting to discuss energy statistics developments with its
+  Members, and cooperates with partners worldwide to ensure coherence of data
+  and methods.</p>
+
+  <p>UNSD assesses many quality aspects of the data by means of internal checks,
+  exchanges with national data providers, and comparison with alternative
+  sources. </p>
 COVERAGE: >-
   <p><strong>Data availability:</strong></p>
 
@@ -263,7 +278,7 @@ COVERAGE: >-
   href="https://www.iea.org/reports/energy-efficiency-indicators-fundamentals-on-statistics">iea.org/reports/energy-efficiency-indicators-fundamentals-on-statistics</a></p>
 
   <p>Decomposition analysis of energy intensity trends seeks to filter out
-  factors that affect energy demand, such as economy wide scale and structure
+  factors that affect energy demand, such as economy wide scale and structural
   shifts, from more narrowly defined energy intensity shifts. This analysis is
   also reported in the <em>Tracking SDG7: The Energy Progress Report</em> or in
   the <em>IEA Energy Efficiency Indicators Highlights</em> available at: <a
@@ -302,6 +317,9 @@ OTHER_DOC: >-
   href="http://data.un.org/Explorer.aspx?d=EDATA">data.un.org/Explorer.aspx?d=EDATA</a>
   </p>
 
+  <p>Downloadable though API (https://data.un.org/ws). Browse contents on
+  https://data.un.org/SdmxBrowser/start.</p>
+
   <p>IEA SDG 7 webpage: <a
   href="https://www.iea.org/reports/sdg7-data-and-projections">iea.org/reports/sdg7-data-and-projections</a></p>
 
@@ -310,47 +328,48 @@ OTHER_DOC: >-
   <p><a
   href="https://www.iea.org/reports/energy-efficiency-indicators-fundamentals-on-statistics">iea.org/reports/energy-efficiency-indicators</a></p>
 
-  <p>IEA <em>Energy Efficiency Indicators: Fundamentals on Statistics
-  </em>manual</p>
+  <p>IEA <em>Energy Efficiency Indicators Overview</em></p>
 
   <p><a
-  href="https://www.iea.org/reports/energy-efficiency-indicators-fundamentals-on-statistics">iea.org/reports/energy-efficiency-indicators-fundamentals-on-statistics</a></p>
+  href="https://www.iea.org/reports/energy-efficiency-indicators-overview">https://www.iea.org/reports/energy-efficiency-indicators-overview</a></p>
 
-  <p>United Nations. 2018. &#x201C;International Recommendations for Energy
+  <p>United Nations (2018). &#x201C;International Recommendations for Energy
   Statistics (IRES)&#x201D;.<a
   href="https://unstats.un.org/unsd/energystats/methodology/ires">unstats.un.org/unsd/energystats/methodology/ires</a></p>
 
   <p>International Energy Agency (IEA), International Renewable Energy Agency
   (IRENA), United Nations Statistics Division (UNSD), the World Bank, World
-  Health Organization (WHO). 2019. &#x201C;Tracking SDG7: The Energy Progress
+  Health Organization (WHO) (2019). &#x201C;Tracking SDG7: The Energy Progress
   Report 2019&#x201D;. <a
   href="https://trackingsdg7.esmap.org/">trackingsdg7.esmap.org/</a> </p>
 
   <p>International Energy Agency (IEA), International Renewable Energy Agency
   (IRENA), United Nations Statistics Division (UNSD), the World Bank, World
-  Health Organization (WHO). 2018. &#x201C;Tracking SDG7: The Energy Progress
+  Health Organization (WHO) (2018). &#x201C;Tracking SDG7: The Energy Progress
   Report 2018&#x201D;. <a
   href="https://trackingsdg7.esmap.org/">trackingsdg7.esmap.org/</a></p>
 
-  <p>International Energy Agency (IEA) and the World Bank. 2017. &#x201C;Global
+  <p>International Energy Agency (IEA) and the World Bank (2017). &#x201C;Global
   Tracking Framework 2017&#x2014;Progress toward Sustainable Energy&#x201D;.
   World Bank, Washington, DC. License: Creative Commons Attribution CC BY 3.0
   IGO. <a
   href="https://www.seforall.org/sites/default/files/eegp17-01_gtf_full_report_final_for_web_posting_0402.pdf">seforall.org/sites/default/files/eegp17-01_gtf_full_report_final_for_web_posting_0402.pdf</a></p>
 
-  <p>International Energy Agency (IEA) and the World Bank. 2015. &#x201C;Global
+  <p>International Energy Agency (IEA) and the World Bank (2015). &#x201C;Global
   Tracking Framework 2015&#x2014;Progress Toward Sustainable Energy&#x201D;,
   World Bank, Washington, DC. Doi: 10.1596/978-1-4648 -0690-2 License: Creative
   Commons Attribution CC BY 3.0 IGO. <a
   href="file:///C:\Users\leonardo.souza\Documents\Leo\Energy\Sustainable%20Development\SDG%20Indicators\IEA%20coordination\seforall.org\sites\default\files\GTF-2105-Full-Report.pdf">seforall.org/sites/default/files/GTF-2105-Full-Report.pdf</a></p>
 
-  <p>International Energy Agency (IEA) and the World Bank. 2013. &#x201C;Global
+  <p>International Energy Agency (IEA) and the World Bank (2013). &#x201C;Global
   Tracking Framework 2013&#x201D;.</p>
 
   <p><a
   href="https://webstore.iea.org/global-tracking-framework-2013">webstore.iea.org/global-tracking-framework-2013</a></p>
 
-  <p>United Nations. 2016. &#x201C;Energy Statistics Compilers Manual
-  (ESCM)&#x201D; (whitecover)</p>
+  <p>United Nations (2016). &#x201C;Energy Statistics Compilers Manual
+  (ESCM)&#x201D; </p>
 
-  <p>https://unstats.un.org/unsd/energystats/methodology/escm/</p>
+  <p><a
+  href="https://unstats.un.org/unsd/energystats/methodology/escm/">https://unstats.un.org/unsd/energystats/methodology/escm/</a>
+  </p>

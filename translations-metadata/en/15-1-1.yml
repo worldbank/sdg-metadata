@@ -8,7 +8,11 @@ SDG_TARGET: >-
   particular forests, wetlands, mountains and drylands, in line with obligations
   under international agreements</p>
 SDG_INDICATOR: '<p>Indicator 15.1.1: Forest area as a proportion of total land area</p>'
-META_LAST_UPDATE: <p>2021-02-01</p>
+SDG_SERIES_DESCR: |-
+  <p>Land area (thousands of hectares)</p>
+  <p>Forest area (thousands of hectares)</p>
+  <p>Forest area as a proportion of total land area (%)</p>
+META_LAST_UPDATE: '2022-03-31'
 SDG_RELATED_INDICATORS: '<p>15.2.1: Progress towards sustainable forest management</p>'
 SDG_CUSTODIAN_AGENCIES: <p>Food and Agriculture Organization of the United Nations (FAO)</p>
 CONTACT_ORGANISATION: <p>Food and Agriculture Organization of the United Nations (FAO)</p>
@@ -50,16 +54,17 @@ STAT_CONC_DEF: >-
     <li><strong>Inland waters</strong>: Areas corresponding to natural or artificial water courses, serving to drain natural or artificial bodies of water, including lakes, reservoirs, rivers, brooks, streams, ponds, inland canals, dams, and other land-locked waters. The banks constitute limits whether the water is present or not.</li>
     <li><strong>Coastal waters</strong>: Waters located in-between the land territory and the outer limit of the territorial sea. They comprise &apos;&apos;Internal waters&apos;&apos; and &apos;&apos;Territorial sea,&quot; and where applicable, &apos;&apos;Archipelagic waters.&quot; </li>
   </ul>
-UNIT_MEASURE: <p>The indicator is expressed as percent.</p>
+UNIT_MEASURE: <p>Percent (%)</p>
+CLASS_SYSTEM: <p>Not applicable</p>
 SOURCE_TYPE: >-
   <p><strong>Forest area:</strong></p>
 
   <p>Data on Forest area are collected by FAO through the Global Forest
   Resources Assessment (FRA). This assessment has been carried out at regular
-  intervals since 1946, and are now produced every five year. The latest of
-  these assessments, FRA 2020, contains information for 236 countries and
-  territories on about 60 variables related to the extent of forests, their
-  conditions, uses and values for several points in time. </p>
+  intervals since 1946 and are now produced every five year. The latest of these
+  assessments, FRA 2020, contains information for 236 countries and territories
+  on about 60 variables related to the extent of forests, their conditions, uses
+  and values for several points in time. </p>
 
   <p><strong>Land area:</strong></p>
 
@@ -74,16 +79,16 @@ COLL_METHOD: >-
   <p><strong>Forest area:</strong></p>
 
   <p>Officially nominated national correspondents and their teams prepare the
-  country reports for the assessment. Some prepare more than one report as they
-  also report on dependent territories. For the remaining countries and
-  territories where no information is provided, a report is prepared by FAO
-  using existing information, literature search, remote sensing or a combination
-  of two or more of them.</p>
+  country reports for the Global Forest Resources Assessment. Some countries
+  prepare more than one report as they also report on dependent territories. For
+  the remaining countries and territories where no information is provided, a
+  report is prepared by FAO using existing information, literature search,
+  remote sensing or a combination of two or more of them.</p>
 
   <p>All data are provided to FAO by countries in the form of a country report
-  through an on-line platform following a standard format, which includes the
+  through an online platform following a standard format, which includes the
   original data and reference sources and descriptions of how these have been
-  used to estimate the forest area for different points in time. The on-line
+  used to estimate the forest area for different points in time. The online
   platform is used for all data entry, review and quality control.</p>
 
   <p><strong>Land area:</strong></p>
@@ -108,8 +113,8 @@ FREQ_COLL: >-
   <p><strong>Forest area:</strong></p>
 
   <p>Data collection process for FRA 2020 was launched in 2018 and data
-  collection took place in 2018-2019. Data collection for the next FRA is
-  expected to start in 2022. </p>
+  collection took place in 2018-2019. Data collection for FRA 2025 is expected
+  to start in 2023. </p>
 
   <p><strong>Land area:</strong></p>
 
@@ -123,13 +128,12 @@ REL_CAL_POLICY: >-
 
   <p>Data with updated time series and including year 2020 was released July
   2020. Next release of a complete FRA dataset is scheduled for 2025. The
-  possibilities of a more frequent reporting on forest area and other key
-  indicators are currently being evaluated, and some countries may provide
-  updates on forest area before 2025. </p>
+  possibilitiy of a more frequent reporting on forest area and other key
+  indicators is currently being evaluated. </p>
 
   <p><strong>Land area:</strong></p>
 
-  <p>Data release in year 2021 is planned for 30 June 2021.</p>
+  <p>Data release in year 2022 is planned for June 2022.</p>
 DATA_SOURCE: >-
   <p><strong>Forest area:</strong></p>
 
@@ -149,7 +153,7 @@ DATA_SOURCE: >-
   and Web site address) as well as through official communications from
   countries to FAO, or information provided to FAO during meetings, conferences
   or commissions. </p>
-COMPILING_ORG: <p>FAO</p>
+COMPILING_ORG: <p>Food and Agriculture Organization of the United Nations (FAO).</p>
 INST_MANDATE: >-
   <p>Article 1 of FAO&#x2019;s constitution specifies that, &#x201C;The
   Organization shall collect, analyze, interpret, and disseminate information
@@ -192,10 +196,75 @@ REC_USE_LIM: >-
   imagery. In addition, forest areas with low canopy cover density (e.g. 10-30%)
   are still difficult to detect at large scale with affordable remote sensing
   techniques.</p>
-DATA_COMP: <p>Forest area (reference year) / Land area (reference year) * 100</p>
+DATA_COMP: |-
+  <p><math xmlns="http://www.w3.org/1998/Math/MathML">
+      <mfrac>
+        <mrow>
+          <mi>F</mi>
+          <mi>o</mi>
+          <mi>r</mi>
+          <mi>e</mi>
+          <mi>s</mi>
+          <mi>t</mi>
+          <mi>&amp;nbsp;</mi>
+          <mi>a</mi>
+          <mi>r</mi>
+          <mi>e</mi>
+          <mi>a</mi>
+          <mi>&amp;nbsp;</mi>
+          <mo>(</mo>
+          <mi>r</mi>
+          <mi>e</mi>
+          <mi>f</mi>
+          <mi>e</mi>
+          <mi>r</mi>
+          <mi>e</mi>
+          <mi>n</mi>
+          <mi>c</mi>
+          <mi>e</mi>
+          <mi>&amp;nbsp;</mi>
+          <mi>y</mi>
+          <mi>e</mi>
+          <mi>a</mi>
+          <mi>r</mi>
+          <mo>)</mo>
+        </mrow>
+        <mrow>
+          <mi>L</mi>
+          <mi>a</mi>
+          <mi>n</mi>
+          <mi>d</mi>
+          <mi>&amp;nbsp;</mi>
+          <mi>a</mi>
+          <mi>r</mi>
+          <mi>e</mi>
+          <mi>a</mi>
+          <mi>&amp;nbsp;</mi>
+          <mo>(</mo>
+          <mi>r</mi>
+          <mi>e</mi>
+          <mi>f</mi>
+          <mi>e</mi>
+          <mi>r</mi>
+          <mi>e</mi>
+          <mi>n</mi>
+          <mi>c</mi>
+          <mi>e</mi>
+          <mi>&amp;nbsp;</mi>
+          <mi>y</mi>
+          <mi>e</mi>
+          <mi>a</mi>
+          <mi>r</mi>
+          <mo>)</mo>
+        </mrow>
+      </mfrac>
+      <mi>&amp;nbsp;</mi>
+      <mo>&#xD7;</mo>
+      <mn>100</mn>
+    </math></p>
 DATA_VALIDATION: >-
   <p>All data submitted by countries to FRA, including the FAO estimates made in
-  case of desk studies, are available at the FRA on-line platform (<a
+  case of desk studies, are available at the FRA online platform (<a
   href="https://fra-data.fao.org/">https://fra-data.fao.org/</a>). The platform
   also includes the calculated indicator for 15.1.1. A request for validation
   was sent to the Head of Forestry of each country before finalization and
@@ -281,15 +350,30 @@ QUALITY_ASSURE: >-
   routinely checked for internal consistency (e.g. outliers and significant
   variation in time series). Observed discrepancies are routinely checked and
   validated with countries.</p>
+QUALITY_ASSMNT: >-
+  <p> Quality of statistics produced and disseminated by the FAO is evaluated in
+  terms of fitness for use i.e. the degree to which statistics meet the
+  user&#x2019;s requirements. The quality dimensions assessed are: Relevance;
+  Accuracy and Reliability; Timeliness and Punctuality; Coherence and
+  Comparability; Accessibility and Clarity. Quality dimensions definitions are
+  provided in the FAO Statistical Quality Assurance Framework (SQAF), which
+  provides the definition of quality and describes quality principles for
+  statistical outputs; statistical processes; institutional environment
+  (http://www.fao.org/docrep/019/i3664e/i3664e.pdf). The SQAF is based on the
+  Fundamental Principles of Official Statistics and the Principles Governing
+  International Statistical Activities (CCSA). Adherence to these principles
+  ensures the quality of FAO statistical production processes and of statistical
+  outputs. Regular quality assessments are conducted through the FAO Quality
+  Assessment and Planning Survey (QAPS), a bi-annual survey designed to gather
+  information on all of FAO&#x2019;s statistical activities, which is used to
+  assess the extent to which quality standards are being met with a view to
+  increasing compliance with the SQAF, and to document best practices and
+  provide guidance for improvement where necessary.</p>
 COVERAGE: >-
   <p><strong>Data availability:</strong></p>
 
-  <p>Forest area data are available for all 236 countries and territories
-  included in FRA 2020, and for the following points in time: 1990, 2000, 2010,
-  2015, 2016, 2017, 2018, 2019 and 2020.</p>
-
-  <p>Land area data are updated annually and are available by country and year,
-  covering up to 246 countries and territories for the period 1961-2018.</p>
+  <p>Forest area data are available for all 236 countries and territories for
+  the years , and2000, 2010, 2015, and every year since.</p>
 
   <p><strong>Disaggregation:</strong></p>
 
@@ -316,3 +400,11 @@ OTHER_DOC: >-
   <p><a href="http://www.fao.org/faostat">http://www.fao.org/faostat</a></p>
 
   <p><strong>References:</strong></p>
+
+  <p>Global Forest Resources Assessment 2020, Guidelines and Specifications (<a
+  href="http://www.fao.org/3/I8699EN/i8699en.pdf"><u>www.fao.org/3/I8699EN/i8699en.pdf</u></a>)</p>
+
+  <p>Global Forest Resources Assessment 2020, Terms and Definitions </p>
+
+  <p>(<a
+  href="http://www.fao.org/3/I8661EN/i8661en.pdf"><u>www.fao.org/3/I8661EN/i8661en.pdf</u></a>).</p>

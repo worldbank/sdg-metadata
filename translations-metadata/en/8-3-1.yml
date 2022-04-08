@@ -9,10 +9,11 @@ SDG_TARGET: >-
 SDG_INDICATOR: >-
   <p>Indicator 8.3.1: Proportion of informal employment in total employment, by
   sector and sex</p>
-META_LAST_UPDATE: <p>2021-01-01</p>
+SDG_SERIES_DESCR: '<p>Proportion of informal employment, by sector and sex</p>'
+META_LAST_UPDATE: '2022-03-31'
 SDG_RELATED_INDICATORS: '<p>1.1.1, 1.3.1, 8.5.2</p>'
-SDG_CUSTODIAN_AGENCIES: <p>ILO</p>
-CONTACT_ORGANISATION: <p>ILO</p>
+SDG_CUSTODIAN_AGENCIES: <p>International Labour Organization (ILO)</p>
+CONTACT_ORGANISATION: <p>International Labour Organization (ILO)</p>
 STAT_CONC_DEF: >-
   <p><strong>Definition:</strong></p>
 
@@ -68,24 +69,27 @@ STAT_CONC_DEF: >-
   <p>- The enterprise is not registered or the employees of the enterprise are
   not registered or the number of persons engaged on a continuous basis is below
   a threshold determined by the country.</p>
-UNIT_MEASURE: <p>Percentage</p>
+UNIT_MEASURE: <p>Percent (%)</p>
 CLASS_SYSTEM: >-
   <p>The breakdown by sector is based on the International Standard Industrial
-  Classification of All Economic Activities (ISIC).</p>
+  Classification of All Economic Activities (ISIC). Agriculture corresponds to
+  ISIC Rev. 4 section A, Rev. 3 sections A and B, and Rev.2 section 1 and
+  non-agriculture corresponds to Rev. 4 sections B-U, Rev. 3 sections C-Q, and
+  Rev. 2 sections 2-9. </p>
 SOURCE_TYPE: >-
   <p>The preferred source of data for this indicator is a labour force survey,
   with sufficient questions to determine the informal nature of jobs and whether
   the establishment where the person works in belongs to the formal or the
   informal sector.</p>
 COLL_METHOD: >-
-  <p>The ILO Department of Statistics processes national household survey
-  microdatasets in line with internationally-agreed indicator concepts and
+  <p>The ILO Department of Statistics processes national household survey micro
+  datasets in line with internationally-agreed indicator concepts and
   definitions set forth by the International Conference of Labour
   Statisticians.</p>
 FREQ_COLL: <p>Continuous</p>
 REL_CAL_POLICY: <p>Continuous</p>
 DATA_SOURCE: <p>National Statistical Offices</p>
-COMPILING_ORG: <p>ILO</p>
+COMPILING_ORG: <p>International Labour Organization (ILO)</p>
 INST_MANDATE: >-
   <p>The ILO is the UN focal point for labour statistics. It sets international
   standards for labour statistics through the International Conference of Labour
@@ -101,10 +105,10 @@ RATIONALE: >-
   indicators such as the unemployment rate would provide a very incomplete
   picture of the labour market situation, overlooking major deficits in the
   quality of employment. Statistics on informality are key to assessing the
-  quality of employment in an economy, and are relevant to developing and
+  quality of employment in an economy and are relevant to developing and
   developed countries alike (ILOSTAT indicator description for informality,
-  available at <a
-  href="https://ilostat.ilo.org/resources/methods/description-informality/"><u>https://ilostat.ilo.org/resources/methods/description-informality/</u></a>).</p>
+  available at
+  https://ilostat.ilo.org/resources/concepts-and-definitions/description-informality/).</p>
 REC_USE_LIM: >-
   <p>The considerable heterogeneity of definitions and operational criteria used
   by countries to measure informal employment greatly hinders the international
@@ -548,13 +552,12 @@ IMPUTATION: |-
   <p>See below</p>
 REG_AGG: >-
   <p>The ILO produces single year global and regional estimates of informal
-  employment by sex and economic sector (total, agriculture, non-agriculture) on
-  the basis of available national estimates. The current estimates have a
-  benchmark year of 2019 and input data range from 2009 to 2019 with 67 per cent
-  of the countries referring to 2018 or 2019. Benchmark employment data are
-  derived from the ILO modelled estimates series. The input data used in the
-  production of the 2019 estimates cover 92.8 per cent of global employment.
-  </p>
+  employment by sex and economic sector (total, agriculture, non-agriculture)
+  based on available national estimates. The current estimates have a benchmark
+  year of 2019 and input data range from 2009 to 2019 with 67 per cent of the
+  countries referring to 2018 or 2019. Benchmark employment data are derived
+  from the ILO modelled estimates series. The input data used in the production
+  of the 2019 estimates cover 92.8 per cent of global employment. </p>
 
   <p>Values for missing countries are imputed on the basis of average (mean)
   values for each country income group (based on the World Bank&#x2019;s
@@ -570,19 +573,32 @@ REG_AGG: >-
 DOC_METHOD: |-
   <ul>
     <li>ILO Guidebook - Decent Work and the Sustainable Development Goals: A Guidebook on SDG Labour Market Indicators (https://www.ilo.org/stat/Publications/WCMS_647109/lang--en/index.htm)</li>
-    <li>Resolution concerning statistics of employment in the informal sector, adopted by the Fifteenth International Conference of Labour Statisticians (January 1993), available at <a href="http://ilo.org/global/statistics-and-databases/standards-and-guidelines/resolutions-adopted-byinternational-conferences-of-labour-statisticians/WCMS_087484/lang--en/index.htm"><u>http://ilo.org/global/statistics-and-databases/standards-and-guidelines/resolutions-adopted-byinternational-conferences-of-labour-statisticians/WCMS_087484/lang--en/index.htm</u></a></li>
-    <li>Guidelines concerning a statistical definition of informal employment, adopted by the Seventieth International Conference of Labour Statisticians (November-December 2003) available at <a href="http://ilo.org/global/statistics-and-databases/standards-and-guidelines/guidelines-adopted-byinternational-conferences-of-labour-statisticians/WCMS_087622/lang--en/index.htm"><u>http://ilo.org/global/statistics-and-databases/standards-and-guidelines/guidelines-adopted-byinternational-conferences-of-labour-statisticians/WCMS_087622/lang--en/index.htm</u></a> </li>
+    <li>Resolution concerning statistics of employment in the informal sector, adopted by the Fifteenth International Conference of Labour Statisticians (January 1993), available at https://www.ilo.org/wcmsp5/groups/public/---dgreports/---stat/documents/normativeinstrument/wcms_087484.pdf</li>
+    <li>Guidelines concerning a statistical definition of informal employment, adopted by the Seventeenth International Conference of Labour Statisticians (November-December 2003) available at https://www.ilo.org/wcmsp5/groups/public/---dgreports/---stat/documents/normativeinstrument/wcms_087622.pdf</li>
     <li>ILO manual Measuring informality: A statistical manual on the informal sector and informal employment available at <a href="http://www.ilo.org/wcmsp5/groups/public/---dgreports/---dcomm/---publ/documents/publication/wcms_222979.pdf"><u>http://www.ilo.org/wcmsp5/groups/public/---dgreports/---dcomm/---publ/documents/publication/wcms_222979.pdf</u></a></li>
   </ul>
+QUALITY_MGMNT: >-
+  <p>The processes of compilation, production, and publication of data,
+  including its quality control, are carried out following the methodological
+  framework and standards established by the ILO Department of Statistics, in
+  compliance with the information technology and management standards of the
+  ILO.</p>
 QUALITY_ASSURE: >-
   <p>Data consistency and quality checks are regularly conducted for validation
   of the data before dissemination in the ILOSTAT database.</p>
 
   <p> </p>
+QUALITY_ASSMNT: >-
+  <p>The final assessment of the quality of information is carried out by the
+  Data Production and Analysis Unit of the ILO Department of Department. In
+  cases of doubt about the quality of specific data, these values are reviewed
+  with the participation of the national agencies responsible for producing the
+  data if appropriate. If the issues cannot be clarified, the respective
+  information is not published. </p>
 COVERAGE: >-
   <p><strong>Data availability: </strong></p>
 
-  <p>Data for this indicator is available for 89 countries and territories.</p>
+  <p>Data for this indicator is available for 97 countries and territories.</p>
 
   <p>Both country-reported estimates and ILO harmonized estimates of informal
   employment are available in ILOSTAT (<a
@@ -593,7 +609,8 @@ COVERAGE: >-
 
   <p><strong>Time series: </strong></p>
 
-  <p>The submission covers data from 2000 to 2019.</p>
+  <p>The submission covers global and regional data for 2019 and country data
+  from 2000 to 2021.</p>
 
   <p><strong>Disaggregation:</strong></p>
 
@@ -606,8 +623,8 @@ COVERAGE: >-
   non-agriculture are used.</p>
 
   <p>In order to produce this indicator, employment statistics disaggregated by
-  formal / informal employment and by economic activity (agriculture /
-  non-agriculture) are needed.</p>
+  formal/informal employment and by economic activity
+  (agriculture/non-agriculture) are needed.</p>
 COMPARABILITY: >-
   <p><strong>Sources of discrepancies:</strong></p>
 
@@ -622,15 +639,15 @@ COMPARABILITY: >-
   covered and the treatment of special groups of workers.</p>
 OTHER_DOC: |-
   <ul>
-    <li>ILO Guidebook - Decent Work and the Sustainable Development Goals: A Guidebook on SDG Labour Market Indicators (https://www.ilo.org/stat/Publications/WCMS_647109/lang--en/index.htm)</li>
-    <li>Resolution concerning statistics of employment in the informal sector, adopted by the Fifteenth International Conference of Labour Statisticians (January 1993), available at <a href="http://ilo.org/global/statistics-and-databases/standards-and-guidelines/resolutions-adopted-byinternational-conferences-of-labour-statisticians/WCMS_087484/lang--en/index.htm"><u>http://ilo.org/global/statistics-and-databases/standards-and-guidelines/resolutions-adopted-byinternational-conferences-of-labour-statisticians/WCMS_087484/lang--en/index.htm</u></a> </li>
-    <li>Guidelines concerning a statistical definition of informal employment, adopted by the Seventieth International Conference of Labour Statisticians (November-December 2003) available at <a href="http://ilo.org/global/statistics-and-databases/standards-and-guidelines/guidelines-adopted-byinternational-conferences-of-labour-statisticians/WCMS_087622/lang--en/index.htm"><u>http://ilo.org/global/statistics-and-databases/standards-and-guidelines/guidelines-adopted-byinternational-conferences-of-labour-statisticians/WCMS_087622/lang--en/index.htm</u></a> </li>
+    <li>ILO Guidebook - Decent Work and the Sustainable Development Goals: A Guidebook on SDG Labour Market Indicators (https://www.ilo.org/global/statistics-and-databases/publications/WCMS_647109/lang--en/index.htm)</li>
+    <li>Resolution concerning statistics of employment in the informal sector, adopted by the Fifteenth International Conference of Labour Statisticians (January 1993), available at https://www.ilo.org/wcmsp5/groups/public/---dgreports/---stat/documents/normativeinstrument/wcms_087484.pdf</li>
+    <li>Guidelines concerning a statistical definition of informal employment, adopted by the Seventeenth International Conference of Labour Statisticians (November-December 2003) available at https://www.ilo.org/wcmsp5/groups/public/---dgreports/---stat/documents/normativeinstrument/wcms_087622.pdf</li>
     <li>ILO manual Measuring informality: A statistical manual on the informal sector and informal employment, available at http://www.ilo.org/wcmsp5/groups/public/---dgreports/---dcomm/---</li>
   </ul>
   <p>publ/documents/publication/wcms_222979.pdf </p>
   <ul>
     <li>ILOSTAT database, available at https://ilostat.ilo.org</li>
-    <li>ILOSTAT&#x2019;s indicator description on informality, at <a href="https://ilostat.ilo.org/resources/methods/description-informality/"><u>https://ilostat.ilo.org/resources/methods/description-informality/</u></a> </li>
-    <li>Resolution concerning statistics of work, employment and labour underutilization adopted by the Nineteenth International Conference of Labour Statisticians (October 2013), available at <a href="http://ilo.org/global/statistics-and-databases/standards-and-guidelines/resolutions-adopted-byinternational-conferences-of-labour-statisticians/WCMS_230304/lang--en/index.htm"><u>http://ilo.org/global/statistics-and-databases/standards-and-guidelines/resolutions-adopted-byinternational-conferences-of-labour-statisticians/WCMS_230304/lang--en/index.htm</u></a> </li>
-    <li>International Standard Industrial Classification of All Economic Activities (ISIC Rev.4) <a href="https://unstats.un.org/unsd/cr/registry/isic-4.asp"><u>https://unstats.un.org/unsd/cr/registry/isic-4.asp</u></a> </li>
+    <li>ILOSTAT&#x2019;s indicator description on informality, at https://ilostat.ilo.org/resources/concepts-and-definitions/description-informality/</li>
+    <li>Resolution concerning statistics of work, employment and labour underutilization adopted by the Nineteenth International Conference of Labour Statisticians (October 2013), available at https://www.ilo.org/global/statistics-and-databases/standards-and-guidelines/resolutions-adopted-by-international-conferences-of-labour-statisticians/WCMS_230304/lang--en/index.htm</li>
+    <li>International Standard Industrial Classification of All Economic Activities <a href="https://unstats.un.org/unsd/classifications/Econ/isic">https://unstats.un.org/unsd/classifications/Econ/isic</a> </li>
   </ul>

@@ -7,7 +7,8 @@ SDG_INDICATOR: >-
   <p>Indicator 10.1.1: Growth rates of household expenditure or income per
   capita among the bottom 40 per cent of the population and the total
   population</p>
-META_LAST_UPDATE: <p>2021-08-01</p>
+SDG_SERIES_DESCR: <p>Not applicable</p>
+META_LAST_UPDATE: '2022-03-31'
 SDG_RELATED_INDICATORS: '<p>1.1.1, 1.2.1, 10.2.1</p>'
 SDG_CUSTODIAN_AGENCIES: <p>World Bank (WB)</p>
 CONTACT_ORGANISATION: <p>World Bank (WB)</p>
@@ -38,17 +39,17 @@ SOURCE_TYPE: >-
   <p>The Global Database of Shared Prosperity was prepared by the Global Poverty
   Working Group, which comprises poverty measurement specialists of different
   departments of the World Bank Group. The database&#x2019;s primary source of
-  data is the World Bank Group&#x2019;s PovcalNet database, an interactive
-  computational tool that allows users to replicate the World Bank
-  Group&#x2019;s official poverty estimates measured at international poverty
-  lines ($1.90, $3.20 or $5.50 per day per capita). The datasets included in
-  PovcalNet are provided and reviewed by the members of the Global Poverty
+  data is the World Bank Group&#x2019;s Poverty and Inequality Platform (PIP),
+  an interactive computational tool that allows users to replicate the World
+  Bank Group&#x2019;s official poverty estimates measured at international
+  poverty lines ($1.90, $3.20 or $5.50 per day per capita). The datasets
+  included in PIP are provided and reviewed by the members of the Global Poverty
   Working Group. The choice of consumption or income to measure shared
   prosperity for a country is consistent with the welfare aggregate used to
-  estimate extreme poverty rates in PovcalNet, unless there are strong arguments
-  for using a different welfare aggregate. The practice adopted by the World
-  Bank Group for estimating global and regional poverty rates is, in principle,
-  to use per capita consumption expenditure as the welfare measure wherever
+  estimate extreme poverty rates in PIP, unless there are strong arguments for
+  using a different welfare aggregate. The practice adopted by the World Bank
+  Group for estimating global and regional poverty rates is, in principle, to
+  use per capita consumption expenditure as the welfare measure wherever
   available and to use income as the welfare measure for countries for which
   consumption data are unavailable. However, in some cases data on consumption
   may be available but are outdated or not shared with the World Bank Group for
@@ -173,9 +174,9 @@ DATA_COMP: >-
   <p>Growth rates are calculated as annualized average growth rates over a
   roughly five-year period. Since many countries do not conduct surveys on a
   precise five-year schedule, the following rules guide selection of the survey
-  years used to calculate the growth rates in the 2021 update: the final year of
+  years used to calculate the growth rates in the 2022 update: the final year of
   the growth period (T1) is the most recent year of a survey but no earlier than
-  2016, and the initial year (T0) is as close to T1 &#x2013; 5 as possible,
+  2017, and the initial year (T0) is as close to T1 &#x2013; 5 as possible,
   within a two-year band. Thus the gap between initial and final survey years
   ranges from three to seven years. If two surveys are equidistant from T1
   &#x2013; 5, other things being equal, the more recent survey year is selected
@@ -201,7 +202,7 @@ REG_AGG: >-
   <p>Shared prosperity indicators are country-specific because the welfare
   distribution is country-specific. There&#x2019;s no aggregation.</p>
 COVERAGE: >-
-  <p>In the latest version of the database, 88 countries had a shared prosperity
+  <p>In the latest version of the database, 83 countries had a shared prosperity
   estimate.</p>
 COMPARABILITY: >-
   <p><strong>Sources of discrepancies:</strong></p>
@@ -212,7 +213,7 @@ COMPARABILITY: >-
 OTHER_DOC: >-
   <p><strong>URL:</strong></p>
 
-  <p>www.worldbank.org</p>
+  <p>https://www.pip.worldbank.org</p>
 
   <p><strong>References:</strong></p>
 

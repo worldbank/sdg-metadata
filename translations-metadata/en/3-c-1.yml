@@ -5,8 +5,11 @@ SDG_TARGET: >-
   countries, especially in least developed countries and small island developing
   States</p>
 SDG_INDICATOR: '<p>Indicator 3.c.1: Health worker density and distribution </p>'
-META_LAST_UPDATE: <p>2021-03-01</p>
-SDG_CUSTODIAN_AGENCIES: <p>World Health Organization (WHO)</p>
+SDG_SERIES_DESCR: |-
+  <p>Health worker distribution, by sex and type of occupation (%)</p>
+  <p>Health worker density, by type of occupation (per 10,000 population)</p>
+META_LAST_UPDATE: '2022-03-31'
+SDG_CUSTODIAN_AGENCIES: '<p>Health Workforce Department, World Health Organization (WHO)</p>'
 CONTACT_ORGANISATION: |-
   <p>World Health Organization (WHO)</p>
   <p> </p>
@@ -68,41 +71,49 @@ STAT_CONC_DEF: >-
   <p><strong>Percentage of female nursing personnel:</strong> Female nursing
   personnel as percentage of all nursing personnel at national level. The
   ISCO-08 codes included in this category are 2221 and 3221. </p>
-UNIT_MEASURE: >-
-  <p>Health worker densities by occupation: Data is represented as Per 10,000
-  population</p>
-
-  <p>Health worker distribution by sex: Data is presented in percentage</p>
+UNIT_MEASURE: |-
+  <p>Health worker densities by occupation: Per 10,000 population</p>
+  <p>Health worker distribution by sex and type of occupation: Percent (%)</p>
 CLASS_SYSTEM: <p>International Standard Classification of Occupations (ISCO-08)</p>
 SOURCE_TYPE: >-
-  <p>In response to WHA69.19, an online National Health Workforce Accounts
-  (NHWA) data platform was developed to facilitate national reporting. In
-  addition to the reporting, the platform also serves as an analytical tool at
-  the national/regional and global levels. Since Its launch in November 2017,
-  Member States are called to use the NHWA data platform to report health
-  workforce data. Complementing the national reporting through the NHWA data
-  platform, additional sources such as the National Census, Labour Force Surveys
-  and key administrative national and regional sources are also employed. Most
-  of the data from administrative sources are derived from published national
-  health sector reviews and/or official country reports to WHO offices. </p>
+  <p>In response to the Sixty-ninth World Health Assembly (WHA69.19), an online
+  National Health Workforce Accounts (NHWA) data platform was developed to
+  facilitate national reporting. In addition to the reporting, the platform also
+  serves as an analytical tool at the national/regional and global levels. Since
+  Its launch in November 2017, Member States are called to use the NHWA data
+  platform to report health workforce data. Complementing the national reporting
+  through the NHWA data platform, additional sources such as the National
+  Census, Labour Force Surveys and key administrative national and regional
+  sources are also employed. Most of the data from administrative sources are
+  derived from published national health sector reviews and/or official country
+  reports to WHO offices. </p>
+COLL_METHOD: >-
+  <p>Countries are encouraged to adopt a progressive NHWA implementation
+  approach building on multi-stakeholder engagement at national and sub-national
+  levels. National focal points share the data with WHO through the online NHWA
+  data platform. The platform hosted in WHO, is built to facilitate data
+  reporting on the indicators listed in the NHWA Handbook and data sharing
+  across all the 3 levels of WHO. </p>
 FREQ_COLL: <p>Ongoing process</p>
-REL_CAL_POLICY: <p>First quarter of 2021</p>
+REL_CAL_POLICY: <p>Data is released yearly.</p>
 DATA_SOURCE: <p> NHWA focal point at national level </p>
-COMPILING_ORG: <p>WHO </p>
+COMPILING_ORG: <p>World Health Organization (WHO) </p>
 INST_MANDATE: >-
-  <p>WHA69.19 urges Member States to share a core set of data to WHO, to
-  increase the evidence base on health workforce statistics globally.</p>
+  <p>The Global Strategy for Human Resources for Health: 2030 agenda and the
+  progressive implementation of NHWA adopted in Sixty-ninth World Health
+  Assembly (WHA69.19),. WHA69.19 urges Member States to share health workforce
+  data to WHO, to increase the evidence base on health workforce statistics
+  globally.</p>
 RATIONALE: >-
   <p>For detailed metadata and definitions, refer to the National Health
-  Workforce Accounts (NHWA) Handbook (<a
-  href="https://www.who.int/hrh/statistics/nhwa/en/">https://www.who.int/hrh/statistics/nhwa/en/</a>
-  )</p>
+  Workforce Accounts (NHWA) Handbook
+  (https://www.who.int/publications/i/item/9789241513111)</p>
 REC_USE_LIM: >-
   <p>Data on health workers tend to be more complete for the public health
   sector and may underestimate the active workforce in the private, military,
   nongovernmental organization and faith-based health sectors. In many cases,
   information maintained at the national regulatory bodies and professional
-  councils are not updated. </p>
+  councils is not updated. </p>
 
   <p> </p>
 
@@ -115,8 +126,6 @@ REC_USE_LIM: >-
   from densities produced by the country. </p>
 DATA_COMP: >-
   <p><strong><u>Health worker densities by occupation</u> </strong></p>
-
-  <p> </p>
 
   <p>The figures for number of medical doctors (including generalist and
   specialist medical practitioners) depending on the nature of the original data
@@ -143,7 +152,7 @@ DATA_COMP: >-
   <p>The figures for number of pharmacists include in the given national and/or
   subnational area. Depending on the nature of the original data source may
   include practising (active) only or all registered in the health occupation.
-  The ISCO -08 codes that relate to this occupation is 2262. </p>
+  The ISCO-08 codes that relate to this occupation is 2262. </p>
 
   <p> </p>
 
@@ -157,39 +166,45 @@ DATA_COMP: >-
 
   <p> </p>
 
-  <p><strong><u>Health worker distribution by sex</u> </strong></p>
+  <p><strong><u>Health worker distribution by sex and type of occupation</u>
+  </strong></p>
 
   <p><strong> </strong></p>
 
   <p>The number of male medical doctors as reported by the country is expressed
   as a percentage of total male and female medical doctors reported by the
-  country<strong> </strong></p>
+  country.<strong> </strong></p>
 
   <p><strong> </strong></p>
 
   <p>The number of female medical doctors as reported by the country is
   expressed as a percentage of total male and female medical doctors reported by
-  the country<strong> </strong></p>
+  the country.<strong> </strong></p>
 
   <p><strong> </strong></p>
 
   <p>The number of male nursing personnel as reported by the country is
   expressed as a percentage of total male and female nursing personnel reported
-  by the country<strong> </strong></p>
+  by the country.<strong> </strong></p>
 
   <p><strong> </strong></p>
 
   <p>The number of female nursing personnel as reported by the country is
   expressed as a percentage of total male and female nursing personnel reported
-  by the country<strong> </strong></p>
-
-  <p> </p>
+  by the country.<strong> </strong></p>
 DATA_VALIDATION: >-
   <p>The data recorded in the NHWA data platform is validated by country focal
   points. Data quality checks and country consultation are employed.</p>
-IMPUTATION: |-
+ADJUSTMENT: <p>Not applicable</p>
+IMPUTATION: >-
   <p>&#x2022;<strong> At country level</strong></p>
+
+  <p>Data for the countries with missing values, if any in the last 5 years are
+  estimated with neighbouring comparable countries.</p>
+
   <p><strong>&#x2022; At regional and global levels</strong></p>
+
+  <p>Not applicable</p>
 REG_AGG: >-
   <p>The global average density was estimated as the population weighted average
   of the national densities. </p>
@@ -200,45 +215,66 @@ REG_AGG: >-
   weighted average by pooling these estimated values plus the available national
   densities. </p>
 
-  <p>The population for estimating densities at regional and global level were
-  extracted from the UN Population Division 2017. </p>
+  <p>The population for estimating densities at regional and global level are
+  based on the latest available estimates from the UN Population Division. </p>
 DOC_METHOD: >-
   <p>Countries are requested to refer to the National Health Workforce Accounts
-  (NHWA) Handbook (<a
-  href="https://www.who.int/hrh/statistics/nhwa/en/">https://www.who.int/hrh/statistics/nhwa/en/</a>
-  ), for guidance on indicators and methodology.</p>
+  (NHWA) Handbook (https://www.who.int/publications/i/item/9789241513111), for
+  guidance on indicators and methodology.</p>
+QUALITY_MGMNT: >-
+  <p>All national health occupations data is mapped to the International
+  Standard Classification of Occupations (ISCO-08) to enable cross country
+  comparability.</p>
+QUALITY_ASSURE: >-
+  <p>Data is collected through a standardised online data entry form based on
+  DHIS2 application. Data validations and quality checks are in-built to
+  minimise data entry errors</p>
+QUALITY_ASSMNT: >-
+  <p>We perform internal validation for outliers and completeness and raise
+  queries to countries directly to the national focal points and /or through the
+  WHO country and regional offices, for clarification.</p>
 COVERAGE: >-
   <p><strong>Data availability:</strong></p>
 
+  <p>Data available for all 194 WHO Member States</p>
+
   <p><strong>Time series:</strong></p>
 
-  <p>Data available for 2000-2018. </p>
+  <p>From year 2000. </p>
 
-  <p>Web link to the database: <a
-  href="http://www.who.int/hrh/statistics/hwfstats/en/"
-  target="_blank"><u>http://www.who.int/hrh/statistics/hwfstats/en/</u></a> </p>
+  <p>Global Health Workforce Statistics in Global Health Observatory data
+  repository: <a
+  href="https://apps.who.int/gho/data/node.main.HWFGRP?lang=en">https://apps.who.int/gho/data/node.main.HWFGRP?lang=en</a>
+  </p>
+
+  <p> NHWA data portal: <a
+  href="https://apps.who.int/nhwaportal/">https://apps.who.int/nhwaportal/</a>
+  </p>
 
   <p><strong>Disaggregation:</strong></p>
 
   <p>National level data </p>
-COMPARABILITY: '<p><strong>Sources of discrepancies:</strong></p>'
+COMPARABILITY: >-
+  <p><strong>Sources of discrepancies:</strong></p>
+
+  <p>Population estimates utilised by countries and/or regional offices may
+  differ from those of the UN Population Division</p>
 OTHER_DOC: >-
   <p><strong>URL:</strong> </p>
 
-  <p><a href="http://www.who.int/hrh/statistics/hwfstats/en/"
-  target="_blank"><u>http://www.who.int/hrh/statistics/hwfstats/en/</u></a> </p>
-
-  <p> </p>
+  <p>https://www.who.int/activities/improving-health-workforce-data-and-evidence
+  </p>
 
   <p><strong>References:</strong> </p>
 
   <ul>
     <li>Sixty-ninth World Health Assembly Agenda Item 16.1. Global strategy on human resources for health: workforce 2030 (2016), available from (<a href="http://apps.who.int/gb/ebwha/pdf_files/WHA69/A69_R19-en.pdf" target="_blank"><u>http://apps.who.int/gb/ebwha/pdf_files/WHA69/A69_R19-en.pdf</u></a>) </li>
-    <li>WHO (2014). Global strategy on human resources for health: Workforce 2030 (<a href="http://who.int/hrh/resources/pub_globstrathrh-2030/en/" target="_blank"><u>http://who.int/hrh/resources/pub_globstrathrh-2030/en/</u></a>) </li>
-    <li>&quot;WHO Global Health Workforce Statistics.&quot; World Health Organization, n.d. Web. Feb. 2018. (<a href="http://www.who.int/hrh/statistics/hwfstats/en/" target="_blank"><u>http://www.who.int/hrh/statistics/hwfstats/en/</u></a>) </li>
+    <li>WHO (2014). Global strategy on human resources for health: Workforce 2030 (https://www.who.int/publications/i/item/9789241511131) </li>
+    <li>&quot;WHO Global Health Workforce Statistics.&quot; World Health Organization, n.d. Web. Feb. 2018. (<a href="https://apps.who.int/gho/data/node.main.HWFGRP?lang=en">https://apps.who.int/gho/data/node.main.HWFGRP?lang=en</a>) </li>
     <li>&quot;WHO Global Health Workforce Statistics.&quot; World Health Organization, n.d. Web. Feb. 2018. (<a href="http://apps.who.int/gho/data/node.main.A1444?lang=en&amp;showonly=HWF" target="_blank"><u>http://apps.who.int/gho/data/node.main.A1444?lang=en&amp;showonly=HWF</u></a>) </li>
-    <li>WHO, National Health Workforce Accounts: A Handbook, n.d. Wed. Feb. 2018. (<a href="http://www.who.int/hrh/statistics/nhwa/en/" target="_blank"><u>http://www.who.int/hrh/statistics/nhwa/en/</u></a>) </li>
+    <li>WHO, National Health Workforce Accounts: A Handbook, n.d. Wed. Feb. 2018. (https://www.who.int/publications/i/item/9789241513111) </li>
     <li>WHO 13<sup>th</sup> Global Programme of Work (https://www.who.int/about/what-we-do/gpw-thirteen-consultation/en/) </li>
+    <li>WHO NHWA data portal: <a href="https://apps.who.int/nhwaportal/">https://apps.who.int/nhwaportal/</a> </li>
   </ul>
 
   <p> </p>
