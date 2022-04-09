@@ -13,17 +13,21 @@
         &lt;mi&gt;i&lt;/mi&gt;
       &lt;/mrow&gt;
     &lt;/msub&gt;
+    &lt;mi&gt;&amp;amp;nbsp;&lt;/mi&gt;
     &lt;mo&gt;=&lt;/mo&gt;
+    &lt;mi&gt;&amp;amp;nbsp;&lt;/mi&gt;
     &lt;mfrac&gt;
       &lt;mrow&gt;
         &lt;mrow&gt;
-          &lt;munderover&gt;
+          &lt;msubsup&gt;
             &lt;mo stretchy=&quot;false&quot;&gt;&amp;#x2211;&lt;/mo&gt;
             &lt;mrow&gt;
               &lt;mi&gt;j&lt;/mi&gt;
             &lt;/mrow&gt;
-            &lt;mrow&gt;&lt;/mrow&gt;
-          &lt;/munderover&gt;
+            &lt;mrow&gt;
+              &lt;mi&gt;n&lt;/mi&gt;
+            &lt;/mrow&gt;
+          &lt;/msubsup&gt;
           &lt;mrow&gt;
             &lt;msub&gt;
               &lt;mrow&gt;
@@ -38,10 +42,13 @@
         &lt;/mrow&gt;
       &lt;/mrow&gt;
       &lt;mrow&gt;
-        &lt;mi mathvariant=&quot;normal&quot;&gt;n&lt;/mi&gt;
+        &lt;mi&gt;n&lt;/mi&gt;
       &lt;/mrow&gt;
     &lt;/mfrac&gt;
-  &lt;/math&gt; 100&lt;/p&gt;
+    &lt;mi&gt;&amp;amp;nbsp;&lt;/mi&gt;
+    &lt;mo&gt;&amp;#xD7;&lt;/mo&gt;
+    &lt;mn&gt;100&lt;/mn&gt;
+  &lt;/math&gt;&lt;/p&gt;
 &lt;p&gt;Where &lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;
     &lt;msub&gt;
       &lt;mrow&gt;
@@ -51,15 +58,17 @@
         &lt;mi&gt;i&lt;/mi&gt;
       &lt;/mrow&gt;
     &lt;/msub&gt;
-  &lt;/math&gt;&lt;em&gt; &lt;/em&gt;refers to the value for domain &lt;em&gt;i&lt;/em&gt;; &lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;
+  &lt;/math&gt;&lt;em&gt; &lt;/em&gt;refers to the value for domain &lt;em&gt;i&lt;/em&gt;;&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;
     &lt;mrow&gt;
-      &lt;munderover&gt;
+      &lt;msubsup&gt;
         &lt;mo stretchy=&quot;false&quot;&gt;&amp;#x2211;&lt;/mo&gt;
         &lt;mrow&gt;
           &lt;mi&gt;j&lt;/mi&gt;
         &lt;/mrow&gt;
-        &lt;mrow&gt;&lt;/mrow&gt;
-      &lt;/munderover&gt;
+        &lt;mrow&gt;
+          &lt;mi&gt;n&lt;/mi&gt;
+        &lt;/mrow&gt;
+      &lt;/msubsup&gt;
       &lt;mrow&gt;
         &lt;msub&gt;
           &lt;mrow&gt;
@@ -83,5 +92,7 @@
     &lt;/msub&gt;
   &lt;/math&gt;&lt;em&gt; &lt;/em&gt;range from a minimum of 0 to a maximum of 100 per cent.&lt;/p&gt;
 &lt;p&gt;The overall summary indicator 10.7.2 for a country is obtained by computing the unweighted average of the values of the 30 sub-categories under the six domains, with values ranging between 0 and 100 per cent. &lt;/p&gt;
-&lt;p&gt;For ease of interpretation and to summarize results, the resulting country-level averages (for the overall indicator and by domain) are then categorized as follows: values of less than 40 are coded as &amp;#x201C;Requires further progress&amp;#x201D;; values of 40 to less than 80 are coded as &amp;#x201C;Partially meets&amp;#x201D;, values of 80 to less than 100 are coded as &amp;#x201C;Meets&amp;#x201D;; and values of 100 are coded as &amp;#x201C;Fully meets&amp;#x201D;. &lt;/p&gt;</data>
+&lt;p&gt;For ease of interpretation and to summarize results, the resulting country-level averages (for the overall indicator and by domain) are then categorized as follows: values of less than 40 are coded as &amp;#x201C;Requires further progress&amp;#x201D;; values of 40 to less than 80 are coded as &amp;#x201C;Partially meets&amp;#x201D;, values of 80 to less than 100 are coded as &amp;#x201C;Meets&amp;#x201D;; and values of 100 are coded as &amp;#x201C;Fully meets&amp;#x201D;. &lt;/p&gt;
+&lt;p&gt;Data on country-level averages for the overall indicator and by domain used to compute indicator 10.7.2 are accessible through the SDG database, at the country level in the series 3230 (SG_CPA_MIGRS).&lt;/p&gt;
+&lt;p&gt;The unit of measure of the country-level averages for the overall indicator and by domain is categorical/score (1 = Requires further progress; 2 = Partially meets; 3 = Meets; 4 = Fully meets).&lt;/p&gt;</data>
 </root>

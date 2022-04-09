@@ -2,5 +2,11 @@
 <root>
 	<status>success</status>
 	<message>The QUALITY_MGMNT field for indicator 7-1-2, translated into en</message>
-	<data/>
+	<data>&lt;p&gt;The input data for single multivariate hierarchical model used to estimate the access to clean cooking presents some challenges that are related to inconsistencies in both the quality and the quantity of information that is available from the surveys:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;inconsistency in survey design and collection, together with missing values, which can lead to highly unstable time series for some individual fuels in some countries,&lt;/li&gt;
+  &lt;li&gt;for surveys where the number of respondents is not available, only the proportions using each fuel are given and the original counts (the number of respondents using each fuel) are non-recoverable.&lt;/li&gt;
+  &lt;li&gt;information on trends in the use of specific fuels is required for both urban and rural areas but, in many cases, surveys provide data for only the overall population (Stoner et al., 2020).&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Therefore, several adjustments are included in the model in order to tackle the observed challenges coming from the source data (for more on this see Stoner et al., 2020).&lt;/p&gt;</data>
 </root>

@@ -59,18 +59,254 @@
         
         <p>
         
-            <ins class="diffmod">2021-02-12</ins><br>
-            <del class="diffmod">12 February 2021</del>
+            <ins class="diffmod">2022-03-31</ins><br>
+            <del class="diffmod">2021-02-12</del>
         
         </p>
-        <div class="sdg-diff-section"><div class="d2h-file-header"><div class="d2h-file-name-wrapper"><div class="d2h-file-name">0.e. Metadata update (META_LAST_UPDATE)</div></div></div><p><ins class="diffins">2021-02-</ins>12<del class="diffdel">&nbsp;February 2021</del></p></div><div class="sdg-diff-section"><div class="d2h-file-header"><div class="d2h-file-name-wrapper"><div class="d2h-file-name">4.f. Treatment of missing values (i) at country level and (ii) at regional level (IMPUTATION)</div></div></div><ul>
-  <li><strong><ins class="mod">At country level</ins></strong></li>
-</ul>
-<p>Not applicable, as the indicator has a universal coverage</p>
+        <div class="sdg-diff-section"><div class="d2h-file-header"><div class="d2h-file-name-wrapper"><div class="d2h-file-name">0.e. Metadata update (META_LAST_UPDATE)</div></div></div><p><del class="diffmod">2021</del><ins class="diffmod">2022</ins>-<del class="diffmod">02</del><ins class="diffmod">03</ins>-<del class="diffmod">12</del></p><ins class="diffmod">31</ins></div><div class="sdg-diff-section"><div class="d2h-file-header"><div class="d2h-file-name-wrapper"><div class="d2h-file-name">2.a. Definition and concepts (STAT_CONC_DEF)</div></div></div><p><strong>Definition:</strong></p>
+<p>The Mountain Green Cover Index (MGCI) is designed to measure the extent and the changes of green vegetation in mountain areas - i.e. forest, shrubs, trees, pasture land, cropland, etc. &#x2013; in order to monitor progress towards the mountain target. MGCI is defined as the percentage of green cover over the total surface of the mountain region of a given country and for given reporting year. The aim of the index is to monitor the evolution of the green cover and thus assess the status of conservation of mountain ecosystems.</p>
+<p><strong>Concepts:</strong></p>
+<p>The Mountain Green Cover index is based on two descriptor layers of information:</p>
+<p>1. <u>A mountain descriptor layer</u>: mountains can be defined with reference to a variety of parameters, such as climate, elevation, ecology (K&#xF6;rner <em>et al.</em>, 2011) (Karagulle <em>et al</em>., 2017). This methodology adheres to the UNEP- WCMC mountain definition, relying in turn on the mountain description proposed by Kapos <em>et al.</em> (2000).</p>
+<p>This description classifies mountains according altitude, slope and elevation range into 6 categories.</p>
+<table>
+  <tbody>
+    <tr>
+      <td>
+        <p>Mountain Class </p>
+      </td>
+      <td>
+        <p>Description </p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <p>1</p>
+      </td>
+      <td>
+        <p>Elevation &gt; 4.500 meters</p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <p>2</p>
+      </td>
+      <td>
+        <p>Elevation 3.500&#x2013;4.500 meters</p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <p>3</p>
+      </td>
+      <td>
+        <p>Elevation 2.500&#x2013;3.500 meters</p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <p>4</p>
+      </td>
+      <td>
+        <p>Elevation 1.500&#x2013;2.500 meters and slope &gt; 2</p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <p>5</p>
+      </td>
+      <td>
+        <p>Elevation 1.000&#x2013;1.500 meters and slope &gt; 5 or local elevation range (LER 7 kilometer radius) &gt; 300 meters</p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <p>6</p>
+      </td>
+      <td>
+        <p>Elevation 300&#x2013;1.000 meters and local elevation range (7 kilometer radius) &gt; 300 meters</p>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<p>2. <u>A vegetation descriptor layer</u>: The vegetation descriptor layer categorizes land cover into green and non-green areas. Green vegetation includes both natural vegetation and vegetation resulting from anthropic activity (e.g. crops, afforestation, etc.). Non-green areas include very sparsely vegetated areas, bare land, water, permanent ice/snow and urban areas. The vegetation description layer can be derived in different ways, but remote sensing based land cover maps are the most convenient data source for this purpose, as they provide the required information on green and non-green areas in a spatially explicit manner and allow for comparison over time through land cover change analysis. </p>
+<p>Currently, FAO uses land cover time series produced by the European Space Agency (ESA) under the Climate Change Initiative (CCI) as a general solution. The original CCI classes are re-classified into six IPCC classes and further into binary green/non-green cover classes as follows:</p>
+<table>
+  <tbody>
+    <tr>
+      <td>
+        <p>ESA CCI class</p>
+      </td>
+      <td>
+        <p>IPCC class</p>
+      </td>
+      <td>
+        <p>Green / Non green</p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <p>50, 60, 61, 62, 70, 71, 72, 80, 81, 82, 90, 100</p>
+      </td>
+      <td>
+        <p>Forest<sup><sup><a href="#footnote-2" id="footnote-ref-2">[1]</a></sup></sup></p>
+      </td>
+      <td>
+        <p>Green</p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <p>110, 120, 121, 122, 130, 140, </p>
+      </td>
+      <td>
+        <p>Grassland</p>
+      </td>
+      <td>
+        <p>Green</p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <p>10,11, 12, 20, 30, 40</p>
+      </td>
+      <td>
+        <p>Cropland</p>
+      </td>
+      <td>
+        <p>Green</p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <p>160, 170, 180</p>
+      </td>
+      <td>
+        <p>Wetland</p>
+      </td>
+      <td>
+        <p>Green</p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <p>190</p>
+      </td>
+      <td>
+        <p>Settlement</p>
+      </td>
+      <td>
+        <p>Non Green</p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <p>150, 151, 152, 153, 200, 201, 202, 210, 220</p>
+      </td>
+      <td>
+        <p>Other land</p>
+      </td>
+      <td>
+        <p>Non Green</p>
+      </td>
+    </tr>
+  </tbody>
+</table><div class="footnotes"><div><sup class="footnote-number" id="footnote-2">1</sup><p> Please note, that here the term &#x201C;Forest&#x201D; refers to land cover, not necessarily land use<ins class="diffins">.</ins> <a href="#footnote-ref-2">&#x2191;</a></p></div></div></div><div class="sdg-diff-section"><div class="d2h-file-header"><div class="d2h-file-name-wrapper"><div class="d2h-file-name">2.b. Unit of measure (UNIT_MEASURE)</div></div></div><p><del class="diffmod">Proportion</del><ins class="diffmod">Percent</ins> (<del class="diffmod">0 to 100</del><ins class="diffmod">%</ins>)</p></div><div class="sdg-diff-section"><div class="d2h-file-header"><div class="d2h-file-name-wrapper"><div class="d2h-file-name">3.a. Data sources (SOURCE_TYPE)</div></div></div><p>Global estimates computed by FAO are derived using the following data sources:</p>
+<ol>
+  <li><strong> Vegetation descriptor layer: ESA CCI Land Cover data (ESA, 2017)</strong></li>
+</ol>
+<p>The European Space Agency Climate Change Initiative (ESA CCI) is a programme aiming at exploiting the full potential of the earth observation data collected by ESA to contribute to the Essential Climate Variables databases required by the United Nations Framework Convention on Climate Change (UNFCCC). </p>
+<p>The CCI Land Cover products have been produced using a combination of remote sensing data such as the 300 m MERIS, 1km SPOT &#x2013;VEGETATION, 1km PROBA &#x2013;V and 1km AVHRR. The CCI product consists of a series of annual Land Cover maps at 300 m resolution spanning the period 1992 to 2018. The period from 1992-2015 is available in raster format, whereas the 2016-2018 is available in netCDF format and a transformation to GTIFF is required to make these datasets available for processing in a GIS environment. The land cover data is updated every year by the European Space Agency. </p>
+<p>The ESA CCI adheres to the Cover Classification System of the United Nations Food and Agriculture Organization (UN FAO) (Santoro <em>et al</em>., 2015). </p>
+<ol>
+  <li><strong>Mountain descriptor layer:</strong></li>
+</ol>
+<p>The global mountain descriptor layer is based on the mountain classification proposed by Kapos <em>et al.</em> (2000):</p>
 <ul>
-  <li><strong><ins class="mod">At regional and global levels</ins></strong></li>
+  <li>Class 1: elevation &gt; 4500 meters </li>
+  <li>Class 2: elevation 3500 - 4500 meters</li>
+  <li>Class 3: elevation 2500 &#x2013; 3500 meters </li>
+  <li>Class 4: elevation 1500 &#x2013; 2500 meters and slope &#x2265; 2</li>
+  <li>Class 5: elevation 1,000&#x2013;1,500 meters and slope &#x2265; 5 or local elevation range (7 kilometers radius) &#x2265; 300 meters</li>
+  <li>Class 6: elevation 300&#x2013;1,000 meters and local elevation range (7 kilometres radius) &#x2265; 300 meters outside 23&#xB0;N&#x2014;19&#xB0;S </li>
+  <li>Class 0: Defined to represent the non-mountainous areas. </li>
 </ul>
-<p>Not applicable, as the indicator has a universal coverage</p></div><div class="sdg-diff-section"><div class="d2h-file-header"><div class="d2h-file-name-wrapper"><div class="d2h-file-name">5. Data availability and disaggregation (COVERAGE)</div></div></div><p><strong><ins class="mod">Data availability:</ins></strong></p>
+<p>The mountain description layer used to derive the global estimates was created by the US Geological Survey from a 250 m DEM (Sayre <em>et al.</em> 2018)<ins class="diffins">.</ins></p>
+<p>These datasets may be replaced by nationally relevant data sources when available.</p></div><div class="sdg-diff-section"><div class="d2h-file-header"><div class="d2h-file-name-wrapper"><div class="d2h-file-name">3.c. Data collection calendar (FREQ_COLL)</div></div></div><p>ESA CCI Land Cover is available from 1992 <del class="diffmod">to</del><ins class="diffmod">and</ins> <del class="diffmod">2018. A new global land cover map is delivered</del><ins class="diffmod">updated</ins> every year.<ins class="diffins">&nbsp;Nonetheless, SDG indicator 15.4.2 will be updated every two years</ins></p></div><div class="sdg-diff-section"><div class="d2h-file-header"><div class="d2h-file-name-wrapper"><div class="d2h-file-name">3.d. Data release calendar (REL_CAL_POLICY)</div></div></div><p><del class="diffmod">All</del><ins class="diffmod">March</ins> <del class="diffmod">data</del><ins class="diffmod">of</ins> <del class="diffmod">are</del><ins class="diffmod">every</ins> <del class="diffmod">already</del><ins class="diffmod">year,</ins> <del class="diffmod">available</del><ins class="diffmod">in</ins> <ins class="diffins">line with the annual SDG reporting cycle</ins></p></div><div class="sdg-diff-section"><div class="d2h-file-header"><div class="d2h-file-name-wrapper"><div class="d2h-file-name">3.f. Data compilers (COMPILING_ORG)</div></div></div><p><ins class="diffins">Food and Agriculture Organization of the United Nations (</ins>FAO<ins class="diffins">)</ins></p></div><div class="sdg-diff-section"><div class="d2h-file-header"><div class="d2h-file-name-wrapper"><div class="d2h-file-name">4.a. Rationale (RATIONALE)</div></div></div><p>Mountain ecosystems are important biodiversity centres that provide valuable ecosystem services to upstream and downstream areas. Yet, mountains are very fragile and impacted easily by both natural and anthropogenic factors. These can include climate change, natural hazards such as landslides and flooding, unplanned agricultural expansion, unplanned urbanization, timber extraction and recreational activities. The degradation of mountain ecosystems such as loss of the glacial cover, mountain biodiversity and green cover will affect the ability of the ecosystem to supply water downstream. The loss of forest and vegetative cover will reduce the ability of the ecosystem to retain soil and prevent landslides and flooding downstream. </p>
+<p>Therefore, monitoring mountain vegetation changes provides information on the status of mountain ecosystems. Monitoring the MGCI over time can provide information on the extent of vegetation change and of the general health of the mountain ecosystem. Assessing the change of green cover differentiated by elevation is important in understanding the <del class="diffmod">changes</del><ins class="diffmod">role</ins> that <del class="diffmod">are</del><ins class="diffmod">environmental</ins> <del class="diffmod">occurring</del><ins class="diffmod">factors, such as climate, play</ins> in <del class="diffmod">the</del><ins class="diffmod">explaining variations of</ins> mountain <ins class="diffins">green cover across </ins>regions<del class="diffdel">&nbsp;due to the influence of slope, aspect and altitude of the mountain terrain to the ecosystem</del>. </p>
+<p>However, the MGCI values should be interpreted with care. It does not provide the details on species change, change in the tree line or rain shadow areas. Understanding the variation in the species composition and the tree line will be important in identifying the long-term impacts of climate change in mountain regions. Analysing the vegetative variations in each of the elevation zones over time will assist in determining the appropriate management and adaption measures. </p>
+<p>In some cases, an increase in the indicator value in high elevation classes may also signify the encroachment of vegetation on areas previously covered by glaciers or other permanent or semi-permanent ice or snow layers, as a result of global warming due to climate change. Such a change can be tracked with the current methodology and flagged accordingly at the level of disaggregated data by land cover type and elevation class, to distinguish this case from the general desired trend of increasing mountain green cover.</p></div><div class="sdg-diff-section"><div class="d2h-file-header"><div class="d2h-file-name-wrapper"><div class="d2h-file-name">4.c. Method of computation (DATA_COMP)</div></div></div><p><strong><del class="diffdel">Computation Method:</del></p><del class="diffdel">
+</del><p>The Mountain Green Cover Index is defined as </p>
+<p><math xmlns="http://www.w3.org/1998/Math/MathML">
+    <mi>M</mi>
+    <mi>G</mi>
+    <mi>C</mi>
+    <mi>I</mi>
+    <mo>=</mo>
+    <mi>&amp;nbsp;</mi>
+    <mfrac>
+      <mrow>
+        <mi>M</mi>
+        <mi>o</mi>
+        <mi>u</mi>
+        <mi>n</mi>
+        <mi>t</mi>
+        <mi>a</mi>
+        <mi>i</mi>
+        <mi>n</mi>
+        <mi>&amp;nbsp;</mi>
+        <mi>G</mi>
+        <mi>r</mi>
+        <mi>e</mi>
+        <mi>e</mi>
+        <mi>n</mi>
+        <mi>&amp;nbsp;</mi>
+        <mi>C</mi>
+        <mi>o</mi>
+        <mi>v</mi>
+        <mi>e</mi>
+        <mi>r</mi>
+        <mi>&amp;nbsp;</mi>
+        <mi>A</mi>
+        <mi>r</mi>
+        <mi>e</mi>
+        <mi>a</mi>
+      </mrow>
+      <mrow>
+        <mi>T</mi>
+        <mi>o</mi>
+        <mi>t</mi>
+        <mi>a</mi>
+        <mi>l</mi>
+        <mi>&amp;nbsp;</mi>
+        <mi>M</mi>
+        <mi>o</mi>
+        <mi>u</mi>
+        <mi>n</mi>
+        <mi>t</mi>
+        <mi>a</mi>
+        <mi>i</mi>
+        <mi>n</mi>
+        <mi>&amp;nbsp;</mi>
+        <mi>A</mi>
+        <mi>r</mi>
+        <mi>e</mi>
+        <mi>a</mi>
+      </mrow>
+    </mfrac>
+    <mo>&#xD7;</mo>
+    <mn>100</mn>
+  </math></p>
+<p>Where Mountain Green Cover area = Sum of areas covered by Cropland, Grassland, Forest and Wetland land cover classes.</p>
+<p>The vegetation descriptor is calculated from a land cover map using basic GIS functions. </p>
+<p>If the country/region has no mountain area, it will be assigned value N/A.</p></div><div class="sdg-diff-section"><div class="d2h-file-header"><div class="d2h-file-name-wrapper"><div class="d2h-file-name">4.f. Treatment of missing values (i) at country level and (ii) at regional level (IMPUTATION)</div></div></div><ul>
+  <li><strong>At country level</strong></li>
+</ul>
+<p>Not applicable, as the indicator has a universal coverage<ins class="diffins">.</ins></p>
+<ul>
+  <li><strong>At regional and global levels</strong></li>
+</ul>
+<p>Not applicable, as the indicator has a universal coverage<ins class="diffins">.</ins></p></div><div class="sdg-diff-section"><div class="d2h-file-header"><div class="d2h-file-name-wrapper"><div class="d2h-file-name">5. Data availability and disaggregation (COVERAGE)</div></div></div><p><strong>Data availability:</strong></p>
 <p>The indicator is generated by geospatial data and therefore has universal coverage. Countries with no values on the global SDG database are either A) countries with no mountains where the indicator is not applicable or B) countries that have not validated FAO&#x2019;s estimates and yet have not provided figures of their own.</p>
 <ol>
   <li>ESA CCI Land Cover Data is freely available at: <a href="https://www.esa-landcover-cci.org/?q=node/164">https://www.esa-landcover-cci.org/?q=node/164</a></li>
@@ -87,12 +323,17 @@
   <li>Divas-GIS <a href="https://www.diva-gis.org/gdata">https://www.diva-gis.org/gdata</a> </li>
   <li>UN Second Administrative Level Boundaries (SALB) <a href="https://www.unsalb.org/">https://www.unsalb.org/</a></li>
 </ul>
-<p><strong><ins class="mod">Time series:</ins></strong></p>
+<p><strong>Time series:</strong></p>
 <p>Country, regional and global figures are available for the years 2000, 2010, 2015 and 2018.</p>
-<p><strong><ins class="mod">Disaggregation:</ins></strong></p>
-<p>In the global SDG database, the indicator is disaggregated by mountain elevation class (mountain descriptor). An additional disaggregation dimension, the IPCC land cover class, is available in FAO&#x2019;s SDG indicators portal. The combination of six elevation classes and six main land cover types following the IPCC classification yields 36 different disaggregations per country per reporting year </p></div><div class="sdg-diff-section"><div class="d2h-file-header"><div class="d2h-file-name-wrapper"><div class="d2h-file-name">6. Comparability/deviation from international standards (COMPARABILITY)</div></div></div><p><strong><ins class="mod">Sources of discrepancies:</ins></strong></p>
-<p>The default methodology presented here is based on the use of the global ESA CCI Land Cover product, which has been reported to have an overall accuracy of 73.2%. However, the accuracy estimate was calculated using the original 22 land cover classes. As the methodology presented here is based on use of aggregate classes, the accuracy can be expected to be higher. </p>
-<p>The accuracy of the global land cover products can vary regionally. For the same reason, the presented indicator values may differ from those derived using national land cover maps. </p></div>
+<p><strong>Disaggregation:</strong></p>
+<p>In the global SDG database, the indicator is disaggregated by mountain elevation class (mountain descriptor). An additional disaggregation dimension, the IPCC land cover class, is available in FAO&#x2019;s SDG indicators portal. The combination of six elevation classes and six main land cover types following the IPCC classification yields 36 different disaggregations per country per reporting year<ins class="diffins">.</ins> </p></div><div class="sdg-diff-section"><div class="d2h-file-header"><div class="d2h-file-name-wrapper"><div class="d2h-file-name">7. References and Documentation (OTHER_DOC)</div></div></div><p><del class="diffdel">&nbsp;</del></p><del class="diffdel">
+</del><p>ESA (2017) Land Cover CCI Product User Guide Version 2. Tech. Rep. Available at:<strong> </strong><a href="http://maps.elie.ucl.ac.be/CCI/viewer/download/ESACCI-LC-Ph2-PUGv2_2.0.pdf"><u>maps.elie.ucl.ac.be/CCI/viewer/download/ESACCI-LC-Ph2-PUGv2_2.0.pdf</u></a></p>
+<p>Kapos, V., Rhind, J., Edwards, M., Prince, M., &amp; Ravillous, C. (2000). Developing a map of the world&#x2019;s mountain forests. In M. F. Price , &amp; N. Butt (Eds.), <em>Forests in Sustainable Mountain Development: A State-of-Knowledge Report for 2000</em> (pp. 4-9). Wallingford: CAB International.</p>
+<p>Karagulle, D., Frye, C., Breyer, S., Aniello, P., Vaughan, R., &amp; Wright, D. (2017). Modeling global Hammond landform regions from 250-m elevation data. <em>Transactions in GIS</em>. <ins class="diffins">https://</ins>doi<del class="diffmod">:</del><ins class="diffmod">.org/</ins>10.1111/tgis.12265</p>
+<p>K&#xF6;rner, C., Paulsen, J., &amp; Spehn, E. (2011). A definition of mountains and their bioclimatic belts for global comparisons of biodiversity data. <em>Alpine Botany, 121</em>, 73-78.</p><ins class="diffins">
+</ins><p><ins class="diffins">Penman, J., Gytarsky, M., Hiraishi, T., Krug, T., Kruger, D., Pipatti, R., Buendia, L., Miwa, K., Ngara, T., Tanabe, K. (2003). </ins><em><ins class="mod"><ins class="diffins">Good Practice Guidance for Land Use, Land-use Change and Forestry. Good Practice Guidance for Land Use, Land-use Change and Forestry.</ins></ins></em></p>
+<p>Santoro, M., Kirches, G., Wevers, J., Boettcher, M., Brockmann, C., Lamarche, C., . . . Defourny, P. (2015). <em>Land Cover CCI PRODUCT USER GUIDE VERSION 2.0.</em> European Spatial Agency. European Spatial Agency. Retrieved from http://maps.elie.ucl.ac.be/CCI/viewer/download/ESACCI-LC-Ph2-PUGv2_2.0.pdf</p>
+<p>Sayre, R., Frye, C. Karagulle, D., Krauer, J, Breyer, S., Aniello, P., Wright, D.J., Payne, D., Adler, C. Warner, H., VanSistine, D.P. &amp; Cress, J. (2018). A New High-Resolution Map of World Mountains and an Online Tool for Visualizing and Comparing Characterizations of Global Mountain Distributions. <em>Mountain Research and Development</em>, 38(3), 240-249. </p></div><div class="sdg-diff-section"><div class="d2h-file-header"><div class="d2h-file-name-wrapper"><div class="d2h-file-name">0.d. Series (SDG_SERIES_DESCR)</div></div></div><p><ins class="diffins">Mountain Green Cover Index</ins></p></div><div class="sdg-diff-section"><div class="d2h-file-header"><div class="d2h-file-name-wrapper"><div class="d2h-file-name">2.c. Classifications (CLASS_SYSTEM)</div></div></div><p><ins class="diffins">This indicator uses two established classifications: (1) the land categories classification for greenhouse gas (GHG) inventory reporting defined by the Intergovernmental Panel on Climate Change (IPCC) (Penman </ins><em><ins class="mod"><ins class="diffins">et al</ins></ins></em><ins class="diffins">. 2003), and (2) the global mountain classification established by the UN Environment World Conservation Monitoring Centre (UNEP-WCMC) (Kapos et al. 2000).</ins></p></div><div class="sdg-diff-section"><div class="d2h-file-header"><div class="d2h-file-name-wrapper"><div class="d2h-file-name">4.e. Adjustments (ADJUSTMENT)</div></div></div><p><ins class="diffins">Not applicable</ins></p></div><div class="sdg-diff-section"><div class="d2h-file-header"><div class="d2h-file-name-wrapper"><div class="d2h-file-name">4.j. Quality assurance (QUALITY_ASSURE)</div></div></div><p><ins class="diffins">Date reported by countries to FAO are subject to a rigorous review process to ensure correct use of definitions and methodology as well as internal consistency. A comparison is made with past assessments and other existing data sources. Regular contacts between national correspondents and FAO staff by e-mail form part of this review process.</ins></p></div><div class="sdg-diff-section"><div class="d2h-file-header"><div class="d2h-file-name-wrapper"><div class="d2h-file-name">4.k. Quality assessment (QUALITY_ASSMNT)</div></div></div><p><ins class="diffins">Quality of statistics produced and disseminated by the FAO is evaluated in terms of fitness for use i.e. the degree to which statistics meet the user&#x2019;s requirements. The quality dimensions assessed are: Relevance; Accuracy and Reliability; Timeliness and Punctuality; Coherence and Comparability; Accessibility and Clarity. Quality dimensions definitions are provided in the FAO Statistical Quality Assurance Framework (SQAF), which provides the definition of quality and describes quality principles for statistical outputs; statistical processes; institutional environment (http://www.fao.org/docrep/019/i3664e/i3664e.pdf). The SQAF is based on the Fundamental Principles of Official Statistics and the Principles Governing International Statistical Activities (CCSA). Adherence to these principles ensures the quality of FAO statistical production processes and of statistical outputs. Regular quality assessments are conducted through the FAO Quality Assessment and Planning Survey (QAPS), a bi-annual survey designed to gather information on all of FAO&#x2019;s statistical activities, which is used to assess the extent to which quality standards are being met with a view to increasing compliance with the SQAF, and to document best practices and provide guidance for improvement where necessary.</ins></p></div>
         
         
     </body>

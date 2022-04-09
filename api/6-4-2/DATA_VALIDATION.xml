@@ -5,13 +5,13 @@
 	<data>
 		<languages>
 			<language lang="ar"/>
-			<language lang="en">&lt;p&gt;Data validation is done in a number of steps. &lt;/p&gt;
+			<language lang="en">&lt;p&gt;Data validation is done in a few steps. &lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;the AQUASTAT questionnaire embeds automatic validation rules to allow National Correspondents to identify any data consistency errors while compiling the data.&lt;/li&gt;
   &lt;li&gt;Once the questionnaire is submitted, FAO thoroughly reviews the information reported, using the following tools:&lt;ul&gt;
       &lt;li&gt;Manual cross-variable check. This includes cross-comparison with similar countries as well as historic data for the countries. &lt;/li&gt;
       &lt;li&gt;Time-series coherency by running an R-script to compare reported data with those corresponding to previous years&lt;/li&gt;
-      &lt;li&gt;Verification of the metadata, in particular the source of the proposed data. The critical analysis of the compiled data gives preference to national sources and expert knowledge.&lt;/li&gt;
+      &lt;li&gt;Verification of the metadata, especially the source of the proposed data. The critical analysis of the compiled data gives preference to national sources and expert knowledge.&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
   &lt;li&gt;After this verification, exchanges between the National Correspondents and FAO take place to correct and confirm the collected data. &lt;/li&gt;

@@ -5,22 +5,16 @@
 	<data>
 		<languages>
 			<language lang="ar"/>
-			<language lang="en">&lt;p&gt;Data needed for the indicator are collected through AQUASTAT for 168 countries worldwide. In the 2020 round, xx countries reported data. The indicators values for the rest of the countries are imputed as described in section 4.f.&lt;/p&gt;
-&lt;p&gt;Breakdown of the number of countries covered by region is as follows:&lt;/p&gt;
-&lt;p&gt;Countries (2010 to present):&lt;/p&gt;
-&lt;p&gt;Asia and Pacific 23&lt;/p&gt;
-&lt;p&gt;Africa 18&lt;/p&gt;
-&lt;p&gt;Latin America and the Caribbean 17&lt;/p&gt;
-&lt;p&gt;Europe, North America, Australia, New Zealand and Japan 41&lt;/p&gt;
-&lt;p&gt;Countries (2000-2009):&lt;/p&gt;
-&lt;p&gt;Asia and Pacific 42&lt;/p&gt;
-&lt;p&gt;Africa 49&lt;/p&gt;
-&lt;p&gt;Latin America and the Caribbean 27&lt;/p&gt;
-&lt;p&gt;Europe, North America, Australia, New Zealand and Japan 47&lt;/p&gt;
+			<language lang="en">&lt;p&gt;Data needed for the indicator are collected through AQUASTAT for 168 countries worldwide. &lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Time series:&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;1961-2018 (Discontinuous, depending on country. Data are interpolated to create timelines.) &lt;/p&gt;
+&lt;p&gt;1961-2019 (Discontinuous, depending on country. Data are interpolated to create timelines.) &lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Disaggregation:&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Although the indicator is based on total water volumes, sectoral data are needed to be able to disaggregate it in order to show the respective contribution of different sectors to the country&amp;#x2019;s water stress, and therefore the relative importance of actions needed to contain water demand in the different sectors (agriculture, services and industry). &lt;/p&gt;
+&lt;p&gt;Sectoral disaggregated data are provided to show the respective contribution of the different sectors to the water stress level, and therefore the relative importance of actions needed to contain water demand in the different sectors (agriculture, services and industry). The contribution of the different sectors to the water stress level is calculated as the proportion of sectoral withdrawals over total freshwater withdrawals, after taking into account the EFR. sectors are defined following the United Nations International Standard Industrial Classification of All Economic Activities ISIC 4 coding, &lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;agriculture; forestry; fishing (ISIC A), hereinafter &amp;#x201C;agriculture&amp;#x201D;;&lt;/li&gt;
+  &lt;li&gt;mining and quarrying; manufacturing; electricity, gas, steam and air conditioning supply; constructions (ISIC B, C, D and F), hereinafter &amp;#x201C;MIMEC&amp;#x201D;;&lt;/li&gt;
+  &lt;li&gt;all the service sectors (ISIC E and ISIC G-T), hereinafter &amp;#x201C;services&amp;#x201D;.&lt;/li&gt;
+&lt;/ol&gt;
 &lt;p&gt;At national level, water resources and withdrawals are estimated or measured at the level of appropriate hydrological units (river basins, aquifers). It is therefore possible to obtain a geographical distribution of water stress by hydrological unit, thus allowing for more targeted response in terms of water demand management.&lt;/p&gt;
 			</language>
 			<language lang="es">&lt;h1&gt;Disponibilidad de datos&lt;/h1&gt;

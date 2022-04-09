@@ -2,5 +2,10 @@
 <root>
 	<status>success</status>
 	<message>The QUALITY_MGMNT field for indicator 15-3-1, translated into en</message>
-	<data/>
+	<data>&lt;p&gt;The UNCCD reporting system, the Performance Review and Assessment of the Implementation System (PRAIS),&lt;sup&gt;&lt;a href=&quot;#footnote-36&quot; id=&quot;footnote-ref-36&quot;&gt;[35]&lt;/a&gt;&lt;/sup&gt; has a set of validation checks on the reported SDG indicator 15.3.1 and its sub-indicators. Should the checks fail, the user is notified that:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;The area reported as degraded should not exceed the total land area of the country;&lt;/li&gt;
+  &lt;li&gt;The proportion of degraded land is a read-only field that is dynamic with the area of degraded land and the total land area reported by the country, this should stop spurious values being entered by mistake and ensure integrity across the national report;&lt;/li&gt;
+  &lt;li&gt;The number of decimal places in the reported percent value is limited to one, to strike a balance between the precision of the reported value and relevance of additional numeric precision.&lt;/li&gt;
+&lt;/ul&gt;&lt;div class=&quot;footnotes&quot;&gt;&lt;div&gt;&lt;sup class=&quot;footnote-number&quot; id=&quot;footnote-36&quot;&gt;35&lt;/sup&gt;&lt;p&gt; See &lt;a href=&quot;https://reporting.unccd.int/&quot;&gt;https://reporting.unccd.int/&lt;/a&gt; and &lt;a href=&quot;https://www.unccd.int/conventionreporting-process-and-prais/prais-4-reporting-platform&quot;&gt;https://www.unccd.int/conventionreporting-process-and-prais/prais-4-reporting-platform&lt;/a&gt; for more information &lt;a href=&quot;#footnote-ref-36&quot;&gt;&amp;#x2191;&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;</data>
 </root>

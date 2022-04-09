@@ -6,12 +6,18 @@
 		<languages>
 			<language lang="ar"/>
 			<language lang="en">&lt;p&gt;CO&lt;sub&gt;2&lt;/sub&gt; emissions from fuel combustion are estimated based on energy consumption and on the 2006 IPCC Guidelines on National GHG Inventories.&lt;/p&gt;
-&lt;p&gt;The total intensity of the economy is defined as the ratio of total CO&lt;sub&gt;2&lt;/sub&gt; emissions from fuel combustion and per unit of GDP. For international comparison purposes, GDP is measured in constant terms at purchasing power parity and the indicator is expressed in kilogrammes of CO2 per constant 2017 USD PPP for the current series.&lt;/p&gt;
+&lt;p&gt;The total intensity of the economy is defined as the ratio of total CO&lt;sub&gt;2&lt;/sub&gt; emissions from fuel combustion and per unit of GDP. For international comparison purposes, GDP is measured in constant terms at purchasing power parity and the indicator is expressed in kilogrammes of CO&lt;sub&gt;2 &lt;/sub&gt;per constant 2017 USD PPP for the current series.&lt;/p&gt;
 &lt;p&gt;The sectoral intensity is defined as CO&lt;sub&gt;2&lt;/sub&gt; emission from manufacturing (in physical measurement unit such as tonnes) divided by manufacturing value added (MVA) in constant 2015 USD.&lt;/p&gt;
 &lt;p&gt;&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;
-    &lt;mi&gt;C&lt;/mi&gt;
-    &lt;mi&gt;O&lt;/mi&gt;
-    &lt;mn&gt;2&lt;/mn&gt;
+    &lt;msub&gt;
+      &lt;mrow&gt;
+        &lt;mi&gt;C&lt;/mi&gt;
+        &lt;mi&gt;O&lt;/mi&gt;
+      &lt;/mrow&gt;
+      &lt;mrow&gt;
+        &lt;mn&gt;2&lt;/mn&gt;
+      &lt;/mrow&gt;
+    &lt;/msub&gt;
     &lt;mi&gt;&amp;amp;nbsp;&lt;/mi&gt;
     &lt;mi&gt;e&lt;/mi&gt;
     &lt;mi&gt;m&lt;/mi&gt;
@@ -48,9 +54,15 @@
     &lt;mo&gt;=&lt;/mo&gt;
     &lt;mfrac&gt;
       &lt;mrow&gt;
-        &lt;mi&gt;C&lt;/mi&gt;
-        &lt;mi&gt;O&lt;/mi&gt;
-        &lt;mn&gt;2&lt;/mn&gt;
+        &lt;msub&gt;
+          &lt;mrow&gt;
+            &lt;mi&gt;C&lt;/mi&gt;
+            &lt;mi&gt;O&lt;/mi&gt;
+          &lt;/mrow&gt;
+          &lt;mrow&gt;
+            &lt;mn&gt;2&lt;/mn&gt;
+          &lt;/mrow&gt;
+        &lt;/msub&gt;
         &lt;mi&gt;&amp;amp;nbsp;&lt;/mi&gt;
         &lt;mi&gt;e&lt;/mi&gt;
         &lt;mi&gt;m&lt;/mi&gt;

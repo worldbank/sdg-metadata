@@ -6,10 +6,19 @@
 		<languages>
 			<language lang="ar"/>
 			<language lang="en">&lt;p&gt;The indicator is modelled with household survey data compiled by WHO. The information on cooking fuel use and cooking practices comes from about 1440 nationally representative survey and censuses. Survey sources include Demographic and Health Surveys (DHS) and Living Standards Measurement Surveys (LSMS), Multi-Indicator Cluster Surveys (MICS), the World Health Survey (WHS), and other nationally developed and implemented surveys.&lt;/p&gt;
-&lt;p&gt;Estimates of primary cooking energy for the total, urban and rural population for a given country and year are obtained together using a single multivariate hierarchical model. Using household survey data as inputs, the model jointly estimates primary reliance on 6 specific fuel types: 1. unprocessed biomass (e.g. wood), 2. charcoal, 3. coal, 4. kerosene, 5. gaseous fuels (e.g. LPG), and 6. electricity; and a final category including other clean fuels (e.g. alcohol). Estimates of the proportion of the population with primary reliance on clean fuels and technology (SDG indicator 7.1.2) are then derived by aggregating the estimates for primary reliance on clean fuel types from the model. Details on the model are published in Stoner et al. (2019).&lt;/p&gt;
-&lt;p&gt;Only survey data with less than 15% of the population reporting &amp;#x201C;missing&amp;#x201D; and &amp;#x201C;no cooking&amp;#x201D; and &amp;#x201C;other fuels&amp;#x201D; were included in the analysis. Surveys were also discarded if the sum of all mutually exclusive categories reported was not within 98-102%. Fuel use values were uniformly scaled (divided) by the sum of all mutually exclusive categories excluding &amp;#x201C;missing&amp;#x201D;, &amp;#x201C;no cooking&amp;#x201D; and &amp;#x201C;other fuels&amp;#x201D;.&lt;/p&gt;
-&lt;p&gt;Countries classified as high-income according to the World Bank country classification (60 countries) in the 2019 fiscal year were assumed to have fully transitioned to clean household energy and therefore are reported as &amp;gt;95% access to clean technologies.&lt;/p&gt;
-&lt;p&gt;No estimates were reported for low- and middle-income countries without data (Bulgaria, Cuba, Lebanon, Libya). Modelled specific fuel estimates were derived for 128 low- and middle-income countries and 2 countries with no World Bank income classification (Cook Islands and Niue). Estimates of overall clean fuel use were reported for 190 countries.&lt;/p&gt;
+&lt;p&gt;Estimates of primary cooking energy for the total, urban and rural population for a given country and year are obtained together using a single multivariate hierarchical model. Using household survey data as inputs, the model jointly estimates primary reliance on 6 specific fuel types: &lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;unprocessed biomass (e.g. wood), &lt;/li&gt;
+  &lt;li&gt;charcoal, &lt;/li&gt;
+  &lt;li&gt;coal, &lt;/li&gt;
+  &lt;li&gt;kerosene, &lt;/li&gt;
+  &lt;li&gt;gaseous fuels (e.g. LPG), and &lt;/li&gt;
+  &lt;li&gt;electricity; and a final category including other clean fuels (e.g. alcohol). &lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Estimates of the proportion of the population with primary reliance on clean fuels and technology (SDG indicator 7.1.2) are then derived by aggregating the estimates for primary reliance on clean fuel types from the model. Details on the model are published in Stoner et al. (2020).&lt;/p&gt;
+&lt;p&gt;Only survey data with less than 15% of the population reporting &amp;#x201C;missing&amp;#x201D; and &amp;#x201C;no cooking&amp;#x201D; and &amp;#x201C;other fuels&amp;#x201D; were included in the analysis. Surveys were also discarded if the sum of all mutually exclusive categories reported was not within 97.9-102.1%. Fuel use values were uniformly scaled (divided) by the sum of all mutually exclusive categories excluding &amp;#x201C;missing&amp;#x201D;, &amp;#x201C;no cooking&amp;#x201D; and &amp;#x201C;other fuels&amp;#x201D;.&lt;/p&gt;
+&lt;p&gt;Countries classified as high-income according to the World Bank country classification (80 countries) in the 2020 fiscal year were assumed to have fully transitioned to clean household energy and therefore are reported as &amp;gt;95% access to clean technologies.&lt;/p&gt;
+&lt;p&gt;No estimates were reported for low- and middle-income countries without data (Bulgaria, Lebanon and Libya). Modelled specific fuel estimates were derived for 128 low- and middle-income countries and 2 countries with no World Bank income classification (Cook Islands and Niue). Estimates of overall clean fuel use were reported for 190 countries.&lt;/p&gt;
 			</language>
 			<language lang="es">&lt;h1&gt;Metodología&lt;/h1&gt;
 &lt;h2&gt;Método de cálculo:&lt;/h2&gt;
