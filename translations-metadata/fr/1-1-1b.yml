@@ -8,8 +8,8 @@ SDG_INDICATOR: >-
   <p>Indicateur 1.1.1 : Proportion de la population vivant en dessous du seuil de
   pauvreté fixé au niveau international, par sexe, âge, situation d’emploi et lieu
   de résidence (zone urbaine/zone rurale)</p>
-META_LAST_UPDATE: '<p>2021-01-01</p>'
-SDG_RELATED_INDICATORS: <p>1.3.1, 8.2.1, 8.3.1, 8.5.1, 10.4.1</p>
+META_LAST_UPDATE: '<p>2022-03-31</p>'
+SDG_RELATED_INDICATORS: <p>1.3.1, 8.2.1, 8.3.1, 8.5.1, 8.5.2, 10.4.1</p>
 SDG_CUSTODIAN_AGENCIES: |-
   <p>Organisation internationale du travail (OIT)</p>
 STAT_CONC_DEF: >-
@@ -66,10 +66,10 @@ SOURCE_TYPE: >-
   et les dépenses des ménages et d'une enquête distincte sur la population active
   lorsque les ménages répondants peuvent être appariés et que la cohérence sur une
   longue période d'observation entre les enquêtes peut être obtenue.</p>
-COLL_METHOD: "<p> </p>\n<p>L'OIT traite les ensembles de microdonnées des enquêtes\
-  \ nationales aurpès des ménages conformément aux concepts et définitions des indicateurs\
-  \ convenus au niveau international et définis par la Conférence internationale des\
-  \ statisticiens du travail. </p>"
+COLL_METHOD: "<p>L'OIT traite les ensembles de microdonnées des enquêtes nationales\
+  \ aurpès des ménages conformément aux concepts et définitions des indicateurs convenus\
+  \ au niveau international et définis par la Conférence internationale des statisticiens\
+  \ du travail (CIST).</p>"
 FREQ_COLL: |-
   <p>En continu</p>
 REL_CAL_POLICY: <p>Les données nationales sont mises à jour chaque semaine sur la
@@ -78,12 +78,11 @@ REL_CAL_POLICY: <p>Les données nationales sont mises à jour chaque semaine sur
 DATA_SOURCE: |-
   <p>Principalement les Bureaux nationaux de statistique.</p>
 COMPILING_ORG: |-
-  <p>OIT</p>
+  <p>Organisation internationale du travail (OIT)</p>
 RATIONALE: >-
-  <p>Pour éradiquer la pauvreté, nous devons en comprendre les causes profondes. </p>
-
-  <p>Le taux de pauvreté des travailleurs révèle la proportion de la population active
-  qui vit dans la pauvreté en dépit d'être employée, ce qui implique que leurs revenus
+  <p>Pour éradiquer la pauvreté, nous devons en comprendre les causes profondes. Le
+  taux de pauvreté des travailleurs révèle la proportion de la population active qui
+  vit dans la pauvreté en dépit d'être employée, ce qui implique que leurs revenus
   liés à l'emploi ne sont pas suffisants pour les sortir, eux et leurs familles, de
   la pauvreté et leur assurer des conditions de vie décentes. L'adéquation des revenus
   est un aspect fondamental de la qualité de l'emploi, et ces déficits contribuent
@@ -96,11 +95,11 @@ RATIONALE: >-
 REC_USE_LIM: >-
   <p>Au niveau national, les comparaisons dans le temps peuvent être affectées par
   des facteurs tels que les changements de types d'enquêtes ou de méthodes de collecte
-  de données. L'utilisation des PPA plutôt que des taux de change du marché garantit
-  la prise en compte des différences de niveaux de prix entre les pays. Toutefois,
-  on ne peut pas affirmer de manière catégorique que deux personnes dans deux pays
-  différents, vivant avec moins de 1,90 $ américain par jour en PPA, sont confrontées
-  au même degré de privation ou ont le même niveau de besoins.</p>
+  de données. L'utilisation de la parité de pouvoir d'achat (PPA) plutôt que des taux
+  de change du marché garantit la prise en compte des différences de niveaux de prix
+  entre les pays. Toutefois, on ne peut pas affirmer de manière catégorique que deux
+  personnes dans deux pays différents, vivant avec moins de 1,90 $ américain par jour
+  en PPA, sont confrontées au même degré de privation ou ont le même niveau de besoins.</p>
 
   <p>La pauvreté dans le contexte de cet indicateur est un concept qui s'applique
   aux ménages, et non aux individus, et part du principe que les ménages mettent leurs
@@ -131,11 +130,15 @@ DOC_METHOD: >-
   Cet indicateur des ODD utilise le seuil de pauvreté international, actuellement
   fixé à 1,90 $ (dollar américain) à parité de pouvoir d’achat. Pour plus d’informations,
   consulter le document (en anglais) « Decent Work and the Sustainable Development
-  Goals: A Guidebook on SDG Labour Market Indicators » (OIT) <a href="https://labordoc.ilo.org/discovery/delivery/41ILO_INST:41ILO_V2/1257239980002676">https://labordoc.ilo.org/discovery/delivery/41ILO_INST:41ILO_V2/1257239980002676</a>
+  Goals: A Guidebook on SDG Labour Market Indicators » (OIT) https://www.ilo.org/global/statistics-and-databases/publications/WCMS_647109/lang--en/index.htm
   </p>
 QUALITY_ASSURE: <p>Des contrôles de cohérence et de qualité des données sont régulièrement
   effectués pour valider les données avant leur diffusion dans la base de données
-  d'ILOSTAT. </p>
+  d'ILOSTAT. Ces vérifications consistent en la révision des données et des métadonnées
+  de tous les intrants pertinents appliquant des protocoles afin de garantir le maintien
+  de la comparabilité internationale et de la cohérence des séries chronologiques.
+  Pour les estimations modélisées qui en résultent, des évaluations statistiques et
+  discrétionnaires des données de sortie sont effectuées.</p>
 COVERAGE: >-
   <p><strong>Disponibilité des données :</strong></p>
 
@@ -143,7 +146,10 @@ COVERAGE: >-
 
   <p><strong>Séries chronologiques :</strong></p>
 
-  <p>Ceci couvre les années 2000 à 2019.</p>
+  <p>Ceci couvre les données par pays de 2000 à 2020. Les agrégats mondiaux et régionaux
+  sont disponibles de 2000 à 2021.</p>
+
+  <p> </p>
 
   <p><strong>Désagrégation :</strong></p>
 
@@ -153,22 +159,22 @@ COMPARABILITY: '<p>Les estimations nationales de la pauvreté différeront de ce
   des ODD. Cet indicateur des ODD utilise le seuil de pauvreté international, actuellement
   fixé à 1,90 $ (dollar américain) à parité de pouvoir d’achat. Pour plus d’informations,
   consulter le document (en anglais) « Decent Work and the Sustainable Development
-  Goals: A Guidebook on SDG Labour Market Indicators » (OIT) <a href="https://labordoc.ilo.org/discovery/delivery/41ILO_INST:41ILO_V2/1257239980002676">https://labordoc.ilo.org/discovery/delivery/41ILO_INST:41ILO_V2/1257239980002676</a>
+  Goals: A Guidebook on SDG Labour Market Indicators » (OIT) https://www.ilo.org/global/statistics-and-databases/publications/WCMS_647109/lang--en/index.htm
   </p>'
 OTHER_DOC: |-
   <ul>
-    <li>(En anglais) « Decent Work and the Sustainable Development Goals: A Guidebook on SDG Labour Market Indicators » (OIT) <a href="https://labordoc.ilo.org/discovery/delivery/41ILO_INST:41ILO_V2/1257239980002676">https://labordoc.ilo.org/discovery/delivery/41ILO_INST:41ILO_V2/1257239980002676</a> </li>
+    <li>(En anglais) « Decent Work and the Sustainable Development Goals: A Guidebook on SDG Labour Market Indicators » (OIT) https://www.ilo.org/global/statistics-and-databases/publications/WCMS_647109/lang--en/index.htm </li>
     <li>ILOSTAT (<a href="https://ilostat.ilo.org/fr/">https://ilostat.ilo.org/fr/</a>).<ul>
     <li>Page sur la pauvreté des travailleurs de l'ILOSTAT (<a href="https://ilostat.ilo.org/fr/topics/working-poor/">https://ilostat.ilo.org/fr/topics/working-poor/</a>)</li>
      </ul>
     </li>
     <li>(En anglais) « Employment and economic class in the developing world » (Kapsos et Bourmpoula, 2013) <a href="http://www.ilo.org/wcmsp5/groups/public/---dgreports/---inst/documents/publication/wcms_216451.pdf">http://www.ilo.org/wcmsp5/groups/public/---dgreports/---inst/documents/publication/wcms_216451.pdf</a></li>
+    <li>(En anglais) « Decent Work Indicators Manual » <a href="http://www.ilo.org/wcmsp5/groups/public/---dgreports/---integration/documents/publication/wcms_229374.pdf">http://www.ilo.org/wcmsp5/groups/public/---dgreports/---integration/documents/publication/wcms_229374.pdf</a> (deuxième version, page 70).</li>
   </ul>
-  <p>(En anglais) « Decent Work Indicators Manual » <a href="http://www.ilo.org/wcmsp5/groups/public/---dgreports/---integration/documents/publication/wcms_229374.pdf">http://www.ilo.org/wcmsp5/groups/public/---dgreports/---integration/documents/publication/wcms_229374.pdf</a> (deuxième version, page 70).</p>
 ADJUSTMENT: <p>Dans le cadre de l’initiative de l’OIT sur les microdonnées harmonisées,
   l’OIT s’efforce de produire des statistiques du travail comparables au niveau international
   en se basant sur des concepts et définitions d’indicateurs adoptés par la Conférence
-  internationale des statisticiens du travail. </p>
+  internationale des statisticiens du travail (CIST). </p>
 DATA_VALIDATION: <p>L'OIT procède à des consultations annuelles avec les Etats membres
   par le biais du questionnaire d'ILOSTAT et du système de rapports statistiques (« Statistics
   Reporting System » (StaRS)). Les fournisseurs de données nationaux reçoivent un
@@ -176,13 +182,13 @@ DATA_VALIDATION: <p>L'OIT procède à des consultations annuelles avec les Etats
   ODD disponibles dans ILOSTAT.</p>
 INST_MANDATE: <p>L'OIT est le point focal des Nations Unies pour les statistiques
   du travail. Elle établit des normes internationales pour les statistiques du travail
-  par le biais de la Conférence internationale des statisticiens du travail. Elle
-  compile et produit également des statistiques du travail dans le but de diffuser
+  par le biais de la Conférence internationale des statisticiens du travail (CIST).
+  Elle compile et produit également des statistiques du travail dans le but de diffuser
   des ensembles de données comparables au niveau international, et fournit une assistance
   technique et une formation aux états membres de l'OIT afin de soutenir leurs efforts
   pour produire des données sur le marché du travail de haute qualité. </p>
-UNIT_MEASURE: <p>Pourcentage</p>
-CONTACT_ORGANISATION: <p>OIT</p>
+UNIT_MEASURE: <p>Pourcentage (%)</p>
+CONTACT_ORGANISATION: <p>Organisation internationale du travail (OIT)</p>
 DATA_COMP: "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\">\n    <mi mathvariant=\"\
   normal\">T</mi>\n    <mi mathvariant=\"normal\">a</mi>\n    <mi mathvariant=\"normal\"\
   >u</mi>\n    <mi mathvariant=\"normal\">x</mi>\n    <mi mathvariant=\"normal\">&amp;nbsp;</mi>\n\
@@ -239,3 +245,18 @@ DATA_COMP: "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\">\n    <mi math
   \        <mi mathvariant=\"normal\">t</mi>\n        <mi mathvariant=\"normal\">a</mi>\n\
   \        <mi mathvariant=\"normal\">l</mi>\n      </mrow>\n    </mfrac>\n    <mi>&amp;nbsp;</mi>\n\
   \    <mo>&#xD7;</mo>\n    <mn>100</mn>\n  </math></p>"
+CLASS_SYSTEM: <p>La série est ventilée par sexe et par âge, pour lesquels il n’existe
+  pas de classification internationale type. Les groupes d’âge désignent toutes les
+  personnes (15 ans ou plus), les jeunes (15-24 ans) et les adultes (25 ans ou plus).
+  </p>
+QUALITY_MGMNT: <p>Les processus de compilation, de production et de publication des
+  données, y compris leur contrôle de la qualité, sont effectués conformément au cadre
+  méthodologique et aux normes établis par le Département de la statistique de l’OIT,
+  conformément aux normes de l’OIT en matière de technologie de l’information et de
+  gestion. </p>
+QUALITY_ASSMNT: <p>L’évaluation finale de la qualité de l’information est effectuée
+  par l’Unité de production et d’analyse des données de l’OIT. Si des problèmes rencontrés
+  ne peuvent pas être clarifiés, les informations respectives ne sont pas publiées.
+  </p>
+SDG_SERIES_DESCR: <p>Population active en dessous du seuil de pauvreté international
+  (%)</p>
