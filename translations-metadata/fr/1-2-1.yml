@@ -7,7 +7,7 @@ SDG_TARGET: >-
   que définie par chaque pays</p>
 SDG_INDICATOR: "<p>Indicateur 1.2.1 : Proportion de la population vivant au-dessous\
   \ du seuil national de pauvreté, par sexe et âge</p>"
-META_LAST_UPDATE: '<p>1 août 2021</p>'
+META_LAST_UPDATE: '<p>2022-03-31</p>'
 SDG_CUSTODIAN_AGENCIES: |-
   <p>Banque mondiale</p>
 STAT_CONC_DEF: >-
@@ -40,8 +40,8 @@ SOURCE_TYPE: >-
   évalue la méthodologie utilisée par le gouvernement, valide les estimations avec
   des données brutes lorsque cela est possible et consulte les économistes du pays
   responsable de la diffusion. Les estimations acceptées, ainsi que les métadonnées,
-  sont diffusées dans la base de données des IDM ainsi que dans la base de données
-  sur la pauvreté et l'équité de la Banque mondiale. </p>
+  sont diffusées dans la base de données des IDM ainsi que dans la plateforme « Poverty
+  and Inequality Platform » de la Banque mondiale. </p>
 
   <p>Une autre source est l'évaluation de la pauvreté de la Banque mondiale. La Banque
   mondiale prépare périodiquement des évaluations de la pauvreté dans les pays où
@@ -363,17 +363,17 @@ COVERAGE: >-
 
   <p>La disponibilité des données dépend de la disponibilité des enquêtes auprès des
   ménages et de l’analyse des données des enquêtes. Des données sur la pauvreté totale
-  sont actuellement disponibles pour 156 pays. </p>
+  sont actuellement disponibles pour 154 pays. </p>
 
   <p><strong>Séries chronologiques :</strong></p>
 
-  <p>Les données sont disponibles de 1984 à 2019. Étant donné que l’effort et la capacité
+  <p>Les données sont disponibles de 1985 à 2020. Étant donné que l’effort et la capacité
   de collecte et d’analyse des données d’enquête sont différents pour chaque pays,
   la durée des séries chronologiques pour chaque pays varie considérablement. </p>
 
   <p><strong>Désagrégation :</strong></p>
 
-  <p>La seule désagrégation est par zones rurales et urbaines. </p>
+  <p>Aucune désagrégation n’est effectuée actuellement. </p>
 COMPARABILITY: >-
   <p><strong>Sources des divergences :</strong></p>
 
@@ -388,9 +388,9 @@ OTHER_DOC: >-
 
   <p><strong>URL :</strong></p>
 
-  <p>« Poverty and Equity Data Portal »</p>
+  <p>« Poverty and Inequality Platform »</p>
 
-  <p><a href="http://povertydata.worldbank.org/poverty/home/">http://povertydata.worldbank.org/poverty/home/</a></p>
+  <p><a href="http://pip.worldbank.org/">http://pip.worldbank.org/</a></p>
 
   <p><strong>Références :</strong></p>
 
@@ -409,3 +409,4 @@ UNIT_MEASURE: <p>L’unité de mesure est la proportion de la population. </p>
 SDG_RELATED_INDICATORS: '<p>Indicateur 1.1.1 : Proportion de la population vivant
   en dessous du seuil de pauvreté fixé au niveau international, par sexe, âge, situation
   d’emploi et lieu de résidence (zone urbaine/zone rurale)</p>'
+SDG_SERIES_DESCR: <p>Sans objet</p>
