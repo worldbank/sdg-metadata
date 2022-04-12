@@ -342,16 +342,16 @@ COVERAGE: "<p><strong>Niveau de désagrégation :</strong></p>\n<p>Le dénombrem
   \ chez les enfants est principalement de 0 à 17 ans, mais certains pays ont une\
   \ définition d’âge différente pour les enfants, comme de 0 à 15 ans au Salvador.\
   \ Géographiquement, il est ventilé par zones urbaines et rurales. </p>\n<p><strong>Années\
-  \ de déclaration</strong></p>\n<p>Les années de déclaration pour l'indicateur 1.2.2\
-  \ des ODD sont celles où l’enquête à la source a été menée, à l’exception de l’AROPE.\
-  \ Lorsque l’année d’enquête est divisée en deux ans, la première année a été déclarée.\
-  \ Dans l’AROPE, la période de référence pour toutes les dimensions ainsi que les\
-  \ indicateurs sont diffusés ainsi que les variables liées aux éléments de privation\
-  \ matérielle en question l’année de l’enquête, à l’exception de l’âge, du revenu,\
-  \ des variables sur les arriérés, de l’intensité du travail du ménage, du pays de\
-  \ naissance et du statut d’activité. En ce qui concerne l’âge, il s’agit de l’âge\
-  \ du répondant à la fin de la période de référence du revenu. Pour le revenu, la\
-  \ période de référence du revenu est une période fixe de 12 mois (telle que l’année\
+  \ de déclaration :</strong></p>\n<p>Les années de déclaration pour l'indicateur\
+  \ 1.2.2 des ODD sont celles où l’enquête à la source a été menée, à l’exception\
+  \ de l’AROPE. Lorsque l’année d’enquête est divisée en deux ans, la première année\
+  \ a été déclarée. Dans l’AROPE, la période de référence pour toutes les dimensions\
+  \ ainsi que les indicateurs sont diffusés ainsi que les variables liées aux éléments\
+  \ de privation matérielle en question l’année de l’enquête, à l’exception de l’âge,\
+  \ du revenu, des variables sur les arriérés, de l’intensité du travail du ménage,\
+  \ du pays de naissance et du statut d’activité. En ce qui concerne l’âge, il s’agit\
+  \ de l’âge du répondant à la fin de la période de référence du revenu. Pour le revenu,\
+  \ la période de référence du revenu est une période fixe de 12 mois (telle que l’année\
   \ civile ou fiscale précédente) pour tous les pays, à l’exception de l’Irlande pour\
   \ laquelle l’enquête est continue et le revenu est recueilli pour les douze derniers\
   \ mois. Les variables sur les arriérés se réfèrent aux 12 derniers mois, tandis\
@@ -867,12 +867,12 @@ REG_AGG: <p>Puisque les données de l'indicateur 1.2.2 sont basées sur les déf
   sont différentes, comme décrit dans la section « Commentaires et limites », les
   données ne sont pas comparables entre les pays. Ainsi, les agrégats régionaux et
   mondiaux ne sont pas produits.</p>
-IMPUTATION: "<p><strong>&#x2022; Au niveau national</strong></p>\n<p>Le traitement\
-  \ des valeurs manquantes diffère d'une enquête à l'autre. Pour plus de détails,\
-  \ veuillez vous référer à la documentation officielle via les liens présentés à\
-  \ la fin. </p>\n<p><strong>&#x2022; Aux niveaux régional et mondial</strong></p>\n\
-  <p>Aucune estimation n'a été produites par les agences internationales pour les\
-  \ valeurs manquantes dans les données.</p>"
+IMPUTATION: "<p><strong>• Au niveau national :</strong></p>\n<p>Le traitement des\
+  \ valeurs manquantes diffère d'une enquête à l'autre. Pour plus de détails, veuillez\
+  \ vous référer à la documentation officielle via les liens présentés à la fin. </p>\n\
+  <p><strong>• Aux niveaux régional et mondial :</strong></p>\n<p>Aucune estimation\
+  \ n'a été produite par les agences internationales pour les valeurs manquantes dans\
+  \ les données.</p>"
 DATA_COMP: "<p>La mesure de la pauvreté implique deux étapes cruciales : (1) l’identification\
   \ – identifier qui est pauvre, et (2) l’agrégation – compiler les informations de\
   \ l’individu dans une mesure sommaire. Il existe différentes façons d’effectuer\
@@ -1502,7 +1502,7 @@ FREQ_COLL: <p>Le calendrier de la collecte des données diffère d’une enquêt
   dans chaque pays. Pour plus de détails, veuillez vous référer à la documentation
   officielle via les liens énumérés à la fin. </p>
 INST_MANDATE: "<p>La Commission de statistique des Nations Unies a adopté les lignes\
-  \ directrices <a href=\"https://unstats.un.org/unsd/statcom/49th-session/documents/BG-Item-3a-IAEG-SDGs-DataFlowsGuidelines-E.pdf\"\
+  \ directrices (en anglais) <a href=\"https://unstats.un.org/unsd/statcom/49th-session/documents/BG-Item-3a-IAEG-SDGs-DataFlowsGuidelines-E.pdf\"\
   >« Guidelines on Data Flows and Global Data Reporting for the SDGs »</a>, qui visent\
   \ à établir des mécanismes efficaces et transparents pour la communication des données\
   \ sur les ODD du niveau national au niveau international. Les lignes directrices\
