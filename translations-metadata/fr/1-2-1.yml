@@ -77,7 +77,7 @@ REC_USE_LIM: >-
   d'enquête s'appliquant à la construction de l'indicateur 1.1.1 s'appliquent également
   ici. </p>
 
-  <p> Pour être utiles aux estimations de la pauvreté, les enquêtes doivent être représentatives
+  <p>Pour être utiles aux estimations de la pauvreté, les enquêtes doivent être représentatives
   au niveau national. Elles doivent également comporter suffisamment d'informations
   pour permettre de calculer une estimation complète de la consommation ou du revenu
   total des ménages (y compris la consommation ou le revenu de la production propre)
@@ -130,7 +130,7 @@ REC_USE_LIM: >-
 
   <p>Invariablement, certains ménages échantillonnés ne participent pas aux enquêtes
   parce qu'ils refusent de le faire ou parce que personne n'est à la maison. Cette
-  situation est souvent appelée « non-réponse totale » et est distincte de « non-réponse
+  situation est souvent appelée « non-réponse totale » et est distincte de la « non-réponse
   partielle ou de l'item » qui se produit lorsque certains répondants de l'échantillon
   participent mais refusent de répondre à certaines questions, telles que celles relatives
   à la consommation ou aux revenus. Dans la mesure où la non-réponse à l'enquête est
@@ -345,19 +345,19 @@ DATA_COMP: >-
   que le seuil de pauvreté rural, réflètant le coût de la vie relativement plus élevé
   dans les zones urbaines.</p>
 IMPUTATION: >-
-  <p><strong>&#x2022; Au niveau national</strong></p>
+  <p><strong>&#x2022; Au niveau national :</strong></p>
 
   <p>Les valeurs manquantes dans la consommation de certains articles sont comptées
   comme des zéros. Il s'agit d'une pratique courante dans le traitement des données
   d'enquête. Si la consommation n'est pas déclarée, elle est considérée comme une
   consommation nulle, et donc la dépense de consommation est nulle. </p>
 
-  <p><strong>&#x2022; Aux niveaux régional et mondial </strong></p>
+  <p><strong>&#x2022; Aux niveaux régional et mondial :</strong></p>
 
   <p>Puisque les seuils de pauvreté nationaux sont spécifiques à chaque pays, il n'y
   a pas d'agrégation aux niveaux régional et mondial. </p>
 REG_AGG: |-
-  <p>Sans objet</p>
+  <p>Non disponible</p>
 COVERAGE: >-
   <p><strong>Disponibilité des données :</strong></p>
 
