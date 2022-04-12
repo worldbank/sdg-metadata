@@ -5,7 +5,7 @@ SDG_TARGET: "<p>Cible 8.5 : D’ici 2030, parvenir au plein emploi productif e
   \ et les personnes handicapées, et à un salaire égal pour un travail de valeur égale</p>"
 SDG_INDICATOR: "<p>Indicateur 8.5.2: Taux de chômage, par sexe, âge et situation au regard\
   \ du handicap</p>"
-META_LAST_UPDATE: '<p>2021-01-01</p>'
+META_LAST_UPDATE: '<p>2022-03-31</p>'
 SDG_RELATED_INDICATORS: <h1>Indicateurs connexes</h1>
 SDG_CUSTODIAN_AGENCIES: |-
   <h1> Informations institutionnelles</h1>
@@ -19,7 +19,7 @@ DATA_SOURCE: >-
   certains cas, les offices statistiques régionaux ou internationaux peuvent également
   faire office de fournisseurs de données.</p>
 COMPILING_ORG: |-
-  <p>OIT</p>
+  <p>Organisation internationale du travail (OIT)</p>
 COMPARABILITY: '<h2>Sources des divergences : </h2>'
 OTHER_DOC: "<h1>Références </h1>\n<p>Le travail décent et les Objectifs de développement\
   \ durable : A Guidebook on SDG Labour Market Indicators, disponible sur <a href=\"\
@@ -194,4 +194,9 @@ INST_MANDATE: <p>L'OIT est le point focal des Nations Unies pour les statistique
   des ensembles de données comparables au niveau international, et fournit une assistance
   technique et une formation aux états membres de l'OIT afin de soutenir leurs efforts
   pour produire des données sur le marché du travail de haute qualité. </p>
-UNIT_MEASURE: <p>Pourcentage</p>
+UNIT_MEASURE: <p>Pourcentage (%)</p>
+QUALITY_MGMNT: <p>Les processus de compilation, de production et de publication des
+  données, y compris leur contrôle de la qualité, sont effectués conformément au cadre
+  méthodologique et aux normes établis par le Département de la statistique de l’OIT,
+  conformément aux normes de l’OIT en matière de technologie de l’information et de
+  gestion. </p>
