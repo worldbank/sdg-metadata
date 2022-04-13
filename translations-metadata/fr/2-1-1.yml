@@ -1,7 +1,7 @@
 SDG_GOAL: "<p>Objectif 2 : Éliminer la faim, assurer la sécurité alimentaire, améliorer\
   \ la nutrition et promouvoir l'agriculture durable</p>"
 SDG_TARGET: "<p>Cible 2.1 : D’ici 2030, éliminer la faim et faire en sorte que chacun,\
-  \ en particulier les pauvres et les personnes en situation vulnérable, y compris\
+  \ en particulier les pauvres et les personnes en situation vulnérable, y compris\
   \ les nourrissons, ait accès toute l’année à une alimentation saine, nutritive et\
   \ suffisante</p>"
 SDG_INDICATOR: '<p>Indicateur 2.1.1 : Prévalence de la sous-alimentation</p>'
@@ -18,8 +18,9 @@ SDG_CUSTODIAN_AGENCIES: >-
 STAT_CONC_DEF: >-
   <p><strong>Définition :</strong></p>
 
-  <p>La prévalence de la sous-alimentation est une estimation de la proportion de
-  la population dont la consommation alimentaire habituelle est insuffisante pour
+  <p>La prévalence de la sous-alimentation (PoSA) (espagnol : porcentaje de sub-alimentación;
+  italien : prevalenza di sotto-alimentazione) est une estimation de la proportion
+  de la population dont la consommation alimentaire habituelle est insuffisante pour
   fournir les niveaux d'énergie nécessaires au maintien d'une vie normale, active
   et saine. Elle est exprimée en pourcentage.</p>
 
@@ -65,7 +66,9 @@ SOURCE_TYPE: >-
   soient utilisées pour contrôler la variabilité excessive des niveaux estimés de
   consommation alimentaire habituelle des ménages, en tenant compte de la variabilité
   normale de la distribution de la consommation alimentaire entre les individus, liée
-  aux différences de besoins énergétiques des membres de la population. </li> </ol>
+  aux différences de besoins énergétiques des membres de la population. </li>
+  </ol>
+
   <p>Des exemples d'enquêtes qui pourraient être envisagées à cette fin comprennent
   les enquêtes menées pour calculer des statistiques économiques et effectuer des
   évaluations de la pauvreté, telles que les enquêtes sur les revenus et les dépenses
@@ -108,7 +111,7 @@ SOURCE_TYPE: >-
   pour lesquelles il est possible d'obtenir des microdonnées sur la consommation alimentaire,
   la FAO s'appuie sur : </p>
 
-  <p>a) UN Population Division's World Population Prospects (en anglais) (<a href="https://esa.un.org/unpd/wpp/Download/Standard/Population/">https://esa.un.org/unpd/wpp/Download/Standard/Population/</a>),
+  <p>a) UN Population Division's World Population Prospects (en anglais) (https://esa.un.org/unpd/wpp/Download/Standard/Population/),
   qui fournit des estimations actualisées des structures de la population nationale
   par sexe et âge tous les deux ans pour la plupart des pays du monde; </p>
 
@@ -140,7 +143,7 @@ COLL_METHOD: >-
 FREQ_COLL: |-
   <p>En cours</p>
 REL_CAL_POLICY: |-
-  <p>Juillet 2021</p>
+  <p>Les données sont publiées chaque année en même temps que le rapport <em>State of Food Security and Nutrition in the World</em>, généralement à la mi-juillet. </p>
 DATA_SOURCE: >-
   <p>Compte tenu des diverses sources de données, les fournisseurs de données nationaux
   varient. Les informations officielles sur la production, le commerce et l'utilisation
@@ -173,19 +176,20 @@ REC_USE_LIM: >-
   Selon ce point de vue, la prévalence de la sous-alimentation pourrait être simplement
   calculée en comptant le nombre d'individus dans un échantillon représentatif de
   la population classés comme sous-alimentés, sur la base d'une comparaison de la
-  consommation alimentaire habituelle et des besoins individuels. Malheureusement,
-  une telle approche n'est pas réalisable et ce pour deux raisons. Premièrement, en
-  raison du coût des enquêtes sur les apports alimentaires individuels, la consommation
-  alimentaire individuelle n'est mesurée que dans quelques pays, selon une périodicité
-  pluriannuelle, sur des échantillons relativement petits. De plus, les besoins énergétiques
-  individuels sont pratiquement inobservables avec les méthodes de collecte de données
-  standards (à un tel point que la consommation énergétique habituelle observée des
-  individus en bonne santé reste le moyen privilégié pour déduire les besoins énergétiques
-  individuels). Cela signifie que même s'il était possible d'obtenir des observations
-  précises de la consommation énergétique alimentaire individuelle, cela serait insuffisant
-  pour déduire l'état de sous-alimentation au niveau individuel, à moins que le tout
-  soit ajusté en fonction de l'état physique (indice de masse corporelle) et de la
-  dynamique dans le temps d’un même individu.</p>
+  consommation alimentaire habituelle et des besoins individuels.</p>
+
+  <p>Malheureusement, une telle approche n'est pas réalisable et ce pour deux raisons.
+  Premièrement, en raison du coût des enquêtes sur les apports alimentaires individuels,
+  la consommation alimentaire individuelle n'est mesurée que dans quelques pays, selon
+  une périodicité pluriannuelle, sur des échantillons relativement petits. De plus,
+  les besoins énergétiques individuels sont pratiquement inobservables avec les méthodes
+  de collecte de données standards (à un tel point que la consommation énergétique
+  habituelle observée des individus en bonne santé reste le moyen privilégié pour
+  déduire les besoins énergétiques individuels). Cela signifie que même s'il était
+  possible d'obtenir des observations précises de la consommation énergétique alimentaire
+  individuelle, cela serait insuffisant pour déduire l'état de sous-alimentation au
+  niveau individuel, à moins que le tout soit ajusté en fonction de l'état physique
+  (indice de masse corporelle) et de la dynamique dans le temps d’un même individu.</p>
 
   <p>L'approche modélisée, développée et utilisée par la FAO pour estimer la prévalence
   de la sous-alimentation, intègre des variables disponibles régulièrement et ce pour
@@ -226,8 +230,8 @@ REC_USE_LIM: >-
   de toutes les sources de consommation alimentaire. Des recherches récentes montrent
   qu'un biais négatif de plus de 850 kcal peut être introduit sur l'estimation de
   la consommation calorique quotidienne par habitant selon le type de module de consommation
-  alimentaire choisi pour saisir les données au niveau des ménages. (Voir (en anglais)
-  De Weerdt et al., 2015, tableau 2, https://feb.kuleuven.be/drc/licos/publications/dp/DP%20365%20Complete.pdf).
+  alimentaire choisi pour saisir les données au niveau des ménages. (Consulter De
+  Weerdt et al., 2015 (en anglais), tableau 2, <a href="https://feb.kuleuven.be/drc/licos/publications/dp/DP%20365%20Complete.pdf">https://feb.kuleuven.be/drc/licos/publications/dp/DP%20365%20Complete.pdf</a>).
   Une analyse détaillée d'une récente enquête sur le budget des ménages au Brésil
   a révélé que les aliments fournis gratuitement dans le cadre du programme de repas
   scolaires et consommés par les enfants à l'école n'avaient pas été pris en compte
@@ -288,166 +292,209 @@ REC_USE_LIM: >-
   représentative au niveau infranational n'est disponible, l'indicateur ne peut être
   calculé qu'au niveau national.</p>
 DATA_COMP: >-
-  <p>L'indicateur est calculé au niveau de la population. À cette fin, la population
-  est représentée par une moyenne des « individus » pour lesquels une distribution
-  de probabilité des niveaux d'apport énergétique alimentaire quotidien habituel est
-  modélisée par une fonction de densité de probabilité paramétrique (DPP). </p>
+  <p>Pour calculer une estimation de la prévalence de la sous-alimentation dans une
+  population, la distribution de probabilité des niveaux habituels d’apport énergétique
+  alimentaire (exprimé en kcal par personne et par jour) pour l’individu moyen est
+  modélisée comme une fonction de densité de probabilité paramétrique, f(x). </p>
 
-  <p>Une fois la DPP caractérisée, l'indicateur est obtenu en calculant la probabilité
-  cumulative que les apports énergétiques alimentaires habituels quotidiens (x) soient
-  inférieurs à la limite inférieure de la fourchette des besoins énergétiques alimentaires
-  normaux pour un individu représentatif ou moyen (MDER), comme dans la formule ci-dessous
-  : </p>
+  <p>L’indicateur est obtenu comme la probabilité cumulative que l’apport énergétique
+  alimentaire habituel (x) soit inférieur aux besoins énergétiques alimentaires minimaux
+  (BÉAM) (c.-à-d. la limite la plus basse de la gamme des besoins énergétiques pour
+  l’individu moyen représentatif de la population) comme dans la formule ci-dessous:
+  </p>
 
-  <p>PoU (prévalence de la sous-alimentation) = &#x222B;_(x < MDER) f(x | CEA; CV)
-  dx </p>
+  <p> <math xmlns="http://www.w3.org/1998/Math/MathML">
+      <mi>P</mi>
+      <mi>o</mi>
+      <mi>SA</mi>
+      <mo>=</mo>
+      <mi>&amp;nbsp;</mi>
+      <mrow>
+        <msubsup>
+          <mo stretchy="false">&#x222B;</mo>
+          <mrow>
+            <mi>x</mi>
+            <mo>&amp;lt;</mo>
+            <mi>B</mi>
+            <mi>É</mi>
+            <mi>A</mi>
+            <mi>M</mi>
+          </mrow>
+          <mrow>
+            <mi>&amp;nbsp;</mi>
+          </mrow>
+        </msubsup>
+        <mrow>
+          <mi>f</mi>
+          <mfenced separators="|">
+            <mrow>
+              <mi>x</mi>
+              <mo>|</mo>
+              <mi>&#x3B8;</mi>
+            </mrow>
+          </mfenced>
+          <mi>d</mi>
+          <mi>x</mi>
+        </mrow>
+      </mrow>
+    </math> </p>
+  <p>où &#x3B8; est un vecteur de paramètres qui caractérise la fonction de densité
+  de probabilité. La distribution est supposée lognormale, et donc entièrement caractérisée
+  par seulement deux paramètres: la consommation moyenne d’énergie alimentaire (CÉA)
+  et son coefficient de variation (CV). </p>
 
-  <p>où CEA et CV sont la moyenne et le coefficient de variation qui caractérisent
-  la distribution des niveaux de consommation énergétique alimentaire habituelle dans
-  la population. </p>
-
-  <p>Une fonction R est disponible auprès de la Division des statistiques de la FAO
-  pour calculer la prévalence de la sous-alimentation, compte tenu des trois paramètres
-  CEA, CV et MDER.</p>
+  <p>Une fonction R personnalisée est disponible auprès de la Division de la statistique
+  de la FAO pour calculer le PoSA, compte tenu des trois paramètres CÉA, CV et BÉAM.
+  </p>
 
   <p>Différentes sources de données peuvent être utilisées pour estimer les différents
   paramètres du modèle. </p>
 
-  <p>CEA</p>
+  <p><u>CÉA</u></p>
 
-  <p>La moyenne de la distribution des niveaux de consommation énergétique alimentaire
-  (CEA) pour l'individu moyen d'une population correspond, par définition, au niveau
-  moyen de consommation alimentaire quotidien par habitant dans la population.</p>
-
-  <p>La CEA peut être estimée à partir de données sur la consommation alimentaire
-  obtenues par des enquêtes représentatives de la population concernée. Selon la conception
-  de l'enquête, elles peuvent être utilisées pour estimer la CEA au niveau national
-  et sous-national, soit par zones géographiques, soit par groupes socio-économiques
-  de la population. Malheureusement, bien que la situation s'améliore rapidement,
-  les enquêtes représentatives qui recueillent des données sur la consommation alimentaire
-  ne sont toujours pas disponibles pour chaque pays et chaque année.</p>
-
-  <p>Pour la population nationale uniquement, la CEA peut également être estimée à
-  partir des comptes de l'offre totale et de l'utilisation de tous les produits alimentaires
-  dans un pays, où la contribution de chaque produit à la disponibilité des aliments
-  pour la consommation humaine est exprimée en fonction de son contenu énergétique
-  alimentaire. Le total est divisé par la taille de la population afin d’obtenir une
-  moyenne par habitant. La principale source de données pour les bilans alimentaires
-  nationaux est la « Food Balance Sheets (FBS) », compilée par la FAO pour la plupart
-  des pays du monde (voir https://www.fao.org/food-agriculture-statistics/statistical-domains/crop-livestock-and-food/methodology/fr/),
-  alimentée par les données officielles communiquées par les pays membres et diffusée
-  par FAOSTAT (http://www.fao.org/faostat/fr/#data) </p>
-
-  <p>CV</p>
-
-  <p>Les enquêtes contenant des informations sur la consommation alimentaire au niveau
-  des individus ou des ménages constituent la seule source disponible pour estimer
-  directement le CV de la consommation alimentaire habituelle de l'individu représentatif
-  dans la population. Malheureusement, les données d'enquête sur la consommation alimentaire
-  se heurtent à de nombreux problèmes qui compliquent une estimation fiable du CV.</p>
-
-  <p>En principe, des observations répétées de la consommation quotidienne de chaque
-  individu d'un échantillon seraient nécessaires pour estimer les niveaux de consommation
-  habituelle et pour contrôler les erreurs de mesure. De plus, les données devraient
-  être recueillies à différentes périodes de l'année pour les mêmes individus ou ménages
-  afin de tenir compte d'éventuelles variations saisonnières des niveaux de consommation
-  énergétique alimentaire. En raison de leur coût, les enquêtes individuelles représentatives
-  au niveau national sur la consommation alimentaire présentant de telles caractéristiques
-  sont très rares, et pratiquement inexistantes pour la plupart des pays en développement.
-  Par conséquent, les sources de données les plus courantes pour estimer le CV sont
-  les enquêtes polyvalentes auprès des ménages, telles que les enquêtes de mesure
-  du niveau de vie, les enquêtes sur les revenus et les dépenses des ménages (ou enquête
-  sur les budgets des ménages), qui recueillent également des informations sur la
-  consommation alimentaire. Toutefois, lors de l'utilisation des données recueillies
-  au niveau des ménages, il convient de veiller à distinguer les niveaux d'achat ou
-  d'acquisition de denrées alimentaires des niveaux d'utilisation réelle (consommation
-  et gaspillage) au cours de la période de référence identifiée et à enregistrer correctement
-  le nombre de personnes participant à la consommation. Enfin, les données au niveau
-  des ménages masquent la variabilité due à la répartition des denrées alimentaires
-  au sein des ménages.</p>
-
-  <p>Pour toutes ces raisons, le CV calculé sur la série des niveaux moyens de consommation
-  énergétique alimentaire quotidienne par habitant enregistrés pour chaque ménage
-  inclus dans une enquête n'est jamais une estimation fiable du CV, qui devrait refléter
-  la variabilité des niveaux de consommation énergétique alimentaire quotidienne habituelle
-  (et non occasionnelle), au niveau de l'individu (et non du ménage). Les estimations
-  empiriques du CV à partir des données des enquêtes sur les ménages sont biaisées
-  à la hausse en raison d'une fausse variabilité introduite par l'erreur de mesure,
-  des différences entre la consommation occasionnelle et habituelle, des différences
-  entre l'acquisition et la consommation réelle et de la saisonnalité. De plus, elles
-  ne reflètent pas la variabilité de la consommation énergétique alimentaire dans
-  la population associée aux caractéristiques individuelles des membres du ménage
-  (telles que le sexe, l'âge, la masse corporelle et le niveau d'activité physique).</p>
-
-  <p>Lorsque l'on utilise des données recueillies dans le cadre d'enquêtes auprès
-  des ménages, la meilleure estimation du CV est donc indirecte, en tenant compte
-  de la variabilité erronée, et ajustée pour refléter la variabilité interindividuelle
-  (en plus de la variabilité inter-ménages). La façon la plus simple de procéder consiste
-  à classer les ménages en groupes homogènes et à calculer le coefficient de variation
-  de la consommation moyenne d'énergétique alimentaire moyenne par habitant dans les
-  différents groupes de ménages. On obtient ainsi une estimation de la composante
-  inter-ménages du CV, appelée CV_H. Une estimation de la composante interindividuelle
-  du CV, appelée CV_I, est obtenue, pour chaque population, à partir de sa structure
-  par sexe, âge et masse corporelle, et les deux composantes sont combinées pour obtenir
-  l'estimation nécessaire :</p>
-
-  <p>CV^ = v[(CV_H)^2+(CV_I)^2 )]. </p>
-
-  <p>Pour les pays et les années où aucune donnée provenant de l'enquête auprès des
-  ménages n'est disponible, une estimation indirecte du CV, CV_IND, est obtenue par
-  une régression projetant les valeurs du PIB par habitant, du coefficient Gini du
-  revenu et d'un indice du prix relatif des denrées alimentaires (FPI) sur le CV,
-  tout en tenant compte d'un changement de région (REG).</p>
-
-  <p>CV^_IND=&#xDF;_0+&#xDF;_1 PIB+ &#xDF;_2 GINI+ &#xDF;_3 FPI+&#xDF;_4 REG. </p>
-
-  <p>Les coefficients de la régression sont estimés à partir de l'ensemble des données
-  et des années pour lesquelles des données sur le CV, le PIB, le coefficient GINI
-  et le FPI sont disponibles.</p>
-
-  <p>MDER</p>
-
-  <p>Les besoins énergétiques humains sont calculés en multipliant les exigences normatives
-  du taux métabolique de base (BMR, exprimé par kg de masse corporelle) par le poids
-  idéal d'une personne en bonne santé de taille donnée, puis en le multipliant par
-  un coefficient de niveau d'activité physique (PAL). Des fourchettes de besoins énergétiques
-  normaux sont ainsi calculées pour chaque sexe et chaque groupe d'âge de la population,
-  en retenant qu'il existe toute une gamme de valeurs de l'indice de masse corporelle
-  (IMC) – allant de 18,5 à 25 – qui sont compatibles avec la santé. Cela implique
-  que toute taille atteinte peut correspondre à toute une gamme de poids corporels
-  sains, et donc à une gamme de valeurs de besoins énergétiques.</p>
-
-  <p>Compte tenu des informations sur la taille médiane et du fait que le groupe peut
-  comprendre des individus pratiquant différents niveaux d'activité physique, les
-  besoins énergétiques alimentaires minimums, moyens et maximums peuvent être calculés
-  pour chaque sexe et chaque classe d'âge en tenant compte des allocations spéciales
-  pour la croissance des individus âgés de 0 à 21 ans, ainsi que pour la grossesse
-  et l'allaitement. </p>
-
-  <p>(Pour plus de détails, il est possible de consulter ftp://ftp.fao.org/docrep/fao/007/y5686e/y5686e00.pdf).
+  <p>Idéalement, les données sur la consommation alimentaire devraient provenir d’enquêtes
+  représentatives au niveau national auprès des ménages (telles que les enquêtes sur
+  la mesure du niveau de vie ou les enquêtes sur les revenus et les dépenses des ménages).
+  Cependant, très peu de pays mènent de telles enquêtes sur une base annuelle. Ainsi,
+  dans les estimations des PoSA de la FAO pour le suivi mondial, les valeurs des CÉA
+  sont estimées à partir de l’approvisionnement énergétique alimentaire (AÉA) déclaré
+  dans les bilans alimentaires, compilés par la FAO pour la plupart des pays du monde
+  (<a href="https://www.fao.org/faostat/fr/#data/FBS">https://www.fao.org/faostat/fr/#data/FBS</a>).
   </p>
 
-  <p>Le MDER pour un groupe de population donné, y compris pour la population nationale,
-  est obtenu comme la moyenne pondérée des minimums des fourchettes de besoins énergétiques
-  de chaque sexe et de chaque classe d'âge, en utilisant la taille de la population
-  dans chaque classe comme pondération. </p>
+  <p><u>CV</u></p>
 
-  <p>Lors du calcul de la prévalence de l'insuffisance énergétique alimentaire dans
-  une population, il y a souvent eu confusion entre le concept de MDER et celui d'apport
-  énergétique alimentaire recommandé, et concernant le seuil approprié à utiliser
-  pour calculer la probabilité d'insuffisance. La raison pour laquelle la probabilité
-  d'un apport énergétique insuffisant doit être calculée par rapport à la MDER, et
-  non à l'apport énergétique alimentaire recommandé (qui, au contraire, peut être
-  utilisé comme une estimation de l'apport alimentaire moyen recommandé pour l'ensemble
-  de la population) est simplement de reconnaître le fait que dans toute population,
-  il existe une certaine plage de variabilité normale des besoins. Ainsi, utiliser
-  l'apport énergétique alimentaire recommandé comme seuil reviendrait à surestimer
-  considérablement la sous-alimentation, car cela permettrait également de compter
-  la proportion de la population en bonne santé qui consomme moins que la moyenne,
-  simplement parce qu'elle a des besoins inférieurs à la moyenne. Néanmoins, en cas
-  de besoin, l'apport énergétique alimentaire recommandé, ou le niveau moyen d'apport
-  énergétique alimentaire recommandé dans une population, peut être utilisé pour calculer
-  l'écart énergétique alimentaire.</p>
+  <p>Lorsque des données fiables sur la consommation alimentaire sont disponibles
+  à partir des enquêtes nationales représentatives auprès des ménages susmentionnées,
+  le CV dû au revenu (CV|y) qui décrit la distribution des besoins énergétiques quotidiens
+  moyens dans la population peut être estimé directement. </p>
+
+  <p>Lorsqu’aucune donnée d’enquête appropriée n’est disponible, les données de l’Échelle
+  de sécurité alimentaire fondée sur l'expérience (FIES) recueillies par la FAO depuis
+  2014 sont utilisées pour projeter les changements dans le CV|y de 2015 (ou de l’année
+  de la dernière enquête sur la consommation alimentaire) jusqu’en 2019, sur la base
+  d’une tendance lissée (moyenne mobile sur trois ans) de l’insécurité alimentaire
+  grave. </p>
+
+  <p>Depuis 2014, les données de l’Échelle de sécurité alimentaire fondée sur l'expérience
+  (FIES) fournissent des preuves sur les changements récents dans l’étendue de l’insécurité
+  alimentaire grave qui pourraient refléter étroitement les changements dans la PoSA.
+  Dans la mesure où ces changements dans la PoSA ne s’expliquent pas par des changements
+  dans les approvisionnements alimentaires moyens, ils peuvent donc être utilisés
+  pour déduire les changements probables dans le CV|y qui auraient pu se produire
+  au cours de l’année la plus récente. L’analyse de l’ensemble combiné d’estimations
+  historiques des PoSA révèle qu’en moyenne, et une fois que les différences de CÉA
+  et de BÉAM ont été contrôlées, le CV|y explique environ un tiers des différences
+  de PoSA dans le temps et dans l’espace. Pour chaque pays pour lequel des données
+  FIES sont disponibles, le CV|y est estimé par le montant qui générerait une variation
+  d’un tiers de point de pourcentage de la PoSA pour chaque variation observée en
+  points de pourcentage de la prévalence de l’insécurité alimentaire grave. Pour tous
+  les autres pays, le CV|y est maintenu constant à la valeur estimée de 2017. </p>
+
+  <p>Dans l’approche paramétrique de la PoSA de la FAO, le CV dû au poids corporel
+  et au mode de vie, alias CV dû aux exigences (CV|r), représente la variabilité de
+  la distribution des besoins énergétiques alimentaires d’un individu moyen hypothétique
+  représentatif d’une population en bonne santé, qui est également égale au CV de
+  la distribution des apports énergétiques alimentaires d’un individu moyen hypothétique
+  si la population est parfaitement nourrie. La distribution des besoins énergétiques
+  alimentaires d’un individu moyen hypothétique peut être supposée normale, de sorte
+  que sa variabilité peut être estimée si au moins deux percentiles et leurs valeurs
+  sont connus. Par conséquent, étant donné que nous nous intéressons à la dérivation
+  de la distribution théorique des besoins énergétiques alimentaires pour les individus
+  moyens hypothétiques en bonne santé afin d’estimer le CV|r, les BÉAM et les besoins
+  énergétiques alimentaires moyens (BÉAMo) peuvent être utilisés pour approximer le
+  1er centile et le 50e percentile de la distribution de la répartition des besoins
+  énergétiques de l'individu moyen hypothétique car ils sont construits sur les mêmes
+  principes d'une moyenne pondérée des groupes sexe-âge-état physiologique. Par conséquent,
+  la valeur de CV|r est dérivée comme la distribution normale standard cumulative
+  inverse de la différence entre les BÉAM et les BÉAMo. Similaires aux BÉAM, les BÉAMo
+  sont estimés à partir de la moyenne des valeurs minimales et maximales de la catégorie
+  de niveau d'activité physique (NAP) « Mode de vie actif ou modérément actif ».</p>
+
+  <p>Le CV total est alors obtenu comme la moyenne géométrique du CV|y et du CV|r
+  :</p>
+
+  <p><math xmlns="http://www.w3.org/1998/Math/MathML">
+      <mi>C</mi>
+      <mi>V</mi>
+      <mo>=</mo>
+      <msqrt>
+        <mfenced separators="|">
+          <mrow>
+            <msup>
+              <mrow>
+                <mi>C</mi>
+                <mi>V</mi>
+                <mo>|</mo>
+                <mi>y</mi>
+              </mrow>
+              <mrow>
+                <mn>2</mn>
+              </mrow>
+            </msup>
+          </mrow>
+        </mfenced>
+        <mo>+</mo>
+        <mfenced separators="|">
+          <mrow>
+            <msup>
+              <mrow>
+                <mi>C</mi>
+                <mi>V</mi>
+                <mo>|</mo>
+                <mi>r</mi>
+              </mrow>
+              <mrow>
+                <mn>2</mn>
+              </mrow>
+            </msup>
+          </mrow>
+        </mfenced>
+      </msqrt>
+    </math></p>
+  <p><strong>Défis et limites :</strong> Alors que formellement l'état de sous-alimentation
+  ou non est une condition qui s'applique aux individus, compte tenu des données généralement
+  disponibles à grande échelle, il est impossible d'identifier de manière fiable quels
+  individus d'un certain groupe sont réellement sous-alimentés. Grâce au modèle statistique
+  décrit ci-dessus, l'indicateur ne peut être calculé qu'en référence à une population
+  ou à un groupe d'individus pour lesquels un échantillon représentatif est disponible.
+  La prévalence de la sous-alimentation est donc une estimation du pourcentage d'individus
+  de ce groupe qui sont dans un tel état et ne peut pas être ventilée davantage.</p>
+
+  <p>En raison de la nature probabiliste de l'inférence et des marges d'incertitude
+  associées aux estimations de chacun des paramètres du modèle, la précision des estimations
+  de la PoSA est généralement faible. Bien qu'il ne soit pas possible de calculer
+  formellement les marges d'erreur autour des estimations de la PoSA, celles-ci devraient
+  probablement dépasser 5 % dans la plupart des cas. Pour cette raison, la FAO ne
+  considère pas que les estimations de la PoSA dont le résultat est inférieur à 2,5
+  pour cent sont suffisamment fiables pour être déclarées.</p>
+
+  <p><u>BÉAM</u></p>
+
+  <p>Les besoins énergétiques humains d'un individu d'une classe de sexe/d'âge donnée
+  sont déterminés sur la base des besoins normatifs du taux métabolique de base (TMB)
+  par kilogramme de masse corporelle, multipliés par les poids idéaux qu'une personne
+  en bonne santé de cette classe de sexe/d'âge peut atteindre, compte tenu de sa taille,
+  puis multipliés par un coefficient de niveau d'activité physique (NAP) pour tenir
+  compte de l'activité physique. Étant donné que les IMC sains et NAP varient entre
+  les individus actifs et en bonne santé du même sexe et du même âge, un <em>intervalle</em>
+  de besoins énergétiques s'applique à chaque sexe et groupe d'âge de la population.
+  Les BÉAM pour l'individu moyen dans la population, qui est le paramètre utilisé
+  dans la formule PoSA, est obtenu comme la moyenne pondérée des limites inférieures
+  des intervalles de besoins énergétiques pour chaque sexe et groupe d'âge, en utilisant
+  les parts de la population dans chaque le sexe et le groupe d'âge comme poids.</p>
+
+  <p>Des informations sur la structure de la population par sexe et par âge sont disponibles
+  pour la plupart des pays du monde et pour chaque année dans les Perspectives démographiques
+  du Département des affaires économiques et sociales des Nations Unies (DAES), révisées
+  tous les deux ans.</p>
+
+  <p>Les informations sur la taille médiane de chaque sexe et groupe d'âge pour un
+  pays donné proviennent d'une enquête démographique et de santé (EDS) récente ou
+  d'autres enquêtes qui recueillent des données anthropométriques sur les enfants
+  et les adultes. Même si ces enquêtes ne se réfèrent pas à la même année pour laquelle
+  la PoSA est estimée, l'impact d'éventuels petits changements intermédiaires des
+  hauteurs médianes au fil des ans sur les estimations de la PoSA devrait être négligeable.</p>
 IMPUTATION: >-
   <p><strong>• Au niveau national :</strong></p>
 
@@ -470,17 +517,83 @@ IMPUTATION: >-
   égales à la moyenne pondérée de la population des valeurs estimées des pays présents
   dans la même région. </p>
 REG_AGG: >-
-  <p>Les agrégats régionaux et mondiaux de la prévalence de la sous-alimentation (PoU)
+  <p>Les agrégats régionaux et mondiaux de la prévalence de la sous-alimentation (PoSA)
   sont calculés comme suit :</p>
 
-  <p>PoU_REG = (_i PoU_i &#xD7; N_i) / (_i N_i) </p>
-
-  <p>où PoU_i correspond aux valeurs de la prévalence de la sous-alimentation estimées
-  pour tous les pays dans les régions pour lesquelles les données disponibles permettent
-  de calculer une estimation fiable, et N_i correspond à la taille de la population
-  correspondante.</p>
-
-  <p> </p>
+  <p><math xmlns="http://www.w3.org/1998/Math/MathML">
+      <msub>
+        <mrow>
+          <mi>P</mi>
+          <mi>o</mi>
+          <mi>SA</mi>
+        </mrow>
+        <mrow>
+          <mi>R</mi>
+          <mi>E</mi>
+          <mi>G</mi>
+        </mrow>
+      </msub>
+      <mo>=</mo>
+      <mfrac>
+        <mrow>
+          <mrow>
+            <munder>
+              <mo stretchy="false">&#x2211;</mo>
+              <mrow>
+                <mi>i</mi>
+              </mrow>
+            </munder>
+            <mrow>
+              <msub>
+                <mrow>
+                  <mi>P</mi>
+                  <mi>o</mi>
+                  <mi>SA</mi>
+                </mrow>
+                <mrow>
+                  <mi>i</mi>
+                </mrow>
+              </msub>
+              <mi>&amp;nbsp;</mi>
+              <mo>&#xD7;</mo>
+              <mi>&amp;nbsp;</mi>
+              <msub>
+                <mrow>
+                  <mi>N</mi>
+                </mrow>
+                <mrow>
+                  <mi>i</mi>
+                </mrow>
+              </msub>
+            </mrow>
+          </mrow>
+        </mrow>
+        <mrow>
+          <mrow>
+            <munder>
+              <mo stretchy="false">&#x2211;</mo>
+              <mrow>
+                <mi>i</mi>
+              </mrow>
+            </munder>
+            <mrow>
+              <msub>
+                <mrow>
+                  <mi>N</mi>
+                </mrow>
+                <mrow>
+                  <mi>i</mi>
+                </mrow>
+              </msub>
+            </mrow>
+          </mrow>
+        </mrow>
+      </mfrac>
+    </math></p>
+  <p>où PoSA<sub>i</sub> correspond aux valeurs de la prévalence de la sous-alimentation
+  estimées pour tous les pays (i) dans les régions pour lesquelles les données disponibles
+  permettent de calculer une estimation fiable, et N<sub>i</sub> correspond à la taille
+  de la population correspondante.</p>
 DOC_METHOD: >-
   <p>Les trois principales sources de données au niveau national sont : </p>
 
@@ -533,16 +646,18 @@ DOC_METHOD: >-
   portrait de la situation de l'offre agricole au niveau national et une structure
   de références croisées par laquelle les données, officielles ou estimées/imputées,
   peuvent être davantage analysées et validées (par exemple, le nombre d'animaux peut
-  être sous-déclaré/estimé). Le principal résultat de la compilation du bilan alimentaire
-  est le calcul de l'offre énergétique alimentaire (OEA) en kilocalories par personne
-  (sur la base des chiffres de la population) au cours d'une année donnée (les quantités
-  résultant de la disponibilité pour la consommation humaine sont converties en leurs
-  équivalents caloriques en utilisant facteurs de conversion nutritifs appropriés
-  par produit). En l'absence de données directes sur la consommation provenant des
-  enquêtes auprès des ménages, la OEA constitue l'un des éléments clés du calcul de
-  la prévalence de la sous-alimentation. La FAO travaille actuellement à la mise en
-  place d'un programme plus ciblé visant à fournir de l’appui aux pays pour l’établissement
-  de bilans alimentaires, comprenant un outil de compilation mis à jour.</p>
+  être sous-déclaré/estimé).</p>
+
+  <p>Le principal résultat de la compilation du bilan alimentaire est le calcul de
+  l'offre énergétique alimentaire (OEA) en kilocalories par personne (sur la base
+  des chiffres de la population) au cours d'une année donnée (les quantités résultant
+  de la disponibilité pour la consommation humaine sont converties en leurs équivalents
+  caloriques en utilisant facteurs de conversion nutritifs appropriés par produit).
+  En l'absence de données directes sur la consommation provenant des enquêtes auprès
+  des ménages, la OEA constitue l'un des éléments clés du calcul de la prévalence
+  de la sous-alimentation. La FAO travaille actuellement à la mise en place d'un programme
+  plus ciblé visant à fournir de l’appui aux pays pour l’établissement de bilans alimentaires,
+  comprenant un outil de compilation mis à jour.</p>
 
   <p>La FAO obtient des données sur la production primaire/transformée des cultures/du
   bétail, et leur utilisation principale, par le biais de questionnaires adaptés qui
@@ -585,65 +700,7 @@ COVERAGE: >-
   <p><strong>Disponibilité des données :</strong></p>
 
   <p>Depuis 2017, la FAO a publié des estimations distinctes de la prévalence de la
-  sous-alimentation pour 170 pays, réparties comme suit : </p>
-
-  <p>Monde 170 </p>
-
-  <p>Afrique 37 </p>
-
-  <p>Afrique du Nord 5 </p>
-
-  <p>Afrique subsaharienne 32 </p>
-
-  <p>Afrique de l'Est 8 </p>
-
-  <p>Afrique centrale 6 </p>
-
-  <p>Afrique australe 5 </p>
-
-  <p>Afrique de l'Ouest 13 </p>
-
-  <p>Asie 38 </p>
-
-  <p>Asie centrale 4 </p>
-
-  <p>Asie orientale 5 </p>
-
-  <p>Asie du Sud 7 </p>
-
-  <p>Asie du Sud-Est 9 </p>
-
-  <p>Asie occidentale 13 </p>
-
-  <p>Amérique latine et Caraïbes 28 </p>
-
-  <p>Caraïbes 8 </p>
-
-  <p>Amérique latine 20 </p>
-
-  <p>Amérique centrale 8 </p>
-
-  <p>Amérique du Sud 12 </p>
-
-  <p>Océanie 9 </p>
-
-  <p>Australie et Nouvelle-Zélande 2 </p>
-
-  <p>Océanie à l'exclusion de l'Australie et de la Nouvelle-Zélande 7 </p>
-
-  <p>Amérique du Nord et Europe 42 </p>
-
-  <p>Amérique du Nord 2 </p>
-
-  <p>Europe 38 </p>
-
-  <p>Europe de l'Est 9 </p>
-
-  <p>Europe du Nord 10 </p>
-
-  <p>Europe du Sud 12 </p>
-
-  <p>Europe occidentale 7 </p>
+  sous-alimentation pour 160 pays.</p>
 
   <p>Alors que les estimations au niveau des pays sont présentées sous forme de moyennes
   sur trois ans, les estimations régionales et mondiales sont des estimations annuelles.
@@ -690,12 +747,12 @@ COMPARABILITY: >-
   <p>L'approche la plus couramment utilisée dans la préparation des rapports nationaux
   a été de calculer le pourcentage de ménages pour lesquels la consommation énergétique
   alimentaire quotidienne moyenne par habitant est inférieure aux seuils de l'apport
-  alimentaire quotidien recommandé, généralement fixé à 2 100,00 kcal, basé sur les
-  données d'enquêtes auprès des ménages. Dans certains cas, des seuils inférieurs
-  d'environ 1 400,00 kcal ont également été utilisés, probablement en réaction au
-  fait que les pourcentages de ménages déclarant une consommation quotidienne moyenne
-  inférieure à 2 100,00 kcal par habitant donnaient des estimations invraisemblablement
-  élevées de la prévalence de la sous-alimentation. </p>
+  alimentaire quotidien recommandé, généralement fixé à 2 100 kcal, basé sur les données
+  d'enquêtes auprès des ménages. Dans certains cas, des seuils inférieurs d'environ
+  1 400 kcal ont également été utilisés, probablement en réaction au fait que les
+  pourcentages de ménages déclarant une consommation quotidienne moyenne inférieure
+  à 2 100 kcal par habitant donnaient des estimations invraisemblablement élevées
+  de la prévalence de la sous-alimentation. </p>
 
   <p>Presque sans exception, aucune considération liée à la présence d'une variabilité
   excessive dans les données de consommation énergétique alimentaire n'est faite,
@@ -710,17 +767,18 @@ COMPARABILITY: >-
 OTHER_DOC: >-
   <p><strong>URL :</strong></p>
 
-  <p>https://www.fao.org/food-agriculture-statistics/fr/ </p>
+  <p><a href="https://www.fao.org/food-agriculture-statistics/statistical-domains/food-security-and-nutrition/fr/">https://www.fao.org/food-agriculture-statistics/statistical-domains/food-security-and-nutrition/fr/</a>
+  </p>
 
   <p><strong>Références (en anglais) :</strong></p>
 
-  <p>http://www.fao.org/docrep/012/w0931e/w0931e16.pdf </p>
+  <p><a href="http://www.fao.org/docrep/012/w0931e/w0931e16.pdf">http://www.fao.org/docrep/012/w0931e/w0931e16.pdf</a></p>
 
-  <p>http://www.fao.org/docrep/005/Y4249E/y4249e06.htm#bm06 </p>
+  <p><a href="http://www.fao.org/docrep/005/Y4249E/y4249e06.htm#bm06">http://www.fao.org/docrep/005/Y4249E/y4249e06.htm#bm06</a></p>
 
-  <p>http://www.fao.org/3/a-i4060e.pdf </p>
+  <p><a href="http://www.fao.org/3/a-i4060e.pdf">http://www.fao.org/3/a-i4060e.pdf</a></p>
 
-  <p>http://www.fao.org/3/a-i4046e.pdf </p>
+  <p><a href="http://www.fao.org/3/a-i4046e.pdf">http://www.fao.org/3/a-i4046e.pdf</a></p>
 QUALITY_MGMNT: <p>La Division de la statistique de la FAO (ESS) effectue une analyse
   des tendances de l’indicateur récemment mis à jour avec d’autres indicateurs pertinents.
   Entre-temps, les estimations préliminaires de chaque cycle de mise à jour sont distribuées
@@ -740,13 +798,14 @@ CLASS_SYSTEM: <p>L’élaboration des estimations régionales et mondiales, ains
   la norme M49 des Nations Unies.</p>
 CONTACT_ORGANISATION: <p>Organisation des Nations Unies pour l'alimentation et l'agriculture
   (FAO)</p>
-UNIT_MEASURE: <p>L'unité de la prévalence de la sous-alimentation est en pourcentage
-  de la population totale. Un indicateur connexe, le nombre de personnes sous-alimentées,
-  est mesuré en millions de personnes. </p>
+UNIT_MEASURE: "<p>Prévalence de la sous-alimentation : Pourcentage (%)</p>\n<p>Nombre\
+  \ de personnes sous-alimentées : Millions (de personnes) </p>"
 DATA_VALIDATION: <p>Il n'y a pas de consultations formelles avec les pays. La validation
   des données est interne à la FAO. Cet indicateur existe depuis 1999. La FAO l'a
   produit pour informer la cible du Sommet mondial de l'alimentation et la cible 1.C
   des OMD sans consultation des pays. Sur demande, la FAO a fourni aux pays des détails
   sur les données utilisées dans leur cas spécifique. </p>
-ADJUSTMENT: <p>Aucun.</p>
+ADJUSTMENT: <p>Aucun</p>
 QUALITY_ASSMNT: <p>Élevée</p>
+SDG_SERIES_DESCR: "<p>Série primaire : Prévalence de la sous-alimentation</p>\n<p>Série\
+  \ complémentaire : Nombre de personnes sous-alimentées</p>"
