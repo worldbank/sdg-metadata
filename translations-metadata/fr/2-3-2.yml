@@ -118,65 +118,51 @@ RATIONALE: "<p>Le Programme de développement durable à l’horizon 2030 a soul
   \ des répercussions sur la réduction de la pauvreté, car les petits producteurs\
   \ alimentaires sont souvent pauvres et se trouvent souvent proches des conditions\
   \ de subsistance.</p>"
-COVERAGE: "<p><strong>Disponibilité des données :</strong></p>\n<p>Les données ne\
-  \ sont toujours pas disponibles de manière systématique et harmonisée. Les informations\
+COVERAGE: "<p><strong>Disponibilité des données :</strong></p>\n<p>Les informations\
   \ suivantes sur la disponibilité des données sont fournies sur la base de la disponibilité\
   \ d'enquêtes appropriées dans les pays sélectionnés.</p>\n<p>La répartition du nombre\
   \ de pays couverts par région est la suivante :</p>\n<table>\n  <tbody>\n    <tr>\n\
-  \      <td></td>\n      <td>\n        <p>Nombre de pays</p>\n      </td>\n     \
-  \ <td>\n        <p>Nature des données</p>\n      </td>\n    </tr>\n    <tr>\n  \
-  \    <td>\n        <p>Monde</p>\n      </td>\n      <td>\n        <p>36</p>\n  \
-  \    </td>\n      <td>\n        <p>E</p>\n      </td>\n    </tr>\n    <tr>\n   \
-  \   <td>\n        <p>Afrique</p>\n      </td>\n      <td>\n        <p>15</p>\n \
-  \     </td>\n      <td>\n        <p>E</p>\n      </td>\n    </tr>\n    <tr>\n  \
-  \    <td>\n        <p>Afrique du Nord</p>\n      </td>\n      <td></td>\n      <td></td>\n\
-  \    </tr>\n    <tr>\n      <td>\n        <p>Afrique subsaharienne</p>\n      </td>\n\
-  \      <td></td>\n      <td></td>\n    </tr>\n    <tr>\n      <td>\n        <p>Afrique\
-  \ de l'Est</p>\n      </td>\n      <td>\n        <p>5</p>\n      </td>\n      <td>\n\
-  \        <p>E</p>\n      </td>\n    </tr>\n    <tr>\n      <td>\n        <p>Afrique\
-  \ centrale</p>\n      </td>\n      <td>\n        <p>1</p>\n      </td>\n      <td>\n\
-  \        <p>E</p>\n      </td>\n    </tr>\n    <tr>\n      <td>\n        <p>Afrique\
-  \ australe</p>\n      </td>\n      <td>\n        <p>1</p>\n      </td>\n      <td>\n\
-  \        <p>E</p>\n      </td>\n    </tr>\n    <tr>\n      <td>\n        <p>Afrique\
-  \ de l'Ouest</p>\n      </td>\n      <td>\n        <p>8</p>\n      </td>\n     \
-  \ <td>\n        <p>E</p>\n      </td>\n    </tr>\n    <tr>\n      <td>\n       \
-  \ <p>Amériques</p>\n      </td>\n      <td>\n        <p>7</p>\n      </td>\n   \
-  \   <td>\n        <p>E</p>\n      </td>\n    </tr>\n    <tr>\n      <td>\n     \
-  \   <p>Amérique latine et Caraïbes</p>\n      </td>\n      <td></td>\n      <td></td>\n\
-  \    </tr>\n    <tr>\n      <td>\n        <p>Caraïbes</p>\n      </td>\n      <td></td>\n\
-  \      <td></td>\n    </tr>\n    <tr>\n      <td>\n        <p>Amérique latine</p>\n\
-  \      </td>\n      <td>\n        <p>3</p>\n      </td>\n      <td>\n        <p>E</p>\n\
-  \      </td>\n    </tr>\n    <tr>\n      <td>\n        <p>Amérique du Nord</p>\n\
-  \      </td>\n      <td>\n        <p>4</p>\n      </td>\n      <td>\n        <p>E</p>\n\
-  \      </td>\n    </tr>\n    <tr>\n      <td>\n        <p>Asie</p>\n      </td>\n\
-  \      <td>\n        <p>9</p>\n      </td>\n      <td>\n        <p>E</p>\n     \
-  \ </td>\n    </tr>\n    <tr>\n      <td>\n        <p>Asie centrale</p>\n      </td>\n\
-  \      <td>\n        <p>1</p>\n      </td>\n      <td>\n        <p>E</p>\n     \
-  \ </td>\n    </tr>\n    <tr>\n      <td>\n        <p>Asie de l'Est</p>\n      </td>\n\
-  \      <td>\n        <p>1</p>\n      </td>\n      <td>\n        <p>E</p>\n     \
-  \ </td>\n    </tr>\n    <tr>\n      <td>\n        <p>Asie du Sud</p>\n      </td>\n\
-  \      <td>\n        <p>4</p>\n      </td>\n      <td>\n        <p>E</p>\n     \
-  \ </td>\n    </tr>\n    <tr>\n      <td>\n        <p>Asie du Sud-Est</p>\n     \
-  \ </td>\n      <td>\n        <p>2</p>\n      </td>\n      <td>\n        <p>E</p>\n\
-  \      </td>\n    </tr>\n    <tr>\n      <td>\n        <p>Asie occidentale</p>\n\
-  \      </td>\n      <td>\n        <p>1</p>\n      </td>\n      <td>\n        <p>E</p>\n\
-  \      </td>\n    </tr>\n    <tr>\n      <td>\n        <p>Europe</p>\n      </td>\n\
-  \      <td>\n        <p>5</p>\n      </td>\n      <td>\n        <p>E</p>\n     \
-  \ </td>\n    </tr>\n    <tr>\n      <td>\n        <p>Europe de l'Est</p>\n     \
-  \ </td>\n      <td>\n        <p>5</p>\n      </td>\n      <td>\n        <p>E</p>\n\
-  \      </td>\n    </tr>\n    <tr>\n      <td>\n        <p>Europe du Nord</p>\n \
-  \     </td>\n      <td></td>\n      <td></td>\n    </tr>\n    <tr>\n      <td>\n\
-  \        <p>Europe du Sud</p>\n      </td>\n      <td></td>\n      <td></td>\n \
-  \   </tr>\n    <tr>\n      <td>\n        <p>Europe occidentale</p>\n      </td>\n\
-  \      <td></td>\n      <td></td>\n    </tr>\n    <tr>\n      <td>\n        <p>Océanie</p>\n\
-  \      </td>\n      <td></td>\n      <td></td>\n    </tr>\n    <tr>\n      <td>\n\
-  \        <p>Australie et Nouvelle-Zélande</p>\n      </td>\n      <td></td>\n  \
-  \    <td></td>\n    </tr>\n    <tr>\n      <td>\n        <p>Mélanésie</p>\n    \
-  \  </td>\n      <td></td>\n      <td></td>\n    </tr>\n    <tr>\n      <td>\n  \
-  \      <p>Micronésie</p>\n      </td>\n      <td></td>\n      <td></td>\n    </tr>\n\
-  \    <tr>\n      <td>\n        <p>Polynésie</p>\n      </td>\n      <td></td>\n\
-  \      <td></td>\n    </tr>\n  </tbody>\n</table>\n<p><strong>Séries chronologiques\
-  \ :</strong></p>\n<p>D'ici 2030.</p>\n<p><strong>Désagrégation :</strong></p>\n\
+  \      <td></td>\n      <td>\n        <p>Nombre de pays</p>\n      </td>\n    </tr>\n\
+  \    <tr>\n      <td>\n        <p>Monde</p>\n      </td>\n      <td>\n        <p><strong>33</strong></p>\n\
+  \      </td>\n    </tr>\n    <tr>\n      <td>\n        <p>Afrique</p>\n      </td>\n\
+  \      <td>\n        <p><strong>17</strong></p>\n      </td>\n    </tr>\n    <tr>\n\
+  \      <td>\n        <p>Afrique du Nord</p>\n      </td>\n      <td></td>\n    </tr>\n\
+  \    <tr>\n      <td>\n        <p>Afrique subsaharienne</p>\n      </td>\n     \
+  \ <td></td>\n    </tr>\n    <tr>\n      <td>\n        <p>Afrique de l'Est</p>\n\
+  \      </td>\n      <td>\n        <p>5</p>\n      </td>\n    </tr>\n    <tr>\n \
+  \     <td>\n        <p>Afrique centrale</p>\n      </td>\n      <td>\n        <p>1</p>\n\
+  \      </td>\n    </tr>\n    <tr>\n      <td>\n        <p>Afrique australe</p>\n\
+  \      </td>\n      <td>\n        <p>1</p>\n      </td>\n    </tr>\n    <tr>\n \
+  \     <td>\n        <p>Afrique de l'Ouest</p>\n      </td>\n      <td>\n       \
+  \ <p>10</p>\n      </td>\n    </tr>\n    <tr>\n      <td>\n        <p>Amériques</p>\n\
+  \      </td>\n      <td>\n        <p><strong>5</strong></p>\n      </td>\n    </tr>\n\
+  \    <tr>\n      <td>\n        <p>Amérique latine et Caraïbes</p>\n      </td>\n\
+  \      <td></td>\n    </tr>\n    <tr>\n      <td>\n        <p>Caraïbes</p>\n   \
+  \   </td>\n      <td></td>\n    </tr>\n    <tr>\n      <td>\n        <p>Amérique\
+  \ latine</p>\n      </td>\n      <td>\n        <p>4</p>\n      </td>\n    </tr>\n\
+  \    <tr>\n      <td>\n        <p>Amérique du Nord</p>\n      </td>\n      <td>\n\
+  \        <p>1</p>\n      </td>\n    </tr>\n    <tr>\n      <td>\n        <p>Asie</p>\n\
+  \      </td>\n      <td>\n        <p><strong>12</strong></p>\n      </td>\n    </tr>\n\
+  \    <tr>\n      <td>\n        <p>Asie centrale</p>\n      </td>\n      <td>\n \
+  \       <p>3</p>\n      </td>\n    </tr>\n    <tr>\n      <td>\n        <p>Asie\
+  \ de l'Est</p>\n      </td>\n      <td>\n        <p>1</p>\n      </td>\n    </tr>\n\
+  \    <tr>\n      <td>\n        <p>Asie du Sud</p>\n      </td>\n      <td>\n   \
+  \     <p>1</p>\n      </td>\n    </tr>\n    <tr>\n      <td>\n        <p>Asie du\
+  \ Sud-Est</p>\n      </td>\n      <td>\n        <p>4</p>\n      </td>\n    </tr>\n\
+  \    <tr>\n      <td>\n        <p>Asie occidentale</p>\n      </td>\n      <td>\n\
+  \        <p>3</p>\n      </td>\n    </tr>\n    <tr>\n      <td>\n        <p>Europe</p>\n\
+  \      </td>\n      <td></td>\n    </tr>\n    <tr>\n      <td>\n        <p>Europe\
+  \ de l'Est</p>\n      </td>\n      <td></td>\n    </tr>\n    <tr>\n      <td>\n\
+  \        <p>Europe du Nord</p>\n      </td>\n      <td></td>\n    </tr>\n    <tr>\n\
+  \      <td>\n        <p>Europe du Sud</p>\n      </td>\n      <td></td>\n    </tr>\n\
+  \    <tr>\n      <td>\n        <p>Europe occidentale</p>\n      </td>\n      <td></td>\n\
+  \    </tr>\n    <tr>\n      <td>\n        <p>Océanie</p>\n      </td>\n      <td></td>\n\
+  \    </tr>\n    <tr>\n      <td>\n        <p>Australie et Nouvelle-Zélande</p>\n\
+  \      </td>\n      <td></td>\n    </tr>\n    <tr>\n      <td>\n        <p>Mélanésie</p>\n\
+  \      </td>\n      <td></td>\n    </tr>\n    <tr>\n      <td>\n        <p>Micronésie</p>\n\
+  \      </td>\n      <td></td>\n    </tr>\n    <tr>\n      <td>\n        <p>Polynésie</p>\n\
+  \      </td>\n      <td></td>\n    </tr>\n  </tbody>\n</table>\n<p><strong>Séries\
+  \ chronologiques :</strong></p>\n<p>D'ici 2030.</p>\n<p><strong>Désagrégation :</strong></p>\n\
   <p>L'indicateur 2.3.2 doit être désagrégé par classes de taille d'entreprise agricole/pastorale/forestière.\
   \ La cible globale de l'ODD 2.3 exige que l'on se concentre spécifiquement sur les\
   \ femmes, les peuples autochtones, les agriculteurs familiaux, les pasteurs et les\
@@ -221,7 +207,7 @@ STAT_CONC_DEF: "<p><strong>Définition :</strong></p>\n<p>L'indicateur 2.3.2 des
   \ des recettes les coûts d'exploitation et l'amortissement des actifs.</li>\n</ul>"
 QUALITY_ASSMNT: "<p>Une évaluation qualitative a été effectuée sur les estimations\
   \ finales de l’indicateur, qui ont été mises à jour cette année et comparée aux\
-  \ résultats de 2019. Les facteurs de conversion en PPA sont extraits de la Banque\
+  \ résultats précédents. Les facteurs de conversion en PPA sont extraits de la Banque\
   \ mondiale et sont constamment mis à jour, ce qui entraîne une modification des\
   \ facteurs de conversion et donc une légère modification des résultats de l’indicateur\
   \ 2.3.2. de 2019 à 2021. </p>\n<p>Certains pays ont des données qui doivent être\
@@ -236,61 +222,116 @@ ADJUSTMENT: <p>Le revenu moyen des petits producteurs alimentaires en USD 2011 P
   ce qui permet une norme homogène de l’indicateur. L’ODD 2.3 ne se concentre pas
   seulement sur les petits agriculteurs, mais aussi sur les femmes et les personnes
   ayant le statut d’autochtone. L’indicateur (qui se situe au niveau du ménage) est
-  ensuite calculé et ventilé par sexe, c’est-à-dire si le ménage est dirigé par une
-  femme ou par un homme. </p>
+  ensuite calculé et ventilé par sexe du chef de ménage ou du producteur (selon qu’une
+  enquête auprès du ménage ou une enquête agricole a été utilisée), c’est-à-dire si
+  le chef de ménage ou le producteur est une femme ou un homme. </p>
 DATA_COMP: "<p>Soit i activités agricoles, y compris les cultures, l’élevage, les\
   \ pêcheries et les activités forestières, et j [1,...,n] les petits producteurs\
   \ alimentaires définis comme un sous-ensemble de tous les producteurs alimentaires\
   \ N [1,...,k], l’indicateur 2.3.2 des ODD doit être calculé à l’aide de la formule\
-  \ suivante : </p>\n<p>ODD 2.3.2=I_2.3.2^t=(&#x2211;_(j=1)^n&#x2592;(&#x2211;_i&#x2592;&#x3016;&#x3016;(V&#x3017;_ij^t\
-  \ p_ij^t &#x3017;- C_ij^t ) )/n</p>\n<p>où :</p>\n<p> </p>\n<p>V_ij^t est le volume\
-  \ physique du produit agricole i vendu par le petit producteur alimentaire au cours\
-  \ de l’année t; </p>\n<p>p_ij^t est le prix de vente constant reçu par le petit\
-  \ producteur alimentaire j pour le produit agricole i au cours de l’année t; </p>\n\
-  <p>C_ij^t est le coût de production du produit agricole i soutenu par le petit producteur\
-  \ alimentaire j au cours de l’année t; </p>\n<p>n est le nombre de petits producteurs\
-  \ alimentaire.</p>\n<p>Dans le détail, les volumes physiques V_ik^t sont dérivés,\
-  \ pour chaque k producteur, des éléments suivants :</p>\n<p>Revenus des cultures :\
-  \ récolte vendue, culture pour l’autoconsommation, culture utilisée comme aliment,\
-  \ culture conservée pour les semences, culture stockée, culture utilisée pour les\
-  \ sous-produits, récolte donnée en cadeau, récolte utilisée pour payer la main-d’œuvre,\
-  \ culture utilisée pour payer le loyer, récolte utilisée pour payer les intrants,\
-  \ récolte donnée dans le cadre d’un accord de métayage, récolte gaspillée. Des critères\
-  \ similaires s’appliquent au calcul des recettes provenant des cultures arboricoles\
-  \ et des produits forestiers. </p>\n<p>Revenus du bétail : bétail vendu (vivant),\
-  \ cadeaux de bétail donnés (la composante ne peut être conservée que si on peut\
-  \ avoir la variation des stocks), sous-produits / produits du bétail vendus, produits\
-  \ animaux destinés à l’autoconsommation, sous-produits du bétail auto-utilisés (également\
-  \ un coût en culture, par exemple le fumier utilisé comme engrais), les sous-produits\
-  \ / produits du bétail payés, les sous-produits / produits du bétail crédités.</p>\n\
-  <p>Revenus forestiers : produits vendus, produits forestiers destinés à l’autoconsommation,\
-  \ produits forestiers stockés, produits forestiers utilisés pour payer la main-d’œuvre,\
-  \ produits forestiers utilisés pour payer les loyers, produits forestiers utilisés\
-  \ pour payer les intrants, produits forestiers cédés dans le cadre d’un accord de\
-  \ métayage, produits forestiers gaspillés. </p>\n<p>Revenus de la pêche : poisson\
-  \ frais capturé vendu, poisson transformé capturé vendu, poisson frais capturé destinés\
-  \ à l’autoconsommation, poisson transformé capturé destinés à l’autoconsommation,\
-  \ poisson frais échangé vendu, poisson transformé échangé vendu. </p>\n<p>Les coûts\
-  \ de production C_ij sont censés inclure les coûts d’exploitation. Ceux-ci comprennent\
-  \ tous les coûts variables (paiements en espèces et en nature des intrants agricoles\
-  \ tels que les engrais, les semences et la main-d’œuvre occasionnelle) et les coûts\
-  \ fixes (main-d’œuvre salariée, loyer des terres et coûts d’assistance technique).\
-  \ </p>\n<p>Plus en détail, les coûts C_ij^t comprennent généralement les éléments\
-  \ suivants : </p>\n<p>Coûts des activités agricoles : intrants payés en espèces,\
-  \ loyer des terres, coûts d’assistance technique/de vulgarisation, culture conservée\
-  \ pour les semences, culture utilisée pour payer la main-d’œuvre, culture utilisée\
-  \ pour payer le loyer, culture utilisée pour payer les intrants, culture donnée\
-  \ dans le cadre d’un accord de métayage, récolte gaspillée, culture utilisée pour\
-  \ produire des sous-produits, valeur totale des intrants achetés, y compris ceux\
-  \ remboursés en nature. </p>\n<p>Coûts des activités d’élevage : bétail acheté,\
-  \ dépenses supplémentaires du bétail, culture utilisée comme aliment, coûts d’assistance\
-  \ technique/de vulgarisation pour le bétail. </p>\n<p>Coûts des activités forestières :\
-  \ coûts des intrants (semis, engrais, main-d’œuvre embauchée, etc.), coûts de location\
-  \ des machines, coûts de location des terres, autres coûts connexes. </p>\n<p>Coûts\
-  \ des activités de pêche et d’aquaculture : dépenses en engins de pêche, dépenses\
-  \ de main-d’œuvre embauchée, activités commerciales, achats de poisson frais, achats\
-  \ de poisson transformé, autres coûts connexes. </p>\n<p>Pour obtenir des résultats\
-  \ comparables entre les pays en ce qui concerne le revenu, les valeurs doivent nécessairement\
-  \ être exprimées en dollars internationaux à parité de pouvoir d’achat ($ PPA),\
-  \ sur la base de la conversion fournie par le Projet de comparaison internationale\
-  \ de la Banque mondiale. </p>"
+  \ suivante : </p>\n<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\">\n    <mi\
+  \ mathvariant=\"normal\">O</mi>\n    <mi mathvariant=\"normal\">D</mi>\n    <mi\
+  \ mathvariant=\"normal\">D</mi>\n    <mi mathvariant=\"normal\">&amp;nbsp;</mi>\n\
+  \    <mn>2</mn>\n    <mo>.</mo>\n    <mn>3</mn>\n    <mo>.</mo>\n    <mn>2</mn>\n\
+  \    <mo>=</mo>\n    <msubsup>\n      <mrow>\n        <mi>I</mi>\n      </mrow>\n\
+  \      <mrow>\n        <mn>2</mn>\n        <mo>.</mo>\n        <mn>3</mn>\n    \
+  \    <mo>.</mo>\n        <mn>2</mn>\n      </mrow>\n      <mrow>\n        <mi>t</mi>\n\
+  \      </mrow>\n    </msubsup>\n    <mo>=</mo>\n    <mrow>\n      <mrow>\n     \
+  \   <mrow>\n          <munderover>\n            <mo stretchy=\"false\">&#x2211;</mo>\n\
+  \            <mrow>\n              <mi>j</mi>\n              <mo>=</mo>\n      \
+  \        <mn>1</mn>\n            </mrow>\n            <mrow>\n              <mi>n</mi>\n\
+  \            </mrow>\n          </munderover>\n          <mrow>\n            <mfenced\
+  \ separators=\"|\">\n              <mrow>\n                <mrow>\n            \
+  \      <munder>\n                    <mo stretchy=\"false\">&#x2211;</mo>\n    \
+  \                <mrow>\n                      <mi>i</mi>\n                    </mrow>\n\
+  \                  </munder>\n                  <mrow>\n                    <msubsup>\n\
+  \                      <mrow>\n                        <mo>(</mo>\n            \
+  \            <mi>V</mi>\n                      </mrow>\n                      <mrow>\n\
+  \                        <mi>i</mi>\n                        <mi>j</mi>\n      \
+  \                </mrow>\n                      <mrow>\n                       \
+  \ <mi>t</mi>\n                      </mrow>\n                    </msubsup>\n  \
+  \                  <msubsup>\n                      <mrow>\n                   \
+  \     <mi>p</mi>\n                      </mrow>\n                      <mrow>\n\
+  \                        <mi>i</mi>\n                        <mi>j</mi>\n      \
+  \                </mrow>\n                      <mrow>\n                       \
+  \ <mi>t</mi>\n                      </mrow>\n                    </msubsup>\n  \
+  \                </mrow>\n                </mrow>\n                <mo>-</mo>\n\
+  \                <mi mathvariant=\"normal\">&amp;nbsp;</mi>\n                <msubsup>\n\
+  \                  <mrow>\n                    <mi>C</mi>\n                  </mrow>\n\
+  \                  <mrow>\n                    <mi>i</mi>\n                    <mi>j</mi>\n\
+  \                  </mrow>\n                  <mrow>\n                    <mi>t</mi>\n\
+  \                  </mrow>\n                </msubsup>\n              </mrow>\n\
+  \            </mfenced>\n          </mrow>\n        </mrow>\n      </mrow>\n   \
+  \   <mo>/</mo>\n      <mrow>\n        <mi>n</mi>\n      </mrow>\n    </mrow>\n \
+  \ </math></p>\n<p>où :</p>\n<ul>\n  <li><math xmlns=\"http://www.w3.org/1998/Math/MathML\"\
+  >\n      <msubsup>\n        <mrow>\n          <mi>V</mi>\n        </mrow>\n    \
+  \    <mrow>\n          <mi>i</mi>\n          <mi>j</mi>\n        </mrow>\n     \
+  \   <mrow>\n          <mi>t</mi>\n        </mrow>\n      </msubsup>\n    </math>\
+  \ est le volume physique du produit agricole i vendu par le petit producteur alimentaire\
+  \ au cours de l’année t; </li>\n  <li><math xmlns=\"http://www.w3.org/1998/Math/MathML\"\
+  >\n      <msubsup>\n        <mrow>\n          <mi>p</mi>\n        </mrow>\n    \
+  \    <mrow>\n          <mi>i</mi>\n          <mi>j</mi>\n        </mrow>\n     \
+  \   <mrow>\n          <mi>t</mi>\n        </mrow>\n      </msubsup>\n    </math>\
+  \ est le prix de vente constant reçu par le petit producteur alimentaire j pour\
+  \ le produit agricole i au cours de l’année t; </li>\n  <li><math xmlns=\"http://www.w3.org/1998/Math/MathML\"\
+  >\n      <msubsup>\n        <mrow>\n          <mi>C</mi>\n        </mrow>\n    \
+  \    <mrow>\n          <mi>i</mi>\n          <mi>j</mi>\n        </mrow>\n     \
+  \   <mrow>\n          <mi>t</mi>\n        </mrow>\n      </msubsup>\n    </math>\
+  \ est le coût de production du produit agricole i soutenu par le petit producteur\
+  \ alimentaire j au cours de l’année t;</li>\n  <li><math xmlns=\"http://www.w3.org/1998/Math/MathML\"\
+  >\n      <mi>n</mi>\n      <mi mathvariant=\"normal\">&amp;nbsp;</mi>\n    </math>n\
+  \ est le nombre de petits producteurs alimentaires. </li>\n</ul>\n<p>Dans le détail,\
+  \ les volumes physiques <math xmlns=\"http://www.w3.org/1998/Math/MathML\">\n  \
+  \  <msubsup>\n      <mrow>\n        <mi>V</mi>\n      </mrow>\n      <mrow>\n  \
+  \      <mi>i</mi>\n        <mi>k</mi>\n      </mrow>\n      <mrow>\n        <mi>t</mi>\n\
+  \      </mrow>\n    </msubsup>\n    <mi mathvariant=\"normal\">&amp;nbsp;</mi>\n\
+  \  </math>sont dérivés, pour chaque producteur k, des éléments suivants :</p>\n\
+  <ul>\n  <li>Revenus des cultures : récolte vendue, culture pour l’autoconsommation,\
+  \ culture utilisée comme aliment, culture conservée pour les semences, culture stockée,\
+  \ culture utilisée pour les sous-produits, récolte donnée en cadeau, récolte utilisée\
+  \ pour payer la main-d’œuvre, culture utilisée pour payer le loyer, récolte utilisée\
+  \ pour payer les intrants, récolte donnée dans le cadre d’un accord de métayage,\
+  \ récolte gaspillée. Des critères similaires s’appliquent au calcul des recettes\
+  \ provenant des cultures arboricoles et des produits forestiers. </li>\n  <li>Revenus\
+  \ du bétail : bétail vendu (vivant), cadeaux de bétail donnés (la composante ne\
+  \ peut être conservée que si on peut avoir la variation des stocks), sous-produits\
+  \ / produits du bétail vendus, produits animaux destinés à l’autoconsommation, sous-produits\
+  \ du bétail auto-utilisés (également un coût en culture, par exemple le fumier utilisé\
+  \ comme engrais), les sous-produits / produits du bétail payés, les sous-produits\
+  \ / produits du bétail crédités.</li>\n  <li>Revenus forestiers : produits vendus,\
+  \ produits forestiers destinés à l’autoconsommation, produits forestiers stockés,\
+  \ produits forestiers utilisés pour payer la main-d’œuvre, produits forestiers utilisés\
+  \ pour payer les loyers, produits forestiers utilisés pour payer les intrants, produits\
+  \ forestiers cédés dans le cadre d’un accord de métayage, produits forestiers gaspillés.\
+  \ </li>\n  <li>Revenus de la pêche : poisson frais capturé vendu, poisson transformé\
+  \ capturé vendu, poisson frais capturé destinés à l’autoconsommation, poisson transformé\
+  \ capturé destinés à l’autoconsommation, poisson frais échangé vendu, poisson transformé\
+  \ échangé vendu. </li>\n</ul>\n<p>Les coûts de production <math xmlns=\"http://www.w3.org/1998/Math/MathML\"\
+  >\n    <msubsup>\n      <mrow>\n        <mi>C</mi>\n      </mrow>\n      <mrow>\n\
+  \        <mi>i</mi>\n        <mi>j</mi>\n      </mrow>\n      <mrow>\n        <mi>t</mi>\n\
+  \      </mrow>\n    </msubsup>\n  </math> sont censés inclure les coûts d’exploitation.\
+  \ Ceux-ci comprennent tous les coûts variables (paiements en espèces et en nature\
+  \ des intrants agricoles tels que les engrais, les semences et la main-d’œuvre occasionnelle)\
+  \ et les coûts fixes (main-d’œuvre salariée, loyer des terres et coûts d’assistance\
+  \ technique). </p>\n<p>Plus en détail, les coûts <math xmlns=\"http://www.w3.org/1998/Math/MathML\"\
+  >\n    <msubsup>\n      <mrow>\n        <mi>C</mi>\n      </mrow>\n      <mrow>\n\
+  \        <mi>i</mi>\n        <mi>j</mi>\n      </mrow>\n      <mrow>\n        <mi>t</mi>\n\
+  \      </mrow>\n    </msubsup>\n  </math> comprennent généralement les éléments\
+  \ suivants : </p>\n<ul>\n  <li>Coûts des activités agricoles : intrants payés en\
+  \ espèces, loyer des terres, coûts d’assistance technique/de vulgarisation, culture\
+  \ conservée pour les semences, culture utilisée pour payer la main-d’œuvre, culture\
+  \ utilisée pour payer le loyer, culture utilisée pour payer les intrants, culture\
+  \ donnée dans le cadre d’un accord de métayage, récolte gaspillée, culture utilisée\
+  \ pour produire des sous-produits, valeur totale des intrants achetés, y compris\
+  \ ceux remboursés en nature. </li>\n  <li>Coûts des activités d’élevage : bétail\
+  \ acheté, dépenses supplémentaires du bétail, culture utilisée comme aliment, coûts\
+  \ d’assistance technique/de vulgarisation pour le bétail. </li>\n  <li>Coûts des\
+  \ activités forestières : coûts des intrants (semis, engrais, main-d’œuvre embauchée,\
+  \ etc.), coûts de location des machines, coûts de location des terres, autres coûts\
+  \ connexes. </li>\n  <li>Coûts des activités de pêche et d’aquaculture : dépenses\
+  \ en engins de pêche, dépenses de main-d’œuvre embauchée, activités commerciales,\
+  \ achats de poisson frais, achats de poisson transformé, autres coûts connexes.\
+  \ </li>\n</ul>\n<p>Pour obtenir des résultats comparables entre les pays en ce qui\
+  \ concerne le revenu, les valeurs doivent nécessairement être exprimées en dollars\
+  \ internationaux à parité de pouvoir d’achat ($ PPA), sur la base de la conversion\
+  \ fournie par le Projet de comparaison internationale de la Banque mondiale. </p>"
