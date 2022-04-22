@@ -276,17 +276,17 @@
 &lt;p&gt;La equiparación es una forma de estandarización de la métrica basada en la identificación del subconjunto de ítems que pueden considerarse comunes a la FIES global y a la escala específica utilizada para la medición en cada contexto. Los niveles de gravedad asociados a los ítems comunes se utilizan como puntos de anclaje para ajustar los umbrales del FIES global a las escalas locales. El proceso de estandarización garantiza que la media y la desviación estándar del conjunto de ítems comunes es la misma cuando se mide en el FIES global o en la escala nacional. La compatibilidad con el FIES global y la posibilidad de compilar este indicador requiere que al menos cuatro de los ocho ítems del FIES sean identificados como comunes.&lt;/p&gt;
 &lt;p&gt;La División de Estadística de la FAO ha desarrollado el paquete RM.weights en R, que proporciona rutinas para estimar los parámetros del modelo de Rasch utilizando la máxima verosimilitud condicional, con la posibilidad de tener en cuenta el complejo diseño de la encuesta.&lt;/p&gt;
 			</language>
-			<language lang="fr">&lt;p&gt;Sources de données et processus de collecte&lt;/p&gt;
-&lt;p&gt;Les données peuvent être recueillies en utilisant le module d&apos;enquête FIES-SM (Échelle de sécurité alimentaire fondée sur l&apos;expérience) développé par la FAO, ou tout autre questionnaire d&apos;échelle de sécurité alimentaire basé sur l&apos;expérience, notamment : &lt;/p&gt;
+			<language lang="fr">&lt;p&gt;Les données peuvent être recueillies en utilisant le module d&apos;enquête FIES-SM (Échelle de sécurité alimentaire fondée sur l&apos;expérience) développé par la FAO, ou tout autre questionnaire d&apos;échelle de sécurité alimentaire basé sur l&apos;expérience, notamment : &lt;/p&gt;
 &lt;ul&gt;
- &lt;li&gt;le module d&apos;enquête sur la sécurité alimentaire des ménages (HFSSM) développé
+  &lt;li&gt;le module d&apos;enquête sur la sécurité alimentaire des ménages (HFSSM) développé
 par le service de recherche économique du ministère américain de l&apos;agriculture, et utilisé aux États-Unis et au Canada, &lt;/li&gt;
- &lt;li&gt;l&apos;échelle de sécurité alimentaire de l&apos;Amérique latine et des Caraïbes (ou
+  &lt;li&gt;l&apos;échelle de sécurité alimentaire de l&apos;Amérique latine et des Caraïbes (ou
 Escala Latinoamericana y Caribeña de Seguridad Alimentaria – ELCSA), utilisée au Guatemala et testée dans plusieurs autres pays hispanophones d&apos;Amérique latine, &lt;/li&gt;
- &lt;li&gt;l&apos;échelle mexicaine de sécurité alimentaire (ou Escala Mexicana de Seguridad
+  &lt;li&gt;l&apos;échelle mexicaine de sécurité alimentaire (ou Escala Mexicana de Seguridad
 Alimentaria, - EMSA), une adaptation de l&apos;ELCSA utilisée au Mexique, &lt;/li&gt;
- &lt;li&gt;l&apos;échelle d&apos;insécurité alimentaire brésilienne (Escala Brasileira de medida
-de la Insegurança Alimentar – EBIA) utilisée au Brésil, ou &lt;/li&gt; &lt;li&gt;l&apos;échelle d&apos;accès à l&apos;insécurité alimentaire des ménages (HFIAS), &lt;/li&gt;
+  &lt;li&gt;l&apos;échelle d&apos;insécurité alimentaire brésilienne (Escala Brasileira de medida
+de la Insegurança Alimentar – EBIA) utilisée au Brésil, ou &lt;/li&gt;
+  &lt;li&gt;l&apos;échelle d&apos;accès à l&apos;insécurité alimentaire des ménages (HFIAS), &lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;ou toute adaptation de ce qui précède qui peut être calibrée par rapport aux FIES mondiales. &lt;/p&gt;
 &lt;p&gt;Deux versions du module FIES-SM sont disponibles pour les enquêtes auprès des individus ou des ménages respectivement, et la différence réside dans le fait que les répondants sont invités à rendre compte uniquement de leurs expériences individuelles, ou également de celles des autres membres du ménage.&lt;/p&gt;
@@ -300,8 +300,7 @@ de la Insegurança Alimentar – EBIA) utilisée au Brésil, ou &lt;/li&gt; &lt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td colspan=&quot;2&quot;&gt;
-        &lt;p&gt;Maintenant, je voudrais vous poser quelques questions sur la nourriture.
-&lt;/p&gt;
+        &lt;p&gt;Maintenant, je voudrais vous poser quelques questions sur la nourriture.&lt;/p&gt;
       &lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
@@ -404,25 +403,17 @@ ménage) n&apos;avez pas mangé pendant une journée entière par manque d&apos;
 &lt;/table&gt;
 &lt;p&gt;Les questions doivent être adaptées et administrées dans la langue préférée des répondants et les recenseurs doivent s&apos;assurer que les répondants reconnaissent la période de référence et le qualificatif selon lequel les expériences doivent être rapportées que lorsqu&apos;elles sont dues à « un manque d&apos;argent ou d&apos;autres ou d&apos;autres ressources » et non, par exemple, à des raisons liées à la santé ou à d&apos;autres habitudes culturelles (comme le jeûne pour des crédos religieux).&lt;/p&gt;
 &lt;p&gt;Le FIES-SM peut être inclus dans pratiquement n&apos;importe quelle enquête de population par téléphone ou par entretien personnel, bien que l&apos;entretien en face à face soit préférable. &lt;/p&gt;
-&lt;p&gt;Depuis 2014, le FIES-SM référencé individuellement, est appliqué à des échantillons nationaux représentatifs de la population âgée de 15 ans ou plus dans tous les pays couverts par le « Gallup World Poll » (plus de 140 pays chaque année, couvrant 90 % de la population mondiale). Dans la plupart des pays, les échantillons comprennent environ 1000 individus (avec des échantillons plus importants de 3000 individus en Inde et 5000 en Chine continentale). &lt;/p&gt;
+&lt;p&gt;Depuis 2014, le FIES-SM référencé individuellement, est appliqué à des échantillons nationaux représentatifs de la population âgée de 15 ans ou plus dans tous les pays couverts par le sondage mondial Gallup (« Gallup World Poll » (GWP)) (plus de 140 pays chaque année, couvrant 90 % de la population mondiale). Dans la plupart des pays, les échantillons comprennent environ 1000 individus (avec des échantillons plus importants de 3000 individus en Inde et 5000 en Chine continentale). &lt;/p&gt;
+&lt;p&gt;En plus du GWP, en 2020, la FAO a recueilli des données dans 20 pays via Geopoll® dans le but spécifique d&apos;évaluer l&apos;insécurité alimentaire pendant la pandémie de COVID-19. Les pays couverts étaient : Afghanistan, Burkina Faso, Cameroun, République centrafricaine, Tchad, République démocratique du Congo, El Salvador, Éthiopie, Guatemala, Haïti, Irak, Libéria, Mozambique, Myanmar, Niger, Nigéria, Sierra Leone, Somalie, Afrique du Sud et Zimbabwe. Pour tous ces pays, l&apos;évaluation 2020 était basée sur les données Geopoll.&lt;/p&gt;
 &lt;p&gt;Il existe d&apos;autres enquêtes nationales qui recueillent déjà des données compatibles avec la FIES. &lt;/p&gt;
-&lt;p&gt;Au Burkina Faso, la FIES a été incluse dans le cycle 2014 de l&apos;ENQUÊTE MULTISECTORIELLE CONTINUE (EMC-BF).&lt;/p&gt;
-&lt;p&gt;Au Cap-Vert, la FIES a été incluse dans le cycle 2018 de l&apos;INQUÉRITO NACIONAL DE VULNERABILIDADE ALIMENTAR E NUTRICIONAL DAS FAMÍLIAS. &lt;/p&gt;
-&lt;p&gt;Au Canada, l&apos;Échelle canadienne de la sécurité alimentaire en matière de santé a été incluse par Statistique Canada dans le cycle 2015 de l&apos;Enquête sur la santé dans les collectivités canadiennes (ESCC).&lt;/p&gt;
-&lt;p&gt;Au Chili, la FIES a été incluse dans le cycle 2017 de la Encuesta de Caracterización Socioeconómica Nacional (Casen). &lt;/p&gt;
-&lt;p&gt;En Équateur, la FIES a été incluse dans le cycle 2016 du GESTIÓN DE ESTADÍSTICAS PERMANENTES A HOGARES (GEPH-ENEMDU).&lt;/p&gt;
-&lt;p&gt;Au Ghana, la FIES a été incluse dans le cycle 2016-17 de l&apos;enquête sur les niveaux de vie.&lt;/p&gt;
-&lt;p&gt;En Indonésie, la FIES est régulièrement recueillie chaque année depuis 2017 par le biais de l&apos;enquête socio-économique nationale (SUSENAS).&lt;/p&gt;
-&lt;p&gt;En Israël, le HFSSM a été recueilli lors du cycle 2016 de l&apos;Enquête sur la sécurité alimentaire. &lt;/p&gt;
-&lt;p&gt;Au Kenya, la FIES a été incluse dans le cycle 2015-16 du Budget intégré des ménages.&lt;/p&gt;
-&lt;p&gt;Au Malawi, la FIES a été incluse dans le cycle 2016-17 de la QUATRIÈME ENQUÊTE INTÉGRÉE AUPRÈS DES MÉNAGES. &lt;/p&gt;
-&lt;p&gt;Au Nigeria, la FIES a été incluse dans le cycle 2015 de l&apos;ENQUÊTE-PANEL GÉNÉRALE AUPRÈS DES MÉNAGES. &lt;/p&gt;
-&lt;p&gt;En Palestine, la FIES a été incluse dans le cycle 2018 de l&apos;enquête de suivi socio-économique des ménages palestiniens. &lt;/p&gt;
-&lt;p&gt;En République de Corée, la traduction en coréen du HFSSM a été incluse dans les cycles 2014 et 2015 de l&apos;enquête nationale coréenne sur la santé et la nutrition (KNHANES).&lt;/p&gt;
-&lt;p&gt;En Fédération de Russie, la FIES a été recueillie dans le cadre du cycle 2018 de l&apos;enquête par sondage sur la nutrition. &lt;/p&gt;
-&lt;p&gt;À Sainte-Lucie, les données de la FIES ont été recueillies dans le cadre de l&apos;Enquête sur les conditions de vie et les budgets des ménages 2016. &lt;/p&gt;
-&lt;p&gt;Aux Seychelles, les données de la FIES ont été recueillies dans le cadre de l&apos;enquête trimestrielle sur la population active. &lt;/p&gt;
-&lt;p&gt;Aux États-Unis, le HFSSM est inclus chaque année dans le supplément sur la sécurité alimentaire de l&apos;enuqête actuelle sur la population (CPS-FSS) par le Bureau américain du recensement depuis 1995. (Le CPS-FSS a atteint environ 83 000 individus âgés de 15 ans ou plus dans environ 42 000 ménages en 2014). &lt;/p&gt;
+&lt;p&gt;Pour l&apos;Afghanistan, l&apos;Angola, l&apos;Arménie, le Botswana, le Burkina Faso, le Cabo Verde, le Canada, le Chili, le Costa Rica, l&apos;Équateur, les Fidji, le Ghana, la Grèce, la Grenade, le Honduras, l&apos;Indonésie, Israël, le Kazakhstan, le Kenya, Kiribati, le Kirghizistan, le Lesotho, le Malawi, la Mauritanie, le Mexique, le Maroc, Namibie, le Niger, le Nigéria, la Palestine, les Philippines, la République de Corée, la Fédération de Russie, Sainte-Lucie, le Samoa, le Sénégal, les Seychelles, le Sierra Leone, le Soudan du Sud, le Soudan, le Tonga, l&apos;Ouganda, la République-Unie de Tanzanie, les États d&apos;Amérique, le Vanuatu, le Viet Nam et la Zambie, les données d&apos;enquêtes gouvernementales nationales ont été utilisées pour calculer les estimations de la prévalence de l&apos;insécurité alimentaire en appliquant les méthodes statistiques de la FAO pour ajuster les résultats nationaux à la même norme de référence mondiale, couvrant environ un quart de la population mondiale. Les pays sont pris en compte pour l&apos;année ou les années où les données nationales sont disponibles, alimentant les agrégats régionaux et sous-régionaux en supposant une tendance constante au cours de la période 2014-2020, ou en intégrant les années restantes avec les données GWP ou Geopoll si elles étaient compatibles. Les exceptions à cette règle sont : l&apos;Arménie, le Botswana, le Burkina Faso, le Chili, le Costa Rica, l&apos;Équateur, le Ghana, le Honduras, l&apos;Indonésie, Israël, le Malawi, la Namibie, le Niger, le Nigeria, la Sierra Leone, l&apos;Ouganda et la Zambie. Dans ces cas, la procédure suivante a été suivie : &lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Utiliser les données nationales recueillies en une année pour alimenter l&apos;année
+correspondante.&lt;/li&gt;
+  &lt;li&gt;Pour les années restantes, appliquer la tendance lissée provenant des données
+recueillies par la FAO via le sondage mondial Gallup© aux données nationales pour décrire l&apos;évolution dans le temps. La tendance lissée est calculée en prenant la moyenne des taux de variation entre les moyennes consécutives sur trois ans.&lt;/li&gt; &lt;/ul&gt;
+&lt;p&gt;La motivation derrière cette procédure était la preuve solide trouvée à l&apos;appui de la tendance suggérée par les données recueillies par la FAO (p. ex., l&apos;évolution de la pauvreté, l&apos;extrême pauvreté, l&apos;emploi, l&apos;inflation alimentaire, entre autres), permettant de fournir une description plus actualisée de la tendance sur la période 2014-2020.&lt;/p&gt;
+&lt;p&gt;En Indonésie, au Kazakhstan, au Kirghizistan, en Mauritanie, au Nicaragua, au Paraguay, au Rwanda, aux Seychelles, au Soudan et en République-Unie de Tanzanie, en raison du manque de données en 2020, la tendance sous-régionale correspondante entre 2019 et 2020 a été utilisée pour alimenter 2020.&lt;/p&gt;
 &lt;p&gt;&lt;u&gt;Obtention de données comparables au niveau international pour la surveillance mondiale : &lt;/u&gt;&lt;/p&gt;
 &lt;p&gt;Pour assurer la comparabilité des indicateurs FImod+sev et FIsev calculés pour différentes populations, des seuils universels sont définis sur l&apos;échelle de référence globale FIES et convertis en valeurs correspondantes sur les échelles « locales » obtenues à la suite de l&apos;application du modèle de Rasch sur une population spécifique, par un processus de « mise en équation ».&lt;/p&gt;
 &lt;p&gt;L&apos;équation est une forme de normalisation de la mesure basée sur l&apos;identification du sous-ensemble d&apos;éléments qui peuvent être considérés comme communs à l&apos;ensemble des FIES et de l&apos;échelle spécifique utilisée pour la mesure dans chaque contexte. Les niveaux de gravité associés aux éléments communs sont utilisés comme points d&apos;ancrage pour ajuster les seuils globaux de la FIES aux échelles locales. Le processus de normalisation garantit que la moyenne et l&apos;écart type de l&apos;ensemble des éléments communs sont identiques lorsqu&apos;ils sont mesurés sur l&apos;échelle globale de la FIES ou sur l&apos;échelle nationale. La compatibilité avec la FIES globale et la possibilité de compiler cet indicateur exigent qu&apos;au moins quatre des huit éléments de la FIES soient identifiés comme communs.&lt;/p&gt;
