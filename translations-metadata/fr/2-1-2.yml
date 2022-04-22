@@ -1,7 +1,7 @@
 SDG_GOAL: "<p>Objectif 2 : Éliminer la faim, assurer la sécurité alimentaire, améliorer\
   \ la nutrition et promouvoir l'agriculture durable</p>"
 SDG_TARGET: "<p>Cible 2.1 : D’ici 2030, éliminer la faim et faire en sorte que chacun,\
-  \ en particulier les pauvres et les personnes en situation vulnérable, y compris\
+  \ en particulier les pauvres et les personnes en situation vulnérable, y compris\
   \ les nourrissons, ait accès toute l’année à une alimentation saine, nutritive et\
   \ suffisante</p>"
 SDG_INDICATOR: >-
@@ -45,27 +45,24 @@ STAT_CONC_DEF: >-
   des ménages ou des individus à accéder régulièrement à la nourriture dont ils ont
   besoin.</p>
 SOURCE_TYPE: >-
-  <p>Sources de données et processus de collecte</p>
-
   <p>Les données peuvent être recueillies en utilisant le module d'enquête FIES-SM
   (Échelle de sécurité alimentaire fondée sur l'expérience) développé par la FAO,
   ou tout autre questionnaire d'échelle de sécurité alimentaire basé sur l'expérience,
   notamment : </p>
 
   <ul>
-   <li>le module d'enquête sur la sécurité alimentaire des ménages (HFSSM) développé
+    <li>le module d'enquête sur la sécurité alimentaire des ménages (HFSSM) développé
   par le service de recherche économique du ministère américain de l'agriculture,
   et utilisé aux États-Unis et au Canada, </li>
-   <li>l'échelle de sécurité alimentaire de l'Amérique latine et des Caraïbes (ou
+    <li>l'échelle de sécurité alimentaire de l'Amérique latine et des Caraïbes (ou
   Escala Latinoamericana y Caribeña de Seguridad Alimentaria – ELCSA), utilisée au
   Guatemala et testée dans plusieurs autres pays hispanophones d'Amérique latine,
   </li>
-   <li>l'échelle mexicaine de sécurité alimentaire (ou Escala Mexicana de Seguridad
+    <li>l'échelle mexicaine de sécurité alimentaire (ou Escala Mexicana de Seguridad
   Alimentaria, - EMSA), une adaptation de l'ELCSA utilisée au Mexique, </li>
-   <li>l'échelle d'insécurité alimentaire brésilienne (Escala Brasileira de medida
+    <li>l'échelle d'insécurité alimentaire brésilienne (Escala Brasileira de medida
   de la Insegurança Alimentar – EBIA) utilisée au Brésil, ou </li>
-  <li>l'échelle d'accès à l'insécurité alimentaire des ménages (HFIAS), </li>
-
+    <li>l'échelle d'accès à l'insécurité alimentaire des ménages (HFIAS), </li>
   </ul>
 
   <p>ou toute adaptation de ce qui précède qui peut être calibrée par rapport aux
@@ -88,8 +85,7 @@ SOURCE_TYPE: >-
       </tr>
       <tr>
         <td colspan="2">
-          <p>Maintenant, je voudrais vous poser quelques questions sur la nourriture.
-  </p>
+          <p>Maintenant, je voudrais vous poser quelques questions sur la nourriture.</p>
         </td>
       </tr>
       <tr>
@@ -211,67 +207,62 @@ SOURCE_TYPE: >-
 
   <p>Depuis 2014, le FIES-SM référencé individuellement, est appliqué à des échantillons
   nationaux représentatifs de la population âgée de 15 ans ou plus dans tous les pays
-  couverts par le « Gallup World Poll » (plus de 140 pays chaque année, couvrant 90
-  % de la population mondiale). Dans la plupart des pays, les échantillons comprennent
-  environ 1000 individus (avec des échantillons plus importants de 3000 individus
-  en Inde et 5000 en Chine continentale). </p>
+  couverts par le sondage mondial Gallup (« Gallup World Poll » (GWP)) (plus de 140
+  pays chaque année, couvrant 90 % de la population mondiale). Dans la plupart des
+  pays, les échantillons comprennent environ 1000 individus (avec des échantillons
+  plus importants de 3000 individus en Inde et 5000 en Chine continentale). </p>
+
+  <p>En plus du GWP, en 2020, la FAO a recueilli des données dans 20 pays via Geopoll®
+  dans le but spécifique d'évaluer l'insécurité alimentaire pendant la pandémie de
+  COVID-19. Les pays couverts étaient : Afghanistan, Burkina Faso, Cameroun, République
+  centrafricaine, Tchad, République démocratique du Congo, El Salvador, Éthiopie,
+  Guatemala, Haïti, Irak, Libéria, Mozambique, Myanmar, Niger, Nigéria, Sierra Leone,
+  Somalie, Afrique du Sud et Zimbabwe. Pour tous ces pays, l'évaluation 2020 était
+  basée sur les données Geopoll.</p>
 
   <p>Il existe d'autres enquêtes nationales qui recueillent déjà des données compatibles
   avec la FIES. </p>
 
-  <p>Au Burkina Faso, la FIES a été incluse dans le cycle 2014 de l'ENQUÊTE MULTISECTORIELLE
-  CONTINUE (EMC-BF).</p>
+  <p>Pour l'Afghanistan, l'Angola, l'Arménie, le Botswana, le Burkina Faso, le Cabo
+  Verde, le Canada, le Chili, le Costa Rica, l'Équateur, les Fidji, le Ghana, la Grèce,
+  la Grenade, le Honduras, l'Indonésie, Israël, le Kazakhstan, le Kenya, Kiribati,
+  le Kirghizistan, le Lesotho, le Malawi, la Mauritanie, le Mexique, le Maroc, Namibie,
+  le Niger, le Nigéria, la Palestine, les Philippines, la République de Corée, la
+  Fédération de Russie, Sainte-Lucie, le Samoa, le Sénégal, les Seychelles, le Sierra
+  Leone, le Soudan du Sud, le Soudan, le Tonga, l'Ouganda, la République-Unie de Tanzanie,
+  les États d'Amérique, le Vanuatu, le Viet Nam et la Zambie, les données d'enquêtes
+  gouvernementales nationales ont été utilisées pour calculer les estimations de la
+  prévalence de l'insécurité alimentaire en appliquant les méthodes statistiques de
+  la FAO pour ajuster les résultats nationaux à la même norme de référence mondiale,
+  couvrant environ un quart de la population mondiale. Les pays sont pris en compte
+  pour l'année ou les années où les données nationales sont disponibles, alimentant
+  les agrégats régionaux et sous-régionaux en supposant une tendance constante au
+  cours de la période 2014-2020, ou en intégrant les années restantes avec les données
+  GWP ou Geopoll si elles étaient compatibles. Les exceptions à cette règle sont :
+  l'Arménie, le Botswana, le Burkina Faso, le Chili, le Costa Rica, l'Équateur, le
+  Ghana, le Honduras, l'Indonésie, Israël, le Malawi, la Namibie, le Niger, le Nigeria,
+  la Sierra Leone, l'Ouganda et la Zambie. Dans ces cas, la procédure suivante a été
+  suivie : </p>
 
-  <p>Au Cap-Vert, la FIES a été incluse dans le cycle 2018 de l'INQUÉRITO NACIONAL
-  DE VULNERABILIDADE ALIMENTAR E NUTRICIONAL DAS FAMÍLIAS. </p>
+  <ul>
+    <li>Utiliser les données nationales recueillies en une année pour alimenter l'année
+  correspondante.</li>
+    <li>Pour les années restantes, appliquer la tendance lissée provenant des données
+  recueillies par la FAO via le sondage mondial Gallup© aux données nationales pour
+  décrire l'évolution dans le temps. La tendance lissée est calculée en prenant la
+  moyenne des taux de variation entre les moyennes consécutives sur trois ans.</li>
+  </ul>
 
-  <p>Au Canada, l'Échelle canadienne de la sécurité alimentaire en matière de santé
-  a été incluse par Statistique Canada dans le cycle 2015 de l'Enquête sur la santé
-  dans les collectivités canadiennes (ESCC).</p>
+  <p>La motivation derrière cette procédure était la preuve solide trouvée à l'appui
+  de la tendance suggérée par les données recueillies par la FAO (p. ex., l'évolution
+  de la pauvreté, l'extrême pauvreté, l'emploi, l'inflation alimentaire, entre autres),
+  permettant de fournir une description plus actualisée de la tendance sur la période
+  2014-2020.</p>
 
-  <p>Au Chili, la FIES a été incluse dans le cycle 2017 de la Encuesta de Caracterización
-  Socioeconómica Nacional (Casen). </p>
-
-  <p>En Équateur, la FIES a été incluse dans le cycle 2016 du GESTIÓN DE ESTADÍSTICAS
-  PERMANENTES A HOGARES (GEPH-ENEMDU).</p>
-
-  <p>Au Ghana, la FIES a été incluse dans le cycle 2016-17 de l'enquête sur les niveaux
-  de vie.</p>
-
-  <p>En Indonésie, la FIES est régulièrement recueillie chaque année depuis 2017 par
-  le biais de l'enquête socio-économique nationale (SUSENAS).</p>
-
-  <p>En Israël, le HFSSM a été recueilli lors du cycle 2016 de l'Enquête sur la sécurité
-  alimentaire. </p>
-
-  <p>Au Kenya, la FIES a été incluse dans le cycle 2015-16 du Budget intégré des ménages.</p>
-
-  <p>Au Malawi, la FIES a été incluse dans le cycle 2016-17 de la QUATRIÈME ENQUÊTE
-  INTÉGRÉE AUPRÈS DES MÉNAGES. </p>
-
-  <p>Au Nigeria, la FIES a été incluse dans le cycle 2015 de l'ENQUÊTE-PANEL GÉNÉRALE
-  AUPRÈS DES MÉNAGES. </p>
-
-  <p>En Palestine, la FIES a été incluse dans le cycle 2018 de l'enquête de suivi
-  socio-économique des ménages palestiniens. </p>
-
-  <p>En République de Corée, la traduction en coréen du HFSSM a été incluse dans les
-  cycles 2014 et 2015 de l'enquête nationale coréenne sur la santé et la nutrition
-  (KNHANES).</p>
-
-  <p>En Fédération de Russie, la FIES a été recueillie dans le cadre du cycle 2018
-  de l'enquête par sondage sur la nutrition. </p>
-
-  <p>À Sainte-Lucie, les données de la FIES ont été recueillies dans le cadre de l'Enquête
-  sur les conditions de vie et les budgets des ménages 2016. </p>
-
-  <p>Aux Seychelles, les données de la FIES ont été recueillies dans le cadre de l'enquête
-  trimestrielle sur la population active. </p>
-
-  <p>Aux États-Unis, le HFSSM est inclus chaque année dans le supplément sur la sécurité
-  alimentaire de l'enuqête actuelle sur la population (CPS-FSS) par le Bureau américain
-  du recensement depuis 1995. (Le CPS-FSS a atteint environ 83 000 individus âgés
-  de 15 ans ou plus dans environ 42 000 ménages en 2014). </p>
+  <p>En Indonésie, au Kazakhstan, au Kirghizistan, en Mauritanie, au Nicaragua, au
+  Paraguay, au Rwanda, aux Seychelles, au Soudan et en République-Unie de Tanzanie,
+  en raison du manque de données en 2020, la tendance sous-régionale correspondante
+  entre 2019 et 2020 a été utilisée pour alimenter 2020.</p>
 
   <p><u>Obtention de données comparables au niveau international pour la surveillance
   mondiale : </u></p>
@@ -300,7 +291,7 @@ SOURCE_TYPE: >-
 FREQ_COLL: |-
   <p>En cours</p>
 REL_CAL_POLICY: |-
-  <p>Juillet 2021</p>
+  <p>Les données sont publiées chaque année en même temps que le rapport <em>State of Food Security and Nutrition in the World</em>, généralement à la mi-juillet. </p>
 DATA_SOURCE: >-
   <p>Les fournisseurs de données nationaux seront les autorités statistiques nationales
   responsables de l'enquête dans laquelle l'échelle FIES ou une échelle similaire
@@ -309,7 +300,7 @@ DATA_SOURCE: >-
 COMPILING_ORG: >-
   <p>Organisation(s) responsable(s) de la compilation et de la production de rapports
   sur cet indicateur au niveau mondial : Organisation des Nations Unies pour l’alimentation
-  et l’agriculture, Division de statistique, Équipe des statistiques sur la sécurité
+  et l’agriculture, Division de la statistique, Équipe des statistiques sur la sécurité
   alimentaire et la nutrition. </p>
 RATIONALE: >-
   <p>L’insécurité alimentaire à des niveaux modérés de gravité est généralement associée
@@ -521,7 +512,7 @@ DATA_COMP: >-
   ou grave (<math xmlns="http://www.w3.org/1998/Math/MathML">
       <msub>
         <mrow>
-          <mi>p</mi>
+          <mi>P</mi>
         </mrow>
         <mrow>
           <mi>m</mi>
@@ -537,7 +528,7 @@ DATA_COMP: >-
   (<math xmlns="http://www.w3.org/1998/Math/MathML">
       <msub>
         <mrow>
-          <mi>p</mi>
+          <mi>P</mi>
         </mrow>
         <mrow>
           <mi>g</mi>
@@ -550,7 +541,7 @@ DATA_COMP: >-
       <mo>&amp;lt;</mo>
       <msub>
         <mrow>
-          <mi>p</mi>
+          <mi>P</mi>
         </mrow>
         <mrow>
           <mi>g</mi>
@@ -561,7 +552,7 @@ DATA_COMP: >-
       <mo>&amp;lt;</mo>
       <msub>
         <mrow>
-          <mi>p</mi>
+          <mi>P</mi>
         </mrow>
         <mrow>
           <mi>m</mi>
@@ -579,10 +570,10 @@ DATA_COMP: >-
   légère peut être obtenue à l'aide de <math xmlns="http://www.w3.org/1998/Math/MathML">
       <msub>
         <mrow>
-          <mi>p</mi>
+          <mi>P</mi>
         </mrow>
         <mrow>
-          <mi>i</mi>
+          <mi>s</mi>
           <mi>a</mi>
         </mrow>
       </msub>
@@ -591,7 +582,7 @@ DATA_COMP: >-
       <mo>-</mo>
       <msub>
         <mrow>
-          <mi>p</mi>
+          <mi>P</mi>
         </mrow>
         <mrow>
           <mi>m</mi>
@@ -650,7 +641,7 @@ DATA_COMP: >-
             <mrow>
               <msub>
                 <mrow>
-                  <mi>p</mi>
+                  <mi>P</mi>
                 </mrow>
                 <mrow>
                   <mi>i</mi>
@@ -716,7 +707,7 @@ DATA_COMP: >-
             <mrow>
               <msub>
                 <mrow>
-                  <mi>p</mi>
+                  <mi>P</mi>
                 </mrow>
                 <mrow>
                   <mi>i</mi>
@@ -769,10 +760,9 @@ DATA_COMP: >-
   des poids d'échantillonnage des ménages, ceux-ci doivent être transformés en poids
   d'échantillonnage individuels en multipliant les poids par la taille du ménage.
   Ce système de pondération individuelle peut alors être utilisé pour calculer les
-  taux de prévalence individuels dans les formules (1) et (2).</p>
-  <p>Si l'enquête ne comprend que des adultes, alors les pondérations d'adultes appliquées
-  aux probabilités des formules (1) et (2) fournissent les taux de prévalence d'adultes
-  (<math xmlns="http://www.w3.org/1998/Math/MathML">
+  taux de prévalence individuels dans les formules (1) et (2).</p> <p>Si l'enquête
+  ne comprend que des adultes, alors les pondérations d'adultes appliquées aux probabilités
+  des formules (1) et (2) fournissent les taux de prévalence d'adultes (<math xmlns="http://www.w3.org/1998/Math/MathML">
       <mi>I</mi>
       <msup>
         <mrow>
@@ -1152,11 +1142,70 @@ REG_AGG: >-
   <p>Les agrégats régionaux et mondiaux de la prévalence d'insécurité alimentaire
   (IA) modérée ou grave, basée sur la FIES sont calculés comme suit : </p>
 
-  <p>IA_REG = (_i IA_i &#xD7; N_i) / (_i N_i) </p>
-
-  <p>où IA_i sont les valeurs estimées de IA pour tous les pays des régions pour lesquelles
-  les données disponibles permettent de calculer une estimation fiable, et N_i la
-  taille de la population correspondante. </p>
+  <p><math xmlns="http://www.w3.org/1998/Math/MathML">
+      <mi>I</mi>
+      <msub>
+        <mrow>
+          <mi>A</mi>
+        </mrow>
+        <mrow>
+          <mi>R</mi>
+          <mi>E</mi>
+          <mi>G</mi>
+        </mrow>
+      </msub>
+      <mo>=</mo>
+      <mo>(</mo>
+      <mi>I</mi>
+      <msub>
+        <mrow>
+          <mi>A</mi>
+        </mrow>
+        <mrow>
+          <mi>i</mi>
+        </mrow>
+      </msub>
+      <mo>&#xD7;</mo>
+      <msub>
+        <mrow>
+          <mi>N</mi>
+        </mrow>
+        <mrow>
+          <mi>i</mi>
+        </mrow>
+      </msub>
+      <mo>)</mo>
+      <mo>/</mo>
+      <msub>
+        <mrow>
+          <mi>N</mi>
+        </mrow>
+        <mrow>
+          <mi>i</mi>
+        </mrow>
+      </msub>
+    </math></p>
+  <p>où <math xmlns="http://www.w3.org/1998/Math/MathML">
+      <mi>I</mi>
+      <msub>
+        <mrow>
+          <mi>A</mi>
+        </mrow>
+        <mrow>
+          <mi>i</mi>
+        </mrow>
+      </msub>
+    </math> sont les valeurs estimées de IA pour tous les pays des régions pour lesquelles
+  les données disponibles permettent de calculer une estimation fiable, et <math xmlns="http://www.w3.org/1998/Math/MathML">
+      <msub>
+        <mrow>
+          <mi>N</mi>
+        </mrow>
+        <mrow>
+          <mi>i</mi>
+        </mrow>
+      </msub>
+    </math> est la taille de la population correspondante. </p>
 DOC_METHOD: >-
   <p>Les données des échelles de sécurité alimentaire fondées sur l'expérience sont
   recueillies par le biais d'enquêtes de population (soit auprès des ménages, soit
@@ -1170,8 +1219,7 @@ DOC_METHOD: >-
   <p>Brésil : Escala Brasileira de Insegurança Alimentar (<a href="http://biblioteca.ibge.gov.br/visualizacao/livros/liv91984.pdf"><u>http://biblioteca.ibge.gov.br/visualizacao/livros/liv91984.pdf</u></a>,
   Quadro 5, page 30) </p>
 
-  <p>Mexique : Escala Mexicana de Seguridad Alimentaria (<a href="http://www.beta.inegi.org.mx/contenidos/proyectos/enchogares/regulares/enigh/tradicional/2012/doc/c_tra_enigh12_hogares.pdf"><u>http://www.beta.inegi.org.mx/contenidos/proyectos/enchogares/regulares/enigh/tradicional/2012/doc/c_tra_enigh12_hogares.pdf</u></a>,
-  pages 13-14) </p>
+  <p>Mexique : Escala Mexicana de Seguridad Alimentaria (<a href="https://www.coneval.org.mx/Evaluacion/ECNCH/Documents/CIESAS_alimentacion.pdf">https://www.coneval.org.mx/Evaluacion/ECNCH/Documents/CIESAS_alimentacion.pdf</a>)</p>
 
   <p>Guatemala : Escala Latino Americana y Caribena de Seguridad Alimentaria (<a href="http://www.ine.gob.gt/sistema/uploads/2015/12/11/DDrIEuLOPuEcXTcLXab1yOkiOV2HQreq.pdf"><u>http://www.ine.gob.gt/sistema/uploads/2015/12/11/DDrIEuLOPuEcXTcLXab1yOkiOV2HQreq.pdf</u></a>,
   pagina 3) </p>
@@ -1213,295 +1261,57 @@ QUALITY_ASSURE: >-
   (en français)</u></a> et <a href="http://www.fao.org/3/a-i3946e.pdf"><u>http://www.fao.org/3/a-i3946e.pdf
   (en anglais)</u></a>.</p>
 
-  <p>Les données nationales utilisées pour établir l'indicateur sont obtenues directement
-  sur les sites web de diffusion de microdonnées des pays, lorsqu'elles sont disponibles
-  (par exemple, aux États-Unis), ou sur demande directement aux bureaux nationaux
-  de statistique responsables de la collecte des données (par exemple, au Canada).</p>
+  <p>Lorsque les estimations sont fondées sur des données nationales officielles,
+  les données utilisées pour établir l'indicateur sont obtenues directement sur les
+  sites Web de diffusion de microdonnées des pays, lorsqu'elles sont disponibles (p.
+  ex., aux États-Unis), ou sur demande directement aux bureaux nationaux de statistique
+  responsables de la collecte des données (p. ex., au Canada).</p>
 COVERAGE: >-
   <p><strong>Disponibilité des données :</strong></p>
 
-  <p>Les données pour 2014, 2015, 2016, 2017 et 2018 sont disponibles auprès de la
-  FAO pour 137 pays, zones et territoires inclus dans le sondage mondial Gallup. Les
-  agrégats régionaux et sous-régionaux sont calculés pour toutes les régions, à l'exception
-  des régions des Caraïbes et de l'Océanie (car la plupart des petits États insulaires
-  des Caraïbes et du Pacifique Sud ne sont pas couverts par le PRP) et de l'Afrique
-  centrale (car moins de 50 % de la population régionale était couverte). Les données
-  ont été soumises à un processus de consultation par pays et seuls les résultats
-  validés par les bureaux nationaux de statistique sont publiés au niveau national.
-  </p>
+  <p>Les données pour la période 2014-2020 sont disponibles auprès de la FAO pour
+  plus de 140 pays, zones et territoires inclus dans le sondage mondial Gallup. </p>
 
-  <p>Des données compatibles avec l'échelle FIES provenant d'enquêtes nationales officielles
-  sont déjà disponibles auprès du Burkina Faso, du Cap-Vert, du Canada, du Chili,
-  de l'Équateur, des États-Unis d'Amérique, de la Fédération de Russie (2016-18),
-  du Ghana, de l'Indonésie, d'Israël, du Kenya, du Malawi, du Nigeria, de la Palestine,
-  de la République de Corée (2014 et 2015), de Sainte-Lucie et des Seychelles.</p>
-
-  <p>La répartition du nombre de pays couverts par région est la suivante : </p>
-
-  <table>
-    <tbody>
-      <tr>
-        <td>
-          <p>Monde </p>
-        </td>
-        <td>
-          <p>137</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>Afrique </p>
-        </td>
-        <td>
-          <p>39</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>Afrique du Nord </p>
-        </td>
-        <td>
-          <p>5</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>Afrique subsaharienne </p>
-        </td>
-        <td>
-          <p>34</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>Afrique de l'Est </p>
-        </td>
-        <td>
-          <p>11</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>Afrique centrale </p>
-        </td>
-        <td>
-          <p>4</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>Afrique australe </p>
-        </td>
-        <td>
-          <p>5</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>Afrique de l'Ouest </p>
-        </td>
-        <td>
-          <p>14</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>Amériques </p>
-        </td>
-        <td>
-          <p>22</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>Amérique latine et Caraïbes </p>
-        </td>
-        <td>
-          <p>20</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>Caribbean</p>
-        </td>
-        <td>
-          <p>3</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>Amérique latine </p>
-        </td>
-        <td>
-          <p>17</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>Amérique du Nord </p>
-        </td>
-        <td>
-          <p>2</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>Asie </p>
-        </td>
-        <td>
-          <p>36</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>Asie centrale </p>
-        </td>
-        <td>
-          <p>4</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>Asie de l'Est </p>
-        </td>
-        <td>
-          <p>4</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>Asie du Sud </p>
-        </td>
-        <td>
-          <p>8</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>Asie du Sud-Est </p>
-        </td>
-        <td>
-          <p>7</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>Asie occidentale </p>
-        </td>
-        <td>
-          <p>13</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>Europe </p>
-        </td>
-        <td>
-          <p>39</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>Europe de l'Est </p>
-        </td>
-        <td>
-          <p>10</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>Europe du Nord </p>
-        </td>
-        <td>
-          <p>10</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>Europe du Sud </p>
-        </td>
-        <td>
-          <p>12</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>Europe occidentale </p>
-        </td>
-        <td>
-          <p>7</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>Océanie </p>
-        </td>
-        <td>
-          <p>2</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>Australie et Nouvelle-Zélande </p>
-        </td>
-        <td>
-          <p>2</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>Mélanésie</p>
-        </td>
-        <td>
-          <p>0</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>Micronésie</p>
-        </td>
-        <td>
-          <p>0</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>Polynésie</p>
-        </td>
-        <td>
-          <p>0</p>
-        </td>
-      </tr>
-    </tbody>
-  </table>
+  <p>Les agrégats régionaux et sous-régionaux sont calculés pour toutes les régions,
+  à l’exception des régions des Caraïbes et de l’Afrique centrale (moins de 50% de
+  la population régionale jusqu’en 2019 était couverte). Les deux régions ne peuvent
+  être estimées que pour 2020. Les données ont fait l’objet d’un processus de consultation
+  par pays et seuls les résultats validés par les bureaux nationaux de statistique
+  sont publiés au niveau national. </p>
 
   <p><strong>Séries chronologiques :</strong></p>
 
-  <p>Seule la moyenne sur 3 ans (2014-2016, 2015-17 et 2016-18) est fournie.</p>
+  <p>Seule la moyenne sur 3 ans (2014-2016, 2015-17, 2016-18, 2017-19 et 2018-2020)
+  est fournie pour les données au niveau des pays. Des valeurs annuelles sont fournies
+  pour les agrégats régionaux. </p>
 
   <p><strong>Désagrégation :</strong></p>
 
-  <p>Comme le questionnaire de la FIES ou tout autre questionnaire compatible sur
-  la sécurité alimentaire fondée sur l'expérience est appliqué au moyen d'une enquête,
-  la prévalence de l'insécurité alimentaire peut être mesurée dans tout groupe de
-  population pour lequel l'enquête utilisée pour collecter les données est représentative.</p>
+  <p>Étant donné que la FIES ou tout autre questionnaire compatible sur la sécurité
+  alimentaire fondé sur l’expérience est appliqué au moyen d’enquêtes, la prévalence
+  de l’insécurité alimentaire peut être mesurée dans n’importe quel groupe de population
+  pour lequel l’enquête utilisée pour recueillir des données est représentative. </p>
 
   <p>Si elle est appliquée au niveau du ménage, la désagrégation est donc possible
-  sur la base des caractéristiques du ménage telles que la localisation, le revenu
-  du ménage, la composition (y compris par exemple la présence et le nombre d'enfants
-  en bas âge, les membres handicapés, les membres âgés, etc), le sexe, l'âge et le
-  niveau d'éducation du chef du ménage, etc. Si elle est appliquée au niveau individuel,
-  une désagrégation correcte de la prévalence de l'insécurité alimentaire par sexe
-  est possible car la prévalence de l'insécurité alimentaire chez les hommes et les
-  femmes d'un même groupe de population peut être mesurée indépendamment. </p>
+  en fonction des caractéristiques du ménage telles que l’emplacement, le revenu du
+  ménage, la composition (y compris, par exemple, la présence et le nombre de jeunes
+  enfants, de membres handicapés, de membres âgés, etc.), le sexe, l’âge et le niveau
+  de scolarité du chef du ménage, etc. Si elle est appliquée au niveau individuel,
+  une ventilation appropriée de la prévalence de l’insécurité alimentaire par sexe
+  est possible, car la prévalence de l’insécurité alimentaire chez les hommes et les
+  femmes membres du même groupe de population peut être mesurée indépendamment. </p>
 
-  <p>Lors de la production de statistiques désagrégées, il faut veiller à vérifier
-  la validité de l'application en estimant le modèle de Rasch avec les données de
-  chaque sous-groupe de population spécifique et, si nécessaire, effectuer l'équation
-  appropriée de la mesure avant de comparer les résultats.</p>
+  <p>Lors de la production de statistiques désagrégées, il est important de vérifier
+  la validité de l’application en estimant le modèle de Rasch avec les données de
+  chaque sous-groupe de population spécifique et, si nécessaire, en effectuant l’assimilation
+  appropriée de la mesure avant de comparer les résultats. </p>
 
-  <p>Il est de bonne pratique d'associer une mesure de variabilité (marges d'erreur
-  ou limites supérieure et inférieure) lorsque des données désagrégées sont produites.</p>
+  <p>Il est recommandé d’associer une mesure de la variabilité (marges d’erreur ou
+  limite supérieure et inférieure) lorsque des données désagrégées sont produites.
+  </p>
+
+  <p>À l’heure actuelle, des statistiques ventilées par sexe du répondant sont fournies.
+  </p>
 COMPARABILITY: >-
   <p><strong>Sources des divergences :</strong></p>
 
@@ -1522,7 +1332,8 @@ OTHER_DOC: >-
   </p>
 
   <p><a href="http://www.fao.org/3/i4830e.pdf">https://www.fao.org/3/i4830f/i4830f.pdf</a></p>
-QUALITY_ASSMNT: <p>Élevée.</p>
+QUALITY_ASSMNT: <p>Élevée. Pour la grande majorité des pays, les étapes d’assurance
+  de la qualité fournissent des données fiables et de haute qualité. </p>
 QUALITY_MGMNT: <p>La Division de la statistique de la FAO (ESS) effectue une analyse
   des tendances de l’indicateur récemment mis à jour avec d’autres indicateurs pertinents.
   Entre-temps, les estimations préliminaires de chaque cycle de mise à jour sont distribuées
@@ -1532,16 +1343,16 @@ QUALITY_MGMNT: <p>La Division de la statistique de la FAO (ESS) effectue une ana
 ADJUSTMENT: <p>Un calage international des seuils d'insécurité alimentaire est effectué
   afin de s'assurer que les résultats nationaux et infranationaux sont comparables.</p>
 DATA_VALIDATION: <p>Pour les données recueillies par la FAO dans le cadre du sondage
-  mondial Gallup, les résultats par pays ont été partagés avec tous les bureaux nationaux
-  de statistique par le biais d’une communication par courrier électronique envoyée
-  par le statisticien en chef de la FAO, demandant des commentaires, et publiés uniquement
-  s’ils n'avaient pas refusé. </p>
+  mondial Gallup ou d'autres prestataires de services, les résultats par pays ont
+  été partagés avec tous les bureaux nationaux de statistique par le biais d’une communication
+  par courrier électronique envoyée par le statisticien en chef de la FAO, demandant
+  des commentaires, et publiés uniquement s’ils n'avaient pas refusé. </p>
 INST_MANDATE: <p>Le Bureau du statisticien en chef de la FAO gère le Groupe de travail
   interministériel sur les indicateurs des ODD sous la tutelle de la FAO et identifie
   un point focal pour chacun d’eux. Le chef de l’Équipe des statistiques sur la sécurité
-  alimentaire et la nutrition de la Division de statistique est officiellement nommé
-  personne responsable de la collecte, du traitement et de la diffusion des statistiques
-  pour cet indicateur. </p>
+  alimentaire et la nutrition de la Division de la statistique est officiellement
+  nommé personne responsable de la collecte, du traitement et de la diffusion des
+  statistiques pour cet indicateur. </p>
 COLL_METHOD: <p>Entrevues en face-à-face et téléphoniques dans le cadre d'enquêtes
   nationales.</p>
 CLASS_SYSTEM: <p>L’élaboration des estimations régionales et mondiales, ainsi que
@@ -1549,9 +1360,12 @@ CLASS_SYSTEM: <p>L’élaboration des estimations régionales et mondiales, ains
   les pays en développement enclavés, les petits États insulaires en développement,
   les régions développées et les régions en développement, de cet indicateur suit
   la norme M49 des Nations Unies.</p>
-UNIT_MEASURE: <p>L'unité de la prévalence de l'insécurité alimentaire modérée ou grave
-  est en pourcentage de la population totale. Un indicateur connexe, le nombre de
-  personnes en situation d'insécurité alimentaire, est mesuré en millions de personnes.
-  </p>
+UNIT_MEASURE: "<p>Prévalence de l'insécurité alimentaire : Pourcentage (%)</p>\n<p>Nombre\
+  \ de personnes en situation d'insécurité alimentaire : Millions (de personnes) </p>"
 CONTACT_ORGANISATION: <p>Organisation des Nations unies pour l'alimentation et l'agriculture
   (FAO)</p>
+SDG_SERIES_DESCR: "<p>Prévalence de l’insécurité alimentaire modérée ou grave dans\
+  \ la population adulte (%) </p>\n<p>Prévalence de l’insécurité alimentaire grave\
+  \ dans la population adulte (%) </p>\n<p>Population totale en situation d’insécurité\
+  \ alimentaire modérée ou grave (milliers de personnes) </p>\n<p>Population totale\
+  \ en situation d’insécurité alimentaire grave (milliers de personnes) </p>"

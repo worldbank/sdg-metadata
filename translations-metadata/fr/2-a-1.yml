@@ -29,8 +29,8 @@ STAT_CONC_DEF: >-
   pêche et de la chasse, ou la division A de la Classification internationale type
   par industrie (CITI) Rév. 4 (égale à la division A+B de la CITI Rév. 3.2). </p>
 
-  <p>Les dépenses publiques sont toutes les dépenses et acquisitions d'actifs non
-  financiers associés au soutien d'un secteur en particulier, tel que défini dans
+  <p>Les dépenses publiques comprennent toutes les dépenses et acquisitions d'actifs
+  non financiers associés au soutien d'un secteur en particulier, tel que défini dans
   le Manuel de statistiques de finances publiques (MSFP) 2014 élaboré par le Fonds
   monétaire international (FMI). </p>
 
@@ -43,52 +43,50 @@ STAT_CONC_DEF: >-
   nationale (SCN). </p>
 SOURCE_TYPE: >-
   <p>Les données sur les dépenses publiques sont recueillies auprès des pays au moyen
-  d'un questionnaire annuel administré par la FAO. Étant donné que les pays compilent
-  généralement les données sur les dépenses publiques en fonction de leurs systèmes
-  financiers et comptables, et qu'il s'agit de données administratives couvrant la
-  totalité des dépenses publiques, en particulier au niveau du gouvernement central,
-  il n'y a pas d'erreur d'échantillonnage. Pour certains pays qui ne communiquent
-  pas de telles données à la FAO, les données peuvent être obtenues à partir de la
-  base de données SFP du FMI (qui comprend des données similaires, mais couvrant davantage
-  de secteurs, et avec moins de désagrégation du CFAP 042) ou à partir des sites Web
-  officiels des gouvernements nationaux. </p>
+  d’un questionnaire annuel administré par la FAO. Ces données ne sont pas affectées
+  par une erreur d’échantillonnage, étant donné que les pays compilent généralement
+  les questionnaires administrés par la FAO sur la base de leurs systèmes financiers
+  et comptables, en utilisant des informations administratives sur les dépenses publiques
+  en fonction de la disponibilité et de l’exhaustivité des données sources. Pour certains
+  pays qui ne communiquent pas directement de données à la FAO, les principaux agrégats
+  de dépenses nécessaires au calcul de l’indicateur 2.a.1 sont obtenus soit à partir
+  de la base de données SFP du FMI, soit auprès d’autres organisations régionales,
+  soit à partir des sites Web officiels des gouvernements nationaux. </p>
 
-  <p>Les données sur la valeur ajoutée agricole et le PIB sont basées sur le système
-  de comptabilité nationale, qui est un cadre analytique qui compile les données nationales
-  à partir d'une combinaison d'enquêtes, de recensements et de sources administratives
-  (par exemple, fiscales). Ces données sont obtenues auprès de la Division des statistiques
-  des Nations Unies, qui fournit des estimations de comptabilité nationale pour 220
-  pays et territoires.</p>
+  <p>Les données sur la valeur ajoutée et le PIB de l’agriculture proviennent de la
+  Division de la statistique des Nations Unies, qui fournit des estimations des comptes
+  nationaux pour 220 pays et territoires. </p>
 COLL_METHOD: >-
   <p>Les données pour le dénominateur sont recueillies chaque année auprès des pays
   à l'aide du questionnaire de la FAO sur les dépenses publiques en agriculture (DPA),
-  élaboré en collaboration avec le FMI. Les données des pays peuvent être complétées,
-  pour les pays avec données manquantes, par des données recueillies par le FMI, ou
-  publiées sur les sites Web officiels des gouvernements nationaux. Les homologues
-  officiels au niveau national sont, selon le pays, le bureau national de statistique,
-  le ministère des finances (ou une autre agence centrale de planification) ou le
-  ministère de l'agriculture. La validation et la consultation ont été menées par
-  le biais de diverses commissions et comités de la FAO, notamment ses deux commissions
+  élaboré en collaboration avec le FMI. Pour les pays dont les informations sont manquantes,
+  les données sont complétées par des données recueillies par le FMI ou par les organisations
+  régionales ou publiées sur les sites Web officiels des gouvernements nationaux.
+  Les homologues officiels au niveau national sont, selon le pays, le bureau national
+  de statistique, le ministère des finances (ou une autre agence centrale de planification)
+  ou le ministère de l'agriculture. La validation et la consultation ont été menées
+  par le biais de diverses commissions et comités de la FAO, notamment ses deux commissions
   de statistiques agricoles en Afrique et en Asie et Pacifique, son Comité des statistiques
   de l'agriculture et de l'élevage en Amérique latine et dans les Caraïbes, et son
   Comité de l'agriculture. </p>
 FREQ_COLL: >-
-  <p>La collecte des données pour l'année de référence 2020 sur les dépenses publiques
-  en agriculture (DPA) commencera en mars-avril 2021. En raison du temps nécessaire
+  <p>La collecte des données pour l'année de référence t-1 sur les dépenses publiques
+  en agriculture (DPA) commencera en mars-avril de l'année t. En raison du temps nécessaire
   pour recueillir, compiler et publier les données nationales, certains pays seront
   peut-être en retard pour fournir des données ponctuelles.</p>
 REL_CAL_POLICY: >-
-  <p>Comme ces données sont en grande partie compilées annuellement, la prochaine
-  publication de cet indicateur est prévue pour novembre 2021 et couvrira les données
-  jusqu'à l'année de référence 2020 (pour les pays pour lesquels la collecte, la compilation
-  et la publication des données sont plus rapides).</p>
+  <p>Comme les données de la Classification des fonctions des administrations publiques
+  (CFAP) sont en grande partie compilées annuellement, cet indicateur est publié chaque
+  année en mars, couvrant les données jusqu’à l’année de référence t-2 (pour les pays
+  pour lesquels la collecte, la compilation et la diffusion des données sont plus
+  opportunes). </p>
 
-  <p></p>
+  <p> </p>
 DATA_SOURCE: >-
-  <p>Ministère des finances, agence centrale de planification, bureau national de
-  statistique et/ou ministère de l'agriculture</p>
+  <p>Ministère des finances, agence centrale de planification, banques centrales,
+  bureau national de statistique et/ou ministère de l'agriculture.</p>
 COMPILING_ORG: >-
-  <p>Organisation des Nations Unies pour l’alimentation et l’agriculture (FAO)</p>
+  <p>Organisation des Nations Unies pour l'alimentation et l'agriculture (FAO)</p>
 RATIONALE: >-
   <p>Un indice d’orientation agricole (IOA) supérieur à 1 reflète une orientation
   plus élevée vers le secteur agricole, qui reçoit une part plus élevée des dépenses
@@ -161,9 +159,9 @@ REC_USE_LIM: >-
   pour tous les pays déclarants. Alors que la plupart des économies avancées et de
   nombreuses économies de marché émergentes déclarent ces données, de nombreuses économies
   plus petites et/ou à faible revenu n’ont pas d’interventions budgétaires significatives
-  dans l’agriculture aux niveaux de l'état / provincial et local / municipal; ou ne
-  disposent pas de données sources suffisantes pour établir des estimations significatives
-  des administrations publiques pour chaque sous-secteur. Étant donné que dans plusieurs
+  dans l’agriculture aux niveaux de l'état/provincial et local/municipal; ou ne disposent
+  pas de données sources suffisantes pour établir des estimations significatives des
+  administrations publiques pour chaque sous-secteur. Étant donné que dans plusieurs
   pays, des interventions importantes dans le domaine de l’agriculture sont mises
   en œuvre par les gouvernements infranationaux, l’indicateur 2.a.1 est calculé en
   utilisant le niveau de gouvernement le plus élevé disponible pour le pays déclarant.
@@ -275,7 +273,7 @@ DATA_COMP: >-
     </math></p>
   <p>où : </p>
 
-  <p><br><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <p><math xmlns="http://www.w3.org/1998/Math/MathML">
           <mi>P</mi>
           <mi>a</mi>
           <mi>r</mi>
@@ -316,7 +314,6 @@ DATA_COMP: >-
           <mi>u</mi>
           <mi>e</mi>
           <mi>s</mi>
-      <mo>=</mo>
     </math></p>
   <p><math xmlns="http://www.w3.org/1998/Math/MathML">
       <mo>=</mo>
@@ -386,7 +383,7 @@ DATA_COMP: >-
           <mi>s</mi>
         </mrow>
       </mfrac>
-      <mi>*</mi>
+      <mo>&#xD7;</mo>
       <mn>100</mn>
     </math></p>
   <p>L'agriculture désigne la catégorie 042 da la CFAP (agriculture, foresterie, pêche
@@ -433,39 +430,38 @@ DATA_COMP: >-
           <mi>P</mi>
           <mi>I</mi>
           <mi>B</mi>
-      <mo>=</mo>
     </math></p>
   <p><math xmlns="http://www.w3.org/1998/Math/MathML">
       <mo>=</mo>
       <mi>&amp;nbsp;</mi>
       <mfrac>
         <mrow>
-          <mi mathvariant="normal">V</mi>
-          <mi mathvariant="normal">a</mi>
-          <mi mathvariant="normal">l</mi>
-          <mi mathvariant="normal">e</mi>
-          <mi mathvariant="normal">u</mi>
-          <mi mathvariant="normal">r</mi>
-          <mi mathvariant="normal">&amp;nbsp;</mi>
-          <mi mathvariant="normal">a</mi>
-          <mi mathvariant="normal">j</mi>
-          <mi mathvariant="normal">o</mi>
-          <mi mathvariant="normal">u</mi>
-          <mi mathvariant="normal">t</mi>
-          <mi mathvariant="normal">é</mi>
-          <mi mathvariant="normal">e</mi>
-          <mi mathvariant="normal">&amp;nbsp;</mi>
-          <mi mathvariant="normal">a</mi>
-          <mi mathvariant="normal">g</mi>
-          <mi mathvariant="normal">r</mi>
-          <mi mathvariant="normal">i</mi>
-          <mi mathvariant="normal">c</mi>
-          <mi mathvariant="normal">u</mi>
-          <mi mathvariant="normal">l</mi>
-          <mi mathvariant="normal">t</mi>
-          <mi mathvariant="normal">u</mi>
-          <mi mathvariant="normal">r</mi>
-          <mi mathvariant="normal">e</mi>
+          <mi>V</mi>
+          <mi>a</mi>
+          <mi>l</mi>
+          <mi>e</mi>
+          <mi>u</mi>
+          <mi>r</mi>
+          <mi>&amp;nbsp;</mi>
+          <mi>a</mi>
+          <mi>j</mi>
+          <mi>o</mi>
+          <mi>u</mi>
+          <mi>t</mi>
+          <mi>é</mi>
+          <mi>e</mi>
+          <mi>&amp;nbsp;</mi>
+         <mi>a</mi>
+          <mi>g</mi>
+          <mi>r</mi>
+          <mi>i</mi>
+          <mi>c</mi>
+          <mi>u</mi>
+          <mi>l</mi>
+          <mi>t</mi>
+          <mi>u</mi>
+          <mi>r</mi>
+          <mi>e</mi>
         </mrow>
         <mrow>
           <mi>P</mi>
@@ -473,27 +469,27 @@ DATA_COMP: >-
           <mi>B</mi>
         </mrow>
       </mfrac>
-      <mi>*</mi>
+      <mo>&#xD7;</mo>
       <mn>100</mn>
     </math></p>
-  <p> L'agriculture désigne la division A de la CITI Rév. 4 (agriculture, foresterie,
+  <p>L'agriculture désigne la division A de la CITI Rév. 4 (agriculture, foresterie,
   pêche et chasse) qui est égale à la division A+B de la CITI Rév. 3.2. </p>
 IMPUTATION: >-
-  <h5><strong>Au niveau national :</strong></h5>
+  <p><strong>Au niveau national :</strong></p>
 
-  <p>Les valeurs manquantes des dépenses publiques en agriculture en 2019 ont été
-  imputées avec des prévisions des tendances du PIB et des moyennes mobiles de 3 à
-  5 ans de la part de l'agricultre dans les dépenses publiques. Les prévisions sont
-  utilisées pour calculer les agrégats régionaux et mondiaux, mais ne sont pas présentées
-  au niveau national. </p>
+  <p>Les valeurs manquantes des dépenses publiques en agriculture ont été imputées
+  avec des prévisions des tendances du PIB et des moyennes mobiles de 3 à 5 ans de
+  la part de l'agricultre dans les dépenses publiques. Les prévisions sont utilisées
+  pour calculer les agrégats régionaux et mondiaux, mais ne sont pas présentées au
+  niveau national. </p>
 
-  <h5><strong>Aux niveaux régional et mondial : </strong></h5>
+  <p><strong>Aux niveaux régional et mondial : </strong></p>
 
-  <p>Les agrégats régionaux et mondiaux de 2019 étaient basés sur un mélange de données
-  directement déclarées par les pays (à la FAO ou au FMI) et de prévisions de valeurs
-  manquantes. Pour la période 2001-2018, les agrégats régionaux et mondiaux sont calculés
-  sur la base des données disponibles des pays et des interpolations des données manquantes.
-  </p>
+  <p>Les agrégats régionaux et mondiaux étaient basés sur un mélange de données directement
+  déclarées par les pays (à la FAO ou au FMI) et de prévisions de valeurs manquantes.
+  Pour la période de séries chronologiques, les agrégats régionaux et mondiaux sont
+  calculés sur la base des données déclarées par les pays et des interpolations des
+  valeurs manquantes. </p>
 REG_AGG: >-
   <p>Les estimations mondiales et régionales sont compilées en additionnant d'abord
   séparément les quatre composantes individuelles de l'indice, soit : les dépenses
@@ -513,13 +509,15 @@ COVERAGE: >-
 
   <p><strong>Séries chronologiques : </strong></p>
 
-  <p>De 2001 à 2019</p>
+  <p>À partir de 2001</p>
 
   <p><strong>Désagrégation :</strong></p>
 
   <p>Comme cet indicateur est basé sur les données des comptes nationaux et sur les
   dépenses publiques totales, il ne permet pas la désagrégation selon les caractéristiques
-  démographiques ou géographiques.</p>
+  démographiques ou géographiques. Toutefois, lorsque les pays déclarent des données
+  sur les dépenses pour les administrations publiques consolidées et leurs sous-secteurs,
+  une ventilation par niveau d’administration publique est possible.</p>
 COMPARABILITY: >-
   <p><strong>Sources des divergences : </strong></p>
 
@@ -530,7 +528,7 @@ COMPARABILITY: >-
   après interrogation des répondants nationaux, il peut y avoir une certaine différence
   entre les données déclarées par la FAO et les chiffres nationaux non révisés.</p>
 OTHER_DOC: >-
-  <p><strong>URL:</strong></p>
+  <p><strong>URL :</strong></p>
 
   <p>https://www.fao.org/home/fr</p>
 
@@ -541,25 +539,40 @@ OTHER_DOC: >-
     <li>Manuel de statistiques de finances publiques 2014 du FMI <br>https://www.imf.org/external/Pubs/FT/GFS/Manual/2014/GFSM_2014_FRE.pdf.</li>
   </ul>
 
+  <p><strong>Métadonnées de l'indicateur 2.a.1 ANNEXE I : Plus haut niveau de gouvernement
+  disponible - dernière mise à jour le 1er mars 2022</strong></p>
+
   <table>
     <tbody>
       <tr>
         <td>
-          <p>2019</p>
+          <p><strong>Dernière année</strong></p>
         </td>
         <td>
-          <p>51</p>
+          <p><strong>Code M49</strong></p>
         </td>
         <td>
-          <p>Arménie</p>
+          <p><strong>Région</strong></p>
         </td>
         <td>
-          <p>GG</p>
+          <p><strong>Niveau de gouvernement</strong></p>
+        </td>
+        <td>
+          <p><strong>Dernière année</strong></p>
+        </td>
+        <td>
+          <p><strong>Code M49</strong></p>
+        </td>
+        <td>
+          <p><strong>Région</strong></p>
+        </td>
+        <td>
+          <p><strong>Niveau de gouvernement</strong></p>
         </td>
       </tr>
       <tr>
         <td>
-          <p>2019</p>
+          <p>2017</p>
         </td>
         <td>
           <p>4</p>
@@ -570,444 +583,8 @@ OTHER_DOC: >-
         <td>
           <p>GG</p>
         </td>
-      </tr>
-      <tr>
         <td>
-          <p>2019</p>
-        </td>
-        <td>
-          <p>8</p>
-        </td>
-        <td>
-          <p>Albanie</p>
-        </td>
-        <td>
-          <p>GG</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>2009</p>
-        </td>
-        <td>
-          <p>12</p>
-        </td>
-        <td>
-          <p>Algérie</p>
-        </td>
-        <td>
-          <p>BA</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>2019</p>
-        </td>
-        <td>
-          <p>24</p>
-        </td>
-        <td>
-          <p>Angola</p>
-        </td>
-        <td>
-          <p>GG</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>2019</p>
-        </td>
-        <td>
-          <p>28</p>
-        </td>
-        <td>
-          <p>Antigua et Barbuda</p>
-        </td>
-        <td>
-          <p>BA</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>2019</p>
-        </td>
-        <td>
-          <p>32</p>
-        </td>
-        <td>
-          <p>Argentine</p>
-        </td>
-        <td>
-          <p>CG</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>2019</p>
-        </td>
-        <td>
-          <p>36</p>
-        </td>
-        <td>
-          <p>Australie</p>
-        </td>
-        <td>
-          <p>GG</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>2019</p>
-        </td>
-        <td>
-          <p>40</p>
-        </td>
-        <td>
-          <p>Autriche</p>
-        </td>
-        <td>
-          <p>GG</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>2019</p>
-        </td>
-        <td>
-          <p>44</p>
-        </td>
-        <td>
-          <p>Bahamas</p>
-        </td>
-        <td>
-          <p>BA</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>2019</p>
-        </td>
-        <td>
-          <p>48</p>
-        </td>
-        <td>
-          <p>Bahreïn</p>
-        </td>
-        <td>
-          <p>BA</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>2019</p>
-        </td>
-        <td>
-          <p>50</p>
-        </td>
-        <td>
-          <p>Bangladesh</p>
-        </td>
-        <td>
-          <p>BA</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>2019</p>
-        </td>
-        <td>
-          <p>64</p>
-        </td>
-        <td>
-          <p>Bhoutan</p>
-        </td>
-        <td>
-          <p>BA</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>2019</p>
-        </td>
-        <td>
-          <p>72</p>
-        </td>
-        <td>
-          <p>Botswana</p>
-        </td>
-        <td>
-          <p>BA</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>2019</p>
-        </td>
-        <td>
-          <p>76</p>
-        </td>
-        <td>
-          <p>Brésil</p>
-        </td>
-        <td>
-          <p>GG</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>2019</p>
-        </td>
-        <td>
-          <p>90</p>
-        </td>
-        <td>
-          <p>Îles Solomon</p>
-        </td>
-        <td>
-          <p>BA</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>2019</p>
-        </td>
-        <td>
-          <p>100</p>
-        </td>
-        <td>
-          <p>Bulgarie</p>
-        </td>
-        <td>
-          <p>GG</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>2019</p>
-        </td>
-        <td>
-          <p>104</p>
-        </td>
-        <td>
-          <p>Myanmar</p>
-        </td>
-        <td>
-          <p>GG</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>2019</p>
-        </td>
-        <td>
-          <p>108</p>
-        </td>
-        <td>
-          <p>Burundi</p>
-        </td>
-        <td>
-          <p>BA</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>2019</p>
-        </td>
-        <td>
-          <p>124</p>
-        </td>
-        <td>
-          <p>Canada</p>
-        </td>
-        <td>
-          <p>GG</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>2019</p>
-        </td>
-        <td>
-          <p>132</p>
-        </td>
-        <td>
-          <p>Cap-Vert</p>
-        </td>
-        <td>
-          <p>CG</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>2010</p>
-        </td>
-        <td>
-          <p>140</p>
-        </td>
-        <td>
-          <p>République centrafricaine</p>
-        </td>
-        <td>
-          <p>BA</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>2019</p>
-        </td>
-        <td>
-          <p>144</p>
-        </td>
-        <td>
-          <p>Sri Lanka</p>
-        </td>
-        <td>
-          <p>BA</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>2019</p>
-        </td>
-        <td>
-          <p>152</p>
-        </td>
-        <td>
-          <p>Chili</p>
-        </td>
-        <td>
-          <p>GG</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>2019</p>
-        </td>
-        <td>
-          <p>156</p>
-        </td>
-        <td>
-          <p>Chine continentale</p>
-        </td>
-        <td>
-          <p>GG</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>2019</p>
-        </td>
-        <td>
-          <p>170</p>
-        </td>
-        <td>
-          <p>Colombie</p>
-        </td>
-        <td>
-          <p>GG</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>2012</p>
-        </td>
-        <td>
-          <p>178</p>
-        </td>
-        <td>
-          <p>Congo</p>
-        </td>
-        <td>
-          <p>BA</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>2019</p>
-        </td>
-        <td>
-          <p>184</p>
-        </td>
-        <td>
-          <p>Îles Cook</p>
-        </td>
-        <td>
-          <p>BA</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>2019</p>
-        </td>
-        <td>
-          <p>188</p>
-        </td>
-        <td>
-          <p>Costa Rica</p>
-        </td>
-        <td>
-          <p>GG</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>2019</p>
-        </td>
-        <td>
-          <p>192</p>
-        </td>
-        <td>
-          <p>Cuba</p>
-        </td>
-        <td>
-          <p>CG</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>2019</p>
-        </td>
-        <td>
-          <p>196</p>
-        </td>
-        <td>
-          <p>Chypre</p>
-        </td>
-        <td>
-          <p>GG</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>2019</p>
-        </td>
-        <td>
-          <p>31</p>
-        </td>
-        <td>
-          <p>Azerbaïdjan</p>
-        </td>
-        <td>
-          <p>GG</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>2019</p>
-        </td>
-        <td>
-          <p>208</p>
-        </td>
-        <td>
-          <p>Danemark</p>
-        </td>
-        <td>
-          <p>GG</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>2019</p>
+          <p>2020</p>
         </td>
         <td>
           <p>214</p>
@@ -1021,21 +598,19 @@ OTHER_DOC: >-
       </tr>
       <tr>
         <td>
-          <p>2019</p>
+          <p>2020</p>
         </td>
         <td>
-          <p>112</p>
+          <p>8</p>
         </td>
         <td>
-          <p>Biélorussie</p>
+          <p>Albanie</p>
         </td>
         <td>
           <p>GG</p>
         </td>
-      </tr>
-      <tr>
         <td>
-          <p>2019</p>
+          <p>2020</p>
         </td>
         <td>
           <p>218</p>
@@ -1049,7 +624,19 @@ OTHER_DOC: >-
       </tr>
       <tr>
         <td>
-          <p>2019</p>
+          <p>2018</p>
+        </td>
+        <td>
+          <p>12</p>
+        </td>
+        <td>
+          <p>Algérie</p>
+        </td>
+        <td>
+          <p>BA</p>
+        </td>
+        <td>
+          <p>2020</p>
         </td>
         <td>
           <p>818</p>
@@ -1063,7 +650,19 @@ OTHER_DOC: >-
       </tr>
       <tr>
         <td>
-          <p>2019</p>
+          <p>2020</p>
+        </td>
+        <td>
+          <p>24</p>
+        </td>
+        <td>
+          <p>Angola</p>
+        </td>
+        <td>
+          <p>GG</p>
+        </td>
+        <td>
+          <p>2020</p>
         </td>
         <td>
           <p>222</p>
@@ -1077,7 +676,19 @@ OTHER_DOC: >-
       </tr>
       <tr>
         <td>
-          <p>2009</p>
+          <p>2020</p>
+        </td>
+        <td>
+          <p>28</p>
+        </td>
+        <td>
+          <p>Antigua et Barbuda</p>
+        </td>
+        <td>
+          <p>GG</p>
+        </td>
+        <td>
+          <p>2020</p>
         </td>
         <td>
           <p>226</p>
@@ -1090,6 +701,18 @@ OTHER_DOC: >-
         </td>
       </tr>
       <tr>
+        <td>
+          <p>2020</p>
+        </td>
+        <td>
+          <p>32</p>
+        </td>
+        <td>
+          <p>Argentine</p>
+        </td>
+        <td>
+          <p>CG</p>
+        </td>
         <td>
           <p>2019</p>
         </td>
@@ -1105,1161 +728,19 @@ OTHER_DOC: >-
       </tr>
       <tr>
         <td>
-          <p>2019</p>
+          <p>2020</p>
         </td>
         <td>
-          <p>242</p>
+          <p>51</p>
         </td>
         <td>
-          <p>Fidji</p>
-        </td>
-        <td>
-          <p>BA</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>2019</p>
-        </td>
-        <td>
-          <p>246</p>
-        </td>
-        <td>
-          <p>Finlande</p>
+          <p>Arménie</p>
         </td>
         <td>
           <p>GG</p>
         </td>
-      </tr>
-      <tr>
-        <td>
-          <p>2019</p>
-        </td>
-        <td>
-          <p>250</p>
-        </td>
-        <td>
-          <p>France</p>
-        </td>
-        <td>
-          <p>GG</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>2019</p>
-        </td>
-        <td>
-          <p>268</p>
-        </td>
-        <td>
-          <p>Géorgie</p>
-        </td>
-        <td>
-          <p>CG</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>2019</p>
-        </td>
-        <td>
-          <p>276</p>
-        </td>
-        <td>
-          <p>Allemagne</p>
-        </td>
-        <td>
-          <p>GG</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>2019</p>
-        </td>
-        <td>
-          <p>288</p>
-        </td>
-        <td>
-          <p>Ghana</p>
-        </td>
-        <td>
-          <p>BA</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>2019</p>
-        </td>
-        <td>
-          <p>300</p>
-        </td>
-        <td>
-          <p>Grèce</p>
-        </td>
-        <td>
-          <p>GG</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>2019</p>
-        </td>
-        <td>
-          <p>308</p>
-        </td>
-        <td>
-          <p>Grenade</p>
-        </td>
-        <td>
-          <p>CG</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>2019</p>
-        </td>
-        <td>
-          <p>320</p>
-        </td>
-        <td>
-          <p>Guatemala</p>
-        </td>
-        <td>
-          <p>CG</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>2019</p>
-        </td>
-        <td>
-          <p>324</p>
-        </td>
-        <td>
-          <p>Guinée</p>
-        </td>
-        <td>
-          <p>BA</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>2019</p>
-        </td>
-        <td>
-          <p>328</p>
-        </td>
-        <td>
-          <p>Guyane</p>
-        </td>
-        <td>
-          <p>BA</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>2019</p>
-        </td>
-        <td>
-          <p>348</p>
-        </td>
-        <td>
-          <p>Hongrie</p>
-        </td>
-        <td>
-          <p>GG</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>2019</p>
-        </td>
-        <td>
-          <p>191</p>
-        </td>
-        <td>
-          <p>Croatie</p>
-        </td>
-        <td>
-          <p>GG</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>2019</p>
-        </td>
-        <td>
-          <p>352</p>
-        </td>
-        <td>
-          <p>Islande</p>
-        </td>
-        <td>
-          <p>GG</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>2019</p>
-        </td>
-        <td>
-          <p>356</p>
-        </td>
-        <td>
-          <p>Inde</p>
-        </td>
-        <td>
-          <p>GG</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>2019</p>
-        </td>
-        <td>
-          <p>360</p>
-        </td>
-        <td>
-          <p>Indonésie</p>
-        </td>
-        <td>
-          <p>CG</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>2009</p>
-        </td>
-        <td>
-          <p>364</p>
-        </td>
-        <td>
-          <p>Iran (République islamique de l')</p>
-        </td>
-        <td>
-          <p>CG</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>2019</p>
-        </td>
-        <td>
-          <p>372</p>
-        </td>
-        <td>
-          <p>Irlande</p>
-        </td>
-        <td>
-          <p>GG</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>2019</p>
-        </td>
-        <td>
-          <p>376</p>
-        </td>
-        <td>
-          <p>Israël</p>
-        </td>
-        <td>
-          <p>GG</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>2019</p>
-        </td>
-        <td>
-          <p>380</p>
-        </td>
-        <td>
-          <p>Italie</p>
-        </td>
-        <td>
-          <p>GG</p>
-        </td>
-      </tr>
-      <tr>
         <td>
           <p>2018</p>
-        </td>
-        <td>
-          <p>384</p>
-        </td>
-        <td>
-          <p>Côte d'Ivoire</p>
-        </td>
-        <td>
-          <p>BA</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>2019</p>
-        </td>
-        <td>
-          <p>398</p>
-        </td>
-        <td>
-          <p>Kazakhstan</p>
-        </td>
-        <td>
-          <p>GG</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>2019</p>
-        </td>
-        <td>
-          <p>388</p>
-        </td>
-        <td>
-          <p>Jamaïque</p>
-        </td>
-        <td>
-          <p>BA</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>2019</p>
-        </td>
-        <td>
-          <p>392</p>
-        </td>
-        <td>
-          <p>Japon</p>
-        </td>
-        <td>
-          <p>GG</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>2019</p>
-        </td>
-        <td>
-          <p>400</p>
-        </td>
-        <td>
-          <p>Jordanie</p>
-        </td>
-        <td>
-          <p>BA</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>2018</p>
-        </td>
-        <td>
-          <p>417</p>
-        </td>
-        <td>
-          <p>Kyrgyzstan</p>
-        </td>
-        <td>
-          <p>GG</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>2019</p>
-        </td>
-        <td>
-          <p>404</p>
-        </td>
-        <td>
-          <p>Kenya</p>
-        </td>
-        <td>
-          <p>BA</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>2019</p>
-        </td>
-        <td>
-          <p>410</p>
-        </td>
-        <td>
-          <p>République de la Corée</p>
-        </td>
-        <td>
-          <p>CG</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>2019</p>
-        </td>
-        <td>
-          <p>414</p>
-        </td>
-        <td>
-          <p>Koweït</p>
-        </td>
-        <td>
-          <p>CG</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>2019</p>
-        </td>
-        <td>
-          <p>428</p>
-        </td>
-        <td>
-          <p>Lettonie</p>
-        </td>
-        <td>
-          <p>GG</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>2019</p>
-        </td>
-        <td>
-          <p>422</p>
-        </td>
-        <td>
-          <p>Liban</p>
-        </td>
-        <td>
-          <p>BA</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>2019</p>
-        </td>
-        <td>
-          <p>426</p>
-        </td>
-        <td>
-          <p>Lesotho</p>
-        </td>
-        <td>
-          <p>BA</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>2012</p>
-        </td>
-        <td>
-          <p>430</p>
-        </td>
-        <td>
-          <p>Libérie</p>
-        </td>
-        <td>
-          <p>CG</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>2018</p>
-        </td>
-        <td>
-          <p>440</p>
-        </td>
-        <td>
-          <p>Lithuanie</p>
-        </td>
-        <td>
-          <p>GG</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>2018</p>
-        </td>
-        <td>
-          <p>584</p>
-        </td>
-        <td>
-          <p>Îles Marshall</p>
-        </td>
-        <td>
-          <p>BA</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>2019</p>
-        </td>
-        <td>
-          <p>450</p>
-        </td>
-        <td>
-          <p>Madagascar</p>
-        </td>
-        <td>
-          <p>BA</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>2019</p>
-        </td>
-        <td>
-          <p>454</p>
-        </td>
-        <td>
-          <p>Malawi</p>
-        </td>
-        <td>
-          <p>BA</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>2019</p>
-        </td>
-        <td>
-          <p>458</p>
-        </td>
-        <td>
-          <p>Malaysie</p>
-        </td>
-        <td>
-          <p>BA</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>2019</p>
-        </td>
-        <td>
-          <p>462</p>
-        </td>
-        <td>
-          <p>Maldives</p>
-        </td>
-        <td>
-          <p>CG</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>2019</p>
-        </td>
-        <td>
-          <p>466</p>
-        </td>
-        <td>
-          <p>Mali</p>
-        </td>
-        <td>
-          <p>BA</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>2019</p>
-        </td>
-        <td>
-          <p>470</p>
-        </td>
-        <td>
-          <p>Malte</p>
-        </td>
-        <td>
-          <p>GG</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>2019</p>
-        </td>
-        <td>
-          <p>480</p>
-        </td>
-        <td>
-          <p>Maurice</p>
-        </td>
-        <td>
-          <p>GG</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>2019</p>
-        </td>
-        <td>
-          <p>484</p>
-        </td>
-        <td>
-          <p>Mexique</p>
-        </td>
-        <td>
-          <p>CG</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>2018</p>
-        </td>
-        <td>
-          <p>496</p>
-        </td>
-        <td>
-          <p>Mongolie</p>
-        </td>
-        <td>
-          <p>GG</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>2019</p>
-        </td>
-        <td>
-          <p>508</p>
-        </td>
-        <td>
-          <p>Mozambique</p>
-        </td>
-        <td>
-          <p>BA</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>2018</p>
-        </td>
-        <td>
-          <p>583</p>
-        </td>
-        <td>
-          <p>Micronésie (États fédérés de)</p>
-        </td>
-        <td>
-          <p>BA</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>2019</p>
-        </td>
-        <td>
-          <p>498</p>
-        </td>
-        <td>
-          <p>République de Moldavie</p>
-        </td>
-        <td>
-          <p>GG</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>2019</p>
-        </td>
-        <td>
-          <p>516</p>
-        </td>
-        <td>
-          <p>Namibie</p>
-        </td>
-        <td>
-          <p>BA</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>2019</p>
-        </td>
-        <td>
-          <p>524</p>
-        </td>
-        <td>
-          <p>Népal</p>
-        </td>
-        <td>
-          <p>BA</p>
-        </td>
-      </tr>
-      <tr>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td>
-          <p>2019</p>
-        </td>
-        <td>
-          <p>528</p>
-        </td>
-        <td>
-          <p>Pays-Bas</p>
-        </td>
-        <td>
-          <p>GG</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>2012</p>
-        </td>
-        <td>
-          <p>548</p>
-        </td>
-        <td>
-          <p>Vanuatu</p>
-        </td>
-        <td>
-          <p>GG</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>2019</p>
-        </td>
-        <td>
-          <p>554</p>
-        </td>
-        <td>
-          <p>Nouvelle-Zélande</p>
-        </td>
-        <td>
-          <p>CGINCL</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>2016</p>
-        </td>
-        <td>
-          <p>562</p>
-        </td>
-        <td>
-          <p>Niger</p>
-        </td>
-        <td>
-          <p>BA</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>2018</p>
-        </td>
-        <td>
-          <p>566</p>
-        </td>
-        <td>
-          <p>Nigéria</p>
-        </td>
-        <td>
-          <p>GG</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>2019</p>
-        </td>
-        <td>
-          <p>578</p>
-        </td>
-        <td>
-          <p>Norvège</p>
-        </td>
-        <td>
-          <p>GG</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>2019</p>
-        </td>
-        <td>
-          <p>586</p>
-        </td>
-        <td>
-          <p>Pakistan</p>
-        </td>
-        <td>
-          <p>GG</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>2019</p>
-        </td>
-        <td>
-          <p>591</p>
-        </td>
-        <td>
-          <p>Panama</p>
-        </td>
-        <td>
-          <p>BA</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>2019</p>
-        </td>
-        <td>
-          <p>203</p>
-        </td>
-        <td>
-          <p>Tchéquie</p>
-        </td>
-        <td>
-          <p>GG</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>2019</p>
-        </td>
-        <td>
-          <p>598</p>
-        </td>
-        <td>
-          <p>Papua New Guinea</p>
-        </td>
-        <td>
-          <p>BA</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>2018</p>
-        </td>
-        <td>
-          <p>600</p>
-        </td>
-        <td>
-          <p>Paraguay</p>
-        </td>
-        <td>
-          <p>GG</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>2019</p>
-        </td>
-        <td>
-          <p>604</p>
-        </td>
-        <td>
-          <p>Pérou</p>
-        </td>
-        <td>
-          <p>GG</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>2019</p>
-        </td>
-        <td>
-          <p>608</p>
-        </td>
-        <td>
-          <p>Philippines</p>
-        </td>
-        <td>
-          <p>BA</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>2019</p>
-        </td>
-        <td>
-          <p>616</p>
-        </td>
-        <td>
-          <p>Pologne</p>
-        </td>
-        <td>
-          <p>GG</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>2019</p>
-        </td>
-        <td>
-          <p>620</p>
-        </td>
-        <td>
-          <p>Portugal</p>
-        </td>
-        <td>
-          <p>GG</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>2015</p>
-        </td>
-        <td>
-          <p>624</p>
-        </td>
-        <td>
-          <p>Guinée-Bissau</p>
-        </td>
-        <td>
-          <p>BA</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>2019</p>
-        </td>
-        <td>
-          <p>626</p>
-        </td>
-        <td>
-          <p>Timor oriental</p>
-        </td>
-        <td>
-          <p>GG</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>2005</p>
-        </td>
-        <td>
-          <p>634</p>
-        </td>
-        <td>
-          <p>Qatar</p>
-        </td>
-        <td>
-          <p>BA</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>2011</p>
-        </td>
-        <td>
-          <p>716</p>
-        </td>
-        <td>
-          <p>Zimbabwé</p>
-        </td>
-        <td>
-          <p>BA</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>2019</p>
-        </td>
-        <td>
-          <p>642</p>
-        </td>
-        <td>
-          <p>Roumanie</p>
-        </td>
-        <td>
-          <p>GG</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>2019</p>
-        </td>
-        <td>
-          <p>646</p>
-        </td>
-        <td>
-          <p>Rwanda</p>
-        </td>
-        <td>
-          <p>GG</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>2018</p>
-        </td>
-        <td>
-          <p>643</p>
-        </td>
-        <td>
-          <p>Fédération de Russie</p>
-        </td>
-        <td>
-          <p>GG</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>2019</p>
-        </td>
-        <td>
-          <p>659</p>
-        </td>
-        <td>
-          <p>Saint-Kitts-et-Nevis</p>
-        </td>
-        <td>
-          <p>BA</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>2019</p>
-        </td>
-        <td>
-          <p>662</p>
-        </td>
-        <td>
-          <p>Sainte-Lucie</p>
-        </td>
-        <td>
-          <p>BA</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>2019</p>
-        </td>
-        <td>
-          <p>670</p>
-        </td>
-        <td>
-          <p>Saint-Vincent-et-les-Grenadines</p>
-        </td>
-        <td>
-          <p>BA</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>2019</p>
-        </td>
-        <td>
-          <p>678</p>
-        </td>
-        <td>
-          <p>Sao Tomé-et-Principe</p>
-        </td>
-        <td>
-          <p>BA</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>2018</p>
-        </td>
-        <td>
-          <p>690</p>
-        </td>
-        <td>
-          <p>Seychelles</p>
-        </td>
-        <td>
-          <p>GG</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>2018</p>
-        </td>
-        <td>
-          <p>694</p>
-        </td>
-        <td>
-          <p>Sierra Leone</p>
-        </td>
-        <td>
-          <p>BA</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>2018</p>
-        </td>
-        <td>
-          <p>703</p>
-        </td>
-        <td>
-          <p>Slovaquie</p>
-        </td>
-        <td>
-          <p>GG</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>2019</p>
-        </td>
-        <td>
-          <p>702</p>
-        </td>
-        <td>
-          <p>Singapour</p>
-        </td>
-        <td>
-          <p>GG</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>2019</p>
-        </td>
-        <td>
-          <p>706</p>
-        </td>
-        <td>
-          <p>Somalie</p>
-        </td>
-        <td>
-          <p>CG</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>2018</p>
-        </td>
-        <td>
-          <p>710</p>
-        </td>
-        <td>
-          <p>Afrique du Sud</p>
-        </td>
-        <td>
-          <p>GG</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>2019</p>
-        </td>
-        <td>
-          <p>724</p>
-        </td>
-        <td>
-          <p>Espagne</p>
-        </td>
-        <td>
-          <p>GG</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>2019</p>
         </td>
         <td>
           <p>748</p>
@@ -2273,243 +754,17 @@ OTHER_DOC: >-
       </tr>
       <tr>
         <td>
-          <p>2019</p>
+          <p>2020</p>
         </td>
         <td>
-          <p>752</p>
+          <p>36</p>
         </td>
         <td>
-          <p>Suède</p>
-        </td>
-        <td>
-          <p>GG</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>2019</p>
-        </td>
-        <td>
-          <p>756</p>
-        </td>
-        <td>
-          <p>Suisse</p>
+          <p>Australie</p>
         </td>
         <td>
           <p>GG</p>
         </td>
-      </tr>
-      <tr>
-        <td>
-          <p>2019</p>
-        </td>
-        <td>
-          <p>834</p>
-        </td>
-        <td>
-          <p>République unie de Tanzanie</p>
-        </td>
-        <td>
-          <p>BA</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>2019</p>
-        </td>
-        <td>
-          <p>764</p>
-        </td>
-        <td>
-          <p>Thaïlande</p>
-        </td>
-        <td>
-          <p>GG</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>2019</p>
-        </td>
-        <td>
-          <p>768</p>
-        </td>
-        <td>
-          <p>Togo</p>
-        </td>
-        <td>
-          <p>GG</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>2018</p>
-        </td>
-        <td>
-          <p>780</p>
-        </td>
-        <td>
-          <p>Trinité-et-Tobago</p>
-        </td>
-        <td>
-          <p>CGINCL</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>2019</p>
-        </td>
-        <td>
-          <p>512</p>
-        </td>
-        <td>
-          <p>Oman</p>
-        </td>
-        <td>
-          <p>GG</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>2012</p>
-        </td>
-        <td>
-          <p>788</p>
-        </td>
-        <td>
-          <p>Tunisie</p>
-        </td>
-        <td>
-          <p>BA</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>2019</p>
-        </td>
-        <td>
-          <p>792</p>
-        </td>
-        <td>
-          <p>Turquie</p>
-        </td>
-        <td>
-          <p>GG</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>2018</p>
-        </td>
-        <td>
-          <p>784</p>
-        </td>
-        <td>
-          <p>Émirats arabes unis</p>
-        </td>
-        <td>
-          <p>CG</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>2019</p>
-        </td>
-        <td>
-          <p>800</p>
-        </td>
-        <td>
-          <p>Ouganda</p>
-        </td>
-        <td>
-          <p>GG</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>2019</p>
-        </td>
-        <td>
-          <p>826</p>
-        </td>
-        <td>
-          <p>Royaume-Uni </p>
-        </td>
-        <td>
-          <p>GG</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>2019</p>
-        </td>
-        <td>
-          <p>804</p>
-        </td>
-        <td>
-          <p>Ukraine</p>
-        </td>
-        <td>
-          <p>GG</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>2019</p>
-        </td>
-        <td>
-          <p>840</p>
-        </td>
-        <td>
-          <p>États-Unis d'Amérique</p>
-        </td>
-        <td>
-          <p>GG</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>2018</p>
-        </td>
-        <td>
-          <p>854</p>
-        </td>
-        <td>
-          <p>Burkina Faso</p>
-        </td>
-        <td>
-          <p>BA</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>2019</p>
-        </td>
-        <td>
-          <p>860</p>
-        </td>
-        <td>
-          <p>Uzbekistan</p>
-        </td>
-        <td>
-          <p>GG</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>2014</p>
-        </td>
-        <td>
-          <p>704</p>
-        </td>
-        <td>
-          <p>Vietnam</p>
-        </td>
-        <td>
-          <p>GG</p>
-        </td>
-      </tr>
-      <tr>
         <td>
           <p>2019</p>
         </td>
@@ -2528,10 +783,22 @@ OTHER_DOC: >-
           <p>2019</p>
         </td>
         <td>
-          <p>882</p>
+          <p>40</p>
         </td>
         <td>
-          <p>Samoa</p>
+          <p>Autriche</p>
+        </td>
+        <td>
+          <p>GG</p>
+        </td>
+        <td>
+          <p>2020</p>
+        </td>
+        <td>
+          <p>242</p>
+        </td>
+        <td>
+          <p>Fidji</p>
         </td>
         <td>
           <p>BA</p>
@@ -2539,13 +806,51 @@ OTHER_DOC: >-
       </tr>
       <tr>
         <td>
-          <p>2014</p>
+          <p>2020</p>
         </td>
         <td>
-          <p>887</p>
+          <p>31</p>
         </td>
         <td>
-          <p>Yémen</p>
+          <p>Azerbaïdjan</p>
+        </td>
+        <td>
+          <p>GG</p>
+        </td>
+        <td>
+          <p>2019</p>
+        </td>
+        <td>
+          <p>246</p>
+        </td>
+        <td>
+          <p>Finlande</p>
+        </td>
+        <td>
+          <p>GG</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>2020</p>
+        </td>
+        <td>
+          <p>44</p>
+        </td>
+        <td>
+          <p>Bahamas</p>
+        </td>
+        <td>
+          <p>BA</p>
+        </td>
+        <td>
+          <p>2019</p>
+        </td>
+        <td>
+          <p>250</p>
+        </td>
+        <td>
+          <p>France</p>
         </td>
         <td>
           <p>GG</p>
@@ -2556,10 +861,22 @@ OTHER_DOC: >-
           <p>2019</p>
         </td>
         <td>
-          <p>180</p>
+          <p>48</p>
         </td>
         <td>
-          <p>République démocratique du Congo</p>
+          <p>Bahreïn</p>
+        </td>
+        <td>
+          <p>BA</p>
+        </td>
+        <td>
+          <p>2020</p>
+        </td>
+        <td>
+          <p>270</p>
+        </td>
+        <td>
+          <p>Gambie</p>
         </td>
         <td>
           <p>BA</p>
@@ -2567,13 +884,77 @@ OTHER_DOC: >-
       </tr>
       <tr>
         <td>
+          <p>2016</p>
+        </td>
+        <td>
+          <p>50</p>
+        </td>
+        <td>
+          <p>Bangladesh</p>
+        </td>
+        <td>
+          <p>BA</p>
+        </td>
+        <td>
+          <p>2020</p>
+        </td>
+        <td>
+          <p>268</p>
+        </td>
+        <td>
+          <p>Géorgie</p>
+        </td>
+        <td>
+          <p>GG</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>2005</p>
+        </td>
+        <td>
+          <p>52</p>
+        </td>
+        <td>
+          <p>Barbades</p>
+        </td>
+        <td>
+          <p>BA</p>
+        </td>
+        <td>
+          <p>2020</p>
+        </td>
+        <td>
+          <p>276</p>
+        </td>
+        <td>
+          <p>Allemagne</p>
+        </td>
+        <td>
+          <p>GG</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
           <p>2019</p>
         </td>
         <td>
-          <p>894</p>
+          <p>112</p>
         </td>
         <td>
-          <p>Zambie</p>
+          <p>Biélorussie</p>
+        </td>
+        <td>
+          <p>GG</p>
+        </td>
+        <td>
+          <p>2019</p>
+        </td>
+        <td>
+          <p>288</p>
+        </td>
+        <td>
+          <p>Ghana</p>
         </td>
         <td>
           <p>BA</p>
@@ -2592,10 +973,781 @@ OTHER_DOC: >-
         <td>
           <p>GG</p>
         </td>
+        <td>
+          <p>2019</p>
+        </td>
+        <td>
+          <p>300</p>
+        </td>
+        <td>
+          <p>Grèce</p>
+        </td>
+        <td>
+          <p>GG</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>2020</p>
+        </td>
+        <td>
+          <p>84</p>
+        </td>
+        <td>
+          <p>Bélize</p>
+        </td>
+        <td>
+          <p>CG</p>
+        </td>
+        <td>
+          <p>2020</p>
+        </td>
+        <td>
+          <p>308</p>
+        </td>
+        <td>
+          <p>Grenade</p>
+        </td>
+        <td>
+          <p>GG</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>2020</p>
+        </td>
+        <td>
+          <p>204</p>
+        </td>
+        <td>
+          <p>Bénin</p>
+        </td>
+        <td>
+          <p>BA</p>
+        </td>
+        <td>
+          <p>2020</p>
+        </td>
+        <td>
+          <p>320</p>
+        </td>
+        <td>
+          <p>Guatemala</p>
+        </td>
+        <td>
+          <p>GG</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>2020</p>
+        </td>
+        <td>
+          <p>64</p>
+        </td>
+        <td>
+          <p>Bhoutan</p>
+        </td>
+        <td>
+          <p>BA</p>
+        </td>
+        <td>
+          <p>2019</p>
+        </td>
+        <td>
+          <p>324</p>
+        </td>
+        <td>
+          <p>Guinée</p>
+        </td>
+        <td>
+          <p>BA</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>2014</p>
+        </td>
+        <td>
+          <p>68</p>
+        </td>
+        <td>
+          <p>Bolivie (État plurinational de)</p>
+        </td>
+        <td>
+          <p>GG</p>
+        </td>
+        <td>
+          <p>2017</p>
+        </td>
+        <td>
+          <p>624</p>
+        </td>
+        <td>
+          <p>Guinée-Bissau</p>
+        </td>
+        <td>
+          <p>BA</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>2020</p>
+        </td>
+        <td>
+          <p>72</p>
+        </td>
+        <td>
+          <p>Botswana</p>
+        </td>
+        <td>
+          <p>GG</p>
+        </td>
+        <td>
+          <p>2020</p>
+        </td>
+        <td>
+          <p>328</p>
+        </td>
+        <td>
+          <p>Guyane</p>
+        </td>
+        <td>
+          <p>BA</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>2020</p>
+        </td>
+        <td>
+          <p>76</p>
+        </td>
+        <td>
+          <p>Brésil</p>
+        </td>
+        <td>
+          <p>GG</p>
+        </td>
+        <td>
+          <p>2020</p>
+        </td>
+        <td>
+          <p>340</p>
+        </td>
+        <td>
+          <p>Honduras</p>
+        </td>
+        <td>
+          <p>BA</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>2020</p>
+        </td>
+        <td>
+          <p>100</p>
+        </td>
+        <td>
+          <p>Bulgarie</p>
+        </td>
+        <td>
+          <p>GG</p>
+        </td>
+        <td>
+          <p>2019</p>
+        </td>
+        <td>
+          <p>348</p>
+        </td>
+        <td>
+          <p>Hongrie</p>
+        </td>
+        <td>
+          <p>GG</p>
+        </td>
       </tr>
       <tr>
         <td>
           <p>2019</p>
+        </td>
+        <td>
+          <p>854</p>
+        </td>
+        <td>
+          <p>Burkina Faso</p>
+        </td>
+        <td>
+          <p>BA</p>
+        </td>
+        <td>
+          <p>2019</p>
+        </td>
+        <td>
+          <p>352</p>
+        </td>
+        <td>
+          <p>Islande</p>
+        </td>
+        <td>
+          <p>GG</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>2019</p>
+        </td>
+        <td>
+          <p>108</p>
+        </td>
+        <td>
+          <p>Burundi</p>
+        </td>
+        <td>
+          <p>BA</p>
+        </td>
+        <td>
+          <p>2019</p>
+        </td>
+        <td>
+          <p>356</p>
+        </td>
+        <td>
+          <p>Inde</p>
+        </td>
+        <td>
+          <p>GG</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>2020</p>
+        </td>
+        <td>
+          <p>132</p>
+        </td>
+        <td>
+          <p>Cap-Vert</p>
+        </td>
+        <td>
+          <p>CG</p>
+        </td>
+        <td>
+          <p>2020</p>
+        </td>
+        <td>
+          <p>360</p>
+        </td>
+        <td>
+          <p>Indonésie</p>
+        </td>
+        <td>
+          <p>GG</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>2019</p>
+        </td>
+        <td>
+          <p>124</p>
+        </td>
+        <td>
+          <p>Canada</p>
+        </td>
+        <td>
+          <p>GG</p>
+        </td>
+        <td>
+          <p>2009</p>
+        </td>
+        <td>
+          <p>364</p>
+        </td>
+        <td>
+          <p>Iran (République islamique de l')</p>
+        </td>
+        <td>
+          <p>CG</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>2020</p>
+        </td>
+        <td>
+          <p>140</p>
+        </td>
+        <td>
+          <p>République centrafricaine</p>
+        </td>
+        <td>
+          <p>BA</p>
+        </td>
+        <td>
+          <p>2019</p>
+        </td>
+        <td>
+          <p>372</p>
+        </td>
+        <td>
+          <p>Irlande</p>
+        </td>
+        <td>
+          <p>GG</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>2020</p>
+        </td>
+        <td>
+          <p>152</p>
+        </td>
+        <td>
+          <p>Chili</p>
+        </td>
+        <td>
+          <p>GG</p>
+        </td>
+        <td>
+          <p>2020</p>
+        </td>
+        <td>
+          <p>376</p>
+        </td>
+        <td>
+          <p>Israël</p>
+        </td>
+        <td>
+          <p>GG</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>2019</p>
+        </td>
+        <td>
+          <p>156</p>
+        </td>
+        <td>
+          <p>Chine</p>
+        </td>
+        <td>
+          <p>GG</p>
+        </td>
+        <td>
+          <p>2019</p>
+        </td>
+        <td>
+          <p>380</p>
+        </td>
+        <td>
+          <p>Italie</p>
+        </td>
+        <td>
+          <p>GG</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>2019</p>
+        </td>
+        <td>
+          <p>344</p>
+        </td>
+        <td>
+          <p>Chine, RAS de Hong Kong</p>
+        </td>
+        <td>
+          <p>GG</p>
+        </td>
+        <td>
+          <p>2020</p>
+        </td>
+        <td>
+          <p>388</p>
+        </td>
+        <td>
+          <p>Jamaïque</p>
+        </td>
+        <td>
+          <p>CG</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>2019</p>
+        </td>
+        <td>
+          <p>170</p>
+        </td>
+        <td>
+          <p>Colombie</p>
+        </td>
+        <td>
+          <p>GG</p>
+        </td>
+        <td>
+          <p>2019</p>
+        </td>
+        <td>
+          <p>392</p>
+        </td>
+        <td>
+          <p>Japon</p>
+        </td>
+        <td>
+          <p>GG</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>2018</p>
+        </td>
+        <td>
+          <p>178</p>
+        </td>
+        <td>
+          <p>Congo</p>
+        </td>
+        <td>
+          <p>BA</p>
+        </td>
+        <td>
+          <p>2019</p>
+        </td>
+        <td>
+          <p>400</p>
+        </td>
+        <td>
+          <p>Jordanie</p>
+        </td>
+        <td>
+          <p>BA</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>2019</p>
+        </td>
+        <td>
+          <p>184</p>
+        </td>
+        <td>
+          <p>Îles Cook</p>
+        </td>
+        <td>
+          <p>GG</p>
+        </td>
+        <td>
+          <p>2019</p>
+        </td>
+        <td>
+          <p>398</p>
+        </td>
+        <td>
+          <p>Kazakhstan</p>
+        </td>
+        <td>
+          <p>GG</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>2020</p>
+        </td>
+        <td>
+          <p>188</p>
+        </td>
+        <td>
+          <p>Costa Rica</p>
+        </td>
+        <td>
+          <p>GG</p>
+        </td>
+        <td>
+          <p>2020</p>
+        </td>
+        <td>
+          <p>404</p>
+        </td>
+        <td>
+          <p>Kenya</p>
+        </td>
+        <td>
+          <p>BA</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>2019</p>
+        </td>
+        <td>
+          <p>384</p>
+        </td>
+        <td>
+          <p>Côte d'Ivoire</p>
+        </td>
+        <td>
+          <p>BA</p>
+        </td>
+        <td>
+          <p>2020</p>
+        </td>
+        <td>
+          <p>412</p>
+        </td>
+        <td>
+          <p>Kosovo (Serbie)</p>
+        </td>
+        <td>
+          <p>GG</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>2019</p>
+        </td>
+        <td>
+          <p>191</p>
+        </td>
+        <td>
+          <p>Croatie</p>
+        </td>
+        <td>
+          <p>GG</p>
+        </td>
+        <td>
+          <p>2020</p>
+        </td>
+        <td>
+          <p>414</p>
+        </td>
+        <td>
+          <p>Koweït</p>
+        </td>
+        <td>
+          <p>GG</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>2019</p>
+        </td>
+        <td>
+          <p>192</p>
+        </td>
+        <td>
+          <p>Cuba</p>
+        </td>
+        <td>
+          <p>CG</p>
+        </td>
+        <td>
+          <p>2020</p>
+        </td>
+        <td>
+          <p>417</p>
+        </td>
+        <td>
+          <p>Kyrgyzstan</p>
+        </td>
+        <td>
+          <p>GG</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>2019</p>
+        </td>
+        <td>
+          <p>196</p>
+        </td>
+        <td>
+          <p>Chypre</p>
+        </td>
+        <td>
+          <p>GG</p>
+        </td>
+        <td>
+          <p>2019</p>
+        </td>
+        <td>
+          <p>418</p>
+        </td>
+        <td>
+          <p>Laos (République démocratique populaire lao)</p>
+        </td>
+        <td>
+          <p>GG</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>2020</p>
+        </td>
+        <td>
+          <p>203</p>
+        </td>
+        <td>
+          <p>Tchéquie</p>
+        </td>
+        <td>
+          <p>GG</p>
+        </td>
+        <td>
+          <p>2019</p>
+        </td>
+        <td>
+          <p>428</p>
+        </td>
+        <td>
+          <p>Lettonie</p>
+        </td>
+        <td>
+          <p>GG</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>2020</p>
+        </td>
+        <td>
+          <p>180</p>
+        </td>
+        <td>
+          <p>Rép. démocratique du Congo</p>
+        </td>
+        <td>
+          <p>BA</p>
+        </td>
+        <td>
+          <p>2020</p>
+        </td>
+        <td>
+          <p>422</p>
+        </td>
+        <td>
+          <p>Liban</p>
+        </td>
+        <td>
+          <p>BA</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>2020</p>
+        </td>
+        <td>
+          <p>208</p>
+        </td>
+        <td>
+          <p>Danemark</p>
+        </td>
+        <td>
+          <p>GG</p>
+        </td>
+        <td>
+          <p>2020</p>
+        </td>
+        <td>
+          <p>426</p>
+        </td>
+        <td>
+          <p>Lesotho</p>
+        </td>
+        <td>
+          <p>BA</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>2019</p>
+        </td>
+        <td>
+          <p>212</p>
+        </td>
+        <td>
+          <p>Dominique</p>
+        </td>
+        <td>
+          <p>CG</p>
+        </td>
+        <td>
+          <p>2020</p>
+        </td>
+        <td>
+          <p>430</p>
+        </td>
+        <td>
+          <p>Libérie</p>
+        </td>
+        <td>
+          <p>BA</p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+  <table>
+    <tbody>
+      <tr>
+        <td>
+          <p><strong>Dernière année</strong></p>
+        </td>
+        <td>
+          <p><strong>Code M49</strong></p>
+        </td>
+        <td>
+          <p><strong>Région</strong></p>
+        </td>
+        <td>
+          <p><strong>Niveau de gouvernement</strong></p>
+        </td>
+        <td>
+          <p><strong>Dernière année</strong></p>
+        </td>
+        <td>
+          <p><strong>Code M49</strong></p>
+        </td>
+        <td>
+          <p><strong>Région</strong></p>
+        </td>
+        <td>
+          <p><strong>Niveau de gouvernement</strong></p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>2019</p>
+        </td>
+        <td>
+          <p>440</p>
+        </td>
+        <td>
+          <p>Lithuanie</p>
+        </td>
+        <td>
+          <p>GG</p>
+        </td>
+        <td>
+          <p>2020</p>
+        </td>
+        <td>
+          <p>662</p>
+        </td>
+        <td>
+          <p>Sainte-Lucie</p>
+        </td>
+        <td>
+          <p>BA</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>2020</p>
         </td>
         <td>
           <p>442</p>
@@ -2606,10 +1758,138 @@ OTHER_DOC: >-
         <td>
           <p>GG</p>
         </td>
+        <td>
+          <p>2020</p>
+        </td>
+        <td>
+          <p>670</p>
+        </td>
+        <td>
+          <p>Saint-Vincent-et-les-Grenadines</p>
+        </td>
+        <td>
+          <p>BA</p>
+        </td>
       </tr>
       <tr>
         <td>
-          <p>2012</p>
+          <p>2019</p>
+        </td>
+        <td>
+          <p>450</p>
+        </td>
+        <td>
+          <p>Madagascar</p>
+        </td>
+        <td>
+          <p>BA</p>
+        </td>
+        <td>
+          <p>2020</p>
+        </td>
+        <td>
+          <p>882</p>
+        </td>
+        <td>
+          <p>Samoa</p>
+        </td>
+        <td>
+          <p>BA</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>2019</p>
+        </td>
+        <td>
+          <p>454</p>
+        </td>
+        <td>
+          <p>Malawi</p>
+        </td>
+        <td>
+          <p>BA</p>
+        </td>
+        <td>
+          <p>2019</p>
+        </td>
+        <td>
+          <p>678</p>
+        </td>
+        <td>
+          <p>Sao Tomé-et-Principe</p>
+        </td>
+        <td>
+          <p>BA</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>2020</p>
+        </td>
+        <td>
+          <p>458</p>
+        </td>
+        <td>
+          <p>Malaysie</p>
+        </td>
+        <td>
+          <p>BA</p>
+        </td>
+        <td>
+          <p>2019</p>
+        </td>
+        <td>
+          <p>682</p>
+        </td>
+        <td>
+          <p>Arabie saoudite</p>
+        </td>
+        <td>
+          <p>BA</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>2018</p>
+        </td>
+        <td>
+          <p>462</p>
+        </td>
+        <td>
+          <p>Maldives</p>
+        </td>
+        <td>
+          <p>CG</p>
+        </td>
+        <td>
+          <p>2020</p>
+        </td>
+        <td>
+          <p>686</p>
+        </td>
+        <td>
+          <p>Sénégal</p>
+        </td>
+        <td>
+          <p>BA</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>2019</p>
+        </td>
+        <td>
+          <p>466</p>
+        </td>
+        <td>
+          <p>Mali</p>
+        </td>
+        <td>
+          <p>BA</p>
+        </td>
+        <td>
+          <p>2020</p>
         </td>
         <td>
           <p>688</p>
@@ -2619,6 +1899,188 @@ OTHER_DOC: >-
         </td>
         <td>
           <p>GG</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>2019</p>
+        </td>
+        <td>
+          <p>470</p>
+        </td>
+        <td>
+          <p>Malte</p>
+        </td>
+        <td>
+          <p>GG</p>
+        </td>
+        <td>
+          <p>2020</p>
+        </td>
+        <td>
+          <p>690</p>
+        </td>
+        <td>
+          <p>Seychelles</p>
+        </td>
+        <td>
+          <p>GG</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>2018</p>
+        </td>
+        <td>
+          <p>584</p>
+        </td>
+        <td>
+          <p>Îles Marshall</p>
+        </td>
+        <td>
+          <p>BA</p>
+        </td>
+        <td>
+          <p>2020</p>
+        </td>
+        <td>
+          <p>694</p>
+        </td>
+        <td>
+          <p>Sierra Leone</p>
+        </td>
+        <td>
+          <p>BA</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>2019</p>
+        </td>
+        <td>
+          <p>478</p>
+        </td>
+        <td>
+          <p>Mauritanie</p>
+        </td>
+        <td>
+          <p>BA</p>
+        </td>
+        <td>
+          <p>2020</p>
+        </td>
+        <td>
+          <p>702</p>
+        </td>
+        <td>
+          <p>Singapour</p>
+        </td>
+        <td>
+          <p>GG</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>2020</p>
+        </td>
+        <td>
+          <p>480</p>
+        </td>
+        <td>
+          <p>Maurice</p>
+        </td>
+        <td>
+          <p>GG</p>
+        </td>
+        <td>
+          <p>2019</p>
+        </td>
+        <td>
+          <p>703</p>
+        </td>
+        <td>
+          <p>Slovaquie</p>
+        </td>
+        <td>
+          <p>GG</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>2020</p>
+        </td>
+        <td>
+          <p>484</p>
+        </td>
+        <td>
+          <p>Mexique</p>
+        </td>
+        <td>
+          <p>CG</p>
+        </td>
+        <td>
+          <p>2019</p>
+        </td>
+        <td>
+          <p>705</p>
+        </td>
+        <td>
+          <p>Slovénie</p>
+        </td>
+        <td>
+          <p>GG</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>2019</p>
+        </td>
+        <td>
+          <p>583</p>
+        </td>
+        <td>
+          <p>Micronésie (États fédérés de)</p>
+        </td>
+        <td>
+          <p>BA</p>
+        </td>
+        <td>
+          <p>2020</p>
+        </td>
+        <td>
+          <p>90</p>
+        </td>
+        <td>
+          <p>Îles Solomon</p>
+        </td>
+        <td>
+          <p>BA</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>2020</p>
+        </td>
+        <td>
+          <p>496</p>
+        </td>
+        <td>
+          <p>Mongolie</p>
+        </td>
+        <td>
+          <p>GG</p>
+        </td>
+        <td>
+          <p>2019</p>
+        </td>
+        <td>
+          <p>706</p>
+        </td>
+        <td>
+          <p>Somalie</p>
+        </td>
+        <td>
+          <p>CG</p>
         </td>
       </tr>
       <tr>
@@ -2634,22 +2096,136 @@ OTHER_DOC: >-
         <td>
           <p>BA</p>
         </td>
-      </tr>
-      <tr>
         <td>
           <p>2019</p>
         </td>
         <td>
-          <p>412</p>
+          <p>710</p>
         </td>
         <td>
-          <p>Kosovo</p>
+          <p>Afrique du Sud</p>
         </td>
         <td>
           <p>GG</p>
         </td>
       </tr>
       <tr>
+        <td>
+          <p>2020</p>
+        </td>
+        <td>
+          <p>504</p>
+        </td>
+        <td>
+          <p>Maroc</p>
+        </td>
+        <td>
+          <p>BA</p>
+        </td>
+        <td>
+          <p>2020</p>
+        </td>
+        <td>
+          <p>728</p>
+        </td>
+        <td>
+          <p>Soudan du Sud</p>
+        </td>
+        <td>
+          <p>GG</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>2020</p>
+        </td>
+        <td>
+          <p>508</p>
+        </td>
+        <td>
+          <p>Mozambique</p>
+        </td>
+        <td>
+          <p>BA</p>
+        </td>
+        <td>
+          <p>2020</p>
+        </td>
+        <td>
+          <p>724</p>
+        </td>
+        <td>
+          <p>Espagne</p>
+        </td>
+        <td>
+          <p>GG</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>2019</p>
+        </td>
+        <td>
+          <p>104</p>
+        </td>
+        <td>
+          <p>Myanmar</p>
+        </td>
+        <td>
+          <p>GG</p>
+        </td>
+        <td>
+          <p>2019</p>
+        </td>
+        <td>
+          <p>144</p>
+        </td>
+        <td>
+          <p>Sri Lanka</p>
+        </td>
+        <td>
+          <p>BA</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>2020</p>
+        </td>
+        <td>
+          <p>516</p>
+        </td>
+        <td>
+          <p>Namibie</p>
+        </td>
+        <td>
+          <p>BA</p>
+        </td>
+        <td>
+          <p>2019</p>
+        </td>
+        <td>
+          <p>275</p>
+        </td>
+        <td>
+          <p>État de Palestine</p>
+        </td>
+        <td>
+          <p>CG</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>2020</p>
+        </td>
+        <td>
+          <p>524</p>
+        </td>
+        <td>
+          <p>Népal</p>
+        </td>
+        <td>
+          <p>BA</p>
+        </td>
         <td>
           <p>2018</p>
         </td>
@@ -2665,16 +2241,626 @@ OTHER_DOC: >-
       </tr>
       <tr>
         <td>
+          <p>2020</p>
+        </td>
+        <td>
+          <p>528</p>
+        </td>
+        <td>
+          <p>Pays-Bas</p>
+        </td>
+        <td>
+          <p>GG</p>
+        </td>
+        <td>
+          <p>2020</p>
+        </td>
+        <td>
+          <p>740</p>
+        </td>
+        <td>
+          <p>Suriname</p>
+        </td>
+        <td>
+          <p>BA</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>2020</p>
+        </td>
+        <td>
+          <p>554</p>
+        </td>
+        <td>
+          <p>Nouvelle-Zélande</p>
+        </td>
+        <td>
+          <p>GG</p>
+        </td>
+        <td>
           <p>2019</p>
         </td>
         <td>
-          <p>275</p>
+          <p>752</p>
         </td>
         <td>
-          <p>État de Palestine</p>
+          <p>Suède</p>
+        </td>
+        <td>
+          <p>GG</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>2020</p>
+        </td>
+        <td>
+          <p>558</p>
+        </td>
+        <td>
+          <p>Nicaragua</p>
         </td>
         <td>
           <p>CG</p>
+        </td>
+        <td>
+          <p>2019</p>
+        </td>
+        <td>
+          <p>756</p>
+        </td>
+        <td>
+          <p>Suisse</p>
+        </td>
+        <td>
+          <p>GG</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>2019</p>
+        </td>
+        <td>
+          <p>562</p>
+        </td>
+        <td>
+          <p>Niger</p>
+        </td>
+        <td>
+          <p>BA</p>
+        </td>
+        <td>
+          <p>2019</p>
+        </td>
+        <td>
+          <p>762</p>
+        </td>
+        <td>
+          <p>Tajikistan</p>
+        </td>
+        <td>
+          <p>GG</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>2019</p>
+        </td>
+        <td>
+          <p>566</p>
+        </td>
+        <td>
+          <p>Nigéria</p>
+        </td>
+        <td>
+          <p>BA</p>
+        </td>
+        <td>
+          <p>2019</p>
+        </td>
+        <td>
+          <p>764</p>
+        </td>
+        <td>
+          <p>Thaïlande</p>
+        </td>
+        <td>
+          <p>GG</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>2020</p>
+        </td>
+        <td>
+          <p>807</p>
+        </td>
+        <td>
+          <p>Macédoine du Nord</p>
+        </td>
+        <td>
+          <p>GG</p>
+        </td>
+        <td>
+          <p>2019</p>
+        </td>
+        <td>
+          <p>626</p>
+        </td>
+        <td>
+          <p>Timor oriental</p>
+        </td>
+        <td>
+          <p>BA</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>2020</p>
+        </td>
+        <td>
+          <p>578</p>
+        </td>
+        <td>
+          <p>Norvège</p>
+        </td>
+        <td>
+          <p>GG</p>
+        </td>
+        <td>
+          <p>2018</p>
+        </td>
+        <td>
+          <p>768</p>
+        </td>
+        <td>
+          <p>Togo</p>
+        </td>
+        <td>
+          <p>GG</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>2019</p>
+        </td>
+        <td>
+          <p>512</p>
+        </td>
+        <td>
+          <p>Oman</p>
+        </td>
+        <td>
+          <p>GG</p>
+        </td>
+        <td>
+          <p>2020</p>
+        </td>
+        <td>
+          <p>780</p>
+        </td>
+        <td>
+          <p>Trinité-et-Tobago</p>
+        </td>
+        <td>
+          <p>CG</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>2020</p>
+        </td>
+        <td>
+          <p>586</p>
+        </td>
+        <td>
+          <p>Pakistan</p>
+        </td>
+        <td>
+          <p>GG</p>
+        </td>
+        <td>
+          <p>2017</p>
+        </td>
+        <td>
+          <p>788</p>
+        </td>
+        <td>
+          <p>Tunisie</p>
+        </td>
+        <td>
+          <p>BA</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>2018</p>
+        </td>
+        <td>
+          <p>585</p>
+        </td>
+        <td>
+          <p>Palaos</p>
+        </td>
+        <td>
+          <p>BA</p>
+        </td>
+        <td>
+          <p>2020</p>
+        </td>
+        <td>
+          <p>792</p>
+        </td>
+        <td>
+          <p>Turquie</p>
+        </td>
+        <td>
+          <p>GG</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>2018</p>
+        </td>
+        <td>
+          <p>591</p>
+        </td>
+        <td>
+          <p>Panama</p>
+        </td>
+        <td>
+          <p>BA</p>
+        </td>
+        <td>
+          <p>2019</p>
+        </td>
+        <td>
+          <p>800</p>
+        </td>
+        <td>
+          <p>Ouganda</p>
+        </td>
+        <td>
+          <p>GG</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>2019</p>
+        </td>
+        <td>
+          <p>598</p>
+        </td>
+        <td>
+          <p>Papouasie-Nouvelle-Guinée</p>
+        </td>
+        <td>
+          <p>BA</p>
+        </td>
+        <td>
+          <p>2020</p>
+        </td>
+        <td>
+          <p>804</p>
+        </td>
+        <td>
+          <p>Ukraine</p>
+        </td>
+        <td>
+          <p>GG</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>2020</p>
+        </td>
+        <td>
+          <p>600</p>
+        </td>
+        <td>
+          <p>Paraguay</p>
+        </td>
+        <td>
+          <p>GG</p>
+        </td>
+        <td>
+          <p>2020</p>
+        </td>
+        <td>
+          <p>784</p>
+        </td>
+        <td>
+          <p>Émirats arabes unis</p>
+        </td>
+        <td>
+          <p>BA</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>2020</p>
+        </td>
+        <td>
+          <p>604</p>
+        </td>
+        <td>
+          <p>Pérou</p>
+        </td>
+        <td>
+          <p>GG</p>
+        </td>
+        <td>
+          <p>2019</p>
+        </td>
+        <td>
+          <p>826</p>
+        </td>
+        <td>
+          <p>Royaume-Uni de Grande-Bretagne et d'Irlande du Nord</p>
+        </td>
+        <td>
+          <p>GG</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>2020</p>
+        </td>
+        <td>
+          <p>608</p>
+        </td>
+        <td>
+          <p>Philippines</p>
+        </td>
+        <td>
+          <p>BA</p>
+        </td>
+        <td>
+          <p>2020</p>
+        </td>
+        <td>
+          <p>834</p>
+        </td>
+        <td>
+          <p>République unie de Tanzanie</p>
+        </td>
+        <td>
+          <p>BA</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>2019</p>
+        </td>
+        <td>
+          <p>616</p>
+        </td>
+        <td>
+          <p>Pologne</p>
+        </td>
+        <td>
+          <p>GG</p>
+        </td>
+        <td>
+          <p>2020</p>
+        </td>
+        <td>
+          <p>840</p>
+        </td>
+        <td>
+          <p>États-Unis d'Amérique</p>
+        </td>
+        <td>
+          <p>GG</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>2019</p>
+        </td>
+        <td>
+          <p>620</p>
+        </td>
+        <td>
+          <p>Portugal</p>
+        </td>
+        <td>
+          <p>GG</p>
+        </td>
+        <td>
+          <p>2020</p>
+        </td>
+        <td>
+          <p>858</p>
+        </td>
+        <td>
+          <p>Uruguay</p>
+        </td>
+        <td>
+          <p>CG</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>2005</p>
+        </td>
+        <td>
+          <p>634</p>
+        </td>
+        <td>
+          <p>Qatar</p>
+        </td>
+        <td>
+          <p>BA</p>
+        </td>
+        <td>
+          <p>2019</p>
+        </td>
+        <td>
+          <p>860</p>
+        </td>
+        <td>
+          <p>Uzbekistan</p>
+        </td>
+        <td>
+          <p>GG</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>2019</p>
+        </td>
+        <td>
+          <p>410</p>
+        </td>
+        <td>
+          <p>République de la Corée</p>
+        </td>
+        <td>
+          <p>CG</p>
+        </td>
+        <td>
+          <p>2019</p>
+        </td>
+        <td>
+          <p>548</p>
+        </td>
+        <td>
+          <p>Vanuatu</p>
+        </td>
+        <td>
+          <p>BA</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>2020</p>
+        </td>
+        <td>
+          <p>498</p>
+        </td>
+        <td>
+          <p>République de Moldavie</p>
+        </td>
+        <td>
+          <p>GG</p>
+        </td>
+        <td>
+          <p>2014</p>
+        </td>
+        <td>
+          <p>862</p>
+        </td>
+        <td>
+          <p>Venezuela (République bolivarienne du)</p>
+        </td>
+        <td>
+          <p>CG</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>2019</p>
+        </td>
+        <td>
+          <p>642</p>
+        </td>
+        <td>
+          <p>Roumanie</p>
+        </td>
+        <td>
+          <p>GG</p>
+        </td>
+        <td>
+          <p>2020</p>
+        </td>
+        <td>
+          <p>704</p>
+        </td>
+        <td>
+          <p>Vietnam</p>
+        </td>
+        <td>
+          <p>GG</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>2020</p>
+        </td>
+        <td>
+          <p>643</p>
+        </td>
+        <td>
+          <p>Fédération de Russie</p>
+        </td>
+        <td>
+          <p>GG</p>
+        </td>
+        <td>
+          <p>2014</p>
+        </td>
+        <td>
+          <p>887</p>
+        </td>
+        <td>
+          <p>Yémen</p>
+        </td>
+        <td>
+          <p>GG</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>2020</p>
+        </td>
+        <td>
+          <p>646</p>
+        </td>
+        <td>
+          <p>Rwanda</p>
+        </td>
+        <td>
+          <p>GG</p>
+        </td>
+        <td>
+          <p>2020</p>
+        </td>
+        <td>
+          <p>894</p>
+        </td>
+        <td>
+          <p>Zambie</p>
+        </td>
+        <td>
+          <p>BA</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>2019</p>
+        </td>
+        <td>
+          <p>659</p>
+        </td>
+        <td>
+          <p>Saint-Kitts-et-Nevis</p>
+        </td>
+        <td>
+          <p>CG</p>
+        </td>
+        <td>
+          <p>2020</p>
+        </td>
+        <td>
+          <p>716</p>
+        </td>
+        <td>
+          <p>Zimbabwé</p>
+        </td>
+        <td>
+          <p>BA</p>
         </td>
       </tr>
     </tbody>
@@ -2694,12 +2880,18 @@ CLASS_SYSTEM: "<p>La Classification des fonctions des administrations publiques 
   \ pêche et la chasse (042) et la protection de la biodiversité et des paysages (054);\
   \ et </li>\n  <li>au sein de chaque groupe, une ou plusieurs catégories à quatre\
   \ chiffres, appelées classes, telles que Agriculture (0421), Foresterie (0422) et\
-  \ Pêche et chasse (0423). </li>\n</ol>\n<p>Le questionnaire du Fonds monétaire international\
-  \ (FMI) sur les statistiques de finances publiques (SFP) recueille des données sur\
-  \ les deux premiers niveaux. Le questionnaire de la FAO vise à recueillir des informations\
-  \ sur les classes, ainsi qu’une ventilation des dépenses connexes en dépenses récurrentes\
-  \ et en dépenses en capital. Les trois niveaux de classification et le contenu de\
-  \ chaque classe sont décrits dans le MSFP 2014, accessible à l'adresse https://www.imf.org/external/Pubs/FT/GFS/Manual/2014/GFSM_2014_FRE.pdf.\
+  \ Pêche et chasse (0423), ainsi que la recherche et le développement connexes (0482),\
+  \ couvrant l’administration et le fonctionnement des organismes gouvernementaux\
+  \ engagés dans la recherche appliquée et le développement expérimental liés au secteur,\
+  \ y compris ceux entrepris par des organismes non gouvernementaux, tels que les\
+  \ instituts de recherche et les universités financés par des subventions et des\
+  \ subventions gouvernementales. </li>\n</ol>\n<p>Le questionnaire du Fonds monétaire\
+  \ international (FMI) sur les statistiques de finances publiques (SFP) recueille\
+  \ des données annuelles sur les deux premiers niveaux (divisions et groupes). Le\
+  \ questionnaire de la FAO vise à recueillir des informations sur les classes, ainsi\
+  \ qu’une ventilation des dépenses connexes en dépenses récurrentes et en dépenses\
+  \ en capital. Les trois niveaux de classification et le contenu de chaque classe\
+  \ sont décrits dans le MSFP 2014, accessible à l'adresse https://www.imf.org/external/Pubs/FT/GFS/Manual/2014/GFSM_2014_FRE.pdf.\
   \ </p>\n<p>La classification géographique FAOSTAT est utilisée pour agréger les\
   \ indicateurs entre les groupes de pays (<a href=\"https://www.fao.org/faostat/fr/#definitions\"\
   >https://www.fao.org/faostat/fr/#definitions</a>). </p>"
@@ -2721,7 +2913,8 @@ SDG_SERIES_DESCR: "<p>Série primaire : Indice d’orientation agricole des dép
   \ dépenses publiques (%) </p>"
 SDG_RELATED_INDICATORS: <p>Les indicateurs 17.1.1 et 17.1.2 s'appliquent également
   à la méthodologie des SFP du FMI.</p>
-UNIT_MEASURE: "<p>Ratio</p>\n<p>Voir 4.c. Méthode de calcul, ci-dessous. </p>"
+UNIT_MEASURE: "<p>Indice</p>\n<p>Consulter la section 4.c. Méthode de calcul, ci-dessous.\
+  \ </p>"
 QUALITY_ASSMNT: <p>La qualité des données peut varier considérablement d'un pays à
   l'autre, car tous n'appliquent pas la classification CFAP. Dans de tels cas, la
   FAO cherche à valider les agrégats déclarés par rapport aux données fiscales publiées
@@ -2733,22 +2926,23 @@ QUALITY_ASSMNT: <p>La qualité des données peut varier considérablement d'un p
   de garantir la qualité méthodologique, l'objectivité et la fiabilité des données
   soumises par les pays.</p>
 QUALITY_ASSURE: '<p>Le Cadre d’assurance de qualité des statistiques de la FAO est
-  disponible (en anglais) à l’adresse suivante : http://www.fao.org/docrep/019/i3664e/i3664e.pdf</p>'
+  disponible (en anglais) à l’adresse suivante : <a href="http://www.fao.org/docrep/019/i3664e/i3664e.pdf">http://www.fao.org/docrep/019/i3664e/i3664e.pdf</a>
+  </p>'
 DATA_VALIDATION: <p>On invite les pays à valider et à mettre à jour les données historiques
   qui pré-remplissent leur questionnaire. La FAO valide les données par rapport aux
-  séries historiques, ainsi que les données soumises au FMI et à partir des sites
-  Web des pays.</p>
+  séries historiques, ainsi que les données soumises au FMI et à des organisations
+  régionales et à partir des sites Web des pays.</p>
 ADJUSTMENT: <p>La FAO ne révise les données que lorsque des révisions historiques
-  ou des données historiques manquantes sont fournies par les pays ou le FMI ou lorsqu’elles
-  sont disponibles sur les sites Web des autorités nationales. Par exemple, des questionnaires
-  préremplis sont envoyés avec les données déclarées pour n-2 à n-5, qu'on demande
-  aux pays d'examiner et réviser si nécessaire et, dans la mesure du possible, de
-  remplir les informations manquantes. La conversion des valeurs en millions se fait
-  également. </p>
+  ou des données historiques manquantes sont fournies par les pays, par le FMI ou
+  par des organisations régionales ou lorsqu’elles sont disponibles sur les sites
+  Web des autorités nationales. Par exemple, des questionnaires préremplis sont envoyés
+  avec les données déclarées pour t-2 à t-5, qu'on demande aux pays d'examiner et
+  réviser si nécessaire et, dans la mesure du possible, de remplir les informations
+  manquantes. La conversion des valeurs en millions se fait également. </p>
 DOC_METHOD: '<p>Les pays sont priés de se référer au Manuel de statistiques de finances
   publiques du FMI (MSFP 2014), en particulier le chapitre 6 - Annexe : Classification
   des fonctions des administrations publiques et le chapitre 2 Unités et secteurs
-  institutionnels, disponibles à l’adresse https://www.imf.org/external/Pubs/FT/GFS/Manual/2014/GFSM_2014_FRE.pdf.
+  institutionnels, disponibles à l’adresse <a href="https://www.imf.org/external/Pubs/FT/GFS/Manual/2014/GFSM_2014_FRE.pdf">https://www.imf.org/external/Pubs/FT/GFS/Manual/2014/GFSM_2014_FRE.pdf</a>.
   </p>'
 QUALITY_MGMNT: <p>Des comparaisons des principaux agrégats déclarés dans les questionnaires
   des DPA de la FAO et des SFP du FMI sont effectuées périodiquement afin d'assurer

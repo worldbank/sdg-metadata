@@ -149,8 +149,7 @@ STAT_CONC_DEF: >-
   basée l'échelle d'hygiène du « Joint Monitoring Program (JMP) » et est la fondation
   de l'indicateur des ODD 6.2.1 – <em>Proportion de la population qui utilise (a)
   des services sanitaires gérés de façon sécuritaire et (b) des installations pour
-  se laver les mains avec du savon et de l'eau.</em> </li> 
-  </ol>
+  se laver les mains avec du savon et de l'eau.</em> </li>  </ol>
 
   <p>Pour plusieurs pays à faible ou moyen revenu, parvenir à offrir l'accès aux services
   de base d'eau potable, aux services sanitaires de base et aux installations d'hygiène
@@ -167,8 +166,7 @@ STAT_CONC_DEF: >-
   de la population qui dépend principalement de combustibles et de technologies propres</em></li>.
     <li><strong>L'accès à la mobilité de base</strong> désigne l'accès aux routes
   praticables toute l'année dans un contexte rural (indicateur ODD 9.1.1) ou l'accès
-  aux transports publics dans un contexte urbain (indicateur ODD 11.2.1).</li> 
-  </ol>
+  aux transports publics dans un contexte urbain (indicateur ODD 11.2.1).</li>  </ol>
 
   <ul>
     <li><strong><em>L'accès à la mobilité dans un contexte rural</em></strong></li>
@@ -384,17 +382,17 @@ DATA_COMP: >-
   mais avec la possibilité de visualiser les données des années plus anciennes grâce
   à un accès en profondeur. </p>
 
-  <p> Les données seront présentées ou visualisées sous forme de tableau de bord mais
+  <p>Les données seront présentées ou visualisées sous forme de tableau de bord mais
   avec la possibilité de les cartographier via divers outils de visualisation tels
   que la toile d'araignée de la réalisation de l'accès aux différents services de
   base dans un pays en traçant les différentes composantes des indicateurs. De cette
   manière, les décideurs politiques peuvent être informés des domaines d'intervention
   les plus nécessaires pour n'importe quelle région et pays. </p>
 IMPUTATION: |-
-  <p>• <strong>Au niveau national</strong></p>
+  <p><strong>• Au niveau national :</strong></p>
   <p>Le traitement des valeurs manquantes est fourni dans les métadonnées pertinentes pour chaque indicateur individuel.</p>
   <p>Sans objet</p>
-  <p>• <strong>Aux niveaux régional et mondial</strong></p>
+  <p><strong>• Aux niveaux régional et mondial :</strong></p>
   <p>Le traitement des valeurs manquantes est fourni dans les métadonnées pertinentes pour chaque indicateur individuel.</p>
   <p>Sans objet</p>
 REG_AGG: |-
@@ -608,7 +606,7 @@ CLASS_SYSTEM: '<p>Sans objet : consultez les métadonnées d’origine pour chac
   mesures dans le tableau de bord.</p>'
 INST_MANDATE: '<p>Sans objet : ceci est décrit dans les métadonnées parentes où les
   indicateurs présentés dans ce tableau de bord sont fournis. </p>'
-DATA_VALIDATION: <p>Sans objet. </p>
+DATA_VALIDATION: <p>Sans objet </p>
 ADJUSTMENT: <p>Sans objet</p>
 QUALITY_ASSMNT: "<p>Sans objet : l'évaluation de la qualité des données originales\
   \ est gérée par les organismes dépositaires pour chaque indicateur présenté dans\

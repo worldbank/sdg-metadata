@@ -74,12 +74,11 @@ STAT_CONC_DEF: "<p><strong>Définition :</strong></p>\n<p>Pourcentage d’enfant
 COLL_METHOD: <p>L’ISU compile des informations provenant de fournisseurs de sources
   de données au niveau international et de pays au niveau national. </p>
 FREQ_COLL: <p>La collecte de données se poursuit au cours de l’année. </p>
-REL_CAL_POLICY: <p>Février/mars et septembre de chaque année. </p>
-IMPUTATION: "<p>&#x2022; <strong>Au niveau national :</strong></p>\n<p>Les valeurs\
-  \ manquantes ne sont pas imputées. </p>\n<p>&#x2022; <strong>Aux niveaux régional\
-  \ et mondial :</strong></p>\n<p>Les valeurs manquantes ne sont pas imputées. </p>"
-REG_AGG: <p>Sans objet pour l'instant. Les données ne sont déclarées qu’au niveau
-  national. Moyenne pondérée de la population par région à déclarer en 2020. </p>
+REL_CAL_POLICY: <p>Publication semestrielle des données de l’ISU (mars et septembre)</p>
+IMPUTATION: "<p><strong>• Au niveau national :</strong></p>\n<p>Les valeurs manquantes\
+  \ ne sont pas imputées. </p>\n<p><strong>• Aux niveaux régional et mondial :</strong></p>\n\
+  <p>Les valeurs manquantes ne sont pas imputées. </p>"
+REG_AGG: <p>Moyennes pondérées en fonction de la population. </p>
 QUALITY_ASSURE: <p>L’information produite par les programmes d’évaluation transnationaux
   et nationaux est décrite dans leurs manuels. </p>
 COMPARABILITY: "<p><strong>Sources des divergences :</strong></p>\n<p>Sans objet pour\
@@ -90,7 +89,7 @@ QUALITY_MGMNT: "<p>L’ISU tient à jour une base de données mondiale sur les �
   \ et est examinée par les points focaux techniques de l’ISU pour assurer la cohérence\
   \ et la qualité globale des données, sur la base de critères objectifs pour s’assurer\
   \ que seules les informations les plus récentes et les plus fiables sont incluses\
-  \ dans la base de données. </p>\n<p> </p>"
+  \ dans la base de données. </p>"
 CONTACT_ORGANISATION: <p>Institut de statistique de l'UNESCO (UNESCO-ISU)</p>
 SDG_INDICATOR: '<p>Indicateur 4.1.1 : Proportion d’enfants et de jeunes (a) en 2e
   et 3e année; b) à la fin du primaire; et c) à la fin du premier cycle du secondaire,
@@ -172,15 +171,15 @@ INST_MANDATE: "<p>L'Institut de statistique de l'UNESCO (ISU) est la branche sta
   \ international dans les domaines de l'éducation, de la science, de la culture et\
   \ de la communication pour les pays à tous les stades de développement.</p>\n<p>Le\
   \ <a href=\"https://www.moe.gov.bn/DocumentDownloads/Education%202030/Education2030.pdf\"\
-  ><u>cadre (en anglais) « Education 2030 Framework for Action 100 »</u></a> a clairement\
-  \ indiqué que : « <em>Compte tenu de l'importance de l'harmonisation du suivi et\
-  \ de l'établissement de rapports, l'ISU restera la source officielle de données\
-  \ comparables au niveau transnational sur l'éducation. Il continuera de produire\
-  \ des indicateurs de suivi internationaux basés sur son enquête annuelle sur l'éducation\
-  \ et sur d'autres sources de données qui garantissent la comparabilité internationale\
-  \ pour plus de 200 pays et territoires. En plus de la collecte de données, l'ISU\
-  \ travaillera avec des partenaires pour développer de nouveaux indicateurs, des\
-  \ approches statistiques et des outils de suivi afin de mieux évaluer les progrès\
+  ><u>cadre (en anglais) « Education 2030 Framework for Action &#xA7;100 »</u></a>\
+  \ a clairement indiqué que : « <em>Compte tenu de l'importance de l'harmonisation\
+  \ du suivi et de l'établissement de rapports, l'ISU restera la source officielle\
+  \ de données comparables au niveau transnational sur l'éducation. Il continuera\
+  \ de produire des indicateurs de suivi internationaux basés sur son enquête annuelle\
+  \ sur l'éducation et sur d'autres sources de données qui garantissent la comparabilité\
+  \ internationale pour plus de 200 pays et territoires. En plus de la collecte de\
+  \ données, l'ISU travaillera avec des partenaires pour développer de nouveaux indicateurs,\
+  \ des approches statistiques et des outils de suivi afin de mieux évaluer les progrès\
   \ pour les cibles liées au mandat de l'UNESCO, en travaillant en coordination avec\
   \ le \"SDG-Education 2030 SC \"</em> ».</p>"
 RATIONALE: "<p>L’indicateur vise à mesurer le pourcentage d’enfants et de jeunes qui\
@@ -197,35 +196,37 @@ REC_USE_LIM: <p>Les résultats d’apprentissage issus de l’évaluation transn
   des résultats d’apprentissage entre les évaluations pourrait être atteint en utilisant
   différentes méthodologies, chacune avec des erreurs types variables. L’ISU a mis
   en place un mécanisme de comparabilité par le biais d’un consensus sur la définition
-  des compétences et des contenus, la définition verbale. La comparabilité des résultats
-  d’apprentissage au fil du temps comporte des complications supplémentaires qui nécessitent,
-  idéalement, de concevoir et de mettre en œuvre un ensemble d’éléments comparables
-  comme points d’ancrage à l’avance. Des développements méthodologiques sont en cours
-  pour traiter de la comparabilité des résultats des évaluations au fil du temps.
-  </p>
+  des compétences et des contenus. La comparabilité des résultats d’apprentissage
+  au fil du temps comporte des complications supplémentaires qui nécessitent, idéalement,
+  de concevoir et de mettre en œuvre un ensemble d’éléments comparables comme points
+  d’ancrage à l’avance. Des développements méthodologiques sont en cours pour traiter
+  de la comparabilité des résultats des évaluations au fil du temps. </p>
 DATA_COMP: "<p>Le nombre d’enfants et/ou de jeunes au niveau pertinent d’éducation\
   \ <strong>n</strong>, au cours de l’année <strong>t</strong>, atteignant ou dépassant\
   \ le niveau de compétence prédéfini dans la matière <strong>s</strong> exprimé en\
   \ pourcentage du nombre d’enfants et/ou de jeunes au niveau d’éducation <strong>n</strong>,\
   \ au cours de l’année <strong>t</strong>, dans n’importe quel niveau de compétence\
-  \ dans la matière <strong>s</strong>. </p>\n<p> <math xmlns=\"http://www.w3.org/1998/Math/MathML\"\
-  >\n    <mi>N</mi>\n    <mi>C</mi>\n    <mi>M</mi>\n    <mi> &amp;nbsp; </mi>\n \
-  \   <mi>t</mi>\n    <mo>,</mo>\n    <mi>n</mi>\n    <mo>,</mo>\n    <mi>s</mi>\n\
-  \    <mo>=</mo>\n    <mfrac>\n      <mrow>\n        <mi>C</mi>\n        <mi>M</mi>\n\
-  \        <mi> &amp;nbsp; </mi>\n        <mi>t</mi>\n        <mo>,</mo>\n       \
-  \ <mi>n</mi>\n        <mo>,</mo>\n        <mi>s</mi>\n      </mrow>\n      <mrow>\n\
-  \        <mi>P</mi>\n        <mi> &amp;nbsp; </mi>\n        <mi>t</mi>\n       \
-  \ <mo>,</mo>\n        <mi>n</mi>\n      </mrow>\n    </mfrac>\n  </math> </p>\n\
-  <p>où : </p>\n<p>CMt,n,s = le nombre d’enfants et de jeunes au niveau d’éducation\
-  \ n, au cours de l’année t, qui ont atteint ou dépassé le niveau de compétence minimum\
-  \ dans la matière s.</p>\n<p>Pt,n = le nombre total d’enfants et de jeunes au niveau\
-  \ d’éducation n, au cours de l’année t.</p>\n<p>n = le niveau d’éducation qui a\
-  \ été évalué. </p>\n<p>s = la matière évaluée (lecture ou mathématiques). </p>\n\
-  <p><strong>Harmoniser diverses sources de données</strong></p>\n<p>Pour relever\
-  \ les défis posés par la capacité limitée de certains pays à mettre en œuvre des\
-  \ évaluations transnationales, régionales et nationales, des mesures ont été prises\
-  \ par l’ISU et ses partenaires. Les stratégies sont utilisées en fonction de son\
-  \ niveau de précision et selon un protocole de déclaration <a href=\"https://tcg.uis.unesco.org/wp-content/uploads/sites/4/2020/10/GAML6-WD-2-Protocole-etablissementd-des-rapports-sur-4.1.1.pdf\"\
+  \ dans la matière <strong>s</strong>. </p>\n<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"\
+  >\n    <msub>\n      <mrow>\n        <mi>N</mi>\n        <mi>C</mi>\n        <mi>M</mi>\n\
+  \      </mrow>\n      <mrow>\n        <mi>t</mi>\n        <mo>,</mo>\n        <mi>&amp;nbsp;</mi>\n\
+  \        <mi>n</mi>\n        <mo>,</mo>\n        <mi>&amp;nbsp;</mi>\n        <mi>s</mi>\n\
+  \      </mrow>\n    </msub>\n    <mo>=</mo>\n    <mfrac>\n      <mrow>\n       \
+  \ <mi>C</mi>\n        <mi>M</mi>\n        <mi>&amp;nbsp;</mi>\n        <mi>t</mi>\n\
+  \        <mo>,</mo>\n        <mi>n</mi>\n        <mo>,</mo>\n        <mi>s</mi>\n\
+  \      </mrow>\n      <mrow>\n        <msub>\n          <mrow>\n            <mi>P</mi>\n\
+  \          </mrow>\n          <mrow>\n            <mi>t</mi>\n            <mo>,</mo>\n\
+  \            <mi>&amp;nbsp;</mi>\n            <mi>n</mi>\n          </mrow>\n  \
+  \      </msub>\n      </mrow>\n    </mfrac>\n  </math></p>\n<p>où : </p>\n<p><em>CM<sub>t,n,s</sub></em>\
+  \ = le nombre d’enfants et de jeunes au niveau d’éducation n, au cours de l’année\
+  \ t, qui ont atteint ou dépassé le niveau de compétence minimum dans la matière\
+  \ s.</p>\n<p><em>P<sub>t,n</sub></em> = le nombre total d’enfants et de jeunes au\
+  \ niveau d’éducation n, au cours de l’année t.</p>\n<p><em>n</em> = le niveau d’éducation\
+  \ qui a été évalué. </p>\n<p><em>s</em> = la matière évaluée (lecture ou mathématiques).\
+  \ </p>\n<p><strong>Harmoniser diverses sources de données</strong></p>\n<p>Pour\
+  \ relever les défis posés par la capacité limitée de certains pays à mettre en œuvre\
+  \ des évaluations transnationales, régionales et nationales, des mesures ont été\
+  \ prises par l’ISU et ses partenaires. Les stratégies sont utilisées en fonction\
+  \ de son niveau de précision et selon un protocole de déclaration <a href=\"https://tcg.uis.unesco.org/wp-content/uploads/sites/4/2020/10/GAML6-WD-2-Protocole-etablissementd-des-rapports-sur-4.1.1.pdf\"\
   ><u></u></a> qui inclut les évaluations nationales dans des circonstances spécifiques.\
   \ </p>\n<p><strong>État de la réussite </strong></p>\n<p>La combinaison des taux\
   \ de réussite et des résultats d’apprentissage améliore notre compréhension des\
@@ -245,7 +246,7 @@ DATA_COMP: "<p>Le nombre d’enfants et/ou de jeunes au niveau pertinent d’éd
   \ une maîtrise minimale en mathématiques. Références (en anglais) <a href=\"http://tcg.uis.unesco.org/wp-content/uploads/sites/4/2020/10/WG-GAML-3-Children-Completing-and-Learning.pdf\"\
   >ici</a>. </p>"
 ADJUSTMENT: <p>Tel qu’il est actuellement mesuré, la plupart des évaluations de l’apprentissage
-  ont des méthodologies différentes pour établir un niveau de compétence minimum.
+  ont des méthodologies différentes pour établir un niveau de compétence minimum (NCM).
   L’ISU et l'Alliance mondiale pour surveiller l'apprentissage (GAML) établissent
   des lignes directrices de normalisation pour guider le choix des seuils minimaux
   en fonction des cadres de chaque programme d’évaluation. La décision la plus importante
@@ -314,6 +315,5 @@ DATA_SOURCE: "<p><strong>Évaluations en milieu scolaire</strong></p>\n<ul>\n  <
   \ Assesment » (EGMA), telles que déclarées par l’Agence américaine pour le développement\
   \ international (USAID) ou des pays individuels. </li>\n</ul>\n<p><strong>Enquêtes\
   \ auprès des ménages</strong></p>\n<ul>\n  <li>MICS6 : déclarée par l’UNICEF à l’ISU\
-  \ </li>\n  <li>Réseau PAL (Action citoyenne pour l'apprentissage)</li>\n</ul>\n\
-  <p> </p>"
+  \ </li>\n  <li>Réseau PAL (Action citoyenne pour l'apprentissage)</li>\n</ul>"
 SDG_SERIES_DESCR: <p>Sans objet</p>

@@ -15,13 +15,14 @@ SDG_TARGET: '<p>Cible 2.5 : D’ici 2020, maintenir la diversité génétique de
   convenu internationalement</p>'
 SDG_INDICATOR: "<p>Indicateur 2.5.2 : Proportion de races locales classées en danger\
   \ d'extinction</p>"
-SDG_RELATED_INDICATORS: <p>Cet indicateur est lié à l’indicateur 2.5.1b des ODD.</p>
+SDG_RELATED_INDICATORS: <p>L’indicateur 2.5.1b sur les ressources zoogénétiques</p>
 INST_MANDATE: "<p>Les coordonnateurs nationaux pour la gestion des ressources zoogénétiques\
   \ sont responsables de fournir les données nationales sur lesquelles est fondé l’indicateur.\
   \ Leur mandat a été approuvé par la Commission des ressources génétiques pour l’alimentation\
   \ et l’agriculture et est décrit plus en détail dans : <em>Mise en place des cadres\
   \ institutionnels pour la gestion des ressources zoogénétiques</em>. Directives\
-  \ FAO : Production et santé animales. Numéro 6. Rome. (Accessible à l'adresse http://www.fao.org/3/ba0054f/ba0054f00.pdf).\
+  \ FAO : Production et santé animales. Numéro 6. Rome. (Accessible à l'adresse <a\
+  \ href=\"http://www.fao.org/3/ba0054f/ba0054f00.pdf\">http://www.fao.org/3/ba0054f/ba0054f00.pdf</a>).\
   \ </p>"
 QUALITY_ASSMNT: <p>Tous les deux ans, la FAO organise un atelier mondial de coordonnateurs
   nationaux pour évaluer et discuter de la collecte de données sur lesquelles est
@@ -39,13 +40,14 @@ STAT_CONC_DEF: "<p><strong>Définition :</strong></p>\n<p>L’indicateur prése
   \ sur la biodiversité afin de suivre les progrès accomplis dans la réalisation des\
   \ objectifs d’Aichi ((en anglais) http://www.bipindicators.net/domesticatedanimals).\
   \ En outre, il est présenté dans les Perspectives mondiales de la diversité biologique\
-  \ 4, page 91 (voir https://www.cbd.int/gbo/gbo4/publication/gbo4-fr-hr.pdf) qui\
-  \ est un résultat des processus dans le cadre de la CDB. </p>"
-UNIT_MEASURE: <p>Proportion de races locales </p>
+  \ 4, page 91 (consulter le lien <a href=\"https://www.cbd.int/gbo/gbo4/publication/gbo4-fr-hr.pdf\"\
+  >https://www.cbd.int/gbo/gbo4/publication/gbo4-fr-hr.pdf</a>) qui est un résultat\
+  \ des processus dans le cadre de la CDB. </p>"
+UNIT_MEASURE: <p>Pourcentage (%) </p>
 CLASS_SYSTEM: '<p>Les normes et classifications internationales utilisées ont été
   approuvées par la Commission des ressources génétiques pour l’alimentation et l’agriculture
   de la FAO et sont fournies plus en détail dans : FAO. 2013. « In vivo conservation
-  of animal genetic resources » (accessible (en anglais) à l''adresse http://www.fao.org/3/a-i3327e.pdf).
+  of animal genetic resources » (accessible (en anglais) à l''adresse <a href="http://www.fao.org/3/a-i3327e.pdf">http://www.fao.org/3/a-i3327e.pdf</a>).
   </p>'
 COLL_METHOD: <p>Recensement du bétail au niveau de la race ou données dérivées de
   livres nationaux de gestion des animaux de troupeau ou des enquêtes nationales.
@@ -55,15 +57,15 @@ FREQ_COLL: <p>La saisie de données dans le DAD-IS est possible tout au long de 
 REL_CAL_POLICY: <p>L’indicateur est mis à jour au premier trimestre de chaque année.
   </p>
 SOURCE_TYPE: <p>Le DAD-IS est le Système d'information sur la diversité des animaux
-  domestiques maintenu et développé par la FAO (https://www.fao.org/dad-is/fr/). Il
-  donne accès à des bases de données d'informations et de photos liées à la race et
-  à des liens vers d'autres ressources en ligne sur la diversité du bétail. Il permet
-  d'analyser la diversité des races d'élevage aux niveaux national, régional et mondial,
-  y compris l'état des races vis-à-vis de leur risque d'extinction. Le DAD-IS contient
-  actuellement des données de 182 pays et 38 espèces. Il contient des informations
-  sur plus de 8 800 races de mammifères et d'oiseaux, parmi lesquelles environ 7 700
-  sont considérées comme locales (c'est-à-dire signalées comme présentes dans un seul
-  pays).</p>
+  domestiques maintenu et développé par la FAO (<a href="https://www.fao.org/dad-is/fr/">https://www.fao.org/dad-is/fr/</a>).
+  Il donne accès à des bases de données d'informations et de photos liées à la race
+  et à des liens vers d'autres ressources en ligne sur la diversité du bétail. Il
+  permet d'analyser la diversité des races d'élevage aux niveaux national, régional
+  et mondial, y compris l'état des races vis-à-vis de leur risque d'extinction. Le
+  DAD-IS contient actuellement des données de 182 pays et 38 espèces. Il contient
+  des informations sur plus de 8 800 races de mammifères et d'oiseaux, parmi lesquelles
+  environ 7 700 sont considérées comme locales (c'est-à-dire signalées comme présentes
+  dans un seul pays).</p>
 RATIONALE: "<p>L’indicateur a un lien direct avec la « biodiversité » car les ressources\
   \ génétiques animales ou de bétail font partie intégrante des écosystèmes agricoles\
   \ et de la biodiversité en tant que telle. En outre, il existe des liens indirects\
@@ -100,28 +102,28 @@ REG_AGG: "<p>Indicateur ODD agrégé Pj pour k pays (avec au moins une race loca
   \          </mrow>\n          <mrow>\n            <mi>i</mi>\n          </mrow>\n\
   \        </msub>\n      </mrow>\n      <mrow>\n        <mi>N</mi>\n      </mrow>\n\
   \    </mfrac>\n    <mo>)</mo>\n  </math></p>\n<p>Les résultats régionaux et mondiaux\
-  \ ne sont communiqués que si plus de 50% des pays de la région ou du monde ne sont\
-  \ pas manquants</p>"
-IMPUTATION: "<p><strong>Au niveau de la race</strong></p>\n<p>Si aucune donnée de\
-  \ population n'est fournie pour une année donnée, il est supposé que le statut de\
-  \ risque reste le même que pour la dernière année pour laquelle des données de population\
-  \ ont été communiquées. Dans ce cas, la nature des données est considérée comme\
-  \ étant estimée. Toutefois, si le rapport le plus récent se réfère à une année antérieure\
-  \ de plus de 10 ans, le statut de risque est considéré comme « inconnu ». </p>.\n\
-  <p>· <strong>Au niveau national :</strong></p>\n<p>Les informations sur le pays\
-  \ sont considérées comme manquantes si 100 % des races locales d'un pays ont un\
-  \ statut de risque « inconnu ». Si 100 % des valeurs du statut de risque des races\
-  \ d'un pays sont des estimations (voir ci-dessus), la nature des données du pays\
-  \ est également considérée comme une estimation.</p>\n<p>· <strong>Aux niveaux régional\
-  \ et mondial :</strong></p>\n<p>Voir les règles d'agrégation sous 4.g</p>"
+  \ ne sont déclarés que si plus de 50% des pays de la région ou du monde ne sont\
+  \ pas manquants.</p>"
+IMPUTATION: "<p><strong>· Au niveau de la race :</strong></p>\n<p>Si aucune donnée\
+  \ de population n'est fournie pour une année donnée, il est supposé que le statut\
+  \ de risque reste le même que pour la dernière année pour laquelle des données de\
+  \ population ont été communiquées. Dans ce cas, la nature des données est considérée\
+  \ comme étant estimée. Toutefois, si le rapport le plus récent se réfère à une année\
+  \ antérieure de plus de 10 ans, le statut de risque est considéré comme « inconnu ».\
+  \ </p>.\n<p><strong>· Au niveau national :</strong></p>\n<p>Les informations sur\
+  \ le pays sont considérées comme manquantes si 100 % des races locales d'un pays\
+  \ ont un statut de risque « inconnu ». Si 100 % des valeurs du statut de risque\
+  \ des races d'un pays sont des estimations (voir ci-dessus), la nature des données\
+  \ du pays est également considérée comme une estimation.</p>\n<p><strong>· Aux niveaux\
+  \ régional et mondial :</strong></p>\n<p>Voir les règles d'agrégation sous 4.g</p>"
 QUALITY_ASSURE: "<p>Décrite dans la section 7 du document FAO. 2011. « Surveying and\
   \ monitoring of animal genetic resources ». Directives FAO : Production et santé\
-  \ animales. Numéro 7. Rome. (disponible en anglais à l'adresse http://www.fao.org/docrep/014/ba0055e/ba0055e00.htm)\
-  \ </p>\n<p>Les directives ont été présentées et approuvées par la Commission des\
-  \ ressources génétiques pour l'alimentation et l'agriculture lors de sa treizième\
-  \ session ordinaire en juillet 2011. </p>\n<p>La FAO est responsable de la qualité\
-  \ des processus statistiques internes utilisés pour compiler les ensembles de données\
-  \ publiés.</p>"
+  \ animales. Numéro 7. Rome. (disponible en anglais à l'adresse <a href=\"http://www.fao.org/docrep/014/ba0055e/ba0055e00.htm\"\
+  >http://www.fao.org/docrep/014/ba0055e/ba0055e00.htm</a>) </p>\n<p>Les directives\
+  \ ont été présentées et approuvées par la Commission des ressources génétiques pour\
+  \ l'alimentation et l'agriculture lors de sa treizième session ordinaire en juillet\
+  \ 2011. </p>\n<p>La FAO est responsable de la qualité des processus statistiques\
+  \ internes utilisés pour compiler les ensembles de données publiés.</p>"
 DATA_SOURCE: <p>Les données sont fournies par les coordonnateurs nationaux (CN) de
   la gestion des ressources zoogénétiques. Le CN est officiellement nommé par le pays
   (généralement par le ministère de l’agriculture). La FAO fournit directement au
@@ -129,30 +131,31 @@ DATA_SOURCE: <p>Les données sont fournies par les coordonnateurs nationaux (CN)
   mondial d’information sur les données DAD-IS, après avoir reçu la lettre de candidature
   officielle.</p>
 REC_USE_LIM: "<p>Les informations relatives à la race sont loin d’être complètes.\
-  \ Dans le monde entier, en excluant les races éteintes, 65% des races locales sont\
+  \ Dans le monde entier, en excluant les races éteintes, 61% des races locales sont\
   \ classées avec un statut inconnu en raison de données de population manquantes\
   \ ou de l’absence de mises à jour récentes. </p>\n<p>En règle générale, la collecte\
   \ de données devrait être possible dans tous les pays. La mise à jour des données\
   \ sur la taille de la population au moins tous les 10 ans est nécessaire pour la\
   \ définition des classes de risque. </p>"
 DATA_COMP: "<p>L'indicateur est basé sur les données contenues dans la Banque de données\
-  \ mondiale des ressources zoogénétiques DAD-IS de la FAO (https://www.fao.org/dad-is/fr/).\
-  \ Les classes de risque sont définies sur la base des tailles de population des\
-  \ races rapportées dans le DAD-IS. La classe de risque est considérée comme « inconnue »\
-  \ si (i) aucune taille de population n'est signalée ou (ii) la plus récente taille\
-  \ de population signalée se réfère à une année antérieure de plus de 10 ans à l'année\
-  \ de calcul (seuil de 10 ans). </p>\n<p>Les espèces sont réparties en deux groupes.\
-  \ Le premier groupe comprend les espèces qui ont une capacité de reproduction élevée,\
-  \ comme les porcs, les lapins, les cobayes et les espèces aviaires, et le second\
-  \ comprend les espèces qui ont une faible capacité de reproduction, c'est-à-dire\
-  \ celles qui appartiennent aux familles taxonomiques Bovidae, Equidae, Camelidae\
-  \ et Cervidae</p>.\n<p>Les catégories de statut de risque sont définies comme suit\
-  \ (voir également FAO. 2013. « In vivo conservation of animal genetic resources ».\
-  \ Directives FAO: Production et santé animales. Numéro 14. Rome. Accessible (en\
-  \ anglais) à l'adresse http://www.fao.org/docrep/018/i3327e/i3327e.pdf.) : </p>\n\
-  <p><strong><em>Éteinte : </em></strong>une race est catégorisée comme éteinte lorsqu'il\
-  \ n'y a plus de mâles ou de femelles reproducteurs et que le matériel génétique\
-  \ cryoconservé éventuellement disponible est insuffisant pour la reconstitution\
+  \ mondiale des ressources zoogénétiques DAD-IS de la FAO (<a href=\"https://www.fao.org/dad-is/fr/\"\
+  >https://www.fao.org/dad-is/fr/</a>). Les classes de risque sont définies sur la\
+  \ base des tailles de population des races rapportées dans le DAD-IS. La classe\
+  \ de risque est considérée comme « inconnue » si (i) aucune taille de population\
+  \ n'est signalée ou (ii) la plus récente taille de population signalée se réfère\
+  \ à une année antérieure de plus de 10 ans à l'année de calcul (seuil de 10 ans).\
+  \ </p>\n<p>Les espèces sont réparties en deux groupes. Le premier groupe comprend\
+  \ les espèces qui ont une capacité de reproduction élevée, comme les porcs, les\
+  \ lapins, les cobayes et les espèces aviaires, et le second comprend les espèces\
+  \ qui ont une faible capacité de reproduction, c'est-à-dire celles qui appartiennent\
+  \ aux familles taxonomiques Bovidae, Equidae, Camelidae et Cervidae</p>.\n<p>Les\
+  \ catégories de statut de risque sont définies comme suit (voir également FAO. 2013.\
+  \ « In vivo conservation of animal genetic resources ». Directives FAO: Production\
+  \ et santé animales. Numéro 14. Rome. Accessible (en anglais) à l'adresse <a href=\"\
+  http://www.fao.org/docrep/018/i3327e/i3327e.pdf\">http://www.fao.org/docrep/018/i3327e/i3327e.pdf</a>)\
+  \ : </p>\n<p><strong><em>Éteinte : </em></strong>une race est catégorisée comme\
+  \ éteinte lorsqu'il n'y a plus de mâles ou de femelles reproducteurs et que le matériel\
+  \ génétique cryoconservé éventuellement disponible est insuffisant pour la reconstitution\
   \ de la race.</p>\n<p><strong><em>Cryoconservée seulement : </em></strong>les races\
   \ pour lesquelles il ne reste plus d'animaux mâles ou femelles vivants, mais pour\
   \ lesquelles il y a suffisamment de matériel cryoconservé pour permettre la reconstitution\
@@ -177,7 +180,7 @@ DATA_COMP: "<p>L'indicateur est basé sur les données contenues dans la Banque 
   \ la cryoconservation) en place, ou les populations qui sont maintenues par des\
   \ sociétés commerciales ou des instituts de recherche sont considérées comme étant\
   \ « critiques-maintenues » aux fins de déclaration.</p>\n<p><strong><em>En voie\
-  \ de disparition :  </em></strong>une race est classée comme étant en voie de disparition\
+  \ de disparition : </em></strong>une race est classée comme étant en voie de disparition\
   \ si :</p>\n<ul>\n  <li>le nombre total de femelles reproductrices est supérieur\
   \ à 100 (300 pour les espèces à faible capacité de reproduction) et inférieur ou\
   \ égal à 1 000 (3 000); ou </li>\n  <li>la taille globale de la population est supérieure\
@@ -201,7 +204,7 @@ DATA_COMP: "<p>L'indicateur est basé sur les données contenues dans la Banque 
   \  <li>la taille globale de la population est supérieure à 1 200 (3 600) et inférieure\
   \ ou égale à 2 400 (7 200) et la tendance est stable ou à la baisse; ou </li>\n\
   \  <li>le nombre total de mâles reproducteurs est compris entre 20 et 35 (c'est-à-dire\
-  \ que le <em>&#x394;F </em>est compris entre 0,5% et 1%.</li>\n</ul>\n<p>Les tendances\
+  \ que le <em>&#x394;F </em>est compris entre 0,5% et 1%).</li>\n</ul>\n<p>Les tendances\
   \ démographiques non déclarées sont supposées être stables.</p>\n<p><strong><em>Non\
   \ menacée : </em></strong>une race est classée comme non menacée si l'état de la\
   \ population est connu et que la race n'entre pas dans les catégories critique,\
@@ -255,9 +258,10 @@ DATA_COMP: "<p>L'indicateur est basé sur les données contenues dans la Banque 
   \            <mi>i</mi>\n          </mrow>\n        </msub>\n      </mrow>\n   \
   \ </mfrac>\n  </math></p>"
 DATA_VALIDATION: <p>La cohérence des données téléchargées pour le calcul du statut
-  de risque est automatiquement vérifiée par le DAD-IS (par exemple, le nombre de
-  femelles ne dépasse pas la taille totale de la population)</p>
-COMPILING_ORG: <p>FAO</p>
+  de risque est automatiquement vérifiée par le DAD-IS (p. ex., le nombre de femelles
+  ne dépasse pas la taille totale de la population).</p>
+COMPILING_ORG: <p>Organisation des Nations Unies pour l'alimentation et l'agriculture
+  (FAO)</p>
 QUALITY_MGMNT: "<p>La FAO dispense régulièrement des formations aux coordonnateurs\
   \ nationaux sur la collecte de données et la saisie de données dans le système officiel,\
   \ DAD-IS. Les indicateurs eux-mêmes sont automatiquement calculés dans le DAD-IS.\
@@ -266,14 +270,19 @@ QUALITY_MGMNT: "<p>La FAO dispense régulièrement des formations aux coordonnat
 DOC_METHOD: "<p>Recensement du bétail au niveau de la race ou données dérivées des\
   \ livres généalogiques nationaux ou des enquêtes nationales. </p>\n<p>FAO. 2011.\
   \ « Surveying and monitoring of animal genetic resources ». Directives FAO : Production\
-  \ et santé animales. Numéro 7. Rome. (disponible en anglais à l'adresse http://www.fao.org/docrep/014/ba0055e/ba0055e00.htm)\
+  \ et santé animales. Numéro 7. Rome. (disponible en anglais à l'adresse <a href=\"\
+  http://www.fao.org/docrep/014/ba0055e/ba0055e00.htm\">http://www.fao.org/docrep/014/ba0055e/ba0055e00.htm</a>)\
   \ </p>"
 COVERAGE: "<p><strong>Disponibilité des données :</strong></p>\n<p>Les données sont\
-  \ accessibles au public par l’intermédiaire du DAD-IS (voir https://www.fao.org/dad-is/fr/).\
-  \ </p>\n<p><strong>Séries chronologiques :</strong></p>\n<p><strong>Désagrégation\
+  \ accessibles au public par l’intermédiaire du DAD-IS (consulter <a href=\"https://www.fao.org/dad-is/fr/\"\
+  >https://www.fao.org/dad-is/fr/</a>). </p>\n<p><strong>Séries chronologiques :</strong></p>\n\
+  <p>Les données du DAD-IS sont disponibles de 2000 à 2022.</p>\n<p><strong>Désagrégation\
   \ :</strong></p>\n<p>Les données sont disponibles par pays. </p>"
-COMPARABILITY: "<p><strong>Sources des divergences :</strong></p>\n<p>Sans objet</p>"
-OTHER_DOC: "<p><strong>URL : </strong></p>\n<p>https://www.fao.org/dad-is/fr/ </p>\n\
-  <p><strong> Références : </strong></p>\n<p>FAO. 2013. « Guidelines on In vivo Conservation\
-  \ of Animal Genetic Resources ». </p>\n<p>Directives FAO : Production et santé animales.\
-  \ Numéro 14. Rome. Accessible en anglais à l'adresse http://www.fao.org/docrep/018/i3327e/i3327e.pdf</p>"
+COMPARABILITY: "<p><strong>Sources des divergences :</strong></p>\n<p>Sans objet </p>"
+OTHER_DOC: "<p><strong>URL : </strong></p>\n<p><a href=\"https://www.fao.org/dad-is/fr/\"\
+  >https://www.fao.org/dad-is/fr/</a> </p>\n<p><strong> Références : </strong></p>\n\
+  <p>FAO. 2013. « Guidelines on In vivo Conservation of Animal Genetic Resources ».\
+  \ </p>\n<p>Directives FAO : Production et santé animales. Numéro 14. Rome. Disponible\
+  \ en anglais à l'adresse <a href=\"http://www.fao.org/docrep/018/i3327e/i3327e.pdf\"\
+  >http://www.fao.org/docrep/018/i3327e/i3327e.pdf</a></p>"
+SDG_SERIES_DESCR: <p>Proportion de races locales classées en danger d'extinction</p>
