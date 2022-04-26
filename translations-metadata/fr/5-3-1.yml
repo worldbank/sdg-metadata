@@ -22,11 +22,12 @@ STAT_CONC_DEF: >-
   d'avoir une relation durable, mais pour lesquelles il n'y a pas eu de cérémonie
   civile ou religieuse officielle (c.-à-d. la cohabitation).</p>
 SOURCE_TYPE: >-
-  <p>Les enquêtes auprès des ménages, telles que les MICS et les EDS, qui sont soutenues
+  <p>Les enquêtes auprès des ménages, telles que les enquêtes en grappes à indicateurs
+  multiples (MICS) et l'Enquête démographique et de santé (EDS), qui sont soutenues
   par l'UNICEF, permettent de recueillir des données sur cet indicateur dans les pays
-  à faible et à moyen revenu et ce depuis la fin des années 1980. Dans certains pays,
-  les données sont également recueillies par le biais de recensements nationaux ou
-  d'autres enquêtes nationales auprès des ménages.</p>
+  à faible ou à moyen revenu et ce depuis la fin des années 1980. Dans certains pays,
+  les données sont également recueillies par le biais de recensements nationaux, de
+  d'autres enquêtes nationales auprès des ménages ou de données administratives.</p>
 COLL_METHOD: >-
   <ul>
         <li>L’UNICEF entreprend un vaste processus consultatif de compilation et d’évaluation
@@ -34,7 +35,7 @@ COLL_METHOD: >-
   de données mondiales sur la situation des enfants. Jusqu’en 2017, le mécanisme utilisé
   par l’UNICEF pour collaborer avec les autorités nationales afin d’assurer la qualité
   des données et la comparabilité internationale sur les indicateurs clés pertinents
-  pour les enfants était connu sous le nom de rapport de données par pays sur les
+  pour les enfants était connu sous le nom de Rapport de données par pays sur les
   indicateurs pour les objectifs (Country Data Reporting on the Indicators for the
   Goals (CRING)). </li>
         <li>À partir de 2018, l’UNICEF a lancé un nouveau processus de consultation
@@ -57,11 +58,11 @@ FREQ_COLL: >-
   entre décembre et janvier, afin de permettre l’examen et le traitement des commentaires
   reçus afin de respecter les échéances mondiales de déclaration des ODD. </p>
 REL_CAL_POLICY: |-
-  <p>Mars 2021 </p>
+  <p>Chaque année en mars. </p>
 DATA_SOURCE: |-
   <p>Bureaux nationaux de statistique (dans la plupart des cas)</p>
 COMPILING_ORG: |-
-  <p>UNICEF</p>
+  <p>Fonds des Nations Unies pour l'enfance (UNICEF)</p>
 RATIONALE: >-
   <p>Le mariage avant l'âge de 18 ans est une violation fondamentale des droits de
   l'homme. Le mariage d'enfants compromet souvent le développement d'une fillette
@@ -70,10 +71,8 @@ RATIONALE: >-
   plaçant dans une situation de risque accru de violence conjugale. Dans de nombreuses
   cultures, il est attendu des filles qui atteignent la puberté qu'elles assument
   les rôles associés à la féminité. Il s'agit notamment de s'engager dans une union
-  et de devenir mère. </p>
-
-  <p>La pratique du mariage précoce ou d'enfant est une manifestation directe de l'inégalité
-  des sexes. </p>
+  et de devenir mère. La pratique du mariage précoce ou d'enfant est une manifestation
+  directe de l'inégalité des sexes. </p>
 
   <p>La question du mariage d'enfants est abordée dans un certain nombre de conventions
   et d'accords internationaux. Bien que le mariage ne soit pas directement mentionné
@@ -100,14 +99,14 @@ REC_USE_LIM: >-
 DATA_COMP: >-
   <p>Nombre de femmes âgées de 20 à 24 ans qui se sont mariées ou étaient en couple
   avant l'âge de 15 ans (ou avant l'âge de 18 ans), divisé par le nombre total de
-  femmes âgées de 20 à 24 ans dans la population, multiplié par 100</p>
+  femmes âgées de 20 à 24 ans dans la population, multiplié par 100.</p>
 IMPUTATION: >-
-  <p>&#x2022; <strong>Au niveau national :</strong></p>
+  <p><strong>&#x2022; Au niveau national :</strong></p>
 
   <p>Lorsque les données d’un pays sont totalement manquantes, l’UNICEF ne publie
-  aucune estimation nationale</p>
+  aucune estimation nationale.</p>
 
-  <p>&#x2022; <strong>Aux niveaux régional et mondial :</strong></p>
+  <p><strong>&#x2022; Aux niveaux régional et mondial :</strong></p>
 
   <p>La moyenne régionale est appliquée aux pays de la région dont les valeurs sont
   manquantes aux fins du calcul des agrégats régionaux uniquement, mais n’est pas
@@ -143,7 +142,7 @@ COVERAGE: >-
   <p><strong>Disponibilité des données :</strong></p>
 
   <p>Des données comparables sur cet indicateur sont actuellement disponibles pour
-  126 pays</p>
+  126 pays.</p>
 
   <p><strong>Séries chronologiques :</strong></p>
 
@@ -164,13 +163,16 @@ OTHER_DOC: >-
 
   <p><strong>URL :</strong></p>
 
-  <p>data.unicef.org</p>
+  <p><a href="https://data.unicef.org/topic/child-protection/child-marriage/">https://data.unicef.org/topic/child-protection/child-marriage/</a>
+  </p>
 
   <p><strong>Références :</strong></p>
 
-  <p>https://data.unicef.org/topic/child-protection/child-marriage/</p>
+  <p><a href="https://data.unicef.org/topic/child-protection/child-marriage/">https://data.unicef.org/topic/child-protection/child-marriage/</a>
+  </p>
 
-  <p>https://data.unicef.org/resources/a-generation-to-protect/</p>
+  <p><a href="https://data.unicef.org/resources/a-generation-to-protect/">https://data.unicef.org/resources/a-generation-to-protect/</a>
+  </p>
 SDG_RELATED_INDICATORS: <p>Sans objet</p>
 INST_MANDATE: <p>L’UNICEF est responsable du suivi mondial et de l’établissement de
   rapports sur le bien-être des enfants. Il fournit une assistance technique et financière
@@ -205,7 +207,7 @@ QUALITY_MGMNT: <p>Le processus qui sous-tend la production de statistiques fiabl
   en étroite collaboration avec les bureaux de statistique et d’autres parties prenantes
   concernées, par le biais d’un processus consultatif. </p>
 QUALITY_ASSMNT: <p>Des contrôles de cohérence et de qualité des données sont régulièrement
-  effectués pour valider les données avant leur diffusion </p>
+  effectués pour valider les données avant leur diffusion. </p>
 ADJUSTMENT: <p>Sans objet</p>
 SDG_SERIES_DESCR: "<p>Proportion de femmes âgées de 20 à 24 ans qui étaient mariées\
   \ ou en couple avant l’âge de 15 ans (%)</p>\n<p>Proportion de femmes âgées de 20\
