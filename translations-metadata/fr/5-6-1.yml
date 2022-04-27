@@ -8,10 +8,19 @@ SDG_GOAL: '<p>Objectif 5 : Parvenir à l’égalité des sexes et autonomiser to
 SDG_INDICATOR: '<p>Indicateur 5.6.1 : Proportion de femmes âgées de 15 à 49 ans qui
   prennent leurs propres décisions éclairées concernant les relations sexuelles, l’utilisation
   de contraceptifs et les soins de santé génésique</p>'
-SDG_RELATED_INDICATORS: "<p>Indicateur ODD 5.6.2</p>\n<p>Cible 3.7 : D'ici 2030, assurer\
-  \ un accès universel à des services de soins de santé sexuelle et génésique, y compris\
-  \ à des fins de planification familiale, d'information et d'éducation, et veiller\
-  \ à l'intégration de la santé génésique dans les stratégies et les programmes nationaux</p>"
+SDG_RELATED_INDICATORS: "<p>Indicateur 3.1.1 : Taux de mortalité maternelle</p>\n\
+  <p>Indicateur 3.1.2 : Proportion d’accouchements assistés par du personnel de santé\
+  \ qualifié </p>\n<p>Indicateur 3.7.1 : Proportion de femmes en âge de procréer (15 à 49 ans)\
+  \ qui utilisent des méthodes modernes de planification familiale</p>\n<p>Indicateur\
+  \ 3.7.2 : Taux de natalité chez les adolescentes (10 à 14 ans; 15 à 19 ans) pour\
+  \ 1 000 adolescentes du même groupe d’âge</p>\n<p>Indicateur 5.2.1 : Proportion\
+  \ de femmes et de filles de 15 ans ou plus qui ont déjà été en couple et qui ont\
+  \ été victimes de violence physique, sexuelle ou psychologique de la part d’un partenaire\
+  \ intime actuel ou ancien au cours des 12 derniers mois, selon la forme de violence\
+  \ et l'âge</p>\n<p>Indicateur 5.6.2 : Nombre de pays dotés de lois et de règlements\
+  \ garantissant un accès complet et égal aux femmes et aux hommes âgés de 15 ans\
+  \ ou plus aux soins, à l’information et à l’éducation en matière de santé sexuelle\
+  \ et génésique</p>"
 SDG_CUSTODIAN_AGENCIES: <p>Fonds des Nations Unies pour la population (FNUAP)</p>
 CONTACT_ORGANISATION: <p>Fonds des Nations Unies pour la population (FNUAP)</p>
 STAT_CONC_DEF: "<p><strong>Définition :</strong></p>\n<p>Proportion de femmes âgées\
@@ -27,11 +36,11 @@ STAT_CONC_DEF: "<p><strong>Définition :</strong></p>\n<p>Proportion de femmes
   \ à partir des réponses aux trois questions suivantes :</p>\n<p>1. Qui prend habituellement\
   \ les décisions concernant les soins de santé pour vous-même ? </p>\n<p>&#x2013;\
   \ RÉPONDANTE </p>\n<p>&#x2013; MARI/PARTENAIRE</p>\n<p>&#x2013; RÉPONDANTE ET MARI/PARTENAIRE\
-  \ CONJOINTEMENT</p>\n<p>&#x2013; QUELQU’UN D’AUTRE</p>\n<p>&#x2013; AUTRE SPÉCIFIER\
+  \ CONJOINTEMENT</p>\n<p>&#x2013; QUELQU’UN D’AUTRE</p>\n<p>&#x2013; AUTRE, SPÉCIFIER\
   \ </p>\n<p>2. Qui prend habituellement la décision d’utiliser ou non la contraception ?\
   \ </p>\n<p>&#x2013; RÉPONDANTE </p>\n<p>&#x2013; MARI/PARTENAIRE </p>\n<p>&#x2013;\
   \ RÉPONDANTE ET MARI/PARTENAIRE CONJOINTEMENT</p>\n<p>&#x2013; QUELQU’UN D’AUTRE</p>\n\
-  <p>&#x2013; AUTRE SPÉCIFIER</p>\n<p>3. Pouvez-vous dire non à votre mari / partenaire\
+  <p>&#x2013; AUTRE, SPÉCIFIER</p>\n<p>3. Pouvez-vous dire non à votre mari / partenaire\
   \ si vous ne voulez pas avoir de rapports sexuels ? </p>\n<p>&#x2013; OUI </p>\n\
   <p>&#x2013; NON </p>\n<p>&#x2013; DÉPEND/PAS SÛRE</p>\n<p>Une femme est considérée\
   \ comme jouissant d’une autonomie dans la prise de décision en matière de santé\
@@ -41,23 +50,23 @@ STAT_CONC_DEF: "<p><strong>Définition :</strong></p>\n<p>Proportion de femmes
   \ contraception, seule ou conjointement avec son mari ou son partenaire; et (3)\
   \ peut dire non aux relations sexuelles avec son mari ou partenaire si elle ne le\
   \ veut pas. </p>"
-CLASS_SYSTEM: <p>Adoptée par 179 gouvernements, le Programme d’action de la Conférence
-  internationale sur la population et le développement de 1994 a marqué un changement
-  fondamental dans la pensée mondiale sur les questions de population et de développement.
-  Il est passé de l’objectif d’atteindre des cibles démographiques spécifiques à l’accent
-  mis sur les besoins, les aspirations et les droits des femmes et des hommes. Le
-  Programme d’action affirmait que tout le monde compte, que la véritable orientation
-  de la politique de développement doit être l’amélioration de la vie individuelle
-  et que la mesure du progrès doit être la mesure dans laquelle nous nous attaquons
-  aux inégalités. Pour plus d’informations sur le Programme d’action de la CIPD, veuillez
-  consulter https://www.unfpa.org/sites/default/files/pub-pdf/ICPD-PoA-Fr-FINAL.pdf.
-  </p>
+CLASS_SYSTEM: "<p>Adoptée par 179 gouvernements, le Programme d’action de la Conférence\
+  \ internationale sur la population et le développement (CIPD) de 1994 a marqué un\
+  \ changement fondamental dans la pensée mondiale sur les questions de population\
+  \ et de développement. Il est passé de l’objectif d’atteindre des cibles démographiques\
+  \ spécifiques à l’accent mis sur les besoins, les aspirations et les droits des\
+  \ femmes et des hommes. Le Programme d’action affirmait que tout le monde compte,\
+  \ que la véritable orientation de la politique de développement doit être l’amélioration\
+  \ de la vie individuelle et que la mesure du progrès doit être la mesure dans laquelle\
+  \ nous nous attaquons aux inégalités. Pour plus d’informations sur le Programme\
+  \ d’action de la CIPD, veuillez consulter le site :</p>\n<p><a href=\"https://www.unfpa.org/sites/default/files/pub-pdf/ICPD-PoA-Fr-FINAL.pdf\"\
+  >https://www.unfpa.org/sites/default/files/pub-pdf/ICPD-PoA-Fr-FINAL.pdf</a>. </p>"
 COLL_METHOD: "<p>Les données sont recueillies conformément à la méthodologie utilisée\
-  \ pour l’enquête nationale pertinente. </p>\n<p>Les données de l’indicateur 5.6.1\
-  \ des ODD peuvent être recueillies par le biais d’enquêtes existantes spécifiques\
-  \ aux pays. Pour les enquêtes nationales existantes auprès des ménages, il faut\
-  \ s’assurer que le plan d’échantillonnage n’exclut pas systématiquement les sous-groupes\
-  \ de la population qui sont importants pour l’ODD 5.6.1, en particulier les femmes\
+  \ pour l’enquête nationale pertinente. Les données de l’indicateur 5.6.1 des ODD\
+  \ peuvent être recueillies par le biais d’enquêtes existantes spécifiques aux pays.\
+  \ Pour les enquêtes nationales existantes auprès des ménages, il faut s’assurer\
+  \ que le plan d’échantillonnage n’exclut pas systématiquement les sous-groupes de\
+  \ la population qui sont importants pour l’ODD 5.6.1, en particulier les femmes\
   \ en âge de procréer (15-49 ans) qui sont actuellement mariées ou en union libre.\
   \ Les enquêtes qui ne couvrent que certains sous-groupes de population, comme les\
   \ femmes qui parlent la langue dominante ou les femmes du principal groupe ethnique,\
@@ -68,17 +77,17 @@ COLL_METHOD: "<p>Les données sont recueillies conformément à la méthodologie
   \ à l’échelle nationale et représentative, au moins, à un niveau administratif inférieur\
   \ au niveau national. </p>\n<p>Les enquêtes sur des sujets non liés peuvent ne pas\
   \ être de bons candidats pour l’intégration des questions de l’ODD 5.6.1. La sensibilité\
-  \ des sujets abordés dans les enquêtes sur la santé, en particulier ceux qui examinent\
-  \ la santé des femmes, fait de ces enquêtes un instrument réalisable pour intégrer\
-  \ des questions sur l’expérience des femmes en matière de prise de décision dans\
-  \ les relations sexuelles, l’utilisation de contraceptifs et les soins de santé\
-  \ pour elles-mêmes. </p>\n<p>Afin de générer des données pour l’ODD 5.6.1, les trois\
-  \ questions doivent être incluses dans l’enquête. Les trois questions de la section\
-  \ « Définition » fournissent des questions génériques qui peuvent être utilisées\
-  \ dans des enquêtes spécifiques aux pays. Pour la première et la deuxième question,\
-  \ celles-ci devraient inclure des catégories distinctes pour les femmes qui prennent\
-  \ des décisions elles-mêmes et les femmes qui prennent des décisions conjointement\
-  \ avec leur mari ou partenaire. </p>"
+  \ des sujets abordés dans les enquêtes sur la santé examinant la santé des femmes\
+  \ fait de ces enquêtes un instrument réalisable pour intégrer des questions sur\
+  \ l’expérience des femmes en matière de prise de décision, pour elles-mêmes, au\
+  \ sujet des soins de santé, de l’utilisation de contraceptifs et des relations sexuelles.\
+  \ </p>\n<p>Afin de générer des données pour l’ODD 5.6.1, les trois questions doivent\
+  \ être incluses dans l’enquête. Les trois questions de la section « Définition »\
+  \ fournissent des questions génériques qui peuvent être utilisées dans des enquêtes\
+  \ spécifiques à chaque pays. La première et la deuxième question devraient inclure\
+  \ des catégories distinctes pour les femmes qui prennent des décisions elles-mêmes\
+  \ et les femmes qui prennent des décisions conjointement avec leur mari ou partenaire.\
+  \ </p>"
 INST_MANDATE: "<p>Le mandat du FNUAP, tel qu’il a été créé par le Conseil économique\
   \ et social des Nations Unies (ECOSOC) en 1973 et réaffirmé en 1993, est (1) de\
   \ renforcer les connaissances et la capacité de répondre aux besoins en matière\
@@ -93,18 +102,18 @@ INST_MANDATE: "<p>Le mandat du FNUAP, tel qu’il a été créé par le Conseil 
   \ l’accent sur les dimensions de genre et de droits de l’homme de la population.\
   \ Le FNUAP a été chargé d’aider les pays à mettre en œuvre le Programme d’action\
   \ adopté par 179 gouvernements à la Conférence du Caire. En 2010, l’Assemblée générale\
-  \ des Nations Unies a prolongé la CIPD au-delà de 2014, date de fin initiale du\
-  \ Programme d’action de 20 ans.</p>"
+  \ des Nations Unies a prolongé la CIPD au-delà de 2014, la date de fin initiale\
+  \ du Programme d’action de 20 ans.</p>"
 REG_AGG: <p>Les agrégats mondiaux et régionaux sont calculés comme des moyennes pondérées
   des données au niveau des pays. La pondération est basée sur la population estimée
-  de femmes mariées âgées de 15 à 49 ans, qui utilisent n’importe quel type de contraception
+  de femmes mariées âgées de 15 à 49 ans qui utilisent n’importe quel type de contraception
   au cours de l’année de référence. Les estimations du nombre de femmes mariées ou
   en union libre et du taux de prévalence contraceptive sont obtenues auprès de la
   Division de la population des Nations Unies. </p>
-IMPUTATION: "<p>&#x2022; <strong>Au niveau national :</strong></p>\n<p>Le FNUAP n’a\
+IMPUTATION: "<p><strong>&#x2022; Au niveau national :</strong></p>\n<p>Le FNUAP n’a\
   \ pas tenté de fournir et de publier des estimations pour des pays ou des zones\
   \ individuels lorsque les données par pays ou par zone ne sont pas disponibles.\
-  \ </p>\n<p>&#x2022; <strong>Aux niveaux régional et mondial :</strong></p>\n<p>Les\
+  \ </p>\n<p><strong>&#x2022; Aux niveaux régional et mondial :</strong></p>\n<p>Les\
   \ agrégats régionaux sont basés sur les pays où des données sont disponibles dans\
   \ la région. Elles ne devraient pas être traitées comme des estimations au niveau\
   \ des pays pour les pays dont les valeurs sont manquantes dans la région. </p>"
@@ -135,7 +144,7 @@ SOURCE_TYPE: <p>Les données proviennent principalement d’enquêtes démograph
 FREQ_COLL: <p>Selon les cycles d’enquête EDS, MICS, GGS et spécifiques à chaque pays</p>
 REL_CAL_POLICY: <p>Annuelle</p>
 DATA_SOURCE: <p>Organismes chargés des enquêtes auprès des ménages au niveau national.</p>
-COMPILING_ORG: <p>FNUAP</p>
+COMPILING_ORG: <p>Fonds des Nations Unies pour la population (FNUAP)</p>
 RATIONALE: "<p>L’autonomie des femmes et des filles dans la prise de décision concernant\
   \ les services de santé sexuelle et génésique, l’utilisation de contraceptifs et\
   \ les relations sexuelles consensuelles est essentielle à leur autonomisation et\
@@ -163,16 +172,16 @@ REC_USE_LIM: "<p>Jusqu’à récemment, l’indicateur a permis de recueillir de
   \ et le GGS, le questionnaire est étendu aux répondantes, qu’elles utilisent ou\
   \ non une contraception. La mesure ne couvre pas les femmes et les filles qui ne\
   \ sont pas mariées ou en union libre, car elles ne prennent généralement pas de\
-  \ « décisions conjointes » sur leurs propres soins de santé avec leur partenaire.\
-  \ </p>\n<p>Au début de 2021, un total de 64 pays, la majorité en Afrique subsaharienne,\
+  \ « décisions conjointes » au sujet de leurs soins de santé avec leur partenaire.\
+  \ </p>\n<p>Au début de 2022, un total de 64 pays, la majorité en Afrique subsaharienne,\
   \ disposaient d’au moins une enquête avec des données sur les trois questions nécessaires\
-  \ au calcul de l’indicateur 5.6.1. Des sources de données plus larges sont nécessaires\
-  \ et des efforts sont en cours pour accroître la couverture des données. </p>\n\
-  <p>Dans de nombreux contextes nationaux, les enquêtes auprès des ménages, qui constituent\
-  \ la principale source de données pour cet indicateur, excluent les sans-abri et\
-  \ sont susceptibles de sous-dénombrer les groupes linguistiques ou religieux minoritaires.\
-  \ </p>"
-DATA_COMP: "<p>Numérateur : Nombre de femmes mariées ou en union libre et de filles\
+  \ au calcul de l’indicateur 5.6.1. 28 pays ont au moins 2 points de données entre\
+  \ 2006 et 2020.Des sources de données plus larges sont nécessaires et des efforts\
+  \ sont en cours pour accroître la couverture des données. </p>\n<p>Dans de nombreux\
+  \ contextes nationaux, les enquêtes auprès des ménages, qui constituent la principale\
+  \ source de données pour cet indicateur, excluent les sans-abri et sont susceptibles\
+  \ de sous-dénombrer les groupes minoritaires linguistiques ou religieux. </p>"
+DATA_COMP: "<p>Numérateur : Nombre de femmes et de filles mariées ou en union libre,\
   \ âgées de 15 à 49 ans :</p>\n<p>&#x2013; pour qui la décision sur les soins de\
   \ santé pour elles-mêmes n’est généralement pas prise par le mari ou partenaire\
   \ ou quelqu’un d’autre; et</p>\n<p>&#x2013; pour qui la décision sur la contraception\
@@ -193,3 +202,23 @@ DOC_METHOD: <p>Pour plus d’informations, reportez-vous à <a href="https://www
 COMPARABILITY: "<p><strong>Sources des divergences :</strong></p>\n<p>Sans objet </p>"
 OTHER_DOC: "<p><strong>URL : </strong></p>\n<p>(en anglais) https://www.unfpa.org/sdg-5-6</p>\n\
   <p>Références :</p>\n<p>Non disponible. </p>"
+QUALITY_MGMNT: <p>Le FNUAP a publié des directives techniques sur les questions fondamentales
+  pour la collecte de données pour l’indicateur 5.6.1 des ODD et fournit un soutien
+  technique par l’intermédiaire des bureaux régionaux et nationaux du FNUAP, pour
+  renforcer le suivi national de la prise de décision des femmes en matière de santé
+  sexuelle et génésique. </p>
+QUALITY_ASSURE: <p>Le FNUAP tient à jour la base de données mondiale sur l’ODD 5.6.1.
+  Avant d’inclure des données nationales dans la base de données mondiale, les points
+  focaux techniques du FNUAP évaluent minutieusement la méthodologie d’enquête utilisée
+  pour recueillir les données de l’ODD 5.6.1 afin de déterminer le niveau de comparabilité
+  entre les pays et au fil du temps dans un pays spécifique. </p>
+QUALITY_ASSMNT: <p>Sans objet</p>
+SDG_SERIES_DESCR: "<p>Proportion de femmes qui prennent leurs propres décisions éclairées\
+  \ concernant les relations sexuelles, l’utilisation de contraceptifs et les soins\
+  \ de santé génésique (% des femmes âgées de 15 à 49 ans) SH_FPL_INFM</p>\n<p>Proportion\
+  \ de femmes qui prennent leurs propres décisions éclairées concernant les soins\
+  \ de santé génésique (% des femmes âgées de 15 à 49 ans) SH_FPL_INFMRH</p>\n<p>Proportion\
+  \ de femmes qui prennent leurs propres décisions éclairées concernant l’utilisation\
+  \ de contraceptifs (% des femmes âgées de 15 à 49 ans) SH_FPL_INFMCU</p>\n<p>Proportion\
+  \ de femmes qui prennent leurs propres décisions éclairées concernant les relations\
+  \ sexuelles (% des femmes âgées de 15 à 49 ans) SH_FPL_INFMSR</p>"
