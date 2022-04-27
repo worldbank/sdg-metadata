@@ -5,7 +5,7 @@ SDG_TARGET: '<p>Objectif 5.6 : Assurer l’accès universel à la santé sexuell
   d’action de Beijing, ainsi qu’aux documents issus de leurs conférences d’examen</p>'
 SDG_GOAL: '<p>Objectif 5 : Parvenir à l’égalité des sexes et autonomiser toutes les
   femmes et les filles</p>'
-SDG_INDICATOR: '<p>Indicateur 5.6.1 : Proportion de femmes âgées de 15 à 49 ans qui
+SDG_INDICATOR: '<p>Indicateur 5.6.1 : Proportion de femmes âgées de 15 à 49 ans qui
   prennent leurs propres décisions éclairées concernant les relations sexuelles, l’utilisation
   de contraceptifs et les soins de santé génésique</p>'
 SDG_RELATED_INDICATORS: "<p>Indicateur 3.1.1 : Taux de mortalité maternelle</p>\n\
@@ -89,7 +89,7 @@ COLL_METHOD: "<p>Les données sont recueillies conformément à la méthodologie
   \ et les femmes qui prennent des décisions conjointement avec leur mari ou partenaire.\
   \ </p>"
 INST_MANDATE: "<p>Le mandat du FNUAP, tel qu’il a été créé par le Conseil économique\
-  \ et social des Nations Unies (ECOSOC) en 1973 et réaffirmé en 1993, est (1) de\
+  \ et social des Nations Unies (ECOSOC) en 1973 et réaffirmé en 1993, est de (1)\
   \ renforcer les connaissances et la capacité de répondre aux besoins en matière\
   \ de population et de planification familiale; 2) sensibiliser les pays développés\
   \ et en développement aux problèmes de population et aux stratégies possibles pour\
@@ -102,7 +102,7 @@ INST_MANDATE: "<p>Le mandat du FNUAP, tel qu’il a été créé par le Conseil 
   \ l’accent sur les dimensions de genre et de droits de l’homme de la population.\
   \ Le FNUAP a été chargé d’aider les pays à mettre en œuvre le Programme d’action\
   \ adopté par 179 gouvernements à la Conférence du Caire. En 2010, l’Assemblée générale\
-  \ des Nations Unies a prolongé la CIPD au-delà de 2014, la date de fin initiale\
+  \ des Nations Unies a prolongé la CIPD au-delà de 2014, soit la date de fin initiale\
   \ du Programme d’action de 20 ans.</p>"
 REG_AGG: <p>Les agrégats mondiaux et régionaux sont calculés comme des moyennes pondérées
   des données au niveau des pays. La pondération est basée sur la population estimée
@@ -117,24 +117,23 @@ IMPUTATION: "<p><strong>&#x2022; Au niveau national :</strong></p>\n<p>Le FNUAP 
   \ agrégats régionaux sont basés sur les pays où des données sont disponibles dans\
   \ la région. Elles ne devraient pas être traitées comme des estimations au niveau\
   \ des pays pour les pays dont les valeurs sont manquantes dans la région. </p>"
-COVERAGE: "<p><strong>Disponibilité des données :</strong></p>\n<p>Actuellement, un\
-  \ total de 64 pays ont au moins une enquête avec des données sur les 3 questions\
-  \ ci-dessus qui sont nécessaires pour calculer l’indicateur 5.6.1. Les 64 pays disposant\
-  \ de données sont répartis comme suit : </p>\n<p>&#x2022; Asie centrale et Asie\
-  \ du Sud (7)</p>\n<p>&#x2022; Asie de l’Est et Asie du Sud-Est (5) </p>\n<p>&#x2022;\
-  \ Amérique du Nord et Europe (5)</p>\n<p>&#x2022; Asie de l’Ouest et Afrique du\
-  \ Nord (3)</p>\n<p>&#x2022; Amérique latine et Caraïbes (7) </p>\n<p>&#x2022; Afrique\
-  \ subsaharienne (36)</p>\n<p>Plusieurs autres pays n’ont qu’une ou deux des trois\
-  \ questions nécessaires pour calculer l’indicateur 5.6.1. Le FNUAP collabore avec\
-  \ les principaux programmes d’enquête internationaux et régionaux, ainsi qu’avec\
-  \ les organisations et organismes nationaux et internationaux pour intégrer les\
-  \ questions dans les enquêtes pertinentes auprès des ménages en vue de couvrir tous\
-  \ les pays à l’échelle mondiale. </p>\n<p><strong>Séries chronologiques :</strong></p>\n\
-  <p>Actuellement, les données proviennent d’enquêtes auprès des ménages qui ont des\
-  \ cycles de trois à cinq ans. </p>\n<p><strong>Désagrégation :</strong></p>\n<p>D’après\
-  \ les données disponibles des enquêtes auprès des ménages, la désagrégation est\
-  \ possible selon l’âge, l’emplacement géographique, le lieu de résidence, le niveau\
-  \ de scolarité et le quintile de richesse. </p>"
+COVERAGE: "<p><strong>Disponibilité des données :</strong></p>\n<p>Actuellement, 64\
+  \ pays ont au moins une enquête avec des données sur les questions ci-dessus qui\
+  \ sont nécessaires pour calculer l’indicateur 5.6.1. Les 64 pays disposant de données\
+  \ sont répartis comme suit : </p>\n<ul>\n<li>Asie centrale et Asie du Sud (7)</li>\n\
+  <li>Asie de l’Est et Asie du Sud-Est (5) </li>\n<li>Amérique du Nord et Europe (5)</li>\n\
+  <li>Asie de l’Ouest et Afrique du Nord (3)</li>\n<li>Amérique latine et Caraïbes\
+  \ (7) </li>\n<li>Afrique subsaharienne (36)</li>\n<li>Océanie (1)</li>\n</ul>\n\
+  <p>Plusieurs pays n’ont qu’une ou deux des trois questions nécessaires pour calculer\
+  \ l’indicateur 5.6.1. Le FNUAP collabore avec les principaux programmes d’enquête\
+  \ internationaux et régionaux, ainsi qu’avec les organisations et organismes nationaux\
+  \ et internationaux pour intégrer les questions dans les enquêtes pertinentes auprès\
+  \ des ménages afin de couvrir tous les pays à l’échelle mondiale. </p>\n<p><strong>Séries\
+  \ chronologiques :</strong></p>\n<p>Actuellement, les données proviennent d’enquêtes\
+  \ auprès des ménages qui ont des cycles de trois à cinq ans. </p>\n<p><strong>Désagrégation\
+  \ :</strong></p>\n<p>D’après les données disponibles des enquêtes auprès des ménages,\
+  \ la désagrégation est possible selon l’âge, l’emplacement géographique, le lieu\
+  \ de résidence, le niveau de scolarité et le quintile de richesse. </p>"
 UNIT_MEASURE: <p>Pourcentage (%)</p>
 SOURCE_TYPE: <p>Les données proviennent principalement d’enquêtes démographiques et
   de santé (EDS) représentatives à l’échelle nationale. Les sources de données comprennent
@@ -200,8 +199,11 @@ DOC_METHOD: <p>Pour plus d’informations, reportez-vous à <a href="https://www
   de données pour l’ODD 5.6.1 dans les enquêtes nationales auprès des ménages sont
   disponibles sur demande. </p>
 COMPARABILITY: "<p><strong>Sources des divergences :</strong></p>\n<p>Sans objet </p>"
-OTHER_DOC: "<p><strong>URL : </strong></p>\n<p>(en anglais) https://www.unfpa.org/sdg-5-6</p>\n\
-  <p>Références :</p>\n<p>Non disponible. </p>"
+OTHER_DOC: "<p><strong>URL : </strong></p>\n<p><a href=\"https://www.unfpa.org/sdg-5-6\"\
+  >(en anglais) https://www.unfpa.org/sdg-5-6</a></p>\n<p> </p>\n<p><strong>Références\
+  \ :</strong></p>\n<p>Programme d'action de la Conférence internationale sur la population\
+  \ et le développement (CIPD)</p>\n<p><a href=\"https://www.unfpa.org/sites/default/files/pub-pdf/ICPD-PoA-Fr-FINAL.pdf\"\
+  >https://www.unfpa.org/sites/default/files/pub-pdf/ICPD-PoA-Fr-FINAL.pdf</a>. </p>"
 QUALITY_MGMNT: <p>Le FNUAP a publié des directives techniques sur les questions fondamentales
   pour la collecte de données pour l’indicateur 5.6.1 des ODD et fournit un soutien
   technique par l’intermédiaire des bureaux régionaux et nationaux du FNUAP, pour
