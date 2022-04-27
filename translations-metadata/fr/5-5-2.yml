@@ -8,8 +8,7 @@ SDG_INDICATOR: "<p>Indicateur 5.5.2 : Proportion de femmes occupant des postes d
   \ direction</p>"
 META_LAST_UPDATE: '<p>2022-03-31</p>'
 SDG_RELATED_INDICATORS: >-
-  <p>8.5.1 Rémunération horaire moyenne des employés, selon le sexe, l’âge, la profession
-  et le statut de personne handicapée</p>
+  <p>8.5.1 </p>
 SDG_CUSTODIAN_AGENCIES: |-
   <p>Organisation internationale du travail (OIT)</p>
 STAT_CONC_DEF: >-
@@ -65,12 +64,12 @@ COLL_METHOD: >-
   <p>Le Département de statistique de l’OIT traite les microensembles de données des
   enquêtes nationales auprès des ménages conformément aux concepts et définitions
   d’indicateurs convenus au niveau international et définis par la Conférence internationale
-  des statisticiens du travail. Pour les données qui n’ont pas pu être obtenues par
-  ce biais ou directement à partir des sites Web gouvernementaux, l’OIT envoie un
-  questionnaire annuel ILOSTAT à toutes les agences compétentes de chaque pays (office
-  national de statistique, ministère du travail, etc.) demandant les dernières données
-  annuelles et toute révision sur de nombreux sujets et indicateurs du marché du travail,
-  y compris de nombreux indicateurs des ODD. </p>
+  des statisticiens du travail (CIST). Pour les données qui n’ont pas pu être obtenues
+  par ce biais ou directement à partir des sites Web gouvernementaux, l’OIT envoie
+  un questionnaire annuel ILOSTAT à toutes les agences compétentes de chaque pays
+  (bureau national de statistique, ministère du travail, etc.) demandant les dernières
+  données annuelles et toute révision sur de nombreux sujets et indicateurs du marché
+  du travail, y compris de nombreux indicateurs des ODD. </p>
 FREQ_COLL: >-
   <p>En continu</p>
 REL_CAL_POLICY: >-
@@ -80,7 +79,7 @@ DATA_SOURCE: |-
 COMPILING_ORG: |-
   <p>Organisation internationale du travail (OIT)</p>
 RATIONALE: >-
-  <p> L’indicateur fournit des informations sur la proportion de femmes qui sont employées
+  <p>L’indicateur fournit des informations sur la proportion de femmes qui sont employées
   dans des rôles de prise de décision et de gestion au sein du gouvernement, des grandes
   entreprises et des institutions, fournissant ainsi un aperçu du pouvoir des femmes
   dans la prise de décision et dans l’économie (en particulier par rapport au pouvoir
@@ -1101,7 +1100,7 @@ DATA_COMP: >-
       <mn>100</mn>
     </math></p>
 IMPUTATION: >-
-  <p>&#x2022; <strong>Au niveau national :</strong></p>
+  <p><strong>&#x2022; Au niveau national :</strong></p>
 
   <p> Des techniques multivariables de régression et de validation croisée sont utilisées
   pour imputer les valeurs manquantes au niveau national. Les variables supplémentaires
@@ -1115,7 +1114,10 @@ IMPUTATION: >-
   méthodologique (en anglais) des estimations modélisées de l’OIT, disponible à l'adresse
   https ://www.ilo.org/ilostat-files/Documents/TEM.pdf. </p>
 
-  <p>&#x2022; <strong>Aux niveaux régional et mondial :</strong></p>
+  <p><strong>&#x2022; Aux niveaux régional et mondial :</strong></p>
+
+  <p>Les chiffres régionaux et mondiaux sont des agrégats des chiffres au niveau des
+  pays, y compris les valeurs imputées. </p>
 REG_AGG: >-
   <p>Les agrégats sont dérivés des estimations modélisées de l’OIT qui sont utilisées
   pour produire des estimations mondiales et régionales de l’emploi par profession
@@ -1155,10 +1157,8 @@ DOC_METHOD: >-
   </li>
     <li>Base de données ILOSTAT (<a href="https://ilostat.ilo.org/fr/">https://ilostat.ilo.org/fr/</a>)</li>
     <li>ILOSTAT – Description de l'indicateur : Emploi par profession, à l'adresse
-  :
-  <a href="https://ilostat.ilo.org/fr/resources/concepts-and-definitions/description-employment-by-occupation/">https://ilostat.ilo.org/fr/resources/concepts-and-definitions/description-employment-by-occupation/</a>).
+  : <a href="https://ilostat.ilo.org/fr/resources/concepts-and-definitions/description-employment-by-occupation/">https://ilostat.ilo.org/fr/resources/concepts-and-definitions/description-employment-by-occupation/</a>).
   </li>
-
   </ul>
 QUALITY_ASSURE: >-
   <p>Des contrôles de cohérence et de qualité des données sont régulièrement effectués
@@ -1170,19 +1170,23 @@ COVERAGE: >-
   <p><strong>Disponibilité des données :</strong></p>
 
   <p>Les données sur la proportion de femmes occupant des postes de direction sont
-  disponibles pour 168 pays et territoires. Les données sur les femmes occupant des
-  postes de cadres supérieurs et intermédiaires sont disponibles pour 116 pays et
-  territoires.</p>
+  disponibles pour 188 pays et territoires.</p>
+
+  <p>Les données sur les femmes occupant des postes de cadres supérieurs et intermédiaires
+  sont disponibles pour 134 pays et territoires.</p>
 
   <p><strong>Séries chronologiques :</strong></p>
 
-  <p> Les données pour cet indicateur sont disponibles à partir de 2000 dans la base
+  <p>Les données pour cet indicateur sont disponibles à partir de 2000 dans la base
   de données mondiale des indicateurs ODD, mais des séries chronologiques remontant
   à plusieurs décennies sont disponibles dans ILOSTAT. </p>
 
+  <p>Des données mondiales et régionales sur la proportion de femmes occupant des
+  postes de direction sont disponibles de 2000 à 2020. </p>
+
   <p><strong>Désagrégation :</strong></p>
 
-  <p> Cet indicateur ne nécessite aucune ventilation en soi, bien que des statistiques
+  <p>Cet indicateur ne nécessite aucune ventilation en soi, bien que des statistiques
   de l'emploi par sexe et par profession soient nécessaires pour le calculer. Si des
   statistiques sont disponibles et que la taille de l'échantillon le permet, il peut
   être intéressant de croiser cet indicateur par activité économique (CITI) ou de
@@ -1190,11 +1194,11 @@ COVERAGE: >-
   plus détaillés. </p>
 OTHER_DOC: >-
   <ul>
-    <li>Base de données ILOSTAT : <a href="https://ilostat.ilo.org/fr/resources/concepts-and-definitions/description-employment-by-occupation/">https://ilostat.ilo.org/fr/resources/concepts-and-definitions/description-employment-by-occupation/</a>
-  </li>
+    <li>Base de données ILOSTAT : <a href="https://ilostat.ilo.org/fr/resources/concepts-and-definitions/description-employment-by-occupation/">https://ilostat.ilo.org/fr/resources/concepts-and-definitions/description-employment-by-occupation/</a></li>
     <li>Guide (en anglais) de l’OIT – « Decent Work and the Sustainable Development
   Goals: A Guidebook on SDG Labour Market Indicators » <a href="https://www.ilo.org/wcmsp5/groups/public/---dgreports/---stat/documents/publication/wcms_647109.pdf">https://www.ilo.org/wcmsp5/groups/public/---dgreports/---stat/documents/publication/wcms_647109.pdf</a>
-  Manuel (en anglais) de l’OIT – « Decent Work Indicators, Concepts and Definitions »
+  </li>
+    <li>Manuel (en anglais) de l’OIT – « Decent Work Indicators, Concepts and Definitions »
   <a href="http://www.ilo.org/integration/resources/pubs/WCMS_229374/lang--en/index.htm">http://www.ilo.org/integration/resources/pubs/WCMS_229374/lang--en/index.htm</a>
   </li>
     <li>Classification internationale type des professions 2008 (CITP-08) <a
@@ -1234,3 +1238,11 @@ QUALITY_MGMNT: <p>Les processus de compilation, de production et de publication 
   méthodologique et aux normes établis par le Département de la statistique de l’OIT,
   conformément aux normes de l’OIT en matière de technologie de l’information et de
   gestion. </p>
+SDG_SERIES_DESCR: "<p>Proportion de postes de direction occupés par des femmes</p>\n\
+  <p>Proportion de femmes occupant des postes de cadres supérieurs et intermédiaires</p>"
+QUALITY_ASSMNT: <p>L’évaluation finale de la qualité de l’information est effectuée
+  par l’Unité de production et d’analyse des données de l’OIT. En cas de doute sur
+  la qualité de données spécifiques, ces valeurs sont revues avec la participation
+  des agences nationales chargées de produire les données, le cas échéant. Si les
+  questions ne peuvent pas être clarifiées, les informations respectives ne sont pas
+  publiées. </p>
