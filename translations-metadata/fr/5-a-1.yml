@@ -94,11 +94,11 @@ RATIONALE: "<p>L'indicateur 5.a.1 vise à surveiller l'équilibre entre les sexe
   \ plus élevé lorsque l'on considère la tenure en pleine propriété : seulement 4\
   \ % sont des femmes (1/26*100) contre 17 % dans le système foncier coutumier (3/18*100).\
   \ </p>\n      </td>\n    </tr>\n  </tbody>\n</table>"
-SDG_SERIES_DESCR: <p>Sans objet</p>
+SDG_SERIES_DESCR: <p>Non disponible</p>
 UNIT_MEASURE: <p>(a) Proportion de la population agricole totale détenant des droits
-  de propriété ou de garantie sur les terres agricoles, selon le sexe; et (b) la part
+  de propriété ou de garantie sur les terres agricoles, selon le sexe; et (b) part
   des femmes parmi les propriétaires ou les détenteurs de droits de terres agricoles,
-  par type de régime foncier</p>
+  selon le type de régime foncier</p>
 COLL_METHOD: <p>Les données devraient être recueillies au moyen d’enquêtes qui recueillent
   des renseignements sur la propriété foncière et les droits fonciers des individus.
   Les sources de données recommandées et les questions à utiliser pour recueillir
@@ -109,8 +109,8 @@ SDG_TARGET: '<p>Objectif 5.a : Entreprendre des réformes pour donner aux femm
   l’héritage et des ressources naturelles, conformément aux lois nationales</p>'
 SDG_INDICATOR: '<p>Indicateur 5.a.1 : (a) Proportion de la population agricole totale
   détenant des droits de propriété ou de garantie sur des terres agricoles, selon
-  le sexe; et (b) la part des femmes parmi les propriétaires ou les détenteurs de
-  droits de terres agricoles, par type de régime foncier</p>'
+  le sexe; et (b) part des femmes parmi les propriétaires ou les détenteurs de droits
+  de terres agricoles, selon le type de régime foncier</p>'
 CLASS_SYSTEM: <p>Classification de l’utilisation des terres - Recensement mondial
   de l’agriculture 2020 (WCA 2020). </p>
 QUALITY_ASSURE: <p>La FAO collabore avec les pays pour concevoir/compléter/améliorer
@@ -466,3 +466,431 @@ DATA_COMP: "<p><u>Calcul de l’indicateur :</u></p>\n<p>L’indicateur 5.a.1 co
   \      <td>\n        <p>Nombre de personnes en agriculture avec :</p>\n        <p>Document\
   \ légalement reconnu sur les terres agricoles OU le droit de les vendre OU le droit\
   \ de les léguer</p>\n      </td>\n    </tr>\n  </tbody>\n</table>"
+SOURCE_TYPE: "<p><u>Sources de données recommandées </u></p>\n<p>L’indicateur 5.a.1\
+  \ se concentre sur les personnes adultes vivant dans des ménages agricoles, tels\
+  \ que définis ci-dessus. Ainsi, les données nécessaires à l’estimation de l’indicateur\
+  \ peuvent être recueillies au moyen d’enquêtes/recensements agricoles ou d’enquêtes\
+  \ nationales auprès des ménages ayant une couverture appropriée des ménages agricoles.\
+  \ </p>\n<p><strong>Enquête agricole</strong> : Les enquêtes agricoles sont une source\
+  \ de données recommandée pour deux raisons principales :</p>\n<ol>\n  <li>L’unité\
+  \ d’analyse est l’exploitation agricole et, dans la plupart des pays, il existe\
+  \ une relation un-à-un entre l’exploitation agricole du secteur des ménages et le\
+  \ ménage agricole. Par conséquent, les enquêtes agricoles saisissent bien la population\
+  \ de référence de l’indicateur 5.a.1 </li>\n  <li>Les enquêtes agricoles peuvent\
+  \ facilement répondre à des questions sur la propriété foncière agricole et les\
+  \ droits fonciers, car elles recueillent fréquemment des données sur les droits\
+  \ sur les terres agricoles et des données sur la production agricole. </li>\n</ol>\n\
+  <p><strong>Enquête nationale auprès des ménages (ENM) </strong><sup><sup><a href=\"\
+  #footnote-12\" id=\"footnote-ref-12\">[11]</a></sup></sup> : Les enquêtes nationales\
+  \ auprès des ménages sont une source de données recommandée pour l’indicateur 5.a.1\
+  \ pour plusieurs raisons :</p>\n<ol>\n  <li>Les enquêtes nationales auprès des ménages\
+  \ sont la source de données la plus courante disponible dans les pays développés\
+  \ et en développement. </li>\n  <li>Les enquêtes nationales auprès des ménages ont\
+  \ tendance à avoir une portée très large et sont normalement utilisées pour générer\
+  \ des statistiques sociales, démographiques et économiques. Par conséquent, elles\
+  \ peuvent : i) répondre aux questions nécessaires au calcul de l’indicateur 5.a.1;\
+  \ ii) permettre d’explorer les associations entre le statut individuel sur l’indicateur\
+  \ 5.a.1 et d’autres caractéristiques individuelles ou du ménage, telles que l’éducation,\
+  \ la santé, le niveau de revenu, etc.; iii) inclure des données supplémentaires\
+  \ pour une analyse plus détaillée de l’indicateur (p. ex., la taille des terres).\
+  \ </li>\n</ol>\n<p>Toutefois, si une ENM est utilisée pour recueillir des données\
+  \ afin de générer des estimations pour l’indicateur 5.a.1, il est nécessaire d’avoir\
+  \ un échantillon représentatif de ménages agricoles dans l’échantillon complet.\
+  \ En outre, en particulier dans les pays où une faible proportion de ménages est\
+  \ engagée dans la production agricole, un pré-dépistage et un suréchantillonnage\
+  \ peuvent être nécessaires, en particulier dans les zones urbaines et périurbaines.\
+  \ </p>\n<p><strong>Recensement agricole</strong> : En l’absence d’enquêtes agricoles\
+  \ ou auprès des ménages, les recensements agricoles peuvent être utilisés pour recueillir\
+  \ des données sur l’ODD 5.a.1. Cependant, le recensement présente certains inconvénients\
+  \ : </p>\n<ol>\n  <li>Le recensement est habituellement effectué tous les 10 ans;\
+  \ par conséquent, il ne peut pas fournir de données permettant de suivre de près\
+  \ les progrès réalisés à l’égard de l’indicateur 5.a.1. </li>\n  <li>La collecte\
+  \ de données se concentre sur la structure de la population. </li>\n  <li>Il repose\
+  \ fortement sur les répondants par procuration (proxy), une approche qui est moins\
+  \ préférée que l’auto-réponse recommandée pour l’indicateur 5.a.1 (voir ci-dessous).\
+  \ </li>\n</ol>\n<p><u>Méthodes de collecte de données</u></p>\n<p>Lors de la collecte\
+  \ de données pour l’indicateur 5.a.1 dans le cadre d’une enquête agricole, d’une\
+  \ enquête auprès des ménages ou d’un recensement agricole, deux décisions doivent\
+  \ être prises :</p>\n<p>i) déterminer le nombre de membres adultes d’un ménage agricole\
+  \ (répondants admissibles) pour lesquels des renseignements doivent être recueillis,\
+  \ et </p>\n<p>ii) déterminer qui doit déclarer ces informations.</p>\n<p>Les options\
+  \ possibles sont indiquées dans le tableau 1 ci-dessous :</p>\n<p>Tableau 1. Options\
+  \ pour la collecte de données</p>\n<table>\n  <tbody>\n    <tr>\n      <td rowspan=\"\
+  2\">\n        <p>Nombre de répondants admissibles</p>\n      </td>\n      <td colspan=\"\
+  2\">\n        <p>Qui doit déclarer</p>\n      </td>\n    </tr>\n    <tr>\n     \
+  \ <td>\n        <p>Auto-répondant</p>\n      </td>\n      <td>\n        <p>Répondant\
+  \ par procuration (proxy)</p>\n      </td>\n    </tr>\n    <tr>\n      <td>\n  \
+  \      <p>Tous</p>\n      </td>\n      <td>\n        <p>Option 1 </p>\n      </td>\n\
+  \      <td>\n        <p>Option 3 </p>\n      </td>\n    </tr>\n    <tr>\n      <td>\n\
+  \        <p>Nombre choisi au hasard, n</p>\n      </td>\n      <td>\n        <p>Option\
+  \ 2 </p>\n      </td>\n      <td>\n        <p>Option 4</p>\n      </td>\n    </tr>\n\
+  \  </tbody>\n</table>\n<p>Lors de la collecte de données sur la propriété des actifs,\
+  \ du point de vue du genre, l’approche de l’auto-répondant est recommandée par rapport\
+  \ à l’approche du <em>répondant par procuration</em>, où le membre du ménage le\
+  \ plus compétent est généralement interrogé pour recueillir des informations sur\
+  \ tous les membres du ménage<sup><a href=\"#footnote-13\" id=\"footnote-ref-13\"\
+  >[12]</a></sup>. Ainsi, parmi les options possibles, l’option 1 et l’option 2 sont\
+  \ recommandées:</p>\n<ul>\n  <li><strong>Option 1</strong> : <em>Approche auto-répondante\
+  \ appliquée à tous les membres.</em> Chaque membre adulte du ménage est interrogé\
+  \ au sujet de ses droits de propriété / d’occupation sur les terres agricoles. </li>\n\
+  \  <li><strong>Option 2</strong> : <em>Approche auto-répondante appliquée à un échantillon\
+  \ aléatoire de membres adultes du ménage.</em>Des membres adultes du ménage sélectionnés\
+  \ aléatoirement sont interrogés au sujet de leurs droits de propriété / d’occupation\
+  \ sur les terres agricoles.</li>\n</ul>\n<p>En pratique, en raison des contraintes\
+  \ budgétaires et des limites de temps des entretiens, interroger seulement n = 1\
+  \ répondant éligible par ménage est l'option la plus viable. Cependant, si un pays\
+  \ veut étudier la dynamique intra-ménage ou augmenter la précision des estimations\
+  \ de 5.a.1, il peut décider de recueillir des informations aurpès de deux ou plus\
+  \ et même de tous les membres adultes du ménage.</p>\n<p><u>Ensemble minimum de\
+  \ données</u></p>\n<p>L'ensemble minimum de données nécessaires pour calculer l'indicateur\
+  \ est résumé dans le tableau 2 ci-dessous :</p>\n<p>Table 2. Ensemble minimum de\
+  \ données pour l'indicateur 5.a.1</p>\n<table>\n  <tbody>\n    <tr>\n      <td>\n\
+  \        <p><strong>Élément de données</strong></p>\n      </td>\n      <td>\n \
+  \       <p><strong>Objectif</strong></p>\n      </td>\n    </tr>\n    <tr>\n   \
+  \   <td>\n        <p>Si le ménage a ou non exploité des <strong>terres</strong>\
+  \ à des fins agricoles et/ou élevé du <strong>bétail</strong> au cours des 12 derniers\
+  \ mois, quel que soit le but final de la production</p>\n      </td>\n      <td\
+  \ rowspan=\"2\">\n        <p>Identifier les ménages agricoles</p>\n      </td>\n\
+  \    </tr>\n    <tr>\n      <td>\n        <p>Si l'exploitation des terres ou l'élevage\
+  \ du bétail a été effectué uniquement en tant que travail salarié</p>\n      </td>\n\
+  \    </tr>\n    <tr>\n      <td>\n        <p><strong>Sexe</strong> du membre du\
+  \ ménage agricole</p>\n      </td>\n      <td rowspan=\"2\">\n        <p>Identifier\
+  \ la population agricole adulte, par sexe</p>\n      </td>\n    </tr>\n    <tr>\n\
+  \      <td>\n        <p><strong>Âge</strong> du membre du ménage agricole</p>\n\
+  \      </td>\n    </tr>\n    <tr>\n      <td colspan=\"2\">\n        <p><strong>Pour\
+  \ le répondant éligible sélectionné</strong></p>\n      </td>\n    </tr>\n    <tr>\n\
+  \      <td>\n        <p>(Auto-déclaré) Si oui ou non la <strong>personne possède\
+  \ ou détient</strong> des <strong>droits fonciers</strong> sur une <strong>terre\
+  \ agricole</strong></p>\n      </td>\n      <td rowspan=\"5\">\n        <p>Identifier\
+  \ les propriétaires fonciers et/ou les détenteurs de droits fonciers sur les terres\
+  \ agricoles sur la base des 3 éléments de procuration</p>\n      </td>\n    </tr>\n\
+  \    <tr>\n      <td>\n        <p>(Proxy 1a) Si oui ou non l'un des terrains possédés\
+  \ ou détenus par l'individu dispose d'un <strong>document légalement reconnu</strong>\
+  \ qui permet de protéger ses droits de propriété / d'occupation sur le terrain</p>\n\
+  \      </td>\n    </tr>\n    <tr>\n      <td>\n        <p>(Proxy 1b) Si l'individu\
+  \ est ou non <strong>répertorié en tant que propriétaire ou titulaire</strong> sur\
+  \ l'un des documents légalement reconnus, seul ou conjointement avec quelqu'un d'autre</p>\n\
+  \      </td>\n    </tr>\n    <tr>\n      <td>\n        <p>(Proxy 2) Si l'individu\
+  \ a ou non le <strong>droit de vendre</strong> l'une des terres agricoles, seul\
+  \ ou conjointement avec quelqu'un d'autre</p>\n      </td>\n    </tr>\n    <tr>\n\
+  \      <td>\n        <p>(Proxy 3) Si l'individu a ou non le <strong>droit de léguer</strong>\
+  \ l'une des terres agricoles, seul ou conjointement avec quelqu'un d'autre</p>\n\
+  \      </td>\n    </tr>\n  </tbody>\n</table>\n<p><u>Questions pour identifier les\
+  \ ménages agricoles et les individus adultes dans la population agricole</u></p>\n\
+  <p>Comme mentionné ci-dessus, la population de référence (dénominateur) pour l'indicateur\
+  \ 5.a.1 <em>sont les individus adultes vivant dans des ménages agricoles</em>. </p>\n\
+  <p>Le module présenté à la Figure 2 suggère comment identifier les ménages agricoles\
+  \ lorsqu'une enquête auprès des ménages est utilisée. Les questions ci-dessous doivent\
+  \ être posées au membre le plus compétent du ménage. Elles visent à saisir l'implication\
+  \ du ménage dans l'agriculture au cours des 12 derniers mois et à éliminer les ménages\
+  \ dont tous les membres sont impliqués dans l'activité agricole uniquement en tant\
+  \ que salariés.</p>\n<p>Figure 2. Module d'identification des ménages agricoles</p>\n\
+  <table>\n  <thead>\n    <tr>\n      <th colspan=\"2\">\n        <p><strong>Question</strong></p>\n\
+  \      </th>\n      <th>\n        <p><strong>Fonction</strong></p>\n      </th>\n\
+  \    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td>\n        <p><strong>Q1</strong></p>\n\
+  \      </td>\n      <td>\n        <p>Ce <strong>ménage</strong> a-t-il exploité\
+  \ des <strong>terres</strong><sup>(1)</sup> à des fins agricoles au cours des 12\
+  \ derniers mois<sup>(2)</sup> ? </p>\n        <p>1 - Oui</p>\n        <p>2 - Non\
+  \ (aller à Q3)</p>\n      </td>\n      <td>\n        <p><em>Filtre (exploitation\
+  \ agricole) (Réponse = 1)</em></p>\n      </td>\n    </tr>\n    <tr>\n      <td>\n\
+  \        <p><strong>Q2</strong></p>\n      </td>\n      <td>\n        <p>L'agriculture\
+  \ a-t-elle été pratiquée&#x2026;</p>\n        <p><em>(sélectionner tout ce qui s'applique)</em></p>\n\
+  \        <p>1 - Pour l'usage/la consommation du ménage ?</p>\n        <p>2 - Pour\
+  \ le profit / le commerce ?</p>\n        <p>3 - Comme travail salarié pour les autres\
+  \ ?</p>\n      </td>\n      <td>\n        <p><em>Filtrer les ménages où l'agriculture\
+  \ n'était pratiquée que comme travail salarié (Réponse= 3)</em></p>\n      </td>\n\
+  \    </tr>\n    <tr>\n      <td>\n        <p><strong>Q3</strong></p>\n      </td>\n\
+  \      <td>\n        <p>Ce <strong>ménage a-t-il élevé ou gardé</strong> du bétail\
+  \ (p. ex., des bovins, des chèvres, etc.) au cours des 12 derniers mois ?</p>\n\
+  \        <p>1 - Oui</p>\n        <p>2 - Non (fin des questions)</p>\n      </td>\n\
+  \      <td>\n        <p><em>Filtre (bétail) (Réponse = 1)</em></p>\n      </td>\n\
+  \    </tr>\n    <tr>\n      <td>\n        <p><strong>Q4</strong></p>\n      </td>\n\
+  \      <td>\n        <p>L'élevage/la garde du <strong>bétail</strong> a-t-il été\
+  \ effectué&#x2026;</p>\n        <p><em>(sélectionner tout ce qui s'applique)</em></p>\n\
+  \        <ol>\n          <li>1 - Pour l'usage/la consommation du ménage ?</li>\n\
+  \          <li>2 - Pour le profit / le commerce ?</li>\n          <li>3 - Comme\
+  \ travail salarié pour les autres ?</li>\n        </ol>\n      </td>\n      <td>\n\
+  \        <p><em>Filtrer les ménages où l'élevage/la garde du bétail n'a été fait\
+  \ que comme travail salarié (Réponse = 3)</em></p>\n      </td>\n    </tr>\n  </tbody>\n\
+  </table>\n<p><sup>(1)</sup> Y compris les vergers et les potagers</p>\n<p><sup>(2)</sup>\
+  \ Formulations alternatives :</p>\n<p>&#xF0B7; Ce ménage a-t-il <strong>cultivé/utilisé</strong>\
+  \ des terres à des fins agricoles au cours des 12 derniers mois ?</p>\n<p>&#xF0B7;\
+  \ Ce ménage a-t-il exploité des terres <strong>pour produire des cultures</strong>\
+  \ au cours des 12 derniers mois ?</p>\n<p>&#xF0B7; Ce ménage a-t-il <strong>cultivé/utilisé</strong>\
+  \ des terres <strong>pour produire des cultures</strong> au cours des 12 derniers\
+  \ mois ?</p>\n<p><u>Questions pour la collecte de données sur la propriété ou le\
+  \ détenteur de droits fonciers</u></p>\n<p>L'ensemble minimum de données décrit\
+  \ dans le tableau 2 peut être recueilli au <em>niveau individuel</em> ou au <em>niveau\
+  \ de la parcelle</em>. Deux modules sont présentés ci-dessous : </p>\n<ol>\n  <li>(Figure\
+  \ 3) Un module qui consiste en un ensemble minimum de questions lors de la collecte\
+  \ de données au niveau individuel</li>\n  <li>(Figure 4) Un module pouvant être\
+  \ annexé à l'enquête lors de la collecte des données au niveau de la parcelle</li>\n\
+  </ol>\n<p><em><u>Module de collecte de données au niveau individuel</u></em></p>\n\
+  <p><u>Figure 3. Ensemble minimum de questions recueillies au niveau individuel</u></p>\n\
+  <table>\n  <thead>\n    <tr>\n      <th>\n        <p><strong>Liste des questions\
+  \ standard</strong></p>\n      </th>\n      <th>\n        <p><strong>Fonction</strong></p>\n\
+  \      </th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td>\n        <p><strong>Q1.\
+  \ Détenez-vous (alternativement « possèdez-vous, utilisez-vous ou occupez-vous »)\
+  \ des terres agricoles, seul ou conjointement avec quelqu'un d'autre ?</strong></p>\n\
+  \        <p>1 - Oui</p>\n        <p>2 - Non (fin du module)</p>\n      </td>\n \
+  \     <td>\n        <p><em><u>Possession déclarée</u> (c.-à-d., auto-perception\
+  \ du statut de possession du répondant)</em></p>\n        <p><em>Cette question\
+  \ se réfère à savoir si le répondant, et non le ménage du répondant, détient des\
+  \ terres agricoles. Il mesure la possession déclarée, ce qui rend compte de la perception\
+  \ qu'a le répondant de son statut de possession, qu'il ait ou non un document officiel.</em></p>\n\
+  \      </td>\n    </tr>\n    <tr>\n      <td>\n        <p><strong>Q2. Existe-t-il\
+  \ un document formel pour <u>l'une</u> des terres agricoles que vous utilisez, délivré\
+  \ ou enregistré auprès de l'agence d'enregistrement foncier/cadastral, tel qu'un\
+  \ titre de propriété, un certificat de propriété, un certificat d'acquisition héréditaire,\
+  \ un bail ou contrat de location ?</strong></p>\n        <p>1 - Oui</p>\n      \
+  \  <p>2 - Non &gt;&gt; Q4</p>\n      </td>\n      <td>\n        <p><em>Cette question\
+  \ identifie s'il existe un document légalement reconnu pour l'une des terres agricoles\
+  \ que le répondant déclare posséder.</em></p>\n        <p><em>Les droits de propriété\
+  \ / d'occupation documentés font référence à l'existence de tout document qu'un\
+  \ individu peut utiliser pour revendiquer la propriété ou les droits d'occupation\
+  \ en vertu de la loi, sur la terre.</em></p>\n      </td>\n    </tr>\n    <tr>\n\
+  \      <td>\n        <p><strong>Q3a. Quel type de documents existe-t-il pour les\
+  \ terres agricoles que vous possédez ou pour lesquelles vous détenez des droits\
+  \ d'utilisation ? </strong></p>\n        <p><strong>EN CHOISIR JUSQU'À 3. </strong></p>\n\
+  \        <p><strong>Codes pour le type de document :</strong></p>\n        <p>1\
+  \ - Titre constitutif de propriété</p>\n        <p>2 - Certificat de propriété coutumière</p>\n\
+  \        <p>3 - Certificat d'occupation</p>\n        <p>4 - Certificat d'acquisition\
+  \ héréditaire inscrit au registre</p>\n        <p>5 - Plan d'arpentage </p>\n  \
+  \      <p>6 - Contrat de location, enregistré</p>\n        <p>7 - Bail</p>\n   \
+  \     <p>8 - Autre (spécifier : __________)</p>\n      </td>\n      <td>\n     \
+  \   <p><em>La liste des options présentées ici est indicative. Il est de la plus\
+  \ haute importance que la liste comprenne tous les documents juridiques reconnus/applicables\
+  \ par la loi selon le régime foncier national.</em></p>\n      </td>\n    </tr>\n\
+  \    <tr>\n      <td>\n        <p><strong>Q3b. Votre nom figure-t-il sur l'un des\
+  \ documents en tant que propriétaire ou titulaire des droits d'utilisation ?</strong></p>\n\
+  \        <p>1 - Oui</p>\n        <p>2 - Non</p>\n        <p>98 - Ne sais pas</p>\n\
+  \        <p>99 - Refus</p>\n      </td>\n      <td>\n        <p><em>Étant donné\
+  \ que des noms individuels peuvent être répertoriés comme témoins sur un document,\
+  \ il est important de demander si le répondant est répertorié « en tant que propriétaire »\
+  \ ou « détenteur » sur le document. <u>Le répondant n'a pas besoin de montrer le\
+  \ document à l'enquêteur.</u></em></p>\n      </td>\n    </tr>\n    <tr>\n     \
+  \ <td>\n        <p><strong>Q4. Avez-vous le droit de vendre l'une des terres agricoles\
+  \ que vous possédez ou pour laquelle vous détenez des droits d'utilisation, seul\
+  \ ou conjointement avec quelqu'un d'autre ?</strong></p>\n        <p>1 - Oui</p>\n\
+  \        <p>2 - Non </p>\n        <p>98 - Ne sais pas</p>\n        <p>99 - Refuse\
+  \ de répondre</p>\n      </td>\n      <td>\n        <p><em><u>Droit d'aliénation\
+  \ - Proxy 2</u></em></p>\n        <p><em>Cette question permet d'obtenir des informations\
+  \ pour savoir si le répondant pense qu'il a le droit de vendre l'une des terres\
+  \ agricoles qu'il déclare posséder. Lorsqu'un répondant a le droit de vendre le\
+  \ terrain, cela signifie qu'il a le droit de transférer définitivement le terrain\
+  \ à une autre personne ou entité contre des avantages en espèces ou en nature.</em></p>\n\
+  \      </td>\n    </tr>\n    <tr>\n      <td>\n        <p><strong>Q5. Avez-vous\
+  \ le droit de léguer une partie des terres détenues (alternativement « terres possédées,\
+  \ utilisées ou occupées »), seul ou conjointement avec quelqu'un d'autre ?</strong></p>\n\
+  \        <p>1 - Oui</p>\n        <p>2 - Non </p>\n        <p>98 - Ne sais pas</p>\n\
+  \        <p>99 - Refuse de répondre</p>\n      </td>\n      <td>\n        <p><em><u>Droit\
+  \ d'aliénation - Proxy 3</u></em></p>\n        <p><em>Cette question permet d'obtenir\
+  \ des informations pour savoir si le répondant estime qu'il a le droit de léguer\
+  \ toute terre agricole qu'il déclare posséder.</em></p>\n        <p><em>Lorsqu'un\
+  \ répondant a le droit de léguer le terrain, cela signifie qu'il a le droit de donner\
+  \ le terrain par testament oral ou écrit à une ou plusieurs autres personnes à son\
+  \ décès.</em></p>\n      </td>\n    </tr>\n  </tbody>\n</table>\n<p><em><u>Module\
+  \ où les données sont recueillies au niveau de la parcelle</u></em></p>\n<p>Les\
+  \ pays peuvent choisir de recueillir des informations au niveau des parcelles pour\
+  \ deux raisons : </p>\n<ol>\n  <li>Lorsque l'enquête comprend déjà une liste de\
+  \ parcelles agricoles à laquelle les questions sur les droits de propriété ou d'occupation\
+  \ peuvent être intégrées.</li>\n  <li>Lorsqu'ils veulent aller au-delà de l'ensemble\
+  \ minimum de données pour le calcul de l'indicateur, pour recueillir un ensemble\
+  \ plus large d'informations pour effectuer une analyse complète de la propriété,\
+  \ des droits et du contrôle qu'ont les femmes et les hommes sur les terres agricoles<sup><a\
+  \ href=\"#footnote-14\" id=\"footnote-ref-14\">[13]</a></sup>. </li>\n</ol>\n<p>Lorsqu'un\
+  \ module sur les droits de propriété / d'occupation des terres agricoles est annexé\
+  \ à une enquête existante, le nombre total et la séquence des questions du module\
+  \ dépendront des objectifs généraux et de la structure de l'enquête. Cependant,\
+  \ pour le calcul de l'indicateur 5.a.1 des ODD, les règles suivantes doivent être\
+  \ suivies : </p>\n<p>i) Si <u>le questionnaire principal de l'enquête saisit déjà\
+  \ une liste de parcelles appartenant au ménage</u>, on doit demander au répondant\
+  \ sélectionné au hasard pour remplir le module sur la propriété des terres agricoles/les\
+  \ droits fonciers s'il/elle détenait des terres agricoles pendant la période de\
+  \ référence. Si oui, le répondant doit déclarer les parcelles de cette liste qu'il\
+  \ possède. En outre, le répondant doit avoir la possibilité de signaler toute parcelle\
+  \ supplémentaire non incluse dans la liste des parcelles du ménage. Les questions\
+  \ du module ne seront posées que pour les parcelles agricoles détenues par le répondant\
+  \ (consulter l'exemple dans la Figure 4 ci-dessous).<em> </em></p>\n<p><strong>Figure\
+  \ 4. Module au niveau des parcelles sur les droits de propriété / d'occupation des\
+  \ terres agricoles <u>basé sur la liste des parcelles des ménages</u></strong></p>\n\
+  <table>\n  <tbody>\n    <tr>\n      <td colspan=\"12\">\n        <p><strong>Q0.\
+  \ Utilisez-vous, possédez-vous ou détenez-vous des terres agricoles, seul ou conjointement\
+  \ avec quelqu'un d'autre, que les terres agricoles soient utilisées par vous ou\
+  \ un autre ménage ?</strong></p>\n        <p>1 - Oui</p>\n        <p>2 - Non (fin\
+  \ du module)</p>\n      </td>\n    </tr>\n    <tr>\n      <td></td>\n      <td>\n\
+  \        <p><strong>Q1</strong></p>\n      </td>\n      <td>\n        <p><strong>Q2</strong></p>\n\
+  \      </td>\n      <td>\n        <p><strong>Q3</strong></p>\n      </td>\n    \
+  \  <td colspan=\"6\">\n        <p><strong>Q4</strong></p>\n      </td>\n      <td>\n\
+  \        <p><strong>Q5</strong></p>\n      </td>\n      <td>\n        <p><strong>Q6</strong></p>\n\
+  \      </td>\n    </tr>\n    <tr>\n      <td>\n        <p><strong>ID de la parcelle</strong></p>\n\
+  \      </td>\n      <td>\n        <p><strong>Nom de la parcelle</strong></p>\n \
+  \       <p><em>ÉNUMÉRATEUR : COPIER ICI LES PARCELLES AGRICOLES ÉNUMÉRÉES DANS LE\
+  \ QUESTIONNAIRE DU MÉNAGE QUI SONT </em><strong><em>DÉTENUES</em></strong><em> (UNIQUEMENT\
+  \ OU CONJOINTEMENT) PAR LE RÉPONDANT. ENSUITE, POSEZ LES QUESTIONS SUIVANTES POUR\
+  \ CHAQUE PARCELLE</em></p>\n      </td>\n      <td>\n        <p><strong>Sous quel\
+  \ régime foncier cette [PARCELLE] est-elle ? </strong></p>\n        <ol>\n     \
+  \     <li>Coutumier</li>\n          <li>Pleine propriété</li>\n          <li>Bail</li>\n\
+  \          <li>État</li>\n          <li>Droit de communauté/de groupe</li>\n   \
+  \       <li>Coopératives</li>\n          <li>Autre (spécifier)</li>\n        </ol>\n\
+  \      </td>\n      <td>\n        <p><strong>Existe-t-il un document ou un certificat\
+  \ pour cette [PARCELLE] agricole délivré par l'agence d'enregistrement foncier/cadastrale\
+  \ tel qu'un titre de propriété, un certificat d'acquisition héréditaire, un bail\
+  \ ou un contrat de location ?</strong></p>\n        <p>1 - Oui</p>\n        <p>2\
+  \ - Non &gt;&gt; Q5</p>\n      </td>\n      <td colspan=\"6\">\n        <p><strong>Quel\
+  \ type de documents existe-t-il pour cette [PARCELLE] agricole et votre nom figure-t-il\
+  \ sur l'un des documents en tant que propriétaire ou titulaire d'un droit d'utilisation\
+  \ ?</strong></p>\n        <p><strong>EN CHOISIR JUSQU'À 3. </strong></p>\n     \
+  \   <p><strong>Codes pour le type de document :</strong></p>\n        <p>1 - Titre\
+  \ constitutif de propriété</p>\n        <p>2 - Certificat de propriété coutumière</p>\n\
+  \        <p>3 - Certificat d'occupation</p>\n        <p>4 - Certificat d'acquisition\
+  \ héréditaire inscrit au registre</p>\n        <p>5 - Plan d'arpentage </p>\n  \
+  \      <p>6 - Contrat de location, enregistré</p>\n        <p>7 - Bail</p>\n   \
+  \     <p>8 - Autre (spécifier : __________)</p>\n        <p>CODES POUR LE NOM ÉNUMÉRÉ?</p>\n\
+  \        <p>1 - Oui</p>\n        <p>2 - Non </p>\n        <p>98 - Ne sais pas</p>\n\
+  \        <p>99 - Refuse de répondre</p>\n      </td>\n      <td>\n        <p><strong>Avez-vous\
+  \ le droit de vendre cette [PARCELLE], seul ou conjointement avec quelqu'un d'autre\
+  \ ?</strong></p>\n        <p>1 - Oui</p>\n        <p>2 - Non </p>\n        <p>98\
+  \ - Ne sais pas</p>\n        <p>99 - Refuse de répondre</p>\n      </td>\n     \
+  \ <td>\n        <p><strong>Avez-vous le droit de léguer cette [PARCELLE], seul ou\
+  \ conjointement avec quelqu'un d'autre ?</strong></p>\n        <p>1 - Oui</p>\n\
+  \        <p>2 - Non </p>\n        <p>98 - Ne sais pas</p>\n        <p>99 - Refuse\
+  \ de répondre</p>\n      </td>\n    </tr>\n    <tr>\n      <td rowspan=\"3\">\n\
+  \        <p>1</p>\n      </td>\n      <td rowspan=\"3\"></td>\n      <td rowspan=\"\
+  3\"></td>\n      <td rowspan=\"3\">\n        <p>|__|</p>\n      </td>\n      <td\
+  \ colspan=\"2\">\n        <p>DOCUMENT #1</p>\n      </td>\n      <td colspan=\"\
+  2\">\n        <p>DOCUMENT #2</p>\n      </td>\n      <td colspan=\"2\">\n      \
+  \  <p>DOCUMENT #3</p>\n      </td>\n      <td rowspan=\"3\">\n        <p>|__|</p>\n\
+  \      </td>\n      <td rowspan=\"3\">\n        <p>|__|</p>\n      </td>\n    </tr>\n\
+  \    <tr>\n      <td>\n        <p>TYPE DE DOC</p>\n      </td>\n      <td>\n   \
+  \     <p>NOM ÉMUNÉRÉ</p>\n      </td>\n      <td>\n        <p>TYPE DE DOC</p>\n\
+  \      </td>\n      <td>\n        <p>NOM ÉMUNÉRÉ</p>\n      </td>\n      <td>\n\
+  \        <p>TYPE DE DOC</p>\n      </td>\n      <td>\n        <p>NOM ÉMUNÉRÉ</p>\n\
+  \      </td>\n    </tr>\n    <tr>\n      <td>\n        <p>|__|</p>\n      </td>\n\
+  \      <td>\n        <p>|__|</p>\n      </td>\n      <td>\n        <p>|__|</p>\n\
+  \      </td>\n      <td>\n        <p>|__|</p>\n      </td>\n      <td>\n       \
+  \ <p>|__|</p>\n      </td>\n      <td>\n        <p>|__|</p>\n      </td>\n    </tr>\n\
+  \    <tr>\n      <td>\n        <p>2</p>\n      </td>\n      <td></td>\n      <td></td>\n\
+  \      <td>\n        <p>|__|</p>\n      </td>\n      <td>\n        <p>|__|</p>\n\
+  \      </td>\n      <td>\n        <p>|__|</p>\n      </td>\n      <td>\n       \
+  \ <p>|__|</p>\n      </td>\n      <td>\n        <p>|__|</p>\n      </td>\n     \
+  \ <td>\n        <p>|__|</p>\n      </td>\n      <td>\n        <p>|__|</p>\n    \
+  \  </td>\n      <td>\n        <p>|__|</p>\n      </td>\n      <td>\n        <p>|__|</p>\n\
+  \      </td>\n    </tr>\n    <tr>\n      <td>\n        <p>&#x2026;</p>\n      </td>\n\
+  \      <td></td>\n      <td></td>\n      <td>\n        <p>|__|</p>\n      </td>\n\
+  \      <td>\n        <p>|__|</p>\n      </td>\n      <td>\n        <p>|__|</p>\n\
+  \      </td>\n      <td>\n        <p>|__|</p>\n      </td>\n      <td>\n       \
+  \ <p>|__|</p>\n      </td>\n      <td>\n        <p>|__|</p>\n      </td>\n     \
+  \ <td>\n        <p>|__|</p>\n      </td>\n      <td>\n        <p>|__|</p>\n    \
+  \  </td>\n      <td>\n        <p>|__|</p>\n      </td>\n    </tr>\n    <tr>\n  \
+  \    <td>\n        <p>N</p>\n      </td>\n      <td></td>\n      <td></td>\n   \
+  \   <td>\n        <p>|__|</p>\n      </td>\n      <td>\n        <p>|__|</p>\n  \
+  \    </td>\n      <td>\n        <p>|__|</p>\n      </td>\n      <td>\n        <p>|__|</p>\n\
+  \      </td>\n      <td>\n        <p>|__|</p>\n      </td>\n      <td>\n       \
+  \ <p>|__|</p>\n      </td>\n      <td>\n        <p>|__|</p>\n      </td>\n     \
+  \ <td>\n        <p>|__|</p>\n      </td>\n      <td>\n        <p>|__|</p>\n    \
+  \  </td>\n    </tr>\n  </tbody>\n</table>\n<p><strong>Figure 5. Parcel-level module\
+  \ on the ownership / tenure rights of agricultural land based on respondent parcel\
+  \ roster.</strong></p>\n<table>\n  <thead>\n    <tr>\n      <th colspan=\"12\">\n\
+  \        <p><strong>Q0. Do you use, own, or hold rights for any agricultural land,\
+  \ either alone or jointly with someone else, irrespective of whether the agricultural\
+  \ land is used by you or another household?</strong></p>\n        <ol>\n       \
+  \   <li>Oui</li>\n          <li>Non (end of module)</li>\n        </ol>\n      </th>\n\
+  \    </tr>\n    <tr>\n      <th></th>\n      <th>\n        <p><strong>Q1</strong></p>\n\
+  \      </th>\n      <th>\n        <p><strong>Q2</strong></p>\n      </th>\n    \
+  \  <th>\n        <p><strong>Q3</strong></p>\n      </th>\n      <th colspan=\"6\"\
+  >\n        <p><strong>Q4</strong></p>\n      </th>\n      <th>\n        <p><strong>Q5</strong></p>\n\
+  \      </th>\n      <th>\n        <p><strong>Q6</strong></p>\n      </th>\n    </tr>\n\
+  \    <tr>\n      <th rowspan=\"3\">\n        <p><strong>Parcel ID</strong></p>\n\
+  \      </th>\n      <th rowspan=\"3\">\n        <p><strong>Please tell me about\
+  \ each agricultural parcel for which you currently use, own, or hold use rights\
+  \ for, either alone or jointly with someone else. Please describe and give me the\
+  \ name of each parcel.</strong></p>\n      </th>\n      <th rowspan=\"3\">\n   \
+  \     <p><strong>Under which tenure system is this [PARCEL]?</strong></p>\n    \
+  \    <ol>\n          <li>Coutumier</li>\n          <li>Pleine propriété</li>\n \
+  \         <li>Bail</li>\n          <li>État</li>\n          <li>Droit de communauté/de\
+  \ groupe</li>\n          <li>Coopératives</li>\n          <li>Autre (spécifier)</li>\n\
+  \        </ol>\n      </th>\n      <th rowspan=\"3\">\n        <p><strong>Is there\
+  \ a document for this agricultural [PARCEL] issued by the Land Registry/Cadastral\
+  \ Agency, such as a title deed, certificate of hereditary acquisition, lease or\
+  \ rental contract?</strong></p>\n        <p>1 - Oui</p>\n        <p>2 - Non &gt;&gt;\
+  \ Q5</p>\n      </th>\n      <th colspan=\"6\">\n        <p><strong>What type of\
+  \ documents are there for this agricultural [PARCEL] and is your name listed on\
+  \ any of the documents as owner or right use holder?</strong></p>\n        <p><strong>EN\
+  \ CHOISIR JUSQU'À 3. </strong></p>\n        <p><strong>Codes pour le type de document\
+  \ :</strong></p>\n        <p>1 - Titre constitutif de propriété</p>\n        <p>2\
+  \ - Certificat de propriété coutumière</p>\n        <p>3 - Certificat d'occupation</p>\n\
+  \        <p>4 - Certificat d'acquisition héréditaire inscrit au registre</p>\n \
+  \       <p>5 - Plan d'arpentage </p>\n        <p>6 - Contrat de location, enregistré</p>\n\
+  \        <p>7 - Bail</p>\n        <p>8 - Autre (spécifier : __________)</p>\n  \
+  \      <p>CODES POUR LE NOM ÉNUMÉRÉ?</p>\n        <p>1 - Oui </p>\n        <p>2\
+  \ - Non </p>\n        <p>98 - Ne sais pas</p>\n        <p>99 - Refuse de répondre</p>\n\
+  \      </th>\n      <th rowspan=\"3\">\n        <p><strong>Do you have the right\
+  \ to sell this [PARCELLE], either alone or jointly with someone else? </strong></p>\n\
+  \        <p>1 - Oui</p>\n        <p>2 - Non </p>\n        <p>98 - Ne sais pas</p>\n\
+  \        <p>99 - Refuse de répondre</p>\n      </th>\n      <th rowspan=\"3\">\n\
+  \        <p><strong>Do you have the right to bequeath this [PARCEL], either alone\
+  \ or jointly with someone else? </strong></p>\n        <p>1 - Oui</p>\n        <p>2\
+  \ - Non </p>\n        <p>98 - Ne sais pas</p>\n        <p>99 - Refuse de répondre</p>\n\
+  \      </th>\n    </tr>\n    <tr>\n      <th colspan=\"2\">\n        <p>DOCUMENT\
+  \ #1</p>\n      </th>\n      <th colspan=\"2\">\n        <p>DOCUMENT #2</p>\n  \
+  \    </th>\n      <th colspan=\"2\">\n        <p>DOCUMENT #3</p>\n      </th>\n\
+  \    </tr>\n    <tr>\n      <th>\n        <p>DOC TYPE</p>\n      </th>\n      <th>\n\
+  \        <p>NAME LISTED</p>\n      </th>\n      <th>\n        <p>DOC TYPE</p>\n\
+  \      </th>\n      <th>\n        <p>NAME LISTED</p>\n      </th>\n      <th>\n\
+  \        <p>DOC TYPE</p>\n      </th>\n      <th>\n        <p>NAME LISTED</p>\n\
+  \      </th>\n    </tr>\n    <tr>\n      <th>\n        <p>1</p>\n      </th>\n \
+  \     <th>\n        <p>|__|</p>\n      </th>\n      <th>\n        <p>|__|</p>\n\
+  \      </th>\n      <th>\n        <p>|__|</p>\n      </th>\n      <th>\n       \
+  \ <p>|__|</p>\n      </th>\n      <th>\n        <p>|__|</p>\n      </th>\n     \
+  \ <th>\n        <p>|__|</p>\n      </th>\n      <th>\n        <p>|__|</p>\n    \
+  \  </th>\n      <th>\n        <p>|__|</p>\n      </th>\n      <th>\n        <p>|__|</p>\n\
+  \      </th>\n      <th>\n        <p>|__|</p>\n      </th>\n      <th>\n       \
+  \ <p>|__|</p>\n      </th>\n    </tr>\n    <tr>\n      <th>\n        <p>2</p>\n\
+  \      </th>\n      <th>\n        <p>|__|</p>\n      </th>\n      <th>\n       \
+  \ <p>|__|</p>\n      </th>\n      <th>\n        <p>|__|</p>\n      </th>\n     \
+  \ <th>\n        <p>|__|</p>\n      </th>\n      <th>\n        <p>|__|</p>\n    \
+  \  </th>\n      <th>\n        <p>|__|</p>\n      </th>\n      <th>\n        <p>|__|</p>\n\
+  \      </th>\n      <th>\n        <p>|__|</p>\n      </th>\n      <th>\n       \
+  \ <p>|__|</p>\n      </th>\n      <th>\n        <p>|__|</p>\n      </th>\n     \
+  \ <th>\n        <p>|__|</p>\n      </th>\n    </tr>\n    <tr>\n      <th>\n    \
+  \    <p>&#x2026;</p>\n      </th>\n      <th>\n        <p>|__|</p>\n      </th>\n\
+  \      <th>\n        <p>|__|</p>\n      </th>\n      <th>\n        <p>|__|</p>\n\
+  \      </th>\n      <th>\n        <p>|__|</p>\n      </th>\n      <th>\n       \
+  \ <p>|__|</p>\n      </th>\n      <th>\n        <p>|__|</p>\n      </th>\n     \
+  \ <th>\n        <p>|__|</p>\n      </th>\n      <th>\n        <p>|__|</p>\n    \
+  \  </th>\n      <th>\n        <p>|__|</p>\n      </th>\n      <th>\n        <p>|__|</p>\n\
+  \      </th>\n      <th>\n        <p>|__|</p>\n      </th>\n    </tr>\n    <tr>\n\
+  \      <th>\n        <p>N</p>\n      </th>\n      <th>\n        <p>|__|</p>\n  \
+  \    </th>\n      <th>\n        <p>|__|</p>\n      </th>\n      <th>\n        <p>|__|</p>\n\
+  \      </th>\n      <th>\n        <p>|__|</p>\n      </th>\n      <th>\n       \
+  \ <p>|__|</p>\n      </th>\n      <th>\n        <p>|__|</p>\n      </th>\n     \
+  \ <th>\n        <p>|__|</p>\n      </th>\n      <th>\n        <p>|__|</p>\n    \
+  \  </th>\n      <th>\n        <p>|__|</p>\n      </th>\n      <th>\n        <p>|__|</p>\n\
+  \      </th>\n      <th>\n        <p>|__|</p>\n      </th>\n    </tr>\n  </thead>\n\
+  </table>\n<p>ii) <em>If all household members are interviewed</em>, a roster of\
+  \ parcels should be created at the household level and the same procedure described\
+  \ in rule (i) should be followed for each household member.</p>\n<p>iii) If the\
+  \ main survey questionnaire does not include a roster of parcels at the household\
+  \ level and one randomly-selected adult household member will be administered the\
+  \ module on agricultural land ownership /tenure rights, a roster of parcels can\
+  \ be created in the individual questionnaire by asking the respondent to list all\
+  \ of the parcels that s/he holds (see example in Figure 5). </p><div class=\"footnotes\"\
+  ><div><sup class=\"footnote-number\" id=\"footnote-12\">11</sup><p> Examples of\
+  \ NHS that could be used to generate the indicator 5.a.1 are: Household Budget Surveys\
+  \ (HBS), Living Standard Measurement Surveys (LSMS), Living Conditions Surveys,\
+  \ Labour Force Surveys (LFS) and Multipurpose Household Surveys. Demographic and\
+  \ Health Surveys (DHS) and Multiple Indicator Cluster Surveys (MICS) can be also\
+  \ used as data collection vehicle, provided that their individual questionnaires\
+  \ are administered to individuals beyond the age classes typically used in these\
+  \ surveys. <a href=\"#footnote-ref-12\">&#x2191;</a></p></div><div><sup class=\"\
+  footnote-number\" id=\"footnote-13\">12</sup><p> Findings from the pilot studies\
+  \ reveal that data from proxy respondents yield different estimates than self-reported\
+  \ data, with variations by asset, by type of ownership and by the sex of the owner.\
+  \ In particular, it was found that proxy-reported data decrease both women&#x2019;s\
+  \ and men&#x2019;s reported ownership of agricultural land. Such underestimation\
+  \ is greater for men (-15 percentage points) than for women (-10 percentage points),and\
+  \ is less pronounced when we consider documented ownership (-7 percentage points\
+  \ for men and -2 percentage points for women). <a href=\"#footnote-ref-13\">&#x2191;</a></p></div><div><sup\
+  \ class=\"footnote-number\" id=\"footnote-14\">13</sup><p> A full list of data items,\
+  \ and their rationale can be found in UNSD (2019) <a href=\"#footnote-ref-14\">&#x2191;</a></p></div></div>"
