@@ -4,13 +4,12 @@ SDG_GOAL: >-
 SDG_TARGET: "<p>Cible 3.3 : D’ici 2030, mettre fin à l’épidémie de sida, à la tuberculose,\
   \ au paludisme et aux maladies tropicales négligées et combattre l’hépatite, les\
   \ maladies transmises par l’eau et d'autres maladies transmissibles </p>"
-SDG_INDICATOR: "<p>Indicateur 3.3.3 : Incidence du paludisme pour 1 000 habitants\
-  \ </p>"
+SDG_INDICATOR: "<p>Indicateur 3.3.3 : Incidence du paludisme pour 1 000 habitants</p>"
 OTHER_DOC: "<p>(Toutes les références sont en anglais)</p>\n<p> <strong>URL :</strong>\
-  \ </p>\n<p>https://www.who.int/publications/i/item/9789240015791 </p>\n<p> </p>\n\
-  <p> <strong>Références :</strong> </p>\n<p>1. Organisation mondiale de la Santé.\
-  \ Rapport mondial sur le paludisme 2020. </p>\n<p>2. Organisation mondiale de la\
-  \ Santé. Rapport mondial sur le paludisme 2008 [Internet]. Genève : Organisation\
+  \ </p>\n<p>https://www.who.int/teams/global-malaria-programme/reports/world-malaria-report-2021</p>\n\
+  <p> </p>\n<p> <strong>Références :</strong> </p>\n<p>1. Organisation mondiale de\
+  \ la Santé. Rapport mondial sur le paludisme 2021. </p>\n<p>2. Organisation mondiale\
+  \ de la Santé. Rapport mondial sur le paludisme 2008 [Internet]. Genève : Organisation\
   \ mondiale de la Santé; 2008. Disponible à l'adresse : http://apps.who.int/iris/bitstream/10665/43939/1/9789241563697_eng.pdf\
   \ </p>\n<p>3. Cibulskis RE, Aregawi M, Williams R, Otten M, Dye C. « Worldwide Incidence\
   \ of Malaria in 2009: Estimates, Time Trends, and a Critique of Methods ». Mueller\
@@ -142,39 +141,40 @@ COMPARABILITY: "<p><strong>Sources des divergences : </strong> </p>\n<p>L'inci
   \ ou de TDR effectués); </li>\n  <li>le recours à des établissements de santé privés\
   \ qui ne sont généralement pas inclus dans les systèmes de déclaration. </li>\n\
   </ul>"
-COVERAGE: "<p>Disponibilité des données : </p>\n<p>109 pays</p>\n<p> </p>\n<p>Séries\
-  \ chronologiques : </p>\n<p>Annuellement à partir de 2000 </p>\n<p>Désagrégation :\
-  \ </p>\n<p>L'indicateur est estimé au niveau national.</p>"
+COVERAGE: "<p><strong>Disponibilité des données :</strong></p>\n<p>109 pays</p>\n\
+  <p> </p>\n<p><strong>Séries chronologiques :</strong></p>\n<p>Annuellement à partir\
+  \ de 2000 </p>\n<p><strong>Désagrégation :</strong></p>\n<p>L'indicateur est estimé\
+  \ au niveau national.</p>"
 QUALITY_ASSURE: "<p>Nous recueillons des données à l'aide d'un formulaire standardisé\
   \ en fonction de l'état de la lutte contre le paludisme, de l'élimination ou de\
   \ la prévention de la réintroduction. Nous travaillons en étroite collaboration\
   \ avec les centres de collaborateurs et les évaluateurs externes pour assurer la\
-  \ qualité. </p>"
+  \ qualité. </p>\n<p> </p>"
 DOC_METHOD: "<p>Les informations sont fournies par le PNLP de chaque pays en utilisant\
   \ l'application « District Health Information Systems 2 » (DHIS2) créée spécifiquement\
   \ à cet effet. </p>"
 REG_AGG: "<p>Les nombres de cas sont agrégés par région, et l'incertitude est obtenue\
   \ à partir de l'agrégation de la répartition de chaque pays. La population à risque\
   \ est agrégée sans autre ajustement. Les estimations au niveau mondial sont obtenues\
-  \ à partir de l'agrégation des valeurs des régions.</p>"
-IMPUTATION: "<ul>\n  <li>Au niveau national : </li>\n</ul>\n<p>Pour les valeurs manquantes\
-  \ des paramètres (taux de positivité des tests et exhaustivité des déclarations),\
-  \ une distribution basée sur un mélange de la distribution des valeurs disponibles\
-  \ est utilisée, si une valeur existe pour le pays ou la région dans le cas contraire.\
-  \ Les valeurs des paramètres de comportement de recherche de soins de santé sont\
-  \ imputées par interpolation linéaire des valeurs lors des enquêtes ou par extrapolation\
-  \ de la première ou de la dernière enquête. Lorsqu'aucune donnée n'est disponible,\
-  \ le nombre de cas est interpolé en tenant compte de la croissance de la population.\
-  \ </p>\n<p> </p>\n<ul>\n  <li>Aux niveaux régional et mondial : </li>\n</ul>\n<p>Sans\
-  \ objet </p>\n<p> </p>"
+  \ à partir de l'agrégation des valeurs régionales.</p>"
+IMPUTATION: "<ul>\n  <li><strong>Au niveau national :</strong></li>\n</ul>\n<p>Pour\
+  \ les valeurs manquantes des paramètres (taux de positivité des tests et exhaustivité\
+  \ des déclarations), une distribution basée sur un mélange de la distribution des\
+  \ valeurs disponibles est utilisée, si une valeur existe pour le pays ou la région\
+  \ dans le cas contraire. Les valeurs des paramètres de comportement de recherche\
+  \ de soins de santé sont imputées par interpolation linéaire des valeurs lors des\
+  \ enquêtes ou par extrapolation de la première ou de la dernière enquête. Lorsqu'aucune\
+  \ donnée n'est disponible, le nombre de cas est interpolé en tenant compte de la\
+  \ croissance de la population. </p>\n<p> </p>\n<ul>\n  <li><strong>Aux niveaux régional\
+  \ et mondial :</strong></li>\n</ul>\n<p>Sans objet </p>\n<p> </p>"
 REC_USE_LIM: "<p>L'incidence estimée peut être différente de l'incidence signalée\
   \ par un ministère de la santé, qui peut être affectée par :</p>\n<ul>\n  <li>l'exhaustivité\
   \ de la déclaration (le nombre de cas déclarés peut être inférieur aux cas estimés\
   \ si le pourcentage d'établissements de santé déclarant au cours d'un mois est inférieur\
   \ à 100%);</li>\n  <li>l'étendue des tests de diagnostic du paludisme (nombre de\
-  \ lames examinées ou de tests diagnostiques rapides (TDR) effectués); </li>\n  <li>le\
+  \ lames examinées ou de tests diagnostiques rapides (TDR) effectués);</li>\n  <li>le\
   \ recours à des établissements de santé privés qui ne sont généralement pas inclus\
-  \ dans les systèmes de déclaration; </li>\n  <li>l'indicateur n'est estimé que là\
+  \ dans les systèmes de déclaration;</li>\n  <li>l'indicateur n'est estimé que là\
   \ où il y a transmission du paludisme.</li>\n</ul>"
 RATIONALE: "<p>La justification est de mesurer l'évolution de la morbidité liée au\
   \ paludisme et identifier les endroits où le risque de maladie est le plus élevé.\
@@ -186,8 +186,8 @@ RATIONALE: "<p>La justification est de mesurer l'évolution de la morbidité li�
 COMPILING_ORG: "<p>L'unité de surveillance, de suivi et d'évaluation du Programme\
   \ mondial de lutte contre le paludisme est chargée de compiler et de traiter toutes\
   \ les informations pertinentes. Les estimations nationales pour certains pays sont\
-  \ réalisées en collaboration avec l'Université d'Oxford (« Malaria Atlas Project »).\
-  \ </p>"
+  \ réalisées en collaboration avec le « Malaria Atlas Project » qui a été désigné\
+  \ comme centre collaborateur de l’OMS pour la modélisation géospatiale des maladies.</p>"
 DATA_SOURCE: "<p>Le Programme national de lutte contre le paludisme est chargé de\
   \ recueillir les informations dans chaque pays. </p>"
 REL_CAL_POLICY: "<p>Les données sont publiées chaque année. </p>"
@@ -202,13 +202,12 @@ SOURCE_TYPE: "<p>Les cas signalés par le PNLP sont obtenus à partir du systèm
   \ à cet effet. Les données d'enquêtes représentatives auprès des ménages sont accessibles\
   \ au public et comprennent les enquêtes démographiques nationales auprès des ménages\
   \ ou l'enquête sur les indicateurs du paludisme. </p>"
-STAT_CONC_DEF: "<p><strong>Définition :</strong> </p>\n<p>L'incidence du paludisme\
+STAT_CONC_DEF: "<p><strong>Définition :</strong></p>\n<p>L'incidence du paludisme\
   \ est définie comme le nombre de nouveaux cas de paludisme pour 1 000 personnes\
-  \ à risque chaque année.</p>\n<p></p>\n<p><strong>Concepts :</strong> </p>\n<p>Le\
-  \ cas de paludisme est défini comme l'apparition du paludisme chez une personne\
-  \ dont la présence de parasites du paludisme dans le sang a été confirmée par un\
-  \ test de diagnostic. La population considérée est celle à risque de la maladie.\
-  \ </p>"
+  \ à risque chaque année.</p>\n<p><strong>Concepts :</strong></p>\n<p>Un cas de paludisme\
+  \ est défini comme l'apparition du paludisme chez une personne dont la présence\
+  \ de parasites du paludisme dans le sang a été confirmée par un test de diagnostic.\
+  \ La population considérée est celle à risque de la maladie. </p>"
 SDG_CUSTODIAN_AGENCIES: "<p>Programme mondial de lutte contre le paludisme de l'Organisation\
   \ mondiale de la Santé (OMS) </p>"
 SDG_RELATED_INDICATORS: "<h1>Indicateurs connexes en date de février 2020</h1>\n<p>Sans\
@@ -219,7 +218,7 @@ CLASS_SYSTEM: <p>Sans objet</p>
 DATA_VALIDATION: <p>Les estimations du fardeau présentées dans le Rapport mondial
   sur le paludisme sont envoyées aux pays par l’intermédiaire des bureaux régionaux
   pour consultation et approbation.</p>
-ADJUSTMENT: <p>Sans objet</p>
+ADJUSTMENT: <p>Non disponible</p>
 QUALITY_MGMNT: <p>Les estimations du fardeau sont d’abord examinées à l'interne par
   les bureaux régionaux et nationaux du PMLP et de l’OMS. Celles-ci sont ensuite partagées
   avec le pays pour validation. L'approbation finale est reçue de la division des
