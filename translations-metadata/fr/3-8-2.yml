@@ -570,625 +570,45 @@ QUALITY_ASSURE: <h2>Assurance de la qualité :</h2>
 COVERAGE: >-
   <p><strong>Disponibilité des données :</strong></p>
 
-  <p>Cet indicateur repose principalement sur les mêmes sources de données que celles
-  utilisées pour le suivi de l'indicateur 1.1.1, à l'exception que les données sur
-  les dépenses de santé sont également nécessaires. La Banque mondiale et l'OMS ont
-  identifié 1 566 ensembles de données d'enquêtes auprès des ménages potentiellement
-  appropriés et ce, pour 155 pays. Certaines de ces enquêtes ont été exclues parce
-  qu'elles sont soit inaccessibles, soit dépourvues des variables clés nécessaires
-  à l'estimation de l'indicateur, soit parce qu'elles n'ont pas passé le processus
-  d'assurance de la qualité ou soit parce qu'elles ne faisaient pas partie d'une série
-  chronologique cohérente. En décembre 2017, un total de 553 points de données provenant
-  de 132 pays ou territoires et couvrant la période 1984 à 2015 ont été utilisés pour
-  produire des données pour cet indicateur. </p>
-
-  <p>La disponibilité des données, mesurée en termes de nombre de pays que l'OMS et
-  la Banque mondiale ont actuellement examinés et retenus pour l'estimation de la
-  « proportion de la population dont le ménage consacre une part importante de ses
-  dépenses totales ou de son revenu total aux dépenses de santé » est la suivante
-  pour l'année la plus récente :</p>
-
-  <table>
-
-  <tbody>
-
-  <tr>
-
-  <td></td>
-
-  <td></td>
-
-  <td colspan="6">
-
-  <p>Retenu par l'OMS et la Banque mondiale pour l'estimation de la « proportion de
-  la population dont le ménage consacre une part importante de ses dépenses totales
-  ou de son revenu total aux dépenses de santé »</p>
-
-  </td>
-
-  </tr>
-
-  <tr>
-
-  <td>
-
-  <p>Distribution régionale</p>
-
-  </td>
-
-  <td>
-
-  <p>Nombre d'États membres (EM) de l'OMS</p>
-
-  </td>
-
-  <td colspan="2">
-
-  <p>2005 ou avant</p>
-
-  </td>
-
-  <td colspan="2">
-
-  <p>2006 à 2015</p>
-
-  </td>
-
-  <td colspan="2">
-
-  <p>Total par région des ODD</p>
-
-  </td>
-
-  </tr>
-
-  <tr>
-
-  <td>
-
-  <p> </p>
-
-  </td>
-
-  <td>
-
-  <p> </p>
-
-  </td>
-
-  <td>
-
-  <p>(nb d'EM)</p>
-
-  </td>
-
-  <td>
-
-  <p>(% par région)</p>
-
-  </td>
-
-  <td>
-
-  <p>(nb d'EM)</p>
-
-  </td>
-
-  <td>
-
-  <p>(% par région)</p>
-
-  </td>
-
-  <td>
-
-  <p>(nb d'EM)</p>
-
-  </td>
-
-  <td>
-
-  <p>(% par région)</p>
-
-  </td>
-
-  </tr>
-
-  <tr>
-
-  <td>
-
-  <p>Amérique du Nord (M49) et Europe (M49)</p>
-
-  </td>
-
-  <td>
-
-  <p>44</p>
-
-  </td>
-
-  <td>
-
-  <p>6</p>
-
-  </td>
-
-  <td>
-
-  <p>13,60 %</p>
-
-  </td>
-
-  <td>
-
-  <p>33</p>
-
-  </td>
-
-  <td>
-
-  <p><strong>75,00 %</strong></p>
-
-  </td>
-
-  <td>
-
-  <p>39</p>
-
-  </td>
-
-  <td>
-
-  <p><strong>88,60 %</strong></p>
-
-  </td>
-
-  </tr>
-
-  <tr>
-
-  <td>
-
-  <p>Amérique latine et Caraïbes (OMD=M49)</p>
-
-  </td>
-
-  <td>
-
-  <p>33</p>
-
-  </td>
-
-  <td>
-
-  <p>7</p>
-
-  </td>
-
-  <td>
-
-  <p>21,20 %</p>
-
-  </td>
-
-  <td>
-
-  <p>10</p>
-
-  </td>
-
-  <td>
-
-  <p><strong>30,30 %</strong></p>
-
-  </td>
-
-  <td>
-
-  <p>17</p>
-
-  </td>
-
-  <td>
-
-  <p><strong>51,50 %</strong></p>
-
-  </td>
-
-  </tr>
-
-  <tr>
-
-  <td>
-
-  <p>Asie centrale (M49) et Asie du Sud (OMD=M49)</p>
-
-  </td>
-
-  <td>
-
-  <p>14</p>
-
-  </td>
-
-  <td>
-
-  <p>0</p>
-
-  </td>
-
-  <td>
-
-  <p>0,00 %</p>
-
-  </td>
-
-  <td>
-
-  <p>11</p>
-
-  </td>
-
-  <td>
-
-  <p><strong>78,60 %</strong></p>
-
-  </td>
-
-  <td>
-
-  <p>11</p>
-
-  </td>
-
-  <td>
-
-  <p><strong>78,60 %</strong></p>
-
-  </td>
-
-  </tr>
-
-  <tr>
-
-  <td>
-
-  <p>Asie de l'Est (M49) et Asie du Sud-Est (OMD=M49)</p>
-
-  </td>
-
-  <td>
-
-  <p>16</p>
-
-  </td>
-
-  <td>
-
-  <p>2</p>
-
-  </td>
-
-  <td>
-
-  <p>12,50 %</p>
-
-  </td>
-
-  <td>
-
-  <p>10</p>
-
-  </td>
-
-  <td>
-
-  <p><strong>62,50 %</strong></p>
-
-  </td>
-
-  <td>
-
-  <p>12</p>
-
-  </td>
-
-  <td>
-
-  <p><strong>75,00 %</strong></p>
-
-  </td>
-
-  </tr>
-
-  <tr>
-
-  <td>
-
-  <p>Asie occidentale (M49) et Afrique du Nord (M49)</p>
-
-  </td>
-
-  <td>
-
-  <p>23</p>
-
-  </td>
-
-  <td>
-
-  <p>4</p>
-
-  </td>
-
-  <td>
-
-  <p>17,40 %</p>
-
-  </td>
-
-  <td>
-
-  <p>9</p>
-
-  </td>
-
-  <td>
-
-  <p><strong>39,10 %</strong></p>
-
-  </td>
-
-  <td>
-
-  <p>13</p>
-
-  </td>
-
-  <td>
-
-  <p><strong>56,50 %</strong></p>
-
-  </td>
-
-  </tr>
-
-  <tr>
-
-  <td>
-
-  <p>Afrique subsaharienne (M49)</p>
-
-  </td>
-
-  <td>
-
-  <p>48</p>
-
-  </td>
-
-  <td>
-
-  <p>16</p>
-
-  </td>
-
-  <td>
-
-  <p>33,30 %</p>
-
-  </td>
-
-  <td>
-
-  <p>21</p>
-
-  </td>
-
-  <td>
-
-  <p><strong>43,80 %</strong></p>
-
-  </td>
-
-  <td>
-
-  <p>37</p>
-
-  </td>
-
-  <td>
-
-  <p><strong>77,10 %</strong></p>
-
-  </td>
-
-  </tr>
-
-  <tr>
-
-  <td>
-
-  <p>Australie et Nouvelle-Zélande (M49)</p>
-
-  </td>
-
-  <td>
-
-  <p>2</p>
-
-  </td>
-
-  <td>
-
-  <p>0</p>
-
-  </td>
-
-  <td>
-
-  <p>0,00 %</p>
-
-  </td>
-
-  <td>
-
-  <p>1</p>
-
-  </td>
-
-  <td>
-
-  <p><strong>50,00 %</strong></p>
-
-  </td>
-
-  <td>
-
-  <p>1</p>
-
-  </td>
-
-  <td>
-
-  <p><strong>50,00 %</strong></p>
-
-  </td>
-
-  </tr>
-
-  <tr>
-
-  <td>
-
-  <p>Océanie (M49) excluant l'Australie et la Nouvelle-Zélande (M49)</p>
-
-  </td>
-
-  <td>
-
-  <p>14</p>
-
-  </td>
-
-  <td>
-
-  <p>1</p>
-
-  </td>
-
-  <td>
-
-  <p>7,10 %</p>
-
-  </td>
-
-  <td>
-
-  <p>0</p>
-
-  </td>
-
-  <td>
-
-  <p><strong>0,00 %</strong></p>
-
-  </td>
-
-  <td>
-
-  <p>1</p>
-
-  </td>
-
-  <td>
-
-  <p><strong>7,10 %</strong></p>
-
-  </td>
-
-  </tr>
-
-  <tr>
-
-  <td></td>
-
-  <td>
-
-  <p>194</p>
-
-  </td>
-
-  <td>
-
-  <p>36</p>
-
-  </td>
-
-  <td>
-
-  <p>18,60 %</p>
-
-  </td>
-
-  <td>
-
-  <p>95</p>
-
-  </td>
-
-  <td>
-
-  <p><strong>49,00 %</strong></p>
-
-  </td>
-
-  <td>
-
-  <p>131</p>
-
-  </td>
-
-  <td>
-
-  <p><strong>67,50 %</strong></p>
-
-  </td>
-
-  </tr>
-
-  </tbody>
-
-  </table>
-
-  <p>Globalement les données couvrent au moins 50 % des États membres de l'OMS dans
-  toutes les régions, sauf pour l'Océanie (7,1 %). Pour plus d'information, il est
-  possible de consulter le Rapport mondial de suivi 2017 : la couverture-santé universelle
-  de l'OMS et la Banque internationale pour la reconstruction et le développement/
-  La Banque mondiale et Wagstaff et al 2018.</p>
+  <p>Le nombre de pays ou de territoires disposant de données au sujet de l’indicateur
+  3.8.2 augmente au fil du temps à mesure que davantage d’enquêtes deviennent disponibles.
+  En décembre 2021, la Banque mondiale et l’OMS ont publié des estimations pour 161
+  d’entre eux. Pour plus d’informations et pour obtenir les dernières mises à jour,
+  veuillez consulter les portails de données dédiés à l’OMS et à la Banque mondiale
+  : </p>
+
+  <p><a href="https://www.who.int/data/gho/data/themes/topics/financial-protection">(en
+  anglais) https://www.who.int/data/gho/data/themes/topics/financial-protection</a>
+  </p>
+
+  <p><a href="https://datatopics.worldbank.org/universal-health-coverage/">(en anglais)
+  https://datatopics.worldbank.org/universal-health-coverage/</a> </p>
 
   <p><strong>Séries chronologiques :</strong></p>
 
-  <p>La fréquence de ces données est similaire à celle des données utilisées pour
-  l'indicateur 1.1.1. Elle varie d'un pays à l'autre, mais en moyenne, elle va de
-  1 an à 3 à 5 ans.</p>
+  <p>La fréquence de ces données est similaire à la fréquence des données utilisées
+  pour produire l’indicateur 1.1.1 des ODD. Cela varie d’un pays à l’autre, mais en
+  moyenne, cela va d’une base annuelle à 3 à 5 ans. </p>
 
-  <p><strong>Désagrégation :<strong></p>
+  <p><strong>Désagrégation :</strong></p>
 
-  <p>Les désagrégations suivantes sont possibles dans la mesure où l'enquête a été
-  conçue pour fournir des estimations représentatives à ce niveau :</p>
+  <p>La désagrégation suivante est possible dans la mesure où l’enquête a été conçue
+  pour fournir des estimations représentatives à ce niveau :</p>
 
   <ul>
-
-  <li>Genre et âge du chef du ménage</li>
-
-  <li>Emplacement géographique (rurale/urbaine)</li>
-
-  <li>Quintiles du bien-être du ménage (dépenses totales ou revenu total). Voir la
-  section Commentaires et limites pour les impacts de choisir l'une ou l'autre de
-  ces mesures de bien-être.</li>
-
+    <li>Composition par âge et par sexe du ménage. Pour la composition par âge du
+  ménage, le groupement suivant est utilisé par l’OMS : les ménages « adultes seulement »
+  comprennent les ménages composés de personnes âgées de 20 à 59 ans; les ménages
+  multigénérationnels comprennent les adultes vivant avec des personnes de moins de
+  20 ans (enfants et/ou adolescents) ainsi que les personnes âgées de 60 ans ou plus
+  (personnes âgées); les « ménages plus jeunes » comprennent les adultes vivant avec
+  des enfants (de 0 à 9 ans) et/ou des adolescents (de 10 à 19 ans); et les « ménages
+  plus âgés » comprennent les ménages composés d’adultes vivant avec au moins une
+  personne âgée (60 ans ou plus) ou exclusivement composés de personnes âgées. </li>
+    <li>Emplacement géographique (rural/urbain)</li>
+    <li>Quintiles des mesures de bien-être des ménages (dépenses ou revenus totaux
+  de consommation des ménages). Consulter la section Commentaires et les limites pour
+  la sensibilité de la désagrégation au choix de la mesure de bien-être. </li>
   </ul>
 COMPARABILITY: >-
   <p><strong>Sources des divergences :</strong></p>
@@ -1202,86 +622,70 @@ COMPARABILITY: >-
   régionales de la Banque mondiale produisent des versions normalisées des ensembles
   de données brutes selon des procédures régionales communes : les ensembles de données
   harmonisés de l’ECAPOV sont basés sur les ensembles de données de l’Étude sur la
-  mesure du niveau de vie – LSMS<sup><sup><a href="#footnote-15" id="footnote-ref-15">[14]</a></sup></sup>
+  mesure du niveau de vie – LSMS<sup><sup><a href="#footnote-13" id="footnote-ref-13">[12]</a></sup></sup>
   ou sur les enquêtes sur les dépenses des ménages (EDM) recueillies dans la région
   Europe et Asie centrale de la Banque mondiale; la collecte du SHIP résulte d’un
   programme de lutte contre la pauvreté sur les enquêtes harmonisées auprès des ménages
   dans la région africaine de la Banque mondiale, tandis que la collecte du SHES a
   été développée par la Banque mondiale pour le programme de comparaison internationale<sup><sup><a
-  href="#footnote-16" id="footnote-ref-16">[15]</a></sup></sup>. La base de données
+  href="#footnote-14" id="footnote-ref-14">[13]</a></sup></sup>. La base de données
   du « Luxembourg Income Study » (LIS) résulte des efforts visant à harmoniser les
-  ensembles de données de nombreux pays à revenu élevé et moyen<sup><sup><a href="#footnote-17"
-  id="footnote-ref-17">[16]</a></sup></sup>. </p>
+  ensembles de données de nombreux pays à revenu élevé et moyen<sup><sup><a href="#footnote-15"
+  id="footnote-ref-15">[14]</a></sup></sup>. </p>
 
   <p>Dans certains cas, les données brutes sont accessibles pour produire des estimations
-  au niveau des pays. Dans certains pays, en plus des données brutes, une version
-  normalisée de celles-ci est disponible et dans d’autres pays, seule la version normalisée
-  l’est. Lorsque plusieurs versions d’une même enquête sont disponibles, les plus
-  performantes en termes de série de tests d’assurance de la qualité sont conservées
-  (voir processus de collecte). Lorsqu’une version normalisée d’un instrument d’enquête
-  conçu à l’échelle nationale est choisie, il existe des différences entre les variables
-  de dépenses générées à l’aide des données brutes et les variables de dépenses générées
-  à l’aide des procédures d’harmonisation, ce qui pourrait entraîner une incidence
-  estimée différente de la population dont le ménage consacre une part importante
-  de ses dépenses totales ou de son revenu total aux dépenses de santé. </p> <div
-  class="footnotes"> <div> <sup class="footnote-number" id="footnote-15">14</sup><p>
-  (en anglais) http://econ.worldbank.org/WBSITE/EXTERNAL/EXTDEC/EXTRESEARCH/EXTLSMS/0,,contentMDK:21610833~pagePK:64168427~piPK:64168435~theSitePK:3358997,00.html
-  <a href="#footnote-ref-15">&#x2191;</a></p></div><div><sup class="footnote-number"
-  id="footnote-16">15</sup><p> Une documentation détaillée décrivant les procédures
-  d’harmonisation est disponible dans les documents PDF ci-joints <a href="#footnote-ref-16">&#x2191;</a></p></div><div><sup
-  class="footnote-number" id="footnote-17">16</sup><p> (en anglais) http://www.lisdatacenter.org/
-  <a href="#footnote-ref-17"> &#x2191; </a> </p> </div> </div>
+  au niveau des pays. Dans certains pays, à la fois les données brutes et une version
+  normalisée de celles-ci sont disponibles alors que dans d’autres pays, seule la
+  version normalisée l’est. Lorsque plusieurs versions d’une même enquête sont disponibles,
+  les estimations les plus performantes aux séries de tests d’assurance de la qualité
+  sont conservées (consulter la section Méthode de collecte de données). Lorsqu’une
+  version normalisée d’un instrument d’enquête conçu à l’échelle nationale est choisie,
+  il existe des différences entre les variables de dépenses générées à l’aide des
+  données brutes et les variables de dépenses générées à l’aide des procédures d’harmonisation,
+  ce qui pourrait entraîner une incidence estimée différente de la population dont
+  le ménage consacre une part importante de ses dépenses totales ou de son revenu
+  total aux dépenses de santé. </p> <div class="footnotes"> <div> <sup class="footnote-number"
+  id="footnote-13">12</sup><p> (en anglais) http://econ.worldbank.org/WBSITE/EXTERNAL/EXTDEC/EXTRESEARCH/EXTLSMS/0,,contentMDK:21610833~pagePK:64168427~piPK:64168435~theSitePK:3358997,00.html
+  <a href="#footnote-ref-13">&#x2191;</a></p></div><div><sup class="footnote-number"
+  id="footnote-14">13</sup><p> Une documentation détaillée décrivant les procédures
+  d’harmonisation est disponible dans les documents PDF ci-joints <a href="#footnote-ref-14">&#x2191;</a></p></div><div><sup
+  class="footnote-number" id="footnote-15">14</sup><p> (en anglais) http://www.lisdatacenter.org/
+  <a href="#footnote-ref-15"> &#x2191; </a> </p> </div> </div>
 OTHER_DOC: >-
   <p>(À moins d'indication contraire, les références sont en anglais)</p>
 
-  <p><strong>URL :</strong> <a href="http://apps.who.int/gho/cabinet/uhc.jsp"><u>http://apps.who.int/gho/cabinet/uhc.jsp</u></a>;
+  <p><strong>URL :</strong></p>
+
+  <p><u>https://www.who.int/data/gho/data/themes/topics/financial-protection</u>;
   <a href="http://datatopics.worldbank.org/universal-health-coverage/"><u>http://datatopics.worldbank.org/universal-health-coverage/</u></a>
   </p>
 
   <p><strong>Références :</strong></p>
 
+  <p><em>Rapport mondial de suivi (p. ex., 2015, 2017, 2019, 2021)</em></p>
+
+  <p><a href="https://www.who.int/teams/health-systems-governance-and-financing/global-monitoring-report">https://www.who.int/teams/health-systems-governance-and-financing/global-monitoring-report</a>
+  </p>
+
+  <p><em>Méthodologie :</em></p>
+
   <ul>
     <li>Chapitre 2 sur la protection financière dans le Rapport mondial de suivi 2017
   : la couverture-santé universelle, Organisation mondiale de la Santé et la Banque
   internationale pour la reconstruction et le développement/ La Banque mondiale; 2017
-  </li> </ul>
-
-  <p><a href="https://apps.who.int/iris/bitstream/handle/10665/272598/9789242513554-fre.pdf?sequence=1&isAllowed=y/">
-  <u>https://apps.who.int/iris/bitstream/handle/10665/272598/9789242513554-fre.pdf?sequence=1&isAllowed=y/</u></a></p>
-
-  <p><a href="https://www.who.int/health-topics/financial-protection#tab=tab_1"><u>https://www.who.int/health-topics/financial-protection#tab=tab_1</u></a>
-  </p>
-
-  <ul>
+  </li>
     <li>Wagstaff, A., Flores, G., Hsu J., Smitz, M-F., Chepynoga, K., Buisman, L.R.,
   van Wilgenburg, K. et Eozenou, P., (2018), « Progress on catastrophic health spending
   in 133 countries: a retrospective observational study », The Lancet Global Health,
-  volume 6, numéro 2, e169-e179. <a href="http://dx.doi.org/10.1016/S2214-109X(17)30429-1">
-  <u>http://dx.doi.org/10.1016/S2214-109X(17)30429-1</u></a></li> </ul>
+  volume 6, numéro 2, e169-e179. </li>
+  </ul>
 
-  <p><em>Sur les approches sous-jacentes derrière la définition actuelle des dépenses
-  de santé importantes en pourcentage de la consommation ou du revenu total des ménages:</em></p>
+  <p><a href="http://dx.doi.org/10.1016/S2214-109X(17)30429-1"><u>http://dx.doi.org/10.1016/S2214-109X(17)30429-1</u></a></p>
 
   <ul>
     <li>Chapitre 18 de « Analysing health equity using household survey data ». Washington,
   DC : Groupe de la Banque mondiale; 2008, <a href="http://www.worldbank.org/en/topic/health/publication/analyzing-health-equity-using-household-survey-data"><u>http://www.worldbank.org/en/topic/health/publication/analyzing-health-equity-using-household-survey-data</u></a>
-  </li> </ul>
-
-  <p><em>Pour la définition des dépenses de santé </em></p>
-
-  <ul>
-    <li> <a href="http://www.oecd-ilibrary.org/social-issues-migration-health/a-system-of-health-accounts/classification-of-health-care-financing-schemes-icha-hf_9789264116016-9-en">
-  <u>http://www.oecd-ilibrary.org/social-issues-migration-health/a-system-of-health-accounts/classification-of-health-care-financing-schemes-icha-hf_9789264116016-9-en</u></a></li>
-  </ul>
-
-  <p><em>Pour les composantes des dépenses de santé</em></p>
-
-  <ul>
-    <li>La division 06 de la Classification des fonctions de consommation des ménages
-  (COICOP) <a href="https://unstats.un.org/unsd/class/revisions/coicop_revision.asp"><u>(en
-  anglais) https://unstats.un.org/unsd/class/revisions/coicop_revision.asp</u></a>;
-  <a href="http://unstats.un.org/unsd/cr/registry/regcs.asp?Cl=5&amp;Lg=1&amp;Co=06.1">
-  <u>http://unstats.un.org/unsd/cr/registry/regcs.asp?Cl=5&amp;lg=1&amp;Co=06.1</u></a></li>
+  </li>
   </ul>
 CONTACT_ORGANISATION: <p>Organisation mondiale de la Santé (OMS)</p>
 SDG_SERIES_DESCR: <p>Sans objet</p>
@@ -1323,3 +727,68 @@ DATA_VALIDATION: "<p>Les microdonnées obtenues par l’OMS sont demandées aux 
   \ de l’indicateur 3.8.2 (consulter la section 4.k). </p>\n<p>Les estimations produites\
   \ par les deux organisations sont incluses dans une consultation afin d’obtenir\
   \ les commentaires des pays et sont révisées au besoin. </p>"
+QUALITY_ASSMNT: "<p>L’Organisation mondiale de la santé et la Banque mondiale génèrent\
+  \ l’indicateur 3.8.2 selon la même approche (consulter la section des méthodes).\
+  \ Les deux institutions combinent des estimations au niveau intermédiaire (méso).\
+  \ L’éligibilité des estimations incluses dans une base de données mondiale commune\
+  \ au niveau des pays et utilisées pour produire des estimations régionales et mondiales\
+  \ est basée sur l’évaluation de la qualité suivante:</p>\n<p><em>Pour le dénominateur\
+  \ du ratio des dépenses de santé</em></p>\n<ul>\n  <li>Comparez la consommation\
+  \ ou le revenu mensuel total moyen des ménages par habitant d’une source de référence\
+  \ avec la valeur mensuelle moyenne estimée à partir de l’enquête. La source de référence\
+  \ est tirée de Povcalnet<sup><sup><a href=\"#footnote-10\" id=\"footnote-ref-10\"\
+  >[9]</a></sup></sup> si disponible, et sinon des Indicateurs de développement mondial\
+  \ (IDM)<sup><sup><a href=\"#footnote-11\" id=\"footnote-ref-11\">[10]</a></sup></sup>,\
+  \ calculés comme les dépenses de consommation finale des ménages en dollars internationaux\
+  \ 2011 constants divisées par la population totale. La comparaison est basée sur\
+  \ le rapport entre les deux moyennes (source de référence et estimation basée sur\
+  \ l’enquête). Si le ratio est supérieur à 20 % (lorsque les deux moyennes sont fondées\
+  \ sur la consommation) ou à 30 % (lorsque l’estimation de la source de référence\
+  \ est fondée sur le revenu et que l’estimation de l’enquête est fondée sur la consommation),\
+  \ l'estimation d’enquête est identifiée comme une valeur aberrante en termes de\
+  \ consommation par habitant et signalée pour exclusion possible. </li>\n  <li>Comparez\
+  \ l’effectif de pauvreté estimé à partir de l’enquête au seuil de pauvreté de 1,90\
+  \ $ par jour, en PPA de 2011 avec l’incidence de la pauvreté signalée dans PovcalNet\
+  \ avec le même seuil de pauvreté (valeur de référence). Lorsque la différence absolue\
+  \ entre la valeur de référence et l’estimation fondée sur l’enquête dépasse 10 points\
+  \ de pourcentage, l'estimation fondée sur l’enquête est identifiée comme une valeur\
+  \ aberrante dans l'incidence de l’extrême pauvreté et signalée pour une éventuelle\
+  \ exclusion. </li>\n  <li>Comparez l’effectif de pauvreté estimé à partir de l’enquête\
+  \ au seuil de pauvreté de 3,20 $ par jour, en PPA de 2011 avec l’incidence de la\
+  \ pauvreté rapportée dans PovcalNet avec le même seuil de pauvreté (valeur de référence).\
+  \ Lorsque la différence absolue entre la valeur de référence et l’estimation fondée\
+  \ sur l’enquête dépasse 10 points de pourcentage, l'estimation d’enquête est identifiée\
+  \ comme une valeur aberrante dans l'incidence de la pauvreté à 3,20 $ par jour et\
+  \ signalée pour exclusion possible. </li>\n</ul>\n<p><em>Pour le numérateur du ratio\
+  \ des dépenses de santé</em></p>\n<ul>\n  <li>Comparez le ratio moyen des dépenses\
+  \ de santé dans l’enquête à une part de référence du budget moyen de la santé. Ce\
+  \ dernier est construit à partir des données des comptes nationaux de la santé \
+  \ en tant que rapport entre la mesure agrégée des dépenses directes (« out-of-pocket »)\
+  \ des ménages et les dépenses de consommation finale des ménages et des institutions\
+  \ de profit au service des ménages, tous deux en monnaie locale courante. Lorsque\
+  \ la différence absolue dépasse 5 points de pourcentage, l'estimation d’enquête\
+  \ est identifiée comme une valeur aberrante en termes de part du budget des ménages\
+  \ consacrée à la santé et signalée pour une éventuelle exclusion. Les macro-indicateurs\
+  \ sont disponibles à partir de la <a href=\"http://www.who.int/health-accounts/ghed/en/\"\
+  ><u>Base de données sur les dépenses de santé mondiales</u></a> (Global Health Expenditure\
+  \ Database (GHED))<sup><sup><a href=\"#footnote-12\" id=\"footnote-ref-12\">[11]</a></sup></sup>\
+  \ </li>\n</ul>\n<p>Ces repères sont également utilisés pour choisir entre deux estimations\
+  \ pour les pays et les années pour lesquels les deux institutions ont la même source\
+  \ de données. Pour qu’une estimation de l’indicateur 3.8.2 basée sur une enquête\
+  \ soit incluse dans la base de données commune et donc dans la consultation nationale\
+  \ menée tous les deux ans précédemment décrite, il ne peut s’agir d’une valeur aberrante\
+  \ en termes de consommation, ni en termes de part du budget de la santé. </p>\n\
+  <p>Les estimations produites par les pays et partagées dans le cadre de la consultation\
+  \ par pays sont soumises au même processus d’assurance de la qualité. Elles sont\
+  \ incluses dans la base de données commune si elles ne sont signalées comme valeurs\
+  \ aberrantes ni dans la consommation ni dans la part du budget de la santé. </p>\
+  \ <div class=\"footnotes\"> <div> <sup class=\"footnote-number\" id=\"footnote-10\"\
+  >9</sup><p> <a href=\"http://iresearch.worldbank.org/PovcalNet/povOnDemand.aspx\"\
+  >(en anglais) http://iresearch.worldbank.org/PovcalNet/povOnDemand.aspx</a> <a href=\"\
+  #footnote-ref-10\">&#x2191;</a></p></div><div><sup class=\"footnote-number\" id=\"\
+  footnote-11\">10</sup><p> <a href=\"https://datacatalog.worldbank.org/dataset/world-development-indicators\"\
+  >(en anglais) https://datacatalog.worldbank.org/dataset/world-development-indicators</a>\
+  \ <a href=\"#footnote-ref-11\">&#x2191;</a></p></div><div><sup class=\"footnote-number\"\
+  \ id=\"footnote-12\">11</sup><p> <a href=\"http://www.who.int/health-accounts/ghed/en/\"\
+  >(en anglais) http://www.who.int/health-accounts/ghed/en/</a> <a href=\"#footnote-ref-12\"\
+  >&#x2191;</a></p></div></div>"
