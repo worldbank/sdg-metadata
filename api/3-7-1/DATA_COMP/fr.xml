@@ -2,32 +2,57 @@
 <root>
 	<status>success</status>
 	<message>The DATA_COMP field for indicator 3-7-1, translated into fr</message>
-	<data>&lt;p&gt;Le numérateur est le pourcentage de femmes en âge de procréer (15-49 ans) qui utilisent actuellement, ou dont le partenaire utilise actuellement, au moins une méthode contraceptive moderne. Le dénominateur est la demande totale de planification familiale (la somme de la prévalence contraceptive (n’importe quelle méthode) et du besoin non satisfait de planification familiale).&lt;/p&gt;
-&lt;table&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td rowspan=&quot;3&quot;&gt;
-        &lt;p&gt;Demande satisfaite &lt;br&gt;par des méthodes modernes&lt;/p&gt;
-      &lt;/td&gt;
-      &lt;td rowspan=&quot;2&quot;&gt;
-        &lt;p&gt;=&lt;/p&gt;
-      &lt;/td&gt;
-      &lt;td&gt;
-        &lt;p&gt;Nombre de femmes qui utilisent actuellement une méthode moderne de contraception&lt;/p&gt;
-      &lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;
-        &lt;p&gt; &lt;/p&gt;
-      &lt;/td&gt;
-      &lt;td&gt;
-        &lt;p&gt;Nombre de femmes qui utilisent une méthode de contraception ou qui ont
-un besoin non satisfait de planification familiale&lt;/p&gt;
-      &lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;</data>
+	<data>&lt;p&gt;Le numérateur est le pourcentage de femmes en âge de procréer (15-49 ans) qui utilisent actuellement, ou dont le partenaire utilise actuellement, au moins une méthode contraceptive moderne (&lt;em&gt;MC&lt;sub&gt;Mod&lt;/sub&gt;&lt;/em&gt;). Le dénominateur est la demande totale de planification familiale (la somme de la prévalence contraceptive (n’importe quelle méthode (&lt;em&gt;MC&lt;sub&gt;Toute&lt;/sub&gt;&lt;/em&gt;)) et du besoin non satisfait de planification familiale (&lt;em&gt;BNS&lt;/em&gt;)). Le quotient est ensuite multiplié par 100 pour arriver au pourcentage de femmes (âgées de 15 à 49 ans) dont le besoin de planification familiale est satisfait avec des méthodes modernes (&lt;em&gt;BS&lt;sub&gt;Mod&lt;/sub&gt;&lt;/em&gt;). &lt;/p&gt;
+&lt;p&gt;&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;
+    &lt;msub&gt;
+      &lt;mrow&gt;
+        &lt;mi&gt;B&lt;/mi&gt;
+        &lt;mi&gt;S&lt;/mi&gt;
+      &lt;/mrow&gt;
+      &lt;mrow&gt;
+        &lt;mi&gt;M&lt;/mi&gt;
+        &lt;mi&gt;o&lt;/mi&gt;
+        &lt;mi&gt;d&lt;/mi&gt;
+      &lt;/mrow&gt;
+    &lt;/msub&gt;
+    &lt;mo&gt;=&lt;/mo&gt;
+    &lt;mfrac&gt;
+      &lt;mrow&gt;
+        &lt;msubsup&gt;
+          &lt;mrow&gt;
+            &lt;mi&gt;M&lt;/mi&gt;
+            &lt;mi&gt;C&lt;/mi&gt;
+          &lt;/mrow&gt;
+          &lt;mrow&gt;
+            &lt;mi&gt;M&lt;/mi&gt;
+            &lt;mi&gt;o&lt;/mi&gt;
+            &lt;mi&gt;d&lt;/mi&gt;
+          &lt;/mrow&gt;
+          &lt;mrow&gt;&lt;/mrow&gt;
+        &lt;/msubsup&gt;
+      &lt;/mrow&gt;
+      &lt;mrow&gt;
+        &lt;mi&gt;B&lt;/mi&gt;
+        &lt;mi&gt;N&lt;/mi&gt;
+        &lt;mi&gt;S&lt;/mi&gt;
+        &lt;msubsup&gt;
+          &lt;mrow&gt;
+            &lt;mo&gt;+&lt;/mo&gt;
+            &lt;mi&gt;M&lt;/mi&gt;
+            &lt;mi&gt;C&lt;/mi&gt;
+          &lt;/mrow&gt;
+          &lt;mrow&gt;
+            &lt;mi&gt;T&lt;/mi&gt;
+            &lt;mi&gt;o&lt;/mi&gt;
+            &lt;mi&gt;u&lt;/mi&gt;
+            &lt;mi&gt;t&lt;/mi&gt;
+            &lt;mi&gt;e&lt;/mi&gt;
+          &lt;/mrow&gt;
+          &lt;mrow&gt;&lt;/mrow&gt;
+        &lt;/msubsup&gt;
+      &lt;/mrow&gt;
+    &lt;/mfrac&gt;
+    &lt;mo&gt;&amp;#xD7;&lt;/mo&gt;
+    &lt;mn&gt;100&lt;/mn&gt;
+  &lt;/math&gt;&lt;/p&gt;</data>
 </root>

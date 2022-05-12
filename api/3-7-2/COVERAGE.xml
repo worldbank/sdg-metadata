@@ -305,15 +305,15 @@
 &lt;h2&gt;Desagregación:&lt;/h2&gt;
 &lt;p&gt;Edad, educación, número de hijos vivos, estado civil, estatus socioeconómico, ubicación geográfica y otras categorías, según la fuente de datos y el número de observaciones.&lt;/p&gt;
 			</language>
-			<language lang="fr">&lt;p&gt;Disponibilité des données :&lt;/p&gt;
-&lt;p&gt;Les données sur le taux de natalité chez les adolescentes âgées de 15 à 19 ans sont disponibles pour 224 pays ou régions pour la période 2000-2020. Pour 219 pays ou régions, il existe au moins deux points de données disponibles. Seuls cinq pays disposent d’un point de données, deux en Europe et en Amérique du Nord (Gibraltar et Saint-Pierre-et-Miquelon), deux en Océanie (Tokélaou et Îles Wallis-et-Futuna) et un en Amérique latine et dans les Caraïbes (Îles Caïmans). &lt;/p&gt;
-&lt;p&gt;La répartition régionale de la disponibilité des données est la suivante :&lt;/p&gt;
+			<language lang="fr">&lt;p&gt;&lt;strong&gt;Disponibilité des données :&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Les données sélectionnées pour le taux de natalité chez les adolescentes âgées de 10 à 14 ans et de 15 à 19 ans sont disponibles pour 215 et 225 pays ou régions, respectivement, pour la période 2000-2020. Pour 219 pays ou régions, il existe au moins deux points de données disponibles. Seuls six pays disposent d’un point de données pour les femmes âgées de 10 à 14 ans, un en Europe et en Amérique du Nord (île de Man), un en Asie de l’Est et du Sud-Est (République démocratique de Corée), un en Asie centrale et en Asie du Sud (Bhoutan), un en Asie occidentale et en Afrique du Nord (Liban) et deux en Amérique latine et dans les Caraïbes (Saint-Barthélemy et Saint-Kitts-et-Nevis). Seuls quatre pays disposent d’un point de données pour les femmes âgées de 15 à 19 ans, un en Asie de l’Est et du Sud-Est (République démocratique de Corée) et trois en Europe et en Amérique du Nord (Île de Man, Saint-Pierre-et-Miquelon et Saint-Marin). &lt;/p&gt;
+&lt;p&gt;Tableau 1 : La répartition régionale de la disponibilité des données est la suivante :&lt;/p&gt;
 &lt;table&gt;
   &lt;tbody&gt;
     &lt;tr&gt;
       &lt;td&gt; &lt;/td&gt;
       &lt;td colspan=&quot;2&quot;&gt;
-        &lt;p&gt; &lt;strong&gt;Entre 2000 et 2020&lt;/strong&gt;&lt;/p&gt;
+        &lt;p&gt; &lt;strong&gt;Au moins un point de données entre 2000 et 2020&lt;/strong&gt;&lt;/p&gt;
       &lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
@@ -321,10 +321,10 @@
         &lt;p&gt; &lt;strong&gt;Régions du monde et des ODD&lt;/strong&gt;&lt;/p&gt;
       &lt;/td&gt;
       &lt;td&gt;
-        &lt;p&gt; &lt;strong&gt;Au moins un point de données&lt;/strong&gt;&lt;/p&gt;
+        &lt;p&gt; &lt;strong&gt;Taux de natalité chez les femmes âgées de 10 à 14 ans&lt;/strong&gt;&lt;/p&gt;
       &lt;/td&gt;
       &lt;td&gt;
-        &lt;p&gt; &lt;strong&gt;Deux points de données ou plus&lt;/strong&gt;&lt;/p&gt;
+        &lt;p&gt; &lt;strong&gt;Taux de natalité chez les adolescentes âgées de 15 à 19 ans&lt;/strong&gt;&lt;/p&gt;
       &lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
@@ -332,21 +332,21 @@
         &lt;p&gt;MONDE&lt;/p&gt;
       &lt;/td&gt;
       &lt;td&gt;
-        &lt;p&gt;224&lt;/p&gt;
+        &lt;p&gt;215&lt;/p&gt;
       &lt;/td&gt;
       &lt;td rowspan=&quot;12&quot;&gt;
-        &lt;p&gt;219&lt;/p&gt;
-        &lt;p&gt;47&lt;/p&gt;
-        &lt;p&gt;44&lt;/p&gt;
-        &lt;p&gt;14&lt;/p&gt;
-        &lt;p&gt;19&lt;/p&gt;
-        &lt;p&gt;24&lt;/p&gt;
+        &lt;p&gt;225&lt;/p&gt;
         &lt;p&gt;50&lt;/p&gt;
-        &lt;p&gt;19&lt;/p&gt;
+        &lt;p&gt;46&lt;/p&gt;
+        &lt;p&gt;14&lt;/p&gt;
+        &lt;p&gt;18&lt;/p&gt;
+        &lt;p&gt;25&lt;/p&gt;
+        &lt;p&gt;50&lt;/p&gt;
+        &lt;p&gt;20&lt;/p&gt;
         &lt;p&gt;2&lt;/p&gt;
         &lt;p&gt;32&lt;/p&gt;
-        &lt;p&gt;47&lt;/p&gt;
-        &lt;p&gt;56&lt;/p&gt;
+        &lt;p&gt;48&lt;/p&gt;
+        &lt;p&gt;51&lt;/p&gt;
       &lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
@@ -378,7 +378,7 @@
         &lt;p&gt;Asie de l’Est et Asie du Sud-Est&lt;/p&gt;
       &lt;/td&gt;
       &lt;td&gt;
-        &lt;p&gt;19&lt;/p&gt;
+        &lt;p&gt;16&lt;/p&gt;
       &lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
@@ -386,7 +386,7 @@
         &lt;p&gt;Afrique du Nord et Asie occidentale&lt;/p&gt;
       &lt;/td&gt;
       &lt;td&gt;
-        &lt;p&gt;24&lt;/p&gt;
+        &lt;p&gt;23&lt;/p&gt;
       &lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
@@ -394,7 +394,7 @@
         &lt;p&gt;Afrique subsaharienne&lt;/p&gt;
       &lt;/td&gt;
       &lt;td&gt;
-        &lt;p&gt;50&lt;/p&gt;
+        &lt;p&gt;49&lt;/p&gt;
       &lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
@@ -402,7 +402,7 @@
         &lt;p&gt;Océanie à l’exclusion de l’Australie et de la Nouvelle-Zélande&lt;/p&gt;
       &lt;/td&gt;
       &lt;td&gt;
-        &lt;p&gt;21&lt;/p&gt;
+        &lt;p&gt;17&lt;/p&gt;
       &lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
@@ -426,7 +426,7 @@
         &lt;p&gt;Pays moins développés (LDC)&lt;/p&gt;
       &lt;/td&gt;
       &lt;td&gt;
-        &lt;p&gt;47&lt;/p&gt;
+        &lt;p&gt;45&lt;/p&gt;
       &lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
@@ -434,14 +434,14 @@
         &lt;p&gt;États insulaires en développement (SIDS)&lt;/p&gt;
       &lt;/td&gt;
       &lt;td&gt;
-        &lt;p&gt;57&lt;/p&gt;
+        &lt;p&gt;47&lt;/p&gt;
       &lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;p&gt;Séries chronologiques :&lt;/p&gt;
-&lt;p&gt;Voir ci-dessus&lt;/p&gt;
-&lt;p&gt;Désagrégation :&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Séries chronologiques :&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Consulter le tableau 1 ci-dessus&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Désagrégation :&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;L’âge, le niveau de scolarité, le nombre d’enfants vivants, l’état matrimonial, le statut socioéconomique, l’emplacement géographique et d’autres catégories, selon la source de données et le nombre d’observations. &lt;/p&gt;
 			</language>
 			<language lang="pt"/>
