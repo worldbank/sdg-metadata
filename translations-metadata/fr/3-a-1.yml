@@ -12,7 +12,7 @@ SDG_RELATED_INDICATORS: >-
   au cancer, au diabète ou aux maladies respiratoires chroniques </p>
 SDG_CUSTODIAN_AGENCIES: >-
   <p>Organisation mondiale de la Santé; Secrétariat de la Convention-cadre de l’OMS
-  pour la lutte antitabac (co-gardiens)</p>
+  pour la lutte antitabac (co-dépositaires)</p>
 STAT_CONC_DEF: >-
   <p><strong>Définition : </strong></p>
 
@@ -85,7 +85,7 @@ SOURCE_TYPE: >-
     <li>examen d’autres enquêtes menées en collaboration avec l’OMS, telles que des
   enquêtes « STEPwise » et des enquêtes mondiales sur la santé; </li>
     <li>numérisation de bases de données internationales de surveillance telles que
-  celles de l’Enquête démographique et de santé (DHS), de l’Enquête en grappes à indicateurs
+  celles de l’Enquête démographique et de santé (EDS), de l’Enquête en grappes à indicateurs
   multiples (MICS) et de l’Enquête sur la mesure du niveau de vie de la Banque mondiale
   (LSMS); et</li>
     <li>identification et examen des enquêtes par pays qui ne font pas partie des
@@ -191,17 +191,17 @@ DATA_COMP: >-
   lacunes en matière de données auront de grandes plages d’incertitude, et ces résultats
   devraient être interprétés avec prudence. </p>
 IMPUTATION: >-
-  <p><strong>&#xF0B7;Au niveau national :</strong></p>
+  <p><strong>&#x2022; Au niveau national :</strong></p>
 
   <p>Pour les pays ayant réalisé moins de deux enquêtes nationales au cours d’années
   différentes depuis 1990, aucune estimation n’est calculée, car aucune tendance ne
   peut être déterminée. Pour les pays dont les données proviennent de deux enquêtes
   nationales ou plus, les lacunes en matière de données, le cas échéant, sont comblées
-  comme décrit dans la <em>Méthode de calcul</em>. </p>
+  comme décrit dans la section <em>Méthode de calcul</em>. </p>
 
   <p> </p>
 
-  <p><strong>&#xF0B7;Aux niveaux régional et mondial :</strong></p>
+  <p><strong>&#x2022; Aux niveaux régional et mondial :</strong></p>
 
   <p>Les pays où aucune estimation ne peut être calculée sont inclus dans les moyennes
   régionales et mondiales en supposant que leurs taux de prévalence pour les hommes
@@ -233,10 +233,10 @@ DOC_METHOD: >-
   de la CCLAT aux Secrétariat de la CCLAT par l’intermédiaire de l’instrument de notification
   (<a href="https://fctc.who.int/fr/who-fctc/reporting/reporting-instrument">https://fctc.who.int/fr/who-fctc/reporting/reporting-instrument</a>)
   sont partagées avec l’OMS. Des données supplémentaires sont obtenues par l’OMS en
-  contactant les points focaux du secteur du tabac auprès des ministères de la santé
+  contactant les points focaux du secteur du tabac auprès des ministères de la Santé
   ou en effectuant des recherches dans le domaine public. </p>
 QUALITY_ASSURE: |-
-  <p>Les données d’enquête déclarées par les États membres de l’OMS et par les Parties de la CCLAT de l’OMS sont vérifiées par rapport aux rapports publiés et pour en vérifier la cohérence interne. Les résultats de la modélisation, ainsi que les données d’entrée, sont partagés avec les experts de la surveillance du tabac et des politiques dans les régions de l’OMS avant d’être partagés avec les points focaux du tabac au sein des ministères de la santé. Le centre collaborateur compétent de l’OMS examine également les résultats avant leur publication. </p>
+  <p>Les données d’enquête déclarées par les États membres de l’OMS et par les Parties de la CCLAT de l’OMS sont vérifiées par rapport aux rapports publiés et pour en vérifier la cohérence interne. Les résultats de la modélisation, ainsi que les données d’entrée, sont partagés avec les experts de la surveillance du tabac et des politiques dans les régions de l’OMS avant d’être partagés avec les points focaux du tabac au sein des ministères de la Santé. Le centre collaborateur compétent de l’OMS examine également les résultats avant leur publication. </p>
 COVERAGE: >-
   <p><strong>Disponibilité des données :</strong></p>
 
@@ -290,19 +290,20 @@ OTHER_DOC: >-
   de Micronésie et de Polynésie ont été regroupées en une seule sous-région. </p>
 SDG_SERIES_DESCR: <p>Sans objet</p>
 CONTACT_ORGANISATION: <p>Organisation mondiale de la Santé; Secrétariat de la Convention-cadre
-  de l’OMS pour la lutte antitabac (co-gardiens)</p>
-DATA_VALIDATION: <p>Les résultats de la modélisation décrite dans la <em>Méthode de
-  calcul</em> sont comparés aux données d’entrée pour assurer un bon ajustement du
-  modèle. Les résultats et les données d’entrée sont partagés avec les pays par l’intermédiaire
-  du point focal de lutte antitabac pour une consultation avant la publication dans
-  les rapports biennaux <em>Rapport mondial de l’OMS sur les tendances de l’usage
-  du tabac 2000-2025</em> et <em>Rapport de l’OMS sur l’épidémie mondiale de tabagisme</em>.
-  Au cours de la consultation par pays, des données supplémentaires sont parfois mises
-  à la disposition de l’OMS par le pays aux fins de la modélisation de l’indicateur
-  3.a.1. </p>
+  de l’OMS pour la lutte antitabac (co-dépositaires)</p>
+DATA_VALIDATION: <p>Les résultats de la modélisation décrite dans la section <em>Méthode
+  de calcul</em> sont comparés aux données d’entrée pour assurer un bon ajustement
+  du modèle. Les résultats et les données d’entrée sont partagés avec les pays par
+  l’intermédiaire du point focal de lutte antitabac pour une consultation avant la
+  publication dans les rapports biennaux <em>Rapport mondial de l’OMS sur les tendances
+  de l’usage du tabac 2000-2025</em> et <em>Rapport de l’OMS sur l’épidémie mondiale
+  de tabagisme</em>. Au cours de la consultation par pays, des données supplémentaires
+  sont parfois mises à la disposition de l’OMS par le pays aux fins de la modélisation
+  de l’indicateur 3.a.1. </p>
 ADJUSTMENT: <p>À l’exception des ajustements effectués au cours de la modélisation,
-  décrits dans la <em>Méthode de calcul</em>, aucun autre ajustement n’est effectué.</p>
-QUALITY_MGMNT: <p>Autorisation des méthodes et publications statistiques par l’intermédiaire
+  décrits dans la section <em>Méthode de calcul</em>, aucun autre ajustement n’est
+  effectué.</p>
+QUALITY_MGMNT: <p>L'autorisation des méthodes et publications statistiques par l’intermédiaire
   de la Division des données, de l’analyse et de la mise en œuvre pour l’impact de
   l'OMS. Le respect des directives « GATHER » (<a href="http://gather-statement.org/">(en
   anglais) http://gather-statement.org/</a>) est requis pour l’autorisation. Les données,
@@ -316,7 +317,7 @@ INST_MANDATE: <p>La Convention-cadre pour la lutte antitabac de l’OMS (CCLAT) 
   avec les autorités compétentes de l’OMS, en particulier l’Initiative pour un monde
   sans tabac, de normaliser davantage les définitions et les indicateurs et de faciliter
   l’examen régulier des progrès accomplis dans la mise en œuvre de la Convention.
-  Consulter <a href="https://apps.who.int/gb/fctc/PDF/cop4/FCTC_COP4_DIV6-fr.pdf">https://apps.who.int/gb/fctc/PDF/cop4/FCTC_COP4_DIV6-fr.pdf</a>
+  Consulter <a href="https://apps.who.int/gb/fctc/PDF/cop4/FCTC_COP4_DIV6-fr.pdf">https://apps.who.int/gb/fctc/PDF/cop4/FCTC_COP4_DIV6-fr.pdf</a>.
   </p>
 CLASS_SYSTEM: "<p>Les « produits du tabac » sont définis à l'article 1 (f) de la CCLAT\
   \ de l'OMS, consulter <a href=\"https://www.who.int/fctc/text_download/fr/\">https://www.who.int/fctc/text_download/fr/</a>.\
