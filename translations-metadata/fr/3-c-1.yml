@@ -5,12 +5,13 @@ SDG_TARGET: "<p>Cible 3.c : Accroître considérablement le budget de la santé 
   \ recrutement, le perfectionnement, la formation et le maintien en poste du personnel\
   \ de santé dans les pays en développement, notamment dans les pays les moins développés\
   \ et les petits États insulaires en développement</p>"
-SDG_INDICATOR: '<p>Indicateur 3.c.1 : Densité et répartition du personnel de santé</p>'
+SDG_INDICATOR: '<p>Indicateur 3.c.1 : Densité et répartition des professionnels de
+  la santé</p>'
 META_LAST_UPDATE: '<p>2022-03-31</p>'
 SDG_CUSTODIAN_AGENCIES: |-
-  <p>Organisation mondiale de la Santé (OMS)</p>
+  <p>Département du personnel de santé, Organisation mondiale de la Santé (OMS)</p>
 STAT_CONC_DEF: >-
-  <p><strong><u>Densité du personnel de santé par profession</u> </strong></p>
+  <p><strong><u>Densité des professionnels de la santé selon la profession</u> </strong></p>
 
   <p> </p>
 
@@ -36,7 +37,7 @@ STAT_CONC_DEF: >-
 
   <p> </p>
 
-  <p><strong><u>Répartition du personnel de santé par sexe</u> </strong></p>
+  <p><strong><u>Répartition des professionnels de la santé selon le sexe</u> </strong></p>
 
   <p> </p>
 
@@ -62,23 +63,24 @@ STAT_CONC_DEF: >-
   en pourcentage de l’ensemble du personnel infirmier au niveau national. Les codes
   CITP-08 inclus dans cette catégorie sont 2221 et 3221. </p>
 SOURCE_TYPE: >-
-  <p>En réponse à WHA69.19, une plateforme de données en ligne des comptes nationaux
-  du personnel de santé (NHWA) a été développée pour faciliter la déclaration nationale.
-  En plus des rapports, la plateforme sert également d'outil analytique aux niveaux
-  national/régional et mondial. Depuis son lancement en novembre 2017, les États membres
-  sont invités à utiliser la plateforme de données des NHWA pour communiquer des données
-  sur le personnel de santé. En complément du rapport national par le biais de cette
-  plateforme, des sources supplémentaires telles que le recensement national, les
-  enquêtes sur la population active et les principales sources administratives nationales
-  et régionales sont également utilisées. La plupart des données provenant de sources
-  administratives sont tirées d'examens nationaux du secteur de la santé publiés et/ou
-  de rapports officiels des pays aux bureaux de l'OMS. </p>
+  <p>En réponse à la Soixante-neuvième Assemblée mondiale de la Santé (WHA69.19),
+  une plateforme de données en ligne des comptes nationaux du personnel de santé (NHWA)
+  a été développée pour faciliter la déclaration nationale. En plus des rapports,
+  la plateforme sert également d'outil analytique aux niveaux national/régional et
+  mondial. Depuis son lancement en novembre 2017, les États membres sont invités à
+  utiliser la plateforme de données des NHWA pour communiquer des données sur le personnel
+  de santé. En complément du rapport national par le biais de cette plateforme, des
+  sources supplémentaires telles que le recensement national, les enquêtes sur la
+  population active et les principales sources administratives nationales et régionales
+  sont également utilisées. La plupart des données provenant de sources administratives
+  sont tirées d'examens nationaux du secteur de la santé publiés et/ou de rapports
+  officiels des pays aux bureaux de l'OMS. </p>
 FREQ_COLL: |-
   <p>Processus en cours</p>
 REL_CAL_POLICY: |-
   <p>Les données sont publiées chaque année. </p>
 DATA_SOURCE: |-
-  <p>Point focal de la plateforme de données NHWA au niveau national </p>
+  <p>Correspondant de la plateforme de données NHWA au niveau national </p>
 COMPILING_ORG: |-
   <p>Organisation mondiale de la Santé (OMS)</p>
 REC_USE_LIM: >-
@@ -228,9 +230,9 @@ OTHER_DOC: >-
 
   <p> </p>
 CONTACT_ORGANISATION: "<p>Organisation mondiale de la Santé (OMS)</p>\n<p> </p>"
-UNIT_MEASURE: "<p>Densités du personnel de santé par profession : les données sont\
-  \ représentées par 10 000 habitants</p>\n<p>Répartition du personnel de santé par\
-  \ sexe : les données sont présentées en pourcentage</p>"
+UNIT_MEASURE: "<p>Densité des professionnels de la santé selon la profession : pour\
+  \ 10 000 habitants</p>\n<p>Répartition des professionnels de la santé selon le sexe\
+  \ et la profession : pourcentage (%)</p>"
 CLASS_SYSTEM: <p>Classification internationale type des professions (CITP-08)</p>
 INST_MANDATE: <p>WHA69.19 exhorte les États membres à partager un ensemble de données
   de base avec l’OMS, afin d’accroître la base de données probantes de statistiques
@@ -248,3 +250,13 @@ DOC_METHOD: <p>Les pays sont priés de consulter le Manuel sur les comptes natio
   pour obtenir des conseils sur les indicateurs et la méthodologie. </p>
 COMPARABILITY: <p><strong>Sources des divergences :</strong></p>
 ADJUSTMENT: <p>Sans objet</p>
+SDG_SERIES_DESCR: "<p>Répartition des professionnels de la santé, selon le sexe et\
+  \ le type de profession (%)</p>\n<p>Densité des professionnels de la santé, selon\
+  \ le type de profession (pour 10 000 habitants)</p>"
+COLL_METHOD: <p>On encourage les pays à adopter une approche progressive de mise en
+  œuvre de la NHWA en s’appuyant sur l’engagement multipartite aux niveaux national
+  et infranational. Les correspondants nationaux partagent les données avec l’OMS
+  par l’intermédiaire de la plateforme de données en ligne de la NHWA. La plate-forme
+  hébergée à l’OMS est conçue pour faciliter la communication de données sur les indicateurs
+  énumérés dans le manuel de la NHWA et le partage de données entre les 3 niveaux
+  de l’OMS. </p>
