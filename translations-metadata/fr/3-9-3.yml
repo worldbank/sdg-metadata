@@ -12,18 +12,18 @@ SDG_CUSTODIAN_AGENCIES: |-
   <p>Organisation mondiale de la Santé (OMS)</p>
 COMPILING_ORG: |-
   <p>Organisation mondiale de la Santé (OMS)</p>
-OTHER_DOC: "<p>(Toutes les références sont en anglais)</p>\n<p> <strong>URL:</strong>\
-  \ </p>\n<p> </p>\n<p>https://www.who.int/data/gho/data/themes/mortality-and-global-health-estimates\
-  \ </p>\n<p> <strong>Références :</strong> </p>\n<p> </p>\n<p>Définition de l’indicateur\
-  \ de l’OMS (http://apps.who.int/gho/data/node.imr.SDGPOISON?lang=en) </p>\n<p> </p>\n\
-  <p>« WHO methods and data sources for country-level causes of death, 2000-2019 »</p>\n\
-  <p>(https://www.who.int/docs/default-source/gho-documents/global-health-estimates/ghe2019_cod_methods.pdf)\
+OTHER_DOC: "<p>(Toutes les références sont en anglais)</p>\n<p><strong>URL:</strong>\
+  \ </p>\n<p><a href=\"https://www.who.int/data/gho/data/themes/mortality-and-global-health-estimates\"\
+  >https://www.who.int/data/gho/data/themes/mortality-and-global-health-estimates</a></p>\n\
+  <p><strong>Références :</strong> </p>\n<p>Définition de l’indicateur de l’OMS (http://apps.who.int/gho/data/node.imr.SDGPOISON?lang=en)\
+  \ </p>\n<p> </p>\n<p>« WHO methods and data sources for country-level causes of\
+  \ death, 2000-2019 »</p>\n<p>(https://www.who.int/docs/default-source/gho-documents/global-health-estimates/ghe2019_cod_methods.pdf)\
   \ </p>"
 COMPARABILITY: "<p><strong>Sources des divergences :</strong></p>\n<p>L'OMS est tenue,\
-  \ en vertu d'une résolution de l'Assemblée mondiale de la santé, de se concerter\
+  \ en vertu d'une résolution de l'Assemblée mondiale de la Santé, de se concerter\
   \ sur toutes les statistiques qu'elle prépare et de demander aux pays de lui faire\
-  \ part de leurs commentaires sur les données les concernant. Avant d'être publiées,\
-  \ toutes les estimations font l'objet de consultations avec les pays.</p>"
+  \ part de leurs commentaires sur les données les concernant avant de publier les\
+  \ estimations.</p>"
 COVERAGE: "<p><strong>Disponibilité des données :</strong></p>\n<p>Près de 70 pays\
   \ fournissent actuellement à l’OMS des données régulières de haute qualité sur la\
   \ mortalité par âge, sexe et cause de décès, et 58 autres pays soumettent des données\
@@ -34,15 +34,15 @@ COVERAGE: "<p><strong>Disponibilité des données :</strong></p>\n<p>Près de 70
   <p>Les données peuvent être ventilées par groupe d’âge, sexe et maladie. </p>"
 REG_AGG: "<p>Les estimations nationales du nombre de décès par cause sont additionnées\
   \ pour obtenir des agrégats régionaux et mondiaux.</p>"
-IMPUTATION: "<ul>\n  <li><strong>Au niveau national :</strong></li>\n</ul>\n<p> </p>\n\
-  <p>Pour les pays disposant de statistiques de grande qualité sur les causes de décès,\
+IMPUTATION: "<ul>\n  <li><strong>Au niveau national :</strong></li>\n</ul>\n<p>Pour\
+  \ les pays disposant de statistiques de grande qualité sur les causes de décès,\
   \ une interpolation/extrapolation a été effectuée pour les années-pays manquantes;\
   \ pour les pays où les données sur les causes de décès sont de faible qualité ou\
   \ inexistantes, la modélisation a été utilisée. La méthodologie complète (en anglais)\
   \ peut être trouvée à l'adresse : </p>\n<p>« WHO methods and data sources for country-level\
   \ causes of death 2000-2019 » (https://www.who.int/docs/default-source/gho-documents/global-health-estimates/ghe2019_cod_methods.pdf)</p>\n\
-  <ul>\n  <li><strong>Aux niveaux régional et mondial :</strong></li>\n</ul>\n<p>\
-  \ </p>\n<p>Sans objet </p>"
+  <ul>\n  <li><strong>Aux niveaux régional et mondial :</strong></li>\n</ul>\n<p>Sans\
+  \ objet </p>"
 DATA_COMP: "<p>Les méthodes assorties de normes internationales convenues ont été\
   \ élaborées, examinées et publiées dans divers documents. </p>\n<p> </p>\n<p>Pour\
   \ les pays dotés d’un système d’enregistrement de l’état civil de haute qualité,\
@@ -53,10 +53,10 @@ DATA_COMP: "<p>Les méthodes assorties de normes internationales convenues ont �
   <p> </p>\n<p>Pour les pays qui n’ont pas de données d’enregistrement des décès de\
   \ haute qualité, les estimations des causes de décès sont calculées à l’aide d’autres\
   \ données, y compris les enquêtes auprès des ménages avec autopsie verbale, les\
-  \ systèmes d’enregistrement par échantillonnage ou sentinelle, les études spéciales\
-  \ </p>\n<p>La méthodologie complète (en anglais) peut être trouvée à l'adresse :\
-  \ <a href=\"https://www.who.int/docs/default-source/gho-documents/global-health-estimates/ghe2019_cod_methods.pdf\"\
-  >https://www.who.int/docs/default-source/gho-documents/global-health-estimates/ghe2019_cod_methods.pdf</a></p>"
+  \ systèmes d’enregistrement par échantillonnage ou sentinelle, les études spéciales.\
+  \ La méthodologie complète (en anglais) peut être trouvée à l'adresse : <a href=\"\
+  https://www.who.int/docs/default-source/gho-documents/global-health-estimates/ghe2019_cod_methods.pdf\"\
+  >https://www.who.int/docs/default-source/gho-documents/global-health-estimates/ghe2019_cod_methods.pdf</a>.</p>"
 REC_USE_LIM: "<p>Les données sur les décès sont largement disponibles dans les pays\
   \ à partir des données d'enregistrement des décès ou des systèmes d'enregistrement\
   \ par échantillonnage. Toutefois, des données de bonne qualité ne sont pas actuellement\
@@ -64,12 +64,12 @@ REC_USE_LIM: "<p>Les données sur les décès sont largement disponibles dans le
   \ santé et réduire les décès évitables. Pour les pays qui ne disposent pas de tels\
   \ systèmes d'enregistrement, les données doivent être complétées par d'autres types\
   \ d'information. </p>"
-RATIONALE: "<p>La mesure du taux de mortalité par empoisonnement involontaire donne\
+RATIONALE: "<p>La mesure du taux de mortalité par empoisonnement accidentel donne\
   \ une indication de l'ampleur de la gestion inadéquate des produits chimiques dangereux\
   \ et de la pollution, et de l'efficacité du système de santé d'un pays. </p>"
-DATA_SOURCE: "<p>Bureaux nationaux de statistique, divers ministères de tutelle et\
-  \ bases de données couvrant l'état civil avec une couverture complète et un certificat\
-  \ médical de la cause du décès.</p>"
+DATA_SOURCE: "<p>Bureaux nationaux de statistique et différents ministères et bases\
+  \ de données couvrant l'enregistrement à l'état civil et offrant une couverture\
+  \ complète ainsi que la certification des causes de décès.</p>"
 REL_CAL_POLICY: "<p>Fin de 2020</p>"
 FREQ_COLL: "<p>L’OMS envoie un courriel deux fois par an demandant aux États membres\
   \ de fournir des données tabulaires sur l’enregistrement des décès (y compris toutes\
@@ -87,13 +87,13 @@ SOURCE_TYPE: "<p>Les données utilisées pour l'estimation comprennent (a) des d
   \ de données possibles sont les enquêtes auprès des ménages avec autopsie verbale,\
   \ les systèmes d'enregistrement par échantillon ou par sentinelle, les études spéciales\
   \ et les systèmes de surveillance.</p>"
-STAT_CONC_DEF: "<p><strong>Définition :</strong> </p>\n<p> </p>\n<p>Taux de mortalité\
-  \ attribué aux empoisonnements non intentionnels, défini comme le nombre de décès\
-  \ dus à des empoisonnements non intentionnels au cours d'une année, divisé par la\
-  \ population et multiplié par 100 000. </p>\n<p> </p>\n<p><strong>Concept :</strong>\
-  \ </p>\n<p> </p>\n<p>Taux de mortalité dans le pays par empoisonnements accidentels\
-  \ par an. Les codes de la CIM-10 correspondant à l'indicateur comprennent X40, X43,\
-  \ X46-X48, X49. </p>"
+STAT_CONC_DEF: "<p><strong>Définition :</strong> </p>\n<p>Taux de mortalité attribué\
+  \ aux empoisonnements accidentels , défini comme le nombre de décès dus à des empoisonnements\
+  \ accidentels au cours d'une année, divisé par la population et multiplié par 100 000.\
+  \ </p>\n<p> </p>\n<p><strong>Concept :</strong> </p>\n<p>Taux de mortalité dans\
+  \ le pays par empoisonnements accidentels par an. Les codes de la dixième révision\
+  \ de la Classification internationale des maladies (CIM-10) correspondant à l'indicateur\
+  \ comprennent X40, X43, X46-X48, X49. </p>"
 SDG_RELATED_INDICATORS: "<p>Indicateur 7.1.2 : Proportion de la population utilisant\
   \ principalement des carburants et des technologies propres</p>"
 CONTACT_ORGANISATION: <p>Organisation mondiale de la Santé (OMS) </p>
@@ -105,12 +105,12 @@ INST_MANDATE: <p>Conformément à l’article 64 de sa constitution, l’OMS est
   la mortalité à l’OMS depuis le début des années cinquante et cette activité se poursuit
   jusqu’à aujourd’hui. </p>
 DATA_VALIDATION: <p>Les points focaux désignés par le pays (généralement au ministère
-  de la santé ou au bureau national de statistique) ont été consultés au sujet du
+  de la Santé ou au bureau national de statistique) ont été consultés au sujet du
   nombre de décès, dans le cadre de l'ensemble complet des causes de décès avant la
   publication.</p>
 QUALITY_MGMNT: <p>L’Organisation mondiale de la Santé (OMS) a créé un Groupe de référence
-  sur les statistiques de la santé en 2013 pour fournir des conseils sur les statistiques
-  de la santé de la population à l’OMS, en mettant l’accent sur les questions méthodologiques
+  sur les statistiques de la santé en 2013 pour lui fournir des conseils sur les statistiques
+  de la santé de la population, en mettant l’accent sur les questions méthodologiques
   et de données liées à la mesure de la mortalité et aux tendances de cause de décès.
   Le groupe a facilité l’interaction entre les institutions multilatérales de développement
   et d’autres groupes universitaires indépendants avec des groupes d’experts de l’OMS
@@ -120,34 +120,34 @@ ADJUSTMENT: <p>Les décès de sexe inconnu ont été redistribués au prorata au
   groupes de cause-âge de sexe connu, puis les décès d’âge inconnu ont été redistribués
   au prorata dans les groupes de cause-sexe d’âge connu.</p>
 QUALITY_ASSURE: <p>Les principes de données de l’Organisation mondiale de la Santé
-  (OMS) fournissent une base pour réaffirmer continuellement la confiance envers les
-  informations et les preuves de l’OMS au sujet de la santé publique. Les cinq principes
-  sont conçus pour fournir un cadre pour la gouvernance des données pour l’OMS. Les
-  principes sont principalement destinés au personnel de l’OMS dans toutes les parties
-  de l’Organisation afin d’aider à définir les valeurs et les normes qui régissent
-  la manière dont les données qui entrent, circulent et sortent de l’OMS sont recueillies,
-  traitées, partagées et utilisées. Ces principes sont rendus publics afin qu’ils
-  puissent être utilisés et mentionnés par les États membres et les acteurs non étatiques
-  collaborant avec l’OMS. </p>
+  (OMS) fournissent une base pour réaffirmer continuellement la confiance envers ses
+  informations et ses preuves au sujet de la santé publique. Les cinq principes sont
+  conçus pour fournir un cadre pour la gouvernance des données pour l’OMS. Les principes
+  sont principalement destinés à tout le personnel afin d’aider à définir les valeurs
+  et les normes qui régissent la manière dont les données qui entrent, circulent et
+  sortent de l’organisation sont recueillies, traitées, partagées et utilisées. Ces
+  principes sont rendus publics afin qu’ils puissent être utilisés et mentionnés par
+  les États membres et les acteurs non étatiques collaborant avec l’organisation.
+  </p>
 UNIT_MEASURE: <p>Taux pour 100 000 habitants </p>
 QUALITY_ASSMNT: <p>Toutes les déclarations et allégations faites officiellement par
   le Siège de l’OMS concernant les estimations de l’état de santé au niveau de la
-  population (pays, région, monde – par exemple, la mortalité, l’incidence, la prévalence,
+  population (pays, région, monde – p. ex., la mortalité, l’incidence, la prévalence,
   le fardeau de morbidité) sont approuvées par le Département des données et de l’analyse
   (DDA) par le biais du processus d’autorisation exécutive. Cela inclut les instructions
-  de « GATHER » qui fait la promotion des pratiques exemplaires en matière de déclaration
-  des estimations de la santé à l’aide d’une liste de contrôle de 18 éléments qui
-  devraient être déclarés chaque fois que de nouvelles estimations de la santé mondiale
-  sont publiées, y compris des descriptions des données d’entrée et des méthodes d’estimation.
-  Élaborées par un groupe de travail convoqué par l’Organisation mondiale de la Santé,
-  les lignes directrices visent à définir et à promouvoir les bonnes pratiques en
-  matière de déclaration des estimations de la santé.</p>
-DOC_METHOD: <p>Les catégories de causes de décès (y compris les empoisonnements non
-  intentionnels) suivent les définitions de la Classification internationale des maladies,
-  dixième révision (CIM-10). Veuillez consulter le tableau A de l’annexe du document
-  (en anglais) « WHO methods and data sources for country-level causes of death 2000-2019 »
-  (https://www.who.int/docs/default-source/gho-documents/global-health-estimates/ghe2019_cod_methods.pdf)</p>
+  de « Guidelines for Accurate and Transparent Health Estimates Reporting (GATHER) »
+  qui fait la promotion des pratiques exemplaires en matière de déclaration des estimations
+  de la santé à l’aide d’une liste de contrôle de 18 éléments qui devraient être déclarés
+  chaque fois que de nouvelles estimations de la santé mondiale sont publiées, y compris
+  des descriptions des données d’entrée et des méthodes d’estimation. Élaborées par
+  un groupe de travail convoqué par l’Organisation mondiale de la Santé, les lignes
+  directrices visent à définir et à promouvoir les bonnes pratiques en matière de
+  déclaration des estimations de la santé.</p>
+DOC_METHOD: <p>Les catégories de causes de décès (y compris les empoisonnements accidentels)
+  suivent les définitions de la Classification internationale des maladies, dixième
+  révision (CIM-10). Veuillez consulter le tableau A de l’annexe du document (en anglais)
+  « WHO methods and data sources for country-level causes of death 2000-2019 » (https://www.who.int/docs/default-source/gho-documents/global-health-estimates/ghe2019_cod_methods.pdf).</p>
 CLASS_SYSTEM: <p>Les empoisonnements sont définis en termes de la Classification internationale
-  des maladies, dixième révision (CIM-10) (voir 2.a)</p>
+  des maladies, dixième révision (CIM-10) (consulter la section 2.a).</p>
 SDG_SERIES_DESCR: <p>Taux de mortalité attribuable aux empoisonnements accidentels,
   selon le sexe (décès pour 100 000 habitants) SH_STA_POISN</p>
