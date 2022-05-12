@@ -256,19 +256,19 @@ SOURCE_TYPE: "<p>Une recherche systématique sur les articles publiés entre le 
   \ les données sont déclarées chaque année dans le cadre du processus de déclaration\
   \ conjointe OMS/UNICEF. <a href=\"http://www.who.int/entity/immunization/monitoring_surveillance/data/year_vaccine_introduction.xls?ua=1\"\
   >http://www.who.int/entity/immunization/monitoring_surveillance/data/year_vaccine_introduction.xls?ua=1\
-  \ (en anglais)</a> </li>.\n  <li>Période à laquelle l'étude a été menée : pré-vaccination\
+  \ (en anglais)</a>. </li>\n  <li>Période à laquelle l'étude a été menée : pré-vaccination\
   \ ou post-vaccination. Cette période est déterminée en fonction de l'année d'introduction\
   \ dans l'ensemble du pays. </li>\n  <li>Série d'estimations de couverture : les\
   \ données sont obtenues auprès du WUENIC (en anglais) : <a href=\"http://apps.who.int/immunization_monitoring/globalsummary/timeseries/tswucoveragebcg.html\"\
-  \ target=\"_blank\">http://apps.who.int/immunization_monitoring/globalsummary/timeseries/tswucoveragebcg.html</a>\
-  \ </li>.\n  <li>Le PIB par habitant a été utilisé à partir des données de l'ONU\
-  \ qui compile les informations de la Source de la Banque mondiale <a href=\"http://data.un.org/Data.aspx?q=GDP&amp;d=SNAAMA&amp;f=grID%3a101%3bcurrID%3aUSD%3bpcFlag%3a1\"\
+  \ target=\"_blank\">http://apps.who.int/immunization_monitoring/globalsummary/timeseries/tswucoveragebcg.html</a>.\
+  \ </li>\n  <li>Le PIB par habitant a été utilisé à partir des données de l'ONU qui\
+  \ compile les informations de la Source de la Banque mondiale <a href=\"http://data.un.org/Data.aspx?q=GDP&amp;d=SNAAMA&amp;f=grID%3a101%3bcurrID%3aUSD%3bpcFlag%3a1\"\
   \ target=\"_blank\">http://data.un.org/Data.aspx?q=GDP&d=SNAAMA&f=grID%3a101%3bcurrID%3aUSD%3bpcFlag%3a1\
-  \ (en anglais)</a> ), </li>.\n  <li>Données de longitude et de latitude (source\
-  \ : <a href=\"http://www.google.com/\" target=\"_blank\">www.google.com</a>). </li>\n\
+  \ (en anglais)</a> ). </li>\n  <li>Données de longitude et de latitude (source :\
+  \ <a href=\"http://www.google.com/\" target=\"_blank\">www.google.com</a>). </li>\n\
   \  <li>Les données sur la structure et la taille de la population pour chaque pays\
   \ provenaient de la Division de la population de l'ONU : <a href=\"https://www.un.org/development/desa/pd/fr\"\
-  >https://www.un.org/development/desa/pd/fr</a> </li>\n</ol>"
+  >https://www.un.org/development/desa/pd/fr</a>. </li>\n</ol>"
 OTHER_DOC: "<p><strong>Des enquêtes sérologiques sont disponibles pour chaque État\
   \ membre et des références sont fournies pour chaque point de données. </strong></p>\n\
   <p> <strong>URL : </strong><a href=\"http://whohbsagdashboard.com/#global-strategies\"\
@@ -287,26 +287,27 @@ COMPARABILITY: "<p>Cet ensemble de données représente les meilleures estimatio
   \ de la rareté des données de certains pays, les estimations sont plus robustes\
   \ au niveau mondial et régional qu’au niveau national, de sorte que l’accent devrait\
   \ être mis sur les intervalles de confiance de 95% et pas seulement sur les estimations\
-  \ ponctuelles rapportées. </p>\n<p>Sources des divergences :</p>\n<p>Les critères\
-  \ d’inclusion ou d’exclusion du type d’études de séroprévalence. Des études observationnelles\
-  \ sur la séroprévalence chronique de l’infection par le VHB (prévalence de l’AgHBs),\
-  \ réalisées dans la population générale ou chez des donneurs de sang, des travailleurs\
-  \ de la santé (TS) et des femmes enceintes ont été envisagées. Les études ont été\
-  \ exclues s’il s’agissait de revues systématiques ou de méta-analyses, de rapports\
-  \ de surveillance, d’études de cas, de lettres ou de correspondance, ou si elles\
-  \ ne contenaient pas de données de séroprévalence de l'AgHBs. Les études ont également\
-  \ été exclues si elles rapportaient exclusivement des estimations de prévalence\
-  \ pour les groupes de population à risque élevé (p. ex., les migrants et les réfugiés).\
-  \ </p>"
-COVERAGE: "<p>Disponibilité des données : </p>\n<p>Des estimations sont disponibles\
-  \ pour 194 États membres et pour les six régions de l'OMS, ainsi qu'au niveau mondial.</p>\n\
-  <p>Séries chronologiques : </p>\n<p>Des estimations sont disponibles pour l'ère\
-  \ pré-vaccinale, 2015, 2018 et 2020. </p>\n<p>Désagrégation : </p>\n<p>Les variables\
-  \ disponibles sont : groupes d'âge (c'est-à-dire les moins de cinq ans, les cinq\
-  \ ans et plus (bien que ces estimations ne sont pas déclarées) et la population\
-  \ générale); sexe / genre si possible. Bien que les données concernant ce dernier\
-  \ point soient rares. En outre, les données sont disponibles aux niveaux national,\
-  \ régional et mondial. </p>\n<p> </p>"
+  \ ponctuelles rapportées. </p>\n<p><strong>Sources des divergences :</strong></p>\n\
+  <p>Les critères d’inclusion ou d’exclusion du type d’études de séroprévalence. Des\
+  \ études observationnelles sur la séroprévalence chronique de l’infection par le\
+  \ VHB (prévalence de l’AgHBs), réalisées dans la population générale ou chez des\
+  \ donneurs de sang, des travailleurs de la santé (TS) et des femmes enceintes ont\
+  \ été envisagées. Les études ont été exclues s’il s’agissait de revues systématiques\
+  \ ou de méta-analyses, de rapports de surveillance, d’études de cas, de lettres\
+  \ ou de correspondance, ou si elles ne contenaient pas de données de séroprévalence\
+  \ de l'AgHBs. Les études ont également été exclues si elles rapportaient exclusivement\
+  \ des estimations de prévalence pour les groupes de population à risque élevé (p.\
+  \ ex., les migrants et les réfugiés). </p>"
+COVERAGE: "<p><strong>Disponibilité des données :</strong></p>\n<p>Des estimations\
+  \ sont disponibles pour 194 États membres et pour les six régions de l'OMS, ainsi\
+  \ qu'au niveau mondial.</p>\n<p><strong>Séries chronologiques :</strong></p>\n<p>Des\
+  \ estimations sont disponibles pour l'ère pré-vaccinale, 2015, 2018 et 2020. </p>\n\
+  <p><strong>Désagrégation :</strong></p>\n<p>Les variables disponibles sont : groupes\
+  \ d'âge (c'est-à-dire les moins de cinq ans, les cinq ans et plus (bien que ces\
+  \ estimations ne sont pas déclarées) et la population générale); sexe / genre si\
+  \ possible. Bien que les données concernant ce dernier point soient rares. En outre,\
+  \ les données sont disponibles aux niveaux national, régional et mondial. </p>\n\
+  <p> </p>"
 QUALITY_ASSURE: "<p><strong>Assurance de la qualité : </strong></p>\n<ul>\n  <li>Les\
   \ estimations de l'OMS utilisent une méthodologie examinée par le Comité consultatif\
   \ de recherche sur la mise en œuvre de la vaccination et des vaccins et présentée\
@@ -325,8 +326,8 @@ DOC_METHOD: "<p>Sans objet. Les estimations proviennent du modèle mathématique
   \ le manque de données pour certaines régions et les différentes méthodes de mesure\
   \ posent des problèmes qui sont souvent résolus en utilisant des techniques de modélisation\
   \ statistique pour générer des estimations cohérentes basées sur des sources de\
-  \ données souvent disparates. <u><a href=\"http://gather-statement.org/&quot; \\\
-  t &quot;_blank\">http://gather-statement.org/</a></u> </p>"
+  \ données souvent disparates. <a href=\"http://gather-statement.org/\" target=\"\
+  _blank\"><u>(en anglais) http://gather-statement.org/</u></a> </p>"
 REG_AGG: '<p><strong>Sources des divergences :</strong> </p>
 
   <p>Les estimations ne sont pas toujours les mêmes que les estimations nationales
@@ -345,30 +346,30 @@ REG_AGG: '<p><strong>Sources des divergences :</strong> </p>
 
   <p>Les estimations nationales peuvent provenir de certaines enquêtes sérologiques.
   </p>'
-IMPUTATION: "<ul>\n  <li>Au niveau national : </li>\n</ul>\n<p>Toutes les valeurs\
-  \ représentent les meilleures estimations de l'indicateur de l'antigène de surface\
-  \ de l'hépatite B et visent à faciliter la comparabilité entre les pays et dans\
-  \ le temps. Les estimations ne sont pas toujours les mêmes que les estimations nationales\
-  \ officielles, en raison de l'utilisation de méthodologies et de sources de données\
-  \ différentes. Des estimations sont fournies pour 194 États membres de l'OMS. L'analyse\
-  \ a été effectuée pour les groupes d'âge de 0 à 5 ans et pour la population générale.\
-  \ En raison de la rareté des données de certains pays, les estimations sont plus\
-  \ robustes au niveau mondial et régional qu'au niveau national, c'est pourquoi nous\
-  \ suggérons aux pays de se concentrer sur les intervalles de confiance de 95% et\
-  \ pas seulement sur les estimations ponctuelles rapportées. </p>\n<p> </p>\n<p>Une\
-  \ revue de littérature approfondie et solide a été entreprise pour trouver des études\
-  \ sur les 194 États membres de l'OMS, les différents groupes d'âge et le statut\
-  \ de la vaccination. Nous avons mis à jour l'examen systématique de Schweitzer et\
-  \ coll., 2015 qui comprenait une recherche systématique sur les articles publiés\
-  \ entre le 1er janvier 1965 et le 23 octobre 2013. Nous avons mis à jour la recherche\
-  \ systématique pour inclure les articles publiés entre le 23 octobre 2013 et le\
-  \ 30 octobre 2018 dans les bases de données Embase, PubMed, Global Index Medicus,\
-  \ Popline et Web of Science. </p>\n<p> </p>\n<p>Pour chaque pays disposant de données\
-  \ de prévalence, une position centrale pondérée a été calculée en fonction de la\
-  \ taille et du lieu de chaque étude. Pour les pays ne disposant pas de données,\
-  \ nous avons utilisé le centroïde de la population. Veuillez consulter l'explication\
-  \ détaillée ci-dessus. </p>\n<p> </p>\n<ul>\n  <li>Aux niveaux régional et mondial\
-  \ : </li>\n</ul>\n<p>Idem à ci-dessus </p>"
+IMPUTATION: "<ul>\n  <li><strong>Au niveau national :</strong></li>\n</ul>\n<p>Toutes\
+  \ les valeurs représentent les meilleures estimations de l'indicateur de l'antigène\
+  \ de surface de l'hépatite B et visent à faciliter la comparabilité entre les pays\
+  \ et dans le temps. Les estimations ne sont pas toujours les mêmes que les estimations\
+  \ nationales officielles, en raison de l'utilisation de méthodologies et de sources\
+  \ de données différentes. Des estimations sont fournies pour 194 États membres de\
+  \ l'OMS. L'analyse a été effectuée pour les groupes d'âge de 0 à 5 ans et pour la\
+  \ population générale. En raison de la rareté des données de certains pays, les\
+  \ estimations sont plus robustes au niveau mondial et régional qu'au niveau national,\
+  \ c'est pourquoi nous suggérons aux pays de se concentrer sur les intervalles de\
+  \ confiance de 95% et pas seulement sur les estimations ponctuelles rapportées.\
+  \ </p>\n<p> </p>\n<p>Une revue de littérature approfondie et solide a été entreprise\
+  \ pour trouver des études sur les 194 États membres de l'OMS, les différents groupes\
+  \ d'âge et le statut de la vaccination. Nous avons mis à jour l'examen systématique\
+  \ de Schweitzer et coll., 2015 qui comprenait une recherche systématique sur les\
+  \ articles publiés entre le 1er janvier 1965 et le 23 octobre 2013. Nous avons mis\
+  \ à jour la recherche systématique pour inclure les articles publiés entre le 23\
+  \ octobre 2013 et le 30 octobre 2018 dans les bases de données Embase, PubMed, Global\
+  \ Index Medicus, Popline et Web of Science. </p>\n<p> </p>\n<p>Pour chaque pays\
+  \ disposant de données de prévalence, une position centrale pondérée a été calculée\
+  \ en fonction de la taille et du lieu de chaque étude. Pour les pays ne disposant\
+  \ pas de données, nous avons utilisé le centroïde de la population. Veuillez consulter\
+  \ l'explication détaillée ci-dessus. </p>\n<p> </p>\n<ul>\n  <li><strong>Aux niveaux\
+  \ régional et mondial :</strong></li>\n</ul>\n<p>Idem à ci-dessus. </p>"
 REC_USE_LIM: "<p>Les principales limites de l'analyse sont que, malgré un examen exhaustif\
   \ de la littérature, il existe moins de données sur les études post-vaccinales que\
   \ sur les études pré-vaccinales. Le modèle s'inspire largement des études pré-vaccinales\
@@ -409,7 +410,7 @@ COLL_METHOD: "<p>L'OMS donne aux États membres la possibilité d'examiner et de
   \ résumé de la méthodologie. Ils disposent de suffisamment de temps pour fournir\
   \ toute étude supplémentaire à examiner en fonction des critères d'inclusion et\
   \ de sélection. </p>"
-STAT_CONC_DEF: "<p> <strong>Définition :</strong> </p>\n<p>Cet indicateur est mesuré\
+STAT_CONC_DEF: "<p><strong>Définition :</strong></p>\n<p>Cet indicateur est mesuré\
   \ indirectement par la proportion d’enfants de 5 ans qui ont développé une infection\
   \ chronique par le VHB (c.-à-d. la proportion qui est positive pour un marqueur\
   \ d’infection appelé antigène de surface de l’hépatite B [AgHBs]). <sup>1</sup>\
@@ -417,19 +418,18 @@ STAT_CONC_DEF: "<p> <strong>Définition :</strong> </p>\n<p>Cet indicateur est m
   \ du virus. Un test positif pour AgHBs indique une infection active par le VHB.\
   \ La réponse immunitaire à l’AgHBs fournit la base de l’immunité contre le VHB,\
   \ et l’AgHBs est le composant principal de l’hépatite B. <sup>2</sup> </p>\n<p>\
-  \ </p>\n<p> <strong>Concepts :</strong> </p>\n<p>Il n’est pas possible, pour des\
-  \ raisons cliniques, de différencier l’hépatite B de l’hépatite causée par d’autres\
-  \ agents viraux, par conséquent, la confirmation en laboratoire du diagnostic est\
-  \ essentielle. L’antigène de surface de l’hépatite B est le test d’hépatite B le\
-  \ plus courant. La présence d’AgHBs dans le sérum indique que le patient a contracté\
-  \ une infection par le VHB. La mesure des niveaux de AgHBs a été normalisée en UI/ml.\
-  \ Le test est utilisé pour identifier les personnes à risque de propagation de la\
-  \ maladie. L’AgHBs, un antigène de la couche virale du VHB, est produit en grande\
-  \ quantité dans le cytoplasme des cellules infectées et continue d’être produit\
-  \ chez les patients atteints d’une infection chronique et active par le VHB. La\
-  \ positivité documentée de l’AgHBs dans le sérum pendant 6 mois ou plus suggère\
-  \ un VHB chronique avec une faible probabilité de résolution spontanée ultérieure.\
-  \ </p>"
+  \ </p>\n<p><strong>Concepts :</strong></p>\n<p>Il n’est pas possible, pour des raisons\
+  \ cliniques, de différencier l’hépatite B de l’hépatite causée par d’autres agents\
+  \ viraux, par conséquent, la confirmation en laboratoire du diagnostic est essentielle.\
+  \ L’antigène de surface de l’hépatite B est le test d’hépatite B le plus courant.\
+  \ La présence d’AgHBs dans le sérum indique que le patient a contracté une infection\
+  \ par le VHB. La mesure des niveaux de AgHBs a été normalisée en UI/ml. Le test\
+  \ est utilisé pour identifier les personnes à risque de propagation de la maladie.\
+  \ L’AgHBs, un antigène de la couche virale du VHB, est produit en grande quantité\
+  \ dans le cytoplasme des cellules infectées et continue d’être produit chez les\
+  \ patients atteints d’une infection chronique et active par le VHB. La positivité\
+  \ documentée de l’AgHBs dans le sérum pendant 6 mois ou plus suggère un VHB chronique\
+  \ avec une faible probabilité de résolution spontanée ultérieure. </p>"
 SDG_CUSTODIAN_AGENCIES: "<p>Organisation mondiale de la Santé </p>"
 META_LAST_UPDATE: '<p>2021-04-01</p>'
 SDG_SERIES_DESCR: <p>Sans objet</p>

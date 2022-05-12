@@ -248,6 +248,10 @@ DATA_COMP: >-
               <mi>u</mi>
               <mi>s</mi>
               <mi mathvariant="normal">&amp;nbsp;</mi>
+              <mi>p</mi>
+              <mi>a</mi>
+              <mi>r</mi>
+              <mi mathvariant="normal">&amp;nbsp;</mi>
               <mi>f</mi>
               <mi>e</mi>
               <mi>m</mi>
@@ -290,6 +294,10 @@ DATA_COMP: >-
           <mi>u</mi>
           <mi>s</mi>
           <mi mathvariant="normal">&amp;nbsp;</mi>
+          <mi>p</mi>
+          <mi>a</mi>
+          <mi>r</mi>
+          <mi mathvariant="normal">&amp;nbsp;</mi>
           <mi>f</mi>
           <mi>e</mi>
           <mi>m</mi>
@@ -314,9 +322,9 @@ DATA_COMP: >-
 
   <p>%</p>
 IMPUTATION: |-
-  <p>&#x2022; <strong>Au niveau national :</strong></p>
+  <p><strong>&#x2022; Au niveau national :</strong></p>
   <p>Non imputées</p>
-  <p>&#x2022; <strong>Aux niveaux régional et mondial :</strong></p>
+  <p><strong>&#x2022; Aux niveaux régional et mondial :</strong></p>
   <p>Non imputées</p>
 COVERAGE: >-
   <p><strong>Disponibilité des données :</strong></p>

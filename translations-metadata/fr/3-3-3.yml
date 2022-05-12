@@ -4,13 +4,12 @@ SDG_GOAL: >-
 SDG_TARGET: "<p>Cible 3.3 : D’ici 2030, mettre fin à l’épidémie de sida, à la tuberculose,\
   \ au paludisme et aux maladies tropicales négligées et combattre l’hépatite, les\
   \ maladies transmises par l’eau et d'autres maladies transmissibles </p>"
-SDG_INDICATOR: "<p>Indicateur 3.3.3 : Incidence du paludisme pour 1 000 habitants\
-  \ </p>"
+SDG_INDICATOR: "<p>Indicateur 3.3.3 : Incidence du paludisme pour 1 000 habitants</p>"
 OTHER_DOC: "<p>(Toutes les références sont en anglais)</p>\n<p> <strong>URL :</strong>\
-  \ </p>\n<p>https://www.who.int/publications/i/item/9789240015791 </p>\n<p> </p>\n\
-  <p> <strong>Références :</strong> </p>\n<p>1. Organisation mondiale de la Santé.\
-  \ Rapport mondial sur le paludisme 2020. </p>\n<p>2. Organisation mondiale de la\
-  \ Santé. Rapport mondial sur le paludisme 2008 [Internet]. Genève : Organisation\
+  \ </p>\n<p>https://www.who.int/teams/global-malaria-programme/reports/world-malaria-report-2021</p>\n\
+  <p> </p>\n<p> <strong>Références :</strong> </p>\n<p>1. Organisation mondiale de\
+  \ la Santé. Rapport mondial sur le paludisme 2021. </p>\n<p>2. Organisation mondiale\
+  \ de la Santé. Rapport mondial sur le paludisme 2008 [Internet]. Genève : Organisation\
   \ mondiale de la Santé; 2008. Disponible à l'adresse : http://apps.who.int/iris/bitstream/10665/43939/1/9789241563697_eng.pdf\
   \ </p>\n<p>3. Cibulskis RE, Aregawi M, Williams R, Otten M, Dye C. « Worldwide Incidence\
   \ of Malaria in 2009: Estimates, Time Trends, and a Critique of Methods ». Mueller\
@@ -27,112 +26,130 @@ DATA_COMP: "<p>L’incidence du paludisme (1) est exprimée par le nombre de nou
   \ précisément, le pays estime quelle est la proportion totale de la population qui\
   \ est à risque de paludisme, puis, pour chaque année, la population totale à risque\
   \ est estimée comme la population de l’ONU pour cette année, multipliée par la proportion\
-  \ de la population à risque au départ.</p>\n<p> </p>\n<p>Le nombre total de nouveaux\
-  \ cas, T, est estimé à partir du nombre de cas de paludisme signalés par un ministère\
-  \ de la santé qui est ajusté pour tenir compte (i) de l’incomplétude des systèmes\
-  \ de déclaration, (ii) des patients cherchant un traitement dans le secteur privé,\
-  \ de l’automédication ou ne cherchant pas du tout un traitement, et (iii) d’un surdiagnostic\
-  \ potentiel dû à l’absence de confirmation en laboratoire des cas. La procédure,\
-  \ qui est décrite dans le rapport <em>World Malaria Report 2009</em> (2), combine\
-  \ les données rapportées par les PNLP (cas signalés, exhaustivité de déclaration\
-  \ et probabilité que les cas soient positifs au parasite) avec des données obtenues\
-  \ à partir d’enquêtes auprès des ménages représentatives à l’échelle nationale sur\
-  \ l’utilisation des services de santé. Brièvement, </p>\n<p> </p>\n<p>T=(a+(c x\
-  \ e)/d) x (1+h/g+((1 - g - h)/2)/g)</p>\n<p> </p>\n<p>où : <br>a est le nombre de\
-  \ cas de paludisme confirmés dans le secteur public <br>b est le nombre de cas suspects\
-  \ testés <br>c est le nombre de cas présumés (non testés mais traités comme du paludisme)\
-  \ <br>d est l’exhaustivité des déclarations <br>e est le taux de positivité des\
-  \ tests (fraction positive du paludisme) = a/b <br>f est le nombre de cas estimés\
-  \ dans le secteur public, calculé avec (a + (c x e))/d <br>g est la fraction d'individus\
-  \ qui demandent un traitement dans le secteur public <br>h est la fraction d'individus\
-  \ qui demandent un traitement dans le secteur privé <br>i est la fraction d'individus\
-  \ qui ne demandent pas de traitement, calculée avec (1 - g - h)/2 <br>j est le nombre\
-  \ de cas dans le secteur privé, calculé avec f x h/g <br>k est le nombre de cas\
-  \ pas dans le secteur privé et pas dans le secteur public, calculé avec f x i/g\
-  \ <br>T est le nombre total de cas, calculé avec f + j + k.</p>\n<p> </p>\n<p>Pour\
-  \ estimer l’incertitude entourant le nombre de cas, on a supposé que le taux de\
-  \ positivité des tests avait une distribution normale centrée sur la valeur du <em>Taux\
-  \ de positivité du test</em> et l’écart type défini comme</p>\n<p>0.244 x Taux de\
-  \ positivité des tests<sup>0.5547</sup></p>\n<p>et tronqué pour être dans la plage\
-  \ 0, 1. On a supposé que l’exhaustivité des déclarations comportait l’une des trois\
-  \ distributions suivantes, selon la fourchette ou la valeur déclarée par le PNLP.\
-  \ Si la plage était supérieure à 80 %, la distribution était supposée triangulaire,\
-  \ avec des limites de 0,8 et 1 et le pic à 0,8. Si la plage était supérieure à 50\
-  \ %, la distribution était supposée rectangulaire, avec des limites de 0,5 et 0,8.\
-  \ Enfin, si la plage était inférieure à 50 %, la distribution était supposée triangulaire,\
-  \ avec des limites de 0 et 0,5 et le pic à 0,5 (3) . Si l’exhaustivité de la déclaration\
-  \ était déclarée en tant que valeur et était supérieure à 80 %, une distribution\
-  \ bêta a été supposée avec une valeur moyenne de la valeur déclarée (maximum de\
-  \ 95 %) et des intervalles de confiance (IC) de 5 % autour de la valeur moyenne.\
-  \ On a supposé que les proportions d’enfants pour lesquels des soins étaient recherchés\
-  \ dans le secteur privé et dans le secteur public avaient une distribution bêta,\
-  \ la valeur moyenne étant la valeur estimée dans l’enquête et l’écart type calculé\
-  \ à partir de la fourchette des intervalles de confiance (IC) estimés à 95 % divisés\
-  \ par 4. La proportion d’enfants pour lesquels la prise en charge n’a pas été demandée\
-  \ a été supposée avoir une distribution rectangulaire, la limite inférieure 0 et\
-  \ la limite supérieure étant calculée comme 1 moins la proportion qui a demandé\
-  \ des soins dans le secteur public ou privé. </p>\n<p> </p>\n<p>Les valeurs de la\
-  \ proportion de personnes demandant des soins ont été interpolées linéairement entre\
-  \ les années où une enquête a été menée et ont été extrapolées pour les années précédant\
-  \ la première ou suivant la dernière enquête. Les valeurs manquantes pour les distributions\
-  \ ont été imputées à l’aide d’un mélange de la distribution du pays, avec une probabilité\
-  \ égale pour les années où les valeurs étaient présentes ou, s’il n’y avait aucune\
-  \ valeur pour une année dans le pays, un mélange de la distribution de la région\
-  \ pour cette année. Les données ont été analysées à l’aide du logiciel statistique\
-  \ R (4). Des intervalles de confiance ont été obtenus à partir de 10 000 tirages\
-  \ des distributions complexes. (Afghanistan, Bangladesh, Bolivie (État plurinational\
-  \ de), Botswana, Brésil, Cambodge, Colombie, Érythrée, Éthiopie, Guyane française,\
-  \ Gambie, Guatemala, Guyana, Haïti, Honduras, Inde, Indonésie, République démocratique\
-  \ populaire lao, Madagascar, Mauritanie, Myanmar, Namibie, Népal, Nicaragua, Pakistan,\
-  \ Panama, Papouasie-Nouvelle-Guinée, Pérou, Philippines, Rwanda, Sénégal, Îles Salomon,\
-  \ Timor-Leste, Vanuatu, Venezuela (République bolivarienne de), Viet Nam, Yémen\
-  \ et Zimbabwe). Pour l'Inde, les valeurs ont été obtenues au niveau infranational\
+  \ de la population à risque au départ. La même proportion de la population à risque\
+  \ est utilisée pour l’ensemble des séries chronologiques afin d’assurer la comparabilité\
+  \ des estimations dans le temps. </p>\n<p>Le nombre total de nouveaux cas, T, est\
+  \ estimé à partir du nombre de cas de paludisme signalés par un ministère de la\
+  \ santé qui est ajusté pour tenir compte (i) de l’incomplétude des systèmes de déclaration,\
+  \ (ii) des patients cherchant un traitement dans le secteur privé, de l’automédication\
+  \ ou ne cherchant pas du tout un traitement, et (iii) d’un surdiagnostic potentiel\
+  \ dû à l’absence de confirmation en laboratoire des cas. La procédure, qui est décrite\
+  \ dans le rapport <em>World Malaria Report 2009</em> (2), combine les données rapportées\
+  \ par les PNLP (cas signalés, exhaustivité de déclaration et probabilité que les\
+  \ cas soient positifs au parasite) avec des données obtenues à partir d’enquêtes\
+  \ auprès des ménages représentatives à l’échelle nationale sur l’utilisation des\
+  \ services de santé. Brièvement, </p>\n<p>T=(a + (c x e) / d) x (1 + h / g + ((1\
+  \ - g - h) / 2) / g)</p>\n<p>où : <br>a est le nombre de cas de paludisme confirmés\
+  \ dans le secteur public <br>b est le nombre de cas suspects testés <br>c est le\
+  \ nombre de cas présumés (non testés mais traités comme du paludisme) <br>d est\
+  \ l’exhaustivité des déclarations <br>e est le taux de positivité des tests (fraction\
+  \ positive du paludisme) = a/b <br>f est le nombre de cas estimés dans le secteur\
+  \ public, calculé avec (a + (c x e))/d <br>g est la fraction d'individus qui demandent\
+  \ un traitement dans le secteur public <br>h est la fraction d'individus qui demandent\
+  \ un traitement dans le secteur privé <br>i est la fraction d'individus qui ne demandent\
+  \ pas de traitement, calculée avec (1 - g - h)/2 <br>j est le nombre de cas dans\
+  \ le secteur privé, calculé avec f x h/g <br>k est le nombre de cas pas dans le\
+  \ secteur privé et pas dans le secteur public, calculé avec f x i/g <br>T est le\
+  \ nombre total de cas, calculé avec f + j + k.</p>\n<p>Pour estimer l’incertitude\
+  \ entourant le nombre de cas, on a supposé que le taux de positivité des tests avait\
+  \ une distribution normale centrée sur la valeur du <em>Taux de positivité du test</em>\
+  \ et l’écart type défini comme</p>\n<p>0.244 x Taux de positivité des tests<sup>0.5547</sup></p>\n\
+  <p>et tronqué pour être dans la plage 0, 1. On a supposé que l’exhaustivité des\
+  \ déclarations comportait l’une des trois distributions suivantes, selon l'intervalle\
+  \ ou la valeur déclarée par le PNLP. Si la valeur était déclarée comme un intervalle\
+  \ supérieur à 80 %, la distribution était supposée triangulaire, avec des limites\
+  \ de 0,8 et 1 et le pic à 0,8. Si la valeur déclarée était supérieure à 50 % mais\
+  \ inférieure ou égale à 80%, la distribution était supposée rectangulaire, avec\
+  \ des limites de 0,5 et 0,8. Enfin, si la valeur déclarée était inférieure à 50\
+  \ %, la distribution était supposée triangulaire, avec des limites de 0 et 0,5 et\
+  \ le pic à 0,5 (3) . Si l’exhaustivité de la déclaration était déclarée en tant\
+  \ que valeur et était supérieure à 80 %, une distribution bêta a été supposée avec\
+  \ une valeur moyenne de la valeur déclarée (maximum de 95 %) et des intervalles\
+  \ de confiance (IC) de 5 % autour de la valeur moyenne. On a supposé que les proportions\
+  \ d’enfants pour lesquels des soins étaient recherchés dans le secteur privé et\
+  \ dans le secteur public avaient une distribution bêta, la valeur moyenne étant\
+  \ la valeur estimée dans l’enquête et l’écart type calculé à partir de la fourchette\
+  \ des intervalles de confiance (IC) estimés à 95 %. La proportion d’enfants pour\
+  \ lesquels la prise en charge n’a pas été demandée a été supposée avoir une distribution\
+  \ rectangulaire, la limite inférieure 0 et la limite supérieure étant calculée comme\
+  \ 1 moins la proportion qui a demandé des soins dans le secteur public ou privé.\
+  \ Les trois distributions (proportion cherchant un traitement dans le secteur public,\
+  \ proportion cherchant un traitement dans le secteur privé uniquement et proportion\
+  \ ne cherchant pas un traitement) ont été contraintes de totaliser 1.</p>\n<p>Les\
+  \ proportions cherchant des soins dans chaque secteur ont été interpolées linéairement\
+  \ entre les années où une enquête a été menée et ont été extrapolées pour les années\
+  \ précédant la première ou suivant la dernière enquête. Les paramètres utilisés\
+  \ pour propager l'incertitude autour de ces proportions ont également été imputés\
+  \ de la même manière ou, s'il n'y avait aucune valeur pour une année dans le pays\
+  \ ou la région, ont été imputés comme un mélange des distributions de la région\
+  \ pour cette année. Les IC ont été obtenus à partir de 10 000 tirages de distributions\
+  \ complexes. Les données ont été analysées à l’aide du logiciel statistique R (4).\
+  \ Cette méthode a été utilisée pour des pays et des régions à l'extérieur de la\
+  \ région africaine de l'OMS et pour des pays et des régions à faible transmission\
+  \ dans la région africaine : Afghanistan, Bangladesh, Bolivie (État plurinational\
+  \ de), Botswana, Brésil, Cambodge, Colombie, République dominicaine, Érythrée, Éthiopie,\
+  \ Guyane française, Gambie, Guatemala, Guyana, Haïti, Honduras, Inde, Indonésie,\
+  \ République démocratique populaire lao, Madagascar, Mauritanie, Myanmar, Namibie,\
+  \ Népal, Nicaragua, Pakistan, Panama, Papouasie-Nouvelle-Guinée, Pérou, Philippines,\
+  \ Rwanda, Sénégal, Îles Salomon, Timor-Leste, Vanuatu, Venezuela (République bolivarienne\
+  \ de), Viet Nam, Yémen et Zimbabwe. Le Bangladesh, la Bolivie (État plurinational\
+  \ de), le Botswana, le Brésil, la Colombie, la République dominicaine, la Guyane\
+  \ française, le Guatemala, Guyana, Haïti, le Honduras, le Myanmar (depuis 2013),\
+  \ le Rwanda et le Venezuela (République bolivarienne du) déclarent ensemble les\
+  \ cas des secteurs privé et public; par conséquent, aucun ajustement pour la proportion\
+  \ recherchant un traitement dans le secteur privé n'a été effectué, tandis que pour\
+  \ l'Indonésie, 25 % du secteur privé était supposé être déclaré dans le secteur\
+  \ public depuis 2017. Pour l'Inde, les valeurs ont été obtenues au niveau infranational\
   \ en utilisant la même méthodologie, mais en ajustant le secteur privé pour un facteur\
   \ supplémentaire dû à la détection active des cas, estimé comme le rapport entre\
   \ le taux de positivité des tests dans la détection active des cas et le taux de\
   \ positivité des tests dans la détection passive des cas. Ce facteur a été supposé\
   \ avoir une distribution normale, avec une valeur moyenne et un écart type calculés\
-  \ à partir des valeurs déclarées en 2010. Le Bangladesh, la Bolivie (État plurinational\
-  \ de), le Botswana, le Brésil, la Colombie, la République dominicaine, la Guyane\
-  \ française, le Guatemala, la Guyane, Haïti, le Honduras, le Myanmar (depuis 2013),\
-  \ le Rwanda et le Venezuela (République bolivarienne du) déclarent ensemble les\
-  \ cas des secteurs privé et public; par conséquent, aucun ajustement n'a été effectué\
-  \ pour le secteur privé cherchant à se faire soigner, tandis que pour l'Indonésie,\
-  \ on a supposé que 25 % des cas privés étaient déclarés dans le secteur public depuis\
-  \ 2017. </p>\n<p> </p>\n<p>Pour certains pays africains à forte transmission, la\
-  \ qualité de la déclaration des cas est jugée insuffisante pour que les formules\
-  \ ci-dessus puissent être appliquées. Dans ces cas, les estimations du nombre de\
-  \ cas de paludisme sont dérivées des informations sur la prévalence parasitaire\
-  \ obtenues à partir des enquêtes auprès des ménages. Tout d'abord, les données sur\
-  \ la prévalence parasitaire provenant de près de 60 000 enregistrements d'enquêtes\
-  \ ont été assemblées dans un modèle géostatistique bayésien spatio-temporel, avec\
-  \ des covariables environnementales et sociodémographiques, et la distribution des\
-  \ données sur les interventions telles que les filets traités aux insecticides,\
-  \ les médicaments antipaludiques et la pulvérisation à effet rémanent à l'intérieur\
-  \ des habitations. Le modèle géospatial a permis de prédire la prévalence de Plasmodium\
-  \ falciparum chez les enfants âgés de 2 à 10 ans, à une résolution de 5 x 5 km<sup>2</sup>,\
-  \ dans tous les pays africains où le paludisme est endémique pour chaque année de\
-  \ 2000 à 2016 (voir <a href=&quot;http://www.map.ox.ac.uk/making-maps/&quot; target=&quot;_blank&quot;><u>http://www.map.ox.ac.uk/making-maps/</u></a>\
-  \ pour les méthodes d'élaboration des cartes par le Malaria Atlas Project). Ensuite,\
-  \ un modèle d'ensemble a été développé pour prédire l'incidence du paludisme en\
-  \ fonction de la prévalence du parasite. Le modèle a ensuite été appliqué à la prévalence\
-  \ parasitaire estimée afin d'obtenir des estimations de l'incidence des cas de paludisme\
-  \ à 5 x 5 km<sup>2</sup> de résolution pour chaque année de 2000 à 2016. Les données\
-  \ pour chaque zone de 5 x 5 km<sup>2</sup> ont ensuite été agrégées à l'intérieur\
-  \ des frontières nationales et régionales pour obtenir des estimations nationales\
-  \ et régionales des cas de paludisme (5). (Angola, Bénin, Burkina Faso, Burundi,\
-  \ Cameroun, République centrafricaine, Tchad, Congo, Côte d'Ivoire, République démocratique\
-  \ du Congo, Guinée équatoriale, Gabon, Ghana, Guinée, Guinée-Bissau, Kenya, Liberia,\
-  \ Malawi, Mali, Mozambique, Niger, Nigeria, Sierra Leone, Somalie, Soudan du Sud,\
-  \ Soudan, Togo, Ouganda, République unie de Tanzanie et Zambie) </p>\n<p>Pour la\
-  \ plupart des pays d'élimination ou de quasi-élimination, le nombre de cas autochtones\
-  \ enregistrés par les PNLP est déclaré sans autre ajustement. (Algérie, Argentine,\
-  \ Arménie, Azerbaïdjan, Belize, Bhoutan, Cabo Verde, Chine, Comores, Costa Rica,\
-  \ République populaire démocratique de Corée, Djibouti, Équateur, Égypte, El Salvador,\
-  \ Eswatini, Géorgie, Iran (République islamique d'), Irak, Kazakhstan, Kirghizistan,\
-  \ Malaisie, Mexique, Maroc, Oman, Paraguay, République de Corée, Sao Tomé-et-Principe,\
-  \ Afrique du Sud, Sri Lanka, Suriname, République arabe syrienne, Thaïlande, Turquie,\
-  \ Turkménistan, Émirats arabes unis et Ouzbékistan). </p>"
+  \ à partir des valeurs déclarées en 2010. Un ajustement supplémentaire a été appliqué\
+  \ dans plusieurs États de l'Inde, pour contrôler les réductions des taux de dépistage\
+  \ déclarés associées aux perturbations des services de santé liées à la pandémie\
+  \ de COVID-19.</p>\n<p>Pour certains pays africains à forte transmission, la qualité\
+  \ de la déclaration des cas est jugée insuffisante pour que les formules ci-dessus\
+  \ puissent être appliquées. Dans ces cas, les estimations du nombre de cas de paludisme\
+  \ sont dérivées des informations sur la prévalence parasitaire obtenues à partir\
+  \ des enquêtes auprès des ménages. Tout d'abord, les données sur la prévalence parasitaire\
+  \ provenant de près de 60 000 enregistrements d'enquêtes ont été assemblées dans\
+  \ un modèle géostatistique bayésien spatio-temporel, avec des covariables environnementales\
+  \ et sociodémographiques, et la distribution des données sur les interventions telles\
+  \ que les filets traités aux insecticides, les médicaments antipaludiques et la\
+  \ pulvérisation à effet rémanent à l'intérieur des habitations. Le modèle géospatial\
+  \ a permis de prédire la prévalence de Plasmodium falciparum chez les enfants âgés\
+  \ de 2 à 10 ans, à une résolution de 5 x 5 km<sup>2</sup>, dans tous les pays africains\
+  \ où le paludisme est endémique pour chaque année de 2000 à 2016 (consulter <a href=\"\
+  https://malariaatlas.org/\">https://malariaatlas.org/</a> pour les méthodes d'élaboration\
+  \ des cartes par le Malaria Atlas Project). Ensuite, un modèle d'ensemble a été\
+  \ développé pour prédire l'incidence du paludisme en fonction de la prévalence du\
+  \ parasite. Le modèle a ensuite été appliqué à la prévalence parasitaire estimée\
+  \ afin d'obtenir des estimations de l'incidence des cas de paludisme à 5 x 5 km<sup>2</sup>\
+  \ de résolution pour chaque année de 2000 à 2020. Les données pour chaque zone de\
+  \ 5 x 5 km<sup>2</sup> ont ensuite été agrégées à l'intérieur des frontières nationales\
+  \ et régionales pour obtenir des estimations nationales et régionales des cas de\
+  \ paludisme (5). En 2020, des cas supplémentaires estimés à l'aide de cette méthode\
+  \ ont été ajoutés, pour tenir compte des perturbations des services de prévention,\
+  \ de diagnostic et de traitement du paludisme à la suite de la pandémie de COVID-19\
+  \ et d'autres événements survenus au cours de cette année. Les informations sur\
+  \ les perturbations ont été déclarées par pays et ont été obtenues à partir des\
+  \ enquêtes nationales sur la continuité des services de santé essentiels pendant\
+  \ la pandémie de COVID-19 menées par l'OMS (première série en mai-juillet 2020 et\
+  \ deuxième en janvier-mars 2021). Cette méthode a été appliquée dans les pays suivants\
+  \ : Angola, Bénin, Burkina Faso, Burundi, Cameroun, République centrafricaine, Tchad,\
+  \ Congo, Côte d'Ivoire, République démocratique du Congo, Guinée équatoriale, Gabon,\
+  \ Ghana, Guinée, Guinée-Bissau, Kenya, Liberia, Malawi, Mali, Mozambique, Niger,\
+  \ Nigeria, Sierra Leone, Somalie, Soudan du Sud, Soudan, Togo, Ouganda, République\
+  \ unie de Tanzanie et Zambie.</p>\n<p>Pour la plupart des pays d'élimination ou\
+  \ de quasi-élimination, le nombre de cas indigènes enregistrés par les PNLP est\
+  \ déclaré sans autre ajustement. (Algérie, Argentine, Arménie, Azerbaïdjan, Belize,\
+  \ Bhoutan, Cabo Verde, Chine, Comores, Costa Rica, République populaire démocratique\
+  \ de Corée, Djibouti, Équateur, Égypte, El Salvador, Eswatini, Géorgie, Iran (République\
+  \ islamique d'), Irak, Kazakhstan, Kirghizistan, Malaisie, Mexique, Maroc, Oman,\
+  \ Paraguay, République de Corée, Sao Tomé-et-Principe, Afrique du Sud, Sri Lanka,\
+  \ Suriname, République arabe syrienne, Thaïlande, Turquie, Turkménistan, Émirats\
+  \ arabes unis et Ouzbékistan). </p>"
 COMPARABILITY: "<p><strong>Sources des divergences : </strong> </p>\n<p>L'incidence\
   \ estimée peut être différente de l'incidence signalée par un ministère de la santé,\
   \ qui peut être affectée par :</p>\n<ul>\n  <li>l'exhaustivité de la déclaration\
@@ -142,39 +159,40 @@ COMPARABILITY: "<p><strong>Sources des divergences : </strong> </p>\n<p>L'inci
   \ ou de TDR effectués); </li>\n  <li>le recours à des établissements de santé privés\
   \ qui ne sont généralement pas inclus dans les systèmes de déclaration. </li>\n\
   </ul>"
-COVERAGE: "<p>Disponibilité des données : </p>\n<p>109 pays</p>\n<p> </p>\n<p>Séries\
-  \ chronologiques : </p>\n<p>Annuellement à partir de 2000 </p>\n<p>Désagrégation :\
-  \ </p>\n<p>L'indicateur est estimé au niveau national.</p>"
+COVERAGE: "<p><strong>Disponibilité des données :</strong></p>\n<p>109 pays</p>\n\
+  <p> </p>\n<p><strong>Séries chronologiques :</strong></p>\n<p>Annuellement à partir\
+  \ de 2000 </p>\n<p><strong>Désagrégation :</strong></p>\n<p>L'indicateur est estimé\
+  \ au niveau national.</p>"
 QUALITY_ASSURE: "<p>Nous recueillons des données à l'aide d'un formulaire standardisé\
   \ en fonction de l'état de la lutte contre le paludisme, de l'élimination ou de\
   \ la prévention de la réintroduction. Nous travaillons en étroite collaboration\
   \ avec les centres de collaborateurs et les évaluateurs externes pour assurer la\
-  \ qualité. </p>"
+  \ qualité. </p>\n<p> </p>"
 DOC_METHOD: "<p>Les informations sont fournies par le PNLP de chaque pays en utilisant\
   \ l'application « District Health Information Systems 2 » (DHIS2) créée spécifiquement\
   \ à cet effet. </p>"
 REG_AGG: "<p>Les nombres de cas sont agrégés par région, et l'incertitude est obtenue\
   \ à partir de l'agrégation de la répartition de chaque pays. La population à risque\
   \ est agrégée sans autre ajustement. Les estimations au niveau mondial sont obtenues\
-  \ à partir de l'agrégation des valeurs des régions.</p>"
-IMPUTATION: "<ul>\n  <li>Au niveau national : </li>\n</ul>\n<p>Pour les valeurs manquantes\
-  \ des paramètres (taux de positivité des tests et exhaustivité des déclarations),\
-  \ une distribution basée sur un mélange de la distribution des valeurs disponibles\
-  \ est utilisée, si une valeur existe pour le pays ou la région dans le cas contraire.\
-  \ Les valeurs des paramètres de comportement de recherche de soins de santé sont\
-  \ imputées par interpolation linéaire des valeurs lors des enquêtes ou par extrapolation\
-  \ de la première ou de la dernière enquête. Lorsqu'aucune donnée n'est disponible,\
-  \ le nombre de cas est interpolé en tenant compte de la croissance de la population.\
-  \ </p>\n<p> </p>\n<ul>\n  <li>Aux niveaux régional et mondial : </li>\n</ul>\n<p>Sans\
-  \ objet </p>\n<p> </p>"
+  \ à partir de l'agrégation des valeurs régionales.</p>"
+IMPUTATION: "<ul>\n  <li><strong>Au niveau national :</strong></li>\n</ul>\n<p>Pour\
+  \ les valeurs manquantes des paramètres (taux de positivité des tests et exhaustivité\
+  \ des déclarations), une distribution basée sur un mélange de la distribution des\
+  \ valeurs disponibles est utilisée, si une valeur existe pour le pays ou la région\
+  \ dans le cas contraire. Les valeurs des paramètres de comportement de recherche\
+  \ de soins de santé sont imputées par interpolation linéaire des valeurs lors des\
+  \ enquêtes ou par extrapolation de la première ou de la dernière enquête. Lorsqu'aucune\
+  \ donnée n'est disponible, le nombre de cas est interpolé en tenant compte de la\
+  \ croissance de la population. </p>\n<p> </p>\n<ul>\n  <li><strong>Aux niveaux régional\
+  \ et mondial :</strong></li>\n</ul>\n<p>Sans objet </p>\n<p> </p>"
 REC_USE_LIM: "<p>L'incidence estimée peut être différente de l'incidence signalée\
   \ par un ministère de la santé, qui peut être affectée par :</p>\n<ul>\n  <li>l'exhaustivité\
   \ de la déclaration (le nombre de cas déclarés peut être inférieur aux cas estimés\
   \ si le pourcentage d'établissements de santé déclarant au cours d'un mois est inférieur\
   \ à 100%);</li>\n  <li>l'étendue des tests de diagnostic du paludisme (nombre de\
-  \ lames examinées ou de tests diagnostiques rapides (TDR) effectués); </li>\n  <li>le\
+  \ lames examinées ou de tests diagnostiques rapides (TDR) effectués);</li>\n  <li>le\
   \ recours à des établissements de santé privés qui ne sont généralement pas inclus\
-  \ dans les systèmes de déclaration; </li>\n  <li>l'indicateur n'est estimé que là\
+  \ dans les systèmes de déclaration;</li>\n  <li>l'indicateur n'est estimé que là\
   \ où il y a transmission du paludisme.</li>\n</ul>"
 RATIONALE: "<p>La justification est de mesurer l'évolution de la morbidité liée au\
   \ paludisme et identifier les endroits où le risque de maladie est le plus élevé.\
@@ -186,8 +204,8 @@ RATIONALE: "<p>La justification est de mesurer l'évolution de la morbidité li�
 COMPILING_ORG: "<p>L'unité de surveillance, de suivi et d'évaluation du Programme\
   \ mondial de lutte contre le paludisme est chargée de compiler et de traiter toutes\
   \ les informations pertinentes. Les estimations nationales pour certains pays sont\
-  \ réalisées en collaboration avec l'Université d'Oxford (« Malaria Atlas Project »).\
-  \ </p>"
+  \ réalisées en collaboration avec le « Malaria Atlas Project » qui a été désigné\
+  \ comme centre collaborateur de l’OMS pour la modélisation géospatiale des maladies.</p>"
 DATA_SOURCE: "<p>Le Programme national de lutte contre le paludisme est chargé de\
   \ recueillir les informations dans chaque pays. </p>"
 REL_CAL_POLICY: "<p>Les données sont publiées chaque année. </p>"
@@ -202,13 +220,12 @@ SOURCE_TYPE: "<p>Les cas signalés par le PNLP sont obtenus à partir du systèm
   \ à cet effet. Les données d'enquêtes représentatives auprès des ménages sont accessibles\
   \ au public et comprennent les enquêtes démographiques nationales auprès des ménages\
   \ ou l'enquête sur les indicateurs du paludisme. </p>"
-STAT_CONC_DEF: "<p><strong>Définition :</strong> </p>\n<p>L'incidence du paludisme\
+STAT_CONC_DEF: "<p><strong>Définition :</strong></p>\n<p>L'incidence du paludisme\
   \ est définie comme le nombre de nouveaux cas de paludisme pour 1 000 personnes\
-  \ à risque chaque année.</p>\n<p></p>\n<p><strong>Concepts :</strong> </p>\n<p>Le\
-  \ cas de paludisme est défini comme l'apparition du paludisme chez une personne\
-  \ dont la présence de parasites du paludisme dans le sang a été confirmée par un\
-  \ test de diagnostic. La population considérée est celle à risque de la maladie.\
-  \ </p>"
+  \ à risque chaque année.</p>\n<p><strong>Concepts :</strong></p>\n<p>Un cas de paludisme\
+  \ est défini comme l'apparition du paludisme chez une personne dont la présence\
+  \ de parasites du paludisme dans le sang a été confirmée par un test de diagnostic.\
+  \ La population considérée est celle à risque de la maladie. </p>"
 SDG_CUSTODIAN_AGENCIES: "<p>Programme mondial de lutte contre le paludisme de l'Organisation\
   \ mondiale de la Santé (OMS) </p>"
 SDG_RELATED_INDICATORS: "<h1>Indicateurs connexes en date de février 2020</h1>\n<p>Sans\
@@ -219,7 +236,7 @@ CLASS_SYSTEM: <p>Sans objet</p>
 DATA_VALIDATION: <p>Les estimations du fardeau présentées dans le Rapport mondial
   sur le paludisme sont envoyées aux pays par l’intermédiaire des bureaux régionaux
   pour consultation et approbation.</p>
-ADJUSTMENT: <p>Sans objet</p>
+ADJUSTMENT: <p>Non disponible</p>
 QUALITY_MGMNT: <p>Les estimations du fardeau sont d’abord examinées à l'interne par
   les bureaux régionaux et nationaux du PMLP et de l’OMS. Celles-ci sont ensuite partagées
   avec le pays pour validation. L'approbation finale est reçue de la division des

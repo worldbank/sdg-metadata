@@ -1,19 +1,19 @@
 SDG_GOAL: >-
   <p>Objectif 3 : Permettre à tous de vivre en bonne santé et promouvoir le bien-être
   de tous à tout âge</p>
-SDG_TARGET: "<p>Cible 3.5 : Renforcer la prévention et le traitement de l’abus de\
-  \ substances psychoactives, notamment l'abus de stupéfiants et la consommation nocive\
-  \ d’alcool</p>"
+SDG_TARGET: "<p>Cible 3.5 : Renforcer la prévention et le traitement de la toxicomanie\
+  \ (abus de substances psychoactives), notamment l'abus de stupéfiants et la consommation\
+  \ nocive d’alcool</p>"
 SDG_INDICATOR: >-
   <p>Indicateur 3.5.2 : Consommation d’alcool (en litres d’alcool pur) par habitant
   (âgé de 15 ans ou plus) au cours d’une année civile</p>
-META_LAST_UPDATE: '<p>3 mars 2021</p>'
+META_LAST_UPDATE: '<p>2021-03-03</p>'
 SDG_RELATED_INDICATORS: |-
   <p>Objectif 8 et cibles 3.4 et 3.6 </p>
 SDG_CUSTODIAN_AGENCIES: |-
   <p>Organisation mondiale de la Santé (OMS) </p>
 STAT_CONC_DEF: >-
-  <p>Définitions :</p>
+  <p><strong>Définitions :</strong></p>
 
   <p>Usage nocif de l’alcool, défini selon le contexte national comme la consommation
   d’alcool par habitant (âgé de 15 ans ou plus) au cours d’une année civile en litres
@@ -40,7 +40,7 @@ STAT_CONC_DEF: >-
   sur les statistiques de l’ONU et les données sont fournies par l’institut IHME.
   </p>
 
-  <p>Concepts :</p>
+  <p><strong>Concepts :</strong></p>
 
   <p>La consommation enregistrée d’alcool pur par habitant (15 ans ou plus) est calculée
   comme la somme de la consommation d’alcool pur spécifique à une boisson (bière,
@@ -112,7 +112,7 @@ COLL_METHOD: >-
   <p>L'Enquête mondiale sur l'alcool et la santé est menée périodiquement en collaboration
   avec les six bureaux régionaux de l'OMS. Les homologues nationaux ou les points
   focaux dans tous les États membres de l'OMS sont officiellement nommés par les ministères
-  de la santé respectifs. On leur fournit l'outil de collecte de données d'enquête
+  de la Santé respectifs. On leur fournit l'outil de collecte de données d'enquête
   en ligne pour la finalisation. Lorsque ce n'est pas possible de le faire en ligne,
   une copie papier de l'outil est transmise à ceux qui l'ont demandé. Les soumissions
   de l'enquête sont vérifiées et chaque fois que les informations sont incomplètes
@@ -132,7 +132,7 @@ FREQ_COLL: >-
 REL_CAL_POLICY: |-
   <p>Annuellement. </p>
 DATA_SOURCE: >-
-  <p>La liste des fournisseurs des données se compose des ministères de la santé,
+  <p>La liste des fournisseurs des données se compose des ministères de la Santé,
   des bureau/agences nationaux de statistique (données sur la production et le commerce/la
   vente d'alcool), des centres nationaux de surveillance de la consommation d'alcool
   et de drogues et des centres universitaires et de surveillance nationaux s'occupant
@@ -181,14 +181,14 @@ DATA_COMP: >-
   année civile, provenant des perspectives de la population mondiale des Nations Unies,
   variante moyenne. </p>
 IMPUTATION: >-
-  <p>Au niveau national </p>
+  <p><strong>• Au niveau national :</strong></p>
 
-  <p>Les valeurs des pays manquants (par exemple Monaco, Saint-Marin) sont si faibles
+  <p>Les valeurs des pays manquants (p. ex., Monaco, Saint-Marin) sont si faibles
   qu’elles n’affecteraient pas les chiffres mondiaux ou régionaux. </p>
 
-  <p>Aux niveaux régional et mondial </p>
+  <p><strong>• Aux niveaux régional et mondial :</strong></p>
 
-  <p>Les valeurs des pays manquants (par exemple Monaco, Saint-Marin) sont si faibles
+  <p>Les valeurs des pays manquants (p. ex., Monaco, Saint-Marin) sont si faibles
   qu’elles n’affecteraient pas les chiffres mondiaux ou régionaux. </p>
 REG_AGG: >-
   <p>Les agrégats régionaux et mondiaux sont des moyennes pondérées par la population
@@ -197,22 +197,22 @@ REG_AGG: >-
 
   <p> </p>
 COVERAGE: >-
-  <p>Disponibilité des données :</p>
+  <p><strong>Disponibilité des données :</strong></p>
 
   <p>À l’échelle mondiale, par régions de l’OMS et des ODD, par groupes de revenu
   de la Banque mondiale, par pays. Les données sont disponibles pour 190 États membres
   de l’OMS. </p>
 
-  <p>Séries chronologiques :</p>
+  <p><strong>Séries chronologiques :</strong></p>
 
   <p>Consommation d’alcool par habitant enregistrée depuis les années 1960 et consommation
   totale d’alcool par habitant depuis 2000. </p>
 
-  <p>Désagrégation :</p>
+  <p><strong>Désagrégation :</strong></p>
 
   <p>Sexe, âge. </p>
 COMPARABILITY: >-
-  <p>Sources des divergences : </p>
+  <p><strong>Sources des divergences :</strong></p>
 
   <p>Les sources des divergences proviennent des estimations de la population, de
   la teneur en alcool par volume dans les différentes catégories de boissons alcoolisées,
@@ -250,9 +250,9 @@ INST_MANDATE: <p>Surveiller les risques pour la santé publique et générer, ra
 DATA_VALIDATION: <p>Les estimations sont envoyées aux correspondants ou aux homologues
   nationaux par l’intermédiaire des bureaux régionaux de l’OMS pour validation et
   approbation. </p>
-QUALITY_ASSURE: <p>Autorisation des statistiques par l'unité de données, analyses
+QUALITY_ASSURE: <p>Autorisation des statistiques par l'unité des données, analyses
   et livraison pour l’impact (OMS) </p>
-QUALITY_ASSMNT: <p>Unité de données, analyses et livraison pour l’impact (OMS)</p>
+QUALITY_ASSMNT: <p>Unité des données, analyses et livraison pour l’impact (OMS)</p>
 DOC_METHOD: <p>(en anglais) « Global Status Report on Alcohol and Health 2018 » (
   <a href="https://www.who.int/publications/i/item/9789241565639">https://www.who.int/publications/i/item/9789241565639</a>)
   </p>

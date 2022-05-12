@@ -4,15 +4,15 @@ SDG_GOAL: >-
 SDG_TARGET: >-
   <p>Cible 3.4 : D’ici 2030, réduire d’un tiers, par la prévention et le traitement,
   le taux de mortalité prématurée due à des maladies non transmissibles et promouvoir
-  la santé mentale et le bien-être </p>
+  la santé mentale et le bien-être</p>
 SDG_INDICATOR: >-
   <p>Indicateur 3.4.1 : Taux de mortalité attribuable aux maladies cardiovasculaires,
-  au cancer, au diabète ou aux maladies respiratoires chroniques </p>
+  au cancer, au diabète ou aux maladies respiratoires chroniques</p>
 META_LAST_UPDATE: '<p>2021-03-01</p>'
 SDG_CUSTODIAN_AGENCIES: |-
   <p>Organisation mondiale de la Santé (OMS) </p>
 STAT_CONC_DEF: >-
-  <p>Définition : </p>
+  <p><strong>Définition :</strong></p>
 
   <p> </p>
 
@@ -30,7 +30,7 @@ STAT_CONC_DEF: >-
 
   <p> </p>
 
-  <p>Concepts : </p>
+  <p><strong>Concepts :</strong></p>
 
   <p> </p>
 
@@ -134,7 +134,7 @@ DATA_COMP: >-
   </p>
 IMPUTATION: >-
   <ul>
-    <li>Au niveau national </li>
+    <li><strong>Au niveau national :</strong></li>
   </ul>
 
   <p> </p>
@@ -153,16 +153,16 @@ IMPUTATION: >-
   <p> </p>
 
   <ul>
-    <li>Aux niveaux régional et mondial </li>
+    <li><strong>Aux niveaux régional et mondial :</strong></li>
   </ul>
 
   <p> </p>
 
-  <p>Sans objet</p>
+  <p>Non disponible</p>
 REG_AGG: |-
   <p>Agrégation des estimations des décès par cause, âge et sexe par pays, et agrégation de la population par âge, sexe et pays comme dénominateur, le cas échéant. </p>
 COVERAGE: >-
-  <p>Disponibilité des données : </p>
+  <p><strong>Disponibilité des données :</strong></p>
 
   <p>Près de 70 pays fournissent actuellement à l’OMS des données régulières de haute
   qualité sur la mortalité par âge, sexe et causes de décès, et 58 autres pays soumettent
@@ -170,13 +170,15 @@ COVERAGE: >-
   estimations complètes de la cause de décès pour l’ensemble de ses États membres
   (avec un certain seuil de population).</p>
 
-  <p>Séries chronologiques : 2000-2019</p>
+  <p><strong>Séries chronologiques :</strong></p>
 
-  <p>Désagrégation : </p>
+  <p>2000-2019</p>
+
+  <p><strong>Désagrégation :</strong></p>
 
   <p>Sexe </p>
 COMPARABILITY: >-
-  <p>Sources des divergences : </p>
+  <p><strong>Sources des divergences :</strong></p>
 
   <p>Dans les pays dotés de systèmes d'enregistrement de l'état civil de haute qualité,
   les estimations ponctuelles diffèrent parfois principalement pour deux raisons :
@@ -262,7 +264,8 @@ QUALITY_ASSURE: <p>Les principes de données de l’Organisation mondiale de la 
 CONTACT_ORGANISATION: "<p>Organisation mondiale de la Santé (OMS)</p>\n<p> </p>"
 UNIT_MEASURE: <p>Probabilité</p>
 CLASS_SYSTEM: <p>Les quatre causes non transmissibles de décès sont définies en termes
-  de Classification internationale des maladies, dixième révision (CIM-10) (voir 2.a).</p>
+  de Classification internationale des maladies, dixième révision (CIM-10) (consulter
+  la section 2.a).</p>
 DATA_SOURCE: <p>Les bureaux nationaux de statistique et/ou les ministères de la santé.
   </p>
 ADJUSTMENT: <p>Les décès de sexe inconnu ont été redistribués au prorata au sein des

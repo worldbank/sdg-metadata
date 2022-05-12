@@ -4,18 +4,18 @@ SDG_GOAL: >-
 SDG_TARGET: >-
   <p>Cible 3.4 : D’ici 2030, réduire d’un tiers, par la prévention et le traitement,
   le taux de mortalité prématurée due à des maladies non transmissibles et promouvoir
-  la santé mentale et le bien-être </p>
-SDG_INDICATOR: '<p>Indicateur 3.4.2 : Taux de mortalité par suicide </p>'
+  la santé mentale et le bien-être</p>
+SDG_INDICATOR: '<p>Indicateur 3.4.2 : Taux de mortalité par suicide</p>'
 META_LAST_UPDATE: '<p>2021-05-01</p>'
 SDG_CUSTODIAN_AGENCIES: |-
   <p>Organisation mondiale de la Santé (OMS) </p>
 STAT_CONC_DEF: >-
-  <p>Définitions : </p>
+  <p><strong>Définitions :</strong></p>
 
   <p>Le taux de mortalité par suicide est défini comme le nombre de décès par suicide
   au cours d'une année, divisé par la population et multiplié par 100 000. </p>
 
-  <p>Concepts :</p>
+  <p><strong>Concepts :</strong></p>
 SOURCE_TYPE: >-
   <p>La source de données privilégiée est constituée par les systèmes d'enregistrement
   des décès avec une couverture complète et une certification médicale de la cause
@@ -76,7 +76,7 @@ DATA_COMP: >-
   d'enregistrement par échantillon ou par sentinelle et des études spéciales. </p>
 IMPUTATION: >-
   <ul>
-    <li>Au niveau national : </li>
+    <li><strong>Au niveau national :</strong></li>
   </ul>
 
   <p> </p>
@@ -94,18 +94,18 @@ IMPUTATION: >-
   <p> </p>
 
   <ul>
-    <li>Aux niveaux régional et mondial : </li>
+    <li><strong>Aux niveaux régional et mondial :</strong></li>
   </ul>
 
   <p> </p>
 
-  <p>Sans objet</p>
+  <p>Non disponible</p>
 REG_AGG: >-
   <p>Les estimations nationales du nombre de décès par cause, ainsi que les estimations
   démographiques correspondantes, sont additionnées pour obtenir des agrégats régionaux
   et mondiaux. </p>
 COVERAGE: >-
-  <p>Disponibilité des données :</p>
+  <p><strong>Disponibilité des données :</strong></p>
 
   <p>Près de 70 pays fournissent actuellement à l’OMS des données régulières de haute
   qualité sur la mortalité par âge, sexe et causes de décès, et 58 autres pays soumettent
@@ -113,13 +113,15 @@ COVERAGE: >-
   de décès sont systématiquement calculées par l’OMS pour tous ses États membres (avec
   un certain seuil de population) tous les 3 ans. </p>
 
-  <p>Séries chronologiques : De 2000 à 2019</p>
+  <p><strong>Séries chronologiques :</strong></p>
 
-  <p>Désagrégation : </p>
+  <p>De 2000 à 2019</p>
+
+  <p><strong>Désagrégation :</strong></p>
 
   <p>Sexe, groupe d’âge </p>
 COMPARABILITY: >-
-  <p>Source des divergences :</p>
+  <p><strong>Source des divergences :</strong></p>
 
   <p>Dans les pays dotés de systèmes d'enregistrement de l'état civil de haute qualité,
   les estimations ponctuelles diffèrent parfois principalement pour deux raisons :
@@ -129,7 +131,7 @@ COMPARABILITY: >-
 OTHER_DOC: >-
   <p>(Toutes les références sont anglais, sauf la dernière)</p>
 
-  <p> <strong>URL :</strong> </p>
+  <p><strong>URL :</strong> </p>
 
   <p> </p>
 
@@ -137,7 +139,7 @@ OTHER_DOC: >-
 
   <p> </p>
 
-  <p> <strong>Références :</strong> </p>
+  <p><strong>Références :</strong> </p>
 
   <p> </p>
 
@@ -183,7 +185,7 @@ DOC_METHOD: <p>Les catégories de causes de décès (y compris les suicides) sui
   les définitions de la Classification internationale des maladies, dixième révision
   (CIM-10). Veuillez consulter le tableau A de l’annexe du document (en anglais) « WHO
   methods and data sources for global causes of death, 2000–2019 » (https://www.who.int/docs/default-source/gho-documents/global-health-estimates/ghe2019_cod_methods.pdf)</p>
-SDG_RELATED_INDICATORS: <p>Sans objet</p>
+SDG_RELATED_INDICATORS: <p>Non disponible</p>
 CONTACT_ORGANISATION: "<p>Organisation mondiale de la Santé (OMS) </p>"
 UNIT_MEASURE: <p>Taux pour 100 000 habitants </p>
 CLASS_SYSTEM: <p>Les suicides sont définis en fonction de la Classification internationale
