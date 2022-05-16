@@ -102,9 +102,7 @@ REC_USE_LIM: >-
   de la population des Nations Unies et peuvent varier par rapport aux densités produites
   par le pays.</p>
 DATA_COMP: >-
-  <p> <strong> <u>Densités du personnel de santé par profession</u> </strong></p>
-
-  <p> </p>
+  <p><strong><u>Densités du personnel de santé par profession</u> </strong></p>
 
   <p>Les chiffres relatifs au nombre de médecins (y compris les médecins généralistes
   et spécialistes) en fonction de la nature de la source de données originale peuvent
@@ -143,30 +141,29 @@ DATA_COMP: >-
 
   <p> </p>
 
-  <p> <strong> <u>Répartition du personnel de santé par sexe</u> </strong></p>
+  <p> <strong> <u>Répartition du personnel de santé par sexe et type de profession</u>
+  </strong></p>
 
   <p> </p>
 
   <p>Le nombre de médecins de sexe masculin tel que déclaré par le pays est exprimé
-  en pourcentage du total des médecins masculins et féminins déclarés par le pays</p>
+  en pourcentage du total des médecins masculins et féminins déclarés par le pays.</p>
 
   <p> </p>
 
   <p>Le nombre de femmes médecins tel que déclaré par le pays est exprimé en pourcentage
-  du total des médecins masculins et féminins déclarés par le pays</p>
+  du total des médecins masculins et féminins déclarés par le pays.</p>
 
   <p> </p>
 
   <p>Le nombre de personnel infirmier masculin tel que déclaré par le pays est exprimé
   en pourcentage du total du personnel infirmier masculin et féminin déclaré par le
-  pays</p>
+  pays.</p>
 
   <p> </p>
 
   <p>Le nombre de femmes infirmières tel que déclaré par le pays est exprimé en pourcentage
-  du total du personnel infirmier masculin et féminin déclaré par le pays</p>
-
-  <p> </p>
+  du total du personnel infirmier masculin et féminin déclaré par le pays.</p>
 REG_AGG: >-
   <p>La densité moyenne mondiale a été estimée comme la moyenne pondérée en fonction
   de la population des densités nationales. </p>
@@ -178,25 +175,31 @@ REG_AGG: >-
   les densités nationales disponibles. </p>
 
   <p>La population pour l’estimation des densités aux niveaux régional et mondial
-  a été extraite des « World Population Prospects » de la Division de la population
-  des Nations Unies 2017. </p>
+  est basée sur les dernières estimations disponibles de la Division de la population
+  des Nations Unies. </p>
 COVERAGE: >-
   <p><strong>Disponibilité des données :</strong></p>
 
+  <p>Données disponibles pour l’ensemble des 194 États membres de l’OMS</p>
+
   <p><strong>Séries chronologiques :</strong></p>
 
-  <p>Données disponibles pour la période 2000-2018.</p>
+  <p>À partir de l’an 2000. </p>
 
-  <p>Lien internet vers la base de données : <a href="http://www.who.int/hrh/statistics/hwfstats/en/"
-  target="_blank"><u>http://www.who.int/hrh/statistics/hwfstats/en/</u></a> </p>
+  <p>« Global Health Workforce Statistics » du « Global Health Observatory data repository »
+  : <a href="https://apps.who.int/gho/data/node.main.HWFGRP?lang=en">https://apps.who.int/gho/data/node.main.HWFGRP?lang=en</a>
+  </p>
+
+  <p>Portail de données NHWA (en anglais) : <a href="https://apps.who.int/nhwaportal/">https://apps.who.int/nhwaportal/</a>
+  </p>
 
   <p><strong>Désagrégation :</strong></p>
 
-  <p>Données au niveau national </p>
+  <p>Données au niveau national. </p>
 OTHER_DOC: >-
   <p><strong>URL :</strong> </p>
 
-  <p><a href="http://www.who.int/hrh/statistics/hwfstats/en/" target="_blank"><u>http://www.who.int/hrh/statistics/hwfstats/en/</u></a>
+  <p>(en anglais) https://www.who.int/activities/improving-health-workforce-data-and-evidence
   </p>
 
   <p> </p>
@@ -206,27 +209,24 @@ OTHER_DOC: >-
   <ul>
     <li>Sixante-neuvième Assemblée mondiale de la Santé, item 16.1 de l'ordre du jour.
   Stratégie mondiale sur les ressources humaines pour la santé à l'horizon 2030 (2016),
-  disponible à l'adresse (<a href="http://apps.who.int/gb/ebwha/pdf_files/WHA69/A69_R19-fr.pdf"
-  target="_blank"><u>http://apps.who.int/gb/ebwha/pdf_files/WHA69/A69_R19-fr.pdf</u></a>).
+  disponible à l'adresse (<a href="http://apps.who.int/gb/ebwha/pdf_files/WHA69/A69_R19-fr.pdf"><u>http://apps.who.int/gb/ebwha/pdf_files/WHA69/A69_R19-fr.pdf</u></a>)
   </li>
     <li>« Global strategy on human resources for health: Workforce 2030 ». Organisation
-  mondiale de la Santé, 2014. (<a href="http://who.int/hrh/resources/pub_globstrathrh-2030/en/"
-  target="_blank"><u>http://who.int/hrh/resources/pub_globstrathrh-2030/en/</u></a>).
+  mondiale de la Santé, 2014. (https://www.who.int/publications/i/item/9789241511131)
   </li>
     <li>« WHO Global Health Workforce Statistics ». Organisation mondiale de la Santé,
-  consulté en février 2018. (<a href="http://www.who.int/hrh/statistics/hwfstats/en/"
-  target="_blank"><u>http://www.who.int/hrh/statistics/hwfstats/en/</u></a>) </li>
+  consulté en février 2018. (<a href="https://apps.who.int/gho/data/node.main.HWFGRP?lang=en">https://apps.who.int/gho/data/node.main.HWFGRP?lang=en</a>)
+  </li>
     <li>« WHO Global Health Workforce Statistics ». Organisation mondiale de la Santé,
-  consulté en février 2018. (<a href="https://apps.who.int/gho/data/node.main.HWFGRP?lang=en"
-  target="_blank"><u>https://apps.who.int/gho/data/node.main.HWFGRP?lang=en</u></a>)
+  consulté en février 2018. (<a href="http://apps.who.int/gho/data/node.main.A1444?lang=en&amp;showonly=HWF"
+  target="_blank"><u>http://apps.who.int/gho/data/node.main.A1444?lang=en&amp;showonly=HWF</u></a>)
   </li>
     <li>Manuel sur les comptes nationaux des personnels de santé. Organisation mondiale
-  de la Santé, 2017. (<a href="https://www.who.int/fr/publications/i/item/9789241513111"><u>https://www.who.int/fr/publications/i/item/9789241513111</u></a>).
+  de la Santé, 2017. (<a href="https://www.who.int/fr/publications/i/item/9789241513111"><u>https://www.who.int/fr/publications/i/item/9789241513111</u></a>)
   </li>
     <li>Projet de treizième programme général de travail, 2019-2023. Organisation
   mondiale de la Santé. (https://apps.who.int/gb/ebwha/pdf_files/WHA71/A71_4-fr.pdf?ua=1)
-  </li>
-  </ul>
+  </li> </ul>
 
   <p> </p>
 CONTACT_ORGANISATION: "<p>Organisation mondiale de la Santé (OMS)</p>\n<p> </p>"
@@ -234,21 +234,28 @@ UNIT_MEASURE: "<p>Densité des professionnels de la santé selon la profession :
   \ 10 000 habitants</p>\n<p>Répartition des professionnels de la santé selon le sexe\
   \ et la profession : pourcentage (%)</p>"
 CLASS_SYSTEM: <p>Classification internationale type des professions (CITP-08)</p>
-INST_MANDATE: <p>WHA69.19 exhorte les États membres à partager un ensemble de données
-  de base avec l’OMS, afin d’accroître la base de données probantes de statistiques
-  mondiales sur le personnel de santé.</p>
+INST_MANDATE: '<p>La Stratégie mondiale des ressources humaines pour la santé : programme
+  2030 et la mise en œuvre progressive de la NHWA adoptée lors de la soixante-neuvième
+  Assemblée mondiale de la Santé (WHA69.19). Celle-ci exhorte les États membres à
+  partager les données sur le personnel de santé avec l’OMS, afin d’accroître la base
+  de données probantes sur les statistiques du personnel de santé à l’échelle mondiale.
+  </p>'
 RATIONALE: <p>Pour obtenir des métadonnées et des définitions détaillées, reportez-vous
-  au Manuel sur les comptes nationaux des personnels de santé (NHWA) (<a href="https://www.who.int/fr/publications/i/item/9789241513111">https://www.who.int/fr/publications/i/item/9789241513111</a>
-  )</p>
+  au Manuel sur les comptes nationaux des personnels de santé (NHWA) (https://www.who.int/fr/publications/i/item/9789241513111
+  ).</p>
 DATA_VALIDATION: <p>Les données enregistrées dans la plateforme de données NHWA sont
   validées par les points focaux nationaux. Des contrôles de la qualité des données
   et des consultations par pays sont utilisés. </p>
-IMPUTATION: "<p>&#x2022; <strong>Au niveau national :</strong></p>\n<p>&#x2022; <strong>Aux\
-  \ niveaux régional et mondial :</strong></p>"
+IMPUTATION: "<p><strong>&#x2022; Au niveau naitonal :</strong></p>\n<p>Les données\
+  \ pour les pays avec des valeurs manquantes, le cas échéant au cours des 5 dernières\
+  \ années, sont estimées avec des pays comparables voisins. </p>\n<p><strong>&#x2022;\
+  \ Aux niveaux régional et mondial :</strong></p>\n<p>Sans objet</p>"
 DOC_METHOD: <p>Les pays sont priés de consulter le Manuel sur les comptes nationaux
-  des personnels de santé (NHWA) (<a href="https://www.who.int/fr/publications/i/item/9789241513111">https://www.who.int/fr/publications/i/item/9789241513111</a>),
+  des personnels de santé (NHWA) (https://www.who.int/fr/publications/i/item/9789241513111),
   pour obtenir des conseils sur les indicateurs et la méthodologie. </p>
-COMPARABILITY: <p><strong>Sources des divergences :</strong></p>
+COMPARABILITY: "<p><strong>Sources des divergences :</strong></p>\n<p>Les estimations\
+  \ de la population utilisées par les pays et/ou les bureaux régionaux peuvent différer\
+  \ de celles de la Division de la population des Nations Unies.</p>"
 ADJUSTMENT: <p>Sans objet</p>
 SDG_SERIES_DESCR: "<p>Répartition des professionnels de la santé, selon le sexe et\
   \ le type de profession (%)</p>\n<p>Densité des professionnels de la santé, selon\
@@ -260,3 +267,14 @@ COLL_METHOD: <p>On encourage les pays à adopter une approche progressive de mis
   hébergée à l’OMS est conçue pour faciliter la communication de données sur les indicateurs
   énumérés dans le manuel de la NHWA et le partage de données entre les 3 niveaux
   de l’OMS. </p>
+QUALITY_MGMNT: <p>Toutes les données nationales sur les professions de la santé sont
+  mises en correspondance avec la Classification internationale type des professions
+  (CITP-08) afin de permettre la comparabilité entre les pays. </p>
+QUALITY_ASSURE: <p>Les données sont recueillies au moyen d’un formulaire de saisie
+  de données en ligne standardisé basé sur l’application DHIS2. Les validations des
+  données et les contrôles de qualité sont intégrés pour minimiser les erreurs de
+  saisie des données.</p>
+QUALITY_ASSMNT: <p>Nous effectuons une validation interne des valeurs aberrantes et
+  de l’exhaustivité et posons des questions aux pays directement auprès des correspondants
+  nationaux et/ou par l’intermédiaire des bureaux nationaux et régionaux de l’OMS,
+  pour obtenir des éclaircissements. </p>
