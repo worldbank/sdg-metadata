@@ -6,15 +6,10 @@ SDG_TARGET: "<p>Cible 4.1 : D’ici 2030, faire en sorte que toutes les filles
   \ équitable et de qualité, les dotant d’acquis véritablement utiles</p>"
 SDG_INDICATOR: >-
   <p>Indicateur 4.1.2 : Taux de réussite (enseignement primaire, premier et deuxième
-  cycles de l’enseignement secondaire).</p>
+  cycles de l’enseignement secondaire)</p>
 META_LAST_UPDATE: '<p>2022-03-31</p>'
 SDG_RELATED_INDICATORS: >-
-  <p>Combiné à l'indicateur 4.1.1 des ODD – la proportion d’enfants et de jeunes (a)
-  en 2e et 3e année; b) à la fin du primaire; et c) à la fin du premier cycle du secondaire,
-  atteignant au moins un niveau minimum de compétence en (i) lecture et (ii) en mathématiques–
-  le taux de réussite peut fournir des informations sur le pourcentage d'enfants d'une
-  cohorte donnée qui atteignent une compétence minimum en lecture et en mathématiques.
-  </p>
+  <p>4.1.1</p>
 SDG_CUSTODIAN_AGENCIES: |-
   <p>Institut de statistique de l'UNESCO (UNESCO-ISU)</p>
 STAT_CONC_DEF: >-
@@ -63,7 +58,7 @@ COLL_METHOD: >-
 
   <p>Les valeurs des indicateurs destinées à être diffusées et ajoutées à la base
   de données mondiale des indicateurs des ODD sont soumises par l'Institut de statistique
-  de l'UNESCO aux bureaux nationaux de statistique, aux ministères de l'éducation
+  de l'UNESCO aux bureaux nationaux de statistique, aux ministères de l'Éducation
   ou à d'autres organismes compétents dans les différents pays pour qu'ils les examinent
   et les commentent.</p>
 FREQ_COLL: >-
@@ -247,8 +242,8 @@ DATA_COMP: >-
       </msub>
       <mo>=</mo>
     </math> population âgée de 3 à 5 ans au-dessus de l’âge d’entrée officiel a dans
-  la dernière année du niveau n d’éducation, qui a terminé le niveau n</p>
-  <p> <math xmlns="http://www.w3.org/1998/Math/MathML">
+  la dernière année du niveau n d’éducation, qui a terminé le niveau n</p> <p> <math
+  xmlns="http://www.w3.org/1998/Math/MathML">
       <msub>
         <mrow>
           <mi>P</mi>
@@ -272,15 +267,14 @@ DATA_COMP: >-
       </msub>
       <mo>=</mo>
     </math> population âgée de 3 à 5 ans au-dessus de l’âge d’entrée officiel a dans
-  la dernière année du niveau n d’éducation</p>
-  <p> <math xmlns="http://www.w3.org/1998/Math/MathML">
+  la dernière année du niveau n d’éducation</p> <p> <math xmlns="http://www.w3.org/1998/Math/MathML">
       <mi>n</mi>
       <mo>=</mo>
       <mi mathvariant="normal"> &amp;nbsp; </mi>
     </math> Niveau CITE 1 (enseignement primaire), 2 (premier cycle de l’enseignement
   secondaire) ou 3 (deuxième cycle de l’enseignement secondaire)</p>
 IMPUTATION: >-
-  <p>&#x2022; <strong>Au niveau national :</strong></p>
+  <p><strong>&#x2022; Au niveau national :</strong></p>
 
   <p>Le taux de réussite peut être calculé à partir des cohortes plus âgées qui ne
   font pas partie de la tranche d'âge spécifiée dans la définition de l'indicateur
@@ -288,7 +282,7 @@ IMPUTATION: >-
   chronologiques nationales peuvent également être imputés en utilisant le modèle
   mentionné ci-dessus pour estimer le taux de réussite. </p>
 
-  <p>&#x2022; <strong>Aux niveaux régional et mondial :</strong></p>
+  <p><strong>&#x2022; Aux niveaux régional et mondial :</strong></p>
 
   <p>Voir ci-dessus. </p>
 REG_AGG: >-
@@ -310,7 +304,7 @@ QUALITY_ASSURE: >-
   <p>Avant de publier ses données annuelles et de les ajouter à la base de données
   mondiale des indicateurs des ODD, l'Institut de statistique de l'UNESCO soumet toutes
   les valeurs des indicateurs et les notes méthodologiques aux bureaux nationaux de
-  statistique, aux ministères de l'éducation ou à d'autres organismes compétents dans
+  statistique, aux ministères de l'Éducation ou à d'autres organismes compétents dans
   les différents pays pour qu'ils les examinent et les commentent.</p>
 COVERAGE: >-
   <p><strong>Disponibilité des données :</strong></p>
@@ -337,12 +331,12 @@ COVERAGE: >-
   dans l'indicateur global 4.5.1 (indice de parité). Les estimations fondées sur des
   modèles sont ventilées par sexe. </p>
 COMPARABILITY: >-
-  <p>Pourcentage. Cet indicateur est exprimé en pourcentage d’une cohorte d’enfants
-  âgés de 3 à 5 ans au-dessus de l’âge prévu pour la dernière année d’un niveau d’éducation,
-  qui ont terminé ce niveau. </p>
+  <p><strong>Sources des divergences :</strong></p>
+
+  <p>Aucune. </p>
 OTHER_DOC: >-
   <p>(en anglais) Barakat, B., Dharamshi, A., Alkema, L., Antoninis, M. (2021). « Bayesian
-  Completion Rates (ABC) Estimation ». <em> SocArXiv</em>. https://doi.org/https://doi.org/10.31235/osf.io/at368</p>
+  Completion Rates (ABC) Estimation ». <em>SocArXiv</em>. https://doi.org/https://doi.org/10.31235/osf.io/at368</p>
 
   <p>Institut de statistique de l’UNESCO (ISU). 2019. Base de données en ligne UIS.Stat.
   </p>
@@ -361,6 +355,7 @@ OTHER_DOC: >-
     <li>Taux de réussite au premier cycle du secondaire : <a href="https://www.education-inequalities.org/indicators/comp_lowsec_v2">https://www.education-inequalities.org/indicators/comp_lowsec_v2</a></li>
     <li>Taux de réussite au deuxième cycle du secondaire : <a href="https://www.education-inequalities.org/indicators/comp_upsec_v2">https://www.education-inequalities.org/indicators/comp_upsec_v2</a>
   </li>
+
   </ul>
 UNIT_MEASURE: <p>Pourcentage (%) </p>
 SDG_SERIES_DESCR: <p>Sans objet</p>
@@ -383,12 +378,12 @@ INST_MANDATE: "<p>L'Institut de statistique de l'UNESCO (ISU) est la branche sta
   \ le \"SDG-Education 2030 SC \"</em> ».</p>"
 DATA_VALIDATION: "<p>L’Institut de statistique de l’UNESCO partage toutes les valeurs\
   \ des indicateurs et les notes sur la méthodologie avec les bureaux nationaux de\
-  \ statistique, les ministères de l’éducation ou d’autres organismes compétents dans\
+  \ statistique, les ministères de l’Éducation ou d’autres organismes compétents dans\
   \ les différents pays pour leur examen, leur rétroaction et leur validation avant\
   \ la publication des données. </p>\n<p> </p>\n<p>Dans le cadre d’un autre exercice\
   \ de validation et de renforcement des capacités, on consultera les pays au sujet\
   \ des estimations du modèle de taux de réussite. Ce processus de consultation annuel\
-  \ donnera au ministère de l’éducation et au bureau national de statistique de chaque\
+  \ donnera au ministère de l’Éducation et au bureau national de statistique de chaque\
   \ pays l’occasion d’examiner et de fournir des commentaires sur toutes les entrées\
   \ de données, la méthodologie d’estimation et les estimations provisoires. </p>"
 CONTACT_ORGANISATION: <p>Institut de statistique de l'UNESCO (UNESCO-ISU)</p>
