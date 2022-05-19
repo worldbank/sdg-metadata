@@ -6,8 +6,8 @@ SDG_TARGET: "<p>Cible 2.3 : D'ici 2030, doubler la productivité agricole et les
   \ grâce à un accès sûr et égal à la terre, aux autres ressources productives et\
   \ aux intrants, aux connaissances, aux services financiers, aux marchés et aux possibilités\
   \ de création de valeur ajoutée et d'emplois non agricoles</p>"
-SDG_INDICATOR: '<p>Indicateur 2.3.1 : Volume de production par unité de travail par
-  catégorie de taille d’entreprise agricole / pastorale / forestière</p>'
+SDG_INDICATOR: '<p>Indicateur 2.3.1 : Volume de production selon l''unité de travail
+  et selon la catégorie de taille d’entreprise agricole / pastorale / forestière</p>'
 COLL_METHOD: "<p>La population cible de l'indicateur 2.3.1. est constituée des petits\
   \ producteurs pour lesquels les meilleures sources de données sont les enquêtes\
   \ agricoles. Celles-ci contiennent des informations sur la production agricole,\
@@ -15,7 +15,7 @@ COLL_METHOD: "<p>La population cible de l'indicateur 2.3.1. est constituée des 
   \ ne sont pas menées de manière systématique, de sorte qu'elles peuvent être dispersées\
   \ sur de longues périodes. La FAO encourage le projet d'enquêtes agricoles intégrées\
   \ (« AGRIS ») qui recueille des données sur une base annuelle pour différents modules,\
-  \ par exemple la production agricole. </p>\n<p>Actuellement, l'indicateur est produit\
+  \ p. ex., la production agricole. </p>\n<p>Actuellement, l'indicateur est produit\
   \ principalement à l'aide de l'étude sur la mesure du niveau de vie (LSMS) de la\
   \ Banque mondiale. Certains pays disposent d'une enquête intégrée sur l'agriculture\
   \ (LSMS-ISA). Ces enquêtes comprennent des informations telles que la taille des\
@@ -49,7 +49,7 @@ REL_CAL_POLICY: <p>La diffusion des données dépend fortement de la fréquence 
   nécessaires pour calculer les indicateurs. </p>
 DATA_SOURCE: <p>Les bureaux nationaux de statistique ou autres institutions impliquées
   dans les enquêtes agricoles, telles que les bureaux de statistique spécialisés du
-  ministère de l'agriculture. </p>
+  ministère de l'Agriculture. </p>
 COMPILING_ORG: <p>Organisation des Nations unies pour l'alimentation et l'agriculture
   (FAO)</p>
 INST_MANDATE: <p>L'article I de l'Acte constitutif de la FAO stipule que l'Organisation
@@ -93,9 +93,9 @@ STAT_CONC_DEF: "<p><strong>Définition :</strong></p>\n<p>Volume de la productio
   \ revenus économiques provenant des activités agricoles par unité de production\
   \ au niveau national (mesuré en dollars de parité de pouvoir d’achat) ne dépassant\
   \ pas 34 387 dollars de parité de pouvoir d’achat. </li>\n</ul>\n<p><strong>Concepts\
-  \ :</strong></p>\n<ul>\n  <li>Les concepts suivants sont adoptés pour le calcul\
-  \ des indicateurs 2.3.1 :</li>\n  <li>Les petits producteurs alimentaires sont définis\
-  \ comme ceux qui se trouvent dans l’intersection des 40 % inférieurs de la distribution\
+  \ :</strong></p>\n<p>Les concepts suivants sont adoptés pour le calcul des indicateurs\
+  \ 2.3.1 :</p>\n<ul>\n  <li>Les petits producteurs alimentaires sont définis comme\
+  \ ceux qui se trouvent dans l’intersection des 40 % inférieurs de la distribution\
   \ cumulative des terres, du bétail et des revenus. </li>\n  <li>Les unités de bétail\
   \ tropical sont une échelle de conversion utilisée pour la normalisation et la mesure\
   \ du nombre de têtes de bétail. Une UBT est l’équivalent en poids métabolique d’un\
