@@ -5,8 +5,8 @@ SDG_TARGET: "<p>Cible 3.3 : D’ici 2030, mettre fin à l’épidémie de sida, 
   \ au paludisme et aux maladies tropicales négligées et combattre l’hépatite, les\
   \ maladies transmises par l’eau et d'autres maladies transmissibles </p>"
 SDG_INDICATOR: "<p>Indicateur 3.3.1 : Nombre de nouvelles infections par le VIH pour\
-  \ 1 000 personnes séronégatives, par sexe, âge et groupes clés de la population\
-  \ </p>"
+  \ 1 000 personnes séronégatives, selon le sexe, l'âge et les groupes clés de la\
+  \ population </p>"
 META_LAST_UPDATE: '<p>2022-03-31</p>'
 SDG_CUSTODIAN_AGENCIES: |-
   <p>Le Programme conjoint des Nations Unies sur le VIH/sida (ONUSIDA)</p>
@@ -42,12 +42,12 @@ FREQ_COLL: >-
   sont créés au cours des trois premiers mois de chaque année et finalisés en mai.
   </p>
 REL_CAL_POLICY: |-
-  <p>Des données sont publiées chaque année en juillet</p>
+  <p>Des données sont publiées chaque année en juillet.</p>
 DATA_SOURCE: >-
   <p>Les estimations sont produites par une équipe d'experts nationaux du ministère
-  de la santé, des groupes consultatifs nationaux sur le sida et des partenaires de
+  de la Santé, des groupes consultatifs nationaux sur le sida et des partenaires de
   développement. Les résultats sont approuvés par les cadres supérieurs des ministères
-  de la santé. </p>
+  de la Santé. </p>
 COMPILING_ORG: |-
   <p>Après le processus d'examen des données, les experts nationaux partagent leurs résultats avec l'ONUSIDA qui compile les données de tous les pays et calcule les estimations régionales et mondiales. </p>
 RATIONALE: >-
@@ -114,7 +114,7 @@ DOC_METHOD: >-
 QUALITY_ASSURE: >-
   <p>Les pays participent pleinement à l’élaboration des estimations. Les valeurs
   finales sont examinées pour la qualité par l’ONUSIDA et approuvées par les cadres
-  supérieurs des ministères nationaux de la santé. </p>
+  supérieurs des ministères nationaux de la Santé. </p>
 COVERAGE: >-
   <p><strong>Disponibilité des données :</strong></p>
 
@@ -219,7 +219,7 @@ REC_USE_LIM: "<p>Les méthodes et les limites de l'estimation de l'incidence du 
   \ que dans les pays dont la population est supérieure à 250 000 habitants. Cela\
   \ est principalement dû à la capacité de soutien de l’ONUSIDA.</li>\n</ul>"
 DATA_VALIDATION: <p>Les estimations de l'incidence du VIH sont créées par les équipes
-  nationales et sont approuvées par les gestionnaires du ministère de la santé, avec
+  nationales et sont approuvées par les gestionnaires du ministère de la Santé, avec
   une déclaration claire que ces données seront fournies pour les rapports sur les
   ODD. Le correspondant national des ODD reçoit une copie des demandes d'autorisation.
   L’ONUSIDA examine les données d’entrée et les résultats pour s’assurer de la qualité
