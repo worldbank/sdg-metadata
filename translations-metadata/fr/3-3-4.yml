@@ -21,8 +21,8 @@ DATA_COMP: "<p>Les données ont été modélisées à l'aide d'une régression l
   \ prévalence de l'antigène de surface de l'hépatite (AgHBs), les variables explicatives\
   \ étant l'âge (trois catégories, moins de 5 ans, mineur (5-15 ans) et adulte (16\
   \ ans ou plus), réparties en utilisant l'âge moyen des participants à l'étude),\
-  \ le sexe (proportion de femmes dans l'étude), le biais de l'étude (par exemple,\
-  \ une fraction élevée de participants à l'étude provenant de populations indigènes),\
+  \ le sexe (proportion de femmes dans l'étude), le biais de l'étude (p. ex., une\
+  \ fraction élevée de participants à l'étude provenant de populations indigènes),\
   \ la couverture vaccinale à 3 doses, la dose de vaccin à la naissance et le pays\
   \ de l'étude. La couverture de la vaccination systématique à 3 doses et de la vaccination\
   \ à la naissance dans chaque étude a été calculée en croisant l'année et l'âge des\
@@ -55,7 +55,7 @@ DATA_COMP: "<p>Les données ont été modélisées à l'aide d'une régression l
   \ dans le module statistique bayésien WinBUGS, et la manipulation des données et\
   \ l'initialisation du modèle exécutées à partir de R (3.3.1) en utilisant R2WinBUGS.\
   \ Le modèle prend en compte les paramètres de l'âge, du sexe, du biais de l'étude\
-  \ (par exemple, une fraction élevée de participants à l'étude provenant de populations\
+  \ (p. ex., une fraction élevée de participants à l'étude provenant de populations\
   \ indigènes), de la couverture vaccinale, de la dose du vaccin à la naissance et\
   \ du pays de l'étude. </p>\n<p>Le modèle utilise la fonction CAR-normale, dans WinBUGS,\
   \ pour modéliser l'autocorrélation géographique et économique liée aux pays voisins.\
@@ -82,7 +82,7 @@ DATA_COMP: "<p>Les données ont été modélisées à l'aide d'une régression l
   \ une surface gaussienne lissée qui dépend à la fois de la proximité spatiale et\
   \ de la proximité du PIB par habitant. Nous avons comparé des ratios de, 1:0, 1:1,\
   \ 2:1, 1:2 (Géographie:PIB). </p>\n<p>Pour chaque matrice d'adjacence différente,\
-  \ nous avons également dû choisir une distance de voisinage, c'est-à-dire sur quelle\
+  \ nous avons également dû choisir une distance de voisinage, c.-à-d. sur quelle\
   \ distance un pays peut être affecté par un autre. Ainsi, nous avons également fait\
   \ varier le rayon de distance à partir duquel sélectionner les voisins pour le réseau\
   \ de voisinage, nous avons utilisé la distance minimale maximale, deux fois le minimum\
@@ -154,8 +154,8 @@ SOURCE_TYPE: "<p>Une recherche systématique sur les articles publiés entre le 
   \ Global Index Medicus, Popline et Web of Science. </p>\n<p> </p>\n<p>Après un examen\
   \ complet du texte, nous avons extrait les données de chaque étude en utilisant\
   \ les variables suivantes : caractéristiques de l'étude (dates de l'étude et de\
-  \ la collecte des échantillons, lieux de l'étude, c'est-à-dire, ville, sous-national\
-  \ [une zone, une région, un état ou une province dans un pays] ou national), caractéristiques\
+  \ la collecte des échantillons, lieux de l'étude, c.-à-d. ville, sous-national [une\
+  \ zone, une région, un état ou une province dans un pays] ou national), caractéristiques\
   \ des participants (tranche d'âge, sexe, année et groupe de population) et prévalence\
   \ du marqueur du VHB, type de tests de laboratoire et nombre de participants sur\
   \ lesquels la prévalence du marqueur du VHB était basée.</p>\n<p> </p>\n<p>Les données\
@@ -172,8 +172,8 @@ SOURCE_TYPE: "<p>Une recherche systématique sur les articles publiés entre le 
   \ sur la qualité méthodologique et les biais de l'étude résultant de la non-représentativité,\
   \ une variable supplémentaire a été utilisée : les échantillons susceptibles d'être\
   \ représentatifs pour le pays/la région spécifié(e) ont été codés 0 et les autres,\
-  \ par exemple les échantillons de convenance dans certaines communautés ou tribus\
-  \ du pays, ont reçu un 1, complété par des informations supplémentaires. L'information\
+  \ p. ex., les échantillons de convenance dans certaines communautés ou tribus du\
+  \ pays, ont reçu un 1, complété par des informations supplémentaires. L'information\
   \ sur le risque de biais/non-représentativité a été appliquée si la population n'était\
   \ ni un travailleur de santé ni un donneur de sang (voir description ci-dessous).\
   \ Les variables extraites des études et les hypothèses formulées sont décrites en\
@@ -181,7 +181,7 @@ SOURCE_TYPE: "<p>Une recherche systématique sur les articles publiés entre le 
   \ début/fin de réalisation de l'étude : L'année de début et de fin de l'étude a\
   \ été extraite. Si cette information n'était pas disponible dans les études, nous\
   \ avons utilisé l'hypothèse communément admise selon laquelle l'étude a été menée\
-  \ deux ans avant l'année de publication (par exemple, auteur, 2000, année de réalisation\
+  \ deux ans avant l'année de publication (p. ex., auteur, 2000, année de réalisation\
   \ de l'étude : 1998). </li>\n  <li>Sexe : Les valeurs spécifiques au sexe ont été\
   \ extraites. Si seule une estimation globale (tous) était fournie, la part des femmes\
   \ dans l'étude était précisée dans la colonne informations complémentaires. </li>\n\
@@ -210,11 +210,11 @@ SOURCE_TYPE: "<p>Une recherche systématique sur les articles publiés entre le 
   \ comme étant de 16 à 65 ans. </li>\n  <li>Prévalence de l'AgHBs : L'estimation\
   \ de prévalence la plus spécifique fournie par les données a été extraite (définie\
   \ par la prévalence par âge/sexe/année). Des lignes distinctes pour chaque marqueur\
-  \ ont été utilisées dans le fichier d'extraction des données (par exemple, une pour\
-  \ l'AgHBe et une pour l'AgHBs, même si le groupe d'étude/la publication était le\
-  \ même). </li>\n  <li>Prévalence de l'AgHBe (marqueur facultatif) : L'estimation\
-  \ de la prévalence la plus spécifique (définie par la prévalence par âge/sexe/année)\
-  \ de l'AgHBe chez les personnes positives à l'AgHBs a été extraite et, le cas échéant,\
+  \ ont été utilisées dans le fichier d'extraction des données (p. ex., une pour l'AgHBe\
+  \ et une pour l'AgHBs, même si le groupe d'étude/la publication était le même).\
+  \ </li>\n  <li>Prévalence de l'AgHBe (marqueur facultatif) : L'estimation de la\
+  \ prévalence la plus spécifique (définie par la prévalence par âge/sexe/année) de\
+  \ l'AgHBe chez les personnes positives à l'AgHBs a été extraite et, le cas échéant,\
   \ a été calculée pour refléter la prévalence chez les porteurs de l'AgHBs. </li>\n\
   \  <li>Prévalence de l'anti-HBc (marqueur facultatif) : L'estimation de prévalence\
   \ la plus spécifique fournie par les données a été extraite (définie par la prévalence\
@@ -226,35 +226,35 @@ SOURCE_TYPE: "<p>Une recherche systématique sur les articles publiés entre le 
   \ Cinq catégories ont été établies pour enregistrer la méthode/le test utilisé pour\
   \ la détection de la prévalence dans les études : ELI nouveau (ELISA -2, -3, EIA,\
   \ …), EIA ancien (CMIA, CIEP, RPHA), NAT (qPCR/ PCR en temps réel, nested PCR, multiplex\
-  \ PCR), autre (par exemple RIA) ; Inconnu/non spécifié. </li>\n  <li>Pays : Les\
-  \ noms de pays ont été enregistrés selon https://www.who.int/fr/home et, à des fins\
-  \ d'analyse supplémentaire, ont été regroupés selon les six régions de l'OMS : la\
-  \ région africaine, la région des Amériques, la région de la Méditerranée orientale,\
-  \ la région européenne, la région de l'Asie du Sud-Est et la région du Pacifique\
-  \ occidental. </li>\n  <li>Taille de l'échantillon d'individus sur lesquels du sang\
-  \ a été prélevé / d'individus impliqués dans les analyses ou dans les bases pour\
-  \ les paramètres d'estimation : En tant qu'indicateur de qualité de l'étude, nous\
-  \ avons fait une distinction entre la taille effective de l'échantillon, c'est-à-dire\
-  \ le nombre d'individus impliqués dans les analyses ou dans les bases pour les paramètres\
-  \ d'estimation, et le nombre d'individus sur lesquels du sang a été prélevé (colonne\
-  \ séparée) et la taille de l'échantillon initialement calculée/planifiée (colonne\
-  \ séparée). </li>\n  <li>Population : Bien que l'accent ait été mis sur la population\
-  \ générale, deux groupes supplémentaires ont été inclus et spécifiés. Il s'agit\
-  \ de : TS et donneur de sang (en plus de sous-groupes non spécifiés, rémunérés,\
-  \ non rémunérés/volontaires). Si dans cette colonne « la population » a été spécifiée\
-  \ comme TS ou donneur de sang et non comme population générale, la colonne de risque\
-  \ de biais (suivante) reste vide. </li>\n  <li>Niveau : L'information est fournie\
-  \ si l'étude a été menée au niveau national, sous-national, au niveau de la ville\
-  \ ou si le niveau n'a pas été précisé davantage (quatre catégories). </li>\n  <li>Lieu\
-  \ de l'étude : Cette variable à texte libre précise la ville/zone du pays où l'étude\
-  \ incluse a été menée. Les variables/colonnes Niveau et Lieu de l'étude ont été\
-  \ incluses en plus suite à la réunion de l'OMS sur l'impact de la vaccination contre\
-  \ l'hépatite B à l'OMS, Genève, en mars 2014. </li>\n</ol>\n<p> </p>\n<p>Données\
-  \ supplémentaires provenant d'autres sources que les études éligibles : </p>\n<ol>\n\
-  \  <li>Année d'introduction du vaccin dans l'ensemble du pays : les données proviennent\
-  \ des rapports officiels des États membres de l'OMS et, sauf indication contraire,\
-  \ les données sont déclarées chaque année dans le cadre du processus de déclaration\
-  \ conjointe OMS/UNICEF. <a href=\"http://www.who.int/entity/immunization/monitoring_surveillance/data/year_vaccine_introduction.xls?ua=1\"\
+  \ PCR), autre (p. ex., RIA) ; Inconnu/non spécifié. </li>\n  <li>Pays : Les noms\
+  \ de pays ont été enregistrés selon https://www.who.int/fr/home et, à des fins d'analyse\
+  \ supplémentaire, ont été regroupés selon les six régions de l'OMS : la région africaine,\
+  \ la région des Amériques, la région de la Méditerranée orientale, la région européenne,\
+  \ la région de l'Asie du Sud-Est et la région du Pacifique occidental. </li>\n \
+  \ <li>Taille de l'échantillon d'individus sur lesquels du sang a été prélevé / d'individus\
+  \ impliqués dans les analyses ou dans les bases pour les paramètres d'estimation\
+  \ : En tant qu'indicateur de qualité de l'étude, nous avons fait une distinction\
+  \ entre la taille effective de l'échantillon, c.-à-d. le nombre d'individus impliqués\
+  \ dans les analyses ou dans les bases pour les paramètres d'estimation, et le nombre\
+  \ d'individus sur lesquels du sang a été prélevé (colonne séparée) et la taille\
+  \ de l'échantillon initialement calculée/planifiée (colonne séparée). </li>\n  <li>Population\
+  \ : Bien que l'accent ait été mis sur la population générale, deux groupes supplémentaires\
+  \ ont été inclus et spécifiés. Il s'agit de : TS et donneur de sang (en plus de\
+  \ sous-groupes non spécifiés, rémunérés, non rémunérés/volontaires). Si dans cette\
+  \ colonne « la population » a été spécifiée comme TS ou donneur de sang et non comme\
+  \ population générale, la colonne de risque de biais (suivante) reste vide. </li>\n\
+  \  <li>Niveau : L'information est fournie si l'étude a été menée au niveau national,\
+  \ sous-national, au niveau de la ville ou si le niveau n'a pas été précisé davantage\
+  \ (quatre catégories). </li>\n  <li>Lieu de l'étude : Cette variable à texte libre\
+  \ précise la ville/zone du pays où l'étude incluse a été menée. Les variables/colonnes\
+  \ Niveau et Lieu de l'étude ont été incluses en plus suite à la réunion de l'OMS\
+  \ sur l'impact de la vaccination contre l'hépatite B à l'OMS, Genève, en mars 2014.\
+  \ </li>\n</ol>\n<p> </p>\n<p>Données supplémentaires provenant d'autres sources\
+  \ que les études éligibles : </p>\n<ol>\n  <li>Année d'introduction du vaccin dans\
+  \ l'ensemble du pays : les données proviennent des rapports officiels des États\
+  \ membres de l'OMS et, sauf indication contraire, les données sont déclarées chaque\
+  \ année dans le cadre du processus de déclaration conjointe OMS/UNICEF. <a href=\"\
+  http://www.who.int/entity/immunization/monitoring_surveillance/data/year_vaccine_introduction.xls?ua=1\"\
   >http://www.who.int/entity/immunization/monitoring_surveillance/data/year_vaccine_introduction.xls?ua=1\
   \ (en anglais)</a>. </li>\n  <li>Période à laquelle l'étude a été menée : pré-vaccination\
   \ ou post-vaccination. Cette période est déterminée en fonction de l'année d'introduction\
@@ -278,15 +278,15 @@ COMPARABILITY: "<p>Cet ensemble de données représente les meilleures estimatio
   \ l’indicateur de l’antigène de surface de l’hépatite B et vise à faciliter la comparabilité\
   \ entre les pays et au fil du temps. Les estimations ne sont pas toujours les mêmes\
   \ que les estimations nationales officielles, en raison de l’utilisation de méthodologies\
-  \ et de sources de données différentes, par exemple les populations spéciales ou\
-  \ les populations à risque ne sont pas incluses dans le modèle de séroprévalence\
-  \ de l’hépatite B. Des estimations sont fournies pour 194 États membres de l’OMS.\
-  \ Le modèle autorégressif conditionnel utilise des données provenant de pays bien\
-  \ échantillonnés pour estimer la prévalence dans les pays les plus pauvres en données\
-  \ en tenant compte d’effets tels que le sexe, l’âge et le statut vaccinal. En raison\
-  \ de la rareté des données de certains pays, les estimations sont plus robustes\
-  \ au niveau mondial et régional qu’au niveau national, de sorte que l’accent devrait\
-  \ être mis sur les intervalles de confiance de 95% et pas seulement sur les estimations\
+  \ et de sources de données différentes, p. ex., les populations spéciales ou les\
+  \ populations à risque ne sont pas incluses dans le modèle de séroprévalence de\
+  \ l’hépatite B. Des estimations sont fournies pour 194 États membres de l’OMS. Le\
+  \ modèle autorégressif conditionnel utilise des données provenant de pays bien échantillonnés\
+  \ pour estimer la prévalence dans les pays les plus pauvres en données en tenant\
+  \ compte d’effets tels que le sexe, l’âge et le statut vaccinal. En raison de la\
+  \ rareté des données de certains pays, les estimations sont plus robustes au niveau\
+  \ mondial et régional qu’au niveau national, de sorte que l’accent devrait être\
+  \ mis sur les intervalles de confiance de 95% et pas seulement sur les estimations\
   \ ponctuelles rapportées. </p>\n<p><strong>Sources des divergences :</strong></p>\n\
   <p>Les critères d’inclusion ou d’exclusion du type d’études de séroprévalence. Des\
   \ études observationnelles sur la séroprévalence chronique de l’infection par le\
@@ -303,11 +303,10 @@ COVERAGE: "<p><strong>Disponibilité des données :</strong></p>\n<p>Des estimat
   \ qu'au niveau mondial.</p>\n<p><strong>Séries chronologiques :</strong></p>\n<p>Des\
   \ estimations sont disponibles pour l'ère pré-vaccinale, 2015, 2018 et 2020. </p>\n\
   <p><strong>Désagrégation :</strong></p>\n<p>Les variables disponibles sont : groupes\
-  \ d'âge (c'est-à-dire les moins de cinq ans, les cinq ans et plus (bien que ces\
-  \ estimations ne sont pas déclarées) et la population générale); sexe / genre si\
-  \ possible. Bien que les données concernant ce dernier point soient rares. En outre,\
-  \ les données sont disponibles aux niveaux national, régional et mondial. </p>\n\
-  <p> </p>"
+  \ d'âge (c.-à-d. les moins de cinq ans, les cinq ans et plus (bien que ces estimations\
+  \ ne sont pas déclarées) et la population générale); sexe / genre si possible. Bien\
+  \ que les données concernant ce dernier point soient rares. En outre, les données\
+  \ sont disponibles aux niveaux national, régional et mondial. </p>\n<p> </p>"
 QUALITY_ASSURE: "<p><strong>Assurance de la qualité : </strong></p>\n<ul>\n  <li>Les\
   \ estimations de l'OMS utilisent une méthodologie examinée par le Comité consultatif\
   \ de recherche sur la mise en œuvre de la vaccination et des vaccins et présentée\
@@ -395,7 +394,7 @@ RATIONALE: "<p>L'objectif est de décrire la réduction des infections chronique
   \ par le VHB à l'âge de 5 ans comme indicateur de la cible de l'objectif de développement\
   \ durable pour la « lutte contre l'hépatite ». Cet indicateur est mesuré indirectement\
   \ par la proportion d'enfants de 5 ans qui ont développé une infection chronique\
-  \ par le VHB (c'est-à-dire la proportion qui est positive pour un marqueur d'infection\
+  \ par le VHB (c.-à-d. la proportion qui est positive pour un marqueur d'infection\
   \ appelé antigène de surface de l'hépatite B [AgHBs]). </p>"
 COMPILING_ORG: "<p>Organisation mondiale de la Santé </p>"
 DATA_SOURCE: "<p>Organisation mondiale de la Santé </p>"
@@ -435,7 +434,7 @@ META_LAST_UPDATE: '<p>2021-04-01</p>'
 SDG_SERIES_DESCR: <p>Sans objet</p>
 CONTACT_ORGANISATION: <p>Organisation mondiale de la Santé</p>
 UNIT_MEASURE: <p>Prévalence de l’antigène de surface de l’hépatite B chez les enfants
-  de moins de cinq ans (proportion d’infection chronique)</p>
+  de moins de cinq ans (proportion d’infection chronique).</p>
 ADJUSTMENT: <p>Des estimations sont fournies pour les 194 États membres de l’OMS et
   regroupées en fonction des six régions de l’OMS. Nous fournissons également des
   estimations selon la classification des revenus et suivons autant que possible les
