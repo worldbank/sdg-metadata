@@ -35,7 +35,7 @@ FREQ_COLL: >-
 REL_CAL_POLICY: |-
   <p>Fin 2020</p>
 DATA_SOURCE: |-
-  <p>Bureaux nationaux de statistique et/ou ministères de la santé. </p>
+  <p>Bureaux nationaux de statistique et/ou ministères de la Santé. </p>
 COMPILING_ORG: |-
   <p>OMS</p>
 RATIONALE: >-
@@ -65,8 +65,8 @@ DATA_COMP: >-
   <p>Pour les pays disposant d'un système d'enregistrement de l'état civil de haute
   qualité comprenant des informations sur les causes de décès, l'enregistrement de
   l'état civil que les États membres soumettent à la base de données de l'OMS sur
-  la mortalité a été utilisé, avec des ajustements si nécessaire, par exemple en cas
-  de sous-déclaration des décès.</p>
+  la mortalité a été utilisé, avec des ajustements si nécessaire, p. ex., en cas de
+  sous-déclaration des décès.</p>
 
   <p> </p>
 
@@ -87,7 +87,7 @@ IMPUTATION: >-
   la modélisation a été utilisée. La méthodologie complète peut être trouvée (en anglais)
   à l'adresse : </p>
 
-  <p>« WHO methods and data sources for global causes of death, 2000–2019 » (https://www.who.int/docs/default-source/gho-documents/global-health-estimates/ghe2019_cod_methods.pdf)</p>
+  <p>« WHO methods and data sources for global causes of death, 2000–2019 » (https://www.who.int/docs/default-source/gho-documents/global-health-estimates/ghe2019_cod_methods.pdf).</p>
 
   <p> </p>
 
@@ -125,9 +125,9 @@ COMPARABILITY: >-
 
   <p>Dans les pays dotés de systèmes d'enregistrement de l'état civil de haute qualité,
   les estimations ponctuelles diffèrent parfois principalement pour deux raisons :
-  1) l'OMS redistribue les décès ayant une cause de décès mal définie (c'est-à-dire
-  les blessures d'intention inconnue, codes CIM Y10-Y34 et Y872) en suicide ; et 2)
-  l'OMS corrige les décès dont l'enregistrement est incomplet. </p>
+  1) l'OMS redistribue les décès ayant une cause de décès mal définie (c.-à-d. les
+  blessures d'intention inconnue, codes CIM Y10-Y34 et Y872) en suicide ; et 2) l'OMS
+  corrige les décès dont l'enregistrement est incomplet. </p>
 OTHER_DOC: >-
   <p>(Toutes les références sont anglais, sauf la dernière)</p>
 
@@ -184,7 +184,7 @@ QUALITY_ASSURE: <p>Les principes de données de l’Organisation mondiale de la 
 DOC_METHOD: <p>Les catégories de causes de décès (y compris les suicides) suivent
   les définitions de la Classification internationale des maladies, dixième révision
   (CIM-10). Veuillez consulter le tableau A de l’annexe du document (en anglais) « WHO
-  methods and data sources for global causes of death, 2000–2019 » (https://www.who.int/docs/default-source/gho-documents/global-health-estimates/ghe2019_cod_methods.pdf)</p>
+  methods and data sources for global causes of death, 2000–2019 » (https://www.who.int/docs/default-source/gho-documents/global-health-estimates/ghe2019_cod_methods.pdf).</p>
 SDG_RELATED_INDICATORS: <p>Non disponible</p>
 CONTACT_ORGANISATION: "<p>Organisation mondiale de la Santé (OMS) </p>"
 UNIT_MEASURE: <p>Taux pour 100 000 habitants </p>
@@ -192,7 +192,7 @@ CLASS_SYSTEM: <p>Les suicides sont définis en fonction de la Classification int
   des maladies, dixième révision (CIM-10) (voir 3.a).</p>
 QUALITY_ASSMNT: <p>Toutes les déclarations et allégations faites officiellement par
   le Siège de l’OMS concernant les estimations de l’état de santé au niveau de la
-  population (pays, région, monde – par exemple, la mortalité, l’incidence, la prévalence,
+  population (pays, région, monde – p. ex., la mortalité, l’incidence, la prévalence,
   le fardeau de morbidité) sont approuvées par le Département des données et de l’analyse
   (DDA) par le biais du processus d’autorisation exécutive. Cela inclut les instructions
   de « GATHER » qui fait la promotion des pratiques exemplaires en matière de déclaration
