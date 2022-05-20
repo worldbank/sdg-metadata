@@ -2,12 +2,12 @@
 <root>
 	<status>success</status>
 	<message>The DATA_COMP field for indicator 12-8-1, translated into fr</message>
-	<data>&lt;p&gt;Les informations recueillies avec le questionnaire de suivi de la mise en œuvre par les États membres de l&apos;UNESCO de la &lt;em&gt;Recommandation de 1974 sur l&apos;éducation pour la compréhension, la coopération et la paix internationales et l&apos;éducation relative aux droits de l&apos;homme et aux libertés fondamentales&lt;/em&gt; sont utilisées pour la construction de l&apos;indicateur global. Pour chacune des quatre composantes de l&apos;indicateur (politiques, programmes scolaires, formation des enseignants et évaluation des élèves), un certain nombre de critères sont mesurés, qui sont ensuite combinés pour donner un score unique entre zéro et un pour chaque composante. Seules les informations concernant l&apos;enseignement primaire et secondaire seront utilisées pour le calcul des indicateurs 4.7.1/12.8.1/13.3.1.&lt;/p&gt;
+	<data>&lt;p&gt;Les informations recueillies avec le questionnaire de suivi de la mise en œuvre par les États membres de l&apos;UNESCO de la &lt;em&gt;Recommandation de 1974 sur l&apos;éducation pour la compréhension, la coopération et la paix internationales et l&apos;éducation relative aux droits de l&apos;homme et aux libertés fondamentales&lt;/em&gt; sont utilisées pour la construction de l&apos;indicateur global. Pour chacune des quatre composantes de l&apos;indicateur (politiques, programmes scolaires, formation des enseignants et évaluation des élèves), un certain nombre de critères sont mesurés, qui sont ensuite combinés pour donner un score unique entre zéro et un pour chaque composante. Seules les informations concernant l&apos;enseignement primaire et secondaire sont utilisées pour le calcul des indicateurs 4.7.1/12.8.1/13.3.1.&lt;/p&gt;
 &lt;ol&gt;
   &lt;li&gt;&lt;u&gt;Lois et politiques&lt;/u&gt;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;Les questions suivantes sont utilisées pour calculer la composante sur les lois et politiques de l&apos;indicateur :&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;A2. Veuillez indiquer quels thèmes de l&apos;ECM et de l&apos;EDD sont couverts dans &lt;u&gt;les lois, la législation ou les cadres juridiques&lt;/u&gt; nationaux ou infranationaux sur l&apos;éducation. &lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;A2. Veuillez indiquer quels thèmes de l&apos;Éducation à la citoyenneté mondiale (ECM) et de l&apos;Éducation au développement durable (EDD) sont couverts dans &lt;u&gt;les lois, la législation ou les cadres juridiques&lt;/u&gt; nationaux ou infranationaux sur l&apos;éducation. &lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;Il y a huit thèmes de l&apos;ECM/EDD (diversité culturelle et tolérance, égalité des sexes, droits de l&apos;homme, paix et non-violence, changement climatique, durabilité environnementale, survie et bien-être de l&apos;homme, consommation et production durables) et deux niveaux de gouvernement (national et infranational) = 16 réponses.&lt;/p&gt;
 &lt;p&gt;Les catégories de réponses sont non = 0, oui = 1, « inconnu » qui est traité comme un zéro, et « sans objet » qui est ignoré. Les blancs sont également traités comme des zéros. &lt;/p&gt;
 &lt;p&gt;Si plus de la moitié des réponses sont inconnues ou vides, le score de la question n&apos;est pas calculé. &lt;/p&gt;
@@ -35,7 +35,7 @@
   &lt;li&gt;&lt;u&gt;Programme scolaire (curriculum)&lt;/u&gt;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;Les questions suivantes sont utilisées pour calculer la composante sur le curriculum de l&apos;indicateur :&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;B2. Veuillez indiquer quels thèmes de l&apos;ECM et de l&apos;EDD sont enseignés dans le cadre du programme scolaire&lt;/em&gt;. &lt;/p&gt;
+&lt;p&gt;&lt;em&gt;B2. Veuillez indiquer quels thèmes de l&apos;Éducation à la citoyenneté mondiale (ECM) et de l&apos;Éducation au développement durable (EDD) sont enseignés dans le cadre du programme scolaire&lt;/em&gt;. &lt;/p&gt;
 &lt;p&gt;Il y a huit thèmes de l&apos;ECM/EDD (diversité culturelle et tolérance, égalité des sexes, droits de l&apos;homme, paix et non-violence, changement climatique, durabilité environnementale, survie et bien-être de l&apos;homme, et consommation et production durables) = 8 réponses.&lt;/p&gt;
 &lt;p&gt;Les catégories de réponses sont non = 0, oui = 1, et « inconnu », qui est traité comme un zéro. Les blancs sont également traités comme des zéros. &lt;/p&gt;
 &lt;p&gt;Si plus de la moitié des réponses sont inconnues ou vides, le score de la question n&apos;est pas calculé. &lt;/p&gt;
@@ -56,13 +56,13 @@
 &lt;p&gt;Les catégories de réponses sont « pas du tout » = 0, « partiellement » = 1, « largement » = 2, « inconnu » (traité comme un zéro), et « sans objet » qui est ignoré. Les blancs sont également traités comme des zéros. &lt;/p&gt;
 &lt;p&gt;Si plus de la moitié des réponses &lt;u&gt;à l&apos;exclusion des « sans objet »&lt;/u&gt; sont inconnues ou vides, le score de la question n&apos;est pas calculé.&lt;/p&gt;
 &lt;p&gt;Notez que « sans objet » est utilisé lorsqu&apos;un seul niveau de gouvernement est responsable de l&apos;éducation.&lt;/p&gt;
-&lt;p&gt;Score de la question = la moitié de la moyenne simple des scores 0, 1 et 2, &lt;u&gt;à l&apos;exclusion des « sans objet »&lt;/u&gt; (c&apos;est-à-dire, si une des deux réponses est « sans objet », la somme des scores 0, 1 et 2 est divisée par 2 pour obtenir la moitié de la moyenne et non par 4). Le score est la moitié de la moyenne afin qu&apos;il se situe entre 0 et 1, comme les scores des trois autres questions de cette section.&lt;/p&gt;
+&lt;p&gt;Score de la question = la moitié de la moyenne simple des scores 0, 1 et 2, &lt;u&gt;à l&apos;exclusion des « sans objet »&lt;/u&gt; (c.-à-d., si une des deux réponses est « sans objet », la somme des scores 0, 1 et 2 est divisée par 2 pour obtenir la moitié de la moyenne et non par 4). Le score est la moitié de la moyenne afin qu&apos;il se situe entre 0 et 1, comme les scores des trois autres questions de cette section.&lt;/p&gt;
 &lt;p&gt;Score de la composante sur le programme scolaire = moyenne simple des scores des questions B2, B3, B4 et E1b. Lorsqu&apos;un score de question n&apos;a pas pu être calculé parce que trop de réponses étaient inconnues ou vides, le score de la composante n&apos;est pas calculé et est signalé comme non disponible.&lt;/p&gt;
 &lt;ol&gt;
   &lt;li&gt;&lt;u&gt;Formation des enseignants&lt;/u&gt;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;Les questions suivantes sont utilisées pour calculer la composante sur la formation des enseignants de l&apos;indicateur :&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;C2. Veuillez indiquer si les enseignants, les formateurs et les éducateurs sont formés pour enseigner l&apos;ECM et l&apos;EDD au cours de la formation initiale ou préalable et/ou par le biais du développement professionnel continu&lt;/em&gt;. &lt;/p&gt;
+&lt;p&gt;&lt;em&gt;C2. Veuillez indiquer si les enseignants, les formateurs et les éducateurs sont formés pour enseigner l&apos;Éducation à la citoyenneté mondiale (ECM) et de l&apos;Éducation au développement durable (EDD) au cours de la formation initiale ou préalable et/ou par le biais du développement professionnel continu&lt;/em&gt;. &lt;/p&gt;
 &lt;p&gt;Il existe deux types de formation (initiale/préparatoire et développement professionnel continu) et deux types d&apos;enseignants (des matières sélectionnées dans lesquelles l&apos;EDD/ECM sont typiquement enseignées, et d&apos;autres matières) = 4 réponses. &lt;/p&gt;
 &lt;p&gt;Les catégories de réponses sont non = 0, oui = 1, et « inconnu » qui est traité comme un zéro. Les blancs sont également traités comme des zéros. &lt;/p&gt;
 &lt;p&gt;Si plus de la moitié des réponses sont inconnues ou vides, le score de la question n&apos;est pas calculé.&lt;/p&gt;
@@ -93,7 +93,7 @@
   &lt;li&gt;&lt;u&gt;Évaluation des élèves&lt;/u&gt;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;Les questions suivantes sont utilisées pour calculer la composante sur l&apos;évaluation des élèves de l&apos;indicateur :&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;D2. Veuillez indiquer si les thèmes de l&apos;ECM et de l&apos;EDD ci-dessous sont généralement inclus dans &lt;u&gt;les évaluations ou les examens des élèves&lt;/u&gt;&lt;/em&gt;. &lt;/p&gt;
+&lt;p&gt;&lt;em&gt;D2. Veuillez indiquer si les thèmes de l&apos;Éducation à la citoyenneté mondiale (ECM) et de l&apos;Éducation au développement durable (EDD) ci-dessous sont généralement inclus dans &lt;u&gt;les évaluations ou les examens des élèves&lt;/u&gt;&lt;/em&gt;. &lt;/p&gt;
 &lt;p&gt;Il y a huit thèmes de l&apos;ECM/EDD (diversité culturelle et tolérance, égalité des sexes, droits de l&apos;homme, paix et non-violence, changement climatique, durabilité environnementale, survie et bien-être de l&apos;homme, consommation et production durables) = 8 réponses. &lt;/p&gt;
 &lt;p&gt;Les catégories de réponses sont non = 0, oui = 1 et « inconnu » qui est traité comme un zéro. Les blancs sont également traités comme des zéros. &lt;/p&gt;
 &lt;p&gt;Si plus de la moitié des réponses sont inconnues ou vides, le score de la question n&apos;est pas calculé.&lt;/p&gt;

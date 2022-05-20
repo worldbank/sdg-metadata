@@ -3,9 +3,50 @@
 	<status>success</status>
 	<message>The DATA_COMP field for indicator 4-a-1, translated into fr</message>
 	<data>&lt;p&gt;Le nombre d’écoles d’un niveau d’enseignement donné ayant accès aux installations concernées est exprimé en pourcentage de l’ensemble des écoles de ce niveau d’enseignement. &lt;/p&gt;
-&lt;p&gt;PSn,f = Sn,f / Sn&lt;/p&gt;
+&lt;p&gt;&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;
+    &lt;msub&gt;
+      &lt;mrow&gt;
+        &lt;mi&gt;P&lt;/mi&gt;
+        &lt;mi&gt;E&lt;/mi&gt;
+      &lt;/mrow&gt;
+      &lt;mrow&gt;
+        &lt;mi&gt;n&lt;/mi&gt;
+        &lt;mo&gt;,&lt;/mo&gt;
+        &lt;mi&gt;i&lt;/mi&gt;
+      &lt;/mrow&gt;
+    &lt;/msub&gt;
+    &lt;mo&gt;=&lt;/mo&gt;
+    &lt;mi&gt;&amp;amp;nbsp;&lt;/mi&gt;
+    &lt;mfrac&gt;
+      &lt;mrow&gt;
+        &lt;msub&gt;
+          &lt;mrow&gt;
+            &lt;mi&gt;E&lt;/mi&gt;
+          &lt;/mrow&gt;
+          &lt;mrow&gt;
+            &lt;mi&gt;n&lt;/mi&gt;
+            &lt;mo&gt;,&lt;/mo&gt;
+            &lt;mi&gt;i&lt;/mi&gt;
+          &lt;/mrow&gt;
+        &lt;/msub&gt;
+      &lt;/mrow&gt;
+      &lt;mrow&gt;
+        &lt;msub&gt;
+          &lt;mrow&gt;
+            &lt;mi&gt;E&lt;/mi&gt;
+          &lt;/mrow&gt;
+          &lt;mrow&gt;
+            &lt;mi&gt;n&lt;/mi&gt;
+          &lt;/mrow&gt;
+        &lt;/msub&gt;
+      &lt;/mrow&gt;
+    &lt;/mfrac&gt;
+    &lt;mi&gt;&amp;amp;nbsp;&lt;/mi&gt;
+    &lt;mo&gt;&amp;#xD7;&lt;/mo&gt;
+    &lt;mn&gt;100&lt;/mn&gt;
+  &lt;/math&gt;&lt;/p&gt;
 &lt;p&gt;où :&lt;/p&gt;
-&lt;p&gt;PSn,f = pourcentage d’écoles de niveau n d’enseignement ayant accès à l’installation f&lt;/p&gt;
-&lt;p&gt;Sn,f = écoles de niveau n d’enseignement ayant accès à l’installation f&lt;/p&gt;
-&lt;p&gt;Sn = nombre total d’écoles au niveau n de l’enseignement&lt;/p&gt;</data>
+&lt;p&gt;&lt;em&gt;PE&lt;sub&gt;n,i&lt;/sub&gt;&lt;/em&gt; = pourcentage d’écoles de niveau &lt;em&gt;n&lt;/em&gt; d’enseignement ayant accès à l’installation &lt;em&gt;i&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;E&lt;sub&gt;n,i&lt;/sub&gt;&lt;/em&gt; = écoles de niveau &lt;em&gt;n&lt;/em&gt; d’enseignement ayant accès à l’installation &lt;em&gt;i&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;E&lt;sub&gt;n&lt;/sub&gt;&lt;/em&gt; = nombre total d’écoles au niveau &lt;em&gt;n&lt;/em&gt; de l’enseignement&lt;/p&gt;</data>
 </root>
