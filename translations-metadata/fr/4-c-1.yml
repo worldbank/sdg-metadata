@@ -3,8 +3,8 @@ SDG_GOAL: "<p>Objectif 4 : Assurer l'accès de tous à une éducation de qualit�
   \ un pied d'égalité, et promouvoir les possibilités d'apprentissage tout au long\
   \ de la vie</p>"
 COMPILING_ORG: <p>Institut de statistique de l'UNESCO (UNESCO-ISU)</p>
-DATA_SOURCE: <p> Ministères de l'éducation et/ou bureaux nationaux de statistique.</p>
-ADJUSTMENT: <p>Les données doivent être communiquées en fonction des niveaux d'éducation
+DATA_SOURCE: <p>Ministères de l'Éducation et/ou bureaux nationaux de statistique.</p>
+ADJUSTMENT: <p>Les données doivent être déclarées en fonction des niveaux d'éducation
   définis dans la Classification internationale type de l'éducation (CITE) afin de
   garantir la comparabilité internationale des indicateurs obtenus. </p>
 REG_AGG: <p>Les agrégats régionaux et mondiaux sont calculés comme des moyennes pondérées
@@ -24,3 +24,211 @@ COMPARABILITY: "<p><strong>Sources des divergences :</strong></p>\n<p>Les chiffr
   \ type de l’éducation (CITE); ou des différences dans la couverture (c.-à-d. la\
   \ mesure dans laquelle différents types d’éducation – p. ex., l’éducation privée\
   \ ou l’éducation spécialisée – sont inclus dans l’un plutôt que dans l’autre). </p>"
+STAT_CONC_DEF: "<p><strong>Définition :</strong></p>\n<p>Le pourcentage d’enseignants,\
+  \ par niveau d’enseignement enseigné (enseignement préscolaire, primaire, premier\
+  \ cycle du secondaire et deuxième cycle du secondaire) qui ont reçu au moins le\
+  \ minimum de formation la pédagogique organisée avant l’emploi et en cours d’emploi\
+  \ requis pour l’enseignement au niveau pertinent, dans un pays donné. </p>\n<p><strong>Concepts\
+  \ :</strong></p>\n<p>Un enseignant est formé s’il a reçu au moins la formation pédagogique\
+  \ minimale organisée avant l’emploi et en cours d’emploi requise pour l’enseignement\
+  \ au niveau pertinent, dans un pays donné. </p>"
+CLASS_SYSTEM: "<p>La Classification internationale type de l’éducation (CITE) est\
+  \ utilisée comme référence pour définir et classer les programmes éducatifs entre\
+  \ les pays de manière comparative. </p>\n<p>La formation pédagogique minimale des\
+  \ enseignants organisée avant l’emploi et en cours d’emploi requise pour l’enseignement\
+  \ au niveau pertinent est définie conformément aux normes nationales. </p>\n<p>L’ISU\
+  \ est en train d’élaborer une Classification internationale type des programmes\
+  \ de formation des enseignants (CITE-T) afin d’appuyer la production de données\
+  \ comparables au niveau international sur les programmes de formation des enseignants\
+  \ et d’améliorer la disponibilité et la qualité des statistiques sur les enseignants,\
+  \ en particulier en ce qui concerne les programmes nationaux de formation initiale\
+  \ des enseignants. La CITE-T aidera également à explorer l’élaboration d’une norme\
+  \ internationale pour les enseignants « formés » et « qualifiés » qui pourrait être\
+  \ utilisée parallèlement aux normes nationales actuellement utilisées pour le suivi\
+  \ de cet objectif. Un projet de proposition de CITE-T est soumis à la 41e session\
+  \ de la Conférence générale de l’UNESCO pour examen et adoption en novembre 2021.\
+  \ </p>"
+INST_MANDATE: "<p>L'Institut de statistique de l'UNESCO (ISU) est la branche statistique\
+  \ de l'Organisation des Nations Unies pour l'éducation, la science et la culture\
+  \ (UNESCO). L’ISU est la source officielle de données comparables à l’échelle internationale\
+  \ utilisées pour suivre les progrès accomplis dans la réalisation de l’objectif\
+  \ de développement durable en matière d’éducation (ODD 4) et des cibles clés liées\
+  \ à la science, à la culture et à la communication, ainsi qu’à l’égalité des sexes.\
+  \ L'Institut produit également des normes et des méthodologies pour soutenir le\
+  \ suivi de ces objectifs et cibles.</p>\n<p>En outre, dans le cadre de l'attribution\
+  \ du mandat de l'ISU, le « Education 2030 Framework for Action &#xA7;100 » a souligné\
+  \ que <em>« [...] Les pays devraient chercher à améliorer la qualité, les niveaux\
+  \ de désagrégation et l'actualité des rapports à l'Institut de statistique de l'UNESCO\
+  \ [...]</em> » (<a href=\"http://uis.unesco.org/sites/default/files/documents/education-2030-incheon-framework-for-action-implementation-of-sdg4-2016-en_2.pdf\"\
+  >http://uis.unesco.org/sites/default/files/documents/education-2030-incheon-framework-for-action-implementation-of-sdg4-2016-en_2.pdf</a>,\
+  \ item 18). Le cadre a également indiqué que : « <em>Compte tenu de l'importance\
+  \ de l'harmonisation du suivi et de l'établissement de rapports, l'ISU restera la\
+  \ source officielle de données comparables au niveau transnational sur l'éducation.\
+  \ Il continuera de produire des indicateurs de suivi internationaux basés sur son\
+  \ enquête annuelle sur l'éducation et sur d'autres sources de données qui garantissent\
+  \ la comparabilité internationale pour plus de 200 pays et territoires. En plus\
+  \ de la collecte de données, l'ISU travaillera avec des partenaires pour développer\
+  \ de nouveaux indicateurs, des approches statistiques et des outils de suivi afin\
+  \ de mieux évaluer les progrès pour les cibles liées au mandat de l'UNESCO, en travaillant\
+  \ en coordination avec le \"SDG-Education 2030 SC \"</em> » (<a href=\"http://uis.unesco.org/sites/default/files/documents/education-2030-incheon-framework-for-action-implementation-of-sdg4-2016-en_2.pdf\"\
+  >http://uis.unesco.org/sites/default/files/documents/education-2030-incheon-framework-for-action-implementation-of-sdg4-2016-en_2.pdf</a>,\
+  \ item 100).</p>"
+DOC_METHOD: "<p>L’ISU a élaboré des conseils à l’intention des pays sur la méthodologie\
+  \ qui devrait être utilisée pour calculer cet indicateur. Les correspondances CITE\
+  \ qui aident les pays à déclarer leurs données dans un cadre comparable au niveau\
+  \ international sont disponibles sur le site Web de l’Institut de statistique de\
+  \ l’UNESCO (<a href=\"http://uis.unesco.org/fr/cartographies-de-la-cite\">http://uis.unesco.org/fr/cartographies-de-la-cite</a>).\
+  \ </p>\n<p>Les données administratives au sujet des enseignants provenant des écoles\
+  \ et d’autres centres d’apprentissage organisés sont recueillies dans le cadre du\
+  \ recensement national annuel des écoles. Les données recueillies sont généralement\
+  \ stockées dans le système national d’information pour la gestion de l’éducation\
+  \ (SIGE) conformément aux procédures en vigueur dans chaque pays. </p>\n<p>Pour\
+  \ aider les pays à faire un choix plus éclairé en ce qui concerne le SIGE, en élaborant\
+  \ des normes sur ce qu’un SIGE doit être en mesure de faire afin de fournir des\
+  \ informations précises et valides aux décideurs du secteur de l’éducation, aux\
+  \ directeurs d’école et aux organisations internationales dans le cadre de la communication\
+  \ de données internationales, l’ISU, en collaboration avec le Partenariat mondial\
+  \ pour l’éducation, a développé des guides de l’utilisateur et de l’acheteur du\
+  \ SIGE ( <a href=\"http://emis.uis.unesco.org/buyers-and-users-guide/\">http://emis.uis.unesco.org/buyers-and-users-guide/</a>).\
+  \ </p>"
+SDG_TARGET: '<p>Objectif 4.c : D’ici 2030, augmenter considérablement l’offre d’enseignants
+  qualifiés, notamment par le biais de la coopération internationale pour la formation
+  des enseignants dans les pays en développement, en particulier les pays les moins
+  développés et les petits États insulaires en développement</p>'
+SDG_SERIES_DESCR: <p>Sans objet</p>
+SDG_INDICATOR: '<p>Indicateur 4.c.1 : Proportion d’enseignants ayant les qualifications
+  minimales requises, selon le niveau d’enseignement</p>'
+SDG_RELATED_INDICATORS: <p>1.2, 1.4, 1.a, 2.1, 2.2, 2.3, 3.7, 3.c, 3.d, 5.1, 5.5,
+  5.b, 8.6, 8.7, 10.2, 12.8, 13.3, 13.b</p>
+SDG_CUSTODIAN_AGENCIES: <p>Institut de statistique de l'UNESCO (UNESCO-ISU)</p>
+UNIT_MEASURE: <p>Proportion (valeurs comprises entre 0 % et 100 %). </p>
+SOURCE_TYPE: <p>Données administratives provenant d’écoles et d’autres centres d’apprentissage
+  organisés. </p>
+COLL_METHOD: <p>L’Institut de statistique de l’UNESCO produit des séries chronologiques
+  basées sur les données des enseignants déclarées par les ministères de l’Éducation
+  ou les bureaux nationaux de statistique. Les données sont recueillies dans le cadre
+  de l’Enquête annuelle sur l’éducation formelle. On invite les pays à déclarer des
+  données en fonction des niveaux d’enseignement définis dans la Classification internationale
+  type de l’éducation (CITE) afin d’assurer la comparabilité internationale des indicateurs
+  qui en résultent. </p>
+FREQ_COLL: <p>Enquête annuelle de l’ISU (la dernière en date a été lancée en octobre
+  2020). </p>
+REL_CAL_POLICY: <p>Publication semestrielle des données de l’ISU (février et septembre).
+  </p>
+DATA_COMP: "<p>Le nombre d’enseignants formés à un niveau d’éducation donné est exprimé\
+  \ en pourcentage de tous les enseignants de ce niveau d’enseignement. </p>\n<p>PEF<sub>n</sub>\
+  \ = EF<sub>n</sub> / E<sub>n</sub></p>\n<p>où:</p>\n<p>PEF<sub>n</sub> = pourcentage\
+  \ d’enseignants formés au niveau n d’enseignement</p>\n<p>EF<sub>n</sub> = enseignants\
+  \ formés au niveau n d’enseignement</p>\n<p>E<sub>n</sub> = nombre total d’enseignants\
+  \ au niveau n d’enseignement</p>\n<p>n = 02 (préscolaire), 1 (primaire), 2 (premier\
+  \ cycle du secondaire), 3 (deuxième cycle du secondaire) et 23 (secondaire)</p>"
+DATA_VALIDATION: "<p>Les données des enseignants utilisées pour produire cet indicateur\
+  \ sont recueillies dans le cadre de l’Enquête annuelle sur l’éducation formelle.\
+  \ Les données reçues sont validées à l’aide de systèmes électroniques de détection\
+  \ d’erreurs qui vérifient les erreurs et les incohérences arithmétiques et l’analyse\
+  \ des tendances pour des résultats invraisemblables. Les demandes sont traitées\
+  \ auprès des agences compétentes dans les différents pays ou les représentants des\
+  \ pays qui déclarent les données afin que des corrections puissent être apportées\
+  \ (des erreurs) ou des explications données (des résultats invraisemblables mais\
+  \ corrects). Au cours de ce processus, les pays sont également encouragés à fournir\
+  \ des estimations pour les éléments de données manquants ou incomplets. </p>\n<p>En\
+  \ outre, les pays ont la possibilité d’examiner, de commenter et de valider les\
+  \ principaux indicateurs produits par l’ISU dans un « examen annuel national » des\
+  \ indicateurs avant la publication des données par l’ISU. </p>"
+RATIONALE: "<p>Les enseignants jouent un rôle clé pour assurer la qualité de l’enseignement\
+  \ dispensé. Idéalement, tous les enseignants devraient recevoir une formation pédagogique\
+  \ adéquate, appropriée et pertinente pour enseigner au niveau d’enseignement choisi\
+  \ et être qualifiés sur le plan académique dans la ou les matières qu’ils sont censés\
+  \ enseigner. Cet indicateur mesure la part de la main-d’œuvre enseignante qui est\
+  \ bien formée sur le plan pédagogique. </p>\n<p>Une valeur élevée indique que les\
+  \ élèves sont enseignés par des enseignants qui sont pédagogiquement bien formés\
+  \ pour enseigner. </p>"
+REC_USE_LIM: <p>Il est important de noter que les exigences minimales nationales en
+  matière de formation peuvent varier considérablement d’un pays à l’autre. Cette
+  variabilité entre les pays diminue l’utilité du suivi mondial car l’indicateur ne
+  montrerait que le pourcentage atteignant les normes nationales, et non si les enseignants
+  de différents pays ont des niveaux de formation similaires. Des travaux supplémentaires
+  seraient nécessaires si l’on voulait appliquer une norme commune pour la formation
+  des enseignants dans tous les pays. </p>
+IMPUTATION: "<p><strong>&#x2022; Au niveau national :</strong></p>\n<p>L’ISU estime\
+  \ certains éléments de données clés qui peuvent être manquants ou incomplets afin\
+  \ d’avoir des estimations publiables au niveau des pays. Lorsque cela n’est pas\
+  \ possible, l’ISU impute les valeurs manquantes à utiliser uniquement pour le calcul\
+  \ des agrégats régionaux et globaux. </p>\n<p>Aux fins du calcul du pourcentage\
+  \ d’enseignants formés, l’ISU peut effectuer un ou plusieurs des éléments suivants\
+  \ :</p>\n<ul>\n<li>Un ajustement pour tenir compte de la surdéclaration ou de la\
+  \ sous-déclaration, par exemple :</li>\n    <li>Inclure les enseignants dans un\
+  \ type d’éducation – tel que l’enseignement privé ou l’éducation spéciale – non\
+  \ déclaré par le pays; et/ou </li>\n    <li>Inclure les enseignants d’une partie\
+  \ du pays non déclarée par le pays. </li>\n<li>Une estimation du nombre d’enseignants\
+  \ formés à chaque niveau d’enseignement si le pays n’a déclaré que des données pour\
+  \ les niveaux combinés (p. ex., pour le secondaire au complet plutôt que pour le\
+  \ premier et le deuxième cycle du secondaire séparément). </li>\n</ul>\n<p>Dans\
+  \ tous les cas, les estimations sont basées sur des preuves provenant du pays lui-même\
+  \ (p. ex., des informations du fournisseur de données sur la taille de la composante\
+  \ manquante, par correspondance, publications ou données sur la page Web du ministère\
+  \ ou du bureau national de la statistique, ou via des enquêtes menées par d’autres\
+  \ organisations) ou sur des données du pays pour une année précédente. Ces chiffres\
+  \ peuvent être publiés: i) en tant que données observées si les éléments manquants\
+  \ sont trouvés dans une source nationale; ii) en tant qu’estimations nationales\
+  \ si le pays est persuadé de produire des estimations et de les soumettre à la place\
+  \ des données manquantes; ou (iii) en tant qu’estimations de l’ISU, si les estimations\
+  \ sont faites par l’ISU. </p>\n<p><strong>&#x2022; Aux niveaux régional et mondial\
+  \ :</strong></p>\n<p>Les agrégats régionaux et mondiaux sont dérivés de données\
+  \ nationales publiables et imputées. Les données publiables sont les données soumises\
+  \ à l’ISU par les États membres ou le résultat d’une estimation explicite faite\
+  \ par l’Institut sur la base de normes prédéterminées. Dans les deux cas, ces données\
+  \ sont envoyées aux États membres pour examen avant d’être considérées comme publiables\
+  \ par l’ISU. </p>\n<p>Lorsque les données ne sont pas disponibles pour tous les\
+  \ pays, l’ISU impute des données nationales dans le seul but de calculer des moyennes\
+  \ régionales. Ces données imputées ne sont ni publiées ni diffusées d’une autre\
+  \ manière. </p>\n<p>Lorsque des données sont disponibles pour un pays à la fois\
+  \ pour une année antérieure et une année plus récente que l’année manquante, une\
+  \ interpolation linéaire simple est effectuée. Lorsque les données ne sont disponibles\
+  \ que pour une année antérieure, la valeur la plus récente est utilisée comme estimation.\
+  \ De même, lorsque les données ne sont disponibles que pour une année plus récente,\
+  \ la dernière valeur est utilisée comme estimation. </p>\n<p>Lorsque les données\
+  \ pertinentes ne sont pas du tout disponibles pour un pays, les estimations peuvent\
+  \ être fondées sur une autre variable qui est clairement liée à l’élément estimé.\
+  \ Par exemple, les enseignants formés peuvent être basés sur le nombre total d’enseignants.\
+  \ </p>\n<p>Lorsqu’aucune donnée n’est disponible pour le pays au cours d’une année\
+  \ quelconque qui puisse aider à calculer l’estimation, la moyenne non pondérée pour\
+  \ la région dans laquelle se trouve le pays est utilisée. </p>"
+QUALITY_ASSURE: "<p>L’indicateur devrait être basé sur les données disponibles sur\
+  \ les enseignants formés pour le niveau d’enseignement donné, de tous les types\
+  \ d’établissements d’enseignement du pays (publics et privés). Le processus d’assurance\
+  \ de la qualité comprend l’examen de la documentation de l’enquête, l’examen des\
+  \ valeurs des indicateurs au fil du temps, le calcul des mesures de fiabilité, l’examen\
+  \ de la cohérence des valeurs des indicateurs provenant de différentes sources et,\
+  \ si nécessaire, la consultation des fournisseurs de données. </p>\n<p>Avant la\
+  \ publication annuelle des données et l’ajout de tout indicateur à la base de données\
+  \ mondiale sur les indicateurs des ODD, l’Institut de statistique de l’UNESCO soumet\
+  \ toutes les valeurs des indicateurs et les notes méthodologiques aux bureaux nationaux\
+  \ de statistique, aux ministères de l’Éducation ou à d’autres organismes concernés\
+  \ dans les différents pays pour examen et rétroaction. </p>"
+QUALITY_ASSMNT: '<p>Des données précises sur le nombre d’enseignants à chaque niveau
+  d’enseignement qui ont les qualifications minimales requises et le nombre total
+  d’enseignants à chaque niveau au cours d’une année scolaire donnée sont essentielles
+  pour calculer cet indicateur. Les critères d’évaluation de la qualité comprennent
+  : les sources de données doivent comprendre la documentation appropriée; les valeurs
+  des données doivent être représentatives au niveau de la population nationale et,
+  dans la négative, doivent être notées en bas de page; les données sont plausibles
+  et fondées sur des tendances et sont cohérentes avec les valeurs précédemment publiées
+  ou déclarées pour l’indicateur. </p>'
+COVERAGE: "<p><strong>Disponibilité des données :</strong></p>\n<p>124 pays pour l’enseignement\
+  \ préscolaire, 141 pays pour l’enseignement primaire, 103 pays pour le premier cycle\
+  \ du secondaire et 97 pays pour le deuxième cycle du secondaire, avec au moins un\
+  \ point de données pour la période 2010-2021. </p>\n<p><strong>Séries chronologiques\
+  \ :</strong></p>\n<p>1998-2021 dans la base de données de l’ISU; 2000-2021 dans\
+  \ la base de données mondiale des ODD. </p>\n<p><strong>Désagrégation :</strong></p>\n\
+  <p>Selon le sexe, le niveau d’éducation et le type d’établissement (public/privé).\
+  \ </p>"
+OTHER_DOC: "<p><strong>URL :</strong></p>\n<p>http://uis.unesco.org/fr</p>\n<p><strong>Références\
+  \ :</strong></p>\n<p>Guides de l’utilisateur et de l’acheteur du SIGE : </p>\n<p><a\
+  \ href=\"http://emis.uis.unesco.org/buyers-and-users-guide/\">http://emis.uis.unesco.org/buyers-and-users-guide/</a></p>\n\
+  <p>Manuel d'instruction - Enquête sur l’enseignement formel :<a href=\"http://uis.unesco.org/sites/default/files/documents/manuel-dinstructions-enquete-lenseignement-formel-2018-fr.pdf\"\
+  >http://uis.unesco.org/sites/default/files/documents/manuel-dinstructions-enquete-lenseignement-formel-2018-fr.pdf</a></p>\n\
+  <p>Classification internationale type de l’éducation (CITE) : <a href=\"http://uis.unesco.org/sites/default/files/documents/international-standard-classification-of-education-isced-2011-fr.pdf\"\
+  >http://uis.unesco.org/sites/default/files/documents/international-standard-classification-of-education-isced-2011-fr.pdf</a></p>\n\
+  <p>Questionnaire de l’ISU sur les étudiants et les enseignants (CITE 0-4) : </p>\n\
+  <p><a href=\"http://uis.unesco.org/fr/uis-questionnaires\">http://uis.unesco.org/fr/uis-questionnaires</a></p>"

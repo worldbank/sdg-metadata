@@ -1,13 +1,13 @@
 META_LAST_UPDATE: <p>2022-03-31</p>
 SDG_CUSTODIAN_AGENCIES: <p>Institut de statistique de l'UNESCO (UNESCO-ISU)</p>
 CONTACT_ORGANISATION: <p>Institut de statistique de l'UNESCO (UNESCO-ISU)</p>
-REL_CAL_POLICY: <p>Diffusion semestrielle des données de l'ISU (février et septembre).
+REL_CAL_POLICY: <p>Diffusion semestrielle des données de l'ISU (mars et septembre).
   </p>
-DATA_VALIDATION: <p>L’Institut de statistique de l’UNESCO partage toutes les valeurs
-  des indicateurs et les notes sur la méthodologie avec les bureaux nationaux de statistique,
-  les ministères de l’éducation ou d’autres organismes compétents dans les différents
-  pays pour leur examen, leur rétroaction et leur validation avant la diffusion des
-  données. </p>
+DATA_VALIDATION: <p>L’Institut de statistique de l'UNESCO (UNESCO-ISU) partage toutes
+  les valeurs des indicateurs et les notes sur la méthodologie avec les bureaux nationaux
+  de statistique, les ministères de l’Éducation ou d’autres organismes compétents
+  dans les différents pays pour leur examen, leur rétroaction et leur validation avant
+  la diffusion des données. </p>
 SDG_GOAL: "<p>Objectif 4 : Assurer l'accès de tous à une éducation de qualité, sur\
   \ un pied d'égalité, et promouvoir les possibilités d'apprentissage tout au long\
   \ de la vie</p>"
@@ -98,11 +98,11 @@ STAT_CONC_DEF: "<p><strong>Définitions :</strong></p>\n<p>Le pourcentage d’
   \ savon à la disposition de toutes les filles et de tous les garçons. </p>"
 SOURCE_TYPE: "<p>(1) Données administratives provenant d’écoles et d’autres prestataires\
   \ d’enseignement ou de formation</p>\n<p>(2) Évaluations transnationales de l’apprentissage</p>"
-FREQ_COLL: "<p>Pour les sources administratives : enquête annuelle de l’ISU (dernière\
-  \ débutée en octobre 2020) et enquête UNESCO-OCDE-Eurostat (UOE) (dernière débutée\
-  \ en juin 2020). </p>\n<p>Pour les évaluations transnationales : au fur et à mesure\
-  \ que les données sont rendues publiques. </p>"
-DATA_SOURCE: "<p>Pour les sources administratives : ministères de l'éducation et/ou\
+FREQ_COLL: "<p>Pour les sources administratives : enquête annuelle de l’ISU (généralement\
+  \ commencée au 4<sup>e</sup> trimestre) et enquête UNESCO-OCDE-Eurostat (UOE) (généralement\
+  \ commencée en juin). </p>\n<p>Pour les évaluations transnationales : au fur et\
+  \ à mesure que les données sont rendues publiques. </p>"
+DATA_SOURCE: "<p>Pour les sources administratives : ministères de l'Éducation et/ou\
   \ bureaux nationaux de statistique.</p>\n<p>Pour les évaluations d'apprentissage\
   \ transnationales : administrateurs du programme d'évaluation des étudiants internationaux.</p>"
 REC_USE_LIM: <p>L’indicateur mesure l’existence dans les écoles du service ou de l’installation
@@ -111,109 +111,109 @@ ADJUSTMENT: <p>Les données doivent être déclarées en fonction des niveaux d�
   définis dans la Classification internationale type de l’éducation (CITE) afin d’assurer
   la comparabilité internationale des indicateurs qui en résultent. </p>
 DOC_METHOD: <p>L’ISU a élaboré des conseils à l’intention des pays sur la méthodologie
-  qui devrait être utilisée pour calculer cet indicateur. Les correspondances de la
-  CITE aident les pays à présenter leurs données dans un cadre comparable au niveau
-  international et sont disponibles sur le site Web de l'Institut de statistique de
-  l'UNESCO (<a href="http://uis.unesco.org/fr/cartographies-de-la-cite">http://uis.unesco.org/fr/cartographies-de-la-cite</a>).
+  qui devrait être utilisée pour calculer cet indicateur. Les correspondances CITE
+  qui aident les pays à déclarer leurs données dans un cadre comparable au niveau
+  international sont disponibles sur le site Web de l’Institut de statistique de l’UNESCO
+  (<a href="http://uis.unesco.org/fr/cartographies-de-la-cite">http://uis.unesco.org/fr/cartographies-de-la-cite</a>).
   </p>
 OTHER_DOC: "<p><strong>URL :</strong></p>\n<p><a href=\"http://uis.unesco.org/fr\"\
   >http://uis.unesco.org/fr</a></p>\n<p><strong>Références :</strong></p>\n<p>La proportion\
   \ d’écoles ayant accès à l’électricité, à Internet à des fins pédagogiques et à\
   \ des ordinateurs à des fins pédagogiques : consulter le Guide de mesure pour l'intégration\
   \ des technologies de l’information et de la communication (TIC) en éducation, document\
-  \ technique n° 2 de l’ISU.</p>\n<p>Indicateurs de suivi WASH (en anglais) : http://www.unicef.org/wash/files/4_WSSCC_JMP_Fact_Sheets_4_UK_LoRes.pdf\
-  \ </p>\n<p>Questionnaires de l’ISU sur les statistiques des technologies de l’information\
-  \ et de la communication (TIC) en éducation et module régional pour l’Afrique :\
-  \ <a href=\"http://uis.unesco.org/fr\">http://uis.unesco.org/fr</a>.</p>\n<p><strong>Annexe\
-  \ : méthodes utilisées pour estimer les valeurs des indicateurs à l’aide d’évaluations\
-  \ transnationales</strong></p>\n<p>Les évaluations transnationales sont fondées\
-  \ sur des échantillons et, en tant que telles, fournissent des estimations de la\
-  \ proportion d’écoles disposant de l’installation donnée. Les méthodes d’estimation\
-  \ ont suivi celles suggérées par l’organisation concernée fournissant les données\
-  \ d’évaluation transnationales. Toutes les enquêtes ont utilisé un plan d’échantillonnage\
-  \ à deux degrés, sélectionnant au hasard les écoles, puis des classes ou des élèves\
-  \ au sein des écoles choisies. Les données au niveau de l’école (premier degré)\
-  \ ont été utilisées pour estimer les pourcentages d’écoles ayant les installations\
-  \ données. Les données ont été pondérées par les poids d’échantillonnage des écoles.\
-  \ La population représentée par l’échantillon d’écoles est présentée dans le tableau\
-  \ 1 de l’annexe.</p>\n<table>\n  <tbody>\n    <tr>\n      <td colspan=\"10\">\n\
-  \        <p>Tableau 1 de l’annexe. Données sur les indicateurs de l’environnement\
-  \ scolaire recueillies par une évaluation transnationale de l’apprentissage suggérée</p>\n\
-  \      </td>\n    </tr>\n    <tr>\n      <td>\n        <p> </p>\n      </td>\n \
-  \     <td></td>\n      <td>\n        <p> </p>\n      </td>\n      <td colspan=\"\
-  7\">\n        <p>Données recueillies sur les points suivants :</p>\n      </td>\n\
-  \    </tr>\n    <tr>\n      <td>\n        <p>Évaluation</p>\n      </td>\n     \
-  \ <td>\n        <p>Nombre de participants (y compris les entités infranationales\
-  \ dans certains cas; les données peuvent ne pas être disponibles pour tous les pays\
-  \ pour un indicateur donné)</p>\n      </td>\n      <td>\n        <p>Population\
-  \ cible</p>\n      </td>\n      <td>\n        <p>Électricité</p>\n      </td>\n\
-  \      <td>\n        <p>Internet à des fins pédagogiques</p>\n      </td>\n    \
-  \  <td>\n        <p>Ordinateurs à des fins pédagogiques</p>\n      </td>\n     \
-  \ <td>\n        <p>Infrastructure adaptée pour les étudiants handicapés</p>\n  \
-  \    </td>\n      <td>\n        <p>Eau potable de base</p>\n      </td>\n      <td>\n\
-  \        <p>Installations sanitaires de base non mixtes</p>\n      </td>\n     \
-  \ <td>\n        <p>Installations de base pour se laver les mains</p>\n      </td>\n\
-  \    </tr>\n    <tr>\n      <td>\n        <p>PISA 2018</p>\n      </td>\n      <td>\n\
-  \        <p>80</p>\n      </td>\n      <td>\n        <p>Écoles secondaires avec\
-  \ des élèves de 15 ans</p>\n      </td>\n      <td>\n        <p> </p>\n      </td>\n\
-  \      <td>\n        <p>X</p>\n      </td>\n      <td>\n        <p>X</p>\n     \
-  \ </td>\n      <td>\n        <p> </p>\n      </td>\n      <td>\n        <p> </p>\n\
-  \      </td>\n      <td>\n        <p> </p>\n      </td>\n      <td>\n        <p>\
-  \ </p>\n      </td>\n    </tr>\n    <tr>\n      <td>\n        <p>TIMSS 2015</p>\n\
-  \      </td>\n      <td>\n        <p>54 4<sup>e</sup> année; 46 8<sup>e</sup> année</p>\n\
-  \      </td>\n      <td>\n        <p>Écoles avec 8<sup>e</sup> année; écoles avec\
-  \ 4<sup>e</sup> année</p>\n      </td>\n      <td>\n        <p> </p>\n      </td>\n\
-  \      <td>\n        <p> </p>\n      </td>\n      <td>\n        <p>X </p>\n    \
-  \  </td>\n      <td>\n        <p> </p>\n      </td>\n      <td>\n        <p> </p>\n\
-  \      </td>\n      <td>\n        <p> </p>\n      </td>\n      <td>\n        <p>\
-  \ </p>\n      </td>\n    </tr>\n    <tr>\n      <td>\n        <p>PASEC 2014</p>\n\
-  \      </td>\n      <td>\n        <p>10 les deux niveaux</p>\n      </td>\n    \
-  \  <td>\n        <p>Écoles avec 2<sup>e</sup> année; écoles avec 6<sup>e</sup> année</p>\n\
+  \ technique n° 2 de l’ISU.</p>\n<p>Indicateurs de suivi WASH (en anglais) : <a href=\"\
+  https://www.unicef.org/wash/\">https://www.unicef.org/wash/</a> </p>\n<p>Questionnaires\
+  \ de l’ISU sur les statistiques des technologies de l’information et de la communication\
+  \ (TIC) en éducation et module régional pour l’Afrique : <a href=\"http://uis.unesco.org/fr/uis-questionnaires\"\
+  >http://uis.unesco.org/fr/uis-questionnaires</a></p>\n<p><strong>Annexe : méthodes\
+  \ utilisées pour estimer les valeurs des indicateurs à l’aide d’évaluations transnationales</strong></p>\n\
+  <p>Les évaluations transnationales sont fondées sur des échantillons et, en tant\
+  \ que telles, fournissent des estimations de la proportion d’écoles disposant de\
+  \ l’installation donnée. Les méthodes d’estimation ont suivi celles suggérées par\
+  \ l’organisation concernée fournissant les données d’évaluation transnationales.\
+  \ Toutes les enquêtes ont utilisé un plan d’échantillonnage à deux degrés, sélectionnant\
+  \ au hasard les écoles, puis des classes ou des élèves au sein des écoles choisies.\
+  \ Les données au niveau de l’école (premier degré) ont été utilisées pour estimer\
+  \ les pourcentages d’écoles ayant les installations données. Les données ont été\
+  \ pondérées par les poids d’échantillonnage des écoles. La population représentée\
+  \ par l’échantillon d’écoles est présentée dans le tableau 1 de l’annexe.</p>\n\
+  <table>\n  <tbody>\n    <tr>\n      <td colspan=\"10\">\n        <p>Tableau 1 de\
+  \ l’annexe. Données sur les indicateurs de l’environnement scolaire recueillies\
+  \ par une évaluation transnationale de l’apprentissage suggérée</p>\n      </td>\n\
+  \    </tr>\n    <tr>\n      <td>\n        <p> </p>\n      </td>\n      <td></td>\n\
+  \      <td>\n        <p> </p>\n      </td>\n      <td colspan=\"7\">\n        <p>Données\
+  \ recueillies sur les points suivants :</p>\n      </td>\n    </tr>\n    <tr>\n\
+  \      <td>\n        <p>Évaluation</p>\n      </td>\n      <td>\n        <p>Nombre\
+  \ de participants (y compris les entités infranationales dans certains cas; les\
+  \ données peuvent ne pas être disponibles pour tous les pays pour un indicateur\
+  \ donné)</p>\n      </td>\n      <td>\n        <p>Population cible</p>\n      </td>\n\
+  \      <td>\n        <p>Électricité</p>\n      </td>\n      <td>\n        <p>Internet\
+  \ à des fins pédagogiques</p>\n      </td>\n      <td>\n        <p>Ordinateurs à\
+  \ des fins pédagogiques</p>\n      </td>\n      <td>\n        <p>Infrastructure\
+  \ adaptée pour les étudiants handicapés</p>\n      </td>\n      <td>\n        <p>Eau\
+  \ potable de base</p>\n      </td>\n      <td>\n        <p>Installations sanitaires\
+  \ de base non mixtes</p>\n      </td>\n      <td>\n        <p>Installations de base\
+  \ pour se laver les mains</p>\n      </td>\n    </tr>\n    <tr>\n      <td>\n  \
+  \      <p>PISA 2018</p>\n      </td>\n      <td>\n        <p>80</p>\n      </td>\n\
+  \      <td>\n        <p>Écoles secondaires avec des élèves de 15 ans</p>\n     \
+  \ </td>\n      <td>\n        <p> </p>\n      </td>\n      <td>\n        <p>X</p>\n\
   \      </td>\n      <td>\n        <p>X</p>\n      </td>\n      <td>\n        <p>\
   \ </p>\n      </td>\n      <td>\n        <p> </p>\n      </td>\n      <td>\n   \
-  \     <p> </p>\n      </td>\n      <td>\n        <p>X</p>\n      </td>\n      <td>\n\
+  \     <p> </p>\n      </td>\n      <td>\n        <p> </p>\n      </td>\n    </tr>\n\
+  \    <tr>\n      <td>\n        <p>TIMSS 2015</p>\n      </td>\n      <td>\n    \
+  \    <p>54 4<sup>e</sup> année; 46 8<sup>e</sup> année</p>\n      </td>\n      <td>\n\
+  \        <p>Écoles avec 8<sup>e</sup> année; écoles avec 4<sup>e</sup> année</p>\n\
+  \      </td>\n      <td>\n        <p> </p>\n      </td>\n      <td>\n        <p>\
+  \ </p>\n      </td>\n      <td>\n        <p>X </p>\n      </td>\n      <td>\n  \
+  \      <p> </p>\n      </td>\n      <td>\n        <p> </p>\n      </td>\n      <td>\n\
   \        <p> </p>\n      </td>\n      <td>\n        <p> </p>\n      </td>\n    </tr>\n\
-  \    <tr>\n      <td>\n        <p>LLECE (TERCE) 2013</p>\n      </td>\n      <td>\n\
-  \        <p>16 les deux niveaux</p>\n      </td>\n      <td>\n        <p>Écoles\
-  \ avec 3<sup>e</sup> année; écoles avec 6<sup>e</sup> année</p>\n      </td>\n \
-  \     <td>\n        <p>X</p>\n      </td>\n      <td>\n        <p>X</p>\n      </td>\n\
+  \    <tr>\n      <td>\n        <p>PASEC 2014</p>\n      </td>\n      <td>\n    \
+  \    <p>10 les deux niveaux</p>\n      </td>\n      <td>\n        <p>Écoles avec\
+  \ 2<sup>e</sup> année; écoles avec 6<sup>e</sup> année</p>\n      </td>\n      <td>\n\
+  \        <p>X</p>\n      </td>\n      <td>\n        <p> </p>\n      </td>\n    \
+  \  <td>\n        <p> </p>\n      </td>\n      <td>\n        <p> </p>\n      </td>\n\
   \      <td>\n        <p>X</p>\n      </td>\n      <td>\n        <p> </p>\n     \
-  \ </td>\n      <td>\n        <p>X</p>\n      </td>\n      <td>\n        <p> </p>\n\
-  \      </td>\n      <td>\n        <p> </p>\n      </td>\n    </tr>\n  </tbody>\n\
-  </table>\n<table>\n  <tbody>\n    <tr>\n      <td colspan=\"4\">\n        <p>Tableau\
-  \ 2 de l’annexe. Questionnaires scolaires liés à l’ODD 4.a.1</p>\n      </td>\n\
-  \    </tr>\n    <tr>\n      <td>\n        <p>Enquête</p>\n      </td>\n      <td>\n\
-  \        <p>Population</p>\n      </td>\n      <td>\n        <p>Variable (question)</p>\n\
-  \      </td>\n      <td>\n        <p>Sous-indicateur ODD 4.a.1</p>\n      </td>\n\
-  \    </tr>\n    <tr>\n      <td rowspan=\"2\">\n        <p>LLECE 2013</p>\n    \
-  \  </td>\n      <td rowspan=\"2\">\n        <p>Écoles avec élèves de 3<sup>e</sup>\
-  \ année; écoles avec élèves de 6<sup>e</sup> année</p>\n      </td>\n      <td>\n\
-  \        <p>&#xBF;Con cu&#xE1;les de estos servicios cuenta la escuela?<br>Luz el&#xE9;ctrica.\
-  \ S&#xED; / No<br>Agua potable. S&#xED; / No</p>\n      </td>\n      <td>\n    \
-  \    <p>Électricité et eau potable de base</p>\n      </td>\n    </tr>\n    <tr>\n\
-  \      <td>\n        <p>&#xBF;Cu&#xE1;ntos computadores hay en la escuela para uso\
-  \ de los estudiantes?<br>Con conexi&#xF3;n a Internet: No hay / Entre 1 y 10 / Entre\
-  \ 11 y 20 / Entre 21 y 30 / M&#xE1;s de 30<br>Sin conexi&#xF3;n a Internet: No hay\
-  \ / Entre 1 y 10 / Entre 11 y 20 / Entre 21 y 30 / M&#xE1;s de 30</p>\n      </td>\n\
-  \      <td>\n        <p>Internet à des fins pédagogiques; ordinateurs à des fins\
-  \ pédagogiques</p>\n      </td>\n    </tr>\n    <tr>\n      <td>\n        <p>PASEC\
-  \ 2014</p>\n      </td>\n      <td>\n        <p>Écoles avec 2<sup>e</sup> année;\
-  \ écoles avec 6<sup>e</sup> année</p>\n      </td>\n      <td>\n        <p>65. Y\
-  \ a-t-il dans l'école...?<br>Électricité: oui/non<br>Eau courante: oui/non<br>Autre\
-  \ source d'eau potable (puits, forage, ...): oui/non</p>\n      </td>\n      <td>\n\
-  \        <p>Électricité; eau potable</p>\n      </td>\n    </tr>\n    <tr>\n   \
-  \   <td>\n        <p>PISA 2018</p>\n      </td>\n      <td>\n        <p>Écoles secondaires\
-  \ avec des élèves de 15 ans</p>\n      </td>\n      <td>\n        <p>L'objectif\
-  \ de la série de questions suivante est de recueillir des informations sur le ratio\
-  \ élève-ordinateur pour les élèves de la &lt;classe modale nationale pour les jeunes\
-  \ de 15 ans&gt ; dans votre école.<br><br>(Veuillez saisir un chiffre pour chaque\
-  \ réponse. Entrez « 0 » (zéro) s'il n'y en a aucun.)<br><br>Dans votre école, quel\
-  \ est le nombre total d'élèves dans la &lt;classe modale nationale pour les jeunes\
-  \ de 15 ans&gt; ? Combien d'ordinateurs environ sont mis à la disposition de ces\
-  \ élèves à des fins éducatives ? Combien de ces ordinateurs sont connectés à l'Internet\
-  \ ou au World Wide Web ?</p>\n      </td>\n      <td>\n        <p>Internet à des\
+  \ </td>\n      <td>\n        <p> </p>\n      </td>\n    </tr>\n    <tr>\n      <td>\n\
+  \        <p>LLECE (TERCE) 2013</p>\n      </td>\n      <td>\n        <p>16 les deux\
+  \ niveaux</p>\n      </td>\n      <td>\n        <p>Écoles avec 3<sup>e</sup> année;\
+  \ écoles avec 6<sup>e</sup> année</p>\n      </td>\n      <td>\n        <p>X</p>\n\
+  \      </td>\n      <td>\n        <p>X</p>\n      </td>\n      <td>\n        <p>X</p>\n\
+  \      </td>\n      <td>\n        <p> </p>\n      </td>\n      <td>\n        <p>X</p>\n\
+  \      </td>\n      <td>\n        <p> </p>\n      </td>\n      <td>\n        <p>\
+  \ </p>\n      </td>\n    </tr>\n  </tbody>\n</table>\n<table>\n  <tbody>\n    <tr>\n\
+  \      <td colspan=\"4\">\n        <p>Tableau 2 de l’annexe. Questionnaires scolaires\
+  \ liés à l’ODD 4.a.1</p>\n      </td>\n    </tr>\n    <tr>\n      <td>\n       \
+  \ <p>Enquête</p>\n      </td>\n      <td>\n        <p>Population</p>\n      </td>\n\
+  \      <td>\n        <p>Variable (question)</p>\n      </td>\n      <td>\n     \
+  \   <p>Sous-indicateur ODD 4.a.1</p>\n      </td>\n    </tr>\n    <tr>\n      <td\
+  \ rowspan=\"2\">\n        <p>LLECE 2013</p>\n      </td>\n      <td rowspan=\"2\"\
+  >\n        <p>Écoles avec élèves de 3<sup>e</sup> année; écoles avec élèves de 6<sup>e</sup>\
+  \ année</p>\n      </td>\n      <td>\n        <p>&#xBF;Con cu&#xE1;les de estos\
+  \ servicios cuenta la escuela?<br>Luz el&#xE9;ctrica. S&#xED; / No<br>Agua potable.\
+  \ S&#xED; / No</p>\n      </td>\n      <td>\n        <p>Électricité et eau potable\
+  \ de base</p>\n      </td>\n    </tr>\n    <tr>\n      <td>\n        <p>&#xBF;Cu&#xE1;ntos\
+  \ computadores hay en la escuela para uso de los estudiantes?<br>Con conexi&#xF3;n\
+  \ a Internet: No hay / Entre 1 y 10 / Entre 11 y 20 / Entre 21 y 30 / M&#xE1;s de\
+  \ 30<br>Sin conexi&#xF3;n a Internet: No hay / Entre 1 y 10 / Entre 11 y 20 / Entre\
+  \ 21 y 30 / M&#xE1;s de 30</p>\n      </td>\n      <td>\n        <p>Internet à des\
   \ fins pédagogiques; ordinateurs à des fins pédagogiques</p>\n      </td>\n    </tr>\n\
-  \    <tr>\n      <td>\n        <p>TIMSS 2015 4<sup>th</sup> &amp; 8<sup>th</sup>\
+  \    <tr>\n      <td>\n        <p>PASEC 2014</p>\n      </td>\n      <td>\n    \
+  \    <p>Écoles avec 2<sup>e</sup> année; écoles avec 6<sup>e</sup> année</p>\n \
+  \     </td>\n      <td>\n        <p>65. Y a-t-il dans l'école...?<br>Électricité:\
+  \ oui/non<br>Eau courante: oui/non<br>Autre source d'eau potable (puits, forage,\
+  \ ...): oui/non</p>\n      </td>\n      <td>\n        <p>Électricité; eau potable</p>\n\
+  \      </td>\n    </tr>\n    <tr>\n      <td>\n        <p>PISA 2018</p>\n      </td>\n\
+  \      <td>\n        <p>Écoles secondaires avec des élèves de 15 ans</p>\n     \
+  \ </td>\n      <td>\n        <p>L'objectif de la série de questions suivante est\
+  \ de recueillir des informations sur le ratio élève-ordinateur pour les élèves de\
+  \ la &lt;classe modale nationale pour les jeunes de 15 ans&gt ; dans votre école.<br><br>(Veuillez\
+  \ saisir un chiffre pour chaque réponse. Entrez « 0 » (zéro) s'il n'y en a aucun.)<br><br>Dans\
+  \ votre école, quel est le nombre total d'élèves dans la &lt;classe modale nationale\
+  \ pour les jeunes de 15 ans&gt; ? Combien d'ordinateurs environ sont mis à la disposition\
+  \ de ces élèves à des fins éducatives ? Combien de ces ordinateurs sont connectés\
+  \ à l'Internet ou au World Wide Web ?</p>\n      </td>\n      <td>\n        <p>Internet\
+  \ à des fins pédagogiques; ordinateurs à des fins pédagogiques</p>\n      </td>\n\
+  \    </tr>\n    <tr>\n      <td>\n        <p>TIMSS 2015 4<sup>th</sup> &amp; 8<sup>th</sup>\
   \ grade</p>\n      </td>\n      <td>\n        <p>Enseignants de math et sciences\
   \ d'élèves de 4<sup>e</sup> et 8<sup>e</sup> années (peut être agrégé au niveau\
   \ de l'école)</p>\n      </td>\n      <td>\n        <p>Les élèves de cette classe\
@@ -229,7 +229,7 @@ SDG_RELATED_INDICATORS: <p>6.1, 6.2, 7.1, 9.c, 17.8</p>
 UNIT_MEASURE: <p>Pourcentage (%) </p>
 COLL_METHOD: "<p><strong>Pour les sources administratives :</strong></p>\n<p>L’Institut\
   \ de statistique de l’UNESCO produit des séries chronologiques basées sur les données\
-  \ déclarées par les ministères de l’éducation ou les bureaux nationaux de statistique.\
+  \ déclarées par les ministères de l’Éducation ou les bureaux nationaux de statistique.\
   \ Les données sont recueillies dans le cadre de l’Enquête annuelle sur l’éducation\
   \ formelle (sur l’accès à l’électricité, à l’eau potable, à un système sanitaire\
   \ et aux installations de lavage de mains) et de l’Enquête sur les TIC dans l’éducation\
@@ -261,11 +261,22 @@ RATIONALE: "<p>L’indicateur mesure l’accès dans les écoles aux principaux 
   \ chaque école devrait avoir accès à tous ces services et installations. </p>"
 DATA_COMP: "<p>Le nombre d’écoles d’un niveau d’enseignement donné ayant accès aux\
   \ installations concernées est exprimé en pourcentage de l’ensemble des écoles de\
-  \ ce niveau d’enseignement. </p>\n<p>PSn,f = Sn,f / Sn</p>\n<p>où :</p>\n<p>PSn,f\
-  \ = pourcentage d’écoles de niveau n d’enseignement ayant accès à l’installation\
-  \ f</p>\n<p>Sn,f = écoles de niveau n d’enseignement ayant accès à l’installation\
-  \ f</p>\n<p>Sn = nombre total d’écoles au niveau n de l’enseignement</p>"
-IMPUTATION: "<p>&#x2022; <strong>Au niveau national :</strong></p>\n<p>L’ISU estime\
+  \ ce niveau d’enseignement. </p>\n<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"\
+  >\n    <msub>\n      <mrow>\n        <mi>P</mi>\n        <mi>E</mi>\n      </mrow>\n\
+  \      <mrow>\n        <mi>n</mi>\n        <mo>,</mo>\n        <mi>i</mi>\n    \
+  \  </mrow>\n    </msub>\n    <mo>=</mo>\n    <mi>&amp;nbsp;</mi>\n    <mfrac>\n\
+  \      <mrow>\n        <msub>\n          <mrow>\n            <mi>E</mi>\n      \
+  \    </mrow>\n          <mrow>\n            <mi>n</mi>\n            <mo>,</mo>\n\
+  \            <mi>i</mi>\n          </mrow>\n        </msub>\n      </mrow>\n   \
+  \   <mrow>\n        <msub>\n          <mrow>\n            <mi>E</mi>\n         \
+  \ </mrow>\n          <mrow>\n            <mi>n</mi>\n          </mrow>\n       \
+  \ </msub>\n      </mrow>\n    </mfrac>\n    <mi>&amp;nbsp;</mi>\n    <mo>&#xD7;</mo>\n\
+  \    <mn>100</mn>\n  </math></p>\n<p>où :</p>\n<p><em>PE<sub>n,i</sub></em> = pourcentage\
+  \ d’écoles de niveau <em>n</em> d’enseignement ayant accès à l’installation <em>i</em></p>\n\
+  <p><em>E<sub>n,i</sub></em> = écoles de niveau <em>n</em> d’enseignement ayant accès\
+  \ à l’installation <em>i</em></p>\n<p><em>E<sub>n</sub></em> = nombre total d’écoles\
+  \ au niveau <em>n</em> de l’enseignement</p>"
+IMPUTATION: "<p><strong>&#x2022; Au niveau national :</strong></p>\n<p>L’ISU estime\
   \ certains éléments de données clés qui peuvent être manquants ou incomplets afin\
   \ d’avoir des estimations publiables au niveau des pays. Lorsque cela n’est pas\
   \ possible, l’ISU impute les valeurs manquantes à utiliser uniquement pour le calcul\
@@ -288,8 +299,8 @@ IMPUTATION: "<p>&#x2022; <strong>Au niveau national :</strong></p>\n<p>L’ISU e
   \ disponible pour le pays au cours d’une année quelconque qui puisse éclairer l’estimation,\
   \ la moyenne non pondérée pour la région dans laquelle se trouve le pays est utilisée.\
   \ </p>\n<p>À l’heure actuelle, aucune estimation n’est faite pour cet indicateur\
-  \ afin d’avoir des données publiables au niveau des pays. </p>\n<p>&#x2022; <strong>Aux\
-  \ niveaux régional et mondial :</strong></p>\n<p>Les agrégats régionaux et mondiaux\
+  \ afin d’avoir des données publiables au niveau des pays. </p>\n<p><strong>&#x2022;\
+  \ Aux niveaux régional et mondial :</strong></p>\n<p>Les agrégats régionaux et mondiaux\
   \ sont dérivés de données nationales publiables et imputées. Les données publiables\
   \ sont les données soumises à l’ISU par les États membres ou le résultat d’une estimation\
   \ explicite faite par l’Institut sur la base de normes prédéterminées. Dans les\
@@ -324,19 +335,19 @@ QUALITY_ASSURE: "<p>Le processus d'assurance qualité comprend l'examen de la do
   \ annuelles et de les ajouter à la base de données mondiale des indicateurs des\
   \ ODD, l'Institut de statistique de l'UNESCO soumet toutes les valeurs des indicateurs\
   \ et les notes méthodologiques aux bureaux nationaux de statistique, aux ministères\
-  \ de l'éducation ou à d'autres organismes compétents dans les différents pays pour\
+  \ de l'Éducation ou à d'autres organismes compétents dans les différents pays pour\
   \ qu'ils les examinent et les commentent.</p>"
-COVERAGE: "<p><strong>Pour les sources de données administratives :</strong></p>\n\
-  <p><strong>Disponibilité des données :</strong></p>\n<p>140 pays pour l’électricité,\
-  \ 113 pays pour les ordinateurs, 106 pays pour Internet, 109 pays pour l’eau, 103\
-  \ pays pour le système sanitaire, 105 pays pour les installations de lavage de mains\
-  \ et 50 pays pour les infrastructures adaptées qui ont au moins un point de données\
-  \ pour la période 2010-2019. </p>\n<p><strong>Séries chronologiques :</strong></p>\n\
-  <p>2000-2019 </p>\n<p><strong>Désagrégation :</strong></p>\n<p>Selon le niveau d’enseignement.\
-  \ </p>\n<p><strong>Pour les évaluations d’apprentissage transnationales :</strong></p>\n\
-  <p>Le tableau 1 de l’annexe présente la disponibilité des indicateurs selon l’évaluation\
-  \ d’apprentissage transnationale suggérée incluse dans les données ainsi que le\
-  \ nombre de pays qui participent au programme d’évaluation. </p>"
+COVERAGE: "<p><strong>Disponibilité des données :</strong></p>\n<p><em>Pour les sources\
+  \ de données administratives :</em></p>\n<p>140 pays pour l’électricité, 113 pays\
+  \ pour les ordinateurs, 106 pays pour Internet, 109 pays pour l’eau, 103 pays pour\
+  \ le système sanitaire, 105 pays pour les installations de lavage de mains et 50\
+  \ pays pour les infrastructures adaptées qui ont au moins un point de données pour\
+  \ la période 2010-2019. </p>\n<p><em>Pour les évaluations d’apprentissage transnationales\
+  \ :</em></p>\n<p>Le tableau 1 de l’annexe présente la disponibilité des indicateurs\
+  \ selon l’évaluation d’apprentissage transnationale suggérée incluse dans les données\
+  \ ainsi que le nombre de pays qui participent au programme d’évaluation. </p>\n\
+  <p><strong>Séries chronologiques :</strong></p>\n<p>2000-2019 </p>\n<p><strong>Désagrégation\
+  \ :</strong></p>\n<p>Selon le niveau d’enseignement. </p>"
 COMPARABILITY: "<p><strong>Sources des divergences :</strong></p>\n<p>Les chiffres\
   \ publiés au niveau national peuvent différer des chiffres internationaux en raison\
   \ des différences entre les systèmes scolaires nationaux et la Classification internationale\

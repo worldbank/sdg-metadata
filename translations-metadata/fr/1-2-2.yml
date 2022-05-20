@@ -40,8 +40,8 @@ STAT_CONC_DEF: "<p><strong>Définition :</strong></p>\n<p>Les quatre séries sui
   \ dimensions de la pauvreté et les indicateurs sous chaque dimension, et a une structure\
   \ similaire à la méthodologie AF. Cependant, elle est différente puisqu'elle met\
   \ l’accent sur le cycle de vie des enfants, en créant différents ensembles de dimensions\
-  \ et d’indicateurs pour différents groupes d’âge (par exemple, pour les enfants\
-  \ de 0 à 4 ans, de 5 à 11 ans, de 12 à 14 ans, de 15 à 17 ans) et effectue des analyses\
+  \ et d’indicateurs pour différents groupes d’âge (p. ex., pour les enfants de 0\
+  \ à 4 ans, de 5 à 11 ans, de 12 à 14 ans, de 15 à 17 ans) et effectue des analyses\
   \ séparément pour chaque groupe d’âge. Dans la base de données mondiale sur les\
   \ ODD, le dénombrement de la pauvreté multidimensionnelle (%) pour l’ensemble du\
   \ groupe d’âge des 0 à 17 ans a été utilisé pour les pays déclarant des mesures\
@@ -315,9 +315,9 @@ COMPARABILITY: "<p><strong>Comparabilité :</strong></p>\n<p>Les données compil
   \ des différences méthodologiques. Par exemple, bien que la méthodologie AF et AROPE\
   \ produisent le ratio d'effectif des personnes considérées comme « multidimensionnellement\
   \ pauvres », leur définition de la multidimensionnalité est différente et ne peut\
-  \ être comparée. En outre, même lorsque les pays utilisent la même approche (par\
-  \ exemple AF, AROPE ou MODA), les statistiques ne sont pas toujours comparables,\
-  \ car les paramètres clés pour calculer la mesure tels que le nombre d'indicateurs,\
+  \ être comparée. En outre, même lorsque les pays utilisent la même approche (p.\
+  \ ex., AF, AROPE ou MODA), les statistiques ne sont pas toujours comparables, car\
+  \ les paramètres clés pour calculer la mesure tels que le nombre d'indicateurs,\
   \ le poids attribué à chaque indicateur, etc. sont adaptés au contexte spécifique\
   \ du pays. De plus, dans un même pays, si la méthodologie est différente, les estimations\
   \ ne doivent pas être comparées. Par exemple, si un pays calcule sa pauvreté multidimensionnelle\
@@ -369,46 +369,43 @@ COVERAGE: "<p><strong>Niveau de désagrégation :</strong></p>\n<p>Le dénombrem
   \ sur les effectifs – population, ménage, hommes, femmes, enfants – disponibles\
   \ pour chaque pays (selon les différentes couleurs utilisées dans les cases). La\
   \ marque d’étoile indique que des données sur la privation multidimensionnelle chez\
-  \ les enfants sont disponibles. </p>\n<table>\n· · <thead>↵\n· · · · <tr>↵\n· ·\
-  \ · · · · <th>↵\n· · · · · · · · <p><strong>Pays</strong></p>↵\n· · · · · · </th>↵\n\
-  · · · · · · <th>↵\n· · · · · · · · <p><strong>2010</strong></p>↵\n· · · · · · </th>↵\n\
-  · · · · · · <th>↵\n· · · · · · · · <p><strong>2011</strong></p>↵\n· · · · · · </th>↵\n\
-  · · · · · · <th>↵\n· · · · · · · · <p><strong>2012</strong></p>↵\n· · · · · · </th>↵\n\
-  · · · · · · <th>↵\n· · · · · · · · <p><strong>2013</strong></p>↵\n· · · · · · </th>↵\n\
-  · · · · · · <th>↵\n· · · · · · · · <p><strong>2014</strong></p>↵\n· · · · · · </th>↵\n\
-  · · · · · · <th>↵\n· · · · · · · · <p><strong>2015</strong></p>↵\n· · · · · · </th>↵\n\
-  · · · · · · <th>↵\n· · · · · · · · <p><strong>2016</strong></p>↵\n· · · · · · </th>↵\n\
-  · · · · · · <th>↵\n· · · · · · · · <p><strong>2017</strong></p>↵\n· · · · · · </th>↵\n\
-  · · · · · · <th>↵\n· · · · · · · · <p><strong>2018</strong></p>↵\n· · · · · · </th>↵\n\
-  · · · · · · <th>↵\n· · · · · · · · <p><strong>2019</strong></p>↵\n· · · · · · </th>↵\n\
-  · · · · · · <th>↵\n· · · · · · · · <p><strong>2020</strong></p>↵\n· · · · · · </th>↵\n\
-  · · · · </tr>↵\n· · </thead>↵\n· · <tbody>↵\n· · · · <tr>↵\n· · · · · · <td>↵\n\
-  \        <p>Afghanistan</p>\n      </td>\n      <td>\n        <p> </p>\n      </td>\n\
+  \ les enfants sont disponibles. </p>\n<table>\n  <thead>\n    <tr>\n      <th>\n\
+  \        <p><strong>Pays</strong></p>\n      </th>\n      <th>\n        <p><strong>2010</strong></p>\n\
+  \      </th>\n      <th>\n        <p><strong>2011</strong></p>\n      </th>\n  \
+  \    <th>\n        <p><strong>2012</strong></p>\n      </th>\n      <th>\n     \
+  \   <p><strong>2013</strong></p>\n      </th>\n      <th>\n        <p><strong>2014</strong></p>\n\
+  \      </th>\n      <th>\n        <p><strong>2015</strong></p>\n      </th>\n  \
+  \    <th>\n        <p><strong>2016</strong></p>\n      </th>\n      <th>\n     \
+  \   <p><strong>2017</strong></p>\n      </th>\n      <th>\n        <p><strong>2018</strong></p>\n\
+  \      </th>\n      <th>\n        <p><strong>2019</strong></p>\n      </th>\n  \
+  \    <th>\n        <p><strong>2020</strong></p>\n      </th>\n    </tr>\n  </thead>\n\
+  \  <tbody>\n    <tr>\n      <td>\n        <p>Afghanistan</p>\n      </td>\n    \
+  \  <td>\n        <p> </p>\n      </td>\n      <td>\n        <p> </p>\n      </td>\n\
   \      <td>\n        <p> </p>\n      </td>\n      <td>\n        <p> </p>\n     \
   \ </td>\n      <td>\n        <p> </p>\n      </td>\n      <td>\n        <p> </p>\n\
-  \      </td>\n      <td>\n        <p> </p>\n      </td>\n      <td>\n        <p>2</p>\n\
-  \      </td>\n      <td>\n        <p> </p>\n      </td>\n      <td>\n        <p>\
+  \      </td>\n      <td>\n        <p>2</p>\n      </td>\n      <td>\n        <p>\
   \ </p>\n      </td>\n      <td>\n        <p> </p>\n      </td>\n      <td>\n   \
-  \     <p>2</p>\n      </td>\n    </tr>\n    <tr>\n      <td>\n        <p>Angola</p>\n\
-  \      </td>\n      <td>\n        <p> </p>\n      </td>\n      <td>\n        <p>\
+  \     <p> </p>\n      </td>\n      <td>\n        <p>2</p>\n      </td>\n    </tr>\n\
+  \    <tr>\n      <td>\n        <p>Angola</p>\n      </td>\n      <td>\n        <p>\
   \ </p>\n      </td>\n      <td>\n        <p> </p>\n      </td>\n      <td>\n   \
   \     <p> </p>\n      </td>\n      <td>\n        <p> </p>\n      </td>\n      <td>\n\
-  \        <p>2 &amp; 6</p>\n      </td>\n      <td>\n        <p> </p>\n      </td>\n\
+  \        <p> </p>\n      </td>\n      <td>\n        <p>2 &amp; 6</p>\n      </td>\n\
   \      <td>\n        <p> </p>\n      </td>\n      <td>\n        <p> </p>\n     \
   \ </td>\n      <td>\n        <p> </p>\n      </td>\n      <td>\n        <p> </p>\n\
-  \      </td>\n    </tr>\n    <tr>\n      <td>\n        <p>Arménie</p>\n      </td>\n\
-  \      <td>\n        <p>1</p>\n      </td>\n      <td>\n        <p>1</p>\n     \
-  \ </td>\n      <td>\n        <p>1</p>\n      </td>\n      <td>\n        <p>1 &amp;\
-  \ 6</p>\n      </td>\n      <td>\n        <p>1</p>\n      </td>\n      <td>\n  \
-  \      <p>1 &amp; 6</p>\n      </td>\n      <td>\n        <p>1 &amp; 6</p>\n   \
-  \   </td>\n      <td>\n        <p>1 &amp; 6</p>\n      </td>\n      <td>\n     \
-  \   <p>5</p>\n      </td>\n      <td>\n        <p> </p>\n      </td>\n      <td>\n\
-  \        <p> </p>\n      </td>\n    </tr>\n    <tr>\n      <td>\n        <p>Autriche</p>\n\
-  \      </td>\n      <td>\n        <p>4</p>\n      </td>\n      <td>\n        <p>4</p>\n\
-  \      </td>\n      <td>\n        <p>4</p>\n      </td>\n      <td>\n        <p>4</p>\n\
-  \      </td>\n      <td>\n        <p>4</p>\n      </td>\n      <td>\n        <p>4</p>\n\
-  \      </td>\n      <td>\n        <p>4</p>\n      </td>\n      <td>\n        <p>4</p>\n\
-  \      </td>\n      <td>\n        <p>4</p>\n      </td>\n      <td>\n        <p>4</p>\n\
+  \      </td>\n      <td>\n        <p> </p>\n      </td>\n    </tr>\n    <tr>\n \
+  \     <td>\n        <p>Arménie</p>\n      </td>\n      <td>\n        <p>1</p>\n\
+  \      </td>\n      <td>\n        <p>1</p>\n      </td>\n      <td>\n        <p>1</p>\n\
+  \      </td>\n      <td>\n        <p>1 &amp; 6</p>\n      </td>\n      <td>\n  \
+  \      <p>1</p>\n      </td>\n      <td>\n        <p>1 &amp; 6</p>\n      </td>\n\
+  \      <td>\n        <p>1 &amp; 6</p>\n      </td>\n      <td>\n        <p>1 &amp;\
+  \ 6</p>\n      </td>\n      <td>\n        <p>5</p>\n      </td>\n      <td>\n  \
+  \      <p> </p>\n      </td>\n      <td>\n        <p> </p>\n      </td>\n    </tr>\n\
+  \    <tr>\n      <td>\n        <p>Autriche</p>\n      </td>\n      <td>\n      \
+  \  <p>4</p>\n      </td>\n      <td>\n        <p>4</p>\n      </td>\n      <td>\n\
+  \        <p>4</p>\n      </td>\n      <td>\n        <p>4</p>\n      </td>\n    \
+  \  <td>\n        <p>4</p>\n      </td>\n      <td>\n        <p>4</p>\n      </td>\n\
+  \      <td>\n        <p>4</p>\n      </td>\n      <td>\n        <p>4</p>\n     \
+  \ </td>\n      <td>\n        <p>4</p>\n      </td>\n      <td>\n        <p>4</p>\n\
   \      </td>\n      <td>\n        <p> </p>\n      </td>\n    </tr>\n    <tr>\n \
   \     <td>\n        <p>Belgique</p>\n      </td>\n      <td>\n        <p>4</p>\n\
   \      </td>\n      <td>\n        <p>4</p>\n      </td>\n      <td>\n        <p>4</p>\n\
@@ -1090,7 +1087,7 @@ DATA_COMP: "<p>La mesure de la pauvreté implique deux étapes cruciales : (1) l
   \ privation plus élevé de trois privations sociales ou plus. </p>\n<p>En termes\
   \ d'agrégation, le Mexique produit plusieurs catégories de mesures sommaires. La\
   \ mesure de base est le taux de dénombrement, c'est-à-dire la proportion de personnes\
-  \ souffrant de pauvreté multidimensionnelle (c'est-à-dire la proportion de personnes\
+  \ souffrant de pauvreté multidimensionnelle (c.-à-d. la proportion de personnes\
   \ du groupe I dans la figure 1). En outre, d'autres mesures d'effectif sont également\
   \ déclarées, telles que la proportion de personnes privées de bien-être économique,\
   \ la proportion privée de chacun des droits sociaux et la proportion présentant\
@@ -1136,7 +1133,7 @@ DATA_COMP: "<p>La mesure de la pauvreté implique deux étapes cruciales : (1) l
   \ équivalent (après transferts sociaux) inférieur à 60 % du revenu disponible équivalent\
   \ médian national après transferts sociaux. </li>\n  <li>vit dans un ménage à <a\
   \ href=\"https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Glossary:Persons_living_in_households_with_low_work_intensity\"\
-  >(en anglais) très faible intensité de travail</a> (c'est-à-dire si le rapport entre\
+  >(en anglais) très faible intensité de travail</a> (c.-à-d. si le rapport entre\
   \ le nombre total de mois pendant lesquels tous les membres du ménage en âge de\
   \ travailler ont travaillé au cours de l'année de référence du revenu et le nombre\
   \ total de mois qu'ils auraient théoriquement pu travailler est inférieur à 20 %).\
@@ -1241,36 +1238,35 @@ DATA_COMP: "<p>La mesure de la pauvreté implique deux étapes cruciales : (1) l
   \ droits de l'homme. Selon la Conférence des statisticiens européens : « Les mesures\
   \ de la privation doivent être fondées sur une théorie ou une définition normative\
   \ claire et explicite de la pauvreté afin de garantir que chaque indicateur est\
-  \ une mesure valide, c'est-à-dire qu'il <strong>mesure la pauvreté et non un autre\
-  \ concept apparenté (ou non apparenté) tel que le bien-être ou le bonheur</strong> »\
-  \ (recommandation 28 (a), caractères gras ajoutés).</p>\n<p>Comme dans le cas du\
-  \ CONEVAL (explicitement) et des besoins fondamentaux non satisfaits (implicitement),\
-  \ aucun poids différentiel ne doit être appliqué entre les dimensions car ce sont\
-  \ des droits. Tous les droits ont la même importance et ne peuvent être remplacés.\
-  \ Cela n'émane pas seulement de l'approche des droits de l'homme, mais c'est aussi\
-  \ le cas de l'approche par les capacités, comme l'affirment Dixon et Nussbaum (2012)\
-  \ : « Une approche par les capacités s'engage généralement à la protection égale\
-  \ des droits pour tous jusqu'à un certain seuil. Tout compromis qui laisse certaines\
-  \ personnes en dessous de ce seuil sera donc un échec clair de la justice fondamentale\
-  \ dans le cadre d'une approche par les capacités » (« Children's Rights and a Capabilities\
-  \ Approach: The Question of Special Priority », p. 554, Public Law and Legal Theory,\
-  \ Document de travail N° 384.)</p>\n<div class=\"footnotes\"><div><sup class=\"\
-  footnote-number\" id=\"footnote-2\">1</sup><p>Cette approche a été proposée dans\
-  \ plusieurs publications avant d'être largement adoptée en Amérique latine. Voir,\
-  \ entre autres : ILO (1978), Morris (1978) et Streeten et al. (1981). <a href=\"\
-  #footnote-ref-2\">&#x2191;</a></p></div><div><sup class=\"footnote-number\" id=\"\
-  footnote-3\">2</sup><p>Les premiers exemples d'analyses utilisant cette approche\
-  \ incluent, par exemple, Beccaria et Minujín (1985), Minujín, A. (1995), et Erikson,\
-  \ R. (1989). <a href=\"#footnote-ref-3\">&#x2191;</a></p></div><div><sup class=\"\
-  footnote-number\" id=\"footnote-4\">3</sup><p>En Irlande, depuis 1997, la « pauvreté\
-  \ persistante » est définie comme la proportion de personnes qui sont à la fois\
-  \ pauvres en termes de revenu et ne peuvent pas se permettre au moins deux des éléments\
-  \ considérés comme essentiels pour un niveau de vie de base (auparavant 8, maintenant\
-  \ 11 éléments sont considérés comme indispensables). Depuis 2010, le Royaume-Uni\
-  \ applique une définition similaire pour l'un de ses quatre objectifs politiques\
-  \ sur la pauvreté des enfants, combinant faible revenu et privation matérielle (« The\
-  \ Child Poverty Unit », 2014). Consulter aussi Aaberge et Brandolini (2014). <a\
-  \ href=\"#footnote-ref-4\">&#x2191;</a></p></div><div><sup class=\"footnote-number\"\
+  \ une mesure valide, c.-à-d. qu'il <strong>mesure la pauvreté et non un autre concept\
+  \ apparenté (ou non apparenté) tel que le bien-être ou le bonheur</strong> » (recommandation\
+  \ 28 (a), caractères gras ajoutés).</p>\n<p>Comme dans le cas du CONEVAL (explicitement)\
+  \ et des besoins fondamentaux non satisfaits (implicitement), aucun poids différentiel\
+  \ ne doit être appliqué entre les dimensions car ce sont des droits. Tous les droits\
+  \ ont la même importance et ne peuvent être remplacés. Cela n'émane pas seulement\
+  \ de l'approche des droits de l'homme, mais c'est aussi le cas de l'approche par\
+  \ les capacités, comme l'affirment Dixon et Nussbaum (2012) : « Une approche par\
+  \ les capacités s'engage généralement à la protection égale des droits pour tous\
+  \ jusqu'à un certain seuil. Tout compromis qui laisse certaines personnes en dessous\
+  \ de ce seuil sera donc un échec clair de la justice fondamentale dans le cadre\
+  \ d'une approche par les capacités » (« Children's Rights and a Capabilities Approach:\
+  \ The Question of Special Priority », p. 554, Public Law and Legal Theory, Document\
+  \ de travail N° 384.)</p>\n<div class=\"footnotes\"><div><sup class=\"footnote-number\"\
+  \ id=\"footnote-2\">1</sup><p>Cette approche a été proposée dans plusieurs publications\
+  \ avant d'être largement adoptée en Amérique latine. Voir, entre autres : ILO (1978),\
+  \ Morris (1978) et Streeten et al. (1981). <a href=\"#footnote-ref-2\">&#x2191;</a></p></div><div><sup\
+  \ class=\"footnote-number\" id=\"footnote-3\">2</sup><p>Les premiers exemples d'analyses\
+  \ utilisant cette approche incluent, par exemple, Beccaria et Minujín (1985), Minujín,\
+  \ A. (1995), et Erikson, R. (1989). <a href=\"#footnote-ref-3\">&#x2191;</a></p></div><div><sup\
+  \ class=\"footnote-number\" id=\"footnote-4\">3</sup><p>En Irlande, depuis 1997,\
+  \ la « pauvreté persistante » est définie comme la proportion de personnes qui sont\
+  \ à la fois pauvres en termes de revenu et ne peuvent pas se permettre au moins\
+  \ deux des éléments considérés comme essentiels pour un niveau de vie de base (auparavant\
+  \ 8, maintenant 11 éléments sont considérés comme indispensables). Depuis 2010,\
+  \ le Royaume-Uni applique une définition similaire pour l'un de ses quatre objectifs\
+  \ politiques sur la pauvreté des enfants, combinant faible revenu et privation matérielle\
+  \ (« The Child Poverty Unit », 2014). Consulter aussi Aaberge et Brandolini (2014).\
+  \ <a href=\"#footnote-ref-4\">&#x2191;</a></p></div><div><sup class=\"footnote-number\"\
   \ id=\"footnote-5\">4</sup><p> Le seuil de bien-être économique a été défini par\
   \ référence à un panier de biens et de services de base. Le seuil minimum de bien-être\
   \ économique est le revenu minimum requis pour acquérir suffisamment de nourriture\
@@ -1298,17 +1294,17 @@ REC_USE_LIM: "<p>Les données compilées de l'ODD 1.2.2 ne sont pas destinées �
   \ bien que la méthodologie AF et AROPE produisent le ratio d'effectif des personnes\
   \ considérées comme « multidimensionnellement pauvres », leur définition de la multidimensionnalité\
   \ est différente et ne peut être comparée. En outre, même lorsque les pays utilisent\
-  \ la même approche (par exemple AF, AROPE ou MODA), les statistiques ne sont pas\
-  \ toujours comparables, car les paramètres clés pour calculer la mesure tels que\
-  \ le nombre d'indicateurs, le poids attribué à chaque indicateur, etc. sont adaptés\
-  \ au contexte spécifique du pays. De plus, dans un même pays, si la méthodologie\
-  \ est différente, les estimations ne doivent pas être comparées. Par exemple, si\
-  \ un pays calcule sa pauvreté multidimensionnelle officielle en utilisant la mesure\
-  \ AF mais la pauvreté multidimensionnelle des enfants en utilisant la méthodologie\
-  \ MODA, les mesures pourraient être très différentes car les dimensions et les indicateurs\
-  \ utilisés dans les deux approches diffèrent considérablement. Dans ce suivi de\
-  \ l'ODD 1.2.2, la pauvreté multidimensionnelle des enfants basée sur la méthodologie\
-  \ MODA est déclarée comme un indicateur supplémentaire et le taux de pauvreté multidimensionnelle\
+  \ la même approche (p. ex., AF, AROPE ou MODA), les statistiques ne sont pas toujours\
+  \ comparables, car les paramètres clés pour calculer la mesure tels que le nombre\
+  \ d'indicateurs, le poids attribué à chaque indicateur, etc. sont adaptés au contexte\
+  \ spécifique du pays. De plus, dans un même pays, si la méthodologie est différente,\
+  \ les estimations ne doivent pas être comparées. Par exemple, si un pays calcule\
+  \ sa pauvreté multidimensionnelle officielle en utilisant la mesure AF mais la pauvreté\
+  \ multidimensionnelle des enfants en utilisant la méthodologie MODA, les mesures\
+  \ pourraient être très différentes car les dimensions et les indicateurs utilisés\
+  \ dans les deux approches diffèrent considérablement. Dans ce suivi de l'ODD 1.2.2,\
+  \ la pauvreté multidimensionnelle des enfants basée sur la méthodologie MODA est\
+  \ déclarée comme un indicateur supplémentaire et le taux de pauvreté multidimensionnelle\
   \ est déclaré séparément de la désagrégation de l'indicateur officiel de pauvreté\
   \ multidimensionnelle des enfants. </p>"
 RATIONALE: "<p>La pauvreté est traditionnellement définie comme le manque d'argent.\

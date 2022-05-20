@@ -5,8 +5,8 @@ FREQ_COLL: <p>L’UNICEF entreprendra chaque année une consultation annuelle pa
   des ODD. </p>
 DATA_VALIDATION: "<p>Un vaste processus de consultation est entrepris pour compiler,\
   \ évaluer et valider les données provenant de sources nationales. </p>\n<p>Le processus\
-  \ de consultation a sollicité des commentaires directement des bureaux nationaux\
-  \ de statistique, ainsi que d'autres agences gouvernementales responsables des statistiques\
+  \ de consultation sollicite des commentaires directement des bureaux nationaux de\
+  \ statistique, ainsi que d'autres agences gouvernementales responsables des statistiques\
   \ officielles, sur la compilation des indicateurs, y compris les sources de données\
   \ utilisées, et l'application de définitions, de classifications et de méthodologies\
   \ convenues au niveau international pour les données de ces sources. Les résultats\
@@ -39,14 +39,14 @@ COLL_METHOD: "<ul>\n      <li>L’UNICEF entreprend un vaste processus consultat
   \ sur les flux de données pour la déclaration mondiale des indicateurs des ODD,\
   \ qui mettent fortement l’accent sur la rigueur technique, l’appropriation par les\
   \ pays et l’utilisation des données et statistiques officielles. Le processus de\
-  \ consultation a sollicité des commentaires directement des bureaux nationaux de\
-  \ statistique, ainsi que d’autres organismes gouvernementaux responsables des statistiques\
-  \ officielles, sur la compilation des indicateurs, y compris les sources de données\
-  \ utilisées, et l’application des définitions, classifications et méthodologies\
-  \ convenues au niveau international aux données provenant de ces sources. Une fois\
-  \ examinés, les pays peuvent faire part de leurs commentaires sur l’acceptation\
-  \ de points de données spécifiques et, dans le cas contraire, sur les raisons pour\
-  \ lesquelles ils ne sont pas acceptés. </li>\n</ul>"
+  \ consultation sollicite des commentaires directement des bureaux nationaux de statistique,\
+  \ ainsi que d’autres organismes gouvernementaux responsables des statistiques officielles,\
+  \ sur la compilation des indicateurs, y compris les sources de données utilisées,\
+  \ et l’application des définitions, classifications et méthodologies convenues au\
+  \ niveau international aux données provenant de ces sources. Une fois examinés,\
+  \ les pays peuvent faire part de leurs commentaires sur l’acceptation de points\
+  \ de données spécifiques et, dans le cas contraire, sur les raisons pour lesquelles\
+  \ ils ne sont pas acceptés. </li>\n</ul>"
 SDG_CUSTODIAN_AGENCIES: <p>Fonds des Nations Unies pour l’enfance (UNICEF)</p>
 CONTACT_ORGANISATION: <p>Fonds des Nations Unies pour l’enfance (UNICEF)</p>
 UNIT_MEASURE: <p>Pourcentage (%)</p>
@@ -75,10 +75,10 @@ STAT_CONC_DEF: "<p><strong>Définition :</strong></p>\n<p>Proportion d'enfants 
   \ d'apprentissage et de bien-être psychosocial.</p>\n<p><strong>Concept :</strong></p>\n\
   <p>Les domaines inclus dans l'indicateur 4.2.1 des ODD incluent les concepts suivants :</p>\n\
   <ul>\n  <li><strong>Santé</strong> : développement de la motricité globale, développement\
-  \ de la motricité fine et soins personnels</li>\n  <li><strong>Apprentissage</strong> :\
-  \ langage expressif, littératie, numératie, pré-écriture et fonctionnement exécutif</li>\n\
+  \ de la motricité fine et soins personnels.</li>\n  <li><strong>Apprentissage</strong> :\
+  \ langage expressif, littératie, numératie, pré-écriture et fonctionnement exécutif.</li>\n\
   \  <li><strong>Bien-être psychosocial : </strong>compétences émotionnelles, compétences\
-  \ sociales, comportement d'intériorisation et comportement d'extériorisation</li>\n\
+  \ sociales, comportement d'intériorisation et comportement d'extériorisation.</li>\n\
   </ul>\n<p>La mesure recommandée pour l'indicateur 4.2.1 des ODD est l'Indice de\
   \ développement de la petite enfance 2030 (ECDI2030), qui est un instrument à 20\
   \ éléments permettant de mesurer les résultats développementaux chez les enfants\
@@ -108,15 +108,15 @@ SOURCE_TYPE: "<p>En 2015, l’UNICEF a lancé un processus de développement mé
   \ se comportent dans certaines situations quotidiennes, ainsi que sur les compétences\
   \ et les connaissances qu’ils ont acquises. </p>\n<p>L’ECDI2030 peut être intégré\
   \ aux efforts nationaux existants de collecte de données, y compris les programmes\
-  \ internationaux d’enquêtes auprès des ménages tels que le MICS soutenu par l’UNICEF\
-  \ et les enquêtes démographiques et de santé. </p>\n<p>L’ECDI2030 est destiné à\
-  \ remplacer l’indice de développement de la petite enfance (ou ECDI) qui recueille\
-  \ des données sur l’indicateur proxy de l’indicateur 4.2.1 des ODD utilisé depuis\
-  \ 2015. L’ancien ECDI et le nouvel ECDI2030 ciblent différents groupes d’âge et\
-  \ mesurent des domaines de développement légèrement différents. Par conséquent,\
-  \ les indicateurs générés par les deux instruments peuvent ne pas être entièrement\
-  \ comparables et il faut faire preuve de prudence lors de l’interprétation des estimations\
-  \ produites par les deux mesures. </p>"
+  \ internationaux d’enquêtes auprès des ménages tels que les enquêtes en grappes\
+  \ à indicateurs multiples (MICS) soutenues par l’UNICEF et les enquêtes démographiques\
+  \ et de santé (EDS). </p>\n<p>L’ECDI2030 est destiné à remplacer l’indice de développement\
+  \ de la petite enfance (ou ECDI) qui recueille des données sur l’indicateur proxy\
+  \ de l’indicateur 4.2.1 des ODD utilisé depuis 2015. L’ancien ECDI et le nouvel\
+  \ ECDI2030 ciblent différents groupes d’âge et mesurent des domaines de développement\
+  \ légèrement différents. Par conséquent, les indicateurs générés par les deux instruments\
+  \ peuvent ne pas être entièrement comparables et il faut faire preuve de prudence\
+  \ lors de l’interprétation des estimations produites par les deux mesures. </p>"
 INST_MANDATE: <p>L’UNICEF est responsable du suivi mondial et de l’établissement de
   rapports sur le bien-être des enfants. Il fournit une assistance technique et financière
   aux États membres pour les aider à recueillir des données de qualité sur le développement
@@ -155,15 +155,16 @@ QUALITY_MGMNT: <p>Le processus qui sous-tend la production de statistiques fiabl
   </p>
 COVERAGE: "<p><strong>Disponibilité des données :</strong></p>\n<p>Les données sur\
   \ l’indicateur recueillies dans le cadre de la mise en œuvre de l’ECDI2030 devraient\
-  \ être disponibles à partir de 2021. Des données comparables recueillies par l’ECDI\
-  \ sont actuellement disponibles pour près de 80 pays. Les pays dont les données\
+  \ être disponibles à partir de 2022. Des données comparables recueillies par l’ECDI\
+  \ sont actuellement disponibles pour environ 80 pays. Les pays dont les données\
   \ sur l’indicateur de substitution ont été recueillies auprès de l’ECDI continueront\
   \ d’être utilisés pour la déclaration mondiale des ODD jusqu’à ce que de nouvelles\
   \ données utilisant l’ECDI2030 soient disponibles. </p>\n<p><strong>Séries chronologiques\
   \ :</strong></p>\n<p>Non disponible</p>\n<p><strong>Désagrégation :</strong></p>\n\
   <p>Sexe</p>"
 OTHER_DOC: "<p><strong>URL :</strong></p>\n<p>(en anglais) data.unicef.org</p>\n<p><strong>Références\
-  \ :</strong></p>\n<p>(en anglais) http://data.unicef.org/ecd/development-status.html</p>"
+  \ :</strong></p>\n<p><a href=\"http://data.unicef.org/ecd/development-status.html\"\
+  >(en anglais) http://data.unicef.org/ecd/development-status.html</a> </p>"
 REC_USE_LIM: "<p>L’ODD 4.2.1 a été initialement classé comme niveau 3 et a été mis\
   \ au niveau 2 en 2019; de plus, des modifications ont été apportées à l’indicateur\
   \ au cours de l’examen exhaustif de 2020. À la lumière de cela et étant donné que\
@@ -198,6 +199,11 @@ QUALITY_ASSURE: "<p>L’UNICEF tient à jour la base de données mondiale sur le
   \ sur 10 des indicateurs des ODD liés aux enfants dans son rôle de dépositaire ou\
   \ co-dépositaire, et conformément à son mandat mondial de suivi et à ses engagements\
   \ normatifs visant à faire progresser le Programme 2030 pour les enfants. Cela inclut\
-  \ l’indicateur 4.2.1. De plus amples détails sur le processus de consultation par\
-  \ pays sont présentés ci-dessous. </p>"
+  \ l’indicateur 4.2.1. </p>"
 CLASS_SYSTEM: <p>Sans objet</p>
+ADJUSTMENT: <p>Les estimations compilées et présentées à l’échelle mondiale proviennent
+  directement des données produites au niveau national et ne sont ni ajustées ni recalculées.
+  </p>
+SDG_SERIES_DESCR: '<p>Proportion d’enfants qui sont sur la bonne voie de développement
+  dans au moins trois des domaines suivants : littératie-numératie, développement
+  physique, développement socio-émotionnel et apprentissage</p>'

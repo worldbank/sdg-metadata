@@ -23,7 +23,7 @@ FREQ_COLL: "<ol>\n  <li>Enquête annuelle de l’ISU (généralement lancée au 
   \ de chaque année) et enquête UOE (généralement lancée en juin de chaque année).\
   \ </li>\n  <li>L’exploration de données est effectuée périodiquement pour correspondre\
   \ au calendrier de publication des données de l’ISU.</li>\n</ol>"
-REL_CAL_POLICY: <p>Diffusion semestrielle des données de l'ISU (février et septembre).
+REL_CAL_POLICY: <p>Publication semestrielle des données de l’ISU (février et septembre).
   </p>
 COMPILING_ORG: <p>Institut de statistique de l’UNESCO, OCDE, Eurostat</p>
 RATIONALE: <p>L'indicateur est utilisé pour évaluer l'importance accordée par un gouvernement
@@ -55,9 +55,9 @@ DATA_COMP: "<p>Les dépenses publiques totales en éducation (tous niveaux confo
   \ publiques totales dans l'année financière <em>t</em></p>\n<p>Remarque : l’option\
   \ préférée est que le numérateur et le dénominateur proviennent de la même source.\
   \ </p>"
-IMPUTATION: "<p><strong>• Au niveau national :</strong></p>\n<p>Aucun par le compilateur\
-  \ de données.</p>\n<p><strong>• Aux niveaux régional et mondial :</strong></p>\n\
-  <p>Aucun par le compilateur de données.</p>"
+IMPUTATION: "<p><strong>&#x2022; Au niveau national :</strong></p>\n<p>Aucun par le\
+  \ compilateur de données.</p>\n<p><strong>&#x2022; Aux niveaux régional et mondial\
+  \ :</strong></p>\n<p>Aucun par le compilateur de données.</p>"
 COMPARABILITY: "<p><strong>Sources des divergences :</strong></p>\n<p>Les données\
   \ proviennent de différentes sources et peuvent être sujettes à des différences\
   \ dans les définitions nationales des types de dépenses. </p>"
@@ -90,7 +90,7 @@ COLL_METHOD: "<p>Il existe deux méthodes différentes utilisées pour recueilli
   \ répond pas à l’enquête annuelle, l’exploration de données de sources accessibles\
   \ au public tel que décrit ci-dessus, puis une valeur d’indicateur est estimée sur\
   \ la base d’une approche de modélisation au besoin. </li>\n</ol>"
-DATA_SOURCE: <p>Ministères des finances, ministères de l’éducation, bureaux nationaux
+DATA_SOURCE: <p>Ministères des Finances, ministères de l’Éducation, bureaux nationaux
   de statistique. </p>
 INST_MANDATE: "<p>L'Institut de statistique de l'UNESCO (ISU) est la branche statistique\
   \ de l'Organisation des Nations Unies pour l'éducation, la science et la culture\
@@ -115,7 +115,7 @@ REC_USE_LIM: "<p>Une proportion élevée de dépenses publiques en éducation d�
   \ a approuvé un point de référence pour cet indicateur, qui encourage les pays à\
   \ allouer au moins 15 à 20 % de leurs dépenses publiques à l'éducation.</p>\n<p>Dans\
   \ certains cas, les données sur les dépenses publiques totales en matière d'éducation\
-  \ ne concernent que le ministère de l'éducation, excluant d'autres ministères qui\
+  \ ne concernent que le ministère de l'Éducation, excluant d'autres ministères qui\
   \ peuvent également consacrer une partie de leur budget à des activités éducatives\
   \ ainsi que des gouvernements locaux qui reçoivent des subventions globales et ne\
   \ déclarent pas combien ils dépensent en éducation. Bien que le FMI vise à publier\
@@ -165,7 +165,7 @@ QUALITY_ASSMNT: "<p>L'indicateur doit être produit sur la base de données coh�
 CLASS_SYSTEM: <p>Aucune</p>
 DATA_VALIDATION: <p>L’Institut de statistique de l’UNESCO partage toutes les valeurs
   des indicateurs et les notes sur la méthodologie avec les bureaux nationaux de statistique,
-  les ministères de l’éducation ou d’autres organismes compétents dans les différents
+  les ministères de l’Éducation ou d’autres organismes compétents dans les différents
   pays pour leur examen, leur rétroaction et leur validation avant la diffusion des
   données. </p>
 ADJUSTMENT: <p>Les données ne devraient couvrir que l’éducation formelle et devraient
@@ -173,5 +173,5 @@ ADJUSTMENT: <p>Les données ne devraient couvrir que l’éducation formelle et 
 QUALITY_ASSURE: <p>Avant la publication annuelle des données et l’ajout de tout indicateur
   à la base de données mondiale sur les indicateurs des ODD, l’Institut de statistique
   de l’UNESCO soumet toutes les valeurs des indicateurs et les notes méthodologiques
-  aux bureaux nationaux de statistique, aux ministères de l’éducation ou à d’autres
+  aux bureaux nationaux de statistique, aux ministères de l’Éducation ou à d’autres
   organismes concernés dans les différents pays pour examen et rétroaction. </p>

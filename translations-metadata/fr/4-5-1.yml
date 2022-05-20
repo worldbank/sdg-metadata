@@ -5,7 +5,7 @@ SDG_TARGET: >-
   <p>Cible 4.5 : D'ici 2030, éliminer les disparités entre les sexes dans l'enseignement
   et assurer aux personnes vulnérables, notamment aux personnes handicapées, aux populations
   autochtones et aux enfants en situation vulnérable, l'égalité d'accès à tous les
-  niveaux d'enseignement et de formation professionnelle.</p>
+  niveaux d'enseignement et de formation professionnelle</p>
 SDG_INDICATOR: "<p>Indicateur 4.5.1 : Indices de parité (femmes/hommes, urbain/rural,\
   \ quintile inférieur/supérieur de richesse et autres paramètres tels que le handicap,\
   \ le statut d’autochtone et les situations de conflit, à mesure que les données\
@@ -51,26 +51,81 @@ DATA_COMP: >-
   <p>La valeur de l'indicateur du groupe probablement le plus défavorisé est divisée
   par la valeur de l'indicateur de l'autre sous-population concernée. </p>
 
-  <p>IPD = [Ind<sub>i</sub>]<sub>d</sub>/[Ind<sub>i</sub>]<sub>a</sub></p>
-
+  <p><math xmlns="http://www.w3.org/1998/Math/MathML">
+      <mi>I</mi>
+      <mi>P</mi>
+      <mi>D</mi>
+      <mi>&amp;nbsp;</mi>
+      <mo>=</mo>
+      <mi>&amp;nbsp;</mi>
+      <mfrac>
+        <mrow>
+          <msub>
+            <mrow>
+              <mfenced open="[" close="]" separators="|">
+                <mrow>
+                  <msub>
+                    <mrow>
+                      <mi>l</mi>
+                      <mi>n</mi>
+                      <mi>d</mi>
+                    </mrow>
+                    <mrow>
+                      <mi>i</mi>
+                    </mrow>
+                  </msub>
+                </mrow>
+              </mfenced>
+            </mrow>
+            <mrow>
+              <mi>d</mi>
+            </mrow>
+          </msub>
+        </mrow>
+        <mrow>
+          <msub>
+            <mrow>
+              <mfenced open="[" close="]" separators="|">
+                <mrow>
+                  <msub>
+                    <mrow>
+                      <mi>l</mi>
+                      <mi>n</mi>
+                      <mi>d</mi>
+                    </mrow>
+                    <mrow>
+                      <mi>i</mi>
+                    </mrow>
+                  </msub>
+                </mrow>
+              </mfenced>
+            </mrow>
+            <mrow>
+              <mi>a</mi>
+            </mrow>
+          </msub>
+        </mrow>
+      </mfrac>
+    </math></p>
   <p>où : </p>
 
-  <p>IPD = l'indice de parité des dimensions (genre, richesse, lieu, etc.) </p>
-
-  <p>Ind<sub>i</sub> = l'indicateur i d'Education 2030 pour lequel une mesure d'équité
-  est nécessaire </p>
-
-  <p>d = le groupe probablement défavorisé (p. ex., les femmes, les plus pauvres,
-  etc.) </p>
-
-  <p>a = le groupe probablement avantagé (p. ex., les hommes, les plus riches, etc.)
+  <p><em>IPD</em> = l'indice de parité des dimensions (genre, richesse, lieu, etc.)
   </p>
+
+  <p><em>Ind<sub>i</sub></em> = l'indicateur <em>i</em> d'Education 2030 pour lequel
+  une mesure d'équité est nécessaire </p>
+
+  <p><em>d</em> = le groupe probablement défavorisé (p. ex., les femmes, les plus
+  pauvres, etc.) </p>
+
+  <p><em>a</em> = le groupe probablement avantagé (p. ex., les hommes, les plus riches,
+  etc.) </p>
 IMPUTATION: >-
-  <p>&#x2022; <strong>Au niveau national :</strong></p>
+  <p><strong>&#x2022; Au niveau national :</strong></p>
 
   <p>Le même que celui de l'indicateur sous-jacent. </p>
 
-  <p>&#x2022; <strong>Au niveau régional et mondial :</strong></p>
+  <p><strong>&#x2022; Au niveau régional et mondial :</strong></p>
 
   <p>Le même que celui de l'indicateur sous-jacent. </p>
 REG_AGG: |-
@@ -81,6 +136,8 @@ COVERAGE: >-
   <p>Dépend de l'indicateur sous-jacent. </p>
 
   <p><strong>Séries chronologiques :</strong></p>
+
+  <p>Dépend de l'indicateur sous-jacent. </p>
 
   <p><strong>Désagrégation :</strong></p>
 
@@ -100,7 +157,7 @@ OTHER_DOC: >-
 CONTACT_ORGANISATION: <p>Institut de statistique de l'UNESCO (UNESCO-ISU)</p>
 DATA_VALIDATION: <p>L’Institut de statistique de l’UNESCO partage toutes les valeurs
   des indicateurs et les notes sur la méthodologie avec les bureaux nationaux de statistique,
-  les ministères de l’éducation ou d’autres organismes compétents dans les différents
+  les ministères de l’Éducation ou d’autres organismes compétents dans les différents
   pays pour leur examen, leur rétroaction et leur validation avant la diffusion des
   données. </p>
 INST_MANDATE: "<p>L'Institut de statistique de l'UNESCO (ISU) est la branche statistique\
@@ -121,8 +178,7 @@ INST_MANDATE: "<p>L'Institut de statistique de l'UNESCO (ISU) est la branche sta
   \ pour les cibles liées au mandat de l'UNESCO, en travaillant en coordination avec\
   \ le \"SDG-Education 2030 SC \"</em> ».</p>"
 SDG_SERIES_DESCR: <p>Sans objet</p>
-CLASS_SYSTEM: <p>Sans objet car les indices de parité comparent directement deux sous-populations
-  d’intérêt. </p>
+CLASS_SYSTEM: <p>Sans objet </p>
 ADJUSTMENT: <p>Les mêmes que ceux de l’indicateur sous-jacent. </p>
 DOC_METHOD: <p>L’ISU a élaboré des conseils à l’intention des pays sur la méthodologie
   qui devrait être utilisée pour calculer cet indicateur. </p>
@@ -134,4 +190,4 @@ QUALITY_ASSMNT: <p>L’évaluation de la qualité de cet indicateur est la même
   des indicateurs sous-jacents. </p>
 UNIT_MEASURE: <p>Ratio. Cet indicateur est exprimé comme le rapport entre la valeur
   de l’indicateur pour le groupe probablement le plus défavorisé et celui du groupe
-  probablement plus favorisé. </p>
+  probablement le plus favorisé. </p>
