@@ -4,7 +4,7 @@ SDG_GOAL: >-
 SDG_TARGET: "<p>Cible 3.2 : D’ici 2030, éliminer les décès évitables de nouveau-nés\
   \ et d’enfants de moins de 5 ans, tous les pays devant chercher à ramener la mortalité\
   \ néonatale à 12 pour 1 000 naissances vivantes au plus et la mortalité des enfants\
-  \ de moins de 5 ans à 25 pour 1 000 naissances vivantes au plus.</p>"
+  \ de moins de 5 ans à 25 pour 1 000 naissances vivantes au plus</p>"
 SDG_INDICATOR: '<p>Indicateur 3.2.1 : Taux de mortalité des enfants de moins de 5
   ans</p>'
 META_LAST_UPDATE: '<p>2022-03-31</p>'
@@ -24,8 +24,8 @@ STAT_CONC_DEF: >-
   <p><strong>Concepts :</strong></p>
 
   <p>Le taux de mortalité des moins de cinq ans tel que défini ici n'est pas, à proprement
-  parler, un taux (c'est-à-dire le nombre de décès divisé par le nombre de personnes
-  à risque pendant une certaine période de temps), mais une probabilité de décès dérivée
+  parler, un taux (c.-à-d. le nombre de décès divisé par le nombre de personnes à
+  risque pendant une certaine période de temps), mais une probabilité de décès dérivée
   d'une table de survie et exprimée en taux pour 1 000 naissances vivantes.</p>
 SOURCE_TYPE: >-
   <p>Des estimations représentatives de la mortalité infantile au niveau national
@@ -80,7 +80,7 @@ COLL_METHOD: >-
   ensuite à une évaluation de la qualité des données. L'UNICEF recueille également
   des données par l'intermédiaire de ses bureaux nationaux en contactant ses homologues
   nationaux. L’IGME recueille également les données de l'état civil communiquées à
-  l'Organisation mondiale de la Santé (OMS) par les ministères de la santé ou d'autres
+  l'Organisation mondiale de la Santé (OMS) par les ministères de la Santé ou d'autres
   organismes compétents.</p>
 
   <p> </p>
@@ -98,7 +98,7 @@ REL_CAL_POLICY: >-
   <p>Une nouvelle série d'estimations de l’IGME est diffusée chaque année, habituellement
   au 3<sup>e</sup> ou au 4<sup>e</sup> trimestre.</p>
 DATA_SOURCE: >-
-  <p>Le bureau national de statistique ou le ministère de la santé est le fournisseur
+  <p>Le bureau national de statistique ou le ministère de la Santé est le fournisseur
   typique de données servant à générer des estimations de la mortalité des moins de
   cinq ans au niveau national.</p>
 
@@ -304,7 +304,7 @@ REC_USE_LIM: "<p>Un système d'état civil qui enregistre en permanence toutes l
   \ sont pas bien développés dans de nombreux pays à faible ou à moyen revenu. Au\
   \ lieu de cela, les enquêtes auprès des ménages et les recensements de la population\
   \ sont les principales sources de données sous-jacentes dans ces pays. </p>\n<p>Le\
-  \ recours à de multiples sources de données, c'est-à-dire des enquêtes et des recensements\
+  \ recours à de multiples sources de données, c.-à-d. des enquêtes et des recensements\
   \ menés à plusieurs années d'intervalle mais produisant des séries chronologiques\
   \ rétrospectives, peut entraîner des taux de mortalité disparates provenant de différentes\
   \ sources, se référant parfois à la même période. Les données disponibles souffrent\
@@ -345,7 +345,7 @@ REC_USE_LIM: "<p>Un système d'état civil qui enregistre en permanence toutes l
 DOC_METHOD: "<p>Des descriptions méthodologiques détaillées peuvent être trouvées\
   \ (en anglais) aux adresses : </p>\n<p>https://childmortality.org/methods et <a\
   \ href=\"https://childmortality.org/wp-content/uploads/2021/12/UNICEF-2021-Child-Mortality-Report.pdf\"\
-  >https://childmortality.org/wp-content/uploads/2021/12/UNICEF-2021-Child-Mortality-Report.pdf</a></p>"
+  >https://childmortality.org/wp-content/uploads/2021/12/UNICEF-2021-Child-Mortality-Report.pdf</a>.</p>"
 QUALITY_MGMNT: <p>L’IGME applique une méthode d’estimation standard dans tous les
   pays dans un souci de comparabilité. Cette méthode vise à estimer une courbe de
   tendance lisse des taux de mortalité par âge, en tenant compte des valeurs aberrantes
@@ -377,15 +377,15 @@ INST_MANDATE: <p>Le Groupe interorganisations des Nations Unies pour l'estimatio
   des ODD. </p>
 ADJUSTMENT: <p>Les estimations directes des données d’enquête sont ajustées dans les
   contextes de prévalence élevée du VIH pour la sous-déclaration de la mortalité des
-  moins de cinq ans due aux « mères disparues », c’est-à-dire aux femmes décédées
-  du VIH/sida qui n'ont pas pu déclarer l’expérience de mortalité de leurs enfants.
-  En outre, les estimations de l’IGME sont également ajustées pour tenir compte de
-  l’évolution rapide des taux de mortalité due au VIH/sida et aux crises/catastrophes
-  qui ne sont pas bien prises en compte dans les données d’enquête. </p>
+  moins de cinq ans due aux « mères disparues », c.-à-d. aux femmes décédées du VIH/sida
+  qui n'ont pas pu déclarer l’expérience de mortalité de leurs enfants. En outre,
+  les estimations de l’IGME sont également ajustées pour tenir compte de l’évolution
+  rapide des taux de mortalité due au VIH/sida et aux crises/catastrophes qui ne sont
+  pas bien prises en compte dans les données d’enquête. </p>
 DATA_VALIDATION: <p>L’IGME mène une consultation annuelle par pays au cours de laquelle
   les estimations provisoires de l’IGME, les données empiriques utilisées pour calculer
   les estimations et les notes sur la méthodologie sont envoyés aux bureaux nationaux
-  de statistique et aux ministères de la santé ou à d’autres organismes compétents
+  de statistique et aux ministères de la Santé ou à d’autres organismes compétents
   pour examen. Ceux-ci ont la possibilité de fournir de la rétroaction ou des commentaires
   sur les estimations et les méthodes, ainsi que de fournir des données empiriques
   supplémentaires au cours de cette consultation. </p>
