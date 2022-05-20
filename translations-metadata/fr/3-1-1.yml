@@ -6,7 +6,7 @@ SDG_TARGET: "<p>Cible 3.1 : D’ici 2030, faire passer le taux mondial de mort
 SDG_INDICATOR: '<p>Indicateur 3.1.1 : Taux de mortalité maternelle</p>'
 META_LAST_UPDATE: '<p>2021-12-06</p>'
 SDG_RELATED_INDICATORS: >-
-  <p>3.1.2 : Proportion d'accouchements assistés par du personnel de santé qualifié.
+  <p>3.1.2 : Proportion d'accouchements assistés par du personnel de santé qualifié
   </p>
 SDG_CUSTODIAN_AGENCIES: >-
   <p>Organisation mondiale de la santé (OMS). Département de santé et recherche sexuelles
@@ -44,7 +44,7 @@ COLL_METHOD: >-
   <p>Le groupe inter-agences des Nations unies pour l'estimation de la mortalité maternelle
   (GIEMM / UN MMEIG) – comprenant l'OMS, l'UNICEF, l'UNFPA, le Groupe de la Banque
   mondiale et la Division de la population des Nations unies (DPNU) du Département
-  des affaires économiques et sociales, maintient une base de données d'entrée constituée
+  des Affaires Économiques et Sociales, maintient une base de données d'entrée constituée
   de données sur la mortalité maternelle provenant de l'enregistrement civil, d'enquêtes
   sur la population, de systèmes de surveillance, de recensements et d'autres études/enquêtes
   spécialisées. Cette base de données est utilisée pour calculer la proportion de
@@ -73,11 +73,11 @@ REL_CAL_POLICY: >-
 DATA_SOURCE: >-
   <p>Les fournisseurs de données au niveau national sont généralement des bureaux
   de statistique, des organismes spécialisés dans la surveillance épidémiologique
-  et/ou le ministère de la santé. </p>
+  et/ou le ministère de la Santé. </p>
 COMPILING_ORG: >-
   <p>Le Groupe Inter-agence d'estimation de la mortalité maternelle (GIEMM), composé
   de : OMS, UNICEF, FNUAP, Groupe de la Banque mondiale et Division de la population
-  des Nations Unies (DPNU) du Département des affaires économiques et sociales. </p>
+  des Nations Unies (DPNU) du Département des Affaires Économiques et Sociales. </p>
 
   <p> </p>
 RATIONALE: >-
@@ -121,8 +121,8 @@ REC_USE_LIM: >-
   <ol>
     <li>Le risque de décès lors d'une seule grossesse ou d'une seule naissance vivante.
   </li>
-    <li>Le niveau de fertilité (c'est-à-dire le nombre de grossesses ou de naissances
-  que connaissent les femmes en âge de procréer). </li>
+    <li>Le niveau de fertilité (c.-à-d. le nombre de grossesses ou de naissances que
+  connaissent les femmes en âge de procréer). </li>
   </ol>
 
   <p>Le RMM est défini comme le nombre de décès maternels pendant une période donnée
@@ -365,7 +365,7 @@ DATA_COMP: >-
   pays, il est donc important de faire la différence entre les décès accidentels dus
   au VIH (décès non maternels) et les décès maternels indirects liés au VIH (décès
   maternels causés par les effets aggravants de la grossesse sur le VIH) chez les
-  femmes enceintes et les femmes en post-partum séropositives qui sont décédées (c'est-à-dire
+  femmes enceintes et les femmes en post-partum séropositives qui sont décédées (c.-à-d.
   parmi tous les décès liés au VIH survenus pendant la grossesse, l'accouchement et
   la puerpéralité).</p>
 
@@ -535,10 +535,10 @@ COMPARABILITY: >-
 
   <ol>
     <li>Les systèmes d'enregistrement et de statistiques de l'état civil ne sont pas
-  toujours complets (c'est-à-dire qu'ils ne saisissent pas toujours 100 % de tous
-  les décès) et cette complétude peut changer avec le temps. L'approche d'estimation
-  du GIEMM tente de corriger cela en utilisant l'approche ci-dessus, qui implique
-  de calculer d'abord les PM. </li>
+  toujours complets (c.-à-d., ils ne saisissent pas toujours 100 % de tous les décès)
+  et cette complétude peut changer avec le temps. L'approche d'estimation du GIEMM
+  tente de corriger cela en utilisant l'approche ci-dessus, qui implique de calculer
+  d'abord les PM. </li>
     <li>Le GIEMM applique souvent des facteurs d'ajustement aux PM calculées à partir
   des données originales pour tenir compte des problèmes de mesure (tels que la façon
   dont le pays a défini les « décès maternels », une mauvaise classification ou un
@@ -677,10 +677,10 @@ ADJUSTMENT: "<p>Les détails sur les ajustements et les formules sont publiés/d
   \ de l'état civil ou d’études spécialisées. </p>"
 QUALITY_MGMNT: '<p>Pour plus d’informations sur les processus de gestion, d’assurance
   et d’évaluation de la qualité des données à l’OMS, veuillez consulter : <a href="https://www.who.int/data/ddi">(en
-  anglais) https://www.who.int/data/ddi</a> </p>'
+  anglais) https://www.who.int/data/ddi</a>. </p>'
 QUALITY_ASSURE: '<p>Pour plus d’informations sur les processus de gestion, d’assurance
   et d’évaluation de la qualité des données à l’OMS, veuillez consulter : <a href="https://www.who.int/data/ddi">(en
-  anglais) https://www.who.int/data/ddi</a> </p>'
+  anglais) https://www.who.int/data/ddi</a>. </p>'
 QUALITY_ASSMNT: '<p>Pour plus d’informations sur les processus de gestion, d’assurance
   et d’évaluation de la qualité des données à l’OMS, veuillez consulter : <a href="https://www.who.int/data/ddi">(en
-  anglais) https://www.who.int/data/ddi</a> </p>'
+  anglais) https://www.who.int/data/ddi</a>. </p>'
