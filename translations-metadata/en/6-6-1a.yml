@@ -8,54 +8,56 @@ SDG_INDICATOR: >-
   <p>Indicator 6.6.1: Change in the extent of water-related ecosystems over
   time</p>
 SDG_SERIES_DESCR: >-
-  <p>Lakes and Rivers permanent water area, km2</p>
-
-  <p>Lakes and Rivers permanent water area, % Total land area</p>
-
-  <p>Lakes and Rivers seasonal water area, km2</p>
-
-  <p>Lakes and Rivers seasonal water area, % Total land area</p>
-
-  <p>Reservoir minimum water area, km2</p>
-
-  <p>Reservoir minimum water area, % Total land area</p>
-
-  <p>Reservoir maximum water area, km2</p>
-
-  <p>Reservoir maximum water area, % Total land area</p>
-
-  <p>Wetlands area, km2</p>
-
-  <p>Wetlands area, % of Total land area</p>
-
-  <p>Lake water quality turbidity % (Low, Medium, High and Extreme)</p>
-
-  <p>Lake water quality trophic state % (Low, Medium, High and Extreme)</p>
-
-  <p>Mangrove area, km2</p>
-
-  <p>Mangrove area baseline, km2</p>
-
-  <p>Mangrove area gain, km2</p>
-
-  <p>Mangrove area gain, %</p>
-
-  <p>Mangrove area loss, km2</p>
-
-  <p>Mangrove area loss, %</p>
-
-  <p>Mangrove area change, %</p>
-
-  <p>Lakes and Rivers permanent water area change, %</p>
-
-  <p>Lakes and Rivers seasonal water area change, %</p>
-
   <p>Nationally derived quantity of groundwater (millions of cubic metres per
-  annum) [6.6.1]</p>
+  annum) EN_WBE_NDQTGRW</p>
 
-  <p>Nationally derived quantity of rivers (millions of cubic metres per annum)
-  [6.6.1]</p>
-META_LAST_UPDATE: <p>2021-07-01</p>
+  <p>Nationally derived quantity of rivers (million of cubic metres per annum)
+  EN_WBE_NDQTRVR</p>
+
+  <p>Lakes and rivers permanent water area (square kilometres) EN_LKRV_PWAN</p>
+
+  <p>Lakes and rivers permanent water area (% of total land area)
+  EN_LKRV_PWAP</p>
+
+  <p>Lakes and rivers seasonal water area (square kilometres) EN_LKRV_SWAN</p>
+
+  <p>Lakes and rivers seasonal water area (% of total land area)
+  EN_LKRV_SWAP</p>
+
+  <p>Lakes and rivers permanent water area change (%) EN_LKRV_PWAC</p>
+
+  <p>Lakes and rivers seasonal water area change (%) EN_LKRV_SWAC</p>
+
+  <p>Reservoir minimum water area (square kilometres) EN_RSRV_MNWAN</p>
+
+  <p>Reservoir minimum water area (% of total land area) EN_RSRV_MNWAP</p>
+
+  <p>Reservoir maximum water area (square kilometres) EN_RSRV_MXWAN</p>
+
+  <p>Reservoir maximum water area (% of total land area) EN_RSRV_MXWAP</p>
+
+  <p>Wetlands area (square kilometres) EN_WBE_WTLN</p>
+
+  <p>Wetlands area (% of total land area) EN_WBE_WTLP</p>
+
+  <p>Lake water quality turbidity (%) EN_LKW_QLTRB</p>
+
+  <p>Lake water quality trophic state (%) EN_LKW_QLTRST</p>
+
+  <p>Mangrove area (square kilometres) EN_WBE_MANGN</p>
+
+  <p>Mangrove area baseline (square kilometres) EN_WBE_MANGBN</p>
+
+  <p>Mangrove area gain (square kilometres) EN_WBE_MANGGN</p>
+
+  <p>Mangrove area gain (%) EN_WBE_MANGGP</p>
+
+  <p>Mangrove area loss (square kilometres) EN_WBE_MANGLN</p>
+
+  <p>Mangrove area loss (%) EN_WBE_MANGLP</p>
+
+  <p>Mangrove total area change (%) EN_WBE_MANGC</p>
+META_LAST_UPDATE: '2022-07-07'
 SDG_RELATED_INDICATORS: '<p>6.3.2, 6.4.1, 6.4.2, 6.5.1, 6.5.2, 15.3.1</p>'
 SDG_CUSTODIAN_AGENCIES: <p>United Nations Environment Programme (UNEP)</p>
 CONTACT_ORGANISATION: <p>United Nations Environment Programme (UNEP)</p>
@@ -66,11 +68,11 @@ STAT_CONC_DEF: >-
   ecosystems are changing in extent over time. The indicator is multifaceted
   capturing data on different types of freshwater ecosystems and to measure
   extent change the indicator considers spatial area changes, water quality and
-  water quantity changes. The indicator uses satellite based Earth observations
-  to globally monitor different freshwater ecosystems types Earth observation
+  water quantity changes. The indicator uses satellite-based Earth observations
+  to globally monitor different freshwater ecosystems types. Earth observation
   data series on surface area are available on permanent water, seasonal water,
-  reservoirs, wetlands, mangroves; as well as generating data on water quality
-  the using trophic state and turbidity of water bodies. Satellite images can be
+  reservoirs, wetlands, mangroves; as well as generating data on water quality,
+  using trophic state and turbidity of water bodies. Satellite images can be
   represented as numerical data, which in turn are aggregated into meaningful
   statistics of ecosystem change attributed to administrative areas such as
   national, sub-national (e.g. regions and provinces) and river basin
@@ -81,49 +83,54 @@ STAT_CONC_DEF: >-
   required from the countries.</p>
 
   <table>
+    <thead>
+      <tr>
+        <th colspan="3">
+          <p><strong>Table 1: SDG indicator 6.6.1 data derived from Earth observations</strong></p>
+        </th>
+      </tr>
+      <tr>
+        <th>
+          <p><strong><em>Ecosystem</em></strong></p>
+        </th>
+        <th>
+          <p><strong><em>Unit </em></strong></p>
+        </th>
+        <th>
+          <p><strong><em>Features </em></strong></p>
+        </th>
+      </tr>
+    </thead>
     <tbody>
       <tr>
-        <td colspan="3">
-          <p></p>
-          <p><strong>SDG indicator 6.6.1 data derived from Earth observations</strong></p>
-        </td>
-      </tr>
-      <tr>
         <td>
-          <p><strong><em>Ecosystem</em></strong></p>
-        </td>
-        <td>
-          <p><strong><em>Unit </em></strong></p>
-        </td>
-        <td>
-          <p><strong><em>Features </em></strong></p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p><strong>Lakes &amp; Rivers</strong></p>
+          <p><strong>Lakes &amp; Rivers (permanent water area)</strong></p>
         </td>
         <td>
           <p>surface area</p>
         </td>
         <td>
-          <p>annual and multi-annual changes in <strong>permanent water area</strong> (1984-present)</p>
-          <p>statistics for new and lost permanent water (2000-2019)</p>
-          <p>statistics aggregated at national, sub-national &amp; basin scales</p>
+          <ul>
+            <li>annual and multi-annual changes in <strong>permanent water area</strong> (1984-present)</li>
+            <li>statistics for new and lost permanent water (2000-2020)</li>
+            <li>statistics aggregated at national, sub-national &amp; basin scales</li>
+          </ul>
         </td>
       </tr>
       <tr>
         <td>
-          <p><strong>Lakes &amp; Rivers</strong></p>
+          <p><strong>Lakes &amp; Rivers (seasonal water area)</strong></p>
         </td>
         <td>
           <p>surface area</p>
         </td>
         <td>
-          <p>annual and multi-annual changes in <strong>seasonal water area</strong> (1984-present)</p>
-          <p>statistics for new and lost seasonal water (2000-2019)</p>
-          <p>annual seasonality statistics for periods: 0-1, 3-6, 7-11 months</p>
-          <p>statistics aggregated at national, sub-national &amp; basin scales</p>
+          <ul>
+            <li>annual and multi-annual changes in <strong>seasonal water area</strong> (1984-present)</li>
+            <li>statistics for new and lost seasonal water (2000-2020)</li>
+            <li>annual seasonality statistics for periods: 0-1, 3-6, 7-11 months</li>
+            <li>statistics aggregated at national, sub-national &amp; basin scales</li>
+          </ul>
         </td>
       </tr>
       <tr>
@@ -135,10 +142,12 @@ STAT_CONC_DEF: >-
           <p>water quality</p>
         </td>
         <td>
-          <p>annual and multi-annual changes in reservoir surface area (1984-prsent)</p>
-          <p>statistics for new and lost reservoir area (2000-2019)</p>
-          <p>statistics aggregated at national, sub-national &amp; basin scales</p>
-          <p>Monthly, annual and multi-annual measurements of trophic state and turbidity for 4,200 lakes and reservoirs globally (at 300m resolution)</p>
+          <ul>
+            <li>annual and multi-annual changes in reservoir surface area (1984-present)</li>
+            <li>statistics for new and lost reservoir area (2000-2020)</li>
+            <li>statistics aggregated at national, sub-national &amp; basin scales</li>
+            <li>Monthly, annual and multi-annual measurements of trophic state and turbidity for 4,200 lakes and reservoirs globally (at 300m resolution)</li>
+          </ul>
         </td>
       </tr>
       <tr>
@@ -149,8 +158,10 @@ STAT_CONC_DEF: >-
           <p>surface area</p>
         </td>
         <td>
-          <p>annual and multi-annual changes in mangrove area (2000-2016)</p>
-          <p>statistics aggregated at national, sub-national &amp; basin scales</p>
+          <ul>
+            <li>annual and multi-annual changes in mangrove area (2000-2016)</li>
+            <li>statistics aggregated at national, sub-national &amp; basin scales</li>
+          </ul>
         </td>
       </tr>
       <tr>
@@ -161,9 +172,11 @@ STAT_CONC_DEF: >-
           <p>surface area</p>
         </td>
         <td>
-          <p>wetlands area (baseline area comprised of data btw 2016-2018)</p>
-          <p>statistics aggregated at national, sub-national &amp; basin scales</p>
-          <p>wetlands area changes will be included starting in 2021/22</p>
+          <ul>
+            <li>wetlands area (baseline area comprised of data btw 2016-2018)</li>
+            <li>statistics aggregated at national, sub-national &amp; basin scales</li>
+            <li>wetlands area changes will be included starting in 2021/22</li>
+          </ul>
         </td>
       </tr>
       <tr>
@@ -174,12 +187,13 @@ STAT_CONC_DEF: >-
           <p>water quality</p>
         </td>
         <td>
-          <p>Monthly, annual and multi-annual measurements of trophic state and turbidity for 4,200 lakes and reservoirs globally (at 300m resolution)</p>
+          <ul>
+            <li>Monthly, annual and multi-annual measurements of trophic state and turbidity for 4,200 lakes and reservoirs globally (at 300m resolution)</li>
+          </ul>
         </td>
       </tr>
       <tr>
         <td colspan="3">
-          <p></p>
           <p><strong>SDG indicator 6.6.1 data derived from national in-situ measurements</strong></p>
         </td>
       </tr>
@@ -202,9 +216,10 @@ STAT_CONC_DEF: >-
           <p>flow </p>
         </td>
         <td>
-          <p>modelled natural runoff/streamflow</p>
-          <p>and/or</p>
-          <p>in-situ stream/river flow measurements, aggregated over time, of all major rivers</p>
+          <ul>
+            <li>modelled natural runoff/streamflow, and/or</li>
+            <li>in-situ stream/river flow measurements, aggregated over time, of all major rivers</li>
+          </ul>
         </td>
       </tr>
       <tr>
@@ -215,7 +230,9 @@ STAT_CONC_DEF: >-
           <p>level</p>
         </td>
         <td>
-          <p>Changes to volume measurements, over time, of all major groundwater aquifers</p>
+          <ul>
+            <li>Changes to volume measurements, over time, of all major groundwater aquifers</li>
+          </ul>
         </td>
       </tr>
     </tbody>
@@ -235,9 +252,9 @@ STAT_CONC_DEF: >-
   2019). The indicator is framed around the monitoring of different types of
   water-related ecosystems including lakes, rivers, wetlands, groundwater and
   artificial waterbodies such as reservoirs. These water-related ecosystems
-  contain freshwater, with the exception of mangroves which contain brackish
-  water (i.e. a combination of fresh and saltwater) however mangroves are still
-  included within indicator 6.6.1. Reservoirs are also included as a category of
+  contain freshwater, except for mangroves which contain brackish water (i.e. a
+  combination of fresh and saltwater), however, mangroves are still included
+  within indicator 6.6.1. Reservoirs are also included as a category of
   water-related ecosystem within the indicator methodology; while it is
   recognized that reservoirs are not traditional water ecosystems which should
   necessarily warrant protection and restoration, in many countries they hold a
@@ -323,8 +340,8 @@ STAT_CONC_DEF: >-
   (since 1984 onward) water dynamics at 30x30 meter pixel resolution. The
   dataset documents permanent and seasonal surface water surfaces. All naturally
   occurring surface water larger in area than 30x30 meters has been mapped and
-  at this 30 meter grid/pixel spatial resolution satellite imagery is
-  predominantly capturing areas of lakes and wide rivers (ie rivers over
+  at this 30-meter grid/pixel spatial resolution satellite imagery is
+  predominantly capturing areas of lakes and wide rivers (ie.. rivers over
   30meters wide). The data include land areas that are temporarily inundated.
   Smaller rivers and waterbodies are not captured as they are too narrow to
   detect or are masked by forest canopy. The data include individual
@@ -357,7 +374,8 @@ STAT_CONC_DEF: >-
   collected over 36 years which have been individually processed using an
   accurate expert system classifier.</p>
 
-  <p>The SDG 6.6.1 data portal (www.sdg661.app) documents various water
+  <p>The SDG 6.6.1 data portal (<a
+  href="http://www.sdg661.app">www.sdg661.app</a>) documents various water
   transitions relating to permanent and seasonal surface water - these are
   changes in water state between two points in time (e.g. 2000 - 2019). Data is
   available for various transitions including new permanent water surfaces (i.e.
@@ -374,12 +392,16 @@ STAT_CONC_DEF: >-
   [nominally a year] from &apos;seasonal&apos; (those that are present for only
   part of the year).</p>
 UNIT_MEASURE: >-
-  <p>Change in the spatial area/extent of freshwater (KM2, Percent)</p>
+  <p>Change in the spatial area/extent of freshwater: KM2, Percent (%)</p>
 
-  <p>Change in quality of freshwater (Percent)</p>
+  <p>Change in quality of freshwater: Percent (%)</p>
 
-  <p>Change in the quantity of freshwater (millions of cubic metres per
-  annum)</p>
+  <p>Change in the quantity of freshwater: millions of cubic metres per
+  annum</p>
+CLASS_SYSTEM: |-
+  <ul>
+    <li>Standard Country or Area Codes for Statistical Use (UN M49 classification of countries and regions)</li>
+  </ul>
 SOURCE_TYPE: >-
   <p>Surface water area data, acquired by the Landsat 5, 7 and 8 satellites at a
   30 m resolution, has been generated for the entire globe from 2000-2019. From
@@ -396,7 +418,7 @@ SOURCE_TYPE: >-
   combined Landsat and Sentinel satellites paired with instruments like OLCI,
   MODIS, and VIIRS. The sensor instruments used to detect TSS and trophic state
   determine the spatial resolution of water quality within lakes which can be
-  detected. Some of the more accurate water quality sensors have 250-350 meter
+  detected. Some of the more accurate water quality sensors have 250-350-meter
   resolution, while less accurate sensors can detect TSS and trophic state
   changes to 100 m resolution. </p>
 
@@ -406,11 +428,7 @@ SOURCE_TYPE: >-
   data will soon be available and used to measure stream flow as part of
   indicator 661 replacing the need for In-situ stream flow measurements to be
   collected. </p>
-
-  <p> </p>
 COLL_METHOD: >-
-  <p> </p>
-
   <p>Each sub-indicator (including permanent lakes and river area; seasonal
   lakes and river area; reservoir minimum and maximum area and water quality;
   inland wetlands area; mangroves area; lake water quality) is computed
@@ -425,18 +443,18 @@ COLL_METHOD: >-
 FREQ_COLL: >-
   <p><strong>Data collection:</strong></p>
 
-  <p>Annual estimation of globally derived satellite based data released around
-  May each year and uploaded onto the SDG 661 data portal (www.sdg661.app).
-  Every three/four years data is communicated to national focal points for
-  validation.</p>
+  <p>Annual estimation of globally derived satellite-based data released around
+  May each year and uploaded onto the SDG 661 data portal <a
+  href="http://www.sdg661.app">www.sdg661.app</a>. Every three/four years data
+  is communicated to national focal points for validation.</p>
 REL_CAL_POLICY: >-
   <p>First reporting cycle: June 2018; Second reporting cycle: June 2020; Third
   reporting cycle: June 2023.</p>
 DATA_SOURCE: |-
   <ol>
-    <li>Data on Permanent Water, Seasonal Water , and Reservoir Water - European Commission Joint Research Centre &#x2013; Global Surface Water Explorer</li>
+    <li>Data on Permanent Water, Seasonal Water, and Reservoir Water - European Commission Joint Research Centre &#x2013; Global Surface Water Explorer</li>
     <li>Data on Water Turbidity and Trophic State- European Copernicus Land Service products</li>
-    <li>Data on Mangroves- Global Mangrove Watch</li>
+    <li>Data on Mangroves - Global Mangrove Watch</li>
     <li>Data on Wetlands - DHI GRAS</li>
     <li>Data on river flow - national institutions</li>
     <li>Data on groundwater &#x2013; national institutions</li>
@@ -445,6 +463,13 @@ COMPILING_ORG: |-
   <ol>
     <li>United Nations Environment Programme (UNEP) </li>
   </ol>
+INST_MANDATE: >-
+  <p>UNEP was awarded the mandate of custodian agency for SDG indicator 6.6.1 by
+  the Inter-agency and Expert Group on SDG Indicators. In its capacity as
+  custodian, UNEP are responsible for the development of the internationally
+  comparable monitoring methodology and metadata, with national data, and
+  regional and global aggregations reported to the SDG global data base and
+  these statistics included in the Secretary Generals SDG progress reports.</p>
 RATIONALE: >-
   <p>Target 6.6 aims to &#x201C;protect and restore water-related ecosystems,
   including mountains, forests, wetlands, rivers, aquifers and lakes&#x201D;
@@ -475,17 +500,18 @@ REC_USE_LIM: >-
   relevant. The full SDG indicator 6.6.1 monitoring methodology details specific
   limitations associated with the production of data for the different ecosystem
   types relevant to SDG indicator 6.6.1, including links to publications
-  pertaining to the data production methodologies. SDG indicator 6.6.1 is
-  designed enable countries to understand the extent to which protecting and
-  restoring different types of water-related ecosystem (e.g. lakes, rivers,
-  reservoirs, wetlands, mangroves). It does not measure how many water-related
-  ecosystems have been protected and restored. It is assumed that countries use
-  the available data to actively make decisions, but these actions are not
-  currently being measured. The data generated should be considered alongside
-  other data, in particular land use change and demographic data, to better
-  enable countries to understand the drivers of ecosystem change and put in
-  place appropriate policy and legislative mechanisms that result in the
-  protection and restoration water-related ecosystems.</p>
+  pertaining to the data production methodologies. </p>
+
+  <p>SDG indicator 6.6.1 is designed enable countries to understand the extent
+  to which protecting and restoring different types of water-related ecosystem
+  (e.g. lakes, rivers, reservoirs, wetlands, mangroves). It does not measure how
+  many water-related ecosystems have been protected and restored. It is assumed
+  that countries use the available data to actively make decisions, but these
+  actions are not currently being measured. The data generated should be
+  considered alongside other data, in particular land use change and demographic
+  data, to better enable countries to understand the drivers of ecosystem change
+  and put in place appropriate policy and legislative mechanisms that result in
+  the protection and restoration water-related ecosystems.</p>
 
   <p>UNEP periodically invites national contact persons to participate in
   consultations with the aim to validate estimated national values.</p>
@@ -504,7 +530,7 @@ DATA_COMP: >-
   (since 1984 onward) water dynamics at 30x30 meter pixel resolution. The
   dataset documents permanent and seasonal surface water surfaces. All naturally
   occurring surface water larger in area than 30x30 meters has been mapped and
-  at this 30 meter grid/pixel spatial resolution satellite imagery is
+  at this 30-meter grid/pixel spatial resolution satellite imagery is
   predominantly capturing areas of lakes and wide rivers. The data include land
   areas that are temporarily inundated such as wetlands and paddy fields.
   Smaller rivers and waterbodies are not captured as they are too narrow to
@@ -557,58 +583,103 @@ DATA_COMP: >-
   <p><strong>Calculating the change in surface area of permanent and seasonal
   surface water </strong></p>
 
-  <p>Data on surface water dynamics are available for a 36-year period, from
+  <p>Data on surface water dynamics are available for a 38-year period, from
   1984-onward. Every year new annual data is produced and added to this time
   series. To calculate percentage change in lake and river area using a
-  2000-2019 dataset, a baseline period is first defined against which to measure
+  2000-2021 dataset, a baseline period is first defined against which to measure
   change. This methodology uses 2000-2004 as the 5-year baseline period and to
   be compared against any subsequent 5-year target period. For each 5-year
   period the water state (permanent, seasonal or no water) is decided by a
   majority rule, and the water transitions between the baseline and the target
   period is subsequently used to compute the percentage change (&#x2206;) in the
-  spatial area of permanent and seasonal waters:</p>
+  spatial area of permanent and seasonal waters by equation 1:</p>
 
-  <p>&#x2206;=[((&#x3B1;-&#x3B2;)+(&#x3C1;-&#x3C3;))&#x2044;&#x3B3;]&#xD7;100</p>
-
+  <p><math xmlns="http://www.w3.org/1998/Math/MathML">
+      <mi>E</mi>
+      <mi>q</mi>
+      <mi>u</mi>
+      <mi>a</mi>
+      <mi>t</mi>
+      <mi>i</mi>
+      <mi>o</mi>
+      <mi>n</mi>
+      <mi>&amp;nbsp;</mi>
+      <mn>1</mn>
+      <mo>:</mo>
+      <mi>&amp;nbsp;</mi>
+      <mi>&amp;nbsp;</mi>
+      <mo>&#x2206;</mo>
+      <mi>&amp;nbsp;</mi>
+      <mo>=</mo>
+      <mi>&amp;nbsp;</mi>
+      <mfrac>
+        <mrow>
+          <mfenced separators="|">
+            <mrow>
+              <mi>&#x3B1;</mi>
+              <mo>-</mo>
+              <mi>&#x3B2;</mi>
+            </mrow>
+          </mfenced>
+          <mo>+</mo>
+          <mo>(</mo>
+          <mi>&#x3C1;</mi>
+          <mo>-</mo>
+          <mi>&#x3C3;</mi>
+          <mo>)</mo>
+        </mrow>
+        <mrow>
+          <mi>&#x3B5;</mi>
+          <mo>+</mo>
+          <mi>&#x3B2;</mi>
+          <mo>+</mo>
+          <mi>&#x3C3;</mi>
+        </mrow>
+      </mfrac>
+      <mo>&#xD7;</mo>
+      <mn>100</mn>
+    </math></p>
   <p>And subject to the following for computing permanent surface water
   dynamics:</p>
 
-  <p>&#x3B1; = New permanent water (i.e. conversion of a no water place into a
-  permanent water place)</p>
-
-  <p>&#x3B2; = Lost permanent water (i.e. conversion of a permanent water place
-  into a no water place)</p>
-
-  <p>&#x3C1; = Seasonal to permanent (i.e. conversion of seasonal water into
-  permanent water)</p>
-
-  <p>&#x3C3; = Permanent to seasonal (i.e. conversion of permanent water into
-  seasonal water)</p>
-
-  <p>&#x3B5; = Permanent water surfaces (i.e. area where water is always
-  observed)</p>
-
-  <p>&#x3B3; = &#x3B5; + &#x3B2; + &#x3C3;</p>
-
+  <p><math xmlns="http://www.w3.org/1998/Math/MathML">
+      <mo>&#x2206;</mo>
+    </math><em> &#x2013; </em>percentage change in spatial extent</p>
+  <p><math xmlns="http://www.w3.org/1998/Math/MathML">
+      <mi>&#x3B1;</mi>
+    </math> &#x2013; New permanent water (i.e. conversion of a no water place into a permanent water place)</p>
+  <p><math xmlns="http://www.w3.org/1998/Math/MathML">
+      <mi>&#x3B2;</mi>
+    </math> &#x2013; Lost permanent water (i.e. conversion of a permanent water place into a no water place)</p>
+  <p><math xmlns="http://www.w3.org/1998/Math/MathML">
+      <mi>&#x3C1;</mi>
+    </math> &#x2013; Seasonal to permanent (i.e. conversion of seasonal water into permanent water)</p>
+  <p><math xmlns="http://www.w3.org/1998/Math/MathML">
+      <mi>&#x3C3;</mi>
+    </math> &#x2013; Permanent to seasonal (i.e. conversion of permanent water into seasonal water)</p>
+  <p><math xmlns="http://www.w3.org/1998/Math/MathML">
+      <mi>&#x3B5;</mi>
+    </math> &#x2013; Permanent water surfaces (i.e. area where water is always observed)</p>
   <p>While the following applies for computing seasonal water dynamics:</p>
 
-  <p>&#x3B1; = New seasonal water (i.e. conversion of a no water place into a
-  seasonal water place)</p>
-
-  <p>&#x3B2; = Lost seasonal water (i.e. conversion of a seasonal water place
-  into a no water place)</p>
-
-  <p>&#x3C1; = Permanent to seasonal (i.e. conversion of permanent water into
-  seasonal water)</p>
-
-  <p>&#x3C3; = Seasonal to permanent (i.e. conversion of seasonal water into
-  permanent water)</p>
-
-  <p>&#x3B5; = Seasonal water surfaces (i.e. area where seasonal water is always
-  observed)</p>
-
-  <p>&#x3B3; = &#x3B5; + &#x3B2; + &#x3C3;</p>
-
+  <p><math xmlns="http://www.w3.org/1998/Math/MathML">
+      <mo>&#x2206;</mo>
+    </math> &#x2013; percentage change in spatial extent</p>
+  <p><math xmlns="http://www.w3.org/1998/Math/MathML">
+      <mi>&#x3B1;</mi>
+    </math> &#x2013; New seasonal water (i.e. conversion of a no water place into a seasonal water place)</p>
+  <p><math xmlns="http://www.w3.org/1998/Math/MathML">
+      <mi>&#x3B2;</mi>
+    </math> &#x2013; Lost seasonal water (i.e. conversion of a seasonal water place into a no water place)</p>
+  <p><math xmlns="http://www.w3.org/1998/Math/MathML">
+      <mi>&#x3C1;</mi>
+    </math> &#x2013; Permanent to seasonal (i.e. conversion of permanent water into seasonal water)</p>
+  <p><math xmlns="http://www.w3.org/1998/Math/MathML">
+      <mi>&#x3C3;</mi>
+    </math> &#x2013; Seasonal to permanent (i.e. conversion of seasonal water into permanent water)</p>
+  <p><math xmlns="http://www.w3.org/1998/Math/MathML">
+      <mi>&#x3B5;</mi>
+    </math> &#x2013; Seasonal water surfaces (i.e. area where seasonal water is always observed)</p>
   <p>The nature of this formula yields percentage change values as either
   positive or negative, which helps to indicate how spatial area is changing. On
   the SDG661 data portal, statistics are displayed using both positive and
@@ -709,71 +780,110 @@ DATA_COMP: >-
   <p><strong>Calculating the extent to which reservoir area is changing over
   time</strong></p>
 
-  <p>Data on reservoir areas are available for a 36-year period, from
+  <p>Data on reservoir areas are available for a 38-year period, from
   1984-onward. Every year new annual data is produced and added to this time
-  series. To calculate percentage change in reservoir area using a 2000-2019
+  series. To calculate percentage change in reservoir area using a 2000-2021
   dataset, a baseline period is first defined against which to measure change.
   This methodology uses 2000-2004 as the 5-year baseline period and to be
   compared against any subsequent 5-year target period. For each 5-year period
   the water state (permanent, seasonal or no water) is decided by a majority
   rule, and the water transitions between the baseline and the target period is
   subsequently used to compute the percentage change (&#x2206;) in the spatial
-  area of reservoirs:</p>
-
-  <p>&#x2206;=[((&#x3B1;-&#x3B2;)+(&#x3C1;-&#x3C3;))&#x2044;&#x3B3;]&#xD7;100</p>
+  area of reservoirs.</p>
 
   <p>The computation is based on water detection within water bodies designated
   as reservoirs.</p>
 
-  <p>The equation is subject to the following parametrization for computing
-  changes in minimum reservoir extent:</p>
+  <p>The equation 1 is subject to the following parametrization for computing
+  changes in minimum reservoir extent.</p>
 
-  <p>&#x3B1; = New permanent water (i.e. conversion of a no water place into a
-  permanent water place)</p>
-
-  <p>&#x3B2; = Lost permanent water (i.e. conversion of a permanent water place
-  into a no water place)</p>
-
-  <p>&#x3C1; = Seasonal to permanent (i.e. conversion of seasonal water into
-  permanent water)</p>
-
-  <p>&#x3C3; = Permanent to seasonal (i.e. conversion of permanent water into
-  seasonal water)</p>
-
-  <p>&#x3B5; = Permanent water surfaces (i.e. area where water is always
-  observed)</p>
-
-  <p>&#x3B3; = &#x3B5; + &#x3B2; + &#x3C3;</p>
-
-  <p>While the following applies for computing changes in maximum reservoir
+  <p>While equation 2 is applied for computing changes in maximum reservoir
   area:</p>
 
-  <p>&#x3B1; = New permanent water (i.e. conversion of a no water place into a
-  permanent water place)</p>
+  <p><math xmlns="http://www.w3.org/1998/Math/MathML">
+      <mi>E</mi>
+      <mi>q</mi>
+      <mi>u</mi>
+      <mi>a</mi>
+      <mi>t</mi>
+      <mi>i</mi>
+      <mi>o</mi>
+      <mi>n</mi>
+      <mi mathvariant="normal">&amp;nbsp;</mi>
+      <mn>2</mn>
+      <mo>:</mo>
+      <mi mathvariant="normal">&amp;nbsp;</mi>
+    </math> <math xmlns="http://www.w3.org/1998/Math/MathML">
+      <mo>&#x2206;</mo>
+      <mi mathvariant="normal">&amp;nbsp;</mi>
+      <mo>=</mo>
+      <mi mathvariant="normal">&amp;nbsp;</mi>
+      <mfrac>
+        <mrow>
+          <mfenced separators="|">
+            <mrow>
+              <mi>&#x3B1;</mi>
+              <mo>-</mo>
+              <mi>&#x3B2;</mi>
+            </mrow>
+          </mfenced>
+          <mo>+</mo>
+          <mo>(</mo>
+          <mi>&#x3C1;</mi>
+          <mo>-</mo>
+          <mi>&#x3C3;</mi>
+          <mo>)</mo>
+        </mrow>
+        <mrow>
+          <mo>(</mo>
+          <mi>&#x3B5;</mi>
+          <mo>+</mo>
+          <mi>&#x3B2;</mi>
+          <mo>+</mo>
+          <mi>&#x3D1;</mi>
+          <mo>)</mo>
+          <mo>+</mo>
+          <mo>(</mo>
+          <mi>&#x3F5;</mi>
+          <mo>+</mo>
+          <mi>&#x3C3;</mi>
+          <mo>+</mo>
+          <mo>&#x2202;</mo>
+          <mo>)</mo>
+        </mrow>
+      </mfrac>
+      <mo>&#xD7;</mo>
+      <mn>100</mn>
+    </math></p>
+  <p>Where:</p>
 
-  <p>&#x3B2; = Lost permanent water (i.e. conversion of a permanent water place
-  into a no water place)</p>
-
-  <p>&#x3C1; = New seasonal water (i.e. conversion of a no water place into a
-  seasonal water place)</p>
-
-  <p>&#x3C3; = Lost seasonal water (i.e. conversion of a seasonal water place
-  into a no water place)</p>
-
-  <p>&#x3D1; = Permanent to seasonal (i.e. conversion of permanent water into
-  seasonal water)</p>
-
-  <p>&#x2202; = Seasonal to permanent (i.e. conversion of seasonal water into
-  permanent water)</p>
-
-  <p>&#x3B5; = Permanent water surfaces (i.e. area where water is always
-  observed)</p>
-
-  <p>&#x3F5; = Seasonal water surfaces (i.e. area where seasonal water is always
-  observed)</p>
-
-  <p>&#x3B3; = (&#x3B5;+&#x3B2;+&#x3D1;)+(&#x3F5;+&#x3C3;+&#x2202;)</p>
-
+  <p><math xmlns="http://www.w3.org/1998/Math/MathML">
+      <mo>&#x2206;</mo>
+    </math> &#x2013; percentage change in spatial extent</p>
+  <p><math xmlns="http://www.w3.org/1998/Math/MathML">
+      <mi>&#x3B1;</mi>
+    </math> &#x2013; New permanent water (i.e. conversion of a no water place into a permanent water place)</p>
+  <p><math xmlns="http://www.w3.org/1998/Math/MathML">
+      <mi>&#x3B2;</mi>
+    </math> &#x2013; Lost permanent water (i.e. conversion of a permanent water place into a no water place)</p>
+  <p><math xmlns="http://www.w3.org/1998/Math/MathML">
+      <mi>&#x3C1;</mi>
+    </math> &#x2013; New seasonal water (i.e. conversion of a no water place into a seasonal water place)</p>
+  <p><math xmlns="http://www.w3.org/1998/Math/MathML">
+      <mi>&#x3C3;</mi>
+    </math> &#x2013; Lost seasonal water (i.e. conversion of a seasonal water place into a no water place)</p>
+  <p><math xmlns="http://www.w3.org/1998/Math/MathML">
+      <mi>&#x3D1;</mi>
+    </math> &#x2013; Permanent to seasonal (i.e. conversion of permanent water into seasonal water)</p>
+  <p><math xmlns="http://www.w3.org/1998/Math/MathML">
+      <mo>&#x2202;</mo>
+    </math> &#x2013; Seasonal to permanent (i.e. conversion of seasonal water into permanent water)</p>
+  <p><math xmlns="http://www.w3.org/1998/Math/MathML">
+      <mi>&#x3B5;</mi>
+    </math> &#x2013; Permanent water surfaces (i.e. area where water is always observed)</p>
+  <p><math xmlns="http://www.w3.org/1998/Math/MathML">
+      <mi>&#x3F5;</mi>
+    </math> &#x2013; Seasonal water surfaces (i.e. area where seasonal water is always observed)</p>
   <p>Minimum water extent of reservoirs is the lowest observed (or minimum)
   surface area of reservoirs in a year (intra-annual measurement). This minimum
   extent varies from one year to another. The data shows the extent to which the
@@ -788,7 +898,7 @@ DATA_COMP: >-
   area of reservoirs has changed compared to a reference period. This change is
   calculated by comparing the maximum area of the most recent five years against
   a five year reference period (2000-2004). Change is either gain or loss both
-  shown in both percentage and km2 units</p>
+  shown in both percentage and km2 units.</p>
 
   <p><strong>Wetlands</strong></p>
 
@@ -801,7 +911,7 @@ DATA_COMP: >-
   flood recession agriculture&#x201D;. This sub-indicator only measures inland
   vegetated wetlands and not coastal mangroves (see section 3.5 of this
   methodology on mangroves). This SDG indicator methodology is used for official
-  reporting of SDG indicator 6.6.1 statistics . A high-resolution global
+  reporting of SDG indicator 6.6.1 statistics. A high-resolution global
   geo-spatial mapping of inland vegetated wetlands has been produced detailing
   the spatial area of wetlands per country. The data on wetlands has been
   produced to support countries with monitoring their wetland ecosystems and
@@ -812,15 +922,17 @@ DATA_COMP: >-
   annual variations, multi-annual data was collected to even out potential
   annual biases and create a robust estimate of wetland area. Data was gathered
   from 2016, 2017 and 2018 and combined to produce a wetlands area baseline
-  measurement (in km2). Future annual updates will enable wetlands change
-  statistics to be produced and these once available these will be displayed on
-  the SDG 6.6.1 data portal. Predicting wetland area using Earth Observation
-  data relies on four components: stratification, training data, machine
-  learning, and post-processing. The approach uses all available data from the
-  satellites Sentinel-1, Sentinel-2, and Landsat 8 to predict wetland
-  probability. A Digital Elevation Model is used to qualify wetland predictions
-  and a post-processing routine converts the wetland probability map into a map
-  of wetland area. In addition, topographic information from satellite-derived
+  measurement (in km2). </p>
+
+  <p>Future annual updates will enable wetlands change statistics to be produced
+  and these once available these will be displayed on the SDG 6.6.1 data portal.
+  Predicting wetland area using Earth Observation data relies on four
+  components: stratification, training data, machine learning, and
+  post-processing. The approach uses all available data from the satellites
+  Sentinel-1, Sentinel-2, and Landsat 8 to predict wetland probability. A
+  Digital Elevation Model is used to qualify wetland predictions and a
+  post-processing routine converts the wetland probability map into a map of
+  wetland area. In addition, topographic information from satellite-derived
   Digital Elevation Models (DEMs) are used. Close to 4 million satellite images
   amounting to 2.8 petabyte of data were analysed and classified as wetland or
   non-wetland using an automated machine learning model. Users of the global
@@ -835,7 +947,7 @@ DATA_COMP: >-
 
   <p> </p>
 
-  <p><em>Figure 4. Workflow for mapping global wetland area</em></p>
+  <p><em>Figure 1. Workflow for mapping global wetland area</em></p>
 
   <p>Data accuracy for the available wetlands data is approximately 70% and
   wetland data with 100% accuracy is not feasible at this current time. While it
@@ -858,7 +970,7 @@ DATA_COMP: >-
   <ul>
     <li>Only regional stratification is applied including strata spanning several countries. Using a finer level of stratification will help improve local/national wetland predictions;</li>
     <li>The accuracy of the wetlands map will improve further once cross referenced with more national wetland inventories and ground truthing;</li>
-    <li>Terrain information from satellite derived DEMs is key input for mapping wetlands globally. The current reference datasets are the 30-meter SRTM DEM which covers the globe from 60oNorth to 56oSouth, while the region north of 60 degrees north relied on a lower resolution 90-meter DEM model was used. Options for 30-meter DEMs north of 60oN exists and should be considered in future updates;</li>
+    <li>Terrain information from satellite derived DEMs is key input for mapping wetlands globally. The current reference datasets are the 30-meter SRTM DEM which covers the globe from 60oNorth&#x2070; to 56oSouth&#x2070;, while the region north of 60&#x2070; north relied on a lower resolution 90-meter DEM model was used. Options for 30-meter DEMs north of 60oN&#x2070; exists and should be considered in future updates;</li>
     <li>Small islands and potentially even entire small island states fall outside the acquisition plan of the Sentinel satellites. As a result, no wetland prediction has been performed for these areas. It will be possible to develop separate models for these missing islands using alternative input satellite data (e.g. using Landsat alone).</li>
   </ul>
 
@@ -880,15 +992,53 @@ DATA_COMP: >-
   produced annually. Once the update is produced it will be possible to
   calculate change of wetland area from the baseline reference period. Using
   this baseline period, percentage change of spatial extent is calculated using
-  the following formula:</p>
+  equation 3:</p>
 
-  <p>Percentage change in wetland area ((&#x3B2;-&#x3B3;))/&#x3B2;&#xD7;100 </p>
+  <p><math xmlns="http://www.w3.org/1998/Math/MathML">
+      <mi>E</mi>
+      <mi>q</mi>
+      <mi>u</mi>
+      <mi>a</mi>
+      <mi>t</mi>
+      <mi>i</mi>
+      <mi>o</mi>
+      <mi>n</mi>
+      <mi>&amp;nbsp;</mi>
+      <mn>3</mn>
+      <mo>:</mo>
+      <mi>&amp;nbsp;</mi>
+      <mi>&amp;nbsp;</mi>
+      <mi>&amp;nbsp;</mi>
+      <mi>&amp;nbsp;</mi>
+      <mo>&#x2206;</mo>
+      <mi>&amp;nbsp;</mi>
+      <mo>=</mo>
+      <mi>&amp;nbsp;</mi>
+      <mfrac>
+        <mrow>
+          <mi>&#x3B3;</mi>
+          <mo>-</mo>
+          <mi>&#x3B2;</mi>
+          <mi>&amp;nbsp;</mi>
+        </mrow>
+        <mrow>
+          <mi>&#x3B2;</mi>
+        </mrow>
+      </mfrac>
+      <mo>&#xD7;</mo>
+      <mn>100</mn>
+    </math></p>
+  <p>Where:</p>
 
-  <p>Where &#x3B2; is the spatial wetland area for the baseline reference
-  period</p>
-
-  <p>Where &#x3B3; is the spatial area for the reporting period. </p>
-
+  <p><math xmlns="http://www.w3.org/1998/Math/MathML">
+      <mo>&#x2206;</mo>
+    </math><em> &#x2013;</em> percentage change in spatial extent;</p>
+  <p><math xmlns="http://www.w3.org/1998/Math/MathML">
+      <mi>&#x3B2;</mi>
+    </math> &#x2013; the spatial wetland area for the baseline reference period;</p>
+  <p><math xmlns="http://www.w3.org/1998/Math/MathML">
+      <mi>&#x3B3;</mi>
+    </math> &#x2013; the spatial area for the reporting period. </p>
   <p><strong>Mangroves</strong></p>
 
   <p><strong>Description of the method used to measure mangrove
@@ -941,16 +1091,20 @@ DATA_COMP: >-
   baseline with that of the surface water dataset. National mangrove extent for
   the year 2000 will be used as the baseline reference period. Annual mangrove
   extent is compared to this baseline year. Percentage change of spatial extent
-  is calculated using the following formula: </p>
+  is calculated using equation 3. </p>
 
-  <p>Percentage Change in Spatial
-  Extent=((&#x3B2;-&#x3B3;))/&#x3B2;&#xD7;100</p>
+  <p>Using equation 3 to calculate the percentage change in mangrove spatial
+  extent, the following explanation is used: </p>
 
-  <p>Where &#x3B2; = the national spatial extent from year 2000</p>
-
-  <p>Where &#x3B3; = the national spatial extent of any other subsequent annual
-  period </p>
-
+  <p><math xmlns="http://www.w3.org/1998/Math/MathML">
+      <mo>&#x2206;</mo>
+    </math><em> &#x2013; </em>percentage change in spatial extent;</p>
+  <p><math xmlns="http://www.w3.org/1998/Math/MathML">
+      <mi>&#x3B2;</mi>
+    </math> &#x2013; the national spatial extent from year 2000;</p>
+  <p><math xmlns="http://www.w3.org/1998/Math/MathML">
+      <mi>&#x3B3;</mi>
+    </math> &#x2013; the national spatial extent of any other subsequent annual period. </p>
   <p><strong>Limitations of the mangrove data:</strong></p>
 
   <ul>
@@ -972,7 +1126,7 @@ DATA_COMP: >-
   an estimate of Trophic State Index (TSI). The products were produced by the
   Copernicus, the Earth Observation program of the European Union. For the two
   parameters the dataset documents monthly averages as well as multi-annual
-  per-monthly averages for the periods 2006-2010 and 2017-2019. The products are
+  per-monthly averages for the periods 2006-2010 and 2017-2020. The products are
   mapped at a 300x300 meter pixel resolution capturing data for a total of 4265
   lakes. Each lake has individual identification information allowing it to be
   related to other hydrological datasets. A list of all lake IDs and additional
@@ -980,6 +1134,11 @@ DATA_COMP: >-
   Turbidity is derived from suspended solids concentration estimates and the
   Trophic State Index is derived from phytoplankton biomass by proxy of
   chlorophyll-a.</p>
+
+  <p>Table <em>2: Trophic state index and related chlorophyll-a concentration
+  classes</em></p>
+
+  <p><em>(according to Carlson (1977)</em></p>
 
   <table>
     <tbody>
@@ -1097,13 +1256,8 @@ DATA_COMP: >-
     </tbody>
   </table>
 
-  <p>Table <em>2: Trophic state index and related chlorophyll-a concentration
-  classes</em></p>
-
-  <p><em>(according to Carlson (1977))</em></p>
-
   <p>Products in the period 2006 - 2010 are based on observations from the MERIS
-  sensor, whereas the product 2017-2019 is derived from OLCI sensors. Land/water
+  sensor, whereas the product 2017-2020 is derived from OLCI sensors. Land/water
   buffer maps as well as ice maps were applied to improve the accuracy of the
   data. The products were tested against consistency (time series) and against
   in situ data, both for a selected set of lakes. A detailed technical
@@ -1118,23 +1272,82 @@ DATA_COMP: >-
   of data, 12 monthly averages (one for each month of the year) for both trophic
   state and turbidity, were derived. A further set of observations are then used
   to calculate change against the baseline data. These monthly data comprise
-  years 2017,18,19. The 12 monthly averages for these three years have been
-  derived.</p>
+  years 2017, 2018, 2019 and 2020. The 12 monthly averages for these three years
+  have been derived.</p>
 
-  <p>Monthly deviation of the multiannual baseline is computed using the
-  following equation: month_average-Month_baseline)/Month_baseline x 100. For
-  each pixel, and for each month, the number of valid observations has been
-  counted and the number of months where there were monthly deviations, falling
-  in one of the following range of values: 0-25% (low), 25-50% (medium), 50-75%
-  (high), 75-100% (extreme). An annual deviation synthesis is also produced.
+  <p>Monthly deviation of the multiannual baseline is computed using equation 4:
   </p>
+
+  <p><math xmlns="http://www.w3.org/1998/Math/MathML">
+      <mfrac>
+        <mrow>
+          <mi>M</mi>
+          <mi>o</mi>
+          <mi>n</mi>
+          <mi>t</mi>
+          <mi>h</mi>
+          <mi>l</mi>
+          <mi>y</mi>
+          <mi>&amp;nbsp;</mi>
+          <mi>a</mi>
+          <mi>v</mi>
+          <mi>e</mi>
+          <mi>r</mi>
+          <mi>a</mi>
+          <mi>g</mi>
+          <mi>e</mi>
+          <mo>-</mo>
+          <mi>M</mi>
+          <mi>o</mi>
+          <mi>n</mi>
+          <mi>t</mi>
+          <mi>h</mi>
+          <mi>l</mi>
+          <mi>y</mi>
+          <mi>&amp;nbsp;</mi>
+          <mi>b</mi>
+          <mi>a</mi>
+          <mi>s</mi>
+          <mi>e</mi>
+          <mi>l</mi>
+          <mi>i</mi>
+          <mi>n</mi>
+          <mi>e</mi>
+        </mrow>
+        <mrow>
+          <mi>M</mi>
+          <mi>o</mi>
+          <mi>n</mi>
+          <mi>t</mi>
+          <mi>h</mi>
+          <mi>l</mi>
+          <mi>y</mi>
+          <mi>&amp;nbsp;</mi>
+          <mi>b</mi>
+          <mi>a</mi>
+          <mi>s</mi>
+          <mi>e</mi>
+          <mi>l</mi>
+          <mi>i</mi>
+          <mi>n</mi>
+          <mi>e</mi>
+        </mrow>
+      </mfrac>
+      <mo>&#xD7;</mo>
+      <mn>100</mn>
+    </math></p>
+  <p>For each pixel, and for each month, the number of valid observations has
+  been counted and the number of months where there were monthly deviations,
+  falling in one of the following range of values: 0-25% (low), 25-50% (medium),
+  50-75% (high), 75-100% (extreme). An annual deviation synthesis is also
+  produced. </p>
 
   <p>The data represent the number of lakes impacted by a degradation of their
   environmental conditions (i.e. showing a deviation in turbidity and trophic
   state from the baseline) compared to the total number of lakes within a
   country. The values per pixel / per lake are calculated so as to account for
   different sized lakes. When viewing the summary dashboard of national
-  statistics within on the sdg 661 data platform, data on turbidity and/or
+  statistics within on the 661SDG .. data platform, data on turbidity and/or
   trophic state is displayed as number of lakes &#x2018;affected&#x2019;
   compared with the total number of lakes in the country. A lake is categorized
   as being &#x2018;affected&#x2019; when the value for either turbidity or
@@ -1293,6 +1506,7 @@ DATA_VALIDATION: >-
   national SDG indicator 6.6.1 data are shared with national indicator focal
   points (pre-confirmed SDG 661 indicator focal persons) for no-objection
   approval.</p>
+ADJUSTMENT: <p>No adjustments are made.</p>
 IMPUTATION: >-
   <ul>
     <li><strong>At country level</strong></li>
@@ -1316,11 +1530,12 @@ REG_AGG: >-
 DOC_METHOD: >-
   <p>A full SDG indicator monitoring methodology is available in all UN
   languages <a
-  href="https://www.unwater.org/publications/step-step-methodology-monitoring-ecosystems-6-6-1/">here</a></p>
+  href="https://www.unwater.org/publications/step-step-methodology-monitoring-ecosystems-6-6-1/">here</a>.</p>
 
   <p>All documentation on methodologies, downloads, production partners are
   available at the <a href="http://www.sdg661.app">Freshwater Ecosystem
-  Explorer</a> (www.sdg661.app)</p>
+  Explorer</a> (www.sdg661.app)<a
+  href="http://www.sdg661.app">www.sdg661.app</a></p>
 QUALITY_MGMNT: >-
   <p>The production methodologies for each freshwater satellite data set
   comprises quality management procedures and processes integrated into the data
@@ -1339,11 +1554,13 @@ QUALITY_ASSURE: >-
   Environment Programme according to approved standard operating procedures on
   data handling, aggregation, and management, prior to indicator data submission
   to UNSD.</p>
+QUALITY_ASSMNT: <p>Refer to 4.i and 4.j.</p>
 COVERAGE: >-
   <p><strong>Data availability:</strong></p>
 
-  <p>All SDG 661 indicator data is freely available and downloadable at the
-  Freshwater Ecosystem Explorer (www.sdg661.app)</p>
+  <p>All SDG 6.6.1 indicator data is freely available and downloadable at the
+  Freshwater Ecosystem Explorer <a
+  href="http://www.sdg661.app">www.sdg661.app</a></p>
 
   <p><strong>Time series:</strong></p>
 
@@ -1357,17 +1574,17 @@ COVERAGE: >-
   sub-administrative level, lakes, and reservoirs.</p>
 COMPARABILITY: |-
   <p><strong>Sources of discrepancies:</strong></p>
-  <p>NA</p>
+  <p>Not applicable</p>
 OTHER_DOC: >-
   <p><strong>URL: </strong><a
   href="http://www.sdg6monitoring.org/indicators/target-66/indicators661/"><strong>http://www.sdg6monitoring.org/indicators/target-66/indicators661/</strong></a></p>
 
   <p>All documentation on methodologies, downloads, production partners are
   available at the <a href="http://www.sdg661.app">Freshwater Ecosystem
-  Explorer</a> (www.sdg661.app)</p>
+  Explorer</a> (www.sdg661.app).</p>
 
   <p>In developing the methodology for indicator 6.6.1 UNEP set up a technical
-  expert group . This group provided inputs into the development of the
+  expert group. This group provided inputs into the development of the
   monitoring methodology. A first draft (Tier III) methodology was piloted in
   2017 and sent to all UN Member States accompanied with relevant capacity
   support materials. A limited number of Member States (19 per cent) submitted
@@ -1388,7 +1605,7 @@ OTHER_DOC: >-
   expert group was consulted on the updated methodology before submission to the
   IAEG-SDG for approval. </p>
 
-  <p>At the 7th IAEG-SDG meeting in April 2018 the indicator methodology was
+  <p>At the 7th IAEG-SDG meeting in April 2018, the indicator methodology was
   approved and classified as Tier II. Shortly afterwards, in November 2018, it
   was reclassified to a Tier I indicator methodology. The Tier I classification
   means that the indicator is conceptually clear, has an internationally
@@ -1396,7 +1613,7 @@ OTHER_DOC: >-
   produced by at least 50 per cent of countries and of the population in every
   region where the indicator is relevant.</p>
 
-  <p>Throughout 2019 UNEP continued to work with its partners to improve the
+  <p>Throughout 2019, UNEP continued to work with its partners to improve the
   globally available datasets relevant to SDG indicator 6.6.1 and the
   measurement of changes occurring to different types of water-related
   ecosystem. As such, this methodology was updated in March 2020 to include more
@@ -1405,31 +1622,78 @@ OTHER_DOC: >-
 
   <p><strong>References</strong></p>
 
-  <p>Bunting P., Rosenqvist A., Lucas R., Rebelo L-M., Hilarides L., Thomas N.,
-  Hardy A., Itoh T., Shimada M. and Finlayson C.M. (2018). The Global Mangrove
-  Watch &#x2013; a New 2010 Global Baseline of Mangrove Extent. Remote Sens.
-  2018, 10, 1669, doi.org/10.3390/rs10101669</p>
+  <p>Bunting P., Rosenqvist A., Lucas R M., Rebelo L. M., Hilarides L., Thomas
+  N., Hardy A., Itoh T., Shimada M. and Finlayson C. M. (2018). The Global
+  Mangrove gmwatch &#x2013; a new 2010 Global gbaseline of Mangrove mextent.
+  Remote Sens.<em>ing</em>, 10,() 1669 .https://doi.org/10.3390/rs10101669.</p>
 
-  <p>Dickens et al, 2019</p>
+  <p>Dickens et al, 2019 : Chris Dickins, Matthew McCartney: Water-related
+  Ecosystems, International</p>
 
-  <p>Farr et al, 2004</p>
+  <p>Water Management Institute, Sri Lanka.
+  https://doi.org/10.3390/su11020462</p>
 
-  <p>Giri, C., Ochieng, E., Tieszen L.L., Zhu, Z., Singh, A., Loveland, T.R.,
+  <p>Farr et al, 2004 : Farr et al, 2004 - Farr, T.G., Rosen, P.A., Caro, E.,
+  Crippen, R., Duren, R., Hensley, S., Kobrick, M.,Paller, M., Rodriguez, E.,
+  Roth, L., Seal, D., Shaffer, S., Shimada, J., Umland, J., Werner, M.,
+  Oskin,</p>
+
+  <p>M., Burbank, D., and Alsdorf, D.E., 2007, The shuttle radar topography
+  mission: Reviews of</p>
+
+  <p>Geophysics, v. 45, no. 2, RG2004, at
+  https://doi.org/10.1029/2005RG000183.</p>
+
+  <p>Giri, C., Ochieng, E., Tieszen L. L., Zhu, Z., Singh, A., Loveland, T.R.,
   Masek, J. &amp; Duke, N. (2011). Status and distribution of mangrove forests
-  of the world using earth observation satellite data. Global Ecology and
-  Biogeography, 20 (1), 154- 159. Available at: https://databasin.org/datasets/
-  d214245ab4554bc1a1e7e7d9b45b9329</p>
+  ofthe world using earth observation satellite data. Global Ecology and
+  Biogeography, 20(1), 154-159. Available at: <a
+  href="https://doi.org/10.1111/j.1466-8238.2010.00584.x">https://doi.org/10.1111/j.1466-8238.2010.00584.x</a></p>
 
-  <p>Lehner et al, 2011</p>
+  <p>Lehner et al, 2011: Lehner et al, 2011 - Lehner, B., C. Reidy Liermann, C.
+  Revenga, C. V&#xF6;r&#xF6;smarty, B. Fekete, P. :Crouzet, P. D&#xF6;ll, M.
+  Endejan, K. Frenken, J. Magome, C. Nilsson, J.C. Robertson, R. Rodel, N.</p>
 
-  <p>MEA, 2005</p>
+  <p>Sindorf, and D. Wisser. 2011. High-resolution mapping of the world&#x2019;s
+  reservoirs and dams for</p>
 
-  <p>Pekel, JF., Cottam, A., Gorelick N., Belward A,. High-resolution mapping of
-  global surface water and its long-term changes. Nature 540, 418&#x2013;422
-  (2016). https://doi.org/10.1038/nature20584</p>
+  <p>sustainable river-flow management. Frontiers in Ecology and the Environment
+  9 (9): 494-502.</p>
 
-  <p>Sayer et al. 2019</p>
+  <p>MEA, 2005: &#x2013;Millennium Ecosystem Assessment (2005) Ecosystems and
+  Human Well Being:</p>
+
+  <p>Wetlands and water synthesis. Island Press, Washington DC.
+  https://www.millenniumassessment.org/documents/document.358.aspx.pdf</p>
+
+  <p>Pekel, JF. ., Cottam, A., Gorelick N., &amp;Belward A,.S (2016).
+  High-resolution mapping of global surface water and its long-term changes.
+  Nature, 540) : <a
+  href="https://doi.org/10.1038/nature20584">https://doi.org/10.1038/nature20584</a>.
+  </p>
+
+  <p>Sayer et al. 2019 : Sayer et al, 2019 &#x2013; Roger Sayre, Suzanne Noble,
+  Sharon Hamann, Rebecca Smith, Dawn Wright, Sean Breyer, Kevin Butler, Keith
+  Van Graafeiland, Charlie Frye, Deniz Karagulle, Dabney Hopkins,</p>
+
+  <p>Drew Stephens, Kevin Kelly, Zeenatul Basher, Devon Burton, Jill Cress,
+  Karina Atkins, D. Paco Van</p>
+
+  <p>Sistine, Beverly Friesen, Rebecca Allee, Tom Allen, Peter Aniello, Irawan
+  Asaad, Mark John</p>
+
+  <p>Costello, Kathy Goodin, Peter Harris, Maria Kavanaugh, Helen Lillis,
+  Eleonora Manca, Frank MullerKarger, Bjorn Nyberg, Rost Parsons, Justin
+  Saarinen, Jac Steiner &amp; Adam Reed (2019) A new 30</p>
+
+  <p>meter resolution global shoreline vector and associated global islands
+  database for the development of</p>
+
+  <p>standardized ecological coastal units, Journal of Operational Oceanography,
+  12:sup2, S47-S56, DOI:</p>
+
+  <p>10.1080/1755876X.2018.1529714</p>
 
   <p>Spalding M., Kainuma, M. &amp; Collins, L. (2010). World Atlas of Mangroves
   (v1.1). London, U.K.: Earthscan (Taylor &amp; Francis). ISBN:
-  978-1-84407-657-4. Available at: data.unep-wcmc.org/datasets/5</p>
+  978-1-84407-657-4. Available at: https://data.unep-wcmc.org/datasets/5. </p>

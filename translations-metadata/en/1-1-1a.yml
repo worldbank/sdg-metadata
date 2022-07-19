@@ -6,7 +6,7 @@ SDG_INDICATOR: >-
   <p>Indicator 1.1.1: Proportion of the population living below the
   international poverty line by sex, age, employment status and geographic
   location (urban/rural)</p>
-META_LAST_UPDATE: <p>2021-07-01</p>
+META_LAST_UPDATE: '2022-04-12'
 SDG_RELATED_INDICATORS: >-
   <p>Indicator 1.2.1: Proportion of population living below the national poverty
   line, by sex and age</p>
@@ -86,10 +86,10 @@ SOURCE_TYPE: >-
   &#x2013; see section on data sources.</p>
 COLL_METHOD: >-
   <p>The World Bank transparently shares and makes public the methodologies for
-  all kinds of adjustments to original data (e.g., through its PovcalNet website
-  and its various analytical documents). The poverty estimates are developed by
-  economists, who work closely with national government counterparts concerning
-  each poverty data update. </p>
+  all kinds of adjustments to original data (e.g., through its Poverty and
+  Inequality Platform (PIP) website and its various analytical documents). The
+  poverty estimates are developed by economists, who work closely with national
+  government counterparts concerning each poverty data update. </p>
 FREQ_COLL: >-
   <p>Data are collected continuously by the Global Poverty Working Group of the
   World Bank.</p>
@@ -120,20 +120,20 @@ RATIONALE: >-
   for 22 countries (Ravallion, Datt, and van de Walle 1991). Since then there
   has been considerable expansion in the number of countries that field
   household income and expenditure surveys. The World Bank&apos;s Development
-  Data Group maintains a database, PovcalNet, that is updated annually as new
-  survey data become available (and thus may contain more recent data or
-  revisions) and conducts a major reassessment of progress against poverty every
-  year. PovcalNet is an interactive computational tool that allows users to
-  replicate these internationally comparable $1.90 and $3.20 a day global,
-  regional and country-level poverty estimates and to compute poverty measures
-  for custom country groupings and for different poverty lines. </p>
+  Data Group and Poverty and Equity Global Practice maintain a database, PIP,
+  that is updated annually as new survey data become available (and thus may
+  contain more recent data or revisions) and conducts a major reassessment of
+  progress against poverty every year. PIP is an interactive computational tool
+  that allows users to replicate these internationally comparable $1.90 and
+  $3.20 a day global, regional and country-level poverty estimates and to
+  compute poverty measures for custom country groupings and for different
+  poverty lines. </p>
 
-  <p>The Poverty and Equity Data portal provides access to the database and
-  user-friendly dashboards with graphs and interactive maps that visualize
-  trends in key poverty and inequality indicators for different regions and
-  countries. The country dashboards display trends in poverty measures based on
-  the national poverty lines alongside the internationally comparable estimates,
-  produced from and consistent with PovcalNet.</p>
+  <p>PIP also provides access to the database and user-friendly dashboards with
+  graphs and interactive maps that visualize trends in key poverty and
+  inequality indicators for different regions and countries. The country
+  dashboards display trends in poverty measures based on the national poverty
+  lines alongside the internationally comparable estimates.</p>
 REC_USE_LIM: >-
   <p>Despite progress in the last decade, the challenges of measuring poverty
   remain. The timeliness, frequency, quality, and comparability of household
@@ -272,7 +272,7 @@ REG_AGG: >-
 COVERAGE: >-
   <p><strong>Data availability:</strong></p>
 
-  <p>Data are available in 168 economies, (measured in terms of number of
+  <p>Data are available in 169 economies, (measured in terms of number of
   economies that have at least 1 data point).</p>
 COMPARABILITY: >-
   <p><strong>Sources of discrepancies:</strong></p>
@@ -285,12 +285,12 @@ COMPARABILITY: >-
 OTHER_DOC: >-
   <p><strong>URL:</strong></p>
 
-  <p>www.worldbank.org</p>
+  <p>www.pip.worldbank.org</p>
 
   <p><strong>References:</strong></p>
 
-  <p>For more information and methodology, please see PovcalNet
-  (http://iresearch.worldbank.org/PovcalNet/index.htm).</p>
+  <p>For more information and methodology, please see :
+  https://worldbank.github.io/PIP-Methodology/.</p>
 
   <p>Also, consult:
   http://documents.worldbank.org/curated/en/2015/10/25114899/global-count-extreme-poor-2012-data-issues-methodology-initial-results
@@ -302,7 +302,7 @@ OTHER_DOC: >-
   <p>For a comprehensive link to related background papers, working papers and
   journal articles see: </p>
 
-  <p>http://iresearch.worldbank.org/PovcalNet/index.htm?0,4 </p>
+  <p>https://pip.worldbank.org/publication.</p>
 
   <p>A Measured Approach to Ending Poverty and Boosting Shared Prosperity:
   Concepts, Data, and the Twin Goals.

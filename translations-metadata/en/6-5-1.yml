@@ -6,27 +6,32 @@ SDG_TARGET: >-
   levels, including through transboundary cooperation as appropriate</p>
 SDG_INDICATOR: '<p>Indicator 6.5.1: Degree of integrated water resources management</p>'
 SDG_SERIES_DESCR: >-
-  <p>Not applicable (this metadata applies to all series under this indicator).
-  </p>
-META_LAST_UPDATE: <p>2021-02-02</p>
+  <p> Degree of integrated water resources management implementation (%)
+  ER_H2O_IWRMD</p>
+
+  <p>Degree of integrated water resources management implementation, enabling
+  environment (%) ER_H2O_IWRMD_EE</p>
+
+  <p>Degree of integrated water resources management implementation, financing
+  (%) ER_H2O_IWRMD_FI</p>
+
+  <p>Degree of integrated water resources management implementation,
+  institutions and participation (%) ER_H2O_IWRMD_IP</p>
+
+  <p>Degree of integrated water resources management implementation, management
+  instruments (%) ER_H2O_IWRMD_MI</p>
+
+  <p>Proportion of countries by IWRM implementation category (%)
+  ER_H2O_IWRMP</p>
+META_LAST_UPDATE: '2022-07-07'
 SDG_RELATED_INDICATORS: >-
-  <p>As it measures the degree of implementation of an enabling environment for
-  better water resources management, it directly supports the other outcome
-  targets under SDG 6 (6.1 &#x2013; 6.6). It does this by providing further
-  information to countries on the context and possible explanation for the
-  progress on other targets, and points to barriers and enablers to obtaining
-  the other targets. It also directly supports the means of implementation
-  targets 6.a and 6.b, as disaggregation is possible to provide data on
-  financing (6.a) and stakeholder participation (6.b). Beyond SDG 6, indicator
-  6.5.1 has linkages with a number of other targets across the SDGs, as
-  integrated water resources management is concerned with integrating the
-  demands and impacts on water resources and water-related ecosystems from a
-  number of different SDGs and their targets, including: poverty (1.4);
-  agriculture (2.3); education (4.7); gender (5.5); energy (7.1); work (8.5);
-  equality (10.2); urban areas (11.3); climate change (13.2); ecosystems (15.9);
-  governance (16.3, 16.5 &#x2013; 16.7) (UN-Water 2016).</p>
+  <p>1.4.1, 1.4.2, 2.3.1, 2.3.2, 4.7.1, 5.5.1, 5.5.2, 6.6.1, 6.a.1, 6.b.1,
+  7.1.1, 7.1.2, 8.5.1, 8.5.2, 10.2.1, 11.3.1, 11.3.2, 13.2.1, 13.2.2, 15.9.1,
+  16.3.1, 16.3.2, 16.5.1, 16.5.2, 16.7.1, 16.7.2</p>
 SDG_CUSTODIAN_AGENCIES: <p>United Nations Environment Programme (UNEP)</p>
-CONTACT_ORGANISATION: <p>United Nations Environment Programme (UNEP)</p>
+CONTACT_ORGANISATION: >-
+  <p>United Nations Environment Programme (UNEP), implemented by the UNEP-DHI
+  Centre on Water and Environment</p>
 STAT_CONC_DEF: >-
   <p><strong>Definition:</strong></p>
 
@@ -67,11 +72,15 @@ STAT_CONC_DEF: >-
   for federated countries), basin level, and the transboundary level as
   appropriate. These two parts address the wording of Target 6.5
   &#x2018;implement [IWRM] at all levels &#x2026;&#x2019;.</p>
-UNIT_MEASURE: <p>The indicator is measured as a percentage (0-100).</p>
+UNIT_MEASURE: <p>Percent (%) </p>
 CLASS_SYSTEM: >-
-  <p>The concepts and methodology are broadly accepted by the international
-  community, having been developed over at least five decades. However, there
-  are no international standards per se. </p>
+  <h3>Classification of inland water bodies: <a
+  href="https://unstats.un.org/unsd/classifications/Family/Detail/2002">https://unstats.un.org/unsd/classifications/Family/Detail/2002</a>
+  </h3>
+
+  <ul>
+    <li>Standard Country or Area Codes for Statistical Use (UN M49 classification of countries and regions)</li>
+  </ul>
 SOURCE_TYPE: >-
   <p>Monitoring progress on meeting SDG 6.5 is owned by and is the
   responsibility of the national government. The government assigns a ministry
@@ -133,8 +142,11 @@ DATA_SOURCE: >-
   validating the question scores will lead to a more robust indicator score and
   facilitate tracking progress over time.</p>
 COMPILING_ORG: >-
-  <p>UNEP and UN-Water partners, under the UN-Water initiative on integrated
-  monitoring of SDG 6.</p>
+  <p>United Nations Environment Programme (UNEP), implemented by the UNEP-DHI
+  Centre on Water and Environment, and UN-Water partners, under the <a
+  href="https://www.sdg6monitoring.org/about/integrated-monitoring-initiative/"
+  target="_blank">UN-Water Integrated Monitoring Initiative for SDG 6
+  (IMI-SDG6)</a>.</p>
 INST_MANDATE: >-
   <p>UNEP is the designated Custodian Agency for the indicator. Support on the
   collection, processing, and dissemination of statistics for this indicator is
@@ -265,7 +277,7 @@ REC_USE_LIM: >-
   wide range of stakeholders which requires a certain amount of time and
   resources. The advantage of this is that it puts in place a process that
   addresses the integrated and indivisible nature of the SDG targets, as well as
-  stressing the importance of &#x201C;leaving no on behind&#x201D;.</p>
+  stressing the importance of &#x201C;leaving no one behind&#x201D;.</p>
 DATA_COMP: >-
   <ol>
     <li>The survey contains 33 questions divided into the four main sections described above. </li>
@@ -281,11 +293,14 @@ DATA_COMP: >-
     <li>Very high (100)</li>
   </ul>
 
-  <p>Note that guidance is provided for each threshold for each question, to
-  ensure objective and comparable results. </p>
+  <p>Where question is not applicable, n/a can be selected as a reply, providing
+  adequate explanation. </p>
+
+  <p>Note that more question-specific guidance is provided for each threshold
+  for each question, to ensure objective and comparable results. </p>
 
   <ol>
-    <li>The un-weighted average of the question scores within each of the four sections is calculated to give a score of 0 &#x2013; 100 for each section, rounded to the nearest whole number. </li>
+    <li>The un-weighted average of the question scores within each of the four sections is calculated to give a score of 0 &#x2013; 100 for each section, rounded to the nearest whole number. Questions with response n/a are omitted from calculation.</li>
     <li>The section scores (rounded to the nearest whole number), are averaged (un-weighted), and rounded to the nearest whole number, to give the indicator score, expressed as a number between 0 and 100.</li>
   </ol>
 DATA_VALIDATION: >-
@@ -333,9 +348,9 @@ DOC_METHOD: >-
   <ol>
     <li>National focal points selected by each country. </li>
     <li>National focal points are responsible for coordinating a national process to engage governmental and non-governmental stakeholders, as appropriate in the context of each country, to develop draft responses and finalise responses. This may be via email, workshops, and online notices. </li>
-    <li>The following materials are available for national focal points in 7 languages (English, Spanish, French, Arabic, Russian, Chinese, Portuguese), at <a href="http://iwrmdataportal.unepdhi.org">http://iwrmdataportal.unepdhi.org</a>: the survey (MS Word); a detailed monitoring guide; and a PowerPoint presentation and video recording. In addition, focal points may access the following materials: the 2017 baseline surveys and 2-page results summaries (for 172 countries); and 2017 workshop reports (for 36 countries). </li>
-    <li>In addition, an &#x201C;SDG 6.5.1 Facilitator&#x2019;s Training Course&#x201D; is available online via <a href="http://www.gwp.org/en/sdg6support/consultations/stage-1-activities/training-of-facilitators/">www.gwp.org/en/sdg6support/consultations/stage-1-activities/training-of-facilitators/</a> , through the SDG 6 IWRM Support Programme. </li>
-    <li>A more comprehensive &#x201C;IWRM Stage 1 Support Package&#x201D; is available for a limited number of countries (approximately 60 countries in 2020). The Support Package includes seed funding to engage a Facilitator to support the stakeholder consultation process. </li>
+    <li>The following guidance materials are available for national focal points in 7 languages (English, Spanish, French, Arabic, Russian, Chinese, Portuguese), at <a href="http://iwrmdataportal.unepdhi.org/about">http://iwrmdataportal.unepdhi.org/about</a> <a href="http://iwrmdataportal.unepdhi.org">http://iwrmdataportal.unepdhi.org</a>: the survey (MS Word); a detailed monitoring guide; and a PowerPoint presentation and video recording. In addition, focal points may access the following country-level materials at <a href="http://iwrmdataportal.unepdhi.org/countrydatabase">http://iwrmdataportal.unepdhi.org/countrydatabase</a>: the 2017 and 2020 baseline surveys and 2-page results summaries (for 186 countries); and 2017 and 2020 workshop reports (for 36 countries) from <a href="https://www.gwp.org/en/sdg6support/sdgmap/">https://www.gwp.org/en/sdg6support/sdgmap/</a>. </li>
+    <li>In addition, an &#x201C;SDG 6.5.1 Facilitator&#x2019;s Training Course&#x201D; is available online via <a href="https://www.gwp.org/en/sdg6support/consultations/where-we-are/stage-1-activities/">https://www.gwp.org/en/sdg6support/consultations/where-we-are/stage-1-activities/</a> , through the SDG 6 IWRM Support Programme. </li>
+    <li>A more comprehensive &#x201C;IWRM Stage 1 Support Package&#x201D; is available for a limited number of countries (approximately 60 countries in 2020) see <a href="https://www.gwp.org/en/sdg6support/consultations/where-we-are/stage-1-activities/">https://www.gwp.org/en/sdg6support/consultations/where-we-are/stage-1-activities/</a>. The Support Package includes seed funding to engage a Facilitator to support the stakeholder consultation process. </li>
   </ol>
 
   <p>Extensive explanations are provided in the monitoring guide and in the
@@ -360,9 +375,9 @@ QUALITY_ASSURE: >-
   <p>Process: </p>
 
   <ol>
-    <li>Nominate person responsible for QA for a country response once it is submitted for the first time. </li>
-    <li>Acknowledge receipt and inform the country of QA process. </li>
-    <li>Update QA spreadsheet, indicating date of receipt and who submitted. </li>
+    <li>Nominate person responsible for the quality assurance (QA) for a country response once it is submitted for the first time. </li>
+    <li>Acknowledge receipt and inform the country of the QA process. </li>
+    <li>Update the QA spreadsheet, indicating date of receipt and who submitted. </li>
     <li>Upload draft survey (MS Word) to the Dropbox folder. </li>
     <li>Undertake ALL checks described below. </li>
     <li>If there are any discrepancies, revert to UNEP-DHI colleagues. </li>
@@ -373,18 +388,18 @@ QUALITY_ASSURE: >-
   <p>Checks: </p>
 
   <ol>
-    <li><strong>Focal point:</strong> Confirm the person submitting is the formal national focal point. If not, any reply should also add the national focal point in CC. </li>
-    <li><strong>Cover sheet:</strong> check if cover sheet is correctly filled out. Cross-check if the person submitting is the formal national focal point. If not, any reply should include the national focal point in CC.</li>
-    <li><strong>Question scores and calculations:</strong> In the spreadsheet &#x2018;Quality_Assurance_651_2020.xlsx&#x2019; on Dropbox, fill in the given responses in sheet &#x201C;QA 2020 scores-status&#x201D;. Make following checks to scores:<ol>
+    <li><strong>Focal point:</strong> Confirm the person submitting is the formal national focal point. If not, any reply should also add the national focal point in Cc. </li>
+    <li><strong>Cover sheet:</strong> check if cover sheet is correctly filled out. Cross-check if the person submitting is the formal national focal point. If not, any reply should include the national focal point in Cc.</li>
+    <li><strong>Question scores and calculations:</strong> In the spreadsheet &#x2018;Quality_Assurance_651_2020.xlsx&#x2019; on Dropbox, fill in the given responses in sheet &#x201C;QA 2020 scores-status&#x201D;. Make the following checks to scores:<ol>
         <li>All questions answered. The official guidance is that all questions should be answered (either with a score or n/a). </li>
         <li>If there is confusion about whether to score or use &#x2018;n/a&#x2019; for sub-national level questions, this list of administrative divisions by country may help in our understanding of the sub-national level(s) <a href="https://en.wikipedia.org/wiki/List_of_administrative_divisions_by_country%20">https://en.wikipedia.org/wiki/List_of_administrative_divisions_by_country </a> </li>
         <li>Scores are in range from 0-100, in increments of 10. If they only give &#x2018;even&#x2019; scores (e.g. 0, 20, 40 etc), then they may not have understood that they can also give &#x2018;odd&#x2019; scores (10, 30, 50 etc), if they feel their situation lies between two threshold descriptions.</li>
-        <li>Any differences between &#x2018;given&#x2019; and &#x2018;calculated&#x2019; section scores and overall score are given in columns C &#x2013; G. If the difference is greater than +/- 0.5, the cells are automatically highlighted in red using conditional formatting. One also has to fill in the date of last submission in column B, otherwise the differences will not be calculated. </li>
+        <li>Any differences between &#x2018;given&#x2019; and &#x2018;calculated&#x2019; section scores and overall score are given in columns C &#x2013; G. If the difference is greater than +/- 0.5, the cells are automatically highlighted in red using conditional formatting. One must also fill in the date of last submission in column B, otherwise the differences will not be calculated. </li>
         <li>Compare with baseline (2017). The QA &#x2018;2017 Comparison&#x2019; spreadsheet automatically calculates differences. Note any negative changes (orange), or increases of more than 20 (yellow). If there are any significant/unexpected differences, the country should have given some explanation in the free text fields. </li>
         <li>In the &#x2018;given&#x2019; calculations (section 5 of the survey instrument), check that section averages and overall score are rounded to the nearest whole number. Rounding mistakes might occur.</li>
         <li>Note: in the calculations, 0 scores are included, and N/A scores should be omitted. N/A scores should always have explanation (unless obvious &#x2013; e.g. transboundary questions for island states).</li>
         <li>Check if the final score is calculated as average of rounded section averages.</li>
-        <li>In the free text responses in columns (BE-BF) in the main &#x201C;QA 2020-score status&#x201D; tab, for assigning Low/ Medium/ High categories the following criteria should be followed: <u>Low:</u> Less than three quarters of questions have responses and/or responses are poor quality. <u>Medium:</u> At least three quarters of the questions have responses, and/or responses are varying quality. Each question and the points make sense and are useful. <u>High:</u> All questions have responses and most responses are high quality. NB: Quality responses mean ones that are useful/ informative/ detailed and can contribute to stakeholder understanding/ discussions and plannings.</li>
+        <li>In the free text responses in columns (BE-BF) in the main &#x201C;QA 2020-score status&#x201D; tab, for assigning Low/ Medium/ High categories the following criteria should be followed: <u>Low:</u> Less than three quarters of questions have responses and/or responses are poor quality. <u>Medium:</u> At least three quarters of the questions have responses, and/or responses are varying quality. Each question and the points make sense and are useful. <u>High:</u> All questions have responses and most responses are high quality. NB: Quality responses mean ones that are useful/informative/detailed and can contribute to stakeholder understanding/discussions and planning.</li>
       </ol>
     </li>
     <li><strong>Free text fields: </strong>Using the &#x2018;text&#x2019; tabs: <ol>
@@ -401,13 +416,13 @@ QUALITY_ASSURE: >-
     <li><strong>Annex B: Transboundary level:</strong>
       <ol>
         <li>Check the &#x2018;transboundary basins&#x2019; table. A full list of transboundary basins can be found here: <a href="http://twap-rivers.org/indicators/Report.ashx?type=IndicatorResultsSummary">http://twap-rivers.org/indicators/Report.ashx?type=IndicatorResultsSummary</a>. Go to the final worksheet/tab to see the countries in each basin. You can also check the maps here: <a href="http://twap-rivers.org/indicators/%20">http://twap-rivers.org/indicators/ </a>to see if the basin is likely to be important for that country, or if there is only a small portion of the basin in their country (in which case they may not list it).</li>
-        <li>For transboundary aquifers, check: <a href="https://apps.geodan.nl/igrac/ggis-viewer/viewer/twap/public/default">https://apps.geodan.nl/igrac/ggis-viewer/viewer/twap/public/default</a> </li>
+        <li>For transboundary aquifers, check: <a href="https://ggis.un-igrac.org/view/twap">https://ggis.un-igrac.org/view/twap</a> </li>
         <li>In case any sub-basins are listed, check that the main basin name is included in brackets. </li>
         <li>Check the transboundary questions: 1.2c; 2.2e; 3.2d; and 4.2c, and see if these make sense in the context of the country. </li>
-        <li>Island countries should give &#x2018;n/a&#x2019; for all of these questions that relate to transboundary waters. </li>
+        <li>Island countries should give &#x2018;n/a&#x2019; for all the questions that relate to transboundary waters. </li>
       </ol>
     </li>
-    <li><strong>Annex C: Barriers / enablers:</strong> is this filled out? Low, moderate, or high level of information? <ol>
+    <li><strong>Annex C: Barriers / enablers:</strong> Is this filled out? Low, moderate, or high level of information? <ol>
         <li> Guidance for assigning Low/ Medium/ High categories: <u>Low:</u> Less than 1 point for each question. <u>Medium:</u> At least one point for each question and the points make sense and are useful. <u>High:</u> Useful analysis that would contribute to future planning.</li>
       </ol>
     </li>
@@ -415,7 +430,7 @@ QUALITY_ASSURE: >-
         <li>Guidance for assigning Low/ Medium/ High categories: Low: Blank to few words. Medium: A few useful points. High: A longer analysis/ commentary.</li>
       </ol>
     </li>
-    <li><strong>Annex E: Country process:</strong> level of info in the free text field, the table, and in the &#x2018;additional info&#x2019; field completed. <ol>
+    <li><strong>Annex E: Country process:</strong> Level of info in the free text field, the table, and in the &#x2018;additional info&#x2019; field completed. <ol>
         <li>Guidance for assigning Low/ Medium/ High categories: <u>Low</u>: Blank to few words. <u>Medium</u>: Minimum info to be useful to understand transparency. <u>High</u>: More detailed description that gives good idea of robustness and transparency of the process. </li>
       </ol>
     </li>
@@ -426,7 +441,7 @@ QUALITY_ASSURE: >-
   is appropriate given resources and capacity available to them, to ensure that
   the data has adequate acceptance and ownership within the country. Guidance on
   consultation processes are provided in the monitoring guide and through the
-  introductory powerpoint and video for focal points (all materials available at
+  introductory PowerPoint and video for focal points (all materials available at
   <a
   href="http://iwrmdataportal.unepdhi.org">http://iwrmdataportal.unepdhi.org</a>).</p>
 QUALITY_ASSMNT: >-
@@ -442,29 +457,126 @@ COVERAGE: >-
   number of countries with data / total countries in region (as of 2020);
   followed by the percentage of countries with data.</p>
 
-  <p>Australia and New Zealand: 2/2; 100%</p>
-
-  <p>Central and Southern Asia: 14/14; 100%</p>
-
-  <p>Eastern and South-Eastern Asia: 16/16; 100%</p>
-
-  <p>Europe and Northern America: 44/45; 98%</p>
-
-  <p>Latin America and the Caribbean: 32/33; 97%</p>
-
-  <p>Northern Africa and Western Asia: 23/23; 100%</p>
-
-  <p>Oceania (excluding Australia and New Zealand): 9/12; 75%</p>
-
-  <p>Sub-Saharan Africa: 46/48; 96%</p>
-
-  <p>World: 185/193: 96%</p>
+  <table>
+    <tbody>
+      <tr>
+        <td>
+          <p><strong>Regional grouping</strong></p>
+        </td>
+        <td>
+          <p><strong>Number of countries with data / total countries in region (as of 2020)</strong></p>
+        </td>
+        <td>
+          <p><strong>Percentage of countries with data</strong></p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Australia and New Zealand</p>
+        </td>
+        <td>
+          <p>2/2</p>
+        </td>
+        <td>
+          <p>100%</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Central and Southern Asia</p>
+        </td>
+        <td>
+          <p>14/14</p>
+        </td>
+        <td>
+          <p>100%</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Eastern and South-Eastern Asia</p>
+        </td>
+        <td>
+          <p>16/16</p>
+        </td>
+        <td>
+          <p>100%</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Europe and Northern America</p>
+        </td>
+        <td>
+          <p>44/45</p>
+        </td>
+        <td>
+          <p>98%</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Latin America and the Caribbean</p>
+        </td>
+        <td>
+          <p>32/33</p>
+        </td>
+        <td>
+          <p>97%</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Northern Africa and Western Asia</p>
+        </td>
+        <td>
+          <p>23/23</p>
+        </td>
+        <td>
+          <p>100%</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Oceania (excluding Australia and New Zealand)</p>
+        </td>
+        <td>
+          <p>9/12</p>
+        </td>
+        <td>
+          <p>75%</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Sub-Saharan Africa</p>
+        </td>
+        <td>
+          <p>46/48</p>
+        </td>
+        <td>
+          <p>96%</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>World</p>
+        </td>
+        <td>
+          <p>185/193</p>
+        </td>
+        <td>
+          <p>96%</p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
 
   <p><strong>Time series:</strong></p>
 
   <p>Pre-SDGs: 2008, 2012 (UN-Water 2008, 2012). </p>
 
-  <p>SDG period: 2017 , 2020. </p>
+  <p>SDG period: 2017, 2020. </p>
 
   <p>All on IWRM Portal (<a
   href="http://iwrmdataportal.unepdhi.org">http://iwrmdataportal.unepdhi.org</a>)</p>
@@ -487,9 +599,9 @@ COVERAGE: >-
 COMPARABILITY: >-
   <p><strong>Sources of discrepancies:</strong></p>
 
-  <p>As described in the &#x201C;Data Sources&#x201D; section above, there are
-  no internationally estimated data, with all data to be produced by
-  countries.</p>
+  <p>Indicator is calculated by countries according to the internationally
+  agreed methodology, and there are no deviations from international standards.
+  </p>
 OTHER_DOC: >-
   <p><strong>URLs: </strong><a
   href="http://iwrmdataportal.unepdhi.org">http://iwrmdataportal.unepdhi.org</a>
@@ -502,19 +614,48 @@ OTHER_DOC: >-
 
   <p><strong>References:</strong></p>
 
+  <p>- UNEP (2021). <a
+  href="https://www.unepdhi.org/progress-on-integrated-water-resources-management-global-indicator-6-5-1-updates-and-acceleration-needs/">Progress
+  on Integrated Water Resources Management. Tracking SDG 6 series: global
+  indicator 6.5.1 updates and acceleration needs</a>.</p>
+
+  <p>- GWP and UNEP-DHI (2021). <a
+  href="https://www.unepdhi.org/progress-on-integrated-water-resources-management-iwrm-in-the-asia-pacific-region-2021/">Progress
+  on Integrated Water Resources Management (IWRM) in the</a></p>
+
+  <p><a
+  href="https://www.unepdhi.org/progress-on-integrated-water-resources-management-iwrm-in-the-asia-pacific-region-2021/">Asia-Pacific
+  Region 2021: Learning exchange on monitoring and implementation towards
+  SDG</a></p>
+
+  <p><a
+  href="https://www.unepdhi.org/progress-on-integrated-water-resources-management-iwrm-in-the-asia-pacific-region-2021/">6.5.1</a></p>
+
+  <p>- GWP Centroam&#xE9;rica, mayo de 2021: <a
+  href="https://www.unepdhi.org/wp-content/uploads/sites/2/2021/09/SDG6.5.1-status-Central-America-2020-full-ESP.pdf">Estado
+  de la implementaci&#xF3;n de la Gesti&#xF3;n Integrada de los Recursos
+  H&#xED;dricos en Centroam&#xE9;rica y Republica Dominicana al 2020</a>.</p>
+
   <p>- AMCOW 2018: Status Report on the Implementation of Water Resources
   Management in Africa: a regional report for SDG indicator 6.5.1 on IWRM
-  implementation. </p>
+  implementation. <a
+  href="http://iwrmdataportal.unepdhi.org/IWRMDataJsonService/Service1.svc/DownloadOnAboutPage/Status_Report/English">AMCOW
+  2018: Status Report on the Implementation of Water Resources Management in
+  Africa: a regional report for SDG indicator 6.5.1 on IWRM
+  implementation.</a></p>
 
   <p>- UNEP 2018: Progress on integrated water resources management. Global
-  baseline for SDG 6 Indicator 6.5.1: degree of IWRM implementation. </p>
+  baseline for SDG 6 Indicator 6.5.1: degree of IWRM implementation.
+  http://iwrmdataportal.unepdhi.org/IWRMDataJsonService/Service1.svc/DownloadPublicationsReportDoc/English/report</p>
 
   <p>- United Nations Economic and Social Commission for West Asia (2019).
   Status Report on the Implementation of Integrated Water Resources Management
-  in the Arab Region: Progress on SDG indicator 6.5.1. </p>
+  in the Arab Region: Progress on SDG indicator 6.5.1.
+  http://iwrmdataportal.unepdhi.org/IWRMDataJsonService/Service1.svc/DownloadOnAboutPage/Full_Report/Arabic</p>
 
   <p>- UN-Water initiative on integrated monitoring of SDG 6. <a
   href="http://sdg6data.org">http://sdg6data.org</a></p>
 
   <p>- UN-Water, 2016: Water and Sanitation Interlinkages across the 2030 Agenda
-  for Sustainable Development. Geneva.</p>
+  for Sustainable Development. Geneva.
+  https://www.unwater.org/app/uploads/2016/08/Water-and-Sanitation-Interlinkages.pdf</p>

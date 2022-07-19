@@ -3,11 +3,21 @@ SDG_GOAL: >-
   industrialization and foster innovation</p>
 SDG_TARGET: >-
   <p>Target 9.1: Develop quality, reliable, sustainable and resilient
-  infrastructure, including regional and transborder infrastructure, to support
+  infrastructure, including regional and trans-border infrastructure, to support
   economic development and human well-being, with a focus on affordable and
   equitable access for all</p>
 SDG_INDICATOR: '<p>Indicator 9.1.2: Passenger and freight volumes, by mode of transport</p>'
-META_LAST_UPDATE: <p>2019-02-13</p>
+SDG_SERIES_DESCR: >-
+  <p>International maritime freight is an indicator reflecting (1) the sum of
+  international freight volumes loaded (exports) and unloaded (imports) at ports
+  worldwide and measured in metric tonnes, and (2) container port traffic at
+  world ports measured in twenty-foot equivalent unit (TEU).</p>
+
+  <p>Data is collected by the UNCTAD secretariat from various sources, including
+  industry, government and specialised maritime transport data providers and
+  consultancies. Volumes are expressed in metric tonnes and twenty-foot
+  equivalent unit (TEU).</p>
+META_LAST_UPDATE: '2022-04-12'
 SDG_CUSTODIAN_AGENCIES: >-
   <p>International Civil Aviation Organization (ICAO); International Transport
   Forum (ITF); United Nations Economic Commission for Europe (UNECE); United
@@ -19,35 +29,66 @@ CONTACT_ORGANISATION: >-
 STAT_CONC_DEF: >-
   <p><strong>Definitions:</strong></p>
 
-  <p>Passenger and freight volumes are respectively measured in passenger-km and
-  tonne-km, and broken down by mode of transport. For the purposes of monitoring
-  this indicator, passenger-km data are split between aviation, road (broken
-  down between passenger cars, buses and motorcycles) and rail, and tonne-km are
-  split between aviation, road, rail and inland waterways. </p>
-
-  <p>As maritime data are not widely available, only tonnes (rather than
-  tonne-km) data at the regional level have been shared.</p>
+  <p>Passenger and freight volumes are respectively measured in
+  passenger-kilometres and tonne-kilometres, and broken down by mode of
+  transport. For the purposes of monitoring this indicator, passenger-km data
+  are split between aviation, road (broken down between passenger cars, buses
+  and motorcycles) and rail, and tonne-km are split between aviation, road, rail
+  and inland waterways. </p>
 
   <p><strong>Concepts:</strong></p>
 
   <p>Aviation:</p>
 
   <p>The International Civil Aviation Organization (ICAO) through its Statistics
-  Division have established standard methodologies and definitions to collect
-  and report traffic (passenger and freight volume) data related to air
-  transport. These standards and methodologies have been adopted by the 191
-  Member States of ICAO and also by the Industry stakeholders i.e. air carriers
-  and airports. The data of ICAO is used by States and also the World Bank for
-  its development indicators. ICAO uses Air Transport Reporting Forms A, AS, B
-  and C to arrive at the passenger and freight volumes for air transport.</p>
+  Division has established standard methodologies and definitions to collect and
+  report traffic (passenger and freight volume) data related to air transport.
+  These standards and methodologies have been adopted by the 193 Member States
+  of ICAO and also by the Industry stakeholders i.e. air carriers and airports.
+  The data of ICAO is used by States and also the World Bank for its development
+  indicators. ICAO uses Air Transport Reporting Forms A, AS, B and C to arrive
+  at the passenger and freight volumes for air transport.</p>
 
   <p>Precise definition of all different concepts and metadata related to Air
   Transport Reporting Forms A, AS, B and C to arrive at the passenger and
-  freight volumes for air transport. approved by the ICAO Statistics Division
+  freight volumes for air transport, as approved by the ICAO Statistics Division
   and Member States can be found at the ICAO website given below -</p>
 
   <p><a
   href="http://www.icao.int/sustainability/pages/eap-sta-excel.aspx/">http://www.icao.int/sustainability/pages/eap-sta-excel.aspx/</a>.</p>
+
+  <p><em>Martime</em></p>
+
+  <p><strong>Definitions:</strong></p>
+
+  <p>International maritime freight is an indicator reflecting (1) the sum of
+  international freight volumes loaded (exports) and unloaded (imports) at ports
+  worldwide and measured in metric tonnes, and (2) container port traffic at
+  world ports measured in twenty-foot equivalent unit (TEU).</p>
+
+  <p>Data is collected by the UNCTAD secretariat from various sources, including
+  industry, government and specialised maritime transport data providers and
+  consultancies. Volumes are expressed in metric tonnes and twenty-foot
+  equivalent unit (TEU).</p>
+
+  <p>As data on international maritime freight volumes are not widely available,
+  only the data in tonnes (rather than tonne-km) and at the regional level are
+  reported.</p>
+
+  <p>Data at country level are available for container port traffic measured in
+  twenty-foot equivalent unit (TEU).</p>
+
+  <p><strong>Concepts:</strong></p>
+
+  <p>The UNCTAD secretariat collects and compiles the data from various websites
+  and reports, including, by port and industry associations and authorities,
+  national statistics offices, UN Monthly Bulletin of Statistics, governments,
+  specialised agencies such as the International Energy Agency (IEA), the US
+  Energy Information Administration (EIA), the Organization of the Petroleum
+  Exporting Countries (OPEC), and British Petroleum (BP). Data is also collected
+  from reports issued by maritime specialised sources such as Drewry Maritime
+  Research (DMR), Clarksons Research Services (CRS), Dynamar, and Lloyd&#x2019;s
+  List Intelligence (LLI).</p>
 
   <p>Road, Rail, Inland waterways, Pipelines</p>
 
@@ -67,10 +108,19 @@ STAT_CONC_DEF: >-
 
   <p>For definitions of all relevant terms, the UNECE/ITF/Eurostat Glossary for
   Transport Statistics can be consulted. The 5<sup>th</sup> edition of this
-  publication should be released in 2019. The fourth edition from 2009 is
-  available at <a
-  href="https://www.unece.org/fileadmin/DAM/trans/main/wp6/pdfdocs/glossen4.pdf">https://www.unece.org/fileadmin/DAM/trans/main/wp6/pdfdocs/glossen4.pdf</a>.
-  </p>
+  publication is available at
+  https://unece.org/DAM/trans/main/wp6/pdfdocs/Glossary_for_Transport_Statistics_EN.pdf</p>
+UNIT_MEASURE: >-
+  <p>Aviaiton: Revenue Passenger-Kilometres (RPK) and Freight Tonne-Kilometres
+  (FTK)</p>
+
+  <p>Martime: Metric tonnes and twenty-foot equivalent unit (TEU).</p>
+
+  <p>Road, Rail, Inland Waterways and Pipelines: Passenger-Kilometres (Pkm) and
+  Tonne-Kilometres (Tkm)</p>
+CLASS_SYSTEM: |-
+  <p><em>Maritime: </em></p>
+  <p>Regional and sub-regional level data based on UNSD classification.</p>
 SOURCE_TYPE: >-
   <p>Aviation</p>
 
@@ -79,28 +129,135 @@ SOURCE_TYPE: >-
   and to collect aviation data since the 1950&apos;s. ICAO definitions and
   metadata is also used by the Aviation Industry as the basis of collecting data
   and conducting analysis.</p>
+
+  <p><em>Maritime:</em></p>
+
+  <p>The UNCTAD secretariat collects and compiles the data from various websites
+  and reports, including, by port and industry associations and authorities,
+  national statistics offices, UN Monthly Bulletin of Statistics, governments,
+  specialised agencies such as the International Energy Agency (IEA), the US
+  Energy Information Administration (EIA), the Organization of the Petroleum
+  Exporting Countries (OPEC), and, British Petroleum (BP). Data is also
+  collected from reports issued by maritime specialised sources such as Drewry
+  Maritime Research (DMR), Clarksons Research Services (CRS), Dynamar, and
+  Lloyd&#x2019;s List Intelligence (LLI).</p>
+
+  <p>Road, Rail, Inland waterways, Pipelines: The UNECE and the ITF collect
+  transport statistics by means of questionnaires sent to their Member
+  countries. The ITF also runs transport models that are used to provide
+  transport information for all regions (see point 4.f).</p>
+COLL_METHOD: >-
+  <p><em>Aviation: </em></p>
+
+  <p>Official aviation statistics are reported on a regular basis by Member
+  States to ICAO through Air Transport Reporting Forms.</p>
+
+  <p><em>Maritime:</em></p>
+
+  <p>Data not based on a systematic reporting by countries and relies mainly on
+  secondary sources that may vary over time. Official reporting by countries is
+  very limited. Some data is only available at regional or sub-regional
+  level.</p>
+
+  <p>The UNCTAD secretariat is currently collaborating with a specialized data
+  provider and UN-DESA to elaborate a standard methodology that is based on UN
+  Comtrade data to generate annual data on maritime freight flows, at country
+  level and for all UN member countries.</p>
+
+  <p>Note: Maritime cargo movements are counted only once regardless of whether
+  the transhipment port is located within the same country or not </p>
+
+  <p>Road, Rail, Inland waterways, Pipelines:</p>
+
+  <p>Official transport statistics are reported on a regular basis by Member
+  States to UNECE and ITF through questionnaires.</p>
 FREQ_COLL: >-
   <p>Aviation</p>
 
-  <p>Every year by June 10th data for the previous year is available to ICAO
+  <p>Every year by the fall data for the previous year is available to ICAO
   Member States at a country level. </p>
 
   <p>Road/Rail/Inland waterways/Pipelines</p>
 
   <p>Data are collected for the reference year starting in September of the
-  following year, and are typically published by the following January. So 2017
-  data were published in January 2019.</p>
+  following year, and are typically published by the following January. So
+  year-2 data were published in Januaryyear-1.</p>
+REL_CAL_POLICY: >-
+  <p><em>Aviation:</em></p>
+
+  <p>Data are collected on a regular basis and a high level of coverage is
+  expected to be available by the fall following the reference year.</p>
+
+  <p>Maritime:</p>
+
+  <p>Data are collected for the reference year on-ongoing process. Data are
+  published annually on-line on UNCTADstat and in the annual Review of Maritime
+  Transport in November of each year.</p>
+
+  <p>Road, Rail, Inland waterways, Pipelines:</p>
+
+  <p>Data are collect during the fall for the previous year and published on the
+  following January.</p>
 DATA_SOURCE: >-
-  <p><strong>Name:</strong></p>
+  <p>Name:</p>
 
   <p>ICAO, ITF, UNECE, UNCTAD</p>
 
-  <p><strong>Description:</strong></p>
+  <p><em>Aviation :</em></p>
 
-  <p>International Civil Aviation organisation (ICAO). Data provided to ICAO by
-  ICAO Member States from its Ministry of Transport, Infrastructure or
-  Aviation</p>
+  <p>International Civil Aviation organisation (ICAO).</p>
+
+  <p><em>Maritime:</em></p>
+
+  <p>Name: United Nations Conference on Trade and Development (UNCTAD)</p>
+
+  <p>Description: Data collected by UNCTAD from various sources, including
+  government, industry and specialized maritime data sources and providers.</p>
+
+  <p>Road, Rail, Inland waterways, Pipelines:</p>
+
+  <p>Data for the UNECE and ITF are collected from either Transport Ministries
+  or Statistical Offices.</p>
 COMPILING_ORG: <p>International Civil Aviation organisation (ICAO)</p>
+INST_MANDATE: >-
+  <p>ICAO:</p>
+
+  <p>ICAO is funded and directed by 193 national governments to support their
+  diplomacy and cooperation in air transport as signatory states to the Chicago
+  Convention (1944). Its core function is to maintain an administrative and
+  expert bureaucracy (the ICAO Secretariat) supporting these diplomatic
+  interactions, and to research new air transport policy and standardization
+  innovations as directed and endorsed by governments through the ICAO Assembly,
+  or by the ICAO Council which the assembly elects.</p>
+
+  <p>https://www.icao.int/about-icao/Pages/default.aspx</p>
+
+  <p>UNCTAD:</p>
+
+  <p>Established in 1964, the United Nations Conference on Trade and Development
+  (UNCTAD), published its annual Review of Maritime Transport for the first time
+  in 1968. The publication is part of UNCTAD&apos;s research and analytical work
+  in the field of maritime transport aimed at helping developing countries
+  maximize their trade and investment opportunities and increase their
+  participation in the world economy. It has been regularly reconfirmed in the
+  quadrennial Ministerial Conferences, most recently by UNCTAD XIII in Doha
+  (2012) and UNCTAD XIV in Nairobi (2016). The mandates emanating from these
+  conferences have emphasized sustainable and resilient transport as priority
+  action areas and established &#x201C;Sustainable and Climate Resilient
+  Maritime Transport&#x201D; as an important thematic area n UNCTAD&#x2019;s
+  work programme and the Review of Maritime Transport. </p>
+
+  <p>ITF:</p>
+
+  <p>The International Transport Forum (ITF) was created by Ministerial
+  Declaration in Dublin in 2006 on the legal basis of the European Conference of
+  Ministers of Transport (ECMT), itself established as an international
+  organisation by treaty (Protocol) signed in Brussels on 17 October 1953. The
+  objectives of the ITF are to serve as a global platform for discussion and
+  prenegotiation of transport policy issues across all modes. Unique in its
+  global and modal scope, the ITF works to foster a deeper understanding of the
+  role of transport in economic growth, environmental sustainability and social
+  inclusion. It aspires to raise the public profile of transport policy.</p>
 RATIONALE: >-
   <p>Develop quality, reliable, sustainable and resilient infrastructure,
   including regional and trans-border infrastructure, to support economic
@@ -117,12 +274,51 @@ RATIONALE: >-
   share of freight volumes, and the public transport share of passenger volumes,
   changes over time allows insights into the overall sustainability of the
   global transport system.</p>
+
+  <p><em>Aviation:</em></p>
+
+  <p>Informed decision-making is the foundation upon which successful businesses
+  are built. In a fast-growing industry like aviation, planners and investors
+  require the most comprehensive, up-to-date, and reliable data. ICAO&#x2019;s
+  aviation data/statistics programme is to provide accurate, reliable and
+  consistent aviation data so that States, international organizations, aviation
+  industry, tourism and other stakeholders can make better projections. The UN
+  recognized ICAO as the central agency responsible for the collection,
+  analysis, publication, standardization, improvement and dissemination of
+  statistics pertaining to civil aviation.</p>
+
+  <p><em>Maritime:</em></p>
+
+  <p>The volume of international maritime freight and container port traffic
+  movements provide an overall indication of the importance of port
+  infrastructure for trade and development and may be relied upon to infer the
+  quality and adequacy of seaports and their hinterland connections. Maritime
+  transport is the dominant mode of international freight transport when flows
+  are measured in volume terms. Behind the global and regional headline
+  estimates, individual contributions vary by region and type of cargo,
+  reflecting, among other factors, differences in countries&#x2019; economic
+  structures, composition of trade, urbanization, levels of development, extent
+  of integration into global trading networks, degree of participation in global
+  supply chains, and the quality of transport infrastructure.</p>
+
+  <p>World container port traffic reflects the importance of containerized trade
+  and countries&#x2019; participation in global liner shipping networks and
+  globalized manufacturing production processes.</p>
 REC_USE_LIM: >-
-  <p>Coverage for aviation is for all ICAO 191 Member States.</p>
+  <p><em>Aviation:</em></p>
+
+  <p>Coverage for aviation is for all ICAO 193 Member States.</p>
+
+  <p><em>Maritime: </em></p>
+
+  <p>Coverage for international maritime freight volumes at regional and
+  sub-regional level.</p>
 
   <p>Coverage for road, rail, inland waterways and pipelines is for all U.N.
   member States, but these are sourced from official statistics only for UNECE
-  member States and ITF member States (and only when available). </p>
+  member States and ITF member States (and only when available). In order to
+  provide a worldwide regional coverage, data from the ITF transport models are
+  used (see point 4.f). </p>
 DATA_COMP: >-
   <p>Aviation</p>
 
@@ -135,6 +331,54 @@ DATA_COMP: >-
   <p>Data for each inland mode are reported to UNECE/ITF/Eurostat by member
   States, through an annual data collection using the transport statistics web
   common questionnaire.</p>
+
+  <p>Maritime:</p>
+
+  <p>The indicator is calculated through a sum of international maritime freight
+  volumes and container port traffic as collected by UNCTAD secretariat from
+  websites and reports by various industry, government and specialised maritime
+  transport data providers and consultancies. Data on international maritime
+  freight excludes transhipments and domestic maritime freight volumes.</p>
+
+  <p>Cargo flows originating in or destined to landlocked countries are
+  attributed to the ports of neighbouring coastal transit countries. The mode of
+  transport &#x201C;maritime&#x201D; is assigned to an international trade
+  transaction when the goods arrived at the country&#x2019;s external border
+  (the seaport) transported by ship. </p>
+
+  <p>Data on container port traffic include full and empty containers as well as
+  transhipment traffic. </p>
+
+  <p>Data is collected and compiled from various websites and reports,
+  including, by port and industry associations and authorities, national
+  statistics offices, UN Monthly Bulletin of Statistics, governments,
+  specialised agencies such as the International Energy Agency (IEA), the US
+  Energy Information Administration (EIA), the Organization of the Petroleum
+  Exporting Countries (OPEC), and British Petroleum (BP). Data is also collected
+  from reports issued by maritime specialised sources such as Drewry Maritime
+  Research (DMR), Clarksons Research Services (CRS), Dynamar, and Lloyd&#x2019;s
+  List Intelligence (LLI).</p>
+DATA_VALIDATION: >-
+  <p>Aviation:</p>
+
+  <p>ICAO Statistics Programme has put in place a series of robust data quality
+  control functions to automate all the necessary calculations and producing a
+  report for each reporting form. These quality control processes were divided
+  into two main activities: verification and validation.</p>
+
+  <p>Maritime:</p>
+
+  <p>UNCTAD secretariat monitors, collects, and compiles the data at the country
+  level as well as at regional/sub-regional level. It continuously updates the
+  data as new data and information becomes available. Some commercial providers
+  of maritime statistics publish global data that is derived, for example, from
+  shipping contracts, and UNCTAD compares its own data with those published by
+  commercial providers. </p>
+ADJUSTMENT: >-
+  <p>Road, rail, inland waterways and pipelines :</p>
+
+  <p>In order to provide a worldwide regional coverage, data from the ITF
+  transport models are used (see point 4.f). </p>
 IMPUTATION: >-
   <p><strong>&#x2022; At country level </strong></p>
 
@@ -146,27 +390,45 @@ IMPUTATION: >-
   growth rates are computed from other socio-economic variables, such as Gross
   Domestic Product (GDP), population or urbanization.</p>
 
-  <p>For non-ITF/UNECE countries, data points are estimated using the ITF model,
-  which uses several covariates such as GDP, population, transport network
-  coverage&#x2026; A description of the model can be found in the ITF Transport
-  Outlook 2017.</p>
+  <p><u>For road, rail, and inland waterways:</u> For non-ITF/UNECE countries,
+  countries that did not submit a response, or when there is uncertainty
+  regarding the provided data, data points are estimated using the ITF models,
+  which use several covariates such as GDP, population, transport network
+  coverage and more. Currently there are four global models used for this
+  analysis: the urban passenger model, the non-urban passenger model, the
+  international freight model and the urban freight model. A description of the
+  four models can be found in the ITF Transport Outlook 2021 or in the following
+  resources.</p>
 
   <ul>
-    <li>ITF (2017) ITF Transport Outlook 2017, OECD Publishing </li>
+    <li>ITF (2021) ITF Transport Outlook 2021, OECD Publishing </li>
+    <li>ITF (2020) Decarbonising Transport in Europe, Project webpage</li>
   </ul>
 
-  <p>This model also uses several other data sources to make the calibration
-  more robust in regions where ITF data does not have a good coverage.</p>
+  <p><em>Maritime:</em></p>
 
-  <ul>
-    <li>International Union of Railways (2015) Railway Statistics &#x2013; 2015 synopsis, UIC</li>
-    <li>International Road Federation (2011) ITF World Road Statistics, IRF</li>
-    <li>De Bod, A., &amp; Havenga, J. (2010). Sub-Saharan Africa&#x2019;s rail freight transport system: Potential impact of densification on cost. Journal of Transport and Supply Chain Management, Vol. 4, pp. 89-101</li>
-  </ul>
+  <p>International maritime freight: In case of missing data for a country or a
+  sub-region for which a data point is available since 2006, UNCTAD makes an
+  estimate based on the expected growth rate of the volume of merchandise trade.
+  If not available, use is made of the latest year for which data was
+  available.</p>
 
-  <p><strong>&#x2022; At regional and global levels</strong></p>
+  <p>Container port traffic: In case of missing data, UNCTAD makes an estimate
+  by extrapolating from the liner shipping connectivity and ship capacity
+  deployment data, which has shown to be highly correlated with container port
+  traffic. Container ship deployment data are available for all container ships
+  of the world, which thus allows for estimates on container port traffic to be
+  generated even if no national data is available. In other cases, UNCTAD makes
+  an estimate based on the expected growth rate of the volume of merchandise
+  trade.</p>
+REG_AGG: >-
+  <p>Aggregation by region based on UN classification of country groupings,
+  including by geography and development status.</p>
 DOC_METHOD: >-
-  <p>Aviation</p>
+  <p>Aviation:</p>
+
+  <p>States refer to the ICAO Reference Manual on the Statistics Programme (Doc
+  9060) to compile and file traffic reports at a national level.</p>
 
   <p>Road/Rail/Inland waterways/Pipelines</p>
 
@@ -176,7 +438,48 @@ DOC_METHOD: >-
   definitions for passenger-km and tonne-km, but also for related terms such as
   what constitutes a passenger, the definitions and exclusions within each
   transport mode etc.</p>
+
+  <p><em>Maritime:</em></p>
+
+  <p>Countries do not systematically collect or report data on international
+  maritime freight and container port traffic. UNCTAD relies on data published
+  by industry and information published by specialized sources. </p>
+QUALITY_MGMNT: >-
+  <p><em>Aviation:</em></p>
+
+  <p>ICAO applies the recommendations of the Committee for the Coordination of
+  Statistical Activities (CCSA), including the Principles Governing
+  International Statistical Activities.</p>
+
+  <p><em>Maritime: </em></p>
+
+  <p>UNCTAD systematically applies the recommendations of the Committee for the
+  Coordination of Statistical Activities (CCSA), including the Principles
+  Governing International Statistical Activities. UNCTAD participates in the
+  work of the Chief Statisticians or coordinators of statistical activities of
+  United Nations agencies and international and supranational organizations
+  assembled in the Committee for the Coordination of Statistical Activities and
+  ensures the implementation of their principles. <a
+  href="https://unstats.un.org/unsd/ccsa/principles_stat_activities/">https://unstats.un.org/unsd/ccsa/principles_stat_activities/</a>
+  </p>
 QUALITY_ASSURE: >-
+  <p>Aviation:</p>
+
+  <p>ICAO applies the United Nations Statistics Division (UNSD) fundamental
+  principles and good practices of official statistics, and particularly the
+  generic national quality assurance framework (NQAF). The complete version of
+  the guidelines of NQAF is available at:
+  http://unstats.un.org/unsd/dnss/qualityNQAF/nqaf.aspx.</p>
+
+  <p>Maritime:</p>
+
+  <p>UNCTAD conducts annual checks of collected data by updating the data with
+  latest data available and comparing the data for internal consistency, against
+  previous years, or similar data published or produced by other sources,
+  including commercial sources specialized maritime transport data providers and
+  research entities. Correspondence is undertaken with countries when necessary
+  to collect, compare or confirm relevant data.</p>
+
   <p>Road/Rail/Inland waterways/Pipelines</p>
 
   <p>The ITF and UNECE conduct annual checks of their jointly collected data,
@@ -192,12 +495,24 @@ QUALITY_ASSURE: >-
   passenger trips in most countries, this would clearly significantly
   underestimate road passenger-km, which is why the breakdown where available
   between passenger cars, buses and motorcycles is given. </p>
+QUALITY_ASSMNT: >-
+  <p><em>Maritime:</em></p>
+
+  <p>UNCTAD systematically applies the recommendations of the Committee for the
+  Coordination of Statistical Activities (CCSA), including the Principles
+  Governing International Statistical Activities. UNCTAD participates in the
+  work of the Chief Statisticians or coordinators of statistical activities of
+  United Nations agencies and international and supranational organizations
+  assembled in the Committee for the Coordination of Statistical Activities and
+  ensures the implementation of their principles. <a
+  href="https://unstats.un.org/unsd/ccsa/principles_stat_activities/">https://unstats.un.org/unsd/ccsa/principles_stat_activities/</a>
+  </p>
 COVERAGE: >-
   <p><strong>Data availability:</strong></p>
 
   <p>Aviation</p>
 
-  <p>Data already provided for all 191 Member States that have air transport
+  <p>Data already provided for all 193 Member States that have air transport
   activities</p>
 
   <p>Road/Rail/Inland waterways/Pipelines</p>
@@ -214,7 +529,8 @@ COVERAGE: >-
   <p>Road/Rail/Inland waterways/Pipelines</p>
 
   <p>UNECE/ITF member States typically have data available since 1993, or
-  earlier. For non-UNECE/ITF countries, </p>
+  earlier. For non-UNECE/ITF countries, data from the ITF transport models are
+  used (see point 4.f). </p>
 
   <p><strong>Disaggregation: </strong></p>
 
@@ -226,7 +542,30 @@ COVERAGE: >-
   <p>Road/Rail/Inland waterways/Pipelines</p>
 
   <p>The indicator can be disaggregated by country and mode of transport.</p>
-COMPARABILITY: '<p><strong>Sources of discrepancies:</strong></p>'
+
+  <p><em>Maritime:</em></p>
+
+  <p><strong>Data availability:</strong> International maritime freight data at
+  regional and sub-regional level; 2006-2019</p>
+
+  <p>Container port traffic data cover 176 countries: 2010-2019</p>
+
+  <p><strong>Disaggregation:</strong> International maritime freight: global,
+  regional and subregional levels. </p>
+
+  <p>Container port traffic: global, regional and country levels</p>
+COMPARABILITY: >-
+  <p><em>Maritime:</em></p>
+
+  <p><strong>Sources of discrepancies:</strong></p>
+
+  <p>Data based on varied and mixed sources. This entails differences in
+  computational systems and methods which may result in discrepancies. </p>
+
+  <p>Data on container port traffic for some countries are based on estimates by
+  UNCTAD while extrapolating from the liner shipping connectivity and ship
+  capacity deployment data. These remain proxies and may not capture the actual
+  volumes handled by the ports in these countries. </p>
 OTHER_DOC: >-
   <p><strong>URL:</strong></p>
 
@@ -240,3 +579,10 @@ OTHER_DOC: >-
 
   <p><a
   href="https://unctadstat.unctad.org/EN/">https://unctadstat.unctad.org/EN/</a></p>
+
+  <p>UNCTAD. Review of Maritime Transport Series: <a
+  href="https://unctad.org/topic/transport-and-trade-logistics/review-of-maritime-transport">https://unctad.org/topic/transport-and-trade-logistics/review-of-maritime-transport</a></p>
+
+  <p>UNCTAD statistics (UNCTADstat): <a
+  href="http://stats.unctad.org/maritime">http://stats.unctad.org/maritime</a>
+  <br></p>

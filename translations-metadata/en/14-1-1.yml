@@ -8,16 +8,33 @@ SDG_TARGET: >-
 SDG_INDICATOR: >-
   <p>Indicator 14.1.1: (a) Index of coastal eutrophication; and (b) plastic
   debris density</p>
-META_LAST_UPDATE: <p>2021-02-08</p>
-SDG_RELATED_INDICATORS: <p>N/A</p>
+SDG_SERIES_DESCR: >-
+  <p>Chlorophyll-a deviations, remote sensing (%) EN_MAR_CHLDEV</p>
+
+  <p>Chlorophyll-a anomaly, remote sensing (%) EN_MAR_CHLANM</p>
+
+  <p>Beach litter per square kilometer (Number) EN_MAR_BEALITSQ</p>
+
+  <p>Beach litter originating from national land-based sources exports</p>
+
+  <p>Beach litter originating from national land-based sources ends in the
+  ocean</p>
+
+  <p>Beach litter originating from national land-based sources ends on the
+  beach</p>
+
+  <p>Floating plastic debris density </p>
+META_LAST_UPDATE: '2022-07-07'
+SDG_RELATED_INDICATORS: <p>Not applicable</p>
 SDG_CUSTODIAN_AGENCIES: <p>United Nations Environment Programme (UNEP)</p>
 CONTACT_ORGANISATION: <p>United Nations Environment Programme (UNEP)</p>
 STAT_CONC_DEF: >-
   <p><strong>Definition: </strong></p>
 
   <p>The indicator includes 14.1.1a Index of coastal eutrophication (ICEP) and
-  14.1.1b Plastic debris density. SDG 14.1.1a and SDG 14.1.1b will described as
-  two indicators. Across the 14.1.1a and 14.1.1b, two levels are proposed: </p>
+  14.1.1b Plastic debris density. SDG 14.1.1a and SDG 14.1.1b are described as
+  two indicators. Across the 14.1.1a and 14.1.1b, Three levels are proposed:
+  </p>
 
   <p>Level 1: Globally available data from earth observations and modelling </p>
 
@@ -443,7 +460,8 @@ STAT_CONC_DEF: >-
 
   <p>A full methodology for this indicator is available in the document
   entitled, &#x201C;Global Manual on Ocean Statistics for Measuring SDG 14.1.1,
-  14.2.1 and 14.5.1&#x201D;.</p>
+  14.2.1 and 14.5.1&#x201D;:
+  https://wedocs.unep.org/bitstream/handle/20.500.11822/35086/USO.pdf?sequence=3&amp;isAllowed=y.</p>
 
   <p><strong>Concepts:</strong></p>
 
@@ -459,12 +477,18 @@ STAT_CONC_DEF: >-
   which is lost or discarded and ends up in the marine and coastal
   environment.</p>
 UNIT_MEASURE: >-
-  <p>Percent</p>
+  <p>Percent (%). The percentage of pixels in a country&#x2019;s EEZ and/or
+  territorial waters that are identified as deviating from the baseline (falling
+  in the 90th percentile) will be calculated for each national EEZ and/or
+  territorial waters by month.</p>
 
-  <p>Number</p>
+  <p>Number. The total count of plastic items for all area sampled </p>
 
   <p>kilograms of carbon (from algae biomass) per square kilometre of river
-  basin area per day (kg C km-2 day-1). KG C KM2 per day</p>
+  basin area per day (kg C km-2 day-1). KG C KM<sup>2</sup> per day</p>
+CLASS_SYSTEM: >-
+  <p>This indicator is classified by UN M49 classification of countries and
+  regions.</p>
 SOURCE_TYPE: >-
   <p>1. Satellite data</p>
 
@@ -484,9 +508,9 @@ COLL_METHOD: >-
   Marine Litter. This will facilitate the production of global data
   products.</p>
 FREQ_COLL: >-
-  <p>1. First data collection: Data is already being collected by the Regional
+  <p>First data collection: Data is already being collected by the Regional
   Seas</p>
-REL_CAL_POLICY: '<p>1. First reporting cycle: 2020</p>'
+REL_CAL_POLICY: '<p>1. First reporting cycle: 2020 and yearly after</p>'
 DATA_SOURCE: >-
   <p>National Statistical Systems, through the Regional Seas. The Regional Seas
   Programmes include the CPPS: Permanent Commission for the South Pacific
@@ -499,11 +523,31 @@ DATA_SOURCE: >-
   (Northeast Atlantic); ROMPE: Regional organization for the Protection of the
   Marine Environment (ROMPE sea area); UNEP-MAP: UN Environment Mediterranean
   Action Plan (Mediterranean Sea)). For more information on the Regional Seas
-  see:
-  https://www.unenvironment.org/explore-topics/oceans-seas/what-we-do/working-regional-seas.</p>
+  see: <a
+  href="https://www.unenvironment.org/explore-topics/oceans-seas/what-we-do/working-regional-seas">https://www.unenvironment.org/explore-topics/oceans-seas/what-we-do/working-regional-seas</a>;
+  FSU: Florida State University, Center for Ocean-Atmospheric Prediction Studies
+  (COAPS); EPA: European Environment Agency, Marine Litter Watch (MLW); OC:
+  Ocean Conservancy: International Coastal Cleanup (ICC); </p>
 COMPILING_ORG: >-
-  <p>1. UN Environment (United Nations Environment Programme), in collaboration
-  with partners mentioned in the other sections of this metadata</p>
+  <p>UN Environment (United Nations Environment Programme), in collaboration
+  with partners mentioned in the other sections of this metadata.</p>
+INST_MANDATE: >-
+  <p>The UNEP Regional Seas Programme is UNEP&#x2019;s most important regional
+  mechanism for conservation of the marine and coastal environment since its
+  establishment in 1974. These Multilateral Environmental Agreements are
+  governed by their own meetings of the Contracting Parties. The individual
+  Regional Seas Conventions and Action Plans have both a normative and
+  implementation mandate. They provide an expression of common regional
+  priorities, including those in the delivery of global mandates such as the
+  2030 Agenda, provisions of Multilateral Environmental Agreements (MEAs) and
+  United Nations Environment Assembly (UNEA) resolutions. They also provide
+  platforms for acting, including through integrated assessment, policy
+  development, capacity building and exchange, as well as through implementation
+  of projects. By building on the mandates of Regional Seas in addressing
+  adverse impacts to the marine and coastal environment, UNEP can enhance impact
+  and sustainability of efforts by utilization of advantages of the Regional
+  Seas under the programme of work at the regional
+  level.https://www.unep.org/explore-topics/oceans-seas/what-we-do/regional-seas-programme</p>
 RATIONALE: >-
   <p>Coastal areas are areas of high productivity where inputs from land, sea,
   air and people converge. With over 40 percent of the human population residing
@@ -513,6 +557,11 @@ RATIONALE: >-
   nutrient input from agricultural runoff and domestic wastewater discharge.
   Coastal eutrophication can lead to serious damage to marine ecosystems, vital
   sea habitats, and can cause the spread of harmful algal blooms. </p>
+
+  <p>Marine litter is found in all the world&#x2019;s oceans and seas. It
+  constitutes an increasing risk to ecosystem health and biodiversity while
+  entailing substantial economic costs through its impacts on public health,
+  tourism, fishing and aquaculture.</p>
 
   <p>Target 14.1 aims to reduce the impacts of pollution through prevention and
   reduction of marine pollution of all kinds, in particular from land-based
@@ -554,22 +603,119 @@ DATA_COMP: >-
   density, socioeconomic factors and other contributors to nutrient pollution
   runoff. Given the land-based nature of the indicator, it provides a modelled
   number indicating the risk of coastal eutrophication at a specific river
-  mouthn. The indicator can be further developed by incorporating in situ
-  monitoring to evaluate the dispersion of concentrations of nitrogen,
-  phosphorous and silica to ground-truth the index. The indicator assumes that
-  excess concentrations of nitrogen or phosphorus relative to silica will result
-  in increased growth of potentially harmful algae (ICEP&gt;0). ICEP is
-  expressed in kilograms of carbon (from algae biomass) per square kilometre of
-  river basin area per day (kg C km-2 day-1). </p>
+  mouth. </p>
+
+  <p>The indicator can be further developed by incorporating in situ monitoring
+  to evaluate the dispersion of concentrations of nitrogen, phosphorous and
+  silica to ground-truth the index. The indicator assumes that excess
+  concentrations of nitrogen or phosphorus relative to silica will result in
+  increased growth of potentially harmful algae (ICEP&gt;0). ICEP is expressed
+  in kilograms of carbon (from algae biomass) per square kilometre of river
+  basin area per day (kg C km-2 day-1). </p>
 
   <p>The ICEP model is calculated using one of two equations depending on
   whether nitrogen or phosphorus is limiting. The equations (Billen and Garnier
   2007) are</p>
 
-  <p>ICEP (N limiting) = [NFlx/(14*16)-SiFlx/(28*20)]*106*12</p>
-
-  <p>ICEP (P limiting) = [PFlx/31 &#x2013; SiFlx/(28*20)]*106*12 </p>
-
+  <p><math xmlns="http://www.w3.org/1998/Math/MathML">
+      <mi>I</mi>
+      <mi>C</mi>
+      <mi>E</mi>
+      <mi>P</mi>
+      <mi>&amp;nbsp;</mi>
+      <mfenced separators="|">
+        <mrow>
+          <mi>N</mi>
+          <mi>&amp;nbsp;</mi>
+          <mi>l</mi>
+          <mi>i</mi>
+          <mi>m</mi>
+          <mi>i</mi>
+          <mi>t</mi>
+          <mi>i</mi>
+          <mi>n</mi>
+          <mi>g</mi>
+        </mrow>
+      </mfenced>
+      <mo>=</mo>
+      <mi>&amp;nbsp;</mi>
+      <mo>[</mo>
+      <mi>N</mi>
+      <mi>F</mi>
+      <mi>l</mi>
+      <mi>x</mi>
+      <mo>/</mo>
+      <mo>(</mo>
+      <mn>14</mn>
+      <mi>*</mi>
+      <mn>16</mn>
+      <mo>)</mo>
+      <mo>-</mo>
+      <mi>S</mi>
+      <mi>i</mi>
+      <mi>F</mi>
+      <mi>l</mi>
+      <mi>x</mi>
+      <mo>/</mo>
+      <mo>(</mo>
+      <mn>28</mn>
+      <mi>*</mi>
+      <mn>20</mn>
+      <mo>)</mo>
+      <mo>]</mo>
+      <mi>*</mi>
+      <mn>106</mn>
+      <mi>*</mi>
+      <mn>12</mn>
+    </math></p>
+  <p><math xmlns="http://www.w3.org/1998/Math/MathML">
+      <mi mathvariant="normal">I</mi>
+      <mi mathvariant="normal">C</mi>
+      <mi mathvariant="normal">E</mi>
+      <mi mathvariant="normal">P</mi>
+      <mi mathvariant="normal">&amp;nbsp;</mi>
+      <mo>(</mo>
+      <mi mathvariant="normal">P</mi>
+      <mi mathvariant="normal">&amp;nbsp;</mi>
+      <mi mathvariant="normal">l</mi>
+      <mi mathvariant="normal">i</mi>
+      <mi mathvariant="normal">m</mi>
+      <mi mathvariant="normal">i</mi>
+      <mi mathvariant="normal">t</mi>
+      <mi mathvariant="normal">i</mi>
+      <mi mathvariant="normal">n</mi>
+      <mi mathvariant="normal">g</mi>
+      <mo>)</mo>
+      <mi mathvariant="normal">&amp;nbsp;</mi>
+      <mo>=</mo>
+      <mi mathvariant="normal">&amp;nbsp;</mi>
+      <mo>[</mo>
+      <mi mathvariant="normal">P</mi>
+      <mi mathvariant="normal">F</mi>
+      <mi mathvariant="normal">l</mi>
+      <mi mathvariant="normal">x</mi>
+      <mo>/</mo>
+      <mn>31</mn>
+      <mi mathvariant="normal">&amp;nbsp;</mi>
+      <mo>&#x2013;</mo>
+      <mi mathvariant="normal">&amp;nbsp;</mi>
+      <mi mathvariant="normal">S</mi>
+      <mi mathvariant="normal">i</mi>
+      <mi mathvariant="normal">F</mi>
+      <mi mathvariant="normal">l</mi>
+      <mi mathvariant="normal">x</mi>
+      <mo>/</mo>
+      <mo>(</mo>
+      <mn>28</mn>
+      <mi mathvariant="normal">*</mi>
+      <mn>20</mn>
+      <mo>)</mo>
+      <mo>]</mo>
+      <mi mathvariant="normal">*</mi>
+      <mn>106</mn>
+      <mi mathvariant="normal">*</mi>
+      <mn>12</mn>
+    </math></p>
   <p>Where PFlx, NFlx and SiFlx are respectively the mean specific values of
   total nitrogen, total phosphorus and dissolved silica delivered at the mouth
   of the river basin, expressed in kg P km-2 day-1, in kg N km-2 day-1 and in kg
@@ -581,12 +727,12 @@ DATA_COMP: >-
   of the Coastal Zone Color Scanner (CZCS) aboard the NASA Nimbus 7 satellite.
   Following a decade long break in observations, there has been continuous
   satellite ocean colour since 1997 with SeaWiFS, followed by MERIS, MODIS
-  (Terra, Aqua), VIIRS (NPP, N20) and now OLCI (S3-A, S3-B). Data gaps from
+  (Terra, Aqua), VIIRS (NPP, N20) and now OLCI (S-3A, S-3B). Data gaps from
   individual sensors are common due to revisit cycles, cloud cover, and spurious
   retrievals resulting from a host of confounding atmospheric and aquatic
   conditions. This issue has been addressed by combining data from multiple
   sensors and creating a consistent, merged ocean colour product (e.g.,
-  chlorophyll-a). The ESA Ocean Colour CCI (OC_CCI) project, led by the Plymouth
+  chlorophyll-a). The ESA Ocean Colour CCI (OC-CCI) project, led by the Plymouth
   Marine Laboratory (PML), has produced a consistent, merged chlorophyll-a
   product from SeaWiFS, MODIS, MERIS and VIIRS, spanning 1997 to 2018
   (Sathyendranath et al., 2018). A merged multi-sensor product will be updated
@@ -601,10 +747,11 @@ DATA_COMP: >-
   a country&#x2019;s Coastal Zone. For generation of a climatological baseline,
   results are averaged by month over the time period of 2000 &#x2013; 2004.
   Pixels with differences from the baseline that are in the 90th percentile of
-  values &gt;0 across the cumulative global EEZ. The percentage of pixels in a
-  country&#x2019;s EEZ that are identified as deviating from the baseline
-  (falling in the 90th percentile) will be calculated for each national EEZ by
-  month. The annual average of these monthly values is then calculated.</p>
+  values &gt;0 across the cumulative global EEZ and/or territorial waters. The
+  percentage of pixels in a country&#x2019;s EEZ and/or territorial waters that
+  are identified as deviating from the baseline (falling in the 90th percentile)
+  will be calculated for each national EEZ and/or territorial waters by month.
+  The annual average of these monthly values is then calculated.</p>
 
   <p>Level 2: In situ monitoring of nutrients</p>
 
@@ -626,7 +773,7 @@ DATA_COMP: >-
   &#x2013; 2 (Nutrient Export from WaterSheds) and NUtrient flows in Food
   chains, Environment and Resources use (NUFER) as models. The Global NEWS-2
   model is basin-scale and quantifies river export of various nutrients
-  (nitrogen, phorsphorus, carbon and silca) in multiple forms (dissolved
+  (nitrogen, phosphorus, carbon and silica) in multiple forms (dissolved
   inorganic, dissolved organic and particulate) as functions of human activities
   on land and basin characteristics (Strokal et al 2016). Furthermore, the model
   shows past and future trends.</p>
@@ -660,7 +807,8 @@ DATA_COMP: >-
   as better waste emissions data becomes available for countries. </p>
 
   <p>Level 2: Beach litter, plastic in the sea column and floating plastic and
-  plastic on the sea floor (average count of plastic items per km2)</p>
+  plastic on the sea floor (average count of plastic items per
+  km<sup>2</sup>)</p>
 
   <p>The details for collecting data for beach litter, plastic in the sea column
   and floating plastic and plastic on the sea floor are in the global manual and
@@ -668,22 +816,40 @@ DATA_COMP: >-
   type of data at the national level. National efforts to collect data on beach
   litter can be supported by campaigns to engage members of the public as
   volunteers in beach clean-ups (see for example the Ocean Conservancy&#x2019;s
-  International Coastal Clean-up (ICC) initiative ) or citizen science
-  programmes (see for example NOAA&#x2019;s Marine Debris Monitoring and
-  Assessment Citizen Science Project). Specific instructions on how to conduct
-  citizen science beach surveys are included in the GESAMP Guidelines (GESAMP
-  2019). Beyond the tools used to conduct beach litter monitoring, it is
-  important to consider the timing of surveys in order to properly plan
-  effective surveys. The GESAMP Guidelines explain two main types of surveying
-  beaches including rapid assessment surveys and routine shoreline monitoring.
-  Rapid assessment surveys are best conducted in response to natural disasters,
-  to build a baseline for future surveys and/or to identify beach litter
-  hotspots. (see:
+  International Coastal Clean-up (ICC) initiative) or citizen science programmes
+  (see for example NOAA&#x2019;s Marine Debris Monitoring and Assessment Citizen
+  Science Project). Specific instructions on how to conduct citizen science
+  beach surveys are included in the GESAMP Guidelines (GESAMP 2019). </p>
+
+  <p>Beyond the tools used to conduct beach litter monitoring, it is important
+  to consider the timing of surveys in order to properly plan effective surveys.
+  The GESAMP Guidelines explain two main types of surveying beaches including
+  rapid assessment surveys and routine shoreline monitoring. Rapid assessment
+  surveys are best conducted in response to natural disasters, to build a
+  baseline for future surveys and/or to identify beach litter hotspots. (see:
   https://environmentlive.unep.org/media/docs/marine_plastics/une_science_dvision_gesamp_reports.pdf).</p>
 
   <p>The average count of plastic items can be computed for each area sampled. A
   geospatial model is recommended in order to estimate the density across the
   coastline and to establish a national average.</p>
+DATA_VALIDATION: >-
+  <p>The data validation for this indicator will differ according to the level
+  classification of the indicator measured:</p>
+
+  <p>Level 1: All globally available data (estimated or modelled) will be shared
+  with national statistical offices and other relevant authorities for
+  in-country validation and to replace with national data if available and if
+  not to provide UNEP the no objection to publish the data.</p>
+
+  <p>Level 2: The data for all sub indicators will be national data reported to
+  UNEP through the Regional Seas. The first data validation will be done by the
+  Regional Seas and later by UNEP before reporting it to UNSD SDG Global
+  Database.</p>
+
+  <p>Level 3: the data is a list of supplementary information which is suggested
+  that countries consider monitoring and does not require any reporting and
+  validation.</p>
+ADJUSTMENT: <p>No adjustments are made</p>
 IMPUTATION: >-
   <p><strong>&#x2022;</strong> <strong>At country level</strong></p>
 
@@ -694,10 +860,16 @@ IMPUTATION: >-
 
   <p><strong>&#x2022;</strong> <strong>At regional and global
   levels</strong></p>
+
+  <p>missing values are not imputed</p>
 REG_AGG: >-
   <p>The data will be aggregated at the sub-regional, regional and global
   levels. For the aggregation methods, please see:
   http://wesr.unep.org/media/docs/graphs/aggregation_methods.pdf. </p>
+DOC_METHOD: <p>Refer to section 4.d</p>
+QUALITY_MGMNT: <p>Refer to section 4.d</p>
+QUALITY_ASSURE: <p>Refer to section 4.d</p>
+QUALITY_ASSMNT: <p>Refer to section 4.d</p>
 COVERAGE: >-
   <p><strong>Data availability:</strong></p>
 
@@ -709,14 +881,14 @@ COVERAGE: >-
   sub-indicator. Reporting will initiate in 2020 for the global indicator on
   chl-a and plastic modelling. For the other globally derived indicators,
   reporting will initiate in 2021. National data collection through the Regional
-  Seas already exists for many Regional Seas, this data will compiled for SDG
+  Seas already exists for many Regional Seas, this data will be compiled for SDG
   reporting in 2020.</p>
 
   <p><strong>Disaggregation:</strong></p>
 
-  <p>&#x2022; A geospatial disaggregation of the state of pollution is proposed.
-  For the ICEP loading indicators, this disaggregation should be at the
-  sub-basin level.</p>
+  <p>A geospatial disaggregation of the state of pollution is proposed. For the
+  ICEP loading indicators, this disaggregation should be at the sub-basin
+  level.</p>
 COMPARABILITY: >-
   <p><strong>Sources of discrepancies: </strong></p>
 
@@ -735,7 +907,8 @@ OTHER_DOC: >-
   </p>
 
   <p>UNEP Global Manual on Ocean Statistics for Measuring SDG 14.1.1, 14.2.1 and
-  14.5.1 (forthcoming)</p>
+  14.5.1 (UNEP, 2021):
+  https://wedocs.unep.org/bitstream/handle/20.500.11822/35086/USO.pdf?sequence=3&amp;isAllowed=y</p>
 
   <p>Guidelines for the Monitoring and Assessment of Plastic Litter in the Ocean
   (see:
