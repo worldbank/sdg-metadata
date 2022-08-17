@@ -24,9 +24,9 @@ STAT_CONC_DEF: >-
   de personnes âgées de 30 ans qui mourraient avant leur 70e anniversaire de maladies
   cardiovasculaires, de cancer, de diabète ou de maladies respiratoires chroniques,
   en supposant qu'elles connaissent les taux de mortalité actuels à chaque âge et
-  qu'elles ne meurent pas d'une autre cause de décès (par exemple, de blessures ou
-  du VIH/sida). Cet indicateur est calculé à l'aide des méthodes des tables de survie
-  (voir les détails au point 3.3). </p>
+  qu'elles ne meurent pas d'une autre cause de décès (p. ex., de blessures ou du VIH/sida).
+  Cet indicateur est calculé à l'aide des méthodes des tables de survie (consulter
+  les détails à la section 3.3). </p>
 
   <p> </p>
 
@@ -98,7 +98,7 @@ DATA_COMP: >-
   <p>Pour les pays dotés d’un système d’enregistrement de l’état civil de haute qualité,
   y compris des informations sur la cause du décès, l’enregistrement de l’état civil
   que les États membres soumettent à la base de données de l’OMS sur la mortalité
-  a été utilisé, avec des ajustements si nécessaire, par exemple pour la sous-déclaration
+  a été utilisé, avec des ajustements si nécessaire, p. ex. pour la sous-déclaration
   des décès, l’âge et le sexe inconnus et les causes de décès mal définies. </p>
 
   <p> </p>
@@ -118,7 +118,7 @@ DATA_COMP: >-
   entre 30 et 70 ans, pour l’une des quatre causes et en l’absence d’autres causes
   de décès, a été calculé à l’aide de l’équation fournie dans le document ci-dessous.
   Les codes CIM utilisés sont les suivants : maladies cardiovasculaires : I00-I99,
-  cancer : C00-C97, diabète : E10-E14 et maladies respiratoires chroniques : J30-J98
+  cancer : C00-C97, diabète : E10-E14 et maladies respiratoires chroniques : J30-J98.
   </p>
 
   <p>Des formules pour (1) calculer le taux de mortalité par âge pour chaque groupe
@@ -130,7 +130,7 @@ DATA_COMP: >-
   <p> </p>
 
   <p>« NCD Global Monitoring Framework: Indicator Definitions and Specifications ».
-  Genève : Organisation mondiale de la Santé, 2014 (http://www.who.int/nmh/ncd-tools/indicators/GMF_Indicator_Definitions_FinalNOV2014.pdf?ua=1)
+  Genève : Organisation mondiale de la Santé, 2014 (http://www.who.int/nmh/ncd-tools/indicators/GMF_Indicator_Definitions_FinalNOV2014.pdf?ua=1).
   </p>
 IMPUTATION: >-
   <ul>
@@ -146,7 +146,7 @@ IMPUTATION: >-
   à l'adresse : </p>
 
   <p>« WHO methods and data sources for global causes of death, 2000–2019 » (https://www.who.int/docs/default-source/gho-documents/global-health-estimates/ghe2019_cod_methods.pdf
-  ) </p>
+  ). </p>
 
   <p> </p>
 
@@ -266,7 +266,7 @@ UNIT_MEASURE: <p>Probabilité</p>
 CLASS_SYSTEM: <p>Les quatre causes non transmissibles de décès sont définies en termes
   de Classification internationale des maladies, dixième révision (CIM-10) (consulter
   la section 2.a).</p>
-DATA_SOURCE: <p>Les bureaux nationaux de statistique et/ou les ministères de la santé.
+DATA_SOURCE: <p>Les bureaux nationaux de statistique et/ou les ministères de la Santé.
   </p>
 ADJUSTMENT: <p>Les décès de sexe inconnu ont été redistribués au prorata au sein des
   groupes de cause-âge de sexe connu, puis les décès d’âge inconnu ont été redistribués
@@ -274,10 +274,10 @@ ADJUSTMENT: <p>Les décès de sexe inconnu ont été redistribués au prorata au
 DOC_METHOD: <p>Les catégories de causes de décès (y compris les suicides) suivent
   les définitions de la Classification internationale des maladies, dixième révision
   (CIM-10). Veuillez consulter le tableau A de l’annexe du document (en anglais) « WHO
-  methods and data sources for global causes of death, 2000–2019 » (https://www.who.int/docs/default-source/gho-documents/global-health-estimates/ghe2019_cod_methods.pdf)</p>
+  methods and data sources for global causes of death, 2000–2019 » (https://www.who.int/docs/default-source/gho-documents/global-health-estimates/ghe2019_cod_methods.pdf).</p>
 QUALITY_ASSMNT: <p>Toutes les déclarations et allégations faites officiellement par
   le Siège de l’OMS concernant les estimations de l’état de santé au niveau de la
-  population (pays, région, monde – par exemple, la mortalité, l’incidence, la prévalence,
+  population (pays, région, monde – p. ex., la mortalité, l’incidence, la prévalence,
   le fardeau de morbidité) sont approuvées par le Département des données et de l’analyse
   (DDA) par le biais du processus d’autorisation exécutive. Cela inclut les instructions
   de « GATHER » qui fait la promotion des pratiques exemplaires en matière de déclaration

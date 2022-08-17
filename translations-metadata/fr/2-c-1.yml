@@ -79,8 +79,8 @@ STAT_CONC_DEF: "<p><strong>Définition :</strong></p>\n<p>L’indicateur des ano
   \ class=\"footnotes\"><div><sup class=\"footnote-number\" id=\"footnote-2\">1</sup><p>\
   \ Une moyenne géométrique est un type de moyenne qui indique la valeur type d'un\
   \ ensemble de nombres en utilisant le produit de leur valeurs contrairement à la\
-  \ somme arithmétique qui se sert de leur somme(<a href=\"https://fr.wikipedia.org/wiki/Moyenne_géométrique\"\
-  >Wikipedia, 2017</a>) <a href=\"#footnote-ref-2\">&#x2191;</a></p></div></div>"
+  \ somme arithmétique qui se sert de leur somme (<a href=\"https://fr.wikipedia.org/wiki/Moyenne_géométrique\"\
+  >Wikipedia, 2017</a>). <a href=\"#footnote-ref-2\">&#x2191;</a></p></div></div>"
 COLL_METHOD: <p>Les prix des produits alimentaires sont recueillis à partir de pages
   Web, de bulletins d’information ou de courriels d’agences nationales chargées de
   recueillir et de diffuser les prix des denrées alimentaires. Les indices des prix
@@ -89,8 +89,8 @@ COLL_METHOD: <p>Les prix des produits alimentaires sont recueillis à partir de 
 FREQ_COLL: <p>Les prix des produits alimentaires dans l’outil de Suivi et analyse
   des prix alimentaires (<a href="http://www.fao.org/giews/food-prices/tool/public/#/home">SAPA</a>)
   sont mis à jour mensuellement. Les indices des prix des denrées alimentaires dans
-  <a href="http://www.fao.org/faostat/fr/#data/CP">FAOSTAT</a> sont mis à jour trimestriellement</p>
-REL_CAL_POLICY: <p>Au cours du deuxième trimestre de chaque année</p>
+  <a href="http://www.fao.org/faostat/fr/#data/CP">FAOSTAT</a> sont mis à jour trimestriellement.</p>
+REL_CAL_POLICY: <p>Au cours du deuxième trimestre de chaque année.</p>
 INST_MANDATE: <p>L’article I de la constitution de la FAO exige que celle-ci recueille,
   analyse, interprète et diffuse des informations relatives à la nutrition, à l’alimentation
   et à l’agriculture <a href="http://www.fao.org/3/K8024F/K8024F.pdf">http://www.fao.org/3/K8024F/K8024F.pdf</a>.
@@ -332,7 +332,7 @@ DATA_SOURCE: "<p>Les sources d'information sur les prix sont nombreuses et sont 
   \ pour chaque série de prix dans l'outil SAPA à <a href=\"https://fpma.apps.fao.org/giews/food-prices/tool/public/#/home\"\
   >https://fpma.apps.fao.org/giews/food-prices/tool/public/#/home</a>. </p>\n<p>Pour\
   \ les indices des prix alimentaires, la source est FAOSTAT <a href=\"http://www.fao.org/faostat/fr/#data/CP\"\
-  >http://www.fao.org/faostat/fr/#data/CP</a> </p>"
+  >http://www.fao.org/faostat/fr/#data/CP</a>. </p>"
 RATIONALE: "<p>Les seuils pour l'indice <math xmlns=\"http://www.w3.org/1998/Math/MathML\"\
   >\n    <msub>\n      <mrow>\n        <mi>I</mi>\n        <mi>A</mi>\n        <mi>P</mi>\n\
   \        <mi>A</mi>\n      </mrow>\n      <mrow>\n        <mi>a</mi>\n      </mrow>\n\
