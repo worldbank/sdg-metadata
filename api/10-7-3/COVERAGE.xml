@@ -24,7 +24,7 @@
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td&gt;
-        &lt;p&gt;&lt;strong&gt;Incident&lt;/strong&gt; ID&lt;/p&gt;
+        &lt;p&gt;Incident ID&lt;/p&gt;
       &lt;/td&gt;
       &lt;td&gt;
         &lt;p&gt;An automatically generated number used to identify each unique entry in the dataset.&lt;/p&gt;
@@ -67,12 +67,12 @@
         &lt;p&gt;Number dead&lt;/p&gt;
       &lt;/td&gt;
       &lt;td&gt;
-        &lt;p&gt;The total number of people confirmed dead in one&lt;strong&gt; &lt;/strong&gt;incident, i.e. the number of bodies recovered. If migrants are missing and presumed dead, such as in cases of shipwrecks, it is left blank.&lt;/p&gt;
+        &lt;p&gt;The total number of people confirmed dead in one incident, i.e. the number of bodies recovered. If migrants are missing and presumed dead, such as in cases of shipwrecks, it is left blank.&lt;/p&gt;
       &lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td&gt;
-        &lt;p&gt;Number missing&lt;strong&gt; &lt;/strong&gt;&lt;/p&gt;
+        &lt;p&gt;Number missing &lt;/p&gt;
       &lt;/td&gt;
       &lt;td&gt;
         &lt;p&gt;The total number of those who are missing and are thus assumed to be dead. This variable is generally recorded in incidents involving shipwrecks. The number of missing is calculated by subtracting the number of bodies recovered from a shipwreck and the number of survivors from the total number of migrants reported to have been on the boat. This number may be reported by surviving migrants or witnesses. If no missing persons are reported, it is left blank.&lt;/p&gt;
@@ -128,7 +128,7 @@
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td&gt;
-        &lt;p&gt;&lt;strong&gt;Name&lt;/strong&gt;&lt;/p&gt;
+        &lt;p&gt;Name&lt;/p&gt;
       &lt;/td&gt;
       &lt;td&gt;
         &lt;p&gt;The name of the decedent(s). If unknown, it is left blank. Not available in the public dataset. &lt;/p&gt;
@@ -192,7 +192,7 @@
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td&gt;
-        &lt;p&gt;&lt;strong&gt;Information source&lt;/strong&gt;&lt;/p&gt;
+        &lt;p&gt;Information source&lt;/p&gt;
       &lt;/td&gt;
       &lt;td&gt;
         &lt;p&gt;Name of source of information for each incident. Multiple sources may be listed.&lt;/p&gt;
@@ -200,7 +200,7 @@
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td&gt;
-        &lt;p&gt;&lt;strong&gt;Link&lt;/strong&gt;&lt;/p&gt;
+        &lt;p&gt;Link&lt;/p&gt;
       &lt;/td&gt;
       &lt;td&gt;
         &lt;p&gt;Links to original reports of migrant deaths / disappearances if available. Multiple links may be listed.&lt;/p&gt;

@@ -160,7 +160,7 @@
     
       
       <h3>SDMX Metadata Concepts</h3>
-      <ul class="indicator-fields"><li><a href="#SDG_GOAL">0.a. Goal</a></li><li><a href="#SDG_TARGET">0.b. Target</a></li><li><a href="#SDG_INDICATOR">0.c. Indicator</a></li><li><a href="#META_LAST_UPDATE">0.e. Metadata update</a></li><li><a href="#SDG_RELATED_INDICATORS">0.f. Related indicators</a></li><li><a href="#SDG_CUSTODIAN_AGENCIES">0.g. International organisations(s) responsible for global monitoring</a></li><li><a href="#CONTACT_ORGANISATION">1.a. Organisation</a></li><li><a href="#STAT_CONC_DEF">2.a. Definition and concepts</a></li><li><a href="#SOURCE_TYPE">3.a. Data sources</a></li><li><a href="#COLL_METHOD">3.b. Data collection method</a></li><li><a href="#FREQ_COLL">3.c. Data collection calendar</a></li><li><a href="#REL_CAL_POLICY">3.d. Data release calendar</a></li><li><a href="#DATA_SOURCE">3.e. Data providers</a></li><li><a href="#COMPILING_ORG">3.f. Data compilers</a></li><li><a href="#RATIONALE">4.a. Rationale</a></li><li><a href="#REC_USE_LIM">4.b. Comment and limitations</a></li><li><a href="#DATA_COMP">4.c. Method of computation</a></li><li><a href="#IMPUTATION">4.f. Treatment of missing values (i) at country level and (ii) at regional level</a></li><li><a href="#REG_AGG">4.g. Regional aggregations</a></li><li><a href="#COVERAGE">5. Data availability and disaggregation</a></li><li><a href="#COMPARABILITY">6. Comparability/deviation from international standards</a></li><li><a href="#OTHER_DOC">7. References and Documentation</a></li></ul>
+      <ul class="indicator-fields"><li><a href="#SDG_GOAL">0.a. Goal</a></li><li><a href="#SDG_TARGET">0.b. Target</a></li><li><a href="#SDG_INDICATOR">0.c. Indicator</a></li><li><a href="#SDG_SERIES_DESCR">0.d. Series</a></li><li><a href="#META_LAST_UPDATE">0.e. Metadata update</a></li><li><a href="#SDG_RELATED_INDICATORS">0.f. Related indicators</a></li><li><a href="#SDG_CUSTODIAN_AGENCIES">0.g. International organisations(s) responsible for global monitoring</a></li><li><a href="#CONTACT_ORGANISATION">1.a. Organisation</a></li><li><a href="#STAT_CONC_DEF">2.a. Definition and concepts</a></li><li><a href="#UNIT_MEASURE">2.b. Unit of measure</a></li><li><a href="#CLASS_SYSTEM">2.c. Classifications</a></li><li><a href="#SOURCE_TYPE">3.a. Data sources</a></li><li><a href="#COLL_METHOD">3.b. Data collection method</a></li><li><a href="#FREQ_COLL">3.c. Data collection calendar</a></li><li><a href="#REL_CAL_POLICY">3.d. Data release calendar</a></li><li><a href="#DATA_SOURCE">3.e. Data providers</a></li><li><a href="#COMPILING_ORG">3.f. Data compilers</a></li><li><a href="#INST_MANDATE">3.g. Institutional mandate</a></li><li><a href="#RATIONALE">4.a. Rationale</a></li><li><a href="#REC_USE_LIM">4.b. Comment and limitations</a></li><li><a href="#DATA_COMP">4.c. Method of computation</a></li><li><a href="#DATA_VALIDATION">4.d. Validation</a></li><li><a href="#ADJUSTMENT">4.e. Adjustments</a></li><li><a href="#IMPUTATION">4.f. Treatment of missing values (i) at country level and (ii) at regional level</a></li><li><a href="#REG_AGG">4.g. Regional aggregations</a></li><li><a href="#DOC_METHOD">4.h. Methods and guidance available to countries for the compilation of the data at the national level</a></li><li><a href="#QUALITY_MGMNT">4.i. Quality management</a></li><li><a href="#QUALITY_ASSURE">4.j. Quality assurance</a></li><li><a href="#QUALITY_ASSMNT">4.k. Quality assessment</a></li><li><a href="#COVERAGE">5. Data availability and disaggregation</a></li><li><a href="#COMPARABILITY">6. Comparability/deviation from international standards</a></li><li><a href="#OTHER_DOC">7. References and Documentation</a></li></ul>
 
       
     
@@ -193,65 +193,247 @@
   <a class="btn btn--info" href="/sdg-metadata/documents/en/3-9-2.pdf">Download PDF</a>
 </div>
 
-<a name="SDG_GOAL"></a><div id="SDG_GOAL"><p class="concept-name">0.a. Goal</p><p>Goal 3: Ensure healthy lives and promote well-being for all at all ages</p></div><a name="SDG_TARGET"></a><div id="SDG_TARGET"><p class="concept-name">0.b. Target</p><p>Target 3.9: By 2030, substantially reduce the number of deaths and illnesses from hazardous chemicals and air, water and soil pollution and contamination</p></div><a name="SDG_INDICATOR"></a><div id="SDG_INDICATOR"><p class="concept-name">0.c. Indicator</p><p>Indicator 3.9.2: Mortality rate attributed to unsafe water, unsafe sanitation and lack of hygiene (exposure to unsafe Water, Sanitation and Hygiene for All (WASH) services) </p></div><a name="META_LAST_UPDATE"></a><div id="META_LAST_UPDATE"><p class="concept-name">0.e. Metadata update</p><p>2017-07-09</p></div><a name="SDG_RELATED_INDICATORS"></a><div id="SDG_RELATED_INDICATORS"><p class="concept-name">0.f. Related indicators</p><p>Indicator 7.1.2: Proportion of population with primary reliance on clean fuels and technology </p></div><a name="SDG_CUSTODIAN_AGENCIES"></a><div id="SDG_CUSTODIAN_AGENCIES"><p class="concept-name">0.g. International organisations(s) responsible for global monitoring</p><p>World Health Organization (WHO)</p></div><a name="CONTACT_ORGANISATION"></a><div id="CONTACT_ORGANISATION"><p class="concept-name">1.a. Organisation</p><p>World Health Organization (WHO) </p></div><a name="STAT_CONC_DEF"></a><div id="STAT_CONC_DEF"><p class="concept-name">2.a. Definition and concepts</p><p><strong>Definition:</strong> </p>
-<p> The mortality rate attributed to unsafe water, unsafe sanitation and lack of hygiene (exposure to unsafe Water, Sanitation and Hygiene for All (WASH) services) as defined as the number of deaths from unsafe water, unsafe sanitation and lack of hygiene (exposure to unsafe WASH services) in a year, divided by the population, and multiplied by 100,000. </p>
+<a name="SDG_GOAL"></a><div id="SDG_GOAL"><p class="concept-name">0.a. Goal</p><p>Goal 3: Ensure healthy lives and promote well-being for all at all ages</p></div><a name="SDG_TARGET"></a><div id="SDG_TARGET"><p class="concept-name">0.b. Target</p><p>Target 3.9: By 2030, substantially reduce the number of deaths and illnesses from hazardous chemicals and air, water and soil pollution and contamination</p></div><a name="SDG_INDICATOR"></a><div id="SDG_INDICATOR"><p class="concept-name">0.c. Indicator</p><p>Indicator 3.9.2: Mortality rate attributed to unsafe water, unsafe sanitation and lack of hygiene (exposure to unsafe Water, Sanitation and Hygiene for All (WASH) services) </p></div><a name="SDG_SERIES_DESCR"></a><div id="SDG_SERIES_DESCR"><p class="concept-name">0.d. Series</p><p>Not applicable</p></div><a name="META_LAST_UPDATE"></a><div id="META_LAST_UPDATE"><p class="concept-name">0.e. Metadata update</p>2022-07-07</div><a name="SDG_RELATED_INDICATORS"></a><div id="SDG_RELATED_INDICATORS"><p class="concept-name">0.f. Related indicators</p><p>Indicator 7.1.2: Proportion of population with primary reliance on clean fuels and technology </p></div><a name="SDG_CUSTODIAN_AGENCIES"></a><div id="SDG_CUSTODIAN_AGENCIES"><p class="concept-name">0.g. International organisations(s) responsible for global monitoring</p><p>World Health Organization (WHO)</p></div><a name="CONTACT_ORGANISATION"></a><div id="CONTACT_ORGANISATION"><p class="concept-name">1.a. Organisation</p><p>World Health Organization (WHO) </p></div><a name="STAT_CONC_DEF"></a><div id="STAT_CONC_DEF"><p class="concept-name">2.a. Definition and concepts</p><p><strong>Definition:</strong> </p>
+<p>The mortality rate attributed to unsafe water, unsafe sanitation and lack of hygiene (exposure to unsafe Water, Sanitation and Hygiene for All (WASH) services) as defined as the number of deaths from unsafe water, unsafe sanitation and lack of hygiene (exposure to unsafe WASH services) in a year, divided by the population, and multiplied by 100,000. </p>
 <p> </p>
 <p> </p>
 <p><strong>Concepts:</strong> </p>
-<p> Deaths attributable to unsafe water, sanitation and hygiene focusing on inadequate WASH services, expressed per 100,000 population; The included diseases are the WASH attributable fractions of diarrhoea (ICD-10 code A00, A01, A03, A04, A06-A09), intestinal nematode infections (ICD-10 code B76-B77, B79) and protein-energy malnutrition (ICD-10 code E40-E46). </p>
-<p> </p></div><a name="SOURCE_TYPE"></a><div id="SOURCE_TYPE"><p class="concept-name">3.a. Data sources</p><p>Data is compiled mainly from country and other databases directly. To maximize the data for robust estimates, as well as to reduce duplication of data collection to avoid further data reporting burden on countries, complementary data are used from various databases. </p></div><a name="COLL_METHOD"></a><div id="COLL_METHOD"><p class="concept-name">3.b. Data collection method</p><p>WHO conducts a formal country consultation process before releasing its cause-of-death estimates. </p></div><a name="FREQ_COLL"></a><div id="FREQ_COLL"><p class="concept-name">3.c. Data collection calendar</p><p>Ongoing </p></div><a name="REL_CAL_POLICY"></a><div id="REL_CAL_POLICY"><p class="concept-name">3.d. Data release calendar</p><p>2017, first quarter </p></div><a name="DATA_SOURCE"></a><div id="DATA_SOURCE"><p class="concept-name">3.e. Data providers</p><p>National statistics offices, Various line ministries and databases covering civil registration with complete coverage and medical certification of cause of death. </p></div><a name="COMPILING_ORG"></a><div id="COMPILING_ORG"><p class="concept-name">3.f. Data compilers</p><p>WHO </p></div><a name="RATIONALE"></a><div id="RATIONALE"><p class="concept-name">4.a. Rationale</p><p>The indicator expresses the number of deaths from inadequate water, sanitation and hygiene (with focus on WASH services) which could be prevented by improving those services and practices. It is based on both the WASH service provision in the country, as well as the related health outcomes, and therefore provides important information on the actual disease caused by the risks measured in 6.1, 6.2 and 6.3. </p></div><a name="REC_USE_LIM"></a><div id="REC_USE_LIM"><p class="concept-name">4.b. Comment and limitations</p><p>Data rely on (a) statistics on WASH services (6.1, 6.2 and 6.3), which are well assessed in almost all countries, and (b) data on deaths. Data on deaths are also widely available from countries from death registration data or sample registration systems, which are certainly feasible systems. Such data are crucial for improving health and reducing preventable deaths in countries. The main limitation is that not all countries do have such registration systems to date, and data need to be completed with other type of information. </p></div><a name="DATA_COMP"></a><div id="DATA_COMP"><p class="concept-name">4.c. Method of computation</p><p>The methods with agreed international standard have been developed, reviewed and published in various documents: </p>
-<p> </p>
-<p>http://www.who.int/water_sanitation_health/gbd_poor_water/en/ </p>
-<p> </p>
-<p>http://www.ncbi.nlm.nih.gov/pmc/articles/PMC4255749/ </p>
-<p> </p></div><a name="IMPUTATION"></a><div id="IMPUTATION"><p class="concept-name">4.f. Treatment of missing values (i) at country level and (ii) at regional level</p><ul>
+<p>Deaths attributable to unsafe water, sanitation and hygiene focusing on inadequate WASH services, expressed per 100,000 population; The included diseases are diarrhoea (GHE code 110 which includes ICD-10 codes A00, A01, A03, A04, A06-A09), acute respiratory infections (GHE code 380 which includes ICD-10 codes H65-H66, J00-J22, P23, and U04) intestinal nematode infections (GHE codes 340, 350 and 360 which include ICD-10 codes B76-B77, and B79) and protein-energy malnutrition (GHE code 550 which includes ICD-10 codes E40-E46). </p>
+<p> </p></div><a name="UNIT_MEASURE"></a><div id="UNIT_MEASURE"><p class="concept-name">2.b. Unit of measure</p><p>Mortality rate (deaths per 100,000 population)</p></div><a name="CLASS_SYSTEM"></a><div id="CLASS_SYSTEM"><p class="concept-name">2.c. Classifications</p><p>Not applicable</p></div><a name="SOURCE_TYPE"></a><div id="SOURCE_TYPE"><p class="concept-name">3.a. Data sources</p><p>Data is compiled mainly from country and other databases directly. To maximize the data for robust estimates, as well as to reduce duplication of data collection to avoid further data reporting burden on countries, complementary data are used from various databases (please refer to section 4.c. for specific data sources). </p></div><a name="COLL_METHOD"></a><div id="COLL_METHOD"><p class="concept-name">3.b. Data collection method</p><p>WHO conducts a formal country consultation process before releasing its cause-of-death estimates. </p></div><a name="FREQ_COLL"></a><div id="FREQ_COLL"><p class="concept-name">3.c. Data collection calendar</p><p>Ongoing </p></div><a name="REL_CAL_POLICY"></a><div id="REL_CAL_POLICY"><p class="concept-name">3.d. Data release calendar</p><p>2022, second quarter </p></div><a name="DATA_SOURCE"></a><div id="DATA_SOURCE"><p class="concept-name">3.e. Data providers</p><p>National statistics offices, Various line ministries and databases covering civil registration with complete coverage and medical certification of cause of death. </p></div><a name="COMPILING_ORG"></a><div id="COMPILING_ORG"><p class="concept-name">3.f. Data compilers</p><p>WHO </p></div><a name="INST_MANDATE"></a><div id="INST_MANDATE"><p class="concept-name">3.g. Institutional mandate</p><p>The World Health Organization (WHO) is the Custodian Agency or co-Custodian Agency for reporting on several SDG indicators, including indicator 3.9.2, the mortality rate attributed to unsafe water, unsafe sanitation and lack of hygiene (exposure to unsafe Water, Sanitation and Hygiene for All (WASH) services).</p></div><a name="RATIONALE"></a><div id="RATIONALE"><p class="concept-name">4.a. Rationale</p><p>The indicator expresses the number of deaths from inadequate water, sanitation and hygiene (with focus on WASH services) which could be prevented by improving those services and practices. It is based on both the WASH service provision in the country, as well as the related health outcomes, and therefore provides important information on the actual disease caused by the risks measured in targets 6.1 and 6.2. </p></div><a name="REC_USE_LIM"></a><div id="REC_USE_LIM"><p class="concept-name">4.b. Comment and limitations</p><p>Data rely on (a) statistics on WASH services (6.1 and 6.2), which are well assessed in almost all countries, and (b) data on deaths. Data on deaths are also widely available from countries from death registration data or sample registration systems, which are certainly feasible systems. Such data are crucial for improving health and reducing preventable deaths in countries. The main limitation is that not all countries do have such registration systems to date, and data need to be completed with other type of information. </p></div><a name="DATA_COMP"></a><div id="DATA_COMP"><p class="concept-name">4.c. Method of computation</p><p><u>4.c.i. Model</u></p>
+<p>&apos;WHO estimation of health impacts from environmental risks is based on comparative risk assessment (CRA) methods, which are used extensively in burden of disease assessments (Ezzati et al., 2002). This approach estimates the proportional reduction in disease or death that would occur if exposures were reduced to an alternative baseline level bearing a minimum risk (also referred to as theoretical minimum risk), while other conditions remain unchanged. The CRA methodology combines data on exposure, disease burden and the exposure-response relationship to estimate the burden of disease associated with that exposure (Ezzati et al., 2002). For each risk factor (unsafe water, sanitation, or hygiene), the population attributable fraction (PAF) is estimated by comparing current exposure distributions to a counterfactual distribution, for each exposure level, sex and age group:</p>
+<p><math xmlns="http://www.w3.org/1998/Math/MathML">
+    <mi mathvariant="normal">P</mi>
+    <mi mathvariant="normal">A</mi>
+    <mi mathvariant="normal">F</mi>
+    <mo>=</mo>
+    <mi mathvariant="normal">&amp;nbsp;</mi>
+    <mfrac>
+      <mrow>
+        <mrow>
+          <munderover>
+            <mo stretchy="false">&#x2211;</mo>
+            <mrow>
+              <mi mathvariant="normal">i</mi>
+              <mo>=</mo>
+              <mn>1</mn>
+            </mrow>
+            <mrow>
+              <mi mathvariant="normal">n</mi>
+            </mrow>
+          </munderover>
+          <mrow>
+            <msub>
+              <mrow>
+                <mi mathvariant="normal">p</mi>
+              </mrow>
+              <mrow>
+                <mi mathvariant="normal">i</mi>
+              </mrow>
+            </msub>
+            <mi mathvariant="normal">&amp;nbsp;</mi>
+            <mo>(</mo>
+            <msub>
+              <mrow>
+                <mi mathvariant="normal">R</mi>
+                <mi mathvariant="normal">R</mi>
+              </mrow>
+              <mrow>
+                <mi mathvariant="normal">i</mi>
+              </mrow>
+            </msub>
+            <mo>-</mo>
+            <mn>1</mn>
+            <mo>)</mo>
+          </mrow>
+        </mrow>
+      </mrow>
+      <mrow>
+        <mrow>
+          <munderover>
+            <mo stretchy="false">&#x2211;</mo>
+            <mrow>
+              <mi mathvariant="normal">i</mi>
+              <mo>=</mo>
+              <mn>1</mn>
+            </mrow>
+            <mrow>
+              <mi mathvariant="normal">n</mi>
+            </mrow>
+          </munderover>
+          <mrow>
+            <msub>
+              <mrow>
+                <mi mathvariant="normal">p</mi>
+              </mrow>
+              <mrow>
+                <mi mathvariant="normal">i</mi>
+              </mrow>
+            </msub>
+            <mfenced separators="|">
+              <mrow>
+                <msub>
+                  <mrow>
+                    <mi mathvariant="normal">R</mi>
+                    <mi mathvariant="normal">R</mi>
+                  </mrow>
+                  <mrow>
+                    <mi mathvariant="normal">i</mi>
+                  </mrow>
+                </msub>
+                <mo>-</mo>
+                <mn>1</mn>
+              </mrow>
+            </mfenced>
+            <mo>+</mo>
+            <mn>1</mn>
+          </mrow>
+        </mrow>
+      </mrow>
+    </mfrac>
+  </math></p>
+<p>Where <em>pi</em> and <em>RR<sub>i</sub></em> are the proportion of the exposed population and the relative risk at exposure level <em>i</em>, respectively, and <em>n</em> is the total number of exposure levels. The joint burden of exposure to unsafe water, sanitation and hygiene was estimated by the following formula (6):</p>
+<p> <math xmlns="http://www.w3.org/1998/Math/MathML">
+    <mi mathvariant="normal">P</mi>
+    <mi mathvariant="normal">A</mi>
+    <mi mathvariant="normal">F</mi>
+    <mo>=</mo>
+    <mn>1</mn>
+    <mo>-</mo>
+    <mi mathvariant="normal">&amp;nbsp;</mi>
+    <mrow>
+      <munderover>
+        <mo stretchy="false">&#x220F;</mo>
+        <mrow>
+          <mi mathvariant="normal">r</mi>
+          <mo>=</mo>
+          <mn>1</mn>
+        </mrow>
+        <mrow>
+          <mi mathvariant="normal">R</mi>
+        </mrow>
+      </munderover>
+      <mrow>
+        <mo>(</mo>
+        <mn>1</mn>
+        <mo>-</mo>
+        <msub>
+          <mrow>
+            <mi mathvariant="normal">P</mi>
+            <mi mathvariant="normal">A</mi>
+            <mi mathvariant="normal">F</mi>
+          </mrow>
+          <mrow>
+            <mi mathvariant="normal">r</mi>
+          </mrow>
+        </msub>
+        <mo>)</mo>
+      </mrow>
+    </mrow>
+  </math></p>
+<p>Where <em>r </em>is the individual risk factor, and <em>R</em> the total of risk factors accounted for in the cluster. Additional details on the methods of estimation are available from various publications (1,7). </p>
+<p>This methodology has been used extensively to calculate the health gains from improvements in water supply, as well as sanitation and hygiene and had been published in various documents (Clasen et al., 2014; Pr&#xFC;ss-Ust&#xFC;n et al., 2014; Pr&#xFC;ss-Ust&#xFC;n et al., 2019)</p>
+<p>The following four types of data are required to produce estimates for indicator 3.9.2:</p>
+<table>
+  <tbody>
+    <tr>
+      <td>
+        <p>Data type </p>
+      </td>
+      <td>
+        <p>Source</p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <p>Population </p>
+        <p>Country level population figures </p>
+      </td>
+      <td>
+        <p><u>UN Population Division. </u><a href="https://population.un.org/wpp/">https://population.un.org/wpp/</a></p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <p>Exposure </p>
+        <p>The necessary water indicators include </p>
+        <ul>
+          <li>safely managed drinking water services; </li>
+          <li>basic drinking water services; </li>
+          <li>population using surface water, unimproved drinking water sources, or limited drinking water services; </li>
+          <li>population practising household water treatment with filtration, chlorination, or solar disinfection. </li>
+        </ul>
+        <p>The necessary sanitation indicators include </p>
+        <ul>
+          <li>basic sanitation services with sewer connections; </li>
+          <li>basic sanitation services without sewer connections; </li>
+          <li>open defecation, unimproved sanitation facilities, or limited sanitation services</li>
+        </ul>
+        <p>One hygiene indicator is used: </p>
+        <ul>
+          <li>population practising handwashing with soap and water after potential faecal contacts.</li>
+        </ul>
+      </td>
+      <td>
+        <p>Many of these data are available in the global database maintained by the WHO/UNICEF Joint Monitoring Programme for Water Supply, Sanitation and Hygiene, and several are SDG indicators. Where countries lack data for one or more indicators, missing values are imputed using multi-level logistic modelling (Wolf et al, 2013; Pr&#xFC;ss-Ust&#xFC;n et al., 2014; Pr&#xFC;ss-Ust&#xFC;n et al., 2019)</p>
+        <p><a href="http://www.washdata.org">www.washdata.org</a></p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <p>Diseaase burden </p>
+        <p>The total number of deaths and DALYs caused by diarrhoeal disease per year.</p>
+      </td>
+      <td>
+        <p>WHO Global Health Observatory (GHO) <a href="https://www">https://www</a>.who.int/data/gho/data/themes/mortality-and-global-health-estimates/ghe-leading-causes-of-death</p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <p>Exposure-response relationship</p>
+        <p>The relative risk, which links exposure with disease. </p>
+      </td>
+      <td>
+        <p>The calculation uses the exposure-response relationship for drinking water and diarrhoea calculated as part of the most recent systematic review of water and sanitation intervention studies and impacts on diarrhoea </p>
+        <p>(Wolf, J, 2022, under review).</p>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<p> </p></div><a name="DATA_VALIDATION"></a><div id="DATA_VALIDATION"><p class="concept-name">4.d. Validation</p><p>Draft estimates are reviewed with Member States through a WHO country consultation process and SDG focal points every time new data are generated. In addition, the methods and data are published in a peer-reviewed journal. 2016 estimates were published in 2019 (see 4.c.), and the manuscript for the 2019 estimates presently being submitted is currently under development, with plans for submission to a peer-reviewed journal by April 2022. </p></div><a name="ADJUSTMENT"></a><div id="ADJUSTMENT"><p class="concept-name">4.e. Adjustments</p><p>Not applicable</p></div><a name="IMPUTATION"></a><div id="IMPUTATION"><p class="concept-name">4.f. Treatment of missing values (i) at country level and (ii) at regional level</p><ul>
   <li><strong>At country level </strong></li>
 </ul>
-<p> </p>
-<p>Data are available for practically all countries. They are, however, sometimes based on health statistics provided by international agencies as the national data are incomplete, which have been interpolated/ extrapolated, adjusted, and completed by additional data and cause-of-death models. A more detailed description of the methods is provided in http://www.who.int/healthinfo/global_burden_disease/GlobalCOD_method_2000_2012.pdf </p>
+<p>For population data and disease burden envelopes, complete datasets are available, so there are no issues with missing data at the country level. For exposure data, many of these data are available in the global database maintained by the WHO/UNICEF Joint Monitoring Programme for Water Supply, Sanitation and Hygiene, and several are SDG indicators. Where data are lacking for one or more required indicators, missing values are imputed using multi-level logistic modelling (Wolf et al, 2013). </p>
 <p> </p>
 <ul>
   <li><strong>At regional and global levels </strong></li>
 </ul>
 <p> </p>
-<p>NA </p></div><a name="REG_AGG"></a><div id="REG_AGG"><p class="concept-name">4.g. Regional aggregations</p><p>Country estimates of number of deaths by cause are summed to obtain regional and global aggregates. </p>
-<p> </p></div><a name="COVERAGE"></a><div id="COVERAGE"><p class="concept-name">5. Data availability and disaggregation</p><p><strong>Data availability:</strong></p>
-<p>Data are available for practically all countries. They are, however, sometimes based on health statistics provided by international agencies as the national data are incomplete. </p>
-<p>Actual country data for 2010 onwards period </p>
-<p>Asia and Pacific - 27% of countries (16 out of 59 countries, including China and India sample systems) </p>
-<p>Africa - 6% of countries (3 out of 54 countries) </p>
-<p>Latin America and the Caribbean - 56% of countries (19 out of 34 countries) </p>
-<p>Europe, North America, Australia, New Zealand and Japan - </p>
-<p>94% of countries (44 out of 47 countries, missing are mainly very small countries) </p>
-<p> </p>
-<p>For the period 2000-2009 </p>
-<p>Asia and Pacific - 27% of countries (16 out of 59 countries, including China and India sample systems) </p>
-<p>Africa - 6% of countries (3 out of 54 countries) </p>
-<p>Latin America and the Caribbean - 56% of countries (19 out of 34 countries) </p>
-<p>Europe, North America, Australia, New Zealand and Japan - 94% of countries (44 out of 47 countries, missing are mainly very small countries) </p>
-<p> </p>
-<p>Web link to the database: </p>
-<p>http://apps.who.int/gho/data/node.home </p>
-<p> </p>
-<p>The indicator has been established and available for more than a decade. http://apps.who.int/gho/data/node.main.INADEQUATEWSH?lang=en </p>
-<p>http://www.who.int/water_sanitation_health/gbd_poor_water/en/ </p>
-<p> </p>
-<p>WHO has been collating country figures and has been using these to produce global and regional estimates against this indicator. </p>
+<p>Not applicable</p></div><a name="REG_AGG"></a><div id="REG_AGG"><p class="concept-name">4.g. Regional aggregations</p><p>Country estimates of number of deaths by cause are summed to obtain regional and global aggregates. Populations published by the UNPD&#x2019;s World Population Prospects are aggregated to regional and global levels. The mortality rate is then calculated at the regional and global levels. </p>
+<p> </p></div><a name="DOC_METHOD"></a><div id="DOC_METHOD"><p class="concept-name">4.h. Methods and guidance available to countries for the compilation of the data at the national level</p><p>Data for this indicator are not routinely collected by countries. Rather, they are modelled using Comparative Risk Assessment methods<sup><a href="#footnote-2" id="footnote-ref-2">[1]</a></sup> (For further information please see section 4.c.). However, while countries do not routinely collect these data to feed into the global figures for indicator 3.9.2, there have been a small number of requests for technical assistance from WHO country offices for support in the country-level calculation of WASH-attributable disease burden. A country tool is in development to enable countries to calculate the estimated burden of disease associated with WASH for their own country, and this will be available later this year. </p><div class="footnotes"><div><sup class="footnote-number" id="footnote-2">1</sup><p> Pr&#xFC;ss-Ust&#xFC;n A, Wolf J, Bartram J, Clasen T, Cumming O, Freeman MC, Gordon B, Hunter PR, Medlicott K, Johnston R. Burden of disease from inadequate water, sanitation and hygiene for selected adverse health outcomes: an updated analysis with a focus on low- and middle-income countries. International journal of hygiene and environmental health. 2019 Jun 1; 222(5): 765-77. <a href="#footnote-ref-2">&#x2191;</a></p></div></div></div><a name="QUALITY_MGMNT"></a><div id="QUALITY_MGMNT"><p class="concept-name">4.i. Quality management</p><p>For information on data quality management, assurance, and assessment processes at WHO, please refer to: <a href="https://www.who.int/data/ddi">https://www.who.int/data/ddi</a></p></div><a name="QUALITY_ASSURE"></a><div id="QUALITY_ASSURE"><p class="concept-name">4.j. Quality assurance</p><p>For information on data quality management, assurance, and assessment processes at WHO, please refer to: <a href="https://www.who.int/data/ddi">https://www.who.int/data/ddi</a></p></div><a name="QUALITY_ASSMNT"></a><div id="QUALITY_ASSMNT"><p class="concept-name">4.k. Quality assessment</p><p>For information on data quality management, assurance, and assessment processes at WHO, please refer to: <a href="https://www.who.int/data/ddi">https://www.who.int/data/ddi</a></p></div><a name="COVERAGE"></a><div id="COVERAGE"><p class="concept-name">5. Data availability and disaggregation</p><p><strong>Data availability:</strong></p>
+<p>Data are available for 183 UN Member States, and can be accessed through the WHO Global Health Observatory: https://apps.who.int/gho/data/view.main.INADEQUATEWSHv?lang=en</p>
 <p> </p>
 <p><strong>Time series:</strong></p>
-<p>Limited time series data is available (comparable series for years 2012 and soon 2015; data for 2002 are also available but have more limited comparability) </p>
+<p>Previous rounds of estimates have been published with reference years of 2012, 2015, and 2016. As there have been changes in methods for diarrhoea, they have limited comparability. </p>
 <p><strong>Disaggregation:</strong></p>
-<p>Since this indicator is population-based, geographic location is the most natural disaggregation. Data also exists for age group and sex. Similar to JMP&#x2019;s work on disaggregation by income groups (wealth quintile), data can further be disaggregated by wealth quintile. </p></div><a name="COMPARABILITY"></a><div id="COMPARABILITY"><p class="concept-name">6. Comparability/deviation from international standards</p><p><strong>Sources of discrepancies:</strong></p>
+<p>National, regional and global data are available at the total population; disaggregated into male and female populations; and for the population under age five.</p>
+<p> </p></div><a name="COMPARABILITY"></a><div id="COMPARABILITY"><p class="concept-name">6. Comparability/deviation from international standards</p><p><strong>Sources of discrepancies:</strong></p>
 <p>WHO is required by World Health Assembly resolution to consult on all WHO statistics, and seek feedback from countries on data about countries and territories. Before publishing, all estimates undergo country consultations. </p></div><a name="OTHER_DOC"></a><div id="OTHER_DOC"><p class="concept-name">7. References and Documentation</p><p><strong>URL:</strong> </p>
 <p> </p>
-<p>http://www.who.int/water_sanitation_health/gbd_poor_water/en/ </p>
+<p>WHO indicator definition <a href="https://www.who.int/data/gho/indicator-metadata-registry/imr-details/2260">https://www.who.int/data/gho/indicator-metadata-registry/imr-details/2260</a> </p>
+<p>WHO methods and data sources for global causes of death, 2000&#x2013;2012 <a href="https://cdn.who.int/media/docs/default-source/gho-documents/global-health-estimates/ghe2019_cod_methods.pdf">https://cdn.who.int/media/docs/default-source/gho-documents/global-health-estimates/ghe2019_cod_methods.pdf</a></p>
 <p> </p>
 <p><strong>References:</strong> </p>
+<p>Clasen, T., Pr&#xFC;ss-Ust&#xFC;n, A., Mathers, C. D., Cumming, O., Cairncross, S., &amp; Colford, J. M. (2014). Estimating the impact of unsafe water, sanitation and hygiene on the global burden of disease: evolving and alternative methods. Trop Med Int Health, 19(8), 884-893. <a href="https://doi.org/10.1111/tmi.12330">https://doi.org/10.1111/tmi.12330</a></p>
+<p>Ezzati, M., Lopez, A. D., Rodgers, A., Vander Hoorn, S., Murray, C. J., &amp; Group, C. R. A. C. (2002). Selected major risk factors and global and regional burden of disease. Lancet, 360(9343), 1347-1360. <a href="https://doi.org/10.1016/S0140-6736(02)11403-6">https://doi.org/10.1016/S0140-6736(02)11403-6</a></p>
+<p>&apos;Pr&#xFC;ss-Ust&#xFC;n, A., Bartram, J., Clasen, T., Colford, J. M., Cumming, O., Curtis, V., . . . Cairncross, S. (2014). Burden of disease from inadequate water, sanitation and hygiene in low- and middle-income settings: a retrospective analysis of data from 145 countries. Trop Med Int Health, 19(8), 894-905. <a href="https://doi.org/10.1111/tmi.12329">https://doi.org/10.1111/tmi.12329</a></p>
+<p>Pr&#xFC;ss-Ust&#xFC;n A, Wolf J, Bartram J, Clasen T, Cumming O, Freeman MC, Gordon B, Hunter PR, Medlicott K, Johnston R. (2019) Burden of disease from inadequate water, sanitation and hygiene for selected adverse health outcomes: an updated analysis with a focus on low- and middle-income countries. International journal of hygiene and environmental health. 222(5): 765-77.</p>
+<p><a href="https://doi.org/10.1016/j.ijheh.2019.05.004" target="_blank">https://doi.org/10.1016/j.ijheh.2019.05.004</a></p>
+<p>&apos;WHO (2014). Preventing diarrhoea through better water, sanitation and hygiene: exposures and impacts in low- and middle-income countries. <a href="https://www.who.int/publications/i/item/9789241564823">https://www.who.int/publications/i/item/9789241564823</a> </p>
+<p>Wolf, J., Bonjour, S., &amp; Pr&#xFC;ss-Ust&#xFC;n, A. (2013). An exploration of multilevel modeling for estimating access to drinking-water and sanitation. <em>Journal of Water and Health</em>, <em>11</em>(1), 64-77</p>
+<p><a href="https://doi.org/10.2166/wh.2012.107" target="_blank">https://doi.org/10.2166/wh.2012.107</a></p>
 <p> </p>
-<p>1. WHO indicator definition http://apps.who.int/gho/data/node.imr.SDGWSHBOD?lang=en </p>
-<p>http://www.who.int/water_sanitation_health/gbd_poor_water/en/ </p>
 <p> </p>
-<p>2. WHO methods and data sources for global causes of death, 2000&#x2013;2012 (http://www.who.int/healthinfo/global_burden_disease/GlobalCOD_method_2000_2012.pdf?ua=1). </p></div>
+<p>. </p></div>
         
       </section>
 

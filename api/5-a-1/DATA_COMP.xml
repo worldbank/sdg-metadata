@@ -5,10 +5,10 @@
 	<data>
 		<languages>
 			<language lang="ar"/>
-			<language lang="en">&lt;p&gt;&lt;u&gt;How the indicator is calculated:&lt;/u&gt;&lt;/p&gt;
-&lt;p&gt;The indicator 5.a.1 considers as owners or holders of secure tenure rights to agricultural land all the individuals in the reference population who:&lt;/p&gt;
+			<language lang="en">&lt;p&gt;&lt;strong&gt;&lt;u&gt;How the indicator is calculated:&lt;/u&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;The indicator 5.a.1 considers as owners or holders of secure rights to agricultural land all the individuals in the reference population who:&lt;/p&gt;
 &lt;ul&gt;
-  &lt;li&gt;Are listed as &amp;#x2018;owners&amp;#x2019; or &amp;#x2018;holders&amp;#x2019; on a written legal document that testifies security of tenure over agricultural land&lt;/li&gt;
+  &lt;li&gt;Are listed as &amp;#x2018;owners&amp;#x2019; or &amp;#x2018;holders&amp;#x2019; on a written legal document that testifies security of rights over agricultural land&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;OR&lt;/p&gt;
 &lt;ul&gt;
@@ -19,17 +19,19 @@
   &lt;li&gt;Have the right to bequeath agricultural land&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;The presence of one of the three proxies is sufficient to define a person as &amp;#x2018;owner&amp;#x2019; or &amp;#x2018;holder&amp;#x2019; of secure tenure rights over agricultural land. The advantage of this approach is its applicability to different countries. Indeed, based on the analysis of the seven EDGE pilot countries, these proxies provide the most robust measure of ownership/tenure rights that is comparable across countries. In fact, individuals may still have the right to sell or bequeath an asset in the absence of legally recognized document, therefore the indicator combines documented ownership / tenure rights with the right to sell or bequeath to render it comparable across countries.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Operationalization of indicator 5.a.1 expressed through mathematical formulas&lt;/strong&gt; are the following: &lt;/p&gt;
-&lt;p&gt;&lt;u&gt;Sub-indicator (a) &lt;/u&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;u&gt;Operationalization of indicator 5.a.1 expressed through mathematical formulas&lt;/u&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;u&gt;Sub-indicator 5.a.1 (a) &lt;/u&gt;&lt;/p&gt;
 &lt;table&gt;
   &lt;tbody&gt;
     &lt;tr&gt;
       &lt;td&gt;
         &lt;p&gt;Total agricultural population with:&lt;/p&gt;
-        &lt;p&gt;Legally recognized document on agricultural land OR the right to sell it OR the right to bequeath it&lt;/p&gt;
+        &lt;p&gt;Legally recognized document of ownership of agricultural land OR the right to sell it OR the right to bequeath it&lt;/p&gt;
       &lt;/td&gt;
       &lt;td rowspan=&quot;2&quot;&gt;
-        &lt;p&gt;* 100, by sex&lt;/p&gt;
+        &lt;p&gt;&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;
+            &lt;mo&gt;&amp;#xD7;&lt;/mo&gt;
+          &lt;/math&gt; 100, by sex&lt;/p&gt;
       &lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
@@ -39,26 +41,30 @@
     &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;p&gt;&lt;u&gt;Sub-indicator (b)&lt;/u&gt;&lt;/p&gt;
+&lt;p&gt;&lt;u&gt;Sub-indicator 5.a.1 (b)&lt;/u&gt;&lt;/p&gt;
 &lt;table&gt;
   &lt;tbody&gt;
     &lt;tr&gt;
       &lt;td&gt;
-        &lt;p&gt;Number of women in agriculture with:&lt;/p&gt;
-        &lt;p&gt;Legally recognized document on agricultural land OR the right to sell it OR the right to bequeath it&lt;/p&gt;
+        &lt;p&gt;Number of women in the agricultural population with:&lt;/p&gt;
+        &lt;p&gt;Legally recognized document of ownership of agricultural land OR the right to sell it OR the right to bequeath it&lt;/p&gt;
       &lt;/td&gt;
       &lt;td rowspan=&quot;2&quot;&gt;
-        &lt;p&gt;* 100, by type of tenure&lt;/p&gt;
+        &lt;p&gt;&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;
+            &lt;mo&gt;&amp;#xD7;&lt;/mo&gt;
+          &lt;/math&gt; 100, by type of tenure&lt;/p&gt;
       &lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td&gt;
-        &lt;p&gt;Number of people in agriculture with:&lt;/p&gt;
+        &lt;p&gt;Number of people in the agricultural population with:&lt;/p&gt;
         &lt;p&gt;Legally recognized document on agricultural land OR the right to sell it OR the right to bequeath it&lt;/p&gt;
       &lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
+&lt;p&gt;&lt;strong&gt;Use of Sampling Weights&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;When the data source is a sample survey, the appropriate survey sampling weights&amp;#x2014;base weights, non-response adjustments and poststratification adjustments&amp;#x2014;should be used in estimating the sub-indicators. Further, if subsampling of eligible respondents to the 5.a.1 questions is done in a census or survey, the weights need to account for this.&lt;/p&gt;
 			</language>
 			<language lang="es"/>
 			<language lang="fr">&lt;p&gt;&lt;u&gt;Calcul de l’indicateur :&lt;/u&gt;&lt;/p&gt;

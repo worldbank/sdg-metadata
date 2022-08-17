@@ -8,10 +8,30 @@
 			<language lang="en">&lt;ul&gt;
   &lt;li&gt;&lt;strong&gt;At country level &lt;/strong&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;UNWTO will use the travel credits and passenger transport credits according to the &lt;a href=&quot;https://www.imf.org/external/pubs/ft/bop/2007/pdf/bpm6.pdf&quot; target=&quot;_blank&quot;&gt;&lt;u&gt;Balance of Payments and International Investment Position Manual sixth edition&lt;/u&gt;&lt;/a&gt; (BPM6) related to GDP as a proxy of the TDGDP. The mode of calculation of the proxy is: &lt;/p&gt;
-&lt;p&gt;(travel credits + passenger transport credits) / (Gross Domestic Product) x 100. &lt;/p&gt;
-&lt;p&gt; &lt;/p&gt;
-&lt;p&gt;This indicator represents a basic evaluation of tourism&amp;#x2019;s economic contribution to the national economy, which is largely available for most countries, internationally comparable, and comparable to other economic indicators. Indeed, this indicator is regularly produced by UNWTO and disseminated in its worldwide database. &lt;/p&gt;
+&lt;p&gt;When a country does not measure the Tourism direct GDP but measures the Tourism Direct Gross Value Added (TDGVA), the indicator Tourism Direct Gross Value Added as a proportion of total Gross Value Added (in %) is used as a proxy. When it is the case, a footnote is included in the data.&lt;/p&gt;
+&lt;p&gt;Tourism Direct Gross Value added (TDGVA) as a proportion of total Gross Value Added (GVA), in %:&lt;/p&gt;
+&lt;p&gt;&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;
+    &lt;mfenced separators=&quot;|&quot;&gt;
+      &lt;mrow&gt;
+        &lt;mfrac&gt;
+          &lt;mrow&gt;
+            &lt;mi&gt;T&lt;/mi&gt;
+            &lt;mi&gt;D&lt;/mi&gt;
+            &lt;mi&gt;G&lt;/mi&gt;
+            &lt;mi&gt;V&lt;/mi&gt;
+            &lt;mi&gt;A&lt;/mi&gt;
+          &lt;/mrow&gt;
+          &lt;mrow&gt;
+            &lt;mi&gt;G&lt;/mi&gt;
+            &lt;mi&gt;V&lt;/mi&gt;
+            &lt;mi&gt;A&lt;/mi&gt;
+          &lt;/mrow&gt;
+        &lt;/mfrac&gt;
+      &lt;/mrow&gt;
+    &lt;/mfenced&gt;
+    &lt;mo&gt;&amp;#xD7;&lt;/mo&gt;
+    &lt;mn&gt;100&lt;/mn&gt;
+  &lt;/math&gt;&lt;/p&gt;
 			</language>
 			<language lang="es"/>
 			<language lang="fr"/>

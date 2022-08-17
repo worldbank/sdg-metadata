@@ -8,17 +8,14 @@
 			<language lang="en">&lt;p&gt;&lt;strong&gt;&amp;#x2022; At country level &lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;u&gt;Aviation data are broadly complete.&lt;/u&gt;&lt;/p&gt;
 &lt;p&gt;&lt;u&gt;For inland transport statistics:&lt;/u&gt; In case of missing data for a country for which at least one data point is available since 2000, we calculate estimates based on the expected growth rate for the country. The growth rates are computed from other socio-economic variables, such as Gross Domestic Product (GDP), population or urbanization.&lt;/p&gt;
-&lt;p&gt;For non-ITF/UNECE countries, data points are estimated using the ITF model, which uses several covariates such as GDP, population, transport network coverage&amp;#x2026; A description of the model can be found in the ITF Transport Outlook 2017.&lt;/p&gt;
+&lt;p&gt;&lt;u&gt;For road, rail, and inland waterways:&lt;/u&gt; For non-ITF/UNECE countries, countries that did not submit a response, or when there is uncertainty regarding the provided data, data points are estimated using the ITF models, which use several covariates such as GDP, population, transport network coverage and more. Currently there are four global models used for this analysis: the urban passenger model, the non-urban passenger model, the international freight model and the urban freight model. A description of the four models can be found in the ITF Transport Outlook 2021 or in the following resources.&lt;/p&gt;
 &lt;ul&gt;
-  &lt;li&gt;ITF (2017) ITF Transport Outlook 2017, OECD Publishing &lt;/li&gt;
+  &lt;li&gt;ITF (2021) ITF Transport Outlook 2021, OECD Publishing &lt;/li&gt;
+  &lt;li&gt;ITF (2020) Decarbonising Transport in Europe, Project webpage&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;This model also uses several other data sources to make the calibration more robust in regions where ITF data does not have a good coverage.&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;International Union of Railways (2015) Railway Statistics &amp;#x2013; 2015 synopsis, UIC&lt;/li&gt;
-  &lt;li&gt;International Road Federation (2011) ITF World Road Statistics, IRF&lt;/li&gt;
-  &lt;li&gt;De Bod, A., &amp;amp; Havenga, J. (2010). Sub-Saharan Africa&amp;#x2019;s rail freight transport system: Potential impact of densification on cost. Journal of Transport and Supply Chain Management, Vol. 4, pp. 89-101&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;&amp;#x2022; At regional and global levels&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Maritime:&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;International maritime freight: In case of missing data for a country or a sub-region for which a data point is available since 2006, UNCTAD makes an estimate based on the expected growth rate of the volume of merchandise trade. If not available, use is made of the latest year for which data was available.&lt;/p&gt;
+&lt;p&gt;Container port traffic: In case of missing data, UNCTAD makes an estimate by extrapolating from the liner shipping connectivity and ship capacity deployment data, which has shown to be highly correlated with container port traffic. Container ship deployment data are available for all container ships of the world, which thus allows for estimates on container port traffic to be generated even if no national data is available. In other cases, UNCTAD makes an estimate based on the expected growth rate of the volume of merchandise trade.&lt;/p&gt;
 			</language>
 			<language lang="es">&lt;h2&gt;Tratamiento de valores faltantes:&lt;/h2&gt;
 &lt;ul&gt;

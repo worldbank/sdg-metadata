@@ -3,11 +3,14 @@
 	<status>success</status>
 	<message>The REG_AGG field for indicator 8-9-1, translated into en</message>
 	<data>&lt;p&gt;Aggregates are computed for the SDG regions and at the global level. &lt;/p&gt;
-&lt;p&gt;For every year, estimates for countries are computed as follows:&lt;/p&gt;
+&lt;p&gt;For every year, estimates for countries with missing data are computed as follows:&lt;/p&gt;
 &lt;ul&gt;
-  &lt;li&gt;&lt;em&gt;For countries without any reported data&lt;/em&gt;&lt;br&gt;A multivariate linear regression model based on the number of hotel rooms in the country and the inbound tourism expenditure (both available via UNWTO&amp;#xB4;s statistical database) as explanatory variables is used.&lt;/li&gt;
-  &lt;li&gt;&lt;em&gt;For countries with reported data for years other than the year of reference&lt;/em&gt;&lt;br&gt;A simple linear model based on inbound tourism expenditure as explanatory variable is used to estimate the nominal percent change in TDGDP. These values are used to retro- and extrapolate the values reported by the country, using these as benchmark. For reference years between years with reported data, a linear trend between reported years is used. &lt;/li&gt;
-  &lt;li&gt;&lt;em&gt;Special cases&lt;br&gt;&lt;/em&gt;Some data reported by countries that do not correspond to Tourism Direct GDP or GVA and are therefore not published, can still be used in the calculation of aggregates. &lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;For countries without any reported data&lt;/em&gt;&lt;br&gt;A multivariate linear regression model is used with as explanatory variables the number of hotel rooms in the country and inbound tourism expenditure (computed from Balance of Payments data provided by the International Monetary Fund (IMF)), both available via UNWTO&amp;#xB4;s statistical database.&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;For countries with reported data for years other than the year of reference&lt;/em&gt;&lt;br&gt;A simple linear model based on inbound tourism expenditure (computed from the IMF Balance of Payments data) as explanatory variable is used to estimate the nominal percentage change in TDGDP. These values are used to retro- and extrapolate the values reported by the country, using these as benchmark. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;For reference years between years with reported data, a linear trend between reported years is used. &lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;em&gt;Special cases&lt;br&gt;&lt;/em&gt;Some data reported by countries that do not correspond to Tourism Direct GDP or GVA and are therefore not published, may still be used in the calculation of aggregates. &lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;For each year, countries without reported data for which the methodology yields negative estimates or for which no data to feed the linear models are available are discarded. Regional (and global) aggregates are then obtained by computing weighted averages of TDGDP, using total GDP as the weight, for countries within the region of interest for which data or estimates are available. &lt;/p&gt;
 &lt;p&gt;GDP coverage for each aggregate is obtained by calculating the percentage of total regional GDP that is represented by countries for which data is reported or for which an estimate is available. If this coverage is relatively low (below 60 percent), estimates are published with a cautionary footnote. &lt;/p&gt;</data>

@@ -5,35 +5,22 @@
 	<data>
 		<languages>
 			<language lang="ar"/>
-			<language lang="en">&lt;p&gt; Attributable mortality is calculated by first combining information on the increased (or relative) risk of a disease resulting from exposure, with information on how widespread the exposure is in the population (e.g. the annual mean concentration of particulate matter to which the population is exposed, proportion of population relying primarily on polluting fuels for cooking). &lt;/p&gt;
-&lt;p&gt; &lt;/p&gt;
-&lt;p&gt;This allows calculation of the &amp;apos;population attributable fraction&amp;apos; (PAF), which is the fraction of disease seen in a given population that can be attributed to the exposure (e.g in that case of both the annual mean concentration of particulate matter and exposure to polluting fuels for cooking). &lt;/p&gt;
-&lt;p&gt; &lt;/p&gt;
-&lt;p&gt;Applying this fraction to the total burden of disease (e.g. cardiopulmonary disease expressed as deaths), gives the total number of deaths that results from exposure to that particular risk factor (in the example given above, to ambient and household air pollution). &lt;/p&gt;
-&lt;p&gt; &lt;/p&gt;
-&lt;p&gt;To estimate the combined effects of risk factors, a joint population attributable fraction is calculated, as described in Ezzati et al (2003). &lt;/p&gt;
-&lt;p&gt; &lt;/p&gt;
-&lt;p&gt;The mortality associated with household and ambient air pollution was estimated based on the calculation of the joint population attributable fractions assuming independently distributed exposures and independent hazards as described in (Ezzati et al, 2003). &lt;/p&gt;
-&lt;p&gt; &lt;/p&gt;
-&lt;p&gt;The joint population attributable fraction (PAF) were calculated using the following formula: &lt;/p&gt;
-&lt;p&gt;PAF=1-PRODUCT (1-PAFi) &lt;/p&gt;
-&lt;p&gt;where PAFi is PAF of individual risk factors. &lt;/p&gt;
-&lt;p&gt; &lt;/p&gt;
-&lt;p&gt;The PAF for ambient air pollution and the PAF for household air pollution were assessed separately, based on the Comparative Risk Assessment (Ezzati et al, 2002) and expert groups for the Global Burden of Disease (GBD) 2010 study (Lim et al, 2012; Smith et al, 2014). &lt;/p&gt;
-&lt;p&gt; &lt;/p&gt;
-&lt;p&gt;For exposure to ambient air pollution, annual mean estimates of particulate matter of a diameter of less than 2.5 um (PM25) were modelled as described in (WHO 2016, forthcoming), or for Indicator 11.6.2. &lt;/p&gt;
-&lt;p&gt; &lt;/p&gt;
-&lt;p&gt;For exposure to household air pollution, the proportion of population with primary reliance on polluting fuels use for cooking was modelled (see Indicator 7.1.2 [polluting fuels use=1-clean fuels use]). Details on the model are published in (Bonjour et al, 2013). &lt;/p&gt;
-&lt;p&gt; &lt;/p&gt;
-&lt;p&gt;The integrated exposure-response functions (IER) developed for the GBD 2010 (Burnett et al, 2014) and further updated for the GBD 2013 study (Forouzanfar et al, 2015) were used. &lt;/p&gt;
-&lt;p&gt; &lt;/p&gt;
-&lt;p&gt;The percentage of the population exposed to a specific risk factor (here ambient air pollution, i.e. PM2.5) was provided by country and by increment of 1 ug/m3; relative risks were calculated for each PM2.5 increment, based on the IER. The counterfactual concentration was selected to be between 5.6 and 8.8 ug/m3, as described elsewhere (Ezzati et al, 2002; Lim et al, 2012). The country population attributable fraction for ALRI, COPD, IHD, stroke and lung cancer were calculated using the following formula : &lt;/p&gt;
-&lt;p&gt; &lt;/p&gt;
-&lt;p&gt;PAF=SUM(Pi(RR-1)/(SUM(RR-1)+1) &lt;/p&gt;
-&lt;p&gt; &lt;/p&gt;
-&lt;p&gt;where i is the level of PM2.5 in ug/m3, and Pi is the percentage of the population exposed to that level of air pollution, and RR is the relative risk. &lt;/p&gt;
-&lt;p&gt; &lt;/p&gt;
-&lt;p&gt;The calculations for household air pollution are similar, and are explained in detailed elsewhere (WHO 2014a). &lt;/p&gt;
+			<language lang="en">&lt;p&gt;Attributable mortality is calculated by first combining information on the increased (or relative) risk of a disease resulting from exposure, with information on how widespread the exposure is in the population (e.g. the annual mean concentration of particulate matter to which the population is exposed, proportion of population relying primarily on polluting fuels for cooking).&lt;/p&gt;
+&lt;p&gt;This allows calculation of the &amp;apos;population attributable fraction&amp;apos; (PAF), which is the fraction of disease seen in a given population that can be attributed to the exposure (e.g in that case of both the annual mean concentration of particulate matter and exposure to polluting fuels for cooking).&lt;/p&gt;
+&lt;p&gt;Applying this fraction to the total burden of disease (e.g. cardiopulmonary disease expressed as deaths), gives the total number of deaths that results from exposure to that particular risk factor (in the example given above, to ambient and household air pollution).&lt;/p&gt;
+&lt;p&gt;To estimate the combined effects of risk factors, a joint population attributable fraction is calculated, as described in Ezzati et al (2003).&lt;/p&gt;
+&lt;p&gt;The mortality associated with household and ambient air pollution was estimated based on the calculation of the joint population attributable fractions assuming independently distributed exposures and independent hazards as described in (Ezzati et al, 2003).&lt;/p&gt;
+&lt;p&gt;The joint population attributable fraction (PAF) were calculated using the following formula:&lt;/p&gt;
+&lt;p&gt;PAF=1-PRODUCT (1-PAFi)&lt;/p&gt;
+&lt;p&gt;Where PAFi is PAF of individual risk factors.&lt;/p&gt;
+&lt;p&gt;The PAF for ambient air pollution and the PAF for household air pollution were assessed separately, based on the Comparative Risk Assessment (Ezzati et al, 2002) and expert groups for the Global Burden of Disease (GBD) 2010 study (Lim et al, 2012; Smith et al, 2014).&lt;/p&gt;
+&lt;p&gt;For exposure to ambient air pollution, annual mean estimates of particulate matter of a diameter of less than 2.5 um (PM25) were modelled as described in (WHO 2016, forthcoming), or for Indicator 11.6.2.&lt;/p&gt;
+&lt;p&gt;For exposure to household air pollution, the proportion of population with primary reliance on polluting fuels use for cooking was modelled (see Indicator 7.1.2 [polluting fuels use=1-clean fuels use]). Details on the model are published in (Bonjour et al, 2013).&lt;/p&gt;
+&lt;p&gt;The integrated exposure-response functions (IER) developed for the GBD 2010 and 2013 (Burnett et al, 2014 and Forouzanfar et al, 2015) were used. These IERs were updated using the most recent epidemiological evidence identified through a systematic search of studies on particulate matter and mortality for the five outcomes of interest.&lt;/p&gt;
+&lt;p&gt;The percentage of the population exposed to a specific risk factor (here ambient air pollution, i.e. PM2.5) was provided by country and by increment of 1 &amp;#xB5;g/m3; relative risks were calculated for each PM2.5 increment, based on the IER. The counterfactual concentration was selected to be between 2.4 and 5.9 &amp;#xB5;g/m3, as described elsewhere ( Cohen et al, 2017). The country population attributable fraction for ALRI, COPD, IHD, stroke and lung cancer were calculated using the following formula : &lt;/p&gt;
+&lt;p&gt;PAF=SUM(Pi(RR-1)/(SUM(RR-1)+1)&lt;/p&gt;
+&lt;p&gt;Where i is the level of PM2.5 in ug/m3, and Pi is the percentage of the population exposed to that level of air pollution, and RR is the relative risk.&lt;/p&gt;
+&lt;p&gt;The calculations for household air pollution are similar, and are explained in detailed elsewhere (WHO 2014a).&lt;/p&gt;
 			</language>
 			<language lang="es">&lt;h1&gt;Metodología&lt;/h1&gt;
 &lt;h2&gt;Método de cálculo:&lt;/h2&gt;
