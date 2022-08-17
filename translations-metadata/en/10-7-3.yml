@@ -6,7 +6,7 @@ SDG_TARGET: >-
 SDG_INDICATOR: >-
   <p>Indicator 10.7.3: Number of people who died or disappeared in the process
   of migration towards an international destination</p>
-META_LAST_UPDATE: <p>2021-12-06</p>
+META_LAST_UPDATE: '2022-08-12'
 SDG_RELATED_INDICATORS: >-
   <p>Indicator 10.7.2 is complementary to several related SDGs indicators. These
   include, but are not limited to: </p>
@@ -28,7 +28,7 @@ STAT_CONC_DEF: >-
   <p><strong>Definitions:</strong></p>
 
   <p>10.7.3 data are currently based on the International Organization for
-  Migration (IOM)&#x2019;s Missing Migrants Project (MMP), which since 20214 has
+  Migration (IOM)&#x2019;s Missing Migrants Project (MMP), which since 2014 has
   documented incidents in which migrants (regardless of legal status) have died
   or are presumed to have died in the process of migration towards an
   international destination. This selection of data is based on the currently
@@ -415,9 +415,9 @@ REC_USE_LIM: >-
   when asked whether they are aware of a death or disappearance. Data from
   surveys are similarly invaluable due to the dearth of data on this topic, but
   are not representative as they typically capture only a small fraction of the
-  total number of people on the move who may have witnessed a death. .
-  Similarly, media reports often provide information on migrant deaths that are
-  not available from official sources, but may offer limited or even conflicting
+  total number of people on the move who may have witnessed a death. Similarly,
+  media reports often provide information on migrant deaths that are not
+  available from official sources, but may offer limited or even conflicting
   information, especially as the investigation and identification of bodies may
   occur after an initial report. As no State currently produces national-level
   data on deaths during migration (neither within their own territory nor of
@@ -488,7 +488,7 @@ DOC_METHOD: <p>IOM guidance for countries on 10.7.3 will be published in 2022</p
 QUALITY_MGMNT: >-
   <p>MMP data are managed a team of experts based at IOM&#x2019;s Global
   Migration Data Centre. Data cleaning is undertaken at least once annually.
-  Incidents recorded in the MMP database are generally quite timely; however
+  Incidents recorded in the MMP database are generally quite timely; however,
   given the dearth of official information on deaths during migration the
   database as a whole is both highly incomplete and individual records often
   have low accuracy, especially in terms of the identities of those who die
@@ -567,7 +567,7 @@ COVERAGE: >-
       </tr>
       <tr>
         <td>
-          <p><strong>Incident</strong> ID</p>
+          <p>Incident ID</p>
         </td>
         <td>
           <p>An automatically generated number used to identify each unique entry in the dataset.</p>
@@ -610,12 +610,12 @@ COVERAGE: >-
           <p>Number dead</p>
         </td>
         <td>
-          <p>The total number of people confirmed dead in one<strong> </strong>incident, i.e. the number of bodies recovered. If migrants are missing and presumed dead, such as in cases of shipwrecks, it is left blank.</p>
+          <p>The total number of people confirmed dead in one incident, i.e. the number of bodies recovered. If migrants are missing and presumed dead, such as in cases of shipwrecks, it is left blank.</p>
         </td>
       </tr>
       <tr>
         <td>
-          <p>Number missing<strong> </strong></p>
+          <p>Number missing </p>
         </td>
         <td>
           <p>The total number of those who are missing and are thus assumed to be dead. This variable is generally recorded in incidents involving shipwrecks. The number of missing is calculated by subtracting the number of bodies recovered from a shipwreck and the number of survivors from the total number of migrants reported to have been on the boat. This number may be reported by surviving migrants or witnesses. If no missing persons are reported, it is left blank.</p>
@@ -671,7 +671,7 @@ COVERAGE: >-
       </tr>
       <tr>
         <td>
-          <p><strong>Name</strong></p>
+          <p>Name</p>
         </td>
         <td>
           <p>The name of the decedent(s). If unknown, it is left blank. Not available in the public dataset. </p>
@@ -735,7 +735,7 @@ COVERAGE: >-
       </tr>
       <tr>
         <td>
-          <p><strong>Information source</strong></p>
+          <p>Information source</p>
         </td>
         <td>
           <p>Name of source of information for each incident. Multiple sources may be listed.</p>
@@ -743,7 +743,7 @@ COVERAGE: >-
       </tr>
       <tr>
         <td>
-          <p><strong>Link</strong></p>
+          <p>Link</p>
         </td>
         <td>
           <p>Links to original reports of migrant deaths / disappearances if available. Multiple links may be listed.</p>
