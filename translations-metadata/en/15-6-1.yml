@@ -29,10 +29,10 @@ SDG_SERIES_DESCR: >-
 
   <p>Total reported number of Standard Material Transfer Agreements (SMTAs)
   transferring plant genetic resources for food and agriculture to the country
-  (number) ER_CBD_SMTA</p>
-META_LAST_UPDATE: '2022-03-31'
+  (number) <strong>ER_CBD_SMTA</strong></p>
+META_LAST_UPDATE: '2022-04-12'
 SDG_RELATED_INDICATORS: >-
-  <p>Not applicable</p>
+  <p>Not applicable. </p>
 
   <p>An indicator on numbers of permits and numbers of Material Transfer
   Agreements issued would provide complementary information.</p>
@@ -82,22 +82,24 @@ STAT_CONC_DEF: >-
   receive material under the Multilateral System. </p>
 UNIT_MEASURE: >-
   <p>For data series ER CBD PTYPGRFA, ER CBD NAGOYA, ER CBD ORSPGRFA, CBD
-  ABSCLRHS the unit of measurement is number of countries.</p>
+  ABSCLRHS the unit of measurement is a binary measure (1 = YES; 0 = NO).</p>
 
   <p>For data series ER CBD SMTA the unit of measurement is number of Standard
   Material Transfer Agreements (SMTAs). The total number of SMTAs transferring
   plant genetic resources for food and agriculture to the country is a
   cumulative figure.</p>
+CLASS_SYSTEM: <p>Not applicable.</p>
 SOURCE_TYPE: >-
-  <p>The Access and Benefit-sharing Clearing-House home page: <a
-  href="http://absch.cbd.int"><u>http://absch.cbd.int</u></a></p>
+  <p>The Access and Benefit-sharing Clearing-House Country Profiles:
+  https://absch.cbd.int/en/countries</p>
 
   <p>The Online Reporting System on Compliance of the International Treaty on
   PGRFA, <a
   href="http://www.fao.org/plant-treaty/areas-of-work/compliance/compliance-reports/en/">http://www.fao.org/plant-treaty/areas-of-work/compliance/compliance-reports/en/</a>
   </p>
 
-  <p>Easy-SMTA, https://mls.planttreaty.org</p>
+  <p>Easy-SMTA, <a
+  href="https://mls.planttreaty.org">https://mls.planttreaty.org</a> </p>
 COLL_METHOD: >-
   <p>Data is collected from the existing online platforms of the two instruments
   (see 3.a above). </p>
@@ -126,13 +128,16 @@ REL_CAL_POLICY: >-
   <p>Data for the Nagoya Protocol and International Treaty is compiled and
   provided as of 15 February every year, to meet the SDGs annual reporting
   requirement.</p>
-
-  <p>3.e. Data providersPublishing authorities for the ABS Clearing-House as
-  designated by the CBD national focal points or the ABS focal points.
-  Publishing authorities for the Online Reporting System on compliance of the
-  International Treaty on PGRFA are the officially nominated national focal
-  points or nominated reporting authorities.</p>
-COMPILING_ORG: <p>CBD and International Treaty Secretariats.</p>
+DATA_SOURCE: >-
+  <p>Publishing authorities for the ABS Clearing-House as designated by the CBD
+  national focal points or the ABS focal points. Publishing authorities for the
+  Online Reporting System on compliance of the International Treaty on PGRFA are
+  the officially nominated national focal points or nominated reporting
+  authorities.</p>
+COMPILING_ORG: >-
+  <p>Secretariat of the Convention on Biological Diversity and Secretariat of
+  the International Treaty on Plant Genetic Resources for Food and
+  Agriculture.</p>
 INST_MANDATE: >-
   <p>The ABS Clearing-House is a platform for exchanging information on access
   and benefit-sharing established by Article 14 of the Protocol, The ABS
@@ -232,6 +237,19 @@ RATIONALE: >-
   Clearing-House and through the Online Reporting System on Compliance of the
   International Treaty in relation to plant genetic resources for food and
   agriculture. </p>
+
+  <p><u>The indicator consists of 4 sub-indicators: </u></p>
+
+  <ul>
+    <li>Countries that are Contracting Parties to the International Treaty on Plant Genetic Resources for Food and Agriculture;</li>
+    <li>Countries that are Parties to the Nagoya Protocol to the Convention on Biological Diversity;</li>
+    <li>Countries that have legislative, administrative and policy measures reported through the Online Reporting System on Compliance of the International Treaty on Plant Genetic Resources for Food and Agriculture;</li>
+    <li>Countries that have legislative, administrative or policy measures reported to the Access and Benefit-Sharing Clearing-House of the Secretariat of the Convention on Biological Diversity;</li>
+  </ul>
+
+  <p>An additional sub-indicator provides complementary information on the
+  number, by country, of Standard Material Transfer Agreements (SMTAs)
+  transfering plant genetic resources for food and agriculture.</p>
 REC_USE_LIM: >-
   <p>This indicator can be used to measure progress in adopting ABS legislative,
   administrative and policy frameworks over time.</p>
@@ -249,23 +267,52 @@ REC_USE_LIM: >-
   on Compliance of the International Treaty in relation to plant genetic
   resources for food and agriculture.</p>
 DATA_COMP: >-
-  <p>Summation of information made available by each Party to the Convention on
-  Biological Diversity and to the International Treaty related to:</p>
+  <p>For CBD ABSCLRHS, the indicator is calculated based on national information
+  made available to the Access and Benefit-sharing Clearing-House. If a country
+  has published at least one legislative, administrative or policy measure to
+  ensure fair and equitable benefit-sharing, the data compilers will indicate 1
+  (1=YES). For ER_CBD_ORSPGRFA, the method of computation is the same but is
+  calculated based on information from national reports submitted to the
+  Secretariat of the International Treaty on PGRFA.</p>
+
+  <p><br>For ER_CBD_NAGOYA and ER_CBD_PTYPGRFA, the indicator is calculated
+  based on the status of ratifications to the Nagoya Protocol and the
+  International Treaty on PGRFA, respectively. If a country has
+  ratified/acceded/accepted the respective treaty, the data compilers will
+  indicate 1 (1=YES). </p>
+
+  <p>For ER_CBD_SMTA (complementary sub-indicator), the indicator is calculated
+  based on information generated through the Easy-SMTA platform. The data is the
+  number of SMTA reported through the online system of Easy-SMTA for each
+  country. SMTA is a mandatory contract that Contracting Parties of the
+  International Treaty have agreed to use whenever plant genetic resources
+  falling under the Multilateral System are made available through transfer.</p>
+DATA_VALIDATION: >-
+  <p>The sub-indicator data may be validated independently by consulting the
+  following websites:</p>
 
   <ul>
-    <li>ABS legislative, administrative or policy measures made available to the ABS Clearing-House and to the Online Reporting System on Compliance of the International Treaty in relation to plant genetic resources for food and agriculture (y/n); </li>
+    <li>ER_CBD_PTYPGRFA: Website of the International Treaty on PGRFA (http://www.fao.org/plant-treaty/countries/membership/en/)</li>
+    <li>ER_CBD_NAGOYA: United Nations Treaty Collection (<a href="https://treaties.un.org/Pages/ViewDetails.aspx?src=TREATY&amp;mtdsg_no=XXVII-8-b&amp;chapter=27">https://treaties.un.org/Pages/ViewDetails.aspx?src=TREATY&amp;mtdsg_no=XXVII-8-b&amp;chapter=27</a>) </li>
+    <li>CBD ABSCLRHS: Access and Benefit-Sharing Clearing-House Country Profiles (<a href="https://absch.cbd.int/countries">https://absch.cbd.int/countries</a>) </li>
+    <li>ER_CBD_ORSPGRFA: National Reports of the International Treaty (<a href="http://www.fao.org/plant-treaty/areas-of-work/compliance/compliance-reports/en/">http://www.fao.org/plant-treaty/areas-of-work/compliance/compliance-reports/en/</a>) </li>
+    <li>ER_CBD_SMTA: Easy-SMTA (<a href="https://mls.planttreaty.org">https://mls.planttreaty.org</a>) </li>
   </ul>
-DATA_VALIDATION: >-
-  <p>https://absch.cbd.int/countries</p>
 
-  <p>Contracting Parties of the International Treaty:
-  http://www.fao.org/plant-treaty/countries/membership/en/</p>
+  <p>As these sub-indicators are based on nationally reported information, there
+  is no additional consultation or validation process in place with national
+  focal points or authorities.</p>
+ADJUSTMENT: >-
+  <p>For CBD ABSCLRHS and ER_CBD_NAGOYA, and ER_CBD_PTYPGRFA and
+  ER_CBD_ORSPGRFA, there is a need for the data compilers to subtract the
+  European Union from regional and global aggregations. The European Union is a
+  Party to the Nagoya Protocol and the International Treaty, but is not counted
+  as a country for these indicators.</p>
 
-  <p>National Reports of the International Treaty:
-  http://www.fao.org/plant-treaty/areas-of-work/compliance/compliance-reports/en/</p>
-
-  <p>Standard Material Transfer Agreement (SMTA):
-  https://mls.planttreaty.org</p>
+  <p>For ER_CBD_SMTA, the SMTA is a private contract, therefore it is reported
+  by users, not by a government focal point. Users have also a two-year period
+  for reporting their SMTAs, and therefore the number reported for a specific
+  year would be fixed in two years (may also change during the two years). </p>
 IMPUTATION: >-
   <p><strong>&#x2022; At country level</strong></p>
 
@@ -273,33 +320,54 @@ IMPUTATION: >-
   through the online system of the International Treaty (Easy-SMTA) for each
   country, while the actual number of SMTA issued (signed) could be higher, as
   all SMTAs signed may not be reported through the online system and therefore
-  not recorded. The SMTA is a private contract, therefore it is reported by
-  users, not by a government focal point. Users have also a two-year period for
-  reporting their SMTAs, and therefore the number reported for a specific year
-  would be fixed in two years (may also change during the two years). </p>
+  not recorded. </p>
 
   <p><strong>&#x2022; At regional and global levels</strong></p>
+REG_AGG: >-
+  <p>For CBD ABSCLRHS and ER_CBD_NAGOYA, regional aggregations can be generated
+  using the appropriate filters on the Access and Benefit-sharing Clearing-House
+  Country Profiles page. These filters follow UN regional groupings.
+  ER_CBD_PTYPGRFA, ER_CBD_ORSPGRFA and ER_CBD_SMTA, regionally aggregated data
+  are provided every year as required by the UN SDG indicator reporting. </p>
+DOC_METHOD: >-
+  <p>The Nagoya Protocol requires its Parties to make certain types of
+  information available to the Access and Benefit-sharing Clearing-House,
+  including information on legislative, administrative or policy measures in
+  place on access and benefit-sharing. Further information on this requirement
+  and on steps to publish information on the Clearing-House is available at: <a
+  href="https://absch.cbd.int/en/kb/tags/getting-started/Getting-started-using-the-ABS-Clearing-House-for-Governments/5bbe211fb899670001de9bb9">https://absch.cbd.int/en/kb/tags/getting-started/Getting-started-using-the-ABS-Clearing-House-for-Governments/5bbe211fb899670001de9bb9</a>.
+  </p>
+
+  <p>The International Treaty has the Procedures to promote compliance and
+  address issues of non-compliance. Under the monitoring and reporting in the
+  Procedures, each Contracting Party is requested to submit a report on the
+  measures it has taken to implement its obligations under the International
+  Treaty, including the access and benefit-sharing measures. Contracting Parties
+  report using an agreed standard format and through the Online Reporting System
+  on Compliance. The below link on the website of the International Treaty
+  provides the relevant information on how to report under the Compliance
+  Procedures. </p>
+
+  <p>https://www.fao.org/plant-treaty/areas-of-work/compliance/howtoreport/en/</p>
+QUALITY_MGMNT: >-
+  <p>Regular maintenance and updating of the online platforms hosted by the
+  Secretariats of the CBD and of the International Treaty on PGRFA.</p>
 COVERAGE: >-
-  <p><strong>Data availability:</strong></p>
+  <p>For CBD data series, data are available for 196 Parties (195 countries plus
+  the European Union) to the Convention on Biological Diversity. For CBD
+  ABSCLRHS, availability of data is dependent on countries making information on
+  their legislative, administrative or policy measures available to the ABS
+  Clearing-House. As the ABS Clearing-House was established in October 2014,
+  data are available for the 2015 calendar year thereon. Only regional
+  aggregations are available.</p>
 
-  <p>For 196 Parties to the Convention on Biological Diversity.</p>
-
-  <p>Availability of data is dependent on countries making the information on
-  ABS legislative, administrative or and policy measures available to the ABS
-  Clearing-House. </p>
-
-  <p>For 148 Contracting Parties that have ratified, accepted, approved or
-  acceded to the International Treaty on Plant Genetic Resources for Food and
-  Agriculture.</p>
-
-  <p><strong>Time series:</strong></p>
-
-  <p><strong>Disaggregation:</strong></p>
-
-  <p>Data are provided by countries (or regional integration entities), and can
-  be displayed by country, regional group, membership to a specific regional
-  organization, and/or by their status as Parties or non-Parties to the Protocol
-  and to the International Treaty.</p>
+  <p>For International Treaty, data are available for 148 Contracting Parties
+  (147 countries plus the European Union) that have ratified, accepted, approved
+  or acceded to the International Treaty on Plant Genetic Resources for Food and
+  Agriculture. For ER_CBD_ORSPGRFA, availability of data is dependent on
+  countries providing information on their legislative, administrative or policy
+  measures in their national report submitted under the Compliance
+  Procedures.</p>
 COMPARABILITY: >-
   <p><strong>Sources of discrepancies:</strong></p>
 
@@ -311,17 +379,16 @@ COMPARABILITY: >-
   <p>In addition to the information made available by countries to the ABS
   Clearing-House, the CBD Secretariat collects information from other sources:
   national biodiversity strategies and actions plans, national reports submitted
-  under the CBD, the interim national reports on the implementation of the
-  Nagoya Protocol (due in 2017) and official communications to the SCBD
-  (responses to notifications, email communications, etc.). The information
-  collected from these sources inform the Secretariat&#x2019;s inputs to other
-  processes under the Protocol, in particular the consideration by the
-  Conference of the Parties serving as the meeting of the Parties to the
-  Protocol (COP-MOP) of national reports (Article 29) and assessment and review
-  (Article 31). The resulting information on the number of countries with ABS
-  legislative, administrative or and policy measures may differ from the number
-  of countries that have made available this information in the ABS
-  Clearing-House. </p>
+  under the CBD, national reports on the implementation of the Nagoya
+  Protocol,and official communications to the SCBD (responses to notifications,
+  email communications, etc.). The information collected from these sources
+  inform the Secretariat&#x2019;s inputs to other processes under the Protocol,
+  in particular the consideration by the Conference of the Parties serving as
+  the meeting of the Parties to the Protocol (COP-MOP) of national reports
+  (Article 29) and assessment and review (Article 31). The resulting information
+  on the number of countries with ABS legislative, administrative or and policy
+  measures may differ from the number of countries that have made available this
+  information in the ABS Clearing-House. </p>
 
   <p> </p>
 
@@ -342,8 +409,7 @@ OTHER_DOC: >-
   href="http://absch.cbd.int"><u>http://absch.cbd.int</u></a> </p>
 
   <p>International Treaty on Plant Genetic Resources for Food and Agriculture,
-  <a
-  href="https://www.fao.org/plant-treaty/en/">https://www.fao.org/plant-treaty/en/</a></p>
+  https://www.fao.org/plant-treaty/en/</p>
 
   <p>Data Store of the International Treaty on PGRFA, Easy-SMTA, <a
   href="https://mls.planttreaty.org"><u>https://mls.planttreaty.org</u></a></p>

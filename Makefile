@@ -34,3 +34,6 @@ serve: build.site
 
 test:
 	npm test
+
+harvest:
+	node scripts/harvest-indicators.js

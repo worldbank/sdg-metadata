@@ -4,15 +4,19 @@ SDG_TARGET: >-
   markets and institutions and strengthen the implementation of such
   regulations</p>
 SDG_INDICATOR: '<p>Indicator 10.5.1: Financial Soundness Indicators</p>'
-META_LAST_UPDATE: <p>2018-12-03</p>
+META_LAST_UPDATE: '2022-04-12'
 SDG_RELATED_INDICATORS: >-
   <p>Linkages with any other Goals and Targets: Recommendation II.2 of G-20 Data
-  Gap Initiative &#x2013; 2 concerns FSIs. Its target is by 2021, G-20 economies
-  to report the seven FSIs expected from the Special Data Dissemination
-  Standards Plus (SDDS Plus) adherent economies on a quarterly frequency, with a
-  timeliness of one quarter. The seven SDG FSIs are the same as the FSIs under
-  SDDS, but with one exception under SDDS Plus, where resident real estate price
-  index is used instead of net open position in foreign exchange to capital.</p>
+  Gap Initiative &#x2013; 2 concerned FSIs. The G-20 economies were asked to
+  report the seven FSIs required from Special Data Dissemination Standards Plus
+  (SDDS Plus) adherent economies on a quarterly frequency, with a timeliness of
+  one quarter. These are the same FSIs as covered by this SDG Indicator 10.5.1
+  except that the SDG indicator includes the FSI net open position in foreign
+  exchange to capital instead of the residential real estate prices. The G-20
+  economies were also asked to voluntarily initiate regular collection of
+  Concentration and Distribution Measures, depending on the results of their
+  cost-benefit analysis and national priorities. The implementation of the two
+  FSI-related recommendations was concluded at end-2021.</p>
 SDG_CUSTODIAN_AGENCIES: <p>International Monetary Fund</p>
 CONTACT_ORGANISATION: <p>International Monetary Fund</p>
 STAT_CONC_DEF: >-
@@ -23,7 +27,7 @@ STAT_CONC_DEF: >-
 
   <p>1 - Regulatory Tier 1 capital to assets </p>
 
-  <p>2 - Regulatory Tier 1 capital to risk- weighted assets </p>
+  <p>2 - Regulatory Tier 1 capital to risk-weighted assets </p>
 
   <p>3 - Nonperforming loans net of provisions to capital </p>
 
@@ -35,125 +39,129 @@ STAT_CONC_DEF: >-
 
   <p>7 - Net open position in foreign exchange to capital </p>
 
-  <p><strong>Regulatory Tier 1 capital to assets</strong>: This is the ratio of
-  the core capital (Tier 1) to total (balance sheet) assets. </p>
+  <p><em>Regulatory Tier 1 capital to assets:</em> This is the ratio of the core
+  capital (Tier 1) to total (balance sheet) assets. For jurisdictions that have
+  implemented the Basel III leverage ratio, this indicator would be calculated
+  using Tier 1 capital as the numerator and the exposure measure as the
+  denominator, which comprises balance sheet assets, derivatives exposures,
+  securities financing transaction exposures, and off-balance-sheet items.</p>
 
   <p> </p>
 
-  <p><strong>Regulatory Tier 1 capital to risk- weighted assets</strong>: It is
-  calculated using total regulatory Tier 1 capital as the numerator and
-  risk-weighted assets as the denominator. The data for this FSI are compiled in
-  accordance with the guidelines of either Basel I, Basel II, or Basel III. </p>
+  <p><em>Regulatory Tier 1 capital to risk-weighted assets:</em> It is
+  calculated using regulatory Tier 1 capital as the numerator and risk-weighted
+  assets as the denominator. The data for this FSI are compiled in accordance
+  with the implemented Basel Accord (i.e., Basel I, Basel II, or Basel III).
+  </p>
 
   <p> </p>
 
-  <p><strong>Nonperforming loans net of provisions to capital</strong>: This FSI
-  is calculated by taking the value of nonperforming loans (NPLs) less the value
-  of specific loan loss provisions as the numerator and capital as the
-  denominator. Capital is measured as total regulatory capital. </p>
+  <p><em>Nonperforming loans net of provisions to capital:</em> This FSI is
+  calculated by taking the value of nonperforming loans (NPLs) less the value of
+  specific provisions for NPLs as the numerator and total regulatory capital as
+  the denominator. </p>
 
   <p> </p>
 
-  <p><strong>Nonperforming loans to total gross loans</strong>: This FSI is
-  calculated by using the value of NPLs as the numerator and the total value of
-  the loan portfolio (including NPLs, and before the deduction of specific loan-
-  loss provisions) as the denominator. </p>
+  <p><em>Nonperforming loans to total gross loans</em>: This FSI is calculated
+  by using the value of NPLs as the numerator and the total value of the loan
+  portfolio (including NPLs, and before the deduction of specific provisions for
+  NPLs) as the denominator. </p>
 
   <p> </p>
 
-  <p><strong>Return on assets</strong>: This FSI is calculated by dividing
-  annualized net income before extraordinary items and taxes (as recommended in
-  the FSI Guide) by the average value of total assets (financial and
+  <p><em>Return on assets</em>: This FSI is calculated by dividing annualized
+  net income before taxes by the average value of total assets (financial and
   nonfinancial) over the same period. </p>
 
   <p> </p>
 
-  <p><strong>Liquid assets to short-term liabilities</strong>: This FSI is
-  calculated by using the core measure of liquid assets as the numerator and
-  short-term liabilities as the denominator. The ratio can also be calculated by
-  taking the broad measure of liquid assets as the numerator. For jurisdictions
-  that have implemented Basel III, this indicator could be supplemented with the
-  liquidity coverage ratio.</p>
+  <p><em>Liquid assets to short-term liabilities</em>: This FSI is calculated by
+  using liquid assets as the numerator and short-term liabilities as the
+  denominator.The components of liquid assets are defined in the IMF&#x2019;s
+  <em>2019 FSIs Compilation Guide</em> (<em>2019 FSIs Guide</em>). </p>
 
   <p> </p>
 
-  <p><strong>Net open position in foreign exchange to capital</strong>: The net
-  open position in foreign exchange should be calculated based on the
-  recommendation of the Basel Committee for Banking Supervision (BCBS). Capital
-  should be total regulatory capital as net open position in foreign exchange is
-  a supervisory concept. </p>
+  <p><em>Net open position in foreign exchange to capital</em>: The net open
+  position in foreign exchange should be calculated based on the guidance in the
+  <em>2019 FSIs Guide</em>. Capital should be total regulatory capital as net
+  open position in foreign exchange is a supervisory concept. </p>
 
   <p><strong>Concepts:</strong></p>
 
-  <p><strong>Regulatory Tier 1 capital to assets</strong>: Regulatory Tier 1
-  capital is calculated based on Basel I, II, or III depending on
-  countries&#x2019; supervisory practices. Denominator is total balance sheet
-  (non-risk weighted) assets. </p>
+  <p><em>Regulatory Tier 1 capital to assets</em>: Regulatory Tier 1 capital is
+  calculated based on Basel I, II, or III depending on countries&#x2019;
+  supervisory practices. Denominator is total balance sheet (non-risk weighted)
+  assets. For jurisdictions that have implemented the Basel III leverage ratio,
+  the denominator also includes off-balance-sheet items.</p>
 
   <p> </p>
 
-  <p><strong>Regulatory Tier 1 capital to risk- weighted assets</strong>:
-  Regulatory Tier 1 capital is calculated based on Basel I, II, or III depending
-  on countries&#x2019; supervisory practices. Denominator is risk-weighted
-  assets also calculated based on Basel standards. </p>
+  <p><em>Regulatory Tier 1 capital to risk- weighted assets</em>: Regulatory
+  Tier 1 capital is calculated based on Basel I, II, or III depending on
+  countries&#x2019; supervisory practices. Denominator is risk-weighted assets
+  also calculated based on Basel standards. </p>
 
   <p> </p>
 
-  <p><strong>Nonperforming loans (NPLs) net of provisions to capital</strong>: A
-  loan is classified as NPL when payment of principal or interest is past due by
-  90 days or more, or evidence exists that a full or partial amount of a loan is
-  not going to be recovered. Only specific loan loss provisions are used in this
-  calculation and they refer charges against the value of specific loans. Data
-  exclude accrued interest in NPLs. Capital is measured as total regulatory
+  <p><em>Nonperforming loans (NPLs) net of provisions to capital:</em> A loan is
+  classified as NPL when payment of principal or interest is past due by 90 days
+  or more, or evidence exists that a full or partial amount of a loan is not
+  going to be recovered. Only specific provisions for NPLs are used in this
+  calculation and they refer to charges against the value of specific NPLs. Data
+  exclude accrued interest on NPLs. Capital is measured as total regulatory
   capital calculated based on Basel I, II, or III depending on countries&#x2019;
   supervisory practices.</p>
 
   <p> </p>
 
-  <p><strong>Nonperforming loans to total gross loans</strong>: A loan is
-  classified as NPL when payment of principal or interest is past due by 90 days
-  or more, or evidence exists that a full or partial amount of a loan is not
-  going to be recovered. The denominator is the total value of the loan
-  portfolio (including NPLs, and before the deduction of specific loan- loss
-  provisions). </p>
+  <p><em>Nonperforming loans to total gross loans</em>: A loan is classified as
+  NPL when payment of principal or interest is past due by 90 days or more, or
+  evidence exists that a full or partial amount of a loan is not going to be
+  recovered. The denominator is the total value of the loan portfolio (including
+  NPLs, and before the deduction of specific provisions for NPLs). </p>
 
   <p> </p>
 
-  <p><strong>Return on assets</strong>: The numerator is annualized net income
-  before extraordinary items and taxes. The denominator is the average value of
-  total assets (financial and nonfinancial) over the same period. </p>
+  <p><em>Return on assets:</em> The numerator is annualized net income before
+  taxes. The denominator is the average value of total assets (financial and
+  nonfinancial) over the same period. </p>
 
   <p> </p>
 
-  <p><strong>Liquid assets to short-term liabilities</strong>: Core measure of
-  liquid assets includes currency and deposits and other financial assets
-  available on demand or within three months. Broad measures equal core measure
-  plus securities traded in liquid markets that can be converted into cash with
-  minimal change in value. The denominator is short-term elements of debt
-  liabilities plus net (short-term) market value of financial derivatives
-  position. The latter is calculated as financial derivatives liability position
-  minus financial derivative asset position. Short-term refers to three months
-  and should be defined on a remaining maturity basis. If remaining maturity is
-  not available, original maturity can be used as an alternative.</p>
+  <p><em>Liquid assets to short-term liabilities:</em> Liquid assets include
+  currency and deposits and other financial assets available on demand or within
+  three months as well as securities traded in liquid markets that can be
+  converted into cash with minimal change in value. The denominator is
+  short-term elements of debt liabilities plus net market value of financial
+  derivatives position. The latter is calculated as financial derivatives
+  liability position minus financial derivative asset position. Short-term
+  refers to three months and should be defined on a remaining maturity basis. If
+  remaining maturity is not available, original maturity can be used as an
+  alternative. </p>
 
   <p> </p>
 
-  <p><strong>Net open position in foreign exchange to capital</strong>: The net
-  open position in foreign exchange equals the foreign-currency and
-  foreign-currency linked element of balance sheet assets and off-balance sheet
-  exposures minus the foreign-currency and foreign-currency linked element of
-  balance sheet liabilities and off-balance sheet exposures.
-  Foreign-currency-linked instruments refer to accounts denominated in national
-  currency, but their payments are linked to exchange rates, thus subject to
-  foreign exchange risk. The denominator is total regulatory capital as defined
+  <p><em>Net open position in foreign exchange to capital:</em> Net open
+  position should be calculated in accordance with the guidance in the <em>2019
+  FSIs Guide</em>. The denominator is total regulatory capital as defined
   above.</p>
+UNIT_MEASURE: >-
+  <p>Percent (%). Data in the sectoral financial statements and other memorandum
+  series used to calculate FSIs are in national currency. </p>
+CLASS_SYSTEM: >-
+  <p>Classification of financial positions by type of financial instruments and
+  by counterpart sector, and definition of financial corporations subsectors are
+  provided in the 2019 FSIs Guide. <a
+  href="http://data.imf.org/FSI"><u><br></u>http://data.imf.org/FSI</a>.</p>
 SOURCE_TYPE: >-
   <p>The common source data are data reported by banks for supervisory purposes.
-  They include balance sheet, income statement, and supervisory series (such as
+  They include balance sheet, income statement, and memorandum series (such as
   Tier 1 capital, Tier 2 capital, risk-weighted assets).</p>
 COLL_METHOD: >-
   <p>The national central banks or supervisory agencies collect these data for
-  supervisory purposes, and these data are used for FSI compilation. </p>
+  supervisory purposes, and these data are used for FSIs compilation. </p>
 FREQ_COLL: >-
   <p>There are no predetermined deadlines. Countries report new FSIs as soon as
   they are ready</p>
@@ -163,14 +171,13 @@ COMPILING_ORG: >-
   <p>The FSIs are compiled at national level, but not at region or global level.
   </p>
 RATIONALE: >-
-  <p><strong>Regulatory Tier 1 capital to assets</strong>: It is a more
-  stringent version of the leverage ratio and indicates the extent to which
-  assets are funded by other than own funds and is a measure of capital adequacy
-  of the deposit-taking sector. </p>
+  <p><strong>Regulatory Tier 1 capital to assets</strong>: It is a measure of
+  leverage indicating the extent to which assets are funded by other than own
+  funds.</p>
 
   <p> </p>
 
-  <p><strong>Regulatory Tier 1 capital to risk- weighted assets</strong>: It
+  <p><strong>Regulatory Tier 1 capital to risk-weighted assets</strong>: It
   measures the capital adequacy of deposit takers based on the core capital
   concept of the Basel Committee on Banking Supervision (BCBS). Capital adequacy
   and availability ultimately determine the degree of robustness of financial
@@ -181,7 +188,7 @@ RATIONALE: >-
   <p><strong>Nonperforming loans net of provisions to capital</strong>: This FSI
   is a capital adequacy ratio and is an important indicator of the capacity of
   bank capital to withstand losses from NPLs that are not covered by specific
-  loan loss provisions. </p>
+  provisions for NPLs. </p>
 
   <p> </p>
 
@@ -197,8 +204,8 @@ RATIONALE: >-
 
   <p> </p>
 
-  <p><strong>Liquid assets to short-term liabilities</strong>: It is a liquid
-  asset ratio and is intended to capture the liquidity mismatch of assets and
+  <p><strong>Liquid assets to short-term liabilities</strong>: It is a liquidity
+  ratio and is intended to capture the liquidity mismatch of assets and
   liabilities and provides an indication of the extent to which deposit takers
   can meet the short-term withdrawal of funds without facing liquidity problems.
   </p>
@@ -212,18 +219,23 @@ RATIONALE: >-
   assess the vulnerability to exchange rate movements.</p>
 REC_USE_LIM: >-
   <p>Data for most countries are reported on a monthly or quarterly basis; a few
-  countries report data on a semi-annual basis and with a lag of more than a
-  quarter. As of end-December 2018, there were 138 FSI reporters. Some
-  countries&#x2019; compilation practices deviate from the FSI Guide methodology
-  in certain areas and are documented in the FSI metadata also posted on the
-  IMF&#x2019;s FSI website. Reporting countries provide all or most core FSIs
-  and some encouraged FSIs that can be used to support the interpretation of
-  these seven SDG indicators. FSI data and metadata reported by countries are
-  available at http://data.imf.org/FSI.</p>
+  countries report some FSI data on a semi-annual or annual basis and with a lag
+  of more than a quarter. As of end-December 2021, there were more than 140 FSI
+  reporters. Some countries&#x2019; compilation practices deviate from the
+  <em>2019 FSIs Guide</em> methodology in certain areas and are documented in
+  the FSIs metadata also posted on the IMF&#x2019;s FSIs website. Reporting
+  countries provide all or most core FSIs and some encouraged FSIs that can be
+  used to support the interpretation of these seven SDG indicators. FSIs data
+  and metadata reported by countries are available at
+  http://data.imf.org/FSI.</p>
 DATA_COMP: >-
   <p>The calculation of the seven FSIs is detailed in section on
   &#x201C;Definition&#x201D; above. The common source data are data reported by
   banks to supervisory authorities, which are usually the FSI compilers.</p>
+DATA_VALIDATION: >-
+  <p>Country authorities validate data that they collect for bank supervision
+  and these data are used to compile FSIs.</p>
+ADJUSTMENT: <p>Data adjustments are not applicable to FSIs.</p>
 IMPUTATION: >-
   <p><strong>&#x2022;</strong> <strong>At country level</strong></p>
 
@@ -236,23 +248,31 @@ IMPUTATION: >-
 
   <p>The FSIs are not compiled at regional or global levels.</p>
 REG_AGG: <p>The FSIs are not aggregated at regional levels.</p>
-DOC_METHOD: '<p>The FSI Compilation Guide (206) available at http://data.imf.org/FSI.</p>'
+DOC_METHOD: '<p>The <em>2019 FSIs Guide</em> is available at http://data.imf.org/FSI.</p>'
+QUALITY_MGMNT: >-
+  <p>Country authorities are responsible for the quality of FSIs and underlying
+  data.</p>
 QUALITY_ASSURE: |-
   <ul>
-    <li>The common source data are data reported by banks for supervisory purposes. National supervisors check and validate the data that are used by national FSI compilers. IMF staff check the FSIs reported by countries before posting on the FSI website and address data issues in collaboration with the national compilers whenever such issues are flagged by the validation and consistency checks implemented in the IMF data processing system. </li>
+    <li>The common source data are data reported by banks for supervisory purposes. National supervisors check and validate the data that are used by national FSI compilers. IMF staff check data in the sectoral financial statements and memorandum series reported by countries and address data issues in collaboration with the national compilers whenever such issues are flagged by the validation and consistency checks implemented in the IMF data processing system before processing the data and posting the indicators on the FSIs website. </li>
   </ul>
+QUALITY_ASSMNT: >-
+  <p>Quality assessment is done as part of the validation and consistency checks
+  implemented in the IMF data processing system. </p>
 COVERAGE: >-
   <p><strong>Data availability:</strong></p>
 
-  <p>As of end-December 2018, there were 138 FSI reporters. All countries report
-  all or most core FSIs and some encouraged FSIs that can be used to support the
-  interpretation of these seven SDG indicators. </p>
+  <p>As of end-December 2021, there were more than 140 FSI reporters. All
+  reporters provide all or most core FSIs and some encouraged FSIs that can be
+  used to support the interpretation of these seven SDG indicators. </p>
 
   <p><strong>Time series:</strong></p>
 
-  <p>Data for most countries are reported on a monthly or quarterly basis; a few
-  countries report data on a semi-annual basis and with a lag of more than a
-  quarter. Data are available as far back as 2005 for some countries.</p>
+  <p>Data for most countries are reported on a monthly or quarterly basis (about
+  15 percent and 75 percent of total number of reporting countries,
+  respectively); a few countries report data on a semi-annual basis and with a
+  lag of more than a quarter. Data are available as far back as 2005 for some
+  countries.</p>
 
   <p><strong>Disaggregation:</strong></p>
 
@@ -268,12 +288,13 @@ COMPARABILITY: >-
   <p>Data calculated by other sources could be different from the FSIs
   disseminated by the IMF due to the use of different compilation methodology
   and/or institutional coverage. The FSIs disseminated by the IMF are compiled
-  based on the <em>FSI Compilation Guide</em>, which provides the guidance on
+  based on the <em>2019</em> <em>FSIs Guide</em>, which provides the guidance on
   the concepts and definitions, and sources and techniques for the compilation
   of cross-country comparable data to support national and international
   surveillance of financial systems. To facilitate identification of possible
   discrepancies across countries, reporters provide metadata to the IMF that
-  detail departures from recommendations in the <em>FSI Guide</em>.</p>
+  detail departures from recommendations in the <em>2019</em> <em>FSIs
+  Guide</em>.</p>
 OTHER_DOC: |-
   <p><strong>URL:</strong> http://data.imf.org/FSI</p>
   <p><strong>References: </strong></p>

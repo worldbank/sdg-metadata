@@ -23,8 +23,10 @@ make serve
 git checkout master
 git pull origin master
 make install
-node scripts/harvest-indicators.js
+make harvest
 git add translations-metadata
 git commit -m "HARVEST: YYYY-MM-DD"
 git push origin master
 ```
+
+Note that - if the `make harvest` gives any warnings or outputs, consult with UNSD to resolve them. You may need to tweak the [list of hardcoded indicator IDs](https://github.com/worldbank/sdg-metadata/blob/master/scripts/harvest-indicators.js#L75).

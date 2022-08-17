@@ -6,52 +6,43 @@ SDG_TARGET: >-
 SDG_INDICATOR: >-
   <p>Indicator 3.9.1: Mortality rate attributed to household and ambient air
   pollution </p>
-META_LAST_UPDATE: <p>2016-07-19</p>
+META_LAST_UPDATE: '2022-07-07'
 SDG_RELATED_INDICATORS: >-
   <p>11.6.2: Annual mean levels of fine particulate matter (e.g. PM2.5 and PM10)
-  in cities (population weighted) </p>
+  in cities (population weighted)</p>
 
   <p>7.1.2: Proportion of population with primary reliance on clean fuels and
-  technology </p>
+  technology</p>
 
-  <p>Comments: </p>
-SDG_CUSTODIAN_AGENCIES: <p>World Health Organization (WHO) </p>
-CONTACT_ORGANISATION: <p>World Health Organization (WHO) </p>
+  <p>Comments:</p>
+SDG_CUSTODIAN_AGENCIES: <p>World Health Organization (WHO)</p>
+CONTACT_ORGANISATION: <p>World Health Organization (WHO)</p>
 STAT_CONC_DEF: >-
-  <p><strong>Definition:</strong> </p>
+  <p><strong>Definition:</strong></p>
 
   <p>The mortality attributable to the joint effects of household and ambient
   air pollution can be expressed as: Number of deaths, Death rate. Death rates
   are calculated by dividing the number of deaths by the total population (or
   indicated if a different population group is used, e.g. children under 5
-  years). </p>
-
-  <p> </p>
+  years).</p>
 
   <p>Evidence from epidemiological studies have shown that exposure to air
   pollution is linked, among others, to the important diseases taken into
-  account in this estimate: </p>
+  account in this estimate:</p>
 
-  <p> </p>
+  <p>- Acute respiratory infections (estimated in all age groups);</p>
 
-  <p>- Acute respiratory infections in young children (estimated under 5 years
-  of age); </p>
+  <p>- Cerebrovascular diseases (stroke) in adults (estimated above 25
+  years);</p>
 
-  <p>- Cerebrovascular diseases (stroke) in adults (estimated above 25 years);
-  </p>
-
-  <p>- Ischaemic heart diseases (IHD) in adults (estimated above 25 years); </p>
+  <p>- Ischaemic heart diseases (IHD) in adults (estimated above 25 years);</p>
 
   <p>- Chronic obstructive pulmonary disease (COPD) in adults (estimated above
-  25 years); and </p>
+  25 years); and</p>
 
-  <p>- Lung cancer in adults (estimated above 25 years). </p>
+  <p>- Lung cancer in adults (estimated above 25 years).</p>
 
-  <p> </p>
-
-  <p> </p>
-
-  <p><strong>Concepts:</strong> </p>
+  <p><strong>Concepts:</strong></p>
 
   <p>The mortality resulting from exposure to ambient (outdoor) air pollution
   and household (indoor) air pollution from polluting fuels use for cooking was
@@ -60,32 +51,27 @@ STAT_CONC_DEF: >-
   pollutants, many of which are harmful to health. Of all of these pollutants,
   fine particulate matter has the greatest effect on human health. By polluting
   fuels is understood kerosene, wood, coal, animal dung, charcoal, and crop
-  wastes. </p>
-
-  <p> </p>
+  wastes.</p>
+UNIT_MEASURE: '<p>Number of deaths per 100,000 population</p>'
 SOURCE_TYPE: >-
   <p>Exposure: Indicator 7.1.2 was used as exposure indicator for household air
-  pollution. </p>
-
-  <p> </p>
+  pollution.</p>
 
   <p>Annual mean concentration of particulate matter of less than 2.5 um was
   used as exposure indicator for ambient air pollution. The data is modelled
-  according to methods described for Indicator 11.6.2. </p>
-
-  <p> </p>
+  according to methods described for Indicator 11.6.2.</p>
 
   <p>Exposure-risk function: The integrated exposure-response functions (IER)
-  developed for the GBD 2010 (Burnett et al, 2014) and further updated for the
-  GBD 2013 study (Forouzanfar et al, 2015) were used. </p>
-
-  <p> </p>
+  developed for the GBD 2010 and 2013 (Burnett et al, 2014 and Forouzanfar et
+  al, 2015) were used. These IERs were updated using the most recent
+  epidemiological evidence identified through a systematic search of studies on
+  particulate matter and mortality for the five outcomes of interest.</p>
 
   <p>Health data: The total number of deaths by disease, country, sex and age
-  group have been developed by the World Health Organization (WHO 2014b). </p>
-FREQ_COLL: <p>NA </p>
-DATA_SOURCE: '<p> Ministry of Health, Ministry of Environment. </p>'
-COMPILING_ORG: <p>WHO </p>
+  group have been developed by the World Health Organization (WHO 2019b).</p>
+FREQ_COLL: <p>Not applicable</p>
+DATA_SOURCE: '<p>Ministry of Health, Ministry of Environment.</p>'
+COMPILING_ORG: <p>WHO</p>
 RATIONALE: >-
   <p>As part of a broader project to assess major risk factors to health, the
   mortality resulting from exposure to ambient (outdoor) air pollution and
@@ -95,11 +81,10 @@ RATIONALE: >-
   pollutants, many of which are harmful to health. Of all of these pollutants,
   fine particulate matter has the greatest effect on human health. By polluting
   fuels is understood as wood, coal, animal dung, charcoal, and crop wastes, as
-  well as kerosene. </p>
+  well as kerosene.</p>
 
   <p>Air pollution is the biggest environmental risk to health. The majority of
-  the burden is borne by the populations in low and middle-income countries.
-  </p>
+  the burden is borne by the populations in low and middle-income countries.</p>
 REC_USE_LIM: >-
   <p>An approximation of the combined effects of risk factors is possible if
   independence and little correlation between risk factors with impacts on the
@@ -115,202 +100,138 @@ REC_USE_LIM: >-
   pollution, while ambient air pollution is a major concern. If assuming
   independence and little correlation, a rough estimate of the total impact can
   be calculated, which is less than the sum of the impact of the two risk
-  factors. </p>
+  factors.</p>
 DATA_COMP: >-
-  <p> Attributable mortality is calculated by first combining information on the
+  <p>Attributable mortality is calculated by first combining information on the
   increased (or relative) risk of a disease resulting from exposure, with
   information on how widespread the exposure is in the population (e.g. the
   annual mean concentration of particulate matter to which the population is
   exposed, proportion of population relying primarily on polluting fuels for
-  cooking). </p>
-
-  <p> </p>
+  cooking).</p>
 
   <p>This allows calculation of the &apos;population attributable fraction&apos;
   (PAF), which is the fraction of disease seen in a given population that can be
   attributed to the exposure (e.g in that case of both the annual mean
   concentration of particulate matter and exposure to polluting fuels for
-  cooking). </p>
-
-  <p> </p>
+  cooking).</p>
 
   <p>Applying this fraction to the total burden of disease (e.g. cardiopulmonary
   disease expressed as deaths), gives the total number of deaths that results
   from exposure to that particular risk factor (in the example given above, to
-  ambient and household air pollution). </p>
-
-  <p> </p>
+  ambient and household air pollution).</p>
 
   <p>To estimate the combined effects of risk factors, a joint population
-  attributable fraction is calculated, as described in Ezzati et al (2003). </p>
-
-  <p> </p>
+  attributable fraction is calculated, as described in Ezzati et al (2003).</p>
 
   <p>The mortality associated with household and ambient air pollution was
   estimated based on the calculation of the joint population attributable
   fractions assuming independently distributed exposures and independent hazards
-  as described in (Ezzati et al, 2003). </p>
-
-  <p> </p>
+  as described in (Ezzati et al, 2003).</p>
 
   <p>The joint population attributable fraction (PAF) were calculated using the
-  following formula: </p>
+  following formula:</p>
 
-  <p>PAF=1-PRODUCT (1-PAFi) </p>
+  <p>PAF=1-PRODUCT (1-PAFi)</p>
 
-  <p>where PAFi is PAF of individual risk factors. </p>
-
-  <p> </p>
+  <p>Where PAFi is PAF of individual risk factors.</p>
 
   <p>The PAF for ambient air pollution and the PAF for household air pollution
   were assessed separately, based on the Comparative Risk Assessment (Ezzati et
   al, 2002) and expert groups for the Global Burden of Disease (GBD) 2010 study
-  (Lim et al, 2012; Smith et al, 2014). </p>
-
-  <p> </p>
+  (Lim et al, 2012; Smith et al, 2014).</p>
 
   <p>For exposure to ambient air pollution, annual mean estimates of particulate
   matter of a diameter of less than 2.5 um (PM25) were modelled as described in
-  (WHO 2016, forthcoming), or for Indicator 11.6.2. </p>
-
-  <p> </p>
+  (WHO 2016, forthcoming), or for Indicator 11.6.2.</p>
 
   <p>For exposure to household air pollution, the proportion of population with
   primary reliance on polluting fuels use for cooking was modelled (see
   Indicator 7.1.2 [polluting fuels use=1-clean fuels use]). Details on the model
-  are published in (Bonjour et al, 2013). </p>
-
-  <p> </p>
+  are published in (Bonjour et al, 2013).</p>
 
   <p>The integrated exposure-response functions (IER) developed for the GBD 2010
-  (Burnett et al, 2014) and further updated for the GBD 2013 study (Forouzanfar
-  et al, 2015) were used. </p>
-
-  <p> </p>
+  and 2013 (Burnett et al, 2014 and Forouzanfar et al, 2015) were used. These
+  IERs were updated using the most recent epidemiological evidence identified
+  through a systematic search of studies on particulate matter and mortality for
+  the five outcomes of interest.</p>
 
   <p>The percentage of the population exposed to a specific risk factor (here
   ambient air pollution, i.e. PM2.5) was provided by country and by increment of
-  1 ug/m3; relative risks were calculated for each PM2.5 increment, based on the
-  IER. The counterfactual concentration was selected to be between 5.6 and 8.8
-  ug/m3, as described elsewhere (Ezzati et al, 2002; Lim et al, 2012). The
-  country population attributable fraction for ALRI, COPD, IHD, stroke and lung
-  cancer were calculated using the following formula : </p>
+  1 &#xB5;g/m3; relative risks were calculated for each PM2.5 increment, based
+  on the IER. The counterfactual concentration was selected to be between 2.4
+  and 5.9 &#xB5;g/m3, as described elsewhere ( Cohen et al, 2017). The country
+  population attributable fraction for ALRI, COPD, IHD, stroke and lung cancer
+  were calculated using the following formula : </p>
 
-  <p> </p>
+  <p>PAF=SUM(Pi(RR-1)/(SUM(RR-1)+1)</p>
 
-  <p>PAF=SUM(Pi(RR-1)/(SUM(RR-1)+1) </p>
-
-  <p> </p>
-
-  <p>where i is the level of PM2.5 in ug/m3, and Pi is the percentage of the
+  <p>Where i is the level of PM2.5 in ug/m3, and Pi is the percentage of the
   population exposed to that level of air pollution, and RR is the relative
-  risk. </p>
-
-  <p> </p>
+  risk.</p>
 
   <p>The calculations for household air pollution are similar, and are explained
-  in detailed elsewhere (WHO 2014a). </p>
+  in detailed elsewhere (WHO 2014a).</p>
 IMPUTATION: >-
   <ul>
-    <li><strong>At country level </strong></li>
+    <li><strong>At country level</strong></li>
   </ul>
 
-  <p><strong> </strong></p>
-
-  <p>Countries with no data are reported as blank. </p>
-
-  <p> </p>
+  <p>Countries with no data are reported as blank.</p>
 
   <ul>
-    <li><strong>At regional and global levels </strong></li>
+    <li><strong>At regional and global levels</strong></li>
   </ul>
 
-  <p> </p>
-
   <p>Countries with no data are not reported in the regional and global
-  averages. </p>
-
-  <p> </p>
+  averages.</p>
 REG_AGG: >-
-  <p> </p>
-
   <p>Number of deaths by country is summed and divided by the population of
   countries included in the region (regional aggregates) or by the total
-  population (global aggregates). </p>
+  population (global aggregates).</p>
 COVERAGE: |-
   <p><strong>Data availability:</strong></p>
-  <p>Data is available by country, sex, disease and age. </p>
+  <p>Data is available by country, sex, disease and age.</p>
   <p><strong>Disaggregation:</strong></p>
-  <p> The data is available by country, by sex, by disease, and by age. </p>
+  <p>The data is available by country, by sex, by disease, and by age.</p>
 COMPARABILITY: >-
   <p><strong>Sources of discrepancies:</strong></p>
 
   <p>Underlying differences between country produced and internationally
-  estimated data may due to : </p>
+  estimated data may due to :</p>
 
   <p>- Different exposure data (annual mean concentration of particulate matter
-  of less than 2.5 um of diameter, proportion of population using clean fuels
-  and technology for cooking) </p>
+  of less than 2.5 &#xB5;m of diameter, proportion of population using clean
+  fuels and technology for cooking)</p>
 
-  <p>- Different exposure-risk estimates </p>
+  <p>- Different exposure-risk estimates</p>
 
-  <p>- Different underlying mortality data </p>
+  <p>- Different underlying mortality data</p>
 OTHER_DOC: >-
-  <p><strong>URL:</strong> </p>
+  <p><strong>URL:</strong></p>
 
-  <p> </p>
+  <p>www.who.int/gho/phe</p>
 
-  <p>www.who.int/gho/phe </p>
+  <p><strong>References:</strong></p>
 
-  <p> </p>
+  <p>Bonjour et al (2013). Environ Health Perspect, doi:10.1289/ehp.1205987.</p>
 
-  <p><strong>References:</strong> </p>
+  <p>Burnett et al (2014). Environ Health Perspect,Vol 122, Issue 4.</p>
 
-  <p> </p>
+  <p>Cohen et al (2017). The Lancet, Vol 389, No. 10082.</p>
 
-  <p>Bonjour et al (2013). Environ Health Perspect, doi:10.1289/ehp.1205987.
-  </p>
+  <p>Ezzati et al (2003). The Lancet, 362:271-80.</p>
 
-  <p> </p>
+  <p>Forouzanfar et al (2015). The Lancet, 386:2287-323.</p>
 
-  <p>Burnett et al (2014). Environ Health Perspect,Vol 122, Issue 4. </p>
-
-  <p> </p>
-
-  <p>Ezzati et al (2003). The Lancet, 362:271-80. </p>
-
-  <p> </p>
-
-  <p>Ezzati et al (2002). The Lancet. 360(9343):1347-60. </p>
-
-  <p> </p>
-
-  <p>Forouzanfar et al (2015). The Lancet, 386:2287-323. </p>
-
-  <p> </p>
-
-  <p>Lim et al (2012). The Lancet, 380(9859):2224-60. </p>
-
-  <p> </p>
-
-  <p>Smith et al (2014). Annu.Rev.Public Health, Vol 35. </p>
-
-  <p> </p>
+  <p>Smith et al (2014). Annu.Rev.Public Health, Vol 35.</p>
 
   <p>WHO (2014a). Methods description for the burden of disease attributable to
-  household air pollution. Access at :
-  http://www.who.int/phe/health_topics/outdoorair/database/HAP_BoD_methods_March2014.pdf?ua=1
-  </p>
+  household air pollution. Access at:
+  http://www.who.int/phe/health_topics/outdoorair/database/HAP_BoD_methods_March2014.pdf?ua=1</p>
 
-  <p> </p>
-
-  <p>WHO (2014b). Global Health Estimates 2013: Deaths by Cause, Age and Sex, by
-  Country, 2000-2012 (provisional estimates). Geneva, World Health Organization,
-  2014. </p>
-
-  <p> </p>
+  <p>WHO (2019b). Global Health Estimates 2019: Deaths by Cause, Age and Sex, by
+  Country, 2000-2019 (provisional estimates). Geneva, World Health Organization,
+  2019. </p>
 
   <p>WHO (2016, forthcoming). Air pollution: a global assessment of exposure and
-  burden of disease, WHO Geneva. </p>
-
-  <p> </p>
+  burden of disease, WHO Geneva.</p>

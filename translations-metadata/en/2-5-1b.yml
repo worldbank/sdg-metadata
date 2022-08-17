@@ -15,7 +15,7 @@ SDG_INDICATOR: >-
 SDG_SERIES_DESCR: >-
   <p>Number of local breeds for which sufficient genetic resources are stored
   for reconstitution</p>
-META_LAST_UPDATE: '2022-03-31'
+META_LAST_UPDATE: '2022-08-12'
 SDG_RELATED_INDICATORS: >-
   <p>Indicator 2.5.1a on plant genetic resources and 2.5.2 on animal genetic
   resources </p>
@@ -42,9 +42,10 @@ STAT_CONC_DEF: >-
 
   <p><em>Animal genetic resources</em> </p>
 
-  <p>The animal component is calculated as the number of local breeds (i.e.
-  being reported to exist only in one country) stored within a genebank
-  collection with an amount of genetic material stored which is required to
+  <p>The animal component is calculated as the number of local (i.e. being
+  reported to exist only in one country) and transboundary (i.e. being reported
+  to exist in more than one country) breeds with material stored within a
+  genebank collection with an amount of genetic material which is required to
   reconstitute the breed in case of extinction (further information on
   &#x201C;sufficient material stored to reconstitute a breed&#x201D; can be
   found in the Guidelines on Cryoconservation of Animal Genetic Resources, FAO,
@@ -73,7 +74,7 @@ STAT_CONC_DEF: >-
 
   <p>Cryoconservation is the collection and deep-freezing of semen, ova, embryos
   or tissues for potential future use in breeding or regenerating animals.</p>
-UNIT_MEASURE: <p>Number of local breeds</p>
+UNIT_MEASURE: <p>Number of local breeds and number of transboundary breeds</p>
 CLASS_SYSTEM: >-
   <p>International standards and classifications used have been endorsed by the
   FAO Commission on Genetic Resources for Food and Agriculture at its Thirteenth
@@ -145,10 +146,18 @@ REC_USE_LIM: >-
   Information System DAD-IS needs to be updated on a regular base.</p>
 DATA_COMP: >-
   <p>For the animal component the indicator is calculated as the number of local
-  breeds with enough genetic material stored within genebank collections
-  allowing to reconstitute the breed in case of extinction (based on the
-  Guidelines on Cryoconservation of animal genetic resources, FAO, 2012, <a
-  href="http://www.fao.org/docrep/016/i3017e/i3017e00.htm">http://www.fao.org/docrep/016/i3017e/i3017e00.htm</a>).</p>
+  breeds and transboundary breeds with enough genetic material stored within
+  genebank collections allowing to reconstitute the breed in case of extinction
+  (based on the Guidelines on Cryoconservation of animal genetic resources, FAO,
+  2012, <a
+  href="http://www.fao.org/docrep/016/i3017e/i3017e00.htm">http://www.fao.org/docrep/016/i3017e/i3017e00.htm</a>).
+  Numbers for local and transboundary breeds are presented separately. To decide
+  whether the material stored is sufficient on regional or global levels the
+  numbers provided to DAD-IS for each type of material (e.g. semen samples,
+  embryos, somatic cells) conserved within the framework of a cryconservation
+  programme, as well as the number of the respective male and female donor
+  animals, must be summed across the countries belonging to the respective
+  region of interest.</p>
 DATA_VALIDATION: <p>There is no validation process in place.</p>
 ADJUSTMENT: <p>Not applicable</p>
 IMPUTATION: >-
@@ -196,6 +205,8 @@ QUALITY_ASSMNT: >-
 COVERAGE: >-
   <p><strong>Data availability:</strong></p>
 
+  <p><em>Animal genetic resources</em></p>
+
   <p>The analysis of country reports to FAO provided by 128 countries in 2014
   for the preparation of &#x2018;The Second Report on the State of the
   World&#x2019;s Animal Genetic Resources for Food and Agriculture&#x2019;
@@ -207,7 +218,7 @@ COVERAGE: >-
 
   <p><strong>Time series:</strong></p>
 
-  <p>DAD-IS data are available since 2000 up to 2022.</p>
+  <p>DAD-IS data are available since 2000.</p>
 
   <p><strong>Disaggregation:</strong></p>
 
