@@ -3,85 +3,46 @@ SDG_TARGET: >-
   <p>Target 12.5: By 2030, substantially reduce waste generation through
   prevention, reduction, recycling and reuse</p>
 SDG_INDICATOR: '<p>Indicator 12.5.1: National recycling rate, tons of material recycled</p>'
-META_LAST_UPDATE: <p>2021-02-04</p>
-SDG_RELATED_INDICATORS: '<p>11.6.1, 12.4.2, 12.3.1(a)</p>'
+SDG_SERIES_DESCR: >-
+  <p>Municipal waste recycled (Tonnes)<strong> EN_MWT_RCYV</strong></p>
+
+  <p>Electronic waste recycling (Tonnes)<strong> EN_EWT_RCYV</strong></p>
+
+  <p>Electronic waste recycling, rate (%)<strong> EN_EWT_RCYR</strong></p>
+
+  <p>Electronic waste recycling, per capita (Kg)<strong>
+  EN_EWT_RCYPCAP</strong></p>
+META_LAST_UPDATE: '2023-01-24'
+SDG_RELATED_INDICATORS: '<p>11.6.1, 12.4.2, 12.3.1, 14.1.1</p>'
 SDG_CUSTODIAN_AGENCIES: >-
-  <p>United Nations Environment Programme (UNEP) and United Nations Statistics
-  Division (UNSD)</p>
+  <p>United Nations Environment Programme (UNEP), United Nations Statistics
+  Division (UNSD), United Nations Institute for Training and Research
+  (UNITAR)</p>
 CONTACT_ORGANISATION: >-
-  <p>United Nations Environment Programme (UNEP) and United Nations Statistics
-  Division (UNSD)</p>
+  <p>United Nations Environment Programme (UNEP), United Nations Statistics
+  Division (UNSD), United Nations Institute for Training and Research
+  (UNITAR)</p>
 STAT_CONC_DEF: >-
   <p><strong>Definitions:</strong></p>
 
-  <p>For the purposes of this indicator, the National Recycling Rate will be
-  defined as the quantity of material recycled in the country plus quantities
-  exported for recycling out of total waste generated in the country, minus
-  material imported intended for recycling. Note that recycling includes
-  codigestion/anaerobic digestion and composting/aerobic process, but not
-  controlled combustion (incineration) or land application.</p>
+  <p><strong>National Recycling Rate</strong> is defined as the quantity of
+  material recycled in the country plus quantities exported for recycling minus
+  material imported intended for recycling out of total waste generated in the
+  country. Note that recycling includes codigestion/anaerobic digestion and
+  composting/aerobic process, but not controlled combustion (incineration) or
+  land application.</p>
 
-  <table>
-    <tbody>
-      <tr>
-        <td colspan="2">
-          <p><strong>Level 1 Indicators</strong></p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p><em>National recycling rate</em></p>
-        </td>
-        <td>
-          <p>(Material recycled + material exported for recycling &#x2013; material imported for recycling) / total waste generated</p>
-          <p>(with gap filling for regional and global aggregates)</p>
-        </td>
-      </tr>
-      <tr>
-        <td colspan="2">
-          <p><strong>Level 2 Indicators</strong></p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p><em>Total Waste Generated (excluding construction, mining and agriculture) by type, including e-waste </em></p>
-        </td>
-        <td>
-          <p>This is the denominator for recycling and useful for understanding the target 12.5 on waste reduction.</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p><em>National recycling rate by type of waste, including e-waste (other possible disaggregations include for metals and packaging waste)</em></p>
-        </td>
-        <td>
-          <p>Based on national data sources, including disaggregation of the recycling rate</p>
-        </td>
-      </tr>
-    </tbody>
-  </table>
-
-  <p>A full methodology for this indicator is available in the document
-  entitled, &#x201C;Global Chemicals and Waste Indicator Review Document (UNEP,
-  forthcoming)&#x201D;.</p>
+  <p>National recycling rate can be presented by type of waste, including
+  e-waste, plastic waste, municipal waste, and others.</p>
 
   <p><strong>Concepts:</strong><em> </em></p>
 
-  <p><em>Material recycled</em> Expressed in tons, reported at the last entity
+  <p><em>Material recycled</em> expressed in tons, reported at the last entity
   in the recycling chain, preferably when tons of material is bought as
   secondary resource to be used in production facilities during the course of
   the reporting year; Secondary mineral materials used in the construction
   sector are excluded; composting is considered recycling for the purposes of
   this indicator.</p>
-
-  <p><em>Municipal Solid Waste (MSW)</em> includes waste originating from
-  households, commerce and trade, small businesses, office buildings and
-  institutions (schools, hospitals, government buildings). It also includes
-  bulky waste (e.g., old furniture, mattresses) and waste from selected
-  municipal services, e.g., waste from park and garden maintenance, waste from
-  street cleaning services (street sweepings, the content of litter containers,
-  market cleansing waste), if managed as waste. Further information on municipal
-  solid waste is defined in the SDG indicator methodology for 11.6.1. </p>
 
   <p><em>Recycling</em> is defined under the UNSD/UNEP Questionnaire on
   Environment Statistics and further for the purpose of these indicators as
@@ -99,31 +60,39 @@ STAT_CONC_DEF: >-
   <p><em>Total waste generated</em> is the total amount of waste (both hazardous
   and non-hazardous) generated in the country during the year. </p>
 
-  <p><em>Total waste generated (excluding construction, mining and agriculture)
-  </em>is the total amount of waste (both hazardous and non-hazardous) generated
-  in the country during the year. For the purpose of this indicator, total waste
-  generated will include municipal solid waste, non-hazardous industrial waste,
-  hazardous waste and exclude non-metallic minerals (industrial and construction
-  minerals), construction waste and agricultural waste. Expressed in tons,
-  reported as the sum of waste generated during the course of the reporting year
-  in sectors following the UNSD/UNEP Questionnaire on Environment Statistics,
-  Table R1 Generation of Waste by Source, excluding Construction waste (F 41- 43
-  ISIC code), Agricultural waste (A 01-03 ISIC code) and Mining and quarrying
-  waste (ISIC 05-09).</p>
-UNIT_MEASURE: '<p>Tonnes, Percent, KG</p>'
-SOURCE_TYPE: |-
-  <ol>
-    <li>Data provided by national governments, including NSOs and Ministries of Environment</li>
-  </ol>
+  <p><em>Municipal Solid Waste (MSW)</em> includes waste originating from
+  households, commerce and trade, small businesses, office buildings and
+  institutions (schools, hospitals, government buildings). It also includes
+  bulky waste (e.g., old furniture, mattresses) and waste from selected
+  municipal services, e.g., waste from park and garden maintenance, waste from
+  street cleaning services (street sweepings, the content of litter containers,
+  market cleansing waste), if managed as waste. Further information on MSW is
+  defined in the SDG indicator methodology for 11.6.1. </p>
+
+  <p><em>Electronic waste, or e-waste,</em> refers to all items of electrical
+  and electronic equipment (EEE) and its parts that have been discarded by its
+  owner as waste without the intent of re-use.</p>
+UNIT_MEASURE: '<p>Tonnes, Percent (%), Kilograms (Kg)</p>'
+CLASS_SYSTEM: |-
+  <ul>
+    <li>International Standard Industrial Classification of All Economic Activities (ISIC), Rev.4.</li>
+    <li>Standard Country or Area Codes for Statistical Use (UN M49 classification of countries and regions).</li>
+  </ul>
+SOURCE_TYPE: >-
+  <p>Data provided by national governments, including National Statistical
+  Offices (NSOs), Ministries of Environment and other relevant
+  organizations.</p>
 COLL_METHOD: >-
   <p>The custodian agencies propose to collect national data through the
-  UNSD/UNEP Questionnaire on Environment Statistics (waste section). UNSD
-  carries out extensive data validation procedures that include built-in
-  automated procedures, manual checks and cross-references to national sources
-  of data. Communication is carried out with countries for clarification and
-  validation of data. Only data that are considered accurate or those confirmed
-  by countries during the validation process are included in UNSD&#x2019;s
-  environment statistics database and disseminated on UNSD&#x2019;s website (<a
+  UNSD/UNEP Questionnaire on Environment Statistics (waste section). </p>
+
+  <p>The United Nations Statistics Division (UNSD) carries out extensive data
+  validation procedures that include built-in automated procedures, manual
+  checks and cross-references to national sources of data. Communication is
+  carried out with countries for clarification and validation of data. Only data
+  that are considered accurate or those confirmed by countries during the
+  validation process are included in UNSD&#x2019;s environment statistics
+  database and disseminated on its website (<a
   href="https://unstats.un.org/unsd/envstats/qindicators">https://unstats.un.org/unsd/envstats/qindicators</a>
   and <a
   href="https://unstats.un.org/unsd/envstats/country_files">https://unstats.un.org/unsd/envstats/country_files</a>).</p>
@@ -132,83 +101,98 @@ COLL_METHOD: >-
     <li>Additionally, data from the Basel Convention reporting may also be sent to countries for their consideration for SDG reporting. </li>
   </ul>
 
-  <p>Data for OECD and European Union countries are collected through the
-  biennial OECD/Eurostat Joint Questionnaire on the State of the Environment
-  that is consistent with the UNSD/UNEP Questionnaire, so data are comparable.
-  (https://unstats.un.org/sdgs/tierIII-indicators/files/Tier3-12-05-01.pdf.)</p>
+  <p>Data for the Organization for Economic Co-operation and Development (OECD)
+  and European Union countries are collected through the biennial OECD/Eurostat
+  Joint Questionnaire on the State of the Environment that is consistent with
+  the UNSD/UNEP Questionnaire, so data are comparable. </p>
 FREQ_COLL: >-
   <p>The UNSD/UNEP Questionnaire on Environment Statistics is sent every 2
   years.</p>
-REL_CAL_POLICY: '<p>First SDG reporting cycle: 2020</p>'
-DATA_SOURCE: <p>National Statistical Systems </p>
-COMPILING_ORG: |-
-  <ol>
-    <li>UNSD and UNEP (and UNU for e-waste)</li>
-  </ol>
+
+  <p>The biennial OECD/Eurostat Joint Questionnaire on the State of the
+  Environment is also sent every 2 years.</p>
+REL_CAL_POLICY: >-
+  <p>Every two years after the validation of national statistics from the
+  UNSD/UNEP Questionnaire on Environment Statistics and the OECD/Eurostat Joint
+  Questionnaire on the State of the Environment.</p>
+DATA_SOURCE: <p>National Statistical Systems and relevant ministries.</p>
+COMPILING_ORG: >-
+  <p>The United Nations Statistics Division (UNSD), the United Nations
+  Environment Programme (UNEP), the Organization for Economic Co-operation and
+  Development (OECD) and Eurostat for all waste indicators excepted global
+  e-waste estimates. </p>
+
+  <p>The United Nations Institute for Training and Research (UNITAR) for global
+  e-waste estimates.</p>
+INST_MANDATE: >-
+  <p>The United Nations Environment Programme (UNEP) and the United Nations
+  Statistics Division (UNSD) were mandated as Custodian Agencies for indicator
+  12.5.1 by the Inter-agency and Expert Group on SDG Indicators. </p>
 RATIONALE: >-
   <p>Minimizing waste generation and maximizing the recycling of waste is
-  central to the concept of circular economy. However, currently the total
+  central to the concept of circular economy. However, currently, the total
   amount of produced materials that are recycled are estimated to be low (based
-  on academic literature). If countries are to better understand how waste are
-  generated, collected and recycled then this will put countries and other
-  stakeholders in a better position to identify how to tackle the issues face
-  for key waste streams (such as metals, e-waste or plastics). </p>
+  on academic literature). If countries better understand how waste are
+  generated, collected and recycled, this will enable countries and other
+  stakeholders to better determine how to deal with major waste streams, for
+  example e-waste or plastic. </p>
 REC_USE_LIM: >-
   <p>Most countries control large end-of-chain recycling facilities and export
-  of recyclable materials, so data from these entities is feasible to collect.
+  of recyclable materials, so data from these entities are feasible to collect.
   There may be recycling carried out in the informal sector that never enters
-  the formal channels, in this case countries can estimate the size of the
+  the formal channels, in this case, countries can estimate the size of the
   informal recycling sector to properly account for all the recycling in the
   country. </p>
 
   <p>National recycling rate is part of measuring progress towards sustainable
   consumption and production, but it does not capture prevention, reduction,
-  reuse and repair. Calculating additional intensity indicators against the DMC
-  and the material flow (MF) gives proxies and helps connect this indicator to
-  resource efficiency in consumption and production.</p>
+  reuse and repair. Calculating additional intensity indicators against the
+  Domestic Material Consumption and the Material Flow gives proxies and helps
+  connect this indicator to resource efficiency in consumption and
+  production.</p>
 
   <p>Additional research is needed to understand typical losses (due to
-  transformation of materials, loss of humidity, % of rejects) along the
+  transformation of materials, loss of humidity, percent of rejects) along the
   recycling chain for various recyclable materials. The losses would need to be
-  known as %-ages from the point of entry in the recycling value chain (I.e.
-  Collection of source segregated material, or input to sorting facility) to the
-  point of exit (I.e. when the material leaves the last recyclable processing
-  unit to enter a facility as secondary raw material). This would allow to
-  connect indicator 11.6.1. which will measure among other things the municipal
-  recycling rate, to the national recycling rate. Municipal recycling rate is
-  likely going to be measured at the beginning of the chain, while indicator
-  12.5.1 will likely be measured at the point of exit from the chain. Such
-  studies may be done using the process flow and material mass balance approach.
-  Another approach could be to follow transactions in the waste management
-  process and introducing so called &#x201C;system of boundaries&#x201D;
-  defining points of reporting of waste quantities. </p>
+  known as percentages from the point of entry in the recycling value chain
+  (i.e., Collection of source segregated material, or input to sorting facility)
+  to the point of exit (i.e., when the material leaves the last recyclable
+  processing unit to enter a facility as secondary raw material). This would
+  allow connecting indicator 11.6.1. which will measure among other things the
+  municipal recycling rate, to the national recycling rate. Municipal recycling
+  rate is likely going to be measured at the beginning of the chain, while
+  indicator 12.5.1 will likely be measured at the point of exit from the chain.
+  Such studies may be done using the process flow and material mass balance
+  approach. Another approach could be to follow transactions in the waste
+  management process and introducing so called &#x201C;system of
+  boundaries&#x201D; defining points of reporting of waste quantities. </p>
 DATA_COMP: >-
   <p>A full methodology for this indicator is available in the document
-  entitled, &#x201C;Global Chemicals and Waste Indicator Review Document (UNEP,
-  forthcoming)&#x201D;. </p>
+  entitled, &#x201C;<a
+  href="https://www.unep.org/resources/publication/global-chemicals-and-waste-indicator-review-document#:~:text=The%20Global%20Chemicals%20and%20Waste,related%20SDG%20indicators%20across%20sectors.">Global
+  Chemicals and Waste Indicator Review Document</a>&#x201D; (UNEP, 2021). </p>
 
-  <p>For the purposes of this indicator, the National Recycling Rate will be
-  defined as the quantity of material recycled in the country plus quantities
-  exported for recycling out of total waste generated in the country, minus
-  material imported intended for recycling. Note that recycling includes
-  codigestion/anaerobic digestion and composting/aerobic process, but not
-  controlled combustion (incineration) or land application.</p>
+  <p>National Recycling Rate is defined as the quantity of material recycled in
+  the country plus quantities exported for recycling minus material imported
+  intended for recycling out of total waste generated in the country. Note that
+  recycling includes codigestion/anaerobic digestion and composting/aerobic
+  process, but not controlled combustion (incineration) or land application.</p>
 
   <p><math xmlns="http://www.w3.org/1998/Math/MathML">
-      <mi mathvariant="normal">R</mi>
-      <mi mathvariant="normal">e</mi>
-      <mi mathvariant="normal">c</mi>
-      <mi mathvariant="normal">y</mi>
-      <mi mathvariant="normal">c</mi>
-      <mi mathvariant="normal">l</mi>
-      <mi mathvariant="normal">i</mi>
-      <mi mathvariant="normal">n</mi>
-      <mi mathvariant="normal">g</mi>
-      <mi mathvariant="normal">&amp;nbsp;</mi>
-      <mi mathvariant="normal">r</mi>
-      <mi mathvariant="normal">a</mi>
-      <mi mathvariant="normal">t</mi>
-      <mi mathvariant="normal">e</mi>
+      <mi>R</mi>
+      <mi>e</mi>
+      <mi>c</mi>
+      <mi>y</mi>
+      <mi>c</mi>
+      <mi>l</mi>
+      <mi>i</mi>
+      <mi>n</mi>
+      <mi>g</mi>
+      <mi>&amp;nbsp;</mi>
+      <mi>r</mi>
+      <mi>a</mi>
+      <mi>t</mi>
+      <mi>e</mi>
       <mo>=</mo>
       <mfrac>
         <mrow>
@@ -358,12 +342,7 @@ DATA_COMP: >-
         </mrow>
       </mfrac>
     </math></p>
-  <p>For the Level 1 data will be collected from countries, but gap fillers will
-  be used in order to compute the regional and global aggregates. </p>
-
-  <p>For the Level 2 data: The denominator for waste generation will be as
-  follows. Note that the denominator is also relevant for the target and will be
-  published. </p>
+  <p> </p>
 
   <p><math xmlns="http://www.w3.org/1998/Math/MathML">
       <mi>T</mi>
@@ -610,55 +589,82 @@ DATA_COMP: >-
       <mi>g</mi>
       <mo>)</mo>
     </math></p>
-  <p>The recycling rate is defined as above for level 1; however, it is proposed
-  that it is disaggregated by type of waste, including e-waste and other waste
-  types (such as packaging waste and metals). For the disaggregation by waste
-  stream the formula will be the same, but particular waste types will be
-  evaluated. (Existing data on e-waste and the importance of e-waste means that
-  this disaggregation will be collected at the global level.)</p>
+  <p>It is proposed that recycling rate is disaggregated by type of waste,
+  including e-waste and other waste types (such as packaging waste and metals).
+  For the disaggregation by waste stream, the formula will be the same but
+  particular waste types will be evaluated. (Existing data on e-waste and the
+  importance of e-waste means that this disaggregation will be collected at the
+  global level.)</p>
 DATA_VALIDATION: >-
-  <p>UNSD carries out extensive data validation procedures that include built-in
-  automated procedures, manual checks and cross-references to national sources
-  of data. Communication is carried out with countries for clarification and
-  validation of data. Only data that are considered accurate or those confirmed
-  by countries during the validation process are included in UNSD&#x2019;s
-  environment statistics database and disseminated on UNSD&#x2019;s website</p>
+  <p>The United Nations Statistics Division (UNSD) carries out extensive data
+  validation procedures that include built-in automated procedures, manual
+  checks and cross-references to national sources of data. Communication is
+  carried out with countries for clarification and validation of data. Only data
+  that are considered accurate or those confirmed by countries during the
+  validation process are included in UNSD&#x2019;s environment statistics
+  database and disseminated on its website.</p>
+
+  <p>The Organization for Economic Co-operation and Development (OECD) and
+  Eurostat carry out extensive data validation procedures on the biennial
+  OECD/Eurostat Joint Questionnaire on the State of the Environment.</p>
+ADJUSTMENT: <p>Not applicable</p>
 IMPUTATION: >-
-  <p>UNSD, who conducts the data collection, validation and dissemination
-  process via the UNSD/UNEP Questionnaire on Environment Statistics, does not
-  make any estimation or imputation for missing values so the number of data
-  points provided towards Level 2 (national monitoring) indicators are actual
+  <p>The United Nations Statistics Division (UNSD), which conducts the data
+  collection, validation and dissemination process via the UNSD/UNEP
+  Questionnaire on Environment Statistics, does not make any estimation or
+  imputation for missing values so the number of data points provided are actual
   country data. </p>
 
-  <p>However, UNEP is considering the possibility of global modelling towards
-  Level 1 (global monitoring) indicators. </p>
-
-  <p><strong>&#x2022; At country level</strong></p>
-
-  <p><strong>&#x2022; At regional and global levels</strong></p>
+  <p>However, UNEP is considering the possibility of global modelling towards at
+  country, regional and global levels. </p>
 REG_AGG: >-
   <p>The data will be aggregated at the sub-regional, regional and global
-  levels. For the aggregation methods, please see: <a
-  href="http://wesr.unep.org/media/docs/graphs/aggregation_methods.pdf">http://wesr.unep.org/media/docs/graphs/aggregation_methods.pdf</a>.
+  levels. For the aggregation methods, please see <a
+  href="https://wesr.unep.org/media/docs/graphs/aggregation_methods.pdf">here</a>.
   </p>
 DOC_METHOD: >-
-  <p>Global Chemicals and Waste Indicator Review Document (UNEP,
-  forthcoming)</p>
+  <p><a
+  href="https://www.unep.org/resources/publication/global-chemicals-and-waste-indicator-review-document#:~:text=The%20Global%20Chemicals%20and%20Waste,related%20SDG%20indicators%20across%20sectors.">Global
+  Chemicals and Waste Indicator Review Document</a> (UNEP, 2021)</p>
+QUALITY_MGMNT: |-
+  <p>Quality management is provided:</p>
+  <ul>
+    <li>by the United Nations Statistics Division (UNSD) for non-OECD and non-European Union country data; </li>
+    <li>by the Organization for Economic Co-operation and Development (OECD) and Eurostat for OECD and European Union country data.</li>
+  </ul>
+QUALITY_ASSURE: |-
+  <p>Quality assurance is provided:</p>
+  <ul>
+    <li>by the United Nations Statistics Division (UNSD) for non-OECD and non-European Union country data; </li>
+    <li>by the Organization for Economic Co-operation and Development (OECD) and Eurostat for OECD and European Union country data;</li>
+  </ul>
+  <p>in cooperation with the countries that provide these data.</p>
+QUALITY_ASSMNT: |-
+  <p>Quality assessment is provided:</p>
+  <ul>
+    <li>by the United Nations Statistics Division (UNSD) for non-OECD and non-European Union country data; </li>
+    <li>by the Organization for Economic Co-operation and Development (OECD) and Eurostat for OECD and European Union country data.</li>
+  </ul>
 COVERAGE: >-
   <p><strong>Data availability:</strong></p>
 
-  <p>All countries that reply to the questionnaire. </p>
+  <p>For national data: All countries that reply to the questionnaire. </p>
+
+  <p>For global estimates: Regional and global level.</p>
 
   <p><strong>Time series:</strong></p>
 
-  <p>The UNSD/UNEP Questionnaire on Environment Statistics is sent every 2 years
-  requesting annual data and the time series will be maintained. </p>
+  <p>For national data: The data sets presented in the SDG database cover a
+  period since 2000 if countries report them.</p>
+
+  <p>For global estimates: The data sets presented in the SDG database cover a
+  period since 2010.</p>
 
   <p><strong>Disaggregation:</strong></p>
 
   <ul>
-    <li>By where recycling occurs (in-country and materials exported destined for recycling)</li>
-    <li>By material type (e-waste, plastics, metals, etc.) and for key groups of materials (e.g. e-waste and packaging waste)</li>
+    <li>By where recycling occurs (in-country and materials exported destined for recycling).</li>
+    <li>By material type (e-waste, plastics, metals, etc.) and for key groups of materials (e.g. e-waste and packaging waste).</li>
   </ul>
 COMPARABILITY: >-
   <p><strong>Sources of discrepancies:</strong></p>
@@ -668,10 +674,18 @@ COMPARABILITY: >-
   possible discrepancies, inter-institutional stakeholder collaboration is
   always encouraged.</p>
 OTHER_DOC: >-
-  <p>Global Chemicals and Waste Indicator Review Document (UNEP,
-  forthcoming)</p>
+  <p><a
+  href="https://www.unep.org/resources/publication/global-chemicals-and-waste-indicator-review-document#:~:text=The%20Global%20Chemicals%20and%20Waste,related%20SDG%20indicators%20across%20sectors.">Global
+  Chemicals and Waste Indicator Review Document</a> (UNEP, 2021)</p>
 
-  <p>United Nations Statistics Division (UNSD) and United Nations Environment
-  Programme Questionnaire on Environment Statistics (waste section). Available
-  at: <a
-  href="https://unstats.un.org/unsd/envstats/questionnaire">https://unstats.un.org/unsd/envstats/questionnaire</a></p>
+  <p><a href="https://unstats.un.org/unsd/envstats/questionnaire">UNSD/UNEP
+  Questionnaire on Environment Statistics (waste section)</a>. </p>
+
+  <p><a
+  href="https://collections.unu.edu/eserv/UNU:6477/RZ_EWaste_Guidelines_LoRes.pdf">E-WASTE
+  STATISTICS GUIDELINES ON CLASSIFICATION, REPORTING AND INDICATORS</a></p>
+
+  <p><a href="https://globalewaste.org/">Global and Regional E-waste
+  Monitors</a></p>
+
+  <p> </p>

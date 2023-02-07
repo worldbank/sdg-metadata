@@ -10,7 +10,7 @@ SDG_TARGET: >-
 SDG_INDICATOR: >-
   <p>Indicator 2.4.1: Proportion of agricultural area under productive and
   sustainable agriculture</p>
-META_LAST_UPDATE: '2022-03-31'
+META_LAST_UPDATE: '2022-12-16'
 SDG_RELATED_INDICATORS: >-
   <p>Direct links to:</p>
 
@@ -228,14 +228,16 @@ STAT_CONC_DEF: >-
   2.4.1 until an international definition is available. <a
   href="#footnote-ref-2">&#x2191;</a></p></div></div>
 UNIT_MEASURE: >-
-  <p>Percentage (%):The member countries are required to report the proportion
-  (percentage) of agriculture land area for all 11 sub-indicators separately by
-  sustainability status. Aggregation at the national level is performed for each
-  sub-indicator independently, by adding up the agricultural land area of each
-  agriculture holding (selected through a nationally representative sample) and
-  finally reporting the resulting national total as a percentage of the total
-  nationally representative agriculture land area for the 11 sub-indicators in a
-  dashboard. </p>
+  <p>Percentage (%):</p>
+
+  <p>The member countries are required to report the proportion (percentage) of
+  agriculture land area for all 11 sub-indicators separately by sustainability
+  status. Aggregation at the national level is performed for each sub-indicator
+  independently, by adding up the agricultural land area of each agriculture
+  holding (selected through a nationally representative sample) and finally
+  reporting the resulting national total as a percentage of the total nationally
+  representative agriculture land area for the 11 sub-indicators in a
+  dashboard.</p>
 CLASS_SYSTEM: >-
   <p>The land area classification is that implemented in the FAO Land Use,
   Irrigation and Agricultural Practices Questionnaire (<a
@@ -1319,7 +1321,7 @@ OTHER_DOC: >-
   <ul>
     <li>Green (desirable): The farm takes specific measures to mitigate environmental risks (at least four from the list above). Default result for farms not using fertilizers<sup><a href="#footnote-12" id="footnote-ref-12">[11]</a></sup>. </li>
     <li>Yellow (acceptable): The farm uses fertilizers and takes at least two measures from the above list to mitigate environmental risks</li>
-    <li>Red (unsustainable): The farm uses fertilizer and does not take any of the above specific measures to mitigate environmental risks associated with their use. </li>
+    <li>Red (unsustainable): The farm uses fertilizer and takes less than two of the above specific measures to mitigate environmental risks associated with their use. </li>
   </ul>
 
   <p><strong>Data items:</strong></p>
@@ -1488,16 +1490,16 @@ OTHER_DOC: >-
   <p>Depending on whether organic certification system exists, countries will
   select one of the below two proposed set of criteria and thus will be
   evaluated/scored differently in terms of their sustainability status.
-  According to this formulation, to secure green status, farms in countries with
-  organic certification in place, will have to check 3 out of 6 criteria. On the
-  contrary, farms operating in countries with no organic certification in place,
-  will have to check 2 out of 5 criteria for obtaining the green status.</p>
+  According to this formulation, to secure green status, farms with organic
+  certification, will have to check 3 out of 6 criteria. On the contrary, farms
+  operating with no organic certification, will have to check 2 out of 5
+  criteria for obtaining the green status.</p>
 
   <p>The detailed formulation of the criteria for the 2 scoring systems is
   described below:</p>
 
   <ol>
-    <li><strong>Criteria for group of countries with organic certification systems/schemes:</strong></li>
+    <li><strong>Criteria for group of holdings with organic certification systems/schemes:</strong></li>
     <li>Leaves at least 10% of the holding area for natural or diverse vegetation. This can include natural pasture/grassland, maintaining wildflower strips, stone and wood heaps, trees or hedgerows, natural ponds or wetlands. </li>
     <li>Farm produces agricultural products that are organically certified, or its products are undergoing the certification process. </li>
     <li>Farm does not use medically important antimicrobials as growth promoters.</li>
@@ -1519,7 +1521,7 @@ OTHER_DOC: >-
   </ul>
 
   <ol>
-    <li><strong>Criteria for group of countries with no organic certification systems/schemes:</strong></li>
+    <li><strong>Criteria for group of holdings with no organic certification systems/schemes:</strong></li>
     <li>Leaves at least 10% of the holding area for natural or diverse vegetation. This can include natural pasture/grassland, maintaining wildflower strips, stone and wood heaps, trees or hedgerows, natural ponds or wetlands. </li>
     <li>Farm does not use medically important antimicrobials as growth promoters.</li>
     <li>At least two of the following contribute to farm production: 1) temporary crops, 2) pasture, 3) permanent crops, 4) trees on farm, 5) livestock or animal products, and 6) aquaculture</li>

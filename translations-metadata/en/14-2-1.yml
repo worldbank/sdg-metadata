@@ -9,178 +9,213 @@ SDG_TARGET: >-
 SDG_INDICATOR: >-
   <p>Indicator 14.2.1: Number of countries using ecosystem-based approaches to
   managing marine areas</p>
-META_LAST_UPDATE: <p>2021-02-08</p>
-SDG_RELATED_INDICATORS: <p>N/A</p>
+SDG_SERIES_DESCR: >-
+  <p>Number of countries using ecosystem-based approaches to manage marine areas
+  (1=YES; 0=NO) EN_SCP_ECSYBA </p>
+META_LAST_UPDATE: '2023-01-24'
+SDG_RELATED_INDICATORS: '<p>14.1.1, 14.5.1</p>'
 SDG_CUSTODIAN_AGENCIES: <p>United Nations Environment Programme (UNEP)</p>
 CONTACT_ORGANISATION: <p>United Nations Environment Programme (UNEP)</p>
 STAT_CONC_DEF: >-
   <p><strong>Definition: </strong></p>
 
-  <p>Regional Seas Coordinated Indicator 22 &#x2018;Integrated Coastal Zone
-  Management (ICZM) is proposed as the primary indicator. For countries with
-  Marine/Maritime Spatial Planning (MSP) in place, these plans can be helpful to
-  assess ICZM. For other countries, it is important to identify ways to measure
-  existing plans and to build capacity for integrated planning. All data for
-  this indicator will be based on country submissions to the Regional Seas
-  Programme. </p>
-
-  <p>In order to promote the use of the Regional Seas as part of the follow-up
-  and review mechanism for the Regional Seas, UNEP drafted report on how
-  Regional Seas data could be directly used for the SDGs (see
-  https://wedocs.unep.org/bitstream/handle/20.500.11822/27295/ocean_SDG.pdf?sequence=1&amp;isAllowed=y).</p>
-
-  <p>A full methodology for this indicator is available in the document
-  entitled, &#x201C;Global Manual on Ocean Statistics for Measuring SDG 14.1.1,
-  14.2.1 and 14.5.1&#x201D;.</p>
-
   <p><strong>Concepts:</strong></p>
 
-  <p>ICZM &#x2013; An Integrated Coastal Zone Management (ICZM) plan covers the
-  entire coastal zone. Marine and terrestrial areas are managed together. Plans
-  are developed through coordination across different marine and terrestrial
-  institutions and agencies.</p>
+  <p>Regional Seas Coordinated Indicator 22 &#x2018;Integrated Coastal Zone
+  Management&#x2019; (ICZM) is proposed as the primary indicator. For countries
+  with Marine/Maritime Spatial Planning (MSP) in place, these plans can be
+  helpful to assess ICZM. For other countries, it is important to identify ways
+  to measure existing plans and to build capacity for integrated planning. </p>
 
-  <p>Marine Spatial Planning (MSP) &#x2013; Marine Spatial Planning is focused
-  on the EEZ. It the integrates the needs and policies of multiple marine
-  sectors in one coherent planning framework.</p>
+  <p>An Integrated Coastal Zone Management (ICZM) plan covers the entire coastal
+  zone. Marine and terrestrial areas are managed together. Plans are developed
+  through coordination across different marine and terrestrial institutions and
+  agencies.</p>
 
-  <p>EEZ - national Exclusive Economic Zone (EEZ) (200 nautical miles from the
-  coast) as outlined by the United Nations Convention on the Law of the Sea.
-  </p>
-UNIT_MEASURE: <p>Number</p>
-SOURCE_TYPE: <p>Data provided by national governments</p>
+  <p>Marine Spatial Planning (MSP) is focused on the Exclusive Economic Zone
+  (EEZ). It integrates the needs and policies of multiple marine sectors into
+  one coherent planning framework.</p>
+
+  <p>The Exclusive Economic Zone (EEZ) is an area beyond and adjacent to the
+  territorial sea. The EEZ shall not extend beyond 200 nautical miles from the
+  baselines from which the breadth of the territorial sea is measured, as
+  outlined by the United Nations Convention on the Law of the Sea.</p>
+
+  <p>Territorial sea is a belt of coastal waters extending at most 12 nautical
+  miles from the baseline of a coastal state, as outlined by the United Nations
+  Convention on the Law of the Sea.</p>
+
+  <p>The full methodology for this indicator is available in the document
+  entitled &#x201C;<a
+  href="https://wedocs.unep.org/handle/20.500.11822/35086">Understanding the
+  State of the Ocean: A Global Manual on Measuring SDG 14.1.1, SDG 14.2.1 and
+  SDG 14.5.1</a>&#x201D; (UNEP, 2021).</p>
+UNIT_MEASURE: >-
+  <p>For time series characterising the world or regions: number.</p>
+
+  <p>For time series characterising selected countries: identification
+  &#x201C;1&#x201D; meaning presence, or &#x201C;0&#x201D; meaning not
+  present.</p>
+
+  <p>The &#x201C;number&#x201D; represents the number of countries using
+  ecosystem-based approaches to manage marine areas. </p>
+CLASS_SYSTEM: >-
+  <p>Standard Country or Area Codes for Statistical Use (UN M49 classification
+  of countries and regions)</p>
+SOURCE_TYPE: <p>Data are provided by national governments.</p>
 COLL_METHOD: >-
-  <p>The custodian agencies propose to collect national data through the
-  Regional Seas Programmes in order to reduce the reporting burden on countries.
-  For countries that are not included in a Regional Seas Programme then UNEP
-  will reach out directly. </p>
-FREQ_COLL: >-
-  <p>1. First data collection: Data is already being collected by the Regional
-  Seas</p>
-REL_CAL_POLICY: '<p>1. First reporting cycle: 2021</p>'
+  <p>National data are collected through the Regional Seas Programmes to reduce
+  the reporting burden on countries. For countries that are not included in the
+  Regional Seas Programme, UNEP contacts countries directly. </p>
+FREQ_COLL: |-
+  <p>First data collection cycle: 2021.</p>
+  <p>Second collection cycle: 2025.</p>
+  <p>Third collection cycle: 2029.</p>
+REL_CAL_POLICY: |-
+  <p>First reporting cycle: 2022</p>
+  <p>Second collection cycle: 2026.</p>
+  <p>Third collection cycle: 2030.</p>
 DATA_SOURCE: >-
-  <p>National Statistical Systems, through the Regional Seas. The Regional Seas
-  Programmes include the CPPS: Permanent Commission for the South Pacific
-  (Southeast Pacific); EU MSFD: European Union Marine Strategy Framework
-  Directive; EU WFD: European Union Water Framework Directive; GEF-TWAP: Global
-  Environment Facility Transboundary Waters Assessment Programme; HELCOM:
-  Helsinki Commission (Baltic Sea); Nairobi Convention (Western Indian Ocean);
-  NOAA: National Oceanic and Atmospheric Administration; NOWPAP: Northwest
-  Pacific Action Plan (Northwest Pacific); OSPAR: Oslo-Paris Convention
-  (Northeast Atlantic); ROMPE: Regional organization for the Protection of the
-  Marine Environment (ROMPE sea area); UNEP-MAP: UN Environment Mediterranean
-  Action Plan (Mediterranean Sea)). For more information on the Regional Seas
-  see:
-  https://www.unenvironment.org/explore-topics/oceans-seas/what-we-do/working-regional-seas.
-  </p>
-COMPILING_ORG: >-
-  <p>1. UN Environment (United Nations Environment Programme), in collaboration
-  with partners mentioned in the other sections of this metadata</p>
-RATIONALE: >-
-  <p>From an ecological perspective, ecosystem approaches consider the
-  connections between the living organisms, habitats, physical and chemical
-  conditions within an ecosystem, focusing on the importance of ecological
-  integrity, biodiversity and overall ecosystem health. From a management
-  perspective, ecosystem-based approaches refer to integrated management
-  strategies for socio-ecological systems that consider ecological, social and
-  economic factors and apply principles of sustainable development. </p>
+  <p>National governments, through the Regional Seas, or directly to the United
+  Nations Environment Programme (UNEP). </p>
 
-  <p>A marine or coastal area-based (or spatial) management promotes better
-  management of EEZs. Many countries use Marine Spatial Planning (MSP) and
-  Integrated Coastal Zone Management (ICZM) as their approach for ensuring
-  appropriate ecosystem-based management, including issues that are
-  cross-sectoral and wider scale in nature.</p>
+  <p>More information on the Regional Seas Programme is <a
+  href="https://www.unep.org/explore-topics/oceans-seas/what-we-do/regional-seas-programme">here</a>.</p>
+COMPILING_ORG: >-
+  <p>The United Nations Environment Programme (UNEP), in collaboration with the
+  Reginal Seas Programme.</p>
+INST_MANDATE: >-
+  <p>The United Nations Environment Programme (UNEP) was mandated as Custodian
+  Agencies for indicator 14.2.1 by the Inter-agency and Expert Group on SDG
+  Indicators.</p>
+
+  <p>The <a
+  href="https://www.unep.org/explore-topics/oceans-seas/what-we-do/regional-seas-programme">UNEP
+  Regional Seas Programme</a> is UNEP&#x2019;s most important regional mechanism
+  for conservation of the marine and coastal environment since its establishment
+  in 1974. These Multilateral Environmental Agreements are governed by their own
+  meetings of the Contracting Parties. The individual Regional Seas Conventions
+  and Action Plans have both a normative and implementation mandate. They
+  provide an expression of common regional priorities, including those in the
+  delivery of global mandates such as the 2030 Agenda, provisions of
+  Multilateral Environmental Agreements (MEAs) and United Nations Environment
+  Assembly (UNEA) resolutions. They also provide platforms for acting, including
+  through integrated assessment, policy development, capacity building and
+  exchange, as well as through implementation of projects. By building on the
+  mandates of Regional Seas in addressing adverse impacts to the marine and
+  coastal environment, UNEP can enhance impact and sustainability of efforts by
+  utilization of advantages of the Regional Seas under the programme of work at
+  the regional level.</p>
+RATIONALE: >-
+  <p> Oceans are an important part of the global system and covering more than
+  70 per cent of the Earth&#x2019;s surface. They provide food and livelihoods
+  for billions of people, absorb atmospheric heat and more than a quarter of
+  carbon dioxide, and produce about half of the oxygen in the atmosphere. </p>
+
+  <p>Due to human activities, global climate change and environmental problems
+  have led to threats to marine ecosystems and environments. It is important to
+  identify ways to measure existing plans and to build capacity for integrated
+  planning.</p>
 REC_USE_LIM: >-
-  <p>The Indicator only measures the policy formulation and not policy
+  <p>The indicator only measures the policy formulation and not policy
   implementation.</p>
 DATA_COMP: >-
-  <p>A full methodology for this indicator is available in the document
-  entitled, &#x201C;Global Manual on Ocean Statistics for Measuring SDG 14.1.1,
-  14.2.1 and 14.5.1&#x201D;.</p>
+  <p>The full methodology for this indicator is available in the document
+  entitled &#x201C;<a
+  href="https://wedocs.unep.org/handle/20.500.11822/35086">Understanding the
+  State of the Ocean: A Global Manual on Measuring SDG 14.1.1, SDG 14.2.1 and
+  SDG 14.5.1</a>&#x201D; (UNEP, 2021).</p>
 
-  <p>Regional Seas Coordinated Indicator 22 &#x2018;Integrated Coastal Zone
-  Management (ICZM) is proposed as the primary indicator. For countries with
-  Marine/Maritime Spatial Planning (MSP) in place, these plans can be helpful to
-  assess ICZM. For other countries, it is important to identify ways to measure
-  existing plans and to build capacity for integrated planning. All data for
-  this indicator will be based on country submissions to the Regional Seas
-  Programme. </p>
+  <p>This indicator aims to capture Integrated Coastal Zone Management (ICZM)
+  and other area-based, integrated planning and management in place in waters
+  under national jurisdiction, including exclusive economic zones (e.g.
+  marine/maritime spatial planning, Marine Protected Areas (MPAs), marine
+  zoning, sector specific management plans).</p>
 
-  <p>This indicator will measure the number of countries using ecosystem-based
-  approaches to manage marine areas (measured through ICZM (Integrated Coastal
-  Zone Management), marine spatial plan or other area-based, integrated planning
-  and management in place.</p>
+  <p>To score this indicator, countries should: </p>
 
-  <p>Step one </p>
+  <ol>
+    <li>Identify national authorities/agencies/organisations responsible for coastal and marine/maritime planning and management.</li>
+    <li>Identify and spatially map the boundaries of ICZM plans or other plans at national, sub-national and local level. Coordinate with the national authorities/agencies/organisations responsible for coastal and marine/maritime planning and management to complete a questionnaire on the ICZM plans.</li>
+    <li>Determine the status of implementation of each plan, and categorise the spatial map according to implementation stages:</li>
+  </ol>
 
-  <p>Identify national authorities/agencies/organisations responsible for
-  coastal and marine/maritime planning and management.</p>
+  <p>1) Initial plan preparation.</p>
 
-  <p>Step two </p>
+  <p>2) Plan development.</p>
 
-  <p>Identify and spatially map the boundaries of ICZM plans or other plans at
-  national, sub-national and local level. Coordinate with the national
-  authorities/agencies/organisations responsible for coastal and marine/maritime
-  planning and management to complete a questionnaire on the ICZM plans (Shipman
-  and Petit 2014)).</p>
+  <p>3) Plan adoption/designation.</p>
 
-  <p>Step three</p>
+  <p>4) Implementation and adaptive management.</p>
 
-  <p>Determine the status of implementation of each plan, and categorise the
-  spatial map according to implementation stages:</p>
-
-  <p>1) Initial plan preparation</p>
-
-  <p>2) Plan development</p>
-
-  <p>3) Plan adoption/designation</p>
-
-  <p>4) Implementation and adaptive management</p>
-
-  <p>Collect the questionnaire responses and document the answers is
-  recommended. The spatial map showing the boundaries of relevant plans
-  (produced in step two) could also be used to calculate the proportion of
-  national waters, or national exclusive economic zone, covered by relevant
-  plans. This can be done by overlaying the spatial layer of relevant plans with
-  a spatial layer of national waters, or of the exclusive economic zone, to
-  identify where the two layers coincide. </p>
-
-  <p>All countries should report on if a plan is in place. </p>
+  <p>It is recommended that the collected responses include a spatial map
+  showing the boundaries of relevant plans. </p>
+DATA_VALIDATION: >-
+  <p>The United Nations Environment Programme (UNEP) and the Regional Seas will
+  be carried out extensive data validation procedures that include built-in
+  automated procedures, manual checks and cross-references to national sources
+  of data. Communication is carried out with countries for clarification and
+  validation of data. Only data that are considered accurate or those confirmed
+  by countries during the validation process are reported by UNEP on the SDG
+  Global Database.</p>
+ADJUSTMENT: <p>No adjustments are made.</p>
 IMPUTATION: >-
-  <p>Missing values are not imputed.</p>
-
-  <p><strong>&#x2022;</strong> <strong>At country level</strong></p>
-
-  <p><strong>&#x2022;</strong> <strong>At regional and global
-  levels</strong></p>
+  <p>The United Nations Environment Programme (UNEP) and the Regional Seas do
+  not make any estimation or imputation for missing values, so the number of
+  data points provided are actual country data. </p>
 REG_AGG: >-
   <p>The data will be aggregated at the sub-regional, regional and global levels
   by counting the number of countries with a plan for each group.</p>
+DOC_METHOD: >-
+  <p>The full methodology for this indicator is available in the document
+  entitled &#x201C;<a
+  href="https://wedocs.unep.org/handle/20.500.11822/35086">Understanding the
+  State of the Ocean: A Global Manual on Measuring SDG 14.1.1, SDG 14.2.1 and
+  SDG 14.5.1</a>&#x201D; (UNEP, 2021).</p>
+QUALITY_MGMNT: >-
+  <p>Quality management is provided by the United Nations Environment Programme
+  (UNEP) and the Regional Seas.</p>
+QUALITY_ASSURE: >-
+  <p>Quality assurance is provided by the United Nations Environment Programme
+  (UNEP) and the Regional Seas in cooperation with the countries that provide
+  these data.</p>
+QUALITY_ASSMNT: >-
+  <p>Quality assessment is provided by the United Nations Environment Programme
+  (UNEP) and the Regional Seas.</p>
 COVERAGE: >-
   <p><strong>Data availability:</strong></p>
 
-  <p>Data will be made available for all member states.</p>
+  <p>Data are available for all UN Member States reporting national data.</p>
 
   <p><strong>Time series:</strong></p>
 
-  <p>National data collection through the Regional Seas already exists for many
-  Regional Seas, this data will be compiled for SDG reporting in 2020. Reporting
-  will be every 5 years &#x2013; as policy development takes time.</p>
+  <p>Time series have different lengths for different UN Member States
+  (depending on the availability of data at the national level).</p>
 
   <p><strong>Disaggregation:</strong></p>
 
-  <p>&#x2022; A geospatial map of areas covered by a plan is recommended for
-  national level decision making.</p>
+  <p>By implementation stage: </p>
+
+  <ul>
+    <li>Initial plan preparation</li>
+    <li>Plan development</li>
+    <li>Plan adoption/designation</li>
+    <li>Implementation and adaptive management</li>
+  </ul>
 COMPARABILITY: |-
   <p><strong>Sources of discrepancies: </strong></p>
-  <p>NA</p>
+  <p>Not applicable</p>
 OTHER_DOC: >-
-  <p>Regional Seas website:
-  https://www.unenvironment.org/explore-topics/oceans-seas/what-we-do/working-regional-seas.
-  </p>
+  <p><a
+  href="https://www.unep.org/explore-topics/oceans-seas/what-we-do/regional-seas-programme">Regional
+  Seas Programme website</a> </p>
 
-  <p>UNEP Global Manual on Ocean Statistics for Measuring SDG 14.1.1, 14.2.1 and
-  14.5.1 (forthcoming)</p>
+  <p><a href="https://wedocs.unep.org/handle/20.500.11822/35086">Understanding
+  the State of the Ocean: A Global Manual on Measuring SDG 14.1.1, SDG 14.2.1
+  and SDG 14.5.1</a> (UNEP, 2021) </p>
 
-  <p>ICZM (and Marine Spatial Planning (MSP)) for monitoring SDG 14.1.1:
-  https://wedocs.unep.org/bitstream/handle/20.500.11822/26440/MSP_ICZM_Guidelines.pdf?sequence=1&amp;isAllowed=y</p>
+  <p><a
+  href="https://wedocs.unep.org/bitstream/handle/20.500.11822/26440/MSP_ICZM_Guidelines.pdf?sequence=1&amp;isAllowed=y">Conceptual
+  guidelines for the application of Marine Spatial Planning and Integrated
+  Coastal Zone Management approaches to support the achievement of Sustainable
+  Development Goal Targets 14.1 and 14.2</a> (UNEP, 2018)</p>
