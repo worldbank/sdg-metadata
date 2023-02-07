@@ -10,11 +10,11 @@
 &lt;/ul&gt;
 &lt;p&gt;The starting point for computing the index is to assemble existing information for each tracer indicator. In many cases, this involves using country time series that have been produced or collated by UN agencies in consultation with country governments (e.g., immunization coverage, access to sanitation, HIV treatment coverage, etc). Some of these published time series involve mathematical modelling to reconcile multiple data sources or impute missing values, and these details are summarized in Annex 1. &lt;/p&gt;
 &lt;p&gt; &lt;/p&gt;
-&lt;p&gt;After assembling these inputs, there are still missing values for some country-years for some indicators. Calculating the UHC service coverage index requires values for each tracer indicator for a country, so some imputation is necessary to fill these data gaps. The current approach involves a simple imputation algorithm. For each indicator: &lt;/p&gt;
+&lt;p&gt;After assembling these inputs, there are still missing values for some country-years for some indicators. Calculating the universal health coverage (UHC) service coverage index requires values for each tracer indicator for a country, so some imputation is necessary to fill these data gaps. The current approach involves a simple imputation algorithm. For each indicator: &lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;If a country has missing values between two years with values, linear interpolation is used to fill missing values for the intervening years &lt;/li&gt;
   &lt;li&gt;If a country has historical years with values, but no current value, constant extrapolation is used to fill missing values to the current year &lt;/li&gt;
-  &lt;li&gt;If a country has no values, a value is imputed. For pneumonia care-seeking and density of surgeons, a regression is fit to impute missing values (see Annex 1 for details). For all other indicators, a regional median is calculated to impute missing values. Regions are based on World Bank geographic regions, with a separate grouping of traditional high-income countries&lt;sup&gt;1&lt;/sup&gt; &lt;/li&gt;
+  &lt;li&gt;If a country has no values, a value is imputed. For pneumonia care-seeking and density of surgeons, a regression is fit to impute missing values (see Annex 1 for details). For all other indicators, a regional median is calculated to impute missing values. By default, regions are based on UN SDG subregions. However, when there are not enough countries within UN SDG subregions with available data, other groupings can be used.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt; &lt;/p&gt;
 &lt;p&gt;Given the timing and distribution of various health surveys and other data collection mechanisms, countries do not collect and report on all 14 tracer indicators of health service coverage on an annual basis. In addition, monitoring at country level is most suitably done at broader time intervals, e.g., every 5 years, to allow for new data collection across indicators. Therefore, the extent to which imputation has been used to fill missing information should be communicated along with the index value. &lt;/p&gt;
@@ -22,7 +22,7 @@
 &lt;ul&gt;
   &lt;li&gt;&lt;strong&gt;At regional and global levels &lt;/strong&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Any needed imputation is done at country level. These country values can then be used to compute regional and global ones. &lt;/p&gt;
+&lt;p&gt;Any needed imputation is done at country level. These country values can then be used to compute regional and global values. &lt;/p&gt;
 			</language>
 			<language lang="es">&lt;h2&gt;Tratamiento de valores faltantes:&lt;/h2&gt;
 &lt;ul&gt;

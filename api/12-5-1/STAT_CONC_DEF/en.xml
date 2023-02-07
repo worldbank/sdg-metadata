@@ -3,52 +3,13 @@
 	<status>success</status>
 	<message>The STAT_CONC_DEF field for indicator 12-5-1, translated into en</message>
 	<data>&lt;p&gt;&lt;strong&gt;Definitions:&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;For the purposes of this indicator, the National Recycling Rate will be defined as the quantity of material recycled in the country plus quantities exported for recycling out of total waste generated in the country, minus material imported intended for recycling. Note that recycling includes codigestion/anaerobic digestion and composting/aerobic process, but not controlled combustion (incineration) or land application.&lt;/p&gt;
-&lt;table&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td colspan=&quot;2&quot;&gt;
-        &lt;p&gt;&lt;strong&gt;Level 1 Indicators&lt;/strong&gt;&lt;/p&gt;
-      &lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;
-        &lt;p&gt;&lt;em&gt;National recycling rate&lt;/em&gt;&lt;/p&gt;
-      &lt;/td&gt;
-      &lt;td&gt;
-        &lt;p&gt;(Material recycled + material exported for recycling &amp;#x2013; material imported for recycling) / total waste generated&lt;/p&gt;
-        &lt;p&gt;(with gap filling for regional and global aggregates)&lt;/p&gt;
-      &lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td colspan=&quot;2&quot;&gt;
-        &lt;p&gt;&lt;strong&gt;Level 2 Indicators&lt;/strong&gt;&lt;/p&gt;
-      &lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;
-        &lt;p&gt;&lt;em&gt;Total Waste Generated (excluding construction, mining and agriculture) by type, including e-waste &lt;/em&gt;&lt;/p&gt;
-      &lt;/td&gt;
-      &lt;td&gt;
-        &lt;p&gt;This is the denominator for recycling and useful for understanding the target 12.5 on waste reduction.&lt;/p&gt;
-      &lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;
-        &lt;p&gt;&lt;em&gt;National recycling rate by type of waste, including e-waste (other possible disaggregations include for metals and packaging waste)&lt;/em&gt;&lt;/p&gt;
-      &lt;/td&gt;
-      &lt;td&gt;
-        &lt;p&gt;Based on national data sources, including disaggregation of the recycling rate&lt;/p&gt;
-      &lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-&lt;p&gt;A full methodology for this indicator is available in the document entitled, &amp;#x201C;Global Chemicals and Waste Indicator Review Document (UNEP, forthcoming)&amp;#x201D;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;National Recycling Rate&lt;/strong&gt; is defined as the quantity of material recycled in the country plus quantities exported for recycling minus material imported intended for recycling out of total waste generated in the country. Note that recycling includes codigestion/anaerobic digestion and composting/aerobic process, but not controlled combustion (incineration) or land application.&lt;/p&gt;
+&lt;p&gt;National recycling rate can be presented by type of waste, including e-waste, plastic waste, municipal waste, and others.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Concepts:&lt;/strong&gt;&lt;em&gt; &lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;Material recycled&lt;/em&gt; Expressed in tons, reported at the last entity in the recycling chain, preferably when tons of material is bought as secondary resource to be used in production facilities during the course of the reporting year; Secondary mineral materials used in the construction sector are excluded; composting is considered recycling for the purposes of this indicator.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;Municipal Solid Waste (MSW)&lt;/em&gt; includes waste originating from households, commerce and trade, small businesses, office buildings and institutions (schools, hospitals, government buildings). It also includes bulky waste (e.g., old furniture, mattresses) and waste from selected municipal services, e.g., waste from park and garden maintenance, waste from street cleaning services (street sweepings, the content of litter containers, market cleansing waste), if managed as waste. Further information on municipal solid waste is defined in the SDG indicator methodology for 11.6.1. &lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Material recycled&lt;/em&gt; expressed in tons, reported at the last entity in the recycling chain, preferably when tons of material is bought as secondary resource to be used in production facilities during the course of the reporting year; Secondary mineral materials used in the construction sector are excluded; composting is considered recycling for the purposes of this indicator.&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;Recycling&lt;/em&gt; is defined under the UNSD/UNEP Questionnaire on Environment Statistics and further for the purpose of these indicators as &amp;#x201C;Any reprocessing of waste material [&amp;#x2026;] that diverts it from the waste stream, except reuse as fuel. Both reprocessing as the same type of product, and for different purposes should be included. Recycling within industrial plants i.e., at the place of generation should be excluded.&amp;#x201D;&lt;/p&gt;
 &lt;p&gt;For the purpose of consistency with the Basel Convention reporting and correspondence with EUROSTAT reporting system, Recovery operations R2 to R12 listed in Basel Convention Annex IV, are to be considered as &amp;#x2018;Recycling&amp;#x2019; under the UNSD reporting for hazardous waste. &lt;/p&gt;
 &lt;p&gt;&lt;em&gt;Total waste generated&lt;/em&gt; is the total amount of waste (both hazardous and non-hazardous) generated in the country during the year. &lt;/p&gt;
-&lt;p&gt;&lt;em&gt;Total waste generated (excluding construction, mining and agriculture) &lt;/em&gt;is the total amount of waste (both hazardous and non-hazardous) generated in the country during the year. For the purpose of this indicator, total waste generated will include municipal solid waste, non-hazardous industrial waste, hazardous waste and exclude non-metallic minerals (industrial and construction minerals), construction waste and agricultural waste. Expressed in tons, reported as the sum of waste generated during the course of the reporting year in sectors following the UNSD/UNEP Questionnaire on Environment Statistics, Table R1 Generation of Waste by Source, excluding Construction waste (F 41- 43 ISIC code), Agricultural waste (A 01-03 ISIC code) and Mining and quarrying waste (ISIC 05-09).&lt;/p&gt;</data>
+&lt;p&gt;&lt;em&gt;Municipal Solid Waste (MSW)&lt;/em&gt; includes waste originating from households, commerce and trade, small businesses, office buildings and institutions (schools, hospitals, government buildings). It also includes bulky waste (e.g., old furniture, mattresses) and waste from selected municipal services, e.g., waste from park and garden maintenance, waste from street cleaning services (street sweepings, the content of litter containers, market cleansing waste), if managed as waste. Further information on MSW is defined in the SDG indicator methodology for 11.6.1. &lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Electronic waste, or e-waste,&lt;/em&gt; refers to all items of electrical and electronic equipment (EEE) and its parts that have been discarded by its owner as waste without the intent of re-use.&lt;/p&gt;</data>
 </root>

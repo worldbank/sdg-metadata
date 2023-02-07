@@ -2,12 +2,5 @@
 <root>
 	<status>success</status>
 	<message>The DOC_METHOD field for indicator 15-4-2, translated into en</message>
-	<data>&lt;p&gt;The indicator value can be calculated as follows: &lt;/p&gt;
-&lt;ol&gt;
-  &lt;li&gt; The ESA CCI land cover classes are reclassified into six IPCC classes and Green/Non-Green cover map. &lt;/li&gt;
-  &lt;li&gt; The Kapos Elevation Ranges map is overlaid on top of the map resulting from step 1. &lt;/li&gt;
-  &lt;li&gt; Zonal histogram is calculated for each country and regional grouping in such a way that the number of pixels belonging to green and non-green classes are counted within each elevation range. &lt;/li&gt;
-  &lt;li&gt; The ratio (%) between the sum of the green pixels and the total number of pixels (green plus non green) falling within each Kapos is calculated to obtain MGCI values per each Kapos class. &lt;/li&gt;
-  &lt;li&gt;The same procedure is used to calculate the distribution of the land cover classes as defined by IPCC within each elevation range. &lt;/li&gt;
-&lt;/ol&gt;</data>
+	<data>&lt;p&gt;Detailed guidance and computation tools to support countries to compute the indicator and report its values using standardised reporting tables will be provided by FAO. &lt;/p&gt;</data>
 </root>

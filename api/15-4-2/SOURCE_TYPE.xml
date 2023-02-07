@@ -5,28 +5,9 @@
 	<data>
 		<languages>
 			<language lang="ar"/>
-			<language lang="en">&lt;p&gt;Global estimates computed by FAO are derived using the following data sources:&lt;/p&gt;
-&lt;ol&gt;
-  &lt;li&gt;&lt;strong&gt; Vegetation descriptor layer: ESA CCI Land Cover data (ESA, 2017)&lt;/strong&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;The European Space Agency Climate Change Initiative (ESA CCI) is a programme aiming at exploiting the full potential of the earth observation data collected by ESA to contribute to the Essential Climate Variables databases required by the United Nations Framework Convention on Climate Change (UNFCCC). &lt;/p&gt;
-&lt;p&gt;The CCI Land Cover products have been produced using a combination of remote sensing data such as the 300 m MERIS, 1km SPOT &amp;#x2013;VEGETATION, 1km PROBA &amp;#x2013;V and 1km AVHRR. The CCI product consists of a series of annual Land Cover maps at 300 m resolution spanning the period 1992 to 2018. The period from 1992-2015 is available in raster format, whereas the 2016-2018 is available in netCDF format and a transformation to GTIFF is required to make these datasets available for processing in a GIS environment. The land cover data is updated every year by the European Space Agency. &lt;/p&gt;
-&lt;p&gt;The ESA CCI adheres to the Cover Classification System of the United Nations Food and Agriculture Organization (UN FAO) (Santoro &lt;em&gt;et al&lt;/em&gt;., 2015). &lt;/p&gt;
-&lt;ol&gt;
-  &lt;li&gt;&lt;strong&gt;Mountain descriptor layer:&lt;/strong&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;The global mountain descriptor layer is based on the mountain classification proposed by Kapos &lt;em&gt;et al.&lt;/em&gt; (2000):&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Class 1: elevation &amp;gt; 4500 meters &lt;/li&gt;
-  &lt;li&gt;Class 2: elevation 3500 - 4500 meters&lt;/li&gt;
-  &lt;li&gt;Class 3: elevation 2500 &amp;#x2013; 3500 meters &lt;/li&gt;
-  &lt;li&gt;Class 4: elevation 1500 &amp;#x2013; 2500 meters and slope &amp;#x2265; 2&lt;/li&gt;
-  &lt;li&gt;Class 5: elevation 1,000&amp;#x2013;1,500 meters and slope &amp;#x2265; 5 or local elevation range (7 kilometers radius) &amp;#x2265; 300 meters&lt;/li&gt;
-  &lt;li&gt;Class 6: elevation 300&amp;#x2013;1,000 meters and local elevation range (7 kilometres radius) &amp;#x2265; 300 meters outside 23&amp;#xB0;N&amp;#x2014;19&amp;#xB0;S &lt;/li&gt;
-  &lt;li&gt;Class 0: Defined to represent the non-mountainous areas. &lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;The mountain description layer used to derive the global estimates was created by the US Geological Survey from a 250 m DEM (Sayre &lt;em&gt;et al.&lt;/em&gt; 2018).&lt;/p&gt;
-&lt;p&gt;These datasets may be replaced by nationally relevant data sources when available.&lt;/p&gt;
+			<language lang="en">&lt;p&gt;Land cover maps developed by relevant national authorities will generally provide the most relevant data source to compute this indicator. However, in certain cases, such data may not be available. In those cases, various regional or global products provide a viable alternative.&lt;/p&gt;
+&lt;p&gt;The global default source of land cover data for this indicator is the European Space Agency Climate Change Initiative (ESA-CCI) Land Cover product (ESA, 2017). The ESA-CCI product consists of a series of annual Land Cover maps at 300 m resolution, providing 22 land cover classes based on 300m MERIS, 1km SPOT &amp;#x2013;VEGETATION, 1km PROBA &amp;#x2013;V and 1km AVHRR. The ESA CCI adheres to the Cover Classification System of the United Nations Food and Agriculture Organization (UN FAO) (Santoro &lt;em&gt;et al&lt;/em&gt;. 2015). Annual updates are currently available from 1992 to 2020. Additional years will be made available by the European Space Agency. &lt;/p&gt;
+&lt;p&gt;A global mountain area map sub-divided by bioclimatic belts has been developed by FAO and made available to national authorities to facilitate the compute this indicator. This map is the result of combining a global mountain area map developed from the Global Multi-Resolution Terrain Elevation Data (GMTED2010), following the UNEP-WCMC methodology (Ravilious &lt;em&gt;et al. &lt;/em&gt;2021) and a mountain bioclimatic belt map created by the Global Mountain Biodiversity Assessment&lt;sup&gt;&lt;a href=&quot;#footnote-4&quot; id=&quot;footnote-ref-4&quot;&gt;[3]&lt;/a&gt;&lt;/sup&gt;. &lt;/p&gt;&lt;div class=&quot;footnotes&quot;&gt;&lt;div&gt;&lt;sup class=&quot;footnote-number&quot; id=&quot;footnote-4&quot;&gt;3&lt;/sup&gt;&lt;p&gt; https://ilias.unibe.ch/goto.php?target=file_2171234 &lt;a href=&quot;#footnote-ref-4&quot;&gt;&amp;#x2191;&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;
 			</language>
 			<language lang="es">&lt;h1&gt;Fuentes de datos&lt;/h1&gt;
 &lt;h2&gt;Descripción:&lt;/h2&gt;
