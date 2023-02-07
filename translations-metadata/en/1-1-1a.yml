@@ -6,7 +6,7 @@ SDG_INDICATOR: >-
   <p>Indicator 1.1.1: Proportion of the population living below the
   international poverty line by sex, age, employment status and geographic
   location (urban/rural)</p>
-META_LAST_UPDATE: '2022-04-12'
+META_LAST_UPDATE: '2022-09-30'
 SDG_RELATED_INDICATORS: >-
   <p>Indicator 1.2.1: Proportion of population living below the national poverty
   line, by sex and age</p>
@@ -24,7 +24,7 @@ STAT_CONC_DEF: >-
 
   <p>The indicator &#x201C;proportion of the population below the international
   poverty line&#x201D; is defined as the percentage of the population living on
-  less than $1.90 a day at 2011 international prices. </p>
+  less than $2.15 a day at 2017 international prices. </p>
 
   <p><strong>Concepts:</strong></p>
 
@@ -49,15 +49,15 @@ STAT_CONC_DEF: >-
   typical of the poverty lines in low-income countries at the time. As
   differences in the cost of living across the world evolve, the international
   poverty line has to be periodically updated using new PPP price data to
-  reflect these changes. The last change was in October 2015, when the World
-  Bank adopted $1.90 as the international poverty line using the 2011 PPP. Prior
-  to that, the 2008 update set the international poverty line at $1.25 using the
-  2005 PPP. Poverty measures based on international poverty lines attempt to
+  reflect these changes. The last change was in September 2022, when the World
+  Bank adopted $2.15 as the international poverty line using the 2017 PPP. Prior
+  to that, the 2015 update set the international poverty line at $1.90 using the
+  2011 PPP. Poverty measures based on international poverty lines attempt to
   hold the real value of the poverty line constant across countries, as is done
   when making comparisons over time. Early editions of the World Bank&#x2019;s
   World Development Indicators (WDI) used PPPs from the Penn World Tables to
   convert values in local currency to equivalent purchasing power measured in
-  U.S dollars. Later editions used 1993, 2005, and 2011 consumption PPP
+  U.S dollars. Later editions used 1993, 2005, 2011, 2017 consumption PPP
   estimates produced by the World Bank&#x2019;s International Comparison Program
   (ICP).</p>
 UNIT_MEASURE: <p>The unit of measure is the proportion of people. </p>
@@ -124,10 +124,9 @@ RATIONALE: >-
   that is updated annually as new survey data become available (and thus may
   contain more recent data or revisions) and conducts a major reassessment of
   progress against poverty every year. PIP is an interactive computational tool
-  that allows users to replicate these internationally comparable $1.90 and
-  $3.20 a day global, regional and country-level poverty estimates and to
-  compute poverty measures for custom country groupings and for different
-  poverty lines. </p>
+  that allows users to replicate these internationally comparable $2.15 a day
+  global, regional and country-level poverty estimates and to compute poverty
+  measures for country groupings and for different poverty lines. </p>
 
   <p>PIP also provides access to the database and user-friendly dashboards with
   graphs and interactive maps that visualize trends in key poverty and
@@ -171,20 +170,20 @@ DATA_COMP: >-
   1980s (Ravallion, et al., 1991). While this was the best that could be done at
   the time, the sample was hardly representative of developing countries even in
   the 1980s. Since then, national poverty lines have been developed for many
-  other countries. Based on a new compilation of national lines for 75
-  developing countries, Ravallion, Chen and Sangraula (RCS) (2009) proposed a
-  new international poverty line of $1.25 a day. This is the average poverty
-  line for the poorest 15 countries in their data set. </p>
+  other countries. Based on a compilation of national lines for 75 developing
+  countries, Ravallion, Chen and Sangraula (RCS) (2009) proposed a new
+  international poverty line of $1.25 a day. This is the average poverty line
+  for the poorest 15 countries in their data set. </p>
 
-  <p>The current extreme poverty line is set at $1.90 a day in 2011 PPP terms,
-  which represents the mean of the national poverty lines found in the same
-  poorest 15 countries ranked by per capita consumption. The new poverty line
-  maintains the same standard for extreme poverty - the poverty line typical of
-  the poorest countries in the world - but updates it using the latest
-  information on the cost of living in developing countries. </p>
+  <p>The current extreme poverty line is set at $2.15 a day in 2017 PPP terms,
+  which represents the mean of the national poverty lines found in 28 low income
+  countries (Jolliffe &#x24E1; al 2022) . The new poverty line maintains the
+  same standard for extreme poverty - the poverty line typical of the poorest
+  countries in the world - but updates it using the latest information on the
+  cost of living in developing countries. </p>
 
   <p>When measuring international poverty of a country, the international
-  poverty line at PPP is converted to local currencies in 2011 price and is then
+  poverty line at PPP is converted to local currencies in 2017 price and is then
   converted to the prices prevailing at the time of the relevant household
   survey using the best available Consumer Price Index (CPI). (Equivalently, the
   survey data on household consumption or income for the survey year are
@@ -280,8 +279,8 @@ COMPARABILITY: >-
   <p>National poverty is a different concept than global poverty. National
   poverty rate is defined at country-specific poverty lines in local currencies,
   which are different in real terms across countries and different from the
-  $1.90-a-day international poverty line. Thus, national poverty rates cannot be
-  compared across countries or with the $1.90-a-day poverty rate.</p>
+  $2.15-a-day international poverty line. Thus, national poverty rates cannot be
+  compared across countries or with the $2.15-a-day poverty rate.</p>
 OTHER_DOC: >-
   <p><strong>URL:</strong></p>
 
@@ -292,12 +291,10 @@ OTHER_DOC: >-
   <p>For more information and methodology, please see :
   https://worldbank.github.io/PIP-Methodology/.</p>
 
-  <p>Also, consult:
-  http://documents.worldbank.org/curated/en/2015/10/25114899/global-count-extreme-poor-2012-data-issues-methodology-initial-results
-  </p>
+  <p>Also, consult: https://openknowledge.worldbank.org/handle/10986/37061 </p>
 
   <p>For a short review see:
-  http://www.worldbank.org/en/topic/poverty/brief/global-poverty-line-faq </p>
+  https://www.worldbank.org/en/news/factsheet/2022/05/02/fact-sheet-an-adjustment-to-global-poverty-lines</p>
 
   <p>For a comprehensive link to related background papers, working papers and
   journal articles see: </p>

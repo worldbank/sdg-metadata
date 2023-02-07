@@ -10,39 +10,34 @@ SDG_INDICATOR: >-
   <p>Indicator 17.7.1: Total amount of funding for developing countries to
   promote the development, transfer, dissemination and diffusion of
   environmentally sound technologies</p>
-META_LAST_UPDATE: '2021-02-08'
+SDG_SERIES_DESCR: >-
+  <p>Amount of tracked exported Environmentally Sound Technologies (current
+  United States dollars) DC_ENVTECH_EXP</p>
+
+  <p>Amount of tracked imported Environmentally Sound Technologies (current
+  United States dollars) DC_ENVTECH_IMP</p>
+
+  <p>Amount of tracked re-exported Environmentally Sound Technologies (current
+  United States dollars) DC_ENVTECH_REXP</p>
+
+  <p>Amount of tracked re-imported Environmentally Sound Technologies (current
+  United States dollars) DC_ENVTECH_RIMP</p>
+
+  <p>Total investment in Environment Sound Technologies, by sector (current
+  United States dollars) DC_ENVTECH_INV</p>
+META_LAST_UPDATE: '2023-01-24'
 SDG_RELATED_INDICATORS: >-
-  <p>UNEP has identified a number of SDGs where uptake of ESTs contributes to
-  their achievement: Goal 7 on ensuring access to affordable, reliable,
-  sustainable and modern energy for all; Goal 8 on the promotion of sustained,
-  inclusive and sustainable economic growth, full and productive employment and
-  decent work for all; Goal 12 on sustainable consumption and production
-  patterns, and Goal 13 on taking urgent action to combat climate change and its
-  impacts.</p>
-SDG_CUSTODIAN_AGENCIES: |-
-  <p>United Nations Environment Programme (UNEP)</p>
-  <p>OECD</p>
-CONTACT_ORGANISATION: |-
-  <p>United Nations Environment Programme (UNEP)</p>
-  <p>OECD</p>
+  <p>United Nations Environment Programme (UNEP) has identified a number of SDGs
+  where uptake of Environmentally Sound Technologies (ESTs) contributes to their
+  achievement: Goal 7 on ensuring access to affordable, reliable, sustainable
+  and modern energy for all; Goal 8 on the promotion of sustained, inclusive and
+  sustainable economic growth, full and productive employment and decent work
+  for all; Goal 12 on sustainable consumption and production patterns, and Goal
+  13 on taking urgent action to combat climate change and its impacts.</p>
+SDG_CUSTODIAN_AGENCIES: <p>United Nations Environment Programme (UNEP)</p>
+CONTACT_ORGANISATION: <p>United Nations Environment Programme (UNEP)</p>
 STAT_CONC_DEF: >-
   <p><strong>Definition:</strong></p>
-
-  <p>The purpose of this indicator is to develop a methodology for tracking the
-  total amount of approved funding to promote the development, transfer,
-  dissemination and diffusion of environmentally sound technologies. A
-  two-pronged approach is suggested: </p>
-
-  <p>Level 1. Use globally available data to create a proxy of funding flowing
-  to developing countries for environmentally sound technologies, or of trade in
-  environmentally sound technologies </p>
-
-  <p>Leve2. Collect national data on investment in environmentally sound
-  technologies.</p>
-
-  <p><strong>Concepts:</strong></p>
-
-  <p><strong>UNEP definition</strong> </p>
 
   <p>Environmentally Sound Technologies (ESTs) are technologies that have the
   potential for significantly improved environmental performance relative to
@@ -55,17 +50,29 @@ STAT_CONC_DEF: >-
   managerial procedures for promoting environmental sustainability. This means
   that any attempt to provide an assessment of investment into ESTs on either a
   global or national level must incorporate ways to track funding flows into
-  both hard and soft technologies. </p>
+  both hard and soft technologies.</p>
 
-  <p><strong>The definition of an environmentally sound technology (EST) to be
-  used to track SDG 17.1</strong></p>
+  <p>The purpose of this indicator is to develop a methodology for tracking the
+  total amount of approved funding to promote the development, transfer,
+  dissemination and diffusion of environmentally sound technologies. A
+  two-pronged approach is suggested: </p>
 
-  <p>Include both hardware and software, including total systems that include
-  know- how, procedures, processes, goods and services, equipment, as well as
-  organisational and managerial procedures for promoting environmental
-  sustainability.</p>
+  <ul>
+    <li>Level 1. Use globally available data to create a proxy of funding flowing to developing countries for environmentally sound technologies, or of trade in environmentally sound technologies </li>
+    <li>Level 2. Collect national data on investment in environmentally sound technologies.</li>
+  </ul>
 
-  <p><strong>EST definition at national level</strong></p>
+  <p><strong>Concepts:</strong></p>
+
+  <p>There are five crucial elements which make up Goal 17 - finance, capacity
+  building, systemic issues, technology and trade- all of which must be aligned
+  for the Goal to be achieved. One of the key lessons over the last couple of
+  decades has been that in order to achieve potential growth, measurement of
+  financial flows (in terms of amount, type, geography, donor, recipient and
+  investors) is a necessary step in such a transformation. In order to
+  understand systemic issues, trade, capacity building, technology lock-in,
+  innovation and deployment, we must understand how, why and where finance is
+  being deployed. Only then we can begin to realign its flows.</p>
 
   <p>In deciding which technologies are most appropriate, there will always be
   trade-offs between cost and a range of economic, social, health and
@@ -77,19 +84,32 @@ STAT_CONC_DEF: >-
   account the national context and mainstream technologies nationally. However,
   there is a real need to support national, sub-national governments and other
   actors with decision-making and defining the most nationally or locally
-  appropriate technologies. </p>
-SOURCE_TYPE: |-
-  <p>Level 1: ComTrade database</p>
-  <p>Level 2: NSOs and other members of the NSS</p>
+  appropriate technologies.</p>
+UNIT_MEASURE: <p>Current United States Dollars</p>
+CLASS_SYSTEM: |-
+  <ul>
+    <li>International Standard Industrial Classification of All Economic Activities (ISIC), Rev.4.</li>
+    <li>Standard Country or Area Codes for Statistical Use (UN M49 classification of countries and regions).</li>
+    <li>Harmonized Commodity Description and Coding Systems (HS).</li>
+  </ul>
+SOURCE_TYPE: >-
+  <p>Level 1: the United Nations Comtrade database.</p>
+
+  <p>Level 2: National Statistical Offices (NSOs) and other members of the
+  National Statistical System (NSS).</p>
 COLL_METHOD: >-
-  <p>Data will be collected at national levels through a Questionnaire sent out
-  to national governments every two years. </p>
-FREQ_COLL: |-
-  <p>First data collection: Expected in early 2021.</p>
-  <p>And every 2 years thereafter.</p>
-REL_CAL_POLICY: '<p>First reporting cycle: Fall 2021.</p>'
-DATA_SOURCE: '<p>NSOs and other members of the NSS, complemented by global modelling</p>'
-COMPILING_ORG: <p>United Nations Environment Programme.</p>
+  <p>National data are collected through the UNEP Questionnaire on
+  Environmentally Sound Technologies every two years. </p>
+FREQ_COLL: '<p>First data collection in2021, then every 2 years.</p>'
+REL_CAL_POLICY: '<p>First reporting cycle in 2022, then every two years.</p>'
+DATA_SOURCE: >-
+  <p>National Statistical Offices (NSOs) and other members of the National
+  Statistical System (NSS), complemented by global modelling</p>
+COMPILING_ORG: <p>United Nations Environment Programme (UNEP)</p>
+INST_MANDATE: >-
+  <p>The United Nations Environment Programme (UNEP) was mandated as Custodian
+  Agencies for indicator 17.7.1 by the Inter-agency and Expert Group on SDG
+  Indicators. </p>
 RATIONALE: >-
   <p>Rational environmental management means making the best use of resources to
   meet basic human needs without destroying the sustaining and regenerative
@@ -103,17 +123,17 @@ RATIONALE: >-
   major component of international environmental cooperation. Access to ESTs
   also play a central role in the ground-breaking agreement, the Addis Ababa
   Action Agenda &#x2013; which is an implementing mechanism for the global
-  Sustainable Development Goals (2030 Agenda for Sustainable Development), the
+  Sustainable Development Goals (2030 Agenda for Sustainable Development). The
   agreement was reached by the 193 UN Member States.</p>
 REC_USE_LIM: >-
   <p>Various definitions of &#x2018;environmentally sound technology&#x2019;
   exist and are in use. Terms such as &#x2018;environmental technology&#x2019;,
   &#x2018;clean technology&#x2019;, &#x2018;and cleantech &#x2019;or
-  &#x2018;low- carbon technology&#x2019; are sometimes used, although low-carbon
+  &#x2018;low-carbon technology&#x2019; are sometimes used, although low-carbon
   technology can be considered as a sub-set of green technology. Other less
   commonly used terms include climate-smart and climate-friendly technology.</p>
 
-  <p>Additional limitation include: different baseline years in numerous
+  <p>Additional limitations include: different baseline years in numerous
   available databases, and the different purposes of available databases.</p>
 
   <p>Many national statistical systems lack the capacity to compile information
@@ -135,35 +155,30 @@ DATA_COMP: >-
   <p>The international proxy that provides the closest indicator of investment
   flows is that of trade (e.g. traded goods and services that have been
   internationally agreed to have a positive environmental benefit), using HS
-  codes, preferably more than 6-digit level. </p>
+  codes of the Harmonized Commodity Description and Coding Systems, preferably
+  more than 6-digit level. </p>
 
   <p>The sectors deemed to be ESTs through historical research include:</p>
 
   <ul>
-    <li>Air pollution control (APC)</li>
-    <li>Wastewater management (WWM),</li>
-    <li>Solid and Hazardous waste management (SHWM),</li>
-    <li>Renewable Energy (RE),</li>
-    <li>Environmentally Preferable Products (EPPs)</li>
-    <li>Water Supply &amp; Sanitation (relating to indicators for #6 and #11)</li>
-    <li>Energy Storage &amp; Distribution (relating to indicators for #7 and #13)</li>
-    <li>Land &amp; Water Protection &amp; Remediation (relating to indicators for #14 and #15</li>
+    <li>Air pollution control,</li>
+    <li>Wastewater management,</li>
+    <li>Solid and Hazardous waste management,</li>
+    <li>Renewable Energy,</li>
+    <li>Environmentally Preferable Products,</li>
+    <li>Water Supply &amp; Sanitation,</li>
+    <li>Energy Storage &amp; Distribution,</li>
+    <li>Land &amp; Water Protection &amp; Remediation.</li>
   </ul>
-
-  <p>There are two key sub-indicators which are initially to be tracked by proxy
-  of trade in agreed/approved ESTs: </p>
-
-  <ol>
-    <li>global and b) national</li>
-  </ol>
 
   <p><strong>Level 2.</strong> Collect national data on investment in
   environmentally sound technologies.</p>
 
-  <p>Identifying ESTs at the national/ sub-national level should be a simple
-  process based on a set of criteria and simple analysis tool (excel form),
-  which could be used to evaluate if the environmental objective is achieved and
-  if the technology is suitable for the local market.</p>
+  <p>Identifying ESTs at the national level is a simple process based on a set
+  of criteria and simple analysis tool &#x2013; the UNEP Questionnaire on
+  Environmentally Sound Technologies, which is used to evaluate if the
+  environmental objective is achieved and if the technology is suitable for the
+  local market.</p>
 
   <p>The environmental objective can be assessed with the performance and
   operational data (in relevance to the environmental objective) and if the
@@ -192,36 +207,72 @@ DATA_COMP: >-
       </ul>
     </li>
   </ul>
+DATA_VALIDATION: >-
+  <p>Level 1 indicators: UNEP uses a random sampling for few countries and
+  calculate the total of HS codes for export, import, re-export and re-import
+  and compare with the automated produced amounts for those countries. The value
+  per HS is also compared with the data on the COMTRADE database.</p>
 
-  <p>The guidelines: steps to identify, assess and priorities ESTs at the
-  national or sub-national level</p>
-
-  <p> </p>
-IMPUTATION: <p>Missing values will not be imputed.</p>
+  <p>Level 2 indicators: UNEP carries out data validation procedures and contact
+  countries for clarification if needed. </p>
+ADJUSTMENT: <p>Not applicable</p>
+IMPUTATION: >-
+  <p>The United Nations Environment Programme (UNEP) does not make any
+  imputation for missing values.</p>
 REG_AGG: >-
   <p>The data will be aggregated at the sub-regional, regional and global
   levels. For the aggregation methods, please see: <a
   href="http://wesr.unep.org/media/docs/graphs/aggregation_methods.pdf">http://wesr.unep.org/media/docs/graphs/aggregation_methods.pdf</a>.</p>
-COVERAGE: |-
+DOC_METHOD: >-
+  <p>General recommendations are provided in the <a
+  href="https://wedocs.unep.org/xmlui/bitstream/handle/20.500.11822/38265/SDG17.7.1_Method.pdf">INDICATOR
+  METHODOLOGY FOR SDG 17.7.1</a>. A global guidance on Environmentally Sound
+  Technologies is under development. </p>
+QUALITY_MGMNT: >-
+  <p>Quality management is provided by the United Nations Environment Programme
+  (UNEP).</p>
+QUALITY_ASSURE: >-
+  <p>Quality assurance is provided by the United Nations Environment Programme
+  (UNEP) in cooperation with the countries that provide these data.</p>
+QUALITY_ASSMNT: >-
+  <p>Quality assessment is provided by the United Nations Environment Programme
+  (UNEP).</p>
+COVERAGE: >-
   <p><strong>Data availability:</strong></p>
-  <p>All countries that reply to the Questionnaire.</p>
+
+  <p>Level 1 indicators: All UN Member States.</p>
+
+  <p>Level 2 indicators: All countries that provided country data to the UNEP
+  Questionnaire on Environmentally Sound Technologies.</p>
+
   <p><strong>Time series:</strong></p>
-  <p>Data will be made available every two years.</p>
-  <p><strong>Disaggregation</strong></p>
-  <p>There is no disaggregation of the data.</p>
+
+  <p>Level 1 indicators: The data sets presented in the SDG database covers a
+  period since 2010.</p>
+
+  <p>Level 2 indicators: The data sets presented in the SDG database presented
+  according to country responses.</p>
+
+  <p><strong>Disaggregation:</strong></p>
+
+  <p>According to the International Standard Industrial Classification of All
+  Economic Activities (ISIC), Rev.4.</p>
 COMPARABILITY: >-
-  <p><strong>Sources of discrepancies</strong></p>
+  <p><strong>Sources of discrepancies</strong>:</p>
 
   <p>Possible sources of discrepancies are caused by the highly contextual
-  nature of ESTs.</p>
+  nature of Environmentally Sound Technologies (ESTs).</p>
 OTHER_DOC: >-
-  <p><strong>SDG methodology for 17.7.1; </strong></p>
+  <p>General recommendations are provided in the <a
+  href="https://wedocs.unep.org/xmlui/bitstream/handle/20.500.11822/38265/SDG17.7.1_Method.pdf">INDICATOR
+  METHODOLOGY FOR SDG 17.7.1</a>.</p>
 
-  <p>Identifying and Assessing Environmentally Sound Technologies (ESTs) at
-  national level</p>
+  <p><a
+  href="https://wedocs.unep.org/bitstream/handle/20.500.11822/27595/TradeEnvTech.pdf?sequence=1&amp;isAllowed=y">UNEP
+  (2018). Trade in environmentally sound technologies: Implications for
+  Developing Countries.</a></p>
 
-  <p>UNEP Policy Brief (2018) Trade in Environmentally Sound Technologies
-  Implications for Developing Countries.</p>
-
-  <p>UNEP (2018), Trade in environmentally sound technologies: Implications for
-  Developing Countries. </p>
+  <p><a
+  href="https://www.unep.org/resources/report/trade-environmentally-sound-technologies-implications-developing-countries">More
+  information on Trade in Environmentally Sound Technologies on the UNEP
+  website</a>.</p>

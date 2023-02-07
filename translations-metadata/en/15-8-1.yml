@@ -10,12 +10,53 @@ SDG_INDICATOR: >-
   <p>Indicator 15.8.1: Proportion of countries adopting relevant national
   legislation and adequately resourcing the prevention or control of invasive
   alien species</p>
-META_LAST_UPDATE: <p>2021-02-12</p>
+SDG_SERIES_DESCR: >-
+  <p>Part 1a: Legislation, Regulation, Act related to the prevention of
+  introduction and management of Invasive Alien Species (1 = YES, 0 = NO)
+  (ER_IAS_LEGIS), including specific components obtained from the following
+  questions used in the annual survey on invasive alien species under the
+  following 11 themes: Animal_Health; Plant_Health; Environment;
+  Protected_Areas; Specific_Species; Biosecurity; Fisheries; Hunting; Wetlands;
+  Marine; IAS</p>
+
+  <p>Part 1b: National Biodiversity Strategy and Action Plan (NBSAP) targets
+  alignment to Aichi Biodiversity target 9 set out in the Strategic Plan for
+  Biodiversity 2011-2020 (1 = YES, 0 = NO) (ER_IAS_NBSAP)</p>
+
+  <p>Part 2: Proxies for resource allocation towards the management of IAS (1 =
+  YES, 0 = NO), which encompasses 18 specific components obtained from the
+  following questions used in the annual survey on invasive alien species
+  related to the functions, legal mandate, necessary powers, and resourcing of
+  IAS-related national institutions, including:</p>
+
+  <p>Countries with an allocation from the national budget to manage the threat
+  of invasive alien species (1 = YES, 0 = NO) (ER_IAS_NATBUD)</p>
+
+  <p>Recipient countries of global funding with access to any funding from
+  global financial mechanisms for projects related to invasive alien species
+  management (1 = YES, 0 = NO) (ER_IAS_GLOFUN) </p>
+
+  <p>In addition, regional and global aggregate series are provided for Part 1b
+  and Part 2 as follows:</p>
+
+  <p>Proportion of countries with National Biodiversity Strategy and Action Plan
+  (NBSAP) targets alignment to Aichi Biodiversity target 9 set out in the
+  Strategic Plan for Biodiversity 2011-2020 (%) (ER_IAS_NBSAPP)</p>
+
+  <p>Proportion of countries with allocation from the national budget to manage
+  the threat of invasive alien species (%) (ER_IAS_NATBUDP)</p>
+
+  <p>Proportion of recipient countries of global funding with access to any
+  funding from global financial mechanisms for projects related to invasive
+  alien species management (%) (ER_IAS_GLOFUNP)</p>
+META_LAST_UPDATE: '2022-12-20'
 SDG_RELATED_INDICATORS: >-
   <p>Policy Response Indicator within the suite of Invasive alien species
   Indicators within the Biodiversity Indicator Partnership (BIP) of the
-  UNEP-WCMC</p>
-SDG_CUSTODIAN_AGENCIES: <p>International Union for Conservation of Nature IUCN</p>
+  UNEP-WCMC (<a
+  href="https://www.bipindicators.net/indicators/adoption-of-national-legislation-relevant-to-the-prevention-or-control-of-invasive-alien-species">https://www.bipindicators.net/indicators/adoption-of-national-legislation-relevant-to-the-prevention-or-control-of-invasive-alien-species</a>)
+  </p>
+SDG_CUSTODIAN_AGENCIES: <p>International Union for Conservation of Nature (IUCN)</p>
 CONTACT_ORGANISATION: >-
   <p>International Union for Conservation of Nature (IUCN)- Invasive Species
   Specialist Group</p>
@@ -34,8 +75,8 @@ STAT_CONC_DEF: >-
   <p>(a) national legislation and policy relevant to invasive alien species.
   </p>
 
-  <p>(b) if targets and objectives within national strategies for preventing and
-  controlling invasive alien species are aligned with Aichi Target 9</p>
+  <p>(b) targets and objectives within national strategies for preventing and
+  controlling invasive alien species are aligned with Aichi Target 9.</p>
 
   <p>The translation of policy arrangements into action by countries to
   implement policy and actively prevent and control invasive alien species (IAS)
@@ -54,14 +95,15 @@ STAT_CONC_DEF: >-
   &#x201C;Invasive alien species&#x201D; (Convention on Biological Diversity
   2016).</p>
 
-  <p>The introduction of an alien species can be intentional or unintentional
-  /accidental. Alien species have been introduced intentionally for forestry,
-  ornamental purposes, for aquaculture/mariculture, hunting, fisheries etc.
-  Examples of unintentional or accidental introductions include: alien species
-  that have escaped from gardens, aquaculture containment facilities, forestry,
-  horticulture; pets and aquarium species that are released in the wild;
-  transport contaminants and stowaways including in ballast water or as hull
-  fouling organisms, and seeds carried in soil, equipment, vehicles etc.</p>
+  <p>The introduction of an alien species can be intentional or
+  unintentional/accidental. Alien species have been introduced intentionally for
+  forestry, ornamental purposes, for aquaculture/mariculture, hunting, fisheries
+  etc. Examples of unintentional or accidental introductions include: alien
+  species that have escaped from gardens, aquaculture containment facilities,
+  forestry, horticulture; pets and aquarium species that are released in the
+  wild; transport contaminants and stowaways including in ballast water or as
+  hull fouling organisms, and seeds carried in soil, equipment, vehicles
+  etc.</p>
 
   <p>Mechanisms of impact of invasive species include competition, predation,
   hybridisation, and disease transmission, parasitism, herbivory and trampling
@@ -71,7 +113,7 @@ STAT_CONC_DEF: >-
   <p><strong>Comments and limitations:</strong></p>
 
   <p>The adoption of legislation does not necessarily indicate the existence of
-  regulations or policy to implement the legislation or how successful such
+  regulations or policy to implement the legislation, nor how successful such
   implementation has been on the ground. There remains a need for further
   indicator development to make this link clearer. Legislation does not
   necessarily capture all efforts against invasive alien species that are
@@ -82,8 +124,41 @@ STAT_CONC_DEF: >-
   across countries. Proxies used to measure allocation of resources included-
   allocation of a budget line to invasive species management activities
   (including prevention, rapid response, and active management); appointed staff
-  to carry out any IAS related activities; active programmes/ projects etc.</p>
-UNIT_MEASURE: <p>Number of countries</p>
+  to carry out any IAS related activities; active programmes/projects etc.</p>
+UNIT_MEASURE: >-
+  <p>For four series within this indicator, a Boolean measure is used (1 = YES,
+  0 = NO), specifically:</p>
+
+  <p>Part 1a: Legislation, Regulation, Act related to the prevention of
+  introduction and management of Invasive Alien Species (ER_IAS_LEGIS)</p>
+
+  <p>Part 1b: National Biodiversity Strategy and Action Plan (NBSAP) targets
+  alignment to Aichi Biodiversity target 9 set out in the Strategic Plan for
+  Biodiversity 2011-2020 (ER_IAS_NBSAP)</p>
+
+  <p>Part 2: Proxies for resource allocation towards the management of IAS,
+  including:</p>
+
+  <p>Countries with an allocation from the national budget to manage the threat
+  of invasive alien species (ER_IAS_NATBUD)</p>
+
+  <p>Recipient countries of global funding with access to any funding from
+  global financial mechanisms for projects related to invasive alien species
+  management (ER_IAS_GLOFUN) </p>
+
+  <p>In addition, regional and global aggregate series are provided for Part 1b
+  and Part 2, which use percent (%) as a unit, specifically:</p>
+
+  <p>Proportion of countries with National Biodiversity Strategy and Action Plan
+  (NBSAP) targets alignment to Aichi Biodiversity target 9 set out in the
+  Strategic Plan for Biodiversity 2011-2020 (ER_IAS_NBSAPP)</p>
+
+  <p>Proportion of countries with allocation from the national budget to manage
+  the threat of invasive alien species (ER_IAS_NATBUDP)</p>
+
+  <p>Proportion of recipient countries of global funding with access to any
+  funding from global financial mechanisms for projects related to invasive
+  alien species management (ER_IAS_GLOFUNP)</p>
 CLASS_SYSTEM: <p>Not applicable</p>
 SOURCE_TYPE: >-
   <p>To collate and record data and information on national legislation and
@@ -91,25 +166,28 @@ SOURCE_TYPE: >-
   invasive species and their management if already established was mainly by
   consulting two databases FAOLEX<sup><a href="#footnote-2"
   id="footnote-ref-2">[1]</a></sup> and ECOLEX<sup><a href="#footnote-3"
-  id="footnote-ref-3">[2]</a></sup>. For supplemental information National
+  id="footnote-ref-3">[2]</a></sup>. For supplemental information, national
   government websites were also consulted.</p>
 
   <p>Data related to country strategies and NBSAPS to confirm if their targets
   were aligned to Aichi Target 9, all NBSAP documents were consulted from the
-  CBD website <sup><a href="#footnote-4"
+  CBD website.<sup><a href="#footnote-4"
   id="footnote-ref-4">[3]</a></sup></p><div class="footnotes"><div><sup
   class="footnote-number" id="footnote-2">1</sup><p> An FAO-compiled database of
   &#x201C;national laws and regulations on food, agriculture and renewable
-  natural resources &lt; http://www.fao.org/faolex/en/&gt; <a
+  natural resources <a
+  href="http://www.fao.org/faolex/en/">http://www.fao.org/faolex/en/</a> <a
   href="#footnote-ref-2">&#x2191;</a></p></div><div><sup class="footnote-number"
   id="footnote-3">2</sup><p> ECOLEX has been designed to be the most
   comprehensive global source of information on national and international
   environmental law. It is a web-based environmental law information service,
   operated jointly by FAO, IUCN and UNEP since 2001. It is a platform that
   synergizes information on environmental law collected through FAOLEX (FAO),
-  ELIS (IUCN) and InforMEA (UNEP). &lt; www.ecolex.org&gt; <a
+  ELIS (IUCN) and InforMEA (UNEP). <a
+  href="http://www.ecolex.org">www.ecolex.org</a> &gt; <a
   href="#footnote-ref-3">&#x2191;</a></p></div><div><sup class="footnote-number"
-  id="footnote-4">3</sup><p> https://www.cbd.int/countries/ <a
+  id="footnote-4">3</sup><p> <a
+  href="https://www.cbd.int/countries/">https://www.cbd.int/countries/</a> <a
   href="#footnote-ref-4">&#x2191;</a></p></div></div>
 COLL_METHOD: >-
   <p>Desktop literature review and relevant databases were consulted to collate
@@ -125,8 +203,9 @@ COLL_METHOD: >-
   at <a
   href="https://url6.mailanyone.net/v1/?m=1kQmRb-0000WJ-5C&amp;i=57e1b682&amp;c=avaY8OCfig_yWtnIpsardYqtmcmV6gXq_RtsH3TIfTqisnI1Hi1yVTz18UB_lR9PQxuJZM5FOOsOvYDXQDsG9-hL6RrpWm3C6ikbPikxIfZz9INhDy462KDCg6EdbWIrL3dnMltkcsnIW_ImyPhOYcH9zVDEYBBSEkxUJUxzuC_ycvYniUNcJCTTzT1mfPWAGMRsuyEgegErVG4YuFURt0Kfep9h1EGSSIFyy3lGwpjthJtA3aRvQnfGqWvGhGTz"><u>Pagad,
   Shyama; Affleck, Saxbee; McGeoch, Melodie (2020): Factsheet. La Trobe.
-  Report</u></a><u>
-  </u>https://opal.latrobe.edu.au/articles/report/Factsheet/13065152?file=24997454</p>
+  Report</u></a><u> </u><a
+  href="https://opal.latrobe.edu.au/articles/report/Factsheet/13065152?file=24997454">https://opal.latrobe.edu.au/articles/report/Factsheet/13065152?file=24997454</a><u>
+  </u></p>
 FREQ_COLL: >-
   <p>National agencies producing relevant data include government,
   non-governmental organizations (NGOs), and academic institutions working
@@ -135,24 +214,23 @@ FREQ_COLL: >-
   correspondence, workshops, and electronic fora. This indicator was calculated
   in 2010 and 2016, and now includes the current 2020 update. Next updates are
   anticipated to be the Beginning at the first quarter of 2022 till the end of
-  the second quarter of 2022</p>
-REL_CAL_POLICY: <p>End of fourth quarter of 2022.</p>
+  the second quarter of 2022.</p>
+REL_CAL_POLICY: <p>End of fourth quarter of 2022</p>
 DATA_SOURCE: >-
   <p>Data were collected through a survey submitted to all listed NSOs; and, in
-  the absence of NSOs or their response to relevant national agencies of
-  relevant national agencies (Ministries of Environment or similar
-  agencies).</p>
+  the absence of NSOs or their response to relevant national agencies
+  (Ministries of Environment or similar agencies).</p>
 
   <p>Data on national legislation was obtained from the two key databases/
   repositories of Environmental Law- ECOLEX and FAOLEX. Information related to
-  national targets was obtained from the latest NBSAPS and national reports
-  submitted to the CBD</p>
+  national targets was obtained from the latest NBSAPs and national reports
+  submitted to the CBD.</p>
 COMPILING_ORG: >-
   <p>International Union for Conservation of Nature (IUCN) Species Survival
   Commission (SSC) Invasive Species Specialist Group (ISSG)</p>
 INST_MANDATE: <p>Not applicable</p>
 RATIONALE: >-
-  <p>Aichi Biodiversity Target 9 states &#x201C;By 2020, invasive alien species
+  <p>Aichi Biodiversity Target 9 states: &#x201C;By 2020, invasive alien species
   and pathways are identified and prioritized, priority species are controlled
   or eradicated, and measures are in place to manage pathways to prevent their
   introduction and establishment&#x201D;.</p>
@@ -188,7 +266,7 @@ REC_USE_LIM: >-
   across countries. Proxies used to measure allocation of resources included-
   allocation of a budget line to invasive species management activities
   (including prevention, rapid response, and active management); appointed staff
-  to carry out any IAS related activities; active programmes/ projects etc.</p>
+  to carry out any IAS related activities; active programmes/projects etc.</p>
 
   <p>Comments on the feasibility, suitability, relevance and limitations of the
   indicator. Also includes data comparability issues, presence of wide
@@ -238,21 +316,8 @@ DATA_COMP: >-
   <p>NBSAPs are a key policy instrument that reflect, how national biodiversity
   strategies intend to fulfil the obligations of the CBD, and how the related
   action plans outline the steps to be taken to meet these goals. All parties to
-  the CBD are obligated to revise their NBSAPS to reflect compliance with the
+  the CBD are obligated to revise their NBSAPs to reflect compliance with the
   revised Strategic Plan and Aichi Targets.</p>
-
-  <p>(2) Online survey on Policy responses, mandate, legal authority, and
-  resourcing to manage the threat of invasive alien species.</p>
-
-  <p>An online survey was developed and submitted to all listed NSOs, CBD
-  National focal points (in cases of absence of NSO&#x2019;s or lack of
-  response) to obtain an insight into the allocation of resources to the
-  management of invasive alien species. 142 of the 196 countries completed the
-  survey. Considering the difficulty in obtaining information on the level of
-  national investment on invasive alien species issues, proxy indicators were
-  used to measure the allocation of resources by individual countries, such as
-  &#x201C;does the country have a dedicated and staffed program for invasive
-  alien species management&#x201D;. </p>
 
   <p>Part (1a) and (1b) were calculated as follows:</p>
 
@@ -268,15 +333,110 @@ DATA_COMP: >-
   of this sub-indicator is 2010; the first data point for component (1)(b) is
   2016.</p>
 
+  <p>Both Part 1a and Part 1b are incorporated in the SDG Database as
+  ER_IAS_LEGIS and ER_IAS_NBSAP respectively. Regional and global series are
+  also incorporated for the latter, as ER_IAS_NBSAPP.</p>
+
   <p>Part (2) Indicator: The translation of policy arrangements into action by
   countries to implement policy and actively prevent and control invasive alien
   species and the resourcing of this action.</p>
+
+  <p>(2) Online survey on Policy responses, mandate, legal authority, and
+  resourcing to manage the threat of invasive alien species.</p>
+
+  <p>An online survey was developed and submitted to all listed NSOs, CBD
+  National focal points (in cases of absence of NSOs or lack of response) to
+  obtain an insight into the allocation of resources to the management of
+  invasive alien species. 142 of the 196 countries completed the survey.
+  Considering the difficulty in obtaining information on the level of national
+  investment on invasive alien species issues, proxy indicators were used to
+  measure the allocation of resources by individual countries, such as
+  &#x201C;does the country have a dedicated and staffed program for invasive
+  alien species management&#x201D;. </p>
 
   <p>This sub-indicator is calculated as the number of national respondents to
   the annual survey on invasive alien species response financing reporting
   availability of sufficient resources, divided by the total number of countries
   (142 to date) for which data are available. The first data point for this
-  sub-indicator is 2016.</p>
+  sub-indicator is 2016. Part 2 encompasses 18 specific components obtained from
+  the following questions used in the annual survey on invasive alien species,
+  as follows:</p>
+
+  <p>Does your country have a Government Department, National agency or agencies
+  (including supranational institutions/organizations, e.g. EU) responsible for
+  managing IAS that impact the natural environment, economic sectors (e.g.
+  agriculture, forestry, tourism, etc.) or human health? </p>
+
+  <p>Are there institutions (including supranational institutions/organizations,
+  e.g. EU) with a clear legal mandate and the necessary powers to develop
+  national plans and policies in relation to invasive alien species?</p>
+
+  <p>Are there institutions (including supranational institutions/organizations,
+  e.g. EU) with a clear legal mandate and the necessary powers to undertake risk
+  analyses of potentially invasive species?</p>
+
+  <p>Are there institutions (including supranational institutions/organizations,
+  e.g. EU) with a clear legal mandate and the necessary powers to prevent the
+  intentional introduction of species assessed as potentially invasive
+  (including importation for the purposes of agriculture, aquaculture, the
+  nursery trade, farming and animal breeding, the pet trade etc.)?</p>
+
+  <p>Are there institutions (including supranational institutions/organizations,
+  e.g. EU) with a clear legal mandate and the necessary powers to minimise the
+  unintentional introduction of alien species?</p>
+
+  <p>Are there institutions (including supranational institutions/organizations,
+  e.g. EU) with a clear legal mandate and the necessary powers to promote public
+  awareness of IAS issues?</p>
+
+  <p>Are there institutions (including supranational institutions/organizations,
+  e.g. EU) with a clear legal mandate and the necessary powers to monitor and
+  conduct surveillance programmes to detect founder populations of IAS at an
+  early stage?</p>
+
+  <p>Are there institutions (including supranational institutions/organizations,
+  e.g. EU) with a clear legal mandate and the necessary powers to contain and
+  eradicate populations of IAS within the country?</p>
+
+  <p>Are there institutions (including supranational institutions/organizations,
+  e.g. EU) with a clear legal mandate and the necessary powers to record and
+  maintain information on IAS?</p>
+
+  <p>Are there institutions (including supranational institutions/organizations,
+  e.g. EU) with a clear legal mandate and the necessary powers to enforce the
+  relevant legal provisions regarding the control of IAS?</p>
+
+  <p>Are there any existing legal provisions or institutional arrangements to
+  facilitate cooperation between different government agencies in making
+  decisions regarding IAS?</p>
+
+  <p>Does your country have an allocation from the National budget to manage the
+  threat of IAS?</p>
+
+  <p>If your country is a recipient of global funding (such as the Global
+  Environment Facility (GEF) - has your country accessed any funding from global
+  financial mechanisms for projects related to IAS management? </p>
+
+  <p>Does your Biodiversity Strategy (at the local, national, regional, or
+  supranational level) include objective(s) and actions related to IAS
+  management?</p>
+
+  <p>Is there a budget allocation or are there any financial tools (for e.g.
+  dedicated financial programmes) available for this implementation?</p>
+
+  <p>Has your country developed a National Invasive Alien Species Strategy and
+  Action Plan (NISSAP)?</p>
+
+  <p>Is there a budget allocation or are there any financial tools (for e.g.
+  dedicated financial programmes) available for this implementation?</p>
+
+  <p>Do you know of any non-governmental agencies (NGO) or civil society groups
+  involved in IAS management in your country?</p>
+
+  <p>Two of these, national budget allocations and recipients of global funding,
+  are incorporated in the SDG Database as ER_IAS_NATBUD and ER_IAS_GLOFUN
+  respectively. Regional and global series are also incorporated for each, as
+  ER_IAS_NATBUDP and ER_IAS_GLOFUNP respectively.</p>
 DATA_VALIDATION: >-
   <p>Authoritative and reliable sources were used to collate data. In some
   cases, cross referencing with National government websites was completed for
@@ -305,10 +465,23 @@ REG_AGG: >-
   <p>The indicator is calculated as the simple proportion of countries (for
   which data are available) that have a given invasive alien species response
   (treaties, strategy, legislation, financing) in place.</p>
-DOC_METHOD: <p>Not applicable</p>
+DOC_METHOD: >-
+  <p>The national questionnaire circulated to national agencies (NSOs; and
+  relevant national agencies eg Ministries of Environment or similar) is
+  supported by clear definitions and guidance to support documentation of the
+  YES/NO answers to each question. The IUCN Invasive Species Specialist Group
+  also provides case-by-case response to queries. </p>
 QUALITY_MGMNT: <p>Not applicable</p>
 QUALITY_ASSURE: <p>Not applicable</p>
-QUALITY_ASSMNT: <p>Not applicable</p>
+QUALITY_ASSMNT: >-
+  <p>The indicator is managed under the IUCN Invasive Species Specialist Group,
+  of which the Chair is appointed by the Chair of the IUCN Species Survival
+  Commission, elected every four years by the IUCN Membership of governments and
+  civil society. The Invasive Species Specialist Group undertakes ongoing
+  evaluation of fitness for use of the indicator i.e. the degree to which it
+  meets user&#x2019;s requirements. This encompasses, inter alia, considerations
+  of relevance, accuracy, timeliness, consistency, comprehensiveness, and
+  accessibility.</p>
 COVERAGE: >-
   <p><strong>Data sources and data collection:</strong></p>
 
@@ -334,7 +507,7 @@ COVERAGE: >-
   described in the 5th National reports (used for &#x201C;National strategies
   for preventing and controlling invasive alien species&#x201D;). The
   information source was the CBD website, which features country profiles (<a
-  href="https://www.cbd.int/countries">https://www.cbd.int/countries</a>/ ). 196
+  href="https://www.cbd.int/countries/">https://www.cbd.int/countries/</a>). 196
   countries were included. The data format is a spreadsheet of countries vs
   inclusion of IAS in NBSAP, and Aichi Target 9 alignment.</p>
 
@@ -362,9 +535,10 @@ OTHER_DOC: >-
   responses, legislation and management plans to control and prevent spread of
   invasive alien species&#x201D; and &#x201C;Proportion of countries adopting
   relevant national legislation and adequately resourcing the prevention or
-  control of invasive alien species&#x201D;. Retrieved from
-  https://www.bipindicators.net/indicators/adoption-of-national-legislation-relevant-to-the-prevention-or-control-of-invasive-alien-species
-  </p>
+  control of invasive alien species&#x201D;. Retrieved from <a
+  href="https://www.bipindicators.net/indicators/adoption-of-national-legislation-relevant-to-the-prevention-or-control-of-invasive-alien-species">https://www.bipindicators.net/indicators/adoption-of-national-legislation-relevant-to-the-prevention-or-control-of-invasive-alien-species</a>.</p>
+
+  <p> </p>
 
   <p>McGeoch, M.A., Butchart, S.H.M., Spear, D., Marais, E., Kleynhans, E.J.,
   Symes, A., Chanson, J. &amp; Hoffmann, M. (2010) Global indicators of
