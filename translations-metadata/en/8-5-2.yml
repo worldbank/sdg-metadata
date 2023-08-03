@@ -9,9 +9,11 @@ SDG_INDICATOR: >-
   <p>Indicator 8.5.2: Unemployment rate, by sex, age and persons with
   disabilities </p>
 SDG_SERIES_DESCR: |-
-  <p>Unemployment rate, by sex and age</p>
-  <p>Unemployment rate, by sex and disability</p>
-META_LAST_UPDATE: '2022-03-31'
+  <p>Unemployment rate, by sex and age (13<sup>th</sup> ICLS)</p>
+  <p>Unemployment rate, by sex and disability (13<sup>th</sup> ICLS)</p>
+  <p>Unemployment rate, by sex and age (19<sup>th</sup> ICLS)</p>
+  <p>Unemployment rate, by sex and disability (19<sup>th</sup> ICLS)</p>
+META_LAST_UPDATE: '2023-03-31'
 SDG_RELATED_INDICATORS: '<p>1.1.1, 8.2.1, 8.3.1, 8.6.1, 10.4.1</p>'
 SDG_CUSTODIAN_AGENCIES: <p>International Labour Organization (ILO) </p>
 CONTACT_ORGANISATION: |-
@@ -53,7 +55,14 @@ STAT_CONC_DEF: >-
   <p>Persons in employment are defined as all those of working age (usually aged
   15 and above) who, during a short reference period such as one week or one
   day, were engaged in any activity to produce goods or provide services for pay
-  or profit. </p>
+  or profit. The difference between the 13th and 19th ICLS series for a given
+  country is the operational criteria used to define employment, with two series
+  based on the statistical standards from the 13th International Conference of
+  Labour Statisticians (ICLS) and the other two series based on 19th ICLS
+  standards. In the 19th ICLS series, employment is defined more narrowly as
+  work done for pay or profit, while activities not done mainly in exchange for
+  remuneration (i.e., own-use production work, volunteer work and unpaid trainee
+  work) are recognized as other forms of work.</p>
 
   <p> </p>
 
@@ -91,7 +100,7 @@ SOURCE_TYPE: >-
   not be comparable with indicator 8.5.2. </p>
 COLL_METHOD: >-
   <p>The ILO Department of Statistics processes national household survey
-  microdata sets in line with internationally-agreed indicator concepts and
+  microdata sets in line with internationally agreed indicator concepts and
   definitions set forth by the International Conference of Labour Statisticians.
   For data that could not be obtained through this processing or directly from
   government websites, the ILO sends out an annual ILOSTAT questionnaire to all
@@ -110,8 +119,8 @@ INST_MANDATE: >-
   <p>The ILO is the UN focal point for labour statistics. It sets international
   standards for labour statistics through the International Conference of Labour
   Statisticians. It also compiles and produces labour statistics with the goal
-  of disseminating internationally-comparable datasets, and provides technical
-  assistance and training to ILO member States to support their efforts to
+  of disseminating internationally comparable datasets and provides technical
+  assistance and training to ILO Member States to support their efforts to
   produce high quality labour market data.</p>
 RATIONALE: >-
   <p>The unemployment rate is a useful measure of the underutilization of the
@@ -204,7 +213,7 @@ DATA_COMP: |-
       <mn>100</mn>
     </math></p>
 DATA_VALIDATION: >-
-  <p>The ILO engages in annual consultations with member States through the
+  <p>The ILO engages in annual consultations with Member States through the
   ILOSTAT questionnaire and related Statistics Reporting System (StaRS).
   National data providers receive a link to the portal where they can review all
   national SDG data available on ILOSTAT.</p>
@@ -238,13 +247,14 @@ IMPUTATION: >-
 REG_AGG: >-
   <p>To address the problem of missing data, the ILO designed several
   econometric models which are used to produce estimates of labour market
-  indicators in the countries and years for which real data are not available.
-  The unemployment estimates derived from the ILO modelled estimates are used to
-  produce global and regional estimates on unemployment rates. These models use
-  multivariate regression techniques to impute missing values at the country
-  level, which are then aggregated to produce regional and global estimates. For
-  further information on the estimates, please refer to the ILO modelled
-  estimates methodological overview, available at <a
+  indicators based on the 13<sup>th</sup> ICLS standards in the countries and
+  years for which real data are not available. The unemployment estimates
+  derived from the ILO modelled estimates are used to produce global and
+  regional estimates on unemployment rates. These models use multivariate
+  regression techniques to impute missing values at the country level, which are
+  then aggregated to produce regional and global estimates. For further
+  information on the estimates, please refer to the ILO modelled estimates
+  methodological overview, available at <a
   href="https://www.ilo.org/ilostat-files/Documents/TEM.pdf">https://www.ilo.org/ilostat-files/Documents/TEM.pdf</a>.</p>
 DOC_METHOD: >-
   <p>To calculate this indicator (according to the ILO definitions of
@@ -271,7 +281,7 @@ QUALITY_ASSURE: >-
   <p> </p>
 QUALITY_ASSMNT: >-
   <p>The final assessment of the quality of information is carried out by the
-  Data Production and Analysis Unit of the ILO Department of Department. In
+  Data Production and Analysis Unit of the ILO Department of Statistics. In
   cases of doubt about the quality of specific data, these values are reviewed
   with the participation of the national agencies responsible for producing the
   data if appropriate. If the issues cannot be clarified, the respective
@@ -279,25 +289,27 @@ QUALITY_ASSMNT: >-
 COVERAGE: >-
   <p><strong>Data availability:</strong></p>
 
-  <p>Data disaggregated by sex and age for this indicator is available for 216
-  countries and territories. The indicator is widely available based on real
-  observations provided by countries and derived from national labour force
-  surveys, other types of household surveys or population census. </p>
+  <p>Data disaggregated by sex and age for this indicator is available for 217
+  countries and territories in the 13<sup>th</sup> ICLS series and 126 countries
+  and territories in the 19<sup>th</sup> ICLS series. </p>
 
-  <p>However, the disaggregation by disability is not widely available and this
-  submission only includes 101 countries and territories. It is increasingly
-  reported but coverage is still very low. </p>
+  <p>The indicator is widely available based on real observations provided by
+  countries and derived from national labour force surveys, other types of
+  household surveys or population census. </p>
+
+  <p>However, the disaggregation by disability is not as widely available and
+  this submission only includes 109 countries and territories in the
+  13<sup>th</sup> ICLS series and 73 countries and territories in the
+  19<sup>th</sup> ICLS series. </p>
 
   <p><strong>Time series:</strong><br>Data for disaggregation by sex and age for
-  this indicator is available as of 2000 until 2021 for countries in the SDG
-  Indicators Global Database, but time series going back further are available
-  in ILOSTAT. 2020 regional aggregates are available for total population.
+  this indicator is available as of 2000 for countries in the SDG Indicators
+  Global Database, but time series going back further are available in ILOSTAT.
   Global and regional aggregates disaggregated by sex and age are available
-  through 2020 and aggregates disaggregated by sex only are available for
-  2021.</p>
+  through 2022.</p>
 
   <p>Data for disaggregation by disability status is available for the period
-  from 2003 to 2021 at the country level. </p>
+  from 2003 to 2022 at the country level. </p>
 
   <p><strong>Disaggregation:</strong></p>
 
@@ -310,7 +322,14 @@ COMPARABILITY: >-
   basic measurement tool may entail differences in specific definitions of
   employment and unemployment, differences in the treatment of specific groups
   or differences in the operational criteria used to determine the
-  individual&#x2019;s labour force status.</p>
+  individual&#x2019;s labour force status. </p>
+
+  <p>Work statistics for countries not using the same set of statistical
+  standards are not comparable. As such, each series is based on a single set of
+  standards (i.e., 13<sup>th</sup> or 19<sup>th</sup> ICLS) and contains only
+  data comparable within and across countries, allowing data users to continue
+  making meaningful time series analysis and international comparisons. Users
+  should not compare data across series.</p>
 
   <p>The unemployment rate is dependent on the geographical coverage of the
   survey since urban and rural areas tend to have significant differences in the
@@ -323,13 +342,14 @@ OTHER_DOC: |-
   <ul>
     <li>Decent Work and the Sustainable Development Goals: A Guidebook on SDG Labour Market Indicators, available at <a href="https://www.ilo.org/global/statistics-and-databases/publications/WCMS_647109/lang--en/index.htm">https://www.ilo.org/global/statistics-and-databases/publications/WCMS_647109/lang--en/index.htm</a> </li>
     <li>ILOSTAT (<a href="https://ilostat.ilo.org/" target="_blank"><u>https://ilostat.ilo.org/</u></a>) </li>
-    <li>ILOSTAT Indicator descriptions (<u>https://ilostat.ilo.org/resources/concepts-and-definitions/description-unemployment-rate/</u>) </li>
     <li>ILOSTAT&#x2019;s topic page on Unemployment and Labour Underutilization (https://ilostat.ilo.org/topics/unemployment-and-labour-underutilization/). </li>
     <li>Decent Work Indicators Manual: <u>http://www.ilo.org/wcmsp5/groups/public/---dgreports/--- </u></li>
   </ul>
   <p><u>stat/documents/publication/wcms_223121.pdf </u></p>
   <ul>
     <li>Resolution concerning statistics of work, employment and labour underutilization, adopted by the 19<sup>th</sup> ICLS in 2013: <a href="https://www.ilo.org/global/statistics-and-databases/standards-and-guidelines/resolutions-adopted-by-international-conferences-of-labour-statisticians/WCMS_230304/lang--en/index.htm">https://www.ilo.org/global/statistics-and-databases/standards-and-guidelines/resolutions-adopted-by-international-conferences-of-labour-statisticians/WCMS_230304/lang--en/index.htm</a> </li>
+    <li>Resolution concerning statistics of the economically active population, employment, unemployment and underemployment, adopted by the ICLS in 1982: https://www.ilo.org/wcmsp5/groups/public/---dgreports/---stat/documents/normativeinstrument/wcms_230304.pdf</li>
+    <li>Quick guide to understanding the impact of the new statistical standards on ILOSTAT databases (https://www.ilo.org/wcmsp5/groups/public/---dgreports/---stat/documents/publication/wcms_854830.pdf)</li>
     <li>Trends Econometric Models: A Review of Methodology: <a href="http://www.ilo.org/wcmsp5/groups/public/---ed_emp/---emp_elm/---trends/documents/publication/wcms_120382.pdf" target="_blank"><u>http://www.ilo.org/wcmsp5/groups/public/---ed_emp/---emp_elm/---trends/documents/publication/wcms_120382.pdf</u></a> </li>
     <li>ILO Manual &#x2013; Decent Work Indicators, Concepts and Definitions &#x2013; Chapter 1, Employment opportunities <a href="http://www.ilo.org/integration/resources/pubs/WCMS_229374/lang--en/index.htm" target="_blank"><u>http://www.ilo.org/integration/resources/pubs/WCMS_229374/lang--en/index.htm</u></a> (second version, pages 34 and 49) </li>
   </ul>

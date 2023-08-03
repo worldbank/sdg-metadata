@@ -6,17 +6,17 @@ SDG_INDICATOR: >-
   <p>Indicator 1.1.1: Proportion of the population living below the
   international poverty line by sex, age, employment status and geographic
   location (urban/rural)</p>
-META_LAST_UPDATE: '2022-09-30'
+SDG_SERIES_DESCR: <p>Applies to all series</p>
+META_LAST_UPDATE: '2023-03-31'
 SDG_RELATED_INDICATORS: >-
-  <p>Indicator 1.2.1: Proportion of population living below the national poverty
-  line, by sex and age</p>
+  <p>1.2.1: Proportion of population living below the national poverty line, by
+  sex and age</p>
 
-  <p>Indicator 10.1.1: Growth rates of household expenditure or income per
-  capita among the bottom 40 per cent of the population and the total
-  population</p>
+  <p>10.1.1: Growth rates of household expenditure or income per capita among
+  the bottom 40 per cent of the population and the total population</p>
 
-  <p>Indicator: 10.2.1 Proportion of people living below 50 per cent of median
-  income, by sex, age and persons with disabilities</p>
+  <p>10.2.1 Proportion of people living below 50 per cent of median income, by
+  sex, age and persons with disabilities</p>
 SDG_CUSTODIAN_AGENCIES: <p>World Bank (WB)</p>
 CONTACT_ORGANISATION: <p>World Bank (WB)</p>
 STAT_CONC_DEF: >-
@@ -45,23 +45,18 @@ STAT_CONC_DEF: >-
   different countries can be measured on a common scale by adjusting for
   differences in the purchasing power of currencies. The commonly used $1 a day
   standard, measured in 1985 international prices and adjusted to local currency
-  using PPPs, was chosen for World Development Report 1990 because it was
-  typical of the poverty lines in low-income countries at the time. As
-  differences in the cost of living across the world evolve, the international
-  poverty line has to be periodically updated using new PPP price data to
-  reflect these changes. The last change was in September 2022, when the World
-  Bank adopted $2.15 as the international poverty line using the 2017 PPP. Prior
-  to that, the 2015 update set the international poverty line at $1.90 using the
-  2011 PPP. Poverty measures based on international poverty lines attempt to
-  hold the real value of the poverty line constant across countries, as is done
-  when making comparisons over time. Early editions of the World Bank&#x2019;s
-  World Development Indicators (WDI) used PPPs from the Penn World Tables to
-  convert values in local currency to equivalent purchasing power measured in
-  U.S dollars. Later editions used 1993, 2005, 2011, 2017 consumption PPP
-  estimates produced by the World Bank&#x2019;s International Comparison Program
-  (ICP).</p>
-UNIT_MEASURE: <p>The unit of measure is the proportion of people. </p>
-CLASS_SYSTEM: <p>Not relevant.</p>
+  using purchaing power parity (PPP) exchange rates, was chosen for World
+  Development Report 1990 because it was typical of the poverty lines in
+  low-income countries at the time. As differences in the cost of living across
+  the world evolve, the international poverty line has to be periodically
+  updated using new PPP price data to reflect these changes. The last change was
+  in September 2022, when the World Bank adopted $2.15 as the international
+  poverty line using the 2017 PPP. Prior to that, the 2015 update set the
+  international poverty line at $1.90 using the 2011 PPP. Poverty measures based
+  on international poverty lines attempt to hold the real value of the poverty
+  line constant across countries and over time. </p>
+UNIT_MEASURE: <p>Percent (%). The unit of measure is the proportion of people. </p>
+CLASS_SYSTEM: <p>Not applicable</p>
 SOURCE_TYPE: >-
   <p>The World Bank typically receives data from National Statistical Offices
   (NSOs) directly. In other cases it uses NSO data received indirectly. For
@@ -80,38 +75,58 @@ SOURCE_TYPE: >-
   engage with NSOs broadly on poverty measurement and analysis as part of
   technical assistance activities. </p>
 
+  <p>The input data used are most often unit record data of welfare and
+  occasionally grouped data, which is converted to a full distribution. The
+  World Bank cannot take as input data a poverty rate published on an NSO
+  website without the underlying distribution for a couple of reaons: </p>
+
+  <ol>
+    <li>Extrapolating or interpolating all country estimates to a common reference year, which is needed to calculate global poverty, requires a full distribution. </li>
+    <li>Updates to poverty estimates in the face of revised PPPs and consumer price indices (CPIs) would not be possible to perform by the World Bank, imposing a higher burden on NSOs potentially becoming an obstacle for timely publication of updated data.</li>
+    <li>Unit-record data allows for quality checking the data and ensuring that the choices used to create the welfare aggregate are as comparable as possible across countries.</li>
+  </ol>
+
   <p><strong>List:</strong></p>
 
   <p>Directly from National Statistical Offices (NSOs) or indirectly from others
   &#x2013; see section on data sources.</p>
 COLL_METHOD: >-
-  <p>The World Bank transparently shares and makes public the methodologies for
-  all kinds of adjustments to original data (e.g., through its Poverty and
-  Inequality Platform (PIP) website and its various analytical documents). The
-  poverty estimates are developed by economists, who work closely with national
-  government counterparts concerning each poverty data update. </p>
+  <p>In many low-income countries, the Poverty and Equity Global Practice of the
+  World Bank is cooperating with the National Statistical Offices and supporting
+  their efforts of conducting household surveys and measuring poverty. Data are
+  obtained through these partnerships. This concerns most countries in East Asia
+  &amp; Pacific, the Middle East &amp; North Africa, South Asia, and Sub-Saharan
+  Africa.</p>
+
+  <p>For Latin America and the Caribbean, most of the data are obtained from and
+  harmonized by the CEDLAS&#x2019;s Socio-Economic Database for Latin America
+  and the Caribbean (SEDLAC), which is a partnership between the Center for
+  Distributive, Labor and Social Studies (CEDLAS) at the National University of
+  La Plata in Argentina and the World Bank&#x2019;s Poverty and Equity Global
+  Practice for Latin America and the Caribbean.</p>
+
+  <p>For most high-income countries data are obtained through the Luxembourg
+  Income Study or EU-SILC.</p>
 FREQ_COLL: >-
   <p>Data are collected continuously by the Global Poverty Working Group of the
   World Bank.</p>
 REL_CAL_POLICY: >-
-  <p>The World Bank Group is committed to updating the poverty data every year.
-  Updated estimates are released at the World Bank&#x2019;s Spring Meetings in
-  April every year. </p>
+  <p>The World Bank Group updates the poverty data every year. Updates are
+  released ahead of the World Bank&#x2019;s Spring Meetings. </p>
 DATA_SOURCE: >-
   <p>The World Bank typically receives data from National Statistical Offices
   (NSOs) directly. In other cases it uses NSO data received indirectly. Please
-  see the section on data sources for further details.</p>
+  see the section on data sources and data collection method for further
+  details.</p>
 COMPILING_ORG: <p>World Bank</p>
 INST_MANDATE: >-
   <p>Within the World Bank, the Global Poverty Working Group (GPWG) is in charge
   of the collection, validation and estimation of poverty estimates. GPWG
   archives the datasets obtained from NSOs and then harmonizes them, applying
   common methodologies. The objective of the GPWG is to ensure that poverty and
-  inequality data generated, curated, and disseminated by the World Bank are up
-  to date, meet high-quality standards, and are well documented and consistent
-  across dissemination channels. Members of GPWG generate and update the
-  estimates for the proportion of population below the international poverty
-  line using raw data typically provided by country governments. </p>
+  inequality data generated, curated, and disseminated by the World Bank meet
+  high-quality standards, and are well documented and consistent across
+  dissemination channels. </p>
 RATIONALE: >-
   <p>Monitoring poverty is important on the global development agenda as well as
   on the national development agenda of many countries. The World Bank produced
@@ -198,9 +213,9 @@ DATA_VALIDATION: >-
   The raw data can be unit-record survey data, or grouped data, depending on the
   agreements with the country governments. In most cases, the welfare aggregate,
   the essential element for poverty estimation, is generated by the country
-  governments. Sometimes, the World Bank has to construct the welfare aggregate
-  or adjust the aggregate provided by the country.</p>
-ADJUSTMENT: <p>Not relevant.</p>
+  governments. Sometimes, the World Bank constructs the welfare aggregate or
+  adjusts the aggregate provided by the country.</p>
+ADJUSTMENT: <p>Not applicable</p>
 IMPUTATION: >-
   <p><strong>&#x2022; At country level</strong></p>
 
@@ -268,10 +283,27 @@ REG_AGG: >-
   extrapolation using national accounts data. These estimates for line-up years
   are then aggregated to regional and global numbers. Regional and global
   aggregates are population-weighted averages.</p>
+DOC_METHOD: >-
+  <p>Countries may refer to the report &#x201C;On the Construction of a
+  Consumption Aggregate for Inequality and Poverty Analysis&#x201D;. The report
+  is available here:</p>
+
+  <p>ahttps://documents.worldbank.org/en/publication/documents-reports/documentdetail/099225003092220001/p1694340e80f9a00a09b20042de5a9cd47e<br></p>
+QUALITY_MGMNT: >-
+  <p>The quality of the estimates is managed through the World Bank&#x2019;s
+  Global Poverty Working Group. </p>
+QUALITY_ASSURE: >-
+  <p>The poverty estimates released by the World Bank are quality checked by
+  members of the Global Poverty Working Group and often with members of the
+  relevant National Statistical Offices.</p>
+QUALITY_ASSMNT: >-
+  <p>Assessments of the quality behind povety estimates are often available in
+  World Bank Poverty Assessments and in Global Poverty Moniotring Technical
+  Notes.</p>
 COVERAGE: >-
   <p><strong>Data availability:</strong></p>
 
-  <p>Data are available in 169 economies, (measured in terms of number of
+  <p>Data are available in 160+ economies, (measured in terms of number of
   economies that have at least 1 data point).</p>
 COMPARABILITY: >-
   <p><strong>Sources of discrepancies:</strong></p>
@@ -284,23 +316,30 @@ COMPARABILITY: >-
 OTHER_DOC: >-
   <p><strong>URL:</strong></p>
 
-  <p>www.pip.worldbank.org</p>
+  <p><a href="http://www.pip.worldbank.org">www.pip.worldbank.org</a> </p>
 
   <p><strong>References:</strong></p>
 
-  <p>For more information and methodology, please see :
-  https://worldbank.github.io/PIP-Methodology/.</p>
+  <p>For more information and methodology, please see : <a
+  href="https://worldbank.github.io/PIP-Methodology/">https://worldbank.github.io/PIP-Methodology/</a>.
+  </p>
 
-  <p>Also, consult: https://openknowledge.worldbank.org/handle/10986/37061 </p>
+  <p>Also, consult: <a
+  href="https://openknowledge.worldbank.org/handle/10986/37061">https://openknowledge.worldbank.org/handle/10986/37061</a>
+  </p>
 
-  <p>For a short review see:
-  https://www.worldbank.org/en/news/factsheet/2022/05/02/fact-sheet-an-adjustment-to-global-poverty-lines</p>
+  <p>For a short review see: <a
+  href="https://www.worldbank.org/en/news/factsheet/2022/05/02/fact-sheet-an-adjustment-to-global-poverty-lines">https://www.worldbank.org/en/news/factsheet/2022/05/02/fact-sheet-an-adjustment-to-global-poverty-lines</a>
+  </p>
 
   <p>For a comprehensive link to related background papers, working papers and
   journal articles see: </p>
 
-  <p>https://pip.worldbank.org/publication.</p>
+  <p><a
+  href="https://pip.worldbank.org/publication">https://pip.worldbank.org/publication</a>.
+  </p>
 
   <p>A Measured Approach to Ending Poverty and Boosting Shared Prosperity:
-  Concepts, Data, and the Twin Goals.
-  (http://www.worldbank.org/en/research/publication/a-measured-approach-to-ending-poverty-and-boosting-shared-prosperity)</p>
+  Concepts, Data, and the Twin Goals. (<a
+  href="http://www.worldbank.org/en/research/publication/a-measured-approach-to-ending-poverty-and-boosting-shared-prosperity">http://www.worldbank.org/en/research/publication/a-measured-approach-to-ending-poverty-and-boosting-shared-prosperity</a>)
+  </p>

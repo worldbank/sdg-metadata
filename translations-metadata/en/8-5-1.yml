@@ -11,7 +11,7 @@ SDG_INDICATOR: >-
 SDG_SERIES_DESCR: >-
   <p>Average hourly earnings of employees by sex and occupation (local
   currency)</p>
-META_LAST_UPDATE: '2022-03-31'
+META_LAST_UPDATE: '2023-03-31'
 SDG_RELATED_INDICATORS: '<p>1.1.1, 5.5.2, 8.2.1, 10.4.1 </p>'
 SDG_CUSTODIAN_AGENCIES: <p>International Labour Organization (ILO)</p>
 CONTACT_ORGANISATION: <p>International Labour Organization (ILO) </p>
@@ -19,7 +19,7 @@ STAT_CONC_DEF: >-
   <p><strong>Definition:</strong> </p>
 
   <p>This indicator provides information on the mean hourly earnings from paid
-  employment of employees by sex, occupation, age and disability status. </p>
+  employment of employees by sex, occupation, age, and disability status. </p>
 
   <p> </p>
 
@@ -66,7 +66,7 @@ SOURCE_TYPE: >-
   records.</p>
 COLL_METHOD: >-
   <p>The ILO Department of Statistics processes national household survey micro
-  datasets in line with internationally-agreed indicator concepts and
+  datasets in line with internationally agreed indicator concepts and
   definitions set forth by the International Conference of Labour Statisticians.
   For data that could not be obtained through this processing or directly from
   government websites, the ILO sends out an annual ILOSTAT questionnaire to all
@@ -84,8 +84,8 @@ INST_MANDATE: >-
   <p>The ILO is the UN focal point for labour statistics. It sets international
   standards for labour statistics through the International Conference of Labour
   Statisticians. It also compiles and produces labour statistics with the goal
-  of disseminating internationally-comparable datasets, and provides technical
-  assistance and training to ILO member States to support their efforts to
+  of disseminating internationally comparable datasets and provides technical
+  assistance and training to ILO Member States to support their efforts to
   produce high quality labour market data.</p>
 RATIONALE: >-
   <p>Earnings are a key aspect of quality of employment and living conditions.
@@ -95,7 +95,7 @@ RATIONALE: >-
 REC_USE_LIM: >-
   <p>The variety of possible sources for statistics on earnings greatly hinders
   international comparability, as each type of source has its own coverage,
-  scope and characteristics. It would not be fully accurate to compare, for
+  scope, and characteristics. It would not be fully accurate to compare, for
   example, hourly earnings from a labour force survey for one country with
   hourly earnings from an establishment survey for another. The use of
   non-standard definitions and the heterogeneity of operational criteria applied
@@ -403,7 +403,7 @@ DATA_COMP: >-
       <mn>100</mn>
     </math> </p>
 DATA_VALIDATION: >-
-  <p>The ILO engages in annual consultations with member States through the
+  <p>The ILO engages in annual consultations with Member States through the
   ILOSTAT questionnaire and related Statistics Reporting System (StaRS).
   National data providers receive a link to the portal where they can review all
   national SDG data available on ILOSTAT.</p>
@@ -453,7 +453,7 @@ QUALITY_ASSURE: >-
   <p> </p>
 QUALITY_ASSMNT: >-
   <p>The final assessment of the quality of information is carried out by the
-  Data Production and Analysis Unit of the ILO Department of Department. In
+  Data Production and Analysis Unit of the ILO Department of Statistics. In
   cases of doubt about the quality of specific data, these values are reviewed
   with the participation of the national agencies responsible for producing the
   data if appropriate. If the issues cannot be clarified, the respective
@@ -461,14 +461,14 @@ QUALITY_ASSMNT: >-
 COVERAGE: >-
   <p><strong>Data availability:</strong></p>
 
-  <p>Data for this indicator is available for 118 countries and territories.
+  <p>Data for this indicator is available for 123 countries and territories.
   </p>
 
-  <p>Time series: The submission covers data from 2000 to 2021.</p>
+  <p>Time series: The submission covers data from 2000 to 2022.</p>
 
   <p><strong>Disaggregation:</strong></p>
 
-  <p>This indicator should be disaggregated by sex, occupation, age and
+  <p>This indicator should be disaggregated by sex, occupation, age, and
   disability status. </p>
 COMPARABILITY: >-
   <p><strong>Sources of discrepancies:</strong></p>
@@ -529,11 +529,12 @@ OTHER_DOC: >-
   <p>ILOSTAT database, available at <a
   href="https://ilostat.ilo.org">https://ilostat.ilo.org</a> </p>
 
-  <p>ILOSTAT&#x2019;s indicator description on earnings and labour cost, at
-  https://ilostat.ilo.org/resources/concepts-and-definitions/description-earnings-and-labour-cost/</p>
+  <p>ILOSTAT&#x2019;s indicator description on earnings and labour cost, at <a
+  href="https://ilostat.ilo.org/resources/concepts-and-definitions/description-earnings-and-labour-cost/">https://ilostat.ilo.org/resources/concepts-and-definitions/description-earnings-and-labour-cost/</a></p>
 
   <p> </p>
 
-  <p>International Standard Classification of Occupations (ISCO)
-  https://ilostat.ilo.org/resources/concepts-and-definitions/classification-occupation/
-  </p>
+  <p>International Standard Classification of Occupations (ISCO) <a
+  href="https://ilostat.ilo.org/resources/concepts-and-definitions/classification-occupation/">https://ilostat.ilo.org/resources/concepts-and-definitions/classification-occupation/</a></p>
+
+  <p> </p>

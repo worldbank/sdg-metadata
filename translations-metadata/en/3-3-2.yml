@@ -5,49 +5,56 @@ SDG_TARGET: >-
   other communicable diseases</p>
 SDG_INDICATOR: '<p>Indicator 3.3.2: Tuberculosis incidence per 100,000 population</p>'
 SDG_SERIES_DESCR: <p>Not applicable</p>
-META_LAST_UPDATE: '2022-03-31'
+META_LAST_UPDATE: '2023-03-31'
 SDG_RELATED_INDICATORS: >-
-  <p>Indicators associated with TB incidence: numbers: 1.1.1, 1.3.1, 2.1.1,
-  3.3.1, 3.4.1, 3.5.2, 3.a.1, 3.8.1, 3.8.2, 7.1.2, 8.1.1, 10.1.1, 11.1.1</p>
+  <p>Indicators associated with tuberculosis incidence: numbers: 1.1.1, 1.3.1,
+  2.1.1, 3.3.1, 3.4.1, 3.5.2, 3.a.1, 3.8.1, 3.8.2, 7.1.2, 8.1.1, 10.1.1,
+  11.1.1</p>
 SDG_CUSTODIAN_AGENCIES: <p>World Health Organization (WHO)</p>
 CONTACT_ORGANISATION: <p>World Health Organization (WHO)</p>
 STAT_CONC_DEF: >-
   <p><strong>Definition:</strong></p>
 
-  <p>The tuberculosis incidence per 100 000 population is defined as the
-  estimated number of new and relapse TB cases (all forms of TB, including cases
-  in people living with HIV) arising in a given year, expressed as a rate per
-  100 000 population.</p>
+  <p>Tuberculosis (TB) incidence is defined as the estimated number of new and
+  relapse TB cases (all forms of TB, including cases in people living with HIV)
+  arising in a given year. It is usually expressed as a rate per 100 000
+  population.</p>
 
   <h3>Concepts:</h3>
 
   <p>Direct measurement requires high-quality surveillance systems in which
   underreporting is negligible, and strong health systems so that
-  under-diagnosis is also negligible; otherwise indirect estimates are based on
-  notification data and estimates of levels of underreporting and
-  under-diagnosis.</p>
-UNIT_MEASURE: '<p>Number of cases per 100,000 population per year.</p>'
+  under-diagnosis is also negligible; otherwise, indirect estimates are
+  produced, using either a) notification data combined with estimates of levels
+  of underreporting and under-diagnosis, b) inventory studies combined with
+  capture-recapture modelling, c) population-based surveys of the prevalence of
+  TB disease or d) dynamic models fitted to monthly/quarterly notification data.
+  Dynamic models are only used for selected countries in which major drops in TB
+  case notifications compared with pre-2020 trends suggest major reductions in
+  access to TB diagnosis and treatment during the COVID-19 pandemic.</p>
+UNIT_MEASURE: '<p>Number of cases per year per 100,000 population.</p>'
 CLASS_SYSTEM: >-
   <p>Definitions and reporting framework for tuberculosis &#x2013; 2013 revision
   (WHO/HTM/TB/2013.2). Geneva: World Health Organization; 2013 (<a
   href="https://www.who.int/publications/i/item/9789241505345"><u>https://www.who.int/publications/i/item/9789241505345</u>
-  </a>accessed 4 January 2021).</p>
+  </a>). </p>
 SOURCE_TYPE: >-
   <p>Details about data sources and methods are available in annex 1 and the
-  online technical annex published in the most recent WHO Global Tuberculosis
-  Report at <a
+  technical appendix on methods used by WHO to estimate the global burden of
+  tuberculosis disease published alongside the most recent WHO Global
+  Tuberculosis Report at <a
   href="https://www.who.int/teams/global-tuberculosis-programme/data"><u>https://www.who.int/teams/global-</u></a>
   <a
   href="https://www.who.int/teams/global-tuberculosis-programme/data"><u>tuberculosis-programme/data</u></a></p>
 COLL_METHOD: >-
-  <p>National TB Programmes report their annual TB data to WHO every year
-  between March and June using a standardized online data reporting system
-  maintained at WHO. The system includes real-time checks for data consistency.
-  Estimates of TB burden are prepared in July-August and communicated with
-  countries. In selected countries with new survey data, estimates are updated
-  separately during the year. All estimates are communicated in August-September
-  and revisions are done based on feedback. The final set of estimates is
-  reviewed in WHO before publication in October, for compliance with specific
+  <p>National Tuberculosis (TB) Programmes report their annual TB data to WHO
+  every year between April and June using a standardized web-based data
+  reporting system maintained at WHO. The system includes real-time checks for
+  data consistency. Estimates of TB burden are prepared in July-August and
+  shared with countries for review in August-September; revisions are made based
+  on feedback received. In selected countries with new survey data, estimates
+  are updated separately during the year. The final set of estimates is reviewed
+  in WHO before publication in October, for compliance with specific
   international standards and harmonization of breakdowns for age and sex
   groups.</p>
 FREQ_COLL: <p>April-June each year</p>
@@ -62,13 +69,17 @@ INST_MANDATE: >-
 
   <p>Global strategy and targets for tuberculosis prevention, care and control
   after 2015, World Health Organization, 67th World Health Assembly, Resolutions
-  and decisions, Resolution WHA 67.11, Geneva, Switzerland, 2014. <a
+  and decisions, Resolution WHA 67.11, Geneva, Switzerland, 2014. </p>
+
+  <p><a
   href="https://apps.who.int/gb/ebwha/pdf_files/WHA67-REC1/A67_2014_REC1-en.pdf#page=25">https://apps.who.int/gb/ebwha/pdf_files/WHA67-REC1/A67_2014_REC1-en.pdf#page=25</a></p>
 
   <p>Prevention and control of multidrug-resistant tuberculosis and extensively
   drug-resistant tuberculosis, World Health Organization, 62nd World Health
   Assembly, Resolutions and decisions, Resolution WHA 62.15, Geneva,
-  Switzerland, 2009. <a
+  Switzerland, 2009. </p>
+
+  <p><a
   href="https://apps.who.int/gb/ebwha/pdf_files/WHA62-REC1/WHA62_REC1-en-P2.pdf#page=25">https://apps.who.int/gb/ebwha/pdf_files/WHA62-REC1/WHA62_REC1-en-P2.pdf#page=25</a></p>
 
   <p>Tuberculosis control: progress and long-term planning</p>
@@ -76,7 +87,9 @@ INST_MANDATE: >-
   <p>World Health Organization. 60th World Health Assembly. Resolutions and
   decisions.</p>
 
-  <p>Resolution WHA 60.19. Geneva, Switzerland: WHO; 2007. <a
+  <p>Resolution WHA 60.19. Geneva, Switzerland: WHO; 2007. </p>
+
+  <p><a
   href="https://apps.who.int/gb/ebwha/pdf_files/WHASSA_WHA60-Rec1/E/WHASS1_WHA60REC1-en.pdf#page=67">https://apps.who.int/gb/ebwha/pdf_files/WHASSA_WHA60-Rec1/E/WHASS1_WHA60REC1-en.pdf#page=67</a></p>
 
   <p>Sustainable financing for tuberculosis prevention and control</p>
@@ -84,8 +97,8 @@ INST_MANDATE: >-
   <p>World Health Organization. 58th World Health Assembly. Resolutions and
   decisions.</p>
 
-  <p>Resolution WHA 58.14. Geneva, Switzerland: WHO; 2005.
-  https://apps.who.int/gb/ebwha/pdf_files/WHA58-REC1/english/A58_2005_REC1-en.pdf#page=96</p>
+  <p>Resolution WHA 58.14. Geneva, Switzerland: WHO; 2005. <a
+  href="https://apps.who.int/gb/ebwha/pdf_files/WHA58-REC1/english/A58_2005_REC1-en.pdf#page=96">https://apps.who.int/gb/ebwha/pdf_files/WHA58-REC1/english/A58_2005_REC1-en.pdf#page=96</a></p>
 
   <p>Stop Tuberculosis Initiative</p>
 
@@ -101,8 +114,6 @@ INST_MANDATE: >-
   decisions.</p>
 
   <p>Resolution WHA44.8. Geneva, Switzerland: WHO, 1991.</p>
-
-  <p>pdf, 76kb</p>
 RATIONALE: >-
   <p>Following two years of consultations, a post-2015 global tuberculosis
   strategy was endorsed by the World Health Assembly in May 2014. Known as the
@@ -126,35 +137,40 @@ REC_USE_LIM: >-
 DATA_COMP: >-
   <p>Estimates of TB incidence are produced through a consultative and
   analytical process led by WHO and are published annually. These estimates are
-  based on annual case notifications, assessments of the quality and coverage of
-  TB notification data, national surveys of the prevalence of TB disease and
-  information from death (vital) registration systems.</p>
+  derived from annual case notifications, assessments of the quality and
+  coverage of TB notification data, national surveys of the prevalence of TB
+  disease, national inventory studies and information from death (vital)
+  registration systems.</p>
 
-  <p>Estimates of incidence for each country are derived, using one or more of
-  the following approaches depending on available data: (i) incidence = case
-  notifications/estimated proportion of cases detected; (ii) capture-recapture
-  modelling, (iii) incidence = prevalence/duration of condition.</p>
+  <p>For the period 2000-2019, estimates of incidence for each country are
+  derived using one or more of the following approaches, depending on available
+  data: (i) incidence = case notifications/estimated proportion of cases
+  detected; (ii) capture-recapture modelling, (iii) incidence =
+  prevalence/duration of condition.</p>
+
+  <p>For 2020 and 2021 specifically, these methods were retained for most
+  countries. However, for countries with large absolute reductions in the
+  reported number of people newly diagnosed with TB in 2020 or 2021 relative to
+  pre-2020 trends (which suggested major disruptions to access to TB diagnosis
+  and treatment during the COVID-19 pandemic), dynamic models were used in
+  replacement of the methods used for 2000-2019. </p>
 
   <p>Uncertainty bounds are provided in addition to best estimates.</p>
 
-  <p>Details are available from TB impact measurement: policy and
-  recommendations for how to assess the epidemiological burden of TB and the
-  impact of TB control (https:<a
-  href="http://www.who.int/publications/i/item/9789241598828)">//www.who</a>.i<a
-  href="http://www.who.int/publications/i/item/9789241598828)">nt/publications/i/item/9789241598828)
-  </a>and from the online technical appendix to the WHO global tuberculosis
-  report at <a
+  <p> Details are provided in the technical appendix on methods used by WHO to
+  estimate the global burden of tuberculosis disease published alongside the
+  most recent WHO global tuberculosis report at <a
   href="https://www.who.int/teams/global-tuberculosis-programme/data">https://www.who.int/teams/global-tuberculosis-</a>
   <a
   href="https://www.who.int/teams/global-tuberculosis-programme/data">programme/data.</a></p>
 DATA_VALIDATION: >-
-  <p>Estimates of TB burden are prepared in July-August and communicated with
-  countries. In selected countries with new survey data, estimates are updated
-  separately during the year. All estimates are communicated in August-September
-  and revisions are done based on feedback. The final set of estimates is
-  reviewed in WHO before publication in October, for compliance with specific
-  international standards and harmonization of breakdowns for age and sex
-  groups.</p>
+  <p>Estimates of TB burden are prepared in July-August and shared with
+  countries for review. In selected countries with new survey data, estimates
+  are updated separately during the year. All estimates are communicated in
+  August-September and revisions are made based on feedback. The final set of
+  estimates is reviewed in WHO before publication in October, for compliance
+  with specific international standards and harmonization of breakdowns for age
+  and sex groups.</p>
 ADJUSTMENT: >-
   <p>The final set of estimates is reviewed in WHO before publication in
   October, for compliance with specific international standards and
@@ -162,15 +178,17 @@ ADJUSTMENT: >-
 IMPUTATION: >-
   <p><strong>&#x2022; At country level</strong></p>
 
-  <p>Details available in the technical appendix of each WHO Global Tuberculosis
-  Report at https:<a
+  <p>Details are provided in the technical appendix of each WHO Global
+  Tuberculosis Report at https:<a
   href="http://www.who.int/teams/global-tuberculosis-programme/data">//www.who</a>.i<a
   href="http://www.who.int/teams/global-tuberculosis-programme/data">nt/teams/global-tuberculosis-programme/data</a></p>
 
   <p><strong>&#x2022; At regional and global levels</strong></p>
 
-  <p>Details available in the technical appendix of each WHO Global Tuberculosis
-  Report at https:<a
+  <p>Details are provided in the technical appendix of each WHO Global
+  Tuberculosis Report at </p>
+
+  <p>https:<a
   href="http://www.who.int/teams/global-tuberculosis-programme/data">//ww</a>w<a
   href="http://www.who.int/teams/global-tuberculosis-programme/data">.wh</a>o<a
   href="http://www.who.int/teams/global-tuberculosis-programme/data">.int/teams/global-tuberculosis-programme/data</a></p>
@@ -182,14 +200,15 @@ DOC_METHOD: >-
   2013 revision (WHO/HTM/TB/2013.2). Geneva: World Health Organization; 2013
   (https:<a
   href="http://www.who.int/publications/i/item/9789241505345">//www.who</a>.i<a
-  href="http://www.who.int/publications/i/item/9789241505345">nt/publications/i/item/9789241505345,
-  </a>accessed 4 January 2021).</p>
+  href="http://www.who.int/publications/i/item/9789241505345">nt/publications/i/item/9789241505345</a>)</p>
 QUALITY_MGMNT: >-
   <p>All health statistics published by WHO undergo a systematic internal review
   process from the Data Division, including TB burden statistics. External
   review of specific statistics is conducted in various ways, including through
   country consultations and reviews by technical review bodies such as the WHO
-  Task Force on TB Impact Measurement.</p>
+  Global Task Force on TB Impact Measurement. A report of a 2022 review by a
+  subgroup of the Task Force is available at <a
+  href="https://www.who.int/publications/i/item/9789240057647">https://www.who.int/publications/i/item/9789240057647</a>.</p>
 QUALITY_ASSURE: >-
   <p>The underlying TB data reported by WHO member states is carefully checked
   for completeness and internal consistency. Additional data sources are used in
@@ -199,12 +218,12 @@ QUALITY_ASSURE: >-
 QUALITY_ASSMNT: >-
   <p>TB surveillance data are assessed systematically through so-called
   epidemiological reviews, which provide data quality scores used to update
-  plans for strengthening TB surveillance and used in models to estimate the
+  plans for strengthening TB surveillance and are used in models to estimate the
   burden of TB. In addition, the data are reviewed internally for consistency.
-  Data and estimates are published in the form of country profiles used in
-  systematic consultations with countries, as mentioned in previous sections and
-  cited in section 7. Results are published in detail in publicly available
-  annual global TB reports</p>
+  Data and estimates are published in the form of country profiles, which are
+  published following their review by countries, as mentioned in previous
+  sections and cited in section 7. Results are published in detail in publicly
+  available annual global TB reports.</p>
 COVERAGE: >-
   <p><strong>Data availability:</strong></p>
 
@@ -234,22 +253,13 @@ OTHER_DOC: >-
   <p>The latest WHO Global Tuberculosis Report: <a
   href="https://www.who.int/teams/global-tuberculosis-programme/data"><u>https://www.who.int/teams/global-tuberculosis-</u></a>
   <a
-  href="https://www.who.int/teams/global-tuberculosis-programme/data"><u>programme/data</u>,
-  </a>accessed 4 January 2021).</p>
+  href="https://www.who.int/teams/global-tuberculosis-programme/data"><u>programme/data</u></a>).</p>
 
   <p>Definitions and reporting framework for tuberculosis &#x2013; 2013 revision
   (WHO/HTM/TB/2013.2). Geneva: World Health Organization; 2013 (<a
-  href="https://www.who.int/publications/i/item/9789241505345"><u>https://www.who.int/publications/i/item/9789241505345</u>
-  </a>accessed 4 January 2021).</p>
-
-  <p>TB Impact measurement: Policy and recommendations for how to assess the
-  epidemiological burden of TB and the impact of TB control
-  (WHO/HTM/TB/2009.416). Geneva: World Health Organization; 2009 (https:<a
-  href="http://www.who.int/publications/i/item/9789241598828)">//www.who</a>.i<a
-  href="http://www.who.int/publications/i/item/9789241598828)">nt/publications/i/item/9789241598828).</a></p>
+  href="https://www.who.int/publications/i/item/9789241505345"><u>https://www.who.int/publications/i/item/9789241505345</u></a>).</p>
 
   <p>World Health Assembly governing body documentation: official records.
   Geneva: World Health Organization <a
   href="http://apps.who.int/gb/or/">(ht</a>t<a
-  href="http://apps.who.int/gb/or/">ps://apps.who.int/gb/or/, </a>accessed 21
-  June 2016).</p>
+  href="http://apps.who.int/gb/or/">ps://apps.who.int/gb/or/ </a>).</p>

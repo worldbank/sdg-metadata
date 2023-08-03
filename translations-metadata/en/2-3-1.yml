@@ -12,11 +12,12 @@ SDG_INDICATOR: >-
   farming/pastoral/forestry enterprise size</p>
 SDG_SERIES_DESCR: >-
   <p>Productivity of small-scale food producers (agricultural output per labour
-  day, PPP) (constant 2011 international $) (primary series)</p>
+  day, PPP) (constant 2017 international $) (primary series) (PD_AGR_SSFP)</p>
 
   <p>Productivity of large-scale food producers (agricultural output per labour
-  day, PPP) (constant 2011 international $) (complementary series)</p>
-META_LAST_UPDATE: '2022-03-31'
+  day, PPP) (constant 2017 international $) (complementary series)
+  (PD_AGR_LSFP)</p>
+META_LAST_UPDATE: '2023-05-15'
 SDG_RELATED_INDICATORS: <p>SDG indicator 2.3.2</p>
 SDG_CUSTODIAN_AGENCIES: <p>Food and Agriculture Organization (FAO)</p>
 CONTACT_ORGANISATION: <p>Food and Agriculture Organization (FAO)</p>
@@ -52,7 +53,7 @@ STAT_CONC_DEF: >-
     <li>Tropical Livestock Units are a conversion scale used for standardization and measurement of the number of livestock heads. One TLU is the metabolic weight equivalent of one cattle in North America. The complete list of conversion factors can be found in the Guidelines for the preparation of livestock sector Reviews </li>
     <li>The concept of productivity is standardized by OECD&#x2019;s Manual for Measuring Productivity. This defines productivity as &#x201C;a ratio of a volume measure of outputs to a volume measure of input use.&#x201D; More information on possible definitions can be found in &#x201C;Productivity and Efficiency Measurement in Agriculture: Literature Review and Gaps Analysis&#x201D;.</li>
   </ul>
-UNIT_MEASURE: <p>Constant PPP USD 2011.</p>
+UNIT_MEASURE: <p>Constant PPP USD 2017.</p>
 CLASS_SYSTEM: <p>Not applicable</p>
 SOURCE_TYPE: >-
   <p>Given that indicator 2.3.1 is measured on a target population of producers
@@ -316,17 +317,18 @@ DATA_VALIDATION: >-
   <p>FAO is responsible to check the syntaxes used in the computation of the
   indicator as well as the questions.</p>
 ADJUSTMENT: >-
-  <p>The productivity of small-scale food producers per labor day in the dataset
-  is in local currency units (LCU). For each country and year, the LCU labour
-  value of production has to be converted into PPP 2011 USD. The process first
-  consists on accounting for inflation in the currency, for which the Consumer
-  Price Index (CPI) of each country is used; once deflated, it is converted into
-  PPP 2011 USD, which allows for a homogenous standard of the indicator. SDG 2.3
-  not only focuses on small-scale farmers, but also on women and people with
-  indigenous status. The indicator (which is at the household level) is then
-  calculated disaggregated by sex of the household head or producer (depending
-  on whether a household or an agricultural survey was used), that is, whether
-  the household head or producer is female or male headed.</p>
+  <p>The productivity of small-scale food producers per labour day in the
+  dataset is in local currency units (LCU). For each country and year, the LCU
+  labour value of production has to be converted into PPP 2017 USD. The process
+  first consists on accounting for inflation in the currency, for which the
+  Consumer Price Index (CPI) of each country is used; once deflated, it is
+  converted into PPP 2017 USD, which allows for a homogenous standard of the
+  indicator. SDG 2.3 not only focuses on small-scale farmers, but also on women
+  and people with indigenous status. The indicator (which is at the household
+  level) is then calculated disaggregated by sex of the household head or
+  producer (depending on whether a household or an agricultural survey was
+  used), that is, whether the household head or producer is female or male
+  headed.</p>
 IMPUTATION: >-
   <ul>
     <li><strong>At country level</strong></li>
@@ -368,9 +370,8 @@ QUALITY_ASSMNT: >-
 COVERAGE: >-
   <p><strong>Data availability:</strong></p>
 
-  <p><strong>Data is available for over 40 countries, including all 27 EU
-  countries, 12 countries in Africa and two countries each in Asia and the
-  Americas.</strong></p>
+  <p>Data is available for over 40 countries, including all 27 EU countries, 12
+  countries in Africa and two countries each in Asia and the Americas.</p>
 
   <p><strong>Time series:</strong></p>
 

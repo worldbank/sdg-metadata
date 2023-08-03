@@ -7,8 +7,8 @@ SDG_INDICATOR: >-
   <p>Indicator 10.1.1: Growth rates of household expenditure or income per
   capita among the bottom 40 per cent of the population and the total
   population</p>
-SDG_SERIES_DESCR: <p>Not applicable</p>
-META_LAST_UPDATE: '2022-03-31'
+SDG_SERIES_DESCR: <p>Applies to all series</p>
+META_LAST_UPDATE: '2023-03-31'
 SDG_RELATED_INDICATORS: '<p>1.1.1, 1.2.1, 10.2.1</p>'
 SDG_CUSTODIAN_AGENCIES: <p>World Bank (WB)</p>
 CONTACT_ORGANISATION: <p>World Bank (WB)</p>
@@ -18,10 +18,12 @@ STAT_CONC_DEF: >-
   <p>The growth rate in the welfare aggregate of bottom 40% is computed as the
   annualized average growth rate in per capita real consumption or income of the
   bottom 40% of the income distribution in a country from household surveys over
-  a roughly 5-year period. The national average growth rate in the welfare
-  aggregate is computed as the annualized average growth rate in per capita real
-  consumption or income of the total population in a country from household
-  surveys over a roughly 5-year period.</p>
+  a roughly 5-year period.</p>
+
+  <p>The national average growth rate in the welfare aggregate is computed as
+  the annualized average growth rate in per capita real consumption or income of
+  the total population in a country from household surveys over a roughly 5-year
+  period.</p>
 
   <p><strong>Concepts:</strong></p>
 
@@ -33,16 +35,16 @@ STAT_CONC_DEF: >-
   differs across countries depending on the welfare distribution, and it can
   change over time within a country. Because boosting shared prosperity is a
   country-specific goal, there is no numerical target defined globally.</p>
-UNIT_MEASURE: <p>The unit of measurement is percent.</p>
-CLASS_SYSTEM: <p>Not relevant.</p>
+UNIT_MEASURE: <p>Percent (%)</p>
+CLASS_SYSTEM: <p>Not applicable</p>
 SOURCE_TYPE: >-
-  <p>The Global Database of Shared Prosperity was prepared by the Global Poverty
+  <p>The Global Database of Shared Prosperity is prepared by the Global Poverty
   Working Group, which comprises poverty measurement specialists of different
   departments of the World Bank Group. The database&#x2019;s primary source of
   data is the World Bank Group&#x2019;s Poverty and Inequality Platform (PIP),
   an interactive computational tool that allows users to replicate the World
   Bank Group&#x2019;s official poverty estimates measured at international
-  poverty lines ($1.90, $3.20 or $5.50 per day per capita). The datasets
+  poverty lines ($2.15, $3.65 or $6.85 per day per capita). The datasets
   included in PIP are provided and reviewed by the members of the Global Poverty
   Working Group. The choice of consumption or income to measure shared
   prosperity for a country is consistent with the welfare aggregate used to
@@ -62,7 +64,7 @@ COLL_METHOD: >-
   Database of Shared Prosperity is the result of these efforts. Its purpose is
   to allow for cross-country comparison and benchmarking, but users should
   consider alternative choices for surveys and time periods when cross-country
-  comparison is not the primary consideration. </p>
+  comparison is not the primary consideration.</p>
 FREQ_COLL: >-
   <p>Source collection is ongoing by the Global Poverty Working Group of the
   World Bank; same data used for estimating poverty (indicator 1.1.1).</p>
@@ -77,7 +79,8 @@ DATA_SOURCE: >-
   <p>The World Bank typically receives data from National Statistical Offices
   (NSOs) directly. In other cases it uses NSO data received indirectly. Please
   see the section on data sources for further details.</p>
-COMPILING_ORG: <p>World Bank</p>
+COMPILING_ORG: <p>World Bank (WB)</p>
+INST_MANDATE: <p>Not applicable</p>
 RATIONALE: >-
   <p>Improvements in shared prosperity require both a growing economy and a
   consideration of equity. Shared prosperity explicitly recognizes that while
@@ -90,10 +93,10 @@ RATIONALE: >-
   <p>The decision to measure shared prosperity based on income or consumption
   was not taken to ignore the many other dimensions of welfare. It is motivated
   by the need for an indicator that is easy to understand, communicate, and
-  measure&#x2014;though measurement challenges exist. Indeed, shared prosperity
-  comprises many dimensions of well-being of the less well-off, and when
-  analyzing shared prosperity in the context of a country, it is important to
-  consider a wide range of indicators of welfare.</p>
+  measure &#x2013; though measurement challenges exist. Indeed, shared
+  prosperity comprises many dimensions of well-being of the less well-off, and
+  when analyzing shared prosperity in the context of a country, it is important
+  to consider a wide range of indicators of welfare.</p>
 REC_USE_LIM: >-
   <p><strong>Comments and limitations:</strong></p>
 
@@ -105,10 +108,10 @@ REC_USE_LIM: >-
   <p>Lack of household survey data is even more problematic for monitoring
   shared prosperity than for monitoring poverty. To monitor shared prosperity,
   two surveys of a country have to be conducted within five years or so during a
-  chosen period,. They have to be reasonably comparable to each other in terms
-  of both the survey design and the construction of the welfare aggregates.
-  Thus, not every survey that can generate poverty estimates can generate shared
-  prosperity estimates. </p>
+  chosen period. They have to be reasonably comparable to each other in terms of
+  both the survey design and the construction of the welfare aggregates. Thus,
+  not every survey that can generate poverty estimates can generate shared
+  prosperity estimates.</p>
 
   <p>The second consideration is the coverage of countries, with data that are
   as recent as possible. Since shared prosperity must be estimated and used at
@@ -122,7 +125,7 @@ REC_USE_LIM: >-
   countries, across regions and income levels. In practice, this means that time
   periods will not match perfectly across countries. This is a compromise: while
   it introduces a degree of incomparability, it also creates a database that
-  includes a larger set of countries than would be otherwise possible </p>
+  includes a larger set of countries than would be otherwise possible.</p>
 
   <p><strong>Data quality</strong></p>
 
@@ -153,7 +156,7 @@ REC_USE_LIM: >-
   to yield a higher mean than consumption but also higher inequality. When
   poverty measures based on consumption and income were compared, the two
   effects roughly cancelled each other out: there was no significant statistical
-  difference. </p>
+  difference.</p>
 
   <p>Invariably some sampled households do not participate in surveys because
   they refuse to do so or because nobody is at home during the interview visit.
@@ -174,36 +177,180 @@ DATA_COMP: >-
   <p>Growth rates are calculated as annualized average growth rates over a
   roughly five-year period. Since many countries do not conduct surveys on a
   precise five-year schedule, the following rules guide selection of the survey
-  years used to calculate the growth rates in the 2022 update: the final year of
+  years used to calculate the growth rates in the 2023 update: the final year of
   the growth period (T1) is the most recent year of a survey but no earlier than
-  2017, and the initial year (T0) is as close to T1 &#x2013; 5 as possible,
-  within a two-year band. Thus the gap between initial and final survey years
-  ranges from three to seven years. If two surveys are equidistant from T1
-  &#x2013; 5, other things being equal, the more recent survey year is selected
-  as T0. The comparability of welfare aggregates (income or consumption) for the
-  years chosen for T0 and T1 is assessed for every country. If comparability
-  across the two surveys is a major concern, the selection criteria are
-  re-applied to select the next best survey year.</p>
+  2018, and the initial year (T0) is as close to T1-5 as possible, within a
+  two-year band. Thus the gap between initial and final survey years ranges from
+  three to seven years. If two surveys are equidistant from T1-5, other things
+  being equal, the more recent survey year is selected as T0. The comparability
+  of welfare aggregates (income or consumption) for the years chosen for T0 and
+  T1 is assessed for every country. If incomparability across the two surveys is
+  a concern, the selection criteria are re-applied to select the next best
+  survey year.</p>
 
-  <p>Once two surveys are selected for a country, the annualized growth of mean
-  per capita real income or consumption is computed by first estimating the mean
-  per capita real income or consumption of the bottom 40 percent of the welfare
-  distribution in years T0 and T1 and then computing the annual average growth
-  rate between those years using a compound growth formula, (Mean in T_1/Mean in
-  T_0 )^(1/( T_1- T_0 ))-1. Growth of mean per capita real income or consumption
-  of the total population is computed in the same way using data for the total
+  <p>A roughly five-year period is used because shorter periods may be
+  vulnerable to short-term volatility not strongly related to long term
+  progress. Windows longer than five years, on the other hand, would limit the
+  number of datapoints available due to lack of comparable data within countries
+  over longer periods of time. </p>
+
+  <p>Once two surveys are selected for a country, consumer price indices are
+  used to express the income or consumption of the two surveys in the same
+  year&#x2019;s prices. Then, the annualized growth of mean per capita real
+  income or consumption is computed by first estimating the mean per capita real
+  income or consumption of the bottom 40% of the welfare distribution in years
+  T0 and T1 and then computing the annual average growth rate between those
+  years using a compound growth formula:</p>
+
+  <p><math xmlns="http://www.w3.org/1998/Math/MathML">
+      <mi mathvariant="normal">G</mi>
+      <mi mathvariant="normal">r</mi>
+      <mi mathvariant="normal">o</mi>
+      <mi mathvariant="normal">w</mi>
+      <mi mathvariant="normal">t</mi>
+      <mi mathvariant="normal">h</mi>
+      <mi mathvariant="normal">&amp;nbsp;</mi>
+      <mi mathvariant="normal">i</mi>
+      <mi mathvariant="normal">n</mi>
+      <mi mathvariant="normal">c</mi>
+      <mi mathvariant="normal">o</mi>
+      <mi mathvariant="normal">m</mi>
+      <mi mathvariant="normal">e</mi>
+      <mi mathvariant="normal">&amp;nbsp;</mi>
+      <mi mathvariant="normal">o</mi>
+      <mi mathvariant="normal">r</mi>
+      <mi mathvariant="normal">&amp;nbsp;</mi>
+      <mi mathvariant="normal">c</mi>
+      <mi mathvariant="normal">o</mi>
+      <mi mathvariant="normal">n</mi>
+      <mi mathvariant="normal">s</mi>
+      <mi mathvariant="normal">u</mi>
+      <mi mathvariant="normal">m</mi>
+      <mi mathvariant="normal">p</mi>
+      <mi mathvariant="normal">t</mi>
+      <mi mathvariant="normal">i</mi>
+      <mi mathvariant="normal">o</mi>
+      <mi mathvariant="normal">n</mi>
+      <mo>=</mo>
+      <msup>
+        <mrow>
+          <mo>(</mo>
+          <mfrac>
+            <mrow>
+              <mi mathvariant="normal">M</mi>
+              <mi mathvariant="normal">e</mi>
+              <mi mathvariant="normal">a</mi>
+              <mi mathvariant="normal">n</mi>
+              <mi mathvariant="normal">&amp;nbsp;</mi>
+              <mi mathvariant="normal">i</mi>
+              <mi mathvariant="normal">n</mi>
+              <mi mathvariant="normal">&amp;nbsp;</mi>
+              <msub>
+                <mrow>
+                  <mi mathvariant="normal">T</mi>
+                </mrow>
+                <mrow>
+                  <mn>1</mn>
+                </mrow>
+              </msub>
+            </mrow>
+            <mrow>
+              <mi mathvariant="normal">M</mi>
+              <mi mathvariant="normal">e</mi>
+              <mi mathvariant="normal">a</mi>
+              <mi mathvariant="normal">n</mi>
+              <mi mathvariant="normal">&amp;nbsp;</mi>
+              <mi mathvariant="normal">i</mi>
+              <mi mathvariant="normal">n</mi>
+              <mi mathvariant="normal">&amp;nbsp;</mi>
+              <msub>
+                <mrow>
+                  <mi mathvariant="normal">T</mi>
+                </mrow>
+                <mrow>
+                  <mn>0</mn>
+                </mrow>
+              </msub>
+            </mrow>
+          </mfrac>
+          <mo>)</mo>
+        </mrow>
+        <mrow>
+          <mo>(</mo>
+          <mfrac bevelled="true">
+            <mrow>
+              <mn>1</mn>
+            </mrow>
+            <mrow>
+              <msub>
+                <mrow>
+                  <mo>(</mo>
+                  <mi mathvariant="normal">T</mi>
+                </mrow>
+                <mrow>
+                  <mn>1</mn>
+                </mrow>
+              </msub>
+              <mo>-</mo>
+              <msub>
+                <mrow>
+                  <mi mathvariant="normal">T</mi>
+                </mrow>
+                <mrow>
+                  <mn>0</mn>
+                </mrow>
+              </msub>
+              <mo>)</mo>
+            </mrow>
+          </mfrac>
+          <mo>)</mo>
+        </mrow>
+      </msup>
+      <mo>-</mo>
+      <mn>1</mn>
+    </math></p>
+  <p>Growth of mean per capita real income or consumption of the total
+  population is computed in the same way using data for the total
   population.</p>
+DATA_VALIDATION: >-
+  <p>The raw data are obtained by poverty economists through their contacts in
+  the NSOs, and checked for quality before being submitted for further analysis.
+  The raw data can be unit-record survey data, or grouped data, depending on the
+  agreements with the country governments. In most cases, the welfare aggregate,
+  the essential element for poverty estimation, is generated by the country
+  governments. Sometimes, the World Bank constructs the welfare aggregate or
+  adjusts the aggregate provided by the country.</p>
+ADJUSTMENT: <p>Not applicable</p>
 IMPUTATION: |-
   <p><strong>&#x2022; At country level</strong></p>
-  <p>No imputation</p>
+  <p>Not applicable</p>
   <p><strong>&#x2022; At regional and global levels</strong></p>
-  <p>No aggregation</p>
+  <p>Not applicable</p>
 REG_AGG: >-
   <p>Shared prosperity indicators are country-specific because the welfare
   distribution is country-specific. There&#x2019;s no aggregation.</p>
+DOC_METHOD: >-
+  <p>Countries may refer to the report &#x201C;On the Construction of a</p>
+
+  <p> Consumption Aggregate for Inequality and Poverty Analysis&#x201D;. The
+  report is available here:</p>
+
+  <p><a
+  href="https://documents.worldbank.org/en/publication/documents-reports/documentdetail/099225003092220001/p1694340e80f9a00a09b20042de5a9cd47e">https://documents.worldbank.org/en/publication/documents-reports/documentdetail/099225003092220001/p1694340e80f9a00a09b20042de5a9cd47e</a>
+  </p>
+QUALITY_MGMNT: >-
+  <p>The quality of the estimates is managed through the World Bank&#x2019;s
+  Global Poverty Working Group. </p>
+QUALITY_ASSURE: >-
+  <p>The poverty estimates released by the World Bank are quality checked by
+  members of the Global Poverty Working Group.</p>
+QUALITY_ASSMNT: >-
+  <p>Assessments of the quality behind povety estimates are often available in
+  World Bank Poverty Assessments and in Global Poverty Moniotring Technical
+  Notes.</p>
 COVERAGE: >-
-  <p>In the latest version of the database, 83 countries had a shared prosperity
-  estimate.</p>
+  <p>In the latest version of the database, around 80 countries had a shared
+  prosperity estimate.</p>
 COMPARABILITY: >-
   <p><strong>Sources of discrepancies:</strong></p>
 
@@ -213,10 +360,10 @@ COMPARABILITY: >-
 OTHER_DOC: >-
   <p><strong>URL:</strong></p>
 
-  <p>https://www.pip.worldbank.org</p>
+  <p>[1] <a href="https://pip.worldbank.org">https://pip.worldbank.org</a></p>
 
   <p><strong>References:</strong></p>
 
-  <p>The Global Database of Shared Prosperity, World Bank,
-  http://www.worldbank.org/en/topic/poverty/brief/global-database-of-shared-prosperity.
+  <p>The Global Database of Shared Prosperity, World Bank, <a
+  href="http://www.worldbank.org/en/topic/poverty/brief/global-database-of-shared-prosperity">http://www.worldbank.org/en/topic/poverty/brief/global-database-of-shared-prosperity</a>.
   World Development Indicators, World Bank.</p>

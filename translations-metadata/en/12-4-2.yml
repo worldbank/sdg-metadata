@@ -14,7 +14,13 @@ SDG_SERIES_DESCR: >-
   <p>Electronic waste generated, per capita (Kg)<strong>
   EN_EWT_GENPCAP</strong></p>
 
-  <p>Hazardous waste generated (Tonnes)<strong> EN_HAZ_GENV</strong></p>
+  <p>Electronic waste collected (Tonnes)<strong> EN_EWT_COLLV</strong></p>
+
+  <p>Electronic waste collected, per capita (KG)<strong>
+  EN_EWT_COLLPCAP</strong></p>
+
+  <p>Electronic waste collection rate (%)<strong> EN_EWT_COLLR</strong>Hazardous
+  waste generated (Tonnes)<strong> EN_HAZ_GENV</strong></p>
 
   <p>Hazardous waste generated, per capita (Kg)<strong> EN_HAZ_PCAP</strong></p>
 
@@ -30,27 +36,27 @@ SDG_SERIES_DESCR: >-
   <p>Hazardous waste treated or disposed (Tonnes)<strong>
   EN_HAZ_TRTDISV</strong></p>
 
+  <p>Hazardous waste exported, (Tonnes)<strong> EN_HAZ_EXP</strong></p>
+
+  <p>Hazardous waste imported, (Tonnes)<strong> EN_HAZ_IMP</strong></p>
+
   <p>Municipal waste collected (Tonnes)<strong> EN_MWT_COLLV</strong></p>
 
   <p>Municipal waste treated, by type of treatment (%)<strong>
   EN_MWT_TREATR</strong></p>
 
+  <p>Municipal waste treated, by type of treatment (Tonnes)<strong>
+  EN_MWT_TREATV</strong></p>
+
   <p>Municipal waste generated (Tonnes)<strong> EN_MWT_GENV</strong></p>
 
-  <p>Electronic waste collected (Tonnes)<strong> EN_EWT_COLLV</strong></p>
+  <p>Municipal<strong> waste exported, (Tonnes) EN_MWT_EXP</strong></p>
 
-  <p>Electronic waste collected, per capita (KG)<strong>
-  EN_EWT_COLLPCAP</strong></p>
-
-  <p>Electronic waste collection rate (%)<strong> EN_EWT_COLLR</strong></p>
+  <p>Municipal<strong> waste imported, (Tonnes) EN_MWT_IMP</strong></p>
 
   <p>Total waste generation, by activity (Tonnes)<strong>
   EN_TWT_GENV</strong></p>
-
-  <p>Hazardous waste exported, (Tonnes)<strong> EN_HAZ_EXP</strong></p>
-
-  <p>Hazardous waste imported, (Tonnes)<strong> EN_HAZ_IMP</strong></p>
-META_LAST_UPDATE: '2023-01-24'
+META_LAST_UPDATE: '2023-03-31'
 SDG_RELATED_INDICATORS: '<p>11.6.1, 12.5.1, 14.1.1</p>'
 SDG_CUSTODIAN_AGENCIES: >-
   <p>United Nations Environment Programme (UNEP), United Nations Statistics
@@ -179,11 +185,11 @@ COLL_METHOD: >-
   the UNSD/UNEP Questionnaire, so data are comparable. </p>
 FREQ_COLL: |-
   <ul>
-    <li>The UNSD/UNEP Questionnaire on Environment Statistics is sent every 2 years. </li>
+    <li>The UNSD/UNEP Questionnaire on Environment Statistics is sent every 2 years.</li>
     <li>The biennial OECD/Eurostat Joint Questionnaire on the State of the Environment is also sent every 2 years.</li>
   </ul>
 REL_CAL_POLICY: >-
-  <p> Every two years after the validation of national statistics from the
+  <p>Every two years after the validation of national statistics from the
   UNSD/UNEP Questionnaire on Environment Statistics and the OECD/Eurostat Joint
   Questionnaire on the State of the Environment.</p>
 DATA_SOURCE: <p>National Statistical Systems and relevant ministries. </p>

@@ -7,18 +7,17 @@ SDG_TARGET: >-
   including their biodiversity, in order to enhance their capacity to provide
   benefits that are essential for sustainable development</p>
 SDG_INDICATOR: >-
-  <p>Indicator 15.4.2: (a) Mountain Green Cover Index and (b) Proportion of
-  degraded mountain land<sup><a href="#footnote-2"
-  id="footnote-ref-2">[1]</a></sup></p><div class="footnotes"><div><sup
-  class="footnote-number" id="footnote-2">1</sup><p> Refinement of the indicator
-  name to be reviewed by the Inter-agency and Expert Group on SDG Indicators
-  (IAEG-SDGs) in its 13th meeting in November 2022 for final approval by the
-  54th session of the Statistical Commission in March 2023. <a
-  href="#footnote-ref-2">&#x2191;</a></p></div></div>
+  <p>Indicator 15.4.2: (a) Mountain Green Cover Index and (b) proportion of
+  degraded mountain land</p>
 SDG_SERIES_DESCR: |-
-  <p>Mountain Green Cover Index</p>
-  <p>Proportion of degraded mountain land</p>
-META_LAST_UPDATE: '2022-09-22'
+  <p>Primary series:</p>
+  <p>Mountain Green Cover Index (ER_MTN_GRNCVI)</p>
+  <p>Proportion of degraded mountain land (ER_MTN_DGRDP)</p>
+  <p>Supplementary series:</p>
+  <p>Mountain green cover area (square kilometres) (ER_MTN_GRNCOV)</p>
+  <p>Mountain area (square kilometres) (ER_MTN_TOTL)</p>
+  <p>Area of degraded mountain land (square kilometres) (ER_MTN_DGRDA)</p>
+META_LAST_UPDATE: '2023-05-15'
 SDG_RELATED_INDICATORS: '<p>6.6.1, 15.1.1, 15.2.1, 15.3.1, 15.4.1</p>'
 SDG_CUSTODIAN_AGENCIES: <p>Food and Agriculture Organization of the United Nations (FAO)</p>
 CONTACT_ORGANISATION: <p>Food and Agriculture Organization of the United Nations (FAO)</p>
@@ -33,27 +32,27 @@ STAT_CONC_DEF: >-
   pasture land, cropland, etc. &#x2013; in mountain areas. MGCI is defined as
   the percentage of green cover over the total surface of the mountain area of a
   given country and for given reporting year. The aim of the index is to monitor
-  the evolution of the green cover and thus assess the status of conservation of
+  the evolution of green cover and thus assess the status of conservation of
   mountain ecosystems.</p>
 
   <p>Sub-indicator 15.4.2b, Proportion of degraded mountain land, is designed to
   monitor the extent of degraded mountain land as a result of land cover change
-  of a given country and for given reporting year. Similarly to sub-indicator
+  in a given country and for given reporting year. Similarly to sub-indicator
   &#x2018;&#x2019;trends in land cover&#x201D; under SDG Indicator 15.3.1 (Sims
   <em>et al.</em> 2021), mountain ecosystem degradation and recovery is assessed
-  based on the definition of land cover type transitions that constitute
-  degradation, as either improving, stable or degraded. The definition of
+  based on the definition of land cover type transitions that indicate
+  improving, stable or degrading conservation status. The definition of
   degradation adopted for the computation of this indicator is the one
   established Intergovernmental Science-Policy Platform on Biodiversity and
-  Ecosystem Services (IPBES)<sup><a href="#footnote-3"
-  id="footnote-ref-3">[2]</a></sup>.</p>
+  Ecosystem Services (IPBES)<sup><a href="#footnote-2"
+  id="footnote-ref-2">[1]</a></sup>.</p>
 
   <p><strong>Concepts:</strong></p>
 
-  <p><strong><em>Mountain area</em> </strong>is defined according to UNEP-WCMC
-  (2002). The UNEP-WCMC method defines total global mountain area as the sum of
+  <p><strong><em>Mountain area</em> </strong>is defined according to the
+  UNEP-WCMC (2002) method. It defines total global mountain area as the sum of
   seven classes (commonly known as &#x2018;Kapos mountain classes&#x2019;),
-  based on elevation, slope and local elevation ranges parameters (Table 1).</p>
+  based on elevation, slope and local elevation ranges (Table 1).</p>
 
   <p><strong>Table 1.</strong> Global mountain classes as defined by UNEP-WCMC
   (2002)</p>
@@ -127,6 +126,12 @@ STAT_CONC_DEF: >-
     </tbody>
   </table>
 
+  <p>Prior to the methodological refinement of this indicator approved by the
+  Inter-agency and Expert Group on SDG Indicators (IAEG-SDG) in June 2022, the
+  UNEP-WCMC classification was used to disaggregate the indicator by Kapos
+  mountain classes. This is no longer the case, with Kapos mountain classes
+  having been replaced by a bioclimatic belts (see section 2.c below).</p>
+
   <p><strong><em>Land cover </em></strong>refers to the observed physical cover
   of the Earth&#x2019;s surface. It includes vegetation and man-made features as
   well as bare rock, bare soil and inland water surfaces (FAO-GTOS, 2009). The
@@ -141,8 +146,7 @@ STAT_CONC_DEF: >-
   established by the United Nations Statistical Commission&#x2019;s System of
   Environmental and Economic Accounting (UN-SEEA) (UN Statistical Division,
   2014) by selecting the most relevant SEEA classes for mountain ecosystems and
-  aggregating all croplands classes in the following classification (Table
-  2).</p>
+  aggregating all croplands classes (Table 2).</p>
 
   <p><strong>Table 2.</strong> Left: Land cover classification established by
   the UN-SEEA (Source: UN Statistical Division, 2014). Right: Adapted land cover
@@ -279,7 +283,7 @@ STAT_CONC_DEF: >-
   cover classes included in Table 2, thus increasing the indicator&#x2019;s
   policy relevance.</p>
 
-  <p><strong>Table 1. </strong>Classification of SEEA land cover classes into
+  <p><strong>Table 3. </strong>Classification of SEEA land cover classes into
   green and non-green cover.</p>
 
   <table>
@@ -384,12 +388,14 @@ STAT_CONC_DEF: >-
   is documented in a transition matrix that specifies the land cover changes
   occurring in a given land unit (pixel) as being either degradation,
   improvement or neutral transitions.</p><div class="footnotes"><div><sup
-  class="footnote-number" id="footnote-3">2</sup><p> IPBES defines land
+  class="footnote-number" id="footnote-2">1</sup><p> IPBES defines land
   degradation as &#x201C;the many human-caused processes that drive the decline
   or loss in biodiversity, ecosystem functions or ecosystem services in any
   terrestrial and associated aquatic ecosystems&#x201D; (IPBES, 2018) <a
-  href="#footnote-ref-3">&#x2191;</a></p></div></div>
-UNIT_MEASURE: <p>Percent (%) for both sub-indicators.</p>
+  href="#footnote-ref-2">&#x2191;</a></p></div></div>
+UNIT_MEASURE: >-
+  <p>Both sub-indicators will be expressed as proportions (percent) and area
+  (KM2).</p>
 CLASS_SYSTEM: >-
   <p>This indicator uses two established classifications: (1) the simplified
   UN-SEEA land cover classification included in Table 2, and (2) the mountain
@@ -398,12 +404,12 @@ CLASS_SYSTEM: >-
 
   <p>K&#xF6;rner <em>et al. </em>(2011) subdivides mountains vertically into
   seven bioclimatic belts based on average temperatures, therefore accounting
-  the latitudinal change in elevation of thermally similar areas in the
+  for the latitudinal change in elevation of thermally similar areas in the
   world&#x2019;s mountains. For the purposes of this indicator, these seven
   bioclimatic belts are aggregated into four (Nival, Alpine, Montane and
   Remaining mountain areas), as illustrated in Table 4.</p>
 
-  <p><strong>Table 2. </strong>Mountain bioclimatic belts as defined by
+  <p><strong>Table 4. </strong>Mountain bioclimatic belts as defined by
   K&#xF6;rner et al. (2011) and reclassification for data disaggregation of SDG
   Indicator 15.4.2. Growing season is defined as the number of days between
   daily mean temperature exceeds 0.9 &#xB0;C then falls below 0.9 &#xB0;C</p>
@@ -518,20 +524,19 @@ CLASS_SYSTEM: >-
     </tbody>
   </table>
 SOURCE_TYPE: >-
-  <p>Land cover maps developed by relevant national authorities will generally
-  provide the most relevant data source to compute this indicator. However, in
-  certain cases, such data may not be available. In those cases, various
-  regional or global products provide a viable alternative.</p>
+  <p>Land cover maps developed by appropriate national authorities will
+  generally provide the most relevant data source to compute this indicator.
+  However, in certain cases, such data may not be available. In those cases,
+  various regional or global products provide a viable alternative.</p>
 
   <p>The global default source of land cover data for this indicator is the
   European Space Agency Climate Change Initiative (ESA-CCI) Land Cover product
   (ESA, 2017). The ESA-CCI product consists of a series of annual Land Cover
   maps at 300 m resolution, providing 22 land cover classes based on 300m MERIS,
   1km SPOT &#x2013;VEGETATION, 1km PROBA &#x2013;V and 1km AVHRR. The ESA CCI
-  adheres to the Cover Classification System of the United Nations Food and
-  Agriculture Organization (UN FAO) (Santoro <em>et al</em>. 2015). Annual
-  updates are currently available from 1992 to 2020. Additional years will be
-  made available by the European Space Agency. </p>
+  adheres to the FAO Land Cover Classification System (Santoro <em>et al</em>.
+  2015). Annual updates are currently available from 1992 to 2020. Additional
+  years will be made available by the European Space Agency. </p>
 
   <p>A global mountain area map sub-divided by bioclimatic belts has been
   developed by FAO and made available to national authorities to facilitate the
@@ -539,11 +544,11 @@ SOURCE_TYPE: >-
   area map developed from the Global Multi-Resolution Terrain Elevation Data
   (GMTED2010), following the UNEP-WCMC methodology (Ravilious <em>et al.
   </em>2021) and a mountain bioclimatic belt map created by the Global Mountain
-  Biodiversity Assessment<sup><a href="#footnote-4"
-  id="footnote-ref-4">[3]</a></sup>. </p><div class="footnotes"><div><sup
-  class="footnote-number" id="footnote-4">3</sup><p>
+  Biodiversity Assessment<sup><a href="#footnote-3"
+  id="footnote-ref-3">[2]</a></sup>. </p><div class="footnotes"><div><sup
+  class="footnote-number" id="footnote-3">2</sup><p>
   https://ilias.unibe.ch/goto.php?target=file_2171234 <a
-  href="#footnote-ref-4">&#x2191;</a></p></div></div>
+  href="#footnote-ref-3">&#x2191;</a></p></div></div>
 COLL_METHOD: >-
   <p>Data on both sub-indicators will be provided by National Statistics Office
   (NSO) SDG focal points to the FAO following a standard format every three
@@ -558,7 +563,7 @@ COLL_METHOD: >-
   IAEG-SDG guidelines of Global Data Flows and Reporting. </p>
 
   <p> </p>
-FREQ_COLL: <p>SDG indicator 15.4.2 is updated every three years. </p>
+FREQ_COLL: <p>SDG indicator 15.4.2 is updated every three years.</p>
 REL_CAL_POLICY: '<p>March of every year, in line with the annual SDG reporting cycle.</p>'
 DATA_SOURCE: >-
   <p>NSO SDG focal points will provide reports that include values for both
@@ -569,7 +574,7 @@ DATA_SOURCE: >-
   countries</p>
 COMPILING_ORG: <p>Food and Agriculture Organization of the United Nations (FAO)</p>
 INST_MANDATE: >-
-  <p>Article 1 of FAO&#x2019;s constitution specifies that, &#x201C;The
+  <p>Article 1 of FAO&#x2019;s constitution specifies that &#x201C;The
   Organization shall collect, analyse, interpret, and disseminate information
   related to nutrition, food and agriculture.&#x201D; In this regard, FAO
   collects national level data from member countries, which it then standardizes
@@ -596,11 +601,12 @@ RATIONALE: >-
   direction of those changes. </p>
 REC_USE_LIM: >-
   <p>The indicator can be calculated using freely available Earth Observation
-  data and simple GIS operations that can be processed in free and open source
-  software (FOSS) GIS. Regional and global land cover data derived from Earth
-  observation can play an important role in the absence of, to complement, or to
-  enhance national official data sources. These datasets can help validate and
-  improve national statistics for greater accuracy by ensuring that the data</p>
+  data and simple Geographic Information Science (GIS) operations that can be
+  processed in free and open source software (FOSS) GIS. Regional and global
+  land cover data derived from Earth observation can play an important role in
+  the absence of, to complement, or to enhance national official data sources.
+  These datasets can help validate and improve national statistics for greater
+  accuracy by ensuring that the data</p>
 
   <p>Recognizing that this indicator cannot fully capture the complexity of
   mountain ecosystems across the world, countries are strongly encouraged to use
@@ -612,8 +618,9 @@ REC_USE_LIM: >-
     <li>Sub-indicator &#x2018;&#x2019;a&#x2019;&#x2019; should be interpreted with care given that: 1) lack of green cover does not necessarily mean that a particular mountain area is degraded (i.e. areas of permanent snow and ice, scree slopes and natural sparsely vegetated areas above the tree line, 2) it does not capture significant drivers of change such as conversion of natural areas to cropland or pastureland, and 3) increase in green cover may due to impacts of climate change in mountain areas (i.e. increase in green cover due to snow and glacier retreat due to global warming). </li>
     <li>Because land cover refers to the naturally stable aspects of land and the structure of its key elements, transient aspects such as vegetation phenology, snow or flooding cannot be captured by land cover transitions as measured in sub-indicator 15.4.2b. In the context of SDG Target 15.4, this is particularly relevant for snow cover dynamics (snow cover duration within a year), which has been highlighted as a key impact of global warming in mountain ecosystems with direct impacts to water provision (Notarnicola, 2020). </li>
     <li>Decisions about which land cover transitions are linked to degradation processes would sometimes require information on the use of land, not only land cover. For example, the conversion of tree-covered areas to grassland may be a result of deforestation (change in land cover and land use) or just the result of certain management practices and natural disturbance (change in land cover only). The former could be identified as a negative transition, while the latter could be considered as stable or unchanging. The use of land use information would help to better characterize those changes in the context of sub-indicator &#x201C;b&#x2019;&#x2019;. </li>
-    <li>Both sub-indicators are not able to capture ecosystem degradation drivers that do not necessarily result in changes in land cover. Some examples of this include conversions of natural forest to tree plantations, conversion of natural and semi-natural grasslands to intensively used pastures, forest and grassland degradation or invasive species invasion, among others. However, the use of more detailed national land use maps may be able to overcome some of these gaps for sub-indicator 15.4.2b.</li>
+    <li>Both sub-indicators are not able to capture ecosystem degradation drivers that do not necessarily result in changes in land cover. Some examples of this include conversions of natural forests to intensively managed production systems such as plantation forests, orchards and oil palm plantations; conversion of natural and semi-natural grasslands to intensively used pastures, forest and grassland degradation or invasive species invasion, among others. However, the use of more detailed national land use maps may be able to overcome some of these gaps for sub-indicator 15.4.2b.</li>
     <li>While access to remote sensing imagery has improved dramatically in recent years, there is still a need for essential historical time series that is currently only available at coarse to medium resolution. Therefore, if countries have national land cover maps of higher spatial resolution and comparable or better quality, FAO advises using them, following the same methodology presented here, for the generation of the indicator&#x2019;s values. </li>
+    <li>Area estimations based on remote-sensing-derived land cover maps such as the ESA-CCI product via pixel counting may lead to biased area estimates due to map errors (Olofsson et al. 2014). Countries are encouraged to further refine those estimates by comparing them against reference datasets and applying bias corrections.</li>
   </ul>
 DATA_COMP: >-
   <p><strong>Sub-indicator 15.4.2a</strong>, Mountain Green Cover Index, is
@@ -628,33 +635,39 @@ DATA_COMP: >-
       <mi>&amp;nbsp;</mi>
       <mfrac>
         <mrow>
-          <mi>M</mi>
-          <mi>o</mi>
-          <mi>u</mi>
-          <mi>n</mi>
-          <mi>t</mi>
-          <mi>a</mi>
-          <mi>i</mi>
-          <mi>n</mi>
+          <msub>
+            <mrow>
+              <mi>M</mi>
+              <mi>o</mi>
+              <mi>u</mi>
+              <mi>n</mi>
+              <mi>t</mi>
+              <mi>a</mi>
+              <mi>i</mi>
+              <mi>n</mi>
+              <mi>&amp;nbsp;</mi>
+              <mi>G</mi>
+              <mi>r</mi>
+              <mi>e</mi>
+              <mi>e</mi>
+              <mi>n</mi>
+              <mi>&amp;nbsp;</mi>
+              <mi>C</mi>
+              <mi>o</mi>
+              <mi>v</mi>
+              <mi>e</mi>
+              <mi>r</mi>
+              <mi>&amp;nbsp;</mi>
+              <mi>A</mi>
+              <mi>r</mi>
+              <mi>e</mi>
+              <mi>a</mi>
+            </mrow>
+            <mrow>
+              <mi>n</mi>
+            </mrow>
+          </msub>
           <mi>&amp;nbsp;</mi>
-          <mi>G</mi>
-          <mi>r</mi>
-          <mi>e</mi>
-          <mi>e</mi>
-          <mi>n</mi>
-          <mi>&amp;nbsp;</mi>
-          <mi>C</mi>
-          <mi>o</mi>
-          <mi>v</mi>
-          <mi>e</mi>
-          <mi>r</mi>
-          <mi>&amp;nbsp;</mi>
-          <mi>A</mi>
-          <mi>r</mi>
-          <mi>e</mi>
-          <mi>a</mi>
-          <mi>&amp;nbsp;</mi>
-          <mi>n</mi>
         </mrow>
         <mrow>
           <mi>T</mi>
@@ -684,8 +697,8 @@ DATA_COMP: >-
   <p>Where: </p>
 
   <ul>
-    <li><em>Mountain Green Cover Area<sub>n</sub> </em>= Sum of areas covered by (1) tree-covered areas, (2) croplands, (3) grasslands, (4) shrub-covered areas and (5) shrubs and/or herbaceous vegetation, aquatic or regularly flooded classes in the reporting period <em>n.</em> </li>
-    <li><em>Total mountain area</em> = Total area of mountains (in Km<sup>2</sup>). In both the numerator and denominator, mountain area is defined according to UNEP-WCMC<em> </em>(2002). </li>
+    <li><em>Mountain Green Cover Area<sub>n</sub> </em>= Sum of areas (in km<sup>2</sup>) covered by (1) tree-covered areas, (2) croplands, (3) grasslands, (4) shrub-covered areas and (5) shrubs and/or herbaceous vegetation, aquatic or regularly flooded classes in the reporting period <em>n.</em> </li>
+    <li><em>Total mountain area</em> = Total area of mountains (in km<sup>2</sup>). In both the numerator and denominator, mountain area is defined according to UNEP-WCMC<em> </em>(2002). </li>
   </ul>
 
   <p><strong>Sub-indicator 15.4.2b</strong>, Proportion of degraded mountain
@@ -786,12 +799,12 @@ DATA_COMP: >-
   <p>Where: </p>
 
   <ul>
-    <li><em>Degraded mountain area<sub>n</sub> </em>= Total degraded mountain area (in Km<sup>2</sup>) in the reporting period <em>n.</em> This is, the sum of the areas where land cover change is considered to constitute degradation from the baseline period.</li>
-    <li><em>Total mountain area</em> = Total area of mountains (in Km<sup>2</sup>). In both the numerator and denominator, mountain area is defined according to UNEP-WCMC<em> </em>(2002). </li>
+    <li><em>Degraded mountain area<sub>n</sub> </em>= Total degraded mountain area (in km<sup>2</sup>) in the reporting period <em>n.</em> This is, the sum of the areas where land cover change is considered to constitute degradation from the baseline period. Degraded mountain land will be assessed based on the land cover transition matrix in Annex 1. </li>
+    <li><em>Total mountain area</em> = Total area of mountains (in km<sup>2</sup>). In both the numerator and denominator, mountain area is defined according to UNEP-WCMC<em> </em>(2002). </li>
   </ul>
 
   <p>If the country/region has no mountain area, it will be assigned value
-  N/A.</p>
+  NA.</p>
 DATA_VALIDATION: >-
   <p>Once received, national reported indicator values will undergo a review
   process by FAO to ensure the correct use of definitions and methodology as
@@ -890,7 +903,7 @@ COVERAGE: >-
   mountain bioclimatic belts as defined by K&#xF6;rner <em>et al. </em>(2011)
   (see section 2c. Classifications). In addition, sub-indicator 15.4.2a is
   disaggregated by the 10 SEEA classes included in Table 2. Those values are
-  reported in square kilometres. </p>
+  reported both as proportions (percent) and area (in square kilometres). </p>
 COMPARABILITY: >-
   <p><strong>Sources of discrepancies:</strong></p>
 
@@ -933,6 +946,11 @@ OTHER_DOC: >-
   regions over 2000-2018. <em>Remote Sensing of Environment </em>243,
   111781.</p>
 
+  <p>Olofsson, P., Foody, G. M., Herold, M., Stehman, S. V., Woodcock, C. E.,
+  Wulder, M. A. (2014): Good practices for estimating area and assessing
+  accuracy of land change<em>. Remote Sensing of Environment</em>, 148,
+  42-57.</p>
+
   <p>Ravilious, C., Tshwene-Mauchaza, B. and Kapos, V. (2021). <em>Validation
   and implementation of the Kapos Mountain Classification: Assessing the impact
   of DEM resolution on the mapping of mountain classes following the Kapos
@@ -955,3 +973,415 @@ OTHER_DOC: >-
 
   <p>UNEP-WCMC (2002). <em>Mountain Watch: Environmental change and sustainable
   development in mountains.</em> Cambridge, UK</p>
+
+  <p><strong>Annex 1.</strong> Land cover transition matrix for the 10 SEEA
+  classes. Land cover change processes are color coded as improvement (green),
+  stable (yellow) or degradation (red). (Adapted from Sims <em>et al</em>.
+  2021). </p>
+
+  <table>
+    <tbody>
+      <tr>
+        <td></td>
+        <td></td>
+        <td colspan="10">
+          <p><strong>FINAL CLASS</strong></p>
+        </td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td>
+          <p><strong>Artificial surfaces</strong></p>
+        </td>
+        <td>
+          <p><strong>Cropland</strong></p>
+        </td>
+        <td>
+          <p><strong>Grassland</strong></p>
+        </td>
+        <td>
+          <p><strong>Tree-covered areas</strong></p>
+        </td>
+        <td>
+          <p><strong>Shrub-covered areas</strong></p>
+        </td>
+        <td>
+          <p><strong>Herbaceous or shrub</strong></p>
+          <p><strong>vegetation,</strong></p>
+          <p><strong>aquatic or</strong></p>
+          <p><strong>regularly</strong></p>
+          <p><strong>flooded</strong></p>
+        </td>
+        <td>
+          <p><strong>Sparsely natural vegetated areas</strong></p>
+        </td>
+        <td>
+          <p><strong>Barren land</strong></p>
+        </td>
+        <td>
+          <p><strong>Permanent snow &amp; glaciers</strong></p>
+        </td>
+        <td>
+          <p><strong>Water bodies</strong></p>
+        </td>
+      </tr>
+      <tr>
+        <td rowspan="10">
+          <p><strong>ORIGINAL CLASS</strong></p>
+        </td>
+        <td>
+          <p><strong>Artificial Surfaces</strong></p>
+        </td>
+        <td>
+          <p>Stable</p>
+        </td>
+        <td>
+          <p>Agricultural Expansion</p>
+        </td>
+        <td>
+          <p>Vegetation establishment</p>
+        </td>
+        <td>
+          <p>Forest expansion</p>
+        </td>
+        <td>
+          <p>Vegetation establishment</p>
+        </td>
+        <td>
+          <p>Wetland establishment</p>
+        </td>
+        <td>
+          <p>Withdrawal of settlements</p>
+        </td>
+        <td>
+          <p>Withdrawal of settlements</p>
+        </td>
+        <td>
+          <p>Withdrawal of settlements</p>
+        </td>
+        <td>
+          <p>Withdrawal of settlements</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p><strong>Cropland</strong></p>
+        </td>
+        <td>
+          <p>Urban expansion</p>
+        </td>
+        <td>
+          <p>Stable</p>
+        </td>
+        <td>
+          <p>Withdrawal of agriculture</p>
+        </td>
+        <td>
+          <p>Forest expansion</p>
+        </td>
+        <td>
+          <p>Vegetation establishment</p>
+        </td>
+        <td>
+          <p>Wetland establishment </p>
+        </td>
+        <td>
+          <p>Vegetation loss</p>
+        </td>
+        <td>
+          <p>Vegetation loss</p>
+        </td>
+        <td>
+          <p>Glacier advance</p>
+        </td>
+        <td>
+          <p>Inundation</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p><strong>Grassland</strong></p>
+        </td>
+        <td>
+          <p>Urban expansion</p>
+        </td>
+        <td>
+          <p>Agricultural Expansion</p>
+        </td>
+        <td>
+          <p>Stable</p>
+        </td>
+        <td>
+          <p>Forest expansion</p>
+        </td>
+        <td>
+          <p>Woody encroachment</p>
+        </td>
+        <td>
+          <p>Wetland establishment</p>
+        </td>
+        <td>
+          <p>Vegetation loss</p>
+        </td>
+        <td>
+          <p>Vegetation loss</p>
+        </td>
+        <td>
+          <p>Glacier advance</p>
+        </td>
+        <td>
+          <p>Inundation</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p><strong>Tree-covered areas</strong></p>
+        </td>
+        <td>
+          <p>Deforestation</p>
+        </td>
+        <td>
+          <p>Deforestation</p>
+        </td>
+        <td>
+          <p>Deforestation</p>
+        </td>
+        <td>
+          <p>Stable</p>
+        </td>
+        <td>
+          <p>Vegetation loss</p>
+        </td>
+        <td>
+          <p>Inundation</p>
+        </td>
+        <td>
+          <p>Deforestation</p>
+        </td>
+        <td>
+          <p>Deforestation</p>
+        </td>
+        <td>
+          <p>Glacier advance</p>
+        </td>
+        <td>
+          <p>Inundation</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p><strong>Shrub-covered areas</strong></p>
+        </td>
+        <td>
+          <p>Urban expansion</p>
+        </td>
+        <td>
+          <p>Agricultural expansion</p>
+        </td>
+        <td>
+          <p>Vegetation loss</p>
+        </td>
+        <td>
+          <p>Forest expansion</p>
+        </td>
+        <td>
+          <p>Stable</p>
+        </td>
+        <td>
+          <p>Inundation</p>
+        </td>
+        <td>
+          <p>Vegetation loss</p>
+        </td>
+        <td>
+          <p>Vegetation loss</p>
+        </td>
+        <td>
+          <p>Glacier advance</p>
+        </td>
+        <td>
+          <p>Inundation</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p><strong>Herbaceous or shrub</strong></p>
+          <p><strong>vegetation,</strong></p>
+          <p><strong>aquatic or</strong></p>
+          <p><strong>regularly</strong></p>
+          <p><strong>flooded</strong></p>
+        </td>
+        <td>
+          <p>Wetland drainage</p>
+        </td>
+        <td>
+          <p>Wetland drainage</p>
+        </td>
+        <td>
+          <p>Wetland drainage</p>
+        </td>
+        <td>
+          <p>Wetland drainage</p>
+        </td>
+        <td>
+          <p>Woody encroachment</p>
+        </td>
+        <td>
+          <p>Stable</p>
+        </td>
+        <td>
+          <p>Wetland drainage</p>
+        </td>
+        <td>
+          <p>Wetland drainage</p>
+        </td>
+        <td>
+          <p>Glacier advance</p>
+        </td>
+        <td>
+          <p>Inundation</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p><strong>Sparsely natural vegetated areas</strong></p>
+        </td>
+        <td>
+          <p>Urban expansion</p>
+        </td>
+        <td>
+          <p>Agricultural expansion</p>
+        </td>
+        <td>
+          <p>Vegetation establishment</p>
+        </td>
+        <td>
+          <p>Forest expansion</p>
+        </td>
+        <td>
+          <p>Vegetation establishment</p>
+        </td>
+        <td>
+          <p>Wetland establishment</p>
+        </td>
+        <td>
+          <p>Stable</p>
+        </td>
+        <td>
+          <p>Vegetation loss</p>
+        </td>
+        <td>
+          <p>Glacier advance</p>
+        </td>
+        <td>
+          <p>Inundation</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p><strong>Barren land</strong></p>
+        </td>
+        <td>
+          <p>Urban expansion</p>
+        </td>
+        <td>
+          <p>Agricultural expansion</p>
+        </td>
+        <td>
+          <p>Vegetation establishment</p>
+        </td>
+        <td>
+          <p>Forest expansion</p>
+        </td>
+        <td>
+          <p>Vegetation establishment</p>
+        </td>
+        <td>
+          <p>Wetland establishment</p>
+        </td>
+        <td>
+          <p>Vegetation establishment</p>
+        </td>
+        <td>
+          <p>Stable</p>
+        </td>
+        <td>
+          <p>Glacier advance</p>
+        </td>
+        <td>
+          <p>Inundation </p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p><strong>Permanent snow &amp; glaciers</strong></p>
+        </td>
+        <td>
+          <p>Urban expansion</p>
+        </td>
+        <td>
+          <p>Agricultural expansion</p>
+        </td>
+        <td>
+          <p>Glacier retreat</p>
+        </td>
+        <td>
+          <p>Glacier retreat</p>
+        </td>
+        <td>
+          <p>Glacier retreat</p>
+        </td>
+        <td>
+          <p>Glacier melting</p>
+        </td>
+        <td>
+          <p>Glacier retreat</p>
+        </td>
+        <td>
+          <p>Glacier retreat</p>
+        </td>
+        <td>
+          <p>Stable</p>
+        </td>
+        <td>
+          <p>Glacier melting</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p><strong>Water bodies</strong></p>
+        </td>
+        <td>
+          <p>Urban expansion</p>
+        </td>
+        <td>
+          <p>Agricultural expansion</p>
+        </td>
+        <td>
+          <p>Lake dessication</p>
+        </td>
+        <td>
+          <p>Lake dessication</p>
+        </td>
+        <td>
+          <p>Lake dessication </p>
+        </td>
+        <td>
+          <p>Lake dessication </p>
+        </td>
+        <td>
+          <p>Lake dessication</p>
+        </td>
+        <td>
+          <p>Lake dessication</p>
+        </td>
+        <td>
+          <p>Glacier advance</p>
+        </td>
+        <td>
+          <p>Stable</p>
+        </td>
+      </tr>
+    </tbody>
+  </table>

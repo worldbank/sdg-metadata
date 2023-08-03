@@ -13,9 +13,21 @@ SDG_INDICATOR: >-
   food and agriculture secured in either medium- or long-term conservation
   facilities</p>
 SDG_SERIES_DESCR: >-
+  <p>Primary series:</p>
+
   <p>Number of local breeds for which sufficient genetic resources are stored
-  for reconstitution</p>
-META_LAST_UPDATE: '2022-08-12'
+  for reconstitution (ER_GRF_ANIMRCNTN)</p>
+
+  <p>Auxiliary series:</p>
+
+  <p>Number of local breeds kept in the country (ER_GRF_ANIMKPT) </p>
+
+  <p>Number of transboundary breeds for which sufficient genetic resources are
+  stored for reconstitution (ER_GRF_ANIMRCNTN_TRB)</p>
+
+  <p>Number of transboundary breeds (including extinct ones)
+  (ER_GRF_ANIMKPT_TRB)</p>
+META_LAST_UPDATE: '2023-07-10'
 SDG_RELATED_INDICATORS: >-
   <p>Indicator 2.5.1a on plant genetic resources and 2.5.2 on animal genetic
   resources </p>

@@ -9,8 +9,8 @@ SDG_TARGET: >-
 SDG_INDICATOR: >-
   <p>Indicator 14.7.1: Sustainable fisheries as a proportion of GDP in small
   island developing States, least developed countries and all countries</p>
-SDG_SERIES_DESCR: <p>Not applicable </p>
-META_LAST_UPDATE: '2022-03-31'
+SDG_SERIES_DESCR: <p>Sustainable fisheries as a proportion of GDP (EN_SCP_FSHGDP)</p>
+META_LAST_UPDATE: '2023-05-15'
 SDG_RELATED_INDICATORS: >-
   <p>Linkages with other goals and targets: SDG 1, SDG 2, SDG 8 (in particular
   8.1 and 8.4), SDG 12, SDG 13, SDG 14 (in particular 14.4.1)</p>
@@ -173,6 +173,10 @@ COLL_METHOD: >-
   assessments reported by countries for the national indicators will be included
   in the regional/global indicator calculations, depending on the evolution and
   further standardization of country reporting.</p>
+
+  <p>The indicator is applicable for countries with marine borders (or those
+  bordering the Caspian Sea) and therefore excludes landlocked countries from
+  data collection and processing.</p>
 FREQ_COLL: >-
   <p>Data for GDP and value added is retrieved by FAO from UNSD (or the OECD in
   case of missing values) once a year every February.</p>

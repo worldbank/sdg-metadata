@@ -7,7 +7,7 @@ SDG_INDICATOR: >-
   <p>Indicator 3.3.1: Number of new HIV infections per 1,000 uninfected
   population, by sex, age and key populations </p>
 SDG_SERIES_DESCR: <p>Not applicable</p>
-META_LAST_UPDATE: '2022-03-31'
+META_LAST_UPDATE: '2023-03-31'
 SDG_RELATED_INDICATORS: >-
   <p>Achieving this target will positively impact multiple SDG goals and by
   reaching other goals will improve countries ability to reduce new HIV
@@ -16,11 +16,11 @@ SDG_RELATED_INDICATORS: >-
 SDG_CUSTODIAN_AGENCIES: <p>The Joint United Nations Programme on HIV/AIDS (UNAIDS)</p>
 CONTACT_ORGANISATION: <p>The Joint United Nations Programme on HIV/AIDS (UNAIDS)</p>
 STAT_CONC_DEF: >-
-  <p><strong>Definition:</strong> </p>
+  <p><strong>Definition:</strong></p>
 
   <p>The number of new HIV infections per 1,000 uninfected population, by sex,
   age and key populations as defined as the number of new HIV infections per
-  1,000 persons among the uninfected population. </p>
+  1,000 persons among the uninfected population.</p>
 UNIT_MEASURE: '<p>Number of newly infected people per 1,000 uninfected population.</p>'
 CLASS_SYSTEM: <p>Not applicable</p>
 SOURCE_TYPE: >-
@@ -28,44 +28,45 @@ SOURCE_TYPE: >-
   programme data, surveillance data, survey data and region-specific assumptions
   about the HIV epidemic. Alternative methods of measures include household or
   key population surveys with HIV incidence-testing, or routine surveillance
-  among key populations. </p>
+  among key populations.</p>
 
   <p>The model development is guided by the UNAIDS Reference Group on Estimates,
   Modelling and Projections provides technical guidance on the development of
-  the HIV component of the Spectrum software (www.epidem.org). The Spectrum
-  software is developed by Avenir Health (www.avenirhealth.org)&#x2014;which
-  includes a module, the Estimates and Projections Package, which is developed
-  by the East-West Center (www.eastwestcenter.org). </p>
+  the HIV component of the Spectrum software (<a
+  href="http://www.epidem.org">www.epidem.org</a>). The Spectrum software is
+  developed by Avenir Health (www.avenirhealth.org)&#x2014;which includes a
+  module, the Estimates and Projections Package, which is developed by the
+  East-West Center (www.eastwestcenter.org).</p>
 COLL_METHOD: >-
   <p>Country teams use UNAIDS-supported Spectrum software to develop estimates
   annually. The country teams are comprised primarily of national
   epidemiologists, demographers, monitoring and evaluation specialists and
   technical partners. The model incorporates data that are collected through
-  programme information systems, surveillance and surveys. </p>
+  programme information systems, surveillance and surveys.</p>
 FREQ_COLL: >-
   <p>Data sources are compiled all year long. The spectrum models are created in
-  the first three months of every year and finalized by May. </p>
+  the first three months of every year and finalized by May.</p>
 REL_CAL_POLICY: <p>Data are released every year in July</p>
 DATA_SOURCE: >-
   <p>The estimates are produced by a team of national experts consisting of
   ministry of health, national AIDS advisory groups and development partners.
-  The results are signed off on by senior managers at the ministries of health.
-  </p>
+  The results are signed off on by senior managers at the ministries of
+  health.</p>
 COMPILING_ORG: >-
   <p>After the data review process, the national experts share their results
   with UNAIDS who compiles the data for all countries and calculates regional
-  and global estimates. </p>
+  and global estimates.</p>
 INST_MANDATE: >-
   <p>The UN Political Declarations on HIV/AIDS (from 2001, 2011, 2016 and 2021)
   have mandated for UNAIDS to support countries to produce these data and for
   UNAIDS to report on the status of the Global HIV epidemic annually as well as
-  through the UN Secretary General. </p>
+  through the UN Secretary General.</p>
 RATIONALE: >-
   <p>The incidence rate provides a measure of progress toward preventing onward
   transmission of HIV. Although other indicators are also very important to the
   HIV epidemic, HIV incidence reflects success in prevention programmes and, to
   some extent, successful treatment programmes, as those will also lead to lower
-  HIV incidence. </p>
+  HIV incidence.</p>
 REC_USE_LIM: >-
   <p>The methods and limitations for estimating HIV incidence vary based on the
   data and surveillance systems available in countries. </p>
@@ -90,7 +91,8 @@ DATA_COMP: >-
   the most recent UNAIDS Global AIDS Update Reports. <a
   href="https://onlinelibrary.wiley.com/toc/17582652/2021/24/S5">https://onlinelibrary.wiley.com/toc/17582652/2021/24/S5</a></p>
 
-  <p>https://www.unaids.org/en/resources/documents/2021/2021-global-aids-update</p>
+  <p><a
+  href="https://www.unaids.org/en/resources/documents/2021/2021-global-aids-update">https://www.unaids.org/en/resources/documents/2021/2021-global-aids-update</a></p>
 DATA_VALIDATION: >-
   <p>The HIV incidence estimates are created by country teams and are signed off
   on by ministry of health managers, including a clear statement that these data
@@ -103,14 +105,12 @@ IMPUTATION: >-
   <p><strong>&#x2022; At country level: </strong></p>
 
   <p>Estimates are not collected from countries with populations &lt; 250,000
-  according to the latest world population prospects estimates. In addition no
+  according to the latest world population prospects estimates. In addition, no
   estimates are available for 8 countries with very small HIV epidemics who do
-  not produce estimates. </p>
+  not produce estimates.</p>
 
   <p>For some countries in which the estimates were not finalized at the time of
-  publication the country-specific values are not presented . </p>
-
-  <p> </p>
+  publication the country-specific values are not presented.</p>
 
   <p><strong>&#x2022; At regional and global levels: </strong></p>
 
@@ -118,23 +118,21 @@ IMPUTATION: >-
   produce estimates are not included in regional or global level estimates. For
   countries in which the estimates were not finalized at the time of
   publication, the unofficial best estimates are included in the regional and
-  global values. </p>
+  global values.</p>
 REG_AGG: >-
   <p>Available for the World, the SDG regional groupings, Least Developed
-  Countries, Landlocked Developing Countries and Small Island Developing States.
-  </p>
+  Countries, Landlocked Developing Countries and Small Island Developing
+  States.</p>
 DOC_METHOD: >-
   <p>A description of the methodology is available from the latest Global AIDS
   Update reports in the methods annex. Resources are also available at
-  HIVtools.unaids.org. </p>
+  HIVtools.unaids.org.</p>
 
   <p>Countries are provided with capacity building workshops on the methods
   every other year. In addition, they are supported by in-country UNAIDS
   advisers in roughly 45 countries. Where no in-country specialists are
   available, remote assistance is provided. Training videos and documentation
-  are also available at: HIVtools.unaids.org </p>
-
-  <p><strong> </strong></p>
+  are also available at: HIVtools.unaids.org</p>
 QUALITY_MGMNT: >-
   <p>Development of methods is overseen by an external reference group of
   experts (www.epidem.org). The actual files are reviewed by UNAIDS global
@@ -142,23 +140,23 @@ QUALITY_MGMNT: >-
 QUALITY_ASSURE: >-
   <p>Countries are fully involved in the development of the estimates. The final
   values are reviewed for quality by UNAIDS and approved by senior managers at
-  national Ministries of Health. </p>
+  national Ministries of Health.</p>
 QUALITY_ASSMNT: >-
   <p>Results are routinely compared to empirical evidence when available. These
   empirical data include research studies, household surveys with incidence
   measurement, and longitudinal HIV surveillance sites when available. If
   inconsistencies are found modifications are considered for the models. Methods
   are also published in peer-reviewed journals every two years. See links to
-  publications at www.epidem.org</p>
+  publications at <a href="http://www.epidem.org">www.epidem.org</a>.</p>
 COVERAGE: >-
   <p><strong>Data availability: </strong></p>
 
-  <p>172 countries in 2021. Data are available by age and sex, however there are
+  <p>172 countries in 2022. Data are available by age and sex, however there are
   methodological challenges in estimating incidence among key populations.</p>
 
   <p><strong>Time series:</strong></p>
 
-  <p>2000-2020 </p>
+  <p>2000 -2021</p>
 
   <p><strong>Disaggregation: </strong></p>
 
@@ -167,15 +165,13 @@ COVERAGE: >-
   methods are being developed. </p>
 COMPARABILITY: |-
   <p><strong>Sources of discrepancies: </strong></p>
-  <p>These variations will differ by country. </p>
+  <p>These variations will differ by country.</p>
 OTHER_DOC: >-
-  <p><strong>URL:</strong> </p>
+  <p><strong>URL:</strong></p>
 
-  <p>unaids.org </p>
+  <p>unaids.org</p>
 
-  <p> </p>
-
-  <p><strong>References:</strong> </p>
+  <p><strong>References:</strong></p>
 
   <p>More information on the estimates process, tools and tutorial videos on the
   methods</p>
@@ -190,25 +186,17 @@ OTHER_DOC: >-
 
   <p>https://www.unaids.org/en/global-aids-monitoring</p>
 
-  <p> </p>
-
-  <p>Political Declaration on HIV and AIDS: Ending inequalities </p>
+  <p>Political Declaration on HIV and AIDS: Ending inequalities</p>
 
   <p>https://www.unaids.org/en/resources/documents/2021/2021_political-declaration-on-hiv-and-aids</p>
 
-  <p> </p>
-
   <p>UNAIDS website for access to data </p>
 
-  <p>http://aidsinfo.unaids.org/ </p>
+  <p>http://aidsinfo.unaids.org/</p>
 
   <p>UNAIDS website for downloading files used to create incidence estimates
   https://www.unaids.org/en/dataanalysis/datatools/spectrum-epp</p>
 
-  <p> </p>
-
   <p>Consolidated Strategic Information Guidelines for HIV in the Health Sector.
   Geneva: World Health Organization;
   https://www.who.int/publications/i/item/9789240000735</p>
-
-  <p> </p>

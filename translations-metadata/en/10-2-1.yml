@@ -6,7 +6,8 @@ SDG_TARGET: >-
 SDG_INDICATOR: >-
   <p>Indicator 10.2.1: Proportion of people living below 50 per cent of median
   income, by sex, age and persons with disabilities</p>
-META_LAST_UPDATE: '2022-04-12'
+SDG_SERIES_DESCR: <p>Applies to all series</p>
+META_LAST_UPDATE: '2023-03-31'
 SDG_RELATED_INDICATORS: >-
   <p>Indicator 1.1.1: Proportion of population below the international poverty
   line, by sex, age, employment status and geographical location
@@ -35,10 +36,20 @@ STAT_CONC_DEF: >-
   population in a country living on less than 50% of median of the national
   distribution of income or consumption, as estimated from survey data. </p>
 
-  <p>Per capita income or consumption is estimated using total household income
-  or consumption divided by the total household size. Total disposable income or
-  total consumption from both market and non-market sources is the desired
-  welfare vector used. </p>
+  <p>Consumption distributions typically capture household expenditure on a set
+  of items over a given period of time. These usually include purchased,
+  own-produced, exchanged, and gifted food and non-food items (for example
+  clothing, housing&#x2014;including imputed rent&#x2014;and the use value of
+  durable consumer goods). Income distributions capture the value of monetary
+  inflow a household receives or earns over a given period of time. Household
+  surveys usually provide information on labor income (salaries, own-business,
+  and self-employment income), as well as non-labor income coming from pensions,
+  subsidies, transfers, property income, scholarships, etc. Income distributions
+  used here aim to measure disposable income defined as the sum of labor and
+  non-labor income (including transfers) less taxes and contributions. The exact
+  definition and operationalization of income aggregates varies across different
+  data sources. Per capita income or consumption is estimated using total
+  household income or consumption divided by the total household size. </p>
 
   <p>The estimation relies on the same harmonized welfare vectors
   (distributions) that are used for 10.1.1 and 1.1.1. Using the same data and
@@ -46,7 +57,7 @@ STAT_CONC_DEF: >-
   closely related indicators. The data is available through the Poverty and
   Inequality Platform (PIP), the World Bank&#x2019;s online tool for reporting
   global poverty and inequality numbers. For details on concepts and standards,
-  refer to documentation available on the PIP website. </p>
+  refer to documentation available on the PIP website.</p>
 
   <p>The methodology entails measuring the share of people living below 50% of
   national median. A threshold set at 50% of the median of the income or
@@ -60,10 +71,11 @@ STAT_CONC_DEF: >-
   is used for monitoring SDG indicators 1.1.1 and 10.1.1, which have been
   classified as Tier 1 indicators. The methodology and data are similar to that
   used in measuring international poverty, which has been tested and vetted over
-  many years, including for the purpose of monitoring MDG 1. It is also closely
-  related to a large literature of relative poverty measurement. </p>
-UNIT_MEASURE: <p>The unit of measure is the proportion of people.</p>
-CLASS_SYSTEM: <p>Not relevant.</p>
+  many years, including for the purpose of monitoring Millennium Development
+  Goals (MDG) 1. It is also closely related to a large literature of relative
+  poverty measurement.</p>
+UNIT_MEASURE: <p>Percent (%)</p>
+CLASS_SYSTEM: <p>Not applicable</p>
 SOURCE_TYPE: >-
   <p>Data of income or consumption comes from nationally representative
   household surveys or assessments of income or consumption distributions,
@@ -81,8 +93,8 @@ FREQ_COLL: >-
   <p>Source collection is ongoing by the Global Poverty Working Group of the
   World Bank. </p>
 REL_CAL_POLICY: >-
-  <p>The World Bank Group is committed to updating the poverty data every
-  year.</p>
+  <p>The World Bank Group is committed to updating the poverty and inequality
+  data every year.</p>
 DATA_SOURCE: >-
   <p>The World Bank typically receives data from National Statistical Offices
   (NSOs) directly. In other cases it uses NSO data received indirectly. For
@@ -100,30 +112,14 @@ DATA_SOURCE: >-
   systems and data analysis. Poverty economists from the World Bank typically
   engage with NSOs broadly on poverty measurement and analysis as part of
   technical assistance activities.</p>
-COMPILING_ORG: >-
-  <p>Within the World Bank, the Global Poverty Working Group (GPWG) is in charge
-  of the collection and validation of income and consumption survey data used in
-  estimation. GPWG archives the datasets obtained from NSOs and then harmonizes
-  them, applying common methodologies. The objective of the GPWG is to ensure
-  that poverty and inequality data generated, curated, and disseminated by the
-  World Bank are up to date, meet high-quality standards, and are well
-  documented and consistent across dissemination channels. Members of GPWG
-  generate and update the estimates for the proportion of population below 50
-  percent of national median, using raw data typically provided by country
-  governments. The raw data are obtained by poverty economists through their
-  contacts in the NSOs, and checked for quality before being submitted for
-  further analysis. The raw data can be unit-record survey data, or grouped
-  data, depending on the agreements with the country governments. In most cases,
-  the welfare aggregate, the essential element for estimation, is generated by
-  the country governments. Sometimes, the World Bank has to construct the
-  welfare aggregate or adjust the aggregate provided by the country for the
-  purpose of harmonization and comparability.</p>
+COMPILING_ORG: <p>World Bank (WB)</p>
+INST_MANDATE: <p>Not applicable</p>
 RATIONALE: >-
   <p>Addressing social inclusion and inequality is important on the global
   development agenda as well as on the national development agenda of many
   countries. The share of the population living below 50% of median national
   income is a measure that is useful for monitoring the level and trends in
-  social inclusion, relative poverty and inequality within a country. </p>
+  social inclusion, relative poverty and inequality within a country.</p>
 
   <p>The share of people living below 50% of the median is an indicator of
   relative poverty and inequality of the income distribution within a country.
@@ -149,7 +145,7 @@ REC_USE_LIM: >-
   kind (including own production, particularly important in underdeveloped rural
   economies) should be included in total consumption expenditure, but in
   practice are often not. Most survey data now include valuations for
-  consumption or income from own production, but valuation methods vary. </p>
+  consumption or income from own production, but valuation methods vary.</p>
 
   <p>Estimating the share of people living below 50% of the national median is
   less sensitive to comparability limitations than estimates of international
@@ -163,10 +159,16 @@ DATA_COMP: >-
   calculated by estimating the share (in percent) of the population living on
   less than 50% of median of the national distribution of income or consumption.
   The median is estimate from the same distribution as the indicator is
-  estimated from, thus the 50% of median threshold will vary over time. </p>
+  estimated from, thus the 50% of median threshold will vary over time.</p>
 
   <p>Per capita income or consumption is estimated using total household income
   or consumption divided by the total household size.</p>
+DATA_VALIDATION: >-
+  <p>Within the WB, the GPWG is in charge of the collection and validation of
+  income and consumption survey data used in estimation. GPWG archives the
+  datasets obtained from NSOs and then harmonizes them, applying common
+  methodologies.</p>
+ADJUSTMENT: <p>Not applicable</p>
 IMPUTATION: >-
   <p><strong>&#x2022; At country level</strong></p>
 
@@ -188,59 +190,74 @@ DOC_METHOD: >-
   useful reference is also the &#x201C;Report of the World Bank on poverty
   statistics&#x201D; submitted to the Forty-ninth session of the UN Statistical
   Commission.</p>
-QUALITY_ASSURE: >-
-  <p>Within the World Bank, the Global Poverty Working Group (GPWG) is in charge
-  of the collection, validation of income and consumption survey data used in
-  estimation. GPWG archives the datasets obtained from NSOs and then harmonizes
-  them, applying common methodologies. The objective of the GPWG is to ensure
-  that poverty and inequality data generated, curated, and disseminated by the
-  World Bank are up to date, meet high-quality standards, and are well
-  documented and consistent across dissemination channels. Members of GPWG
-  generate and update the estimates for the proportion of population below the
-  international poverty line using raw data typically provided by country
-  governments. World Bank country staff works in close collaboration with
-  national statistical authorities on the data collection and dissemination
+QUALITY_MGMNT: >-
+  <p>Within the WB, the GPWG is in charge of the collection, validation of
+  income and consumption survey data used in estimation. GPWG archives the
+  datasets obtained from NSOs and then harmonizes them, applying common
+  methodologies.</p>
+
+  <p>Members of GPWG generate and update the estimates for the proportion of
+  population below the international poverty line using raw data typically
+  provided by country governments. WB country staff works in close collaboration
+  with national statistical authorities on the data collection and dissemination
   process.</p>
+QUALITY_ASSURE: >-
+  <p>The objective of the GPWG is to ensure that poverty and inequality data
+  generated, curated, and disseminated by the World Bank are up to date, meet
+  high-quality standards, and are well documented and consistent across
+  dissemination channels.</p>
+QUALITY_ASSMNT: >-
+  <p>Assessments of the quality behind povety estimates are often available in
+  World Bank Poverty Assessments and in Global Poverty Moniotring Technical
+  Notes.</p>
 COVERAGE: >-
   <p><strong>Data availability:</strong></p>
 
-  <p>As of 2022, data is readily available on 165 countries, and the methodology
-  is building on well-established practice used in international poverty
-  measurement tested over many years. Estimates for the particular indicator
-  have now been tested and validated and data are ready to be reported for all
-  countries for which we report data for 1.1.1.</p>
+  <p>As of 2023, data is readily available on more than 160 countries, and the
+  methodology is building on well-established practice used in international
+  poverty measurement tested over many years. Estimates for the particular
+  indicator have now been tested and validated and data are ready to be reported
+  for all countries for which we report data for 1.1.1.</p>
 
   <p><strong>Time series:</strong></p>
 
-  <p>The database ranges from 1967 to 2020 and is updated up to twice a
+  <p>The database coveres decades of information and is updated up to twice a
   year.</p>
 
   <p><strong>Disaggregation:</strong></p>
 
   <p>The World Bank is working to improve the methodology and disaggregation of
   poverty and inequality measures by subgroups. Until methodological issues are
-  resolved, disaggregation below the country level will not be addressed. </p>
+  resolved, disaggregation below the country level will not be addressed.</p>
 COMPARABILITY: >-
   <p><strong>Sources of discrepancies:</strong></p>
 
   <p>The harmonization of welfare vectors to per capita standards can lead to
   differences with nationally estimated welfare vectors which may use other
-  adjustments of the welfare vector. </p>
+  adjustments of the welfare vector.</p>
 OTHER_DOC: >-
-  <p>PIP, World Bank - <a
-  href="http://pip.worldbank.org/">http://pip.worldbank.org/</a>. The World
-  Bank&#x2019;s online tool for analysis of income and consumption data. </p>
+  <p><strong>URL References:</strong></p>
 
-  <p>UN. 2018. Report of the World Bank on poverty statistics. Statistical
-  Commission Statistical Commission</p>
+  <p>[1]: <a href="http://pip.worldbank.org/">http://pip.worldbank.org/</a>
+  (PIP, World Bank: The World Bank&#x2019;s online tool for analysis of income
+  and consumption data)</p>
 
-  <p>Forty-ninth session. </p>
+  <p>[2]: <a
+  href="https://unstats.un.org/unsd/statcom/49th-session/documents/2018-23-Poverty-E.pdf">https://unstats.un.org/unsd/statcom/49th-session/documents/2018-23-Poverty-E.pdf</a>
+  (UN. 2018. Report of the World Bank on poverty statistics. Statistical
+  Commission Statistical Commission, Forty-ninth session)</p>
 
-  <p>https://unstats.un.org/unsd/statcom/49th-session/documents/2018-23-Poverty-E.pdf</p>
-
-  <p>The following two documents provide key information on</p>
+  <p><strong>References:</strong></p>
 
   <ul>
-    <li>A Measured Approach to Ending Poverty and Boosting Shared Prosperity: Concepts, Data, and the Twin Goals. (<a href="http://www.worldbank.org/en/research/publication/a-measured-approach-to-ending-povertyand-boosting-shared-prosperity">http://www.worldbank.org/en/research/publication/a-measured-approach-to-ending-povertyand-boosting-shared-prosperity</a>)</li>
-    <li>Ferreira, Francisco H. G.; Chen, Shaohua; Dabalen, Andrew L.; Dikhanov, Yuri M.; Hamadeh, Nada; Jolliffe, Dean Mitchell; Narayan, Ambar; Prydz, Espen Beer; Revenga, Ana L.; Sangraula, Prem; Serajuddin, Umar; Yoshida, Nobuo. 2015. <a href="http://documents.worldbank.org/curated/en/360021468187787070/A-global-count-of-the-extreme-poor-in-2012-data-issues-methodology-and-initial-results"><em>A global count of the extreme poor in 2012 : data issues, methodology and initial results</em></a><em> (English)</em>. Policy Research working paper; no. WPS 7432. Washington, D.C. : World Bank Group. </li>
+    <li>A Measured Approach to Ending Poverty and Boosting Shared Prosperity: Concepts, Data, and the Twin Goals. (<a href="https://www.worldbank.org/en/research/publication/a-measured-approach-to-ending-poverty-and-boosting-shared-prosperity">https://www.worldbank.org/en/research/publication/a-measured-approach-to-ending-poverty-and-boosting-shared-prosperity</a></li>
   </ul>
+
+  <p>Ferreira, Francisco H. G.; Chen, Shaohua; Dabalen, Andrew L.; Dikhanov,
+  Yuri M.; Hamadeh, Nada; Jolliffe, Dean Mitchell; Narayan, Ambar; Prydz, Espen
+  Beer; Revenga, Ana L.; Sangraula, Prem; Serajuddin, Umar; Yoshida, Nobuo.
+  2015. <a
+  href="http://documents.worldbank.org/curated/en/360021468187787070/A-global-count-of-the-extreme-poor-in-2012-data-issues-methodology-and-initial-results"><em>A
+  global count of the extreme poor in 2012 : data issues, methodology and
+  initial results</em></a>. Policy Research working paper; no. WPS 7432.
+  Washington, D.C. : World Bank Group.</p>

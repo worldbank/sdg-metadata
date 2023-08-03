@@ -5,8 +5,8 @@ SDG_TARGET: >-
 SDG_INDICATOR: >-
   <p>Indicator 3.5.2: Alcohol per capita consumption (aged 15 years and older)
   within a calendar year in litres of pure alcohol</p>
-SDG_SERIES_DESCR: <p>Not applicable. </p>
-META_LAST_UPDATE: <p>2021-03-03</p>
+SDG_SERIES_DESCR: <p>Not applicable</p>
+META_LAST_UPDATE: '2023-03-31'
 SDG_RELATED_INDICATORS: '<p>Goal 8; Targets 3.4, 3.6 </p>'
 SDG_CUSTODIAN_AGENCIES: <p>World Health Organization (WHO) </p>
 CONTACT_ORGANISATION: <p>World Health Organization (WHO) </p>
@@ -15,7 +15,7 @@ STAT_CONC_DEF: >-
 
   <p>Harmful use of alcohol, defined according to the national context as
   alcohol per capita consumption (aged 15 years and older) within a calendar
-  year in litres of pure alcohol </p>
+  year in litres of pure alcohol. </p>
 
   <p> </p>
 
@@ -33,8 +33,8 @@ STAT_CONC_DEF: >-
   tourists visiting the country and inhabitants visiting other countries.
   Positive figures denote alcohol consumption of outbound tourists being greater
   than alcohol consumption by inbound tourists, negative numbers the opposite.
-  Tourist consumption is based on UN statistics, and data are provided by IHME.
-  </p>
+  Tourist consumption is based on UN statistics, and data are provided by the
+  Institute for Health Metrics and Evaluation. </p>
 
   <p><strong>Concepts:</strong></p>
 
@@ -48,18 +48,19 @@ STAT_CONC_DEF: >-
   or data from the International Organisation of Vine and Wine (OIV); third is
   the Food and Agriculture Organization of the United Nations&apos; statistical
   database (FAOSTAT), and fourth is data from alcohol industry statistics in the
-  public domain based on desk review. For countries, where the data source is
-  FAOSTAT the unrecorded consumption may be included in the recorded
-  consumption. As for the beverage-specific categories, beer includes malt
-  beers, wine includes wine made from grapes and vermouth, spirits include all
-  distilled beverages, and other includes one or several other alcoholic
-  beverages, such as fermented beverages made from sorghum, maize, millet, rice,
-  or cider, fruit wine, fortified wine, etc. For unrecorded APC, the first
-  priority in the decision tree is given to nationally representative empirical
-  data; these are often general population surveys in countries where alcohol is
-  legal. Second are specific other empirical investigations, and third is expert
-  opinion supported by periodic survey of experts at country level using
-  modified Delphi-technique. </p>
+  public domain based on desk review. </p>
+
+  <p>For countries where the data source is FAOSTAT, the unrecorded consumption
+  may be included in the recorded consumption. As for the beverage-specific
+  categories, beer includes malt beers, wine includes wine made from grapes and
+  vermouth, spirits include all distilled beverages, and other includes one or
+  several other alcoholic beverages, such as fermented beverages made from
+  sorghum, maize, millet, rice, or cider, fruit wine, fortified wine, etc. For
+  unrecorded APC, the first priority in the decision tree is given to nationally
+  representative empirical data; these are often general population surveys in
+  countries where alcohol is legal. Second are specific empirical
+  investigations, and third is expert opinion supported by periodic survey of
+  experts at country level using modified Delphi-technique. </p>
 
   <p> </p>
 
@@ -92,11 +93,13 @@ STAT_CONC_DEF: >-
   they do in their home countries, and (2) that global tourist consumption is
   equal to 0 (and thus tourist consumption can be either net negative or
   positive). </p>
-UNIT_MEASURE: <p>Litres of pure alcohol per capita (15 years and older) </p>
-CLASS_SYSTEM: <p>Not applicable </p>
-SOURCE_TYPE: >-
+UNIT_MEASURE: <p>Litres of pure alcohol </p>
+CLASS_SYSTEM: <p>Not applicable</p>
+SRC_TYPE_COLL_METHOD: >-
+  <p>3.a. Data sources (SOURCE_TYPE) </p>
+
   <p>Recorded: Government statistics or, alternatively, alcohol industry
-  statistics in the public domain, FAOSTAT; </p>
+  statistics in the public domain, FAOSTAT. </p>
 
   <p> </p>
 
@@ -122,9 +125,9 @@ COLL_METHOD: >-
   counterpart in the country for validation and endorsement. </p>
 FREQ_COLL: >-
   <p>Ongoing updates from data sources on the web. The next WHO global surveys
-  on alcohol and health involving data collection from WHO Member States in 2022
-  and 2025. </p>
-REL_CAL_POLICY: <p>Annually. </p>
+  on alcohol and health involving data collection from WHO Member States are in
+  2022 and 2025. </p>
+REL_CAL_POLICY: <p>Annually </p>
 DATA_SOURCE: >-
   <p>Ministries of Health; National statistical bureau/agencies (data on alcohol
   production and trade/sales); National monitoring centres on alcohol and drug
@@ -159,11 +162,11 @@ REC_USE_LIM: >-
   sources, such as survey data, are needed. The estimation of unrecorded APC
   remains a challenge, and triangulation of data from different sources as well
   as Delphi-techniques are used for increasing validity of estimates. In recent
-  time the number of research activities focused on improvement of the estimates
-  of unrecorded alcohol consumption as well as their geographical coverage have
-  increased substantially. As a result, it leads to a more accurate assessment
-  of the total amount of alcohol consumed per person per year in a given
-  country. </p>
+  time, the number of research activities focused on improvement of the
+  estimates of unrecorded alcohol consumption as well as their geographical
+  coverage have increased substantially. As a result, it leads to a more
+  accurate assessment of the total amount of alcohol consumed per person per
+  year in a given country. </p>
 DATA_COMP: >-
   <p>Numerator: The sum of the amount of recorded alcohol consumed per capita
   (15+ years), average during three calendar years, in litres of pure alcohol,
@@ -178,7 +181,7 @@ DATA_COMP: >-
 DATA_VALIDATION: >-
   <p>Estimates are sent to focal points or national counterparts in the country
   through WHO Regional Offices for validation and endorsement. </p>
-ADJUSTMENT: <p>Not applicable.</p>
+ADJUSTMENT: <p>Not applicable</p>
 IMPUTATION: >-
   <p><strong>At country level </strong></p>
 
@@ -197,12 +200,12 @@ REG_AGG: >-
   <p> </p>
 DOC_METHOD: >-
   <p>Global Status Report on Alcohol and Health 2018 (<a
-  href="https://www.who.int/publications/i/item/9789241565639">https://www.who.int/publications/i/item/9789241565639</a>)
+  href="https://www.who.int/publications/i/item/9789241565639">https://www.who.int/publications/i/item/9789241565639</a>).
   </p>
 QUALITY_MGMNT: >-
   <p>Steering Committee of Global Information System on Alcohol and Health;
-  Technical Advisory Group on Alcohol and Drug Epidemiology </p>
-QUALITY_ASSURE: '<p>Statistics clearance by Data, Analytics and Delivery for Impact Unit </p>'
+  Technical Advisory Group on Alcohol and Drug Epidemiology. </p>
+QUALITY_ASSURE: '<p>Statistics clearance by Data, Analytics and Delivery for Impact Unit. </p>'
 QUALITY_ASSMNT: '<p>Data, Analytics and Delivery for Impact Unit.</p>'
 COVERAGE: >-
   <p><strong>Data availability:</strong></p>

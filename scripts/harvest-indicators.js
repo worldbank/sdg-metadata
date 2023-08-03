@@ -6,8 +6,6 @@ const fsp = require('fs').promises
 const dom = require('xmldom').DOMParser
 const xpath = require('xpath')
 const sdgMetadataConvert = require('sdg-metadata-convert')
-const seriesDescriptor = sdgMetadataConvert.descriptorStore.getDescriptor('SERIES')
-const seriesOptions = seriesDescriptor.options
 
 let xmlString
 //const source = 'global-metadata.xml'
@@ -15,6 +13,8 @@ const source = 'https://unstats.un.org/SDGMetadataAPI/api/Metadata/SDMXReport/G.
 harvestMetadata()
 
 async function harvestMetadata() {
+    const seriesDescriptor = await sdgMetadataConvert.descriptorStoreLive.getDescriptor('SERIES')
+    const seriesOptions = seriesDescriptor.options
     if (source.startsWith('http')) {
         const getString = bent('string')
         xmlString = await getString(source)
@@ -38,7 +38,7 @@ async function harvestMetadata() {
     for (const metadataSet of metadataSets) {
         const series = select('.//com:KeyValue[@id="SERIES"]/com:Value', metadataSet, true)
         const seriesCode = series.firstChild.nodeValue
-        const indicatorIds = getIndicatorIdsFromSeries(seriesCode)
+        const indicatorIds = getIndicatorIdsFromSeries(seriesCode, seriesOptions)
         const concepts = select('.//gen:ReportedAttribute', metadataSet)
         const conceptValues = {}
         for (const concept of concepts) {
@@ -72,7 +72,7 @@ async function harvestMetadata() {
     }
 }
 
-function getIndicatorIdsFromSeries(seriesCode) {
+function getIndicatorIdsFromSeries(seriesCode, seriesOptions) {
     const hardcoded = {
         SI_POV_DAY1: ['1.1.1a'],
         SI_POV_EMP1: ['1.1.1b'],

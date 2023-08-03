@@ -9,8 +9,11 @@ SDG_INDICATOR: >-
   ownership or secure rights over agricultural land, by sex; and (b) share of
   women among owners or rights-bearers of agricultural land, by type of
   tenure</p>
-SDG_SERIES_DESCR: <p>Not applicable</p>
-META_LAST_UPDATE: '2022-07-07'
+SDG_SERIES_DESCR: >-
+  <p>Proportion of total agricultural population with ownership or secure rights
+  over agricultural land (SP_LGL_LNDAGSEC) Share of women among owners or
+  rights-bearers of agricultural land, by type of tenure (SP_GNP_WNOWNS)</p>
+META_LAST_UPDATE: '2023-05-15'
 SDG_RELATED_INDICATORS: <p>SDG indicator 1.4.2.</p>
 SDG_CUSTODIAN_AGENCIES: <p>Food and Agriculture Organization of the United Nations (FAO)</p>
 CONTACT_ORGANISATION: <p>Food and Agriculture Organization of the United Nations (FAO)</p>
@@ -202,9 +205,9 @@ STAT_CONC_DEF: >-
   for the calculation of statistics based on the 18-years old definition.</p>
 
   <p>Once a household is classified as an &#x2018;agricultural
-  household&#x2019;, all the adult household members are considered as part of
-  the reference population (to be referred to simply as the &#x201C;agricultural
-  population&#x201D; in this document).</p>
+  household&#x2019;, <em>all</em> the adult household members are considered as
+  part of the reference population (to be referred to simply as the
+  &#x201C;agricultural population&#x201D; in this document).</p>
 
   <p>The adoption of a household perspective is particularly important from the
   gender perspective, because in many agricultural households, women often
@@ -691,7 +694,7 @@ COLL_METHOD: >-
   the household&#x2019;s involvement in agriculture over the preceding 12 months
   and screen out households where all members are involved in agricultural
   activity only as wage workers. The respondent to the questions in the module
-  should be the most knowledgeable member of the household.</p>
+  should be the <em>most knowledgeable member of the household.</em></p>
 
   <p>Table 3. Module for identifying agricultural households</p>
 
@@ -886,7 +889,7 @@ COLL_METHOD: >-
       </tr>
       <tr>
         <td>
-          <p><strong>Q4. Do you have the right to sell any of the agricultural land held (alternatively &#x2018;land possessed, used or occupied&#x2019;), either alone or jointly with someone else?</strong></p>
+          <p><strong>Q4. Do you have the right to <em>sell </em>any of the agricultural land held (alternatively &#x2018;land possessed, used or occupied&#x2019;), either alone or jointly with someone else?</strong></p>
           <p>1 - Yes</p>
           <p>2 &#x2013; No &gt;&gt; Q5</p>
           <p>98 - Don&#x2019;t know</p>
@@ -1113,7 +1116,8 @@ COMPILING_ORG: <p>Food and Agricultural Organization (FAO)</p>
 INST_MANDATE: >-
   <p>Article I of the FAO constitution requires that the Organization collect,
   analyses, interpret and disseminate information relating to nutrition, food
-  and agriculture http://www.fao.org/3/K8024E/K8024E.pdf.</p>
+  and agriculture <a
+  href="http://www.fao.org/3/K8024E/K8024E.pdf">http://www.fao.org/3/K8024E/K8024E.pdf</a>.</p>
 RATIONALE: >-
   <p>Indicator 5.a.1 aims to monitor the gender balance on ownership/secure
   rights over agricultural land. Sub-indicator (a) and sub-indicator (b) are
@@ -1356,231 +1360,10 @@ QUALITY_ASSMNT: >-
 COVERAGE: >-
   <p><strong>Data availability:</strong></p>
 
-  <p>Table 6. Breakdown of the number of countries covered by region as of
-  2022</p>
-
-  <table>
-    <tbody>
-      <tr>
-        <td>
-          <p><strong>Region/Countries</strong></p>
-        </td>
-        <td>
-          <p>Indicator</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p><strong>World</strong></p>
-        </td>
-        <td>
-          <p><strong>35</strong></p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p><strong>Africa</strong></p>
-        </td>
-        <td>
-          <p><strong>22</strong></p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>Northern Africa</p>
-        </td>
-        <td></td>
-      </tr>
-      <tr>
-        <td>
-          <p>Sub-Saharan Africa</p>
-        </td>
-        <td></td>
-      </tr>
-      <tr>
-        <td>
-          <p>Eastern Africa</p>
-        </td>
-        <td>
-          <p>9</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>Middle Africa</p>
-        </td>
-        <td>
-          <p>2</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>Southern Africa</p>
-        </td>
-        <td>
-          <p>1</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>Western Africa</p>
-        </td>
-        <td>
-          <p>10</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p><strong>Americas</strong></p>
-        </td>
-        <td>
-          <p><strong>3</strong></p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>Latin America and the Caribbean</p>
-        </td>
-        <td>
-          <p>3</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>Caribbean</p>
-        </td>
-        <td>
-          <p>1</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>Latin America</p>
-        </td>
-        <td>
-          <p>2</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>Northern America</p>
-        </td>
-        <td></td>
-      </tr>
-      <tr>
-        <td>
-          <p><strong>Asia</strong></p>
-        </td>
-        <td>
-          <p><strong>8</strong></p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>Central Asia</p>
-        </td>
-        <td></td>
-      </tr>
-      <tr>
-        <td>
-          <p>Eastern Asia</p>
-        </td>
-        <td></td>
-      </tr>
-      <tr>
-        <td>
-          <p>Southern Asia</p>
-        </td>
-        <td>
-          <p>4</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>South-Eastern Asia</p>
-        </td>
-        <td>
-          <p>3</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>Western Asia</p>
-        </td>
-        <td>
-          <p>1</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p><strong>Europe</strong></p>
-        </td>
-        <td>
-          <p><strong>1</strong></p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>Eastern Europe</p>
-        </td>
-        <td></td>
-      </tr>
-      <tr>
-        <td>
-          <p>Northern Europe</p>
-        </td>
-        <td></td>
-      </tr>
-      <tr>
-        <td>
-          <p>Southern Europe</p>
-        </td>
-        <td>
-          <p>1</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>Western Europe</p>
-        </td>
-        <td></td>
-      </tr>
-      <tr>
-        <td>
-          <p><strong>Oceania</strong></p>
-        </td>
-        <td>
-          <p><strong>1</strong></p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>Australia and New Zealand</p>
-        </td>
-        <td></td>
-      </tr>
-      <tr>
-        <td>
-          <p>Melanesia</p>
-        </td>
-        <td>
-          <p>1</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>Micronesia</p>
-        </td>
-        <td></td>
-      </tr>
-      <tr>
-        <td>
-          <p>Polynesia</p>
-        </td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
+  <p>Data availability is currently limited (though growing) around the world,
+  and most of the available data points derive from suitable surveys in
+  countries in Africa and Asia. The limited data availability does not yet allow
+  for producing regional and global aggregates.</p>
 
   <h2>Disaggregation:</h2>
 

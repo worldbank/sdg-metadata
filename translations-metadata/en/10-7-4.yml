@@ -7,7 +7,7 @@ SDG_INDICATOR: >-
   <p>Indicator 10.7.4: Proportion of the population who are refugees, by country
   of origin</p>
 SDG_SERIES_DESCR: <p>Not applicable</p>
-META_LAST_UPDATE: '2022-03-31'
+META_LAST_UPDATE: '2023-03-31'
 SDG_RELATED_INDICATORS: >-
   <p>Goals 1 (&#x201C;No Poverty&#x201D;), 2 (&#x201C;Zero Hunger&#x201D;), 3
   (&#x201C;Good Health and Wellbeing&#x201D;), 4 (&#x201C;Quality
@@ -23,8 +23,9 @@ STAT_CONC_DEF: >-
   recognized as refugees as a proportion of the total population of their
   country of origin, expressed per 100,000 population. </p>
 
-  <p>Refugees refers to persons recognized by the Government and/or UNHCR, or
-  those in a refugee-like situation. </p>
+  <p>Refugees refers to persons recognized by the Government and/or UNHCR, those
+  in a refugee-like situation and other persons in need of international
+  protection. </p>
 
   <p>Population refers to total resident population in a given country in a
   given year.</p>
@@ -57,6 +58,14 @@ STAT_CONC_DEF: >-
   territory of origin who face protection risks similar to those of refugees,
   but who, for practical or other reasons, have not been formally recognized or
   issued documentation to that effect. </p>
+
+  <p><em>Other persons in need of international protection </em>are<em>
+  </em>defined as<em> </em>people who are outside their country or territory of
+  origin, typically because they have been forcibly displaced across
+  international borders, who have not been reported under other categories
+  (asylum-seekers, refugees, people in refugee-like situations) but who likely
+  need international protection, including protection against forced return, as
+  well as access to basic services on a temporary or longer-term basis.</p>
 UNIT_MEASURE: '<p>Number of refugees per 100,000 population in country of origin</p>'
 CLASS_SYSTEM: <p>Not applicable</p>
 SOURCE_TYPE: >-
@@ -69,8 +78,9 @@ SOURCE_TYPE: >-
   facilitated by focal points in UNHCR country offices. </p>
 
   <p>Population data are derived from annual estimates produced by the UN
-  Population Division (World Population Prospects, Standard Projections, Total
-  Population, both sexes &#x2013; Medium Variant).</p>
+  Population Division (2022 Revision of World Population Prospects, Total
+  Population, both sexes). Estimates until 2020 and medium fertility variant
+  projection for years thereafter. </p>
 COLL_METHOD: >-
   <p>At the international level, data on refugee populations are routinely
   collected by UNHCR through the biannual Population Statistic Review (PSR) data
@@ -88,7 +98,7 @@ COLL_METHOD: >-
   for consultation before publication. </p>
 FREQ_COLL: >-
   <p>Twice a year: by March (data for year-end) and September (data for
-  mid-year)</p>
+  mid-year).<strong><em> </em></strong></p>
 REL_CAL_POLICY: >-
   <p>Twice a year: by December (data for mid-year) and by June (data for
   year-end)</p>
@@ -300,7 +310,13 @@ DATA_COMP: >-
       <mn>000</mn>
     </math></p>
   <p>The indicator is presented as the number of refugees per 100,000 population
-  in country of origin.</p>
+  in country of origin. </p>
+
+  <p><em>*For years where the number of refugee refers to the end-year figure
+  (as of 31. December), the total population estimate as of 01. January the next
+  year is applied. For years where the number of refugees refers to the mid-year
+  figures (as of 30. June), the total population estimate as of 01. July is
+  applied. </em></p>
 DATA_VALIDATION: >-
   <p>At the international level, data on refugee populations are routinely
   collected by UNHCR through the biannual Population Statistic Review (PSR) data
@@ -342,15 +358,14 @@ DOC_METHOD: >-
     <li>Expert Group on Refugee and IDP Statistics (EGRIS):</li>
   </ul>
 
-  <p><a
-  href="https://ec.europa.eu/eurostat/web/expert-group-on-refugee-statistics">https://ec.europa.eu/eurostat/web/expert-group-on-refugee-statistics</a></p>
+  <p><a href="https://egrisstats.org/">https://egrisstats.org/</a></p>
 
   <ul>
     <li>International Recommendations on Refugee Statistics (IRRS):</li>
   </ul>
 
   <p><a
-  href="https://ec.europa.eu/eurostat/web/products-manuals-and-guidelines/-/KS-GQ-18-004">https://ec.europa.eu/eurostat/web/products-manuals-and-guidelines/-/KS-GQ-18-004</a></p>
+  href="https://egrisstats.org/recommendations/international-recommendations-on-refugee-statistics-irrs/">https://egrisstats.org/recommendations/international-recommendations-on-refugee-statistics-irrs/</a></p>
 QUALITY_MGMNT: >-
   <p>UNHCR follows its Statistical Quality Assurance Framework when producing
   official statistics, including this SDG indicator.</p>
@@ -371,8 +386,8 @@ COVERAGE: >-
 
   <p>National data on refugee populations are available for 192 countries (at
   least one data point between 1951-2020). Time series data on refugees suitable
-  for monitoring are available for 192 countries. Approximately 62 percent of
-  the refugee population have data which can be disaggregated by sex and 56
+  for monitoring are available for 192 countries. Approximately 83 percent of
+  the refugee population have data which can be disaggregated by sex and 76
   percent which can be disaggregated by age. The age and sex disaggregation for
   the remainder of the population is estimated with statistical methods. </p>
 
@@ -410,14 +425,17 @@ OTHER_DOC: >-
 
   <p><a href="http://www.unhcr.org">www.unhcr.org</a></p>
 
-  <p>References: </p>
+  <p><strong>References: </strong></p>
 
   <p>UNHCR Refugee Population Statistics Database (<a
   href="https://www.unhcr.org/refugee-statistics/">https://www.unhcr.org/refugee-statistics/</a>
   )</p>
 
   <p>UNHCR, Global Trends report (<a
-  href="https://www.unhcr.org/globaltrends2019/">https://www.unhcr.org/globaltrends2019/</a>)</p>
+  href="https://www.unhcr.org/globaltrends.html">https://www.unhcr.org/globaltrends.html</a>)</p>
+
+  <p>UNHCR, Mid-Year Trends report (<a
+  href="https://www.unhcr.org/mid-year-trends.html">https://www.unhcr.org/mid-year-trends.html</a>)</p>
 
   <p>UNHCR Statistical Yearbook (<a
   href="https://www.unhcr.org/statistical-yearbooks.html">https://www.unhcr.org/statistical-yearbooks.html</a>)</p>

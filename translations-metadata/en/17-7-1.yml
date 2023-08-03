@@ -11,6 +11,9 @@ SDG_INDICATOR: >-
   promote the development, transfer, dissemination and diffusion of
   environmentally sound technologies</p>
 SDG_SERIES_DESCR: >-
+  <p>Total trade of tracked Environmentally Sound Technologies (current United
+  States dollars) DC_ENVTECH_TT</p>
+
   <p>Amount of tracked exported Environmentally Sound Technologies (current
   United States dollars) DC_ENVTECH_EXP</p>
 
@@ -25,7 +28,7 @@ SDG_SERIES_DESCR: >-
 
   <p>Total investment in Environment Sound Technologies, by sector (current
   United States dollars) DC_ENVTECH_INV</p>
-META_LAST_UPDATE: '2023-01-24'
+META_LAST_UPDATE: '2023-03-31'
 SDG_RELATED_INDICATORS: >-
   <p>United Nations Environment Programme (UNEP) has identified a number of SDGs
   where uptake of Environmentally Sound Technologies (ESTs) contributes to their
@@ -58,7 +61,7 @@ STAT_CONC_DEF: >-
   two-pronged approach is suggested: </p>
 
   <ul>
-    <li>Level 1. Use globally available data to create a proxy of funding flowing to developing countries for environmentally sound technologies, or of trade in environmentally sound technologies </li>
+    <li>Level 1. Use globally available data to create a proxy of funding flowing to countries for environmentally sound technologies, or of trade in environmentally sound technologies </li>
     <li>Level 2. Collect national data on investment in environmentally sound technologies.</li>
   </ul>
 
@@ -100,16 +103,16 @@ SOURCE_TYPE: >-
 COLL_METHOD: >-
   <p>National data are collected through the UNEP Questionnaire on
   Environmentally Sound Technologies every two years. </p>
-FREQ_COLL: '<p>First data collection in2021, then every 2 years.</p>'
+FREQ_COLL: '<p>First data collection in 2021, then every 2 years.</p>'
 REL_CAL_POLICY: '<p>First reporting cycle in 2022, then every two years.</p>'
 DATA_SOURCE: >-
   <p>National Statistical Offices (NSOs) and other members of the National
   Statistical System (NSS), complemented by global modelling</p>
 COMPILING_ORG: <p>United Nations Environment Programme (UNEP)</p>
 INST_MANDATE: >-
-  <p>The United Nations Environment Programme (UNEP) was mandated as Custodian
-  Agencies for indicator 17.7.1 by the Inter-agency and Expert Group on SDG
-  Indicators. </p>
+  <p>The United Nations Environment Programme (UNEP) was mandated as the
+  Custodian Agency for indicator 17.7.1 by the Inter-agency and Expert Group on
+  SDG Indicators. </p>
 RATIONALE: >-
   <p>Rational environmental management means making the best use of resources to
   meet basic human needs without destroying the sustaining and regenerative
@@ -149,14 +152,18 @@ DATA_COMP: >-
   environmentally sound technologies has a two-pronged approach: </p>
 
   <p><strong>Level 1</strong>. Use globally available data to create a proxy of
-  funding flowing to developing countries for environmentally sound
-  technologies, or of trade in environmentally sound technologies.</p>
+  funding flowing to countries for environmentally sound technologies, or of
+  trade in environmentally sound technologies:</p>
 
-  <p>The international proxy that provides the closest indicator of investment
-  flows is that of trade (e.g. traded goods and services that have been
-  internationally agreed to have a positive environmental benefit), using HS
-  codes of the Harmonized Commodity Description and Coding Systems, preferably
-  more than 6-digit level. </p>
+  <p>Total trade of tracked Environmentally Sound Technologies (ESTs) that
+  provides the closest indicator of investment flows is that of trade (e.g.
+  traded goods and services that have been internationally agreed to have a
+  positive environmental benefit), using HS codes of the Harmonized Commodity
+  Description and Coding Systems, preferably more than 6-digit level. </p>
+
+  <p>Total trade of tracked Environmentally Sound Technologies (ESTs) is
+  calculated as the sum of tracked exported, imported, re-exported and
+  re-imported ESTs.</p>
 
   <p>The sectors deemed to be ESTs through historical research include:</p>
 
@@ -172,7 +179,7 @@ DATA_COMP: >-
   </ul>
 
   <p><strong>Level 2.</strong> Collect national data on investment in
-  environmentally sound technologies.</p>
+  environmentally sound technologies:</p>
 
   <p>Identifying ESTs at the national level is a simple process based on a set
   of criteria and simple analysis tool &#x2013; the UNEP Questionnaire on

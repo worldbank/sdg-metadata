@@ -7,7 +7,7 @@ SDG_INDICATOR: >-
   <p>Indicator 12.b.1: Implementation of standard accounting tools to monitor
   the economic and environmental aspects of tourism sustainability</p>
 SDG_SERIES_DESCR: <p>Not applicable</p>
-META_LAST_UPDATE: '2022-04-12'
+META_LAST_UPDATE: '2023-03-31'
 SDG_RELATED_INDICATORS: >-
   <p>8.9.1 Tourism Direct GDP as a proportion of total GDP and in growth rate
   </p>
@@ -34,7 +34,7 @@ STAT_CONC_DEF: >-
     <li>TSA Table 1 on inbound tourism expenditure</li>
     <li>TSA Table 2 on domestic tourism expenditure</li>
     <li>TSA Table 3 on outbound tourism expenditure</li>
-    <li>TSA Table 4 on internal tourism expenditure</li>
+    <li>TSA Table 4 on internal tourism consumption </li>
     <li>TSA Table 5 on production accounts of tourism industries</li>
     <li>TSA Table 6 domestic supply and internal tourism consumption</li>
     <li>TSA Table 7 on employment in tourism industries</li>
@@ -87,16 +87,18 @@ SOURCE_TYPE: >-
   <p>The indicator is sourced from countries&#x2019; Tourism Satellite Account
   and Environmental-Economic Accounts.</p>
 COLL_METHOD: >-
-  <p>UNWTO sends a short excel questionnaire to countries to obtain information
-  on the number of relevant TSA and SEEA tables produced by countries.</p>
+  <p>UNWTO sends an excel questionnaire to countries to obtain information on
+  the number of relevant TSA and SEEA tables produced by countries.</p>
 FREQ_COLL: >-
   <p>The exercise to collect data on TSA and SEEA tables implementation directly
   from countries is done through an annual UNWTO questionnaire. The
-  questionnaire is sent out to countries in August and data collection is closed
-  in January of the following year.</p>
+  questionnaire is sent out to countries in September and data collection is
+  closed in February of the following year.</p>
 REL_CAL_POLICY: >-
-  <p>Release of data is annual and coincides with the update of the SDG global
-  database, typically scheduled for February/March.</p>
+  <p>The data is released twice a year in the <a
+  href="https://www.unwto.org/tourism-statistics/economic-contribution-SDG">UNWTO&#x2019;s
+  Tourism Statistics Database</a>, the first update is done in November and the
+  second in January.</p>
 DATA_SOURCE: >-
   <p>For implementation of the TSA: all official entities, usually National
   Statistics Offices and/or National Tourism Administrations.</p>
@@ -153,7 +155,7 @@ RATIONALE: >-
 REC_USE_LIM: >-
   <p>The indicator in principle does not account for different degrees of
   consolidation in the implementation of TSA and SEEA (ranging from experimental
-  to full-fledged implementation), which might varybetween countries. </p>
+  to full-fledged implementation), which might vary between countries. </p>
 DATA_COMP: >-
   <p>Implementation of standard accounting tools to monitor the economic and
   environmental aspects of tourism sustainability = total number of tables
@@ -163,7 +165,7 @@ DATA_COMP: >-
     <li>TSA Table 1 on inbound tourism expenditure</li>
     <li>TSA Table 2 on domestic tourism expenditure</li>
     <li>TSA Table 3 on outbound tourism expenditure</li>
-    <li>TSA Table 4 on internal tourism expenditure</li>
+    <li>TSA Table 4 on internal tourism consumption </li>
     <li>TSA Table 5 on production accounts of tourism industries</li>
     <li>TSA Table 6 domestic supply and internal tourism consumption </li>
     <li>TSA Table 7 on employment in tourism industries</li>
@@ -225,7 +227,7 @@ COVERAGE: >-
   <p>While SEEA and TSA tables are currently not compiled everywhere, by
   construction it is possible for all countries to provide information on this
   indicator. Those countries where no tables are compiled report a value of zero
-  (0). There are currently (as of March 2022) data available for over 150
+  (0). There are currently (as of March 2023) data available for over 180
   countries, in all regions. </p>
 
   <p><strong>Time series:</strong></p>

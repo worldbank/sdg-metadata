@@ -11,7 +11,7 @@ SDG_TARGET: >-
 SDG_INDICATOR: >-
   <p>Indicator 3.b.1: Proportion of the target population covered by all
   vaccines included in their national programme </p>
-META_LAST_UPDATE: <p>2020-03-01</p>
+META_LAST_UPDATE: '2023-03-31'
 SDG_RELATED_INDICATORS: >-
   <p>Target 3.8 Achieve universal health coverage, including financial risk
   protection, access to quality essential health-care services and access to
@@ -50,9 +50,9 @@ STAT_CONC_DEF: >-
   <p> </p>
 
   <p>Coverage of HPV vaccine (last dose in the schedule):<strong>
-  </strong>Percentage of 15 years old girls received the recommended doses of
-  HPV vaccine. Currently performance of the programme in the previous calendar
-  year based on target age group is used. </p>
+  </strong>Percentage of 15 years old girls who received the recommended doses
+  of HPV vaccine. Currently performance of the programme in the previous
+  calendar year based on target age group is used. </p>
 
   <p> </p>
 
@@ -84,16 +84,18 @@ STAT_CONC_DEF: >-
   <p>Coverage of Pneumococcal conjugate vaccine: adaptation of new vaccines for
   children </p>
 
-  <p>Coverage of HPV vaccine: life cycle vaccination<strong> </strong> </p>
+  <p>Coverage of HPV vaccine: life course vaccination<strong> </strong> </p>
 
   <p> </p>
+UNIT_MEASURE: <p>Percent</p>
 SOURCE_TYPE: >-
   <p>National Health Information Systems or National Immunization systems </p>
 
   <p>National immunization registries </p>
 
-  <p>High quality household surveys with immunization module (e.g. DHS, MICS,
-  national in-country surveys) </p>
+  <p>High quality household surveys with immunization module (e.g. Demographic
+  and Health Surveys (DHS), Multiple-Indicator Health Surveys (MICS), other
+  national surveys) </p>
 COLL_METHOD: >-
   <p>Annual data collection through established mechanism. Since 1998, in an
   effort to strengthen collaboration and minimize the reporting burden, WHO and
@@ -106,9 +108,9 @@ FREQ_COLL: >-
   <p>Annual data collection March-May each year. Country consultation June each
   year </p>
 REL_CAL_POLICY: >-
-  <p>15 July each year for time series 1980 &#x2013; release year -1. (in July
-  2019 estimates from 1980-2018) </p>
-DATA_SOURCE: '<p>Ministries of Health, Immunization programmes </p>'
+  <p>15 July each year for time series 1980 &#x2013; release year -1. (on 17
+  July 2023 estimates from 1980-2022) </p>
+DATA_SOURCE: '<p>Ministries of Health, Immunization programmes, DHS and MICS websites </p>'
 COMPILING_ORG: <p>WHO and UNICEF</p>
 RATIONALE: >-
   <p>This indicator aims to measure access to vaccines, including the newly
@@ -117,13 +119,13 @@ RATIONALE: >-
   national immunization schedule and there are several vaccines under final
   stage of development to be introduced by 2030. For monitoring diseases control
   and impact of vaccines it is important to measure coverage from each vaccine
-  in national immunization schedule and the system is already in place for all
-  national programmes, however direct measurement for proportion of population
-  covered with all vaccines in the programme is only feasible if the country has
-  a well-functioning national nominal immunization registry, usually an
-  electronic one that will allow this coverage to be easily estimated. While
-  countries will develop and strengthen immunization registries it is a need for
-  an alternative measurement</p>
+  in national immunization schedule. A system is already in place to monitor
+  immunization coverage for all national programmes, however direct measurement
+  for proportion of population covered with all vaccines in the programme is
+  only feasible if the country has a well-functioning national electronic
+  immunization registry allowing coverage by cohort to be easily estimated.
+  While countries will develop and strengthen immunization registries there is a
+  need for an alternative measurement.</p>
 REC_USE_LIM: >-
   <p>The rational to select a set of vaccines reflects the ability of
   immunization programmes to deliver vaccines over the life cycle and to adapt
@@ -138,15 +140,23 @@ REC_USE_LIM: >-
   reporting will start later. </p>
 DATA_COMP: >-
   <p>WHO and UNICEF jointly developed a methodology to estimate national
-  immunization coverage form selected vaccines in 2000. The methodology has been
-  refined and reviewed by expert committees over time. The methodology was
+  immunization coverage form selected vaccines in 2000, and this approach has
+  been refined and reviewed by expert committees over time. The methodology was
   published and reference is available under the reference section. Estimates
   time series for WHO recommended vaccines produced and published annually since
   2001. </p>
 
   <p>The methodology uses data reported by national authorities from countries
   administrative systems as well as data from immunization or multi indicator
-  household surveys. </p>
+  household surveys. The WHO/UNICEF estimates of national immunization coverage
+  have been assessed using the Guidelines for Accurate and Transparent Health
+  Estimates Reporting (GATHER) checklist. </p>
+DATA_VALIDATION: >-
+  <p>WHO and UNICEF encourage countries to review and comment on the draft
+  coverage estimates shared following the draft production. In past years,
+  regional or sub-regional consultations have been held during May/June to go
+  through select country data and estimates. </p>
+ADJUSTMENT: <p>Not applicable</p>
 IMPUTATION: >-
   <ul>
     <li><strong>At country level </strong></li>
@@ -161,14 +171,18 @@ IMPUTATION: >-
     <li><strong>At regional and global levels </strong></li>
   </ul>
 
-  <p>Any needed imputation is done at country level. These country values can
-  then be used to compute regional and global ones. </p>
+  <p>Any needed imputation is done at country level. These country values are
+  then used to compute regional and global estimates. </p>
 REG_AGG: >-
   <p>Weighted average of the country-level coverage rates where the weights are
-  the country target population sizes based on World Population Prospects: 2019
-  revision from the UN Population Division. All countries from the region are
-  included. For HPV 15 year old girls were used for calculation weighted
+  the country target population sizes based on World Population Prospects: 2022
+  revision from the UN Population Division. All Member States from the region
+  are included. For HPV 15 year old girls are used for calculation weighted
   average. </p>
+DOC_METHOD: <p>Not applicable</p>
+QUALITY_MGMNT: <p>Not applicable</p>
+QUALITY_ASSURE: <p>Not applicable</p>
+QUALITY_ASSMNT: <p>Not applicable</p>
 COVERAGE: >-
   <p><strong>Data availability:</strong></p>
 
@@ -186,7 +200,7 @@ COVERAGE: >-
 
   <p> </p>
 
-  <p>Coverage for 2018 </p>
+  <p>Coverage for 2021 (in %)</p>
 
   <table>
     <tbody>
@@ -212,16 +226,16 @@ COVERAGE: >-
           <p>Global </p>
         </td>
         <td>
-          <p>86% </p>
+          <p>81</p>
         </td>
         <td>
-          <p>69% </p>
+          <p>71</p>
         </td>
         <td>
-          <p>47% </p>
+          <p>51</p>
         </td>
         <td>
-          <p>12% </p>
+          <p>12</p>
         </td>
       </tr>
       <tr>
@@ -229,16 +243,16 @@ COVERAGE: >-
           <p>Australia and New Zealand </p>
         </td>
         <td>
-          <p>95% </p>
+          <p>94</p>
         </td>
         <td>
-          <p>93% </p>
+          <p>92</p>
         </td>
         <td>
-          <p>95% </p>
+          <p>96</p>
         </td>
         <td>
-          <p>76% </p>
+          <p>63</p>
         </td>
       </tr>
       <tr>
@@ -246,16 +260,16 @@ COVERAGE: >-
           <p>Central Asia and Southern Asia </p>
         </td>
         <td>
-          <p>88% </p>
+          <p>86</p>
         </td>
         <td>
-          <p>79% </p>
+          <p>83</p>
         </td>
         <td>
-          <p>30% </p>
+          <p>45</p>
         </td>
         <td>
-          <p>1% </p>
+          <p>2</p>
         </td>
       </tr>
       <tr>
@@ -263,16 +277,16 @@ COVERAGE: >-
           <p>Eastern Asia and South-eastern Asia </p>
         </td>
         <td>
-          <p>91% </p>
+          <p>84</p>
         </td>
         <td>
-          <p>88% </p>
+          <p>83</p>
         </td>
         <td>
-          <p>13% </p>
+          <p>14</p>
         </td>
         <td>
-          <p>3% </p>
+          <p>1</p>
         </td>
       </tr>
       <tr>
@@ -280,16 +294,16 @@ COVERAGE: >-
           <p>Latin America &amp; the Caribbean </p>
         </td>
         <td>
-          <p>85% </p>
+          <p>75</p>
         </td>
         <td>
-          <p>77% </p>
+          <p>68</p>
         </td>
         <td>
-          <p>79% </p>
+          <p>70</p>
         </td>
         <td>
-          <p>61% </p>
+          <p>32</p>
         </td>
       </tr>
       <tr>
@@ -297,16 +311,16 @@ COVERAGE: >-
           <p>Northern America and Europe </p>
         </td>
         <td>
-          <p>93% </p>
+          <p>93</p>
         </td>
         <td>
-          <p>91% </p>
+          <p>91</p>
         </td>
         <td>
-          <p>81% </p>
+          <p>80</p>
         </td>
         <td>
-          <p>35% </p>
+          <p>37</p>
         </td>
       </tr>
       <tr>
@@ -314,16 +328,16 @@ COVERAGE: >-
           <p>Oceania </p>
         </td>
         <td>
-          <p>66% </p>
+          <p>70</p>
         </td>
         <td>
-          <p>13% </p>
+          <p>63</p>
         </td>
         <td>
-          <p>48% </p>
+          <p>70</p>
         </td>
         <td>
-          <p>4% </p>
+          <p>35</p>
         </td>
       </tr>
       <tr>
@@ -331,16 +345,16 @@ COVERAGE: >-
           <p>Sub-Saharan Africa </p>
         </td>
         <td>
-          <p>75% </p>
+          <p>70</p>
         </td>
         <td>
-          <p>24% </p>
+          <p>40</p>
         </td>
         <td>
-          <p>71% </p>
+          <p>64</p>
         </td>
         <td>
-          <p>8% </p>
+          <p>20</p>
         </td>
       </tr>
       <tr>
@@ -348,16 +362,16 @@ COVERAGE: >-
           <p>Western Asia and Northern Africa (M49) </p>
         </td>
         <td>
-          <p>90% </p>
+          <p>88</p>
         </td>
         <td>
-          <p>84% </p>
+          <p>83</p>
         </td>
         <td>
-          <p>58% </p>
+          <p>56</p>
         </td>
         <td>
-          <p>1% </p>
+          <p>1</p>
         </td>
       </tr>
     </tbody>
@@ -381,7 +395,7 @@ COMPARABILITY: >-
   <p> </p>
 
   <p>In case the vaccine is not included in national immunization schedule the
-  coverage from private sector will not be reflected. </p>
+  coverage from private sector vaccine delivery will not be reflected. </p>
 OTHER_DOC: >-
   <p>Burton A, Monasch R, Lautenbach B, Gacic-Dobo M, Neill M, Karimov R,
   Wolfson L, Jones G, Birmingham M. WHO and UNICEF estimates of national infant
@@ -403,15 +417,21 @@ OTHER_DOC: >-
 
   <p> </p>
 
-  <p> Brown D, Burton A, Gacic-Dobo M, Karimov R An Introduction to the Grade of
-  Confidence in the WHO and UNICEF Estimates of National Immunization Coverage
-  The Open Public Health Journal, 2013, 6, 73-76. Available at: <a
+  <p>Brown D, Burton A, Gacic-Dobo M, Karimov R. An Introduction to the Grade of
+  Confidence in the WHO and UNICEF Estimates of National Immunization Coverage.
+  The Open Public Health Journal 2013, 6, 73-76. Available at: <a
   href="http://www.benthamscience.com/open/tophj/articles/V006/73TOPHJ.pdf"
   target="_blank"><u>http://www.benthamscience.com/open/tophj/articles/V006/73TOPHJ.pdf</u></a>
   </p>
 
   <p> </p>
 
-  <p>Brown, David &amp; Burton, Anthony &amp; Gacic-Dobo, Marta. (2015). An
-  examination of a recall bias adjustment applied to survey-based coverage
-  estimates for multi-dose vaccines. 10.13140/RG.2.1.2086.2883. </p>
+  <p>Brown, David &amp; Burton, Anthony &amp; Gacic-Dobo, Marta. An examination
+  of a recall bias adjustment applied to survey-based coverage estimates for
+  multi-dose vaccines. 2015. 10.13140/RG.2.1.2086.2883. </p>
+
+  <p>Danovaro-Holliday MC, Gacic-Dobo M, Diallo MS <em>et al.</em> Compliance of
+  WHO and UNICEF estimates of national immunization coverage (WUENIC) with
+  Guidelines for Accurate and Transparent Health Estimates Reporting (GATHER)
+  criteria. <em>Gates Open Res</em> 2021, 5:77 Available at: <a
+  href="https://doi.org/10.12688/gatesopenres.13258.1">https://doi.org/10.12688/gatesopenres.13258.1</a></p>
