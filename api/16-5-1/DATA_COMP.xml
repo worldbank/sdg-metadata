@@ -5,7 +5,39 @@
 	<data>
 		<languages>
 			<language lang="ar"/>
-			<language lang="en">&lt;p&gt;The indicator is calculated as the total number of persons who paid at least one bribe to a public official in the last 12 months, or were asked for a bribe in the same period, over the total number of persons who had at least one contact with a public official in the same period, multiplied by 100.&lt;/p&gt;
+			<language lang="en">&lt;p&gt;The indicator is calculated as the total number of persons who paid at least one bribe to a public official (or were asked for a bribe) in the last 12 months, over the total number of persons who had at least one contact with a public official in the same period, multiplied by 100.&lt;/p&gt;
+&lt;p&gt;&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;
+    &lt;mi&gt;B&lt;/mi&gt;
+    &lt;mi&gt;r&lt;/mi&gt;
+    &lt;mi&gt;i&lt;/mi&gt;
+    &lt;mi&gt;b&lt;/mi&gt;
+    &lt;mi&gt;e&lt;/mi&gt;
+    &lt;mi&gt;r&lt;/mi&gt;
+    &lt;mi&gt;y&lt;/mi&gt;
+    &lt;mi&gt;&amp;amp;nbsp;&lt;/mi&gt;
+    &lt;mi&gt;p&lt;/mi&gt;
+    &lt;mi&gt;r&lt;/mi&gt;
+    &lt;mi&gt;e&lt;/mi&gt;
+    &lt;mi&gt;v&lt;/mi&gt;
+    &lt;mi&gt;a&lt;/mi&gt;
+    &lt;mi&gt;l&lt;/mi&gt;
+    &lt;mi&gt;e&lt;/mi&gt;
+    &lt;mi&gt;n&lt;/mi&gt;
+    &lt;mi&gt;c&lt;/mi&gt;
+    &lt;mi&gt;e&lt;/mi&gt;
+    &lt;mo&gt;=&lt;/mo&gt;
+    &lt;mn&gt;100&lt;/mn&gt;
+    &lt;mi&gt;*&lt;/mi&gt;
+    &lt;mfrac&gt;
+      &lt;mrow&gt;
+        &lt;mi&gt;B&lt;/mi&gt;
+      &lt;/mrow&gt;
+      &lt;mrow&gt;
+        &lt;mi&gt;C&lt;/mi&gt;
+      &lt;/mrow&gt;
+    &lt;/mfrac&gt;
+  &lt;/math&gt;&lt;/p&gt;
+&lt;p&gt;Where &lt;em&gt;B&lt;/em&gt; refers to the number of people who paid a bribe to or were asked for a bribe by public official in the last 12 months, and &lt;em&gt;C &lt;/em&gt;refers to the total number of people who had contact with public officials in the last 12 months.&lt;/p&gt;
 			</language>
 			<language lang="es"/>
 			<language lang="fr"/>
