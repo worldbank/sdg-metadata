@@ -8,7 +8,7 @@ SDG_INDICATOR: >-
   <p>Indicator 3.7.2: Adolescent birth rate (aged 10&#x2013;14 years; aged
   15&#x2013;19 years) per 1,000 women in that age group</p>
 SDG_SERIES_DESCR: <p>Not applicable</p>
-META_LAST_UPDATE: '2022-03-31'
+META_LAST_UPDATE: '2023-03-31'
 SDG_RELATED_INDICATORS: >-
   <p>Indicator is linked to Target 5.6 (Ensure universal access to sexual and
   reproductive health and reproductive rights as agreed in accordance with the
@@ -57,19 +57,18 @@ SOURCE_TYPE: >-
   systems covering 90 percent or more of all live births, supplemented
   eventually by census or survey estimates for periods when registration data
   are not available. For the numerator, the figures reported by National
-  Statistical Offices (NSOs) to the</p>
-
-  <p>United Nations Statistics Division (UNSD) have first priority. When they
-  are not available or present problems, use is made of data from the regional
-  statistical units or directly from NSOs. For the denominator, first priority
-  is given to the latest revision of World Population Prospects (WPP) produced
-  by the Population Division, Department of Economic and Social Affairs, United
-  Nations. In cases where the numerator does not cover the complete de facto
-  population, an alternative appropriate population estimate is used if
-  available. When either the numerator or denominator is missing, the direct
-  estimate of the rate produced by the NSO is used. Information on sources is
-  provided at the cell level. When the numerator and denominator come from two
-  different sources, they are listed in that order.</p>
+  Statistical Offices (NSOs) to the United Nations Statistics Division (UNSD)
+  have first priority. When they are not available or present problems, use is
+  made of data from the regional statistical units or directly from NSOs. For
+  the denominator, first priority is given to the latest revision of World
+  Population Prospects (WPP) produced by the Population Division, Department of
+  Economic and Social Affairs, United Nations. In cases where the numerator does
+  not cover the complete de facto population, an alternative appropriate
+  population estimate is used if available. When either the numerator or
+  denominator is missing, the direct estimate of the rate produced by the NSO is
+  used. Information on sources is provided at the cell level. When the numerator
+  and denominator come from two different sources, they are listed in that
+  order.</p>
 
   <p>In countries lacking a civil registration system or where the coverage of
   that system is lower than 90 percent of all live births, the adolescent birth
@@ -81,8 +80,8 @@ SOURCE_TYPE: >-
   biennial basis are given precedence when they exist.</p>
 
   <p>For information on the source of each estimate, see United Nations,
-  Department of Economic and Social Affairs, Population Division : DemoData:
-  Data Browser (online database of empirical demographic data and selected
+  Department of Economic and Social Affairs, Population Division: DemoData: Data
+  Browser (online database of empirical demographic data and selected
   tabulations). <a
   href="https://popdiv.dfs.un.org/demodata/web/#!#%2Fhome">https://popdiv.dfs.un.org/demodata/web/#!#%2Fhome</a></p>
 COLL_METHOD: >-
@@ -125,8 +124,9 @@ COLL_METHOD: >-
   href="http://data.un.org/">http://data.un.org/</a>), internal databases of the
   Population Division of DESA of the United Nations Secretariat (see latest
   public release here: <a
-  href="https://www.un.org/en/development/desa/population/publications/dataset/fertility/wfd2019.asp">https://www.un.org/en/development/desa/population/publications/dataset/fertility/wfd2019.asp</a>).
-  Eurostat (<a
+  href="https://population.un.org/wpp/Publications/Files/WPP2022_Data_Sources.pdf">https://population.un.org/wpp/Publications/Files/WPP2022_Data_Sources.pdf</a></p>
+
+  <p> Eurostat (<a
   href="https://ec.europa.eu/eurostat/data/database">https://ec.europa.eu/eurostat/data/database</a>),
   the Human Fertility Database (<a
   href="http://www.humanfertility.org">http://www.humanfertility.org</a>), the
@@ -139,7 +139,7 @@ COLL_METHOD: >-
 FREQ_COLL: <p>Data are compiled and updated on a regular basis.</p>
 REL_CAL_POLICY: >-
   <p>Updated data on the adolescent birth rate for SDG monitoring are released
-  by the Population Division annually. The next release is expected in 2023.</p>
+  by the Population Division annually. The next release is expected in 2024.</p>
 DATA_SOURCE: >-
   <p>For civil registration data, data on births or the adolescent birth rate
   are obtained from country-reported data from the United Nations Statistics
@@ -253,18 +253,15 @@ DATA_COMP: >-
   provides estimates of the adolescent birth rate for a number of years before
   the census.</p>
 
-  <p>Whenever data are available, adolescent fertility at ages 10-14 years can
-  also be computed.</p>
+  <p>Whenever data are available, adolescent fertility at ages 10-14 years are
+  also computed.</p>
 
   <p>For a thorough treatment of the different methods of computation, see
   Handbook on the Collection of Fertility and Mortality Data, United Nations
   Publication, Sales No. E.03.XVII.11, <a
-  href="http://unstats.un.org/unsd/publication/SeriesF/SeriesF_92E.pdf)">(</a><a
-  href="https://unstats.un.org/unsd/demographic/standmeth/handbooks/Handbook_Fertility_Mortality.pdf"><u>https://unstats.un.org/unsd/demographic/standmeth/handbooks/Handbook_Fertility_Mortality.pdf</u></a>).Indirect
+  href="http://unstats.un.org/unsd/publication/SeriesF/SeriesF_92E.pdf)">(https://unstats.un.org/unsd/demographic/standmeth/handbooks/Handbook_Fertility_Mortality.pdf).</a>.Indirect
   methods of estimation are analyzed in Manual X: Indirect Techniques for
-  Demographic Estimation, United Nations Publication, Sales No. E.83.XIII.2. (<a
-  href="http://www.un.org/esa/population/publications/Manual_X/Manual_X.htm)"></a><a
-  href="https://www.un.org/en/development/desa/population/publications/pdf/mortality/Manual_X.pdf"><u>https://www.un.org/en/development/desa/population/publications/pdf/mortality/Manual_X.pdf</u></a>).
+  Demographic Estimation, United Nations Publication, Sales No. E.83.XIII.2.
   </p>
 DATA_VALIDATION: >-
   <p>The Population Division maintains an online database on of empirical
@@ -308,16 +305,17 @@ IMPUTATION: >-
   recent years, using automated statistical methods, or by using a bias-adjusted
   data model to control for systematic biases between different types of data.
   See United Nations, Department of Economic and Social Affairs, Population
-  Division (2019). World Population Prospects 2019: Methodology of the United
-  Nations population estimates and projections (ST/ESA/SER.A/425), available at:
-  <a
-  href="https://population.un.org/wpp/Publications/Files/WPP2019_Methodology.pdf">https://population.un.org/wpp/Publications/Files/WPP2019_Methodology.pdf</a></p>
+  Division (2022). World Population Prospects 2022: Methodology of the United
+  Nations population estimates and projections (UN DESA/POP/2022/TR/NO. 4. ),
+  available at: <a
+  href="https://population.un.org/wpp/Publications/Files/WPP2022_Methodology.pdf">https://population.un.org/wpp/Publications/Files/WPP2022_Methodology.pdf</a>
+  </p>
 REG_AGG: >-
   <p>The adolescent birth rates reported for global and regional aggregates are
   based on the average of estimated adolescent birth rates for two, contiguous
   five-year periods (e.g., 2015-2020 and 2020-2025 for year 2020) published in
   United Nations, Department of Economic and Social Affairs, Population Division
-  (2019), World Population Prospects 2019 (<a
+  (2022), World Population Prospects 2022 (<a
   href="http://esa.un.org/unpd/wpp/">http://esa.un.org/unpd/wpp/</a>)</p>
 
   <p>The age-specific fertility rates for global and regional aggregates from
@@ -346,9 +344,10 @@ QUALITY_MGMNT: >-
   demographic data and selected tabulations (including fertility rates) from
   different sources including estimates produced by National Statistical Offices
   and regional statistical units. Data since the last round of SDG reporting are
-  continuously updated from various sources: . DemoData: Data Browser (online
+  continuously updated from various sources: DemoData: Data Browser (online
   database of empirical demographic data and selected tabulations)<em>. </em><a
-  href="https://popdiv.dfs.un.org/demodata/web/#!#%2Fhome">https://popdiv.dfs.un.org/demodata/web/#!#%2Fhome</a></p>
+  href="https://popdiv.dfs.un.org/demodata/web/&quot; \l
+  &quot;!#%2Fhome">https://popdiv.dfs.un.org/demodata/web/#!#%2Fhome</a></p>
 
   <p>With each revision of World Population Prospects (WPP), the Population
   Division carries out a re-estimation of historical demographic trends for
@@ -359,26 +358,26 @@ QUALITY_MGMNT: >-
   quality analyses and evaluated by examining the consistency in the patterns,
   levels and trends of the data across countries and regions. The description of
   the guidelines for managing the quality of the data and process is available
-  at:
-  https://www.un.org/development/desa/pd/sites/www.un.org.development.desa.pd/files/unpd-egm-fer-2020-10-backgroundpaper_newtitle_final_oct9.pdf;
-  https://population.un.org/wpp/Publications/Files/WPP2019_Methodology.pdf. </p>
+  at: <a
+  href="https://www.un.org/development/desa/pd/sites/www.un.org.development.desa.pd/files/unpd-egm-fer-2020-10-backgroundpaper_newtitle_final_oct9.pdf">https://www.un.org/development/desa/pd/sites/www.un.org.development.desa.pd/files/unpd-egm-fer-2020-10-backgroundpaper_newtitle_final_oct9.pdf</a>;
+  <a
+  href="https://population.un.org/wpp/Publications/Files/WPP2022_Methodology.pdf">https://population.un.org/wpp/Publications/Files/WPP2022_Methodology.pdf</a>
+  </p>
 QUALITY_ASSURE: <p>See 4.d and 4.i</p>
 QUALITY_ASSMNT: <p>See 4.d and 4.i</p>
 COVERAGE: >-
   <p><strong>Data availability:</strong></p>
 
   <p>Data selected for the adolescent birth rate for women aged 10-14 years and
-  15-19 years are available for 215 and 225 countries or areas, respectively,
-  for the 2000-2020 time period. For 219 countries or areas, there are at least
-  two available data points. Only six countries have one data point for women
-  aged 10-14 years, one in Europe and Northern America (Isle of Man), one in
-  Eastern and South-eastern Asia (Democratic Republic of Korea), one in Central
-  Asia and Southern Asia (Bhutan), one in Western Asia and Nothern Africa
-  (Lebanon) and two in Latin America and the Caribbean (Saint-Barth&#xE9;lemy,
-  and Saint Kitts and Nevis). Only four countries have one data point for women
-  aged 15-19 years, one in Eastern and South-eastern Asia (Democratic Republic
-  of Korea) and three in Europe and Northern America (Isle of Man, Saint Pierre
-  and Miquelon, and San Marino).</p>
+  15-19 years are available for 215 and 229 countries or areas, respectively,
+  for the 2000-2021 time period. For women aged 10-14, , there are at least two
+  available data points for 212 countries or areas. Only three countries have
+  one data point , one in Europe and Northern America (Isle of Man),one in
+  Eastern and South-eastern Asia (Democratic Republic of Korea) and one in Latin
+  America and the Caribbean (Saint Kitts and Nevis). For women aged 15-19, only
+  four countries have one data point for this age group , one in Oceania
+  (Tokelau), and two in Europe and Northern America (Isle of Man, and Channel
+  Islands-Jersey ) and one in Western Asia and Northern Africa (Lebanon). .</p>
 
   <p>Table 1: The regional breakdown of data availability is as follows:</p>
 
@@ -409,18 +408,17 @@ COVERAGE: >-
           <p>215</p>
         </td>
         <td rowspan="12">
-          <p>225</p>
-          <p>50</p>
+          <p>20953</p>
           <p>46</p>
           <p>14</p>
-          <p>18</p>
+          <p>19</p>
           <p>25</p>
           <p>50</p>
-          <p>20</p>
+          <p>21</p>
           <p>2</p>
           <p>32</p>
-          <p>48</p>
-          <p>51</p>
+          <p>46</p>
+          <p>54</p>
         </td>
       </tr>
       <tr>
@@ -428,7 +426,7 @@ COVERAGE: >-
           <p>Europe and Northern America</p>
         </td>
         <td>
-          <p>49</p>
+          <p>51</p>
         </td>
       </tr>
       <tr>
@@ -444,7 +442,7 @@ COVERAGE: >-
           <p>Central Asia and Southern Asia</p>
         </td>
         <td>
-          <p>14</p>
+          <p>13</p>
         </td>
       </tr>
       <tr>
@@ -452,7 +450,7 @@ COVERAGE: >-
           <p>Eastern Asia and South-eastern Asia</p>
         </td>
         <td>
-          <p>16</p>
+          <p>18</p>
         </td>
       </tr>
       <tr>
@@ -460,7 +458,7 @@ COVERAGE: >-
           <p>Northern Africa and Western Asia</p>
         </td>
         <td>
-          <p>23</p>
+          <p>20</p>
         </td>
       </tr>
       <tr>
@@ -492,7 +490,7 @@ COVERAGE: >-
           <p>Landlocked developing countries (LLDCs)</p>
         </td>
         <td>
-          <p>32</p>
+          <p>31</p>
         </td>
       </tr>
       <tr>
@@ -500,7 +498,7 @@ COVERAGE: >-
           <p>Least Developed Countries (LDCs)</p>
         </td>
         <td>
-          <p>45</p>
+          <p>43</p>
         </td>
       </tr>
       <tr>
@@ -508,7 +506,7 @@ COVERAGE: >-
           <p>Small island developing States (SIDS)</p>
         </td>
         <td>
-          <p>47</p>
+          <p>51</p>
         </td>
       </tr>
     </tbody>
@@ -550,19 +548,14 @@ OTHER_DOC: >-
   <p><strong>References:</strong></p>
 
   <p>United Nations, Department of Economic and Social Affairs, Population
-  Division (2019). World Fertility Data 2019. POP/DB/Fert/Rev2019. Available at:
-  <a
-  href="https://www.un.org/en/development/desa/population/publications/dataset/fertility/wfd2019.asp">https://www.un.org/en/development/desa/population/publications/dataset/fertility/wfd2019.asp</a>
-  </p>
+  Division (2022). World Population Prospects 2022: Methodology of the United
+  Nations population estimates and projections. UN DESA/POP/2022/TR/NO. 4. <a
+  href="https://population.un.org/wpp/Publications/Files/WPP2022_Methodology.pdf">World
+  Population Prospects 2022: Methodology of the United Nations population
+  estimates and projections</a> </p>
 
   <p>United Nations, Department of Economic and Social Affairs, Population
-  Division (2019). World Population Prospects 2019: Methodology of the United
-  Nations population estimates and projections (ST/ESA/SER.A/425). <a
-  href="https://population.un.org/wpp/Publications/Files/WPP2019_Methodology.pdf">https://population.un.org/wpp/Publications/Files/WPP2019_Methodology.pdf</a>
-  </p>
-
-  <p>United Nations, Department of Economic and Social Affairs, Population
-  Division (2019). World Population Prospects 2019. <a
+  Division (2022). World Population Prospects 2022. <a
   href="http://esa.un.org/unpd/wpp/">http://esa.un.org/unpd/wpp/</a></p>
 
   <p>Handbook on the Collection of Fertility and Mortality Data, United Nations

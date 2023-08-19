@@ -11,8 +11,14 @@ SDG_TARGET: >-
 SDG_INDICATOR: >-
   <p>Indicator 2.5.2: Proportion of local breeds classified as being at risk of
   extinction</p>
-SDG_SERIES_DESCR: <p>Proportion of local breeds classified as being at risk of extinction</p>
-META_LAST_UPDATE: '2022-03-31'
+SDG_SERIES_DESCR: >-
+  <p>Proportion of local breeds classified as being at risk of extinction as a
+  share of local breeds with known level of extinction risk (ER_RSK_LBREDS)</p>
+
+  <p>Number of local breeds (not extinct) (ER_NOEX_LBREDN)</p>
+
+  <p>Number of local breeds with unknown risk status (ER_UNK_LBREDN)</p>
+META_LAST_UPDATE: '2023-05-15'
 SDG_RELATED_INDICATORS: <p>Indicator 2.5.1b on animal genetic resources </p>
 SDG_CUSTODIAN_AGENCIES: <p>Food and Agriculture Organization of the United Nations (FAO)</p>
 CONTACT_ORGANISATION: <p>Food and Agriculture Organization of the United Nations (FAO)</p>

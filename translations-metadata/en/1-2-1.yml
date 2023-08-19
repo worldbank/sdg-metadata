@@ -6,12 +6,11 @@ SDG_TARGET: >-
 SDG_INDICATOR: >-
   <p>Indicator 1.2.1: Proportion of population living below the national poverty
   line, by sex and age</p>
-SDG_SERIES_DESCR: <p>Not applicable</p>
-META_LAST_UPDATE: '2022-03-31'
+SDG_SERIES_DESCR: <p>Applies to all series</p>
+META_LAST_UPDATE: '2023-03-31'
 SDG_RELATED_INDICATORS: >-
-  <p>Indicator 1.1.1: Proportion of population below the international poverty
-  line, by sex, age, employment status and geographical location
-  (urban/rural)</p>
+  <p>1.1.1: Proportion of population below the international poverty line, by
+  sex, age, employment status and geographical location (urban/rural)</p>
 SDG_CUSTODIAN_AGENCIES: <p>World Bank</p>
 CONTACT_ORGANISATION: <p>World Bank</p>
 STAT_CONC_DEF: >-
@@ -36,8 +35,8 @@ STAT_CONC_DEF: >-
   typically higher in urban areas than in rural areas. Some countries may have
   separate urban and rural poverty lines to represent different purchasing
   powers. </p>
-UNIT_MEASURE: <p>The unit of measures is the proportion of the population.</p>
-CLASS_SYSTEM: <p>Not relevant.</p>
+UNIT_MEASURE: <p>Percent (%). The unit of measures is the proportion of the population.</p>
+CLASS_SYSTEM: <p>Not applicable</p>
 SOURCE_TYPE: >-
   <p>National poverty estimates are typically produced and owned by country
   governments (e.g., National Statistic Office), and sometimes with technical
@@ -67,8 +66,9 @@ FREQ_COLL: >-
 REL_CAL_POLICY: >-
   <p>The data are published in the World Development Indicators (WDI) and are
   updated every April and October.</p>
-DATA_SOURCE: <p>National Statistic Offices.</p>
+DATA_SOURCE: <p>National Statistic Offices</p>
 COMPILING_ORG: '<p>World Bank &#x2013; Global Poverty Working Group</p>'
+INST_MANDATE: <p>Not applicable</p>
 RATIONALE: >-
   <p>Monitoring national poverty is important for country-specific development
   agendas. National poverty lines are used to make more accurate estimates of
@@ -212,32 +212,9 @@ DATA_COMP: >-
         <munderover>
           <mo stretchy="false">&#x2211;</mo>
           <mrow>
-            <mtable>
-              <mtr>
-                <mtd>
-                  <mrow>
-                    <maligngroup></maligngroup>
-                    <mi>i</mi>
-                  </mrow>
-                </mtd>
-              </mtr>
-              <mtr>
-                <mtd>
-                  <mrow>
-                    <maligngroup></maligngroup>
-                  </mrow>
-                </mtd>
-              </mtr>
-              <mtr>
-                <mtd>
-                  <mrow>
-                    <maligngroup></maligngroup>
-                    <mo>=</mo>
-                    <mn>1</mn>
-                  </mrow>
-                </mtd>
-              </mtr>
-            </mtable>
+            <mi>i</mi>
+            <mo>=</mo>
+            <mn>1</mn>
           </mrow>
           <mrow>
             <mi>N</mi>
@@ -334,6 +311,15 @@ DATA_COMP: >-
   and services. Typically the urban poverty line is set higher than the rural
   poverty line; reflecting the relatively higher costs of living in urban
   areas.</p>
+DATA_VALIDATION: >-
+  <p>Validation takes place by National Statistical Offices, often in
+  collaboration with the World Bank. </p>
+ADJUSTMENT: >-
+  <p>Adjustsments are made to the national poverty rates from EU-SILC, in the
+  sense that the national poverty rate reported by Eurostat for year x is
+  reported as year x-1 here. The reason is that the income data used by EU-SILC
+  refers to year x-1 (indiviuals in year x are asked about their income the
+  prior year).</p>
 IMPUTATION: >-
   <p><strong>&#x2022; At country level</strong></p>
 
@@ -346,18 +332,32 @@ IMPUTATION: >-
 
   <p>Because national poverty lines are country-specific. There is no
   aggregation at the regional or global level. </p>
-REG_AGG: <p>N/A</p>
+REG_AGG: <p>Not applicable</p>
+DOC_METHOD: >-
+  <p>Countries may refer to the report &#x201C;On the Construction of a
+  Consumption Aggregate for Inequality and Poverty Analysis&#x201D;. The report
+  is available here:</p>
+
+  <p>ahttps://documents.worldbank.org/en/publication/documents-reports/documentdetail/099225003092220001/p1694340e80f9a00a09b20042de5a9cd47e</p>
+QUALITY_MGMNT: >-
+  <p>The quality of the estimates is managed through the World Bank&#x2019;s
+  Global Poverty Working Group. </p>
+QUALITY_ASSURE: >-
+  <p>The poverty estimates released by the World Bank are quality checked by
+  members of the Global Poverty Working Group and often with members of the
+  relevant National Statistical Offices.</p>
+QUALITY_ASSMNT: <p>Not applicable</p>
 COVERAGE: >-
   <p><strong>Data availability:</strong></p>
 
   <p>Data availability depends on the availability of household surveys and
-  analysis of survey data. Data for total poverty are currently available for
-  154 countries.</p>
+  analysis of survey data. Data for total poverty are available for more than
+  150 countries.</p>
 
   <p><strong>Time series:</strong></p>
 
-  <p>Data are available from 1985 to 2020. Because the effort and capacity of
-  collecting and analysing survey data are different for each country, the
+  <p>Data are available spanningover 30 years. Because the effort and capacity
+  of collecting and analysing survey data are different for each country, the
   length of the time series for each country varies greatly. </p>
 
   <p><strong>Disaggregation:</strong></p>
@@ -369,9 +369,9 @@ COMPARABILITY: >-
   <p>National poverty estimates is a different concept from international
   poverty estimates. National poverty rate is defined at country-specific
   poverty lines in local currencies, which are different in real terms across
-  countries and different from the $1.90-a-day international poverty line. Thus,
+  countries and different from the $2.15-a-day international poverty line. Thus,
   national poverty rates cannot be compared across countries or with the
-  $1.90-a-day poverty rate.</p>
+  $2.15-a-day poverty rate.</p>
 OTHER_DOC: >-
   <p><strong>URL:</strong></p>
 

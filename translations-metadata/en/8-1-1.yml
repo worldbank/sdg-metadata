@@ -1,15 +1,13 @@
 SDG_GOAL: >-
   <p>Goal 8: Promote sustained, inclusive and sustainable economic growth, full
-  and productive employment</p>
-
-  <p>and decent work for all</p>
+  and productive employment and decent work for all</p>
 SDG_TARGET: >-
   <p>Target 8.1: Sustain per capita economic growth in accordance with national
   circumstances and, in particular, at least 7 per cent gross domestic product
   growth per annum in the least developed countries</p>
 SDG_INDICATOR: '<p>Indicator 8.1.1: Annual growth rate of real GDP per capita</p>'
 SDG_SERIES_DESCR: <p>Annual growth rate of real GDP per capita (%)</p>
-META_LAST_UPDATE: '2022-03-31'
+META_LAST_UPDATE: '2023-03-31'
 SDG_RELATED_INDICATORS: <p>Any economic statistics related SDG indicator</p>
 SDG_CUSTODIAN_AGENCIES: <p>United Nations Statistics Division (UNSD)</p>
 CONTACT_ORGANISATION: <p>United Nations Statistics Division (UNSD)</p>
@@ -259,7 +257,7 @@ REG_AGG: >-
   GDP per capita using the formula described above.</p>
 DOC_METHOD: >-
   <ul>
-    <li>GDP: National Accounts Statistics: Main Aggregates and Detailed Tables, 2020 See <a href="https://unstats.un.org/unsd/nationalaccount/pubsDB.asp?pType=3" target="_blank">https://unstats.un.org/unsd/nationalaccount/pubsDB.asp?pType=3</a> </li>
+    <li>GDP: National Accounts Statistics: Main Aggregates and Detailed Tables, 2021 See <a href="https://unstats.un.org/unsd/nationalaccount/pubsDB.asp?pType=3" target="_blank">https://unstats.un.org/unsd/nationalaccount/pubsDB.asp?pType=3</a> </li>
   </ul>
 
   <p> </p>
@@ -268,8 +266,9 @@ DOC_METHOD: >-
     <li>Population: United Nations Demographic Yearbook </li>
   </ul>
 
-  <p>See:
-  https://unstats.un.org/unsd/demographic-social/products/dyb/dybsets/2020.pdf</p>
+  <p>See: <a
+  href="https://unstats.un.org/unsd/demographic-social/products/dyb/dybsets/2021.pdf">https://unstats.un.org/unsd/demographic-social/products/dyb/dybsets/2021.pdf</a>
+  </p>
 
   <p> </p>
 
@@ -318,7 +317,7 @@ COVERAGE: >-
 
   <p><strong>Time series:</strong></p>
 
-  <p>Annual data from 1970 to 2020 are available. </p>
+  <p>Annual data from 1970 to 2021 are available. </p>
 
   <p><strong>Disaggregation:</strong></p>
 
@@ -345,22 +344,21 @@ COMPARABILITY: >-
   versions could reflect a change in currency, a switch from 1968 SNA to 1993
   SNA, a change in the office responsible for compiling national accounts,
   etc.). These time series versions may not be comparable, especially when a
-  country has shifted from the 1968 SNA to 1993 SNA or 2008 SNA. When a single
-  time series version does not exist for the entire period (1970 to t-1), UNSD
-  uses estimation procedures to backcast the most recently reported time series
-  version. </p>
+  country has shifted from the 1968 SNA to 1993 SNA or 2008 SNA.</p>
 
-  <p>Backcasting is only performed when time series overlap for at least one
-  year. The overlapping year is used to create a ratio; this ratio is then
-  applied backwards to the previous time series version. If there is a change of
-  fiscal year between two official data time series, the older series are
-  converted to the fiscal year type of the most recent time series prior to
-  backcasting. UNSD uses the same backcasting methods when official country
-  constant price time series versions include multiple base years or when
-  constant price time series versions are reported as constant prices of the
-  previous year (CPPY). CPPY data are backcasted by using the officially
-  reported current price data and the officially reported constant price data.
-  The data are backcasted into a single series with a fixed base year. </p>
+  <p>When a single version of a time series does not exist for the entire period
+  (1970 to t-1), backcasting procedures are used to link the most recently
+  reported time series version with the previous series. Note that if there is a
+  change of fiscal year between two official data time series, the older series
+  are converted to the fiscal year type of the most recent time series prior to
+  backcasting.</p>
+
+  <p>Backcasting procedures are also used when constant price time series
+  versions include multiple base years or when constant price time series
+  versions are reported as constant prices of the previous year (CPPY). CPPY
+  data are backcasted by using the officially reported current price data and
+  the officially reported constant price data. The data are backcasted into a
+  single series with a fixed base year. </p>
 
   <p>The population estimates from the United Nations Population Division may be
   different from country-produce estimates as the former include analysis

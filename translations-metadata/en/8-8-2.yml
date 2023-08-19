@@ -10,8 +10,8 @@ SDG_INDICATOR: >-
   of association and collective bargaining) based on International Labour
   Organization (ILO) textual sources and national legislation, by sex and
   migrant status</p>
-SDG_SERIES_DESCR: <p>Not applicable </p>
-META_LAST_UPDATE: '2022-03-31'
+SDG_SERIES_DESCR: <p>Not applicable</p>
+META_LAST_UPDATE: '2023-07-10'
 SDG_RELATED_INDICATORS: >-
   <p>This indicator links with 8.8.1 &amp; 8.b.1; 16.2.2; 16.10.1; 16.a.1;
   16.b.1</p>
@@ -29,8 +29,8 @@ STAT_CONC_DEF: >-
 
   <p><strong>Concepts:</strong></p>
 
-  <h2>Freedom of association and collective bargaining rights and their
-  supervision</h2>
+  <p><em>Freedom of association and collective bargaining rights and their
+  supervision</em></p>
 
   <p>The principles of freedom of association and collective bargaining (FACB)
   are and have long been at the core of the ILO&#x2019;s normative foundations.
@@ -91,15 +91,15 @@ SOURCE_TYPE: >-
   legislation with the goal to offset information asymmetries between ratifying
   and non-ratifying countries as regards FACB rights in law. Ratifying countries
   are defined as those that have ratified both Conventions 87 and 98, in which
-  case its national legislation is not coded at present. Non-ratifying
-  countries, on the other hand, fall into two categories, those that have
-  ratified neither 87 nor 98 and those that have ratified only one of these
-  Conventions. If a country has ratified only 87, its national legislation is
-  coded for violations pertaining to 98, as violations under 87 fall under the
-  remit of the ILO&#x2019;s Committee of Experts as well as Committee on the
-  Application of Standards. Similarly, if a country has ratified only 98, its
-  national legislation is coded for violations pertaining to 87. Note that for
-  federal states, only federal-level legislation is coded. </p>
+  case its national legislation is not coded. Non-ratifying countries, on the
+  other hand, fall into two categories, those that have ratified neither 87 nor
+  98 and those that have ratified only one of these Conventions. If a country
+  has ratified only 87, its national legislation is coded for violations
+  pertaining to 98, as violations under 87 fall under the remit of the
+  ILO&#x2019;s Committee of Experts as well as Committee on the Application of
+  Standards. Similarly, if a country has ratified only 98, its national
+  legislation is coded for violations pertaining to 87. Note that for federal
+  states, only federal-level legislation is coded. </p>
 
   <p>The coding of national legislation is carried out in close collaboration
   with the International Labour Office to ensure that it is done in a manner
@@ -168,11 +168,32 @@ REC_USE_LIM: >-
   obligations of an ILO member State to the ILO&#x2019;s supervisory system and
   thus ILO textual sources are different for ratifying and non&#x2010;ratifying
   ILO member States.&#x201D;<sup><a href="#footnote-4"
-  id="footnote-ref-4">[3]</a></sup></p><div class="footnotes"><div><sup
-  class="footnote-number" id="footnote-3">2</sup><p> Idem. P. 17 <a
-  href="#footnote-ref-3">&#x2191;</a></p></div><div><sup class="footnote-number"
-  id="footnote-4">3</sup><p> Idem. P. 18 <a
-  href="#footnote-ref-4">&#x2191;</a></p></div></div>
+  id="footnote-ref-4">[3]</a></sup></p>
+
+  <p>Based on the decisions adopted by the tripartite technical committee set up
+  to further address refinements to the methodology<sup><a href="#footnote-5"
+  id="footnote-ref-5">[4]</a></sup>, for countries where the score should be
+  treated with care due to the possibility of insufficient information in the
+  textual sources, the following note will be added:</p>
+
+  <p>&#x201C;The score should be treated with care due to the possibility of
+  insufficient information in the textual sources, based on comparison with an
+  externally produced indicator (see Metadata, point 4.f.).&#x201D;<sup><a
+  href="#footnote-6" id="footnote-ref-6">[5]</a></sup></p><div
+  class="footnotes"><div><sup class="footnote-number" id="footnote-3">2</sup><p>
+  Idem. P. 17 <a href="#footnote-ref-3">&#x2191;</a></p></div><div><sup
+  class="footnote-number" id="footnote-4">3</sup><p> Idem. P. 18 <a
+  href="#footnote-ref-4">&#x2191;</a></p></div><div><sup class="footnote-number"
+  id="footnote-5">4</sup><p> Idem. PP. 1-2 of &#x201C;Amendment: Refinements to
+  the methodology for SDG indicator 8.8.2: Level of national compliance with
+  labour rights (freedom of association and collective bargaining) based on ILO
+  textual sources and national legislation, by sex and migrant status&#x201D; <a
+  href="#footnote-ref-5">&#x2191;</a></p></div><div><sup class="footnote-number"
+  id="footnote-6">5</sup><p> Idem. P. 1 of &#x201C;Amendment: Refinements to the
+  methodology for SDG indicator 8.8.2: Level of national compliance with labour
+  rights (freedom of association and collective bargaining) based on ILO textual
+  sources and national legislation, by sex and migrant status&#x201D; <a
+  href="#footnote-ref-6">&#x2191;</a></p></div></div>
 DATA_COMP: >-
   <p>The method is based on the coding of textual sources (see above) against a
   list of evaluation criteria and then converting the coding into indicators.
@@ -225,7 +246,7 @@ DATA_COMP: >-
   10, the best and worst possible scores respectively. In the future, if any
   country should receive a non-normalized score of greater than 95, this will be
   capped at 95, yielding a normalized score of 10.<sup><sup><a
-  href="#footnote-5" id="footnote-ref-5">[4]</a></sup></sup></p>
+  href="#footnote-7" id="footnote-ref-7">[6]</a></sup></sup></p>
 
   <p>In addition, the method applies the notion that general prohibitions in law
   imply general prohibitions in practice (though not vice versa). In terms of
@@ -239,18 +260,18 @@ DATA_COMP: >-
   bargaining&#x201D; in practice ; and, finally, for workers, the direct coding
   of &#x201C;General prohibition of the right to strike&#x201D; in law
   automatically triggers the coding of the &#x201C;General prohibition of
-  strikes&#x201D; in practice . Given that the general prohibition of the
-  development of independent organizations implies the general prohibition of
-  collective bargaining (though not vice versa), similar coding rules apply.
-  </p>
+  strikes&#x201D; in practice . </p>
 
-  <p>In addition to the above normalization rules, the worst possible score of
-  10 is given for all-encompassing violations of FACB rights, that is, for
-  &#x201C;General prohibition of the right to establish and join
-  organizations&#x201D; in law, &#x201C;General prohibition of the development
-  of independent organizations&#x201D; in practice, &#x201C;General prohibition
-  of the right to collective bargaining&#x201D; in law, and &#x201C;General
-  prohibition of collective bargaining&#x201D; in practice. </p>
+  <p>Based on the decisions adopted by the tripartite technical committee set up
+  to further address refinements to the methodology, in addition to the above
+  normalization rules, a &#x201C;load&#x201D; of 3.5 will be added to the
+  normalized score of the country in cases of all-encompassing violations of
+  FACB rights, that is, for &#x201C;General prohibition of the right to
+  establish and join organizations&#x201D; in law, &#x201C;General prohibition
+  of the development of independent organizations&#x201D; in practice,
+  &#x201C;General prohibition of the right to collective bargaining&#x201D; in
+  law, and &#x201C;General prohibition of collective bargaining&#x201D; in
+  practice. </p>
 
   <p><strong>Table 1. Hypothetical Example of Coding and Indicator Construction
   (for a Single Country and Year)</strong></p>
@@ -791,9 +812,9 @@ DATA_COMP: >-
       </tr>
     </tbody>
   </table><div class="footnotes"><div><sup class="footnote-number"
-  id="footnote-5">4</sup><p><sup> </sup>The formula is thus: (x*10/95), where x
+  id="footnote-7">6</sup><p><sup> </sup>The formula is thus: (x*10/95), where x
   = the weighted non-normalized score for a given country and year and is capped
-  at 95. <a href="#footnote-ref-5">&#x2191;</a></p></div></div>
+  at 95. <a href="#footnote-ref-7">&#x2191;</a></p></div></div>
 DATA_VALIDATION: >-
   <p>The indicator is based on three key premises: (i) definitional validity
   &#x2013; the extent to which the evaluation criteria and their corresponding
@@ -807,8 +828,8 @@ DATA_VALIDATION: >-
   <em>international</em> FACB rights, the evaluation criteria and their
   corresponding definitions are directly based on the ILO Constitution, ILO
   Conventions No. 87 and 98 and the related body of comments of the ILO
-  supervisory bodies.<sup><a href="#footnote-6"
-  id="footnote-ref-6">[5]</a></sup> Given that the ILO supervisory system is
+  supervisory bodies.<sup><a href="#footnote-8"
+  id="footnote-ref-8">[7]</a></sup> Given that the ILO supervisory system is
   also guided by these definitions, this facilitates the coding itself given the
   heavy reliance on ILO textual sources produced by the supervisory system. </p>
 
@@ -833,7 +854,7 @@ DATA_VALIDATION: >-
   foremost on the coders being sufficiently well-trained and in particular being
   sufficiently well-versed in the coding rules and definitions to be able to
   apply them consistently. </p><div class="footnotes"><div><sup
-  class="footnote-number" id="footnote-6">5</sup><p> The related body of
+  class="footnote-number" id="footnote-8">7</sup><p> The related body of
   comments of the ILO supervisory bodies are: <em>Digest of Decisions and
   Principles of the Freedom of Association Committee of the Governing Body of
   the ILO</em> (ILO, 2006); <em>Freedom of Association and Collective
@@ -842,22 +863,23 @@ DATA_VALIDATION: >-
   Collective Bargaining Convention (No. 98)</em> (ILO, 1994); <em>General Survey
   on the Fundamental Conventions Concerning Rights at Work in Light of the ILO
   Declaration on Social Justice for a Fair Globalization, 2008</em> (ILO, 2012).
-  <a href="#footnote-ref-6">&#x2191;</a></p></div></div>
+  <a href="#footnote-ref-8">&#x2191;</a></p></div></div>
 ADJUSTMENT: <p>Not applicable</p>
 IMPUTATION: >-
   <ul>
     <li><strong>At country level</strong></li>
   </ul>
 
-  <p>There is no treatment of missing values at country level. The indicator is
-  neither reported for non-ratifying countries, nor for countries for which ILO
-  supervisory body textual sources do not provide sufficient amount of
-  information in a specific year. The ILO will consult its constituents
-  regarding which countries should be dropped from reporting for these reasons.
-  Until then, the Office proposes continuing with the comparison with an
-  externally-produced indicator to provide the starting point for the ILO
-  Department of Statistics to consult internal and external sources and the
-  tripartite constituents.</p>
+  <p>There is no treatment of missing values at country level. The indicator
+  will be reported for countries where, based on comparison with an externally
+  produced indicator, the score should be treated with care due to the
+  possibility of insufficient information in the textual sources. For these
+  countries, based on the decisions adopted by the tripartite technical
+  committee set up to further address refinements to the methodology, the
+  indicator will be reported with the following note: &#x201C;The score should
+  be treated with care due to the possibility of insufficient information in the
+  textual sources, based on comparison with an externally produced indicator
+  (see Metadata, point 4.f.).&#x201D;</p>
 
   <ul>
     <li><strong>At regional and global levels</strong></li>
@@ -872,14 +894,7 @@ IMPUTATION: >-
   scores.</p>
 REG_AGG: >-
   <p>The regional and global aggregates are weighted averages (with weights
-  derived from ILO labour force estimates). To avoid biased estimations,
-  regional aggregates include both countries that have and have not ratified ILO
-  Convention Nos. 87 and 98. For non-ratifying countries, the scores are
-  calculated based on the methodology adopted by the 2018 International
-  Conference of Labour Statisticians (<a
-  href="https://www.ilo.org/wcmsp5/groups/public/---dgreports/---stat/documents/meetingdocument/wcms_648636.pdf"
-  target="_blank">https://www.ilo.org/wcmsp5/groups/public/---dgreports/---stat/documents/meetingdocument/wcms_648636.pdf</a>)
-  and are used only for estimation of aggregate scores.</p>
+  derived from ILO labour force estimates). </p>
 
   <p>A country&#x2019;s weight is the share of its labour force in the global
   labour force for a given time period, where the labour force is derived from
@@ -887,12 +902,7 @@ REG_AGG: >-
   the estimates, please refer to the ILO modelled estimates methodological
   description, available at <a
   href="https://ilostat.ilo.org/resources/concepts-and-definitions/ilo-modelled-estimates/">https://ilostat.ilo.org/resources/concepts-and-definitions/ilo-modelled-estimates/</a>).
-  Regional averages, however, are only provided for regions where the proportion
-  of the labour force of countries that have ratified ILO Convention nos. 87 and
-  98 to the total labour force is greater or equal to 25%, or, where the
-  difference in absolute value between the regional aggregate including all
-  countries and the regional aggregate including only countries that have
-  ratified the ILO conventions is smaller or equal than 2.</p>
+  </p>
 DOC_METHOD: <p>Not applicable</p>
 QUALITY_MGMNT: >-
   <p>The processes of compilation, production, and publication of data,
@@ -905,9 +915,8 @@ QUALITY_ASSMNT: <p>Not applicable</p>
 COVERAGE: >-
   <p><strong>Data availability:</strong></p>
 
-  <p>The data is available for ILO member states that ratified both ILO
-  Convention no. 87 and 98, which is currently 137 countries. This submission
-  covers country, regional and global data from 2015 to 2020.</p>
+  <p>The data is available for all ILO member states. This submission covers
+  country, regional and global data from 2015 to 2021.</p>
 
   <p><strong>Disaggregation:</strong></p>
 
@@ -917,5 +926,3 @@ COMPARABILITY: <p>Not applicable</p>
 OTHER_DOC: >-
   <p>International Conference of Labour Statisticians (2018) 20<sup>th</sup>
   Session, <a href="http://www.ilo.org/20thicls">www.ilo.org/20thicls</a> </p>
-
-  <p></p>

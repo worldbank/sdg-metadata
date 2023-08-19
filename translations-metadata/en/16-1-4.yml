@@ -8,18 +8,17 @@ SDG_TARGET: >-
 SDG_INDICATOR: >-
   <p>Indicator 16.1.4: Proportion of population that feel safe walking alone
   around the area they live after dark</p>
-SDG_SERIES_DESCR: <p>Not applicable </p>
-META_LAST_UPDATE: '2022-03-31'
+SDG_SERIES_DESCR: <p>Applies to all series</p>
+META_LAST_UPDATE: '2023-03-31'
 SDG_RELATED_INDICATORS: >-
-  <p>This indicator complements the other indicators of Target 16.1, which focus
-  on the rate of intentional homicide (16.1.1), the rate of conflict-related
-  deaths (16.1.2) and the proportion of the population subjected to physical,
-  psychological, and sexual violence (16.1.3). It also relates to indicator
-  16.3.1, which refers to the proportion of victims of violence in the previous
-  12 months who reported their victimization to competent authorities. By
-  providing a perception-based measure of safety in the local neighbourhood,
-  indicator 16.1.4 provides a more holistic picture of people&#x2019;s everyday
-  experience of insecurity, crime and violence.</p>
+  <p>16.1.1: Number of victims of intentional homicide per 100,000 population,
+  by sex and age</p>
+
+  <p>16.1.2: Conflict-related deaths per 100,000 population, by sex, age and
+  cause</p>
+
+  <p>16.1.3: Proportion of population subjected to (a) physical violence, (b)
+  psychological violence and (c) sexual violence in the previous 12 months</p>
 SDG_CUSTODIAN_AGENCIES: <p>United Nations Office on Drugs and Crime (UNODC)</p>
 CONTACT_ORGANISATION: <p>United Nations Office on Drugs and Crime (UNODC)</p>
 STAT_CONC_DEF: >-
@@ -37,8 +36,8 @@ STAT_CONC_DEF: >-
   neighbourhood may be appropriate depending on cultural, physical and language
   context. Providing a universally applicable definition of neighborhood is
   challenging, as one&#x2019;s neighbourhood is a subjective concept that will
-  mean different things to different people.<sup><a href="#footnote-2"
-  id="footnote-ref-2">[1]</a></sup> </p>
+  mean different things to different people.<sup><sup><a href="#footnote-2"
+  id="footnote-ref-2">[1]</a></sup> </sup></p>
 
   <p>&#x201C;After dark&#x201D;- the indicator should specifically capture
   respondent&#x2019;s feelings and perceptions when walking alone after dark.
@@ -66,9 +65,10 @@ STAT_CONC_DEF: >-
   href="#footnote-ref-4">&#x2191;</a></p></div><div><sup class="footnote-number"
   id="footnote-5">4</sup><p> Roberts B. (2014) Fear of Walking Alone at Night.
   In: Michalos A.C. (eds) Encyclopedia of Quality of Life and Well-Being
-  Research. Springer, Dordrecht. https://doi.org/10.1007/978-94-007-0753-5_1023
+  Research. Springer, Dordrecht. <a
+  href="https://doi.org/10.1007/978-94-007-0753-5_1023">https://doi.org/10.1007/978-94-007-0753-5_1023</a>
   <a href="#footnote-ref-5">&#x2191;</a></p></div></div>
-UNIT_MEASURE: <p>Proportion/percentage</p>
+UNIT_MEASURE: <p>Percent (%)</p>
 CLASS_SYSTEM: <p>Not applicable</p>
 SOURCE_TYPE: >-
   <p>The indicator is based on a single survey question (&#x2018;How safe do you
@@ -85,57 +85,92 @@ SOURCE_TYPE: >-
   status. The sampling frame and sample design should ensure that results can be
   disaggregated at sub-national level. It is recommended that the sample size is
   sufficiently large to allow for disaggregation by age, gender, ethnicity, and
-  other relevant.</p>
+  other relevant covariates.</p>
 
   <p>The survey documentation should provide the specific wording used to
-  collect data on fear of crime/perceptions of safety, enable the identification
-  of possible discrepancies from standard definitions (e.g. no reference to
-  &#x201C;after dark&#x201D; or &#x201C;neighbourhood&#x201D;), and allow an
-  assessment of the overall data quality (e.g. sample size, target population,
-  agency responsible for the data collection, etc.).</p>
+  collect data on perceptions of safety, enable the identification of possible
+  discrepancies from standard definitions (e.g. no reference to &#x201C;after
+  dark&#x201D; or &#x201C;neighbourhood&#x201D;), and allow an assessment of the
+  overall data quality (e.g. sample size, target population, agency responsible
+  for the data collection, etc.).</p>
 COLL_METHOD: >-
-  <p>At the international level, data are collected by UNODC through the annual
-  United Nations Survey of Crime Trends and Operations of the Criminal Justice
-  Systems (UN-CTS) data collection initiative.<sup><a href="#footnote-6"
-  id="footnote-ref-6">[5]</a></sup> Data are produced at the national level and
-  sent to UNODC by Member States, usually through national UN-CTS Focal Points,
-  which in most cases are national institutions responsible for data production
+  <p>At the international level, data are routinely collected by UNODC through
+  the annual UN Survey of Crime Trends and Operations of Criminal Justice
+  Systems (UN-CTS) data collection. As requested by the UN Commission on Crime
+  Prevention and Criminal Justice, over 140 Member States have appointed a
+  UN-CTS national focal point that submits UN-CTS data to UNODC. In most cases
+  these focal points are national institutions responsible for data production
   in the area of crime and criminal justice (National Statistical Offices,
-  Ministry of Interior, Ministry of Justice, etc.). Since 2017, the UN-CTS
-  collects available nationally produced survey data on fear of crime as part of
-  its victimisation module in the UN-CTS. When necessary, other data sources may
-  be used, including from websites, publications, other forms of
-  communication.</p>
+  Ministry of Interior, Ministry of Justice, etc.). For countries that have not
+  appointed a focal point, the request for data is sent to permanent missions in
+  Vienna. When a country does not report to UNODC, other official sources such
+  as authoritative websites, publications, or other forms of communication are
+  used. Once consolidated, data are shared with countries to check their
+  accuracy and validity.</p>
 
-  <p>Data for SDG monitoring will be sent to countries for consultation prior to
-  publication.</p><div class="footnotes"><div><sup class="footnote-number"
-  id="footnote-6">5</sup><p> <a
-  href="https://www.unodc.org/unodc/en/data-and-analysis/United-Nations-Surveys-on-Crime-Trends-and-the-Operations-of-Criminal-Justice-Systems.html">https://www.unodc.org/unodc/en/data-and-analysis/United-Nations-Surveys-on-Crime-Trends-and-the-Operations-of-Criminal-Justice-Systems.html</a>
-  <a href="#footnote-ref-6">&#x2191;</a></p></div></div>
+  <p>The UN-CTS provides specific definitions of data to be collected. It also
+  collects a set of metadata to identify possible discrepancies from standard
+  definitions and to assess overall data quality (e.g. sample size, target
+  population, agency responsible for the data collection, etc.).</p>
 FREQ_COLL: >-
   <p>Countries are encouraged to conduct surveys on crime victimisation in
   regular intervals, but at least every four years to reflect progress between
   each of the quadrennial reviews of Goal 16 at the High-Level Political Forum
   (HLPF).</p>
+
+  <p>UNODC collects data on this indicator according to the following
+  schedule:</p>
+
+  <p>III-IV quarter year n</p>
 REL_CAL_POLICY: >-
   <p>Data on relevant SDG indicators are collected, compiled and sent back to
-  countries for data review annually. Data are then reported to UNSD through the
-  regular reporting channels annually.</p>
+  countries for data review annually. Data are then reported to UN Statistics
+  Division (UNSD) through the regular reporting channels annually.</p>
+
+  <p>II quarter year n+1 (data for year n-1). For instance, data for the year
+  2022 are collected in III-IV quarter 2023 and released in II quarter 2024.</p>
 DATA_SOURCE: >-
   <p>Data are collected through official nationally representative surveys. In
   most cases, such surveys are conducted by National Statistical Offices (NSOs).
   In some cases, other national institutions or other entities may conduct such
   surveys according to the same methodological standards.</p>
-COMPILING_ORG: <p>UNODC</p>
+
+  <p>Data are sent to UNODC by Member States, usually through national UN Survey
+  of Crime Trends and Operations of Criminal Justice Systems (UN-CTS) Focal
+  Points, which in most cases are national institutions responsible for data
+  production in the area of crime and criminal justice (National Statistical
+  Offices, Ministry of Interior, Ministry of Justice, etc.).</p>
+COMPILING_ORG: >-
+  <p><strong>Name:</strong></p>
+
+  <p>United Nations Office on Drugs and Crime (UNODC)</p>
+
+  <p><strong>Description:</strong></p>
+
+  <p>At international level, data are routinely collected and disseminated by
+  the United Nations Office on Drugs and Crime (UNODC) through the annual UN
+  Survey of Crime Trends and Operations of Criminal Justice Systems (UN-CTS)
+  data collection. UNODC partners with regional organizations in the collection
+  and dissemination of data, respectively with Eurostat in Europe and with the
+  Organisation of American States in the Americas. </p>
 INST_MANDATE: >-
-  <p>UNODC &#x2013; as custodian of the UN standards and norms in crime
-  prevention and criminal justice, UNODC assists Member States in reforming
-  their criminal justice systems in order to be effective, fair and humane for
-  the entire population. UNODC develops technical tools to assist Member States
-  in implementing the UN standards and norms and supports Member States through
-  the provision of technical assistance in crime prevention and criminal justice
-  reform. It does so through several Global programmes and through the UNODC
-  field office network.</p>
+  <p>The United Nations Office on Drugs and Crime (UNODC) &#x2013; as custodian
+  of the UN standards and norms in crime prevention and criminal justice, UNODC
+  assists Member States in reforming their criminal justice systems in order to
+  be effective, fair and humane for the entire population. UNODC develops
+  technical tools to assist Member States in implementing the UN standards and
+  norms and supports Member States through the provision of technical assistance
+  in crime prevention and criminal justice reform. It does so through several
+  Global programmes and through the UNODC field office network.</p>
+
+  <p>UNODC is responsible for carrying out the United Nations Survey of Crime
+  Trends and Operations of Criminal Justice Systems (UN-CTS), which was
+  introduced through the General Assembly Resolution <a
+  href="https://undocs.org/en/A/RES/3021(XXVII)">A/RES/3021(XXVII)</a> in 1972.
+  The Economic and Social Council, in its resolution 1984/48 of 25 May 1984,
+  further requested that the Secretary-General maintain and develop the United
+  Nations crime-related database by continuing to conduct surveys of crime
+  trends and the operations of criminal justice systems. </p>
 RATIONALE: >-
   <p>Perception of safety is considered a subjective wellbeing indicator. It
   affects the way in which human beings interact with their surroundings, their
@@ -143,7 +178,7 @@ RATIONALE: >-
   the concept of &#x2018;fear of crime&#x2019;, which has been elicited in
   dozens of crime victimization surveys, and the standard formulation used here
   has been shown to be applicable in different cultural contexts.<sup><a
-  href="#footnote-7" id="footnote-ref-7">[6]</a></sup> It is important to note
+  href="#footnote-6" id="footnote-ref-6">[5]</a></sup> It is important to note
   that fear of crime is a phenomenon that is separate from the prevalence of
   crime and that fear of crime may be even largely independent from actual
   experience. The perception of crime and the resulting fear of it is influenced
@@ -154,9 +189,9 @@ RATIONALE: >-
   engagement in the community, and thus represent an obstacle to development.
   Fear of crime also differs across demographic groups and this indicator helps
   to identify vulnerable groups.</p><div class="footnotes"><div><sup
-  class="footnote-number" id="footnote-7">6</sup><p> UNODC-UNECE (2010) Manual
+  class="footnote-number" id="footnote-6">5</sup><p> UNODC-UNECE (2010) Manual
   on Victimization Surveys, p. 56. <a
-  href="#footnote-ref-7">&#x2191;</a></p></div></div>
+  href="#footnote-ref-6">&#x2191;</a></p></div></div>
 REC_USE_LIM: >-
   <p>Victimization surveys (as dedicated surveys or as modules of household
   surveys) are usually restricted to the general population living in households
@@ -178,17 +213,17 @@ REC_USE_LIM: >-
   &#x2018;crime&#x2019;, but rather it is implicit in the question. There may be
   other reasons unrelated to crime (e.g. wild animals, traffic, etc.) why
   respondents may not feel safe walking around their neighbourhood after
-  dark.<sup><a href="#footnote-8" id="footnote-ref-8">[7]</a></sup></p><div
-  class="footnotes"><div><sup class="footnote-number" id="footnote-8">7</sup><p>
+  dark.<sup><a href="#footnote-7" id="footnote-ref-7">[6]</a></sup></p><div
+  class="footnotes"><div><sup class="footnote-number" id="footnote-7">6</sup><p>
   UNODC-UNECE (2010) Manual on Victimization Surveys, p. 57. <a
-  href="#footnote-ref-8">&#x2191;</a></p></div></div>
+  href="#footnote-ref-7">&#x2191;</a></p></div></div>
 DATA_COMP: >-
   <p>The question used in victimization surveys is: How safe do you feel walking
-  alone in your area/neighbourhood after dark?<sup><a href="#footnote-9"
-  id="footnote-ref-9">[8]</a></sup> Answer options are typically: (1) Very safe,
+  alone in your area/neighbourhood after dark?<sup><a href="#footnote-8"
+  id="footnote-ref-8">[7]</a></sup> Answer options are typically: (1) Very safe,
   (2) safe, (3) unsafe (4), very unsafe, (5) I never go out alone at night/does
-  not apply, (99) don&#x2019;t know.<sup><a href="#footnote-10"
-  id="footnote-ref-10">[9]</a></sup> The proportion of population that feel safe
+  not apply, (99) don&#x2019;t know.<sup><a href="#footnote-9"
+  id="footnote-ref-9">[8]</a></sup> The proportion of population that feel safe
   is calculated by summing up the number of respondents who feel &#x201C;very
   safe&#x201D; and &#x201C;safe&#x201D; and dividing the total by the total
   number of respondents, and multiplying by 100.</p>
@@ -340,7 +375,7 @@ DATA_COMP: >-
       </mfrac>
       <mi>X</mi>
       <mn>100</mn>
-    </math></p><div class="footnotes"><div><sup class="footnote-number" id="footnote-9">8</sup><p> This question is intended to capture respondents&#x2019; perception of safety when thinking about crime, although it does not explicitly mention crime or prime respondents to think about crime. Where the respondent&#x2019;s answer is &#x201C;Unsafe&#x201D; or &#x201C;Very unsafe&#x201D;, the following probing question may be asked to further understand why respondents feel unsafe: &#x201C;Why do you feel unsafe walking alone in your area/neighbourhood at night after dark?&#x201D; Possible answer options should be tailored to the specific country context and, in addition to crime-related reasons could also include options that are not crime-related. To avoid biasing respondents answers, it is recommended that answer options are not revealed to the respondent. <a href="#footnote-ref-9">&#x2191;</a></p></div><div><sup class="footnote-number" id="footnote-10">9</sup><p> It is recommended that where the respondent&#x2019;s answer is &#x201C;I never go out alone after dark&#x201D;, the following probing question is asked: &#x201C;How safe <em>would </em>you feel if you went outside after dark?&#x201D;.. <a href="#footnote-ref-10">&#x2191;</a></p></div></div>
+    </math></p><div class="footnotes"><div><sup class="footnote-number" id="footnote-8">7</sup><p> This question is intended to capture respondents&#x2019; perception of safety when thinking about crime, although it does not explicitly mention crime or prime respondents to think about crime. Where the respondent&#x2019;s answer is &#x201C;Unsafe&#x201D; or &#x201C;Very unsafe&#x201D;, the following probing question may be asked to further understand why respondents feel unsafe: &#x201C;Why do you feel unsafe walking alone in your area/neighbourhood at night after dark?&#x201D; Possible answer options should be tailored to the specific country context and, in addition to crime-related reasons could also include options that are not crime-related. To avoid biasing respondents answers, it is recommended that answer options are not revealed to the respondent. <a href="#footnote-ref-8">&#x2191;</a></p></div><div><sup class="footnote-number" id="footnote-9">8</sup><p> It is recommended that where the respondent&#x2019;s answer is &#x201C;I never go out alone after dark&#x201D;, the following probing question is asked: &#x201C;How safe <em>would </em>you feel if you went outside after dark?&#x201D;.. <a href="#footnote-ref-9">&#x2191;</a></p></div></div>
 DATA_VALIDATION: >-
   <p>The data for the indicator is collected through household surveys conducted
   by National Statistics Offices (NSOs) or other institutions following tight
@@ -348,49 +383,58 @@ DATA_VALIDATION: >-
   encouraged to strictly follow the data quality practices, protocols and
   frameworks in relation of data quality. In addition to the data, countries are
   requested to report on the metadata which serves as one additional layer of
-  validation and verification of the data by confronting with the metadata used
-  and the recommended for global reporting. Before publication by custodian
-  agencies, a standardised &#x201C;pre-publication process&#x201D; is
-  implemented, where national stakeholders can verify and review the data before
-  publication. </p>
+  validation and verification of the data. For survey-based indicators, metadata
+  are assessed in relation to the representativeness and coverage of the survey
+  as well as alignment of question wording and answer options with international
+  standards. Before publication by custodian agencies, a standardised
+  &#x201C;pre-publication process&#x201D; is implemented, where national
+  stakeholders can verify and review the data before publication. </p>
 ADJUSTMENT: <p> Not applicable</p>
 IMPUTATION: |-
   <p>&#x2022; <strong>At country level</strong></p>
-  <p>Missing values are left blank</p>
+  <p>Missing values are left blank.</p>
   <p>&#x2022; <strong>At regional and global levels</strong></p>
-  <p>Missing values are left blank</p>
+  <p>Not applicable</p>
 REG_AGG: >-
-  <p>Regional and global estimates are currently not produced due to limited
-  data coverage.</p>
+  <p>Regional aggregations refer to 3-year averages weighted by
+  countries&#x2019; population size.</p>
 DOC_METHOD: >-
-  <p>In 2010 the United Nations Office on Drugs and Crime and the United Nations
-  Economic Commission for Europe (UNODC-UNECE) published a Manual on
-  Victimization Surveys that provides technical guidance on the implementation
-  of such surveys, on the basis of good practices developed at the
-  country-level. The UNODC-UNECE Manual on Victimization Surveys (2010) is
+  <p>In 2010, the United Nations Office on Drugs and Crime (UNODC) and the
+  United Nations Economic Commission for Europe (UNODC-UNECE) published a Manual
+  on Victimization Surveys that provides technical guidance on the
+  implementation of such surveys, on the basis of good practices developed at
+  the country-level. The UNODC-UNECE Manual on Victimization Surveys (2010) is
   available at: <a
-  href="https://www.unodc.org/documents/data-and-analysis/Crime-statistics/Manual_on_Victimization_surveys_2009_web.pdf">https://www.unodc.org/documents/data-and-analysis/Crime-statistics/Manual_on_Victimization_surveys_2009_web.pdf</a>
+  href="https://www.unodc.org/unodc/en/data-and-analysis/Manual-on-victim-surveys.html">https://www.unodc.org/unodc/en/data-and-analysis/Manual-on-victim-surveys.html</a>
+  </p>
+
+  <p>In 2022, the United Nations Office on Drugs and Crime (UNODC) together with
+  the United Nations Development Program (UNDP) and the Office of the United
+  Nations High Commissioner on Human Rights (OHCHR) published the SDG 16 Survey
+  Questionnaire and Implementation Manual, which contain internationally
+  standardised survey question wording (in the five official UN languages) as
+  well as implementation guidance related to this indicator. The questionnaire
+  and manual are available at:</p>
+
+  <p><a
+  href="https://www.sdg16hub.org/topic/sdg-16-survey-initiative-questionnaire">https://www.sdg16hub.org/topic/sdg-16-survey-initiative-questionnaire</a></p>
+
+  <p><a
+  href="https://www.sdg16hub.org/topic/sdg-16-survey-initiative-implementation-manual">https://www.sdg16hub.org/topic/sdg-16-survey-initiative-implementation-manual</a>
   </p>
 QUALITY_MGMNT: >-
-  <p>UNODC has a statistical unit with dedicated staff to support the data
-  collection through technical assistance, collating and verifying the received
-  data and continuously improve data collection mechanisms including
-  guidelines.</p>
+  <p>The United Nations Office on Drugs and Crime (UNODC) has a statistical
+  section with dedicated staff to support the data collection through technical
+  assistance, collating and verifying the received data and continuously improve
+  data collection mechanisms including guidelines.</p>
 QUALITY_ASSURE: >-
-  <p>It is recommended that NSOs serve as the main contact for compiling and
-  assuring the quality of the necessary data to report on SDG 16.1.4, in close
-  coordination with other relevant bodies in the country. Automated and
-  substantive validation procedures are in place when data are processed by
-  custodian agencies to assess their consistency and compliance with
-  standards.</p>
-QUALITY_ASSMNT: >-
-  <p>UNODC will make available a quality assessment protocol for national
-  statistics office to be used at national level and intended to assess the
-  alignment of data produced with user&#x2019;s needs, the compliance with
-  guidelines in terms of computations, the timeliness of data production, the
-  accessibility of statistics produced, the consistent use of methodology both
-  in terms of geographic representation and through time, the coherence in terms
-  of data production, and the architecture of data production.</p>
+  <p>It is recommended that National Statistics Offices (NSOs) serve as the main
+  contact for compiling and assuring the quality of the necessary data to report
+  on SDG 16.1.4, in close coordination with other relevant bodies in the
+  country. Automated and substantive validation procedures are in place when
+  data are processed by custodian agencies to assess their consistency and
+  compliance with standards.</p>
+QUALITY_ASSMNT: <p>See section 4.d Validation </p>
 COVERAGE: >-
   <p>A growing number of countries are implementing surveys using similar
   methodologies in order to assess the population&#x2019;s perception of safety
@@ -417,25 +461,43 @@ COVERAGE: >-
 
   <p>- citizenship</p>
 COMPARABILITY: >-
-  <p>UNODC only compiles data from national sources, therefore no differences
-  between nationally produced estimates and international estimates should
-  exist.</p>
+  <p>The United Nations Office on Drugs and Crime (UNODC) only compiles data
+  from national sources, therefore no differences between nationally produced
+  estimates and international estimates should exist. If data from more than one
+  survey are available for the same country, discrepancies may arise due to
+  different wording of the questions, different structure of the questionnaire,
+  different survey methods and operations, different sample design and sample
+  size. As a rule, data from national surveys complying with recommended
+  international standards are used, when available.</p>
 OTHER_DOC: >-
-  <p><strong>URL:</strong></p>
+  <p><strong>URL &amp; References:</strong></p>
 
-  <p><a href="http://www.unodc.org">www.unodc.org</a> </p>
+  <p><a href="http://www.unodc.org">www.unodc.org</a></p>
 
-  <p><strong>References:</strong></p>
+  <p><a
+  href="https://dataunodc.un.org/sdgs">https://dataunodc.un.org/sdgs</a></p>
 
   <p>Ferraro, K. F., &amp; LaGrange, R. L.. 1987. &#x201C;The measurement of
   fear of crime&#x201D;. Sociological Inquiry, 57(1), 70&#x2013;101.</p>
 
   <p>Roberts B. 2014. &#x201C;Fear of Walking Alone at Night&#x201D;. In:
   Michalos A.C. (eds) Encyclopedia of Quality of Life and Well-Being Research.
-  Springer, Dordrecht. https://doi.org/10.1007/978-94-007-0753-5_1023</p>
+  Springer, Dordrecht. <a
+  href="https://doi.org/10.1007/978-94-007-0753-5_1023">https://doi.org/10.1007/978-94-007-0753-5_1023</a>
+  </p>
 
   <p>UNODC-UNECE. 2010. Manual on Victimization Surveys. Available at : <a
-  href="https://www.unodc.org/documents/data-and-analysis/Crime-statistics/Manual_on_Victimization_surveys_2009_web.pdf">https://www.unodc.org/documents/data-and-analysis/Crime-statistics/Manual_on_Victimization_surveys_2009_web.pdf</a>
+  href="https://www.unodc.org/unodc/en/data-and-analysis/Manual-on-victim-surveys.html">https://www.unodc.org/unodc/en/data-and-analysis/Manual-on-victim-surveys.html</a>
+  </p>
+
+  <p>UNODC-UNDP-OHCHR. 2022. SDG 16 Survey Questionnaire and Implementation
+  Manual. Available at:</p>
+
+  <p><a
+  href="https://www.sdg16hub.org/topic/sdg-16-survey-initiative-questionnaire">https://www.sdg16hub.org/topic/sdg-16-survey-initiative-questionnaire</a></p>
+
+  <p><a
+  href="https://www.sdg16hub.org/topic/sdg-16-survey-initiative-implementation-manual">https://www.sdg16hub.org/topic/sdg-16-survey-initiative-implementation-manual</a>
   </p>
 
   <p>Warr, Mark. 1990. &quot;Dangerous Situations: Social Context and Fear of

@@ -9,8 +9,13 @@ SDG_TARGET: >-
 SDG_INDICATOR: >-
   <p>Indicator 9.2.2: Manufacturing employment as a proportion of total
   employment</p>
-SDG_SERIES_DESCR: <p>Manufacturing employment as a proportion of total employment (%)</p>
-META_LAST_UPDATE: '2022-03-31'
+SDG_SERIES_DESCR: >-
+  <p>Manufacturing employment as a proportion of total employment (13th
+  ICLS)</p>
+
+  <p>Manufacturing employment as a proportion of total employment (19th
+  ICLS)</p>
+META_LAST_UPDATE: '2023-03-31'
 SDG_RELATED_INDICATORS: <p>8.2.1 Annual growth rate of real GDP per employed person</p>
 SDG_CUSTODIAN_AGENCIES: >-
   <p>United Nations Industrial Development Organization (UNIDO)</p>
@@ -32,12 +37,14 @@ STAT_CONC_DEF: >-
 
   <p>Employment comprises all persons of working age who during a short
   reference period (one week), were engaged in any activity to produce goods or
-  provide services for pay or profit. The working-age population is usually
-  defined as all persons aged 15 and above. For further clarification, see:
-  Resolution concerning statistics of work, employment and labour
-  underutilization (2013), available from <a
-  href="http://ilo.org/global/statistics-and-databases/standards-and-guidelines/resolutions-adopted-by-international-conferences-of-labour-statisticians/WCMS_230304/lang--en/index.htm">http://ilo.org/global/statistics-and-databases/standards-and-guidelines/resolutions-adopted-by-international-conferences-of-labour-statisticians/WCMS_230304/lang--en/index.htm</a>.
-  </p>
+  provide services for pay or profit. The difference between the two series for
+  a given country is the operational criteria used to define employment, with
+  one series based on the statistical standards from the 13th International
+  Conference of Labour Statisticians (ICLS) and the other series based on 19th
+  ICLS standards. In the 19th ICLS series, employment is defined more narrowly
+  as work done for pay or profit, while activities not done mainly in exchange
+  for remuneration (i.e., own-use production work, volunteer work and unpaid
+  trainee work) are recognized as other forms of work. </p>
 
   <p>No distinction is made between persons employed full time and those working
   less than full time.</p>
@@ -72,7 +79,7 @@ SOURCE_TYPE: >-
   certain sizes, some economic activities or some geographical areas.</p>
 COLL_METHOD: >-
   <p>The ILO Department of Statistics processes national household survey micro
-  datasets in line with internationally-agreed indicator concepts and
+  datasets in line with internationally agreed indicator concepts and
   definitions set forth by the International Conference of Labour Statisticians.
   For data that could not be obtained through this processing or directly from
   government websites, the ILO sends out an annual ILOSTAT questionnaire to all
@@ -89,15 +96,13 @@ DATA_SOURCE: >-
   <p>Mainly national statistical offices, and in some cases labour ministries or
   other related agencies, at the country-level. In other cases, regional or
   international statistical offices can also act as data providers.</p>
-COMPILING_ORG: >-
-  <p>United Nations Industrial Development Organization (UNIDO) and
-  International Labour Organization (ILO)</p>
+COMPILING_ORG: <p>International Labour Organization (ILO)</p>
 INST_MANDATE: >-
   <p>The ILO is the UN focal point for labour statistics. It sets international
   standards for labour statistics through the International Conference of Labour
   Statisticians. It also compiles and produces labour statistics with the goal
-  of disseminating internationally-comparable datasets, and provides technical
-  assistance and training to ILO member States to support their efforts to
+  of disseminating internationally comparable datasets and provides technical
+  assistance and training to ILO Member States to support their efforts to
   produce high quality labour market data.</p>
 
   <p>UNIDO, as the specialized UN agency on industrial development, has the
@@ -233,7 +238,7 @@ DATA_COMP: |-
       <mn>100</mn>
     </math></p>
 DATA_VALIDATION: >-
-  <p>The ILO engages in annual consultations with member States through the
+  <p>The ILO engages in annual consultations with Member States through the
   ILOSTAT questionnaire and related Statistics Reporting System (StaRS).
   National data providers receive a link to the portal where they can review all
   national SDG data available on ILOSTAT.</p>
@@ -260,18 +265,18 @@ IMPUTATION: >-
 
   <p>The aggregates are derived from the ILO modelled estimates that are used to
   produce global and regional estimates of, amongst others, employment by
-  economic activity. These models use multivariate regression and
-  cross-validation techniques to impute missing values at the country level,
-  which are then aggregated to produce regional and global estimates. The
-  regional and global shares of employment in manufacturing are obtained by
-  first adding up, across countries, the numerator and denominator of the
-  formula that defines the manufacturing employment as a proportion of total
-  employment - outlined above. Once both magnitudes are produced at the desired
-  level of aggregation, the ratio between the two is used to compute the share
-  for each regional grouping and the global level. Notice that this direct
-  aggregation method can be used due to the imputation of missing observations.
-  For further information on the estimates, please refer to the ILO modelled
-  estimates methodological overview, available at <a
+  economic activity, with employment based on the 13th ICLS standards. These
+  models use multivariate regression and cross-validation techniques to impute
+  missing values at the country level, which are then aggregated to produce
+  regional and global estimates. The regional and global shares of employment in
+  manufacturing are obtained by first adding up, across countries, the numerator
+  and denominator of the formula that defines the manufacturing employment as a
+  proportion of total employment - outlined above. Once both magnitudes are
+  produced at the desired level of aggregation, the ratio between the two is
+  used to compute the share for each regional grouping and the global level.
+  Notice that this direct aggregation method can be used due to the imputation
+  of missing observations. For further information on the estimates, please
+  refer to the ILO modelled estimates methodological overview, available at <a
   href="https://ilostat.ilo.org/resources/concepts-and-definitions/ilo-modelled-estimates/">https://ilostat.ilo.org/resources/concepts-and-definitions/ilo-modelled-estimates/</a>.</p>
 REG_AGG: >-
   <p>The global and regional aggregates are calculated after direct summation of
@@ -281,6 +286,7 @@ DOC_METHOD: |-
     <li>ILO Guidebook - Decent Work and the Sustainable Development Goals: A Guidebook on SDG Labour Market Indicators, (<a href="https://www.ilo.org/stat/Publications/WCMS_647109/lang--en/index.htm">https://www.ilo.org/stat/Publications/WCMS_647109/lang--en/index.htm</a>).</li>
     <li>Decent Work Indicators Manual: <a href="http://www.ilo.org/wcmsp5/groups/public/---dgreports/---stat/documents/publication/wcms_223121.pdf">http://www.ilo.org/wcmsp5/groups/public/---dgreports/---stat/documents/publication/wcms_223121.pdf</a> </li>
     <li>Resolution concerning statistics of work, employment and labour underutilization, adopted by the 19<sup>th</sup> ICLS in 2013: <a href="https://www.ilo.org/global/statistics-and-databases/standards-and-guidelines/resolutions-adopted-by-international-conferences-of-labour-statisticians/WCMS_230304/lang--en/index.htm">https://www.ilo.org/global/statistics-and-databases/standards-and-guidelines/resolutions-adopted-by-international-conferences-of-labour-statisticians/WCMS_230304/lang--en/index.htm</a></li>
+    <li>Resolution concerning statistics of the economically active population, employment, unemployment and underemployment, adopted by the ICLS in 1982: https://www.ilo.org/wcmsp5/groups/public/---dgreports/---stat/documents/normativeinstrument/wcms_230304.pdf</li>
     <li>International Standard Industrial Classification of All Economic Activities 2008. (<a href="https://unstats.un.org/unsd/publication/seriesm/seriesm_4rev4e.pdf">https://unstats.un.org/unsd/publication/seriesm/seriesm_4rev4e.pdf</a>).</li>
   </ul>
 QUALITY_MGMNT: >-
@@ -294,7 +300,7 @@ QUALITY_ASSURE: >-
   of the data before dissemination in the ILOSTAT database. </p>
 QUALITY_ASSMNT: >-
   <p>The final assessment of the quality of information is carried out by the
-  Data Production and Analysis Unit of the ILO Department of Department. In
+  Data Production and Analysis Unit of the ILO Department of Statistics. In
   cases of doubt about the quality of specific data, these values are reviewed
   with the participation of the national agencies responsible for producing the
   data. If the issues cannot be clarified, the respective information is not
@@ -302,7 +308,9 @@ QUALITY_ASSMNT: >-
 COVERAGE: >-
   <p><strong>Data availability:</strong></p>
 
-  <p>Data is available in ILOSTAT for 177 countries and territories.</p>
+  <p>Data is available in ILOSTAT for 203 countries and territories in the
+  13<sup>th</sup> ICLS series and 117 countries and territories in the
+  19<sup>th</sup> ICLS series.</p>
 
   <p><strong>Time series:</strong></p>
 
@@ -316,17 +324,25 @@ COVERAGE: >-
 COMPARABILITY: >-
   <p><strong>Sources of discrepancies:</strong></p>
 
-  <p>The difference may arise due to: a) discrepancies in data sources; b) ISIC
-  Revision used by a country; c) informal employment; d) coverage of data source
-  (geographical coverage, economic activities covered, types of establishments
-  covered, etc.); e) working-age population definition.</p>
+  <p>Work statistics for countries not using the same set of statistical
+  standards are not comparable. As such, each series is based on a single set of
+  standards (i.e., 13<sup>th</sup> or 19<sup>th</sup> ICLS) and contains only
+  data comparable within and across countries, allowing data users to continue
+  making meaningful time series analysis and international comparisons. Users
+  should not compare data across series.</p>
+
+  <p>Other differences may arise due to: a) discrepancies in data sources; b)
+  ISIC Revision used by a country; c) informal employment; d) coverage of data
+  source (geographical coverage, economic activities covered, types of
+  establishments covered, etc.); e) working-age population definition.</p>
 OTHER_DOC: >-
   <h2>URL:</h2>
 
   <p><a href="https://ilostat.ilo.org/">https://ilostat.ilo.org/</a></p>
 
   <p><a
-  href="https://ilostat.ilo.org/resources/concepts-and-definitions/description-employment-by-economic-activity/">https://ilostat.ilo.org/resources/concepts-and-definitions/description-employment-by-economic-activity/</a></p>
+  href="https://ilostat.ilo.org/resources/concepts-and-definitions/%20">https://ilostat.ilo.org/resources/concepts-and-definitions/
+  </a></p>
 
   <p><a href="http://www.unido.org/statistics">www.unido.org/statistics</a></p>
 
@@ -338,7 +354,8 @@ OTHER_DOC: >-
     <li>ILO Guidebook - Decent Work and the Sustainable Development Goals: A Guidebook on SDG Labour Market Indicators, (<a href="https://www.ilo.org/stat/Publications/WCMS_647109/lang--en/index.htm">https://www.ilo.org/stat/Publications/WCMS_647109/lang--en/index.htm</a>).</li>
     <li>Decent Work Indicators Manual: <a href="http://www.ilo.org/wcmsp5/groups/public/---dgreports/---stat/documents/publication/wcms_223121.pdf">http://www.ilo.org/wcmsp5/groups/public/---dgreports/---stat/documents/publication/wcms_223121.pdf</a> </li>
     <li>Resolution concerning statistics of work, employment and labour underutilization, adopted by the 19<sup>th</sup> ICLS in 2013: <a href="https://www.ilo.org/global/statistics-and-databases/standards-and-guidelines/resolutions-adopted-by-international-conferences-of-labour-statisticians/WCMS_230304/lang--en/index.htm">https://www.ilo.org/global/statistics-and-databases/standards-and-guidelines/resolutions-adopted-by-international-conferences-of-labour-statisticians/WCMS_230304/lang--en/index.htm</a></li>
+    <li>Resolution concerning statistics of the economically active population, employment, unemployment and underemployment, adopted by the ICLS in 1982: https://www.ilo.org/wcmsp5/groups/public/---dgreports/---stat/documents/normativeinstrument/wcms_230304.pdf</li>
+    <li>Quick guide to understanding the impact of the new statistical standards on ILOSTAT databases (https://www.ilo.org/wcmsp5/groups/public/---dgreports/---stat/documents/publication/wcms_854830.pdf)</li>
     <li>ILOSTAT database: https://ilostat.ilo.org</li>
-    <li>ILOSTAT Metadata &#x2013; Indicator Descriptions (<a href="https://ilostat.ilo.org/resources/concepts-and-definitions/description-employment-by-economic-activity/">https://ilostat.ilo.org/resources/concepts-and-definitions/description-employment-by-economic-activity/</a>)</li>
     <li>International Standard Industrial Classification of All Economic Activities 2008. (<a href="https://unstats.un.org/unsd/publication/seriesm/seriesm_4rev4e.pdf">https://unstats.un.org/unsd/publication/seriesm/seriesm_4rev4e.pdf</a>).</li>
   </ul>

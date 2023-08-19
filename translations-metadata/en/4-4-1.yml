@@ -8,26 +8,27 @@ SDG_TARGET: >-
 SDG_INDICATOR: >-
   <p>Indicator 4.4.1: Proportion of youth and adults with information and
   communications technology (ICT) skills, by type of skill</p>
-SDG_SERIES_DESCR: <p>Not Applicable </p>
-META_LAST_UPDATE: <p>2021-08-20</p>
-SDG_RELATED_INDICATORS: '<p>4.5, 5.b, 8.5, 8.6, 8.b, 9.2, 9.c</p>'
+SDG_SERIES_DESCR: >-
+  <p>Proportion of youth andadults with information and communications
+  technology (ICT) skills by type of skill (%)</p>
+META_LAST_UPDATE: '2023-03-31'
+SDG_RELATED_INDICATORS: '<p>4.5.1, 9.c.1, 17.6.1, 17.8.1 </p>'
 SDG_CUSTODIAN_AGENCIES: <p>International Telecommunication Union (ITU)</p>
 CONTACT_ORGANISATION: <p>International Telecommunication Union (ITU)</p>
 STAT_CONC_DEF: >-
   <p><strong>Definition:</strong></p>
 
-  <p>The proportion of youth and adults with information and communications
-  technology (ICT) skills, by type of skill as defined as the percentage of
+  <p>The proportion of youth and adults with Information and Communications
+  Technology (ICT) skills, by type of skill defined as the percentage of
   individuals that have undertaken certain ICT-related activities in the last 3
   months. The indicator is expressed as a percentage.<br></p>
 
   <p><strong>Concepts:</strong></p>
 
   <p>The indicator on the proportion of individuals with ICT skills, by type of
-  skills refers to individuals that have undertaken certain computer-related
-  activities in the last three months. (Please note however, that from 2020 this
-  data will be collected with a different scope and response categories, as
-  explained below.)</p>
+  skills refers to individuals that have undertaken certain activities in the
+  last three months. (Please note however, that until 2019 this data refer to
+  computer-related activities and response categories, as explained below.)</p>
 
   <p>Computer-related activities to measure ICT skills are as follows:</p>
 
@@ -53,12 +54,8 @@ STAT_CONC_DEF: >-
   complex to more complex, although there is no requirement for a respondent to
   select simpler tasks before selecting a more complex task. </p>
 
-  <p>A decision was made in 2018 to modify the formulation of this indicator (at
-  the 6th Expert Group meeting on ICT Household Indicators (EGH), in Geneva), to
-  make the indicator independent of the device used. This data will be collected
-  from member states from 2020 onwards, and incorporate changes to some of the
-  skills categories that were agreed in the 6th and 7th EGH meetings. The
-  revised and new skills categories will be:</p>
+  <p>From 2020, the data refer to skills irrespective of the device used. The
+  new skills categories are:</p>
 
   <ul>
     <li>Using copy and paste tools to duplicate or move data, information and content in digital environments (e.g. within a document, between devices, on the cloud)</li>
@@ -73,32 +70,42 @@ STAT_CONC_DEF: >-
     <li>Verifying the reliability of information found online</li>
     <li>Programming or coding in digital environments (e.g. computer software, app development)</li>
   </ul>
-UNIT_MEASURE: <p>Percentage of individuals</p>
+UNIT_MEASURE: <p>Percent (%)</p>
 CLASS_SYSTEM: >-
   <p>Activities are classified according to agreement at the Expert Group
-  meeting on ICT Household Indicators (EGH).</p>
+  meeting on information and communications technology (ICT) Household
+  Indicators (EGH).</p>
 
   <p>Furthermore, for countries that collect this data through an official
   survey, and if data allow breakdown and disaggregation, the indicator can be
   broken down by region (urban/rural), by sex, by age group, by educational
-  level (ISCED), by labour force status (ILO), and by occupation (ISCO). ITU
-  collects data for all of these breakdowns from countries.</p>
+  level (ISCED), by labour force status (ILO), and by occupation (ISCO).
+  International Telecommunication Union (ITU) collects data for all of these
+  breakdowns from countries.</p>
 SOURCE_TYPE: >-
   <p>Countries can collect data on this indicator through national household
-  surveys. Data for different countries are compiled by ITU.</p>
-COLL_METHOD: <p>Data for different countries are compiled and provided by ITU.</p>
+  surveys. Data for different countries are compiled by the International
+  Telecommunication Union (ITU).</p>
+COLL_METHOD: >-
+  <p>Data for different countries are compiled and provided by the International
+  Telecommunication Union (ITU).</p>
 FREQ_COLL: >-
-  <p>Various. Each survey has its own data collection cycle. ITU collects data
-  twice a year from Member States, in Q1 and in Q3.</p>
-REL_CAL_POLICY: <p>ITU releases data twice per year on ICT skills.</p>
+  <p>Various. Each survey has its own data collection cycle. The International
+  Telecommunication Union (ITU) collects data twice a year from Member States,
+  in Q1 and in Q3.</p>
+REL_CAL_POLICY: >-
+  <p>The International Telecommunication Union (ITU) releases data twice per
+  year on ICT skills.</p>
 DATA_SOURCE: >-
   <p>Bodies responsible for conducting household surveys (including National
   Statistical Offices and Government Ministries) in which information on the use
-  of ICT skills is collected. Data is compiled by ITU.</p>
-COMPILING_ORG: <p>ITU</p>
+  of ICT skills is collected. Data is compiled by the International
+  Telecommunication Union (ITU).</p>
+COMPILING_ORG: <p>International Telecommunication Union (ITU)</p>
 INST_MANDATE: >-
-  <p>As the UN specialized agency for ICTs, ITU is the official source for
-  global ICT statistics, collecting ICT data from its Member States. </p>
+  <p>As the United Nations (UN) specialized agency for ICTs, the International
+  Telecommunication Union (ITU) is the official source for global ICT
+  statistics, collecting ICT data from its Member States. </p>
 RATIONALE: >-
   <p>ICT skills determine the effective use of information and communication
   technology, so this indicator may therefore assist in making the link between
@@ -110,7 +117,7 @@ RATIONALE: >-
 
   <p>This is also a core indicator of the Partnership on Measuring ICT for
   Development&apos;s Core List of Indicators, which has been endorsed by the UN
-  Statistical Commission (in 2014).</p>
+  Statistical Commission (in 2020).</p>
 REC_USE_LIM: >-
   <p>This indicator is relatively new but based on an internationally-agreed
   definition and methodology, which have been developed under the coordination
@@ -131,11 +138,104 @@ DATA_COMP: >-
   out each activity in the past 3 months, regardless of where that activity took
   place. The indicator is expressed as a percentage.</p>
 
+  <p>[<math xmlns="http://www.w3.org/1998/Math/MathML">
+      <mfenced separators="|">
+        <mrow>
+          <mi>n</mi>
+          <mi>u</mi>
+          <mi>m</mi>
+          <mi>b</mi>
+          <mi>e</mi>
+          <mi>r</mi>
+          <mi>&amp;nbsp;</mi>
+          <mi>o</mi>
+          <mi>f</mi>
+          <mi>&amp;nbsp;</mi>
+          <mi>i</mi>
+          <mi>n</mi>
+          <mo>-</mo>
+          <mi>s</mi>
+          <mi>c</mi>
+          <mi>o</mi>
+          <mi>p</mi>
+          <mi>e</mi>
+          <mi>&amp;nbsp;</mi>
+          <mi>i</mi>
+          <mi>n</mi>
+          <mi>d</mi>
+          <mi>i</mi>
+          <mi>v</mi>
+          <mi>i</mi>
+          <mi>d</mi>
+          <mi>u</mi>
+          <mi>a</mi>
+          <mi>l</mi>
+          <mi>s</mi>
+          <mi>&amp;nbsp;</mi>
+          <mi>b</mi>
+          <mi>y</mi>
+          <mi>&amp;nbsp;</mi>
+          <mi>t</mi>
+          <mi>y</mi>
+          <mi>p</mi>
+          <mi>e</mi>
+          <mi>&amp;nbsp;</mi>
+          <mi>o</mi>
+          <mi>f</mi>
+          <mi>&amp;nbsp;</mi>
+          <mi>s</mi>
+          <mi>k</mi>
+          <mi>i</mi>
+          <mi>l</mi>
+          <mi>l</mi>
+          <mi>s</mi>
+        </mrow>
+      </mfenced>
+    </math></p>
+  <p><math xmlns="http://www.w3.org/1998/Math/MathML">
+      <mo>/</mo>
+      <mo>(</mo>
+      <mi>n</mi>
+      <mi>u</mi>
+      <mi>m</mi>
+      <mi>b</mi>
+      <mi>e</mi>
+      <mi>r</mi>
+      <mi>&amp;nbsp;</mi>
+      <mi>o</mi>
+      <mi>f</mi>
+      <mi>&amp;nbsp;</mi>
+      <mi>i</mi>
+      <mi>n</mi>
+      <mo>-</mo>
+      <mi>s</mi>
+      <mi>c</mi>
+      <mi>o</mi>
+      <mi>p</mi>
+      <mi>e</mi>
+      <mi>&amp;nbsp;</mi>
+      <mi>i</mi>
+      <mi>n</mi>
+      <mi>d</mi>
+      <mi>i</mi>
+      <mi>v</mi>
+      <mi>i</mi>
+      <mi>d</mi>
+      <mi>u</mi>
+      <mi>a</mi>
+      <mi>l</mi>
+      <mi>s</mi>
+      <mo>)</mo>
+      <mo>]</mo>
+      <mi>*</mi>
+      <mn>100</mn>
+    </math></p>
   <p>Figures supplied are expressed as a proportion of the in-scope
   population.</p>
 DATA_VALIDATION: >-
-  <p>Data are submitted by Member States to ITU. ITU checks and validates the
-  data, in consultation with the Member States. </p>
+  <p>Data are submitted by Member States to the International Telecommunication
+  Union (ITU). ITU checks and validates the data, in consultation with the
+  Member States. </p>
 ADJUSTMENT: <p>No adjustments are made to the data submitted by countries.</p>
 IMPUTATION: |-
   <p><strong>&#x2022; At country level</strong></p>
@@ -146,16 +246,17 @@ REG_AGG: >-
   <p>Regional and global aggregates are not currently available for this
   indicator.</p>
 DOC_METHOD: >-
-  <p>ITU Manual for Measuring ICT Access and Use by Households and Individuals
-  2020:</p>
+  <p>International Telecommunication Union (ITU) Manual for Measuring
+  Information and Communications Technology (ICT) Access and Use by Households
+  and Individuals 2020:</p>
 
   <p><a
   href="https://www.itu.int/en/ITU-D/Statistics/Pages/publications/manual.aspx">https://www.itu.int/en/ITU-D/Statistics/Pages/publications/manual.aspx</a>
   </p>
 QUALITY_MGMNT: >-
   <p>Data are checked and validated by the ICT Data and Analytics (IDA) Division
-  of the ITU. Countries are contacted to clarify and correct their
-  submissions.</p>
+  of the International Telecommunication Union (ITU). Countries are contacted to
+  clarify and correct their submissions.</p>
 QUALITY_ASSURE: >-
   <p>The guidelines of the Manual for Measuring ICT Access and Use by Households
   and Individuals 2020 are followed.</p>
@@ -165,7 +266,8 @@ QUALITY_ASSMNT: >-
 COVERAGE: >-
   <p><strong>Data availability:</strong></p>
 
-  <p>As of 2020, 91 economies have ever reported ICT skills data since 2005.</p>
+  <p>Overall, the indicator is available for more than 90 countries from at
+  least one survey.</p>
 
   <p><strong>Time series:</strong></p>
 

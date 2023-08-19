@@ -4,10 +4,17 @@ SDG_TARGET: >-
   equal opportunities for leadership at all levels of decision-making in
   political, economic and public life</p>
 SDG_INDICATOR: '<p>Indicator 5.5.2: Proportion of women in managerial positions</p>'
-SDG_SERIES_DESCR: |-
-  <p>Proportion of managerial positions held by women</p>
-  <p>Proportion of women in senior and middle management positions</p>
-META_LAST_UPDATE: '2022-03-31'
+SDG_SERIES_DESCR: >-
+  <p>Proportion of managerial positions held by women (13<sup>th</sup> ICLS)</p>
+
+  <p>Proportion of women in senior and middle management positions
+  (13<sup>th</sup> ICLS)</p>
+
+  <p>Proportion of managerial positions held by women (19<sup>th</sup> ICLS)</p>
+
+  <p>Proportion of women in senior and middle management positions
+  (19<sup>th</sup> ICLS)</p>
+META_LAST_UPDATE: '2023-03-31'
 SDG_RELATED_INDICATORS: <p>8.5.1 </p>
 SDG_CUSTODIAN_AGENCIES: <p>International Labour Organization (ILO)</p>
 CONTACT_ORGANISATION: <p>International Labour Organization (ILO)</p>
@@ -30,7 +37,15 @@ STAT_CONC_DEF: >-
 
   <p>- Employment comprises all persons of working age who, during a short
   reference period (one week), were engaged in any activity to produce goods or
-  provide services for pay or profit.</p>
+  provide services for pay or profit. The difference between the 13<sup>th</sup>
+  and 19<sup>th</sup> ICLS series for a given country is the operational
+  criteria used to define employment, with two series based on the statistical
+  standards from the 13th International Conference of Labour Statisticians
+  (ICLS) and the other two series based on 19th ICLS standards. In the 19th ICLS
+  series, employment is defined more narrowly as work done for pay or profit,
+  while activities not done mainly in exchange for remuneration (i.e., own-use
+  production work, volunteer work and unpaid trainee work) are recognized as
+  other forms of work.</p>
 
   <p>- Employment in management is determined according to the categories of the
   latest version of the International Standard Classification of Occupations
@@ -64,7 +79,7 @@ SOURCE_TYPE: >-
   of ISCO that are used should be taken into account.</p>
 COLL_METHOD: >-
   <p>The ILO Department of Statistics processes national household survey
-  microdatasets in line with internationally-agreed indicator concepts and
+  microdata in line with internationally agreed indicator concepts and
   definitions set forth by the International Conference of Labour Statisticians
   (ICLS). For data that could not be obtained through this processing or
   directly from government websites, the ILO sends out an annual ILOSTAT
@@ -81,7 +96,7 @@ INST_MANDATE: >-
   standards for labour statistics through the International Conference of Labour
   Statisticians. It also compiles and produces labour statistics with the goal
   of disseminating internationally-comparable datasets, and provides technical
-  assistance and training to ILO member States to support their efforts to
+  assistance and training to ILO Member States to support their efforts to
   produce high quality labour market data.</p>
 RATIONALE: >-
   <p>The indicator provides information on the proportion of women who are
@@ -1093,7 +1108,7 @@ DATA_COMP: |-
       <mn>100</mn>
     </math></p>
 DATA_VALIDATION: >-
-  <p>The ILO engages in annual consultations with member States through the
+  <p>The ILO engages in annual consultations with Member States through the
   ILOSTAT questionnaire and related Statistics Reporting System (StaRS).
   National data providers receive a link to the portal where they can review all
   national SDG data available on ILOSTAT.</p>
@@ -1123,19 +1138,19 @@ IMPUTATION: >-
 REG_AGG: >-
   <p>The aggregates are derived from the ILO modelled estimates that are used to
   produce global and regional estimates of, amongst others, employment by
-  occupation and gender. These models use multivariate regression and
-  cross-validation techniques to impute missing values at the country level,
-  which are then aggregated to produce regional and global estimates. The
-  regional and global proportions of women in managerial positions are obtained
-  by first adding up, across countries, the numerator and denominator of the
-  formula that defines the proportion of women in managerial positions -
-  outlined above. Once both magnitudes are produced at the desired level of
-  aggregation, the ratio between the two is used to compute the rate for each
-  regional grouping and the global level. Notice that this direct aggregation
-  method can be used due to the imputation of missing observations. For further
-  information on the estimates, please refer to the ILO modelled estimates
-  methodological overview, available at
-  https://www.ilo.org/ilostat-files/Documents/TEM.pdf.</p>
+  occupation and gender, with employment based on the 13<sup>th</sup> ICLS
+  standards. These models use multivariate regression and cross-validation
+  techniques to impute missing values at the country level, which are then
+  aggregated to produce regional and global estimates. The regional and global
+  proportions of women in managerial positions are obtained by first adding up,
+  across countries, the numerator and denominator of the formula that defines
+  the proportion of women in managerial positions - outlined above. Once both
+  magnitudes are produced at the desired level of aggregation, the ratio between
+  the two is used to compute the rate for each regional grouping and the global
+  level. Notice that this direct aggregation method can be used due to the
+  imputation of missing observations. For further information on the estimates,
+  please refer to the ILO modelled estimates methodological overview, available
+  at https://www.ilo.org/ilostat-files/Documents/TEM.pdf.</p>
 DOC_METHOD: >-
   <p>In order to calculate this indicator, data on employment by sex and
   occupation is needed, using at least the 2-digit level of the ISCO. This data
@@ -1151,7 +1166,6 @@ DOC_METHOD: >-
     <li>Resolution concerning statistics of work, employment and labour underutilization <a href="https://www.ilo.org/wcmsp5/groups/public/---dgreports/---stat/documents/normativeinstrument/wcms_230304.pdf">https://www.ilo.org/wcmsp5/groups/public/---dgreports/---stat/documents/normativeinstrument/wcms_230304.pdf</a></li>
     <li>International Standard Classification of Occupations 2008 (ISCO-08) <a href="http://www.ilo.org/public/english/bureau/stat/isco/isco08/">http://www.ilo.org/public/english/bureau/stat/isco/isco08/</a> </li>
     <li>ILOSTAT Database (<a href="https://ilostat.ilo.org/">https://ilostat.ilo.org/</a>)</li>
-    <li>ILOSTAT&#x2013; Indicator Descriptions (Employment by occupation, at: <a href="https://ilostat.ilo.org/resources/concepts-and-definitions/description-employment-by-occupation/">https://ilostat.ilo.org/resources/concepts-and-definitions/description-employment-by-occupation/</a></li>
   </ul>
 QUALITY_MGMNT: >-
   <p>The processes of compilation, production, and publication of data,
@@ -1166,7 +1180,7 @@ QUALITY_ASSURE: >-
   <p> </p>
 QUALITY_ASSMNT: >-
   <p>The final assessment of the quality of information is carried out by the
-  Data Production and Analysis Unit of the ILO Department of Department. In
+  Data Production and Analysis Unit of the ILO Department of Statistics. In
   cases of doubt about the quality of specific data, these values are reviewed
   with the participation of the national agencies responsible for producing the
   data if appropriate. If the issues cannot be clarified, the respective
@@ -1174,11 +1188,13 @@ QUALITY_ASSMNT: >-
 COVERAGE: >-
   <p><strong>Data availability: </strong></p>
 
-  <p>Data on proportion of women in managerial positions is available for 188
-  countries and territories. </p>
+  <p>Data on proportion of women in managerial positions is available for 189
+  countries and territories in the 13<sup>th</sup> ICLS series and 107 countries
+  and territories in the 19<sup>th</sup> ICLS series.</p>
 
   <p>Data on women in senior and middle management positions is available for
-  134 countries and territories.</p>
+  139 countries and territories in the 13<sup>th</sup> ICLS series and 80
+  countries and territories in the 19<sup>th</sup> ICLS series. </p>
 
   <p><strong>Time series:</strong></p>
 
@@ -1187,7 +1203,7 @@ COVERAGE: >-
   ILOSTAT.</p>
 
   <p>Global and regional data on proportion of women in managerial positions are
-  available from 2000 to 2020.</p>
+  available from 2000 to 2021.</p>
 
   <p><strong>Disaggregation:</strong></p>
 
@@ -1200,8 +1216,14 @@ COVERAGE: >-
 COMPARABILITY: >-
   <p>Through the ILO Harmonized Microdata initiative, the ILO strives to produce
   internationally comparable labour statistics based on the indicator concepts
-  and definitions adopted by the International Conference of Labour
-  Statisticians.</p>
+  and definitions adopted by the ICLS.</p>
+
+  <p>Work statistics for countries not using the same set of statistical
+  standards are not comparable. As such, each series is based on a single set of
+  standards (i.e., 13<sup>th</sup> or 19<sup>th</sup> ICLS) and contains only
+  data comparable within and across countries, allowing data users to continue
+  making meaningful time series analysis and international comparisons. Users
+  should not compare data across series. </p>
 OTHER_DOC: |-
   <ul>
     <li>ILOSTAT database: <a href="https://ilostat.ilo.org/resources/methods/description-employment-by-occupation/">https://ilostat.ilo.org</a> </li>
@@ -1209,4 +1231,6 @@ OTHER_DOC: |-
     <li>Decent work indicators - ILO Manual: <a href="http://www.ilo.org/wcmsp5/groups/public/---dgreports/---integration/documents/publication/wcms_229374.pdf">http://www.ilo.org/wcmsp5/groups/public/---dgreports/---integration/documents/publication/wcms_229374.pdf</a> </li>
     <li>ISCO-08: <a href="http://www.ilo.org/public/english/bureau/stat/isco/isco08/">http://www.ilo.org/public/english/bureau/stat/isco/isco08/</a> </li>
     <li>Resolution concerning statistics of work, employment and labour underutilization, adopted by the 19<sup>th</sup> ICLS: <a href="https://www.ilo.org/wcmsp5/groups/public/---dgreports/---stat/documents/normativeinstrument/wcms_230304.pdf">https://www.ilo.org/wcmsp5/groups/public/---dgreports/---stat/documents/normativeinstrument/wcms_230304.pdf</a></li>
+    <li>Resolution concerning statistics of the economically active population, employment, unemployment and underemployment, adopted by the 13<sup>th</sup> International Conference of Labour Statisticians (October 1982), available at <a href="https://www.ilo.org/wcmsp5/groups/public/---dgreports/---stat/documents/normativeinstrument/wcms_230304.pdf">https://www.ilo.org/wcmsp5/groups/public/---dgreports/---stat/documents/normativeinstrument/wcms_230304.pdf</a></li>
+    <li>Quick guide to understanding the impact of the new statistical standards on ILOSTAT databases, available at https://www.ilo.org/wcmsp5/groups/public/---dgreports/---stat/documents/publication/wcms_854830.pdf</li>
   </ul>

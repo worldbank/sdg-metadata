@@ -8,7 +8,8 @@ SDG_TARGET: >-
 SDG_INDICATOR: >-
   <p>Indicator 16.6.1: Primary government expenditures as a proportion of
   original approved budget, by sector (or by budget codes or similar)</p>
-META_LAST_UPDATE: <p>2016-07-19</p>
+SDG_SERIES_DESCR: <p>Applies to all series</p>
+META_LAST_UPDATE: '2023-03-31'
 SDG_CUSTODIAN_AGENCIES: <p>World Bank (WB)</p>
 CONTACT_ORGANISATION: <p>World Bank (WB)</p>
 STAT_CONC_DEF: >-
@@ -20,8 +21,8 @@ STAT_CONC_DEF: >-
   <p>This indicator measures the extent to which aggregate budget expenditure
   outturn reflects the amount originally approved, as defined in government
   budget documentation and fiscal reports. The coverage is budgetary central
-  government (BCG) and the time period covered is the last three completed
-  fiscal years.</p>
+  government (BCG) and the time period covers every fiscal year for the
+  countries..</p>
 
   <p><strong>Concepts:</strong></p>
 
@@ -44,39 +45,86 @@ STAT_CONC_DEF: >-
   deviations from the forecast which occur in two of the three years covered by
   the assessment.</p>
 
-  <p>Very detailed resources are available at:
-  http://www.pefa.org/en/content/pefa-2016-framework. The document
-  &#x201C;Framework for assessing public financial management&#x201D; is
-  extremely useful
-  (https://www.pefa.org/sites/pefa.org/files/attachments/PEFA%20Framework_English.pdf).
-  There are seven Public Expenditure and Financial Accountability (PEFA)
-  Performance pillars containing a total of 31 indicators. The pillar containing
-  this indicator is part of Pillar I which measures Budget reliability.</p>
+  <p>Very detailed resources are available at <a
+  href="http://www.pefa.org">www.pefa.org</a>. The document directly related to
+  the SDG Indicator 16.6.1 is the &#x201C;PEFA Framework for assessing public
+  financial management&#x201D; : <a
+  href="https://www.pefa.org/resources/pefa-2016-framework">https://www.pefa.org/resources/pefa-2016-framework</a>).
+  There are seven Pillars in this document containing a total of 31 indicators.
+  The pillar containing the indicator PI-1 corresponding to SDG 16.6.1 is part
+  of Pillar I which measures Budget reliability. </p>
+
+  <p>The SDG 16.6.1 Indicator follows the definition and concept for PEFA PI-1
+  Indicator in PEFA Framework with the only difference that the budget
+  deviations for PI-1 are computed based on three years country performance,
+  while the SDG 16.6.1 indicator is based on the annual budgets deviations.</p>
+UNIT_MEASURE: <p>Percent (%)</p>
 SOURCE_TYPE: >-
-  <p>The Budget Laws of countries is the usual source of the approved budget of
-  countries. The end-of-year fiscal reports (/budget execution reports) are the
-  sources of the actual spending. This data is typically obtained from websites
-  of the Ministry of Finance (MoF) or the national Parliament, or data are
-  collected through communication with the MoF.</p>
-COLL_METHOD: <p>Not applicable.</p>
-FREQ_COLL: <p>Continuously</p>
-REL_CAL_POLICY: <p>Continuously</p>
-DATA_SOURCE: <p>Ministry of Finances of countries</p>
+  <p>The raw Data collected in order to calculate indicator 16.6.1 are the
+  initially Approved and Executed Budgets. Budget Laws of countries is the usual
+  source of the approved budget of countries. The end-of-year fiscal reports
+  (/budget execution reports) are the sources of the actual spending. This data
+  is typically obtained from websites of the Ministry of Finance (MoF) or the
+  national Parliament, or data are collected through communication with the MoF.
+  Based on the SDG Data collected since 2017 the main sources of information are
+  the Ministry of Finances in countries and additional sources could be: </p>
+
+  <ul>
+    <li>End of the year Fiscal reports</li>
+    <li>Annual Financial Statements</li>
+    <li>Controller General Accounts</li>
+    <li>Federal Government Data</li>
+    <li>Department of Budget and Management</li>
+    <li>Supreme Audit Institutions</li>
+    <li>Federal Finance Administration /FFA</li>
+    <li>Statistics Institutions</li>
+  </ul>
+COLL_METHOD: >-
+  <p>PEFA Secretariat, a unit hosted by the WB, is collecting the data in
+  cooperation with the WB Data department and using a collaborative approach
+  using the WB network, that involves the WB Governance Practice managers, in
+  charge of the WB regions, and country economists from the WB country offices,
+  that have better access to the budgets data in the countries and better
+  knowledge where to find the information (sometimes is available only in local
+  languages). This method proved to be very successful.</p>
+FREQ_COLL: >-
+  <p>The data is collected in the beginning of the fiscal year, as requested by
+  UN. Additional provided data during the year is updated and shared during the
+  next year cycle of data collection.</p>
+REL_CAL_POLICY: <p>The data is updated to meet the deadlines for submission to UN. </p>
+DATA_SOURCE: >-
+  <p>WB country offices obtain the data mainly form the Ministry of Finances of
+  countries. Additional sources are: </p>
+
+  <ul>
+    <li>End of the year Fiscal reports</li>
+    <li>Annual Financial Statements</li>
+    <li>Controller General Accounts</li>
+    <li>Federal Government Data</li>
+    <li>Department of Budget and Management</li>
+    <li>Supreme Audit Institutions</li>
+    <li>Federal Finance Administration /FFA</li>
+    <li>Statistics Institutions</li>
+  </ul>
+
+  <p>The provided raw data is processed by PEFA Secretariat/WB/ and submitted to
+  UN</p>
 COMPILING_ORG: <p>World Bank</p>
+INST_MANDATE: <p>Not applicable</p>
 RATIONALE: >-
   <p>The indicator attempts to capture the reliability of government budgets: do
   governments spend what they intend to and do they collect what they set out to
   collect. It is a simple and intuitive indicator that is easily understood and
   the methodology is transparent and every rating easily verifiable.</p>
 REC_USE_LIM: >-
-  <p>Although not all countries have used the methodology on an annual basis for
-  this indicator, the methodology relies on standard data sets for approved and
-  final budget outturns which are commonly produced at least annually in every
-  country. The countries that have not used the methodology to date are
-  primarily highly developed countries which would have less difficulty in
-  providing the necessary data than those in the lower and middle income
-  categories that have been primary users of Public Expenditure and Financial
-  Accountability (PEFA) to date.</p>
+  <p>Although not all countries have used the PEFA methodology on an annual
+  basis for the PEFA PI-1 indicator, the methodology relies on standard data
+  sets for approved and final budget outturns which are commonly produced at
+  least annually in every country. The countries that have not used the
+  methodology to date are primarily highly developed countries which would have
+  less difficulty in providing the necessary data than those in the lower and
+  middle income categories that have been primary users of Public Expenditure
+  and Financial Accountability (PEFA) to date.</p>
 
   <p>One limitation of the indicator is that it is an aggregate indicator of
   budget reliability. While it can be disaggregated across regions, it is not
@@ -104,12 +152,34 @@ REC_USE_LIM: >-
   budget outcomes: aggregate fiscal discipline, strategic allocation of
   resources, and efficient service delivery.</p>
 DATA_COMP: >-
-  <p>The methodology for calculating this indicator is provided in a spreadsheet
-  (titled &#x201C;En PI-1 and PI-2 Exp Calculation-Feb 1 2016 (xls)&#x201D;) on
-  the PEFA website (http://www.pefa.org/en/content/pefa-2016-framework). It is
-  also detailed in part 2 of the document &#x201C;Framework for assessing public
-  financial management&#x201D;
-  (https://www.pefa.org/sites/pefa.org/files/attachments/PEFA%20Framework_English.pdf).</p>
+  <p>The PEFA PI-1 Indicator (described below) is used as a basis for the SDG
+  16.6.1 Indicator, following the measurement guidance and coverage. In order to
+  make the computation and the analysis of data over time easy and applicable
+  for all countries, it was decided that SDG 16.6.1 indicator will be based on
+  the annual data collection on approved and executed budgets for all countries
+  and will be calculated annually. </p>
+
+  <p>The simple calculation for every year for every country in the submitted
+  excel sheet is for the</p>
+
+  <p>Aggregate expenditure outturn = Executed Budget/Approved Budget*100</p>
+
+  <p>In the countries and regional groupings, analysis of the deviations are
+  done according regions/years/countries, using the requirements of PEFA PI-1
+  indictor below.</p>
+
+  <p>Although the computation and scoring used for PI-1 indicator are not
+  applied for the SDG 16.6.1 indicator, the categorization described below is
+  applied and is the basis for the SDG 16.6.1 indicator.</p>
+
+  <p>PEFA Methodology </p>
+
+  <p>The methodology for calculating the PEFA PI-1 indicator is provided in a
+  spreadsheet (titled &#x201C;<a
+  href="https://www.pefa.org/resources/calculation-sheets-pefa-performance-indicators-pi-1-pi-2-and-pi-23-november-2018">En
+  PI-1 and PI-2 Exp Calculation-Feb 1 2016 (xls</a>)&#x201D;) and is based on
+  the PEFA <a href="https://www.pefa.org/resources/pefa-2016-framework">Public
+  Expenditure and Financial Accountability (PEFA) Framework</a>. </p>
 
   <p>Scoring is at the heart of the indicator. A country is scored separately on
   a four-point ordinal scale: A, B, C, or D, according to precise criteria: </p>
@@ -147,26 +217,63 @@ DATA_COMP: >-
   three consecutive years as a basis for assessment. The data would cover the
   most recent completed fiscal year for which data is available and the two
   immediately preceding years.</p>
-IMPUTATION: |-
+DATA_VALIDATION: >-
+  <p>The collected data cannot be directly validated, however using the WB
+  network of experts at local level to collect the information form local
+  sources gives a high potential of the credibility of the collected data.
+  Another approach that confirms the validity of data is sharing the existing
+  information during the following years of annual circulation to double check
+  if the provided data is correct.</p>
+ADJUSTMENT: >-
+  <p>If additional information is provided from the data source the data is
+  adjusted every year.</p>
+IMPUTATION: >-
   <p><strong>&#x2022; At country level</strong></p>
-  <p>Not imputed.</p>
+
+  <p>As the data collection is a complex process in finding the sources of
+  information, the number of countries increases every year and the missing
+  values are constantly filled. The target is to collect data for new countries
+  and to fill the gap years for existing countries. Example: in 2018 the
+  available data was for 60 countries, in 2023 the data is available for 171. In
+  the current 2023 annual data collection - 16 new countries were added to the
+  existing pool of data. It is expected that based on the created network, in
+  the future data will be collected only for the last fiscal year.</p>
+
   <p><strong>&#x2022; At regional and global levels</strong></p>
-REG_AGG: <p>Not applicable.</p>
+
+  <p>The regional aggregation according the UN regions is done annually, based
+  on the collected data.</p>
+REG_AGG: <p>Not applicable</p>
+DOC_METHOD: <p>Not applicable</p>
+QUALITY_MGMNT: <p>Not applicable</p>
+QUALITY_ASSURE: <p>Not applicable</p>
+QUALITY_ASSMNT: <p>Not applicable</p>
 COVERAGE: >-
   <p><strong>Data availability:</strong></p>
 
-  <p>Data Availability 2010 to present (in terms of how many countries have at
-  least 1 data point after 2010 for this indicator)</p>
+  <p>Data Availability 2010 to present as at February 2023 (in terms of how many
+  countries have at least 1 data point after 2010 for this indicator)</p>
 
-  <p>Asia and Pacific: 23; Africa: 41; Latin America and Caribbean: 24; Europe,
-  North America, Australia, New Zealand and Japan: 19</p>
+  <p>New Zealand and Australia:1; Oceania:13; Central and Southern Asia:13;
+  Eastern and South Eastern Asia: 12; Europe and North America: 37; Western Asia
+  and Northern Africa: 18; Latin America and Carrebean: 30</p>
+
+  <p>Sub-Saharan Africa: 47</p>
 
   <p>Data Availability 2000-2009:</p>
 
-  <p>Asia and Pacific: 28; Africa: 52; Latin America and Caribbean: 28; Europe,
-  North America, Australia, New Zealand and Japan: 17</p>
+  <p>New Zealand and Australia:1; Oceania:13; Central and Southern Asia:13;
+  Eastern and South Eastern Asia: 11; Europe and North America: 28; Western Asia
+  and Northern Africa: 16; Latin America and Carrebean: 30</p>
+
+  <p>Sub-Saharan Africa: 45</p>
 
   <p><strong>Time series:</strong></p>
+
+  <p>On average all data available for 171 countries is for an average of 12
+  year period of time.</p>
+
+  <p><strong> </strong></p>
 
   <p><strong>Disaggregation:</strong></p>
 
@@ -178,18 +285,32 @@ COMPARABILITY: |-
 OTHER_DOC: >-
   <p><strong>URL:</strong></p>
 
-  <p>www.worldbank.org</p>
+  <p><a href="http://www.worldbank.org">www.worldbank.org</a> </p>
+
+  <p><a href="https://data.worldbank.org/indicator/GF.XPD.BUDG.ZS">World Bank
+  Data Portal for SDG 16.6.1</a></p>
 
   <p><strong>References:</strong></p>
 
-  <p>Very detailed resources are available at:
-  http://www.pefa.org/en/content/pefa-2016-framework. </p>
+  <p>Very detailed resource on which is based the methodology of the indicator
+  is the latest 2016 version of the &#x201C;<a
+  href="https://www.pefa.org/resources/pefa-2016-framework">PEFA Framework for
+  Assessing Public Financial Management</a>&#x201D; that is available on PEFA
+  Website: <a href="http://www.pefa.org">www.pefa.org</a></p>
 
-  <p>The document &#x201C;Framework for assessing public financial
-  management&#x201D; is extremely useful
-  (https://www.pefa.org/sites/pefa.org/files/attachments/PEFA%20Framework_English.pdf).
-  </p>
+  <p>Data about PEFA Assessments could be found on <a
+  href="https://www.pefa.org/assessments">PEFA Assessments Portal</a></p>
 
-  <p>There are seven PEFA (Public Expenditure and Financial Accountability)
-  Performance pillars and this indicator is part of Pillar I which measures
-  Budget reliability.</p>
+  <p>Additional source of information on budget reliability is the <a
+  href="https://www.pefa.org/global-report-2022/en/">PEFA Global Report on
+  PFM</a></p>
+
+  <p>Publications on the SDG 16.6.1 Indicator are:</p>
+
+  <p><a
+  href="https://datatopics.worldbank.org/world-development-indicators/stories/government-budget-credibility-and-the-impact-of-covid-19.html">Government
+  Budget credibility and the Impact of COVID-19</a> &#x2013; published on the WB
+  Story Site</p>
+
+  <p>SDG Indicator 16.6.1 Speaks how Budgets are Affected by COVID-19
+  Pandemic</p>

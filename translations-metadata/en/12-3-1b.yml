@@ -3,58 +3,74 @@ SDG_TARGET: >-
   <p>Target 12.3: By 2030, halve per capita global food waste at the retail and
   consumer levels and reduce food losses along production and supply chains,
   including post-harvest losses</p>
-SDG_INDICATOR: '<p>Indicator 12.3.1: (a) Food loss index and (b) food waste index</p>'
-META_LAST_UPDATE: <p>2021-02-05</p>
-SDG_RELATED_INDICATORS: '<p>11.6.1, 12.5.1</p>'
+SDG_INDICATOR: >-
+  <p>Indicator 12.3.1: (a) Food loss index and (b) food waste index</p>
+
+  <p><em>This metadata refers only to part (b) of the indicator 12.3.1: Food
+  waste index</em></p>
+SDG_SERIES_DESCR: |-
+  <p>Food waste (Tonnes) AG_FOOD_WST</p>
+  <p>Food waste per capita (KG) AG_FOOD_WST_PC</p>
+META_LAST_UPDATE: '2023-03-31'
+SDG_RELATED_INDICATORS: '<p>11.6.1, 12.3.1(a), 12.5.1</p>'
 SDG_CUSTODIAN_AGENCIES: <p>United Nations Environment Programme (UNEP) </p>
 CONTACT_ORGANISATION: <p>United Nations Environment Programme (UNEP) </p>
 STAT_CONC_DEF: >-
   <p><strong>Definitions:</strong></p>
+
+  <p><strong>Food waste</strong> is food and associated inedible parts removed
+  from the human food supply chain in the following sectors: retail and other
+  distribution of food; food service (restaurants, schools, hospitals, other
+  canteens, etc.); and households. &#x201C;Removed from the human food supply
+  chain&#x201D; means one of the following end destinations: landfill,
+  controlled combustion, sewer, litter/discards/ refuse, co/anaerobic digestion,
+  compost/aerobic digestion or land application.</p>
 
   <p>The indicator aims to measure the total amount of food that is wasted in
   tonnes. It complements SDG 12.3.1(a) on Food Loss (which is under the
   custodianship of FAO). Both indicators look to divide the food value chain and
   measure the efficiency of the food system. </p>
 
+  <p>The food waste indicator is calculated at two levels, which are presented
+  in Table 1 below.</p>
+
+  <p><em>Table 1: Two levels of indicator 12.3.1(b) on food waste</em></p>
+
   <table>
     <tbody>
       <tr>
-        <td colspan="2">
-          <p><strong>Level I indicators </strong></p>
+        <td>
+          <p><strong>Name</strong></p>
+        </td>
+        <td>
+          <p><strong>Measurement</strong></p>
         </td>
       </tr>
       <tr>
         <td>
-          <p><em>Food waste in the waste stream</em></p>
+          <p>Level I indicator:<em> </em></p>
+          <p><em>Food waste estimates for each sector </em></p>
         </td>
         <td>
-          <p>Estimated from a global model, based on regional coefficients for food waste in the total waste stream.</p>
-        </td>
-      </tr>
-      <tr>
-        <td colspan="2">
-          <p><strong>Level II indicators </strong></p>
+          <p>Existing data and extrapolation to other countries </p>
         </td>
       </tr>
       <tr>
         <td>
-          <p><em>Food waste generation by supply chain stage</em></p>
+          <p>Level II indicator:</p>
+          <p><em>Food waste generation tracked at a national level </em></p>
         </td>
         <td>
-          <p>Collect data on food waste generation from supply chain stages based on national priorities</p>
+          <p>Direct measurement of food waste in retail, food service and households at the national level. Sufficiently accurate for tracking. </p>
         </td>
       </tr>
     </tbody>
   </table>
 
-  <p>A full methodology for this indicator is available in the document
-  entitled, &#x201C;Global Chemicals and Waste Indicator Review Document (UNEP,
-  forthcoming)&#x201D;.</p>
-
   <p><strong>Concepts:</strong></p>
 
-  <p><em>Food: </em>Any substance&#x2014;whether processed, semi-processed, or
-  raw&#x2014;that is intended for human consumption. &#x201C;Food&#x201D;
+  <p><em>Food: </em>Any substance &#x2014; whether processed, semi-processed, or
+  raw &#x2014; that is intended for human consumption. &#x201C;Food&#x201D;
   includes drink and any substance that has been used in the manufacture,
   preparation, or treatment of food. &#x201C;Food&#x201D; also includes material
   that has spoiled and is therefore no longer fit for human consumption. It does
@@ -81,41 +97,74 @@ STAT_CONC_DEF: >-
   market cleansing waste), if managed as waste. Further information on municipal
   solid waste is defined in the SDG indicator methodology for 11.6.1.</p>
 UNIT_MEASURE: |-
-  <p>Percent </p>
+  <p>Percent (%)</p>
   <p>Tonnes</p>
   <p>KG</p>
-SOURCE_TYPE: |-
-  <ol>
-    <li>Data provided by national governments, including NSOs and Ministries of Environment</li>
-  </ol>
-COLL_METHOD: |-
+CLASS_SYSTEM: |-
   <ul>
-    <li>UNEP is exploring the use of the UNSD/UNEP Questionnaire on Environment Statistics for data collection. Additional data will be collected through directly by UNEP.</li>
+    <li>International Standard Industrial Classification of All Economic Activities (ISIC), Rev.4.</li>
+    <li>Standard Country or Area Codes for Statistical Use (UN M49 classification of countries and regions).</li>
   </ul>
-FREQ_COLL: <p>The UNSD/UNEP Questionnaire is every 2 years.</p>
-REL_CAL_POLICY: |-
-  <ol>
-    <li>First SDG reporting cycle: 2021</li>
-  </ol>
-DATA_SOURCE: <p>National Statistical Systems </p>
-COMPILING_ORG: <p>UNSD and UNEP</p>
+SOURCE_TYPE: >-
+  <p>Level 1 indicator: Indicators estimated by international organisations
+  using country data from different sources.</p>
+
+  <p>Level 2 indicator: Data provided by national governments, including
+  National Statistical Offices (NSOs), Ministries of Environment and other
+  relevant organizations.</p>
+COLL_METHOD: >-
+  <p>Level 2 indicator: The United Nations Environment Programme (UNEP) plans to
+  pilot national data collection in 2023. </p>
+
+  <ul>
+    <li>UNEP and UNSD are exploring the possibility of using the UNSD/UNEP Questionnaire on Environment Statistics for future data collection. </li>
+  </ul>
+FREQ_COLL: >-
+  <p>Level 2 indicator: First data collection in 2023. Thereafter, the data
+  collection calendar will be harmonized with the UNSD/UNEP Questionnaire on
+  Environment Statistics (every 2 years).</p>
+REL_CAL_POLICY: >-
+  <p>Level 1 indicator: First reporting cycle in 2021. </p>
+
+  <p>Level 2 indicator: First data reporting in 2023. Thereafter, the data
+  collection calendar will be harmonized with the UNSD/UNEP Questionnaire on
+  Environment Statistics (is every 2 years).</p>
+DATA_SOURCE: >-
+  <p>National Statistical Offices, relevant ministries and other
+  oranizations</p>
+COMPILING_ORG: >-
+  <p>United Nations Statistics Division (UNSD) and United Nations Environment
+  Programme (UNEP)</p>
+INST_MANDATE: >-
+  <p>The United Nations Environment Programme (UNEP) was mandated as Custodian
+  Agencies for indicator 12.3.1(b) by the Inter-agency and Expert Group on SDG
+  Indicators. In addition, the United Nations Environment Assembly urged Member
+  States to establish mechanisms for measuring food loss and waste, and
+  requested support in providing technical assistance that would allow countries
+  to make measure and make progress. </p>
 RATIONALE: >-
+  <p>The 2030 Agenda for Sustainable Development has emphasized the importance
+  of sustainable production and consumption systems as efficient food systems,
+  on the supply side and the consumption side, contribute to food security and
+  sustainability of natural resource since agriculture is a major user of land
+  and water. </p>
+
   <p>According to an FAO publication in 2011, approximately one-third of all
   food is lost or wasted. This results in economic loss and increased pressure
   on food systems. Reducing food waste is critical to maximizing the value of
   agricultural land and ensuring that natural resources are used in a
   sustainable way. This indicator will not only help countries identify where
-  food is lost and wasted but also it can provide information which Governments,
-  citizens and the private sector can take in order to reduce food waste.</p>
+  food is lost and wasted but it can also provide information which Governments,
+  citizens, and the private sector can use to reduce food waste.</p>
 REC_USE_LIM: >-
-  <p>The challenge resulting from the flexible three-level approach to
-  presenting a methodology is one of consistency and comparability. Can one
-  compare between levels or across methods? Not directly and not without
-  caveats. It is possible to compare at regional levels where the random error
-  is relatively high (e.g. around 25%) for each country but it would not be
-  appropriate to compare countries against each other unless there was a much
-  greater difference in their estimates than the combined amount of error. The
-  approach to consistency is one of transparency against a framework.</p>
+  <p>The challenge resulting from the flexible approach to presenting a
+  methodology is one of consistency and comparability. Can one compare between
+  levels or across methods? Not directly and not without caveats. It is possible
+  to compare at regional levels where the random error is relatively high (e.g.
+  around 25%) for each country but it would not be appropriate to compare
+  countries against each other unless there was a much greater difference in
+  their estimates than the combined amount of error. The approach to consistency
+  is one of transparency against a framework.</p>
 
   <p>Different methods of quantification can also be used for other relevant and
   related purposes (for example, &#x201C;where are the greatest opportunities
@@ -125,33 +174,35 @@ REC_USE_LIM: >-
   without the use of diaries or ethnography. However, direct weighing of waste
   volumes could give a significantly more accurate quantity.</p>
 DATA_COMP: >-
-  <p>A full methodology for this indicator is available in the document
-  entitled, &#x201C;Global Chemicals and Waste Indicator Review Document (UNEP,
-  forthcoming)&#x201D;.</p>
-
   <p>For the purpose of this indicator, the methodology aims to estimate the
   amount of food in total waste stream.</p>
 
-  <p>For level 1, the global modelling approach will estimate a proportion of
-  food in the total waste stream data (e.g. municipal solid waste, MSW) and
-  apply the proportion to the total. The work on this model will utilize the
-  existing efforts to compile information for SDG 11.6.1 on municipal solid
-  waste management and will utilize existing information on global waste,
-  including World Bank publication &#x201C;What a Waste 2.0, A Global Snapshot
-  of Solid Waste Management to 2050&#x201D;. Some countries publish data on the
-  ratio of food waste to the total MSW. The existing data will be used to create
-  a regional coefficient for each SDG sub-region. These regional coefficients
-  will then be applied to the data for 11.6.1 and What a Waste data to fill data
-  gaps. (Not that when a country reports data then no global estimation will be
-  done, the country data will be used directly.) </p>
+  <p><strong>For level 1</strong>, the global modelling approach estimates a
+  proportion of food in the total waste stream data (e.g., municipal solid waste
+  (MSW)) and applies the proportion to the total. The work on this model
+  utilizes the existing efforts to compile information for SDG 11.6.1 on MSW
+  management and utilizes existing information on global waste, including World
+  Bank publication &#x201C;What a Waste 2.0, A Global Snapshot of Solid Waste
+  Management to 2050&#x201D;. Some countries publish data on the ratio of food
+  waste to the total MSW. The existing data are used to create a regional
+  coefficient for each SDG sub-region. These regional coefficients then applies
+  to the data for 11.6.1 and &#x201C;What a Waste&#x201D; data to fill data
+  gaps. </p>
 
-  <p>For level 2, countries should identify the scope of which stages of the
-  supply chain can be covered and estimate the total amount of food wasted for
-  each supply chain stream. The amount of food waste within a stage of the food
-  supply chain shall be established by measuring food waste generated by a
-  sample of food business operators or households in accordance with any of the
-  following methods or a combination of those methods or any other method
-  equivalent in terms of relevance, representativeness and reliability.</p>
+  <p>Note that when a country reports data then no global estimation will be
+  done, the country data will be used directly.</p>
+
+  <p><strong>For level 2</strong>, countries should identify the scope of which
+  stages of the supply chain can be covered and estimate the total amount of
+  food wasted for each supply chain stream. The amount of food waste within a
+  stage of the food supply chain shall be established by measuring food waste
+  generated by a sample of food business operators or households in accordance
+  with any of the following methods, or a combination of those methods, or any
+  other method equivalent in terms of relevance, representativeness, and
+  reliability.</p>
+
+  <p><em>Table 2: Methods of measurement of food waste at different stages of
+  the food supply chain</em></p>
 
   <table>
     <tbody>
@@ -165,45 +216,38 @@ DATA_COMP: >-
       </tr>
       <tr>
         <td>
-          <p>Primary production</p>
+          <p>Manufacturing / processing (if included) </p>
         </td>
-        <td rowspan="5">
-          <p>- Direct measurement</p>
+        <td rowspan="4">
+          <p>Direct measurement (for food-only waste streams) </p>
         </td>
-        <td rowspan="3">
-          <p>-Mass balance</p>
+        <td rowspan="4">
+          <p>Waste composition analysis (for waste streams in which food is mixed with non-food) </p>
         </td>
-        <td rowspan="2"></td>
-        <td colspan="2" rowspan="2">
-          <p>-Questionnaires and interviews</p>
-          <p>-Coefficients and production statistics</p>
-          <p>-Waste composition analysis</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>Processing and manufacturing</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>Retail and other distribution of food</p>
-        </td>
-        <td rowspan="3">
-          <p>-Waste composition analysis</p>
+        <td rowspan="4">
+          <p>Volumetric assessment </p>
         </td>
         <td rowspan="2">
-          <p>-Counting/ scanning</p>
+          <p>Mass Balance </p>
         </td>
         <td></td>
+        <td rowspan="2"></td>
       </tr>
       <tr>
         <td>
-          <p>Restaurants and food services</p>
+          <p>Retail and other distribution of food </p>
+        </td>
+        <td rowspan="2">
+          <p>Counting/ scanning </p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Food service (out-of-home consumption in restaurants, schools, hospitals, other canteens, etc.) </p>
         </td>
         <td rowspan="2"></td>
         <td rowspan="2">
-          <p>-Diaries</p>
+          <p>Diaries (for material going down sewer, home composted or fed to animals </p>
         </td>
       </tr>
       <tr>
@@ -275,6 +319,21 @@ DATA_COMP: >-
         <mrow>
           <msub>
             <mrow>
+              <mi>A</mi>
+              <mi>n</mi>
+              <mi>n</mi>
+              <mi>u</mi>
+              <mi>a</mi>
+              <mi>l</mi>
+              <mi>&amp;nbsp;</mi>
+              <mi>A</mi>
+              <mi>v</mi>
+              <mi>e</mi>
+              <mi>r</mi>
+              <mi>a</mi>
+              <mi>g</mi>
+              <mi>e</mi>
+              <mi>&amp;nbsp;</mi>
               <mi>P</mi>
               <mi>o</mi>
               <mi>p</mi>
@@ -295,10 +354,10 @@ DATA_COMP: >-
     </math></p>
   <p>where: </p>
 
-  <p>t = year </p>
+  <p><em>t</em> = year </p>
 
-  <p>total food waste is the sum of waste in four sectors in a given year as per
-  the formula below:</p>
+  <p><em>Total food waste</em> is the sum of waste in three sectors in a given
+  year as per the formula below:</p>
 
   <p><math xmlns="http://www.w3.org/1998/Math/MathML">
       <msub>
@@ -334,10 +393,7 @@ DATA_COMP: >-
         <mrow>
           <msub>
             <mrow>
-              <mi>i</mi>
-              <mi>n</mi>
-              <mi>&amp;nbsp;</mi>
-              <mi>h</mi>
+              <mi>H</mi>
               <mi>o</mi>
               <mi>u</mi>
               <mi>s</mi>
@@ -365,23 +421,7 @@ DATA_COMP: >-
         <mrow>
           <msub>
             <mrow>
-              <mi>R</mi>
-              <mi>e</mi>
-              <mi>s</mi>
-              <mi>t</mi>
-              <mi>a</mi>
-              <mi>u</mi>
-              <mi>r</mi>
-              <mi>a</mi>
-              <mi>n</mi>
-              <mi>t</mi>
-              <mi>s</mi>
-              <mi>&amp;nbsp;</mi>
-              <mi>a</mi>
-              <mi>n</mi>
-              <mi>d</mi>
-              <mi>&amp;nbsp;</mi>
-              <mi>f</mi>
+              <mi>F</mi>
               <mi>o</mi>
               <mi>o</mi>
               <mi>d</mi>
@@ -393,7 +433,6 @@ DATA_COMP: >-
               <mi>i</mi>
               <mi>c</mi>
               <mi>e</mi>
-              <mi>s</mi>
               <mi>&amp;nbsp;</mi>
             </mrow>
             <mrow>
@@ -418,33 +457,6 @@ DATA_COMP: >-
               <mi>a</mi>
               <mi>i</mi>
               <mi>l</mi>
-            </mrow>
-            <mrow>
-              <mi>t</mi>
-            </mrow>
-          </msub>
-        </mrow>
-      </msub>
-      <mo>+</mo>
-      <msub>
-        <mrow>
-          <mi>F</mi>
-          <mi>W</mi>
-        </mrow>
-        <mrow>
-          <msub>
-            <mrow>
-              <mi>M</mi>
-              <mi>a</mi>
-              <mi>n</mi>
-              <mi>u</mi>
-              <mi>f</mi>
-              <mi>a</mi>
-              <mi>c</mi>
-              <mi>t</mi>
-              <mi>u</mi>
-              <mi>r</mi>
-              <mi>e</mi>
             </mrow>
             <mrow>
               <mi>t</mi>
@@ -658,6 +670,21 @@ DATA_COMP: >-
         <mrow>
           <msub>
             <mrow>
+              <mi>A</mi>
+              <mi>n</mi>
+              <mi>n</mi>
+              <mi>u</mi>
+              <mi>a</mi>
+              <mi>l</mi>
+              <mi>&amp;nbsp;</mi>
+              <mi>A</mi>
+              <mi>v</mi>
+              <mi>e</mi>
+              <mi>r</mi>
+              <mi>a</mi>
+              <mi>g</mi>
+              <mi>e</mi>
+              <mi>&amp;nbsp;</mi>
               <mi>P</mi>
               <mi>o</mi>
               <mi>p</mi>
@@ -731,7 +758,7 @@ DATA_COMP: >-
       </msub>
     </math> is the proportion of total MSW made up of food waste in the year, which can be estimated from waste composition studies</p>
   <p>The food waste index for the year is then calculated using the simplified
-  estimate of food waste per capita in the same formula as above </p>
+  estimate of food waste per capita in the same formula as above: </p>
 
   <p><math xmlns="http://www.w3.org/1998/Math/MathML">
       <msub>
@@ -865,12 +892,12 @@ DATA_COMP: >-
       <mn>100</mn>
     </math></p>
 DATA_VALIDATION: >-
-  <p>UNSD carries out extensive data validation procedures that include built-in
-  automated procedures, manual checks and cross-references to national sources
-  of data. Communication is carried out with countries for clarification and
-  validation of data. Only data that are considered accurate or those confirmed
-  by countries during the validation process are included in UNSD&#x2019;s
-  environment statistics database and disseminated on UNSD&#x2019;s website</p>
+  <p>The United Nations Environment Programme (UNEP) and the United Nations
+  Statistics Division (UNSD) carries out extensive data validation procedures
+  that include built-in automated procedures, manual checks and cross-references
+  to national sources of data. Communication is carried out with countries for
+  clarification and validation of data. </p>
+ADJUSTMENT: <p>No adjustments are made.</p>
 IMPUTATION: >-
   <p>Missing values are not imputed for national figures. However, UNEP is using
   a global modelling approach for level 1 (this is due to the lack of data on
@@ -881,25 +908,44 @@ REG_AGG: >-
   levels. For the aggregation methods, please see: <a
   href="http://wesr.unep.org/media/docs/graphs/aggregation_methods.pdf">http://wesr.unep.org/media/docs/graphs/aggregation_methods.pdf</a>.
   </p>
-DOC_METHOD: >-
-  <p>Global Chemicals and Waste Indicator Review Document (UNEP,
-  forthcoming)</p>
+DOC_METHOD: |-
+  <ul>
+    <li><a href="https://www.unep.org/resources/report/unep-food-waste-index-report-2021">UNEP (2021). Food Waste Index Report 2021</a>.</li>
+    <li><a href="https://www.unep.org/resources/publication/global-chemicals-and-waste-indicator-review-document">UNEP (2021). Global Chemicals and Waste Indicator Review Document</a>. </li>
+  </ul>
+QUALITY_MGMNT: >-
+  <p>Quality management is provided by the United Nations Environment Programme
+  (UNEP) and the United Nations statistics Division (UNSD).</p>
+QUALITY_ASSURE: >-
+  <p>Quality assurance is provided by the United Nations Environment Programme
+  (UNEP) and the United Nations statistics Division (UNSD) in cooperation with
+  the countries that provide these data.</p>
+QUALITY_ASSMNT: >-
+  <p>Quality assessment is provided by the United Nations Environment Programme
+  (UNEP) and the United Nations statistics Division (UNSD).</p>
 COVERAGE: >-
   <p><strong>Data availability:</strong></p>
 
-  <p>All countries that reply to the questionnaire. </p>
+  <p>Level 1 indicator: modelled data are available for all countries.</p>
+
+  <p>Level 2 indicator: forthcoming.</p>
 
   <p><strong>Time series:</strong></p>
 
-  <p>The UNSD/UNEP Questionnaire is sent to countries every 2 years requesting
-  annual data.</p>
+  <p>Level 1 indicator: The data sets presented in the SDG database for
+  2019.</p>
+
+  <p>Level 2 indicators: Forthcoming.</p>
 
   <p><strong>Disaggregation:</strong></p>
 
   <p>Ideally, food waste would be disaggregated by edible and inedible parts
-  (Note that it is important to take into account the difference between
-  countries in terms of inedible parts. Nicholes et al. provides some insight
-  into differences between countries. </p>
+  (Note that it is important to consider the difference between countries in
+  terms of inedible parts. Nicholes et al. 2019 provides some insight into
+  differences between countries.</p>
+
+  <p>Food waste also would be disaggregated by lifecycle stage (or sector):
+  retail, food service, households.</p>
 
   <p>Disaggregation of food waste by destination is important for understanding
   the best way to optimize the use of food waste for fertilizer. This includes:
@@ -911,21 +957,31 @@ COVERAGE: >-
     <li>Controlled combustion,</li>
     <li>Land application,</li>
     <li>Landfill,</li>
-    <li>Refuse/discards/litter,</li>
+    <li>Refuse/discards/litter.</li>
   </ul>
 COMPARABILITY: >-
   <p><strong>Sources of discrepancies:</strong></p>
 
-  <p>As mentioned, waste statistics involve a large number of national and
-  sub-national stakeholders which may create discrepancies. Additionally, there
-  are a number of challenges related to the following:</p>
+  <p>As mentioned earlier in 3.a, waste statistics involve a large number of
+  national and sub-national stakeholders which may create discrepancies.
+  Additionally, there are a number of challenges related to the following:</p>
 
   <ul>
-    <li>Variations in waste over time can have a significant impact on estimated quantities of waste when short studies (e.g. a week) are used to represent a longer time period (a year)</li>
-    <li>The specific time of year when a study takes place which may affect the waste produced;</li>
-    <li>Natural variation over time in amounts of waste generated by single entities (e.g. households or restaurants). </li>
+    <li>Variations in waste over time can have a significant impact on estimated quantities of waste when short studies (e.g. a week) are used to represent a longer time period (a year),</li>
+    <li>The specific time of year when a study takes place which may affect the waste produced,</li>
+    <li>Natural variation over time in amounts of waste generated by single entities (e.g., households or restaurants), </li>
     <li>At a national level, countries may have to rely on other entities to measure their own waste and report to the government, which would then be collated and analysed to estimate the total amount. How the data is collected would vary by the food chain stage as the way food waste is generated in each stage varies. For example, a large formal retailer (supermarket chain) may keep records of stock unsold and discarded which could be reported. On the other hand, a government requesting reporting from households may have to issue guidance to local municipalities and prescribe a quantification method e.g. a food waste diary. The reported quantities may require scaling if a government cannot obtain reports from the entire population of the food chain stage i.e. it is unlikely that every household in the country would report.</li>
   </ul>
 OTHER_DOC: >-
-  <p>Global Chemicals and Waste Indicator Review Document (UNEP,
-  forthcoming)</p>
+  <p><a
+  href="https://www.unep.org/resources/report/unep-food-waste-index-report-2021">UNEP
+  (2021). Food Waste Index Report 2021</a>.</p>
+
+  <p><a
+  href="https://www.unep.org/resources/publication/global-chemicals-and-waste-indicator-review-document">UNEP
+  (2021). Global Chemicals and Waste Indicator Review Document</a>.</p>
+
+  <p>Nicholes, M. J., Quested, T. E., Reynolds, C., Gillick, S., &amp; Parry, A.
+  D. (2019). Surely you don&#x2019;t eat parsnip skins? Categorising the
+  edibility of food waste. Resources, Conservation and Recycling, 147,
+  179&#x2013;188. https://doi.org/10.1016/j.resconrec.2019.03.004</p>

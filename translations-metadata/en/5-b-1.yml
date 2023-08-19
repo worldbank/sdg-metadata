@@ -6,9 +6,9 @@ SDG_TARGET: >-
 SDG_INDICATOR: >-
   <p>Indicator 5.b.1: Proportion of individuals who own a mobile telephone, by
   sex</p>
-SDG_SERIES_DESCR: <p>Not Applicable </p>
-META_LAST_UPDATE: <p>2021-08-20</p>
-SDG_RELATED_INDICATORS: '<p>1.4, 2.c, 11.b, 12.8, 13.1, 16.10, 17.8</p>'
+SDG_SERIES_DESCR: '<p>Proportion of individuals who own a mobile telephone, by sex (%)</p>'
+META_LAST_UPDATE: '2023-03-31'
+SDG_RELATED_INDICATORS: '<p>4.4.1, 9.c.1, 17.6.1, 17.8.1</p>'
 SDG_CUSTODIAN_AGENCIES: <p>International Telecommunication Union (ITU)</p>
 CONTACT_ORGANISATION: <p>International Telecommunication Union (ITU)</p>
 STAT_CONC_DEF: >-
@@ -31,74 +31,81 @@ STAT_CONC_DEF: >-
 
   <p>A mobile (cellular) telephone refers to a portable telephone subscribing to
   a public mobile telephone service using cellular technology, which provides
-  access to the PSTN. This includes analogue and digital cellular systems and
-  technologies such as IMT-2000 (3G) and IMT-Advanced. Users of both postpaid
-  subscriptions and prepaid accounts are included.</p>
-UNIT_MEASURE: <p>Percentage of individuals</p>
+  access to the Public Switched Telephone Network (PSTN). This includes analogue
+  and digital cellular systems and technologies such as IMT-2000 (3G) and
+  IMT-Advanced. Users of both postpaid subscriptions and prepaid accounts are
+  included.</p>
+UNIT_MEASURE: <p>Percent (%) (of individuals)</p>
 CLASS_SYSTEM: >-
   <p>For countries that collect this data through an official survey, and if
   data allow breakdown and disaggregation, the indicator can be broken down by
-  region (urban/rural), by sex, by age group, by educational level (ISCED), by
-  labour force status (ILO), and by occupation (ISCO). ITU collects data for all
-  of these breakdowns from countries.</p>
+  region (urban/rural), sex, age group, educational level (International
+  Standard Classification of Education (ISCED) ), by labour force status
+  (International Labour Organization (ILO)), and by occupation (International
+  Standard Classification of Occupation (ISCO)). The International
+  Telecommunication Union (ITU)) collects data for all these breakdowns from
+  countries.</p>
 SOURCE_TYPE: >-
-  <p>This indicator is a newly developed ITU indicator that was approved by the
-  World Telecommunication/ICT Indicators Symposium (WTIS) in 2014. The
-  indicator&#x2019;s definition and methodology were developed under the
-  coordination of ITU, through its Expert Groups and following an extensive
-  consultation process with countries. Data for the proportion of individuals
-  owning a mobile phone were first collected in 2015, through an annual
-  questionnaire that ITU sends to national statistical offices (NSO). In this
-  questionnaire, through which ITU already collects a number of ICT indicators,
-  ITU collects absolute values. The percentages are calculated a-posteriori. The
-  survey methodology is verified to ensure that it meets adequate statistical
-  standards. The data are verified to ensure consistency with previous
-  years&#x2019; data and other relevant country-level indicators (ICT and
-  economic).</p>
+  <p>This indicator is a newly developed International Telecommunication Union
+  (ITU) indicator that was approved by the World Telecommunication/ICT
+  Indicators Symposium (WTIS) in 2014. The indicator&#x2019;s definition and
+  methodology were developed under the coordination of ITU, through its Expert
+  Groups, and following an extensive consultation process with countries. Data
+  for the proportion of individuals owning a mobile phone were first collected
+  in 2015 through an annual questionnaire that ITU sends to National Statistical
+  Offices (NSO). In this questionnaire, through which ITU already collects
+  several ICT indicators, ITU collects absolute values. The percentages are
+  calculated a-posteriori. The survey methodology is verified to ensure that it
+  meets adequate statistical standards. The data are verified to ensure
+  consistency with previous years&#x2019; data and other relevant country-level
+  indicators (ICT and economic).</p>
 
   <p>Data are usually not adjusted, but discrepancies in the definition, age
-  scope of individuals, reference period or the break in comparability between
+  scope of individuals, reference period, or the break in comparability between
   years are noted in a data note. For this reason, data are not always strictly
   comparable.</p>
 COLL_METHOD: >-
-  <p>ITU collects data on this indicator through an annual questionnaire that it
-  sends to the heads of the national statistical offices (NSO). In this
-  questionnaire, through which ITU already collects a number of ICT indicators,
-  ITU collects absolute values. The percentages are calculated a-posteriori. The
-  survey methodology is verified to ensure that it meets adequate statistical
-  standards. The data are verified to ensure consistency with previous
-  years&#x2019; data and other relevant country-level indicators (ICT and
-  economic). </p>
+  <p>The International Telecommunication Union (ITU) collects data on this
+  indicator through an annual questionnaire that it sends to the heads of the
+  National Statistical Offices (NSO). In this questionnaire, through which ITU
+  already collects several ICT indicators, ITU collects absolute values. The
+  percentages are calculated a-posteriori. The survey methodology is verified to
+  ensure that it meets adequate statistical standards. The data are verified to
+  ensure consistency with previous years&#x2019; data and other relevant
+  country-level indicators (ICT and economic). </p>
 FREQ_COLL: >-
-  <p>Various. Each survey has its own data collection cycle. ITU collects data
-  twice a year from Member States, in Q1 and in Q3.</p>
+  <p>The data are collected using the ITU Short and Long ICT Household
+  questionnaires. . Each survey has its own data collection cycle. The
+  International Telecommunication Union (ITU) collects data twice a year from
+  Member States, in Q1 using the short questionnaire and in Q3 using the long
+  questionnaire.</p>
 REL_CAL_POLICY: >-
   <p>Data are released twice a year, In July and December, in the <a
   href="https://www.itu.int/en/ITU-D/Statistics/Pages/publications/wtid.aspx">Wor&#x200B;ld
-  Telecommun&#x200B;ic&#x200B;ation/ICT Indicators
-  Database&#x200B;</a>&#x200B;.</p>
+  Telecommun&#x200B;ic&#x200B;ation/ICT Indicators Database&#x200B;</a> (WTID)
+  and in the ITU DataHub&#x200B;, see https://datahub.itu.int/.</p>
 DATA_SOURCE: <p>National Statistical Offices (NSOs).</p>
-COMPILING_ORG: <p>ITU</p>
+COMPILING_ORG: <p>International Telecommunication Union (ITU)</p>
 INST_MANDATE: >-
-  <p>As the UN specialized agency for ICTs, ITU is the official source for
-  global ICT statistics, collecting ICT data from its Member States. </p>
+  <p>As the UN specialized agency for information and communication technologies
+  (ICTs), the International Telecommunication Union (ITU) is the official source
+  for global ICT statistics, collecting ICT data from its Member States. </p>
 RATIONALE: >-
   <p>Mobile phone networks have spread rapidly over the last decade and the
-  number of mobile-cellular subscriptions is quasi equal to the number of the
-  people living on earth. However, not every person uses, or owns a
-  mobile-cellular telephone. Mobile phone ownership, in particular, is important
-  to track gender equality since the mobile phone is a personal device that, if
-  owned and not just shared, provides women with a degree of independence and
-  autonomy, including for professional purposes. A number of studies have
-  highlighted the link between mobile phone ownership and empowerment, and
-  productivity growth.</p>
+  number of mobile-cellular subscriptions is quasi equal to the number of people
+  living on earth. However, not every person uses or owns a mobile-cellular
+  telephone. Mobile phone ownership, in particular, is important to track gender
+  equality since the mobile phone is a personal device that, if owned and not
+  just shared, provides women with a degree of independence and autonomy,
+  including for professional purposes. Several studies have highlighted the link
+  between mobile phone ownership and empowerment, and productivity growth.</p>
 
   <p>Existing data on the proportion of women owning a mobile phone suggest that
-  less women than men own a mobile phone. This indicator highlights the
-  importance of mobile phone ownership to track and to improve gender equality,
-  and monitoring will help design targeted policies to overcome the gender
-  divide. The collection of this indicator was proposed by the Task Group on
-  Gender of the Partnership on Measuring ICT for Development.</p>
+  fewer women than men own a mobile phone. This indicator highlights the
+  importance of mobile phone ownership to track and improve gender equality, and
+  monitoring will help design targeted policies to overcome the gender divide.
+  The collection of this indicator was proposed by the Task Group on Gender of
+  the Partnership on Measuring ICT for Development.</p>
 REC_USE_LIM: >-
   <p>While the data on the &#x2018;proportion of individuals who own a mobile
   telephone&#x2019; currently only exist for very few countries, ITU is
@@ -112,18 +119,143 @@ DATA_COMP: >-
   surveys. This indicator is calculated by dividing the total number of in-scope
   individuals who own a mobile phone by the total number of in-scope
   individuals.</p>
+
+  <p><math xmlns="http://www.w3.org/1998/Math/MathML">
+      <mi>&amp;nbsp;</mi>
+      <mo>[</mo>
+      <mo>(</mo>
+      <mi>n</mi>
+      <mi>u</mi>
+      <mi>m</mi>
+      <mi>b</mi>
+      <mi>e</mi>
+      <mi>r</mi>
+      <mi>&amp;nbsp;</mi>
+      <mi>o</mi>
+      <mi>f</mi>
+      <mi>&amp;nbsp;</mi>
+      <mi>i</mi>
+      <mi>n</mi>
+      <mo>-</mo>
+      <mi>s</mi>
+      <mi>c</mi>
+      <mi>o</mi>
+      <mi>p</mi>
+      <mi>e</mi>
+      <mi>&amp;nbsp;</mi>
+      <mi>i</mi>
+      <mi>n</mi>
+      <mi>d</mi>
+      <mi>i</mi>
+      <mi>v</mi>
+      <mi>i</mi>
+      <mi>d</mi>
+      <mi>u</mi>
+      <mi>a</mi>
+      <mi>l</mi>
+      <mi>s</mi>
+      <mi>&amp;nbsp;</mi>
+      <mi>o</mi>
+      <mi>w</mi>
+      <mi>n</mi>
+      <mi>i</mi>
+      <mi>n</mi>
+      <mi>g</mi>
+      <mi>&amp;nbsp;</mi>
+      <mi>a</mi>
+      <mi>&amp;nbsp;</mi>
+      <mi>m</mi>
+      <mi>o</mi>
+      <mi>b</mi>
+      <mi>i</mi>
+      <mi>l</mi>
+      <mi>e</mi>
+      <mi>&amp;nbsp;</mi>
+      <mi>p</mi>
+      <mi>h</mi>
+      <mi>o</mi>
+      <mi>n</mi>
+      <mi>e</mi>
+      <mo>)</mo>
+      <mi>&amp;nbsp;</mi>
+      <mo>/</mo>
+      <mi>&amp;nbsp;</mi>
+      <mo>(</mo>
+      <mi>t</mi>
+      <mi>o</mi>
+      <mi>t</mi>
+      <mi>a</mi>
+      <mi>l</mi>
+      <mi>&amp;nbsp;</mi>
+      <mi>n</mi>
+      <mi>u</mi>
+      <mi>m</mi>
+      <mi>b</mi>
+      <mi>e</mi>
+      <mi>r</mi>
+      <mi>&amp;nbsp;</mi>
+      <mi>o</mi>
+      <mi>f</mi>
+      <mi>&amp;nbsp;</mi>
+      <mi>i</mi>
+      <mi>n</mi>
+      <mo>-</mo>
+      <mi>s</mi>
+      <mi>c</mi>
+      <mi>o</mi>
+      <mi>p</mi>
+      <mi>e</mi>
+    </math></p>
+  <p><math xmlns="http://www.w3.org/1998/Math/MathML">
+      <mi>i</mi>
+      <mi>n</mi>
+      <mi>d</mi>
+      <mi>i</mi>
+      <mi>v</mi>
+      <mi>i</mi>
+      <mi>d</mi>
+      <mi>u</mi>
+      <mi>a</mi>
+      <mi>l</mi>
+      <mi>s</mi>
+      <mo>)</mo>
+      <mo>]</mo>
+      <mi>*</mi>
+      <mn>100</mn>
+    </math></p>
 DATA_VALIDATION: >-
-  <p>Data are submitted by Member States to ITU. ITU checks and validates the
-  data, in consultation with the Member States. </p>
+  <p>Data are submitted by Member States to The International Telecommunication
+  Union (ITU). ITU checks and validates the data, in consultation with the
+  Member States. </p>
 ADJUSTMENT: <p>No adjustments are made to the data submitted by countries.</p>
-IMPUTATION: |-
+IMPUTATION: >-
   <p><strong>&#x2022; At country level</strong></p>
+
   <p>Missing values are not estimated. </p>
+
   <p><strong>&#x2022; At regional and global levels</strong></p>
-  <p>Missing values are not estimated.</p>
+
+  <p>In the absence of official household surveys, International
+  Telecommunication Union (ITU) estimates the percentage of individuals owning
+  mobile phones (owners of mobile phones as a percentage of total population)
+  using various techniques, such as hot-deck imputation, regression models and
+  time series forecast, using data such as Internet use, income, education and
+  other ICT indicators.</p>
 REG_AGG: >-
-  <p>ITU has not produced any global estimates but is working on a methodology
-  to produce global estimates for this indicator.</p>
+  <p>Country-level data on the percentage of individuals owning mobile phones
+  (owners of mobile phones as a percentage of total population) are first
+  estimated using various techniques, such as hot-deck imputation, regression
+  models and time series forecast. Hot-deck imputation uses data from countries
+  with &#x201C;similar&#x201D; characteristics, such as GNI per capita and
+  geographic location. In cases when it is not possible to find an adequate
+  imputation based on similar cases, regression models are applied.</p>
+
+  <p>Once the country-level percentages are available for all countries, the
+  number of mobile phone owners are calculated by multiplying the percentages to
+  the population of the country. The regional and world total mobile phone
+  owners were calculated by summing the country-level data. The aggregate
+  percentages were calculated by dividing the regional totals by the population
+  of respective groups.</p>
 DOC_METHOD: >-
   <p>ITU Manual for Measuring ICT Access and Use by Households and Individuals
   2020:</p>
@@ -133,8 +265,8 @@ DOC_METHOD: >-
   </p>
 QUALITY_MGMNT: >-
   <p>Data are checked and validated by the ICT Data and Analytics (IDA) Division
-  of the ITU. Countries are contacted to clarify and correct their
-  submissions.</p>
+  of the International Telecommunication Union (ITU). Countries are contacted to
+  clarify and correct their submissions.</p>
 QUALITY_ASSURE: >-
   <p>The guidelines of the Manual for Measuring ICT Access and Use by Households
   and Individuals 2020 are followed.</p>
@@ -155,17 +287,21 @@ COVERAGE: >-
 
   <p>For countries that collect this indicator through a national household
   survey, and if data allow breakdown and disaggregation, the indicator can be
-  broken down not only by sex but also by region (urban/rural), by age group, by
-  educational level, by labour force status, and by occupation.</p>
+  broken down not only by sex but also by region (urban/rural), age group,
+  educational level, labour force status, and occupation. Estimates of regional
+  aggregates by sex are also calculated.</p>
 COMPARABILITY: >-
   <p><strong>Sources of discrepancies:</strong></p>
 
-  <p>None. ITU uses the data provided by countries, including the in-scope
-  population that is used to calculate the percentages.</p>
+  <p>None. The International Telecommunication Union (ITU) uses the data
+  provided by countries, including the in-scope population that is used to
+  calculate the percentages.</p>
 OTHER_DOC: >-
   <p><strong>URL:</strong></p>
 
-  <p>http://www.itu.int/en/ITU-D/Statistics/Pages/default.aspx</p>
+  <p><a
+  href="http://www.itu.int/en/ITU-D/Statistics/Pages/default.aspx">http://www.itu.int/en/ITU-D/Statistics/Pages/default.aspx</a>
+  </p>
 
   <p><strong>References:</strong></p>
 

@@ -8,9 +8,9 @@ SDG_TARGET: >-
 SDG_INDICATOR: >-
   <p>Indicator 8.10.1: (a) Number of commercial bank branches per 100,000 adults
   and (b) Number of automated teller machines (ATMs) per 100,000 adults </p>
-SDG_SERIES_DESCR: <p>NA </p>
-META_LAST_UPDATE: <p>2021-12-06</p>
-SDG_RELATED_INDICATORS: <p>NA</p>
+SDG_SERIES_DESCR: <p>Applies to all series </p>
+META_LAST_UPDATE: '2023-03-31'
+SDG_RELATED_INDICATORS: <p>Not applicable</p>
 SDG_CUSTODIAN_AGENCIES: <p>International Monetary Fund (STAFI - Financial Access Survey Team) </p>
 CONTACT_ORGANISATION: <p>International Monetary Fund (STAFI - Financial Access Survey Team) </p>
 STAT_CONC_DEF: >-
@@ -19,6 +19,9 @@ STAT_CONC_DEF: >-
   <p>The number of commercial bank branches per 100,000 adults </p>
 
   <p>The number of automated teller machines (ATMs) per 100,000 adults </p>
+
+  <p>Adult population<strong> </strong>refers to the total population in the
+  reporting jurisdiction of individuals 15 years old and above</p>
 
   <p> </p>
 
@@ -30,7 +33,7 @@ STAT_CONC_DEF: >-
   (FAS). To make the indicator meaningful for cross-country comparison, the
   number of commercial bank branches is scaled per 100,000 adults. </p>
 
-  <p> The number of automated teller machines (ATMs), refers to the number of
+  <p>The number of automated teller machines (ATMs), refers to the number of
   ATMs in the country for all types of financial institutions such as:
   commercial banks, non-deposit taking microfinance institutions, deposit taking
   micro finance institutions, credit unions and credit cooperatives, and other
@@ -40,12 +43,13 @@ STAT_CONC_DEF: >-
   100,000 adults. </p>
 
   <p> </p>
-UNIT_MEASURE: <p>Number</p>
-CLASS_SYSTEM: <p>NA</p>
+UNIT_MEASURE: '<p>Per 100,000 adults</p>'
+CLASS_SYSTEM: <p>Not applicable</p>
 SOURCE_TYPE: >-
-  <p>The indicators in the FAS database are collected on an annual basis since
-  2009, covering the period since 2004. Information is collected from central
-  banks or other main financial regulators for 189 jurisdictions. </p>
+  <p>The indicators in the Financial Access Survey (FAS) database are collected
+  on an annual basis since 2009, covering the period since 2004. Information is
+  collected from central banks or other main financial regulators for 189
+  jurisdictions. </p>
 
   <p> </p>
 
@@ -54,25 +58,25 @@ SOURCE_TYPE: >-
   href="http://data.imf.org/?sk=E5DCAB7E-A5CA-4892-A6EA-598B5463A34C"
   target="_blank"><u>FAS website</u></a>, along with other key documents. </p>
 COLL_METHOD: >-
-  <p>Every year, the FAS Team reaches out to FAS respondents to initiate the
-  annual survey process. Data are compiled by countries and sent to the IMF
-  through the Integrated Collection System (ICS) or National Summary Data Page
-  (NSDP), which allows for a secure submission of country information. Data are
-  processed and validated by the FAS Team. </p>
+  <p>Every year, the Financial Access Survey (FAS) Team reaches out to FAS
+  respondents to initiate the annual survey process. Data are compiled by
+  countries and sent to the IMF through the Integrated Collection System (ICS)
+  or National Summary Data Page (NSDP), which allows for a secure submission of
+  country information. </p>
 
   <p> </p>
 FREQ_COLL: >-
   <p>The data collection round is launched around end-March every year;
   collection occurs on an annual basis. </p>
 REL_CAL_POLICY: >-
-  <p>FAS data are publicly disseminated on a rolling basis as soon as
-  submissions are reviewed and validated by the FAS Team, with complete
-  dissemination at end-September each year. Submissions that have passed through
-  the validation process are made available on the FAS website on the following
-  Monday after successful validation. </p>
+  <p>The Financial Access Survey (FAS) data are publicly disseminated on a
+  rolling basis as soon as submissions are reviewed and validated by the FAS
+  Team, with complete dissemination at end-September each year. Submissions that
+  have passed through the validation process are made available on the FAS
+  website on the following Monday after successful validation. </p>
 DATA_SOURCE: <p>Central banks or other financial regulators. </p>
 COMPILING_ORG: <p>International Monetary Fund. </p>
-INST_MANDATE: <p>NA</p>
+INST_MANDATE: <p>Not applicable</p>
 RATIONALE: >-
   <p>Access to and use of formal financial services is essential. Services such
   as savings, insurance, payments, credit and remittances allow people to manage
@@ -84,11 +88,12 @@ RATIONALE: >-
   automated teller machines of all formal financial institutions, which can
   extend financial services to remote locations. </p>
 REC_USE_LIM: >-
-  <p>Since 2009, the FAS collects information from administrative sources on an
-  annual basis. The central bank or the main financial regulator reports yearly
-  information including the two indicators that are part of the SDGs. Since its
-  launch, 189 economies have contributed to the FAS, which now contains more
-  than 100 series on financial inclusion covering the period since 2004. </p>
+  <p>Since 2009, the Financial Access Survey (FAS) collects information from
+  administrative sources on an annual basis. The central bank or the main
+  financial regulator reports yearly information including the two indicators
+  that are part of the SDGs. Since its launch, 189 economies have contributed to
+  the FAS, which now contains more than 100 series on financial inclusion
+  covering the period since 2004. </p>
 DATA_COMP: >-
   <p>The indicators are calculated based on data collected directly from the
   central bank or the main financial regulator in the country. The formula to
@@ -409,27 +414,26 @@ DATA_COMP: >-
     </math></p>
   <p>Where &#x201C;i&#x201D; indicates the country and &#x201C;t&#x201D;
   indicates the year. The source of information for the number of commercial
-  bank branches and the number of ATMs is the FAS, while the source of
-  information for the adult population is the World Development Indicators or
-  the CIA Factbook.</p>
+  bank branches and the number of ATMs is the Financial Access Survey (FAS),
+  while the source of information for the adult population is the World
+  Development Indicators or the World Factbook.</p>
 DATA_VALIDATION: >-
-  <p>The FAS questionnaire has built-in consistency checks to help data
-  reporters spot inconsistencies in data reporting. Once the data is reported to
-  the FAS, it undergoes a round of automated validation checks. If any
-  inconsistency is detected, the FAS Team engages with the country authorities
-  for clarifications or adjustments to the data provided. In case a country
-  needs to add additional relevant information pertinent to the data reported,
-  they can do so through the metadata portal in ICS. </p>
+  <p>The Financial Access Survey (FAS) questionnaire has built-in consistency
+  checks to help data reporters spot inconsistencies in data reporting. Once the
+  data is reported to the FAS, it undergoes a round of automated validation
+  checks. If any inconsistency is detected, the FAS Team engages with the
+  country authorities for clarifications or adjustments to the data provided. In
+  case a country needs to add additional relevant information pertinent to the
+  data reported, they can do so through the metadata portal in Integrated
+  Collection System (ICS). </p>
 
-  <p>Every year, submissions are disseminated on the FAS website
-  (data.imf.org/fas) on a rolling basis as soon as they are reviewed and
-  validated. </p>
+  <p>Every year, submissions are disseminated on the FAS website (<a
+  href="https://data.imf.org/?sk=E5DCAB7E-A5CA-4892-A6EA-598B5463A34C">data.imf.org/fas</a>)
+  on a rolling basis as soon as they are reviewed and validated. </p>
 ADJUSTMENT: >-
-  <p><strong> </strong>Adult population<strong> </strong>refers to the total
-  population in the reporting jurisdiction of individuals 15 years old and
-  above. Data are taken from the World Bank&apos;s World Development Indicators
-  database and the CIA Factbook. In cases where data for the most recent period
-  are not available, data for the previous period is used.</p>
+  <p>Data are taken from the World Bank&apos;s World Development Indicators
+  database and the World Factbook. In cases where data for the most recent
+  period are not available, data for the previous period is used.</p>
 IMPUTATION: >-
   <ul>
     <li><strong>At country level </strong></li>
@@ -452,16 +456,16 @@ IMPUTATION: >-
   used for countries that have not reported the latest data. </p>
 REG_AGG: >-
   <p>Country level: information provided by the authorities, recalculated as
-  number of access points per 100,000 adults. For regional values, the FAS
-  aggregates information of all countries and uses country&#x2019;s adult
-  population as weights. </p>
+  number of access points per 100,000 adults. For regional values, the Financial
+  Access Survey (FAS) aggregates information of all countries and uses
+  country&#x2019;s adult population as weights. </p>
 DOC_METHOD: >-
-  <p>Information collected by the FAS relies on the &#x201C;<em>FAS Guidelines
-  and Manual</em>&#x201D;, which is published every year in English, Spanish and
-  French. To foster the use of a common methodology, the definitions of
-  financial institutional units and instruments covered in the FAS are primarily
-  based on the IMF&#x2019;s <em>Monetary and Financial Statistics Manual and
-  Compilation Guide</em> (<a
+  <p>Information collected by the Financial Access Survey (FAS) relies on the
+  &#x201C;<em>FAS Guidelines and Manual</em>&#x201D;, which is published every
+  year in English, Spanish and French. To foster the use of a common
+  methodology, the definitions of financial institutional units and instruments
+  covered in the FAS are primarily based on the IMF&#x2019;s <em>Monetary and
+  Financial Statistics Manual and Compilation Guide</em> (<a
   href="https://www.imf.org/-/media/Files/Data/Guides/mfsmcg-final.ashx"
   target="_blank"><u>https://www.imf.org/-/media/Files/Data/Guides/mfsmcg-final.ashx</u></a>).
   The FAS also publishes a <em>Glossary</em> for FAS indicators. </p>
@@ -472,15 +476,17 @@ DOC_METHOD: >-
   href="http://data.imf.org/?sk=E5DCAB7E-A5CA-4892-A6EA-598B5463A34C&amp;sId=1460040555909"
   target="_blank"><u>FAS website - documents</u></a>. </p>
 QUALITY_MGMNT: >-
-  <p> The FAS questionnaire has built-in consistency checks to help data
-  reporters spot inconsistencies in data reporting. Once the data is reported to
-  the FAS, it undergoes a round of automated validation checks and careful
-  review by the FAS team. The analytical work on the reported data also aids
-  spotting and correcting inconsistencies in the data, if any.</p>
+  <p>The Financial Access Survey (FAS) questionnaire has built-in consistency
+  checks to help data reporters spot inconsistencies in data reporting. Once the
+  data is reported to the FAS, it undergoes a round of automated validation
+  checks and careful review by the FAS team. The analytical work on the reported
+  data also aids spotting and correcting inconsistencies in the data, if
+  any.</p>
 QUALITY_ASSURE: >-
-  <p>FAS data are collected through the ICS or the NSDP, which allows for a
-  secure submission of country information. Data submitted by countries are
-  received internally in a system that facilitates the validation process
+  <p>The Financial Access Survey (FAS) data are collected through the Integrated
+  Collection System (ICS) or the National Summary Data Page (NSDP), which allows
+  for a secure submission of country information. Data submitted by countries
+  are received internally in a system that facilitates the validation process
   conducted by the FAS Team. </p>
 
   <p> </p>
@@ -491,18 +497,19 @@ QUALITY_ASSURE: >-
   pertinent to the data reported, they can do so through the metadata portal in
   ICS. </p>
 QUALITY_ASSMNT: >-
-  <p> The FAS is a supply-side database with data reported from central banks
-  and other financial regulators sourced from administrative data. Supply-side
-  data tend to be more accurate than demand-side surveys. Furthermore, any
-  deviations from the FAS methodology or fluctuations are reported by the
-  country in the metadata, which is available on the FAS data portal. </p>
+  <p>The Financial Access Survey (FAS) is a supply-side database with data
+  reported from central banks and other financial regulators sourced from
+  administrative data. Supply-side data tend to be more accurate than
+  demand-side surveys. Furthermore, any deviations from the FAS methodology or
+  fluctuations are reported by the country in the metadata, which is available
+  on the FAS data portal. </p>
 COVERAGE: >-
   <p><strong>Data availability:</strong></p>
 
-  <p>Covering 189 economies, the FAS provides a unique set of high-quality
-  global supply side data. It contains 121 times series and 70 indicators that
-  are expressed as ratios to GDP, land area, or adult population to facilitate
-  cross-country comparisons. </p>
+  <p>Covering 189 economies, the Financial Access Survey (FAS) provides a unique
+  set of high-quality global supply side data. It contains 121 times series and
+  70 indicators that are expressed as ratios to GDP, land area, or adult
+  population to facilitate cross-country comparisons. </p>
 
   <p><strong>Time series:</strong></p>
 
@@ -513,18 +520,15 @@ COVERAGE: >-
   <p>Data are provided at country level, by year. Aggregates are compiled by
   region in accordance with UN suggested regional aggregations. </p>
 COMPARABILITY: >-
-  <p>The FAS is a supply-side database based on administrative data from central
-  banks or other main financial regulators. The data collection is centralized
-  at the regulatory agency, which sources data from financial institutions and
-  financial services providers for series for which data are available. The
-  regulatory agency reports aggregates for the total economy to the FAS. The FAS
-  provides country-level metadata that explain the institutional coverage of
-  each reporting economy. Data from the FAS may differ from household-based
-  surveys because of possible difference in coverage, scope, or concept
-  definitions. </p>
+  <p>The Financial Access Survey (FAS) is a supply-side database based on
+  administrative data from central banks or other main financial regulators. The
+  data collection is centralized at the regulatory agency, which sources data
+  from financial institutions and financial services providers for series for
+  which data are available. The regulatory agency reports aggregates for the
+  total economy to the FAS. The FAS provides country-level metadata that explain
+  the institutional coverage of each reporting economy. Data from the FAS may
+  differ from household-based surveys because of possible difference in
+  coverage, scope, or concept definitions. </p>
 OTHER_DOC: |-
   <p><strong>URL:</strong> </p>
-  <p>http://data.imf.org/fas </p>
-  <p><strong>References:</strong> </p>
-  <p>FAS website: </p>
   <p>http://data.imf.org/fas </p>

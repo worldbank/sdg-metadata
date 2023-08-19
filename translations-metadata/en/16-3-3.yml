@@ -9,8 +9,8 @@ SDG_INDICATOR: >-
   <p>Indicator 16.3.3: Proportion of the population who have experienced a
   dispute in the past two years and who accessed a formal or informal dispute
   resolution mechanism, by type of mechanism</p>
-SDG_SERIES_DESCR: <p>Not applicable</p>
-META_LAST_UPDATE: '2021-04-01'
+SDG_SERIES_DESCR: <p>Applies to all series</p>
+META_LAST_UPDATE: '2023-03-31'
 SDG_RELATED_INDICATORS: >-
   <p>This indicator complements the other indicators of 16.3 which focus on
   rates of pretrial detention and reporting of victimization and thereby
@@ -68,7 +68,7 @@ STAT_CONC_DEF: >-
 
   <ul>
     <li>Land or buying and selling property</li>
-    <li>Family and relationship break ups</li>
+    <li>Family and relationship break-ups</li>
     <li>Injuries or illnesses caused by an intentional or unintentional act or omission of another person or entity</li>
     <li>Occupation/employment</li>
     <li>Commercial transactions (including defective or undelivered goods or services)</li>
@@ -121,7 +121,7 @@ STAT_CONC_DEF: >-
   href="https://www.oecd.org/governance/legal-needs-surveys-and-access-to-justice-g2g9a36c-en.htm"><em>Legal
   Needs Surveys and Access to Justice</em></a><em> </em>, OECD (2019) <a
   href="#footnote-ref-3">&#x2191;</a></p></div></div>
-UNIT_MEASURE: <p>Percentage/proportion</p>
+UNIT_MEASURE: <p>Percent (%)</p>
 CLASS_SYSTEM: <p>Not applicable</p>
 SOURCE_TYPE: >-
   <p>The Indicator is based on four questions to be included in a household
@@ -136,11 +136,12 @@ SOURCE_TYPE: >-
   residence status. The sampling frame and sample design should ensure that
   results can be disaggregated at sub-national level. The sample size should be
   sufficiently large to capture relevant events and compute needed
-  disaggregations.</p>
+  disaggregation.</p>
 COLL_METHOD: |-
   <ul>
-    <li>Data are collected through a standardised questionnaire sent to countries. This questionnaire provides specific definitions of data to be collected and it collects a set of metadata to identify possible discrepancies from standard definitions and to assess overall data quality (e.g. sample size, target population, agency responsible for the data collection, etc.). </li>
-    <li>Data for multiple years are collected to assess data consistency across time </li>
+    <li>Data are collected by the United Nations Development Programme (UNDP) through a standardised questionnaire sent to countries. This questionnaire provides specific definitions of data to be collected and it collects a set of metadata to identify possible discrepancies from standard definitions and to assess overall data quality (e.g. sample size, target population, agency responsible for the data collection, etc.). </li>
+    <li>Data for multiple years are collected to assess data consistency across time.</li>
+    <li>Countries can use the collected data to calculate the indicators based on the proposed module or using other data sources (e.g. SDG 16 Survey Initiative, crime victimization surveys among others). </li>
   </ul>
 FREQ_COLL: >-
   <p>Countries are encouraged to conduct surveys on access to justice through
@@ -149,8 +150,9 @@ FREQ_COLL: >-
   High Level Political Forum (HLPF).</p>
 REL_CAL_POLICY: >-
   <p>Data on relevant SDG indicators are collected, compiled and sent back to
-  countries for data review annually. Data are then reported to UNSD through the
-  regular reporting channels annually.</p>
+  countries for data review annually. Data are then reported to United Nations
+  Statistics Division (UNSD) through the regular reporting channels
+  annually.</p>
 DATA_SOURCE: >-
   <p>Data are collected through official nationally representative surveys. In
   most countries and most cases, such surveys are conducted by National
@@ -158,8 +160,10 @@ DATA_SOURCE: >-
   other entities may conduct surveys on access to justice according to the same
   methodological standards.</p>
 COMPILING_ORG: >-
-  <p>Data will be compiled by the co-custodians for this indicator (UNODC, UNDP
-  and OECD).</p>
+  <p>Data will be compiled by the co-custodians for this indicator- United
+  Nations Office on Drugs and Crime (UNODC), United Nations Development
+  Programme (UNDP) and Organization for Economic Cooperation and Development
+  (OECD).</p>
 INST_MANDATE: >-
   <p><a
   href="https://www.undp.org/content/undp/en/home/2030-agenda-for-sustainable-development/peace/rule-of-law--justice--security-and-human-rights/access-to-justice.html"><strong>UNDP</strong></a><strong>
@@ -214,10 +218,10 @@ RATIONALE: >-
   <p>This indicator has several advantages: </p>
 
   <ol>
-    <li>It is people-centered, as it measures the experience of justiciable problems from the perspective of those who face them.</li>
+    <li>It is people-centred, as it measures the experience of justiciable problems from the perspective of those who face them.</li>
     <li>It provides a broad assessment of people&#x2019;s approach to address problems they face, both inside and outside of formal institutions or mechanisms.</li>
     <li>It focuses on the experience of accessing justice mechanisms or institutions when in need</li>
-    <li>It is easy to interpret</li>
+    <li>It is easy to interpret.</li>
     <li>It can be produced on the basis of few survey questions, which can be easily incorporated into ongoing national surveys.</li>
     <li>It is well suited to monitor public policies aimed at improving the functioning of formal or informal dispute resolution mechanisms (top-down policies) and to those aimed at empowering the population (bottom-up policies).</li>
     <li>It can be disaggregated by various socio-demographic (such as age, sex, migratory background, etc.) and geographical variables and thus be used to identify vulnerable groups/areas.</li>
@@ -257,14 +261,14 @@ REC_USE_LIM: >-
   <p>The share of population experiencing the disputes under investigation can
   be of relatively small size and this can influence the statistical
   significance of results. A way to address this is to increase the
-  survey&#x2019;s reference period, recognizing that respondents&#x2019; ability
-  to recall specific issues becomes increasingly unreliable the further back in
-  time it extends. For these reasons, this proposal follows the recommendation
-  from the Legal Needs Surveys and Access to Justice methodological guidance and
-  suggests a reference interval of two years. With such reference period
-  resulting data would be suitable for monitoring recent changes in
-  contexts/policies while being based on a sufficient number of cases to ensure
-  statistical significance of analyses .<sup><a href="#footnote-6"
+  question&#x2019;s reference period, recognizing that respondents&#x2019;
+  ability to recall specific issues becomes increasingly unreliable the further
+  back in time it extends. For these reasons, this proposal follows the
+  recommendation from the Legal Needs Surveys and Access to Justice
+  methodological guidance and suggests a reference interval of two years. With
+  such reference period resulting data would be suitable for monitoring recent
+  changes in contexts/policies while being based on a sufficient number of cases
+  to ensure statistical significance of analyses.<sup><a href="#footnote-6"
   id="footnote-ref-6">[5]</a></sup> Possible telescoping effects (the effect of
   misplacement in time of events taking place in the past) need to be addressed
   properly by bounding in clear terms the time interval of reference in relevant
@@ -549,17 +553,19 @@ DATA_VALIDATION: >-
   frameworks in relation of data quality. In addition to the data, countries are
   requested to report on the metadata which serves as one additional layer of
   validation and verification of the data by confronting with the metadata used
-  and the recommended for global reporting. Before publication by custodian
-  agencies, a standardised &#x201C;pre-publication process&#x201D; is
-  implemented, where national stakeholders can verify and review the data before
-  publication. </p>
+  and the recommended for global reporting. For survey-based indicators,
+  metadata are assessed in relation to the representativeness and coverage of
+  the survey as well as alignment of question wording and answer options with
+  international standards. Before publication by custodian agencies, a
+  standardised &#x201C;pre-publication process&#x201D; is implemented, where
+  national stakeholders can verify and review the data before publication. </p>
 
   <p> </p>
-ADJUSTMENT: <p>Not applicable.</p>
+ADJUSTMENT: <p>Not applicable</p>
 IMPUTATION: >-
   <p>&#x2022; <strong>At country level</strong></p>
 
-  <p>National data are not estimated if data derived from surveys conducted at
+  <p>National data are not imputed if data derived from surveys conducted at
   country level are not available</p>
 
   <p>&#x2022; <strong>At regional and global levels</strong></p>
@@ -576,8 +582,8 @@ DOC_METHOD: >-
   conducted by Statistics South Africa in 2019, Kenya Integrated Household
   Budget Survey 2015-2016 conducted by KNBS; Argentina - Unmet Legal Needs and
   Access to Justice conducted by the Subsecretar&#xED;a de Acceso a la Justicia
-  Ministerio de Justicia y Derechos Humanos; or Colombia - National Quality of
-  Life Survey conducted by DANE). </p>
+  Ministerio de Justicia y Derechos Humanos; or Colombia &#x2013; Survey of
+  Citizen Security and Coexistence conducted by DANE). </p>
 
   <p>Furthermore, the Legal Needs Surveys and Access to Justice methodological
   guidance published by OECD in 2019 provides methodological guidance for
@@ -585,11 +591,29 @@ DOC_METHOD: >-
   together the experience gained through more than 60 national surveys conducted
   by governments and civil society organizations in more than 30 jurisdictions
   in the last 25 years.</p>
+
+  <p>In 2022, the United Nations Office on Drugs and Crime (UNODC) together with
+  the United Nations Development Program (UNDP) and the Office of the United
+  Nations High Commissioner on Human Rights (OHCHR) published the SDG 16 Survey
+  Questionnaire<sup><a href="#footnote-7" id="footnote-ref-7">[6]</a></sup> and
+  Implementation Manual<sup><a href="#footnote-8"
+  id="footnote-ref-8">[7]</a></sup>, which contain internationally standardised
+  survey question wording (in the five official UN languages) as well as
+  implementation guidance related to this indicator. </p><div
+  class="footnotes"><div><sup class="footnote-number" id="footnote-7">6</sup><p>
+  See <a
+  href="https://www.sdg16hub.org/topic/sdg-16-survey-initiative-questionnaire">SDG
+  16 Initiative Questionnaire</a> <a
+  href="#footnote-ref-7">&#x2191;</a></p></div><div><sup class="footnote-number"
+  id="footnote-8">7</sup><p> See <a
+  href="https://www.sdg16hub.org/topic/sdg-16-survey-initiative-implementation-manual">SDG
+  16 Initiative Implementation Manual</a> <a
+  href="#footnote-ref-8">&#x2191;</a></p></div></div>
 QUALITY_MGMNT: >-
   <p>The three custodian agencies have statistical units with dedicated staff to
   support the data collection through technical assistance, collating and
-  verifying the received data and continuesly improve data collection mechanisms
-  including guidelines.</p>
+  verifying the received data and continuously improve data collection
+  mechanisms including guidelines.</p>
 QUALITY_ASSURE: >-
   <p>It is recommended that NSOs serve as the main contact for compiling and
   quality assuring the necessary data to report on SDG 16.3.3, in close
@@ -597,14 +621,7 @@ QUALITY_ASSURE: >-
   country. Automated and substantive validation procedures are in place when
   data are processed by custodian agencies to assess their consistency and
   compliance with standards.</p>
-QUALITY_ASSMNT: >-
-  <p>The custodians will make available a quality assessment protocol for
-  national statistics office to be used at national level and intended to assess
-  the alignment of data produced with users needs, the compliance with
-  guidelines in terms of computations, the timeliness of data production, the
-  accessibility of statistics produced, the consistent use of methodology both
-  in terms of geographic representation and through time, the coherence in terms
-  of data production, and the architecture of data production. </p>
+QUALITY_ASSMNT: <p>See Section 4.d Validation</p>
 COVERAGE: >-
   <p><strong>Data availability:</strong></p>
 
@@ -612,26 +629,8 @@ COVERAGE: >-
   methodologies in order to assess legal needs, improve justice services, and
   strengthen linkages across sectors. However, the scale and methods of
   administration have varied. More than 60 national legal needs surveys have
-  been conducted in more than 30 countries over the course of the last 25 years
-  (4 by government statistical agencies, 18 by other government bodies, 3 by
-  universities, and 37 by other organizations). National legal needs surveys
-  have been conducted in Argentina, Australia, Bangladesh, Brazil (module),
-  Bulgaria, Canada, Colombia, England and Wales, Georgia, Hong Kong, India,
-  Japan, Jordan, Kenya, Kyrgyzstan, Lebanon, Macedonia, Mali, Mexico (module),
-  Moldova, Mongolia, Nepal, the Netherlands, New Zealand, Northern Ireland,
-  Poland, Scotland, Sierra Leone, Slovakia, Taiwan, Tajikistan, Tunisia, Uganda,
-  Ukraine, the United Arab Emirates and the United States. In addition,
-  extensive sub-national surveys have also been carried out, for example, in
-  China, Ecuador, Russia, Indonesia and Yemen, along with smaller surveys in
-  countries including Azerbaijan, Rwanda and Egypt.<sup><a href="#footnote-7"
-  id="footnote-ref-7">[6]</a></sup> </p>
-
-  <p>In Nigeria, the national statistical offices (NBS) recently conducted two
-  successive large-scale surveys (2016 and 2019) &#x2013; with UNODC technical
-  support &#x2013; that included a module on access to justice. Statistics South
-  Africa has conducted in 2019 a large-scale survey on Governance, Public Safety
-  and Justice, which collected the information needed to compute the
-  indicator.</p>
+  been conducted in more than 30 countries over the course of the last 25 years.
+  </p>
 
   <p>Many of those surveys contain the questions needed to compute this
   indicator (experience of dispute, use of resolution mechanism - either formal
@@ -640,11 +639,11 @@ COVERAGE: >-
 
   <p><strong>Time series:</strong></p>
 
-  <p>N/A</p>
+  <p>Not applicable</p>
 
   <p><strong>Disaggregation:</strong></p>
 
-  <p>Recommended disaggregations for this indicator are:</p>
+  <p>Recommended disaggregation for this indicator are:</p>
 
   <p>- type of dispute resolution mechanism</p>
 
@@ -661,10 +660,7 @@ COVERAGE: >-
   <p>The disaggregation by type of dispute resolution mechanism is of
   fundamental importance to assess the type of justice institutions and
   mechanisms available for citizens and for this reason it is part of the
-  indicator itself.</p><div class="footnotes"><div><sup class="footnote-number"
-  id="footnote-7">6</sup><p> Elaboration based on <em>Legal Needs Surveys and
-  Access to Justice </em>(2018) and web searches. <a
-  href="#footnote-ref-7">&#x2191;</a></p></div></div>
+  indicator itself.</p>
 COMPARABILITY: >-
   <p><strong>Sources of discrepancies:</strong></p>
 
@@ -675,10 +671,21 @@ COMPARABILITY: >-
   different sample design and sample size. As a rule, data from national surveys
   complying with recommended standards are used, when available.</p>
 OTHER_DOC: >-
-  <p><strong>URL:</strong></p>
+  <ul>
+    <li><strong>URL:</strong>UNODC-UNECE. 2010. Manual on Victimization Surveys. Available at : <a href="https://www.unodc.org/unodc/en/data-and-analysis/Manual-on-victim-surveys.html">https://www.unodc.org/unodc/en/data-and-analysis/Manual-on-victim-surveys.html</a></li>
+    <li>UNODC-UNDP-OHCHR. 2022. SDG 16 Survey Questionnaire and Implementation Manual. Available at:</li>
+  </ul>
 
   <p><a
-  href="https://www.unodc.org/unodc/en/data-and-analysis/index.html?ref=menuside">https://www.unodc.org/unodc/en/data-and-analysis/index.html?ref=menuside</a></p>
+  href="https://www.sdg16hub.org/topic/sdg-16-survey-initiative-questionnaire">https://www.sdg16hub.org/topic/sdg-16-survey-initiative-questionnaire</a></p>
+
+  <p><a
+  href="https://www.sdg16hub.org/topic/sdg-16-survey-initiative-implementation-manual">https://www.sdg16hub.org/topic/sdg-16-survey-initiative-implementation-manual</a>
+  </p>
+
+  <ul>
+    <li>Legal Needs Survey and Access to Justice. Available at: </li>
+  </ul>
 
   <p><a
   href="https://www.oecd.org/governance/legal-needs-surveys-and-access-to-justice-g2g9a36c-en.htm">https://www.oecd.org/governance/legal-needs-surveys-and-access-to-justice-g2g9a36c-en.htm</a></p>

@@ -8,13 +8,16 @@ SDG_TARGET: >-
   price volatility</p>
 SDG_INDICATOR: '<p>Indicator 2.c.1: Indicator of food price anomalies</p>'
 SDG_SERIES_DESCR: >-
-  <p>Indicator of Food Price Anomalies (IFPA), by type of product</p>
+  <p>Indicator of Food Price Anomalies (IFPA), by type of product
+  (AG_FPA_COMM)</p>
 
-  <p>Indicator of Food Price Anomalies (IFPA), by Consumer Food Price Index</p>
+  <p>Indicator of Food Price Anomalies (IFPA), by Consumer Food Price Index
+  (AG_FPA_CFPI)</p>
 
   <p>Proportion of countries recording abnormally high or moderately high food
-  prices, according to the Indicator of Food Price Anomalies (%)</p>
-META_LAST_UPDATE: '2022-03-31'
+  prices, according to the Indicator of Food Price Anomalies (%)
+  (AG_FPA_HMFP)</p>
+META_LAST_UPDATE: '2023-05-15'
 SDG_RELATED_INDICATORS: <p>Not applicable</p>
 SDG_CUSTODIAN_AGENCIES: <p>Food and Agriculture Organization of the United Nations (FAO)</p>
 CONTACT_ORGANISATION: <p>Food and Agriculture Organization of the United Nations (FAO)</p>

@@ -8,18 +8,19 @@ SDG_TARGET: >-
   substantially increase afforestation and reforestation globally</p>
 SDG_INDICATOR: '<p>Indicator 15.2.1: Progress towards sustainable forest management</p>'
 SDG_SERIES_DESCR: >-
-  <p>Annual forest area change rate (%)</p>
+  <p>Annual forest area change rate (%) (AG_LND_FRSTCHG)</p>
 
-  <p>Above-ground biomass in forest (tonnes per hectare)</p>
+  <p>Above-ground biomass in forest (tonnes per hectare) (AG_LND_FRSTBIOPHA)</p>
 
-  <p>Proportion of forest area within legally established protected areas
-  (%)</p>
+  <p>Proportion of forest area within legally established protected areas (%)
+  (AG_LND_FRSTPRCT)</p>
 
-  <p>Proportion of forest area with a long-term management plan (%)</p>
+  <p>Proportion of forest area with a long-term management plan (%)
+  (AG_LND_FRSTMGT)</p>
 
   <p>Forest area under an independently verified forest management certification
-  scheme (thousands of hectares)</p>
-META_LAST_UPDATE: '2022-03-31'
+  scheme (thousands of hectares) (AG_LND_FRSTCERT)</p>
+META_LAST_UPDATE: '2023-05-15'
 SDG_RELATED_INDICATORS: '<p>15.1.1: Forest area as a proportion of total land area </p>'
 SDG_CUSTODIAN_AGENCIES: <p>Food and Agriculture Organization of the United Nations (FAO) </p>
 CONTACT_ORGANISATION: <p>Food and Agriculture Organization of the United Nations (FAO) </p>
@@ -387,8 +388,6 @@ OTHER_DOC: >-
   </p>
 
   <p><strong>References:</strong></p>
-
-  <p></p>
 
   <p>Global Forest Resources Assessment 2020, Guidelines and Specifications (<a
   href="http://www.fao.org/3/I8699EN/i8699en.pdf"><u>www.fao.org/3/I8699EN/i8699en.pdf</u></a>)</p>

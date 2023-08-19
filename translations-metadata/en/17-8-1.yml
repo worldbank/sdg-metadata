@@ -7,11 +7,17 @@ SDG_TARGET: >-
   countries by 2017 and enhance the use of enabling technology, in particular
   information and communications technology</p>
 SDG_INDICATOR: '<p>Indicator 17.8.1: Proportion of individuals using the Internet</p>'
-SDG_SERIES_DESCR: <p>Not Applicable </p>
-META_LAST_UPDATE: <p>2021-08-20</p>
-SDG_RELATED_INDICATORS: >-
-  <p>1.4, 2.c, 4.3, 4.4, 5.b, 9.c, 10.3, 12.8, 16.10, 16.6, 16.7, 16.10,
-  17.6</p>
+SDG_SERIES_DESCR: >-
+  <p>Proportion of individuals using the Internet<sup><a href="#footnote-1"
+  id="footnote-ref-1">[1]</a></sup></p><div class="footnotes"><div><sup
+  class="footnote-number" id="footnote-1">1</sup><p> In March 2023, the series
+  description was updated from &#x201C;Internet users per 100
+  inhabitants&#x201D; to &#x201C;Proportion of individuals using the Internet
+  (%)&#x201D; for clarity; the unit of measure was also updated from
+  &#x201C;PER_100_POP&#x201D; to &#x201C;PERCENT&#x201D;; content in the series
+  is the same. <a href="#footnote-ref-1">&#x2191;</a></p></div></div>
+META_LAST_UPDATE: '2023-03-31'
+SDG_RELATED_INDICATORS: '<p>4.4.1, 4.5.1, 9.c.1, 17.6.1</p>'
 SDG_CUSTODIAN_AGENCIES: <p>International Telecommunication Union (ITU)</p>
 CONTACT_ORGANISATION: <p>International Telecommunication Union (ITU)</p>
 STAT_CONC_DEF: >-
@@ -29,7 +35,7 @@ STAT_CONC_DEF: >-
   (not assumed to be only via a computer - it may also be by mobile telephone,
   tablet, PDA, games machine, digital TV etc.). Access can be via a fixed or
   mobile network.</p>
-UNIT_MEASURE: <p>Percentage of individuals</p>
+UNIT_MEASURE: <p>Percent (%)</p>
 CLASS_SYSTEM: >-
   <p>For countries that collect this data on the proportion of individuals using
   the Internet through an official survey, and if data allow breakdown and
@@ -40,20 +46,20 @@ CLASS_SYSTEM: >-
 SOURCE_TYPE: >-
   <p>The indicator proportion of individuals using the Internet is based on an
   internationally agreed definition and methodology, which have been developed
-  under the coordination of ITU, through its Expert Groups and following an
-  extensive consultation process with countries. It is also a core indicator of
-  the Partnership on Measuring ICT for Development&apos;s Core List of
-  Indicators, which has been endorsed by the UN Statistical Commission (last
-  time in 2014). Data on individuals using the Internet are collected through an
-  annual questionnaire that ITU sends to national statistical offices (NSO). In
-  this questionnaire ITU collects absolute values. The percentages are
-  calculated a-posteriori. The survey methodology is verified to ensure that it
-  meets adequate statistical standards. The data are verified to ensure
-  consistency with previous years&#x2019; data and situation of the country for
-  other related indicators (ICT and economic).</p>
+  under the coordination of the International Telecommunication Union (ITU),
+  through its Expert Groups and following an extensive consultation process with
+  countries. It is also a core indicator of the Partnership on Measuring ICT for
+  Development&apos;s Core List of Indicators, which has been endorsed by the UN
+  Statistical Commission (last time in 2020). Data on individuals using the
+  Internet are collected through an annual questionnaire that ITU sends to
+  national statistical offices (NSO). In this questionnaire ITU collects
+  absolute values. The percentages are calculated a-posteriori. The survey
+  methodology is verified to ensure that it meets adequate statistical
+  standards. The data are verified to ensure consistency with previous
+  years&#x2019; data and situation of the country for other related indicators
+  (ICT and economic).</p>
 
-  <p>For most developed and an increasing number of developing countries, the
-  percentage of individuals using the Internet data are based on
+  <p>The percentage of individuals using the Internet data are based on
   methodologically sound household surveys conducted by national statistical
   agencies. If the NSO has not collected Internet user statistics, then ITU
   estimates the percentage of individuals using the Internet.</p>
@@ -71,24 +77,27 @@ SOURCE_TYPE: >-
   survey data and estimates for almost all countries of the world.</p>
 COLL_METHOD: >-
   <p>Data on individuals using the Internet are collected through an annual
-  questionnaire that ITU sends to national statistical offices (NSO). In this
-  questionnaire ITU collects absolute values. The percentages are calculated
-  a-posteriori. The survey methodology is verified to ensure that it meets
-  adequate statistical standards. The data are verified to ensure consistency
-  with previous years&#x2019; data and situation of the country for other
-  related indicators (ICT and economic).</p>
+  questionnaire that International Telecommunication Union (ITU) sends to
+  national statistical offices (NSO). In this questionnaire ITU collects
+  absolute values. The percentages are calculated a-posteriori. The survey
+  methodology is verified to ensure that it meets adequate statistical
+  standards. The data are verified to ensure consistency with previous
+  years&#x2019; data and situation of the country for other related indicators
+  (ICT and economic).</p>
 FREQ_COLL: >-
-  <p>Various. Each survey has its own data collection cycle. ITU collects data
-  twice a year from Member States, in Q1 and in Q3.</p>
+  <p>Various. Each survey has its own data collection cycle. International
+  Telecommunication Union (ITU) collects data twice a year from Member States,
+  in Q1 and in Q3.</p>
 REL_CAL_POLICY: >-
   <p>Data are released twice a year, In July and December, in the <a
-  href="https://www.itu.int/en/ITU-D/Statistics/Pages/publications/wtid.aspx">Wor&#x200B;ld
+  href="https://www.itu.int/en/ITU-D/Statistics/Pages/publications/wtid.aspx"><u>Wor&#x200B;ld
   Telecommun&#x200B;ic&#x200B;ation/ICT Indicators
-  Database&#x200B;</a>&#x200B;.</p>
+  Database&#x200B;</u></a>&#x200B;.</p>
 DATA_SOURCE: <p>National Statistical Office (NSO).</p>
-COMPILING_ORG: <p>ITU</p>
+COMPILING_ORG: <p>International Telecommunication Union (ITU)</p>
 INST_MANDATE: >-
-  <p>As the UN specialized agency for ICTs, ITU is the official source for
+  <p>As the UN specialized agency for information and communication technology
+  (ICTs), International Telecommunication Union (ITU) is the official source for
   global ICT statistics, collecting ICT data from its Member States. </p>
 RATIONALE: >-
   <p>The Internet has become an increasingly important tool to access public
@@ -114,9 +123,10 @@ REC_USE_LIM: >-
   <p>While the data on the percentage of individuals using the Internet are very
   reliable for countries that have collected the data through official household
   surveys, they are less reliable in cases where the number of Internet users is
-  estimated by ITU. ITU is encouraging all countries to collect data on this
-  indicator through official surveys and the number of countries with official
-  data for this indicator is increasing.</p>
+  estimated by the International Telecommunication Union (ITU). ITU is
+  encouraging all countries to collect data on this indicator through official
+  surveys and the number of countries with official data for this indicator is
+  increasing.</p>
 DATA_COMP: >-
   <p>For countries that collect data on this indicator through an official
   survey, this indicator is calculated by dividing the total number of in-scope
@@ -126,17 +136,19 @@ DATA_COMP: >-
   subscriptions and other socioeconomic indicators (GNI per capita) and on the
   time series data.</p>
 DATA_VALIDATION: >-
-  <p>Data are submitted by Member States to ITU. ITU checks and validates the
-  data, in consultation with the Member States. </p>
+  <p>Data are submitted by Member States to International Telecommunication
+  Union (ITU). ITU checks and validates the data, in consultation with the
+  Member States. </p>
 ADJUSTMENT: <p>No adjustments are made to the data submitted by countries.</p>
 IMPUTATION: >-
   <p><strong>&#x2022; At country level</strong></p>
 
-  <p>In the absence of official household surveys, ITU estimates the percentage
-  of individuals using the Internet (Internet users as a percentage of total
-  population) using various techniques, such as hot-deck imputation, regression
-  models and time series forecast, using data such as income, education and
-  other ICT indicators.</p>
+  <p>In the absence of official household surveys, International
+  Telecommunication Union (ITU) estimates the percentage of individuals using
+  the Internet (Internet users as a percentage of total population) using
+  various techniques, such as hot-deck imputation, regression models and time
+  series forecast, using data such as income, education and other ICT
+  indicators.</p>
 
   <p><strong>&#x2022; At regional and global levels</strong></p>
 
@@ -166,7 +178,7 @@ DOC_METHOD: >-
   2020:</p>
 
   <p><a
-  href="https://www.itu.int/en/ITU-D/Statistics/Pages/publications/manual.aspx">https://www.itu.int/en/ITU-D/Statistics/Pages/publications/manual.aspx</a>
+  href="https://www.itu.int/en/ITU-D/Statistics/Pages/publications/manual.aspx"><u>https://www.itu.int/en/ITU-D/Statistics/Pages/publications/manual.aspx</u></a>
   </p>
 QUALITY_MGMNT: >-
   <p>Data are checked and validated by the ICT Data and Analytics (IDA) Division
@@ -198,7 +210,7 @@ COVERAGE: >-
   disaggregation, the indicator can be broken down by region (geographic and/or
   urban/rural), by sex, by age group, by educational level, by labour force
   status, and by occupation. ITU collects data for all of these breakdowns from
-  countries.</p>
+  countries. Estimates of regional aggregates by sex are also calculated.</p>
 COMPARABILITY: >-
   <p><strong>Sources of discrepancies:</strong></p>
 
@@ -218,5 +230,5 @@ OTHER_DOC: >-
   2020:</p>
 
   <p><a
-  href="https://www.itu.int/en/ITU-D/Statistics/Pages/publications/manual.aspx">https://www.itu.int/en/ITU-D/Statistics/Pages/publications/manual.aspx</a>
+  href="https://www.itu.int/en/ITU-D/Statistics/Pages/publications/manual.aspx"><u>https://www.itu.int/en/ITU-D/Statistics/Pages/publications/manual.aspx</u></a>
   </p>

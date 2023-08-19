@@ -9,35 +9,25 @@ SDG_INDICATOR: >-
   protection and conservation of all cultural and natural heritage, by source of
   funding (public, private), type of heritage (cultural, natural) and level of
   government (national, regional, and local/municipal)</p>
-SDG_SERIES_DESCR: <p>Not applicable</p>
-META_LAST_UPDATE: '2022-12-16'
-SDG_RELATED_INDICATORS: >-
-  <p>Target 4.7 By 2030, ensure that all learners acquire the knowledge and
-  skills needed to promote sustainable development, including, among others,
-  through education for sustainable development and sustainable lifestyles,
-  human rights, gender equality, promotion of a culture of peace and
-  non-violence, global citizenship and appreciation of cultural diversity and of
-  culture&apos;s contribution to sustainable development.</p>
-
-  <p>Target 8.3 Promote development-oriented policies that support productive
-  activities, decent job creation, entrepreneurship, creativity and innovation,
-  and encourage the formalization and growth of micro-, small- and medium-sized
-  enterprises, including through access to financial services </p>
-
-  <p>Target 8.9 By 2030, devise and implement policies to promote sustainable
-  tourism that creates jobs and promotes local culture and products </p>
-
-  <p>Target 11.3 By 2030, enhance inclusive and sustainable urbanization and
-  capacity for participatory, integrated and sustainable human settlement
-  planning and management in all countries</p>
-SDG_CUSTODIAN_AGENCIES: <p>UNESCO Institute for Statistics</p>
-CONTACT_ORGANISATION: <p>UNESCO Institute for Statistics</p>
+SDG_SERIES_DESCR: <p>Applies to all series</p>
+META_LAST_UPDATE: '2023-03-31'
+SDG_RELATED_INDICATORS: '<p>8.3.1, 11.3.2</p>'
+SDG_CUSTODIAN_AGENCIES: <p>UNESCO Institute for Statistics (UIS)</p>
+CONTACT_ORGANISATION: <p>UNESCO Institute for Statistics (UIS)</p>
 STAT_CONC_DEF: >-
   <p><strong>Definition</strong><br>Total funding from government (central,
   regional, local), private sources (household, corporate &amp; sponsorship and
   international sources) in the preservation, protection and conservation of
   cultural and/or natural heritage for a given year per capita. The results
   should be express in Purchasing Power Parities (PPP) in constant $. </p>
+
+  <p>Purchasing Power Parities (PPPs) are the rates of currency conversion that
+  try to equalise the purchasing power of different currencies, by eliminating
+  the differences in price levels between countries. The basket of goods and
+  services priced is a sample of all those that are part of final expenditures:
+  final consumption of households and government, fixed capital formation, and
+  net exports. This indicator is measured in terms of national currency per USD
+  dollar. (OECD)</p>
 
   <p><strong>Concepts</strong></p>
 
@@ -210,16 +200,17 @@ STAT_CONC_DEF: >-
   <p><strong>Total heritage expenditure </strong>refers to private and public
   spending on conservation, protection and preservation of heritage. Total
   expenditure comprises public and private expenditure for natural and cultural
-  heritage. Using the ISIC Rev. 4 classification, total heritage expenditure
-  covers expenditures (public and private) for library and archives activities,
-  museum activities and operation of historical sites and buildings as well
-  resources invested in botanical and zoological gardens and nature reserve
-  activities.<strong> </strong></p>
-UNIT_MEASURE: <p>US Dollars constant PPP$ 2017 in unit</p>
+  heritage. Using the International Standard Industrial Classification of all
+  Economic Activities Revision 4 (ISIC Rev. 4) classification, total heritage
+  expenditure covers expenditures (public and private) for library and archives
+  activities, museum activities and operation of historical sites and buildings
+  as well resources invested in botanical and zoological gardens and nature
+  reserve activities.<strong> </strong></p>
+UNIT_MEASURE: '<p>PPP, constant 2017 United States dollars</p>'
 CLASS_SYSTEM: >-
-  <p>COFOG classification defined according to the breakdown proposed in the
-  International Monetary Fund (IMF) Manual Government Finance Statistics (GFS),
-  available at:</p>
+  <p>Classification of the Functions of Government (COFOG) defined according to
+  the breakdown proposed in the International Monetary Fund (IMF) Manual
+  Government Finance Statistics (GFS), available at:</p>
 
   <p><a
   href="http://www.imf.org/external/Pubs/FT/GFS/Manual/2014/gfsfinal.pdf">http://www.imf.org/external/Pubs/FT/GFS/Manual/2014/gfsfinal.pdf</a>.</p>
@@ -267,8 +258,8 @@ COLL_METHOD: >-
   thereafter occur on an annual basis.</p>
 
   <p> </p>
-FREQ_COLL: '<p>2020, 2021</p>'
-REL_CAL_POLICY: <p>June 2021. </p>
+FREQ_COLL: '<p> Yearly data collection: launch in Q3 of each year</p>'
+REL_CAL_POLICY: <p> Annual data release (March). </p>
 DATA_SOURCE: '<p>National Statistical Offices: Focal point</p>'
 COMPILING_ORG: <p>UNESCO Institute for Statistics</p>
 INST_MANDATE: >-
@@ -387,6 +378,8 @@ DATA_COMP: >-
       <mi>P</mi>
       <mi>f</mi>
     </math> </p>
+  <p>Where:</p>
+
   <p>HCExp per capita = Expenditure per inhabitant in heritage in constant
   PPP$</p>
 
@@ -508,7 +501,9 @@ DOC_METHOD: >-
     </li>
   </ul>
 
-  <p> http://www.imf.org/external/Pubs/FT/GFS/Manual/2014/gfsfinal.pdf. </p>
+  <p> <a
+  href="http://www.imf.org/external/Pubs/FT/GFS/Manual/2014/gfsfinal.pdf">http://www.imf.org/external/Pubs/FT/GFS/Manual/2014/gfsfinal.pdf</a>.
+  </p>
 
   <ul>
     <li>
@@ -628,7 +623,9 @@ OTHER_DOC: >-
     <li>Manual on sources and methods for the compilation of COFOG statistics, Eurostat, 2011.</li>
   </ul>
 
-  <p>https://ec.europa.eu/eurostat/web/products-manuals-and-guidelines/-/KS-RA-11-013</p>
+  <p><a
+  href="https://ec.europa.eu/eurostat/web/products-manuals-and-guidelines/-/KS-RA-11-013">https://ec.europa.eu/eurostat/web/products-manuals-and-guidelines/-/KS-RA-11-013</a>
+  </p>
 
   <ul>
     <li> Government expenditure on recreation, culture and religion, Eurostat, 2019</li>
@@ -651,8 +648,5 @@ OTHER_DOC: >-
     <li>Canada: Government expenditures on culture, by function and level of government, 2009/2010 <a href="http://www.statcan.gc.ca/pub/87f0001x/2012001/t012-eng.htm"><u>http://www.statcan.gc.ca/pub/87f0001x/2012001/t012-eng.htm</u></a><u><br></u></li>
     <li>Canada: Federal government capital grants, contributions and transfers for culture, by function and province or territory, 2009/2010 <br><a href="http://www.statcan.gc.ca/pub/87f0001x/2012001/t004-eng.htm"><u>http://www.statcan.gc.ca/pub/87f0001x/2012001/t004-eng.htm</u></a><u><br></u></li>
     <li>Council of Europe, Ericarts. Monitoring Public Cultural Expenditure in Selected European Countries 2000-2013. (8) <br><a href="http://www.culturalpolicies.net/web/statistics-funding.php?aid=232&amp;cid=80"><u>http://www.culturalpolicies.net/web/statistics-funding.php?aid=232&amp;cid=80</u></a><u><br></u></li>
+    <li>Germany: Public expenditure on culture (Protection and preservation of historical monuments)<br><a href="https://www.destatis.de/EN/FactsFigures/SocietyState/EducationResearchCulture/EducationalCulturalFinance/Tables/ExpenditurePublicBugetsArtsCulture.html"><u>https://www.destatis.de/EN/FactsFigures/SocietyState/EducationResearchCulture/EducationalCulturalFinance/Tables/ExpenditurePublicBugetsArtsCulture.html</u></a></li>
   </ul>
-
-  <p>Germany: Public expenditure on culture (Protection and preservation of
-  historical monuments)<br><a
-  href="https://www.destatis.de/EN/FactsFigures/SocietyState/EducationResearchCulture/EducationalCulturalFinance/Tables/ExpenditurePublicBugetsArtsCulture.html"><u>https://www.destatis.de/EN/FactsFigures/SocietyState/EducationResearchCulture/EducationalCulturalFinance/Tables/ExpenditurePublicBugetsArtsCulture.html</u></a></p>

@@ -6,7 +6,7 @@ SDG_TARGET: >-
   modern energy services</p>
 SDG_INDICATOR: '<p>Indicator 7.1.1: Proportion of population with access to electricity</p>'
 SDG_SERIES_DESCR: <p>Not applicable</p>
-META_LAST_UPDATE: '2022-03-31'
+META_LAST_UPDATE: '2023-03-31'
 SDG_RELATED_INDICATORS: <p>Not applicable</p>
 SDG_CUSTODIAN_AGENCIES: <p>World Bank Group</p>
 CONTACT_ORGANISATION: <p>World Bank Group</p>
@@ -178,10 +178,9 @@ DATA_COMP: >-
   between real data points and estimated values is clearly identified in the
   database. </p>
 
-  <p>Countries considered &#x201C;Developed&#x201D; by the United Nations and
-  classified as &#x201C;High Income&#x201D; based on the World Bank Country and
-  Lending Groups are assumed to reach universal access from the first year the
-  country joined the category. </p>
+  <p>Countries classified as &#x201C;High Income&#x201D; based on the World Bank
+  Country and Lending Groups are assumed to reach universal access from the
+  first year the country joined the category. </p>
 
   <p>In the present report, to avoid having electrification trends from 1990 to
   2010 overshadow electrification efforts since 2010, the model was run twice:
@@ -207,7 +206,7 @@ DATA_VALIDATION: >-
   with internal stakeholders and the UN regional commissions to validate the
   accuracy of the data. In this process, the World Bank is in charge of
   responding to any inquiries and comments. </p>
-ADJUSTMENT: <p>N/A </p>
+ADJUSTMENT: <p>Not applicable</p>
 IMPUTATION: >-
   <ul>
     <li><strong>At country level</strong></li>
@@ -281,8 +280,8 @@ QUALITY_ASSMNT: >-
 COVERAGE: >-
   <p><strong>Data availability:</strong></p>
 
-  <p>Data have been collected from 1990 to the latest year, excluding
-  &#x201C;Developed&#x201D; countries classified by the United Nations. </p>
+  <p>Data have been collected from 1990 through the latest year on an annual
+  basis. </p>
 
   <p><strong>Time series:</strong></p>
 
@@ -292,11 +291,11 @@ COVERAGE: >-
   <p><strong>Disaggregation:</strong></p>
 
   <p>Electricity access rates are disaggregated by geographic location into
-  total, urban and rural rates. Countries that are classified as
-  &#x201C;Developed&#x201D; or &#x201C;High Income&#x201D; are assumed to reach
-  universal access from the first year it was added to the category.
-  Disaggregation of access to electricity by rural or urban place of residence
-  is available at country, regional and global levels.</p>
+  total, urban and rural rates. Countries that are classified as &#x201C;High
+  Income&#x201D; are assumed to reach universal access from the first year it
+  was added to the category. Disaggregation of access to electricity by rural or
+  urban place of residence is available at country, regional and global
+  levels.</p>
 COMPARABILITY: >-
   <p><strong>Sources of discrepancies:</strong></p>
 

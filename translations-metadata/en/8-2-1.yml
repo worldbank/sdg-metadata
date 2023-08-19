@@ -4,10 +4,10 @@ SDG_GOAL: >-
 SDG_TARGET: >-
   <p>Target 8.2: Achieve higher levels of economic productivity through
   diversification, technological upgrading and innovation, including through a
-  focus on high-value added and labour-intensive sectors</p>
+  focus on high value added and labour-intensive sectors</p>
 SDG_INDICATOR: '<p>Indicator 8.2.1: Annual growth rate of real GDP per employed person</p>'
 SDG_SERIES_DESCR: <p>Not applicable</p>
-META_LAST_UPDATE: '2022-03-31'
+META_LAST_UPDATE: '2023-03-31'
 SDG_RELATED_INDICATORS: '<p>1.1.1, 8.3.1, 8.5.2, 10.4.1</p>'
 SDG_CUSTODIAN_AGENCIES: <p>International Labour Organization (ILO) </p>
 CONTACT_ORGANISATION: |-
@@ -80,7 +80,7 @@ SOURCE_TYPE: >-
   accounts. </p>
 COLL_METHOD: >-
   <p>For the purposes of international reporting on the SDG indicators, the ILO
-  uses country-level estimates of GDP in constant 2010 US$ from the World
+  uses country-level estimates of GDP in constant 2015 US$ from the World
   Bank&#x2019;s World Development Indicators database and country-level
   estimates on employment from household surveys or derived from the ILO
   modelled estimates to calculate levels and growth rates of labour productivity
@@ -99,8 +99,8 @@ INST_MANDATE: >-
   <p>The ILO is the UN focal point for labour statistics. It sets international
   standards for labour statistics through the International Conference of Labour
   Statisticians. It also compiles and produces labour statistics with the goal
-  of disseminating internationally-comparable datasets, and provides technical
-  assistance and training to ILO member States to support their efforts to
+  of disseminating internationally comparable datasets, and provides technical
+  assistance and training to ILO Member States to support their efforts to
   produce high quality labour market data.</p>
 RATIONALE: >-
   <p>Real GDP per employed person being a measure of labour productivity, this
@@ -132,9 +132,8 @@ REC_USE_LIM: >-
 
   <p>Data on employment used in the denominator of this indicator refer, as much
   as possible, to the average number of persons with one or more paid jobs
-  during the year. That is, the reliability of the employment data is also
-  dependent on the degree of coverage of informal activities by the statistical
-  source used. </p>
+  during the year. Employment data are based on the statistical standards from
+  the 13th International Conference of Labour Statisticians (ICLS).</p>
 DATA_COMP: >-
   <p><math xmlns="http://www.w3.org/1998/Math/MathML">
       <mi mathvariant="normal">R</mi>
@@ -349,7 +348,7 @@ DATA_COMP: >-
       <mn>100</mn>
     </math></p>
 DATA_VALIDATION: >-
-  <p>The ILO engages in annual consultations with member States through the
+  <p>The ILO engages in annual consultations with Member States through the
   ILOSTAT questionnaire and related Statistics Reporting System (StaRS).
   National data providers receive a link to the portal where they can review all
   national SDG data available on ILOSTAT.</p>
@@ -396,6 +395,7 @@ DOC_METHOD: |-
   <ul>
     <li>ILO Guidebook - Decent Work and the Sustainable Development Goals: A Guidebook on SDG Labour Market Indicators (<a href="https://www.ilo.org/stat/Publications/WCMS_647109/lang--en/index.htm" target="_blank"><u>https://www.ilo.org/stat/Publications/WCMS_647109/lang--en/index.htm</u></a>) </li>
     <li>ILO Manual &#x2013; Decent Work Indicators, Concepts and Definitions &#x2013; Chapter 1, Economic and social context for decent work <a href="http://www.ilo.org/integration/resources/pubs/WCMS_229374/lang--en/index.htm" target="_blank"><u>http://www.ilo.org/integration/resources/pubs/WCMS_229374/lang--en/index.htm</u></a> (second version, page 214) </li>
+    <li>Resolution concerning statistics of the economically active population, employment, unemployment and underemployment, adopted by the 13<sup>th</sup> International Conference of Labour Statisticians (October 1982), available at <a href="https://www.ilo.org/wcmsp5/groups/public/---dgreports/---stat/documents/normativeinstrument/wcms_230304.pdf">https://www.ilo.org/wcmsp5/groups/public/---dgreports/---stat/documents/normativeinstrument/wcms_230304.pdf</a></li>
     <li>Resolution concerning statistics of work, employment and labour underutilization <a href="http://www.ilo.ch/global/statistics-and-databases/standards-and-guidelines/resolutions-adopted-by-international-conferences-of-labour-statisticians/WCMS_230304/lang--en/index.htm" target="_blank"><u>http://www.ilo.ch/global/statistics-and-databases/standards-and-guidelines/resolutions-adopted-by-international-conferences-of-labour-statisticians/WCMS_230304/lang--en/index.htm</u></a> </li>
     <li>System of National Accounts 2008 <a href="http://unstats.un.org/unsd/nationalaccount/sna2008.asp" target="_blank"><u>http://unstats.un.org/unsd/nationalaccount/sna2008.asp</u></a> </li>
     <li>Trends Econometric Models: A Review of Methodology <a href="http://www.ilo.org/empelm/pubs/WCMS_120382/lang--en/index.htm" target="_blank"><u>http://www.ilo.org/empelm/pubs/WCMS_120382/lang--en/index.htm</u></a> </li>
@@ -419,7 +419,7 @@ QUALITY_ASSURE: >-
   <p> </p>
 QUALITY_ASSMNT: >-
   <p>The final assessment of the quality of information is carried out by the
-  Data Production and Analysis Unit of the ILO Department of Department. If any
+  Data Production and Analysis Unit of the ILO Department of Statistics. If any
   issues encountered cannot be clarified, the respective information is not
   published. </p>
 COVERAGE: >-
@@ -431,7 +431,7 @@ COVERAGE: >-
 
   <p>Data for this indicator is available as of 2000 in the SDG Indicators
   Global Database, but time series going back to 1991 and including estimates up
-  to 2021 are available in ILOSTAT. </p>
+  to 2022 are available in ILOSTAT. </p>
 
   <p><strong>Disaggregation:</strong></p>
 
@@ -443,7 +443,7 @@ COMPARABILITY: >-
   indicator arise from problems in the international comparability of data, more
   specifically from methodological differences across countries. Even though
   national output measures, in particular GDP estimates, are derived mainly from
-  national accounts which should be based on internationally-agreed principles
+  national accounts which should be based on internationally agreed principles
   consolidated in the United Nations SNA, there are still significant obstacles
   to the international consistency of national accounts estimates. These range
   from differences in the treatment of the output of service sectors to
@@ -470,4 +470,5 @@ OTHER_DOC: |-
     <li>Trends Econometric Models: A Review of Methodology <a href="http://www.ilo.org/empelm/pubs/WCMS_120382/lang--en/index.htm" target="_blank"><u>http://www.ilo.org/empelm/pubs/WCMS_120382/lang--en/index.htm</u></a> </li>
     <li>ILOSTAT Database (<a href="https://ilostat.ilo.org/" target="_blank"><u>https://ilostat.ilo.org/</u></a>) </li>
     <li>ILOSTAT Database &#x2013; Topics - Labour productivity (<a href="https://ilostat.ilo.org/topics/labour-productivity/" target="_blank"><u>https://ilostat.ilo.org/topics/labour-productivity/</u></a>). </li>
+    <li>Quick guide to understanding the impact of the new statistical standards on ILOSTAT databases, available at https://www.ilo.org/wcmsp5/groups/public/---dgreports/---stat/documents/publication/wcms_854830.pdf</li>
   </ul>

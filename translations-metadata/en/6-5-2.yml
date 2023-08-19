@@ -8,10 +8,10 @@ SDG_INDICATOR: >-
   <p>Indicator 6.5.2: Proportion of transboundary basin area with an operational
   arrangement for water cooperation</p>
 SDG_SERIES_DESCR: <p>The metadata applies to all series under indicator 6.5.2. </p>
-META_LAST_UPDATE: <p>2021-12-06</p>
+META_LAST_UPDATE: '2023-07-18'
 SDG_RELATED_INDICATORS: >-
   <p>SDG indicator 6.5.2 provides a complement to SDG indicator 6.5.1 which
-  measures the advancement of integrated water resources management (IWRM) at
+  measures the advancement of Integrated Water Resources Management (IWRM) at
   all levels. </p>
 
   <p>In addition, as the only indicator in the 2030 Agenda for Sustainable
@@ -60,7 +60,7 @@ SDG_RELATED_INDICATORS: >-
   <p>SDG 11 &#x2013; Sustainable Cities and Communities</p>
 
   <p>- Indicator 11.5.2 Direct disaster economic loss in relation to global GDP,
-  including disaster damange to critical infrastructure and disruption of basic
+  including disaster damage to critical infrastructure and disruption of basic
   services </p>
 
   <p>SDG 13 &#x2013; Climate Action</p>
@@ -137,8 +137,8 @@ STAT_CONC_DEF: >-
   authorities. </p>
 
   <p>&#x201C;Operational&#x201D; means that an agreement for cooperation between
-  the countries sharing transboundary basins meets all the following criteria:
-  </p>
+  the countries sharing transboundary basins meets all the following four
+  criteria: </p>
 
   <p>- There is a joint body or mechanism (e.g. a river basin organization) for
   transboundary cooperation;</p>
@@ -159,10 +159,11 @@ STAT_CONC_DEF: >-
   basins shared by each country, and focuses on monitoring whether these are
   covered by cooperation arrangements that are &#x201C;operational&#x201D;. The
   criteria to be met for the cooperation on a specific basin to be considered
-  &#x201C;operational&#x201D;, seek to capture whether the arrangement(s)
-  provide the basic elements needed to allow that arrangment to implement
+  &#x201C;operational&#x201D; seek to capture whether the arrangement(s)
+  provides the basic elements needed to allow that arrangement to implement
   cooperation in water management.</p>
 UNIT_MEASURE: '<p>Basin area, in km<sup>2</sup>, covered by operational arrangements.</p>'
+CLASS_SYSTEM: <p>Not applicable</p>
 SOURCE_TYPE: >-
   <p>At the country level, ministries and agencies responsible for surface water
   and groundwater resources (depends on the country but commonly the ministry of
@@ -170,7 +171,7 @@ SOURCE_TYPE: >-
   of water resources, hydrology or geology, or geological surveys) typically
   have the spatial information about the location and extent of the surface
   water basin boundaries and aquifer delineations (as Geographical Information
-  Systems shapefiles). Information on existing arrangements and their
+  Systems (GIS) shapefiles). Information on existing arrangements and their
   operationality is also commonly available from the same institutions.</p>
 
   <p>Some countries already report to regional organizations on the advancement
@@ -185,35 +186,51 @@ SOURCE_TYPE: >-
 
   <p>-Delineations of transboundary basins</p>
 
-  <p>In global databases, the most up-to-date delineations are available through
-  the Transboundary Waters Assessment Programme (TWAP). TWAP covered 286 main
-  transboundary rivers, 206 transboundary lakes and reservoirs and 199
-  transboundary aquifers. Relevant information has also been compiled for 592
-  transboundary aquifers and groundwater bodies by the UNESCO Internationally
-  Shared Aquifers Resources Management Programme (ISARM - http://www.isarm.org/)
-  and also through the TWAP groundwater component (see
-  https://ggis.un-igrac.org/). </p>
+  <p>In global databases, the delineations are available through the Global
+  Environment Facility&#x2019;s Transboundary Waters Assessment Programme (GEF
+  TWAP) (see <a href="http://www.geftwap.org/">http://www.geftwap.org/</a>). GEF
+  TWAP covered 286 main transboundary rivers, 206 transboundary lakes and
+  reservoirs and 199 transboundary aquifers. GEF TWAP groundwater component was
+  prepared by UNESCO-IHP International Groundwater Resources Assessment Centre
+  (IGRAC). </p>
+
+  <p>In 2021, the Oregon State University identified 310 international river
+  basins (<a
+  href="https://transboundarywaters.science.oregonstate.edu/sites/transboundarywaters.science.oregonstate.edu/files/Database/Data/register/McCracken_Wolf_2019.pdf">https://transboundarywaters.science.oregonstate.edu/sites/transboundarywaters.science.oregonstate.edu/files/Database/Data/register/McCracken_Wolf_2019.pdf</a>)
+  and IGRAC produced the Transboundary Aquifers of the World Map featuring 468
+  shared aquifers discovered so far (see <a
+  href="https://ggis.un-igrac.org/">https://ggis.un-igrac.org/</a>). Relevant
+  information has also been compiled for transboundary aquifers by the UNESCO
+  Internationally Shared Aquifers Resources Management Programme (ISARM) (see <a
+  href="http://www.isarm.org/">http://www.isarm.org/</a>)</p>
+
+  <p> </p>
 
   <p>-Cooperation arrangements</p>
 
   <p>Existing agreements or other arrangements for transboundary water
-  cooperation are available from the International Freshwater Treaties Database,
-  maintained by Oregon State University (OSU). This was updated to include all
-  arrangements up to 2008, and a subsequent update will be available in 2021.
-  The treaty database includes in total 686 international freshwater treaties.
-  </p>
+  cooperation are available from the International Freshwater Treaties Database
+  (IFTD), maintained by Oregon State University (OSU) (see <a
+  href="https://transboundarywaters.science.oregonstate.edu/content/international-freshwater-treaties-database">https://transboundarywaters.science.oregonstate.edu/content/international-freshwater-treaties-database</a>).
+  This was updated to include freshwater-related arrangements up to 2008. A
+  current update is ongoing to bring the database to 2019. The treaty database
+  includes in total 686 international freshwater treaties. </p>
 
   <p>-Organizations for transboundary water cooperation </p>
 
   <p>OSU&#x2019;s International River Basin Organization (RBO) Database provides
   detailed information about over 120 international river basin organizations,
-  including bilateral commissions, around the world. </p>
+  including bilateral commissions, around the world (see <a
+  href="https://transboundarywaters.science.oregonstate.edu/content/international-river-basin-organization-rbo-database">https://transboundarywaters.science.oregonstate.edu/content/international-river-basin-organization-rbo-database</a>).
+  </p>
 
   <p>Regional assessments describing and inventorying agreements have been
-  undertaken, contributing to the baseline globally, for example, regional
-  inventories of transboundary aquifers under the UNESCO-IHP </p>
-
-  <p>ISARM.</p>
+  undertaken, contributing to the baseline globally. For example, the assessment
+  by UNECE of transboundary water cooperation in the pan-European region; the
+  inventory of Shared Water Resources in Western Asia by the United Nations
+  Economic and Social Commission for Western Asia (UNESCWA); and regional
+  inventories of transboundary aquifers under the UNESCO-IHP ISARM: ISARM
+  Americas, ISARM Africa, ISARM South-East Europe and ISARM Asia. </p>
 COLL_METHOD: >-
   <p>Data on transboundary basins and their operational arrangements has not
   been traditionally included within the National Statistical Systems but the
@@ -238,12 +255,12 @@ COLL_METHOD: >-
   Convention on the Protection and Use of Transboundary Watercourses and
   International Lakes (Water Convention) &#x2013; as well as the draft Articles
   on The Law of Transboundary Aquifers (2008; UN General Assembly resolutions
-  63/124 and 66/104).</p>
+  63/124, 66/104, 68/118, 71/150, 74/193 and 77/112).</p>
 
   <p>The mechanism of reporting under the Water Convention also allows for
   sub-components of the indicator to be reported by countries, which will ensure
   both more confidence on the final indicator value (validation) and increased
-  comparability.</p>
+  comparability. </p>
 FREQ_COLL: '<p>First reporting exercise, in 2017; and then at three yearly intervals. </p>'
 REL_CAL_POLICY: <p>Early 2018; and then at three yearly intervals</p>
 DATA_SOURCE: >-
@@ -266,20 +283,21 @@ COMPILING_ORG: >-
 
   <p>Since 2017, the Water Convention&#x2019;s regular reporting on
   transboundary water cooperation, commits its Parties to collect information
-  relavant to SDG indicator 6.5.2, as part of an established mandatory mechanism
+  relevant to SDG indicator 6.5.2, as part of an established mandatory mechanism
   for Parties every 3 years. The reporting covers transboundary rivers, lakes
   and groundwaters. More than 130 countries participate in the Water
-  Convention&#x2019;s activities, as non Parties are also invited. UNECE acts as
+  Convention&#x2019;s activities, as non-Parties are also invited. UNECE acts as
   Secretariat for the Water Convention. </p>
 
   <p>Some countries also report to regional organizations (e.g. the European
   Union or the Southern African Development Community) on the advancement of
   transboundary water cooperation, and similar arrangements could be
   strengthened and facilitated.</p>
+INST_MANDATE: <p>Not applicable</p>
 RATIONALE: >-
-  <p>The majority of the world&#x2019;s water resources are shared: 592
-  transboundary aquifers have been identified and 287 transboundary lake and
-  river basins cover nearly one half of the Earth&#x2019;s land surface and
+  <p>The majority of the world&#x2019;s water resources are shared: 468
+  transboundary aquifers have been identified in 2021 and 310 transboundary lake
+  and river basins cover nearly one half of the Earth&#x2019;s land surface and
   account for an estimated 60% of global freshwater. Approximately 40% of the
   world&#x2019;s population lives in river and lake basins shared by two or more
   countries and over 90% lives in countries that share basins. Development of
@@ -294,11 +312,11 @@ RATIONALE: >-
   <p>Specific agreements or other arrangements concluded between countries
   sharing transboundary basins are a key precondition to ensure long-term,
   sustainable cooperation. International customary water law (as reflected in
-  the 1997 Watercourses Convention, the 1992 Water Convention, and the draft
-  Articles on the Law of Transboundary Aquifers, as well as existing experience
-  and good practices, all point to minimum requirements for operational
-  cooperation. These minimum requirements are captured by the four criteria for
-  operationality.</p>
+  the 1992 Water Convention, the 1997 Watercourses Convention, and the 2008
+  draft Articles on the Law of Transboundary Aquifers), as well as existing
+  experience and good practices, all point to minimum requirements for
+  operational cooperation. These minimum requirements are captured by the four
+  criteria for operationality.</p>
 
   <p>This is the basis for the explicit call for transboundary water cooperation
   in the wording of target 6.5 and the importance of monitoring this indicator
@@ -387,18 +405,18 @@ DATA_COMP: >-
   <p>Step 4 Check which of the existing arrangements for transboundary water
   cooperation are operational</p>
 
-  <p>The following check-list allows countries to determinine whether the
+  <p>The following check-list allows countries to determine whether the
   cooperation arrangement on a particular basin or in relation to a particular
   country is operational:</p>
 
   <p>- does a joint body or mechanism for transboundary water cooperation exist?
   </p>
 
-  <p>- are there at least annual (on average) formal communication in form of
+  <p>- is there at least annual (on average) formal communication in form of
   meetings, either at the political and/or technical level?</p>
 
-  <p>- has a joint or coordinated water management plan(s), or of joint
-  objectives been adopted? </p>
+  <p>- has a joint or coordinated water management plan(s), or joint objectives
+  been adopted? </p>
 
   <p>- is there at least annual (on average) exchange of information and
   data?</p>
@@ -411,8 +429,8 @@ DATA_COMP: >-
   <p>Step 5 Calculate the indicator value</p>
 
   <p>Calculate the indicator value, by adding up the total surface area in the
-  country of the transboundary surface waters or aquifers that are covered by an
-  operational cooperation arrangement and dividing it by the total summed up
+  country of the transboundary surface waters and aquifers that are covered by
+  an operational cooperation arrangement and dividing it by the total summed up
   area in the country of all transboundary basins (including aquifers). The sum
   should then be multiplied by 100 to obtain a percentage.</p>
 DATA_VALIDATION: >-
@@ -426,6 +444,7 @@ DATA_VALIDATION: >-
   provided in order to calculate the national SDG indicator value, and secondly,
   whether an official endorsement of the template is provided (in the form of a
   signature).</p>
+ADJUSTMENT: <p>Not applicable</p>
 IMPUTATION: >-
   <p><strong>&#x2022; At country level</strong></p>
 
@@ -461,12 +480,12 @@ REG_AGG: >-
   desired geographical scale: sub-national, national, regional, basin scale,
   global, etc. However, data gaps can limit this possibility starting from
   regional level.</p>
-QUALITY_ASSMNT: >-
-  <p>Through UN-Water, UNECE and UNESCO have developd a step-by-step methodology
-  that countries can use to compile data at the national level on SDG indicator
-  6.5.2. The methodology, which was revised in January 2020 prior to the second
-  reporting exercise, is available in English, French, Russian and Spanish
-  through the UN-Water website - <a
+DOC_METHOD: >-
+  <p>Through UN-Water, UNECE and UNESCO have developed a step-by-step
+  methodology that countries can use to compile data at the national level on
+  SDG indicator 6.5.2. The methodology, which was revised in January 2020 prior
+  to the second reporting exercise, is available in English, French, Russian and
+  Spanish through the UN-Water website - <a
   href="https://www.unwater.org/publications/step-step-methodology-monitoring-transboundary-cooperation-6-5-2/">https://www.unwater.org/publications/step-step-methodology-monitoring-transboundary-cooperation-6-5-2/</a>.
   </p>
 
@@ -475,10 +494,13 @@ QUALITY_ASSMNT: >-
   the Water Convention and as a contribution to SDG indicator 6.5.2
   (</em>see<em> </em><a
   href="https://unece.org/environment-policy/publications/guide-reporting-under-water-convention-and-contribution-sdg">https://unece.org/environment-policy/publications/guide-reporting-under-water-convention-and-contribution-sdg</a>)
-  in January 2020. The guide, which is available in Arabic, English, Frensh,
+  in January 2020. The guide, which is available in Arabic, English, French,
   Russian and Spanish, supports countries in the completion of the reporting
   template by explaining key terminology and providing examples of how
   particular questions might be addressed. </p>
+QUALITY_MGMNT: <p>Not applicable</p>
+QUALITY_ASSURE: <p>Not applicable</p>
+QUALITY_ASSMNT: <p>Not applicable</p>
 COVERAGE: >-
   <p><strong>Data availability:</strong></p>
 
@@ -533,15 +555,13 @@ COMPARABILITY: >-
   or both surface water and groundwater) may constitute another reason.</p>
 
   <p>Collection of country input through validation mechanisms, has improved and
-  will continute to improve, the consistency and accuracy of the information
+  will continue to improve, the consistency and accuracy of the information
   across the countries as the monitoring progresses.</p>
 OTHER_DOC: >-
   <p>UNECE: <a
   href="https://unece.org/environmental-policy/water/transboundary_water_cooperation_reporting">https://unece.org/environmental-policy/water/transboundary_water_cooperation_reporting</a></p>
 
-  <p>UNESCO: <a
-  href="http://www.unesco.org/new/en/ihp">http://www.unesco.org/new/en/ihp</a>;
-  </p>
+  <p>UNESCO: https://www.unesco.org/en/ihp/sdg6-5-2 ;</p>
 
   <p>UN-WATER SDG6 monitoring: <a
   href="http://www.sdg6monitoring.org/indicator-652">www.sdg6monitoring.org/indicator-652</a>
@@ -557,10 +577,10 @@ OTHER_DOC: >-
   <p><strong>Additional documentation:</strong></p>
 
   <p>Global Environment Facility&#x2019;s Transboundary Waters Assessment
-  Project: <a href="http://www.geftwap.org/">http://www.geftwap.org/</a> </p>
+  Programme: <a href="http://www.geftwap.org/">http://www.geftwap.org/</a> </p>
 
-  <p>Internationally Shared Aquifer Resources Management (UNESCO&#x2019;s
-  International Hydrological Programme): <a
+  <p>Internationally Shared Aquifer Resources Management Programme
+  (UNESCO&#x2019;s International Hydrological Programme): <a
   href="http://www.isarm.org/">http://www.isarm.org/</a> </p>
 
   <p>Treaties on transboundary waters, Oregon State University: <a
