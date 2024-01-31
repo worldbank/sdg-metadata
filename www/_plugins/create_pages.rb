@@ -197,6 +197,42 @@ module SdgMetadataPlugins
         site.pages << SdgMetadataPage.new(site, base, dir, layout, title, content, language, data)
       end
 
+      # Generate the full-metadata-per-language pages.
+      site.data['store']['metadata'].each do |language, indicators|
+        indicators_sorted = indicators.keys.sort_by{ |k| get_sort_order(k) }
+        dir = File.join('metadata', language, 'all') + '/'
+        layout = 'full-metadata-per-language'
+        title = 'All metadata for: ' + language
+        if site.data['languages'].key?(language)
+          title = 'All metadata for: ' + site.data['languages'][language]['name']
+        end
+        content = ''
+        data = { 'indicators' => [] }
+        toc = indicators_sorted.map do |indicator|
+          label = indicator.gsub('-', '.')
+          '<li><a href="#' + indicator + '">' + label + '</a></li>'
+        end
+        toc = '<ul class="indicator-fields">' + toc.join('') + '</ul>'
+        data['sidebar'] = [
+          {
+            'title' => 'Indicators',
+            'text' => toc
+          }
+        ]
+        indicators_sorted.each do |indicator|
+          field_content = indicators[indicator]
+          translated_fields = site.data['store']['fields'].select {|c| field_content[c['id']] != '' }
+          content = translated_fields.map {|c| '<a name="' + indicator + '-' + c['id'] + '"></a>' + get_field_content(field_content[c['id']], c['id'], c['name'], site, language) }
+          content = content.join("")
+          data['indicators'].push({
+            'indicator_id' => indicator,
+            'indicator_label' => indicator.gsub('-', '.'),
+            'content' => content,
+          })
+        end
+        site.pages << SdgMetadataPage.new(site, base, dir, layout, title, content, language, data)
+      end
+
       # Generate all the statistics pages.
       site.data['store']['metadata'].each do |language, indicators|
         dir = File.join('metadata', language, 'statistics') + '/'

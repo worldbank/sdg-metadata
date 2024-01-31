@@ -1,0 +1,9 @@
+---
+layout: single
+---
+{% for indicator in page.indicators %}
+<div>
+    <h2 id="{{ indicator.indicator_id }}">{{ indicator.indicator_label }}</h2>
+    <div>{{ indicator.content }}</div>
+</div>
+{% endfor %}
