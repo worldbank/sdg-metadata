@@ -269,3 +269,25 @@
 .language-tag {
   font-size: 0.9em;
 }
+
+.translation-status {
+  display: inline-block;
+  width: 300px;
+  height: 20px;
+  border: 1px solid black;
+  position: relative;
+  top: 5px;
+
+  span {
+    display: inline-block;
+    height: 19px;
+    position: absolute;
+    z-index: -1;
+  }
+  .translated {
+    background: #0071bc;
+  }
+  .fuzzy {
+    background: orange;
+  }
+}

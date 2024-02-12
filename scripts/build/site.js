@@ -32,6 +32,7 @@ module.exports = function(refresh=false) {
         'approved',
         'failing',
         'fuzzy',
+        'translated',
     ]
 
     writeStatistics()
