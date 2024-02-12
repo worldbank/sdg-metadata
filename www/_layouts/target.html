@@ -1,7 +1,11 @@
 ---
 layout: single
 ---
-<p>Choose an indicator below:</p>
+{% capture translation-status-legend %}{% include translation-status-legend.html %}{% endcapture %}
+{{ translation-status-legend | markdownify }}
+
+Choose an indicator below:
+
 <ul>
 {% for indicator in page.indicators %}
   <li>

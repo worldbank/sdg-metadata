@@ -291,3 +291,20 @@
     background: orange;
   }
 }
+
+.translation-legend-translated {
+  background: #0071bc;
+  height: 20px;
+  width: 50px;
+  display: inline-block;
+  margin-right: 10px;
+  margin-bottom: -3px;
+}
+.translation-legend-fuzzy {
+  background: orange;
+  height: 20px;
+  width: 50px;
+  display: inline-block;
+  margin-right: 10px;
+  margin-bottom: -3px;
+}
