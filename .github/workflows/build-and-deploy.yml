@@ -19,7 +19,9 @@ jobs:
         root-reserve-mb: 512
         swap-size-mb: 1024
         remove-dotnet: 'true'
-    - uses: actions/checkout@v1
+    - uses: actions/checkout@v3
+      with:
+        fetch-depth: 0
     - name: Set up Ruby 3.1
       uses: ruby/setup-ruby@v1
       with:
