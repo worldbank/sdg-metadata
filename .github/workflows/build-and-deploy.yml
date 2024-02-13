@@ -14,11 +14,11 @@ jobs:
 
     steps:
     - name: Maximize build space
-        uses: easimon/maximize-build-space@master
-        with:
-          root-reserve-mb: 512
-          swap-size-mb: 1024
-          remove-dotnet: 'true'
+      uses: easimon/maximize-build-space@master
+      with:
+        root-reserve-mb: 512
+        swap-size-mb: 1024
+        remove-dotnet: 'true'
     - uses: actions/checkout@v1
     - name: Set up Ruby 3.1
       uses: ruby/setup-ruby@v1
