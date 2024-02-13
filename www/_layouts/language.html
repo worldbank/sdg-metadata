@@ -4,10 +4,10 @@ layout: single
 {{ site.data.languages[page.language].blurb | markdownify }}
 
 <div class="statistics-buttons">
+  <a class="btn btn--info" href="all/">{{ site.data.store.t[page.language].site.ALL_METADATA | default: 'All metadata' }}</a>
 {% if page.language != 'en' %}
   <a class="btn btn--info" href="statistics/">{{ site.data.store.t[page.language].site.STATISTICS | default: 'Translation statistics' }}</a>
 {% endif %}
-  <a class="btn btn--info" href="all/">All metadata</a>
 </div>
 
 {% for goal in page.goals %}

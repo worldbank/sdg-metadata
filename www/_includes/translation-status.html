@@ -1,0 +1,8 @@
+{%- assign total = stats.total | plus: 0 -%}
+{%- if total > 0 -%}
+    {%- assign translated = stats.translated | plus: 0 -%}
+    {%- assign fuzzy = stats.fuzzy | plus: 0 -%}
+    {%- assign translated_percent = translated | times: 100 | divided_by: total -%}
+    {%- assign fuzzy_percent = fuzzy | times: 100 | divided_by: total -%}
+    <div class="translation-status"><span title="Translated: {{ translated_percent }}%" class="translated" style="width: {{ translated_percent }}%"></span><span class="fuzzy" title="Needs edit: {{ fuzzy_percent }}%" style="width: {{ fuzzy_percent }}%; left: {{ translated_percent }}%"></span></div>
+{%- endif -%}

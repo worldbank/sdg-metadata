@@ -1,15 +1,18 @@
 ---
 layout: single
 ---
-<p>Choose an indicator below:</p>
+{% capture translation-status-legend %}{% include translation-status-legend.html %}{% endcapture %}
+{{ translation-status-legend | markdownify }}
+
+Choose an indicator below:
+
 <ul>
 {% for indicator in page.indicators %}
   <li>
     <a class="btn btn--info" href="{{ site.baseurl }}/metadata/{{ page.language }}/{{ indicator }}">{{ indicator | replace: '-', '.' }}</a>
     {% if page.language != 'en' %}
-    <a href="https://hosted.weblate.org/projects/sdg-metadata/{{ indicator }}/{{ page.language }}/">
-      <img src="https://hosted.weblate.org/widgets/sdg-metadata/{{ page.language }}/{{ indicator }}/svg-badge.svg" alt="Translation status" />
-    </a>
+      {% assign stats = site.data.stats[page.language].indicators[indicator] %}
+      {% include translation-status.html stats=stats %}
     {% endif %}
   </li>
 {% endfor %}
