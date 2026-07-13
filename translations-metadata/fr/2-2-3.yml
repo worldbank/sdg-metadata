@@ -1,11 +1,11 @@
 SDG_GOAL: >-
   <p>Objectif 2 : Éliminer la faim, assurer la sécurité alimentaire, améliorer la
   nutrition et promouvoir l'agriculture durable</p>
-SDG_TARGET: "<p>Objectif 2.2 : D'ici 2030, mettre fin à toutes formes de malnutrition,\
-  \ notamment en atteignant d'ici 2025 les objectifs convenus au niveau international\
-  \ concernant le retard de croissance et l'émaciation chez les enfants de moins de\
-  \ cinq ans, et répondre aux besoins nutritionnels des adolescentes, des femmes enceintes\
-  \ et allaitantes et des personnes âgées</p>"
+SDG_TARGET: "<p>Objectif 2.2 : D'ici 2030, mettre fin à toutes formes de malnutrition,
+  notamment en atteignant d'ici 2025 les objectifs convenus au niveau international
+  concernant le retard de croissance et l'émaciation chez les enfants de moins de
+  cinq ans, et répondre aux besoins nutritionnels des adolescentes, des femmes enceintes
+  et allaitantes et des personnes âgées</p>"
 SDG_INDICATOR: >-
   <p>Indicateur 2.2.3 : Prévalence de l’anémie chez les femmes âgées de 15 à 49 ans,
   selon l'état de grossesse (pourcentage)</p>
@@ -297,55 +297,60 @@ OTHER_DOC: >-
   Chaque femme, chaque enfant. New York : Nations Unies; 2015. (Disponible à l'adresse
   https://www.who.int/life-course/partners/global-strategy/globalstrategyreport2016-2030-lowres.pdf)</p>
 CONTACT_ORGANISATION: <p>Organisation mondiale de la Santé (OMS)</p>
-UNIT_MEASURE: <p>Pourcentage (%)</p>
-CLASS_SYSTEM: <p>OMS. (en anglais seulement) Haemoglobin concentrations for the diagnosis
-  of anaemia and assessment of severity. Vitamin and Mineral Nutrition Information
-  System. Genève, Organisation mondiale de la Santé, 2011 (WHO/NMH/NHD/MNM/11.1)(<a
+UNIT_MEASURE: <p>Pourcentage</p>
+CLASS_SYSTEM: <p>OMS. (en anglais seulement) Haemoglobin concentrations for the 
+  diagnosis of anaemia and assessment of severity. Vitamin and Mineral Nutrition
+  Information System. Genève, Organisation mondiale de la Santé, 2011 
+  (WHO/NMH/NHD/MNM/11.1)(<a 
   href="http://www.who.int/vmnis/indicators/haemoglobin.pdf">http://www.who.int/vmnis/indicators/haemoglobin.pdf</a>,
   consulté le 4 mars 2021).</p>
-INST_MANDATE: <p>Le Système d'information nutritionnelle sur les vitamines et les
-  minéraux (VMNIS), anciennement connu sous le nom de Système d'information sur les
-  carences en micronutriments (MDIS), a été créé en 1991 à la suite d'une demande
-  de l'Assemblée mondiale de la Santé de renforcer la surveillance des carences en
-  micronutriments au niveau mondial. Une partie du mandat de l'OMS consiste à évaluer
-  le statut des populations en matière de micronutriments, à suivre et à évaluer l'impact
-  des stratégies de prévention et de contrôle de la malnutrition en micronutriments,
-  et à suivre les tendances dans le temps.</p>
-DATA_VALIDATION: <p>Une fois que les données d'enquête sont compilées et que le modèle
-  de mélange hiérarchique bayésien est exécuté pour générer des estimations de l'anémie,
-  les pays reçoivent un mémorandum pour fournir un contexte aux estimations et expliquer
-  le processus. Des informations sur les données d'enquête utilisées pour générer
-  les estimations pour ce pays, les estimations pour les années 2000, 2005, 2010,
-  2015 et 2019, et les graphiques qui en résultent pour chaque pays sont fournis avec
-  une explication de la méthodologie utilisée pour générer les estimations. Les pays
-  sont priés de fournir leurs commentaires dans un délai de six semaines.</p>
-ADJUSTMENT: <p>Les données sur l'hémoglobine moyenne et la prévalence de l'anémie
-  dans les pays de haute altitude qui n'ont pas été ajustées pour l'altitude lors
-  de leur diffusion ont été ajustées pour l'altitude par l'OMS, comme décrit dans
-  Stevens et collab. (2013). Le mélange hiérarchique bayésien ajuste en interne les
-  statistiques sommaires calculées avec des seuils d'hémoglobine non standard pour
-  qu'elles correspondent aux seuils standard de l'OMS indiqués ci-dessus. </p>
-QUALITY_MGMNT: <p>Toutes les enquêtes incluses dans la base de données passent par
-  les critères d'inclusion décrits ci-dessous. Les données suivent également les cinq
-  principes de l'OMS en matière de données <sup><a href="#footnote-3" id="footnote-ref-3">[2]</a></sup>.
-  </p><div class="footnotes"><div><sup class="footnote-number" id="footnote-3">2</sup><p>
-  (en anglais) WHO data principles. https://www.who.int/data/principles <a href="#footnote-ref-3">&#x2191;</a></p></div></div>
-QUALITY_ASSMNT: "<p>Les données de la base de données sur les micronutriments passent\
-  \ un examen supplémentaire pour être incluses dans les estimations si un plan d’échantillonnage\
-  \ en milieu de santé a été utilisé afin d’exclure les données lorsque celles-ci\
-  \ ne seraient pas représentatives de la population générale. Le seuil général d’inclusion\
-  \ était de 80 % d’affiliation de la population cible à l’établissement. Pour les\
-  \ études sur des enfants échantillonnés à partir de listes de médecins de soins\
-  \ primaires ou de visites d’enfants en bonne santé, nous avons inclus les données\
-  \ si la couverture nationale de la troisième dose du vaccin DTC dépassait 80%. Pour\
-  \ les femmes échantillonnées auprès de fournisseurs de soins obstétriques, les données\
-  \ ont été incluses si la couverture d’au moins un soin prénatal était supérieure\
-  \ à 80 %. Pour l’échantillonnage scolaire des adolescents, le taux de réussite du\
-  \ premier cycle du secondaire pour les filles devait être supérieur à 80 %. </p>\n\
-  <p>Nous avons exclu les données si les migrants représentaient plus de 40% de la\
-  \ population du pays et si la source de données ne couvrait que les habitants nationaux.\
-  \ Des contrôles de qualité (p. ex., des valeurs invraisemblables qui ne sont pas\
-  \ conformes à la durée de vie) sont effectués lorsque les données sont entrées dans\
-  \ la base de données et lorsque les données sont compilées pour produire les estimations.\
-  \ </p>"
+INST_MANDATE: <p>Le Système d'information nutritionnelle sur les vitamines et 
+  les minéraux (VMNIS), anciennement connu sous le nom de Système d'information 
+  sur les carences en micronutriments (MDIS), a été créé en 1991 à la suite 
+  d'une demande de l'Assemblée mondiale de la Santé de renforcer la surveillance
+  des carences en micronutriments au niveau mondial. Une partie du mandat de 
+  l'OMS consiste à évaluer le statut des populations en matière de 
+  micronutriments, à suivre et à évaluer l'impact des stratégies de prévention 
+  et de contrôle de la malnutrition en micronutriments, et à suivre les 
+  tendances dans le temps.</p>
+DATA_VALIDATION: <p>Une fois que les données d'enquête sont compilées et que le 
+  modèle de mélange hiérarchique bayésien est exécuté pour générer des 
+  estimations de l'anémie, les pays reçoivent un mémorandum pour fournir un 
+  contexte aux estimations et expliquer le processus. Des informations sur les 
+  données d'enquête utilisées pour générer les estimations pour ce pays, les 
+  estimations pour les années 2000, 2005, 2010, 2015 et 2019, et les graphiques 
+  qui en résultent pour chaque pays sont fournis avec une explication de la 
+  méthodologie utilisée pour générer les estimations. Les pays sont priés de 
+  fournir leurs commentaires dans un délai de six semaines.</p>
+ADJUSTMENT: <p>Les données sur l'hémoglobine moyenne et la prévalence de 
+  l'anémie dans les pays de haute altitude qui n'ont pas été ajustées pour 
+  l'altitude lors de leur diffusion ont été ajustées pour l'altitude par l'OMS, 
+  comme décrit dans Stevens et collab. (2013). Le mélange hiérarchique bayésien 
+  ajuste en interne les statistiques sommaires calculées avec des seuils 
+  d'hémoglobine non standard pour qu'elles correspondent aux seuils standard de 
+  l'OMS indiqués ci-dessus. </p>
+QUALITY_MGMNT: <p>Toutes les enquêtes incluses dans la base de données passent 
+  par les critères d'inclusion décrits ci-dessous. Les données suivent également
+  les cinq principes de l'OMS en matière de données <sup><a href="#footnote-3" 
+  id="footnote-ref-3">[2]</a></sup>. </p><div class="footnotes"><div><sup 
+  class="footnote-number" id="footnote-3">2</sup><p> (en anglais) WHO data 
+  principles. https://www.who.int/data/principles <a 
+  href="#footnote-ref-3">&#x2191;</a></p></div></div>
+QUALITY_ASSMNT: "<p>Les données de la base de données sur les micronutriments passent
+  un examen supplémentaire pour être incluses dans les estimations si un plan d’échantillonnage
+  en milieu de santé a été utilisé afin d’exclure les données lorsque celles-ci ne
+  seraient pas représentatives de la population générale. Le seuil général d’inclusion
+  était de 80 % d’affiliation de la population cible à l’établissement. Pour les études
+  sur des enfants échantillonnés à partir de listes de médecins de soins primaires
+  ou de visites d’enfants en bonne santé, nous avons inclus les données si la couverture
+  nationale de la troisième dose du vaccin DTC dépassait 80%. Pour les femmes échantillonnées
+  auprès de fournisseurs de soins obstétriques, les données ont été incluses si la
+  couverture d’au moins un soin prénatal était supérieure à 80 %. Pour l’échantillonnage
+  scolaire des adolescents, le taux de réussite du premier cycle du secondaire pour
+  les filles devait être supérieur à 80 %. </p>\n<p>Nous avons exclu les données si
+  les migrants représentaient plus de 40% de la population du pays et si la source
+  de données ne couvrait que les habitants nationaux. Des contrôles de qualité (p.
+  ex., des valeurs invraisemblables qui ne sont pas conformes à la durée de vie) sont
+  effectués lorsque les données sont entrées dans la base de données et lorsque les
+  données sont compilées pour produire les estimations. </p>"
 SDG_SERIES_DESCR: <p>Sans objet</p>

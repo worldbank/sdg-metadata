@@ -1,33 +1,34 @@
 SDG_GOAL: >-
-  <p>Objectif 5 : Parvenir à l’égalité des sexes et autonomiser toutes les femmes
+  <p>Objectif 5 : Parvenir à l’égalité des sexes et autonomiser toutes les femmes
   et les filles</p>
-SDG_TARGET: "<p>Cible 5.3 : Éliminer toutes les pratiques préjudiciables, telles que\
-  \ le mariage d'enfants, le mariage précoce ou forcé et la mutilation génitale féminine</p>"
-SDG_INDICATOR: "<p>Indicateur 5.3.1 : Proportion de femmes âgées de 20 à 24 ans qui\
-  \ étaient mariées ou en couple avant l’âge de 15 ans et avant l'âge de 18 ans</p>"
+SDG_TARGET: "<p>Cible 5.3 : Éliminer toutes les pratiques préjudiciables, telles que
+  le mariage d'enfants, le mariage précoce ou forcé et la mutilation génitale féminine</p>"
+SDG_INDICATOR: "A.sai.com<p>Indicateur 5.3.1 : Proportion de femmes âgées de 20 à
+  24 ans qui étaient mariées ou en couple avant l’âge de 15 ans et avant l'âge de
+  18 ans</p>"
 META_LAST_UPDATE: '<p>2022-03-31</p>'
 SDG_CUSTODIAN_AGENCIES: |-
   <p>Fonds des Nations Unies pour l’enfance (UNICEF)</p>
 STAT_CONC_DEF: >-
-  <p><strong>Définition : </strong></p>
+  <p><strong>Définition : </strong></p>
 
   <p>Proportion de femmes âgées de 20 à 24 ans qui étaient mariées ou en couple avant
   l'âge de 15 ans et avant l'âge de 18 ans.</p>
 
-  <p><strong>Concepts : </strong></p>
+  <p><strong>Concepts : </strong></p>
 
-  <p>Les unions formelles (c.-à-d. les mariages) et informelles sont couvertes par
-  cet indicateur. Les unions informelles sont généralement définies comme celles dans
-  lesquelles un couple vit ensemble pendant un certain temps, avec l'intention d'avoir
-  une relation durable, mais pour lesquelles il n'y a pas eu de cérémonie civile ou
-  religieuse officielle (c.-à-d. la cohabitation).</p>
+  <p>Les unions formelles (c'est-à-dire les mariages) et informelles sont couvertes
+  par cet indicateur. Les unions informelles sont généralement définies comme celles
+  dans lesquelles un couple vit ensemble pendant un certain temps, avec l'intention
+  d'avoir une relation durable, mais pour lesquelles il n'y a pas eu de cérémonie
+  civile ou religieuse officielle (c.-à-d. la cohabitation).</p>
 SOURCE_TYPE: >-
-  <p>Les enquêtes auprès des ménages, telles que les enquêtes en grappes à indicateurs
-  multiples (MICS) et l'Enquête démographique et de santé (EDS), qui sont soutenues
-  par l'UNICEF, permettent de recueillir des données sur cet indicateur dans les pays
-  à faible ou à moyen revenu et ce depuis la fin des années 1980. Dans certains pays,
-  les données sont également recueillies par le biais de recensements nationaux, de
-  d'autres enquêtes nationales auprès des ménages ou de données administratives.</p>
+  <p>Des enquêtes ménages telles que l’Enquête sur les Multiples Indicateurs (MICS)
+  soutenue par l’UNICEF et les Enquêtes Démographiques et de Santé (DHS) collectent
+  des données sur cet indicateur en pays à faible ou à moyen revenu depuis la fin
+  des années 1980 environ. Dans certains pays, ces données sont également collectées
+  par des recensements nationaux, d’autres enquêtes nationales auprès des ménages
+  ou des données administratives.</p>
 COLL_METHOD: >-
   <ul>
         <li>L’UNICEF entreprend un vaste processus consultatif de compilation et d’évaluation
@@ -58,9 +59,9 @@ FREQ_COLL: >-
   entre décembre et janvier, afin de permettre l’examen et le traitement des commentaires
   reçus afin de respecter les échéances mondiales de déclaration des ODD. </p>
 REL_CAL_POLICY: |-
-  <p>Chaque année en mars. </p>
+  <h1>Calendrier</h1>
 DATA_SOURCE: |-
-  <p>Bureaux nationaux de statistique (dans la plupart des cas)</p>
+  <p>Offices nationaux de statistique (dans la plupart des cas)</p>
 COMPILING_ORG: |-
   <p>Fonds des Nations Unies pour l'enfance (UNICEF)</p>
 RATIONALE: >-
@@ -173,42 +174,49 @@ OTHER_DOC: >-
 
   <p><a href="https://data.unicef.org/resources/a-generation-to-protect/">https://data.unicef.org/resources/a-generation-to-protect/</a>
   </p>
-SDG_RELATED_INDICATORS: <p>Sans objet</p>
-INST_MANDATE: <p>L’UNICEF est responsable du suivi mondial et de l’établissement de
-  rapports sur le bien-être des enfants. Il fournit une assistance technique et financière
-  aux États membres pour les aider à recueillir des données de qualité sur le mariage
-  d'enfants, notamment par le biais du programme d’enquête auprès des ménages MICS
-  soutenu par l’UNICEF. L’UNICEF compile également des statistiques sur le mariage
-  d'enfants dans le but de mettre à la disposition du public des ensembles de données
-  comparables au niveau international, et il analyse les statistiques sur le mariage
-  d'enfants qui sont incluses dans les publications pertinentes fondées sur des données,
-  y compris dans sa publication phare, <em>The State of the World's Children</em>.
+SDG_RELATED_INDICATORS: |-
+  <p>Proportion de la population vivant dans la pauvreté sous toutes ses formes selon les définitions nationales [1.2.2] (SI_POV_NMPI)</p>
+  <p>Proportion moyenne de privations pour les personnes multidimensionnellement pauvres [1.2.2] (SD_MDP_ANDI) </p>
+  <p>Proportion d'enfants vivant dans une pauvreté multidimensionnelle spécifique à l'enfant [1.2.2] (SD_MDP_CSMP) </p>
+  <p>Proportion de ménages vivant dans la pauvreté multidimensionnelle [1.2.2] (SD_MDP_MUHHC) </p>
+INST_MANDATE: <p>L’UNICEF est responsable du suivi mondial et de l’établissement
+  de rapports sur le bien-être des enfants. Il fournit une assistance technique 
+  et financière aux États membres pour les aider à recueillir des données de 
+  qualité sur le mariage d'enfants, notamment par le biais du programme 
+  d’enquête auprès des ménages MICS soutenu par l’UNICEF. L’UNICEF compile 
+  également des statistiques sur le mariage d'enfants dans le but de mettre à la
+  disposition du public des ensembles de données comparables au niveau 
+  international, et il analyse les statistiques sur le mariage d'enfants qui 
+  sont incluses dans les publications pertinentes fondées sur des données, y 
+  compris dans sa publication phare, <em>The State of the World's Children</em>.
   </p>
-CONTACT_ORGANISATION: <p>Fonds des Nations Unies pour l’enfance (UNICEF)</p>
-UNIT_MEASURE: <p>Pourcentage (%)</p>
-CLASS_SYSTEM: <p>L’indicateur englobe toutes les unions formelles et informelles (de
-  cohabitation). À des fins de comparabilité, l’âge de 18 ans est utilisé comme norme
-  entre les pays comme âge commun de la majorité, bien que le seuil entre l’enfance
-  et l’âge adulte varie d’un pays à l’autre, tout comme l’âge légal du mariage. </p>
-DATA_VALIDATION: "<p>Un vaste processus de consultation est entrepris pour compiler,\
-  \ évaluer et valider les données provenant de sources nationales. </p>\n<p>Le processus\
-  \ de consultation a sollicité des commentaires directement des bureaux nationaux\
-  \ de statistique, ainsi que d'autres agences gouvernementales responsables des statistiques\
-  \ officielles, sur la compilation des indicateurs, y compris les sources de données\
-  \ utilisées, et l'application de définitions, de classifications et de méthodologies\
-  \ convenues au niveau international pour les données de ces sources. Les résultats\
-  \ de cette consultation nationale sont examinés par l'UNICEF en tant qu'agence dépositaire.\
-  \ Une fois examinés, des commentaires sont mis à la disposition des pays sur l'acceptation\
-  \ ou non de points de données spécifiques et, s'ils ne sont pas acceptés, sur les\
-  \ raisons. </p>"
-QUALITY_MGMNT: <p>Le processus qui sous-tend la production de statistiques fiables
-  sur le mariage d'enfants est bien établi au sein de l’UNICEF. La qualité et le processus
-  conduisant à la production de l’indicateur 5.3.1 des ODD sont assurés en travaillant
-  en étroite collaboration avec les bureaux de statistique et d’autres parties prenantes
-  concernées, par le biais d’un processus consultatif. </p>
-QUALITY_ASSMNT: <p>Des contrôles de cohérence et de qualité des données sont régulièrement
-  effectués pour valider les données avant leur diffusion. </p>
+CONTACT_ORGANISATION: <p>Fonds des Nations Unies pour l'enfance (UNICEF)</p>
+UNIT_MEASURE: <p>Pourcentage</p>
+CLASS_SYSTEM: <p>L’indicateur englobe toutes les unions formelles et informelles
+  (de cohabitation). À des fins de comparabilité, l’âge de 18 ans est utilisé 
+  comme norme entre les pays comme âge commun de la majorité, bien que le seuil 
+  entre l’enfance et l’âge adulte varie d’un pays à l’autre, tout comme l’âge 
+  légal du mariage. </p>
+DATA_VALIDATION: "<p>Un vaste processus de consultation est entrepris pour compiler,
+  évaluer et valider les données provenant de sources nationales. </p>\n<p>Le processus
+  de consultation a sollicité des commentaires directement des bureaux nationaux de
+  statistique, ainsi que d'autres agences gouvernementales responsables des statistiques
+  officielles, sur la compilation des indicateurs, y compris les sources de données
+  utilisées, et l'application de définitions, de classifications et de méthodologies
+  convenues au niveau international pour les données de ces sources. Les résultats
+  de cette consultation nationale sont examinés par l'UNICEF en tant qu'agence dépositaire.
+  Une fois examinés, des commentaires sont mis à la disposition des pays sur l'acceptation
+  ou non de points de données spécifiques et, s'ils ne sont pas acceptés, sur les
+  raisons. </p>"
+QUALITY_MGMNT: <p>Le processus qui sous-tend la production de statistiques 
+  fiables sur le mariage d'enfants est bien établi au sein de l’UNICEF. La 
+  qualité et le processus conduisant à la production de l’indicateur 5.3.1 des 
+  ODD sont assurés en travaillant en étroite collaboration avec les bureaux de 
+  statistique et d’autres parties prenantes concernées, par le biais d’un 
+  processus consultatif. </p>
+QUALITY_ASSMNT: <p>Des contrôles de cohérence et de qualité des données sont 
+  régulièrement effectués pour valider les données avant leur diffusion. </p>
 ADJUSTMENT: <p>Sans objet</p>
-SDG_SERIES_DESCR: "<p>Proportion de femmes âgées de 20 à 24 ans qui étaient mariées\
-  \ ou en couple avant l’âge de 15 ans (%)</p>\n<p>Proportion de femmes âgées de 20\
-  \ à 24 ans qui étaient mariées ou en couple avant l’âge de 18 ans (%)</p>"
+SDG_SERIES_DESCR: "<p>Proportion de femmes âgées de 20 à 24 ans qui étaient mariées
+  ou en couple avant l’âge de 15 ans (%)</p>\n<p>Proportion de femmes âgées de 20
+  à 24 ans qui étaient mariées ou en couple avant l’âge de 18 ans (%)</p>\nSai.net"
